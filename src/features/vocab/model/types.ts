@@ -6,6 +6,7 @@ export interface VocabularySet {
   name: string
   order: number
   wordIdPrefix?: string
+  updatedAt?: string
   wordIds: string[]
 }
 
@@ -14,6 +15,7 @@ export interface ThemeWordbook {
   name: string
   order: number
   wordIdPrefix?: string
+  updatedAt?: string
   kind: 'theme'
   topics: ThemeWordbookTopic[]
 }
@@ -52,6 +54,7 @@ export interface ComparisonWordbook {
   name: string
   order: number
   wordIdPrefix?: string
+  updatedAt?: string
   kind: 'compare'
   pairIds: string[]
 }
@@ -87,4 +90,5 @@ export interface SelectableWordbook {
   order: number
   kind: WordbookKind
   itemCount: number
+  updatedAt?: string
 }

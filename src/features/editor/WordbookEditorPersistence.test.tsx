@@ -17,7 +17,7 @@ vi.mock('@/features/editor/editorPersistence', () => ({
   writeTextFile: vi.fn(),
 }))
 
-function createDirectoryHandle(name = 'JapaneseStudy-Private-') {
+function createDirectoryHandle(name = 'Yohaku-no-Kotaba') {
   return {
     kind: 'directory',
     name,
@@ -82,5 +82,33 @@ describe('WordbookEditorPage workspace persistence', () => {
     expect(editorPersistence.ensureReadWritePermission).toHaveBeenCalledWith(rememberedHandle)
     expect(editorPersistence.pickWorkspaceDirectory).not.toHaveBeenCalled()
     expect(screen.getByText('프로젝트 반영 완료')).toBeInTheDocument()
+  })
+
+  it('writes the active wordbook updated date into exported files on save', async () => {
+    const user = userEvent.setup()
+    const rememberedHandle = createDirectoryHandle()
+
+    vi.mocked(editorPersistence.loadSavedWorkspaceHandle).mockResolvedValue(rememberedHandle)
+    vi.mocked(editorPersistence.getReadWritePermissionState).mockResolvedValue('granted')
+    vi.mocked(editorPersistence.verifyWorkspaceDirectory).mockResolvedValue(true)
+
+    render(<WordbookEditorPage />)
+
+    await user.click(screen.getByRole('button', { name: '현재 프로젝트에 저장' }))
+
+    await waitFor(() => {
+      expect(editorPersistence.writeTextFile).toHaveBeenCalled()
+    })
+
+    const setsJsonWrite = vi.mocked(editorPersistence.writeTextFile).mock.calls.find(([, pathSegments]) =>
+      pathSegments.join('/') === 'src/features/vocab/editor-data/vocabularySets.json')
+    const themeWordbooksJsonWrite = vi.mocked(editorPersistence.writeTextFile).mock.calls.find(([, pathSegments]) =>
+      pathSegments.join('/') === 'src/features/vocab/editor-data/themeWordbooks.json')
+    const comparisonWordbooksJsonWrite = vi.mocked(editorPersistence.writeTextFile).mock.calls.find(([, pathSegments]) =>
+      pathSegments.join('/') === 'src/features/vocab/editor-data/comparisonWordbooks.json')
+
+    expect(setsJsonWrite?.[2]).toMatch(/"updatedAt":\s*"\d{4}-\d{2}-\d{2}T/)
+    expect(themeWordbooksJsonWrite?.[2]).toMatch(/"updatedAt":\s*"\d{4}-\d{2}-\d{2}T/)
+    expect(comparisonWordbooksJsonWrite?.[2]).toMatch(/"updatedAt":\s*"\d{4}-\d{2}-\d{2}T/)
   })
 })

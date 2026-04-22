@@ -14,11 +14,11 @@ describe('wordbook selectors', () => {
   })
 
   it('returns comparison items for compare wordbooks', () => {
-    const items = getStudyItemsForSet('compare-core-verbs')
+    const items = getStudyItemsForSet('ComparingWords')
 
     expect(items.length).toBeGreaterThan(0)
     expect(items.every((item) => item.kind === 'comparison')).toBe(true)
-    expect(getWordById('compare-core-verbs-JLPTN3_1')?.setId).toBe('compare-core-verbs')
-    expect(getWordbookKind('compare-core-verbs')).toBe('compare')
+    expect(getWordById('ComparingWords_1')?.setId).toBe('ComparingWords')
+    expect(getWordbookKind('ComparingWords')).toBe('compare')
   })
 })

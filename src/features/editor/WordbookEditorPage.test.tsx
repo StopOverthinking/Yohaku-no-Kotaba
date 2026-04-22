@@ -1,5 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
+import { editorComparisonPairs, editorComparisonWords } from '@/features/editor/editorData'
 import { WordbookEditorPage } from '@/features/editor/WordbookEditorPage'
 import styles from '@/features/editor/editor.module.css'
 
@@ -73,7 +74,7 @@ describe('WordbookEditorPage', () => {
     expect(screen.queryByRole('heading', { name: '단어' })).not.toBeInTheDocument()
     expect(screen.getByRole('columnheader', { name: '설명' })).toBeInTheDocument()
     expect(screen.queryByRole('columnheader', { name: 'L JP' })).not.toBeInTheDocument()
-    expect(screen.getAllByRole('row')).toHaveLength(7)
+    expect(screen.getAllByRole('row')).toHaveLength(editorComparisonPairs.length * 2 + 1)
   }, 20000)
 
   it('renders comparison pairs as two rows with one shared description box', () => {
@@ -81,13 +82,27 @@ describe('WordbookEditorPage', () => {
 
     fireEvent.click(screen.getByRole('button', { name: '비교형' }))
 
+    const firstPair = editorComparisonPairs[0]
+    const leftWord = editorComparisonWords.find((word) => word.id === firstPair?.leftWordId)
+    const rightWord = editorComparisonWords.find((word) => word.id === firstPair?.rightWordId)
     const sharedDescription = screen.getAllByRole('textbox', { name: '공통 설명' })[0]
 
-    expect(screen.getByDisplayValue('急ぐ')).toBeInTheDocument()
-    expect(screen.getByDisplayValue('慌てる')).toBeInTheDocument()
-    expect((sharedDescription as HTMLTextAreaElement).value).toContain('急ぐ는')
-    expect((sharedDescription as HTMLTextAreaElement).value).toContain('慌てる는')
+    expect(screen.getByDisplayValue(leftWord?.japanese ?? '')).toBeInTheDocument()
+    expect(screen.getByDisplayValue(rightWord?.japanese ?? '')).toBeInTheDocument()
+    expect((sharedDescription as HTMLTextAreaElement).value).toBe(firstPair?.leftDescription ?? '')
     expect(sharedDescription.closest('td')).toHaveAttribute('rowspan', '2')
+  }, 20000)
+
+  it('keeps spaces while typing in the shared comparison description', () => {
+    render(<WordbookEditorPage />)
+
+    fireEvent.click(screen.getByRole('button', { name: '비교형' }))
+
+    const sharedDescription = screen.getAllByRole('textbox', { name: '공통 설명' })[0]
+
+    fireEvent.change(sharedDescription, { target: { value: '급한 차이 설명 ' } })
+
+    expect(sharedDescription).toHaveValue('급한 차이 설명 ')
   }, 20000)
 
   it('resizes a basic table column by dragging the header handle', () => {

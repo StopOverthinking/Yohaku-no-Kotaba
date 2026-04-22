@@ -156,6 +156,22 @@ describe('editorSerializer', () => {
     expect(normalized.comparisonWords.map((word) => word.id)).toEqual(['compare-w-1', 'compare-w-2'])
   })
 
+  it('preserves comparison description spaces while normalizing line endings', () => {
+    const normalized = normalizeEditorSnapshot({
+      ...createSnapshot(),
+      comparisonPairs: [
+        {
+          ...createSnapshot().comparisonPairs[0],
+          leftDescription: '앞  공백 \r\n\r\n끝 공백 ',
+          rightDescription: ' 유지 ',
+        },
+      ],
+    })
+
+    expect(normalized.comparisonPairs[0]?.leftDescription).toBe('앞  공백 \n\n끝 공백 ')
+    expect(normalized.comparisonPairs[0]?.rightDescription).toBe(' 유지 ')
+  })
+
   it('reports duplicate ids and missing sets', () => {
     const issues = validateEditorSnapshot({
       sets: [

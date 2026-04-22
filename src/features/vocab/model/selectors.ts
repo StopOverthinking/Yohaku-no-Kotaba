@@ -77,6 +77,7 @@ const selectableWordbooks: SelectableWordbook[] = [
     order: set.order,
     kind: 'basic' as const,
     itemCount: set.wordIds.length,
+    updatedAt: set.updatedAt,
   })),
   ...allThemeWordbooks.map((wordbook) => ({
     id: wordbook.id,
@@ -84,6 +85,7 @@ const selectableWordbooks: SelectableWordbook[] = [
     order: 1000 + wordbook.order,
     kind: 'theme' as const,
     itemCount: allThemeWords.filter((word) => word.setId === wordbook.id).length,
+    updatedAt: wordbook.updatedAt,
   })),
   ...allComparisonWordbooks.map((wordbook) => ({
     id: wordbook.id,
@@ -91,6 +93,7 @@ const selectableWordbooks: SelectableWordbook[] = [
     order: 2000 + wordbook.order,
     kind: 'compare' as const,
     itemCount: wordbook.pairIds.length,
+    updatedAt: wordbook.updatedAt,
   })),
 ]
 

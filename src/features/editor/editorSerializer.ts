@@ -119,11 +119,7 @@ function normalizeWordIdPrefix(value: string | undefined, fallback: string) {
 }
 
 function normalizeComparisonDescription(value: string | undefined) {
-  return (value ?? '')
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter((line) => line.length > 0)
-    .join('\n')
+  return (value ?? '').replace(/\r\n?/g, '\n')
 }
 
 function formatGeneratedWordId(prefix: string, index: number) {

@@ -62,6 +62,12 @@
   line-height: 1.5;
 }
 
+.menuItemDate {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+}
+
 .menuItemMeta {
   display: flex;
   align-items: center;

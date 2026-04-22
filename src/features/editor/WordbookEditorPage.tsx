@@ -1,4 +1,17 @@
-import { Fragment, startTransition, useDeferredValue, useEffect, useMemo, useRef, useState, type MouseEvent as ReactMouseEvent } from 'react'
+import {
+  Fragment,
+  memo,
+  startTransition,
+  useDeferredValue,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type Dispatch,
+  type MouseEvent as ReactMouseEvent,
+  type MutableRefObject,
+  type SetStateAction,
+} from 'react'
 import {
   ArrowDown,
   ArrowUp,
@@ -59,6 +72,12 @@ import { matchesWordSearch } from '@/lib/search'
 import styles from '@/features/editor/editor.module.css'
 
 type EditorMode = 'basic' | 'theme' | 'compare'
+type EditorSaveState = 'idle' | 'saving' | 'saved' | 'error'
+type SnapshotSetter = Dispatch<SetStateAction<EditorSnapshot>>
+type SaveStateSetter = Dispatch<SetStateAction<EditorSaveState>>
+type ChangeTickSetter = Dispatch<SetStateAction<number>>
+type EditorWord = EditorSnapshot['words'][number]
+type ThemeWord = EditorSnapshot['themeWords'][number]
 
 const initialSnapshot = normalizeEditorSnapshot({
   sets: editorVocabularySets,
@@ -83,10 +102,6 @@ function cloneSnapshot(snapshot: EditorSnapshot): EditorSnapshot {
     comparisonWords: snapshot.comparisonWords.map((word) => ({ ...word })),
     comparisonPairs: snapshot.comparisonPairs.map((pair) => ({ ...pair })),
   }
-}
-
-function serializeSnapshot(snapshot: EditorSnapshot) {
-  return JSON.stringify(snapshot)
 }
 
 function difficultyInputValue(value: number | null) {
@@ -162,6 +177,455 @@ function insertWordAfterAnchor(words: EditorSnapshot['words'], anchorId: string 
     })
 }
 
+function markEditorDirty(
+  setSaveState: SaveStateSetter,
+  setChangeTick: ChangeTickSetter,
+  changeTickRef: MutableRefObject<number>,
+) {
+  setSaveState('idle')
+  setChangeTick((current) => {
+    const next = current + 1
+    changeTickRef.current = next
+    return next
+  })
+}
+
+function updateWordFieldInSnapshot<K extends keyof EditorWord>(
+  snapshot: EditorSnapshot,
+  wordId: string,
+  field: K,
+  value: EditorWord[K],
+) {
+  let changed = false
+  const words = snapshot.words.map((word) => {
+    if (word.id !== wordId) {
+      return word
+    }
+
+    if (word[field] === value) {
+      return word
+    }
+
+    changed = true
+    return {
+      ...word,
+      [field]: value,
+    } as EditorWord
+  })
+
+  return changed ? { ...snapshot, words } : snapshot
+}
+
+function updateThemeWordFieldInSnapshot<K extends keyof ThemeWord>(
+  snapshot: EditorSnapshot,
+  wordId: string,
+  field: K,
+  value: ThemeWord[K],
+) {
+  let changed = false
+  const themeWords = snapshot.themeWords.map((word) => {
+    if (word.id !== wordId) {
+      return word
+    }
+
+    if (word[field] === value) {
+      return word
+    }
+
+    changed = true
+    return {
+      ...word,
+      [field]: value,
+    } as ThemeWord
+  })
+
+  return changed ? { ...snapshot, themeWords } : snapshot
+}
+
+function moveBasicWordInSnapshot(snapshot: EditorSnapshot, wordId: string, direction: -1 | 1) {
+  const target = snapshot.words.find((word) => word.id === wordId)
+  if (!target) {
+    return snapshot
+  }
+
+  const siblingWords = snapshot.words
+    .filter((word) => word.setId === target.setId)
+    .sort((left, right) => left.sourceOrder - right.sourceOrder)
+  const index = siblingWords.findIndex((word) => word.id === wordId)
+  const nextIndex = index + direction
+  if (index < 0 || nextIndex < 0 || nextIndex >= siblingWords.length) {
+    return snapshot
+  }
+
+  const nextOrders = new Map<string, number>()
+  const orderedIds = siblingWords.map((word) => word.id)
+  ;[orderedIds[index], orderedIds[nextIndex]] = [orderedIds[nextIndex], orderedIds[index]]
+  orderedIds.forEach((id, orderIndex) => {
+    nextOrders.set(id, orderIndex)
+  })
+
+  let changed = false
+  const words = snapshot.words.map((word) => {
+    const nextOrder = nextOrders.get(word.id)
+    if (nextOrder === undefined || nextOrder === word.sourceOrder) {
+      return word
+    }
+
+    changed = true
+    return {
+      ...word,
+      sourceOrder: nextOrder,
+    }
+  })
+
+  return changed ? { ...snapshot, words } : snapshot
+}
+
+function moveThemeWordInSnapshot(snapshot: EditorSnapshot, wordId: string, direction: -1 | 1) {
+  const target = snapshot.themeWords.find((word) => word.id === wordId)
+  if (!target) {
+    return snapshot
+  }
+
+  const siblingWords = snapshot.themeWords
+    .filter((word) => word.setId === target.setId)
+    .sort((left, right) => left.sourceOrder - right.sourceOrder)
+  const index = siblingWords.findIndex((word) => word.id === wordId)
+  const nextIndex = index + direction
+  if (index < 0 || nextIndex < 0 || nextIndex >= siblingWords.length) {
+    return snapshot
+  }
+
+  const nextOrders = new Map<string, number>()
+  const orderedIds = siblingWords.map((word) => word.id)
+  ;[orderedIds[index], orderedIds[nextIndex]] = [orderedIds[nextIndex], orderedIds[index]]
+  orderedIds.forEach((id, orderIndex) => {
+    nextOrders.set(id, orderIndex)
+  })
+
+  let changed = false
+  const themeWords = snapshot.themeWords.map((word) => {
+    const nextOrder = nextOrders.get(word.id)
+    if (nextOrder === undefined || nextOrder === word.sourceOrder) {
+      return word
+    }
+
+    changed = true
+    return {
+      ...word,
+      sourceOrder: nextOrder,
+    }
+  })
+
+  return changed ? { ...snapshot, themeWords } : snapshot
+}
+
+function updateThemeWordTopicInSnapshot(
+  snapshot: EditorSnapshot,
+  wordbookId: string,
+  wordId: string,
+  nextTopicId: string,
+) {
+  let changed = false
+  const themeWordbooks = snapshot.themeWordbooks.map((wordbook) => {
+    if (wordbook.id !== wordbookId) {
+      return wordbook
+    }
+
+    const topics = wordbook.topics.map((topic) => {
+      const hasWord = topic.wordIds.includes(wordId)
+      const shouldHaveWord = topic.id === nextTopicId
+      if (hasWord === shouldHaveWord) {
+        return topic
+      }
+
+      changed = true
+      return {
+        ...topic,
+        wordIds: shouldHaveWord
+          ? [...topic.wordIds.filter((candidateId) => candidateId !== wordId), wordId]
+          : topic.wordIds.filter((candidateId) => candidateId !== wordId),
+      }
+    })
+
+    return changed ? { ...wordbook, topics } : wordbook
+  })
+
+  return changed ? { ...snapshot, themeWordbooks } : snapshot
+}
+
+function applyUpdatedAtToAllWordbooks(snapshot: EditorSnapshot, updatedAt: string) {
+  return {
+    ...snapshot,
+    sets: snapshot.sets.map((set) => ({ ...set, updatedAt })),
+    themeWordbooks: snapshot.themeWordbooks.map((wordbook) => ({ ...wordbook, updatedAt })),
+    comparisonWordbooks: snapshot.comparisonWordbooks.map((wordbook) => ({ ...wordbook, updatedAt })),
+  }
+}
+
+type BasicWordRowProps = {
+  active: boolean
+  changeTickRef: MutableRefObject<number>
+  setChangeTick: ChangeTickSetter
+  setSaveState: SaveStateSetter
+  setSelectedWordId: Dispatch<SetStateAction<string | null>>
+  setSnapshot: SnapshotSetter
+  word: EditorWord
+}
+
+const BasicWordRow = memo(function BasicWordRow({
+  active,
+  changeTickRef,
+  setChangeTick,
+  setSaveState,
+  setSelectedWordId,
+  setSnapshot,
+  word,
+}: BasicWordRowProps) {
+  return (
+    <tr data-active={active} onClick={() => setSelectedWordId(word.id)}>
+      <td>
+        <div className={styles.rowActions}>
+          <button
+            type="button"
+            className={styles.rowAction}
+            aria-label="위로"
+            onClick={(event) => {
+              event.stopPropagation()
+              setSnapshot((current) => moveBasicWordInSnapshot(current, word.id, -1))
+              markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+            }}
+          >
+            <ArrowUp size={14} />
+          </button>
+          <button
+            type="button"
+            className={styles.rowAction}
+            aria-label="아래로"
+            onClick={(event) => {
+              event.stopPropagation()
+              setSnapshot((current) => moveBasicWordInSnapshot(current, word.id, 1))
+              markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+            }}
+          >
+            <ArrowDown size={14} />
+          </button>
+        </div>
+      </td>
+      <td>
+        <input
+          className={`${styles.cellInput} ${styles.cellInputJapanese}`}
+          value={word.japanese}
+          lang="ja-JP"
+          onChange={(event) => {
+            setSnapshot((current) => updateWordFieldInSnapshot(current, word.id, 'japanese', event.target.value))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <input
+          className={`${styles.cellInput} ${styles.cellInputJapanese}`}
+          value={word.reading}
+          lang="ja-JP"
+          onChange={(event) => {
+            setSnapshot((current) => updateWordFieldInSnapshot(current, word.id, 'reading', event.target.value))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <input
+          className={styles.cellInput}
+          value={word.meaning}
+          onChange={(event) => {
+            setSnapshot((current) => updateWordFieldInSnapshot(current, word.id, 'meaning', event.target.value))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <select
+          className={styles.cellSelect}
+          value={word.type}
+          onChange={(event) => {
+            setSnapshot((current) => updateWordFieldInSnapshot(current, word.id, 'type', event.target.value as EditorWord['type']))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        >
+          {wordTypeOptions.map((option) => (
+            <option key={option.value} value={option.value}>{option.label}</option>
+          ))}
+        </select>
+      </td>
+      <td>
+        <input
+          className={styles.cellInput}
+          value={difficultyInputValue(word.difficulty)}
+          inputMode="numeric"
+          onChange={(event) => {
+            const raw = event.target.value.trim()
+            setSnapshot((current) => updateWordFieldInSnapshot(current, word.id, 'difficulty', raw ? Number(raw) : null))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <input
+          className={styles.cellInput}
+          value={textInputValue(word.verbInfo)}
+          onChange={(event) => {
+            setSnapshot((current) => updateWordFieldInSnapshot(current, word.id, 'verbInfo', event.target.value || null))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+    </tr>
+  )
+})
+
+type ThemeWordRowProps = {
+  active: boolean
+  changeTickRef: MutableRefObject<number>
+  setChangeTick: ChangeTickSetter
+  setSaveState: SaveStateSetter
+  setSelectedThemeWordId: Dispatch<SetStateAction<string | null>>
+  setSnapshot: SnapshotSetter
+  topicId: string
+  topics: Array<{ id: string; name: string }>
+  word: ThemeWord
+  wordbookId: string
+}
+
+const ThemeWordRow = memo(function ThemeWordRow({
+  active,
+  changeTickRef,
+  setChangeTick,
+  setSaveState,
+  setSelectedThemeWordId,
+  setSnapshot,
+  topicId,
+  topics,
+  word,
+  wordbookId,
+}: ThemeWordRowProps) {
+  return (
+    <tr data-active={active} onClick={() => setSelectedThemeWordId(word.id)}>
+      <td>
+        <div className={styles.rowActions}>
+          <button
+            type="button"
+            className={styles.rowAction}
+            aria-label="위로"
+            onClick={(event) => {
+              event.stopPropagation()
+              setSnapshot((current) => moveThemeWordInSnapshot(current, word.id, -1))
+              markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+            }}
+          >
+            <ArrowUp size={14} />
+          </button>
+          <button
+            type="button"
+            className={styles.rowAction}
+            aria-label="아래로"
+            onClick={(event) => {
+              event.stopPropagation()
+              setSnapshot((current) => moveThemeWordInSnapshot(current, word.id, 1))
+              markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+            }}
+          >
+            <ArrowDown size={14} />
+          </button>
+        </div>
+      </td>
+      <td>
+        <input
+          className={`${styles.cellInput} ${styles.cellInputJapanese}`}
+          value={word.japanese}
+          lang="ja-JP"
+          onChange={(event) => {
+            setSnapshot((current) => updateThemeWordFieldInSnapshot(current, word.id, 'japanese', event.target.value))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <input
+          className={`${styles.cellInput} ${styles.cellInputJapanese}`}
+          value={word.reading}
+          lang="ja-JP"
+          onChange={(event) => {
+            setSnapshot((current) => updateThemeWordFieldInSnapshot(current, word.id, 'reading', event.target.value))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <input
+          className={styles.cellInput}
+          value={word.meaning}
+          onChange={(event) => {
+            setSnapshot((current) => updateThemeWordFieldInSnapshot(current, word.id, 'meaning', event.target.value))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <select
+          className={styles.cellSelect}
+          value={word.type}
+          onChange={(event) => {
+            setSnapshot((current) => updateThemeWordFieldInSnapshot(current, word.id, 'type', event.target.value as ThemeWord['type']))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        >
+          {wordTypeOptions.map((option) => (
+            <option key={option.value} value={option.value}>{option.label}</option>
+          ))}
+        </select>
+      </td>
+      <td>
+        <select
+          className={styles.cellSelect}
+          value={topicId}
+          onChange={(event) => {
+            setSnapshot((current) => updateThemeWordTopicInSnapshot(current, wordbookId, word.id, event.target.value.trim()))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        >
+          <option value="" />
+          {topics.map((topic) => (
+            <option key={topic.id} value={topic.id}>{topic.name}</option>
+          ))}
+        </select>
+      </td>
+      <td>
+        <input
+          className={styles.cellInput}
+          value={difficultyInputValue(word.difficulty)}
+          inputMode="numeric"
+          onChange={(event) => {
+            const raw = event.target.value.trim()
+            setSnapshot((current) => updateThemeWordFieldInSnapshot(current, word.id, 'difficulty', raw ? Number(raw) : null))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+      <td>
+        <input
+          className={styles.cellInput}
+          value={textInputValue(word.verbInfo)}
+          onChange={(event) => {
+            setSnapshot((current) => updateThemeWordFieldInSnapshot(current, word.id, 'verbInfo', event.target.value || null))
+            markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+          }}
+        />
+      </td>
+    </tr>
+  )
+})
+
 export function WordbookEditorPage() {
   const [snapshot, setSnapshot] = useState(initialSnapshot)
   const [mode, setMode] = useState<EditorMode>('basic')
@@ -176,20 +640,22 @@ export function WordbookEditorPage() {
   const deferredSearch = useDeferredValue(searchQuery)
   const [workspaceHandle, setWorkspaceHandle] = useState<FileSystemDirectoryHandle | null>(null)
   const [workspaceState, setWorkspaceState] = useState<'idle' | 'linked' | 'remembered' | 'invalid'>('idle')
-  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle')
+  const [saveState, setSaveState] = useState<EditorSaveState>('idle')
   const [statusMessage, setStatusMessage] = useState('')
   const [columnWidths, setColumnWidths] = useState<Record<string, number[]>>({})
   const [pendingThemeTopicDeleteId, setPendingThemeTopicDeleteId] = useState<string | null>(null)
-  const [savedSnapshotKey, setSavedSnapshotKey] = useState(() => serializeSnapshot(initialSnapshot))
+  const [changeTick, setChangeTick] = useState(0)
+  const [savedChangeTick, setSavedChangeTick] = useState(0)
   const shellRef = useRef<HTMLDivElement | null>(null)
   const importInputRef = useRef<HTMLInputElement | null>(null)
+  const changeTickRef = useRef(0)
   const resizeStateRef = useRef<{
     tableKey: string
     columnIndex: number
     startX: number
     startWidth: number
   } | null>(null)
-  const snapshotKey = useMemo(() => serializeSnapshot(snapshot), [snapshot])
+  const deferredSnapshot = useDeferredValue(snapshot)
 
   useEffect(() => {
     void (async () => {
@@ -412,8 +878,8 @@ export function WordbookEditorPage() {
     [selectedComparisonPairId, snapshot.comparisonPairs],
   )
 
-  const validationIssues = useMemo(() => validateEditorSnapshot(snapshot), [snapshot])
-  const dirty = savedSnapshotKey !== snapshotKey
+  const validationIssues = useMemo(() => validateEditorSnapshot(deferredSnapshot), [deferredSnapshot])
+  const dirty = changeTick !== savedChangeTick
 
   const stats = useMemo(() => ({
     setCount: snapshot.sets.length,
@@ -432,7 +898,7 @@ export function WordbookEditorPage() {
 
   function commit(nextSnapshot: EditorSnapshot) {
     setSnapshot(normalizeEditorSnapshot(nextSnapshot))
-    setSaveState('idle')
+    markEditorDirty(setSaveState, setChangeTick, changeTickRef)
   }
 
   function mutate(mutator: (draft: EditorSnapshot) => void) {
@@ -441,7 +907,7 @@ export function WordbookEditorPage() {
       mutator(draft)
       return normalizeEditorSnapshot(draft)
     })
-    setSaveState('idle')
+    markEditorDirty(setSaveState, setChangeTick, changeTickRef)
   }
 
   function updateSetField(setId: string, field: 'id' | 'name' | 'wordIdPrefix', value: string) {
@@ -472,21 +938,6 @@ export function WordbookEditorPage() {
       }
 
       target.name = value
-    })
-  }
-
-  function updateWordField<K extends keyof EditorSnapshot['words'][number]>(
-    wordId: string,
-    field: K,
-    value: EditorSnapshot['words'][number][K],
-  ) {
-    mutate((draft) => {
-      const target = draft.words.find((word) => word.id === wordId)
-      if (!target) {
-        return
-      }
-
-      target[field] = value
     })
   }
 
@@ -531,39 +982,6 @@ export function WordbookEditorPage() {
 
         target.name = value
         return
-      }
-    })
-  }
-
-  function updateThemeWordField<K extends keyof EditorSnapshot['themeWords'][number]>(
-    wordId: string,
-    field: K,
-    value: EditorSnapshot['themeWords'][number][K],
-  ) {
-    mutate((draft) => {
-      const target = draft.themeWords.find((word) => word.id === wordId)
-      if (!target) {
-        return
-      }
-
-      target[field] = value
-    })
-  }
-
-  function updateThemeWordTopic(wordId: string, nextTopicId: string) {
-    mutate((draft) => {
-      const wordbook = draft.themeWordbooks.find((item) => item.id === selectedThemeWordbookId)
-      if (!wordbook) {
-        return
-      }
-
-      wordbook.topics.forEach((topic) => {
-        topic.wordIds = topic.wordIds.filter((candidateId) => candidateId !== wordId)
-      })
-
-      const targetTopic = wordbook.topics.find((topic) => topic.id === nextTopicId)
-      if (targetTopic) {
-        targetTopic.wordIds = [...targetTopic.wordIds, wordId]
       }
     })
   }
@@ -643,31 +1061,6 @@ export function WordbookEditorPage() {
     })
   }
 
-  function moveWord(wordId: string, direction: -1 | 1) {
-    mutate((draft) => {
-      const target = draft.words.find((word) => word.id === wordId)
-      if (!target) {
-        return
-      }
-
-      const setWords = draft.words.filter((word) => word.setId === target.setId)
-      const index = setWords.findIndex((word) => word.id === wordId)
-      const nextIndex = index + direction
-      if (index < 0 || nextIndex < 0 || nextIndex >= setWords.length) {
-        return
-      }
-
-      const orderedIds = setWords.map((word) => word.id)
-      ;[orderedIds[index], orderedIds[nextIndex]] = [orderedIds[nextIndex], orderedIds[index]]
-      orderedIds.forEach((id, orderIndex) => {
-        const word = draft.words.find((candidate) => candidate.id === id)
-        if (word) {
-          word.sourceOrder = orderIndex
-        }
-      })
-    })
-  }
-
   function moveThemeWordbook(wordbookId: string, direction: -1 | 1) {
     mutate((draft) => {
       const index = draft.themeWordbooks.findIndex((wordbook) => wordbook.id === wordbookId)
@@ -678,31 +1071,6 @@ export function WordbookEditorPage() {
 
       const [item] = draft.themeWordbooks.splice(index, 1)
       draft.themeWordbooks.splice(nextIndex, 0, item)
-    })
-  }
-
-  function moveThemeWord(wordId: string, direction: -1 | 1) {
-    mutate((draft) => {
-      const target = draft.themeWords.find((word) => word.id === wordId)
-      if (!target) {
-        return
-      }
-
-      const themeWords = draft.themeWords.filter((word) => word.setId === target.setId)
-      const index = themeWords.findIndex((word) => word.id === wordId)
-      const nextIndex = index + direction
-      if (index < 0 || nextIndex < 0 || nextIndex >= themeWords.length) {
-        return
-      }
-
-      const orderedIds = themeWords.map((word) => word.id)
-      ;[orderedIds[index], orderedIds[nextIndex]] = [orderedIds[nextIndex], orderedIds[index]]
-      orderedIds.forEach((id, orderIndex) => {
-        const word = draft.themeWords.find((candidate) => candidate.id === id)
-        if (word) {
-          word.sourceOrder = orderIndex
-        }
-      })
     })
   }
 
@@ -1035,7 +1403,9 @@ export function WordbookEditorPage() {
     setSelectedThemeWordId(initialSnapshot.themeWords[0]?.id ?? null)
     setSelectedComparisonWordbookId(initialSnapshot.comparisonWordbooks[0]?.id ?? null)
     setSelectedComparisonPairId(initialSnapshot.comparisonPairs[0]?.id ?? null)
-    setSavedSnapshotKey(serializeSnapshot(initialSnapshot))
+    changeTickRef.current = 0
+    setChangeTick(0)
+    setSavedChangeTick(0)
     setSaveState('idle')
     setStatusMessage('')
   }
@@ -1108,7 +1478,8 @@ export function WordbookEditorPage() {
 
   async function saveToWorkspace(forcePick: boolean) {
     const normalized = normalizeEditorSnapshot(snapshot)
-    const issues = validateEditorSnapshot(normalized)
+    const stampedSnapshot = applyUpdatedAtToAllWordbooks(normalized, new Date().toISOString())
+    const issues = validateEditorSnapshot(stampedSnapshot)
     if (issues.length > 0) {
       setSaveState('error')
       setStatusMessage('검사 필요')
@@ -1120,13 +1491,14 @@ export function WordbookEditorPage() {
 
     try {
       const directoryHandle = await resolveWorkspaceHandle(forcePick)
-      const files = buildEditorFileOutputs(normalized)
+      const files = buildEditorFileOutputs(stampedSnapshot)
 
       if (!directoryHandle) {
         files.forEach((file) => {
           downloadTextFile(file.path[file.path.length - 1] ?? 'export.txt', file.content)
         })
-        setSavedSnapshotKey(serializeSnapshot(normalized))
+        setSnapshot(stampedSnapshot)
+        setSavedChangeTick(changeTickRef.current)
         setSaveState('saved')
         setStatusMessage('다운로드 완료')
         return
@@ -1143,7 +1515,8 @@ export function WordbookEditorPage() {
       }
 
       setWorkspaceState('linked')
-      setSavedSnapshotKey(serializeSnapshot(normalized))
+      setSnapshot(stampedSnapshot)
+      setSavedChangeTick(changeTickRef.current)
       setSaveState('saved')
       setStatusMessage('프로젝트 반영 완료')
     } catch (error) {
@@ -1302,8 +1675,8 @@ export function WordbookEditorPage() {
   }
 
   function getComparisonSharedDescription(pair: EditorSnapshot['comparisonPairs'][number]) {
-    const left = pair.leftDescription.trim()
-    const right = pair.rightDescription.trim()
+    const left = pair.leftDescription
+    const right = pair.rightDescription
     if (!left) return right
     if (!right) return left
     if (left === right) return left
@@ -1762,40 +2135,16 @@ export function WordbookEditorPage() {
                 </thead>
                 <tbody>
                   {selectedSetWords.map((word) => (
-                    <tr key={word.id} data-active={word.id === selectedWordId} onClick={() => setSelectedWordId(word.id)}>
-                      <td>
-                        <div className={styles.rowActions}>
-                          <button type="button" className={styles.rowAction} aria-label="위로" onClick={(event) => { event.stopPropagation(); moveWord(word.id, -1) }}>
-                            <ArrowUp size={14} />
-                          </button>
-                          <button type="button" className={styles.rowAction} aria-label="아래로" onClick={(event) => { event.stopPropagation(); moveWord(word.id, 1) }}>
-                            <ArrowDown size={14} />
-                          </button>
-                        </div>
-                      </td>
-                      <td><input className={`${styles.cellInput} ${styles.cellInputJapanese}`} value={word.japanese} lang="ja-JP" onChange={(event) => updateWordField(word.id, 'japanese', event.target.value)} /></td>
-                      <td><input className={`${styles.cellInput} ${styles.cellInputJapanese}`} value={word.reading} lang="ja-JP" onChange={(event) => updateWordField(word.id, 'reading', event.target.value)} /></td>
-                      <td><input className={styles.cellInput} value={word.meaning} onChange={(event) => updateWordField(word.id, 'meaning', event.target.value)} /></td>
-                      <td>
-                        <select className={styles.cellSelect} value={word.type} onChange={(event) => updateWordField(word.id, 'type', event.target.value as typeof word.type)}>
-                          {wordTypeOptions.map((option) => (
-                            <option key={option.value} value={option.value}>{option.label}</option>
-                          ))}
-                        </select>
-                      </td>
-                      <td>
-                        <input
-                          className={styles.cellInput}
-                          value={difficultyInputValue(word.difficulty)}
-                          inputMode="numeric"
-                          onChange={(event) => {
-                            const raw = event.target.value.trim()
-                            updateWordField(word.id, 'difficulty', raw ? Number(raw) : null)
-                          }}
-                        />
-                      </td>
-                      <td><input className={styles.cellInput} value={textInputValue(word.verbInfo)} onChange={(event) => updateWordField(word.id, 'verbInfo', event.target.value || null)} /></td>
-                    </tr>
+                    <BasicWordRow
+                      key={word.id}
+                      active={word.id === selectedWordId}
+                      changeTickRef={changeTickRef}
+                      setChangeTick={setChangeTick}
+                      setSaveState={setSaveState}
+                      setSelectedWordId={setSelectedWordId}
+                      setSnapshot={setSnapshot}
+                      word={word}
+                    />
                   ))}
                 </tbody>
               </table>
@@ -1810,52 +2159,19 @@ export function WordbookEditorPage() {
                   </thead>
                   <tbody>
                     {selectedThemeWords.map((word) => (
-                      <tr key={word.id} data-active={word.id === selectedThemeWordId} onClick={() => setSelectedThemeWordId(word.id)}>
-                        <td>
-                          <div className={styles.rowActions}>
-                            <button type="button" className={styles.rowAction} aria-label="위로" onClick={(event) => { event.stopPropagation(); moveThemeWord(word.id, -1) }}>
-                              <ArrowUp size={14} />
-                            </button>
-                            <button type="button" className={styles.rowAction} aria-label="아래로" onClick={(event) => { event.stopPropagation(); moveThemeWord(word.id, 1) }}>
-                              <ArrowDown size={14} />
-                            </button>
-                          </div>
-                        </td>
-                        <td><input className={`${styles.cellInput} ${styles.cellInputJapanese}`} value={word.japanese} lang="ja-JP" onChange={(event) => updateThemeWordField(word.id, 'japanese', event.target.value)} /></td>
-                        <td><input className={`${styles.cellInput} ${styles.cellInputJapanese}`} value={word.reading} lang="ja-JP" onChange={(event) => updateThemeWordField(word.id, 'reading', event.target.value)} /></td>
-                        <td><input className={styles.cellInput} value={word.meaning} onChange={(event) => updateThemeWordField(word.id, 'meaning', event.target.value)} /></td>
-                        <td>
-                          <select className={styles.cellSelect} value={word.type} onChange={(event) => updateThemeWordField(word.id, 'type', event.target.value as typeof word.type)}>
-                            {wordTypeOptions.map((option) => (
-                              <option key={option.value} value={option.value}>{option.label}</option>
-                            ))}
-                          </select>
-                        </td>
-                        <td>
-                          <select
-                            className={styles.cellSelect}
-                            value={getThemeWordTopicId(word.id)}
-                            onChange={(event) => updateThemeWordTopic(word.id, event.target.value.trim())}
-                          >
-                            <option value="" />
-                            {selectedThemeWordbook?.topics.map((topic) => (
-                              <option key={topic.id} value={topic.id}>{topic.name}</option>
-                            ))}
-                          </select>
-                        </td>
-                        <td>
-                          <input
-                            className={styles.cellInput}
-                            value={difficultyInputValue(word.difficulty)}
-                            inputMode="numeric"
-                            onChange={(event) => {
-                              const raw = event.target.value.trim()
-                              updateThemeWordField(word.id, 'difficulty', raw ? Number(raw) : null)
-                            }}
-                          />
-                        </td>
-                        <td><input className={styles.cellInput} value={textInputValue(word.verbInfo)} onChange={(event) => updateThemeWordField(word.id, 'verbInfo', event.target.value || null)} /></td>
-                      </tr>
+                      <ThemeWordRow
+                        key={word.id}
+                        active={word.id === selectedThemeWordId}
+                        changeTickRef={changeTickRef}
+                        setChangeTick={setChangeTick}
+                        setSaveState={setSaveState}
+                        setSelectedThemeWordId={setSelectedThemeWordId}
+                        setSnapshot={setSnapshot}
+                        topicId={getThemeWordTopicId(word.id)}
+                        topics={selectedThemeWordbook?.topics ?? []}
+                        word={word}
+                        wordbookId={selectedThemeWordbookId ?? ''}
+                      />
                     ))}
                   </tbody>
                 </table>

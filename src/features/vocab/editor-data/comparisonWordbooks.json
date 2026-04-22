@@ -1,14 +1,16 @@
 [
   {
-    "id": "compare-core-verbs",
-    "name": "비교 쌍",
+    "id": "ComparingWords",
+    "name": "비슷한 단어들",
     "order": 0,
     "kind": "compare",
     "pairIds": [
-      "compare-core-verbs_pair_1",
-      "compare-core-verbs_pair_2",
-      "compare-core-verbs_pair_3"
+      "ComparingWords_pair_1",
+      "ComparingWords_pair_2",
+      "ComparingWords_pair_3",
+      "ComparingWords_pair_4"
     ],
-    "wordIdPrefix": "compare-core-verbs-JLPTN3"
+    "wordIdPrefix": "ComparingWords",
+    "updatedAt": "2026-04-22T12:35:01.525Z"
   }
 ]

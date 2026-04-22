@@ -1,11 +1,11 @@
-import { cleanup, render, screen } from '@testing-library/react'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { cleanup, render, screen, within } from '@testing-library/react'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
 import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { VocabularySetMenu } from '@/features/list/VocabularySetMenu'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
-import { allSets } from '@/features/vocab/model/selectors'
+import { allSelectableWordbooks, allSets } from '@/features/vocab/model/selectors'
 
 const defaultLearnDefaults = {
   frontMode: 'japanese' as const,
@@ -16,8 +16,12 @@ const defaultLearnDefaults = {
   rangeEnd: 10,
 }
 
+const originalUpdatedAtValues = allSelectableWordbooks.map((wordbook) => wordbook.updatedAt)
+
 describe('VocabularySetMenu', () => {
   beforeEach(() => {
+    vi.useFakeTimers()
+    vi.setSystemTime(new Date('2026-04-22T10:15:00.000Z'))
     localStorage.clear()
 
     useExamStore.setState({
@@ -44,6 +48,10 @@ describe('VocabularySetMenu', () => {
 
   afterEach(() => {
     cleanup()
+    vi.useRealTimers()
+    allSelectableWordbooks.forEach((wordbook, index) => {
+      wordbook.updatedAt = originalUpdatedAtValues[index]
+    })
     localStorage.clear()
   })
 
@@ -57,5 +65,37 @@ describe('VocabularySetMenu', () => {
     expect(screen.queryByText('전체 단어장')).toBeNull()
     expect(screen.getByText('즐겨찾기 단어장')).toBeInTheDocument()
     expect(screen.getByText(allSets[0].name)).toBeInTheDocument()
+  })
+
+  it('renders a muted updated date under the wordbook name when it exists', () => {
+    allSelectableWordbooks[0].updatedAt = '2026-04-22T10:15:00.000Z'
+
+    render(
+      <MemoryRouter>
+        <VocabularySetMenu />
+      </MemoryRouter>,
+    )
+
+    const wordbookItem = screen.getByText(allSelectableWordbooks[0].name).closest('button')
+
+    expect(wordbookItem).not.toBeNull()
+    expect(within(wordbookItem!).getByText('2026.04.22')).toBeInTheDocument()
+  })
+
+  it('never shows dates for synthetic app-generated wordbooks', () => {
+    render(
+      <MemoryRouter>
+        <VocabularySetMenu />
+      </MemoryRouter>,
+    )
+
+    const favoritesItem = screen.getByText('즐겨찾기 단어장').closest('button')
+    const wrongAnswersItem = screen.queryByText('오답 노트')?.closest('button') ?? null
+
+    expect(favoritesItem).not.toBeNull()
+    expect(within(favoritesItem!).queryByText('2026.04.22')).toBeNull()
+    if (wrongAnswersItem) {
+      expect(within(wrongAnswersItem).queryByText('2026.04.22')).toBeNull()
+    }
   })
 })

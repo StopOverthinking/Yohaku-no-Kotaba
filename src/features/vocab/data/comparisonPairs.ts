@@ -2,30 +2,39 @@ import type { ComparisonPair } from '../model/types'
 
 export const comparisonPairs: ComparisonPair[] = [
   {
-    "id": "compare-core-verbs_pair_1",
-    "bookId": "compare-core-verbs",
-    "leftWordId": "compare-core-verbs-JLPTN3_1",
-    "rightWordId": "compare-core-verbs-JLPTN3_2",
-    "leftDescription": "急ぐ는 해야 할 일을 빨리 진행한다는 뜻에 가깝다.\n그래서 일정이나 속도를 말할 때는 急ぐ가 자연스럽다.",
-    "rightDescription": "慌てる는 마음이 흔들려 동작이 흐트러지는 느낌이 더 강하다.\n실수하거나 당황한 분위기를 말할 때는 慌てる가 더 잘 맞는다.",
+    "id": "ComparingWords_pair_1",
+    "bookId": "ComparingWords",
+    "leftWordId": "ComparingWords_1",
+    "rightWordId": "ComparingWords_2",
+    "leftDescription": "仕上がる: 마지막까지 손질되어서 완성되었다\n出来上がる: (더 넓은 의미) 완성품이 나왔다",
+    "rightDescription": "仕上がる: 마지막까지 손질되어서 완성되었다\n出来上がる: (더 넓은 의미) 완성품이 나왔다",
     "sourceOrder": 0
   },
   {
-    "id": "compare-core-verbs_pair_2",
-    "bookId": "compare-core-verbs",
-    "leftWordId": "compare-core-verbs-JLPTN3_3",
-    "rightWordId": "compare-core-verbs-JLPTN3_4",
-    "leftDescription": "疑う는 정보나 사람을 바로 받아들이지 않고 가능성을 따져 보는 쪽이다.\n같은 상황에서도 태도가 조심스러우면 疑う가 나온다.",
-    "rightDescription": "信じる는 충분한 근거가 있거나 감정적으로 확신하고 받아들이는 쪽이다.\n신뢰나 믿음을 강조하면 信じる가 훨씬 자연스럽다.",
+    "id": "ComparingWords_pair_2",
+    "bookId": "ComparingWords",
+    "leftWordId": "ComparingWords_3",
+    "rightWordId": "ComparingWords_4",
+    "leftDescription": "理由: 일반적인 '이유', 좁고 분명한 의미로 사용됨\n訳: 일이 일어난 그럴만한 사정, 까닭. 여러 관용적 표현에서 사용됨. 넓고 문맥의존적임\n",
+    "rightDescription": "理由: 일반적인 '이유', 좁고 분명한 의미로 사용됨\n訳: 일이 일어난 그럴만한 사정, 까닭. 여러 관용적 표현에서 사용됨. 넓고 문맥의존적임\n",
     "sourceOrder": 1
   },
   {
-    "id": "compare-core-verbs_pair_3",
-    "bookId": "compare-core-verbs",
-    "leftWordId": "compare-core-verbs-JLPTN3_5",
-    "rightWordId": "compare-core-verbs-JLPTN3_6",
-    "leftDescription": "分かる는 내용을 이해해서 알게 되는 상태를 말한다.\n설명이나 이유를 이해했다면 分かる가 맞다.",
-    "rightDescription": "見分ける는 비슷한 대상 사이에서 차이를 보고 가려 내는 동작이다.\n겉모습이나 특징을 보고 구별했다면 見分ける가 더 정확하다.",
+    "id": "ComparingWords_pair_3",
+    "bookId": "ComparingWords",
+    "leftWordId": "ComparingWords_5",
+    "rightWordId": "ComparingWords_6",
+    "leftDescription": "得る: 결과적으로 얻게 되다. 주는 사람이 꼭 필요하지 않음\n貰う: 타인에게서 받다",
+    "rightDescription": "得る: 결과적으로 얻게 되다. 주는 사람이 꼭 필요하지 않음\n貰う: 타인에게서 받다",
     "sourceOrder": 2
+  },
+  {
+    "id": "ComparingWords_pair_4",
+    "bookId": "ComparingWords",
+    "leftWordId": "ComparingWords_7",
+    "rightWordId": "ComparingWords_8",
+    "leftDescription": "貰う: 누가 나에게 줌. 일상적인 주고받기 상황, 회화적\n受ける: 주로 '행위, 처리, 영향, 평가, 서비스를 받다'로 사용됨. '타인에게서 물건을 받다'로 사용할 때 受ける는 딱딱하고 특별한 문맥으로 들림",
+    "rightDescription": "貰う: 누가 나에게 줌. 일상적인 주고받기 상황, 회화적\n受ける: 주로 '행위, 처리, 영향, 평가, 서비스를 받다'로 사용됨. '타인에게서 물건을 받다'로 사용할 때 受ける는 딱딱하고 특별한 문맥으로 들림",
+    "sourceOrder": 3
   }
 ]

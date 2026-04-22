@@ -22,7 +22,7 @@ type RestoreMetadata = {
 
 export type ShareBackupEnvelope = {
   schemaVersion: typeof SHARE_SCHEMA_VERSION
-  app: 'japanese-study-react-rewrite'
+  app: 'Yohaku no Kotaba'
   exportedAt: string
   keyCount: number
   data: Record<string, string>
@@ -306,7 +306,7 @@ export function buildBackupEnvelope(storage?: StorageLike): ShareBackupEnvelope 
 
   return {
     schemaVersion: SHARE_SCHEMA_VERSION,
-    app: 'japanese-study-react-rewrite',
+    app: 'Yohaku no Kotaba',
     exportedAt: new Date().toISOString(),
     keyCount: keys.length,
     data,
@@ -323,7 +323,7 @@ export function downloadShareData(text: string) {
   const link = document.createElement('a')
 
   link.href = url
-  link.download = `japanese-study-react-backup-${getLocalDateStamp()}.json`
+  link.download = `yohaku-no-kotaba-backup-${getLocalDateStamp()}.json`
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)

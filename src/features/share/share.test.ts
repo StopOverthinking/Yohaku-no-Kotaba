@@ -48,7 +48,7 @@ describe('share utils', () => {
     const backup = buildBackupEnvelope(storage)
 
     expect(backup.schemaVersion).toBe(SHARE_SCHEMA_VERSION)
-    expect(backup.app).toBe('japanese-study-react-rewrite')
+    expect(backup.app).toBe('Yohaku no Kotaba')
     expect(backup.keyCount).toBe(2)
     expect(backup.data).toEqual({
       'jsp-react:favorites': '["word-1"]',
