@@ -9,10 +9,11 @@ import { Tooltip } from '@/components/Tooltip'
 import { buildSmartReviewSummary } from '@/features/smart-review/smartReviewEngine'
 import styles from '@/features/smart-review/smartReview.module.css'
 import { useSmartReviewStore } from '@/features/smart-review/smartReviewStore'
-import { allWords, getSetName } from '@/features/vocab/model/selectors'
+import { allNonComparisonWords } from '@/features/vocab/model/selectors'
 
 const MIN_WORD_COUNT = 1
 const COUNT_STEP = 5
+const SMART_REVIEW_SET_NAME = '기본 · 주제형'
 
 function normalizeWordCount(wordCount: number, maxWordCount: number) {
   if (maxWordCount <= 0) {
@@ -35,7 +36,7 @@ export function SmartReviewSetupPage() {
   const [error, setError] = useState<string | null>(null)
   const [wordCount, setWordCount] = useState(savedWordCount)
 
-  const words = useMemo(() => allWords, [])
+  const words = useMemo(() => allNonComparisonWords, [])
   const summaryNow = useMemo(() => {
     const now = new Date()
     now.setDate(now.getDate() + debugDayOffset)
@@ -76,7 +77,7 @@ export function SmartReviewSetupPage() {
 
     const didStart = await startSession({
       setId: 'all',
-      setName: getSetName('all'),
+      setName: SMART_REVIEW_SET_NAME,
       words,
       wordCount: effectiveWordCount,
     })

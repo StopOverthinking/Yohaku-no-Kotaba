@@ -1,18 +1,31 @@
 import type { VocabularyWord } from '@/features/vocab/model/types'
 
+export type GameKind = 'speed_quiz' | 'tap_match_rush'
 export type GameMode = 'single' | 'bot'
 export type GameQuizType = 'objective' | 'pronunciation'
 export type GameQuestionType = 'word_to_meaning' | 'meaning_to_word' | 'reading_quiz'
 export type GameOutcome = 'win' | 'lose' | 'draw'
+export type TapMatchRushLane = 'prompt' | 'answer'
 
-export type GameSetupPayload = {
+type GameBaseSetupPayload = {
   setId: string | 'all' | 'favorites'
   setName: string
-  mode: GameMode
-  quizType: GameQuizType
   playerName: string
   sourceWords: VocabularyWord[]
 }
+
+export type SpeedQuizSetupPayload = GameBaseSetupPayload & {
+  gameKind: 'speed_quiz'
+  mode: GameMode
+  quizType: GameQuizType
+}
+
+export type TapMatchRushSetupPayload = GameBaseSetupPayload & {
+  gameKind: 'tap_match_rush'
+  pairCount: number
+}
+
+export type GameSetupPayload = SpeedQuizSetupPayload | TapMatchRushSetupPayload
 
 export type GameQuestion = {
   id: string
@@ -30,6 +43,14 @@ export type BotHistoryEntry = {
 export type SingleModeRecord = {
   score: number
   time: number
+  date: string
+}
+
+export type TapMatchRushRecord = {
+  totalTime: number
+  penaltySeconds: number
+  wrongAttempts: number
+  pairCount: number
   date: string
 }
 
@@ -60,8 +81,9 @@ export type BotSessionState = {
   surrendered: boolean
 }
 
-export type GameSessionRecord = {
+export type SpeedQuizSessionRecord = {
   status: 'active'
+  gameKind: 'speed_quiz'
   setId: string | 'all' | 'favorites'
   setName: string
   mode: GameMode
@@ -81,6 +103,35 @@ export type GameSessionRecord = {
   updatedAt: string
 }
 
+export type TapMatchRushCard = {
+  id: string
+  pairId: string
+  wordId: string
+  lane: TapMatchRushLane
+  primaryText: string
+  secondaryText: string | null
+}
+
+export type TapMatchRushSessionRecord = {
+  status: 'active'
+  gameKind: 'tap_match_rush'
+  setId: string | 'all' | 'favorites'
+  setName: string
+  playerName: string
+  totalPairs: number
+  cards: TapMatchRushCard[]
+  matchedPairIds: string[]
+  selectedCardId: string | null
+  wrongAttempts: number
+  penaltySeconds: number
+  wrongWordIds: string[]
+  playerFinished: boolean
+  startedAt: string
+  updatedAt: string
+}
+
+export type GameSessionRecord = SpeedQuizSessionRecord | TapMatchRushSessionRecord
+
 export type AnswerResolution = {
   question: GameQuestion
   isCorrect: boolean
@@ -96,7 +147,14 @@ export type BotResolution = {
   botFinished: boolean
 }
 
-export type GameResult = {
+export type TapMatchRushSelectionResolution =
+  | { kind: 'selected'; cardIds: [string] }
+  | { kind: 'deselected'; cardIds: [] }
+  | { kind: 'match'; cardIds: [string, string]; matchedPairId: string; playerFinished: boolean }
+  | { kind: 'wrong'; cardIds: [string, string] }
+
+export type SpeedQuizResult = {
+  gameKind: 'speed_quiz'
   setId: string | 'all' | 'favorites'
   setName: string
   mode: GameMode
@@ -122,3 +180,19 @@ export type GameResult = {
     tierInfo: TierInfo
   } | null
 }
+
+export type TapMatchRushResult = {
+  gameKind: 'tap_match_rush'
+  setId: string | 'all' | 'favorites'
+  setName: string
+  playerName: string
+  totalPairs: number
+  wrongAttempts: number
+  penaltySeconds: number
+  totalTime: number
+  wrongWordIds: string[]
+  completedAt: string
+  tapMatchRushRecords: TapMatchRushRecord[]
+}
+
+export type GameResult = SpeedQuizResult | TapMatchRushResult

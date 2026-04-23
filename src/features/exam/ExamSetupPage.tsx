@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ArrowLeftRight, ClipboardCheck, RotateCcw, Sparkles, Undo2, X } from 'lucide-react'
+import { ClipboardCheck, RotateCcw, Sparkles, Undo2, X } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
@@ -7,7 +7,7 @@ import { Tooltip } from '@/components/Tooltip'
 import styles from '@/features/exam/exam.module.css'
 import { useExamStore } from '@/features/exam/examStore'
 import type { ExamGradingMode, ExamSetId } from '@/features/exam/examTypes'
-import { getSelectableWordbooks, getStudyItemById, getStudyItemsForSet, getWordbookKind } from '@/features/vocab/model/selectors'
+import { filterNonComparisonWordIds, getStudyItemById, getStudyItemsForSet, getStudySelectableWordbooks, getWordbookKind } from '@/features/vocab/model/selectors'
 
 const wrongAnswerSetId = 'wrong_answers'
 
@@ -17,10 +17,13 @@ export function ExamSetupPage() {
   const [gradingMode, setGradingMode] = useState<ExamGradingMode>('auto')
 
   const wrongAnswerWords = useMemo(
-    () => wrongAnswerIds.map((itemId) => getStudyItemById(itemId)).filter((item): item is NonNullable<typeof item> => item !== undefined),
+    () =>
+      filterNonComparisonWordIds(wrongAnswerIds)
+        .map((itemId) => getStudyItemById(itemId))
+        .filter((item): item is NonNullable<typeof item> => item !== undefined),
     [wrongAnswerIds],
   )
-  const selectableWordbooks = useMemo(() => getSelectableWordbooks(), [])
+  const selectableWordbooks = useMemo(() => getStudySelectableWordbooks(), [])
 
   function handleStartExam(params: { setId: ExamSetId; setName: string; items: typeof wrongAnswerWords; gradingMode?: ExamGradingMode }) {
     if (session && !window.confirm('진행 중인 시험이 있습니다. 새 시험을 시작하면 현재 진행 내용이 대체됩니다. 계속할까요?')) {
@@ -142,7 +145,6 @@ export function ExamSetupPage() {
             {selectableWordbooks.map((set) => {
               const items = getStudyItemsForSet(set.id)
               const wordbookKind = getWordbookKind(set.id)
-              const isComparison = wordbookKind === 'compare'
 
               return (
                 <button
@@ -154,19 +156,18 @@ export function ExamSetupPage() {
                       setId: set.id,
                       setName: set.name,
                       items,
-                      gradingMode: isComparison ? 'manual' : gradingMode,
+                      gradingMode,
                     })
                   }
                 >
                   <div className={styles.selectionCardHead}>
                     <span className={styles.selectionCardIcon}>
-                      {isComparison ? <ArrowLeftRight size={18} /> : wordbookKind === 'theme' ? <Sparkles size={18} /> : <ClipboardCheck size={18} />}
+                      {wordbookKind === 'theme' ? <Sparkles size={18} /> : <ClipboardCheck size={18} />}
                     </span>
                   </div>
                   <div>
                     <h3 className={styles.selectionCardTitle}>{set.name}</h3>
                     <p className={styles.selectionCardCount}>{set.itemCount}문제</p>
-                    {isComparison ? <p className={styles.selectionCardCopy}>직접 체크</p> : null}
                   </div>
                 </button>
               )

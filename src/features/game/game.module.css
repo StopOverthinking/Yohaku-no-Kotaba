@@ -6,8 +6,8 @@
 
 .sessionRoot {
   grid-template-rows: auto minmax(0, 1fr);
-  min-height: calc(100vh - 112px);
-  height: calc(100vh - 112px);
+  min-height: calc(100dvh - var(--space-6) - var(--space-8));
+  height: calc(100dvh - var(--space-6) - var(--space-8));
   overflow: hidden;
   gap: var(--space-4);
 }
@@ -33,6 +33,13 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-3);
+}
+
+.gameKindGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 136px;
+  gap: var(--space-4);
 }
 
 .modeCard {
@@ -63,6 +70,62 @@
 .modeCard[data-active='true'] {
   border-color: var(--border-accent);
   box-shadow: 0 0 0 6px var(--focus-ring);
+}
+
+.gameKindCard {
+  position: relative;
+  grid-template-rows: auto 1fr auto;
+  align-content: stretch;
+  width: 100%;
+  height: 136px;
+  min-height: 136px;
+  padding: var(--space-4) var(--space-5);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(143, 211, 255, 0.18), rgba(143, 255, 209, 0.08) 58%, transparent 100%),
+    linear-gradient(180deg, var(--panel-highlight-strong), var(--panel-highlight-soft)),
+    var(--surface-muted);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.gameKindCard:hover {
+  transform: none;
+  border-color: var(--border-input);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.gameKindCard::after {
+  content: '';
+  position: absolute;
+  left: var(--space-5);
+  right: var(--space-5);
+  bottom: 12px;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.gameKindCard[data-active='true'] {
+  border-color: var(--border-accent);
+  background:
+    linear-gradient(135deg, rgba(143, 211, 255, 0.28), rgba(143, 255, 209, 0.14) 58%, transparent 100%),
+    linear-gradient(180deg, var(--panel-highlight-strong), var(--panel-highlight-soft)),
+    var(--surface-accent);
+  box-shadow: inset 0 0 0 1px var(--border-accent);
+}
+
+.gameKindCard[data-active='true']::after {
+  background: linear-gradient(90deg, var(--accent-ice), var(--accent-mint));
+}
+
+.gameKindCard .modeTitle {
+  font-size: 1.08rem;
+}
+
+.gameKindCard .statusPill {
+  margin-top: auto;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .modeTitle {
@@ -98,6 +161,33 @@
 
 .summaryCard {
   padding: var(--space-4);
+}
+
+.segmentRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.segmentButton {
+  min-width: 56px;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  background: var(--surface-raised);
+  color: var(--text-soft);
+  transition:
+    border-color 0.18s ease,
+    background-color 0.18s ease,
+    color 0.18s ease;
+}
+
+.segmentButton[data-active='true'] {
+  border-color: var(--border-accent);
+  background: var(--surface-accent);
+  color: var(--text-strong);
 }
 
 .statusPill {
@@ -191,6 +281,90 @@
   min-height: 0;
   height: 100%;
   grid-template-rows: minmax(112px, auto) minmax(0, 1fr);
+}
+
+.matchRushWrap {
+  display: grid;
+  gap: var(--space-4);
+  min-height: 0;
+  height: 100%;
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+.matchRushHero {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.matchBoard {
+  display: grid;
+  grid-template-columns: repeat(var(--match-columns, 3), minmax(0, 1fr));
+  grid-template-rows: repeat(var(--match-rows, 1), minmax(0, 1fr));
+  gap: 6px;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.matchCard {
+  display: grid;
+  place-items: center;
+  min-height: 0;
+  height: 100%;
+  padding: clamp(8px, 1vw, 12px);
+  border-radius: 24px;
+  border: 1px solid var(--border-soft);
+  background:
+    linear-gradient(180deg, var(--panel-highlight-strong), var(--panel-highlight-soft)),
+    var(--surface-muted);
+  text-align: center;
+  transition:
+    transform 0.16s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.matchCard:hover {
+  transform: translateY(-1px);
+  border-color: var(--border-accent-soft);
+}
+
+.matchCard[data-state='selected'] {
+  border-color: var(--border-accent);
+  background: var(--surface-accent);
+}
+
+.matchCard[data-state='wrong'] {
+  border-color: var(--border-danger);
+  background: var(--surface-danger-soft);
+}
+
+.matchCard[data-state='matched'] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.matchPrimaryJapanese {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-jp);
+  font-size: clamp(1.08rem, 2.8vw, 1.72rem);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.matchPrimaryMeaning {
+  display: -webkit-box;
+  place-items: center;
+  width: 100%;
+  overflow: hidden;
+  font-size: clamp(0.92rem, 2vw, 1.18rem);
+  line-height: 1.15;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .questionCard {
@@ -405,16 +579,21 @@
   .setupGrid {
     grid-template-columns: 1fr;
   }
-
-  .sessionRoot {
-    min-height: calc(100vh - 96px);
-    height: calc(100vh - 96px);
-  }
 }
 
 @media (max-width: 720px) {
   .modeGrid {
     grid-template-columns: 1fr;
+  }
+
+  .gameKindGrid,
+  .matchRushHero {
+    grid-template-columns: 1fr;
+  }
+
+  .gameKindCard {
+    height: 120px;
+    min-height: 120px;
   }
 
   .inputActions,
@@ -427,8 +606,8 @@
   }
 
   .sessionRoot {
-    min-height: calc(100vh - 88px);
-    height: calc(100vh - 88px);
+    min-height: calc(100dvh - var(--space-4) - var(--space-8));
+    height: calc(100dvh - var(--space-4) - var(--space-8));
     gap: var(--space-3);
   }
 
@@ -453,6 +632,10 @@
   .scoreBurst {
     right: 6%;
     font-size: 1rem;
+  }
+
+  .matchCard {
+    padding: var(--space-3);
   }
 }
 
@@ -492,6 +675,10 @@
   }
 
   .inputShell {
+    padding: 12px;
+  }
+
+  .matchCard {
     padding: 12px;
   }
 }

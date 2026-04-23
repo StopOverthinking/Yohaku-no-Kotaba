@@ -90,6 +90,17 @@ function hasHiddenCardContent(cardSurface: HTMLElement) {
   return (hideJapanese && cardSurface.dataset.revealJapanese !== 'true') || (hideMeaning && cardSurface.dataset.revealMeaning !== 'true')
 }
 
+function getSharedComparisonDescription(leftDescription: string, rightDescription: string) {
+  const normalizedLeft = leftDescription.trim()
+  const normalizedRight = rightDescription.trim()
+
+  if (!normalizedLeft) return normalizedRight
+  if (!normalizedRight) return normalizedLeft
+  if (normalizedLeft === normalizedRight) return normalizedLeft
+
+  return `${normalizedLeft}\n\n${normalizedRight}`
+}
+
 type RevealedCardState = {
   japanese: boolean
   meaning: boolean
@@ -114,6 +125,11 @@ const VocabCard = memo(function VocabCard({
   onReveal: (wordId: string) => void
   onToggleFavorite: (wordId: string) => void
 }) {
+  const sharedComparisonDescription =
+    item.kind === 'comparison'
+      ? getSharedComparisonDescription(item.pair.leftDescription, item.pair.rightDescription)
+      : ''
+
   const handleCardClick = (event: MouseEvent<HTMLDivElement>) => {
     if (!hasHiddenCardContent(event.currentTarget)) {
       return
@@ -196,7 +212,6 @@ const VocabCard = memo(function VocabCard({
                   {item.leftWord.reading}
                 </span>
                 <span className={`${styles.meaning} ${styles.concealable} ${styles.meaningConcealable}`}>{item.leftWord.meaning}</span>
-                {item.pair.leftDescription ? <p className={styles.compareDescriptionLine}>{item.pair.leftDescription}</p> : null}
               </div>
               <div className={styles.compareWordColumn}>
                 <span className={`${styles.jp} ${styles.concealable} ${styles.jpConcealable}`} lang="ja-JP" translate="no">
@@ -206,9 +221,9 @@ const VocabCard = memo(function VocabCard({
                   {item.rightWord.reading}
                 </span>
                 <span className={`${styles.meaning} ${styles.concealable} ${styles.meaningConcealable}`}>{item.rightWord.meaning}</span>
-                {item.pair.rightDescription ? <p className={styles.compareDescriptionLine}>{item.pair.rightDescription}</p> : null}
               </div>
             </div>
+            {sharedComparisonDescription ? <p className={styles.compareDescriptionLine}>{sharedComparisonDescription}</p> : null}
           </div>
         )}
       </div>

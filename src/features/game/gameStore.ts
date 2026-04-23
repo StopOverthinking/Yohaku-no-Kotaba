@@ -8,13 +8,16 @@ import {
   recordSingleModeResult,
   resolveMmrChange,
 } from '@/features/game/gameEngine'
+import { applyTapMatchRushSelection, createTapMatchRushSession, recordTapMatchRushResult } from '@/features/game/tapMatchRushEngine'
 import {
   loadBotHistory,
   loadPlayerMmr,
   loadSingleModeRecords,
+  loadTapMatchRushRecords,
   saveBotHistory,
   savePlayerMmr,
   saveSingleModeRecords,
+  saveTapMatchRushRecords,
 } from '@/features/game/gameStorage'
 import type {
   AnswerResolution,
@@ -22,6 +25,9 @@ import type {
   GameResult,
   GameSessionRecord,
   GameSetupPayload,
+  SpeedQuizResult,
+  TapMatchRushResult,
+  TapMatchRushSelectionResolution,
 } from '@/features/game/gameTypes'
 
 type GameState = {
@@ -35,6 +41,7 @@ type GameState = {
     isCorrect: boolean
     timeTakenSeconds: number
   }) => AnswerResolution | null
+  selectTapMatchCard: (cardId: string) => TapMatchRushSelectionResolution | null
   advanceBotTurn: (params: { solveTimeSeconds: number }) => BotResolution | null
   surrenderBot: () => void
   finalizeGame: () => void
@@ -47,9 +54,12 @@ export const useGameStore = create<GameState>((set, get) => ({
   lastResult: null,
   lastSetup: null,
   startGame: (payload) => {
-    const history = payload.mode === 'bot' ? loadBotHistory(payload.quizType) : []
+    const session = payload.gameKind === 'tap_match_rush'
+      ? createTapMatchRushSession(payload)
+      : createGameSession(payload, payload.mode === 'bot' ? loadBotHistory(payload.quizType) : [])
+
     set({
-      session: createGameSession(payload, history),
+      session,
       lastResult: null,
       lastSetup: payload,
     })
@@ -63,7 +73,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
   recordPlayerAnswer: (params) => {
     const session = get().session
-    if (!session) return null
+    if (!session || session.gameKind !== 'speed_quiz') return null
 
     const result = applyPlayerAnswer(session, params)
     if (!result) return null
@@ -71,9 +81,19 @@ export const useGameStore = create<GameState>((set, get) => ({
     set({ session: result.nextSession })
     return result.resolution
   },
+  selectTapMatchCard: (cardId) => {
+    const session = get().session
+    if (!session || session.gameKind !== 'tap_match_rush') return null
+
+    const result = applyTapMatchRushSelection(session, cardId)
+    if (!result) return null
+
+    set({ session: result.nextSession })
+    return result.resolution
+  },
   advanceBotTurn: (params) => {
     const session = get().session
-    if (!session) return null
+    if (!session || session.gameKind !== 'speed_quiz') return null
 
     const result = applyBotTurn(session, params)
     if (!result) return null
@@ -83,7 +103,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
   surrenderBot: () => {
     const session = get().session
-    if (!session?.bot) return
+    if (!session || session.gameKind !== 'speed_quiz' || !session.bot) return
 
     set({
       session: {
@@ -100,6 +120,39 @@ export const useGameStore = create<GameState>((set, get) => ({
     const session = get().session
     if (!session) return
 
+    if (session.gameKind === 'tap_match_rush') {
+      const elapsedSeconds = Math.max(0, (Date.now() - new Date(session.startedAt).getTime()) / 1000)
+      const totalTime = Number((elapsedSeconds + session.penaltySeconds).toFixed(2))
+      const tapMatchRushRecords = recordTapMatchRushResult(loadTapMatchRushRecords(), {
+        totalTime,
+        penaltySeconds: session.penaltySeconds,
+        wrongAttempts: session.wrongAttempts,
+        pairCount: session.totalPairs,
+      })
+
+      saveTapMatchRushRecords(tapMatchRushRecords)
+
+      const result: TapMatchRushResult = {
+        gameKind: 'tap_match_rush',
+        setId: session.setId,
+        setName: session.setName,
+        playerName: session.playerName,
+        totalPairs: session.totalPairs,
+        wrongAttempts: session.wrongAttempts,
+        penaltySeconds: session.penaltySeconds,
+        totalTime,
+        wrongWordIds: session.wrongWordIds,
+        completedAt: new Date().toISOString(),
+        tapMatchRushRecords,
+      }
+
+      set({
+        session: null,
+        lastResult: result,
+      })
+      return
+    }
+
     const averageTime = session.totalQuestions > 0 ? Number((session.totalResponseTime / session.totalQuestions).toFixed(2)) : 0
     const singleRecords = session.mode === 'single'
       ? recordSingleModeResult(loadSingleModeRecords(session.quizType), session.score, averageTime)
@@ -109,7 +162,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       saveSingleModeRecords(session.quizType, singleRecords)
     }
 
-    let botResult: GameResult['bot'] = null
+    let botResult: SpeedQuizResult['bot'] = null
 
     if (session.mode === 'bot' && session.bot) {
       const history = recordBotHistory(loadBotHistory(session.quizType), session, averageTime)
@@ -140,23 +193,26 @@ export const useGameStore = create<GameState>((set, get) => ({
       }
     }
 
+    const result: SpeedQuizResult = {
+      gameKind: 'speed_quiz',
+      setId: session.setId,
+      setName: session.setName,
+      mode: session.mode,
+      quizType: session.quizType,
+      playerName: session.playerName,
+      playerScore: session.score,
+      playerCorrectCount: session.playerCorrectCount,
+      totalQuestions: session.totalQuestions,
+      averageTime,
+      wrongWordIds: session.wrongWordIds,
+      completedAt: new Date().toISOString(),
+      singleRecords,
+      bot: botResult,
+    }
+
     set({
       session: null,
-      lastResult: {
-        setId: session.setId,
-        setName: session.setName,
-        mode: session.mode,
-        quizType: session.quizType,
-        playerName: session.playerName,
-        playerScore: session.score,
-        playerCorrectCount: session.playerCorrectCount,
-        totalQuestions: session.totalQuestions,
-        averageTime,
-        wrongWordIds: session.wrongWordIds,
-        completedAt: new Date().toISOString(),
-        singleRecords,
-        bot: botResult,
-      },
+      lastResult: result,
     })
   },
   abandonGame: () => set({ session: null }),

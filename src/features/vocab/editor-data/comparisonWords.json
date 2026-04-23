@@ -6,8 +6,8 @@
     "reading": "しあがる",
     "meaning": "완성되다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 30,
+    "verbInfo": "1자",
     "sourceOrder": 0
   },
   {
@@ -17,8 +17,8 @@
     "reading": "できあがる",
     "meaning": "완성되다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 28,
+    "verbInfo": "1자",
     "sourceOrder": 1
   },
   {
@@ -28,7 +28,7 @@
     "reading": "りゆう",
     "meaning": "이유",
     "type": "noun",
-    "difficulty": null,
+    "difficulty": 26,
     "verbInfo": null,
     "sourceOrder": 2
   },
@@ -39,7 +39,7 @@
     "reading": "わけ",
     "meaning": "이유, 일의 사정",
     "type": "noun",
-    "difficulty": null,
+    "difficulty": 29,
     "verbInfo": null,
     "sourceOrder": 3
   },
@@ -50,8 +50,8 @@
     "reading": "える",
     "meaning": "얻다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 34,
+    "verbInfo": "2타",
     "sourceOrder": 4
   },
   {
@@ -61,8 +61,8 @@
     "reading": "もらう",
     "meaning": "받다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 12,
+    "verbInfo": "1타",
     "sourceOrder": 5
   },
   {
@@ -72,8 +72,8 @@
     "reading": "もらう",
     "meaning": "받다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 12,
+    "verbInfo": "1타",
     "sourceOrder": 6
   },
   {
@@ -83,8 +83,30 @@
     "reading": "うける",
     "meaning": "받다, 당하다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 16,
+    "verbInfo": "2타",
     "sourceOrder": 7
+  },
+  {
+    "id": "ComparingWords_9",
+    "setId": "ComparingWords",
+    "japanese": "間違える",
+    "reading": "まちがえる",
+    "meaning": "착각하다",
+    "type": "verb",
+    "difficulty": null,
+    "verbInfo": "2타",
+    "sourceOrder": 8
+  },
+  {
+    "id": "ComparingWords_10",
+    "setId": "ComparingWords",
+    "japanese": "誤る",
+    "reading": "あやまる",
+    "meaning": "판단을 그르치다",
+    "type": "verb",
+    "difficulty": null,
+    "verbInfo": "1타",
+    "sourceOrder": 9
   }
 ]

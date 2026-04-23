@@ -47,11 +47,11 @@ describe('SmartReviewSetupPage', () => {
     fireEvent.change(screen.getByRole('spinbutton'), { target: { value: '7' } })
     await user.click(screen.getAllByRole('button', { name: '스마트 복습 시작' })[0]!)
 
-    expect(startSession).toHaveBeenCalledWith(expect.objectContaining({
-      setId: 'all',
-      setName: '전체 세트',
-      wordCount: 7,
-    }))
+    const payload = startSession.mock.calls[0]?.[0]
+    expect(payload?.setId).toBe('all')
+    expect(payload?.setName).toBe('기본 · 주제형')
+    expect(payload?.wordCount).toBe(7)
+    expect(payload?.words.every((word: { setId: string }) => word.setId !== 'ComparingWords')).toBe(true)
   })
 
   it('uses 20 as the default count and stores the last chosen count', async () => {

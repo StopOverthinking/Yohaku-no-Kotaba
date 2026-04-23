@@ -7,8 +7,9 @@ import type {
   GameQuestion,
   GameQuestionType,
   GameQuizType,
-  GameSessionRecord,
-  GameSetupPayload,
+  SpeedQuizSessionRecord,
+  SpeedQuizSetupPayload,
+  GameKind,
   SingleModeRecord,
   TierDefinition,
   TierInfo,
@@ -46,6 +47,10 @@ export function getModeLabel(mode: 'single' | 'bot') {
   return mode === 'single' ? '싱글플레이' : '멀티플레이'
 }
 
+export function getGameLabel(gameKind: GameKind = 'speed_quiz') {
+  return gameKind === 'tap_match_rush' ? '탭 매치 러시' : '스피드 퀴즈'
+}
+
 export function getQuizTypeLabel(quizType: GameQuizType) {
   return quizType === 'objective' ? '객관식' : '발음 입력'
 }
@@ -74,7 +79,7 @@ function getQuestionType(quizType: GameQuizType, random: () => number): GameQues
   return random() > 0.5 ? 'word_to_meaning' : 'meaning_to_word'
 }
 
-function generateOptions(question: Omit<GameQuestion, 'options'>, sourceWords: GameSetupPayload['sourceWords'], random: () => number) {
+function generateOptions(question: Omit<GameQuestion, 'options'>, sourceWords: SpeedQuizSetupPayload['sourceWords'], random: () => number) {
   const correct = question.correctAnswer
   const isMeaningOptions = question.type === 'word_to_meaning'
   const selectedEffective = [isMeaningOptions ? getEffectiveMeaning(correct) : correct]
@@ -98,7 +103,7 @@ function generateOptions(question: Omit<GameQuestion, 'options'>, sourceWords: G
   return shuffleArray([correct, ...distractors], Math.floor(random() * 1_000_000))
 }
 
-export function generateQuestions(sourceWords: GameSetupPayload['sourceWords'], quizType: GameQuizType, random: () => number = Math.random) {
+export function generateQuestions(sourceWords: SpeedQuizSetupPayload['sourceWords'], quizType: GameQuizType, random: () => number = Math.random) {
   const selectedWords = shuffleArray(sourceWords, Math.floor(random() * 1_000_000)).slice(0, Math.min(getQuestionCount(quizType), sourceWords.length))
 
   return selectedWords.map((word, index) => {
@@ -170,16 +175,17 @@ export function calculateBotSettings(quizType: GameQuizType, history: BotHistory
 }
 
 export function createGameSession(
-  payload: GameSetupPayload,
+  payload: SpeedQuizSetupPayload,
   history: BotHistoryEntry[],
   random: () => number = Math.random,
-): GameSessionRecord {
+): SpeedQuizSessionRecord {
   const questions = generateQuestions(payload.sourceWords, payload.quizType, random)
   const now = new Date().toISOString()
   const botSettings = payload.mode === 'bot' ? calculateBotSettings(payload.quizType, history, random) : null
 
   return {
     status: 'active',
+    gameKind: 'speed_quiz',
     setId: payload.setId,
     setName: payload.setName,
     mode: payload.mode,
@@ -257,7 +263,7 @@ export function normalizePronunciationInput(input: string) {
 }
 
 export function applyPlayerAnswer(
-  session: GameSessionRecord,
+  session: SpeedQuizSessionRecord,
   params: {
     questionId: string
     isCorrect: boolean
@@ -271,7 +277,7 @@ export function applyPlayerAnswer(
   const playerFinished = nextIndex >= session.questions.length
   const points = params.isCorrect ? calculateQuestionScore(question, params.timeTakenSeconds) : 0
 
-  const nextSession: GameSessionRecord = {
+  const nextSession: SpeedQuizSessionRecord = {
     ...session,
     currentIndex: nextIndex,
     score: session.score + points,
@@ -299,7 +305,7 @@ export function calculateBotSolveTimeSeconds(baseTime: number, random: () => num
 }
 
 export function applyBotTurn(
-  session: GameSessionRecord,
+  session: SpeedQuizSessionRecord,
   params: { solveTimeSeconds: number; random?: () => number },
 ) {
   if (!session.bot || session.bot.finished || session.bot.surrendered) return null
@@ -314,7 +320,7 @@ export function applyBotTurn(
   const nextIndex = session.bot.currentIndex + 1
   const botFinished = nextIndex >= session.questions.length
 
-  const nextSession: GameSessionRecord = {
+  const nextSession: SpeedQuizSessionRecord = {
     ...session,
     bot: {
       ...session.bot,
@@ -336,7 +342,7 @@ export function applyBotTurn(
   return { nextSession, resolution }
 }
 
-export function shouldBotSurrender(session: GameSessionRecord) {
+export function shouldBotSurrender(session: SpeedQuizSessionRecord) {
   if (!session.bot || session.mode !== 'bot' || session.bot.finished || !session.playerFinished) return false
 
   const playerAccuracy = session.totalQuestions > 0 ? session.playerCorrectCount / session.totalQuestions : 0
@@ -367,7 +373,7 @@ export function recordSingleModeResult(records: SingleModeRecord[], score: numbe
   return nextRecords.slice(0, 10)
 }
 
-export function recordBotHistory(history: BotHistoryEntry[], session: GameSessionRecord, averageTime: number) {
+export function recordBotHistory(history: BotHistoryEntry[], session: SpeedQuizSessionRecord, averageTime: number) {
   const minimumQuestions = session.quizType === 'pronunciation' ? 3 : 10
   if (session.currentIndex <= minimumQuestions) return history
 

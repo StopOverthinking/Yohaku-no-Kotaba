@@ -8,6 +8,7 @@ import {
   calculateBotSolveTimeSeconds,
   calculateQuestionScore,
   getBotSurrenderDelayMs,
+  getGameLabel,
   getModeLabel,
   getQuestionTimeLimit,
   getQuizTypeLabel,
@@ -15,6 +16,7 @@ import {
   processMeaning,
   shouldBotSurrender,
 } from '@/features/game/gameEngine'
+import { TapMatchRushSessionView } from '@/features/game/TapMatchRushSessionView'
 import { useGameStore } from '@/features/game/gameStore'
 import styles from '@/features/game/game.module.css'
 
@@ -33,6 +35,16 @@ type ScoreBurstState = {
 }
 
 export function GameSessionPage() {
+  const session = useGameStore((state) => state.session)
+
+  if (session?.gameKind === 'tap_match_rush') {
+    return <TapMatchRushSessionView />
+  }
+
+  return <SpeedQuizSessionView />
+}
+
+function SpeedQuizSessionView() {
   const navigate = useNavigate()
   const session = useGameStore((state) => state.session)
   const lastResult = useGameStore((state) => state.lastResult)
@@ -52,7 +64,7 @@ export function GameSessionPage() {
   const [scoreBurst, setScoreBurst] = useState<ScoreBurstState | null>(null)
 
   const currentQuestion = useMemo(
-    () => (session && !session.playerFinished ? session.questions[session.currentIndex] ?? null : null),
+    () => (session && session.gameKind === 'speed_quiz' && !session.playerFinished ? session.questions[session.currentIndex] ?? null : null),
     [session],
   )
 
@@ -69,12 +81,12 @@ export function GameSessionPage() {
   }, [lastResult, navigate])
 
   useEffect(() => {
-    if (!session) return
+    if (!session || session.gameKind !== 'speed_quiz') return
     setCountdown(3)
-  }, [session?.startedAt])
+  }, [session?.startedAt, session?.gameKind])
 
   useEffect(() => {
-    if (!session || countdown <= 0) return undefined
+    if (!session || session.gameKind !== 'speed_quiz' || countdown <= 0) return undefined
 
     const timeoutId = window.setTimeout(() => {
       setCountdown((value) => value - 1)
@@ -100,7 +112,7 @@ export function GameSessionPage() {
   }, [])
 
   const resolveCurrentQuestion = useEffectEvent((submission: { selectedAnswer: string | null; timedOut: boolean }) => {
-    if (!session || !currentQuestion || feedback) return
+    if (!session || session.gameKind !== 'speed_quiz' || !currentQuestion || feedback) return
 
     const timeLimitSeconds = getQuestionTimeLimit(currentQuestion)
     const timeLimitMs = timeLimitSeconds * 1000
@@ -163,7 +175,7 @@ export function GameSessionPage() {
       timerIntervalRef.current = null
     }
 
-    if (!session || !currentQuestion || countdown > 0 || feedback || session.playerFinished) {
+    if (!session || session.gameKind !== 'speed_quiz' || !currentQuestion || countdown > 0 || feedback || session.playerFinished) {
       if (countdown > 0) {
         setTimeLeftMs(0)
       }
@@ -198,7 +210,7 @@ export function GameSessionPage() {
   }, [countdown, currentQuestion?.id, feedback, session?.playerFinished])
 
   useEffect(() => {
-    if (!session || !session.bot || countdown > 0 || session.bot.finished || session.bot.surrendered) return undefined
+    if (!session || session.gameKind !== 'speed_quiz' || !session.bot || countdown > 0 || session.bot.finished || session.bot.surrendered) return undefined
 
     const botQuestion = session.questions[session.bot.currentIndex]
     if (!botQuestion) return undefined
@@ -212,7 +224,7 @@ export function GameSessionPage() {
   }, [advanceBotTurn, countdown, session])
 
   useEffect(() => {
-    if (!session || !session.bot || countdown > 0 || !shouldBotSurrender(session)) return undefined
+    if (!session || session.gameKind !== 'speed_quiz' || !session.bot || countdown > 0 || !shouldBotSurrender(session)) return undefined
 
     const timeoutId = window.setTimeout(() => {
       surrenderBot()
@@ -222,7 +234,7 @@ export function GameSessionPage() {
   }, [countdown, session, surrenderBot])
 
   useEffect(() => {
-    if (!session || countdown > 0) return
+    if (!session || session.gameKind !== 'speed_quiz' || countdown > 0) return
 
     if (session.playerFinished && (!session.bot || session.bot.finished || session.bot.surrendered)) {
       finalizeGame()
@@ -230,7 +242,7 @@ export function GameSessionPage() {
   }, [countdown, finalizeGame, session])
 
   useEffect(() => {
-    if (!session || !currentQuestion || currentQuestion.type !== 'reading_quiz' || countdown > 0 || feedback) return
+    if (!session || session.gameKind !== 'speed_quiz' || !currentQuestion || currentQuestion.type !== 'reading_quiz' || countdown > 0 || feedback) return
 
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === 'Enter') {
@@ -244,7 +256,7 @@ export function GameSessionPage() {
   }, [countdown, currentQuestion, feedback, inputValue, session])
 
   useEffect(() => {
-    if (!session || !currentQuestion || currentQuestion.type === 'reading_quiz' || countdown > 0 || feedback) return
+    if (!session || session.gameKind !== 'speed_quiz' || !currentQuestion || currentQuestion.type === 'reading_quiz' || countdown > 0 || feedback) return
 
     const objectiveQuestion = currentQuestion
 
@@ -271,8 +283,9 @@ export function GameSessionPage() {
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [countdown, currentQuestion, feedback, session])
 
-  if (!session) return null
+  if (!session || session.gameKind !== 'speed_quiz') return null
 
+  const gameLabel = getGameLabel()
   const timerPercent = currentQuestion
     ? (timeLeftMs / (getQuestionTimeLimit(currentQuestion) * 1000)) * 100
     : 0
@@ -294,9 +307,10 @@ export function GameSessionPage() {
       <GlassPanel className={styles.hud} variant="floating">
         <div className={styles.hudTop}>
           <div>
-            <p className="section-kicker">Playing</p>
-            <h1 className="page-header__title">{session.setName}</h1>
+            <p className="section-kicker">Speed Quiz</p>
+            <h1 className="page-header__title">{gameLabel} · {session.setName}</h1>
             <div className={styles.hudStats}>
+              <span className="miniChip">{gameLabel}</span>
               <span className="miniChip">{getModeLabel(session.mode)}</span>
               <span className="miniChip">{getQuizTypeLabel(session.quizType)}</span>
               <span className="miniChip">
@@ -354,9 +368,9 @@ export function GameSessionPage() {
       <GlassPanel className={styles.sessionPanel} padding="lg" variant="strong">
         {countdown > 0 ? (
           <div className={styles.countdownBox}>
-            <p className="section-kicker">{session.mode === 'bot' ? 'Match Start' : 'Ready'}</p>
+            <p className="section-kicker">{gameLabel}</p>
             <div className={styles.countdownNumber}>{countdown}</div>
-            <p className={styles.softText}>{session.mode === 'bot' ? `${session.bot?.settings.name}와 대결합니다.` : '게임을 시작합니다.'}</p>
+            <p className={styles.softText}>{session.mode === 'bot' ? `${gameLabel} · ${session.bot?.settings.name}` : `${gameLabel} 시작`}</p>
           </div>
         ) : waitingForBot ? (
           <div className={styles.waitingBox}>

@@ -113,4 +113,20 @@ describe('LearnSetupPage', () => {
     expect(record?.activeQueue).toHaveLength(sampleWords.length)
     expect(record?.activeQueue).toEqual(expect.arrayContaining(sampleWords.map((word) => word.id)))
   })
+
+  it('falls back to all when the last selected set was a comparison wordbook', () => {
+    usePreferencesStore.setState({
+      ...usePreferencesStore.getState(),
+      lastSelectedSetId: 'ComparingWords',
+    })
+
+    render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getByRole('combobox', { name: '학습 단어장' })).toHaveValue('all')
+    expect(screen.queryByRole('option', { name: '비슷한 단어들' })).not.toBeInTheDocument()
+  })
 })

@@ -360,7 +360,7 @@ export function HomePage() {
       <GlassPanel className={styles.hero} padding="lg" variant="strong">
         <div className={styles.heroTop}>
           <div className={styles.heroTitle}>
-            <h1 className="section-title">일본어 카드 학습기</h1>
+            <h1 className="section-title">여백의 말</h1>
           </div>
           <Tooltip label={themeToggleLabel}>
             <button

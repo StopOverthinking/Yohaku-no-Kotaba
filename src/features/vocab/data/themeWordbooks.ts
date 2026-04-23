@@ -34,6 +34,7 @@ export const themeWordbooks: ThemeWordbook[] = [
         ]
       }
     ],
-    "wordIdPrefix": "theme-core-JLPTN3"
+    "wordIdPrefix": "theme-core-JLPTN3",
+    "updatedAt": "2026-04-23T11:10:18.351Z"
   }
 ]

@@ -9,7 +9,7 @@ import {
   recordSingleModeResult,
   resolveMmrChange,
 } from '@/features/game/gameEngine'
-import type { BotHistoryEntry, GameSetupPayload } from '@/features/game/gameTypes'
+import type { BotHistoryEntry, SpeedQuizSetupPayload } from '@/features/game/gameTypes'
 import type { VocabularyWord } from '@/features/vocab/model/types'
 
 const words: VocabularyWord[] = [
@@ -70,7 +70,8 @@ const words: VocabularyWord[] = [
   },
 ]
 
-const basePayload: GameSetupPayload = {
+const basePayload: SpeedQuizSetupPayload = {
+  gameKind: 'speed_quiz',
   setId: 'all',
   setName: '전체 세트',
   mode: 'single',

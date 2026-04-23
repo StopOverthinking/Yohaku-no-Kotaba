@@ -10,7 +10,7 @@ import styles from '@/features/learn/learn.module.css'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import { buildCandidateWords, getFilteredWords } from '@/features/study/wordSelection'
-import { getSelectableWordbooks, getSetName, isComparisonWordbook, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
+import { getSetName, getStudySelectableWordbooks, isComparisonWordbook, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
 import type { FrontMode } from '@/features/vocab/model/types'
 
 const MIN_WORD_COUNT = 1
@@ -32,7 +32,11 @@ export function LearnSetupPage() {
   const sessionRecord = useLearnSessionStore((state) => state.record)
   const discardSession = useLearnSessionStore((state) => state.discardSession)
   const [error, setError] = useState<string | null>(null)
-  const selectedSetId = lastSelectedSetId === 'wrong_answers' ? 'wrong_answers' : normalizeSelectableSetId(lastSelectedSetId)
+  const selectedSetId = lastSelectedSetId === 'wrong_answers'
+    ? 'wrong_answers'
+    : isComparisonWordbook(lastSelectedSetId)
+      ? 'all'
+      : normalizeSelectableSetId(lastSelectedSetId)
   const currentSetName = selectedSetId === 'wrong_answers' ? '오답 노트' : getSetName(selectedSetId)
 
   useEffect(() => {
@@ -67,8 +71,7 @@ export function LearnSetupPage() {
     () => buildCandidateWords(availableWords, learnDefaults.wordCount),
     [availableWords, learnDefaults.wordCount],
   )
-  const selectableWordbooks = useMemo(() => getSelectableWordbooks(), [])
-  const comparisonSelected = isComparisonWordbook(selectedSetId)
+  const selectableWordbooks = useMemo(() => getStudySelectableWordbooks(), [])
 
   const handleCountAdjust = (delta: number) => {
     updateLearnDefaults({ wordCount: normalizeWordCount(learnDefaults.wordCount + delta) })
@@ -289,8 +292,6 @@ export function LearnSetupPage() {
               </div>
             </div>
           ) : null}
-
-          {comparisonSelected ? <p className="page-header__caption">비교형 단어장은 쌍 단위로 학습합니다.</p> : null}
 
           {error ? <p className="page-header__caption" style={{ color: 'var(--accent-coral)' }}>{error}</p> : null}
         </GlassPanel>

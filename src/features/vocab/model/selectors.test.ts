@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { getStudyItemsForSet, getWordById, getWordbookKind } from '@/features/vocab/model/selectors'
+import { getStudyItemsForSet, getStudySelectableWordbooks, getWordById, getWordbookKind } from '@/features/vocab/model/selectors'
 
 describe('wordbook selectors', () => {
   it('returns themed words in topic order inside one themed wordbook', () => {
@@ -20,5 +20,12 @@ describe('wordbook selectors', () => {
     expect(items.every((item) => item.kind === 'comparison')).toBe(true)
     expect(getWordById('ComparingWords_1')?.setId).toBe('ComparingWords')
     expect(getWordbookKind('ComparingWords')).toBe('compare')
+  })
+
+  it('excludes comparison wordbooks from learn and exam selections', () => {
+    const selectableWordbooks = getStudySelectableWordbooks()
+
+    expect(selectableWordbooks.some((wordbook) => wordbook.kind === 'compare')).toBe(false)
+    expect(selectableWordbooks.map((wordbook) => wordbook.id)).not.toContain('ComparingWords')
   })
 })

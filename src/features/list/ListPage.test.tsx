@@ -185,4 +185,24 @@ describe('ListPage', () => {
 
     expect(screen.getByText('home')).toBeInTheDocument()
   })
+
+  it('renders a single shared description block for comparison cards', () => {
+    usePreferencesStore.setState({
+      themeMode: 'dark',
+      hideJapaneseInList: false,
+      hideMeaningInList: false,
+      listFontScale: 3,
+      learnCardFontScale: 2,
+      lastSelectedSetId: 'ComparingWords',
+      learnDefaults: defaultLearnDefaults,
+    })
+
+    const { container } = renderPage()
+    const comparisonCards = container.querySelectorAll(`.${styles.compareCardStack}`)
+    const descriptionBlocks = container.querySelectorAll(`.${styles.compareDescriptionLine}`)
+
+    expect(comparisonCards.length).toBeGreaterThan(0)
+    expect(descriptionBlocks).toHaveLength(comparisonCards.length)
+    expect(screen.getAllByText(/仕上がる: 마지막까지 손질되어서 완성되었다/, { exact: false })).toHaveLength(1)
+  })
 })

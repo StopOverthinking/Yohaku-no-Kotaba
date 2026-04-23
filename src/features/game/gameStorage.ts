@@ -1,6 +1,8 @@
-import type { BotHistoryEntry, GameQuizType, SingleModeRecord } from '@/features/game/gameTypes'
+import type { BotHistoryEntry, GameQuizType, SingleModeRecord, TapMatchRushRecord } from '@/features/game/gameTypes'
 
+const MAX_GAME_RECORDS = 10
 const playerNicknameKey = 'jsp-react:game-player-name'
+const tapMatchRushRecordsKey = 'jsp-react:game-records-tap-match-rush'
 const singleRecordKeys: Record<GameQuizType, string> = {
   objective: 'jsp-react:game-records-objective',
   pronunciation: 'jsp-react:game-records-pronunciation',
@@ -35,11 +37,19 @@ export function savePlayerNickname(playerName: string) {
 }
 
 export function loadSingleModeRecords(quizType: GameQuizType) {
-  return readJson<SingleModeRecord[]>(singleRecordKeys[quizType], [])
+  return readJson<SingleModeRecord[]>(singleRecordKeys[quizType], []).slice(0, MAX_GAME_RECORDS)
 }
 
 export function saveSingleModeRecords(quizType: GameQuizType, records: SingleModeRecord[]) {
-  localStorage.setItem(singleRecordKeys[quizType], JSON.stringify(records))
+  localStorage.setItem(singleRecordKeys[quizType], JSON.stringify(records.slice(0, MAX_GAME_RECORDS)))
+}
+
+export function loadTapMatchRushRecords() {
+  return readJson<TapMatchRushRecord[]>(tapMatchRushRecordsKey, []).slice(0, MAX_GAME_RECORDS)
+}
+
+export function saveTapMatchRushRecords(records: TapMatchRushRecord[]) {
+  localStorage.setItem(tapMatchRushRecordsKey, JSON.stringify(records.slice(0, MAX_GAME_RECORDS)))
 }
 
 export function loadBotHistory(quizType: GameQuizType) {

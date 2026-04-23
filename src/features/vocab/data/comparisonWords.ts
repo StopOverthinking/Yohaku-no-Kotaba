@@ -8,8 +8,8 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "しあがる",
     "meaning": "완성되다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 30,
+    "verbInfo": "1자",
     "sourceOrder": 0
   },
   {
@@ -19,8 +19,8 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "できあがる",
     "meaning": "완성되다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 28,
+    "verbInfo": "1자",
     "sourceOrder": 1
   },
   {
@@ -30,7 +30,7 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "りゆう",
     "meaning": "이유",
     "type": "noun",
-    "difficulty": null,
+    "difficulty": 26,
     "verbInfo": null,
     "sourceOrder": 2
   },
@@ -41,7 +41,7 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "わけ",
     "meaning": "이유, 일의 사정",
     "type": "noun",
-    "difficulty": null,
+    "difficulty": 29,
     "verbInfo": null,
     "sourceOrder": 3
   },
@@ -52,8 +52,8 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "える",
     "meaning": "얻다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 34,
+    "verbInfo": "2타",
     "sourceOrder": 4
   },
   {
@@ -63,8 +63,8 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "もらう",
     "meaning": "받다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 12,
+    "verbInfo": "1타",
     "sourceOrder": 5
   },
   {
@@ -74,8 +74,8 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "もらう",
     "meaning": "받다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 12,
+    "verbInfo": "1타",
     "sourceOrder": 6
   },
   {
@@ -85,8 +85,30 @@ export const comparisonWords: VocabularyWord[] = [
     "reading": "うける",
     "meaning": "받다, 당하다",
     "type": "verb",
-    "difficulty": null,
-    "verbInfo": null,
+    "difficulty": 16,
+    "verbInfo": "2타",
     "sourceOrder": 7
+  },
+  {
+    "id": "ComparingWords_9",
+    "setId": "ComparingWords",
+    "japanese": "間違える",
+    "reading": "まちがえる",
+    "meaning": "착각하다",
+    "type": "verb",
+    "difficulty": null,
+    "verbInfo": "2타",
+    "sourceOrder": 8
+  },
+  {
+    "id": "ComparingWords_10",
+    "setId": "ComparingWords",
+    "japanese": "誤る",
+    "reading": "あやまる",
+    "meaning": "판단을 그르치다",
+    "type": "verb",
+    "difficulty": null,
+    "verbInfo": "1타",
+    "sourceOrder": 9
   }
 ]

@@ -5,7 +5,8 @@ export const allSets = vocabularySets
 export const allBasicWords = vocabularyWords
 export const allThemeWords = themeWords
 export const allComparisonWords = comparisonWords
-export const allWords = [...allBasicWords, ...allThemeWords, ...allComparisonWords]
+export const allNonComparisonWords = [...allBasicWords, ...allThemeWords]
+export const allWords = [...allNonComparisonWords, ...allComparisonWords]
 export const allThemeWordbooks = themeWordbooks
 export const allComparisonWordbooks = comparisonWordbooks
 
@@ -153,6 +154,15 @@ export function isComparisonWordbook(wordbookId: string) {
   return comparisonWordbookMap.has(wordbookId)
 }
 
+export function isComparisonWord(wordId: string) {
+  const word = wordMap.get(wordId)
+  return word ? comparisonWordbookMap.has(word.setId) : false
+}
+
+export function filterNonComparisonWordIds(wordIds: string[]) {
+  return wordIds.filter((wordId) => !isComparisonWord(wordId))
+}
+
 export function getComparisonPairById(pairId: string) {
   return comparisonPairMap.get(pairId)
 }
@@ -267,6 +277,10 @@ export function getStudyItemWrongAnswerWordIds(itemId: string) {
 
 export function getSelectableWordbooks() {
   return [...allSelectableWordbooks].sort((left, right) => left.order - right.order)
+}
+
+export function getStudySelectableWordbooks() {
+  return getSelectableWordbooks().filter((wordbook) => wordbook.kind !== 'compare')
 }
 
 export function hasStudyItemTopic(item: StudyItem) {

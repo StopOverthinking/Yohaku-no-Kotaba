@@ -418,6 +418,7 @@
   line-height: 1.55;
   text-align: left;
   white-space: pre-line;
+  grid-column: 1 / -1;
 }
 
 @media (max-width: 1000px) {

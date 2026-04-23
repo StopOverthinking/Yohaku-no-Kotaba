@@ -11,7 +11,7 @@ import {
   saveExamWrongAnswerIds,
 } from '@/features/exam/examStorage'
 import { EXAM_MANUAL_UNDO_LIMIT, type ExamManualUndoSnapshot, type ExamResult, type ExamSessionRecord, type StartExamPayload } from '@/features/exam/examTypes'
-import { getStudyItemAnswerText, getStudyItemById, getStudyItemWrongAnswerWordIds } from '@/features/vocab/model/selectors'
+import { filterNonComparisonWordIds, getStudyItemAnswerText, getStudyItemById, getStudyItemWrongAnswerWordIds } from '@/features/vocab/model/selectors'
 
 type SubmitAnswerOutcome = 'idle' | 'advanced' | 'revealed' | 'completed'
 
@@ -56,7 +56,9 @@ function completeExam(record: ExamSessionRecord) {
       expectedAnswer: getStudyItemAnswerText(item),
     }
   })
-  const wrongAnswerIds = result.wrongItems.flatMap((item) => getStudyItemWrongAnswerWordIds(item.itemId))
+  const wrongAnswerIds = filterNonComparisonWordIds(
+    result.wrongItems.flatMap((item) => getStudyItemWrongAnswerWordIds(item.itemId)),
+  )
 
   clearExamSessionRecord()
   saveExamResult(result)
@@ -73,7 +75,12 @@ export const useExamStore = create<ExamState>((set, get) => ({
   hydrate: () => {
     const session = loadExamSessionRecord()
     const lastResult = loadExamResult()
-    const wrongAnswerIds = loadExamWrongAnswerIds()
+    const loadedWrongAnswerIds = loadExamWrongAnswerIds()
+    const wrongAnswerIds = filterNonComparisonWordIds(loadedWrongAnswerIds)
+
+    if (wrongAnswerIds.length !== loadedWrongAnswerIds.length) {
+      saveExamWrongAnswerIds(wrongAnswerIds)
+    }
 
     set({
       status: session ? 'active' : lastResult ? 'complete' : 'idle',

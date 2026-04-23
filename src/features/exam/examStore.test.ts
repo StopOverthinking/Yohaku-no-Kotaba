@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 import { useExamStore } from '@/features/exam/examStore'
 import { EXAM_MANUAL_UNDO_LIMIT } from '@/features/exam/examTypes'
-import { loadExamWrongAnswerIds } from '@/features/exam/examStorage'
+import { loadExamWrongAnswerIds, saveExamWrongAnswerIds } from '@/features/exam/examStorage'
 import { allWords } from '@/features/vocab/model/selectors'
 
 const firstWord = allWords[0]
@@ -93,5 +93,14 @@ describe('examStore wrong answer persistence', () => {
     expect(session?.currentIndex).toBe(1)
     expect(session?.manualUndoHistory).toHaveLength(1)
     expect(session?.manualUndoUsedCount).toBe(EXAM_MANUAL_UNDO_LIMIT)
+  })
+
+  it('drops comparison wrong answers when hydrating stored data', () => {
+    saveExamWrongAnswerIds(['ComparingWords_1', firstWord.id])
+
+    useExamStore.getState().hydrate()
+
+    expect(useExamStore.getState().wrongAnswerIds).toEqual([firstWord.id])
+    expect(loadExamWrongAnswerIds()).toEqual([firstWord.id])
   })
 })
