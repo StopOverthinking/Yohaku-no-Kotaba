@@ -17,6 +17,7 @@ import {
   ArrowUp,
   Database,
   Download,
+  FileText,
   FolderOpen,
   PanelLeftClose,
   PanelLeftOpen,
@@ -53,6 +54,7 @@ import {
   createEmptyWord,
   duplicateWord,
   normalizeEditorSnapshot,
+  normalizeSmartReviewPrompt,
   validateEditorSnapshot,
 } from '@/features/editor/editorSerializer'
 import {
@@ -72,12 +74,14 @@ import { matchesWordSearch } from '@/lib/search'
 import styles from '@/features/editor/editor.module.css'
 
 type EditorMode = 'basic' | 'theme' | 'compare'
+type EditorTableMode = 'word' | 'prompt'
 type EditorSaveState = 'idle' | 'saving' | 'saved' | 'error'
 type SnapshotSetter = Dispatch<SetStateAction<EditorSnapshot>>
 type SaveStateSetter = Dispatch<SetStateAction<EditorSaveState>>
 type ChangeTickSetter = Dispatch<SetStateAction<number>>
 type EditorWord = EditorSnapshot['words'][number]
 type ThemeWord = EditorSnapshot['themeWords'][number]
+type SmartReviewPromptField = 'japaneseSentence' | 'translationSentence'
 
 const initialSnapshot = normalizeEditorSnapshot({
   sets: editorVocabularySets,
@@ -139,6 +143,15 @@ const themeWordColumns: ResizableColumn[] = [
   { label: '주제', resizable: true },
   { label: '난도', resizable: true },
   { label: '동사', resizable: true },
+]
+
+const smartReviewPromptColumns: ResizableColumn[] = [
+  { label: '#', width: 44, fixed: true },
+  { label: 'JP', width: 160, resizable: true },
+  { label: '読', width: 150, resizable: true },
+  { label: 'KR', width: 180, resizable: true },
+  { label: '例JP', ariaLabel: '예문 일본어', width: 360, resizable: true },
+  { label: '例KR', ariaLabel: '예문 한국어', width: 360, resizable: true },
 ]
 
 const comparisonPairColumns: ResizableColumn[] = [
@@ -237,6 +250,72 @@ function updateThemeWordFieldInSnapshot<K extends keyof ThemeWord>(
       ...word,
       [field]: value,
     } as ThemeWord
+  })
+
+  return changed ? { ...snapshot, themeWords } : snapshot
+}
+
+function updatePromptField(
+  current: EditorWord['smartReviewPrompt'],
+  field: SmartReviewPromptField,
+  value: string,
+) {
+  return normalizeSmartReviewPrompt({
+    japaneseSentence: current?.japaneseSentence ?? '',
+    translationSentence: current?.translationSentence ?? '',
+    [field]: value,
+  })
+}
+
+function updateWordSmartReviewPromptInSnapshot(
+  snapshot: EditorSnapshot,
+  wordId: string,
+  field: SmartReviewPromptField,
+  value: string,
+) {
+  let changed = false
+  const words = snapshot.words.map((word) => {
+    if (word.id !== wordId) {
+      return word
+    }
+
+    const nextPrompt = updatePromptField(word.smartReviewPrompt, field, value)
+    if (JSON.stringify(word.smartReviewPrompt ?? null) === JSON.stringify(nextPrompt ?? null)) {
+      return word
+    }
+
+    changed = true
+    return {
+      ...word,
+      smartReviewPrompt: nextPrompt,
+    }
+  })
+
+  return changed ? { ...snapshot, words } : snapshot
+}
+
+function updateThemeWordSmartReviewPromptInSnapshot(
+  snapshot: EditorSnapshot,
+  wordId: string,
+  field: SmartReviewPromptField,
+  value: string,
+) {
+  let changed = false
+  const themeWords = snapshot.themeWords.map((word) => {
+    if (word.id !== wordId) {
+      return word
+    }
+
+    const nextPrompt = updatePromptField(word.smartReviewPrompt, field, value)
+    if (JSON.stringify(word.smartReviewPrompt ?? null) === JSON.stringify(nextPrompt ?? null)) {
+      return word
+    }
+
+    changed = true
+    return {
+      ...word,
+      smartReviewPrompt: nextPrompt,
+    }
   })
 
   return changed ? { ...snapshot, themeWords } : snapshot
@@ -626,9 +705,87 @@ const ThemeWordRow = memo(function ThemeWordRow({
   )
 })
 
+type SmartReviewPromptRowProps = {
+  active: boolean
+  changeTickRef: MutableRefObject<number>
+  mode: 'basic' | 'theme'
+  rowIndex: number
+  setChangeTick: ChangeTickSetter
+  setSaveState: SaveStateSetter
+  setSelectedThemeWordId: Dispatch<SetStateAction<string | null>>
+  setSelectedWordId: Dispatch<SetStateAction<string | null>>
+  setSnapshot: SnapshotSetter
+  word: EditorWord | ThemeWord
+}
+
+const SmartReviewPromptRow = memo(function SmartReviewPromptRow({
+  active,
+  changeTickRef,
+  mode,
+  rowIndex,
+  setChangeTick,
+  setSaveState,
+  setSelectedThemeWordId,
+  setSelectedWordId,
+  setSnapshot,
+  word,
+}: SmartReviewPromptRowProps) {
+  function updatePrompt(field: SmartReviewPromptField, value: string) {
+    setSnapshot((current) => (
+      mode === 'basic'
+        ? updateWordSmartReviewPromptInSnapshot(current, word.id, field, value)
+        : updateThemeWordSmartReviewPromptInSnapshot(current, word.id, field, value)
+    ))
+    markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+  }
+
+  return (
+    <tr
+      data-active={active}
+      onClick={() => {
+        if (mode === 'basic') {
+          setSelectedWordId(word.id)
+          return
+        }
+
+        setSelectedThemeWordId(word.id)
+      }}
+    >
+      <td>
+        <span className="miniChip">{rowIndex + 1}</span>
+      </td>
+      <td>
+        <span className={`${styles.readOnlyCell} ${styles.cellInputJapanese}`} lang="ja-JP">{word.japanese}</span>
+      </td>
+      <td>
+        <span className={`${styles.readOnlyCell} ${styles.cellInputJapanese}`} lang="ja-JP">{word.reading}</span>
+      </td>
+      <td>
+        <span className={styles.readOnlyCell}>{word.meaning}</span>
+      </td>
+      <td>
+        <textarea
+          className={`${styles.tableTextarea} ${styles.cellInputJapanese}`}
+          value={word.smartReviewPrompt?.japaneseSentence ?? ''}
+          lang="ja-JP"
+          onChange={(event) => updatePrompt('japaneseSentence', event.target.value)}
+        />
+      </td>
+      <td>
+        <textarea
+          className={styles.tableTextarea}
+          value={word.smartReviewPrompt?.translationSentence ?? ''}
+          onChange={(event) => updatePrompt('translationSentence', event.target.value)}
+        />
+      </td>
+    </tr>
+  )
+})
+
 export function WordbookEditorPage() {
   const [snapshot, setSnapshot] = useState(initialSnapshot)
   const [mode, setMode] = useState<EditorMode>('basic')
+  const [tableMode, setTableMode] = useState<EditorTableMode>('word')
   const [selectedSetId, setSelectedSetId] = useState<string | null>(initialSnapshot.sets[0]?.id ?? null)
   const [selectedWordId, setSelectedWordId] = useState<string | null>(initialSnapshot.words[0]?.id ?? null)
   const [selectedThemeWordbookId, setSelectedThemeWordbookId] = useState<string | null>(initialSnapshot.themeWordbooks[0]?.id ?? null)
@@ -734,6 +891,12 @@ export function WordbookEditorPage() {
       setSelectedComparisonWordbookId(snapshot.comparisonWordbooks[0]?.id ?? null)
     }
   }, [selectedComparisonWordbookId, snapshot.comparisonWordbooks])
+
+  useEffect(() => {
+    if (mode === 'compare' && tableMode !== 'word') {
+      setTableMode('word')
+    }
+  }, [mode, tableMode])
 
   const selectedSetWords = useMemo(
     () =>
@@ -2049,6 +2212,32 @@ export function WordbookEditorPage() {
             </div>
 
             <div className={styles.inlineActions}>
+              {mode !== 'compare' ? (
+                <>
+                  <Tooltip label="단어 편집">
+                    <span>
+                      <IconButton
+                        icon={SquarePen}
+                        label="단어 편집"
+                        size="sm"
+                        active={tableMode === 'word'}
+                        onClick={() => setTableMode('word')}
+                      />
+                    </span>
+                  </Tooltip>
+                  <Tooltip label="예문 편집">
+                    <span>
+                      <IconButton
+                        icon={FileText}
+                        label="예문 편집"
+                        size="sm"
+                        active={tableMode === 'prompt'}
+                        onClick={() => setTableMode('prompt')}
+                      />
+                    </span>
+                  </Tooltip>
+                </>
+              ) : null}
               <Tooltip label="양식 다운로드">
                 <span>
                   <IconButton icon={Download} label="양식 다운로드" size="sm" onClick={() => void handleDownloadTemplate()} />
@@ -2059,7 +2248,7 @@ export function WordbookEditorPage() {
                   <IconButton icon={Upload} label="xlsx 업로드" size="sm" onClick={() => importInputRef.current?.click()} />
                 </span>
               </Tooltip>
-              {mode === 'basic' ? (
+              {mode === 'basic' && tableMode === 'word' ? (
                 <>
                   <Tooltip label="단어 추가">
                     <span>
@@ -2079,7 +2268,7 @@ export function WordbookEditorPage() {
                 </>
               ) : null}
 
-              {mode === 'theme' ? (
+              {mode === 'theme' && tableMode === 'word' ? (
                 <>
                   <Tooltip label="단어 추가">
                     <span>
@@ -2127,7 +2316,7 @@ export function WordbookEditorPage() {
           </div>
 
           <div className={styles.tableWrap}>
-            {mode === 'basic' ? (
+            {mode === 'basic' && tableMode === 'word' ? (
               <table className={styles.table}>
                 {renderColGroup('basic-words', basicWordColumns)}
                 <thead>
@@ -2150,7 +2339,33 @@ export function WordbookEditorPage() {
               </table>
             ) : null}
 
-            {mode === 'theme' ? (
+            {mode === 'basic' && tableMode === 'prompt' ? (
+              <table className={styles.table}>
+                {renderColGroup('basic-prompts', smartReviewPromptColumns)}
+                <thead>
+                  {renderTableHeader('basic-prompts', smartReviewPromptColumns)}
+                </thead>
+                <tbody>
+                  {selectedSetWords.map((word, index) => (
+                    <SmartReviewPromptRow
+                      key={word.id}
+                      active={word.id === selectedWordId}
+                      changeTickRef={changeTickRef}
+                      mode="basic"
+                      rowIndex={index}
+                      setChangeTick={setChangeTick}
+                      setSaveState={setSaveState}
+                      setSelectedThemeWordId={setSelectedThemeWordId}
+                      setSelectedWordId={setSelectedWordId}
+                      setSnapshot={setSnapshot}
+                      word={word}
+                    />
+                  ))}
+                </tbody>
+              </table>
+            ) : null}
+
+            {mode === 'theme' && tableMode === 'word' ? (
               <>
                 <table className={styles.table}>
                   {renderColGroup('theme-words', themeWordColumns)}
@@ -2176,6 +2391,32 @@ export function WordbookEditorPage() {
                   </tbody>
                 </table>
               </>
+            ) : null}
+
+            {mode === 'theme' && tableMode === 'prompt' ? (
+              <table className={styles.table}>
+                {renderColGroup('theme-prompts', smartReviewPromptColumns)}
+                <thead>
+                  {renderTableHeader('theme-prompts', smartReviewPromptColumns)}
+                </thead>
+                <tbody>
+                  {selectedThemeWords.map((word, index) => (
+                    <SmartReviewPromptRow
+                      key={word.id}
+                      active={word.id === selectedThemeWordId}
+                      changeTickRef={changeTickRef}
+                      mode="theme"
+                      rowIndex={index}
+                      setChangeTick={setChangeTick}
+                      setSaveState={setSaveState}
+                      setSelectedThemeWordId={setSelectedThemeWordId}
+                      setSelectedWordId={setSelectedWordId}
+                      setSnapshot={setSnapshot}
+                      word={word}
+                    />
+                  ))}
+                </tbody>
+              </table>
             ) : null}
 
             {mode === 'compare' ? (
@@ -2238,6 +2479,7 @@ export function WordbookEditorPage() {
               ? <div className={styles.empty}>없음</div>
               : null}
           </div>
+
         </GlassPanel>
       </div>
 

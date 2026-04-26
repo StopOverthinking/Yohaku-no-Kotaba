@@ -19,6 +19,7 @@
 - 저장 대상: 다음 복습 시각과 간격
 - 저장 위치: `IndexedDB`
 - 세션과 결과: 메모리만
+- 예문: 단어 원본 데이터의 `smartReviewPrompt`에서만 읽음
 
 ## 핵심 상태
 
@@ -49,6 +50,15 @@
 4. 세션 시작
 5. 답 제출 후 현재 세션 메모리만 갱신
 6. 세션 완료 시 `applySmartReviewOutcome()` 결과를 `bulkPut`으로 한 번에 저장
+
+## 예문 규칙
+
+- 단어의 `smartReviewPrompt`가 완성된 경우에만 스마트 복습 후보가 된다.
+- 완성 기준: `japaneseSentence`에 `____`가 있고 `translationSentence`가 비어 있지 않음
+- 예문이 없는 단어는 요약 수치와 세션 선택에서 제외한다.
+- 자동 예문 생성, override 라이브러리, 품사별 fallback 문장은 사용하지 않는다.
+
+예문은 에디터와 xlsx에서 관리하며, 스마트 복습 IndexedDB에는 저장하지 않는다.
 
 ## 저장 시점
 

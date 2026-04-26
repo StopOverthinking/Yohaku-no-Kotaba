@@ -42,7 +42,22 @@ function pushManualUndoSnapshot(history: ExamManualUndoSnapshot[], snapshot: Exa
   return [...history, snapshot].slice(-EXAM_MANUAL_UNDO_LIMIT)
 }
 
-function completeExam(record: ExamSessionRecord) {
+function normalizeWrongAnswerIds(wordIds: string[]) {
+  return [...new Set(filterNonComparisonWordIds(wordIds))]
+}
+
+function resolveWrongAnswerIds(result: ExamResult, previousWrongAnswerIds: string[]) {
+  const nextWrongAnswerIds = normalizeWrongAnswerIds(
+    result.wrongItems.flatMap((item) => {
+      const resolvedWordIds = getStudyItemWrongAnswerWordIds(item.itemId)
+      return resolvedWordIds.length > 0 ? resolvedWordIds : [item.itemId]
+    }),
+  )
+
+  return nextWrongAnswerIds.length > 0 ? nextWrongAnswerIds : normalizeWrongAnswerIds(previousWrongAnswerIds)
+}
+
+function completeExam(record: ExamSessionRecord, previousWrongAnswerIds: string[]) {
   const result = buildExamResult(record, (itemId) => {
     const item = getStudyItemById(itemId)
 
@@ -56,9 +71,7 @@ function completeExam(record: ExamSessionRecord) {
       expectedAnswer: getStudyItemAnswerText(item),
     }
   })
-  const wrongAnswerIds = filterNonComparisonWordIds(
-    result.wrongItems.flatMap((item) => getStudyItemWrongAnswerWordIds(item.itemId)),
-  )
+  const wrongAnswerIds = resolveWrongAnswerIds(result, previousWrongAnswerIds)
 
   clearExamSessionRecord()
   saveExamResult(result)
@@ -76,9 +89,14 @@ export const useExamStore = create<ExamState>((set, get) => ({
     const session = loadExamSessionRecord()
     const lastResult = loadExamResult()
     const loadedWrongAnswerIds = loadExamWrongAnswerIds()
-    const wrongAnswerIds = filterNonComparisonWordIds(loadedWrongAnswerIds)
+    const storedWrongAnswerIds = normalizeWrongAnswerIds(loadedWrongAnswerIds)
+    const resultWrongAnswerIds = lastResult ? resolveWrongAnswerIds(lastResult, []) : []
+    const wrongAnswerIds = storedWrongAnswerIds.length > 0 ? storedWrongAnswerIds : resultWrongAnswerIds
 
-    if (wrongAnswerIds.length !== loadedWrongAnswerIds.length) {
+    if (
+      wrongAnswerIds.length !== loadedWrongAnswerIds.length
+      || wrongAnswerIds.some((wordId, index) => wordId !== loadedWrongAnswerIds[index])
+    ) {
       saveExamWrongAnswerIds(wrongAnswerIds)
     }
 
@@ -125,7 +143,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
       return 'advanced'
     }
 
-    const { result, wrongAnswerIds } = completeExam(nextRecord)
+    const { result, wrongAnswerIds } = completeExam(nextRecord, get().wrongAnswerIds)
     set({
       status: 'complete',
       session: null,
@@ -178,7 +196,7 @@ export const useExamStore = create<ExamState>((set, get) => ({
       return 'advanced'
     }
 
-    const { result, wrongAnswerIds } = completeExam(nextRecord)
+    const { result, wrongAnswerIds } = completeExam(nextRecord, get().wrongAnswerIds)
     set({
       status: 'complete',
       session: null,

@@ -101,6 +101,26 @@ function buildDataFromLegacySets(legacySets) {
   return { sets, words }
 }
 
+function mergeExistingSmartReviewPrompts(words, existingWords = []) {
+  const promptByWordId = new Map(
+    existingWords
+      .filter((word) => word?.smartReviewPrompt)
+      .map((word) => [
+        word.id,
+        {
+          japaneseSentence: String(word.smartReviewPrompt.japaneseSentence ?? '').trim(),
+          translationSentence: String(word.smartReviewPrompt.translationSentence ?? '').trim(),
+        },
+      ])
+      .filter(([, prompt]) => prompt.japaneseSentence || prompt.translationSentence),
+  )
+
+  return words.map((word) => {
+    const smartReviewPrompt = promptByWordId.get(word.id)
+    return smartReviewPrompt ? { ...word, smartReviewPrompt } : word
+  })
+}
+
 async function readJsonFile(filePath, fallback) {
   try {
     return JSON.parse(await fs.readFile(filePath, 'utf8'))
@@ -175,7 +195,7 @@ async function main() {
     const legacyData = buildDataFromLegacySets(legacySets)
     await writeOutputFiles({
       sets: legacyData.sets,
-      words: legacyData.words,
+      words: mergeExistingSmartReviewPrompts(legacyData.words, editorSource?.words),
       themeWordbooks: editorSource?.themeWordbooks ?? [],
       themeWords: editorSource?.themeWords ?? [],
       comparisonWordbooks: editorSource?.comparisonWordbooks ?? [],

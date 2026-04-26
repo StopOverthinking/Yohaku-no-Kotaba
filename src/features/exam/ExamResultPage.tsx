@@ -6,7 +6,7 @@ import { Tooltip } from '@/components/Tooltip'
 import styles from '@/features/exam/exam.module.css'
 import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
-import { getStudyItemAnswerSubtext, getStudyItemAnswerText, getStudyItemById, getStudyItemQuestionText } from '@/features/vocab/model/selectors'
+import { getStudyItemAnswerSubtext, getStudyItemAnswerText, getStudyItemById, getStudyItemFavoriteWordIds, getStudyItemQuestionText } from '@/features/vocab/model/selectors'
 
 export function ExamResultPage() {
   const navigate = useNavigate()
@@ -24,6 +24,7 @@ export function ExamResultPage() {
       return studyItem ? { ...item, studyItem } : null
     })
     .filter((item): item is NonNullable<typeof item> => item !== null)
+  const unresolvedWrongCount = Math.max(0, lastResult.wrongItems.length - wrongItems.length)
 
   return (
     <div className={styles.root}>
@@ -60,7 +61,7 @@ export function ExamResultPage() {
           {wrongItems.length > 0 ? (
             <div className={styles.wrongList}>
               {wrongItems.map((item) => {
-                const favoriteWordId = item.studyItem.kind === 'word' ? item.studyItem.word.id : null
+                const favoriteWordId = getStudyItemFavoriteWordIds(item.studyItem)[0] ?? null
                 const isFavorite = favoriteWordId ? favoriteIds.includes(favoriteWordId) : false
 
                 return (
@@ -91,7 +92,16 @@ export function ExamResultPage() {
                   </GlassPanel>
                 )
               })}
+              {unresolvedWrongCount > 0 ? (
+                <GlassPanel className={styles.wrongItem} padding="sm">
+                  <p className={styles.wrongMeaning}>현재 단어장과 연결되지 않은 오답 {unresolvedWrongCount}개</p>
+                </GlassPanel>
+              ) : null}
             </div>
+          ) : unresolvedWrongCount > 0 ? (
+            <GlassPanel className={styles.wrongItem} padding="sm">
+              <p className={styles.wrongMeaning}>현재 단어장과 연결되지 않은 오답 {unresolvedWrongCount}개</p>
+            </GlassPanel>
           ) : (
             <p className={styles.perfectScore}>완벽합니다. 모든 문제를 맞혔습니다.</p>
           )}

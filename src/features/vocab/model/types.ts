@@ -36,7 +36,13 @@ export interface VocabularyWord {
   type: WordType
   difficulty: number | null
   verbInfo: string | null
+  smartReviewPrompt?: SmartReviewPrompt
   sourceOrder: number
+}
+
+export interface SmartReviewPrompt {
+  japaneseSentence: string
+  translationSentence: string
 }
 
 export interface ComparisonPair {

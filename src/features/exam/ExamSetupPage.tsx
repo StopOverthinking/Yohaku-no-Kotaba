@@ -13,7 +13,7 @@ const wrongAnswerSetId = 'wrong_answers'
 
 export function ExamSetupPage() {
   const navigate = useNavigate()
-  const { session, status, lastResult, wrongAnswerIds, startExam, clearSession } = useExamStore()
+  const { session, status, lastResult, wrongAnswerIds, startExam, clearSession, clearResult } = useExamStore()
   const [gradingMode, setGradingMode] = useState<ExamGradingMode>('auto')
 
   const wrongAnswerWords = useMemo(
@@ -45,6 +45,10 @@ export function ExamSetupPage() {
     }
 
     clearSession()
+  }
+
+  function handleClearResult() {
+    clearResult()
   }
 
   return (
@@ -97,11 +101,18 @@ export function ExamSetupPage() {
               {lastResult.correctCount}/{lastResult.totalQuestions}점 {lastResult.gradingMode === 'manual' ? '직접 채점' : '자동 채점'}
             </p>
           </div>
-          <Tooltip label="결과 보기">
-            <span>
-              <IconButton icon={ClipboardCheck} label="결과 보기" size="lg" onClick={() => navigate('/exam/result')} />
-            </span>
-          </Tooltip>
+          <div className={styles.resumeActions}>
+            <Tooltip label="결과 보기">
+              <span>
+                <IconButton icon={ClipboardCheck} label="결과 보기" size="lg" onClick={() => navigate('/exam/result')} />
+              </span>
+            </Tooltip>
+            <Tooltip label="시험 기록 삭제">
+              <span>
+                <IconButton icon={X} label="시험 기록 삭제" tone="danger" size="lg" onClick={handleClearResult} />
+              </span>
+            </Tooltip>
+          </div>
         </GlassPanel>
       ) : null}
 

@@ -19,6 +19,21 @@ function isObject(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null
 }
 
+function readString(value: unknown) {
+  return typeof value === 'string' && value.trim().length > 0 ? value : null
+}
+
+function readLegacyWrongItemId(value: Record<string, unknown>) {
+  const nestedWord = isObject(value.word) ? readString(value.word.id) ?? readString(value.word.wordId) : null
+  const nestedStudyItem = isObject(value.studyItem) ? readString(value.studyItem.id) : null
+
+  return readString(value.itemId)
+    ?? readString(value.wordId)
+    ?? readString(value.id)
+    ?? nestedWord
+    ?? nestedStudyItem
+}
+
 export function normalizeExamGradingMode(mode: unknown): ExamGradingMode {
   return mode === 'manual' ? 'manual' : 'auto'
 }
@@ -124,6 +139,59 @@ export function normalizeExamSessionRecord(raw: unknown): ExamSessionRecord | nu
     isAnswerRevealed: Boolean(raw.isAnswerRevealed) && normalizeExamGradingMode(raw.gradingMode) === 'manual',
     startedAt: typeof raw.startedAt === 'string' ? raw.startedAt : new Date().toISOString(),
     updatedAt: typeof raw.updatedAt === 'string' ? raw.updatedAt : new Date().toISOString(),
+  }
+}
+
+export function normalizeExamResult(raw: unknown): ExamResult | null {
+  if (!isObject(raw)) return null
+
+  const questionIds = Array.isArray(raw.questionIds)
+    ? raw.questionIds.filter((value): value is string => typeof value === 'string')
+    : []
+  const wrongItems = Array.isArray(raw.wrongItems)
+    ? raw.wrongItems.flatMap((value) => {
+        if (typeof value === 'string' && value.trim().length > 0) {
+          return [{ itemId: value }]
+        }
+        if (!isObject(value)) return []
+
+        const itemId = readLegacyWrongItemId(value)
+        if (!itemId) return []
+
+        const userAnswer = typeof value.userAnswer === 'string'
+          ? value.userAnswer
+          : typeof value.answer === 'string'
+            ? value.answer
+            : undefined
+
+        return userAnswer === undefined ? [{ itemId }] : [{ itemId, userAnswer }]
+      })
+    : []
+
+  if (questionIds.length === 0 && wrongItems.length === 0) return null
+
+  const parsedTotalQuestions = typeof raw.totalQuestions === 'number'
+    ? raw.totalQuestions
+    : Number.parseInt(String(raw.totalQuestions ?? questionIds.length), 10)
+  const totalQuestions = Number.isFinite(parsedTotalQuestions)
+    ? Math.max(Math.trunc(parsedTotalQuestions), questionIds.length, wrongItems.length)
+    : Math.max(questionIds.length, wrongItems.length)
+  const parsedCorrectCount = typeof raw.correctCount === 'number'
+    ? raw.correctCount
+    : Number.parseInt(String(raw.correctCount ?? totalQuestions - wrongItems.length), 10)
+  const correctCount = Number.isFinite(parsedCorrectCount)
+    ? Math.min(Math.max(Math.trunc(parsedCorrectCount), 0), totalQuestions)
+    : Math.max(0, totalQuestions - wrongItems.length)
+
+  return {
+    setId: typeof raw.setId === 'string' ? raw.setId : 'wrong_answers',
+    setName: typeof raw.setName === 'string' && raw.setName.trim().length > 0 ? raw.setName : '시험',
+    gradingMode: normalizeExamGradingMode(raw.gradingMode),
+    questionIds,
+    correctCount,
+    totalQuestions,
+    wrongItems,
+    completedAt: typeof raw.completedAt === 'string' ? raw.completedAt : new Date().toISOString(),
   }
 }
 

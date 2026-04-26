@@ -1,4 +1,4 @@
-import type { VocabularyWord } from '@/features/vocab/model/types'
+import type { SmartReviewPrompt, VocabularyWord } from '@/features/vocab/model/types'
 
 export type SmartReviewScheduleRecord = {
   wordId: string
@@ -75,11 +75,7 @@ export type SmartReviewSubmitOutcome = {
   isCorrect: boolean
 }
 
-export type SmartReviewStudyPrompt = {
-  japaneseSentence: string
-  translationSentence: string
-  note: string
-}
+export type SmartReviewStudyPrompt = SmartReviewPrompt
 
 export type SmartReviewSetupSummary = {
   dueCount: number

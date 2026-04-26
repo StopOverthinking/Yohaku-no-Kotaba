@@ -45,6 +45,51 @@ describe('examStore wrong answer persistence', () => {
     expect(loadExamWrongAnswerIds()).toEqual([secondWord.id])
   })
 
+  it('keeps the wrong-answer set when a later exam has no wrong answers', () => {
+    saveExamWrongAnswerIds([firstWord.id, secondWord.id])
+    useExamStore.getState().hydrate()
+
+    useExamStore.getState().startExam({
+      setId: 'wrong_answers',
+      setName: '오답 세트 재시험',
+      words: [firstWord, secondWord],
+      gradingMode: 'manual',
+    })
+
+    expect(useExamStore.getState().revealManualAnswer()).toBe('revealed')
+    expect(useExamStore.getState().markManualGrade(true)).toBe('advanced')
+    expect(useExamStore.getState().revealManualAnswer()).toBe('revealed')
+    expect(useExamStore.getState().markManualGrade(true)).toBe('completed')
+
+    expect(useExamStore.getState().lastResult?.wrongItems).toEqual([])
+    expect(useExamStore.getState().wrongAnswerIds).toEqual([firstWord.id, secondWord.id])
+    expect(loadExamWrongAnswerIds()).toEqual([firstWord.id, secondWord.id])
+  })
+
+  it('restores wrong-answer ids from legacy result items when the wrong-answer store is empty', () => {
+    localStorage.setItem('jsp-react:exam-result', JSON.stringify({
+      setId: 'set-a',
+      setName: '레거시 시험',
+      gradingMode: 'manual',
+      questionIds: [firstWord.id, secondWord.id],
+      correctCount: 0,
+      totalQuestions: 2,
+      wrongItems: [{ id: firstWord.id }, { word: { id: secondWord.id } }, thirdWord.id],
+      completedAt: '2026-04-24T00:00:00.000Z',
+    }))
+    localStorage.setItem('jsp-react:exam-wrong-answer-ids', JSON.stringify([]))
+
+    useExamStore.getState().hydrate()
+
+    expect(useExamStore.getState().lastResult?.wrongItems).toEqual([
+      { itemId: firstWord.id },
+      { itemId: secondWord.id },
+      { itemId: thirdWord.id },
+    ])
+    expect(useExamStore.getState().wrongAnswerIds).toEqual([firstWord.id, secondWord.id, thirdWord.id])
+    expect(loadExamWrongAnswerIds()).toEqual([firstWord.id, secondWord.id, thirdWord.id])
+  })
+
   it('restores the previous manual question and stops after 20 uses', () => {
     const store = useExamStore.getState()
 

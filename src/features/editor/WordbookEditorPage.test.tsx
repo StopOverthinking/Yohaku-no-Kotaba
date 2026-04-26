@@ -29,9 +29,27 @@ describe('WordbookEditorPage', () => {
     const toolbar = screen.getByRole('button', { name: '양식 다운로드' }).closest(`.${styles.inlineActions}`)
 
     expect(toolbar).not.toBeNull()
+    expect(toolbar).toContainElement(screen.getByRole('button', { name: '단어 편집' }))
+    expect(toolbar).toContainElement(screen.getByRole('button', { name: '예문 편집' }))
     expect(toolbar).toContainElement(screen.getByRole('button', { name: '양식 다운로드' }))
     expect(toolbar).toContainElement(screen.getByRole('button', { name: 'xlsx 업로드' }))
     expect(toolbar).toContainElement(screen.getByRole('button', { name: '단어 추가' }))
+  }, 20000)
+
+  it('switches the main table between word and smart review prompt editing', () => {
+    render(<WordbookEditorPage />)
+
+    fireEvent.click(screen.getByRole('button', { name: '예문 편집' }))
+
+    expect(screen.getByRole('columnheader', { name: '예문 일본어' })).toBeInTheDocument()
+    expect(screen.getByRole('columnheader', { name: '예문 한국어' })).toBeInTheDocument()
+    expect(screen.queryByRole('columnheader', { name: '동사' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '단어 추가' })).not.toBeInTheDocument()
+
+    fireEvent.click(screen.getByRole('button', { name: '단어 편집' }))
+
+    expect(screen.getByRole('columnheader', { name: '동사' })).toBeInTheDocument()
+    expect(screen.queryByRole('columnheader', { name: '예문 일본어' })).not.toBeInTheDocument()
   }, 20000)
 
   it('uses sidebar topic names and a dropdown topic selector in theme mode', () => {

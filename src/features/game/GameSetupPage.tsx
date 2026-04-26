@@ -219,43 +219,45 @@ export function GameSetupPage() {
             })}
           </div>
 
-          {selection.gameKind === 'speed_quiz' ? (
-            <div className={styles.modeGrid}>
-              {modeCards.map((card) => {
-                const isActive = card.mode === selection.mode && card.quizType === selection.quizType
-                return (
-                  <button
-                    key={`${card.mode}-${card.quizType}`}
-                    type="button"
-                    className={styles.modeCard}
-                    data-active={isActive}
-                    onClick={() => setSelection({ gameKind: 'speed_quiz', mode: card.mode, quizType: card.quizType })}
-                  >
-                    <h3 className={styles.modeTitle}>{card.title}</h3>
-                    <p className={styles.modeCopy}>{card.description}</p>
-                    <span className={styles.statusPill}>{getQuestionCount(card.quizType)}문제</span>
-                  </button>
-                )
-              })}
-            </div>
-          ) : (
-            <div className={styles.summaryCard}>
-              <div className="form-label">짝 수</div>
-              <div className={styles.segmentRow}>
-                {tapMatchPairCountOptions.map((count) => (
-                  <button
-                    key={count}
-                    type="button"
-                    className={styles.segmentButton}
-                    data-active={selection.pairCount === count}
-                    onClick={() => setSelection({ gameKind: 'tap_match_rush', pairCount: count })}
-                  >
-                    {count}
-                  </button>
-                ))}
+          <div className={styles.modeConfigArea}>
+            {selection.gameKind === 'speed_quiz' ? (
+              <div className={styles.modeGrid}>
+                {modeCards.map((card) => {
+                  const isActive = card.mode === selection.mode && card.quizType === selection.quizType
+                  return (
+                    <button
+                      key={`${card.mode}-${card.quizType}`}
+                      type="button"
+                      className={styles.modeCard}
+                      data-active={isActive}
+                      onClick={() => setSelection({ gameKind: 'speed_quiz', mode: card.mode, quizType: card.quizType })}
+                    >
+                      <h3 className={styles.modeTitle}>{card.title}</h3>
+                      <p className={styles.modeCopy}>{card.description}</p>
+                      <span className={styles.statusPill}>{getQuestionCount(card.quizType)}문제</span>
+                    </button>
+                  )
+                })}
               </div>
-            </div>
-          )}
+            ) : (
+              <div className={styles.tapPairField}>
+                <div className="form-label">짝 수</div>
+                <div className={styles.segmentRow}>
+                  {tapMatchPairCountOptions.map((count) => (
+                    <button
+                      key={count}
+                      type="button"
+                      className={styles.segmentButton}
+                      data-active={selection.pairCount === count}
+                      onClick={() => setSelection({ gameKind: 'tap_match_rush', pairCount: count })}
+                    >
+                      {count}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
 
           <div className="form-field">
             <label className="form-label" htmlFor="game-player-name">플레이어 이름</label>

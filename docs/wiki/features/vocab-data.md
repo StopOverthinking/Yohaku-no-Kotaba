@@ -40,6 +40,12 @@
 
 일반 단어 엔트리. 기본, 주제형, 비교형 모두 이 타입을 바탕으로 움직인다.
 
+- `smartReviewPrompt`를 선택적으로 가질 수 있다.
+- 값이 있고 완성돼 있으면 스마트 복습 문장으로 사용한다.
+- 구조는 `japaneseSentence`, `translationSentence`만 둔다.
+- 자동 생성 예문과 어조 메타데이터는 사용하지 않는다.
+- 비교형 단어는 타입상 필드를 가질 수 있지만 스마트 복습 후보가 아니므로 편집 기준에서 제외한다.
+
 ### `StudyItem`
 
 런타임 학습 단위.
@@ -71,6 +77,7 @@
 - 편집 원본: `src/features/vocab/editor-data/*`
 - 런타임 데이터: `src/features/vocab/data/*`
 - 생성 스크립트: `scripts/generate-vocab-data.mjs`
+- 스마트 복습 문장도 단어 원본 데이터와 함께 생성된다.
 
 ## 수정 시 주의점
 

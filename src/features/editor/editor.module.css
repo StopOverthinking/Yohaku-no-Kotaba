@@ -367,6 +367,30 @@
   line-height: 1.5;
 }
 
+.tableTextarea {
+  width: 100%;
+  min-height: 82px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-strong);
+  outline: 0;
+  resize: vertical;
+  font: inherit;
+  line-height: 1.45;
+}
+
+.readOnlyCell {
+  display: block;
+  min-height: 40px;
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.025);
+  color: var(--text-strong);
+  line-height: 1.35;
+}
+
 .compareDescriptionInput {
   width: 100%;
   min-height: 164px;
@@ -389,6 +413,7 @@
 .cellInput:focus,
 .cellSelect:focus,
 .cellTextarea:focus,
+.tableTextarea:focus,
 .compareDescriptionInput:focus {
   border-color: var(--border-accent);
   background: rgba(255, 255, 255, 0.08);

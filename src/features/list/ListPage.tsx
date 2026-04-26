@@ -8,7 +8,7 @@ import { Tooltip } from '@/components/Tooltip'
 import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
-import { allSets, getSetName, getStudyItemById, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic, isStudyItemFavorite } from '@/features/vocab/model/selectors'
+import { allSets, getSetName, getStudyItemById, getStudyItemFavoriteWordIds, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic, isStudyItemFavorite } from '@/features/vocab/model/selectors'
 import type { StudyItem } from '@/features/vocab/model/types'
 import styles from '@/features/list/list.module.css'
 
@@ -177,7 +177,7 @@ const VocabCard = memo(function VocabCard({
                 className={styles.cardFavoriteButton}
                 onClick={(event) => {
                   event.stopPropagation()
-                  onToggleFavorite(item.word.id)
+                  onToggleFavorite(getStudyItemFavoriteWordIds(item)[0] ?? item.word.id)
                 }}
               >
                 <Heart size={18} strokeWidth={1.9} fill={isFavorite ? 'currentColor' : 'none'} />

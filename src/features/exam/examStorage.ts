@@ -1,4 +1,4 @@
-import { normalizeExamSessionRecord } from '@/features/exam/examEngine'
+import { normalizeExamResult, normalizeExamSessionRecord } from '@/features/exam/examEngine'
 import type { ExamResult, ExamSessionRecord } from '@/features/exam/examTypes'
 
 const examSessionKey = 'jsp-react:exam-session'
@@ -35,7 +35,16 @@ export function loadExamResult(): ExamResult | null {
   if (!raw) return null
 
   try {
-    return JSON.parse(raw) as ExamResult
+    const parsed = JSON.parse(raw)
+    const normalized = normalizeExamResult(parsed)
+    if (!normalized) {
+      localStorage.removeItem(examResultKey)
+      return null
+    }
+    if (JSON.stringify(parsed) !== JSON.stringify(normalized)) {
+      saveExamResult(normalized)
+    }
+    return normalized
   } catch {
     localStorage.removeItem(examResultKey)
     return null

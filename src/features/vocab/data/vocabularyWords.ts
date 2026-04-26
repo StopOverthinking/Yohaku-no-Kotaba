@@ -5510,7 +5510,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 15,
     "verbInfo": "2자",
-    "sourceOrder": 0
+    "sourceOrder": 0,
+    "smartReviewPrompt": {
+      "japaneseSentence": "全部わからなくても、一つずつならきっと ____。",
+      "translationSentence": "전부는 몰라도 하나씩이라면 분명 할 수 있다."
+    }
   },
   {
     "id": "handmade_2",
@@ -5521,7 +5525,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 1
+    "sourceOrder": 1,
+    "smartReviewPrompt": {
+      "japaneseSentence": "助けを求める前に、黙って隣に来てくれる人が本当に ____ 人だ。",
+      "translationSentence": "도와 달라는 말 전에 조용히 곁에 와 주는 사람이 진짜 돕는 사람이다."
+    }
   },
   {
     "id": "handmade_3",
@@ -5532,7 +5540,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 2
+    "sourceOrder": 2,
+    "smartReviewPrompt": {
+      "japaneseSentence": "少し知っているだけで ____ のは、いちばん格好悪い。",
+      "translationSentence": "조금 안다고 잘난 체하는 건 가장 멋없다."
+    }
   },
   {
     "id": "handmade_4",
@@ -5543,7 +5555,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "2자",
-    "sourceOrder": 3
+    "sourceOrder": 3,
+    "smartReviewPrompt": {
+      "japaneseSentence": "同じ姿勢で座りすぎて、足先が少し ____。",
+      "translationSentence": "같은 자세로 너무 오래 앉아 있어서 발끝이 조금 저리다."
+    }
   },
   {
     "id": "handmade_5",
@@ -5554,7 +5570,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 4
+    "sourceOrder": 4,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ のことを話すときだけ、祖母の声は少しやわらかい。",
+      "translationSentence": "옛날 이야기를 할 때만 할머니의 목소리가 조금 부드러워진다."
+    }
   },
   {
     "id": "handmade_6",
@@ -5565,7 +5585,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 5
+    "sourceOrder": 5,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長い会議のあとで、のどがからからに ____。",
+      "translationSentence": "긴 회의 뒤라 목이 바싹 말랐다."
+    }
   },
   {
     "id": "handmade_7",
@@ -5576,7 +5600,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2자",
-    "sourceOrder": 6
+    "sourceOrder": 6,
+    "smartReviewPrompt": {
+      "japaneseSentence": "新しい命が ____ た朝、病室の空気まで明るかった。",
+      "translationSentence": "새 생명이 태어난 아침, 병실의 공기까지 밝았다."
+    }
   },
   {
     "id": "handmade_8",
@@ -5587,7 +5615,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 7
+    "sourceOrder": 7,
+    "smartReviewPrompt": {
+      "japaneseSentence": "値段はつけられないからこそ、それは私の ____ なんだ。",
+      "translationSentence": "값을 매길 수 없기에 그것은 내 보물이다."
+    }
   },
   {
     "id": "handmade_9",
@@ -5598,7 +5630,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 47,
     "verbInfo": null,
-    "sourceOrder": 8
+    "sourceOrder": 8,
+    "smartReviewPrompt": {
+      "japaneseSentence": "冗談では済まないのに、どこか笑えないほど ____ 話だった。",
+      "translationSentence": "농담으로 넘길 수 없을 만큼 씁쓸하고 칼칼한 이야기였다."
+    }
   },
   {
     "id": "handmade_10",
@@ -5609,7 +5645,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 9
+    "sourceOrder": 9,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い時代劇みたいに「____」なんて呼ばれても、今は笑うしかない。",
+      "translationSentence": "옛 시대극처럼 “네 녀석”이라 불려도 지금은 웃을 수밖에 없다."
+    }
   },
   {
     "id": "handmade_11",
@@ -5620,7 +5660,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 10
+    "sourceOrder": 10,
+    "smartReviewPrompt": {
+      "japaneseSentence": "あの人の静けさには、どこか ____ ものがある。",
+      "translationSentence": "그 사람의 고요함에는 어딘가 끝을 모르는 깊이가 있다."
+    }
   },
   {
     "id": "handmade_12",
@@ -5631,7 +5675,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 11
+    "sourceOrder": 11,
+    "smartReviewPrompt": {
+      "japaneseSentence": "そんな ____ でも、会話のきっかけには十分役に立つ。",
+      "translationSentence": "그런 토막 지식이라도 대화의 계기로는 충분히 도움이 된다."
+    }
   },
   {
     "id": "handmade_13",
@@ -5642,7 +5690,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 12
+    "sourceOrder": 12,
+    "smartReviewPrompt": {
+      "japaneseSentence": "返事を急がせるより、まずは相手の ____ を見たほうがいい。",
+      "translationSentence": "답을 재촉하기보다 먼저 상대의 상태를 보는 편이 낫다."
+    }
   },
   {
     "id": "handmade_14",
@@ -5653,7 +5705,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 13
+    "sourceOrder": 13,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨上がりの校庭は、靴より先に ____ の匂いを思い出させる。",
+      "translationSentence": "비가 그친 운동장은 신발보다 먼저 진흙 냄새를 떠올리게 한다."
+    }
   },
   {
     "id": "handmade_15",
@@ -5664,7 +5720,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 14
+    "sourceOrder": 14,
+    "smartReviewPrompt": {
+      "japaneseSentence": "気分が乱れている日は、机の上の ____ から始める。",
+      "translationSentence": "마음이 어수선한 날은 책상 위 청소부터 시작한다."
+    }
   },
   {
     "id": "handmade_16",
@@ -5675,7 +5735,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 15
+    "sourceOrder": 15,
+    "smartReviewPrompt": {
+      "japaneseSentence": "言いすぎたと思ったら、せめて表情だけでも ____ たい。",
+      "translationSentence": "말을 지나치게 했다 싶으면 적어도 표정만큼은 되돌리고 싶다."
+    }
   },
   {
     "id": "handmade_17",
@@ -5686,7 +5750,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "adv",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 16
+    "sourceOrder": 16,
+    "smartReviewPrompt": {
+      "japaneseSentence": "断るときほど、ことばを ____ 選びたい。",
+      "translationSentence": "거절할 때일수록 말을 정성껏 고르고 싶다."
+    }
   },
   {
     "id": "handmade_18",
@@ -5697,7 +5765,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 17
+    "sourceOrder": 17,
+    "smartReviewPrompt": {
+      "japaneseSentence": "窓の ____ から差す光だけで、部屋の朝は十分だった。",
+      "translationSentence": "창 틈으로 들어오는 빛만으로도 방의 아침은 충분했다."
+    }
   },
   {
     "id": "handmade_19",
@@ -5708,7 +5780,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "1자",
-    "sourceOrder": 18
+    "sourceOrder": 18,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雲の切れ目から細い光が ____ できた。",
+      "translationSentence": "구름 틈 사이로 가느다란 빛이 스며들어 왔다."
+    }
   },
   {
     "id": "handmade_20",
@@ -5719,7 +5795,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 19
+    "sourceOrder": 19,
+    "smartReviewPrompt": {
+      "japaneseSentence": "簡単に ____ 前に、あと一日だけ考えてみようと思う。",
+      "translationSentence": "쉽게 포기하기 전에 하루만 더 생각해 보기로 했다."
+    }
   },
   {
     "id": "handmade_21",
@@ -5730,7 +5810,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 20
+    "sourceOrder": 20,
+    "smartReviewPrompt": {
+      "japaneseSentence": "答えが見えないからこそ、その ____ に人は引かれる。",
+      "translationSentence": "답이 보이지 않기 때문에 사람은 그 수수께끼에 끌린다."
+    }
   },
   {
     "id": "handmade_22",
@@ -5741,7 +5825,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 21
+    "sourceOrder": 21,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨の日に灯りのついた ____ は、それだけで少し救いになる。",
+      "translationSentence": "비 오는 날 불 켜진 가게는 그것만으로도 조금 위안이 된다."
+    }
   },
   {
     "id": "handmade_23",
@@ -5752,7 +5840,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 22
+    "sourceOrder": 22,
+    "smartReviewPrompt": {
+      "japaneseSentence": "朝の光の下では、昨日まで気づかなかった ____ までよく見える。",
+      "translationSentence": "아침빛 아래에서는 어제까지 눈치채지 못한 수염까지 잘 보인다."
+    }
   },
   {
     "id": "handmade_24",
@@ -5763,7 +5855,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 23
+    "sourceOrder": 23,
+    "smartReviewPrompt": {
+      "japaneseSentence": "切ったばかりの ____ が肩に落ちると、季節まで変わった気がする。",
+      "translationSentence": "막 자른 머리카락이 어깨에 떨어지면 계절까지 바뀐 기분이 든다."
+    }
   },
   {
     "id": "handmade_25",
@@ -5774,7 +5870,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 24
+    "sourceOrder": 24,
+    "smartReviewPrompt": {
+      "japaneseSentence": "港を出る ____ の音だけで、旅はもう半分始まっている。",
+      "translationSentence": "항구를 떠나는 배 소리만으로도 여행은 이미 절반 시작된 셈이다."
+    }
   },
   {
     "id": "handmade_26",
@@ -5785,7 +5885,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 25
+    "sourceOrder": 25,
+    "smartReviewPrompt": {
+      "japaneseSentence": "遠くの ____ の気配だけで、町の窓は少し早く閉じる。",
+      "translationSentence": "멀리서 폭풍 기미만 보여도 도시의 창문은 조금 일찍 닫힌다."
+    }
   },
   {
     "id": "handmade_27",
@@ -5796,7 +5900,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 26
+    "sourceOrder": 26,
+    "smartReviewPrompt": {
+      "japaneseSentence": "朝日はいつも ____ から来るのに、今日は少し迷って見えた。",
+      "translationSentence": "아침 해는 늘 동쪽에서 오는데 오늘은 조금 망설이는 듯 보였다."
+    }
   },
   {
     "id": "handmade_28",
@@ -5807,7 +5915,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 27
+    "sourceOrder": 27,
+    "smartReviewPrompt": {
+      "japaneseSentence": "夕焼けは ____ の空から急に深くなる。",
+      "translationSentence": "저녁놀은 서쪽 하늘부터 갑자기 짙어진다."
+    }
   },
   {
     "id": "handmade_29",
@@ -5818,7 +5930,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 28
+    "sourceOrder": 28,
+    "smartReviewPrompt": {
+      "japaneseSentence": "海の匂いは、____ の風に乗るといちばん濃くなる。",
+      "translationSentence": "바다 냄새는 남쪽 바람을 타고 올 때 가장 짙어진다."
+    }
   },
   {
     "id": "handmade_30",
@@ -5829,7 +5945,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 29
+    "sourceOrder": 29,
+    "smartReviewPrompt": {
+      "japaneseSentence": "冷たい空気はたいてい ____ から静かに降りてくる。",
+      "translationSentence": "찬 공기는 대개 북쪽에서 조용히 내려온다."
+    }
   },
   {
     "id": "handmade_31",
@@ -5840,7 +5960,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 30
+    "sourceOrder": 30,
+    "smartReviewPrompt": {
+      "japaneseSentence": "考えが詰まった日は、少し ____ に出るだけでましになる。",
+      "translationSentence": "생각이 막힌 날은 잠깐 밖에 나가기만 해도 조금 나아진다."
+    }
   },
   {
     "id": "handmade_32",
@@ -5851,7 +5975,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 31
+    "sourceOrder": 31,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ の匂いだけで、今日はやり直せる気がした。",
+      "translationSentence": "오늘 아침의 냄새만으로도 오늘은 다시 시작할 수 있을 것 같았다."
+    }
   },
   {
     "id": "handmade_33",
@@ -5862,7 +5990,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 32
+    "sourceOrder": 32,
+    "smartReviewPrompt": {
+      "japaneseSentence": "窓を開けた瞬間、言葉より先に「____」と思った。",
+      "translationSentence": "창문을 여는 순간 말보다 먼저 “덥다”는 생각이 들었다."
+    }
   },
   {
     "id": "handmade_34",
@@ -5873,7 +6005,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 33
+    "sourceOrder": 33,
+    "smartReviewPrompt": {
+      "japaneseSentence": "小さな ____ の中に、なくしたと思っていた手紙が眠っていた。",
+      "translationSentence": "작은 상자 안에 잃어버린 줄 알았던 편지가 잠들어 있었다."
+    }
   },
   {
     "id": "handmade_35",
@@ -5884,7 +6020,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 34
+    "sourceOrder": 34,
+    "smartReviewPrompt": {
+      "japaneseSentence": "何も言わなくても、____ だけはきれいに嘘をつけない。",
+      "translationSentence": "아무 말 하지 않아도 눈동자만큼은 예쁘게 거짓말하지 못한다."
+    }
   },
   {
     "id": "handmade_36",
@@ -5895,7 +6035,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 35
+    "sourceOrder": 35,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長い ____ の前夜ほど、机の上の小さな音が気になる。",
+      "translationSentence": "긴 시험 전날일수록 책상 위 작은 소음이 신경 쓰인다."
+    }
   },
   {
     "id": "handmade_37",
@@ -5906,7 +6050,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "1타",
-    "sourceOrder": 36
+    "sourceOrder": 36,
+    "smartReviewPrompt": {
+      "japaneseSentence": "夕立が来る前に、干してある服を全部 ____ こんだ。",
+      "translationSentence": "소나기가 오기 전에 널어 둔 옷을 전부 거두어 들였다."
+    }
   },
   {
     "id": "handmade_38",
@@ -5917,7 +6065,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 37
+    "sourceOrder": 37,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い ____ をひねる音で、この家の朝が始まる。",
+      "translationSentence": "낡은 수도꼭지를 트는 소리로 이 집의 아침이 시작된다."
+    }
   },
   {
     "id": "handmade_39",
@@ -5928,7 +6080,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 38
+    "sourceOrder": 38,
+    "smartReviewPrompt": {
+      "japaneseSentence": "本当の ____ は、見つけるより向き合うほうが難しい。",
+      "translationSentence": "진짜 문제는 발견하는 것보다 마주하는 편이 더 어렵다."
+    }
   },
   {
     "id": "handmade_40",
@@ -5939,7 +6095,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 39
+    "sourceOrder": 39,
+    "smartReviewPrompt": {
+      "japaneseSentence": "深夜の ____ のサイレンだけは、何度聞いても胸に刺さる。",
+      "translationSentence": "한밤중의 소방 사이렌만큼은 몇 번을 들어도 가슴을 찌른다."
+    }
   },
   {
     "id": "handmade_41",
@@ -5950,7 +6110,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 10,
     "verbInfo": null,
-    "sourceOrder": 40
+    "sourceOrder": 40,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨の日の ____ には、別れと再会が少し混ざっている。",
+      "translationSentence": "비 오는 날의 역에는 이별과 재회가 조금 섞여 있다."
+    }
   },
   {
     "id": "handmade_42",
@@ -5961,7 +6125,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 41
+    "sourceOrder": 41,
+    "smartReviewPrompt": {
+      "japaneseSentence": "温かい ____ を前にすると、言い争いも少しだけ小さくなる。",
+      "translationSentence": "따뜻한 밥 앞에서는 언쟁도 조금쯤 작아진다."
+    }
   },
   {
     "id": "handmade_43",
@@ -5972,7 +6140,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 42
+    "sourceOrder": 42,
+    "smartReviewPrompt": {
+      "japaneseSentence": "強い ____ ではなく、少しだけ口がほぐれるくらいで十分だった。",
+      "translationSentence": "센 술이 아니라 입가가 조금 풀릴 정도면 충분했다."
+    }
   },
   {
     "id": "handmade_44",
@@ -5983,7 +6155,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 43
+    "sourceOrder": 43,
+    "smartReviewPrompt": {
+      "japaneseSentence": "眠い朝の ____ ほど、窓際の席がありがたい。",
+      "translationSentence": "졸린 아침 수업일수록 창가 자리가 고맙다."
+    }
   },
   {
     "id": "handmade_45",
@@ -5994,7 +6170,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 44
+    "sourceOrder": 44,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い ____ の紙の匂いだけで、子どものころに戻れる。",
+      "translationSentence": "오래된 신문의 종이 냄새만으로도 어린 시절로 돌아갈 수 있다."
+    }
   },
   {
     "id": "handmade_46",
@@ -6005,7 +6185,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 45
+    "sourceOrder": 45,
+    "smartReviewPrompt": {
+      "japaneseSentence": "引っ越しのたびに、____ だけはきれいに書き直した。",
+      "translationSentence": "이사할 때마다 주소만은 깔끔하게 다시 적었다."
+    }
   },
   {
     "id": "handmade_47",
@@ -6016,7 +6200,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 46
+    "sourceOrder": 46,
+    "smartReviewPrompt": {
+      "japaneseSentence": "深夜の ____ は、鳴る前より切れた後のほうが長く残る。",
+      "translationSentence": "한밤의 전화는 울리기 전보다 끊긴 뒤가 더 오래 남는다."
+    }
   },
   {
     "id": "handmade_48",
@@ -6027,7 +6215,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 47
+    "sourceOrder": 47,
+    "smartReviewPrompt": {
+      "japaneseSentence": "名前より先に ____ を覚える癖が、いつまでたっても抜けない。",
+      "translationSentence": "이름보다 먼저 번호를 외우는 버릇이 좀처럼 빠지지 않는다."
+    }
   },
   {
     "id": "handmade_49",
@@ -6038,7 +6230,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 48
+    "sourceOrder": 48,
+    "smartReviewPrompt": {
+      "japaneseSentence": "見えない不安ほど、いったん紙に ____ みると輪郭が出る。",
+      "translationSentence": "보이지 않는 불안일수록 일단 종이에 그려 보면 윤곽이 드러난다."
+    }
   },
   {
     "id": "handmade_50",
@@ -6049,7 +6245,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 49
+    "sourceOrder": 49,
+    "smartReviewPrompt": {
+      "japaneseSentence": "結果のためだけではない ____ が、最後に人を支える。",
+      "translationSentence": "결과만을 위한 것이 아닌 공부가 마지막에 사람을 지탱한다."
+    }
   },
   {
     "id": "handmade_51",
@@ -6060,7 +6260,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "na_adj",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 50
+    "sourceOrder": 50,
+    "smartReviewPrompt": {
+      "japaneseSentence": "笑うところかどうかもわからないくらい ____ 空気だった。",
+      "translationSentence": "웃어야 할지조차 모를 만큼 이상한 분위기였다."
+    }
   },
   {
     "id": "handmade_52",
@@ -6071,7 +6275,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 51
+    "sourceOrder": 51,
+    "smartReviewPrompt": {
+      "japaneseSentence": "見た目よりも、あとから残る ____ のほうで料理を覚える。",
+      "translationSentence": "겉모습보다도 나중에 남는 맛으로 요리를 기억한다."
+    }
   },
   {
     "id": "handmade_53",
@@ -6082,7 +6290,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 52
+    "sourceOrder": 52,
+    "smartReviewPrompt": {
+      "japaneseSentence": "眠っている ____ を見ていると、時間まで静かになる。",
+      "translationSentence": "잠든 아기를 보고 있으면 시간까지 조용해진다."
+    }
   },
   {
     "id": "handmade_54",
@@ -6093,7 +6305,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 53
+    "sourceOrder": 53,
+    "smartReviewPrompt": {
+      "japaneseSentence": "小さな ____ を笑える日は、まだ立て直せる日だ。",
+      "translationSentence": "작은 실패를 웃어넘길 수 있는 날은 아직 다시 세울 수 있는 날이다."
+    }
   },
   {
     "id": "handmade_55",
@@ -6104,7 +6320,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 54
+    "sourceOrder": 54,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い ____ ほど、写っていない時間のほうが多い。",
+      "translationSentence": "오래된 사진일수록 찍히지 않은 시간 쪽이 더 많다."
+    }
   },
   {
     "id": "handmade_56",
@@ -6115,7 +6335,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "2타",
-    "sourceOrder": 55
+    "sourceOrder": 55,
+    "smartReviewPrompt": {
+      "japaneseSentence": "勝ち負けだけじゃなく、拍手まで ____ めた夜だった。",
+      "translationSentence": "승패뿐 아니라 박수까지 거머쥔 밤이었다."
+    }
   },
   {
     "id": "handmade_57",
@@ -6126,7 +6350,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "2타",
-    "sourceOrder": 56
+    "sourceOrder": 56,
+    "smartReviewPrompt": {
+      "japaneseSentence": "衣の音が変わったら、それはもう十分に ____ た合図だ。",
+      "translationSentence": "튀김옷 소리가 바뀌면 그것은 이미 충분히 튀겨졌다는 신호다."
+    }
   },
   {
     "id": "handmade_58",
@@ -6137,7 +6365,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 57
+    "sourceOrder": 57,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨の日は、熱い ____ がいつもより少しうれしい。",
+      "translationSentence": "비 오는 날은 뜨거운 튀김이 평소보다 조금 더 반갑다."
+    }
   },
   {
     "id": "handmade_59",
@@ -6148,7 +6380,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 58
+    "sourceOrder": 58,
+    "smartReviewPrompt": {
+      "japaneseSentence": "夜の ____ は、走り出す前より停まった後のほうが静かだ。",
+      "translationSentence": "밤의 자동차는 달리기 전보다 멈춘 뒤가 더 조용하다."
+    }
   },
   {
     "id": "handmade_60",
@@ -6159,7 +6395,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 59
+    "sourceOrder": 59,
+    "smartReviewPrompt": {
+      "japaneseSentence": "言葉を相手にきちんと ____ せるだけでも、会話はだいぶ変わる。",
+      "translationSentence": "말을 상대에게 제대로 건네는 것만으로도 대화는 꽤 달라진다."
+    }
   },
   {
     "id": "handmade_61",
@@ -6170,7 +6410,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 60
+    "sourceOrder": 60,
+    "smartReviewPrompt": {
+      "japaneseSentence": "青い ____ の中だけは、部屋より少し時間がゆっくり進む。",
+      "translationSentence": "푸른 수조 안에서만은 방보다 시간이 조금 천천히 흐른다."
+    }
   },
   {
     "id": "handmade_62",
@@ -6181,7 +6425,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 61
+    "sourceOrder": 61,
+    "smartReviewPrompt": {
+      "japaneseSentence": "勝った日の ____ より、負けた日の背中にその人が出る。",
+      "translationSentence": "이긴 날의 선수보다 진 날의 뒷모습에 그 사람이 드러난다."
+    }
   },
   {
     "id": "handmade_63",
@@ -6192,7 +6440,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 19,
     "verbInfo": "2타",
-    "sourceOrder": 62
+    "sourceOrder": 62,
+    "smartReviewPrompt": {
+      "japaneseSentence": "迷い続けるより、今日は自分で ____ てしまいたい。",
+      "translationSentence": "계속 망설이기보다 오늘은 스스로 결정해 버리고 싶다."
+    }
   },
   {
     "id": "handmade_64",
@@ -6203,7 +6455,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 63
+    "sourceOrder": 63,
+    "smartReviewPrompt": {
+      "japaneseSentence": "夜更けの ____ だけが、まだ今日を終わらせてくれない。",
+      "translationSentence": "한밤의 책상만이 아직 오늘을 끝내 주지 않는다."
+    }
   },
   {
     "id": "handmade_65",
@@ -6214,7 +6470,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 64
+    "sourceOrder": 64,
+    "smartReviewPrompt": {
+      "japaneseSentence": "紙の ____ に書いたひと言が、いちばん本音に近かった。",
+      "translationSentence": "종이 모서리에 적은 한마디가 가장 속마음에 가까웠다."
+    }
   },
   {
     "id": "handmade_66",
@@ -6225,7 +6485,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 65
+    "sourceOrder": 65,
+    "smartReviewPrompt": {
+      "japaneseSentence": "痛みより先に、真っ白になるような ____ が来た。",
+      "translationSentence": "통증보다 먼저 하얘지는 듯한 기절이 찾아왔다."
+    }
   },
   {
     "id": "handmade_67",
@@ -6236,7 +6500,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 66
+    "sourceOrder": 66,
+    "smartReviewPrompt": {
+      "japaneseSentence": "秒____ が進む音だけで、部屋じゅうが急かされる。",
+      "translationSentence": "초침이 나아가는 소리만으로도 방 전체가 재촉당하는 기분이 든다."
+    }
   },
   {
     "id": "handmade_68",
@@ -6247,7 +6515,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 52,
     "verbInfo": null,
-    "sourceOrder": 67
+    "sourceOrder": 67,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い町の路地には、今でも一本の ____ がよく似合う。",
+      "translationSentence": "오래된 동네 골목에는 지금도 침 한 자루 같은 날카로움이 잘 어울린다."
+    }
   },
   {
     "id": "handmade_69",
@@ -6258,7 +6530,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 68
+    "sourceOrder": 68,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長く座っていたせいで、立ち上がると ____ が重かった。",
+      "translationSentence": "오래 앉아 있었더니 일어날 때 허리가 무거웠다."
+    }
   },
   {
     "id": "handmade_70",
@@ -6269,7 +6545,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "1자",
-    "sourceOrder": 69
+    "sourceOrder": 69,
+    "smartReviewPrompt": {
+      "japaneseSentence": "険しかった表情が少し ____ ぐだけで、部屋の空気まで変わる。",
+      "translationSentence": "굳었던 표정이 조금 누그러지는 것만으로도 방의 공기까지 달라진다."
+    }
   },
   {
     "id": "handmade_71",
@@ -6280,7 +6560,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 70
+    "sourceOrder": 70,
+    "smartReviewPrompt": {
+      "japaneseSentence": "短い ____ でも、聞く人が違えばまるで別の意味になる。",
+      "translationSentence": "짧은 이야기라도 듣는 사람이 다르면 전혀 다른 뜻이 된다."
+    }
   },
   {
     "id": "handmade_72",
@@ -6291,7 +6575,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 71
+    "sourceOrder": 71,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ より前のことみたいに、君は静かに笑った。",
+      "translationSentence": "어제보다도 더 오래전의 일처럼 너는 조용히 웃었다."
+    }
   },
   {
     "id": "handmade_73",
@@ -6302,7 +6590,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 72
+    "sourceOrder": 72,
+    "smartReviewPrompt": {
+      "japaneseSentence": "黙って打つ ____ の音には、不思議と季節がない。",
+      "translationSentence": "말없이 두는 바둑 소리에는 이상하게 계절이 없다."
+    }
   },
   {
     "id": "handmade_74",
@@ -6313,7 +6605,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 73
+    "sourceOrder": 73,
+    "smartReviewPrompt": {
+      "japaneseSentence": "急いだ ____ より、納得できる理由のほうを大事にしたい。",
+      "translationSentence": "서둘러 나온 결과보다 납득할 수 있는 이유를 더 소중히 여기고 싶다."
+    }
   },
   {
     "id": "handmade_75",
@@ -6324,7 +6620,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "adv",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 74
+    "sourceOrder": 74,
+    "smartReviewPrompt": {
+      "japaneseSentence": "器用じゃなくても、今日はただ ____ やったと言える。",
+      "translationSentence": "능숙하지 않아도 오늘은 그저 열심히 했다고 말할 수 있다."
+    }
   },
   {
     "id": "handmade_76",
@@ -6335,7 +6635,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 75
+    "sourceOrder": 75,
+    "smartReviewPrompt": {
+      "japaneseSentence": "遠い ____ を語る声ほど、案外いまの不安で揺れている。",
+      "translationSentence": "먼 장래를 말하는 목소리일수록 의외로 지금의 불안에 흔들린다."
+    }
   },
   {
     "id": "handmade_77",
@@ -6346,7 +6650,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 76
+    "sourceOrder": 76,
+    "smartReviewPrompt": {
+      "japaneseSentence": "好きな ____ のことを話すときだけ、言葉が少しやわらかい。",
+      "translationSentence": "좋아하는 동물 이야기를 할 때만 말이 조금 부드러워진다."
+    }
   },
   {
     "id": "handmade_78",
@@ -6357,7 +6665,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 77
+    "sourceOrder": 77,
+    "smartReviewPrompt": {
+      "japaneseSentence": "人に決められた ____ では、長くは歩けない。",
+      "translationSentence": "남이 정한 진로로는 오래 걸어갈 수 없다."
+    }
   },
   {
     "id": "handmade_79",
@@ -6368,7 +6680,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 78
+    "sourceOrder": 78,
+    "smartReviewPrompt": {
+      "japaneseSentence": "紙一枚の ____ より、ここまで続けた時間のほうがうれしい。",
+      "translationSentence": "종이 한 장의 합격보다 여기까지 이어 온 시간이 더 기쁘다."
+    }
   },
   {
     "id": "handmade_80",
@@ -6379,7 +6695,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 79
+    "sourceOrder": 79,
+    "smartReviewPrompt": {
+      "japaneseSentence": "言葉にしなくても、____ が先に悲しみを覚えてしまう夜がある。",
+      "translationSentence": "말로 하지 않아도 귀가 먼저 슬픔을 알아차리는 밤이 있다."
+    }
   },
   {
     "id": "handmade_81",
@@ -6390,7 +6710,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 80
+    "sourceOrder": 80,
+    "smartReviewPrompt": {
+      "japaneseSentence": "荷物を減らして ____ すだけで、少し違う人になれる気がした。",
+      "translationSentence": "짐을 줄여 이사하는 것만으로도 조금 다른 사람이 될 수 있을 것 같았다."
+    }
   },
   {
     "id": "handmade_82",
@@ -6401,7 +6725,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 81
+    "sourceOrder": 81,
+    "smartReviewPrompt": {
+      "japaneseSentence": "遅くなるなら、一言の ____ だけでもずいぶん違う。",
+      "translationSentence": "늦어진다면 한마디 연락만으로도 훨씬 달라진다."
+    }
   },
   {
     "id": "handmade_83",
@@ -6412,7 +6740,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 82
+    "sourceOrder": 82,
+    "smartReviewPrompt": {
+      "japaneseSentence": "祭りの歌は、名も知らない ____ から順に受け継がれてきた。",
+      "translationSentence": "축제 노래는 이름 모를 선조들로부터 차례로 이어져 왔다."
+    }
   },
   {
     "id": "handmade_84",
@@ -6423,7 +6755,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 57,
     "verbInfo": null,
-    "sourceOrder": 83
+    "sourceOrder": 83,
+    "smartReviewPrompt": {
+      "japaneseSentence": "若いころは自由に見えた ____ も、今は少し寂しく見える。",
+      "translationSentence": "젊을 때는 자유로워 보였던 유랑도 지금은 조금 쓸쓸해 보인다."
+    }
   },
   {
     "id": "handmade_85",
@@ -6434,7 +6770,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 84
+    "sourceOrder": 84,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長い話の ____ に、ようやく本音が置かれていた。",
+      "translationSentence": "긴 이야기의 끝에야 비로소 속마음이 놓여 있었다."
+    }
   },
   {
     "id": "handmade_86",
@@ -6445,7 +6785,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 85
+    "sourceOrder": 85,
+    "smartReviewPrompt": {
+      "japaneseSentence": "人を責める前に、まずは ____ にできることを探したい。",
+      "translationSentence": "남을 탓하기 전에 먼저 자기 자신이 할 수 있는 일을 찾고 싶다."
+    }
   },
   {
     "id": "handmade_87",
@@ -6456,7 +6800,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "na_adj",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 86
+    "sourceOrder": 86,
+    "smartReviewPrompt": {
+      "japaneseSentence": "忙しい日ほど、短い休憩がいちばん ____。",
+      "translationSentence": "바쁜 날일수록 짧은 휴식이 가장 소중하다."
+    }
   },
   {
     "id": "handmade_88",
@@ -6467,7 +6815,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 87
+    "sourceOrder": 87,
+    "smartReviewPrompt": {
+      "japaneseSentence": "考えすぎると、____ ばかり先に熱くなる。",
+      "translationSentence": "너무 많이 생각하면 머리만 먼저 뜨거워진다."
+    }
   },
   {
     "id": "handmade_89",
@@ -6478,7 +6830,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 88
+    "sourceOrder": 88,
+    "smartReviewPrompt": {
+      "japaneseSentence": "強い ____ でも、効くまでの数分は意外と長い。",
+      "translationSentence": "강한 진통제라도 듣기까지의 몇 분은 의외로 길다."
+    }
   },
   {
     "id": "handmade_90",
@@ -6489,7 +6845,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 89
+    "sourceOrder": 89,
+    "smartReviewPrompt": {
+      "japaneseSentence": "冷えた朝は、包丁を入れた ____ の匂いだけで少し元気になる。",
+      "translationSentence": "차가운 아침에는 칼을 댄 과일 냄새만으로도 조금 기운이 난다."
+    }
   },
   {
     "id": "handmade_91",
@@ -6500,7 +6860,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 90
+    "sourceOrder": 90,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い時計の ____ は、部品より記憶の扱いのほうが難しい。",
+      "translationSentence": "오래된 시계 수리는 부품보다 기억을 다루는 일이 더 어렵다."
+    }
   },
   {
     "id": "handmade_92",
@@ -6511,7 +6875,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 91
+    "sourceOrder": 91,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨の音が強くなるほど、古い ____ はよく家を語る。",
+      "translationSentence": "빗소리가 세질수록 오래된 지붕은 집 이야기를 더 잘 들려준다."
+    }
   },
   {
     "id": "handmade_93",
@@ -6522,7 +6890,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 92
+    "sourceOrder": 92,
+    "smartReviewPrompt": {
+      "japaneseSentence": "乾いた冬には、ことばより先に ____ が季節を覚える。",
+      "translationSentence": "마른 겨울에는 말보다 먼저 피부가 계절을 기억한다."
+    }
   },
   {
     "id": "handmade_94",
@@ -6533,7 +6905,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 93
+    "sourceOrder": 93,
+    "smartReviewPrompt": {
+      "japaneseSentence": "朝の空気に触れた瞬間、言い訳より先に「____」と思った。",
+      "translationSentence": "아침 공기에 닿는 순간 변명보다 먼저 “춥다”는 생각이 들었다."
+    }
   },
   {
     "id": "handmade_95",
@@ -6544,7 +6920,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 94
+    "sourceOrder": 94,
+    "smartReviewPrompt": {
+      "japaneseSentence": "今年の冬は少し ____ くて、静けさまで痛い。",
+      "translationSentence": "올겨울은 조금 심하고 가혹해서 정적까지 아프다."
+    }
   },
   {
     "id": "handmade_96",
@@ -6555,7 +6935,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 95
+    "sourceOrder": 95,
+    "smartReviewPrompt": {
+      "japaneseSentence": "握った缶の ____ たさで、ようやく現実に戻った。",
+      "translationSentence": "손에 쥔 캔의 차가움으로 겨우 현실로 돌아왔다."
+    }
   },
   {
     "id": "handmade_97",
@@ -6566,7 +6950,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 96
+    "sourceOrder": 96,
+    "smartReviewPrompt": {
+      "japaneseSentence": "奥歯の ____ 一本が痛むだけで、夜はひどく長い。",
+      "translationSentence": "어금니 하나만 아파도 밤은 유난히 길다."
+    }
   },
   {
     "id": "handmade_98",
@@ -6577,7 +6965,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 97
+    "sourceOrder": 97,
+    "smartReviewPrompt": {
+      "japaneseSentence": "手のひらの ____ が乾くころ、ようやく緊張も少し引いた。",
+      "translationSentence": "손바닥의 땀이 마를 즈음에야 긴장도 조금 가셨다."
+    }
   },
   {
     "id": "handmade_99",
@@ -6588,7 +6980,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 98
+    "sourceOrder": 98,
+    "smartReviewPrompt": {
+      "japaneseSentence": "重たい上着を ____ いだ瞬間、今日がやっと終わった気がした。",
+      "translationSentence": "무거운 겉옷을 벗는 순간에야 오늘이 정말 끝난 것 같았다."
+    }
   },
   {
     "id": "handmade_100",
@@ -6599,7 +6995,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 99
+    "sourceOrder": 99,
+    "smartReviewPrompt": {
+      "japaneseSentence": "今ここで笑っている ____ のことも、案外何も知らない。",
+      "translationSentence": "지금 여기서 웃고 있는 누구에 대해서도 의외로 우리는 아무것도 모른다."
+    }
   },
   {
     "id": "handmade_101",
@@ -6610,7 +7010,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 100
+    "sourceOrder": 100,
+    "smartReviewPrompt": {
+      "japaneseSentence": "小さな ____ でも、だれかの一日を完全に変えてしまうことがある。",
+      "translationSentence": "작은 사건이라도 누군가의 하루를 완전히 바꾸어 버릴 때가 있다."
+    }
   },
   {
     "id": "handmade_102",
@@ -6621,7 +7025,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 47,
     "verbInfo": null,
-    "sourceOrder": 101
+    "sourceOrder": 101,
+    "smartReviewPrompt": {
+      "japaneseSentence": "落ち着いて聞けば、彼はちゃんと ____ を話してくれた。",
+      "translationSentence": "차분히 듣자 그는 자초지종을 제대로 말해 주었다."
+    }
   },
   {
     "id": "handmade_103",
@@ -6632,7 +7040,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 102
+    "sourceOrder": 102,
+    "smartReviewPrompt": {
+      "japaneseSentence": "冗談の形をしていても、最後に残るのはいつも ____ だ。",
+      "translationSentence": "농담의 형태를 하고 있어도 마지막에 남는 것은 늘 본심이다."
+    }
   },
   {
     "id": "handmade_104",
@@ -6643,7 +7055,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 103
+    "sourceOrder": 103,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長い ____ のあとで残る沈黙のほうが、案外本音に近い。",
+      "translationSentence": "긴 회의 뒤에 남는 침묵이 오히려 속마음에 가깝다."
+    }
   },
   {
     "id": "handmade_105",
@@ -6654,7 +7070,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 104
+    "sourceOrder": 104,
+    "smartReviewPrompt": {
+      "japaneseSentence": "違う ____ がぶつかるときほど、人柄がよく見える。",
+      "translationSentence": "서로 다른 의견이 부딪칠 때일수록 인품이 잘 드러난다."
+    }
   },
   {
     "id": "handmade_106",
@@ -6665,7 +7085,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "adv",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 105
+    "sourceOrder": 105,
+    "smartReviewPrompt": {
+      "japaneseSentence": "急いでいても、最後の確認だけは ____ やっておきたい。",
+      "translationSentence": "바빠도 마지막 확인만큼은 확실히 해 두고 싶다."
+    }
   },
   {
     "id": "handmade_107",
@@ -6676,7 +7100,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 106
+    "sourceOrder": 106,
+    "smartReviewPrompt": {
+      "japaneseSentence": "忘れられないのは物語より、その ____ の呼吸の置き方だ。",
+      "translationSentence": "잊히지 않는 것은 이야기보다 그 저자의 호흡을 놓는 방식이다."
+    }
   },
   {
     "id": "handmade_108",
@@ -6687,7 +7115,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 107
+    "sourceOrder": 107,
+    "smartReviewPrompt": {
+      "japaneseSentence": "似ているようで、いちばん大事なところが ____。",
+      "translationSentence": "비슷해 보이지만 가장 중요한 부분이 다르다."
+    }
   },
   {
     "id": "handmade_109",
@@ -6698,7 +7130,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 108
+    "sourceOrder": 108,
+    "smartReviewPrompt": {
+      "japaneseSentence": "強い ____ がある作品ほど、静かな細部が効いてくる。",
+      "translationSentence": "강한 세계관이 있는 작품일수록 조용한 디테일이 살아난다."
+    }
   },
   {
     "id": "handmade_110",
@@ -6709,7 +7145,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 109
+    "sourceOrder": 109,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ で名前を呼ばれるだけで、眠気はだいたい消える。",
+      "translationSentence": "귓가에서 이름만 불려도 졸음은 대개 사라진다."
+    }
   },
   {
     "id": "handmade_111",
@@ -6720,7 +7160,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 110
+    "sourceOrder": 110,
+    "smartReviewPrompt": {
+      "japaneseSentence": "声を出す前の ____ が、いちばん人を正直にする。",
+      "translationSentence": "목소리를 내기 전의 긴장이 사람을 가장 솔직하게 만든다."
+    }
   },
   {
     "id": "handmade_112",
@@ -6731,7 +7175,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 111
+    "sourceOrder": 111,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長い名前より、自然に呼ばれる ____ のほうが親しい。",
+      "translationSentence": "긴 이름보다 자연스럽게 불리는 애칭 쪽이 더 친밀하다."
+    }
   },
   {
     "id": "handmade_113",
@@ -6742,7 +7190,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 112
+    "sourceOrder": 112,
+    "smartReviewPrompt": {
+      "japaneseSentence": "返事までの時間が今日はやけに ____。",
+      "translationSentence": "답이 오기까지의 시간이 오늘은 유난히 멀다."
+    }
   },
   {
     "id": "handmade_114",
@@ -6753,7 +7205,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 113
+    "sourceOrder": 113,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ に見える灯りほど、なぜか人を歩かせる。",
+      "translationSentence": "멀리 보이는 불빛일수록 이상하게 사람을 걷게 만든다."
+    }
   },
   {
     "id": "handmade_115",
@@ -6764,7 +7220,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "2타",
-    "sourceOrder": 114
+    "sourceOrder": 114,
+    "smartReviewPrompt": {
+      "japaneseSentence": "グラスを少し ____ けるだけで、光の色が変わって見える。",
+      "translationSentence": "잔을 조금 기울이기만 해도 빛의 색이 달라 보인다."
+    }
   },
   {
     "id": "handmade_116",
@@ -6775,7 +7235,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1타",
-    "sourceOrder": 115
+    "sourceOrder": 115,
+    "smartReviewPrompt": {
+      "japaneseSentence": "便利さより、ちゃんと ____ えるかどうかで道具を選びたい。",
+      "translationSentence": "편리함보다 제대로 사용할 수 있는지로 도구를 고르고 싶다."
+    }
   },
   {
     "id": "handmade_117",
@@ -6786,7 +7250,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 116
+    "sourceOrder": 116,
+    "smartReviewPrompt": {
+      "japaneseSentence": "午後の光が ____ に残るころ、授業は少し眠くなる。",
+      "translationSentence": "오후의 빛이 칠판에 남을 즈음 수업은 조금 졸려진다."
+    }
   },
   {
     "id": "handmade_118",
@@ -6797,7 +7265,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 117
+    "sourceOrder": 117,
+    "smartReviewPrompt": {
+      "japaneseSentence": "冷たい店のドアを押して ____ る瞬間だけ、少し勇気がいる。",
+      "translationSentence": "차가운 가게 문을 밀고 들어가는 순간만큼은 조금 용기가 필요하다."
+    }
   },
   {
     "id": "handmade_119",
@@ -6808,7 +7280,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 118
+    "sourceOrder": 118,
+    "smartReviewPrompt": {
+      "japaneseSentence": "いつもの場所に ____ るだけで、今日はもう十分だった。",
+      "translationSentence": "익숙한 장소로 돌아가는 것만으로도 오늘은 충분했다."
+    }
   },
   {
     "id": "handmade_120",
@@ -6819,7 +7295,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 119
+    "sourceOrder": 119,
+    "smartReviewPrompt": {
+      "japaneseSentence": "灯りのついた ____ を見ると、帰る理由がひとつ増える。",
+      "translationSentence": "불 켜진 방을 보면 돌아갈 이유가 하나 늘어난다."
+    }
   },
   {
     "id": "handmade_121",
@@ -6830,7 +7310,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 120
+    "sourceOrder": 120,
+    "smartReviewPrompt": {
+      "japaneseSentence": "開けたままの ____ から、夕方の風がゆっくり入ってきた。",
+      "translationSentence": "열어 둔 창문으로 저녁 바람이 천천히 들어왔다."
+    }
   },
   {
     "id": "handmade_122",
@@ -6841,7 +7325,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 121
+    "sourceOrder": 121,
+    "smartReviewPrompt": {
+      "japaneseSentence": "好きな ____ だけは、忙しくてもちゃんと覚えている。",
+      "translationSentence": "좋아하는 요일만큼은 바빠도 제대로 기억하고 있다."
+    }
   },
   {
     "id": "handmade_123",
@@ -6852,7 +7340,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 122
+    "sourceOrder": 122,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨の日の ____ は、いつもより少し声が低い。",
+      "translationSentence": "비 오는 날의 은행은 평소보다 목소리가 조금 낮다."
+    }
   },
   {
     "id": "handmade_124",
@@ -6863,7 +7355,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 123
+    "sourceOrder": 123,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ より前の自分には、もう戻れない気がする。",
+      "translationSentence": "작년 이전의 자신으로는 이제 돌아갈 수 없을 것 같다."
+    }
   },
   {
     "id": "handmade_125",
@@ -6874,7 +7370,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 124
+    "sourceOrder": 124,
+    "smartReviewPrompt": {
+      "japaneseSentence": "紙一枚の ____ より、そこに至る時間を信じたい。",
+      "translationSentence": "종이 한 장의 학위보다 거기에 이르는 시간을 믿고 싶다."
+    }
   },
   {
     "id": "handmade_126",
@@ -6885,7 +7385,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 125
+    "sourceOrder": 125,
+    "smartReviewPrompt": {
+      "japaneseSentence": "気配はいつも ____ からやって来る。",
+      "translationSentence": "기척은 늘 뒤쪽에서 찾아온다."
+    }
   },
   {
     "id": "handmade_127",
@@ -6896,7 +7400,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 126
+    "sourceOrder": 126,
+    "smartReviewPrompt": {
+      "japaneseSentence": "思っていた ____ を見て、急に現実の温度が下がった。",
+      "translationSentence": "생각했던 금액을 보고 갑자기 현실의 온도가 내려갔다."
+    }
   },
   {
     "id": "handmade_128",
@@ -6907,7 +7415,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 127
+    "sourceOrder": 127,
+    "smartReviewPrompt": {
+      "japaneseSentence": "古い ____ 一本で、箱の空気まで懐かしくなる。",
+      "translationSentence": "오래된 끈 하나로 상자의 공기까지 그리워진다."
+    }
   },
   {
     "id": "handmade_129",
@@ -6918,7 +7430,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 128
+    "sourceOrder": 128,
+    "smartReviewPrompt": {
+      "japaneseSentence": "人の悲鳴より先に、静かな ____ の気配が怖い。",
+      "translationSentence": "사람의 비명보다도 조용한 도둑의 기색이 더 무섭다."
+    }
   },
   {
     "id": "handmade_130",
@@ -6929,7 +7445,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 129
+    "sourceOrder": 129,
+    "smartReviewPrompt": {
+      "japaneseSentence": "困ったときに頼れるのが ____ だけの町は、少しさびしい。",
+      "translationSentence": "곤란할 때 의지할 곳이 경찰뿐인 도시는 조금 쓸쓸하다."
+    }
   },
   {
     "id": "handmade_131",
@@ -6940,7 +7460,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 130
+    "sourceOrder": 130,
+    "smartReviewPrompt": {
+      "japaneseSentence": "白い ____ ほど、ためらいをはっきり映す。",
+      "translationSentence": "하얀 종이일수록 망설임을 또렷이 비춘다."
+    }
   },
   {
     "id": "handmade_132",
@@ -6951,7 +7475,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 131
+    "sourceOrder": 131,
+    "smartReviewPrompt": {
+      "japaneseSentence": "いい ____ は、わかった気にさせるより一歩だけ前へ進ませる。",
+      "translationSentence": "좋은 설명은 이해한 척하게 하기보다 한 걸음만 앞으로 나아가게 한다."
+    }
   },
   {
     "id": "handmade_133",
@@ -6962,7 +7490,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 132
+    "sourceOrder": 132,
+    "smartReviewPrompt": {
+      "japaneseSentence": "無言のまま組んだ ____ に、今日は少し怒りが残っていた。",
+      "translationSentence": "말없이 낀 팔짱에 오늘은 조금 화가 남아 있었다."
+    }
   },
   {
     "id": "handmade_134",
@@ -6973,7 +7505,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "1타",
-    "sourceOrder": 133
+    "sourceOrder": 133,
+    "smartReviewPrompt": {
+      "japaneseSentence": "たった一度のためらいで、大きな機会を ____ してしまった。",
+      "translationSentence": "단 한 번의 망설임으로 큰 기회를 놓쳐 버렸다."
+    }
   },
   {
     "id": "handmade_135",
@@ -6984,7 +7520,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 134
+    "sourceOrder": 134,
+    "smartReviewPrompt": {
+      "japaneseSentence": "細い ____ でも、見つかれば夜は少し短くなる。",
+      "translationSentence": "가느다란 실마리라도 찾으면 밤은 조금 짧아진다."
+    }
   },
   {
     "id": "handmade_136",
@@ -6995,7 +7535,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 135
+    "sourceOrder": 135,
+    "smartReviewPrompt": {
+      "japaneseSentence": "立派な言葉より、その ____ の靴の汚れを見てしまう。",
+      "translationSentence": "번듯한 말보다 그 정치가의 신발에 묻은 때를 보게 된다."
+    }
   },
   {
     "id": "handmade_137",
@@ -7006,7 +7550,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "na_adj",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 136
+    "sourceOrder": 136,
+    "smartReviewPrompt": {
+      "japaneseSentence": "その一言の影響は、あとから考えるほど ____。",
+      "translationSentence": "그 한마디의 영향은 나중에 생각할수록 지대하다."
+    }
   },
   {
     "id": "handmade_138",
@@ -7017,7 +7565,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 137
+    "sourceOrder": 137,
+    "smartReviewPrompt": {
+      "japaneseSentence": "目に見えない ____ ほど、人の声色を変えてしまう。",
+      "translationSentence": "눈에 보이지 않는 권력일수록 사람의 목소리 결을 바꾸어 버린다."
+    }
   },
   {
     "id": "handmade_139",
@@ -7028,7 +7580,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 138
+    "sourceOrder": 138,
+    "smartReviewPrompt": {
+      "japaneseSentence": "小さな店でも、____ の歩き方にその空気は出る。",
+      "translationSentence": "작은 가게라도 사장의 걸음걸이에 그 분위기가 드러난다."
+    }
   },
   {
     "id": "handmade_140",
@@ -7039,7 +7595,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 139
+    "sourceOrder": 139,
+    "smartReviewPrompt": {
+      "japaneseSentence": "雨あがりの ____ に残る光は、いつも少しやわらかい。",
+      "translationSentence": "비 갠 도로에 남는 빛은 늘 조금 부드럽다."
+    }
   },
   {
     "id": "handmade_141",
@@ -7050,7 +7610,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 140
+    "sourceOrder": 140,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ の朝は、人の流れまで少し早口だ。",
+      "translationSentence": "도쿄의 아침은 사람들의 흐름까지 조금 빠른 말투다."
+    }
   },
   {
     "id": "handmade_142",
@@ -7061,7 +7625,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 141
+    "sourceOrder": 141,
+    "smartReviewPrompt": {
+      "japaneseSentence": "____ の夜は、笑い声さえ食べ物みたいに濃い。",
+      "translationSentence": "오사카의 밤은 웃음소리마저 음식처럼 진하다."
+    }
   },
   {
     "id": "handmade_143",
@@ -7072,7 +7640,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "i_adj",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 142
+    "sourceOrder": 142,
+    "smartReviewPrompt": {
+      "japaneseSentence": "言葉が ____ いと、別れも少しだけやさしくなる。",
+      "translationSentence": "말이 가벼우면 이별도 조금은 부드러워진다."
+    }
   },
   {
     "id": "handmade_144",
@@ -7083,7 +7655,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 143
+    "sourceOrder": 143,
+    "smartReviewPrompt": {
+      "japaneseSentence": "会えない日の ____ ほど、妙に手ざわりがある。",
+      "translationSentence": "만나지 못하는 날의 목소리일수록 이상하게 촉감이 있다."
+    }
   },
   {
     "id": "handmade_145",
@@ -7094,7 +7670,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 144
+    "sourceOrder": 144,
+    "smartReviewPrompt": {
+      "japaneseSentence": "静かな ____ は、音より先に匂いでわかることがある。",
+      "translationSentence": "조용한 부패는 소리보다 먼저 냄새로 알게 될 때가 있다."
+    }
   },
   {
     "id": "handmade_146",
@@ -7105,7 +7685,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 145
+    "sourceOrder": 145,
+    "smartReviewPrompt": {
+      "japaneseSentence": "夜の ____ には、その家の言い争いも笑いも全部残る。",
+      "translationSentence": "밤의 식탁에는 그 집의 언쟁도 웃음도 전부 남는다."
+    }
   },
   {
     "id": "handmade_147",
@@ -7116,7 +7700,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 146
+    "sourceOrder": 146,
+    "smartReviewPrompt": {
+      "japaneseSentence": "一匹の ____ がいるだけで、昼の静けさは簡単に壊れる。",
+      "translationSentence": "파리 한 마리만 있어도 한낮의 정적은 쉽게 깨진다."
+    }
   },
   {
     "id": "handmade_148",
@@ -7127,7 +7715,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 147
+    "sourceOrder": 147,
+    "smartReviewPrompt": {
+      "japaneseSentence": "薄い ____ 一枚でも、人の気持ちは案外よく遮られる。",
+      "translationSentence": "얇은 벽 한 장으로도 사람의 마음은 의외로 잘 가려진다."
+    }
   },
   {
     "id": "handmade_149",
@@ -7138,7 +7730,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 148
+    "sourceOrder": 148,
+    "smartReviewPrompt": {
+      "japaneseSentence": "正しさだけで人を ____ す言葉は、やはり少し乱暴だ。",
+      "translationSentence": "옳음만으로 사람을 찌르는 말은 역시 조금 거칠다."
+    }
   },
   {
     "id": "handmade_150",
@@ -7149,7 +7745,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 149
+    "sourceOrder": 149,
+    "smartReviewPrompt": {
+      "japaneseSentence": "慣れない ____ でも、気持ちが整えばきっと似合う。",
+      "translationSentence": "낯선 양복이라도 마음이 정돈되면 분명 어울린다."
+    }
   },
   {
     "id": "handmade_151",
@@ -7160,7 +7760,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 150
+    "sourceOrder": 150,
+    "smartReviewPrompt": {
+      "japaneseSentence": "終わっていない ____ は、眠る前ほど大きく見える。",
+      "translationSentence": "끝나지 않은 숙제는 잠들기 전일수록 더 크게 보인다."
+    }
   },
   {
     "id": "handmade_152",
@@ -7171,7 +7775,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 151
+    "sourceOrder": 151,
+    "smartReviewPrompt": {
+      "japaneseSentence": "長く連れ添った ____ は、返事より先に沈黙でわかる。",
+      "translationSentence": "오래 함께한 아내는 대답보다 먼저 침묵으로 알 수 있다."
+    }
   },
   {
     "id": "handmade_153",
@@ -7182,7 +7790,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 152
+    "sourceOrder": 152,
+    "smartReviewPrompt": {
+      "japaneseSentence": "疲れている夜ほど、簡単な ____ がいちばんうれしい。",
+      "translationSentence": "지친 밤일수록 간단한 요리가 가장 반갑다."
+    }
   },
   {
     "id": "handmade_154",
@@ -7193,7 +7805,11 @@ export const vocabularyWords: VocabularyWord[] = [
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 153
+    "sourceOrder": 153,
+    "smartReviewPrompt": {
+      "japaneseSentence": "わからないまま進むより、一度 ____ を開くほうがいい。",
+      "translationSentence": "모른 채로 나아가기보다 한 번 사전을 펴는 편이 낫다."
+    }
   },
   {
     "id": "AbsoluteVerb_1",

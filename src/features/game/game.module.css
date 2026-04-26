@@ -35,6 +35,18 @@
   gap: var(--space-3);
 }
 
+.modeConfigArea {
+  display: grid;
+  align-content: start;
+  min-height: calc(132px * 2 + var(--space-3));
+}
+
+.tapPairField {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
 .gameKindGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -584,6 +596,10 @@
 @media (max-width: 720px) {
   .modeGrid {
     grid-template-columns: 1fr;
+  }
+
+  .modeConfigArea {
+    min-height: 0;
   }
 
   .gameKindGrid,

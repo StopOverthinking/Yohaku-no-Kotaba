@@ -1,6 +1,5 @@
 import { shuffleArray } from '@/lib/random'
-import type { VocabularyWord, WordType } from '@/features/vocab/model/types'
-import { smartReviewPromptOverrides } from '@/features/smart-review/smartReviewPromptLibrary'
+import type { VocabularyWord } from '@/features/vocab/model/types'
 import type {
   SmartReviewProfile,
   SmartReviewProfileMap,
@@ -82,6 +81,14 @@ function getNextIntervalDays(intervalDays: number | null) {
 
 function normalizeRequestedWordCount(wordCount: number) {
   return Math.max(1, Math.floor(wordCount) || 1)
+}
+
+export function hasSmartReviewPrompt(word: VocabularyWord) {
+  return Boolean(
+    word.smartReviewPrompt?.japaneseSentence.trim()
+    && word.smartReviewPrompt.japaneseSentence.includes('____')
+    && word.smartReviewPrompt.translationSentence.trim(),
+  )
 }
 
 export function normalizeSmartReviewProfile(raw: unknown, wordId: string): SmartReviewProfile {
@@ -194,6 +201,10 @@ export function buildSmartReviewSummary(words: VocabularyWord[], profileMap: Sma
   let masteredCount = 0
 
   for (const word of words) {
+    if (!hasSmartReviewPrompt(word)) {
+      continue
+    }
+
     const profile = profileMap[word.id]
     if (!profile) {
       newCount += 1
@@ -222,6 +233,10 @@ export function selectSmartReviewWords(payload: StartSmartReviewPayload, profile
   const learningWords: VocabularyWord[] = []
 
   for (const word of payload.words) {
+    if (!hasSmartReviewPrompt(word)) {
+      continue
+    }
+
     const profile = profileMap[word.id]
     if (!profile) {
       newWords.push(word)
@@ -361,203 +376,12 @@ export function normalizeReviewAnswer(value: string) {
   return value.normalize('NFKC').replace(/\s+/g, '').trim()
 }
 
-function hashWordId(wordId: string) {
-  let hash = 0
-
-  for (const char of wordId) {
-    hash = (hash * 31 + char.charCodeAt(0)) >>> 0
+export function createStudyPrompt(word: VocabularyWord): SmartReviewStudyPrompt | null {
+  if (!hasSmartReviewPrompt(word)) {
+    return null
   }
 
-  return hash
-}
-
-function pickTemplate(word: VocabularyWord, templates: Array<(gloss: string) => SmartReviewStudyPrompt>, gloss: string) {
-  const index = hashWordId(word.id) % templates.length
-  return templates[index]?.(gloss) ?? templates[0](gloss)
-}
-
-function buildPromptByType(word: VocabularyWord, gloss: string) {
-  const templates: Record<WordType, Array<(gloss: string) => SmartReviewStudyPrompt>> = {
-    verb: [
-      (value) => ({
-        japaneseSentence: '今日は迷わず、最後まで ____ つもりです。',
-        translationSentence: `오늘은 망설이지 않고 끝까지 ${value} 생각이다.`,
-        note: '결심하는 어조',
-      }),
-      (value) => ({
-        japaneseSentence: 'まさかこの場面で ____ とは、だれも思っていなかった。',
-        translationSentence: `설마 이런 장면에서 ${value} 줄은 아무도 몰랐다.`,
-        note: '극적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: 'そんなふうに急に ____ なんて、少しも聞いていない。',
-        translationSentence: `그렇게 갑자기 ${value}라니, 전혀 듣지 못했다.`,
-        note: '대화체',
-      }),
-      (value) => ({
-        japaneseSentence: 'ここまで来た以上、静かに ____ だけだ。',
-        translationSentence: `여기까지 온 이상 조용히 ${value} 뿐이다.`,
-        note: '담담한 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '窓の外を見ながら、もう一度 ____ ことにした。',
-        translationSentence: `창밖을 보며 다시 한 번 ${value} 하기로 했다.`,
-        note: '회상하는 어조',
-      }),
-    ],
-    noun: [
-      (value) => ({
-        japaneseSentence: 'この企画の鍵になるのは、____ です。',
-        translationSentence: `이 기획의 핵심이 되는 것은 ${value}이다.`,
-        note: '공식적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '結局、最後に残ったのは ____ だった。',
-        translationSentence: `결국 마지막에 남은 것은 ${value}였다.`,
-        note: '담담한 어조',
-      }),
-      (value) => ({
-        japaneseSentence: 'そんな話を聞くと、まず ____ が気になる。',
-        translationSentence: `그런 이야기를 들으면 우선 ${value}이 신경 쓰인다.`,
-        note: '친근한 구어',
-      }),
-      (value) => ({
-        japaneseSentence: '報告書では、____ の扱いが重要です。',
-        translationSentence: `보고서에서는 ${value}의 다루는 방식이 중요하다.`,
-        note: '실무적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '机の上には、____ だけがぽつんと残っていた。',
-        translationSentence: `책상 위에는 ${value}만 덩그러니 남아 있었다.`,
-        note: '문학적인 어조',
-      }),
-    ],
-    i_adj: [
-      (value) => ({
-        japaneseSentence: '思っていたより、ずっと ____。',
-        translationSentence: `생각했던 것보다 훨씬 ${value}.`,
-        note: '친근한 구어',
-      }),
-      (value) => ({
-        japaneseSentence: '朝の空気がやけに ____。',
-        translationSentence: `아침 공기가 유난히 ${value}.`,
-        note: '서정적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: 'その説明はシンプルだが、実際はかなり ____。',
-        translationSentence: `그 설명은 단순하지만 실제로는 꽤 ${value}.`,
-        note: '분석적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '遠くから見ると、妙に ____ 景色だった。',
-        translationSentence: `멀리서 보니 묘하게 ${value} 풍경이었다.`,
-        note: '문학적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '今日の課題は、見た目より ____ です。',
-        translationSentence: `오늘 과제는 보기보다 ${value}.`,
-        note: '차분한 어조',
-      }),
-    ],
-    na_adj: [
-      (value) => ({
-        japaneseSentence: 'その判断は、十分に ____ と言える。',
-        translationSentence: `그 판단은 충분히 ${value}고 말할 수 있다.`,
-        note: '공식적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '見た目は穏やかでも、中身はかなり ____。',
-        translationSentence: `겉보기는 온화해도 속은 꽤 ${value}.`,
-        note: '대조적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '今の空気をひと言で言うなら、たぶん ____。',
-        translationSentence: `지금 분위기를 한마디로 말하면 아마 ${value}.`,
-        note: '친근한 구어',
-      }),
-      (value) => ({
-        japaneseSentence: '報告書としては、かなり ____ 内容だった。',
-        translationSentence: `보고서로서는 꽤 ${value} 내용이었다.`,
-        note: '실무적인 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '彼の説明は、いつも不思議なくらい ____。',
-        translationSentence: `그의 설명은 늘 이상할 만큼 ${value}.`,
-        note: '관찰하는 어조',
-      }),
-    ],
-    adv: [
-      (value) => ({
-        japaneseSentence: '担当の方が ____ 説明してくれた。',
-        translationSentence: `담당자가 ${value} 설명해 주었다.`,
-        note: '차분한 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '彼はドアを開けるなり、____ 走り出した。',
-        translationSentence: `그는 문을 열자마자 ${value} 달려 나갔다.`,
-        note: '속도감 있는 어조',
-      }),
-      (value) => ({
-        japaneseSentence: 'そんなに ____ 決めなくても大丈夫だよ。',
-        translationSentence: `그렇게 ${value} 정하지 않아도 괜찮아.`,
-        note: '친근한 구어',
-      }),
-      (value) => ({
-        japaneseSentence: '先生は難しい話を ____ まとめてくれた。',
-        translationSentence: `선생님은 어려운 이야기를 ${value} 정리해 주셨다.`,
-        note: '수업 장면',
-      }),
-      (value) => ({
-        japaneseSentence: '雨がやんだあと、風だけが ____ 吹いていた。',
-        translationSentence: `비가 그친 뒤 바람만 ${value} 불고 있었다.`,
-        note: '문학적인 어조',
-      }),
-    ],
-    expression: [
-      (value) => ({
-        japaneseSentence: 'この場面では、____ と言うのがいちばん自然だ。',
-        translationSentence: `이 장면에서는 ${value}라고 말하는 것이 가장 자연스럽다.`,
-        note: '설명하는 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '友だち相手なら、ふっと ____ と言いたくなる。',
-        translationSentence: `친구를 상대로라면 문득 ${value}라고 말하고 싶어진다.`,
-        note: '친근한 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '静かな別れ際に、ただ ____ とだけ残した。',
-        translationSentence: `조용한 작별의 순간에 그저 ${value}라고만 남겼다.`,
-        note: '문학적인 어조',
-      }),
-    ],
-    other: [
-      (value) => ({
-        japaneseSentence: 'この場面で中心になるのは、____ です。',
-        translationSentence: `이 장면의 중심이 되는 것은 ${value}이다.`,
-        note: '차분한 어조',
-      }),
-      (value) => ({
-        japaneseSentence: '最後まで耳に残ったのは、____ だった。',
-        translationSentence: `끝까지 귀에 남은 것은 ${value}였다.`,
-        note: '회상하는 어조',
-      }),
-      (value) => ({
-        japaneseSentence: 'それだけで、十分に ____ だと思った。',
-        translationSentence: `그것만으로도 충분히 ${value}고 생각했다.`,
-        note: '담담한 어조',
-      }),
-    ],
-  }
-
-  return pickTemplate(word, templates[word.type] ?? templates.other, gloss)
-}
-
-export function createStudyPrompt(word: VocabularyWord): SmartReviewStudyPrompt {
-  const override = smartReviewPromptOverrides[word.id]
-  if (override) return override
-
-  const primaryMeaning = word.meaning.split(',')[0]?.trim() || word.meaning
-  return buildPromptByType(word, primaryMeaning)
+  return word.smartReviewPrompt ?? null
 }
 
 export function applySmartReviewOutcome(profileMap: SmartReviewProfileMap, session: SmartReviewSessionRecord, now = new Date()) {

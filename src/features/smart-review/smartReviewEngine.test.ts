@@ -20,6 +20,10 @@ const words: VocabularyWord[] = [
     type: 'verb',
     difficulty: 10,
     verbInfo: null,
+    smartReviewPrompt: {
+      japaneseSentence: '大切なものを ____。',
+      translationSentence: '소중한 것을 지킨다.',
+    },
     sourceOrder: 0,
   },
   {
@@ -31,6 +35,10 @@ const words: VocabularyWord[] = [
     type: 'noun',
     difficulty: 10,
     verbInfo: null,
+    smartReviewPrompt: {
+      japaneseSentence: 'この ____ を確認する。',
+      translationSentence: '이 위치를 확인한다.',
+    },
     sourceOrder: 1,
   },
   {
@@ -42,6 +50,10 @@ const words: VocabularyWord[] = [
     type: 'na_adj',
     difficulty: 10,
     verbInfo: null,
+    smartReviewPrompt: {
+      japaneseSentence: '答えはとても ____。',
+      translationSentence: '답은 매우 정확하다.',
+    },
     sourceOrder: 2,
   },
 ]
@@ -300,7 +312,7 @@ describe('smart review engine', () => {
     ])
   })
 
-  it('prefers curated prompts when a word override exists', () => {
+  it('returns null when a word has no handwritten prompt', () => {
     const prompt = createStudyPrompt({
       id: '1_1',
       setId: 'jlpt-n3',
@@ -313,38 +325,45 @@ describe('smart review engine', () => {
       sourceOrder: 0,
     })
 
-    expect(prompt.japaneseSentence).toBe('同じ練習ばかりで、さすがに ____。')
-    expect(prompt.note).toBe('친근한 구어')
+    expect(prompt).toBeNull()
   })
 
-  it('uses deterministic fallback prompts with varied tones for uncovered words', () => {
-    const firstPrompt = createStudyPrompt({
-      id: 'fallback-a',
-      setId: 'set-a',
-      japanese: '整える',
-      reading: 'ととのえる',
-      meaning: '정돈하다',
+  it('uses word-owned handwritten prompts only', () => {
+    const prompt = createStudyPrompt({
+      id: '1_1',
+      setId: 'jlpt-n3',
+      japanese: '飽きる',
+      reading: 'あきる',
+      meaning: '질리다, 싫증나다',
       type: 'verb',
-      difficulty: 20,
-      verbInfo: '2타',
-      sourceOrder: 10,
+      difficulty: 35,
+      verbInfo: '2자',
+      smartReviewPrompt: {
+        japaneseSentence: '仕事にすっかり ____。',
+        translationSentence: '일에 완전히 질렸다.',
+      },
+      sourceOrder: 0,
     })
 
-    const secondPrompt = createStudyPrompt({
-      id: 'fallback-b',
-      setId: 'set-a',
-      japanese: '届く',
-      reading: 'とどく',
-      meaning: '도착하다',
-      type: 'verb',
-      difficulty: 20,
-      verbInfo: '1자',
-      sourceOrder: 11,
-    })
+    expect(prompt?.japaneseSentence).toBe('仕事にすっかり ____。')
+    expect(prompt?.translationSentence).toBe('일에 완전히 질렸다.')
+  })
 
-    expect(firstPrompt.japaneseSentence).not.toBe(secondPrompt.japaneseSentence)
-    expect(firstPrompt.note).not.toBe(secondPrompt.note)
-    expect(firstPrompt.japaneseSentence).toContain('____')
-    expect(secondPrompt.japaneseSentence).toContain('____')
+  it('excludes words without handwritten prompts from session selection', () => {
+    const now = new Date('2026-04-11T00:00:00.000Z')
+    const session = createSmartReviewSession({
+      setId: 'set-a',
+      setName: 'Set A',
+      words: [
+        words[0],
+        {
+          ...words[1],
+          smartReviewPrompt: undefined,
+        },
+      ],
+      wordCount: 2,
+    }, {}, now)
+
+    expect(session?.selectedWordIds).toEqual(['word-1'])
   })
 })

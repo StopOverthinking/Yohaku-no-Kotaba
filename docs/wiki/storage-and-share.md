@@ -12,10 +12,22 @@
 | 즐겨찾기 | `localStorage` | `favoritesStore` |
 | 디버그 날짜 | `localStorage` | `debugDateStore` |
 | 일반 학습 진행 중 세션 | `localStorage` | 결과는 메모리만 |
-| 시험 세션/결과/오답 ID | `localStorage` | 오답 노트의 원천 |
+| 시험 세션/결과/오답 ID | `localStorage` | 결과와 오답 노트는 별도 수명주기 |
 | 활용형 세션/결과 | `localStorage` | 오답 재시작 지원 |
 | 게임 기록과 MMR | `localStorage` | 안정 범위는 스피드 퀴즈 기준 |
 | 스마트 복습 일정 | `IndexedDB` | `japanese-study` / `smartReviewSchedule` |
+
+## 시험 저장 규칙
+
+- 세션: `jsp-react:exam-session`
+- 최근 결과: `jsp-react:exam-result`
+- 오답 노트 ID: `jsp-react:exam-wrong-answer-ids`
+- 새 시험에 오답이 있으면 오답 노트 ID를 해당 오답으로 갱신한다.
+- 새 시험이 0오답이면 기존 오답 노트 ID를 유지한다.
+- 최근 결과 삭제는 `jsp-react:exam-result`만 삭제하고 오답 노트 ID는 삭제하지 않는다.
+- 최근 결과 로드 시 예전 오답 항목 형태를 현재 `itemId` 형태로 정규화한다.
+- 오답 노트 ID 저장값이 비어 있고 최근 결과에 복구 가능한 오답이 있으면 `jsp-react:exam-wrong-answer-ids`를 다시 채운다.
+- 현재 단어 데이터와 즉시 연결되지 않는 오답 ID도 복구 후보로 보존한다.
 
 ## 스마트 복습 IndexedDB
 
@@ -46,6 +58,9 @@ type SmartReviewScheduleRecord = {
 - 직전 결과
 - 오답 상세 로그
 - 누적 통계 전반
+- 스마트 복습 예문
+
+스마트 복습 예문은 단어 원본 데이터의 `smartReviewPrompt`에 둔다. `IndexedDB`는 일정만 저장한다. 예문은 직접 작성한 `japaneseSentence`, `translationSentence`만 사용한다.
 
 ## 스마트 복습 마이그레이션
 

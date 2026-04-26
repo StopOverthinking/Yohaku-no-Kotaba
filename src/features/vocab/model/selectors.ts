@@ -211,6 +211,10 @@ export function isStudyItemFavorite(item: StudyItem, favoriteIds: string[]) {
   return item.favoriteWordIds.some((wordId) => favoriteIds.includes(wordId))
 }
 
+export function getStudyItemFavoriteWordIds(item: StudyItem) {
+  return [...item.favoriteWordIds]
+}
+
 export function getStudyItemSearchText(item: StudyItem) {
   return item.searchText
 }
