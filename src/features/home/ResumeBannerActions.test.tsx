@@ -158,6 +158,35 @@ describe('Resume banner discard actions', () => {
     expect(useExamStore.getState().session).toBeNull()
   })
 
+  it('clears only the recent exam result from the top menu banner', async () => {
+    const user = userEvent.setup()
+    const wrongAnswerIds = [sampleWords[0].id]
+
+    useExamStore.setState({
+      status: 'complete',
+      session: null,
+      lastResult: {
+        setId: 'set-a',
+        setName: '완료한 시험',
+        gradingMode: 'auto',
+        questionIds: sampleWords.map((word) => word.id),
+        correctCount: 2,
+        totalQuestions: 3,
+        wrongItems: [{ itemId: sampleWords[0].id }],
+        completedAt: '2026-04-28T00:00:00.000Z',
+      },
+      wrongAnswerIds,
+    })
+
+    renderWithRouter(<HomePage />)
+
+    await user.click(screen.getByRole('button', { name: '시험 기록 삭제' }))
+
+    expect(useExamStore.getState().lastResult).toBeNull()
+    expect(useExamStore.getState().wrongAnswerIds).toEqual(wrongAnswerIds)
+    expect(screen.queryByText('완료한 시험 시험 결과를 다시 볼 수 있어요.')).not.toBeInTheDocument()
+  })
+
   it('renders the opened submenu immediately after the selected top menu card on compact layout', async () => {
     const user = userEvent.setup()
     mockMatchMedia({ compact: true })

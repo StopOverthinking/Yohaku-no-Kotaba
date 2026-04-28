@@ -45,6 +45,7 @@ export function HomePage() {
   const examSession = useExamStore((state) => state.session)
   const clearExamSession = useExamStore((state) => state.clearSession)
   const lastExamResult = useExamStore((state) => state.lastResult)
+  const clearExamResult = useExamStore((state) => state.clearResult)
   const smartReviewSession = useSmartReviewStore((state) => state.session)
   const clearSmartReviewSession = useSmartReviewStore((state) => state.clearSession)
   const themeMode = usePreferencesStore((state) => state.themeMode)
@@ -126,6 +127,10 @@ export function HomePage() {
     }
 
     clearExamSession()
+  }
+
+  const handleClearExamResult = () => {
+    clearExamResult()
   }
 
   const handleDiscardSmartReviewSession = () => {
@@ -349,11 +354,18 @@ export function HomePage() {
               {lastExamResult.correctCount}/{lastExamResult.totalQuestions} 정답, 오답 {lastExamResult.wrongItems.length}개
             </p>
           </div>
-          <Tooltip label="시험 결과 보기">
-            <span>
-              <IconButton icon={ClipboardCheck} label="시험 결과 보기" size="lg" onClick={() => navigate('/exam/result')} />
-            </span>
-          </Tooltip>
+          <div className={styles.resumeActions}>
+            <Tooltip label="시험 결과 보기">
+              <span>
+                <IconButton icon={ClipboardCheck} label="시험 결과 보기" size="lg" onClick={() => navigate('/exam/result')} />
+              </span>
+            </Tooltip>
+            <Tooltip label="시험 기록 삭제">
+              <span>
+                <IconButton icon={X} label="시험 기록 삭제" tone="danger" size="lg" onClick={handleClearExamResult} />
+              </span>
+            </Tooltip>
+          </div>
         </GlassPanel>
       ) : null}
 
