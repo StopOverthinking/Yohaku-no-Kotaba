@@ -284,6 +284,33 @@
   width: 100%;
 }
 
+.concealable::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 0.7em;
+  border-radius: 999px;
+  background: var(--surface-muted);
+  opacity: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.jpConcealable::after {
+  left: 0;
+  width: min(5.8em, 100%);
+}
+
+.readingConcealable::after {
+  left: 0;
+  width: min(4.3em, 100%);
+}
+
+.meaningConcealable::after {
+  right: 0;
+  width: min(6.8em, 100%);
+}
+
 .root[data-hide-japanese="true"] .cardSurface:not([data-reveal-japanese="true"]) .jpConcealable,
 .root[data-hide-japanese="true"] .cardSurface:not([data-reveal-japanese="true"]) .readingConcealable,
 .root[data-hide-meaning="true"] .cardSurface:not([data-reveal-meaning="true"]) .meaningConcealable {
@@ -295,29 +322,7 @@
 .root[data-hide-japanese="true"] .cardSurface:not([data-reveal-japanese="true"]) .jpConcealable::after,
 .root[data-hide-japanese="true"] .cardSurface:not([data-reveal-japanese="true"]) .readingConcealable::after,
 .root[data-hide-meaning="true"] .cardSurface:not([data-reveal-meaning="true"]) .meaningConcealable::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  height: 0.7em;
-  border-radius: 999px;
-  background: var(--surface-muted);
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
-.root[data-hide-japanese="true"] .cardSurface:not([data-reveal-japanese="true"]) .jpConcealable::after {
-  left: 0;
-  width: min(5.8em, 100%);
-}
-
-.root[data-hide-japanese="true"] .cardSurface:not([data-reveal-japanese="true"]) .readingConcealable::after {
-  left: 0;
-  width: min(4.3em, 100%);
-}
-
-.root[data-hide-meaning="true"] .cardSurface:not([data-reveal-meaning="true"]) .meaningConcealable::after {
-  right: 0;
-  width: min(6.8em, 100%);
+  opacity: 1;
 }
 
 .chipRow {

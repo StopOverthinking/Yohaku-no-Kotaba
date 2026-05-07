@@ -135,6 +135,47 @@ describe('ListPage', () => {
     expect(firstCardSurface).toHaveAttribute('data-reveal-meaning', 'true')
   })
 
+  it('updates hide state without replacing card surfaces', async () => {
+    usePreferencesStore.setState({
+      themeMode: 'dark',
+      hideJapaneseInList: false,
+      hideMeaningInList: false,
+      listFontScale: 3,
+      learnCardFontScale: 2,
+      lastSelectedSetId: 'wrong_answers',
+      learnDefaults: defaultLearnDefaults,
+    })
+
+    const { container } = renderPage()
+    const root = container.querySelector<HTMLElement>(`.${styles.root}`)
+    const firstCardSurface = container.querySelector<HTMLElement>('[data-card-surface="true"]')
+
+    expect(root).not.toBeNull()
+    expect(firstCardSurface).not.toBeNull()
+    expect(root).toHaveAttribute('data-hide-japanese', 'false')
+    expect(root).toHaveAttribute('data-hide-meaning', 'false')
+    expect(firstCardSurface).not.toHaveAttribute('data-revealable')
+
+    fireEvent.click(screen.getByRole('button', { name: '일본어 가리기' }))
+
+    expect(root).toHaveAttribute('data-hide-japanese', 'true')
+    expect(container.querySelector('[data-card-surface="true"]')).toBe(firstCardSurface)
+    await waitFor(() => {
+      expect(firstCardSurface).toHaveAttribute('data-revealable', 'true')
+      expect(firstCardSurface).toHaveAttribute('role', 'button')
+      expect(firstCardSurface).toHaveAttribute('tabindex', '0')
+      expect(usePreferencesStore.getState().hideJapaneseInList).toBe(true)
+    })
+
+    fireEvent.click(screen.getByRole('button', { name: '뜻 가리기' }))
+
+    expect(root).toHaveAttribute('data-hide-meaning', 'true')
+    expect(container.querySelector('[data-card-surface="true"]')).toBe(firstCardSurface)
+    await waitFor(() => {
+      expect(usePreferencesStore.getState().hideMeaningInList).toBe(true)
+    })
+  })
+
   it('replaces the legacy all-set selection with the first vocabulary set', async () => {
     const firstSet = allSets[0]
 

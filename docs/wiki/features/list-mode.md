@@ -42,6 +42,8 @@
 - 카드별 일시 공개 상태는 `revealedCards`에만 저장
 - 숨김이 꺼지면 공개 상태도 정리된다
 - 실제 텍스트 opacity가 아니라 마스킹 렌더링을 유지하는 방향이 기준
+- 숨김 토글은 루트 `data-hide-*`를 먼저 동기 갱신하는 DOM/CSS fast path를 유지한다
+- 카드 `data-revealable`, `tabIndex`, `role`은 숨김/공개 dataset 기준으로 동기화하고, 숨김 토글만으로 카드 전체를 다시 렌더하지 않는다
 
 ## 렌더링 규칙
 
