@@ -1,4 +1,4 @@
-import { ClipboardCheck, Heart, House, RotateCcw } from 'lucide-react'
+import { Heart, House, X } from 'lucide-react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
@@ -11,6 +11,7 @@ import { getStudyItemAnswerSubtext, getStudyItemAnswerText, getStudyItemById, ge
 export function ExamResultPage() {
   const navigate = useNavigate()
   const lastResult = useExamStore((state) => state.lastResult)
+  const clearResult = useExamStore((state) => state.clearResult)
   const toggleFavorite = useFavoritesStore((state) => state.toggleFavorite)
   const favoriteIds = useFavoritesStore((state) => state.favoriteIds)
 
@@ -25,6 +26,10 @@ export function ExamResultPage() {
     })
     .filter((item): item is NonNullable<typeof item> => item !== null)
   const unresolvedWrongCount = Math.max(0, lastResult.wrongItems.length - wrongItems.length)
+  const handleClearResult = () => {
+    clearResult()
+    navigate('/', { replace: true })
+  }
 
   return (
     <div className={styles.root}>
@@ -108,19 +113,14 @@ export function ExamResultPage() {
         </GlassPanel>
 
         <div className="action-row">
-          <Tooltip label="메인으로 이동">
+          <Tooltip label="홈으로 가기">
             <span>
-              <IconButton icon={House} label="메인으로 이동" size="lg" onClick={() => navigate('/')} />
+              <IconButton icon={House} label="홈으로 가기" size="lg" onClick={() => navigate('/')} />
             </span>
           </Tooltip>
-          <Tooltip label="시험 설정으로 이동">
+          <Tooltip label="시험 기록 삭제">
             <span>
-              <IconButton icon={ClipboardCheck} label="시험 설정으로 이동" size="lg" onClick={() => navigate('/exam')} />
-            </span>
-          </Tooltip>
-          <Tooltip label="다른 시험 보기">
-            <span>
-              <IconButton icon={RotateCcw} label="다른 시험 보기" size="lg" onClick={() => navigate('/exam')} />
+              <IconButton icon={X} label="시험 기록 삭제" tone="danger" size="lg" onClick={handleClearResult} />
             </span>
           </Tooltip>
         </div>

@@ -56,6 +56,34 @@ describe('ExamResultPage', () => {
     expect(useFavoritesStore.getState().favoriteIds).toEqual([sampleWord.id])
   })
 
+  it('keeps only home and delete actions on the result page', () => {
+    render(
+      <MemoryRouter>
+        <ExamResultPage />
+      </MemoryRouter>,
+    )
+
+    expect(screen.getByRole('button', { name: '홈으로 가기' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '시험 기록 삭제' })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '시험 설정으로 이동' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '다른 시험 보기' })).not.toBeInTheDocument()
+  })
+
+  it('clears only the recent result from the result page delete action', async () => {
+    const user = userEvent.setup()
+
+    render(
+      <MemoryRouter>
+        <ExamResultPage />
+      </MemoryRouter>,
+    )
+
+    await user.click(screen.getByRole('button', { name: '시험 기록 삭제' }))
+
+    expect(useExamStore.getState().lastResult).toBeNull()
+    expect(useExamStore.getState().wrongAnswerIds).toEqual([sampleWord.id])
+  })
+
   it('does not show a perfect result when stored wrong items no longer resolve', () => {
     useExamStore.setState({
       ...useExamStore.getState(),
