@@ -116,6 +116,29 @@ describe('ListPage', () => {
     expect(cardSurface).toHaveAttribute('data-reveal-meaning', 'true')
   })
 
+  it('reveals hidden card content on touch pointer up before the click fallback', () => {
+    const { container } = renderPage()
+    const cardSurface = container.querySelector<HTMLElement>('[data-revealable="true"]')
+
+    expect(cardSurface).not.toBeNull()
+
+    fireEvent.pointerDown(cardSurface as HTMLElement, {
+      pointerId: 1,
+      pointerType: 'touch',
+      clientX: 24,
+      clientY: 24,
+    })
+    fireEvent.pointerUp(cardSurface as HTMLElement, {
+      pointerId: 1,
+      pointerType: 'touch',
+      clientX: 26,
+      clientY: 25,
+    })
+
+    expect(cardSurface).toHaveAttribute('data-reveal-japanese', 'true')
+    expect(cardSurface).toHaveAttribute('data-reveal-meaning', 'true')
+  })
+
   it('keeps revealed cards open after toggling favorites', async () => {
     const user = userEvent.setup()
     const { container } = renderPage()
@@ -173,6 +196,45 @@ describe('ListPage', () => {
     expect(container.querySelector('[data-card-surface="true"]')).toBe(firstCardSurface)
     await waitFor(() => {
       expect(usePreferencesStore.getState().hideMeaningInList).toBe(true)
+    })
+  })
+
+  it('applies list hide state during touch pointer down before the stored preference commit', async () => {
+    usePreferencesStore.setState({
+      themeMode: 'dark',
+      hideJapaneseInList: false,
+      hideMeaningInList: false,
+      listFontScale: 3,
+      learnCardFontScale: 2,
+      lastSelectedSetId: 'wrong_answers',
+      learnDefaults: defaultLearnDefaults,
+    })
+
+    const { container } = renderPage()
+    const root = container.querySelector<HTMLElement>(`.${styles.root}`)
+    const firstCardSurface = container.querySelector<HTMLElement>('[data-card-surface="true"]')
+    const japaneseHideButton = screen.getByRole('button', { name: '일본어 가리기' })
+
+    expect(root).not.toBeNull()
+    expect(firstCardSurface).not.toBeNull()
+    expect(root).toHaveAttribute('data-hide-japanese', 'false')
+    expect(usePreferencesStore.getState().hideJapaneseInList).toBe(false)
+
+    fireEvent.pointerDown(japaneseHideButton, {
+      pointerId: 1,
+      pointerType: 'touch',
+      button: 0,
+      clientX: 12,
+      clientY: 12,
+    })
+
+    expect(root).toHaveAttribute('data-hide-japanese', 'true')
+    expect(japaneseHideButton).toHaveAttribute('data-active', 'true')
+    expect(usePreferencesStore.getState().hideJapaneseInList).toBe(false)
+
+    await waitFor(() => {
+      expect(firstCardSurface).toHaveAttribute('data-revealable', 'true')
+      expect(usePreferencesStore.getState().hideJapaneseInList).toBe(true)
     })
   })
 

@@ -43,6 +43,9 @@
 - 숨김이 꺼지면 공개 상태도 정리된다
 - 실제 텍스트 opacity가 아니라 마스킹 렌더링을 유지하는 방향이 기준
 - 숨김 토글은 루트 `data-hide-*`를 먼저 동기 갱신하는 DOM/CSS fast path를 유지한다
+- 모바일/펜 입력은 `click`까지 기다리지 않고 `pointerdown`에서 루트 dataset과 버튼 active dataset을 먼저 바꾼다
+- 숨김 설정 저장과 카드 surface 접근성 동기화는 첫 마스킹 페인트 뒤로 미뤄 터치 응답을 막지 않고, 페이지 이탈 시 pending 저장은 즉시 flush한다
+- 숨겨진 카드 공개는 모바일에서 작은 이동 범위의 `pointerup` 탭을 먼저 처리하고 `click`은 폴백으로 유지한다
 - 카드 `data-revealable`, `tabIndex`, `role`은 숨김/공개 dataset 기준으로 동기화하고, 숨김 토글만으로 카드 전체를 다시 렌더하지 않는다
 
 ## 렌더링 규칙

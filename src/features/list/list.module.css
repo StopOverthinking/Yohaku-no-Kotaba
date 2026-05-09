@@ -214,6 +214,8 @@
 
 .cardSurface[data-revealable="true"] {
   cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .cardSurface[data-revealable="true"]:focus-visible {

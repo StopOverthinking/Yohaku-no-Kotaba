@@ -1,4 +1,4 @@
-import { memo, startTransition, type KeyboardEvent, type MouseEvent, useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { memo, startTransition, type KeyboardEvent, type MouseEvent, type PointerEvent as ReactPointerEvent, useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { BookOpen, Heart, Search, Undo2, ZoomIn, ZoomOut } from 'lucide-react'
 import type { LucideProps } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
@@ -106,6 +106,63 @@ type RevealedCardState = {
   meaning: boolean
 }
 
+type HideTarget = keyof RevealedCardState
+type ScheduledAfterPaintTask = {
+  cancel: () => void
+}
+type PendingHidePreferenceCommit = ScheduledAfterPaintTask & {
+  next: boolean
+}
+
+const HIDE_TARGETS: HideTarget[] = ['japanese', 'meaning']
+const TOUCH_CLICK_SUPPRESSION_MS = 420
+const TAP_MOVE_THRESHOLD_PX = 8
+
+function scheduleAfterNextPaint(callback: () => void): ScheduledAfterPaintTask {
+  if (typeof window === 'undefined') {
+    callback()
+    return { cancel: () => undefined }
+  }
+
+  let frameId: number | undefined
+  let timeoutId: number | undefined
+  let canceled = false
+
+  const run = () => {
+    if (canceled) {
+      return
+    }
+
+    timeoutId = window.setTimeout(() => {
+      if (!canceled) {
+        callback()
+      }
+    }, 0)
+  }
+
+  if (typeof window.requestAnimationFrame === 'function') {
+    frameId = window.requestAnimationFrame(run)
+  } else {
+    timeoutId = window.setTimeout(() => {
+      if (!canceled) {
+        callback()
+      }
+    }, 0)
+  }
+
+  return {
+    cancel: () => {
+      canceled = true
+      if (frameId !== undefined) {
+        window.cancelAnimationFrame(frameId)
+      }
+      if (timeoutId !== undefined) {
+        window.clearTimeout(timeoutId)
+      }
+    },
+  }
+}
+
 function syncCardSurfaceRevealability(cardSurface: HTMLElement) {
   if (hasHiddenCardContent(cardSurface)) {
     cardSurface.dataset.revealable = 'true'
@@ -139,7 +196,7 @@ function setCardSurfaceRevealState(cardSurface: HTMLElement, revealedState?: Rev
   syncCardSurfaceRevealability(cardSurface)
 }
 
-function clearCardSurfaceRevealState(root: HTMLElement, target: keyof RevealedCardState) {
+function clearCardSurfaceRevealState(root: HTMLElement, target: HideTarget) {
   const selector = target === 'japanese'
     ? '[data-card-surface="true"][data-reveal-japanese="true"]'
     : '[data-card-surface="true"][data-reveal-meaning="true"]'
@@ -154,19 +211,24 @@ function clearCardSurfaceRevealState(root: HTMLElement, target: keyof RevealedCa
 }
 
 function scheduleCardSurfacesSync(root: HTMLElement, sync: () => void) {
-  if (typeof window === 'undefined') {
-    sync()
-    return
-  }
-
-  window.setTimeout(() => {
+  scheduleAfterNextPaint(() => {
     if (root.isConnected) {
       sync()
     }
-  }, 0)
+  })
 }
 
-function setListHideDataset(root: HTMLElement | null, target: keyof RevealedCardState, next: boolean, deferSync = false) {
+function getListHideDataset(root: HTMLElement | null, target: HideTarget, fallback: boolean) {
+  if (!root) {
+    return fallback
+  }
+
+  return target === 'japanese'
+    ? root.dataset.hideJapanese === 'true'
+    : root.dataset.hideMeaning === 'true'
+}
+
+function setListHideDataset(root: HTMLElement | null, target: HideTarget, next: boolean, deferSync = false) {
   if (!root) {
     return
   }
@@ -208,6 +270,8 @@ const VocabCard = memo(function VocabCard({
   onToggleFavorite: (wordId: string) => void
 }) {
   const cardSurfaceRef = useRef<HTMLDivElement>(null)
+  const pendingTapRef = useRef<{ pointerId: number; x: number; y: number } | null>(null)
+  const suppressNextClickRef = useRef(false)
   const sharedComparisonDescription =
     item.kind === 'comparison'
       ? getSharedComparisonDescription(item.pair.leftDescription, item.pair.rightDescription)
@@ -223,12 +287,66 @@ const VocabCard = memo(function VocabCard({
     setCardSurfaceRevealState(cardSurface, revealedState)
   }, [revealedState])
 
+  const revealCardSurface = (cardSurface: HTMLElement) => {
+    if (!hasHiddenCardContent(cardSurface)) {
+      return
+    }
+
+    onReveal(item.id, cardSurface)
+  }
+
+  const handleCardPointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
+    if (event.pointerType === 'mouse') {
+      return
+    }
+
+    pendingTapRef.current = {
+      pointerId: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+    }
+  }
+
+  const handleCardPointerCancel = (event: ReactPointerEvent<HTMLDivElement>) => {
+    if (pendingTapRef.current?.pointerId === event.pointerId) {
+      pendingTapRef.current = null
+    }
+  }
+
+  const handleCardPointerUp = (event: ReactPointerEvent<HTMLDivElement>) => {
+    const pendingTap = pendingTapRef.current
+
+    if (event.pointerType === 'mouse' || !pendingTap || pendingTap.pointerId !== event.pointerId) {
+      return
+    }
+
+    pendingTapRef.current = null
+
+    const movedX = Math.abs(event.clientX - pendingTap.x)
+    const movedY = Math.abs(event.clientY - pendingTap.y)
+
+    if (movedX > TAP_MOVE_THRESHOLD_PX || movedY > TAP_MOVE_THRESHOLD_PX) {
+      return
+    }
+
+    suppressNextClickRef.current = true
+    window.setTimeout(() => {
+      suppressNextClickRef.current = false
+    }, TOUCH_CLICK_SUPPRESSION_MS)
+    revealCardSurface(event.currentTarget)
+  }
+
   const handleCardClick = (event: MouseEvent<HTMLDivElement>) => {
+    if (suppressNextClickRef.current) {
+      suppressNextClickRef.current = false
+      return
+    }
+
     if (!hasHiddenCardContent(event.currentTarget)) {
       return
     }
 
-    onReveal(item.id, event.currentTarget)
+    revealCardSurface(event.currentTarget)
   }
 
   const handleCardKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
@@ -248,6 +366,9 @@ const VocabCard = memo(function VocabCard({
         ref={cardSurfaceRef}
         className={styles.cardSurface}
         data-card-surface="true"
+        onPointerDown={handleCardPointerDown}
+        onPointerCancel={handleCardPointerCancel}
+        onPointerUp={handleCardPointerUp}
         onClick={handleCardClick}
         onKeyDown={handleCardKeyDown}
       >
@@ -369,6 +490,10 @@ export function ListPage() {
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery] = useState('')
+  const [optimisticHideState, setOptimisticHideState] = useState<RevealedCardState>(() => ({
+    japanese: hideJapaneseInList,
+    meaning: hideMeaningInList,
+  }))
   const [revealedCards, setRevealedCards] = useState<Record<string, RevealedCardState>>({})
   const deferredQuery = useDeferredValue(query)
   const [toolbarVisible, setToolbarVisible] = useState(true)
@@ -376,7 +501,15 @@ export function ListPage() {
   const scrollDirectionRef = useRef<'up' | 'down' | null>(null)
   const scrollDistanceRef = useRef(0)
   const toolbarInteractionLockUntilRef = useRef(0)
-  const deferredHideSyncPendingRef = useRef(false)
+  const fastSyncedHideTargetsRef = useRef<Record<HideTarget, boolean>>({ japanese: false, meaning: false })
+  const previousHideStateRef = useRef<RevealedCardState | null>(null)
+  const pendingHidePreferenceCommitsRef = useRef<Record<HideTarget, PendingHidePreferenceCommit | null>>({
+    japanese: null,
+    meaning: null,
+  })
+  const suppressHideClickRef = useRef<Record<HideTarget, boolean>>({ japanese: false, meaning: false })
+  const effectiveHideJapaneseInList = optimisticHideState.japanese
+  const effectiveHideMeaningInList = optimisticHideState.meaning
   const wrongAnswerWords = useMemo(
     () =>
       wrongAnswerIds
@@ -392,6 +525,17 @@ export function ListPage() {
       setLastSelectedSetId(resolvedSetId)
     }
   }, [lastSelectedSetId, resolvedSetId, setLastSelectedSetId])
+
+  useEffect(() => {
+    setOptimisticHideState((current) => {
+      const next = {
+        japanese: pendingHidePreferenceCommitsRef.current.japanese ? current.japanese : hideJapaneseInList,
+        meaning: pendingHidePreferenceCommitsRef.current.meaning ? current.meaning : hideMeaningInList,
+      }
+
+      return next.japanese === current.japanese && next.meaning === current.meaning ? current : next
+    })
+  }, [hideJapaneseInList, hideMeaningInList])
 
   const baseWords = useMemo(() => {
     if (resolvedSetId === 'wrong_answers') {
@@ -441,8 +585,8 @@ export function ListPage() {
       let changed = false
       const nextEntries = Object.entries(current).flatMap(([wordId, state]) => {
         const nextState: RevealedCardState = {
-          japanese: hideJapaneseInList ? state.japanese : false,
-          meaning: hideMeaningInList ? state.meaning : false,
+          japanese: effectiveHideJapaneseInList ? state.japanese : false,
+          meaning: effectiveHideMeaningInList ? state.meaning : false,
         }
 
         if (nextState.japanese === state.japanese && nextState.meaning === state.meaning) {
@@ -459,7 +603,7 @@ export function ListPage() {
 
       return changed ? Object.fromEntries(nextEntries) : current
     })
-  }, [hideJapaneseInList, hideMeaningInList])
+  }, [effectiveHideJapaneseInList, effectiveHideMeaningInList])
 
   useLayoutEffect(() => {
     const root = rootRef.current
@@ -468,21 +612,51 @@ export function ListPage() {
       return
     }
 
-    root.dataset.hideJapanese = String(hideJapaneseInList)
-    root.dataset.hideMeaning = String(hideMeaningInList)
-    if (deferredHideSyncPendingRef.current) {
-      deferredHideSyncPendingRef.current = false
+    root.dataset.hideJapanese = String(effectiveHideJapaneseInList)
+    root.dataset.hideMeaning = String(effectiveHideMeaningInList)
+
+    const previousHideState = previousHideStateRef.current
+    const nextHideState = {
+      japanese: effectiveHideJapaneseInList,
+      meaning: effectiveHideMeaningInList,
+    }
+    previousHideStateRef.current = nextHideState
+
+    if (!previousHideState) {
+      if (!effectiveHideJapaneseInList) {
+        clearCardSurfaceRevealState(root, 'japanese')
+      }
+      if (!effectiveHideMeaningInList) {
+        clearCardSurfaceRevealState(root, 'meaning')
+      }
+      syncCardSurfaces(root)
       return
     }
 
-    if (!hideJapaneseInList) {
-      clearCardSurfaceRevealState(root, 'japanese')
+    let needsSurfaceSync = false
+
+    for (const target of HIDE_TARGETS) {
+      const changed = previousHideState[target] !== nextHideState[target]
+
+      if (!changed) {
+        continue
+      }
+
+      if (fastSyncedHideTargetsRef.current[target]) {
+        fastSyncedHideTargetsRef.current[target] = false
+        continue
+      }
+
+      if (!nextHideState[target]) {
+        clearCardSurfaceRevealState(root, target)
+      }
+      needsSurfaceSync = true
     }
-    if (!hideMeaningInList) {
-      clearCardSurfaceRevealState(root, 'meaning')
+
+    if (needsSurfaceSync) {
+      syncCardSurfaces(root)
     }
-    syncCardSurfaces(root)
-  }, [hideJapaneseInList, hideMeaningInList])
+  }, [effectiveHideJapaneseInList, effectiveHideMeaningInList])
 
   const handleRevealWord = useCallback((wordId: string, cardSurface: HTMLElement) => {
     const { hideJapanese, hideMeaning } = getCardRootState(cardSurface)
@@ -551,25 +725,109 @@ export function ListPage() {
     scrollDistanceRef.current = 0
   }, [])
 
-  const handleToggleJapaneseHidden = useCallback(() => {
-    const current = rootRef.current ? rootRef.current.dataset.hideJapanese === 'true' : hideJapaneseInList
+  const commitHidePreference = useCallback((target: HideTarget, next: boolean) => {
+    const preferences = usePreferencesStore.getState()
+
+    if (target === 'japanese') {
+      if (preferences.hideJapaneseInList !== next) {
+        setHideJapaneseInList(next)
+      }
+      return
+    }
+
+    if (preferences.hideMeaningInList !== next) {
+      setHideMeaningInList(next)
+    }
+  }, [setHideJapaneseInList, setHideMeaningInList])
+
+  const flushPendingHidePreferenceCommits = useCallback(() => {
+    for (const target of HIDE_TARGETS) {
+      const pendingCommit = pendingHidePreferenceCommitsRef.current[target]
+
+      if (!pendingCommit) {
+        continue
+      }
+
+      pendingCommit.cancel()
+      pendingHidePreferenceCommitsRef.current[target] = null
+      commitHidePreference(target, pendingCommit.next)
+    }
+  }, [commitHidePreference])
+
+  useEffect(() => {
+    return () => {
+      flushPendingHidePreferenceCommits()
+    }
+  }, [flushPendingHidePreferenceCommits])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return undefined
+    }
+
+    window.addEventListener('pagehide', flushPendingHidePreferenceCommits)
+    return () => window.removeEventListener('pagehide', flushPendingHidePreferenceCommits)
+  }, [flushPendingHidePreferenceCommits])
+
+  const scheduleHidePreferenceCommit = useCallback((target: HideTarget, next: boolean) => {
+    pendingHidePreferenceCommitsRef.current[target]?.cancel()
+
+    const pendingCommit: PendingHidePreferenceCommit = {
+      next,
+      cancel: () => undefined,
+    }
+
+    pendingHidePreferenceCommitsRef.current[target] = pendingCommit
+    pendingCommit.cancel = scheduleAfterNextPaint(() => {
+      if (pendingHidePreferenceCommitsRef.current[target] !== pendingCommit) {
+        return
+      }
+
+      pendingHidePreferenceCommitsRef.current[target] = null
+      startTransition(() => {
+        commitHidePreference(target, next)
+      })
+    }).cancel
+  }, [commitHidePreference])
+
+  const applyImmediateHideToggle = useCallback((target: HideTarget, control?: HTMLElement) => {
+    const current = getListHideDataset(rootRef.current, target, optimisticHideState[target])
     const next = !current
 
     keepToolbarVisible()
-    deferredHideSyncPendingRef.current = true
-    setListHideDataset(rootRef.current, 'japanese', next, true)
-    setHideJapaneseInList(next)
-  }, [hideJapaneseInList, keepToolbarVisible, setHideJapaneseInList])
+    fastSyncedHideTargetsRef.current[target] = true
+    if (control) {
+      control.dataset.active = String(next)
+    }
 
-  const handleToggleMeaningHidden = useCallback(() => {
-    const current = rootRef.current ? rootRef.current.dataset.hideMeaning === 'true' : hideMeaningInList
-    const next = !current
+    setListHideDataset(rootRef.current, target, next, true)
+    setOptimisticHideState((currentState) => (
+      currentState[target] === next ? currentState : { ...currentState, [target]: next }
+    ))
+    scheduleHidePreferenceCommit(target, next)
+  }, [keepToolbarVisible, optimisticHideState, scheduleHidePreferenceCommit])
 
-    keepToolbarVisible()
-    deferredHideSyncPendingRef.current = true
-    setListHideDataset(rootRef.current, 'meaning', next, true)
-    setHideMeaningInList(next)
-  }, [hideMeaningInList, keepToolbarVisible, setHideMeaningInList])
+  const handleHideTogglePointerDown = useCallback((target: HideTarget, event: ReactPointerEvent<HTMLButtonElement>) => {
+    if (event.pointerType === 'mouse' || event.button > 0) {
+      return
+    }
+
+    event.preventDefault()
+    suppressHideClickRef.current[target] = true
+    window.setTimeout(() => {
+      suppressHideClickRef.current[target] = false
+    }, TOUCH_CLICK_SUPPRESSION_MS)
+    applyImmediateHideToggle(target, event.currentTarget)
+  }, [applyImmediateHideToggle])
+
+  const handleHideToggleClick = useCallback((target: HideTarget, event: MouseEvent<HTMLButtonElement>) => {
+    if (suppressHideClickRef.current[target]) {
+      suppressHideClickRef.current[target] = false
+      return
+    }
+
+    applyImmediateHideToggle(target, event.currentTarget)
+  }, [applyImmediateHideToggle])
 
   useEffect(() => {
     lastScrollYRef.current = window.scrollY
@@ -627,7 +885,7 @@ export function ListPage() {
   }, [])
 
   return (
-    <div ref={rootRef} className={styles.root} style={fontScaleStyle} data-hide-japanese={hideJapaneseInList} data-hide-meaning={hideMeaningInList}>
+    <div ref={rootRef} className={styles.root} style={fontScaleStyle} data-hide-japanese={effectiveHideJapaneseInList} data-hide-meaning={effectiveHideMeaningInList}>
       <div className="page-header">
         <div className="page-header__left">
           <Tooltip label="홈으로 이동">
@@ -681,8 +939,9 @@ export function ListPage() {
                   <IconButton
                     icon={JapaneseHiddenIcon}
                     label="일본어 가리기"
-                    active={hideJapaneseInList}
-                    onClick={handleToggleJapaneseHidden}
+                    active={effectiveHideJapaneseInList}
+                    onPointerDown={(event) => handleHideTogglePointerDown('japanese', event)}
+                    onClick={(event) => handleHideToggleClick('japanese', event)}
                   />
                 </span>
               </Tooltip>
@@ -691,8 +950,9 @@ export function ListPage() {
                   <IconButton
                     icon={MeaningHiddenIcon}
                     label="뜻 가리기"
-                    active={hideMeaningInList}
-                    onClick={handleToggleMeaningHidden}
+                    active={effectiveHideMeaningInList}
+                    onPointerDown={(event) => handleHideTogglePointerDown('meaning', event)}
+                    onClick={(event) => handleHideToggleClick('meaning', event)}
                   />
                 </span>
               </Tooltip>
