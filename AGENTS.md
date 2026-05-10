@@ -34,4 +34,3 @@
 
 - `docs/wiki/current-state.md`를 먼저 본다.
 - 상세 저장 규칙은 `docs/wiki/storage-and-share.md`를 본다.
-- 스마트 복습은 `IndexedDB` 일정 저장만 유지한다.

@@ -22,11 +22,9 @@
 - `/`: 홈
 - `/list`: 목록
 - `/learn`, `/learn/session`, `/learn/result`
-- `/smart-review`, `/smart-review/session`, `/smart-review/result`
 - `/conjugation`, `/conjugation/session`, `/conjugation/result`
 - `/exam`, `/exam/session`, `/exam/result`
 - `/game`, `/game/session`, `/game/result`
-- `/debug`
 
 ### 별도 앱
 
@@ -36,14 +34,12 @@
 
 ### 전역 영속 Zustand
 
-- `preferencesStore`: 테마, 목록 표시, 학습 기본값, 스마트 복습 개수
+- `preferencesStore`: 테마, 목록 표시, 학습 기본값
 - `favoritesStore`: 즐겨찾기
-- `debugDateStore`: 날짜 오프셋, god mode
 
 ### 세션 중심 스토어
 
 - `learnSessionStore`
-- `smartReviewStore`
 - `conjugationStore`
 - `examStore`
 - `gameStore`
@@ -54,8 +50,6 @@
 - 시험: `localStorage`
 - 활용형: `localStorage`
 - 게임 기록: `localStorage`
-- 스마트 복습 스케줄: `IndexedDB`
-- 스마트 복습 세션과 결과: 메모리만 사용
 
 ## 데이터 원천
 

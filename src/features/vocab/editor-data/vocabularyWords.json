@@ -5508,11 +5508,7 @@
     "type": "verb",
     "difficulty": 15,
     "verbInfo": "2자",
-    "sourceOrder": 0,
-    "smartReviewPrompt": {
-      "japaneseSentence": "全部わからなくても、一つずつならきっと ____。",
-      "translationSentence": "전부는 몰라도 하나씩이라면 분명 할 수 있다."
-    }
+    "sourceOrder": 0
   },
   {
     "id": "handmade_2",
@@ -5523,11 +5519,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 1,
-    "smartReviewPrompt": {
-      "japaneseSentence": "助けを求める前に、黙って隣に来てくれる人が本当に ____ 人だ。",
-      "translationSentence": "도와 달라는 말 전에 조용히 곁에 와 주는 사람이 진짜 돕는 사람이다."
-    }
+    "sourceOrder": 1
   },
   {
     "id": "handmade_3",
@@ -5538,11 +5530,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 2,
-    "smartReviewPrompt": {
-      "japaneseSentence": "少し知っているだけで ____ のは、いちばん格好悪い。",
-      "translationSentence": "조금 안다고 잘난 체하는 건 가장 멋없다."
-    }
+    "sourceOrder": 2
   },
   {
     "id": "handmade_4",
@@ -5553,11 +5541,7 @@
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "2자",
-    "sourceOrder": 3,
-    "smartReviewPrompt": {
-      "japaneseSentence": "同じ姿勢で座りすぎて、足先が少し ____。",
-      "translationSentence": "같은 자세로 너무 오래 앉아 있어서 발끝이 조금 저리다."
-    }
+    "sourceOrder": 3
   },
   {
     "id": "handmade_5",
@@ -5568,11 +5552,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 4,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ のことを話すときだけ、祖母の声は少しやわらかい。",
-      "translationSentence": "옛날 이야기를 할 때만 할머니의 목소리가 조금 부드러워진다."
-    }
+    "sourceOrder": 4
   },
   {
     "id": "handmade_6",
@@ -5583,11 +5563,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 5,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長い会議のあとで、のどがからからに ____。",
-      "translationSentence": "긴 회의 뒤라 목이 바싹 말랐다."
-    }
+    "sourceOrder": 5
   },
   {
     "id": "handmade_7",
@@ -5598,11 +5574,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2자",
-    "sourceOrder": 6,
-    "smartReviewPrompt": {
-      "japaneseSentence": "新しい命が ____ た朝、病室の空気まで明るかった。",
-      "translationSentence": "새 생명이 태어난 아침, 병실의 공기까지 밝았다."
-    }
+    "sourceOrder": 6
   },
   {
     "id": "handmade_8",
@@ -5613,11 +5585,7 @@
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 7,
-    "smartReviewPrompt": {
-      "japaneseSentence": "値段はつけられないからこそ、それは私の ____ なんだ。",
-      "translationSentence": "값을 매길 수 없기에 그것은 내 보물이다."
-    }
+    "sourceOrder": 7
   },
   {
     "id": "handmade_9",
@@ -5628,11 +5596,7 @@
     "type": "i_adj",
     "difficulty": 47,
     "verbInfo": null,
-    "sourceOrder": 8,
-    "smartReviewPrompt": {
-      "japaneseSentence": "冗談では済まないのに、どこか笑えないほど ____ 話だった。",
-      "translationSentence": "농담으로 넘길 수 없을 만큼 씁쓸하고 칼칼한 이야기였다."
-    }
+    "sourceOrder": 8
   },
   {
     "id": "handmade_10",
@@ -5643,11 +5607,7 @@
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 9,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い時代劇みたいに「____」なんて呼ばれても、今は笑うしかない。",
-      "translationSentence": "옛 시대극처럼 “네 녀석”이라 불려도 지금은 웃을 수밖에 없다."
-    }
+    "sourceOrder": 9
   },
   {
     "id": "handmade_11",
@@ -5658,11 +5618,7 @@
     "type": "i_adj",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 10,
-    "smartReviewPrompt": {
-      "japaneseSentence": "あの人の静けさには、どこか ____ ものがある。",
-      "translationSentence": "그 사람의 고요함에는 어딘가 끝을 모르는 깊이가 있다."
-    }
+    "sourceOrder": 10
   },
   {
     "id": "handmade_12",
@@ -5673,11 +5629,7 @@
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 11,
-    "smartReviewPrompt": {
-      "japaneseSentence": "そんな ____ でも、会話のきっかけには十分役に立つ。",
-      "translationSentence": "그런 토막 지식이라도 대화의 계기로는 충분히 도움이 된다."
-    }
+    "sourceOrder": 11
   },
   {
     "id": "handmade_13",
@@ -5688,11 +5640,7 @@
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 12,
-    "smartReviewPrompt": {
-      "japaneseSentence": "返事を急がせるより、まずは相手の ____ を見たほうがいい。",
-      "translationSentence": "답을 재촉하기보다 먼저 상대의 상태를 보는 편이 낫다."
-    }
+    "sourceOrder": 12
   },
   {
     "id": "handmade_14",
@@ -5703,11 +5651,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 13,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨上がりの校庭は、靴より先に ____ の匂いを思い出させる。",
-      "translationSentence": "비가 그친 운동장은 신발보다 먼저 진흙 냄새를 떠올리게 한다."
-    }
+    "sourceOrder": 13
   },
   {
     "id": "handmade_15",
@@ -5718,11 +5662,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 14,
-    "smartReviewPrompt": {
-      "japaneseSentence": "気分が乱れている日は、机の上の ____ から始める。",
-      "translationSentence": "마음이 어수선한 날은 책상 위 청소부터 시작한다."
-    }
+    "sourceOrder": 14
   },
   {
     "id": "handmade_16",
@@ -5733,11 +5673,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 15,
-    "smartReviewPrompt": {
-      "japaneseSentence": "言いすぎたと思ったら、せめて表情だけでも ____ たい。",
-      "translationSentence": "말을 지나치게 했다 싶으면 적어도 표정만큼은 되돌리고 싶다."
-    }
+    "sourceOrder": 15
   },
   {
     "id": "handmade_17",
@@ -5748,11 +5684,7 @@
     "type": "adv",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 16,
-    "smartReviewPrompt": {
-      "japaneseSentence": "断るときほど、ことばを ____ 選びたい。",
-      "translationSentence": "거절할 때일수록 말을 정성껏 고르고 싶다."
-    }
+    "sourceOrder": 16
   },
   {
     "id": "handmade_18",
@@ -5763,11 +5695,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 17,
-    "smartReviewPrompt": {
-      "japaneseSentence": "窓の ____ から差す光だけで、部屋の朝は十分だった。",
-      "translationSentence": "창 틈으로 들어오는 빛만으로도 방의 아침은 충분했다."
-    }
+    "sourceOrder": 17
   },
   {
     "id": "handmade_19",
@@ -5778,11 +5706,7 @@
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "1자",
-    "sourceOrder": 18,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雲の切れ目から細い光が ____ できた。",
-      "translationSentence": "구름 틈 사이로 가느다란 빛이 스며들어 왔다."
-    }
+    "sourceOrder": 18
   },
   {
     "id": "handmade_20",
@@ -5793,11 +5717,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 19,
-    "smartReviewPrompt": {
-      "japaneseSentence": "簡単に ____ 前に、あと一日だけ考えてみようと思う。",
-      "translationSentence": "쉽게 포기하기 전에 하루만 더 생각해 보기로 했다."
-    }
+    "sourceOrder": 19
   },
   {
     "id": "handmade_21",
@@ -5808,11 +5728,7 @@
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 20,
-    "smartReviewPrompt": {
-      "japaneseSentence": "答えが見えないからこそ、その ____ に人は引かれる。",
-      "translationSentence": "답이 보이지 않기 때문에 사람은 그 수수께끼에 끌린다."
-    }
+    "sourceOrder": 20
   },
   {
     "id": "handmade_22",
@@ -5823,11 +5739,7 @@
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 21,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨の日に灯りのついた ____ は、それだけで少し救いになる。",
-      "translationSentence": "비 오는 날 불 켜진 가게는 그것만으로도 조금 위안이 된다."
-    }
+    "sourceOrder": 21
   },
   {
     "id": "handmade_23",
@@ -5838,11 +5750,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 22,
-    "smartReviewPrompt": {
-      "japaneseSentence": "朝の光の下では、昨日まで気づかなかった ____ までよく見える。",
-      "translationSentence": "아침빛 아래에서는 어제까지 눈치채지 못한 수염까지 잘 보인다."
-    }
+    "sourceOrder": 22
   },
   {
     "id": "handmade_24",
@@ -5853,11 +5761,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 23,
-    "smartReviewPrompt": {
-      "japaneseSentence": "切ったばかりの ____ が肩に落ちると、季節まで変わった気がする。",
-      "translationSentence": "막 자른 머리카락이 어깨에 떨어지면 계절까지 바뀐 기분이 든다."
-    }
+    "sourceOrder": 23
   },
   {
     "id": "handmade_25",
@@ -5868,11 +5772,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 24,
-    "smartReviewPrompt": {
-      "japaneseSentence": "港を出る ____ の音だけで、旅はもう半分始まっている。",
-      "translationSentence": "항구를 떠나는 배 소리만으로도 여행은 이미 절반 시작된 셈이다."
-    }
+    "sourceOrder": 24
   },
   {
     "id": "handmade_26",
@@ -5883,11 +5783,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 25,
-    "smartReviewPrompt": {
-      "japaneseSentence": "遠くの ____ の気配だけで、町の窓は少し早く閉じる。",
-      "translationSentence": "멀리서 폭풍 기미만 보여도 도시의 창문은 조금 일찍 닫힌다."
-    }
+    "sourceOrder": 25
   },
   {
     "id": "handmade_27",
@@ -5898,11 +5794,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 26,
-    "smartReviewPrompt": {
-      "japaneseSentence": "朝日はいつも ____ から来るのに、今日は少し迷って見えた。",
-      "translationSentence": "아침 해는 늘 동쪽에서 오는데 오늘은 조금 망설이는 듯 보였다."
-    }
+    "sourceOrder": 26
   },
   {
     "id": "handmade_28",
@@ -5913,11 +5805,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 27,
-    "smartReviewPrompt": {
-      "japaneseSentence": "夕焼けは ____ の空から急に深くなる。",
-      "translationSentence": "저녁놀은 서쪽 하늘부터 갑자기 짙어진다."
-    }
+    "sourceOrder": 27
   },
   {
     "id": "handmade_29",
@@ -5928,11 +5816,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 28,
-    "smartReviewPrompt": {
-      "japaneseSentence": "海の匂いは、____ の風に乗るといちばん濃くなる。",
-      "translationSentence": "바다 냄새는 남쪽 바람을 타고 올 때 가장 짙어진다."
-    }
+    "sourceOrder": 28
   },
   {
     "id": "handmade_30",
@@ -5943,11 +5827,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 29,
-    "smartReviewPrompt": {
-      "japaneseSentence": "冷たい空気はたいてい ____ から静かに降りてくる。",
-      "translationSentence": "찬 공기는 대개 북쪽에서 조용히 내려온다."
-    }
+    "sourceOrder": 29
   },
   {
     "id": "handmade_31",
@@ -5958,11 +5838,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 30,
-    "smartReviewPrompt": {
-      "japaneseSentence": "考えが詰まった日は、少し ____ に出るだけでましになる。",
-      "translationSentence": "생각이 막힌 날은 잠깐 밖에 나가기만 해도 조금 나아진다."
-    }
+    "sourceOrder": 30
   },
   {
     "id": "handmade_32",
@@ -5973,11 +5849,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 31,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ の匂いだけで、今日はやり直せる気がした。",
-      "translationSentence": "오늘 아침의 냄새만으로도 오늘은 다시 시작할 수 있을 것 같았다."
-    }
+    "sourceOrder": 31
   },
   {
     "id": "handmade_33",
@@ -5988,11 +5860,7 @@
     "type": "i_adj",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 32,
-    "smartReviewPrompt": {
-      "japaneseSentence": "窓を開けた瞬間、言葉より先に「____」と思った。",
-      "translationSentence": "창문을 여는 순간 말보다 먼저 “덥다”는 생각이 들었다."
-    }
+    "sourceOrder": 32
   },
   {
     "id": "handmade_34",
@@ -6003,11 +5871,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 33,
-    "smartReviewPrompt": {
-      "japaneseSentence": "小さな ____ の中に、なくしたと思っていた手紙が眠っていた。",
-      "translationSentence": "작은 상자 안에 잃어버린 줄 알았던 편지가 잠들어 있었다."
-    }
+    "sourceOrder": 33
   },
   {
     "id": "handmade_35",
@@ -6018,11 +5882,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 34,
-    "smartReviewPrompt": {
-      "japaneseSentence": "何も言わなくても、____ だけはきれいに嘘をつけない。",
-      "translationSentence": "아무 말 하지 않아도 눈동자만큼은 예쁘게 거짓말하지 못한다."
-    }
+    "sourceOrder": 34
   },
   {
     "id": "handmade_36",
@@ -6033,11 +5893,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 35,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長い ____ の前夜ほど、机の上の小さな音が気になる。",
-      "translationSentence": "긴 시험 전날일수록 책상 위 작은 소음이 신경 쓰인다."
-    }
+    "sourceOrder": 35
   },
   {
     "id": "handmade_37",
@@ -6048,11 +5904,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "1타",
-    "sourceOrder": 36,
-    "smartReviewPrompt": {
-      "japaneseSentence": "夕立が来る前に、干してある服を全部 ____ こんだ。",
-      "translationSentence": "소나기가 오기 전에 널어 둔 옷을 전부 거두어 들였다."
-    }
+    "sourceOrder": 36
   },
   {
     "id": "handmade_38",
@@ -6063,11 +5915,7 @@
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 37,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い ____ をひねる音で、この家の朝が始まる。",
-      "translationSentence": "낡은 수도꼭지를 트는 소리로 이 집의 아침이 시작된다."
-    }
+    "sourceOrder": 37
   },
   {
     "id": "handmade_39",
@@ -6078,11 +5926,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 38,
-    "smartReviewPrompt": {
-      "japaneseSentence": "本当の ____ は、見つけるより向き合うほうが難しい。",
-      "translationSentence": "진짜 문제는 발견하는 것보다 마주하는 편이 더 어렵다."
-    }
+    "sourceOrder": 38
   },
   {
     "id": "handmade_40",
@@ -6093,11 +5937,7 @@
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 39,
-    "smartReviewPrompt": {
-      "japaneseSentence": "深夜の ____ のサイレンだけは、何度聞いても胸に刺さる。",
-      "translationSentence": "한밤중의 소방 사이렌만큼은 몇 번을 들어도 가슴을 찌른다."
-    }
+    "sourceOrder": 39
   },
   {
     "id": "handmade_41",
@@ -6108,11 +5948,7 @@
     "type": "noun",
     "difficulty": 10,
     "verbInfo": null,
-    "sourceOrder": 40,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨の日の ____ には、別れと再会が少し混ざっている。",
-      "translationSentence": "비 오는 날의 역에는 이별과 재회가 조금 섞여 있다."
-    }
+    "sourceOrder": 40
   },
   {
     "id": "handmade_42",
@@ -6123,11 +5959,7 @@
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 41,
-    "smartReviewPrompt": {
-      "japaneseSentence": "温かい ____ を前にすると、言い争いも少しだけ小さくなる。",
-      "translationSentence": "따뜻한 밥 앞에서는 언쟁도 조금쯤 작아진다."
-    }
+    "sourceOrder": 41
   },
   {
     "id": "handmade_43",
@@ -6138,11 +5970,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 42,
-    "smartReviewPrompt": {
-      "japaneseSentence": "強い ____ ではなく、少しだけ口がほぐれるくらいで十分だった。",
-      "translationSentence": "센 술이 아니라 입가가 조금 풀릴 정도면 충분했다."
-    }
+    "sourceOrder": 42
   },
   {
     "id": "handmade_44",
@@ -6153,11 +5981,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 43,
-    "smartReviewPrompt": {
-      "japaneseSentence": "眠い朝の ____ ほど、窓際の席がありがたい。",
-      "translationSentence": "졸린 아침 수업일수록 창가 자리가 고맙다."
-    }
+    "sourceOrder": 43
   },
   {
     "id": "handmade_45",
@@ -6168,11 +5992,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 44,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い ____ の紙の匂いだけで、子どものころに戻れる。",
-      "translationSentence": "오래된 신문의 종이 냄새만으로도 어린 시절로 돌아갈 수 있다."
-    }
+    "sourceOrder": 44
   },
   {
     "id": "handmade_46",
@@ -6183,11 +6003,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 45,
-    "smartReviewPrompt": {
-      "japaneseSentence": "引っ越しのたびに、____ だけはきれいに書き直した。",
-      "translationSentence": "이사할 때마다 주소만은 깔끔하게 다시 적었다."
-    }
+    "sourceOrder": 45
   },
   {
     "id": "handmade_47",
@@ -6198,11 +6014,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 46,
-    "smartReviewPrompt": {
-      "japaneseSentence": "深夜の ____ は、鳴る前より切れた後のほうが長く残る。",
-      "translationSentence": "한밤의 전화는 울리기 전보다 끊긴 뒤가 더 오래 남는다."
-    }
+    "sourceOrder": 46
   },
   {
     "id": "handmade_48",
@@ -6213,11 +6025,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 47,
-    "smartReviewPrompt": {
-      "japaneseSentence": "名前より先に ____ を覚える癖が、いつまでたっても抜けない。",
-      "translationSentence": "이름보다 먼저 번호를 외우는 버릇이 좀처럼 빠지지 않는다."
-    }
+    "sourceOrder": 47
   },
   {
     "id": "handmade_49",
@@ -6228,11 +6036,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 48,
-    "smartReviewPrompt": {
-      "japaneseSentence": "見えない不安ほど、いったん紙に ____ みると輪郭が出る。",
-      "translationSentence": "보이지 않는 불안일수록 일단 종이에 그려 보면 윤곽이 드러난다."
-    }
+    "sourceOrder": 48
   },
   {
     "id": "handmade_50",
@@ -6243,11 +6047,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 49,
-    "smartReviewPrompt": {
-      "japaneseSentence": "結果のためだけではない ____ が、最後に人を支える。",
-      "translationSentence": "결과만을 위한 것이 아닌 공부가 마지막에 사람을 지탱한다."
-    }
+    "sourceOrder": 49
   },
   {
     "id": "handmade_51",
@@ -6258,11 +6058,7 @@
     "type": "na_adj",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 50,
-    "smartReviewPrompt": {
-      "japaneseSentence": "笑うところかどうかもわからないくらい ____ 空気だった。",
-      "translationSentence": "웃어야 할지조차 모를 만큼 이상한 분위기였다."
-    }
+    "sourceOrder": 50
   },
   {
     "id": "handmade_52",
@@ -6273,11 +6069,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 51,
-    "smartReviewPrompt": {
-      "japaneseSentence": "見た目よりも、あとから残る ____ のほうで料理を覚える。",
-      "translationSentence": "겉모습보다도 나중에 남는 맛으로 요리를 기억한다."
-    }
+    "sourceOrder": 51
   },
   {
     "id": "handmade_53",
@@ -6288,11 +6080,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 52,
-    "smartReviewPrompt": {
-      "japaneseSentence": "眠っている ____ を見ていると、時間まで静かになる。",
-      "translationSentence": "잠든 아기를 보고 있으면 시간까지 조용해진다."
-    }
+    "sourceOrder": 52
   },
   {
     "id": "handmade_54",
@@ -6303,11 +6091,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 53,
-    "smartReviewPrompt": {
-      "japaneseSentence": "小さな ____ を笑える日は、まだ立て直せる日だ。",
-      "translationSentence": "작은 실패를 웃어넘길 수 있는 날은 아직 다시 세울 수 있는 날이다."
-    }
+    "sourceOrder": 53
   },
   {
     "id": "handmade_55",
@@ -6318,11 +6102,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 54,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い ____ ほど、写っていない時間のほうが多い。",
-      "translationSentence": "오래된 사진일수록 찍히지 않은 시간 쪽이 더 많다."
-    }
+    "sourceOrder": 54
   },
   {
     "id": "handmade_56",
@@ -6333,11 +6113,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "2타",
-    "sourceOrder": 55,
-    "smartReviewPrompt": {
-      "japaneseSentence": "勝ち負けだけじゃなく、拍手まで ____ めた夜だった。",
-      "translationSentence": "승패뿐 아니라 박수까지 거머쥔 밤이었다."
-    }
+    "sourceOrder": 55
   },
   {
     "id": "handmade_57",
@@ -6348,11 +6124,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "2타",
-    "sourceOrder": 56,
-    "smartReviewPrompt": {
-      "japaneseSentence": "衣の音が変わったら、それはもう十分に ____ た合図だ。",
-      "translationSentence": "튀김옷 소리가 바뀌면 그것은 이미 충분히 튀겨졌다는 신호다."
-    }
+    "sourceOrder": 56
   },
   {
     "id": "handmade_58",
@@ -6363,11 +6135,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 57,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨の日は、熱い ____ がいつもより少しうれしい。",
-      "translationSentence": "비 오는 날은 뜨거운 튀김이 평소보다 조금 더 반갑다."
-    }
+    "sourceOrder": 57
   },
   {
     "id": "handmade_59",
@@ -6378,11 +6146,7 @@
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 58,
-    "smartReviewPrompt": {
-      "japaneseSentence": "夜の ____ は、走り出す前より停まった後のほうが静かだ。",
-      "translationSentence": "밤의 자동차는 달리기 전보다 멈춘 뒤가 더 조용하다."
-    }
+    "sourceOrder": 58
   },
   {
     "id": "handmade_60",
@@ -6393,11 +6157,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 59,
-    "smartReviewPrompt": {
-      "japaneseSentence": "言葉を相手にきちんと ____ せるだけでも、会話はだいぶ変わる。",
-      "translationSentence": "말을 상대에게 제대로 건네는 것만으로도 대화는 꽤 달라진다."
-    }
+    "sourceOrder": 59
   },
   {
     "id": "handmade_61",
@@ -6408,11 +6168,7 @@
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 60,
-    "smartReviewPrompt": {
-      "japaneseSentence": "青い ____ の中だけは、部屋より少し時間がゆっくり進む。",
-      "translationSentence": "푸른 수조 안에서만은 방보다 시간이 조금 천천히 흐른다."
-    }
+    "sourceOrder": 60
   },
   {
     "id": "handmade_62",
@@ -6423,11 +6179,7 @@
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 61,
-    "smartReviewPrompt": {
-      "japaneseSentence": "勝った日の ____ より、負けた日の背中にその人が出る。",
-      "translationSentence": "이긴 날의 선수보다 진 날의 뒷모습에 그 사람이 드러난다."
-    }
+    "sourceOrder": 61
   },
   {
     "id": "handmade_63",
@@ -6438,11 +6190,7 @@
     "type": "verb",
     "difficulty": 19,
     "verbInfo": "2타",
-    "sourceOrder": 62,
-    "smartReviewPrompt": {
-      "japaneseSentence": "迷い続けるより、今日は自分で ____ てしまいたい。",
-      "translationSentence": "계속 망설이기보다 오늘은 스스로 결정해 버리고 싶다."
-    }
+    "sourceOrder": 62
   },
   {
     "id": "handmade_64",
@@ -6453,11 +6201,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 63,
-    "smartReviewPrompt": {
-      "japaneseSentence": "夜更けの ____ だけが、まだ今日を終わらせてくれない。",
-      "translationSentence": "한밤의 책상만이 아직 오늘을 끝내 주지 않는다."
-    }
+    "sourceOrder": 63
   },
   {
     "id": "handmade_65",
@@ -6468,11 +6212,7 @@
     "type": "noun",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 64,
-    "smartReviewPrompt": {
-      "japaneseSentence": "紙の ____ に書いたひと言が、いちばん本音に近かった。",
-      "translationSentence": "종이 모서리에 적은 한마디가 가장 속마음에 가까웠다."
-    }
+    "sourceOrder": 64
   },
   {
     "id": "handmade_66",
@@ -6483,11 +6223,7 @@
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 65,
-    "smartReviewPrompt": {
-      "japaneseSentence": "痛みより先に、真っ白になるような ____ が来た。",
-      "translationSentence": "통증보다 먼저 하얘지는 듯한 기절이 찾아왔다."
-    }
+    "sourceOrder": 65
   },
   {
     "id": "handmade_67",
@@ -6498,11 +6234,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 66,
-    "smartReviewPrompt": {
-      "japaneseSentence": "秒____ が進む音だけで、部屋じゅうが急かされる。",
-      "translationSentence": "초침이 나아가는 소리만으로도 방 전체가 재촉당하는 기분이 든다."
-    }
+    "sourceOrder": 66
   },
   {
     "id": "handmade_68",
@@ -6513,11 +6245,7 @@
     "type": "noun",
     "difficulty": 52,
     "verbInfo": null,
-    "sourceOrder": 67,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い町の路地には、今でも一本の ____ がよく似合う。",
-      "translationSentence": "오래된 동네 골목에는 지금도 침 한 자루 같은 날카로움이 잘 어울린다."
-    }
+    "sourceOrder": 67
   },
   {
     "id": "handmade_69",
@@ -6528,11 +6256,7 @@
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 68,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長く座っていたせいで、立ち上がると ____ が重かった。",
-      "translationSentence": "오래 앉아 있었더니 일어날 때 허리가 무거웠다."
-    }
+    "sourceOrder": 68
   },
   {
     "id": "handmade_70",
@@ -6543,11 +6267,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "1자",
-    "sourceOrder": 69,
-    "smartReviewPrompt": {
-      "japaneseSentence": "険しかった表情が少し ____ ぐだけで、部屋の空気まで変わる。",
-      "translationSentence": "굳었던 표정이 조금 누그러지는 것만으로도 방의 공기까지 달라진다."
-    }
+    "sourceOrder": 69
   },
   {
     "id": "handmade_71",
@@ -6558,11 +6278,7 @@
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 70,
-    "smartReviewPrompt": {
-      "japaneseSentence": "短い ____ でも、聞く人が違えばまるで別の意味になる。",
-      "translationSentence": "짧은 이야기라도 듣는 사람이 다르면 전혀 다른 뜻이 된다."
-    }
+    "sourceOrder": 70
   },
   {
     "id": "handmade_72",
@@ -6573,11 +6289,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 71,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ より前のことみたいに、君は静かに笑った。",
-      "translationSentence": "어제보다도 더 오래전의 일처럼 너는 조용히 웃었다."
-    }
+    "sourceOrder": 71
   },
   {
     "id": "handmade_73",
@@ -6588,11 +6300,7 @@
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 72,
-    "smartReviewPrompt": {
-      "japaneseSentence": "黙って打つ ____ の音には、不思議と季節がない。",
-      "translationSentence": "말없이 두는 바둑 소리에는 이상하게 계절이 없다."
-    }
+    "sourceOrder": 72
   },
   {
     "id": "handmade_74",
@@ -6603,11 +6311,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 73,
-    "smartReviewPrompt": {
-      "japaneseSentence": "急いだ ____ より、納得できる理由のほうを大事にしたい。",
-      "translationSentence": "서둘러 나온 결과보다 납득할 수 있는 이유를 더 소중히 여기고 싶다."
-    }
+    "sourceOrder": 73
   },
   {
     "id": "handmade_75",
@@ -6618,11 +6322,7 @@
     "type": "adv",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 74,
-    "smartReviewPrompt": {
-      "japaneseSentence": "器用じゃなくても、今日はただ ____ やったと言える。",
-      "translationSentence": "능숙하지 않아도 오늘은 그저 열심히 했다고 말할 수 있다."
-    }
+    "sourceOrder": 74
   },
   {
     "id": "handmade_76",
@@ -6633,11 +6333,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 75,
-    "smartReviewPrompt": {
-      "japaneseSentence": "遠い ____ を語る声ほど、案外いまの不安で揺れている。",
-      "translationSentence": "먼 장래를 말하는 목소리일수록 의외로 지금의 불안에 흔들린다."
-    }
+    "sourceOrder": 75
   },
   {
     "id": "handmade_77",
@@ -6648,11 +6344,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 76,
-    "smartReviewPrompt": {
-      "japaneseSentence": "好きな ____ のことを話すときだけ、言葉が少しやわらかい。",
-      "translationSentence": "좋아하는 동물 이야기를 할 때만 말이 조금 부드러워진다."
-    }
+    "sourceOrder": 76
   },
   {
     "id": "handmade_78",
@@ -6663,11 +6355,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 77,
-    "smartReviewPrompt": {
-      "japaneseSentence": "人に決められた ____ では、長くは歩けない。",
-      "translationSentence": "남이 정한 진로로는 오래 걸어갈 수 없다."
-    }
+    "sourceOrder": 77
   },
   {
     "id": "handmade_79",
@@ -6678,11 +6366,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 78,
-    "smartReviewPrompt": {
-      "japaneseSentence": "紙一枚の ____ より、ここまで続けた時間のほうがうれしい。",
-      "translationSentence": "종이 한 장의 합격보다 여기까지 이어 온 시간이 더 기쁘다."
-    }
+    "sourceOrder": 78
   },
   {
     "id": "handmade_80",
@@ -6693,11 +6377,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 79,
-    "smartReviewPrompt": {
-      "japaneseSentence": "言葉にしなくても、____ が先に悲しみを覚えてしまう夜がある。",
-      "translationSentence": "말로 하지 않아도 귀가 먼저 슬픔을 알아차리는 밤이 있다."
-    }
+    "sourceOrder": 79
   },
   {
     "id": "handmade_81",
@@ -6708,11 +6388,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 80,
-    "smartReviewPrompt": {
-      "japaneseSentence": "荷物を減らして ____ すだけで、少し違う人になれる気がした。",
-      "translationSentence": "짐을 줄여 이사하는 것만으로도 조금 다른 사람이 될 수 있을 것 같았다."
-    }
+    "sourceOrder": 80
   },
   {
     "id": "handmade_82",
@@ -6723,11 +6399,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 81,
-    "smartReviewPrompt": {
-      "japaneseSentence": "遅くなるなら、一言の ____ だけでもずいぶん違う。",
-      "translationSentence": "늦어진다면 한마디 연락만으로도 훨씬 달라진다."
-    }
+    "sourceOrder": 81
   },
   {
     "id": "handmade_83",
@@ -6738,11 +6410,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 82,
-    "smartReviewPrompt": {
-      "japaneseSentence": "祭りの歌は、名も知らない ____ から順に受け継がれてきた。",
-      "translationSentence": "축제 노래는 이름 모를 선조들로부터 차례로 이어져 왔다."
-    }
+    "sourceOrder": 82
   },
   {
     "id": "handmade_84",
@@ -6753,11 +6421,7 @@
     "type": "noun",
     "difficulty": 57,
     "verbInfo": null,
-    "sourceOrder": 83,
-    "smartReviewPrompt": {
-      "japaneseSentence": "若いころは自由に見えた ____ も、今は少し寂しく見える。",
-      "translationSentence": "젊을 때는 자유로워 보였던 유랑도 지금은 조금 쓸쓸해 보인다."
-    }
+    "sourceOrder": 83
   },
   {
     "id": "handmade_85",
@@ -6768,11 +6432,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 84,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長い話の ____ に、ようやく本音が置かれていた。",
-      "translationSentence": "긴 이야기의 끝에야 비로소 속마음이 놓여 있었다."
-    }
+    "sourceOrder": 84
   },
   {
     "id": "handmade_86",
@@ -6783,11 +6443,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 85,
-    "smartReviewPrompt": {
-      "japaneseSentence": "人を責める前に、まずは ____ にできることを探したい。",
-      "translationSentence": "남을 탓하기 전에 먼저 자기 자신이 할 수 있는 일을 찾고 싶다."
-    }
+    "sourceOrder": 85
   },
   {
     "id": "handmade_87",
@@ -6798,11 +6454,7 @@
     "type": "na_adj",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 86,
-    "smartReviewPrompt": {
-      "japaneseSentence": "忙しい日ほど、短い休憩がいちばん ____。",
-      "translationSentence": "바쁜 날일수록 짧은 휴식이 가장 소중하다."
-    }
+    "sourceOrder": 86
   },
   {
     "id": "handmade_88",
@@ -6813,11 +6465,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 87,
-    "smartReviewPrompt": {
-      "japaneseSentence": "考えすぎると、____ ばかり先に熱くなる。",
-      "translationSentence": "너무 많이 생각하면 머리만 먼저 뜨거워진다."
-    }
+    "sourceOrder": 87
   },
   {
     "id": "handmade_89",
@@ -6828,11 +6476,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 88,
-    "smartReviewPrompt": {
-      "japaneseSentence": "強い ____ でも、効くまでの数分は意外と長い。",
-      "translationSentence": "강한 진통제라도 듣기까지의 몇 분은 의외로 길다."
-    }
+    "sourceOrder": 88
   },
   {
     "id": "handmade_90",
@@ -6843,11 +6487,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 89,
-    "smartReviewPrompt": {
-      "japaneseSentence": "冷えた朝は、包丁を入れた ____ の匂いだけで少し元気になる。",
-      "translationSentence": "차가운 아침에는 칼을 댄 과일 냄새만으로도 조금 기운이 난다."
-    }
+    "sourceOrder": 89
   },
   {
     "id": "handmade_91",
@@ -6858,11 +6498,7 @@
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 90,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い時計の ____ は、部品より記憶の扱いのほうが難しい。",
-      "translationSentence": "오래된 시계 수리는 부품보다 기억을 다루는 일이 더 어렵다."
-    }
+    "sourceOrder": 90
   },
   {
     "id": "handmade_92",
@@ -6873,11 +6509,7 @@
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,
-    "sourceOrder": 91,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨の音が強くなるほど、古い ____ はよく家を語る。",
-      "translationSentence": "빗소리가 세질수록 오래된 지붕은 집 이야기를 더 잘 들려준다."
-    }
+    "sourceOrder": 91
   },
   {
     "id": "handmade_93",
@@ -6888,11 +6520,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 92,
-    "smartReviewPrompt": {
-      "japaneseSentence": "乾いた冬には、ことばより先に ____ が季節を覚える。",
-      "translationSentence": "마른 겨울에는 말보다 먼저 피부가 계절을 기억한다."
-    }
+    "sourceOrder": 92
   },
   {
     "id": "handmade_94",
@@ -6903,11 +6531,7 @@
     "type": "i_adj",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 93,
-    "smartReviewPrompt": {
-      "japaneseSentence": "朝の空気に触れた瞬間、言い訳より先に「____」と思った。",
-      "translationSentence": "아침 공기에 닿는 순간 변명보다 먼저 “춥다”는 생각이 들었다."
-    }
+    "sourceOrder": 93
   },
   {
     "id": "handmade_95",
@@ -6918,11 +6542,7 @@
     "type": "i_adj",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 94,
-    "smartReviewPrompt": {
-      "japaneseSentence": "今年の冬は少し ____ くて、静けさまで痛い。",
-      "translationSentence": "올겨울은 조금 심하고 가혹해서 정적까지 아프다."
-    }
+    "sourceOrder": 94
   },
   {
     "id": "handmade_96",
@@ -6933,11 +6553,7 @@
     "type": "i_adj",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 95,
-    "smartReviewPrompt": {
-      "japaneseSentence": "握った缶の ____ たさで、ようやく現実に戻った。",
-      "translationSentence": "손에 쥔 캔의 차가움으로 겨우 현실로 돌아왔다."
-    }
+    "sourceOrder": 95
   },
   {
     "id": "handmade_97",
@@ -6948,11 +6564,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 96,
-    "smartReviewPrompt": {
-      "japaneseSentence": "奥歯の ____ 一本が痛むだけで、夜はひどく長い。",
-      "translationSentence": "어금니 하나만 아파도 밤은 유난히 길다."
-    }
+    "sourceOrder": 96
   },
   {
     "id": "handmade_98",
@@ -6963,11 +6575,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 97,
-    "smartReviewPrompt": {
-      "japaneseSentence": "手のひらの ____ が乾くころ、ようやく緊張も少し引いた。",
-      "translationSentence": "손바닥의 땀이 마를 즈음에야 긴장도 조금 가셨다."
-    }
+    "sourceOrder": 97
   },
   {
     "id": "handmade_99",
@@ -6978,11 +6586,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 98,
-    "smartReviewPrompt": {
-      "japaneseSentence": "重たい上着を ____ いだ瞬間、今日がやっと終わった気がした。",
-      "translationSentence": "무거운 겉옷을 벗는 순간에야 오늘이 정말 끝난 것 같았다."
-    }
+    "sourceOrder": 98
   },
   {
     "id": "handmade_100",
@@ -6993,11 +6597,7 @@
     "type": "noun",
     "difficulty": 12,
     "verbInfo": null,
-    "sourceOrder": 99,
-    "smartReviewPrompt": {
-      "japaneseSentence": "今ここで笑っている ____ のことも、案外何も知らない。",
-      "translationSentence": "지금 여기서 웃고 있는 누구에 대해서도 의외로 우리는 아무것도 모른다."
-    }
+    "sourceOrder": 99
   },
   {
     "id": "handmade_101",
@@ -7008,11 +6608,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 100,
-    "smartReviewPrompt": {
-      "japaneseSentence": "小さな ____ でも、だれかの一日を完全に変えてしまうことがある。",
-      "translationSentence": "작은 사건이라도 누군가의 하루를 완전히 바꾸어 버릴 때가 있다."
-    }
+    "sourceOrder": 100
   },
   {
     "id": "handmade_102",
@@ -7023,11 +6619,7 @@
     "type": "noun",
     "difficulty": 47,
     "verbInfo": null,
-    "sourceOrder": 101,
-    "smartReviewPrompt": {
-      "japaneseSentence": "落ち着いて聞けば、彼はちゃんと ____ を話してくれた。",
-      "translationSentence": "차분히 듣자 그는 자초지종을 제대로 말해 주었다."
-    }
+    "sourceOrder": 101
   },
   {
     "id": "handmade_103",
@@ -7038,11 +6630,7 @@
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 102,
-    "smartReviewPrompt": {
-      "japaneseSentence": "冗談の形をしていても、最後に残るのはいつも ____ だ。",
-      "translationSentence": "농담의 형태를 하고 있어도 마지막에 남는 것은 늘 본심이다."
-    }
+    "sourceOrder": 102
   },
   {
     "id": "handmade_104",
@@ -7053,11 +6641,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 103,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長い ____ のあとで残る沈黙のほうが、案外本音に近い。",
-      "translationSentence": "긴 회의 뒤에 남는 침묵이 오히려 속마음에 가깝다."
-    }
+    "sourceOrder": 103
   },
   {
     "id": "handmade_105",
@@ -7068,11 +6652,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 104,
-    "smartReviewPrompt": {
-      "japaneseSentence": "違う ____ がぶつかるときほど、人柄がよく見える。",
-      "translationSentence": "서로 다른 의견이 부딪칠 때일수록 인품이 잘 드러난다."
-    }
+    "sourceOrder": 104
   },
   {
     "id": "handmade_106",
@@ -7083,11 +6663,7 @@
     "type": "adv",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 105,
-    "smartReviewPrompt": {
-      "japaneseSentence": "急いでいても、最後の確認だけは ____ やっておきたい。",
-      "translationSentence": "바빠도 마지막 확인만큼은 확실히 해 두고 싶다."
-    }
+    "sourceOrder": 105
   },
   {
     "id": "handmade_107",
@@ -7098,11 +6674,7 @@
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 106,
-    "smartReviewPrompt": {
-      "japaneseSentence": "忘れられないのは物語より、その ____ の呼吸の置き方だ。",
-      "translationSentence": "잊히지 않는 것은 이야기보다 그 저자의 호흡을 놓는 방식이다."
-    }
+    "sourceOrder": 106
   },
   {
     "id": "handmade_108",
@@ -7113,11 +6685,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 107,
-    "smartReviewPrompt": {
-      "japaneseSentence": "似ているようで、いちばん大事なところが ____。",
-      "translationSentence": "비슷해 보이지만 가장 중요한 부분이 다르다."
-    }
+    "sourceOrder": 107
   },
   {
     "id": "handmade_109",
@@ -7128,11 +6696,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 108,
-    "smartReviewPrompt": {
-      "japaneseSentence": "強い ____ がある作品ほど、静かな細部が効いてくる。",
-      "translationSentence": "강한 세계관이 있는 작품일수록 조용한 디테일이 살아난다."
-    }
+    "sourceOrder": 108
   },
   {
     "id": "handmade_110",
@@ -7143,11 +6707,7 @@
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 109,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ で名前を呼ばれるだけで、眠気はだいたい消える。",
-      "translationSentence": "귓가에서 이름만 불려도 졸음은 대개 사라진다."
-    }
+    "sourceOrder": 109
   },
   {
     "id": "handmade_111",
@@ -7158,11 +6718,7 @@
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 110,
-    "smartReviewPrompt": {
-      "japaneseSentence": "声を出す前の ____ が、いちばん人を正直にする。",
-      "translationSentence": "목소리를 내기 전의 긴장이 사람을 가장 솔직하게 만든다."
-    }
+    "sourceOrder": 110
   },
   {
     "id": "handmade_112",
@@ -7173,11 +6729,7 @@
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 111,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長い名前より、自然に呼ばれる ____ のほうが親しい。",
-      "translationSentence": "긴 이름보다 자연스럽게 불리는 애칭 쪽이 더 친밀하다."
-    }
+    "sourceOrder": 111
   },
   {
     "id": "handmade_113",
@@ -7188,11 +6740,7 @@
     "type": "i_adj",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 112,
-    "smartReviewPrompt": {
-      "japaneseSentence": "返事までの時間が今日はやけに ____。",
-      "translationSentence": "답이 오기까지의 시간이 오늘은 유난히 멀다."
-    }
+    "sourceOrder": 112
   },
   {
     "id": "handmade_114",
@@ -7203,11 +6751,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 113,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ に見える灯りほど、なぜか人を歩かせる。",
-      "translationSentence": "멀리 보이는 불빛일수록 이상하게 사람을 걷게 만든다."
-    }
+    "sourceOrder": 113
   },
   {
     "id": "handmade_115",
@@ -7218,11 +6762,7 @@
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "2타",
-    "sourceOrder": 114,
-    "smartReviewPrompt": {
-      "japaneseSentence": "グラスを少し ____ けるだけで、光の色が変わって見える。",
-      "translationSentence": "잔을 조금 기울이기만 해도 빛의 색이 달라 보인다."
-    }
+    "sourceOrder": 114
   },
   {
     "id": "handmade_116",
@@ -7233,11 +6773,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1타",
-    "sourceOrder": 115,
-    "smartReviewPrompt": {
-      "japaneseSentence": "便利さより、ちゃんと ____ えるかどうかで道具を選びたい。",
-      "translationSentence": "편리함보다 제대로 사용할 수 있는지로 도구를 고르고 싶다."
-    }
+    "sourceOrder": 115
   },
   {
     "id": "handmade_117",
@@ -7248,11 +6784,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 116,
-    "smartReviewPrompt": {
-      "japaneseSentence": "午後の光が ____ に残るころ、授業は少し眠くなる。",
-      "translationSentence": "오후의 빛이 칠판에 남을 즈음 수업은 조금 졸려진다."
-    }
+    "sourceOrder": 116
   },
   {
     "id": "handmade_118",
@@ -7263,11 +6795,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 117,
-    "smartReviewPrompt": {
-      "japaneseSentence": "冷たい店のドアを押して ____ る瞬間だけ、少し勇気がいる。",
-      "translationSentence": "차가운 가게 문을 밀고 들어가는 순간만큼은 조금 용기가 필요하다."
-    }
+    "sourceOrder": 117
   },
   {
     "id": "handmade_119",
@@ -7278,11 +6806,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 118,
-    "smartReviewPrompt": {
-      "japaneseSentence": "いつもの場所に ____ るだけで、今日はもう十分だった。",
-      "translationSentence": "익숙한 장소로 돌아가는 것만으로도 오늘은 충분했다."
-    }
+    "sourceOrder": 118
   },
   {
     "id": "handmade_120",
@@ -7293,11 +6817,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 119,
-    "smartReviewPrompt": {
-      "japaneseSentence": "灯りのついた ____ を見ると、帰る理由がひとつ増える。",
-      "translationSentence": "불 켜진 방을 보면 돌아갈 이유가 하나 늘어난다."
-    }
+    "sourceOrder": 119
   },
   {
     "id": "handmade_121",
@@ -7308,11 +6828,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 120,
-    "smartReviewPrompt": {
-      "japaneseSentence": "開けたままの ____ から、夕方の風がゆっくり入ってきた。",
-      "translationSentence": "열어 둔 창문으로 저녁 바람이 천천히 들어왔다."
-    }
+    "sourceOrder": 120
   },
   {
     "id": "handmade_122",
@@ -7323,11 +6839,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 121,
-    "smartReviewPrompt": {
-      "japaneseSentence": "好きな ____ だけは、忙しくてもちゃんと覚えている。",
-      "translationSentence": "좋아하는 요일만큼은 바빠도 제대로 기억하고 있다."
-    }
+    "sourceOrder": 121
   },
   {
     "id": "handmade_123",
@@ -7338,11 +6850,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 122,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨の日の ____ は、いつもより少し声が低い。",
-      "translationSentence": "비 오는 날의 은행은 평소보다 목소리가 조금 낮다."
-    }
+    "sourceOrder": 122
   },
   {
     "id": "handmade_124",
@@ -7353,11 +6861,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 123,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ より前の自分には、もう戻れない気がする。",
-      "translationSentence": "작년 이전의 자신으로는 이제 돌아갈 수 없을 것 같다."
-    }
+    "sourceOrder": 123
   },
   {
     "id": "handmade_125",
@@ -7368,11 +6872,7 @@
     "type": "noun",
     "difficulty": 41,
     "verbInfo": null,
-    "sourceOrder": 124,
-    "smartReviewPrompt": {
-      "japaneseSentence": "紙一枚の ____ より、そこに至る時間を信じたい。",
-      "translationSentence": "종이 한 장의 학위보다 거기에 이르는 시간을 믿고 싶다."
-    }
+    "sourceOrder": 124
   },
   {
     "id": "handmade_126",
@@ -7383,11 +6883,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 125,
-    "smartReviewPrompt": {
-      "japaneseSentence": "気配はいつも ____ からやって来る。",
-      "translationSentence": "기척은 늘 뒤쪽에서 찾아온다."
-    }
+    "sourceOrder": 125
   },
   {
     "id": "handmade_127",
@@ -7398,11 +6894,7 @@
     "type": "noun",
     "difficulty": 28,
     "verbInfo": null,
-    "sourceOrder": 126,
-    "smartReviewPrompt": {
-      "japaneseSentence": "思っていた ____ を見て、急に現実の温度が下がった。",
-      "translationSentence": "생각했던 금액을 보고 갑자기 현실의 온도가 내려갔다."
-    }
+    "sourceOrder": 126
   },
   {
     "id": "handmade_128",
@@ -7413,11 +6905,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 127,
-    "smartReviewPrompt": {
-      "japaneseSentence": "古い ____ 一本で、箱の空気まで懐かしくなる。",
-      "translationSentence": "오래된 끈 하나로 상자의 공기까지 그리워진다."
-    }
+    "sourceOrder": 127
   },
   {
     "id": "handmade_129",
@@ -7428,11 +6916,7 @@
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 128,
-    "smartReviewPrompt": {
-      "japaneseSentence": "人の悲鳴より先に、静かな ____ の気配が怖い。",
-      "translationSentence": "사람의 비명보다도 조용한 도둑의 기색이 더 무섭다."
-    }
+    "sourceOrder": 128
   },
   {
     "id": "handmade_130",
@@ -7443,11 +6927,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 129,
-    "smartReviewPrompt": {
-      "japaneseSentence": "困ったときに頼れるのが ____ だけの町は、少しさびしい。",
-      "translationSentence": "곤란할 때 의지할 곳이 경찰뿐인 도시는 조금 쓸쓸하다."
-    }
+    "sourceOrder": 129
   },
   {
     "id": "handmade_131",
@@ -7458,11 +6938,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 130,
-    "smartReviewPrompt": {
-      "japaneseSentence": "白い ____ ほど、ためらいをはっきり映す。",
-      "translationSentence": "하얀 종이일수록 망설임을 또렷이 비춘다."
-    }
+    "sourceOrder": 130
   },
   {
     "id": "handmade_132",
@@ -7473,11 +6949,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 131,
-    "smartReviewPrompt": {
-      "japaneseSentence": "いい ____ は、わかった気にさせるより一歩だけ前へ進ませる。",
-      "translationSentence": "좋은 설명은 이해한 척하게 하기보다 한 걸음만 앞으로 나아가게 한다."
-    }
+    "sourceOrder": 131
   },
   {
     "id": "handmade_133",
@@ -7488,11 +6960,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 132,
-    "smartReviewPrompt": {
-      "japaneseSentence": "無言のまま組んだ ____ に、今日は少し怒りが残っていた。",
-      "translationSentence": "말없이 낀 팔짱에 오늘은 조금 화가 남아 있었다."
-    }
+    "sourceOrder": 132
   },
   {
     "id": "handmade_134",
@@ -7503,11 +6971,7 @@
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "1타",
-    "sourceOrder": 133,
-    "smartReviewPrompt": {
-      "japaneseSentence": "たった一度のためらいで、大きな機会を ____ してしまった。",
-      "translationSentence": "단 한 번의 망설임으로 큰 기회를 놓쳐 버렸다."
-    }
+    "sourceOrder": 133
   },
   {
     "id": "handmade_135",
@@ -7518,11 +6982,7 @@
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 134,
-    "smartReviewPrompt": {
-      "japaneseSentence": "細い ____ でも、見つかれば夜は少し短くなる。",
-      "translationSentence": "가느다란 실마리라도 찾으면 밤은 조금 짧아진다."
-    }
+    "sourceOrder": 134
   },
   {
     "id": "handmade_136",
@@ -7533,11 +6993,7 @@
     "type": "noun",
     "difficulty": 32,
     "verbInfo": null,
-    "sourceOrder": 135,
-    "smartReviewPrompt": {
-      "japaneseSentence": "立派な言葉より、その ____ の靴の汚れを見てしまう。",
-      "translationSentence": "번듯한 말보다 그 정치가의 신발에 묻은 때를 보게 된다."
-    }
+    "sourceOrder": 135
   },
   {
     "id": "handmade_137",
@@ -7548,11 +7004,7 @@
     "type": "na_adj",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 136,
-    "smartReviewPrompt": {
-      "japaneseSentence": "その一言の影響は、あとから考えるほど ____。",
-      "translationSentence": "그 한마디의 영향은 나중에 생각할수록 지대하다."
-    }
+    "sourceOrder": 136
   },
   {
     "id": "handmade_138",
@@ -7563,11 +7015,7 @@
     "type": "noun",
     "difficulty": 38,
     "verbInfo": null,
-    "sourceOrder": 137,
-    "smartReviewPrompt": {
-      "japaneseSentence": "目に見えない ____ ほど、人の声色を変えてしまう。",
-      "translationSentence": "눈에 보이지 않는 권력일수록 사람의 목소리 결을 바꾸어 버린다."
-    }
+    "sourceOrder": 137
   },
   {
     "id": "handmade_139",
@@ -7578,11 +7026,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 138,
-    "smartReviewPrompt": {
-      "japaneseSentence": "小さな店でも、____ の歩き方にその空気は出る。",
-      "translationSentence": "작은 가게라도 사장의 걸음걸이에 그 분위기가 드러난다."
-    }
+    "sourceOrder": 138
   },
   {
     "id": "handmade_140",
@@ -7593,11 +7037,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 139,
-    "smartReviewPrompt": {
-      "japaneseSentence": "雨あがりの ____ に残る光は、いつも少しやわらかい。",
-      "translationSentence": "비 갠 도로에 남는 빛은 늘 조금 부드럽다."
-    }
+    "sourceOrder": 139
   },
   {
     "id": "handmade_141",
@@ -7608,11 +7048,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 140,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ の朝は、人の流れまで少し早口だ。",
-      "translationSentence": "도쿄의 아침은 사람들의 흐름까지 조금 빠른 말투다."
-    }
+    "sourceOrder": 140
   },
   {
     "id": "handmade_142",
@@ -7623,11 +7059,7 @@
     "type": "noun",
     "difficulty": 15,
     "verbInfo": null,
-    "sourceOrder": 141,
-    "smartReviewPrompt": {
-      "japaneseSentence": "____ の夜は、笑い声さえ食べ物みたいに濃い。",
-      "translationSentence": "오사카의 밤은 웃음소리마저 음식처럼 진하다."
-    }
+    "sourceOrder": 141
   },
   {
     "id": "handmade_143",
@@ -7638,11 +7070,7 @@
     "type": "i_adj",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 142,
-    "smartReviewPrompt": {
-      "japaneseSentence": "言葉が ____ いと、別れも少しだけやさしくなる。",
-      "translationSentence": "말이 가벼우면 이별도 조금은 부드러워진다."
-    }
+    "sourceOrder": 142
   },
   {
     "id": "handmade_144",
@@ -7653,11 +7081,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 143,
-    "smartReviewPrompt": {
-      "japaneseSentence": "会えない日の ____ ほど、妙に手ざわりがある。",
-      "translationSentence": "만나지 못하는 날의 목소리일수록 이상하게 촉감이 있다."
-    }
+    "sourceOrder": 143
   },
   {
     "id": "handmade_145",
@@ -7668,11 +7092,7 @@
     "type": "noun",
     "difficulty": 44,
     "verbInfo": null,
-    "sourceOrder": 144,
-    "smartReviewPrompt": {
-      "japaneseSentence": "静かな ____ は、音より先に匂いでわかることがある。",
-      "translationSentence": "조용한 부패는 소리보다 먼저 냄새로 알게 될 때가 있다."
-    }
+    "sourceOrder": 144
   },
   {
     "id": "handmade_146",
@@ -7683,11 +7103,7 @@
     "type": "noun",
     "difficulty": 35,
     "verbInfo": null,
-    "sourceOrder": 145,
-    "smartReviewPrompt": {
-      "japaneseSentence": "夜の ____ には、その家の言い争いも笑いも全部残る。",
-      "translationSentence": "밤의 식탁에는 그 집의 언쟁도 웃음도 전부 남는다."
-    }
+    "sourceOrder": 145
   },
   {
     "id": "handmade_147",
@@ -7698,11 +7114,7 @@
     "type": "noun",
     "difficulty": 30,
     "verbInfo": null,
-    "sourceOrder": 146,
-    "smartReviewPrompt": {
-      "japaneseSentence": "一匹の ____ がいるだけで、昼の静けさは簡単に壊れる。",
-      "translationSentence": "파리 한 마리만 있어도 한낮의 정적은 쉽게 깨진다."
-    }
+    "sourceOrder": 146
   },
   {
     "id": "handmade_148",
@@ -7713,11 +7125,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 147,
-    "smartReviewPrompt": {
-      "japaneseSentence": "薄い ____ 一枚でも、人の気持ちは案外よく遮られる。",
-      "translationSentence": "얇은 벽 한 장으로도 사람의 마음은 의외로 잘 가려진다."
-    }
+    "sourceOrder": 147
   },
   {
     "id": "handmade_149",
@@ -7728,11 +7136,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 148,
-    "smartReviewPrompt": {
-      "japaneseSentence": "正しさだけで人を ____ す言葉は、やはり少し乱暴だ。",
-      "translationSentence": "옳음만으로 사람을 찌르는 말은 역시 조금 거칠다."
-    }
+    "sourceOrder": 148
   },
   {
     "id": "handmade_150",
@@ -7743,11 +7147,7 @@
     "type": "noun",
     "difficulty": 25,
     "verbInfo": null,
-    "sourceOrder": 149,
-    "smartReviewPrompt": {
-      "japaneseSentence": "慣れない ____ でも、気持ちが整えばきっと似合う。",
-      "translationSentence": "낯선 양복이라도 마음이 정돈되면 분명 어울린다."
-    }
+    "sourceOrder": 149
   },
   {
     "id": "handmade_151",
@@ -7758,11 +7158,7 @@
     "type": "noun",
     "difficulty": 18,
     "verbInfo": null,
-    "sourceOrder": 150,
-    "smartReviewPrompt": {
-      "japaneseSentence": "終わっていない ____ は、眠る前ほど大きく見える。",
-      "translationSentence": "끝나지 않은 숙제는 잠들기 전일수록 더 크게 보인다."
-    }
+    "sourceOrder": 150
   },
   {
     "id": "handmade_152",
@@ -7773,11 +7169,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 151,
-    "smartReviewPrompt": {
-      "japaneseSentence": "長く連れ添った ____ は、返事より先に沈黙でわかる。",
-      "translationSentence": "오래 함께한 아내는 대답보다 먼저 침묵으로 알 수 있다."
-    }
+    "sourceOrder": 151
   },
   {
     "id": "handmade_153",
@@ -7788,11 +7180,7 @@
     "type": "noun",
     "difficulty": 22,
     "verbInfo": null,
-    "sourceOrder": 152,
-    "smartReviewPrompt": {
-      "japaneseSentence": "疲れている夜ほど、簡単な ____ がいちばんうれしい。",
-      "translationSentence": "지친 밤일수록 간단한 요리가 가장 반갑다."
-    }
+    "sourceOrder": 152
   },
   {
     "id": "handmade_154",
@@ -7803,11 +7191,7 @@
     "type": "noun",
     "difficulty": 20,
     "verbInfo": null,
-    "sourceOrder": 153,
-    "smartReviewPrompt": {
-      "japaneseSentence": "わからないまま進むより、一度 ____ を開くほうがいい。",
-      "translationSentence": "모른 채로 나아가기보다 한 번 사전을 펴는 편이 낫다."
-    }
+    "sourceOrder": 153
   },
   {
     "id": "AbsoluteVerb_1",
@@ -10208,17 +9592,6 @@
     "sourceOrder": 217
   },
   {
-    "id": "AbsoluteVerb_219",
-    "setId": "AbsoluteVerb",
-    "japanese": "する",
-    "reading": "する",
-    "meaning": "갈다",
-    "type": "verb",
-    "difficulty": 24,
-    "verbInfo": "1타",
-    "sourceOrder": 218
-  },
-  {
     "id": "AbsoluteVerb_220",
     "setId": "AbsoluteVerb",
     "japanese": "潰す",
@@ -10227,7 +9600,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 219
+    "sourceOrder": 218
   },
   {
     "id": "AbsoluteVerb_221",
@@ -10238,7 +9611,7 @@
     "type": "verb",
     "difficulty": 29,
     "verbInfo": "2타",
-    "sourceOrder": 220
+    "sourceOrder": 219
   },
   {
     "id": "AbsoluteVerb_222",
@@ -10249,7 +9622,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1타",
-    "sourceOrder": 221
+    "sourceOrder": 220
   },
   {
     "id": "AbsoluteVerb_223",
@@ -10260,7 +9633,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2타",
-    "sourceOrder": 222
+    "sourceOrder": 221
   },
   {
     "id": "AbsoluteVerb_224",
@@ -10271,7 +9644,7 @@
     "type": "verb",
     "difficulty": 15,
     "verbInfo": "2타",
-    "sourceOrder": 223
+    "sourceOrder": 222
   },
   {
     "id": "AbsoluteVerb_225",
@@ -10282,7 +9655,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 224
+    "sourceOrder": 223
   },
   {
     "id": "AbsoluteVerb_226",
@@ -10293,7 +9666,7 @@
     "type": "verb",
     "difficulty": 25,
     "verbInfo": "1타",
-    "sourceOrder": 225
+    "sourceOrder": 224
   },
   {
     "id": "AbsoluteVerb_227",
@@ -10304,7 +9677,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 226
+    "sourceOrder": 225
   },
   {
     "id": "AbsoluteVerb_228",
@@ -10315,7 +9688,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 227
+    "sourceOrder": 226
   },
   {
     "id": "AbsoluteVerb_229",
@@ -10326,7 +9699,7 @@
     "type": "verb",
     "difficulty": 15,
     "verbInfo": "2타",
-    "sourceOrder": 228
+    "sourceOrder": 227
   },
   {
     "id": "AbsoluteVerb_230",
@@ -10337,7 +9710,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 229
+    "sourceOrder": 228
   },
   {
     "id": "AbsoluteVerb_231",
@@ -10348,7 +9721,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1타",
-    "sourceOrder": 230
+    "sourceOrder": 229
   },
   {
     "id": "AbsoluteVerb_232",
@@ -10359,7 +9732,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "2타",
-    "sourceOrder": 231
+    "sourceOrder": 230
   },
   {
     "id": "AbsoluteVerb_233",
@@ -10370,7 +9743,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 232
+    "sourceOrder": 231
   },
   {
     "id": "AbsoluteVerb_234",
@@ -10381,7 +9754,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2타",
-    "sourceOrder": 233
+    "sourceOrder": 232
   },
   {
     "id": "AbsoluteVerb_235",
@@ -10392,7 +9765,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "2자",
-    "sourceOrder": 234
+    "sourceOrder": 233
   },
   {
     "id": "AbsoluteVerb_236",
@@ -10403,7 +9776,7 @@
     "type": "verb",
     "difficulty": 15,
     "verbInfo": "2타",
-    "sourceOrder": 235
+    "sourceOrder": 234
   },
   {
     "id": "AbsoluteVerb_237",
@@ -10414,7 +9787,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 236
+    "sourceOrder": 235
   },
   {
     "id": "AbsoluteVerb_238",
@@ -10425,7 +9798,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 237
+    "sourceOrder": 236
   },
   {
     "id": "AbsoluteVerb_239",
@@ -10436,7 +9809,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 238
+    "sourceOrder": 237
   },
   {
     "id": "AbsoluteVerb_240",
@@ -10447,7 +9820,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 239
+    "sourceOrder": 238
   },
   {
     "id": "AbsoluteVerb_241",
@@ -10458,7 +9831,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "1타",
-    "sourceOrder": 240
+    "sourceOrder": 239
   },
   {
     "id": "AbsoluteVerb_242",
@@ -10469,7 +9842,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 241
+    "sourceOrder": 240
   },
   {
     "id": "AbsoluteVerb_243",
@@ -10480,7 +9853,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 242
+    "sourceOrder": 241
   },
   {
     "id": "AbsoluteVerb_244",
@@ -10491,7 +9864,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 243
+    "sourceOrder": 242
   },
   {
     "id": "AbsoluteVerb_245",
@@ -10502,7 +9875,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 244
+    "sourceOrder": 243
   },
   {
     "id": "AbsoluteVerb_246",
@@ -10513,7 +9886,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 245
+    "sourceOrder": 244
   },
   {
     "id": "AbsoluteVerb_247",
@@ -10524,7 +9897,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 246
+    "sourceOrder": 245
   },
   {
     "id": "AbsoluteVerb_248",
@@ -10535,7 +9908,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1자",
-    "sourceOrder": 247
+    "sourceOrder": 246
   },
   {
     "id": "AbsoluteVerb_249",
@@ -10546,7 +9919,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "2타",
-    "sourceOrder": 248
+    "sourceOrder": 247
   },
   {
     "id": "AbsoluteVerb_250",
@@ -10557,7 +9930,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2자",
-    "sourceOrder": 249
+    "sourceOrder": 248
   },
   {
     "id": "AbsoluteVerb_251",
@@ -10568,7 +9941,7 @@
     "type": "verb",
     "difficulty": 33,
     "verbInfo": "1타",
-    "sourceOrder": 250
+    "sourceOrder": 249
   },
   {
     "id": "AbsoluteVerb_252",
@@ -10579,7 +9952,7 @@
     "type": "verb",
     "difficulty": 36,
     "verbInfo": "1타",
-    "sourceOrder": 251
+    "sourceOrder": 250
   },
   {
     "id": "AbsoluteVerb_253",
@@ -10590,7 +9963,7 @@
     "type": "verb",
     "difficulty": 44,
     "verbInfo": "1타",
-    "sourceOrder": 252
+    "sourceOrder": 251
   },
   {
     "id": "AbsoluteVerb_254",
@@ -10601,7 +9974,7 @@
     "type": "verb",
     "difficulty": 10,
     "verbInfo": "1자",
-    "sourceOrder": 253
+    "sourceOrder": 252
   },
   {
     "id": "AbsoluteVerb_255",
@@ -10612,7 +9985,7 @@
     "type": "verb",
     "difficulty": 10,
     "verbInfo": "3자",
-    "sourceOrder": 254
+    "sourceOrder": 253
   },
   {
     "id": "AbsoluteVerb_256",
@@ -10623,7 +9996,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 255
+    "sourceOrder": 254
   },
   {
     "id": "AbsoluteVerb_257",
@@ -10634,7 +10007,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 256
+    "sourceOrder": 255
   },
   {
     "id": "AbsoluteVerb_258",
@@ -10645,7 +10018,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 257
+    "sourceOrder": 256
   },
   {
     "id": "AbsoluteVerb_259",
@@ -10656,7 +10029,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "2타",
-    "sourceOrder": 258
+    "sourceOrder": 257
   },
   {
     "id": "AbsoluteVerb_260",
@@ -10667,7 +10040,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "2자",
-    "sourceOrder": 259
+    "sourceOrder": 258
   },
   {
     "id": "AbsoluteVerb_261",
@@ -10678,7 +10051,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 260
+    "sourceOrder": 259
   },
   {
     "id": "AbsoluteVerb_262",
@@ -10689,7 +10062,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1자",
-    "sourceOrder": 261
+    "sourceOrder": 260
   },
   {
     "id": "AbsoluteVerb_263",
@@ -10700,7 +10073,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 262
+    "sourceOrder": 261
   },
   {
     "id": "AbsoluteVerb_264",
@@ -10711,7 +10084,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 263
+    "sourceOrder": 262
   },
   {
     "id": "AbsoluteVerb_265",
@@ -10722,7 +10095,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 264
+    "sourceOrder": 263
   },
   {
     "id": "AbsoluteVerb_266",
@@ -10733,7 +10106,7 @@
     "type": "verb",
     "difficulty": 15,
     "verbInfo": "2타",
-    "sourceOrder": 265
+    "sourceOrder": 264
   },
   {
     "id": "AbsoluteVerb_267",
@@ -10744,7 +10117,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 266
+    "sourceOrder": 265
   },
   {
     "id": "AbsoluteVerb_268",
@@ -10755,7 +10128,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1자",
-    "sourceOrder": 267
+    "sourceOrder": 266
   },
   {
     "id": "AbsoluteVerb_269",
@@ -10766,7 +10139,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1자",
-    "sourceOrder": 268
+    "sourceOrder": 267
   },
   {
     "id": "AbsoluteVerb_270",
@@ -10777,7 +10150,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1자",
-    "sourceOrder": 269
+    "sourceOrder": 268
   },
   {
     "id": "AbsoluteVerb_271",
@@ -10788,7 +10161,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 270
+    "sourceOrder": 269
   },
   {
     "id": "AbsoluteVerb_272",
@@ -10799,7 +10172,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 271
+    "sourceOrder": 270
   },
   {
     "id": "AbsoluteVerb_273",
@@ -10810,7 +10183,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 272
+    "sourceOrder": 271
   },
   {
     "id": "AbsoluteVerb_274",
@@ -10821,7 +10194,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 273
+    "sourceOrder": 272
   },
   {
     "id": "AbsoluteVerb_275",
@@ -10832,7 +10205,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 274
+    "sourceOrder": 273
   },
   {
     "id": "AbsoluteVerb_276",
@@ -10843,7 +10216,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 275
+    "sourceOrder": 274
   },
   {
     "id": "AbsoluteVerb_277",
@@ -10854,7 +10227,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1자",
-    "sourceOrder": 276
+    "sourceOrder": 275
   },
   {
     "id": "AbsoluteVerb_278",
@@ -10865,7 +10238,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 277
+    "sourceOrder": 276
   },
   {
     "id": "AbsoluteVerb_279",
@@ -10876,7 +10249,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "2자",
-    "sourceOrder": 278
+    "sourceOrder": 277
   },
   {
     "id": "AbsoluteVerb_280",
@@ -10887,7 +10260,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 279
+    "sourceOrder": 278
   },
   {
     "id": "AbsoluteVerb_281",
@@ -10898,7 +10271,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 280
+    "sourceOrder": 279
   },
   {
     "id": "AbsoluteVerb_282",
@@ -10909,7 +10282,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 281
+    "sourceOrder": 280
   },
   {
     "id": "AbsoluteVerb_283",
@@ -10920,7 +10293,7 @@
     "type": "verb",
     "difficulty": 25,
     "verbInfo": "2자",
-    "sourceOrder": 282
+    "sourceOrder": 281
   },
   {
     "id": "AbsoluteVerb_284",
@@ -10931,7 +10304,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 283
+    "sourceOrder": 282
   },
   {
     "id": "AbsoluteVerb_285",
@@ -10942,7 +10315,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 284
+    "sourceOrder": 283
   },
   {
     "id": "AbsoluteVerb_286",
@@ -10953,7 +10326,7 @@
     "type": "verb",
     "difficulty": 27,
     "verbInfo": "2자",
-    "sourceOrder": 285
+    "sourceOrder": 284
   },
   {
     "id": "AbsoluteVerb_287",
@@ -10964,7 +10337,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 286
+    "sourceOrder": 285
   },
   {
     "id": "AbsoluteVerb_288",
@@ -10975,7 +10348,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 287
+    "sourceOrder": 286
   },
   {
     "id": "AbsoluteVerb_289",
@@ -10986,7 +10359,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2타",
-    "sourceOrder": 288
+    "sourceOrder": 287
   },
   {
     "id": "AbsoluteVerb_290",
@@ -10997,7 +10370,7 @@
     "type": "verb",
     "difficulty": 33,
     "verbInfo": "1타",
-    "sourceOrder": 289
+    "sourceOrder": 288
   },
   {
     "id": "AbsoluteVerb_291",
@@ -11008,7 +10381,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "2자",
-    "sourceOrder": 290
+    "sourceOrder": 289
   },
   {
     "id": "AbsoluteVerb_292",
@@ -11019,7 +10392,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 291
+    "sourceOrder": 290
   },
   {
     "id": "AbsoluteVerb_293",
@@ -11030,7 +10403,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "2자",
-    "sourceOrder": 292
+    "sourceOrder": 291
   },
   {
     "id": "AbsoluteVerb_294",
@@ -11041,7 +10414,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1자",
-    "sourceOrder": 293
+    "sourceOrder": 292
   },
   {
     "id": "AbsoluteVerb_295",
@@ -11052,7 +10425,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 294
+    "sourceOrder": 293
   },
   {
     "id": "AbsoluteVerb_296",
@@ -11063,7 +10436,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 295
+    "sourceOrder": 294
   },
   {
     "id": "AbsoluteVerb_297",
@@ -11074,7 +10447,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 296
+    "sourceOrder": 295
   },
   {
     "id": "AbsoluteVerb_298",
@@ -11085,7 +10458,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 297
+    "sourceOrder": 296
   },
   {
     "id": "AbsoluteVerb_299",
@@ -11096,7 +10469,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 298
+    "sourceOrder": 297
   },
   {
     "id": "AbsoluteVerb_300",
@@ -11107,7 +10480,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1자",
-    "sourceOrder": 299
+    "sourceOrder": 298
   },
   {
     "id": "AbsoluteVerb_301",
@@ -11118,7 +10491,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 300
+    "sourceOrder": 299
   },
   {
     "id": "AbsoluteVerb_302",
@@ -11129,7 +10502,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 301
+    "sourceOrder": 300
   },
   {
     "id": "AbsoluteVerb_303",
@@ -11140,7 +10513,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 302
+    "sourceOrder": 301
   },
   {
     "id": "AbsoluteVerb_304",
@@ -11151,7 +10524,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "2타",
-    "sourceOrder": 303
+    "sourceOrder": 302
   },
   {
     "id": "AbsoluteVerb_305",
@@ -11162,7 +10535,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 304
+    "sourceOrder": 303
   },
   {
     "id": "AbsoluteVerb_306",
@@ -11173,7 +10546,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1타",
-    "sourceOrder": 305
+    "sourceOrder": 304
   },
   {
     "id": "AbsoluteVerb_307",
@@ -11184,7 +10557,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "1타",
-    "sourceOrder": 306
+    "sourceOrder": 305
   },
   {
     "id": "AbsoluteVerb_308",
@@ -11195,7 +10568,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1자",
-    "sourceOrder": 307
+    "sourceOrder": 306
   },
   {
     "id": "AbsoluteVerb_309",
@@ -11206,7 +10579,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 308
+    "sourceOrder": 307
   },
   {
     "id": "AbsoluteVerb_310",
@@ -11217,7 +10590,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "1타",
-    "sourceOrder": 309
+    "sourceOrder": 308
   },
   {
     "id": "AbsoluteVerb_311",
@@ -11228,7 +10601,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "1타",
-    "sourceOrder": 310
+    "sourceOrder": 309
   },
   {
     "id": "AbsoluteVerb_312",
@@ -11239,7 +10612,7 @@
     "type": "verb",
     "difficulty": 29,
     "verbInfo": "1타",
-    "sourceOrder": 311
+    "sourceOrder": 310
   },
   {
     "id": "AbsoluteVerb_313",
@@ -11250,7 +10623,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 312
+    "sourceOrder": 311
   },
   {
     "id": "AbsoluteVerb_314",
@@ -11261,7 +10634,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2타",
-    "sourceOrder": 313
+    "sourceOrder": 312
   },
   {
     "id": "AbsoluteVerb_315",
@@ -11272,7 +10645,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1타",
-    "sourceOrder": 314
+    "sourceOrder": 313
   },
   {
     "id": "AbsoluteVerb_316",
@@ -11283,7 +10656,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "1타",
-    "sourceOrder": 315
+    "sourceOrder": 314
   },
   {
     "id": "AbsoluteVerb_317",
@@ -11294,7 +10667,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 316
+    "sourceOrder": 315
   },
   {
     "id": "AbsoluteVerb_318",
@@ -11305,7 +10678,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 317
+    "sourceOrder": 316
   },
   {
     "id": "AbsoluteVerb_319",
@@ -11316,7 +10689,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 318
+    "sourceOrder": 317
   },
   {
     "id": "AbsoluteVerb_320",
@@ -11327,7 +10700,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 319
+    "sourceOrder": 318
   },
   {
     "id": "AbsoluteVerb_321",
@@ -11338,7 +10711,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 320
+    "sourceOrder": 319
   },
   {
     "id": "AbsoluteVerb_322",
@@ -11349,7 +10722,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 321
+    "sourceOrder": 320
   },
   {
     "id": "AbsoluteVerb_323",
@@ -11360,7 +10733,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 322
+    "sourceOrder": 321
   },
   {
     "id": "AbsoluteVerb_324",
@@ -11371,7 +10744,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 323
+    "sourceOrder": 322
   },
   {
     "id": "AbsoluteVerb_325",
@@ -11382,7 +10755,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 324
+    "sourceOrder": 323
   },
   {
     "id": "AbsoluteVerb_326",
@@ -11393,7 +10766,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "1타",
-    "sourceOrder": 325
+    "sourceOrder": 324
   },
   {
     "id": "AbsoluteVerb_327",
@@ -11404,7 +10777,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 326
+    "sourceOrder": 325
   },
   {
     "id": "AbsoluteVerb_328",
@@ -11415,7 +10788,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "2타",
-    "sourceOrder": 327
+    "sourceOrder": 326
   },
   {
     "id": "AbsoluteVerb_329",
@@ -11426,7 +10799,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "2타",
-    "sourceOrder": 328
+    "sourceOrder": 327
   },
   {
     "id": "AbsoluteVerb_330",
@@ -11437,7 +10810,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 329
+    "sourceOrder": 328
   },
   {
     "id": "AbsoluteVerb_331",
@@ -11448,7 +10821,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1타",
-    "sourceOrder": 330
+    "sourceOrder": 329
   },
   {
     "id": "AbsoluteVerb_332",
@@ -11459,7 +10832,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "2타",
-    "sourceOrder": 331
+    "sourceOrder": 330
   },
   {
     "id": "AbsoluteVerb_333",
@@ -11470,7 +10843,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 332
+    "sourceOrder": 331
   },
   {
     "id": "AbsoluteVerb_334",
@@ -11481,7 +10854,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 333
+    "sourceOrder": 332
   },
   {
     "id": "AbsoluteVerb_335",
@@ -11492,7 +10865,7 @@
     "type": "verb",
     "difficulty": 21,
     "verbInfo": "1타",
-    "sourceOrder": 334
+    "sourceOrder": 333
   },
   {
     "id": "AbsoluteVerb_336",
@@ -11503,7 +10876,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 335
+    "sourceOrder": 334
   },
   {
     "id": "AbsoluteVerb_337",
@@ -11514,7 +10887,7 @@
     "type": "verb",
     "difficulty": 31,
     "verbInfo": "1타",
-    "sourceOrder": 336
+    "sourceOrder": 335
   },
   {
     "id": "AbsoluteVerb_338",
@@ -11525,7 +10898,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 337
+    "sourceOrder": 336
   },
   {
     "id": "AbsoluteVerb_339",
@@ -11536,7 +10909,7 @@
     "type": "verb",
     "difficulty": 27,
     "verbInfo": "1자",
-    "sourceOrder": 338
+    "sourceOrder": 337
   },
   {
     "id": "AbsoluteVerb_340",
@@ -11547,7 +10920,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "1자",
-    "sourceOrder": 339
+    "sourceOrder": 338
   },
   {
     "id": "AbsoluteVerb_341",
@@ -11558,7 +10931,7 @@
     "type": "verb",
     "difficulty": 19,
     "verbInfo": "2타",
-    "sourceOrder": 340
+    "sourceOrder": 339
   },
   {
     "id": "AbsoluteVerb_342",
@@ -11569,7 +10942,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1타",
-    "sourceOrder": 341
+    "sourceOrder": 340
   },
   {
     "id": "AbsoluteVerb_343",
@@ -11580,7 +10953,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 342
+    "sourceOrder": 341
   },
   {
     "id": "AbsoluteVerb_344",
@@ -11591,7 +10964,7 @@
     "type": "verb",
     "difficulty": 29,
     "verbInfo": "2자",
-    "sourceOrder": 343
+    "sourceOrder": 342
   },
   {
     "id": "AbsoluteVerb_345",
@@ -11602,7 +10975,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "1자",
-    "sourceOrder": 344
+    "sourceOrder": 343
   },
   {
     "id": "AbsoluteVerb_346",
@@ -11613,7 +10986,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1자",
-    "sourceOrder": 345
+    "sourceOrder": 344
   },
   {
     "id": "AbsoluteVerb_347",
@@ -11624,7 +10997,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 346
+    "sourceOrder": 345
   },
   {
     "id": "AbsoluteVerb_348",
@@ -11635,7 +11008,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 347
+    "sourceOrder": 346
   },
   {
     "id": "AbsoluteVerb_349",
@@ -11646,7 +11019,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "1자",
-    "sourceOrder": 348
+    "sourceOrder": 347
   },
   {
     "id": "AbsoluteVerb_350",
@@ -11657,7 +11030,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 349
+    "sourceOrder": 348
   },
   {
     "id": "AbsoluteVerb_351",
@@ -11668,7 +11041,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "2자",
-    "sourceOrder": 350
+    "sourceOrder": 349
   },
   {
     "id": "AbsoluteVerb_352",
@@ -11679,7 +11052,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2자",
-    "sourceOrder": 351
+    "sourceOrder": 350
   },
   {
     "id": "AbsoluteVerb_353",
@@ -11690,7 +11063,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 352
+    "sourceOrder": 351
   },
   {
     "id": "AbsoluteVerb_354",
@@ -11701,7 +11074,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 353
+    "sourceOrder": 352
   },
   {
     "id": "AbsoluteVerb_355",
@@ -11712,7 +11085,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 354
+    "sourceOrder": 353
   },
   {
     "id": "AbsoluteVerb_356",
@@ -11723,7 +11096,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1자",
-    "sourceOrder": 355
+    "sourceOrder": 354
   },
   {
     "id": "AbsoluteVerb_357",
@@ -11734,7 +11107,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 356
+    "sourceOrder": 355
   },
   {
     "id": "AbsoluteVerb_358",
@@ -11745,7 +11118,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 357
+    "sourceOrder": 356
   },
   {
     "id": "AbsoluteVerb_359",
@@ -11756,7 +11129,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2자",
-    "sourceOrder": 358
+    "sourceOrder": 357
   },
   {
     "id": "AbsoluteVerb_360",
@@ -11767,7 +11140,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1타",
-    "sourceOrder": 359
+    "sourceOrder": 358
   },
   {
     "id": "AbsoluteVerb_361",
@@ -11778,7 +11151,7 @@
     "type": "verb",
     "difficulty": 36,
     "verbInfo": "1타",
-    "sourceOrder": 360
+    "sourceOrder": 359
   },
   {
     "id": "AbsoluteVerb_362",
@@ -11789,7 +11162,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1타",
-    "sourceOrder": 361
+    "sourceOrder": 360
   },
   {
     "id": "AbsoluteVerb_363",
@@ -11800,7 +11173,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 362
+    "sourceOrder": 361
   },
   {
     "id": "AbsoluteVerb_364",
@@ -11811,7 +11184,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 363
+    "sourceOrder": 362
   },
   {
     "id": "AbsoluteVerb_365",
@@ -11822,7 +11195,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 364
+    "sourceOrder": 363
   },
   {
     "id": "AbsoluteVerb_366",
@@ -11833,7 +11206,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1타",
-    "sourceOrder": 365
+    "sourceOrder": 364
   },
   {
     "id": "AbsoluteVerb_367",
@@ -11844,7 +11217,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 366
+    "sourceOrder": 365
   },
   {
     "id": "AbsoluteVerb_368",
@@ -11855,7 +11228,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 367
+    "sourceOrder": 366
   },
   {
     "id": "AbsoluteVerb_369",
@@ -11866,7 +11239,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1타",
-    "sourceOrder": 368
+    "sourceOrder": 367
   },
   {
     "id": "AbsoluteVerb_370",
@@ -11877,7 +11250,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 369
+    "sourceOrder": 368
   },
   {
     "id": "AbsoluteVerb_371",
@@ -11888,7 +11261,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 370
+    "sourceOrder": 369
   },
   {
     "id": "AbsoluteVerb_372",
@@ -11899,7 +11272,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2자",
-    "sourceOrder": 371
+    "sourceOrder": 370
   },
   {
     "id": "AbsoluteVerb_373",
@@ -11910,7 +11283,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 372
+    "sourceOrder": 371
   },
   {
     "id": "AbsoluteVerb_374",
@@ -11921,7 +11294,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 373
+    "sourceOrder": 372
   },
   {
     "id": "AbsoluteVerb_375",
@@ -11932,7 +11305,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 374
+    "sourceOrder": 373
   },
   {
     "id": "AbsoluteVerb_376",
@@ -11943,7 +11316,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 375
+    "sourceOrder": 374
   },
   {
     "id": "AbsoluteVerb_377",
@@ -11954,7 +11327,7 @@
     "type": "verb",
     "difficulty": 29,
     "verbInfo": "1타",
-    "sourceOrder": 376
+    "sourceOrder": 375
   },
   {
     "id": "AbsoluteVerb_378",
@@ -11965,7 +11338,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 377
+    "sourceOrder": 376
   },
   {
     "id": "AbsoluteVerb_379",
@@ -11976,7 +11349,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 378
+    "sourceOrder": 377
   },
   {
     "id": "AbsoluteVerb_380",
@@ -11987,7 +11360,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2자",
-    "sourceOrder": 379
+    "sourceOrder": 378
   },
   {
     "id": "AbsoluteVerb_381",
@@ -11998,7 +11371,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2자",
-    "sourceOrder": 380
+    "sourceOrder": 379
   },
   {
     "id": "AbsoluteVerb_382",
@@ -12009,7 +11382,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1타",
-    "sourceOrder": 381
+    "sourceOrder": 380
   },
   {
     "id": "AbsoluteVerb_383",
@@ -12020,7 +11393,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 382
+    "sourceOrder": 381
   },
   {
     "id": "AbsoluteVerb_384",
@@ -12031,7 +11404,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1자",
-    "sourceOrder": 383
+    "sourceOrder": 382
   },
   {
     "id": "AbsoluteVerb_385",
@@ -12042,7 +11415,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 384
+    "sourceOrder": 383
   },
   {
     "id": "AbsoluteVerb_386",
@@ -12053,7 +11426,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2타",
-    "sourceOrder": 385
+    "sourceOrder": 384
   },
   {
     "id": "AbsoluteVerb_387",
@@ -12064,7 +11437,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "1타",
-    "sourceOrder": 386
+    "sourceOrder": 385
   },
   {
     "id": "AbsoluteVerb_388",
@@ -12075,7 +11448,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "1자",
-    "sourceOrder": 387
+    "sourceOrder": 386
   },
   {
     "id": "AbsoluteVerb_389",
@@ -12086,7 +11459,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 388
+    "sourceOrder": 387
   },
   {
     "id": "AbsoluteVerb_390",
@@ -12097,7 +11470,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2자",
-    "sourceOrder": 389
+    "sourceOrder": 388
   },
   {
     "id": "AbsoluteVerb_391",
@@ -12108,7 +11481,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 390
+    "sourceOrder": 389
   },
   {
     "id": "AbsoluteVerb_392",
@@ -12119,7 +11492,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2자",
-    "sourceOrder": 391
+    "sourceOrder": 390
   },
   {
     "id": "AbsoluteVerb_393",
@@ -12130,7 +11503,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 392
+    "sourceOrder": 391
   },
   {
     "id": "AbsoluteVerb_394",
@@ -12141,7 +11514,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1타",
-    "sourceOrder": 393
+    "sourceOrder": 392
   },
   {
     "id": "AbsoluteVerb_395",
@@ -12152,7 +11525,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 394
+    "sourceOrder": 393
   },
   {
     "id": "AbsoluteVerb_396",
@@ -12163,7 +11536,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 395
+    "sourceOrder": 394
   },
   {
     "id": "AbsoluteVerb_397",
@@ -12174,7 +11547,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2타",
-    "sourceOrder": 396
+    "sourceOrder": 395
   },
   {
     "id": "AbsoluteVerb_398",
@@ -12185,7 +11558,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "1자",
-    "sourceOrder": 397
+    "sourceOrder": 396
   },
   {
     "id": "AbsoluteVerb_399",
@@ -12196,7 +11569,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2자",
-    "sourceOrder": 398
+    "sourceOrder": 397
   },
   {
     "id": "AbsoluteVerb_400",
@@ -12207,7 +11580,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1자",
-    "sourceOrder": 399
+    "sourceOrder": 398
   },
   {
     "id": "AbsoluteVerb_401",
@@ -12218,7 +11591,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 400
+    "sourceOrder": 399
   },
   {
     "id": "AbsoluteVerb_402",
@@ -12229,7 +11602,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "2타",
-    "sourceOrder": 401
+    "sourceOrder": 400
   },
   {
     "id": "AbsoluteVerb_403",
@@ -12240,7 +11613,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 402
+    "sourceOrder": 401
   },
   {
     "id": "AbsoluteVerb_404",
@@ -12251,7 +11624,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 403
+    "sourceOrder": 402
   },
   {
     "id": "AbsoluteVerb_405",
@@ -12262,7 +11635,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2자",
-    "sourceOrder": 404
+    "sourceOrder": 403
   },
   {
     "id": "AbsoluteVerb_406",
@@ -12273,7 +11646,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 405
+    "sourceOrder": 404
   },
   {
     "id": "AbsoluteVerb_407",
@@ -12284,7 +11657,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "1타",
-    "sourceOrder": 406
+    "sourceOrder": 405
   },
   {
     "id": "AbsoluteVerb_408",
@@ -12295,7 +11668,7 @@
     "type": "verb",
     "difficulty": 12,
     "verbInfo": "1자",
-    "sourceOrder": 407
+    "sourceOrder": 406
   },
   {
     "id": "AbsoluteVerb_409",
@@ -12306,7 +11679,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "1자",
-    "sourceOrder": 408
+    "sourceOrder": 407
   },
   {
     "id": "AbsoluteVerb_410",
@@ -12317,7 +11690,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 409
+    "sourceOrder": 408
   },
   {
     "id": "AbsoluteVerb_411",
@@ -12328,7 +11701,7 @@
     "type": "verb",
     "difficulty": 35,
     "verbInfo": "2자",
-    "sourceOrder": 410
+    "sourceOrder": 409
   },
   {
     "id": "AbsoluteVerb_412",
@@ -12339,7 +11712,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2자",
-    "sourceOrder": 411
+    "sourceOrder": 410
   },
   {
     "id": "AbsoluteVerb_413",
@@ -12350,7 +11723,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 412
+    "sourceOrder": 411
   },
   {
     "id": "AbsoluteVerb_414",
@@ -12361,7 +11734,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 413
+    "sourceOrder": 412
   },
   {
     "id": "AbsoluteVerb_415",
@@ -12372,7 +11745,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 414
+    "sourceOrder": 413
   },
   {
     "id": "AbsoluteVerb_416",
@@ -12383,7 +11756,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1타",
-    "sourceOrder": 415
+    "sourceOrder": 414
   },
   {
     "id": "AbsoluteVerb_417",
@@ -12394,7 +11767,7 @@
     "type": "verb",
     "difficulty": 38,
     "verbInfo": "2타",
-    "sourceOrder": 416
+    "sourceOrder": 415
   },
   {
     "id": "AbsoluteVerb_418",
@@ -12405,7 +11778,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 417
+    "sourceOrder": 416
   },
   {
     "id": "AbsoluteVerb_419",
@@ -12416,7 +11789,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 418
+    "sourceOrder": 417
   },
   {
     "id": "AbsoluteVerb_420",
@@ -12427,7 +11800,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 419
+    "sourceOrder": 418
   },
   {
     "id": "AbsoluteVerb_421",
@@ -12438,7 +11811,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2타",
-    "sourceOrder": 420
+    "sourceOrder": 419
   },
   {
     "id": "AbsoluteVerb_422",
@@ -12449,7 +11822,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "1타",
-    "sourceOrder": 421
+    "sourceOrder": 420
   },
   {
     "id": "AbsoluteVerb_423",
@@ -12460,7 +11833,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 422
+    "sourceOrder": 421
   },
   {
     "id": "AbsoluteVerb_424",
@@ -12471,7 +11844,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 423
+    "sourceOrder": 422
   },
   {
     "id": "AbsoluteVerb_425",
@@ -12482,7 +11855,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "2타",
-    "sourceOrder": 424
+    "sourceOrder": 423
   },
   {
     "id": "AbsoluteVerb_426",
@@ -12493,7 +11866,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 425
+    "sourceOrder": 424
   },
   {
     "id": "AbsoluteVerb_427",
@@ -12504,7 +11877,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 426
+    "sourceOrder": 425
   },
   {
     "id": "AbsoluteVerb_428",
@@ -12515,7 +11888,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "1타",
-    "sourceOrder": 427
+    "sourceOrder": 426
   },
   {
     "id": "AbsoluteVerb_429",
@@ -12526,7 +11899,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 428
+    "sourceOrder": 427
   },
   {
     "id": "AbsoluteVerb_430",
@@ -12537,7 +11910,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1타",
-    "sourceOrder": 429
+    "sourceOrder": 428
   },
   {
     "id": "AbsoluteVerb_431",
@@ -12548,7 +11921,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2타",
-    "sourceOrder": 430
+    "sourceOrder": 429
   },
   {
     "id": "AbsoluteVerb_432",
@@ -12559,7 +11932,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 431
+    "sourceOrder": 430
   },
   {
     "id": "AbsoluteVerb_433",
@@ -12570,7 +11943,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 432
+    "sourceOrder": 431
   },
   {
     "id": "AbsoluteVerb_434",
@@ -12581,7 +11954,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "1타",
-    "sourceOrder": 433
+    "sourceOrder": 432
   },
   {
     "id": "AbsoluteVerb_435",
@@ -12592,7 +11965,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "1자",
-    "sourceOrder": 434
+    "sourceOrder": 433
   },
   {
     "id": "AbsoluteVerb_436",
@@ -12603,7 +11976,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 435
+    "sourceOrder": 434
   },
   {
     "id": "AbsoluteVerb_437",
@@ -12614,7 +11987,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "2타",
-    "sourceOrder": 436
+    "sourceOrder": 435
   },
   {
     "id": "AbsoluteVerb_438",
@@ -12625,7 +11998,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 437
+    "sourceOrder": 436
   },
   {
     "id": "AbsoluteVerb_439",
@@ -12636,7 +12009,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2타",
-    "sourceOrder": 438
+    "sourceOrder": 437
   },
   {
     "id": "AbsoluteVerb_440",
@@ -12647,7 +12020,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 439
+    "sourceOrder": 438
   },
   {
     "id": "AbsoluteVerb_441",
@@ -12658,7 +12031,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2타",
-    "sourceOrder": 440
+    "sourceOrder": 439
   },
   {
     "id": "AbsoluteVerb_442",
@@ -12669,7 +12042,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 441
+    "sourceOrder": 440
   },
   {
     "id": "AbsoluteVerb_443",
@@ -12680,7 +12053,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 442
+    "sourceOrder": 441
   },
   {
     "id": "AbsoluteVerb_444",
@@ -12691,7 +12064,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 443
+    "sourceOrder": 442
   },
   {
     "id": "AbsoluteVerb_445",
@@ -12702,7 +12075,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 444
+    "sourceOrder": 443
   },
   {
     "id": "AbsoluteVerb_446",
@@ -12713,7 +12086,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "1자",
-    "sourceOrder": 445
+    "sourceOrder": 444
   },
   {
     "id": "AbsoluteVerb_447",
@@ -12724,7 +12097,7 @@
     "type": "verb",
     "difficulty": 20,
     "verbInfo": "2타",
-    "sourceOrder": 446
+    "sourceOrder": 445
   },
   {
     "id": "AbsoluteVerb_448",
@@ -12735,7 +12108,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1자",
-    "sourceOrder": 447
+    "sourceOrder": 446
   },
   {
     "id": "AbsoluteVerb_449",
@@ -12746,7 +12119,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "2타",
-    "sourceOrder": 448
+    "sourceOrder": 447
   },
   {
     "id": "AbsoluteVerb_450",
@@ -12757,7 +12130,7 @@
     "type": "verb",
     "difficulty": 14,
     "verbInfo": "1자",
-    "sourceOrder": 449
+    "sourceOrder": 448
   },
   {
     "id": "AbsoluteVerb_451",
@@ -12768,7 +12141,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "2타",
-    "sourceOrder": 450
+    "sourceOrder": 449
   },
   {
     "id": "AbsoluteVerb_452",
@@ -12779,7 +12152,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 451
+    "sourceOrder": 450
   },
   {
     "id": "AbsoluteVerb_453",
@@ -12790,7 +12163,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1자",
-    "sourceOrder": 452
+    "sourceOrder": 451
   },
   {
     "id": "AbsoluteVerb_454",
@@ -12801,7 +12174,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "2타",
-    "sourceOrder": 453
+    "sourceOrder": 452
   },
   {
     "id": "AbsoluteVerb_455",
@@ -12812,7 +12185,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "1자",
-    "sourceOrder": 454
+    "sourceOrder": 453
   },
   {
     "id": "AbsoluteVerb_456",
@@ -12823,7 +12196,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1자",
-    "sourceOrder": 455
+    "sourceOrder": 454
   },
   {
     "id": "AbsoluteVerb_457",
@@ -12834,7 +12207,7 @@
     "type": "verb",
     "difficulty": 28,
     "verbInfo": "2타",
-    "sourceOrder": 456
+    "sourceOrder": 455
   },
   {
     "id": "AbsoluteVerb_458",
@@ -12845,7 +12218,7 @@
     "type": "verb",
     "difficulty": 16,
     "verbInfo": "1타",
-    "sourceOrder": 457
+    "sourceOrder": 456
   },
   {
     "id": "AbsoluteVerb_459",
@@ -12856,7 +12229,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "1타",
-    "sourceOrder": 458
+    "sourceOrder": 457
   },
   {
     "id": "AbsoluteVerb_460",
@@ -12867,7 +12240,7 @@
     "type": "verb",
     "difficulty": 26,
     "verbInfo": "1자",
-    "sourceOrder": 459
+    "sourceOrder": 458
   },
   {
     "id": "AbsoluteVerb_461",
@@ -12878,7 +12251,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 460
+    "sourceOrder": 459
   },
   {
     "id": "AbsoluteVerb_462",
@@ -12889,7 +12262,7 @@
     "type": "verb",
     "difficulty": 30,
     "verbInfo": "1타",
-    "sourceOrder": 461
+    "sourceOrder": 460
   },
   {
     "id": "AbsoluteVerb_463",
@@ -12900,7 +12273,7 @@
     "type": "verb",
     "difficulty": 29,
     "verbInfo": "1자",
-    "sourceOrder": 462
+    "sourceOrder": 461
   },
   {
     "id": "AbsoluteVerb_464",
@@ -12911,7 +12284,7 @@
     "type": "verb",
     "difficulty": 32,
     "verbInfo": "2타",
-    "sourceOrder": 463
+    "sourceOrder": 462
   },
   {
     "id": "AbsoluteVerb_465",
@@ -12922,7 +12295,7 @@
     "type": "verb",
     "difficulty": 34,
     "verbInfo": "2타",
-    "sourceOrder": 464
+    "sourceOrder": 463
   },
   {
     "id": "AbsoluteVerb_466",
@@ -12933,7 +12306,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 465
+    "sourceOrder": 464
   },
   {
     "id": "AbsoluteVerb_467",
@@ -12944,7 +12317,7 @@
     "type": "verb",
     "difficulty": 31,
     "verbInfo": "1타",
-    "sourceOrder": 466
+    "sourceOrder": 465
   },
   {
     "id": "AbsoluteVerb_468",
@@ -12955,7 +12328,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "2타",
-    "sourceOrder": 467
+    "sourceOrder": 466
   },
   {
     "id": "AbsoluteVerb_469",
@@ -12966,7 +12339,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 468
+    "sourceOrder": 467
   },
   {
     "id": "AbsoluteVerb_470",
@@ -12977,7 +12350,7 @@
     "type": "verb",
     "difficulty": 18,
     "verbInfo": "1타",
-    "sourceOrder": 469
+    "sourceOrder": 468
   },
   {
     "id": "AbsoluteVerb_471",
@@ -12988,7 +12361,7 @@
     "type": "verb",
     "difficulty": 22,
     "verbInfo": "2타",
-    "sourceOrder": 470
+    "sourceOrder": 469
   },
   {
     "id": "AbsoluteVerb_472",
@@ -12999,7 +12372,7 @@
     "type": "verb",
     "difficulty": 24,
     "verbInfo": "1타",
-    "sourceOrder": 471
+    "sourceOrder": 470
   },
   {
     "id": "AbsoluteVerb_473",
@@ -13010,6 +12383,4384 @@
     "type": "verb",
     "difficulty": 36,
     "verbInfo": "1타",
+    "sourceOrder": 471
+  },
+  {
+    "id": "AbsoluteVerb_474",
+    "setId": "AbsoluteVerb",
+    "japanese": "合う",
+    "reading": "あう",
+    "meaning": "(계산 등이) 맞다, 어울리다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
     "sourceOrder": 472
+  },
+  {
+    "id": "AbsoluteVerb_475",
+    "setId": "AbsoluteVerb",
+    "japanese": "合わせる",
+    "reading": "あわせる",
+    "meaning": "합치다, 맞추다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2타",
+    "sourceOrder": 473
+  },
+  {
+    "id": "AbsoluteVerb_476",
+    "setId": "AbsoluteVerb",
+    "japanese": "間違う",
+    "reading": "まちがう",
+    "meaning": "틀리다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 474
+  },
+  {
+    "id": "AbsoluteVerb_477",
+    "setId": "AbsoluteVerb",
+    "japanese": "間違える",
+    "reading": "まちがえる",
+    "meaning": "착각하다, 실수하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2타",
+    "sourceOrder": 475
+  },
+  {
+    "id": "AbsoluteVerb_478",
+    "setId": "AbsoluteVerb",
+    "japanese": "誤る",
+    "reading": "あやまる",
+    "meaning": "판단을 그르치다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 476
+  },
+  {
+    "id": "AbsoluteVerb_479",
+    "setId": "AbsoluteVerb",
+    "japanese": "運ぶ",
+    "reading": "はこぶ",
+    "meaning": "운반하다",
+    "type": "verb",
+    "difficulty": 25,
+    "verbInfo": "1타",
+    "sourceOrder": 477
+  },
+  {
+    "id": "AbsoluteVerb_480",
+    "setId": "AbsoluteVerb",
+    "japanese": "引っ越す",
+    "reading": "ひっこす",
+    "meaning": "이사하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 478
+  },
+  {
+    "id": "AbsoluteVerb_481",
+    "setId": "AbsoluteVerb",
+    "japanese": "移る",
+    "reading": "うつる",
+    "meaning": "이동하다",
+    "type": "verb",
+    "difficulty": 27,
+    "verbInfo": "1자",
+    "sourceOrder": 479
+  },
+  {
+    "id": "AbsoluteVerb_482",
+    "setId": "AbsoluteVerb",
+    "japanese": "移す",
+    "reading": "うつす",
+    "meaning": "옮기다, 전염시키다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 480
+  },
+  {
+    "id": "AbsoluteVerb_483",
+    "setId": "AbsoluteVerb",
+    "japanese": "届ける",
+    "reading": "とどける",
+    "meaning": "전하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2타",
+    "sourceOrder": 481
+  },
+  {
+    "id": "AbsoluteVerb_484",
+    "setId": "AbsoluteVerb",
+    "japanese": "送る",
+    "reading": "おくる",
+    "meaning": "보내다, 배웅하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 482
+  },
+  {
+    "id": "AbsoluteVerb_485",
+    "setId": "AbsoluteVerb",
+    "japanese": "加わる",
+    "reading": "くわわる",
+    "meaning": "더해지다, 참여하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 483
+  },
+  {
+    "id": "AbsoluteVerb_486",
+    "setId": "AbsoluteVerb",
+    "japanese": "加える",
+    "reading": "くわえる",
+    "meaning": "더하다, 가입시키다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2타",
+    "sourceOrder": 484
+  },
+  {
+    "id": "AbsoluteVerb_487",
+    "setId": "AbsoluteVerb",
+    "japanese": "添える",
+    "reading": "そえる",
+    "meaning": "곁들이다, 덧붙이다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "2타",
+    "sourceOrder": 485
+  },
+  {
+    "id": "AbsoluteVerb_488",
+    "setId": "AbsoluteVerb",
+    "japanese": "添う",
+    "reading": "そう",
+    "meaning": "부응하다, 부합하다",
+    "type": "verb",
+    "difficulty": 36,
+    "verbInfo": "1자",
+    "sourceOrder": 486
+  },
+  {
+    "id": "AbsoluteVerb_489",
+    "setId": "AbsoluteVerb",
+    "japanese": "重なる",
+    "reading": "かさなる",
+    "meaning": "겹치다, 포개어지다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 487
+  },
+  {
+    "id": "AbsoluteVerb_490",
+    "setId": "AbsoluteVerb",
+    "japanese": "重ねる",
+    "reading": "かさねる",
+    "meaning": "포개다, 거듭하다",
+    "type": "verb",
+    "difficulty": 33,
+    "verbInfo": "2타",
+    "sourceOrder": 488
+  },
+  {
+    "id": "AbsoluteVerb_491",
+    "setId": "AbsoluteVerb",
+    "japanese": "兼ねる",
+    "reading": "かねる",
+    "meaning": "겸하다",
+    "type": "verb",
+    "difficulty": 38,
+    "verbInfo": "2타",
+    "sourceOrder": 489
+  },
+  {
+    "id": "AbsoluteVerb_492",
+    "setId": "AbsoluteVerb",
+    "japanese": "増える",
+    "reading": "ふえる",
+    "meaning": "늘다, 증가하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2자",
+    "sourceOrder": 490
+  },
+  {
+    "id": "AbsoluteVerb_493",
+    "setId": "AbsoluteVerb",
+    "japanese": "増やす",
+    "reading": "ふやす",
+    "meaning": "늘리다, 증가시키다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1타",
+    "sourceOrder": 491
+  },
+  {
+    "id": "AbsoluteVerb_494",
+    "setId": "AbsoluteVerb",
+    "japanese": "減る",
+    "reading": "へる",
+    "meaning": "(양이) 줄다, (배가) 고파지다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 492
+  },
+  {
+    "id": "AbsoluteVerb_495",
+    "setId": "AbsoluteVerb",
+    "japanese": "減らす",
+    "reading": "へらす",
+    "meaning": "(양을) 줄이다, 덜다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1타",
+    "sourceOrder": 493
+  },
+  {
+    "id": "AbsoluteVerb_496",
+    "setId": "AbsoluteVerb",
+    "japanese": "削る",
+    "reading": "けずる",
+    "meaning": "깎다, 줄이다, 삭제하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 494
+  },
+  {
+    "id": "AbsoluteVerb_497",
+    "setId": "AbsoluteVerb",
+    "japanese": "伸びる",
+    "reading": "のびる",
+    "meaning": "자라다, 늘다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2자",
+    "sourceOrder": 495
+  },
+  {
+    "id": "AbsoluteVerb_498",
+    "setId": "AbsoluteVerb",
+    "japanese": "伸ばす",
+    "reading": "のばす",
+    "meaning": "늘이다, 발전시키다, 길게 기르다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "1타",
+    "sourceOrder": 496
+  },
+  {
+    "id": "AbsoluteVerb_499",
+    "setId": "AbsoluteVerb",
+    "japanese": "縮む",
+    "reading": "ちぢむ",
+    "meaning": "(길이가) 줄다, 줄어들다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 497
+  },
+  {
+    "id": "AbsoluteVerb_500",
+    "setId": "AbsoluteVerb",
+    "japanese": "縮める",
+    "reading": "ちぢめる",
+    "meaning": "(길이를) 줄이다, 단축시키다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "2타",
+    "sourceOrder": 498
+  },
+  {
+    "id": "AbsoluteVerb_501",
+    "setId": "AbsoluteVerb",
+    "japanese": "膨らむ",
+    "reading": "ふくらむ",
+    "meaning": "부풀다, 규모가 커지다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 499
+  },
+  {
+    "id": "AbsoluteVerb_502",
+    "setId": "AbsoluteVerb",
+    "japanese": "溜まる",
+    "reading": "たまる",
+    "meaning": "(한 곳에 모여) 쌓이다, 괴다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 500
+  },
+  {
+    "id": "AbsoluteVerb_503",
+    "setId": "AbsoluteVerb",
+    "japanese": "積もる",
+    "reading": "つもる",
+    "meaning": "(포개지듯) 쌓이다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 501
+  },
+  {
+    "id": "AbsoluteVerb_504",
+    "setId": "AbsoluteVerb",
+    "japanese": "壊れる",
+    "reading": "こわれる",
+    "meaning": "깨지다, 고장나다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "2자",
+    "sourceOrder": 502
+  },
+  {
+    "id": "AbsoluteVerb_505",
+    "setId": "AbsoluteVerb",
+    "japanese": "壊す",
+    "reading": "こわす",
+    "meaning": "부수다, 고장내다, 망치다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 503
+  },
+  {
+    "id": "AbsoluteVerb_506",
+    "setId": "AbsoluteVerb",
+    "japanese": "直る",
+    "reading": "なおる",
+    "meaning": "고쳐지다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 504
+  },
+  {
+    "id": "AbsoluteVerb_507",
+    "setId": "AbsoluteVerb",
+    "japanese": "直す",
+    "reading": "なおす",
+    "meaning": "고치다, 수리하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 505
+  },
+  {
+    "id": "AbsoluteVerb_508",
+    "setId": "AbsoluteVerb",
+    "japanese": "崩れる",
+    "reading": "くずれる",
+    "meaning": "허물어지다, 잔돈으로 바꿀 수 있다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2자",
+    "sourceOrder": 506
+  },
+  {
+    "id": "AbsoluteVerb_509",
+    "setId": "AbsoluteVerb",
+    "japanese": "崩す",
+    "reading": "くずす",
+    "meaning": "허물어뜨리다, 잔돈으로 바꾸다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 507
+  },
+  {
+    "id": "AbsoluteVerb_510",
+    "setId": "AbsoluteVerb",
+    "japanese": "割れる",
+    "reading": "われる",
+    "meaning": "깨지다, 갈라지다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "2자",
+    "sourceOrder": 508
+  },
+  {
+    "id": "AbsoluteVerb_511",
+    "setId": "AbsoluteVerb",
+    "japanese": "割る",
+    "reading": "わる",
+    "meaning": "깨다, 쪼개다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 509
+  },
+  {
+    "id": "AbsoluteVerb_512",
+    "setId": "AbsoluteVerb",
+    "japanese": "破れる",
+    "reading": "やぶれる",
+    "meaning": "찢어지다",
+    "type": "verb",
+    "difficulty": 29,
+    "verbInfo": "2자",
+    "sourceOrder": 510
+  },
+  {
+    "id": "AbsoluteVerb_513",
+    "setId": "AbsoluteVerb",
+    "japanese": "破る",
+    "reading": "やぶる",
+    "meaning": "찢다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 511
+  },
+  {
+    "id": "AbsoluteVerb_514",
+    "setId": "AbsoluteVerb",
+    "japanese": "消える",
+    "reading": "きえる",
+    "meaning": "없어지다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2자",
+    "sourceOrder": 512
+  },
+  {
+    "id": "AbsoluteVerb_515",
+    "setId": "AbsoluteVerb",
+    "japanese": "変わる",
+    "reading": "かわる",
+    "meaning": "변하다, 별나다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 513
+  },
+  {
+    "id": "AbsoluteVerb_516",
+    "setId": "AbsoluteVerb",
+    "japanese": "変える",
+    "reading": "かえる",
+    "meaning": "바꾸다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2타",
+    "sourceOrder": 514
+  },
+  {
+    "id": "AbsoluteVerb_517",
+    "setId": "AbsoluteVerb",
+    "japanese": "染まる",
+    "reading": "そまる",
+    "meaning": "물들다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 515
+  },
+  {
+    "id": "AbsoluteVerb_518",
+    "setId": "AbsoluteVerb",
+    "japanese": "染める",
+    "reading": "そめる",
+    "meaning": "물들이다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 516
+  },
+  {
+    "id": "AbsoluteVerb_519",
+    "setId": "AbsoluteVerb",
+    "japanese": "冷える",
+    "reading": "ひえる",
+    "meaning": "차가워지다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "2자",
+    "sourceOrder": 517
+  },
+  {
+    "id": "AbsoluteVerb_520",
+    "setId": "AbsoluteVerb",
+    "japanese": "掘る",
+    "reading": "ほる",
+    "meaning": "(땅을) 파다, 캐다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 518
+  },
+  {
+    "id": "AbsoluteVerb_521",
+    "setId": "AbsoluteVerb",
+    "japanese": "空ける",
+    "reading": "あける",
+    "meaning": "(구멍을) 내다, 비우다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2타",
+    "sourceOrder": 519
+  },
+  {
+    "id": "AbsoluteVerb_522",
+    "setId": "AbsoluteVerb",
+    "japanese": "埋める",
+    "reading": "うめる",
+    "meaning": "묻다, 메우다",
+    "type": "verb",
+    "difficulty": 31,
+    "verbInfo": "2타",
+    "sourceOrder": 520
+  },
+  {
+    "id": "AbsoluteVerb_523",
+    "setId": "AbsoluteVerb",
+    "japanese": "詰まる",
+    "reading": "つまる",
+    "meaning": "꽉 차다, (차서) 막히다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 521
+  },
+  {
+    "id": "AbsoluteVerb_524",
+    "setId": "AbsoluteVerb",
+    "japanese": "詰める",
+    "reading": "つめる",
+    "meaning": "채우다, (사이를) 좁히다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 522
+  },
+  {
+    "id": "AbsoluteVerb_525",
+    "setId": "AbsoluteVerb",
+    "japanese": "塞ぐ",
+    "reading": "ふさぐ",
+    "meaning": "(구멍 등을) 막다, 가로막다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 523
+  },
+  {
+    "id": "AbsoluteVerb_526",
+    "setId": "AbsoluteVerb",
+    "japanese": "塞ぐ",
+    "reading": "ふさぐ",
+    "meaning": "우울해지다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 524
+  },
+  {
+    "id": "AbsoluteVerb_527",
+    "setId": "AbsoluteVerb",
+    "japanese": "なる",
+    "reading": "なる",
+    "meaning": "다른 것/상태로 되다",
+    "type": "verb",
+    "difficulty": 10,
+    "verbInfo": "1자",
+    "sourceOrder": 525
+  },
+  {
+    "id": "AbsoluteVerb_528",
+    "setId": "AbsoluteVerb",
+    "japanese": "切れる",
+    "reading": "きれる",
+    "meaning": "끊어지다, 베이다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2자",
+    "sourceOrder": 526
+  },
+  {
+    "id": "AbsoluteVerb_529",
+    "setId": "AbsoluteVerb",
+    "japanese": "曲がる",
+    "reading": "まがる",
+    "meaning": "구부러지다, 돌다, 비뚤어지다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 527
+  },
+  {
+    "id": "AbsoluteVerb_530",
+    "setId": "AbsoluteVerb",
+    "japanese": "曲げる",
+    "reading": "まげる",
+    "meaning": "구부리다, 왜곡하다, (뜻을) 굽히다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 528
+  },
+  {
+    "id": "AbsoluteVerb_531",
+    "setId": "AbsoluteVerb",
+    "japanese": "折れる",
+    "reading": "おれる",
+    "meaning": "접히다, 부러뜨리다, 타협하다",
+    "type": "verb",
+    "difficulty": 25,
+    "verbInfo": "2자",
+    "sourceOrder": 529
+  },
+  {
+    "id": "AbsoluteVerb_532",
+    "setId": "AbsoluteVerb",
+    "japanese": "折る",
+    "reading": "おる",
+    "meaning": "접다, 부러뜨리다",
+    "type": "verb",
+    "difficulty": 25,
+    "verbInfo": "1타",
+    "sourceOrder": 530
+  },
+  {
+    "id": "AbsoluteVerb_533",
+    "setId": "AbsoluteVerb",
+    "japanese": "汚れる",
+    "reading": "よごれる",
+    "meaning": "더러워지다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "2자",
+    "sourceOrder": 531
+  },
+  {
+    "id": "AbsoluteVerb_534",
+    "setId": "AbsoluteVerb",
+    "japanese": "汚す",
+    "reading": "よごす",
+    "meaning": "더럽히다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "1타",
+    "sourceOrder": 532
+  },
+  {
+    "id": "AbsoluteVerb_535",
+    "setId": "AbsoluteVerb",
+    "japanese": "太る",
+    "reading": "ふとる",
+    "meaning": "살찌다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 533
+  },
+  {
+    "id": "AbsoluteVerb_536",
+    "setId": "AbsoluteVerb",
+    "japanese": "痩せる",
+    "reading": "やせる",
+    "meaning": "여위다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "2자",
+    "sourceOrder": 534
+  },
+  {
+    "id": "AbsoluteVerb_537",
+    "setId": "AbsoluteVerb",
+    "japanese": "治まる",
+    "reading": "おさまる",
+    "meaning": "다스려지다, 진정되다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 535
+  },
+  {
+    "id": "AbsoluteVerb_538",
+    "setId": "AbsoluteVerb",
+    "japanese": "治める",
+    "reading": "おさめる",
+    "meaning": "다스리다",
+    "type": "verb",
+    "difficulty": 36,
+    "verbInfo": "2타",
+    "sourceOrder": 536
+  },
+  {
+    "id": "AbsoluteVerb_539",
+    "setId": "AbsoluteVerb",
+    "japanese": "切羽詰まる",
+    "reading": "せっぱつまる",
+    "meaning": "궁지에 몰리다",
+    "type": "verb",
+    "difficulty": 42,
+    "verbInfo": "1자",
+    "sourceOrder": 537
+  },
+  {
+    "id": "AbsoluteVerb_540",
+    "setId": "AbsoluteVerb",
+    "japanese": "空く",
+    "reading": "あく",
+    "meaning": "(속이) 비다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 538
+  },
+  {
+    "id": "AbsoluteVerb_541",
+    "setId": "AbsoluteVerb",
+    "japanese": "覆う",
+    "reading": "おおう",
+    "meaning": "덮다, 가리다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 539
+  },
+  {
+    "id": "AbsoluteVerb_542",
+    "setId": "AbsoluteVerb",
+    "japanese": "偏る",
+    "reading": "かたよる",
+    "meaning": "(생각 등이) 한쪽으로 치우치다",
+    "type": "verb",
+    "difficulty": 36,
+    "verbInfo": "1자",
+    "sourceOrder": 540
+  },
+  {
+    "id": "AbsoluteVerb_543",
+    "setId": "AbsoluteVerb",
+    "japanese": "揺れる",
+    "reading": "ゆれる",
+    "meaning": "흔들리다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 541
+  },
+  {
+    "id": "AbsoluteVerb_544",
+    "setId": "AbsoluteVerb",
+    "japanese": "要る",
+    "reading": "いる",
+    "meaning": "필요하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 542
+  },
+  {
+    "id": "AbsoluteVerb_545",
+    "setId": "AbsoluteVerb",
+    "japanese": "足りる",
+    "reading": "たりる",
+    "meaning": "충분하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2자",
+    "sourceOrder": 543
+  },
+  {
+    "id": "AbsoluteVerb_546",
+    "setId": "AbsoluteVerb",
+    "japanese": "補う",
+    "reading": "おぎなう",
+    "meaning": "보충하다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 544
+  },
+  {
+    "id": "AbsoluteVerb_547",
+    "setId": "AbsoluteVerb",
+    "japanese": "占める",
+    "reading": "しめる",
+    "meaning": "차지하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2타",
+    "sourceOrder": 545
+  },
+  {
+    "id": "AbsoluteVerb_548",
+    "setId": "AbsoluteVerb",
+    "japanese": "立てる",
+    "reading": "たてる",
+    "meaning": "세우다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2타",
+    "sourceOrder": 546
+  },
+  {
+    "id": "AbsoluteVerb_549",
+    "setId": "AbsoluteVerb",
+    "japanese": "超える",
+    "reading": "こえる",
+    "meaning": "초과하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 547
+  },
+  {
+    "id": "AbsoluteVerb_550",
+    "setId": "AbsoluteVerb",
+    "japanese": "越える",
+    "reading": "こえる",
+    "meaning": "(높은 곳을) 넘다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 548
+  },
+  {
+    "id": "AbsoluteVerb_551",
+    "setId": "AbsoluteVerb",
+    "japanese": "広がる",
+    "reading": "ひろがる",
+    "meaning": "퍼지다, 펼쳐지다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 549
+  },
+  {
+    "id": "AbsoluteVerb_552",
+    "setId": "AbsoluteVerb",
+    "japanese": "広げる",
+    "reading": "ひろげる",
+    "meaning": "넓히다, 펼치다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2타",
+    "sourceOrder": 550
+  },
+  {
+    "id": "AbsoluteVerb_553",
+    "setId": "AbsoluteVerb",
+    "japanese": "こぼれる",
+    "reading": "こぼれる",
+    "meaning": "흘러넘치다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 551
+  },
+  {
+    "id": "AbsoluteVerb_554",
+    "setId": "AbsoluteVerb",
+    "japanese": "こぼす",
+    "reading": "こぼす",
+    "meaning": "흘리다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 552
+  },
+  {
+    "id": "AbsoluteVerb_555",
+    "setId": "AbsoluteVerb",
+    "japanese": "含む",
+    "reading": "ふくむ",
+    "meaning": "머금다, 포함하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 553
+  },
+  {
+    "id": "AbsoluteVerb_556",
+    "setId": "AbsoluteVerb",
+    "japanese": "含める",
+    "reading": "ふくめる",
+    "meaning": "포함시키다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2타",
+    "sourceOrder": 554
+  },
+  {
+    "id": "AbsoluteVerb_557",
+    "setId": "AbsoluteVerb",
+    "japanese": "残る",
+    "reading": "のこる",
+    "meaning": "남다, 남아돈다",
+    "type": "verb",
+    "difficulty": 25,
+    "verbInfo": "1자",
+    "sourceOrder": 555
+  },
+  {
+    "id": "AbsoluteVerb_558",
+    "setId": "AbsoluteVerb",
+    "japanese": "残す",
+    "reading": "のこす",
+    "meaning": "남기다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1타",
+    "sourceOrder": 556
+  },
+  {
+    "id": "AbsoluteVerb_559",
+    "setId": "AbsoluteVerb",
+    "japanese": "余る",
+    "reading": "あまる",
+    "meaning": "(사용하고) 남다",
+    "type": "verb",
+    "difficulty": 31,
+    "verbInfo": "1자",
+    "sourceOrder": 557
+  },
+  {
+    "id": "AbsoluteVerb_560",
+    "setId": "AbsoluteVerb",
+    "japanese": "収まる",
+    "reading": "おさまる",
+    "meaning": "(범위에) 들어가다, 수습되다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 558
+  },
+  {
+    "id": "AbsoluteVerb_561",
+    "setId": "AbsoluteVerb",
+    "japanese": "収める",
+    "reading": "おさめる",
+    "meaning": "(안에) 넣다, 거두다",
+    "type": "verb",
+    "difficulty": 38,
+    "verbInfo": "2타",
+    "sourceOrder": 559
+  },
+  {
+    "id": "AbsoluteVerb_562",
+    "setId": "AbsoluteVerb",
+    "japanese": "迫る",
+    "reading": "せまる",
+    "meaning": "(압박적으로) 다가오다, 가까워지다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 560
+  },
+  {
+    "id": "AbsoluteVerb_563",
+    "setId": "AbsoluteVerb",
+    "japanese": "迫る",
+    "reading": "せまる",
+    "meaning": "강요하다, 다그치다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 561
+  },
+  {
+    "id": "AbsoluteVerb_564",
+    "setId": "AbsoluteVerb",
+    "japanese": "近付く",
+    "reading": "ちかづく",
+    "meaning": "다가가다, 다가오다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 562
+  },
+  {
+    "id": "AbsoluteVerb_565",
+    "setId": "AbsoluteVerb",
+    "japanese": "過ぎる",
+    "reading": "すぎる",
+    "meaning": "통과하다, 지나다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 563
+  },
+  {
+    "id": "AbsoluteVerb_566",
+    "setId": "AbsoluteVerb",
+    "japanese": "過ごす",
+    "reading": "すごす",
+    "meaning": "(날을) 보내다, 살아가다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1타",
+    "sourceOrder": 564
+  },
+  {
+    "id": "AbsoluteVerb_567",
+    "setId": "AbsoluteVerb",
+    "japanese": "延びる",
+    "reading": "のびる",
+    "meaning": "연기되다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 565
+  },
+  {
+    "id": "AbsoluteVerb_568",
+    "setId": "AbsoluteVerb",
+    "japanese": "延ばす",
+    "reading": "のばす",
+    "meaning": "연기하다",
+    "type": "verb",
+    "difficulty": 33,
+    "verbInfo": "1타",
+    "sourceOrder": 566
+  },
+  {
+    "id": "AbsoluteVerb_569",
+    "setId": "AbsoluteVerb",
+    "japanese": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "서두르다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 567
+  },
+  {
+    "id": "AbsoluteVerb_570",
+    "setId": "AbsoluteVerb",
+    "japanese": "似る",
+    "reading": "にる",
+    "meaning": "닮다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "2자",
+    "sourceOrder": 568
+  },
+  {
+    "id": "AbsoluteVerb_571",
+    "setId": "AbsoluteVerb",
+    "japanese": "設ける",
+    "reading": "もうける",
+    "meaning": "마련하다, 개설하다, 설치하다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "2타",
+    "sourceOrder": 569
+  },
+  {
+    "id": "AbsoluteVerb_572",
+    "setId": "AbsoluteVerb",
+    "japanese": "備える",
+    "reading": "そなえる",
+    "meaning": "대비하다, 갖추다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "2타",
+    "sourceOrder": 570
+  },
+  {
+    "id": "AbsoluteVerb_573",
+    "setId": "AbsoluteVerb",
+    "japanese": "開く",
+    "reading": "ひらく",
+    "meaning": "(책, 행사, 가능성 등) 열리다, 벌어지다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 571
+  },
+  {
+    "id": "AbsoluteVerb_574",
+    "setId": "AbsoluteVerb",
+    "japanese": "開く",
+    "reading": "ひらく",
+    "meaning": "(책, 행사, 가능성 등) 열다, 벌리다, 개최하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 572
+  },
+  {
+    "id": "AbsoluteVerb_575",
+    "setId": "AbsoluteVerb",
+    "japanese": "開ける",
+    "reading": "ひらける",
+    "meaning": "(책, 행사, 가능성 등) 열리다, 트이다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "2자",
+    "sourceOrder": 573
+  },
+  {
+    "id": "AbsoluteVerb_576",
+    "setId": "AbsoluteVerb",
+    "japanese": "改まる",
+    "reading": "あらたまる",
+    "meaning": "(규칙 등이) 고쳐지다, 격식차리다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 574
+  },
+  {
+    "id": "AbsoluteVerb_577",
+    "setId": "AbsoluteVerb",
+    "japanese": "改める",
+    "reading": "あらためる",
+    "meaning": "(규칙 등을) 고치다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "2타",
+    "sourceOrder": 575
+  },
+  {
+    "id": "AbsoluteVerb_578",
+    "setId": "AbsoluteVerb",
+    "japanese": "当たる",
+    "reading": "あたる",
+    "meaning": "적중하다, 부딪치다, 중독되다",
+    "type": "verb",
+    "difficulty": 25,
+    "verbInfo": "1자",
+    "sourceOrder": 576
+  },
+  {
+    "id": "AbsoluteVerb_579",
+    "setId": "AbsoluteVerb",
+    "japanese": "当てる",
+    "reading": "あてる",
+    "meaning": "명중시키다, 지명하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2타",
+    "sourceOrder": 577
+  },
+  {
+    "id": "AbsoluteVerb_580",
+    "setId": "AbsoluteVerb",
+    "japanese": "当てはまる",
+    "reading": "あてはまる",
+    "meaning": "적용되다, 적합하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 578
+  },
+  {
+    "id": "AbsoluteVerb_581",
+    "setId": "AbsoluteVerb",
+    "japanese": "当てはめる",
+    "reading": "あてはめる",
+    "meaning": "적용시키다, 들어맞추다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "2타",
+    "sourceOrder": 579
+  },
+  {
+    "id": "AbsoluteVerb_582",
+    "setId": "AbsoluteVerb",
+    "japanese": "解く",
+    "reading": "とく",
+    "meaning": "(문제 등을) 풀다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 580
+  },
+  {
+    "id": "AbsoluteVerb_583",
+    "setId": "AbsoluteVerb",
+    "japanese": "保つ",
+    "reading": "たもつ",
+    "meaning": "유지하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 581
+  },
+  {
+    "id": "AbsoluteVerb_584",
+    "setId": "AbsoluteVerb",
+    "japanese": "伴う",
+    "reading": "ともなう",
+    "meaning": "수반하다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 582
+  },
+  {
+    "id": "AbsoluteVerb_585",
+    "setId": "AbsoluteVerb",
+    "japanese": "連れる",
+    "reading": "つれる",
+    "meaning": "데리고 가다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 583
+  },
+  {
+    "id": "AbsoluteVerb_586",
+    "setId": "AbsoluteVerb",
+    "japanese": "従う",
+    "reading": "したがう",
+    "meaning": "따르다",
+    "type": "verb",
+    "difficulty": 36,
+    "verbInfo": "1자",
+    "sourceOrder": 584
+  },
+  {
+    "id": "AbsoluteVerb_587",
+    "setId": "AbsoluteVerb",
+    "japanese": "並ぶ",
+    "reading": "ならぶ",
+    "meaning": "줄 서다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 585
+  },
+  {
+    "id": "AbsoluteVerb_588",
+    "setId": "AbsoluteVerb",
+    "japanese": "並べる",
+    "reading": "ならべる",
+    "meaning": "나란히 줄세우다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "2타",
+    "sourceOrder": 586
+  },
+  {
+    "id": "AbsoluteVerb_589",
+    "setId": "AbsoluteVerb",
+    "japanese": "抜ける",
+    "reading": "ぬける",
+    "meaning": "빠지다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 587
+  },
+  {
+    "id": "AbsoluteVerb_590",
+    "setId": "AbsoluteVerb",
+    "japanese": "抜く",
+    "reading": "ぬく",
+    "meaning": "뽑다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 588
+  },
+  {
+    "id": "AbsoluteVerb_591",
+    "setId": "AbsoluteVerb",
+    "japanese": "とれる",
+    "reading": "とれる",
+    "meaning": "떨어지다, 해석되다, 잡히다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 589
+  },
+  {
+    "id": "AbsoluteVerb_592",
+    "setId": "AbsoluteVerb",
+    "japanese": "外れる",
+    "reading": "はずれる",
+    "meaning": "벗겨지다, 벗어나다, 빗나가다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 590
+  },
+  {
+    "id": "AbsoluteVerb_593",
+    "setId": "AbsoluteVerb",
+    "japanese": "干す",
+    "reading": "ほす",
+    "meaning": "(햇볕 등에) 말리다, 널다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 591
+  },
+  {
+    "id": "AbsoluteVerb_594",
+    "setId": "AbsoluteVerb",
+    "japanese": "乾く",
+    "reading": "かわく",
+    "meaning": "마르다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 592
+  },
+  {
+    "id": "AbsoluteVerb_595",
+    "setId": "AbsoluteVerb",
+    "japanese": "渇く",
+    "reading": "かわく",
+    "meaning": "(목이) 마르다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 593
+  },
+  {
+    "id": "AbsoluteVerb_596",
+    "setId": "AbsoluteVerb",
+    "japanese": "乾かす",
+    "reading": "かわかす",
+    "meaning": "말리다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 594
+  },
+  {
+    "id": "AbsoluteVerb_597",
+    "setId": "AbsoluteVerb",
+    "japanese": "濡れる",
+    "reading": "ぬれる",
+    "meaning": "(액체로 인해) 젖다",
+    "type": "verb",
+    "difficulty": 29,
+    "verbInfo": "2자",
+    "sourceOrder": 595
+  },
+  {
+    "id": "AbsoluteVerb_598",
+    "setId": "AbsoluteVerb",
+    "japanese": "濡らす",
+    "reading": "ぬらす",
+    "meaning": "(액체로) 적시다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 596
+  },
+  {
+    "id": "AbsoluteVerb_599",
+    "setId": "AbsoluteVerb",
+    "japanese": "湿る",
+    "reading": "しめる",
+    "meaning": "(약하게, 습하게) 젖다, 축축해지다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 597
+  },
+  {
+    "id": "AbsoluteVerb_600",
+    "setId": "AbsoluteVerb",
+    "japanese": "浸る",
+    "reading": "ひたる",
+    "meaning": "(액체에) 잠기다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 598
+  },
+  {
+    "id": "AbsoluteVerb_601",
+    "setId": "AbsoluteVerb",
+    "japanese": "浸す",
+    "reading": "ひたす",
+    "meaning": "(액체에) 담그다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 599
+  },
+  {
+    "id": "AbsoluteVerb_602",
+    "setId": "AbsoluteVerb",
+    "japanese": "浴びる",
+    "reading": "あびる",
+    "meaning": "쬐다, 뒤집어 쓰다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2타",
+    "sourceOrder": 600
+  },
+  {
+    "id": "AbsoluteVerb_603",
+    "setId": "AbsoluteVerb",
+    "japanese": "向く",
+    "reading": "むく",
+    "meaning": "향하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 601
+  },
+  {
+    "id": "AbsoluteVerb_604",
+    "setId": "AbsoluteVerb",
+    "japanese": "向かう",
+    "reading": "むかう",
+    "meaning": "향하여 가다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 602
+  },
+  {
+    "id": "AbsoluteVerb_605",
+    "setId": "AbsoluteVerb",
+    "japanese": "向ける",
+    "reading": "むける",
+    "meaning": "향하게 돌리다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2타",
+    "sourceOrder": 603
+  },
+  {
+    "id": "AbsoluteVerb_606",
+    "setId": "AbsoluteVerb",
+    "japanese": "目指す",
+    "reading": "めざす",
+    "meaning": "지향하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 604
+  },
+  {
+    "id": "AbsoluteVerb_607",
+    "setId": "AbsoluteVerb",
+    "japanese": "示す",
+    "reading": "しめす",
+    "meaning": "가리키다",
+    "type": "verb",
+    "difficulty": 33,
+    "verbInfo": "1타",
+    "sourceOrder": 605
+  },
+  {
+    "id": "AbsoluteVerb_608",
+    "setId": "AbsoluteVerb",
+    "japanese": "憧れる",
+    "reading": "あこがれる",
+    "meaning": "동경하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2자",
+    "sourceOrder": 606
+  },
+  {
+    "id": "AbsoluteVerb_609",
+    "setId": "AbsoluteVerb",
+    "japanese": "続く",
+    "reading": "つづく",
+    "meaning": "계속되다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 607
+  },
+  {
+    "id": "AbsoluteVerb_610",
+    "setId": "AbsoluteVerb",
+    "japanese": "続ける",
+    "reading": "つづける",
+    "meaning": "계속하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2타",
+    "sourceOrder": 608
+  },
+  {
+    "id": "AbsoluteVerb_611",
+    "setId": "AbsoluteVerb",
+    "japanese": "繋がる",
+    "reading": "つながる",
+    "meaning": "이어지다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 609
+  },
+  {
+    "id": "AbsoluteVerb_612",
+    "setId": "AbsoluteVerb",
+    "japanese": "繋ぐ",
+    "reading": "つなぐ",
+    "meaning": "잇다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 610
+  },
+  {
+    "id": "AbsoluteVerb_613",
+    "setId": "AbsoluteVerb",
+    "japanese": "優れる",
+    "reading": "すぐれる",
+    "meaning": "뛰어나다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "2자",
+    "sourceOrder": 611
+  },
+  {
+    "id": "AbsoluteVerb_614",
+    "setId": "AbsoluteVerb",
+    "japanese": "勝る",
+    "reading": "まさる",
+    "meaning": "(다른 것보다) 낫다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 612
+  },
+  {
+    "id": "AbsoluteVerb_615",
+    "setId": "AbsoluteVerb",
+    "japanese": "劣る",
+    "reading": "おとる",
+    "meaning": "뒤떨어지다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 613
+  },
+  {
+    "id": "AbsoluteVerb_616",
+    "setId": "AbsoluteVerb",
+    "japanese": "出来る",
+    "reading": "できる",
+    "meaning": "할 수 있다, 잘하다, 만들어지다, 생기다",
+    "type": "verb",
+    "difficulty": 15,
+    "verbInfo": "2자",
+    "sourceOrder": 614
+  },
+  {
+    "id": "AbsoluteVerb_617",
+    "setId": "AbsoluteVerb",
+    "japanese": "比べる",
+    "reading": "くらべる",
+    "meaning": "비교하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "2타",
+    "sourceOrder": 615
+  },
+  {
+    "id": "AbsoluteVerb_618",
+    "setId": "AbsoluteVerb",
+    "japanese": "違う",
+    "reading": "ちがう",
+    "meaning": "다르다, 틀리다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 616
+  },
+  {
+    "id": "AbsoluteVerb_619",
+    "setId": "AbsoluteVerb",
+    "japanese": "異なる",
+    "reading": "ことなる",
+    "meaning": "다르다, 상이하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 617
+  },
+  {
+    "id": "AbsoluteVerb_620",
+    "setId": "AbsoluteVerb",
+    "japanese": "分かれる",
+    "reading": "わかれる",
+    "meaning": "갈라지다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2자",
+    "sourceOrder": 618
+  },
+  {
+    "id": "AbsoluteVerb_621",
+    "setId": "AbsoluteVerb",
+    "japanese": "傾く",
+    "reading": "かたむく",
+    "meaning": "기울다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 619
+  },
+  {
+    "id": "AbsoluteVerb_622",
+    "setId": "AbsoluteVerb",
+    "japanese": "申す",
+    "reading": "もうす",
+    "meaning": "말하다 (겸양어)",
+    "type": "verb",
+    "difficulty": 36,
+    "verbInfo": "1타",
+    "sourceOrder": 620
+  },
+  {
+    "id": "AbsoluteVerb_623",
+    "setId": "AbsoluteVerb",
+    "japanese": "申し上げる",
+    "reading": "もうしあげる",
+    "meaning": "말씀드리다 (겸양어)",
+    "type": "verb",
+    "difficulty": 38,
+    "verbInfo": "2타",
+    "sourceOrder": 621
+  },
+  {
+    "id": "AbsoluteVerb_624",
+    "setId": "AbsoluteVerb",
+    "japanese": "参る",
+    "reading": "まいる",
+    "meaning": "가다, 오다 (겸양어)",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 622
+  },
+  {
+    "id": "AbsoluteVerb_625",
+    "setId": "AbsoluteVerb",
+    "japanese": "おる",
+    "reading": "おる",
+    "meaning": "있다 (겸양어)",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 623
+  },
+  {
+    "id": "AbsoluteVerb_626",
+    "setId": "AbsoluteVerb",
+    "japanese": "いただく",
+    "reading": "いただく",
+    "meaning": "먹다, 마시다, 받다 (겸양어)",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 624
+  },
+  {
+    "id": "AbsoluteVerb_627",
+    "setId": "AbsoluteVerb",
+    "japanese": "伺う",
+    "reading": "うかがう",
+    "meaning": "찾아뵙다, 여쭙다, 삼가 듣다 (겸양어)",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 625
+  },
+  {
+    "id": "AbsoluteVerb_628",
+    "setId": "AbsoluteVerb",
+    "japanese": "差し上げる",
+    "reading": "さしあげる",
+    "meaning": "드리다 (겸양어)",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "2타",
+    "sourceOrder": 626
+  },
+  {
+    "id": "AbsoluteVerb_629",
+    "setId": "AbsoluteVerb",
+    "japanese": "おっしゃる",
+    "reading": "おっしゃる",
+    "meaning": "말씀하시다 (존경어)",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 627
+  },
+  {
+    "id": "AbsoluteVerb_630",
+    "setId": "AbsoluteVerb",
+    "japanese": "なさる",
+    "reading": "なさる",
+    "meaning": "하시다 (존경어)",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 628
+  },
+  {
+    "id": "AbsoluteVerb_631",
+    "setId": "AbsoluteVerb",
+    "japanese": "致す",
+    "reading": "いたす",
+    "meaning": "하다 (겸양어)",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 629
+  },
+  {
+    "id": "AbsoluteVerb_632",
+    "setId": "AbsoluteVerb",
+    "japanese": "いらっしゃる",
+    "reading": "いらっしゃる",
+    "meaning": "계시다, 가시다, 오시다 (존경어)",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 630
+  },
+  {
+    "id": "AbsoluteVerb_633",
+    "setId": "AbsoluteVerb",
+    "japanese": "おいでになる",
+    "reading": "おいでになる",
+    "meaning": "계시다, 가시다, 오시다 (존경어)",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 631
+  },
+  {
+    "id": "AbsoluteVerb_634",
+    "setId": "AbsoluteVerb",
+    "japanese": "召し上がる",
+    "reading": "めしあがる",
+    "meaning": "드시다 (존경어)",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 632
+  },
+  {
+    "id": "AbsoluteVerb_635",
+    "setId": "AbsoluteVerb",
+    "japanese": "ご覧になる",
+    "reading": "ごらんになる",
+    "meaning": "보시다 (존경어)",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 633
+  },
+  {
+    "id": "AbsoluteVerb_636",
+    "setId": "AbsoluteVerb",
+    "japanese": "結婚する",
+    "reading": "けっこんする",
+    "meaning": "결혼하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3자",
+    "sourceOrder": 634
+  },
+  {
+    "id": "AbsoluteVerb_637",
+    "setId": "AbsoluteVerb",
+    "japanese": "離婚する",
+    "reading": "りこんする",
+    "meaning": "이혼하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 635
+  },
+  {
+    "id": "AbsoluteVerb_638",
+    "setId": "AbsoluteVerb",
+    "japanese": "料理する",
+    "reading": "りょうりする",
+    "meaning": "요리하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3타",
+    "sourceOrder": 636
+  },
+  {
+    "id": "AbsoluteVerb_639",
+    "setId": "AbsoluteVerb",
+    "japanese": "洗濯する",
+    "reading": "せんたくする",
+    "meaning": "세탁하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3타",
+    "sourceOrder": 637
+  },
+  {
+    "id": "AbsoluteVerb_640",
+    "setId": "AbsoluteVerb",
+    "japanese": "掃除する",
+    "reading": "そうじする",
+    "meaning": "청소하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3타",
+    "sourceOrder": 638
+  },
+  {
+    "id": "AbsoluteVerb_641",
+    "setId": "AbsoluteVerb",
+    "japanese": "準備する",
+    "reading": "じゅんびする",
+    "meaning": "준비하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 639
+  },
+  {
+    "id": "AbsoluteVerb_642",
+    "setId": "AbsoluteVerb",
+    "japanese": "用意する",
+    "reading": "よういする",
+    "meaning": "마련하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 640
+  },
+  {
+    "id": "AbsoluteVerb_643",
+    "setId": "AbsoluteVerb",
+    "japanese": "支度する",
+    "reading": "したくする",
+    "meaning": "채비하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3타",
+    "sourceOrder": 641
+  },
+  {
+    "id": "AbsoluteVerb_644",
+    "setId": "AbsoluteVerb",
+    "japanese": "外食する",
+    "reading": "がいしょくする",
+    "meaning": "외식하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 642
+  },
+  {
+    "id": "AbsoluteVerb_645",
+    "setId": "AbsoluteVerb",
+    "japanese": "散歩する",
+    "reading": "さんぽする",
+    "meaning": "산책하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3자",
+    "sourceOrder": 643
+  },
+  {
+    "id": "AbsoluteVerb_646",
+    "setId": "AbsoluteVerb",
+    "japanese": "勉強する",
+    "reading": "べんきょうする",
+    "meaning": "공부하다",
+    "type": "verb",
+    "difficulty": 12,
+    "verbInfo": "3타",
+    "sourceOrder": 644
+  },
+  {
+    "id": "AbsoluteVerb_647",
+    "setId": "AbsoluteVerb",
+    "japanese": "練習する",
+    "reading": "れんしゅうする",
+    "meaning": "연습하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3타",
+    "sourceOrder": 645
+  },
+  {
+    "id": "AbsoluteVerb_648",
+    "setId": "AbsoluteVerb",
+    "japanese": "復習する",
+    "reading": "ふくしゅうする",
+    "meaning": "복습하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3타",
+    "sourceOrder": 646
+  },
+  {
+    "id": "AbsoluteVerb_649",
+    "setId": "AbsoluteVerb",
+    "japanese": "留学する",
+    "reading": "りゅうがくする",
+    "meaning": "유학하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 647
+  },
+  {
+    "id": "AbsoluteVerb_650",
+    "setId": "AbsoluteVerb",
+    "japanese": "入学する",
+    "reading": "にゅうがくする",
+    "meaning": "입학하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 648
+  },
+  {
+    "id": "AbsoluteVerb_651",
+    "setId": "AbsoluteVerb",
+    "japanese": "卒業する",
+    "reading": "そつぎょうする",
+    "meaning": "졸업하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 649
+  },
+  {
+    "id": "AbsoluteVerb_652",
+    "setId": "AbsoluteVerb",
+    "japanese": "遅刻する",
+    "reading": "ちこくする",
+    "meaning": "지각하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 650
+  },
+  {
+    "id": "AbsoluteVerb_653",
+    "setId": "AbsoluteVerb",
+    "japanese": "質問する",
+    "reading": "しつもんする",
+    "meaning": "질문하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 651
+  },
+  {
+    "id": "AbsoluteVerb_654",
+    "setId": "AbsoluteVerb",
+    "japanese": "説明する",
+    "reading": "せつめいする",
+    "meaning": "설명하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 652
+  },
+  {
+    "id": "AbsoluteVerb_655",
+    "setId": "AbsoluteVerb",
+    "japanese": "理解する",
+    "reading": "りかいする",
+    "meaning": "이해하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 653
+  },
+  {
+    "id": "AbsoluteVerb_656",
+    "setId": "AbsoluteVerb",
+    "japanese": "就職する",
+    "reading": "しゅうしょくする",
+    "meaning": "취업하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 654
+  },
+  {
+    "id": "AbsoluteVerb_657",
+    "setId": "AbsoluteVerb",
+    "japanese": "出張する",
+    "reading": "しゅっちょうする",
+    "meaning": "출장가다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 655
+  },
+  {
+    "id": "AbsoluteVerb_658",
+    "setId": "AbsoluteVerb",
+    "japanese": "出席する",
+    "reading": "しゅっせきする",
+    "meaning": "출석하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 656
+  },
+  {
+    "id": "AbsoluteVerb_659",
+    "setId": "AbsoluteVerb",
+    "japanese": "出社する",
+    "reading": "しゅっしゃする",
+    "meaning": "출근하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 657
+  },
+  {
+    "id": "AbsoluteVerb_660",
+    "setId": "AbsoluteVerb",
+    "japanese": "接待する",
+    "reading": "せったいする",
+    "meaning": "접대하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3타",
+    "sourceOrder": 658
+  },
+  {
+    "id": "AbsoluteVerb_661",
+    "setId": "AbsoluteVerb",
+    "japanese": "成功する",
+    "reading": "せいこうする",
+    "meaning": "성공하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 659
+  },
+  {
+    "id": "AbsoluteVerb_662",
+    "setId": "AbsoluteVerb",
+    "japanese": "失敗する",
+    "reading": "しっぱいする",
+    "meaning": "실패하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 660
+  },
+  {
+    "id": "AbsoluteVerb_663",
+    "setId": "AbsoluteVerb",
+    "japanese": "遠慮する",
+    "reading": "えんりょする",
+    "meaning": "사양하다, 삼가다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 661
+  },
+  {
+    "id": "AbsoluteVerb_664",
+    "setId": "AbsoluteVerb",
+    "japanese": "対処する",
+    "reading": "たいしょする",
+    "meaning": "대처하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3자",
+    "sourceOrder": 662
+  },
+  {
+    "id": "AbsoluteVerb_665",
+    "setId": "AbsoluteVerb",
+    "japanese": "管理する",
+    "reading": "かんりする",
+    "meaning": "관리하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 663
+  },
+  {
+    "id": "AbsoluteVerb_666",
+    "setId": "AbsoluteVerb",
+    "japanese": "旅行する",
+    "reading": "りょこうする",
+    "meaning": "여행하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3자",
+    "sourceOrder": 664
+  },
+  {
+    "id": "AbsoluteVerb_667",
+    "setId": "AbsoluteVerb",
+    "japanese": "見物する",
+    "reading": "けんぶつする",
+    "meaning": "구경하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3타",
+    "sourceOrder": 665
+  },
+  {
+    "id": "AbsoluteVerb_668",
+    "setId": "AbsoluteVerb",
+    "japanese": "予約する",
+    "reading": "よやくする",
+    "meaning": "예약하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3타",
+    "sourceOrder": 666
+  },
+  {
+    "id": "AbsoluteVerb_669",
+    "setId": "AbsoluteVerb",
+    "japanese": "出発する",
+    "reading": "しゅっぱつする",
+    "meaning": "출발하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 667
+  },
+  {
+    "id": "AbsoluteVerb_670",
+    "setId": "AbsoluteVerb",
+    "japanese": "参加する",
+    "reading": "さんかする",
+    "meaning": "참가하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 668
+  },
+  {
+    "id": "AbsoluteVerb_671",
+    "setId": "AbsoluteVerb",
+    "japanese": "挑戦する",
+    "reading": "ちょうせんする",
+    "meaning": "도전하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 669
+  },
+  {
+    "id": "AbsoluteVerb_672",
+    "setId": "AbsoluteVerb",
+    "japanese": "案内する",
+    "reading": "あんないする",
+    "meaning": "안내하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3타",
+    "sourceOrder": 670
+  },
+  {
+    "id": "AbsoluteVerb_673",
+    "setId": "AbsoluteVerb",
+    "japanese": "体験する",
+    "reading": "たいけんする",
+    "meaning": "체험하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 671
+  },
+  {
+    "id": "AbsoluteVerb_674",
+    "setId": "AbsoluteVerb",
+    "japanese": "経験する",
+    "reading": "けいけんする",
+    "meaning": "경험하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3타",
+    "sourceOrder": 672
+  },
+  {
+    "id": "AbsoluteVerb_675",
+    "setId": "AbsoluteVerb",
+    "japanese": "訪問する",
+    "reading": "ほうもんする",
+    "meaning": "방문하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3타",
+    "sourceOrder": 673
+  },
+  {
+    "id": "AbsoluteVerb_676",
+    "setId": "AbsoluteVerb",
+    "japanese": "電話する",
+    "reading": "でんわする",
+    "meaning": "전화하다",
+    "type": "verb",
+    "difficulty": 14,
+    "verbInfo": "3타",
+    "sourceOrder": 674
+  },
+  {
+    "id": "AbsoluteVerb_677",
+    "setId": "AbsoluteVerb",
+    "japanese": "連絡する",
+    "reading": "れんらくする",
+    "meaning": "연락하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 675
+  },
+  {
+    "id": "AbsoluteVerb_678",
+    "setId": "AbsoluteVerb",
+    "japanese": "約束する",
+    "reading": "やくそくする",
+    "meaning": "약속하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 676
+  },
+  {
+    "id": "AbsoluteVerb_679",
+    "setId": "AbsoluteVerb",
+    "japanese": "外出する",
+    "reading": "がいしゅつする",
+    "meaning": "외출하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 677
+  },
+  {
+    "id": "AbsoluteVerb_680",
+    "setId": "AbsoluteVerb",
+    "japanese": "乾杯する",
+    "reading": "かんぱいする",
+    "meaning": "건배하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 678
+  },
+  {
+    "id": "AbsoluteVerb_681",
+    "setId": "AbsoluteVerb",
+    "japanese": "失礼する",
+    "reading": "しつれいする",
+    "meaning": "실례하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 679
+  },
+  {
+    "id": "AbsoluteVerb_682",
+    "setId": "AbsoluteVerb",
+    "japanese": "決定する",
+    "reading": "けっていする",
+    "meaning": "결정하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 680
+  },
+  {
+    "id": "AbsoluteVerb_683",
+    "setId": "AbsoluteVerb",
+    "japanese": "注文する",
+    "reading": "ちゅうもんする",
+    "meaning": "주문하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 681
+  },
+  {
+    "id": "AbsoluteVerb_684",
+    "setId": "AbsoluteVerb",
+    "japanese": "運動する",
+    "reading": "うんどうする",
+    "meaning": "운동하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3자",
+    "sourceOrder": 682
+  },
+  {
+    "id": "AbsoluteVerb_685",
+    "setId": "AbsoluteVerb",
+    "japanese": "返事する",
+    "reading": "へんじする",
+    "meaning": "답장하다, 대답하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 683
+  },
+  {
+    "id": "AbsoluteVerb_686",
+    "setId": "AbsoluteVerb",
+    "japanese": "放送する",
+    "reading": "ほうそうする",
+    "meaning": "방송하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 684
+  },
+  {
+    "id": "AbsoluteVerb_687",
+    "setId": "AbsoluteVerb",
+    "japanese": "運転する",
+    "reading": "うんてんする",
+    "meaning": "운전하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3타",
+    "sourceOrder": 685
+  },
+  {
+    "id": "AbsoluteVerb_688",
+    "setId": "AbsoluteVerb",
+    "japanese": "録音する",
+    "reading": "ろくおんする",
+    "meaning": "녹음하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3타",
+    "sourceOrder": 686
+  },
+  {
+    "id": "AbsoluteVerb_689",
+    "setId": "AbsoluteVerb",
+    "japanese": "翻訳する",
+    "reading": "ほんやくする",
+    "meaning": "번역하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3타",
+    "sourceOrder": 687
+  },
+  {
+    "id": "AbsoluteVerb_690",
+    "setId": "AbsoluteVerb",
+    "japanese": "出版する",
+    "reading": "しゅっぱんする",
+    "meaning": "출판하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3타",
+    "sourceOrder": 688
+  },
+  {
+    "id": "AbsoluteVerb_691",
+    "setId": "AbsoluteVerb",
+    "japanese": "手術する",
+    "reading": "しゅじゅつする",
+    "meaning": "수술하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3타",
+    "sourceOrder": 689
+  },
+  {
+    "id": "AbsoluteVerb_692",
+    "setId": "AbsoluteVerb",
+    "japanese": "工夫する",
+    "reading": "くふうする",
+    "meaning": "궁리하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 690
+  },
+  {
+    "id": "AbsoluteVerb_693",
+    "setId": "AbsoluteVerb",
+    "japanese": "調査する",
+    "reading": "ちょうさする",
+    "meaning": "조사하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3타",
+    "sourceOrder": 691
+  },
+  {
+    "id": "AbsoluteVerb_694",
+    "setId": "AbsoluteVerb",
+    "japanese": "我慢する",
+    "reading": "がまんする",
+    "meaning": "참다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 692
+  },
+  {
+    "id": "AbsoluteVerb_695",
+    "setId": "AbsoluteVerb",
+    "japanese": "発表する",
+    "reading": "はっぴょうする",
+    "meaning": "발표하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3타",
+    "sourceOrder": 693
+  },
+  {
+    "id": "AbsoluteVerb_696",
+    "setId": "AbsoluteVerb",
+    "japanese": "計算する",
+    "reading": "けいさんする",
+    "meaning": "계산하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 694
+  },
+  {
+    "id": "AbsoluteVerb_697",
+    "setId": "AbsoluteVerb",
+    "japanese": "紹介する",
+    "reading": "しょうかいする",
+    "meaning": "소개하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 695
+  },
+  {
+    "id": "AbsoluteVerb_698",
+    "setId": "AbsoluteVerb",
+    "japanese": "世話する",
+    "reading": "せわする",
+    "meaning": "보살피다, 시중들다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 696
+  },
+  {
+    "id": "AbsoluteVerb_699",
+    "setId": "AbsoluteVerb",
+    "japanese": "比較する",
+    "reading": "ひかくする",
+    "meaning": "비교하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3타",
+    "sourceOrder": 697
+  },
+  {
+    "id": "AbsoluteVerb_700",
+    "setId": "AbsoluteVerb",
+    "japanese": "故障する",
+    "reading": "こしょうする",
+    "meaning": "고장나다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 698
+  },
+  {
+    "id": "AbsoluteVerb_701",
+    "setId": "AbsoluteVerb",
+    "japanese": "修理する",
+    "reading": "しゅうりする",
+    "meaning": "수리하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 699
+  },
+  {
+    "id": "AbsoluteVerb_702",
+    "setId": "AbsoluteVerb",
+    "japanese": "整理する",
+    "reading": "せいりする",
+    "meaning": "정리하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3타",
+    "sourceOrder": 700
+  },
+  {
+    "id": "AbsoluteVerb_703",
+    "setId": "AbsoluteVerb",
+    "japanese": "居眠りする",
+    "reading": "いねむりする",
+    "meaning": "졸다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 701
+  },
+  {
+    "id": "AbsoluteVerb_704",
+    "setId": "AbsoluteVerb",
+    "japanese": "検討する",
+    "reading": "けんとうする",
+    "meaning": "검토하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3타",
+    "sourceOrder": 702
+  },
+  {
+    "id": "AbsoluteVerb_705",
+    "setId": "AbsoluteVerb",
+    "japanese": "想像する",
+    "reading": "そうぞうする",
+    "meaning": "상상하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 703
+  },
+  {
+    "id": "AbsoluteVerb_706",
+    "setId": "AbsoluteVerb",
+    "japanese": "発明する",
+    "reading": "はつめいする",
+    "meaning": "발명하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3타",
+    "sourceOrder": 704
+  },
+  {
+    "id": "AbsoluteVerb_707",
+    "setId": "AbsoluteVerb",
+    "japanese": "期待する",
+    "reading": "きたいする",
+    "meaning": "기대하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 705
+  },
+  {
+    "id": "AbsoluteVerb_708",
+    "setId": "AbsoluteVerb",
+    "japanese": "熱中する",
+    "reading": "ねっちゅうする",
+    "meaning": "열중하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 706
+  },
+  {
+    "id": "AbsoluteVerb_709",
+    "setId": "AbsoluteVerb",
+    "japanese": "確認する",
+    "reading": "かくにんする",
+    "meaning": "확인하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 707
+  },
+  {
+    "id": "AbsoluteVerb_710",
+    "setId": "AbsoluteVerb",
+    "japanese": "維持する",
+    "reading": "いじする",
+    "meaning": "유지하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3타",
+    "sourceOrder": 708
+  },
+  {
+    "id": "AbsoluteVerb_711",
+    "setId": "AbsoluteVerb",
+    "japanese": "調和する",
+    "reading": "ちょうわする",
+    "meaning": "조화되다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "3자",
+    "sourceOrder": 709
+  },
+  {
+    "id": "AbsoluteVerb_712",
+    "setId": "AbsoluteVerb",
+    "japanese": "帰国する",
+    "reading": "きこくする",
+    "meaning": "귀국하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 710
+  },
+  {
+    "id": "AbsoluteVerb_713",
+    "setId": "AbsoluteVerb",
+    "japanese": "滞在する",
+    "reading": "たいざいする",
+    "meaning": "체재하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 711
+  },
+  {
+    "id": "AbsoluteVerb_714",
+    "setId": "AbsoluteVerb",
+    "japanese": "手配する",
+    "reading": "てはいする",
+    "meaning": "수배하다, 준비하다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "3타",
+    "sourceOrder": 712
+  },
+  {
+    "id": "AbsoluteVerb_715",
+    "setId": "AbsoluteVerb",
+    "japanese": "上達する",
+    "reading": "じょうたつする",
+    "meaning": "실력이 향상되다, 숙달되다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 713
+  },
+  {
+    "id": "AbsoluteVerb_716",
+    "setId": "AbsoluteVerb",
+    "japanese": "相談する",
+    "reading": "そうだんする",
+    "meaning": "상담하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 714
+  },
+  {
+    "id": "AbsoluteVerb_717",
+    "setId": "AbsoluteVerb",
+    "japanese": "賛成する",
+    "reading": "さんせいする",
+    "meaning": "찬성하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3자",
+    "sourceOrder": 715
+  },
+  {
+    "id": "AbsoluteVerb_718",
+    "setId": "AbsoluteVerb",
+    "japanese": "反対する",
+    "reading": "はんたいする",
+    "meaning": "반대하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3자",
+    "sourceOrder": 716
+  },
+  {
+    "id": "AbsoluteVerb_719",
+    "setId": "AbsoluteVerb",
+    "japanese": "苦労する",
+    "reading": "くろうする",
+    "meaning": "고생하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 717
+  },
+  {
+    "id": "AbsoluteVerb_720",
+    "setId": "AbsoluteVerb",
+    "japanese": "招待する",
+    "reading": "しょうたいする",
+    "meaning": "초대하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3타",
+    "sourceOrder": 718
+  },
+  {
+    "id": "AbsoluteVerb_721",
+    "setId": "AbsoluteVerb",
+    "japanese": "真似する",
+    "reading": "まねする",
+    "meaning": "흉내 내다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3타",
+    "sourceOrder": 719
+  },
+  {
+    "id": "AbsoluteVerb_722",
+    "setId": "AbsoluteVerb",
+    "japanese": "愛する",
+    "reading": "あいする",
+    "meaning": "사랑하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3타",
+    "sourceOrder": 720
+  },
+  {
+    "id": "AbsoluteVerb_723",
+    "setId": "AbsoluteVerb",
+    "japanese": "終始する",
+    "reading": "しゅうしする",
+    "meaning": "일관하다, 시종하다",
+    "type": "verb",
+    "difficulty": 38,
+    "verbInfo": "3자",
+    "sourceOrder": 721
+  },
+  {
+    "id": "AbsoluteVerb_724",
+    "setId": "AbsoluteVerb",
+    "japanese": "油断する",
+    "reading": "ゆだんする",
+    "meaning": "방심하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 722
+  },
+  {
+    "id": "AbsoluteVerb_725",
+    "setId": "AbsoluteVerb",
+    "japanese": "心配する",
+    "reading": "しんぱいする",
+    "meaning": "걱정하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "3타",
+    "sourceOrder": 723
+  },
+  {
+    "id": "AbsoluteVerb_726",
+    "setId": "AbsoluteVerb",
+    "japanese": "スースーする",
+    "reading": "すーすーする",
+    "meaning": "(의태어)틈새로 바람이 솔솔 들어오다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3자",
+    "sourceOrder": 724
+  },
+  {
+    "id": "AbsoluteVerb_727",
+    "setId": "AbsoluteVerb",
+    "japanese": "ちくちくする",
+    "reading": "ちくちくする",
+    "meaning": "(의태어)따끔따끔하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 725
+  },
+  {
+    "id": "AbsoluteVerb_728",
+    "setId": "AbsoluteVerb",
+    "japanese": "ずきずきする",
+    "reading": "ずきずきする",
+    "meaning": "(의태어)욱신거리다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 726
+  },
+  {
+    "id": "AbsoluteVerb_729",
+    "setId": "AbsoluteVerb",
+    "japanese": "ひりひりする",
+    "reading": "ひりひりする",
+    "meaning": "(의태어)얼얼하다, 화끈거리다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3자",
+    "sourceOrder": 727
+  },
+  {
+    "id": "AbsoluteVerb_730",
+    "setId": "AbsoluteVerb",
+    "japanese": "がんがんする",
+    "reading": "がんがんする",
+    "meaning": "(의태어)쾅쾅거리다, 욱신거리다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3자",
+    "sourceOrder": 728
+  },
+  {
+    "id": "AbsoluteVerb_731",
+    "setId": "AbsoluteVerb",
+    "japanese": "ざらざらする",
+    "reading": "ざらざらする",
+    "meaning": "(의태어)까칠까칠하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 729
+  },
+  {
+    "id": "AbsoluteVerb_732",
+    "setId": "AbsoluteVerb",
+    "japanese": "つるつるする",
+    "reading": "つるつるする",
+    "meaning": "(의태어)매끈매끈하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 730
+  },
+  {
+    "id": "AbsoluteVerb_733",
+    "setId": "AbsoluteVerb",
+    "japanese": "ごつごつする",
+    "reading": "ごつごつする",
+    "meaning": "(의태어)울툭불툭하다, 세련되지 못하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3자",
+    "sourceOrder": 731
+  },
+  {
+    "id": "AbsoluteVerb_734",
+    "setId": "AbsoluteVerb",
+    "japanese": "あっさりする",
+    "reading": "あっさりする",
+    "meaning": "(의태어)깨끗하다, 시원하다, 담백하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 732
+  },
+  {
+    "id": "AbsoluteVerb_735",
+    "setId": "AbsoluteVerb",
+    "japanese": "さっぱりする",
+    "reading": "さっぱりする",
+    "meaning": "(의태어)산뜻하다, 담백하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 733
+  },
+  {
+    "id": "AbsoluteVerb_736",
+    "setId": "AbsoluteVerb",
+    "japanese": "ゆっくりする",
+    "reading": "ゆっくりする",
+    "meaning": "(의태어)천천히 하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 734
+  },
+  {
+    "id": "AbsoluteVerb_737",
+    "setId": "AbsoluteVerb",
+    "japanese": "のんびりする",
+    "reading": "のんびりする",
+    "meaning": "(의태어)유유자적하게 보내다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 735
+  },
+  {
+    "id": "AbsoluteVerb_738",
+    "setId": "AbsoluteVerb",
+    "japanese": "ぴったりする",
+    "reading": "ぴったりする",
+    "meaning": "(의태어)딱 맞다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 736
+  },
+  {
+    "id": "AbsoluteVerb_739",
+    "setId": "AbsoluteVerb",
+    "japanese": "どっしりする",
+    "reading": "どっしりする",
+    "meaning": "(의태어)묵직하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "3자",
+    "sourceOrder": 737
+  },
+  {
+    "id": "AbsoluteVerb_740",
+    "setId": "AbsoluteVerb",
+    "japanese": "うろうろする",
+    "reading": "うろうろする",
+    "meaning": "(의태어)어슬렁거리다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 738
+  },
+  {
+    "id": "AbsoluteVerb_741",
+    "setId": "AbsoluteVerb",
+    "japanese": "ぐずぐずする",
+    "reading": "ぐずぐずする",
+    "meaning": "(의태어)우물쭈물하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 739
+  },
+  {
+    "id": "AbsoluteVerb_742",
+    "setId": "AbsoluteVerb",
+    "japanese": "ぐったりする",
+    "reading": "ぐったりする",
+    "meaning": "(의태어)녹초가 되다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 740
+  },
+  {
+    "id": "AbsoluteVerb_743",
+    "setId": "AbsoluteVerb",
+    "japanese": "うっかりする",
+    "reading": "うっかりする",
+    "meaning": "(의태어)깜빡하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 741
+  },
+  {
+    "id": "AbsoluteVerb_744",
+    "setId": "AbsoluteVerb",
+    "japanese": "ぼんやりする",
+    "reading": "ぼんやりする",
+    "meaning": "(의태어)멍하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 742
+  },
+  {
+    "id": "AbsoluteVerb_745",
+    "setId": "AbsoluteVerb",
+    "japanese": "しっかりする",
+    "reading": "しっかりする",
+    "meaning": "(의태어)견실하다, 확실하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3자",
+    "sourceOrder": 743
+  },
+  {
+    "id": "AbsoluteVerb_746",
+    "setId": "AbsoluteVerb",
+    "japanese": "がっかりする",
+    "reading": "がっかりする",
+    "meaning": "(의태어)실망하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 744
+  },
+  {
+    "id": "AbsoluteVerb_747",
+    "setId": "AbsoluteVerb",
+    "japanese": "どきどきする",
+    "reading": "どきどきする",
+    "meaning": "(의태어)두근거리다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 745
+  },
+  {
+    "id": "AbsoluteVerb_748",
+    "setId": "AbsoluteVerb",
+    "japanese": "わくわくする",
+    "reading": "わくわくする",
+    "meaning": "(의태어)두근거리다, 설레다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 746
+  },
+  {
+    "id": "AbsoluteVerb_749",
+    "setId": "AbsoluteVerb",
+    "japanese": "はらはらする",
+    "reading": "はらはらする",
+    "meaning": "(의태어)조마조마하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 747
+  },
+  {
+    "id": "AbsoluteVerb_750",
+    "setId": "AbsoluteVerb",
+    "japanese": "むかむかする",
+    "reading": "むかむかする",
+    "meaning": "(의태어)메슥거리다, 울컥하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 748
+  },
+  {
+    "id": "AbsoluteVerb_751",
+    "setId": "AbsoluteVerb",
+    "japanese": "うんざりする",
+    "reading": "うんざりする",
+    "meaning": "(의태어)지긋지긋하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 749
+  },
+  {
+    "id": "AbsoluteVerb_752",
+    "setId": "AbsoluteVerb",
+    "japanese": "いらいらする",
+    "reading": "いらいらする",
+    "meaning": "(의태어)안달하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "3자",
+    "sourceOrder": 750
+  },
+  {
+    "id": "AbsoluteVerb_753",
+    "setId": "AbsoluteVerb",
+    "japanese": "すっきりする",
+    "reading": "すっきりする",
+    "meaning": "(의태어)후련하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 751
+  },
+  {
+    "id": "AbsoluteVerb_754",
+    "setId": "AbsoluteVerb",
+    "japanese": "ほっとする",
+    "reading": "ほっとする",
+    "meaning": "(의태어)안심하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "3자",
+    "sourceOrder": 752
+  },
+  {
+    "id": "AbsoluteVerb_755",
+    "setId": "AbsoluteVerb",
+    "japanese": "はっとする",
+    "reading": "はっとする",
+    "meaning": "(의태어)깜짝 놀라다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 753
+  },
+  {
+    "id": "AbsoluteVerb_756",
+    "setId": "AbsoluteVerb",
+    "japanese": "味がする",
+    "reading": "あじがする",
+    "meaning": "맛이 나다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 754
+  },
+  {
+    "id": "AbsoluteVerb_757",
+    "setId": "AbsoluteVerb",
+    "japanese": "匂いがする",
+    "reading": "においがする",
+    "meaning": "냄새가 나다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 755
+  },
+  {
+    "id": "AbsoluteVerb_758",
+    "setId": "AbsoluteVerb",
+    "japanese": "香りがする",
+    "reading": "かおりがする",
+    "meaning": "향기가 나다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "3자",
+    "sourceOrder": 756
+  },
+  {
+    "id": "AbsoluteVerb_759",
+    "setId": "AbsoluteVerb",
+    "japanese": "音がする",
+    "reading": "おとがする",
+    "meaning": "소리가 나다",
+    "type": "verb",
+    "difficulty": 14,
+    "verbInfo": "3자",
+    "sourceOrder": 757
+  },
+  {
+    "id": "AbsoluteVerb_760",
+    "setId": "AbsoluteVerb",
+    "japanese": "声がする",
+    "reading": "こえがする",
+    "meaning": "목소리/울음소리가 나다",
+    "type": "verb",
+    "difficulty": 14,
+    "verbInfo": "3자",
+    "sourceOrder": 758
+  },
+  {
+    "id": "AbsoluteVerb_761",
+    "setId": "AbsoluteVerb",
+    "japanese": "感じがする",
+    "reading": "かんじがする",
+    "meaning": "느낌이 들다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 759
+  },
+  {
+    "id": "AbsoluteVerb_762",
+    "setId": "AbsoluteVerb",
+    "japanese": "気がする",
+    "reading": "きがする",
+    "meaning": "(추측)생각이 들다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 760
+  },
+  {
+    "id": "AbsoluteVerb_763",
+    "setId": "AbsoluteVerb",
+    "japanese": "思いがする",
+    "reading": "おもいがする",
+    "meaning": "(구체적인)생각이 들다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 761
+  },
+  {
+    "id": "AbsoluteVerb_764",
+    "setId": "AbsoluteVerb",
+    "japanese": "予感がする",
+    "reading": "よかんがする",
+    "meaning": "예감이 들다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 762
+  },
+  {
+    "id": "AbsoluteVerb_765",
+    "setId": "AbsoluteVerb",
+    "japanese": "寒気がする",
+    "reading": "さむけがする",
+    "meaning": "한기가 들다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "3자",
+    "sourceOrder": 763
+  },
+  {
+    "id": "AbsoluteVerb_766",
+    "setId": "AbsoluteVerb",
+    "japanese": "めまいがする",
+    "reading": "めまいがする",
+    "meaning": "현기증이 나다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 764
+  },
+  {
+    "id": "AbsoluteVerb_767",
+    "setId": "AbsoluteVerb",
+    "japanese": "頭痛がする",
+    "reading": "ずつうがする",
+    "meaning": "두통이 나다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "3자",
+    "sourceOrder": 765
+  },
+  {
+    "id": "AbsoluteVerb_768",
+    "setId": "AbsoluteVerb",
+    "japanese": "吐き気がする",
+    "reading": "はきけがする",
+    "meaning": "구역질이 나다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "3자",
+    "sourceOrder": 766
+  },
+  {
+    "id": "AbsoluteVerb_769",
+    "setId": "AbsoluteVerb",
+    "japanese": "耳鳴りがする",
+    "reading": "みみなりがする",
+    "meaning": "이명이 나다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "3자",
+    "sourceOrder": 767
+  },
+  {
+    "id": "AbsoluteVerb_770",
+    "setId": "AbsoluteVerb",
+    "japanese": "胸焼けがする",
+    "reading": "むねやけがする",
+    "meaning": "가슴이 쓰리다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "3자",
+    "sourceOrder": 768
+  },
+  {
+    "id": "AbsoluteVerb_771",
+    "setId": "AbsoluteVerb",
+    "japanese": "形をしている",
+    "reading": "かたちをしている",
+    "meaning": "~한 형태이다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 769
+  },
+  {
+    "id": "AbsoluteVerb_772",
+    "setId": "AbsoluteVerb",
+    "japanese": "模様をしている",
+    "reading": "もようをしている",
+    "meaning": "~한 무늬이다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2자",
+    "sourceOrder": 770
+  },
+  {
+    "id": "AbsoluteVerb_773",
+    "setId": "AbsoluteVerb",
+    "japanese": "格好をしている",
+    "reading": "かっこうをしている",
+    "meaning": "~한 차림이다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 771
+  },
+  {
+    "id": "AbsoluteVerb_774",
+    "setId": "AbsoluteVerb",
+    "japanese": "姿をしている",
+    "reading": "すがたをしている",
+    "meaning": "~한 형상이다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2자",
+    "sourceOrder": 772
+  },
+  {
+    "id": "AbsoluteVerb_775",
+    "setId": "AbsoluteVerb",
+    "japanese": "体をしている",
+    "reading": "からだをしている",
+    "meaning": "~한 몸이다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 773
+  },
+  {
+    "id": "AbsoluteVerb_776",
+    "setId": "AbsoluteVerb",
+    "japanese": "体つきをしている",
+    "reading": "からだつきをしている",
+    "meaning": "~한 체형이다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "2자",
+    "sourceOrder": 774
+  },
+  {
+    "id": "AbsoluteVerb_777",
+    "setId": "AbsoluteVerb",
+    "japanese": "体格をしている",
+    "reading": "たいかくをしている",
+    "meaning": "~한 체격이다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "2자",
+    "sourceOrder": 775
+  },
+  {
+    "id": "AbsoluteVerb_778",
+    "setId": "AbsoluteVerb",
+    "japanese": "手をしている",
+    "reading": "てをしている",
+    "meaning": "~한 손이다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 776
+  },
+  {
+    "id": "AbsoluteVerb_779",
+    "setId": "AbsoluteVerb",
+    "japanese": "顔をしている",
+    "reading": "かおをしている",
+    "meaning": "~한 얼굴이다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 777
+  },
+  {
+    "id": "AbsoluteVerb_780",
+    "setId": "AbsoluteVerb",
+    "japanese": "表情をしている",
+    "reading": "ひょうじょうをしている",
+    "meaning": "~한 표정이다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2자",
+    "sourceOrder": 778
+  },
+  {
+    "id": "AbsoluteVerb_781",
+    "setId": "AbsoluteVerb",
+    "japanese": "目をしている",
+    "reading": "めをしている",
+    "meaning": "~한 눈이다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 779
+  },
+  {
+    "id": "AbsoluteVerb_782",
+    "setId": "AbsoluteVerb",
+    "japanese": "鼻をしている",
+    "reading": "はなをしている",
+    "meaning": "~한 코다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 780
+  },
+  {
+    "id": "AbsoluteVerb_783",
+    "setId": "AbsoluteVerb",
+    "japanese": "色をしている",
+    "reading": "いろをしている",
+    "meaning": "~한 색이다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "2자",
+    "sourceOrder": 781
+  },
+  {
+    "id": "AbsoluteVerb_784",
+    "setId": "AbsoluteVerb",
+    "japanese": "ピザを取る",
+    "reading": "ぴざをとる",
+    "meaning": "피자를 주문하다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 782
+  },
+  {
+    "id": "AbsoluteVerb_785",
+    "setId": "AbsoluteVerb",
+    "japanese": "休暇を取る",
+    "reading": "きゅうかをとる",
+    "meaning": "(공식적) 휴가를 내다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "1타",
+    "sourceOrder": 783
+  },
+  {
+    "id": "AbsoluteVerb_786",
+    "setId": "AbsoluteVerb",
+    "japanese": "休みを取る",
+    "reading": "やすみをとる",
+    "meaning": "(일상적) 쉬는 날을 내다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 784
+  },
+  {
+    "id": "AbsoluteVerb_787",
+    "setId": "AbsoluteVerb",
+    "japanese": "時間を取る",
+    "reading": "じかんをとる",
+    "meaning": "시간을 내다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 785
+  },
+  {
+    "id": "AbsoluteVerb_788",
+    "setId": "AbsoluteVerb",
+    "japanese": "年を取る",
+    "reading": "としをとる",
+    "meaning": "나이를 먹다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "1자",
+    "sourceOrder": 786
+  },
+  {
+    "id": "AbsoluteVerb_789",
+    "setId": "AbsoluteVerb",
+    "japanese": "連絡を取る",
+    "reading": "れんらくをとる",
+    "meaning": "연락을 하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 787
+  },
+  {
+    "id": "AbsoluteVerb_790",
+    "setId": "AbsoluteVerb",
+    "japanese": "だしを取る",
+    "reading": "だしをとる",
+    "meaning": "국물을 내다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "1타",
+    "sourceOrder": 788
+  },
+  {
+    "id": "AbsoluteVerb_791",
+    "setId": "AbsoluteVerb",
+    "japanese": "新聞を取る",
+    "reading": "しんぶんをとる",
+    "meaning": "신문을 구독하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 789
+  },
+  {
+    "id": "AbsoluteVerb_792",
+    "setId": "AbsoluteVerb",
+    "japanese": "免許を取る",
+    "reading": "めんきょをとる",
+    "meaning": "면허를 따다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 790
+  },
+  {
+    "id": "AbsoluteVerb_793",
+    "setId": "AbsoluteVerb",
+    "japanese": "睡眠を取る",
+    "reading": "すいみんをとる",
+    "meaning": "수면을 취하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "1타",
+    "sourceOrder": 791
+  },
+  {
+    "id": "AbsoluteVerb_794",
+    "setId": "AbsoluteVerb",
+    "japanese": "ねずみを捕る",
+    "reading": "ねずみをとる",
+    "meaning": "쥐를 잡다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 792
+  },
+  {
+    "id": "AbsoluteVerb_795",
+    "setId": "AbsoluteVerb",
+    "japanese": "仕事を取る",
+    "reading": "しごとをとる",
+    "meaning": "일을 얻다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1타",
+    "sourceOrder": 793
+  },
+  {
+    "id": "AbsoluteVerb_796",
+    "setId": "AbsoluteVerb",
+    "japanese": "手を取る",
+    "reading": "てをとる",
+    "meaning": "손을 잡다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 794
+  },
+  {
+    "id": "AbsoluteVerb_797",
+    "setId": "AbsoluteVerb",
+    "japanese": "責任を取る",
+    "reading": "せきにんをとる",
+    "meaning": "책임을 지다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 795
+  },
+  {
+    "id": "AbsoluteVerb_798",
+    "setId": "AbsoluteVerb",
+    "japanese": "写真を撮る",
+    "reading": "しゃしんをとる",
+    "meaning": "사진을 찍다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "1타",
+    "sourceOrder": 796
+  },
+  {
+    "id": "AbsoluteVerb_799",
+    "setId": "AbsoluteVerb",
+    "japanese": "くじを引く",
+    "reading": "くじをひく",
+    "meaning": "제비를 뽑다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 797
+  },
+  {
+    "id": "AbsoluteVerb_800",
+    "setId": "AbsoluteVerb",
+    "japanese": "カードを引く",
+    "reading": "かーどをひく",
+    "meaning": "카드를 뽑다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 798
+  },
+  {
+    "id": "AbsoluteVerb_801",
+    "setId": "AbsoluteVerb",
+    "japanese": "辞書を引く",
+    "reading": "じしょをひく",
+    "meaning": "사전을 찾다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 799
+  },
+  {
+    "id": "AbsoluteVerb_802",
+    "setId": "AbsoluteVerb",
+    "japanese": "言葉を引く",
+    "reading": "ことばをひく",
+    "meaning": "말을 인용하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 800
+  },
+  {
+    "id": "AbsoluteVerb_803",
+    "setId": "AbsoluteVerb",
+    "japanese": "風邪を引く",
+    "reading": "かぜをひく",
+    "meaning": "감기에 걸리다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 801
+  },
+  {
+    "id": "AbsoluteVerb_804",
+    "setId": "AbsoluteVerb",
+    "japanese": "目を引く",
+    "reading": "めをひく",
+    "meaning": "눈을 끌다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1타",
+    "sourceOrder": 802
+  },
+  {
+    "id": "AbsoluteVerb_805",
+    "setId": "AbsoluteVerb",
+    "japanese": "気を引く",
+    "reading": "きをひく",
+    "meaning": "주의를 끌다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 803
+  },
+  {
+    "id": "AbsoluteVerb_806",
+    "setId": "AbsoluteVerb",
+    "japanese": "尾を引く",
+    "reading": "おをひく",
+    "meaning": "꼬리를 끌다, 여운을 남기다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 804
+  },
+  {
+    "id": "AbsoluteVerb_807",
+    "setId": "AbsoluteVerb",
+    "japanese": "手を引く",
+    "reading": "てをひく",
+    "meaning": "손을 잡고 이끌다, 손을 떼다 (=그만두다)",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1타",
+    "sourceOrder": 805
+  },
+  {
+    "id": "AbsoluteVerb_808",
+    "setId": "AbsoluteVerb",
+    "japanese": "線を引く",
+    "reading": "せんをひく",
+    "meaning": "선을 긋다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 806
+  },
+  {
+    "id": "AbsoluteVerb_809",
+    "setId": "AbsoluteVerb",
+    "japanese": "引き金を引く",
+    "reading": "ひきがねをひく",
+    "meaning": "방아쇠를 당기다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1타",
+    "sourceOrder": 807
+  },
+  {
+    "id": "AbsoluteVerb_810",
+    "setId": "AbsoluteVerb",
+    "japanese": "ピアノを弾く",
+    "reading": "ぴあのをひく",
+    "meaning": "피아노를 치다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 808
+  },
+  {
+    "id": "AbsoluteVerb_811",
+    "setId": "AbsoluteVerb",
+    "japanese": "水を引く",
+    "reading": "みずをひく",
+    "meaning": "물을 대다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1타",
+    "sourceOrder": 809
+  },
+  {
+    "id": "AbsoluteVerb_812",
+    "setId": "AbsoluteVerb",
+    "japanese": "糸を引く",
+    "reading": "いとをひく",
+    "meaning": "배후에서 조종하다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1타",
+    "sourceOrder": 810
+  },
+  {
+    "id": "AbsoluteVerb_813",
+    "setId": "AbsoluteVerb",
+    "japanese": "手紙を出す",
+    "reading": "てがみをだす",
+    "meaning": "편지를 부치다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "1타",
+    "sourceOrder": 811
+  },
+  {
+    "id": "AbsoluteVerb_814",
+    "setId": "AbsoluteVerb",
+    "japanese": "本を出す",
+    "reading": "ほんをだす",
+    "meaning": "출판하다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 812
+  },
+  {
+    "id": "AbsoluteVerb_815",
+    "setId": "AbsoluteVerb",
+    "japanese": "顔を出す",
+    "reading": "かおをだす",
+    "meaning": "모습을 나타내다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 813
+  },
+  {
+    "id": "AbsoluteVerb_816",
+    "setId": "AbsoluteVerb",
+    "japanese": "口を出す",
+    "reading": "くちをだす",
+    "meaning": "말참견하다",
+    "type": "verb",
+    "difficulty": 26,
+    "verbInfo": "1자",
+    "sourceOrder": 814
+  },
+  {
+    "id": "AbsoluteVerb_817",
+    "setId": "AbsoluteVerb",
+    "japanese": "結果を出す",
+    "reading": "けっかをだす",
+    "meaning": "결과를 내다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1타",
+    "sourceOrder": 815
+  },
+  {
+    "id": "AbsoluteVerb_818",
+    "setId": "AbsoluteVerb",
+    "japanese": "ぼろを出す",
+    "reading": "ぼろをだす",
+    "meaning": "결점을 드러내다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 816
+  },
+  {
+    "id": "AbsoluteVerb_819",
+    "setId": "AbsoluteVerb",
+    "japanese": "店を出す",
+    "reading": "みせをだす",
+    "meaning": "개점하다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1타",
+    "sourceOrder": 817
+  },
+  {
+    "id": "AbsoluteVerb_820",
+    "setId": "AbsoluteVerb",
+    "japanese": "手を出す",
+    "reading": "てをだす",
+    "meaning": "일에 관여하다, 때리다, 손을 대다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 818
+  },
+  {
+    "id": "AbsoluteVerb_821",
+    "setId": "AbsoluteVerb",
+    "japanese": "しっぽを出す",
+    "reading": "しっぽをだす",
+    "meaning": "속임수/속셈이 드러나다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 819
+  },
+  {
+    "id": "AbsoluteVerb_822",
+    "setId": "AbsoluteVerb",
+    "japanese": "あごを出す",
+    "reading": "あごをだす",
+    "meaning": "몹시 지치다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 820
+  },
+  {
+    "id": "AbsoluteVerb_823",
+    "setId": "AbsoluteVerb",
+    "japanese": "元気を出す",
+    "reading": "げんきをだす",
+    "meaning": "기운을 내다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 821
+  },
+  {
+    "id": "AbsoluteVerb_824",
+    "setId": "AbsoluteVerb",
+    "japanese": "声を出す",
+    "reading": "こえをだす",
+    "meaning": "목소리를 내다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1타",
+    "sourceOrder": 822
+  },
+  {
+    "id": "AbsoluteVerb_825",
+    "setId": "AbsoluteVerb",
+    "japanese": "足を出す",
+    "reading": "あしをだす",
+    "meaning": "발을 뻗다, 예산을 초과하다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 823
+  },
+  {
+    "id": "AbsoluteVerb_826",
+    "setId": "AbsoluteVerb",
+    "japanese": "煙が立つ",
+    "reading": "けむりがたつ",
+    "meaning": "연기가 나다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 824
+  },
+  {
+    "id": "AbsoluteVerb_827",
+    "setId": "AbsoluteVerb",
+    "japanese": "湯気が立つ",
+    "reading": "ゆげがたつ",
+    "meaning": "김이 나다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 825
+  },
+  {
+    "id": "AbsoluteVerb_828",
+    "setId": "AbsoluteVerb",
+    "japanese": "波が立つ",
+    "reading": "なみがたつ",
+    "meaning": "파도가 일다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 826
+  },
+  {
+    "id": "AbsoluteVerb_829",
+    "setId": "AbsoluteVerb",
+    "japanese": "ほこりが立つ",
+    "reading": "ほこりがたつ",
+    "meaning": "먼지가 나다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 827
+  },
+  {
+    "id": "AbsoluteVerb_830",
+    "setId": "AbsoluteVerb",
+    "japanese": "うわさが立つ",
+    "reading": "うわさがたつ",
+    "meaning": "소문이 나다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 828
+  },
+  {
+    "id": "AbsoluteVerb_831",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が立つ",
+    "reading": "きがたつ",
+    "meaning": "신경이 곤두서다",
+    "type": "verb",
+    "difficulty": 32,
+    "verbInfo": "1자",
+    "sourceOrder": 829
+  },
+  {
+    "id": "AbsoluteVerb_832",
+    "setId": "AbsoluteVerb",
+    "japanese": "腹が立つ",
+    "reading": "はらがたつ",
+    "meaning": "화가 나다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 830
+  },
+  {
+    "id": "AbsoluteVerb_833",
+    "setId": "AbsoluteVerb",
+    "japanese": "顔が立てない",
+    "reading": "かおがたてない",
+    "meaning": "체면이 서지 않다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "표현",
+    "sourceOrder": 831
+  },
+  {
+    "id": "AbsoluteVerb_834",
+    "setId": "AbsoluteVerb",
+    "japanese": "席を立つ",
+    "reading": "せきをたつ",
+    "meaning": "자리를 뜨다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 832
+  },
+  {
+    "id": "AbsoluteVerb_835",
+    "setId": "AbsoluteVerb",
+    "japanese": "役に立つ",
+    "reading": "やくにたつ",
+    "meaning": "도움이 되다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 833
+  },
+  {
+    "id": "AbsoluteVerb_836",
+    "setId": "AbsoluteVerb",
+    "japanese": "鳥肌が立つ",
+    "reading": "とりはだがたつ",
+    "meaning": "닭살이 돋다, 소름이 끼치다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 834
+  },
+  {
+    "id": "AbsoluteVerb_837",
+    "setId": "AbsoluteVerb",
+    "japanese": "実力を付ける",
+    "reading": "じつりょくをつける",
+    "meaning": "실력을 기르다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 835
+  },
+  {
+    "id": "AbsoluteVerb_838",
+    "setId": "AbsoluteVerb",
+    "japanese": "ボタンを付ける",
+    "reading": "ぼたんをつける",
+    "meaning": "단추를 달다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2타",
+    "sourceOrder": 836
+  },
+  {
+    "id": "AbsoluteVerb_839",
+    "setId": "AbsoluteVerb",
+    "japanese": "カーテンを付ける",
+    "reading": "かーてんをつける",
+    "meaning": "커튼을 달다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "2타",
+    "sourceOrder": 837
+  },
+  {
+    "id": "AbsoluteVerb_840",
+    "setId": "AbsoluteVerb",
+    "japanese": "名前を付ける",
+    "reading": "なまえをつける",
+    "meaning": "이름을 붙이다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2타",
+    "sourceOrder": 838
+  },
+  {
+    "id": "AbsoluteVerb_841",
+    "setId": "AbsoluteVerb",
+    "japanese": "日記を付ける",
+    "reading": "にっきをつける",
+    "meaning": "일기를 쓰다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2타",
+    "sourceOrder": 839
+  },
+  {
+    "id": "AbsoluteVerb_842",
+    "setId": "AbsoluteVerb",
+    "japanese": "気を付ける",
+    "reading": "きをつける",
+    "meaning": "조심하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "2자",
+    "sourceOrder": 840
+  },
+  {
+    "id": "AbsoluteVerb_843",
+    "setId": "AbsoluteVerb",
+    "japanese": "火を付ける",
+    "reading": "ひをつける",
+    "meaning": "불을 붙이다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "2타",
+    "sourceOrder": 841
+  },
+  {
+    "id": "AbsoluteVerb_844",
+    "setId": "AbsoluteVerb",
+    "japanese": "身に付ける",
+    "reading": "みにつける",
+    "meaning": "입다, 지니다, (학문/기술을) 익히다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 842
+  },
+  {
+    "id": "AbsoluteVerb_845",
+    "setId": "AbsoluteVerb",
+    "japanese": "手を付ける",
+    "reading": "てをつける",
+    "meaning": "착수하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2타",
+    "sourceOrder": 843
+  },
+  {
+    "id": "AbsoluteVerb_846",
+    "setId": "AbsoluteVerb",
+    "japanese": "目を付ける",
+    "reading": "めをつける",
+    "meaning": "주목하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "2타",
+    "sourceOrder": 844
+  },
+  {
+    "id": "AbsoluteVerb_847",
+    "setId": "AbsoluteVerb",
+    "japanese": "理由を付ける",
+    "reading": "りゆうをつける",
+    "meaning": "이유를 대다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2타",
+    "sourceOrder": 845
+  },
+  {
+    "id": "AbsoluteVerb_848",
+    "setId": "AbsoluteVerb",
+    "japanese": "ためになる",
+    "reading": "ためになる",
+    "meaning": "도움이 되다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 846
+  },
+  {
+    "id": "AbsoluteVerb_849",
+    "setId": "AbsoluteVerb",
+    "japanese": "お金になる",
+    "reading": "おかねになる",
+    "meaning": "돈벌이가 되다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 847
+  },
+  {
+    "id": "AbsoluteVerb_850",
+    "setId": "AbsoluteVerb",
+    "japanese": "薬になる",
+    "reading": "くすりになる",
+    "meaning": "약이 되다, 도움이 되다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 848
+  },
+  {
+    "id": "AbsoluteVerb_851",
+    "setId": "AbsoluteVerb",
+    "japanese": "邪魔になる",
+    "reading": "じゃまになる",
+    "meaning": "방해가 되다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 849
+  },
+  {
+    "id": "AbsoluteVerb_852",
+    "setId": "AbsoluteVerb",
+    "japanese": "駄目になる",
+    "reading": "だめになる",
+    "meaning": "소용없게 되다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 850
+  },
+  {
+    "id": "AbsoluteVerb_853",
+    "setId": "AbsoluteVerb",
+    "japanese": "ふいになる",
+    "reading": "ふいになる",
+    "meaning": "허사가 되다",
+    "type": "verb",
+    "difficulty": 34,
+    "verbInfo": "1자",
+    "sourceOrder": 851
+  },
+  {
+    "id": "AbsoluteVerb_854",
+    "setId": "AbsoluteVerb",
+    "japanese": "お世話になる",
+    "reading": "おせわになる",
+    "meaning": "신세 지다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 852
+  },
+  {
+    "id": "AbsoluteVerb_855",
+    "setId": "AbsoluteVerb",
+    "japanese": "病気になる",
+    "reading": "びょうきになる",
+    "meaning": "병이 들다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "1자",
+    "sourceOrder": 853
+  },
+  {
+    "id": "AbsoluteVerb_856",
+    "setId": "AbsoluteVerb",
+    "japanese": "火事になる",
+    "reading": "かじになる",
+    "meaning": "불이 나다",
+    "type": "verb",
+    "difficulty": 20,
+    "verbInfo": "1자",
+    "sourceOrder": 854
+  },
+  {
+    "id": "AbsoluteVerb_857",
+    "setId": "AbsoluteVerb",
+    "japanese": "何とかなる",
+    "reading": "なんとかなる",
+    "meaning": "어떻게든 되다",
+    "type": "verb",
+    "difficulty": 24,
+    "verbInfo": "1자",
+    "sourceOrder": 855
+  },
+  {
+    "id": "AbsoluteVerb_858",
+    "setId": "AbsoluteVerb",
+    "japanese": "ものになる",
+    "reading": "ものになる",
+    "meaning": "쓸 만한 것이 되다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "1자",
+    "sourceOrder": 856
+  },
+  {
+    "id": "AbsoluteVerb_859",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が付く",
+    "reading": "きがつく",
+    "meaning": "알아차리다, 정신이 들다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 857
+  },
+  {
+    "id": "AbsoluteVerb_860",
+    "setId": "AbsoluteVerb",
+    "japanese": "気に入る",
+    "reading": "きにいる",
+    "meaning": "마음에 들다",
+    "type": "verb",
+    "difficulty": 22,
+    "verbInfo": "1자",
+    "sourceOrder": 858
+  },
+  {
+    "id": "AbsoluteVerb_861",
+    "setId": "AbsoluteVerb",
+    "japanese": "気になる",
+    "reading": "きになる",
+    "meaning": "걱정이 되다, 궁금하다",
+    "type": "verb",
+    "difficulty": 16,
+    "verbInfo": "1자",
+    "sourceOrder": 859
+  },
+  {
+    "id": "AbsoluteVerb_862",
+    "setId": "AbsoluteVerb",
+    "japanese": "気にする",
+    "reading": "きにする",
+    "meaning": "걱정하다, 의식하다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3타",
+    "sourceOrder": 860
+  },
+  {
+    "id": "AbsoluteVerb_863",
+    "setId": "AbsoluteVerb",
+    "japanese": "気がする",
+    "reading": "きがする",
+    "meaning": "생각/느낌/마음이 들다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "3자",
+    "sourceOrder": 861
+  },
+  {
+    "id": "AbsoluteVerb_864",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が短い",
+    "reading": "きがみじかい",
+    "meaning": "성질이 거칠다, 참을성이 없다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "い형",
+    "sourceOrder": 862
+  },
+  {
+    "id": "AbsoluteVerb_865",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が長い",
+    "reading": "きがながい",
+    "meaning": "성질이 너무 태평하다",
+    "type": "verb",
+    "difficulty": 30,
+    "verbInfo": "い형",
+    "sourceOrder": 863
+  },
+  {
+    "id": "AbsoluteVerb_866",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が散る",
+    "reading": "きがちる",
+    "meaning": "마음이 흐트러지다, 집중이 안 되다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 864
+  },
+  {
+    "id": "AbsoluteVerb_867",
+    "setId": "AbsoluteVerb",
+    "japanese": "気がある",
+    "reading": "きがある",
+    "meaning": "마음/관심이 있다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "1자",
+    "sourceOrder": 865
+  },
+  {
+    "id": "AbsoluteVerb_868",
+    "setId": "AbsoluteVerb",
+    "japanese": "気がない",
+    "reading": "きがない",
+    "meaning": "마음/관심이 없다",
+    "type": "verb",
+    "difficulty": 18,
+    "verbInfo": "い형",
+    "sourceOrder": 866
+  },
+  {
+    "id": "AbsoluteVerb_869",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が抜ける",
+    "reading": "きがぬける",
+    "meaning": "맥이 빠지다, 탄산/김이 빠지다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "2자",
+    "sourceOrder": 867
+  },
+  {
+    "id": "AbsoluteVerb_870",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が済む",
+    "reading": "きがすむ",
+    "meaning": "마음이 홀가분해지다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 868
+  },
+  {
+    "id": "AbsoluteVerb_871",
+    "setId": "AbsoluteVerb",
+    "japanese": "気が向く",
+    "reading": "きがむく",
+    "meaning": "기분이 내키다",
+    "type": "verb",
+    "difficulty": 28,
+    "verbInfo": "1자",
+    "sourceOrder": 869
   }
 ]

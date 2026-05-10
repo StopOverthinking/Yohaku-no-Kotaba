@@ -1,9 +1,8 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { Navigate, createBrowserRouter } from 'react-router-dom'
 import { App } from '@/app/App'
 import { ConjugationResultPage } from '@/features/conjugation/ConjugationResultPage'
 import { ConjugationSessionPage } from '@/features/conjugation/ConjugationSessionPage'
 import { ConjugationSetupPage } from '@/features/conjugation/ConjugationSetupPage'
-import { DebugPage } from '@/features/debug/DebugPage'
 import { EditorScreen } from '@/features/editor/EditorScreen'
 import { ExamResultPage } from '@/features/exam/ExamResultPage'
 import { ExamSessionPage } from '@/features/exam/ExamSessionPage'
@@ -16,9 +15,6 @@ import { LearnResultPage } from '@/features/learn/LearnResultPage'
 import { LearnSessionPage } from '@/features/learn/LearnSessionPage'
 import { LearnSetupPage } from '@/features/learn/LearnSetupPage'
 import { ListPage } from '@/features/list/ListPage'
-import { SmartReviewResultPage } from '@/features/smart-review/SmartReviewResultPage'
-import { SmartReviewSessionPage } from '@/features/smart-review/SmartReviewSessionPage'
-import { SmartReviewSetupPage } from '@/features/smart-review/SmartReviewSetupPage'
 
 export const router = createBrowserRouter(
   [
@@ -35,10 +31,6 @@ export const router = createBrowserRouter(
         { path: 'learn', element: <LearnSetupPage /> },
         { path: 'learn/session', element: <LearnSessionPage /> },
         { path: 'learn/result', element: <LearnResultPage /> },
-        { path: 'smart-review', element: <SmartReviewSetupPage /> },
-        { path: 'smart-review/session', element: <SmartReviewSessionPage /> },
-        { path: 'smart-review/result', element: <SmartReviewResultPage /> },
-        { path: 'debug', element: <DebugPage /> },
         { path: 'conjugation', element: <ConjugationSetupPage /> },
         { path: 'conjugation/session', element: <ConjugationSessionPage /> },
         { path: 'conjugation/result', element: <ConjugationResultPage /> },
@@ -48,6 +40,7 @@ export const router = createBrowserRouter(
         { path: 'game', element: <GameSetupPage /> },
         { path: 'game/session', element: <GameSessionPage /> },
         { path: 'game/result', element: <GameResultPage /> },
+        { path: '*', element: <Navigate to="/" replace /> },
       ],
     },
   ],

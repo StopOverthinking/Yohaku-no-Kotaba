@@ -1,4 +1,4 @@
-import type { ComparisonPair, ComparisonWordbook, SmartReviewPrompt, ThemeWordbook, ThemeWordbookTopic, VocabularySet, VocabularyWord } from '@/features/vocab/model/types'
+import type { ComparisonPair, ComparisonWordbook, ThemeWordbook, ThemeWordbookTopic, VocabularySet, VocabularyWord } from '@/features/vocab/model/types'
 import type { EditorSnapshot } from '@/features/editor/editorData'
 
 export const editorWorkspaceFiles = {
@@ -31,10 +31,7 @@ function cloneSets(sets: VocabularySet[]) {
 }
 
 function cloneWords(words: VocabularyWord[]) {
-  return words.map((word) => ({
-    ...word,
-    smartReviewPrompt: cloneSmartReviewPrompt(word.smartReviewPrompt),
-  }))
+  return words.map((word) => ({ ...word }))
 }
 
 function cloneThemeWordbooks(themeWordbooks: ThemeWordbook[]) {
@@ -125,50 +122,6 @@ function normalizeComparisonDescription(value: string | undefined) {
   return (value ?? '').replace(/\r\n?/g, '\n')
 }
 
-function normalizePromptText(value: string | undefined) {
-  return (value ?? '').replace(/\r\n?/g, '\n').trim()
-}
-
-export function cloneSmartReviewPrompt(prompt: SmartReviewPrompt | undefined) {
-  return prompt
-    ? {
-        japaneseSentence: prompt.japaneseSentence,
-        translationSentence: prompt.translationSentence,
-      }
-    : undefined
-}
-
-export function normalizeSmartReviewPrompt(prompt: SmartReviewPrompt | undefined) {
-  if (!prompt) return undefined
-
-  const japaneseSentence = normalizePromptText(prompt.japaneseSentence)
-  const translationSentence = normalizePromptText(prompt.translationSentence)
-
-  if (!japaneseSentence && !translationSentence) {
-    return undefined
-  }
-
-  return {
-    japaneseSentence,
-    translationSentence,
-  } satisfies SmartReviewPrompt
-}
-
-function normalizeWordSmartReviewPrompt<T extends VocabularyWord>(word: T): T {
-  const smartReviewPrompt = normalizeSmartReviewPrompt(word.smartReviewPrompt)
-  if (!smartReviewPrompt) {
-    return {
-      ...word,
-      smartReviewPrompt: undefined,
-    }
-  }
-
-  return {
-    ...word,
-    smartReviewPrompt,
-  }
-}
-
 function formatGeneratedWordId(prefix: string, index: number) {
   return `${prefix.replace(/[_-]+$/g, '')}_${index}`
 }
@@ -205,7 +158,6 @@ function normalizeWordsForParents(words: VocabularyWord[], orderedParentIds: str
 
       return compareWords(left, right)
     })
-    .map((word) => normalizeWordSmartReviewPrompt({ ...word }))
 
   const perParentOrder = new Map<string, number>()
   normalizedWords.forEach((word) => {
@@ -559,15 +511,6 @@ export function validateEditorSnapshot(snapshot: EditorSnapshot) {
       issues.push({ scope: 'word', id: word.id, field: 'difficulty', message: '난도 값 오류' })
     }
 
-    if (word.smartReviewPrompt) {
-      if (!word.smartReviewPrompt.japaneseSentence.includes('____')) {
-        issues.push({ scope: 'word', id: word.id, field: 'smartReviewPrompt', message: '예문 빈칸' })
-      }
-
-      if (!word.smartReviewPrompt.translationSentence.trim()) {
-        issues.push({ scope: 'word', id: word.id, field: 'smartReviewPrompt', message: '예문 번역' })
-      }
-    }
   })
 
   publishedThemeWordbooks.forEach((wordbook) => {
@@ -616,15 +559,6 @@ export function validateEditorSnapshot(snapshot: EditorSnapshot) {
       issues.push({ scope: 'themeWord', id: word.id, field: 'difficulty', message: '주제형 난도 값 오류' })
     }
 
-    if (word.smartReviewPrompt) {
-      if (!word.smartReviewPrompt.japaneseSentence.includes('____')) {
-        issues.push({ scope: 'themeWord', id: word.id, field: 'smartReviewPrompt', message: '주제형 예문 빈칸' })
-      }
-
-      if (!word.smartReviewPrompt.translationSentence.trim()) {
-        issues.push({ scope: 'themeWord', id: word.id, field: 'smartReviewPrompt', message: '주제형 예문 번역' })
-      }
-    }
   })
 
   snapshot.themeWordbooks.forEach((wordbook) => {

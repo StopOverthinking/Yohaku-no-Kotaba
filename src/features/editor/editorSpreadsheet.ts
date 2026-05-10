@@ -1,7 +1,7 @@
 import type { ColInfo, Range, WorkBook } from 'xlsx'
 import type { EditorSnapshot } from '@/features/editor/editorData'
-import { buildPublishedEditorSnapshot, normalizeEditorSnapshot, normalizeSmartReviewPrompt } from '@/features/editor/editorSerializer'
-import type { ComparisonPair, ComparisonWordbook, SmartReviewPrompt, ThemeWordbook, ThemeWordbookTopic, VocabularySet, VocabularyWord, WordType } from '@/features/vocab/model/types'
+import { buildPublishedEditorSnapshot, normalizeEditorSnapshot } from '@/features/editor/editorSerializer'
+import type { ComparisonPair, ComparisonWordbook, ThemeWordbook, ThemeWordbookTopic, VocabularySet, VocabularyWord, WordType } from '@/features/vocab/model/types'
 
 const basicInfoSheetName = 'basic_book'
 const basicWordsSheetName = 'basic_words'
@@ -12,9 +12,9 @@ const compareInfoSheetName = 'compare_book'
 const comparePairsSheetName = 'compare_pairs'
 
 const wordbookInfoColumns = ['세트 이름', '세트 ID', '단어 ID 접두사'] as const
-const basicWordColumns = ['#', 'JP', '読', 'KR', '유형', '난도', '동사', '例JP', '例KR', '_wordId'] as const
+const basicWordColumns = ['#', 'JP', '読', 'KR', '유형', '난도', '동사', '_wordId'] as const
 const themeTopicColumns = ['#', '주제', '_topicId'] as const
-const themeWordColumns = ['#', 'JP', '読', 'KR', '유형', '주제', '난도', '동사', '例JP', '例KR', '_wordId', '_topicId'] as const
+const themeWordColumns = ['#', 'JP', '読', 'KR', '유형', '주제', '난도', '동사', '_wordId', '_topicId'] as const
 const comparePairColumns = ['#', 'JP', '読', 'KR', '유형', '난도', '동사', '설명', '_pairId', '_side', '_wordId'] as const
 
 type WordbookInfoColumn = (typeof wordbookInfoColumns)[number]
@@ -97,13 +97,6 @@ function parseOptionalText(value: unknown) {
 
   const trimmed = value.trim()
   return trimmed ? trimmed : null
-}
-
-function parseSmartReviewPrompt(row: { '例JP'?: unknown; '例KR'?: unknown }): SmartReviewPrompt | undefined {
-  return normalizeSmartReviewPrompt({
-    japaneseSentence: String(row['例JP'] ?? ''),
-    translationSentence: String(row['例KR'] ?? ''),
-  })
 }
 
 function sanitizeFileSegment(value: string) {
@@ -245,8 +238,6 @@ function buildBasicWorkbook(
     유형: word.type,
     난도: word.difficulty ?? '',
     동사: word.verbInfo ?? '',
-    例JP: word.smartReviewPrompt?.japaneseSentence ?? '',
-    例KR: word.smartReviewPrompt?.translationSentence ?? '',
     _wordId: word.id,
   }))
 
@@ -262,8 +253,6 @@ function buildBasicWorkbook(
       { wch: 12 },
       { wch: 10 },
       { wch: 12 },
-      { wch: 42 },
-      { wch: 42 },
       { hidden: true, wch: 18 },
     ],
   )
@@ -319,8 +308,6 @@ function buildThemeWorkbook(
       주제: topic?.name ?? '',
       난도: word.difficulty ?? '',
       동사: word.verbInfo ?? '',
-      例JP: word.smartReviewPrompt?.japaneseSentence ?? '',
-      例KR: word.smartReviewPrompt?.translationSentence ?? '',
       _wordId: word.id,
       _topicId: topic?.id ?? '',
     }
@@ -339,8 +326,6 @@ function buildThemeWorkbook(
       { wch: 18 },
       { wch: 10 },
       { wch: 12 },
-      { wch: 42 },
-      { wch: 42 },
       { hidden: true, wch: 18 },
       { hidden: true, wch: 18 },
     ],
@@ -509,7 +494,6 @@ function parseBasicWorkbook(workbook: WorkBook, xlsx: Awaited<ReturnType<typeof 
       type: parseWordType(row['유형']),
       difficulty: parseDifficulty(row['난도']),
       verbInfo: parseOptionalText(row['동사']),
-      smartReviewPrompt: parseSmartReviewPrompt(row),
       sourceOrder: index,
     }))
 
@@ -569,7 +553,6 @@ function parseThemeWorkbook(workbook: WorkBook, xlsx: Awaited<ReturnType<typeof 
         type: parseWordType(row['유형']),
         difficulty: parseDifficulty(row['난도']),
         verbInfo: parseOptionalText(row['동사']),
-        smartReviewPrompt: parseSmartReviewPrompt(row),
         sourceOrder: index,
       }
 

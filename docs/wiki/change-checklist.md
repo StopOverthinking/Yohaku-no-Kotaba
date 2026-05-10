@@ -18,11 +18,6 @@
 - `docs/wiki/features/learn-mode.md`
 - 저장 규칙이 바뀌면 `docs/wiki/storage-and-share.md`
 
-## 스마트 복습 변경
-
-- `docs/wiki/features/smart-review.md`
-- 저장/백업 변경이면 `docs/wiki/storage-and-share.md`
-
 ## 활용형 변경
 
 - `docs/wiki/features/conjugation.md`
@@ -47,7 +42,7 @@
 - `docs/wiki/features/editor.md`
 - 데이터 형식 변경이면 `docs/wiki/features/vocab-data.md`
 
-## 설정/디버그 변경
+## 설정 변경
 
 - `docs/wiki/features/preferences-and-debug.md`
 - 전역 UI 원칙이 바뀌면 `docs/wiki/design-rules.md`

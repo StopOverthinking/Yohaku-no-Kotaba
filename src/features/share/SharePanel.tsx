@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, type ChangeEvent } from 'react'
 import {
-  Brain,
   ChevronLeft,
   ChevronRight,
   ClipboardCopy,
@@ -8,9 +7,7 @@ import {
   Database,
   Download,
   FileUp,
-  GitMerge,
   QrCode,
-  RefreshCcw,
   ScanSearch,
   X,
 } from 'lucide-react'
@@ -33,15 +30,6 @@ import {
   type QrImportSession,
   type QrShareFrames,
 } from '@/features/share/share'
-import { useSmartReviewStore } from '@/features/smart-review/smartReviewStore'
-import {
-  buildSmartReviewScheduleBackup,
-  canShareSmartReviewByQr,
-  downloadSmartReviewScheduleBackup,
-  getSmartReviewScheduleBackupText,
-  importSmartReviewScheduleBackup,
-  parseSmartReviewScheduleBackup,
-} from '@/features/smart-review/smartReviewScheduleShare'
 import styles from '@/features/share/share.module.css'
 
 type ShareStatus = {
@@ -69,9 +57,6 @@ type BarcodeDetectorLike = {
 }
 
 type BarcodeDetectorCtor = new (options?: { formats?: string[] }) => BarcodeDetectorLike
-
-type FileAction = 'app-import' | 'schedule-import-merge' | 'schedule-import-overwrite'
-type QrImportKind = 'app' | 'schedule-merge'
 
 type QrImportProgress = {
   received: number
@@ -103,14 +88,6 @@ const appActions = [
   { id: 'app-paste', icon: ClipboardPaste, label: '클립보드에서 불러오기', ariaLabel: '앱 클립보드에서 불러오기' },
   { id: 'app-import-file', icon: FileUp, label: '저장된 파일에서 불러오기', ariaLabel: '앱 저장된 파일에서 불러오기' },
   { id: 'app-qr-import', icon: ScanSearch, label: 'QR에서 불러오기', ariaLabel: '앱 QR에서 불러오기' },
-] as const
-
-const scheduleActions = [
-  { id: 'schedule-download', icon: Download, label: '파일로 저장', ariaLabel: '스마트 복습 파일로 저장' },
-  { id: 'schedule-qr-export', icon: QrCode, label: 'QR로 내보내기', ariaLabel: '스마트 복습 QR로 내보내기' },
-  { id: 'schedule-merge', icon: GitMerge, label: '파일과 병합하기', ariaLabel: '스마트 복습 파일과 병합하기' },
-  { id: 'schedule-overwrite', icon: RefreshCcw, label: '파일로 덮어쓰기', ariaLabel: '스마트 복습 파일로 덮어쓰기' },
-  { id: 'schedule-qr-import', icon: ScanSearch, label: 'QR과 병합하기', ariaLabel: '스마트 복습 QR과 병합하기' },
 ] as const
 
 async function configureQrImportTrack(track: MediaStreamTrack) {
@@ -169,13 +146,10 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
   const [isQrLoading, setIsQrLoading] = useState(false)
   const [qrError, setQrError] = useState<string | null>(null)
   const [isQrImportOpen, setIsQrImportOpen] = useState(false)
-  const [qrImportKind, setQrImportKind] = useState<QrImportKind>('app')
   const [qrImportStatus, setQrImportStatus] = useState('QR을 카메라 안에 맞춰 주세요.')
   const [qrImportError, setQrImportError] = useState<string | null>(null)
   const [qrImportProgress, setQrImportProgress] = useState<QrImportProgress | null>(null)
-  const [pendingFileAction, setPendingFileAction] = useState<FileAction | null>(null)
-  const [scheduleRecordCount, setScheduleRecordCount] = useState(0)
-  const [isScheduleQrEnabled, setIsScheduleQrEnabled] = useState(true)
+  const [pendingFileAction, setPendingFileAction] = useState<'app-import' | null>(null)
   const [confirmDialog, setConfirmDialog] = useState<ConfirmDialogState | null>(null)
   const confirmDialogRef = useRef<ConfirmDialogState | null>(null)
   const fileInputRef = useRef<HTMLInputElement | null>(null)
@@ -186,10 +160,6 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
   const qrImportLastScanAtRef = useRef(0)
   const qrImportSessionRef = useRef<QrImportSession | null>(null)
   const qrImportDecodingRef = useRef(false)
-
-  useEffect(() => {
-    void refreshSmartReviewMeta()
-  }, [])
 
   useEffect(() => {
     if (!isQrOpen || !qrShare || qrShare.frames.length <= 1) {
@@ -327,21 +297,6 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
     }
   }, [isQrImportOpen])
 
-  async function ensureSmartReviewReady() {
-    await useSmartReviewStore.getState().hydrate()
-  }
-
-  async function refreshSmartReviewMeta() {
-    try {
-      await ensureSmartReviewReady()
-      const backup = await buildSmartReviewScheduleBackup()
-      setScheduleRecordCount(backup.recordCount)
-      setIsScheduleQrEnabled(canShareSmartReviewByQr(backup.recordCount))
-    } catch (error) {
-      console.error('Failed to read smart review share metadata.', error)
-    }
-  }
-
   function stopQrImportScanner() {
     if (qrImportFrameRequestRef.current !== null) {
       window.cancelAnimationFrame(qrImportFrameRequestRef.current)
@@ -464,10 +419,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
 
     try {
       const text = await decodeQrImportSession(nextSession)
-      const restored =
-        qrImportKind === 'app'
-          ? await handleAppRestoreText(text, 'QR')
-          : await handleScheduleRestoreText(text, 'merge', 'QR')
+      const restored = await handleAppRestoreText(text, 'QR')
 
       if (!restored) {
         qrImportDecodingRef.current = false
@@ -537,44 +489,6 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
     return true
   }
 
-  async function handleScheduleRestoreText(rawText: string, mode: 'merge' | 'overwrite', sourceLabel: string) {
-    const parsed = parseSmartReviewScheduleBackup(rawText)
-    if (!parsed.ok) {
-      setStatus({ tone: 'error', message: parsed.error })
-      return false
-    }
-
-    const modeLabel = mode === 'merge' ? '병합' : '덮어쓰기'
-    const confirmLines =
-      mode === 'merge'
-        ? [
-            `${sourceLabel}의 스마트 복습 ${parsed.backup.recordCount}개를 병합할까요?`,
-            `현재 일정 ${scheduleRecordCount}개는 유지됩니다.`,
-            '같은 단어만 updatedAt이 더 최신인 쪽으로 바뀝니다.',
-            '파일에만 있는 단어는 추가되고, 현재에만 있는 단어는 그대로 남습니다.',
-          ]
-        : [
-            `${sourceLabel}의 스마트 복습 ${parsed.backup.recordCount}개로 덮어쓸까요?`,
-            `현재 일정 ${scheduleRecordCount}개를 모두 지우고 파일 내용으로 교체합니다.`,
-            '파일에 없는 단어 일정도 함께 사라집니다.',
-          ]
-
-    const confirmed = await requestConfirm(`스마트 복습 ${modeLabel}`, confirmLines, modeLabel)
-    if (!confirmed) {
-      setStatus({ tone: 'info', message: `스마트 복습 ${modeLabel}을 취소했어요.` })
-      return false
-    }
-
-    await importSmartReviewScheduleBackup(parsed.backup.data, mode)
-    await useSmartReviewStore.getState().hydrate()
-    await refreshSmartReviewMeta()
-    setStatus({
-      tone: 'success',
-      message: `스마트 복습 ${parsed.backup.recordCount}개를 ${modeLabel}했어요.`,
-    })
-    return true
-  }
-
   const handleAppCopy = async () => {
     const dataText = getShareDataText()
 
@@ -621,36 +535,8 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
     }
   }
 
-  const handleScheduleDownload = async () => {
-    await ensureSmartReviewReady()
-    const text = await getSmartReviewScheduleBackupText()
-    downloadSmartReviewScheduleBackup(text)
-    await refreshSmartReviewMeta()
-    setStatus({ tone: 'success', message: '스마트 복습 백업 파일을 저장했어요.' })
-  }
-
-  const handleScheduleQrExport = async () => {
-    await ensureSmartReviewReady()
-    const backup = await buildSmartReviewScheduleBackup()
-
-    if (!canShareSmartReviewByQr(backup.recordCount)) {
-      setStatus({
-        tone: 'info',
-        message: `QR은 ${backup.recordCount}개라서 숨겨져 있어요. 파일로 내보내 주세요.`,
-      })
-      return
-    }
-
-    await openQrShare(
-      '스마트 복습 QR',
-      '작은 복습 일정만 QR로 보낼 수 있어요.',
-      JSON.stringify(backup, null, 2),
-    )
-    setStatus({ tone: 'success', message: '스마트 복습 QR을 준비했어요.' })
-  }
-
-  const handleImportFileClick = (action: FileAction) => {
-    setPendingFileAction(action)
+  const handleImportFileClick = () => {
+    setPendingFileAction('app-import')
     fileInputRef.current?.click()
   }
 
@@ -663,24 +549,13 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
 
     try {
       const text = await file.text()
-
-      if (action === 'app-import') {
-        await handleAppRestoreText(text, file.name)
-        return
-      }
-
-      await handleScheduleRestoreText(text, action === 'schedule-import-merge' ? 'merge' : 'overwrite', file.name)
+      await handleAppRestoreText(text, file.name)
     } catch (error) {
       setStatus({
         tone: 'error',
         message: error instanceof Error ? error.message : '파일을 읽지 못했어요.',
       })
     }
-  }
-
-  const handleOpenQrImport = (kind: QrImportKind) => {
-    setQrImportKind(kind)
-    setIsQrImportOpen(true)
   }
 
   const handleCloseQr = () => {
@@ -717,29 +592,19 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
     await handleAppRestoreText(manualImportText, '붙여넣기')
   }
 
-  function renderActionGrid(
-    actions: ReadonlyArray<ShareAction>,
-    compact: boolean,
-    kind: 'app' | 'schedule',
-  ) {
+  function renderActionGrid(actions: ReadonlyArray<ShareAction>, compact: boolean) {
     return (
       <div className={compact ? styles.submenuGrid : styles.cardGrid}>
         {actions.map((action) => {
           const Icon = action.icon
-          const isDisabled = kind === 'schedule' && action.id === 'schedule-qr-export' && !isScheduleQrEnabled
 
           const onClick = async () => {
             if (action.id === 'app-copy') return handleAppCopy()
             if (action.id === 'app-download') return handleAppDownload()
             if (action.id === 'app-qr-export') return handleAppQrExport()
             if (action.id === 'app-paste') return handleAppClipboardImport()
-            if (action.id === 'app-import-file') return handleImportFileClick('app-import')
-            if (action.id === 'app-qr-import') return handleOpenQrImport('app')
-            if (action.id === 'schedule-download') return handleScheduleDownload()
-            if (action.id === 'schedule-qr-export') return handleScheduleQrExport()
-            if (action.id === 'schedule-merge') return handleImportFileClick('schedule-import-merge')
-            if (action.id === 'schedule-overwrite') return handleImportFileClick('schedule-import-overwrite')
-            if (action.id === 'schedule-qr-import') return handleOpenQrImport('schedule-merge')
+            if (action.id === 'app-import-file') return handleImportFileClick()
+            if (action.id === 'app-qr-import') return setIsQrImportOpen(true)
           }
 
           return (
@@ -749,7 +614,6 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
               aria-label={action.ariaLabel}
               className={compact ? styles.submenuButton : styles.shareCard}
               onClick={() => void onClick()}
-              disabled={isDisabled}
             >
               <span className={compact ? styles.submenuIcon : styles.shareIcon}>
                 <Icon size={compact ? 20 : 24} strokeWidth={1.9} />
@@ -766,7 +630,6 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
   const qrImportCountLabel = qrImportProgress
     ? `${qrImportProgress.received} / ${qrImportProgress.total}`
     : '대기'
-  const qrImportModeLabel = qrImportKind === 'app' ? '앱' : '복습'
 
   return (
     <>
@@ -784,7 +647,6 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
             <p className="section-kicker">Share</p>
             <h2 className="page-header__title">백업</h2>
           </div>
-          {!compact ? <p className="page-header__caption">앱 데이터와 스마트 복습 일정을 따로 다룹니다.</p> : null}
         </div>
 
         <div className={styles.sectionGroup}>
@@ -800,31 +662,9 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
                 </div>
               </div>
             </div>
-            {renderActionGrid(appActions, compact, 'app')}
-          </section>
-
-          <section className={styles.sectionBlock}>
-            <div className={styles.sectionHeader}>
-              <div className={styles.sectionTitle}>
-                <span className={styles.sectionBadge}>
-                  <Brain size={18} />
-                </span>
-                <div>
-                  <strong>스마트 복습</strong>
-                  <p>{scheduleRecordCount}개 일정</p>
-                </div>
-              </div>
-              {!isScheduleQrEnabled ? <span className="miniChip">QR 숨김</span> : null}
-            </div>
-            {renderActionGrid(scheduleActions, compact, 'schedule')}
+            {renderActionGrid(appActions, compact)}
           </section>
         </div>
-
-        {!compact ? (
-          <p className={styles.helper}>
-            스마트 복습 QR은 {scheduleRecordCount}개 중 200개 이하일 때만 열립니다.
-          </p>
-        ) : null}
 
         {status ? (
           <p className={styles.status} data-tone={status.tone}>
@@ -867,7 +707,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
                     {qrShare.currentIndex + 1} / {qrShare.frames.length}
                   </span>
                   <span className="miniChip">
-                    {qrShare.encoding === 'gzip' ? 'gzip' : 'plain'} · {qrShare.rawBytes}B → {qrShare.encodedBytes}B
+                    {qrShare.encoding === 'gzip' ? 'gzip' : 'plain'} · {qrShare.rawBytes}B {'->'} {qrShare.encodedBytes}B
                   </span>
                 </div>
                 <p className={styles.qrCaption}>
@@ -899,9 +739,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
             <div className={styles.modalHeader}>
               <div>
                 <p className="section-kicker">QR</p>
-                <h2 id="qr-import-title" className="page-header__title">
-                  {qrImportKind === 'app' ? '앱 복원' : '스마트 복습 병합'}
-                </h2>
+                <h2 id="qr-import-title" className="page-header__title">앱 복원</h2>
                 <p className="page-header__caption">카메라로 QR을 읽습니다.</p>
               </div>
               <IconButton icon={X} label="QR 가져오기 닫기" onClick={handleCloseQrImport} />
@@ -910,7 +748,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
             <div className={styles.qrImportLayout}>
               <div className={styles.qrImportStatusCard}>
                 <div className={styles.qrImportMeta}>
-                  <span className="miniChip">{qrImportModeLabel}</span>
+                  <span className="miniChip">앱</span>
                   <span className="miniChip">{qrImportCountLabel}</span>
                 </div>
 

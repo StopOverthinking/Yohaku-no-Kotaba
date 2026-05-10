@@ -18,10 +18,6 @@ function createSnapshot(): EditorSnapshot {
         type: 'verb',
         difficulty: 2,
         verbInfo: '1단',
-        smartReviewPrompt: {
-          japaneseSentence: '朝ごはんを ____。',
-          translationSentence: '아침밥을 먹다.',
-        },
         sourceOrder: 0,
       },
       {
@@ -69,10 +65,6 @@ function createSnapshot(): EditorSnapshot {
         type: 'verb',
         difficulty: 1,
         verbInfo: '1자',
-        smartReviewPrompt: {
-          japaneseSentence: '公園まで ____。',
-          translationSentence: '공원까지 달리다.',
-        },
         sourceOrder: 0,
       },
     ],
@@ -142,8 +134,8 @@ describe('editorSpreadsheet', () => {
     expect(infoRows[0]?.['세트 이름']).toBe('A 세트')
     expect(wordRows).toHaveLength(1)
     expect(wordRows[0]?.JP).toBe('食べる')
-    expect(wordRows[0]?.['例JP']).toBe('朝ごはんを ____。')
-    expect(wordRows[0]?.['例KR']).toBe('아침밥을 먹다.')
+    expect(wordRows[0]).not.toHaveProperty('例JP')
+    expect(wordRows[0]).not.toHaveProperty('例KR')
 
     const parsed = await parseEditorWorkbook(workbookBuffer, 'basic')
     expect(parsed.mode).toBe('basic')
@@ -162,10 +154,6 @@ describe('editorSpreadsheet', () => {
         id: 'WordA_1',
         setId: 'set-a',
         japanese: '食べる',
-        smartReviewPrompt: {
-          japaneseSentence: '朝ごはんを ____。',
-          translationSentence: '아침밥을 먹다.',
-        },
       }),
     ])
   })
@@ -233,7 +221,7 @@ describe('editorSpreadsheet', () => {
 
     expect(topicRows.map((row) => row['주제'])).toEqual(['움직임', '감정'])
     expect(wordRows[0]?.['주제']).toBe('움직임')
-    expect(wordRows[0]?.['例JP']).toBe('公園まで ____。')
+    expect(wordRows[0]).not.toHaveProperty('例JP')
 
     const parsed = await parseEditorWorkbook(workbookBuffer, 'theme')
     expect(parsed.mode).toBe('theme')
@@ -245,10 +233,6 @@ describe('editorSpreadsheet', () => {
       expect.objectContaining({
         japanese: '走る',
         setId: 'theme-a',
-        smartReviewPrompt: {
-          japaneseSentence: '公園まで ____。',
-          translationSentence: '공원까지 달리다.',
-        },
       }),
     ])
   })

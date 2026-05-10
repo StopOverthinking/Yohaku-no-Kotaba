@@ -2,11 +2,9 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import {
   BookOpen,
-  Bug,
   ClipboardCheck,
   FolderTree,
   MoonStar,
-  PenTool,
   RefreshCcw,
   RotateCcw,
   Sparkles,
@@ -18,13 +16,11 @@ import { useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
 import { Tooltip } from '@/components/Tooltip'
-import { formatDebugOffsetLabel, useDebugDateStore } from '@/features/debug/debugDateStore'
 import { useExamStore } from '@/features/exam/examStore'
 import { VocabularySetMenu } from '@/features/list/VocabularySetMenu'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { SharePanel } from '@/features/share/SharePanel'
 import { useLearnSessionStore } from '@/features/session/learnSessionStore'
-import { useSmartReviewStore } from '@/features/smart-review/smartReviewStore'
 import { useShouldReduceEffects } from '@/lib/useShouldReduceEffects'
 import styles from '@/features/home/home.module.css'
 
@@ -46,18 +42,14 @@ export function HomePage() {
   const clearExamSession = useExamStore((state) => state.clearSession)
   const lastExamResult = useExamStore((state) => state.lastResult)
   const clearExamResult = useExamStore((state) => state.clearResult)
-  const smartReviewSession = useSmartReviewStore((state) => state.session)
-  const clearSmartReviewSession = useSmartReviewStore((state) => state.clearSession)
   const themeMode = usePreferencesStore((state) => state.themeMode)
   const toggleThemeMode = usePreferencesStore((state) => state.toggleThemeMode)
-  const debugDayOffset = useDebugDateStore((state) => state.dayOffset)
   const shouldReduceEffects = useShouldReduceEffects()
   const [isCompactHomeLayout, setIsCompactHomeLayout] = useState(getCompactHomeLayoutMatch)
   const [openMenu, setOpenMenu] = useState<'vocabulary' | 'learn' | 'share' | null>(null)
   const nextThemeLabel = themeMode === 'dark' ? '라이트 모드' : '다크 모드'
   const themeToggleLabel = `${nextThemeLabel}로 전환`
   const ThemeIcon = themeMode === 'dark' ? SunMedium : MoonStar
-  const debugCaption = formatDebugOffsetLabel(debugDayOffset)
   const menuCardMotionProps = shouldReduceEffects
     ? {
         whileHover: undefined,
@@ -133,14 +125,6 @@ export function HomePage() {
     clearExamResult()
   }
 
-  const handleDiscardSmartReviewSession = () => {
-    if (!window.confirm('진행 중인 스마트 복습을 종료할까요?')) {
-      return
-    }
-
-    clearSmartReviewSession()
-  }
-
   const renderOpenMenuPanel = (menu: 'vocabulary' | 'learn' | 'share') => {
     if (openMenu !== menu) {
       return null
@@ -177,20 +161,6 @@ export function HomePage() {
             </div>
 
             <div className={styles.submenuGrid}>
-              <motion.button
-                type="button"
-                className={`glass-panel glass-padding-md ${styles.submenuCard}`}
-                {...submenuCardMotionProps}
-                onClick={() => navigate('/smart-review')}
-              >
-                <span className={styles.submenuIcon}>
-                  <PenTool size={22} />
-                </span>
-                <div>
-                  <h3 className={styles.submenuTitle}>스마트 복습</h3>
-                </div>
-              </motion.button>
-
               <motion.button
                 type="button"
                 className={`glass-panel glass-padding-md ${styles.submenuCard}`}
@@ -310,41 +280,6 @@ export function HomePage() {
         </GlassPanel>
       ) : null}
 
-      {smartReviewSession ? (
-        <GlassPanel className={styles.resumeBanner} variant="floating">
-          <div>
-            <p className="section-kicker">스마트 복습</p>
-            <h2 className="page-header__title">{smartReviewSession.setName} 스마트 복습이 진행 중이에요.</h2>
-            <p className="page-header__caption">
-              {smartReviewSession.round}회차 카드 {smartReviewSession.currentIndex + 1}/{smartReviewSession.activeQueue.length}
-            </p>
-          </div>
-          <div className={styles.resumeActions}>
-            <Tooltip label="스마트 복습 이어하기">
-              <span>
-                <IconButton
-                  icon={RotateCcw}
-                  label="스마트 복습 이어하기"
-                  size="lg"
-                  onClick={() => navigate('/smart-review/session')}
-                />
-              </span>
-            </Tooltip>
-            <Tooltip label="스마트 복습 종료">
-              <span>
-                <IconButton
-                  icon={X}
-                  label="스마트 복습 종료"
-                  tone="danger"
-                  size="lg"
-                  onClick={handleDiscardSmartReviewSession}
-                />
-              </span>
-            </Tooltip>
-          </div>
-        </GlassPanel>
-      ) : null}
-
       {!examSession && lastExamResult ? (
         <GlassPanel className={styles.resumeBanner} variant="floating">
           <div>
@@ -418,7 +353,7 @@ export function HomePage() {
                 <Sparkles size={28} />
               </span>
               <h2 className="page-header__title">학습</h2>
-              <p className={styles.actionCaption}>스마트 복습, 일반 학습, 동사 활용, 시험 모드, 게임 모드</p>
+              <p className={styles.actionCaption}>일반 학습, 동사 활용, 시험 모드, 게임 모드</p>
             </div>
           </motion.button>
           {isCompactHomeLayout ? <AnimatePresence initial={false}>{renderOpenMenuPanel('learn')}</AnimatePresence> : null}
@@ -441,21 +376,6 @@ export function HomePage() {
           </motion.button>
           {isCompactHomeLayout ? <AnimatePresence initial={false}>{renderOpenMenuPanel('share')}</AnimatePresence> : null}
 
-          <motion.button
-            type="button"
-            className={`glass-panel glass-padding-lg ${styles.actionCard}`}
-            data-menu="debug"
-            {...menuCardMotionProps}
-            onClick={() => navigate('/debug')}
-          >
-            <div className={styles.actionMeta}>
-              <span className={styles.actionIcon}>
-                <Bug size={28} />
-              </span>
-              <h2 className="page-header__title">디버그</h2>
-              <p className={styles.actionCaption}>{debugCaption}</p>
-            </div>
-          </motion.button>
         </div>
 
         {!isCompactHomeLayout ? <AnimatePresence initial={false}>{openMenu ? renderOpenMenuPanel(openMenu) : null}</AnimatePresence> : null}

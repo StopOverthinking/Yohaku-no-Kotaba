@@ -9,6 +9,7 @@ const EXCLUDED_SHARE_KEYS = new Set([
   'jsp-react:smart-review-session',
   'jsp-react:smart-review-result',
   'jsp-react:smart-review-storage',
+  'jsp-react:debug-date',
 ])
 
 type StorageLike = Pick<Storage, 'getItem' | 'key' | 'length'>
@@ -199,6 +200,24 @@ function toStorageString(value: unknown) {
   return JSON.stringify(value)
 }
 
+function sanitizeShareEntry(key: string, value: string) {
+  if (key !== 'jsp-react:preferences') {
+    return value
+  }
+
+  try {
+    const parsed = JSON.parse(value) as { state?: Record<string, unknown> }
+    if (!parsed.state || !('smartReviewWordCount' in parsed.state)) {
+      return value
+    }
+
+    delete parsed.state.smartReviewWordCount
+    return JSON.stringify(parsed)
+  } catch {
+    return value
+  }
+}
+
 function parseJsonString(value: string) {
   try {
     return JSON.parse(value)
@@ -240,7 +259,7 @@ function normalizeLegacyEntries(rawData: Record<string, unknown>) {
       if (EXCLUDED_SHARE_KEYS.has(key)) {
         continue
       }
-      mapped[key] = toStorageString(value)
+      mapped[key] = sanitizeShareEntry(key, toStorageString(value))
       continue
     }
 
@@ -301,7 +320,7 @@ export function buildBackupEnvelope(storage?: StorageLike): ShareBackupEnvelope 
   const data: Record<string, string> = {}
 
   for (const key of keys) {
-    data[key] = target.getItem(key) ?? ''
+    data[key] = sanitizeShareEntry(key, target.getItem(key) ?? '')
   }
 
   return {

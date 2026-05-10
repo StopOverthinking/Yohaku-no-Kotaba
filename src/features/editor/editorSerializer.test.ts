@@ -26,10 +26,6 @@ function createSnapshot(): EditorSnapshot {
         type: 'verb',
         difficulty: 2,
         verbInfo: '2타',
-        smartReviewPrompt: {
-          japaneseSentence: '朝ごはんを ____。',
-          translationSentence: '아침밥을 먹다.',
-        },
         sourceOrder: 1,
       },
       {
@@ -41,10 +37,6 @@ function createSnapshot(): EditorSnapshot {
         type: 'verb',
         difficulty: 1,
         verbInfo: '1자',
-        smartReviewPrompt: {
-          japaneseSentence: '学校へ ____。',
-          translationSentence: '학교에 가다.',
-        },
         sourceOrder: 0,
       },
     ],
@@ -82,10 +74,6 @@ function createSnapshot(): EditorSnapshot {
         type: 'verb',
         difficulty: 1,
         verbInfo: '1자',
-        smartReviewPrompt: {
-          japaneseSentence: '学校へ ____。',
-          translationSentence: '학교에 가다.',
-        },
         sourceOrder: 0,
       },
     ],
@@ -317,10 +305,10 @@ describe('editorSerializer', () => {
     expect(outputs[0]?.path.join('/')).toContain('editor-data/vocabularySets.json')
     expect(outputs[0]?.content).toContain('"wordIdPrefix": "WordA"')
     expect(outputs[1]?.content).toContain('"id": "WordA_1"')
-    expect(outputs[1]?.content).toContain('"smartReviewPrompt"')
+    expect(outputs[1]?.content).not.toContain('japaneseSentence')
     expect(outputs[2]?.content).toContain('"wordIdPrefix": "ThemeWord"')
     expect(outputs[3]?.content).toContain('"id": "ThemeWord_1"')
-    expect(outputs[3]?.content).toContain('"translationSentence": "학교에 가다."')
+    expect(outputs[3]?.content).not.toContain('translationSentence')
     expect(outputs[4]?.content).toContain('"wordIdPrefix": "CompareWord"')
     expect(outputs[5]?.content).toContain('"id": "CompareWord_1"')
     expect(outputs[6]?.content).toContain('"id": "compare-a_pair_1"')
