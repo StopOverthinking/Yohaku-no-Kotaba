@@ -16342,9 +16342,9 @@ export const vocabularyWords: VocabularyWord[] = [
     "japanese": "顔が立てない",
     "reading": "かおがたてない",
     "meaning": "체면이 서지 않다",
-    "type": "verb",
+    "type": "expression",
     "difficulty": 34,
-    "verbInfo": "표현",
+    "verbInfo": null,
     "sourceOrder": 831
   },
   {
@@ -16683,9 +16683,9 @@ export const vocabularyWords: VocabularyWord[] = [
     "japanese": "気が短い",
     "reading": "きがみじかい",
     "meaning": "성질이 거칠다, 참을성이 없다",
-    "type": "verb",
+    "type": "i_adj",
     "difficulty": 30,
-    "verbInfo": "い형",
+    "verbInfo": null,
     "sourceOrder": 862
   },
   {
@@ -16694,9 +16694,9 @@ export const vocabularyWords: VocabularyWord[] = [
     "japanese": "気が長い",
     "reading": "きがながい",
     "meaning": "성질이 너무 태평하다",
-    "type": "verb",
+    "type": "i_adj",
     "difficulty": 30,
-    "verbInfo": "い형",
+    "verbInfo": null,
     "sourceOrder": 863
   },
   {
@@ -16727,9 +16727,9 @@ export const vocabularyWords: VocabularyWord[] = [
     "japanese": "気がない",
     "reading": "きがない",
     "meaning": "마음/관심이 없다",
-    "type": "verb",
+    "type": "i_adj",
     "difficulty": 18,
-    "verbInfo": "い형",
+    "verbInfo": null,
     "sourceOrder": 866
   },
   {
