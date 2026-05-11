@@ -49,7 +49,7 @@
 - 일반 학습: `localStorage`
 - 시험: `localStorage`
 - 활용형: `localStorage`
-- 게임 기록: `localStorage`
+- 게임 진행 중 세션/최근 결과/기록: `localStorage`
 
 ## 데이터 원천
 
@@ -72,6 +72,7 @@
 - `ScreenFrame`이 앱 외곽 레이아웃을 감싼다.
 - `App`은 페이지 전환 시 무거운 blur/scale 대신 가벼운 `opacity + y`만 쓴다.
 - `useShouldReduceEffects`가 효과 축소 조건을 결정한다.
+- 백그라운드 복귀 중 페이지가 재생성될 수 있으므로 세션 스토어는 필요한 진행 상태를 저장하고 hydrate로 복구한다.
 
 ## 공통 설계 원칙
 

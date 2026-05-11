@@ -10,10 +10,18 @@ import {
 } from '@/features/game/gameEngine'
 import { applyTapMatchRushSelection, createTapMatchRushSession, recordTapMatchRushResult } from '@/features/game/tapMatchRushEngine'
 import {
+  clearGameResult,
+  clearGameSessionRecord,
+  loadGameLastSetup,
+  loadGameResult,
+  loadGameSessionRecord,
   loadBotHistory,
   loadPlayerMmr,
   loadSingleModeRecords,
   loadTapMatchRushRecords,
+  saveGameLastSetup,
+  saveGameResult,
+  saveGameSessionRecord,
   saveBotHistory,
   savePlayerMmr,
   saveSingleModeRecords,
@@ -34,6 +42,7 @@ type GameState = {
   session: GameSessionRecord | null
   lastResult: GameResult | null
   lastSetup: GameSetupPayload | null
+  hydrate: () => void
   startGame: (payload: GameSetupPayload) => void
   restartLastGame: () => boolean
   recordPlayerAnswer: (params: {
@@ -49,15 +58,43 @@ type GameState = {
   clearResult: () => void
 }
 
+function loadInitialGameState() {
+  if (typeof window === 'undefined') {
+    return {
+      session: null,
+      lastResult: null,
+      lastSetup: null,
+    }
+  }
+
+  return {
+    session: loadGameSessionRecord(),
+    lastResult: loadGameResult(),
+    lastSetup: loadGameLastSetup(),
+  }
+}
+
+const initialGameState = loadInitialGameState()
+
 export const useGameStore = create<GameState>((set, get) => ({
-  session: null,
-  lastResult: null,
-  lastSetup: null,
+  session: initialGameState.session,
+  lastResult: initialGameState.lastResult,
+  lastSetup: initialGameState.lastSetup,
+  hydrate: () => {
+    set({
+      session: loadGameSessionRecord(),
+      lastResult: loadGameResult(),
+      lastSetup: loadGameLastSetup(),
+    })
+  },
   startGame: (payload) => {
     const session = payload.gameKind === 'tap_match_rush'
       ? createTapMatchRushSession(payload)
       : createGameSession(payload, payload.mode === 'bot' ? loadBotHistory(payload.quizType) : [])
 
+    saveGameLastSetup(payload)
+    saveGameSessionRecord(session)
+    clearGameResult()
     set({
       session,
       lastResult: null,
@@ -78,6 +115,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     const result = applyPlayerAnswer(session, params)
     if (!result) return null
 
+    saveGameSessionRecord(result.nextSession)
     set({ session: result.nextSession })
     return result.resolution
   },
@@ -88,6 +126,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     const result = applyTapMatchRushSelection(session, cardId)
     if (!result) return null
 
+    saveGameSessionRecord(result.nextSession)
     set({ session: result.nextSession })
     return result.resolution
   },
@@ -98,6 +137,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     const result = applyBotTurn(session, params)
     if (!result) return null
 
+    saveGameSessionRecord(result.nextSession)
     set({ session: result.nextSession })
     return result.resolution
   },
@@ -105,15 +145,18 @@ export const useGameStore = create<GameState>((set, get) => ({
     const session = get().session
     if (!session || session.gameKind !== 'speed_quiz' || !session.bot) return
 
-    set({
-      session: {
-        ...session,
-        bot: {
-          ...session.bot,
-          surrendered: true,
-          finished: true,
-        },
+    const nextSession: GameSessionRecord = {
+      ...session,
+      bot: {
+        ...session.bot,
+        surrendered: true,
+        finished: true,
       },
+    }
+
+    saveGameSessionRecord(nextSession)
+    set({
+      session: nextSession,
     })
   },
   finalizeGame: () => {
@@ -146,6 +189,8 @@ export const useGameStore = create<GameState>((set, get) => ({
         tapMatchRushRecords,
       }
 
+      clearGameSessionRecord()
+      saveGameResult(result)
       set({
         session: null,
         lastResult: result,
@@ -210,11 +255,19 @@ export const useGameStore = create<GameState>((set, get) => ({
       bot: botResult,
     }
 
+    clearGameSessionRecord()
+    saveGameResult(result)
     set({
       session: null,
       lastResult: result,
     })
   },
-  abandonGame: () => set({ session: null }),
-  clearResult: () => set({ lastResult: null }),
+  abandonGame: () => {
+    clearGameSessionRecord()
+    set({ session: null })
+  },
+  clearResult: () => {
+    clearGameResult()
+    set({ lastResult: null })
+  },
 }))

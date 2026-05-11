@@ -1,4 +1,4 @@
-import { memo, startTransition, type KeyboardEvent, type MouseEvent, type PointerEvent as ReactPointerEvent, useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { memo, startTransition, type CSSProperties, type KeyboardEvent, type MouseEvent, type PointerEvent as ReactPointerEvent, useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { BookOpen, Heart, Search, Undo2, ZoomIn, ZoomOut } from 'lucide-react'
 import type { LucideProps } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
@@ -113,10 +113,59 @@ type ScheduledAfterPaintTask = {
 type PendingHidePreferenceCommit = ScheduledAfterPaintTask & {
   next: boolean
 }
+type PendingFontScalePreferenceCommit = ScheduledAfterPaintTask & {
+  next: number
+}
+type FontScaleDirection = 'decrease' | 'increase'
 
 const HIDE_TARGETS: HideTarget[] = ['japanese', 'meaning']
 const TOUCH_CLICK_SUPPRESSION_MS = 420
 const TAP_MOVE_THRESHOLD_PX = 8
+const MIN_LIST_FONT_SCALE = 0
+const MAX_LIST_FONT_SCALE = 6
+const LIST_FONT_SCALE_PRESETS = [
+  { jp: '1.02rem', reading: '0.76rem', meaning: '0.82rem' },
+  { jp: '1.12rem', reading: '0.82rem', meaning: '0.88rem' },
+  { jp: '1.22rem', reading: '0.88rem', meaning: '0.94rem' },
+  { jp: '1.32rem', reading: '0.94rem', meaning: '1rem' },
+  { jp: '1.44rem', reading: '1rem', meaning: '1.08rem' },
+  { jp: '1.56rem', reading: '1.08rem', meaning: '1.16rem' },
+  { jp: '1.7rem', reading: '1.16rem', meaning: '1.24rem' },
+] as const
+
+function clampListFontScale(next: number) {
+  const normalized = Number.isFinite(next) ? Math.trunc(next) : 3
+
+  return Math.max(MIN_LIST_FONT_SCALE, Math.min(MAX_LIST_FONT_SCALE, normalized))
+}
+
+function getListFontScalePreset(fontScale: number) {
+  return LIST_FONT_SCALE_PRESETS[clampListFontScale(fontScale)] ?? LIST_FONT_SCALE_PRESETS[3]
+}
+
+function getListFontScaleStyle(fontScale: number): CSSProperties {
+  const preset = getListFontScalePreset(fontScale)
+
+  return {
+    '--list-jp-size': preset.jp,
+    '--list-reading-size': preset.reading,
+    '--list-meaning-size': preset.meaning,
+  } as CSSProperties
+}
+
+function applyListFontScaleStyle(root: HTMLElement | null, fontScale: number) {
+  if (!root) {
+    return
+  }
+
+  const nextFontScale = clampListFontScale(fontScale)
+  const preset = getListFontScalePreset(nextFontScale)
+
+  root.dataset.listFontScale = String(nextFontScale)
+  root.style.setProperty('--list-jp-size', preset.jp)
+  root.style.setProperty('--list-reading-size', preset.reading)
+  root.style.setProperty('--list-meaning-size', preset.meaning)
+}
 
 function scheduleAfterNextPaint(callback: () => void): ScheduledAfterPaintTask {
   if (typeof window === 'undefined') {
@@ -494,6 +543,7 @@ export function ListPage() {
     japanese: hideJapaneseInList,
     meaning: hideMeaningInList,
   }))
+  const [optimisticFontScale, setOptimisticFontScale] = useState(() => clampListFontScale(listFontScale))
   const [revealedCards, setRevealedCards] = useState<Record<string, RevealedCardState>>({})
   const deferredQuery = useDeferredValue(query)
   const [toolbarVisible, setToolbarVisible] = useState(true)
@@ -507,7 +557,13 @@ export function ListPage() {
     japanese: null,
     meaning: null,
   })
+  const optimisticFontScaleRef = useRef(optimisticFontScale)
+  const pendingFontScalePreferenceCommitRef = useRef<PendingFontScalePreferenceCommit | null>(null)
   const suppressHideClickRef = useRef<Record<HideTarget, boolean>>({ japanese: false, meaning: false })
+  const suppressFontScaleClickRef = useRef<Record<FontScaleDirection, boolean>>({
+    decrease: false,
+    increase: false,
+  })
   const effectiveHideJapaneseInList = optimisticHideState.japanese
   const effectiveHideMeaningInList = optimisticHideState.meaning
   const wrongAnswerWords = useMemo(
@@ -536,6 +592,17 @@ export function ListPage() {
       return next.japanese === current.japanese && next.meaning === current.meaning ? current : next
     })
   }, [hideJapaneseInList, hideMeaningInList])
+
+  useEffect(() => {
+    if (pendingFontScalePreferenceCommitRef.current) {
+      return
+    }
+
+    const nextFontScale = clampListFontScale(listFontScale)
+
+    optimisticFontScaleRef.current = nextFontScale
+    setOptimisticFontScale((current) => (current === nextFontScale ? current : nextFontScale))
+  }, [listFontScale])
 
   const baseWords = useMemo(() => {
     if (resolvedSetId === 'wrong_answers') {
@@ -698,24 +765,11 @@ export function ListPage() {
     toggleFavorite(wordId)
   }, [toggleFavorite])
 
-  const fontScaleStyle = useMemo(() => {
-    const presets = [
-      { jp: '1.02rem', reading: '0.76rem', meaning: '0.82rem' },
-      { jp: '1.12rem', reading: '0.82rem', meaning: '0.88rem' },
-      { jp: '1.22rem', reading: '0.88rem', meaning: '0.94rem' },
-      { jp: '1.32rem', reading: '0.94rem', meaning: '1rem' },
-      { jp: '1.44rem', reading: '1rem', meaning: '1.08rem' },
-      { jp: '1.56rem', reading: '1.08rem', meaning: '1.16rem' },
-      { jp: '1.7rem', reading: '1.16rem', meaning: '1.24rem' },
-    ]
-    const preset = presets[listFontScale] ?? presets[3]
+  const fontScaleStyle = useMemo(() => getListFontScaleStyle(optimisticFontScale), [optimisticFontScale])
 
-    return {
-      ['--list-jp-size' as string]: preset.jp,
-      ['--list-reading-size' as string]: preset.reading,
-      ['--list-meaning-size' as string]: preset.meaning,
-    }
-  }, [listFontScale])
+  useLayoutEffect(() => {
+    applyListFontScaleStyle(rootRef.current, optimisticFontScale)
+  }, [optimisticFontScale])
 
   const keepToolbarVisible = useCallback(() => {
     const now = typeof performance === 'undefined' ? Date.now() : performance.now()
@@ -754,20 +808,45 @@ export function ListPage() {
     }
   }, [commitHidePreference])
 
+  const commitFontScalePreference = useCallback((next: number) => {
+    const nextFontScale = clampListFontScale(next)
+
+    if (usePreferencesStore.getState().listFontScale !== nextFontScale) {
+      setListFontScale(nextFontScale)
+    }
+  }, [setListFontScale])
+
+  const flushPendingFontScalePreferenceCommit = useCallback(() => {
+    const pendingCommit = pendingFontScalePreferenceCommitRef.current
+
+    if (!pendingCommit) {
+      return
+    }
+
+    pendingCommit.cancel()
+    pendingFontScalePreferenceCommitRef.current = null
+    commitFontScalePreference(pendingCommit.next)
+  }, [commitFontScalePreference])
+
+  const flushPendingPreferenceCommits = useCallback(() => {
+    flushPendingHidePreferenceCommits()
+    flushPendingFontScalePreferenceCommit()
+  }, [flushPendingFontScalePreferenceCommit, flushPendingHidePreferenceCommits])
+
   useEffect(() => {
     return () => {
-      flushPendingHidePreferenceCommits()
+      flushPendingPreferenceCommits()
     }
-  }, [flushPendingHidePreferenceCommits])
+  }, [flushPendingPreferenceCommits])
 
   useEffect(() => {
     if (typeof window === 'undefined') {
       return undefined
     }
 
-    window.addEventListener('pagehide', flushPendingHidePreferenceCommits)
-    return () => window.removeEventListener('pagehide', flushPendingHidePreferenceCommits)
-  }, [flushPendingHidePreferenceCommits])
+    window.addEventListener('pagehide', flushPendingPreferenceCommits)
+    return () => window.removeEventListener('pagehide', flushPendingPreferenceCommits)
+  }, [flushPendingPreferenceCommits])
 
   const scheduleHidePreferenceCommit = useCallback((target: HideTarget, next: boolean) => {
     pendingHidePreferenceCommitsRef.current[target]?.cancel()
@@ -789,6 +868,28 @@ export function ListPage() {
       })
     }).cancel
   }, [commitHidePreference])
+
+  const scheduleFontScalePreferenceCommit = useCallback((next: number) => {
+    pendingFontScalePreferenceCommitRef.current?.cancel()
+
+    const nextFontScale = clampListFontScale(next)
+    const pendingCommit: PendingFontScalePreferenceCommit = {
+      next: nextFontScale,
+      cancel: () => undefined,
+    }
+
+    pendingFontScalePreferenceCommitRef.current = pendingCommit
+    pendingCommit.cancel = scheduleAfterNextPaint(() => {
+      if (pendingFontScalePreferenceCommitRef.current !== pendingCommit) {
+        return
+      }
+
+      pendingFontScalePreferenceCommitRef.current = null
+      startTransition(() => {
+        commitFontScalePreference(nextFontScale)
+      })
+    }).cancel
+  }, [commitFontScalePreference])
 
   const applyImmediateHideToggle = useCallback((target: HideTarget, control?: HTMLElement) => {
     const current = getListHideDataset(rootRef.current, target, optimisticHideState[target])
@@ -828,6 +929,43 @@ export function ListPage() {
 
     applyImmediateHideToggle(target, event.currentTarget)
   }, [applyImmediateHideToggle])
+
+  const applyImmediateFontScaleDelta = useCallback((delta: number) => {
+    const nextFontScale = clampListFontScale(optimisticFontScaleRef.current + delta)
+
+    keepToolbarVisible()
+
+    if (nextFontScale === optimisticFontScaleRef.current) {
+      return
+    }
+
+    optimisticFontScaleRef.current = nextFontScale
+    applyListFontScaleStyle(rootRef.current, nextFontScale)
+    setOptimisticFontScale(nextFontScale)
+    scheduleFontScalePreferenceCommit(nextFontScale)
+  }, [keepToolbarVisible, scheduleFontScalePreferenceCommit])
+
+  const handleFontScalePointerDown = useCallback((direction: FontScaleDirection, event: ReactPointerEvent<HTMLButtonElement>) => {
+    if (event.pointerType === 'mouse' || event.button > 0) {
+      return
+    }
+
+    event.preventDefault()
+    suppressFontScaleClickRef.current[direction] = true
+    window.setTimeout(() => {
+      suppressFontScaleClickRef.current[direction] = false
+    }, TOUCH_CLICK_SUPPRESSION_MS)
+    applyImmediateFontScaleDelta(direction === 'increase' ? 1 : -1)
+  }, [applyImmediateFontScaleDelta])
+
+  const handleFontScaleClick = useCallback((direction: FontScaleDirection) => {
+    if (suppressFontScaleClickRef.current[direction]) {
+      suppressFontScaleClickRef.current[direction] = false
+      return
+    }
+
+    applyImmediateFontScaleDelta(direction === 'increase' ? 1 : -1)
+  }, [applyImmediateFontScaleDelta])
 
   useEffect(() => {
     lastScrollYRef.current = window.scrollY
@@ -885,7 +1023,14 @@ export function ListPage() {
   }, [])
 
   return (
-    <div ref={rootRef} className={styles.root} style={fontScaleStyle} data-hide-japanese={effectiveHideJapaneseInList} data-hide-meaning={effectiveHideMeaningInList}>
+    <div
+      ref={rootRef}
+      className={styles.root}
+      style={fontScaleStyle}
+      data-hide-japanese={effectiveHideJapaneseInList}
+      data-hide-meaning={effectiveHideMeaningInList}
+      data-list-font-scale={optimisticFontScale}
+    >
       <div className="page-header">
         <div className="page-header__left">
           <Tooltip label="홈으로 이동">
@@ -975,11 +1120,9 @@ export function ListPage() {
                     <IconButton
                       icon={ZoomOut}
                       label="글자 작게"
-                      onClick={() => {
-                        keepToolbarVisible()
-                        setListFontScale(listFontScale - 1)
-                      }}
-                      disabled={listFontScale <= 0}
+                      onPointerDown={(event) => handleFontScalePointerDown('decrease', event)}
+                      onClick={() => handleFontScaleClick('decrease')}
+                      disabled={optimisticFontScale <= MIN_LIST_FONT_SCALE}
                     />
                   </span>
                 </Tooltip>
@@ -988,11 +1131,9 @@ export function ListPage() {
                     <IconButton
                       icon={ZoomIn}
                       label="글자 크게"
-                      onClick={() => {
-                        keepToolbarVisible()
-                        setListFontScale(listFontScale + 1)
-                      }}
-                      disabled={listFontScale >= 6}
+                      onPointerDown={(event) => handleFontScalePointerDown('increase', event)}
+                      onClick={() => handleFontScaleClick('increase')}
+                      disabled={optimisticFontScale >= MAX_LIST_FONT_SCALE}
                     />
                   </span>
                 </Tooltip>

@@ -33,6 +33,7 @@
 
 - 세션: `localStorage`
 - 결과: `localStorage`
+- 입력 중 답안 draft도 세션 안에 저장
 - 완료 시 세션 삭제 후 결과 저장
 
 ## UI 규칙

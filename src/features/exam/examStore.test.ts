@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 import { useExamStore } from '@/features/exam/examStore'
 import { EXAM_MANUAL_UNDO_LIMIT } from '@/features/exam/examTypes'
-import { loadExamWrongAnswerIds, saveExamWrongAnswerIds } from '@/features/exam/examStorage'
+import { loadExamSessionRecord, loadExamWrongAnswerIds, saveExamWrongAnswerIds } from '@/features/exam/examStorage'
 import { allWords } from '@/features/vocab/model/selectors'
 
 const firstWord = allWords[0]
@@ -147,5 +147,19 @@ describe('examStore wrong answer persistence', () => {
 
     expect(useExamStore.getState().wrongAnswerIds).toEqual([firstWord.id])
     expect(loadExamWrongAnswerIds()).toEqual([firstWord.id])
+  })
+
+  it('persists the current auto-graded draft answer while typing', () => {
+    useExamStore.getState().startExam({
+      setId: 'set-a',
+      setName: '첫 시험',
+      words: [firstWord],
+      gradingMode: 'auto',
+    })
+
+    useExamStore.getState().saveDraftAnswer('みず')
+
+    expect(useExamStore.getState().session?.userAnswers[0]).toBe('みず')
+    expect(loadExamSessionRecord()?.userAnswers[0]).toBe('みず')
   })
 })

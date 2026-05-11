@@ -59,6 +59,7 @@
 - 세션: `jsp-react:exam-session`
 - 결과: `jsp-react:exam-result`
 - 오답 ID: `jsp-react:exam-wrong-answer-ids`
+- 자동 채점 입력 중 답안도 세션 안에 저장
 
 ## UI 규칙
 

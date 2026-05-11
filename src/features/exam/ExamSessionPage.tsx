@@ -12,7 +12,7 @@ import { getStudyItemAnswerSubtext, getStudyItemAnswerText, getStudyItemById, ge
 
 export function ExamSessionPage() {
   const navigate = useNavigate()
-  const { status, session, submitAnswer, revealManualAnswer, markManualGrade, goToPreviousManualQuestion } = useExamStore()
+  const { status, session, submitAnswer, revealManualAnswer, markManualGrade, goToPreviousManualQuestion, saveDraftAnswer } = useExamStore()
   const [answer, setAnswer] = useState('')
   const [isHandwritingMode, setIsHandwritingMode] = useState(false)
 
@@ -189,14 +189,23 @@ export function ExamSessionPage() {
               className={`glass-input ${styles.answerInput}`}
               type="text"
               value={answer}
-              onChange={(event) => setAnswer(event.target.value)}
+              onChange={(event) => {
+                const nextAnswer = event.target.value
+                setAnswer(nextAnswer)
+                saveDraftAnswer(nextAnswer)
+              }}
               placeholder={isHandwritingMode ? '손글씨 후보를 선택해 입력하세요.' : '일본어 정답 입력'}
               disabled={isHandwritingMode}
               autoComplete="off"
             />
 
             {isHandwritingMode ? (
-              <HandwritingPad onSelectCandidate={(candidate) => setAnswer(candidate)} />
+              <HandwritingPad
+                onSelectCandidate={(candidate) => {
+                  setAnswer(candidate)
+                  saveDraftAnswer(candidate)
+                }}
+              />
             ) : null}
 
             <div className={styles.submitRow}>

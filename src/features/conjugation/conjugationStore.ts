@@ -21,6 +21,7 @@ type ConjugationState = {
   hydrate: () => void
   startSession: (payload: StartConjugationSessionPayload) => boolean
   submitAnswer: (answer: string) => SubmitOutcome
+  saveDraftAnswer: (answer: string) => void
   advanceAfterReveal: () => AdvanceOutcome
   restartWrongQuestions: () => boolean
   clearSession: () => void
@@ -77,6 +78,7 @@ export const useConjugationStore = create<ConjugationState>((set, get) => ({
       ...session,
       attempts: session.attempts.map((value, index) => (index === session.currentIndex ? attempt : value)),
       isAnswerRevealed: true,
+      draftAnswer: '',
       updatedAt: new Date().toISOString(),
     }
 
@@ -88,6 +90,22 @@ export const useConjugationStore = create<ConjugationState>((set, get) => ({
 
     return 'revealed'
   },
+  saveDraftAnswer: (answer) => {
+    const session = get().session
+    if (!session || session.isAnswerRevealed || session.draftAnswer === answer) return
+
+    const nextRecord: ConjugationSessionRecord = {
+      ...session,
+      draftAnswer: answer,
+      updatedAt: new Date().toISOString(),
+    }
+
+    saveConjugationSessionRecord(nextRecord)
+    set({
+      status: 'active',
+      session: nextRecord,
+    })
+  },
   advanceAfterReveal: () => {
     const session = get().session
     if (!session || !session.isAnswerRevealed) return 'idle'
@@ -97,6 +115,7 @@ export const useConjugationStore = create<ConjugationState>((set, get) => ({
         ...session,
         currentIndex: session.currentIndex + 1,
         isAnswerRevealed: false,
+        draftAnswer: '',
         updatedAt: new Date().toISOString(),
       }
 
@@ -132,6 +151,7 @@ export const useConjugationStore = create<ConjugationState>((set, get) => ({
       attempts: new Array(lastResult.wrongItems.length).fill(null),
       currentIndex: 0,
       isAnswerRevealed: false,
+      draftAnswer: '',
       startedAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     }

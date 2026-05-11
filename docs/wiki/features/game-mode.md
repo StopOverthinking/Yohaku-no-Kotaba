@@ -48,9 +48,14 @@
 
 ## 저장 규칙
 
+- active session: `localStorage`
+- latest result: `localStorage`
+- last setup: `localStorage`
 - single records: `localStorage`
 - bot history: `localStorage`
 - player MMR: `localStorage`
+
+브라우저가 백그라운드 복귀 중 페이지를 재생성해도 `/game/session`과 `/game/result`가 다시 복구될 수 있어야 한다.
 
 ## 수정 시 주의점
 

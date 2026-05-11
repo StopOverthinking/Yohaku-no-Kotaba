@@ -13,6 +13,7 @@ export function ConjugationSessionPage() {
   const status = useConjugationStore((state) => state.status)
   const session = useConjugationStore((state) => state.session)
   const submitAnswer = useConjugationStore((state) => state.submitAnswer)
+  const saveDraftAnswer = useConjugationStore((state) => state.saveDraftAnswer)
   const advanceAfterReveal = useConjugationStore((state) => state.advanceAfterReveal)
   const [answer, setAnswer] = useState('')
 
@@ -29,8 +30,8 @@ export function ConjugationSessionPage() {
   }, [navigate, status])
 
   useEffect(() => {
-    setAnswer('')
-  }, [session?.currentIndex])
+    setAnswer(session?.draftAnswer ?? '')
+  }, [session?.currentIndex, session?.draftAnswer])
 
   const currentQuestion = session?.questions[session.currentIndex]
   const currentAttempt = session?.attempts[session.currentIndex] ?? null
@@ -156,7 +157,11 @@ export function ConjugationSessionPage() {
               className={`glass-input ${styles.answerInput}`}
               type="text"
               value={isRevealed ? currentAttempt!.userAnswer : answer}
-              onChange={(event) => setAnswer(event.target.value)}
+              onChange={(event) => {
+                const nextAnswer = event.target.value
+                setAnswer(nextAnswer)
+                saveDraftAnswer(nextAnswer)
+              }}
               placeholder={`${currentQuestion.formLabel}을 입력하세요`}
               autoComplete="off"
               autoCapitalize="none"

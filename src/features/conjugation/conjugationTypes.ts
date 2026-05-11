@@ -52,6 +52,7 @@ export type ConjugationSessionRecord = {
   attempts: Array<ConjugationAttempt | null>
   currentIndex: number
   isAnswerRevealed: boolean
+  draftAnswer: string
   startedAt: string
   updatedAt: string
 }

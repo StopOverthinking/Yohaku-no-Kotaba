@@ -277,6 +277,40 @@ describe('ListPage', () => {
     expect(toolbarDock).not.toHaveClass(styles.toolbarHidden)
   })
 
+  it('applies list font scale during touch pointer down before the stored preference commit', async () => {
+    const { container } = renderPage()
+    const root = container.querySelector<HTMLElement>(`.${styles.root}`)
+    const firstCardSurface = container.querySelector<HTMLElement>('[data-card-surface="true"]')
+    const fontScaleUpButton = screen.getByRole('button', { name: '글자 크게' })
+
+    expect(root).not.toBeNull()
+    expect(firstCardSurface).not.toBeNull()
+    expect(root?.style.getPropertyValue('--list-jp-size')).toBe('1.32rem')
+    expect(usePreferencesStore.getState().listFontScale).toBe(3)
+
+    fireEvent.pointerDown(fontScaleUpButton, {
+      pointerId: 1,
+      pointerType: 'touch',
+      button: 0,
+      clientX: 12,
+      clientY: 12,
+    })
+
+    expect(root).toHaveAttribute('data-list-font-scale', '4')
+    expect(root?.style.getPropertyValue('--list-jp-size')).toBe('1.44rem')
+    expect(container.querySelector('[data-card-surface="true"]')).toBe(firstCardSurface)
+    expect(usePreferencesStore.getState().listFontScale).toBe(3)
+
+    fireEvent.click(fontScaleUpButton)
+
+    expect(root).toHaveAttribute('data-list-font-scale', '4')
+    expect(root?.style.getPropertyValue('--list-jp-size')).toBe('1.44rem')
+
+    await waitFor(() => {
+      expect(usePreferencesStore.getState().listFontScale).toBe(4)
+    })
+  })
+
   it('navigates home from the toolbar back button', async () => {
     const user = userEvent.setup()
     const { container } = renderPageWithRoutes()

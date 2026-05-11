@@ -26,6 +26,7 @@ type ExamState = {
   revealManualAnswer: () => SubmitAnswerOutcome
   markManualGrade: (isCorrect: boolean) => SubmitAnswerOutcome
   goToPreviousManualQuestion: () => void
+  saveDraftAnswer: (answer: string) => void
   clearSession: () => void
   clearResult: () => void
 }
@@ -223,6 +224,23 @@ export const useExamStore = create<ExamState>((set, get) => ({
     set({
       status: 'active',
       session: restoredRecord,
+    })
+  },
+  saveDraftAnswer: (answer) => {
+    const session = get().session
+    if (!session || session.gradingMode === 'manual') return
+    if (session.userAnswers[session.currentIndex] === answer) return
+
+    const draftRecord: ExamSessionRecord = {
+      ...session,
+      userAnswers: session.userAnswers.map((value, index) => index === session.currentIndex ? answer : value),
+      updatedAt: new Date().toISOString(),
+    }
+
+    saveExamSessionRecord(draftRecord)
+    set({
+      status: 'active',
+      session: draftRecord,
     })
   },
   clearSession: () => {

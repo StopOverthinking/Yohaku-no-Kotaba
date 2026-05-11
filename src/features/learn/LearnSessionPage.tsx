@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { motion, useMotionValue, useTransform } from 'motion/react'
 import { BadgeCheck, ChevronLeft, CircleHelp, FlipHorizontal, Heart, X, ZoomIn, ZoomOut } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
@@ -97,31 +97,53 @@ export function LearnSessionPage() {
     }
   }, [navigate, status])
 
-  useEffect(() => {
-    return () => {
-      if (exitTimerRef.current) {
-        window.clearTimeout(exitTimerRef.current)
-        exitTimerRef.current = null
-      }
-
-      if (pendingAdvanceRef.current) {
-        if (pendingAdvanceRef.current === 'known') {
-          markKnown()
-        } else {
-          markUnknown()
-        }
-        pendingAdvanceRef.current = null
-      }
-    }
-  }, [markKnown, markUnknown])
-
-  function commitAdvance(action: CardDecision) {
+  const commitAdvance = useCallback((action: CardDecision) => {
     if (action === 'known') {
       markKnown()
     } else {
       markUnknown()
     }
-  }
+  }, [markKnown, markUnknown])
+
+  const flushPendingAdvance = useCallback((resetVisualState = true) => {
+    const pendingAction = pendingAdvanceRef.current
+    if (!pendingAction) return
+
+    if (exitTimerRef.current) {
+      window.clearTimeout(exitTimerRef.current)
+      exitTimerRef.current = null
+    }
+
+    pendingAdvanceRef.current = null
+    commitAdvance(pendingAction)
+
+    if (resetVisualState) {
+      setLeavingCard(null)
+      setTransitionAction(null)
+    }
+  }, [commitAdvance])
+
+  useEffect(() => () => flushPendingAdvance(false), [flushPendingAdvance])
+
+  useEffect(() => {
+    function handlePageHide() {
+      flushPendingAdvance()
+    }
+
+    function handleVisibilityChange() {
+      if (document.visibilityState === 'hidden') {
+        flushPendingAdvance()
+      }
+    }
+
+    window.addEventListener('pagehide', handlePageHide)
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+
+    return () => {
+      window.removeEventListener('pagehide', handlePageHide)
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+    }
+  }, [flushPendingAdvance])
 
   function requestAdvance(action: CardDecision) {
     if (!record?.currentCardId || !item || transitionAction) return

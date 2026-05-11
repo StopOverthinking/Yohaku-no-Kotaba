@@ -14,7 +14,10 @@ export function loadConjugationSessionRecord(): ConjugationSessionRecord | null 
       return null
     }
 
-    return parsed
+    return {
+      ...parsed,
+      draftAnswer: typeof parsed.draftAnswer === 'string' ? parsed.draftAnswer : '',
+    }
   } catch {
     localStorage.removeItem(conjugationSessionKey)
     return null

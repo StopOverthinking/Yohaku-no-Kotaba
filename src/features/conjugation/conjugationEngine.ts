@@ -172,6 +172,7 @@ export function createConjugationSessionRecord(payload: StartConjugationSessionP
     attempts: new Array(questions.length).fill(null),
     currentIndex: 0,
     isAnswerRevealed: false,
+    draftAnswer: '',
     startedAt: now,
     updatedAt: now,
   }
