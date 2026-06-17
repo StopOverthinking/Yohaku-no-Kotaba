@@ -374,9 +374,15 @@
   color: var(--text-soft);
   cursor: pointer;
   outline: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .cardFavoriteButton:hover {
+  color: var(--accent-ice);
+}
+
+.cardFavoriteButton[data-active="true"] {
   color: var(--accent-ice);
 }
 

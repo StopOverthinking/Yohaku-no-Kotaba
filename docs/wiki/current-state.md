@@ -18,6 +18,7 @@
 - 목록 숨김 토글을 루트 DOM/CSS fast path로 변경해 카드 전체 렌더 없이 즉시 마스킹
 - 모바일 목록 숨김 토글을 `pointerdown` fast path, after-paint 저장, touch-action 보강으로 즉시성 개선
 - 목록 그리드를 최대 2열로 제한하고 모바일 글자 크기 조정을 DOM/CSS fast path와 after-paint 저장으로 개선
+- 목록 카드 즐겨찾기 버튼을 개별 구독과 `Set` 조회로 바꿔 전체 목록 재계산 부담을 줄이고 터치 `pointerdown`에서 바로 반응하도록 개선
 - 일반 학습 완료 화면 액션을 홈 이동 1개로 단순화
 - 스마트 복습이 `IndexedDB` 일정 저장 구조로 이동
 - 비교형 단어장을 학습/시험에서 제거하고 게임·스마트 복습 후보에서도 제외

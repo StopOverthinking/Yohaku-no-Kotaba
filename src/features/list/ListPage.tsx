@@ -1,4 +1,4 @@
-import { memo, startTransition, type CSSProperties, type KeyboardEvent, type MouseEvent, type PointerEvent as ReactPointerEvent, useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { memo, startTransition, type CSSProperties, type KeyboardEvent, type MouseEvent, type PointerEvent as ReactPointerEvent, useCallback, useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
 import { BookOpen, Heart, Search, Undo2, ZoomIn, ZoomOut } from 'lucide-react'
 import type { LucideProps } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
@@ -8,11 +8,15 @@ import { Tooltip } from '@/components/Tooltip'
 import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
-import { allSets, getSetName, getStudyItemById, getStudyItemFavoriteWordIds, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic, isStudyItemFavorite } from '@/features/vocab/model/selectors'
+import { allSets, getSetName, getStudyItemById, getStudyItemFavoriteWordIds, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic } from '@/features/vocab/model/selectors'
 import type { StudyItem } from '@/features/vocab/model/types'
 import styles from '@/features/list/list.module.css'
 
 const TOOLBAR_INTERACTION_LOCK_MS = 640
+const EMPTY_FAVORITE_IDS: string[] = []
+
+let cachedFavoriteIds: string[] | null = null
+let cachedFavoriteIdSet = new Set<string>()
 
 type RenderEntry =
   | { type: 'topic'; id: string; label: string }
@@ -24,6 +28,45 @@ function resolveListSetId(setId: string | 'all') {
   }
 
   return setId
+}
+
+function subscribeToFavoriteIds(onStoreChange: () => void) {
+  return useFavoritesStore.subscribe((state, previousState) => {
+    if (state.favoriteIds !== previousState.favoriteIds) {
+      onStoreChange()
+    }
+  })
+}
+
+function getFavoriteIdSetSnapshot() {
+  const favoriteIds = useFavoritesStore.getState().favoriteIds
+
+  if (favoriteIds !== cachedFavoriteIds) {
+    cachedFavoriteIds = favoriteIds
+    cachedFavoriteIdSet = new Set(favoriteIds)
+  }
+
+  return cachedFavoriteIdSet
+}
+
+function useFavoriteIdsForListFilter(enabled: boolean) {
+  return useSyncExternalStore(
+    subscribeToFavoriteIds,
+    () => (enabled ? useFavoritesStore.getState().favoriteIds : EMPTY_FAVORITE_IDS),
+    () => EMPTY_FAVORITE_IDS,
+  )
+}
+
+function useIsFavoriteWord(wordId: string) {
+  return useSyncExternalStore(
+    subscribeToFavoriteIds,
+    () => getFavoriteIdSetSnapshot().has(wordId),
+    () => false,
+  )
+}
+
+function isStudyItemFavoriteInSet(item: StudyItem, favoriteIdSet: Set<string>) {
+  return item.favoriteWordIds.some((wordId) => favoriteIdSet.has(wordId))
 }
 
 function SlashGlyphIcon({
@@ -303,20 +346,67 @@ function setListHideDataset(root: HTMLElement | null, target: HideTarget, next: 
   }
 }
 
+const FavoriteCardButton = memo(function FavoriteCardButton({ wordId }: { wordId: string }) {
+  const isFavorite = useIsFavoriteWord(wordId)
+  const toggleFavorite = useFavoritesStore((state) => state.toggleFavorite)
+  const suppressNextClickRef = useRef(false)
+
+  const handleToggle = useCallback(() => {
+    toggleFavorite(wordId)
+  }, [toggleFavorite, wordId])
+
+  const handlePointerDown = useCallback((event: ReactPointerEvent<HTMLButtonElement>) => {
+    if (event.pointerType === 'mouse' || event.button > 0) {
+      return
+    }
+
+    event.preventDefault()
+    event.stopPropagation()
+    suppressNextClickRef.current = true
+    window.setTimeout(() => {
+      suppressNextClickRef.current = false
+    }, TOUCH_CLICK_SUPPRESSION_MS)
+    handleToggle()
+  }, [handleToggle])
+
+  const handleClick = useCallback((event: MouseEvent<HTMLButtonElement>) => {
+    event.stopPropagation()
+
+    if (suppressNextClickRef.current) {
+      suppressNextClickRef.current = false
+      return
+    }
+
+    handleToggle()
+  }, [handleToggle])
+
+  return (
+    <Tooltip label={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}>
+      <button
+        type="button"
+        aria-label={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}
+        aria-pressed={isFavorite}
+        className={styles.cardFavoriteButton}
+        data-active={isFavorite}
+        onPointerDown={handlePointerDown}
+        onClick={handleClick}
+      >
+        <Heart size={18} strokeWidth={1.9} fill={isFavorite ? 'currentColor' : 'none'} />
+      </button>
+    </Tooltip>
+  )
+})
+
 const VocabCard = memo(function VocabCard({
   item,
   displayNumber,
-  isFavorite,
   revealedState,
   onReveal,
-  onToggleFavorite,
 }: {
   item: StudyItem
   displayNumber: number
-  isFavorite: boolean
   revealedState?: RevealedCardState
   onReveal: (wordId: string, cardSurface: HTMLElement) => void
-  onToggleFavorite: (wordId: string) => void
 }) {
   const cardSurfaceRef = useRef<HTMLDivElement>(null)
   const pendingTapRef = useRef<{ pointerId: number; x: number; y: number } | null>(null)
@@ -427,19 +517,7 @@ const VocabCard = memo(function VocabCard({
             {item.kind === 'word' ? <span className={styles.partBadge}>{getStudyItemPartLabel(item)}</span> : null}
           </div>
           {item.kind === 'word' ? (
-            <Tooltip label={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}>
-              <button
-                type="button"
-                aria-label={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}
-                className={styles.cardFavoriteButton}
-                onClick={(event) => {
-                  event.stopPropagation()
-                  onToggleFavorite(getStudyItemFavoriteWordIds(item)[0] ?? item.word.id)
-                }}
-              >
-                <Heart size={18} strokeWidth={1.9} fill={isFavorite ? 'currentColor' : 'none'} />
-              </button>
-            </Tooltip>
+            <FavoriteCardButton wordId={getStudyItemFavoriteWordIds(item)[0] ?? item.word.id} />
           ) : null}
         </div>
 
@@ -490,16 +568,12 @@ const VocabCard = memo(function VocabCard({
 
 const ListGrid = memo(function ListGrid({
   renderEntries,
-  favoriteIds,
   revealedCards,
   onReveal,
-  onToggleFavorite,
 }: {
   renderEntries: RenderEntry[]
-  favoriteIds: string[]
   revealedCards: Record<string, RevealedCardState>
   onReveal: (wordId: string, cardSurface: HTMLElement) => void
-  onToggleFavorite: (wordId: string) => void
 }) {
   return (
     <div className={styles.grid}>
@@ -512,10 +586,8 @@ const ListGrid = memo(function ListGrid({
           key={entry.item.id}
           item={entry.item}
           displayNumber={entry.displayNumber}
-          isFavorite={isStudyItemFavorite(entry.item, favoriteIds)}
           revealedState={revealedCards[entry.item.id]}
           onReveal={onReveal}
-          onToggleFavorite={onToggleFavorite}
         />
       ))}
     </div>
@@ -534,8 +606,6 @@ export function ListPage() {
   const setHideJapaneseInList = usePreferencesStore((state) => state.setHideJapaneseInList)
   const setHideMeaningInList = usePreferencesStore((state) => state.setHideMeaningInList)
   const setListFontScale = usePreferencesStore((state) => state.setListFontScale)
-  const favoriteIds = useFavoritesStore((state) => state.favoriteIds)
-  const toggleFavorite = useFavoritesStore((state) => state.toggleFavorite)
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery] = useState('')
@@ -575,6 +645,9 @@ export function ListPage() {
   )
   const resolvedSetId = resolveListSetId(lastSelectedSetId)
   const currentSetName = resolvedSetId === 'wrong_answers' ? '오답 노트' : getSetName(resolvedSetId)
+  const needsFavoriteFilteredList = favoritesOnly || resolvedSetId === 'favorites'
+  const favoriteIdsForFilter = useFavoriteIdsForListFilter(needsFavoriteFilteredList)
+  const favoriteIdSetForFilter = useMemo(() => new Set(favoriteIdsForFilter), [favoriteIdsForFilter])
 
   useEffect(() => {
     if (resolvedSetId !== lastSelectedSetId) {
@@ -609,14 +682,19 @@ export function ListPage() {
       return wrongAnswerWords
     }
 
-    return getStudyItemsForSet(resolvedSetId, favoriteIds)
-  }, [favoriteIds, resolvedSetId, wrongAnswerWords])
+    return getStudyItemsForSet(
+      resolvedSetId,
+      resolvedSetId === 'favorites' ? favoriteIdsForFilter : EMPTY_FAVORITE_IDS,
+    )
+  }, [favoriteIdsForFilter, resolvedSetId, wrongAnswerWords])
 
   const words = useMemo(() => {
+    const normalizedQuery = deferredQuery.trim().toLowerCase()
+
     return baseWords
-      .filter((item) => (favoritesOnly ? isStudyItemFavorite(item, favoriteIds) : true))
-      .filter((item) => getStudyItemSearchText(item).includes(deferredQuery.trim().toLowerCase()))
-  }, [baseWords, deferredQuery, favoriteIds, favoritesOnly])
+      .filter((item) => (favoritesOnly ? isStudyItemFavoriteInSet(item, favoriteIdSetForFilter) : true))
+      .filter((item) => getStudyItemSearchText(item).includes(normalizedQuery))
+  }, [baseWords, deferredQuery, favoriteIdSetForFilter, favoritesOnly])
 
   const renderEntries = useMemo<RenderEntry[]>(() => {
     const entries: RenderEntry[] = []
@@ -760,10 +838,6 @@ export function ListPage() {
       }
     })
   }, [])
-
-  const handleToggleFavorite = useCallback((wordId: string) => {
-    toggleFavorite(wordId)
-  }, [toggleFavorite])
 
   const fontScaleStyle = useMemo(() => getListFontScaleStyle(optimisticFontScale), [optimisticFontScale])
 
@@ -1170,10 +1244,8 @@ export function ListPage() {
       ) : (
         <ListGrid
           renderEntries={renderEntries}
-          favoriteIds={favoriteIds}
           revealedCards={revealedCards}
           onReveal={handleRevealWord}
-          onToggleFavorite={handleToggleFavorite}
         />
       )}
     </div>

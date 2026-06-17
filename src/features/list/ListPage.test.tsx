@@ -158,6 +158,26 @@ describe('ListPage', () => {
     expect(firstCardSurface).toHaveAttribute('data-reveal-meaning', 'true')
   })
 
+  it('toggles favorites on touch pointer down without double toggling on click fallback', () => {
+    const { container } = renderPage()
+    const firstFavoriteButton = container.querySelectorAll<HTMLButtonElement>(`.${styles.cardFavoriteButton}`)[0]
+
+    expect(firstFavoriteButton).not.toBeUndefined()
+
+    fireEvent.pointerDown(firstFavoriteButton, {
+      pointerId: 1,
+      pointerType: 'touch',
+      button: 0,
+    })
+
+    expect(useFavoritesStore.getState().favoriteIds).toEqual([sampleWords[0].id])
+    expect(firstFavoriteButton).toHaveAttribute('aria-pressed', 'true')
+
+    fireEvent.click(firstFavoriteButton)
+
+    expect(useFavoritesStore.getState().favoriteIds).toEqual([sampleWords[0].id])
+  })
+
   it('updates hide state without replacing card surfaces', async () => {
     usePreferencesStore.setState({
       themeMode: 'dark',
