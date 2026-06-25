@@ -87,10 +87,6 @@ export function LearnSetupPage() {
     ],
   )
 
-  const previewWords = useMemo(
-    () => buildCandidateWords(availableWords, learnDefaults.wordCount),
-    [availableWords, learnDefaults.wordCount],
-  )
   const selectableWordbooks = useMemo(() => getStudySelectableWordbooks(), [])
 
   const handleCountAdjust = (delta: number) => {
@@ -153,7 +149,20 @@ export function LearnSetupPage() {
       return
     }
 
-    if (previewWords.length === 0) {
+    const sessionWords = buildCandidateWords(
+      getFilteredWords({
+        setId: selectedSetId,
+        favoritesOnly: learnDefaults.favoritesOnly,
+        favoriteIds,
+        wrongAnswerIds,
+        rangeEnabled: learnDefaults.rangeEnabled,
+        rangeStart: learnDefaults.rangeStart,
+        rangeEnd: learnDefaults.rangeEnd,
+      }),
+      learnDefaults.wordCount,
+    )
+
+    if (sessionWords.length === 0) {
       setError('시작할 항목이 없습니다. 단어장과 필터를 다시 확인해 주세요.')
       return
     }
@@ -163,7 +172,7 @@ export function LearnSetupPage() {
       setId: selectedSetId,
       setName: currentSetName,
       frontMode: learnDefaults.frontMode,
-      items: previewWords,
+      items: sessionWords,
     })
     navigate('/learn/session')
   }

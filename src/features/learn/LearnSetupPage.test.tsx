@@ -1,6 +1,6 @@
-import { cleanup, render, screen, within } from '@testing-library/react'
+import { act, cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
 import { useExamStore } from '@/features/exam/examStore'
 import { LearnSetupPage } from '@/features/learn/LearnSetupPage'
@@ -52,6 +52,7 @@ describe('LearnSetupPage', () => {
 
   afterEach(() => {
     cleanup()
+    vi.restoreAllMocks()
     localStorage.clear()
     usePreferencesStore.setState(initialPreferencesState)
     useFavoritesStore.setState(initialFavoritesState)
@@ -128,6 +129,53 @@ describe('LearnSetupPage', () => {
 
     expect(screen.getByRole('combobox', { name: '학습 단어장' })).toHaveValue('all')
     expect(screen.queryByRole('option', { name: '비슷한 단어들' })).not.toBeInTheDocument()
+  })
+
+  it('reshuffles favorite candidates every time a learn session starts', async () => {
+    const user = userEvent.setup()
+    const favoriteIds = allWords.slice(0, 8).map((word) => word.id)
+    vi.spyOn(Math, 'random')
+      .mockReturnValueOnce(0.1)
+      .mockReturnValueOnce(0.8)
+
+    useFavoritesStore.setState({
+      ...useFavoritesStore.getState(),
+      favoriteIds,
+    })
+    usePreferencesStore.setState({
+      ...usePreferencesStore.getState(),
+      lastSelectedSetId: 'favorites',
+      learnDefaults: {
+        frontMode: 'japanese',
+        favoritesOnly: false,
+        wordCount: 3,
+        rangeEnabled: false,
+        rangeStart: 1,
+        rangeEnd: 10,
+      },
+    })
+
+    const { container } = render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    const startButton = container.querySelector('.page-header__right button') as HTMLButtonElement
+
+    await user.click(startButton)
+    const firstQueue = useLearnSessionStore.getState().record?.activeQueue
+
+    act(() => {
+      useLearnSessionStore.getState().discardSession()
+    })
+
+    await user.click(startButton)
+    const secondQueue = useLearnSessionStore.getState().record?.activeQueue
+
+    expect(firstQueue).toHaveLength(3)
+    expect(secondQueue).toHaveLength(3)
+    expect(secondQueue).not.toEqual(firstQueue)
   })
 
   it('lets range inputs stay empty while editing and restores the previous value on blur', async () => {

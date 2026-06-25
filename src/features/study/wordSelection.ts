@@ -38,10 +38,10 @@ export function getFilteredWords({
     items = items.slice(start - 1, end)
   }
 
-  return shuffleArray(items)
+  return items
 }
 
-export function buildCandidateWords(words: StudyItem[], wordCount: number) {
+export function buildCandidateWords(words: StudyItem[], wordCount: number, seed?: number) {
   const normalizedWordCount = Math.max(1, Math.floor(wordCount) || 1)
-  return words.slice(0, Math.min(normalizedWordCount, words.length))
+  return shuffleArray(words, seed).slice(0, Math.min(normalizedWordCount, words.length))
 }
