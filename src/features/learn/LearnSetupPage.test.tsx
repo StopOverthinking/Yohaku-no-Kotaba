@@ -129,4 +129,69 @@ describe('LearnSetupPage', () => {
     expect(screen.getByRole('combobox', { name: '학습 단어장' })).toHaveValue('all')
     expect(screen.queryByRole('option', { name: '비슷한 단어들' })).not.toBeInTheDocument()
   })
+
+  it('lets range inputs stay empty while editing and restores the previous value on blur', async () => {
+    const user = userEvent.setup()
+
+    usePreferencesStore.setState({
+      ...usePreferencesStore.getState(),
+      learnDefaults: {
+        frontMode: 'japanese',
+        favoritesOnly: false,
+        wordCount: 20,
+        rangeEnabled: true,
+        rangeStart: 12,
+        rangeEnd: 30,
+      },
+    })
+
+    render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    const rangeStartInput = screen.getByRole('spinbutton', { name: '시작' }) as HTMLInputElement
+    await user.click(rangeStartInput)
+    await user.clear(rangeStartInput)
+
+    expect(rangeStartInput.value).toBe('')
+    expect(usePreferencesStore.getState().learnDefaults.rangeStart).toBe(12)
+
+    await user.tab()
+
+    expect(rangeStartInput.value).toBe('12')
+    expect(usePreferencesStore.getState().learnDefaults.rangeStart).toBe(12)
+  })
+
+  it('accepts a new range value after the input is cleared', async () => {
+    const user = userEvent.setup()
+
+    usePreferencesStore.setState({
+      ...usePreferencesStore.getState(),
+      learnDefaults: {
+        frontMode: 'japanese',
+        favoritesOnly: false,
+        wordCount: 20,
+        rangeEnabled: true,
+        rangeStart: 12,
+        rangeEnd: 30,
+      },
+    })
+
+    render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    const rangeEndInput = screen.getByRole('spinbutton', { name: '끝' }) as HTMLInputElement
+    await user.click(rangeEndInput)
+    await user.clear(rangeEndInput)
+    await user.type(rangeEndInput, '45')
+    await user.tab()
+
+    expect(rangeEndInput.value).toBe('45')
+    expect(usePreferencesStore.getState().learnDefaults.rangeEnd).toBe(45)
+  })
 })

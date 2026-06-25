@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ChangeEvent } from 'react'
+import { useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react'
 import { Heart, Play, RotateCcw, Sparkles, Undo2, X } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
@@ -15,9 +15,16 @@ import type { FrontMode } from '@/features/vocab/model/types'
 
 const MIN_WORD_COUNT = 1
 const COUNT_STEPS = [-10, -5, 5, 10] as const
+type RangeField = 'rangeStart' | 'rangeEnd'
 
 function normalizeWordCount(wordCount: number) {
   return Math.max(MIN_WORD_COUNT, Math.floor(wordCount) || MIN_WORD_COUNT)
+}
+
+function parseRangeDraft(value: string) {
+  if (value === '') return null
+  const parsed = Math.floor(Number(value))
+  return Number.isFinite(parsed) ? Math.max(1, parsed) : null
 }
 
 export function LearnSetupPage() {
@@ -32,6 +39,12 @@ export function LearnSetupPage() {
   const sessionRecord = useLearnSessionStore((state) => state.record)
   const discardSession = useLearnSessionStore((state) => state.discardSession)
   const [error, setError] = useState<string | null>(null)
+  const [rangeDrafts, setRangeDrafts] = useState({
+    rangeStart: String(learnDefaults.rangeStart),
+    rangeEnd: String(learnDefaults.rangeEnd),
+  })
+  const activeRangeFieldRef = useRef<RangeField | null>(null)
+  const rangeEditBaselineRef = useRef<Partial<Record<RangeField, number>>>({})
   const selectedSetId = lastSelectedSetId === 'wrong_answers'
     ? 'wrong_answers'
     : isComparisonWordbook(lastSelectedSetId)
@@ -44,6 +57,13 @@ export function LearnSetupPage() {
       setLastSelectedSetId(selectedSetId)
     }
   }, [lastSelectedSetId, selectedSetId, setLastSelectedSetId])
+
+  useEffect(() => {
+    setRangeDrafts((drafts) => ({
+      rangeStart: activeRangeFieldRef.current === 'rangeStart' ? drafts.rangeStart : String(learnDefaults.rangeStart),
+      rangeEnd: activeRangeFieldRef.current === 'rangeEnd' ? drafts.rangeEnd : String(learnDefaults.rangeEnd),
+    }))
+  }, [learnDefaults.rangeEnd, learnDefaults.rangeStart])
 
   const availableWords = useMemo(
     () =>
@@ -79,6 +99,44 @@ export function LearnSetupPage() {
 
   const handleCountChange = (event: ChangeEvent<HTMLInputElement>) => {
     updateLearnDefaults({ wordCount: normalizeWordCount(Number(event.target.value)) })
+  }
+
+  const updateRangeDefault = (field: RangeField, value: number) => {
+    if (field === 'rangeStart') {
+      updateLearnDefaults({ rangeStart: value })
+      return
+    }
+
+    updateLearnDefaults({ rangeEnd: value })
+  }
+
+  const handleRangeFocus = (field: RangeField) => {
+    activeRangeFieldRef.current = field
+    rangeEditBaselineRef.current[field] = learnDefaults[field]
+  }
+
+  const handleRangeChange = (field: RangeField, event: ChangeEvent<HTMLInputElement>) => {
+    const nextDraft = event.target.value
+    setRangeDrafts((drafts) => ({ ...drafts, [field]: nextDraft }))
+
+    const nextValue = parseRangeDraft(nextDraft)
+    if (nextValue === null) return
+
+    updateRangeDefault(field, nextValue)
+  }
+
+  const handleRangeBlur = (field: RangeField) => {
+    const nextValue = parseRangeDraft(rangeDrafts[field])
+    const fallbackValue = rangeEditBaselineRef.current[field] ?? learnDefaults[field]
+    const committedValue = nextValue ?? fallbackValue
+
+    updateRangeDefault(field, committedValue)
+    setRangeDrafts((drafts) => ({ ...drafts, [field]: String(committedValue) }))
+
+    delete rangeEditBaselineRef.current[field]
+    if (activeRangeFieldRef.current === field) {
+      activeRangeFieldRef.current = null
+    }
   }
 
   const handleDiscardSession = () => {
@@ -275,8 +333,10 @@ export function LearnSetupPage() {
                   type="number"
                   min={1}
                   className="glass-input"
-                  value={learnDefaults.rangeStart}
-                  onChange={(event) => updateLearnDefaults({ rangeStart: Number(event.target.value) || 1 })}
+                  value={rangeDrafts.rangeStart}
+                  onFocus={() => handleRangeFocus('rangeStart')}
+                  onChange={(event) => handleRangeChange('rangeStart', event)}
+                  onBlur={() => handleRangeBlur('rangeStart')}
                 />
               </div>
               <div className="form-field">
@@ -286,8 +346,10 @@ export function LearnSetupPage() {
                   type="number"
                   min={1}
                   className="glass-input"
-                  value={learnDefaults.rangeEnd}
-                  onChange={(event) => updateLearnDefaults({ rangeEnd: Number(event.target.value) || 1 })}
+                  value={rangeDrafts.rangeEnd}
+                  onFocus={() => handleRangeFocus('rangeEnd')}
+                  onChange={(event) => handleRangeChange('rangeEnd', event)}
+                  onBlur={() => handleRangeBlur('rangeEnd')}
                 />
               </div>
             </div>
