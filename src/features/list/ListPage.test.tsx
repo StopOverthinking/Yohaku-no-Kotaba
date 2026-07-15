@@ -1,6 +1,6 @@
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
@@ -8,6 +8,7 @@ import { ListPage } from '@/features/list/ListPage'
 import styles from '@/features/list/list.module.css'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { allSets, allWords } from '@/features/vocab/model/selectors'
+import { listScrollPositionsStorageKey } from '@/features/list/listScrollPositionStorage'
 
 const sampleWords = allWords.slice(0, 2)
 const defaultLearnDefaults = {
@@ -46,10 +47,21 @@ function setScrollY(value: number) {
   })
 }
 
+function mockScrollTo() {
+  const scrollTo = vi.fn((optionsOrX?: ScrollToOptions | number, y?: number) => {
+    const top = typeof optionsOrX === 'number' ? y : optionsOrX?.top
+    setScrollY(top ?? 0)
+  })
+
+  vi.stubGlobal('scrollTo', scrollTo)
+  return scrollTo
+}
+
 describe('ListPage', () => {
   beforeEach(() => {
     localStorage.clear()
     setScrollY(0)
+    mockScrollTo()
 
     useExamStore.setState({
       status: 'idle',
@@ -75,6 +87,8 @@ describe('ListPage', () => {
 
   afterEach(() => {
     cleanup()
+    vi.restoreAllMocks()
+    vi.unstubAllGlobals()
     localStorage.clear()
     setScrollY(0)
 
@@ -276,6 +290,36 @@ describe('ListPage', () => {
     expect(screen.getByText(firstSet.name)).toBeInTheDocument()
     await waitFor(() => {
       expect(usePreferencesStore.getState().lastSelectedSetId).toBe(firstSet.id)
+    })
+  })
+
+  it('restores the saved scroll position for the selected vocabulary set', async () => {
+    localStorage.setItem(
+      listScrollPositionsStorageKey,
+      JSON.stringify({ wrong_answers: 420, another_set: 120 }),
+    )
+
+    renderPage()
+
+    await waitFor(() => {
+      expect(window.scrollTo).toHaveBeenCalledWith({ top: 420, left: 0, behavior: 'auto' })
+      expect(window.scrollY).toBe(420)
+    })
+  })
+
+  it('saves the current scroll position when leaving the vocabulary set', async () => {
+    const { unmount } = renderPage()
+
+    await waitFor(() => expect(window.scrollTo).toHaveBeenCalled())
+    setScrollY(735)
+    fireEvent.scroll(window)
+    fireEvent.popState(window)
+    setScrollY(0)
+    fireEvent.scroll(window)
+    unmount()
+
+    expect(JSON.parse(localStorage.getItem(listScrollPositionsStorageKey) ?? '{}')).toMatchObject({
+      wrong_answers: 735,
     })
   })
 

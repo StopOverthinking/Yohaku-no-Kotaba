@@ -9,6 +9,7 @@
 | 영역 | 저장 위치 | 비고 |
 | --- | --- | --- |
 | 테마, 목록 표시, 학습 기본값 | `localStorage` | `preferencesStore` |
+| 목록 스크롤 위치 | `localStorage` | `jsp-react:list-scroll-positions`, 단어장 ID별 위치 |
 | 즐겨찾기 | `localStorage` | `favoritesStore` |
 | 일반 학습 진행 중 세션 | `localStorage` | 결과는 메모리만 |
 | 시험 세션/결과/오답 ID | `localStorage` | 결과와 오답 노트는 별도 수명주기 |

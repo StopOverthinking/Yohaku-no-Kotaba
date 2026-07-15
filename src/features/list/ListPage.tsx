@@ -10,9 +10,11 @@ import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { allSets, getSetName, getStudyItemById, getStudyItemFavoriteWordIds, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic } from '@/features/vocab/model/selectors'
 import type { StudyItem } from '@/features/vocab/model/types'
+import { loadListScrollPosition, saveListScrollPosition } from '@/features/list/listScrollPositionStorage'
 import styles from '@/features/list/list.module.css'
 
 const TOOLBAR_INTERACTION_LOCK_MS = 640
+const SCROLL_POSITION_SAVE_DELAY_MS = 120
 const EMPTY_FAVORITE_IDS: string[] = []
 
 let cachedFavoriteIds: string[] | null = null
@@ -844,6 +846,84 @@ export function ListPage() {
   useLayoutEffect(() => {
     applyListFontScaleStyle(rootRef.current, optimisticFontScale)
   }, [optimisticFontScale])
+
+  useLayoutEffect(() => {
+    let pendingSaveTimer: number | null = null
+    let restoreFrame: number | null = null
+    let positionRestored = false
+    let historyNavigationStarted = false
+    const savedPosition = loadListScrollPosition(resolvedSetId)
+    let lastKnownPosition = savedPosition
+
+    const persistCurrentPosition = () => {
+      if (!positionRestored) {
+        return
+      }
+
+      if (pendingSaveTimer !== null) {
+        window.clearTimeout(pendingSaveTimer)
+        pendingSaveTimer = null
+      }
+
+      saveListScrollPosition(resolvedSetId, lastKnownPosition)
+    }
+
+    const schedulePositionSave = () => {
+      if (!positionRestored) {
+        return
+      }
+
+      if (pendingSaveTimer !== null) {
+        window.clearTimeout(pendingSaveTimer)
+      }
+
+      pendingSaveTimer = window.setTimeout(persistCurrentPosition, SCROLL_POSITION_SAVE_DELAY_MS)
+    }
+
+    const handleScroll = () => {
+      if (!positionRestored || historyNavigationStarted) {
+        return
+      }
+
+      lastKnownPosition = Math.max(window.scrollY, 0)
+      schedulePositionSave()
+    }
+
+    const handleHistoryNavigation = () => {
+      historyNavigationStarted = true
+      persistCurrentPosition()
+    }
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        persistCurrentPosition()
+      }
+    }
+
+    restoreFrame = window.requestAnimationFrame(() => {
+      restoreFrame = null
+      window.scrollTo({ top: savedPosition, left: 0, behavior: 'auto' })
+      lastKnownPosition = Math.max(window.scrollY, 0)
+      positionRestored = true
+    })
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    window.addEventListener('popstate', handleHistoryNavigation, { capture: true })
+    window.addEventListener('pagehide', persistCurrentPosition)
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('popstate', handleHistoryNavigation, { capture: true })
+      window.removeEventListener('pagehide', persistCurrentPosition)
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+
+      if (restoreFrame !== null) {
+        window.cancelAnimationFrame(restoreFrame)
+      }
+
+      persistCurrentPosition()
+    }
+  }, [resolvedSetId])
 
   const keepToolbarVisible = useCallback(() => {
     const now = typeof performance === 'undefined' ? Date.now() : performance.now()
