@@ -1373,7 +1373,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "meaning": "호소하다, 부르다",
     "type": "verb",
     "difficulty": 32,
-    "verbInfo": "2자",
+    "verbInfo": "2타",
     "sourceOrder": 124
   },
   {
@@ -1952,7 +1952,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "id": "JLPTN3_178",
     "setId": "jlpt-n3",
     "japanese": "不安だ",
-    "reading": "ふぁんだ",
+    "reading": "ふあんだ",
     "meaning": "불안하다",
     "type": "na_adj",
     "difficulty": 29,
@@ -3888,7 +3888,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "id": "JLPTN3_354",
     "setId": "jlpt-n3",
     "japanese": "商売",
-    "reading": "しょうぱい",
+    "reading": "しょうばい",
     "meaning": "장사",
     "type": "noun",
     "difficulty": 32,
@@ -5868,7 +5868,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "id": "handmade_34",
     "setId": "set-2",
     "japanese": "箱",
-    "reading": "ばこ",
+    "reading": "はこ",
     "meaning": "상자, 함",
     "type": "noun",
     "difficulty": 20,
@@ -6022,7 +6022,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "id": "handmade_48",
     "setId": "set-2",
     "japanese": "番号",
-    "reading": "ばんご",
+    "reading": "ばんごう",
     "meaning": "번호",
     "type": "noun",
     "difficulty": 18,
@@ -8435,7 +8435,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "meaning": "슬퍼하다",
     "type": "verb",
     "difficulty": 28,
-    "verbInfo": "1자",
+    "verbInfo": "1타",
     "sourceOrder": 112
   },
   {
@@ -11455,7 +11455,7 @@ export const vocabularyWords: VocabularyWord[] = [
   {
     "id": "AbsoluteVerb_393",
     "setId": "AbsoluteVerb",
-    "japanese": "扱る",
+    "japanese": "扱う",
     "reading": "あつかう",
     "meaning": "다루다",
     "type": "verb",
@@ -16185,8 +16185,8 @@ export const vocabularyWords: VocabularyWord[] = [
   {
     "id": "AbsoluteVerb_833",
     "setId": "AbsoluteVerb",
-    "japanese": "顔が立てない",
-    "reading": "かおがたてない",
+    "japanese": "顔が立たない",
+    "reading": "かおがたたない",
     "meaning": "체면이 서지 않다",
     "type": "expression",
     "difficulty": 34,
