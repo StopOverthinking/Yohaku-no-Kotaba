@@ -4,6 +4,11 @@ import type { FrontMode } from '@/features/vocab/model/types'
 
 export type ThemeMode = 'dark' | 'light'
 
+export type RequiredLearnRange = {
+  start: number
+  end: number
+}
+
 export type LearnDefaults = {
   frontMode: FrontMode
   favoritesOnly: boolean
@@ -11,6 +16,8 @@ export type LearnDefaults = {
   rangeEnabled: boolean
   rangeStart: number
   rangeEnd: number
+  requiredRangesEnabled: boolean
+  requiredRanges: RequiredLearnRange[]
 }
 
 type PersistedPreferencesState = {
@@ -46,6 +53,8 @@ const defaultLearnDefaults: LearnDefaults = {
   rangeEnabled: false,
   rangeStart: 1,
   rangeEnd: 10,
+  requiredRangesEnabled: false,
+  requiredRanges: [],
 }
 
 const defaultThemeMode: ThemeMode = 'dark'
@@ -78,6 +87,40 @@ export function applyThemeMode(themeMode: ThemeMode, root: HTMLElement | null = 
   root.style.colorScheme = themeMode
 }
 
+function normalizeRequiredRanges(value: unknown): RequiredLearnRange[] {
+  if (!Array.isArray(value)) return []
+
+  return value.flatMap((range) => {
+    if (!range || typeof range !== 'object') return []
+
+    const start = Math.floor(Number((range as Partial<RequiredLearnRange>).start))
+    const end = Math.floor(Number((range as Partial<RequiredLearnRange>).end))
+    if (!Number.isFinite(start) || !Number.isFinite(end)) return []
+
+    return [{ start: Math.max(1, start), end: Math.max(1, end) }]
+  })
+}
+
+export function mergePreferencesState(persistedState: unknown, currentState: PreferencesState): PreferencesState {
+  const persisted = persistedState && typeof persistedState === 'object'
+    ? persistedState as Partial<PreferencesState>
+    : {}
+  const persistedLearnDefaults = persisted.learnDefaults && typeof persisted.learnDefaults === 'object'
+    ? persisted.learnDefaults as Partial<LearnDefaults>
+    : {}
+
+  return {
+    ...currentState,
+    ...persisted,
+    learnDefaults: {
+      ...currentState.learnDefaults,
+      ...persistedLearnDefaults,
+      requiredRangesEnabled: persistedLearnDefaults.requiredRangesEnabled === true,
+      requiredRanges: normalizeRequiredRanges(persistedLearnDefaults.requiredRanges),
+    },
+  }
+}
+
 export const usePreferencesStore = create<PreferencesState>()(
   persist(
     (set) => ({
@@ -105,6 +148,7 @@ export const usePreferencesStore = create<PreferencesState>()(
     }),
     {
       name: preferencesStorageKey,
+      merge: mergePreferencesState,
     },
   ),
 )

@@ -18,6 +18,8 @@ const defaultLearnDefaults = {
   rangeEnabled: false,
   rangeStart: 1,
   rangeEnd: 10,
+  requiredRangesEnabled: false,
+  requiredRanges: [],
 }
 
 function renderPage() {

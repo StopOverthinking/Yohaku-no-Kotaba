@@ -14,6 +14,8 @@ const defaultLearnDefaults = {
   rangeEnabled: false,
   rangeStart: 1,
   rangeEnd: 10,
+  requiredRangesEnabled: false,
+  requiredRanges: [],
 }
 
 const originalUpdatedAtValues = allSelectableWordbooks.map((wordbook) => wordbook.updatedAt)

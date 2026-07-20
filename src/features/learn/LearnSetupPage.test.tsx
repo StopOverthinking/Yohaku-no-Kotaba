@@ -1,4 +1,4 @@
-import { act, cleanup, render, screen, within } from '@testing-library/react'
+import { act, cleanup, render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
@@ -29,6 +29,8 @@ describe('LearnSetupPage', () => {
         rangeEnabled: false,
         rangeStart: 1,
         rangeEnd: 10,
+        requiredRangesEnabled: false,
+        requiredRanges: [],
       },
     })
     useFavoritesStore.setState({
@@ -95,6 +97,8 @@ describe('LearnSetupPage', () => {
         rangeEnabled: false,
         rangeStart: 1,
         rangeEnd: 10,
+        requiredRangesEnabled: false,
+        requiredRanges: [],
       },
     })
 
@@ -152,6 +156,8 @@ describe('LearnSetupPage', () => {
         rangeEnabled: false,
         rangeStart: 1,
         rangeEnd: 10,
+        requiredRangesEnabled: false,
+        requiredRanges: [],
       },
     })
 
@@ -190,6 +196,8 @@ describe('LearnSetupPage', () => {
         rangeEnabled: true,
         rangeStart: 12,
         rangeEnd: 30,
+        requiredRangesEnabled: false,
+        requiredRanges: [],
       },
     })
 
@@ -224,6 +232,8 @@ describe('LearnSetupPage', () => {
         rangeEnabled: true,
         rangeStart: 12,
         rangeEnd: 30,
+        requiredRangesEnabled: false,
+        requiredRanges: [],
       },
     })
 
@@ -241,5 +251,88 @@ describe('LearnSetupPage', () => {
 
     expect(rangeEndInput.value).toBe('45')
     expect(usePreferencesStore.getState().learnDefaults.rangeEnd).toBe(45)
+  })
+
+  it('toggles a required-range list and adds consecutive rows', async () => {
+    const user = userEvent.setup()
+
+    render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    await user.click(screen.getByRole('button', { name: '반드시 포함할 범위' }))
+
+    expect(screen.getByRole('spinbutton', { name: '1. 시작' })).toHaveValue(1)
+    expect(screen.getByRole('spinbutton', { name: '끝' })).toHaveValue(10)
+
+    await user.click(screen.getByRole('button', { name: '필수 범위 추가' }))
+
+    expect(screen.getByRole('spinbutton', { name: '2. 시작' })).toHaveValue(11)
+    expect(screen.getAllByRole('spinbutton', { name: '끝' })[1]).toHaveValue(20)
+    expect(usePreferencesStore.getState().learnDefaults.requiredRanges).toEqual([
+      { start: 1, end: 10 },
+      { start: 11, end: 20 },
+    ])
+  })
+
+  it('raises the total count to the number of required words', async () => {
+    usePreferencesStore.setState({
+      ...usePreferencesStore.getState(),
+      learnDefaults: {
+        ...usePreferencesStore.getState().learnDefaults,
+        wordCount: 2,
+        requiredRangesEnabled: true,
+        requiredRanges: [
+          { start: 1, end: 3 },
+          { start: 8, end: 10 },
+        ],
+      },
+    })
+
+    render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    await waitFor(() => {
+      expect(usePreferencesStore.getState().learnDefaults.wordCount).toBe(6)
+    })
+    expect(screen.getByRole('spinbutton', { name: '학습 항목 수' })).toHaveAttribute('min', '6')
+  })
+
+  it('includes every required range and fills the remaining session count from the selected range', async () => {
+    const user = userEvent.setup()
+    const requiredWords = [...allWords.slice(0, 2), ...allWords.slice(4, 6)]
+
+    usePreferencesStore.setState({
+      ...usePreferencesStore.getState(),
+      learnDefaults: {
+        ...usePreferencesStore.getState().learnDefaults,
+        wordCount: 6,
+        rangeEnabled: true,
+        rangeStart: 7,
+        rangeEnd: 12,
+        requiredRangesEnabled: true,
+        requiredRanges: [
+          { start: 1, end: 2 },
+          { start: 5, end: 6 },
+        ],
+      },
+    })
+
+    const { container } = render(
+      <MemoryRouter>
+        <LearnSetupPage />
+      </MemoryRouter>,
+    )
+
+    await user.click(container.querySelector('.page-header__right button') as HTMLButtonElement)
+
+    const record = useLearnSessionStore.getState().record
+    expect(record?.activeQueue).toHaveLength(6)
+    expect(record?.activeQueue).toEqual(expect.arrayContaining(requiredWords.map((word) => word.id)))
   })
 })
