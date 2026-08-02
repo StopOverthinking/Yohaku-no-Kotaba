@@ -46,6 +46,8 @@ export function LearnSetupPage() {
   const sessionRecord = useLearnSessionStore((state) => state.record)
   const discardSession = useLearnSessionStore((state) => state.discardSession)
   const [error, setError] = useState<string | null>(null)
+  const [countDraft, setCountDraft] = useState(String(learnDefaults.wordCount))
+  const activeCountInputRef = useRef(false)
   const [rangeDrafts, setRangeDrafts] = useState({
     rangeStart: String(learnDefaults.rangeStart),
     rangeEnd: String(learnDefaults.rangeEnd),
@@ -140,7 +142,17 @@ export function LearnSetupPage() {
   const minimumWordCount = Math.max(MIN_WORD_COUNT, requiredWords.length)
 
   useEffect(() => {
-    if (learnDefaults.requiredRangesEnabled && learnDefaults.wordCount < minimumWordCount) {
+    if (!activeCountInputRef.current) {
+      setCountDraft(String(learnDefaults.wordCount))
+    }
+  }, [learnDefaults.wordCount])
+
+  useEffect(() => {
+    if (
+      !activeCountInputRef.current
+      && learnDefaults.requiredRangesEnabled
+      && learnDefaults.wordCount < minimumWordCount
+    ) {
       updateLearnDefaults({ wordCount: minimumWordCount })
     }
   }, [learnDefaults.requiredRangesEnabled, learnDefaults.wordCount, minimumWordCount, updateLearnDefaults])
@@ -151,8 +163,28 @@ export function LearnSetupPage() {
     updateLearnDefaults({ wordCount: normalizeWordCount(learnDefaults.wordCount + delta, minimumWordCount) })
   }
 
+  const handleCountFocus = () => {
+    activeCountInputRef.current = true
+  }
+
   const handleCountChange = (event: ChangeEvent<HTMLInputElement>) => {
-    updateLearnDefaults({ wordCount: normalizeWordCount(Number(event.target.value), minimumWordCount) })
+    const nextDraft = event.target.value
+    setCountDraft(nextDraft)
+
+    if (nextDraft === '') return
+
+    const nextValue = Number(nextDraft)
+    if (!Number.isFinite(nextValue)) return
+
+    updateLearnDefaults({ wordCount: normalizeWordCount(nextValue) })
+  }
+
+  const handleCountBlur = () => {
+    const committedValue = normalizeWordCount(Number(countDraft), minimumWordCount)
+
+    activeCountInputRef.current = false
+    updateLearnDefaults({ wordCount: committedValue })
+    setCountDraft(String(committedValue))
   }
 
   const updateRangeDefault = (field: RangeField, value: number) => {
@@ -405,8 +437,10 @@ export function LearnSetupPage() {
                 type="number"
                 min={minimumWordCount}
                 className={`glass-input ${styles.countInput}`}
-                value={learnDefaults.wordCount}
+                value={countDraft}
+                onFocus={handleCountFocus}
                 onChange={handleCountChange}
+                onBlur={handleCountBlur}
               />
               <div className={styles.countStepColumn}>
                 {COUNT_STEPS.filter((step) => step > 0).map((step) => (

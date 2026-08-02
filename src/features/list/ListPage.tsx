@@ -305,7 +305,7 @@ function clearCardSurfaceRevealState(root: HTMLElement, target: HideTarget) {
 }
 
 function scheduleCardSurfacesSync(root: HTMLElement, sync: () => void) {
-  scheduleAfterNextPaint(() => {
+  return scheduleAfterNextPaint(() => {
     if (root.isConnected) {
       sync()
     }
@@ -324,7 +324,7 @@ function getListHideDataset(root: HTMLElement | null, target: HideTarget, fallba
 
 function setListHideDataset(root: HTMLElement | null, target: HideTarget, next: boolean, deferSync = false) {
   if (!root) {
-    return
+    return null
   }
 
   if (target === 'japanese') {
@@ -342,9 +342,10 @@ function setListHideDataset(root: HTMLElement | null, target: HideTarget, next: 
   }
 
   if (deferSync) {
-    scheduleCardSurfacesSync(root, sync)
+    return scheduleCardSurfacesSync(root, sync)
   } else {
     sync()
+    return null
   }
 }
 
@@ -631,6 +632,7 @@ export function ListPage() {
   })
   const optimisticFontScaleRef = useRef(optimisticFontScale)
   const pendingFontScalePreferenceCommitRef = useRef<PendingFontScalePreferenceCommit | null>(null)
+  const pendingCardSurfaceSyncRef = useRef<ScheduledAfterPaintTask | null>(null)
   const suppressHideClickRef = useRef<Record<HideTarget, boolean>>({ japanese: false, meaning: false })
   const suppressFontScaleClickRef = useRef<Record<FontScaleDirection, boolean>>({
     decrease: false,
@@ -770,13 +772,6 @@ export function ListPage() {
     previousHideStateRef.current = nextHideState
 
     if (!previousHideState) {
-      if (!effectiveHideJapaneseInList) {
-        clearCardSurfaceRevealState(root, 'japanese')
-      }
-      if (!effectiveHideMeaningInList) {
-        clearCardSurfaceRevealState(root, 'meaning')
-      }
-      syncCardSurfaces(root)
       return
     }
 
@@ -1002,6 +997,12 @@ export function ListPage() {
     return () => window.removeEventListener('pagehide', flushPendingPreferenceCommits)
   }, [flushPendingPreferenceCommits])
 
+  useEffect(() => {
+    return () => {
+      pendingCardSurfaceSyncRef.current?.cancel()
+    }
+  }, [])
+
   const scheduleHidePreferenceCommit = useCallback((target: HideTarget, next: boolean) => {
     pendingHidePreferenceCommitsRef.current[target]?.cancel()
 
@@ -1055,7 +1056,8 @@ export function ListPage() {
       control.dataset.active = String(next)
     }
 
-    setListHideDataset(rootRef.current, target, next, true)
+    pendingCardSurfaceSyncRef.current?.cancel()
+    pendingCardSurfaceSyncRef.current = setListHideDataset(rootRef.current, target, next, true)
     setOptimisticHideState((currentState) => (
       currentState[target] === next ? currentState : { ...currentState, [target]: next }
     ))

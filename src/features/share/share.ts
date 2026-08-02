@@ -1,7 +1,7 @@
 export const SHARE_STORAGE_PREFIX = 'jsp-react:'
 export const SHARE_SCHEMA_VERSION = 'jsp-react-backup-v1'
 export const QR_SHARE_PREFIX = 'JSPQR1'
-export const QR_SHARE_CHUNK_SIZE = 900
+export const QR_SHARE_CHUNK_SIZE = 400
 export const QR_SHARE_AUTOPLAY_MS = 1400
 const QR_GZIP_FORMAT = 'gzip'
 const EXCLUDED_SHARE_KEYS = new Set([

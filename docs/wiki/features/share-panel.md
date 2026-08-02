@@ -20,7 +20,8 @@
 
 ## QR 동작
 
-- 큰 payload는 프레임 분할
+- 큰 payload는 QR 한 장당 Base64 URL 텍스트 400자 이하로 분할
+- 프레임 수를 늘리는 대신 QR 모듈을 크게 유지해 먼 거리에서도 전체 코드를 인식하기 쉽게 함
 - SVG QR 생성
 - 여러 장이면 자동 재생
 - 카메라 스캔은 브라우저 `BarcodeDetector`와 `getUserMedia` 사용

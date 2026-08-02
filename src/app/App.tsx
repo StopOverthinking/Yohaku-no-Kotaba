@@ -11,21 +11,35 @@ function getRouteSignature(location: ReturnType<typeof useLocation>) {
   return `${location.pathname}${location.search}${location.hash}`
 }
 
+function isListRoute(location: ReturnType<typeof useLocation>) {
+  return location.pathname === '/list'
+}
+
 export function App() {
   const location = useLocation()
   const outlet = useOutlet()
   const shouldReduceEffects = useShouldReduceEffects()
   const pendingRouteRef = useRef({ location, outlet })
+  const bypassedRouteSignatureRef = useRef<string | null>(null)
   const [displayLocation, setDisplayLocation] = useState(location)
   const [displayOutlet, setDisplayOutlet] = useState(outlet)
   const [phase, setPhase] = useState<TransitionPhase>('enter')
   const currentSignature = getRouteSignature(location)
   const displaySignature = getRouteSignature(displayLocation)
+  const listRouteInvolved = isListRoute(location) || isListRoute(displayLocation)
+  const shouldBypassTransition =
+    shouldReduceEffects ||
+    listRouteInvolved ||
+    (bypassedRouteSignatureRef.current === currentSignature && currentSignature === displaySignature)
 
   useEffect(() => {
     pendingRouteRef.current = { location, outlet }
 
-    if (shouldReduceEffects) {
+    if (listRouteInvolved) {
+      bypassedRouteSignatureRef.current = currentSignature
+    }
+
+    if (shouldBypassTransition) {
       setDisplayLocation(location)
       setDisplayOutlet(outlet)
       setPhase('idle')
@@ -35,13 +49,13 @@ export function App() {
     if (currentSignature !== displaySignature) {
       setPhase('exit')
     }
-  }, [currentSignature, displaySignature, location, outlet, shouldReduceEffects])
+  }, [currentSignature, displaySignature, listRouteInvolved, location, outlet, shouldBypassTransition])
 
   return (
     <AppProviders>
       <div className="app-shell">
         <ScreenFrame>
-          {shouldReduceEffects ? (
+          {shouldBypassTransition ? (
             <div className="page-shell">{outlet}</div>
           ) : (
             <motion.div
