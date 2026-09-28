@@ -1,0 +1,12 @@
+{
+  "words": 1520,
+  "senses": 40,
+  "examples": 80,
+  "reviewedWords": 40,
+  "similar": [],
+  "repeatedOpenings": [],
+  "repeatedEndings": [],
+  "note": "자동 유사도 검사는 검토 대상을 찾습니다. 자연스러움, 의미 차이, 장면 다양성은 별도 검수가 필요합니다.",
+  "notInPilot": 1480,
+  "scope": "pilot.tsv only; retained pilot-stage audit"
+}

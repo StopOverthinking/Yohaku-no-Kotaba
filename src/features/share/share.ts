@@ -1,3 +1,5 @@
+import { CONTEXT_STORAGE_KEY, parseContextState } from '@/features/learn/contextPersistence'
+
 export const SHARE_STORAGE_PREFIX = 'jsp-react:'
 export const SHARE_SCHEMA_VERSION = 'jsp-react-backup-v1'
 export const QR_SHARE_PREFIX = 'JSPQR1'
@@ -13,7 +15,7 @@ const EXCLUDED_SHARE_KEYS = new Set([
 ])
 
 type StorageLike = Pick<Storage, 'getItem' | 'key' | 'length'>
-type WritableStorageLike = Pick<Storage, 'setItem' | 'removeItem' | 'key' | 'length'>
+type WritableStorageLike = Pick<Storage, 'getItem' | 'setItem' | 'removeItem' | 'key' | 'length'>
 type RestoreMetadata = {
   app?: string
   exportedAt?: string
@@ -370,6 +372,11 @@ export function parseRestorePayload(text: string): RestoreParseResult {
 
   const rawEntries = isRecord(parsed.data) ? parsed.data : parsed
   const normalizedEntries = normalizeLegacyEntries(rawEntries)
+  const contextRaw = normalizedEntries[CONTEXT_STORAGE_KEY]
+  if (contextRaw) {
+    try { parseContextState(contextRaw) }
+    catch { return { ok: false, error: '문장 학습 기록의 형식이 올바르지 않습니다. 기존 기록은 변경하지 않았습니다.' } }
+  }
   const keyCount = Object.keys(normalizedEntries).length
 
   if (keyCount === 0) {
@@ -399,16 +406,22 @@ export function parseRestorePayload(text: string): RestoreParseResult {
 
 export function applyImportedBackup(entries: Record<string, string>, storage?: WritableStorageLike) {
   const target = resolveWritableStorage(storage)
-
-  for (let index = target.length - 1; index >= 0; index -= 1) {
+  if (entries[CONTEXT_STORAGE_KEY]) parseContextState(entries[CONTEXT_STORAGE_KEY])
+  const previous: Record<string, string> = {}
+  for (let index = 0; index < target.length; index += 1) {
     const key = target.key(index)
-    if (key?.startsWith(SHARE_STORAGE_PREFIX)) {
-      target.removeItem(key)
-    }
+    if (key?.startsWith(SHARE_STORAGE_PREFIX)) previous[key] = target.getItem(key) ?? ''
   }
-
-  for (const [key, value] of Object.entries(entries)) {
-    target.setItem(key, value)
+  try {
+    // Keep existing records until every imported value has been written successfully.
+    for (const [key, value] of Object.entries(entries)) target.setItem(key, value)
+    for (const key of Object.keys(previous)) if (!(key in entries)) target.removeItem(key)
+  } catch (error) {
+    for (const key of Object.keys(entries)) if (!(key in previous)) target.removeItem(key)
+    for (const [key, value] of Object.entries(previous)) {
+      if (target.getItem(key) !== value) target.setItem(key, value)
+    }
+    throw error
   }
 }
 

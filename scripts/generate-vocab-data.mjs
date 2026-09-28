@@ -11,6 +11,7 @@ const editorDataDir = path.join(projectRoot, 'src', 'features', 'vocab', 'editor
 const outputDir = path.join(projectRoot, 'src', 'features', 'vocab', 'data')
 
 const editorPaths = {
+  learnContent: path.join(editorDataDir, 'learnContent.json'),
   sets: path.join(editorDataDir, 'vocabularySets.json'),
   words: path.join(editorDataDir, 'vocabularyWords.json'),
   themeWordbooks: path.join(editorDataDir, 'themeWordbooks.json'),
@@ -125,6 +126,7 @@ async function readEditorSource() {
   }
 
   return {
+    learnContent: await readJsonFile(editorPaths.learnContent, []),
     sets,
     words,
     themeWordbooks,
@@ -149,6 +151,7 @@ async function writeOutputFiles(data) {
   const indexFile = `export { comparisonPairs } from './comparisonPairs'\nexport { comparisonWords } from './comparisonWords'\nexport { comparisonWordbooks } from './comparisonWordbooks'\nexport { themeWords } from './themeWords'\nexport { themeWordbooks } from './themeWordbooks'\nexport { vocabularySets } from './vocabularySets'\nexport { vocabularyWords } from './vocabularyWords'\n`
 
   await Promise.all([
+    fs.writeFile(path.join(outputDir, 'learnContent.ts'), `import type { LearnSense } from '../../learn/contextTypes'\n\nexport const learnContent: LearnSense[] = ${toTsLiteral(data.learnContent ?? [])}\n`, 'utf8'),
     fs.writeFile(editorPaths.sets, `${JSON.stringify(data.sets, null, 2)}\n`, 'utf8'),
     fs.writeFile(editorPaths.words, `${JSON.stringify(data.words, null, 2)}\n`, 'utf8'),
     fs.writeFile(editorPaths.themeWordbooks, `${JSON.stringify(data.themeWordbooks, null, 2)}\n`, 'utf8'),
@@ -171,7 +174,7 @@ async function main() {
   const editorSource = await readEditorSource()
   const legacySets = await collectLegacySets()
 
-  if (legacySets.length > 0) {
+  if (!editorSource && legacySets.length > 0) {
     const legacyData = buildDataFromLegacySets(legacySets)
     await writeOutputFiles({
       sets: legacyData.sets,

@@ -1,3 +1,6 @@
+import { appendLearnSheets, parseLearnSheets } from './learnSpreadsheet'
+import { validateLearnContent } from '@/features/learn/contentValidation'
+import type { LearnSense } from '@/features/learn/contextTypes'
 import type { ColInfo, Range, WorkBook } from 'xlsx'
 import type { EditorSnapshot } from '@/features/editor/editorData'
 import { buildPublishedEditorSnapshot, normalizeEditorSnapshot } from '@/features/editor/editorSerializer'
@@ -37,9 +40,9 @@ export type EditorWorkbookScope =
   | { mode: 'compare'; wordbookId: string }
 
 export type ParsedEditorWorkbook =
-  | { mode: 'basic'; set: VocabularySet; words: VocabularyWord[] }
-  | { mode: 'theme'; wordbook: ThemeWordbook; words: VocabularyWord[] }
-  | { mode: 'compare'; wordbook: ComparisonWordbook; words: VocabularyWord[]; pairs: ComparisonPair[] }
+  | { mode: 'basic'; set: VocabularySet; words: VocabularyWord[]; learnContent?: LearnSense[] }
+  | { mode: 'theme'; wordbook: ThemeWordbook; words: VocabularyWord[]; learnContent?: LearnSense[] }
+  | { mode: 'compare'; wordbook: ComparisonWordbook; words: VocabularyWord[]; pairs: ComparisonPair[]; learnContent?: LearnSense[] }
 
 const wordTypes = new Set<WordType>(['verb', 'noun', 'i_adj', 'na_adj', 'adv', 'expression', 'other'])
 
@@ -659,6 +662,11 @@ export async function buildEditorWorkbook(snapshot: EditorSnapshot, scope: Edito
       ? buildThemeWorkbook(xlsx, snapshot, scope.wordbookId)
       : buildCompareWorkbook(xlsx, snapshot, scope.wordbookId)
 
+  if (scope.mode !== 'compare') {
+    const setId = scope.mode === 'basic' ? scope.setId : scope.wordbookId
+    const ids = new Set([...snapshot.words, ...snapshot.themeWords].filter((word) => word.setId === setId).map((word) => word.id))
+    appendLearnSheets(workbook, xlsx, (snapshot.learnContent ?? []).filter((sense) => ids.has(sense.wordId)))
+  }
   return xlsx.write(workbook, { bookType: 'xlsx', type: 'array' }) as ArrayBuffer
 }
 
@@ -666,12 +674,14 @@ export async function parseEditorWorkbook(buffer: ArrayBuffer, mode: EditorWorkb
   const xlsx = await loadXlsx()
   const workbook = xlsx.read(buffer, { type: 'array' })
 
-  if (mode === 'basic') {
-    return parseBasicWorkbook(workbook, xlsx)
-  }
-
-  if (mode === 'theme') {
-    return parseThemeWorkbook(workbook, xlsx)
+  if (mode === 'basic' || mode === 'theme') {
+    const parsed = mode === 'basic' ? parseBasicWorkbook(workbook, xlsx) : parseThemeWorkbook(workbook, xlsx)
+    const learnContent = parseLearnSheets(workbook, xlsx)
+    if (learnContent) {
+      const issues = validateLearnContent(learnContent, new Set(parsed.words.map((word) => word.id)))
+      if (issues.length) throw new Error(issues[0])
+    }
+    return { ...parsed, learnContent }
   }
 
   return parseCompareWorkbook(workbook, xlsx)

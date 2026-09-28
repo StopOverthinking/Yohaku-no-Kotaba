@@ -1,9 +1,9 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom'
+import { lazy, Suspense } from 'react'
 import { App } from '@/app/App'
 import { ConjugationResultPage } from '@/features/conjugation/ConjugationResultPage'
 import { ConjugationSessionPage } from '@/features/conjugation/ConjugationSessionPage'
 import { ConjugationSetupPage } from '@/features/conjugation/ConjugationSetupPage'
-import { EditorScreen } from '@/features/editor/EditorScreen'
 import { ExamResultPage } from '@/features/exam/ExamResultPage'
 import { ExamSessionPage } from '@/features/exam/ExamSessionPage'
 import { ExamSetupPage } from '@/features/exam/ExamSetupPage'
@@ -16,11 +16,13 @@ import { LearnSessionPage } from '@/features/learn/LearnSessionPage'
 import { LearnSetupPage } from '@/features/learn/LearnSetupPage'
 import { ListPage } from '@/features/list/ListPage'
 
+const EditorScreen = lazy(() => import('@/features/editor/EditorScreen').then((module) => ({ default: module.EditorScreen })))
+
 export const router = createBrowserRouter(
   [
     {
       path: '/editor',
-      element: <EditorScreen />,
+      element: <Suspense fallback={null}><EditorScreen /></Suspense>,
     },
     {
       path: '/',

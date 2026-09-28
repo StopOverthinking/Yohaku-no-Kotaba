@@ -23,6 +23,7 @@ import { SharePanel } from '@/features/share/SharePanel'
 import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import { useShouldReduceEffects } from '@/lib/useShouldReduceEffects'
 import styles from '@/features/home/home.module.css'
+import { useContextStore } from '@/features/learn/contextStore'
 
 const COMPACT_HOME_MEDIA_QUERY = '(max-width: 720px)'
 
@@ -36,7 +37,10 @@ function getCompactHomeLayoutMatch() {
 
 export function HomePage() {
   const navigate = useNavigate()
-  const sessionRecord = useLearnSessionStore((state) => state.record)
+  const legacySession = useLearnSessionStore((state) => state.record)
+  const contextSession = useContextStore((state) => state.data.session)
+  const discardContext = useContextStore((state) => state.discard)
+  const sessionRecord = contextSession ?? legacySession
   const discardLearnSession = useLearnSessionStore((state) => state.discardSession)
   const examSession = useExamStore((state) => state.session)
   const clearExamSession = useExamStore((state) => state.clearSession)
@@ -106,11 +110,12 @@ export function HomePage() {
   }, [])
 
   const handleDiscardLearnSession = () => {
-    if (!window.confirm('진행 중인 학습을 그만둘까요? 지금까지의 학습 진행 내용은 사라집니다.')) {
+    if (!window.confirm(contextSession ? '남은 학습을 닫을까요? 이미 학습한 기록은 유지됩니다.' : '진행 중인 학습을 그만둘까요? 지금까지의 학습 진행 내용은 사라집니다.')) {
       return
     }
 
-    discardLearnSession()
+    if (contextSession) discardContext()
+    else discardLearnSession()
   }
 
   const handleDiscardExamSession = () => {
@@ -237,7 +242,7 @@ export function HomePage() {
             <p className="section-kicker">이어하기</p>
             <h2 className="page-header__title">이전에 진행하던 학습 세션이 남아 있어요.</h2>
             <p className="page-header__caption">
-              {sessionRecord.round}회차 카드 {sessionRecord.currentIndex + 1}/{sessionRecord.activeQueue.length}
+              {sessionRecord.round}회차 · {contextSession ? `${contextSession.cards.length}/${contextSession.targetCount}` : `${legacySession!.currentIndex + 1}/${legacySession!.activeQueue.length}`}
             </p>
           </div>
           <div className={styles.resumeActions}>

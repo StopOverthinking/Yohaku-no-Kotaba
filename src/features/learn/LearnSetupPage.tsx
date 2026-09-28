@@ -16,7 +16,8 @@ import {
   getWordsInRanges,
 } from '@/features/study/wordSelection'
 import { getSetName, getStudySelectableWordbooks, isComparisonWordbook, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
-import type { FrontMode } from '@/features/vocab/model/types'
+import { useContextStore } from './contextStore'
+import { contextContentReady, contextSenseMap } from './contextContent'
 
 const MIN_WORD_COUNT = 1
 const COUNT_STEPS = [-10, -5, 5, 10] as const
@@ -42,8 +43,9 @@ export function LearnSetupPage() {
   const setLastSelectedSetId = usePreferencesStore((state) => state.setLastSelectedSetId)
   const wrongAnswerIds = useExamStore((state) => state.wrongAnswerIds)
   const favoriteIds = useFavoritesStore((state) => state.favoriteIds)
-  const startSession = useLearnSessionStore((state) => state.startSession)
-  const sessionRecord = useLearnSessionStore((state) => state.record)
+  const context = useContextStore()
+  const legacySession = useLearnSessionStore((state) => state.record)
+  const sessionRecord = context.data.session ?? legacySession
   const discardSession = useLearnSessionStore((state) => state.discardSession)
   const [error, setError] = useState<string | null>(null)
   const [countDraft, setCountDraft] = useState(String(learnDefaults.wordCount))
@@ -139,6 +141,8 @@ export function LearnSetupPage() {
     () => new Set([...availableWords, ...requiredWords].map((word) => word.id)).size,
     [availableWords, requiredWords],
   )
+  const scopeIds = new Set([...availableWords, ...requiredWords].map((word) => word.id))
+  const nextDue = Object.values(context.data.profiles).filter((profile) => contextSenseMap.get(profile.senseId)?.version === profile.version && scopeIds.has(contextSenseMap.get(profile.senseId)!.wordId)).map((profile) => profile.due).sort()[0]
   const minimumWordCount = Math.max(MIN_WORD_COUNT, requiredWords.length)
 
   useEffect(() => {
@@ -307,11 +311,12 @@ export function LearnSetupPage() {
   }
 
   const handleDiscardSession = () => {
-    if (!window.confirm('진행 중이던 학습을 파기할까요? 지금까지의 학습 진행 내용은 삭제됩니다.')) {
+    if (!window.confirm(context.data.session ? '남은 학습을 닫을까요? 이미 학습한 기록은 유지됩니다.' : '진행 중이던 학습을 파기할까요? 지금까지의 학습 진행 내용은 삭제됩니다.')) {
       return
     }
 
-    discardSession()
+    if (context.data.session) context.discard()
+    else discardSession()
   }
 
   const handleStart = () => {
@@ -333,23 +338,41 @@ export function LearnSetupPage() {
       }
     }
 
-    const sessionWords = learnDefaults.requiredRangesEnabled
-      ? buildCandidateWordsWithRequired(availableWords, learnDefaults.wordCount, requiredWords)
-      : buildCandidateWords(availableWords, learnDefaults.wordCount)
-
-    if (sessionWords.length === 0) {
+    if (!contextContentReady) {
+      // Release gate: until every word is reviewed, keep the existing mode intact.
+      // A contextual session itself never falls back to isolated word cards.
+      if (sessionRecord) {
+        setError('진행 중인 학습을 이어가거나 닫아 주세요.')
+        return
+      }
+      const items = learnDefaults.requiredRangesEnabled
+        ? buildCandidateWordsWithRequired(availableWords, learnDefaults.wordCount, requiredWords)
+        : buildCandidateWords(availableWords, learnDefaults.wordCount)
+      if (!items.length) { setError('시작할 항목이 없습니다.'); return }
+      context.clearResult()
+      useLearnSessionStore.getState().startSession({ setId: selectedSetId, setName: currentSetName, frontMode: learnDefaults.frontMode, items })
+      navigate('/learn/session')
+      return
+    }
+    if (sessionRecord) {
+      setError('진행 중인 학습을 이어가거나 닫아 주세요.')
+      return
+    }
+    if (maxAvailableWordCount === 0) {
       setError('시작할 항목이 없습니다. 단어장과 필터를 다시 확인해 주세요.')
       return
     }
 
     setError(null)
-    startSession({
+    const started = context.start({
       setId: selectedSetId,
       setName: currentSetName,
-      frontMode: learnDefaults.frontMode,
-      items: sessionWords,
+      candidateWordIds: availableWords.map((word) => word.id),
+      requiredWordIds: requiredWords.map((word) => word.id),
+      wordCount: learnDefaults.wordCount,
+      allowEarly: selectedSetId !== 'all' || learnDefaults.rangeEnabled || learnDefaults.favoritesOnly,
     })
-    navigate('/learn/session')
+    if (started) navigate('/learn/session')
   }
 
   return (
@@ -411,7 +434,7 @@ export function LearnSetupPage() {
               value={selectedSetId}
               onChange={(event) => setLastSelectedSetId(event.target.value)}
             >
-              <option value="all">전체 세트</option>
+              <option value="all">{contextContentReady ? '자동 추천' : '전체 세트'}</option>
               <option value="favorites">즐겨찾기 단어</option>
               {wrongAnswerIds.length > 0 ? <option value="wrong_answers">오답 노트</option> : null}
               {selectableWordbooks.map((wordbook) => (
@@ -456,29 +479,13 @@ export function LearnSetupPage() {
             </p>
           </div>
 
-          <div className="toggle-row">
-            <div>
-              <div className="form-label">앞면 기준</div>
-              <p className="page-header__caption">카드의 앞면에 보여줄 정보를 선택합니다.</p>
-            </div>
+          {!contextContentReady && <div className="toggle-row">
+            <span className="form-label">앞면 기준</span>
             <div className="action-row">
-              <button
-                className="pill"
-                data-active={learnDefaults.frontMode === 'japanese'}
-                onClick={() => updateLearnDefaults({ frontMode: 'japanese' satisfies FrontMode })}
-              >
-                일본어
-              </button>
-              <button
-                className="pill"
-                data-active={learnDefaults.frontMode === 'meaning'}
-                onClick={() => updateLearnDefaults({ frontMode: 'meaning' satisfies FrontMode })}
-              >
-                뜻
-              </button>
+              <button className="pill" data-active={learnDefaults.frontMode === 'japanese'} onClick={() => updateLearnDefaults({ frontMode: 'japanese' })}>일본어</button>
+              <button className="pill" data-active={learnDefaults.frontMode === 'meaning'} onClick={() => updateLearnDefaults({ frontMode: 'meaning' })}>뜻</button>
             </div>
-          </div>
-
+          </div>}
           <div className="toggle-row">
             <div>
               <div className="form-label">즐겨찾기만 학습</div>
@@ -624,7 +631,8 @@ export function LearnSetupPage() {
             </div>
           ) : null}
 
-          {error ? <p className="page-header__caption" style={{ color: 'var(--accent-coral)' }}>{error}</p> : null}
+          {(error || context.error) && <p role="alert" className="page-header__caption">{error || context.error}</p>}
+          {nextDue && <p className="page-header__caption">다음 복습 · {nextDue}</p>}
         </GlassPanel>
       </div>
     </div>

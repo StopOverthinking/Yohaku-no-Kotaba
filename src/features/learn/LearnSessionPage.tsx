@@ -12,6 +12,8 @@ import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import { getStudyItemById } from '@/features/vocab/model/selectors'
 import type { FrontMode, StudyItem } from '@/features/vocab/model/types'
 import styles from '@/features/learn/learn.module.css'
+import { ContextSessionPage } from './ContextSessionPage'
+import { useContextStore } from './contextStore'
 
 const SWIPE_TRIGGER_PX = 96
 const SWIPE_VISUAL_LIMIT_PX = 132
@@ -27,6 +29,12 @@ type LeavingCard = {
 }
 
 export function LearnSessionPage() {
+  const session = useContextStore((state) => state.data.session)
+  const completed = useContextStore((state) => state.lastResult)
+  return session || completed ? <ContextSessionPage /> : <LegacyLearnSessionPage />
+}
+
+function LegacyLearnSessionPage() {
   const navigate = useNavigate()
   const { status, record, previousSnapshot, markKnown, markUnknown, undo, abandonSession, discardSession } = useLearnSessionStore()
   const toggleFavorite = useFavoritesStore((state) => state.toggleFavorite)

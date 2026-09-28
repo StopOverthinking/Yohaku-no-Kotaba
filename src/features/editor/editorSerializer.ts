@@ -1,7 +1,12 @@
 import type { ComparisonPair, ComparisonWordbook, ThemeWordbook, ThemeWordbookTopic, VocabularySet, VocabularyWord } from '@/features/vocab/model/types'
 import type { EditorSnapshot } from '@/features/editor/editorData'
+import { validateLearnContent } from '@/features/learn/contentValidation'
+import { editorLearnContent } from '@/features/editor/editorData'
+import { versionLearnContent } from './learnContentVersions'
 
 export const editorWorkspaceFiles = {
+  learnContentJson: ['src', 'features', 'vocab', 'editor-data', 'learnContent.json'],
+  learnContentTs: ['src', 'features', 'vocab', 'data', 'learnContent.ts'],
   setsJson: ['src', 'features', 'vocab', 'editor-data', 'vocabularySets.json'],
   wordsJson: ['src', 'features', 'vocab', 'editor-data', 'vocabularyWords.json'],
   themeWordbooksJson: ['src', 'features', 'vocab', 'editor-data', 'themeWordbooks.json'],
@@ -20,7 +25,7 @@ export const editorWorkspaceFiles = {
 } as const
 
 export type EditorIssue = {
-  scope: 'set' | 'word' | 'themeWordbook' | 'themeTopic' | 'themeWord' | 'comparisonWordbook' | 'comparisonWord' | 'comparisonPair'
+  scope: 'set' | 'word' | 'themeWordbook' | 'themeTopic' | 'themeWord' | 'comparisonWordbook' | 'comparisonWord' | 'comparisonPair' | 'learnContent'
   id: string
   field: string
   message: string
@@ -285,6 +290,7 @@ export function normalizeEditorSnapshot(snapshot: EditorSnapshot): EditorSnapsho
     wordbook.pairIds = normalizedPairs.filter((pair) => pair.bookId === wordbook.id).map((pair) => pair.id)
   })
 
+  const learnWordIds = new Set([...normalizedWords, ...normalizedThemeWords].map((word) => word.id))
   return {
     sets,
     words: normalizedWords,
@@ -293,6 +299,7 @@ export function normalizeEditorSnapshot(snapshot: EditorSnapshot): EditorSnapsho
     comparisonWordbooks,
     comparisonWords: normalizedComparisonWords,
     comparisonPairs: normalizedPairs,
+    learnContent: structuredClone(snapshot.learnContent ?? []).filter((sense) => learnWordIds.has(sense.wordId)),
   }
 }
 
@@ -455,6 +462,9 @@ export function duplicateWord(snapshotWords: VocabularyWord[], source: Vocabular
 
 export function validateEditorSnapshot(snapshot: EditorSnapshot) {
   const issues: EditorIssue[] = []
+  for (const message of validateLearnContent(snapshot.learnContent ?? [], new Set([...snapshot.words, ...snapshot.themeWords].map((word) => word.id)))) {
+    issues.push({ scope: 'learnContent', id: message.split(':')[0], field: 'example', message })
+  }
   const { sets: publishedSets, words: publishedWords } = buildPublishedBasicWordData(snapshot)
   const { wordbooks: publishedThemeWordbooks, words: publishedThemeWords, idMap: publishedThemeWordIds } = buildPublishedThemeWordData(snapshot)
   const setIds = new Set<string>()
@@ -667,8 +677,8 @@ function buildPublishedBasicWordData(snapshot: EditorSnapshot) {
     const prefix = normalizeWordIdPrefix(set.wordIdPrefix, set.id)
     const setWords = words.filter((word) => word.setId === set.id)
     set.wordIdPrefix = prefix
-    setWords.forEach((word, index) => {
-      nextWordIds.set(word.id, formatGeneratedWordId(prefix, index + 1))
+    setWords.forEach((word) => {
+      nextWordIds.set(word.id, word.id)
     })
   })
 
@@ -714,8 +724,8 @@ function buildPublishedThemeWordData(snapshot: EditorSnapshot) {
     const prefix = normalizeWordIdPrefix(wordbook.wordIdPrefix, wordbook.id)
     const bookWords = words.filter((word) => word.setId === wordbook.id)
     wordbook.wordIdPrefix = prefix
-    bookWords.forEach((word, index) => {
-      nextWordIds.set(word.id, formatGeneratedWordId(prefix, index + 1))
+    bookWords.forEach((word) => {
+      nextWordIds.set(word.id, word.id)
     })
   })
 
@@ -821,6 +831,7 @@ export function buildPublishedEditorSnapshot(snapshot: EditorSnapshot): EditorSn
 
   return {
     ...normalized,
+    learnContent: versionLearnContent(normalized.learnContent ?? [], editorLearnContent),
     sets,
     words,
     themeWordbooks,
@@ -894,6 +905,14 @@ export function buildEditorFileOutputs(snapshot: EditorSnapshot) {
     {
       path: [...editorWorkspaceFiles.indexTs],
       content: `export { comparisonPairs } from './comparisonPairs'\nexport { comparisonWords } from './comparisonWords'\nexport { comparisonWordbooks } from './comparisonWordbooks'\nexport { themeWords } from './themeWords'\nexport { themeWordbooks } from './themeWordbooks'\nexport { vocabularySets } from './vocabularySets'\nexport { vocabularyWords } from './vocabularyWords'\n`,
+    },
+    {
+      path: [...editorWorkspaceFiles.learnContentJson],
+      content: `${JSON.stringify(normalized.learnContent ?? [], null, 2)}\n`,
+    },
+    {
+      path: [...editorWorkspaceFiles.learnContentTs],
+      content: `import type { LearnSense } from '../../learn/contextTypes'\n\nexport const learnContent: LearnSense[] = ${toTsLiteral(normalized.learnContent ?? [])}\n`,
     },
   ]
 }

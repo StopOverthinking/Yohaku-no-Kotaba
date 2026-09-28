@@ -8,7 +8,17 @@ import styles from '@/features/learn/learn.module.css'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { useLearnSessionStore } from '@/features/session/learnSessionStore'
+import { useContextStore } from './contextStore'
+import { contextSenses } from './contextContent'
 import { allWords } from '@/features/vocab/model/selectors'
+
+vi.mock('./contextContent', async () => {
+  const { testSense } = await import('./contextTestFixtures')
+  const { allWords } = await import('@/features/vocab/model/selectors')
+  const words = allWords.slice(0, 20)
+  const senses = words.map((word) => testSense(word.id))
+  return { contextSenses: senses, contextSenseMap: new Map(senses.map((s) => [s.id, s])), contextContentReady: true, contextCoverage: words.length, contextWords: words }
+})
 
 const initialPreferencesState = usePreferencesStore.getState()
 const initialFavoritesState = useFavoritesStore.getState()
@@ -19,6 +29,8 @@ const sampleWords = allWords.slice(0, 2)
 describe('LearnSetupPage', () => {
   beforeEach(() => {
     localStorage.clear()
+    useContextStore.setState({ loadedRaw: null, lastResult: null, error: null })
+    useContextStore.getState().hydrate()
     usePreferencesStore.setState({
       ...initialPreferencesState,
       lastSelectedSetId: 'all',
@@ -112,11 +124,11 @@ describe('LearnSetupPage', () => {
 
     await user.click(container.querySelector('.page-header__right button') as HTMLButtonElement)
 
-    const record = useLearnSessionStore.getState().record
+    const record = useContextStore.getState().data.session
     expect(record?.setId).toBe('wrong_answers')
     expect(record?.setName).toBe('오답 노트')
-    expect(record?.activeQueue).toHaveLength(sampleWords.length)
-    expect(record?.activeQueue).toEqual(expect.arrayContaining(sampleWords.map((word) => word.id)))
+    expect(record?.targetCount).toBe(sampleWords.length)
+    expect(record?.candidateWordIds).toEqual(expect.arrayContaining(sampleWords.map((word) => word.id)))
   })
 
   it('falls back to all when the last selected set was a comparison wordbook', () => {
@@ -170,17 +182,17 @@ describe('LearnSetupPage', () => {
     const startButton = container.querySelector('.page-header__right button') as HTMLButtonElement
 
     await user.click(startButton)
-    const firstQueue = useLearnSessionStore.getState().record?.activeQueue
+    const firstQueue = useContextStore.getState().data.session?.tieOrder
 
     act(() => {
-      useLearnSessionStore.getState().discardSession()
+      useContextStore.getState().discard()
     })
 
     await user.click(startButton)
-    const secondQueue = useLearnSessionStore.getState().record?.activeQueue
+    const secondQueue = useContextStore.getState().data.session?.tieOrder
 
-    expect(firstQueue).toHaveLength(3)
-    expect(secondQueue).toHaveLength(3)
+    expect(firstQueue).toHaveLength(favoriteIds.length)
+    expect(secondQueue).toHaveLength(favoriteIds.length)
     expect(secondQueue).not.toEqual(firstQueue)
   })
 
@@ -331,8 +343,12 @@ describe('LearnSetupPage', () => {
 
     await user.click(container.querySelector('.page-header__right button') as HTMLButtonElement)
 
-    const record = useLearnSessionStore.getState().record
-    expect(record?.activeQueue).toHaveLength(6)
-    expect(record?.activeQueue).toEqual(expect.arrayContaining(requiredWords.map((word) => word.id)))
+    const record = useContextStore.getState().data.session
+    expect(record?.targetCount).toBe(6)
+    expect(record?.requiredWordIds).toEqual(expect.arrayContaining(requiredWords.map((word) => word.id)))
+    for (let i = 0; i < 5; i++) act(() => { useContextStore.getState().answer(true) })
+    const selected = useContextStore.getState().data.session?.cards.map((card) => contextSenses.find((sense) => sense.id === card.senseId)!.wordId)
+    expect(selected).toHaveLength(6)
+    expect(selected).toEqual(expect.arrayContaining(requiredWords.map((word) => word.id)))
   })
 })

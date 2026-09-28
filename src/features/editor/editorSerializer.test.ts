@@ -301,10 +301,10 @@ describe('editorSerializer', () => {
   it('builds json and ts outputs together', () => {
     const outputs = buildEditorFileOutputs(normalizeEditorSnapshot(createSnapshot()))
 
-    expect(outputs).toHaveLength(15)
+    expect(outputs).toHaveLength(17)
     expect(outputs[0]?.path.join('/')).toContain('editor-data/vocabularySets.json')
     expect(outputs[0]?.content).toContain('"wordIdPrefix": "WordA"')
-    expect(outputs[1]?.content).toContain('"id": "WordA_1"')
+    expect(outputs[1]?.content).toContain('"id": "w-1"')
     expect(outputs[1]?.content).not.toContain('japaneseSentence')
     expect(outputs[2]?.content).toContain('"wordIdPrefix": "ThemeWord"')
     expect(outputs[3]?.content).toContain('"id": "ThemeWord_1"')

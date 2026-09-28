@@ -11,7 +11,8 @@
 | 테마, 목록 표시, 학습 기본값 | `localStorage` | `preferencesStore` |
 | 목록 스크롤 위치 | `localStorage` | `jsp-react:list-scroll-positions`, 단어장 ID별 위치 |
 | 즐겨찾기 | `localStorage` | `favoritesStore` |
-| 일반 학습 진행 중 세션 | `localStorage` | 결과는 메모리만 |
+| 문장 학습 숙련도·진행 세션 | `localStorage`, `jsp-react:context-learn-v2` | 결과는 메모리만, 완료 시 세션/undo 제거 |
+| 레거시 일반 학습 진행 중 세션 | `localStorage`, `jsp-react:learn-session` | 기존 세션 완료용 |
 | 시험 세션/결과/오답 ID | `localStorage` | 결과와 오답 노트는 별도 수명주기 |
 | 활용형 세션/결과 | `localStorage` | 오답 재시작 지원 |
 | 게임 진행 중 세션/최근 결과/기록/MMR | `localStorage` | 백그라운드 복귀 중 페이지 재생성에 대비 |
@@ -67,3 +68,11 @@
 - 앱 백업: `src/features/share/share.ts`
 - UI: `src/features/share/SharePanel.tsx`
 - 제거된 기능 저장소 정리: `src/lib/cleanupRemovedFeatureStorage.ts`
+
+## 문장 학습 상태 v2
+
+용법 ID와 버전을 키로 다음 복습일, 간격 단계, 실패 횟수/날짜 수, 마지막 학습일과 당일 시도 횟수(첫 시도를 제외한 재학습 횟수 계산용), 예문별 노출·실패·힌트 횟수를 저장한다. 내부 추천 수준과 초기 측정 단어 ID 최대 20개를 함께 저장한다. 전체 학습 행동 로그는 보관하지 않는다.
+
+진행 중 세션은 카드의 용법/예문 버전, 공개·힌트 상태, 출제 범위와 순서, 재학습 큐를 보존한다. 연속 undo는 변경된 프로필과 직전 세션의 변경분만 저장한다. 출제 범위와 카드 배열의 공통 구간을 반복 직렬화하지 않아 큰 범위에서도 저장 용량을 줄인다. 판정과 세션 이동은 같은 저장값에 반영하므로 쓰기 실패 시 진행하지 않는다. 저장값 비교로 오래된 탭의 덮어쓰기를 막는다.
+
+공유 백업에 v2 키를 포함하며 복원 전 형식을 검증한다. 복원 쓰기가 실패하면 기존 값으로 되돌리며, 모든 쓰기가 성공한 뒤에만 이전의 불필요한 키를 제거한다. 파싱 실패 원본은 지우지 않는다. 옛 스마트 복습 키/IndexedDB는 재사용하지 않는다. 초기 부팅에서는 hydrate가 완료된 뒤 라우트 화면을 표시해 복원 전 리다이렉트를 막는다.

@@ -5,9 +5,12 @@ import themeWordsJson from '@/features/vocab/editor-data/themeWords.json'
 import themeWordbooksJson from '@/features/vocab/editor-data/themeWordbooks.json'
 import vocabularySetsJson from '@/features/vocab/editor-data/vocabularySets.json'
 import vocabularyWordsJson from '@/features/vocab/editor-data/vocabularyWords.json'
+import learnContentJson from '@/features/vocab/editor-data/learnContent.json'
+import type { LearnSense } from '@/features/learn/contextTypes'
 import type { ComparisonPair, ComparisonWordbook, ThemeWordbook, VocabularySet, VocabularyWord, WordType } from '@/features/vocab/model/types'
 
 export type EditorSnapshot = {
+  learnContent?: LearnSense[]
   sets: VocabularySet[]
   words: VocabularyWord[]
   themeWordbooks: ThemeWordbook[]
@@ -28,6 +31,7 @@ export const wordTypeOptions: Array<{ value: WordType; label: string }> = [
 ]
 
 export const editorVocabularySets = vocabularySetsJson as VocabularySet[]
+export const editorLearnContent = learnContentJson as LearnSense[]
 export const editorVocabularyWords = vocabularyWordsJson as VocabularyWord[]
 export const editorThemeWordbooks = themeWordbooksJson as ThemeWordbook[]
 export const editorThemeWords = themeWordsJson as VocabularyWord[]

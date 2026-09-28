@@ -38,6 +38,7 @@ import {
   editorThemeWordbooks,
   editorVocabularySets,
   editorVocabularyWords,
+  editorLearnContent,
   type EditorSnapshot,
   wordTypeOptions,
 } from '@/features/editor/editorData'
@@ -70,6 +71,8 @@ import {
 import { buildEditorWorkbook, editorWorkbookFileName, parseEditorWorkbook, type EditorWorkbookScope, type ParsedEditorWorkbook } from '@/features/editor/editorSpreadsheet'
 import { matchesWordSearch } from '@/lib/search'
 import styles from '@/features/editor/editor.module.css'
+import { LearnContentTable } from './LearnContentTable'
+import { versionLearnContent } from './learnContentVersions'
 
 type EditorMode = 'basic' | 'theme' | 'compare'
 type EditorSaveState = 'idle' | 'saving' | 'saved' | 'error'
@@ -80,6 +83,7 @@ type EditorWord = EditorSnapshot['words'][number]
 type ThemeWord = EditorSnapshot['themeWords'][number]
 
 const initialSnapshot = normalizeEditorSnapshot({
+  learnContent: editorLearnContent,
   sets: editorVocabularySets,
   words: editorVocabularyWords,
   themeWordbooks: editorThemeWordbooks,
@@ -91,6 +95,7 @@ const initialSnapshot = normalizeEditorSnapshot({
 
 function cloneSnapshot(snapshot: EditorSnapshot): EditorSnapshot {
   return {
+    learnContent: structuredClone(snapshot.learnContent ?? []),
     sets: snapshot.sets.map((set) => ({ ...set, wordIds: [...set.wordIds] })),
     words: snapshot.words.map((word) => ({ ...word })),
     themeWordbooks: snapshot.themeWordbooks.map((wordbook) => ({
@@ -628,7 +633,9 @@ const ThemeWordRow = memo(function ThemeWordRow({
 
 export function WordbookEditorPage() {
   const [snapshot, setSnapshot] = useState(initialSnapshot)
+  const publishedLearnContentRef = useRef(initialSnapshot.learnContent ?? [])
   const [mode, setMode] = useState<EditorMode>('basic')
+  const [showExamples, setShowExamples] = useState(false)
   const [selectedSetId, setSelectedSetId] = useState<string | null>(initialSnapshot.sets[0]?.id ?? null)
   const [selectedWordId, setSelectedWordId] = useState<string | null>(initialSnapshot.words[0]?.id ?? null)
   const [selectedThemeWordbookId, setSelectedThemeWordbookId] = useState<string | null>(initialSnapshot.themeWordbooks[0]?.id ?? null)
@@ -898,6 +905,11 @@ export function WordbookEditorPage() {
 
   function commit(nextSnapshot: EditorSnapshot) {
     setSnapshot(normalizeEditorSnapshot(nextSnapshot))
+    markEditorDirty(setSaveState, setChangeTick, changeTickRef)
+  }
+
+  function updateLearnContent(learnContent: NonNullable<EditorSnapshot['learnContent']>) {
+    setSnapshot((current) => ({ ...current, learnContent }))
     markEditorDirty(setSaveState, setChangeTick, changeTickRef)
   }
 
@@ -1478,6 +1490,7 @@ export function WordbookEditorPage() {
 
   async function saveToWorkspace(forcePick: boolean) {
     const normalized = normalizeEditorSnapshot(snapshot)
+    normalized.learnContent = versionLearnContent(normalized.learnContent ?? [], publishedLearnContentRef.current)
     const stampedSnapshot = applyUpdatedAtToAllWordbooks(normalized, new Date().toISOString())
     const issues = validateEditorSnapshot(stampedSnapshot)
     if (issues.length > 0) {
@@ -1498,6 +1511,7 @@ export function WordbookEditorPage() {
           downloadTextFile(file.path[file.path.length - 1] ?? 'export.txt', file.content)
         })
         setSnapshot(stampedSnapshot)
+        publishedLearnContentRef.current = structuredClone(stampedSnapshot.learnContent ?? [])
         setSavedChangeTick(changeTickRef.current)
         setSaveState('saved')
         setStatusMessage('다운로드 완료')
@@ -1516,6 +1530,7 @@ export function WordbookEditorPage() {
 
       setWorkspaceState('linked')
       setSnapshot(stampedSnapshot)
+      publishedLearnContentRef.current = structuredClone(stampedSnapshot.learnContent ?? [])
       setSavedChangeTick(changeTickRef.current)
       setSaveState('saved')
       setStatusMessage('프로젝트 반영 완료')
@@ -1726,6 +1741,7 @@ export function WordbookEditorPage() {
       }
       const nextSnapshot = normalizeEditorSnapshot({
         ...snapshot,
+        learnContent: imported.learnContent === undefined ? snapshot.learnContent : [...(snapshot.learnContent ?? []).filter((sense) => !snapshot.words.some((word) => word.setId === selectedSetId && word.id === sense.wordId)), ...imported.learnContent],
         sets: snapshot.sets.map((set, index) => (index === targetIndex ? nextSet : set)),
         words: snapshot.words
           .filter((word) => word.setId !== selectedSetId)
@@ -1750,6 +1766,7 @@ export function WordbookEditorPage() {
       }
       const nextSnapshot = normalizeEditorSnapshot({
         ...snapshot,
+        learnContent: imported.learnContent === undefined ? snapshot.learnContent : [...(snapshot.learnContent ?? []).filter((sense) => !snapshot.themeWords.some((word) => word.setId === selectedThemeWordbookId && word.id === sense.wordId)), ...imported.learnContent],
         themeWordbooks: snapshot.themeWordbooks.map((wordbook, index) => (index === targetIndex ? nextWordbook : wordbook)),
         themeWords: snapshot.themeWords
           .filter((word) => word.setId !== selectedThemeWordbookId)
@@ -2126,8 +2143,10 @@ export function WordbookEditorPage() {
             />
           </div>
 
+          {mode !== 'compare' && <div className={styles.inlineActions}><button type="button" className="pill" data-active={!showExamples} onClick={() => setShowExamples(false)}>단어</button><button type="button" className="pill" data-active={showExamples} onClick={() => setShowExamples(true)}>예문</button></div>}
           <div className={styles.tableWrap}>
-            {mode === 'basic' ? (
+            {showExamples && mode !== 'compare' ? <LearnContentTable words={mode === 'basic' ? selectedSetWords : selectedThemeWords} content={snapshot.learnContent ?? []} onChange={updateLearnContent} /> : null}
+            {mode === 'basic' && !showExamples ? (
               <table className={styles.table}>
                 {renderColGroup('basic-words', basicWordColumns)}
                 <thead>
@@ -2150,7 +2169,7 @@ export function WordbookEditorPage() {
               </table>
             ) : null}
 
-            {mode === 'theme' ? (
+            {mode === 'theme' && !showExamples ? (
               <>
                 <table className={styles.table}>
                   {renderColGroup('theme-words', themeWordColumns)}

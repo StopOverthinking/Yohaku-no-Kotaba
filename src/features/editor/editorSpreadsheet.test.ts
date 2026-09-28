@@ -126,7 +126,7 @@ describe('editorSpreadsheet', () => {
     const xlsx = await import('xlsx')
     const workbook = xlsx.read(workbookBuffer, { type: 'array' })
 
-    expect(workbook.SheetNames).toEqual(['basic_book', 'basic_words'])
+    expect(workbook.SheetNames).toEqual(['basic_book', 'basic_words', 'learn_senses', 'learn_examples', 'learn_confusions'])
 
     const infoRows = xlsx.utils.sheet_to_json<Record<string, string>>(workbook.Sheets.basic_book, { defval: '' })
     const wordRows = xlsx.utils.sheet_to_json<Record<string, string>>(workbook.Sheets.basic_words, { defval: '' })
@@ -214,7 +214,7 @@ describe('editorSpreadsheet', () => {
     const xlsx = await import('xlsx')
     const workbook = xlsx.read(workbookBuffer, { type: 'array' })
 
-    expect(workbook.SheetNames).toEqual(['theme_book', 'theme_topics', 'theme_words'])
+    expect(workbook.SheetNames).toEqual(['theme_book', 'theme_topics', 'theme_words', 'learn_senses', 'learn_examples', 'learn_confusions'])
 
     const topicRows = xlsx.utils.sheet_to_json<Record<string, string>>(workbook.Sheets.theme_topics, { defval: '' })
     const wordRows = xlsx.utils.sheet_to_json<Record<string, string>>(workbook.Sheets.theme_words, { defval: '' })

@@ -46,7 +46,8 @@
 
 ## 저장 경계
 
-- 일반 학습: `localStorage`
+- 문장 학습: `contextStore` / `contextEngine`, `localStorage` v2에 숙련도·진행 상태 저장
+- 레거시 일반 학습: `learnSessionStore`, 기존 세션 완료용 `localStorage`
 - 시험: `localStorage`
 - 활용형: `localStorage`
 - 게임 진행 중 세션/최근 결과/기록: `localStorage`
@@ -79,3 +80,5 @@
 - 모션은 짧고 가볍게
 - backdrop-filter, 큰 blur, height 애니메이션 지양
 - 서브패널보다 현재 화면의 직접 조작 우선
+
+예문 원고가 늘어도 학습 첫 화면에서 에디터용 원고 사본을 함께 내려받지 않도록 `/editor` 화면은 필요할 때 불러온다. 예문 표의 입력은 단어장 전체를 재정규화하지 않고 콘텐츠 상태만 바꾼다.

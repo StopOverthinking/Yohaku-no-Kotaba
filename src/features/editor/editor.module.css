@@ -511,3 +511,14 @@
 .tableWrap {
   min-height: 620px;
 }
+
+.learnEditor { min-width: 1400px; padding: 12px; }
+.learnToolbar { display: flex; align-items: center; justify-content: flex-start; gap: 12px; padding: 8px 0; }
+.learnToolbar label { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.learnToolbar > select { width: 300px; }
+.learnToolbar strong { min-width: 110px; font-family: var(--font-jp); }
+.learnToolbar input[type='checkbox'], .learnEditor td input[type='checkbox'] { width: 18px; height: 18px; accent-color: var(--accent-ice); }
+.learnEditor > section { border-top: 1px solid var(--border-soft); }
+.learnEditor > section > label { display: flex; align-items: center; gap: 12px; padding: 8px 0; }
+.learnEditor > section > label textarea { min-height: 68px; }
+.learnEditor .tableTextarea { min-width: 0 !important; }

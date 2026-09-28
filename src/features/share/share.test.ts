@@ -1,5 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import {
+  applyImportedBackup,
   buildBackupEnvelope,
   buildQrShareFrames,
   createQrImportSession,
@@ -24,6 +25,19 @@ function createStorage(entries: Record<string, string>) {
 describe('share utils', () => {
   beforeEach(() => {
     vi.unstubAllGlobals()
+  })
+
+  it('rolls back a partially written backup when storage is full', () => {
+    const values: Record<string, string> = { 'jsp-react:preferences': 'original', 'jsp-react:context-learn-v2': 'original-record', unrelated: 'untouched' }
+    const storage = {
+      get length() { return Object.keys(values).length },
+      key: (index: number) => Object.keys(values)[index] ?? null,
+      getItem: (key: string) => values[key] ?? null,
+      removeItem: (key: string) => { delete values[key] },
+      setItem: (key: string, value: string) => { if (value === 'too-large') throw new Error('quota'); values[key] = value },
+    }
+    expect(() => applyImportedBackup({ 'jsp-react:preferences': 'changed', 'jsp-react:new': 'too-large' }, storage)).toThrow('quota')
+    expect(values).toEqual({ 'jsp-react:preferences': 'original', 'jsp-react:context-learn-v2': 'original-record', unrelated: 'untouched' })
   })
 
   it('collects only React share storage keys in sorted order', () => {

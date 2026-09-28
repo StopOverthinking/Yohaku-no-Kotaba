@@ -5,10 +5,14 @@ import { IconButton } from '@/components/IconButton'
 import { Tooltip } from '@/components/Tooltip'
 import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import styles from '@/features/learn/learn.module.css'
+import { useContextStore } from './contextStore'
 
 export function LearnResultPage() {
   const navigate = useNavigate()
-  const lastResult = useLearnSessionStore((state) => state.lastResult)
+  const legacyResult = useLearnSessionStore((state) => state.lastResult)
+  const contextResult = useContextStore((state) => state.lastResult)
+  const clearContextResult = useContextStore((state) => state.clearResult)
+  const lastResult = contextResult ?? legacyResult
   const clearResult = useLearnSessionStore((state) => state.clearResult)
 
   if (!lastResult) {
@@ -21,7 +25,7 @@ export function LearnResultPage() {
         <div>
           <p className="section-kicker">Complete</p>
           <h1 className="section-title">{lastResult.setName} 세션을 마쳤습니다.</h1>
-          <p className="section-copy">결과만 남기고 진행 상태는 정리했습니다.</p>
+          {contextResult && <p className="section-copy">다음 복습 일정에 반영했습니다.</p>}
         </div>
 
         <div className="meta-grid">
@@ -48,6 +52,7 @@ export function LearnResultPage() {
                 size="lg"
                 onClick={() => {
                   clearResult()
+                  clearContextResult()
                   navigate('/')
                 }}
               />
