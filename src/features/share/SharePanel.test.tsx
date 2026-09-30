@@ -3,6 +3,7 @@ import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { SharePanel } from '@/features/share/SharePanel'
 import * as shareModule from '@/features/share/share'
+import * as appBackup from './appBackup'
 
 describe('SharePanel', () => {
   beforeEach(() => {
@@ -12,7 +13,7 @@ describe('SharePanel', () => {
   afterEach(() => {
     cleanup()
     localStorage.clear()
-    vi.clearAllMocks()
+    vi.restoreAllMocks()
   })
 
   it('shows share actions with short sentence labels', async () => {
@@ -25,6 +26,24 @@ describe('SharePanel', () => {
     expect(screen.queryByText('파일과 병합하기')).not.toBeInTheDocument()
     expect(screen.getByRole('button', { name: '앱 클립보드로 복사' })).toBeInTheDocument()
     expect(screen.queryByRole('button', { name: /파일과 병합하기/ })).not.toBeInTheDocument()
+  })
+
+  it('offers a file instead of generating hundreds of QR images for a large backup', async () => {
+    vi.spyOn(appBackup, 'getAppBackupText').mockResolvedValue('latest-backup')
+    vi.spyOn(shareModule, 'buildQrShareFrames').mockResolvedValue({
+      rawBytes: 1000000, encodedBytes: 100000, encoding: 'gzip', sessionId: 'large',
+      frames: Array.from({ length: 65 }, (_, i) => String(i)),
+    })
+    const renderQr = vi.spyOn(shareModule, 'createQrMarkup')
+    const download = vi.spyOn(shareModule, 'downloadShareData').mockImplementation(() => undefined)
+    render(<SharePanel mode="submenu" />)
+    const user = userEvent.setup()
+    await user.click(screen.getByRole('button', { name: '앱 QR로 내보내기' }))
+    expect(await screen.findByRole('button', { name: '앱 백업 파일 저장' })).toBeInTheDocument()
+    expect(renderQr).not.toHaveBeenCalled()
+    expect(screen.queryByText('앱 QR을 준비했어요.')).toBeNull()
+    await user.click(screen.getByRole('button', { name: '앱 백업 파일 저장' }))
+    expect(download).toHaveBeenCalledWith('latest-backup')
   })
 
   it('uses an in-app confirm modal for restore actions', async () => {

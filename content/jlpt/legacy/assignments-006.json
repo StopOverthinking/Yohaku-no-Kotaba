@@ -1,0 +1,367 @@
+[
+  {
+    "wordId": "JLPTN3_151",
+    "sourceHash": "fd92c30904619724a79b32d5b587e40b0593eaccfab05255d92be7f248ebd6c4",
+    "level": "N5",
+    "dictionaryId": "jmdict-1418620",
+    "levelNote": "끈·머리카락의 길이가 짧은 기초 형용사로 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (길이가) 짧다. 사전의 short와 끈·머리 길이 예문이 일치한다. 시간의 짧음은 별도 결합이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_152",
+    "sourceHash": "e9183258df650d1168c1f62519bd917974fd91c7e22d27eeba31f030630aabe5",
+    "level": "N5",
+    "dictionaryId": "jmdict-1157000",
+    "levelNote": "문제·곡의 난도가 낮은 기초 형용사로 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (난이도가) 쉽다. 사전의 easy·simple과 문제·초보자용 곡이 쉽다는 예문이 일치한다. 優しい의 친절함과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_153",
+    "sourceHash": "07df963760c78270e3490c46c0d72d724f1b782de8243ee09909fb01945ec3c2",
+    "level": "N4",
+    "dictionaryId": "jmdict-1539040",
+    "levelNote": "타인을 다정하고 부드럽게 대하는 기초 형용사로 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 상냥하다. 사전의 kind·gentle·affectionate와 동생을 안심시키고 실수를 기다려 주는 예문이 대응한다. 易しい의 쉬움과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_154",
+    "sourceHash": "9789984449dccd7b3128a5886b54d0338b749e44fe83c1dbd51daacbba40fb69",
+    "level": "N2",
+    "dictionaryId": "jmdict-1214410",
+    "levelNote": "끈·뚜껑의 조임이 느슨한 상태와 여러 파생 뜻을 갖는 형용사로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "현재 대표 뜻 느슨하다, 엄하지 않다 및 2개 용법(조임이 느슨하다; 규칙이나 관리가 느슨하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_155",
+    "sourceHash": "9335f911c002dd9b865e2b1e51c73c00243ea75f93cdbf0e1e43e4714db7b90a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1324300",
+    "levelNote": "사람의 나이가 젊은 기초 형용사로 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (나이가) 젊다. 사전의 young·youthful와 아버지의 젊은 시절·젊게 느껴지는 교사의 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_156",
+    "sourceHash": "aaa698e5200d1982c9d1cc8673e31d9b7a8e4fe811bf131879cc65a56659ec49",
+    "level": "N3",
+    "dictionaryId": "jmdict-1165880",
+    "levelNote": "지역의 관행·보편적 방식을 설명하는 중급 추상 형용동사로 N3를 편집 제안한다. 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 일반적이다. 고정 후보의 一般的가 general·common·typical이라는 뜻이다. 절임 식품을 만드는 관행·일반적인 현금 결제의 예문과 기존 일반적이다가 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "기본형 후보에도 연결 등급이 없으므로 수준은 의미·사용 범위에 근거한 편집 제안이며 추가 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_157",
+    "sourceHash": "8b2647a20646a258adfe84efb489f6c78143a166d6042ccaa613865ef179d0ec",
+    "level": "N3",
+    "dictionaryId": "jmdict-1324940",
+    "levelNote": "산업·의견 가운데 중심이 되는 것을 말하는 중급 형용동사로 N3를 편집 제안한다. 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 주되다. 고정 후보의 主에서 おも로 읽는 chief·main·principal 의미를 선택한다. 주요 산업·주요 의견이라는 主な 결합이 그 의미와 대응한다. ぬし·しゅ의 명사 용법과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "기본형 후보에도 연결 등급이 없으므로 수준은 의미·사용 범위에 근거한 편집 제안이며 추가 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_158",
+    "sourceHash": "3c0d98f20baf237ac1afc204488791dcb743f8ea0257338e3e16a201078b05d6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1205830",
+    "levelNote": "실패 가능성이 낮고 믿을 수 있는 방법을 평가하는 중급 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 확실하다. 고정 후보의 確実가 sure·reliable·secure라는 뜻이다. 전화 확인·익숙한 길을 택하는 방법의 확실성에 대한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_159",
+    "sourceHash": "7c12156a9153bb40829805c8e806092d5e2acd3d543bda0d38d639af3cfdaa56",
+    "level": "N3",
+    "dictionaryId": "jmdict-1614170",
+    "levelNote": "이성적 판단보다 감정에 좌우되는 말·행동을 설명하므로 N3를 편집 제안한다. 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 감정적이다. 고정 후보의 感情的가 emotional·sentimental이라는 뜻이다. 논의에서 감정에 휩쓸리거나 감정적인 답장을 하는 대표 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "기본형 후보에도 연결 등급이 없으므로 수준은 의미·사용 범위에 근거한 편집 제안이며 추가 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_160",
+    "sourceHash": "7c94649d5f8412b0f624445aeb0f92a7fb95a852b46460a3b556c3b6c7dc3eb3",
+    "level": "N4",
+    "dictionaryId": "jmdict-1214330",
+    "levelNote": "조립·설정 절차가 쉽고 간단한 기초 형용동사이며 기본형의 OpenJLPT N4 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 간단하다. 고정 후보의 簡単가 simple·easy·uncomplicated라는 뜻이다. 도구 없는 조립·이름 입력만 필요한 설정 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_161",
+    "sourceHash": "679f2a9be00c26d53e7bd38335f586511804e9beba98bbbb482119af0ee4df45",
+    "level": "N3",
+    "dictionaryId": "jmdict-1245050",
+    "levelNote": "목표·설명을 명확한 내용·수치로 제시하는 중급 형용동사로 N3를 편집 제안한다. 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 구체적이다. 고정 후보의 具体的가 concrete·specific·definite라는 뜻이다. 목표를 하나 정하고 수치로 실행안을 설명하는 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "기본형 후보에도 연결 등급이 없으므로 수준은 의미·사용 범위에 근거한 편집 제안이며 추가 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_162",
+    "sourceHash": "707835c9142970c737f6b8ff4b6e1598f9954c8cb3b5731c82c7dc9e325ad5d4",
+    "level": "N4",
+    "dictionaryId": "jmdict-1379750",
+    "levelNote": "거래·활동이 활발히 이루어지는 형용동사이며 기본형의 OpenJLPT N4 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 활발하다, 성행하다. 고정 후보의 盛ん에서 flourishing·active·lively 의미를 확인했다. 무역·의견 교환이 활발한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_163",
+    "sourceHash": "28c73f60b9815b0a572f25bdebab09905ec88d255d66b351527718883a66d618",
+    "level": "N3",
+    "dictionaryId": "jmdict-1321510",
+    "levelNote": "실제로 사용할 때 도움이 되는 성질을 평가하는 형용동사로 N3를 편집 제안한다. 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 실용적이다. 고정 후보의 実用的가 practical·useful이라는 뜻이다. 매일 쓸 선물·주머니가 많은 가방이 유용하다는 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "기본형 후보에도 연결 등급이 없으므로 수준은 의미·사용 범위에 근거한 편집 제안이며 추가 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_164",
+    "sourceHash": "3db8a1f773ba0c1a6a75e784d46a569e84f7f2ecc538f0a5e6029faab0dea2f2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1336820",
+    "levelNote": "계약·정보의 중요성을 평가하는 중급 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 중요하다. 고정 후보의 重要가 important·essential·significant라는 뜻이다. 계약 조항·중요한 소식에 대한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_165",
+    "sourceHash": "804b5f18fa16dfcf613af3c0da90f6f3de6df501cd15220dacc2ab9f8f343d99",
+    "level": "N3",
+    "dictionaryId": "jmdict-1326320",
+    "levelNote": "전체 가운데 중심이 되는 대상·사항을 한정하는 중급 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 주요하다. 고정 후보의 主要가 main·principal·major라는 뜻이다. 주요 역·주요 변경점이라는 예문과 대응한다. 重要의 중요성과 의미가 겹쳐도 모든 결합이 같지는 않다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_166",
+    "sourceHash": "f71a1d1bc273f2b0e8812aeb985a71a9f6cb5179a9de1ea43d4fbd86112416dd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1377590",
+    "levelNote": "거짓이나 숨김이 없는 말·태도를 나타내는 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 정직하다. 고정 후보의 正直가 honest·frank·straightforward라는 뜻이다. 자신의 실수를 솔직히 말하고 손해를 보아도 거짓말하지 않는 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_167",
+    "sourceHash": "ebf4675a44b251ab6b268fed5222585d82590806270e1fbd0107b98ef0f89a1e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1362100",
+    "levelNote": "식품의 신선함을 나타내는 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 신선하다. 고정 후보의 新鮮가 fresh라는 뜻이다. 갓 얻은 생선·토마토의 신선함을 말하는 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_168",
+    "sourceHash": "fc5fbda2225045652d15f07227758ec90cc3fc295c98ba1eed4c5662013eadf5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1376760",
+    "levelNote": "시각·측정의 오차가 없는 성질을 표현하는 중급 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 정확하다. 고정 후보의 正確가 accurate·precise·exact라는 뜻이다. 정확한 시각·판자의 정확한 길이 측정 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_169",
+    "sourceHash": "3c7ef76a7fe3395a9e8397107de01ee992f362fcd08e9e6c3e747059ace46123",
+    "level": "N3",
+    "dictionaryId": "jmdict-1378200",
+    "levelNote": "위생상 깨끗한 상태의 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 청결하다. 고정 후보의 清潔가 clean·hygienic·sanitary라는 뜻이다. 상처에 닿을 손·식당 조리대·바닥의 위생 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_170",
+    "sourceHash": "f4c4cbfcf977aae1d2fbe847fbb419e9d15c1f1ef388da9f252fae2d6667bc25",
+    "level": "N3",
+    "dictionaryId": "jmdict-1383030",
+    "levelNote": "스스로 의견을 내고 활동에 참여하는 태도의 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 적극적이다. 고정 후보의 積極的에서 active·proactive·assertive 의미를 선택한다. 신입의 의견 제시·동아리에서 적극적인 동생의 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_171",
+    "sourceHash": "648f667c97afec99657783c41c1094153a215b1a9d51aff9bae99a771abb305a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1596750",
+    "levelNote": "흥미나 할 일이 없어 지루한 감정의 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 따분하다. 고정 후보의 退屈에서 boring·dull 및 feel bored 용법을 확인했다. 외출 못하는 아이·긴 대기 시간의 지루함에 대한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_172",
+    "sourceHash": "6a4687357c12e171078f43033fb65a5c48b86081457c1ce87db2b3c686f25f14",
+    "level": "N3",
+    "dictionaryId": "jmdict-1412220",
+    "levelNote": "특징을 잘 드러내는 사례·작품을 가리키는 형용동사로 N3를 편집 제안한다. 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 대표적이다. 고정 후보의 代表的가 representative라는 뜻이다. 일본의 대표 풍경·작가의 대표 작품에 대한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "기본형 후보에도 연결 등급이 없으므로 수준은 의미·사용 범위에 근거한 편집 제안이며 추가 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_173",
+    "sourceHash": "2e37ca70c4c0940993f3296f2aa6388bf5ef2ca302160b5d56f0f5ead44969e5",
+    "level": "N1",
+    "dictionaryId": "jmdict-1418670",
+    "levelNote": "작은 일에도 쉽게 화를 내는 성격의 형용동사이며 이번 제안은 기본형의 고정 OpenJLPT N1 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 성미가 급하다. 고정 후보의 短気가 short temper·irritability라는 뜻이다. 답장 지연에 화내거나 정체 중 짜증 내는 성격 예문과 대응한다. 단순한 행동 속도가 빠름과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_174",
+    "sourceHash": "d0682adc7bd53d89d5b56ccd721196d1878e9021fc64c6c505c460475476aa9d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1417550",
+    "levelNote": "구조·원인이 복잡하지 않은 성질의 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 단순하다. 고정 후보의 単純가 simple·uncomplicated라는 뜻이다. 전지 방향이라는 단순한 원인·반복 작업의 예문과 대응한다. 순진한 성격은 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_175",
+    "sourceHash": "5ba1e3a04333cebf86f1bf58bd2a42b1cd47ee0d98ce6bb7b21bd88fce147047",
+    "level": "N3",
+    "dictionaryId": "jmdict-1454510",
+    "levelNote": "어떤 활동을 능숙하게 하는 강점을 표현하는 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 잘한다, 숙련되다. 고정 후보의 得意에서 strong point·forte·specialty 의미를 선택한다. 암산·요리에 자신이 있다는 예문과 대응한다. 자랑스러움·단골의 다른 의미를 합치지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_176",
+    "sourceHash": "eb7fa830dd29586af3424ca4ed4691b6f3ab375647c3e27507aacb1ade4b7511",
+    "level": "N3",
+    "dictionaryId": "jmdict-1244470",
+    "levelNote": "활동을 잘하지 못해 어렵게 느끼는 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 서투르다, 질색이다. 고정 후보의 苦手에서 poor at·not very good at 의미를 선택한다. 사람 앞 발언·계산이 서툰 예문과 대응한다. 질색이다는 선호·회피의 별도 뉘앙스이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "원본 나열 뜻 중 현재 대표 예문에서 다루지 않은 파생 의미는 독립 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_177",
+    "sourceHash": "00477ef2c2fa0db51ef6a5a75c62b69c7396b9cd1059bf417bf0cbd97eb0acdd",
+    "level": "N2",
+    "dictionaryId": "jmdict-1471140",
+    "levelNote": "색·무늬·차림이 눈에 띄게 화려한 형용동사이며 기본형의 고정 OpenJLPT N2 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 화려하다. 고정 후보의 派手가 flashy·showy·gaudy라는 뜻이다. 면접용 셔츠·우산 무늬가 눈에 띄는 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_178",
+    "sourceHash": "246f1d989a585a72adab2534fcf06dc6777801e3793c1ea8c73758f77ea6d89c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1491150",
+    "levelNote": "앞일을 걱정하여 안심할 수 없는 심리 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 불안하다. 고정 후보의 不安가 anxiety·uneasiness·worry라는 뜻이다. 첫 혼자 비행·검사 결과 대기의 불안한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_179",
+    "sourceHash": "ea634492d8c31cada109153eb2e7c7ed90564f44e688fa7e9aab65d382ed2cbb",
+    "level": "N4",
+    "dictionaryId": "jmdict-1501350",
+    "levelNote": "구조·관계가 얽혀 이해하기 어려운 형용동사이며 기본형의 OpenJLPT N4 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 복잡하다. 고정 후보의 複雑가 complex·complicated·intricate라는 뜻이다. 역 통로·인간관계가 복잡한 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_180",
+    "sourceHash": "bf30fd7d6318fb30c983d7d3e8cfb2e87b88dee01c9dbfa4d9a2e5383f3025df",
+    "level": "N3",
+    "dictionaryId": "jmdict-1530030",
+    "levelNote": "사고·손상이 없어 안전한 상태의 형용동사이며 기본형의 OpenJLPT N3 근거를 참고한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 무사하다. 고정 후보의 無事에서 safety·without incident 의미를 선택한다. 가족이 무사하고 사진이 손상되지 않은 예문과 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  }
+]

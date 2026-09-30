@@ -1,7 +1,6 @@
 import { cleanup, render, screen, within } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
-import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { VocabularySetMenu } from '@/features/list/VocabularySetMenu'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
@@ -26,12 +25,6 @@ describe('VocabularySetMenu', () => {
     vi.setSystemTime(new Date('2026-04-22T10:15:00.000Z'))
     localStorage.clear()
 
-    useExamStore.setState({
-      status: 'idle',
-      session: null,
-      lastResult: null,
-      wrongAnswerIds: [],
-    })
 
     useFavoritesStore.setState({
       favoriteIds: [],
@@ -92,12 +85,8 @@ describe('VocabularySetMenu', () => {
     )
 
     const favoritesItem = screen.getByText('즐겨찾기 단어장').closest('button')
-    const wrongAnswersItem = screen.queryByText('오답 노트')?.closest('button') ?? null
 
     expect(favoritesItem).not.toBeNull()
     expect(within(favoritesItem!).queryByText('2026.04.22')).toBeNull()
-    if (wrongAnswersItem) {
-      expect(within(wrongAnswersItem).queryByText('2026.04.22')).toBeNull()
-    }
   })
 })

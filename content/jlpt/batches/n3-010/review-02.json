@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "2602e133312522b8763da5a68223f4d56d1ebee37e70479a6d396524a8332e93",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:53:40.247Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1590150",
+      "39ccf974ac9c3676685fe4375a4114976611ee41de6d87027eb749e0b5f8ea35"
+    ],
+    [
+      "lex-jmdict-1590200",
+      "8dd91f6e9d29a8b186e9af534aa87267ac6b8cabbb122acac4cb34a906b31ff8"
+    ],
+    [
+      "lex-jmdict-1590480",
+      "800efa42e209a69bd2f88f26b6560f8fd51bcf4c4fc745d0c6263715ddeacc30"
+    ],
+    [
+      "lex-jmdict-1590600",
+      "14e288dbdb95ae971a3ad91a7a7560acfb9753a79c0cd7713f380e3c0e2595df"
+    ],
+    [
+      "lex-jmdict-1591400",
+      "71b0fc57898db02830aa7669e304bdfae9edfde7859c260d8c23746c751776d8"
+    ],
+    [
+      "lex-jmdict-1591660",
+      "e5b34e617ece4b09285bdbe1d47d2ac4e37fccae6241f9e6edacb6cf5827b27b"
+    ],
+    [
+      "lex-jmdict-1592930",
+      "6adab347ff3bcaae3158b6ab35ba8432ae79ea60f5ccf8ad4507f0a5d7c4310d"
+    ],
+    [
+      "lex-jmdict-1593290",
+      "19cdb35b71a629dd13e3bf11f16c58adf19e7c580af4608f38b348e76108f131"
+    ],
+    [
+      "lex-jmdict-1593710",
+      "e25f9f8d35301573151709f342f91fe4cc904df858a99a0dbf6ddd18c069c26e"
+    ],
+    [
+      "lex-jmdict-1593800",
+      "a33d35b956e726b7ffcb743009f0614b902646c1e9125fffa12ccbb35cec2db0"
+    ],
+    [
+      "lex-jmdict-1593830",
+      "ce01a6352c0dace14c0a2e88126e9d6de2cd994df48acd1fc3a392f4dee03318"
+    ],
+    [
+      "lex-jmdict-1594060",
+      "fe147f80c71bda51ecf8106e1912da67c09a32e1a42e1bb2696d26beecb18f26"
+    ],
+    [
+      "lex-jmdict-1594190",
+      "5af5caaea8c5e40047d6231ea2290af71072d7d7da281c27ae032773ec684c7d"
+    ],
+    [
+      "lex-jmdict-1594480",
+      "61226dc886bb4ce5e0632c1293eb11eed848a7cfacc4e450cd0a971431e7545f"
+    ],
+    [
+      "lex-jmdict-1595090",
+      "a5871d63ad6adea6720c301fcf1e905a363f7446376ebd7b80f3b6dd8811979d"
+    ],
+    [
+      "lex-jmdict-1595240",
+      "3ee0421058c72c8e6b12e2d657751fefdb2820caabac039d5cbbf1dba09cafd2"
+    ],
+    [
+      "lex-jmdict-1596950",
+      "02f72651d4e94441dab03d24835ce93a7188bda6256845bb8a1e130d1c7df32c"
+    ],
+    [
+      "lex-jmdict-1599760",
+      "732895c4a69976c57e62b9a59bfe2f07e7524c9d770985ae2955b0ba1ee0314c"
+    ],
+    [
+      "lex-jmdict-1600240",
+      "1aca2d22b41bbc6c4b21de2084e23a1fa0c1f259c6da65f5db06a6cd2402dd93"
+    ],
+    [
+      "lex-jmdict-1600280",
+      "51e787792c72ef3aad72319c506f5483800a151aa791cfdde449c163bb51915a"
+    ],
+    [
+      "lex-jmdict-1601890",
+      "0d85d764b517d19dc0d6b74e0eae951cf8d087f13950bf6104b7e2b0b1d50ee2"
+    ],
+    [
+      "lex-jmdict-1604130",
+      "2b46958d9beda787f9020ece5c96c659eff33a345aeab7db253763b8d44eb11f"
+    ],
+    [
+      "lex-jmdict-1604750",
+      "f4f029171c1691e24d7bb38d503d932e79554e34ec44ae5b40e6a4ecee2f27e6"
+    ],
+    [
+      "lex-jmdict-1604850",
+      "cfd1ad4c7d8079eaf804d4ddf5ad7dd14e2fffe9adfb47ce7711102d3145f90e"
+    ],
+    [
+      "lex-jmdict-1605680",
+      "6099dac428d004db74db29b368cee9513621ad675ff419202ff798edf395f20a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1590150",
+      "category": "substantive",
+      "note": "기존 나무 그늘에서 잠깐 쉬는 장면과 겹쳐 식물의 배치 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1592930",
+      "category": "clarity",
+      "note": "지갑이 화자의 분실물이라는 문맥을 명확히 했다."
+    },
+    {
+      "wordId": "lex-jmdict-1599760",
+      "category": "substantive",
+      "note": "기존 빵 냄새 장면의 반복을 줄이고 비가 내릴 때의 흙 냄새로 바꿨다."
+    }
+  ]
+}

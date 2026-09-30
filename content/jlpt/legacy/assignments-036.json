@@ -1,0 +1,336 @@
+[
+  {
+    "wordId": "AbsoluteVerb_502",
+    "sourceHash": "9c7c77f40093d3a5886fb1c2ba5e3d8db24bd1b41266e0c389bc1cf628e9e12e",
+    "level": "N2",
+    "dictionaryId": "jmdict-1552650",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(한 곳에 모여) 쌓이다, 괴다” 및 1개 sense를 대조했다. 비나 배수 문제로 물이 한곳에 고이는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_503",
+    "sourceHash": "2ed245f514f448e2dd854e09963b3553bc1f9cef7cc367eda80504d142978ea3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1382990",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(포개지듯) 쌓이다” 및 1개 sense를 대조했다. 눈과 먼지가 표면에 포개져 쌓이는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_504",
+    "sourceHash": "2557d6806e6bab2fe0e6c229a4d4e2555203c74640bfa912168b4d9ef2de6fb1",
+    "level": "N4",
+    "dictionaryId": "jmdict-1199900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “깨지다, 고장나다” 및 1개 sense를 대조했다. 카메라와 의자가 고장 나거나 부서진 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_505",
+    "sourceHash": "1d05497dcf1888ed7854bb8137bc6ad5c42982b971eb1fdbc5c38ffe83a6434e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1199890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “부수다, 고장내다, 망치다” 및 1개 sense를 대조했다. 카메라 등 물건을 망가뜨리는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_506",
+    "sourceHash": "bb6639abd3f63905cb69af8e7a216530a050e8d68398944ba0d6de39d0f58a86",
+    "level": "N4",
+    "dictionaryId": "jmdict-2846390",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “고쳐지다” 및 1개 sense를 대조했다. 시계가 수리되거나 습관이 고쳐지는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_507",
+    "sourceHash": "ee70480727b7c3a8370f298247c3623285b82e6cc11b222319e73310796eb7a8",
+    "level": "N4",
+    "dictionaryId": "jmdict-1599390",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “고치다, 수리하다” 및 1개 sense를 대조했다. 브레이크와 글자의 오류를 고치는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_508",
+    "sourceHash": "c78f10d8a3accdd5c5646df58e5988c03fb72d6919f9d5ac84de9949a23050ac",
+    "level": "N2",
+    "dictionaryId": "jmdict-1516270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “허물어지다, 잔돈으로 바꿀 수 있다” 및 1개 sense를 대조했다. 쌓은 상자와 모래성이 무너지는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_509",
+    "sourceHash": "2b44a3dca5a93c62183e4d84a0d5d36d8e756158153643de4b8fbff359e47572",
+    "level": "N2",
+    "dictionaryId": "jmdict-1516260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “허물어뜨리다, 잔돈으로 바꾸다” 및 1개 sense를 대조했다. 모래성과 상자 더미를 무너뜨리는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_515",
+    "sourceHash": "db3322173775766a0cf95a05c30ddbfeadd10c45c55e305bb52530a4f7d0b656",
+    "level": "N4",
+    "dictionaryId": "jmdict-1510790",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “변하다, 별나다” 및 1개 sense를 대조했다. 생활 방식과 보이는 색이 변하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_516",
+    "sourceHash": "6f1e0800b3f80313523e0e52a07d2f14136fbf2e90f778489be53e5fbd5b92a2",
+    "level": "N4",
+    "dictionaryId": "jmdict-1510650",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “바꾸다” 및 1개 sense를 대조했다. 머리 색과 계획을 바꾸는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_517",
+    "sourceHash": "556930337865c95b705398632b6d633c5d18538fa6c69cc64bbe77266e2718be",
+    "level": "N1",
+    "dictionaryId": "jmdict-1391100",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “물들다” 및 1개 sense를 대조했다. 빛에 따라 구름이 물들거나 옷에 다른 색이 배는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_518",
+    "sourceHash": "67357ca3fc83e992de3d2edc2bd484529030fed3b38777e12935968c00b6f664",
+    "level": "N1",
+    "dictionaryId": "jmdict-1391160",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “물들이다” 및 1개 sense를 대조했다. 천과 머리카락을 염색하는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_520",
+    "sourceHash": "e19753d11fca9d05a8788e2608bb648bce6d3061ee25597f72de61c381f75e51",
+    "level": "N2",
+    "dictionaryId": "jmdict-1246690",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(땅을) 파다, 캐다” 및 1개 sense를 대조했다. 정원이나 땅을 파는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_521",
+    "sourceHash": "bcb200a8b93523ab09d6c17dc46b0c9d4a5a150b7343a3481240ddc40c5f5a15",
+    "level": "N3",
+    "dictionaryId": "jmdict-1202450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(구멍을) 내다, 비우다” 및 1개 sense를 대조했다. 선반의 자리를 비우거나 통로를 터 주는 의미를 선택했다. 같은 사전 ID의 開ける 문 열기와 별칭으로 묶지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_523",
+    "sourceHash": "2a3d8f457a1a61e3d8f61f374f26bbe5ad947b713c99273312af470692761634",
+    "level": "N2",
+    "dictionaryId": "jmdict-1226480",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “꽉 차다, (차서) 막히다” 및 1개 sense를 대조했다. 배수관과 코가 막히는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_524",
+    "sourceHash": "4b500c9b3229a37589fd011174c3e0b5a084fc444edc139be2d34a1407b49623",
+    "level": "N3",
+    "dictionaryId": "jmdict-1226510",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “채우다, (사이를) 좁히다” 및 1개 sense를 대조했다. 도시락과 가방에 물건을 넣어 채우는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_525",
+    "sourceHash": "9c53c2f6a96b673853d1d92d0a20d225a95a48bae6c9119e454ff8789afbbcff",
+    "level": "N2",
+    "dictionaryId": "jmdict-1602590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(구멍·길 등을) 막다, 가로막다, (기분이) 우울해지다” 및 1개 sense를 대조했다. 돌과 천으로 길이나 구멍을 막는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_527",
+    "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “다른 것/상태로 되다” 및 1개 sense를 대조했다. 어두운 상태나 봄철이 되는 기본 변화 표현이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "なる의 상태 변화 의미 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_528",
+    "sourceHash": "3926fbed973788f3b30b615731933fa8caf8a98fbab38208b91b2694175a67b5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1384860",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “끊어지다, 베이다” 및 1개 sense를 대조했다. 신발끈과 낚싯줄이 끊어지는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_529",
+    "sourceHash": "c60ddb7cc2c1c0bd9444b05040e6141df2a8b52b276e489a6bf208ebde0820c4",
+    "level": "N5",
+    "dictionaryId": "jmdict-1239730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “구부러지다, 돌다, 비뚤어지다” 및 1개 sense를 대조했다. 모퉁이에서 진행 방향을 바꾸는 기본 이동 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_534",
+    "sourceHash": "5b0ab6be7878b6d2981b325cee7e3bcda44f0ba4727c6bce8ec251293764cafc",
+    "level": "N2",
+    "dictionaryId": "jmdict-1178960",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “더럽히다” 및 1개 sense를 대조했다. 흙으로 바닥과 옷을 더럽히는 물리적 의미를 선택했다. 사전의 전체 gloss에 soil·make dirty가 있어 현재 읽기 よごす와 뜻이 맞는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_535",
+    "sourceHash": "82e0173f94aab88a4193032d62b495d025ed231da76ef12a775bc6a288458423",
+    "level": "N4",
+    "dictionaryId": "jmdict-1408220",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “살찌다” 및 1개 sense를 대조했다. 사람과 고양이의 체중이 늘어 살찌는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_536",
+    "sourceHash": "d8742e9c84799b73ca1a4bcdeadec9a26ef96595015ab04789f0d075940de472",
+    "level": "N4",
+    "dictionaryId": "jmdict-1605510",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “여위다” 및 1개 sense를 대조했다. 사람이 살이 빠지는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_537",
+    "sourceHash": "1fb62fa8a2f276eee077b004e630c27e76b801295ff1ad1d79fbeaeb59976f34",
+    "level": "N1",
+    "dictionaryId": "jmdict-1316820",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “다스려지다, 진정되다” 및 1개 sense를 대조했다. 복통과 기침이 진정되는 증상 완화 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_538",
+    "sourceHash": "552ffabfd74ff7028f0c7f781cce7a85d89217fe4b8d81a56c5137d406fb83f8",
+    "level": "N2",
+    "dictionaryId": "jmdict-1316830",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “다스리다” 및 1개 sense를 대조했다. 왕이 지역과 나라를 통치하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_539",
+    "sourceHash": "6dcc673348f19c52905f99a0347e9cd2523948a402fbf6c3219ce82dade7ac35",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “궁지에 몰리다” 및 1개 sense를 대조했다. 마감 등에 쫓겨 여유가 없고 궁지에 몰리는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "切羽詰まる의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_541",
+    "sourceHash": "b511c12e363dc4fe9a2496b9acaa61716886e6d1d4257e9aab5711a068c00343",
+    "level": "N3",
+    "dictionaryId": "jmdict-1588840",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “덮다, 가리다” 및 1개 sense를 대조했다. 눈이나 손으로 다른 대상을 덮는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_542",
+    "sourceHash": "b965d23444c85a270e7008be86ff2a3aa90d43e0d1e67f81e78254db37c166a3",
+    "level": "N2",
+    "dictionaryId": "jmdict-1590420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(생각 등이) 한쪽으로 치우치다” 및 1개 sense를 대조했다. 식사의 구성과 판단이 한쪽으로 치우친다는 뜻을 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_544",
+    "sourceHash": "14537e06f85e95f618dd566cb86ef342fc2a20c149ed9ddbc056279e324a11e7",
+    "level": "N5",
+    "dictionaryId": "jmdict-1546640",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “필요하다” 및 1개 sense를 대조했다. 도장과 봉투가 필요한지를 말하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_545",
+    "sourceHash": "da17d52cd7d8c9138d677a4ba75038f24c13f972f286cd4df5816619a69569ab",
+    "level": "N4",
+    "dictionaryId": "jmdict-1404740",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “충분하다” 및 1개 sense를 대조했다. 의자와 현금의 양이 충분한지를 말하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

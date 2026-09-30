@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "cd9a13826db67caf21a6e75bef07333004965ec27de2ef79236d9a7161e5bc2e",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:38:52.374Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1288640",
+      "104b8454c55ded4f471aa1c3c36b9170c3b66c2146e30c6c5b991fd20d391ae6"
+    ],
+    [
+      "lex-jmdict-1289710",
+      "b1c4848fedfa69a895eb3bf422b72e2ad6ead78c9a2730defbcf53b93eeb2223"
+    ],
+    [
+      "lex-jmdict-1290560",
+      "87419f93212652336a5c5bfb7885930b89cab8f3fc65a4000322e6350c1cc0af"
+    ],
+    [
+      "lex-jmdict-1291070",
+      "d18f089bb3a4a191be78edf3a7e682868a880034a1f9e3c149fe2394f94ca73e"
+    ],
+    [
+      "lex-jmdict-1291410",
+      "2276ef2edf2e2a0aaa317f4d7f3906dcfa1f153fb7d5a7c2af2e006b9d36ac97"
+    ],
+    [
+      "lex-jmdict-1291730",
+      "a74f8a3c30b9256f5932eba1160397dba767cb4457bcf86167ddf6d7c7c4f32b"
+    ],
+    [
+      "lex-jmdict-1291880",
+      "5f2f5a81964bf6b40e0a32b36a39a855ab646385175751769ea66620fa02f0a7"
+    ],
+    [
+      "lex-jmdict-1294630",
+      "95a347ba08e68418f462eda18594a4041a8ed097b52a74f2350f00bc85ee544c"
+    ],
+    [
+      "lex-jmdict-1296120",
+      "d6dfb126c5981e44bb23ab623867b51f458f8d24219db9737382c702e895642d"
+    ],
+    [
+      "lex-jmdict-1296300",
+      "5476b3f99f7931b945c964de37595b99c051f32811f8d85ceee7d60506548cef"
+    ],
+    [
+      "lex-jmdict-1296680",
+      "9c438318aee6bc43bddc670103abecb608cb9417de8f8cbe304722642b63a76f"
+    ],
+    [
+      "lex-jmdict-1296820",
+      "741c9b61cc5a1b60651c7f822ec19ab62d6fef60bb0dfffa2217148ef280a160"
+    ],
+    [
+      "lex-jmdict-1297510",
+      "2f2fcc87faf598b8e49d62997d8b94fa8666f675645cbaaf1a962c59b59c031f"
+    ],
+    [
+      "lex-jmdict-1297650",
+      "671754970eb661dcd264c2f411082061b90a47e3b3bcfe52d1f6875565dd0294"
+    ],
+    [
+      "lex-jmdict-1297910",
+      "b66eb1efe95ba47ac411c219619929f76c4335add199d31bc36d6fca20fbcbd4"
+    ],
+    [
+      "lex-jmdict-1297980",
+      "a9f02b27da27ed1bb3fa51050da83eeb79fcd818d7d2aa06a7ecffa78499dc1a"
+    ],
+    [
+      "lex-jmdict-1298960",
+      "8ab047b7c863b92f7a8e6e30d77b8afdead2f1825bc93c14219b82a3a594905c"
+    ],
+    [
+      "lex-jmdict-1299680",
+      "7324aa2a264f457cfdc4818b995dfc663d7e6d96ba86dc7065a20408675c85b1"
+    ],
+    [
+      "lex-jmdict-1302280",
+      "fdcc28bfeecec58c7784fae4e2a1dfa717397c2db19a0be46514284df750e636"
+    ],
+    [
+      "lex-jmdict-1303620",
+      "84f1d1c553d101522ae61b5b1ec8f0660a30c366c06122352dc39cca1244ce8d"
+    ],
+    [
+      "lex-jmdict-1304350",
+      "b6ca1ccde3bcfe16d10924d16c1faae2148b9ac438c61d4cfb6ab4623437dc9b"
+    ],
+    [
+      "lex-jmdict-1304480",
+      "86e111ad8809315b4b02833125700c21b1148ef82249b729530faf988a3580bf"
+    ],
+    [
+      "lex-jmdict-1306200",
+      "275d368299e19b5f9ff8b81ae87379d75a191a463ebac7d9dce1e6200f4af06e"
+    ],
+    [
+      "lex-jmdict-1307710",
+      "237080a6767043ff0fe97cc9ded67ccf3733cd4c1e208ae4b3b33a1225db9b47"
+    ],
+    [
+      "lex-jmdict-1308300",
+      "1b160088b295b839a1da7977473c9743a937feada36f89ad1d45dc35f61bd21b"
+    ],
+    [
+      "lex-jmdict-1309560",
+      "607f2a0d77af6478be9784933e9227c4fa4cc2de8df38425bdc68c63e9650a9c"
+    ],
+    [
+      "lex-jmdict-1310230",
+      "1ac2f6a7cc1df900f6d78003e3605e7b1b8b92b3e28077edb7c98dddd3bda108"
+    ],
+    [
+      "lex-jmdict-1310270",
+      "096ac05b0985c3f077108218ad6f1fe8dfbf5611857a64c8da1b72c9dfec6151"
+    ],
+    [
+      "lex-jmdict-1310950",
+      "62aae28f07e031a509e524e436572aa10e7588db55629c7c8b89f558f2d520d4"
+    ],
+    [
+      "lex-jmdict-1312220",
+      "4cc6c22b5bdae2f71208f23f53ea8d2294937f271a075bea71663d36fa644cbd"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1296820",
+      "category": "substantive",
+      "note": "세 번째 예문의 지식·경험이라는 비유적 재산도 포함하도록 힌트 범위를 넓힘."
+    },
+    {
+      "wordId": "lex-jmdict-1298960",
+      "category": "substantive",
+      "note": "大きな札가 지폐 크기가 아닌 높은 액면을 뜻함을 번역에 명시함."
+    },
+    {
+      "wordId": "lex-jmdict-1310270",
+      "category": "substantive",
+      "note": "相手の支配する展開라는 어색한 결합을 경기를 지배한다는 자연스러운 용법으로 수정함."
+    },
+    {
+      "wordId": "lex-jmdict-1304350",
+      "category": "clarity",
+      "note": "고지대의 산소 비율이 낮아진다는 오해를 피하도록 호흡당 산소량을 명시함."
+    },
+    {
+      "wordId": "lex-jmdict-1291730",
+      "category": "clarity",
+      "note": "움직이지 못하는 주체가 개임을 한국어에 명시함."
+    }
+  ]
+}

@@ -1,0 +1,4206 @@
+{
+  "schemaVersion": 1,
+  "kind": "authorized-core-preserving-content",
+  "draft": {
+    "schemaVersion": 1,
+    "id": "fix-proposals-001",
+    "scope": "legacy-content-revision",
+    "entries": [
+      {
+        "wordId": "JLPTN3_9",
+        "before": {
+          "word": {
+            "id": "JLPTN3_9",
+            "setId": "jlpt-n3",
+            "japanese": "挑む",
+            "reading": "いどむ",
+            "meaning": "도전하다",
+            "type": "verb",
+            "difficulty": 42,
+            "verbInfo": "1자",
+            "sourceOrder": 8
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_9-1",
+              "wordId": "JLPTN3_9",
+              "version": 1,
+              "meaning": "어려운 목표에 도전하다",
+              "hint": "만만하지 않은 상대나 과제에 맞서 해 보려는 행동이에요.",
+              "confusions": [
+                {
+                  "japanese": "試す",
+                  "distinction": "가능한지 가볍게 시험하는 것보다 어려움을 알고 맞서는 태도가 강하다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_9-1-ex-1",
+                  "version": 1,
+                  "before": "去年は途中で諦めた山に、今年もう一度",
+                  "answer": "挑む",
+                  "after": "。",
+                  "reading": "いどむ",
+                  "translation": "작년에는 도중에 포기한 산에 올해 다시 한번 도전한다.",
+                  "translationTarget": "도전한다",
+                  "difficulty": 42,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_9-1-ex-2",
+                  "version": 1,
+                  "before": "全国一位の選手に",
+                  "answer": "挑んだ",
+                  "after": "が、一点も取れなかった。",
+                  "reading": "いどんだ",
+                  "translation": "전국 1위 선수에게 도전했지만 한 점도 따지 못했다.",
+                  "translationTarget": "도전했지만",
+                  "difficulty": 42,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_9",
+            "setId": "jlpt-n3",
+            "japanese": "挑む",
+            "reading": "いどむ",
+            "meaning": "도전하다",
+            "type": "verb",
+            "difficulty": 42,
+            "verbInfo": "1자타",
+            "sourceOrder": 8
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_9-1",
+              "wordId": "JLPTN3_9",
+              "version": 1,
+              "meaning": "어려운 목표나 상대에 맞서 도전하다",
+              "hint": "어려운 과제에 맞서거나 강한 상대에게 승부를 걸어 보는 행동이에요.",
+              "confusions": [
+                {
+                  "japanese": "試す",
+                  "distinction": "가능한지 가볍게 시험하는 것보다 어려움을 알고 맞서는 태도가 강하다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_9-1-ex-1",
+                  "version": 1,
+                  "before": "去年は途中で諦めた山に、今年もう一度",
+                  "answer": "挑む",
+                  "after": "。",
+                  "reading": "いどむ",
+                  "translation": "작년에는 도중에 포기한 산에 올해 다시 한번 도전한다.",
+                  "translationTarget": "도전한다",
+                  "difficulty": 42,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_9-1-ex-2",
+                  "version": 1,
+                  "before": "全国一位の選手に",
+                  "answer": "挑んだ",
+                  "after": "が、一点も取れなかった。",
+                  "reading": "いどんだ",
+                  "translation": "전국 1위 선수에게 도전했지만 한 점도 따지 못했다.",
+                  "translationTarget": "도전했지만",
+                  "difficulty": 42,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "82b518185bd558389abcdc8dd99a9b198824b7e6bc21b2d8b4ba0e7113681e67",
+        "afterHash": "8439ee27930ee5b243b4cf2cf3bdb63615151c3bf20202138723c7d02cca15b1",
+        "reason": "제공 사전은 상대에게 승부를 거는 용법을 타동사, 과제에 도전하는 용법을 자동사로 기록한다. 두 기존 장면을 유지하고 표제의 자타 정보를 넓힌다."
+      },
+      {
+        "wordId": "JLPTN3_29",
+        "before": {
+          "word": {
+            "id": "JLPTN3_29",
+            "setId": "jlpt-n3",
+            "japanese": "駆ける",
+            "reading": "かける",
+            "meaning": "전속력으로 달리다, 뛰다",
+            "type": "verb",
+            "difficulty": 36,
+            "verbInfo": "2자",
+            "sourceOrder": 28
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_29-1",
+              "wordId": "JLPTN3_29",
+              "version": 1,
+              "meaning": "달리다",
+              "hint": "발을 빠르게 움직여 힘차게 나아가요.",
+              "confusions": [
+                {
+                  "japanese": "走る",
+                  "distinction": "달린다는 뜻은 겹치며, 힘찬 움직임을 묘사하는 문장에 잘 어울린다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_29-1-ex-1",
+                  "version": 1,
+                  "before": "門が開くと、子どもたちは校庭へ",
+                  "answer": "駆けた",
+                  "after": "。",
+                  "reading": "かけた",
+                  "translation": "문이 열리자 아이들은 운동장으로 달렸다.",
+                  "translationTarget": "달렸다",
+                  "difficulty": 36,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_29-1-ex-2",
+                  "version": 1,
+                  "before": "草原を",
+                  "answer": "駆ける",
+                  "after": "馬を、車の窓から見ていた。",
+                  "reading": "かける",
+                  "translation": "초원을 달리는 말을 차창으로 바라보고 있었다.",
+                  "translationTarget": "달리는",
+                  "difficulty": 36,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_29",
+            "setId": "jlpt-n3",
+            "japanese": "駆ける",
+            "reading": "かける",
+            "meaning": "힘차게 달리다·뛰다",
+            "type": "verb",
+            "difficulty": 36,
+            "verbInfo": "2자",
+            "sourceOrder": 28
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_29-1",
+              "wordId": "JLPTN3_29",
+              "version": 1,
+              "meaning": "달리다",
+              "hint": "발을 빠르게 움직여 힘차게 나아가요.",
+              "confusions": [
+                {
+                  "japanese": "走る",
+                  "distinction": "달린다는 뜻은 겹치며, 힘찬 움직임을 묘사하는 문장에 잘 어울린다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_29-1-ex-1",
+                  "version": 1,
+                  "before": "門が開くと、子どもたちは校庭へ",
+                  "answer": "駆けた",
+                  "after": "。",
+                  "reading": "かけた",
+                  "translation": "문이 열리자 아이들은 운동장으로 달렸다.",
+                  "translationTarget": "달렸다",
+                  "difficulty": 36,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_29-1-ex-2",
+                  "version": 1,
+                  "before": "草原を",
+                  "answer": "駆ける",
+                  "after": "馬を、車の窓から見ていた。",
+                  "reading": "かける",
+                  "translation": "초원을 달리는 말을 차창으로 바라보고 있었다.",
+                  "translationTarget": "달리는",
+                  "difficulty": 36,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "6159a781811dad8d5c425d42d4f964308a2c61502172a18afb5f57a548c07f5a",
+        "afterHash": "e400d2139a66799ca8f173ba4bb61c0cba044c8ea68722aa1f9dcbc842970a88",
+        "reason": "현재 아이들과 말의 달리기 예문은 최고 속력을 요구하지 않는다. 제공 2단 자동사 항목의 달리다 의미에 맞춰 과도한 전속력 제한을 없앤다."
+      },
+      {
+        "wordId": "JLPTN3_56",
+        "before": {
+          "word": {
+            "id": "JLPTN3_56",
+            "setId": "jlpt-n3",
+            "japanese": "絞る",
+            "reading": "しぼる",
+            "meaning": "(물기를) 짜다, (범위를) 줄이다",
+            "type": "verb",
+            "difficulty": 37,
+            "verbInfo": "1타",
+            "sourceOrder": 55
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_56-1",
+              "wordId": "JLPTN3_56",
+              "version": 1,
+              "meaning": "물기를 짜다",
+              "hint": "젖은 천에 힘을 가해 물을 빼요. 증발시켜 말리는 것과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "乾かす",
+                  "distinction": "물기를 증발시켜 말리는 것과 달리 힘을 가해 액체를 빼낸다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_56-1-ex-1",
+                  "version": 1,
+                  "before": "雑巾をよく",
+                  "answer": "絞って",
+                  "after": "から、床を拭いてください。",
+                  "reading": "しぼって",
+                  "translation": "걸레를 잘 짜고 바닥을 닦아 주세요.",
+                  "translationTarget": "짜고",
+                  "difficulty": 37,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_56-1-ex-2",
+                  "version": 1,
+                  "before": "タオルを片手で",
+                  "answer": "絞る",
+                  "after": "のは難しいね。",
+                  "reading": "しぼる",
+                  "translation": "수건을 한 손으로 짜기는 어렵네.",
+                  "translationTarget": "짜기는",
+                  "difficulty": 37,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_56",
+            "setId": "jlpt-n3",
+            "japanese": "絞る",
+            "reading": "しぼる",
+            "meaning": "(물기를) 짜다, (범위를) 줄이다",
+            "type": "verb",
+            "difficulty": 37,
+            "verbInfo": "1타",
+            "sourceOrder": 55
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_56-1",
+              "wordId": "JLPTN3_56",
+              "version": 1,
+              "meaning": "물기를 짜다",
+              "hint": "젖은 천에 힘을 가해 물을 빼요. 증발시켜 말리는 것과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "乾かす",
+                  "distinction": "물기를 증발시켜 말리는 것과 달리 힘을 가해 액체를 빼낸다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_56-1-ex-1",
+                  "version": 1,
+                  "before": "雑巾をよく",
+                  "answer": "絞って",
+                  "after": "から、床を拭いてください。",
+                  "reading": "しぼって",
+                  "translation": "걸레를 잘 짜고 바닥을 닦아 주세요.",
+                  "translationTarget": "짜고",
+                  "difficulty": 37,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_56-1-ex-2",
+                  "version": 1,
+                  "before": "タオルを片手で",
+                  "answer": "絞る",
+                  "after": "のは難しいね。",
+                  "reading": "しぼる",
+                  "translation": "수건을 한 손으로 짜기는 어렵네.",
+                  "translationTarget": "짜기는",
+                  "difficulty": 37,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_56-2",
+              "wordId": "JLPTN3_56",
+              "version": 1,
+              "meaning": "범위나 후보를 좁히다",
+              "hint": "여러 선택지 가운데 일부만 남겨 검토할 대상을 줄여요.",
+              "confusions": [
+                {
+                  "japanese": "広げる",
+                  "distinction": "絞る는 검토 대상을 좁힘, 広げる는 범위나 대상을 넓힘이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_56-2-ex-1",
+                  "version": 1,
+                  "before": "面接では、応募者の経験に質問の内容を",
+                  "answer": "絞った",
+                  "after": "。",
+                  "reading": "しぼった",
+                  "translation": "면접에서는 지원자의 경험으로 질문의 내용을 좁혔다.",
+                  "translationTarget": "좁혔다",
+                  "difficulty": 37,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "4c4a3d4990b5dd0879391e9d287fee28677b29bf805517b94035123656b67b66",
+        "afterHash": "8084fb1895fb0dafe60015e24e9dd34564436f8bc9bafde0a006ada65427ce7b",
+        "reason": "범위 좁히기는 선택과 업무에서 중요한 별도 의미이며 사전의 narrow down에 대응한다. 기존 물기 짜기 sense와 두 예문은 모두 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_58",
+        "before": {
+          "word": {
+            "id": "JLPTN3_58",
+            "setId": "jlpt-n3",
+            "japanese": "締める",
+            "reading": "しめる",
+            "meaning": "바싹 졸라 메다",
+            "type": "verb",
+            "difficulty": 29,
+            "verbInfo": "2타",
+            "sourceOrder": 57
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_58-1",
+              "wordId": "JLPTN3_58",
+              "version": 1,
+              "meaning": "조여 매다",
+              "hint": "헐거운 띠나 끈을 몸에 꼭 맞게 해요.",
+              "confusions": [
+                {
+                  "japanese": "結ぶ",
+                  "distinction": "매듭을 만드는 것보다 느슨함을 없애 단단하게 하는 데 초점을 둔다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_58-1-ex-1",
+                  "version": 1,
+                  "before": "運転する前に、シートベルトを",
+                  "answer": "締めて",
+                  "after": "ください。",
+                  "reading": "しめて",
+                  "translation": "운전하기 전에 안전벨트를 매 주세요.",
+                  "translationTarget": "매",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_58-1-ex-2",
+                  "version": 1,
+                  "before": "帯を強く",
+                  "answer": "締めすぎて",
+                  "after": "、少し苦しい。",
+                  "reading": "しめすぎて",
+                  "translation": "띠를 너무 세게 조여 매서 조금 답답하다.",
+                  "translationTarget": "조여 매서",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_58",
+            "setId": "jlpt-n3",
+            "japanese": "締める",
+            "reading": "しめる",
+            "meaning": "조여 매다·매다",
+            "type": "verb",
+            "difficulty": 29,
+            "verbInfo": "2타",
+            "sourceOrder": 57
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_58-1",
+              "wordId": "JLPTN3_58",
+              "version": 1,
+              "meaning": "조여 매다",
+              "hint": "헐거운 띠나 끈을 몸에 꼭 맞게 해요.",
+              "confusions": [
+                {
+                  "japanese": "結ぶ",
+                  "distinction": "매듭을 만드는 것보다 느슨함을 없애 단단하게 하는 데 초점을 둔다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_58-1-ex-1",
+                  "version": 1,
+                  "before": "運転する前に、シートベルトを",
+                  "answer": "締めて",
+                  "after": "ください。",
+                  "reading": "しめて",
+                  "translation": "운전하기 전에 안전벨트를 매 주세요.",
+                  "translationTarget": "매",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_58-1-ex-2",
+                  "version": 1,
+                  "before": "帯を強く",
+                  "answer": "締めすぎて",
+                  "after": "、少し苦しい。",
+                  "reading": "しめすぎて",
+                  "translation": "띠를 너무 세게 조여 매서 조금 답답하다.",
+                  "translationTarget": "조여 매서",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "b71494c8d87b9e31fd2416c6856e8a1cfae007f649ee032e2a586c6752c37cd2",
+        "afterHash": "06ee1cf536e29a3a72d4ff5004c1895cd8aa512fe6c8bf1a6ce23b2d31b7f225",
+        "reason": "바싹이라는 강도 제한과 메다의 표기를 바로잡는다. 안전벨트 착용과 띠 조임의 두 기존 예문은 그대로 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_99",
+        "before": {
+          "word": {
+            "id": "JLPTN3_99",
+            "setId": "jlpt-n3",
+            "japanese": "離す",
+            "reading": "はなす",
+            "meaning": "떼다, 놓치다",
+            "type": "verb",
+            "difficulty": 29,
+            "verbInfo": "1타",
+            "sourceOrder": 98
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_99-1",
+              "wordId": "JLPTN3_99",
+              "version": 1,
+              "meaning": "떨어지게 떼다",
+              "hint": "붙잡거나 가까이 두었던 것을 떨어뜨려 놓아요.",
+              "confusions": [
+                {
+                  "japanese": "離れる",
+                  "distinction": "대상 자체가 멀어지는 것이 아니라 사람이 떨어뜨리는 행동이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_99-1-ex-1",
+                  "version": 1,
+                  "before": "熱い鍋から手を",
+                  "answer": "離した",
+                  "after": "瞬間、床に落としてしまった。",
+                  "reading": "はなした",
+                  "translation": "뜨거운 냄비에서 손을 뗀 순간 바닥에 떨어뜨리고 말았다.",
+                  "translationTarget": "뗀",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_99-1-ex-2",
+                  "version": 1,
+                  "before": "二つの椅子をもう少し",
+                  "answer": "離して",
+                  "after": "置こう。",
+                  "reading": "はなして",
+                  "translation": "의자 두 개를 조금 더 떼어 놓자.",
+                  "translationTarget": "떼어",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_99",
+            "setId": "jlpt-n3",
+            "japanese": "離す",
+            "reading": "はなす",
+            "meaning": "떼다·떨어뜨려 놓다·손을 놓다",
+            "type": "verb",
+            "difficulty": 29,
+            "verbInfo": "1타",
+            "sourceOrder": 98
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_99-1",
+              "wordId": "JLPTN3_99",
+              "version": 1,
+              "meaning": "떨어지게 떼다",
+              "hint": "붙잡거나 가까이 두었던 것을 떨어뜨려 놓아요.",
+              "confusions": [
+                {
+                  "japanese": "離れる",
+                  "distinction": "대상 자체가 멀어지는 것이 아니라 사람이 떨어뜨리는 행동이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_99-1-ex-1",
+                  "version": 1,
+                  "before": "熱い鍋から手を",
+                  "answer": "離した",
+                  "after": "瞬間、床に落としてしまった。",
+                  "reading": "はなした",
+                  "translation": "뜨거운 냄비에서 손을 뗀 순간 바닥에 떨어뜨리고 말았다.",
+                  "translationTarget": "뗀",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_99-1-ex-2",
+                  "version": 1,
+                  "before": "二つの椅子をもう少し",
+                  "answer": "離して",
+                  "after": "置こう。",
+                  "reading": "はなして",
+                  "translation": "의자 두 개를 조금 더 떼어 놓자.",
+                  "translationTarget": "떼어",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "4596db0b9b8fbee89f4a12828b873940994f65ed56b7847a9b02844b7ca8b005",
+        "afterHash": "3510208b82a8b31fafb8d62b106ba5939347d25ccd56303dbd403d4ac959a70c",
+        "reason": "일본어는 접촉을 끊거나 거리를 두는 행동을 나타낸다. 실수로 놓치는 뜻으로 읽힐 수 있는 놓치다를 정확한 표현으로 바꾼다."
+      },
+      {
+        "wordId": "JLPTN3_125",
+        "before": {
+          "word": {
+            "id": "JLPTN3_125",
+            "setId": "jlpt-n3",
+            "japanese": "呼びかける",
+            "reading": "よびかける",
+            "meaning": "호소하다, 부르다",
+            "type": "verb",
+            "difficulty": 32,
+            "verbInfo": "2타",
+            "sourceOrder": 124
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_125-1",
+              "wordId": "JLPTN3_125",
+              "version": 1,
+              "meaning": "호소하다",
+              "hint": "여러 사람에게 협력이나 행동을 요청해요.",
+              "confusions": [
+                {
+                  "japanese": "呼ぶ",
+                  "distinction": "단순히 이름을 부르는 것보다 상대의 응답이나 행동을 이끌려 한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_125-1-ex-1",
+                  "version": 1,
+                  "before": "町内会が住民に節水を",
+                  "answer": "呼びかけた",
+                  "after": "。",
+                  "reading": "よびかけた",
+                  "translation": "주민회가 주민들에게 절수를 호소했다.",
+                  "translationTarget": "호소했다",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_125-1-ex-2",
+                  "version": 1,
+                  "before": "参加を",
+                  "answer": "呼びかけても",
+                  "after": "、最初は誰も手を挙げなかった。",
+                  "reading": "よびかけても",
+                  "translation": "참여를 호소해도 처음에는 아무도 손을 들지 않았다.",
+                  "translationTarget": "호소해도",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_125",
+            "setId": "jlpt-n3",
+            "japanese": "呼びかける",
+            "reading": "よびかける",
+            "meaning": "호소하다, 부르다",
+            "type": "verb",
+            "difficulty": 32,
+            "verbInfo": "2타",
+            "sourceOrder": 124
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_125-1",
+              "wordId": "JLPTN3_125",
+              "version": 1,
+              "meaning": "호소하다",
+              "hint": "여러 사람에게 협력이나 행동을 요청해요.",
+              "confusions": [
+                {
+                  "japanese": "呼ぶ",
+                  "distinction": "단순히 이름을 부르는 것보다 상대의 응답이나 행동을 이끌려 한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_125-1-ex-1",
+                  "version": 1,
+                  "before": "町内会が住民に節水を",
+                  "answer": "呼びかけた",
+                  "after": "。",
+                  "reading": "よびかけた",
+                  "translation": "주민회가 주민들에게 절수를 호소했다.",
+                  "translationTarget": "호소했다",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_125-1-ex-2",
+                  "version": 1,
+                  "before": "参加を",
+                  "answer": "呼びかけても",
+                  "after": "、最初は誰も手を挙げなかった。",
+                  "reading": "よびかけても",
+                  "translation": "참여를 호소해도 처음에는 아무도 손을 들지 않았다.",
+                  "translationTarget": "호소해도",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_125-2",
+              "wordId": "JLPTN3_125",
+              "version": 1,
+              "meaning": "사람에게 소리 내어 말을 걸다",
+              "hint": "상대가 알아듣도록 소리 내어 부르거나 말을 걸어요.",
+              "confusions": [
+                {
+                  "japanese": "呼び出す",
+                  "distinction": "呼びかける는 상대에게 소리 내어 말을 걸고, 呼び出す는 상대를 특정 장소로 나오도록 부른다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_125-2-ex-1",
+                  "version": 1,
+                  "before": "落とし物に気づき、前を歩く人に",
+                  "answer": "呼びかけた",
+                  "after": "。",
+                  "reading": "よびかけた",
+                  "translation": "떨어뜨린 물건을 보고 앞서 걷는 사람에게 말을 걸었다.",
+                  "translationTarget": "말을 걸었다",
+                  "difficulty": 36,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "3bfa23c463667e2c8f5c9d8f046a96bab348a4b5c7e002911ba8906f5f574177",
+        "afterHash": "3f5b4a0ecbfc4d5694dc71f68f3cc9bd2ec7652d81d953b89a7d05c0a211cdc3",
+        "reason": "직접 사람에게 말 걸기는 대중에게 참여 등을 호소하는 현재 용법과 구분되며 사전의 call out to에 대응한다. 기존 호소 예문을 보존한다."
+      },
+      {
+        "wordId": "JLPTN3_130",
+        "before": {
+          "word": {
+            "id": "JLPTN3_130",
+            "setId": "jlpt-n3",
+            "japanese": "甘い",
+            "reading": "あまい",
+            "meaning": "(맛이) 달다, 기준이 느슨하다",
+            "type": "i_adj",
+            "difficulty": 18,
+            "verbInfo": null,
+            "sourceOrder": 129
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_130-1",
+              "wordId": "JLPTN3_130",
+              "version": 1,
+              "meaning": "맛이 달다",
+              "hint": "설탕이나 꿀 같은 맛이 나요.",
+              "confusions": [
+                {
+                  "japanese": "おいしい",
+                  "distinction": "맛있다는 전체 평가가 아니라 단맛이라는 맛의 성질이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_130-1-ex-1",
+                  "version": 1,
+                  "before": "この桃、砂糖みたいに",
+                  "answer": "甘い",
+                  "after": "ね。",
+                  "reading": "あまい",
+                  "translation": "이 복숭아 설탕처럼 달다.",
+                  "translationTarget": "달다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_130-1-ex-2",
+                  "version": 1,
+                  "before": "思ったほど",
+                  "answer": "甘くなかった",
+                  "after": "ので、ジャムを足した。",
+                  "reading": "あまくなかった",
+                  "translation": "생각만큼 달지 않아서 잼을 더했다.",
+                  "translationTarget": "달지 않아서",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_130",
+            "setId": "jlpt-n3",
+            "japanese": "甘い",
+            "reading": "あまい",
+            "meaning": "(맛이) 달다, 기준이 느슨하다",
+            "type": "i_adj",
+            "difficulty": 18,
+            "verbInfo": null,
+            "sourceOrder": 129
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_130-1",
+              "wordId": "JLPTN3_130",
+              "version": 1,
+              "meaning": "맛이 달다",
+              "hint": "설탕이나 꿀 같은 맛이 나요.",
+              "confusions": [
+                {
+                  "japanese": "おいしい",
+                  "distinction": "맛있다는 전체 평가가 아니라 단맛이라는 맛의 성질이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_130-1-ex-1",
+                  "version": 1,
+                  "before": "この桃、砂糖みたいに",
+                  "answer": "甘い",
+                  "after": "ね。",
+                  "reading": "あまい",
+                  "translation": "이 복숭아 설탕처럼 달다.",
+                  "translationTarget": "달다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_130-1-ex-2",
+                  "version": 1,
+                  "before": "思ったほど",
+                  "answer": "甘くなかった",
+                  "after": "ので、ジャムを足した。",
+                  "reading": "あまくなかった",
+                  "translation": "생각만큼 달지 않아서 잼을 더했다.",
+                  "translationTarget": "달지 않아서",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_130-2",
+              "wordId": "JLPTN3_130",
+              "version": 1,
+              "meaning": "판단이나 기준이 엄격하지 않다",
+              "hint": "사람이나 조건을 평가할 때 엄격하게 따지지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "厳しい",
+                  "distinction": "甘い는 판단이나 기준이 느슨함, 厳しい는 기준을 엄격하게 적용함이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_130-2-ex-1",
+                  "version": 1,
+                  "before": "この審査は基準が",
+                  "answer": "甘い",
+                  "after": "ので、小さな欠点なら見逃してもらえる。",
+                  "reading": "あまい",
+                  "translation": "이 심사는 기준이 느슨해서 작은 결점이라면 넘어가 준다.",
+                  "translationTarget": "느슨해서",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "7c2b530e2367ce9adff18b863425c76097989d5ced07ab1f49986b9092eef5ed",
+        "afterHash": "b663393e9260125ee7fe62bc9504a96da55e59afe3b0e0fbe4be52cdb4a23918",
+        "reason": "기준의 느슨함은 사전의 lenient 의미이며 생활·평가 상황에서 중요한 별도 쓰임이다. 단맛 sense와 예문을 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_132",
+        "before": {
+          "word": {
+            "id": "JLPTN3_132",
+            "setId": "jlpt-n3",
+            "japanese": "薄い",
+            "reading": "うすい",
+            "meaning": "(두께가) 얇다, (맛·색이) 연하다",
+            "type": "i_adj",
+            "difficulty": 25,
+            "verbInfo": null,
+            "sourceOrder": 131
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_132-1",
+              "wordId": "JLPTN3_132",
+              "version": 1,
+              "meaning": "두께가 얇다",
+              "hint": "여기서는 색이나 맛의 농도가 아니라 물건의 두께를 말해요. 가느다란 선의 굵기와 구별하세요.",
+              "confusions": [
+                {
+                  "japanese": "細い",
+                  "distinction": "길쭉한 물건의 굵기가 작은 것과 달리, 두 면 사이의 두께가 작은 상태다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_132-1-ex-1",
+                  "version": 1,
+                  "before": "この紙は",
+                  "answer": "薄い",
+                  "after": "ので、裏に書いた文字が透けて見える。",
+                  "reading": "うすい",
+                  "translation": "이 종이는 얇아서 뒷면에 쓴 글씨가 비쳐 보인다.",
+                  "translationTarget": "얇아서",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_132-1-ex-2",
+                  "version": 1,
+                  "before": "旅行用に選んだタオルは",
+                  "answer": "薄くて",
+                  "after": "、洗ってもすぐ乾く。",
+                  "reading": "うすくて",
+                  "translation": "여행용으로 고른 수건은 얇아서 빨아도 금방 마른다.",
+                  "translationTarget": "얇아서",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_132",
+            "setId": "jlpt-n3",
+            "japanese": "薄い",
+            "reading": "うすい",
+            "meaning": "(두께가) 얇다, (맛·색이) 연하다",
+            "type": "i_adj",
+            "difficulty": 25,
+            "verbInfo": null,
+            "sourceOrder": 131
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_132-1",
+              "wordId": "JLPTN3_132",
+              "version": 1,
+              "meaning": "두께가 얇다",
+              "hint": "여기서는 색이나 맛의 농도가 아니라 물건의 두께를 말해요. 가느다란 선의 굵기와 구별하세요.",
+              "confusions": [
+                {
+                  "japanese": "細い",
+                  "distinction": "길쭉한 물건의 굵기가 작은 것과 달리, 두 면 사이의 두께가 작은 상태다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_132-1-ex-1",
+                  "version": 1,
+                  "before": "この紙は",
+                  "answer": "薄い",
+                  "after": "ので、裏に書いた文字が透けて見える。",
+                  "reading": "うすい",
+                  "translation": "이 종이는 얇아서 뒷면에 쓴 글씨가 비쳐 보인다.",
+                  "translationTarget": "얇아서",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_132-1-ex-2",
+                  "version": 1,
+                  "before": "旅行用に選んだタオルは",
+                  "answer": "薄くて",
+                  "after": "、洗ってもすぐ乾く。",
+                  "reading": "うすくて",
+                  "translation": "여행용으로 고른 수건은 얇아서 빨아도 금방 마른다.",
+                  "translationTarget": "얇아서",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_132-2",
+              "wordId": "JLPTN3_132",
+              "version": 1,
+              "meaning": "맛이 연하다",
+              "hint": "맛을 내는 성분이 적어서 진한 맛이 느껴지지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "濃い",
+                  "distinction": "薄い는 맛이 연함, 濃い는 맛이 진함이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_132-2-ex-1",
+                  "version": 1,
+                  "before": "このスープは味が",
+                  "answer": "薄い",
+                  "after": "から、塩を少し足そう。",
+                  "reading": "うすい",
+                  "translation": "이 수프는 맛이 연하니 소금을 조금 넣자.",
+                  "translationTarget": "연하니",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_132-3",
+              "wordId": "JLPTN3_132",
+              "version": 1,
+              "meaning": "색이 연하다",
+              "hint": "색의 농도가 낮아 옅게 보여요.",
+              "confusions": [
+                {
+                  "japanese": "濃い",
+                  "distinction": "薄い는 색이 옅음, 濃い는 색이 짙음이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_132-3-ex-1",
+                  "version": 1,
+                  "before": "布に絵を描く前に、鉛筆で",
+                  "answer": "薄く",
+                  "after": "線を引いた。",
+                  "reading": "うすく",
+                  "translation": "천에 그림을 그리기 전에 연필로 연하게 선을 그었다.",
+                  "translationTarget": "연하게",
+                  "difficulty": 27,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "ffd2d743102156158aa41d8c2373be88fb898632b4326f337409fd4a0fcd8715",
+        "afterHash": "2ee4935ab03554f7cfd0d84282e3c686197d4ac1a0a3a09bf09a6f9973ab1036",
+        "reason": "맛과 색의 농도는 물체 두께와 다른 중요한 일상 의미이다. 사전의 weak taste와 pale color를 별도 sense로 추가하고 기존 얇은 물체 예문을 보존한다."
+      },
+      {
+        "wordId": "JLPTN3_140",
+        "before": {
+          "word": {
+            "id": "JLPTN3_140",
+            "setId": "jlpt-n3",
+            "japanese": "暗い",
+            "reading": "くらい",
+            "meaning": "(빛·분위기가) 어둡다",
+            "type": "i_adj",
+            "difficulty": 18,
+            "verbInfo": null,
+            "sourceOrder": 139
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_140-1",
+              "wordId": "JLPTN3_140",
+              "version": 1,
+              "meaning": "어둡다",
+              "hint": "빛이 적어 주변이 잘 보이지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "黒い",
+                  "distinction": "색이 검은 것과 달리 빛의 양이 적은 상태다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_140-1-ex-1",
+                  "version": 1,
+                  "before": "廊下が",
+                  "answer": "暗い",
+                  "after": "ので、足元に気をつけて。",
+                  "reading": "くらい",
+                  "translation": "복도가 어두우니 발밑을 조심해.",
+                  "translationTarget": "어두우니",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_140-1-ex-2",
+                  "version": 1,
+                  "before": "夕方になると、この部屋は急に",
+                  "answer": "暗くなる",
+                  "after": "。",
+                  "reading": "くらくなる",
+                  "translation": "저녁이 되면 이 방은 갑자기 어두워진다.",
+                  "translationTarget": "어두워진다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_140",
+            "setId": "jlpt-n3",
+            "japanese": "暗い",
+            "reading": "くらい",
+            "meaning": "(빛·분위기가) 어둡다",
+            "type": "i_adj",
+            "difficulty": 18,
+            "verbInfo": null,
+            "sourceOrder": 139
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_140-1",
+              "wordId": "JLPTN3_140",
+              "version": 1,
+              "meaning": "어둡다",
+              "hint": "빛이 적어 주변이 잘 보이지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "黒い",
+                  "distinction": "색이 검은 것과 달리 빛의 양이 적은 상태다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_140-1-ex-1",
+                  "version": 1,
+                  "before": "廊下が",
+                  "answer": "暗い",
+                  "after": "ので、足元に気をつけて。",
+                  "reading": "くらい",
+                  "translation": "복도가 어두우니 발밑을 조심해.",
+                  "translationTarget": "어두우니",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_140-1-ex-2",
+                  "version": 1,
+                  "before": "夕方になると、この部屋は急に",
+                  "answer": "暗くなる",
+                  "after": "。",
+                  "reading": "くらくなる",
+                  "translation": "저녁이 되면 이 방은 갑자기 어두워진다.",
+                  "translationTarget": "어두워진다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_140-2",
+              "wordId": "JLPTN3_140",
+              "version": 1,
+              "meaning": "기분이나 분위기가 침울하다",
+              "hint": "즐겁거나 밝은 느낌 없이 마음이나 표정이 가라앉아 있어요.",
+              "confusions": [
+                {
+                  "japanese": "明るい",
+                  "distinction": "暗い는 기분이나 표정이 침울함, 明るい는 즐겁고 활기 있는 느낌이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_140-2-ex-1",
+                  "version": 1,
+                  "before": "試合に負けた後、選手たちは",
+                  "answer": "暗い",
+                  "after": "表情でバスに乗り込んだ。",
+                  "reading": "くらい",
+                  "translation": "경기에 진 뒤 선수들은 침울한 표정으로 버스에 올라탔다.",
+                  "translationTarget": "침울한",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "952b8b010117ec34ebd4f998ba7b656f4216052411a7139649698df433ffc32b",
+        "afterHash": "05eb65e796fd02420e48c1e51f1d4fa5be90c4630c0828be78d498230e75c874",
+        "reason": "조명의 어둠과 사람의 침울한 표정은 의미가 다르다. 사전의 depressed 의미를 별도로 추가하고 기존 물리적 어둠 용법을 보존한다."
+      },
+      {
+        "wordId": "JLPTN3_142",
+        "before": {
+          "word": {
+            "id": "JLPTN3_142",
+            "setId": "jlpt-n3",
+            "japanese": "詳しい",
+            "reading": "くわしい",
+            "meaning": "자세하다, 상세하다, 잘 알고 있다",
+            "type": "i_adj",
+            "difficulty": 29,
+            "verbInfo": null,
+            "sourceOrder": 141
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_142-1",
+              "wordId": "JLPTN3_142",
+              "version": 1,
+              "meaning": "내용이 자세하다",
+              "hint": "설명에 필요한 정보가 충분하고 구체적으로 들어 있다는 뜻이에요. 글자나 조각의 크기가 작다는 뜻과 구별하세요.",
+              "confusions": [
+                {
+                  "japanese": "細かい",
+                  "distinction": "작은 부분 하나하나에 주목하기보다 정보의 풍부함과 구체성을 나타낸다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_142-1-ex-1",
+                  "version": 1,
+                  "before": "駅から宿までの",
+                  "answer": "詳しい",
+                  "after": "道順を、主人がメールで送ってくれた。",
+                  "reading": "くわしい",
+                  "translation": "역에서 숙소까지 오는 자세한 길 안내를 주인이 이메일로 보내 주었다.",
+                  "translationTarget": "자세한",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_142-1-ex-2",
+                  "version": 1,
+                  "before": "その一行だけでは分からないので、もう少し",
+                  "answer": "詳しく",
+                  "after": "説明してもらえますか。",
+                  "reading": "くわしく",
+                  "translation": "그 한 줄만으로는 모르겠으니 조금 더 자세히 설명해 주시겠어요?",
+                  "translationTarget": "자세히",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_142",
+            "setId": "jlpt-n3",
+            "japanese": "詳しい",
+            "reading": "くわしい",
+            "meaning": "자세하다, 상세하다, 잘 알고 있다",
+            "type": "i_adj",
+            "difficulty": 29,
+            "verbInfo": null,
+            "sourceOrder": 141
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_142-1",
+              "wordId": "JLPTN3_142",
+              "version": 1,
+              "meaning": "내용이 자세하다",
+              "hint": "설명에 필요한 정보가 충분하고 구체적으로 들어 있다는 뜻이에요. 글자나 조각의 크기가 작다는 뜻과 구별하세요.",
+              "confusions": [
+                {
+                  "japanese": "細かい",
+                  "distinction": "작은 부분 하나하나에 주목하기보다 정보의 풍부함과 구체성을 나타낸다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_142-1-ex-1",
+                  "version": 1,
+                  "before": "駅から宿までの",
+                  "answer": "詳しい",
+                  "after": "道順を、主人がメールで送ってくれた。",
+                  "reading": "くわしい",
+                  "translation": "역에서 숙소까지 오는 자세한 길 안내를 주인이 이메일로 보내 주었다.",
+                  "translationTarget": "자세한",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_142-1-ex-2",
+                  "version": 1,
+                  "before": "その一行だけでは分からないので、もう少し",
+                  "answer": "詳しく",
+                  "after": "説明してもらえますか。",
+                  "reading": "くわしく",
+                  "translation": "그 한 줄만으로는 모르겠으니 조금 더 자세히 설명해 주시겠어요?",
+                  "translationTarget": "자세히",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_142-2",
+              "wordId": "JLPTN3_142",
+              "version": 1,
+              "meaning": "어떤 분야나 사정을 잘 알다",
+              "hint": "특정 주제에 관한 지식과 경험이 풍부해요.",
+              "confusions": [
+                {
+                  "japanese": "知らない",
+                  "distinction": "詳しい는 해당 분야를 잘 앎, 知らない는 그 분야에 대한 지식이 없음을 말한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_142-2-ex-1",
+                  "version": 1,
+                  "before": "機械に",
+                  "answer": "詳しい",
+                  "after": "友人に、修理できるか見てもらった。",
+                  "reading": "くわしい",
+                  "translation": "기계에 정통한 친구가 수리할 수 있는지 봐 주었다.",
+                  "translationTarget": "정통한",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "5c4c34c35ffd587f4f020b8ca235d8ed046c0e08c681f0701afc44c5e3719ca9",
+        "afterHash": "f25c025a53bbd0f4db7d1a04d8d37e1e286fb030116284d8ca1554ea64ee5066",
+        "reason": "사전의 knowledgeable는 설명 자체가 자세하다는 뜻과 구분되는 중요한 인물 평가 용법이다. 기존 상세 정보 예문은 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_144",
+        "before": {
+          "word": {
+            "id": "JLPTN3_144",
+            "setId": "jlpt-n3",
+            "japanese": "細かい",
+            "reading": "こまかい",
+            "meaning": "잘다, 작다, 세세하다",
+            "type": "i_adj",
+            "difficulty": 28,
+            "verbInfo": null,
+            "sourceOrder": 143
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_144-1",
+              "wordId": "JLPTN3_144",
+              "version": 1,
+              "meaning": "잘고 작다",
+              "hint": "전체가 얇거나 가느다란 것보다, 작은 알갱이·조각 하나하나의 크기를 떠올려 보세요.",
+              "confusions": [
+                {
+                  "japanese": "小さい",
+                  "distinction": "작다는 일반적인 크기보다 잘게 나뉜 입자나 부분의 작은 크기에 초점을 둔다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_144-1-ex-1",
+                  "version": 1,
+                  "before": "風が吹くたび、",
+                  "answer": "細かい",
+                  "after": "砂が靴の中に入ってくる。",
+                  "reading": "こまかい",
+                  "translation": "바람이 불 때마다 고운 모래가 신발 안으로 들어온다.",
+                  "translationTarget": "고운",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_144-1-ex-2",
+                  "version": 1,
+                  "before": "子どもにも食べやすいように、にんじんを",
+                  "answer": "細かく",
+                  "after": "刻んだ。",
+                  "reading": "こまかく",
+                  "translation": "아이도 먹기 쉽도록 당근을 잘게 썰었다.",
+                  "translationTarget": "잘게",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_144",
+            "setId": "jlpt-n3",
+            "japanese": "細かい",
+            "reading": "こまかい",
+            "meaning": "잘다, 작다, 세세하다",
+            "type": "i_adj",
+            "difficulty": 28,
+            "verbInfo": null,
+            "sourceOrder": 143
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_144-1",
+              "wordId": "JLPTN3_144",
+              "version": 1,
+              "meaning": "잘고 작다",
+              "hint": "전체가 얇거나 가느다란 것보다, 작은 알갱이·조각 하나하나의 크기를 떠올려 보세요.",
+              "confusions": [
+                {
+                  "japanese": "小さい",
+                  "distinction": "작다는 일반적인 크기보다 잘게 나뉜 입자나 부분의 작은 크기에 초점을 둔다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_144-1-ex-1",
+                  "version": 1,
+                  "before": "風が吹くたび、",
+                  "answer": "細かい",
+                  "after": "砂が靴の中に入ってくる。",
+                  "reading": "こまかい",
+                  "translation": "바람이 불 때마다 고운 모래가 신발 안으로 들어온다.",
+                  "translationTarget": "고운",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_144-1-ex-2",
+                  "version": 1,
+                  "before": "子どもにも食べやすいように、にんじんを",
+                  "answer": "細かく",
+                  "after": "刻んだ。",
+                  "reading": "こまかく",
+                  "translation": "아이도 먹기 쉽도록 당근을 잘게 썰었다.",
+                  "translationTarget": "잘게",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_144-2",
+              "wordId": "JLPTN3_144",
+              "version": 1,
+              "meaning": "내용이나 사항이 세세하다",
+              "hint": "전체를 크게 보는 대신 작은 사항까지 자세하게 다뤄요.",
+              "confusions": [
+                {
+                  "japanese": "大まか",
+                  "distinction": "細かい는 세부 사항까지 자세함, 大まか는 전체를 대략적으로 다룸이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_144-2-ex-1",
+                  "version": 1,
+                  "before": "契約の前に、",
+                  "answer": "細かい",
+                  "after": "条件まで確かめておきたい。",
+                  "reading": "こまかい",
+                  "translation": "계약 전에 세세한 조건까지 확인해 두고 싶다.",
+                  "translationTarget": "세세한",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "487e095602a5bde7865ce94e84da7e257e32861ec8153501360a6302f6de182e",
+        "afterHash": "2c17e61cb2aaf5a5d4aa4a480151f4c49acfbbfacdbbf4c58b0263ec1180c1b9",
+        "reason": "입자나 조각의 작은 크기와 조건의 세부성은 독립적으로 회상할 유용한 의미이다. 제공 사전의 minute 의미에 근거하여 추가한다."
+      },
+      {
+        "wordId": "JLPTN3_154",
+        "before": {
+          "word": {
+            "id": "JLPTN3_154",
+            "setId": "jlpt-n3",
+            "japanese": "緩い",
+            "reading": "ゆるい",
+            "meaning": "느슨하다, 엄하지 않다",
+            "type": "i_adj",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 153
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_154-1",
+              "wordId": "JLPTN3_154",
+              "version": 1,
+              "meaning": "조임이 느슨하다",
+              "hint": "꽉 조이거나 단단히 고정되지 않은 상태예요.",
+              "confusions": [
+                {
+                  "japanese": "柔らかい",
+                  "distinction": "재질이 무른 것이 아니라 조이거나 매인 정도가 약하다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_154-1-ex-1",
+                  "version": 1,
+                  "before": "靴ひもが",
+                  "answer": "緩い",
+                  "after": "よ。結び直したほうがいい。",
+                  "reading": "ゆるい",
+                  "translation": "신발 끈이 느슨해. 다시 묶는 게 좋겠어.",
+                  "translationTarget": "느슨해",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_154-1-ex-2",
+                  "version": 1,
+                  "before": "瓶のふたを",
+                  "answer": "緩く",
+                  "after": "閉めたせいで、かばんの中に汁が漏れた。",
+                  "reading": "ゆるく",
+                  "translation": "병뚜껑을 느슨하게 닫는 바람에 가방 안으로 국물이 샜다.",
+                  "translationTarget": "느슨하게",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_154",
+            "setId": "jlpt-n3",
+            "japanese": "緩い",
+            "reading": "ゆるい",
+            "meaning": "느슨하다, 엄하지 않다",
+            "type": "i_adj",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 153
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_154-1",
+              "wordId": "JLPTN3_154",
+              "version": 1,
+              "meaning": "조임이 느슨하다",
+              "hint": "꽉 조이거나 단단히 고정되지 않은 상태예요.",
+              "confusions": [
+                {
+                  "japanese": "柔らかい",
+                  "distinction": "재질이 무른 것이 아니라 조이거나 매인 정도가 약하다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_154-1-ex-1",
+                  "version": 1,
+                  "before": "靴ひもが",
+                  "answer": "緩い",
+                  "after": "よ。結び直したほうがいい。",
+                  "reading": "ゆるい",
+                  "translation": "신발 끈이 느슨해. 다시 묶는 게 좋겠어.",
+                  "translationTarget": "느슨해",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_154-1-ex-2",
+                  "version": 1,
+                  "before": "瓶のふたを",
+                  "answer": "緩く",
+                  "after": "閉めたせいで、かばんの中に汁が漏れた。",
+                  "reading": "ゆるく",
+                  "translation": "병뚜껑을 느슨하게 닫는 바람에 가방 안으로 국물이 샜다.",
+                  "translationTarget": "느슨하게",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_154-2",
+              "wordId": "JLPTN3_154",
+              "version": 1,
+              "meaning": "규칙이나 관리가 느슨하다",
+              "hint": "규칙을 엄격히 적용하지 않거나 단속이 철저하지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "厳しい",
+                  "distinction": "緩い는 규칙이나 관리가 느슨함, 厳しい는 엄격하게 적용함이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_154-2-ex-1",
+                  "version": 1,
+                  "before": "管理が",
+                  "answer": "緩い",
+                  "after": "と、誰でも資料を持ち出せてしまう。",
+                  "reading": "ゆるい",
+                  "translation": "관리가 느슨하면 누구나 자료를 가지고 나갈 수 있게 된다.",
+                  "translationTarget": "느슨하면",
+                  "difficulty": 38,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "a5ef39ff97f35febb9ccb4416920b0993de76ac57bc22f3387594f40b3d9280d",
+        "afterHash": "9789984449dccd7b3128a5886b54d0338b749e44fe83c1dbd51daacbba40fb69",
+        "reason": "사전의 lax 의미를 조임이 느슨한 상태와 구분하여 추가한다. 기존 신발끈과 뚜껑 예문 및 ID는 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_199",
+        "before": {
+          "word": {
+            "id": "JLPTN3_199",
+            "setId": "jlpt-n3",
+            "japanese": "裏側",
+            "reading": "うらがわ",
+            "meaning": "뒤쪽, 안쪽",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 198
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_199-1",
+              "wordId": "JLPTN3_199",
+              "version": 1,
+              "meaning": "앞면의 반대쪽",
+              "hint": "지금 보이는 앞쪽과 반대인 면을 가리켜요.",
+              "confusions": [
+                {
+                  "japanese": "内側",
+                  "distinction": "안에 있는 면이 아니라 앞면과 반대인 면이다. 물건에 따라 겹칠 수 있다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_199-1-ex-1",
+                  "version": 1,
+                  "before": "写真の",
+                  "answer": "裏側",
+                  "after": "に、撮った日付が書いてあった。",
+                  "reading": "うらがわ",
+                  "translation": "사진 뒷면에 촬영한 날짜가 적혀 있었다.",
+                  "translationTarget": "뒷면",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_199-1-ex-2",
+                  "version": 1,
+                  "before": "看板の",
+                  "answer": "裏側",
+                  "after": "にも店の名前を入れよう。",
+                  "reading": "うらがわ",
+                  "translation": "간판 뒤쪽에도 가게 이름을 넣자.",
+                  "translationTarget": "뒤쪽",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_199",
+            "setId": "jlpt-n3",
+            "japanese": "裏側",
+            "reading": "うらがわ",
+            "meaning": "뒷면·뒤쪽",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 198
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_199-1",
+              "wordId": "JLPTN3_199",
+              "version": 1,
+              "meaning": "앞면의 반대쪽",
+              "hint": "지금 보이는 앞쪽과 반대인 면을 가리켜요.",
+              "confusions": [
+                {
+                  "japanese": "内側",
+                  "distinction": "안에 있는 면이 아니라 앞면과 반대인 면이다. 물건에 따라 겹칠 수 있다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_199-1-ex-1",
+                  "version": 1,
+                  "before": "写真の",
+                  "answer": "裏側",
+                  "after": "に、撮った日付が書いてあった。",
+                  "reading": "うらがわ",
+                  "translation": "사진 뒷면에 촬영한 날짜가 적혀 있었다.",
+                  "translationTarget": "뒷면",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_199-1-ex-2",
+                  "version": 1,
+                  "before": "看板の",
+                  "answer": "裏側",
+                  "after": "にも店の名前を入れよう。",
+                  "reading": "うらがわ",
+                  "translation": "간판 뒤쪽에도 가게 이름을 넣자.",
+                  "translationTarget": "뒤쪽",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "50b69a77a5047e5e268cdc850d32ea121139b9a6541ca614a3d07c36547e16e7",
+        "afterHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+        "reason": "제공 사전은 reverse/back side이다. 내부 공간을 뜻하는 안쪽을 제거하여 기존 사진과 간판의 뒷면 용법에 맞춘다."
+      },
+      {
+        "wordId": "JLPTN3_201",
+        "before": {
+          "word": {
+            "id": "JLPTN3_201",
+            "setId": "jlpt-n3",
+            "japanese": "栄養",
+            "reading": "えいよう",
+            "meaning": "영양",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 200
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_201-1",
+              "wordId": "JLPTN3_201",
+              "version": 1,
+              "meaning": "영양",
+              "hint": "몸에 필요한 영양을 넓게 말해요. 하나하나의 성분을 가리키는 말과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "栄養素",
+                  "distinction": "개별 성분을 가리키는 말과 달리 몸에 필요한 영양을 포괄적으로 말한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_201-1-ex-1",
+                  "version": 1,
+                  "before": "忙しくても、",
+                  "answer": "栄養",
+                  "after": "のバランスは大切にしたい。",
+                  "reading": "えいよう",
+                  "translation": "바빠도 영양 균형은 중요하게 생각하고 싶다.",
+                  "translationTarget": "영양",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_201-1-ex-2",
+                  "version": 1,
+                  "before": "このスープなら、野菜の",
+                  "answer": "栄養",
+                  "after": "も取れそうだね。",
+                  "reading": "えいよう",
+                  "translation": "이 수프라면 채소의 영양도 섭취할 수 있겠네.",
+                  "translationTarget": "영양",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_201",
+            "setId": "jlpt-n3",
+            "japanese": "栄養",
+            "reading": "えいよう",
+            "meaning": "영양",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 200
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_201-1",
+              "wordId": "JLPTN3_201",
+              "version": 1,
+              "meaning": "영양",
+              "hint": "음식에서 얻어 몸을 유지하고 성장시키는 데 쓰이는 성분과 그 작용을 넓게 말해요.",
+              "confusions": [
+                {
+                  "japanese": "栄養素",
+                  "distinction": "栄養는 몸의 유지와 성장에 필요한 성분 및 그 섭취를 포괄하고, 栄養素는 단백질·비타민 같은 개별 성분이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_201-1-ex-1",
+                  "version": 1,
+                  "before": "忙しくても、",
+                  "answer": "栄養",
+                  "after": "のバランスは大切にしたい。",
+                  "reading": "えいよう",
+                  "translation": "바빠도 영양 균형은 중요하게 생각하고 싶다.",
+                  "translationTarget": "영양",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_201-1-ex-2",
+                  "version": 1,
+                  "before": "このスープなら、野菜の",
+                  "answer": "栄養",
+                  "after": "も取れそうだね。",
+                  "reading": "えいよう",
+                  "translation": "이 수프라면 채소의 영양도 섭취할 수 있겠네.",
+                  "translationTarget": "영양",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "7a6f1598737e9617503dabd60403415b5d6b2c878c324be22383058d2caf0f2a",
+        "afterHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+        "reason": "힌트에서 정답을 반복하는 순환 설명을 없애고 몸의 유지와 성장이라는 독립 회상 단서를 제공한다."
+      },
+      {
+        "wordId": "JLPTN3_214",
+        "before": {
+          "word": {
+            "id": "JLPTN3_214",
+            "setId": "jlpt-n3",
+            "japanese": "会計",
+            "reading": "かいけい",
+            "meaning": "회계, 계산",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 213
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_214-1",
+              "wordId": "JLPTN3_214",
+              "version": 1,
+              "meaning": "음식값 등을 계산함",
+              "hint": "식사나 물건 값을 치르는 자리에서 쓰는 말이에요.",
+              "confusions": [
+                {
+                  "japanese": "計算",
+                  "distinction": "숫자를 셈하는 일반적인 작업과 달리 가게에서 대금을 치르는 뜻으로 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_214-1-ex-1",
+                  "version": 1,
+                  "before": "すみません、",
+                  "answer": "会計",
+                  "after": "は別々にできますか。",
+                  "reading": "かいけい",
+                  "translation": "실례합니다. 계산은 따로 할 수 있나요?",
+                  "translationTarget": "계산",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_214-1-ex-2",
+                  "version": 1,
+                  "before": "",
+                  "answer": "会計",
+                  "after": "を済ませて外に出たら、友達が傘を持って待っていた。",
+                  "reading": "かいけい",
+                  "translation": "계산을 마치고 밖으로 나오니 친구가 우산을 들고 기다리고 있었다.",
+                  "translationTarget": "계산",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_214",
+            "setId": "jlpt-n3",
+            "japanese": "会計",
+            "reading": "かいけい",
+            "meaning": "회계, 계산",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 213
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_214-1",
+              "wordId": "JLPTN3_214",
+              "version": 1,
+              "meaning": "음식값 등을 계산함",
+              "hint": "식사나 물건 값을 치르는 자리에서 쓰는 말이에요.",
+              "confusions": [
+                {
+                  "japanese": "計算",
+                  "distinction": "숫자를 셈하는 일반적인 작업과 달리 가게에서 대금을 치르는 뜻으로 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_214-1-ex-1",
+                  "version": 1,
+                  "before": "すみません、",
+                  "answer": "会計",
+                  "after": "は別々にできますか。",
+                  "reading": "かいけい",
+                  "translation": "실례합니다. 계산은 따로 할 수 있나요?",
+                  "translationTarget": "계산",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_214-1-ex-2",
+                  "version": 1,
+                  "before": "",
+                  "answer": "会計",
+                  "after": "を済ませて外に出たら、友達が傘を持って待っていた。",
+                  "reading": "かいけい",
+                  "translation": "계산을 마치고 밖으로 나오니 친구가 우산을 들고 기다리고 있었다.",
+                  "translationTarget": "계산",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_214-2",
+              "wordId": "JLPTN3_214",
+              "version": 1,
+              "meaning": "수입과 지출을 기록하고 관리하는 회계",
+              "hint": "돈이 들어오고 나가는 내역을 기록해 자금의 상태를 관리해요.",
+              "confusions": [
+                {
+                  "japanese": "支払い",
+                  "distinction": "会計는 여기서 수입과 지출을 기록·관리하는 업무, 支払い는 돈을 지불하는 행위이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_214-2-ex-1",
+                  "version": 1,
+                  "before": "経験を生かし、地域の団体の",
+                  "answer": "会計",
+                  "after": "を担当することになった。",
+                  "reading": "かいけい",
+                  "translation": "경험을 살려 지역 단체의 회계를 맡게 되었다.",
+                  "translationTarget": "회계를",
+                  "difficulty": 35,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "6a50c970294dfbdcea0a3885fcbd5f7ddc928f7e44d13aecec2d12d1da002d2b",
+        "afterHash": "0034baf1858974c4965dd4b79e781102b14ec9ed7b4a40107f86504ed0be8639",
+        "reason": "회계 관리 업무는 음식값 지불과 구분되는 중요 쓰임으로 사전 accounting에 대응한다. 현재 결제 sense는 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_235",
+        "before": {
+          "word": {
+            "id": "JLPTN3_235",
+            "setId": "jlpt-n3",
+            "japanese": "皮",
+            "reading": "かわ",
+            "meaning": "껍질, 가죽",
+            "type": "noun",
+            "difficulty": 25,
+            "verbInfo": null,
+            "sourceOrder": 234
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_235-1",
+              "wordId": "JLPTN3_235",
+              "version": 1,
+              "meaning": "껍질",
+              "hint": "과일 등의 바깥을 덮고 있는 부분이에요.",
+              "confusions": [
+                {
+                  "japanese": "実",
+                  "distinction": "열매의 속과 달리 겉을 감싸는 부분이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_235-1-ex-1",
+                  "version": 1,
+                  "before": "このブドウは",
+                  "answer": "皮",
+                  "after": "ごと食べられる。",
+                  "reading": "かわ",
+                  "translation": "이 포도는 껍질째 먹을 수 있다.",
+                  "translationTarget": "껍질",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_235-1-ex-2",
+                  "version": 1,
+                  "before": "ミカンの",
+                  "answer": "皮",
+                  "after": "で、部屋にいい香りが広がった。",
+                  "reading": "かわ",
+                  "translation": "귤 껍질로 방에 좋은 향기가 퍼졌다.",
+                  "translationTarget": "껍질",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_235",
+            "setId": "jlpt-n3",
+            "japanese": "皮",
+            "reading": "かわ",
+            "meaning": "껍질·피부·동물의 가죽",
+            "type": "noun",
+            "difficulty": 25,
+            "verbInfo": null,
+            "sourceOrder": 234
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_235-1",
+              "wordId": "JLPTN3_235",
+              "version": 1,
+              "meaning": "껍질",
+              "hint": "과일 등의 바깥을 덮고 있는 부분이에요.",
+              "confusions": [
+                {
+                  "japanese": "実",
+                  "distinction": "열매의 속과 달리 겉을 감싸는 부분이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_235-1-ex-1",
+                  "version": 1,
+                  "before": "このブドウは",
+                  "answer": "皮",
+                  "after": "ごと食べられる。",
+                  "reading": "かわ",
+                  "translation": "이 포도는 껍질째 먹을 수 있다.",
+                  "translationTarget": "껍질",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_235-1-ex-2",
+                  "version": 1,
+                  "before": "ミカンの",
+                  "answer": "皮",
+                  "after": "で、部屋にいい香りが広がった。",
+                  "reading": "かわ",
+                  "translation": "귤 껍질로 방에 좋은 향기가 퍼졌다.",
+                  "translationTarget": "껍질",
+                  "difficulty": 25,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_235-2",
+              "wordId": "JLPTN3_235",
+              "version": 1,
+              "meaning": "동물의 몸을 덮는 피부나 가죽",
+              "hint": "동물의 몸 표면을 덮고 있는 조직을 말해요.",
+              "confusions": [
+                {
+                  "japanese": "革",
+                  "distinction": "皮는 동물의 피부나 가공 전 가죽, 革는 주로 무두질 등 가공을 거친 가죽을 뜻한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_235-2-ex-1",
+                  "version": 1,
+                  "before": "焼いた鶏の",
+                  "answer": "皮",
+                  "after": "は、香ばしくておいしかった。",
+                  "reading": "かわ",
+                  "translation": "구운 닭의 껍질은 고소하고 맛있었다.",
+                  "translationTarget": "껍질은",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "4260701646e4b3bfc33a34c8857a5be2ee27d8c5077ea81f992c780e515d849c",
+        "afterHash": "dd3af2444834e3c3c635f88e5431866050e0636ecae37609f13ae21918ca754a",
+        "reason": "사전 skin/hide와 과일 rind/peel은 다른 일상 의미이다. 가공 가죽 제품은 革와 구별하고 기존 과일 껍질 용법을 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_244",
+        "before": {
+          "word": {
+            "id": "JLPTN3_244",
+            "setId": "jlpt-n3",
+            "japanese": "関心",
+            "reading": "かんしん",
+            "meaning": "관심",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 243
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_244-1",
+              "wordId": "JLPTN3_244",
+              "version": 1,
+              "meaning": "관심",
+              "hint": "어떤 일에 마음을 두고 알고 싶어 해요.",
+              "confusions": [
+                {
+                  "japanese": "感心",
+                  "distinction": "훌륭하다고 느끼는 평가와 달리 주의를 기울이는 마음이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_244-1-ex-1",
+                  "version": 1,
+                  "before": "息子は最近、宇宙に",
+                  "answer": "関心",
+                  "after": "を持ち始めた。",
+                  "reading": "かんしん",
+                  "translation": "아들은 최근 우주에 관심을 갖기 시작했다.",
+                  "translationTarget": "관심",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_244-1-ex-2",
+                  "version": 1,
+                  "before": "価格には",
+                  "answer": "関心",
+                  "after": "がないと言いながら、値札を見ていた。",
+                  "reading": "かんしん",
+                  "translation": "가격에는 관심이 없다고 하면서 가격표를 보고 있었다.",
+                  "translationTarget": "관심",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_244",
+            "setId": "jlpt-n3",
+            "japanese": "関心",
+            "reading": "かんしん",
+            "meaning": "관심",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 243
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_244-1",
+              "wordId": "JLPTN3_244",
+              "version": 1,
+              "meaning": "관심",
+              "hint": "어떤 일에 마음을 두고 알고 싶어 해요.",
+              "confusions": [
+                {
+                  "japanese": "感心",
+                  "distinction": "훌륭하다고 느끼는 평가와 달리 주의를 기울이는 마음이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_244-1-ex-1",
+                  "version": 2,
+                  "before": "住民の多くは、川の水質に強い",
+                  "answer": "関心",
+                  "after": "を寄せている。",
+                  "reading": "かんしん",
+                  "translation": "주민 대부분은 강의 수질에 큰 관심을 기울이고 있다.",
+                  "translationTarget": "관심",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_244-1-ex-2",
+                  "version": 1,
+                  "before": "価格には",
+                  "answer": "関心",
+                  "after": "がないと言いながら、値札を見ていた。",
+                  "reading": "かんしん",
+                  "translation": "가격에는 관심이 없다고 하면서 가격표를 보고 있었다.",
+                  "translationTarget": "관심",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "921f0b366270d312721167a0c0c8287e111ccf72742c99084d6718b595ea0655",
+        "afterHash": "d166e6fb292a1763999830dfa66d890e5144d7f233bb3d027611abcedb539d3c",
+        "reason": "자녀가 최근 천체에 관심을 갖는 興味의 예문과 겹치는 장면을 지역 환경에 대한 주민의 관심으로 바꾼다. 같은 예문 ID를 유지하며 제안 버전만 2로 올린다."
+      },
+      {
+        "wordId": "JLPTN3_250",
+        "before": {
+          "word": {
+            "id": "JLPTN3_250",
+            "setId": "jlpt-n3",
+            "japanese": "傷",
+            "reading": "きず",
+            "meaning": "상처",
+            "type": "noun",
+            "difficulty": 28,
+            "verbInfo": null,
+            "sourceOrder": 249
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_250-1",
+              "wordId": "JLPTN3_250",
+              "version": 1,
+              "meaning": "상처",
+              "hint": "피부나 물건의 표면이 손상된 자리예요.",
+              "confusions": [
+                {
+                  "japanese": "けが",
+                  "distinction": "몸을 다친 일이나 상태 전체보다 손상된 자리를 가리키며 물건에도 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_250-1-ex-1",
+                  "version": 1,
+                  "before": "ひざの",
+                  "answer": "傷",
+                  "after": "がまだ痛むので、今日は走らない。",
+                  "reading": "きず",
+                  "translation": "무릎의 상처가 아직 아파서 오늘은 달리지 않는다.",
+                  "translationTarget": "상처",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_250-1-ex-2",
+                  "version": 1,
+                  "before": "届いた机の表面に小さな",
+                  "answer": "傷",
+                  "after": "があった。",
+                  "reading": "きず",
+                  "translation": "배달된 책상 표면에 작은 흠집이 있었다.",
+                  "translationTarget": "흠집",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_250",
+            "setId": "jlpt-n3",
+            "japanese": "傷",
+            "reading": "きず",
+            "meaning": "상처·흠집",
+            "type": "noun",
+            "difficulty": 28,
+            "verbInfo": null,
+            "sourceOrder": 249
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_250-1",
+              "wordId": "JLPTN3_250",
+              "version": 1,
+              "meaning": "몸의 상처나 물체 표면의 흠집",
+              "hint": "몸이나 물체가 손상되어 표면에 생긴 자국이에요.",
+              "confusions": [
+                {
+                  "japanese": "けが",
+                  "distinction": "몸을 다친 일이나 상태 전체보다 손상된 자리를 가리키며 물건에도 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_250-1-ex-1",
+                  "version": 1,
+                  "before": "ひざの",
+                  "answer": "傷",
+                  "after": "がまだ痛むので、今日は走らない。",
+                  "reading": "きず",
+                  "translation": "무릎의 상처가 아직 아파서 오늘은 달리지 않는다.",
+                  "translationTarget": "상처",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_250-1-ex-2",
+                  "version": 1,
+                  "before": "届いた机の表面に小さな",
+                  "answer": "傷",
+                  "after": "があった。",
+                  "reading": "きず",
+                  "translation": "배달된 책상 표면에 작은 흠집이 있었다.",
+                  "translationTarget": "흠집",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "d3b7f44441449ec5b23806c2f7794323af5406fc19ee6e56323f0278aa0a83bd",
+        "afterHash": "5e1f91f27c51e8a3d78b5a1d7b07eef2f8083c290a9101720e915abb80fc205d",
+        "reason": "무릎과 책상의 손상 모두 사전에서 지원하는 의미이다. 이미 서로 다른 두 대표 예문이 있어 예문을 추가하지 않고 정의만 넓힌다."
+      },
+      {
+        "wordId": "JLPTN3_272",
+        "before": {
+          "word": {
+            "id": "JLPTN3_272",
+            "setId": "jlpt-n3",
+            "japanese": "区別",
+            "reading": "くべつ",
+            "meaning": "구별",
+            "type": "noun",
+            "difficulty": 34,
+            "verbInfo": null,
+            "sourceOrder": 271
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_272-1",
+              "wordId": "JLPTN3_272",
+              "version": 1,
+              "meaning": "구별",
+              "hint": "차이를 알아보고 나눠 판단해요. 부당하게 대우를 달리하는 것과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "差別",
+                  "distinction": "부당하게 대우를 달리하는 뜻과 달리 차이를 알아보는 것이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_272-1-ex-1",
+                  "version": 1,
+                  "before": "双子の声は、電話では",
+                  "answer": "区別",
+                  "after": "がつかない。",
+                  "reading": "くべつ",
+                  "translation": "쌍둥이의 목소리는 전화로는 구별이 안 된다.",
+                  "translationTarget": "구별",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_272-1-ex-2",
+                  "version": 1,
+                  "before": "生ごみとそれ以外の",
+                  "answer": "区別",
+                  "after": "が、前の町とは違う。",
+                  "reading": "くべつ",
+                  "translation": "음식물 쓰레기와 그 외 쓰레기의 구별이 전에 살던 동네와 다르다.",
+                  "translationTarget": "구별",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_272",
+            "setId": "jlpt-n3",
+            "japanese": "区別",
+            "reading": "くべつ",
+            "meaning": "구별",
+            "type": "noun",
+            "difficulty": 34,
+            "verbInfo": null,
+            "sourceOrder": 271
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_272-1",
+              "wordId": "JLPTN3_272",
+              "version": 1,
+              "meaning": "구별",
+              "hint": "차이를 알아보고 나눠 판단해요. 부당하게 대우를 달리하는 것과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "差別",
+                  "distinction": "부당하게 대우를 달리하는 뜻과 달리 차이를 알아보는 것이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_272-1-ex-1",
+                  "version": 1,
+                  "before": "双子の声は、電話では",
+                  "answer": "区別",
+                  "after": "がつかない。",
+                  "reading": "くべつ",
+                  "translation": "쌍둥이의 목소리는 전화로는 구별이 안 된다.",
+                  "translationTarget": "구별",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_272-1-ex-2",
+                  "version": 2,
+                  "before": "見た目が似た二つの薬は、袋の色で",
+                  "answer": "区別",
+                  "after": "できる。",
+                  "reading": "くべつ",
+                  "translation": "겉모습이 비슷한 두 약은 봉투의 색으로 구별할 수 있다.",
+                  "translationTarget": "구별할 수 있다",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "2e2b7f13e90b39fc8e7a011c1cb80d534e1b4f915009473b2e0d08e95f96bec6",
+        "afterHash": "a70722f50f2dac2dc9be8a761547028d529f2b8db52dbfcaad29f77920682809",
+        "reason": "동네별 쓰레기 분류라는 区分과의 반복 장면을 비슷한 약의 식별로 교체한다. 기존 쌍둥이 음성 예문과 예문 ID는 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_280",
+        "before": {
+          "word": {
+            "id": "JLPTN3_280",
+            "setId": "jlpt-n3",
+            "japanese": "外科",
+            "reading": "げか",
+            "meaning": "외과",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 279
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_280-1",
+              "wordId": "JLPTN3_280",
+              "version": 1,
+              "meaning": "외과",
+              "hint": "수술 등의 방법으로 병이나 부상을 치료하는 진료과예요.",
+              "confusions": [
+                {
+                  "japanese": "内科",
+                  "distinction": "약물 등을 중심으로 진료하는 내과와 달리 수술 치료를 주로 다룬다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_280-1-ex-1",
+                  "version": 1,
+                  "before": "受付で、",
+                  "answer": "外科",
+                  "after": "は二階だと教えてもらった。",
+                  "reading": "げか",
+                  "translation": "접수대에서 외과는 이 층이라고 안내받았다.",
+                  "translationTarget": "외과",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_280-1-ex-2",
+                  "version": 1,
+                  "before": "兄は",
+                  "answer": "外科",
+                  "after": "の医師になりたいと言っている。",
+                  "reading": "げか",
+                  "translation": "형은 외과 의사가 되고 싶다고 말한다.",
+                  "translationTarget": "외과",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_280",
+            "setId": "jlpt-n3",
+            "japanese": "外科",
+            "reading": "げか",
+            "meaning": "외과",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 279
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_280-1",
+              "wordId": "JLPTN3_280",
+              "version": 1,
+              "meaning": "외과",
+              "hint": "수술 등의 방법으로 병이나 부상을 치료하는 진료과예요.",
+              "confusions": [
+                {
+                  "japanese": "内科",
+                  "distinction": "약물 등을 중심으로 진료하는 내과와 달리 수술 치료를 주로 다룬다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_280-1-ex-1",
+                  "version": 2,
+                  "before": "受付で、",
+                  "answer": "外科",
+                  "after": "は二階だと教えてもらった。",
+                  "reading": "げか",
+                  "translation": "접수처에서 외과는 2층이라고 안내받았다.",
+                  "translationTarget": "외과",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_280-1-ex-2",
+                  "version": 1,
+                  "before": "兄は",
+                  "answer": "外科",
+                  "after": "の医師になりたいと言っている。",
+                  "reading": "げか",
+                  "translation": "형은 외과 의사가 되고 싶다고 말한다.",
+                  "translationTarget": "외과",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "554ceece46055fcbc790e6ced821505ec41c41fe03991ab23eb0855ad3377d61",
+        "afterHash": "a4b086dd75234ac4e0b739e64559d8c70cd55bf3b293ca0e58655cb886e38fdb",
+        "reason": "이 층이라는 번역을 2층으로 명료화한다. 일본어·읽기·가린 대상·예문 ID는 그대로 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_292",
+        "before": {
+          "word": {
+            "id": "JLPTN3_292",
+            "setId": "jlpt-n3",
+            "japanese": "減少",
+            "reading": "げんしょう",
+            "meaning": "감소",
+            "type": "noun",
+            "difficulty": 33,
+            "verbInfo": null,
+            "sourceOrder": 291
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_292-1",
+              "wordId": "JLPTN3_292",
+              "version": 1,
+              "meaning": "감소",
+              "hint": "수량이 전보다 적어져요. 의도적으로 양을 줄이는 행동만은 아니에요.",
+              "confusions": [
+                {
+                  "japanese": "減量",
+                  "distinction": "의도적으로 양이나 체중을 줄이는 행위보다 수량이 줄어드는 현상이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_292-1-ex-1",
+                  "version": 1,
+                  "before": "利用者の",
+                  "answer": "減少",
+                  "after": "で、バスが一日三本になった。",
+                  "reading": "げんしょう",
+                  "translation": "이용자 감소로 버스가 하루 세 대가 되었다.",
+                  "translationTarget": "감소",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_292-1-ex-2",
+                  "version": 1,
+                  "before": "ごみの",
+                  "answer": "減少",
+                  "after": "につながるなら、容器を持参したい。",
+                  "reading": "げんしょう",
+                  "translation": "쓰레기 감소로 이어진다면 용기를 가져가고 싶다.",
+                  "translationTarget": "감소",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_292",
+            "setId": "jlpt-n3",
+            "japanese": "減少",
+            "reading": "げんしょう",
+            "meaning": "감소",
+            "type": "noun",
+            "difficulty": 33,
+            "verbInfo": null,
+            "sourceOrder": 291
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_292-1",
+              "wordId": "JLPTN3_292",
+              "version": 1,
+              "meaning": "감소",
+              "hint": "수량이 전보다 적어져요. 의도적으로 양을 줄이는 행동만은 아니에요.",
+              "confusions": [
+                {
+                  "japanese": "減量",
+                  "distinction": "의도적으로 양이나 체중을 줄이는 행위보다 수량이 줄어드는 현상이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_292-1-ex-1",
+                  "version": 2,
+                  "before": "利用者の",
+                  "answer": "減少",
+                  "after": "で、バスが一日三本になった。",
+                  "reading": "げんしょう",
+                  "translation": "이용자 감소로 버스가 하루 세 번만 운행하게 되었다.",
+                  "translationTarget": "감소",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_292-1-ex-2",
+                  "version": 1,
+                  "before": "ごみの",
+                  "answer": "減少",
+                  "after": "につながるなら、容器を持参したい。",
+                  "reading": "げんしょう",
+                  "translation": "쓰레기 감소로 이어진다면 용기를 가져가고 싶다.",
+                  "translationTarget": "감소",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "6a98b7085d76042ca38890dc8137d2461fe4a8d8c0fa8a18725a6e4b96db7686",
+        "afterHash": "f2da07bcfde57eb09e3c556147b720894183cb06f28f585a58d8df18286fb947",
+        "reason": "하루 三本은 차량 보유 대수가 아니라 운행 횟수이다. 횟수 번역만 바로잡고 일본어와 학습 ID를 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_335",
+        "before": {
+          "word": {
+            "id": "JLPTN3_335",
+            "setId": "jlpt-n3",
+            "japanese": "地元",
+            "reading": "じもと",
+            "meaning": "출신 지역, 고장, 현지",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 334
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_335-1",
+              "wordId": "JLPTN3_335",
+              "version": 1,
+              "meaning": "그 지역이나 자기 고장",
+              "hint": "이야기의 대상이 되는 곳에 사는 사람과 그 지역을 가리켜요.",
+              "confusions": [
+                {
+                  "japanese": "故郷",
+                  "distinction": "태어난 고향에 한정하지 않고 현재 관련된 지역이나 현지도 뜻한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_335-1-ex-1",
+                  "version": 1,
+                  "before": "観光地より、",
+                  "answer": "地元",
+                  "after": "の人が通う食堂に入りたい。",
+                  "reading": "じもと",
+                  "translation": "관광지보다 현지 사람이 다니는 식당에 들어가고 싶다.",
+                  "translationTarget": "현지",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_335-1-ex-2",
+                  "version": 1,
+                  "before": "帰省すると、必ず",
+                  "answer": "地元",
+                  "after": "の商店街を歩く。",
+                  "reading": "じもと",
+                  "translation": "귀향하면 반드시 고향 상점가를 걷는다.",
+                  "translationTarget": "고향",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_335",
+            "setId": "jlpt-n3",
+            "japanese": "地元",
+            "reading": "じもと",
+            "meaning": "출신 지역, 고장, 현지",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 334
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_335-1",
+              "wordId": "JLPTN3_335",
+              "version": 1,
+              "meaning": "그 지역이나 자기 고장",
+              "hint": "이야기의 대상이 되는 곳에 사는 사람과 그 지역을 가리켜요.",
+              "confusions": [
+                {
+                  "japanese": "故郷",
+                  "distinction": "태어난 고향에 한정하지 않고 현재 관련된 지역이나 현지도 뜻한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_335-1-ex-1",
+                  "version": 2,
+                  "before": "観光客向けの店より、",
+                  "answer": "地元",
+                  "after": "の人が通う食堂に入りたい。",
+                  "reading": "じもと",
+                  "translation": "관광객을 위한 가게보다 현지 사람들이 다니는 식당에 들어가고 싶다.",
+                  "translationTarget": "현지",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_335-1-ex-2",
+                  "version": 1,
+                  "before": "帰省すると、必ず",
+                  "answer": "地元",
+                  "after": "の商店街を歩く。",
+                  "reading": "じもと",
+                  "translation": "귀향하면 반드시 고향 상점가를 걷는다.",
+                  "translationTarget": "고향",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "2ca84332919b7298729d6491a39f2bc28721137e51e17bcbe63323c43df2f542",
+        "afterHash": "2cc389618dd47d79f405aadcc0ed42415797fd84634b301a42c447fc35d34e44",
+        "reason": "관광지와 식당의 불균형한 비교를 관광객 대상 가게와 현지인 식당의 비교로 명료화한다. 기존 예문 ID를 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_361",
+        "before": {
+          "word": {
+            "id": "JLPTN3_361",
+            "setId": "jlpt-n3",
+            "japanese": "食器",
+            "reading": "しょっき",
+            "meaning": "식기",
+            "type": "noun",
+            "difficulty": 29,
+            "verbInfo": null,
+            "sourceOrder": 360
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_361-1",
+              "wordId": "JLPTN3_361",
+              "version": 1,
+              "meaning": "식기",
+              "hint": "먹을 때 쓰는 그릇이에요. 조리에 쓰는 도구와 구별해요.",
+              "confusions": [
+                {
+                  "japanese": "調理器具",
+                  "distinction": "음식을 만드는 도구와 먹을 때 담아 쓰는 그릇을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_361-1-ex-1",
+                  "version": 1,
+                  "before": "引っ越しの前に、",
+                  "answer": "食器",
+                  "after": "を新聞紙で包んだ。",
+                  "reading": "しょっき",
+                  "translation": "이사 전에 식기를 신문지로 쌌다.",
+                  "translationTarget": "식기",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_361-1-ex-2",
+                  "version": 1,
+                  "before": "使った",
+                  "answer": "食器",
+                  "after": "は、このかごに戻してください。",
+                  "reading": "しょっき",
+                  "translation": "사용한 식기는 이 바구니에 반납해 주세요.",
+                  "translationTarget": "식기",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_361",
+            "setId": "jlpt-n3",
+            "japanese": "食器",
+            "reading": "しょっき",
+            "meaning": "식기",
+            "type": "noun",
+            "difficulty": 29,
+            "verbInfo": null,
+            "sourceOrder": 360
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_361-1",
+              "wordId": "JLPTN3_361",
+              "version": 1,
+              "meaning": "식기",
+              "hint": "음식을 담거나 먹을 때 사용하는 접시, 그릇, 수저 등의 도구를 함께 말해요.",
+              "confusions": [
+                {
+                  "japanese": "調理器具",
+                  "distinction": "食器는 음식을 담고 먹을 때 쓰는 도구, 調理器具는 음식을 만드는 데 쓰는 도구이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_361-1-ex-1",
+                  "version": 1,
+                  "before": "引っ越しの前に、",
+                  "answer": "食器",
+                  "after": "を新聞紙で包んだ。",
+                  "reading": "しょっき",
+                  "translation": "이사 전에 식기를 신문지로 쌌다.",
+                  "translationTarget": "식기",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_361-1-ex-2",
+                  "version": 1,
+                  "before": "使った",
+                  "answer": "食器",
+                  "after": "は、このかごに戻してください。",
+                  "reading": "しょっき",
+                  "translation": "사용한 식기는 이 바구니에 반납해 주세요.",
+                  "translationTarget": "식기",
+                  "difficulty": 29,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "e1127d00ebe6047ba259f2594096097ba2aea6070229c94a2f3eb35a1bd5a900",
+        "afterHash": "6b08ad8eb13aa7e22edd16543fe209d458157f7362cdb3f04eef57783a0b2809",
+        "reason": "그릇에만 한정된 힌트와 대비를 접시·그릇·수저 등 식사용 도구 전체로 넓힌다. 기존 예문은 범위에 맞아 유지한다."
+      },
+      {
+        "wordId": "JLPTN3_410",
+        "before": {
+          "word": {
+            "id": "JLPTN3_410",
+            "setId": "jlpt-n3",
+            "japanese": "天井",
+            "reading": "てんじょう",
+            "meaning": "천정",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 409
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_410-1",
+              "wordId": "JLPTN3_410",
+              "version": 1,
+              "meaning": "방 위쪽의 천장",
+              "hint": "실내에서 고개를 들면 보이는 위쪽 면이에요.",
+              "confusions": [
+                {
+                  "japanese": "屋根",
+                  "distinction": "건물 바깥의 지붕과 달리 방 안쪽에서 보이는 윗면이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_410-1-ex-1",
+                  "version": 1,
+                  "before": "",
+                  "answer": "天井",
+                  "after": "の電球が切れたが、手が届かない。",
+                  "reading": "てんじょう",
+                  "translation": "천장 전구가 나갔는데 손이 닿지 않는다.",
+                  "translationTarget": "천장",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_410-1-ex-2",
+                  "version": 1,
+                  "before": "この部屋は",
+                  "answer": "天井",
+                  "after": "が高くて、実際より広く感じる。",
+                  "reading": "てんじょう",
+                  "translation": "이 방은 천장이 높아서 실제보다 넓게 느껴진다.",
+                  "translationTarget": "천장",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_410",
+            "setId": "jlpt-n3",
+            "japanese": "天井",
+            "reading": "てんじょう",
+            "meaning": "천장",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 409
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_410-1",
+              "wordId": "JLPTN3_410",
+              "version": 1,
+              "meaning": "방 위쪽의 천장",
+              "hint": "실내에서 고개를 들면 보이는 위쪽 면이에요.",
+              "confusions": [
+                {
+                  "japanese": "屋根",
+                  "distinction": "건물 바깥의 지붕과 달리 방 안쪽에서 보이는 윗면이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_410-1-ex-1",
+                  "version": 1,
+                  "before": "",
+                  "answer": "天井",
+                  "after": "の電球が切れたが、手が届かない。",
+                  "reading": "てんじょう",
+                  "translation": "천장 전구가 나갔는데 손이 닿지 않는다.",
+                  "translationTarget": "천장",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_410-1-ex-2",
+                  "version": 1,
+                  "before": "この部屋は",
+                  "answer": "天井",
+                  "after": "が高くて、実際より広く感じる。",
+                  "reading": "てんじょう",
+                  "translation": "이 방은 천장이 높아서 실제보다 넓게 느껴진다.",
+                  "translationTarget": "천장",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "c04088949006cd97ab37b8fa891a8ce8ec423b23cae59033e070d1c355d79dbb",
+        "afterHash": "da3cfd85e7ee88ba1e3caa9b569d5fcee28eb000335803f99aa1ad96bb7fd43c",
+        "reason": "대표 뜻을 현재 sense와 두 번역에서 쓰는 천장으로 통일한다. 기존 내용과 ID는 그 외 변경하지 않는다."
+      },
+      {
+        "wordId": "JLPTN3_441",
+        "before": {
+          "word": {
+            "id": "JLPTN3_441",
+            "setId": "jlpt-n3",
+            "japanese": "比較",
+            "reading": "ひかく",
+            "meaning": "비교",
+            "type": "noun",
+            "difficulty": 33,
+            "verbInfo": null,
+            "sourceOrder": 440
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_441-1",
+              "wordId": "JLPTN3_441",
+              "version": 1,
+              "meaning": "비교",
+              "hint": "둘 이상을 놓고 같고 다른 점을 살펴요.",
+              "confusions": [
+                {
+                  "japanese": "競争",
+                  "distinction": "승패를 겨루는 것과 달리 차이를 알아보는 일이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_441-1-ex-1",
+                  "version": 1,
+                  "before": "二つの案を",
+                  "answer": "比較",
+                  "after": "して、費用の安い方を選んだ。",
+                  "reading": "ひかく",
+                  "translation": "두 안을 비교해서 비용이 저렴한 쪽을 골랐다.",
+                  "translationTarget": "비교",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_441-1-ex-2",
+                  "version": 1,
+                  "before": "去年との",
+                  "answer": "比較",
+                  "after": "ができるように、同じ場所で写真を撮った。",
+                  "reading": "ひかく",
+                  "translation": "작년과 비교할 수 있도록 같은 장소에서 사진을 찍었다.",
+                  "translationTarget": "비교",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_441",
+            "setId": "jlpt-n3",
+            "japanese": "比較",
+            "reading": "ひかく",
+            "meaning": "비교",
+            "type": "noun",
+            "difficulty": 33,
+            "verbInfo": null,
+            "sourceOrder": 440
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_441-1",
+              "wordId": "JLPTN3_441",
+              "version": 1,
+              "meaning": "비교",
+              "hint": "둘 이상을 놓고 같고 다른 점을 살펴요.",
+              "confusions": [
+                {
+                  "japanese": "競争",
+                  "distinction": "승패를 겨루는 것과 달리 차이를 알아보는 일이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_441-1-ex-1",
+                  "version": 1,
+                  "before": "二つの案を",
+                  "answer": "比較",
+                  "after": "して、費用の安い方を選んだ。",
+                  "reading": "ひかく",
+                  "translation": "두 안을 비교해서 비용이 저렴한 쪽을 골랐다.",
+                  "translationTarget": "비교",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_441-1-ex-2",
+                  "version": 2,
+                  "before": "重さと価格を表にすると、商品の",
+                  "answer": "比較",
+                  "after": "がしやすくなった。",
+                  "reading": "ひかく",
+                  "translation": "무게와 가격을 표로 만들자 상품의 비교가 쉬워졌다.",
+                  "translationTarget": "비교가",
+                  "difficulty": 33,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "e8857354b943ad8358b491b5c63ef104ed8262be131818063d001ae2cc77ea68",
+        "afterHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+        "reason": "같은 장소에서 변화 기록용 사진을 찍는 変化의 예문과 겹치는 장면을 상품별 표로 비교하는 장면으로 교체한다."
+      },
+      {
+        "wordId": "JLPTN3_444",
+        "before": {
+          "word": {
+            "id": "JLPTN3_444",
+            "setId": "jlpt-n3",
+            "japanese": "表示",
+            "reading": "ひょうじ",
+            "meaning": "표시",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 443
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_444-1",
+              "wordId": "JLPTN3_444",
+              "version": 1,
+              "meaning": "표시",
+              "hint": "내용을 이해시키기보다 눈으로 볼 수 있게 나타내요.",
+              "confusions": [
+                {
+                  "japanese": "表記",
+                  "distinction": "표기는 문자로 적는 방식이며 표시는 문자 외의 표지나 화면 정보도 포함한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_444-1-ex-1",
+                  "version": 1,
+                  "before": "画面の",
+                  "answer": "表示",
+                  "after": "が小さくて、時間が読めない。",
+                  "reading": "ひょうじ",
+                  "translation": "화면의 표시가 작아서 시간을 읽을 수 없다.",
+                  "translationTarget": "표시",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_444-1-ex-2",
+                  "version": 1,
+                  "before": "満席の",
+                  "answer": "表示",
+                  "after": "を見て、次の列車に変更した。",
+                  "reading": "ひょうじ",
+                  "translation": "만석 표시를 보고 다음 열차로 변경했다.",
+                  "translationTarget": "표시",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_444",
+            "setId": "jlpt-n3",
+            "japanese": "表示",
+            "reading": "ひょうじ",
+            "meaning": "표시",
+            "type": "noun",
+            "difficulty": 32,
+            "verbInfo": null,
+            "sourceOrder": 443
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_444-1",
+              "wordId": "JLPTN3_444",
+              "version": 1,
+              "meaning": "표시",
+              "hint": "정보를 문자나 기호, 화면 등으로 눈에 보이게 나타내요.",
+              "confusions": [
+                {
+                  "japanese": "表記",
+                  "distinction": "표기는 문자로 적는 방식이며 표시는 문자 외의 표지나 화면 정보도 포함한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_444-1-ex-1",
+                  "version": 2,
+                  "before": "温度計の",
+                  "answer": "表示",
+                  "after": "を摂氏から華氏に切り替えた。",
+                  "reading": "ひょうじ",
+                  "translation": "온도계의 표시를 섭씨에서 화씨로 바꾸었다.",
+                  "translationTarget": "표시",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_444-1-ex-2",
+                  "version": 1,
+                  "before": "満席の",
+                  "answer": "表示",
+                  "after": "を見て、次の列車に変更した。",
+                  "reading": "ひょうじ",
+                  "translation": "만석 표시를 보고 다음 열차로 변경했다.",
+                  "translationTarget": "표시",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "015db91ada6d477380fa646364b4fc16137ca3d596a86e08d88b1143bf606179",
+        "afterHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+        "reason": "화면의 작은 글자를 못 읽는 文字와의 반복을 온도계 표시 단위 변경으로 교체하고, 정보 이해와 표시를 불필요하게 대립시킨 힌트를 명료화한다."
+      },
+      {
+        "wordId": "JLPTN3_450",
+        "before": {
+          "word": {
+            "id": "JLPTN3_450",
+            "setId": "jlpt-n3",
+            "japanese": "沸騰",
+            "reading": "ふっとう",
+            "meaning": "비등, 물이 끓음",
+            "type": "noun",
+            "difficulty": 59,
+            "verbInfo": null,
+            "sourceOrder": 449
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_450-1",
+              "wordId": "JLPTN3_450",
+              "version": 1,
+              "meaning": "물이 끓음",
+              "hint": "액체가 뜨거워져 속에서 기포가 계속 올라와요.",
+              "confusions": [
+                {
+                  "japanese": "加熱",
+                  "distinction": "열을 가하는 과정 전체가 아니라 끓는점에 이르러 끓는 현상이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_450-1-ex-1",
+                  "version": 1,
+                  "before": "お湯が",
+                  "answer": "沸騰",
+                  "after": "したら、麺を入れてください。",
+                  "reading": "ふっとう",
+                  "translation": "물이 끓으면 면을 넣어 주세요.",
+                  "translationTarget": "끓으면",
+                  "difficulty": 59,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_450-1-ex-2",
+                  "version": 1,
+                  "before": "火が強すぎてスープが激しく",
+                  "answer": "沸騰",
+                  "after": "し、ふたが揺れた。",
+                  "reading": "ふっとう",
+                  "translation": "불이 너무 세서 수프가 거세게 끓어 뚜껑이 흔들렸다.",
+                  "translationTarget": "끓어",
+                  "difficulty": 59,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_450",
+            "setId": "jlpt-n3",
+            "japanese": "沸騰",
+            "reading": "ふっとう",
+            "meaning": "끓음·비등",
+            "type": "noun",
+            "difficulty": 59,
+            "verbInfo": null,
+            "sourceOrder": 449
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_450-1",
+              "wordId": "JLPTN3_450",
+              "version": 1,
+              "meaning": "액체가 끓는점에 이르러 끓는 현상",
+              "hint": "액체가 뜨거워져 속에서 기포가 계속 올라와요.",
+              "confusions": [
+                {
+                  "japanese": "加熱",
+                  "distinction": "열을 가하는 과정 전체가 아니라 끓는점에 이르러 끓는 현상이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_450-1-ex-1",
+                  "version": 1,
+                  "before": "お湯が",
+                  "answer": "沸騰",
+                  "after": "したら、麺を入れてください。",
+                  "reading": "ふっとう",
+                  "translation": "물이 끓으면 면을 넣어 주세요.",
+                  "translationTarget": "끓으면",
+                  "difficulty": 59,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_450-1-ex-2",
+                  "version": 1,
+                  "before": "火が強すぎてスープが激しく",
+                  "answer": "沸騰",
+                  "after": "し、ふたが揺れた。",
+                  "reading": "ふっとう",
+                  "translation": "불이 너무 세서 수프가 거세게 끓어 뚜껑이 흔들렸다.",
+                  "translationTarget": "끓어",
+                  "difficulty": 59,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "5f5c2610123d03c4a438c37836d178e36f08fb33b8e5adde985ae0a0723005aa",
+        "afterHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+        "reason": "물뿐 아니라 수프 같은 액체도 끓을 수 있다. 두 기존 예문을 보존하고 의미만 액체의 끓음으로 정리한다."
+      },
+      {
+        "wordId": "JLPTN3_453",
+        "before": {
+          "word": {
+            "id": "JLPTN3_453",
+            "setId": "jlpt-n3",
+            "japanese": "文章",
+            "reading": "ぶんしょう",
+            "meaning": "문장",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 452
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_453-1",
+              "wordId": "JLPTN3_453",
+              "version": 1,
+              "meaning": "글로 이어 쓴 문장과 글",
+              "hint": "생각을 문장으로 엮어 쓴 글을 말해요.",
+              "confusions": [
+                {
+                  "japanese": "文",
+                  "distinction": "문법적인 한 문장뿐 아니라 여러 문장으로 이루어진 글 전체도 가리킨다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_453-1-ex-1",
+                  "version": 1,
+                  "before": "この",
+                  "answer": "文章",
+                  "after": "は一文が長くて、途中で意味が分からなくなる。",
+                  "reading": "ぶんしょう",
+                  "translation": "이 글은 한 문장이 길어서 도중에 뜻을 알 수 없게 된다.",
+                  "translationTarget": "글",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_453-1-ex-2",
+                  "version": 1,
+                  "before": "写真に短い",
+                  "answer": "文章",
+                  "after": "を添えて、旅の記録を残した。",
+                  "reading": "ぶんしょう",
+                  "translation": "사진에 짧은 글을 덧붙여 여행 기록을 남겼다.",
+                  "translationTarget": "글",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_453",
+            "setId": "jlpt-n3",
+            "japanese": "文章",
+            "reading": "ぶんしょう",
+            "meaning": "글·문장",
+            "type": "noun",
+            "difficulty": 31,
+            "verbInfo": null,
+            "sourceOrder": 452
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_453-1",
+              "wordId": "JLPTN3_453",
+              "version": 1,
+              "meaning": "글로 이어 쓴 문장과 글",
+              "hint": "생각을 문장으로 엮어 쓴 글을 말해요.",
+              "confusions": [
+                {
+                  "japanese": "文",
+                  "distinction": "문법적인 한 문장뿐 아니라 여러 문장으로 이루어진 글 전체도 가리킨다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_453-1-ex-1",
+                  "version": 1,
+                  "before": "この",
+                  "answer": "文章",
+                  "after": "は一文が長くて、途中で意味が分からなくなる。",
+                  "reading": "ぶんしょう",
+                  "translation": "이 글은 한 문장이 길어서 도중에 뜻을 알 수 없게 된다.",
+                  "translationTarget": "글",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_453-1-ex-2",
+                  "version": 1,
+                  "before": "写真に短い",
+                  "answer": "文章",
+                  "after": "を添えて、旅の記録を残した。",
+                  "reading": "ぶんしょう",
+                  "translation": "사진에 짧은 글을 덧붙여 여행 기록을 남겼다.",
+                  "translationTarget": "글",
+                  "difficulty": 31,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "26273c619875bfdb82d8e9bb127300fb3adc8a4b16995cc5843f2fc2f2ce0622",
+        "afterHash": "1f0e78d211295f4662b673580857c02fb538907cd3bd2fd7744e400f8d1f26e1",
+        "reason": "여러 문장으로 이루어진 글을 포함한다는 범위를 대표 뜻에 명시한다. 현재 sense와 두 예문은 이미 그 의미에 맞는다."
+      },
+      {
+        "wordId": "JLPTN3_463",
+        "before": {
+          "word": {
+            "id": "JLPTN3_463",
+            "setId": "jlpt-n3",
+            "japanese": "孫",
+            "reading": "まご",
+            "meaning": "손자",
+            "type": "noun",
+            "difficulty": 28,
+            "verbInfo": null,
+            "sourceOrder": 462
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_463-1",
+              "wordId": "JLPTN3_463",
+              "version": 1,
+              "meaning": "손주",
+              "hint": "자기 자녀가 낳은 아이이며 성별을 가리지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "甥",
+                  "distinction": "형제자매의 아들이 아니라 자기 자녀의 아이를 말한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_463-1-ex-1",
+                  "version": 1,
+                  "before": "祖父は初めて",
+                  "answer": "孫",
+                  "after": "を抱き、少し緊張していた。",
+                  "reading": "まご",
+                  "translation": "할아버지는 처음 손주를 안고 조금 긴장하고 계셨다.",
+                  "translationTarget": "손주",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_463-1-ex-2",
+                  "version": 1,
+                  "before": "",
+                  "answer": "孫",
+                  "after": "から届いた絵を、祖母は毎日眺めている。",
+                  "reading": "まご",
+                  "translation": "손주가 보내온 그림을 할머니는 매일 바라보신다.",
+                  "translationTarget": "손주",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_463",
+            "setId": "jlpt-n3",
+            "japanese": "孫",
+            "reading": "まご",
+            "meaning": "손주",
+            "type": "noun",
+            "difficulty": 28,
+            "verbInfo": null,
+            "sourceOrder": 462
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_463-1",
+              "wordId": "JLPTN3_463",
+              "version": 1,
+              "meaning": "손주",
+              "hint": "자기 자녀가 낳은 아이이며 성별을 가리지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "甥",
+                  "distinction": "형제자매의 아들이 아니라 자기 자녀의 아이를 말한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_463-1-ex-1",
+                  "version": 1,
+                  "before": "祖父は初めて",
+                  "answer": "孫",
+                  "after": "を抱き、少し緊張していた。",
+                  "reading": "まご",
+                  "translation": "할아버지는 처음 손주를 안고 조금 긴장하고 계셨다.",
+                  "translationTarget": "손주",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_463-1-ex-2",
+                  "version": 1,
+                  "before": "",
+                  "answer": "孫",
+                  "after": "から届いた絵を、祖母は毎日眺めている。",
+                  "reading": "まご",
+                  "translation": "손주가 보내온 그림을 할머니는 매일 바라보신다.",
+                  "translationTarget": "손주",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "d1669b934c9c189d843dbe6160967bbfb0cee4d70cac3c56470373625545e97a",
+        "afterHash": "f2ffb9566da31c518d0ded3ffde9d2e0d6029ca328f87311cf6fdba480750d86",
+        "reason": "제공 사전 grandchild와 현재 sense 및 예문은 성별을 한정하지 않는다. 남성만 뜻하는 손자를 손주로 정정한다."
+      }
+    ]
+  },
+  "review": {
+    "scope": "legacy-content-revision",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "draftHash": "0bfefc32af5a7a2722dce86745d5d44371eb1bb24b94e97b8aaaec16dc888759",
+    "notes": [
+      "33항목의 원본 전체와 수정안·제공 사전 의미를 독립 검토했다. 실제 변경 29개만 적용 대상이며 무변경 4개는 제외했다.",
+      "기존 용법 29개의 ID·버전과 모든 기존 예문 ID를 유지한다. 새 용법 11개·대표 예문 11개는 버전 1, 변경 예문 7개만 버전 2이다.",
+      "현재 원본 sourceHash와 최종 afterHash 및 전체 초안 해시를 대조했다. 편집 내용 검증 오류 0, 앱·미게시 pilot·수정안 대치 8,513예문/211,192비교에서 유사쌍 0. 실제 장면 반복도 검토했다."
+    ],
+    "preservedCoreUsages": [
+      {
+        "wordId": "JLPTN3_9",
+        "senseIds": [
+          "sense-JLPTN3_9-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "목표와 상대에 도전하는 기존 두 예문의 핵심 뜻을 유지하며 자타 정보와 설명을 정정했다."
+      },
+      {
+        "wordId": "JLPTN3_29",
+        "senseIds": [
+          "sense-JLPTN3_29-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "달리기 용법은 그대로이며 반드시 전속력이라는 불필요한 제한만 제거했다."
+      },
+      {
+        "wordId": "JLPTN3_56",
+        "senseIds": [
+          "sense-JLPTN3_56-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 물기 짜기 용법은 그대로 두고 범위 좁히기를 새 용법으로 분리했다. 면접 질문 예문으로 기존 후보 세 개 장면 반복을 피했다."
+      },
+      {
+        "wordId": "JLPTN3_58",
+        "senseIds": [
+          "sense-JLPTN3_58-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 띠와 안전띠를 매는 뜻을 유지하며 한국어 표현만 바로잡았다."
+      },
+      {
+        "wordId": "JLPTN3_99",
+        "senseIds": [
+          "sense-JLPTN3_99-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "떼어 놓거나 손을 놓는 기존 예문에 맞춰 놓치다라는 부정확한 대표 뜻을 정정했다."
+      },
+      {
+        "wordId": "JLPTN3_125",
+        "senseIds": [
+          "sense-JLPTN3_125-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다."
+      },
+      {
+        "wordId": "JLPTN3_130",
+        "senseIds": [
+          "sense-JLPTN3_130-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다."
+      },
+      {
+        "wordId": "JLPTN3_132",
+        "senseIds": [
+          "sense-JLPTN3_132-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다."
+      },
+      {
+        "wordId": "JLPTN3_140",
+        "senseIds": [
+          "sense-JLPTN3_140-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다."
+      },
+      {
+        "wordId": "JLPTN3_142",
+        "senseIds": [
+          "sense-JLPTN3_142-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다."
+      },
+      {
+        "wordId": "JLPTN3_144",
+        "senseIds": [
+          "sense-JLPTN3_144-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다."
+      },
+      {
+        "wordId": "JLPTN3_154",
+        "senseIds": [
+          "sense-JLPTN3_154-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다."
+      },
+      {
+        "wordId": "JLPTN3_199",
+        "senseIds": [
+          "sense-JLPTN3_199-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다."
+      },
+      {
+        "wordId": "JLPTN3_201",
+        "senseIds": [
+          "sense-JLPTN3_201-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다."
+      },
+      {
+        "wordId": "JLPTN3_214",
+        "senseIds": [
+          "sense-JLPTN3_214-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 계산·지불 용법은 유지하며 수입·지출 관리 업무를 별도 용법으로 추가했다."
+      },
+      {
+        "wordId": "JLPTN3_235",
+        "senseIds": [
+          "sense-JLPTN3_235-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 과일 껍질은 유지하고 동물 피부를 새 용법으로 분리했다. 가공된 革와의 차이도 맞는다."
+      },
+      {
+        "wordId": "JLPTN3_244",
+        "senseIds": [
+          "sense-JLPTN3_244-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다."
+      },
+      {
+        "wordId": "JLPTN3_250",
+        "senseIds": [
+          "sense-JLPTN3_250-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다."
+      },
+      {
+        "wordId": "JLPTN3_272",
+        "senseIds": [
+          "sense-JLPTN3_272-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "차이를 알아보는 핵심 뜻은 유지하며 두 약의 봉투 색 식별로 장면을 변경했다."
+      },
+      {
+        "wordId": "JLPTN3_280",
+        "senseIds": [
+          "sense-JLPTN3_280-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "외과 용법과 일본어는 유지하고 二階를 2층으로 명확히 번역했다."
+      },
+      {
+        "wordId": "JLPTN3_292",
+        "senseIds": [
+          "sense-JLPTN3_292-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "감소 용법과 일본어는 유지하고 하루 三本을 차량 대수가 아닌 운행 횟수로 번역했다."
+      },
+      {
+        "wordId": "JLPTN3_335",
+        "senseIds": [
+          "sense-JLPTN3_335-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다."
+      },
+      {
+        "wordId": "JLPTN3_361",
+        "senseIds": [
+          "sense-JLPTN3_361-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다."
+      },
+      {
+        "wordId": "JLPTN3_410",
+        "senseIds": [
+          "sense-JLPTN3_410-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "천장이라는 현재 용법과 예문을 유지하며 대표 뜻의 표기만 통일했다."
+      },
+      {
+        "wordId": "JLPTN3_441",
+        "senseIds": [
+          "sense-JLPTN3_441-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다."
+      },
+      {
+        "wordId": "JLPTN3_444",
+        "senseIds": [
+          "sense-JLPTN3_444-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다."
+      },
+      {
+        "wordId": "JLPTN3_450",
+        "senseIds": [
+          "sense-JLPTN3_450-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다."
+      },
+      {
+        "wordId": "JLPTN3_453",
+        "senseIds": [
+          "sense-JLPTN3_453-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다."
+      },
+      {
+        "wordId": "JLPTN3_463",
+        "senseIds": [
+          "sense-JLPTN3_463-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다."
+      }
+    ]
+  }
+}

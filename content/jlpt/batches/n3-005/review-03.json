@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "613e8ef7c0a71f1bea0b3734b98ce7f95f0ba2b32b7b6df02903806bea6e2c37",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:40:54.528Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1312250",
+      "10f4e2dcab809b000f1b6d6515d594fa7ae17fdfac7cb463bd5b988e2b2c843d"
+    ],
+    [
+      "lex-jmdict-1312780",
+      "1d0b88107f8cd8c8a816f43e4788ed8cb567373e77d6e729bfdab068ff43b0f6"
+    ],
+    [
+      "lex-jmdict-1313960",
+      "64e44d73f685cc14eb08efa12063667ec2cde724830980bfa5061ece8cef095a"
+    ],
+    [
+      "lex-jmdict-1314270",
+      "b128226db11064bd67d875059e5e77990dd83d99131846b31f163512a78f04b3"
+    ],
+    [
+      "lex-jmdict-1316040",
+      "1c95b0d0e102c58db68bea5314a5cc86112819b954925408d73817a336a44404"
+    ],
+    [
+      "lex-jmdict-1316220",
+      "55f71f6c9bd944d4436ddece4a66da77c076bff44962302861ea5a396b26746e"
+    ],
+    [
+      "lex-jmdict-1318000",
+      "3cf4385187a8c306bcf135dc638280fbdd143610da0fa06de0f929defb8bd58d"
+    ],
+    [
+      "lex-jmdict-1318340",
+      "3e511da940d2323426138767a8e2536f28afd855b0f2bf4d09d792245c023d52"
+    ],
+    [
+      "lex-jmdict-1318680",
+      "b12a31165d567bf0c366a64685c354d134aa0c3759abc839e50c29b54a7e6faf"
+    ],
+    [
+      "lex-jmdict-1319060",
+      "e1888c8763ab41d50c4473561d00478eb446a7fb97c906fb073d6190d4251805"
+    ],
+    [
+      "lex-jmdict-1320170",
+      "735b13778660c395701d5b93140b101ae14b4cb2f8355fc381eac4a287b352be"
+    ],
+    [
+      "lex-jmdict-1320640",
+      "ad197dff25aa20ecf0c6771adc36ff6ccf9e1773a4ed56e84ef0cc8ffec50ce3"
+    ],
+    [
+      "lex-jmdict-1320810",
+      "d587d38db12bd97406d796701323c9fd383477585ca89fcaa98e1195760bd3d1"
+    ],
+    [
+      "lex-jmdict-1320970",
+      "b15e400df423782c568da6790deebcf14f1b8fd61642d8ba137b526ae90a8daf"
+    ],
+    [
+      "lex-jmdict-1321020",
+      "a633fd2cdf2622c8133923f6c4576926933e5473452f179b07faa1f81d8baf12"
+    ],
+    [
+      "lex-jmdict-1321040",
+      "4bcc886e8241ff143e1b19efa23ba88b59ba49d8bcc8de0071a8399051637c6c"
+    ],
+    [
+      "lex-jmdict-1321140",
+      "a3175ab90d38c8335104f66189e92b1ffe6aae2840653264b34ad7a7001ea03b"
+    ],
+    [
+      "lex-jmdict-1321630",
+      "c7a7f7e9f7e4488868fdfd1f86ce3f7d9ff4a0a80760c0e3b83cb1ffb5c31239"
+    ],
+    [
+      "lex-jmdict-1321650",
+      "9d6fe027f2d5434d94a2ce90b37cf341fb785eba328a522812ec0fb3c03a5313"
+    ],
+    [
+      "lex-jmdict-1323500",
+      "ae32222274895cde6a7f6a657c3dba0e6461229812c1a1b6629068e766320361"
+    ],
+    [
+      "lex-jmdict-1323940",
+      "697a7edade14cc576e113695ae4731e3fc73d8a13b9a1fe9361ed789d0a8ecb7"
+    ],
+    [
+      "lex-jmdict-1325260",
+      "9e6245992d9116ba6b938324073083e687aa0b58efcceaf75141786e8881f3f0"
+    ],
+    [
+      "lex-jmdict-1326160",
+      "353b866af72766fad16d6a899eaf77b700beef2d8a58da40a37e0c8f36341d9e"
+    ],
+    [
+      "lex-jmdict-1327410",
+      "7e85cc2b7462c2d2245aab2777626845426ea3c398b1d9fcf821393e08a13e49"
+    ],
+    [
+      "lex-jmdict-1328170",
+      "33b7a34ec6a4b82fc91e9eed676f56e826ca9c01295c2c498cc16e626d68d235"
+    ],
+    [
+      "lex-jmdict-1328310",
+      "9f3c0b9f0ccb8d17ecdbb5770999523ef136d042b846ce58d7869f04900a44ed"
+    ],
+    [
+      "lex-jmdict-1328820",
+      "1da469acc07d54035105ca4a6c0a753d6ee4e1932350f0a2de06498b8ad7f913"
+    ],
+    [
+      "lex-jmdict-1328890",
+      "1a10bc39cec862a99822cfb0b5f218485f7ffaba0d73546e9d6e57ac3248f6ab"
+    ],
+    [
+      "lex-jmdict-1329300",
+      "d8a52054a34a2d10eb30c324d386239fd3b2d22095d95fd26878f747bbc931ca"
+    ],
+    [
+      "lex-jmdict-1330510",
+      "23fee876eea2bd8da13a72f409fc01e5f9c7d016e21036d8b6ea1314d164f623"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1313960",
+      "category": "substantive",
+      "note": "事実를 확인이 끝난 내용으로 한정하지 않고 실제로 발생하거나 존재하는 내용으로 설명함."
+    },
+    {
+      "wordId": "lex-jmdict-1328820",
+      "category": "substantive",
+      "note": "貸し借り를 빌림·상환이 아닌 빌려줌·빌림으로 정확히 번역함."
+    }
+  ]
+}

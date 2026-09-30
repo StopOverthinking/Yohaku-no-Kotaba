@@ -1,0 +1,17 @@
+[
+  {
+    "wordId": "lex-jmdict-1368020",
+    "category": "substantive",
+    "note": "손님의 가게 입장을 뜻하는 入店를 점포 개설인 입점으로 옮긴 오역을 고쳤다."
+  },
+  {
+    "wordId": "lex-jmdict-1587290",
+    "category": "substantive",
+    "note": "보조동사 いただく는 남의 행동을 부탁받음이 아니라 남이 해 주는 행동을 받는 뜻임을 바로잡았다."
+  },
+  {
+    "wordId": "lex-jmdict-1401240",
+    "category": "substantive",
+    "note": "기존 다리 수리 비용 문장과 유사도 0.757로 겹쳐 돌을 움직이는 힘의 정도로 바꿨다."
+  }
+]

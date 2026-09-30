@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "e3093043c6e971e0cc3a75ec3f609f8891473ba9ad2c15da69c6e92b01c3e8ba",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:12:06.128Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1437700",
+      "bcc04daaccc155393066cb08cbc3bb58111c9ca5b4f1cbf3b0fd3868d9088738"
+    ],
+    [
+      "lex-jmdict-1437780",
+      "c81f68cdd9cc5b6512f5b9db740e6a333b0fac0628654cf59a53729141b8f116"
+    ],
+    [
+      "lex-jmdict-1437960",
+      "b4d24d22149f82be74ee518f39dbc82e2e5aab9378963505155b847ad89bbd56"
+    ],
+    [
+      "lex-jmdict-1438080",
+      "e7386d303b2f67f34ca00fc4984b66a087e6eddbd381f35caa5d908dfddd4025"
+    ],
+    [
+      "lex-jmdict-1438970",
+      "b2b731367ceb5fe691974fe82e3c18c254100db2fdc3df8458d5141ea0c20bfb"
+    ],
+    [
+      "lex-jmdict-1439580",
+      "ad0bb15b0ff1b7dcab584f3eb94045294f147b68f62e5a547db7827200e62944"
+    ],
+    [
+      "lex-jmdict-1442260",
+      "50af3ea67428aec93f86b04bbfab64c1d3f30f29a4664c8322a12d8d0da8d6dc"
+    ],
+    [
+      "lex-jmdict-1442730",
+      "ae1522e69cb12a554da6fc494af680e2a6fe1c83fe9ed525c7bf12350bf4b22f"
+    ],
+    [
+      "lex-jmdict-1443320",
+      "cd782cfef8d7bc3447b1124bd6d7cb5275607858fda8ec8655137b6776bdd451"
+    ],
+    [
+      "lex-jmdict-1443970",
+      "3e2d268673a9e217a70b7ee7e22d0e4e331636aa06af59ba55314bd059bbba4d"
+    ],
+    [
+      "lex-jmdict-1444950",
+      "01fa07b504e5929a9af5fd9e6720cb3b0d2ecd34c183bb71b1ffa2cd4f39e45d"
+    ],
+    [
+      "lex-jmdict-1444970",
+      "f7d4007d6cbf804b23b9b36817e665f9edea55d8ab6c8c225d81b9f6133de584"
+    ],
+    [
+      "lex-jmdict-1444990",
+      "2acb8d79e113b139da285ea75c27735ad49ceee14615105a7e9b07aa78352f6d"
+    ],
+    [
+      "lex-jmdict-1445270",
+      "05780aa00ff06891d4eb34d94bfe466caeb9d5378f74225e849deae31b73e853"
+    ],
+    [
+      "lex-jmdict-1445360",
+      "ed8dd6b51c31e8fc6e7042a47ae7aeda3d5ac14d7278c462f6aa6f3d2a17a454"
+    ],
+    [
+      "lex-jmdict-1445470",
+      "2e913e5aabc7956dc37e7ef90b8c4d14804d99eb2d01fdc0610cda7998eac491"
+    ],
+    [
+      "lex-jmdict-1445980",
+      "b62bd28c8e54a5461e641908bed48684ec4537b239d9eae61ac3d235c2bd330b"
+    ],
+    [
+      "lex-jmdict-1446420",
+      "357bbdc02dad0d6a00d9013f0772462fb951d26f070dc01c53cb2f3790f008ca"
+    ],
+    [
+      "lex-jmdict-1446740",
+      "e72cd157b202fb0c3a04209743fed39b6e2508f86c51490bfb3dc0ac8abfbc41"
+    ],
+    [
+      "lex-jmdict-1447320",
+      "a7426f1bea85933c62ce2a29350e6e793d7860844da63f4fcce263c86c1b3eaf"
+    ],
+    [
+      "lex-jmdict-1449090",
+      "bbd382b24e551cb8a505ee25369620b0beff6325e633d26d5e983b6dba92d4f1"
+    ],
+    [
+      "lex-jmdict-1449330",
+      "c71a02babb8fef233c256ddae6ebd90b63a0c82dc63445b568a498b0f8ae53a0"
+    ],
+    [
+      "lex-jmdict-1449550",
+      "b57ae38062770a035f0c87d607a1925ec9a82d9a465e772e0738dd3136ce112d"
+    ],
+    [
+      "lex-jmdict-1451040",
+      "bbba096264da8ae58045985535b02da131752c3a463de8ee077dd359d13bfb45"
+    ],
+    [
+      "lex-jmdict-1451380",
+      "15d7b9f4e0bae673ff1700b81fbb9da49d3fda7b602f7f984f8ff1dfba286fc8"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1439580",
+      "category": "substantive",
+      "note": "천연 식물이라는 부자연스러운 결합을 천연 염료로 고치고 무가공에만 한정한 힌트를 수정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1449330",
+      "category": "substantive",
+      "note": "무게가 상자 안에 들어 있다는 표현을 두 상자의 무게 비교로 수정했다."
+    }
+  ]
+}

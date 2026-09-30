@@ -1,0 +1,376 @@
+[
+  {
+    "wordId": "AbsoluteVerb_745",
+    "sourceHash": "9921b55e786a9b52fbe971b098564bf60147b0e95dd229feea1f2a09ed0bedaa",
+    "level": "N3",
+    "dictionaryId": "jmdict-1594400",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 견실하다, 확실하다” 및 1개 sense를 대조했다. 의자와 상자가 튼튼하게 만들어진 상태를 나타낸다. 출처 N1이나 기본 물건의 내구성 묘사로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 두 예문은 확실한 판단보다 구조가 튼튼함이다. word 뜻에 튼튼하다·견고하다를 명시해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_746",
+    "sourceHash": "415cde579fd01b17da53c1f613ee13e33e5b2835710dbbf28ecc71f627c1fdc9",
+    "level": "N3",
+    "dictionaryId": "jmdict-1003170",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 실망하다” 및 1개 sense를 대조했다. 기대한 가게와 선물이 달라 실망하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_747",
+    "sourceHash": "a057612d0a68c0e3e5117b98c87c91277cd87292ab11e9fcdff8e21737ddd362",
+    "level": "N2",
+    "dictionaryId": "jmdict-1009050",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 두근거리다” 및 1개 sense를 대조했다. 긴장과 신체 운동으로 심장이 빠르게 두근거리는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_748",
+    "sourceHash": "6b894d1dcec186ad34f9d0a9b1c8790b9b913dc5da8b1d04042c6b95ac64f8b8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1013310",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 두근거리다, 설레다” 및 1개 sense를 대조했다. 여행과 선물을 기대하여 설레는 의미이다. 출처 등급은 없어 기본 기대 감정의 의태 표현으로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_749",
+    "sourceHash": "da666c365fb1a8dbe15cc395f4568ef63d09f230b3381ee72bbff27be9e59165",
+    "level": "N2",
+    "dictionaryId": "jmdict-1096260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 조마조마하다” 및 1개 sense를 대조했다. 아이의 등반과 경기 결과가 걱정되어 조마조마한 뜻이다. 출처 등급은 없어 불안하게 지켜보는 감정의 의태 표현으로 편집 N2를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_750",
+    "sourceHash": "99c6ffd3ffd631929ff5e60ace9a09c168f0d0e392a6bea3d9c691791cab056d",
+    "level": "N2",
+    "dictionaryId": "jmdict-1012330",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 메슥거리다, 울컥하다” 및 1개 sense를 대조했다. 기름진 음식과 배 이동으로 메스꺼움을 느끼는 뜻이다. 출처 등급은 없어 신체 감각을 세밀히 나타내는 의태 표현으로 편집 N2를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_751",
+    "sourceHash": "b19ae4da417be640d0440bb28ec11785353338f05b6ad1c6a7fe572740f6dc9b",
+    "level": "N1",
+    "dictionaryId": "jmdict-1001110",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 지긋지긋하다” 및 1개 sense를 대조했다. 반복되는 주의와 긴 대기 줄에 진저리를 느끼는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_752",
+    "sourceHash": "ca97fdcb79d8d21f64a68265f346f90864e6340d6d3c0060891233a7e82f2131",
+    "level": "N3",
+    "dictionaryId": "jmdict-1587700",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 안달하다” 및 1개 sense를 대조했다. 기기가 반응하지 않거나 오래 기다려 짜증 나는 의미이다. 출처 N1과 구분하여 일상적 짜증 표현으로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "안달하다는 초조한 기다림으로만 읽힐 수 있다. 일본어의 짜증·신경질까지 포함하도록 짜증 나다를 대표 뜻에 명시해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_753",
+    "sourceHash": "6e2a4e81b51c219b33ccfc68ef5d5c2cea568342288beb3c92d673a2c6ac91cd",
+    "level": "N2",
+    "dictionaryId": "jmdict-1006120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 후련하다” 및 1개 sense를 대조했다. 말을 하거나 의문이 풀려 마음이 후련해지는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_754",
+    "sourceHash": "eeebc3fe8d1b50cfe6dca2eb38be4f570dd3e2fceae083a3939dc35640f129c8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1011660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 안심하다” 및 1개 sense를 대조했다. 무사 도착과 시험 종료를 알고 안도하는 기본 감정이다. 출처 N1과 구분하여 일상적 안심 표현으로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_755",
+    "sourceHash": "8fbb46a3abcfdd245b4fdf0bb395ff83587d304e7a05c0d0eb4b590c4a4e583d",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의태어) 깜짝 놀라다” 및 1개 sense를 대조했다. 부름이나 말을 듣고 갑자기 정신이 들거나 깨닫는 두 장면이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_756",
+    "sourceHash": "c690ca93c9cec54494ba4e54067a93e288fbf5b033cb2e2da441908d719520e1",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “맛이 나다” 및 1개 sense를 대조했다. 소금과 사과의 맛이 느껴진다는 감각 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_757",
+    "sourceHash": "feea5f680c7cf81c69c3aae6aef3ba5802658093e55eeed84e7b0ce2038e1221",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “냄새가 나다” 및 1개 sense를 대조했다. 빵과 흙의 냄새가 난다는 감각 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_758",
+    "sourceHash": "900796714b960eeee41ed196325e15eb0e97adf1a555de31a473a87869363598",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “향기가 나다” 및 1개 sense를 대조했다. 빵과 꽃의 좋은 향이 난다는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현 사전 연결이 없으며 첫 예문은 匂いがする(AbsoluteVerb_757)의 갓 구운 빵 냄새가 가까운 곳까지 나는 장면과 유사하다. 향기 뜻과 표현 근거를 확인하고 한쪽 장면 개정을 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_759",
+    "sourceHash": "c67d9bdfe3fe761c80d0d6ff2247a4fa774b1ba5aa83232ef87a0a1aec8de2b3",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “소리가 나다” 및 1개 sense를 대조했다. 물이 떨어지거나 자물쇠가 움직이는 소리가 들리는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_760",
+    "sourceHash": "f877612cd7b47f406a8ce5d71c1d23ebd496fb0ffdbcde5a48590c212c2d2b59",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “목소리/울음소리가 나다” 및 1개 sense를 대조했다. 사람의 목소리가 들리는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_761",
+    "sourceHash": "0c8066eb0c3d432a22cc72c0a1b299d9645aa8f52b77da68a93a2c2d999318e6",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “느낌이 들다” 및 1개 sense를 대조했다. 방과 사람의 상태에 관해 어떤 인상을 받는 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_762",
+    "sourceHash": "a033c77b2b1303b46167b4781d08bc752b57e5a08a78ec7da11f11f85cd07b56",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “~한 느낌이 들다, ~인 것 같다” 및 1개 sense를 대조했다. 기억이나 상황이 그러한 것 같다는 주관적 인상을 나타낸다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_763",
+    "sourceHash": "cc5c7421ca7576a44ce87ad90a54e0ed29499316a099375c850b84e2d4bfebc9",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(구체적인) 생각이 들다” 및 1개 sense를 대조했다. 실수의 부끄러움과 옛집의 그리움이라는 감정을 느끼는 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "완성 표현 사전 연결이 없으며 word 뜻 구체적인 생각은 현재 두 예문의 감정·기분 범위를 정확히 나타내지 못한다. 부끄럽거나 그리운 느낌이 들다의 의미를 명료화해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_764",
+    "sourceHash": "aa784cc923a8629a4742249fc675958ef4803a26ba4d470467e9b3a06d405873",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “예감이 들다” 및 1개 sense를 대조했다. 앞으로 좋은 일이나 나쁜 일이 생길 것 같다는 예감을 느끼는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_765",
+    "sourceHash": "a356636d759794d9add99e8ea96d12ec87c3fa3ee067ba1dfbd345a8c8fe818e",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “한기가 들다” 및 1개 sense를 대조했다. 몸에 한기가 느껴지는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_766",
+    "sourceHash": "f5d3d2c2c4525aa717c653ef819a9044afc0d994eb2b9e0c3a9187a8f96ddf39",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “현기증이 나다” 및 1개 sense를 대조했다. 갑자기 일어나거나 몸이 불편하여 현기증을 느끼는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_767",
+    "sourceHash": "6245b9c73a4e492e01161a66edeab36a32813042bd58e9b015bbabd2fd87551f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “두통이 나다” 및 1개 sense를 대조했다. 머리에 통증을 느끼는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_768",
+    "sourceHash": "c9d3ae25ca8d5695a611170576c3976f87315147d0b3fb2d70844aae6f5ecfdb",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “구역질이 나다” 및 1개 sense를 대조했다. 차 안에서 속이 메스껍고 토할 것 같은 느낌이 드는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_769",
+    "sourceHash": "7059a413cb67e874ad99f11ca9b646ea5c18b70dbec9724554e6f02411cee0be",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “이명이 나다” 및 1개 sense를 대조했다. 외부 소리가 없는데 귀에서 소리가 들리는 이명을 표현한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_770",
+    "sourceHash": "2b1eb3716cc1f7fb3cfa1d79945a0c95816ec9695fd9a6b93f79b4f362168dc7",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “가슴이 쓰리다” 및 1개 sense를 대조했다. 기름진 음식 뒤에 가슴이나 속이 쓰린 감각을 나타낸다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_771",
+    "sourceHash": "f7801b43d8687a049cd9b7cd660aeb447aed410587f8d0acc67ec469307d71e0",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “~한 형태이다” 및 1개 sense를 대조했다. 돌과 구름이 특정 사물과 같은 형태를 지니는 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_772",
+    "sourceHash": "24bc01dae304ae4d5069e1ef5e72f9b27d837708e25022765d4b05e8f345bc7f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “~한 무늬이다” 및 1개 sense를 대조했다. 날개와 등의 무늬가 특정 모양을 이루는 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_773",
+    "sourceHash": "0531f11e90633771a77e56619b90564bf9f8364b3d63780b0d3ddf20570e23de",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “~한 차림이다” 및 1개 sense를 대조했다. 사람이 특정한 복장이나 차림을 하고 있는 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_774",
+    "sourceHash": "5ba7ec4e4db87265343dc981f987189338824d7bae4706ec28cecd33eaff97cb",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “~한 형상이다” 및 1개 sense를 대조했다. 귀신과 새의 모습으로 존재하거나 분장한 형상을 나타낸다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 단위의 사전 근거와 등급을 별도로 확인해야 한다."
+    ]
+  }
+]

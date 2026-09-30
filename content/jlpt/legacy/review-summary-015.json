@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T05:30:55.375Z",
+  "checkedWords": 31,
+  "checkedExamples": 62,
+  "accepted": 30,
+  "held": 1,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "원본 전체와 제공 사전·분류를 대조했다. 최소 예문 1개 정책이며 원본 내용은 변경하지 않았다.",
+    "~倍 사전 연결 보류. 歯 별칭은 후보만 확인했으며 沸騰 의미 범위는 참조 검토와 분리한다."
+  ]
+}

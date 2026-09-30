@@ -1,0 +1,17 @@
+[
+  {
+    "wordId": "lex-jmdict-1225680",
+    "category": "substantive",
+    "note": "疑惑 힌트를 부정이 있을지 의심하는 의미로 바로잡았다."
+  },
+  {
+    "wordId": "lex-jmdict-1225420",
+    "category": "clarity",
+    "note": "欺く 문장에서 신용을 잃는 주체를 기업으로 명시했다."
+  },
+  {
+    "wordId": "lex-jmdict-1227570",
+    "category": "substantive",
+    "note": "ことにしている의 지속적인 습관을 한국어 현재 표현으로 맞췄다."
+  }
+]

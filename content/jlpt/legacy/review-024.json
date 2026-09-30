@@ -1,0 +1,542 @@
+[
+  {
+    "wordId": "AbsoluteVerb_62",
+    "sourceHash": "1b67ec9d99106190cdf62bcb03322dc507c49774ffbbd23b748a08acc6c4efda",
+    "proposalHash": "e692dffaf0328ecbc2c9b9a6869b3d6cd118d8a710a901a5351cf7b9d975e411",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "경험과 생각을 이야기하는 N3 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_63",
+    "sourceHash": "0d936e272ffc2982bbfb501036cf585de50ac3ff6026a649d2c69f12f4e64852",
+    "proposalHash": "efc6c33cfd149ce4609f7ed703429f1ce52e2583cd209950a75b5aa4f004f08a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "사물·상황이 사실을 드러내는 N2 의미를 직접 서술과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_64",
+    "sourceHash": "0e32cb89c294f8dd7eed613a52c3396160929d47d72007085f71a64156b15de1",
+    "proposalHash": "458b46d0e997931d9c4aba214fb5c1e2b3fc198fee8c7668d2de0f66142f3143",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "감사·이유를 공식적으로 진술하는 N3 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_65",
+    "sourceHash": "83509593153614cbd97348f521a3b3ad3411902608d38f4fb60dbe48d4768b6b",
+    "proposalHash": "122bd4cdad23bc6e650a6dc77ec8c75c9c6dc71c4736b6fc269ed972912262c3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "중얼거리는 두 장면은 맞지만 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_66",
+    "sourceHash": "cf2a5eac84712d26c2961ef7d4fba23d222d28695005117bd49aa2831eeca817",
+    "proposalHash": "70c4d6bbb6bc3743f7fccff2c908be9749d7c797cffc2e7567b0d81baebd2eb3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "속삭이는 의미는 일관되지만 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_67",
+    "sourceHash": "41a33062b2e2f48695bac530c0cc40a39dc132fbd1a92835463f0cd41de5faba",
+    "proposalHash": "f48d400edf8f586948c05149106209b66e6d1bb176e71b75c5a9aabd193252fd",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "말을 더듬는 의미는 일관되지만 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_68",
+    "sourceHash": "7fad1d15dfe23ee79ab83df6bfc9bccb870adc050ead896362105dba439fe6a6",
+    "proposalHash": "1bd7df87bba995241f886a3e302cba54df28f240a37ce7fa97077f6144d18164",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "이름을 부르거나 사람을 부르는 N5 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_69",
+    "sourceHash": "b8e881625eb13c075261a4954b1b6248aeb5dca67b15892c751dd3b6247c9ee9",
+    "proposalHash": "e34b5e98b2ba6ab7f1b77ea63d3a18856c4a0ee5e657d4bad2dd7bc0c5d6bb92",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "큰 소리로 외치는 N3 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_71",
+    "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+    "proposalHash": "89ce6956e5571e5dceaf9d6055c0c09fae4141a9ab24a6674df5233575ac42c6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "옷·시계를 걸어 놓는 N4 타동사 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_72",
+    "sourceHash": "58865666362bb2b377c08d2e390dfff86a75f47fa43869b620168388e63b5bcf",
+    "proposalHash": "acc4b501891f43a1cbeda597f432cdb90043d7b8ccadc793bf10c539637b087f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "시간이 소요되는 N3 자동사 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_73",
+    "sourceHash": "b48e31b51e9d204c5b1a75186a39225eb0ef5ae80d20a89fa341f6e4e5afef7a",
+    "proposalHash": "e007549b0f17773a1c5a6d09d4b0178f90a15661b172f1d8c366349d3fd1dea6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "이름표·리본을 붙이는 N3 용법으로 착용·점등과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_74",
+    "sourceHash": "c823b178d106847497829297add67874023a6d26e00e4a697b09880812d16a67",
+    "proposalHash": "357ff9e831360646f78a118125cee66e6e070a99cf352d04ce60ad776cd16fa7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "불을 켜는 N2 용법으로 부착 의미와 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_76",
+    "sourceHash": "1c815852c34cb0dd147bf716c0ea625ed167d17ed752ef7e2a18ebea5a039741",
+    "proposalHash": "1f370e04c17d78cba197a8c7471c1ed30042ac5b4c7852045f93a19b9578a150",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "기본적인 열기 의미로 N5를 택하며 날이 밝는 明ける와 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_77",
+    "sourceHash": "7ef82f23473866f62e008baaaf21fa67e424eec8c042804ae65d74b8f74cee32",
+    "proposalHash": "7011ead51cd4bf19d0c0808228eecf8597b188702d9611c6cb5a027f7af51353",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "문·창이 열리는 기본 자동사 의미로 N5를 택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_78",
+    "sourceHash": "19c7d983d49e0d65a801bcb9aa405bfc1b54edb2bcbe3678df3a644ce81f0ebd",
+    "proposalHash": "61153aa82303d7cd534649a51a421b047a976a522e1454bd4317bf8e2ca7cb84",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "문·창을 닫는 N5 타동사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_79",
+    "sourceHash": "99a707e9695d6f9897c2a1ad07079f419ba29f7e4680c30c85de2d85fcf6658d",
+    "proposalHash": "243e9c5904a806e2d14b61121a33b4fb85c956a90a21da6885f614cbacb32b2f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "닫히는 N5 자동사 의미로 조여지는 별도 뜻과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_80",
+    "sourceHash": "d4845390a7adab44a652bb0075ac78d3b59d56fe245546bcd4f52c777029cebe",
+    "proposalHash": "4cf054463479484cfbdc20b111f71c5fd8dc96609a7c6731dbf48533168b920b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "물건을 집는 N5 기본 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_81",
+    "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+    "proposalHash": "60d9972b69c1e2bf840a17bf7005605c9441c84da897ef22d0c8c078fd23fe3a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "가방·우산을 손에 들고 있는 N5 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_83",
+    "sourceHash": "05c911da8808560bff6981d87393c3dce0ddf18c4ee9ecc65e9e991c51ab2b8e",
+    "proposalHash": "9a1772141e06677779948f9e2126c18239d2ec74f676469fdd49b6e577f314ea",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "N5 당기기 분류는 맞지만 아이가 소매를 당기는 장면이 引っ張る와 겹쳐 참조 게시 전 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_84",
+    "sourceHash": "350170738698cbecd1707b5bf89bbb3d016959a882b6b50320ac6c78529c87a6",
+    "proposalHash": "f0b8e13557c87acb1068b80a71a492a1fa2add341b0a2eb870cc2ff237e367ed",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "N3 잡아당기기 분류는 맞지만 아이가 소매를 당기는 장면이 引く와 겹친다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_85",
+    "sourceHash": "f30f8740d074055aef7dc97d7d54fc2c2d19370f8cc32953624e080cbac789ac",
+    "proposalHash": "90cc569fada5dc7fdb4f80973f5eee15dbf8240ebf00b52746d63acd4cf94d9d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "물건을 누르거나 고정하는 N2 물리적 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_86",
+    "sourceHash": "5fe9fa945a2a011dad6af4b5ec8c5476bb12f85fd031ebc617b3f9bc8522a704",
+    "proposalHash": "4ca3d13d53a727b6a6d76985b6b16d637fe0a69f219ffa72070fad2870995030",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "개·아이의 머리를 쓰다듬는 N2 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_87",
+    "sourceHash": "fcc6fe68194ad34c9dd3d05ea60bb4eb3b01ad27f0df8e6209194815ffaf6837",
+    "proposalHash": "936e5b3244d047d50b44f34adba1784f2d7c45e96db41fdf39592a0f42b6ebb9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "손을 흔들거나 병을 흔드는 N3 타동사 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_88",
+    "sourceHash": "2d3e17c98944858979d2d02494066c6eb3a23e57e27b485d12d748e5cc56b3c3",
+    "proposalHash": "92683323d788d0c6c052e4d853379efbf84980072feff53bfba69b85924528d4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "팔·밧줄을 움켜쥐는 N3 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_93",
+    "sourceHash": "8bd5eaabbe661f8a88ba5156465f12a5c596dad8f2a6ffb6985be75f07bbfdb8",
+    "proposalHash": "e3de10e1cca5ee64927b9c0247b011701ca3e1842a8d6ffc0d8c57b9672b558a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "마음·귀에 거슬리는 N1 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_94",
+    "sourceHash": "11f128637b6d82008bbfd9b160293ea45363b942e6018a9de4ffca83c33977ab",
+    "proposalHash": "a03c087fc724145571e006dc79d4cf9ff826dc4d30621d947483d1fbc3b6cf28",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "문을 두드리거나 등을 가볍게 두드리는 N3 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_95",
+    "sourceHash": "f11b998b7bed0ea5b9ac8ef7ed0f8eff9af69e86990972a435bde19c0715b63f",
+    "proposalHash": "a74db5c2dd8382cefdd529009d7a33ec425fc75161411be1ab88d33798488cd0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "쫓아내는 의미는 일관되지만 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_96",
+    "sourceHash": "011a49534e6504f1b3d7ea60ef6219e9b4d856983a2043691a59aceb2189b765",
+    "proposalHash": "75339af0030c76b166c71c5ce213e213d95be34eabcbc7715277b53b921f75f2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "붙이는 기본 의미를 N5로 분류하며 張る의 별도 뜻과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_97",
+    "sourceHash": "19d0682729082777c15ad97812b6866ecfdbe41a5f41682859b88b4d7ddcd698",
+    "proposalHash": "d63d880d54dab5c06c85aa3089ab2d68c023b956e6400d4fe2289e7d84822b2f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "버터·페인트를 바르는 N4 타동사 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_98",
+    "sourceHash": "7bb8345f0af43674270f07ccb2d7c217c418cbe51ee97e64a4ed6021004c231d",
+    "proposalHash": "427a36ace61025ad3a5989f1c1d5dff7ee7eb9bad6574e1337de06c4f997519e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-024.json",
+    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "notes": [
+      "바느질하는 N3 분류는 맞으며 단어 뜻의 꿰메다는 꿰매다로 별도 표기 정리가 필요하다."
+    ]
+  }
+]

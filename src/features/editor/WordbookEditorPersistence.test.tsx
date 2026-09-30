@@ -108,7 +108,7 @@ describe('WordbookEditorPage workspace persistence', () => {
       pathSegments.join('/') === 'src/features/vocab/editor-data/comparisonWordbooks.json')
 
     expect(setsJsonWrite?.[2]).toMatch(/"updatedAt":\s*"\d{4}-\d{2}-\d{2}T/)
-    expect(themeWordbooksJsonWrite?.[2]).toMatch(/"updatedAt":\s*"\d{4}-\d{2}-\d{2}T/)
-    expect(comparisonWordbooksJsonWrite?.[2]).toMatch(/"updatedAt":\s*"\d{4}-\d{2}-\d{2}T/)
+    expect(JSON.parse(themeWordbooksJsonWrite![2])).toEqual([])
+    expect(JSON.parse(comparisonWordbooksJsonWrite![2])).toEqual([])
   })
 })

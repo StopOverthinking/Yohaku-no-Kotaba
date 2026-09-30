@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "643ae23d97a9131426839e42a3b542707272aa74dbf9b949944c9faaa66f3bd7",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:19:13.463Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1470620",
+      "1ea0dcdb40c407103bf5eb194f8e445caa95717ff14d096865aec5383259d9f2"
+    ],
+    [
+      "lex-jmdict-1470770",
+      "c1b41339a0e74812b22c0c3c5ff7fdfef051b264e2a55312f350caa236bfb6a8"
+    ],
+    [
+      "lex-jmdict-1471330",
+      "28cb090614b8de66dd3e44d6dc487d7cf35b8b2394523be13ff94e8b10c34451"
+    ],
+    [
+      "lex-jmdict-1471560",
+      "9884063730ccc306bfce022376dcea82e057f5c9a79f9893f01ed0bc2ac6e3f9"
+    ],
+    [
+      "lex-jmdict-1471970",
+      "a1e67e185cacbf0e3e8400b92ef2cf092e5b21710aac8a78854675d18e4fa5ed"
+    ],
+    [
+      "lex-jmdict-1473140",
+      "807ba4ddbd1c0efd7e63c65aa1be7584a45dd1c984feb29ea62cad6a85cb8e2f"
+    ],
+    [
+      "lex-jmdict-1473460",
+      "fc08aa444cb47cb0e27bee6f7f4df831fc39a6efb86420cb4218ec2fe288d51b"
+    ],
+    [
+      "lex-jmdict-1474720",
+      "08a8b94cff0d70da516729863c8de97bf2ff754a339fa7a7d4d8b4aa4cb53ade"
+    ],
+    [
+      "lex-jmdict-1474820",
+      "a01c3eb0fdf6b03ebdcfc6b65983640cd2fdfe99bf2b4fd08a3cd867d81d7ae3"
+    ],
+    [
+      "lex-jmdict-1475910",
+      "f3542ff58972282a4ec265bca32110a74e400638971a01841c2403a2db983c79"
+    ],
+    [
+      "lex-jmdict-1476060",
+      "d87fe0be5535c7be1f3da0952d1b46df827fa1c80847d3d72e0b46d78de061c0"
+    ],
+    [
+      "lex-jmdict-1476520",
+      "2c0dd2166c076e7c028763ba6279b7e69c441e4772c5a521c1dd74764f60f826"
+    ],
+    [
+      "lex-jmdict-1477310",
+      "0c3ea335560e6b302cb165ed05fc0ded959b61f1d810a132267ca55c145b2562"
+    ],
+    [
+      "lex-jmdict-1477390",
+      "d0b281af8ff311a0490c8941d098ccdd3c9b6e9b84c3dde7c30a8834b1777451"
+    ],
+    [
+      "lex-jmdict-1477500",
+      "a1a09f8b33e844e968da1d557b302ffdb8c534afde261bc315a66f169edcaac8"
+    ],
+    [
+      "lex-jmdict-1477680",
+      "ca98eda3d82c4771a796df1fc9f822ed37747ad8f574f9d69ae5630b0cd83418"
+    ],
+    [
+      "lex-jmdict-1477910",
+      "d3f821f906d93533aedb1bdd234774907cd0c923ca44d4332609b67672b0b75a"
+    ],
+    [
+      "lex-jmdict-1478080",
+      "bcf01a9964e78534fd5c53f90bd5bf02085291998fd39aa545593caf0d85a38b"
+    ],
+    [
+      "lex-jmdict-1478780",
+      "82ba5f6cb5e177096e3471e29198f3a46ddce6caa054d34093a8741b92d89a91"
+    ],
+    [
+      "lex-jmdict-1480380",
+      "b05a1ada2e38116b7ab7659f588caae5d57de7dd040172ba4ec9698ce93898d7"
+    ],
+    [
+      "lex-jmdict-1481590",
+      "4ca2b80443c063173277c128db5d5ea026825c210c07c184fa3e70e3657c1f4a"
+    ],
+    [
+      "lex-jmdict-1481630",
+      "6da23e9a4154ab25cdf4dd1751ca3fc6ea486b6380607f1ef41f37b0d261b96f"
+    ],
+    [
+      "lex-jmdict-1481890",
+      "15aede5419cf9cfd522cd868e8b3494e463f76365c5ae53e5b5efc922a77603f"
+    ],
+    [
+      "lex-jmdict-1483280",
+      "137d82884046f00a4de25b07d1b7671440c0422cb886a5ec717bb8cdc4f79911"
+    ],
+    [
+      "lex-jmdict-1483420",
+      "6e48921015998760f21305d54967ba826e667f7ac3536394925b5f3542ac6af1"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1471560",
+      "category": "substantive",
+      "note": "최근 兎의 풀 먹기 장면과 겹쳐 첫 승마의 높은 눈높이를 경험하는 장면으로 교체했다."
+    }
+  ]
+}

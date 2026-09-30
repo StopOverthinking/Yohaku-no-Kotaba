@@ -1,0 +1,22 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "legacy-held-fix-proposals-only",
+  "startedAt": null,
+  "completedAt": "2026-09-30T06:24:04.595Z",
+  "rows": 33,
+  "addedSenses": 11,
+  "changedExamples": 7,
+  "duplicateMasked": 0,
+  "originalsModified": false,
+  "categories": {
+    "equivalent-usage-metadata": 12,
+    "additional-common-sense": 10,
+    "example-only": 7,
+    "retain-existing-usage": 3,
+    "resolved-history": 1
+  },
+  "executionStartedAt": "2026-09-30T06:23:21.999Z",
+  "startLimit": "제안 내용 작성 시작 시각을 따로 기록하지 않아 순수 작성 시작은 측정 불가; 실행 시각은 별도 기록",
+  "revisionAttempts": 1
+}

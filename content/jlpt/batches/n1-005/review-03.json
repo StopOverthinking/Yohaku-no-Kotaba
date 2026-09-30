@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "6f70668085c8697ac72edc5022ee07e91ea43e3e259144e1eb7bb00f888443fe",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:48:32.553Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1237170",
+      "6c08119b8fd79137a93d9c90fed870bd9e34dde54bc6d16260d6504e515a7ea5"
+    ],
+    [
+      "lex-jmdict-1237220",
+      "94def6f9bb93b7000e0e00191b9d31355d37985b5876d9264c7a06a5137f458d"
+    ],
+    [
+      "lex-jmdict-1237440",
+      "745cea24342e59d611da6c2fdd7f19c31178dba3e28a855421200d2cacb4107e"
+    ],
+    [
+      "lex-jmdict-1237470",
+      "e05b64b61d2601be41aa2504c9c8b85a44d68ae7e9a3742af9e3284f1730e500"
+    ],
+    [
+      "lex-jmdict-1238070",
+      "fd7aa75dbf7c609a2c6bef081ccc710c7c7915530967183407883555ac8fcad7"
+    ],
+    [
+      "lex-jmdict-1238110",
+      "c8531d047c0eacaf3b0459bc94523ea262c98fde4fad48cdd60766e1c26dba99"
+    ],
+    [
+      "lex-jmdict-1238180",
+      "9344952f9660867e8f721774b92f704835bc5bdb263fd51833a64adedbc4b3bc"
+    ],
+    [
+      "lex-jmdict-1238380",
+      "6573266fe294b7e7460e6940dfe6982979af4ed30a248e17b02fe8b4ef034689"
+    ],
+    [
+      "lex-jmdict-1238500",
+      "473878aef4da48b14869f9e14d94e8e7c92b42b15f79505031cd3197d630dffb"
+    ],
+    [
+      "lex-jmdict-1238700",
+      "2faac065d0d128349244b0bbda658a65860ee173e5a14fffba9e11cde2860de7"
+    ],
+    [
+      "lex-jmdict-1238780",
+      "28cba777af26c13ea373e01a2b5c2846d499ab6c006b35bede9f4501c666b4eb"
+    ],
+    [
+      "lex-jmdict-1239440",
+      "92acef1c4c4ca44db4307da51650342c3e0c01123a1b74892c8817139b0a6ab1"
+    ],
+    [
+      "lex-jmdict-1239460",
+      "6087584aa0e6bd00fe0a097cde507197057bfdce861d6100c663936b169c6631"
+    ],
+    [
+      "lex-jmdict-1239540",
+      "753439a0f9f259e9e16a56bec1e12eef2874f7532561ba67d2cfa24c29cabeab"
+    ],
+    [
+      "lex-jmdict-1240200",
+      "ae321cb6b2e5a7864ae72c16041f5191cee24c468134dda1c4b2c48dead740da"
+    ],
+    [
+      "lex-jmdict-1240380",
+      "143f2413db321b979ad9d1403cf300ff895d3289cea7335755966a57e42d0c49"
+    ],
+    [
+      "lex-jmdict-1240910",
+      "09eb04d708b077479dcd92367dfe2484bac904893c06dfaf66f8492843cf46f9"
+    ],
+    [
+      "lex-jmdict-1241060",
+      "842f04b9db989083eb0badb3f9c90985a4a504f6383705b529724a61b5739334"
+    ],
+    [
+      "lex-jmdict-1241070",
+      "f229e1a044147256fba837168bdae1f5c130d891781accd594325ab886d1c9ca"
+    ],
+    [
+      "lex-jmdict-1241470",
+      "5091dad3e92761fb31e28dc3e2eef027156eb285b9187ead52ef24d10ee61ad5"
+    ],
+    [
+      "lex-jmdict-1241660",
+      "1156799a0a358786b8d89dc642b2a23ccb64e8f70554272680c11ce95369e19b"
+    ],
+    [
+      "lex-jmdict-1241850",
+      "856be0696518edc3e6e0c9834ce1169b14b0e4421969ad9d6b03d7dd3b319801"
+    ],
+    [
+      "lex-jmdict-1242290",
+      "cf89b08efc9241d5d0e92add3c540d3c13489f008cc0d89f88f30a311d5b3bc2"
+    ],
+    [
+      "lex-jmdict-1243390",
+      "cc0f28152b53d599e45bdc473a3a664b5930f123b74759628df870b88a053285"
+    ],
+    [
+      "lex-jmdict-1244120",
+      "a27cd1182b5c0536dd9bfdfd361d8ee4a18ed6350568c3b9ca348c4edcf0aa05"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1238070",
+      "category": "substantive",
+      "note": "脅す 힌트에서 원하는 행동의 주체를 협박받는 상대가 아닌 협박하는 쪽으로 바로잡았다."
+    },
+    {
+      "wordId": "lex-jmdict-1241060",
+      "category": "clarity",
+      "note": "休む判断의 한국어를 쉬어야 할 때의 판단으로 자연스럽게 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1244120",
+      "category": "clarity",
+      "note": "運転見合わせ를 열차 운행의 일시 중단으로 분명하게 번역했다."
+    }
+  ]
+}

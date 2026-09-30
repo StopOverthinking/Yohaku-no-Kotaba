@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d178df80a9e46e2b4e9766276fa8d273061650367be179f5725814016c535fb8",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:04:34.754Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1270850",
+      "91ecc7509a8a659cc1a8c204de098b28b434984dd6d7d3b48be94a1d3f0ae052"
+    ],
+    [
+      "lex-jmdict-1271060",
+      "9ab5cd7aa01dec6cfbe74d22d4f7f8c80e09730e21e784ec2a73d01ca01b7a86"
+    ],
+    [
+      "lex-jmdict-1271090",
+      "23ec758704e3063b15311cc6afaa6af59dafb36cb8339697fe1a01f7ece011ff"
+    ],
+    [
+      "lex-jmdict-1271260",
+      "104b2f7bbdc88bdcd09ec30322b0848bc07e7cf0aa849f6d289e67e374356ef0"
+    ],
+    [
+      "lex-jmdict-1271320",
+      "b59ec49c83dffdc7c807f9a461e481b4168dbab80d5e1645fa4a3d793d430af5"
+    ],
+    [
+      "lex-jmdict-1271480",
+      "edcb74e631925e19b83deb6a6519044074dc820a824b3f78fcf9644a56231f62"
+    ],
+    [
+      "lex-jmdict-1271510",
+      "70665cc1d94011bdd0ef2b6a2cd48ed87ecb8e4b8a803587271fdbda2eacd06b"
+    ],
+    [
+      "lex-jmdict-1271660",
+      "441173b7aab6dbab78c641c04778af894c029e38e0697d1668e30e5d568d970b"
+    ],
+    [
+      "lex-jmdict-1271700",
+      "77bff20ebea2e930adf521c80ac8d19de7c5a1c02686d38273dc583c0436b3b1"
+    ],
+    [
+      "lex-jmdict-1271710",
+      "abdd3a97ee25918827e905eee04b0a2ef95dbaaed742c6f316dfd91e062336b5"
+    ],
+    [
+      "lex-jmdict-1271940",
+      "b483079fa8219ed3dd1a453e7902ddb10334b7051a9de1043644ab91a4f649ad"
+    ],
+    [
+      "lex-jmdict-1272110",
+      "04c748288c444a4be647f090ac40696cd65928fc71869862451eb2eb864b8c2a"
+    ],
+    [
+      "lex-jmdict-1272520",
+      "89018be6a65689b7965975172670d6f4312df9ca15cda9d35e0f0578ffffe74b"
+    ],
+    [
+      "lex-jmdict-1273050",
+      "86099d59aaefdd17f69a80ea12e59ae422da2a383696afa149e60900c897796e"
+    ],
+    [
+      "lex-jmdict-1273110",
+      "a37db7ace0f5308ddc3327b99852f2c54fdae92e930080e211bea48db10c6d5f"
+    ],
+    [
+      "lex-jmdict-1273170",
+      "32033b9f5da098996cd63419d9dbc0cfa81f4889bcdba530125f0135f19605c3"
+    ],
+    [
+      "lex-jmdict-1273280",
+      "03023da4dd6f74f1b9c8327afbd38034383a8133a62a25674783d1c12a93df2f"
+    ],
+    [
+      "lex-jmdict-1273370",
+      "10ff6aee24ce19cad0a4b0b1e1b6f5547075e635c677a884c9abff7680a99f85"
+    ],
+    [
+      "lex-jmdict-1274190",
+      "972a75ad802c22f43f49b812f1dfbd80d3758b4c4e97bfe1bf1a76940c63c022"
+    ],
+    [
+      "lex-jmdict-1274450",
+      "34a636d56f354a59c13364d26c199c107d1447614e9b74bd5de43b18681997b7"
+    ],
+    [
+      "lex-jmdict-1274680",
+      "00a034e89e5713128061f771421b2d540eced2b7a2312c24783e9412873aa1b5"
+    ],
+    [
+      "lex-jmdict-1275000",
+      "8e3548128ca637f2607bebe6d260dc962cf321cb712ecb4207af65ae3020fbda"
+    ],
+    [
+      "lex-jmdict-1275720",
+      "152effe53467280f5ced76bad453276268b112ab755fe5925f55f2b026a01417"
+    ],
+    [
+      "lex-jmdict-1276310",
+      "2d9241317395121595e0fa0eae87de292ada45a85b939eddb1150f103e2dddd3"
+    ],
+    [
+      "lex-jmdict-1276710",
+      "99b7404a8918cc220a04840d88829da426ea5f960a148f7e8e6a891cf600a59e"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1271090",
+      "category": "clarity",
+      "note": "意味는 과거의 의미도 가리킬 수 있으므로 현재 뜻으로만 한정한 대비를 완화했다."
+    },
+    {
+      "wordId": "lex-jmdict-1275000",
+      "category": "clarity",
+      "note": "국립과 별도로 쓰이는 일반적인 공립 기관 용법에 맞게 힌트를 지방자치단체 중심으로 명료화했다."
+    },
+    {
+      "wordId": "lex-jmdict-1271710",
+      "category": "substantive",
+      "note": "貿易의 항구 발달·교역 활발 장면과 겹쳐 옛 장부에 기록된 거래 품목을 살피는 장면으로 교체했다."
+    }
+  ]
+}

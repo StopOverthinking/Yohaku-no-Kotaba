@@ -1,0 +1,342 @@
+[
+  {
+    "wordId": "AbsoluteVerb_62",
+    "sourceHash": "1b67ec9d99106190cdf62bcb03322dc507c49774ffbbd23b748a08acc6c4efda",
+    "level": "N3",
+    "dictionaryId": "jmdict-1270990",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(이야기·경험을) 들려주다, (생각·감정을) 말하다” 및 1개 sense를 대조했다. narrate와 옛 꿈·여행 추억을 이야기함 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_63",
+    "sourceHash": "0d936e272ffc2982bbfb501036cf585de50ac3ff6026a649d2c69f12f4e64852",
+    "level": "N2",
+    "dictionaryId": "jmdict-1502490",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(상황이 어떤 사실을) 말해주다” 및 1개 sense를 대조했다. indicate와 닳은 신발·침묵이 사실을 드러내는 예문이 일치한다. 직접 이야기하는 의미는 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_64",
+    "sourceHash": "0e32cb89c294f8dd7eed613a52c3396160929d47d72007085f71a64156b15de1",
+    "level": "N3",
+    "dictionaryId": "jmdict-1340820",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “진술하다, 서술하다” 및 1개 sense를 대조했다. state·express와 감사·이유 진술 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_65",
+    "sourceHash": "83509593153614cbd97348f521a3b3ad3411902608d38f4fb60dbe48d4768b6b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “중얼거리다” 및 1개 sense를 대조했다. 혼잣말·안 들리는 작은 말 예문은 중얼거림으로 일관된다. 제공 사전 후보가 없어 つぶやく/呟く 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "つぶやく의 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_66",
+    "sourceHash": "cf2a5eac84712d26c2961ef7d4fba23d222d28695005117bd49aa2831eeca817",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “속삭이다” 및 1개 sense를 대조했다. 귓가 축하·도서관 작은 목소리 예문은 속삭임에 일관된다. 제공 후보가 없어 ささやく/囁く 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ささやく의 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_67",
+    "sourceHash": "41a33062b2e2f48695bac530c0cc40a39dc132fbd1a92835463f0cd41de5faba",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “말을 더듬다” 및 1개 sense를 대조했다. 발표·말을 기다림 예문은 말 더듬기에 일관된다. 제공 후보가 없어 どもる/吃る 연결과 용법 근거를 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "どもる의 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_68",
+    "sourceHash": "7fad1d15dfe23ee79ab83df6bfc9bccb870adc050ead896362105dba439fe6a6",
+    "level": "N5",
+    "dictionaryId": "jmdict-1266440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “부르다” 및 1개 sense를 대조했다. call·summon와 이름·형 부르기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_69",
+    "sourceHash": "b8e881625eb13c075261a4954b1b6248aeb5dca67b15892c751dd3b6247c9ee9",
+    "level": "N3",
+    "dictionaryId": "jmdict-1235910",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “외치다” 및 1개 sense를 대조했다. shout와 위험 경고·파도 속 외침 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_71",
+    "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+    "level": "N4",
+    "dictionaryId": "jmdict-1207610",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(벽 등에) 걸다, (전화를) 걸다, (자물쇠를) 잠그다, (안경을) 쓰다, 곱하다, 씌우다” 및 1개 sense를 대조했다. hang와 코트·벽시계 예문이 일치한다. 전화·안경·곱셈 등은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_72",
+    "sourceHash": "58865666362bb2b377c08d2e390dfff86a75f47fa43869b620168388e63b5bcf",
+    "level": "N3",
+    "dictionaryId": "jmdict-1207590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(벽 등에) 걸리다, (전화가) 걸려 오다, (열쇠·단추가) 잠기다·채워지다, (시간·비용이) 들다” 및 1개 sense를 대조했다. take time와 수리 기간·이동 시간 예문이 일치한다. 벽 걸림 등은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_73",
+    "sourceHash": "b48e31b51e9d204c5b1a75186a39225eb0ef5ae80d20a89fa341f6e4e5afef7a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1495770",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(붙여서) 달다, 덧붙이다, 기록하다, (실력, 습관 등을) 몸에 익히다” 및 1개 sense를 대조했다. attach와 이름표·리본 예문이 일치한다. N3/N2 중 기본 부착 용법에 N3를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_74",
+    "sourceHash": "c823b178d106847497829297add67874023a6d26e00e4a697b09880812d16a67",
+    "level": "N2",
+    "dictionaryId": "jmdict-1610400",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(불, 전등 등을) 켜다” 및 1개 sense를 대조했다. turn on·light와 램프·방 전등 예문이 일치한다. 付ける와 사전 ID 및 선택 뜻이 다르므로 별칭을 제안하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_76",
+    "sourceHash": "1c815852c34cb0dd147bf716c0ea625ed167d17ed752ef7e2a18ebea5a039741",
+    "level": "N5",
+    "dictionaryId": "jmdict-1202450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(문, 뚜껑 등을) 열다, (눈을) 뜨다” 및 1개 sense를 대조했다. open와 문·상자 예문이 일치한다. N5/N3의 다의 항목 중 기본 타동사 열기에 N5를 선택하며 明ける의 새벽 의미와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_77",
+    "sourceHash": "7ef82f23473866f62e008baaaf21fa67e424eec8c042804ae65d74b8f74cee32",
+    "level": "N5",
+    "dictionaryId": "jmdict-1586270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N4이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(문, 뚜껑 등이) 열리다, (눈이) 떠지다” 및 1개 sense를 대조했다. open와 창·병뚜껑 열림 예문이 일치한다. N5/N4 중 기본 자동사 열림에 N5를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_78",
+    "sourceHash": "19c7d983d49e0d65a801bcb9aa405bfc1b54edb2bcbe3678df3a644ce81f0ebd",
+    "level": "N5",
+    "dictionaryId": "jmdict-1508590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “닫다, 영업 종료하다” 및 1개 sense를 대조했다. close와 창·차량 문 닫기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_79",
+    "sourceHash": "99a707e9695d6f9897c2a1ad07079f419ba29f7e4680c30c85de2d85fcf6658d",
+    "level": "N5",
+    "dictionaryId": "jmdict-1436560",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “닫히다” 및 1개 sense를 대조했다. be closed와 열차 문·바람에 닫힌 창 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_80",
+    "sourceHash": "d4845390a7adab44a652bb0075ac78d3b59d56fe245546bcd4f52c777029cebe",
+    "level": "N5",
+    "dictionaryId": "jmdict-1326980",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “집다, 따다, 떼어 내다, 받아들이다” 및 1개 sense를 대조했다. take·pick up와 높은 상자·마지막 쿠키 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_81",
+    "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+    "level": "N5",
+    "dictionaryId": "jmdict-1315720",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “가지다, 들다” 및 1개 sense를 대조했다. hold와 봉지·우산 예문이 일치한다. 소유·지속은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_83",
+    "sourceHash": "05c911da8808560bff6981d87393c3dce0ddf18c4ee9ecc65e9e991c51ab2b8e",
+    "level": "N5",
+    "dictionaryId": "jmdict-1169250",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “당기다, 끌다, 빼다” 및 1개 sense를 대조했다. pull와 문·소매 당기기 예문이 일치한다. 사전 다의 용법 전체를 현재 뜻으로 합치지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_84",
+    "sourceHash": "350170738698cbecd1707b5bf89bbb3d016959a882b6b50320ac6c78529c87a6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1601900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “잡아끌다, 연행하다” 및 1개 sense를 대조했다. pull와 소매·전선 예문이 일치한다. 연행은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_85",
+    "sourceHash": "f30f8740d074055aef7dc97d7d54fc2c2d19370f8cc32953624e080cbac789ac",
+    "level": "N2",
+    "dictionaryId": "jmdict-1589080",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “꾹 눌러 고정하다, (핵심을) 파악하다” 및 1개 sense를 대조했다. hold in place와 종이·판 고정 예문이 일치한다. N2/N1 중 물리적 고정 용법에 N2를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_86",
+    "sourceHash": "5fe9fa945a2a011dad6af4b5ec8c5476bb12f85fd031ebc617b3f9bc8522a704",
+    "level": "N2",
+    "dictionaryId": "jmdict-1498290",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “쓰다듬다, 어루만지다” 및 1개 sense를 대조했다. stroke와 개 등·아이 머리 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_87",
+    "sourceHash": "fcc6fe68194ad34c9dd3d05ea60bb4eb3b01ad27f0df8e6209194815ffaf6837",
+    "level": "N3",
+    "dictionaryId": "jmdict-1361330",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “좌우로 흔들다, (연인에게) 차다” 및 1개 sense를 대조했다. wave·shake와 손 흔들기·병 흔들기 예문이 일치한다. 차다라는 연인 거절은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_88",
+    "sourceHash": "2d3e17c98944858979d2d02494066c6eb3a23e57e27b485d12d748e5cc56b3c3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1433650",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “움켜쥐다, 손에 넣다, 파악하다” 및 1개 sense를 대조했다. grab와 친구 팔·젖은 손의 밧줄 예문이 일치한다. 이해·획득은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_93",
+    "sourceHash": "8bd5eaabbe661f8a88ba5156465f12a5c596dad8f2a6ffb6985be75f07bbfdb8",
+    "level": "N1",
+    "dictionaryId": "jmdict-1352050",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “방해가 되다, 거슬리다” 및 1개 sense를 대조했다. irritate와 거슬리는 웃음·소리 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_94",
+    "sourceHash": "11f128637b6d82008bbfd9b160293ea45363b942e6018a9de4ffca83c33977ab",
+    "level": "N3",
+    "dictionaryId": "jmdict-1416170",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “때리다, 비난하다” 및 1개 sense를 대조했다. knock·tap와 문·등 두드리기 예문이 일치한다. 비난은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_95",
+    "sourceHash": "f11b998b7bed0ea5b9ac8ef7ed0f8eff9af69e86990972a435bde19c0715b63f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “내쫓다” 및 1개 sense를 대조했다. 까마귀·벌레를 내쫓는 예문은 일관된다. 제공 후보가 없어 追い払う의 사전 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "追い払う의 제공 사전 후보가 없어 연결 확인이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_96",
+    "sourceHash": "011a49534e6504f1b3d7ea60ef6219e9b4d856983a2043691a59aceb2189b765",
+    "level": "N5",
+    "dictionaryId": "jmdict-1427900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(얇은 것을) 붙이다” 및 1개 sense를 대조했다. affix와 우표·스티커 부착 예문이 일치한다. N5/N3 중 기본 부착 용법에 N5를 선택하고 張る의 다른 의미와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_97",
+    "sourceHash": "19d0682729082777c15ad97812b6866ecfdbe41a5f41682859b88b4d7ddcd698",
+    "level": "N4",
+    "dictionaryId": "jmdict-1444270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “칠하다, 바르다” 및 1개 sense를 대조했다. spread·paint와 버터·벽 페인트 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_98",
+    "sourceHash": "7bb8345f0af43674270f07ccb2d7c217c418cbe51ee97e64a4ed6021004c231d",
+    "level": "N2",
+    "dictionaryId": "jmdict-1517700",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “꿰메다” 및 1개 sense를 대조했다. sew와 주머니·어두운 곳 바느질 예문이 일치한다. 한국어 꿰메다는 꿰매다로 표기 정리를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "한국어 뜻의 꿰메다를 꿰매다로 정리할 후보이다."
+    ]
+  }
+]

@@ -15,7 +15,6 @@
 - 숨김 설정: `hideJapaneseInList`, `hideMeaningInList`
 - 글자 크기: `listFontScale`
 - 즐겨찾기: `favoritesStore`
-- 시험 오답: `examStore.wrongAnswerIds`
 - 화면 내부 상태:
   - `favoritesOnly`
   - `searchOpen`
@@ -26,8 +25,7 @@
 ## 세트 해석 규칙
 
 - `전체 단어장` 메뉴는 목록 화면에 표시하지 않는다
-- 레거시 `all` 선택은 현재 목록 화면에서 첫 실제 세트 ID로 치환한다
-- `wrong_answers`는 시험 결과에서 파생된 특수 목록
+- 레거시 `all`·`wrong_answers` 및 삭제되었거나 존재하지 않는 단어장 선택은 현재 목록 화면에서 첫 실제 세트 ID로 치환한다
 - 일반 세트는 `getStudyItemsForSet()`로 읽는다
 
 ## 검색과 필터
@@ -77,6 +75,4 @@
 
 ## 수정 시 주의점
 
-- `wrong_answers` 흐름은 시험과 연결돼 있다
-- 비교형 카드 표시 규칙을 깨면 시험/일반 학습 이해에도 영향이 간다
 - 텍스트를 늘리기보다 아이콘 의미를 강화하는 편이 우선

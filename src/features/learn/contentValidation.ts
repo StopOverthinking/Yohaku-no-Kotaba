@@ -1,4 +1,4 @@
-import type { LearnSense } from './contextTypes'
+import type { LearnSense, LearnSenseIndex } from './contextTypes'
 
 export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>): string[] {
   const issues: string[] = []
@@ -43,11 +43,11 @@ export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>)
   return issues
 }
 
-export function isReviewedSense(sense: LearnSense) {
+export function isReviewedSense(sense: LearnSenseIndex) {
   return (
     sense.review.word &&
     sense.review.contrast &&
     sense.review.diversity &&
-    sense.examples.filter((example) => example.status === 'reviewed').length >= 2
+    sense.examples.some((example) => example.status === 'reviewed')
   )
 }

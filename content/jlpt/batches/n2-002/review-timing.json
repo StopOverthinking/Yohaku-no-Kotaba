@@ -1,0 +1,70 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T03:09:42.756Z",
+    "completedAt": "2026-09-30T03:11:06.503Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 3,
+    "similarity": {
+      "corpusExamples": 6614,
+      "comparisons": 124025,
+      "newPairs": 0
+    }
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T03:18:15.891Z",
+    "completedAt": "2026-09-30T03:19:48.114Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantiveItems": 2,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6689,
+      "comparisons": 126033,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T03:25:19.510Z",
+    "completedAt": "2026-09-30T03:26:09.012Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantiveItems": 1,
+      "clarityItems": 1,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6764,
+      "comparisons": 127897,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T03:29:56.053Z",
+    "completedAt": "2026-09-30T03:30:40.679Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 0,
+    "correctionBreakdown": {
+      "substantiveItems": 0,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6789,
+      "comparisons": 128732,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

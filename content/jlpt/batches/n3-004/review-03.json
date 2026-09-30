@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "lex-jmdict-1150410",
+    "contentHash": "071e988c6897fe831a953309ec2807c35d0969eaaab5088048413d1047db28e8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.282Z",
+    "notes": [
+      "가족·배우자·동물에 대한 사랑을 각각 다른 행동과 연결했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1150860",
+    "contentHash": "0fe5bafd04680b9fa2871a808d0478b641c5cf96dfc0da51010e9b58d328539a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.283Z",
+    "notes": [
+      "요리·엄한 말·입양된 개의 변화로 애정의 표현을 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1152510",
+    "contentHash": "a2cc88872a38ef429ee078db6f9a77bd9932269fd2fb5e7fcf73c035dd9ea636",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.284Z",
+    "notes": [
+      "이야기·무대 배역·벽화의 악마를 자연스럽게 설명한다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1154770",
+    "contentHash": "0a8de1c9664de58eaa411681020ee421021d936c3f495eb135347c847ef4aee6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.284Z",
+    "notes": [
+      "행사 제안·채택 여부·계약서 초안의 뜻을 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1155150",
+    "contentHash": "754b78426714078e51230d8aa4e5d329d618c007159695be19367047f59a13a6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.285Z",
+    "notes": [
+      "부사적 과거·기준 전·이전 물건의 용례를 확인하고 소음 번역을 다듬었다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1155210",
+    "contentHash": "a291cc099d73cc46ada904f2e69b6e9304afca750573e011a9d55e0aa3e74623",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.285Z",
+    "notes": [
+      "졸업·사고·창업 이후 지속된 상태를 일관되게 나타낸다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1156560",
+    "contentHash": "5e5db8c9a46111575dbbbc0ed36ea541d0e14a1c67a2bdb4439c50ec69605bc6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.286Z",
+    "notes": [
+      "의향의 내용보다 결단·자기 결정·지속하는 힘에 초점을 맞췄다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1156610",
+    "contentHash": "03546e98e997e5abfc12742d4000b3e8a2b725bc64da6f4cdf30ab6db0c09369",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.287Z",
+    "notes": [
+      "참여 의향·환자 의사·몸짓 전달을 意志와 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1163170",
+    "contentHash": "66ac59d01f5b27804add3492b75162b8083c827c3bd49e59127d5ae79bddd6c7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.287Z",
+    "notes": [
+      "생물의 종류와 일종의 기분 전환이라는 확장 의미가 맞는다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1164510",
+    "contentHash": "ebb4f475623cb0261684a635e3a6113931e76794c154a74ba9985301b3d3e2cb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.288Z",
+    "notes": [
+      "위치·운반 방법·책임자를 묻는 의문 강조 부사로 한정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1166510",
+    "contentHash": "6eadd2b5868b0db80c0c9ba93899de5d9a286ab854ac86b01b9b39c6472a59cc",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.289Z",
+    "notes": [
+      "인구 대비·형제의 역할·상권 병존에서 접속 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1167820",
+    "contentHash": "4abf29caeb75598d8f77cb2ddc953e128079bf3a6900309fa69b3cd545477558",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.289Z",
+    "notes": [
+      "재배·태풍 피해·수확기 변화가 쌀 자체와 구별된다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1168060",
+    "contentHash": "9fb1146c23a8404aa0914d493b364e65da13641e98c6857ac4fd7c228f7dd1c5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.290Z",
+    "notes": [
+      "학습 표시·감사 표시·갈림길 표식의 しるし 읽기를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1173430",
+    "contentHash": "63bd064cd33c05b83058c1f9ba358ff94a6caf7c0b97d4c89c0c8d641d322017",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.290Z",
+    "notes": [
+      "가게 운영 시간·판매 담당·공사 중 운영을 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1177070",
+    "contentHash": "623ab0ceed75d414ca2e9c7426a5a0cad6e824d04fab7e256cd53887d45cc943",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.291Z",
+    "notes": [
+      "화재·촛불·조리 불꽃의 물리적 뜻을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1177390",
+    "contentHash": "1d700e096743e8ae82897a052a775a5654692641fe85d07f46cdc64332ded16d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.292Z",
+    "notes": [
+      "온천 관찰·도구 사용·산길 만남의 장면을 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1177500",
+    "contentHash": "e71c910bb760ae0eae26b1b012544e6b31f6012db254b7b497a80965fb7dad37",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.292Z",
+    "notes": [
+      "컵·연못·사진의 테두리 의미를 えん과 다른 사전 항목으로 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1179320",
+    "contentHash": "fccf7426540dd21dc15d0f17252ec6378cf89d4762879f20627ee83518decacb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.293Z",
+    "notes": [
+      "가게·서랍·동굴의 깊은 내부 위치가 자연스럽다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1181500",
+    "contentHash": "0277321d7dc49598a40d4dde9b50980d76a2ed5f692dde5c33a954a10146ac0a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.293Z",
+    "notes": [
+      "이야기 속 왕자·탄생 행사·역사 기록의 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1181700",
+    "contentHash": "f0e0f2749505fdf832ada00de1d15dece4f5c428ab91510b3d96b5d0c5519965",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.293Z",
+    "notes": [
+      "연극·역할 놀이·그림책에서 임금의 뜻이 맞는다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1182500",
+    "contentHash": "a24bbae9227b5397a027e2fc6a2a08f9e2af36bff0e077633068a7b4556ee525",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.294Z",
+    "notes": [
+      "항해·창밖 풍경·표류 구조에서 해안에서 떨어진 수역을 뜻한다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1183090",
+    "contentHash": "0daec7a84351595f05410c4db930e9b8074021633a6f98de728905fdfc01e6f9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.294Z",
+    "notes": [
+      "숙박 도움·양육·다음 세대 지원으로 은혜와 보답을 연결했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1183480",
+    "contentHash": "40fbac850d27afcced65837c0dd0a4ed878d8566f29cb0321be7a045ef974bc2",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.295Z",
+    "notes": [
+      "기후 중심 용례를 확인하고 暖かい와 温かい의 표기 구별을 바로잡았다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1183510",
+    "contentHash": "0cf2cac03fe77127c6bb8bc546f892a48d01fcb2d503291bdf7c6335612ad3bc",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.295Z",
+    "notes": [
+      "오븐·목욕물·실험 액체의 온도로 범위가 다양하다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1184370",
+    "contentHash": "52b0ab6545287310b0a2db9325e10567f0a92ab61c7d8caa3b5d2c7033dec28d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.296Z",
+    "notes": [
+      "철도 장면 하나를 내려가는 에스컬레이터로 바꾸어 용례를 분산했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1186760",
+    "contentHash": "37f410c5b23007a526475d609292201ca5020ddab5196d7512daa2f24efcc5cd",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.296Z",
+    "notes": [
+      "수업·재료 연구·공장 반응에서 화학을 과학 일반과 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1190080",
+    "contentHash": "16a00b661608c92b4e0026b351cb7e67b2b70cba4a2df41ddfdb24ab07e015de",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.297Z",
+    "notes": [
+      "불의 세기·목욕물 온도·건강 상태라는 문맥별 번역을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1191680",
+    "contentHash": "f7fce72e070b8aa2bed6194bbaf32f86b8b0dc427c7aa83889be85f2bbc1910a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.297Z",
+    "notes": [
+      "시어머니의 문제라는 문맥을 보충해 며느리 번역을 명확히 했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1195710",
+    "contentHash": "b5e5ea31a41d8b3aef8ae79f02a7b3a8ff32c41e198870b922551ad8404388a8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.298Z",
+    "notes": [
+      "행정 부서·교과서 단원·동료 업무에서 뜻과 읽기가 맞는다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1197120",
+    "contentHash": "41fc2aa50a6c6533533a5cd0a1fa17199f7c2004755ff8f210950f67823fcf02",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:34:18.298Z",
+    "notes": [
+      "작품 전시·제작 과정·작업실 보존의 장면을 확인했다."
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "scope": "example-proposal-only",
+    "wordId": "lex-jmdict-1185290",
+    "exampleId": "sense-lex-jmdict-1185290-1-ex-1",
+    "proposalHash": "3e5131f743b7e823d6e524fc7d080963611e3be31a836223462f1f9a293cee3f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of lodging-fix.json; full-sense contentHash approval pending root draft.",
+    "reviewedAt": "2026-09-30T01:48:21.043Z",
+    "notes": [
+      "하숙집 아주머니와 과자를 나누는 자연스러운 생활 장면이며 일본어·한국어 뜻이 일치한다. 아파트의 집 찾기 및 기존 하숙의 식사 제공·거주 기간과 구별된다."
+    ],
+    "validation": {
+      "oldExampleExactlyMatchesCurrent": true,
+      "exampleIdPreserved": true,
+      "versionChange": "1 -> 2",
+      "difficultyPreserved": 16,
+      "corpusExamples": 5791,
+      "similarityThreshold": 0.7,
+      "similarPairs": 0,
+      "comparisons": 97021
+    },
+    "globalReviewReady": false
+  }
+]

@@ -1,26 +1,13 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
-import {
-  BookOpen,
-  ClipboardCheck,
-  FolderTree,
-  MoonStar,
-  RefreshCcw,
-  RotateCcw,
-  Sparkles,
-  SunMedium,
-  Swords,
-  X,
-} from 'lucide-react'
+import { BookOpen, FolderTree, Info, MoonStar, RotateCcw, Sparkles, SunMedium, X } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
 import { Tooltip } from '@/components/Tooltip'
-import { useExamStore } from '@/features/exam/examStore'
 import { VocabularySetMenu } from '@/features/list/VocabularySetMenu'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { SharePanel } from '@/features/share/SharePanel'
-import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import { useShouldReduceEffects } from '@/lib/useShouldReduceEffects'
 import styles from '@/features/home/home.module.css'
 import { useContextStore } from '@/features/learn/contextStore'
@@ -37,35 +24,20 @@ function getCompactHomeLayoutMatch() {
 
 export function HomePage() {
   const navigate = useNavigate()
-  const legacySession = useLearnSessionStore((state) => state.record)
   const contextSession = useContextStore((state) => state.data.session)
   const discardContext = useContextStore((state) => state.discard)
-  const sessionRecord = contextSession ?? legacySession
-  const discardLearnSession = useLearnSessionStore((state) => state.discardSession)
-  const examSession = useExamStore((state) => state.session)
-  const clearExamSession = useExamStore((state) => state.clearSession)
-  const lastExamResult = useExamStore((state) => state.lastResult)
-  const clearExamResult = useExamStore((state) => state.clearResult)
+  const contextError = useContextStore((state) => state.error)
+  const contextBusy = useContextStore((state) => state.busy)
+  const sessionRecord = contextSession
   const themeMode = usePreferencesStore((state) => state.themeMode)
   const toggleThemeMode = usePreferencesStore((state) => state.toggleThemeMode)
   const shouldReduceEffects = useShouldReduceEffects()
   const [isCompactHomeLayout, setIsCompactHomeLayout] = useState(getCompactHomeLayoutMatch)
-  const [openMenu, setOpenMenu] = useState<'vocabulary' | 'learn' | 'share' | null>(null)
+  const [openMenu, setOpenMenu] = useState<'vocabulary' | 'share' | null>(null)
   const nextThemeLabel = themeMode === 'dark' ? '라이트 모드' : '다크 모드'
   const themeToggleLabel = `${nextThemeLabel}로 전환`
   const ThemeIcon = themeMode === 'dark' ? SunMedium : MoonStar
   const menuCardMotionProps = shouldReduceEffects
-    ? {
-        whileHover: undefined,
-        whileTap: { scale: 0.99 },
-        transition: { duration: 0.12 },
-      }
-    : {
-        whileHover: { y: -2 },
-        whileTap: { scale: 0.98 },
-        transition: { duration: 0.16 },
-      }
-  const submenuCardMotionProps = shouldReduceEffects
     ? {
         whileHover: undefined,
         whileTap: { scale: 0.99 },
@@ -110,27 +82,14 @@ export function HomePage() {
   }, [])
 
   const handleDiscardLearnSession = () => {
-    if (!window.confirm(contextSession ? '남은 학습을 닫을까요? 이미 학습한 기록은 유지됩니다.' : '진행 중인 학습을 그만둘까요? 지금까지의 학습 진행 내용은 사라집니다.')) {
+    if (!window.confirm('남은 학습을 닫을까요? 이미 학습한 기록은 유지됩니다.')) {
       return
     }
 
-    if (contextSession) discardContext()
-    else discardLearnSession()
+    discardContext()
   }
 
-  const handleDiscardExamSession = () => {
-    if (!window.confirm('진행 중인 시험을 그만둘까요? 지금까지의 시험 진행 내용은 사라집니다.')) {
-      return
-    }
-
-    clearExamSession()
-  }
-
-  const handleClearExamResult = () => {
-    clearExamResult()
-  }
-
-  const renderOpenMenuPanel = (menu: 'vocabulary' | 'learn' | 'share') => {
+  const renderOpenMenuPanel = (menu: 'vocabulary' | 'share') => {
     if (openMenu !== menu) {
       return null
     }
@@ -153,80 +112,6 @@ export function HomePage() {
       )
     }
 
-    if (menu === 'learn') {
-      return (
-        <motion.div className={styles.submenuWrap} data-submenu-for="learn" {...submenuMotionProps}>
-          <GlassPanel className={styles.submenuPanel} padding="md" variant="floating">
-            <div className={styles.submenuHeader}>
-              <div>
-                <p className="section-kicker">학습</p>
-                <h2 className="page-header__title">학습 모드 메뉴</h2>
-              </div>
-              <p className="page-header__caption">원하는 학습 흐름을 고르면 바로 해당 설정 화면으로 이동해요.</p>
-            </div>
-
-            <div className={styles.submenuGrid}>
-              <motion.button
-                type="button"
-                className={`glass-panel glass-padding-md ${styles.submenuCard}`}
-                {...submenuCardMotionProps}
-                onClick={() => navigate('/learn')}
-              >
-                <span className={styles.submenuIcon}>
-                  <BookOpen size={22} />
-                </span>
-                <div>
-                  <h3 className={styles.submenuTitle}>일반 학습</h3>
-                </div>
-              </motion.button>
-
-              <motion.button
-                type="button"
-                className={`glass-panel glass-padding-md ${styles.submenuCard}`}
-                {...submenuCardMotionProps}
-                onClick={() => navigate('/conjugation')}
-              >
-                <span className={styles.submenuIcon}>
-                  <RefreshCcw size={22} />
-                </span>
-                <div>
-                  <h3 className={styles.submenuTitle}>동사 활용</h3>
-                </div>
-              </motion.button>
-
-              <motion.button
-                type="button"
-                className={`glass-panel glass-padding-md ${styles.submenuCard}`}
-                {...submenuCardMotionProps}
-                onClick={() => navigate('/exam')}
-              >
-                <span className={styles.submenuIcon}>
-                  <ClipboardCheck size={22} />
-                </span>
-                <div>
-                  <h3 className={styles.submenuTitle}>시험 모드</h3>
-                </div>
-              </motion.button>
-
-              <motion.button
-                type="button"
-                className={`glass-panel glass-padding-md ${styles.submenuCard}`}
-                {...submenuCardMotionProps}
-                onClick={() => navigate('/game')}
-              >
-                <span className={styles.submenuIcon}>
-                  <Swords size={22} />
-                </span>
-                <div>
-                  <h3 className={styles.submenuTitle}>게임 모드</h3>
-                </div>
-              </motion.button>
-            </div>
-          </GlassPanel>
-        </motion.div>
-      )
-    }
-
     return (
       <motion.div className={styles.submenuWrap} data-submenu-for="share" {...submenuMotionProps}>
         <SharePanel mode="submenu" />
@@ -236,73 +121,37 @@ export function HomePage() {
 
   return (
     <div className={styles.root}>
+      {contextError && <p role="alert">{contextError}</p>}
       {sessionRecord ? (
         <GlassPanel className={styles.resumeBanner} variant="floating">
           <div>
             <p className="section-kicker">이어하기</p>
             <h2 className="page-header__title">이전에 진행하던 학습 세션이 남아 있어요.</h2>
             <p className="page-header__caption">
-              {sessionRecord.round}회차 · {contextSession ? `${contextSession.cards.length}/${contextSession.targetCount}` : `${legacySession!.currentIndex + 1}/${legacySession!.activeQueue.length}`}
+              {sessionRecord.round}회차 · {`${sessionRecord.cards.length}/${sessionRecord.targetCount}`}
             </p>
           </div>
           <div className={styles.resumeActions}>
             <Tooltip label="학습 이어하기">
               <span>
-                <IconButton icon={RotateCcw} label="학습 이어하기" size="lg" onClick={() => navigate('/learn/session')} />
+                <IconButton
+                  icon={RotateCcw}
+                  label="학습 이어하기"
+                  size="lg"
+                  onClick={() => navigate('/learn/session')}
+                />
               </span>
             </Tooltip>
             <Tooltip label="학습 파기">
               <span>
-                <IconButton icon={X} label="학습 파기" tone="danger" size="lg" onClick={handleDiscardLearnSession} />
-              </span>
-            </Tooltip>
-          </div>
-        </GlassPanel>
-      ) : null}
-
-      {examSession ? (
-        <GlassPanel className={styles.resumeBanner} variant="floating">
-          <div>
-            <p className="section-kicker">시험</p>
-            <h2 className="page-header__title">{examSession.setName} 시험이 진행 중이에요.</h2>
-            <p className="page-header__caption">
-              문제 {examSession.currentIndex + 1}/{examSession.questionIds.length} ·{' '}
-              {examSession.gradingMode === 'manual' ? '직접 채점' : '자동 채점'}
-            </p>
-          </div>
-          <div className={styles.resumeActions}>
-            <Tooltip label="시험 이어하기">
-              <span>
-                <IconButton icon={RotateCcw} label="시험 이어하기" size="lg" onClick={() => navigate('/exam/session')} />
-              </span>
-            </Tooltip>
-            <Tooltip label="시험 파기">
-              <span>
-                <IconButton icon={X} label="시험 파기" tone="danger" size="lg" onClick={handleDiscardExamSession} />
-              </span>
-            </Tooltip>
-          </div>
-        </GlassPanel>
-      ) : null}
-
-      {!examSession && lastExamResult ? (
-        <GlassPanel className={styles.resumeBanner} variant="floating">
-          <div>
-            <p className="section-kicker">시험 결과</p>
-            <h2 className="page-header__title">{lastExamResult.setName} 시험 결과를 다시 볼 수 있어요.</h2>
-            <p className="page-header__caption">
-              {lastExamResult.correctCount}/{lastExamResult.totalQuestions} 정답, 오답 {lastExamResult.wrongItems.length}개
-            </p>
-          </div>
-          <div className={styles.resumeActions}>
-            <Tooltip label="시험 결과 보기">
-              <span>
-                <IconButton icon={ClipboardCheck} label="시험 결과 보기" size="lg" onClick={() => navigate('/exam/result')} />
-              </span>
-            </Tooltip>
-            <Tooltip label="시험 기록 삭제">
-              <span>
-                <IconButton icon={X} label="시험 기록 삭제" tone="danger" size="lg" onClick={handleClearExamResult} />
+                <IconButton
+                  icon={X}
+                  label="학습 파기"
+                  disabled={contextBusy}
+                  tone="danger"
+                  size="lg"
+                  onClick={handleDiscardLearnSession}
+                />
               </span>
             </Tooltip>
           </div>
@@ -343,25 +192,24 @@ export function HomePage() {
               <h2 className="page-header__title">목록</h2>
             </div>
           </motion.button>
-          {isCompactHomeLayout ? <AnimatePresence initial={false}>{renderOpenMenuPanel('vocabulary')}</AnimatePresence> : null}
+          {isCompactHomeLayout ? (
+            <AnimatePresence initial={false}>{renderOpenMenuPanel('vocabulary')}</AnimatePresence>
+          ) : null}
 
           <motion.button
             type="button"
             className={`glass-panel glass-padding-lg ${styles.actionCard}`}
             data-menu="learn"
-            data-active={openMenu === 'learn'}
             {...menuCardMotionProps}
-            onClick={() => setOpenMenu((value) => (value === 'learn' ? null : 'learn'))}
+            onClick={() => navigate('/learn')}
           >
             <div className={styles.actionMeta}>
               <span className={styles.actionIcon}>
                 <Sparkles size={28} />
               </span>
               <h2 className="page-header__title">학습</h2>
-              <p className={styles.actionCaption}>일반 학습, 동사 활용, 시험 모드, 게임 모드</p>
             </div>
           </motion.button>
-          {isCompactHomeLayout ? <AnimatePresence initial={false}>{renderOpenMenuPanel('learn')}</AnimatePresence> : null}
 
           <motion.button
             type="button"
@@ -379,12 +227,20 @@ export function HomePage() {
               <p className={styles.actionCaption}>클립보드, JSON, QR</p>
             </div>
           </motion.button>
-          {isCompactHomeLayout ? <AnimatePresence initial={false}>{renderOpenMenuPanel('share')}</AnimatePresence> : null}
-
+          {isCompactHomeLayout ? (
+            <AnimatePresence initial={false}>{renderOpenMenuPanel('share')}</AnimatePresence>
+          ) : null}
         </div>
 
-        {!isCompactHomeLayout ? <AnimatePresence initial={false}>{openMenu ? renderOpenMenuPanel(openMenu) : null}</AnimatePresence> : null}
+        {!isCompactHomeLayout ? (
+          <AnimatePresence initial={false}>{openMenu ? renderOpenMenuPanel(openMenu) : null}</AnimatePresence>
+        ) : null}
       </GlassPanel>
+      <Tooltip label="단어 데이터 출처">
+        <a className={styles.sourcesLink} href={`${import.meta.env.BASE_URL}sources.html`} aria-label="단어 데이터 출처">
+          <Info size={18} />
+        </a>
+      </Tooltip>
     </div>
   )
 }

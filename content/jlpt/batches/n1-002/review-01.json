@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "5c3b494f69e0a12e7a5c79185fae780c2fbf3bd7a266b95e3c948b9b9394ef5f",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:13:36.014Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1153310",
+      "95b8cb4b9f1b4dcea63fce658a0e2a30a17129470683b3886d98b923ce54b4b4"
+    ],
+    [
+      "lex-jmdict-1153340",
+      "a5ea9ce8360c5185546c44cc9f47207e8f934428eeabc852249ab8349971546c"
+    ],
+    [
+      "lex-jmdict-1154520",
+      "318179c5ac8e77fc57f8474b867af1a46812a6fa2283a221631a9a12c768503d"
+    ],
+    [
+      "lex-jmdict-1154550",
+      "0abee2bc70b73141fcff037efd44f76c2ef29ddef60a77bd5b96fa4f2907056b"
+    ],
+    [
+      "lex-jmdict-1156160",
+      "d1186cb0470a143b5500f32cd722ddef719866c30c27cfe637ad3185a2dc9441"
+    ],
+    [
+      "lex-jmdict-1156690",
+      "0e98786e44cb963834b46d46f57aad9f5004372974dc04dbf3b277401b6333a4"
+    ],
+    [
+      "lex-jmdict-1156720",
+      "c817d622334d38fef0c0d872cf5d54b183f6c374ca7c0d79112dee86ac80bd11"
+    ],
+    [
+      "lex-jmdict-1157580",
+      "ff3b6d795badc9f5b463495a073eb3af92020b55d7780c3b93468c7a1c7441e1"
+    ],
+    [
+      "lex-jmdict-1157970",
+      "689eb6e46e6a4faec8beb9336e70d2ef6f2a867405c07dfd51d5bafce020e184"
+    ],
+    [
+      "lex-jmdict-1158150",
+      "d16fefe746982653cab41511a329150c5cd353d726bb7a670f30fe395931cef7"
+    ],
+    [
+      "lex-jmdict-1158240",
+      "8de65e12de6064a38a0d4d552906dde36c0d32921f42d7de8b19f4f6ad9f649e"
+    ],
+    [
+      "lex-jmdict-1160500",
+      "483592216622aa8ce849cec23ab267c79a76066db1113061bd736557c0b71fe7"
+    ],
+    [
+      "lex-jmdict-1161470",
+      "1a02fe6c11c8a163eaaffbe89a5f85742f2c0578f92cd69c3930aee8fc2ca768"
+    ],
+    [
+      "lex-jmdict-1166420",
+      "e040667972a96bb8310b39ca58bf9441e9bbdc3fc693233e9386f4d111d8af9d"
+    ],
+    [
+      "lex-jmdict-1167450",
+      "17bf9025452e8bf681d062b3866fb2feb50d5e3c29981c6f776d3242f6a77471"
+    ],
+    [
+      "lex-jmdict-1170690",
+      "3932a902b8077923babe1cedd97e67991025166f1052c8ff4f220b9c347df4f2"
+    ],
+    [
+      "lex-jmdict-1172690",
+      "ffd9a6090150389c9cd9898574a15030b2335d05a903be27b2e9bffec84949cd"
+    ],
+    [
+      "lex-jmdict-1173010",
+      "9e8fbb97bc5cc7f9dbb23d0d6c525d20f7cd966a18b7ac9aa2c18882b382ee05"
+    ],
+    [
+      "lex-jmdict-1173050",
+      "23c217ad9fbd89e2e1892a08994f62bcbb369c697e58838243a51301823fee65"
+    ],
+    [
+      "lex-jmdict-1173090",
+      "16318548726053ed8e89aba06a161c4c1d871acbad9e5eb03fdf6152313f18d1"
+    ],
+    [
+      "lex-jmdict-1175380",
+      "1f8bccff5907904f1cecacd36bf952ca387fea0bc828dcda3dc4b1724ad302cb"
+    ],
+    [
+      "lex-jmdict-1176740",
+      "1a57026f7b26b37b7e08720aadb1084842f5146b5500e447a6278adb76fc7525"
+    ],
+    [
+      "lex-jmdict-1176750",
+      "27dae2117c14cf0aeb04ab1a944fef726920ed108978706a1b88b5c322cb0d17"
+    ],
+    [
+      "lex-jmdict-1176930",
+      "06eb4281b2345a56fa74d6ecc67022d93fbfa6438f9b3b3fad7e94d442f5f261"
+    ],
+    [
+      "lex-jmdict-1176950",
+      "4fcd23c95fb6b58796fd444ee56e8d993c6070731eead3dd3fdb9c023ab59a4d"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1153310",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1153340",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1154520",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1154550",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1156160",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다. 위탁을 계약 자체로 한정한 힌트를 넓혔다."
+    },
+    {
+      "wordId": "lex-jmdict-1156690",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1156720",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1157580",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1157970",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1158150",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1158240",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1160500",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1161470",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1166420",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1167450",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1170690",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1172690",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1173010",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1173050",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다. 비용 상승·압박 장면 반복을 취업 설명회로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1173090",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1175380",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다. 정지 자료의 画像를 디지털 이미지로 정확히 옮겼다."
+    },
+    {
+      "wordId": "lex-jmdict-1176740",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1176750",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1176930",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1176950",
+      "note": "혼동 대비의 두 일본어 표제어를 명시했다."
+    }
+  ]
+}

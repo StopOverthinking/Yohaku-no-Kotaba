@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "lex-jmdict-1151120",
+    "contentHash": "b238d572c36325776ca79cb595ead4be3b688cdaba5e5cabbe6700716b78c4a3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.104Z",
+    "notes": [
+      "이웃·첫 대면·떠나기 전의 인사말과 행동을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1152730",
+    "contentHash": "763738795df59e4cd944526739fb6ab57ff05c30aa7906f9ac5ef92a8fd096ec",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "반드시 오른손이어야 한다는 힌트를 손을 맞잡는 행동으로 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1158500",
+    "contentHash": "ff3f4dfb4c881ebaeb000dc7756a5a8e1150dbe908240e0aefdcfe1f8f411c5d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "소화 기관의 뜻과 과식·검사·식후 묵직함 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1158810",
+    "contentHash": "b1b223b1ba4de85c9c3f3fd05930490d0d4742e34c311925d7286dfc39affeaa",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "격식 있는 옷의 총칭과 젖은 옷·의류 수거·여행 짐을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1158870",
+    "contentHash": "0bcbf732ff47da15876846445242632ea4f99a37fc7db9f74852718ac6b72776",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "그림·맛·숫자의 차이와 오류를 뜻하는 間違い의 대비를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1159930",
+    "contentHash": "ca54fedf8c3d356a273c913198a02e020e11f267ea426c897a48c6aee65bc4e0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "간호사 등까지 포함할 수 있는 의료인 뜻을 빼고 의사로 정확히 한정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1163340",
+    "contentHash": "6e07e6450ceb7d6612449ba2134a24f63cd42f3eb4ec462c81b45ecf23ba7c96",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "짧은 빛·눈을 뗀 순간·찰나의 표정을 나타내는 시간 명사를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1172400",
+    "contentHash": "17941997376c706b8e3d7077f5fa8b21114f9eb6b359d6654169db0a1ae6ea28",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "거짓말을 하다의 결합과 사실 여부를 묻는 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1172590",
+    "contentHash": "6411aa2c5c3279704c3a4babfab33836155ff7b4756070e3a02ea0e4f010f54a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "뉴스가 반드시 검증된 정보라는 단정을 풀어 소문과의 차이를 정리했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1171300",
+    "contentHash": "9aeda620cfdc25a8e032e8c506d56ee6a6be437779c87e6ad1c4dd161c5ad0c3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "우주가 무한하다는 단정 대신 광대한 공간이라는 설명으로 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1172610",
+    "contentHash": "e6edb05b02f1aebb2d8514822fe23d4aefa273a4b56547062d06e821c224bd77",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "행운·불운·추첨의 우연한 결과를 운으로 표현하는 결합을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1173340",
+    "contentHash": "a63bc04a8a6c23ce61664571fb95700358a81e69ab3efcdb51d7cbbd5a9ecd6d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "동물 사료·먹이와 낚시 미끼의 두 뜻을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1154860",
+    "contentHash": "e03b7098fa995749098ca2f5c3e629c4e0a01e3c7b025367159a96bb0597f06d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "반드시 실제로 데려가야 한다는 설명을 방송을 통한 정보 안내까지 포함하도록 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1172830",
+    "contentHash": "bdaa1216daaed7a5cb51a4e086df315f46a0bfdf26142c5a83318694666c33ef",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "차량 운전과 기계 작동의 두 뜻을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1172910",
+    "contentHash": "ebf4ed0d9ed4f687c3cf1baf4f03c8a3d4b8bb3f378586f5355e2021640226f8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "건강 목적의 신체 활동과 기술을 익히는 연습을 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1178450",
+    "contentHash": "a5c64653bbb23803c5470590f859cc8b10f6be03f31f4bc8432fc3cf7737f7b3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "부담 없이 요청함·대화 자제·추가 음료 사양의 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1155710",
+    "contentHash": "81b96393391d46ee3afb5b60660b4b80641b86f9b7d85dc7cabb3ed76d6917b1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "전문 업체 의뢰·지인 확인 부탁·공식 요청 전달을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1169610",
+    "contentHash": "088dcbd597abb040955acec9ed000f2b19cce71b44bab8b6eb23863eda454458",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "장기간 활동한 유명인만의 행동처럼 좁힌 정의를 현역에서 물러남으로 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1168190",
+    "contentHash": "02ee218adf3c5540f802b5f3f8ed80943eb273b093c7d572da8c96b3cde33ab2",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "컴퓨터 프린터로만 한정한 힌트에 판을 이용한 인쇄도 포함했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1212380",
+    "contentHash": "e60be16f8ad282ef602b7242a444d8b85e1114024e9960f376a609791c8965ec",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "감정을 편지에 쓰는 반복 장면을 감사의 마음을 담아 저녁을 만드는 장면으로 교체했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1179830",
+    "contentHash": "75a96daee7e9b3b9ffd926736d43232b246f54e57e1751474ac7a85ffd54d266",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "부탁·조건·질문에 응하는 자동사의 に 결합을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1226990",
+    "contentHash": "4110500ff8481dd0d57a4e8c82fc52dbbd0a37046905068eea68acdcf6dd0098",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "선생님의 주의에 거스른다는 어색한 번역을 지시를 거스름으로 맞췄다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1228180",
+    "contentHash": "0211dbba3f26c85484df4f8782eac76271780d8bd27e9dc714898904314eb7c6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "夜更かし를 밤샘으로 과장한 번역을 밤늦게 깨어 있음으로 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1253570",
+    "contentHash": "7ab81b150a177a6a3477542bc5a2604489ff070a681c4c2e88039abfda49a8e0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "활과 화살은 보통 射る를 쓰므로 총·대포 발사 중심으로 설명을 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1157760",
+    "contentHash": "635389db666cedb67c4c58936c162478db9470b4530269ff2c0ef831530643a4",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "예문의 명사적 이상 유무도 대표 뜻에 반영했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1218960",
+    "contentHash": "42d71fe16c45e177310a0174abe772e4e5443fd45c086e0e8d3c39f206a1de9d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "종이꽃·목공·시계 수리의 손재주와 능숙함을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1219490",
+    "contentHash": "e2e7918555808a6dbc271712a304a9f1e19132f324a4e3bead39d83b347f76e2",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "밤중 소리 장면을 발신인 없는 편지로 바꾸고 기묘한 꿈을 시곗바늘이 거꾸로 도는 비현실적 장면으로 명확히 했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1240750",
+    "contentHash": "74516c849b949656aa6689875b93208af7433923c9ba243b39f32826f33f36ee",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "남은 물·점수 차이·출발 전 시간의 작은 양을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1244470",
+    "contentHash": "0ec248d8064cc36ffef5ebb7bdcdf26d9d2139db13b2748ed1eda6cf75bdeb93",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "기존 발표 서투름 예문과 겹쳐 첫 문장을 바늘에 실을 꿰는 섬세한 작업으로 바꿨다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1236690",
+    "contentHash": "940f6387e7d809d4d426125415a30cc22c2a5fb4d5f5e99a6aab79f204aa30ca",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-001/review-summary.json",
+    "reviewedAt": "2026-09-30T01:18:47.105Z",
+    "notes": [
+      "다른 단어와 겹치는 야간 소음 장면을 어린 시절 그림책 속 마녀에 대한 공포로 교체했다."
+    ]
+  }
+]

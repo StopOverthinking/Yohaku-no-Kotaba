@@ -4,20 +4,17 @@ import { useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
 import { Tooltip } from '@/components/Tooltip'
-import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import styles from '@/features/learn/learn.module.css'
 import { usePreferencesStore, type RequiredLearnRange } from '@/features/preferences/preferencesStore'
-import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import {
-  buildCandidateWords,
-  buildCandidateWordsWithRequired,
   getFilteredWords,
   getWordsInRanges,
 } from '@/features/study/wordSelection'
 import { getSetName, getStudySelectableWordbooks, isComparisonWordbook, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
+import { LearningProgress } from './LearningProgress'
 import { useContextStore } from './contextStore'
-import { contextContentReady, contextSenseMap } from './contextContent'
+import { contextAliasCatalog, contextContentReady, contextSenseMap } from './contextContent'
 
 const MIN_WORD_COUNT = 1
 const COUNT_STEPS = [-10, -5, 5, 10] as const
@@ -41,12 +38,9 @@ export function LearnSetupPage() {
   const updateLearnDefaults = usePreferencesStore((state) => state.updateLearnDefaults)
   const lastSelectedSetId = usePreferencesStore((state) => state.lastSelectedSetId)
   const setLastSelectedSetId = usePreferencesStore((state) => state.setLastSelectedSetId)
-  const wrongAnswerIds = useExamStore((state) => state.wrongAnswerIds)
   const favoriteIds = useFavoritesStore((state) => state.favoriteIds)
   const context = useContextStore()
-  const legacySession = useLearnSessionStore((state) => state.record)
-  const sessionRecord = context.data.session ?? legacySession
-  const discardSession = useLearnSessionStore((state) => state.discardSession)
+  const sessionRecord = context.data.session
   const [error, setError] = useState<string | null>(null)
   const [countDraft, setCountDraft] = useState(String(learnDefaults.wordCount))
   const activeCountInputRef = useRef(false)
@@ -61,12 +55,10 @@ export function LearnSetupPage() {
   )
   const activeRequiredRangeRef = useRef<{ index: number; field: RequiredRangeField } | null>(null)
   const requiredRangeBaselineRef = useRef<Record<string, number>>({})
-  const selectedSetId = lastSelectedSetId === 'wrong_answers'
-    ? 'wrong_answers'
-    : isComparisonWordbook(lastSelectedSetId)
+  const selectedSetId = isComparisonWordbook(lastSelectedSetId)
       ? 'all'
       : normalizeSelectableSetId(lastSelectedSetId)
-  const currentSetName = selectedSetId === 'wrong_answers' ? '오답 노트' : getSetName(selectedSetId)
+  const currentSetName = selectedSetId === 'all' ? '자동 추천' : getSetName(selectedSetId)
 
   useEffect(() => {
     if (selectedSetId !== lastSelectedSetId) {
@@ -100,12 +92,12 @@ export function LearnSetupPage() {
         setId: selectedSetId,
         favoritesOnly: learnDefaults.favoritesOnly,
         favoriteIds,
-        wrongAnswerIds,
+
         rangeEnabled: false,
         rangeStart: 1,
         rangeEnd: 1,
       }),
-    [favoriteIds, learnDefaults.favoritesOnly, selectedSetId, wrongAnswerIds],
+    [favoriteIds, learnDefaults.favoritesOnly, selectedSetId],
   )
 
   const availableWords = useMemo(
@@ -114,7 +106,7 @@ export function LearnSetupPage() {
         setId: selectedSetId,
         favoritesOnly: learnDefaults.favoritesOnly,
         favoriteIds,
-        wrongAnswerIds,
+
         rangeEnabled: learnDefaults.rangeEnabled,
         rangeStart: learnDefaults.rangeStart,
         rangeEnd: learnDefaults.rangeEnd,
@@ -126,7 +118,7 @@ export function LearnSetupPage() {
       learnDefaults.rangeEnabled,
       learnDefaults.rangeEnd,
       learnDefaults.rangeStart,
-      wrongAnswerIds,
+
     ],
   )
 
@@ -138,12 +130,13 @@ export function LearnSetupPage() {
   )
 
   const maxAvailableWordCount = useMemo(
-    () => new Set([...availableWords, ...requiredWords].map((word) => word.id)).size,
+    () => new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id))).size,
     [availableWords, requiredWords],
   )
-  const scopeIds = new Set([...availableWords, ...requiredWords].map((word) => word.id))
-  const nextDue = Object.values(context.data.profiles).filter((profile) => contextSenseMap.get(profile.senseId)?.version === profile.version && scopeIds.has(contextSenseMap.get(profile.senseId)!.wordId)).map((profile) => profile.due).sort()[0]
-  const minimumWordCount = Math.max(MIN_WORD_COUNT, requiredWords.length)
+  const scopeIds = new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id)))
+  const nextDue = Object.values(context.data.profiles).filter((profile) => contextSenseMap.get(profile.senseId)?.version === profile.version && scopeIds.has(contextAliasCatalog.resolveWordId(contextSenseMap.get(profile.senseId)!.wordId))).map((profile) => profile.due).sort()[0]
+  const requiredWordCount = new Set(requiredWords.map(word => contextAliasCatalog.resolveWordId(word.id))).size
+  const minimumWordCount = Math.max(MIN_WORD_COUNT, requiredWordCount)
 
   useEffect(() => {
     if (!activeCountInputRef.current) {
@@ -311,15 +304,14 @@ export function LearnSetupPage() {
   }
 
   const handleDiscardSession = () => {
-    if (!window.confirm(context.data.session ? '남은 학습을 닫을까요? 이미 학습한 기록은 유지됩니다.' : '진행 중이던 학습을 파기할까요? 지금까지의 학습 진행 내용은 삭제됩니다.')) {
+    if (!window.confirm('남은 학습을 닫을까요? 이미 학습한 기록은 유지됩니다.')) {
       return
     }
 
-    if (context.data.session) context.discard()
-    else discardSession()
+    context.discard()
   }
 
-  const handleStart = () => {
+  const handleStart = async () => {
     if (learnDefaults.rangeEnabled && learnDefaults.rangeStart > learnDefaults.rangeEnd) {
       setError('범위 시작값이 끝값보다 클 수 없습니다.')
       return
@@ -332,28 +324,13 @@ export function LearnSetupPage() {
         return
       }
 
-      if (learnDefaults.wordCount < requiredWords.length) {
-        setError(`학습 항목 수는 필수 포함 단어 ${requiredWords.length}개 이상이어야 합니다.`)
+      if (learnDefaults.wordCount < requiredWordCount) {
+        setError(`학습 항목 수는 필수 포함 단어 ${requiredWordCount}개 이상이어야 합니다.`)
         return
       }
     }
 
-    if (!contextContentReady) {
-      // Release gate: until every word is reviewed, keep the existing mode intact.
-      // A contextual session itself never falls back to isolated word cards.
-      if (sessionRecord) {
-        setError('진행 중인 학습을 이어가거나 닫아 주세요.')
-        return
-      }
-      const items = learnDefaults.requiredRangesEnabled
-        ? buildCandidateWordsWithRequired(availableWords, learnDefaults.wordCount, requiredWords)
-        : buildCandidateWords(availableWords, learnDefaults.wordCount)
-      if (!items.length) { setError('시작할 항목이 없습니다.'); return }
-      context.clearResult()
-      useLearnSessionStore.getState().startSession({ setId: selectedSetId, setName: currentSetName, frontMode: learnDefaults.frontMode, items })
-      navigate('/learn/session')
-      return
-    }
+    if (!contextContentReady) { setError('학습 예문을 확인하지 못했습니다. 다시 불러와 주세요.'); return }
     if (sessionRecord) {
       setError('진행 중인 학습을 이어가거나 닫아 주세요.')
       return
@@ -364,7 +341,7 @@ export function LearnSetupPage() {
     }
 
     setError(null)
-    const started = context.start({
+    const started = await context.start({
       setId: selectedSetId,
       setName: currentSetName,
       candidateWordIds: availableWords.map((word) => word.id),
@@ -392,7 +369,7 @@ export function LearnSetupPage() {
         <div className="page-header__right">
           <Tooltip label="세션 시작">
             <span>
-              <IconButton icon={Play} label="세션 시작" size="lg" onClick={handleStart} />
+              <IconButton icon={Play} label="세션 시작" size="lg" onClick={handleStart} disabled={context.busy || !context.ready} />
             </span>
           </Tooltip>
         </div>
@@ -419,6 +396,8 @@ export function LearnSetupPage() {
         </GlassPanel>
       ) : null}
 
+      <LearningProgress />
+
       <div className={styles.setupGrid}>
         <GlassPanel className={`setup-panel-shell ${styles.layout}`} padding="lg" variant="strong">
           <div>
@@ -434,9 +413,8 @@ export function LearnSetupPage() {
               value={selectedSetId}
               onChange={(event) => setLastSelectedSetId(event.target.value)}
             >
-              <option value="all">{contextContentReady ? '자동 추천' : '전체 세트'}</option>
+              <option value="all">자동 추천</option>
               <option value="favorites">즐겨찾기 단어</option>
-              {wrongAnswerIds.length > 0 ? <option value="wrong_answers">오답 노트</option> : null}
               {selectableWordbooks.map((wordbook) => (
                 <option key={wordbook.id} value={wordbook.id}>
                   {wordbook.name}
@@ -475,17 +453,10 @@ export function LearnSetupPage() {
             </div>
             <p className="page-header__caption">
               현재 조건에서 최대 {maxAvailableWordCount}개까지 선택됩니다.
-              {learnDefaults.requiredRangesEnabled ? ` 필수 ${requiredWords.length}개.` : ''}
+              {learnDefaults.requiredRangesEnabled ? ` 필수 ${requiredWordCount}개.` : ''}
             </p>
           </div>
 
-          {!contextContentReady && <div className="toggle-row">
-            <span className="form-label">앞면 기준</span>
-            <div className="action-row">
-              <button className="pill" data-active={learnDefaults.frontMode === 'japanese'} onClick={() => updateLearnDefaults({ frontMode: 'japanese' })}>일본어</button>
-              <button className="pill" data-active={learnDefaults.frontMode === 'meaning'} onClick={() => updateLearnDefaults({ frontMode: 'meaning' })}>뜻</button>
-            </div>
-          </div>}
           <div className="toggle-row">
             <div>
               <div className="form-label">즐겨찾기만 학습</div>

@@ -1,22 +1,21 @@
 import { House } from 'lucide-react'
+import { useRef } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
 import { Tooltip } from '@/components/Tooltip'
-import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import styles from '@/features/learn/learn.module.css'
+import { ScoreSummary } from './ScoreSummary'
 import { useContextStore } from './contextStore'
 
 export function LearnResultPage() {
   const navigate = useNavigate()
-  const legacyResult = useLearnSessionStore((state) => state.lastResult)
-  const contextResult = useContextStore((state) => state.lastResult)
+  const lastResult = useContextStore((state) => state.lastResult)
   const clearContextResult = useContextStore((state) => state.clearResult)
-  const lastResult = contextResult ?? legacyResult
-  const clearResult = useLearnSessionStore((state) => state.clearResult)
+  const leavingForHome = useRef(false)
 
   if (!lastResult) {
-    return <Navigate to="/learn" replace />
+    return <Navigate to={leavingForHome.current ? '/' : '/learn'} replace />
   }
 
   return (
@@ -25,8 +24,10 @@ export function LearnResultPage() {
         <div>
           <p className="section-kicker">Complete</p>
           <h1 className="section-title">{lastResult.setName} 세션을 마쳤습니다.</h1>
-          {contextResult && <p className="section-copy">다음 복습 일정에 반영했습니다.</p>}
+          {<p className="section-copy">다음 복습 일정에 반영했습니다.</p>}
         </div>
+
+        <ScoreSummary value={lastResult.score.after} change={lastResult.score} />
 
         <div className="meta-grid">
           <GlassPanel className="meta-card" padding="sm">
@@ -51,7 +52,9 @@ export function LearnResultPage() {
                 label="홈으로 이동"
                 size="lg"
                 onClick={() => {
-                  clearResult()
+                  // The exit animation keeps this page mounted after navigation.
+                  // Clearing the result must not redirect that exiting page to setup.
+                  leavingForHome.current = true
                   clearContextResult()
                   navigate('/')
                 }}

@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedAt": "2026-09-30T06:12:57.006Z",
+  "checkedWords": 100,
+  "checkedExamples": 100,
+  "accepted": 100,
+  "held": 0,
+  "correctedWords": 11,
+  "correctionCategories": {
+    "substantive": 6,
+    "clarity": 5,
+    "formatting": 0
+  },
+  "corpusExamples": 8402,
+  "similarityComparisons": 206035,
+  "similarityPairs": 0,
+  "notes": [
+    "사전·읽기·품사·대표뜻·수준·힌트·대비·전체 예문과 번역을 독립 검토했다.",
+    "자동 검사와 별도로 원유 운송비·감점 이유 누락·항구 교역·촬영 장면 반복을 새 상황으로 교체했다.",
+    "기존 게시 내용과 ID·버전을 유지하고 신규 원고만 수정·승인했다."
+  ]
+}

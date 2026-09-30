@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "de262d6c35a82010153721547783fd053fbfc15f63a115878a6ee3ba6f182e0e",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:31:02.483Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1229610",
+      "9bbbf8a963ecf62fa63425a1326e0a9ab3ee7994251bca22ce82583ada7ad038"
+    ],
+    [
+      "lex-jmdict-1236840",
+      "cdcfbebfe9cf3fb341802a95949d9ba7e13c281bab8c3a2a249f7d2b25c5d19c"
+    ],
+    [
+      "lex-jmdict-1238610",
+      "ca2c4c505a17293da954c3bd35c7523b285700b5520da6bfb3114d26677acd07"
+    ],
+    [
+      "lex-jmdict-1242230",
+      "424d9da956029b058f7e18f82e3d08bd91a166fbe445bdd113b07c6c5afa86c3"
+    ],
+    [
+      "lex-jmdict-1242520",
+      "3d9f5cd9d1678f6382cee3c6392a93334c9acd0920bbacd607a08c29b6da1664"
+    ],
+    [
+      "lex-jmdict-1259370",
+      "a407c048e57d724910a53015f96cf4fc1289a9cadd12c3d93de09c8a789d9609"
+    ],
+    [
+      "lex-jmdict-1259990",
+      "e9223877127710d3e6aa41ca14def8e47b4f4ee22cabaa97afaa3fbade6a8732"
+    ],
+    [
+      "lex-jmdict-1264080",
+      "06844924d4a0765d10eee81df740b1e90d92c585c7af99b00768f027e3206b11"
+    ],
+    [
+      "lex-jmdict-1264230",
+      "778431f1ab0b1f86140e131168751aae0bde29a4e2237899c4cde636f5ca14de"
+    ],
+    [
+      "lex-jmdict-1266350",
+      "6e106474dcb3f26b24a27b4845b59b478130c839150474095bd5055b004f1681"
+    ],
+    [
+      "lex-jmdict-1266550",
+      "e6a3878dc7fd9c6dd8ec195f91317b6a46692c8454423b8a7819a7310c8c8e91"
+    ],
+    [
+      "lex-jmdict-1260530",
+      "160a620983f053321dbb3026d77995770d4454798565cc73cd4205dff4f14773"
+    ],
+    [
+      "lex-jmdict-1275330",
+      "27669640a740ea4bc2cea0c14e5b3dbfad4ab3a89f085fee42c5144884707f58"
+    ],
+    [
+      "lex-jmdict-1236170",
+      "341e89c640acb4a67f6b7bc468e61f57d632bdc27095e38f4db071c730aef444"
+    ],
+    [
+      "lex-jmdict-1260190",
+      "d25a55d6b69d7ea632563a755ef1a9eee80c9465a63421b12847d80c517435ce"
+    ],
+    [
+      "lex-jmdict-1262660",
+      "0c1ab21f708535c0d5738b2d25844988040736a5f50188975dafb2169653e82d"
+    ],
+    [
+      "lex-jmdict-1263500",
+      "0293ca5435bc1a32109f22572d2eb5c67b22b7dabded0f0127cab719c4265b56"
+    ],
+    [
+      "lex-jmdict-1227780",
+      "2782e04ab9bf16c82b26059ef0e59e5ecab0020e069b8577cb9df75631684281"
+    ],
+    [
+      "lex-jmdict-1228100",
+      "c3e424ed0b9f0666692538ae5276f6f1af55f39838ab3ba6119b199d0fea5fb8"
+    ],
+    [
+      "lex-jmdict-1237370",
+      "04de33328f29d8b2b8d560a7c67bf1f2464f6eb0546f1dc7a1d099459814ed70"
+    ],
+    [
+      "lex-jmdict-1244520",
+      "52f72826d78ffc963fbcb0a1d26d9e5e86d1bdbb191250df8b2f323830b21be4"
+    ],
+    [
+      "lex-jmdict-1251810",
+      "c9479ce4a7c7c06e6dbf6ea0dc91b2e38a83c4c6d49867979f33870be4cf95bf"
+    ],
+    [
+      "lex-jmdict-1258500",
+      "d364bc9bb443d7f82352b28ce5b0b5cb6c9b6ca8762211fb89573ec8339137e6"
+    ],
+    [
+      "lex-jmdict-1262460",
+      "ee7ffdd8c78810fa2b554b43215fa8a2a6f240341f7d69e5c6448db34a1f4957"
+    ],
+    [
+      "lex-jmdict-1275250",
+      "d912973e915d8df539f927b971cc99333ec98ccf2f79c151594b651f0bca9385"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1238610",
+      "category": "clarity",
+      "note": "아무도 없는데 공을 튀기는 주체가 생기는 모호함을 없애 아침 체육관으로 장면을 명료화했다."
+    },
+    {
+      "wordId": "lex-jmdict-1259370",
+      "category": "clarity",
+      "note": "강의 모양까지 조망하는 街를 한국어 시가지로 명료화했다."
+    }
+  ]
+}

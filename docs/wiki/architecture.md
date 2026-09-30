@@ -13,7 +13,7 @@
 1. `src/main.tsx`에서 테마를 먼저 적용한다.
 2. `RouterProvider`로 라우터를 마운트한다.
 3. `src/app/App.tsx`가 전역 프레임과 라우트 전환 애니메이션을 담당한다.
-4. `src/app/providers.tsx`가 주요 스토어의 `hydrate()`를 실행한다.
+4. `src/app/providers.tsx`가 학습 스토어의 비동기 `hydrate()` 완료를 기다린 뒤 화면을 표시한다.
 
 ## 라우트 구조
 
@@ -21,10 +21,7 @@
 
 - `/`: 홈
 - `/list`: 목록
-- `/learn`, `/learn/session`, `/learn/result`
-- `/conjugation`, `/conjugation/session`, `/conjugation/result`
-- `/exam`, `/exam/session`, `/exam/result`
-- `/game`, `/game/session`, `/game/result`
+- `/learn`, `/learn/session`, `/learn/result`, `/learn/review`
 
 ### 별도 앱
 
@@ -39,18 +36,12 @@
 
 ### 세션 중심 스토어
 
-- `learnSessionStore`
-- `conjugationStore`
-- `examStore`
-- `gameStore`
+- `contextStore`: 유일한 학습 상태
+
 
 ## 저장 경계
 
-- 문장 학습: `contextStore` / `contextEngine`, `localStorage` v2에 숙련도·진행 상태 저장
-- 레거시 일반 학습: `learnSessionStore`, 기존 세션 완료용 `localStorage`
-- 시험: `localStorage`
-- 활용형: `localStorage`
-- 게임 진행 중 세션/최근 결과/기록: `localStorage`
+- 문장 학습: `contextStore` / `contextEngine`, IndexedDB에 숙련도·진행 상태 저장, v2 백업 호환
 
 ## 데이터 원천
 
@@ -82,3 +73,9 @@
 - 서브패널보다 현재 화면의 직접 조작 우선
 
 예문 원고가 늘어도 학습 첫 화면에서 에디터용 원고 사본을 함께 내려받지 않도록 `/editor` 화면은 필요할 때 불러온다. 예문 표의 입력은 단어장 전체를 재정규화하지 않고 콘텐츠 상태만 바꾼다.
+
+## 게시 경로
+
+`main` 푸시는 `.github/workflows/deploy-pages.yml`에서 GitHub Pages 게시를 시작한다. 빌드·전체 테스트·콘텐츠 감사가 성공한 경우에만 산출물을 업로드하고 게시한다. 공개 주소는 `https://stopoverthinking.github.io/Yohaku-no-Kotaba/`다.
+
+CI는 `release.json`에 실제 커밋 SHA, HTML 해시, 수준별 단어 수와 전체 확충 완료 여부를 기록한다. 푸시 성공과 게시 성공은 별도로 확인한다. 게시된 manifest의 SHA와 HTML 해시가 일치하는지 확인한 뒤 실제 학습 화면을 검증한다. 로컬 변경분을 이전 커밋의 게시물로 오인하지 않도록 manifest 생성에는 CI의 전체 `GITHUB_SHA`가 필요하다.

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "fcdfca983cf7d79f01892cd83cfe212a6bbf9ae29cac2d01fa621e5aa87201fd",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:12:33.574Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1297710",
+      "b85123a1147d5ac69f98cf07017bec26626507293dd78bb80df880b0ec7d8006"
+    ],
+    [
+      "lex-jmdict-1298320",
+      "74bf3b794e0c065aefba3ef8657f64c0be78b03ff56ca8fc1d6c5556ae20b0f0"
+    ],
+    [
+      "lex-jmdict-1299280",
+      "0c4d42386d59e830bf4579eec0c9f489caf80fc0f7886fc5a4a8e4c1ea131982"
+    ],
+    [
+      "lex-jmdict-1299370",
+      "ebcdd5d7732c029fccb1668ec0a2e2680c5bfec0aa5aa4fff99caa8d0002e91e"
+    ],
+    [
+      "lex-jmdict-1303820",
+      "f019c46c729ede91848bcb1a0178a649b98abd0afca0628c4cf53bf307ea5239"
+    ],
+    [
+      "lex-jmdict-1306640",
+      "75843d198c2ce8d9fba70d49d8959909db561e63556dd7a0ab4b0b36eff439b2"
+    ],
+    [
+      "lex-jmdict-1311600",
+      "5ad2f51d00a3176f9ea5b4008f405bb0947555c4b291e4e26de7c2853b4a38e7"
+    ],
+    [
+      "lex-jmdict-1315250",
+      "32fd567ca5f22e4599119012731161017b10626275b08e7b05c05248bd74f667"
+    ],
+    [
+      "lex-jmdict-1315960",
+      "fb5b736929216bfefdb985718803cad2bb73fbd5f6d0fb7ac7f3e60ba61a8f8c"
+    ],
+    [
+      "lex-jmdict-1317900",
+      "edd93857e34d84ad3e37c279fc60204db010e412a5a473a1a5402e5cb9534575"
+    ],
+    [
+      "lex-jmdict-1319710",
+      "0b967b382b0485f59ae347afb0796521b186cbbbc5bf92eea07bb3c22b0190aa"
+    ],
+    [
+      "lex-jmdict-1321200",
+      "ca87c30b989712f9823e2f4bef75fcf0b98127b1d7fd8713b4b14224f9a0d2a2"
+    ],
+    [
+      "lex-jmdict-1321480",
+      "c2543c50686e583f81f4fa4a45c8c75be085f1a7471772bbc0d9583e087c5610"
+    ],
+    [
+      "lex-jmdict-1321560",
+      "6813b7b0f29de906ed800d0dfe2f319170a49805468ab11628cc8a72fa61f8df"
+    ],
+    [
+      "lex-jmdict-1324870",
+      "ae18a079f23c1934c9d65b7fe269b77586c3f9e50c807460dc4fc81435f2393d"
+    ],
+    [
+      "lex-jmdict-1326290",
+      "0382e5494449f03a4c80d5d139825df6b63be2f3cdec7bc6f9c05d36f24fff39"
+    ],
+    [
+      "lex-jmdict-1328250",
+      "0ccbd8083d236b382f1b2a994d2b26fbe789243a725381475b3cd5af2e68dc42"
+    ],
+    [
+      "lex-jmdict-1331300",
+      "99887e80e591d2307a55bad901c24e7d4fc7ea0f800cb6ce231dbbf99db8bd00"
+    ],
+    [
+      "lex-jmdict-1332950",
+      "cd41ca9ac8ee1a4c2e36ce4462b2e7ad15e2e5f8ebef0091ac054b811c2bdb91"
+    ],
+    [
+      "lex-jmdict-1342340",
+      "131abd3fc93787a034baf9ba21fc210869bd7c5dbedace361848ac585d302019"
+    ],
+    [
+      "lex-jmdict-1346220",
+      "7fb1e53aad0ad8b82de81e6e91fe5866f523bb8aa61eda5ec17e558c37de9a4c"
+    ],
+    [
+      "lex-jmdict-1348030",
+      "affcb4627d54d036eb1343b36a61247350f8983de0498109f002914d00f12372"
+    ],
+    [
+      "lex-jmdict-1349440",
+      "71fc7d9a5c4ae6a3e95d58a29f1b15bce5f50c34df7128559025d68780ace846"
+    ],
+    [
+      "lex-jmdict-1350220",
+      "9ec94a69a70aeb852ba1654e74b6bb570d3d736e4a22c91fa75eb54bbe891755"
+    ],
+    [
+      "lex-jmdict-1350270",
+      "1b2e8b0ce613f81468365114c685ec03b224b80a02858f4d51cd5ea87cd18db2"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1306640",
+      "category": "substantive",
+      "note": "기존 결혼식 사회 장면을 피하여 온라인 설명회의 질문 전달로 변경."
+    },
+    {
+      "wordId": "lex-jmdict-1311600",
+      "category": "clarity",
+      "note": "물리적 크기로 오해할 수 있는 大きな를 高額の로 명확화."
+    },
+    {
+      "wordId": "lex-jmdict-1332950",
+      "category": "substantive",
+      "note": "기존 居眠り의 종점에서 깨워 주는 장면과 겹쳐 노선 연장으로 변경."
+    },
+    {
+      "wordId": "lex-jmdict-1348030",
+      "category": "clarity",
+      "note": "용돈을 반드시 남에게 받은 돈으로 제한하던 힌트를 개인 사용 금액으로 조정."
+    }
+  ]
+}

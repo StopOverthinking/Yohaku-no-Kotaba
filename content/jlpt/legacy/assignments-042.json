@@ -1,0 +1,346 @@
+[
+  {
+    "wordId": "AbsoluteVerb_715",
+    "sourceHash": "8d14b2e3fbe834f20e05b8074eab2d79525144ce63bce345135767864256324f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1353850",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “실력이 향상되다, 숙달되다” 및 1개 sense를 대조했다. 피아노와 연습한 능력이 향상되는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_716",
+    "sourceHash": "b7ac332cafaa7eeeafcd7e7c3d192d7a356308e37018a002844807316001f37b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1401210",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “상담하다” 및 1개 sense를 대조했다. 진로와 큰 구매 결정을 다른 사람과 의논하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_717",
+    "sourceHash": "880d2966bb2ebd1791f725f839fc67774187ddc4fcccbc2386a1e3cd44795074",
+    "level": "N4",
+    "dictionaryId": "jmdict-1304200",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “찬성하다” 및 1개 sense를 대조했다. 안을 받아들이며 찬성하는 기본 의견 표현이다. 출처 N1과 구분하여 反対する와 함께 쓰는 일상적 의견 용법으로 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_718",
+    "sourceHash": "6d2f6f6d69a369bc72f9f4816dc0921dcbd7ea9ae4bc511aad3221da290db3b2",
+    "level": "N4",
+    "dictionaryId": "jmdict-1480670",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “반대하다” 및 1개 sense를 대조했다. 계획에 반대하는 기본 의견 표현이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_719",
+    "sourceHash": "5cf28dec201966d9712d2d666f50819732147ec6eb4b5c16ba6202339760df17",
+    "level": "N3",
+    "dictionaryId": "jmdict-1244680",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “고생하다” 및 1개 sense를 대조했다. 이사할 곳과 작업 방법 때문에 고생하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_720",
+    "sourceHash": "4be60da9d06d89fd0420edae02bf1176291e5ad51498db841826f92abb214e50",
+    "level": "N3",
+    "dictionaryId": "jmdict-1349610",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “초대하다” 및 1개 sense를 대조했다. 새집과 결혼식에 사람을 초대하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_721",
+    "sourceHash": "d830df420806d9a8f6417a3340ba2bd46ea7371f7c47ffad9d6187792ba0f119",
+    "level": "N3",
+    "dictionaryId": "jmdict-1363740",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “흉내 내다” 및 1개 sense를 대조했다. 소리와 기술을 흉내 내는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_722",
+    "sourceHash": "513a7a6ce80eaa3f98de446c18fd6af483efeb688a3f93c62196823237c789f8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1150450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “사랑하다” 및 1개 sense를 대조했다. 고향과 마을을 사랑하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_723",
+    "sourceHash": "ff702fe8f5972ee1d5be784a5080e4c3492b3701955494a053074d914dad1d68",
+    "level": "N1",
+    "dictionaryId": "jmdict-1332820",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “일관하다, 시종하다” 및 1개 sense를 대조했다. 처음부터 끝까지 침묵이나 변명으로 일관하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_724",
+    "sourceHash": "5e4ef677f56f174a359400a92ebc31316b606d2651d5f1d7819e326135526ce7",
+    "level": "N2",
+    "dictionaryId": "jmdict-1538690",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “방심하다” 및 1개 sense를 대조했다. 승부와 강에서 위험을 가볍게 보고 방심하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_725",
+    "sourceHash": "e596f2c624803bdcd2cf941347f14b4f01ecfeb88e03e96f612eede3b65f31ee",
+    "level": "N4",
+    "dictionaryId": "jmdict-1360930",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “걱정하다” 및 1개 sense를 대조했다. 귀가가 늦은 가족 등을 걱정하는 기본 생활 감정이다. 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_726",
+    "sourceHash": "94e02da220175821183abdbcfe2f30763cdef2f91b630a691414df2350e9f97e",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의태어) 틈새로 바람이 솔솔 들어오다” 및 1개 sense를 대조했다. 틈이나 구멍으로 바람이 통하여 서늘하게 느끼는 의태 표현이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "スースーする의 통풍·서늘함 의미 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_727",
+    "sourceHash": "a559a1747197e3240a3f3e353073d37ec50c7a014e7708b3b42f0a50ed937bcb",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의태어) 따끔따끔하다” 및 1개 sense를 대조했다. 옷이나 풀 때문에 피부가 작은 자극으로 따끔거리는 표현이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ちくちくする의 피부 자극 의미 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_728",
+    "sourceHash": "da7a76077ca503dc6339181c68255d95f57e74deea257a88beda6a564abc4358",
+    "level": "N3",
+    "dictionaryId": "jmdict-1006340",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 욱신거리다” 및 1개 sense를 대조했다. 발치한 부위와 머리에 통증이 반복되어 욱신거리는 의미이다. 출처 등급은 없으나 일상적인 통증 설명 의태 표현으로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_729",
+    "sourceHash": "253ff9968306eb12b7e3b90e591550f18c197bc63191715a26c5e3941c99d3e2",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의태어) 얼얼하다, 화끈거리다” 및 1개 sense를 대조했다. 햇볕에 탄 피부와 상처가 화끈거리는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ひりひりする의 피부 통증 의미 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_730",
+    "sourceHash": "54976e7c2598ab015eb96cc21ea7dbd625c40e1802e8f7df08c26ea7e02c6486",
+    "level": "N2",
+    "dictionaryId": "jmdict-1040570",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 쾅쾅거리다, 욱신거리다” 및 1개 sense를 대조했다. 머리가 강하게 쿵쿵 울리는 두통 표현이다. 출처 등급은 없어 ずきずき보다 강한 두통의 의태 표현을 구별하는 용법으로 편집 N2를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_731",
+    "sourceHash": "f38dfd000a6cf60e7bc7249ef13a22688be93ee1af3fa6e97d16e9a0da783797",
+    "level": "N3",
+    "dictionaryId": "jmdict-1005420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 까칠까칠하다” 및 1개 sense를 대조했다. 종이와 책상의 표면이 거칠게 느껴지는 의미이다. 출처 등급은 없어 기본 촉감 묘사로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_732",
+    "sourceHash": "a8ae23009717b9fd750822738287cf12a0dbc4e5d4a3830edb639f7427d12156",
+    "level": "N3",
+    "dictionaryId": "jmdict-1008220",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 매끈매끈하다” 및 1개 sense를 대조했다. 돌과 바닥의 표면이 매끈하거나 미끄러운 의미이다. 출처 등급은 없어 기본 촉감 묘사로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_733",
+    "sourceHash": "7b1300b5a98911cdc619fe6a09ef248d995baf8acf80bb08c123570b5b9e797e",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의태어) 울툭불툭하다, 세련되지 못하다” 및 1개 sense를 대조했다. 돌길과 바위의 표면이 울퉁불퉁한 뜻이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ごつごつする의 표면 형태 의미 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_734",
+    "sourceHash": "31d4900c1c5fd63ee487dc376eca010c39f2bc074cb48f9fdf608a2700fb7dd7",
+    "level": "N1",
+    "dictionaryId": "jmdict-1000360",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 깨끗하다, 시원하다, 담백하다” 및 1개 sense를 대조했다. 수프와 반찬의 맛이 기름지거나 진하지 않고 담백한 뜻을 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 대표 용법은 음식 맛이 담백함이다. word 뜻의 깨끗하다·시원하다는 어떤 일본어 용법을 뜻하는지 불명확하여 뜻 범위를 명료화해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_735",
+    "sourceHash": "5cab9b3eff332f177fb80faa97a8c893d0864b53a7027697d4a72d3f07872827",
+    "level": "N3",
+    "dictionaryId": "jmdict-1005210",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 산뜻하다, 담백하다” 및 1개 sense를 대조했다. 땀을 씻거나 머리를 자른 뒤 상쾌한 기분이 드는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_736",
+    "sourceHash": "5ca9c06ce16944b9068660584521002e9eb5c6085fa5d3d0d630ef3d32f45806",
+    "level": "N3",
+    "dictionaryId": "jmdict-1013050",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 천천히 하다” 및 1개 sense를 대조했다. 집에서 쉬거나 서두르지 않고 머물며 쉬는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 두 예문은 동작을 천천히 하는 속도만이 아니라 편히 쉬다·여유 있게 머물다를 뜻한다. word 뜻에 이 범위를 명시해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_737",
+    "sourceHash": "de3b02a7fd318195579053636cd619102eb41f89ae28b8158eb4a8cd6efd673a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1010050",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 유유자적하게 보내다” 및 1개 sense를 대조했다. 일정을 잡지 않고 여유롭게 시간을 보내는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_738",
+    "sourceHash": "0961de08b1e8320979c7e635bc3d496a3453f698dd885cf7ca46cbca47e13fc4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1010900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 딱 맞다” 및 1개 sense를 대조했다. 신발과 뚜껑의 크기가 꼭 들어맞는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_739",
+    "sourceHash": "1f54f00fd88e3bd661cb926b55086c3cbb83dce03646455e1953e343d5c0a1ae",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의태어) 묵직하다” 및 1개 sense를 대조했다. 책상과 항아리가 무게감 있고 안정된 느낌을 주는 뜻이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "どっしりする의 묵직하고 안정된 느낌에 대한 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_740",
+    "sourceHash": "ac1069fcf4a57ff487abc88286a6df3a9d2c5ad7f6cb11d03355326313974db8",
+    "level": "N2",
+    "dictionaryId": "jmdict-1001060",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 어슬렁거리다” 및 1개 sense를 대조했다. 길을 몰라 이리저리 다니거나 목적 없이 서성거리는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_741",
+    "sourceHash": "2cb2285033eec17f9635423b808d1a74dbcf15e5bf5d23ccbd45e5fa0e46386a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1004040",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 우물쭈물하다” 및 1개 sense를 대조했다. 행동을 늦추며 꾸물거리는 의미이다. 출처 등급은 없어 시간 지체를 세밀히 표현하는 의태어로 편집 N2를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_742",
+    "sourceHash": "715890b2f450a83c5b5656bb9c8e5214b9b09fdd4dabc663a8f0c5b6542a5646",
+    "level": "N2",
+    "dictionaryId": "jmdict-1004070",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 녹초가 되다” 및 1개 sense를 대조했다. 이사와 더위로 힘이 빠져 늘어지는 의미이다. 출처 등급은 없어 신체 피로를 세밀히 표현하는 의태어로 편집 N2를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_743",
+    "sourceHash": "50b1831c67cb56f745075f5dfa8d9ff1bcc1f45a6539a435b681fa05ec0458ae",
+    "level": "N2",
+    "dictionaryId": "jmdict-1001010",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 깜빡하다” 및 1개 sense를 대조했다. 주의하지 못해 할 일을 깜빡하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_744",
+    "sourceHash": "388d8bfb1ce8dff91497536bf0d3b7570ed14c23148153804d4b02e35f53aec6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1011920",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(의태어) 멍하다” 및 1개 sense를 대조했다. 잠이 부족하거나 집중하지 않아 정신이 멍한 상태이다. 출처 등급은 없어 일상적인 집중·상태 묘사로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

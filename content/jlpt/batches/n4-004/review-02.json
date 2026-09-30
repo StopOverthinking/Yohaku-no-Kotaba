@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "19873452a414267ac43e85c82daf93142ec9c8a5f0398bb2f9ef1f1de1e2bb70",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:11:02.774Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1046890",
+      "fbd863329243d7b53a9a281b0720b7886186e37a193be360f3ccf50edb1172bd"
+    ],
+    [
+      "lex-jmdict-1047200",
+      "79377ae32bf046133ceeee0b8275d025c2c60a89a7f2d92862eb4ac05f97052f"
+    ],
+    [
+      "lex-jmdict-1047870",
+      "43740734fdeb4127fbc0883a82b60d115029465c0039293b6c27c534299ee314"
+    ],
+    [
+      "lex-jmdict-1049870",
+      "d4c765e85887acba4fa702caa985f585ff61b1ccda767fcf2d86c776169d2919"
+    ],
+    [
+      "lex-jmdict-1055810",
+      "43ed043fd91c20a34a2addb3304f30c3d9276a4bf31bdbe0a6b0d45e83a40926"
+    ],
+    [
+      "lex-jmdict-1057630",
+      "c08f272d2fc2875a33a3252eb6f663f86d713789a792612855e5ea5143ab016f"
+    ],
+    [
+      "lex-jmdict-1059930",
+      "9615e1cfc3449463c7d493a0d736920436ebd7f3279717f3d1e0d5bb64bac9f7"
+    ],
+    [
+      "lex-jmdict-1060000",
+      "17e09cdf4f2a49bbb338655bebe0e20cf1e7ce3ca84ec3be3c6222eb860381fb"
+    ],
+    [
+      "lex-jmdict-1061100",
+      "a5c327039e27352f23c488ba838fd81c0625266c8626b1c1775d0965dd26ca91"
+    ],
+    [
+      "lex-jmdict-1061590",
+      "556be829d93874c8e7be6d8524177fce6c2c4c8e4bea66d79e98c8adcf387c48"
+    ],
+    [
+      "lex-jmdict-1061900",
+      "fff9b73eea814e66ed48e7bb15a693ec1fe86b4ea2989ad081fafa7aa7157ac3"
+    ],
+    [
+      "lex-jmdict-1061950",
+      "64f14cb93c38777f4d3ce790c743b4c2f335c0de187931ea659576f166aebb19"
+    ],
+    [
+      "lex-jmdict-1062250",
+      "ee3a98148ea62d077e374ffc9ec5fc13fa08a0851d32f4797fc681195a85e9a4"
+    ],
+    [
+      "lex-jmdict-1062330",
+      "bdfc1ba30b2eed1f2921a7f63e9b03a4d9c81d58d407d547d4ca7c13ed1d198f"
+    ],
+    [
+      "lex-jmdict-1062460",
+      "4cbb7d992d3d604983a04b385d1ae98f3b1853fa69ca9af0990cd101e58c57c5"
+    ],
+    [
+      "lex-jmdict-1062580",
+      "72427cc03e6b9c3f53fee78d63e5f0d44825d5f19d8597d47f2cece499b78904"
+    ],
+    [
+      "lex-jmdict-1062590",
+      "bafc2d4873f8a93d6d24c8baaea35c126becf5e477990ab673c3888d7fbbd0d0"
+    ],
+    [
+      "lex-jmdict-1062870",
+      "784c86cadb5b446cb8cb76485ad2b7a0fc567c5407c37fa8cb436f98f4cfcc58"
+    ],
+    [
+      "lex-jmdict-1063350",
+      "f6202ef1f3575cded9c46183f01572d8c37d68cfa4c3453339c35c9aa11dbdfa"
+    ],
+    [
+      "lex-jmdict-1063430",
+      "c9153a6a8332587dc8f23efea425acf8a48afd559dc02e15bb54c835dc1484ee"
+    ],
+    [
+      "lex-jmdict-1063530",
+      "6174cd77e850549ff25c7d352c5d480c4bc5852d360792314035b8980c51e2fb"
+    ],
+    [
+      "lex-jmdict-1064170",
+      "7f01af9dd6ebbd32cc1592ecc9355168e30daea1b19b8916aa2933ce6c9459f8"
+    ],
+    [
+      "lex-jmdict-1064200",
+      "6379617a9edbb65b5bcae5ae8ad56ccf738a34cd6a63d91ad3bae88110ab2583"
+    ],
+    [
+      "lex-jmdict-1064620",
+      "cc37e9fdeb64b73795ae91dcf08ed3b90d8d87accc8b8ff9095b1debb88f77ab"
+    ],
+    [
+      "lex-jmdict-1064880",
+      "a9b5b206cce7ed8ae4dac89a5f694f1b7846fe6e85c7b4aa2f2d0f05ec22c71d"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1055810",
+      "category": "substantive",
+      "note": "アプリ를 설치형으로만 한정한 구별을 응용 프로그램으로 수정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1059930",
+      "category": "clarity",
+      "note": "음식을 나누는 실제 예문 용법도 뜻·힌트·구별에 포함했다."
+    },
+    {
+      "wordId": "lex-jmdict-1061950",
+      "category": "clarity",
+      "note": "발효빵과 혼동할 수 있는 슈크림 빵을 슈크림 과자로 명확히 했다."
+    }
+  ]
+}

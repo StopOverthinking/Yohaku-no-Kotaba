@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "f84aafe393874c95d024fd0677cccb9945db439fc6925b9b7d5eed5c4d77f43f",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:09:56.971Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1424550",
+      "5d14ceb87b996755c63ddab75cadf2c527fc43fef13533fe3005ef5c8caa7b2a"
+    ],
+    [
+      "lex-jmdict-1425710",
+      "1aeacdfa4b0182d210bd1b848b257aaef2ef0f733c60625d83469bf7253e1444"
+    ],
+    [
+      "lex-jmdict-1425790",
+      "86de340a65c9592fc4579f5d0bbda73822e3e1e9938491b96a7d0553ae2e326a"
+    ],
+    [
+      "lex-jmdict-1426650",
+      "b53c3ea01e8754a03cd56465d3ff5934b919a606b65e602ab7cc3dbb03a595e7"
+    ],
+    [
+      "lex-jmdict-1426670",
+      "3070094477b70bad37756665e7901ab912f0c748b3b2e099cd4653a15934a4f3"
+    ],
+    [
+      "lex-jmdict-1429120",
+      "961d79f7335730faff7a3e982fd8556e3dfe14c38994b4df1a863c115602f93c"
+    ],
+    [
+      "lex-jmdict-1429850",
+      "eb6a7a80b000f8314fea46e92e49656cfa8cc84a7855868bf9b434a6e2d955f1"
+    ],
+    [
+      "lex-jmdict-1430220",
+      "13a90ad1b6342911073b30398b68251c9b0659620733560e8f22655c95a23d4b"
+    ],
+    [
+      "lex-jmdict-1430670",
+      "132320430463b2c40f9c2a3dd95faa23e23ace9eb37086d4b3f8f5d8a5a8079c"
+    ],
+    [
+      "lex-jmdict-1430690",
+      "c379098dd8cab39b548e451f92e8379e819ed495bbeb9675064bc453173b0718"
+    ],
+    [
+      "lex-jmdict-1433070",
+      "4de11d54bdacb1f857dce5818efd0909c240bec6c2647ed9a59b772359835fe9"
+    ],
+    [
+      "lex-jmdict-1433090",
+      "a2445fbf0da84294883f72f6610168fd89043e3a7d0d784b571ebda76a588cfb"
+    ],
+    [
+      "lex-jmdict-1433180",
+      "fe615af4b6fe60f32f6f33f311093202b924b174ca83f752b0c3a5d874762fc4"
+    ],
+    [
+      "lex-jmdict-1433330",
+      "d825fe9e58fda1e5dcb408f3408202f6bd14976c33330aa1759db1c4ceba2c2c"
+    ],
+    [
+      "lex-jmdict-1435080",
+      "3288cb564f31355768d8dfe305868ebbc9e2da6e8140d6ab20109caea0bfc2bd"
+    ],
+    [
+      "lex-jmdict-1435490",
+      "73fa2734d01b05b31de49e89050a3b0fcc9912d2f31e726f835b816c01d51b37"
+    ],
+    [
+      "lex-jmdict-1436260",
+      "65a0529a36139617789f55126503906e32cfc7f036968145afeee6db75bfb868"
+    ],
+    [
+      "lex-jmdict-1436410",
+      "92b92803159b818bff2efdc29e05c4c13125fcc202d00a515c27893f2722842d"
+    ],
+    [
+      "lex-jmdict-1436540",
+      "55ded8805c295657d694a500ae177244d2a8c1ef57e96a58eb303d2323dfc9cb"
+    ],
+    [
+      "lex-jmdict-1437310",
+      "17d03022eac8b0f313d2746fdb2c575ef7da2b0ecd1d8d78711fdee653cfecb3"
+    ],
+    [
+      "lex-jmdict-1437340",
+      "38c9d73ad429ca985f417476c49db25404af7b81a0fd63696c0fca03221537c5"
+    ],
+    [
+      "lex-jmdict-1437440",
+      "43bacbddfba27a0bfb92e8b5d1f9d52f05221fd681c38ddbc399b4282027c9d6"
+    ],
+    [
+      "lex-jmdict-1437500",
+      "4e55cbf4e0db9e0e90320380b7a153c15a27e6f3f0b8d557e6ca432d8dff0b53"
+    ],
+    [
+      "lex-jmdict-1437610",
+      "1ae749b149c7d45595e7292eb5bdcb52de0ef9171af2419d47d057b929fea5c4"
+    ],
+    [
+      "lex-jmdict-1437670",
+      "97b11e515b81058bb71161e5e34f707fd90d86f7934750adb9ab22e3f12a7f8c"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1430690",
+      "category": "clarity",
+      "note": "直に의 시간 부사 읽기 じきに를 명시하여 すぐに가 읽기로 오해되지 않도록 했다."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "20c7f1b11312cd552ed5535a0063766de15346805da242b5a796122388e1fb31",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:34:03.065Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1289980",
+      "2a52da2dcf57c8bbc0584871900bd25177b65677481437950f10ae5159b2fb11"
+    ],
+    [
+      "lex-jmdict-1291660",
+      "0824ee419fd2bb70cf5fe46111800154162f980b2349f2d6de5c68c48f716832"
+    ],
+    [
+      "lex-jmdict-1303150",
+      "a566bd841f6fa74beb4ac5ecc5f3fbcce3b384c46b577b48ac13857f60dcbcff"
+    ],
+    [
+      "lex-jmdict-1303810",
+      "9bc9695d82318e6f36a9cb5247e40c44c98ee5bd335b57e49879c9563ec63e95"
+    ],
+    [
+      "lex-jmdict-1304290",
+      "2d2e731fddd9f4e3ebacaa4ea8cf4cf5d129e60aa379abd332a85279c6fcbec6"
+    ],
+    [
+      "lex-jmdict-1304570",
+      "d33712ed8ebe7dc4ca49d0640b785abd0c4a9435edf5ed7e86cc1f547fc1c83f"
+    ],
+    [
+      "lex-jmdict-1304760",
+      "71fe03067b2eaf54a94a9867dd4cfda87b9403a412acb10980a3d153e6bbbb16"
+    ],
+    [
+      "lex-jmdict-1305180",
+      "0b3bca660399e50e99489c0782b8c5e532bffefcddf5a80cf57f9ad1b240658a"
+    ],
+    [
+      "lex-jmdict-1305310",
+      "d67880c02c73c2c3080e27b4368c5aa93fbe692f19a4a304ecd4ca3e42aef204"
+    ],
+    [
+      "lex-jmdict-1305500",
+      "01b055ea0453ab3e4bb26b7c8b1b327b0037b4ff38247d03de7247031174b5eb"
+    ],
+    [
+      "lex-jmdict-1305560",
+      "5ea630b43a3b4b63edb6ac5f13b01fb4c094d7dcc8a506d2d44b6a7b12930a4b"
+    ],
+    [
+      "lex-jmdict-1305900",
+      "fb6b6a64262816eeae238450e4d03c37142f1afead43825cd551b1271531e90a"
+    ],
+    [
+      "lex-jmdict-1306160",
+      "c71c503eae82bd05be1b84d17ba11a0936797282e270af103eeb5ab6fd75800c"
+    ],
+    [
+      "lex-jmdict-1306540",
+      "aa05aa6e82125203b48cc1d7bdd91672844f3a5f6769f08e288a33b9694462b4"
+    ],
+    [
+      "lex-jmdict-1306630",
+      "9b21125b73f360d05d1efeb9875a7c2ab92da9691314645afe6af1475b234bc3"
+    ],
+    [
+      "lex-jmdict-1306680",
+      "0cb6a2601de761419f4d86c67443d0fbffb556e0c7f7fe9ec6f049b6ccfbfdb1"
+    ],
+    [
+      "lex-jmdict-1307610",
+      "eb16e6e1df929b9c811159eb596e79c3dea299dd92ca62ab2de4829a89083479"
+    ],
+    [
+      "lex-jmdict-1307620",
+      "cee19da73b735358f6f0fe484e7e821150d460d94b6f0ab3c0904c51840ee7bb"
+    ],
+    [
+      "lex-jmdict-1308190",
+      "22ea302efbf00a828a7650c8a32bdbbeec3ff7a0f3177f3cceb48fcf36317e7f"
+    ],
+    [
+      "lex-jmdict-1309050",
+      "cb3caff2e889d1905a840aa006522cb628bcf4be880ab4a78883efc4b1cafeda"
+    ],
+    [
+      "lex-jmdict-1309060",
+      "bc49c803f5b0ef3f3dadf7e700d8e9b8265b2a82c5136b23749e80c1b1f6d58f"
+    ],
+    [
+      "lex-jmdict-1309110",
+      "e100e2c6d82b51fda3855f544beadb592519dd22ac7c0dd8292c2d97038696ab"
+    ],
+    [
+      "lex-jmdict-1309140",
+      "31549c825ef366646f0d1a5ce8127e719089e028b554eb0b7c33ec0aceb80f17"
+    ],
+    [
+      "lex-jmdict-1309380",
+      "f7e4f130d6a050dee1bd3d2ea8d2c9d7686b3d9ca0918ca42bc2ae5eb92ef493"
+    ],
+    [
+      "lex-jmdict-1309530",
+      "92e7e5a239082661d54f1bf50ff37bfd413a0e1048dd0bf9e92d7fab749df36a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1289980",
+      "category": "substantive",
+      "note": "虫·植物의 발견 후 도감 검색 장면과 겹쳐 전시에서 몸 구조를 확대 관찰하는 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1308190",
+      "category": "substantive",
+      "note": "見下ろす의 전망대 도시 조망과 겹쳐 축제 당일 시가지 차량 진입 제한으로 교체했다."
+    }
+  ]
+}

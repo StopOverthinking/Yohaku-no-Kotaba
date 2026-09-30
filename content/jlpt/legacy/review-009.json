@@ -1,0 +1,545 @@
+[
+  {
+    "wordId": "JLPTN3_241",
+    "sourceHash": "e14b8b9ffb91e5f491c218b29e7c689b3fb91cfdc1f2f40892bb2512506cfdb3",
+    "proposalHash": "97dd144ecc8477ffbadb763a7bd1f80a047cc40172a36d3355d26ce4aa8a5ed5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "기쁨·고마움에 크게 감동하는 N2 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_242",
+    "sourceHash": "d92737c592d24d329367d3f83a18a816754a4c6bb0460064534bcd24252d1d32",
+    "proposalHash": "9becbe9b3eece6516346cc793257e512a4e04390b4bc254f9af0e4f5318bba83",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "여행지 볼거리의 N3 명사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_243",
+    "sourceHash": "1a4fc6b0ea2e8bfa3c569b0fb02ae70e8c177ce8ec3f1358999f67a412bba9bc",
+    "proposalHash": "eb72c6b15b9c2a9699ced1e9a46cbe1fa105052a4b1ab0ddf6f2fa09ff050965",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "특징을 자세히 살피는 N3 용법을 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_244",
+    "sourceHash": "d166e6fb292a1763999830dfa66d890e5144d7f233bb3d027611abcedb539d3c",
+    "proposalHash": "530792669c0de9730f635c511d0002de5b4cd4cdb7eee5a6c7a023077bdd45e2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다.",
+      "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_245",
+    "sourceHash": "1b1c002d8c0bb3be476c8e8a0729c1da62f3409cc4393c559d622bb59bcce8aa",
+    "proposalHash": "fbda538ba8dacc38596a6f0d94fd8c91196ce0688056a4f958127e81f33c5cda",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "다리·케이크 제작 완성의 N3 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_246",
+    "sourceHash": "2fd15058439c989494a6adc84d7a26cd0fa15e5429b1e3b072b667a2f719410d",
+    "proposalHash": "56e58729186cd57306a29bacce1f666dfc659ff6d98bd8fe6bb6c7e5e3e5a993",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "N3/N2 출처 중 구체적인 작동 장치의 N3 선택이 타당하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_247",
+    "sourceHash": "b9f36e515874cfc2b4793cbef77668fbee4dae7a32ed22f22c1ccb9e0102a0d2",
+    "proposalHash": "4aaa4753ba3c441abfb78ab6d0aabd9d8018f514ae34003102111b634c89a50d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "실행할 때나 상황이라는 N4 선택 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_248",
+    "sourceHash": "fcc43e36e2d15cac416f12b8cfd8c803d03c888191d3004ab1da93e8e0cbce7e",
+    "proposalHash": "d7efd49238ccce4e08fce03395d68948b69865c00393b87b4287ccd4f4d17169",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "유효·제출 마감의 N2 명사 용법을 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_249",
+    "sourceHash": "999d62aca2cb9f344c5fc72d9ec10c496ce8842cd73bff1a193fbbcd30eb281d",
+    "proposalHash": "178d32b5fb947c0e2601700e55b48a7e5e7d210eabd863785549e147cfeb0e4e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "가구 제작·수리 능력이라는 N4 선택 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_250",
+    "sourceHash": "5e1f91f27c51e8a3d78b5a1d7b07eef2f8083c290a9101720e915abb80fc205d",
+    "proposalHash": "4b71cd00b2f89f1490d651b298424354fd2c3fda7c771183a7d747ff36021dbe",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다.",
+      "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_251",
+    "sourceHash": "cbf889be2096aad4aca8ab344da5a0e372a970e38be01609192a7f04446c2901",
+    "proposalHash": "33aa2eeeda1339042a0529c9b1bed671a536325b53b1edd7620e22eeb8362a73",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "학습의 토대라는 N2 선택 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_252",
+    "sourceHash": "ce80caa267c9d9a0ff28be3592f84b7451f6c1790dcaca220aa54b437af1e55d",
+    "proposalHash": "307616f0f4898991e6e6227a6940ed7f04bfdaea38f6b7504e2d4274f110568c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "지켜야 할 행동 기준의 N4 연결이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_253",
+    "sourceHash": "afd107f11ba47c628ae7011c8e505885413533b21b2e0bcc977ae2a78ab07578",
+    "proposalHash": "285b3f1720887591c61390be4c8b1033ae03656c2afe1e153946a2566cf635d4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "좋은 결과를 바라는 N3 명사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_254",
+    "sourceHash": "6358c55429f5aac2684fa20a310e263ed583412d1efa7620b8c7b24f72744bef",
+    "proposalHash": "b9c041aa0ee89d8ee103f5939087314d4d0a5314e38594af2be941536a207252",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "자기 집으로 돌아오는 N3 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_255",
+    "sourceHash": "e01f9d56ab13204b2c22d1908efbcb590186d9b0abc16ad5200388bbb5bd74b6",
+    "proposalHash": "e1a31d212541503f1988806fec471003b78d05439df58ee620a9b1f8a6a0f13b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "우편 요금 표시의 N5 명사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_256",
+    "sourceHash": "9840854d5232ed28d0d6ac60988203a24e373ae7083b291eaf58ea74438bad87",
+    "proposalHash": "fcded32f602becc702a884d133e0fb61ec6f9b178433b533049753ce91308096",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "졸업·기념일을 기억하는 N3 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_257",
+    "sourceHash": "ccf7b9e8967bc2451378e65c4650ffe4377d91ae0cd97f2d089a3f052ee1971e",
+    "proposalHash": "fbeb9ca9bbfda8b8895cfb1d6c832a35c279a5ac59af2bf72c597f3c84d1a8e5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "중요 원칙과 토대라는 N3 기본 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_258",
+    "sourceHash": "822523814f56258f15c57292dbddace42d0e407d641c20dc00a68785705e775c",
+    "proposalHash": "4d154f8477700d210e0372d7607674bd60c3243cbd55b38cfc9858c99685e9aa",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "방향·순서가 뒤집힌 N3 명사 분류가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_259",
+    "sourceHash": "a702bf1fd355ced898a5e034b7298e7438e9a75ab0067d79f7d6d69e6f132306",
+    "proposalHash": "fc9cf4bfd00ccf52885f008363f86ee1cf09f26216e606def5ca0974c945d03f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "출처 등급은 없지만 기본적인 개인·가족 휴무 일정의 N4 편집 제안은 타당하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_260",
+    "sourceHash": "dba7641139fe7e7bf61925343487d55ee975b6a0d128d01fc98a65bae440377a",
+    "proposalHash": "8754718fea79b4be9845dc5d05b0acf2e3318d86fe1e9c3a491dce3b9f3e79fc",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "호칭보다 직업을 나타내는 N3 명사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_261",
+    "sourceHash": "d0170e866112a9901bb153c6d5c2e8dddca1ca2f1ca273a54b4f4294fbf77380",
+    "proposalHash": "854a949264854f54735ac5a1ead116cea0f68be5f11fcfa5f844bc33c81d107c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "가격 경쟁과 달리기 모두 포함하는 N4 명사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_262",
+    "sourceHash": "617c0b7c77da1943faed0fa4bfa17c6b568172bedbc3e7d06f1019a67b0185a2",
+    "proposalHash": "75ceb6e89ca8c5f4fd04e40f23a38b8c2099586ca02404129714b65c35af9fc3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "공유하는 특징을 나타내는 N3 분류가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_263",
+    "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+    "proposalHash": "0df3229464de9c8dd65aa8140e06fe1ba92e8188fdeaf07b1eef08febbe963fa",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "関心의 장면 교체로 반복이 해소되며 현재 흥미 용법과 예문은 그대로 타당하다.",
+      "현재 N4 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_264",
+    "sourceHash": "e9ef0b0ec615081fd5aa4b61de144a6d21917717ed6aed1674dfc267d6d63803",
+    "proposalHash": "be0f3ca723615e7518a96c0c825b2d17c87fe4bb9dc598264a22fe3dbb9cfb83",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "공동 작업·설문 협조의 N3 명사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_265",
+    "sourceHash": "10ae9c1009a315c7fca79fcbcc86e86980994428a395b020a53be33913aa1a2e",
+    "proposalHash": "f7a34aa781ff1a12f4d84a535e81c81fe900c630ad5867412cd4609efa838bb0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "출처 N1과 편집 N3를 구분했으며 실제 이동 거리·차간 거리의 중급 배정은 타당하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_266",
+    "sourceHash": "acc45e1ac5312a4ad912d4ca523a087b481d780aefbf72524fea975735fd89bd",
+    "proposalHash": "341d22203b15806eccd860ed81eeb3b18b39e465e26eab474011dfb93194daeb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "일기·체온 정보 보존의 N3 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_267",
+    "sourceHash": "983456f15b6f399ffd8093aea49f53584342c11313812bb3fda3f392f1b5ff54",
+    "proposalHash": "5676413214ccbc7fba72d4c73dc40573255e9c7fcf5bedef3138340d924c5d19",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "장소의 흡연 금지라는 N3 선택 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_268",
+    "sourceHash": "e3d26a8c5bef20d7f18f84fce1ef327c69899a33c6a946e505b797d2ab1feb8b",
+    "proposalHash": "9ccfe7386c3c4957b311c041349302ef5745db7f83875a8bd479c30878e2d196",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "낚시·촬영을 허용하지 않는 N3 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_269",
+    "sourceHash": "7d0561788dd9ad676f6272aefb5773044f7b4f34c1cedd5db8829368e1a63ac6",
+    "proposalHash": "f38aa4e0416bbf04964ace76222ae4ec21d9bb56e02c231dcd448f70036525d0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "신체의 목이라는 N4 선택 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_270",
+    "sourceHash": "9ec28ea3b13939f07cd646d7124bd466113fbe5a4252b3b2b3e4a78fb05a5ecb",
+    "proposalHash": "e8896f8379ac881a1b236f6b6cd05300f6c5084cefb5b359a788a6e796eeadee",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-009.json",
+    "reviewedAt": "2026-09-30T04:44:29.621Z",
+    "notes": [
+      "수납 방법과 음식 아이디어의 N2 뜻이 맞다."
+    ]
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "wordId": "JLPTN3_9",
+    "sourceHash": "82b518185bd558389abcdc8dd99a9b198824b7e6bc21b2d8b4ba0e7113681e67",
+    "afterHash": "8439ee27930ee5b243b4cf2cf3bdb63615151c3bf20202138723c7d02cca15b1",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "목표와 상대에 도전하는 기존 두 예문의 핵심 뜻을 유지하며 자타 정보와 설명을 정정했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_29",
+    "sourceHash": "6159a781811dad8d5c425d42d4f964308a2c61502172a18afb5f57a548c07f5a",
+    "afterHash": "e400d2139a66799ca8f173ba4bb61c0cba044c8ea68722aa1f9dcbc842970a88",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "달리기 용법은 그대로이며 반드시 전속력이라는 불필요한 제한만 제거했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_56",
+    "sourceHash": "4c4a3d4990b5dd0879391e9d287fee28677b29bf805517b94035123656b67b66",
+    "afterHash": "8084fb1895fb0dafe60015e24e9dd34564436f8bc9bafde0a006ada65427ce7b",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 물기 짜기 용법은 그대로 두고 범위 좁히기를 새 용법으로 분리했다. 면접 질문 예문으로 기존 후보 세 개 장면 반복을 피했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_58",
+    "sourceHash": "b71494c8d87b9e31fd2416c6856e8a1cfae007f649ee032e2a586c6752c37cd2",
+    "afterHash": "06ee1cf536e29a3a72d4ff5004c1895cd8aa512fe6c8bf1a6ce23b2d31b7f225",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 띠와 안전띠를 매는 뜻을 유지하며 한국어 표현만 바로잡았다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_99",
+    "sourceHash": "4596db0b9b8fbee89f4a12828b873940994f65ed56b7847a9b02844b7ca8b005",
+    "afterHash": "3510208b82a8b31fafb8d62b106ba5939347d25ccd56303dbd403d4ac959a70c",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "떼어 놓거나 손을 놓는 기존 예문에 맞춰 놓치다라는 부정확한 대표 뜻을 정정했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_125",
+    "sourceHash": "3bfa23c463667e2c8f5c9d8f046a96bab348a4b5c7e002911ba8906f5f574177",
+    "afterHash": "3f5b4a0ecbfc4d5694dc71f68f3cc9bd2ec7652d81d953b89a7d05c0a211cdc3",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_130",
+    "sourceHash": "7c2b530e2367ce9adff18b863425c76097989d5ced07ab1f49986b9092eef5ed",
+    "afterHash": "b663393e9260125ee7fe62bc9504a96da55e59afe3b0e0fbe4be52cdb4a23918",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_132",
+    "sourceHash": "ffd2d743102156158aa41d8c2373be88fb898632b4326f337409fd4a0fcd8715",
+    "afterHash": "2ee4935ab03554f7cfd0d84282e3c686197d4ac1a0a3a09bf09a6f9973ab1036",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_140",
+    "sourceHash": "952b8b010117ec34ebd4f998ba7b656f4216052411a7139649698df433ffc32b",
+    "afterHash": "05eb65e796fd02420e48c1e51f1d4fa5be90c4630c0828be78d498230e75c874",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_142",
+    "sourceHash": "5c4c34c35ffd587f4f020b8ca235d8ed046c0e08c681f0701afc44c5e3719ca9",
+    "afterHash": "f25c025a53bbd0f4db7d1a04d8d37e1e286fb030116284d8ca1554ea64ee5066",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_144",
+    "sourceHash": "487e095602a5bde7865ce94e84da7e257e32861ec8153501360a6302f6de182e",
+    "afterHash": "2c17e61cb2aaf5a5d4aa4a480151f4c49acfbbfacdbbf4c58b0263ec1180c1b9",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_154",
+    "sourceHash": "a5ef39ff97f35febb9ccb4416920b0993de76ac57bc22f3387594f40b3d9280d",
+    "afterHash": "9789984449dccd7b3128a5886b54d0338b749e44fe83c1dbd51daacbba40fb69",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_199",
+    "sourceHash": "50b69a77a5047e5e268cdc850d32ea121139b9a6541ca614a3d07c36547e16e7",
+    "afterHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_201",
+    "sourceHash": "7a6f1598737e9617503dabd60403415b5d6b2c878c324be22383058d2caf0f2a",
+    "afterHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_214",
+    "sourceHash": "6a50c970294dfbdcea0a3885fcbd5f7ddc928f7e44d13aecec2d12d1da002d2b",
+    "afterHash": "0034baf1858974c4965dd4b79e781102b14ec9ed7b4a40107f86504ed0be8639",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 계산·지불 용법은 유지하며 수입·지출 관리 업무를 별도 용법으로 추가했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_235",
+    "sourceHash": "4260701646e4b3bfc33a34c8857a5be2ee27d8c5077ea81f992c780e515d849c",
+    "afterHash": "dd3af2444834e3c3c635f88e5431866050e0636ecae37609f13ae21918ca754a",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 과일 껍질은 유지하고 동물 피부를 새 용법으로 분리했다. 가공된 革와의 차이도 맞는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_244",
+    "sourceHash": "921f0b366270d312721167a0c0c8287e111ccf72742c99084d6718b595ea0655",
+    "afterHash": "d166e6fb292a1763999830dfa66d890e5144d7f233bb3d027611abcedb539d3c",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_250",
+    "sourceHash": "d3b7f44441449ec5b23806c2f7794323af5406fc19ee6e56323f0278aa0a83bd",
+    "afterHash": "5e1f91f27c51e8a3d78b5a1d7b07eef2f8083c290a9101720e915abb80fc205d",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_263",
+    "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+    "afterHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "関心의 장면 교체로 반복이 해소되며 현재 흥미 용법과 예문은 그대로 타당하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_271",
+    "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+    "afterHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "区別의 장면 교체로 쓰레기 분류 반복이 해소되며 현재 분류 용법은 유지한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_272",
+    "sourceHash": "2e2b7f13e90b39fc8e7a011c1cb80d534e1b4f915009473b2e0d08e95f96bec6",
+    "afterHash": "a70722f50f2dac2dc9be8a761547028d529f2b8db52dbfcaad29f77920682809",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "차이를 알아보는 핵심 뜻은 유지하며 두 약의 봉투 색 식별로 장면을 변경했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_280",
+    "sourceHash": "554ceece46055fcbc790e6ced821505ec41c41fe03991ab23eb0855ad3377d61",
+    "afterHash": "a4b086dd75234ac4e0b739e64559d8c70cd55bf3b293ca0e58655cb886e38fdb",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "외과 용법과 일본어는 유지하고 二階를 2층으로 명확히 번역했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_292",
+    "sourceHash": "6a98b7085d76042ca38890dc8137d2461fe4a8d8c0fa8a18725a6e4b96db7686",
+    "afterHash": "f2da07bcfde57eb09e3c556147b720894183cb06f28f585a58d8df18286fb947",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "감소 용법과 일본어는 유지하고 하루 三本을 차량 대수가 아닌 운행 횟수로 번역했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_335",
+    "sourceHash": "2ca84332919b7298729d6491a39f2bc28721137e51e17bcbe63323c43df2f542",
+    "afterHash": "2cc389618dd47d79f405aadcc0ed42415797fd84634b301a42c447fc35d34e44",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_361",
+    "sourceHash": "e1127d00ebe6047ba259f2594096097ba2aea6070229c94a2f3eb35a1bd5a900",
+    "afterHash": "6b08ad8eb13aa7e22edd16543fe209d458157f7362cdb3f04eef57783a0b2809",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_408",
+    "sourceHash": "90804a4911205fb99280378cd40161a872e5e89d069aa3dead37b3b99a86b302",
+    "afterHash": "90804a4911205fb99280378cd40161a872e5e89d069aa3dead37b3b99a86b302",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "별도 손전등 장면 개정과 참조 재검토로 해결되었으며 이번 제안은 원문 무변경 이력이다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_410",
+    "sourceHash": "c04088949006cd97ab37b8fa891a8ce8ec423b23cae59033e070d1c355d79dbb",
+    "afterHash": "da3cfd85e7ee88ba1e3caa9b569d5fcee28eb000335803f99aa1ad96bb7fd43c",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "천장이라는 현재 용법과 예문을 유지하며 대표 뜻의 표기만 통일했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_441",
+    "sourceHash": "e8857354b943ad8358b491b5c63ef104ed8262be131818063d001ae2cc77ea68",
+    "afterHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_444",
+    "sourceHash": "015db91ada6d477380fa646364b4fc16137ca3d596a86e08d88b1143bf606179",
+    "afterHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_450",
+    "sourceHash": "5f5c2610123d03c4a438c37836d178e36f08fb33b8e5adde985ae0a0723005aa",
+    "afterHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_453",
+    "sourceHash": "26273c619875bfdb82d8e9bb127300fb3adc8a4b16995cc5843f2fc2f2ce0622",
+    "afterHash": "1f0e78d211295f4662b673580857c02fb538907cd3bd2fd7744e400f8d1f26e1",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_456",
+    "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+    "afterHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "比較의 사진 장면 교체로 반복이 해소되며 현재 변화 용법과 예문은 유지한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_463",
+    "sourceHash": "d1669b934c9c189d843dbe6160967bbfb0cee4d70cac3c56470373625545e97a",
+    "afterHash": "f2ffb9566da31c518d0ded3ffde9d2e0d6029ca328f87311cf6fdba480750d86",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:32:41.508Z",
+    "notes": [
+      "성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다."
+    ]
+  }
+]

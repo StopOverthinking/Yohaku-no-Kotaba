@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "dc328c8db4c8022f1ccdfda93ac17172c295204d0f9019e64e541dbb1ef133a8",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:14:28.225Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1063150",
+      "1a0cbcb0df76ce0120a87e40dacf908ff9a6c978350bab77c5feafc85a9bdf07"
+    ],
+    [
+      "lex-jmdict-1065170",
+      "422d79d13b0f9d02aa5a60965b7bd83c55ca1898e881c1af86763e59e213e368"
+    ],
+    [
+      "lex-jmdict-1065980",
+      "8524978b5da4be520b6e6a6bf4b488a142997deefdd9a7367ec17f65725059c8"
+    ],
+    [
+      "lex-jmdict-1066230",
+      "73c7056ee08ab6149eafab870ac41a5297bbf298aff3209ba8b881b005116fb7"
+    ],
+    [
+      "lex-jmdict-1066390",
+      "c63b1d5fc0f50f6fe2db04cb16388eea07c7ca511be5161323cc760e491b1112"
+    ],
+    [
+      "lex-jmdict-1067970",
+      "4980d6b427630c7a85db1002ff04a2e9f64125b2e3f1db568d5602817a310ef9"
+    ],
+    [
+      "lex-jmdict-1068120",
+      "ebd23105b8a3e40b1714616bf345de413b7903324be51228022618ca542533b8"
+    ],
+    [
+      "lex-jmdict-1068190",
+      "114810b634c65f173411c5971d730c52d968f47c0dcfc6c62c7eb34594356287"
+    ],
+    [
+      "lex-jmdict-1068790",
+      "a6c6f78784b29c802046ab7bc98cb681a1ee8529f2bfae9005e5382b4fedd4b2"
+    ],
+    [
+      "lex-jmdict-1068890",
+      "90cfb9f3d30e67b7ac4e1978d6f6ea83f336f6cb2d8d6d541daa87ae1c934125"
+    ],
+    [
+      "lex-jmdict-1069160",
+      "786065358286bf864282fb0764631183927487ffaf3ecf333a90bf0bc26cf1ec"
+    ],
+    [
+      "lex-jmdict-1069810",
+      "2f454edda0a6e5a6799e8a89f9b18160ffacc46a92dfb6749f6a665afb76838a"
+    ],
+    [
+      "lex-jmdict-1070500",
+      "7602183e3782cb2b0d4d25109a9293eade07a0092ea3145ca0422fb73c24b463"
+    ],
+    [
+      "lex-jmdict-1070750",
+      "4e9ac3bffa3ea8746c0b4dd399c99a2cc7bb3be017fcd056dd4d33ef0023ca98"
+    ],
+    [
+      "lex-jmdict-1070760",
+      "45f9e84f1b88d838a293a7261576ee5564168ee811c7e96e8405d9e13006ad46"
+    ],
+    [
+      "lex-jmdict-1071110",
+      "bdca73c9fefc1cc022ab70ccf92955df7080d92150a877973d8c4236e3dc2a3c"
+    ],
+    [
+      "lex-jmdict-1071220",
+      "f00de39794e55f85323d49a5c37c6eaa339fc5b98171f5446cce3f971b2ff8f7"
+    ],
+    [
+      "lex-jmdict-1071500",
+      "ab1150057b3cf1b4a2e620642dca642d8ec7bf24a15cc144581a6b50f79fdc45"
+    ],
+    [
+      "lex-jmdict-1072010",
+      "cad5563c3ecdad9f12e9e4e59d9376014318d1aaebf4073c5b51310e88108c1c"
+    ],
+    [
+      "lex-jmdict-1072750",
+      "bceac530326ca21593d51d50ee12c333a9f4e9031109fd1cbda5358800f54cdc"
+    ],
+    [
+      "lex-jmdict-1072930",
+      "825a2b63f0aba6d6d9b7d50b3abd2d5b20543e343985495882824e48277b49c2"
+    ],
+    [
+      "lex-jmdict-1073530",
+      "4bb1a70d411721594c326fd7e6dee6d826824e1541979dc07ce15ae8525b2164"
+    ],
+    [
+      "lex-jmdict-1074840",
+      "26958499c5c50723329ff076d61df5477b775878309fdc51acc155e6ae91b76a"
+    ],
+    [
+      "lex-jmdict-1074990",
+      "2979b07d86a167bed252a55059fa76c388c324b64b3a7b9639b59202d1d4f446"
+    ],
+    [
+      "lex-jmdict-1077010",
+      "4d6323587adb61a71d7f9e21244ad9e35a973d9e01196a106ea784f183cef283"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1070500",
+      "category": "substantive",
+      "note": "스티커 재질을 종이로만 한정한 힌트를 필름 등도 포함하도록 수정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1074990",
+      "category": "substantive",
+      "note": "스위치를 사람의 조작에만 한정하지 않고 감지와 회로 개폐의 기능 차이로 구별했다."
+    }
+  ]
+}

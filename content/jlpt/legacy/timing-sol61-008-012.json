@@ -1,0 +1,43 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "legacy-classification-only",
+  "files": [
+    {
+      "batch": "008",
+      "startedAt": null,
+      "startLimit": "첫 입력 읽기 시각을 기록하지 않아 시작 시각은 측정 불가",
+      "rows": 30,
+      "completedAt": "2026-09-30T04:40:16.584Z",
+      "structuralIssues": 0
+    },
+    {
+      "batch": "009",
+      "startedAt": "2026-09-30T04:40:56.517Z",
+      "completedAt": "2026-09-30T04:42:27.997Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "010",
+      "startedAt": "2026-09-30T04:42:55.142Z",
+      "completedAt": "2026-09-30T04:44:14.854Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "011",
+      "startedAt": "2026-09-30T04:44:52.601Z",
+      "completedAt": "2026-09-30T04:46:26.104Z",
+      "rows": 31,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "012",
+      "startedAt": "2026-09-30T04:46:55.020Z",
+      "completedAt": "2026-09-30T04:48:16.396Z",
+      "rows": 31,
+      "structuralIssues": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "legacy-classification-only",
+  "files": [
+    {
+      "batch": "013",
+      "startedAt": "2026-09-30T05:18:14.388Z",
+      "completedAt": "2026-09-30T05:19:19.045Z",
+      "rows": 31,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "014",
+      "startedAt": "2026-09-30T05:19:39.688Z",
+      "completedAt": "2026-09-30T05:20:53.658Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "015",
+      "startedAt": "2026-09-30T05:21:14.584Z",
+      "completedAt": "2026-09-30T05:22:29.625Z",
+      "rows": 31,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "016",
+      "startedAt": "2026-09-30T05:22:59.969Z",
+      "completedAt": "2026-09-30T05:24:09.475Z",
+      "rows": 31,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "017",
+      "startedAt": "2026-09-30T05:24:43.958Z",
+      "completedAt": "2026-09-30T05:26:16.307Z",
+      "rows": 33,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "018",
+      "startedAt": "2026-09-30T05:26:39.627Z",
+      "completedAt": "2026-09-30T05:28:00.351Z",
+      "rows": 32,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "019",
+      "startedAt": "2026-09-30T05:28:21.917Z",
+      "completedAt": "2026-09-30T05:29:53.217Z",
+      "rows": 33,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "020",
+      "startedAt": "2026-09-30T05:30:15.178Z",
+      "completedAt": "2026-09-30T05:31:34.593Z",
+      "rows": 32,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "021",
+      "startedAt": "2026-09-30T05:31:57.651Z",
+      "completedAt": "2026-09-30T05:33:21.301Z",
+      "rows": 32,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "022",
+      "startedAt": "2026-09-30T05:33:46.227Z",
+      "completedAt": "2026-09-30T05:35:16.581Z",
+      "rows": 30,
+      "structuralIssues": 0
+    }
+  ],
+  "completedAt": "2026-09-30T05:35:38.206Z",
+  "totalRows": 315,
+  "totalFiles": 10,
+  "unresolvedLevels": 15,
+  "rowsWithIssues": 23
+}

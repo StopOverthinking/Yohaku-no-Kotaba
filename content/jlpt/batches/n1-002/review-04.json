@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "7bd94886ad482aa9513a58aae00d81f35368af2d209646208a93e1671c25a8fa",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:22:39.706Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1205880",
+      "ca0db9240911fdc94a1e5ddc34fedee78b895b4d5ad6259002636658712bdd01"
+    ],
+    [
+      "lex-jmdict-1205920",
+      "67c3858d458066ca80e1b0de4799e52eca697641b9746710777f01b914e07466"
+    ],
+    [
+      "lex-jmdict-1206030",
+      "9e1cd95eb73804f9b9f750d64926e247273d4d3112fd95de0a531e0a62c28cfe"
+    ],
+    [
+      "lex-jmdict-1206470",
+      "db2ec156ff4d6e6c96b14f80e053d294d93aaeb1e39dc6837e5d9e4cd17e0704"
+    ],
+    [
+      "lex-jmdict-1206500",
+      "31e18b757846c9292dd985c877361fbc19ab44bf12e23c2f388ac2bb1fc7c799"
+    ],
+    [
+      "lex-jmdict-1206950",
+      "c2d27063c1dde0f90e8d91806b73cb687306f19c02d6d7a0ad4f4f91045d7c5f"
+    ],
+    [
+      "lex-jmdict-1207200",
+      "f4992dd108e6737ae793b316c2a4096636cb446e8af27210dbff52b155428a87"
+    ],
+    [
+      "lex-jmdict-1207310",
+      "a6de508b913626a64df4b863b1867489cb3b819356fde38b7bbfeb0f8ed0e814"
+    ],
+    [
+      "lex-jmdict-1208970",
+      "91fa970098f4e48da4d5983aa7ef9a442fba859c2f0f10160fb509b21144a75c"
+    ],
+    [
+      "lex-jmdict-1210570",
+      "61bca5948435d8415028956434a6c3aea94fa6a977b42d8881b789bd826c9cea"
+    ],
+    [
+      "lex-jmdict-1210970",
+      "8047a2e3d1628f8186bcf593020a4ae956c67e1405a015cbaaf309e94a17a8ff"
+    ],
+    [
+      "lex-jmdict-1211120",
+      "6673af7e1ebc383269543bdd41125b6c963e1acb45a7d08f67b78ef1c0f56ef9"
+    ],
+    [
+      "lex-jmdict-1211860",
+      "d6977ce8e23203ed23eaf3d016cd02425fff1cf6faeabfabd3ea92190c094ba3"
+    ],
+    [
+      "lex-jmdict-1212050",
+      "ae6e719e3aaa92f0c88e1fcdc8ef7b8c36f1374a19679ffe0f504c914924f291"
+    ],
+    [
+      "lex-jmdict-1212140",
+      "6cdd437e192dbc38cce20834a7119f713f982982fb49754cab2063f83dedc14e"
+    ],
+    [
+      "lex-jmdict-1212170",
+      "5308ed6527d8ce5b31bc06136aa3e66704138137160bfc428785cdaab36524ad"
+    ],
+    [
+      "lex-jmdict-1212310",
+      "e1bf789edb167bf66259509c930882130a1045f9b08385a5da5a64f8f7194de2"
+    ],
+    [
+      "lex-jmdict-1212550",
+      "01f5ee5eb831e03688fbec6bc8ebd2860da57410ce8afd6a412e17db24854449"
+    ],
+    [
+      "lex-jmdict-1212680",
+      "15ab32bf205f3739178b2d1a7dd13df223502df58f090f4d233acf95c86877fe"
+    ],
+    [
+      "lex-jmdict-1212700",
+      "acf25a537408f60ed0c11381c7d4348cbd280778f259bfa7e867643c9c90be54"
+    ],
+    [
+      "lex-jmdict-1212750",
+      "d555feb45079aee9bd585f3178be3396a6b8353c6b87c9891b982e99652e9e65"
+    ],
+    [
+      "lex-jmdict-1212820",
+      "6a4b2c4dabf525516d55b56235510aa616539c757e67f4a6e40757296078dba0"
+    ],
+    [
+      "lex-jmdict-1213680",
+      "3ee9c53a9cc56d35fe9ca1828bc33fe43f64d281d1c989bc27c7cae20c2543dc"
+    ],
+    [
+      "lex-jmdict-1214530",
+      "0955074c7cf68272d3ae5bd9d83035648e099bc9a386905ccf481625efb9f4a4"
+    ],
+    [
+      "lex-jmdict-1215130",
+      "749bb1ab485f943b33e2f5016bba7b49dd76100e8ad43086cba39ed7169e710d"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1205920",
+      "category": "substantive",
+      "note": "대비어 保証에 맞게 보증의 뜻을 설명하고 保障의 안전·권리 보장과 혼동할 여지를 제거함."
+    },
+    {
+      "wordId": "lex-jmdict-1212310",
+      "category": "substantive",
+      "note": "感慨의 핵심은 감정의 깊이이므로 반드시 지속적이라는 제한을 제거함."
+    }
+  ]
+}

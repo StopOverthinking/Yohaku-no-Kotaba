@@ -1,0 +1,18 @@
+{
+  "batch": "n4-005",
+  "status": "completed",
+  "completedParts": [
+    "01"
+  ],
+  "checkedWords": 11,
+  "acceptedWords": 11,
+  "acceptedExamples": 11,
+  "heldWords": 0,
+  "scope": "Complete independent dictionary, meaning, reading, POS, hint, contrast, example, translation, level and corpus review.",
+  "notes": [
+    "Conflicting source levels include N4; the selected ordinary meanings support N4."
+  ],
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "updatedAt": "2026-09-30T04:58:29.926Z"
+}

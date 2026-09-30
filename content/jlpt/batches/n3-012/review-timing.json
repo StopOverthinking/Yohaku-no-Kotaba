@@ -1,0 +1,19 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T06:39:20.145Z",
+    "completedAt": "2026-09-30T06:40:51.266Z",
+    "checkedWords": 9,
+    "checkedExamples": 9,
+    "correctedWords": 1,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "corpusExamples": 8573,
+    "similarityComparisons": 214072,
+    "newSimilarityPairs": 0,
+    "levelReview": "기본 생활·서비스·인터넷 소통의 선택 의미 9개에 편집 N3 분류를 수용했다. 출처 N1과 명시적으로 구분한다."
+  }
+]

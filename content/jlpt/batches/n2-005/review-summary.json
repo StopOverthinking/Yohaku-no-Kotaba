@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedAt": "2026-09-30T05:56:13.029Z",
+  "checkedWords": 100,
+  "checkedExamples": 100,
+  "accepted": 100,
+  "held": 0,
+  "correctedWords": 11,
+  "correctionCategories": {
+    "substantive": 8,
+    "clarity": 3,
+    "formatting": 0
+  },
+  "method": "All dictionary meanings/readings/POS and manuscript metadata, hints, contrasts, examples, translations and practical level use independently reviewed. Runtime plus pilot-only sense deduplication; similarity threshold 0.7 and semantic scene comparison before each acceptance.",
+  "finalCorpusExamples": 8302,
+  "finalSimilarityComparisons": 200735,
+  "similarityPairs": 0,
+  "notes": [
+    "Existing approved content unchanged. Repeated machine-stopping and extra-chair scenes replaced before approval. Independent AI review, not human review."
+  ]
+}

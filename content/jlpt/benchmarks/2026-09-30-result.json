@@ -1,0 +1,367 @@
+{
+  "measuredAt": "2026-09-30T03:35:05.569Z",
+  "requestedWords": 200,
+  "generatedWords": 200,
+  "approvedWords": 200,
+  "publishedWords": 200,
+  "finishedAt": "2026-09-30T03:34:49.594Z",
+  "examples": 200,
+  "correctedWords": 40,
+  "correctionRate": 0.2,
+  "substantiveCorrections": 16,
+  "substantiveCorrectionRate": 0.08,
+  "clarityCorrections": 2,
+  "formattingOnlyCorrections": 22,
+  "measurementWallSeconds": 1920.6,
+  "integrationSeconds": 3.7,
+  "tests": {
+    "at": "2026-09-30T03:33:52.434Z",
+    "event": "tests-passed",
+    "files": 41,
+    "tests": 200,
+    "durationSeconds": 66.01
+  },
+  "buildPassed": true,
+  "productionWallSeconds": 1666.4,
+  "generationWallSeconds": 1592.2,
+  "generationWorkerSeconds": 2206.8,
+  "generationWorkerSpansSeconds": 2562.8,
+  "reviewWorkerSeconds": 758.4,
+  "approvedWordsPerMinute": 7.2,
+  "automatedChecks": {
+    "runs": 27,
+    "milliseconds": 17444,
+    "errorOccurrences": 0
+  },
+  "bytes": {
+    "words": 122769,
+    "examples": 91799,
+    "review": 33390,
+    "corrections": 5977
+  },
+  "priorThreeExamplePlan": {
+    "examplesFor200Words": 600,
+    "examplesForGeneratedWords": 600,
+    "actualExamples": 200,
+    "difference": 400,
+    "note": "Work quantity comparison only, not measured speed or token savings."
+  },
+  "preservation": {
+    "words": 2669,
+    "senses": 2669,
+    "preservedWords": true,
+    "preservedSenses": true
+  },
+  "carryoverOutsideBenchmark": {
+    "batch": "n3-005/01",
+    "words": 30,
+    "examples": 90,
+    "note": "Previously authored and reviewed; excluded from benchmark counts/timing."
+  },
+  "complete": true,
+  "tokenUsage": null,
+  "cost": null,
+  "limitations": [
+    "No comparable prior stage timing; no speedup ratio claimed.",
+    "Elapsed worker time includes tool calls and coordination, not pure model compute.",
+    "Parallel worker intervals overlap; do not add them to wall time.",
+    "Artifact bytes are not token usage or monetary cost.",
+    "N2/N1 sample and 1-example policy differ from earlier 3-example batches."
+  ],
+  "workers": [
+    {
+      "batch": "n2-002",
+      "startedAt": "2026-09-30T03:03:45Z",
+      "finalGeneratedAt": "2026-09-30T03:30:17.245Z",
+      "completedAt": "2026-09-30T03:30:17.246Z",
+      "elapsedSeconds": 1592.2,
+      "generationRevisionAttempts": 2,
+      "generationObservedErrors": 1,
+      "preparationObservations": [
+        {
+          "part": "03",
+          "reportedErrors": 2,
+          "note": "후보 조회 필드명을 수정했고, 저장 전 전체 중복검사에서 기존 pilot 표제어가 탐지되어 후보 3개를 교체함. 파일이 저장되지 않은 상태의 preflight 호출 1회는 실행 불가."
+        }
+      ]
+    },
+    {
+      "batch": "n1-002",
+      "startedAt": "2026-09-30T03:04:45.316Z",
+      "finalGeneratedAt": "2026-09-30T03:20:29.687Z",
+      "completedAt": "2026-09-30T03:20:55.891Z",
+      "elapsedSeconds": 970.6,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0,
+      "preparationObservations": []
+    }
+  ],
+  "parts": [
+    {
+      "batch": "n2-002",
+      "index": "01",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:03:45Z",
+      "metadataCompletedAt": "2026-09-30T03:08:36.329Z",
+      "generatedAt": "2026-09-30T03:08:55.742Z",
+      "generationSeconds": 310.7,
+      "reviewStartedAt": "2026-09-30T03:09:42.756Z",
+      "reviewedAt": "2026-09-30T03:11:06.503Z",
+      "reviewSeconds": 83.7,
+      "queueSeconds": 47,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1008950",
+        "lex-jmdict-1010040",
+        "lex-jmdict-1021220"
+      ],
+      "substantiveCorrections": 3,
+      "clarityCorrections": 0,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    },
+    {
+      "batch": "n2-002",
+      "index": "02",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:09:42.690Z",
+      "metadataCompletedAt": "2026-09-30T03:12:15.199Z",
+      "generatedAt": "2026-09-30T03:14:17.198Z",
+      "generationSeconds": 274.5,
+      "reviewStartedAt": "2026-09-30T03:18:15.891Z",
+      "reviewedAt": "2026-09-30T03:19:48.114Z",
+      "reviewSeconds": 92.2,
+      "queueSeconds": 238.7,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1044440",
+        "lex-jmdict-1054850"
+      ],
+      "substantiveCorrections": 2,
+      "clarityCorrections": 0,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    },
+    {
+      "batch": "n2-002",
+      "index": "03",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:17:28.622Z",
+      "metadataCompletedAt": "2026-09-30T03:22:40.048Z",
+      "generatedAt": "2026-09-30T03:24:36.805Z",
+      "generationSeconds": 428.2,
+      "reviewStartedAt": "2026-09-30T03:25:19.510Z",
+      "reviewedAt": "2026-09-30T03:26:09.012Z",
+      "reviewSeconds": 49.5,
+      "queueSeconds": 42.7,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1164040",
+        "lex-jmdict-1164910"
+      ],
+      "substantiveCorrections": 1,
+      "clarityCorrections": 1,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 2,
+      "generationObservedErrors": 1
+    },
+    {
+      "batch": "n2-002",
+      "index": "04",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:25:00.746Z",
+      "metadataCompletedAt": "2026-09-30T03:27:01.969Z",
+      "generatedAt": "2026-09-30T03:30:17.245Z",
+      "generationSeconds": 316.5,
+      "reviewStartedAt": "2026-09-30T03:29:56.053Z",
+      "reviewedAt": "2026-09-30T03:30:40.679Z",
+      "reviewSeconds": 44.6,
+      "queueSeconds": null,
+      "queueNote": "Reviewer began before author final completion bookkeeping; exact ready-to-review time unavailable.",
+      "approvedWords": 25,
+      "correctedWordIds": [],
+      "substantiveCorrections": 0,
+      "clarityCorrections": 0,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    },
+    {
+      "batch": "n1-002",
+      "index": "01",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:04:45.316Z",
+      "metadataCompletedAt": "2026-09-30T03:09:21.671Z",
+      "generatedAt": "2026-09-30T03:09:41.942Z",
+      "generationSeconds": 296.6,
+      "reviewStartedAt": "2026-09-30T03:11:24.263Z",
+      "reviewedAt": "2026-09-30T03:13:36.085Z",
+      "reviewSeconds": 131.8,
+      "queueSeconds": 102.3,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1153310",
+        "lex-jmdict-1153340",
+        "lex-jmdict-1154520",
+        "lex-jmdict-1154550",
+        "lex-jmdict-1156160",
+        "lex-jmdict-1156690",
+        "lex-jmdict-1156720",
+        "lex-jmdict-1157580",
+        "lex-jmdict-1157970",
+        "lex-jmdict-1158150",
+        "lex-jmdict-1158240",
+        "lex-jmdict-1160500",
+        "lex-jmdict-1161470",
+        "lex-jmdict-1166420",
+        "lex-jmdict-1167450",
+        "lex-jmdict-1170690",
+        "lex-jmdict-1172690",
+        "lex-jmdict-1173010",
+        "lex-jmdict-1173050",
+        "lex-jmdict-1173090",
+        "lex-jmdict-1175380",
+        "lex-jmdict-1176740",
+        "lex-jmdict-1176750",
+        "lex-jmdict-1176930",
+        "lex-jmdict-1176950"
+      ],
+      "substantiveCorrections": 3,
+      "clarityCorrections": 0,
+      "formattingOnlyCorrections": 22,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    },
+    {
+      "batch": "n1-002",
+      "index": "02",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:09:42.019Z",
+      "metadataCompletedAt": "2026-09-30T03:12:43.737Z",
+      "generatedAt": "2026-09-30T03:12:45.444Z",
+      "generationSeconds": 183.4,
+      "reviewStartedAt": "2026-09-30T03:13:52.384Z",
+      "reviewedAt": "2026-09-30T03:18:15.889Z",
+      "reviewSeconds": 263.5,
+      "queueSeconds": 66.9,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1179880",
+        "lex-jmdict-1193520",
+        "lex-jmdict-1196220",
+        "lex-jmdict-1178340"
+      ],
+      "substantiveCorrections": 4,
+      "clarityCorrections": 0,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    },
+    {
+      "batch": "n1-002",
+      "index": "03",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:13:17.195Z",
+      "metadataCompletedAt": "2026-09-30T03:15:11.282Z",
+      "generatedAt": "2026-09-30T03:16:47.070Z",
+      "generationSeconds": 209.9,
+      "reviewStartedAt": "2026-09-30T03:19:48.116Z",
+      "reviewedAt": "2026-09-30T03:20:37.231Z",
+      "reviewSeconds": 49.1,
+      "queueSeconds": 181,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1202880",
+        "lex-jmdict-1200880"
+      ],
+      "substantiveCorrections": 1,
+      "clarityCorrections": 1,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    },
+    {
+      "batch": "n1-002",
+      "index": "04",
+      "words": 25,
+      "examples": 25,
+      "startedAt": "2026-09-30T03:17:22.642Z",
+      "metadataCompletedAt": "2026-09-30T03:19:00.961Z",
+      "generatedAt": "2026-09-30T03:20:29.687Z",
+      "generationSeconds": 187,
+      "reviewStartedAt": "2026-09-30T03:21:55.794Z",
+      "reviewedAt": "2026-09-30T03:22:39.784Z",
+      "reviewSeconds": 44,
+      "queueSeconds": 86.1,
+      "queueNote": null,
+      "approvedWords": 25,
+      "correctedWordIds": [
+        "lex-jmdict-1205920",
+        "lex-jmdict-1212310"
+      ],
+      "substantiveCorrections": 2,
+      "clarityCorrections": 0,
+      "formattingOnlyCorrections": 0,
+      "generationRevisionAttempts": 0,
+      "generationObservedErrors": 0
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-09-30T03:11:02.040Z",
+      "event": "setup-ready",
+      "details": "Single-example parser/readiness/audits/rotation; preflight; compact review receipts; wiki and plan updated; 31 targeted tests and typecheck passed. Setup overlapped generation."
+    },
+    {
+      "at": "2026-09-30T03:11:02.042Z",
+      "event": "carryover-review-imported",
+      "batch": "n3-005",
+      "part": "01",
+      "words": 30,
+      "examples": 90,
+      "note": "Previously authored and reviewed; excluded from 200-word production benchmark; application publication remains pending."
+    },
+    {
+      "at": "2026-09-30T03:32:20.236Z",
+      "event": "integration-started"
+    },
+    {
+      "at": "2026-09-30T03:32:23.985Z",
+      "event": "integration-completed",
+      "benchmarkWords": 200,
+      "carryoverWords": 30
+    },
+    {
+      "at": "2026-09-30T03:33:52.434Z",
+      "event": "tests-passed",
+      "files": 41,
+      "tests": 200,
+      "durationSeconds": 66.01
+    },
+    {
+      "at": "2026-09-30T03:34:49.594Z",
+      "event": "build-passed",
+      "viteSeconds": 5.2,
+      "note": "Existing large bundle warning retained; not a final full-target performance approval."
+    },
+    {
+      "at": "2026-09-30T03:34:49.594Z",
+      "event": "benchmark-completed"
+    }
+  ]
+}

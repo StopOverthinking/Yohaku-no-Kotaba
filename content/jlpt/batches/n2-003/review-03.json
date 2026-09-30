@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "e79bed2baf3fb3b815ac98ddadd4f3f1e4bc3d9e14cf5c2632c82b9ef71875f0",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:37:47.887Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1185940",
+      "58bc8b0468c932f50c6b371d53c7436684c5066aeeeb584a994ad6886dc11011"
+    ],
+    [
+      "lex-jmdict-1188100",
+      "aa2826974c6e9ea440a3f2b2f3d594c7202dfc8321570da8510ad6a60533ece7"
+    ],
+    [
+      "lex-jmdict-1191780",
+      "842417dee6150c20e8a5aabbaf0ee929b43191970c73f0d84a0beced33f8d18f"
+    ],
+    [
+      "lex-jmdict-1192940",
+      "3e0dbdc679c15ee1e4ca68345de87a0f387e987d3d7fdb8f3ed835585b092f33"
+    ],
+    [
+      "lex-jmdict-1193130",
+      "b7c43c1841d823dc42777cabb14d512f36390d38a439034dc922a86733a560ed"
+    ],
+    [
+      "lex-jmdict-1193910",
+      "c1f17c3b4ff84251d7d6c8635a8692e2bccd375dfb27fdb0042fd8ae941d31cb"
+    ],
+    [
+      "lex-jmdict-1194570",
+      "575717885c6abf4ba5bfa6d04202b0cc29771c820b35d46a5648af2cff5e5e38"
+    ],
+    [
+      "lex-jmdict-1194580",
+      "3cf3c031337bb68f4603aa73e64b553931c50840e401dd138261acb1c4d00b6f"
+    ],
+    [
+      "lex-jmdict-1195850",
+      "d83e466936ce74f8b22689cf59ebbf2a8b3f1559c4e8ad4b7d6c9eb39f480d28"
+    ],
+    [
+      "lex-jmdict-1195890",
+      "91ef2f55ca2757c1d8b6faa9ceb74d5734d5f28c77aad8b2f2a2889437929b07"
+    ],
+    [
+      "lex-jmdict-1196380",
+      "e1fe7234b87b32803d68cc561f1432c7357277d9aff63bad79deae85f519156c"
+    ],
+    [
+      "lex-jmdict-1196540",
+      "6003ca3621f342f3290b9d4e51c76101e6809517a20e2957e5ca95d098e923bd"
+    ],
+    [
+      "lex-jmdict-1199360",
+      "86698a551ffb9dd14e8fba3f94a8b0c362ebe5895fd5630834a5f2b1f12ec312"
+    ],
+    [
+      "lex-jmdict-1199510",
+      "eef8907ddadea090527c540d79d6597b44145da2c7575d2eb2576116adb6d3b6"
+    ],
+    [
+      "lex-jmdict-1199520",
+      "d25bf78192376e2edfe877b4192a51d5465ee319752ddc82c5f99216f271ab4b"
+    ],
+    [
+      "lex-jmdict-1200060",
+      "0ac8bb491031262ac56c6047b837efda878ded29d40cef094bfba205893d5c6f"
+    ],
+    [
+      "lex-jmdict-1201520",
+      "ac42c9b8f7cf7f9b16e12eb2c81b8621628ad934f1adb2a072f54729bb198a6f"
+    ],
+    [
+      "lex-jmdict-1201790",
+      "bb05a9c2dcf73bf85a7a72b7b6cb2823f8ff6353eaff445cf041928f7fde30c3"
+    ],
+    [
+      "lex-jmdict-1201970",
+      "abd58c7a12d8687f9d824686b7b3891aa8f62a4c3df61318de3ce3b1e748fa99"
+    ],
+    [
+      "lex-jmdict-1202290",
+      "294f0968ffb512e95e3ff430136165c097faeed416700b70d9f10c516b47480e"
+    ],
+    [
+      "lex-jmdict-1203100",
+      "a4ee92b53e704c43e07af3a2c24f27e09741604dcfe6557269f9b88868d1f8b2"
+    ],
+    [
+      "lex-jmdict-1204070",
+      "33dbc22c82480049ea6c47c1269e880299ae6866d041332c9411c65c3773a795"
+    ],
+    [
+      "lex-jmdict-1204540",
+      "d121ae809402a4471740cfc763719aebbc67ffe273b8179e28913bd818d2b353"
+    ],
+    [
+      "lex-jmdict-1204580",
+      "9c87441174cff80dd8464a7177b094a2fb0caf4443959ec710891e078aca7121"
+    ],
+    [
+      "lex-jmdict-1204800",
+      "1e873b526f3f5ae1eb324750200d839bfefe67ce0c24ccefad129953b7805487"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1196380",
+      "category": "clarity",
+      "note": "일정 연장과 연기의 모호함을 없애 출발을 하루 미루는 상황으로 명확히 했다."
+    },
+    {
+      "wordId": "lex-jmdict-1202290",
+      "category": "clarity",
+      "note": "마르기 전에 씻는 대상을 붓에 묻은 물감으로 명확히 했다."
+    },
+    {
+      "wordId": "lex-jmdict-1204540",
+      "category": "substantive",
+      "note": "기존 가방 누수 장면과 겹쳐 냄비 뚜껑을 비켜 김을 빼는 장면으로 바꿨다."
+    }
+  ]
+}

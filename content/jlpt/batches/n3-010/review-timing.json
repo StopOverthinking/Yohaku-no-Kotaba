@@ -1,0 +1,75 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T04:44:51.723Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "completedAt": "2026-09-30T04:45:56.365Z",
+    "correctedWords": 2,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 1,
+      "formatting": 0
+    },
+    "similarity": {
+      "corpusExamples": 7668,
+      "comparisons": 170558,
+      "newPairs": 0
+    }
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T04:52:41.300Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "timingNote": "First recorded clock observation during review; initial reading preceded this timestamp.",
+    "completedAt": "2026-09-30T04:53:40.321Z",
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 2,
+      "clarity": 1,
+      "formatting": 0
+    },
+    "similarity": {
+      "corpusExamples": 7693,
+      "comparisons": 171596,
+      "newPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T04:53:57.541Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "completedAt": "2026-09-30T04:54:55.488Z",
+    "correctedWords": 2,
+    "correctionCategories": {
+      "substantive": 2,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "similarity": {
+      "corpusExamples": 7718,
+      "comparisons": 172590,
+      "newPairs": 0
+    }
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T04:58:49.532Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "completedAt": "2026-09-30T04:59:54.889Z",
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 3,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "similarity": {
+      "corpusExamples": 7777,
+      "comparisons": 175458,
+      "newPairs": 0
+    }
+  }
+]

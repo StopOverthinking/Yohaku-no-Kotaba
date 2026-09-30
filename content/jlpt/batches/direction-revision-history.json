@@ -1,0 +1,193 @@
+[
+  {
+    "wordId": "lex-jmdict-1252330",
+    "previousPublication": {
+      "id": "lex-jmdict-1252330",
+      "level": "N5",
+      "source": {
+        "dictionary": "jmdict-1252330",
+        "proposedLevel": "N5",
+        "levelEvidence": {
+          "source": "openjlpt",
+          "levels": [
+            "N5"
+          ],
+          "matchedForms": [
+            "警官"
+          ]
+        },
+        "assignment": "editorial-estimate"
+      },
+      "contentHash": "a59f27225c5b5a880ffde3aa8ba40746b22c3c60949ca97f53f978cdc3e0d9b6",
+      "publishedHash": "931a81b53bde6359610ed825b2397ea1289c14e30ab373989a1141588c3ca078"
+    },
+    "previousReview": {
+      "wordId": "lex-jmdict-1252330",
+      "contentHash": "a59f27225c5b5a880ffde3aa8ba40746b22c3c60949ca97f53f978cdc3e0d9b6",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+      "reviewedAt": "2026-09-30T00:23:05.156Z",
+      "notes": [
+        "개별 경찰관의 명사 의미 확인. 길 안내·교통 통제·습득물 인계의 3장면과 조직 警察 대비 및 번역을 검토했다.",
+        "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+      ]
+    },
+    "previousExample": {
+      "id": "sense-lex-jmdict-1252330-1-ex-1",
+      "version": 1,
+      "before": "道に迷ったとき、",
+      "answer": "警官",
+      "after": "が駅までの行き方を教えてくれました。",
+      "reading": "けいかん",
+      "translation": "길을 잃었을 때 경찰관이 역까지 가는 길을 알려 주었어요.",
+      "translationTarget": "경찰관",
+      "difficulty": 18,
+      "status": "reviewed"
+    }
+  },
+  {
+    "wordId": "lex-jmdict-1344930",
+    "previousPublication": {
+      "id": "lex-jmdict-1344930",
+      "level": "N5",
+      "source": {
+        "dictionary": "jmdict-1344930",
+        "proposedLevel": "N5",
+        "levelEvidence": {
+          "source": "openjlpt",
+          "levels": [
+            "N5"
+          ],
+          "matchedForms": [
+            "女"
+          ]
+        },
+        "assignment": "editorial-estimate"
+      },
+      "contentHash": "fc57a17c3892652f28123c37587a36755ff4dc8c15b1ab57af6de27ee87c7483",
+      "publishedHash": "5a11bce4592422e97b383c55127f28500547fd477878b880015038721e60032d"
+    },
+    "previousReview": {
+      "wordId": "lex-jmdict-1344930",
+      "contentHash": "fc57a17c3892652f28123c37587a36755ff4dc8c15b1ab57af6de27ee87c7483",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "method": "GPT-6 Astra high independent review of JMdict, readings/POS, 180 examples, Korean alignment, hints/contrasts and variety. Parser passed; 360 published hashes unchanged; 1,928 senses/4,276 examples: zero masked pairs >=0.7 (46,310 comparisons). AI review, not human expert review.",
+      "reviewedAt": "2026-09-30T00:41:15.544Z",
+      "notes": [
+        "여성을 가리키는 명사와 女の人/서사 속 女의 용법, 길 안내·영화 주인공·과거 의사 장면 확인."
+      ]
+    },
+    "previousExample": {
+      "id": "sense-lex-jmdict-1344930-1-ex-1",
+      "version": 1,
+      "before": "入口に立っていた",
+      "answer": "女",
+      "after": "の人が道を教えてくれました。",
+      "reading": "おんな",
+      "translation": "입구에 서 있던 여자분이 길을 알려 주셨어요.",
+      "translationTarget": "여자",
+      "difficulty": 15,
+      "status": "reviewed"
+    }
+  },
+  {
+    "wordId": "lex-jmdict-1365250",
+    "previousPublication": {
+      "id": "lex-jmdict-1365250",
+      "level": "N4",
+      "source": {
+        "dictionary": "jmdict-1365250",
+        "proposedLevel": "N4",
+        "levelEvidence": {
+          "source": "openjlpt",
+          "levels": [
+            "N4"
+          ],
+          "matchedForms": [
+            "親切"
+          ]
+        },
+        "assignment": "editorial-estimate"
+      },
+      "contentHash": "d5a7396f39060466c0e5dac3c6b4d9effff3ff360efacb7f11672dec4ce76770",
+      "publishedHash": "0b950d02d012456ec7da57a1f56f8c23c5efec069d8e042de24e10fdf08eb320"
+    },
+    "previousReview": {
+      "contentHash": "d5a7396f39060466c0e5dac3c6b4d9effff3ff360efacb7f11672dec4ce76770",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "method": "GPT-6 Astra high independent AI review: JMdict readings/POS and representative N4 senses, 180 examples, Korean, hints, contrasts and diversity. Parser passed; 454 prior hashes unchanged; 2,022 senses/4,558 examples: zero masked pairs >=0.7 (54,810 comparisons). Not human expert review.",
+      "reviewedAt": "2026-09-30T00:50:15.831Z",
+      "notes": [
+        "상대에게 도움을 주는 친절과 길 안내·접수 직원·어머니 가르침의 세 장면 확인."
+      ]
+    },
+    "previousExample": {
+      "id": "sense-lex-jmdict-1365250-1-ex-1",
+      "version": 1,
+      "before": "道に迷ったとき、店の人が",
+      "answer": "親切",
+      "after": "に教えてくれました。",
+      "reading": "しんせつ",
+      "translation": "길을 잃었을 때 가게 분이 친절하게 알려 주셨어요.",
+      "translationTarget": "친절하게",
+      "difficulty": 18,
+      "status": "reviewed"
+    }
+  },
+  {
+    "wordId": "lex-jmdict-1345250",
+    "previousPublication": {
+      "id": "lex-jmdict-1345250",
+      "level": "N4",
+      "source": {
+        "dictionary": "jmdict-1345250",
+        "proposedLevel": "N4",
+        "levelEvidence": {
+          "source": "openjlpt",
+          "levels": [
+            "N4"
+          ],
+          "matchedForms": [
+            "女性"
+          ]
+        },
+        "assignment": "editorial-estimate"
+      },
+      "contentHash": "f61ceebffd3685899667d4df892e2f9eae91997b65acd676ed18aa84311fbcf6",
+      "publishedHash": "b05df3f595c33926f2f938ac762ac4d9f546fc145a6dc45dc63a83890c5afc32"
+    },
+    "previousReview": {
+      "contentHash": "f61ceebffd3685899667d4df892e2f9eae91997b65acd676ed18aa84311fbcf6",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and diversity. Parser passed; 514 prior hashes unchanged; 2,082 senses/4,738 examples: zero masked pairs >=0.7 (60,494 comparisons). Not human expert review.",
+      "reviewedAt": "2026-09-30T00:57:39.189Z",
+      "notes": [
+        "성인으로 한정한 힌트를 풀고 기존 영화 주인공 문형을 육아 휴무 장면으로 교체했다."
+      ]
+    },
+    "previousExample": {
+      "id": "sense-lex-jmdict-1345250-1-ex-3",
+      "version": 1,
+      "before": "駅員の",
+      "answer": "女性",
+      "after": "が道を教えてくれました。",
+      "reading": "じょせい",
+      "translation": "역무원인 여성이 길을 알려 주셨어요.",
+      "translationTarget": "여성",
+      "difficulty": 17,
+      "status": "reviewed"
+    }
+  }
+]

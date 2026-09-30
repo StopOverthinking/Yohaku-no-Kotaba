@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "08c06bba381342a0d9ba2b4bbbbe27822e094d22a0f5046a1e54694a0a8dfd05",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:33:41.994Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1213000",
+      "d48bdcb2cb571511baa76eeb5edb37cac7bbaf0ab5e4096ceb06dc88031fe733"
+    ],
+    [
+      "lex-jmdict-1213810",
+      "0efa109e202cf7b09b53b7cf870621f9b9d57cc11e6debcf9ed1f7abba5defef"
+    ],
+    [
+      "lex-jmdict-1214270",
+      "b5dba690996d54f15400aaa1ba51dd44aaff82e3c13d4d31c02f6c47d921d7bf"
+    ],
+    [
+      "lex-jmdict-1214290",
+      "a45d94c18ae043835d21bbbb0f20200b232bdbd47cae72a5430b3c923ba7f97d"
+    ],
+    [
+      "lex-jmdict-1214300",
+      "22ada742a7e2354d95bdbdfeaf65a8faa91790c118e65de7d1f029074fca6e7d"
+    ],
+    [
+      "lex-jmdict-1214430",
+      "ee858c9c1dc6baaf7bfd5c6db76f291d797c09650e688d8b662af265bb6d8b05"
+    ],
+    [
+      "lex-jmdict-1214440",
+      "e72eb31299b86d296ba67f4241f5a56e219dfab73d8d4533e5e85b1f0dcfe03d"
+    ],
+    [
+      "lex-jmdict-1214450",
+      "9bbba3893ecbac33d4442685c1767932f36ce7c5d4c90c86cafad590eb04aef2"
+    ],
+    [
+      "lex-jmdict-1214930",
+      "f23e5546e156722c109b24a0f1925348c8a40036eb99f6f36ec669f88f77f379"
+    ],
+    [
+      "lex-jmdict-1215000",
+      "c1072613cbbcb1ab0f9c80ec1d75399ca20923d2a5b8df0d9ba4fea05a079746"
+    ],
+    [
+      "lex-jmdict-1215040",
+      "844ac299006d7dde7e5a6ba2d0d822f904beb7b4839cfe08719619d92a7fff9a"
+    ],
+    [
+      "lex-jmdict-1215070",
+      "434700114de0d9147b8a590c96b3c9e814181eda4e71e1c41adf118d3d0d1f40"
+    ],
+    [
+      "lex-jmdict-1215160",
+      "b79c2e866475b41871ded4105f954b545dd3e5d0e48473e12905fedf59e92bef"
+    ],
+    [
+      "lex-jmdict-1215660",
+      "aa32aefa4cf64adc98bea31475e5a86e66239a23c962d41e8a26a8e86ce57ce1"
+    ],
+    [
+      "lex-jmdict-1215930",
+      "e51e473cd5fa9963ccf8dcf59919d21cb4a16b673ccf4864fb0ed94324e1a321"
+    ],
+    [
+      "lex-jmdict-1216050",
+      "099103647d87de3188613a5eed794b38f8a8f5efbe9a92ebead4f1768a62df04"
+    ],
+    [
+      "lex-jmdict-1216300",
+      "707b011d067811742cea460c8f933a10d8f98ae1ef36639fd01fbb4d58877699"
+    ],
+    [
+      "lex-jmdict-1216410",
+      "ac5e5e689bc26c63920768f40f9c591ce043365c19a102766f2a8e8d8b13d996"
+    ],
+    [
+      "lex-jmdict-1217680",
+      "8f33a9534de01f01825248ce0683b97526dbe7e793d2baf2b0d510a64a032a3a"
+    ],
+    [
+      "lex-jmdict-1217690",
+      "5cec4d4d7022d06fe6c75e113510cb070631cf650c563c3b6e2ae5304a7aa25e"
+    ],
+    [
+      "lex-jmdict-1217850",
+      "eb403fcf7e7e552ce217e66a342fd4677504f660ee50173945a19931aed5691e"
+    ],
+    [
+      "lex-jmdict-1218050",
+      "0630f7cd06c8f72c41df1cece889383b7cea593f6d0d029c97546ed61e641cf0"
+    ],
+    [
+      "lex-jmdict-1218150",
+      "7366ca10a0944701dc4b0d50265120445bdcb83ad934b936c29c3e4d9ac0946f"
+    ],
+    [
+      "lex-jmdict-1218410",
+      "b5c5bc710058059e55aaf7fd592fba51807106d32b77795f6be758df8be2fbbe"
+    ],
+    [
+      "lex-jmdict-1218440",
+      "e74d0e7374e13915ab399bb60caff7c3e6dc69dc32235735444c28afb6a85942"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1213000",
+      "category": "clarity",
+      "note": "환호성을 반드시 많은 사람이 함께 내는 소리로 한정하지 않았다."
+    },
+    {
+      "wordId": "lex-jmdict-1214430",
+      "category": "clarity",
+      "note": "자동사를 저절로 일어나는 변화로만 설명하지 않았다."
+    },
+    {
+      "wordId": "lex-jmdict-1216300",
+      "category": "clarity",
+      "note": "수의 어림을 반올림 방식만으로 좁히지 않았다."
+    },
+    {
+      "wordId": "lex-jmdict-1214300",
+      "category": "clarity",
+      "note": "간소한 예식으로 절약한 비용이라는 생략된 대상을 한국어에 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1218410",
+      "category": "substantive",
+      "note": "지속 자체를 걱정한다는 반대 해석을 피하고 지속 가능성에 대한 우려를 밝혔다."
+    },
+    {
+      "wordId": "lex-jmdict-1218050",
+      "category": "substantive",
+      "note": "기존 신청서 내용을 보내기 전 확인하는 장면 대신 지원서를 우편으로 받아 보는 장면을 사용했다."
+    }
+  ]
+}

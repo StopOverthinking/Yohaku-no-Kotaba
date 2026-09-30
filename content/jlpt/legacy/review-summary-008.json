@@ -1,0 +1,16 @@
+{
+  "batch": "008",
+  "scope": "legacy-classification-proposal-only",
+  "reviewedWords": 30,
+  "acceptedClassifications": 29,
+  "needsFollowup": 1,
+  "reviewedAt": "2026-09-30T04:43:20.173Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "method": "All source words, senses, examples, supplied dictionary evidence and classification proposals independently read. Source and proposal hashes bound. Minimum one example policy; no new example obligation. No membership, alias, profile merge or content modification approval.",
+  "notes": [
+    "改札(口) needs a single dictionary/form decision.",
+    "片方 has no source level; N4 is an editorial recommendation for one of a pair.",
+    "会計 and 皮 have broader word meanings than current example senses; classification acceptance does not resolve content scope."
+  ]
+}

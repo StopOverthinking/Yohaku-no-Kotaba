@@ -2,7 +2,6 @@ import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/re
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
-import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { ListPage } from '@/features/list/ListPage'
 import styles from '@/features/list/list.module.css'
@@ -65,12 +64,6 @@ describe('ListPage', () => {
     setScrollY(0)
     mockScrollTo()
 
-    useExamStore.setState({
-      status: 'idle',
-      session: null,
-      lastResult: null,
-      wrongAnswerIds: sampleWords.map((word) => word.id),
-    })
 
     useFavoritesStore.setState({
       favoriteIds: [],
@@ -82,7 +75,7 @@ describe('ListPage', () => {
       hideMeaningInList: true,
       listFontScale: 3,
       learnCardFontScale: 2,
-      lastSelectedSetId: 'wrong_answers',
+      lastSelectedSetId: allSets[0].id,
       learnDefaults: defaultLearnDefaults,
     })
   })
@@ -94,12 +87,6 @@ describe('ListPage', () => {
     localStorage.clear()
     setScrollY(0)
 
-    useExamStore.setState({
-      status: 'idle',
-      session: null,
-      lastResult: null,
-      wrongAnswerIds: [],
-    })
 
     useFavoritesStore.setState({
       favoriteIds: [],
@@ -201,7 +188,7 @@ describe('ListPage', () => {
       hideMeaningInList: false,
       listFontScale: 3,
       learnCardFontScale: 2,
-      lastSelectedSetId: 'wrong_answers',
+      lastSelectedSetId: allSets[0].id,
       learnDefaults: defaultLearnDefaults,
     })
 
@@ -242,7 +229,7 @@ describe('ListPage', () => {
       hideMeaningInList: false,
       listFontScale: 3,
       learnCardFontScale: 2,
-      lastSelectedSetId: 'wrong_answers',
+      lastSelectedSetId: allSets[0].id,
       learnDefaults: defaultLearnDefaults,
     })
 
@@ -298,7 +285,7 @@ describe('ListPage', () => {
   it('restores the saved scroll position for the selected vocabulary set', async () => {
     localStorage.setItem(
       listScrollPositionsStorageKey,
-      JSON.stringify({ wrong_answers: 420, another_set: 120 }),
+      JSON.stringify({ [allSets[0].id]: 420, another_set: 120 }),
     )
 
     renderPage()
@@ -321,7 +308,7 @@ describe('ListPage', () => {
     unmount()
 
     expect(JSON.parse(localStorage.getItem(listScrollPositionsStorageKey) ?? '{}')).toMatchObject({
-      wrong_answers: 735,
+      [allSets[0].id]: 735,
     })
   })
 
@@ -389,23 +376,20 @@ describe('ListPage', () => {
     expect(screen.getByText('home')).toBeInTheDocument()
   })
 
-  it('renders a single shared description block for comparison cards', () => {
+  it.each(['theme-core', 'ComparingWords'])('falls back to the first wordbook for removed %s', (setId) => {
     usePreferencesStore.setState({
       themeMode: 'dark',
       hideJapaneseInList: false,
       hideMeaningInList: false,
       listFontScale: 3,
       learnCardFontScale: 2,
-      lastSelectedSetId: 'ComparingWords',
+      lastSelectedSetId: setId,
       learnDefaults: defaultLearnDefaults,
     })
 
     const { container } = renderPage()
-    const comparisonCards = container.querySelectorAll(`.${styles.compareCardStack}`)
-    const descriptionBlocks = container.querySelectorAll(`.${styles.compareDescriptionLine}`)
-
-    expect(comparisonCards.length).toBeGreaterThan(0)
-    expect(descriptionBlocks).toHaveLength(comparisonCards.length)
-    expect(screen.getAllByText(/仕上がる: 마지막까지 손질되어서 완성되었다/, { exact: false })).toHaveLength(1)
+    expect(usePreferencesStore.getState().lastSelectedSetId).toBe(allSets[0].id)
+    expect(container.querySelectorAll(`.${styles.compareCardStack}`)).toHaveLength(0)
+    expect(screen.getAllByText(sampleWords[0].japanese).length).toBeGreaterThan(0)
   })
 })

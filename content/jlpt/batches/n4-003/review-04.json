@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "1be6e88e6b6ee9db8e2f7ed270c33b9ca043f1d3843d76b50b6222c3c27d7971",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:07:12.262Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1020200",
+      "cbe7ce2a248ff290fbb64e36b7705ff3d911b84d357caadacfddfedcbc2d0649"
+    ],
+    [
+      "lex-jmdict-1021910",
+      "abbb2306bfa8875dc6a730116196909cbe6e540592615eaf7c7de3cb81591792"
+    ],
+    [
+      "lex-jmdict-1021970",
+      "fa20f79accbf9084a7cf2474dee1196a0879ee045243afcc0618e70f1aa5aa85"
+    ],
+    [
+      "lex-jmdict-1022050",
+      "1bc6cb8e17c83468c9cb6977c2dc500290967a8e7b99a3b4548c14dbebb97465"
+    ],
+    [
+      "lex-jmdict-1022650",
+      "6e5c0c75fe8ae742b3d75046f5199af114e7dcee9f31529c7947c94d8f16f90e"
+    ],
+    [
+      "lex-jmdict-1023420",
+      "2bc7f0cf6185cd0f6c66d97224db7f9e080143fc84bf7a1893bacbcf389177a2"
+    ],
+    [
+      "lex-jmdict-1023810",
+      "1c0a654e76388cf36a3212945c0fba853f682201aa610b902c5f69336adc5f52"
+    ],
+    [
+      "lex-jmdict-1025180",
+      "ab647cf8a9588a65c169e5ce97ea6550ae5bd74e34b002b7583cb6e4a89441f1"
+    ],
+    [
+      "lex-jmdict-1026070",
+      "497a4560cef27c4a559b85ddba120cefbd762988c4858707e8243d2584fe43a3"
+    ],
+    [
+      "lex-jmdict-1027360",
+      "438d11a0a8d1bd16edd95709761e3952e736c1c219162c50c425aae96bb25b74"
+    ],
+    [
+      "lex-jmdict-1031800",
+      "8028f63c435e3e3ae170a1122bad9adfadc50ed9373373709c850102fda1addf"
+    ],
+    [
+      "lex-jmdict-1031870",
+      "a3eb06e86b47cd86c0549dac04992a603f2e172ecbaca273c40d72c0a92038b8"
+    ],
+    [
+      "lex-jmdict-1032320",
+      "fdd7cb79ebed1f468bce5b8550b88400d68296604202106215060325de41774d"
+    ],
+    [
+      "lex-jmdict-1035040",
+      "99fbe10d8d5b599aac1ca9ab7123416847b7ef546e4851069f01c4c15db71149"
+    ],
+    [
+      "lex-jmdict-1035800",
+      "486ddc1cc7d93e877d0b2dd6a8bf679cfc1c5a849786f1fd40fa64367652c902"
+    ],
+    [
+      "lex-jmdict-1036260",
+      "af131793a55f057729276220d2b590047e948ca1623659cf2de3884c318bcc12"
+    ],
+    [
+      "lex-jmdict-1036450",
+      "bba7b6468c1e5eee4f25a956f7cdb6fbb750ef6a792510db772321cf41d3e7e2"
+    ],
+    [
+      "lex-jmdict-1036900",
+      "6a407078835225627bab90ec8922f82d1e59f11eb47451284a286c2c4f6afb49"
+    ],
+    [
+      "lex-jmdict-1037590",
+      "173b19596434bc1ff4a8e4264d3e6c5fe5faaa4d2c73eb4e6941e72eb07a1bce"
+    ],
+    [
+      "lex-jmdict-1038220",
+      "d6528ad9e173b0bf31c254b9cc05cf1752e21e6d267d24e231033381f89dd8f8"
+    ],
+    [
+      "lex-jmdict-1038910",
+      "2577585ea9dd422cb5f8b8975699629dbb84c80e34e51632ec3dca15a855458d"
+    ],
+    [
+      "lex-jmdict-1039660",
+      "fda72bf66068cf78b7d4f5b72108fbdf7eec5595b33d19152f0385624a349db5"
+    ],
+    [
+      "lex-jmdict-1039760",
+      "063c74b195e6369396edcebef6282d9d28d9e6da5d461e84cc88f9352f68ba02"
+    ],
+    [
+      "lex-jmdict-1041430",
+      "676bc4759e80c0866953d21613d083ef142ffbc4cfd9de9a96b64b36a105b2e4"
+    ],
+    [
+      "lex-jmdict-1043290",
+      "0ec34a85122e4faa862bafabbe56905e484f417a4636808df554506c0e42907f"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1026070",
+      "category": "substantive",
+      "note": "옷의 허리 부분 용법을 대표뜻과 힌트에 포함하고 한국어의 어색한 둘레가 꽉 낀다는 표현을 수정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1031800",
+      "category": "substantive",
+      "note": "作ってもらった의 제작 완료 의미를 한국어에 반영했다."
+    },
+    {
+      "wordId": "lex-jmdict-1035040",
+      "category": "substantive",
+      "note": "공항까지 데려다주는 이동을 픽업으로 옮긴 방향 오류를 수정했다."
+    }
+  ]
+}

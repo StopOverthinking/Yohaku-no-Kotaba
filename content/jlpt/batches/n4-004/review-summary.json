@@ -1,0 +1,23 @@
+{
+  "status": "in-progress",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedParts": [
+    "01",
+    "02",
+    "03"
+  ],
+  "checkedWords": 75,
+  "acceptedWords": 75,
+  "acceptedExamples": 75,
+  "scope": "Independent complete dictionary, level, metadata, Japanese and Korean editorial review; exact snapshot approval and corpus+pilot deduplicated similarity at 0.7 before acceptance.",
+  "updatedAt": "2026-09-30T04:14:28.292Z",
+  "latestSimilarity": {
+    "corpusExamples": 7316,
+    "comparisons": 152366,
+    "newPairs": [],
+    "allPairs": 0
+  },
+  "heldWords": 0
+}

@@ -1,13 +1,12 @@
+import { resetContextStorage } from '@/test/contextStorage'
 import { act, cleanup, render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
-import { useExamStore } from '@/features/exam/examStore'
 import { LearnSetupPage } from '@/features/learn/LearnSetupPage'
 import styles from '@/features/learn/learn.module.css'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
-import { useLearnSessionStore } from '@/features/session/learnSessionStore'
 import { useContextStore } from './contextStore'
 import { contextSenses } from './contextContent'
 import { allWords } from '@/features/vocab/model/selectors'
@@ -17,25 +16,22 @@ vi.mock('./contextContent', async () => {
   const { allWords } = await import('@/features/vocab/model/selectors')
   const words = allWords.slice(0, 20)
   const senses = words.map((word) => testSense(word.id))
-  return { contextSenses: senses, contextSenseMap: new Map(senses.map((s) => [s.id, s])), contextContentReady: true, contextCoverage: words.length, contextWords: words }
+  return { contextSenses: senses, contextAliasGroups: [], contextAliasCatalog: { resolveWordId: (id: string) => id }, contextSenseMap: new Map(senses.map((s) => [s.id, s])), contextContentReady: true, contextCoverage: words.length, contextWords: words }
 })
 
 const initialPreferencesState = usePreferencesStore.getState()
 const initialFavoritesState = useFavoritesStore.getState()
-const initialLearnSessionState = useLearnSessionStore.getState()
-const initialExamState = useExamStore.getState()
-const sampleWords = allWords.slice(0, 2)
 
 describe('LearnSetupPage', () => {
-  beforeEach(() => {
-    localStorage.clear()
-    useContextStore.setState({ loadedRaw: null, lastResult: null, error: null })
-    useContextStore.getState().hydrate()
+  beforeEach(async () => {
+    await resetContextStorage()
+    useContextStore.setState({ snapshot: null, ready: false, busy: false, lastResult: null, error: null })
+    await useContextStore.getState().hydrate()
     usePreferencesStore.setState({
       ...initialPreferencesState,
       lastSelectedSetId: 'all',
       learnDefaults: {
-        frontMode: 'japanese',
+
         favoritesOnly: false,
         wordCount: 20,
         rangeEnabled: false,
@@ -49,19 +45,6 @@ describe('LearnSetupPage', () => {
       ...initialFavoritesState,
       favoriteIds: [],
     })
-    useExamStore.setState({
-      ...initialExamState,
-      status: 'idle',
-      session: null,
-      lastResult: null,
-      wrongAnswerIds: [],
-    })
-    useLearnSessionStore.setState({
-      ...initialLearnSessionState,
-      status: 'idle',
-      record: null,
-      lastResult: null,
-    })
   })
 
   afterEach(() => {
@@ -70,8 +53,6 @@ describe('LearnSetupPage', () => {
     localStorage.clear()
     usePreferencesStore.setState(initialPreferencesState)
     useFavoritesStore.setState(initialFavoritesState)
-    useExamStore.setState(initialExamState)
-    useLearnSessionStore.setState(initialLearnSessionState)
   })
 
   it('keeps the start action inline and balances word-count controls into mirrored columns', () => {
@@ -92,49 +73,10 @@ describe('LearnSetupPage', () => {
     expect(screen.getByRole('spinbutton', { name: '학습 항목 수' })).toBeInTheDocument()
   })
 
-  it('allows starting a learn session from exam wrong answers', async () => {
-    const user = userEvent.setup()
-
-    useExamStore.setState({
-      ...useExamStore.getState(),
-      wrongAnswerIds: sampleWords.map((word) => word.id),
-    })
+  it.each(['theme-core', 'ComparingWords'])('falls back to all for removed wordbook %s', (setId) => {
     usePreferencesStore.setState({
       ...usePreferencesStore.getState(),
-      lastSelectedSetId: 'wrong_answers',
-      learnDefaults: {
-        frontMode: 'japanese',
-        favoritesOnly: false,
-        wordCount: 2,
-        rangeEnabled: false,
-        rangeStart: 1,
-        rangeEnd: 10,
-        requiredRangesEnabled: false,
-        requiredRanges: [],
-      },
-    })
-
-    const { container } = render(
-      <MemoryRouter>
-        <LearnSetupPage />
-      </MemoryRouter>,
-    )
-
-    expect(container.querySelector('option[value="wrong_answers"]')).toBeInTheDocument()
-
-    await user.click(container.querySelector('.page-header__right button') as HTMLButtonElement)
-
-    const record = useContextStore.getState().data.session
-    expect(record?.setId).toBe('wrong_answers')
-    expect(record?.setName).toBe('오답 노트')
-    expect(record?.targetCount).toBe(sampleWords.length)
-    expect(record?.candidateWordIds).toEqual(expect.arrayContaining(sampleWords.map((word) => word.id)))
-  })
-
-  it('falls back to all when the last selected set was a comparison wordbook', () => {
-    usePreferencesStore.setState({
-      ...usePreferencesStore.getState(),
-      lastSelectedSetId: 'ComparingWords',
+      lastSelectedSetId: setId,
     })
 
     render(
@@ -162,7 +104,7 @@ describe('LearnSetupPage', () => {
       ...usePreferencesStore.getState(),
       lastSelectedSetId: 'favorites',
       learnDefaults: {
-        frontMode: 'japanese',
+
         favoritesOnly: false,
         wordCount: 3,
         rangeEnabled: false,
@@ -182,13 +124,15 @@ describe('LearnSetupPage', () => {
     const startButton = container.querySelector('.page-header__right button') as HTMLButtonElement
 
     await user.click(startButton)
+    await waitFor(() => expect(useContextStore.getState().busy).toBe(false))
     const firstQueue = useContextStore.getState().data.session?.tieOrder
 
-    act(() => {
-      useContextStore.getState().discard()
+    await act(async () => {
+      await useContextStore.getState().discard()
     })
 
     await user.click(startButton)
+    await waitFor(() => expect(useContextStore.getState().busy).toBe(false))
     const secondQueue = useContextStore.getState().data.session?.tieOrder
 
     expect(firstQueue).toHaveLength(favoriteIds.length)
@@ -202,7 +146,7 @@ describe('LearnSetupPage', () => {
     usePreferencesStore.setState({
       ...usePreferencesStore.getState(),
       learnDefaults: {
-        frontMode: 'japanese',
+
         favoritesOnly: false,
         wordCount: 20,
         rangeEnabled: true,
@@ -238,7 +182,7 @@ describe('LearnSetupPage', () => {
     usePreferencesStore.setState({
       ...usePreferencesStore.getState(),
       learnDefaults: {
-        frontMode: 'japanese',
+
         favoritesOnly: false,
         wordCount: 20,
         rangeEnabled: true,
@@ -346,9 +290,14 @@ describe('LearnSetupPage', () => {
     const record = useContextStore.getState().data.session
     expect(record?.targetCount).toBe(6)
     expect(record?.requiredWordIds).toEqual(expect.arrayContaining(requiredWords.map((word) => word.id)))
-    for (let i = 0; i < 5; i++) act(() => { useContextStore.getState().answer(true) })
+    for (let i = 0; i < 5; i++) await act(async () => { await useContextStore.getState().answer(true) })
     const selected = useContextStore.getState().data.session?.cards.map((card) => contextSenses.find((sense) => sense.id === card.senseId)!.wordId)
     expect(selected).toHaveLength(6)
     expect(selected).toEqual(expect.arrayContaining(requiredWords.map((word) => word.id)))
   })
+})
+
+vi.mock('./contextBrowserPersistence', async () => {
+  const fixture = await import('@/test/contextStorage')
+  return { browserContextPersistence: fixture.persistence, getBrowserBackupCoordinator: fixture.getTestCoordinator }
 })

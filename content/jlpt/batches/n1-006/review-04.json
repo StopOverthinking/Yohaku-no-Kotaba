@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "419fbe845b4f1f9f52286e2dc1ace557d36a86d5d46cc2492b036a00d4363776",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:12:56.936Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1277250",
+      "c0ef622668fa370966b1b32da248947ff0465edea68af0c47500c4b970c9c51b"
+    ],
+    [
+      "lex-jmdict-1277440",
+      "c28151e11660399eab543e1c797c53ea9991d87687a18fd783ffbd795cd206d4"
+    ],
+    [
+      "lex-jmdict-1277490",
+      "6e8e7db45fd30e2ed6416acd0ea3b0d0c98d5b46ca656202628388f17e7a046f"
+    ],
+    [
+      "lex-jmdict-1277530",
+      "93f890d58f5432a2b64a67536165ec59f3018142bec37b38fadcbcce0c67d27e"
+    ],
+    [
+      "lex-jmdict-1277620",
+      "5ae4c034f01a6398c46aafd1d5ac1f8879613f101d5d0689bafab821a8eb92c3"
+    ],
+    [
+      "lex-jmdict-1277730",
+      "3d23e15875e9d726e17d2a9d1869962c0073aa3afde29cc3a4c1f10f8924971e"
+    ],
+    [
+      "lex-jmdict-1277780",
+      "65977d1e5699230beaf877b1b1c3b02c6d0c7b6fcfe92e3858a680507e94bfbd"
+    ],
+    [
+      "lex-jmdict-1278010",
+      "6d2730a0de9d2299392127ea1afd023081f782aea6a65a06255da5d6b7712158"
+    ],
+    [
+      "lex-jmdict-1278100",
+      "233e37e01ab86bc7fc784ff80be6d6d97a3e234b3a9cf2c6e86f9bbbc527463a"
+    ],
+    [
+      "lex-jmdict-1278290",
+      "71bf5e3d097a951110038b41da9f78234abf07781ec771610d76d48865dabd52"
+    ],
+    [
+      "lex-jmdict-1278340",
+      "e7dc6e3eca66b7410a621ff32a7af81679a9907ee77707e89ec4271f93e2f8c2"
+    ],
+    [
+      "lex-jmdict-1278450",
+      "6c6cb80a0c9b1ad4a93260d8cf7497bab90dbe74bde4d02bb5d0d5a29d2259b7"
+    ],
+    [
+      "lex-jmdict-1278810",
+      "f888d50f15ab75bc397cb74dc7de34d8eb0330c35952251ebb98a9f12a055ef1"
+    ],
+    [
+      "lex-jmdict-1278860",
+      "5ba975ad05c758668c103afd6254d4ab7ae405e4094db58bb216c001789877e1"
+    ],
+    [
+      "lex-jmdict-1278950",
+      "47d621bc06024873ab8761ebde86bbd3d4217a957fe3198f49d6899806a2d5b7"
+    ],
+    [
+      "lex-jmdict-1279000",
+      "75e51c3a6d923c3bb0015b326835c011b90e8351c54c1673133357a817c4edc9"
+    ],
+    [
+      "lex-jmdict-1279060",
+      "0343ec27a868db2178e71bd1bf08bddd9916c94485d6503348b6653dd4f67877"
+    ],
+    [
+      "lex-jmdict-1279080",
+      "9efa548d702b6531bfe3179571c8828959f9de9d5f9c96b98ccec5fb417af9a5"
+    ],
+    [
+      "lex-jmdict-1279700",
+      "8773eaf5c2cbf666a80baf800f9489f3ef87a806bda37b59c85bec710aa0389b"
+    ],
+    [
+      "lex-jmdict-1279780",
+      "c6c71fd69d0c6b3aeab73ac94f1b47c8beb1c83815ff24d9fe126c83b1131f21"
+    ],
+    [
+      "lex-jmdict-1279930",
+      "702bef90d3e32c31bb8de51acaf963f81685efba414545cb2321e23c20fdae9d"
+    ],
+    [
+      "lex-jmdict-1280970",
+      "4e198c2d3ec0c33c426b3960c6415fd8e9a89bf30741cb5ef97905a7940ca3c6"
+    ],
+    [
+      "lex-jmdict-1281250",
+      "fd1f2ae492a005fb827f5586fd5b93d0b567723f86d5bb27bc72168269a1b55c"
+    ],
+    [
+      "lex-jmdict-1281470",
+      "68470bb20b8a24dd0965eae909c430ec02eef5dddcdd37e61e33954faabd1d41"
+    ],
+    [
+      "lex-jmdict-1281620",
+      "8f7c96b5b056d1b34d559fc4a794aa4f9b7414f1dda4e0bb1ae1f3ce47e57570"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1278450",
+      "category": "clarity",
+      "note": "자동사의 저절로라는 필수 제한을 없애 행위자가 있어도 퍼진 상태를 표현할 수 있게 했다."
+    },
+    {
+      "wordId": "lex-jmdict-1279000",
+      "category": "clarity",
+      "note": "장시간 얽매임이라는 직역을 자연스러운 한국어로 정리했다."
+    },
+    {
+      "wordId": "lex-jmdict-1279700",
+      "category": "substantive",
+      "note": "기존 決定的의 카메라를 들고 촬영 순간을 기다리는 장면과 겹쳐 검도에서 죽도를 겨누는 자세로 교체했다."
+    }
+  ]
+}

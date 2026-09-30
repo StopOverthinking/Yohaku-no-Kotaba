@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "completedFiles": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "countsByFile": {
+    "01": 29,
+    "02": 30,
+    "03": 27,
+    "04": 30
+  },
+  "reviewedWords": 116,
+  "reviewedExamples": 348,
+  "draftWords": 1041,
+  "draftExamples": 3123,
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "individualReview": "All candidate dictionary meanings/readings/POS, representative N3 uses, all Japanese examples and Korean translations, independent hints, contrasts, varied scenes and inflections reviewed. AI editorial review, not human expert review.",
+  "validation": {
+    "parser": "passed; draft only",
+    "reviewHashesVerified": 116,
+    "pilotBatchTextMatches": true,
+    "existingPublishedWords": 925,
+    "existingPublishedHashChanges": 0,
+    "exampleVersion2Entries": 4,
+    "wholeCorpusSenses": 2549,
+    "wholeCorpusExamples": 6139,
+    "similarityThreshold": 0.7,
+    "similarPairs": 0,
+    "comparisons": 107092
+  },
+  "similarityRevision": "Initial audit found one 0.842 pair between legacy audience sentence and new 劇場 example. Replaced only new example, refreshed its review hash, and reran full corpus audit.",
+  "repeatedEndingsReview": "Four shared-ending groups were inspected; none added by this batch. Existing lodging overlap has a separately approved revision pending root integration.",
+  "scope": "Only new n3-003 manuscripts and reviews changed. n3-004 not appended; existing published content and version ledger left to root.",
+  "savedAt": "2026-09-30T02:25:51.293Z"
+}

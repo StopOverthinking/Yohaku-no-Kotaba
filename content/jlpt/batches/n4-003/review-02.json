@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d25aecd3ba2b88bf089aeca241a35c7d27928bc8ba96180bb5a52657ed6bcaa3",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:52:12.594Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1592340",
+      "c7c5396d1097ba58edb77ccd5518a5ea548b9c341c687538ffdb216fb99786e4"
+    ],
+    [
+      "lex-jmdict-1593820",
+      "80fd7e1129f9fc6b03d0f4412601272913f00b0b0b3d72962ea15f86ae367b43"
+    ],
+    [
+      "lex-jmdict-1595070",
+      "8c9f1383d8f4aa8f47b81fc5380a8864634dafd7d483faa68ded355f9d844a50"
+    ],
+    [
+      "lex-jmdict-1598540",
+      "72df918f74c435ad9bc927da155a118c34b6c55cc1b2120a57cdcad3343356c4"
+    ],
+    [
+      "lex-jmdict-1598750",
+      "53cd0c2e91612b347f14a0d30714b8c3f24fce885a8bcd7bcddf7f2a7d2342f0"
+    ],
+    [
+      "lex-jmdict-1590250",
+      "5bcfcdf777a277afa32de0123c1da26b869d9a051276b44a58d3760aac072af2"
+    ],
+    [
+      "lex-jmdict-1589970",
+      "90d9d0f2245fef39f64690faf0cd44f514b08972d5bb05a701b6c40f73d743b5"
+    ],
+    [
+      "lex-jmdict-1592290",
+      "cdebc34156cd191ff48ca346c507daa1626884d2cabb74a68531bfb436c06e7d"
+    ],
+    [
+      "lex-jmdict-1589840",
+      "d3b6e99d302848aa040135cc6481292b7d285d6c866e5c0f1f3e9d04592878d5"
+    ],
+    [
+      "lex-jmdict-1593590",
+      "fd8cfcbfdae0ec5b62676e1dff56102ae69f9381d303202697ba199801514d73"
+    ],
+    [
+      "lex-jmdict-1584930",
+      "6ef9c7be5ba281929da79321aa558f8f3f77166f1552f16bda41f08f859b320c"
+    ],
+    [
+      "lex-jmdict-1578700",
+      "4c516aa45fd11acd04f090c065ffc5f9bd625f5df3b0192d888e00ab0110e146"
+    ],
+    [
+      "lex-jmdict-1580270",
+      "8887baf1dc52a0140be4e4abbdcce51c291b07886bf8838d5a1a7e9f7a0d44fe"
+    ],
+    [
+      "lex-jmdict-1596200",
+      "0f91c1113b051c787c5b9799377d91c11a3412d88a2658b8699a32a8bdec645c"
+    ],
+    [
+      "lex-jmdict-1002060",
+      "15cbe39bfc1047353402698dfc42ed21f4295c10ff549b0da69b8d2fd2320604"
+    ],
+    [
+      "lex-jmdict-1002640",
+      "221d59935ce1431fbc88516b92683f61a9e52b628c3905c543a100580a8a4614"
+    ],
+    [
+      "lex-jmdict-1001910",
+      "6b6d0c41b8f8ef11d97b63098b127e5524f36b7775d1f1d70b97b17cfc534b1e"
+    ],
+    [
+      "lex-jmdict-1001670",
+      "f27d99e10d338b2290f7e7263b7c1f04137dc54507aea7250aa4c16dc08fba39"
+    ],
+    [
+      "lex-jmdict-1001890",
+      "8d55c7f695c30d3b8644a66f869710accd0ed9da9457bee9e4a7493c1a146911"
+    ],
+    [
+      "lex-jmdict-1001620",
+      "3ecd9c9d2c04d7f736f8ea8c9025501ca855091aaaf3f33bd354d0f5f8fdae95"
+    ],
+    [
+      "lex-jmdict-1001970",
+      "12e9d18171205bc3c8973d0f197a508944c554c63e898381343388fec33a0450"
+    ],
+    [
+      "lex-jmdict-1002010",
+      "2e04eccd95b8f5bc2c8d0501cc7d25b04420974bf93d781fab478a2d261fc32c"
+    ],
+    [
+      "lex-jmdict-1001770",
+      "e6302a9216d2dcaa14a1d8ed12f8c321793ceb3c29c03956fa5ba7d67d45f89c"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1598750",
+      "category": "clarity",
+      "note": "주제 조사가 중첩된 막연한 문장을 노인에게 말을 걸어 돕는 구체적 장면으로 정리했다."
+    },
+    {
+      "wordId": "lex-jmdict-1596200",
+      "category": "substantive",
+      "note": "기존 재래월 예문과 유사한 날짜 풀이를 피하고 지지난달 분실물을 찾는 자연스러운 장면으로 바꿨다."
+    }
+  ]
+}

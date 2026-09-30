@@ -1,0 +1,67 @@
+{
+  "batchId": "n3-007",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T03:56:51.410Z",
+  "status": "complete",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T03:56:51.411Z",
+      "metadataCompletedAt": "2026-09-30T03:58:26.431Z",
+      "draftCompletedAt": "2026-09-30T03:59:50.188Z",
+      "validationCompletedAt": "2026-09-30T03:59:51.514Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-09-30T03:59:51.514Z",
+      "metadataCompletedAt": "2026-09-30T04:01:51.809Z",
+      "draftCompletedAt": "2026-09-30T04:03:16.679Z",
+      "validationCompletedAt": "2026-09-30T04:03:18.020Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-09-30T04:03:18.021Z",
+      "metadataCompletedAt": "2026-09-30T04:05:17.116Z",
+      "draftCompletedAt": "2026-09-30T04:06:41.711Z",
+      "validationCompletedAt": "2026-09-30T04:06:42.962Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-09-30T04:06:42.963Z",
+      "metadataCompletedAt": "2026-09-30T04:08:46.472Z",
+      "draftCompletedAt": "2026-09-30T04:10:08.064Z",
+      "validationCompletedAt": "2026-09-30T04:10:44.691Z",
+      "revisionAttempts": 1,
+      "observedErrors": 1,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "errorNotes": [
+        "都 예문 지명 京都에 정답 글자 포함. 지명 없는 자연스러운 문맥으로 수정."
+      ],
+      "validationStatus": "passed"
+    }
+  ],
+  "completedAt": "2026-09-30T04:10:44.692Z",
+  "totalWords": 100,
+  "totalExamples": 100
+}

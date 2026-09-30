@@ -1,0 +1,133 @@
+{
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "status": "editorial-nonofficial",
+  "notes": "복수 출처를 무등급과 혼동하지 않았으며, 선택한 대표 의미의 학습 기능을 기준으로 독립 판단했다. 단순히 생활 주제에 등장한다는 이유만으로 전부 수용하지 않았다.",
+  "accepted": [
+    {
+      "wordId": "lex-jmdict-1382440",
+      "japanese": "石",
+      "reason": "기초 자연물 의미와 N4 출처 일치."
+    },
+    {
+      "wordId": "lex-jmdict-1443760",
+      "japanese": "電報",
+      "reason": "N4 출처; 축하 메시지의 구체적 용례이며 사용 빈도 저하와 난도를 구별함."
+    },
+    {
+      "wordId": "lex-jmdict-1148520",
+      "japanese": "ワープロ",
+      "reason": "N4 출처; 과거 문서 작성 장치의 대표 의미."
+    },
+    {
+      "wordId": "lex-jmdict-1621470",
+      "japanese": "都",
+      "reason": "N4 출처; 도쿄 광역 행정 단위에 의미 한정."
+    },
+    {
+      "wordId": "lex-jmdict-1076120",
+      "japanese": "タイヤ",
+      "reason": "상위 복수 출처이나 일상 자전거 부품의 구체적 명칭."
+    },
+    {
+      "wordId": "lex-jmdict-1145990",
+      "japanese": "レポート",
+      "reason": "학교 과제 보고서의 일상 의미; 보도·전문 보고 의미 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1169120",
+      "japanese": "引き分け",
+      "reason": "일상 스포츠의 기본 경기 결과; 전문 경기 용어를 요구하지 않음."
+    },
+    {
+      "wordId": "lex-jmdict-1171680",
+      "japanese": "羽",
+      "reason": "자연 관찰에서의 깃털 의미; 기계 날개 등 전문 의미 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1246440",
+      "japanese": "隅",
+      "reason": "구석의 공간 관계이며 N4 출처도 존재."
+    },
+    {
+      "wordId": "lex-jmdict-1293640",
+      "japanese": "再来月",
+      "reason": "기초 일정 표현; N4 출처 존재."
+    },
+    {
+      "wordId": "lex-jmdict-1293650",
+      "japanese": "再来週",
+      "reason": "기초 일정 표현; N4 출처 존재."
+    },
+    {
+      "wordId": "lex-jmdict-1293660",
+      "japanese": "再来年",
+      "reason": "기초 일정 표현; N5 출처도 존재."
+    },
+    {
+      "wordId": "lex-jmdict-1301340",
+      "japanese": "三日月",
+      "reason": "육안으로 관찰하는 달 모양 명칭; 천문학 지식 불필요."
+    },
+    {
+      "wordId": "lex-jmdict-1329770",
+      "japanese": "受け取り",
+      "reason": "받다에서 파생한 소포 수령의 기본 생활 명사."
+    },
+    {
+      "wordId": "lex-jmdict-1338400",
+      "japanese": "出会い",
+      "reason": "사람과의 만남; 문학적·추상적 의미 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1502690",
+      "japanese": "物置",
+      "reason": "생활 공간과 보관 기능의 구체적 명칭."
+    },
+    {
+      "wordId": "lex-jmdict-1534870",
+      "japanese": "木綿",
+      "reason": "N4 출처 및 옷감의 기본 의미; 다른 읽기의 나무 의미 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1579490",
+      "japanese": "姉妹",
+      "reason": "기초 가족 관계 어휘."
+    },
+    {
+      "wordId": "lex-jmdict-1580490",
+      "japanese": "乗客",
+      "reason": "대중교통 이용자의 기본 역할 명칭."
+    },
+    {
+      "wordId": "lex-jmdict-1581690",
+      "japanese": "中指",
+      "reason": "신체 부위의 구체적 기본 명칭."
+    },
+    {
+      "wordId": "lex-jmdict-1581710",
+      "japanese": "昼間",
+      "reason": "일상 시간대 및 N4 출처."
+    },
+    {
+      "wordId": "lex-jmdict-1584820",
+      "japanese": "夜行",
+      "reason": "여행 예약의 夜行バス 연어로 한정; 행렬 등 다른 읽기·뜻 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1575990",
+      "japanese": "一言",
+      "reason": "감사 인사의 짧은 말이라는 일상 의미."
+    }
+  ],
+  "held": [
+    {
+      "wordId": "lex-jmdict-1144860",
+      "reason": "상위 출처(N2/N1)에 비해 N4로 내릴 독립 근거가 부족한 비기초 활동명이다."
+    },
+    {
+      "wordId": "lex-jmdict-1191990",
+      "reason": "상위 출처(N2/N1)와 함께 기본 大家보다 격식 있는 임대 관계 대체 명칭이라는 점에서 N4 배정을 보류한다."
+    }
+  ]
+}

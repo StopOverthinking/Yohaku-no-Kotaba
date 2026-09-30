@@ -1,11 +1,9 @@
 import { useMemo } from 'react'
 import { ArrowLeftRight, BookOpen, ChevronRight, Heart, Sparkles } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
-import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
-import { allSelectableWordbooks, allSets, getWordById, getWordsForSet, getWordbookKind } from '@/features/vocab/model/selectors'
-import type { VocabularyWord } from '@/features/vocab/model/types'
+import { allSelectableWordbooks, allSets, getWordsForSet, getWordbookKind } from '@/features/vocab/model/selectors'
 import styles from '@/features/list/list.module.css'
 
 type VocabularySetMenuProps = {
@@ -34,17 +32,9 @@ function resolveMenuUpdatedDate(value: string | undefined, fallback: string) {
 
 export function VocabularySetMenu({ onSelect }: VocabularySetMenuProps) {
   const navigate = useNavigate()
-  const wrongAnswerIds = useExamStore((state) => state.wrongAnswerIds)
   const favoriteIds = useFavoritesStore((state) => state.favoriteIds)
   const lastSelectedSetId = usePreferencesStore((state) => state.lastSelectedSetId)
   const setLastSelectedSetId = usePreferencesStore((state) => state.setLastSelectedSetId)
-  const wrongAnswerWords = useMemo(
-    () =>
-      wrongAnswerIds
-        .map((wordId) => getWordById(wordId))
-        .filter((word): word is VocabularyWord => word !== undefined),
-    [wrongAnswerIds],
-  )
   const activeSetId = lastSelectedSetId === 'all' ? (allSets[0]?.id ?? 'favorites') : lastSelectedSetId
   const todayLabel = useMemo(() => formatUpdatedDate(new Date().toISOString()) ?? '', [])
 
@@ -72,25 +62,6 @@ export function VocabularySetMenu({ onSelect }: VocabularySetMenuProps) {
           <ChevronRight size={18} />
         </span>
       </button>
-
-      {wrongAnswerWords.length > 0 ? (
-        <button
-          className={styles.menuItem}
-          data-active={activeSetId === 'wrong_answers'}
-          onClick={() => handleSelectSet('wrong_answers')}
-        >
-          <span className={styles.menuItemIcon}>
-            <BookOpen size={22} />
-          </span>
-          <span className={styles.menuItemBody}>
-            <strong>오답 노트</strong>
-          </span>
-          <span className={styles.menuItemMeta}>
-            <span className="miniChip">{wrongAnswerWords.length}개</span>
-            <ChevronRight size={18} />
-          </span>
-        </button>
-      ) : null}
 
       {allSelectableWordbooks.map((set) => {
         const formattedUpdatedDate = resolveMenuUpdatedDate(set.updatedAt, todayLabel)

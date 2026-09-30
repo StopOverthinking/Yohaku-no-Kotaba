@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T05:47:39.470Z",
+  "checkedWords": 32,
+  "checkedExamples": 64,
+  "accepted": 32,
+  "held": 0,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "전량 원본·사전·제안 검토; 최소 예문 1개 정책. 원본 내용·ID 유지.",
+    "曜日 N5는 출처 N3와 구별한 편집 판단이다. 출처 등급 없는 6항목의 실용 용법을 따로 확인했다. 별칭 통합·참조 게시는 별도이다."
+  ]
+}

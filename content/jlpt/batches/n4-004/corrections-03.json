@@ -1,0 +1,12 @@
+[
+  {
+    "wordId": "lex-jmdict-1070500",
+    "category": "substantive",
+    "note": "스티커 재질을 종이로만 한정한 힌트를 필름 등도 포함하도록 수정했다."
+  },
+  {
+    "wordId": "lex-jmdict-1074990",
+    "category": "substantive",
+    "note": "스위치를 사람의 조작에만 한정하지 않고 감지와 회로 개폐의 기능 차이로 구별했다."
+  }
+]

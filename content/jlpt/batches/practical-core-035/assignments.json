@@ -1,0 +1,349 @@
+{
+  "status": "complete-unreviewed",
+  "at": "2026-09-30T06:35:12.234Z",
+  "note": "N1 출처 연결을 등급 확정으로 삼지 않고 선택 의미를 N2/N3로 제안. 원본 N1 전송 초안은 폐기 후 실제 제안 수준 배치로 이동. 첫 metadata 검사 통과 이후 parent 지적에 따른 분류 경로 수정 1회; 예문 작성 전에 수정.",
+  "supersededPreflight": [
+    {
+      "at": "2026-09-30T06:33:15.021Z",
+      "batch": "n1-008",
+      "index": "01",
+      "phase": "metadata",
+      "words": 25,
+      "examples": 0,
+      "milliseconds": 160.12220000000002,
+      "issues": []
+    }
+  ],
+  "rows": [
+    {
+      "dictionaryId": "jmdict-1309800",
+      "japanese": "指示",
+      "reading": "しじ",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 일상·업무에서 빈번한 행동 지시를 선택하며 추상적 지시 대상 논의는 제외. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1327810",
+      "japanese": "手順",
+      "reading": "てじゅん",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 업무·기기 조작 설명에서 여러 단계의 절차를 이해하는 핵심어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1328260",
+      "japanese": "手配",
+      "reading": "てはい",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 출장·행사에서 인력·서비스를 마련하는 업무 용법을 선택. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1409840",
+      "japanese": "対応",
+      "reading": "たいおう",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 민원·문제 처리의 일반 업무 의미를 선택; 관계·호환의 다의성은 부가 설명. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1604590",
+      "japanese": "見積もり",
+      "reading": "みつもり",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 구매·공사 등 거래에서 쓰는 비용 견적의 실용 명사. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1606280",
+      "japanese": "了承",
+      "reading": "りょうしょう",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 서비스·안내의 격식 있는 양해 요청을 선택; 유사어와 완전한 의미 분리를 주장하지 않음. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1599120",
+      "japanese": "取引",
+      "reading": "とりひき",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 경제·계약·상거래의 기본 개념으로 선택. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1470090",
+      "japanese": "納入",
+      "reading": "のうにゅう",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 계약·발주에서의 납품을 대표 용법으로 선택; 돈 납입도 함께 명시. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1367760",
+      "japanese": "人材",
+      "reading": "じんざい",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 채용·교육·조직 운영에서 능력 있는 사람을 가리키는 추상 명사. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1267860",
+      "japanese": "雇用",
+      "reading": "こよう",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 노동·경제 기사와 직장 생활의 기본 개념. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1513440",
+      "japanese": "保険",
+      "reading": "ほけん",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 생활 계약·병원·차량 문맥의 익숙한 보험 제도를 선택. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1545020",
+      "japanese": "預金",
+      "reading": "よきん",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 금융기관 계좌의 예금이라는 제도적 의미를 선택. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1402750",
+      "japanese": "送金",
+      "reading": "そうきん",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 은행·해외 거래에서 자금 이체를 나타내는 실용어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1365500",
+      "japanese": "診療",
+      "reading": "しんりょう",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 병원 접수·안내에서 진찰과 치료를 포괄하는 의료 실용어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1316890",
+      "japanese": "治療",
+      "reading": "ちりょう",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 생활·병원에서의 질병 치료를 선택; 전문 시술 의미는 추가하지 않음. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1484660",
+      "japanese": "避難",
+      "reading": "ひなん",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 재난 안내·생활 안전에서 구체적인 대피 행동을 선택. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1520260",
+      "japanese": "防火",
+      "reading": "ぼうか",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 안전 안내의 예방 개념 및 동음 반대 의미 구별을 포함. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1441100",
+      "japanese": "転居",
+      "reading": "てんきょ",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 주소 변경·공적 안내에서 쓰는 이사의 격식 있는 표현. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1535960",
+      "japanese": "問い合わせる",
+      "reading": "といあわせる",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 서비스·행정·업무에서 정보를 확인하는 실용 동사. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1393680",
+      "japanese": "前提",
+      "reading": "ぜんてい",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 논리·정책 독해에서 출발 가정을 확인하는 핵심 추상어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1546670",
+      "japanese": "要因",
+      "reading": "よういん",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 원인 분석을 다루는 일반 사회·경제 독해의 핵심어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-2848289",
+      "japanese": "根本",
+      "reading": "こんぽん",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 문제의 본질·근본 해결이라는 추상적 실용 의미를 선택. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1459360",
+      "japanese": "内訳",
+      "reading": "うちわけ",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 비용·구성 비율 설명에서 항목별 분해를 이해하는 실용어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1467550",
+      "japanese": "認識",
+      "reading": "にんしき",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 사실·문제에 대한 이해를 말하는 일반 업무·사회 독해 의미. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1575870",
+      "japanese": "依存",
+      "reading": "いぞん",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N2이다. 자원·경제·생활의 의존 관계를 설명하는 추상 핵심어. 공식 등급이 아니며 검토 후 조정 필요.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1587200",
+      "japanese": "意向",
+      "reading": "いこう",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N2이다. 상대·기관의 의도를 확인하는 업무·사회 독해 의미. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1371200",
+      "japanese": "推測",
+      "reading": "すいそく",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N2이다. 불확실한 사실을 추론하는 일반 독해·문제 해결의 핵심어. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1410260",
+      "japanese": "対比",
+      "reading": "たいひ",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N2이다. 자료·의견의 차이를 비교하는 일반 독해 의미. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1223090",
+      "japanese": "規模",
+      "reading": "きぼ",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N2이다. 행사·기업·경제 활동의 크기와 범위를 설명하는 핵심어. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n2-007",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1019940",
+      "japanese": "アンケート",
+      "reading": "アンケート",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 시설·학교·서비스의 일상적 설문 조사 장면을 선택. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1050980",
+      "japanese": "コミュニケーション",
+      "reading": "コミュニケーション",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 일상·직장에서 서로 이해하는 소통의 기본 의미. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1081190",
+      "japanese": "データ",
+      "reading": "データ",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 생활·업무에서 다루는 기록 정보의 기본 의미. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1085920",
+      "japanese": "トラブル",
+      "reading": "トラブル",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 생활·거래에서의 분쟁이나 문제라는 구체 의미. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1036080",
+      "japanese": "オンライン",
+      "reading": "オンライン",
+      "level": "N3",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 인터넷 수업·접수의 일상적인 연결 상태를 선택. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n3-012",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1490580",
+      "japanese": "品質",
+      "reading": "ひんしつ",
+      "level": "N2",
+      "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N2이다. 상품·서비스 평가의 핵심어로 추상 품질 개념을 선택. 공식 등급이 아니며 검토 후 확정.",
+      "batch": "n2-007",
+      "fileNumber": "02"
+    }
+  ],
+  "completedAt": "2026-09-30T06:38:44.604Z",
+  "totalWords": 35,
+  "totalExamples": 35,
+  "finalBatches": [
+    {
+      "batch": "n2-007",
+      "words": 26,
+      "examples": 26
+    },
+    {
+      "batch": "n3-012",
+      "words": 9,
+      "examples": 9
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedFiles": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "reviewedWords": 120,
+  "reviewedExamples": 360,
+  "draftWords": 808,
+  "priorPublishedWords": 688,
+  "priorHashesUnchanged": true,
+  "manuscriptSync": true,
+  "individualReview": "Dictionary IDs/readings/POS, representative senses, all examples, Korean translation, independent hints, contrasts and scene diversity reviewed; parser and applyReview passed. AI review, not human expert review.",
+  "finalWholeCorpusSimilarity": {
+    "senses": 2316,
+    "examples": 5440,
+    "threshold": 0.7,
+    "similarPairs": 0,
+    "comparisons": 87521
+  },
+  "remaining": null,
+  "existingCorpusAudit": {
+    "reviewedGroups": [
+      "らないでください",
+      "を教えてください",
+      "□を探しています"
+    ],
+    "proposedFollowup": "アパート ex1 (sense-lex-jmdict-1017760-1-ex-1) and 下宿 ex1 (sense-lex-jmdict-1185290-1-ex-1) repeat nearby housing search. Keep one and replace the other with a lodging-specific scene, such as meals provided. Other flagged endings share general grammar across different situations; no mandatory replacement identified. Existing published text unchanged."
+  },
+  "savedAt": "2026-09-30T01:30:31.602Z",
+  "combinedVerificationWithN5Supplement": {
+    "draftWords": 809,
+    "draftExamples": 2427,
+    "priorPublishedWords": 688,
+    "priorHashesUnchanged": true,
+    "corpusSenses": 2317,
+    "corpusExamples": 5443,
+    "similarityThreshold": 0.7,
+    "similarPairs": 0,
+    "comparisons": 87589,
+    "exampleVersionOverrides": {
+      "count": 4,
+      "version": 2,
+      "preserved": true
+    }
+  }
+}

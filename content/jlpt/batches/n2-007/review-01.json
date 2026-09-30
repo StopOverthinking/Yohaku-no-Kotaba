@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "1be07612971d49f422541ef2d171c2cd07e7231df367c0865ab39226990871e7",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:39:20.077Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1327810",
+      "882664b7e9944da179a3b813ddd091b3dccbeebd3f89afff9aed4c249a8c83cd"
+    ],
+    [
+      "lex-jmdict-1328260",
+      "afacfe1f63450f0df4fef2b8555fefe84313f48aec01b581db8749138f305141"
+    ],
+    [
+      "lex-jmdict-1409840",
+      "e8b9de76644232f5c451dd6cc6ed92338cc7febe88092f0cce7f8c2de6a139db"
+    ],
+    [
+      "lex-jmdict-1604590",
+      "61f4d86c43bdf1b7a178bd4b75837f9f3f208b396847573388fc2abf0c1aa35a"
+    ],
+    [
+      "lex-jmdict-1606280",
+      "8b101b5152dae12eb440cdafb446c758a685ed715777165858c37c1e5c4a214f"
+    ],
+    [
+      "lex-jmdict-1599120",
+      "0b199b212bde2c5f171ba2adbfc5cbf3fb8235f49cf80bba7c74e3a939c039b4"
+    ],
+    [
+      "lex-jmdict-1470090",
+      "b1a4fb008c6b69e629a4a1b50745d306c0a68970348dd928003d289faf857ebd"
+    ],
+    [
+      "lex-jmdict-1367760",
+      "8ce179e6e72325bf00922a50574b170df2dbe92a18022d1cf09ed8fa2a67243c"
+    ],
+    [
+      "lex-jmdict-1267860",
+      "8860f42ca540e8e8f6284da195b5ebafdf829fe49b7031cd8947a0be526eb297"
+    ],
+    [
+      "lex-jmdict-1545020",
+      "42af518c2b240857bf8e1344817940604203531f01140bd99bb2091502dbfee6"
+    ],
+    [
+      "lex-jmdict-1402750",
+      "819d0a3e42e19529a832e39a06257fc1ec2d38fce6c8584ac275c1b4cddf2a50"
+    ],
+    [
+      "lex-jmdict-1365500",
+      "a23f18f889cb44ee0efdd2c123e5608e2004b1005c5bac8a98027879bd5582cc"
+    ],
+    [
+      "lex-jmdict-1520260",
+      "648c5a99e57db12cc97d2e2d9ab33302514161d3ff97bc50f072aff20156a8b6"
+    ],
+    [
+      "lex-jmdict-1441100",
+      "f2822389336a8f15b5aba6d35ae1d5ad55e52786eb2e09d2aef6ab784e331364"
+    ],
+    [
+      "lex-jmdict-1535960",
+      "d50e408539b5c2d0e34c271fef5fa4d760c469b2d9f9d5fdd9c841a1141f0568"
+    ],
+    [
+      "lex-jmdict-1393680",
+      "303491b2301776c207453705912a6f3f8fe871bbb35fcb5cf6dab45ea6441062"
+    ],
+    [
+      "lex-jmdict-1546670",
+      "5dda937b73a6d2dcbb447f0bc843cf0822f07e50a636295890c59f3772ef03d5"
+    ],
+    [
+      "lex-jmdict-2848289",
+      "4350c13915dc86467f8525ddde95114b861553ea582fd46cb67d357e6eac66c2"
+    ],
+    [
+      "lex-jmdict-1459360",
+      "1fd035c1d4a3f8b0fbb21593e9aa0585b1c845a8629a50d77eba7ed261a7801b"
+    ],
+    [
+      "lex-jmdict-1467550",
+      "347f144b769cc64f338a36abf8d7aac903e052890de992484d27cd30bd35696b"
+    ],
+    [
+      "lex-jmdict-1575870",
+      "2c7de8b3186246f9ed8b8c3901fc444b22c669114c14f48f12d5e9dcbe605e88"
+    ],
+    [
+      "lex-jmdict-1587200",
+      "b73e8e4bc0dd2eafba49445f59e126a6f29c337a0ed1f3c15a89331420c115ac"
+    ],
+    [
+      "lex-jmdict-1371200",
+      "73e53740b8d7dd39f8670dca325b58b1489caabd43e8745e7f4340a99478b7aa"
+    ],
+    [
+      "lex-jmdict-1410260",
+      "5471c9ff823118d63b372caf59be39a871a8e58f4daa5235a72cc44c60b94609"
+    ],
+    [
+      "lex-jmdict-1223090",
+      "ce4d2f97c25f63aaefb91ddefbdc3197ffd4a76418d5c85b2acea8c7b7114f91"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1606280",
+      "category": "clarity",
+      "note": "기다리게 해 드리다라는 부자연스러운 한국어 높임 표현을 기다리셔야 할 수 있다로 정리했다."
+    },
+    {
+      "wordId": "lex-jmdict-1371200",
+      "category": "substantive",
+      "note": "推定의 발자국으로 동물 추론 장면과 겹쳐 답장 내용에서 상대 상황을 짐작하는 장면으로 교체했다."
+    }
+  ]
+}

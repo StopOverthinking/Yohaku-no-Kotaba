@@ -1,0 +1,92 @@
+[
+  {
+    "wordId": "JLPTN3_281",
+    "previousHold": {
+      "wordId": "JLPTN3_281",
+      "level": "N4",
+      "sourceHash": "d85655644c64401b9c501fa5eede0e35953917714f73f36511f255a6b2234a4b",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T05:01:38.878Z",
+      "notes": [
+        "새 眺め 예문과 정상 경치를 보며 피로를 잊는 장면이 겹친다. 별도 개정 전 참조 게시를 보류한다."
+      ]
+    },
+    "resolution": {
+      "reviewedAt": "2026-09-30T05:15:03.560Z",
+      "revisedExample": {
+        "id": "sense-lex-jmdict-1610960-1-ex-1",
+        "version": 2,
+        "before": "観覧車が上がるにつれて、街の",
+        "answer": "眺め",
+        "after": "が少しずつ変わっていった。",
+        "reading": "ながめ",
+        "translation": "관람차가 올라감에 따라 도시의 전망이 조금씩 달라졌다.",
+        "translationTarget": "전망",
+        "difficulty": 29,
+        "status": "reviewed"
+      },
+      "revisionHistory": "content/jlpt/batches/n3-010-scene-fix-history.json"
+    },
+    "acceptedReview": {
+      "wordId": "JLPTN3_281",
+      "level": "N4",
+      "sourceHash": "d85655644c64401b9c501fa5eede0e35953917714f73f36511f255a6b2234a4b",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T05:15:03.560Z",
+      "notes": [
+        "정상·차창 경치의 뜻, 읽기, 대비, 두 번역과 사전 N4 분류를 재확인했다. 眺め 예문이 관람차 전망 v2로 게시되어 반복 장면 문제가 해소됐으며 원본 변경 없이 참조 가능하다."
+      ]
+    }
+  },
+  {
+    "wordId": "JLPTN3_330",
+    "previousHold": {
+      "wordId": "JLPTN3_330",
+      "level": "N3",
+      "sourceHash": "ab7e00450852f97a70b58e76390fb0de6820596e78fbbaf7a148227578035669",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T05:01:38.927Z",
+      "notes": [
+        "새 職 예문과 공장 폐쇄로 많은 사람이 일자리를 잃는 장면·문형이 겹친다. 별도 개정 전 보류한다."
+      ]
+    },
+    "resolution": {
+      "reviewedAt": "2026-09-30T05:15:03.561Z",
+      "revisedExample": {
+        "id": "sense-lex-jmdict-1357480-1-ex-1",
+        "version": 2,
+        "before": "彼女は編集者の",
+        "answer": "職",
+        "after": "に就き、児童書を作っている。",
+        "reading": "しょく",
+        "translation": "그녀는 편집자 일자리를 얻어 아동서를 만들고 있다.",
+        "translationTarget": "일자리",
+        "difficulty": 29,
+        "status": "reviewed"
+      },
+      "revisionHistory": "content/jlpt/batches/n3-010-scene-fix-history.json"
+    },
+    "acceptedReview": {
+      "wordId": "JLPTN3_330",
+      "level": "N3",
+      "sourceHash": "ab7e00450852f97a70b58e76390fb0de6820596e78fbbaf7a148227578035669",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T05:15:03.561Z",
+      "notes": [
+        "실업 상태·실직 용법, 읽기, 休業 대비, 두 번역과 사전 N3 분류를 재확인했다. 職 예문이 편집자 취업 v2로 게시되어 반복 장면 문제가 해소됐으며 원본 변경 없이 참조 가능하다."
+      ]
+    }
+  }
+]

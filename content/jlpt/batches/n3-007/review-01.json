@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "b7e92c870114ddb30b3451a806bf5bd2e5c9a3daf80352db9580609c4b29e376",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:02:32.807Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1403830",
+      "f4476a247bb035ad06e8f1979d77f516b7f028532141c9bc9b095cef13ca4116"
+    ],
+    [
+      "lex-jmdict-1404450",
+      "d2405bdf7dc586870dc0f2685b4d2fc710199f7244b67fcc023b087acfa3afbc"
+    ],
+    [
+      "lex-jmdict-1406000",
+      "59418a97d84c85ddad96c6c9e7a9227e2679f9f5388da1357f3ee82153a6d94c"
+    ],
+    [
+      "lex-jmdict-1406400",
+      "694dbf77a1b8287c354fc56e4e9383ae2ad420c5f2193e5e81cea8a51b3c4603"
+    ],
+    [
+      "lex-jmdict-1406460",
+      "c6295eb1e64836c0c381bfc64ed7714a584b74b628ce3dc512b169ed374aa0e2"
+    ],
+    [
+      "lex-jmdict-1406660",
+      "be316b12f625343b8471db8bba01b4f57d79b4700372b496112461fa93a5f2b8"
+    ],
+    [
+      "lex-jmdict-1406710",
+      "3fefa97b352a2d75763d72041e757f6221ff86217dc6713d507915599e78f4eb"
+    ],
+    [
+      "lex-jmdict-1407980",
+      "8b07cc75e345f7c6bd51cfa124c638b0efba1cc3cc4ff1b5de9a93136b27c16c"
+    ],
+    [
+      "lex-jmdict-1408370",
+      "7743a959a016de0869d7411db34ef1a014283dc657a2314995bd6e71fa71c146"
+    ],
+    [
+      "lex-jmdict-1409110",
+      "a5497cedd61f38946f0a7855b739dcb47fa337c4b052cdb462640cd69476d4bd"
+    ],
+    [
+      "lex-jmdict-1409200",
+      "3c02db3a72696d4aafc62a98e0642cd26c39986d08be1666f2ebd14733208ef6"
+    ],
+    [
+      "lex-jmdict-1409250",
+      "5e4814d5a55cf9dcce99ef534e0ab77313f30234d893558427bb8774f24a4896"
+    ],
+    [
+      "lex-jmdict-1410120",
+      "6f3a2f0f06191f155e41849aa60455cd11ce607ed7d7eeceb2369fdb5e03c897"
+    ],
+    [
+      "lex-jmdict-1410410",
+      "55b77eb3cc703bb68c2494c4771174acbff406ca8cc8347dcc7e16e531384e0a"
+    ],
+    [
+      "lex-jmdict-1410780",
+      "5e0f04d296765d698bde33643d2bfc215b6e0ac12142678622cc4d7589713243"
+    ],
+    [
+      "lex-jmdict-1411470",
+      "9d6d67e75d5d7c89fd9c3d21b6c29a1c64615a81b89c7db622885e1c991b2fd0"
+    ],
+    [
+      "lex-jmdict-1412170",
+      "002afb6b5440ca168b516830c6afe79ec30cbe7d306dfeb4336ef4bc5500659b"
+    ],
+    [
+      "lex-jmdict-1412400",
+      "0781ae605b5b046c546c6ec303999ea18c14fc22e19d71c889dac678ca9a22bc"
+    ],
+    [
+      "lex-jmdict-1412560",
+      "2c0f5e85bf67e766c3421c78d8a62bbf6834d2023c248d37f29fdd1dff68e37d"
+    ],
+    [
+      "lex-jmdict-1412880",
+      "acc9a9ea8aa2f48725cf5a8b34b0b3851e00504971c5bac28868a5d3994f37e2"
+    ],
+    [
+      "lex-jmdict-1413140",
+      "1f229e06147b4eed03189db90343bd4f8dfc1bf5233ae2e090cf42825e29956e"
+    ],
+    [
+      "lex-jmdict-1413330",
+      "f1c990a0434ffe5b4e8960d462dbc6b6c9645609ebd39541cbc525f1b1e025f4"
+    ],
+    [
+      "lex-jmdict-1413880",
+      "e0e699cffb7fad346ea5f7afe2171a40cdda05a7a71143636ab3e10d0eac0505"
+    ],
+    [
+      "lex-jmdict-1414160",
+      "3e01df2fda89f2430a0cc1ef3fb7eb0220b32a6b1d0edc9e3f3a07962ac84e64"
+    ],
+    [
+      "lex-jmdict-1415150",
+      "bd8fe2b4c7f2f467b268f72d1bef43ea5d38ddf02875b6d83076eb30ab2bf36b"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1404450",
+      "category": "substantive",
+      "note": "묶음을 길고 가는 물건으로만 한정하던 힌트를 넓혀 신문 묶음과도 맞췄다."
+    },
+    {
+      "wordId": "lex-jmdict-1410120",
+      "category": "substantive",
+      "note": "직전 成人의 강좌 대상 장면과 겹쳐 학생 대상 설문 조사 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1410410",
+      "category": "substantive",
+      "note": "結んでもらった를 요청만 한 것으로 번역하지 않고 실제로 띠를 매어 받은 뜻으로 고쳤다."
+    }
+  ]
+}

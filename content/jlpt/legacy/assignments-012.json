@@ -1,0 +1,347 @@
+[
+  {
+    "wordId": "JLPTN3_331",
+    "sourceHash": "9dcfa28d443f6f7669920a8b7b76220255505cedf73c5065d7930c3ba5fd5204",
+    "level": "N2",
+    "dictionaryId": "jmdict-1321530",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “실력” 및 1개 sense를 대조했다. real ability·competency와 긴장으로 실력을 내지 못함·상대 실력을 모름 예문이 일치한다. 무력이나 무기라는 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_332",
+    "sourceHash": "60a680fe4630a29a597eb3d4a0ca24944321c625623434fd6f3d61cb021e7aae",
+    "level": "N3",
+    "dictionaryId": "jmdict-1309950",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “지도, 가르침” 및 1개 sense를 대조했다. instruction·coaching와 수영 지도·신입 지도 예문이 일치한다. 유도의 벌칙 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_333",
+    "sourceHash": "ad72caba7e85a7cb4cb481a6defcf03722a7b7150044b4237f89641d800efe86",
+    "level": "N2",
+    "dictionaryId": "jmdict-1594590",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “마감” 및 1개 sense를 대조했다. deadline·cut-off와 원고 마감·신청 마감 예문이 일치한다. 출처 N2/N1 중 기한을 가리키는 현재 의미에 N2를 선택하고 문을 닫는 뜻은 제외한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_334",
+    "sourceHash": "8a45802b9bb833ad39fc0e64065f404fcda9ed536f46312d6aa9c1d99a687892",
+    "level": "N4",
+    "dictionaryId": "jmdict-1421510",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “지면” 및 1개 sense를 대조했다. ground·earth’s surface와 비 갠 뒤 발자국·밧줄이 닿는 지면 예문이 일치한다. 제공 등급은 없지만 눈에 보이는 땅 표면의 기본 생활 용법으로 N4를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_335",
+    "sourceHash": "2cc389618dd47d79f405aadcc0ed42415797fd84634b301a42c447fc35d34e44",
+    "level": "N1",
+    "dictionaryId": "jmdict-1421060",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "현재 대표 뜻 출신 지역, 고장, 현지 및 1개 용법(그 지역이나 자기 고장)의 사전 대응과 모든 예문을 다시 확인했다. 현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_336",
+    "sourceHash": "ba200026054fb527de525512efea834e46817e3542617c9c49632cbc107fb43f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1333680",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “집합” 및 1개 sense를 대조했다. meeting up·gathering와 집합 시각 및 장소·나무 아래 모임 예문이 일치한다. 수학 집합 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_337",
+    "sourceHash": "ff6be69cd64a3dbad2f073950a9b251cf0143df71a60fc3b9909c3e77a761480",
+    "level": "N1",
+    "dictionaryId": "jmdict-1594720",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “수집” 및 1개 sense를 대조했다. collection·gathering와 우표 수집·현지 정보 수집 예문이 일치한다. 제공 N1 출처에 따른 제안이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_338",
+    "sourceHash": "b1a3b890f7db46cc527358eb5ec4f53e11860b0817a9a04386efa6e174a3bab8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1335570",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “정체, 밀림” 및 1개 sense를 대조했다. traffic congestion와 사고로 인한 버스 지연·아침 교통 정체 예문이 일치한다. 일반적인 정체·침체보다 차량 밀림을 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_339",
+    "sourceHash": "dc19207f05673329ab1d846ddbe3bdc09a83ef6ef1066ffdc814a7d3cba75020",
+    "level": "N3",
+    "dictionaryId": "jmdict-1333750",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “집중” 및 1개 sense를 대조했다. focusing attention와 공부에 집중하지 못함·마지막 공에 집중함 예문이 일치한다. 인구나 권력 집중 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_340",
+    "sourceHash": "b60da3ea9cad6db8f5b3138939b05ef97232c103a34b21a3ae33b79fe9268883",
+    "level": "N3",
+    "dictionaryId": "jmdict-1332400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수리” 및 1개 sense를 대조했다. repair·mending와 자전거 수리·새로 사기와 수리의 비용 비교 예문이 일치한다. handmade_91의 시계 및 지붕 수리와 같은 사전 ID·복구 의미이므로 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_91"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_91",
+    "sourceHash": "d4aaffec3629a422508ddd4fc7de501a199d4214f071842568e658a124978f69",
+    "level": "N3",
+    "dictionaryId": "jmdict-1332400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수리” 및 1개 sense를 대조했다. repair·fixing와 시계를 다시 쓰게 함·지붕 수리 중 출입 제한 예문이 일치한다. JLPTN3_340과 같은 기물·시설 복구 의미를 공유하는 별칭 후보이며 기존 ID와 이력은 보존한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_340"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_341",
+    "sourceHash": "01206c0f15482cdf602ef93c995dae161ac015f59695fe58783403026b388609",
+    "level": "N2",
+    "dictionaryId": "jmdict-1337630",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “축소” 및 1개 sense를 대조했다. scaling down·reduction와 지도 크기 축소·축제 규모 축소 예문이 일치한다. 크기와 규모를 현재 sense가 함께 명시한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_342",
+    "sourceHash": "00f73932f97e42cfa2032b0297efb581069bf84f36abd1d848f59a421e5a175e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1327790",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수술” 및 1개 sense를 대조했다. surgery·operation와 아버지 수술·부상 치료 수술 예문이 일치한다. 손재주라는 다른 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_343",
+    "sourceHash": "0b28d7d3ed7c5743687940a59cd5db1e48596b8e165cdedcd51c66fd3934cf32",
+    "level": "N3",
+    "dictionaryId": "jmdict-1328110",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수단” 및 1개 sense를 대조했다. means·way와 이동 수단·연락 수단 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_344",
+    "sourceHash": "63ffab66da489ad452a948032480c1aa104d77f8afbb30c202eaafaf29f21f8b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1325910",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “주장” 및 1개 sense를 대조했다. claim·assertion와 자신이 틀리지 않았다는 주장·상대 주장의 이유 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_345",
+    "sourceHash": "7231fbe748152b10345116ea45101345a8239f49e85fab8dec97a51d546bde53",
+    "level": "N2",
+    "dictionaryId": "jmdict-1339660",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “출장” 및 1개 sense를 대조했다. business trip와 출장을 위한 명함 준비·출장 중인 과장 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_346",
+    "sourceHash": "5ea7c93798d4a9bf94facb6ff4e491a65ba587b5b7debe70cf06ead91a90c3af",
+    "level": "N3",
+    "dictionaryId": "jmdict-1329340",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(국가의) 수도” 및 1개 sense를 대조했다. national capital와 호주 수도에 대한 생각·수도에서 멀어진 이동 예문이 일치한다. 첫 문장은 시드니가 수도라는 사실 주장 대신 화자의 과거 오해를 표현한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_347",
+    "sourceHash": "0f683f93db277dc8abe378717b08f3c825deca2c36af3798133e0d368588a012",
+    "level": "N4",
+    "dictionaryId": "jmdict-1329000",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “취미” 및 1개 sense를 대조했다. hobby·pastime와 퇴직 후 사진 취미·같은 취미 사람과 대화 예문이 일치한다. 취향이라는 다른 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_348",
+    "sourceHash": "15571e13182bbf3818959bc6c580d69bd905a20c90091295fa5334e95e3d0bcc",
+    "level": "N3",
+    "dictionaryId": "jmdict-1342390",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “순번” 및 1개 sense를 대조했다. order·turn와 자기 차례를 기다림·발표 순서 정하기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_349",
+    "sourceHash": "d80dfc677a0460dd93d1f5967ab106cdc9971a86f3c0a71a1241feee5d467a44",
+    "level": "N4",
+    "dictionaryId": "jmdict-1351430",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “소개” 및 1개 sense를 대조했다. introduction·referral와 친구를 통한 가게 소개·새 부원 소개 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_350",
+    "sourceHash": "110cce5cf531954e32c5ef9a84a261bb3ac8c158633c4f9bfb8a1bce7c89cab5",
+    "level": "N2",
+    "dictionaryId": "jmdict-1346740",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “상업” 및 1개 sense를 대조했다. commerce·trade와 항구 후 도시 상업·상업 시설 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_351",
+    "sourceHash": "747d007d90a5dd42eabfe41eacb40349154b60fd5fd92d11da3ad90ee4dcd875",
+    "level": "N3",
+    "dictionaryId": "jmdict-1356510",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “조건” 및 1개 sense를 대조했다. condition·requirement와 집을 구할 첫째 조건·매일 돌보는 조건의 반려견 허락 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_352",
+    "sourceHash": "cb78ce5769a8e16889915e400308a11c6b39419562b5b8dfb52f457e820cd4ff",
+    "level": "N2",
+    "dictionaryId": "jmdict-1355270",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “승차” 및 1개 sense를 대조했다. boarding와 승차 전 표 제시·종점까지 승차 시간 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_353",
+    "sourceHash": "7ecdd031d57c98cba5e8f5d6f999e57346c0f3a7ecc1d6506359896ede9eeb73",
+    "level": "N3",
+    "dictionaryId": "jmdict-1349610",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “초대” 및 1개 sense를 대조했다. invitation와 이웃 저녁 식사 초대·결혼식 초대 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_354",
+    "sourceHash": "22c03411f873459688b4ae262e05f8192b0bf66618aed689c4aa99c113c88f9a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1347200",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “장사” 및 1개 sense를 대조했다. trade·business와 오랫동안 이어 온 장사·비 오는 날 노점 영업 예문이 일치한다. 직업을 넓게 가리키는 의미보다 장사를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_355",
+    "sourceHash": "1aa665e77c6dfce764cb14855b2b30d2d1b9290c8d2238a9a7a9a55ad7c9d373",
+    "level": "N3",
+    "dictionaryId": "jmdict-1350290",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “소비” 및 1개 sense를 대조했다. consumption와 냉장고 전력 사용량·물 사용량 절약 예문이 일치한다. 현재 의미는 자원 소비를 포함한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_356",
+    "sourceHash": "7cd22959c9f1aba46ac18d0e364555af26099a8f1fb3c37fe4f03e5409190735",
+    "level": "N3",
+    "dictionaryId": "jmdict-1347310",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “상품” 및 1개 sense를 대조했다. goods·merchandise와 진열 상품의 가격표·주문 상품 색상 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_357",
+    "sourceHash": "abe8cb7c98d2953ad92555abe2be9ab1c8b46654ce3e463750fcdca7431e0de3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1356370",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “정보” 및 1개 sense를 대조했다. information·news와 버스 운휴 정보·정보 출처 질문 예문이 일치한다. 정보학 학문 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_358",
+    "sourceHash": "de9a2d56c8ae0d99faf722c0cde25f71738df8fb1470433eb5bee62a07d522dd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1351680",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “증명” 및 1개 sense를 대조했다. certification·proof와 나이 확인용 증명·정답에 대한 논리적 증명 예문이 대응한다. 둘 다 근거로 사실을 입증하는 현재 의미에 들어 있다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_359",
+    "sourceHash": "49e7ae034d4893dfa7062c54524428298b8d85fe7ded985e260cc8e1a86f9fd1",
+    "level": "N2",
+    "dictionaryId": "jmdict-1378030",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “정면” 및 1개 sense를 대조했다. front·facade와 정면 촬영·역을 나와 바로 앞 시계탑 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_360",
+    "sourceHash": "94a4ec30c436dc6920f2397b0aa0c65d37886f140943c7d13c565a8ffa6a4281",
+    "level": "N3",
+    "dictionaryId": "jmdict-1357300",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “식물” 및 1개 sense를 대조했다. plant·vegetation와 햇빛이 적어도 자라는 식물·도감으로 식물 이름 확인 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

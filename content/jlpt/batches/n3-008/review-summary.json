@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedParts": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "checkedWords": 100,
+  "acceptedWords": 100,
+  "acceptedExamples": 100,
+  "scope": "Independent complete dictionary, metadata, Japanese/Korean and scene review; exact snapshot and corpus+pilot deduplicated similarity 0.7 before approval.",
+  "latestSimilarity": {
+    "corpusExamples": 7366,
+    "comparisons": 154960,
+    "newPairs": [],
+    "allPairs": 0
+  },
+  "updatedAt": "2026-09-30T04:27:29.453Z",
+  "heldWords": 0,
+  "finalSimilarity": {
+    "corpusExamples": 7468,
+    "comparisons": 159858,
+    "pairs": 0
+  }
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "lex-jmdict-1153890",
+    "contentHash": "0843869058f204795aa59d545d01a4a8e61741a8dc438385146a03a07580938b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "な형용사/명사/する 용법과 무사 귀가·검사 결과 대기·상담 상대의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1155090",
+    "contentHash": "d2f985cc25a4b0393ce61f77c55410596233d06132f4b060ad3b074dea52b23d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "접미적 제외 의미와 휴무일·보관 물건·식사한 사람의 범위 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1155180",
+    "contentHash": "fe80349de9b5332c83792f0c46ee3cef687ddba020dc900b0b42946698ba63a0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "수량·시간·글자 수 한계를 포함하는 이내 의미와 세 예문 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1159810",
+    "contentHash": "d542c26991fa3cf5753db838e6a93fa92c0406d6a3aa8d0620c8b7b0bb6a2cb9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "학문으로서 의학 의미와 전공·도서·질병 원인 연구 장면 확인. 후보 N4 대표 뜻 유지."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1172870",
+    "contentHash": "5f86dab0c8a7798d5af52c3ae9a53f991a13b04b94132732419b9297cccd43b0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "운전자 명사와 정류소 문의·빗길 운전·분실물 반환의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1173100",
+    "contentHash": "03a5bc402c37d588a49cb291adf276c4cbbbef2884fd51e95e8184d130be76ab",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "구름 의미와 산에 걸린 구름·비행기에서 본 운해·강풍 속 이동 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1185290",
+    "contentHash": "6c6508fbe85ce307a7a5ccb19dd34f5f5f0def29a1e6db68b0affe5d575d960e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "하숙 형태/하숙집의 사전 의미 및 숙소 탐색·식사 제공·졸업 전 거주 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1185930",
+    "contentHash": "bf373f4b2575fa92ebc251bb482bede91a4538a8a1116413da224d36159166e7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "靴下와 유사도 0.720인 세탁물 건조 문장을 속옷을 개어 서랍에 넣는 장면으로 교체했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1192700",
+    "contentHash": "d3abf9e746322e10424ecb8fa017e5ce1151299d2b73b67a9949c226fbac3702",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "科学/化学의 동음·포괄관계를 확인했다. 실험·질병 원인·별 관련 독서 예문 검토."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1193610",
+    "contentHash": "3b84d00a4fb64653d80c16a40ee756f9ce4db2a5c0752b10cb14491fec85ea28",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "불 자체와 화재 사고를 구분했다. 조리 불 끄기·작은 불꽃·종이로 번지지 않게 촛불 이동 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1193950",
+    "contentHash": "6ae87071fb19bed043b02201a3de345144338240e0058f21d7b69db5f24301f1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "화재 사고의 뜻과 출동·대피·원인 조사 장면 및 火 대비 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1201280",
+    "contentHash": "66aecbaff0aca99bad145a1355812a40215636daa9b17577e8834fe5e543ec78",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "해안 가장자리 의미와 산책·태풍 후 나뭇가지·석양 관찰의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1207250",
+    "contentHash": "e17265cc6756f942659170d0234d3a2523904b803c69b903d0d01c2d2cbe9ad0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "미래 기대와 현재의 즐거움 두 의미 및 楽しみにしている 결합을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1214330",
+    "contentHash": "00ac8e1e2cecc2dcd8c6497766d2dd42fec321721c226d5cda6ca416886a68ac",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "간단함과 쉬움의 な형용사 의미 및 요리 절차·짧은 설명·단순 업무 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1215230",
+    "contentHash": "9f4fcdd0b956d3414052c835992a4c025a837ae71ab3564549f92b03fa813e7e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "두 예문에서 시간 구간을 뜻하므로 대표 뜻에 동안을 추가했다. あいだ 읽기 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1221250",
+    "contentHash": "b42298ecd6c8d8f8fd29d472beb77fc99ff6364a7fa9ccf125f6ccef1df0d749",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "명사인 귀가 여정/시점과 학교 귀로·늦은 귀가·여행 복귀 중 지연 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1222590",
+    "contentHash": "c67de8f606417c79e670b0bbbf429867e564e1b6bd5eec8eb282f161e252b9a0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "감정에만 한정하던 대비에 気分が悪い의 신체 불편감도 포함시켰다. 본 예문은 감정 의미로 유지."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1222840",
+    "contentHash": "b61473efd3006dc9ff41cfd8186c66d54ee29feba0ab13c181483902044af2e9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "봄여름가을겨울의 계절 의미, 강우·벚꽃·국가별 차이의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1226630",
+    "contentHash": "68db46d9ed5ceb973a5eaf83bddc0c00860965a9a518237dd8af54e6ed0d31d3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "家に来るので의 미래 예정 원인을 이미 방문한 것처럼 옮긴 부분을 수정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1228560",
+    "contentHash": "14c8789c74a8befa027754c1e7e01ff21c8652ef7aa684501e4156bb423e1a48",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "유사도 0.815인 비에 젖는 문장을 전철 급정거로 교체했다. 急な連絡 번역은 갑작스러운 연락으로 맞췄다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1228690",
+    "contentHash": "d318bad2c5563c954bf11c2ffcc0b103d7f1ca5d0a64d0b6d4ffec831f54b325",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "급행열차 의미에 한정해 무정차·약속 시각·잘못 탄 열차의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1236950",
+    "contentHash": "8d829db0047fe25848ea88dee5da75a2f90445e8e48bfd4942c41b606cefac07",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "교육 과정 의미와 교사 협의·음악 교육·수업 방식 변화의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1238550",
+    "contentHash": "0ded46feab2630429330001b9d75ec266c3cfb94f58d83d7b72c0c2218b4b004",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "창문 설명에서 풍경이 드나든다는 표현을 바깥을 볼 수 있는 부분으로 정정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1244310",
+    "contentHash": "2bbd33811e742d28a6b09e51a23d1835b2feda2627dca78ea3c18694c54bad28",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "にがく/にがかった 활용, 커피·약·탄 채소의 쓴맛과 매운맛 대비 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1245470",
+    "contentHash": "ad0084d6698210c5bdd1f4e89ee8f6de0e9fc0889d9ce7ec2d644b346bc60cbe",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "기체와 분위기 두 대표 의미 및 환기·산의 맑은 공기·다툼 뒤 분위기 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1245570",
+    "contentHash": "b3ff3a4b5f823172e00db17f1f13cfe1152b9148b1d1d2ddd882c547b281fae8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "공항 시설 의미와 이동 버스·도착 연락·태풍 지연의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1255060",
+    "contentHash": "8028aedaedf0d2d9ec2bd772c011ab9bc0c936668846d68b5e8c68442ba96206",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "ち 읽기의 피 의미와 무릎 출혈·혈액 검사·옷에 묻은 피의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1257330",
+    "contentHash": "0b01fcc2faac42ffe5c2af839f16766119e656442b168bc4b5d1228086fa51f7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "힌트에서 다리를 제외하고 건물을 짓는 용법으로 구체화했다. 校舎는 학교 건물로 번역하고 이치단 타동사·수동형 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1270810",
+    "contentHash": "d9d077b34853a30d39e5c4296b44f3a60369c3ff7002ecbbad2588f2125c0ee0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "감사와 사례의 명사 의미, 도움·선물·잊은 감사 인사의 세 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1272280",
+    "contentHash": "3ffd12e140e01b830e342b913693071296696d635644935caf1b362475f239c3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "교통 개선과 버스 증설의 모호한 연결 대신 이사할 마을의 교통을 알아보는 장면으로 수정했다."
+    ]
+  }
+]

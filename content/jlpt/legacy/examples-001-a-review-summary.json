@@ -1,0 +1,27 @@
+{
+  "status": "proposal-reviewed-awaiting-root-sense-draft",
+  "reviewedProposals": 10,
+  "scope": "Only the proposed third example; no whole-sense, profile merge or runtime publication approval.",
+  "validation": {
+    "currentWordAndSensesSourceHashesMatched": 10,
+    "existingExamplesUnchanged": true,
+    "exampleIdCollisions": 0,
+    "version": 1,
+    "meaningReadingJapaneseKoreanAndSceneDiversity": "independently reviewed",
+    "wholeCorpus": {
+      "includes": "Current global pilot draft plus existing corpus and these ten proposals in memory",
+      "senses": 2699,
+      "examples": 6599,
+      "threshold": 0.7,
+      "comparisons": 123250,
+      "similarPairs": 0
+    }
+  },
+  "corrections": [
+    "JLPTN3_5: repaired には clause by describing checking a sock-heel tutorial."
+  ],
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "savedAt": "2026-09-30T02:43:38.808Z"
+}

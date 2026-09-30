@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "11aeb2c011f1ffb718b5510eea3b82b2d9bc0f968b13fc268a817e78c4c9a430",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:40:25.837Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1490580",
+      "1af887c7e2087076a9c07f2a15e57a4ea02fab9799078ed2aea0fa426e9787d2"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1490580",
+      "category": "substantive",
+      "note": "仕様·比較의 구매 전 가격/특성 대조 장면과 구별하여 천의 일정한 품질에 따른 반복 주문으로 바꿨다."
+    }
+  ]
+}

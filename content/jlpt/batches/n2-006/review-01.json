@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "f20274a52849d38b0d35822e4e6cb02b815e5a380a5212e7ca3b5a4c20a90561",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:20:15.951Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1397240",
+      "77f1c2ae9d62a4f8305b1152e943c0f78c5a5d830a54e74f0774e2a985109619"
+    ],
+    [
+      "lex-jmdict-1397270",
+      "aad83e5c9b9531135354f41629adf00514b17ca7f0b9fe9b1aa0bbabe25e4e5f"
+    ],
+    [
+      "lex-jmdict-1398420",
+      "c90df212f67e4d8a42ac90e9d04ef86b8a92ecdee382c509398bd940e01694d3"
+    ],
+    [
+      "lex-jmdict-1399120",
+      "98972d7595dbe0d89255ed901b7b982256bb1d8b32fe144c71b12216f368ce2b"
+    ],
+    [
+      "lex-jmdict-1401360",
+      "4077a3cdd69c2ebacb33bd63980852e77ecc6583b7e859c806bb532caf622c1e"
+    ],
+    [
+      "lex-jmdict-1401820",
+      "f8cc6ee7dff8a0abcbee2eea70f17de0367805d1eeca18fe949efaaa523a555c"
+    ],
+    [
+      "lex-jmdict-1402160",
+      "faa9062f9f9aa18a888dc5fb5d41479a97dd947aaaf085af7be4d75cb3519761"
+    ],
+    [
+      "lex-jmdict-1403310",
+      "09c8398d1e0a5412ea2ba6b6b5634369bf32cb613230d0033c1cd58e05f4f69d"
+    ],
+    [
+      "lex-jmdict-1403450",
+      "e63ccf7825f80984e2ed198c33296dde6dd3839b31420814b43717df8e01a271"
+    ],
+    [
+      "lex-jmdict-1404570",
+      "511e15f055ce2196a72f77ada8916ad93b294b6909beb601ee55a9ac9f5b2518"
+    ],
+    [
+      "lex-jmdict-1405030",
+      "822bc869af007da42c6d5b5e6bf60c64b6132290ab29e095b95d7aad485f2867"
+    ],
+    [
+      "lex-jmdict-1405080",
+      "7df480bb2d31a639e4a459bdc7ebc8ba694b6ea3e5ee8a1a258377ae187641a1"
+    ],
+    [
+      "lex-jmdict-1406770",
+      "3557cb5abdfbbfa10123eac6a40eb9479d1f45709e577f6f9f3d5e0681f0d8a0"
+    ],
+    [
+      "lex-jmdict-1408280",
+      "6ce0f3486be8429412d73ba1a6e1f3b7d4d641f5e10f55bfd510dc75bf2ec61a"
+    ],
+    [
+      "lex-jmdict-1409390",
+      "0d5a97b8cb71015d9fca2b93e630b51938433f145a0c6ff4abf38032dc71e4f6"
+    ],
+    [
+      "lex-jmdict-1409550",
+      "5d4824ee287d55b80a560536282f616cde2cadb5057468b5972d999670bfe8cc"
+    ],
+    [
+      "lex-jmdict-1409580",
+      "492f4230e921b0ad75015fcffd2b5e9641eefed6ff936b03ef4724e5fe7f9fbe"
+    ],
+    [
+      "lex-jmdict-1410080",
+      "891f80f28fac65cf396e65f44fd75ceaba36677de2b77c53411570dedb8d957e"
+    ],
+    [
+      "lex-jmdict-1413250",
+      "99adda9c923c34ce6c20c9eb0935fe0707f62cef36f4cf89d6c28dc163d27543"
+    ],
+    [
+      "lex-jmdict-1413690",
+      "37e129ba0a502a1f492463738b6cd93a597bc9970334e8d3d66cdb7f2cd5ecd3"
+    ],
+    [
+      "lex-jmdict-1415490",
+      "66c6c03470afb0a40f70f19bfab22630ca65517c19330a419a204cefbd73ca89"
+    ],
+    [
+      "lex-jmdict-1415520",
+      "75b0b0a47cfd1d76913dc2774aa3b38cefa448d08bc861e114f447f0da24a6ed"
+    ],
+    [
+      "lex-jmdict-1418640",
+      "1db600a8e1c7f24815656fa77b8e460f91260ceeab4b754b97733f8326f5b4a6"
+    ],
+    [
+      "lex-jmdict-1419300",
+      "c7a61660f620bce4bbd7f9eee09b88778e9491b599f695a5fb5514d51e90137d"
+    ],
+    [
+      "lex-jmdict-1419740",
+      "381805933666b4e5a71c9afa3c7c477115e6d9dc362a7c79f092d789c6d9070b"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1404570",
+      "category": "substantive",
+      "note": "기존 血圧의 진찰 전 측정 장면과 겹쳐 창문 교체 뒤 실내 소음 측정으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1419300",
+      "category": "clarity",
+      "note": "여러 동으로 이루어진 단지의 1층이라는 모호한 위치를 주민 회관으로 명시했다."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "36317a879e8ed82e6b4d4584fe224011cdefde327903a249df18a33c533d7247",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:16:18.512Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1451900",
+      "b3b0a9a2e209d309dea16e79bad0f90610718f3ad410773cbe55749426e67ce7"
+    ],
+    [
+      "lex-jmdict-1452500",
+      "d8d661095ee9df9e0dd7e246427fc8091776c4a7c2589d60004fe5742f68713f"
+    ],
+    [
+      "lex-jmdict-1453550",
+      "4cdf12e1aa204921524748229453e9ed3935db192662f44994989d8652fe6299"
+    ],
+    [
+      "lex-jmdict-1453580",
+      "489375faca3b888aff3155535ffddc015ba5dabfa99450eca13936004402cf8b"
+    ],
+    [
+      "lex-jmdict-1454240",
+      "f888c1228a25c8909899cdfa0aed612ce9d42a643216ce2cc88bdeedbd0c8ee0"
+    ],
+    [
+      "lex-jmdict-1455500",
+      "8170fba03c5d2a786198e200a5ab89f8278cfbd6d5256f50b68e46848e568ff1"
+    ],
+    [
+      "lex-jmdict-1456010",
+      "360302f2dc0e28888979e7547f4592f7b9d01d04d0df58d66cf0054bab91a09a"
+    ],
+    [
+      "lex-jmdict-1456130",
+      "5293109016f1e9c870578c33fb57d920bd6b4f317762a2fefe7444aa3fb6ea76"
+    ],
+    [
+      "lex-jmdict-1456420",
+      "5cd7cd26b71bbb4088d63c80bd969372bcc0539d48c3e29868d8107d3528f6e6"
+    ],
+    [
+      "lex-jmdict-1459720",
+      "11e02da33d79ac80f92d0655ec0ab4fd3de9cd9af7fccb598f24877d72605468"
+    ],
+    [
+      "lex-jmdict-1459830",
+      "3bbdde4cda9ca06d69cbb02ac44e6d80fe40633bf97d704e77b222ec8e1ffcf1"
+    ],
+    [
+      "lex-jmdict-1464030",
+      "0c05cf139bb71396339aa5c2437a05229cacf9741e006ba45abb2fe47a3bb383"
+    ],
+    [
+      "lex-jmdict-1464180",
+      "1bc69bcabe1e2bb486ac3b28442945530a1b7fc8b30935d3b30a62e395c3ffb1"
+    ],
+    [
+      "lex-jmdict-1464250",
+      "0e2f6cc631f080c2afaaac47b5d9f17c3c53acad5cd82ce6fd34a8a993f6979a"
+    ],
+    [
+      "lex-jmdict-1464340",
+      "ce2dc77c9336aa3bbcf3cfda55b25a4b44418229df35e070ab4a65f71da10492"
+    ],
+    [
+      "lex-jmdict-1465720",
+      "1112c0f35ef28d218832c3c8b44db70f4ac7d4ea6249caa6f0924f9ff63d3928"
+    ],
+    [
+      "lex-jmdict-1465850",
+      "008167c477e8fd82dcc1a5fa526f7003164f909cb9828b5b0e6ff28700296c07"
+    ],
+    [
+      "lex-jmdict-1466360",
+      "5878fc1bda5baa3cb778971cee861a0e341252bd687b7e34e9ec9a2923ac5ec3"
+    ],
+    [
+      "lex-jmdict-1467910",
+      "d141b6c6d62f8ec67e34328870086aed5ecc2151e5927e9ab3f1a88c800cd875"
+    ],
+    [
+      "lex-jmdict-1467930",
+      "1e552f122d42641987f6a78dc83723c94539cb1e4d9a3002926856af684f21be"
+    ],
+    [
+      "lex-jmdict-1467950",
+      "ca443a3ed5571d51ba460f8b1b0dd94e804ff0c6dbef5bb9a2042f8c5fa80882"
+    ],
+    [
+      "lex-jmdict-1468380",
+      "f9f8e1b01298d3392ab22491becea0aea7c9e78f14f35aece6d35577c157a690"
+    ],
+    [
+      "lex-jmdict-1468950",
+      "9a0b4dc3ec159591afcbd7d73239ae343c982153b642875734aaa8d94a14e661"
+    ],
+    [
+      "lex-jmdict-1469890",
+      "2569229c712ee687248cb9f8aacb867261475c3bb2179206184231d9ab676026"
+    ],
+    [
+      "lex-jmdict-1470370",
+      "463af9d1f3bf27a587651b3214d8a85063570b8e5e361105d9d972ce0b8365aa"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1464340",
+      "category": "formatting",
+      "note": "한국어 구별 문장에 섞인 일본어 조사 は를 는으로 정리했다."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{"at":"2026-09-30T06:35:12.464Z","batch":"n2-007","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":157.8083,"issues":[]}
+{"at":"2026-09-30T06:35:12.698Z","batch":"n2-007","index":"02","phase":"metadata","words":1,"examples":0,"milliseconds":159.0656,"issues":[]}
+{"at":"2026-09-30T06:36:44.598Z","batch":"n2-007","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":979.568,"issues":[]}
+{"at":"2026-09-30T06:37:04.513Z","batch":"n2-007","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":1066.3594,"issues":[]}
+{"at":"2026-09-30T06:38:19.447Z","batch":"n2-007","index":"02","phase":"manuscript","words":1,"examples":1,"milliseconds":220.8284,"issues":[]}
+{"at":"2026-09-30T06:38:57.905Z","batch":"n2-007","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":967.4916,"issues":[]}
+{"at":"2026-09-30T06:40:07.436Z","batch":"n2-007","index":"02","phase":"manuscript","words":1,"examples":1,"milliseconds":221.7304,"issues":[]}

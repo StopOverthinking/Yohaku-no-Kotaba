@@ -1,0 +1,82 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T03:11:24.263Z",
+    "completedAt": "2026-09-30T03:13:36.085Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 25,
+    "correctionBreakdown": {
+      "formattingItems": 25,
+      "substantiveItems": 3,
+      "overlapItems": 3,
+      "formattingOnlyItems": 22,
+      "substantiveWords": [
+        "委託",
+        "運輸",
+        "閲覧"
+      ],
+      "formattingReason": "Earlier contrast-label convention was applied; most original Korean contrasts were already identifiable. Not a semantic defect in all 25. This formatting rule will not be forced in later files."
+    },
+    "similarity": {
+      "corpusExamples": 6639,
+      "comparisons": 124549,
+      "newPairs": 0
+    }
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T03:13:52.384Z",
+    "completedAt": "2026-09-30T03:18:15.889Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 4,
+    "correctionBreakdown": {
+      "substantiveItems": 4,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6664,
+      "comparisons": 125027,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T03:19:48.116Z",
+    "completedAt": "2026-09-30T03:20:37.231Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantiveItems": 1,
+      "clarityItems": 1,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6714,
+      "comparisons": 126555,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T03:21:55.794Z",
+    "completedAt": "2026-09-30T03:22:39.784Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantiveItems": 2,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6739,
+      "comparisons": 127157,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "completedAt": "2026-09-30T05:37:21.817Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "checkedWords": 100,
+  "checkedExamples": 100,
+  "accepted": 100,
+  "held": 0,
+  "correctedWords": 21,
+  "correctionCategories": {
+    "substantive": 10,
+    "clarity": 11,
+    "formatting": 0
+  },
+  "corpusExamples": 8102,
+  "similarityComparisons": 190764,
+  "similarityThreshold": 0.7,
+  "similarityPairs": 0,
+  "notes": [
+    "각 파일 전체 메타데이터·제공 사전·예문과 번역을 독립 검토했다.",
+    "정상 항목의 형식만 강제하지 않았으며 기존 승인 원고·게시 내용·예문 버전은 변경하지 않았다.",
+    "기존 전체 corpus와 pilot 미게시 항목을 sense ID로 합친 뒤 새 파일 관련 유사쌍을 확인했다. 장면 반복은 별도 문맥 대조로 수정했다.",
+    "컴퓨터 기반 AI 편집 검토이며 인간 검수로 표시하지 않는다."
+  ]
+}

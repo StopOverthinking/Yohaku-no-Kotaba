@@ -1,0 +1,32 @@
+[
+  {
+    "wordId": "lex-jmdict-1205040",
+    "category": "clarity",
+    "note": "各種가 모든 종류를 빠짐없이 포함해야 한다는 과도한 한정을 없앴다."
+  },
+  {
+    "wordId": "lex-jmdict-1210870",
+    "category": "clarity",
+    "note": "勘弁의 힌트를 용서를 청하는 발화에만 한정하지 않았다."
+  },
+  {
+    "wordId": "lex-jmdict-1198900",
+    "category": "substantive",
+    "note": "とく도 매듭을 푼다는 뜻에 쓰이므로 두 읽기의 중첩과 차이를 정확히 밝혔다."
+  },
+  {
+    "wordId": "lex-jmdict-1206340",
+    "category": "clarity",
+    "note": "한국어 견해 차이 표현을 자연스럽게 다듬었다."
+  },
+  {
+    "wordId": "lex-jmdict-1211340",
+    "category": "clarity",
+    "note": "소음을 참는 주체와 한국어 조사·상담 표현을 바로잡았다."
+  },
+  {
+    "wordId": "lex-jmdict-1195250",
+    "category": "substantive",
+    "note": "荷が重い의 부담을 느끼는 사람이 명확하도록 문장 주체를 정리했다."
+  }
+]

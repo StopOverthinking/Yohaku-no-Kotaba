@@ -1,0 +1,338 @@
+[
+  {
+    "wordId": "AbsoluteVerb_464",
+    "sourceHash": "f240876409c0651153a4448ccfb122409b5867bb5e573eaa1a389faecfae242f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “유용하게 쓰다” 및 1개 sense를 대조했다. 경험과 기부금을 다른 목적에 유용하게 쓰는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "役立てる의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_465",
+    "sourceHash": "d704f26eedd646a48f2bfb03254e3012ec998d557092f8ff1b12ad4fdcaf277f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1519120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “방해하다” 및 1개 sense를 대조했다. 통행과 수면이 원활히 이루어지지 못하게 방해하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_466",
+    "sourceHash": "b7c8737f3b2b8a95f016eb6ba5537030c06b2c61688d8fadca1403c953169b3a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1541900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “권유하다, 꾀다” 및 1개 sense를 대조했다. 사람에게 영화나 산책을 함께 하자고 권하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_468",
+    "sourceHash": "7dc47aa1940fdcd8368d74c8a37d8285a5819e2d28cb6005350815f3921b8588",
+    "level": "N3",
+    "dictionaryId": "jmdict-1372900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(수를) 세다, 헤아리다” 및 1개 sense를 대조했다. 거스름돈과 새의 수를 세는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_469",
+    "sourceHash": "2c813e31ba9f57c505d6dde2b1eb6c0e2c25641daec1dafd3b7bdd7b3a56789f",
+    "level": "N4",
+    "dictionaryId": "jmdict-1404700",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “더하다, (부족분을) 채우다” 및 1개 sense를 대조했다. 물이나 종이를 부족한 만큼 더하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_472",
+    "sourceHash": "6cf54554766ba8186c6a21f734b5489c7eff17210304e6d515c5397c58062a14",
+    "level": "N3",
+    "dictionaryId": "jmdict-1208000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “깨다, 쪼개다, 나누다, 물을 타다, 기준 이하가 되다” 및 1개 sense를 대조했다. 접시와 얼음을 깨거나 쪼개는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_473",
+    "sourceHash": "af445aa7d4ea4c73367513cdf9eb66198582dbc3812c455a6e66727ee18ef147",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “어림잡다” 및 1개 sense를 대조했다. 수리비와 이동 시간을 대략 계산하는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "見積もる의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_474",
+    "sourceHash": "ad3ae46116d80aa60d24beb318407cefe31e0862bf1572357d40347913912d42",
+    "level": "N4",
+    "dictionaryId": "jmdict-1284430",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(계산 등이) 맞다, 어울리다” 및 1개 sense를 대조했다. 계산이 맞거나 답이 일치하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_475",
+    "sourceHash": "ab6ffd213cd8f3f5c0475493a46396943545e8a96ea709d06f61a64b1337e218",
+    "level": "N3",
+    "dictionaryId": "jmdict-1284480",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “합치다, 맞추다” 및 1개 sense를 대조했다. 시간과 걷는 속도를 기준에 맞추는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_476",
+    "sourceHash": "10d5f8fc7943f61178aefb24c01d82edb940466ede15d10cb02d1199d1760d75",
+    "level": "N4",
+    "dictionaryId": "jmdict-1611610",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “틀리다” 및 1개 sense를 대조했다. 답이나 계산이 틀린 상태를 나타내는 일상 기본 용법이다. 제공 출처는 N1이나 같은 기초 학습·계산 맥락과 間違える의 기본 오류 의미에 근거하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_477",
+    "sourceHash": "c95fc4d23b872f47034c787bab5631451036dbe8c0cb660d1bf375fe7adbfc88",
+    "level": "N4",
+    "dictionaryId": "jmdict-1215330",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “착각하다, 실수하다” 및 1개 sense를 대조했다. 소금과 설탕 또는 방 번호를 잘못 아는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_478",
+    "sourceHash": "6bc1614f88145ca7ff16dd80f43ff3c3d1748d43dec72979d2a8866d551f5630",
+    "level": "N1",
+    "dictionaryId": "jmdict-1271300",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “판단을 그르치다” 및 1개 sense를 대조했다. 판단이나 회전할 장소를 잘못 정하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 word 뜻은 판단을 그르치다로만 좁혀져 있다. 첫 예문의 장소 선택 실수까지 포함하도록 잘못 판단하다·잘못 정하다를 명시하는 것이 정확하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_482",
+    "sourceHash": "8ef97a456b5783f80f7d973df2f6dcddaa950820bdef001b55c02da2b32a38f3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1158160",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “옮기다, 전염시키다” 및 1개 sense를 대조했다. 화분과 데이터를 다른 곳으로 옮기는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_483",
+    "sourceHash": "dd954bd0dca87dbc40e723280c8e9714d9341094feee2afa5adbb409998e6734",
+    "level": "N4",
+    "dictionaryId": "jmdict-1457210",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “전하다” 및 1개 sense를 대조했다. 도시락과 서류를 목적지에 가져다 전달하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_484",
+    "sourceHash": "1e8bf6b49c272a1b12bd26abb29b3aeb9d3ad824bff39f9ee63aa18e80ecb2bc",
+    "level": "N4",
+    "dictionaryId": "jmdict-1402730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “보내다, 배웅하다” 및 1개 sense를 대조했다. 사진과 물건을 다른 곳으로 보내는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_485",
+    "sourceHash": "bb21c8834f42a790c10511f67762c905a7f7cb00c6cc19e6c5299d5dcde6bc16",
+    "level": "N3",
+    "dictionaryId": "jmdict-1189980",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “더해지다, 참여하다” 및 1개 sense를 대조했다. 도움과 논의에 참여하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_487",
+    "sourceHash": "9a7c1755811512985acd2c16a15f51debb91f910f27f2eeae2d2407f4751d0cf",
+    "level": "N1",
+    "dictionaryId": "jmdict-1596490",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “곁들이다, 덧붙이다” 및 1개 sense를 대조했다. 선물에 편지와 음식에 레몬을 곁들이는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_488",
+    "sourceHash": "01d9a3b5ad24cb4f2060d91959284a2c4ed9791c93cfed2e347488341f2b23ba",
+    "level": "N1",
+    "dictionaryId": "jmdict-1440810",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “부응하다, 부합하다” 및 1개 sense를 대조했다. 기대와 희망에 부응하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_489",
+    "sourceHash": "03de01084561d6c1982ef9af8057f5b7d7330ec0c192b83e07e3c1e875c7f035",
+    "level": "N2",
+    "dictionaryId": "jmdict-1335800",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “겹치다, 포개어지다” 및 1개 sense를 대조했다. 그림자가 포개지는 장면과 날짜가 겹치는 장면 모두 사전 의미에 포함된다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_491",
+    "sourceHash": "c1cbf887dd1e283a1c114241ea22485b19631baf6e49a1268a9bf5ec7cf1a8f7",
+    "level": "N2",
+    "dictionaryId": "jmdict-1256520",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “겸하다” 및 1개 sense를 대조했다. 장소나 행동이 둘 이상의 역할과 목적을 겸하는 의미이다. 할 수 없다는 접미 표현은 현재 용법과 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_492",
+    "sourceHash": "0ff290c83e50c699eec134deecf97b1b18c692cde1d529d622eed50598303760",
+    "level": "N4",
+    "dictionaryId": "jmdict-1602440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “늘다, 증가하다” 및 1개 sense를 대조했다. 거주자와 보풀의 수가 늘어나는 기본 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_493",
+    "sourceHash": "cf6f89f6a12babbffcae9cc655d5dbf071c6e670e50ba462f062be257cd87e8e",
+    "level": "N2",
+    "dictionaryId": "jmdict-1602880",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “늘리다, 증가시키다” 및 1개 sense를 대조했다. 섭취량과 좌석 수를 늘리는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_494",
+    "sourceHash": "3e22ece95544289e5111e414afffbfc13283f6696b8090d9619328c28559573b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1263120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(양이) 줄다, (배가) 고파지다” 및 1개 sense를 대조했다. 인구와 물의 양이 줄어드는 의미이다. 배가 고프다는 腹が減る 표현은 현재 두 예문에 없다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_495",
+    "sourceHash": "94908168c428666f1a91e8a5f45ec8e2d5193d70b28c5010c194cda6f3c812ed",
+    "level": "N3",
+    "dictionaryId": "jmdict-1263110",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(양을) 줄이다, 덜다” 및 1개 sense를 대조했다. 짐과 소금의 양을 줄이는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_496",
+    "sourceHash": "210ce2799864b4b0f3c62c441e5fdf8ba68fce18cbdd022873c7512e419ad45c",
+    "level": "N2",
+    "dictionaryId": "jmdict-1298090",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “깎다, 줄이다, 삭제하다” 및 1개 sense를 대조했다. 연필과 나무의 표면을 깎는 물리적 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_497",
+    "sourceHash": "4d97e9c3cb7f2650f8afa8bda6117babf33809a5b68fe8f595443172e376bed4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1358870",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “자라다, 늘다” 및 1개 sense를 대조했다. 키와 머리카락의 길이가 자라는 기본 물리적 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_498",
+    "sourceHash": "4d5f0f13eda4b735f40ae28e79a0107872bae697ab649a96a4e3cb470fb89866",
+    "level": "N3",
+    "dictionaryId": "jmdict-1600290",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “늘이다, 발전시키다, 길게 기르다” 및 1개 sense를 대조했다. 머리를 길게 기르거나 팔을 뻗는 기본 물리적 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_499",
+    "sourceHash": "1ad23e20763884f9bca8f1afb03ce43c7c94cf08faaac84ad5c6f4d916521a42",
+    "level": "N2",
+    "dictionaryId": "jmdict-1337560",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(길이가) 줄다, 줄어들다” 및 1개 sense를 대조했다. 세탁이나 물 때문에 천의 길이가 줄어드는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_500",
+    "sourceHash": "49e58a50e178470049371a14a9915eedaba278349bd7dbfd4f4ce5df6dc7f8a1",
+    "level": "N2",
+    "dictionaryId": "jmdict-1337570",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(길이를) 줄이다, 단축시키다” 및 1개 sense를 대조했다. 회의 시간과 끈의 길이를 줄이는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_501",
+    "sourceHash": "ced16bece5eec14ab254eab478c134c1cd151f0c71e9ae8f9f73d6e3fc7e102f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1519990",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “부풀다, 규모가 커지다” 및 1개 sense를 대조했다. 빵과 풍선의 부피가 부풀어 커지는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

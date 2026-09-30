@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "501d3fea52d85d1cd2a174a8159382c7848b1e3d670f42e66fc1c85611ca8199",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:22:28.945Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1292390",
+      "2f09270d39da0638bc8583e78f9a766ce78d87a2f4fbb1da8579113117afcac1"
+    ],
+    [
+      "lex-jmdict-1292590",
+      "95c3d94a08e452348ab98d7b45ec5c483178d1c8189f9c1edef188235399bd43"
+    ],
+    [
+      "lex-jmdict-1292640",
+      "8df8c155b84539ee3df20b56cf852fffa9af8b1e7e4da7734a26f36619f049dd"
+    ],
+    [
+      "lex-jmdict-1292960",
+      "133f8ffc6eb58be0bec719cc4676eb2aee3aa89c1d53cb3889be1add71b4010d"
+    ],
+    [
+      "lex-jmdict-1293410",
+      "3fd4fa8076677133eb569abd952dba08f2c308018e01a625327e3339122e035e"
+    ],
+    [
+      "lex-jmdict-1294160",
+      "d42c60ae0badd05cbdf46c381a3097e41fa96feaffa8e928c17b9671202fa943"
+    ],
+    [
+      "lex-jmdict-1294170",
+      "2c63f82c6387368576fdbb5b951c55d54fd636d6b99db3ede38550169256e08b"
+    ],
+    [
+      "lex-jmdict-1294750",
+      "52382742a18943a45242ef19a7ebd829741247cc8d93ef0c093a6489c037006f"
+    ],
+    [
+      "lex-jmdict-1294760",
+      "4f8a3afe464709941b317c871ca6e5ab393d7217c0a9e31ebe8bbfdebe21ebd7"
+    ],
+    [
+      "lex-jmdict-1294780",
+      "fa8cd8d3d8be719831edb9d3e79235638ae3c59dd1fd4524343a5650807795bb"
+    ],
+    [
+      "lex-jmdict-1294810",
+      "5b61d92204cf3413ea957fc13dc648ae41b76cb1fa96fbde69c3af608313f387"
+    ],
+    [
+      "lex-jmdict-1294830",
+      "f298762ca0d4cec13f960654222bd47942eb812c962972972bb9794b5a8fbe6f"
+    ],
+    [
+      "lex-jmdict-1294890",
+      "7f1ae536087d7b13d30cd278bc4dd328d160600a63bf5f66c2b4c77e919ba5cb"
+    ],
+    [
+      "lex-jmdict-1294910",
+      "d62b8cdfce198619dc44830b969400883dcef77d60a6689a36d7130c1dc4d7ea"
+    ],
+    [
+      "lex-jmdict-1295030",
+      "9f149d94df769da11034da5d187b798536a0b10c1c9e2c50ff15f7113351a31a"
+    ],
+    [
+      "lex-jmdict-1295100",
+      "671948b807a56a139527c4d4355ad4fcec966854fb1329411ff621fcdc5c8f2d"
+    ],
+    [
+      "lex-jmdict-1295590",
+      "3041fce53dd9089ddb7404db8f7ef8cb516bb5b8e6861607b5fdbfcec239ecbc"
+    ],
+    [
+      "lex-jmdict-1295610",
+      "1a3e75eaccfd69010f5011a0b06d7008388110d7cfa3ef4603c9cd6a298f3f98"
+    ],
+    [
+      "lex-jmdict-1295740",
+      "64499ff5dcf0b1bb4b050b40c0b58312466fcce8f1d7ecd5e619bbf2659edc84"
+    ],
+    [
+      "lex-jmdict-1295940",
+      "1a42230288bd746f55c00f6328cfbac9bad3447541b3b4d5910287ca7e364ca1"
+    ],
+    [
+      "lex-jmdict-1296470",
+      "a07cc8e5a88ebe98ce601e2026d5ba59a38ff3e105f4d651c4516b40d8c6479f"
+    ],
+    [
+      "lex-jmdict-1296810",
+      "f8122b5f34083b132e54cdbea61349cf98d9806999cb4543a5e9773b875ed396"
+    ],
+    [
+      "lex-jmdict-1296830",
+      "7230880bb97664b8e85418f24cabc5dd084d4805a6bcec9e8b5e60bb1bc4a168"
+    ],
+    [
+      "lex-jmdict-1297050",
+      "6a70e2ad41d10c44fbc2d13685a1d08f78d3d467a15e64fd643ecc1d43d0050a"
+    ],
+    [
+      "lex-jmdict-1297250",
+      "67a11c6da000db6c82af8cc4c2bce86993f42f14d51442df4385fa8abedc6497"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1295030",
+      "category": "substantive",
+      "note": "표제어 済ます의 과거형은 済ました이므로 별도 동사 済ませる의 과거형 済ませた를 바로잡았다."
+    }
+  ]
+}

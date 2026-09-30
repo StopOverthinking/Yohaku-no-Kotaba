@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "14f4976d5b90423874e66e6a5a909246417ce6b1b72033908d46e55a5d97b6b9",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:29:53.114Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1507670",
+      "18287681cfca833ab1adfab744886c0c36a26f01015204c58dd0095236f3b7b4"
+    ],
+    [
+      "lex-jmdict-1508070",
+      "6ff11ee8671d854b151ca4187741a1a45d5b479303f0ff9e2c30a3d64d369739"
+    ],
+    [
+      "lex-jmdict-1508290",
+      "fec7494780488f44437e42d21160099fb5a7145c9d62a3710409fa8ea3982289"
+    ],
+    [
+      "lex-jmdict-1509350",
+      "26645e88f1765fb9e5ce026e69ceca97bdf119aa950e9bf6bcf0be958ee50b23"
+    ],
+    [
+      "lex-jmdict-1509490",
+      "82927bc39c7fa1e12787f802d21e27822e706ac4d5ed2e3b662f1f7aeb0e0222"
+    ],
+    [
+      "lex-jmdict-1511040",
+      "6872e7ec95678879b03fe6b83381c30348da8d2204a67e2cb1fef31bb10b4b1d"
+    ],
+    [
+      "lex-jmdict-1512080",
+      "d407830c1c9c05c4b5b6a1ea20db1d434322b4a208a99de615518fe87a76a71b"
+    ],
+    [
+      "lex-jmdict-1512360",
+      "ace8b31a3286b4527be47a069c014579f16679ecfd34d9f40096598804a20a7f"
+    ],
+    [
+      "lex-jmdict-1512410",
+      "62567c1fbe8382c1c4e30ba55bfab2830957bad14ab5f373a0c0d9f9e9afb756"
+    ],
+    [
+      "lex-jmdict-1513060",
+      "e16abea8451e319702184aface7426b51b53b129488183ce380d9e511cac3efe"
+    ],
+    [
+      "lex-jmdict-1513940",
+      "d0bf3bb415c4046ceb589b005758e58989e4a9d6504521b779d2df9bb9a0cfaa"
+    ],
+    [
+      "lex-jmdict-1514420",
+      "c6c3f5db018b65bc9f7e04bc82bb566cb643687607666f27a65ce85a82ea85e3"
+    ],
+    [
+      "lex-jmdict-1514840",
+      "6f9725b72b75b499d4f31f800da12401f55a3c8c4a5a9a853de7165725a8fc02"
+    ],
+    [
+      "lex-jmdict-1514930",
+      "6717e59c3888c3cc53465b6b6eeac32dbecf32630b31fbe660b5f7d99cc54136"
+    ],
+    [
+      "lex-jmdict-1514950",
+      "9459c1a0d135bf9a0cc5ddc7b930786fd9880601c03633290cbd5b1b99945bc5"
+    ],
+    [
+      "lex-jmdict-1515340",
+      "92bc8c7cd3049b7f50e4752e49d535f493ecabed9b6b6d8ee6f318a7ec3b18b1"
+    ],
+    [
+      "lex-jmdict-1515670",
+      "862e3c6a5c21c935b42ea8bb061c80021c27c5799f17bcb28c2b297382dac56c"
+    ],
+    [
+      "lex-jmdict-1516160",
+      "acceffd95a466b62ac6ca33885aa8d6d9f738ef22ad2f1f0cb83f3d3a5d8af85"
+    ],
+    [
+      "lex-jmdict-1516220",
+      "1a14280079c807d3470958fa9f4839d4ff01aecb9fbb7c168ed237487f4882bd"
+    ],
+    [
+      "lex-jmdict-1516750",
+      "726c26751e66fc38d9e9834bc68515797b37b479e58ce754e3350b93422b24f9"
+    ],
+    [
+      "lex-jmdict-1519620",
+      "ffcb577ee7fadaee1c0fdd76710d3480df842b5121bc848cb64ddcb436fd327d"
+    ],
+    [
+      "lex-jmdict-1519750",
+      "2bf7f6dcc2efb9258c6754c9e25afd9d0189b22eba64d93942de04a7d2cdb0c8"
+    ],
+    [
+      "lex-jmdict-1519830",
+      "491cbc5e4abd7d822372d744cc820ec3db7e9a875d77c5eaba902b2fe75b5647"
+    ],
+    [
+      "lex-jmdict-1522750",
+      "4ae1d14f81615a91a987c700f52777fb8fa5ffb5ff216fa4920e15d5db44a168"
+    ],
+    [
+      "lex-jmdict-1523180",
+      "e31518ec4116fdcbe09af2ebad785f8fdfd97e894692bbc83ad8cd2fd268b671"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1513940",
+      "category": "clarity",
+      "note": "닫을 수 있는 기기가 노트북임을 일본어와 한국어에 명시했다."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "wordId": "lex-jmdict-1610960",
+    "contentHash": "477d1ef26ef3e2f69246a8ed21a54f3ab21d711ea7681ab55ca10535f43bb5a8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Reviewer-authored scene revision; full-sense draft and source verification after proposal self-review.",
+    "reviewedAt": "2026-09-30T05:06:14.016Z",
+    "notes": [
+      "관람차에서 변하는 도시 전망은 기존 정상 경치 장면과 구별되며 일한 대응이 맞다.",
+      "단어·용법 내용과 ID·개수는 그대로이며 해당 예문만 버전 2이다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1357480",
+    "contentHash": "2303aaac1bdf32ff10e7db0252915499d5413ff66be3f57189428696e2c511c8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Reviewer-authored scene revision; full-sense draft and source verification after proposal self-review.",
+    "reviewedAt": "2026-09-30T05:06:14.017Z",
+    "notes": [
+      "편집자 취업·아동서 제작은 기존 공장 폐쇄 장면과 구별되며 職に就く 용법과 번역이 맞다.",
+      "단어·용법 내용과 ID·개수는 그대로이며 해당 예문만 버전 2이다."
+    ]
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "lex-jmdict-1041850",
+    "contentHash": "7de6cb4b4d3e115ddfeda0a858ab386a78be2b18a3c8160e0de956fb00e71886",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.035Z",
+    "notes": [
+      "벤치 격려·팀 의견 청취·우승기 수령으로 선수 주장의 역할을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1044020",
+    "contentHash": "8be6d2fd3090550a51dd868bbd0a2360110d72486df45e234a99d4233f86cd61",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "음악 감상·연주회·음반의 클래식 음악 용법을 형용동사와 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1046340",
+    "contentHash": "4104d53b6f6dbe2f21a4275928461efdad80371c7a1836200827e77cf3fa6770",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "우천 연습·경기 후 정비·관객 그늘의 야외 운동장 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1064250",
+    "contentHash": "9709185829c9b62bcac16438ddc8070d627f48255d0c9325524414f5f93a0120",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "소음·박물관 조종석·의료팀 수송에서 제트 항공기의 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1068770",
+    "contentHash": "b757130c3ef61763ba353606a51f19289db73c2a09b21ac23167a91717b1d123",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "첫 빙상 체험·신발 대여·광장 활동의 스케이트 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1069210",
+    "contentHash": "1889a2002b4cc88961c47c852bb1b3555b932ded92b54b8c0eaa00b085f2ae65",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "영화배우·극단 출신·축구선수의 인기인 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1069520",
+    "contentHash": "7d0eb994d7890422d656a5e872595d5db1cdb53e6b1fd9a20386e40a67362575",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "몸의 비율·근무 방식·옷차림 취향의 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1074600",
+    "contentHash": "94a0ab227141b80eefc06f9f9a156c97e8281711a1fa068bd5f9c15f435882ff",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "가구 묶음·조리도구 준비·여행용품 세트의 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1075040",
+    "contentHash": "130d78173a63b8c10f122166e7cf54c8cae9d9a411106aa1dde72b952b5451f5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "스포츠·고객 상담·방재 체험 시설의 중심 기능을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1075960",
+    "contentHash": "652f09bf76ca2258099e02fa84a8560b067b189c8587753afa90300b58d7997b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "편지 작성·중고 기계·영화의 자판 소리로 타자기 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1076860",
+    "contentHash": "050078a8dbadf9bcd227f541811f9de4227fa9fd3995df917b477e920866d704",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "보석의 다이아몬드 사전 ID이며 운행표 동형어와 구별된다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1077250",
+    "contentHash": "18705cab23a426b0c7b864938954acbeb85d1fc1d6ddc4d78b106ce76afd7b12",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "결혼식·동영상 연습·교실 박자의 춤 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1077330",
+    "contentHash": "646f12ba9ed2854869f704d77143981cf47f3a68b4da1f030614353c4bb89c20",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "원료 설명을 우유에만 한정하지 않고 다른 동물의 젖도 포함하도록 보완했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1077360",
+    "contentHash": "acdc8c9d25d4aaa992eee6dd38e5bfa11d34a0037aa62430ceeedc3456689a8d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "연구·스포츠·구조 활동의 협력 집단을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1078040",
+    "contentHash": "2580d163ca6c68229379ef3ac253a210edc9a97765214cda42ad8047c1098bfc",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "발언·역전·일자리의 유리한 기회를 가능성과 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1081040",
+    "contentHash": "9393b5b9ce7b35d759bbc3d5537266f7ea5720143649f8a36242d08e164e5550",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "고정 줄·야외 숙박·대피소의 임시 거처 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1081430",
+    "contentHash": "04ea1d92fa20457870672d27f69dbb7390a7eb9ebf4cae582d3bedca8bb49dc0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "첫 외출·지갑 분실·오랜 관계의 약속된 만남을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1084000",
+    "contentHash": "8a70f99557fc4751307f258444d4a6d45d6d560249f3ce4621d7ce65431e9c04",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "임금 시위와 제품 시연을 같은 사전 항목 내에서 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1085030",
+    "contentHash": "86d092060537e690fed03379e687fdc59ad6fb3c8539c015712e82743f535c7a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "경주 선두·경영 수장·매출 1위의 최고 위치를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1085760",
+    "contentHash": "0f478b236a9c9032df0650b060bf8972be643afc78057e7ee6819745055bcf1f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "화물 차량의 사전 ID를 육상 코스 동형어와 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1086410",
+    "contentHash": "18e3a64e3ebd43662ce003132f3ce9d986fc76b1d3a8d4e63b734a47b65dd6fd",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "카드놀이·분실 카드·마술의 놀이 카드 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1087630",
+    "contentHash": "4ff9d2d698eeea1bb6cec929ae279d40cfe5e917f966d0cf8d939f936a446ae7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "터널 출구 풍경·교통 단축·운행 중단의 통로 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1088580",
+    "contentHash": "cb41a6abfb406e6eb23fe7c57aa167e402e46cc0938032dc12400dbee7e634d5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "바닷가 나들이·교대 운전·단풍철 정체에서 여가 운행을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1088830",
+    "contentHash": "ebbdfc65a786dc742380781fe1f7644b4ebef59cebcbac4348e8beb2e6eb3999",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "연속극 결말·옛 시대상·실화 기반 창작의 드라마 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1089280",
+    "contentHash": "48921f108e632cf45d4ca27c0edf006767f7fadf31b5578d59efc74bc15915a1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "결혼식 대여·긴 자락·전시 의상의 드레스 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1093920",
+    "contentHash": "7097a9d26bfd59f6be3dcf21d0d79c9a37d255a588679079d777080f1d852083",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "부자연스러운 큰 노크 표현을 세게 노크해도 응답이 없는 문장으로 바꿨다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1095040",
+    "contentHash": "6faf26cf37bd0b99c4d6d9e75b28067de402e46cb7889693ce45f95265807492",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "호숫길·식물 안내·가족 식사의 자연 속 걷기 활동을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1096560",
+    "contentHash": "b881922188b4b49e80fed57967dc6ae52e355b4d474a0d8bc46f90fcbea440c6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "역접 활용까지 일본어 정답 구간에 포함해 한국어 잘생겼지만과 맞췄다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1097740",
+    "contentHash": "6ba10dce4bfb89140decca70142ef93b9099c383db643ef4a580d31468be3b7f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "연습·아이용 악기·곡의 선율에서 바이올린 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1100610",
+    "contentHash": "1498350e48aab7e8ac5ae6fb59f0ee7ac5de40722d090c177716a7a440ce0843",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-004/review-summary.json",
+    "reviewedAt": "2026-09-30T02:29:05.036Z",
+    "notes": [
+      "설문 비율·매출 증가율·배터리 잔량의 백분율을 확인했다."
+    ]
+  }
+]

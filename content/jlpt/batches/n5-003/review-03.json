@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "lex-jmdict-1263400",
+    "contentHash": "d30957a9aa915e9a52ddb27652fa4983dbabaf9ac0111231c5ba2351f2ac6be5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "현관 공간·신발 벗기·귀가 때 발견한 가방·젖은 우산 보관의 세 장면과 읽기를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1266970",
+    "contentHash": "a6a9e6155df7e77a703869eb816a7b1c9a80fc4787899b7bc16f43ec46493969",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "사전은 일본식 문을 뜻하며 미닫이에만 한정하지 않는다. 힌트와 ドア 대비의 단정을 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1540170",
+    "contentHash": "18453f5ed5e72b6f72a39fe7fb85dde4c741dfaadcb4c548544922f8da3daa71",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "친밀한 친구와 知り合い의 차이, 재회·집에서 놀이·전학 후 연락의 세 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1288850",
+    "contentHash": "e59db4720987527a92ed0148a1837fce48c83481adaad9396e5b2ae4dd917113",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "사전의 명사/부사 용법에 따라 지금·현재·방금의 세 예문이 성립함을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1297960",
+    "contentHash": "d7d56d6119167ca3457dff0f7732ae49bddc00fd4d0eae3850ad85b5bcd559e5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "작문 활동과 완성한 글 두 용법, 과제 제목·가족 여행 글·짧은 문장 연습의 대응을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1299740",
+    "contentHash": "7f91acc2660c1a48311b02996d8f53a1361f8767a2f85c6605ba9abdb8192ab8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "열쇠를 만들어 받은 완료 상황을 요청만 한 것처럼 번역한 부분을 정정했다. みっつ 수량 읽기 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1302680",
+    "contentHash": "9e6a2e713365e9eae0f4061211689e403a2054a5e16452c180e4bda84c523f27",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "산자락은 대표 의미에 부정확해 뜻에서 제외했다. 산의 눈·등산·산에서 공급되는 물을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1304970",
+    "contentHash": "a55f3c1975e75f9602c6e1ffaa86b2db3ba141a0311dfaac7e7293f559b98146",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "일하러 가기·업무 익히기·좋아하는 일을 직업으로 삼기의 세 용법과 번역을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1307040",
+    "contentHash": "45ee5005920c5a299c84b5d7ebd43543dbe5661a6c4378a6077de5e0a1ce5dcd",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "四つに折る를 네 개로 접다가 아니라 네 겹이 되게 접기로 정정했다. よっつ 읽기 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1307850",
+    "contentHash": "bb8327ecec8c38428503e1148ca40a03997f0d7f04266857cf16cfc2d848adb1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "길 잃은 아이·어린이 대상 영화·옆집 아이의 세 장면과 大人 대비를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1315920",
+    "contentHash": "274af0127aaf875805777ec1462e6d7d3cab358dacf474dd84818f728be7fc3e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "길이만 가리킨다는 혼동 설명을 약속 시각에도 쓸 수 있도록 고쳤다. 소요 시간·약속·여유 부족을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1316380",
+    "contentHash": "2eff29950f6cc988b95abe06ed262faa933590e6a745fd40f6aa82c01153f84a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "후속 열차·번호 순서·시험 다음 면접의 세 장면에서 다음 의미와 읽기를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1318400",
+    "contentHash": "134b6fd1cb38a8bd8ef6fff81d56d65d9a1ed740bc07510da95840936143783d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "자동차를 네 바퀴로만 한정하던 힌트를 동력으로 도로를 달리는 탈것으로 수정했다. 수리·눈길·통행 제한 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1319220",
+    "contentHash": "cbec23801b77c736d3d031dc237359ce93bbcff58604b3af299d0bacd7829dc9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "ななつ 읽기와 도토리·꾸러미 준비·남은 달걀의 세 수량 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1320760",
+    "contentHash": "e1e5e6f0dc1ae6b42d62e59d407b5408c1548fb3fe92980897aeeff7c4929b9d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "명사와 する 결합, 수업 후 질문·답변 보류·발표 중 질문의 세 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1324520",
+    "contentHash": "f01c0f17e00d2c5dd372a83c664664ffde2bd6d32ceef6b3b6700c2af964ab25",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "모종의 바람 저항·병후 체력·배터리 상태의 세 용법 및 よわく 활용을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1327190",
+    "contentHash": "84b86156bb9fcdff7a1858c0f7efecdc12d42ef458fadad24d2852b82f6f9e33",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "手がふさがる를 인력 부족으로 읽히는 손이 모자라다에서 짐 때문에 손을 쓸 수 없음으로 정정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1327720",
+    "contentHash": "157d023e88138ea86081f6588b052e51bcbf1955a5c5fe25e7b51ff915138859",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "편지를 반드시 봉투에 넣는 것으로 단정하던 힌트와 설명을 일반적인 우편 관행으로 한정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1332650",
+    "contentHash": "e74ba4537b712bfbeca2fbb9855e1a9bb9f6ccd7d83bcd37b297c8d867055453",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "길의 잎을 길가 나무가 물드는 장면으로 고치고 사과 수확 장소를 과수원으로 다듬었다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1335750",
+    "contentHash": "35426b6baed8fa2631f7f07f742aaf0b93347489c41ffb167cde16b82401ae69",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "가방에 물을 직접 붓는 듯한 문장을 물이 든 병을 넣는 장면으로 고쳤다. おもく/おもすぎる 활용 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1338850",
+    "contentHash": "3487cbffb877af206c3fb1c47a8c71fde49e5557d744edda80d2f392bfc01c69",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "출구에서 대기·비상 대피·안내판을 보고 출구 찾기 실패의 세 장면과 入口 대비를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1341000",
+    "contentHash": "4844e444fbf38e028f73dbb91ca34f36cb659d57d52824381a2f7d8451c0a11c",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "봄의 계절 의미와 개화·겨울 뒤 봄 도래·입학 시기의 세 예문을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1342550",
+    "contentHash": "ff3ced43259a822404ba29c7751d9574a4b8fdf58aa4f6354ddc8b9035c915ef",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "첫 단독 승차·첫 눈 경험·칭찬 후 처음 생긴 자신감의 문맥과 부사 읽기를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1344970",
+    "contentHash": "84660b784826135567583810f4d837a86b013a25efb7a71020100fe118d69bf0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "여자아이 의미와 달려오는 아이·이웃 놀이·보호자에게 안내의 세 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1347750",
+    "contentHash": "91c6f8a7830c128522675accb17c16d9b4d5154317db922dae82a37e19659b0b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "개의 크기 회상 시점이 모호한 子供のころ를 집에 처음 왔을 때로 구체화했다. 소리 크기 용법도 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1348910",
+    "contentHash": "a429143207246919e7cc5755f8aafb3aebff1349e669b0586fa64b98dd5f843e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "버스 운행 편수가 적은 상황을 일반적인 일요일 시간표로 바꿨다. 수·양의 의미와 すくなく 활용 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1353320",
+    "contentHash": "d20116b62ee46ce54ce77007909966c30845c82f0ccdfe1e130164482f1908f6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "じょうず 읽기의 な형용사 확인. 노래·요리·마음을 담은 글쓰기의 세 장면과 下手 대비를 검토했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1357600",
+    "contentHash": "202678bd898665cc8d242e17e6bd81ac971b472b94eedf96ec410ca3935d7009",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "색 이름 명사와 하늘색 변화·우산 선택·그림의 색 사용 장면, 形 대비를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1358340",
+    "contentHash": "75431af693734c714d5d7b69da41b179a20067610543fecb620279b1e01b525d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "씹어야 하는 식품으로 한정하던 혼동 설명을 먹는 음식 일반으로 수정했다. 음식 제공·시식·반입 금지 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1358550",
+    "contentHash": "3dc19f9eeb503f745a9a9d58e26cba7e1220d49b7a36f2730d238596b19b0dd8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent GPT-6 Astra high AI editorial review of each entry and all three examples against local JMdict: reading/POS, natural Japanese, Korean alignment, independent hints, contrasts and scene variety. Draft parser passed; 240 published hashes unchanged; replacement corpus 1,808 senses/3,916 examples contains zero masked pairs at similarity >=0.7 (36,778 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T00:30:50.244Z",
+    "notes": [
+      "구내식당과 대중 식당의 두 의미, 회사 점심·생선 요리·게시 식단의 세 장면을 확인했다."
+    ]
+  }
+]

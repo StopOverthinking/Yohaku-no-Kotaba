@@ -1,8 +1,18 @@
 import { fireEvent, render, screen } from '@testing-library/react'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { editorComparisonPairs, editorComparisonWords } from '@/features/editor/editorData'
 import { WordbookEditorPage } from '@/features/editor/WordbookEditorPage'
 import styles from '@/features/editor/editor.module.css'
+
+// Editor behavior uses isolated fixtures, independent of the published wordbooks.
+vi.mock('@/features/editor/editorData', async (importOriginal) => ({
+  ...await importOriginal<typeof import('./editorData')>(),
+  editorThemeWordbooks: [{"id":"theme-core","name":"주제별 단어장","order":0,"kind":"theme","topics":[{"id":"theme-core_theme_1","name":"움직임","order":0,"wordIds":["theme-core-JLPTN3_1"]}],"wordIdPrefix":"theme-core-JLPTN3","updatedAt":"2026-04-23T11:10:18.351Z"}],
+  editorThemeWords: [{"id":"theme-core-JLPTN3_1","setId":"theme-core","japanese":"急ぐ","reading":"いそぐ","meaning":"서두르다","type":"verb","difficulty":20,"verbInfo":"1타","sourceOrder":0}],
+  editorComparisonWordbooks: [{"id":"ComparingWords","name":"비슷한 단어들","order":0,"kind":"compare","pairIds":["ComparingWords_pair_1"],"wordIdPrefix":"ComparingWords","updatedAt":"2026-04-23T11:10:18.351Z"}],
+  editorComparisonPairs: [{"id":"ComparingWords_pair_1","bookId":"ComparingWords","leftWordId":"ComparingWords_1","rightWordId":"ComparingWords_2","leftDescription":"仕上がる: 마지막까지 손질되어서 완성되었다\n出来上がる: (더 넓은 의미) 완성품이 나왔다","rightDescription":"仕上がる: 마지막까지 손질되어서 완성되었다\n出来上がる: (더 넓은 의미) 완성품이 나왔다","sourceOrder":0}],
+  editorComparisonWords: [{"id":"ComparingWords_1","setId":"ComparingWords","japanese":"仕上がる","reading":"しあがる","meaning":"마무리되어 완성되다","type":"verb","difficulty":30,"verbInfo":"1자","sourceOrder":0},{"id":"ComparingWords_2","setId":"ComparingWords","japanese":"出来上がる","reading":"できあがる","meaning":"다 만들어져 완성되다","type":"verb","difficulty":28,"verbInfo":"1자","sourceOrder":1}],
+}))
 
 describe('WordbookEditorPage', () => {
   it('renders the editor shell with save actions', () => {

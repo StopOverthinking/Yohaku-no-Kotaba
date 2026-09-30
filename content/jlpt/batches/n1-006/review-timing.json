@@ -1,0 +1,66 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T05:56:13.030Z",
+    "completedAt": "2026-09-30T05:57:28.050Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 2,
+    "correctionCategories": {
+      "substantive": 2,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "corpusExamples": 8327,
+    "similarityComparisons": 202126,
+    "newSimilarityPairs": 0
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T06:00:46.326Z",
+    "completedAt": "2026-09-30T06:01:53.209Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 2,
+      "clarity": 1,
+      "formatting": 0
+    },
+    "corpusExamples": 8352,
+    "similarityComparisons": 203372,
+    "newSimilarityPairs": 0
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T06:03:33.411Z",
+    "completedAt": "2026-09-30T06:04:34.822Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 2,
+      "formatting": 0
+    },
+    "corpusExamples": 8377,
+    "similarityComparisons": 204712,
+    "newSimilarityPairs": 0
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T06:09:16.787Z",
+    "completedAt": "2026-09-30T06:12:57.006Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 2,
+      "formatting": 0
+    },
+    "corpusExamples": 8402,
+    "similarityComparisons": 206035,
+    "newSimilarityPairs": 0
+  }
+]

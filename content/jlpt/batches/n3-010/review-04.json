@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "3e09d4fd7b3e3ad5b3017bab6041481718a6cb56a113a0fd3e8be65d137c4c45",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:59:54.815Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1012050",
+      "500dd3f77e9effb61c1f382115bef03dc19448f6f43d6ce543e3008cce836971"
+    ],
+    [
+      "lex-jmdict-1032390",
+      "bfce5f9b7ea8abce960a9fc88a276a48e68fdb517eea902d449b77e471a0edae"
+    ],
+    [
+      "lex-jmdict-1127970",
+      "c162f3633c65832c0f4989633136b6f8df7f2e366510f50c1f2e679ba8bc52db"
+    ],
+    [
+      "lex-jmdict-1150110",
+      "ceccda1c7663feda14deacfccbfec096924e5ccfb47b44a6c114e3849f8525be"
+    ],
+    [
+      "lex-jmdict-1188420",
+      "a9bbb639c3d3e78659d61a43b8eb0b989c8dd6426e0b7f8f6926fbe2f5e3abcd"
+    ],
+    [
+      "lex-jmdict-1224880",
+      "13d852d9cae35dacf95faf635dfae9963c7b080c65415c8f93f69040d4a32cd2"
+    ],
+    [
+      "lex-jmdict-1288940",
+      "6be8c5e44c86429ecd1e34883f114cdcdf87c42ceb6d2055e99092d090589ed5"
+    ],
+    [
+      "lex-jmdict-1333150",
+      "921327338b8a49d8fcc9e46f055cddd2b1eba41db5acb87ab80a2be23392fa1a"
+    ],
+    [
+      "lex-jmdict-1337370",
+      "ef4fd3a83082cf86ef81137589110726b4946c34aba79de193083cc979764e1a"
+    ],
+    [
+      "lex-jmdict-1355790",
+      "e376b4bb7a0f34ab6fb82db279b53b366b632b8bd41af8d6968331be13c8971b"
+    ],
+    [
+      "lex-jmdict-1357480",
+      "b19125c220e3b77a3ddcc85cb2a94ad2642d8ce9304999d0aea4469f79bb25bb"
+    ],
+    [
+      "lex-jmdict-1358670",
+      "65fd6b1d7e63b1a9b89d0fa857c00487fb450931faee455ec9223889bf485636"
+    ],
+    [
+      "lex-jmdict-1368020",
+      "3ba3c4105ee6ffe40d41e44a109b5478cfb9c8fcbb7ed46211c161e5441ceb82"
+    ],
+    [
+      "lex-jmdict-1379430",
+      "1bcecd11835cfba06c064be139380a643e78be751aec4f502bb925a972eaa60b"
+    ],
+    [
+      "lex-jmdict-1379640",
+      "dd08755d55e12f507ec6931084cdb3cc6648b957f4001f1f701a471ae90f4e70"
+    ],
+    [
+      "lex-jmdict-1401090",
+      "415c581acd82ffe82a4290bfc5c688783eb52eaf9e7989b1113642e4893ea5b0"
+    ],
+    [
+      "lex-jmdict-1401240",
+      "d2219189553fb1020326e7d22ef0b45c590ea9f003e62b7f1e2a059d2e2c5498"
+    ],
+    [
+      "lex-jmdict-1411110",
+      "b9edd94cf1948708c4ff50fedeacd90d5ded80b5fa8b9ba0bd09e985e80321e9"
+    ],
+    [
+      "lex-jmdict-1412960",
+      "95145bef73e2ccfce303b8ecc3a41c61282a45e86c2234aae4a09e6eba33c1ab"
+    ],
+    [
+      "lex-jmdict-1414850",
+      "9a5e8abfcf17f13eb9583bde2a2619986a68e5f799db241c00cf213428300501"
+    ],
+    [
+      "lex-jmdict-1492680",
+      "f67d5eda4dcd577640b918530122fc56907660756bc9126234fd71e00a2c1d91"
+    ],
+    [
+      "lex-jmdict-1517150",
+      "fefc85c49706aa1f8fa11fafdde5f30b5f759752fb7e9121927a5098837c8bff"
+    ],
+    [
+      "lex-jmdict-1538100",
+      "d9b126cf0dcb5882c92ffe69dfc087442b3bd3c756c909d2cdb84d3405644cc4"
+    ],
+    [
+      "lex-jmdict-1577985",
+      "c4053d484c97c97577b870f098c41b554629d8220fe0e285fa467a555123dc45"
+    ],
+    [
+      "lex-jmdict-1587290",
+      "505bba361f721f221cf5eafeafefb1ea93a2b6ffe9fb34ca54f54e5d7440dfdc"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1368020",
+      "category": "substantive",
+      "note": "손님의 가게 입장을 뜻하는 入店를 점포 개설인 입점으로 옮긴 오역을 고쳤다."
+    },
+    {
+      "wordId": "lex-jmdict-1587290",
+      "category": "substantive",
+      "note": "보조동사 いただく는 남의 행동을 부탁받음이 아니라 남이 해 주는 행동을 받는 뜻임을 바로잡았다."
+    },
+    {
+      "wordId": "lex-jmdict-1401240",
+      "category": "substantive",
+      "note": "기존 다리 수리 비용 문장과 유사도 0.757로 겹쳐 돌을 움직이는 힘의 정도로 바꿨다."
+    }
+  ]
+}

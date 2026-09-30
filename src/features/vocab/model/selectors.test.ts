@@ -1,31 +1,17 @@
 import { describe, expect, it } from 'vitest'
-import { getStudyItemsForSet, getStudySelectableWordbooks, getWordById, getWordbookKind } from '@/features/vocab/model/selectors'
+import { getSelectableWordbooks, getStudyItemsForSet, getStudySelectableWordbooks, getWordById, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
 
 describe('wordbook selectors', () => {
-  it('returns themed words in topic order inside one themed wordbook', () => {
-    const items = getStudyItemsForSet('theme-core')
-
-    expect(items.length).toBeGreaterThan(0)
-    expect(items[0]?.kind).toBe('word')
-    expect(items[0]?.kind === 'word' ? items[0].topicName : null).toBe('움직임')
-    expect(items[6]?.kind === 'word' ? items[6].topicName : null).toBe('판단')
-    expect(items[0]?.kind === 'word' ? items[0].word.setId : null).toBe('theme-core')
-    expect(getWordbookKind('theme-core')).toBe('theme')
+  it.each(['theme-core', 'ComparingWords'])('excludes removed wordbook %s from selections and contents', (id) => {
+    expect(getSelectableWordbooks().map((book) => book.id)).not.toContain(id)
+    expect(getStudySelectableWordbooks().map((book) => book.id)).not.toContain(id)
+    expect(getStudyItemsForSet(id)).toEqual([])
+    expect(normalizeSelectableSetId(id)).toBe('all')
   })
 
-  it('returns comparison items for compare wordbooks', () => {
-    const items = getStudyItemsForSet('ComparingWords')
-
-    expect(items.length).toBeGreaterThan(0)
-    expect(items.every((item) => item.kind === 'comparison')).toBe(true)
-    expect(getWordById('ComparingWords_1')?.setId).toBe('ComparingWords')
-    expect(getWordbookKind('ComparingWords')).toBe('compare')
-  })
-
-  it('excludes comparison wordbooks from learn and exam selections', () => {
-    const selectableWordbooks = getStudySelectableWordbooks()
-
-    expect(selectableWordbooks.some((wordbook) => wordbook.kind === 'compare')).toBe(false)
-    expect(selectableWordbooks.map((wordbook) => wordbook.id)).not.toContain('ComparingWords')
+  it('excludes removed words from lookup and favorites', () => {
+    const ids = ['theme-core-JLPTN3_1', 'ComparingWords_1']
+    for (const id of ids) expect(getWordById(id)).toBeUndefined()
+    expect(getStudyItemsForSet('favorites', ids)).toEqual([])
   })
 })

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "41ce1cd1dd97ef337f9b7090325132a17a6610d59db6ac916911a940dd41c21c",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:34:02.127Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1524750",
+      "2a1db9968a36e1cc25fc6114d954c9b6a13e267a9af58dd93acb22f4958071c4"
+    ],
+    [
+      "lex-jmdict-1525780",
+      "21d262f4293ae68b8a30d4dce3da985f1dc324f6aaf5faf015259ff6926ab702"
+    ],
+    [
+      "lex-jmdict-1527070",
+      "b9bea152788f5f44f2f2fdb12f7faf447e205314dc7aa561fbf37fda93856992"
+    ],
+    [
+      "lex-jmdict-1528150",
+      "baed98f5d54151aee79cd6d00685d93f031078301063180b8ae5f1d0979b83d5"
+    ],
+    [
+      "lex-jmdict-1528490",
+      "33bc0c37e1eb301b391f134fcc37ce2583131003a2ea95980222f002c37a2044"
+    ],
+    [
+      "lex-jmdict-1529500",
+      "ea66cc91b48a687f275c79916cf704cade4d11c4845f8fb77518fd255b8606b2"
+    ],
+    [
+      "lex-jmdict-1529560",
+      "023e29329cc0cc69b5347155b14a053dea3016a6e7269dbd7e5386570e2c96c0"
+    ],
+    [
+      "lex-jmdict-1530020",
+      "48d8884678c28a28aaed0e8996ca7cf40e24556cf9b57dc44e484ab250b19db4"
+    ],
+    [
+      "lex-jmdict-1531040",
+      "9df8138f01b98b08dd342689d3813d4bfab3ff38eee41315ed35fe7e791b760b"
+    ],
+    [
+      "lex-jmdict-1531110",
+      "2e2e81f9754847fbb451eec7579195c08eeefb05118e746a2513612acd3d4ecd"
+    ],
+    [
+      "lex-jmdict-1531680",
+      "1b8777383f9f5d281e7516ac325b4707fdfc894b0c992b29e9f894b229703a39"
+    ],
+    [
+      "lex-jmdict-1531940",
+      "3350171a378c43f7b28bf6eaff03b8bdb3bfa2de176bf876ed6c959655cba180"
+    ],
+    [
+      "lex-jmdict-1532750",
+      "43c33a93d2a3f0b37a4597cb1de741b2c53efd3c5e27509610e06508d9cdab09"
+    ],
+    [
+      "lex-jmdict-1532800",
+      "1527ea9bc1b6b502aa40bd8b2250b3fe2893ed894c1b9176378b7beafdde7dc9"
+    ],
+    [
+      "lex-jmdict-1533330",
+      "130089808e578aebeec26b0ab8c92cab42778b27c7f976387d89d5e9e14bee8b"
+    ],
+    [
+      "lex-jmdict-1533550",
+      "7505f7c9e9af52f799a0fade2b0e8f6f1b27222dfdb2b9f23c8670b03d1f97cf"
+    ],
+    [
+      "lex-jmdict-1533720",
+      "006488efb53c3ecf5408beef5602e858e9ed1d904fc123a9d4c993c1c660d7fe"
+    ],
+    [
+      "lex-jmdict-1533950",
+      "3ad6430af49e02f18b1edd439a9fa714f69b7fd0c13496c7d6342e38db774a3d"
+    ],
+    [
+      "lex-jmdict-1535780",
+      "3c77ead11ee52e95511214c82ce0969c60b3cd3256f5816c685b9c48e9e95b2d"
+    ],
+    [
+      "lex-jmdict-1535810",
+      "541038fd98a7144030b01bd33dbf0b6883efed7c3bdc06aa74b13a0b2d5eb650"
+    ],
+    [
+      "lex-jmdict-1535930",
+      "5b017c1dd3d66bbd1f044c9af1e28e0a55068117c16b77790287c3cf4c2aa00f"
+    ],
+    [
+      "lex-jmdict-1537150",
+      "a3a279a41d31a8bf7f532898b70caf44f1809d0b055f6da480de0aecab01c3d6"
+    ],
+    [
+      "lex-jmdict-1537820",
+      "08c593c1c9fbee212088d8869c4893b5b154267bf1eae8f0517fd4a7150b2095"
+    ],
+    [
+      "lex-jmdict-1537970",
+      "0198d4f9266e0daa542cc5d3529e7e7844f2cc431de3830aa94535e2bc41019e"
+    ],
+    [
+      "lex-jmdict-1538000",
+      "ac91d6ffdaab36db7a4434f0bdaac7488b9eeaf85fee9755c80ab9fce850c91a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1537150",
+      "category": "substantive",
+      "note": "夜明け를 해가 뜬 뒤로 제한하지 않도록 하늘이 밝아지는 때로 힌트를 정정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1528490",
+      "category": "clarity",
+      "note": "시계가 저절로 움직이는 것을 이상하게 여기는 이유로 이전에 멈춰 있었음을 명시했다."
+    }
+  ]
+}

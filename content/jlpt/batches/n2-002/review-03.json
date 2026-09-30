@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "70b0bc9d7f4b5068bc738c393874933bab96aca7e4fb6096bc015c7e54f16bdc",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:26:08.930Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1153080",
+      "7529324204db6ac6835cf65b4c270486793aea931729263315df8bd2f34e029b"
+    ],
+    [
+      "lex-jmdict-1153720",
+      "b43c1c0c74e73954ada8dee46885442609f3b75802b7a3294a59a57cdb7bab10"
+    ],
+    [
+      "lex-jmdict-1154820",
+      "6943a7af50824ef85404048046f3f98f1b0451227d63ca25c8ce901f98581b94"
+    ],
+    [
+      "lex-jmdict-1156320",
+      "0c232f35add2047800f39ca8207ed55c98f618f3f1dd344638758b0c11c00e08"
+    ],
+    [
+      "lex-jmdict-1156740",
+      "1efc12b335874fbea99590d9a51c2db3779a58a7fbb86fa8cccbd0cb157e7e8b"
+    ],
+    [
+      "lex-jmdict-1158490",
+      "d1a5e57dece7f25b6038204f304b5f8a16b3b3e9bae028a51b72667052c62e95"
+    ],
+    [
+      "lex-jmdict-1158780",
+      "6bffa7b9efafff1e8373a36d4a30b77e7c3d0371018ceeaaf6be14e9bc5f8d9d"
+    ],
+    [
+      "lex-jmdict-1160330",
+      "f76a2af0876a6fffde6f4e03eb971a565495a3a14f6225e34bd6a16691055197"
+    ],
+    [
+      "lex-jmdict-1160630",
+      "a75f55fdea20557e44b8c4edc017133c58b44d8c3f8c8a0ccae8b9d61498d888"
+    ],
+    [
+      "lex-jmdict-1161170",
+      "4aa08f280251fd9bf05d999156fad764178b166b16564829bdd1772ab8647085"
+    ],
+    [
+      "lex-jmdict-1161830",
+      "3341e54db4c36d1841d502346ba65766bfa29c7635e6e3f6ca962ffea0930e29"
+    ],
+    [
+      "lex-jmdict-1164040",
+      "2d728d231016dcbd17aadbaec195ed5a4aae2c63dcd613a4aebbe7850b79196f"
+    ],
+    [
+      "lex-jmdict-1164650",
+      "6f0086f94d7de0e9093660ebc1c231e7be4b0fe1dc653d33648ecf31fbe16111"
+    ],
+    [
+      "lex-jmdict-1164910",
+      "26c32209d76dbd415828288bd96aacf071a99107d29f58c99ae084e2c5fac73d"
+    ],
+    [
+      "lex-jmdict-1167270",
+      "1599151825b2379224295fe8468c4bd2e0fded1b765c550e081af6393c5eb8fb"
+    ],
+    [
+      "lex-jmdict-1169140",
+      "cabdb29aca0075651c618ba0829fa86fe46288ee952faa8f953c0433df3a84f5"
+    ],
+    [
+      "lex-jmdict-1169320",
+      "5d8c92096635b3d989bbe752ba65666b0e87ef27e521cb9106d6b11b6f8550ed"
+    ],
+    [
+      "lex-jmdict-1169350",
+      "13a6ca34272f44f47e8ec557c1314a2b3d856021ff18b71978cb49530809da50"
+    ],
+    [
+      "lex-jmdict-1169390",
+      "08c448dca375462e27672daec005ada0e92f3ad1c61427f3120f6bc1d9b58a8f"
+    ],
+    [
+      "lex-jmdict-1169720",
+      "351b878263d80cf3b81484489f805c11ced70515ae6c2d1840c0980b269dcee1"
+    ],
+    [
+      "lex-jmdict-1171970",
+      "03695ede8a5ae531d4205e7b97a23eceb948faccfd25330eb746bbc670da1bad"
+    ],
+    [
+      "lex-jmdict-1172710",
+      "328f5e04a249f803f63b9025d82654c0964cefe71c07228aa651bae7d18dd007"
+    ],
+    [
+      "lex-jmdict-1173710",
+      "706825d0c37c8fff4a1e81e6ac704a58f8b5243e4fd9fbbd7885df2dd0e50891"
+    ],
+    [
+      "lex-jmdict-1175030",
+      "5441f68907b16c3016425403012fb254e40c14cde8ab0fbd5d771691f21267e6"
+    ],
+    [
+      "lex-jmdict-1176260",
+      "22fda2972e7b69c1748f975542b25c21c3b6e2866ea1b54dbdef7b4da1a6dced"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1164040",
+      "category": "substantive",
+      "note": "앞서 승인된 オーケストラ의 지휘자 손동작·악단 반응 장면과 겹쳐 절전 행사에서 조명이 꺼지는 장면으로 변경함."
+    },
+    {
+      "wordId": "lex-jmdict-1164910",
+      "category": "clarity",
+      "note": "문맥상 전체를 한 번 읽는다는 뜻을 유지하며 한국어를 한번 쭉으로 자연스럽게 다듬음."
+    }
+  ]
+}

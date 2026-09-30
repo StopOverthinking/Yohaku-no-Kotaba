@@ -1,0 +1,336 @@
+[
+  {
+    "wordId": "AbsoluteVerb_655",
+    "sourceHash": "546337ead83b16b0fbc7d3d062cce8ba5795f242ad6efccab67a0bfa7deb490a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1549910",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “이해하다” 및 1개 sense를 대조했다. 기계의 구조와 상대의 입장을 이해하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_656",
+    "sourceHash": "47ffec1a6a1205c442dfcf6a43bcf97fe80a10737388c75e593f387be5808ed5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1331670",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “취업하다” 및 1개 sense를 대조했다. 학교를 졸업한 뒤 직장을 얻는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_657",
+    "sourceHash": "2cd1d6bb6fbeb56cbf42318a43a497649f5c82c6107c40b3cf3412145aea2d63",
+    "level": "N2",
+    "dictionaryId": "jmdict-1339660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “출장가다” 및 1개 sense를 대조했다. 업무 때문에 다른 지역에 출장 가는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_658",
+    "sourceHash": "3384f406a9fdd4b17972c616debcc32236b8b61656dd936bf740f00dd63f54e9",
+    "level": "N4",
+    "dictionaryId": "jmdict-1339460",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “출석하다” 및 1개 sense를 대조했다. 수업과 회의에 참석하는 기본 학교·업무 용법이다. 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_659",
+    "sourceHash": "827e3445c42737950bb6120ee6e13f35706879bac2bb1e2a79d8625db811f3e2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1339150",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “출근하다” 및 1개 sense를 대조했다. 회사에 출근하는 일반 업무 의미이다. 제공 출처 N1이나 직장 출근·재택 대비라는 현재 기본 업무 맥락에 근거하여 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_660",
+    "sourceHash": "1b71b1e0f8ecb470cdccb958eacb0fd0ce8bc720d32b9e258747e217bca98eda",
+    "level": "N2",
+    "dictionaryId": "jmdict-1385530",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “접대하다” 및 1개 sense를 대조했다. 해외 손님과 거래처에 음식을 대접하는 업무 접대 의미이다. 출처 등급은 없어 기업 접대 용법의 어휘 난도로 편집 N2를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_661",
+    "sourceHash": "391ad40d22166f1388646d6a11b7159370d859fbb8e27fa1eaf8331369aa4241",
+    "level": "N3",
+    "dictionaryId": "jmdict-1375690",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “성공하다” 및 1개 sense를 대조했다. 빵 시험 제작과 시도가 성공하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_662",
+    "sourceHash": "d1cdd7ec875797dff1b8939d15f0f6bf7fbe50982d9fcda89f3dcaf1e6adc26a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1320140",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “실패하다” 및 1개 sense를 대조했다. 빵 만들기와 시도가 실패하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "첫 예문의 빵 만들기 시도는 成功する(AbsoluteVerb_661) 첫 예문의 빵 시험 제작 성공 장면과 유사하다. 원문을 유지하고 한쪽 장면 개정을 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_663",
+    "sourceHash": "0b660ee6630314c94533a6dba6abb918a381b72c55691d6dcdccc8bf497d83ab",
+    "level": "N3",
+    "dictionaryId": "jmdict-1178450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “사양하다, 삼가다” 및 1개 sense를 대조했다. 음식을 더 먹는 권유를 사양하거나 상대에게 사양하지 말라고 말하는 용법이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_664",
+    "sourceHash": "de3a2ca48c39c3f889d6f96528578264d790921688d13f1a9b2f0debb5dbe3a0",
+    "level": "N1",
+    "dictionaryId": "jmdict-1410070",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “대처하다” 및 1개 sense를 대조했다. 정전과 민원에 대응하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_665",
+    "sourceHash": "d7615dbf55d55cd821d509fe9893cd3721afc43bd29cad855aed82f3b7f22e60",
+    "level": "N3",
+    "dictionaryId": "jmdict-1214200",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “관리하다” 및 1개 sense를 대조했다. 건물 열쇠와 일정을 관리하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_666",
+    "sourceHash": "6a4b38afc52035c6bc529f6d6798e44eaefaec1b921965428329b4ca4913d6b3",
+    "level": "N5",
+    "dictionaryId": "jmdict-1553170",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “여행하다” 및 1개 sense를 대조했다. 홋카이도와 다른 곳을 여행하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_667",
+    "sourceHash": "5b375eb3f98b09e00d87c9f68509061557eb9a823bfed4efc4b63fdd0aaa0aef",
+    "level": "N4",
+    "dictionaryId": "jmdict-1260000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “구경하다” 및 1개 sense를 대조했다. 축제의 배와 공사 현장을 구경하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_668",
+    "sourceHash": "d49854f6ec6f24cc8a89f0d070d853f3d5e4a28ac2c586d964a06c681060519f",
+    "level": "N4",
+    "dictionaryId": "jmdict-1543750",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “예약하다” 및 1개 sense를 대조했다. 좌석과 가게 방문을 예약하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_669",
+    "sourceHash": "fd2420ff85185fd3238089cddeb9c1b5b9e523cd9644cdf37a91ce67a0ae3791",
+    "level": "N4",
+    "dictionaryId": "jmdict-1340000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “출발하다” 및 1개 sense를 대조했다. 배나 일행이 출발하는 기본 교통 용법이다. 제공 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_670",
+    "sourceHash": "618ce565d11849a542de8e06337ed368bdfc5c020698e371f76f71ebfcd22e44",
+    "level": "N3",
+    "dictionaryId": "jmdict-1302090",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “참가하다” 및 1개 sense를 대조했다. 청소 활동과 대회에 참가하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_671",
+    "sourceHash": "5f2e7ec048c0b13e4e739506dd59ae4a92082fe75bed38cc2d5a7ecb5f19aa8b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1428240",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “도전하다” 및 1개 sense를 대조했다. 수영과 말하기의 어려운 과제에 도전하는 일반 학습·활동 의미이다. 제공 출처 N1이나 문어적 挑む보다 일반적인 도전 표현으로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_672",
+    "sourceHash": "0c9a12bbae6a4779349dce2ab4aa1066995a298eb3d2ff5a90cd4dd7fc4da9fc",
+    "level": "N4",
+    "dictionaryId": "jmdict-1154860",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “안내하다” 및 1개 sense를 대조했다. 사람에게 길을 보여 주고 장소로 안내하는 기본 의미이다. 제공 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_673",
+    "sourceHash": "ad24ceb1c5b7957ba5665cd8ff5149a0f0dba3f74c0e898ef45824220466b545",
+    "level": "N3",
+    "dictionaryId": "jmdict-1409420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “체험하다” 및 1개 sense를 대조했다. 도자기 제작과 눈 위에서 자기 같은 활동을 직접 해 보는 뜻이다. 제공 출처 N1이나 일반 여행·문화 활동의 직접 경험이라는 용법으로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_674",
+    "sourceHash": "b33001df266e6cf3f9a3f15fef3bfb2e0e36c7d343b74aa7b48d8a63ba44fb93",
+    "level": "N3",
+    "dictionaryId": "jmdict-1251270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “경험하다” 및 1개 sense를 대조했다. 정전과 고요한 밤을 직접 겪는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_675",
+    "sourceHash": "adb5901bb3929fbe32c7b2800d99ef71413a495ffbfb2c5cd55bc39286c84635",
+    "level": "N3",
+    "dictionaryId": "jmdict-1518120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “방문하다” 및 1개 sense를 대조했다. 선생님과 공장을 방문하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_676",
+    "sourceHash": "8fb2c071438ac14ca10cfd787cf843035db80684982ac77126ad1cbdc7b003a8",
+    "level": "N5",
+    "dictionaryId": "jmdict-1443840",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “전화하다” 및 1개 sense를 대조했다. 숙소와 상대에게 전화하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_677",
+    "sourceHash": "4fab43aaf3c48cf7c85fcfb912fcc48bac16312c9b53b328964a93ae8cb3cd0b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1559900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “연락하다” 및 1개 sense를 대조했다. 도착을 알리거나 사람과 연락하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_678",
+    "sourceHash": "6866ccd32710880f8564a72d56dbc2175f5b4452c79ad509b61dd031900a1211",
+    "level": "N4",
+    "dictionaryId": "jmdict-1538130",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “약속하다” 및 1개 sense를 대조했다. 전화할 일을 약속하거나 약속을 할 수 없다고 말하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_679",
+    "sourceHash": "7de4fe6f5e2e94bf176aef604b359e41aa71cc859af302bc1343a13621762194",
+    "level": "N4",
+    "dictionaryId": "jmdict-1203800",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “외출하다” 및 1개 sense를 대조했다. 집 밖으로 나가는 기본 생활 의미이다. 제공 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_680",
+    "sourceHash": "81e003a0a0b4a933ac542f99ef287b823421305cbb5cb406e1de7896535d496a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1590950",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “건배하다” 및 1개 sense를 대조했다. 합격과 식사 자리에서 음료로 건배하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_681",
+    "sourceHash": "a692b97169712a0f7ad7237b2810409039a3fcb85bd635fde7d77a247d170583",
+    "level": "N4",
+    "dictionaryId": "jmdict-1320230",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “실례하다” 및 1개 sense를 대조했다. 자리에서 먼저 물러나는 정중한 인사 용법이다. 출처 등급은 없으나 기본 생활·업무 인사로 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 예문은 무례하게 행동함이 아니라 먼저 자리를 떠남이다. word 뜻 실례하다에 먼저 물러나다·먼저 자리를 뜨다의 인사 의미를 명시해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_682",
+    "sourceHash": "5d7ba17c78e5dbcb350f14075850ece28401ee1b55942a35b3db8b5dc6e3f4f0",
+    "level": "N3",
+    "dictionaryId": "jmdict-1254380",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “결정하다” 및 1개 sense를 대조했다. 여행지나 선택 내용을 결정하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_683",
+    "sourceHash": "521b5afd30a3f74e09210d2547d219d31ac72cc3356b2923c712b4b0ad8221cc",
+    "level": "N4",
+    "dictionaryId": "jmdict-1426650",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “주문하다” 및 1개 sense를 대조했다. 음식과 필요한 물건을 주문하는 기본 소비 용법이다. 제공 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_684",
+    "sourceHash": "f39abfdd62f791eeb5a22f9eb19e02f0639990a7205a9ad561c61f6a65f6f225",
+    "level": "N4",
+    "dictionaryId": "jmdict-1172910",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “운동하다” 및 1개 sense를 대조했다. 건강을 위해 몸을 움직여 운동하는 기본 생활 의미이다. 제공 출처 N3와 구분하여 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

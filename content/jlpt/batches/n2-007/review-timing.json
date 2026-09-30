@@ -1,0 +1,36 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T06:38:26.004Z",
+    "completedAt": "2026-09-30T06:39:20.145Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 2,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 1,
+      "formatting": 0
+    },
+    "corpusExamples": 8563,
+    "similarityComparisons": 213484,
+    "newSimilarityPairs": 0,
+    "levelReview": "출처 N1과 별개인 편집 N2 제안 25개를 선택 용법의 일반 업무·서비스·사회 독해 범위로 독립 수용했다."
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T06:39:20.145Z",
+    "completedAt": "2026-09-30T06:40:25.837Z",
+    "checkedWords": 1,
+    "checkedExamples": 1,
+    "correctedWords": 1,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "corpusExamples": 8564,
+    "similarityComparisons": 213539,
+    "newSimilarityPairs": 0,
+    "levelReview": "商品評価・品質管理の一般業務語として編集N2を承認"
+  }
+]

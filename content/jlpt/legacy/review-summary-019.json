@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T05:40:51.473Z",
+  "checkedWords": 33,
+  "checkedExamples": 66,
+  "accepted": 29,
+  "held": 4,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "전량 원본·사전·제안 검토; 최소 예문 1개 정책. 원본 내용·ID 유지.",
+    "描く·揚げ物·縁·鍼 연결 보류. 赤ちゃん N5 및 水槽·気絶·和らぐ N3는 출처와 구별한 편집 판단이다. 별칭과 참조 게시 승인은 별도이다."
+  ]
+}

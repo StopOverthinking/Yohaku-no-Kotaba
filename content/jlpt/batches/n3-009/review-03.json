@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d1bfd2c2059c86c4b37a554ab2a0ca38fc628f350f0e10301c8c4f13591d6c52",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:38:47.538Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1538560",
+      "e451d2fe11f96d659d59bb0c1c59f99fe7c619600b70283bf2173adec03e7502"
+    ],
+    [
+      "lex-jmdict-1538920",
+      "78c869d180c8d343a0546c5645ef98e423d2c30c32b7f4f58fb9c879e619ecae"
+    ],
+    [
+      "lex-jmdict-1539280",
+      "6491d72c4da5e400caa2a0ff5e4fe95478260c6b86f36403b33aebacd829fa5f"
+    ],
+    [
+      "lex-jmdict-1539740",
+      "c977a08efea8eca3af54b262807df1c950893efbdf3f1bd6fc32834a2291ab6e"
+    ],
+    [
+      "lex-jmdict-1540130",
+      "bccfc54cd8dab6d782beff0eb73560c1df504385f1de96ef992594bdaff896c2"
+    ],
+    [
+      "lex-jmdict-1541570",
+      "9bc1f80611c69001505b8ee52411e189368af0d0db6c5a21e079d8994744b6a9"
+    ],
+    [
+      "lex-jmdict-1542920",
+      "abe3dd5824c7788e508872fdd36ba94ddfe793c9965bcd6575a98ed02760550f"
+    ],
+    [
+      "lex-jmdict-1545350",
+      "acca7b68414466dd6cababa49d50b90e540aaec17e7155fe3d2588bebe7f29d4"
+    ],
+    [
+      "lex-jmdict-1546310",
+      "8fbec81d405833c53e44ccb918c9aba1380957568221d9a7a4d975793cb66647"
+    ],
+    [
+      "lex-jmdict-1546680",
+      "69ddd0cd5469b77eacd11908007a4b5accdfe71672b3447061c6d9d54d277908"
+    ],
+    [
+      "lex-jmdict-1546800",
+      "9306669d773e123485004e6c8cfeb859acbe0097f90f8390b0565ab531df9f1d"
+    ],
+    [
+      "lex-jmdict-1546820",
+      "516d2f8b9cc7ed120394f2fc1b1fd2a1821ee5f2f2ff433fd7afb9735d9de707"
+    ],
+    [
+      "lex-jmdict-1547530",
+      "121b4cb0e3e4a096f9cccdf3d56de5d17d1b9c0f6e03af4bfe212e93a4d13a49"
+    ],
+    [
+      "lex-jmdict-1549470",
+      "00e3de8a689a4434e050811e291eb18e42802ee7fcab5f7f15043b0497374cc9"
+    ],
+    [
+      "lex-jmdict-1549550",
+      "781144f44c0dd5d4e15f57b78aa74ae8499ebf9e1e535565679ef605541444fe"
+    ],
+    [
+      "lex-jmdict-1549910",
+      "c59e443d6186968a5e68670c4844202f802338cea514841eaa9414a1909991f3"
+    ],
+    [
+      "lex-jmdict-1550020",
+      "260daa80a253708c09fe940fd82c4f5e35ee8a208f196efde1e0f8087f4a4e3d"
+    ],
+    [
+      "lex-jmdict-1550840",
+      "dc453092d81e229b90d1f2301d1f1ad52bedc8276d58705705faae2f1064bfbd"
+    ],
+    [
+      "lex-jmdict-1550880",
+      "f94f235dc10b33a57b6290613df16cddba9fb44479083bf2fb8cf6faa2447aca"
+    ],
+    [
+      "lex-jmdict-1550980",
+      "1b61181b59d78de862e15a1c28fb63bf070af1b3b117d2395c3607e69cbf3b9c"
+    ],
+    [
+      "lex-jmdict-1551200",
+      "d5e75b3f30f6040343936e4a84e2f55e16af08148cda333f18b4a0e7e6c685e6"
+    ],
+    [
+      "lex-jmdict-1551710",
+      "2c0b4c3206a88152fce90e5bc5f8784a6b6dfaf2b443c18f6afbaab0530102b2"
+    ],
+    [
+      "lex-jmdict-1552130",
+      "43ae53bbebb2e1351627e0453f387353c6f1a42f46811f1a7d750fc736d83c27"
+    ],
+    [
+      "lex-jmdict-1553120",
+      "5fe8c86128bac31a1d46382466b7042fd58872b6ec70e32625aab0d4d27584ff"
+    ],
+    [
+      "lex-jmdict-1553820",
+      "5a8d7a937e313e7412115e3715aeb443e6dd25565d2cb3353670f3a9248d3e01"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1551200",
+      "category": "clarity",
+      "note": "参加した人の率의 어색한 결합과 계산 설명을 대표적인 回答率 용례로 다듬었다."
+    }
+  ]
+}

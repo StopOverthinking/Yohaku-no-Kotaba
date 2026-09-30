@@ -1,0 +1,1085 @@
+[
+  {
+    "wordId": "JLPTN3_61",
+    "sourceHash": "b7c02153f74ebd4e8b4b35abeb95be22f6761c30471c147524bba3023c7dc457",
+    "proposalHash": "b879e873d2c8d6aa25678adcedf7679e0646f47b9ad48f379e8e124940f5ae3c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.782Z",
+    "notes": [
+      "물건 처분의 공통 의미와 N4 근거가 맞으며 별칭은 후보로만 유지한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_431",
+    "sourceHash": "9944e185a97184536af686260b30825e75f9e0360df0978e447da815b7ed2315",
+    "proposalHash": "f4626a6a3ec7e94a1a41e07ccc8acdd0f9c9e8a804a193a66921f49b5573781b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "물건 처분의 공통 의미와 N4 근거가 맞으며 별칭은 후보로만 유지한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_62",
+    "sourceHash": "09f838768c4b7bfba2c4fd21b78018f9750e9dd5d5ff5a6ae1eb1051103b0b13",
+    "proposalHash": "414cdee9a447c4e41973be7aa7817edab3557a879577a035950b562fad1dd042",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "양육·재배의 공통 뜻이 맞다. 두 ID의 씨앗부터 토마토 기르기 장면은 후속 예문 교체 대상이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_170",
+    "sourceHash": "9820b272017ef5ad085cd55fe31644e90070430eebbe0510832d65f7342831d8",
+    "proposalHash": "ed6918bc5f4f1d04faa6f97b0b0ac5f3c5f6ffba5814d66726edf3da6540b9f8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "양육·재배의 공통 뜻이 맞다. 두 ID의 씨앗부터 토마토 기르기 장면은 후속 예문 교체 대상이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_63",
+    "sourceHash": "e3a975a9e63ec7ee64954f57e176fac0eed588bfbe9f09dd01fe450f35faf688",
+    "proposalHash": "e2e5ba298ffe1ec468f30e1ff6f3518c650b0f7dbe39b14104c4e60c2d3cb7b2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "물리적 전도의 공통 뜻이 맞다. 선반을 벽에 고정하는 반복 장면은 후속 정리가 필요하다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_286",
+    "sourceHash": "9853bec94f9ce7e064173e76f93a7c51754b9cb5bc456bbfd66fcf30ef80426e",
+    "proposalHash": "607bc922c55423fb373cd2e9c1eb943d7c6f82ed5fefa8a263c38431c25d417d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "물리적 전도의 공통 뜻이 맞다. 선반을 벽에 고정하는 반복 장면은 후속 정리가 필요하다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_64",
+    "sourceHash": "ac237e5970eaec3b27300b8ead77b5d2183445eb957c1b1cee46cc33f939f8a2",
+    "proposalHash": "b7d02551684b00b54f808c0a4aff9426f8b8a6867ca71357d3e9a29e53550d4e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "여권·잠금·가스·진위의 직접 확인이라는 의미가 공통이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_54",
+    "sourceHash": "58608d94b0a98b67786b028a8d6556ff47ce17b889b6779f28c767e2f525b9e7",
+    "proposalHash": "99aa6690e66b4da6c89169c2884dffff51e48de4575e627f9235e4ced58778d8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "여권·잠금·가스·진위의 직접 확인이라는 의미가 공통이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_65",
+    "sourceHash": "628f7e6cd0af5339d84005005634f77d7b6b41ee2280cd66f363db271d69740d",
+    "proposalHash": "730186e5daa33685996031d5258bdbc1a6ee79503980695aac35be1fa4d99341",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "경쟁과 전투라는 하위 장면을 보존하면 동일 핵심 동사 후보가 타당하다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_356",
+    "sourceHash": "54a80b6ecadc2abf5a467c5ec04afd6b154fad40406eadf9a63491d9498163c6",
+    "proposalHash": "17c57742c1ba9f06b4b29c54710573074c9f36dc687bf1f297e7c44c4fb7274d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "경쟁과 전투라는 하위 장면을 보존하면 동일 핵심 동사 후보가 타당하다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_66",
+    "sourceHash": "4c30862c9716865a3a8f1572dec3abe085c34e7f96b2d7b168c806c3bdbb5fad",
+    "proposalHash": "ff29c9ea77bffbbc52fcdfd7166eb837ca6e79e1a891e5cd3cd419a00a0bf855",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "개다·접다는 공통 동작이나 폐업 의미까지 승인하지 않는다. N2 고정 근거를 확인했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_7",
+    "sourceHash": "b7054fb8d0fd989c351079ede1faed29cc8c25e2aca62fbe8eebef15aa855d29",
+    "proposalHash": "ed4349e29cba194b2d3d7117aab8a698dd9a7186ce0373730c9a9241e3015ded",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "개다·접다는 공통 동작이나 폐업 의미까지 승인하지 않는다. N2 고정 근거를 확인했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_67",
+    "sourceHash": "83cbca8aff15e545cdf0ab67bcaa79a0f93a68d487eb3cde3bf68be10ccf7f6d",
+    "proposalHash": "c5a266016055330c64ec4baa8bd75544c6ac155c298abc06368d0d31aaf9221d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "시간 경과의 자동사이며 서다 등 동음 항목과 구별된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_68",
+    "sourceHash": "2cd5b4e866e5ea4bcd8793a1463d6e3876765888de28ea921c0179279dd4bd1d",
+    "proposalHash": "f6f681aa7b2cf22c2a953f615bacf4652992411e023c44474006fa735fb6bfdc",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "발화를 멈추거나 침묵하는 공통 뜻이며 공간의 조용함과 구별된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_70",
+    "sourceHash": "7f1b5e47b6eba1d67b055f5d1d43b2a9dda5b281d07cb5aac1faf863a2a9ccef",
+    "proposalHash": "df48870a0a5c10f10abfd18630601e25bf8102618b344963a46732a100fc40d5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "발화를 멈추거나 침묵하는 공통 뜻이며 공간의 조용함과 구별된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_69",
+    "sourceHash": "955ee3e087990ce030fec786eae4ed4c94f5f553e203968846e9a323f3053146",
+    "proposalHash": "2a21f75ff527e31a9a8b05e6b320c487253d2bf8d40db62424eb20164010fe13",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "사전 자타 겸용과 私を頼る를 보존해야 하며 물리적으로 기대다는 뜻은 아니다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_151",
+    "sourceHash": "7a7e40aba15a9aeea5335e515428d02acf1797b98dc8bde2ac63d8fdf061eeb5",
+    "proposalHash": "a1f5ff7c3f22b2fdd2aabf807838f6ab4385001f3a6a9a8991612b3ffaacb6bd",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "사전 자타 겸용과 私を頼る를 보존해야 하며 물리적으로 기대다는 뜻은 아니다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_70",
+    "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+    "proposalHash": "951cb289be6f4e654168187a2cef9cb02cc15219e950fd237820d434bc4208e0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "서로 다름과 정답 오류를 구분한 후보 집합이 타당하며 handmade_108은 합치지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_108",
+    "sourceHash": "8d78e1f8ddd18dfd1b2a3d49473436dbfbb94b7662eed33347c181958e5d71d0",
+    "proposalHash": "0f4d7534522222bac02609f153e5e9aa98d86c06ebafe660262b29a9db2cee38",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "서로 다름과 정답 오류를 구분한 후보 집합이 타당하며 handmade_108은 합치지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_618",
+    "sourceHash": "c5c10b1b80f0abd52ea08a4ea5556fb44323ed13eb5962f9bdeb3cc297b0a9b8",
+    "proposalHash": "991d592fc49a521df729c98ebf5715bf19802164344268b0b00bde0724fa2a39",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "서로 다름과 정답 오류를 구분한 후보 집합이 타당하며 handmade_108은 합치지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_71",
+    "sourceHash": "afe60f5a470f28837c4e13db8a1aea677893097a151a927abd728eb28b5bc322",
+    "proposalHash": "385755e4a243760eb30a59e8c65f81ec57a35bdc5e43dd71bd1875650acbd959",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "육체·심리 피로라는 공통 뜻과 N5 기본 용법을 확인했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_292",
+    "sourceHash": "acd82911359e77782fa810a5f06d62ad2f43b224faf76eb9770b1c5a77703c7d",
+    "proposalHash": "a8b833fe9db9fbdcd4deabf7317983d1a874b121abeff4e264cbd8320ac2e583",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "육체·심리 피로라는 공통 뜻과 N5 기본 용법을 확인했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_72",
+    "sourceHash": "14b32a1fdb5239b32f5ed1207d7f0875e0167c5c473627eed5557883a9b863e4",
+    "proposalHash": "dc9238896af7e289effdc853564babe8115492fd01f1a2755c6733a5e1c9f493",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "감정 전달 의미가 공통이나 짧은 편지를 통한 감정 전달 장면은 반복 보강 대상이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_244",
+    "sourceHash": "360ac7617bd4d4fae31dffb8f31837f8d721eacb6661da4c82a447d42d497a0f",
+    "proposalHash": "85f2accd36fc4200073d4f8e3b1e50a3dada3443f750614714cd767570d26b88",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "감정 전달 의미가 공통이나 짧은 편지를 통한 감정 전달 장면은 반복 보강 대상이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_73",
+    "sourceHash": "d3113f52edbd2be3ffad814a5f20a8ead052a42adeac7cf1eaa724869ecb1a86",
+    "proposalHash": "d3d245442f0b19b38178877ce6bb2f979943026f85ac22e7f881b8438069bc7a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "포장보다 감싸다는 넓은 뜻이 음식과 물건 예문을 포괄한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_312",
+    "sourceHash": "376d1e6dbdddeb0ed40250b1ed3abc894a8a6b20529975ad6005e78417115c90",
+    "proposalHash": "64c77b8200cd53e9b0364be8fbdb133c168a31f61adafe768971e135d9e410d8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "포장보다 감싸다는 넓은 뜻이 음식과 물건 예문을 포괄한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_74",
+    "sourceHash": "e4f17dbc61596af2b8118f4349964bf6800a0aa02b9ed8e90526148b423b3687",
+    "proposalHash": "5fea2d4b9e22602e037f1f000634b3794a82a8b8cfc306a917362edd4cac589e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "고용·근무의 현재 용법에 한정하며 동음의 역할 수행·노력과 분리한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_390",
+    "sourceHash": "85e75cf3ae4edd0d559a5c8f2d1ac76a2fd7fa66c8e32cf019833af5548682a0",
+    "proposalHash": "89244d4cb8238217929f1027c9aecfc0b3fa6292ca8225ec1519e44c48be4a36",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "고용·근무의 현재 용법에 한정하며 동음의 역할 수행·노력과 분리한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_75",
+    "sourceHash": "34524dda6679b9da39104cc2e0a304f319ccb8e868a75d4621accf61e523b6ff",
+    "proposalHash": "f53338b078cad3a88786086ad7db88039467b7aedaedd16e1db890a16a779a35",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "경로 통과는 공통이나 큰 짐으로 좁은 문을 통과하지 못하는 장면이 반복된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_277",
+    "sourceHash": "1066450fe9808e615e4b8624074bb279dc74671f76707e8d5f721ba1714d2cd6",
+    "proposalHash": "793204fd146db5eaf05a5b0ad9c7ba18813148d60d04c4cb9e5b786540136e38",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "경로 통과는 공통이나 큰 짐으로 좁은 문을 통과하지 못하는 장면이 반복된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_76",
+    "sourceHash": "7c8aa2f987ecf44e650d8a10c902b44d085b6ac0b03e746db1c2f365b28eeff2",
+    "proposalHash": "eca5740a5ac7a1dae0e992a5bea0a69fa242a9bb76728f26fc87da16204723d7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "문제 해결 자동사를 녹음의 다른 사전 항목과 정확히 분리했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_77",
+    "sourceHash": "ee4a85efa6c2452211c99bb6afeaafdc473455c21037d2bb6649a973c588ebae",
+    "proposalHash": "f762c054c14ec55f652798ca7308ba0bb8d95d54ade6124465f1d3b26da9441c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "needs-further-evidence",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "녹음과 용해의 뜻은 맞으나 N3·N2 근거 충돌과 용법별 수준 구분은 추가 근거가 필요하다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_20",
+    "sourceHash": "3ad4916fe128332d8792446df9ba1fe49b1884b75e87aef6874677e0d4795cb8",
+    "proposalHash": "446360f70b20b45dad2ba7491efb2ee2cf2618234a25d05d93fd123eb3b724de",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "needs-further-evidence",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "녹음과 용해의 뜻은 맞으나 N3·N2 근거 충돌과 용법별 수준 구분은 추가 근거가 필요하다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_78",
+    "sourceHash": "518145e22952efe412ad81597110e9c2f8bfe029a015fc1d790c6ec46c4d1a8b",
+    "proposalHash": "a7945bb7099c0b3b5fc572d5b2a3b5e83d20096690e6e66d84789b7c90268a56",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "현재 책·눈 예문은 타동사이나 사전의 자동사 가능성도 후속 메타데이터에서 보존한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_79",
+    "sourceHash": "efadaadfaf4f84b497dfe1caa57669f5b92ca25abd3d3eb8756de681263abc5e",
+    "proposalHash": "e89b8d56113f2d91751d097c7049884ba5eca54d99c9885b886a2ce74c8e633b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no alias proposed",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "화난 고함의 의미와 N1 고정 근거가 일치한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_80",
+    "sourceHash": "13ae3ed98b06efd2aacacd585a608d16357ae39a72c7fe0a19b262e3db5f9f3a",
+    "proposalHash": "6adf52c18903cb5e70ae0c425db16b80cb2e9d3a888c25f37c5d13ed3ca7cc78",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "새·항공기 비행은 N5 편집 권고가 타당하다. N2 연결이 있는 누락·건너뛰기 의미는 이번 수용에서 제외한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_44",
+    "sourceHash": "93b59f8d5e7ca72399c14c22d5d5361d2fe6c13aabbe53a1ef63350e6dec50e6",
+    "proposalHash": "3007a09614e90acc5e416cc96db8acf99d870a5f8882c9f367f42961331d12cb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "새·항공기 비행은 N5 편집 권고가 타당하다. N2 연결이 있는 누락·건너뛰기 의미는 이번 수용에서 제외한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_81",
+    "sourceHash": "d0205796342ba6e683e0a1ef927438827dc04688381360f9a766a5d33c9d06ce",
+    "proposalHash": "a7e69db4ced9089bd67bde707330c978fc6dc3eede78979e879fb9642c939e45",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "주문·예약 취소와 발언 철회의 범위를 함께 보존해야 한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_337",
+    "sourceHash": "d13b12fd16369a4fac2da39a294855937679468cba7f144c8a887b14ec7b21e6",
+    "proposalHash": "88bf93a7d8da4f0ba9793f2e068092177c65968eb1edc4edc34f28aa5fffc232",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "주문·예약 취소와 발언 철회의 범위를 함께 보존해야 한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_82",
+    "sourceHash": "5f050fe14b97413bc27e3472d9394dd5b1ac5c1400f9043a9f28ea5dc59fc5bb",
+    "proposalHash": "8291524ddd629145216b7a6aea8218769bd87dd634375661c08ff17ce9d861be",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "액체 흐름은 공통이나 무산되다는 별도 용법으로 남겨야 한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_283",
+    "sourceHash": "7dc162200c79a81b563fbbb019967ff2da20a3d4a9e39655d65f9cf1c6b5ba84",
+    "proposalHash": "dd3a092a7278d5f4a35aa08423dc568cb87a1ab0e26b9d88ebfd114b62518cb0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "액체 흐름은 공통이나 무산되다는 별도 용법으로 남겨야 한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_83",
+    "sourceHash": "9e999b963ad5ab55a5723cfd6b4e35e8cb4a742a04fda0bcebb50879b9d4578a",
+    "proposalHash": "5cd611642ab005c1c3e9aff1028e85d8d849777cc30adb9e4893979b38479109",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "감정의 눈물 용법이며 동물 소리의 鳴く와 구별된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_39",
+    "sourceHash": "a432022883b831b64b7d9fd3291b173b95c70f3d9fc07a84b3021cbf92107341",
+    "proposalHash": "d375816472886a79f9383d9d8821927e6d7b0498872b3ab9b87be29ab683339d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "감정의 눈물 용법이며 동물 소리의 鳴く와 구별된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_84",
+    "sourceHash": "e3ebf146fe5955a559bf2954cf73a8ed9115717c6d13a4f4ad8039a0eaa48c86",
+    "proposalHash": "3e1252968e30a62b3177497687e636133c8e55644c2c35ea8950037493e9aac6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "슬픔을 달래는 공통 용법과 N2 고정 근거를 확인했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_157",
+    "sourceHash": "1c68a0f0b5199a233ecba5cbb0a43136628c847a8de6472051d5a76a1cb2e441",
+    "proposalHash": "4b4a70c5782d95f3abdd3a9f377a803108fdc56ac06a797ca48639516c4d7cba",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "슬픔을 달래는 공통 용법과 N2 고정 근거를 확인했다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_85",
+    "sourceHash": "f90d29c960fe94b93ee9c7f26398280a8262fa232cbf53c5467f07bbcc2009c3",
+    "proposalHash": "a11109dce993c363dd12affef64a7744030e7b5d9186673197a377588e0ccc16",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "실물 던지기가 공통이며 포기·의심 제기 등 비유로 확장 승인하지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_46",
+    "sourceHash": "5f90980813be47666dc4404348b52598ac22109206a3ee26c77b76eacf488b45",
+    "proposalHash": "6975675405c46e87718c61f978380beb105fc3b01faefb063b43d1204f331cea",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "실물 던지기가 공통이며 포기·의심 제기 등 비유로 확장 승인하지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_86",
+    "sourceHash": "ea1ede84456e7cac8a1b69546cf6f5ac20b12fbb4ef4b57a553d7ec648f7542f",
+    "proposalHash": "650963c176b20afd1cf88336a74f4e0ba8d8205d930599a839fed12a9b2f167f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "줄서기의 공통 뜻은 맞으나 개점 대기와 한 줄 안내가 양쪽에서 반복된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_587",
+    "sourceHash": "c89f2555419042bb6482a7da85ae064eaaa48cc35e88ef45c64c6fa4c884942f",
+    "proposalHash": "9b1fb9a3375fffaf2b34837eb6f240bf0f05020de1f24c0f30c7a88985785037",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "줄서기의 공통 뜻은 맞으나 개점 대기와 한 줄 안내가 양쪽에서 반복된다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_87",
+    "sourceHash": "edd9bf81b3d65bf6f8fe466034e0bf7983cbacb1e9225e2367e848e87dd1f45e",
+    "proposalHash": "c1d21ec6b30f5edeedfe272c806f9b90a0b30ab4a1feaf4f7d3ba1e0417313ee",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "외모와 조화로움이 공통이며 크기가 맞다는 뜻으로 해석하지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_309",
+    "sourceHash": "05f1a4ae08f6604363d35ddbb7e0317f98cdca6eeb6c766f0f70e3f621879e09",
+    "proposalHash": "b0a1d4bebd1f3c118d4cba83294f8862fdaa09ca51a542783fc431803694281a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "외모와 조화로움이 공통이며 크기가 맞다는 뜻으로 해석하지 않는다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_88",
+    "sourceHash": "fd2805baa5c1840f18b542dcba3f76cc208f7ead0d5422bfa609192545962f32",
+    "proposalHash": "8d5cc304aad231e15cd20cd4a84295d3657daaefb820ac01e03e40718bc5125b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "손으로 쥠은 공통이나 권력 장악 의미는 현재 예문과 별도로 다뤄야 한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_89",
+    "sourceHash": "16c8608d0bd5dcfcd02cab430d187d158beb47d8235b5a5fce292eeffa5c8b53",
+    "proposalHash": "2a37a5c5f75a20d93db040475ff4b7c1721971dff237efe557795e72064545f0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "손으로 쥠은 공통이나 권력 장악 의미는 현재 예문과 별도로 다뤄야 한다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_89",
+    "sourceHash": "799af212a80e509e78b07b85cbe819f92dd3f95d6500743b1dfc790f931dfa7b",
+    "proposalHash": "32579bca8491c2a2ecedfe7d53e274e4dcf488200410912ea638fb7cefbf941b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "실제 이동을 통한 탈출이 공통이며 책임 회피는 이번 의미 범위 밖이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_380",
+    "sourceHash": "115f5f37c705b39d376a175efcd4cb9f2f5209eeaf521400b8e5e7436bd42849",
+    "proposalHash": "1f371af62034d9de62e64f4a67dffcc62b8b74802574fe3e6785d825dbab58e9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "실제 이동을 통한 탈출이 공통이며 책임 회피는 이번 의미 범위 밖이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_90",
+    "sourceHash": "23c59c5a9458509839f7734afc99285a85b827eb3d1497991c55f3fd620c46e3",
+    "proposalHash": "8c381901ef35a04fcedbc808ba8615877d56cc3fc0375591603cb6e64655fd98",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "물에 젖는 상태가 공통이나 우산과 어깨가 젖는 장면은 반복 보강 대상이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_597",
+    "sourceHash": "9ee02dbb3d45d43c9d554f23846ce80a2755bc255e1e3feab3735ac4df5d6888",
+    "proposalHash": "847851cbe24f9d98da0c3a9f1299e7f7f6eabb41f4dd9866e4dd24a1989d4997",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "notes": [
+      "물에 젖는 상태가 공통이나 우산과 어깨가 젖는 장면은 반복 보강 대상이다.",
+      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+    ]
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "wordId": "AbsoluteVerb_207",
+    "sourceHash": "bb3a1a5bbbd1b68e59a5d6141c761ba53ec0a936189d624e46e160b3e9603a05",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “삶다” 및 1개 sense를 대조했다. 달걀·면 삶기 예문은 일관된다. 제공 후보가 없어 ゆでる/茹でる 조리 의미 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ゆでる의 삶기 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_208",
+    "sourceHash": "5a92f737829da2b8bf8d84b27fbb34987e5d7abbe31d7fe19414a4c9da898364",
+    "level": "N4",
+    "dictionaryId": "jmdict-1606680",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “끓다” 및 1개 sense를 대조했다. boil와 뜨거운 물 예문이 일치한다. 흥분·발효는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_209",
+    "sourceHash": "25351f5cf2a112641f7ebde649a85ccbf9cf4c3b1f77de7e474f58ba669f9b60",
+    "level": "N4",
+    "dictionaryId": "jmdict-1501660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(액체를) 끓이다” 및 1개 sense를 대조했다. heat liquid와 차·산에서 물 끓이기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_211",
+    "sourceHash": "1b0a4ed03aae86097f1f34b52c4c3163a19e203960121251c2f636b65a557d1e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1350610",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “구워지다, (햇볕 등에) 타다” 및 1개 sense를 대조했다. be cooked와 빵·생선 예문이 일치한다. 타버림·햇볕 변화는 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_212",
+    "sourceHash": "b96236f7b7f146d99f67dc8f86a09b08026760514a8b81d742c4353da2ef0cfa",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “무치다, 버무리다” 및 1개 sense를 대조했다. 채소·식초 무침 예문은 일관된다. 제공 후보가 없어 和える 조리 의미 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "和える의 무침 용법 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_213",
+    "sourceHash": "972f1059789844c29c1f5c1f1293b4182b72b097bea3db76fe37b52ef6032914",
+    "level": "N2",
+    "dictionaryId": "jmdict-1356900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “찌다, 후텁지근하다” 및 1개 sense를 대조했다. steam와 호박·고기 찐빵 예문이 일치한다. 후텁지근함은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_214",
+    "sourceHash": "774cf60c80da61abed99f87ebd69d02dd2e6eed666c9481218a67ce96b202524",
+    "level": "N2",
+    "dictionaryId": "jmdict-1433680",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “담그다, 절이다” 및 1개 sense를 대조했다. pickle와 오이 소금물·매실 절임 예문이 일치한다. N4/N2 중 음식 보존 용법에 N2를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_215",
+    "sourceHash": "9058cd6d472a5507dfef3eedb7c332fa80333c50c77ebd52a04433ed31e7bf02",
+    "level": "N2",
+    "dictionaryId": "jmdict-1596830",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “밥을 짓다” 및 1개 sense를 대조했다. cook rice와 뚝배기 밥·인원에 맞춘 밥 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_217",
+    "sourceHash": "9910fe8bb9710684ebc49203d702bf3f4769575faee4ed5661042e29836c4fcb",
+    "level": "N1",
+    "dictionaryId": "jmdict-1559140",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “반죽하다, 짓이기다” 및 1개 sense를 대조했다. knead와 점토·반죽 예문이 일치한다. 계획 숙고는 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_218",
+    "sourceHash": "b1efcadb7dee284dc6045c2ea42bf10c90375800c35c239d8103793a9abdd259",
+    "level": "N3",
+    "dictionaryId": "jmdict-1595910",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “문지르다, 으깨다, 빻다” 및 1개 sense를 대조했다. rub·strike match와 성냥·차 표면 마찰 예문이 일치한다. 출처 등급은 없지만 물리적 마찰 동작으로 N3를 편집 제안한다. 한국어 으깨다·빻다는 현재 제공 gloss에 없어 擂る 등 표기·사전 뜻 연결 확인이 필요하다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "擦る의 으깨다·빻다 뜻은 현재 제공 사전 의미와 불일치해 별도 확인할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_220",
+    "sourceHash": "b6b85c1de546f55e4d1efe3670cc7b1b085a51dd98ddfadfd8868c23857fbdf3",
+    "level": "N2",
+    "dictionaryId": "jmdict-1433820",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “으깨다” 및 1개 sense를 대조했다. crush와 감자·딸기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_222",
+    "sourceHash": "99b704c2f4bc0640adaa68f01447283b3ba7713639c5eb46af9ba4b66ef1210c",
+    "level": "N2",
+    "dictionaryId": "jmdict-1556770",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “차갑게 하다, 식혀서 차게 만들다” 및 1개 sense를 대조했다. chill와 음료·수박 예문이 일치한다. 마음 진정은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_223",
+    "sourceHash": "2d77ed12c58e435702842b10e92fae77a26ad2c55eab41e90b05ad9d9d35ac39",
+    "level": "N2",
+    "dictionaryId": "jmdict-1586440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “데우다” 및 1개 sense를 대조했다. warm up와 수프·도시락 예문이 일치한다. 계획 보관은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_224",
+    "sourceHash": "5ffcc50bbcf8fb1c2869eec14f2380dd10159e5610d3c5d457d8de591110af0a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1236900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “가르치다” 및 1개 sense를 대조했다. teach와 스마트폰·문제 풀이 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_225",
+    "sourceHash": "a5a9f3e56b15214eefd91596ac13dc6d11fe5687d7a75bff93e7519ba8d56079",
+    "level": "N5",
+    "dictionaryId": "jmdict-1333070",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(기술적으로) 배우다” 및 1개 sense를 대조했다. learn from teacher와 뜨개질·수영 예문이 일치한다. 기술에만 절대 한정하는 말이 아니라 타인의 수업으로 배움을 명시한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_227",
+    "sourceHash": "0ef8ef4898301d1da1d0df75fee258e5fa6013f9bd7f82f78438f73098c8f3de",
+    "level": "N2",
+    "dictionaryId": "jmdict-1236940",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “가르침을 받다” 및 1개 sense를 대조했다. be taught와 매듭·노래 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_229",
+    "sourceHash": "15e49719614d299e1afc36fedf46ef278b96f1faa378156b664fb4b098c33406",
+    "level": "N5",
+    "dictionaryId": "jmdict-1519210",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “잊다” 및 1개 sense를 대조했다. forget와 이름·풍경 기억 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_230",
+    "sourceHash": "24cca9f6b8f5c2231525484f3a545dff6bc99be8fcdf6c2a8560cb0ba708ea0b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1606560",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N2이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(뜻·상황을) 이해하다” 및 1개 sense를 대조했다. understand와 구조 그림·설명 이해 예문이 일치한다. N5/N2 중 기본 이해 용법에 N5를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_231",
+    "sourceHash": "dc26314b814f39a8970216fa57244d4bd240f50ad178475d0719ec8dbb469152",
+    "level": "N5",
+    "dictionaryId": "jmdict-1420470",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(사실·정보를) 알다” 및 1개 sense를 대조했다. learn of·know와 폐점 알게 됨·모르는 길 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_232",
+    "sourceHash": "c4a81fbc7bc264289b484b8416fb9c3c33a843ec7c11001cb80c1d48f0c271df",
+    "level": "N4",
+    "dictionaryId": "jmdict-1980660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(학문, 기술 등을) 익히다” 및 1개 sense를 대조했다. wear와 반지·목걸이 예문은 일치하지만 현재 한국어 뜻 학문·기술 익히다는 다른 사전 의미이다. 출처 등급은 없지만 착용 생활 용법으로 N4를 편집 제안하며 뜻 수정 또는 sense 분리가 필요하다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 뜻은 지식 습득인데 두 예문은 착용이므로 선택 의미와 한국어 뜻을 맞추어야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_233",
+    "sourceHash": "416bdcc84e63b8e4eda60ef95ea8d9ae3ecab143d491bfc82da5ff3a1d1fee5b",
+    "level": "N1",
+    "dictionaryId": "jmdict-1057580",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “게을리 하다” 및 1개 sense를 대조했다. slack off와 연습·청소 빼먹기 예문이 일치한다. 한국어 게을리 하다는 게을리하다로 붙여 쓰는 표기 정리 후보이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "한국어 게을리 하다를 게을리하다로 정리할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_234",
+    "sourceHash": "05920f53d936b9aedf4bc04bfe3971cf7fa7f0b0641782938164bab2bd3aec10",
+    "level": "N3",
+    "dictionaryId": "jmdict-1428830",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “바라보다” 및 1개 sense를 대조했다. gaze at와 바다·별 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_235",
+    "sourceHash": "a3e21f0e2801479318050d17dfa51cdc1d7e8bc040f5748ade1265c95e660eae",
+    "level": "N4",
+    "dictionaryId": "jmdict-1259140",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “보이다” 및 1개 sense를 대조했다. be visible와 산정·무대 시야 예문이 일치한다. 외관 판단은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_236",
+    "sourceHash": "6ab4cf98e97fe5f13f2f3966e740aaf0203936d3e10cce24e3c749fc10e80168",
+    "level": "N5",
+    "dictionaryId": "jmdict-1259210",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “보여주다” 및 1개 sense를 대조했다. show와 표·사진 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_237",
+    "sourceHash": "b6f463310b06d2e9790b7087dc8625dacfbb014e373cac54539696116aa3ba64",
+    "level": "N2",
+    "dictionaryId": "jmdict-1470840",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “들여다보다, 엿보다” 및 1개 sense를 대조했다. peek와 상자 안·열쇠구멍 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_238",
+    "sourceHash": "a33286d21f05a2886818442a233ccf0686af2daa5ea4438e45ed92f2ad45f1b2",
+    "level": "N4",
+    "dictionaryId": "jmdict-1604550",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “발견되다” 및 1개 sense를 대조했다. be found와 열쇠·방 발견 예문이 일치한다. N4/N2 중 생활 발견 자동사에 N4를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_239",
+    "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730",
+    "level": "N4",
+    "dictionaryId": "jmdict-1604570",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “눈으로 찾아내다, 발견하다” 및 1개 sense를 대조했다. find·spot와 중고책·오자 예문이 일치한다. N4/N2 중 생활 발견 타동사에 N4를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_240",
+    "sourceHash": "6f7ddb786456de342e83d2bb4a37da2b27b963116d70ef0c08de0c7615cf709a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1591150",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(소리가) 들리다” 및 1개 sense를 대조했다. be audible와 파도·전화 목소리 예문이 일치한다. 명성은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_241",
+    "sourceHash": "8f83b99ba916535aedf1d461599129167fb503e04e5bc9865b7285653b8ddf6b",
+    "level": "N1",
+    "dictionaryId": "jmdict-1536000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(진리, 책임, 의견을) 묻다” 및 1개 sense를 대조했다. ask·question와 기자 질문·소설의 행복 질문 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_242",
+    "sourceHash": "113e69a23b11654c788ef1d2fb6453ab35062e584b3c80a92fbdd5545e0bbd51",
+    "level": "N4",
+    "dictionaryId": "jmdict-1369940",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(일상적 정보를 정중하게) 묻다” 및 1개 sense를 대조했다. ask와 역 위치·성명 질문 예문이 일치한다. 격식 있는 질문으로 자연스럽지만 일상 정보에만 한정되는 동사는 아니다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

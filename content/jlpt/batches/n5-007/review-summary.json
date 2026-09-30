@@ -1,0 +1,16 @@
+{
+  "batch": "n5-007",
+  "status": "in-progress",
+  "completedParts": [
+    "01"
+  ],
+  "checkedWords": 25,
+  "acceptedWords": 25,
+  "acceptedExamples": 25,
+  "heldWords": 0,
+  "scope": "Independent complete dictionary, metadata, level, usage, hint, contrast, Japanese/Korean and corpus review.",
+  "levelReview": "お手洗い의 N5/N2/N1 충돌은 기초 정중 호칭을 선택해 N5로 배정했다. 나머지 출처 등급 없는 24개는 구체적 일상 명사로 N5 편집 분류를 승인했다.",
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "updatedAt": "2026-09-30T04:23:59.579Z"
+}

@@ -41,7 +41,7 @@ describe('App route transitions', () => {
   it('replaces the list page immediately when returning home', async () => {
     renderApp('/list')
 
-    expect(screen.getByTestId('list-page')).toBeInTheDocument()
+    expect(await screen.findByTestId('list-page')).toBeInTheDocument()
 
     fireEvent.click(screen.getByRole('button', { name: 'navigate-list' }))
 
@@ -54,7 +54,7 @@ describe('App route transitions', () => {
   it('does not animate the full list page when entering list mode', async () => {
     renderApp('/')
 
-    expect(screen.getByTestId('home-page')).toBeInTheDocument()
+    expect(await screen.findByTestId('home-page')).toBeInTheDocument()
 
     fireEvent.click(screen.getByRole('button', { name: 'navigate-home' }))
 

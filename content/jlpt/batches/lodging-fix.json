@@ -1,0 +1,32 @@
+[
+  {
+    "exampleId": "sense-lex-jmdict-1185290-1-ex-1",
+    "wordId": "lex-jmdict-1185290",
+    "oldExample": {
+      "id": "sense-lex-jmdict-1185290-1-ex-1",
+      "version": 1,
+      "before": "大学の近くで",
+      "answer": "下宿",
+      "after": "を探しています。",
+      "reading": "げしゅく",
+      "translation": "대학교 근처에서 하숙집을 찾고 있어요.",
+      "translationTarget": "하숙집",
+      "difficulty": 16,
+      "status": "reviewed"
+    },
+    "newExample": {
+      "id": "sense-lex-jmdict-1185290-1-ex-1",
+      "version": 2,
+      "before": "",
+      "answer": "下宿",
+      "after": "のおばさんに、母から届いたお菓子を渡しました。",
+      "reading": "げしゅく",
+      "translation": "하숙집 아주머니께 어머니가 보내신 과자를 드렸어요.",
+      "translationTarget": "하숙집",
+      "difficulty": 16,
+      "status": "draft"
+    },
+    "reason": "아파트의 역 근처 주거 찾기 장면과 겹치던 첫 예문을 하숙집 주인 아주머니와 선물을 나누는 생활 관계로 바꿉니다. 기존 아침 식사 제공·졸업까지 거주한 두 예문과도 장면을 구별합니다.",
+    "notes": "《下宿》のおばさんに、母から届いたお菓子を渡しました。|げしゅく|《하숙집》 아주머니께 어머니가 보내신 과자를 드렸어요.|16"
+  }
+]

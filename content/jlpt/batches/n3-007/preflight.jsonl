@@ -1,0 +1,13 @@
+{"at":"2026-09-30T03:58:26.623Z","batch":"n3-007","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":136.6762,"issues":[]}
+{"at":"2026-09-30T03:59:51.277Z","batch":"n3-007","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":1033.1348,"issues":[]}
+{"at":"2026-09-30T04:01:52.017Z","batch":"n3-007","index":"02","phase":"metadata","words":25,"examples":0,"milliseconds":142.74949999999998,"issues":[]}
+{"at":"2026-09-30T04:01:54.711Z","batch":"n3-007","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":980.8692,"issues":[]}
+{"at":"2026-09-30T04:03:17.773Z","batch":"n3-007","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":1035.5196,"issues":[]}
+{"at":"2026-09-30T04:05:17.308Z","batch":"n3-007","index":"03","phase":"metadata","words":25,"examples":0,"milliseconds":137.6003,"issues":[]}
+{"at":"2026-09-30T04:06:42.729Z","batch":"n3-007","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":962.1182,"issues":[]}
+{"at":"2026-09-30T04:07:45.191Z","batch":"n3-007","index":"02","phase":"manuscript","words":25,"examples":26,"milliseconds":968.6379,"issues":[]}
+{"at":"2026-09-30T04:08:46.702Z","batch":"n3-007","index":"04","phase":"metadata","words":25,"examples":0,"milliseconds":161.6216,"issues":[]}
+{"at":"2026-09-30T04:09:42.912Z","batch":"n3-007","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":1011.1184,"issues":[]}
+{"at":"2026-09-30T04:10:09.169Z","batch":"n3-007","index":"04","phase":"manuscript","words":25,"examples":24,"milliseconds":1050.0874000000001,"issues":["都: answer exposed"]}
+{"at":"2026-09-30T04:10:44.454Z","batch":"n3-007","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":1182.9512,"issues":[]}
+{"at":"2026-09-30T04:11:50.938Z","batch":"n3-007","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":948.3085,"issues":[]}

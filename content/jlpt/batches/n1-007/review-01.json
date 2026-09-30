@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "60816b27d0687b98b4105f05360f3a2b770887feb603ddeb095dae6b993b89ab",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:18:54.601Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1285100",
+      "84f31ee26d599f7abbdb0cf8b4c0c54ac4bd250e1e3affb720e74a6749c8c751"
+    ],
+    [
+      "lex-jmdict-1285990",
+      "0b01947d28107b12e9d8228493c5849e5d8df630941a25c720456284f2cd59b7"
+    ],
+    [
+      "lex-jmdict-1286060",
+      "18252aa2181afb4e111f7da734e8468974129190ca7028f3e2de948276937d6d"
+    ],
+    [
+      "lex-jmdict-1286380",
+      "b9ecb7233a664ac5b84b1afefd4c36161e1a9b4ef0bcbb4571b6612ca53342ee"
+    ],
+    [
+      "lex-jmdict-1286590",
+      "f1fb8456fab391fccd79ca2415e2deade707137965f757ea574a9dec627a313e"
+    ],
+    [
+      "lex-jmdict-1286890",
+      "cd48f5723f31e08c6ca6a4e93af2fc1a8ab7def46e54a02eb4b6e587e7c0b420"
+    ],
+    [
+      "lex-jmdict-1287030",
+      "9cdcd878ad0cf0a3589723eb6334f338e2d59df69c9527356707fb762dbd71b2"
+    ],
+    [
+      "lex-jmdict-1287170",
+      "6cf1700ea8edb7430716cbbfcc8f1950037c5feb69fdbfcfdbc99b7fd9dfad00"
+    ],
+    [
+      "lex-jmdict-1287210",
+      "8aa6cd4a66d2ab3f5d54242f2c28ad9685b61af49e237867739c3bd8c9d9aba5"
+    ],
+    [
+      "lex-jmdict-1287710",
+      "00395a943fff93d17227f7b52b2ec8aa501e7722ad38be7f1f739d189806cd90"
+    ],
+    [
+      "lex-jmdict-1288480",
+      "a15f3a67dd1914f0a4736cafcc7bf8133652aaaab5b2c60f08170034e4f44f64"
+    ],
+    [
+      "lex-jmdict-1288790",
+      "03c5cefbbf11f8ff27a19a7691053299ce6a3cea6f461804ef319563611a701e"
+    ],
+    [
+      "lex-jmdict-1289150",
+      "413214fa30cb4fdb1c7ce08b326c75dbb24e0a27e5c81cf4d6e32c7ab2e9d90e"
+    ],
+    [
+      "lex-jmdict-1290090",
+      "4a98a86756ed89b539c020fe1da26bcbbbd3937cbe1ccd4f8c7461a9248e89d8"
+    ],
+    [
+      "lex-jmdict-1290110",
+      "c656b48c339bde5164b89d037692d6c532d8dc89ed4e61edcca78d4f11e5448f"
+    ],
+    [
+      "lex-jmdict-1290260",
+      "8a875fac6a23782ff664ebb4357ab097dc4c82af211fb341ba318ceaf33d732a"
+    ],
+    [
+      "lex-jmdict-1290480",
+      "dcc2f491876cf28cf5c6b161774a4ede4503a1b18f55a4934989b8ad61880fdd"
+    ],
+    [
+      "lex-jmdict-1291140",
+      "e7fdb05baaaba83611f33794a2dcad0983e6e49b4ddf006abb68c07ae6cf689c"
+    ],
+    [
+      "lex-jmdict-1291180",
+      "ab124ce87029fa73d8699ae42b8210fb6586b1537054a37c39d1a6fcf8b5ad25"
+    ],
+    [
+      "lex-jmdict-1291230",
+      "eae9970ee97293e3d84299a9d635dbc8d1e6a0a80d4c46f934420ee9e4fe7d67"
+    ],
+    [
+      "lex-jmdict-1291340",
+      "35447083dce44b24d0b66d802982033d638065f6c3c2ef8190c36bbc179ebf71"
+    ],
+    [
+      "lex-jmdict-1291370",
+      "275a960dc280c17329065f0ec97b6685d8ccaf80dad8df5c22f0720183342d88"
+    ],
+    [
+      "lex-jmdict-1291690",
+      "d80376a0924b23d910a959fab137a54ccb193bfc77e1420ecdfd6c53274b120b"
+    ],
+    [
+      "lex-jmdict-1291920",
+      "10d20e12e51e3b82e47b59453a7260fec34ccafee4de434ffa1ab8664d00a61f"
+    ],
+    [
+      "lex-jmdict-1292160",
+      "b276c3376cb81b2082cc5c680a7d0eb5ad92162d5e8d0fa3c6957f127b978a2a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1291140",
+      "category": "substantive",
+      "note": "이동하는 주체가 등산로가 아닌 등산객임을 분명히 했다."
+    },
+    {
+      "wordId": "lex-jmdict-1292160",
+      "category": "substantive",
+      "note": "상점가 전체의 개점 10주년이라는 어색한 결합을 빈 점포 음악제로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1288790",
+      "category": "substantive",
+      "note": "기존 印의 감사 꽃다발 장면과 겹쳐 무대 의상을 정성껏 바느질하는 장면으로 교체했다."
+    }
+  ]
+}

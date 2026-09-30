@@ -1,0 +1,381 @@
+[
+  {
+    "wordId": "JLPTN3_481",
+    "sourceHash": "71b8500a21311b00cead3c051da63f22f763ba027a67749561a8040b28438f7a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1545370",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “용기” 및 1개 sense를 대조했다. container와 카레 보관·빈 용기 반납 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_482",
+    "sourceHash": "dbeab56f028c497fe5aeb5ef066f315b28fb74f8a895abe35b889d7c2269a31a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1180570",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “옆” 및 1개 sense를 대조했다. beside와 사람 옆의 개·입구 옆 우산꽂이 예문이 일치한다. 가로 방향은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_483",
+    "sourceHash": "a00fe1ae19ef95f3aa89fc2f3caeaefca0748da6a2ecf5454579ede63a0c875e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1612200",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “더러움, 오염” 및 1개 sense를 대조했다. dirt·stain과 옷깃·안경 얼룩 예문이 일치한다. 등급 근거는 없지만 생활 청소 용법으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_484",
+    "sourceHash": "18a630b0ad14598d7b8ea3d5ef8ff1f81015da0710688f26fa162cf7bd596b56",
+    "level": "N3",
+    "dictionaryId": "jmdict-1543200",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “예측” 및 1개 sense를 대조했다. prediction와 기온 예상·매출 예상 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_485",
+    "sourceHash": "39a3c21ab17d4a1283ba81af833091d4795ad74725aafb125dd28907e7707c7f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1536930",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “밤중” 및 1개 sense를 대조했다. middle of the night와 밤중 전화·고양이 활동 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_486",
+    "sourceHash": "6c75bcfccc858bf3e6f1ca19208173b6c100220c95548843c65f5167b1bb71c0",
+    "level": "N3",
+    "dictionaryId": "jmdict-1543660",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “예방” 및 1개 sense를 대조했다. prevention와 감기·사고 예방 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_487",
+    "sourceHash": "aa57672a2b236ba2410446af3c4f4f0a1294bac392be3cc37ad4ddeec3a6617d",
+    "level": "N4",
+    "dictionaryId": "jmdict-1552760",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “부재(중)” 및 1개 sense를 대조했다. being away from home와 부재 중 물주기·전화 무응답 예문이 일치한다. 집 지키기 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_488",
+    "sourceHash": "126932bc93899b1384b1201c0fc6b3c9e1f93436576ef40284f039de2f3eb520",
+    "level": "N3",
+    "dictionaryId": "jmdict-1558330",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “열, 줄” 및 1개 sense를 대조했다. row·queue와 좌석 줄·가게 대기열 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_489",
+    "sourceHash": "7e39c547c726114d5f3ca355b7247d25b0b644d8569d206e6892d3c2fa0cc4bf",
+    "level": "N1",
+    "dictionaryId": "jmdict-1559380",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “연휴” 및 1개 sense를 대조했다. consecutive holidays와 귀향·사흘 휴일 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_490",
+    "sourceHash": "d225ef6ba549be3a58c6646f75e255aacb480eeeaf462c6425c30e9526203cae",
+    "level": "N4",
+    "dictionaryId": "jmdict-1538330",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “이유, 일의 사정” 및 1개 sense를 대조했다. reason과 지각·퇴직 이유 예문이 일치한다. 번역을 뜻하는 やく와 읽기가 다르다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_491",
+    "sourceHash": "bbdaf6d8ac5dcd7ba988caa4cbf6445fcb6023143def17e74861e795d5406e70",
+    "level": "N4",
+    "dictionaryId": "jmdict-1606810",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “비율” 및 1개 sense를 대조했다. ratio와 무차량 가구 비중·희석 비율 예문이 일치한다. 비교적이라는 부사 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_492",
+    "sourceHash": "d3b9d8c275ef4b4b258afcd20893f6714c6e22bf91adaa49fe7bce93dbc2a127",
+    "level": "N1",
+    "dictionaryId": "jmdict-1401310",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “변함없이” 및 1개 sense를 대조했다. as before와 교사의 농담·고양이 잠자리 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_493",
+    "sourceHash": "13060d0a032167f8a4a2a6481dff8bd902b5001c0ba2b832f03c2cea27b74935",
+    "level": "N4",
+    "dictionaryId": "jmdict-1487400",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “반드시” 및 1개 sense를 대조했다. without fail와 식후 복약·반납 약속 예문이 일치한다. 약의 구체적 처방 사실을 일반화하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_494",
+    "sourceHash": "c0dcb1bec333b769f85715e05a1cf88e894b47479eef8e52c43e390757d3e8c8",
+    "level": "N3",
+    "dictionaryId": "jmdict-2269050",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “갑자기” 및 1개 sense를 대조했다. suddenly와 추워짐·갑자기 일어섬 예문이 일치한다. 출처 등급은 없지만 생활의 갑작스런 변화 표현으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_495",
+    "sourceHash": "681c6347ec5893d7265b467712f68717b46247aa138c835e89161857fb14f6ab",
+    "level": "N3",
+    "dictionaryId": "jmdict-1316690",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “점점, 서서히” 및 1개 sense를 대조했다. gradually와 듣기 이해·바람 약화 예문이 일치한다. 등급 근거는 없지만 시간에 따른 점진 변화를 표현하는 일반 부사로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_496",
+    "sourceHash": "c20995e0dadc00afc3eb89f7e9c902a6aff30ecf3608a86a716d0728a8df9f54",
+    "level": "N3",
+    "dictionaryId": "jmdict-1595730",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “모두” 및 1개 sense를 대조했다. all·entirely와 짐 전체·사정 전체 설명 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_497",
+    "sourceHash": "6685f8c6d188a7a52df91d5f9cc42f155e6975f4fe22620ef7b19e276d2cb974",
+    "level": "N3",
+    "dictionaryId": "jmdict-1386840",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “절대로, 꼭” 및 1개 sense를 대조했다. definitely와 비밀 유지·승리 희망 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_498",
+    "sourceHash": "6c39d0995047deb51466e5caab9b2d6dba3c4521b4065231ba554c948608961d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1407810",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “다소” 및 1개 sense를 대조했다. somewhat와 사진 색 차이·조금 비싼 신발 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_499",
+    "sourceHash": "aca6bf00786026a4a28676748eaf870a56de3305c5653790bb24cbb92dcc6303",
+    "level": "N3",
+    "dictionaryId": "jmdict-1449190",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “당연히” 및 1개 sense를 대조했다. naturally와 책임 인정·걷고 난 허기 예문이 일치한다. 등급 근거는 없지만 당연한 귀결을 말하는 일반 부사로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_500",
+    "sourceHash": "961a91a1ee6aca583fc6b3ae80fa7d666647b87452be39de8c5a0189a07bac87",
+    "level": "N3",
+    "dictionaryId": "jmdict-1457040",
+    "suggestedType": "adv",
+    "levelNote": "현재 adv 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “돌연, 갑자기” 및 1개 sense를 대조했다. sudden·unexpected와 전화·예기치 않은 작별 인사 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_1",
+    "sourceHash": "775b8dc81cfba3f548384aedf052eef27c08e35a942201bc90580899a8cd290b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1340450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “할 수 있다” 및 1개 sense를 대조했다. to be able to do와 예약 가능·잔업 불가 예문이 일치한다. 등급 근거는 없지만 기본 능력과 가능 표현으로 N5를 편집 제안한다. AbsoluteVerb_616과 사전 ID는 같아도 대표 sense는 가능 대 완성·생성으로 달라 별칭을 제안하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_616",
+    "sourceHash": "3b217fc060842b7ca7e2c43b5364da85e9dd3967eb7fac9b576d4e2e8c62311a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1340450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “할 수 있다, 잘하다, 만들어지다, 생기다” 및 1개 sense를 대조했다. to be finished·to be built와 저녁 준비 완료·새 도서관 건립 예문이 일치한다. 출처 등급은 없지만 일상적인 완성과 생성 용법으로 N4를 편집 제안한다. handmade_1의 가능 의미와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_2",
+    "sourceHash": "d5bdfb3029b853aa369ca0d03483002ef09be77ea9a28327e6a4ef95b9bb5dbe",
+    "level": "N3",
+    "dictionaryId": "jmdict-1344410",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “돕다” 및 1개 sense를 대조했다. rescue·help와 개 구조·곤경 지원 예문이 일치한다. AbsoluteVerb_461과 도움 및 구조 범위가 겹쳐 별칭 후보로 제안한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_461"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_461",
+    "sourceHash": "dfbf895870b4f69a80117479caf35d38ce1ce03ef8f8cf17f40e6902253eaddd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1344410",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “돕다, 살리다” 및 1개 sense를 대조했다. help와 가게 운영 지원·짐 운반 지원 예문이 일치한다. handmade_2와 도움 의미가 겹치나 구조 용법도 포함하므로 승인 때 sense 범위를 보존해야 한다.",
+    "aliasCandidateIds": [
+      "handmade_2"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_3",
+    "sourceHash": "772722043f09d316c9d16aa0498554a91ea37dd92285cbf44b0d00bfa1ba6d2b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “잘난 체 하다” 및 1개 sense를 대조했다. 현재 예문은 으스대며 행동한다는 표현으로 일관된다. 복합 표제어에 제공 후보가 없으므로 偉そう 및 する 구성의 사전 연결과 표현 수준을 별도로 검토해야 한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "偉そうにする 복합 표현의 사전 연결 후보가 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_4",
+    "sourceHash": "6f6d431fe335c63ed4c01aded39b6dde8855f907a91d2bad43f01fbcd93234c6",
+    "level": "N1",
+    "dictionaryId": "jmdict-1569620",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “저리다” 및 1개 sense를 대조했다. become numb와 정좌 후 다리·찬물의 손끝 예문이 일치한다. 황홀해짐 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_5",
+    "sourceHash": "497cc7b9220eb9fd6c8f16827a9534c0bf0097e3808f0430c337a09327bbdf2b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1382370",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “옛날” 및 1개 sense를 대조했다. old days와 옛 영화관·할머니의 옛 생활 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_6",
+    "sourceHash": "da7caca227ca4a58b7d512af06ac974f14cc41f7c1400b7b0f804a9aa7d535b0",
+    "level": "N2",
+    "dictionaryId": "jmdict-1208520",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “목마르다” 및 1개 sense를 대조했다. be thirsty와 말한 뒤·밤중 갈증 예문이 일치한다. AbsoluteVerb_595와 동일한 신체 갈증 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_595"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_595",
+    "sourceHash": "580582e16c05d50802ca71289a22c47531c58bbb20fd176de471531bb52658aa",
+    "level": "N2",
+    "dictionaryId": "jmdict-1208520",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(목이) 마르다” 및 1개 sense를 대조했다. be thirsty와 짠 음식·산책 중 갈증 예문이 일치한다. handmade_6과 같은 의미 및 사전 ID의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_6"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_7",
+    "sourceHash": "7cc46eca06973b35ed4036658720480df5c7489fdadf9d6aa1c727c036ba3002",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “태어나다” 및 1개 sense를 대조했다. 동생·강아지가 태어나는 예문으로 의미는 일관되지만 두 표기를 합친 표제어에 제공 후보가 없다. 生まれる와 産まれる의 생물 출생 의미·허용 표기를 대조할 사전 연결을 먼저 검토한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "복합 표제어 生まれる・産まれる의 사전 연결과 표기 범위 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "handmade_8",
+    "sourceHash": "5cfd6fc3029dcc21ae0f6da299a526674f34e33b19eb7470e20d408af72bcb79",
+    "level": "N3",
+    "dictionaryId": "jmdict-1584080",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “보물” 및 1개 sense를 대조했다. treasured item과 딸의 편지·직접 운반한 소중한 물건 예문이 일치한다. 등급 근거는 없지만 개인의 소중한 물건을 말하는 일반 생활어로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_9",
+    "sourceHash": "7295a68497a7f8c021061936300e8dcef986ca6468c3131f295773dcc6cbb590",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "i_adj",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “칼칼하다, 끔찍하다, 쩐다” 및 1개 sense를 대조했다. 예문은 식물의 강한 떫거나 자극적인 맛인 えぐい에 일관된다. 한국어 뜻의 끔찍하다·쩐다라는 속어 의미는 현재 예문과 분리해 사전 근거를 확인해야 한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "蘞い의 표기·읽기와 맛 및 속어 sense에 대응하는 사전 후보가 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_10",
+    "sourceHash": "60f5669e1b3578f05fca112e55937c287eebe511378043888dc5b237eeace95c",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "noun",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “네 녀석” 및 1개 sense를 대조했다. 예문은 거친 이인칭 貴様의 문학 대사와 상대가 불쾌해한 상황을 명확히 표현한다. 제공 사전 후보가 없어 등급과 격식·비하 용법 근거 확인을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "貴様의 제공 사전 후보 및 비하적 이인칭 사용 범위를 확인해야 한다."
+    ]
+  }
+]

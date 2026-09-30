@@ -1,0 +1,16 @@
+{
+  "batch": "010",
+  "scope": "legacy-classification-proposal-only",
+  "reviewedWords": 30,
+  "acceptedClassifications": 30,
+  "needsFollowup": 0,
+  "reviewedAt": "2026-09-30T04:48:53.534Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "method": "All source words, senses, examples, dictionary evidence and proposals reviewed. Classification only; no content, membership, alias or profile merge approval. Minimum one example policy.",
+  "notes": [
+    "区分/区別 repeat waste sorting differing from a previous town.",
+    "外科 二階 translation and 減少 bus-service count need clarification before reference publication.",
+    "交代 has a cross-batch alias candidate 交替 in 011."
+  ]
+}

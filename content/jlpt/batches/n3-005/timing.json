@@ -1,0 +1,36 @@
+{
+  "batchId": "n3-005",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "resumedAt": "2026-09-30T03:39:08.999Z",
+  "scope": "既存 words-03/04의 예문 보강",
+  "segments": [
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-09-30T03:39:08.999Z",
+      "metadataCompletedAt": null,
+      "metadataTimingNote": "기존 저장본의 작성시각을 이번 실행에서 측정하지 않음",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "draftCompletedAt": "2026-09-30T03:39:09.003Z",
+      "wordCount": 30,
+      "exampleCount": 34,
+      "validationCompletedAt": "2026-09-30T03:39:27.325Z",
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-09-30T03:39:27.325Z",
+      "metadataCompletedAt": null,
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "draftCompletedAt": "2026-09-30T03:41:07.255Z",
+      "wordCount": 30,
+      "exampleCount": 30,
+      "validationCompletedAt": "2026-09-30T03:41:28.317Z",
+      "validationStatus": "passed"
+    }
+  ],
+  "status": "complete",
+  "completedAt": "2026-09-30T03:41:28.318Z"
+}

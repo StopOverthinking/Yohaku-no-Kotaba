@@ -1,0 +1,22 @@
+{
+  "batch": "n4-006",
+  "status": "in-progress",
+  "startedAt": "2026-09-30T06:49:06.495Z",
+  "sourceAuthoringBatch": "practical-core-050",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "plannedWords": 4,
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T06:49:06.495Z",
+      "metadataCompletedAt": "2026-09-30T06:49:06.495Z",
+      "draftCompletedAt": null,
+      "validationCompletedAt": null,
+      "wordCount": 4,
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null
+    }
+  ]
+}

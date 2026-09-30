@@ -24,6 +24,8 @@ export default defineConfig({
     },
   },
   test: {
+    // Corpus-heavy tests otherwise duplicate the full data across every CPU worker.
+    maxWorkers: 2,
     environment: 'jsdom',
     globals: true,
     setupFiles: './src/test/setup.ts',

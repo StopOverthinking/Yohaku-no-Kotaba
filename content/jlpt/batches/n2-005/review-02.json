@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d6622c33654223e4723edb671309405668b41fa4087064455701f0b2291b351a",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:45:55.746Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1215520",
+      "f07083a08b3dead0399915b352a4fb87528b5ffb14a8304654ce762e4dfce3e4"
+    ],
+    [
+      "lex-jmdict-1218920",
+      "9cd1c0f02c83dbe54a36775785a4b33a697f32475b0a1c622759a48b9c20254d"
+    ],
+    [
+      "lex-jmdict-1221880",
+      "0b62b17c4d64dbf491e218653ecc64afa3a8f0e4c823ab548207fc2a1b6319ed"
+    ],
+    [
+      "lex-jmdict-1223210",
+      "2490e78eecaa9eb7cd91d3159d713d47e6ae2ae6c837997587c624efe4e5a9a9"
+    ],
+    [
+      "lex-jmdict-1224700",
+      "1ee7020405e088f40bc2ea69e936fb714a468f7376d7bc051b9ff733dbb16a72"
+    ],
+    [
+      "lex-jmdict-1226610",
+      "02ef940f2c8aad7d73af5ac2af8d8adad88af183547351aa7866e75dffb6b36e"
+    ],
+    [
+      "lex-jmdict-1226760",
+      "1e54c3990765e40b780bc54683461c46da6ed5b62a78a996c1d2bd24703e82cf"
+    ],
+    [
+      "lex-jmdict-1227940",
+      "c1d66dd3b5cefc69318e2f0b8d3c5a31640e465ad1787838effe430275b8a1df"
+    ],
+    [
+      "lex-jmdict-1236740",
+      "3c314fab92fe09c9771f74733af005efe09236b71ae07417c98bd92a38fc4710"
+    ],
+    [
+      "lex-jmdict-1251870",
+      "09b918950e08fda8f8300b0873cf54bea9b0058a6198c9f3a3abb0793856bfba"
+    ],
+    [
+      "lex-jmdict-1253690",
+      "f26d28e3afe277358308c64ab29c68fceb6f44e56d0f688b3b72e9ee83e8bbb0"
+    ],
+    [
+      "lex-jmdict-1253800",
+      "9bea881ada5094147488455a7f16da121222c01f76567fbc14a2fedc22da5b4a"
+    ],
+    [
+      "lex-jmdict-1259440",
+      "561c959162c9a4f4759f0be9a8f53cbfe5a2e0f72eab1531c352a5d6c271bb08"
+    ],
+    [
+      "lex-jmdict-1259710",
+      "57099f801bf6c9413c63c6ac446eb9d1e1dc401f28146c1bd0928c20e112adbe"
+    ],
+    [
+      "lex-jmdict-1260100",
+      "b2378ad90e0d005b241d81fa90fb45fa4aea361ddebe8ceedeee2262521f4e60"
+    ],
+    [
+      "lex-jmdict-1261340",
+      "70d8a23a332c19b780aa300f3386b08285f8775d50ae7a59c1cb7ad255b9681a"
+    ],
+    [
+      "lex-jmdict-1264560",
+      "3e323d7d924b66b465ea14f442ec68e1a47d131016f44127d8f55c0a14c3822e"
+    ],
+    [
+      "lex-jmdict-1264690",
+      "25f6b58c91c6a917a2a788cefa9b914d1563293db12314c09ca6c00b75612def"
+    ],
+    [
+      "lex-jmdict-1265860",
+      "cc9bbd20321744163561b9b841ca14218a14f46b73e85daa4d2920fde1d2e61d"
+    ],
+    [
+      "lex-jmdict-1267050",
+      "5d09ecdead5f038ee51a348975bf34a5e9bf3d8b34e9304809ba93b2c3c4e427"
+    ],
+    [
+      "lex-jmdict-1267400",
+      "ef7bdd65ae309e915f435ced3c64755f5c5abca532b3370c46fe0135d24bb476"
+    ],
+    [
+      "lex-jmdict-1267600",
+      "cbafd6a0fa6958b3e007bba06e627160a067fda02cff6322eeab8e6cee20fb22"
+    ],
+    [
+      "lex-jmdict-1269290",
+      "5b26c37132ef4f468e26296d4b37ac7d11dcf38c05cc89b977ba74f98925d0a2"
+    ],
+    [
+      "lex-jmdict-1145910",
+      "d5947acb3378c363ec8a1255445d514de790fe213fbfa9c241402d659b9d788f"
+    ],
+    [
+      "lex-jmdict-1147560",
+      "4471fccf54fc768c7296e8fe02fb6072a8019e20f930be8343acc66f2c62f2fc"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1226760",
+      "category": "substantive",
+      "note": "기존 관객의 막·박수 장면과 구분하여 무대에서 관객석의 가족을 찾는 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1253800",
+      "category": "substantive",
+      "note": "기존 금액의 한 자리를 틀리는 장면과 구분하여 비밀번호 입력 자릿수로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1259440",
+      "category": "substantive",
+      "note": "기존 製品의 공장 공정 견학과 반복되어 지원 학교 수업 견학으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1260100",
+      "category": "clarity",
+      "note": "실제 제품도 견본으로 쓸 수 있음을 명시해 本物와 배타적인 구별을 피했다."
+    }
+  ]
+}

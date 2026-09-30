@@ -1,0 +1,35 @@
+{
+  "scope": "practical-only",
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1304400",
+      "japanese": "斬る",
+      "reason": "칼날로 사람을 베는 의미가 중심이며 현재 일상·직장·일반 정보 실용 묶음에서 우선하지 않는다.",
+      "disposition": "deferred-no-repeated-selection-in-this-pass"
+    },
+    {
+      "dictionaryId": "jmdict-1317080",
+      "japanese": "磁石",
+      "reason": "학교 과학에서 쓰이는 소재 명사이나 이번 직장·정보·생활 행동 묶음의 우선 대상에서 보류한다.",
+      "disposition": "deferred-no-repeated-selection-in-this-pass"
+    },
+    {
+      "dictionaryId": "jmdict-1330090",
+      "japanese": "受話器",
+      "reason": "구체적인 유선 전화 부품 명사로 현재 일반 기기 생활어 대비 우선순위가 낮아 이번 구간에서는 선정하지 않는다.",
+      "disposition": "deferred-no-repeated-selection-in-this-pass"
+    },
+    {
+      "dictionaryId": "jmdict-1344550",
+      "japanese": "助教授",
+      "reason": "구체적인 직함 의미의 제도·시기 확인이 필요한 항목이라 현재 실용 직장 표현 선정에서는 보류한다.",
+      "disposition": "deferred-no-repeated-selection-in-this-pass"
+    },
+    {
+      "dictionaryId": "jmdict-1371780",
+      "japanese": "水素",
+      "reason": "원소를 가리키는 과학 분야 의미이므로 일반 사회 독해 후보보다 우선하지 않는다.",
+      "disposition": "deferred-no-repeated-selection-in-this-pass"
+    }
+  ]
+}

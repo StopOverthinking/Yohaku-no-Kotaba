@@ -1,0 +1,77 @@
+{
+  "startedAt": "2026-09-30T03:41:25.349Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T03:41:25.350Z",
+      "metadataCompletedAt": "2026-09-30T03:42:51.163Z",
+      "draftCompletedAt": "2026-09-30T03:44:11.215Z",
+      "checksCompletedAt": "2026-09-30T03:44:11.350Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 2,
+      "errorCount": 1,
+      "errors": [
+        {
+          "at": null,
+          "message": "metadata保存前helperで石いし/こく同形ambiguity。固定候補IDで解消。時刻未記録。"
+        }
+      ],
+      "revisionNotes": [
+        "사전ID명시resolver보완",
+        "미분류후보levelNote를선택뜻포함하여구체화"
+      ],
+      "comparedFiles": 52,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T03:46:57.219Z",
+      "metadataCompletedAt": "2026-09-30T03:46:57.837Z",
+      "draftCompletedAt": "2026-09-30T03:48:18.784Z",
+      "checksCompletedAt": "2026-09-30T03:48:18.910Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 54,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-09-30T03:54:53.757Z",
+      "metadataCompletedAt": "2026-09-30T03:54:53.973Z",
+      "draftCompletedAt": "2026-09-30T03:56:15.606Z",
+      "checksCompletedAt": "2026-09-30T03:56:15.741Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 57,
+      "duplicateMasked": 0,
+      "duplicateWords": 0,
+      "revisionReason": "인도 전 자연스러운 결합으로 洗濯機のやり方를 洗濯のやり方로 다듬음"
+    },
+    {
+      "index": "04",
+      "startedAt": "2026-09-30T03:59:05.524Z",
+      "metadataCompletedAt": "2026-09-30T03:59:05.796Z",
+      "draftCompletedAt": "2026-09-30T04:00:30.709Z",
+      "checksCompletedAt": "2026-09-30T04:00:30.827Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 60,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ]
+}

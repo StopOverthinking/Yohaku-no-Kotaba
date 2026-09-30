@@ -1,0 +1,856 @@
+[
+  {
+    "wordId": "JLPTN3_61",
+    "sourceHash": "b7c02153f74ebd4e8b4b35abeb95be22f6761c30471c147524bba3023c7dc457",
+    "level": "N4",
+    "dictionaryId": "jmdict-1322320",
+    "levelNote": "불필요한 물건을 버리는 기본 생활 동사이며 OpenJLPT N4 연결 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 버리다. 사전의 throw away·discard와 영수증·편지·우산·상자를 버리는 두 ID의 예문이 일치한다. 원고 제안의 한국어 수준 근거는 불필요한 물건을 버리는 기본 생활 동작이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_431"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_431",
+    "sourceHash": "9944e185a97184536af686260b30825e75f9e0360df0978e447da815b7ed2315",
+    "level": "N4",
+    "dictionaryId": "jmdict-1322320",
+    "levelNote": "불필요한 물건을 버리는 기본 생활 동사이며 OpenJLPT N4 연결 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 버리다. 사전의 throw away·discard와 영수증·편지·우산·상자를 버리는 두 ID의 예문이 일치한다. 원고 제안의 한국어 수준 근거는 불필요한 물건을 버리는 기본 생활 동작이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_61"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_62",
+    "sourceHash": "09f838768c4b7bfba2c4fd21b78018f9750e9dd5d5ff5a6ae1eb1051103b0b13",
+    "level": "N4",
+    "dictionaryId": "jmdict-1160570",
+    "levelNote": "동물·식물·아이의 성장을 돌보는 기초 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 키우다. 사전의 raise·rear·promote growth와 토마토·새·자녀를 기르는 두 ID의 예문이 대응한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_170"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_170",
+    "sourceHash": "9820b272017ef5ad085cd55fe31644e90070430eebbe0510832d65f7342831d8",
+    "level": "N4",
+    "dictionaryId": "jmdict-1160570",
+    "levelNote": "동물·식물·아이의 성장을 돌보는 기초 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 기르다. 사전의 raise·rear·promote growth와 토마토·새·자녀를 기르는 두 ID의 예문이 대응한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_62"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_63",
+    "sourceHash": "e3a975a9e63ec7ee64954f57e176fac0eed588bfbe9f09dd01fe450f35faf688",
+    "level": "N4",
+    "dictionaryId": "jmdict-1445790",
+    "levelNote": "서 있던 물체가 쓰러지는 기본 자동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 쓰러지다, 넘어지다. 사전의 topple·fall over와 간판·선반·나무가 쓰러지는 두 ID의 예문이 일치한다. 병으로 눕다·파산하다 등의 파생 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_286"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_286",
+    "sourceHash": "9853bec94f9ce7e064173e76f93a7c51754b9cb5bc456bbfd66fcf30ef80426e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1445790",
+    "levelNote": "서 있던 물체가 쓰러지는 기본 자동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 넘어지다, 쓰러지다. 사전의 topple·fall over와 간판·선반·나무가 쓰러지는 두 ID의 예문이 일치한다. 병으로 눕다·파산하다 등의 파생 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_63"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_64",
+    "sourceHash": "ac237e5970eaec3b27300b8ead77b5d2183445eb957c1b1cee46cc33f939f8a2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1205780",
+    "levelNote": "사실·상태를 직접 확인하는 중급 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 확인하다. 사전의 check·verify·make sure와 여권 기한·문 잠금·가스·진위를 확인하는 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_54"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_54",
+    "sourceHash": "58608d94b0a98b67786b028a8d6556ff47ce17b889b6779f28c767e2f525b9e7",
+    "level": "N3",
+    "dictionaryId": "jmdict-1205780",
+    "levelNote": "사실·상태를 직접 확인하는 중급 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 확인하다. 사전의 check·verify·make sure와 여권 기한·문 잠금·가스·진위를 확인하는 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_64"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_65",
+    "sourceHash": "628f7e6cd0af5339d84005005634f77d7b6b41ee2280cd66f363db271d69740d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1596960",
+    "levelNote": "상대와 맞서 경쟁하거나 전투하는 사회적 행동 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 싸우다. 사전의 fight·do battle·compete와 경기 선수·적·병사의 전투 예문이 대응한다. 경쟁과 전쟁은 결합 대상에 따라 구별되는 하위 용법이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_356"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_356",
+    "sourceHash": "54a80b6ecadc2abf5a467c5ec04afd6b154fad40406eadf9a63491d9498163c6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1596960",
+    "levelNote": "상대와 맞서 경쟁하거나 전투하는 사회적 행동 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 싸우다, 맞서다. 사전의 fight·do battle·compete와 경기 선수·적·병사의 전투 예문이 대응한다. 경쟁과 전쟁은 결합 대상에 따라 구별되는 하위 용법이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_65"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_66",
+    "sourceHash": "4c30862c9716865a3a8f1572dec3abe085c34e7f96b2d7b168c806c3bdbb5fad",
+    "level": "N2",
+    "dictionaryId": "jmdict-1356780",
+    "levelNote": "펼쳐진 옷·이불·우산·유모차를 접는 동사이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (빨래를) 개다. 사전의 fold clothes·umbrella와 두 ID의 대표 예문이 일치한다. 원본 빨래를 개다는 대상을 좁힌 번역이며 유모차·우산의 접기도 같은 핵심 동작이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_7"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_7",
+    "sourceHash": "b7054fb8d0fd989c351079ede1faed29cc8c25e2aca62fbe8eebef15aa855d29",
+    "level": "N2",
+    "dictionaryId": "jmdict-1356780",
+    "levelNote": "펼쳐진 옷·이불·우산·유모차를 접는 동사이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (이불 등을) 개다, (우산을) 접다, 걷어치우다. 사전의 fold clothes·umbrella와 두 ID의 대표 예문이 일치한다. 원본 빨래를 개다는 대상을 좁힌 번역이며 유모차·우산의 접기도 같은 핵심 동작이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_66"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_67",
+    "sourceHash": "83cbca8aff15e545cdf0ab67bcaa79a0f93a68d487eb3cde3bf68be10ccf7f6d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1251100",
+    "levelNote": "시간을 주어로 하여 경과를 표현하는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (시간이) 흐르다, 경과하다. 사전의 pass of time·elapse와 이사 후 삼 년·조리 중 오 분이 경과하는 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_68",
+    "sourceHash": "2cd5b4e866e5ea4bcd8793a1463d6e3876765888de28ea921c0179279dd4bd1d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1534930",
+    "levelNote": "말하지 않거나 말하던 것을 멈추는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 입 다물다. 사전의 be silent·say nothing과 두 ID의 말 멈춤·침묵 유지 예문이 일치한다. 단순히 공간이 조용하다는 상태와 구별한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_70"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_70",
+    "sourceHash": "7f1b5e47b6eba1d67b055f5d1d43b2a9dda5b281d07cb5aac1faf863a2a9ccef",
+    "level": "N3",
+    "dictionaryId": "jmdict-1534930",
+    "levelNote": "말하지 않거나 말하던 것을 멈추는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 입 다물다. 사전의 be silent·say nothing과 두 ID의 말 멈춤·침묵 유지 예문이 일치한다. 단순히 공간이 조용하다는 상태와 구별한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_68"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_69",
+    "sourceHash": "955ee3e087990ce030fec786eae4ed4c94f5f553e203968846e9a323f3053146",
+    "level": "N3",
+    "dictionaryId": "jmdict-1597200",
+    "levelNote": "사람·도구·지식의 힘에 의지하는 심리·사회 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 의지하다, 기대다. 사전의 rely on·depend on·turn to for help와 사람·앱·지역 지식·부모에게 의지하는 예문이 대응한다. 물리적으로 기대어 서는 뜻으로 해석하지 않는다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_151"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "사전은 자타 겸용이나 현재 예문의 대표 결합에 맞춰 원본 동사정보를 검토해야 한다. 원본을 자동 정정하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_151",
+    "sourceHash": "7a7e40aba15a9aeea5335e515428d02acf1797b98dc8bde2ac63d8fdf061eeb5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1597200",
+    "levelNote": "사람·도구·지식의 힘에 의지하는 심리·사회 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 의지하다. 사전의 rely on·depend on·turn to for help와 사람·앱·지역 지식·부모에게 의지하는 예문이 대응한다. 물리적으로 기대어 서는 뜻으로 해석하지 않는다.",
+    "aliasCandidateIds": [
+      "JLPTN3_69"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "사전은 자타 겸용이나 현재 예문의 대표 결합에 맞춰 원본 동사정보를 검토해야 한다. 원본을 자동 정정하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_70",
+    "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1158880",
+    "levelNote": "다름과 정답의 오류를 표현하는 기초 동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 다르다. 사전에는 different와 incorrect가 별도로 있다. JLPTN3_70·AbsoluteVerb_618은 대상 간 차이, handmade_108은 정답·번호의 오류를 대표로 학습한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_618"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "차이를 나타내는 두 ID와 정답·번호의 오류를 나타내는 handmade_108은 대표 학습 의미가 달라 모두 한 별칭으로 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_108",
+    "sourceHash": "8d78e1f8ddd18dfd1b2a3d49473436dbfbb94b7662eed33347c181958e5d71d0",
+    "level": "N5",
+    "dictionaryId": "jmdict-1158880",
+    "levelNote": "다름과 정답의 오류를 표현하는 기초 동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 다르다, 틀리다. 사전에는 different와 incorrect가 별도로 있다. JLPTN3_70·AbsoluteVerb_618은 대상 간 차이, handmade_108은 정답·번호의 오류를 대표로 학습한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "차이를 나타내는 두 ID와 정답·번호의 오류를 나타내는 handmade_108은 대표 학습 의미가 달라 모두 한 별칭으로 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_618",
+    "sourceHash": "c5c10b1b80f0abd52ea08a4ea5556fb44323ed13eb5962f9bdeb3cc297b0a9b8",
+    "level": "N5",
+    "dictionaryId": "jmdict-1158880",
+    "levelNote": "다름과 정답의 오류를 표현하는 기초 동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 다르다, 틀리다. 사전에는 different와 incorrect가 별도로 있다. JLPTN3_70·AbsoluteVerb_618은 대상 간 차이, handmade_108은 정답·번호의 오류를 대표로 학습한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_70"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "차이를 나타내는 두 ID와 정답·번호의 오류를 나타내는 handmade_108은 대표 학습 의미가 달라 모두 한 별칭으로 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_71",
+    "sourceHash": "afe60f5a470f28837c4e13db8a1aea677893097a151a927abd728eb28b5bc322",
+    "level": "N5",
+    "dictionaryId": "jmdict-1483740",
+    "levelNote": "활동으로 몸·마음이 지치는 기초 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 피곤하다. 사전의 get tired·become exhausted와 이사 도움·대인 배려·걷기로 피로해지는 두 ID의 예문이 일치한다. 飽きる의 싫증과 구별된다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_292"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_292",
+    "sourceHash": "acd82911359e77782fa810a5f06d62ad2f43b224faf76eb9770b1c5a77703c7d",
+    "level": "N5",
+    "dictionaryId": "jmdict-1483740",
+    "levelNote": "활동으로 몸·마음이 지치는 기초 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 지치다. 사전의 get tired·become exhausted와 이사 도움·대인 배려·걷기로 피로해지는 두 ID의 예문이 일치한다. 飽きる의 싫증과 구별된다.",
+    "aliasCandidateIds": [
+      "JLPTN3_71"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_72",
+    "sourceHash": "14b32a1fdb5239b32f5ed1207d7f0875e0167c5c473627eed5557883a9b863e4",
+    "level": "N2",
+    "dictionaryId": "jmdict-1441900",
+    "levelNote": "감정·뜻이 상대에게 전해지는 자동사 용법이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 전해지다. 사전의 feeling is conveyed·comes across와 편지·문자·웃음으로 기쁨·감사·뜻이 전해지는 두 ID의 예문이 일치한다. 정보 확산·전통 전수·전기 전달은 별도 용법이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_244"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_244",
+    "sourceHash": "360ac7617bd4d4fae31dffb8f31837f8d721eacb6661da4c82a447d42d497a0f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1441900",
+    "levelNote": "감정·뜻이 상대에게 전해지는 자동사 용법이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 전해지다. 사전의 feeling is conveyed·comes across와 편지·문자·웃음으로 기쁨·감사·뜻이 전해지는 두 ID의 예문이 일치한다. 정보 확산·전통 전수·전기 전달은 별도 용법이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_72"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_73",
+    "sourceHash": "d3113f52edbd2be3ffad814a5f20a8ead052a42adeac7cf1eaa724869ecb1a86",
+    "level": "N4",
+    "dictionaryId": "jmdict-1584060",
+    "levelNote": "물건 겉을 재료로 싸는 기본 생활 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (물건을) 싸다, 포장하다. 사전의 wrap·pack·cover와 신문지·김·알루미늄 포일·선물용 종이로 감싸는 두 ID의 예문이 일치한다. 한국어 포장하다보다 싸다·감싸다가 범위를 더 잘 보존한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_312"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_312",
+    "sourceHash": "376d1e6dbdddeb0ed40250b1ed3abc894a8a6b20529975ad6005e78417115c90",
+    "level": "N4",
+    "dictionaryId": "jmdict-1584060",
+    "levelNote": "물건 겉을 재료로 싸는 기본 생활 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 포장하다. 사전의 wrap·pack·cover와 신문지·김·알루미늄 포일·선물용 종이로 감싸는 두 ID의 예문이 일치한다. 한국어 포장하다보다 싸다·감싸다가 범위를 더 잘 보존한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_73"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_74",
+    "sourceHash": "e4f17dbc61596af2b8118f4349964bf6800a0aa02b9ed8e90526148b423b3687",
+    "level": "N5",
+    "dictionaryId": "jmdict-1240825",
+    "levelNote": "회사·은행 등에 소속되어 근무하는 기초 직장 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 근무하다. 사전의 work for·be employed at와 은행·회사·등대에서 일하는 두 ID의 예문이 대응한다. 역할을 맡는 務める 및 노력하는 努める와 구별한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_390"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "사전은 자타 겸용이나 현재 예문의 대표 결합에 맞춰 원본 동사정보를 검토해야 한다. 원본을 자동 정정하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_390",
+    "sourceHash": "85e75cf3ae4edd0d559a5c8f2d1ac76a2fd7fa66c8e32cf019833af5548682a0",
+    "level": "N5",
+    "dictionaryId": "jmdict-1240825",
+    "levelNote": "회사·은행 등에 소속되어 근무하는 기초 직장 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 근무하다. 사전의 work for·be employed at와 은행·회사·등대에서 일하는 두 ID의 예문이 대응한다. 역할을 맡는 務める 및 노력하는 努める와 구별한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_74"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "사전은 자타 겸용이나 현재 예문의 대표 결합에 맞춰 원본 동사정보를 검토해야 한다. 원본을 자동 정정하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_75",
+    "sourceHash": "34524dda6679b9da39104cc2e0a304f319ccb8e868a75d4621accf61e523b6ff",
+    "level": "N4",
+    "dictionaryId": "jmdict-1433030",
+    "levelNote": "장소·경로를 지나가는 기본 이동 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 통과하다, 지나가다. 사전의 pass through·go past와 공원·학교 앞·입구·문을 지나가는 두 ID의 예문이 일치한다. 널리 알려지다는 명칭·평판의 별도 용법이지만 현재 예문에서는 다루지 않는다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_277"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_277",
+    "sourceHash": "1066450fe9808e615e4b8624074bb279dc74671f76707e8d5f721ba1714d2cd6",
+    "level": "N4",
+    "dictionaryId": "jmdict-1433030",
+    "levelNote": "장소·경로를 지나가는 기본 이동 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 지나가다, 널리 알려지다. 사전의 pass through·go past와 공원·학교 앞·입구·문을 지나가는 두 ID의 예문이 일치한다. 널리 알려지다는 명칭·평판의 별도 용법이지만 현재 예문에서는 다루지 않는다.",
+    "aliasCandidateIds": [
+      "JLPTN3_75"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_76",
+    "sourceHash": "7c8aa2f987ecf44e650d8a10c902b44d085b6ac0b03e746db1c2f365b28eeff2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1198910",
+    "levelNote": "문제·수수께끼가 풀리는 중급 자동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (문제가) 풀리다, 해결되다. 사전의 problem is solved·worked out과 문제·수수께끼가 풀리는 예문이 일치한다. 같은 읽기의 녹다 사전 항목은 현재 의미에 맞지 않아 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_77",
+    "sourceHash": "ee4a85efa6c2452211c99bb6afeaafdc473455c21037d2bb6649a973c588ebae",
+    "level": "N3",
+    "dictionaryId": "jmdict-1546070",
+    "levelNote": "얼음·초콜릿이 녹고 설탕이 용해되는 일상 변화 용법으로 N3를 편집 제안한다. 고정 후보의 N3·N2 연결 충돌은 별도 재검토 대상이다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (눈·얼음 등이) 녹다. 사전의 melt·thaw와 dissolve가 각각 있다. 첫 ID는 아이스크림·눈의 열에 의한 녹음, 두 번째 ID는 초콜릿의 녹음과 설탕의 용해를 포함한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "N3·N2 연결 충돌이 있고 두 번째 ID에는 액체 속 용해 예문도 있다. 대표 용법 범위를 보존하려고 별칭 후보는 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_20",
+    "sourceHash": "3ad4916fe128332d8792446df9ba1fe49b1884b75e87aef6874677e0d4795cb8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1546070",
+    "levelNote": "얼음·초콜릿이 녹고 설탕이 용해되는 일상 변화 용법으로 N3를 편집 제안한다. 고정 후보의 N3·N2 연결 충돌은 별도 재검토 대상이다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 녹다. 사전의 melt·thaw와 dissolve가 각각 있다. 첫 ID는 아이스크림·눈의 열에 의한 녹음, 두 번째 ID는 초콜릿의 녹음과 설탕의 용해를 포함한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "N3·N2 연결 충돌이 있고 두 번째 ID에는 액체 속 용해 예문도 있다. 대표 용법 범위를 보존하려고 별칭 후보는 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_78",
+    "sourceHash": "518145e22952efe412ad81597110e9c2f8bfe029a015fc1d790c6ec46c4d1a8b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1508550",
+    "levelNote": "눈·책 등 벌어진 것을 닫는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (눈을) 감다, (책을) 덮다. 사전의 close book·eyes와 책을 덮고 눈을 감는 예문이 일치한다. 현재 예문은 대상에 동작하는 타동사이며 사전에는 자동사 사용도 있다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "사전은 자타 겸용이나 현재 예문의 대표 결합에 맞춰 원본 동사정보를 검토해야 한다. 원본을 자동 정정하지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_79",
+    "sourceHash": "efadaadfaf4f84b497dfe1caa57669f5b92ca25abd3d3eb8756de681263abc5e",
+    "level": "N1",
+    "dictionaryId": "jmdict-1445740",
+    "levelNote": "화난 감정을 담아 큰소리로 외치는 강한 발화 동사이며 고정 OpenJLPT N1 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 고함치다, 호통치다. 사전의 shout in anger·yell과 상대에게 큰소리·호통을 내는 예문이 대응한다. 단순히 목소리가 큰 상태로만 축소하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_80",
+    "sourceHash": "13ae3ed98b06efd2aacacd585a608d16357ae39a72c7fe0a19b262e3db5f9f3a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1429700",
+    "levelNote": "새·비행기가 공중을 나는 기초 용법으로 N5를 편집 제안한다. 후보의 N5·N2 충돌은 다의어 전체와 대표 용법을 분리해 재검토해야 한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (하늘을) 날다. 사전의 fly·soar와 두 ID의 새·항공기 비행 예문이 일치한다. 두 번째 원본의 건너뛰다·누락되다는 별도 사전 의미이며 기본 비행 예문으로 승인하지 않는다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_44"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "N5·N2 연결 충돌에서 기초 비행 용법으로 N5를 제안했다. 건너뛰다·누락되다는 독립 용법·예문·난도 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_44",
+    "sourceHash": "93b59f8d5e7ca72399c14c22d5d5361d2fe6c13aabbe53a1ef63350e6dec50e6",
+    "level": "N5",
+    "dictionaryId": "jmdict-1429700",
+    "levelNote": "새·비행기가 공중을 나는 기초 용법으로 N5를 편집 제안한다. 후보의 N5·N2 충돌은 다의어 전체와 대표 용법을 분리해 재검토해야 한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 날다, 건너뛰다, 누락되다. 사전의 fly·soar와 두 ID의 새·항공기 비행 예문이 일치한다. 두 번째 원본의 건너뛰다·누락되다는 별도 사전 의미이며 기본 비행 예문으로 승인하지 않는다.",
+    "aliasCandidateIds": [
+      "JLPTN3_80"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "N5·N2 연결 충돌에서 기초 비행 용법으로 N5를 제안했다. 건너뛰다·누락되다는 독립 용법·예문·난도 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_81",
+    "sourceHash": "d0205796342ba6e683e0a1ef927438827dc04688381360f9a766a5d33c9d06ce",
+    "level": "N2",
+    "dictionaryId": "jmdict-1326790",
+    "levelNote": "이미 성립한 신청·주문·발언을 무효로 하는 복합 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 취소하다. 사전의 cancel·retract·revoke와 예약·발언·주문·신청을 취소하는 두 ID의 예문이 대응한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_337"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_337",
+    "sourceHash": "d13b12fd16369a4fac2da39a294855937679468cba7f144c8a887b14ec7b21e6",
+    "level": "N2",
+    "dictionaryId": "jmdict-1326790",
+    "levelNote": "이미 성립한 신청·주문·발언을 무효로 하는 복합 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 취소하다. 사전의 cancel·retract·revoke와 예약·발언·주문·신청을 취소하는 두 ID의 예문이 대응한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_81"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_82",
+    "sourceHash": "5f050fe14b97413bc27e3472d9394dd5b1ac5c1400f9043a9f28ea5dc59fc5bb",
+    "level": "N3",
+    "dictionaryId": "jmdict-1552140",
+    "levelNote": "액체가 연속적으로 흐르는 기본 상태와 여러 파생 뜻을 갖는 동사이며 OpenJLPT N3 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (액체가) 흐르다. 사전의 liquid flows와 흙탕물·강·눈 녹은 물·관 속 물이 흐르는 두 ID의 예문이 일치한다. 무산되다는 별도 사전 용법이지만 현재 예문에는 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_283"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_283",
+    "sourceHash": "7dc162200c79a81b563fbbb019967ff2da20a3d4a9e39655d65f9cf1c6b5ba84",
+    "level": "N3",
+    "dictionaryId": "jmdict-1552140",
+    "levelNote": "액체가 연속적으로 흐르는 기본 상태와 여러 파생 뜻을 갖는 동사이며 OpenJLPT N3 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 흐르다, 무산되다. 사전의 liquid flows와 흙탕물·강·눈 녹은 물·관 속 물이 흐르는 두 ID의 예문이 일치한다. 무산되다는 별도 사전 용법이지만 현재 예문에는 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_82"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_83",
+    "sourceHash": "9e999b963ad5ab55a5723cfd6b4e35e8cb4a742a04fda0bcebb50879b9d4578a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1229840",
+    "levelNote": "감정 때문에 눈물을 흘리는 기초 심리 행동이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 울다. 사전의 cry·shed tears·weep와 감동·슬픔·분함으로 우는 두 ID의 예문이 일치한다. 동물의 울음인 鳴く와 구별한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_39"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_39",
+    "sourceHash": "a432022883b831b64b7d9fd3291b173b95c70f3d9fc07a84b3021cbf92107341",
+    "level": "N4",
+    "dictionaryId": "jmdict-1229840",
+    "levelNote": "감정 때문에 눈물을 흘리는 기초 심리 행동이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 울다. 사전의 cry·shed tears·weep와 감동·슬픔·분함으로 우는 두 ID의 예문이 일치한다. 동물의 울음인 鳴く와 구별한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_83"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_84",
+    "sourceHash": "e3ebf146fe5955a559bf2954cf73a8ed9115717c6d13a4f4ad8039a0eaa48c86",
+    "level": "N2",
+    "dictionaryId": "jmdict-1156890",
+    "levelNote": "슬픔·실망을 덜어 주는 대인 행동 동사이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 위로하다. 사전의 comfort·console과 패배·반려동물 상실의 슬픔을 달래거나 따뜻한 말로 위로하는 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_157"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_157",
+    "sourceHash": "1c68a0f0b5199a233ecba5cbb0a43136628c847a8de6472051d5a76a1cb2e441",
+    "level": "N2",
+    "dictionaryId": "jmdict-1156890",
+    "levelNote": "슬픔·실망을 덜어 주는 대인 행동 동사이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 위로하다. 사전의 comfort·console과 패배·반려동물 상실의 슬픔을 달래거나 따뜻한 말로 위로하는 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_84"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_85",
+    "sourceHash": "f90d29c960fe94b93ee9c7f26398280a8262fa232cbf53c5467f07bbcc2009c3",
+    "level": "N4",
+    "dictionaryId": "jmdict-1447000",
+    "levelNote": "손에 든 물건을 공중으로 던지는 기본 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 던지다. 사전의 throw·toss·cast와 줄·공·짐을 던지는 두 ID의 예문이 일치한다. 일을 포기하거나 의심을 던진다는 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_46"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_46",
+    "sourceHash": "5f90980813be47666dc4404348b52598ac22109206a3ee26c77b76eacf488b45",
+    "level": "N4",
+    "dictionaryId": "jmdict-1447000",
+    "levelNote": "손에 든 물건을 공중으로 던지는 기본 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 던지다. 사전의 throw·toss·cast와 줄·공·짐을 던지는 두 ID의 예문이 일치한다. 일을 포기하거나 의심을 던진다는 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_85"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_86",
+    "sourceHash": "ea1ede84456e7cac8a1b69546cf6f5ac20b12fbb4ef4b57a553d7ec648f7542f",
+    "level": "N5",
+    "dictionaryId": "jmdict-1508380",
+    "levelNote": "사람들이 순서를 따라 한 줄로 서는 기초 행동이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 한 줄로 서다, 늘어서다. 사전의 line up·stand in a line과 개점 전 대기·표 구매를 위한 줄서기 예문이 일치한다. 맞먹다는 별도 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_587"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_587",
+    "sourceHash": "c89f2555419042bb6482a7da85ae064eaaa48cc35e88ef45c64c6fa4c884942f",
+    "level": "N5",
+    "dictionaryId": "jmdict-1508380",
+    "levelNote": "사람들이 순서를 따라 한 줄로 서는 기초 행동이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 줄 서다. 사전의 line up·stand in a line과 개점 전 대기·표 구매를 위한 줄서기 예문이 일치한다. 맞먹다는 별도 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_86"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_87",
+    "sourceHash": "edd9bf81b3d65bf6f8fe466034e0bf7983cbacb1e9225e2367e848e87dd1f45e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1314680",
+    "levelNote": "안경·옷색·머리·모자가 사람의 모습과 어울리는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (옷, 색, 분위기와) 어울리다. 사전의 suit·become·match와 두 ID의 외모 조화 예문이 대응한다. 크기가 물리적으로 맞는다는 뜻으로 일반화하지 않는다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_309"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_309",
+    "sourceHash": "05f1a4ae08f6604363d35ddbb7e0317f98cdca6eeb6c766f0f70e3f621879e09",
+    "level": "N3",
+    "dictionaryId": "jmdict-1314680",
+    "levelNote": "안경·옷색·머리·모자가 사람의 모습과 어울리는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 어울리다, 잘 맞다. 사전의 suit·become·match와 두 ID의 외모 조화 예문이 대응한다. 크기가 물리적으로 맞는다는 뜻으로 일반화하지 않는다.",
+    "aliasCandidateIds": [
+      "JLPTN3_87"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_88",
+    "sourceHash": "fd2805baa5c1840f18b542dcba3f76cc208f7ead0d5422bfa609192545962f32",
+    "level": "N3",
+    "dictionaryId": "jmdict-1152720",
+    "levelNote": "손을 오므려 물건을 쥐는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (손에 꽉) 쥐다. 사전의 clasp·grasp·grip와 손·동전·캔·연필을 쥐는 두 ID의 예문이 일치한다. 장악하다는 권력 통제의 별도 의미이며 현재 예문에는 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_89"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_89",
+    "sourceHash": "16c8608d0bd5dcfcd02cab430d187d158beb47d8235b5a5fce292eeffa5c8b53",
+    "level": "N3",
+    "dictionaryId": "jmdict-1152720",
+    "levelNote": "손을 오므려 물건을 쥐는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 쥐다, 장악하다. 사전의 clasp·grasp·grip와 손·동전·캔·연필을 쥐는 두 ID의 예문이 일치한다. 장악하다는 권력 통제의 별도 의미이며 현재 예문에는 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_88"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "기존 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 별도 학습 용법 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_89",
+    "sourceHash": "799af212a80e509e78b07b85cbe819f92dd3f95d6500743b1dfc790f931dfa7b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1450330",
+    "levelNote": "위험·추적에서 벗어나 이동하는 기초 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 도망치다. 사전의 run away·flee·escape와 고양이·새의 탈출 및 화재 대피 예문이 대응한다. 책임 회피·열이 빠지는 파생 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_380"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_380",
+    "sourceHash": "115f5f37c705b39d376a175efcd4cb9f2f5209eeaf521400b8e5e7436bd42849",
+    "level": "N4",
+    "dictionaryId": "jmdict-1450330",
+    "levelNote": "위험·추적에서 벗어나 이동하는 기초 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 도망치다. 사전의 run away·flee·escape와 고양이·새의 탈출 및 화재 대피 예문이 대응한다. 책임 회피·열이 빠지는 파생 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_89"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_90",
+    "sourceHash": "23c59c5a9458509839f7734afc99285a85b827eb3d1497991c55f3fd620c46e3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1467620",
+    "levelNote": "물기·비 때문에 젖는 상태 변화 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (물·비 등에) 젖다. 사전의 get wet과 어깨·바닥·손이 젖은 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_597"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_597",
+    "sourceHash": "9ee02dbb3d45d43c9d554f23846ce80a2755bc255e1e3feab3735ac4df5d6888",
+    "level": "N3",
+    "dictionaryId": "jmdict-1467620",
+    "levelNote": "물기·비 때문에 젖는 상태 변화 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (액체로 인해) 젖다. 사전의 get wet과 어깨·바닥·손이 젖은 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_90"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  }
+]

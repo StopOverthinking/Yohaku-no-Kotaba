@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T05:22:39.650Z",
+  "checkedWords": 31,
+  "checkedExamples": 62,
+  "accepted": 31,
+  "held": 0,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "원본 전체 의미·읽기·품사·예문·제공 사전과 분류 제안을 전량 대조했다.",
+    "최소 예문 1개 정책 적용. 별칭 후보는 통합 승인 아님. 食器의 그릇 중심 힌트는 참조 검토에서 범위를 재확인한다."
+  ]
+}

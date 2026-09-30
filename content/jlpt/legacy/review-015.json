@@ -1,0 +1,563 @@
+[
+  {
+    "wordId": "JLPTN3_421",
+    "sourceHash": "865c2f249bfdf29264e1c448246ef55a55efdb25c3b1ff1770a80cad3084b627",
+    "proposalHash": "a40569a5ea6aca3dea13899f3b02e939309d4021df7ca9c0fd07c47cb5345bc5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "努力의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_422",
+    "sourceHash": "7cbb73527c54b38b13be55c8fc226fb7799ed415ed97a9d0f40ed3c9d6d1c0fc",
+    "proposalHash": "20e7b6cbbc114e5f02c4772231bfc0a6e57a674850d16baba85b011b7148bf8b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "출처 등급은 없으나 일상적인 비밀 유지 명사 용법의 N3 편집 제안은 적절하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_423",
+    "sourceHash": "2a2558aca8ba9bd88db288ffa679a53023aa268b31104377f90824c59f4cce58",
+    "proposalHash": "d08178fc919a8c6aac0a850a6aa625b60f0704d1ebf9e6e5c42db2fd7dadc1a6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "内容의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_424",
+    "sourceHash": "f68e3e23b0e549a24f44883f1c0326b0b0fcb57d5e4dc092ccdfb42eff6a1d7f",
+    "proposalHash": "684d0c1aaa90eaf0f4a591b0658757e6baf7606624334a1b4b7807f445c80df1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "中身의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N2 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_425",
+    "sourceHash": "df9491de74ae4cad53726670a09177935b1f94b2c80ab197688a4b77da751d9e",
+    "proposalHash": "d6150ecd0271d7def20962a4d7fbeee271b0748a5506df529fad7d56f01ca567",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "波의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_426",
+    "sourceHash": "f842f57f91108d9fbcf3c4de540e3adf5fdb166d88d704ad9cdcb775d2ff6b37",
+    "proposalHash": "1606cac6b45f53acdc3a5601bf0c05b45c90366489f05616d164f64c68f5f7eb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "涙의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_427",
+    "sourceHash": "84212d00f9302a6cafea7c0a26e61ec0438707b7c6a647f2d9953be044b2e468",
+    "proposalHash": "4e43b64b2593033724f0bd62efe5095105aa13184ec4908e1754297447135379",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "荷物의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N5 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_428",
+    "sourceHash": "46f878cb00ab1421040c2eaaf5da1cb7717af159029bc83e3953b521035dab37",
+    "proposalHash": "1625fa1fbfc6a4654cdbf1766cbf0b6af18c44864ddc9ff97b5118cc270be5ff",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "人間의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_429",
+    "sourceHash": "4526f0b16749b36bd49861c9d3a078db1f42ba1e0b18c790099ab521cff09213",
+    "proposalHash": "adc7dfdca9471ca43edd0822aad0a7a379c0330e9d052009962204d5c6f3770d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "値段의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_430",
+    "sourceHash": "cbe7d6c7932a75c13eb8d86d95546f9f64c72453d5c9445595ad079bfa352383",
+    "proposalHash": "455f054f569e5f7d5aec7e88b3a04091bf0e0dd063ee59709378d11006389ba0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "根의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_431",
+    "sourceHash": "5a21cc5df445fbabb87af90cd1c9754ba0677654ced3a6bbdf18902aad71f10c",
+    "proposalHash": "626ec4e34885834b31563565bed19d64cbba582a7dc93c0ebe6b5b1332f12063",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "年中의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_432",
+    "sourceHash": "d9080016ac46b13b69a3f94d27c8246e282b47e8acdce110dee89ed08b98dcc8",
+    "proposalHash": "38bae2a0d2129d30529f21ff72cb2b128c9a97e50fa934fd0a38c738dd03964c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "農業의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_433",
+    "sourceHash": "0f09ec16f0ef96e6f9cfcf792c6a865c44b4a88f28fe2e43d4087ba92aab9b92",
+    "proposalHash": "153d5a00ca13880e1d9518ac40d891d16178b2dee1e2fc3c08862e69e03c95f6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "치아 의미와 N5 배정이 타당하다. 다른 歯와의 연결은 별칭 후보 확인만 포함한다."
+    ]
+  },
+  {
+    "wordId": "handmade_97",
+    "sourceHash": "e395c714d2b65bc4131ab1f153f56f170cc153f3b5a9589ec59d8fc115fc1256",
+    "proposalHash": "06b1712e4856dfcc9181338e11701147b24366abc0d79c6464a933fd2adb06ba",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "신체 치아의 두 예문이 대표 의미에 일치하며 별칭은 후보로만 유지한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_434",
+    "sourceHash": "c8f169120903c05133f50549321adfa62f5ee4f811b85f5d8f586b1a6eb0cb78",
+    "proposalHash": "8efba4061c411d87101ff80f309faa76442438773722be70f3df60fb9453d0b3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "葉의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N4 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_435",
+    "sourceHash": "544090f249b2e1b8b9ca0d99b5a15f68ddac97053ad4bd8585e16c2d3308c8a6",
+    "proposalHash": "ee2c8a8bd3c69a1e32366ea6ca9a6f0293fb9afc455e1d35cbf69a53fabbc96a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "배수 의미와 예문은 일관되지만 제공 사전 연결이 없어 정규화·접미 용법 확인까지 배정을 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_436",
+    "sourceHash": "0c6a842cf02947bce2bc03b20a7b22564a7b78675b8c1db95b750f86c9042963",
+    "proposalHash": "ae684c9c71fc25c87324f1f9f99327a505715e5f3fb018234e6864c768704fb7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "発生의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N1 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_437",
+    "sourceHash": "4b82ba0d76813696b6b278c5d4c09983ae600d608e319fc3c83282bd18e0da99",
+    "proposalHash": "7cb08ea26cc0aac2cc8f838983c2ed5c966ae79febdb92ce670056a67388274f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "発展의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_438",
+    "sourceHash": "f121c6924cececa3e112b20b16d30f6b50770fe25f407bfbad6d5d60f30165d5",
+    "proposalHash": "960215bf98d4fa44a15ba2e784fff2db6696b45621ffb18602dc0ad891f6bcfa",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "発表의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_439",
+    "sourceHash": "f52197b29e5f795ac833bdde02500e9622d0aad1f193af69b6abeb9dcaf0a5ba",
+    "proposalHash": "6e5b0dfb73c312097cdd8fa3dd2dc2df753226f5f1b3d63a71934256e30fe669",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "反対의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N4 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_440",
+    "sourceHash": "91a8cbd1f65e4b0ae26987f7f1b131f773170dc199f9be03230dc0ffdf2f10ba",
+    "proposalHash": "89c5d0350502e302e108bf089f88d1849ee04ee4c14cba665e0cb5d8c795d127",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "販売의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_441",
+    "sourceHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+    "proposalHash": "7fa45de105811abcc5d70e5fc34dec400385055a1224db8d74f24cd1e176ea8b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다.",
+      "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_442",
+    "sourceHash": "db9cb9d03d8abe6c23e7225b0b7e660a726b740b2bc55c6441e697d95522897b",
+    "proposalHash": "959f44e0cae636e210b154f5528719321eeb49627e94a2220a236833d68f37a1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "光의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N4 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_443",
+    "sourceHash": "dc30e4c512b95238c15864ae1c56737bfd7a35dd371efdfd9a937b443e11ba6a",
+    "proposalHash": "867ed9685e39b9370b80e2102360d5a1066df6504b6263f6ede1a4d0d5adbcf6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "否定의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_444",
+    "sourceHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+    "proposalHash": "453b70c902491616483ce7d21031f5e889cc5001158ba68e4bec43a66387e2ac",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다.",
+      "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_445",
+    "sourceHash": "230d8978d203e2fc7b517dde459b31d513387c1bf12db74a00af4392466fcf62",
+    "proposalHash": "47b981b199d724c51f43a5cda3dfb9d1336ce3f7e96db2c3bc334b3182b6c75c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "表面의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_446",
+    "sourceHash": "a73c6aa47ff1be160c18cfdfe309fa12f8c769d77ebd765bc097938de95d1611",
+    "proposalHash": "76eabc1e34e06b6aa15a540935172875d5f89a0276ee9bcab657fe67a3bdc602",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "風景의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_447",
+    "sourceHash": "daab5496d69e0fcadbab8116476fc57273fe2592501bfeb203595f7006a9b3ae",
+    "proposalHash": "3bf4e38a5b06b5127b7e1da1c05abdb2718cc6ac6d173c86a2fd37aed01075fb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "複数의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N2 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_448",
+    "sourceHash": "d432d6de380de314db5c7a7987aa9bde4c574b947431fe8366d77c37f78c3d87",
+    "proposalHash": "3ee4080f7c26209eff39baf30c976aa2ad66d0d23a5cf16609c76a36678e523e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "袋의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_449",
+    "sourceHash": "c141a472c1ecd957abf2566568a0eb1de48fe0b7418d0593edf03da70898e800",
+    "proposalHash": "83d43d38fc29509c1a4624a58cfb76cd5921d45463aaeb653fce33800428d57b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-015.json",
+    "reviewedAt": "2026-09-30T05:30:55.375Z",
+    "notes": [
+      "物価의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_450",
+    "sourceHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+    "proposalHash": "b34326d6d7c203ae3ab46dee0e334d9a030acd52c0a38b940b8ea0939e8244c0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다.",
+      "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  }
+]

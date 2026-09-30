@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "targetPolicy": "practical-coverage",
+  "provisionalRange": [
+    6000,
+    8000
+  ],
+  "targetUniqueWords": null,
+  "targetNewWords": null,
+  "selectionSourceHash": "d7915c55df8c7bf5a14b69c0787a6382dcfd621717d14cfa525dd949674e92ec",
+  "levelWords": 3427,
+  "newWords": 3083,
+  "readyWords": 3427,
+  "examples": 6219,
+  "byLevel": {
+    "N5": 412,
+    "N4": 509,
+    "N3": 1338,
+    "N2": 529,
+    "N1": 639
+  },
+  "activeAliasGroups": 1,
+  "revisedLegacy": {
+    "journals": 1,
+    "senses": 2
+  },
+  "revisedLegacyContent": {
+    "journals": 1,
+    "words": 29
+  },
+  "complete": false,
+  "issues": [],
+  "remaining": [
+    "Complete practical N5-N1 coverage and independently review the final selection; no fixed count quota",
+    "Legacy vocabulary classification and alias/profile migration",
+    "Full-size shard loading and IndexedDB/backup performance verification",
+    "Full-size device performance verification and release"
+  ]
+}

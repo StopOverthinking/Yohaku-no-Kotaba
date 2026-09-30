@@ -1,0 +1,22 @@
+[
+  {
+    "wordId": "lex-jmdict-1332170",
+    "category": "substantive",
+    "note": "기존 여러 지붕 수리 장면을 반복하지 않도록 교복 수선으로 변경."
+  },
+  {
+    "wordId": "lex-jmdict-1330240",
+    "category": "clarity",
+    "note": "배터리 1회 사용 시간과 제품 수명의 혼동을 피하여 물고기의 생존 기간으로 명확화."
+  },
+  {
+    "wordId": "lex-jmdict-1357550",
+    "category": "substantive",
+    "note": "直してもらった의 완료된 수리를 부탁했다로만 번역한 오류 수정."
+  },
+  {
+    "wordId": "lex-jmdict-1363260",
+    "category": "substantive",
+    "note": "기존 まず의 합격 소식을 맨 먼저 어머니에게 전하는 장면과 겹쳐 경보 시 출구 확인으로 변경."
+  }
+]

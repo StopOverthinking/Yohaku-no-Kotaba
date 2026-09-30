@@ -1,0 +1,578 @@
+[
+  {
+    "wordId": "handmade_74",
+    "sourceHash": "5c50efc1ca97a053d19c4f3a7ed6bb5cfd870f5605005b5d848ec08615d225a4",
+    "proposalHash": "9acedb2855bd16154d7cc358a95c5299c317ab17908c13be92ff537d0402cbb2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "結果의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_75",
+    "sourceHash": "9c8eff6e8d05b2b3d51037b0d36077b75c553ca79a014c53fec59b36a97a3b77",
+    "proposalHash": "c82e9c3328e497c36c93ff84cd5b9e4aaa12ee48a54e896bb315a30120b43cbb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "一生懸命의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_76",
+    "sourceHash": "6ea757c12257f4c07df505288762739e6547ac57a4e1eca206f59f8d5442529c",
+    "proposalHash": "ebec1fd930c40a3c729db0fd0f3dbf04ecb5fe016004537f46e73d26b36a03b8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "将来의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_77",
+    "sourceHash": "4f5c4d39d0b9c31b5a32416ce3bf903a8ebc192f84f52c12a48ced25a39c23d6",
+    "proposalHash": "b0d4fe71c13782b975255b3c8cabb6dea1f278252665830a1d62a44879e57a4b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "動物의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_78",
+    "sourceHash": "cd9c1bdc2f179919142febf09ecad3ded1f69fdf08080679557b0c16e47765c2",
+    "proposalHash": "9a9b9b223363138c799712eb4a9257cc09423c1e503344d63cca23936548a28c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "進路의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_79",
+    "sourceHash": "8403c8b5702ebf76be8ae65230ae5b6fb6f9e7a5fd32deb0d8ef95ada71b0cdd",
+    "proposalHash": "98e00d6299ed16aa75c6ff2e157f9a79c0ee245808ae65cdb0c2e90073cb0bb3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "合格의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_80",
+    "sourceHash": "6a14f2e4df9d2cf3d1748078414597f1f00ec615c08c67f8fdbce48d2a071e4c",
+    "proposalHash": "e188a7360df2060e636384c8b7038ff1fe7984557564890d58da20558ef7d4c4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "耳의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_81",
+    "sourceHash": "031af1b68aefb0c128c376fb04cfe8b53ea0092d2c6cd580d29a65478ab68b25",
+    "proposalHash": "b55dc33a90d88875acbf5313a8182cb8a7f5caed2a1976fcc14400143f695869",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "引っ越す의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_480",
+    "sourceHash": "590d30b0cc12d74a4ceedd8c90bbd173b3e7a243d18f3da58c19c3f9f11dcb1c",
+    "proposalHash": "75afca7b0cbffe29040882e9aa14e0ae80f36e588cccd0a541823f9cf593580f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "引っ越す의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_82",
+    "sourceHash": "7516de3dfcc4642d665ad831a78cb413ebc8f6eaf86a15bdd88630ae09a7ac79",
+    "proposalHash": "a0cdb983a1a1da0cb501e8a5e996144d2e1e657e9a50ce862daaeebbf95704d5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "連絡의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_83",
+    "sourceHash": "e9c63ca0c4dc6619f559ab0026b948a04f82b47b4e73c2ce9bc29dd6bf506968",
+    "proposalHash": "880f1045d3893e20aa5c7e340a9d7d5459c9cb2ae1c81946d171dd38668346a6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "先祖의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_84",
+    "sourceHash": "4b85ab6cb42dd3af9243186fea609c347c12c6f213eb0442c3820a19b6b855ce",
+    "proposalHash": "72da91222b27f4b95a344e89c5cfa7e4e0bfea973b534fa760e5b549b45291d1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "문어 유랑 예문은 일관되나 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_85",
+    "sourceHash": "17bbb50b03803d8f1a82e006f87c5a8630c9d912e039225b9855d22f3b570dd1",
+    "proposalHash": "ef83b8cd1259c254ab0c7ded5dee6c5a1686900114b6171b9bd576803d2d8f10",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "末의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_86",
+    "sourceHash": "2b3415260b3610d56986c569ddde7b4e009ede7ad87057198bdf7c5a1d39ff9e",
+    "proposalHash": "5598d9fc5098b0fbd75e75eff9a58d4d3f145f311fbcc966ad80133558719686",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "재귀 대명사 기능과 N5 기본 용법을 확인했다. 현재 명사 표시는 원본으로 보존한다."
+    ]
+  },
+  {
+    "wordId": "handmade_87",
+    "sourceHash": "cde3edf692daf79b9135924f3021f7da886080f47b61708a795c13b46b2b5089",
+    "proposalHash": "c7a692d4152081dca8d2f3540a3a34156e14d6fcc7d9dece570793dfb3dc610d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "소중함 대표 용법의 N5 분류이며 기존 별칭 검토의 의미 범위 보류를 해제하지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_88",
+    "sourceHash": "82d9a3276982173f1c153f52ebaffe6dc6a71dadd6e03255180a0f5a81757aa4",
+    "proposalHash": "72cdcafa817718b1ff8cea255d0f0d4664f66e6c0e1ee0dc804d27c22070f7ee",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "頭의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_89",
+    "sourceHash": "8fdbd47f1deba481de1b58d586fb80845dd7a3edbf8d876de244e2153f877470",
+    "proposalHash": "c0e5c16108eac61536e70abcd57a290485a817ea61c8e0c52ccd3e79e51d314b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "약의 두 예문은 일관되나 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_90",
+    "sourceHash": "5ec12584c6c10adcb0e6e7ab277c203e644fe3cc5bd34cb2b7edc48082b34eb2",
+    "proposalHash": "1dc0183074990a4b2659a59c2d78472c98d55d2943d0ec22e1f1271179dca27b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "果物의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_93",
+    "sourceHash": "e8e5f382e1e88bfe3aaf344048cebf96b3e89dc6362c79292eca25f4a3e96e4d",
+    "proposalHash": "6e148ec0861424a7c85d92324a53e5e7be0d933e87dc55a6419741ce9fd0a44b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "肌의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_94",
+    "sourceHash": "c9d9580d0b02018d91bd0da6cbf1bd46d3620515abc7dbeca6cc91e1555026b1",
+    "proposalHash": "380aee3fdb35bd32a104a846e07fed28aa6c4a9fa7e50af5fbf67f1ee3dee78c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "寒い의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_96",
+    "sourceHash": "44806614339c09f3defa0f1d586e8ccb3e7a01b843e5f632649d0849a3da20f8",
+    "proposalHash": "5a3745e60bdc8b649f02f293b87addf2a947caadd37f599ab1bc067f3f337065",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "冷たい의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_98",
+    "sourceHash": "c03284d0776859e194a3433d17165e7611794c9bbe934ee3ac86d82388d8a40a",
+    "proposalHash": "c94acbf8b48d2c736c414e6cdb20969da1060f7f905edb59fa58381452fe7732",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "汗의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_99",
+    "sourceHash": "1542976aad6a41782d0e65849e52e98f532dcdc24a491cd234fde2da65c7c207",
+    "proposalHash": "dcfe1a64c12abfe0c1ce23ace08a0d9f983753a0a623eda2d0e51974d6249d08",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "N5 탈의 용법은 같으나 두 ID의 신발·더워서 겉옷 벗기 장면이 반복된다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_190",
+    "sourceHash": "dce7539ecf0df8830fcc98be900fe682ba531ee3a59990103afad9d1d9fb91d1",
+    "proposalHash": "6cb6a6f7bf42e99c8d5a62c6a458b8035ce0ec06a1ae67337093cb1fc35db153",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "N5 탈의 용법의 별칭 후보이며 기존 두 장면의 반복은 별도 후속 대상이다."
+    ]
+  },
+  {
+    "wordId": "handmade_100",
+    "sourceHash": "de030a49c2a3c9b5647977273ff1fa428978d9444cde387b5a4cb65c101cb7f3",
+    "proposalHash": "1de974d0f069d58e0366f83d14c9978bd07ea2c441185ce1b912552ca6842d23",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "의문 대명사의 N5 기본 용법을 확인했다. 현재 명사 표시는 원본으로 보존한다."
+    ]
+  },
+  {
+    "wordId": "handmade_101",
+    "sourceHash": "d1adbbffbb2fe41169f666a60d682b2410eb99701207f612e300d9069abf4084",
+    "proposalHash": "e1a4d58e36b632bb8601af7fb11a53e7f942714a71c6cae86dd3e6c429d8c7a0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "事件의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_102",
+    "sourceHash": "a5e7a30781b6a3d7d0417a5dfe3d305e97fd029784b031698e61ae6e9ff79bd4",
+    "proposalHash": "adc39b28e9125a1e434b5d9573420775616d3d63606e51dbb8806b53cb83b027",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "자초지종의 뜻은 일관되나 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_103",
+    "sourceHash": "698d785b93e50a50b20faaceced47bd97ba36e2b4e03533e5aae227c06f2e98f",
+    "proposalHash": "01d42e43ae9a48b4d32d3bc35502b37072f961deeabdd572ae6dc03e21d8c7b7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "출처 등급 없음과 구별하여 일상 심리의 N3 편집 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "handmade_104",
+    "sourceHash": "890a963e16a0a703ba7e25c11bc0e5adfd1b9215dcedf76c9c2336196348997e",
+    "proposalHash": "f5cc41e47313b3d5c152853377f658c75ef42217aba2aa1995de9796d4fbdddb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "会議의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_105",
+    "sourceHash": "21509e26b1a2992e93ee6bc7d7d10620a9322267b04e7a1a078c9942e6503b23",
+    "proposalHash": "99ea34022cc8143eb58e14c92a10081a407d8c3723b4e88301349c2fce4b6d15",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "意見의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  },
+  {
+    "wordId": "handmade_106",
+    "sourceHash": "96f5682ef3d24de6e14e90e297cb3aeb3ef59d3cbfa10ad601d9265daa99b784",
+    "proposalHash": "abd93a97c060fe98b23d0f2b113626f2a0092048435d7265ef3604aaabe19810",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "N3 분류는 타당하며 표제어 확실히의 정돈·적절함 범위 보완은 참조 승인 전에 해결해야 한다."
+    ]
+  },
+  {
+    "wordId": "handmade_107",
+    "sourceHash": "8270e72e978f049fcd3df0538c9fdd66790d1627bf3baa94d9ee0f6e0de34ae3",
+    "proposalHash": "e99ce184c334e31f29de819e3e5657cf5b6904c4001c996d960702f59ec08b7f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-020.json",
+    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "notes": [
+      "著者의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+    ]
+  }
+]

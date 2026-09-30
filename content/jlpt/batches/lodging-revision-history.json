@@ -1,0 +1,50 @@
+[
+  {
+    "wordId": "lex-jmdict-1185290",
+    "previousPublication": {
+      "id": "lex-jmdict-1185290",
+      "level": "N4",
+      "source": {
+        "dictionary": "jmdict-1185290",
+        "proposedLevel": "N4",
+        "levelEvidence": {
+          "source": "openjlpt",
+          "levels": [
+            "N4"
+          ],
+          "matchedForms": [
+            "下宿"
+          ]
+        },
+        "assignment": "editorial-estimate"
+      },
+      "contentHash": "6c6508fbe85ce307a7a5ccb19dd34f5f5f0def29a1e6db68b0affe5d575d960e",
+      "publishedHash": "59e03128ad2a68c9222027d970be79e60e05fa53b076f1a2905b9d86653cf960"
+    },
+    "previousReview": {
+      "wordId": "lex-jmdict-1185290",
+      "contentHash": "6c6508fbe85ce307a7a5ccb19dd34f5f5f0def29a1e6db68b0affe5d575d960e",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+      "reviewedAt": "2026-09-30T00:45:01.838Z",
+      "notes": [
+        "하숙 형태/하숙집의 사전 의미 및 숙소 탐색·식사 제공·졸업 전 거주 확인."
+      ]
+    },
+    "oldExample": {
+      "id": "sense-lex-jmdict-1185290-1-ex-1",
+      "version": 1,
+      "before": "大学の近くで",
+      "answer": "下宿",
+      "after": "を探しています。",
+      "reading": "げしゅく",
+      "translation": "대학교 근처에서 하숙집을 찾고 있어요.",
+      "translationTarget": "하숙집",
+      "difficulty": 16,
+      "status": "reviewed"
+    }
+  }
+]

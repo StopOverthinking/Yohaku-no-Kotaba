@@ -1,6 +1,5 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { FrontMode } from '@/features/vocab/model/types'
 
 export type ThemeMode = 'dark' | 'light'
 
@@ -10,7 +9,6 @@ export type RequiredLearnRange = {
 }
 
 export type LearnDefaults = {
-  frontMode: FrontMode
   favoritesOnly: boolean
   wordCount: number
   rangeEnabled: boolean
@@ -47,7 +45,6 @@ type PreferencesState = {
 export const preferencesStorageKey = 'jsp-react:preferences'
 
 const defaultLearnDefaults: LearnDefaults = {
-  frontMode: 'japanese',
   favoritesOnly: false,
   wordCount: 10,
   rangeEnabled: false,
@@ -114,7 +111,7 @@ export function mergePreferencesState(persistedState: unknown, currentState: Pre
     ...persisted,
     learnDefaults: {
       ...currentState.learnDefaults,
-      ...persistedLearnDefaults,
+      ...Object.fromEntries(Object.entries(persistedLearnDefaults).filter(([key]) => key !== 'frontMode')),
       requiredRangesEnabled: persistedLearnDefaults.requiredRangesEnabled === true,
       requiredRanges: normalizeRequiredRanges(persistedLearnDefaults.requiredRanges),
     },

@@ -1,0 +1,19 @@
+{
+  "batch": "n5-008",
+  "status": "completed",
+  "completedParts": [
+    "01"
+  ],
+  "checkedWords": 23,
+  "acceptedWords": 23,
+  "acceptedExamples": 23,
+  "heldWords": 0,
+  "scope": "Complete independent dictionary, meaning, reading, POS, hint, contrast, example, translation, level and corpus review.",
+  "notes": [
+    "All 23 have N5 among conflicting source levels; selected ordinary basic meanings/readings support N5 editorial placement.",
+    "No quantity quota was used."
+  ],
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "updatedAt": "2026-09-30T04:55:50.002Z"
+}

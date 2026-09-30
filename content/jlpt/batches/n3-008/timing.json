@@ -1,0 +1,64 @@
+{
+  "batchId": "n3-008",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T04:11:21.595Z",
+  "status": "complete",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T04:11:21.596Z",
+      "metadataCompletedAt": "2026-09-30T04:12:57.160Z",
+      "draftCompletedAt": "2026-09-30T04:14:22.025Z",
+      "validationCompletedAt": "2026-09-30T04:14:23.256Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-09-30T04:14:23.257Z",
+      "metadataCompletedAt": "2026-09-30T04:16:39.849Z",
+      "draftCompletedAt": "2026-09-30T04:18:08.402Z",
+      "validationCompletedAt": "2026-09-30T04:18:09.676Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-09-30T04:18:09.677Z",
+      "metadataCompletedAt": "2026-09-30T04:20:05.851Z",
+      "draftCompletedAt": "2026-09-30T04:21:32.173Z",
+      "validationCompletedAt": "2026-09-30T04:21:33.425Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-09-30T04:21:33.426Z",
+      "metadataCompletedAt": "2026-09-30T04:23:37.060Z",
+      "draftCompletedAt": "2026-09-30T04:25:04.832Z",
+      "validationCompletedAt": "2026-09-30T04:25:06.073Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    }
+  ],
+  "completedAt": "2026-09-30T04:25:06.074Z",
+  "totalWords": 100,
+  "totalExamples": 100
+}

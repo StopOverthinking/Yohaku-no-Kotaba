@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "3e79d0f8b0fa75d5ceb04d6434a73ef58a764037b126fe26efe46181a7d719b7",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:57:27.981Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1254930",
+      "596c1a22688395d43924ca2dcaf472b6259c67e5d00c7dc819f4a0f1fe2d9114"
+    ],
+    [
+      "lex-jmdict-1255180",
+      "913c30f2e6bd06703cac59bbbc4bc7c96f2dc405cd1c7554bcc3168e34315544"
+    ],
+    [
+      "lex-jmdict-1255690",
+      "535aa532a2f52dae7c6d8d0095a9531db35140e577eac30ad3b01fb5bb829181"
+    ],
+    [
+      "lex-jmdict-1255800",
+      "24a149bb6b7188b26e3cb80495f832aa004435a7b5e6b3cdaf6bd56c01195133"
+    ],
+    [
+      "lex-jmdict-1255810",
+      "94b40144665a741e41d2d1e3c63a290a7dbc54f4f927ed663d23c14901686baa"
+    ],
+    [
+      "lex-jmdict-1256010",
+      "3ff4995ddfe8dca00a0594726b373a08d30a15b47c776cd6e6798421340d3a0a"
+    ],
+    [
+      "lex-jmdict-1256110",
+      "515089ad2fcffef536ef40beab029475b1e71f914ab1c8dd13e8b27bc477f6f9"
+    ],
+    [
+      "lex-jmdict-1256300",
+      "8baf6b4799720759f16253e0fa45bd8a54ffbfba00ffb55b2eced5b30c8017e3"
+    ],
+    [
+      "lex-jmdict-1256360",
+      "c467233f89cf6442773fb2ef1abcff5bbd8cab7e085325d109299741e3031560"
+    ],
+    [
+      "lex-jmdict-1256720",
+      "7ed6831af3b878c85087aba5a33556156fa07ad2ecdbef66169d20dfecd68215"
+    ],
+    [
+      "lex-jmdict-1257690",
+      "dd5b30262c74e7af9b4ee375ac844d4b12116156217682e4a152809f07449d36"
+    ],
+    [
+      "lex-jmdict-1257930",
+      "1fcc9bcf256983852aeb575a6de80d6d7040dbd6ca60c87915c9574431964a43"
+    ],
+    [
+      "lex-jmdict-1258090",
+      "66a326f344dbd7c75bc16b73deee3c20577d883ec9b936d7b698c6f91fd472a3"
+    ],
+    [
+      "lex-jmdict-1258130",
+      "c90f48bb2d6de158bb09e3f0df925092aff7ea444e191dab326060cdc2e397a7"
+    ],
+    [
+      "lex-jmdict-1259180",
+      "0158eff2714dc392993a3c7339339c3e589a18c080da91b937fce71da0390916"
+    ],
+    [
+      "lex-jmdict-1259200",
+      "9c8243c5e888e7f23974d242d72bdef3d48ff7acf1e022f9536c852e772e228d"
+    ],
+    [
+      "lex-jmdict-1259250",
+      "2363274766f38765bf7eafadf074f63ee061f53a42344b4c27a8b5e77e8ac4ca"
+    ],
+    [
+      "lex-jmdict-1259500",
+      "3bf8c01bf8a3cf318a1ae9c4e89fbae991bb2734fa619bf0c454b2f601b98c89"
+    ],
+    [
+      "lex-jmdict-1259550",
+      "37ba189968dbbddc73fdf384b37e79b3e1619f5ccfa05dbc095738ad15b37700"
+    ],
+    [
+      "lex-jmdict-1259570",
+      "c4c1850335cfa5d8e0c69e9bd302556648616f326e8d9f03f2f5d3e0433d59f9"
+    ],
+    [
+      "lex-jmdict-1259770",
+      "f6d409592d4dd106471095e257270321c4e73797b2d9abc4a39f86bb7ea48db8"
+    ],
+    [
+      "lex-jmdict-1259920",
+      "e77692901bc36c16a2514e22bbbeda30b8ce9ec07011c56423f14ac1678685db"
+    ],
+    [
+      "lex-jmdict-1260140",
+      "da9e901b19774963e4746163c050c6a133b15346fece79caa5ce2b3ff274b591"
+    ],
+    [
+      "lex-jmdict-1260320",
+      "0a7d5bcfdb1ea6f7a6cf6d97b1089ba8f17b1b761bbf306c999e609f3947b7ec"
+    ],
+    [
+      "lex-jmdict-1260380",
+      "e2e937ad250f08b13591f98b1b278348083acaee050b3c99ea6c8f1e7b5ab36e"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1256110",
+      "category": "substantive",
+      "note": "한국어 형용사로 부적절한 무럭무럭하다를 사전의 건강하고 튼튼한 뜻으로 고쳤다."
+    },
+    {
+      "wordId": "lex-jmdict-1259920",
+      "category": "substantive",
+      "note": "見下ろす의 전망대·강 모양 장면과 겹쳐 행사장 전체의 빈자리를 살피는 장면으로 교체했다."
+    }
+  ]
+}

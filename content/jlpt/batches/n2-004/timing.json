@@ -1,0 +1,70 @@
+{
+  "startedAt": "2026-09-30T04:59:10.471Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T05:00:30.697Z",
+      "metadataCompletedAt": "2026-09-30T05:01:07.812Z",
+      "draftCompletedAt": "2026-09-30T05:02:28.545Z",
+      "checksCompletedAt": "2026-09-30T05:02:28.681Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 2,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 87,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T05:04:45.570Z",
+      "metadataCompletedAt": "2026-09-30T05:04:47.309Z",
+      "draftCompletedAt": "2026-09-30T05:06:10.822Z",
+      "checksCompletedAt": "2026-09-30T05:06:10.963Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 89,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-09-30T05:09:03.674Z",
+      "metadataCompletedAt": "2026-09-30T05:12:08.531Z",
+      "draftCompletedAt": "2026-09-30T05:13:37.028Z",
+      "checksCompletedAt": "2026-09-30T05:13:37.170Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 2,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 91,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "04",
+      "startedAt": "2026-09-30T05:15:58.979Z",
+      "metadataCompletedAt": "2026-09-30T05:16:00.732Z",
+      "draftCompletedAt": "2026-09-30T05:17:29.803Z",
+      "checksCompletedAt": "2026-09-30T05:17:29.946Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 93,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ],
+  "pureCompositionTime": null,
+  "scope": "practical-vocabulary-only-no-forced-count",
+  "limitations": "파일 저장·검사 시각은 실측, 순수 사고 작성 시간은 분리 측정 불가"
+}

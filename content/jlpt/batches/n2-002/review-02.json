@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "4501459e4ffc182c8d50187ba7964bef453f75055518c769a7ac99f2f32d2335",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:19:48.032Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1028990",
+      "166dbebbb14103b0ab53f84497db2eac2e153c0abefb7627745757c10742c2e0"
+    ],
+    [
+      "lex-jmdict-1029760",
+      "3861ec70ea7fa02e7c25f2e487917a1ca406a6739ed9fca92e7836bbda409708"
+    ],
+    [
+      "lex-jmdict-1031610",
+      "f0e28606e4f0f62c7df5438e1693b3466fe068e0cc261df7db067eddf782f61c"
+    ],
+    [
+      "lex-jmdict-1032180",
+      "8f8ed8b018b1d0fa5278b9cb8bf262d88609d5a4e43236cd7dcfb9de1cf1e436"
+    ],
+    [
+      "lex-jmdict-1035780",
+      "be2a7de918dcb62bd76f2e6e55a7a358ef36429ff1359a26fd7c31c5a4d0d2e0"
+    ],
+    [
+      "lex-jmdict-1036560",
+      "9668d484d7f3da0ae6b145cd5797aee58f3b9e720c57081529ecd88ac3f89b53"
+    ],
+    [
+      "lex-jmdict-1037960",
+      "10a84f589a7da1df1418caaf4e734c74477c6f94205a9c71541198350498c0d7"
+    ],
+    [
+      "lex-jmdict-1039300",
+      "155afa4fa82ce6d13447082d0cc9360002cc441daafa5aa51caeb9fdd850da27"
+    ],
+    [
+      "lex-jmdict-1040350",
+      "d9971b1657894ecae1c2b7413e3d0d134d137a3e7b88f73e9c50c6adda8eb957"
+    ],
+    [
+      "lex-jmdict-1042150",
+      "49bdf4385f74ab63ea3cedb63252673d28cee88d1bb645e82e0e90a3a965cda1"
+    ],
+    [
+      "lex-jmdict-1043310",
+      "e9f185ea43304c11d18bf16d8f29b3da887857dc6c2b20088c90541920d9a7e3"
+    ],
+    [
+      "lex-jmdict-1044440",
+      "fe352d0b7486dc6993b9d93aa8909bc96c22660eed37f4d3c40d7e16586e4973"
+    ],
+    [
+      "lex-jmdict-1048830",
+      "2ea334b67da82f8d4dd2babef58f00ec1588b6c85b11bf7a7e41cca689d7e9ef"
+    ],
+    [
+      "lex-jmdict-1049340",
+      "4c3368198b46ccb30532be6a327ec343bf798ebddd020eaef1271d7ec00e9ab5"
+    ],
+    [
+      "lex-jmdict-1050310",
+      "13082691e80f6e9163f0e9b8451bba769cda04ed4a11bc2c3660eb9d9be80c11"
+    ],
+    [
+      "lex-jmdict-1051540",
+      "c738a35916d2edfaf8f7de964ca1baba576ee9fbc98d002a5f1b5fa9f7d935e6"
+    ],
+    [
+      "lex-jmdict-1051840",
+      "1bee4ce476963daba5042ba45b9de15f2fd741faa782660813badbc5aed565cb"
+    ],
+    [
+      "lex-jmdict-1052330",
+      "211e14eb5b31ed22ecef37c2df37c023902874f58a4efff4ae99ade0ff949795"
+    ],
+    [
+      "lex-jmdict-1054850",
+      "a683d72dca674e6daa81d3d5e470fd8384463efe5401004f2fe8bd135b1d4e24"
+    ],
+    [
+      "lex-jmdict-1056150",
+      "a30af33cfaa2e71f9ec2a63b6799bab9a38b9c20204af531cec32a28f2770dd5"
+    ],
+    [
+      "lex-jmdict-1057960",
+      "ab3052ae85f74129a2d3eb00644fa5710bd32d12ec5eb25719ccebd324e35231"
+    ],
+    [
+      "lex-jmdict-1058760",
+      "b3edbdaeb5a9677ce2460b1c509345bcf422565fa0346ecae7caabc00197403f"
+    ],
+    [
+      "lex-jmdict-1059300",
+      "21b58f2fdc0b960577fc03a7e73bc8a19b67fb528f324440ad9cce3cb2ae1e72"
+    ],
+    [
+      "lex-jmdict-1059400",
+      "7c6463da43a4db8354f8e51fded9f4784a2fdbbc349da935f9dd699890836d33"
+    ],
+    [
+      "lex-jmdict-1061440",
+      "6f96ad05c0565cb548813eb524a9fed7b6ba32cfb4cb8d8c1c1133cca5d3169c"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1044440",
+      "category": "substantive",
+      "note": "세탁소 세탁을 맡긴다는 어색한 한국어를 전문 세탁을 맡긴다는 표현으로 다듬음."
+    },
+    {
+      "wordId": "lex-jmdict-1054850",
+      "category": "substantive",
+      "note": "休日를 주말로 한정하지 않고 쉬는 날로 번역함."
+    }
+  ]
+}

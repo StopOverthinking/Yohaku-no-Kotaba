@@ -2,8 +2,8 @@ import type {
   ContextCard,
   ContextSession,
   ContextState,
-  LearnExample,
-  LearnSense,
+  LearnExampleIndex,
+  LearnSenseIndex,
   ReviewProfile,
 } from './contextTypes'
 
@@ -16,9 +16,20 @@ export const RECOMMENDATION_POLICY = {
   ongoingTarget: 0.75,
   failurePenalty: 0.25,
   failureDayCap: 4,
-  intervals: [1, 3, 7, 14, 30, 60, 120, 180],
+  intervals: [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 120, 150, 180],
 } as const
+export const SCHEDULE_VERSION = 2
 export const REVIEW_INTERVALS = RECOMMENDATION_POLICY.intervals
+export function reviewInterval(step: number, failedDays: number) {
+  return Math.max(
+    1,
+    Math.round(
+      REVIEW_INTERVALS[step] /
+        (1 +
+          RECOMMENDATION_POLICY.failurePenalty * Math.min(failedDays, RECOMMENDATION_POLICY.failureDayCap)),
+    ),
+  )
+}
 export function localDay(date = new Date()) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
 }
@@ -26,10 +37,10 @@ export function addDays(day: string, days: number) {
   const [y, m, d] = day.split('-').map(Number)
   return localDay(new Date(y, m - 1, d + days, 12))
 }
-export const profileKey = (sense: LearnSense) => `${sense.id}@${sense.version}`
+export const profileKey = (sense: LearnSenseIndex) => `${sense.id}@${sense.version}`
 export const expectedKnown = (level: number, difficulty: number) =>
   1 / (1 + Math.exp((difficulty - level) / RECOMMENDATION_POLICY.probabilityScale))
-export function emptyContextState(senses: LearnSense[]): ContextState {
+export function emptyContextState(senses: LearnSenseIndex[]): ContextState {
   const difficulties = senses
     .flatMap((s) => s.examples.filter((e) => e.status === 'reviewed').map((e) => e.difficulty))
     .sort((a, b) => a - b)
@@ -42,6 +53,7 @@ export function emptyContextState(senses: LearnSense[]): ContextState {
         : (difficulties[middle - 1] + difficulties[middle]) / 2
   return {
     version: 2,
+    scheduleVersion: SCHEDULE_VERSION,
     revision: 0,
     level: { value: median, assessedWordIds: [] },
     profiles: {},
@@ -51,10 +63,10 @@ export function emptyContextState(senses: LearnSense[]): ContextState {
 }
 
 export function chooseExample(
-  sense: LearnSense,
+  sense: LearnSenseIndex,
   profile: ReviewProfile | undefined,
   day: string,
-): LearnExample {
+): LearnExampleIndex {
   const examples = sense.examples.filter((e) => e.status === 'reviewed')
   // Across sessions on the same date, retain the teaching example too.
   const sameDay = profile?.lastDay === day && examples.find((e) => e.id === profile.lastExampleId)
@@ -73,7 +85,7 @@ export function chooseExample(
 export function selectNext(
   state: ContextState,
   session: ContextSession,
-  senses: LearnSense[],
+  senses: LearnSenseIndex[],
   day: string,
 ): ContextCard | null {
   const byId = new Map(senses.map((s) => [s.id, s]))
@@ -85,33 +97,35 @@ export function selectNext(
     state.level.assessedWordIds.length < RECOMMENDATION_POLICY.calibrationWords
       ? RECOMMENDATION_POLICY.calibrationTarget
       : RECOMMENDATION_POLICY.ongoingTarget
-  const ranked = senses
-    .filter((s) => candidates.has(s.wordId) && !selectedWords.has(s.wordId))
-    .map((sense) => {
-      const profile = state.profiles[profileKey(sense)]
-      const example = chooseExample(sense, profile, day)
-      const priority = required.has(sense.wordId) ? 0 : profile && profile.due <= day ? 1 : !profile ? 2 : 3
-      return {
-        sense,
-        profile,
-        example,
-        priority,
-        distance: Math.abs(expectedKnown(state.level.value, example.difficulty) - target),
-      }
-    })
-    .filter((entry) => entry.priority < 3 || session.allowEarly)
-    .sort(
-      (a, b) =>
-        a.priority - b.priority ||
-        (a.priority === 1
-          ? a.profile!.due.localeCompare(b.profile!.due) || b.profile!.failures - a.profile!.failures
-          : 0) ||
-        (a.priority === 3 ? a.profile!.due.localeCompare(b.profile!.due) : 0) ||
-        a.distance - b.distance ||
-        (tie.get(a.sense.wordId) ?? 0) - (tie.get(b.sense.wordId) ?? 0) ||
-        a.sense.id.localeCompare(b.sense.id),
-    )
-  const first = ranked[0]
+  type Ranked = { sense: LearnSenseIndex; profile: ReviewProfile | undefined; example: LearnExampleIndex; priority: number; distance: number }
+  const compare = (a: Ranked, b: Ranked) =>
+    a.priority - b.priority ||
+    (a.priority === 1
+      ? a.profile!.due.localeCompare(b.profile!.due) || b.profile!.failures - a.profile!.failures
+      : 0) ||
+    (a.priority === 3 ? a.profile!.due.localeCompare(b.profile!.due) : 0) ||
+    a.distance - b.distance ||
+    (tie.get(a.sense.wordId) ?? 0) - (tie.get(b.sense.wordId) ?? 0) ||
+    a.sense.id.localeCompare(b.sense.id)
+  // Only the first ranked entry is used. A full sort needlessly allocates and
+  // compares the entire 12k-word pool after every answer.
+  let first: Ranked | undefined
+  for (const sense of senses) {
+    if (!candidates.has(sense.wordId) || selectedWords.has(sense.wordId)) continue
+    const profile = state.profiles[profileKey(sense)]
+    const priority = required.has(sense.wordId) ? 0 : profile && profile.due <= day ? 1 : !profile ? 2 : 3
+    if (priority === 3 && !session.allowEarly) continue
+    if (first && priority > first.priority) continue
+    const example = chooseExample(sense, profile, day)
+    const entry = {
+      sense,
+      profile,
+      example,
+      priority,
+      distance: Math.abs(expectedKnown(state.level.value, example.difficulty) - target),
+    }
+    if (!first || compare(entry, first) < 0) first = entry
+  }
   return first
     ? {
         senseId: first.sense.id,
@@ -133,7 +147,7 @@ export type StartContextOptions = {
 export function startContext(
   state: ContextState,
   options: StartContextOptions,
-  senses: LearnSense[],
+  senses: LearnSenseIndex[],
   day: string,
   random = Math.random,
 ): ContextState {
@@ -194,8 +208,8 @@ export function startContext(
 
 export function reviewProfile(
   previous: ReviewProfile | undefined,
-  sense: LearnSense,
-  example: LearnExample,
+  sense: LearnSenseIndex,
+  example: LearnExampleIndex,
   known: boolean,
   hint: boolean,
   day: string,
@@ -226,15 +240,7 @@ export function reviewProfile(
     profile.due = addDays(day, 1)
   } else if (previous && isFirstToday && profile.due <= day) {
     profile.step = Math.min(REVIEW_INTERVALS.length - 1, profile.step + 1)
-    const days = Math.max(
-      1,
-      Math.round(
-        REVIEW_INTERVALS[profile.step] /
-          (1 +
-            RECOMMENDATION_POLICY.failurePenalty *
-              Math.min(profile.failedDays, RECOMMENDATION_POLICY.failureDayCap)),
-      ),
-    )
+    const days = reviewInterval(profile.step, profile.failedDays)
     profile.due = addDays(day, days)
   }
   const exampleStats = profile.examples[example.id] ?? { seen: 0, failures: 0, hints: 0 }
@@ -251,7 +257,7 @@ export function reviewProfile(
 export function answerContext(
   state: ContextState,
   known: boolean,
-  senses: LearnSense[],
+  senses: LearnSenseIndex[],
   day: string,
 ): ContextState {
   if (!state.session) return state

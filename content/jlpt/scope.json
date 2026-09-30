@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "policy": "practical-coverage",
+  "changedAt": "2026-09-30",
+  "authorization": "사용자가 1만 개는 어림값이며 비실용적이라 판단하면 자체적으로 목표 수를 줄여도 된다고 명시함.",
+  "provisionalRange": [6000, 8000],
+  "rangeIsQuota": false,
+  "selectionCriteria": [
+    "N5~N1 전체의 기초 생활·직장·일반 독해·사회·문화 어휘를 고르게 보완한다.",
+    "드문 전문어·인명·지명·중복 표현을 숫자 충족용으로 넣지 않는다.",
+    "미선정 후보의 활용도와 수준별 누락을 검토한 뒤 최종 수량을 확정한다.",
+    "기존 검토 콘텐츠와 학습 기록을 보존하며 모든 수록 용법에 검토 예문을 최소 1개 제공한다."
+  ],
+  "finalSelection": null
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "48adf83976b51daaedc3e8517efd8ac441bbfe21e1acd78e55d2218bdaf2515f",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:26:46.137Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1168660",
+      "57a43402ceb7aff437e2e80bf58422b9396b207a2fd1a817e29385350e48e7ef"
+    ],
+    [
+      "lex-jmdict-1183050",
+      "eb0dbc51b827a9f1656b7558d13c50614fea5261002083b05c91540e70769865"
+    ],
+    [
+      "lex-jmdict-1200450",
+      "c1681057197e86be1da834d84b4bda7714588e07cd17eb4ff902b3b9d17340fd"
+    ],
+    [
+      "lex-jmdict-1206360",
+      "7f0ee42e980eaa670975e86c92ca385ae8a3d396a577db0834def713414e9d58"
+    ],
+    [
+      "lex-jmdict-1207730",
+      "02de0049eb5f9cb6364110b11a24bc66d033e41b27d64378ba74bc0ce0b794a7"
+    ],
+    [
+      "lex-jmdict-1219560",
+      "df3fde960c54ff8f5117ee86ae448097b761a4cbee4c68588eec328be16add5f"
+    ],
+    [
+      "lex-jmdict-1221240",
+      "cf10fd81ed88743ddc21a0479a29d48d7071ce934a6ffafc7bb655a0edb607b0"
+    ],
+    [
+      "lex-jmdict-1218360",
+      "e9cee694dc5ad21beda2208280a8bd48fe8927cca54226f7d4926d8bb4abff59"
+    ],
+    [
+      "lex-jmdict-1200740",
+      "8fe38124de47ec7b02ffb2753f127a4d5845d26eb028bff07bce4a23a1a30f25"
+    ],
+    [
+      "lex-jmdict-1220060",
+      "5420c957147c1092d4bf52b40d2e9053fcbf54a2bfc41e413a041c435de21196"
+    ],
+    [
+      "lex-jmdict-1205490",
+      "d1f93551401e0ee80dd0b985c8f56972e29dfb1ba34e35a7a0feaef7c9169d03"
+    ],
+    [
+      "lex-jmdict-1196170",
+      "689b735f43711aeea505f11922f0c3854186a79cf45cf1e07da58d6888dd669f"
+    ],
+    [
+      "lex-jmdict-1176510",
+      "15e9575f522fb2abd1544ce93890f69e347231d4ce67d5ce70a6d9f87f14a05e"
+    ],
+    [
+      "lex-jmdict-1190810",
+      "3de19a760c69df00ae31775498114236516785556d09f73cd5b01c6d7a94e9b7"
+    ],
+    [
+      "lex-jmdict-1195790",
+      "f5801b667339e07a1452842a477127cbc0bee04700c41828954ce2a128716817"
+    ],
+    [
+      "lex-jmdict-1196270",
+      "9a8f7afdfba0d6fb631137c36316fe66397bd27e2536f3fd4e99f915f306e494"
+    ],
+    [
+      "lex-jmdict-1199250",
+      "76bfd1b39f2c6671cc36bed640758aacf2827c9b4be933bf6bdd79ea9eb6d74b"
+    ],
+    [
+      "lex-jmdict-1199080",
+      "6582e93ae6b41bbdbd9d848bc266e49c19a7024a0eb337f2521fe789d097894f"
+    ],
+    [
+      "lex-jmdict-1199640",
+      "7fc72b3f706fd5c25750dbc84164d4465539a44f608f6443ac6db1222345ce57"
+    ],
+    [
+      "lex-jmdict-1199680",
+      "b8694aa69cb063422e7254fae8964d9a791bd54a6b7fb00ad51cddb97b94d5cb"
+    ],
+    [
+      "lex-jmdict-1200930",
+      "783399630b06571dd3421edd58eafedcd7d95502146de4c7a7c405f9f881b36d"
+    ],
+    [
+      "lex-jmdict-1209920",
+      "e631f3d42f51f16ecab259fc284f219127f9ec5eabdf002d090f8fbf5e569d85"
+    ],
+    [
+      "lex-jmdict-1212780",
+      "08507f4a389e783ca310001de70f41e5b79aeb4b6f1f57d78e2147229668d3c4"
+    ],
+    [
+      "lex-jmdict-1214980",
+      "183b44c159d7d8ddaac246d148e52453b19aa1a4585eb40c15315c1d76a39b2b"
+    ],
+    [
+      "lex-jmdict-1223820",
+      "17d3f05184ea1cea74a0d26f1f5dcdb43c032d2bebb42fd47f461a6a30bcd2f2"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1220060",
+      "category": "substantive",
+      "note": "幾分가 변화에만 쓰인다는 잘못된 힌트 한정을 제거했다."
+    },
+    {
+      "wordId": "lex-jmdict-1200740",
+      "category": "clarity",
+      "note": "대표 다시·새로이 용법을 항상 정식 절차로 한정하지 않도록 힌트를 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1168660",
+      "category": "clarity",
+      "kind": "additional-usage",
+      "note": "조건에 달림과 별도로 원인에 기인함을 보여 주는 예문을 보강했다."
+    },
+    {
+      "wordId": "lex-jmdict-1200450",
+      "category": "clarity",
+      "kind": "additional-usage",
+      "note": "후회와 별도로 죽음을 애통해하는 뜻을 보여 주는 예문을 보강했다."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "startedAt": "2026-09-30T04:16:16.104Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T04:18:15.598Z",
+      "metadataCompletedAt": "2026-09-30T04:18:17.251Z",
+      "draftCompletedAt": "2026-09-30T04:20:15.674Z",
+      "checksCompletedAt": "2026-09-30T04:20:15.809Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 2,
+      "errorCount": 2,
+      "errors": [
+        {
+          "at": "2026-09-30T04:19:29.489Z",
+          "message": "Masked duplicate お手洗い"
+        },
+        {
+          "at": "2026-09-30T04:19:55.143Z",
+          "message": "Masked duplicate チューリップ"
+        }
+      ],
+      "comparedFiles": 69,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ],
+  "pureCompositionTime": null,
+  "limitations": "단계별 실제 저장 및 검사 시각을 기록하며 순수 사고·작성 시간은 분리 측정할 수 없다.",
+  "completedAt": "2026-09-30T04:20:21.031Z",
+  "words": 25,
+  "examples": 25
+}

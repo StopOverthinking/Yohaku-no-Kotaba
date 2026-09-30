@@ -1,0 +1,349 @@
+[
+  {
+    "wordId": "JLPTN3_301",
+    "sourceHash": "e49f450755cd1236fe5bdc86e95b34ea58635f60825863eff214dea820fe9c8a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1592990",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “교체” 및 1개 sense를 대조했다. taking turns·shift와 두 시간마다 운전 교대·야간 근무 교대 예문이 일치한다. 기존 JLPTN3_300의 交代와 같은 사전 ID이며 두 항목 모두 운전 교대 의미가 있어 별칭 후보로 제안하되 현재 ID는 각각 보존한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_300"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_302",
+    "sourceHash": "fca568aee894bbf2d549e51eb63a43ce505eb34d0b4b12e8be03602d8ce0f34f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1282100",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “행동” 및 1개 sense를 대조했다. action·conduct와 일상 행동을 보고 판단함·둘씩 짝을 지어 행동함 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_303",
+    "sourceHash": "ad9d7afcc476ac8c0717c877c23640908ea43b3ddd0c2c159cdbbc52049a9fae",
+    "level": "N2",
+    "dictionaryId": "jmdict-1272580",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “교류” 및 1개 sense를 대조했다. cultural exchange·interaction와 자매 도시 교류·세대 간 교류 예문이 일치한다. 교류 전류 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_304",
+    "sourceHash": "8729c44135e4df12dbeea6f6048136006cb153e50a926b3280bd5f78fd795a53",
+    "level": "N3",
+    "dictionaryId": "jmdict-1488840",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “얼음” 및 1개 sense를 대조했다. ice와 주스의 얼음·얇은 연못 얼음 예문이 일치한다. 빙수 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_305",
+    "sourceHash": "f848bcb161a262999aa1fddbdebe0a598d7c91d584462102cfcb7bb7dc999d72",
+    "level": "N3",
+    "dictionaryId": "jmdict-1266470",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “호흡” 및 1개 sense를 대조했다. breathing·respiration와 긴장 때 얕은 호흡·아기 호흡에 따른 가슴 움직임 예문이 일치한다. 요령이나 호흡이 맞는다는 비유 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_306",
+    "sourceHash": "90a4382de81251a2674a498fb110e383a50044c067c38e5dd7c2839774364dec",
+    "level": "N3",
+    "dictionaryId": "jmdict-1288340",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “허리” 및 1개 sense를 대조했다. lower back·waist와 무거운 상자로 다친 허리·일어날 때 허리에 손을 댐 예문이 일치한다. handmade_69의 허리 통증·허리 높이 용법과 같은 사전 ID 및 신체 의미여서 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_69"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_69",
+    "sourceHash": "dd922af961cc29a20b1d76f2e10727205a2e607b7f60e81b6dee9f854ec88f84",
+    "level": "N3",
+    "dictionaryId": "jmdict-1288340",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “허리” 및 1개 sense를 대조했다. lower back·waist와 오래 앉아 뻐근한 허리·물의 허리 높이 예문이 일치한다. JLPTN3_306과 같은 신체 의미의 중복 학습 항목이므로 별칭 후보지만 ID와 이력은 병합하지 않는다.",
+    "aliasCandidateIds": [
+      "JLPTN3_306"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_307",
+    "sourceHash": "2afa6608541ac6fbcb6c79e9577b464080c1179d80cb2ad54277e555b091ab2e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1267180",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “고장” 및 1개 sense를 대조했다. breakdown·being out of order와 고장 난 승강기·이상 소리의 고장 징조 예문이 일치한다. 신체 손상 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_308",
+    "sourceHash": "d6111d0a48aafdf4ab0f71f43ecd0d5bf476634fb3b13bfa00a6532192c2707d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1264770",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “개인” 및 1개 sense를 대조했다. individual·personal와 개인 여행자·개인의 의견 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_309",
+    "sourceHash": "5ee82dc8f8a920288ca75a281456c27c0b8926034048e2029c3145c56dae09cb",
+    "level": "N3",
+    "dictionaryId": "jmdict-1504770",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “가루” 및 1개 sense를 대조했다. powder·flour와 봉지의 흰 가루·가루 형태의 약 예문이 일치한다. 특정 마약 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_310",
+    "sourceHash": "d52cef1588be4e61054a81105ff759d5362452fb1c082aa0034f6fed4da64c8a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1508750",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “쌀” 및 1개 sense를 대조했다. rice와 쌀을 씻음·본가에서 받은 쌀 예문이 일치한다. 米의 다른 읽기나 인터넷 댓글 의미와 구분한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_311",
+    "sourceHash": "e71f69283cb7fe5e892130289643cd226105ac6eca03f00a2eab517b9044e052",
+    "level": "N3",
+    "dictionaryId": "jmdict-1293940",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “최종” 및 1개 sense를 대조했다. final와 마지막 확인, last train와 최종 전철 예문이 각각 대응한다. 마지막 단계라는 현재 sense는 두 결합을 포함한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_312",
+    "sourceHash": "5e809a228468de6cb5e7e1193c48bbc927cb44045db1a42dbd14a1aca011fa38",
+    "level": "N3",
+    "dictionaryId": "jmdict-1579200",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “최상” 및 1개 sense를 대조했다. best·finest와 최상의 찻잎·최상의 숙소 상태 예문이 일치한다. 제공 등급 근거는 없지만 최고 품질을 평가하는 현재 의미를 중급 N3 편집 범위로 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_313",
+    "sourceHash": "8703dfc666fde397fbb98491e06331fed8fed4cd746679472ec7bd112f358047",
+    "level": "N3",
+    "dictionaryId": "jmdict-1296670",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “재료” 및 1개 sense를 대조했다. materials·ingredients와 저녁 요리 재료·공작 재료 예문이 일치한다. 판단 근거나 시장 요인 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_314",
+    "sourceHash": "524ee1cdd7adee49aff92518341cf4965070d168f6d4fe988dc7795c98c9e45f",
+    "level": "N4",
+    "dictionaryId": "jmdict-1297120",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “비탈길” 및 1개 sense를 대조했다. hill road와 비탈길 오르기·자전거로 급경사를 내려가기 예문이 일치한다. 제공 등급은 없지만 기본적인 보행·이동 경사의 생활 명사로 N4를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_315",
+    "sourceHash": "f6f2022da0c0ba352075f35d753ee589b5d131523c42b852eb018b95dfbb4214",
+    "level": "N3",
+    "dictionaryId": "jmdict-1297540",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “작업” 및 1개 sense를 대조했다. work·task와 지붕 수리 작업·밝은 곳에서 하는 세밀한 작업 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_316",
+    "sourceHash": "66b97675d9da4397111ea6d500e333188f6498888fdb96deec69b0e19c8c89a4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1297950",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “작물, 농작물” 및 1개 sense를 대조했다. crop·agricultural produce와 장마 피해 작물·토양에 맞는 작물 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_317",
+    "sourceHash": "3ac88eeb4e49096514201f0c56fee3b0539688f0152a485335267be66a8073a5",
+    "level": "N5",
+    "dictionaryId": "jmdict-1299400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “잡지” 및 1개 sense를 대조했다. magazine·periodical와 대기실 잡지·매달 구매하던 잡지 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_318",
+    "sourceHash": "07c47a70a8cad61c819148a792051da88ca465df6be36dd8ae7d0ee99cf78592",
+    "level": "N3",
+    "dictionaryId": "jmdict-1290810",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “좌우” 및 1개 sense를 대조했다. left and right와 길을 건너기 전 좌우 확인·사진 좌우 반전 예문이 일치한다. 영향력을 미친다는 suru 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_319",
+    "sourceHash": "d082634e85082cbeb6f125ff2075fd5e0a2a8a891ea671f58bac708ccf415f9d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1302090",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “참가” 및 1개 sense를 대조했다. participation·entry와 먼 곳에서의 참가·대회 참가 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_320",
+    "sourceHash": "1cf27230f86cd3c263febf5090d11b78b209680b9d7da7155ea220236c4bca2b",
+    "level": "N1",
+    "dictionaryId": "jmdict-1304200",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “찬성” 및 1개 sense를 대조했다. approval·agreement와 일정 연장안에 동의함·찬반을 결정하지 못함 예문이 일치한다. 제공 N1 출처 근거에 따른 제안이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_321",
+    "sourceHash": "83884f88bc3a41edbdcfbee51a3d295fa138ceead35694b0b96402a4479b8f57",
+    "level": "N5",
+    "dictionaryId": "jmdict-1576630",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “소금” 및 1개 sense를 대조했다. salt·table salt와 수프에 소금 넣기·소금으로 생선 굽기 예문이 일치한다. 고생이나 냉담함이라는 다른 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_322",
+    "sourceHash": "ca5b2ff0e413f873f286d432c8ba9d54cfcb261b6e328550c27771f6f2b09b42",
+    "level": "N3",
+    "dictionaryId": "jmdict-1310130",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “지급” 및 1개 sense를 대조했다. supply·payment와 제복 제공·교통비 지급일 예문이 대응한다. 물품과 금액의 지급을 현재 sense가 함께 포함한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_323",
+    "sourceHash": "46f6003e440131434f9072ecb13705e19f55e1d97434aa812e425efb30cd9a11",
+    "level": "N3",
+    "dictionaryId": "jmdict-1312720",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “자원” 및 1개 sense를 대조했다. resources와 사용한 종이의 재자원화·한정된 수자원 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_324",
+    "sourceHash": "d4075fb60a3d355c92010ec1b5633e346ff41f1e22ff9f7da60271fa90fdc65c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1310180",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “지출” 및 1개 sense를 대조했다. expenditure·expenses와 여행 지출·매일 지출 기록 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_325",
+    "sourceHash": "5597a9631c75c9a6085bc40b1e534566bb52453d3a80e02ba57ad782862724c5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1314010",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “사정, 까닭” 및 1개 sense를 대조했다. circumstances·reasons와 가정 사정으로 쉼·사정을 듣기 전에 화낸 상황 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_326",
+    "sourceHash": "4272eea3710344ac4904567f39de77471372730d8d5e5351a4cbb4c7b4c5315a",
+    "level": "N1",
+    "dictionaryId": "jmdict-1317970",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “자신감” 및 1개 sense를 대조했다. self-confidence와 혼자 요리한 뒤 자신감·길 안내 능력의 자신감 부족 예문이 일치한다. 제공 N1 출처 근거에 따른 제안이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_327",
+    "sourceHash": "06d23ed0959879589b351c3534d9aa691b428300857a3a7f847f96e43ab5880b",
+    "level": "N2",
+    "dictionaryId": "jmdict-1307740",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “자세” 및 1개 sense를 대조했다. posture·position와 의자 높이에 따른 자세·글을 쓰는 자세 교정 예문이 일치한다. 의견에 대한 태도 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_328",
+    "sourceHash": "ff9e5780754b10c2fd5614317236a0e0898830d435f480bfddbd9f7b0d51de25",
+    "level": "N3",
+    "dictionaryId": "jmdict-1318090",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “자연” 및 1개 sense를 대조했다. nature와 자연에서 놂·섬의 자연 보전 예문이 일치한다. 자연스러운 상태라는 형용동사가 아닌 명사이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_329",
+    "sourceHash": "8ccd3268abd44bad24529ad743d4e44f9933bd94cefeee57f6fd3441e49eb8b9",
+    "level": "N3",
+    "dictionaryId": "jmdict-1310260",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “준비, 채비” 및 1개 sense를 대조했다. preparation·arrangements와 외출 채비·저녁 준비 예문이 일치한다. 명사와 suru 결합이 허용된다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_330",
+    "sourceHash": "ab7e00450852f97a70b58e76390fb0de6820596e78fbbaf7a148227578035669",
+    "level": "N3",
+    "dictionaryId": "jmdict-1319860",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “실업” 및 1개 sense를 대조했다. unemployment·losing one’s job와 공장 폐쇄로 실업·실업 중 자격 취득 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

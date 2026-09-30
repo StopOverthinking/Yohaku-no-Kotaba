@@ -1,0 +1,32 @@
+{
+  "resolvedAt": "2026-09-30T06:21:13.578Z",
+  "priorReview": {
+    "wordId": "JLPTN3_408",
+    "level": "N2",
+    "sourceHash": "90804a4911205fb99280378cd40161a872e5e89d069aa3dead37b3b99a86b302",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:00:23.803Z",
+    "notes": [
+      "정전 대비 손전등을 준비하는 두 번째 예문이 準備する·備える 장면과 반복된다. flashlight-scene-followup.json의 명시적 개정 뒤 재검토한다."
+    ]
+  },
+  "resolution": {
+    "wordId": "JLPTN3_408",
+    "level": "N2",
+    "sourceHash": "90804a4911205fb99280378cd40161a872e5e89d069aa3dead37b3b99a86b302",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:21:13.578Z",
+    "notes": [
+      "전기 공급 중단을 뜻하는 N2 명사·읽기·힌트·故障 대비 및 엘리베이터 정지/손전등 대비 두 예문을 현재 원문으로 재검토했다.",
+      "準備する·備える의 명시적 예문 v2 개정 적용을 확인해 기존 장면 반복 보류를 해제한다. 원본 내용·ID·버전은 유지한다."
+    ]
+  },
+  "evidence": "revisions/flashlight-scene.json",
+  "scope": "reference-publication-only; unchanged original content"
+}

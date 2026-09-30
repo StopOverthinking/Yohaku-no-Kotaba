@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "f2a323edfb1b7ced47823d1f114821c1be88584bea6ae483294959c9696c2bf0",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:55:49.933Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1008450",
+      "f1d4be625040f009fe1f1b2824c4cdc2c20d87547e6f3350b2d1fcef00d994ff"
+    ],
+    [
+      "lex-jmdict-1008460",
+      "3d9f7e85905876528815f22b5fde12164b40f02f33627b8111cf9d188baae425"
+    ],
+    [
+      "lex-jmdict-1409140",
+      "99b06ec525b43b381e3bd82684d9d6100b1ec76b74b0692787d65e2bf5f41ce0"
+    ],
+    [
+      "lex-jmdict-1429750",
+      "48e2971abb3d8880360bcc679e3d2368b5c183eb99c4c771f84b381396ed2304"
+    ],
+    [
+      "lex-jmdict-1481920",
+      "9b7c596109f27e5fe1623719f5011148371ba9a520b541e06f33a32ac5a47e25"
+    ],
+    [
+      "lex-jmdict-1532350",
+      "da808a63738761f25ca9c4212ba51f9c2ef907305d9720639059785a5da83824"
+    ],
+    [
+      "lex-jmdict-1536350",
+      "1029939a418b18dce1afe669623810af4294beacab3f7be8b0b77d475281f34a"
+    ],
+    [
+      "lex-jmdict-1576050",
+      "17106cb30aafb3cacf421af7d8021af440946d8ef0a3343fb9a235a1fe9225f8"
+    ],
+    [
+      "lex-jmdict-1576060",
+      "3b71799a470adf792b13354ac1228233db2aa89191a67ebdbc2acb887e609bb8"
+    ],
+    [
+      "lex-jmdict-1576150",
+      "a839f3dfac6c3393ed3a6a228ac54c29345c456d76cd74ae641dd59866cf6130"
+    ],
+    [
+      "lex-jmdict-1576260",
+      "4eb552e7ceea2bb1dd9db309e777b558e36db10d6dc09987c18275bb957cde65"
+    ],
+    [
+      "lex-jmdict-1576760",
+      "af5425931c60d60921aae1d8f52c85c5d48158b936dff8bf70e5bb8af9dc0b3a"
+    ],
+    [
+      "lex-jmdict-1578010",
+      "d76535b3fa00364f752b81a536b433a31759a3cf2792b226960dc7917f0d9695"
+    ],
+    [
+      "lex-jmdict-1579110",
+      "78f247fa92b6138c860ddbe69739184f8c1a1ce8f2bbd832bef8de4ed5a4e1ad"
+    ],
+    [
+      "lex-jmdict-1579350",
+      "a659563a35237103bb47391a9f0fc8080670ac88b1fe5e673b0dece4eadb96c7"
+    ],
+    [
+      "lex-jmdict-1579630",
+      "6287dc73d161a26cbcf30f3b8ff7108ac74a104202a40441a3e5f0b247a6f59b"
+    ],
+    [
+      "lex-jmdict-1582670",
+      "02dc066363501408071ab7b620ef933b2ef5024c9cfa7e41a9f08b47e9de284e"
+    ],
+    [
+      "lex-jmdict-1582820",
+      "aebb6f6406281d873d10f4a9e7fe9e3ccf711257e4f6e4a9d3f1f3293749ea42"
+    ],
+    [
+      "lex-jmdict-1583250",
+      "7ebb0e4aeef54f296e838054bb430c21feb30bb90424da3a8aa87722a5c9883d"
+    ],
+    [
+      "lex-jmdict-1584660",
+      "a044250123ae9119ae1a0cd04a704d5b4c38b362b377dbd02923596bf170dce0"
+    ],
+    [
+      "lex-jmdict-1585310",
+      "e0d948bc923c8c70342d25a9c502eccec99df22b8740d9535495da7d2fd5e241"
+    ],
+    [
+      "lex-jmdict-1600790",
+      "83fa622371137502a1cbf621e33c20d3bde4857c0a803a771d0b7b4bc72fdd07"
+    ],
+    [
+      "lex-jmdict-1603990",
+      "65983af435c509c06d3025bc73b01bc117fb23a8995263ecda00d6f95917986c"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1532350",
+      "category": "clarity",
+      "note": "창문 개방보다 밝기 변화의 원인이 분명한 전등 교체 장면으로 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1576150",
+      "category": "clarity",
+      "note": "좌석을 한 사람 몫이라고 하는 어색한 문장을 혼자 식사를 준비하는 기본 용법으로 바꿨다."
+    }
+  ]
+}

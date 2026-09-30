@@ -1,0 +1,247 @@
+{
+  "scope": "legacy-content-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-09-30T06:32:41.508Z",
+  "draftHash": "0bfefc32af5a7a2722dce86745d5d44371eb1bb24b94e97b8aaaec16dc888759",
+  "notes": [
+    "33항목의 원본 전체와 수정안·제공 사전 의미를 독립 검토했다. 실제 변경 29개만 적용 대상이며 무변경 4개는 제외했다.",
+    "기존 용법 29개의 ID·버전과 모든 기존 예문 ID를 유지한다. 새 용법 11개·대표 예문 11개는 버전 1, 변경 예문 7개만 버전 2이다.",
+    "현재 원본 sourceHash와 최종 afterHash 및 전체 초안 해시를 대조했다. 편집 내용 검증 오류 0, 앱·미게시 pilot·수정안 대치 8,513예문/211,192비교에서 유사쌍 0. 실제 장면 반복도 검토했다."
+  ],
+  "preservedCoreUsages": [
+    {
+      "wordId": "JLPTN3_9",
+      "senseIds": [
+        "sense-JLPTN3_9-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "목표와 상대에 도전하는 기존 두 예문의 핵심 뜻을 유지하며 자타 정보와 설명을 정정했다."
+    },
+    {
+      "wordId": "JLPTN3_29",
+      "senseIds": [
+        "sense-JLPTN3_29-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "달리기 용법은 그대로이며 반드시 전속력이라는 불필요한 제한만 제거했다."
+    },
+    {
+      "wordId": "JLPTN3_56",
+      "senseIds": [
+        "sense-JLPTN3_56-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 물기 짜기 용법은 그대로 두고 범위 좁히기를 새 용법으로 분리했다. 면접 질문 예문으로 기존 후보 세 개 장면 반복을 피했다."
+    },
+    {
+      "wordId": "JLPTN3_58",
+      "senseIds": [
+        "sense-JLPTN3_58-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 띠와 안전띠를 매는 뜻을 유지하며 한국어 표현만 바로잡았다."
+    },
+    {
+      "wordId": "JLPTN3_99",
+      "senseIds": [
+        "sense-JLPTN3_99-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "떼어 놓거나 손을 놓는 기존 예문에 맞춰 놓치다라는 부정확한 대표 뜻을 정정했다."
+    },
+    {
+      "wordId": "JLPTN3_125",
+      "senseIds": [
+        "sense-JLPTN3_125-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다."
+    },
+    {
+      "wordId": "JLPTN3_130",
+      "senseIds": [
+        "sense-JLPTN3_130-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다."
+    },
+    {
+      "wordId": "JLPTN3_132",
+      "senseIds": [
+        "sense-JLPTN3_132-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다."
+    },
+    {
+      "wordId": "JLPTN3_140",
+      "senseIds": [
+        "sense-JLPTN3_140-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다."
+    },
+    {
+      "wordId": "JLPTN3_142",
+      "senseIds": [
+        "sense-JLPTN3_142-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다."
+    },
+    {
+      "wordId": "JLPTN3_144",
+      "senseIds": [
+        "sense-JLPTN3_144-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다."
+    },
+    {
+      "wordId": "JLPTN3_154",
+      "senseIds": [
+        "sense-JLPTN3_154-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다."
+    },
+    {
+      "wordId": "JLPTN3_199",
+      "senseIds": [
+        "sense-JLPTN3_199-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다."
+    },
+    {
+      "wordId": "JLPTN3_201",
+      "senseIds": [
+        "sense-JLPTN3_201-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다."
+    },
+    {
+      "wordId": "JLPTN3_214",
+      "senseIds": [
+        "sense-JLPTN3_214-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 계산·지불 용법은 유지하며 수입·지출 관리 업무를 별도 용법으로 추가했다."
+    },
+    {
+      "wordId": "JLPTN3_235",
+      "senseIds": [
+        "sense-JLPTN3_235-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 과일 껍질은 유지하고 동물 피부를 새 용법으로 분리했다. 가공된 革와의 차이도 맞는다."
+    },
+    {
+      "wordId": "JLPTN3_244",
+      "senseIds": [
+        "sense-JLPTN3_244-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다."
+    },
+    {
+      "wordId": "JLPTN3_250",
+      "senseIds": [
+        "sense-JLPTN3_250-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다."
+    },
+    {
+      "wordId": "JLPTN3_272",
+      "senseIds": [
+        "sense-JLPTN3_272-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "차이를 알아보는 핵심 뜻은 유지하며 두 약의 봉투 색 식별로 장면을 변경했다."
+    },
+    {
+      "wordId": "JLPTN3_280",
+      "senseIds": [
+        "sense-JLPTN3_280-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "외과 용법과 일본어는 유지하고 二階를 2층으로 명확히 번역했다."
+    },
+    {
+      "wordId": "JLPTN3_292",
+      "senseIds": [
+        "sense-JLPTN3_292-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "감소 용법과 일본어는 유지하고 하루 三本을 차량 대수가 아닌 운행 횟수로 번역했다."
+    },
+    {
+      "wordId": "JLPTN3_335",
+      "senseIds": [
+        "sense-JLPTN3_335-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다."
+    },
+    {
+      "wordId": "JLPTN3_361",
+      "senseIds": [
+        "sense-JLPTN3_361-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다."
+    },
+    {
+      "wordId": "JLPTN3_410",
+      "senseIds": [
+        "sense-JLPTN3_410-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "천장이라는 현재 용법과 예문을 유지하며 대표 뜻의 표기만 통일했다."
+    },
+    {
+      "wordId": "JLPTN3_441",
+      "senseIds": [
+        "sense-JLPTN3_441-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다."
+    },
+    {
+      "wordId": "JLPTN3_444",
+      "senseIds": [
+        "sense-JLPTN3_444-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다."
+    },
+    {
+      "wordId": "JLPTN3_450",
+      "senseIds": [
+        "sense-JLPTN3_450-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다."
+    },
+    {
+      "wordId": "JLPTN3_453",
+      "senseIds": [
+        "sense-JLPTN3_453-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다."
+    },
+    {
+      "wordId": "JLPTN3_463",
+      "senseIds": [
+        "sense-JLPTN3_463-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다."
+    }
+  ]
+}

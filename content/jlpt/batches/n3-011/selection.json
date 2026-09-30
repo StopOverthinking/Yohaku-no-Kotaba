@@ -1,0 +1,70 @@
+{
+  "scope": "practical-only",
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1100090",
+      "japanese": "バン",
+      "reason": "생활 차량어로 연결되었으나 이 사전 항목은 머리 모양 bun이다."
+    },
+    {
+      "dictionaryId": "jmdict-2754360",
+      "japanese": "河",
+      "reason": "河 표기 연결이지만 사전 뜻은 마작의 버림패이며 일반 강이 아니다."
+    },
+    {
+      "dictionaryId": "jmdict-2843595",
+      "japanese": "デュース",
+      "reason": "ジュース 연결이지만 실제 뜻은 경기의 듀스이며 음료가 아니다."
+    },
+    {
+      "dictionaryId": "jmdict-2179090",
+      "japanese": "しばしば",
+      "reason": "しばしば 연결이지만 자주가 아니라 눈을 반복해서 깜빡이는 별도 의태어이다."
+    },
+    {
+      "dictionaryId": "jmdict-2771700",
+      "japanese": "やや",
+      "reason": "やや 연결이지만 약간의 부사가 아니라 감탄사인 동음어이다."
+    },
+    {
+      "dictionaryId": "jmdict-1046840",
+      "japanese": "グランド",
+      "reason": "이 사전 항목은 grand라는 명사 앞 수식어이며 운동장 ground가 아니다."
+    },
+    {
+      "dictionaryId": "jmdict-2423740",
+      "japanese": "無",
+      "reason": "일반 어휘 無가 아니라 ぶ로 읽는 접두사이며 현재 실용 단어 묶음에서 제외한다."
+    },
+    {
+      "dictionaryId": "jmdict-2654270",
+      "japanese": "て",
+      "reason": "활용형 연결 조사로 단어 학습보다 문법 항목에 적합하다."
+    },
+    {
+      "dictionaryId": "jmdict-1922780",
+      "japanese": "不",
+      "reason": "비독립 접두사로 현재 실용 단어 묶음에서 제외한다."
+    },
+    {
+      "dictionaryId": "jmdict-2826528",
+      "japanese": "御",
+      "reason": "경어 접두사로 현재 실용 단어 묶음에서 제외한다."
+    },
+    {
+      "dictionaryId": "jmdict-1298200",
+      "japanese": "昨",
+      "reason": "복합어 속 접두사로 현재 실용 단어 묶음에서 제외한다."
+    },
+    {
+      "dictionaryId": "jmdict-1502850",
+      "japanese": "分",
+      "reason": "옛 단위·비율의 세부 읽기이며 현재 일반 독해 우선 범위에서 제외한다."
+    },
+    {
+      "dictionaryId": "jmdict-1036170",
+      "japanese": "カー",
+      "reason": "독립 일반어 자동차보다 복합 외래어 속 사용이 중심이며 우선순위가 낮다."
+    }
+  ]
+}

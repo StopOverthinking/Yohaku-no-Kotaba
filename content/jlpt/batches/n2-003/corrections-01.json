@@ -1,0 +1,24 @@
+[
+  {
+    "wordId": "lex-jmdict-1220060",
+    "category": "substantive",
+    "note": "幾分가 변화에만 쓰인다는 잘못된 힌트 한정을 제거했다."
+  },
+  {
+    "wordId": "lex-jmdict-1200740",
+    "category": "clarity",
+    "note": "대표 다시·새로이 용법을 항상 정식 절차로 한정하지 않도록 힌트를 다듬었다."
+  },
+  {
+    "wordId": "lex-jmdict-1168660",
+    "category": "clarity",
+    "kind": "additional-usage",
+    "note": "조건에 달림과 별도로 원인에 기인함을 보여 주는 예문을 보강했다."
+  },
+  {
+    "wordId": "lex-jmdict-1200450",
+    "category": "clarity",
+    "kind": "additional-usage",
+    "note": "후회와 별도로 죽음을 애통해하는 뜻을 보여 주는 예문을 보강했다."
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "6435290576bd9504bd5b0759fdd09416a182dc63f043ae47ebd582822edec15f",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:25:00.021Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1483440",
+      "7e1c87f7de9e325c97ad8e753dc8c035f4a2607f8e62d5f86bb4fce1c0fc0f36"
+    ],
+    [
+      "lex-jmdict-1483730",
+      "890525e9f20cf1b7d42edc2e76e1bba16ef122d0bc1f3fec606ed259d90171b5"
+    ],
+    [
+      "lex-jmdict-1483805",
+      "668f6fa73f0c16fb7083e9ae7a3cde36eff0095972790294a768d3233196dbc8"
+    ],
+    [
+      "lex-jmdict-1484150",
+      "8e63f28cd847789489af024486a5247d5527baa613014adec90c88f09ae07d6a"
+    ],
+    [
+      "lex-jmdict-1484350",
+      "66c563fcd8bd45b695c93b5d72ba14b680b8a3526dd6899a0bcba0f54bce8336"
+    ],
+    [
+      "lex-jmdict-1484620",
+      "9bb529bc92ca6da38447007edf2cc92aa5b3ea19692b10edd423a6f4a56fd3d6"
+    ],
+    [
+      "lex-jmdict-1484920",
+      "0cb945d6559ef1f317fb88b11a54e33d0db7750130e5de686d3b661a280bd073"
+    ],
+    [
+      "lex-jmdict-1485450",
+      "2fd651f5518fc9fb953a70931a14493058b3c637348b95568c06c2c19062012f"
+    ],
+    [
+      "lex-jmdict-1486170",
+      "29be3862d2c0b0eea56cca5e44e6556985e7ed6ccbee9e9fefba31f3ddadbde5"
+    ],
+    [
+      "lex-jmdict-1486530",
+      "e8d34083ddd595f6932b00649541ae9d8d3df235276f40c9ecd57abd2b4bd543"
+    ],
+    [
+      "lex-jmdict-1487320",
+      "dedd2af63ec2ff00d4c301a3c2d4a778965bae941a6ef197b4561ba707e85a74"
+    ],
+    [
+      "lex-jmdict-1487410",
+      "cb8a83164d5805e1bc3251e7ccf0e86070e9ffb1b3d9984470d6db40e35530ba"
+    ],
+    [
+      "lex-jmdict-1487770",
+      "6239c0e670faec60eed1d757060aa7baece41251b470667fd0a3a6d682ec3e72"
+    ],
+    [
+      "lex-jmdict-1489350",
+      "7107c6630714ffa3e2c159836042779a0bc5c80c7d1b0c84ca06ed1a21917923"
+    ],
+    [
+      "lex-jmdict-1489510",
+      "ab07534b05bf32d1e8b905fbfe1b40c0d81178164a298d752e1e1e13d657521a"
+    ],
+    [
+      "lex-jmdict-1489700",
+      "128f74207830484e7dc26b07e84ef1aaa0c6b7224cbc04567fb3ab8b55a266f1"
+    ],
+    [
+      "lex-jmdict-1490070",
+      "b2054750fe8cefd3489a454cf167966758554d76c84842a2342b3e352afefa82"
+    ],
+    [
+      "lex-jmdict-1490430",
+      "924332abe43ddae63c8ca6ce00008060634fd2291ab3f3f2bc200adf6c453851"
+    ],
+    [
+      "lex-jmdict-1491120",
+      "9fd08f6bdce8ba48dcc836b76d309a1a065719c4658802f79ca57da6fd46c34c"
+    ],
+    [
+      "lex-jmdict-1492350",
+      "7e6c33bc17ce7dabea2aea29308ccaef8d7b729d7a9d90e973407936e90490ae"
+    ],
+    [
+      "lex-jmdict-1492570",
+      "a34b17e4270bd9a2f67a43fd373e934279aa446a4f32caf6efd01ffb8cf3bebb"
+    ],
+    [
+      "lex-jmdict-1493370",
+      "8b02d6b50ccfa5227c24d08b6f8e7c8d00025c87271b09e5517988ccdfba533a"
+    ],
+    [
+      "lex-jmdict-1493700",
+      "674b05400dd2f0e4460d1895272099210a840ba6ce9c3b79b20336afb4162e30"
+    ],
+    [
+      "lex-jmdict-1494790",
+      "46e66c6e4f5b5d78164b519b5c054c52d75693446e835ed7c8ffe0813c5518ac"
+    ],
+    [
+      "lex-jmdict-1494970",
+      "33b57c9aa10089f4e19d4ce495120e4d2b85cabe6ceeb12b01432c03c47664c7"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1487410",
+      "category": "substantive",
+      "note": "必ず를 긍정문 전용처럼 설명하지 않도록 대비를 정정하고 부정 표현과 결합하는 뜻을 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1489350",
+      "category": "clarity",
+      "note": "조사 대상의 연령대 차이를 가리키도록 年齢層·연령대로 명료화했다."
+    }
+  ]
+}

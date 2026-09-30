@@ -1,0 +1,562 @@
+[
+  {
+    "wordId": "lex-jmdict-1121380",
+    "contentHash": "63e006743a3a56ef98be2278ba040b5d8a9cdb02e9b7ab3990b4cde9c76830d0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "잉크 필기도구 의미와 읽기 확인. 밑줄 긋기·쓰기 감각 질문·책상에서 굴러 떨어지는 세 장면 및 연필과의 재료 차이를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1123590",
+    "contentHash": "41ac1cfe1e2be534624da3052d7ada15c8c9c523814b3e98125eb1b48df8e341",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "볼펜 구조를 설명한 독립 힌트와 만년필 대비 확인. 서류 작성·잉크 고장·가격과 구매 수량의 세 예문을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1124970",
+    "contentHash": "71479be3d3d21c274f57bf934b229c14e6a0e71d78bad7d5b5cdcac8a4a18dd5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "의복 수납 부분의 명사 의미 확인. 열쇠 보관·바지 주머니 수·세탁 전 확인의 세 장면과 봉지 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1125150",
+    "contentHash": "34a02b4032d8215a2ffb0e3d754cdd4a2604ea1d2b9b87f557d2169c9c7a2f2e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "사전 첫 의미인 우체통에 한정하고 직책 의미와 분리했다. 엽서 투입·위치 질문·상자 크기 제한의 세 예문과 우체국 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1138860",
+    "contentHash": "9f02d68d2464551cf7a4965f75fbd8ee6e4ae938d0e996d202c3a7dd80010035",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "기기와 방송을 모두 가리키는 명사 의미 확인. 요리 중 청취·전원 방식·들려오는 노래를 구분하고 번역 및 텔레비전 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1145310",
+    "contentHash": "6c39f7a5b5bad7aeaef218b5c8b9d76c5814775b7e18e3a15629f2367046b331",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "특히 서양식 음식점을 가리키는 사전 의미 확인. 전망·예약·점심 혼잡의 세 장면과 食堂 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1153520",
+    "contentHash": "c514c6ef8c2143341966f9951b35748612ec42b953267f780baeb80146a1844c",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "비를 뜻하는 雨와 다른 사전 ID임을 확인. 단단한 사탕 의미, 수량·입에 문 채 말하기·나눠 주기 예문과 독립 힌트를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1156800",
+    "contentHash": "f846dbb33cc9c82a6b3c7e5e8676fbe50e4dbf4355bf9a4ffcfa5f6a210c8807",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "명사 용법 확인. 세 번째 예문의 使う場所で를 使う場面によって로 고쳐 한국어 상황 번역과 일치시켰다. 사전 조회·읽기와 의미 구분·문맥 변화의 장면을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1159980",
+    "contentHash": "e5fb382fed5d51a957781b59bc89375f1801548d5dde3b2ff5973dd2c9c588fd",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "의사 의미와 읽기 확인. 발열 진찰·어릴 적 장래 희망·휴식 권고 예문의 시제와 한국어 대응 및 간호사 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1171010",
+    "contentHash": "2731d48d2c5af68a7468ccbec501cb75c9655e7d6b919c71d66480780393b550",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "방향의 명사 용법에 한정. 길 안내·사진 속 사람 위치·한쪽 신발의 세 장면 및 바라보는 방향에 따른 기준을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1171900",
+    "contentHash": "3b3764d09f338834e4e4effb4f55375dd7a050cd48160af75108fbc35cbd4e6e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "あめ 읽기와 강수 의미 확인. 강수 예상·경기 중 비 그침·빗소리에 깸의 세 장면과 눈 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1173720",
+    "contentHash": "b815f719ee60e15483f8ee46dfc89900d4d91f0ddd122d278a25e85edf8b0116",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "영상 작품 의미 확인. 감상 평가·자막·부자 세대가 함께 보는 작품의 장면과 영화관 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1173750",
+    "contentHash": "6d9f669e0ad5db8396e9475605f59650fdf2142292e06cdb29115c08aaf749b1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "상영 시설 의미와 읽기 확인. 개관·휴대전화 소리·인접 도시 방문의 장면 및 공연장 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1174420",
+    "contentHash": "e90ae60480ccb9ad05c98c2d97a1d70ebcef59409d918fd3cf28c2aaf219d325",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "언어 전체의 명사 의미 확인. 설명서·공항 사용 기회·발음 연습의 세 장면과 회화 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1178590",
+    "contentHash": "0ea646de2be54234b9f9395915486d9a45c8b85aa8da2f3ece0389909a86a0b8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "나무 등으로 감싼 심의 필기도구 의미 확인. 짧아진 연필 사용·심 파손 후 깎기·그림용 무른 연필의 장면과 볼펜 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1183720",
+    "contentHash": "d491430b8669d646164b857be1e8ea60dd68db614384ce98558384807f02831a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "음악의 넓은 의미와 읽기 확인. 이동 중 청취·정서 변화·대학 전공의 세 장면과 노래 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1191320",
+    "contentHash": "ac990aafbaee1e1bfaa4de1467269496edc9e7a939441e2500a8c06be75da8c4",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "여름의 명사 용법 확인. 기후·여행 계획·계절 메뉴의 세 장면과 여름 방학 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1191420",
+    "contentHash": "8a16855334f7c81f6c5b79bc31c2825d23365da8f6193a8e3138eabeacde3640",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "방학과 직장 휴가 모두 가능한 사전 의미 확인. 숙제·조부 집 체류·회사 휴가의 세 예문에서 한국어 대응을 구분했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1193180",
+    "contentHash": "4dcec7519f63d6904b1556ac9c862a56b1d79b8aab4746b33fa067a6e0f20e76",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "うた 읽기와 노래 의미 확인. 두 번째 문장에 정답 한자 歌가 재노출되던 문제를 노래에 맞춰 춤추는 문장으로 수정했다. 회상·아이들 춤·가사 청취 실패의 세 장면을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1194500",
+    "contentHash": "ac5739478dcbc61097eaa83c7043afd44581fd1814952005e1317aeb16438347",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "꽃 의미와 はな 읽기 확인. 개화·생신 선물·밤에 오므라듦의 세 장면 및 鼻와의 동음 구별을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1194870",
+    "contentHash": "7a73045729be82d6c8fff61b09f4a76c9436aadb79a688300c4c96cfde3c309d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "꽃병 의미 확인. 가지 장식·물 교체·고양이가 넘어뜨린 상황의 세 장면과 화분 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1198550",
+    "contentHash": "b41dea39b55f853e0266a75b7671fe14367bc9473db666602b88b40ec5e729ee",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "사업 조직 및 직장 장소 용법이 사전에 있음을 확인. 재직·이직·통근의 세 장면 및 사무실 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1201190",
+    "contentHash": "cb11f8e1c650ebbcff7eada0fe77049af6a2cb540692f65aa6c9cb21e32c4463",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "바다 의미 확인. 길의 끝·파도로 입수하지 않음·멀리 보이는 바다의 세 장면과 염호를 고려한 호수 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1202270",
+    "contentHash": "1b407fa90582d601dbed75d4ab6af3d50bb54f039e23298b048284fbf749bde6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "그림의 명사 의미와 え 읽기 확인. 벽 장식·색채 표현·설명의 시각화 장면 및 사진 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1203090",
+    "contentHash": "ed6a578283bd99d53d6a45ad6047e01cc86ca9c370333189494448470dfdce2e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "계단 의미와 읽기 확인. 층간 이동·짐 운반·중간 창문의 세 장면 및 경사로 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1203620",
+    "contentHash": "ef04e1ea4faecafcd418edf602c504772f939179daf379394a40f48ceece581b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "기준 나라와 다른 나라라는 의미 확인. 여행 경험·우표 수집·음식 구매의 세 장면과 해외 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1203650",
+    "contentHash": "51aa47341b5381d07440e83ccabc70f9f597ee0a44ac31dd5d4be9562b292047",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "외국 국적 사람의 의미 확인. 역 안내·언어 능력 일반화 반박·도서관 이용의 세 장면과 유학생 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1206900",
+    "contentHash": "099d059e5812629f3bee126b1c50baa82be826b884534e5cbcf7c453540d1be8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "특히 대학생에 흔한 용법을 사전과 대조했다. 生徒를 한국어 생도로 단순 옮긴 혼동 설명을 고쳐 두 일본어의 용법 차이를 직접 설명했다. 할인·수업·보고서 장면을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1213170",
+    "contentHash": "fea095e4305c5233efbb60ea2806e383dcf464474fd9727a7598f900b4d14e5c",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "한자 의미와 읽기 확인. 이름 읽기·일일 암기·후리가나 요청의 세 장면과 히라가나 대비 및 독립 힌트를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1226440",
+    "contentHash": "f9476f2b7b33ff79c489621cb738f745cafc5044e41a978238ef5693d9a42156",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "찻집·커피숍의 명사 의미 확인. 독서하며 기다림·케이크·쇼핑 후 휴식의 세 장면과 레스토랑 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1231580",
+    "contentHash": "4b083ed139a0b116cd731c5a483c0431d12232e86027bf1722f6b6342102957d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "소고기 의미와 읽기 확인. 구워 먹기·정육 구매·콩으로 대체한 카레의 세 장면 및 돼지고기 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1231590",
+    "contentHash": "e6e26e58a66fbcd340d5781134aa97b3df0ca3e41263f0ce26a3734332a372b9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "소젖 식품 의미와 읽기 확인. 냉장고 잔량·커피 첨가·두유로 대체한 수프의 세 장면과 두유 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1237410",
+    "contentHash": "891486c3b3a80e1ab0f9cd6b629b296865f3c53cfbb67d315d2d39eee80c4477",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "다리 의미와 はし 읽기 확인. 길 안내·오래된 목교·신설 다리로 이동 거리 감소의 세 장면과 젓가락 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1245290",
+    "contentHash": "25658596d5513f39bc685b30fe5e6cd88a7474bfb812ced0e7afd8b400bb493b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "そら 읽기의 하늘 의미 사전 항목을 확인. 비 그친 뒤 밝아짐·별 관찰·비행기 횡단의 세 장면과 날씨 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1246700",
+    "contentHash": "f8d453325e7cc47ebf576677ace229d149b094c318d04c42943badd1d1e5ec95",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "신발 의미와 읽기 확인. 새 신발의 통증·벗지 않는 출입 규칙·우천용 제품 찾기의 세 장면과 양말 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1246740",
+    "contentHash": "0d648d50f562125c35c9fd27b9ff01f89143a4a5d9f1c587c209f53bafae6a34",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "양말 의미와 읽기 확인. 한 짝 분실·추운 날 겹쳐 신기·세탁 후 건조의 세 장면과 장갑 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1249900",
+    "contentHash": "0492245cf5d2d3f17e38ba33e3d45d28c63b4dd2ae92096751afa4240de5cd98",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "자기 손위 남자 형제를 가리키는 あに 용법 확인. 나이 차이·결혼식·독립 후 선물의 세 장면과 한국어 형/오빠 번역 및 존칭 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1249960",
+    "contentHash": "03b4cb0c1b4e63f159cb50de62b8cd755cc7dac9dffc0d2a04f21ba637713971",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "형제자매까지 포함하는 사전 의미 확인. 형제 유무 질문·출생 순서·성인 형제 여행의 세 장면과 姉妹 대비를 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1253020",
+    "contentHash": "f8131086530cfdb9deed9f7462e55fea35c9890c4fc001521524d7d042979a74",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "鶏肉 표기에 대응하는 닭고기 의미를 확인. 鳥가 동물 전체라는 설명을 닭을 포함한 새 전체로 바로잡았다. 조림·도시락 튀김·품절의 세 장면을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1254790",
+    "contentHash": "89bb6b93c2a05baef30f626c8e23020206f43272ce03d081dfd707e6957b7979",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; Korean alignment, independent hints, contrasts and scene diversity checked; draft parser and full-corpus masked-sentence similarity checked. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:15:41.123Z",
+    "notes": [
+      "명사 및 する 결합 용법을 사전과 대조했다. 결혼 예정·혼인 기간·축하 선물의 세 장면과 결혼식 대비 및 한국어 시제 대응을 검토했다.",
+      "최종 원고를 기존 코퍼스에 대치한 1,688용법·3,556예문 전체에서 가린 문장 유사도 0.7 이상 0쌍. npm run jlpt:pilot draft-only 파싱 통과."
+    ]
+  }
+]

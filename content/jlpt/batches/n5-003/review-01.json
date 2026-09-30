@@ -1,0 +1,422 @@
+[
+  {
+    "wordId": "lex-jmdict-1001830",
+    "contentHash": "db9f43009d193150bb6c2784eceaa8ef02c3c2bb4d3bbd1f677cd4804b076f82",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "형·오빠의 호칭/존칭임을 뜻과 독립 힌트에 명확히 하고 혼동 대상을 兄로 바꿔 가족 내 호칭과 외부인에게 자기 형을 말하는 용법을 구별했다. 첫 문장은 직접 부르는 장면으로 수정. 마중 요청·타인의 형제 수·사진 속 관계 확인의 3예문 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1001990",
+    "contentHash": "f0fc596471274a5e9f414c34dfba8961aeac177f51c6b352db1d679c183ac240",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "누나·언니의 호칭/존칭과 姉의 내외 구분을 명시했다. 첫 예문은 직접 부르는 대화로, 세 번째는 가족 의미에서 벗어나던 이웃 여성 호칭 대신 누나에게 배운 피아노로 바꿨다. 책 반환·대학생 누나·악기 교육의 3장면 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1002590",
+    "contentHash": "5551e4af86d791225b68c96eeabd7726f2ef8e184b353a50633c573ef9852a63",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "父와의 내외 구분을 힌트/혼동 설명에 보완했다. 아이가 아빠에게 그림을 그렸다는 불완전한 に 결합을 のために描いた로 고쳤다. 재택 여부·운동회 응원·선물 그림 예문 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1002650",
+    "contentHash": "50b93bc35a87cb7545e9851dc4749fc790c292c033bb0cb327b53b5b0d913257",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "母와의 내외 구분을 힌트/혼동 설명에 보완했다. 전화 목소리·시장 동행·아이를 데리러 오는 가족의 3장면과 번역을 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1012480",
+    "contentHash": "f598a110b40f326d1d5f30801913746169f2e09c153de6d4ce3628c06c8da0e3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "완료와 수량 추가의 부사 의미를 사전 대조했다. 한국어 강조를 하나 더에서 더로 좁혀 일본어 정답 범위와 일치시켰다. 버스 출발·케이크 추가·숙제 완료의 3장면 및 まだ 대비 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1012620",
+    "contentHash": "615e28b811913125eec53ff2c6c265a77d1f888d0a303f2f680344924a7cc44f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "부사 뜻과 읽기 확인. 증가를 요구할 때만 쓴다는 과도한 혼동 설명을 정도·양의 비교로 수정했다. 목소리·신발 크기·더 앞쪽 다리의 3예문 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1151260",
+    "contentHash": "3341c6d2610eea3d80d466aa21108ccd17bcfb8d479fc893bd921fa910695d9b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "い형용사 및 わるく 활용 확인. 寝なかった를 한국어 못 잤다에 맞춰 よく眠れなかった로 바꾸고 気分が悪い의 신체 상태를 번역에 명시했다. 컨디션·길 상태·통신 상태의 3장면 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1153670",
+    "contentHash": "a74c6919df30d9005e7d14474b866e230b60211f9c419635cc0b58663b54e723",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "낮은 가격 의미의 사전 항목·やすかった/やすく 활용 확인. 채소 가격·가방 비교·폐점 할인 예문의 번역과 低い 대비를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1163400",
+    "contentHash": "3838a45a478f0bee9e78295ed94a90546d988118a7cdd5793c419fb4dce32fe2",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "사전 명사가 に와 결합해 함께를 나타내는 용법 확인. 물건을 한데 보내는 예문도 포괄하도록 힌트를 넓혔고 동일함 의미도 존재함을 혼동 설명에 반영했다. 공동 요리·사진 동봉·영화 동행 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1179330",
+    "contentHash": "6d4f3719ecb49c320e2460fac8f0b6e1c036af477aa59b62d51f24ae4ec8d9bf",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "주로 남의 아내를 높여 가리키는 명사 용법 확인. 성별이 불명확한 배우자 설명을 아내로 명시하고 妻를 무조건 낮춤말로 단정하지 않도록 수정했다. 파티 초대·직업 소개·선물의 3장면 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1182030",
+    "contentHash": "a5ab0ea88ea37851874d7fdb87a5f99404fa4e587779b9f51455882cb624ba29",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "색채 형용사 의미와 읽기 확인. 꽃·야간 가방 식별·그림의 태양이라는 3장면과 관형형/서술형 한국어 대응 및 黄色 대비를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1184140",
+    "contentHash": "84e01951d16cb7a61e40820d9d1462a4581116f15e50605c0b0891519480c085",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "した 읽기의 아래 위치 명사 항목을 대조했다. 책상 아래·배가 다리 아래 통과·종이 하단의 3장면 및 上 대비를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1185200",
+    "contentHash": "19a8a7806f94864132d505ee8138dfefdfb5d3495f14d9c1a729e3a0c881538e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "へた 읽기의 な형용사 항목 대조. 그림을 못 그려도 무엇을 만드는지 불분명한 첫 예문을 직접 그린 지도 발송으로 수정했다. 그림·요리·수영의 3장면 및 한국어 대응 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1189130",
+    "contentHash": "60c43d496d4c6f0cb57355af8b3cb035fddb6288a5ba0d2542503484e6ff35c8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "사전 부사에 맞게 expression에서 adv로 정정했다. 좌석 권유·차 대접에 더해 반복 권유였던 세 번째를 건강을 바라는 정중한 부탁으로 바꿔 권유/부탁 의미를 모두 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1191730",
+    "contentHash": "131abca826388c4a59a555519188ef0a6d22321553598b2d87dda4caa45417f7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "いえ 읽기의 집 명사 확인. 집안을 뜻할 수도 있어 물리적 건물에만 한정하던 설명을 현재 용법에 한정했다. 지붕으로 식별·수리 후 입주·길 안내의 3예문 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1192280",
+    "contentHash": "d7493c417e74a2bc66f2fe52d00c162236ed03268c8bb4826d89f8d1f69c5e29",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "가정/가정생활 명사 의미 확인. 성장 환경·일과 가정 시간·학교 가정통신문의 3장면과 家 대비 및 독립 힌트를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1202170",
+    "contentHash": "3276abf0ccb48bc99f652fb0287c84035adc4f3b755297c78403dda3525c802f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "공손한 여러분/모두 의미 확인. 직접 호칭에만 한정하던 설명을 여러 사람을 공손하게 가리키는 용법까지 넓혔다. 좌석 안내·청중 감사·준비 확인의 예문 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1206110",
+    "contentHash": "2929c0802bd9b8db0fee3a0dcf815d69c3b8ae44c66be777ba1a06e3099bba7d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "かど 사전 항목 확인. 기존 橋 예문과 유사도 0.710이던 길 안내를 책상 모서리에 무릎을 부딪치는 장면으로 바꾸고 뜻에 모서리를 추가했다. 가게 위치·길모퉁이 차 출현과 隅 대비 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1207240",
+    "contentHash": "7b72d4112d0aa33870c1709b8ca0c0c26dd8dba7cebb14803c6bcee0a622fbb4",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "い형용사 및 たのしかった/たのしそう 활용 확인. 축제 문장을 참가해서 즐거운 하루를 보냈다는 자연스러운 서술로 수정했다. 공동 요리·노는 아이들·축제의 3장면 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1218380",
+    "contentHash": "949fec3b40c0f00769fd385916596e31b1f537c9057fc8d38537db8eaeede912",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "위험 상태와 순간 경고의 사전 의미 확인. 빠른 차량·도로로 향하는 아이·높은 곳 작업의 3장면 및 한국어 강조 대응을 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1227500",
+    "contentHash": "2cb270de6f4bed62f917e02f885a68eeacf739f4e4c10b579372e1f53ef72f89",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "명사의 휴식/휴일/방학 의미 확인. 오후 쉬는 시간·휴일 늦잠·방학 종료의 3장면과 休む의 동사 대비를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1236070",
+    "contentHash": "33aba7d8999c9aa6fbe3b0d2d34f69e0505a9ca19680de688c56ce983e8ed9bb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "강도의 い형용사와 つよすぎて 활용 확인. 차 맛이 강하다는 덜 전형적인 결합을 향수 냄새가 너무 강한 장면으로 수정했다. 바람·경기 상대·냄새의 3장면 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1237680",
+    "contentHash": "945a329516e728f75c5377ae72055290f9cfde9ef143379d481f92f0e6cb5f61",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "폭과 공간의 좁음 의미 및 せまく/せますぎます 활용 확인. 자전거를 끄는 길·작은 방과 큰 창·2인 좌석의 3예문과 広い 대비를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1242130",
+    "contentHash": "109acc17ef62b403f554d2cce716121fce9b469edb637d5b026a58e0aa73ee7f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "거리와 시간 간격의 가까움 의미 확인. 과거형과 어색하게 결합하던 ここからなら를 호텔에서 바다까지의 실제 거리 서술로 수정했다. 역·약속 날짜·해변 거리 및 활용 읽기 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1252330",
+    "contentHash": "a59f27225c5b5a880ffde3aa8ba40746b22c3c60949ca97f53f978cdc3e0d9b6",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "개별 경찰관의 명사 의미 확인. 길 안내·교통 통제·습득물 인계의 3장면과 조직 警察 대비 및 번역을 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1254760",
+    "contentHash": "df22f06306d4a44930abc2bd6a53e3512c80138ec42948de0d16499c2a5b99ba",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "사전의 な형용사와 부사 두 용법 확인. 뜻에 좋다/충분하다를 명시하고 結構です의 수락·거절 문맥 차이를 보완했다. 음식 평가·도보 소요 시간·방 수락의 3예문 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1257240",
+    "contentHash": "56d45226f7b93b25134cd0c55c47a86ecde532f75799208a33dc0cd5bf5b5211",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "な형용사 용법과 읽기 확인. 소음 회피·채소 기호 변화·영화 취향 대화의 3장면에서 시제·부정 응답과 한국어 대응 및 好き 대비를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1257540",
+    "contentHash": "daea66db96f85c80cae6ebef86757f8cd0d7213238c20247da6c809805eca72e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "건물 명사 확인. 기존 映画館 예문과 유사도 0.846이던 신축 문장을 입구를 찾느라 건물을 한 바퀴 도는 장면으로 변경했다. 図書室 번역은 자료실에서 도서실로 정정. 층별 시설·지진 후 조사 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1258330",
+    "contentHash": "e83e1bfd19406a55d8d94400e5c7e12606d1a0feab09eb2b4d23a998fd8bae90",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "동물인 개 의미에 한정해 사전 대조했다. 달려오는 개·할아버지의 산책·길 잃은 개의 목줄 연락처라는 3장면과 猫 대비 및 독립 힌트를 검토했다.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1260720",
+    "contentHash": "5352b4228a3f059f987cc27751d7d8286443a338958a983cba8003062dd7b806",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review of every entry and all three examples against local JMdict candidates; checked Japanese naturalness, Korean alignment, readings, independent hints, contrasts and scene diversity; verified parser and whole-corpus masked-sentence similarity. Not human expert review.",
+    "reviewedAt": "2026-09-30T00:23:05.156Z",
+    "notes": [
+      "な형용사의 건강/활기 의미 확인. 열이 내린 뒤 元気를 자연스러운 기운이 나요로 옮겼다. 회복·전화 목소리·아침부터 뛰는 아이들의 3장면 검토.",
+      "전체 코퍼스+최종 draft 대치 1,718용법·3,646예문에서 가린 문장 유사도 0.7 이상 0쌍. 기존 게시 180개 원고 해시 불변, draft-only 파싱 통과."
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d5e9ed1868c4b968458be934336de06ed28c93f745027685a0216a585fb9d92b",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:10:20.675Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1297760",
+      "001ba908b6cc79e04c6f9a70f53ce40afec2fd9cfb155e29f35dec69a590a3a3"
+    ],
+    [
+      "lex-jmdict-1298120",
+      "fc9a1bab02f0ab83e81314f941a76f67be897801f228a02b84201958a90e9280"
+    ],
+    [
+      "lex-jmdict-1298800",
+      "997015d130b11712620acf3e125afdaaccea03890b428ec2b8424d6d61e78450"
+    ],
+    [
+      "lex-jmdict-1298910",
+      "2ebc40a5b16bc54cde1f2fd7d787d716ce328fa71a1e50f3e6e821c3e12e1fed"
+    ],
+    [
+      "lex-jmdict-1299640",
+      "d70fedc873c0e96985e8ce1e5d9a2cf1ab317c336e4763ef3af8f86b07140894"
+    ],
+    [
+      "lex-jmdict-1303400",
+      "4fa09631168ee1b690df32725e485238ae04728111e5ee26ce47795764b2e37a"
+    ],
+    [
+      "lex-jmdict-1303460",
+      "69fe48d848b918189c755f364074481c0214632386d25d7574ba254e77da01b5"
+    ],
+    [
+      "lex-jmdict-1306390",
+      "7b0e38f6d3602daf9cb72512a386735b45825bc3f25e28100cea14e5bed9e9db"
+    ],
+    [
+      "lex-jmdict-1309230",
+      "90ea4636fd8a33127c6eb52837ef40d56d6c48977513b0bc84da8ce891fcf383"
+    ],
+    [
+      "lex-jmdict-1309910",
+      "31f461144e595ae1f439807591fb799a17ede409974f704d0ccfce8f6c0ce0c0"
+    ],
+    [
+      "lex-jmdict-1311060",
+      "ae79aff0c300b823388b8fedda99df5c573bf9b911a42465c2bf76f5cb5440dd"
+    ],
+    [
+      "lex-jmdict-1311900",
+      "32fc01a378a28c6b753ec957227003fffe2d8afeeab542057157b380e779bc11"
+    ],
+    [
+      "lex-jmdict-1315790",
+      "45de893827c1d9241e450a5a1d983d89d63c4f63fe41f0282b181422f9c8ac47"
+    ],
+    [
+      "lex-jmdict-1320410",
+      "400b4345b78e9214662c0272691f1d0fc956cf20b52043393bfc0e134d83d68c"
+    ],
+    [
+      "lex-jmdict-1320920",
+      "ccfc5c40fff46f986913feefaf87999aa16cd45ad6964a65c606da83b4ddf6e3"
+    ],
+    [
+      "lex-jmdict-1321430",
+      "f6c464af8e10fb591ea597eae04af1f49460a99eb1c63fb2fda90893a9b1643d"
+    ],
+    [
+      "lex-jmdict-1321820",
+      "9fe769fcfe2202685bad69d3277d498a2a59ae7a610b2e01fd45e2646a7b6b15"
+    ],
+    [
+      "lex-jmdict-1322490",
+      "96545dfdd48304b7726d0afb5c4ba843f94141230027ac788172ab79b91a6977"
+    ],
+    [
+      "lex-jmdict-1326770",
+      "9589b6855a7a0d6d3b769f3501a8ac80d259951bf9248efc02f1ca26f2d99ecf"
+    ],
+    [
+      "lex-jmdict-1326880",
+      "f058948fcfa1ce58355811995770d845ddf467e37c5125004a3f55ff09e491ee"
+    ],
+    [
+      "lex-jmdict-1327660",
+      "2c1c8c44fbcd9a2634f86831e58792700cdaae71c079ce3450c177078f7672fc"
+    ],
+    [
+      "lex-jmdict-1329640",
+      "bf29b4c3ff4e137c821e55eee4e5ac6eb1a1892e975ebcc8ba63a2be3083faf5"
+    ],
+    [
+      "lex-jmdict-1329740",
+      "5d18ae9ba33fc620f72b6c9ca5360b44630ef39c94be1662b0d6e98f5f615c44"
+    ],
+    [
+      "lex-jmdict-1351120",
+      "d498d4b5854ce55d68fd08a5ad615d24c2b2b32d2a4d8185d7805d332d6dc3fd"
+    ],
+    [
+      "lex-jmdict-1360890",
+      "60cd5795bba049f9ae12f280f75395a274c6fef518f654c75e49a1c26848e128"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1298800",
+      "category": "clarity",
+      "note": "촬영에는 사진도 포함되므로 대비 설명의 영상 한정을 풀었다."
+    },
+    {
+      "wordId": "lex-jmdict-1322490",
+      "category": "clarity",
+      "note": "煮える를 굽기 등 모든 가열로 넓히지 않도록 액체 속 가열로 힌트를 좁혔다."
+    },
+    {
+      "wordId": "lex-jmdict-1303400",
+      "category": "substantive",
+      "note": "파종은 蒔く 표기와 가까우므로 선택 사전 撒く의 기본 용례를 물 뿌리기로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1303460",
+      "category": "substantive",
+      "note": "기존 途端의 창문 바람에 서류가 흩어지는 장면을 피하고 요리 고명을 뿌리는 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1321430",
+      "category": "substantive",
+      "note": "기존 実際 예문과 사진보다 실제가 컸다는 문형·장면이 유사도 0.732로 겹쳐 소파 실물을 만져 보는 장면으로 바꿨다."
+    }
+  ]
+}

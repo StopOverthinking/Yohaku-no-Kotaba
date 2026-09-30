@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "bbc53cb093ddc7595294c6c5b7afc08a6b066e2dbdf50a846928560cec92506c",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:53:54.980Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1399760",
+      "660d86c711d8fc3262e2bccd1ef531bbcbd89fd11a0d8b2cbf19bf9b2e929111"
+    ],
+    [
+      "lex-jmdict-1399970",
+      "b2aabd21c01f0d9a8fde0222d8dc0e1e3ea465a6b686f7e595ffc416aaf87ab5"
+    ],
+    [
+      "lex-jmdict-1397340",
+      "7fc0ee69a73233df28caf3bad6a44921ec084e6243a918467548a84f63e8b114"
+    ],
+    [
+      "lex-jmdict-1400240",
+      "99fd3a4ef49ec8240162389b6d230919d21e20ea8a21f9b306311128cb3dda02"
+    ],
+    [
+      "lex-jmdict-1400300",
+      "1ffcc0d6ed236c3dfa4bfa517e582d04816f088ebbd3e2c8862ebc881aaf075d"
+    ],
+    [
+      "lex-jmdict-1401420",
+      "835adf7ff30cf3e4999dfd9817bca9a3ddd6779703e1521d749d35e545f24add"
+    ],
+    [
+      "lex-jmdict-1402870",
+      "ae880ddcf20bf952cf9bdc306e48b1ce81591aba925d3e3cd015ac2287576c39"
+    ],
+    [
+      "lex-jmdict-1403000",
+      "1b484f5a92aa9374e0dbea43da6c2b1e31f7f7488f57c2d9fe0ed7f88b9ece78"
+    ],
+    [
+      "lex-jmdict-1402850",
+      "42db1bb2de3a5e6daf8a0c2f2adc13026924b232f74af41132cc16b1fceecc91"
+    ],
+    [
+      "lex-jmdict-1403200",
+      "d56dd839fcfd83bfeb382caec8c2a27df59ad147b40dd2df052f739e79d0e946"
+    ],
+    [
+      "lex-jmdict-1405710",
+      "1eea60bd1182426a97ae787520caef062402be4c3592f6d4ef5e04f615930b58"
+    ],
+    [
+      "lex-jmdict-1406140",
+      "54d0c01ad5bea53fa38531cee4346a352a0d5b49b0ca6b0bdbfde34fecca17d8"
+    ],
+    [
+      "lex-jmdict-1408540",
+      "e91a56ea2b7ca390b8179acf11d6c3c57696d83c1c58a1d5b3c0a52209457a6f"
+    ],
+    [
+      "lex-jmdict-1410710",
+      "fab413bd7cfac8fdaa7c9ba02135e2a4b866a68b3fe7ddd68912a834a0c8e28a"
+    ],
+    [
+      "lex-jmdict-1411300",
+      "1122741b55cef831ac097738011fa824a968fe0df7ea8f5be0dc8fd298f3c07a"
+    ],
+    [
+      "lex-jmdict-1412970",
+      "8b34458aa25ed77ad9ee42e5d0bd04e2041e7f22e9191f9f2622179af4e41152"
+    ],
+    [
+      "lex-jmdict-1415960",
+      "0cf2ca01b42eb82daaa93f0f8ef32d5556e599f5277b872b5e5e21c7b8d33803"
+    ],
+    [
+      "lex-jmdict-1416190",
+      "673fb048b02344a224c3822bb696707db7cf4db301b4d9ed3198d94abb1a4b9d"
+    ],
+    [
+      "lex-jmdict-1418140",
+      "900f92f713605045d12f3a43cef801516abe40096dae30883b4a5d7be2b2bb49"
+    ],
+    [
+      "lex-jmdict-1419660",
+      "1270b306bdff752125d0543d5e47c3ce71756a7f5588b171e04fedd2be0ac7f8"
+    ],
+    [
+      "lex-jmdict-1422990",
+      "576d569fff865311c2dad9e9cbc3f2b656e9d5b06ee5ce2b312040bbf2fe9506"
+    ],
+    [
+      "lex-jmdict-1427870",
+      "89db4e937a2e85a5c086d55e380699ee0494cc36eae45b364513d58e6159fe93"
+    ],
+    [
+      "lex-jmdict-1429240",
+      "0f7a01c609e6bf323733c1f48b3468be4a7be281ee53225e886002c9ed3265ae"
+    ],
+    [
+      "lex-jmdict-1432280",
+      "cad0058e3f4ca716ea2903774f1192a9a8f7d94073a504676aef642b8d49b9a1"
+    ],
+    [
+      "lex-jmdict-1433830",
+      "238e6f91b0e459c6a03406bbe533831fdee1fa72b588760538842598daa7df2a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1405710",
+      "category": "clarity",
+      "note": "属する의 힌트를 구성원에 한정하지 않고 건물 등 사물의 기관 소속도 포함하도록 명료화했다."
+    }
+  ]
+}

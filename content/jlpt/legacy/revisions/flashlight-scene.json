@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "kind": "authorized-before-after-content",
+  "draft": {
+    "schemaVersion": 1,
+    "id": "flashlight-scene",
+    "scope": "legacy-example-revision",
+    "entries": [
+      {
+        "word": {
+          "id": "AbsoluteVerb_641",
+          "setId": "AbsoluteVerb",
+          "japanese": "準備する",
+          "reading": "じゅんびする",
+          "meaning": "준비하다",
+          "type": "verb",
+          "difficulty": 18,
+          "verbInfo": "3타",
+          "sourceOrder": 639
+        },
+        "before": {
+          "id": "sense-AbsoluteVerb_641-1",
+          "wordId": "AbsoluteVerb_641",
+          "version": 1,
+          "meaning": "필요한 것을 준비하다",
+          "hint": "일을 시작하기 전에 갖춰야 할 것을 마련해요.",
+          "confusions": [
+            {
+              "japanese": "用意する",
+              "distinction": "뜻이 많이 겹치며 물건뿐 아니라 계획과 연습 등을 갖추는 과정도 포괄한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_641-1-ex-1",
+              "version": 1,
+              "before": "停電に備えて、懐中電灯を",
+              "answer": "準備した",
+              "after": "。",
+              "reading": "じゅんびした",
+              "translation": "정전에 대비해 손전등을 준비했다.",
+              "translationTarget": "준비했다",
+              "difficulty": 18,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_641-1-ex-2",
+              "version": 1,
+              "before": "発表の資料はもう",
+              "answer": "準備してあります",
+              "after": "。",
+              "reading": "じゅんびしてあります",
+              "translation": "발표 자료는 이미 준비해 두었습니다.",
+              "translationTarget": "준비해 두었습니다",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-AbsoluteVerb_641-1",
+          "wordId": "AbsoluteVerb_641",
+          "version": 1,
+          "meaning": "필요한 것을 준비하다",
+          "hint": "일을 시작하기 전에 갖춰야 할 것을 마련해요.",
+          "confusions": [
+            {
+              "japanese": "用意する",
+              "distinction": "뜻이 많이 겹치며 물건뿐 아니라 계획과 연습 등을 갖추는 과정도 포괄한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_641-1-ex-1",
+              "version": 2,
+              "before": "練習を始める前に、楽譜と鉛筆を",
+              "answer": "準備した",
+              "after": "。",
+              "reading": "じゅんびした",
+              "translation": "연습을 시작하기 전에 악보와 연필을 준비했다.",
+              "translationTarget": "준비했다",
+              "difficulty": 18,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_641-1-ex-2",
+              "version": 1,
+              "before": "発表の資料はもう",
+              "answer": "準備してあります",
+              "after": "。",
+              "reading": "じゅんびしてあります",
+              "translation": "발표 자료는 이미 준비해 두었습니다.",
+              "translationTarget": "준비해 두었습니다",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "0bcb3586ef8b3c9cc07f05055b65a65a546d185d097948674f81abbc14862b65",
+        "afterHash": "3be40d54e8fca84d2f2f8cdf607cd7bf242ccf038b3572617c47628d00429f52"
+      },
+      {
+        "word": {
+          "id": "AbsoluteVerb_572",
+          "setId": "AbsoluteVerb",
+          "japanese": "備える",
+          "reading": "そなえる",
+          "meaning": "대비하다, 갖추다",
+          "type": "verb",
+          "difficulty": 34,
+          "verbInfo": "2타",
+          "sourceOrder": 570
+        },
+        "before": {
+          "id": "sense-AbsoluteVerb_572-1",
+          "wordId": "AbsoluteVerb_572",
+          "version": 1,
+          "meaning": "대비하다",
+          "hint": "앞으로 생길 일에 필요한 준비를 해 둬요.",
+          "confusions": [
+            {
+              "japanese": "用意する",
+              "distinction": "물건을 마련하는 것보다 예상되는 사태에 대처할 준비에 초점을 둔다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_572-1-ex-1",
+              "version": 1,
+              "before": "停電に",
+              "answer": "備えて",
+              "after": "、懐中電灯を買った。",
+              "reading": "そなえて",
+              "translation": "정전에 대비해서 손전등을 샀다.",
+              "translationTarget": "대비해서",
+              "difficulty": 34,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_572-1-ex-2",
+              "version": 1,
+              "before": "雪に",
+              "answer": "備える",
+              "after": "には、この靴では足りない。",
+              "reading": "そなえる",
+              "translation": "눈에 대비하기에는 이 신발로 부족하다.",
+              "translationTarget": "대비하기에는",
+              "difficulty": 34,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-AbsoluteVerb_572-1",
+          "wordId": "AbsoluteVerb_572",
+          "version": 1,
+          "meaning": "대비하다",
+          "hint": "앞으로 생길 일에 필요한 준비를 해 둬요.",
+          "confusions": [
+            {
+              "japanese": "用意する",
+              "distinction": "물건을 마련하는 것보다 예상되는 사태에 대처할 준비에 초점을 둔다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_572-1-ex-1",
+              "version": 2,
+              "before": "機械の故障に",
+              "answer": "備えて",
+              "after": "、手作業でも対応できる手順を決めておいた。",
+              "reading": "そなえて",
+              "translation": "기계 고장에 대비해서 수작업으로도 대응할 수 있는 절차를 정해 두었다.",
+              "translationTarget": "대비해서",
+              "difficulty": 34,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_572-1-ex-2",
+              "version": 1,
+              "before": "雪に",
+              "answer": "備える",
+              "after": "には、この靴では足りない。",
+              "reading": "そなえる",
+              "translation": "눈에 대비하기에는 이 신발로 부족하다.",
+              "translationTarget": "대비하기에는",
+              "difficulty": 34,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "cf1a52f2cc63d0a9e4b6b2121d902d9abea85bf1d664cdba7fcef6df6ae60af1",
+        "afterHash": "4df539f5c994307e818efed8a5b14bf35bf86b95337a70bc6c88694a810089da"
+      }
+    ]
+  },
+  "review": {
+    "scope": "legacy-example-revision",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T06:15:15.431Z",
+    "draftHash": "a56266c3162ac5d21f84bec7c6a423204111f0415224650ce78e0a13f3d3c521",
+    "notes": [
+      "현재 원본 두 예문을 정확히 대조하고 전체 용법의 뜻·힌트·나머지 예문·번역을 확인했다. 단어·용법·예문 ID와 개수는 유지하며 해당 예문 버전만 1에서 2로 올린다.",
+      "초안의 소풍 도시락은 기존 弁当箱, 태풍 화분 이동은 기존 台風와 반복되어 각각 음악 연습 준비와 기계 고장에 대비한 수작업 절차로 수정했다.",
+      "停電의 손전등 예문은 유지한다. 앱 전체와 미게시 pilot를 합친 8402예문 대치 검사 206084비교에서 유사쌍 0이며 수작업으로도 장면 차이를 확인했다."
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "b46c2a7f8b006eb34e90a4eedb2e0a73abdef7fdf2dde07bd47977e32b6c3b39",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:05:07.464Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1155400",
+      "95aec8a9bf247699f780e9da27c262672eae528e36b2380626da557e5d7b20b4"
+    ],
+    [
+      "lex-jmdict-1357510",
+      "dd70b8e39e8d7f66e8b4b9a91ee9a6b53016ebadb4a82ee5e928553e2d4315ad"
+    ],
+    [
+      "lex-jmdict-1378590",
+      "73584f8ad3d34e0982ff713630f0457adb1cb220658b29826328619e7420be75"
+    ],
+    [
+      "lex-jmdict-1358490",
+      "301574e5fdbd1c3cbd01288fc05048af98828c7687741bdb3143a47e4186d1f2"
+    ],
+    [
+      "lex-jmdict-1364440",
+      "4578ac1088760296134f7aa7b2c939be7c21e967730031f692741734830a799f"
+    ],
+    [
+      "lex-jmdict-1365520",
+      "051cd287909bb8308510efc52c0650c60bd39c13239926d36db7060201df42f2"
+    ],
+    [
+      "lex-jmdict-1375260",
+      "1a336c424c5ee42090f17ae750bbfdf36c45cad3631e40e94d12dc656e386947"
+    ],
+    [
+      "lex-jmdict-1384840",
+      "fff38df3f194136abd237e7391e1362dda06bab220045d7d17a6e4e3bcaacbbf"
+    ],
+    [
+      "lex-jmdict-1386160",
+      "578d11e502f487f4b2a4f65bf7ca02c17422e38e703f09ad200c7528f1dac228"
+    ],
+    [
+      "lex-jmdict-1408815",
+      "e80f33607885333501cdb9c745db5870dbc585a65fa4c4bd43ed4a4ab57b15e3"
+    ],
+    [
+      "lex-jmdict-1432920",
+      "98626b31cccde168ca09e274a3772d3a038daf81bfc0fc04913ccab3847b9108"
+    ],
+    [
+      "lex-jmdict-1436510",
+      "081896fdae91712d3a2688e747c0dab3b5f453299d75a8acb43a0c82357f7bb3"
+    ],
+    [
+      "lex-jmdict-1445150",
+      "f6665d264d4662771c0072f3c2c0eef4793615740fdf82e730fb99daaa3ed453"
+    ],
+    [
+      "lex-jmdict-1457730",
+      "40b3e86a349c9a5a2c7fa948fb29b384bddb6e2f89ccdaeeb6b96d7829ad5499"
+    ],
+    [
+      "lex-jmdict-1474620",
+      "eb82aead70858f745dbef46877f988073303aeb3b8ce0f74026dd9ed3b1b6445"
+    ],
+    [
+      "lex-jmdict-1491370",
+      "6efbba141f4a5d14223b2571c062f48a9e343a402f4a4939a9431a58562a6f60"
+    ],
+    [
+      "lex-jmdict-1501110",
+      "64b86d8c663d18071c0293713ac1bd590cb3dd56f43cc6b115814edce61f098f"
+    ],
+    [
+      "lex-jmdict-1501760",
+      "879e931199db590829c22ad45435ba85db0f9d431137d06ea50675b1ee41d96c"
+    ],
+    [
+      "lex-jmdict-1531330",
+      "bce4f8ad91ff27f3204cd5136c2c22bc485683408164e3ac5f638b0db4c33147"
+    ],
+    [
+      "lex-jmdict-1547600",
+      "90ecd7193fb085eca6edcd038b5576012c1c4ce281a64dea11f4b58fa792d77c"
+    ],
+    [
+      "lex-jmdict-1592100",
+      "7fdfc8c013788a4f7e1420df2b3a6c380fd6b3cc91df4c3f7b89e157988b5c04"
+    ],
+    [
+      "lex-jmdict-1601260",
+      "ea2a06096ec66440998afe551637a989a71be055ccf6dffe6051fef6dbee7ee4"
+    ],
+    [
+      "lex-jmdict-1602330",
+      "aea401f6b45896e16c6bf204338fc408f987cf892227699421fd2ee346d6abce"
+    ],
+    [
+      "lex-jmdict-2800530",
+      "e66a49e2efd0c8c0dd10a342d568ee92f933755dab7126c56910e5945ccccdf5"
+    ],
+    [
+      "lex-jmdict-1979930",
+      "64f655489a4b9e2cfe65ec621ed12c538e13e9301cb0aa2c87f3b471a6f4a40a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1384840",
+      "category": "clarity",
+      "note": "単独 パンの切れ보다 자연스러운 一切れ 용례와 읽기 ひときれ를 사용했다."
+    },
+    {
+      "wordId": "lex-jmdict-1457730",
+      "category": "clarity",
+      "note": "뜨거울 동안이라는 부자연스러운 한국어를 뜨거울 때로 다듬었다."
+    }
+  ]
+}

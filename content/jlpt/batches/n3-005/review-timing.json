@@ -1,0 +1,60 @@
+[
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T03:37:51.006Z",
+    "completedAt": "2026-09-30T03:38:52.444Z",
+    "checkedWords": 30,
+    "checkedExamples": 90,
+    "correctedItems": 5,
+    "note": "Resumed full review of the pre-existing three-example manuscript.",
+    "correctionBreakdown": {
+      "substantiveItems": 3,
+      "clarityItems": 2,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6879,
+      "comparisons": 132186,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T03:40:05.393Z",
+    "completedAt": "2026-09-30T03:40:54.596Z",
+    "checkedWords": 30,
+    "checkedExamples": 34,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantiveItems": 2,
+      "clarityItems": 0,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6913,
+      "comparisons": 133739,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T03:41:51.601Z",
+    "completedAt": "2026-09-30T03:43:04.042Z",
+    "checkedWords": 30,
+    "checkedExamples": 30,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantiveItems": 2,
+      "clarityItems": 0,
+      "formattingOnlyItems": 0
+    },
+    "similarity": {
+      "corpusExamples": 6943,
+      "comparisons": 135173,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

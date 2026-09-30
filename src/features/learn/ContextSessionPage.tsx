@@ -1,17 +1,18 @@
 import { useEffect, useRef } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
-import { BadgeCheck, ChevronLeft, CircleHelp, Heart, Lightbulb, X, ZoomIn, ZoomOut } from 'lucide-react'
+import { BadgeCheck, ChevronLeft, CircleHelp, Heart, Lightbulb, RotateCw, X, ZoomIn, ZoomOut } from 'lucide-react'
 import { IconButton } from '@/components/IconButton'
 import { GlassPanel } from '@/components/GlassPanel'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { contextSenseMap, contextWordMap } from './contextContent'
 import { useContextStore } from './contextStore'
+import { useContextSense } from './useContextSense'
 import styles from './context.module.css'
 
 export function ContextSessionPage() {
   const navigate = useNavigate()
-  const { data, error, lastResult, answer, reveal, toggleHint, undo } = useContextStore()
+  const { data, error, lastResult, answer, reveal, toggleHint, undo, busy, ready } = useContextStore()
   const session = data.session
   const fontScale = usePreferencesStore((s) => s.learnCardFontScale)
   const setFontScale = usePreferencesStore((s) => s.setLearnCardFontScale)
@@ -21,17 +22,20 @@ export function ContextSessionPage() {
   const dragged = useRef(false)
   const lockUntil = useRef(0)
   const candidateSense = session ? contextSenseMap.get(session.current.senseId) : undefined
-  const sense = candidateSense?.version === session?.current.senseVersion ? candidateSense : undefined
+  const validCard = candidateSense?.version === session?.current.senseVersion && candidateSense?.examples.some(
+    (e) => e.id === session?.current.exampleId && e.version === session.current.exampleVersion,
+  )
+  const content = useContextSense(ready && validCard ? candidateSense?.id : undefined)
+  const sense = content.sense
   const example = sense?.examples.find(
     (e) => e.id === session?.current.exampleId && e.version === session.current.exampleVersion,
   )
   const word = sense ? contextWordMap.get(sense.wordId) : undefined
   const token = session ? `${session.id}:${session.decisions}` : ''
 
-  function decide(known: boolean) {
-    if (Date.now() < lockUntil.current || !session || !example) return
-    // Commit synchronously before changing the visible card. Suppress double clicks.
-    if (answer(known, token)) lockUntil.current = Date.now() + 240
+  async function decide(known: boolean) {
+    if (busy || !ready || Date.now() < lockUntil.current || !session || !example) return
+    if (await answer(known, token)) lockUntil.current = Date.now() + 240
   }
   useEffect(() => {
     function keydown(event: KeyboardEvent) {
@@ -45,7 +49,7 @@ export function ContextSessionPage() {
         event.preventDefault()
         decide(event.key === 'ArrowLeft')
       }
-      if (event.key === ' ' && !(event.target instanceof HTMLElement && event.target.closest('button'))) {
+      if (ready && !busy && example && event.key === ' ' && !(event.target instanceof HTMLElement && event.target.closest('button'))) {
         event.preventDefault()
         reveal()
       }
@@ -54,7 +58,18 @@ export function ContextSessionPage() {
     return () => window.removeEventListener('keydown', keydown)
   })
 
+  if (!ready) return <div className={styles.root} role="status">학습을 불러오는 중…</div>
   if (!session) return <Navigate to={lastResult ? '/learn/result' : '/learn'} replace />
+  if (validCard && !sense)
+    return (
+      <div className={styles.root}>
+        <IconButton icon={X} label="학습 나가기" onClick={() => navigate('/')} />
+        {content.error ? <>
+          <p role="alert">{content.error}</p>
+          <IconButton icon={RotateCw} label="예문 다시 불러오기" onClick={content.retry} />
+        </> : <p role="status">예문을 불러오는 중…</p>}
+      </div>
+    )
   if (!sense || !example || !word)
     return (
       <div className={styles.root}>
@@ -80,6 +95,7 @@ export function ContextSessionPage() {
           className={styles.sentence}
           style={{ fontSize: `${1.1 + fontScale * 0.2}rem` }}
           type="button"
+          disabled={busy || !ready}
           aria-label={`문장 정답 공개. ${example.before}${session.revealed ? example.answer : '빈칸'}${example.after} ${example.translation}`}
           aria-expanded={session.revealed}
           onPointerDown={(event) => {
@@ -140,12 +156,12 @@ export function ContextSessionPage() {
           <IconButton
             icon={ChevronLeft}
             label="이전 카드"
-            disabled={!data.history.length}
-            onClick={() => {
-              if (undo()) lockUntil.current = Date.now() + 240
+            disabled={busy || !ready || !data.history.length}
+            onClick={async () => {
+              if (await undo()) lockUntil.current = Date.now() + 240
             }}
           />
-          <IconButton icon={Lightbulb} label="뉘앙스 힌트" active={session.hintShown} onClick={toggleHint} />
+          <IconButton icon={Lightbulb} label="뉘앙스 힌트" active={session.hintShown} onClick={toggleHint} disabled={busy || !ready} />
           <IconButton
             icon={Heart}
             label="즐겨찾기"
@@ -167,10 +183,10 @@ export function ContextSessionPage() {
         </div>
       </GlassPanel>
       <div className={styles.decisions}>
-        <button type="button" onClick={() => decide(true)}>
+        <button type="button" onClick={() => decide(true)} disabled={busy || !ready}>
           <BadgeCheck size={22} />앎
         </button>
-        <button type="button" onClick={() => decide(false)}>
+        <button type="button" onClick={() => decide(false)} disabled={busy || !ready}>
           <CircleHelp size={22} />
           모름
         </button>

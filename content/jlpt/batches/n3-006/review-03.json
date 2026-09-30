@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "fc7d85ba84db5da553ab31a31d36c03458d07aacbc1a0d17bae17698742bc722",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:54:16.092Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1370410",
+      "547cf75210d19ac11bbc81422e80671e27b3e05f1b79d2f99da76264d624c8c7"
+    ],
+    [
+      "lex-jmdict-1371170",
+      "3b143d5600e8bc6bc64de4d2a6e364bc53592ad5ab8d6df3702a7c30853de70a"
+    ],
+    [
+      "lex-jmdict-1371610",
+      "7401b5a6b0468e29e7f76becdf4600979f2955f0040eed2a91f2d8c4f159689d"
+    ],
+    [
+      "lex-jmdict-1372370",
+      "b70132d82cdb669edb1f8d3ea40f00c722f1f32680be5437cde9fc60ccc6c7cf"
+    ],
+    [
+      "lex-jmdict-1373850",
+      "01a8698c29a3569433c533b361df8eb0762473ac393bd227950db953b30dd5fe"
+    ],
+    [
+      "lex-jmdict-1373970",
+      "6648a78a179531653ca4adaa2d93cc11a2d792104d2a815351c6b2ec0514316d"
+    ],
+    [
+      "lex-jmdict-1373990",
+      "1193e9bb4741d4a0b54b1709847d5f7ea9f51268ea12910fecbc587a34bb3047"
+    ],
+    [
+      "lex-jmdict-1374300",
+      "63d4f548706deb804aca3e459c3f581abce39a1bb041f327a386801b31e1be32"
+    ],
+    [
+      "lex-jmdict-1375040",
+      "a06cffa7b3b74e1dddb3509a0734ac2e47e60a9f203b8ed81839f54306f91bdc"
+    ],
+    [
+      "lex-jmdict-1375740",
+      "2c6d501d18778ae196662e335a7eb81791cccba1218968766d68a05d239c16e7"
+    ],
+    [
+      "lex-jmdict-1377080",
+      "0949d04f72a5e57d8537655ced656464178fd482f547dcf40b760474f0d8ad6f"
+    ],
+    [
+      "lex-jmdict-1378990",
+      "47d482b39653b2d518822145d71636137322089cbf7ffd27b15c0a337011a9d4"
+    ],
+    [
+      "lex-jmdict-1379330",
+      "16807a0be6b0c6fdc79c0c680371ec96664210cfc844d62ba453d46025669543"
+    ],
+    [
+      "lex-jmdict-1379530",
+      "e3268f3aa2912b271b4300c1790dfd48c107bb70396ca14cdef312c5b242b730"
+    ],
+    [
+      "lex-jmdict-1380690",
+      "b86ff82db3c8fb5989c723b05f1e1f65a1f5d6065caec8c639cc10ccdd5656b4"
+    ],
+    [
+      "lex-jmdict-1381320",
+      "04b3fbbb90e94febeff49a2452f7e868a6809b3abc8cf55991e15e5430477e0b"
+    ],
+    [
+      "lex-jmdict-1381750",
+      "bb802155b5ce41c76c196575eb71509744e92b1806e792e4f54dfbb1097772fd"
+    ],
+    [
+      "lex-jmdict-1382700",
+      "6439f9a62cb2b9f4f2afb757dbc44edb9c2aac8e23f99e48fddc39198ef15fb8"
+    ],
+    [
+      "lex-jmdict-1383680",
+      "4b6b9aac93052b440a5d17e8fe93fb6cc9ed08ab962f0489ad307ad0dc0c51d8"
+    ],
+    [
+      "lex-jmdict-1386020",
+      "33b07abb8796a31dfb1be2dfe026a17721d359644044e0b0ac6918f3a200244d"
+    ],
+    [
+      "lex-jmdict-1386070",
+      "f14bd71129d7029f5c1e3d1dbb2072ddd91299c3f35b8a3d764936d7b063b7ee"
+    ],
+    [
+      "lex-jmdict-1386350",
+      "7b344761d792baa21ca92a467f858eebaa6629518c4759acb54387011c09f400"
+    ],
+    [
+      "lex-jmdict-1386370",
+      "c8e2964101583bf4d05e3928cb90c98b67ac23d022cae7d74a33861ce37dc5d5"
+    ],
+    [
+      "lex-jmdict-1386990",
+      "e4205822ae33ea3eba555f4350b366d8ac559d4b269f32b9cac78bca6b9287d5"
+    ],
+    [
+      "lex-jmdict-1387010",
+      "93613e15192a6ee5fce6c2e132e0fa63858a6c84f2567cea2fa3f430ccd8f164"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1375740",
+      "category": "substantive",
+      "note": "보통 大人라고 쓰는 시설 요금 구분 대신 成人의 대표적인 성인 대상 강좌 용례로 수정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1383680",
+      "category": "formatting",
+      "note": "한국어 합성어 발자국의 띄어쓰기를 바로잡았다."
+    }
+  ]
+}

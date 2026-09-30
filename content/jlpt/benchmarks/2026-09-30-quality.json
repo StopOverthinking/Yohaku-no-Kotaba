@@ -1,0 +1,98 @@
+{
+  "completedAt": "2026-09-30T03:31:31.375Z",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "scope": "Independent reading of all 200 words, candidate senses/readings/POS/level evidence, hints, contrasts, Japanese examples and Korean translations. Each final snapshot accepted only after full editorial review and corpus similarity comparison.",
+  "fileResults": [
+    {
+      "batch": "n2-002",
+      "index": "01",
+      "words": 25,
+      "examples": 25,
+      "corrections": 3
+    },
+    {
+      "batch": "n2-002",
+      "index": "02",
+      "words": 25,
+      "examples": 25,
+      "corrections": 2
+    },
+    {
+      "batch": "n2-002",
+      "index": "03",
+      "words": 25,
+      "examples": 25,
+      "corrections": 2
+    },
+    {
+      "batch": "n2-002",
+      "index": "04",
+      "words": 25,
+      "examples": 25,
+      "corrections": 0
+    },
+    {
+      "batch": "n1-002",
+      "index": "01",
+      "words": 25,
+      "examples": 25,
+      "corrections": 25
+    },
+    {
+      "batch": "n1-002",
+      "index": "02",
+      "words": 25,
+      "examples": 25,
+      "corrections": 4
+    },
+    {
+      "batch": "n1-002",
+      "index": "03",
+      "words": 25,
+      "examples": 25,
+      "corrections": 2
+    },
+    {
+      "batch": "n1-002",
+      "index": "04",
+      "words": 25,
+      "examples": 25,
+      "corrections": 2
+    }
+  ],
+  "checkedWords": 200,
+  "checkedExamples": 200,
+  "publishedPreserved": 1161,
+  "publishedChanged": 0,
+  "pilotEntries": 1391,
+  "appSenses": 2669,
+  "appExamples": 6499,
+  "corpusExamples": 6789,
+  "comparisons": 128732,
+  "similarPairs": [],
+  "excludedPendingBatch": {
+    "batch": "n3-005/01",
+    "words": 30,
+    "examples": 90,
+    "note": "Included only in collision comparison; not part of this 200-word trial."
+  },
+  "exampleVersions": {
+    "sense-lex-jmdict-1252330-1-ex-1": 2,
+    "sense-lex-jmdict-1344930-1-ex-1": 2,
+    "sense-lex-jmdict-1365250-1-ex-1": 2,
+    "sense-lex-jmdict-1345250-1-ex-3": 2,
+    "sense-lex-jmdict-1185290-1-ex-1": 2
+  },
+  "repeatedEndingsInvolvingTrial": [],
+  "correctionTotals": {
+    "changedItems": 40,
+    "substantiveItems": 16,
+    "clarityItems": 2,
+    "formattingOnlyItems": 22,
+    "formattingItemsIncludingOverlap": 25,
+    "formattingAndSubstantiveOverlap": 3,
+    "note": "N1/01 applied the previous two-Japanese-label convention to 25 items, including 3 with substantive changes. Later files did not enforce that format. Substantive includes semantic/translation/naturalness and scene-diversity fixes; clarity is recorded separately."
+  }
+}

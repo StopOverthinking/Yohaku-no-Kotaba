@@ -1,5 +1,6 @@
 import { comparisonPairs, comparisonWords, comparisonWordbooks, themeWords, themeWordbooks, vocabularySets, vocabularyWords } from '@/features/vocab/data'
 import type { ComparisonPair, SelectableWordbook, StudyComparisonItem, StudyItem, StudyWordItem, ThemeWordbookTopic, VocabularySet, VocabularyWord, WordbookKind } from '@/features/vocab/model/types'
+import { resolveSetWords } from './setMembership'
 
 export const allSets = vocabularySets
 export const allBasicWords = vocabularyWords
@@ -12,6 +13,7 @@ export const allComparisonWordbooks = comparisonWordbooks
 
 const setMap = new Map<string, VocabularySet>(allSets.map((set) => [set.id, set]))
 const wordMap = new Map<string, VocabularyWord>(allWords.map((word) => [word.id, word]))
+const basicWordMap = new Map(allBasicWords.map((word) => [word.id, word]))
 const themeWordMap = new Map<string, VocabularyWord>(allThemeWords.map((word) => [word.id, word]))
 const comparisonWordMap = new Map<string, VocabularyWord>(allComparisonWords.map((word) => [word.id, word]))
 const themeWordbookMap = new Map(allThemeWordbooks.map((wordbook) => [wordbook.id, wordbook]))
@@ -133,7 +135,7 @@ export function getWordsForSet(setId: string | 'all' | 'favorites', favoriteIds:
   if (comparisonWordbookMap.has(setId)) {
     return allComparisonWords.filter((word) => word.setId === setId)
   }
-  return allBasicWords.filter((word) => word.setId === setId)
+  return resolveSetWords(setMap.get(setId), basicWordMap)
 }
 
 export function getSetName(setId: string | 'all' | 'favorites') {
@@ -157,10 +159,6 @@ export function isComparisonWordbook(wordbookId: string) {
 export function isComparisonWord(wordId: string) {
   const word = wordMap.get(wordId)
   return word ? comparisonWordbookMap.has(word.setId) : false
-}
-
-export function filterNonComparisonWordIds(wordIds: string[]) {
-  return wordIds.filter((wordId) => !isComparisonWord(wordId))
 }
 
 export function getComparisonPairById(pairId: string) {
@@ -243,40 +241,6 @@ export function getStudyItemPartLabel(item: StudyItem) {
     default:
       return '기타'
   }
-}
-
-export function getStudyItemQuestionText(item: StudyItem) {
-  if (item.kind === 'comparison') {
-    return `${item.leftWord.meaning} / ${item.rightWord.meaning}`
-  }
-
-  return item.word.meaning
-}
-
-export function getStudyItemAnswerText(item: StudyItem) {
-  if (item.kind === 'comparison') {
-    return `${item.leftWord.japanese} / ${item.rightWord.japanese}`
-  }
-
-  return item.word.japanese
-}
-
-export function getStudyItemAnswerSubtext(item: StudyItem) {
-  if (item.kind === 'comparison') {
-    return `${item.leftWord.reading} / ${item.rightWord.reading}`
-  }
-
-  return item.word.reading
-}
-
-export function getStudyItemWrongAnswerWordIds(itemId: string) {
-  const item = getStudyItemById(itemId)
-
-  if (!item) {
-    return []
-  }
-
-  return [...item.favoriteWordIds]
 }
 
 export function getSelectableWordbooks() {

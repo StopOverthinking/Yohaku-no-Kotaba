@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "79b3f1d3e0bd5064b0f89b7a06813561965a821b0484a93518f63108a1b4f270",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:56:12.967Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1433880",
+      "c20cc360ed27bde1974007906f7e629057df02b57cf058173cfb1da154f6ee1e"
+    ],
+    [
+      "lex-jmdict-1434020",
+      "af26f578e7e6b1d979146fad0c060b45db25eb93e8297367187bded0ca7706b0"
+    ],
+    [
+      "lex-jmdict-1434050",
+      "24377f669ff7eba513bedf565486bc9c2d4f32cc16f48394667fad77148ad64e"
+    ],
+    [
+      "lex-jmdict-1434250",
+      "f47ab1d6e9d45abe44e7f25372f52420f975d85e20466cf448ad6b59a8bbeeee"
+    ],
+    [
+      "lex-jmdict-1434920",
+      "7a679237f65157be0e1b4034fad3b95c70e2efff8e3c01b0e2e783562ee57dac"
+    ],
+    [
+      "lex-jmdict-1434960",
+      "e6a0bda39b29bd45b072495ce6f82a543debf45f0c8e4d185c128559b13c371d"
+    ],
+    [
+      "lex-jmdict-1433470",
+      "d8b4436c54649fae6921971c1fbce220c460d699e22a344c4cd2430f421956ab"
+    ],
+    [
+      "lex-jmdict-1433490",
+      "1a5ef72d8e0bc0bf52e9a8ff9f62c0ee3df042159b328bf269b4b117c40d7ed8"
+    ],
+    [
+      "lex-jmdict-1433600",
+      "0394eb9346d83cb74ff301f715e65951db9b2900a89617af76fba5b67d3948fc"
+    ],
+    [
+      "lex-jmdict-1432460",
+      "757b1b1eb50e2ecc8d0d4c86a4e1cf7317c909abc08416cb9b44880b40c08753"
+    ],
+    [
+      "lex-jmdict-1429200",
+      "3292228e5f90b1b8470d032da5273f1fdcde82a5a63ef0b46d9caec3eaca6bf8"
+    ],
+    [
+      "lex-jmdict-1429290",
+      "0b2c87055e16f22506193ca26ac88fbbf4284a4dd0f435584b505a5bcbc6895c"
+    ],
+    [
+      "lex-jmdict-1430030",
+      "36315b3bff976af860caab0961ec4699c6bb7d2dc19d62347dc92fc43e6ea199"
+    ],
+    [
+      "lex-jmdict-1418760",
+      "82bfa1d8609135004cc9e164be7dffb1193db96a6fddd0ceace489760721c1f0"
+    ],
+    [
+      "lex-jmdict-1426000",
+      "830bacb78346f2f2e87c8876a1447bb41e3cec32ffc0298eca7f0706b75888f1"
+    ],
+    [
+      "lex-jmdict-1426100",
+      "21e2577fd6f091b8c088d3a30b98e578b6c40c73229961af6f60c8a5d8f9c9bf"
+    ],
+    [
+      "lex-jmdict-1426370",
+      "8b26c3ded2e81a3fb1f07b09d7d9ae397524cf4db83c2d3890a48250cbd6ea50"
+    ],
+    [
+      "lex-jmdict-1431330",
+      "d46d71c6ebf2639833732651c84ae1728fd7d3a44f4598caccbbd955c89dd89c"
+    ],
+    [
+      "lex-jmdict-1430930",
+      "5663c2fda612a7696946a21c2617727b56e9a40717784ec0178914dd25e1767a"
+    ],
+    [
+      "lex-jmdict-1431440",
+      "6346a3566232679611a20357ff14b24cbac0246aff8173eab47ba3b9dac647c2"
+    ],
+    [
+      "lex-jmdict-1424490",
+      "59c132fea2a4a4bac3754143ec4708375667a09c9a31829f0d5fd946a11a1a20"
+    ],
+    [
+      "lex-jmdict-1414570",
+      "40a0413a24ab82783c71a1bccadcbdc5660edca98501e87e5de2f86efffdfd8d"
+    ],
+    [
+      "lex-jmdict-1410630",
+      "68c12a4d76e444d11d95009752e6ed342cc923d66ae8861dde77a797db6b5594"
+    ],
+    [
+      "lex-jmdict-1421490",
+      "8eb15b0f5989035cdacc4139fc3438a82ffa1acb41b6784108e1d868cbb453e0"
+    ],
+    [
+      "lex-jmdict-1419950",
+      "48ca67002fe16c0a62de476bcfd1115b4c7b4933c1ab23b282a162d8bd20ba27"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1434250",
+      "category": "substantive",
+      "note": "저하 자체를 보완한다는 부자연스러운 결합을 저하를 느껴 휴식을 취하는 문장으로 고쳤다."
+    },
+    {
+      "wordId": "lex-jmdict-1434920",
+      "category": "substantive",
+      "note": "이상한 소리 때문에 기계를 멈추는 기존 止める 장면과 겹쳐 분실 카드 이용 정지로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1432460",
+      "category": "substantive",
+      "note": "참가자가 늘어 의자를 더하는 기존 장면과 겹쳐 자료에 도표를 추가하는 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1424490",
+      "category": "clarity",
+      "note": "下旬의 시작을 21일로 명시하여 20일 이후라는 표현의 포함 범위를 분명히 했다."
+    }
+  ]
+}

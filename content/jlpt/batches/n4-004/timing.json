@@ -1,0 +1,58 @@
+{
+  "startedAt": "2026-09-30T04:01:51.254Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T04:03:38.871Z",
+      "metadataCompletedAt": "2026-09-30T04:03:39.185Z",
+      "draftCompletedAt": "2026-09-30T04:04:59.860Z",
+      "checksCompletedAt": "2026-09-30T04:04:59.985Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 62,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T04:07:24.639Z",
+      "metadataCompletedAt": "2026-09-30T04:07:24.945Z",
+      "draftCompletedAt": "2026-09-30T04:08:49.870Z",
+      "checksCompletedAt": "2026-09-30T04:08:50.013Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 64,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-09-30T04:11:47.288Z",
+      "metadataCompletedAt": "2026-09-30T04:11:47.638Z",
+      "draftCompletedAt": "2026-09-30T04:13:08.077Z",
+      "checksCompletedAt": "2026-09-30T04:13:08.205Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 66,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ],
+  "pureCompositionTime": null,
+  "limitations": "각 단계의 실제 저장·검사 시각을 기록한다. 도구 실행 전 사고 시간을 순수 작성 시간으로 분리 측정할 수 없어 null로 둔다.",
+  "completedAt": "2026-09-30T04:16:16.102Z",
+  "words": 75,
+  "examples": 75,
+  "closureReason": "독립 검토를 기다리는 75개에서 마감하고 부모 지시로 N5 생활어 및 고정 N2 풀로 전환"
+}

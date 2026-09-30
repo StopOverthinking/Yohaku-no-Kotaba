@@ -1,0 +1,54 @@
+[
+  {
+    "wordId": "lex-jmdict-1307630",
+    "contentHash": "f62dbaf3d0210581bba936e651720610a94c098f152b2e8de43ce094b6f02b45",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "あね 읽기와 자기 손위 여자 형제를 외부에 말하는 용법 확인. 근무·수영 지도·자매 여행 장면 검토."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1457440",
+    "contentHash": "8b4d9118fed6f38ee500e2b92d2057cba6ba9e9d7265a675015e768c808e24a8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "돼지고기 대표 뜻과 볶음·카레 재료 문의·얇게 썰어 냄비에 넣는 장면 확인."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1583095",
+    "contentHash": "8fe97dfeb83803331537240332b7b11da975b5f2369b794998fdc207de5d32ac",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "七つ와 유사도 0.720인 세어 보니 몇 개 문형을 조개껍데기 여덟 개 보관으로 바꿨다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1585315",
+    "contentHash": "a5790025c8c0795d827ae9edff06a29715d51d4dc052a5fea86c79e98146f45e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent review: JMdict reading/POS/sense, authored examples, Korean, hints and contrasts. N4 words match OpenJLPT N4 evidence and common selected uses; unofficial editorial levels. Parser passed; 420 prior hashes unchanged; 1,962 senses/4,378 examples have zero masked pairs >=0.7 (49,537 comparisons). AI review, not human expert review.",
+    "reviewedAt": "2026-09-30T00:45:01.838Z",
+    "notes": [
+      "むっつ 읽기 확인. 六日の 대비에 엿새라는 기간 의미도 있음을 보완했다."
+    ]
+  }
+]

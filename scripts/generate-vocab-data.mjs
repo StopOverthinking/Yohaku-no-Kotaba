@@ -2,6 +2,10 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import vm from 'node:vm'
 import { fileURLToPath } from 'node:url'
+import { partitionLearnContent } from './lib/learn-content-shards.mjs'
+import { writeGeneratedFile } from './lib/write-generated-file.mjs'
+import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
+import ts from 'typescript'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -138,8 +142,35 @@ async function readEditorSource() {
 }
 
 async function writeOutputFiles(data) {
+  const aliasRoot = path.join(projectRoot, 'content/jlpt/legacy')
+  const aliases = buildReviewedAliases(
+    await readJsonFile(path.join(aliasRoot, 'alias-pilot-review.json'), []),
+    await readJsonFile(path.join(aliasRoot, 'active-aliases.json'), []),
+    data.words, data.learnContent ?? [],
+  )
+  await fs.mkdir(outputDir, { recursive: true })
+  await writeGeneratedFile(path.join(outputDir, 'learnAliases.ts'),
+    `import type { ContextAliasGroup } from '../../learn/contextTypes'\n\nexport const learnAliases: ContextAliasGroup[] = ${toTsLiteral(aliases)}\n`)
   await fs.mkdir(editorDataDir, { recursive: true })
   await fs.mkdir(outputDir, { recursive: true })
+  const { index: contentIndex, shards } = partitionLearnContent(data.learnContent ?? [])
+  // Run the same validator used by loaded shards, without requiring Node's TS support.
+  const validationSource = await fs.readFile(path.join(projectRoot, 'src/features/learn/contentValidation.ts'), 'utf8')
+  const validationJs = ts.transpileModule(validationSource, {
+    compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext },
+  }).outputText
+  const { validateLearnContent } = await import(`data:text/javascript;base64,${Buffer.from(validationJs).toString('base64')}`)
+  const issues = validateLearnContent(data.learnContent ?? [], new Set([...data.words, ...data.themeWords].map((word) => word.id)))
+  await writeGeneratedFile(path.join(outputDir, 'learnContentValidation.ts'),
+    `// Generated from the complete corpus; loaded shards are also validated at runtime.\nexport const learnContentIssues: string[] = ${toTsLiteral(issues)}\n`, 'utf8')
+  const shardDir = path.join(outputDir, 'learnContentShards')
+  await fs.mkdir(shardDir, { recursive: true })
+  await Promise.all(shards.map((content, index) => writeGeneratedFile(path.join(shardDir, `${index}.ts`),
+    `import type { LearnSense } from '../../../learn/contextTypes'\n\nconst content: LearnSense[] = ${toTsLiteral(content)}\nexport default content\n`, 'utf8')))
+  await writeGeneratedFile(path.join(outputDir, 'learnContentIndex.ts'),
+    `import type { LearnSenseIndex } from '../../learn/contextTypes'\n\nexport const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: string })[] = ${toTsLiteral(contentIndex)}\n`, 'utf8')
+  await writeGeneratedFile(path.join(outputDir, 'learnContentLoaders.ts'),
+    `import type { LearnSense } from '../../learn/contextTypes'\n\nexport const learnContentLoaders: Record<number, () => Promise<LearnSense[]>> = {\n${shards.map((_, index) => `  ${index}: () => import('./learnContentShards/${index}').then((module) => module.default),`).join('\n')}\n}\n`, 'utf8')
 
   const setsFile = `import type { VocabularySet } from '../model/types'\n\nexport const vocabularySets: VocabularySet[] = ${toTsLiteral(data.sets)}\n`
   const wordsFile = `import type { VocabularyWord } from '../model/types'\n\nexport const vocabularyWords: VocabularyWord[] = ${toTsLiteral(data.words)}\n`
@@ -151,22 +182,22 @@ async function writeOutputFiles(data) {
   const indexFile = `export { comparisonPairs } from './comparisonPairs'\nexport { comparisonWords } from './comparisonWords'\nexport { comparisonWordbooks } from './comparisonWordbooks'\nexport { themeWords } from './themeWords'\nexport { themeWordbooks } from './themeWordbooks'\nexport { vocabularySets } from './vocabularySets'\nexport { vocabularyWords } from './vocabularyWords'\n`
 
   await Promise.all([
-    fs.writeFile(path.join(outputDir, 'learnContent.ts'), `import type { LearnSense } from '../../learn/contextTypes'\n\nexport const learnContent: LearnSense[] = ${toTsLiteral(data.learnContent ?? [])}\n`, 'utf8'),
-    fs.writeFile(editorPaths.sets, `${JSON.stringify(data.sets, null, 2)}\n`, 'utf8'),
-    fs.writeFile(editorPaths.words, `${JSON.stringify(data.words, null, 2)}\n`, 'utf8'),
-    fs.writeFile(editorPaths.themeWordbooks, `${JSON.stringify(data.themeWordbooks, null, 2)}\n`, 'utf8'),
-    fs.writeFile(editorPaths.themeWords, `${JSON.stringify(data.themeWords, null, 2)}\n`, 'utf8'),
-    fs.writeFile(editorPaths.comparisonWordbooks, `${JSON.stringify(data.comparisonWordbooks, null, 2)}\n`, 'utf8'),
-    fs.writeFile(editorPaths.comparisonWords, `${JSON.stringify(data.comparisonWords, null, 2)}\n`, 'utf8'),
-    fs.writeFile(editorPaths.comparisonPairs, `${JSON.stringify(data.comparisonPairs, null, 2)}\n`, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'vocabularySets.ts'), setsFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'vocabularyWords.ts'), wordsFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'themeWordbooks.ts'), themeWordbooksFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'themeWords.ts'), themeWordsFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'comparisonWordbooks.ts'), comparisonWordbooksFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'comparisonWords.ts'), comparisonWordsFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'comparisonPairs.ts'), comparisonPairsFile, 'utf8'),
-    fs.writeFile(path.join(outputDir, 'index.ts'), indexFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'learnContent.ts'), `import type { LearnSense } from '../../learn/contextTypes'\n\nexport const learnContent: LearnSense[] = ${toTsLiteral(data.learnContent ?? [])}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.sets, `${JSON.stringify(data.sets, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.words, `${JSON.stringify(data.words, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.themeWordbooks, `${JSON.stringify(data.themeWordbooks, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.themeWords, `${JSON.stringify(data.themeWords, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.comparisonWordbooks, `${JSON.stringify(data.comparisonWordbooks, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.comparisonWords, `${JSON.stringify(data.comparisonWords, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(editorPaths.comparisonPairs, `${JSON.stringify(data.comparisonPairs, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'vocabularySets.ts'), setsFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'vocabularyWords.ts'), wordsFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'themeWordbooks.ts'), themeWordbooksFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'themeWords.ts'), themeWordsFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'comparisonWordbooks.ts'), comparisonWordbooksFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'comparisonWords.ts'), comparisonWordsFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'comparisonPairs.ts'), comparisonPairsFile, 'utf8'),
+    writeGeneratedFile(path.join(outputDir, 'index.ts'), indexFile, 'utf8'),
   ])
 }
 

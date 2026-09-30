@@ -23,9 +23,6 @@
 - 단어장과 데이터 모델: `features/vocab-data.md`
 - 목록: `features/list-mode.md`
 - 일반 학습: `features/learn-mode.md`
-- 활용형: `features/conjugation.md`
-- 시험: `features/exam-mode.md`
-- 게임: `features/game-mode.md`
 - 공유: `features/share-panel.md`
 - 에디터: `features/editor.md`
 - 설정: `features/preferences-and-debug.md`

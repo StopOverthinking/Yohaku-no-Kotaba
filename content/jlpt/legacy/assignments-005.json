@@ -1,0 +1,499 @@
+[
+  {
+    "wordId": "JLPTN3_121",
+    "sourceHash": "3634f90831a99bd767b9edde06384c92f93368e9c82b9dfa68cbcec106b2be83",
+    "level": "N2",
+    "dictionaryId": "jmdict-1471210",
+    "levelNote": "종이·천 등이 찢어지는 구체적 상태 변화 동사이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (종이, 천 등이) 찢어지다, 해어지다. 사전의 get torn·rip·wear out와 봉투·바지·깃발·지도가 찢어지는 두 ID의 예문이 일치한다. 협상 결렬은 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_512"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_512",
+    "sourceHash": "b0e051b55aa27bc2ddfc3a3043b7bb243c6f608b6ce1936bc879179be1b8972c",
+    "level": "N2",
+    "dictionaryId": "jmdict-1471210",
+    "levelNote": "종이·천 등이 찢어지는 구체적 상태 변화 동사이며 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 찢어지다. 사전의 get torn·rip·wear out와 봉투·바지·깃발·지도가 찢어지는 두 ID의 예문이 일치한다. 협상 결렬은 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_121"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_122",
+    "sourceHash": "0787cb84862dbc2c67f5a355be6ce1d1a3db9ff23c46aea92c86b9d71fc6d314",
+    "level": "N3",
+    "dictionaryId": "jmdict-1232870",
+    "levelNote": "잘못을 받아들여 용서하는 대인 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 허락하다, 용서하다. 사전의 forgive·pardon·excuse와 사과·정직한 설명 뒤 상대를 용서하는 두 ID의 예문이 대응한다. 허락하다는 별도 사전 의미이며 현재 예문은 용서이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_159"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_159",
+    "sourceHash": "d569882b3477dbbadc2d38e9a22af4b3c7bce40d802a29969eccfee9e2ca2016",
+    "level": "N3",
+    "dictionaryId": "jmdict-1232870",
+    "levelNote": "잘못을 받아들여 용서하는 대인 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 용서하다, 허락하다. 사전의 forgive·pardon·excuse와 사과·정직한 설명 뒤 상대를 용서하는 두 ID의 예문이 대응한다. 허락하다는 별도 사전 의미이며 현재 예문은 용서이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_122"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_123",
+    "sourceHash": "bb6c95de10d283f5db0ce67093f842a56e89df22dbbeda4d2c64fab89c7f12ca",
+    "level": "N4",
+    "dictionaryId": "jmdict-1545710",
+    "levelNote": "물체가 좌우 등으로 흔들리는 생활 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 흔들리다. 사전의 sway·rock·shake와 커튼·배·다리의 흔들림을 나타내는 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_543"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_543",
+    "sourceHash": "a5d0510532cab3905f698665d5335f71627dfd2bebced285f72adb43312a3ceb",
+    "level": "N4",
+    "dictionaryId": "jmdict-1545710",
+    "levelNote": "물체가 좌우 등으로 흔들리는 생활 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 흔들리다. 사전의 sway·rock·shake와 커튼·배·다리의 흔들림을 나타내는 두 ID의 예문이 일치한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_123"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_124",
+    "sourceHash": "f7bfb22a8f9f8b6d98acc7909c975cafd2bc13df385bfd4e9b41601ab57a213b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1179005",
+    "levelNote": "흙·때가 묻어 더러워지는 생활 자동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 더러워지다. 사전의 get dirty와 손톱·신발·옷이 더러워지는 두 ID의 예문이 일치한다. 윤리적으로 타락한다는 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_533"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_533",
+    "sourceHash": "ed13c0cadd655279c89a0cad3b31f1fdaa5f46ef476ea0769c6621fa223d9d2d",
+    "level": "N4",
+    "dictionaryId": "jmdict-1179005",
+    "levelNote": "흙·때가 묻어 더러워지는 생활 자동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 더러워지다. 사전의 get dirty와 손톱·신발·옷이 더러워지는 두 ID의 예문이 일치한다. 윤리적으로 타락한다는 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [
+      "JLPTN3_124"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_125",
+    "sourceHash": "3f5b4a0ecbfc4d5694dc71f68f3cc9bd2ec7652d81d953b89a7d05c0a211cdc3",
+    "level": "N2",
+    "dictionaryId": "jmdict-1266280",
+    "levelNote": "집단에 행동을 권하고 참여를 촉구하는 복합 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "현재 대표 뜻 호소하다, 부르다 및 2개 용법(호소하다; 사람에게 소리 내어 말을 걸다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_126",
+    "sourceHash": "4d52ca02c99041a8831278e638b15d466ca84da1901a76a01ff2bbc9bb9e0a50",
+    "level": "N5",
+    "dictionaryId": "jmdict-1444610",
+    "levelNote": "상대에게 물건을 건네는 기초 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 건네다, 넘겨주다, (양쪽에) 걸쳐 놓다. 사전의 hand over·pass·give와 거스름돈·메모·표·편지를 상대에게 건네는 세 ID의 대표 예문이 일치한다. 양쪽에 걸쳐 놓다는 사전의 lay across이지만 현재 학습 용법은 아니다.",
+    "aliasCandidateIds": [
+      "handmade_60",
+      "AbsoluteVerb_282"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "handmade_60",
+    "sourceHash": "6342c1b57a6886ca44ac36cd4a34ca85a90c1c48de8a81a697e78925de7d46a5",
+    "level": "N5",
+    "dictionaryId": "jmdict-1444610",
+    "levelNote": "상대에게 물건을 건네는 기초 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 건네다, 넘겨주다, (양쪽에) 걸쳐 놓다. 사전의 hand over·pass·give와 거스름돈·메모·표·편지를 상대에게 건네는 세 ID의 대표 예문이 일치한다. 양쪽에 걸쳐 놓다는 사전의 lay across이지만 현재 학습 용법은 아니다.",
+    "aliasCandidateIds": [
+      "JLPTN3_126",
+      "AbsoluteVerb_282"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_282",
+    "sourceHash": "7336892af15856d0701feebcce9c9269248dd7b418ad7c1201c644ef01a1867b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1444610",
+    "levelNote": "상대에게 물건을 건네는 기초 동사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 건네다, 넘겨주다, (양쪽에) 걸쳐 놓다. 사전의 hand over·pass·give와 거스름돈·메모·표·편지를 상대에게 건네는 세 ID의 대표 예문이 일치한다. 양쪽에 걸쳐 놓다는 사전의 lay across이지만 현재 학습 용법은 아니다.",
+    "aliasCandidateIds": [
+      "JLPTN3_126",
+      "handmade_60"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_127",
+    "sourceHash": "43e034c0c0d19dffaf4efe313f5d738f63ce9b8ee86ecb331c5a60b0f73f8433",
+    "level": "N4",
+    "dictionaryId": "jmdict-1208020",
+    "levelNote": "유리·그릇·얼음처럼 단단한 것이 깨지는 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (단단한 것이) 깨지다, (의견이) 갈라지다. 사전의 break·split·crack와 컵·창유리·얼음·접시가 깨지는 두 ID의 예문이 대응한다. 의견·정당 분열은 별도 파생 용법이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_510"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_510",
+    "sourceHash": "b66442440df765c2706af392c8179b709f8bfb3782abc60e3e8288366b21c241",
+    "level": "N4",
+    "dictionaryId": "jmdict-1208020",
+    "levelNote": "유리·그릇·얼음처럼 단단한 것이 깨지는 동사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 깨지다, 갈라지다. 사전의 break·split·crack와 컵·창유리·얼음·접시가 깨지는 두 ID의 예문이 대응한다. 의견·정당 분열은 별도 파생 용법이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_127"
+    ],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "표기 외에 기존 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+      "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_128",
+    "sourceHash": "8ef7e55660c59bb8630990409e53d7d886666ffe4f1d9699851ef30401326d30",
+    "level": "N4",
+    "dictionaryId": "jmdict-1390800",
+    "levelNote": "강·그릇의 물리적 깊이가 작은 기초 형용사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (깊이가) 얕다. 사전의 shallow와 강·접시의 깊이가 얕다는 예문이 일치한다. 지식이 부족하거나 시간이 짧다는 파생 뜻은 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_129",
+    "sourceHash": "993c83184ca651b68be96ceaf45a7e51687d2d311cec22df7de0c3be913d2b01",
+    "level": "N5",
+    "dictionaryId": "jmdict-1275320",
+    "levelNote": "책·옷의 두께가 큰 기초 형용사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (두께가) 두껍다. 사전의 thick와 사전·양말이 두껍다는 예문이 일치한다. 뜨겁다는 熱い·덥다는 暑い와 표기·의미를 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_130",
+    "sourceHash": "b663393e9260125ee7fe62bc9504a96da55e59afe3b0e0fbe4be52cdb4a23918",
+    "level": "N5",
+    "dictionaryId": "jmdict-1213400",
+    "levelNote": "기초 대표 용법의 OpenJLPT N5 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+    "meaningReview": "현재 대표 뜻 (맛이) 달다, 기준이 느슨하다 및 2개 용법(맛이 달다; 판단이나 기준이 엄격하지 않다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_131",
+    "sourceHash": "bc5071f5f72894ffcd7375d939e7b7f723ef478572100d58b9768259177baf53",
+    "level": "N2",
+    "dictionaryId": "jmdict-1586700",
+    "levelNote": "정체·신뢰성이 의심스러운 대상을 평가하는 다의 형용사이며 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 수상하다. 사전의 suspicious·untrustworthy와 사칭 메일·수상한 행동의 남자를 의심하는 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_132",
+    "sourceHash": "2ee4935ab03554f7cfd0d84282e3c686197d4ac1a0a3a09bf09a6f9973ab1036",
+    "level": "N5",
+    "dictionaryId": "jmdict-1475480",
+    "levelNote": "기초 대표 용법의 OpenJLPT N5 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+    "meaningReview": "현재 대표 뜻 (두께가) 얇다, (맛·색이) 연하다 및 3개 용법(두께가 얇다; 맛이 연하다; 색이 연하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_133",
+    "sourceHash": "8c1483152b1db268c265d00d1d6b50c6ae0c77ea146851af253fe4b4e2ac540b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1486360",
+    "levelNote": "모습·목소리가 아름답다고 평가하는 기초 형용사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 아름답다. 사전의 beautiful·lovely와 노을 풍경·목소리에 대한 예문이 대응한다. 시각적 아름다움만으로 한정하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_134",
+    "sourceHash": "8581edc0508579af1517ee1da33ff0a622e5824c20d2249f6b9ef321e9147c55",
+    "level": "N2",
+    "dictionaryId": "jmdict-1155780",
+    "levelNote": "행동이나 사람을 훌륭하다고 평가하며 지위·강도 등의 뜻도 있는 형용사로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 훌륭하다, 위대하다. 사전의 admirable·commendable와 남몰래 청소하거나 잘못을 인정하는 행동을 칭찬하는 예문이 일치한다. 높은 지위·심각함 등의 별도 뜻은 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_135",
+    "sourceHash": "40a87bb70cf2e79e811d7466ac1e7e59c81d7506de2ffba3b89614ffb03dcf85",
+    "level": "N2",
+    "dictionaryId": "jmdict-1382280",
+    "levelNote": "조금 모자라거나 소중한 것을 버리기 아깝다는 평가 형용사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 아깝다, 애석하다. 사전의 close but not quite·precious·regrettable와 일 점 차 불합격·완성 중인 원고를 버리기 아깝다는 두 장면이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_136",
+    "sourceHash": "655e71775e08244054601a93c318571eb7b82201622b40f06296529c64d552cc",
+    "level": "N4",
+    "dictionaryId": "jmdict-1483190",
+    "levelNote": "상실·이별 때문에 슬픈 마음을 표현하는 기초 형용사이며 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 슬프다. 사전의 sad·sorrowful와 영화 결말·친구 전학이 슬픈 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_137",
+    "sourceHash": "1c8deb9d4670f608f8adc065a27d2161a07f032230cfbd9b61cc102a78d090a3",
+    "level": "N5",
+    "dictionaryId": "jmdict-1365850",
+    "levelNote": "からい로 읽으며 음식의 매운맛을 표현하는 기초 형용사로 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (맛이) 맵다. 사전의 spicy·hot와 카레·어린이가 먹을 음식의 매운 정도를 말하는 예문이 대응한다. 같은 표기를 つらい로 읽는 괴롭다 용법을 현재 의미와 섞지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "현재 읽기 からい와 선택 매운맛 용법을 유지하며 표기만으로 つらい의 괴로운 의미를 합치지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_138",
+    "sourceHash": "95e143b7cc48d392eee0c6406ec69bf8a6e86113981b4f717b6b7c39a591a8d8",
+    "level": "N5",
+    "dictionaryId": "jmdict-1178940",
+    "levelNote": "때·오염이 있는 상태의 기초 형용사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 더럽다, 지저분하다. 사전의 dirty·unclean와 손·창문이 더럽다는 예문이 일치한다. 행동이 비열하거나 인색하다는 뜻은 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_139",
+    "sourceHash": "c6e2303b613de62019fb8ee2e6bbd9e57d28f87fe165a02b8c84dc56de522e65",
+    "level": "N4",
+    "dictionaryId": "jmdict-1262530",
+    "levelNote": "규칙·검사에 엄격하거나 환경·조건이 가혹한 형용사이며 OpenJLPT N4 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 엄격하다. 사전의 strict와 harsh weather·hard to do를 확인했다. 첫 ID는 예절·입장 검사에 엄격함, handmade_95는 혹독한 추위·예산상 어려움을 대표로 학습한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "엄격한 기준과 가혹한 상황이라는 서로 다른 대표 의미를 보존하기 위해 두 ID의 별칭 후보는 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_95",
+    "sourceHash": "8fc1ad70a8b574872abf812466dc2d81055bfff4f075e87ee94c2cf6fc51d6b3",
+    "level": "N4",
+    "dictionaryId": "jmdict-1262530",
+    "levelNote": "규칙·검사에 엄격하거나 환경·조건이 가혹한 형용사이며 OpenJLPT N4 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 가혹하다, 심하다. 사전의 strict와 harsh weather·hard to do를 확인했다. 첫 ID는 예절·입장 검사에 엄격함, handmade_95는 혹독한 추위·예산상 어려움을 대표로 학습한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "엄격한 기준과 가혹한 상황이라는 서로 다른 대표 의미를 보존하기 위해 두 ID의 별칭 후보는 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_140",
+    "sourceHash": "05eb65e796fd02420e48c1e51f1d4fa5be90c4630c0828be78d498230e75c874",
+    "level": "N5",
+    "dictionaryId": "jmdict-1154330",
+    "levelNote": "기초 대표 용법의 OpenJLPT N5 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+    "meaningReview": "현재 대표 뜻 (빛·분위기가) 어둡다 및 2개 용법(어둡다; 기분이나 분위기가 침울하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_141",
+    "sourceHash": "bc26cf787ebb28d39267484dcded8f2b8543fb73fe70bbfd790ae3a137999769",
+    "level": "N3",
+    "dictionaryId": "jmdict-1244320",
+    "levelNote": "몸·마음의 괴로움이나 곤란한 상태를 나타내는 형용사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 힘들다. 사전의 painful·distressing·psychologically difficult와 숨이 찬 고통·누구에게도 상담하지 못하는 괴로움이 대응한다. 일반적인 일이 어렵다는 뜻으로만 축소하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_142",
+    "sourceHash": "f25c025a53bbd0f4db7d1a04d8d37e1e286fb030116284d8ca1554ea64ee5066",
+    "level": "N3",
+    "dictionaryId": "jmdict-1351730",
+    "levelNote": "정보가 상세하거나 사람이 잘 아는 상태를 나타내는 형용사이며 OpenJLPT N3 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "현재 대표 뜻 자세하다, 상세하다, 잘 알고 있다 및 2개 용법(내용이 자세하다; 어떤 분야나 사정을 잘 알다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_143",
+    "sourceHash": "034e9ea390796104fe2f0e9b1f87ce793704806ea1a505ca54d26e491392da39",
+    "level": "N2",
+    "dictionaryId": "jmdict-1558760",
+    "levelNote": "떨어져 있는 사람·장소·음식 등을 그리워하는 감정 형용사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (사람·장소 등이) 그립다. 사전의 longed for·missed와 어머니의 된장국·고향의 고요함을 그리워하는 예문이 대응한다. 연애 대상에만 한정되지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_144",
+    "sourceHash": "2c17e61cb2aaf5a5d4aa4a480151f4c49acfbbfacdbbf4c58b0263ec1180c1b9",
+    "level": "N4",
+    "dictionaryId": "jmdict-1295530",
+    "levelNote": "기초 대표 용법의 OpenJLPT N4 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+    "meaningReview": "현재 대표 뜻 잘다, 작다, 세세하다 및 2개 용법(잘고 작다; 내용이나 사항이 세세하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_145",
+    "sourceHash": "364aaf7b1eaf0547e627bd9382bd0e2742d386da44e545cebfb3b5052d1cc220",
+    "level": "N3",
+    "dictionaryId": "jmdict-1365050",
+    "levelNote": "사람 사이가 가까운 관계를 표현하는 형용사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 친하다. 사전의 close friend·intimate와 가까운 친구·친해진 상대의 예문이 일치한다. 물리적으로 거리가 가까움을 뜻하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_146",
+    "sourceHash": "26c2e22a5e6c4aaa8b3e02a472280f68f736944f6356d76282c242bf62db14bc",
+    "level": "N2",
+    "dictionaryId": "jmdict-1200490",
+    "levelNote": "옛 경험과 추억이 떠올라 반갑고 그리운 감정 형용사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (옛 추억이) 그립다. 사전의 fondly remembered·nostalgic와 초등학교 급식주머니·할머니 집 냄새로 추억을 떠올리는 예문이 대응한다. 현재 떨어진 대상에 대한 갈망인 恋しい와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_147",
+    "sourceHash": "3e576a4f2c2c92c9b1b81d8e1d7b73966ff8d5a127c335d3d8ac7e2d3bd7dae5",
+    "level": "N4",
+    "dictionaryId": "jmdict-1362640",
+    "levelNote": "강·구멍의 바닥까지 거리가 큰 기초 형용사이며 OpenJLPT N4 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (깊이가) 깊다. 사전의 deep와 강·구멍의 물리적 깊이를 말하는 예문이 일치한다. 사상·관계·색의 깊이는 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_148",
+    "sourceHash": "86a623299f36322551dedbbe635622f5f4d552c24c94e7f71ddeaf2606a52fd6",
+    "level": "N5",
+    "dictionaryId": "jmdict-1295510",
+    "levelNote": "실·막대의 굵기가 작은 기초 형용사이며 OpenJLPT N5 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (굵기가) 가늘다. 사전의 thin·slender·fine와 실·막대가 가늘다는 예문이 일치한다. 평평한 물체의 두께가 얇다는 薄い와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_149",
+    "sourceHash": "01386a7eb316d192193df4b55f1276a2ef30c1935196b77bf9d73431c0b21eaa",
+    "level": "N3",
+    "dictionaryId": "jmdict-1490740",
+    "levelNote": "돈·생활 자원이 부족하여 가난한 상태의 형용사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 가난하다. 사전의 poor·needy와 가난한 살림·가정 형편을 설명하는 예문이 일치한다. 내용의 질·양 부족이라는 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_150",
+    "sourceHash": "5c4d4a5b2bda09a02417d417c459c7ab1e1e2df54a0c6a4171c7d57fd81085df",
+    "level": "N5",
+    "dictionaryId": "jmdict-1604230",
+    "levelNote": "달·돌의 둥근 모양이라는 기초 구체 의미를 근거로 N5를 편집 제안한다. 후보의 N3·N2 연결 근거와 달라 수준 대조가 필요하다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 둥글다. 사전의 round·circular·spherical와 보름달·돌이 둥글다는 예문이 일치한다. 사람이 원만하거나 평화롭다는 파생 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "고정 후보의 N3·N2 연결 수준과 형태 의미에 근거한 N5 제안이 다르다. 기초 형태 형용사군과 독립 대조 후 확정해야 한다."
+    ]
+  }
+]

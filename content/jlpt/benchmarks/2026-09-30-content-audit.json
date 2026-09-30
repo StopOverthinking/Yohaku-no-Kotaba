@@ -1,0 +1,79 @@
+{
+  "words": 2899,
+  "senses": 2899,
+  "examples": 6789,
+  "reviewedWords": 2899,
+  "missing": [],
+  "similar": [],
+  "comparisons": 128732,
+  "repeatedOpenings": [
+    {
+      "text": "久しぶりに会った",
+      "ids": [
+        "sense-AbsoluteVerb_61-1-ex-1",
+        "sense-AbsoluteVerb_761-1-ex-2",
+        "sense-AbsoluteVerb_536-1-ex-1",
+        "sense-AbsoluteVerb_229-1-ex-1",
+        "sense-lex-jmdict-1013050-1-ex-2",
+        "sense-lex-jmdict-1152730-1-ex-2"
+      ]
+    }
+  ],
+  "repeatedEndings": [
+    {
+      "text": "らないでください",
+      "ids": [
+        "sense-JLPTN3_90-1-ex-2",
+        "sense-handmade_91-1-ex-2",
+        "sense-lex-jmdict-1430250-1-ex-3",
+        "sense-lex-jmdict-1560670-1-ex-1",
+        "sense-lex-jmdict-1028580-1-ex-3",
+        "sense-lex-jmdict-1599400-1-ex-1",
+        "sense-lex-jmdict-1014590-1-ex-2",
+        "sense-lex-jmdict-1591100-1-ex-2"
+      ]
+    },
+    {
+      "text": "を教えてください",
+      "ids": [
+        "sense-JLPTN3_407-1-ex-1",
+        "sense-handmade_46-1-ex-1",
+        "sense-AbsoluteVerb_556-1-ex-2",
+        "sense-lex-jmdict-1038350-1-ex-1",
+        "sense-lex-jmdict-1387990-1-ex-3",
+        "sense-lex-jmdict-1594110-1-ex-1"
+      ]
+    },
+    {
+      "text": "することになった",
+      "ids": [
+        "sense-JLPTN3_341-1-ex-2",
+        "sense-lex-jmdict-1376070-1-ex-3",
+        "sense-lex-jmdict-1134370-1-ex-1",
+        "sense-lex-jmdict-1220870-1-ex-3",
+        "sense-lex-jmdict-1157970-1-ex-1"
+      ]
+    },
+    {
+      "text": "ってもいいですか",
+      "ids": [
+        "sense-JLPTN3_203-1-ex-2",
+        "sense-handmade_39-1-ex-2",
+        "sense-AbsoluteVerb_348-1-ex-1",
+        "sense-lex-jmdict-1000430-1-ex-1",
+        "sense-lex-jmdict-1036400-1-ex-2"
+      ]
+    },
+    {
+      "text": "れないでください",
+      "ids": [
+        "sense-JLPTN3_448-1-ex-1",
+        "sense-lex-jmdict-1155090-1-ex-2",
+        "sense-lex-jmdict-1185930-1-ex-1",
+        "sense-lex-jmdict-1076170-1-ex-2",
+        "sense-lex-jmdict-1243040-1-ex-1"
+      ]
+    }
+  ],
+  "note": "자동 유사도 검사는 검토 대상을 찾습니다. 자연스러움, 의미 차이, 장면 다양성은 별도 검수가 필요합니다."
+}

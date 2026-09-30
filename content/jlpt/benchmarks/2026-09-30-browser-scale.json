@@ -1,0 +1,809 @@
+{
+  "scope": "intermediate actual corpus, not final release validation",
+  "levelWords": 2843,
+  "corpusSenses": 4144,
+  "examples": 8102,
+  "activeProfiles": 4143,
+  "hardware": "Intel Core i7-12700 / Windows / Chromium 154",
+  "network": "localhost production preview HTTP with no throttling",
+  "emulation": "iPhone 15 viewport 393x852, DPR3; desktop CPU, not physical iPhone",
+  "store": {
+    "answer": {
+      "count": 500,
+      "max": 157.40000000223517,
+      "p50": 18.5,
+      "p95": 22.899999998509884,
+      "total": 9037.70000001043
+    },
+    "backupBytes": 2459942,
+    "backupExportMs": 70.30000000074506,
+    "backupRestoreMs": 283.9000000022352,
+    "completed": 128,
+    "corpusSenses": 4144,
+    "envelopeKeys": [
+      "schemaVersion",
+      "app",
+      "exportedAt",
+      "keyCount",
+      "data"
+    ],
+    "environment": {
+      "deviceMemory": 16,
+      "hardwareConcurrency": 20,
+      "kind": "actual corpus and synthetic complete learner history; Chromium IDB/store, excludes rendered UI",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    "examples": 8102,
+    "finishedAt": "2026-09-30T05:45:29.189Z",
+    "profiles": 4143,
+    "reloadMs": 72.30000000074506,
+    "seedAndHydrateMs": 361.19999999925494,
+    "shards": {
+      "count": 128,
+      "loadAndValidateMs": 863.8000000007451
+    },
+    "stage": "shards",
+    "startedAt": "2026-09-30T05:45:10.238Z",
+    "status": "passed",
+    "undo": {
+      "count": 500,
+      "max": 234.70000000298023,
+      "p50": 15.899999998509884,
+      "p95": 21.099999997764822,
+      "total": 8142.599999997765
+    }
+  },
+  "ui": {
+    "answer": {
+      "count": 50,
+      "max": 60.10000000149011,
+      "p50": 44,
+      "p95": 56.39999999850989
+    },
+    "completed": 50,
+    "environment": {
+      "cpu": "desktop i7-12700; mobile viewport/touch emulation only",
+      "devicePixelRatio": 3,
+      "hardwareConcurrency": 20,
+      "height": 852,
+      "network": "local production preview HTTP, no network throttling",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+      "width": 393
+    },
+    "finishedAt": "2026-09-30T05:48:17.533Z",
+    "overflow": false,
+    "phase": "undo",
+    "samples": {
+      "answer": [
+        51.599999997764826,
+        48.099999997764826,
+        41.69999999925494,
+        52.900000002235174,
+        49.19999999925494,
+        40,
+        31.5,
+        41.29999999701977,
+        50.69999999925494,
+        41.10000000149011,
+        34.70000000298023,
+        42.39999999850989,
+        48.599999997764826,
+        42.400000002235174,
+        53.89999999850989,
+        44,
+        38.900000002235174,
+        36.099999997764826,
+        43.19999999925494,
+        37.19999999925494,
+        46.60000000149011,
+        37.80000000074506,
+        46.69999999925494,
+        54.10000000149011,
+        46.19999999925494,
+        41.900000002235174,
+        32.099999997764826,
+        56.39999999850989,
+        52.5,
+        59.39999999850989,
+        52.19999999925494,
+        44.79999999701977,
+        52.5,
+        47.5,
+        38,
+        31.399999998509884,
+        41,
+        47.69999999925494,
+        40.900000002235174,
+        32.69999999925494,
+        39.099999997764826,
+        46.5,
+        52.80000000074506,
+        45.19999999925494,
+        36.400000002235174,
+        60.10000000149011,
+        54.80000000074506,
+        35.399999998509884,
+        40.19999999925494,
+        48.70000000298023
+      ],
+      "undo": [
+        38.099999997764826,
+        30.699999999254945,
+        38.39999999850989,
+        44.70000000298023,
+        21.5,
+        43.79999999701977,
+        35.80000000074506,
+        43,
+        50.80000000074506,
+        58.30000000074506,
+        52.60000000149011,
+        46,
+        40.400000002235174,
+        36.5,
+        32.20000000298023,
+        27,
+        38.39999999850989,
+        27.5,
+        35,
+        43.5,
+        36.5,
+        45.19999999925494,
+        48.19999999925494,
+        55.80000000074506,
+        34.5,
+        43,
+        36,
+        43.89999999850989,
+        38.60000000149011,
+        30.599999997764822,
+        25.600000001490116,
+        45.599999997764826,
+        40,
+        47.70000000298023,
+        57.5,
+        49.19999999925494,
+        41.79999999701977,
+        31.200000002980232,
+        41.599999997764826,
+        31.699999999254945,
+        41.39999999850989,
+        29,
+        37.19999999925494,
+        48,
+        38.10000000149011,
+        29.699999999254945,
+        37.20000000298023,
+        45.70000000298023,
+        39.900000002235174,
+        33.30000000074506
+      ]
+    },
+    "startedAt": "2026-09-30T05:47:42.494Z",
+    "status": "passed",
+    "undo": {
+      "count": 50,
+      "max": 58.30000000074506,
+      "p50": 38.60000000149011,
+      "p95": 55.80000000074506
+    }
+  },
+  "search": {
+    "completed": 40,
+    "finishedAt": "2026-09-30T05:55:50.021Z",
+    "height": 852,
+    "max": 134.39999999850988,
+    "p95": 90.89999999850988,
+    "samples": [
+      {
+        "count": 1,
+        "ms": 28.5,
+        "query": "책임"
+      },
+      {
+        "count": 1258,
+        "ms": 134.39999999850988,
+        "query": ""
+      },
+      {
+        "count": 2,
+        "ms": 30.800000000745055,
+        "query": "사회"
+      },
+      {
+        "count": 1258,
+        "ms": 96.19999999925494,
+        "query": ""
+      },
+      {
+        "count": 7,
+        "ms": 27.199999999254945,
+        "query": "する"
+      },
+      {
+        "count": 1258,
+        "ms": 89.89999999850988,
+        "query": ""
+      },
+      {
+        "count": 0,
+        "ms": 22.5,
+        "query": "의미"
+      },
+      {
+        "count": 1258,
+        "ms": 79.89999999850988,
+        "query": ""
+      },
+      {
+        "count": 61,
+        "ms": 35.5,
+        "query": "け"
+      },
+      {
+        "count": 1258,
+        "ms": 83.5,
+        "query": ""
+      },
+      {
+        "count": 0,
+        "ms": 34.099999997764826,
+        "query": "변화"
+      },
+      {
+        "count": 1258,
+        "ms": 77.40000000223517,
+        "query": ""
+      },
+      {
+        "count": 0,
+        "ms": 19.300000000745055,
+        "query": "生活"
+      },
+      {
+        "count": 1258,
+        "ms": 81.19999999925494,
+        "query": ""
+      },
+      {
+        "count": 1,
+        "ms": 31.099999997764822,
+        "query": "생각"
+      },
+      {
+        "count": 1258,
+        "ms": 80.69999999925494,
+        "query": ""
+      },
+      {
+        "count": 2,
+        "ms": 32.600000001490116,
+        "query": "문제"
+      },
+      {
+        "count": 1258,
+        "ms": 85.39999999850988,
+        "query": ""
+      },
+      {
+        "count": 0,
+        "ms": 31.600000001490116,
+        "query": "설명"
+      },
+      {
+        "count": 1258,
+        "ms": 77.5,
+        "query": ""
+      },
+      {
+        "count": 6,
+        "ms": 30,
+        "query": "会"
+      },
+      {
+        "count": 1258,
+        "ms": 88.10000000149012,
+        "query": ""
+      },
+      {
+        "count": 24,
+        "ms": 27.800000000745055,
+        "query": "일"
+      },
+      {
+        "count": 1258,
+        "ms": 90.89999999850988,
+        "query": ""
+      },
+      {
+        "count": 2,
+        "ms": 36.5,
+        "query": "행동"
+      },
+      {
+        "count": 1258,
+        "ms": 89.5,
+        "query": ""
+      },
+      {
+        "count": 2,
+        "ms": 31.400000002235178,
+        "query": "계획"
+      },
+      {
+        "count": 1258,
+        "ms": 81.30000000074506,
+        "query": ""
+      },
+      {
+        "count": 5,
+        "ms": 28.5,
+        "query": "마음"
+      },
+      {
+        "count": 1258,
+        "ms": 79.5,
+        "query": ""
+      },
+      {
+        "count": 1,
+        "ms": 25.5,
+        "query": "가족"
+      },
+      {
+        "count": 1258,
+        "ms": 81.60000000149012,
+        "query": ""
+      },
+      {
+        "count": 1,
+        "ms": 22.100000001490116,
+        "query": "필요"
+      },
+      {
+        "count": 1258,
+        "ms": 86.79999999701977,
+        "query": ""
+      },
+      {
+        "count": 1,
+        "ms": 35.80000000074506,
+        "query": "경험"
+      },
+      {
+        "count": 1258,
+        "ms": 87.19999999925494,
+        "query": ""
+      },
+      {
+        "count": 2,
+        "ms": 32.29999999701977,
+        "query": "활동"
+      },
+      {
+        "count": 1258,
+        "ms": 86.10000000149012,
+        "query": ""
+      },
+      {
+        "count": 0,
+        "ms": 30.899999998509884,
+        "query": "자료"
+      },
+      {
+        "count": 1258,
+        "ms": 77.80000000074506,
+        "query": ""
+      }
+    ],
+    "startedAt": "2026-09-30T05:55:37.354Z",
+    "status": "passed",
+    "width": 393,
+    "wordCount": 1258
+  },
+  "startup_cold": {
+    "count": 5,
+    "p95": 670,
+    "samples": [
+      {
+        "at": "2026-09-30T05:51:15.825Z",
+        "firstCardMs": 670,
+        "resources": [
+          {
+            "duration": 47,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 378939
+          },
+          {
+            "duration": 9.900000002235174,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 3400
+          },
+          {
+            "duration": 15.300000000745058,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 65120
+          },
+          {
+            "duration": 10.199999999254942,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 5110
+          },
+          {
+            "duration": 2.799999997019768,
+            "encodedBodySize": 489,
+            "name": "favicon.svg",
+            "transferSize": 789
+          },
+          {
+            "duration": 4.5,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 10060
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:51:38.071Z",
+        "firstCardMs": 466.8999999985099,
+        "resources": [
+          {
+            "duration": 36,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 378939
+          },
+          {
+            "duration": 8.300000000745058,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 3400
+          },
+          {
+            "duration": 8.699999999254942,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 5110
+          },
+          {
+            "duration": 13,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 65120
+          },
+          {
+            "duration": 2.800000000745058,
+            "encodedBodySize": 489,
+            "name": "favicon.svg",
+            "transferSize": 789
+          },
+          {
+            "duration": 4.300000000745058,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 10060
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:51:45.366Z",
+        "firstCardMs": 497.5,
+        "resources": [
+          {
+            "duration": 14,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 65120
+          },
+          {
+            "duration": 37.5,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 378939
+          },
+          {
+            "duration": 9.100000001490116,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 3400
+          },
+          {
+            "duration": 9.799999997019768,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 5110
+          },
+          {
+            "duration": 2.199999999254942,
+            "encodedBodySize": 489,
+            "name": "favicon.svg",
+            "transferSize": 789
+          },
+          {
+            "duration": 4.299999997019768,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 10060
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:51:52.809Z",
+        "firstCardMs": 443.0999999977648,
+        "resources": [
+          {
+            "duration": 34.399999998509884,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 378939
+          },
+          {
+            "duration": 8.100000001490116,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 3400
+          },
+          {
+            "duration": 8.199999999254942,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 5110
+          },
+          {
+            "duration": 12.800000000745058,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 65120
+          },
+          {
+            "duration": 1.899999998509884,
+            "encodedBodySize": 489,
+            "name": "favicon.svg",
+            "transferSize": 789
+          },
+          {
+            "duration": 3.300000000745058,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 10060
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:51:59.998Z",
+        "firstCardMs": 432.5,
+        "resources": [
+          {
+            "duration": 34.099999997764826,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 378939
+          },
+          {
+            "duration": 8.199999999254942,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 3400
+          },
+          {
+            "duration": 12.699999999254942,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 65120
+          },
+          {
+            "duration": 8.5,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 5110
+          },
+          {
+            "duration": 2.399999998509884,
+            "encodedBodySize": 489,
+            "name": "favicon.svg",
+            "transferSize": 789
+          },
+          {
+            "duration": 3.300000000745058,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 10060
+          }
+        ]
+      }
+    ]
+  },
+  "startup_warm": {
+    "count": 5,
+    "p95": 130.30000000074506,
+    "samples": [
+      {
+        "at": "2026-09-30T05:52:19.814Z",
+        "firstCardMs": 124.70000000298025,
+        "resources": [
+          {
+            "duration": 8.700000002980232,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 5.800000000745058,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 5,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 6.799999997019768,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 2.800000000745058,
+            "encodedBodySize": 0,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 300
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:52:21.947Z",
+        "firstCardMs": 128.19999999925494,
+        "resources": [
+          {
+            "duration": 2.099999997764826,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 5.599999997764826,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 9.5,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 5.400000002235174,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 2.199999999254942,
+            "encodedBodySize": 0,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 300
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:52:24.048Z",
+        "firstCardMs": 119.89999999850988,
+        "resources": [
+          {
+            "duration": 8.5,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 4.199999999254942,
+            "encodedBodySize": 3100,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 6.399999998509884,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 6.200000002980232,
+            "encodedBodySize": 4810,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 2.699999999254942,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 300
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:52:26.081Z",
+        "firstCardMs": 97.5,
+        "resources": [
+          {
+            "duration": 2.599999997764826,
+            "encodedBodySize": 0,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 4.899999998509884,
+            "encodedBodySize": 0,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 3.400000002235174,
+            "encodedBodySize": 0,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 4.300000000745058,
+            "encodedBodySize": 0,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 2.399999998509884,
+            "encodedBodySize": 9760,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 300
+          }
+        ]
+      },
+      {
+        "at": "2026-09-30T05:52:28.181Z",
+        "firstCardMs": 130.30000000074506,
+        "resources": [
+          {
+            "duration": 7.899999998509884,
+            "encodedBodySize": 378639,
+            "name": "main-z64N3DRR.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 5.399999998509884,
+            "encodedBodySize": 64820,
+            "name": "motion-CfkyDmCL.js",
+            "transferSize": 300
+          },
+          {
+            "duration": 1.800000000745058,
+            "encodedBodySize": 0,
+            "name": "motion-Bvh4b2dF.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 3.300000000745058,
+            "encodedBodySize": 0,
+            "name": "main-DfSwDvV_.css",
+            "transferSize": 300
+          },
+          {
+            "duration": 2.699999999254942,
+            "encodedBodySize": 0,
+            "name": "44-RBLVufxn.js",
+            "transferSize": 300
+          }
+        ]
+      }
+    ]
+  },
+  "buildFiles": {
+    "main-z64N3DRR.js": "a1648948d7d43ee573a1f91d56536daa8baa28e8ec6b3d85415c36d219611f54"
+  }
+}

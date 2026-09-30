@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "bc9fcad1a56556494829764fada7e4d290303a8deb51e6632ee77971241d2a24",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:54:55.412Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1606450",
+      "0335df4f1023bfd6a1489c5ff7a1a6ffecf5c790f49d6cc1fc85c81afe562380"
+    ],
+    [
+      "lex-jmdict-1607050",
+      "7a6b1659bff6bb689c5d809c4bd363e35b00cfb8f7a4c50afa9b574238808395"
+    ],
+    [
+      "lex-jmdict-1609050",
+      "07deb8a44e31727daa27784a959c9ce9d407f316b89f8f064e7f2eca5e991944"
+    ],
+    [
+      "lex-jmdict-1609350",
+      "98886d81c2fc4c3f8cd611db2a7c7f029895eb1491f65346399c876e40a90d87"
+    ],
+    [
+      "lex-jmdict-1609560",
+      "dc77ebbb426b5e1d5a1b31fb6051bf4a882934d56a7a0d30f0885386516e81c1"
+    ],
+    [
+      "lex-jmdict-1609660",
+      "6b0a66f0c2f39fdff9be002cc0c4c6fa1e35d4b2fff22fb5a2a57944dbf6a38e"
+    ],
+    [
+      "lex-jmdict-1610040",
+      "378068044482e94a1ed6c71ebaa44eda27e759e2b22281ef81c303f1825061d8"
+    ],
+    [
+      "lex-jmdict-1610160",
+      "0814a2530c77c52cb7105f7bb3f1c1ef15bf14e1bf61acf0579508db5991e955"
+    ],
+    [
+      "lex-jmdict-1610740",
+      "737e811b1aff2be319f7bcc6c04a6a35f9cdb804c8a77be521042836e568f63d"
+    ],
+    [
+      "lex-jmdict-1610870",
+      "ece009b16f0ab69d6e1f748b4f210a9b054a9cfc3c963dc05431d7d66b413015"
+    ],
+    [
+      "lex-jmdict-1610960",
+      "519e92c61cd1509b6ade1cd78bcb62ace6b424ca08d1c86217a55d576bdccd3f"
+    ],
+    [
+      "lex-jmdict-1611200",
+      "9da3ffcc42a4c6e38cee4266a64569929e64a3aaaedf95fa44cfed8d8ff3f5c2"
+    ],
+    [
+      "lex-jmdict-1613570",
+      "8837a9a66d9da91a004b4935d7e935c72beef72f18622cc78236568339577115"
+    ],
+    [
+      "lex-jmdict-1629200",
+      "fd66cb58024ecf6a694db56b5f096326a476733048977b6c33cf7b82d760eed2"
+    ],
+    [
+      "lex-jmdict-1632320",
+      "9658ee2a278d0f5df2aa0817c730f03d0efb62206f570daa10bcb3cce9b50dc8"
+    ],
+    [
+      "lex-jmdict-1633690",
+      "46fb65b14bf21510b6a81ad95c029984f14308eb2f0cd19f3a468c5a95c1a442"
+    ],
+    [
+      "lex-jmdict-1643510",
+      "dd676bf9d085e9b9cf08d23eb7945758c6337b6aceda5916d4821b4faa4afdb8"
+    ],
+    [
+      "lex-jmdict-1894690",
+      "349dcf66193d6f50ad1fab25dae1687084ae68bbde811cb42134faecbf66dcad"
+    ],
+    [
+      "lex-jmdict-1919590",
+      "88111c3bde952bcb80fbc1afc371f6f8181c59b4f2a514683565d5994e7133de"
+    ],
+    [
+      "lex-jmdict-1929950",
+      "76632e57d9438034f849c9805477f2c58fff98e6b2c10f955b511500eb6b2a95"
+    ],
+    [
+      "lex-jmdict-2830705",
+      "73b7dc0d69e1e91ea8b842890d88fa9199d4ddaf59b4810e63c321db6aff056f"
+    ],
+    [
+      "lex-jmdict-2853884",
+      "353a825f08f28ca215a1a9cde41f820b9b778708cac60ea0a924b445d60b84d6"
+    ],
+    [
+      "lex-jmdict-2868440",
+      "0661c3cf28c194d445489ece3cf4624a7b4bef28ec15404d21a91618a43a626d"
+    ],
+    [
+      "lex-jmdict-1632430",
+      "b9b16c316c305ff3da43243328e435aed49cf7dbaa9b2a893b4ea5c750ba002a"
+    ],
+    [
+      "lex-jmdict-2057030",
+      "de19f7e76ac861203a20311784b3977ae513a66c7e2e731d51df11cde8782d99"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1632320",
+      "category": "substantive",
+      "note": "기존 아기가 미소 짓는 장면과 겹쳐 단골손님을 맞는 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1632430",
+      "category": "substantive",
+      "note": "기존 역에서 학교 지인을 우연히 만나는 장면과 겹쳐 병원에서의 뜻밖의 만남으로 바꿨다."
+    }
+  ]
+}

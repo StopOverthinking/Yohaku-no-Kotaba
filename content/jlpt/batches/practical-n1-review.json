@@ -1,0 +1,689 @@
+{
+  "status": "editorial-shortlist-not-authored",
+  "at": "2026-09-30T06:29:47.886Z",
+  "scope": "practical-only",
+  "inventorySource": "output/jlpt/practical-coverage-inventory.json",
+  "availableAfterCurrentDrafts": 2589,
+  "coverageBoundary": "현재 editor·baseline·pilot·전체 words/held·명시 제외 기록의 사전 ID 및 대표 표제어+읽기를 후보 도구가 제외한 결과. 다른 표기·읽기·유사 의미와의 중복 및 최종 난도는 별도 검토 필요. 전량 실용성 판정 수치가 아님.",
+  "assessment": [
+    "남은 N1 연결 후보에 직장·금융·안전·사회 독해 핵심어가 다수 존재한다. 후보가 많다는 이유만으로 전량 수록할 필요는 없다.",
+    "현재 사전 ID 순서는 한자 표기군을 연속 처리하게 한다. n1-007에도 国·採·仕·志 계열이 집중되어 가나·외래어·후반부 실용어가 뒤로 밀렸다. 다음 생산은 분산된 주제별 누락을 먼저 선택하는 편이 낫다.",
+    "고정 N1 연결 자체를 난도 확정으로 볼 수 없다. 彼処(あそこ)·今日は(こんにちは)·歳·冊 등의 기본 표현, 드문 한자 표기가 섞여 있다. 실용어를 채택하더라도 편집 권장 수준은 재판정해야 한다.",
+    "정보·소통·업무 처리, 금융·안전, 논리·관계 표현을 우선 보완할 근거가 있다. 기술·군사·해부·지리·전통 문화 세부어는 일반 독해에 필요한 범위만 선택한다."
+  ],
+  "priorityGroups": [
+    {
+      "topic": "직장·업무",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1309800",
+          "japanese": "指示",
+          "reading": "しじ",
+          "glosses": [
+            "indication",
+            "denotation",
+            "designation",
+            "instructions",
+            "directions"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf04"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1327810",
+          "japanese": "手順",
+          "reading": "てじゅん",
+          "glosses": [
+            "process",
+            "procedure",
+            "sequence",
+            "protocol",
+            "instruction"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf09"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1328260",
+          "japanese": "手配",
+          "reading": "てはい",
+          "glosses": [
+            "arrangement",
+            "preparations",
+            "search (by police)"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf17"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1409840",
+          "japanese": "対応",
+          "reading": "たいおう",
+          "glosses": [
+            "correspondence (to)",
+            "equivalence",
+            "suitability",
+            "coordination",
+            "matching",
+            "being appropriate (for)",
+            "dealing with",
+            "coping with",
+            "handling",
+            "response",
+            "reception",
+            "reaction",
+            "compatibility (with technology, software, etc.)",
+            "capability",
+            "support (for)"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf01"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1604590",
+          "japanese": "見積もり",
+          "reading": "みつもり",
+          "glosses": [
+            "estimate",
+            "estimation",
+            "valuation",
+            "quotation"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf17"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1606280",
+          "japanese": "了承",
+          "reading": "りょうしょう",
+          "glosses": [
+            "acknowledgement",
+            "acknowledgment",
+            "understanding",
+            "approval",
+            "consent"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf04"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1599120",
+          "japanese": "取引",
+          "reading": "とりひき",
+          "glosses": [
+            "transactions",
+            "dealings",
+            "business"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf01",
+            "spec1"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1470090",
+          "japanese": "納入",
+          "reading": "のうにゅう",
+          "glosses": [
+            "payment (of taxes, fees, etc.)",
+            "supply (of goods)",
+            "delivery"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf12"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1367760",
+          "japanese": "人材",
+          "reading": "じんざい",
+          "glosses": [
+            "capable person",
+            "talented person",
+            "human resources",
+            "personnel"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf04"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1267860",
+          "japanese": "雇用",
+          "reading": "こよう",
+          "glosses": [
+            "employment",
+            "hire"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf02"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        }
+      ]
+    },
+    {
+      "topic": "생활·금융·안전",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1513440",
+          "japanese": "保険",
+          "reading": "ほけん",
+          "glosses": [
+            "insurance",
+            "guarantee",
+            "warranty"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf02"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1545020",
+          "japanese": "預金",
+          "reading": "よきん",
+          "glosses": [
+            "deposit",
+            "bank account"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf03"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1402750",
+          "japanese": "送金",
+          "reading": "そうきん",
+          "glosses": [
+            "remittance",
+            "sending money",
+            "transferring money"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf10"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1365500",
+          "japanese": "診療",
+          "reading": "しんりょう",
+          "glosses": [
+            "diagnosis and treatment",
+            "medical care"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf05"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1316890",
+          "japanese": "治療",
+          "reading": "ちりょう",
+          "glosses": [
+            "(medical) treatment",
+            "care",
+            "therapy",
+            "cure",
+            "remedy"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf02"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1484660",
+          "japanese": "避難",
+          "reading": "ひなん",
+          "glosses": [
+            "taking refuge",
+            "finding shelter",
+            "evacuation",
+            "escape",
+            "seeking safe haven"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf05"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1520260",
+          "japanese": "防火",
+          "reading": "ぼうか",
+          "glosses": [
+            "fire prevention",
+            "fire control",
+            "fireproofing"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf17"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1441100",
+          "japanese": "転居",
+          "reading": "てんきょ",
+          "glosses": [
+            "moving",
+            "changing residence",
+            "change of address"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf23"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1535960",
+          "japanese": "問い合わせる",
+          "reading": "といあわせる",
+          "glosses": [
+            "to enquire",
+            "to inquire",
+            "to seek information"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf16"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        }
+      ]
+    },
+    {
+      "topic": "논리·사회 독해",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1393680",
+          "japanese": "前提",
+          "reading": "ぜんてい",
+          "glosses": [
+            "condition",
+            "assumption",
+            "prerequisite",
+            "hypothesis",
+            "intention",
+            "intent",
+            "aim",
+            "goal",
+            "premise"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf02"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1546670",
+          "japanese": "要因",
+          "reading": "よういん",
+          "glosses": [
+            "main cause",
+            "primary factor"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf03"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-2848289",
+          "japanese": "根本",
+          "reading": "こんぽん",
+          "glosses": [
+            "root",
+            "source",
+            "origin",
+            "foundation",
+            "basis",
+            "essence"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf06"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1459360",
+          "japanese": "内訳",
+          "reading": "うちわけ",
+          "glosses": [
+            "itemization (of expenses)",
+            "the items",
+            "breakdown",
+            "classification"
+          ],
+          "dictionaryPriorities": [
+            "news1",
+            "nf07"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1467550",
+          "japanese": "認識",
+          "reading": "にんしき",
+          "glosses": [
+            "recognition",
+            "awareness",
+            "perception",
+            "understanding",
+            "knowledge",
+            "cognition",
+            "cognizance",
+            "cognisance"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf02"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1575870",
+          "japanese": "依存",
+          "reading": "いぞん",
+          "glosses": [
+            "dependence",
+            "reliance"
+          ],
+          "dictionaryPriorities": [
+            "news1",
+            "nf06"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1587200",
+          "japanese": "意向",
+          "reading": "いこう",
+          "glosses": [
+            "intention",
+            "inclination",
+            "mind",
+            "idea",
+            "wish",
+            "view"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf01"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1371200",
+          "japanese": "推測",
+          "reading": "すいそく",
+          "glosses": [
+            "guess",
+            "conjecture"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf19"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1410260",
+          "japanese": "対比",
+          "reading": "たいひ",
+          "glosses": [
+            "contrast",
+            "juxtaposition",
+            "comparison",
+            "correlation (of strata)"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf19"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1223090",
+          "japanese": "規模",
+          "reading": "きぼ",
+          "glosses": [
+            "scale",
+            "scope",
+            "plan",
+            "structure"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf01"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        }
+      ]
+    },
+    {
+      "topic": "정보·소통",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1019940",
+          "japanese": "アンケート",
+          "reading": "アンケート",
+          "glosses": [
+            "questionnaire",
+            "survey",
+            "poll"
+          ],
+          "dictionaryPriorities": [
+            "gai1",
+            "ichi1"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1050980",
+          "japanese": "コミュニケーション",
+          "reading": "コミュニケーション",
+          "glosses": [
+            "communication"
+          ],
+          "dictionaryPriorities": [
+            "gai1",
+            "ichi1"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1081190",
+          "japanese": "データ",
+          "reading": "データ",
+          "glosses": [
+            "data",
+            "datum"
+          ],
+          "dictionaryPriorities": [
+            "gai1",
+            "ichi1"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1085920",
+          "japanese": "トラブル",
+          "reading": "トラブル",
+          "glosses": [
+            "trouble",
+            "difficulty",
+            "problem",
+            "quarrel",
+            "conflict",
+            "dispute",
+            "fight",
+            "failure (of an engine, machine, computer, etc.)",
+            "breakdown",
+            "malfunction",
+            "(medical) condition",
+            "disorder",
+            "problem"
+          ],
+          "dictionaryPriorities": [
+            "gai1",
+            "ichi1"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1036080",
+          "japanese": "オンライン",
+          "reading": "オンライン",
+          "glosses": [
+            "online",
+            "on the line (of a ball; in tennis, volleyball, etc.)"
+          ],
+          "dictionaryPriorities": [
+            "gai1"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        },
+        {
+          "dictionaryId": "jmdict-1490580",
+          "japanese": "品質",
+          "reading": "ひんしつ",
+          "glosses": [
+            "quality (of a product or a service)"
+          ],
+          "dictionaryPriorities": [
+            "ichi1",
+            "news1",
+            "nf07"
+          ],
+          "inventoryState": "no-mapped-id",
+          "recommendation": "선택 의미·대체 표기·중복과 편집 난도 검토 후 우선 보완"
+        }
+      ]
+    }
+  ],
+  "lowerPriorityExamples": [
+    {
+      "japanese": "テレックス",
+      "reason": "레거시 통신 장비; 현대 일반 실용성 우선도 낮음"
+    },
+    {
+      "japanese": "タイピスト",
+      "reason": "직업·기술사 문맥 중심; 현대 일상 우선도 낮음"
+    },
+    {
+      "japanese": "亜科",
+      "reason": "생물 분류학 전문 단위"
+    },
+    {
+      "japanese": "対辺",
+      "reason": "기하학 전문 용어"
+    },
+    {
+      "japanese": "旒",
+      "reason": "깃발 등의 드문 계수·전문 용법"
+    }
+  ],
+  "sizeDecision": "단일 목표 개수를 제안하지 않는다. 위 핵심 누락과 기존 미분류·대체 표기·의미 누락을 검토한 뒤 필요한 항목 단위로 종료 규모를 판단한다."
+}

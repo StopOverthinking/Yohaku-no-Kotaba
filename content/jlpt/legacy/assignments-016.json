@@ -1,0 +1,349 @@
+[
+  {
+    "wordId": "JLPTN3_451",
+    "sourceHash": "942f14b572ba7a92f53d1ecde3abf9e85512c4c45869f31804b1c818e349b0e5",
+    "level": "N4",
+    "dictionaryId": "jmdict-1496890",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “이불” 및 1개 sense를 대조했다. futon와 추운 아침·손님용 침구 예문이 일치한다. 좌선 방석은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_452",
+    "sourceHash": "af776e5902a56fc4e2be17a6adfe4831375ce3a7a6af87ae838d56b77640cd00",
+    "level": "N3",
+    "dictionaryId": "jmdict-1499490",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “부분” 및 1개 sense를 대조했다. part와 못 읽는 부분·선반 파손 부분 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_453",
+    "sourceHash": "1f0e78d211295f4662b673580857c02fb538907cd3bd2fd7744e400f8d1f26e1",
+    "level": "N5",
+    "dictionaryId": "jmdict-1505470",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "현재 대표 뜻 글·문장 및 1개 용법(글로 이어 쓴 문장과 글)의 사전 대응과 모든 예문을 다시 확인했다. 현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_454",
+    "sourceHash": "a02c3bbef281a48d9282deffe30d3e6b7b00c9a317183bf7647a70fccb81a1e1",
+    "level": "N2",
+    "dictionaryId": "jmdict-1504460",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “분류” 및 1개 sense를 대조했다. classification와 잎 모양·서류 분류 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_455",
+    "sourceHash": "5ef2c37f4735536ada0bb7f51f978faa8e7897562f070303f2319f7b7c033d46",
+    "level": "N3",
+    "dictionaryId": "jmdict-1583870",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “평균” 및 1개 sense를 대조했다. average와 평균 수면 시간·평균 점수 예문이 일치한다. 균형 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_456",
+    "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1510890",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "현재 대표 뜻 변화 및 1개 용법(이전과 달라짐)의 사전 대응과 모든 예문을 다시 확인했다. 比較의 사진 장면 교체로 반복이 해소되며 현재 변화 용법과 예문은 유지한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_457",
+    "sourceHash": "1178ffe087d4c42a0cd1d69b978ec5f1f3a9029b16b79fddc8c72463cb8d06ed",
+    "level": "N4",
+    "dictionaryId": "jmdict-1520120",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “무역” 및 1개 sense를 대조했다. foreign trade와 항구 발전·해외 무역 업무 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_458",
+    "sourceHash": "d369ac03933c51508a7703f2cc3ff8453fc32838361b1dbabffc09ce1534c41a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1516990",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “방향” 및 1개 sense를 대조했다. direction와 역 반대 방향·풍향 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_459",
+    "sourceHash": "5348e0a0277a6d6e4f2971e7b3b792cd4c67a0001b366a0931c92fb980050679",
+    "level": "N3",
+    "dictionaryId": "jmdict-1517090",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “방법” 및 1개 sense를 대조했다. method와 대안·표 변경 방법 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_460",
+    "sourceHash": "04aedbddca1c76845a4c49ecc8b3681d59031e5db8393b2b9dbe0052ad501f1f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1518120",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “방문” 및 1개 sense를 대조했다. visit와 교사 방문 준비·예고 없는 방문 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_461",
+    "sourceHash": "ec1adbc1c1e538f018426a0c2dadef03890e1b5887e97051ba38ab0275ba4341",
+    "level": "N4",
+    "dictionaryId": "jmdict-1517480",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “법률” 및 1개 sense를 대조했다. law와 법률 토론·계약 적법성 예문이 일치한다. 특정 현행법 사실을 주장하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_462",
+    "sourceHash": "5d50d1980490ca0df6cb3ac9b27dddfa0940039a2af8b432746676a2f0bbb326",
+    "level": "N2",
+    "dictionaryId": "jmdict-1514830",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “모집” 및 1개 sense를 대조했다. recruitment와 자원봉사자·참가자 모집 예문이 일치한다. 모금이나 주식 모집은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_463",
+    "sourceHash": "f2ffb9566da31c518d0ded3ffde9d2e0d6029ca328f87311cf6fdba480750d86",
+    "level": "N3",
+    "dictionaryId": "jmdict-1406230",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "현재 대표 뜻 손주 및 1개 용법(손주)의 사전 대응과 모든 예문을 다시 확인했다. 성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_464",
+    "sourceHash": "02ff58797a3040c3d592096d35157611cd7dda78e159c8a87bac7852625e4df3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1450030",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “콩” 및 1개 sense를 대조했다. edible legumes와 불린 콩·세 종류 콩 수프 예문이 일치한다. 작은 크기라는 접두 용법은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_465",
+    "sourceHash": "c83c652b448985a1f67f08440382dc19136a50fe6c5dca2f1fc2d07ef2855e7a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1526860",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “만족” 및 1개 sense를 대조했다. satisfaction와 맛 만족·고객 만족 예문이 일치한다. 수학 조건 충족은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_466",
+    "sourceHash": "839e4ae6f0d3c0fcf5b26d7f58806894ea7afde35c4811211080fb1b0fa7f13b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1267280",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “호수” 및 1개 sense를 대조했다. lake와 산 반영·자전거 일주 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_467",
+    "sourceHash": "6de75dbf11c0bf8b639df15f5e4dc773936b05da6b2dc82c3177d57b115bc3d4",
+    "level": "N5",
+    "dictionaryId": "jmdict-1555300",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “녹색, 초록” 및 1개 sense를 대조했다. green과 지붕 색·천 색 비교 예문이 일치한다. 식생 전체는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_468",
+    "sourceHash": "023d9c90ffc0f9e5c1bf5dda6063f370bfa04672413936dd702af139b62db72b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1528060",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “미래” 및 1개 sense를 대조했다. future와 백 년 후·아이에게 남길 미래 예문이 일치한다. 내세나 시제는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_469",
+    "sourceHash": "a4b7a0af6986d5b37204accf4d7c82355eed4684ab3e27b6b07e608813e10fcc",
+    "level": "N3",
+    "dictionaryId": "jmdict-1532160",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “명령” 및 1개 sense를 대조했다. command와 대장 지시·명령조 말투 예문이 일치한다. 소프트웨어 명령은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_470",
+    "sourceHash": "cfcb16e35dcf9738e918e0b44acbe0b12bca8b108449c8260dae2b34e959a0f9",
+    "level": "N3",
+    "dictionaryId": "jmdict-1533130",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “면허” 및 1개 sense를 대조했다. driver’s license와 취득 축하·장기간 미운전 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_471",
+    "sourceHash": "27490fa2dd351bca0e8d26ba35d476b3a4e0c18f85382b23e53d9f61a5333415",
+    "level": "N2",
+    "dictionaryId": "jmdict-1533510",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “면접” 및 1개 sense를 대조했다. interview와 지원 동기·최종 면접 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_472",
+    "sourceHash": "345e90a9c4bc749d97093bc83cc5cf9632dd45235a161c5c33fbccad3d6278d3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1535560",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “목적” 및 1개 sense를 대조했다. purpose와 할머니 방문 여행·목적 없는 산책 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_473",
+    "sourceHash": "f0b47eda5a4ed60e88e82c2b5ccad8d1f6489e69a250ac48fbd665385dbf168b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1535650",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “목표” 및 1개 sense를 대조했다. goal와 독서 목표·목표 수준 낮춤 예문이 일치한다. 지형 표지는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_474",
+    "sourceHash": "53ab22906041e2f7e1825615ef716172ca60d2ee35e2aa79ce6d8b7572982b7d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1505390",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “문자” 및 1개 sense를 대조했다. character와 화면 글자·이름 글자 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_475",
+    "sourceHash": "231d7210b2d228e2d437011253e4224e1c706d5cb30d68eaaaa3d1f24586f2de",
+    "level": "N4",
+    "dictionaryId": "jmdict-1362490",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “숲” 및 1개 sense를 대조했다. forest와 새소리·숲 진입 전 지도 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_476",
+    "sourceHash": "4e8c5acdbb137bb5d90dd448351ef9f4a5ac364bd3920db42f64fe17ef8e4d33",
+    "level": "N3",
+    "dictionaryId": "jmdict-1505260",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “불평, 불만” 및 1개 sense를 대조했다. complaint와 음식 불평·대기 중 불평하지 않음 예문이 일치한다. 어구라는 다른 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_477",
+    "sourceHash": "a1e63a50a41cec0587dc2d1075a08f4b69b3ff4b72930563607727549921d3fe",
+    "level": "N3",
+    "dictionaryId": "jmdict-1182700",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “지붕” 및 1개 sense를 대조했다. roof와 눈에 무너진 지붕·길 안내 예문이 일치한다. handmade_92와 동일한 건물 지붕 의미이므로 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_92"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_92",
+    "sourceHash": "69137376ee8011ea669376899a9bf8a0502be05b180338b7f3ff4c7afeeaa87a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1182700",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “지붕” 및 1개 sense를 대조했다. roof와 빗소리·기와 보수 예문이 일치한다. JLPTN3_477과 같은 사전 ID·의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_477"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_478",
+    "sourceHash": "509fba72d395de1774036fa0259be6d5b53359a04f8a42e83c4ea836087a5024",
+    "level": "N3",
+    "dictionaryId": "jmdict-1349380",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “마루” 및 1개 sense를 대조했다. floor와 젖은 바닥·아기 기기 예문이 일치한다. 기존 마루는 목재 바닥으로 좁아 보일 수 있어 바닥도 포함하는 뜻 정리를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "床는 재질과 관계없는 실내 바닥이므로 마루·바닥으로 뜻을 넓힐 후보이다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_479",
+    "sourceHash": "41d18fc1fedbb719a3b9cda0ce802a154a3ac6449ca54adca5daec7b5bd5c939",
+    "level": "N3",
+    "dictionaryId": "jmdict-1538820",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수출” 및 1개 sense를 대조했다. export와 사과 수출·영문 포장 예문이 일치한다. 의학 원심성은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_480",
+    "sourceHash": "ae12f71b991f6fd2bf6d7c4e5cfd3f3c831083a2ad6721bca8c1bdbeef94143a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1538870",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수입” 및 1개 sense를 대조했다. import와 치즈 직수입·밀 수입 중단 예문이 일치한다. 의학 구심성은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

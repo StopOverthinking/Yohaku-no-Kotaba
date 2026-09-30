@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedParts": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "checkedWords": 100,
+  "acceptedWords": 96,
+  "acceptedExamples": 97,
+  "heldWords": 4,
+  "scope": "Independent complete review of every dictionary sense, level rationale, meaning, reading, POS, hint, contrast, example, Korean alignment, and scene diversity. Before each acceptance: parse/preflight, snapshot hash, and corpus+pilot deduplicated similarity threshold 0.7.",
+  "publishedHashesChecked": 1577,
+  "publishedHashesChanged": 0,
+  "version2Examples": 5,
+  "sourceAndPilotHashes": "matched",
+  "updatedAt": "2026-09-30T04:07:12.330Z",
+  "latestSimilarity": {
+    "corpusExamples": 7165,
+    "comparisons": 145513,
+    "newPairs": [],
+    "allPairs": 0
+  }
+}

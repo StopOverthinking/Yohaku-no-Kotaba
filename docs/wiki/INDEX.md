@@ -59,9 +59,6 @@
 - `docs/wiki/features/vocab-data.md`
 - `docs/wiki/features/list-mode.md`
 - `docs/wiki/features/learn-mode.md`
-- `docs/wiki/features/conjugation.md`
-- `docs/wiki/features/exam-mode.md`
-- `docs/wiki/features/game-mode.md`
 - `docs/wiki/features/share-panel.md`
 - `docs/wiki/features/editor.md`
 - `docs/wiki/features/preferences-and-debug.md`

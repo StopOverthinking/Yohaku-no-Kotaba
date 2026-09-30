@@ -126,6 +126,18 @@ function createSnapshot(): EditorSnapshot {
 }
 
 describe('editorSerializer', () => {
+  it('keeps explicit cross-book membership and range order through repeated normalization and export', () => {
+    const snapshot = createSnapshot()
+    snapshot.sets.push({ id: 'level', name: 'N3', order: 2, wordIdPrefix: 'LevelN3', membershipMode: 'explicit', wordIds: ['w-2', 'w-1'] })
+    const normalized = normalizeEditorSnapshot(snapshot)
+    expect(normalized.sets.find((set) => set.id === 'level')?.wordIds).toEqual(['w-2', 'w-1'])
+    expect(normalized.words).toHaveLength(snapshot.words.length)
+    expect(normalized.words.every((word) => word.setId === 'set-a')).toBe(true)
+    expect(normalizeEditorSnapshot(normalized)).toEqual(normalized)
+    const outputs = buildEditorFileOutputs(normalized)
+    const json = outputs.find((file) => file.path.at(-1) === 'vocabularySets.json')!
+    expect(JSON.parse(json.content).find((set: { id: string }) => set.id === 'level')).toMatchObject({ membershipMode: 'explicit', wordIds: ['w-2', 'w-1'] })
+  })
   it('normalizes set order and rebuilds wordIds', () => {
     const normalized = normalizeEditorSnapshot(createSnapshot())
 

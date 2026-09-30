@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "7186d029d7e90ab0780c3f26c84b5f5cdc11bdbec35b8269e8ec964bb82f25c7",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:20:34.584Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1158280",
+      "fd56ae1bae394873e8f063db0219bef68ddf0ead641eaa677c1ba916002a1b56"
+    ],
+    [
+      "lex-jmdict-1158440",
+      "b8cf3786a362046cbbae708d0e26a407bbfc1c0b4d2a38c2019dea56089705f4"
+    ],
+    [
+      "lex-jmdict-1158760",
+      "49b9e06aef26b13137b5339a9a4577e8a872f949b3168bda6f297b271f6cd70c"
+    ],
+    [
+      "lex-jmdict-1158830",
+      "283e2be0e3c26f705c91492223a57d5cc3169fb1021e05006f014f6237169ce4"
+    ],
+    [
+      "lex-jmdict-1159380",
+      "7569f96694f7cc2b1d8f37cccec213e27205e4948561cb6faba3fcf787ba38b8"
+    ],
+    [
+      "lex-jmdict-1160520",
+      "8c9954bd8c4ca520d136ffdaa4772133e98584b20525d366303ce4b6d8a0bae4"
+    ],
+    [
+      "lex-jmdict-1163580",
+      "4cb91e7a7a0ec237a8e9d91173c5b4a3c083dfb9b9cd367d2ce833c23dfc67f5"
+    ],
+    [
+      "lex-jmdict-1164170",
+      "0ff706e8fd6a13ac91d8405aa333d8fda72d4b881fb898d8cb031887d54734e8"
+    ],
+    [
+      "lex-jmdict-1164390",
+      "cbe6f4db0b05faa6ccd79e828607372e32301cb7cdaaf0f97cd849b5391e9548"
+    ],
+    [
+      "lex-jmdict-1164570",
+      "8532fb3f0bd24df34ae40dd05993104dd3cec094c454afe68f6cb4e4d6790792"
+    ],
+    [
+      "lex-jmdict-1165340",
+      "2e5e8d93d6ca7350c251588c40f496e459b765793de71f8bfd77175688e3308f"
+    ],
+    [
+      "lex-jmdict-1166870",
+      "d46dfdad225b3f371c0d10b4e6a0898cb457bbffc2562795cc36102d2cdf3f05"
+    ],
+    [
+      "lex-jmdict-1167130",
+      "5c0fcae2d4d229af2e764900c8c34ae7194fcfb48cf5450531b2601ec1db28ef"
+    ],
+    [
+      "lex-jmdict-1167250",
+      "7f7f6f049985b6aae1f7dfabe4f27968478b19f67d8ca0f27e17d198879e312b"
+    ],
+    [
+      "lex-jmdict-1167650",
+      "46c46e9f51ba2d6d70ee115c7d83b1053a75cd296abad2854e2d4a5118aeecf0"
+    ],
+    [
+      "lex-jmdict-1168880",
+      "bc7238f5bb8e4c40ab64d79378c384c4cf5e922a6ff7306a2bae31d81d8ae37b"
+    ],
+    [
+      "lex-jmdict-1168960",
+      "3d1f041be16983bf6a0d137207cc23db1052960976969ed737173e153433d84c"
+    ],
+    [
+      "lex-jmdict-1169000",
+      "e0cfb2de9f72982210517acb542251c0b8068d7e7b7d3aadce014dfedcb38677"
+    ],
+    [
+      "lex-jmdict-1170280",
+      "f590e0a5a67439830daf1f75e3c7b25242b2f4e91501092618d88dc9db3f4f88"
+    ],
+    [
+      "lex-jmdict-1172310",
+      "bb7883cb126c240daf6a53fa064d5cd15fb1fa341e3813d4105646de86a11da6"
+    ],
+    [
+      "lex-jmdict-1173420",
+      "d0bfcbd6c7604ab0ddd4f61c74c3b1fc73f1549ba095e416bf581678dec1ef9b"
+    ],
+    [
+      "lex-jmdict-1173800",
+      "8a92590dcef71908492d271f2f50fb794b0a85addf72804504594b8e39f3576f"
+    ],
+    [
+      "lex-jmdict-1176200",
+      "fa5325f8c6a44bdff1dcc8d13a711f866c20663568292ac62e7b37b8a3335807"
+    ],
+    [
+      "lex-jmdict-1176700",
+      "f1154568a5966c3eebef12bb5a3a586790dbe300cd5db10b56db322b0abd5b1b"
+    ],
+    [
+      "lex-jmdict-1176780",
+      "9cf33411e5b268f2496186289c1e27da3486d297fe05e59f25c03b8800e186e5"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1160520",
+      "category": "clarity",
+      "note": "도시 성장과 차 없는 생활의 불분명한 대비를 바닷가 성장과 눈 덮인 산 생활로 명확화."
+    },
+    {
+      "wordId": "lex-jmdict-1173800",
+      "category": "substantive",
+      "note": "영상의 화면 이미지를 반드시 움직이는 장면으로 제한하지 않도록 힌트 수정."
+    },
+    {
+      "wordId": "lex-jmdict-1176780",
+      "category": "clarity",
+      "note": "나이 차만으로 과거 시대가 특정되지 않아 백 년 전 인물을 연기하는 상황으로 구체화."
+    }
+  ]
+}

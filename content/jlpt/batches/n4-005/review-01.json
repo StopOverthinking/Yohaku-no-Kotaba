@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "56838e8f61e98611a2fbfdc9ade28a07082ba9c2b331b7447e5c1c07a8f8e9fd",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:58:29.858Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1006280",
+      "4f0317ad8b52d323820c322d5f6b591de3f62c198bf14cd943795e78ee057230"
+    ],
+    [
+      "lex-jmdict-1007310",
+      "6b6b76dc22c7a9686a263432e85343b029aae76ece6ac8ffe5a26500cc82375d"
+    ],
+    [
+      "lex-jmdict-1202150",
+      "3ab9f63cc40097eaad7bcca56db0d3c5518e06d4fbc478b5f03fe7cbe60ec657"
+    ],
+    [
+      "lex-jmdict-1227370",
+      "4d07c8cc7a4cb63c147326fe75e9c7a63ef215a99b9728a418767da3712d38e6"
+    ],
+    [
+      "lex-jmdict-1307770",
+      "c2ca504a9b994c278a86dc457bd9c62f4e36f2bb4bb5332d791a311640d78c05"
+    ],
+    [
+      "lex-jmdict-1414920",
+      "8bdd21237709500c9a6c5b8cb097417d8fef07251500f4265b2af0ddf8a2f342"
+    ],
+    [
+      "lex-jmdict-1449530",
+      "f4de8f2ed4564a95a2ec2bac91f86c68c4a35e899c7de34c1419deff6ee8e0c3"
+    ],
+    [
+      "lex-jmdict-1483090",
+      "ce2e45952f8a323e6f4a43fcf182ce82385c3916678fedebe0c782e74ee107ed"
+    ],
+    [
+      "lex-jmdict-1589590",
+      "7e7f2314f51a7cf70e4b1c8f4b6940c8da1d9b7783b6bfba3deff5df92a56f6c"
+    ],
+    [
+      "lex-jmdict-1605630",
+      "19cdc4866ad2d08920b18b245d273b0158f6d1d342c8f395728de99679d08553"
+    ],
+    [
+      "lex-jmdict-2394370",
+      "8e301b9f3528df493b16b7cb20bdb58863833dc737d36941d94e61086c6df521"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1449530",
+      "category": "substantive",
+      "note": "기존 証明 예문의 답뿐 아니라 풀이도 쓰라는 장면과 겹쳐 정답이 실린 위치 안내로 바꿨다."
+    }
+  ]
+}

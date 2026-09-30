@@ -1,0 +1,15 @@
+{
+  "scope": "practical-only",
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1006610",
+      "japanese": "そう",
+      "reason": "실제 사전은 모양·양태를 나타내는 보조항목이다. 이미 문법적으로 쓰이는 そう를 독립 단어로 수량 추가하지 않고 별도 용법 설계가 필요해 보류한다."
+    },
+    {
+      "dictionaryId": "jmdict-1584660",
+      "japanese": "明日",
+      "reason": "N5/N4 겹치는 동일 ID로 n5-008/01에서 기초 내일 의미를 이미 작성했으므로 다시 작성하지 않는다."
+    }
+  ]
+}

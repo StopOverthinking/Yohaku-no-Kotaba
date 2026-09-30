@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "completedFiles": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "countsByFile": {
+    "01": 30,
+    "02": 30,
+    "03": 28,
+    "04": 28
+  },
+  "reviewedWords": 116,
+  "reviewedExamples": 348,
+  "draftWords": 925,
+  "draftExamples": 2775,
+  "excludedDuplicateWords": [
+    "傾向",
+    "契約",
+    "話し合う",
+    "権利"
+  ],
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "individualReview": "All candidate dictionary meanings/readings/POS, representative N3 uses, 348 Japanese examples and Korean translations, independent hints, contrasts, varied scenes and inflections reviewed. AI editorial review, not human expert review.",
+  "validation": {
+    "parser": "passed; draft only",
+    "reviewHashesVerified": 116,
+    "pilotBatchTextMatches": true,
+    "existingPublishedWords": 809,
+    "existingPublishedHashChanges": 0,
+    "exampleVersion2Entries": 4,
+    "wholeCorpusSenses": 2433,
+    "wholeCorpusExamples": 5791,
+    "similarityThreshold": 0.7,
+    "similarPairs": 0,
+    "comparisons": 97015
+  },
+  "repeatedEndingsReview": "Four groups with at least five shared final eight characters were inspected. New brake/microwave cautions have distinct physical situations. Shared grammar alone was not treated as duplication.",
+  "existingContentFollowup": "Previously reported アパート/下宿 nearby-housing search overlap remains assigned to root; no existing published manuscript edited.",
+  "savedAt": "2026-09-30T01:46:52.105Z"
+}

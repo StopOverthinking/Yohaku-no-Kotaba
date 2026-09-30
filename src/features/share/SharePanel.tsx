@@ -15,14 +15,12 @@ import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
 import {
   QR_SHARE_AUTOPLAY_MS,
-  applyImportedBackup,
   buildQrShareFrames,
   createQrImportSession,
   createQrMarkup,
   decodeQrImportSession,
   downloadShareData,
   getQrImportReceivedCount,
-  getShareDataText,
   isQrImportComplete,
   mergeQrImportFrame,
   parseQrTransferFrame,
@@ -31,6 +29,7 @@ import {
   type QrShareFrames,
 } from '@/features/share/share'
 import styles from '@/features/share/share.module.css'
+import { getAppBackupText, restoreAppBackup } from './appBackup'
 
 type ShareStatus = {
   tone: 'success' | 'info' | 'error'
@@ -440,6 +439,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
 
     try {
       const frames = await buildQrShareFrames(text)
+      if (frames.frames.length > 64) throw new Error('백업이 커서 QR로 옮기기 어렵습니다. 파일 저장을 이용해 주세요.')
       const svgFrames = await Promise.all(frames.frames.map((frame) => createQrMarkup(frame)))
 
       setQrShare({
@@ -449,6 +449,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
         currentIndex: 0,
         svgFrames,
       })
+      return true
     } catch (error) {
       const message = error instanceof Error ? error.message : 'QR을 준비하지 못했어요.'
       setQrError(message)
@@ -456,6 +457,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
         tone: 'error',
         message,
       })
+      return false
     } finally {
       setIsQrLoading(false)
     }
@@ -484,13 +486,17 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
       return false
     }
 
-    applyImportedBackup(parsed.data)
+    try { await restoreAppBackup(parsed.data) }
+    catch (error) {
+      setStatus({ tone: 'error', message: error instanceof Error ? error.message : '백업을 복원하지 못했습니다.' })
+      return false
+    }
     window.location.reload()
     return true
   }
 
   const handleAppCopy = async () => {
-    const dataText = getShareDataText()
+    const dataText = await getAppBackupText()
 
     try {
       if (!navigator.clipboard?.writeText) {
@@ -505,14 +511,14 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
     }
   }
 
-  const handleAppDownload = () => {
-    downloadShareData(getShareDataText())
-    setStatus({ tone: 'success', message: '앱 백업 파일을 저장했어요.' })
+  const handleAppDownload = async () => {
+    downloadShareData(await getAppBackupText())
+    setStatus({ tone: 'success', message: '앱 백업 파일 다운로드를 시작했어요.' })
   }
 
   const handleAppQrExport = async () => {
-    await openQrShare('앱 백업 QR', '앱 백업을 다른 기기로 옮길 수 있어요.', getShareDataText())
-    setStatus({ tone: 'success', message: '앱 QR을 준비했어요.' })
+    if (await openQrShare('앱 백업 QR', '앱 백업을 다른 기기로 옮길 수 있어요.', await getAppBackupText()))
+      setStatus({ tone: 'success', message: '앱 QR을 준비했어요.' })
   }
 
   const handleAppClipboardImport = async () => {
@@ -599,12 +605,16 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
           const Icon = action.icon
 
           const onClick = async () => {
-            if (action.id === 'app-copy') return handleAppCopy()
-            if (action.id === 'app-download') return handleAppDownload()
-            if (action.id === 'app-qr-export') return handleAppQrExport()
-            if (action.id === 'app-paste') return handleAppClipboardImport()
-            if (action.id === 'app-import-file') return handleImportFileClick()
-            if (action.id === 'app-qr-import') return setIsQrImportOpen(true)
+            try {
+              if (action.id === 'app-copy') return await handleAppCopy()
+              if (action.id === 'app-download') return await handleAppDownload()
+              if (action.id === 'app-qr-export') return await handleAppQrExport()
+              if (action.id === 'app-paste') return await handleAppClipboardImport()
+              if (action.id === 'app-import-file') return handleImportFileClick()
+              if (action.id === 'app-qr-import') return setIsQrImportOpen(true)
+            } catch (error) {
+              setStatus({ tone: 'error', message: error instanceof Error ? error.message : '백업을 처리하지 못했습니다.' })
+            }
           }
 
           return (
@@ -692,6 +702,10 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
             ) : qrError ? (
               <div className={styles.qrLoading}>
                 <p>{qrError}</p>
+                <IconButton icon={Download} label="앱 백업 파일 저장" onClick={async () => {
+                  try { await handleAppDownload() }
+                  catch (error) { setQrError(error instanceof Error ? error.message : '백업을 내보내지 못했습니다.') }
+                }} />
               </div>
             ) : qrShare ? (
               <>

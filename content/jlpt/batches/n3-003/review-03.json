@@ -1,0 +1,353 @@
+[
+  {
+    "wordId": "lex-jmdict-1367380",
+    "contentHash": "8731001923c95048306cacc5fb7fcc25e6136f57db097de91521759cca095dce",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.284Z",
+    "notes": [
+      "연못·조화·야간 조명의 인공적인 제작을 자연과 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1369070",
+    "contentHash": "3fde4ba25584dd10e1e177d47a1a20cdae93bcec88b61d7e84774ef8f5694443",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.285Z",
+    "notes": [
+      "소설 등장인물·사진 속 사람·협상 주역을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1356730",
+    "contentHash": "9f44de99a075ee8d52756c8fbaf105ea6076505bb0fd1983e33d7b31f9954afa",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.285Z",
+    "notes": [
+      "자전거·환자·젖은 책의 개별 상태를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1356700",
+    "contentHash": "f5a5e6388ae23ef2dbf6541f4b097881a69c61a2d41a98e3c7ba3fdfe3610167",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.285Z",
+    "notes": [
+      "전철 운행·가계·경기의 전체적인 형편을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1340030",
+    "contentHash": "e855558047f0f7c9b6ae02a536bdc1040d792796a83de85402b3557612b272ca",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "일기 출간 준비·사전 활용·종이책 비용의 출판 문맥을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1358600",
+    "contentHash": "ca206e17734ed58ee6afb293f134dbe39674af33181332a5d4d1aa5e0eb999d5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "냉동 보관·알레르기 성분·기한 임박 상품의 식품 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1359730",
+    "contentHash": "a5336abeaf14fb65d5882d9cf69badcf28df1d2ae09736dd4fc44f3ffc96f7b8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "상호 도움·환자 관계·현장 위임의 신뢰와 의지를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1359620",
+    "contentHash": "9663e7bf9ee5a67c6acdefc122aa295d6907bdabc828d1a81913e2d8ba6d0a6e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "거래처가 회사에 가진 믿음이라는 방향이 분명하도록 번역을 바꿨다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1375790",
+    "contentHash": "b16342c120b387237e86d8b11a4712265b4d53f0a686c25598774a9358b00954",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "발전 속도를 역량이 못 따라가는 기존 문형을 해외 지점 개설로 교체했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1379950",
+    "contentHash": "d18a975f30c0e2552c4c36ffbd794fe2e89312bbc7e3f809c82ff5893868f1e7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "심리적 건강·스포츠 태도·인내 의지의 정신을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1380760",
+    "contentHash": "307a2eca9715687a9309f29d716f1cd33541fe3fba1d0e6e1ffb4110cf8ff954",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "출시 시험·해외 전기제품·제조 공정의 완성품 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1374880",
+    "contentHash": "363dfec3ea65115d3da9d9965d80fd94b921b3ee818c74c4ec5444c07fd471d3",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "재택근무·장학금·이용자 의견의 운영 체계를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1376070",
+    "contentHash": "1572bc701ebe889fd53afc036139c75cd754fdf196893597bad632a5b6a6d32a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "지원 정책·기업 요구·국제 협력에서 행정 주체를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1543000",
+    "contentHash": "861e6dd0b0425a17d0d9b7473b8d949eee314305111b7da0f4e90e9392ddb037",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "여행·도서 구입·시설 수리의 사전 지출 계획을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1543630",
+    "contentHash": "185fda4d15b2c95795fc42ec1c4dacfee0fa30c87dade74d963daebb797daa02",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "빨래·등산·태풍 운항과 관련한 예보를 추정 행위와 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1552740",
+    "contentHash": "60cd45ba2066c56557b645c229b81ef96bd0bf21899d863e0643a4f75059ca82",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "유학 친구·비용 마련·귀국 후 태도 변화의 학업 체류를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1559610",
+    "contentHash": "0b2a6672acfa6d28225e514274efce60d8ac9c729d77338ba4a68862670768fb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "정전의 잇따름·기계 운전 지속·동작 반복을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1207130",
+    "contentHash": "5ee40b0f3862492c8bf541ee4641da752e246a761390ae0884c4817359a1b2e5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "학문의 가치·은퇴 후 연구·분야 간 탐구를 학습과 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1293850",
+    "contentHash": "9e56847e824cc6c3f0f58bc2b23f0737297d4f27845f43ff3f1c61c4e3396b21",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "숙소 만족·최대 매출·최상 연주의 최고 수준을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1294220",
+    "contentHash": "a28427be22e7a70f284fffa4e64b4c6f37998cd92e57c970e9c245331a1d46f8",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "최저 임금과 최악 평가를 확인하고 한국어 인용형을 바로잡았다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1377290",
+    "contentHash": "f6e1594a0eae8b2de4819e6115f6cd5c83d895be6d81daed4bc91b6946cb6da0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "계약서·직원 전환·명칭의 정식 절차와 형식을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1354030",
+    "contentHash": "4e93d0f978a60fc474f667567e8cc8ebd199e58dd211d6a37ed666fe2a3f75eb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "고기·천·찻잔의 품질을 가격과 구별했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1544520",
+    "contentHash": "5ee240768de31155c82ea1a2d436739028bf1f76ecd68fa816195cba4ffdc455",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "예비 도시락과 과도한 지방·설명이 함께 포괄되도록 뜻을 다듬었다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1293700",
+    "contentHash": "194fdeb543590eb9d666353631028a56b3dd11d1d812be458e85971e7a1202df",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "교통 선호·사진 표정·사고 빈도의 최상급을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1509480",
+    "contentHash": "698213005d60e2d357bdb76641b1a4ac2f94f02b656386b809a125087fa9082d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "부정문과 결합하는 別に의 위치를 자연스럽게 조정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1289140",
+    "contentHash": "3e2520e028536faaf64b07bf44ce7cbfaf070294ad905dfcb04d5f81ad548846",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "현재 이후를 장기간에만 한정하던 대비 설명을 수정했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1289070",
+    "contentHash": "33023245133e142a53803c23d8169c4aed8f6a6af4a45bfd2c3224cfea3a5c7b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n3-003/review-summary.json",
+    "reviewedAt": "2026-09-30T02:16:04.286Z",
+    "notes": [
+      "예약·전시·설명 진행의 이번 차례를 뜻하는 용법을 확인했다."
+    ]
+  }
+]

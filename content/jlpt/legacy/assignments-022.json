@@ -1,0 +1,340 @@
+[
+  {
+    "wordId": "handmade_139",
+    "sourceHash": "5248447d1cb1b04b192ddac8bb1ce23dcdfd1b4126a37d4417a308dc62f9a0c5",
+    "level": "N4",
+    "dictionaryId": "jmdict-1322920",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “사장” 및 1개 sense를 대조했다. company president와 직접 배달·면접 질문 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_140",
+    "sourceHash": "c039d9c17f123ccc58b99ee01bc33619a21b5785db54d546fd13a079588cf265",
+    "level": "N3",
+    "dictionaryId": "jmdict-1454290",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “도로” 및 1개 sense를 대조했다. road와 공사 차량 행렬·공을 따라 뛰지 않기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_141",
+    "sourceHash": "555bfab3bc59ef91fe185c4b01175e7e30fbd8dd9dc25cc934aba6004a0a5fd7",
+    "level": "N5",
+    "dictionaryId": "jmdict-1447690",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “도쿄” 및 1개 sense를 대조했다. Tokyo와 거주·교통 목적지 예문이 일치한다. 등급 근거는 없으며 기본 일본 지명으로 N5 편집 제안하되 보통명사의 난도 근거와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_142",
+    "sourceHash": "678e0839beb2d884c2b9eee913964aa8be7f0ca9ca570e75a5abaf4da5ee9a9a",
+    "level": "N5",
+    "dictionaryId": "jmdict-2078800",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “오사카” 및 1개 sense를 대조했다. Osaka와 여행 음식·출장 목적지 예문이 일치한다. 등급 근거는 없으며 기본 일본 지명으로 N5 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_143",
+    "sourceHash": "224da043dbdd5abfcf612c0912654558826f6a9a64c91a23f305a29c2cec2b6c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1252560",
+    "suggestedType": "i_adj",
+    "levelNote": "현재 i_adj 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “가볍다” 및 1개 sense를 대조했다. light weight와 우산·빈 상자 예문이 일치한다. 경솔함·쉬움은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_144",
+    "sourceHash": "1177197ed33e5ed856b24798e0c6d1b32c98eb35aaba0ae297cbce3240037425",
+    "level": "N5",
+    "dictionaryId": "jmdict-1380440",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “목소리” 및 1개 sense를 대조했다. voice와 전화 목소리·아기 앞 음량 예문이 일치한다. 여론·동물 소리는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_145",
+    "sourceHash": "e552ecca5567973dceecbe96ed83b9de1498844524d521cc5ad71ca4f4876615",
+    "level": "N1",
+    "dictionaryId": "jmdict-1497870",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “부패” 및 1개 sense를 대조했다. spoilage와 고기·생선 부패 예문이 일치한다. 사회적 부정은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_146",
+    "sourceHash": "e1b2072a41d4a3f0f5f7a8618fa46fca30e29a96f07d55568ec43045d5667390",
+    "level": "N3",
+    "dictionaryId": "jmdict-1358530",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “식탁” 및 1개 sense를 대조했다. dining table와 빵 배치·가족 식사 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_147",
+    "sourceHash": "06ce45dedca665dec980b2a09e86f3a66be3f03ac8368e46fa68b17d1c69084c",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "noun",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “파리” 및 1개 sense를 대조했다. 빵 주변 파리·창으로 내보낸 파리 예문은 곤충에 일관된다. 제공 후보가 없어 ハエ/蝿의 표기와 사전 연결을 확인해야 한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ハエ의 곤충 의미에 대응하는 제공 사전 후보가 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_148",
+    "sourceHash": "1f54a20bf783df7ae2d1a1c7f66f86f11519dc66858b4bbd3c0bccbe48b87c50",
+    "level": "N4",
+    "dictionaryId": "jmdict-1509290",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “벽” 및 1개 sense를 대조했다. wall와 이웃 목소리·벽 낙서 예문이 일치한다. 추상적 장애물은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_149",
+    "sourceHash": "c077855513d397beb8b925884933a7087f4a23fcfcaf4a4d86cfd063367e2312",
+    "level": "N2",
+    "dictionaryId": "jmdict-1306470",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “찌르다, 꿰다, (벌레에) 쏘이다” 및 1개 sense를 대조했다. pierce·prick와 꼬챙이·바늘 예문이 일치한다. 표제어 한국어 쏘이다는 수동 표현인데 刺す는 쏘다의 타동사여서 뜻 표기 검토가 필요하다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "刺す의 벌레 용법 한국어를 쏘다로 적고 쏘이다는 刺される와 구별할 후보이다."
+    ]
+  },
+  {
+    "wordId": "handmade_150",
+    "sourceHash": "2ae5d7f06592d1885ee176b0ef91d04115205feed7e9b4dc7b7a7dc453132d0d",
+    "level": "N5",
+    "dictionaryId": "jmdict-1546020",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “양복” 및 1개 sense를 대조했다. Western-style clothes와 기모노에서 갈아입음·직접 옷 만들기 예문이 일치한다. 한국어 양복은 정장으로 좁게 읽힐 수 있어 서양식 옷을 함께 명시할 후보이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "洋服는 정장만이 아니라 서양식 의복 전체이므로 한국어 뜻 범위 보완 후보이다."
+    ]
+  },
+  {
+    "wordId": "handmade_151",
+    "sourceHash": "9bb2852036451ec5c26568248fb00701024b2b8caca7debdda00787d70328389",
+    "level": "N5",
+    "dictionaryId": "jmdict-1337270",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “숙제” 및 1개 sense를 대조했다. homework와 숙제 분실·방학 숙제 예문이 일치한다. 미해결 정책 과제는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_152",
+    "sourceHash": "dd8a66ddbade21e84d002130c7868bccc752590741eba6789a0683b25973c487",
+    "level": "N4",
+    "dictionaryId": "jmdict-1294330",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “아내” 및 1개 sense를 대조했다. wife와 요리 교실 만남·늦게 귀가하는 아내 예문이 일치한다. 두 제공 후보 중 아내 의미의 jmdict-1294330을 선택하며 가장자리·박공 의미의 다른 ID는 제외한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_153",
+    "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+    "level": "N5",
+    "dictionaryId": "jmdict-1554310",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “요리” 및 1개 sense를 대조했다. cooking·dish와 요리 취미·아버지 요리 예문이 일치한다. 사람을 능숙하게 처리함이라는 비유는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_154",
+    "sourceHash": "58e9d94d57c63cc51e09847e55f2710677fdd52ef58d93a3417cfb5b93cd873b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1318970",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “사전” 및 1개 sense를 대조했다. dictionary와 새 단어 검색·예문 필사 예문이 일치한다. 사직서라는 별도 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_1",
+    "sourceHash": "1d04a19699561f711e00cadbe2dc02fcc796e4b8a4355d31b1779ad914c0a381",
+    "level": "N5",
+    "dictionaryId": "jmdict-1360010",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “자다, 잠자리에 들다, 눕다” 및 1개 sense를 대조했다. sleep·go to bed와 일찍 취침·아홉 시간 수면 예문이 일치한다. 단순히 눕기와 다른 확장 의미는 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_2",
+    "sourceHash": "2b25a50ad238856a24bc10afe7838abcf83e86b9dbf893119dd661fe437e1fb0",
+    "level": "N4",
+    "dictionaryId": "jmdict-1359960",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(잠을) 재우다, 누이다” 및 1개 sense를 대조했다. put to bed와 동생·아기 재우기 예문이 일치한다. 등급 근거는 없지만 잠자리에 들게 하는 기본 생활 타동사로 N4를 편집 제안하며 물건 숙성 의미는 제외한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_5",
+    "sourceHash": "584cba98b9e760112bc0209a9afdbfa55e709e851652dd29651079a8a2315c58",
+    "level": "N5",
+    "dictionaryId": "jmdict-1223640",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “일어나다” 및 1개 sense를 대조했다. wake up와 알람 전 기상·여섯 시 기상 예문이 일치한다. 사건 발생은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_6",
+    "sourceHash": "84c0428ef4391d772cfcd72fd4cd55503a057c1f396caa5707286f6458d6339d",
+    "level": "N4",
+    "dictionaryId": "jmdict-1223660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N1이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(잠을) 깨우다, (쓰러진 것을) 일으키다” 및 1개 sense를 대조했다. wake someone와 여섯 시 부탁·재채기로 아기 깨움 예문이 일치한다. N4/N1 출처 중 일상 수면 타동사 용법에 N4를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_8",
+    "sourceHash": "5ed6c9383630e54269a80edcf6fe51dab4f69cb5de50b82c4ac62bf5a60ee5ce",
+    "level": "N5",
+    "dictionaryId": "jmdict-1390930",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “씻다, (머리를) 감다, (빨래를) 빨다” 및 1개 sense를 대조했다. wash와 장화·손 씻기 예문이 일치한다. 조사하다나 마음을 정화함은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_9",
+    "sourceHash": "ec00cf4e5da760798b7ebcf9527a6dd43d20c705423960c689abb576c2984841",
+    "level": "N2",
+    "dictionaryId": "jmdict-1581900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “깎다, 면도하다” 및 1개 sense를 대조했다. shave와 아버지 면도·급하게 면도한 피부 예문이 일치한다. N2/N1 중 일상 신체 관리 용법에 N2를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_10",
+    "sourceHash": "111eb8611ca565a8cac10352ba48fb797a83b935e0e505e71b362dd937d6ca62",
+    "level": "N5",
+    "dictionaryId": "jmdict-1523940",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(표면을 문질러) 닦다, 윤을 내다” 및 1개 sense를 대조했다. polish와 신발·은수저 광택 예문이 일치한다. 기량 연마는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_12",
+    "sourceHash": "d51f34b34cab058b8a4a6f2eddba7404ee6a2b730a0f95581f29d825662fb947",
+    "level": "N5",
+    "dictionaryId": "jmdict-1227560",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “쉬다, 결석하다, 취침하다” 및 1개 sense를 대조했다. rest와 벤치 휴식·휴식 후 회복 예문이 일치한다. 결석·취침은 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_13",
+    "sourceHash": "e3ff29be8586cf1ed1c31eeb00592ac27b4c79e06d59d76aad9886c42671e3c0",
+    "level": "N3",
+    "dictionaryId": "jmdict-1202450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(날이) 밝다, (해가) 바뀌다” 및 1개 sense를 대조했다. dawn와 새벽 전 출발·밤새 대화 예문이 일치한다. N5/N3의 혼합 표기는 다의 사전 항목 전체의 근거이며 새벽이 됨 용법으로 N3를 선택한다. 열다의 타동사와 혼합하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_14",
+    "sourceHash": "274beceeb1ba032158e16fe48120a4993b3eb32140b39f43ec4a973e970965a0",
+    "level": "N4",
+    "dictionaryId": "jmdict-1514960",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “저물다, 지새우다” 및 1개 sense를 대조했다. grow dark와 하산 시각·저녁 어둠 예문이 일치한다. 기존 뜻의 지새우다는 현재 예문이나 이 자동사 의미와 맞지 않아 별도 검토가 필요하다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "暮れる의 저물다와 지새우다를 구별하여 후자의 사전 근거를 확인할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_16",
+    "sourceHash": "b6986ee8288d32bf840b44ae92dd04bafa7d409e31d6db165ccafe2f4a666cfc",
+    "level": "N5",
+    "dictionaryId": "jmdict-1370760",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(바람이) 불다, (입으로) 불다, (악기를) 불다, 허풍 떨다” 및 1개 sense를 대조했다. wind blows와 시원한 바람·다리 강풍 예문이 일치한다. 입으로 불기·악기·허풍은 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_17",
+    "sourceHash": "1c9cc07589366d066d0cb07e96a5488663d0d2357a77792cb506c69a5864e3ef",
+    "level": "N5",
+    "dictionaryId": "jmdict-1282790",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(비 등이) 내리다” 및 1개 sense를 대조했다. rain or snow falls와 눈·비 예문이 일치한다. 행운 방문은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_18",
+    "sourceHash": "62d99809efe13040f9043fbf149c1dcd33e1ca384731525f89cf5a56944bfdfd",
+    "level": "N4",
+    "dictionaryId": "jmdict-1310640",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “그치다, 멎다” 및 1개 sense를 대조했다. cease와 비 그침·박수 멎음 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_23",
+    "sourceHash": "6071b2b41305d712ad49d8089f1cab2c2755dac294a5f81d4c409ff14b5f35fa",
+    "level": "N5",
+    "dictionaryId": "jmdict-1376470",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “맑게 개다, 마음이 밝아지다” 및 1개 sense를 대조했다. clear up와 빨래 기다림·산정의 갠 하늘 예문이 일치한다. 마음 회복·혐의 해소는 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

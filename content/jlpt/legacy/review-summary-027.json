@@ -1,0 +1,15 @@
+{
+  "batch": "027",
+  "scope": "classification only; no source edits, reference publication or alias/profile merge",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-09-30T06:38:07.460Z",
+  "checkedWords": 30,
+  "checkedExamples": 60,
+  "accepted": 26,
+  "held": 4,
+  "notes": [
+    "원본 전체 용법·읽기·품사·예문·번역과 선택 사전을 전량 대조했다.",
+    "芽を出す·熟す·はめる·むく는 사전 연결 보류. 실제 표현 범위·문장 반복 사항은 개별 검토에 남겼다."
+  ]
+}

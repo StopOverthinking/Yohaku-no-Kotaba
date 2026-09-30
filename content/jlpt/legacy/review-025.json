@@ -1,0 +1,542 @@
+[
+  {
+    "wordId": "AbsoluteVerb_99",
+    "sourceHash": "fc1edd13995a29c84160ab5e7779be93ed7d28845bdd9f9d256db64c7979f7bb",
+    "proposalHash": "bef0477f4f168ce5f7fea592b43ca524ad0cfa3b3c2727b08b3b11763db1040f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "페이지를 넘기는 めくる의 별도 사전 항목을 확인하고 생활 독서 동작으로 편집 N3를 수용한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_100",
+    "sourceHash": "5deff0d14eb6a83988ff8a7e57ac10d7ba17cd4edc2f3bf941c9a89ca041f3b8",
+    "proposalHash": "cf2084aef37cd18a686178275e2dc2c58500521446783203c11a78041d2347c0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "소매·바짓단을 걷는 まくる의 N1 의미이며 めくる와 합치지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_101",
+    "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+    "proposalHash": "c1332c6d095d22a7f67fb4fa93b5d5727d4d780189eb2bcf9ab2c160df6cf9ee",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "제출하는 N5 용법은 맞으나 직접 건네는 방식과 대조한 힌트는 참조 게시 전 명료화 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_102",
+    "sourceHash": "233486f8d701038e1efe0d91c2bef8651012dedd1607fc4f2c3a26b4e1cfa0c4",
+    "proposalHash": "20dfda876f2c262008365e2e6f74694a636e3bc399d614139c8d3d3efd8c33af",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "기본 제작·조리 의미로 복수 출처 중 N5를 선택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_103",
+    "sourceHash": "c426786ae46fb851cb1a431094a287ccdfa6d0900b44adefc43c19d6f3e4bf0b",
+    "proposalHash": "f7ec544fd822d43dde7f2bc9d8bd5bad1e1e46f4b0b92ad6f5d15b1f0e078127",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "열쇠·냄비를 놓는 N5 의미이며 간격 두기는 별도 뜻이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_104",
+    "sourceHash": "cea5c05b33acd7c7e61717f455c440ab5f82e81a5fe0af8000312d4333c62623",
+    "proposalHash": "1efc21bbaaa3b5e90b8c5e41839fa7318dee3ad348277f7a897245234e7c6de0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "자기 몸을 일으키거나 서 있는 N5 자동사 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_105",
+    "sourceHash": "7cc8e3284655799f914760c8a2765e366ae42270e2d785c05f601eb74ef0afdd",
+    "proposalHash": "f7281309785c8a841e2f4303f8dfd4e7279bd2d99ad4ab6cb742ef636df43c29",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "앉은 자세에서 일어나는 N3 용법으로 기동·회복과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_106",
+    "sourceHash": "1180ef6dbe75ec78a5b4d06c31dd0da2437c387e534949b4bf7006247a113b9e",
+    "proposalHash": "25548b9bc5ae36725b904f46e534ecda0aa33acc8e4d108b7086dce24205923b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "나무 아래·예약 좌석에 앉는 N5 기본 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_107",
+    "sourceHash": "a5b822c85d8b778aa5dd5689c0b0b31087edc1cd540130ae4aaf6ffc0abd5d93",
+    "proposalHash": "bd0290b7e759cf5f5a850d0a12306e17fd57dac4218a3e6c4c635ff929e287e6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "쪼그려 앉는 N2 자세 의미와 두 예문을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_108",
+    "sourceHash": "709223fd686165add2a8ecccdeb3f383f57b99e9b69c81f6923c326eb43ec08b",
+    "proposalHash": "c43d8cb57da07619d955e8abd7a58daa46cc91ca236cd5d627795c6015bc9ccf",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "앞면을 아래로 엎는 뜻의 편집 N2를 수용하며 숨김·엎드림과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_109",
+    "sourceHash": "2d077d3564ef42a0b0dba74ee3305b65cb54db7d541aa6d4edc1129b7c160467",
+    "proposalHash": "f55173ae2ef455a65d3a6c2bb25083ca7cbfd4e75a7c2e61b5cbcf78a35b2d95",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "눕는 두 예문은 일관되나 복합 표현의 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_112",
+    "sourceHash": "d9d9c880faa7840dece08bba7908804048ad555efd13973ab862e84e04e5e710",
+    "proposalHash": "3a2a9a238067fa065bf8f33bc33a1aabc129371992f2e906eb29139416076458",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "발로 밟는 N4 용법으로 절차를 밟는 비유와 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_113",
+    "sourceHash": "705d264012f4483f077bc05c5de8706416169325cd3fbb39494e4fd88f65010e",
+    "proposalHash": "cc227990322b4d25e892da4edc19a3125c8e59945cff50f8877caf6fbcab9b8c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "슬퍼하는 N3 뜻과 사역형 번역을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_114",
+    "sourceHash": "6a96fdc7801aa7a7ace4e64516afcbaa02e0ed72ca3edadd4d83e1c9e0c96c47",
+    "proposalHash": "412da94114ee976c943f4b6d2094a3b7952c65089cb6e72f286c715424a81fb9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "죽음을 애도하는 문어적 표현의 편집 N1이 적절하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_115",
+    "sourceHash": "ff26cc267e19a665f5a79a5da00b762999122d462db68ea2b9faa0524a816f4f",
+    "proposalHash": "dfa71dd30a71d15bcc84fd68c3def210578f2e2eec1c103eb0d26ad9f11b90f7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "활동을 즐기는 기본 뜻으로 복수 출처 중 N4를 택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_116",
+    "sourceHash": "a73bc872139ef1ff95287e894f517b68126941822eae987b1942e6e1bc86cac3",
+    "proposalHash": "2a6fcc7617b39e69463979d6db06c438c46cc961e77c4eee51fa21274365f124",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "평소 취향을 나타내는 N3 타동사 뜻이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_118",
+    "sourceHash": "74a8c7c402f5228e534fbd7220fdcdbce1ffc45bbd5159387509876f18d2a058",
+    "proposalHash": "e9e41e21b931c3dfc1b28b0299733342d01c4a99c097ed8ab95ea576380effe8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "배신한 사람에 대한 강한 미움의 N2 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_119",
+    "sourceHash": "1f524ac4d72470cc25f348ee1d904436b3d95506b38bcbb4e8c256e55bc06f40",
+    "proposalHash": "eb68164b9be8283f2abb12e193a08c259a7c31fc7eaa134be5c49f78368617aa",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "실패·변화를 두려워하는 N3 의미와 부정형을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_120",
+    "sourceHash": "ca73e84d865f895a2cf3d3dc3b5f1503cd181441965dc08177261f9485014545",
+    "proposalHash": "49001753bfa9c38e025e0eb5c1c2f4f1d8c11b606556260f1423c5ba9f0735b9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "이별·은퇴를 아쉬워하는 N1 뜻으로 아끼며 쓰기와 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_121",
+    "sourceHash": "ad2e460faa65a35cd8130da73f4c4a15dcf6de3e82aab925ba48650fc298ecf0",
+    "proposalHash": "6b0ff93c2a01ed89cca4c45dd691b7decb2c319e3f05d915dd832b0f859d7677",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "후회 항목이 아닌 상대를 원망하는 N2 사전 항목과 일치한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_123",
+    "sourceHash": "8c88494706615a4c918223d9f62f4b7a7d38ed2f4185a8a3564a7b9aa95e1364",
+    "proposalHash": "c8628a097efe0a81898168c277acf0c5d0c6f9ff47a7f529190fdfd32c9f2ea7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "N2 타동사 분류는 맞지만 뒤에서 불러 놀라게 하는 장면이 びっくりする와 겹쳐 참조 게시 전 해결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_124",
+    "sourceHash": "191a797bcb1e3518fbfffb0df3fa9a4acbf2bc8947bc5005c7a14f60f5c25b91",
+    "proposalHash": "8b6c688ede00fd1a78e4d1d84a9a30b1567d7eb98b106c18a9bc4a4b7802ba04",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "제공 사전 연결을 보류하며 뒤에서 불러 놀라는 장면은 驚かす와 반복된다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_125",
+    "sourceHash": "91e3c58570221ca78ec003fb842edf1c94d575f7685660183f8a717eb61a30e1",
+    "proposalHash": "9676a26d43e306dc106a45b9d03bafb316bd9f090461275e2bc753e7f4e96287",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "설레는 감정은 일관되나 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_126",
+    "sourceHash": "bb8e0ee69d18cdf3c14557a2baf636da009a8b9aeb1a3f676fa01a86195603d0",
+    "proposalHash": "46672049af16f3c108b5724ce8c81079e5c1df47dd632531b62a8788c1b3e656",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "애정으로 돌보는 N1 뜻이며 거칠게 훈련하는 별도 의미와 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_128",
+    "sourceHash": "20c28d77f55f6ec5cf472cb8aeba09258df1a6f46910b34303500c914f2cded1",
+    "proposalHash": "1f7b6c858fdbb99ca49614493981661ac7fc7f171343c98a1aff7acdf0c44b0f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "반복 변명·어지러운 방에 어이없어하는 N1 용법이 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_129",
+    "sourceHash": "01f3a20822ad7fbc8d1103b21d631a6dc05d49ff997f1045534c1036ebabb6ab",
+    "proposalHash": "ebdbd0b766784120eff5d62dabc7b964c10e7879a2f95ec7199459582c9f939a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "화를 내는 N4 자동사 뜻을 선택하고 꾸짖는 타동사 뜻과 구분했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_130",
+    "sourceHash": "dadaf09516fb5b0f0074ca861a89c0cd622ed2dbc2153865104eef7286cf31ee",
+    "proposalHash": "50430cf27c1e7748248c024c0c88231c7bdd007ae33bd273fc7ad3e7bd2e2a7b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "잘못을 꾸짖는 N3 용법과 부정 요청 번역을 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_131",
+    "sourceHash": "18b147d848a561c753e3e40c2e1a8bea5c26408292b7042d928b0eea33984a5e",
+    "proposalHash": "46f3fc698f959c245a12e9701af56c2eb1e1793ab74c265520c8dae6067bbba2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "칭찬받는 수동형과 칭찬하자는 의지형의 N3 의미가 맞다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_132",
+    "sourceHash": "328a0df71396d5aede2f9fc8c9b9f8c373ab2b26ca0ecd8bb9625f997f1e7d0b",
+    "proposalHash": "136dc972e174fce0f65d7d4d53d71c39a84d2d6490c5ff18d7b41b66a5488e6c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "괴롭히는 뜻과 예문은 일관되나 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_133",
+    "sourceHash": "576f777f7475dec28bc1c652c49e3d4ab09237a3f9f3ddf7ce6d0e9ed083d0e2",
+    "proposalHash": "bd4784d5f6cf85d4000b534aaea4c2cd522c030753e4495b032468651e9d014d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-025.json",
+    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "notes": [
+      "가까운 사람에게 응석 부리는 N1 용법이며 호의를 받아들이는 별도 뜻과 구분했다."
+    ]
+  }
+]

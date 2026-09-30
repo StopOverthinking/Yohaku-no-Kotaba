@@ -1,0 +1,68 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T04:08:16.785Z",
+    "completedAt": "2026-09-30T04:09:12.013Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 25,
+    "acceptedExamples": 25,
+    "heldWords": 0,
+    "correctedItems": 1,
+    "correctionBreakdown": {
+      "substantive": 0,
+      "clarity": 1,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7216,
+      "comparisons": 147841,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T04:09:57.052Z",
+    "completedAt": "2026-09-30T04:11:02.838Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 25,
+    "acceptedExamples": 25,
+    "heldWords": 0,
+    "correctedItems": 3,
+    "correctionBreakdown": {
+      "substantive": 1,
+      "clarity": 2,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7266,
+      "comparisons": 150229,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T04:13:40.802Z",
+    "completedAt": "2026-09-30T04:14:28.291Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 25,
+    "acceptedExamples": 25,
+    "heldWords": 0,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantive": 2,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7316,
+      "comparisons": 152366,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

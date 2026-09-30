@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "8852f25f17840d857d9791cc441a4c100ffa202256f7c5b1c893193795894b5e",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:19:11.793Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1333040",
+      "373cb49e839aac356398807cb7636161886c78eb5abafd08111f6dbb86d8e940"
+    ],
+    [
+      "lex-jmdict-1338600",
+      "b1ebacecb2913eec837586621b07c6c8c73ccf643e8aad66c1be799705195320"
+    ],
+    [
+      "lex-jmdict-1338720",
+      "ba4ef47fcba8bc4a45be718bd47a6360ec583746d57e552e5c28a09157689a88"
+    ],
+    [
+      "lex-jmdict-1339910",
+      "dd887d9f5905fd41ab947ba121ee1080a0e6b48a80db2bb7e13bc506d6437043"
+    ],
+    [
+      "lex-jmdict-1340600",
+      "193b86bc72334211b85193b870f1adbcc3f9e42dbcb3b1c0989d8944a588068e"
+    ],
+    [
+      "lex-jmdict-1332170",
+      "b2ac2a37f3ee07215ea681850d241fbc5ec75420bfdc968bd67516bbbbbe9b3a"
+    ],
+    [
+      "lex-jmdict-1330240",
+      "3a0bc2a6d849e12bcef78b1f9d4cbb3ca9e01883b5fa01363f6beece7d4beee5"
+    ],
+    [
+      "lex-jmdict-1331780",
+      "be42dbf4c742182480c2bd33b3fe87492a43dd7efa2a43d5d69685decda76f91"
+    ],
+    [
+      "lex-jmdict-1333600",
+      "737c616d9f1277b8f61b5d0179b3ff4ef84faacd45227c94cb2dc38e2c71e7f8"
+    ],
+    [
+      "lex-jmdict-1333620",
+      "86203412466d3547411086d50e8d9e68faa29aa3fa34b6acb383fa418588606a"
+    ],
+    [
+      "lex-jmdict-1336900",
+      "b0f1cc7d944a2e58b38bb6aff2c8c00a935eea4d0e6c8524407d0fbf5b6df794"
+    ],
+    [
+      "lex-jmdict-1344090",
+      "a8908221dcdc3c41a2728a116200d4a74f60490dc4ba52667c5f202fd78097fa"
+    ],
+    [
+      "lex-jmdict-1347080",
+      "a9c731737f4098e56be2097783934c1abaaf646387cc5f5888dfa43ad0a61f13"
+    ],
+    [
+      "lex-jmdict-1350370",
+      "f93d45fb123e347e74f3213374eb7c2a7e133ffe9c865025e7b0b97cd540fb32"
+    ],
+    [
+      "lex-jmdict-1351930",
+      "a4564d53a348c18d9fbf8a45669a0fff0bf823ead828733569f71cd628ca527d"
+    ],
+    [
+      "lex-jmdict-1351960",
+      "469b467bb0f6110482de140f76736eb8ef3613c49e2022cbf67275a5d38048a1"
+    ],
+    [
+      "lex-jmdict-1357550",
+      "dccaadfc7cd2ac457748c452b37cfebbc009ddf94843c83cc676e2dc4a3d141d"
+    ],
+    [
+      "lex-jmdict-1359850",
+      "a656d1767d62993c23b544f43c0cb39761e9998de4f9e46bb51ba258e75b4f8d"
+    ],
+    [
+      "lex-jmdict-1360750",
+      "b2681de7b5298fa1263c9d190d5ea59932a6fad559d9e7521e610e8f3e8b313d"
+    ],
+    [
+      "lex-jmdict-1362810",
+      "ab7e49917d5bab24c13094b0cb365379abefa4e802fb28270f326b7a40056714"
+    ],
+    [
+      "lex-jmdict-1363260",
+      "adc177086f870403f01c09b471ae4dbfb9f0a5f76fe12bcb50583ead13a7f718"
+    ],
+    [
+      "lex-jmdict-1365810",
+      "8ee8f01a5f132b4bc9c431f9be31e7e4404c8b379a5143dd33db5b13d90a25d8"
+    ],
+    [
+      "lex-jmdict-1371210",
+      "d750f23d0a607eabacce6a0951c72c4e7c1bd078bfe03610ca2fdac58ca43072"
+    ],
+    [
+      "lex-jmdict-1361150",
+      "43f9ed12097bf8d5b669464e17bb328ee493b1bf8847f3fa4c06bd2c91bd9537"
+    ],
+    [
+      "lex-jmdict-1342710",
+      "8bd3aed28278876cb4e3a10588c6a9a3b96a0f73a971aa7519a89d3e2b59a88a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1332170",
+      "category": "substantive",
+      "note": "기존 여러 지붕 수리 장면을 반복하지 않도록 교복 수선으로 변경."
+    },
+    {
+      "wordId": "lex-jmdict-1330240",
+      "category": "clarity",
+      "note": "배터리 1회 사용 시간과 제품 수명의 혼동을 피하여 물고기의 생존 기간으로 명확화."
+    },
+    {
+      "wordId": "lex-jmdict-1357550",
+      "category": "substantive",
+      "note": "直してもらった의 완료된 수리를 부탁했다로만 번역한 오류 수정."
+    },
+    {
+      "wordId": "lex-jmdict-1363260",
+      "category": "substantive",
+      "note": "기존 まず의 합격 소식을 맨 먼저 어머니에게 전하는 장면과 겹쳐 경보 시 출구 확인으로 변경."
+    }
+  ]
+}

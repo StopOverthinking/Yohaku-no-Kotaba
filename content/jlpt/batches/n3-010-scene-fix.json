@@ -1,0 +1,66 @@
+[
+  {
+    "wordId": "lex-jmdict-1610960",
+    "senseId": "sense-lex-jmdict-1610960-1",
+    "exampleId": "sense-lex-jmdict-1610960-1-ex-1",
+    "sourceHash": "befcd95ca4e176f1a02d01fba4e51f07669484c0d8a07f3a10d60fadf627d12e",
+    "currentContentHash": "519e92c61cd1509b6ade1cd78bcb62ace6b424ca08d1c86217a55d576bdccd3f",
+    "oldExample": {
+      "id": "sense-lex-jmdict-1610960-1-ex-1",
+      "version": 1,
+      "before": "山頂からの",
+      "answer": "眺め",
+      "after": "は、疲れを忘れるほど美しかった。",
+      "reading": "ながめ",
+      "translation": "산 정상에서 보이는 경치는 피로를 잊을 만큼 아름다웠다.",
+      "translationTarget": "경치",
+      "difficulty": 29,
+      "status": "reviewed"
+    },
+    "newExample": {
+      "id": "sense-lex-jmdict-1610960-1-ex-1",
+      "version": 2,
+      "before": "観覧車が上がるにつれて、街の",
+      "answer": "眺め",
+      "after": "が少しずつ変わっていった。",
+      "reading": "ながめ",
+      "translation": "관람차가 올라감에 따라 도시의 전망이 조금씩 달라졌다.",
+      "translationTarget": "전망",
+      "difficulty": 29,
+      "status": "draft"
+    },
+    "reason": "기존 景色의 정상에서 피로를 잊는 장면을 피하고 관람차 높이에 따라 바뀌는 도시 전망으로 바꾼다."
+  },
+  {
+    "wordId": "lex-jmdict-1357480",
+    "senseId": "sense-lex-jmdict-1357480-1",
+    "exampleId": "sense-lex-jmdict-1357480-1-ex-1",
+    "sourceHash": "f4289e34a53fba9b355d78f0214adb049c3d4cc4812b3f429dd534f30da28296",
+    "currentContentHash": "b19125c220e3b77a3ddcc85cb2a94ad2642d8ce9304999d0aea4469f79bb25bb",
+    "oldExample": {
+      "id": "sense-lex-jmdict-1357480-1-ex-1",
+      "version": 1,
+      "before": "工場が閉鎖され、多くの人が",
+      "answer": "職",
+      "after": "を失った。",
+      "reading": "しょく",
+      "translation": "공장이 폐쇄되어 많은 사람이 일자리를 잃었다.",
+      "translationTarget": "일자리",
+      "difficulty": 29,
+      "status": "reviewed"
+    },
+    "newExample": {
+      "id": "sense-lex-jmdict-1357480-1-ex-1",
+      "version": 2,
+      "before": "彼女は編集者の",
+      "answer": "職",
+      "after": "に就き、児童書を作っている。",
+      "reading": "しょく",
+      "translation": "그녀는 편집자 일자리를 얻어 아동서를 만들고 있다.",
+      "translationTarget": "일자리",
+      "difficulty": 29,
+      "status": "draft"
+    },
+    "reason": "기존 失業의 공장 폐쇄에 따른 실직 장면을 편집자로 취업하여 아동서를 만드는 장면으로 바꾼다."
+  }
+]

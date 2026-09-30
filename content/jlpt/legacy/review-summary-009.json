@@ -1,0 +1,16 @@
+{
+  "batch": "009",
+  "scope": "legacy-classification-proposal-only",
+  "reviewedWords": 30,
+  "acceptedClassifications": 30,
+  "needsFollowup": 0,
+  "reviewedAt": "2026-09-30T04:44:29.621Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "method": "All original words, senses, examples, supplied dictionary evidence and proposals independently reviewed; minimum one example policy. Classification only, not content, membership or alias merge approval.",
+  "notes": [
+    "傷 requires separate content scope review for scratches on objects.",
+    "関心 and 興味 first examples repeat a child recently taking interest in space/stars; resolve before membership approval.",
+    "休日 has no source level and is editorial N4; 距離 source N1 is distinguished from editorial N3 for concrete spatial use."
+  ]
+}

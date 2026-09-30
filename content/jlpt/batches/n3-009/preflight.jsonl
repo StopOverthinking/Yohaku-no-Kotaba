@@ -1,0 +1,14 @@
+{"at":"2026-09-30T04:27:09.990Z","batch":"n3-009","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":136.5991,"issues":[]}
+{"at":"2026-09-30T04:28:37.837Z","batch":"n3-009","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":947.4091999999999,"issues":[]}
+{"at":"2026-09-30T04:29:38.957Z","batch":"n3-009","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":956.3218,"issues":[]}
+{"at":"2026-09-30T04:30:47.684Z","batch":"n3-009","index":"02","phase":"metadata","words":25,"examples":0,"milliseconds":143.9651,"issues":[]}
+{"at":"2026-09-30T04:32:13.153Z","batch":"n3-009","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":961.0167,"issues":[]}
+{"at":"2026-09-30T04:32:33.181Z","batch":"n3-009","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":954.1075000000001,"issues":[]}
+{"at":"2026-09-30T04:33:48.891Z","batch":"n3-009","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":938.2368,"issues":[]}
+{"at":"2026-09-30T04:34:30.344Z","batch":"n3-009","index":"03","phase":"metadata","words":25,"examples":0,"milliseconds":142.41219999999998,"issues":[]}
+{"at":"2026-09-30T04:34:55.248Z","batch":"n3-009","index":"03","phase":"metadata","words":25,"examples":0,"milliseconds":140.15879999999999,"issues":[]}
+{"at":"2026-09-30T04:36:17.697Z","batch":"n3-009","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":1238.0659,"issues":[]}
+{"at":"2026-09-30T04:38:12.870Z","batch":"n3-009","index":"04","phase":"metadata","words":25,"examples":0,"milliseconds":141.0748,"issues":[]}
+{"at":"2026-09-30T04:38:28.516Z","batch":"n3-009","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":976.053,"issues":[]}
+{"at":"2026-09-30T04:39:37.329Z","batch":"n3-009","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":1186.696,"issues":[]}
+{"at":"2026-09-30T04:40:46.018Z","batch":"n3-009","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":949.465,"issues":[]}

@@ -5,18 +5,24 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StopOverthinkingOfficial/Yohaku-no-Kotaba.git"
+    "url": "https://github.com/StopOverthinking/Yohaku-no-Kotaba.git"
   },
-  "homepage": "https://stopoverthinkingofficial.github.io/Yohaku-no-Kotaba/",
+  "homepage": "https://stopoverthinking.github.io/Yohaku-no-Kotaba/",
   "scripts": {
     "dev": "vite",
     "dev:editor": "vite --open /editor.html",
     "predev": "node scripts/generate-vocab-data.mjs",
     "build": "tsc -b && vite build",
-    "prebuild": "node scripts/generate-vocab-data.mjs",
+    "prebuild": "node scripts/generate-vocab-data.mjs && node scripts/audit-jlpt-expansion.mjs",
     "preview": "vite preview",
     "extract:vocab": "node scripts/generate-vocab-data.mjs",
-    "test": "vitest run"
+    "test": "vitest run",
+    "jlpt:prepare": "python scripts/prepare-jlpt-candidates.py",
+    "jlpt:pilot": "node scripts/build-jlpt-pilot.mjs",
+    "jlpt:accept": "node scripts/accept-jlpt-batch.mjs",
+    "jlpt:audit": "node scripts/audit-jlpt-expansion.mjs",
+    "audit:content": "node scripts/audit-learn-content.mjs --require-complete",
+    "release:manifest": "node scripts/write-release-manifest.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -38,6 +44,7 @@
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react-swc": "^3.10.2",
+    "fake-indexeddb": "^6.2.5",
     "jsdom": "^26.1.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",

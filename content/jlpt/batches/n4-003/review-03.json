@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "b17b45425307e86d982bd5c914a84e8bcae921cc923fa5c9c2f724ade6a3e834",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:59:24.357Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1005660",
+      "45fbdf74b78e674a40554e02f382d34ecdaa0db0409f955a6ff6c778d98e119c"
+    ],
+    [
+      "lex-jmdict-1006960",
+      "55c41a88532da8da0bc997873acfbdeb093c0fa5e5d1bcd845a0a3679cc35738"
+    ],
+    [
+      "lex-jmdict-1012960",
+      "02e22b0c950e3760e507d06108900cd7f611bae30aab03ddaf5ee69212b318d8"
+    ],
+    [
+      "lex-jmdict-1013830",
+      "b2f5e9f357319f7bcaf9fce421bb4d649010e0c2280015237f3b2a0128b9082b"
+    ],
+    [
+      "lex-jmdict-1013920",
+      "5083875d4e22b763b315648106422cefb4e5241341afffa04c95280b53e006f1"
+    ],
+    [
+      "lex-jmdict-1014340",
+      "6ae70eaf5dadd6c7fa5f5aaeae25dff3d53ac0ceba3ec1e135ea96972d83abc5"
+    ],
+    [
+      "lex-jmdict-1014770",
+      "0a375ab0446330b43d1f2bee51996afd182753e9c606bbada385d7042f8d93c7"
+    ],
+    [
+      "lex-jmdict-1014900",
+      "1c4bbbee74e7d8506ffb6e22dfffbddab5590d341a520ce04c26d26327b03bd6"
+    ],
+    [
+      "lex-jmdict-1015230",
+      "f6db74a74b87d1347bb2040d78e30d04fa408086f0cc79c20448ec2bd5af3e86"
+    ],
+    [
+      "lex-jmdict-1015740",
+      "339ffc80d79aa9cf166b5f07fc372a342fb49543e89d2b0ae83a8f6b58715110"
+    ],
+    [
+      "lex-jmdict-1016060",
+      "ede01195a9f86946cec415e710e689d0fe9991769389413fcdc70bedfcb85395"
+    ],
+    [
+      "lex-jmdict-1016120",
+      "43e31b1ff4abba4bac020872e8c2a101a76a6213a129e528476f9cd5966d17d2"
+    ],
+    [
+      "lex-jmdict-1016460",
+      "b47a68ca44be2ce39986ab11a1da0bc1b53e7919c46d092ab7c4128e9386589b"
+    ],
+    [
+      "lex-jmdict-1016880",
+      "fd39f876b352f5422d4ce538bdb6ad52e201750e26028497a720e07215d5f907"
+    ],
+    [
+      "lex-jmdict-1017070",
+      "c92f067e8f31f3cd8d45b88ca65374703024fc47d084eb32f742dff354a18ed4"
+    ],
+    [
+      "lex-jmdict-1017240",
+      "85185ae4927e81c0bb30c5ab7e3d65c535c234fc71fe57f0b9e59e749cf1e4c5"
+    ],
+    [
+      "lex-jmdict-1017340",
+      "022ca591894d505728f9e0066f031bdd4b8b1c7dbe98b19622b76d2347a3fbfa"
+    ],
+    [
+      "lex-jmdict-1017590",
+      "2296c9b69897c6fcced8e5e88937fa52b2eaceb4a3d5f304083557e7499f3f98"
+    ],
+    [
+      "lex-jmdict-1018190",
+      "5dc998aa179f50b7e7bf0ae7718846287d308d249657b9aaacd3d7ef4e9ec4db"
+    ],
+    [
+      "lex-jmdict-1021680",
+      "5ca1f78060c01a51c1a05caa19dbab9415fc5ee5772318e5a7944d2b20ad6803"
+    ],
+    [
+      "lex-jmdict-1021750",
+      "f8341dacdc7acc1256f4e87dcbf8a993242e6c1d3bc8349e4e6001b9b58892ef"
+    ],
+    [
+      "lex-jmdict-1021940",
+      "18c72b3e9d04f1abd266b24d8765f36b1b8d37d1ae9e6e4371ecf34894879a08"
+    ],
+    [
+      "lex-jmdict-1024400",
+      "080522ea570cec2d14e9312f78757af8fb3c028b3b4d0465848bfc9bd67535d7"
+    ],
+    [
+      "lex-jmdict-1032260",
+      "b3071d257ed0628f0be9e9cccb5753a11048e028d3e484336e1a729210a22146"
+    ],
+    [
+      "lex-jmdict-1030040",
+      "7b311edd4dfa5a25d72688ade0ee0d715056ad3982dfeea3e8b44bab86c2144e"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1005660",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1006960",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1012960",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1013830",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1013920",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1014340",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1014770",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1014900",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1015230",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다. 장소 접근과 별개인 주요 접속 용법에 예문 1개를 보강했다."
+    },
+    {
+      "wordId": "lex-jmdict-1015740",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1016060",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1016120",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1016460",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1016880",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1017070",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1017240",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다. 자신의 연락처를 잘못 전달한 상황을 명시해 답장 미도착의 인과관계를 명료화했다."
+    },
+    {
+      "wordId": "lex-jmdict-1017340",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1017590",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1018190",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1021680",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1021750",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다. 기존 분위기 예문과 장면·문형이 겹쳐 대화 후 상대의 인상이 달라지는 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1021940",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1024400",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1032260",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    },
+    {
+      "wordId": "lex-jmdict-1030040",
+      "category": "substantive",
+      "kind": "difficulty-scale",
+      "note": "예문 난도 1~2를 기존 N4 범위에 맞게 보정했다."
+    }
+  ]
+}

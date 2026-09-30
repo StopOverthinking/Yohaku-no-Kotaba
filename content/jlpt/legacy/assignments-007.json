@@ -1,0 +1,362 @@
+[
+  {
+    "wordId": "JLPTN3_181",
+    "sourceHash": "e38c373e9e46c8e402e4775118bea2ed0761f99ae59968762d54308780949d47",
+    "level": "N3",
+    "dictionaryId": "jmdict-1551790",
+    "levelNote": "행동·완성품을 훌륭하다고 평가하는 형용동사이며 기본형의 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 훌륭하다. 사전의 praiseworthy·creditable 및 splendid와 사과 태도·처음 만든 결과물을 칭찬하는 예문이 대응한다. 합법적·분명한 범죄라는 다른 결합은 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_182",
+    "sourceHash": "ba25f45a91471a9571e1bc61b12caed92eb1b7a5f7a58f0cb8248ec64d7dcc5f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1284930",
+    "levelNote": "행동 시작·의사 전달의 신호를 나타내는 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (눈짓, 몸짓, 손짓, 소리 등의) 신호. 사전의 signal·cue와 교사의 손·눈짓으로 신호를 보내는 예문이 대응한다. 물리적 신호 장치만으로 한정되지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_183",
+    "sourceHash": "4ba6053e551525dcd0ef122e914a0a92b38826b3c1c9430230b22dd6cf63b69f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1401000",
+    "levelNote": "대화·경기에서 자신과 관계를 맺는 상대를 나타내는 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 상대방. 사전의 other party·addressee·opponent와 전화 상대·다음 경기 상대 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_184",
+    "sourceHash": "969988256d2dca7cfabbc0b25efa9680010bbd5c70d5e2ec6f70c5e1746d5cf6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1254480",
+    "levelNote": "물체에 난 구멍이나 땅에 판 공간의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 구멍. 사전의 opening·perforation·pit와 양말의 구멍·정원의 구덩이 예문이 대응한다. 결원·손실·허점 등의 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_185",
+    "sourceHash": "b592d9c572ff551f2029659469fdb9aa1496452149c3c93effb9aa2862a5c098",
+    "level": "N3",
+    "dictionaryId": "jmdict-1538590",
+    "levelNote": "조리에 쓰는 액상 기름의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (식용유·석유 등) 기름. 사전의 oil와 프라이팬·튀김에 쓰는 기름 예문이 일치한다. 기존 석유도 기름의 범위이나 현재 예문은 식용유이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_186",
+    "sourceHash": "02adf4dd2a4dfd25003d5495b4a3790a42884609515c14051fadefedfc90797c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1517510",
+    "levelNote": "액체·비누에서 생기는 거품의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 거품. 사전의 foam·froth·lather·head on beer와 맥주·비누 거품 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_187",
+    "sourceHash": "bd80e48acd2020545f7854c578d4a83c074818682ff9ef469ee3e70e2e7d078a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1155060",
+    "levelNote": "수량의 상한을 나타내는 기초 범위 표현으로 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 이하. 사전의 not exceeding·and under와 십 세·삼천 엔 이하 예문이 대응한다. 수치 범위는 기준값을 포함하며 이하의 문서라는 별도 용법과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_188",
+    "sourceHash": "61f5aeb62ed50a8001a63ad24709fec46a2f8272e5f23118ded37cc4c45312dc",
+    "level": "N3",
+    "dictionaryId": "jmdict-1404320",
+    "levelNote": "몸의 호흡을 나타내는 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 숨, 호흡. 사전의 breath·breathing과 숨을 들이마시거나 숨이 찬 예문이 일치한다. 호흡이 맞는다는 비유는 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_189",
+    "sourceHash": "fe4006411178621dd8b39aa19cc95ecc7aaa468d95eefadcd81f0e394263ffb5",
+    "level": "N3",
+    "dictionaryId": null,
+    "levelNote": "교통편·여행의 목적지를 나타내는 일상 명사로 N3를 편집 제안한다. 보충 기본형 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 목적지, 행선지. 고정 후보의 行き先 jmdict-1281720에서 destination 의미를 확인했다. 표 구매 전 열차 목적지·여행 행선지 예문이 일치한다. 원본 읽기는 두 이형을 한 필드에 적은 것이며 단일 발음이 아니다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "원본 읽기 いきさき(ゆきさき)는 사전의 두 독립 이형 읽기를 한 문자열에 넣은 형식이다. jmdict-1281720를 보충 대조했으나 입력 후보가 없어 dictionaryId=null로 두고 읽기·근거 정규화 검토를 요청한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_190",
+    "sourceHash": "1d6866c1a1414bf7167ae99d0998037de9f691026a3baf52e17478a1a5feba3c",
+    "level": "N2",
+    "dictionaryId": "jmdict-1155110",
+    "levelNote": "어떤 시점을 기준으로 그때부터 뒤의 범위를 나타내는 표현으로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 이후. 사전의 on and after·from onward와 오후 여덟 시·다음 월요일부터 이후의 시간 범위 예문이 일치한다. 기준 시점 포함 여부는 문맥에서 확인한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_191",
+    "sourceHash": "0e0fe431bd505494f1a1a463a8d115a4c57259e6ba6deb28b3f89e24870b5d98",
+    "level": "N3",
+    "dictionaryId": "jmdict-1156640",
+    "levelNote": "깨어서 주변을 알아차리는 상태를 나타내는 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 의식. 사전의 consciousness와 의식을 되찾고 의식 유무를 확인하는 예문이 일치한다. 의도적으로 신경 쓴다는 다른 용법은 현재 예문에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_192",
+    "sourceHash": "78004f05adffd5def592afebb0c1e7f042861278a49e84d16b18b9671ffcb31e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1481350",
+    "levelNote": "목재를 평평하게 만든 판의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 판자, 널빤지. 사전의 board·plank와 선반을 만드는 판자·못이 나온 판자 예문이 일치한다. 요리사·무대라는 별도 용법은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_193",
+    "sourceHash": "47dca25166315d50c783a2a88d45b0194128656e1bfd06937cec0f755a8f5f23",
+    "level": "N3",
+    "dictionaryId": "jmdict-1587310",
+    "levelNote": "물체·사람의 공간 위치라는 구체적 대표 용법으로 N3를 편집 제안한다. 후보의 N3·N1 연결 충돌을 재검토해야 한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 위치. 사전의 place·position·location과 거울 위치·지도상 현재 위치 예문이 일치한다. 사회적 지위라는 별도 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "고정 후보의 N3·N1 등급 충돌은 현재 구체적 공간 위치 용법에 한정한 N3 제안으로 기록했으며 독립 수준 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_194",
+    "sourceHash": "d6b5060687fb40edc29ca74b70e54151d53a6fb6ff648ee44bec5cf667dff4de",
+    "level": "N5",
+    "dictionaryId": null,
+    "levelNote": "숫자 하나와 시간 단위가 결합한 기초 지속시간 표현으로 N5를 편집 제안한다. 독립 사전 어휘로 확정한 제안은 아니다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 1초. 기록을 일 초 단축하고 셔터 누른 일 초 뒤를 말하는 예문은 기존 뜻과 일치한다. 고정 후보에는 一秒 독립 항목이 없으므로 선택 사전 용법과의 대조는 미완료이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "수사+단위의 생산적인 결합이다. 독립 어휘로서 수준별 고유 수에 포함할지 정책 검토가 필요하며 사전 근거가 없어 dictionaryId=null로 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_195",
+    "sourceHash": "ca5df58ea8d78055af0a7cb8bb752ec9cb9442f174ca7c250b4374df0fa19326",
+    "level": "N2",
+    "dictionaryId": "jmdict-1158390",
+    "levelNote": "가게·사무소의 주소와 장소를 옮기는 명사로 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 이전, 이사. 사전의 relocation·change of address와 가게·사무실의 이전 예문이 일치한다. 재산·권리 이전은 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_196",
+    "sourceHash": "cdbc8306143fab489fb061264259884ea16a0dbfc2497d5b1b545f89a72f7db0",
+    "level": "N3",
+    "dictionaryId": "jmdict-1158400",
+    "levelNote": "사람·물체가 장소를 바꾸는 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 이동. 사전의 movement·travel와 실내·다음 회의 장소로 이동하는 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_197",
+    "sourceHash": "219951690373526f8258bd8cdfadc49a29f5bd819f713301e504c1c36a049fc7",
+    "level": "N3",
+    "dictionaryId": "jmdict-1168390",
+    "levelNote": "보거나 만난 뒤 받는 느낌의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 인상. 사전의 impression과 가게의 밝은 느낌·사람의 첫인상 예문이 일치한다. 외모가 올라간다는 의미의 다른 동형어와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_198",
+    "sourceHash": "be26a5feb2d1cbbe6539b6c5771f20c4b72b23fb2061531e86dfd3995ad300a6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1171150",
+    "levelNote": "교통 상황에서 오른쪽으로 도는 이동의 명사로 N3를 편집 제안한다. 고정 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 우회전. 사전의 right turn와 교차로 우회전 금지·우회전 차량에 대한 예문이 일치한다. 오른쪽으로 차로만 옮기는 것과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+      "고정 후보에 연결 등급이 없어 의미·사용 범위에 근거한 편집 제안이다. 별도 수준 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_199",
+    "sourceHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1550410",
+    "levelNote": "앞면의 반대쪽 면을 나타내는 명사로 N3를 편집 제안한다. 고정 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "현재 대표 뜻 뒷면·뒤쪽 및 1개 용법(앞면의 반대쪽)의 사전 대응과 모든 예문을 다시 확인했다. 사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_200",
+    "sourceHash": "a4c99c9de4251374b3048ec2cebc7cc818168e45aa99aec755cc122ad7716b78",
+    "level": "N3",
+    "dictionaryId": "jmdict-1173660",
+    "levelNote": "다른 대상 때문에 생긴 변화·효과를 나타내는 추상 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 영향. 사전의 influence·effect·impact와 태풍의 운항 영향·형의 음악 취향이 준 영향이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_201",
+    "sourceHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1173990",
+    "levelNote": "음식이 몸에 제공하는 영양의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "현재 대표 뜻 영양 및 1개 용법(영양)의 사전 대응과 모든 예문을 다시 확인했다. 영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_202",
+    "sourceHash": "159bb56a1e7c44007787935f942d9e7cee5fed39f9c56a7ae3900b34c42fa8d6",
+    "level": "N3",
+    "dictionaryId": "jmdict-1351400",
+    "levelNote": "웃음을 띤 얼굴의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 웃는 얼굴. 사전의 smiling face·smile와 딸의 웃는 얼굴·사진 촬영의 표정 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_203",
+    "sourceHash": "7aa8d7b604f878141b4c26d6e39f60d3695265dd6b4c77b62450606b35f9492a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1310530",
+    "levelNote": "나무 줄기에서 갈라져 나온 가지의 기초 명사로 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: (나무) 가지. 사전의 branch·bough·twig와 새가 앉거나 길로 뻗은 나뭇가지 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_204",
+    "sourceHash": "9ed31e0582f0b1f50e93d370381aead81b3b3cd0a23510d92ad3167acfd4a1e3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1607520",
+    "levelNote": "악기로 음악을 들려주는 행위의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 연주. 사전의 musical performance와 피아노 연주·연주가 끝날 때까지의 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_205",
+    "sourceHash": "27d00c8cee4288433a333bde1655fbf47df6aeca2abeed536f2ec22079b02986",
+    "level": "N4",
+    "dictionaryId": "jmdict-1612770",
+    "levelNote": "좋은 일을 기뻐하고 기념하는 기초 명사로 OpenJLPT N4 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 축하. 사전의 congratulation·celebration 및 congratulatory gift와 합격 기념 선물·퇴직 축하 모임의 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_206",
+    "sourceHash": "eb0b873f2ccb3b9cebd8e1c2015400e11d2df75724feb7ec2184f93e824f5d20",
+    "level": "N2",
+    "dictionaryId": "jmdict-1179840",
+    "levelNote": "경기 참가자에게 힘을 주며 응원하는 명사로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 응원. 사전의 cheering·rooting for와 관객의 응원·동생 경기 응원 예문이 일치한다. 인력 지원이라는 사전 의미는 현재 용법에 없다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_207",
+    "sourceHash": "658a9d5f69afdcf9e9b409b87d19be4ab5d86328374b48f3095df3bec92bd58a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1180900",
+    "levelNote": "길·대륙을 가로질러 건너는 이동의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 횡단. 사전의 crossing road·traversing와 도로 횡단·대륙을 가로지르는 여행 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_208",
+    "sourceHash": "2fa8999bead017a6ebebe0a915f7895cf26467fc24d8fb69c362128df91e6fc3",
+    "level": "N2",
+    "dictionaryId": "jmdict-1179760",
+    "levelNote": "갔다가 돌아오는 이동과 그 표의 명사로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 왕복. 사전의 round trip·going and returning 및 return ticket와 공항 왕복·왕복표 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_209",
+    "sourceHash": "db87a7150129b71a6002fee0cc8a16d39ee71238e82caf7ebc4faedce7656885",
+    "level": "N1",
+    "dictionaryId": "jmdict-1180030",
+    "levelNote": "공모·모집에 응하여 지원하는 명사로 이번 제안은 고정 OpenJLPT N1 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 응모. 사전의 entry competition·application과 사진 공모·소설 투고의 응모 예문이 대응한다. 현재 예문의 경쟁·공모 맥락을 보존한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_210",
+    "sourceHash": "633a1abaaa48d378efd17c9cd229c3c4a49d1172340b4ce4d78388ece4278532",
+    "level": "N2",
+    "dictionaryId": "jmdict-1180060",
+    "levelNote": "배운 원리·기술을 실제 목적에 적용하는 명사로 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+    "meaningReview": "기존 뜻: 응용. 사전의 practical application·putting to practical use와 응용 문제·의료에 기술 적용 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+    ]
+  }
+]

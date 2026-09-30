@@ -1,0 +1,26 @@
+{
+  "batchId": "n3-011",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T04:58:29.292Z",
+  "status": "complete",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T04:58:29.292Z",
+      "metadataCompletedAt": "2026-09-30T05:00:08.028Z",
+      "draftCompletedAt": "2026-09-30T05:01:20.815Z",
+      "validationCompletedAt": "2026-09-30T05:01:49.225Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    }
+  ],
+  "completedAt": "2026-09-30T05:01:49.226Z",
+  "totalWords": 25,
+  "totalExamples": 25,
+  "closureReason": "Parent requested N1 balance priority after current segment; remaining files not started."
+}

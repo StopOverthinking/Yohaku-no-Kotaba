@@ -1,0 +1,13 @@
+{"at":"2026-09-30T03:08:54.498Z","batch":"n2-002","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":130.3392,"issues":[]}
+{"at":"2026-09-30T03:08:55.499Z","batch":"n2-002","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":923.9023000000001,"issues":[]}
+{"at":"2026-09-30T03:10:33.948Z","batch":"n2-002","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":936.4467,"issues":[]}
+{"at":"2026-09-30T03:12:15.403Z","batch":"n2-002","index":"02","phase":"metadata","words":25,"examples":0,"milliseconds":130.7216,"issues":[]}
+{"at":"2026-09-30T03:14:16.948Z","batch":"n2-002","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":922.847,"issues":[]}
+{"at":"2026-09-30T03:19:12.953Z","batch":"n2-002","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":918.9920000000001,"issues":[]}
+{"at":"2026-09-30T03:22:40.238Z","batch":"n2-002","index":"03","phase":"metadata","words":25,"examples":0,"milliseconds":134.58440000000002,"issues":[]}
+{"at":"2026-09-30T03:24:09.507Z","batch":"n2-002","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":945.4468,"issues":[]}
+{"at":"2026-09-30T03:24:37.828Z","batch":"n2-002","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":955.092,"issues":[]}
+{"at":"2026-09-30T03:25:57.820Z","batch":"n2-002","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":949.812,"issues":[]}
+{"at":"2026-09-30T03:27:02.160Z","batch":"n2-002","index":"04","phase":"metadata","words":25,"examples":0,"milliseconds":134.30069999999998,"issues":[]}
+{"at":"2026-09-30T03:28:24.179Z","batch":"n2-002","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":942.2577,"issues":[]}
+{"at":"2026-09-30T03:30:27.014Z","batch":"n2-002","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":929.3314999999999,"issues":[]}

@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedWords": 1,
+  "reviewedExamples": 3,
+  "checks": "Dictionary ID and core sense, reading, irregular verb group, three example scenes, Korean, hint, contrast, parser and global draft hash checked. AI review, not human expert review.",
+  "levelAssignment": "N5 is an editorial estimate for basic する; source candidate retains N3 evidence for 為る. Not an official JLPT assignment.",
+  "verification": {
+    "draftWords": 809,
+    "draftExamples": 2427,
+    "priorPublishedWords": 688,
+    "priorHashesUnchanged": true,
+    "corpusSenses": 2317,
+    "corpusExamples": 5443,
+    "similarityThreshold": 0.7,
+    "similarPairs": 0,
+    "comparisons": 87589,
+    "exampleVersionOverrides": {
+      "count": 4,
+      "version": 2,
+      "preserved": true
+    }
+  },
+  "savedAt": "2026-09-30T01:30:31.593Z"
+}

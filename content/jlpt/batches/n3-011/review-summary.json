@@ -1,0 +1,18 @@
+{
+  "batch": "n3-011",
+  "status": "completed",
+  "completedParts": [
+    "01"
+  ],
+  "checkedWords": 25,
+  "acceptedWords": 25,
+  "acceptedExamples": 25,
+  "heldWords": 0,
+  "scope": "Complete independent dictionary, meaning, reading, POS, hint, contrast, example, translation, level and corpus review.",
+  "notes": [
+    "Practical everyday, workplace and general reading uses reviewed; batch ends at 25 per writer allocation."
+  ],
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "updatedAt": "2026-09-30T05:05:07.548Z"
+}

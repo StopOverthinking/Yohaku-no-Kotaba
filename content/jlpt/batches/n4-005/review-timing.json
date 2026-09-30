@@ -1,0 +1,20 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T04:57:56.139Z",
+    "checkedWords": 11,
+    "checkedExamples": 11,
+    "completedAt": "2026-09-30T04:58:29.925Z",
+    "correctedWords": 1,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "similarity": {
+      "corpusExamples": 7752,
+      "comparisons": 174208,
+      "newPairs": 0
+    }
+  }
+]

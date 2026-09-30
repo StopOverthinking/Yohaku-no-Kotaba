@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "61e18852f42ad63f2f878445264043f7175655faa7e9952af4a08fd216dc6d62",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:43:18.951Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1155100",
+      "21fdfb7aa2a01e0d39afb8caa54a96d8ccf6b7375053476ad08c217837de98cf"
+    ],
+    [
+      "lex-jmdict-1164950",
+      "8e284d4751e99e726287d8089c6e3072572e94a0a9e2edb4899184c8573c9189"
+    ],
+    [
+      "lex-jmdict-1190370",
+      "3654d996462af419f0a7132bee279b929b4e53e8ab700e369e68f3c1da94809a"
+    ],
+    [
+      "lex-jmdict-1199000",
+      "319afc2a498557c361266fae4d820d69c76213b7db29556c2a2ebe6c0b6af443"
+    ],
+    [
+      "lex-jmdict-1199160",
+      "47e0258cbed4267e47713f71604663747c64bbf5dc01c8c9228e85c2a8637402"
+    ],
+    [
+      "lex-jmdict-1201000",
+      "a3ac7ece0e995399de7147df54626f016484eaa01deebdc6c7fbdc859d0bd477"
+    ],
+    [
+      "lex-jmdict-1202560",
+      "a87a89df6750000c046ad33ed054a650e4a760275925e33c2b0db6a7b0b631e9"
+    ],
+    [
+      "lex-jmdict-1202850",
+      "099bbdceeddea3fa4b8c86d69bd015a8223cf920d6d7cc01b0417f3c67291fa7"
+    ],
+    [
+      "lex-jmdict-1202950",
+      "45203c28b398f708f01b21db12242559fb501b70c62ab483fb264e0702000988"
+    ],
+    [
+      "lex-jmdict-1205220",
+      "965ede730668981852873d6c2812e2ce1afea15692b03ba03118c2bcd4219057"
+    ],
+    [
+      "lex-jmdict-1206190",
+      "341683f67480be4621e9e37da325faf6fa3bba3f1336829d0676e035198b4a58"
+    ],
+    [
+      "lex-jmdict-1206590",
+      "79fd6346828e08a2e1f9112ab5c4384c7563bab5693f74ae8eb8a8a29b78fd19"
+    ],
+    [
+      "lex-jmdict-1206680",
+      "3ece8d4ccda7d2ab31889260564e98b67179d749b7670b8c4feec2f725b047dc"
+    ],
+    [
+      "lex-jmdict-1207030",
+      "ffed6e5f5604d51de7e09215064ab9e36498e9db1ef43943a0babf827302a10e"
+    ],
+    [
+      "lex-jmdict-1207080",
+      "99dcab15d4f3fb9131173ad5db4c36fb8a57568020652dc9f34ce14c29eedacf"
+    ],
+    [
+      "lex-jmdict-1207180",
+      "4d3e52c4c2763cf8e5b0c862042f4b0923da34afc1205a7b76fc95175eb9bde8"
+    ],
+    [
+      "lex-jmdict-1208240",
+      "8a34e963c988be31018d50c47a0bc35012f1b49ae4c039402f6c50601d271be2"
+    ],
+    [
+      "lex-jmdict-1208450",
+      "5f1644739176dca23c7f873a065f8f0c7e4ecbebea1170e83cf86fc9b143c64b"
+    ],
+    [
+      "lex-jmdict-1210100",
+      "778d33dc52f44de2f28a8f2f127254b8bcccf56b3d134f8f47f9c616c3aacbcb"
+    ],
+    [
+      "lex-jmdict-1210620",
+      "2954d33666f7987ee57dc8444bf2ba9b4621deb259bf6441d48fd8cf2239f8fd"
+    ],
+    [
+      "lex-jmdict-1212480",
+      "1f12ee16521eab93451b777f3949852dca849a83b1fb92d8341af0ea589aa604"
+    ],
+    [
+      "lex-jmdict-1213990",
+      "1f5318ae2d6509c5e6eb1e80fd622ffbb8f9f09f2fe25f4f2efbbb410f1cc510"
+    ],
+    [
+      "lex-jmdict-1214030",
+      "c49f361adf6d4c833990434a7d058147615f4051469740893dc53f2f815afe06"
+    ],
+    [
+      "lex-jmdict-1214560",
+      "89841d81388f0aee41e9b8d9380b7e99125704c662cd1ee471eb2248d474df27"
+    ],
+    [
+      "lex-jmdict-1215200",
+      "fbed6c917110db49a9e11237fef71023a41759026c33a921d600930404c5ccff"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1202850",
+      "category": "substantive",
+      "note": "기존 近い의 새 다리로 거리 단축 장면과 겹쳐 노선 개통 기념 승차권 발매로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1210100",
+      "category": "substantive",
+      "note": "여러 기존 항목의 정전 대비 손전등 준비 장면을 피하고 장난감 전지 방향 확인으로 바꿨다."
+    }
+  ]
+}

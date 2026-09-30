@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "50cf7cf2360efa0cbbd66277265ef4c56a8ce435988b047e9dd1ce3d6d739a9a",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:20:37.142Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1200760",
+      "547f42b4dc890a27016d89897911bcb64ae0e0e0ba4d328437c7d9c81a93c17b"
+    ],
+    [
+      "lex-jmdict-1200780",
+      "b2a87636ffc633a03d3ad7db90413c4baea59e4e017f220d9ea066e354a2370f"
+    ],
+    [
+      "lex-jmdict-1200880",
+      "c7d4e34e997808f31f258fc7e9e838d8176ca2514bd710c1029e2e6ee4d6ce75"
+    ],
+    [
+      "lex-jmdict-1201040",
+      "4b0072f8389946b87ac8676b13dbe6a60b4da7dc7acb1ff5912e6f7d0f378b92"
+    ],
+    [
+      "lex-jmdict-1201060",
+      "584470828833cf148b82c8a3893ef659c4b1a0c2e0f983d9d985b0e7b8f5b600"
+    ],
+    [
+      "lex-jmdict-1201140",
+      "821727ab550f97c9e63765aa65e8100a8ff95e5de95deeccd976ed3bb8bb2564"
+    ],
+    [
+      "lex-jmdict-1201230",
+      "eab768dfc8cf0f0106d9ae9c76cb223030c048820eea813c82f138b9e869b07a"
+    ],
+    [
+      "lex-jmdict-1201320",
+      "5bee9b4700c7f86a2f8a087fe3f214a1b9a19c4b1f0a57417630f146bcd7bc80"
+    ],
+    [
+      "lex-jmdict-1201700",
+      "0954703a930bc496a39c05baba405f4094f586254c9f2aca5f2e0341598520e6"
+    ],
+    [
+      "lex-jmdict-1201820",
+      "cd755c0d350f6b5f39e47fe7ab9e625915d0751971d8bc4e44f21f8d3bcb4c58"
+    ],
+    [
+      "lex-jmdict-1201830",
+      "c02d7c3a4d8c02086903d5697c0c539be9aad8d70e71425ba7e7a05346aae4f9"
+    ],
+    [
+      "lex-jmdict-1202830",
+      "e5651a7c7f26cddc9d5a4cfd908314e4882b7eade2887a6ea580753877553e25"
+    ],
+    [
+      "lex-jmdict-1202880",
+      "cadcc9624a8d1fbbe5a75926fbe7c91927f84f15018e2ed7e0eee9411e08b4cd"
+    ],
+    [
+      "lex-jmdict-1203040",
+      "11312df876969f109f965583bca75b01d0065d4dec5addf3b519a359f0d4ff0a"
+    ],
+    [
+      "lex-jmdict-1203080",
+      "54b4ac9f4f0a0596bed9f01beadb2ab7a9df97e6f29e59dae24ba42f455755b0"
+    ],
+    [
+      "lex-jmdict-1203410",
+      "fd38c7c93f54fb36fd926a610351d10dc98c33fbb05fc176c300713ebb7d923a"
+    ],
+    [
+      "lex-jmdict-1203460",
+      "f20e744f0a6bc602bb0e2aa1f8d132c3f751a8fde73f7d6f2c874f7ca8faa9a9"
+    ],
+    [
+      "lex-jmdict-1203940",
+      "9d036eb5076d7901c03d053116b63fdf7b12d15f8fc3b1dd747c51df0de20ba5"
+    ],
+    [
+      "lex-jmdict-1204470",
+      "db9ca034ba9b7ad6993535bdb0592c087eec1deff0fa5d6d963961638cb2c8b1"
+    ],
+    [
+      "lex-jmdict-1204510",
+      "09a73d34376f0c9df3772fe0df1edf9af3f3c4eed621229f4ac7a237cdedc4e4"
+    ],
+    [
+      "lex-jmdict-1204700",
+      "60b0afee851366d44d790c560b1d784b29496a34a40ef04419af2da5300d8ce9"
+    ],
+    [
+      "lex-jmdict-1205180",
+      "be4c57a281f53bca6f08087572d4eb419c5aa47f175d2aab7cffdfa2d0d48feb"
+    ],
+    [
+      "lex-jmdict-1205340",
+      "5e9d04444c07e054ee7d6eab36a3aa8d1f8efb3981bb8aad6bec2966ad902aa1"
+    ],
+    [
+      "lex-jmdict-1205750",
+      "389f304920bea824e2cfceb779d4273ac09b9e15c3d047d30358c7f5bea79448"
+    ],
+    [
+      "lex-jmdict-1205870",
+      "371d78565212ea5506d2b2b4f25e4a9a73fb0061de32f12cb84a3cec5efcdea3"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1202880",
+      "category": "substantive",
+      "note": "자원을 만든다는 설명을 자원을 이용 가능하게 한다는 뜻으로 수정함."
+    },
+    {
+      "wordId": "lex-jmdict-1200880",
+      "category": "clarity",
+      "note": "校舎의 교사 번역을 학교 건물로 풀어 직업명과의 동음이의 혼동을 줄임."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "7b51876688e1ebd10a24b4b1acdf253ee0d52d62920875baf14a97f04be05a4d",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:42:07.478Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1223930",
+      "2c917c802bc13763cfbbf72af7355f3d1c497335f922b79a10ec2eae391b056c"
+    ],
+    [
+      "lex-jmdict-1223980",
+      "67be418585579a51571dfb22d5f7bcb2df585363810eb165edd7c7d803301a3e"
+    ],
+    [
+      "lex-jmdict-1224580",
+      "0b823d709f5d9e853708a43964c1d9c228f6ff421b87430eafcce1266fd5dca5"
+    ],
+    [
+      "lex-jmdict-1225010",
+      "7baefdbea7eff46685b28fc284f3b045689aeec554929d114decaf25fe1ee779"
+    ],
+    [
+      "lex-jmdict-1225230",
+      "2f6c386e49ca0f503565c0977187377b521cad6a467b5f2ac225d2fa1fec452a"
+    ],
+    [
+      "lex-jmdict-1225420",
+      "ace284ec9602bb0751834a19143207ea539a0a79fc05330f57ce59faabdc6d50"
+    ],
+    [
+      "lex-jmdict-1225450",
+      "20c42f8471e5e541123e8159dae1796167508ce210ba05056b5c581171350fb5"
+    ],
+    [
+      "lex-jmdict-1225680",
+      "8a686dd5b2b6e4e10171fb426679a0d7ed33abcf0105b084df5efa5429b80547"
+    ],
+    [
+      "lex-jmdict-1225920",
+      "f8306fea27a044086479cc9ab758235b69282656d19398b448e70d3daf66f58f"
+    ],
+    [
+      "lex-jmdict-1226010",
+      "6af8d940a33af45ebd0ac64ffd42cef2653a5d3fe4a76d0b4523d93e4e257173"
+    ],
+    [
+      "lex-jmdict-1226050",
+      "eaae6002e1824b17cfdda114ca80f9d04647091cf524a1581531170b4e12e18a"
+    ],
+    [
+      "lex-jmdict-1226090",
+      "15b1cc2dad5d895edce334ba5929993d25f86e854fbcdc4430f9ed245b3751ba"
+    ],
+    [
+      "lex-jmdict-1226130",
+      "d756b1056cda6a48812d318b399f49e2f44daf475f825aa1971667487577b5a7"
+    ],
+    [
+      "lex-jmdict-1226690",
+      "14d7a92eb041ca8d36c0f78e9fc357d9b376cce25eb68772de69565c94f9c3bb"
+    ],
+    [
+      "lex-jmdict-1226830",
+      "82bd69ba8bcc70db14bbfc738bba5e4d95f660f5c2e32087287c37aa0105656b"
+    ],
+    [
+      "lex-jmdict-1226880",
+      "491aa638f817347ee0258c7aa4c9381d21108a3667446ee4bf028b41cdf44cdf"
+    ],
+    [
+      "lex-jmdict-1227170",
+      "70150ba729ce413defcb69a61c6a8d26f699337b8305e62d888e63ba8d10088a"
+    ],
+    [
+      "lex-jmdict-1227340",
+      "7f12cc0452af0216022bdb77a827e0d3a202d40c7b1954eaf391d907a513956b"
+    ],
+    [
+      "lex-jmdict-1227570",
+      "e35f47be0afa293045786332d7f4014c3e66ca79911d3465be0f302c445f3e88"
+    ],
+    [
+      "lex-jmdict-1227660",
+      "5346f8279822d259e3c0ed844e063f15e31e90c90cbcd6bd3acb5dc826c1c5a5"
+    ],
+    [
+      "lex-jmdict-1227890",
+      "87972123f5d4db28642e02e029600ac6acd13709f0a187c1460c94ad12b91551"
+    ],
+    [
+      "lex-jmdict-1228170",
+      "bcee711406028db9c477d3669e88377a89459abd00464e7d543ff4416beaa89a"
+    ],
+    [
+      "lex-jmdict-1228580",
+      "c469bf5eb61742cbfb252e0bb4a2ebea995062b44848039e6bd7d38e201d8d83"
+    ],
+    [
+      "lex-jmdict-1229070",
+      "df8b75b4faa9e85eee5959b9207c0c42b2acdf5810e616bc955b6037a59509df"
+    ],
+    [
+      "lex-jmdict-1229150",
+      "68bc860d84e0ca3389ae35d4c0c958b74cf243ffe7ceda2b11539512b6e19e59"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1225680",
+      "category": "substantive",
+      "note": "疑惑 힌트를 부정이 있을지 의심하는 의미로 바로잡았다."
+    },
+    {
+      "wordId": "lex-jmdict-1225420",
+      "category": "clarity",
+      "note": "欺く 문장에서 신용을 잃는 주체를 기업으로 명시했다."
+    },
+    {
+      "wordId": "lex-jmdict-1227570",
+      "category": "substantive",
+      "note": "ことにしている의 지속적인 습관을 한국어 현재 표현으로 맞췄다."
+    }
+  ]
+}

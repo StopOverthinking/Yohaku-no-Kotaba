@@ -1,7 +1,10 @@
 import type { ContextState } from './contextTypes'
+import { REVIEW_INTERVALS, SCHEDULE_VERSION } from './contextEngine'
 import { expandContextState } from './contextSerialization'
 
 export const CONTEXT_STORAGE_KEY = 'jsp-react:context-learn-v2'
+
+const LEGACY_INTERVALS = [1, 3, 7, 14, 30, 60, 120, 180] as const
 
 type RecordValue = Record<string, unknown>
 const record = (value: unknown): value is RecordValue =>
@@ -20,7 +23,7 @@ const card = (value: unknown) =>
   positive(value.exampleVersion)
 const cards = (value: unknown) => Array.isArray(value) && value.every(card)
 
-function profile(value: unknown): boolean {
+function profile(value: unknown, stepCount: number): boolean {
   if (
     !record(value) ||
     typeof value.senseId !== 'string' ||
@@ -30,7 +33,7 @@ function profile(value: unknown): boolean {
     !date(value.levelDay) ||
     (value.failedDay !== null && !date(value.failedDay)) ||
     !count(value.step) ||
-    (value.step as number) > 7 ||
+    (value.step as number) >= stepCount ||
     !count(value.failures) ||
     !count(value.failedDays) ||
     !positive(value.dailyAttempts) ||
@@ -65,20 +68,54 @@ export function parseContextState(raw: string): ContextState {
   const state: unknown = expandContextState(JSON.parse(raw))
   if (
     !record(state) ||
-    state.version !== 2 ||
+    (state.version !== 2 && state.version !== 3) ||
+    (state.scheduleVersion !== undefined && state.scheduleVersion !== 1 && state.scheduleVersion !== SCHEDULE_VERSION) ||
     !count(state.revision) ||
     !level(state.level) ||
+    (state.lastScoreChange !== undefined &&
+      (!record(state.lastScoreChange) ||
+        !Number.isFinite(state.lastScoreChange.before) ||
+        !Number.isFinite(state.lastScoreChange.after) ||
+        typeof state.lastScoreChange.completedAt !== 'string')) ||
     !record(state.profiles) ||
     !Array.isArray(state.history) ||
     (state.session !== null && !session(state.session))
   )
     throw new Error('학습 기록을 읽을 수 없습니다.')
+  const legacy = state.scheduleVersion !== SCHEDULE_VERSION
+  const stepCount = legacy ? LEGACY_INTERVALS.length : REVIEW_INTERVALS.length
   if (
     !Object.entries(state.profiles).every(
-      ([key, value]) => profile(value) && record(value) && key === `${value.senseId}@${value.version}`,
+      ([key, value]) => profile(value, stepCount) && record(value) && key === `${value.senseId}@${value.version}`,
     )
   )
     throw new Error('학습 기록 형식이 올바르지 않습니다.')
+  if (state.version === 3) {
+    if (state.scheduleVersion !== SCHEDULE_VERSION || !record(state.aliasMigrations) || !Object.keys(state.aliasMigrations).length)
+      throw new Error('단어 연결 원본 기록이 없습니다.')
+    const archivedWords = new Set<string>()
+    for (const [id, migration] of Object.entries(state.aliasMigrations)) {
+      if (!record(migration) || !record(migration.group) || migration.group.id !== id || !id ||
+          typeof migration.group.representativeWordId !== 'string' || !Array.isArray(migration.group.members) ||
+          migration.group.members.length < 2 || !date(migration.day) || !level(migration.level) || !record(migration.profiles))
+        throw new Error('단어 연결 원본 기록이 올바르지 않습니다.')
+      const keys = new Set<string>()
+      let representatives = 0
+      for (const member of migration.group.members) {
+        if (!record(member) || typeof member.wordId !== 'string' || !member.wordId ||
+            typeof member.senseId !== 'string' || !member.senseId || !positive(member.version) || archivedWords.has(member.wordId))
+          throw new Error('단어 연결 대상이 올바르지 않습니다.')
+        archivedWords.add(member.wordId)
+        keys.add(`${member.senseId}@${member.version}`)
+        if (member.wordId === migration.group.representativeWordId) representatives++
+      }
+      if (representatives !== 1 || !Object.entries(migration.profiles).every(([key, value]) =>
+        keys.has(key) && profile(value, stepCount) && record(value) && key === `${value.senseId}@${value.version}`))
+        throw new Error('단어 연결 이전 프로필이 올바르지 않습니다.')
+    }
+  } else if (state.aliasMigrations !== undefined) {
+    throw new Error('단어 연결 기록의 버전이 올바르지 않습니다.')
+  }
   for (const entry of state.history) {
     if (
       !record(entry) ||
@@ -86,11 +123,21 @@ export function parseContextState(raw: string): ContextState {
       !level(entry.level) ||
       !session(entry.session) ||
       (entry.profile !== null &&
-        (!profile(entry.profile) ||
+        (!profile(entry.profile, stepCount) ||
           !record(entry.profile) ||
           entry.profileKey !== `${entry.profile.senseId}@${entry.profile.version}`))
     )
       throw new Error('이전 카드 기록을 읽을 수 없습니다.')
   }
-  return state as ContextState
+  const result = state as ContextState
+  if (legacy) {
+    // Keep established dates and interval lengths, including every undo snapshot.
+    const migrate = (value: ContextState['profiles'][string]) => {
+      value.step = REVIEW_INTERVALS.indexOf(LEGACY_INTERVALS[value.step])
+    }
+    Object.values(result.profiles).forEach(migrate)
+    result.history.forEach((entry) => { if (entry.profile) migrate(entry.profile) })
+  }
+  result.scheduleVersion = SCHEDULE_VERSION
+  return result
 }

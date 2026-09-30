@@ -1,0 +1,79 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T03:49:57.727Z",
+    "completedAt": "2026-09-30T03:50:30.919Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 0,
+    "correctionBreakdown": {
+      "substantive": 0,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 6991,
+      "comparisons": 137317,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T03:52:12.662Z",
+    "completedAt": "2026-09-30T03:52:51.707Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 0,
+    "correctionBreakdown": {
+      "substantive": 0,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7039,
+      "comparisons": 139779,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T03:53:12.236Z",
+    "completedAt": "2026-09-30T03:54:16.167Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantive": 1,
+      "clarity": 0,
+      "formattingOnly": 1
+    },
+    "similarity": {
+      "corpusExamples": 7064,
+      "comparisons": 140778,
+      "newPairs": [],
+      "allPairs": 0
+    },
+    "note": "유사도 검사 후 최종 한국어 발자국 띄어쓰기만 수정했으며 일본어 문장은 불변."
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T03:56:48.002Z",
+    "completedAt": "2026-09-30T03:57:35.704Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantive": 0,
+      "clarity": 0,
+      "formattingOnly": 2
+    },
+    "similarity": {
+      "corpusExamples": 7089,
+      "comparisons": 141973,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

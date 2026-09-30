@@ -1,0 +1,54 @@
+[
+  {
+    "wordId": "lex-jmdict-1252330",
+    "contentHash": "63444fd36dfdb427099c8ec89d20e90f394a4b1d01361a2abc732c626fa5803e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review of four example-only revisions and each word’s other two scenes. In-memory full manuscripts parsed; IDs and word/sense metadata unchanged; only corrected examples advance to version 2. Full replacement corpus: 2,196 senses/5,080 examples, zero masked pairs >=0.7 (73,114 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:10:33.142Z",
+    "notes": [
+      "길 안내를 야간 소음 뒤 주변 순찰로 바꿔 교통 정리·분실물 신고와 구분했다. 읽기·번역과 N5 표제어 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1344930",
+    "contentHash": "daa0ecef30a4384e58113f0c2bb3217a18b8cc3eb785f2dcf4c0273737aee172",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review of four example-only revisions and each word’s other two scenes. In-memory full manuscripts parsed; IDs and word/sense metadata unchanged; only corrected examples advance to version 2. Full replacement corpus: 2,196 senses/5,080 examples, zero masked pairs >=0.7 (73,114 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:10:33.143Z",
+    "notes": [
+      "공원에서 반려견과 노는 관찰 장면으로 바꿔 영화 인물·과거 직업 장면과 구분했다. 女の人의 자연스러운 표현과 번역을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1365250",
+    "contentHash": "73834881dd64785f79f10fe49218ea26920f91673c27c75febaec0b4451552f4",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review of four example-only revisions and each word’s other two scenes. In-memory full manuscripts parsed; IDs and word/sense metadata unchanged; only corrected examples advance to version 2. Full replacement corpus: 2,196 senses/5,080 examples, zero masked pairs >=0.7 (73,114 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:10:33.143Z",
+    "notes": [
+      "우산을 빌려주는 이웃의 배려로 바꿔 병원 접수·어머니의 가르침과 구분했다. 옆집 분 번역에 맞도록 隣の人를 隣に住む人로 구체화했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1345250",
+    "contentHash": "1f5b41a4f6adf26db8c15a960dcd7ebc417748946a2f5aa3c45b99b31d8e57f0",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review of four example-only revisions and each word’s other two scenes. In-memory full manuscripts parsed; IDs and word/sense metadata unchanged; only corrected examples advance to version 2. Full replacement corpus: 2,196 senses/5,080 examples, zero masked pairs >=0.7 (73,114 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:10:33.143Z",
+    "notes": [
+      "스포츠 대회 첫 우승 장면으로 바꿔 행사 참여·직장 육아 제도와 구분했다. 대표 뜻과 한국어 대응을 확인했다."
+    ]
+  }
+]

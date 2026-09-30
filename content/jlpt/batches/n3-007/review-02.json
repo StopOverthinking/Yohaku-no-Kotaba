@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "1a3c1d48b92be9391dc21d2321ca17473a61fd35352f47355568e37878f4bfc1",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:08:16.713Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1414360",
+      "cfbdfc4db683a994a5d63ffaa21976464dec4e6638c7a9538389fc6868154a55"
+    ],
+    [
+      "lex-jmdict-1414580",
+      "4bd3f2fc48922f93e58e25d0cf79cceddee6c611186bbd56023369f29a36b57b"
+    ],
+    [
+      "lex-jmdict-1414650",
+      "5366808217169f08a58e77766d843e79edd5d49034ecd6869d1c1b53928ee3ad"
+    ],
+    [
+      "lex-jmdict-1414790",
+      "5fda4240773a535f5332e1fe8a03cfad5877ee237f82b04dd94a9a1a301dc169"
+    ],
+    [
+      "lex-jmdict-1415470",
+      "c18ac0e02718132e6cb5a18f8a53332df3cd4216d9123eaf9e78e6b28baaa8f6"
+    ],
+    [
+      "lex-jmdict-1416230",
+      "646e5d1fe369398fc723260dc6c5b01f56c08e7afea6baf4c5f560ed8df59e67"
+    ],
+    [
+      "lex-jmdict-1417020",
+      "b0fca470b66931182542b14ceb2e7e6b844407cb55ac3e6dabe3b101f401c723"
+    ],
+    [
+      "lex-jmdict-1417030",
+      "6f2a16e79e3a42ad6f9adea37f5ef05cc8561502b03e97e21e091fab8082e895"
+    ],
+    [
+      "lex-jmdict-1417040",
+      "5710509dd8b9bb9955550d78b840aa1e97f8d303364cc715f45f69e594cf3e3a"
+    ],
+    [
+      "lex-jmdict-1418160",
+      "f074a28885844bbe14228e0feb5942d08947c2a38b1aee295ad15890e7309344"
+    ],
+    [
+      "lex-jmdict-1420070",
+      "8782160049d58a9c1c6b51b8c948bfbd1d7f89d53c017f6a585266f105ac5f20"
+    ],
+    [
+      "lex-jmdict-1420400",
+      "90eb718c8599ebb7d7303c53edc7eb921aee71c86a29dc86baa7208b07c38c74"
+    ],
+    [
+      "lex-jmdict-1420530",
+      "5cfb79b569a7046396d3f15207495fbab13cd55fc7ed385de9191aad92a7d1eb"
+    ],
+    [
+      "lex-jmdict-1420580",
+      "e432e7b5ffa3d52b2e37c1fa6157da8961e6fbd2202938278f5cff98bec5c7ca"
+    ],
+    [
+      "lex-jmdict-1420590",
+      "4f7a6d8843034c9f769ecd3f18f518e58186b23891b2191771eab6a2a8205d13"
+    ],
+    [
+      "lex-jmdict-1420680",
+      "375cb53c2bb8260d398eac9e337a471139e83326e503b6540373c2cfb54a5a4c"
+    ],
+    [
+      "lex-jmdict-1420780",
+      "bebcd467100db3479621bf7beba2fc7bd9b986cd50b72cd4702be530c000fcc8"
+    ],
+    [
+      "lex-jmdict-1420800",
+      "59e56bf68dbc5f27148d5fcf02f2efc5d07720b8cc0bfb90f8365d0ebc7583a6"
+    ],
+    [
+      "lex-jmdict-1420840",
+      "27c6ff950757073e4f463d3782b190f692776d4e7c06fb7e553a30c32bafee03"
+    ],
+    [
+      "lex-jmdict-1420970",
+      "8e91a143c502c8578389195f4774359d9f9bb0d8b3ec99c2041deb7efe4dee48"
+    ],
+    [
+      "lex-jmdict-1421020",
+      "fe7ad69799aa82ed7b2b7f9b8c4aee0c84af199aa678457d207067603579a590"
+    ],
+    [
+      "lex-jmdict-1421440",
+      "afe9704517da19958c27382041ea3c25bd347214434e4888ad015708bb9ecc69"
+    ],
+    [
+      "lex-jmdict-1421450",
+      "b8b92ef3f5f41e01bc1985b64097187d286cba19ab3d7c0106ebd86f2cdff1a0"
+    ],
+    [
+      "lex-jmdict-1423430",
+      "77f635832d4c8c78a23d138cf4b5db836ebeba606e4e24ca26a1ebfd4e0a4b91"
+    ],
+    [
+      "lex-jmdict-1424410",
+      "05d569f8c3a4a43774ed40d200135bc718aae56cc7e5532e7fa4a5faa57b516b"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1420590",
+      "category": "clarity",
+      "note": "知識を深める의 한국어 결합을 자연스럽게 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1424410",
+      "category": "clarity",
+      "kind": "additional-usage",
+      "note": "예정 취소와 구별되는 진행 중 활동의 중지 용법 예문을 보강했다."
+    },
+    {
+      "wordId": "lex-jmdict-1420800",
+      "category": "substantive",
+      "note": "기존 겨울 적설 문장과 가린 구조가 유사하여 강 양쪽의 방언 차이 장면으로 교체했다."
+    }
+  ]
+}

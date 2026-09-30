@@ -1,0 +1,23 @@
+{
+  "batch": "n3-009",
+  "status": "complete",
+  "completedParts": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "checkedWords": 100,
+  "acceptedWords": 100,
+  "acceptedExamples": 100,
+  "heldWords": 0,
+  "scope": "Independent complete dictionary, metadata, level, usage, hint, contrast, Japanese/Korean and corpus review.",
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "updatedAt": "2026-09-30T04:41:07.166Z",
+  "finalCorpus": {
+    "examples": 7643,
+    "comparisons": 169121,
+    "similarPairs": 0
+  }
+}

@@ -1,0 +1,1111 @@
+{
+  "scope": "practical-only",
+  "status": "selected-unreviewed",
+  "at": "2026-09-30T06:43:18.129Z",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "plannedWords": 50,
+  "note": "50은 이번 실용 누락 검토의 결과일 뿐 총량 할당량이 아니다. N2/N1 고정 풀을 함께 검토하고 한자군 순차 선택을 피하며 가나·외래어를 포함. 스케줄/일정 등 겹치는 일반어는 선택 용법의 실용 차이를 명시하고 검토자가 유지 여부를 판단.",
+  "rows": [
+    {
+      "dictionaryId": "jmdict-1329690",
+      "japanese": "受け付ける",
+      "reading": "うけつける",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "업무·문의",
+      "selectionReason": "신청 접수와 마감 안내",
+      "levelReason": "선택한 일반 업무·문의 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1326620",
+      "japanese": "取り寄せる",
+      "reading": "とりよせる",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "생활·구매",
+      "selectionReason": "매장에 없는 물품을 주문해 받아 오는 상황",
+      "levelReason": "선택한 일반 생활·구매 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1362930",
+      "japanese": "申し出る",
+      "reading": "もうしでる",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "업무·문의",
+      "selectionReason": "자발적인 제안·신청",
+      "levelReason": "선택한 일반 업무·문의 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1350920",
+      "japanese": "照合",
+      "reading": "しょうごう",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "업무·문의",
+      "selectionReason": "명단·서류의 일치 확인",
+      "levelReason": "선택한 일반 업무·문의 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1546250",
+      "japanese": "用件",
+      "reading": "ようけん",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "업무·문의",
+      "selectionReason": "전화·방문 목적 전달",
+      "levelReason": "선택한 일반 업무·문의 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1590280",
+      "japanese": "箇条書き",
+      "reading": "かじょうがき",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "업무·문의",
+      "selectionReason": "문서 내용을 항목별로 정리",
+      "levelReason": "선택한 일반 업무·문의 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1441540",
+      "japanese": "点検",
+      "reading": "てんけん",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "물품·안전",
+      "selectionReason": "기기의 이상 확인",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1471380",
+      "japanese": "破損",
+      "reading": "はそん",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "물품·안전",
+      "selectionReason": "배송·사용 중 물품 손상",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1505050",
+      "japanese": "紛失",
+      "reading": "ふんしつ",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "물품·안전",
+      "selectionReason": "물건 분실 신고",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1513320",
+      "japanese": "保管",
+      "reading": "ほかん",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "물품·안전",
+      "selectionReason": "서류·물품 안전 보관",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1326780",
+      "japanese": "取り除く",
+      "reading": "とりのぞく",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "물품·안전",
+      "selectionReason": "불필요한 물질·요소 제거",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1514580",
+      "japanese": "補充",
+      "reading": "ほじゅう",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "물품·안전",
+      "selectionReason": "소모품 채워 넣기",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1327530",
+      "japanese": "手軽",
+      "reading": "てがる",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "일상 평가",
+      "selectionReason": "손쉽게 할 수 있는 행동 평가",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1491050",
+      "japanese": "頻繁",
+      "reading": "ひんぱん",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "일상 평가",
+      "selectionReason": "반복 빈도 설명",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1567920",
+      "japanese": "曖昧",
+      "reading": "あいまい",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "일상 평가",
+      "selectionReason": "설명·조건의 불명확성 평가",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1504990",
+      "japanese": "紛らわしい",
+      "reading": "まぎらわしい",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "일상 평가",
+      "selectionReason": "이름·표시가 헷갈리는 상황",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1605250",
+      "japanese": "勿体ない",
+      "reading": "もったいない",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "일상 평가",
+      "selectionReason": "쓸 수 있는 것을 낭비하는 생활 장면",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1360640",
+      "japanese": "心強い",
+      "reading": "こころづよい",
+      "sourcePool": "n1",
+      "level": "N2",
+      "topic": "일상 평가",
+      "selectionReason": "지원자가 있어 든든한 심정",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N2. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1068870",
+      "japanese": "スケジュール",
+      "reading": "スケジュール",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "일정·생활",
+      "selectionReason": "하루·주간의 시간 배치 확인",
+      "levelReason": "선택한 일반 일정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1117080",
+      "japanese": "プログラム",
+      "reading": "プログラム",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "일정·생활",
+      "selectionReason": "행사 진행 순서 안내",
+      "levelReason": "선택한 일반 일정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1123520",
+      "japanese": "ボーナス",
+      "reading": "ボーナス",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "직장·소비",
+      "selectionReason": "급여 외 상여금",
+      "levelReason": "선택한 일반 직장·소비 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1101600",
+      "japanese": "パターン",
+      "reading": "パターン",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "일상 평가",
+      "selectionReason": "반복되는 행동 양상",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1099690",
+      "japanese": "バランス",
+      "reading": "バランス",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "일상 평가",
+      "selectionReason": "음식·활동의 균형",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1087100",
+      "japanese": "トレーニング",
+      "reading": "トレーニング",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "건강·생활",
+      "selectionReason": "체력 향상 훈련",
+      "levelReason": "선택한 일반 건강·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1133790",
+      "japanese": "メニュー",
+      "reading": "メニュー",
+      "sourcePool": "n2",
+      "level": "N4",
+      "topic": "식사·생활",
+      "selectionReason": "식당의 음식 목록",
+      "levelReason": "선택한 일반 식사·생활 의미·장면의 비공식 편집 제안 N4. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n4-006",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1127870",
+      "japanese": "マスク",
+      "reading": "マスク",
+      "sourcePool": "n2",
+      "level": "N4",
+      "topic": "건강·생활",
+      "selectionReason": "입·코를 가리는 생활용품",
+      "levelReason": "선택한 일반 건강·생활 의미·장면의 비공식 편집 제안 N4. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n4-006",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1272320",
+      "japanese": "交通機関",
+      "reading": "こうつうきかん",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "이동·생활",
+      "selectionReason": "버스·철도 등의 교통 수단",
+      "levelReason": "선택한 일반 이동·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1283000",
+      "japanese": "項目",
+      "reading": "こうもく",
+      "sourcePool": "n2",
+      "level": "N2",
+      "topic": "업무·문서",
+      "selectionReason": "입력·확인할 각각의 항목",
+      "levelReason": "선택한 일반 업무·문서 의미·장면의 비공식 편집 제안 N2. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1286780",
+      "japanese": "国籍",
+      "reading": "こくせき",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "행정·생활",
+      "selectionReason": "개인의 국적 기입",
+      "levelReason": "선택한 일반 행정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1292200",
+      "japanese": "催促",
+      "reading": "さいそく",
+      "sourcePool": "n2",
+      "level": "N2",
+      "topic": "업무·거래",
+      "selectionReason": "늦어진 회신·지급 독촉",
+      "levelReason": "선택한 일반 업무·거래 의미·장면의 비공식 편집 제안 N2. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1435510",
+      "japanese": "定期券",
+      "reading": "ていきけん",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "이동·생활",
+      "selectionReason": "통근·통학 교통 이용권",
+      "levelReason": "선택한 일반 이동·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1435540",
+      "japanese": "定休日",
+      "reading": "ていきゅうび",
+      "sourcePool": "n2",
+      "level": "N4",
+      "topic": "구매·생활",
+      "selectionReason": "가게가 정기적으로 쉬는 요일",
+      "levelReason": "선택한 일반 구매·생활 의미·장면의 비공식 편집 제안 N4. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n4-006",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1448500",
+      "japanese": "盗難",
+      "reading": "とうなん",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "물품·안전",
+      "selectionReason": "도난 피해 신고",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1457830",
+      "japanese": "内科",
+      "reading": "ないか",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "건강·생활",
+      "selectionReason": "일반 질병의 진료과 선택",
+      "levelReason": "선택한 일반 건강·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1464300",
+      "japanese": "日程",
+      "reading": "にってい",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "일정·생활",
+      "selectionReason": "여러 날의 행사 일정; 스케줄과 의미 겹침을 명시하고 날짜 중심 사용",
+      "levelReason": "선택한 일반 일정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1464910",
+      "japanese": "日用品",
+      "reading": "にちようひん",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "구매·생활",
+      "selectionReason": "매일 사용하는 생활 필수품",
+      "levelReason": "선택한 일반 구매·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1501610",
+      "japanese": "払い戻す",
+      "reading": "はらいもどす",
+      "sourcePool": "n2",
+      "level": "N2",
+      "topic": "업무·거래",
+      "selectionReason": "취소한 결제의 환불",
+      "levelReason": "선택한 일반 업무·거래 의미·장면의 비공식 편집 제안 N2. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n2-008",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1520570",
+      "japanese": "防犯",
+      "reading": "ぼうはん",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "물품·안전",
+      "selectionReason": "범죄 예방 장치·행동",
+      "levelReason": "선택한 일반 물품·안전 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1541690",
+      "japanese": "有料",
+      "reading": "ゆうりょう",
+      "sourcePool": "n2",
+      "level": "N4",
+      "topic": "구매·생활",
+      "selectionReason": "이용 요금이 있는지 확인",
+      "levelReason": "선택한 일반 구매·생활 의미·장면의 비공식 편집 제안 N4. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n4-006",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1542380",
+      "japanese": "郵送",
+      "reading": "ゆうそう",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "행정·생활",
+      "selectionReason": "서류를 우편으로 보내기",
+      "levelReason": "선택한 일반 행정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1598350",
+      "japanese": "手続き",
+      "reading": "てつづき",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "행정·생활",
+      "selectionReason": "신청·이사의 절차",
+      "levelReason": "선택한 일반 행정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1590240",
+      "japanese": "貸出",
+      "reading": "かしだし",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "구매·생활",
+      "selectionReason": "도서·물품 대여",
+      "levelReason": "선택한 일반 구매·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1586520",
+      "japanese": "宛名",
+      "reading": "あてな",
+      "sourcePool": "n2",
+      "level": "N3",
+      "topic": "행정·생활",
+      "selectionReason": "봉투에 받는 이 이름·주소 적기",
+      "levelReason": "선택한 일반 행정·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N2과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1107800",
+      "japanese": "ファイル",
+      "reading": "ファイル",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "정보·업무",
+      "selectionReason": "컴퓨터에 저장된 파일; 이미 작성한 데이터는 정보 일반과 대비",
+      "levelReason": "선택한 일반 정보·업무 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1132420",
+      "japanese": "メーカー",
+      "reading": "メーカー",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "구매·생활",
+      "selectionReason": "제품 제조업체 확인",
+      "levelReason": "선택한 일반 구매·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1071490",
+      "japanese": "ストレス",
+      "reading": "ストレス",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "건강·생활",
+      "selectionReason": "업무·생활의 심리적 부담",
+      "levelReason": "선택한 일반 건강·생활 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1051230",
+      "japanese": "コメント",
+      "reading": "コメント",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "정보·업무",
+      "selectionReason": "소감·의견 덧붙이기",
+      "levelReason": "선택한 일반 정보·업무 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1060300",
+      "japanese": "システム",
+      "reading": "システム",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "정보·업무",
+      "selectionReason": "예약 등 절차가 연결된 체계",
+      "levelReason": "선택한 일반 정보·업무 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1076000",
+      "japanese": "タイミング",
+      "reading": "タイミング",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "일상 평가",
+      "selectionReason": "행동의 알맞은 시점",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "01"
+    },
+    {
+      "dictionaryId": "jmdict-1011660",
+      "japanese": "ほっと",
+      "reading": "ほっと",
+      "sourcePool": "n1",
+      "level": "N3",
+      "topic": "일상 평가",
+      "selectionReason": "걱정이 풀린 안도감; 가나 표현 포함",
+      "levelReason": "선택한 일반 일상 평가 의미·장면의 비공식 편집 제안 N3. 출처 연결 N1과 독립하여 검토 후 확정.",
+      "duplicateCheck": {
+        "dictionaryId": "clear",
+        "allDictionarySpellingsAndReadings": "clear",
+        "comparedSources": [
+          "editor",
+          "baseline",
+          "all batch words",
+          "all pilot headers"
+        ]
+      },
+      "batch": "n3-013",
+      "fileNumber": "02"
+    }
+  ]
+}

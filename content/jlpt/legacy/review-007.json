@@ -1,0 +1,544 @@
+[
+  {
+    "wordId": "JLPTN3_181",
+    "sourceHash": "e38c373e9e46c8e402e4775118bea2ed0761f99ae59968762d54308780949d47",
+    "proposalHash": "f8ea42ee31921d63c694f2a76421e2aba502486d219cc7e0f018d7360f76ffca",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "훌륭한 태도·완성품을 평가하는 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_182",
+    "sourceHash": "ba25f45a91471a9571e1bc61b12caed92eb1b7a5f7a58f0cb8248ec64d7dcc5f",
+    "proposalHash": "abdbc63b73ef8cfb926e07e70dfe616721d071fbcd5a08e57581c92df762b686",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "동작과 눈짓으로 전하는 신호의 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_183",
+    "sourceHash": "4ba6053e551525dcd0ef122e914a0a92b38826b3c1c9430230b22dd6cf63b69f",
+    "proposalHash": "e0e1e221df4357f78ef343eb128fcd857b02d7bcb8ef9b0928cf2b16ad450d45",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "대화 상대와 경기 상대를 함께 포괄하는 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_184",
+    "sourceHash": "969988256d2dca7cfabbc0b25efa9680010bbd5c70d5e2ec6f70c5e1746d5cf6",
+    "proposalHash": "c29bb8b1d758198c89c51863ae510bd82e092ac0f9695e6f3f15e579f33e936e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "물리적 구멍·구덩이 의미의 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_185",
+    "sourceHash": "b592d9c572ff551f2029659469fdb9aa1496452149c3c93effb9aa2862a5c098",
+    "proposalHash": "b278cc498a446da8a15474bafab494e20d839e8e423f5b8b524d7f7b1696db95",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "조리용 액상 기름에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_186",
+    "sourceHash": "02adf4dd2a4dfd25003d5495b4a3790a42884609515c14051fadefedfc90797c",
+    "proposalHash": "7a9e535996e51149fc71574cdbc8560d35ef52f5512da2a0303bb635c708ce57",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "맥주·비누의 거품에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_187",
+    "sourceHash": "bd80e48acd2020545f7854c578d4a83c074818682ff9ef469ee3e70e2e7d078a",
+    "proposalHash": "db6fee4d271ed9ea5cd7447e29806122d8e841046df4ae0770ec28da330dcf33",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "기준 수치를 포함하는 이하 범위의 N4 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_188",
+    "sourceHash": "61f5aeb62ed50a8001a63ad24709fec46a2f8272e5f23118ded37cc4c45312dc",
+    "proposalHash": "2ddb454866eac52382bb7728f17934c734a4f0188cf3f1758b7578c8e9d221af",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "몸의 호흡 용법에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_189",
+    "sourceHash": "fe4006411178621dd8b39aa19cc95ecc7aaa468d95eefadcd81f0e394263ffb5",
+    "proposalHash": "3de2af53669669a14bd2e7aec126ffba95fe1733bed4e78e12eef07487960b7a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "needs-proposal-followup",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "행선지 의미는 맞지만 두 읽기를 합친 원본 형식과 사전 연결이 미해결이므로 후속 확인한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_190",
+    "sourceHash": "1d6866c1a1414bf7167ae99d0998037de9f691026a3baf52e17478a1a5feba3c",
+    "proposalHash": "dd75c45f10ae71f7717d7e4addf49c8f290a515fe7d72d3c4bae4f7df243e258",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "기준 시점부터 뒤의 범위를 나타내는 N2 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_191",
+    "sourceHash": "0e0fe431bd505494f1a1a463a8d115a4c57259e6ba6deb28b3f89e24870b5d98",
+    "proposalHash": "6ff77d4cdacceca7a8ec2d705fbdafaecef5adfd17c517fe80ac9c1d2e4d42e2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "깨어 있는 의식 상태에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_192",
+    "sourceHash": "78004f05adffd5def592afebb0c1e7f042861278a49e84d16b18b9671ffcb31e",
+    "proposalHash": "77b17e20e145da4299b378c9793152f282627c3c7ec461db591e259661baf0a2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "목재 판자 의미의 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_193",
+    "sourceHash": "47dca25166315d50c783a2a88d45b0194128656e1bfd06937cec0f755a8f5f23",
+    "proposalHash": "29aee2864e4f19e0e3bc1eaaf34c811ecc12686e74da4aec33071c3acd74b1e6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "N3/N1 출처 충돌은 구체적인 공간 위치 용법에 한정한 N3 편집 판단으로 해소한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_194",
+    "sourceHash": "d6b5060687fb40edc29ca74b70e54151d53a6fb6ff648ee44bec5cf667dff4de",
+    "proposalHash": "29d4b41ffec92ea1fdd1ce53240038771d71498e96a52188002e7858c5f3a4d0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "needs-proposal-followup",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "뜻은 맞지만 생산적 수사+단위 결합을 독립 수준 어휘로 셀지 미정이므로 보류한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_195",
+    "sourceHash": "ca5df58ea8d78055af0a7cb8bb752ec9cb9442f174ca7c250b4374df0fa19326",
+    "proposalHash": "0b456845f45adb133624355f1715a6cb6c08c3447de6db340de0f893df13021a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "가게·사무실의 장소 이전에 N2 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_196",
+    "sourceHash": "cdbc8306143fab489fb061264259884ea16a0dbfc2497d5b1b545f89a72f7db0",
+    "proposalHash": "f17edf4e0438707d2ba2ca02c22c2abfc72b42ed92c5357f86683c3776091309",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "사람이 다른 장소로 가는 이동에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_197",
+    "sourceHash": "219951690373526f8258bd8cdfadc49a29f5bd819f713301e504c1c36a049fc7",
+    "proposalHash": "afe25acbc3007276bea2452877d10f62c38a6f63c3644a5f6ec4fec59fa17aa2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "needs-proposal-followup",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "N3 수준 자체는 타당하나 제안의 외모가 올라간다는 동형어 설명은 오류이므로 제안 수정 후 재검토한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_198",
+    "sourceHash": "be26a5feb2d1cbbe6539b6c5771f20c4b72b23fb2061531e86dfd3995ad300a6",
+    "proposalHash": "0ba116128411c6b5b7aa1faaf5937d1f3450a2d30c7f0d77254abd3ce20b7950",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "교통의 오른쪽 회전 의미에 N3 편집 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_199",
+    "sourceHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+    "proposalHash": "a152989187728547c67541b4defef71d7b9c1dd585275df8f02f346cdb2a7a98",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다.",
+      "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_200",
+    "sourceHash": "a4c99c9de4251374b3048ec2cebc7cc818168e45aa99aec755cc122ad7716b78",
+    "proposalHash": "1acb61cc23537521d3f53b5a408d3655e146dabdbbd0fd70a33a32033ffa8b82",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "결과에 영향을 주는 추상 관계의 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_201",
+    "sourceHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+    "proposalHash": "0c098aa2df3a08f090758e62e3759091189f1ca35b9f5aebd6990a30a9b95299",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+    "reviewedAt": "2026-09-30T06:36:16.779Z",
+    "notes": [
+      "영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다.",
+      "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_202",
+    "sourceHash": "159bb56a1e7c44007787935f942d9e7cee5fed39f9c56a7ae3900b34c42fa8d6",
+    "proposalHash": "78d13e986f959f9492b9ad9b5dee4a0578fbecb56b734298bdb67821fe481ff9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "웃는 표정을 나타내는 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_203",
+    "sourceHash": "7aa8d7b604f878141b4c26d6e39f60d3695265dd6b4c77b62450606b35f9492a",
+    "proposalHash": "86628cf7f9dde0a0d7c2d4ec3dc6e83ed781e207176930bff150914bce3c232b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "나뭇가지 의미에 N4 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_204",
+    "sourceHash": "9ed31e0582f0b1f50e93d370381aead81b3b3cd0a23510d92ad3167acfd4a1e3",
+    "proposalHash": "e1dd98617b86eb465878b193e33bb8a4200c81540c1db7bb50ceb9735b689312",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "악기의 음악 연주 의미에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_205",
+    "sourceHash": "27d00c8cee4288433a333bde1655fbf47df6aeca2abeed536f2ec22079b02986",
+    "proposalHash": "cf41109f0bd199de9c0a9774a5037eabc35d453dd918c4ec00edf5c1846bbf2e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "축하 행사와 기념 선물 의미에 N4 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_206",
+    "sourceHash": "eb0b873f2ccb3b9cebd8e1c2015400e11d2df75724feb7ec2184f93e824f5d20",
+    "proposalHash": "d8fe2dc7c7346dd8e3d82f0d05b45521e253a07c04c54eb73596fd2879ab51ce",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "경기의 응원 용법에 고정 N2 연결을 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_207",
+    "sourceHash": "658a9d5f69afdcf9e9b409b87d19be4ab5d86328374b48f3095df3bec92bd58a",
+    "proposalHash": "d969f037ac80a08d8142555017b2fd3ca123b83e5616c29145854c38aecfd98d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "도로·대륙을 가로지르는 이동에 N3 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_208",
+    "sourceHash": "2fa8999bead017a6ebebe0a915f7895cf26467fc24d8fb69c362128df91e6fc3",
+    "proposalHash": "e8d2f49b548bab675aed76d70f6c46faf112e28ba8dbdb0ba26f0732b89428c7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "갔다 돌아오는 이동·표에 N2 분류를 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_209",
+    "sourceHash": "db87a7150129b71a6002fee0cc8a16d39ee71238e82caf7ebc4faedce7656885",
+    "proposalHash": "bbd7b6c755460bcc788af4e7d063240dcf12beec841999da3cc01ae909852b66",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "공모에 참여하는 용법에 고정 N1 연결을 수용한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_210",
+    "sourceHash": "633a1abaaa48d378efd17c9cd229c3c4a49d1172340b4ce4d78388ece4278532",
+    "proposalHash": "2241bbea43e244fd495025e9c21c4bfd2fd15356f694f16409883afe245337ef",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-007.json",
+    "reviewedAt": "2026-09-30T04:15:30.542Z",
+    "notes": [
+      "학습 원리·기술을 활용하는 N2 분류를 수용한다."
+    ]
+  }
+]

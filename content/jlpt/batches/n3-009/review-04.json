@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "9bdd1094c4936edc1cd6cb109cec346e2273fe79b2d63e3abde816734cea9df4",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:41:07.089Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1554280",
+      "493ce1e3b5ae901af8b919e6f3eb24fad49d6d61a7df9346f5e35b48dd147af8"
+    ],
+    [
+      "lex-jmdict-1554640",
+      "314b3b5024829953ea8555ea5651cfd4e8d8a0f0137c0819d01039582963ab0c"
+    ],
+    [
+      "lex-jmdict-1555710",
+      "a6c94e09e49a72e0896521e3b99bc998900d086aac4acf23767722332b57d458"
+    ],
+    [
+      "lex-jmdict-1557450",
+      "5b9312bb0ef97a152ade8c8f1cfcdf64ea4d8f73f82b9c456c5f3039c227dadc"
+    ],
+    [
+      "lex-jmdict-1557470",
+      "b4c853a625929734c3102a292bf1013a01b5afc7dac3875e2b0cc2a92e792f76"
+    ],
+    [
+      "lex-jmdict-1558370",
+      "0a51612636460be2233b0c52ffdf5203603bf0d6ca00155003d648bbc230bd6f"
+    ],
+    [
+      "lex-jmdict-1558670",
+      "f571db161a02362c2eb88ee3792a29ce0f9f0fc5e4325ec6acd23ba72300af80"
+    ],
+    [
+      "lex-jmdict-1558920",
+      "005a6719a2eaa1d252ac32f7100d88b596731b1b35420d226d0f132818f1e77e"
+    ],
+    [
+      "lex-jmdict-1559160",
+      "8816efc364f59e01d8ce822e066638ae16f184f4a52b73f1dc6af291f8d9fe5c"
+    ],
+    [
+      "lex-jmdict-1559260",
+      "ac46612bab35e7df01acff7f8c164425ca5b9bee11a12517e4160f767e223e82"
+    ],
+    [
+      "lex-jmdict-1559600",
+      "c5c429bda3568b27419f86184b76f777799d6a4be76091c8fa20d1f7d37b1f7e"
+    ],
+    [
+      "lex-jmdict-1561090",
+      "8f32e076a42973d603296b3720024977c509333f889a120ef3670a495a1f6882"
+    ],
+    [
+      "lex-jmdict-1561760",
+      "b3074bd2c36c1f9c8b753f6387df47725fa46f0192d2942d7f5b210b720e4f50"
+    ],
+    [
+      "lex-jmdict-1561840",
+      "08863e56354357fcba620a27fcec6d1bacde2735ea10196b12205a5141c5556c"
+    ],
+    [
+      "lex-jmdict-1562400",
+      "5fcbcd6c9888c25f35feed5b99a5bf5f2228b99d6ec1c3ec664f7021667dfa07"
+    ],
+    [
+      "lex-jmdict-1562530",
+      "cff0e4f9104e2b0a88d9c3c57906834f86aeefc615939a434327de506a5c9b13"
+    ],
+    [
+      "lex-jmdict-1562800",
+      "1bd7a0bc5ae258e85ad3974bd1eb69c26be5a309e2a6788d446a8b608aab9f40"
+    ],
+    [
+      "lex-jmdict-1565750",
+      "71bf9a588106717a3cc84e169aab6d065f1186daf0b3527e1c6693d703566c8f"
+    ],
+    [
+      "lex-jmdict-1573150",
+      "5ba9ce93a1a48e99b1a1f1af5f34625f60dcef7d656dfacdeef671a4795ea97f"
+    ],
+    [
+      "lex-jmdict-1575730",
+      "49ce746ee3790b3f38bfdf9b829a95cc7b54c63d274da07b0972ba64972d0d96"
+    ],
+    [
+      "lex-jmdict-1575940",
+      "5baa68af47ec4372b3a16a61944d4f3ddd0be9c5920d2f91bc45038cb57127ea"
+    ],
+    [
+      "lex-jmdict-1576100",
+      "47934ec98282360d04e698d344d8b8207a9f9d9c64c3fed3a699757b9b275ca4"
+    ],
+    [
+      "lex-jmdict-1576200",
+      "4560490467f8be39445f8ad70d9c3c8c08600a4c62220524029350ebc7c25a1f"
+    ],
+    [
+      "lex-jmdict-1576520",
+      "9b68579840c01b61c84d8c3bd84976705797b19a547ab3f74e04c4f8068d0d85"
+    ],
+    [
+      "lex-jmdict-1577040",
+      "463ba3dd4108353d32f8286471a25640b6435ccb7e764b6b765ed255b79cb1ca"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1554640",
+      "category": "clarity",
+      "note": "한국어의 양을 많게 했다를 양을 늘렸다고 자연스럽게 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1555710",
+      "category": "clarity",
+      "note": "사람들의 원형 배치를 원을 이루어 앉았다고 자연스럽게 번역했다."
+    },
+    {
+      "wordId": "lex-jmdict-1557450",
+      "category": "substantive",
+      "note": "반복되는 길 안내 후 감사 장면을 짐 운반 도움에 전화로 감사하는 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1562400",
+      "category": "clarity",
+      "note": "話が弾んだ를 의견이 잘 통한다는 표현 대신 한창 이야기를 나누었다고 번역했다."
+    },
+    {
+      "wordId": "lex-jmdict-1576520",
+      "category": "clarity",
+      "note": "바다를 남겨 가고 싶다는 직역을 자연스럽게 다듬었다."
+    }
+  ]
+}

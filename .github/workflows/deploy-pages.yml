@@ -39,6 +39,18 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Test
+        run: npm test
+
+      - name: Audit learning content
+        run: npm run audit:content
+
+      - name: Require final vocabulary selection
+        run: npm run jlpt:audit -- --require-target
+
+      - name: Record deployed version
+        run: npm run release:manifest
+
       - name: Add SPA fallback
         run: cp dist/index.html dist/404.html
 

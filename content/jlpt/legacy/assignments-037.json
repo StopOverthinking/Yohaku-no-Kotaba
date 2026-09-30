@@ -1,0 +1,336 @@
+[
+  {
+    "wordId": "AbsoluteVerb_546",
+    "sourceHash": "6f3fc533d07d865ba58abad35222bdbc4420e2e747846692f44d0e7bcc65fe4f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1514460",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “보충하다” 및 1개 sense를 대조했다. 부족한 비용과 설명을 다른 수단으로 보충하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_547",
+    "sourceHash": "4a34bc85ce5b83a4468ffb7f59489e69c277b78895606066e7bd59ec94acb3da",
+    "level": "N3",
+    "dictionaryId": "jmdict-1389460",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “차지하다” 및 1개 sense를 대조했다. 공간이나 매출의 일부를 차지하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_548",
+    "sourceHash": "b245dc5069299b5f9e219bb34cb7435b478305b796675f954f236acd7b4805fb",
+    "level": "N4",
+    "dictionaryId": "jmdict-1551530",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “세우다” 및 1개 sense를 대조했다. 간판과 우산을 세워 두는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_549",
+    "sourceHash": "288921c99c705707ae6e957e0fd1da5120431fade24029078446e0ad7bd008db",
+    "level": "N3",
+    "dictionaryId": "jmdict-1593070",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “초과하다” 및 1개 sense를 대조했다. 참가자 수와 예산이 기준을 초과하는 기본 수량 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_550",
+    "sourceHash": "d79d1ab1b37b019064508604994ad7d970b7b6450e4e345362a6d9f2cb6be675",
+    "level": "N3",
+    "dictionaryId": "jmdict-1593070",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(높은 곳을) 넘다” 및 1개 sense를 대조했다. 산과 담이라는 경계나 장애물을 넘어가는 뜻이다. 같은 사전 ID의 超える 수량 초과와 현재 의미가 달라 별칭으로 묶지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_551",
+    "sourceHash": "41aaf1696c4189bf89f4f0eb59048011b62cb78edbc0e66565432e3b24b2b31d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1602360",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “퍼지다, 펼쳐지다” 및 1개 sense를 대조했다. 잉크가 퍼지거나 넓은 초원이 펼쳐져 보이는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_552",
+    "sourceHash": "c3088c5bd9c240adb4d6c6bd1628c0309e2b186670a5d52d2baef564ba03c874",
+    "level": "N2",
+    "dictionaryId": "jmdict-1602370",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “넓히다, 펼치다” 및 1개 sense를 대조했다. 접힌 지도와 우산을 펼치는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_553",
+    "sourceHash": "3754ef7fc15f052eed9364bf5042e9ad71c0b720fe2d8864445340cd457d3418",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “흘러넘치다” 및 1개 sense를 대조했다. 기울어진 컵에서 물이나 차가 밖으로 흘러나오는 자동사 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "こぼれる의 사전 연결이 없으며 현재 뜻 흘러넘치다는 내용물이 가득 차 넘치는 경우만으로 오해되지 않게 흘러나오다·쏟아지다를 명시해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_554",
+    "sourceHash": "2169000a36f851c075a655259f94ce9caaf7d139bdab7261e0391a219f57dc05",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “흘리다” 및 1개 sense를 대조했다. 커피와 수프를 용기 밖으로 흘리는 타동사 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "こぼす의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_555",
+    "sourceHash": "9e2924ec29d806e4fb03e208920053a2aace48d73f11bda756c730d8e4b1b4f3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1216880",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “머금다, 포함하다” 및 1개 sense를 대조했다. 요금에 조식과 세금이 포함되는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_556",
+    "sourceHash": "079ddac7fef64170198bbae5f1239171546c87d5af86392f6d789af566ab72df",
+    "level": "N2",
+    "dictionaryId": "jmdict-1216890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “포함시키다” 및 1개 sense를 대조했다. 사람 수와 가격 계산에 어린이와 배송비를 포함시키는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_558",
+    "sourceHash": "ce65ea5e745da46f5660858523cc8cc558c87fa8091f27f30bcc1dcaa8a86143",
+    "level": "N3",
+    "dictionaryId": "jmdict-1600260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “남기다” 및 1개 sense를 대조했다. 케이크와 음식을 먹지 않고 남기는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_560",
+    "sourceHash": "9c7485348de831e738b593858c2738b43b2cd6e189be30674a1177a440a80e56",
+    "level": "N1",
+    "dictionaryId": "jmdict-1330490",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(정해진 범위 안에) 들어가다, 수습되다” 및 1개 sense를 대조했다. 책과 책상이 정해진 공간 안에 들어맞는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_562",
+    "sourceHash": "f47a87557a299e2b562623af575fcf03696f3ff261d62d7baa5206363150cb46",
+    "level": "N2",
+    "dictionaryId": "jmdict-1475720",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “다가오다, 가까워지다, 강요하다, 다그치다” 및 1개 sense를 대조했다. 시험 날짜와 폐점 시간이 다가오는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_564",
+    "sourceHash": "042000c9de4ad56861133bfefd41348f52c157efe3a96f1cb1c24de7cd3bffb7",
+    "level": "N1",
+    "dictionaryId": "jmdict-1242170",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “다가가다, 다가오다” 및 1개 sense를 대조했다. 사람이나 발소리가 거리를 좁혀 다가오는 물리적 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_566",
+    "sourceHash": "e5d2a9fae6e8befb4616fc9b244aec1c87afc4f4da9452472f891da8e4b9036b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1196000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(날을) 보내다, 살아가다” 및 1개 sense를 대조했다. 휴일과 남은 시간을 보내는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_567",
+    "sourceHash": "191c9d7624c6370c5d172ade4c81a9d0b4fc1cc77006b3386240dd732f93e729",
+    "level": "N3",
+    "dictionaryId": "jmdict-1358870",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “연기되다” 및 1개 sense를 대조했다. 완성과 마감 시점이 뒤로 연기되는 의미를 선택했다. 같은 사전 ID의 伸びる 신체 길이 성장과 구분한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_570",
+    "sourceHash": "2b5e6490a153397f1306c700734495f55a000d45748e0d82cf16c3da6cb2648b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1314600",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “닮다” 및 1개 sense를 대조했다. 사람의 모습과 물건의 외형이 닮은 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_571",
+    "sourceHash": "a27fd05841a22f08f24c1d1f278d5fc5680a5f3400c0454795bc9fac845ab490",
+    "level": "N1",
+    "dictionaryId": "jmdict-1386000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “마련하다, 개설하다, 설치하다” 및 1개 sense를 대조했다. 질문 시간과 좌석을 마련하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_572",
+    "sourceHash": "42ca0ca4a78e31746511b145e38bc191571b6c33a612cf9088f983863ebc0ff4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1244960",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “대비하다, 갖추다” 및 1개 sense를 대조했다. 기계 고장과 눈에 미리 대비하는 뜻을 선택했다. 최신 입력에서 첫 예문 ID의 version 2와 기계 고장 대응 장면을 확인하여 이전 손전등 문장을 사용하지 않았다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_573",
+    "sourceHash": "7a69f35ad987792db0f8cfba1d7c38dad964a46bc3c1877dd33e0c622f3b97f9",
+    "level": "N4",
+    "dictionaryId": "jmdict-1202440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(책·문 등을) 펴다·열다, (행사 등을) 열다, (길·가능성 등이) 열리다” 및 1개 sense를 대조했다. 읽기 ひらく로 지도와 책을 펼치는 기본 의미이다. 같은 사전 ID라도 開く(あく)의 문이 열리는 자동사 선택 뜻과 별칭으로 묶지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_575",
+    "sourceHash": "16aa7843f041501b4e5ea04f3d0b8de224722248bb5ad1b5e5ef952388e93db4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1202460",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(시야·길이) 트이다, (지역이) 발전하다, 견문이 넓어지다” 및 1개 sense를 대조했다. 읽기 ひらける로 시야가 트여 경치가 보이는 의미이다. 출처 등급은 없어 풍경 묘사에서의 일반적 쓰임을 근거로 편집 N3를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_576",
+    "sourceHash": "d65d3339fc7151eac6f16dd4fd30028d05de8b79c525d65dc7ce6bf8d8a51071",
+    "level": "N1",
+    "dictionaryId": "jmdict-1200730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(규칙 등이) 고쳐지다, 격식차리다” 및 1개 sense를 대조했다. 평소보다 격식을 차리는 태도와 말투를 나타낸다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_577",
+    "sourceHash": "fce3ebed61949eec5a7ab9cd44a7d40b11f940dbf3d8bf9fe1b39e42007cec60",
+    "level": "N2",
+    "dictionaryId": "jmdict-1200750",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(규칙 등을) 고치다” 및 1개 sense를 대조했다. 습관과 규칙을 고쳐 새롭게 하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_579",
+    "sourceHash": "de1afe33c7a54d19a1eb9d7fe47136664abea985d174c28ed7732d6746b7a4ef",
+    "level": "N3",
+    "dictionaryId": "jmdict-1448860",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “명중시키다, 지명하다” 및 1개 sense를 대조했다. 화살과 공을 목표에 명중시키는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_580",
+    "sourceHash": "57b0c81bdb734fd9f65d7750c6df1e16e0f20eca5092bd446efd1ec586175bf6",
+    "level": "N1",
+    "dictionaryId": "jmdict-1448930",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “적용되다, 적합하다” 및 1개 sense를 대조했다. 설명과 조건이 사례에 적용되는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_581",
+    "sourceHash": "4723cbfdceb91af062c526788de9ccf72ecd01e325cc47293835e522d8e7272e",
+    "level": "N1",
+    "dictionaryId": "jmdict-1586530",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “적용시키다, 들어맞추다” 및 1개 sense를 대조했다. 공식이나 사례를 다른 대상에 적용시키는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_582",
+    "sourceHash": "3ad75d01cd00d26e68d4edb3d72e89b2abe6e761af1ab872b05c9f7da4cba28d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1198890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(문제 등을) 풀다” 및 1개 sense를 대조했다. 문제와 숙제를 풀어 답을 구하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_583",
+    "sourceHash": "17fa83c9e0ce5ddfa5a989e05233ade8b54b8abd4097f7cda401a5f873dfe3d6",
+    "level": "N1",
+    "dictionaryId": "jmdict-1513250",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “유지하다” 및 1개 sense를 대조했다. 신선도와 자세를 유지하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_584",
+    "sourceHash": "da32498c595e393b458ce8a57543d1ddc7d8cdf3ab11f7351d45c1f15db04005",
+    "level": "N1",
+    "dictionaryId": "jmdict-1478370",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “수반하다” 및 1개 sense를 대조했다. 공사에 소음과 일에 위험이 수반되는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

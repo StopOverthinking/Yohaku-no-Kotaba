@@ -1,0 +1,344 @@
+[
+  {
+    "wordId": "AbsoluteVerb_397",
+    "sourceHash": "1a1b2c0e7b59bd9fa28472309f819d1739347cdf8e00ec505cbf3d1153de8571",
+    "level": "N5",
+    "dictionaryId": "jmdict-1310680",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “그만두다” 및 1개 sense를 대조했다. 읽기 やめる로 야식 습관이나 산책 계획을 그만두는 기본 의미이다. 출처 등급은 없지만 일상적 중단 표현으로 편집 N5를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_398",
+    "sourceHash": "ea3a6da8d900263bcab7c6c8dba57aabc12de375447a0c9a885e7e0d1390b884",
+    "level": "N4",
+    "dictionaryId": "jmdict-1217700",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “분발하다” 및 1개 sense를 대조했다. 문제를 풀거나 연습을 지속하며 힘내는 기본 의미이다. 출처 등급이 없어 일상적 응원·노력 표현으로 편집 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_399",
+    "sourceHash": "0ff1a4ea39ae685596db9a791fead82c617139f28513653a03055e039317c339",
+    "level": "N3",
+    "dictionaryId": "jmdict-1410660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “게을리하다” 및 1개 sense를 대조했다. 운동을 게을리하거나 감시가 없을 때 나태해지는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_400",
+    "sourceHash": "d1e66ce2f6d4c5cd60a1e3bca27813547b940634818f1d5921ffa66ff313ed06",
+    "level": "N1",
+    "dictionaryId": "jmdict-1557390",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “힘쓰다, 꾸준히 매진하다” 및 1개 sense를 대조했다. 재활과 연습에 꾸준히 힘쓰는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_401",
+    "sourceHash": "7574df1b4e3bfa84c6ee43e4233eca022d6b804670780f405c6c0c3415738b3e",
+    "level": "N1",
+    "dictionaryId": "jmdict-1557350",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “격려하다” 및 1개 sense를 대조했다. 친구와 선수를 격려하는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_402",
+    "sourceHash": "4ded32bd6b3ccae67a6d8e543e0369aab660dd00f1a2787c80bed9fae4a9e84a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1467530",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “인정하다” 및 1개 sense를 대조했다. 실수와 노력을 인정하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_403",
+    "sourceHash": "cea6e8e217bb94afa65d6646e90b0f4da36f79e319fd855bae6b70b966e481fe",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “고개를 끄덕이다” 및 1개 sense를 대조했다. 말 대신 고개를 끄덕여 응답하거나 동의하는 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "うなずく의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_404",
+    "sourceHash": "07269cc965fc636d7ac3a7497a81540f4b5dadf5d8391266151baeb78221e645",
+    "level": "N2",
+    "dictionaryId": "jmdict-1527010",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “맛보다, 경험하다” 및 1개 sense를 대조했다. 초콜릿과 차의 맛과 향을 음미하는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_405",
+    "sourceHash": "d750d9127cbfc2ec70016b6001d1972e8ae16ddf76570a7adc466d3a98b70a3e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1212670",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “익숙해지다” 및 1개 sense를 대조했다. 신발이나 야간 근무에 익숙해지는 일상 의미로 복수 출처 중 N4를 제안한다. 馴れる의 동물 길들이기와 구분한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_406",
+    "sourceHash": "1a5c06d7431a74fbb7b0837cf456c376e7d1bc4eae46491187fcd41030e8e702",
+    "level": "N3",
+    "dictionaryId": "jmdict-1357030",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “양보하다, 물려주다” 및 1개 sense를 대조했다. 자리와 음식 조각을 다른 사람에게 양보하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_407",
+    "sourceHash": "832736e51ff282c1ce85e32815607059a333518c6782370fc0f086492719d364",
+    "level": "N2",
+    "dictionaryId": "jmdict-1250700",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “존경하다” 및 1개 sense를 대조했다. 직인과 은사를 존경하는 마음을 표현한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_408",
+    "sourceHash": "7dafc46d3c043a58f033b48dcffdf19f1e8bbb540f492978f67723623bf05ff7",
+    "level": "N5",
+    "dictionaryId": "jmdict-1198180",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N2이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “만나다” 및 1개 sense를 대조했다. 교사를 만나거나 직접 만나 이야기를 하는 기본 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_409",
+    "sourceHash": "a47485ce61b9182b3fea08fdfa5359f573ac7fd48461cbc4c1705b197cb19fac",
+    "level": "N3",
+    "dictionaryId": "jmdict-1598530",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N1이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “우연히 마주치다” 및 1개 sense를 대조했다. 여행 중 사람이나 동물을 우연히 만나는 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "첫 예문은 会う(AbsoluteVerb_408)의 여행지에서 예전 선생님을 만나는 장면과 유사하다. 원문을 유지하고 한쪽 장면 개정을 별도로 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_410",
+    "sourceHash": "545f8bef083aaf9a1065af35ec33c3ea25a4f8f28590eec028c181a14daa94d5",
+    "level": "N2",
+    "dictionaryId": "jmdict-1597790",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “교제하다, 함께 행동하다” 및 1개 sense를 대조했다. 쇼핑과 산책에 동행하는 의미이다. 연인 교제 의미는 현재 예문에 없다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_412",
+    "sourceHash": "ed31f9b073234cd4e97a5fbc48bbff396419975f88696786f2cc7d0427fdb969",
+    "level": "N4",
+    "dictionaryId": "jmdict-1606590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “헤어지다” 및 1개 sense를 대조했다. 함께 있던 친구와 장소에서 헤어지는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_413",
+    "sourceHash": "d044106991884284db8e79dae7810379cb3daeb8a226cc8a7fa359e1d37c8f4c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1550380",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “배반하다” 및 1개 sense를 대조했다. 사람의 신뢰를 저버리는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_414",
+    "sourceHash": "0f611c65a14242ae1d5fe4575946b7ad214adbe9b8d7b1bf227fe4e7f6e01065",
+    "level": "N4",
+    "dictionaryId": "jmdict-1253190",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “마중 나가다” 및 1개 sense를 대조했다. 공항에서 마중하거나 숙소에서 손님을 맞이하는 두 장면이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 word 뜻의 마중 나가다는 숙소에서 손님을 맞이하는 두 번째 예문까지 포함하도록 마중하다·맞이하다로 넓히는 것이 정확하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_415",
+    "sourceHash": "bb3608499db67e2d10139b1ef74eaee7d51537f7a86615edc7691606124a31fe",
+    "level": "N2",
+    "dictionaryId": "jmdict-1259830",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “배웅하다, 보류하다” 및 1개 sense를 대조했다. 떠나는 배나 사람을 배웅하는 뜻을 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_416",
+    "sourceHash": "f9ff851013c77070f9bb564aee27aa15fddfe1f9008c47c99f463ed2906b9fdb",
+    "level": "N1",
+    "dictionaryId": "jmdict-1403760",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “촉구하다, 재촉하다” 및 1개 sense를 대조했다. 앞으로 가거나 발언하도록 행동을 재촉하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_417",
+    "sourceHash": "0095749efd30862aad13fd1532570d69ac9fe8e44e08b69c7f77980b93624183",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “강하게 재촉하다, 닦달하다” 및 1개 sense를 대조했다. 차량이나 사람을 강하게 재촉하는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "急き立てる의 사전 연결과 읽기 및 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_418",
+    "sourceHash": "c6f1da6669c24538ce96b1d933677b66cc81f92a86ece204f58118edfc67ac76",
+    "level": "N3",
+    "dictionaryId": "jmdict-1279680",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “상관하다, 마음을 쓰다” 및 1개 sense를 대조했다. 타인의 시선을 신경 쓰거나 나에게 마음을 쓰는 용법이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_419",
+    "sourceHash": "ac779f64024d67f81524f50673bbb9c48690320ba60a9079927c65d62ee5b277",
+    "level": "N3",
+    "dictionaryId": "jmdict-1194450",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(돈, 시간 등을) 벌다” 및 1개 sense를 대조했다. 노동으로 생활비와 구매 자금을 버는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_420",
+    "sourceHash": "2bb0d84767bfaaa36425b59e819d68ce0a671bf6d3e94885742ea78a647833df",
+    "level": "N2",
+    "dictionaryId": "jmdict-1534500",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(장사, 투자 등으로) 이익을 보다” 및 1개 sense를 대조했다. 투자와 장사를 통해 이익을 얻는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_423",
+    "sourceHash": "693e5c41a7786cd6fc9a4c4f43119be3ef1547b648cbc431a090678cf31c2ddb",
+    "level": "N5",
+    "dictionaryId": "jmdict-1512130",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “돌려주다, 갚다” 및 1개 sense를 대조했다. 빌린 우산과 책을 돌려주는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_424",
+    "sourceHash": "e6de7d653703e80187c6ff9397c113710b77464639351961bb96cc2c7ded5d57",
+    "level": "N2",
+    "dictionaryId": "jmdict-1544970",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “보관하다” 및 1개 sense를 대조했다. 고객의 외투나 부탁받은 상자를 맡아 보관하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "보관하다만으로는 타인에게 맡아 관리한다는 조건이 드러나지 않는다. 맡아 보관하다로 뜻을 명료화하는 것이 좋다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_426",
+    "sourceHash": "c961a1ed21b6377d08a3ac0c7c7b331ea9d038aa9af04f75a77290090f3e9a18",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “모으다” 및 1개 sense를 대조했다. 동전과 여행 경비를 모으는 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ためる의 금전을 모으는 의미에 대한 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_427",
+    "sourceHash": "c4993ec8b0098936a6a97b901527d2eb81d73f4070b57685b2d97a2993e93838",
+    "level": "N4",
+    "dictionaryId": "jmdict-1601660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “인출하다, 끌어내다” 및 1개 sense를 대조했다. 은행에서 돈을 인출하는 장면과 상자를 안쪽에서 꺼내는 장면을 함께 확인했다. 기본 인출·물리적 꺼냄에 근거하여 복수 출처 중 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_428",
+    "sourceHash": "2f352887c1eb1b90f2e601470292565599ed9273df911f16bb61d1a7c4e4d8a1",
+    "level": "N1",
+    "dictionaryId": "jmdict-1291100",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “공제하다” 및 1개 sense를 대조했다. 수익이나 입금액에서 비용과 세금을 빼는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_429",
+    "sourceHash": "fcac4550423af19b9b2559b3a47b97e5862863824c507ebf8739f4fad5916414",
+    "level": "N3",
+    "dictionaryId": "jmdict-1319750",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “잃다, 상실하다 (문어적)” 및 1개 sense를 대조했다. 신뢰와 자신감을 잃는 추상적 상실 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_432",
+    "sourceHash": "b9dc9066eb560816341a018395aa21f328dec40df825481b10dfec1c4048d1d6",
+    "level": "N4",
+    "dictionaryId": "jmdict-1589260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N1이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “떨어뜨리다, 분실하다” 및 1개 sense를 대조했다. 달걀과 휴대 전화를 아래로 떨어뜨리는 물리적 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

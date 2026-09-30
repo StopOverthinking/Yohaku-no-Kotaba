@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d77139f01e0ea4f0f797b50a9802a9b1965dda1633ba1e3a7bfb3e84e67c3982",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:23:59.508Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1002100",
+      "dd544ec989fd2baad7bd7d0959521998cd0d5c7ff9601c5c2a834538e32f4552"
+    ],
+    [
+      "lex-jmdict-1005930",
+      "1b665061667a6b941931d336906e088f020529239768d45eae28956c45b88ebb"
+    ],
+    [
+      "lex-jmdict-1021880",
+      "79e97d987b56ad7417af3a2f1765be1eb9e08ec987563ce478714701984308c6"
+    ],
+    [
+      "lex-jmdict-1022880",
+      "676e54c44eac708b30094f30e9b5252a4bc12f78f7649940170c3aae70e239f2"
+    ],
+    [
+      "lex-jmdict-1027180",
+      "4735725df5253925728de87699173b5d8480b13709ed057ea5e3e126ef6e5a21"
+    ],
+    [
+      "lex-jmdict-1032930",
+      "036c0a7533afbf741d72c5161e3fde3d1c4a0abf003cbd05cac188dfd1c8fb00"
+    ],
+    [
+      "lex-jmdict-1036340",
+      "723c5b0d68a7182cea55c96f3b258a314476dc45d8d25454683a7fc89ec5941c"
+    ],
+    [
+      "lex-jmdict-1036360",
+      "68b03c66cd100fd13d99fbc2c58bfbf2fa9e79f1ee3ffaf838fd7bc6c04ce2b0"
+    ],
+    [
+      "lex-jmdict-1038050",
+      "cdd48cfc13ec1af87b1302727849dfc1e5751f67ec52087d0e0785da714d97e1"
+    ],
+    [
+      "lex-jmdict-1040990",
+      "837f01439d7f62b1dfc7d9a83c5ace839d7bacc00c00a5f600a79f93e3cd922c"
+    ],
+    [
+      "lex-jmdict-1041870",
+      "203da4a138d07623767dcb8887d4f53013eb7f1273e98ab8dadebf6871897adc"
+    ],
+    [
+      "lex-jmdict-1042080",
+      "af6ad5e955728098b6930681563a71d3a56172a67fa74da4e707b4b79d5bce8e"
+    ],
+    [
+      "lex-jmdict-1048100",
+      "0f145b63c258848f623234f3f631c774a0af21deeabcad641851ad3386ab95dc"
+    ],
+    [
+      "lex-jmdict-1056700",
+      "736cd73c282873b86bcb368af51861d02ebbc79a174936ecf232d829fa9e251a"
+    ],
+    [
+      "lex-jmdict-1061930",
+      "30cb953a7d4f4317c0b30b3bd7cfcc8129f2d05933560a8c33141b1fff742b31"
+    ],
+    [
+      "lex-jmdict-1066930",
+      "5fcef091a58a7a12713bdc29f2fd766bfe30aa17e8abff47194e7def847b00bd"
+    ],
+    [
+      "lex-jmdict-1071680",
+      "08a6562e8c2f06e7fb9637d7c0464a1cc2382e7778a9c66696dc389c67a34e71"
+    ],
+    [
+      "lex-jmdict-1072080",
+      "131a84160182bd0b6a8f815e7740c291eaa8046ad1571a84091b686f58cf7396"
+    ],
+    [
+      "lex-jmdict-1075300",
+      "8845eb67834ca7c3e9636f634d21728fd1becd662a05c3eb3e46f4c5a5419d51"
+    ],
+    [
+      "lex-jmdict-1077720",
+      "487c3a12393c557f4b4794f9d65f89d7338c117441b5d7d10959c8c3e9c1d908"
+    ],
+    [
+      "lex-jmdict-1078160",
+      "7e0f5517124fdea19efa38a3bc8c31a2dc88b003dfa19006feea03b1f2a01904"
+    ],
+    [
+      "lex-jmdict-1078270",
+      "8dc381b020dc24b47a9dfc4114fcd834759511de589d6eeb06b9b790e5efc566"
+    ],
+    [
+      "lex-jmdict-1079090",
+      "c1eeccfad311d00193c14e31db0d8dcb35a6634ddfe44ad3a60c5f95eb3b0791"
+    ],
+    [
+      "lex-jmdict-1085420",
+      "b96a91085400ae18eb6e8616eeed9f261fe3d72a6624e7e305deb7ce638c37a9"
+    ],
+    [
+      "lex-jmdict-1099420",
+      "ac5bdf14d49cfb0b8d2219da90c03bcee83aacfc6101c27ed893351998a411e5"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1036340",
+      "category": "substantive",
+      "note": "기존 우산을 챙기는 문장과 유사해 단추 분실 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1038050",
+      "category": "substantive",
+      "note": "기존 친구 기다리기 문장과 유사해 가게 음식 평가 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1042080",
+      "category": "substantive",
+      "note": "기존 냉장고 물건 수 세기와 유사해 선물 받은 장면으로 교체했다."
+    }
+  ]
+}

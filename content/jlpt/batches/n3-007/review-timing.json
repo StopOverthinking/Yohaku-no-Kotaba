@@ -1,0 +1,88 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T04:01:27.285Z",
+    "completedAt": "2026-09-30T04:02:32.883Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 3,
+    "correctionBreakdown": {
+      "substantive": 3,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7140,
+      "comparisons": 144262,
+      "newPairs": [],
+      "allPairs": 0
+    },
+    "note": "유사도 검사 후 帯 한국어 번역만 교정했으며 일본어 문장은 불변."
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T04:07:12.330Z",
+    "completedAt": "2026-09-30T04:08:16.784Z",
+    "checkedWords": 25,
+    "checkedExamples": 26,
+    "acceptedWords": 25,
+    "acceptedExamples": 26,
+    "correctedItems": 3,
+    "correctionBreakdown": {
+      "substantive": 1,
+      "clarity": 2,
+      "formattingOnly": 0
+    },
+    "additionalUsageExamples": 1,
+    "similarity": {
+      "corpusExamples": 7191,
+      "comparisons": 146547,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T04:09:12.014Z",
+    "completedAt": "2026-09-30T04:09:57.050Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 25,
+    "acceptedExamples": 25,
+    "heldWords": 0,
+    "correctedItems": 1,
+    "correctionBreakdown": {
+      "substantive": 0,
+      "clarity": 1,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7241,
+      "comparisons": 149094,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T04:11:15.417Z",
+    "completedAt": "2026-09-30T04:12:06.198Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 25,
+    "acceptedExamples": 25,
+    "heldWords": 0,
+    "correctedItems": 2,
+    "correctionBreakdown": {
+      "substantive": 2,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7291,
+      "comparisons": 151200,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

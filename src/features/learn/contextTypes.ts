@@ -22,6 +22,12 @@ export type LearnSense = {
   examples: LearnExample[]
 }
 
+/** Scheduling metadata; sentence text can be fetched separately for the visible card. */
+export type LearnExampleIndex = Pick<LearnExample, 'id' | 'version' | 'difficulty' | 'status'>
+export type LearnSenseIndex = Pick<LearnSense, 'id' | 'wordId' | 'version' | 'review'> & {
+  examples: LearnExampleIndex[]
+}
+
 export type ReviewProfile = {
   senseId: string
   version: number
@@ -38,6 +44,17 @@ export type ReviewProfile = {
 }
 
 export type LearnerLevel = { value: number; assessedWordIds: string[] }
+export type ContextAliasGroup = {
+  id: string
+  representativeWordId: string
+  members: Array<{ wordId: string; senseId: string; version: number }>
+}
+export type ContextAliasMigration = {
+  group: ContextAliasGroup
+  day: string
+  profiles: Record<string, ReviewProfile>
+  level: LearnerLevel
+}
 export type ContextCard = { senseId: string; senseVersion: number; exampleId: string; exampleVersion: number }
 export type ContextSession = {
   id: string
@@ -67,8 +84,23 @@ export type ContextUndo = {
   profileKey: string
   profile: ReviewProfile | null
 }
+export type ScoreChange = { before: number; after: number; completedAt: string }
+export type ContextResult = {
+  setId: string
+  setName: string
+  totalTargetCount: number
+  rounds: number
+  revisitedCount: number
+  favoriteCount: number
+  completedAt: string
+  score: ScoreChange
+}
+
 export type ContextState = {
-  version: 2
+  lastScoreChange?: ScoreChange
+  version: 2 | 3
+  aliasMigrations?: Record<string, ContextAliasMigration>
+  scheduleVersion: 2
   revision: number
   level: LearnerLevel
   profiles: Record<string, ReviewProfile>

@@ -1,0 +1,69 @@
+{
+  "status": "identified; no revision proposed or applied",
+  "identifiedAt": "2026-09-30T05:44:14.576Z",
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "items": [
+    {
+      "wordId": "AbsoluteVerb_641",
+      "japanese": "準備する",
+      "senseId": "sense-AbsoluteVerb_641-1",
+      "exampleId": "sense-AbsoluteVerb_641-1-ex-1",
+      "version": 1,
+      "example": {
+        "id": "sense-AbsoluteVerb_641-1-ex-1",
+        "version": 1,
+        "before": "停電に備えて、懐中電灯を",
+        "answer": "準備した",
+        "after": "。",
+        "reading": "じゅんびした",
+        "translation": "정전에 대비해 손전등을 준비했다.",
+        "translationTarget": "준비했다",
+        "difficulty": 18,
+        "status": "reviewed"
+      },
+      "reason": "정전에 대비하여 손전등을 준비·구입·배치하는 장면이 서로 반복된다. 기존 원본을 보존하고 별도 개정 제안이 필요하다."
+    },
+    {
+      "wordId": "AbsoluteVerb_572",
+      "japanese": "備える",
+      "senseId": "sense-AbsoluteVerb_572-1",
+      "exampleId": "sense-AbsoluteVerb_572-1-ex-1",
+      "version": 1,
+      "example": {
+        "id": "sense-AbsoluteVerb_572-1-ex-1",
+        "version": 1,
+        "before": "停電に",
+        "answer": "備えて",
+        "after": "、懐中電灯を買った。",
+        "reading": "そなえて",
+        "translation": "정전에 대비해서 손전등을 샀다.",
+        "translationTarget": "대비해서",
+        "difficulty": 34,
+        "status": "reviewed"
+      },
+      "reason": "정전에 대비하여 손전등을 준비·구입·배치하는 장면이 서로 반복된다. 기존 원본을 보존하고 별도 개정 제안이 필요하다."
+    },
+    {
+      "wordId": "JLPTN3_408",
+      "japanese": "停電",
+      "senseId": "sense-JLPTN3_408-1",
+      "exampleId": "sense-JLPTN3_408-1-ex-2",
+      "version": 1,
+      "example": {
+        "id": "sense-JLPTN3_408-1-ex-2",
+        "version": 1,
+        "before": "夜の",
+        "answer": "停電",
+        "after": "に備えて、懐中電灯を枕元に置いた。",
+        "reading": "ていでん",
+        "translation": "밤의 정전에 대비해 손전등을 머리맡에 놓았다.",
+        "translationTarget": "정전",
+        "difficulty": 33,
+        "status": "reviewed"
+      },
+      "reason": "정전에 대비하여 손전등을 준비·구입·배치하는 장면이 서로 반복된다. 기존 원본을 보존하고 별도 개정 제안이 필요하다."
+    }
+  ]
+}

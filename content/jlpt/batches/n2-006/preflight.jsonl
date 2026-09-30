@@ -1,0 +1,4 @@
+{"at":"2026-09-30T06:15:54.409Z","batch":"n2-006","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":149.7295,"issues":[]}
+{"at":"2026-09-30T06:17:28.976Z","batch":"n2-006","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":148.5043,"issues":[]}
+{"at":"2026-09-30T06:17:30.619Z","batch":"n2-006","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":1007.8818000000001,"issues":[]}
+{"at":"2026-09-30T06:20:02.981Z","batch":"n2-006","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":971.9395,"issues":[]}

@@ -1,0 +1,20 @@
+{
+  "scope": "practical-only",
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1234340",
+      "japanese": "共稼ぎ",
+      "reason": "같은 부부 맞벌이 뜻의 共働きを 선택했으므로 의미 중복 표제어를 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1241480",
+      "japanese": "禁ずる",
+      "reason": "이미 선택한 禁じる의 의미가 같은 활용 변형으로 별도 표제어를 늘리지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1238240",
+      "japanese": "興業",
+      "reason": "실제 뜻은 산업 진흥·사업 개시이며 공연 興行와 다르다. 현재 일반 실용 독해에서 우선순위가 낮아 보류한다."
+    }
+  ]
+}

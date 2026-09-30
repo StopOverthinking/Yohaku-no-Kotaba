@@ -1,0 +1,17 @@
+[
+  {
+    "wordId": "lex-jmdict-1026070",
+    "category": "substantive",
+    "note": "옷의 허리 부분 용법을 대표뜻과 힌트에 포함하고 한국어의 어색한 둘레가 꽉 낀다는 표현을 수정했다."
+  },
+  {
+    "wordId": "lex-jmdict-1031800",
+    "category": "substantive",
+    "note": "作ってもらった의 제작 완료 의미를 한국어에 반영했다."
+  },
+  {
+    "wordId": "lex-jmdict-1035040",
+    "category": "substantive",
+    "note": "공항까지 데려다주는 이동을 픽업으로 옮긴 방향 오류를 수정했다."
+  }
+]

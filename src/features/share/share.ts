@@ -14,6 +14,10 @@ const EXCLUDED_SHARE_KEYS = new Set([
   'jsp-react:debug-date',
 ])
 
+function isRemovedStorageKey(key: string) {
+  return EXCLUDED_SHARE_KEYS.has(key) || /^jsp-react:(exam-|conjugation-|game-|learn-session$)/.test(key)
+}
+
 type StorageLike = Pick<Storage, 'getItem' | 'key' | 'length'>
 type WritableStorageLike = Pick<Storage, 'getItem' | 'setItem' | 'removeItem' | 'key' | 'length'>
 type RestoreMetadata = {
@@ -69,16 +73,6 @@ export type QrImportSession = {
   encoding: QrTransferEncoding
   chunks: Array<string | null>
 }
-
-const legacyKeyMap = {
-  japaneseAppNickname: 'jsp-react:game-player-name',
-  speedQuizPlayerMMR: 'jsp-react:game-mmr-objective',
-  speedQuizPlayerMMR_subjective: 'jsp-react:game-mmr-pronunciation',
-  speedQuizRecords: 'jsp-react:game-records-objective',
-  speedQuizRecords_subjective: 'jsp-react:game-records-pronunciation',
-  speedQuizBotHistory: 'jsp-react:game-bot-history-objective',
-  speedQuizBotHistory_subjective: 'jsp-react:game-bot-history-pronunciation',
-} as const
 
 function resolveStorage(storage?: StorageLike) {
   if (storage) return storage
@@ -258,7 +252,7 @@ function normalizeLegacyEntries(rawData: Record<string, unknown>) {
 
   for (const [key, value] of Object.entries(rawData)) {
     if (key.startsWith(SHARE_STORAGE_PREFIX)) {
-      if (EXCLUDED_SHARE_KEYS.has(key)) {
+      if (isRemovedStorageKey(key)) {
         continue
       }
       mapped[key] = sanitizeShareEntry(key, toStorageString(value))
@@ -277,26 +271,7 @@ function normalizeLegacyEntries(rawData: Record<string, unknown>) {
       continue
     }
 
-    if (key === 'japaneseAppExamWrongAnswers') {
-      const wrongAnswers = readStoredArray(value)
-      if (wrongAnswers) {
-        mapped['jsp-react:exam-wrong-answer-ids'] = JSON.stringify(
-          uniqueStrings(
-            wrongAnswers.map((entry) => {
-              if (typeof entry === 'string') return entry
-              if (isRecord(entry) && typeof entry.id === 'string') return entry.id
-              return null
-            }),
-          ),
-        )
-      }
-      continue
-    }
 
-    const reactKey = legacyKeyMap[key as keyof typeof legacyKeyMap]
-    if (reactKey) {
-      mapped[reactKey] = toStorageString(value)
-    }
   }
 
   return mapped
@@ -308,7 +283,7 @@ export function getShareStorageKeys(storage?: StorageLike) {
 
   for (let index = 0; index < target.length; index += 1) {
     const key = target.key(index)
-    if (key?.startsWith(SHARE_STORAGE_PREFIX) && !EXCLUDED_SHARE_KEYS.has(key)) {
+    if (key?.startsWith(SHARE_STORAGE_PREFIX) && !isRemovedStorageKey(key)) {
       keys.push(key)
     }
   }

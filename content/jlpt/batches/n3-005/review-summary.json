@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "completedFiles": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "reviewedWords": 120,
+  "reviewedExamples": 244,
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "individualReview": "Dictionary, reading/POS, representative N3 usage, Japanese/Korean examples, hints, contrasts and scene variety. AI editorial review, not human expert review.",
+  "preservedPublishedWords": 1391,
+  "publishedHashChanges": 0,
+  "finalWholeCorpusSimilarity": {
+    "corpusExamples": 6943,
+    "comparisons": 135173,
+    "newPairs": [],
+    "allPairs": 0
+  },
+  "savedAt": "2026-09-30T03:43:04.382Z",
+  "policy": "Existing 01/02 retain three examples per word; newly written 03/04 use one representative example plus important distinct usages where needed."
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "cf8eedd09cdf04db164b425c80079beee50b696bf775d93cf2422e6672ff1862",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:54:54.497Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1244180",
+      "c10e9e6ffc7fb3cc4370c9eaf27ead84ac208e23d7c8dc51be8c726e8073ac90"
+    ],
+    [
+      "lex-jmdict-1244360",
+      "fd86d5f1d33dcc60ecab8be9f2ad6b08e6496b3b80c90de3c6775b19be9de03e"
+    ],
+    [
+      "lex-jmdict-1244800",
+      "b49a5b1f6760c25377041c746bf98efcb985b7c969c7f994de8c94487b30add3"
+    ],
+    [
+      "lex-jmdict-1245100",
+      "d2c6362bc124f38ddda575082bb5dae13a2f37f38078087ece7430d0902b981d"
+    ],
+    [
+      "lex-jmdict-1245170",
+      "d57507fc63ef61da59ab293d3aa49fe202d46435ac6f33cec8f5995f0f2d71da"
+    ],
+    [
+      "lex-jmdict-1245370",
+      "4ddca9de31ca499310dfb7e6a91f6fd607a3c080121fc810bb564f38fa87750b"
+    ],
+    [
+      "lex-jmdict-1246620",
+      "3be9d42d2f8fac86c241efc94f834c3efbf6a3d2718624c08994cc5bd2c49353"
+    ],
+    [
+      "lex-jmdict-1247290",
+      "e2e47c7ebc246c3dbb222851dd2d05515881e63ac5fca044cb30a4627b05f8a9"
+    ],
+    [
+      "lex-jmdict-1247500",
+      "7066529c60d5e8c4030e5e1af85b8074326c3e368d532a69fa8c854ad4fcbd0a"
+    ],
+    [
+      "lex-jmdict-1248080",
+      "d3eead0aaa3eb144c494327263c2b1c099836ffb28b1220dae9e2b441c1efa55"
+    ],
+    [
+      "lex-jmdict-1248870",
+      "615e7f87ea35d7b51ba8b72d65305263df9d4ad7f75d97ed2e33fdfb0498c59b"
+    ],
+    [
+      "lex-jmdict-1249500",
+      "80447578d4a88d9a0282397563fdf859a92f63f3aa3ce014314177579b1307d9"
+    ],
+    [
+      "lex-jmdict-1249780",
+      "1e3b8d8f21de6d06aff301ffd05f312fde04d3ebf0d1b464b073c98c2a8bdc21"
+    ],
+    [
+      "lex-jmdict-1250180",
+      "ee8dcff22726c8445acf993dee26bd13004ca1ad1a9b351242185529a031ee30"
+    ],
+    [
+      "lex-jmdict-1250350",
+      "1d59637c1516748ce013ecde61f7113e310465fd10743b0ef0f2c2b44a0c38b8"
+    ],
+    [
+      "lex-jmdict-1250360",
+      "2e86032d6732642e771b1e61b647de15c0147c38775c692c7e723c5f60c8691c"
+    ],
+    [
+      "lex-jmdict-1250390",
+      "d41be6381569889706b2de5e473a9dddbbd938f16469d4b52720294454a3f415"
+    ],
+    [
+      "lex-jmdict-1250470",
+      "9adae605d591cc97893d8fa6a7afc7c4dfadd3638a55c1b32e88e480c7fbb4a4"
+    ],
+    [
+      "lex-jmdict-1250600",
+      "3959df893a9a13f50c1d0b0218ad55f898f591ff023f84a5667dd0978febd68f"
+    ],
+    [
+      "lex-jmdict-1250610",
+      "fa401a02403d55235d435ce8873acf8f00ce2e6f9e35096808380a08b8656455"
+    ],
+    [
+      "lex-jmdict-1250660",
+      "2732eb70a68d33f64826a62fb09142fc0c4c93897f4ee36c6d9a5f9e22b16c82"
+    ],
+    [
+      "lex-jmdict-1250680",
+      "93b72b70db8938580c71722f7e13ee1376bb010e68eb628bb7ef3351660964cd"
+    ],
+    [
+      "lex-jmdict-1251110",
+      "845fb942e27381519cb614e65dd2046677caa02f7ec1b3cad9fa73521741134a"
+    ],
+    [
+      "lex-jmdict-1251250",
+      "3f9253c288b667e68a16d06f7b7f20d80875fa554dc219c08902894c341b54b9"
+    ],
+    [
+      "lex-jmdict-1246000",
+      "64e5413e9bf890c8183918276b29ce63b16bcc61d3401bfc44c8edfe176c4382"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1244800",
+      "category": "substantive",
+      "note": "駆け足의 실제 달리기 의미가 빠른 걷기로 오해되지 않도록 대표뜻을 고쳤다."
+    }
+  ]
+}

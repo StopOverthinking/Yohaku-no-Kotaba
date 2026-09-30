@@ -1,0 +1,342 @@
+[
+  {
+    "wordId": "AbsoluteVerb_433",
+    "sourceHash": "b9fe6418c2a703aa046b3b860c7ba13c3d26b1591fbccf9bdd26020c70ec0646",
+    "level": "N4",
+    "dictionaryId": "jmdict-1593670",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “찾다” 및 1개 sense를 대조했다. 지갑과 가게를 찾는 기본 탐색 의미로 복수 등급 중 N4를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_434",
+    "sourceHash": "8904b8edb2af7df7eb0af9de7b9e884126832a6dc3eccb1fdce3273eb5d4754f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1418260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “살피다, 더듬어 찾다” 및 1개 sense를 대조했다. 어둠 속이나 주머니 안에서 손으로 더듬어 찾는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_435",
+    "sourceHash": "401604d878e344cb743bff239fae6a3c44f4fd6fc769e04b4e8d32d29eeb36d0",
+    "level": "N4",
+    "dictionaryId": "jmdict-1529550",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “없어지다, 다 떨어지다” 및 1개 sense를 대조했다. 우유와 잉크가 다 떨어지는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_436",
+    "sourceHash": "c6436de8347ee04ee9299b4795507afca14e7ecc561e4e873ad218cbebf0f81b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “잃다, 없애다 (일상적)” 및 1개 sense를 대조했다. 장갑과 종이를 잃어버리는 뜻이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "なくす의 분실 의미 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_437",
+    "sourceHash": "09253ab80522a2fe294e12d951430583ae386b2976d9a1bfa601ba83cdedaa3b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1588760",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “얻다” 및 1개 sense를 대조했다. 경험과 허가를 얻는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_438",
+    "sourceHash": "c10046f267ebfe239d08837159d19b22f0116483442c36012732c1d38c899087",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “정리되다, 한데 모이다” 및 1개 sense를 대조했다. 의견이나 생각이 정리되는 자동사 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "まとまる의 정리되다 의미 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_439",
+    "sourceHash": "ba09f4d8848b4fae3fad8a7bcbb4ce50816e336d9dbef8c1d80a7293dcba8127",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “정리하다, 한데 모으다” 및 1개 sense를 대조했다. 의견을 정리하고 질문을 한데 모으는 타동사 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "まとめる의 정리하다 의미 사전 연결을 확인해야 한다. 한자 표기 纏める와의 사전 동일성도 확인 대상이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_440",
+    "sourceHash": "b360fca7d6d24e82b51c3c09a45626981e53fa964ae28373b44e96ca998afc9b",
+    "level": "N2",
+    "dictionaryId": "jmdict-1511770",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “정돈되다, 정리되다” 및 1개 sense를 대조했다. 창고와 책상이 정돈되는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_441",
+    "sourceHash": "70b5d5e45c042406c7bd0f86c1625040f0b283f38d1f0e60c3e615c807eed18e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1511790",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “정돈하다, 치우다” 및 1개 sense를 대조했다. 장난감과 접시를 치우는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_442",
+    "sourceHash": "7363b0ae18ba4f9a2c739b020e17536a160c2e38608f40f3a7ab52eb5cb7448a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1406110",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “구비되다, 다 모이다” 및 1개 sense를 대조했다. 사람과 재료가 모두 모여 갖춰지는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_443",
+    "sourceHash": "c07e8f8d53a71a9344c7c62380ec6d99255731f9641a7125a9cc130e60be97d9",
+    "level": "N2",
+    "dictionaryId": "jmdict-1406120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “가지런히 하다, 모두 갖추다” 및 1개 sense를 대조했다. 필요한 등산 도구나 서류를 모두 갖추는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_444",
+    "sourceHash": "176cb4d14f7d68768abf2454e4021dd4fd1ade5d8097961e030745e07b22c1e6",
+    "level": "N2",
+    "dictionaryId": "jmdict-1303430",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “어질러지다, 흩어지다” 및 1개 sense를 대조했다. 방과 책상이 어질러진 상태를 표현한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_445",
+    "sourceHash": "b3355d93b0bfe4a1a28a8a3998eb08773f5858c9dc8ead2f0043f99cc19a55d2",
+    "level": "N2",
+    "dictionaryId": "jmdict-1303420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “어지르다, 흩뜨리다” 및 1개 sense를 대조했다. 고양이나 사람이 종이와 방을 어지르는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_446",
+    "sourceHash": "ce5920778ea5a110eec5b47b4b356b481710db7b89a9417cd428be7f0feec997",
+    "level": "N4",
+    "dictionaryId": "jmdict-1333550",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N1이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “모이다” 및 1개 sense를 대조했다. 관광객과 일행이 한곳에 모이는 기본 뜻을 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_447",
+    "sourceHash": "8a073293af752b9d7d21e869f207ed2e2bf948af3daf7b3da1b6c0b631f1dc50",
+    "level": "N4",
+    "dictionaryId": "jmdict-1333560",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “모으다” 및 1개 sense를 대조했다. 낙엽과 의견을 모으는 기본 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_448",
+    "sourceHash": "eb5f2b4a98de7471ee1ae9c26325e8362fb0707e08e0dbf9b6c1a0d7e878818f",
+    "level": "N5",
+    "dictionaryId": "jmdict-1307500",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “시작되다” 및 1개 sense를 대조했다. 영화와 공사가 시작되는 기본 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_449",
+    "sourceHash": "4689305f0d39f1535f700c2fbf901f4174367962d1beefde6a4af751ce9aa967",
+    "level": "N4",
+    "dictionaryId": "jmdict-1307550",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “시작하다” 및 1개 sense를 대조했다. 피아노와 녹음을 시작하는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_450",
+    "sourceHash": "929b6945e5eeed98c01af9baf86bb9e627ef6aac7493b69fb63347500e48a3bc",
+    "level": "N5",
+    "dictionaryId": "jmdict-1589600",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “끝나다” 및 1개 sense를 대조했다. 영화와 공사가 끝나는 기본 자동사 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_451",
+    "sourceHash": "07de835ff3bd145c26997e6f9d924a408874474d315d94400855c2f2c39c5b6a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1332760",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “끝내다” 및 1개 sense를 대조했다. 발표와 점검을 끝내는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_452",
+    "sourceHash": "202ffad8af36a1ebbec36bd600ce3a360513b196678179244e2840950b9d24df",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “치우다” 및 1개 sense를 대조했다. 옷과 도구를 정해진 보관 장소에 넣어 두는 의미이다. 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "しまう의 넣어 보관하다 의미 사전 연결이 필요하다. 완료 보조동사 용법과 분리해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_453",
+    "sourceHash": "d0c53de3c2f3dcbbde544bfe532dbdce5b6085febf835ea3d6330c5914cb15f2",
+    "level": "N2",
+    "dictionaryId": "jmdict-1305130",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “완성되다” 및 1개 sense를 대조했다. 옷과 선반 제작이 완성되는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_454",
+    "sourceHash": "7fd1804d7b30e08d88d665bf8fe611c7b82be8485e1b7b7a7a39b6c1218d52fc",
+    "level": "N1",
+    "dictionaryId": "jmdict-1305140",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “완성하다” 및 1개 sense를 대조했다. 그림과 세부 작업을 마지막까지 완성하는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_455",
+    "sourceHash": "2e5d3dfc83bdb4c02b89b61a8a79dfd76a8ae2d6c7d1c7e41499f8480e0fc613",
+    "level": "N2",
+    "dictionaryId": "jmdict-1340610",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “다 만들어지다, 완성되다” 및 1개 sense를 대조했다. 반지와 모형 제작이 완료되는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_456",
+    "sourceHash": "fab2d819bf02495468d8690f467fe0d06c5a06340ed05a462d6e32cb8c867863",
+    "level": "N4",
+    "dictionaryId": "jmdict-1295070",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “끝나다, 해결되다” 및 1개 sense를 대조했다. 지불과 볼일이 끝나는 기본 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_457",
+    "sourceHash": "1193cdbb1c94385265415fbb42001d15ad87e28ebe807a8836e90930aa4a61d7",
+    "level": "N3",
+    "dictionaryId": "jmdict-1295040",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “끝내다, 해결하다” 및 1개 sense를 대조했다. 쇼핑과 지불을 끝내는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_458",
+    "sourceHash": "0e06c6a231381e44421f8733834b57592a3d2a50f4229f35f60a546a4e95e96e",
+    "level": "N5",
+    "dictionaryId": "jmdict-1548370",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “부탁하다” 및 1개 sense를 대조했다. 이웃이나 다른 사람에게 일을 부탁하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_459",
+    "sourceHash": "a3e9c8db9e61cf3290f77e9bc3274a46cdfe2dd51bcca625a231a00fd6754686",
+    "level": "N4",
+    "dictionaryId": "jmdict-1328190",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “돕다, 거들다” 및 1개 sense를 대조했다. 설거지와 선반 이동을 거드는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_460",
+    "sourceHash": "686da77519fa724ca9b21d463814fed715fafed7ad5438704de1e8161173c742",
+    "level": "N2",
+    "dictionaryId": "jmdict-1344380",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “도움이 되다, 구조되다” 및 1개 sense를 대조했다. 상대의 행동으로 내가 수고를 덜거나 도움을 받는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 sense는 도움을 받는 주체의 표현인데 word 뜻 도움이 되다는 도움을 주는 대상의 유용성으로 읽힐 수 있다. 도움을 받다·수고를 덜다로 뜻을 명료화하는 것이 좋다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_462",
+    "sourceHash": "3ab32a94c689442e1c2198172bf5dd608a4c42f51c6fbeae4acc316fcc93d06c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1229060",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “구하다, 살리다” 및 1개 sense를 대조했다. 위험에서 구조하는 장면과 말로 마음의 고통에서 구하는 장면 모두 사전의 구조·구제 의미에 포함된다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_463",
+    "sourceHash": "85d6f6597aff5ae213584bcd1446927591d0ceeea0fbd97570c45015522a0c28",
+    "level": "N1",
+    "dictionaryId": "jmdict-1538090",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “유용하다, 도움이 되다” 및 1개 sense를 대조했다. 경험과 지도가 쓸모가 있거나 도움이 되는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

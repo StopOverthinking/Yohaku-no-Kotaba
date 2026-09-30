@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "bc741e136873a53f1279d7a0cf240b990f4ff8e613687d4b615bf7ee2958c873",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:25:27.609Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1297800",
+      "11f1115a4f6675d85469f614b33f575dc750cfaeadff465b373494294952dc89"
+    ],
+    [
+      "lex-jmdict-1298000",
+      "f17a68a215e21a2a88df89b2f85208e1d5bfa62a70e734b49dc718416ac60dd2"
+    ],
+    [
+      "lex-jmdict-1298110",
+      "9b01c57dac617e7026c646f1259a43ac84fc6e2017bc8491ee1a58b33e1648e8"
+    ],
+    [
+      "lex-jmdict-1298250",
+      "b0652b9748d1bdca01186d7c101ee0d71b168ff516c9717330eb287f890f92f9"
+    ],
+    [
+      "lex-jmdict-1298260",
+      "a0b19bcc700669639e0fb5a84a851b24860a3ae681f269484c4ee315a8757167"
+    ],
+    [
+      "lex-jmdict-1298400",
+      "487ab2a2ad5cca573555fc808592dcdab9c75496e512f9e7c88c7ae57ca564ae"
+    ],
+    [
+      "lex-jmdict-1298740",
+      "ed7d8bf54052f91ddd37f1f7c561e7d9b825017c8277397c52edfaa910a11912"
+    ],
+    [
+      "lex-jmdict-1299100",
+      "767f9ef1256a875e7a88b30ee85b034f04b53497736aaee7ca307ce2afbfea30"
+    ],
+    [
+      "lex-jmdict-1299240",
+      "e8b907773b0d63b984d695f9dcf287369c277c8d40e11c2345d61e6fe4572f21"
+    ],
+    [
+      "lex-jmdict-1299290",
+      "7fb797a342d13768e9cdaa7bf9e445d8c9aef5612a29fc805308988d458e29b3"
+    ],
+    [
+      "lex-jmdict-1299480",
+      "65fc636a2362472a2053c7b2fdbd4faeea72a63a084c5efab208cc852f86bf36"
+    ],
+    [
+      "lex-jmdict-1302210",
+      "efc9b48289039c0e1b381dfdb97ee89113ca5947da010c8df5c9c40a543c2d9b"
+    ],
+    [
+      "lex-jmdict-1302410",
+      "e1f1880febb9f56368ebecfafd6f4b96a3fc95bae24655a09131dc56349e8092"
+    ],
+    [
+      "lex-jmdict-1303190",
+      "74ca8dc1f475bc78f30604c2ad61f0b1664658ac6af5b280ea8af76ea9614c49"
+    ],
+    [
+      "lex-jmdict-1303280",
+      "33bb5501ee153ce6c0ef4ad4132a6cbf5c16f7b2398c34f59f57446dbaf81fd2"
+    ],
+    [
+      "lex-jmdict-1303650",
+      "c495520943fe4ecb26526c2b5d1d2d91b17139ae32588d1280472bee1dff7005"
+    ],
+    [
+      "lex-jmdict-1303760",
+      "a441ffe3553471572e205f6b3a3d41a957b2768d305763a5bbae80e0587d3c6d"
+    ],
+    [
+      "lex-jmdict-1303790",
+      "4c75ad05dd3ad395b8c267aa575876d0ff4f69eae913acd74574cddc8ad3c6e3"
+    ],
+    [
+      "lex-jmdict-1303850",
+      "927b03e7d6018fab864e6c7c26ab07052631c44f717f710e3f4d71d54669428c"
+    ],
+    [
+      "lex-jmdict-1303870",
+      "390aa90353bc75c65efe8bf34ba79993e35ac7678069c7826abcba38df366519"
+    ],
+    [
+      "lex-jmdict-1304240",
+      "eef6a6f2b986e68066a08b3e094f2a79cd640c5a276b8bdaec1fbf935e7cd085"
+    ],
+    [
+      "lex-jmdict-1304590",
+      "3338682b4013444a4bff9559e59aa7fcc3b0253610ceb9ba267a2d1d9a1132cf"
+    ],
+    [
+      "lex-jmdict-1304600",
+      "4408907f7b45b498bb5eb82b414bd06798efc337ceb361d531a42b42bf94fe92"
+    ],
+    [
+      "lex-jmdict-1304820",
+      "e5f6ea376fc5d115687daa021cad8d7864a41ce891d158a430b53a0bf40b6c9d"
+    ],
+    [
+      "lex-jmdict-1305120",
+      "6fe9831a5c3d8c513ce2c9ac673e7c04b72ce4955e720664a0a6338b813803a9"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1298260",
+      "category": "clarity",
+      "note": "서예의 특정 획을 가리키는 드문 뜻을 붓놀림 일반으로 넓히지 않도록 고쳤다."
+    },
+    {
+      "wordId": "lex-jmdict-1303760",
+      "category": "clarity",
+      "note": "선택하지 않은 부친 휴가의 사전 설명을 제거하고 출산 전후 휴가와 육아 휴직의 대비에 집중했다."
+    }
+  ]
+}

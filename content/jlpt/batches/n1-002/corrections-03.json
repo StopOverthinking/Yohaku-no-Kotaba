@@ -1,0 +1,12 @@
+[
+  {
+    "wordId": "lex-jmdict-1202880",
+    "category": "substantive",
+    "note": "자원을 만든다는 설명을 자원을 이용 가능하게 한다는 뜻으로 수정함."
+  },
+  {
+    "wordId": "lex-jmdict-1200880",
+    "category": "clarity",
+    "note": "校舎의 교사 번역을 학교 건물로 풀어 직업명과의 동음이의 혼동을 줄임."
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "c4ff1010ed9cb6bdd99917d4a2a4df82bb11e31867599f2859b558f2fd127923",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:09:11.944Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1046170",
+      "a82d16e97d6f135265e97abd6e1316c5e61773120be53bf2062657ef635314b2"
+    ],
+    [
+      "lex-jmdict-1046540",
+      "9cd701f11e2a07230318177c7b85d3c812aae5109c64dfcf133741dc55e1a5d3"
+    ],
+    [
+      "lex-jmdict-1047220",
+      "305c29ee3603175b06d270ec5110f2e94aeea60ced66145e88e4917320321ea9"
+    ],
+    [
+      "lex-jmdict-1047470",
+      "40586f85478da98fa9bc97c1ca6536a32c03ad96d396ff2379403a97cca38a17"
+    ],
+    [
+      "lex-jmdict-1048000",
+      "07e96816bd807e4abf8612d192e194b9d7cb1eefabff0605f883e994a5488cbb"
+    ],
+    [
+      "lex-jmdict-1048330",
+      "32fd09d6631b2ad01fe7da340b277ed2838c23374dcbdd9873608ae200e1da0a"
+    ],
+    [
+      "lex-jmdict-1048450",
+      "704f0986e896efa2db28e805270acb7c0f945eb2957bad8fc4d97268575d163d"
+    ],
+    [
+      "lex-jmdict-1048740",
+      "45c345de51fcb50c21d1dbf4975485d0c85bd84663df83f31c86fe1507040e9f"
+    ],
+    [
+      "lex-jmdict-1048860",
+      "7d2d87eadb41511c846dc0a1da94d27663c5d6b984effe0199ff8697c83fe84f"
+    ],
+    [
+      "lex-jmdict-1049900",
+      "3b9fa5791250a6d35a6d75c0b7e8359e325b2ffe40ec2ecdf875ab55d8bcd637"
+    ],
+    [
+      "lex-jmdict-1050410",
+      "d421948ae2ceda80d7e2bedb2462323c911e404e014b4211e906d1c97d7c9d38"
+    ],
+    [
+      "lex-jmdict-1051200",
+      "506d19a758696b0f26cf63d79fb38ce110fd1c9b0306d86b6933c68c56e4dba9"
+    ],
+    [
+      "lex-jmdict-1051690",
+      "498fa7182566f2fc51a0d48579a0e3fa0a6b12fc4de7741eab43b3a7dcb0c654"
+    ],
+    [
+      "lex-jmdict-1052420",
+      "2fae5cb5367dfce492dbe4fe95594817b7c47a0c3d55a9434fccb345f3507cb5"
+    ],
+    [
+      "lex-jmdict-1052820",
+      "bce68d3c74ba2b99506e7887287da6cc38e37b31ea80a63492f5a5e8f9009683"
+    ],
+    [
+      "lex-jmdict-1054110",
+      "c2a0ae66917d4dd913a183a2f872d962bb71107aeb247feb5762613443c46387"
+    ],
+    [
+      "lex-jmdict-1054250",
+      "4fa4d6b855fc6e0031ad1987a0f5912d22edea4f1a226fcecb82ac344cfe4455"
+    ],
+    [
+      "lex-jmdict-1054300",
+      "875847131ef390939bdb68095a029870eca2a988528b734be31100ebd7ccb0b0"
+    ],
+    [
+      "lex-jmdict-1055020",
+      "a18a899cbcf7cb61aa243ea886d4caa2efaabf7122d7f2eaed8d6a8e75e2a73d"
+    ],
+    [
+      "lex-jmdict-1055500",
+      "b2778aefde9cdb5cfa9fcfa8ab72b4a1171bc9fb4954b481eb965632a5443a6c"
+    ],
+    [
+      "lex-jmdict-1056360",
+      "90886223dda004477b32e00e71b1458be6a5c6091fa7a7eb7e1db493aced7b11"
+    ],
+    [
+      "lex-jmdict-1056920",
+      "c3ba9ab089831c87e93705d7b064ff5aaa44bf95d3001edf75dac50c24d46dc3"
+    ],
+    [
+      "lex-jmdict-1057620",
+      "5510293903fe705300e08943f66705024e3750e64aebe1a5625cfb677e4c5633"
+    ],
+    [
+      "lex-jmdict-1059520",
+      "02980fbd8871cf4dd03acc8709e6e87175c86e02135705235372d98bbbc02969"
+    ],
+    [
+      "lex-jmdict-1062230",
+      "ccc474fd50075c24b757cf7f2cb111c54af8f8e772c056965ec6119997ce1e55"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1050410",
+      "category": "clarity",
+      "note": "넓이가 있었다는 한국어 직역을 가족 모두 묵을 만큼 넓었다로 자연스럽게 다듬었다."
+    }
+  ]
+}

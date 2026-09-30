@@ -1,0 +1,67 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T05:41:07.185Z",
+    "timingNote": "사전 전량 대조 시작 시각; 직전 원고 읽기 시간은 별도 계측하지 못함.",
+    "completedAt": "2026-09-30T05:42:07.565Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 2,
+      "clarity": 1,
+      "formatting": 0
+    },
+    "corpusExamples": 8127,
+    "similarityComparisons": 191886,
+    "newSimilarityPairs": 0
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T05:43:19.031Z",
+    "completedAt": "2026-09-30T05:44:28.742Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 2,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 1,
+      "formatting": 0
+    },
+    "corpusExamples": 8177,
+    "similarityComparisons": 194129,
+    "newSimilarityPairs": 0
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T05:47:39.472Z",
+    "completedAt": "2026-09-30T05:48:32.623Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 3,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 2,
+      "formatting": 0
+    },
+    "corpusExamples": 8227,
+    "similarityComparisons": 196789,
+    "newSimilarityPairs": 0
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T05:53:55.055Z",
+    "completedAt": "2026-09-30T05:54:54.566Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedWords": 1,
+    "correctionCategories": {
+      "substantive": 1,
+      "clarity": 0,
+      "formatting": 0
+    },
+    "corpusExamples": 8277,
+    "similarityComparisons": 199365,
+    "newSimilarityPairs": 0
+  }
+]

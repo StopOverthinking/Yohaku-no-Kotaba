@@ -1,0 +1,16 @@
+{
+  "batch": "012",
+  "scope": "legacy-classification-proposal-only",
+  "reviewedWords": 31,
+  "acceptedClassifications": 31,
+  "needsFollowup": 0,
+  "reviewedAt": "2026-09-30T04:56:55.518Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "method": "All source words, senses, examples, dictionary evidence and proposals reviewed. Classification only; no content, membership, alias or profile merge approval. Minimum one example policy.",
+  "notes": [
+    "修理 duplicate IDs remain alias candidates only.",
+    "地元 first example compares a tourist area with a restaurant; clarify comparison before reference publication.",
+    "地面 N4 is an explicit editorial classification without source level evidence."
+  ]
+}

@@ -46,6 +46,10 @@ describe('share utils', () => {
       unrelated: 'skip',
       'jsp-react:a-first': '2',
       'jsp-react:smart-review-storage': 'indexeddb-v1',
+      'jsp-react:exam-session': '{}',
+      'jsp-react:conjugation-session': '{}',
+      'jsp-react:game-records-objective': '{}',
+      'jsp-react:learn-session': '{}',
     })
 
     expect(getShareStorageKeys(storage)).toEqual(['jsp-react:a-first', 'jsp-react:z-last'])
@@ -81,7 +85,7 @@ describe('share utils', () => {
     expect(qrShare.frames[0]).toContain(`|${qrShare.frames.length}|plain|`)
   })
 
-  it('restores legacy favorites and wrong answers into React storage keys', () => {
+  it('restores legacy favorites and excludes removed modes', () => {
     const parsed = parseRestorePayload(JSON.stringify({
       schemaVersion: 1,
       appVersion: 'web',
@@ -96,7 +100,6 @@ describe('share utils', () => {
     if (!parsed.ok) return
 
     expect(parsed.data).toEqual({
-      'jsp-react:exam-wrong-answer-ids': '["word-3","word-4"]',
       'jsp-react:favorites': '["word-1","word-2"]',
     })
   })

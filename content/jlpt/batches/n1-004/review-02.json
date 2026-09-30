@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "3b4b87a889ab2517377fbf1a1ac3f6f0b779b43b8ae61b66676dba5113962580",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:29:38.397Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1204240",
+      "d93ce6941d8b797681d638997445481febe3a8a0919a863dca0801bb086bbc98"
+    ],
+    [
+      "lex-jmdict-1204640",
+      "43b5563b688f140ad2d9a460560d32ff7033a3dfb5e9e6e3190f006ee265bf92"
+    ],
+    [
+      "lex-jmdict-1205040",
+      "1ad2af4d6678f157757b16e109bdd7dc4603e4b3b6cb4fc60727584dbffd0807"
+    ],
+    [
+      "lex-jmdict-1205510",
+      "c2a27225b84c44bc77a60b5da020a13c78e7f0aed137ad310d4c78e2f6a9b8dd"
+    ],
+    [
+      "lex-jmdict-1206040",
+      "289b70d2c6e07e838d27a5589d6365dea1e7b144026be05e948c3aaa0d52e45c"
+    ],
+    [
+      "lex-jmdict-1206340",
+      "35a0117da891db304cd3516eaaee35bd3b33d11ef91f436217be6df3a2a360fd"
+    ],
+    [
+      "lex-jmdict-1206760",
+      "5a0e2754086bb99d810c59d6a98479056dd1241a2e6682924c944497a25098c3"
+    ],
+    [
+      "lex-jmdict-1208410",
+      "1c2b1156181a8d061a4c717112cc1efe9e0993a0a56bd01791c19c601701e925"
+    ],
+    [
+      "lex-jmdict-1208560",
+      "afacca7115756522792c20a01ddc464f15aa73eec7ac47d06bb160a290d4d942"
+    ],
+    [
+      "lex-jmdict-1208660",
+      "637a34c3771469689c5822b6e280c09b179ec2f599e51d06a19bd706d8628105"
+    ],
+    [
+      "lex-jmdict-1208840",
+      "e3f904724468660e5747088b7284750f2f0c3fbc91fa510fc1598943471bc5a7"
+    ],
+    [
+      "lex-jmdict-1208870",
+      "dc8c5cf8a401a5e326895c75b4d3945ced304264ff17c94f10a9b6d6ff22d275"
+    ],
+    [
+      "lex-jmdict-1210870",
+      "67760952861e162a3996f2aaeb8b8133d22829bd4a7e738baeba00820ca2a272"
+    ],
+    [
+      "lex-jmdict-1210900",
+      "2a0f7f4f645bb389a0ff0957711d3ab458a1c5e7cc801d43ca8dc91164e71d03"
+    ],
+    [
+      "lex-jmdict-1211310",
+      "cb03dfe049dc23bf2ebf1c12007702167fa2e53478328838f0034d5528b4e4f5"
+    ],
+    [
+      "lex-jmdict-1211340",
+      "85f52b1ea7916a8177db68b8626cc09b5ee349d5e3dfa099385472fa61b124f9"
+    ],
+    [
+      "lex-jmdict-1187210",
+      "e63754d4509845b69aae373f2467c3b4498a5b618b6e1743cf023eaa700fb8fb"
+    ],
+    [
+      "lex-jmdict-1192240",
+      "de594dea32d33f7b92afac1b3262884710ef7f9ddd11afebaa8682db39fd877d"
+    ],
+    [
+      "lex-jmdict-1207560",
+      "1bf2174928f2e6ef6e627b99183b8592d4cee3d6cea2327f20a94d49929f8c50"
+    ],
+    [
+      "lex-jmdict-1193760",
+      "d177a74ee141dfbf2bc8cf6190c746b2340d8888552133528cb3bef733337acd"
+    ],
+    [
+      "lex-jmdict-1195250",
+      "8d19230952ef2eee275283704ab411e5200458d70e8d6a83e73209324879a1a6"
+    ],
+    [
+      "lex-jmdict-1197020",
+      "9eb0b93db607f8e07fdaf80e899eebfdb2126b3cf790610a0b03f249f3297165"
+    ],
+    [
+      "lex-jmdict-1198900",
+      "b3f9e3e212ce35513bf93f435a3b82715179f8bb3878c6d2c588f85bd19c9ba5"
+    ],
+    [
+      "lex-jmdict-1205760",
+      "6fe9c71af1a8a8add5130ed2d1cf88bf712b80fd6c6adbef03387a77da82bce2"
+    ],
+    [
+      "lex-jmdict-1207490",
+      "1a1c256369acca08367645a576c6285fee1a4bdd2a1425e7b9f1e9c1ffde020e"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1205040",
+      "category": "clarity",
+      "note": "各種가 모든 종류를 빠짐없이 포함해야 한다는 과도한 한정을 없앴다."
+    },
+    {
+      "wordId": "lex-jmdict-1210870",
+      "category": "clarity",
+      "note": "勘弁의 힌트를 용서를 청하는 발화에만 한정하지 않았다."
+    },
+    {
+      "wordId": "lex-jmdict-1198900",
+      "category": "substantive",
+      "note": "とく도 매듭을 푼다는 뜻에 쓰이므로 두 읽기의 중첩과 차이를 정확히 밝혔다."
+    },
+    {
+      "wordId": "lex-jmdict-1206340",
+      "category": "clarity",
+      "note": "한국어 견해 차이 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1211340",
+      "category": "clarity",
+      "note": "소음을 참는 주체와 한국어 조사·상담 표현을 바로잡았다."
+    },
+    {
+      "wordId": "lex-jmdict-1195250",
+      "category": "substantive",
+      "note": "荷が重い의 부담을 느끼는 사람이 명확하도록 문장 주체를 정리했다."
+    }
+  ]
+}

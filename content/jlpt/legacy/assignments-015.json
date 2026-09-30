@@ -1,0 +1,349 @@
+[
+  {
+    "wordId": "JLPTN3_421",
+    "sourceHash": "865c2f249bfdf29264e1c448246ef55a55efdb25c3b1ff1770a80cad3084b627",
+    "level": "N3",
+    "dictionaryId": "jmdict-1445130",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “노력” 및 1개 sense를 대조했다. effort와 보이지 않는 노력·실패 후 노력의 가치 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_422",
+    "sourceHash": "7cbb73527c54b38b13be55c8fc226fb7799ed415ed97a9d0f40ed3c9d6d1c0fc",
+    "level": "N3",
+    "dictionaryId": "jmdict-1458510",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “비밀” 및 1개 sense를 대조했다. secret와 선물 비밀·어머니에게 숨긴 편지 질문 예문이 일치한다. 출처 등급은 없지만 생활 속 비밀 유지 용법으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_423",
+    "sourceHash": "2a2558aca8ba9bd88db288ffa679a53023aa268b31104377f90824c59f4cce58",
+    "level": "N3",
+    "dictionaryId": "jmdict-1459400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “내용” 및 1개 sense를 대조했다. contents와 편지 기억·신청서 검토 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_424",
+    "sourceHash": "f68e3e23b0e549a24f44883f1c0326b0b0fcb57d5e4dc092ccdfb42eff6a1d7f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1599430",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “속, 알맹이, 내용물” 및 1개 sense를 대조했다. contents와 병의 액체·상자 내용물 예문이 일치한다. 검의 칼날 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_425",
+    "sourceHash": "df9491de74ae4cad53726670a09177935b1f94b2c80ab197688a4b77da751d9e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1470970",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “파도” 및 1개 sense를 대조했다. wave와 모래성·출항 취소 예문이 일치한다. 상태의 기복은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_426",
+    "sourceHash": "f842f57f91108d9fbcf3c4de540e3adf5fdb166d88d704ad9cdcb775d2ff6b37",
+    "level": "N3",
+    "dictionaryId": "jmdict-1555930",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “눈물” 및 1개 sense를 대조했다. tears와 양파·합격 소식 예문이 일치한다. 동정이라는 비유적 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_427",
+    "sourceHash": "84212d00f9302a6cafea7c0a26e61ec0438707b7c6a647f2d9953be044b2e468",
+    "level": "N5",
+    "dictionaryId": "jmdict-1195430",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “짐” 및 1개 sense를 대조했다. luggage와 개찰구 이동·객실 배달 예문이 일치한다. 추상적 부담이나 통신 데이터는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_428",
+    "sourceHash": "46f878cb00ab1421040c2eaaf5da1cb7717af159029bc83e3953b521035dab37",
+    "level": "N3",
+    "dictionaryId": "jmdict-1366770",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “인간” 및 1개 sense를 대조했다. human being와 개의 청각 대비·최종 판단자 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_429",
+    "sourceHash": "4526f0b16749b36bd49861c9d3a078db1f42ba1e0b18c790099ab521cff09213",
+    "level": "N3",
+    "dictionaryId": "jmdict-1600160",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “가격” 및 1개 sense를 대조했다. price와 가게별 신발 값·주문 후 계산 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_430",
+    "sourceHash": "cbe7d6c7932a75c13eb8d86d95546f9f64c72453d5c9445595ad079bfa352383",
+    "level": "N3",
+    "dictionaryId": "jmdict-1290020",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(식물의) 뿌리” 및 1개 sense를 대조했다. plant root와 화분 뿌리·나무 옮기기 예문이 일치한다. 원인이나 본성은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_431",
+    "sourceHash": "5a21cc5df445fbabb87af90cd1c9754ba0677654ced3a6bbdf18902aad71f10c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1469000",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “연중” 및 1개 sense를 대조했다. all year round와 섬 꽃·연중 영업 예문이 일치한다. 유치원 연차 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_432",
+    "sourceHash": "d9080016ac46b13b69a3f94d27c8246e282b47e8acdce110dee89ed08b98dcc8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1470660",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “농업” 및 1개 sense를 대조했다. agriculture와 귀향 농업·관개 농업 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_433",
+    "sourceHash": "0f09ec16f0ef96e6f9cfcf792c6a865c44b4a88f28fe2e43d4087ba92aab9b92",
+    "level": "N5",
+    "dictionaryId": "jmdict-1313000",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(신체) 이, 치아” 및 1개 sense를 대조했다. tooth와 깨진 이·아이의 빠진 이 예문이 일치한다. handmade_97과 신체 치아 의미와 사전 ID가 같아 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_97"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_97",
+    "sourceHash": "e395c714d2b65bc4131ab1f153f56f170cc153f3b5a9589ec59d8fc115fc1256",
+    "level": "N5",
+    "dictionaryId": "jmdict-1313000",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “치아” 및 1개 sense를 대조했다. tooth와 이에 붙은 김·어금니 통증 예문이 일치한다. JLPTN3_433과 같은 신체 치아 의미이므로 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "JLPTN3_433"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_434",
+    "sourceHash": "c8f169120903c05133f50549321adfa62f5ee4f811b85f5d8f586b1a6eb0cb78",
+    "level": "N4",
+    "dictionaryId": "jmdict-1546550",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(식물의) 잎” 및 1개 sense를 대조했다. leaf와 화분 잎 시듦·붉은 잎 수집 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_435",
+    "sourceHash": "544090f249b2e1b8b9ca0d99b5a15f68ddac97053ad4bd8585e16c2d3308c8a6",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "noun",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(수량) ~배” 및 1개 sense를 대조했다. 현재 예문은 수량의 배수 뜻으로 일관되지만 표제어 앞 물결표 때문에 제공 사전 후보가 없다. 실제 배수 접미 용법의 倍 사전 항목을 별도로 연결 검토해야 하므로 자동 배정하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "~倍의 배수 용법에 대응하는 사전 후보 확인 및 표제어 정규화 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_436",
+    "sourceHash": "0c6a842cf02947bce2bc03b20a7b22564a7b78675b8c1db95b750f86c9042963",
+    "level": "N1",
+    "dictionaryId": "jmdict-1477620",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “발생” 및 1개 sense를 대조했다. occurrence·outbreak와 역 문제·벌레 발생 예문이 일치한다. 전력 생산이나 생물 발생학은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_437",
+    "sourceHash": "4b82ba0d76813696b6b278c5d4c09983ae600d608e319fc3c83282bd18e0da99",
+    "level": "N3",
+    "dictionaryId": "jmdict-1477720",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “발전” 및 1개 sense를 대조했다. development와 철도 후 도시 성장·지역 발전 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_438",
+    "sourceHash": "f121c6924cececa3e112b20b16d30f6b50770fe25f407bfbad6d5d60f30165d5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1477840",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “발표” 및 1개 sense를 대조했다. announcement·presenting과 합격 발표·연구 발표 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_439",
+    "sourceHash": "f52197b29e5f795ac833bdde02500e9622d0aad1f193af69b6abeb9dcaf0a5ba",
+    "level": "N4",
+    "dictionaryId": "jmdict-1480670",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “반대” 및 1개 sense를 대조했다. opposition와 아버지 반대·반대 이유 예문이 일치한다. 위치나 방향의 반대는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_440",
+    "sourceHash": "91a8cbd1f65e4b0ae26987f7f1b131f773170dc199f9be03230dc0ffdf2f10ba",
+    "level": "N3",
+    "dictionaryId": "jmdict-1481800",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “판매” 및 1개 sense를 대조했다. selling과 갓 구운 빵·표 판매 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_441",
+    "sourceHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+    "level": "N3",
+    "dictionaryId": "jmdict-1483560",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "현재 대표 뜻 비교 및 1개 용법(비교)의 사전 대응과 모든 예문을 다시 확인했다. 비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_442",
+    "sourceHash": "db9cb9d03d8abe6c23e7225b0b7e660a726b740b2bc55c6441e697d95522897b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1272780",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “빛” 및 1개 sense를 대조했다. light와 구름 사이 햇빛·복도 불빛 예문이 일치한다. 희망이나 영향력은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_443",
+    "sourceHash": "dc30e4c512b95238c15864ae1c56737bfd7a35dd371efdfd9a937b443e11ba6a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1482990",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “부정” 및 1개 sense를 대조했다. denial와 소문 부정·말마다 부정하는 반응 예문이 일치한다. 논리 연산은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_444",
+    "sourceHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+    "level": "N3",
+    "dictionaryId": "jmdict-1489610",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "현재 대표 뜻 표시 및 1개 용법(표시)의 사전 대응과 모든 예문을 다시 확인했다. 눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_445",
+    "sourceHash": "230d8978d203e2fc7b517dde459b31d513387c1bf12db74a00af4392466fcf62",
+    "level": "N3",
+    "dictionaryId": "jmdict-1489880",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “표면” 및 1개 sense를 대조했다. surface와 책상 흠집·수프 기름 예문이 일치한다. 겉치레라는 확장 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_446",
+    "sourceHash": "a73c6aa47ff1be160c18cfdfe309fa12f8c769d77ebd765bc097938de95d1611",
+    "level": "N3",
+    "dictionaryId": "jmdict-1499830",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “풍경” 및 1개 sense를 대조했다. scenery·scene과 옛 거리 사진·여행지 아침시장 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_447",
+    "sourceHash": "daab5496d69e0fcadbab8116476fc57273fe2592501bfeb203595f7006a9b3ae",
+    "level": "N2",
+    "dictionaryId": "jmdict-1501400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “여러 개, 복수” 및 1개 sense를 대조했다. multiple와 여러 날짜·여러 원인 예문이 일치한다. 문법 복수형은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_448",
+    "sourceHash": "d432d6de380de314db5c7a7987aa9bde4c574b947431fe8366d77c37f78c3d87",
+    "level": "N3",
+    "dictionaryId": "jmdict-1411070",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “주머니, 봉지” 및 1개 sense를 대조했다. bag와 얇은 봉지·빵집 봉지 예문이 일치한다. 과일 속껍질이나 막다른 곳은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_449",
+    "sourceHash": "c141a472c1ecd957abf2566568a0eb1de48fe0b7418d0593edf03da70898e800",
+    "level": "N3",
+    "dictionaryId": "jmdict-1502430",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “물가” 및 1개 sense를 대조했다. cost-of-living와 외식 비용·물가 상승 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_450",
+    "sourceHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+    "level": "N1",
+    "dictionaryId": "jmdict-1501720",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "현재 대표 뜻 끓음·비등 및 1개 용법(액체가 끓는점에 이르러 끓는 현상)의 사전 대응과 모든 예문을 다시 확인했다. 기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "97d08a47dc083802851e6e2f28baa34816cbe90e0376ef39b870803a3ab853cb",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:28:12.400Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1177200",
+      "50ecda5eeb2c465474a6cfcf1e4ec5c146c3fb09decbec2e6dfd0d339e90d650"
+    ],
+    [
+      "lex-jmdict-1177830",
+      "0bf93a6ff8d2c4977393cd5ffa1ab92689ff26dfff23912dd9565ffac282447f"
+    ],
+    [
+      "lex-jmdict-1177930",
+      "66c6778431091826decf7a641056717d0cc211a4f7b5ebd3f8a8f84575f62cde"
+    ],
+    [
+      "lex-jmdict-1180190",
+      "e34c04f9182b7f95e513fdd65b349edff46061a0ce84f573640ad9de6bbfb54a"
+    ],
+    [
+      "lex-jmdict-1180260",
+      "c0b6744e3ddebbf369aa83e7b125df563f6c10f55ec2235ae07d99f44f363a19"
+    ],
+    [
+      "lex-jmdict-1182790",
+      "986c85ee4678c39be577e6c867fd28ed55e65e4e839124a1a5c857e2296cbb80"
+    ],
+    [
+      "lex-jmdict-1184360",
+      "2825b4067ee035da467253635fa05c311e590e637f7626a7da0353cb1ea68bb2"
+    ],
+    [
+      "lex-jmdict-1186710",
+      "31ea7c1cd0a038ac6594c6fe31efebf667d44f99918559ac948fb1f6bb7b0db1"
+    ],
+    [
+      "lex-jmdict-1188330",
+      "6886116f6fd6235e6865a34c59dbf91a03e7d8c37ed3bc22a5781d2172aa6c5f"
+    ],
+    [
+      "lex-jmdict-1188530",
+      "f434f7058ae98f6f27acf38216e8fdafbaa9088ec1fe59af7779e5e8ba7bb9b6"
+    ],
+    [
+      "lex-jmdict-1190430",
+      "239af5eb3c473a3d427d55322772194646c59a013717476202e67ad19120364a"
+    ],
+    [
+      "lex-jmdict-1190570",
+      "502651b3bbdb6d216579da0fe07e8e993818a7202ec5f6a85aa544f8c08d95d0"
+    ],
+    [
+      "lex-jmdict-1191910",
+      "43c0a0a420eebf1a8c661c3526d191f7ceab0c3c1a5fde70f85784018b3cd372"
+    ],
+    [
+      "lex-jmdict-1192850",
+      "61be2d4ff9a568ca0de23cb6a2406c542558e50c4b7e310802741f432e8f9b3c"
+    ],
+    [
+      "lex-jmdict-1192860",
+      "5e39a8c6050f94f4c9fd7002f26dc369e30538db9c683628e2900bd14133d603"
+    ],
+    [
+      "lex-jmdict-1195270",
+      "e8ac9e2dbc1a7e5c9249be5913c1306998314ffa04d7d0b73d9ce159f00e3034"
+    ],
+    [
+      "lex-jmdict-1195610",
+      "d04d3bc6aedd8a486be98eb69267cf137b80a94278a971cb145acd544f578284"
+    ],
+    [
+      "lex-jmdict-1195820",
+      "344794583e7f6f8171b86cc1f33e55c0067aef1d08b4e75ba99a244c80138d57"
+    ],
+    [
+      "lex-jmdict-1196010",
+      "9eb92434546e0e5ecd3144207a58a0159e99361372029c8b163f9a75823327c4"
+    ],
+    [
+      "lex-jmdict-1196230",
+      "5cdbe08c5c586e84e11b98b2d6ff0964bb501d5affb89a8308025928838019fc"
+    ],
+    [
+      "lex-jmdict-1196460",
+      "1a19e284119d1b57b1b615315d196bbf9854dc10958fba9099e2d8ef675a2cc0"
+    ],
+    [
+      "lex-jmdict-1196520",
+      "d7cb91dd0ed676713d9a8a6025449029f75f0c014c119ac75c2619923f9b4f22"
+    ],
+    [
+      "lex-jmdict-1198500",
+      "7070e01898149b5bb080b3a8badbd679ec6bc4456cdaa06cd73eb6a9f9d7d186"
+    ],
+    [
+      "lex-jmdict-1199970",
+      "4dc36490aaa89b247d5e103e0b934969101de37916422d02b720f0912ad6cd58"
+    ],
+    [
+      "lex-jmdict-1202710",
+      "d99b38d018a186acd83fe46c2956b75dc74706fd77d0fb1f0129f415e1ac0f1f"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1177830",
+      "category": "clarity",
+      "note": "岸을 강가로 한정하지 않도록 물가로 옮겼다."
+    },
+    {
+      "wordId": "lex-jmdict-1177930",
+      "category": "substantive",
+      "note": "回り道의 다리 공사 우회 장면과 겹쳐 벚꽃을 보기 위해 돌아가는 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1192860",
+      "category": "clarity",
+      "note": "水平線の果て의 모호한 공간 표현을 길의 끝에 대한 상상으로 명확히 했다."
+    },
+    {
+      "wordId": "lex-jmdict-1196520",
+      "category": "substantive",
+      "note": "기존 안개가 걷히며 산이 보이는 장면과 분리해 눈이 침침해지는 사전 용례로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1199970",
+      "category": "substantive",
+      "note": "창문으로 들어오는 쾌적한 바람의 반복을 피해 나무 바닥의 감촉을 사용했다."
+    },
+    {
+      "wordId": "lex-jmdict-1202710",
+      "category": "substantive",
+      "note": "イベント의 우천 다음 주 연기와 같은 장면을 온라인 학회 개최 결정으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1188330",
+      "category": "clarity",
+      "note": "何しろ의 이유 설명 기능이 드러나도록 한국어 문장 종결을 다듬었다."
+    }
+  ]
+}

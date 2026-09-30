@@ -1,0 +1,20 @@
+{
+  "scope": "practical-only",
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1176790",
+      "japanese": "演ずる",
+      "reason": "이미 수록한 演じる의 의미가 같은 활용 변형이므로 별도 표제어를 늘리지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1197950",
+      "japanese": "雅致",
+      "reason": "우아함을 뜻하는 드문 문어 명사로 현재 실용성 우선 범위에서 보류한다."
+    },
+    {
+      "dictionaryId": "jmdict-1198160",
+      "japanese": "会",
+      "reason": "え로 읽는 불교·의례 집회 중심 항목으로 일반 会의 읽기·뜻과 달라 현재 범위에서 제외한다."
+    }
+  ]
+}

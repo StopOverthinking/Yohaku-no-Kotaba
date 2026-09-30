@@ -1,0 +1,22 @@
+[
+  {
+    "wordId": "lex-jmdict-1000470",
+    "category": "clarity",
+    "note": "뒤바뀐 대상을 두 그림의 설명으로 특정하여 제목과 내용 자체가 교환됐다는 모호함을 해소."
+  },
+  {
+    "wordId": "lex-jmdict-1002250",
+    "category": "clarity",
+    "note": "부자연스러운 빈말 칭찬을 뜻과 번역에서 빈말로 정리."
+  },
+  {
+    "wordId": "lex-jmdict-1003190",
+    "category": "clarity",
+    "note": "採用を見送る를 채용하지 않기로 함으로 명확히 번역."
+  },
+  {
+    "wordId": "lex-jmdict-1005860",
+    "category": "clarity",
+    "note": "뜻의 병렬 표현과 시간을 들여 읽는 한국어 번역을 자연스럽게 정리."
+  }
+]

@@ -11,6 +11,7 @@ import {
   undoContext,
 } from './contextEngine'
 import { testSense } from './contextTestFixtures'
+import type { LearnSenseIndex } from './contextTypes'
 
 const day = '2026-09-28'
 const senses = [testSense('a', 10), testSense('b', 30), testSense('c', 50), testSense('d', 30)]
@@ -24,6 +25,75 @@ const options = {
 }
 
 describe('context scheduling', () => {
+  it('learns an added usage independently while keeping the existing usage schedule and undo', () => {
+    const original = testSense('same-word', 20)
+    const added = { ...testSense('new-usage', 20), wordId: original.wordId }
+    const content = [original, added]
+    const state = emptyContextState(content)
+    const profile = { ...reviewProfile(undefined, original, original.examples[0], true, false, day), due: addDays(day, 30), step: 8 }
+    state.profiles[profileKey(original)] = profile
+    state.level.assessedWordIds = [original.wordId]
+    const selection = { ...options, candidateWordIds: [original.wordId], wordCount: 1, allowEarly: false }
+    const started = startContext(state, selection, content, day)
+    expect(started.session!.current.senseId).toBe(added.id)
+    const answered = answerContext(started, true, content, day)
+    expect(answered.profiles[profileKey(original)]).toEqual(profile)
+    expect(answered.profiles[profileKey(added)].due).toBe(addDays(day, 1))
+    expect(answered.level.assessedWordIds).toEqual([original.wordId])
+    expect(undoContext(answered)).toEqual(started)
+  })
+  it('studies and reviews a single-example sense across days, including failure and undo', () => {
+    const single = { ...senses[0], examples: [senses[0].examples[0]] }
+    const content = [single]
+    const selection = { ...options, candidateWordIds: ['a'], wordCount: 1, allowEarly: true }
+    let state = startContext(emptyContextState(content), selection, content, day)
+    expect(state.session!.current.exampleId).toBe(single.examples[0].id)
+    const started = state
+    state = answerContext(state, false, content, day)
+    expect(state.session!.current.exampleId).toBe(single.examples[0].id)
+    expect(undoContext(state)).toEqual(started)
+    state = answerContext(state, true, content, day)
+    expect(state.session).toBeNull()
+    state = startContext(state, selection, content, addDays(day, 1))
+    expect(state.session!.current.exampleId).toBe(single.examples[0].id)
+    state = answerContext(state, true, content, addDays(day, 1))
+    expect(state.profiles[profileKey(single)].step).toBe(1)
+    expect(state.profiles[profileKey(single)].due).toBe(addDays(day, 3))
+  })
+  it('retains mastery after an example correction but refuses a pending answer against old wording', () => {
+    const original = senses[0]
+    const profile = reviewProfile(undefined, original, original.examples[0], true, false, day)
+    const state = emptyContextState(senses)
+    state.profiles[profileKey(original)] = profile
+    const started = startContext(state, { ...options, candidateWordIds: ['a'], allowEarly: true }, senses, day)
+    const changed = structuredClone(senses)
+    const example = changed[0].examples.find((e) => e.id === started.session!.current.exampleId)!
+    example.version++
+    example.before = '別の場面で'
+    expect(() => answerContext(started, true, changed, day)).toThrow('변경')
+    const restarted = startContext(started, { ...options, candidateWordIds: ['a'], allowEarly: true }, changed, day)
+    expect(restarted.profiles).toEqual(state.profiles)
+    expect(restarted.profiles[profileKey(changed[0])].due).toBe(profile.due)
+    const selected = changed[0].examples.find((e) => e.id === restarted.session!.current.exampleId)!
+    expect(restarted.session!.current.exampleVersion).toBe(selected.version)
+  })
+  it('preserves selection, scores, due dates and undo with sentence text removed', () => {
+    const index: LearnSenseIndex[] = senses.map(({ id, wordId, version, review, examples }) => ({
+      id, wordId, version, review,
+      examples: examples.map(({ id, version, difficulty, status }) => ({ id, version, difficulty, status })),
+    }))
+    expect(emptyContextState(index)).toEqual(emptyContextState(senses))
+    let full = startContext(emptyContextState(senses), options, senses, day, () => 0)
+    let indexed = structuredClone(full)
+    for (const known of [false, true, false, true, true, true, true]) {
+      if (!full.session) break
+      expect(selectNext(indexed, indexed.session!, index, day)).toEqual(selectNext(full, full.session, senses, day))
+      full = answerContext(full, known, senses, day)
+      indexed = answerContext(indexed, known, index, day)
+      expect(indexed).toEqual(full)
+      expect(undoContext(indexed)).toEqual(undoContext(full))
+    }
+  })
   it('starts from the median, reserves required words, and adapts the next unseen word', () => {
     let state = startContext(
       emptyContextState(senses),
@@ -74,9 +144,9 @@ describe('context scheduling', () => {
     expect(chooseExample(sense, first, day).id).toBe(example.id)
     expect(chooseExample(sense, first, '2026-09-29').id).toBe(sense.examples[1].id)
     const due = reviewProfile(first, sense, sense.examples[1], true, true, '2026-09-29')
-    expect(due).toMatchObject({ step: 1, due: '2026-10-02' })
+    expect(due).toMatchObject({ step: 1, due: '2026-10-01' })
     const early = reviewProfile(due, sense, example, true, false, '2026-09-30')
-    expect(early.due).toBe('2026-10-02')
+    expect(early.due).toBe('2026-10-01')
     const failed = reviewProfile(early, sense, example, false, false, '2026-09-30')
     expect(failed).toMatchObject({ step: 0, due: '2026-10-01', failedDays: 1 })
   })
@@ -87,7 +157,7 @@ describe('context scheduling', () => {
     profile = reviewProfile(profile, sense, sense.examples[0], false, false, '2026-09-29')
     profile = reviewProfile(profile, sense, sense.examples[1], true, false, '2026-10-10')
     expect(profile.failedDays).toBe(2)
-    expect(profile.due).toBe('2026-10-12')
+    expect(profile.due).toBe('2026-10-11')
     expect(addDays('2026-12-31', 1)).toBe('2027-01-01')
     expect(addDays('2028-02-28', 1)).toBe('2028-02-29')
   })

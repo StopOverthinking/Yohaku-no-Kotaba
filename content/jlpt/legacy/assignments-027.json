@@ -1,0 +1,344 @@
+[
+  {
+    "wordId": "AbsoluteVerb_171",
+    "sourceHash": "9e2b40b642acd7c4eaae87e226bbcf57d5f95abba2323b116e2fc997460d4065",
+    "level": "N5",
+    "dictionaryId": "jmdict-1310730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “죽다” 및 1개 sense를 대조했다. die와 금붕어·소설 주인공 죽음 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_172",
+    "sourceHash": "cbf28d4d0d4d03cb0408b6e3c79eb38653a8577730a1521238afe31c3ec0c75b",
+    "level": "N4",
+    "dictionaryId": "jmdict-1518540",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(죽음) 돌아가시다” 및 1개 sense를 대조했다. pass away와 조부·은사 사망 예문이 일치한다. 사람의 죽음을 완곡하게 말한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_173",
+    "sourceHash": "45d4518f0e0266d1de81e195a541ed3916af4b7ac322e9edb8e1c87161a1ec36",
+    "level": "N5",
+    "dictionaryId": "jmdict-1297210",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(꽃이) 피다” 및 1개 sense를 대조했다. bloom와 장미·벚꽃 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_174",
+    "sourceHash": "9c66f7b5d48eee007ce976747a30d276a6b028b359e0337b73b2cd1e9c98c31b",
+    "level": "N2",
+    "dictionaryId": "jmdict-1303490",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(꽃, 잎이) 지다, 흩날리다, (주의가) 산란해지다” 및 1개 sense를 대조했다. blossoms fall와 비 뒤·꽃이 지기 전 예문이 일치한다. 주의 분산은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_175",
+    "sourceHash": "a4778ff0b1c14537c57f4b9d0979753129896fccbe0421c78c39c397968e45b1",
+    "level": "N2",
+    "dictionaryId": "jmdict-1533740",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “우거지다” 및 1개 sense를 대조했다. grow thickly와 정원 풀·무성한 나뭇잎 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_177",
+    "sourceHash": "8ff5e34d37873ae264453348973192f197e3d5c8d3a2bd8e59a4150003f60432",
+    "level": "N2",
+    "dictionaryId": "jmdict-2611890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “파종하다” 및 1개 sense를 대조했다. sow와 해바라기 씨·수확 예정 예문이 일치한다. 갈등의 씨라는 비유는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_178",
+    "sourceHash": "82b6b3a70f008ae2576761d63fc114eb09c5ff2754f7666322c576a6f3de5662",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “싹을 내다” 및 1개 sense를 대조했다. 콩·구근 발아 예문은 일관된다. 제공 후보가 없어 芽を出す 구성 표현의 사전 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "芽を出す의 구성어 및 발아 표현 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_179",
+    "sourceHash": "d94d642eb9b97f3f980b7d4edd97c134d3d67675ebabfa08e550dbd8844a008e",
+    "level": "N2",
+    "dictionaryId": "jmdict-1320850",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “열매를 맺다” 및 1개 sense를 대조했다. bear fruit·ripen와 벼·감 예문이 일치한다. 노력의 성과는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_180",
+    "sourceHash": "61bfc43d637fc314d0521861dfee3b2a36c5c986c334caa9c5db170264b29d5f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(과일이) 익다, (기회가) 무르익다” 및 1개 sense를 대조했다. 감·복숭아 성숙 예문은 일관된다. 제공 후보가 없어 熟す의 현재 읽기와 익다 의미 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "熟す의 읽기·과일 성숙 의미에 맞는 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_181",
+    "sourceHash": "8c07f560d5d959e9f6a739883cdd46ac11869978c584179f023d715617c4a3e6",
+    "level": "N1",
+    "dictionaryId": "jmdict-1427460",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(꽃, 잎, 풍선 등이) 오그라들며 시들다” 및 1개 sense를 대조했다. deflate·wither와 풍선·나팔꽃 예문이 대응하며 부풀거나 피었던 것이 줄어드는 현재 뜻과 맞는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_184",
+    "sourceHash": "f71325d4661a2d206e252c12c27276cd6b23d5a3b6b4de73d0400d3aa7ec58ee",
+    "level": "N3",
+    "dictionaryId": "jmdict-1312970",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(동물을) 기르다” 및 1개 sense를 대조했다. keep an animal와 반려묘 금지·닭 사육 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_185",
+    "sourceHash": "8f1b9d7d26543afbb6c4426a87ff96065d1078816406cb150452891ed796e53c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1532870",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(새, 벌레, 짐승 등이) 울다” 및 1개 sense를 대조했다. animal calls와 까마귀·새끼고양이 예문이 일치한다. 마작 호출은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_186",
+    "sourceHash": "4f650c94c46e678adba25dc52f6b51c847ff5188fa6b6f4b6385831eada60330",
+    "level": "N3",
+    "dictionaryId": "jmdict-1603420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “짖다” 및 1개 sense를 대조했다. bark와 문 앞 개·천둥 앞 개 예문이 일치한다. AbsoluteVerb_187의 포효와 같은 사전 ID지만 현재 뜻의 동물 울음 종류를 분리하여 별칭 제안하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_187",
+    "sourceHash": "4930d48c653a657c7fe6918bb68256cb8183340c8a7567392558f7c835f1fd80",
+    "level": "N3",
+    "dictionaryId": "jmdict-1603420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “포효하다” 및 1개 sense를 대조했다. roar와 사자·호랑이 같은 소리 예문이 일치한다. AbsoluteVerb_186의 개 짖기와 같은 항목 안의 뜻 범위를 보존한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_188",
+    "sourceHash": "0e833873ee797913893fb1b6399999426c4ff9e645c3900a179d0f244cb8079b",
+    "level": "N2",
+    "dictionaryId": "jmdict-1212670",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “사람을 따르다” 및 1개 sense를 대조했다. become tame와 구조견·사람에 익숙한 새 예문이 일치한다. N4/N2 중 慣れる의 익숙해짐과 다른 동물 길들여짐 용법으로 N2를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_189",
+    "sourceHash": "8e241a854deb938e806e0ccc4f6460ccaa713a53a63ddf88af6594db85d30e3d",
+    "level": "N5",
+    "dictionaryId": "jmdict-1423000",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(허리 위, 또는 전신 옷을) 입다” 및 1개 sense를 대조했다. wear from shoulders와 셔츠·유카타 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_191",
+    "sourceHash": "24b00c38ef5a063e5766ba2df60e3ff3485451948da83a3fb0c8af9e6b6cb66e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1607260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(발에) 신다” 및 1개 sense를 대조했다. wear footwear와 장화·신발 예문이 일치한다. AbsoluteVerb_192와 사전 ID는 같지만 선택된 한국어와 예문은 신발 대 하의로 달라 별칭 제안하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_192",
+    "sourceHash": "ac2ada33dac489934d3af4d6fed2125311b0539a4d955cea503c3d6fc6c809ca",
+    "level": "N3",
+    "dictionaryId": "jmdict-1607260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(허리 아래로) 입다” 및 1개 sense를 대조했다. wear lower-body clothing와 바지·치마 예문이 일치한다. AbsoluteVerb_191과 표기·선택 의미를 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_193",
+    "sourceHash": "81bc0ee59c31bfe9af1a1b31f408b39302b233d3fcf91e27eeebbd78128cb6a6",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(장갑, 장신구 등을) 끼다” 및 1개 sense를 대조했다. 반지·장갑 착용 예문은 일관된다. 제공 후보가 없어 はめる의 끼다 의미 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "はめる의 장신구·장갑 착용 의미 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_194",
+    "sourceHash": "3a441622155e2576685f670503a99ecd55d0b705c43f9238317ac49dbf3039c8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1484330",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(머리에) 쓰다” 및 1개 sense를 대조했다. wear on head와 모자·헬멧 예문이 일치한다. 부담 떠안기는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_195",
+    "sourceHash": "0799abcccce31c49782d704a85d3f9d13a4e7f4fa2c4ca2e0c18b317d31deb66",
+    "level": "N2",
+    "dictionaryId": "jmdict-1484320",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “씌우다” 및 1개 sense를 대조했다. put on head·cover와 아이 모자·기계 덮개 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_197",
+    "sourceHash": "4e0671dc1a6948dab1761e316c471c13c0d760400141b723fd137d22f20a5810",
+    "level": "N3",
+    "dictionaryId": "jmdict-1203270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(장착·고정을) 떼다, 제외하다, 빗나가다” 및 1개 sense를 대조했다. remove·unfasten와 마스크·나사 제거 예문이 일치한다. 표제어 빗나가다는 자동사처럼 보이므로 대상을 놓치다와 구별되는 뜻 표기 검토 후보이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "外す의 miss 용법은 목표를 빗맞히다·놓치다라는 타동사 뜻으로 적을 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_198",
+    "sourceHash": "befe38e16f6d7e54760f8cc0d92ecf23a81a68e924b7ec3d59802accc7c6110e",
+    "level": "N2",
+    "dictionaryId": "jmdict-1211200",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “감다, 말다, 두르다” 및 1개 sense를 대조했다. wind·wear scarf와 목 수건·실 감기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_199",
+    "sourceHash": "55af7065db41e1d737d2bd1274781357b47e26e99de0176f1a1bb6f4c08242d3",
+    "level": "N5",
+    "dictionaryId": "jmdict-1291330",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “가리다, (우산을) 쓰다” 및 1개 sense를 대조했다. hold up umbrella와 비·햇빛 우산 예문이 일치한다. 가리다는 이 기본 동작을 직접 말하지 않아 우산을 펼쳐 쓰다로 명확히 할 후보이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "差す의 현재 sense는 우산을 펼쳐 쓰는 동작이며 가리다만으로 모호할 수 있다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_200",
+    "sourceHash": "5159100b9d37db2a3cb1438c25e7cb9e3634843c8c3f94076d2d8e333233df31",
+    "level": "N5",
+    "dictionaryId": "jmdict-1384830",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “자르다” 및 1개 sense를 대조했다. cut와 종이·채소 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_201",
+    "sourceHash": "53337075513ffdd5d15fcb8e69cfc4465b63a672b5c66381cfdf747c974acd6a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1285890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “잘게 썰다, 새기다, 명심하다” 및 1개 sense를 대조했다. mince와 파·양파 예문이 일치한다. 새김·기억은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_202",
+    "sourceHash": "3a5935853f35cfc1c057aadf0ee45edb4c3356bbbe6985a94b59f74fab3168d4",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(껍질을) 까다” 및 1개 sense를 대조했다. 귤·감자 껍질 제거 예문은 일관된다. 제공 후보가 없어 むく/剥く와 다른 동음어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "むく의 껍질 벗김 의미에 해당하는 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_204",
+    "sourceHash": "911eb45434d069cbafd61dc19a2d8e203558e84c8e4c46207c8414439562d3b7",
+    "level": "N1",
+    "dictionaryId": "jmdict-1568920",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “기름에 볶다” 및 1개 sense를 대조했다. stir-fry와 채소·고기 볶기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_205",
+    "sourceHash": "dc139d3783f98a50adb30c5492677cd639b5ad660baa1449f1468f77491ee105",
+    "level": "N2",
+    "dictionaryId": "jmdict-1391500",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(기름 없이) 볶다” 및 1개 sense를 대조했다. roast·toast와 깨·콩 마른 볶기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_206",
+    "sourceHash": "8c8ec4619a286ed0e8f846908de30ed32c942d92c50a755d965facfc75d6c32a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1322540",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(재료를) 끓이다” 및 1개 sense를 대조했다. simmer와 무·콩 가열 예문이 일치한다. 물 자체를 끓임과 구별하여 재료를 조리는 뜻이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

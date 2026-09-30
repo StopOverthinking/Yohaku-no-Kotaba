@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T05:34:52.675Z",
+  "checkedWords": 33,
+  "checkedExamples": 66,
+  "accepted": 29,
+  "held": 4,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "원본 전체와 사전·등급·별칭 제안을 전량 검토했다. 최소 예문 1개 정책이며 원본은 그대로 유지한다.",
+    "연결 불명 4개 보류. 出来る 두 대표 용법은 통합하지 않으며 助ける의 범위 중첩은 별칭 후보에 한정한다."
+  ]
+}

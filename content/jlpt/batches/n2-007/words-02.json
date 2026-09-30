@@ -1,0 +1,14 @@
+[
+  {
+    "japanese": "品質",
+    "reading": "ひんしつ",
+    "type": "noun",
+    "meaning": "품질",
+    "hint": "제품·서비스의 성능·만듦새 등이 어느 정도 좋은지를 뜻합니다.",
+    "confusion": "品種",
+    "distinction": "品質는 품질이고 品種는 종류·품종이다.",
+    "dictionaryId": "jmdict-1490580",
+    "level": "N2",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N2이다. 상품·서비스 평가의 핵심어로 추상 품질 개념을 선택. 공식 등급이 아니며 검토 후 확정."
+  }
+]

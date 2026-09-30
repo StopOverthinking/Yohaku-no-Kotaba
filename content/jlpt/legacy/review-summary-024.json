@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T06:09:16.787Z",
+  "checkedWords": 30,
+  "checkedExamples": 60,
+  "accepted": 26,
+  "held": 4,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "원본 전체·사전·제안을 독립 대조했다. 최소 예문 1개 정책이며 원본 내용·ID 유지.",
+    "사전 연결 4개 보류. 縫う 표기 및 引く/引っ張る 반복 장면은 참조 게시 전 별도 해결 사항이다."
+  ]
+}

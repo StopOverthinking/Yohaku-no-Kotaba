@@ -8,6 +8,8 @@ export interface VocabularySet {
   wordIdPrefix?: string
   updatedAt?: string
   wordIds: string[]
+  /** Explicit membership can reference existing words without changing their owner. */
+  membershipMode?: 'explicit'
 }
 
 export interface ThemeWordbook {
@@ -59,7 +61,6 @@ export interface ComparisonWordbook {
   pairIds: string[]
 }
 
-export type FrontMode = 'japanese' | 'meaning'
 
 export type StudyWordItem = {
   id: string

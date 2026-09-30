@@ -1,0 +1,1313 @@
+import type { LearnSense } from '../../../learn/contextTypes'
+
+const content: LearnSense[] = [
+  {
+    "id": "sense-AbsoluteVerb_187-1",
+    "wordId": "AbsoluteVerb_187",
+    "version": 1,
+    "meaning": "짐승이 크게 울부짖다",
+    "hint": "큰 짐승이 위협하듯 낮고 강한 소리를 내요.",
+    "confusions": [
+      {
+        "japanese": "鳴く",
+        "distinction": "동물의 울음 전반보다 맹수가 크게 울부짖는 인상을 주는 표기다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_187-1-ex-1",
+        "version": 1,
+        "before": "ライオンが",
+        "answer": "吼える",
+        "after": "と、近くの子どもが父親の後ろに隠れた。",
+        "reading": "ほえる",
+        "translation": "사자가 포효하자 근처 아이가 아버지 뒤에 숨었다.",
+        "translationTarget": "포효하자",
+        "difficulty": 38,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-AbsoluteVerb_187-1-ex-2",
+        "version": 1,
+        "before": "遠くで虎が",
+        "answer": "吼えた",
+        "after": "ような、低い音がした。",
+        "reading": "ほえた",
+        "translation": "멀리서 호랑이가 포효한 듯한 낮은 소리가 났다.",
+        "translationTarget": "포효한",
+        "difficulty": 38,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_868-1",
+    "wordId": "AbsoluteVerb_868",
+    "version": 1,
+    "meaning": "할 마음이 없다",
+    "hint": "어떤 일을 하려는 의향이나 관심이 없어요.",
+    "confusions": [
+      {
+        "japanese": "できない",
+        "distinction": "능력이나 조건 때문에 못하는 것과 달리 하려는 의지가 없다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_868-1-ex-1",
+        "version": 1,
+        "before": "彼は最初から買う",
+        "answer": "気がなかった",
+        "after": "ようだ。",
+        "reading": "きがなかった",
+        "translation": "그는 처음부터 살 마음이 없었던 모양이다.",
+        "translationTarget": "마음이 없었던",
+        "difficulty": 18,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-AbsoluteVerb_868-1-ex-2",
+        "version": 1,
+        "before": "今日は外へ出る",
+        "answer": "気がない",
+        "after": "ので、家で本を読む。",
+        "reading": "きがない",
+        "translation": "오늘은 밖에 나갈 마음이 없어서 집에서 책을 읽는다.",
+        "translationTarget": "마음이 없어서",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-handmade_93-1",
+    "wordId": "handmade_93",
+    "version": 1,
+    "meaning": "피부",
+    "hint": "몸의 표면이며 감촉이나 상태를 말할 때 자주 써요.",
+    "confusions": [
+      {
+        "japanese": "皮",
+        "distinction": "껍질과 가죽까지 뜻하는 말과 달리 사람 피부의 결이나 상태에 자주 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-handmade_93-1-ex-1",
+        "version": 1,
+        "before": "乾燥すると、",
+        "answer": "肌",
+        "after": "がかゆくなる。",
+        "reading": "はだ",
+        "translation": "건조해지면 피부가 가려워진다.",
+        "translationTarget": "피부",
+        "difficulty": 25,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-handmade_93-1-ex-2",
+        "version": 1,
+        "before": "赤ちゃんの",
+        "answer": "肌",
+        "after": "は、触るのが怖いほど柔らかい。",
+        "reading": "はだ",
+        "translation": "아기의 피부는 만지기 조심스러울 만큼 부드럽다.",
+        "translationTarget": "피부",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_415-1",
+    "wordId": "AbsoluteVerb_415",
+    "version": 1,
+    "meaning": "배웅하다",
+    "hint": "함께 끝까지 가는 것이 아니라 떠나는 사람을 보내요.",
+    "confusions": [
+      {
+        "japanese": "送る",
+        "distinction": "목적지까지 동행할 수도 있는 말에 비해 출발을 지켜보며 배웅하는 데 초점이 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_415-1-ex-1",
+        "version": 1,
+        "before": "出発する船を、岸から",
+        "answer": "見送った",
+        "after": "。",
+        "reading": "みおくった",
+        "translation": "출발하는 배를 물가에서 배웅했다.",
+        "translationTarget": "배웅했다",
+        "difficulty": 28,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-AbsoluteVerb_415-1-ex-2",
+        "version": 1,
+        "before": "私を",
+        "answer": "見送る",
+        "after": "ために空港まで来てくれて、ありがとう。",
+        "reading": "みおくる",
+        "translation": "나를 배웅하려고 공항까지 와 줘서 고마워.",
+        "translationTarget": "배웅하려고",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_590-1",
+    "wordId": "AbsoluteVerb_590",
+    "version": 1,
+    "meaning": "뽑다",
+    "hint": "그냥 옮기기보다 박히거나 끼인 것을 빼내요.",
+    "confusions": [
+      {
+        "japanese": "取る",
+        "distinction": "취하는 행동 중 안쪽에 끼거나 박힌 것을 밖으로 뽑는 방식이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_590-1-ex-1",
+        "version": 1,
+        "before": "板から古い釘を",
+        "answer": "抜いた",
+        "after": "。",
+        "reading": "ぬいた",
+        "translation": "판자에서 오래된 못을 뽑았다.",
+        "translationTarget": "뽑았다",
+        "difficulty": 24,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-AbsoluteVerb_590-1-ex-2",
+        "version": 1,
+        "before": "充電が終わったら、プラグを",
+        "answer": "抜いて",
+        "after": "ください。",
+        "reading": "ぬいて",
+        "translation": "충전이 끝나면 플러그를 뽑아 주세요.",
+        "translationTarget": "뽑아",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-JLPTN3_236-1",
+    "wordId": "JLPTN3_236",
+    "version": 1,
+    "meaning": "간격",
+    "hint": "두 대상 사이의 거리나 시간이에요. 몸으로 느끼는 동음어와 달라요.",
+    "confusions": [
+      {
+        "japanese": "感覚",
+        "distinction": "발음은 같지만 몸으로 느끼는 감각과는 뜻이 다르다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-JLPTN3_236-1-ex-1",
+        "version": 1,
+        "before": "苗は三十センチの",
+        "answer": "間隔",
+        "after": "で植えてください。",
+        "reading": "かんかく",
+        "translation": "모종은 삼십 센티미터 간격으로 심어 주세요.",
+        "translationTarget": "간격",
+        "difficulty": 33,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-JLPTN3_236-1-ex-2",
+        "version": 1,
+        "before": "休日はバスの",
+        "answer": "間隔",
+        "after": "が長くなる。",
+        "reading": "かんかく",
+        "translation": "휴일에는 버스 간격이 길어진다.",
+        "translationTarget": "간격",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_204-1",
+    "wordId": "AbsoluteVerb_204",
+    "version": 1,
+    "meaning": "볶다",
+    "hint": "적은 기름에 재료를 움직이며 익혀요. 기름에 잠기게 튀기지 않아요.",
+    "confusions": [
+      {
+        "japanese": "揚げる",
+        "distinction": "많은 기름에 담가 튀기는 것과 적은 기름으로 볶는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_204-1-ex-1",
+        "version": 1,
+        "before": "野菜を強火でさっと",
+        "answer": "炒めた",
+        "after": "。",
+        "reading": "いためた",
+        "translation": "채소를 센 불에 재빨리 볶았다.",
+        "translationTarget": "볶았다",
+        "difficulty": 30,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-AbsoluteVerb_204-1-ex-2",
+        "version": 1,
+        "before": "ご飯を入れる前に、肉を",
+        "answer": "炒めて",
+        "after": "おいてください。",
+        "reading": "いためて",
+        "translation": "밥을 넣기 전에 고기를 볶아 두세요.",
+        "translationTarget": "볶아",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1241270-1",
+    "wordId": "lex-jmdict-1241270",
+    "version": 1,
+    "meaning": "균형",
+    "hint": "여러 힘이나 양이 어느 한쪽으로 치우치지 않는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "同一",
+        "distinction": "균형은 서로 다른 것 사이에서도 성립하며, 동일함을 뜻하지 않는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1241270-1-ex-1",
+        "version": 1,
+        "before": "仕事と生活の",
+        "answer": "均衡",
+        "after": "を保つには、働き方そのものを見直す必要がある。",
+        "reading": "きんこう",
+        "translation": "일과 생활의 균형을 지키려면 일하는 방식 자체를 재검토해야 해요.",
+        "translationTarget": "균형",
+        "difficulty": 66,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1241270-1-ex-2",
+        "version": 1,
+        "before": "供給が急に減り、需要との",
+        "answer": "均衡",
+        "after": "が崩れた。",
+        "reading": "きんこう",
+        "translation": "공급이 갑자기 줄어 수요와의 균형이 무너졌어요.",
+        "translationTarget": "균형",
+        "difficulty": 65,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1241270-1-ex-3",
+        "version": 1,
+        "before": "一見安定していても、その",
+        "answer": "均衡",
+        "after": "は非常に脆いものだった。",
+        "reading": "きんこう",
+        "translation": "겉으로는 안정되어 보여도 그 균형은 매우 취약한 것이었어요.",
+        "translationTarget": "균형",
+        "difficulty": 69,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1171900-1",
+    "wordId": "lex-jmdict-1171900",
+    "version": 1,
+    "meaning": "비",
+    "hint": "구름에서 물방울이 떨어지는 날씨 현상이에요.",
+    "confusions": [
+      {
+        "japanese": "雪",
+        "distinction": "비는 물방울로 내리고, 눈은 얼음 결정이 모인 형태로 내린다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1171900-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "雨",
+        "after": "が降りそうですから、傘を持って行きます。",
+        "reading": "あめ",
+        "translation": "비가 올 것 같아서 우산을 가져가요.",
+        "translationTarget": "비",
+        "difficulty": 15,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1171900-1-ex-2",
+        "version": 1,
+        "before": "試合の途中で",
+        "answer": "雨",
+        "after": "がやみました。",
+        "reading": "あめ",
+        "translation": "경기 도중에 비가 그쳤어요.",
+        "translationTarget": "비",
+        "difficulty": 14,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1171900-1-ex-3",
+        "version": 1,
+        "before": "窓に当たる",
+        "answer": "雨",
+        "after": "の音で目が覚めました。",
+        "reading": "あめ",
+        "translation": "창문에 부딪히는 비 소리에 잠이 깼어요.",
+        "translationTarget": "비",
+        "difficulty": 15,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1386500-1",
+    "wordId": "lex-jmdict-1386500",
+    "version": 1,
+    "meaning": "눈",
+    "hint": "겨울철 구름에서 얼음 결정이 내려 땅에 쌓이는 것을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "雨",
+        "distinction": "얼음 결정이 하늘에서 내려오는 강수이며, 雨는 물방울이 떨어지는 강수다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1386500-1-ex-1",
+        "version": 1,
+        "before": "朝起きると、庭に",
+        "answer": "雪",
+        "after": "が積もっていました。",
+        "reading": "ゆき",
+        "translation": "아침에 일어나니 마당에 눈이 쌓여 있었어요.",
+        "translationTarget": "눈",
+        "difficulty": 15,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1386500-1-ex-2",
+        "version": 1,
+        "before": "",
+        "answer": "雪",
+        "after": "で電車が止まったそうです。",
+        "reading": "ゆき",
+        "translation": "눈 때문에 전철이 멈췄다고 해요.",
+        "translationTarget": "눈",
+        "difficulty": 14,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1386500-1-ex-3",
+        "version": 1,
+        "before": "手の上の",
+        "answer": "雪",
+        "after": "はすぐに溶けました。",
+        "reading": "ゆき",
+        "translation": "손 위의 눈은 금방 녹았어요.",
+        "translationTarget": "눈",
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1388410-1",
+    "wordId": "lex-jmdict-1388410",
+    "version": 1,
+    "meaning": "선배",
+    "hint": "학교나 직장에서 자기보다 먼저 들어와 경험을 쌓은 사람을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "後輩",
+        "distinction": "先輩（せんぱい）: 먼저 들어와 경험이 많은 사람; 後輩（こうはい）: 나중에 들어와 경험이 적은 사람."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1388410-1-ex-1",
+        "version": 1,
+        "before": "会社の",
+        "answer": "先輩",
+        "after": "が資料の作り方を教えてくれました。",
+        "reading": "せんぱい",
+        "translation": "회사 선배가 자료 만드는 법을 알려 줬어요.",
+        "translationTarget": "선배",
+        "difficulty": 18,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1388410-1-ex-2",
+        "version": 1,
+        "before": "",
+        "answer": "先輩",
+        "after": "に相談してから、進路を決めました。",
+        "reading": "せんぱい",
+        "translation": "선배와 상담한 뒤 진로를 정했어요.",
+        "translationTarget": "선배",
+        "difficulty": 17,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1388410-1-ex-3",
+        "version": 1,
+        "before": "昨日、学校の",
+        "answer": "先輩",
+        "after": "と駅で偶然会いました。",
+        "reading": "せんぱい",
+        "translation": "어제 학교 선배와 역에서 우연히 만났어요.",
+        "translationTarget": "선배",
+        "difficulty": 17,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1009320-1",
+    "wordId": "lex-jmdict-1009320",
+    "version": 1,
+    "meaning": "척척, 계속 빠르게",
+    "hint": "일이 막힘없이 차례로 진행되거나 속도가 점점 붙는 모습을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "だんだん",
+        "distinction": "どんどん: 일이나 행동이 힘차고 빠르게 이어짐; だんだん: 상태나 정도가 조금씩 변화함."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1009320-1-ex-1",
+        "version": 1,
+        "before": "子供たちは坂を",
+        "answer": "どんどん",
+        "after": "登っていきました。",
+        "reading": "どんどん",
+        "translation": "아이들은 언덕을 척척 올라갔어요.",
+        "translationTarget": "척척",
+        "difficulty": 17,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1009320-1-ex-2",
+        "version": 1,
+        "before": "新しい店が",
+        "answer": "どんどん",
+        "after": "できて、町の様子が変わっています。",
+        "reading": "どんどん",
+        "translation": "새 가게가 계속 빠르게 생겨 동네 모습이 달라지고 있어요.",
+        "translationTarget": "계속 빠르게",
+        "difficulty": 19,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1009320-1-ex-3",
+        "version": 1,
+        "before": "分からないことは",
+        "answer": "どんどん",
+        "after": "質問してください。",
+        "reading": "どんどん",
+        "translation": "모르는 것은 주저하지 말고 계속 질문하세요.",
+        "translationTarget": "주저하지 말고 계속",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595270-1",
+    "wordId": "lex-jmdict-1595270",
+    "version": 1,
+    "meaning": "사전",
+    "hint": "단어의 표기와 읽기, 뜻과 용법을 찾아보도록 항목별로 정리한 책을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "事典",
+        "distinction": "辞典（じてん）: 단어의 읽기·뜻·용법을 풀이한 사전; 事典（じてん）: 사물이나 특정 분야의 지식을 설명한 사전. 발음은 같지만 한자와 정리하는 내용이 다르다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595270-1-ex-1",
+        "version": 1,
+        "before": "同じ言葉でも、",
+        "answer": "辞典",
+        "after": "によって説明の仕方が違います。",
+        "reading": "じてん",
+        "translation": "같은 단어라도 사전에 따라 설명 방식이 달라요.",
+        "translationTarget": "사전",
+        "difficulty": 19,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1595270-1-ex-2",
+        "version": 1,
+        "before": "日本語の意味を韓国語で説明した",
+        "answer": "辞典",
+        "after": "を買いました。",
+        "reading": "じてん",
+        "translation": "일본어 뜻을 한국어로 설명한 사전을 샀어요.",
+        "translationTarget": "사전",
+        "difficulty": 19,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1595270-1-ex-3",
+        "version": 1,
+        "before": "古い",
+        "answer": "辞典",
+        "after": "を開くと、絵や写真がたくさん載っていました。",
+        "reading": "じてん",
+        "translation": "오래된 사전을 펼치자 그림과 사진이 많이 실려 있었어요.",
+        "translationTarget": "사전",
+        "difficulty": 19,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223520-1",
+    "wordId": "lex-jmdict-1223520",
+    "version": 1,
+    "meaning": "귀중한, 소중한",
+    "hint": "쉽게 얻기 어렵거나 가치가 커서 함부로 쓰거나 잃지 않도록 아껴야 하는 상태를 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "高価",
+        "distinction": "貴重（きちょう）: 드물거나 가치가 높아 중요하게 여겨짐; 高価（こうか）: 돈으로 매긴 가격이 비쌈."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223520-1-ex-1",
+        "version": 1,
+        "before": "祖父から",
+        "answer": "貴重",
+        "after": "な話を聞くことができました。",
+        "reading": "きちょう",
+        "translation": "할아버지에게 귀중한 이야기를 들을 수 있었어요.",
+        "translationTarget": "귀중한",
+        "difficulty": 22,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1223520-1-ex-2",
+        "version": 1,
+        "before": "この古い写真は家族にとって",
+        "answer": "貴重",
+        "after": "です。",
+        "reading": "きちょう",
+        "translation": "이 오래된 사진은 가족에게 소중해요.",
+        "translationTarget": "소중해요",
+        "difficulty": 21,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1223520-1-ex-3",
+        "version": 1,
+        "before": "水の少ない地域では、一滴の水も",
+        "answer": "貴重",
+        "after": "です。",
+        "reading": "きちょう",
+        "translation": "물이 적은 지역에서는 물 한 방울도 귀해요.",
+        "translationTarget": "귀해요",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432410-1",
+    "wordId": "lex-jmdict-1432410",
+    "version": 1,
+    "meaning": "뒤쫓다, 추구하다",
+    "hint": "앞서 움직이는 대상을 따라가거나 목표를 향해 계속 나아가는 모습을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "追いかける",
+        "distinction": "追う: 대상을 쫓으며 목표·유행·순서를 따르는 뜻도 있다; 追いかける: 움직이는 대상을 뒤따라 쫓는 행동을 뚜렷이 나타낸다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432410-1-ex-1",
+        "version": 1,
+        "before": "逃げた馬を",
+        "answer": "追って",
+        "after": "、農場の人たちが森に入った。",
+        "reading": "おって",
+        "translation": "달아난 말을 뒤쫓아 농장 사람들이 숲으로 들어갔다.",
+        "translationTarget": "뒤쫓아",
+        "difficulty": 27,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1432410-1-ex-2",
+        "version": 1,
+        "before": "利益ばかりを",
+        "answer": "追う",
+        "after": "経営では、社員の健康が守れない。",
+        "reading": "おう",
+        "translation": "이익만 추구하는 경영으로는 직원의 건강을 지킬 수 없다.",
+        "translationTarget": "추구하는",
+        "difficulty": 30,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1432410-1-ex-3",
+        "version": 1,
+        "before": "祖母は指で行を",
+        "answer": "追いながら",
+        "after": "、私の手紙を読み始めた。",
+        "reading": "おいながら",
+        "translation": "할머니는 손가락으로 줄을 따라가며 내 편지를 읽기 시작하셨다.",
+        "translationTarget": "따라가며",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1310600-1",
+    "wordId": "lex-jmdict-1310600",
+    "version": 1,
+    "meaning": "그만두다, 하지 않다",
+    "hint": "하려던 행동을 멈추거나 더 하지 않기로 하는 선택을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "止める",
+        "distinction": "止す（よす）: 하던 일·하려던 행동을 그만두며 구어에서 자주 쓴다; 止める（やめる）: 일을 중단하거나 활동·직업을 그만둔다는 넓은 표현이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1310600-1-ex-1",
+        "version": 1,
+        "before": "風邪気味なので、今夜の外出は",
+        "answer": "止す",
+        "after": "ことにした。",
+        "reading": "よす",
+        "translation": "감기 기운이 있어 오늘 밤 외출은 하지 않기로 했다.",
+        "translationTarget": "하지 않기로",
+        "difficulty": 26,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1310600-1-ex-2",
+        "version": 1,
+        "before": "もうその話は",
+        "answer": "止そう",
+        "after": "。せっかくの食事が楽しくなくなる。",
+        "reading": "よそう",
+        "translation": "이제 그 이야기는 그만하자. 모처럼의 식사가 즐겁지 않게 되겠어.",
+        "translationTarget": "그만하자",
+        "difficulty": 26,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1310600-1-ex-3",
+        "version": 1,
+        "before": "人の持ち物を勝手に開けるのは",
+        "answer": "止して",
+        "after": "くれ。",
+        "reading": "よして",
+        "translation": "남의 물건을 마음대로 여는 것은 그만해 줘.",
+        "translationTarget": "그만해",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1269720-1",
+    "wordId": "lex-jmdict-1269720",
+    "version": 1,
+    "meaning": "후자",
+    "hint": "앞서 제시한 둘 가운데 뒤에 나온 대상을 떠올려 보세요.",
+    "confusions": [
+      {
+        "japanese": "前者",
+        "distinction": "後者: 두 대상 중 뒤에서 언급한 쪽; 前者: 두 대상 중 먼저 언급한 쪽."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1269720-1-ex-1",
+        "version": 1,
+        "before": "紙の地図とスマートフォンの地図では、",
+        "answer": "後者",
+        "after": "のほうが更新が早い。",
+        "reading": "こうしゃ",
+        "translation": "종이 지도와 스마트폰 지도 중에서는 후자가 더 빨리 갱신된다.",
+        "translationTarget": "후자",
+        "difficulty": 28,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1269720-1-ex-2",
+        "version": 1,
+        "before": "日帰り旅行か一泊旅行かで迷った末、",
+        "answer": "後者",
+        "after": "を選んだ。",
+        "reading": "こうしゃ",
+        "translation": "당일치기 여행과 일박 여행 사이에서 고민한 끝에 후자를 골랐다.",
+        "translationTarget": "후자",
+        "difficulty": 28,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1269720-1-ex-3",
+        "version": 1,
+        "before": "案は改修と建て替えの二つだが、",
+        "answer": "後者",
+        "after": "にはより多くの費用がかかる。",
+        "reading": "こうしゃ",
+        "translation": "안은 보수와 재건축 두 가지인데 후자에는 더 많은 비용이 든다.",
+        "translationTarget": "후자",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1240530-1",
+    "wordId": "lex-jmdict-1240530",
+    "version": 1,
+    "meaning": "둥근 알, 공, 구슬",
+    "hint": "손에 잡히는 둥근 물체나 작고 동그란 알갱이를 가리킵니다.",
+    "confusions": [
+      {
+        "japanese": "球",
+        "distinction": "玉는 구슬·알 같은 개별 물체에 널리 쓰이고 球는 구형의 입체나 스포츠의 공을 보다 형식적으로 가리킨다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1240530-1-ex-1",
+        "version": 1,
+        "before": "紐が切れて、首飾りの",
+        "answer": "玉",
+        "after": "が床に散らばった。",
+        "reading": "たま",
+        "translation": "끈이 끊어져 목걸이의 구슬이 바닥에 흩어졌다.",
+        "translationTarget": "구슬",
+        "difficulty": 27,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1240530-1-ex-2",
+        "version": 1,
+        "before": "子どもたちは、箱の穴に",
+        "answer": "玉",
+        "after": "を入れる遊びをしていた。",
+        "reading": "たま",
+        "translation": "아이들은 상자 구멍에 공을 넣는 놀이를 하고 있었다.",
+        "translationTarget": "공",
+        "difficulty": 26,
+        "status": "reviewed"
+      },
+      {
+        "id": "sense-lex-jmdict-1240530-1-ex-3",
+        "version": 1,
+        "before": "ガラスの",
+        "answer": "玉",
+        "after": "を光にかざすと、中の模様がよく見えた。",
+        "reading": "たま",
+        "translation": "유리 구슬을 빛에 비추니 안의 무늬가 잘 보였다.",
+        "translationTarget": "구슬",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1015310-1",
+    "wordId": "lex-jmdict-1015310",
+    "version": 1,
+    "meaning": "악센트, 강세·높낮이",
+    "hint": "말소리에서 특정 부분이 강하거나 음의 높낮이가 달라지는 특징입니다.",
+    "confusions": [
+      {
+        "japanese": "発音",
+        "distinction": "アクセント는 말소리의 강세·음높이 차이에 초점이 있고 発音는 소리를 내는 방식 전체를 가리킨다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1015310-1-ex-1",
+        "version": 1,
+        "before": "同じ言葉でも、",
+        "answer": "アクセント",
+        "after": "が違うと意味が変わることがある。",
+        "reading": "アクセント",
+        "translation": "같은 말이라도 악센트가 다르면 뜻이 달라지는 경우가 있다.",
+        "translationTarget": "악센트",
+        "difficulty": 37,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1444990-1",
+    "wordId": "lex-jmdict-1444990",
+    "version": 1,
+    "meaning": "도시",
+    "hint": "인구·시설·산업이 모여 형성된 도시 공간입니다.",
+    "confusions": [
+      {
+        "japanese": "都会",
+        "distinction": "都市는 도시를 중립적인 지리·행정 대상으로 부르기 쉽고 都会는 도시 생활·대도시의 인상을 강조하기 쉽다. 쓰임은 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1444990-1-ex-1",
+        "version": 1,
+        "before": "この",
+        "answer": "都市",
+        "after": "は港を中心に発展し、多くの工場が建てられた。",
+        "reading": "とし",
+        "translation": "이 도시는 항구를 중심으로 발전해 많은 공장이 세워졌다.",
+        "translationTarget": "도시",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1071680-1",
+    "wordId": "lex-jmdict-1071680",
+    "version": 1,
+    "meaning": "운동화",
+    "hint": "걷거나 운동할 때 신는 편한 신발",
+    "confusions": [
+      {
+        "japanese": "サンダル",
+        "distinction": "スニーカー는 발을 감싸는 운동화, サンダル는 발의 일부가 드러나는 신발이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1071680-1-ex-1",
+        "version": 1,
+        "before": "今日はたくさん歩くので、",
+        "answer": "スニーカー",
+        "after": "を履きます。",
+        "reading": "スニーカー",
+        "translation": "오늘은 많이 걸으므로 운동화를 신습니다.",
+        "translationTarget": "운동화",
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1204800-1",
+    "wordId": "lex-jmdict-1204800",
+    "version": 1,
+    "meaning": "울타리",
+    "hint": "대지의 경계를 이루도록 세운 담이나 나무 띠",
+    "confusions": [
+      {
+        "japanese": "屋根",
+        "distinction": "垣根는 대지의 경계를 이루는 울타리, 屋根는 건물 위를 덮는 구조이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1204800-1-ex-1",
+        "version": 1,
+        "before": "隣の家との",
+        "answer": "垣根",
+        "after": "に、白い花が咲いていた。",
+        "reading": "かきね",
+        "translation": "옆집과의 경계를 이루는 울타리에 흰 꽃이 피어 있었다.",
+        "translationTarget": "울타리",
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006440-1",
+    "wordId": "lex-jmdict-1006440",
+    "version": 1,
+    "meaning": "질질, 계속 미루며",
+    "hint": "끝내야 할 일을 결정하지 못한 채 불필요하게 오래 끄는 모습입니다.",
+    "confusions": [
+      {
+        "japanese": "じっくり",
+        "distinction": "선택한 ずるずる는 결단 없이 끌어 불필요하게 지체함이고 じっくり는 신중하게 시간을 들이는 긍정적 행동이다. 끌기·미끄러지기·후루룩 소리도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006440-1-ex-1",
+        "version": 1,
+        "before": "結論を出せないまま",
+        "answer": "ずるずる",
+        "after": "と会議が長引き、次の予定にも遅れた。",
+        "reading": "ずるずる",
+        "translation": "결론을 내리지 못한 채 질질 회의가 늘어져 다음 일정에도 늦었다.",
+        "translationTarget": "질질",
+        "difficulty": 45,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1153430-1",
+    "wordId": "lex-jmdict-1153430",
+    "version": 1,
+    "meaning": "취급, 대우",
+    "hint": "사람이나 물건을 어떤 방식으로 대하고 다루는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "扱う",
+        "distinction": "扱い는 취급·대우라는 명사이고 扱う는 다루거나 대하다는 동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1153430-1-ex-1",
+        "version": 1,
+        "before": "同じ会社で働いていても、雇用形態によって",
+        "answer": "扱い",
+        "after": "に差がある。",
+        "reading": "あつかい",
+        "translation": "같은 회사에서 일해도 고용 형태에 따라 대우에 차이가 있다.",
+        "translationTarget": "대우",
+        "difficulty": 45,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1213000-1",
+    "wordId": "lex-jmdict-1213000",
+    "version": 1,
+    "meaning": "환호성",
+    "hint": "기쁨이나 흥분으로 크게 외치는 소리입니다.",
+    "confusions": [
+      {
+        "japanese": "悲鳴",
+        "distinction": "歓声는 기쁨의 환호이고 悲鳴는 공포·고통 등에 놀라 지르는 비명이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1213000-1-ex-1",
+        "version": 1,
+        "before": "逆転の得点が決まった瞬間、会場は大きな",
+        "answer": "歓声",
+        "after": "に包まれた。",
+        "reading": "かんせい",
+        "translation": "역전 득점이 나온 순간 경기장은 큰 환호성에 휩싸였다.",
+        "translationTarget": "환호성",
+        "difficulty": 44,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1216410-1",
+    "wordId": "lex-jmdict-1216410",
+    "version": 1,
+    "meaning": "통째로",
+    "hint": "나누거나 일부를 빼지 않고 전체를 그대로 다룹니다.",
+    "confusions": [
+      {
+        "japanese": "一部だけ",
+        "distinction": "丸ごと는 온전한 전체를 대상으로 하고 一部だけ는 일부만을 대상으로 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1216410-1-ex-1",
+        "version": 1,
+        "before": "この料理では、玉ねぎを切らずに",
+        "answer": "丸ごと",
+        "after": "煮込む。",
+        "reading": "まるごと",
+        "translation": "이 요리에서는 양파를 자르지 않고 통째로 푹 끓인다.",
+        "translationTarget": "통째로",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1226880-1",
+    "wordId": "lex-jmdict-1226880",
+    "version": 1,
+    "meaning": "대본, 각본",
+    "hint": "공연이나 영상의 대사·장면·진행을 적은 문서입니다.",
+    "confusions": [
+      {
+        "japanese": "脚色",
+        "distinction": "脚本는 완성된 대본이고 脚色는 원작을 공연·영상에 맞춰 바꾸는 작업이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1226880-1-ex-1",
+        "version": 1,
+        "before": "撮影前に",
+        "answer": "脚本",
+        "after": "を読み合わせ、台詞の意図を確認した。",
+        "reading": "きゃくほん",
+        "translation": "촬영 전에 대본을 함께 읽고 대사의 의도를 확인했다.",
+        "translationTarget": "대본",
+        "difficulty": 44,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431330-1",
+    "wordId": "lex-jmdict-1431330",
+    "version": 1,
+    "meaning": "직전",
+    "hint": "어떤 일이 일어나기 바로 앞의 시점",
+    "confusions": [
+      {
+        "japanese": "直後",
+        "distinction": "直前는 사건 바로 전, 直後는 사건 바로 뒤이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431330-1-ex-1",
+        "version": 1,
+        "before": "出発の",
+        "answer": "直前",
+        "after": "に財布が見つかり、ほっとした。",
+        "reading": "ちょくぜん",
+        "translation": "출발 직전에 지갑을 찾아 안도했다.",
+        "translationTarget": "직전",
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1256300-1",
+    "wordId": "lex-jmdict-1256300",
+    "version": 1,
+    "meaning": "건재하다",
+    "hint": "사람이 여전히 건강하거나 힘·능력이 예전처럼 유지됩니다.",
+    "confusions": [
+      {
+        "japanese": "健全",
+        "distinction": "健在는 여전히 잘 살아 있거나 활약함이고 健全는 상태·제도가 건전함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1256300-1-ex-1",
+        "version": 1,
+        "before": "長く舞台を離れていたが、彼の表現力は今も",
+        "answer": "健在",
+        "after": "だった。",
+        "reading": "けんざい",
+        "translation": "오랫동안 무대를 떠나 있었지만 그의 표현력은 지금도 건재했다.",
+        "translationTarget": "건재했다",
+        "difficulty": 45,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1401360-1",
+    "wordId": "lex-jmdict-1401360",
+    "version": 1,
+    "meaning": "스모",
+    "hint": "두 선수가 원형 경기장에서 상대를 밀어내거나 넘어뜨리는 일본의 씨름 경기",
+    "confusions": [
+      {
+        "japanese": "柔道",
+        "distinction": "相撲는 원형 경기장에서 겨루는 일본 씨름, 柔道는 던지기와 굳히기 등을 쓰는 무도이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1401360-1-ex-1",
+        "version": 1,
+        "before": "祖母とテレビで",
+        "answer": "相撲",
+        "after": "を見ているうちに、力士の名前を覚えてしまった。",
+        "reading": "すもう",
+        "translation": "할머니와 텔레비전으로 스모를 보다 보니 선수들의 이름을 외워 버렸다.",
+        "translationTarget": "스모",
+        "difficulty": 37,
+        "status": "reviewed"
+      }
+    ]
+  }
+]
+export default content

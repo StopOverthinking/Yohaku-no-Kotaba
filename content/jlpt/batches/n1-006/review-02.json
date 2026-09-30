@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "a3a0247219e3542325e54cd245ca9ddff09948babe4a39c887a5cf3e2eee337f",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:01:53.140Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1260870",
+      "c268f9073f3b0398357029fdca72ea0a2f2d7c11156ab7ef33f01015a3f89d9f"
+    ],
+    [
+      "lex-jmdict-1261080",
+      "92d21a611ceaf213f20a5ce92982b153560349c7a6eae76458ab8827a1a8969b"
+    ],
+    [
+      "lex-jmdict-1261310",
+      "8d26031b6a623f9e5cc14598051b11034d7a9c13bf03cd742c0fa125101e5892"
+    ],
+    [
+      "lex-jmdict-1261450",
+      "b070bfaa11da6fad63648a11d0cdae6fa462bff77a8d4ef871daa09c0b217395"
+    ],
+    [
+      "lex-jmdict-1261570",
+      "382d52630414b8d30d003f716e6451503c2ee79ad96ff9fe536054dde1638a60"
+    ],
+    [
+      "lex-jmdict-1261850",
+      "7f63b74995bf737c22908d234401bf636596230060357cf0ce2e382e7e5abffe"
+    ],
+    [
+      "lex-jmdict-1262070",
+      "771f355312cf3d449ad7d05d52fad073be81280f736cb781b50cabf652f6eeb8"
+    ],
+    [
+      "lex-jmdict-1262150",
+      "0c1ef6fa5deba57acc997916545c6d5b3c9bf1e42f058e7ac84579e7ac6f5dcb"
+    ],
+    [
+      "lex-jmdict-1262160",
+      "cc108836a476aef65bb4148c7a74a11dbc8af81e52ccb86ce748892e9771e36c"
+    ],
+    [
+      "lex-jmdict-1262340",
+      "c42643cc0542efd23ef4606e00958599d630fa841c8804a3f3b029747a778f4d"
+    ],
+    [
+      "lex-jmdict-1262430",
+      "2ea8275b0e6e57cfb3a88813b1b85eafb7f8ca2b6f33745293b697f184831aae"
+    ],
+    [
+      "lex-jmdict-1262520",
+      "6799d3f1afe5ad876a67af87e66aced3c40edf6179135b4bef076d299a2b217f"
+    ],
+    [
+      "lex-jmdict-1262830",
+      "e2077c17262ef0ef54c11d3fe40cff6abe61898ff953210891920ee70ec95b2b"
+    ],
+    [
+      "lex-jmdict-1263290",
+      "121d3b09744e09ebd3cecde5d83e40b3c40c512dcc935eafa0da5a65c7e98ba8"
+    ],
+    [
+      "lex-jmdict-1263360",
+      "501a62feba08881f2df62520fdba8622da409412aa3fb6bd094262424ab1887d"
+    ],
+    [
+      "lex-jmdict-1263430",
+      "ba341c5ec5d69da0c147cd659f330a733501472ffb1f43e2b24facd8bfe1b8c5"
+    ],
+    [
+      "lex-jmdict-1263630",
+      "a8f6910f52de859c3388217590b90d13699b251f1accac666956cc000f274aab"
+    ],
+    [
+      "lex-jmdict-1263800",
+      "8abf37f6843803314a07edf8b40644a35780fc9ccf6235fe628b0fbb5c91ca78"
+    ],
+    [
+      "lex-jmdict-1263860",
+      "fb2091c61faf8f19fe4fe7342427afdaa0261d31377348a84219efcef0ab4f00"
+    ],
+    [
+      "lex-jmdict-1264580",
+      "bcc3fc168ca7cf94b24ccfb45874e7b5505cdbcdef88083caf2313bad36be9c6"
+    ],
+    [
+      "lex-jmdict-1264670",
+      "c17ab8c1e302b56746f9ce99c85d4f2c657c6a80c5596131123b73ecec96d4cf"
+    ],
+    [
+      "lex-jmdict-1264960",
+      "d3ea9442c4196d562ff030115f6f725cf7f9b800190f69060cc87eff9729a8a6"
+    ],
+    [
+      "lex-jmdict-1265000",
+      "a05a13ff496c97b698a7ac100850ed63e3d374aafc0fbb2863f9b43786f24b88"
+    ],
+    [
+      "lex-jmdict-1265760",
+      "8f2716cfb2325a3f1267a4666b5a03972f49f1300b89e430b5b1944f9110da14"
+    ],
+    [
+      "lex-jmdict-1266330",
+      "0aa1bb6643401e0e9509d0a84e535993e3b3eb79bb8f477a93f33e7ed28afc4a"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1261570",
+      "category": "clarity",
+      "note": "原子 힌트에서 답의 한국어 표현이 포함된 원자핵을 중심의 핵으로 풀어 독립 힌트로 만들었다."
+    },
+    {
+      "wordId": "lex-jmdict-1262430",
+      "category": "substantive",
+      "note": "石油의 가격 상승·운송비 장면과 겹쳐 항구에서 정유소로 원유를 보내는 장면으로 교체했다."
+    },
+    {
+      "wordId": "lex-jmdict-1263290",
+      "category": "substantive",
+      "note": "正解의 설명 누락 평가 장면과 겹쳐 보고서 지각 제출 감점으로 교체했다."
+    }
+  ]
+}

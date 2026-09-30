@@ -1,4 +1,5 @@
 import { appendLearnSheets, parseLearnSheets } from './learnSpreadsheet'
+import { resolveSetWords } from '@/features/vocab/model/setMembership'
 import { validateLearnContent } from '@/features/learn/contentValidation'
 import type { LearnSense } from '@/features/learn/contextTypes'
 import type { ColInfo, Range, WorkBook } from 'xlsx'
@@ -15,7 +16,8 @@ const compareInfoSheetName = 'compare_book'
 const comparePairsSheetName = 'compare_pairs'
 
 const wordbookInfoColumns = ['세트 이름', '세트 ID', '단어 ID 접두사'] as const
-const basicWordColumns = ['#', 'JP', '読', 'KR', '유형', '난도', '동사', '_wordId'] as const
+const basicInfoColumns = [...wordbookInfoColumns, '_membershipMode'] as const
+const basicWordColumns = ['#', 'JP', '読', 'KR', '유형', '난도', '동사', '_wordId', '_ownerSetId', '_sourceOrder'] as const
 const themeTopicColumns = ['#', '주제', '_topicId'] as const
 const themeWordColumns = ['#', 'JP', '読', 'KR', '유형', '주제', '난도', '동사', '_wordId', '_topicId'] as const
 const comparePairColumns = ['#', 'JP', '読', 'KR', '유형', '난도', '동사', '설명', '_pairId', '_side', '_wordId'] as const
@@ -179,6 +181,12 @@ function buildBasicSubset(snapshot: EditorSnapshot, setId: string) {
     throw new Error('기본 단어장 없음')
   }
 
+  if (targetSet.membershipMode === 'explicit') {
+    const words = resolveSetWords(targetSet, new Map(snapshot.words.map((word) => [word.id, word])))
+    if (words.length !== targetSet.wordIds.length) throw new Error('단어장 참조 ID 오류')
+    return { ...createEmptySnapshot(), sets: [{ ...targetSet, wordIds: [...targetSet.wordIds] }], words }
+  }
+
   return buildPublishedEditorSnapshot({
     ...createEmptySnapshot(),
     sets: [{ ...targetSet, wordIds: [] }],
@@ -228,9 +236,9 @@ function buildBasicWorkbook(
   const workbook = xlsx.utils.book_new()
   const infoSheet = createSheet(
     xlsx,
-    buildInfoRows(targetSet.name, targetSet.id, targetSet.wordIdPrefix),
-    wordbookInfoColumns,
-    [{ wch: 24 }, { wch: 24 }, { wch: 20 }],
+    buildInfoRows(targetSet.name, targetSet.id, targetSet.wordIdPrefix).map((row) => ({ ...row, _membershipMode: targetSet.membershipMode ?? '' })),
+    basicInfoColumns,
+    [{ wch: 24 }, { wch: 24 }, { wch: 20 }, { hidden: true, wch: 16 }],
   )
 
   const wordRows: BasicWordRow[] = words.map((word, index) => ({
@@ -242,6 +250,8 @@ function buildBasicWorkbook(
     난도: word.difficulty ?? '',
     동사: word.verbInfo ?? '',
     _wordId: word.id,
+    _ownerSetId: word.setId,
+    _sourceOrder: word.sourceOrder,
   }))
 
   const wordsSheet = createSheet(
@@ -257,6 +267,8 @@ function buildBasicWorkbook(
       { wch: 10 },
       { wch: 12 },
       { hidden: true, wch: 18 },
+      { hidden: true, wch: 18 },
+      { hidden: true, wch: 12 },
     ],
   )
 
@@ -440,6 +452,10 @@ function parseInfoRow(rows: Array<Record<WordbookInfoColumn, unknown>>) {
 }
 
 function normalizeBasicImport(set: VocabularySet, words: VocabularyWord[]) {
+  if (set.membershipMode === 'explicit') {
+    if (new Set(words.map((word) => word.id)).size !== words.length) throw new Error('중복 단어 ID')
+    return { mode: 'basic' as const, set, words }
+  }
   const normalized = normalizeEditorSnapshot({
     ...createEmptySnapshot(),
     sets: [set],
@@ -484,20 +500,22 @@ function normalizeCompareImport(wordbook: ComparisonWordbook, words: VocabularyW
 }
 
 function parseBasicWorkbook(workbook: WorkBook, xlsx: Awaited<ReturnType<typeof loadXlsx>>): ParsedEditorWorkbook {
-  const info = parseInfoRow(readRows<WordbookInfoColumn>(workbook, basicInfoSheetName, xlsx))
+  const infoRows = readRows<(typeof basicInfoColumns)[number]>(workbook, basicInfoSheetName, xlsx)
+  const info = parseInfoRow(infoRows)
+  const explicit = infoRows.find((row) => hasRowValue(row))?._membershipMode === 'explicit'
   const rawWords = readRows<BasicWordColumn>(workbook, basicWordsSheetName, xlsx)
   const words = rawWords
     .filter((row) => hasRowValue(row) && hasBasicWordContent(row))
     .map((row, index) => ({
       id: String(row._wordId ?? '').trim() || `${info.id || 'set'}_${index + 1}`,
-      setId: info.id,
+      setId: explicit ? String(row._ownerSetId ?? '').trim() || info.id : info.id,
       japanese: String(row.JP ?? ''),
       reading: String(row['読'] ?? ''),
       meaning: String(row.KR ?? ''),
       type: parseWordType(row['유형']),
       difficulty: parseDifficulty(row['난도']),
       verbInfo: parseOptionalText(row['동사']),
-      sourceOrder: index,
+      sourceOrder: explicit ? parseDifficulty(row._sourceOrder) ?? index : index,
     }))
 
   return normalizeBasicImport({
@@ -505,7 +523,8 @@ function parseBasicWorkbook(workbook: WorkBook, xlsx: Awaited<ReturnType<typeof 
     name: info.name,
     order: 0,
     wordIdPrefix: info.wordIdPrefix,
-    wordIds: [],
+    wordIds: explicit ? words.map((word) => word.id) : [],
+    ...(explicit ? { membershipMode: 'explicit' as const } : {}),
   }, words)
 }
 
@@ -664,7 +683,9 @@ export async function buildEditorWorkbook(snapshot: EditorSnapshot, scope: Edito
 
   if (scope.mode !== 'compare') {
     const setId = scope.mode === 'basic' ? scope.setId : scope.wordbookId
-    const ids = new Set([...snapshot.words, ...snapshot.themeWords].filter((word) => word.setId === setId).map((word) => word.id))
+    const ids = new Set(scope.mode === 'basic'
+      ? buildBasicSubset(snapshot, setId).words.map((word) => word.id)
+      : snapshot.themeWords.filter((word) => word.setId === setId).map((word) => word.id))
     appendLearnSheets(workbook, xlsx, (snapshot.learnContent ?? []).filter((sense) => ids.has(sense.wordId)))
   }
   return xlsx.write(workbook, { bookType: 'xlsx', type: 'array' }) as ArrayBuffer

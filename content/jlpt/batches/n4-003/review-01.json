@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "422589da5a53ab57a8606144c201acd0174fb41ea818784bf1c25a4decc7cb56",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:49:35.080Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1382440",
+      "b02f31b481a00e3570ce5ec6a0b231878b52f67fbb0c85fb129307fe54645e16"
+    ],
+    [
+      "lex-jmdict-1443760",
+      "4bde6d3e8eb2a23d03ec1f0fe702c6123b672a8306bea4519d60a97eec5a1635"
+    ],
+    [
+      "lex-jmdict-1148520",
+      "22f7c4d391f0accf244721351b480ddec46e8d2056716f2817c073177e49d845"
+    ],
+    [
+      "lex-jmdict-1621470",
+      "5a45a0d84555babc974d56a8b5784e91083cf3c5d24dad1abca3a4c44f14ad50"
+    ],
+    [
+      "lex-jmdict-1076120",
+      "c09f9bb0e4dc9dede0640450d167828abf17e00739cb540c850bb47b52be5639"
+    ],
+    [
+      "lex-jmdict-1145990",
+      "e6dd6be7123cb718712e22509865a4679a7910eb6981ec2078705d7f82edc529"
+    ],
+    [
+      "lex-jmdict-1169120",
+      "2f585d5b5ee7e50746c17a0d85df241fd01566049548c2a25b03bbd244a1bcf1"
+    ],
+    [
+      "lex-jmdict-1171680",
+      "a1db11bee4c27da29a216e871024309915707d9970f302de13c1b2e3e882c9ea"
+    ],
+    [
+      "lex-jmdict-1246440",
+      "b8807596dbb6d3bb9208865ff6ebd39138666ed985b574b3c30ca57c009c946b"
+    ],
+    [
+      "lex-jmdict-1293640",
+      "7b2580d68a8ee250899cc7acc18f0faadf57e4779ebfafd9897c52514fd83e99"
+    ],
+    [
+      "lex-jmdict-1293650",
+      "ec8da7e48f1ffe57cc3268733378eb9bb1374f8ca057829081ff71f25964069a"
+    ],
+    [
+      "lex-jmdict-1293660",
+      "4ceb55bf7435b59c891f449daef083345653f69267322ac011194fbbf5774afc"
+    ],
+    [
+      "lex-jmdict-1301340",
+      "169c8e584a5b3c62a060ce7b8bb646205f9b85120b0eac4c99bc0c857c213a4d"
+    ],
+    [
+      "lex-jmdict-1329770",
+      "5beff1269967d4b0dd2f62b5695d93d0d1dddf75bb3b1452dce50be942a18bd5"
+    ],
+    [
+      "lex-jmdict-1338400",
+      "e95d98619d40212d98c91f62579a68fc1bae4e5022eb4b120d5c290e00eabe4d"
+    ],
+    [
+      "lex-jmdict-1502690",
+      "49e733a46c87d054329c74e843808635cb281ec201b227fdfa1a2aca76d55d79"
+    ],
+    [
+      "lex-jmdict-1534870",
+      "02c59bf7f48cf8f629cb9358fc81aae9bf0c92b7aeaab94518a82e0c972863dc"
+    ],
+    [
+      "lex-jmdict-1579490",
+      "b11bba59faaf9c1efc28b800cb55d96e128727590996cc7b7fb56861690c5ba1"
+    ],
+    [
+      "lex-jmdict-1580490",
+      "666dddffbb9bec4a1f010eb9914d481ed1da1e1465cdaf40ba0c6998aaa8feb8"
+    ],
+    [
+      "lex-jmdict-1581690",
+      "a1344cf14f665b3c9011fac2c2ead63e0296650ed8654c2aa26c03708ca37c11"
+    ],
+    [
+      "lex-jmdict-1581710",
+      "842027926402555f136d678b6a54e8c2ed07df740dd2efcf7e8c0741b7a9b32b"
+    ],
+    [
+      "lex-jmdict-1584820",
+      "b2b230455a6a56ba5c5f6cb9b9c96b82fb1bac0cd3f68dbf0f7946213349089d"
+    ],
+    [
+      "lex-jmdict-1575990",
+      "bdcd6d30984536e8ba1a283848c9a9b3d793f32178002866f6baf11059b8fe80"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1171680",
+      "category": "substantive",
+      "note": "깃털로 선택한 의미와 별개로 羽도 날개를 뜻할 수 있어 翼와의 배타적 구별을 방지했다."
+    },
+    {
+      "wordId": "lex-jmdict-1579490",
+      "category": "substantive",
+      "note": "자매 관계를 같은 부모에게서 태어난 경우로 한정하던 힌트를 수정했다."
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+[
+  {
+    "wordId": "AbsoluteVerb_99",
+    "sourceHash": "fc1edd13995a29c84160ab5e7779be93ed7d28845bdd9f9d256db64c7979f7bb",
+    "level": "N3",
+    "dictionaryId": "jmdict-1257810",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(종이 등을) 넘기다, 들추다” 및 1개 sense를 대조했다. turn pages와 앨범·책장 예문이 일치한다. 등급 근거는 없지만 생활 독서 동작으로 N3를 편집 제안한다. 같은 표기 AbsoluteVerb_100은 다른 읽기·사전 ID·걷어올림 뜻이므로 별칭 제외한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_100",
+    "sourceHash": "5deff0d14eb6a83988ff8a7e57ac10d7ba17cd4edc2f3bf941c9a89ca041f3b8",
+    "level": "N1",
+    "dictionaryId": "jmdict-1257800",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “걷어올리다” 및 1개 sense를 대조했다. roll up와 소매·바짓단 예문이 일치한다. AbsoluteVerb_99의 페이지 넘김과 다른 사전 항목이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_101",
+    "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1338180",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “내다, 제출하다” 및 1개 sense를 대조했다. submit와 신청서·숙제 제출 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_102",
+    "sourceHash": "233486f8d701038e1efe0d91c2bef8651012dedd1607fc4f2c3a26b4e1cfa0c4",
+    "level": "N5",
+    "dictionaryId": "jmdict-1597890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “만들다” 및 1개 sense를 대조했다. make·prepare food와 천 봉지·저녁 식사 예문이 일치한다. N5/N1 중 기본 제작과 조리에 N5를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_103",
+    "sourceHash": "c426786ae46fb851cb1a431094a287ccdfa6d0900b44adefc43c19d6f3e4bf0b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1421850",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “놓다, (간격을) 두다” 및 1개 sense를 대조했다. put와 열쇠·냄비 배치 예문이 일치한다. 간격 두기는 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_104",
+    "sourceHash": "cea5c05b33acd7c7e61717f455c440ab5f82e81a5fe0af8000312d4333c62623",
+    "level": "N5",
+    "dictionaryId": "jmdict-1597040",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “서다” 및 1개 sense를 대조했다. stand up·stand와 기립·출구 앞 위치 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_105",
+    "sourceHash": "7cc8e3284655799f914760c8a2765e366ae42270e2d785c05f601eb74ef0afdd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1551370",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “일어서다” 및 1개 sense를 대조했다. stand up와 이름 호명·어지럼 예문이 일치한다. 기동·회복은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_106",
+    "sourceHash": "1180ef6dbe75ec78a5b4d06c31dd0da2437c387e534949b4bf7006247a113b9e",
+    "level": "N5",
+    "dictionaryId": "jmdict-1291800",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “앉다” 및 1개 sense를 대조했다. sit와 나무 아래·예약 좌석 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_107",
+    "sourceHash": "a5b822c85d8b778aa5dd5689c0b0b31087edc1cd540130ae4aaf6ffc0abd5d93",
+    "level": "N2",
+    "dictionaryId": "jmdict-1005630",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “웅크리다” 및 1개 sense를 대조했다. squat와 꽃 촬영·선반 아래 관찰 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_108",
+    "sourceHash": "709223fd686165add2a8ecccdeb3f383f57b99e9b69c81f6923c326eb43ec08b",
+    "level": "N2",
+    "dictionaryId": "jmdict-1500220",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “엎드리다, 엎어 놓다, 숨기다” 및 1개 sense를 대조했다. place face down와 카드·찻잔 엎기 예문이 일치한다. 출처 등급은 없지만 물건 방향을 뒤집는 일반 동작으로 N2를 편집 제안한다. 엎드림과 숨김은 별도 용법이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_109",
+    "sourceHash": "2d077d3564ef42a0b0dba74ee3305b65cb54db7d541aa6d4edc1129b7c160467",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “드러눕다” 및 1개 sense를 대조했다. 소파 휴식·잠 없이 누워 쉬기 예문은 눕는 복합 표현에 일관된다. 제공 후보가 없어 横になる의 사전 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "横になる의 복합 표현 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_112",
+    "sourceHash": "d9d9c880faa7840dece08bba7908804048ad555efd13973ab862e84e04e5e710",
+    "level": "N4",
+    "dictionaryId": "jmdict-1450270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “밟다” 및 1개 sense를 대조했다. step on와 타인의 발·잔디 예문이 일치한다. 절차 밟기는 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_113",
+    "sourceHash": "705d264012f4483f077bc05c5de8706416169325cd3fbb39494e4fd88f65010e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1483200",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “슬퍼하다” 및 1개 sense를 대조했다. be sad와 반려묘 죽음·아버지를 슬프게 하지 않기 예문이 일치한다. 사역형도 같은 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_114",
+    "sourceHash": "6a96fdc7801aa7a7ace4e64516afcbaa02e0ed72ca3edadd4d83e1c9e0c96c47",
+    "level": "N1",
+    "dictionaryId": "jmdict-1446980",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “애도하다” 및 1개 sense를 대조했다. mourn와 은사·희생자 애도 예문이 일치한다. 출처 등급은 없지만 부고·추모의 문어적 동사로 N1를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_115",
+    "sourceHash": "ff26cc267e19a665f5a79a5da00b762999122d462db68ea2b9faa0524a816f4f",
+    "level": "N4",
+    "dictionaryId": "jmdict-1207270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4·N1이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “즐기다” 및 1개 sense를 대조했다. enjoy와 독서·연주 예문이 일치한다. N4/N1 중 기본 즐김에 N4를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_116",
+    "sourceHash": "a73bc872139ef1ff95287e894f517b68126941822eae987b1942e6e1bc86cac3",
+    "level": "N3",
+    "dictionaryId": "jmdict-1277520",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “좋아하다” 및 1개 sense를 대조했다. prefer와 조용한 숙소·아이 입맛 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_118",
+    "sourceHash": "74a8c7c402f5228e534fbd7220fdcdbce1ffc45bbd5159387509876f18d2a058",
+    "level": "N2",
+    "dictionaryId": "jmdict-1403440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “미워하다” 및 1개 sense를 대조했다. hate와 배신자·미움에 쓰는 시간 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_119",
+    "sourceHash": "1f524ac4d72470cc25f348ee1d904436b3d95506b38bcbb4e8c256e55bc06f40",
+    "level": "N3",
+    "dictionaryId": "jmdict-1589200",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “두려워하다” 및 1개 sense를 대조했다. fear와 실패·변화 두려움 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_120",
+    "sourceHash": "ca73e84d865f895a2cf3d3dc3b5f1503cd181441965dc08177261f9485014545",
+    "level": "N1",
+    "dictionaryId": "jmdict-1382300",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “소중히 여기다, 아쉬워하다” 및 1개 sense를 대조했다. lament와 이별·선수 은퇴의 아쉬움 예문이 일치한다. 아끼며 쓰는 뜻은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_121",
+    "sourceHash": "ad2e460faa65a35cd8130da73f4c4a15dcf6de3e82aab925ba48650fc298ecf0",
+    "level": "N2",
+    "dictionaryId": "jmdict-1289780",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “원망하다” 및 1개 sense를 대조했다. resent와 형 원망·자기 결정에 대한 원망 예문이 일치한다. 두 후보 중 원망의 jmdict-1289780을 선택하고 단순 후회의 다른 후보는 제외한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_123",
+    "sourceHash": "8c88494706615a4c918223d9f62f4b7a7d38ed2f4185a8a3564a7b9aa95e1364",
+    "level": "N2",
+    "dictionaryId": "jmdict-1238650",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “놀라게 하다” 및 1개 sense를 대조했다. surprise와 뒤에서 부르기·큰 목소리 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_124",
+    "sourceHash": "191a797bcb1e3518fbfffb0df3fa9a4acbf2bc8947bc5005c7a14f60f5c25b91",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “깜짝 놀라다” 및 1개 sense를 대조했다. 호명·가격 때문에 놀란 예문은 일관된다. 제공 후보가 없어 びっくり 및 する 결합의 사전 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "びっくりする의 기본 항목과 동사 표현 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_125",
+    "sourceHash": "91e3c58570221ca78ec003fb842edf1c94d575f7685660183f8a717eb61a30e1",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “설레다” 및 1개 sense를 대조했다. 무대 기대·편지의 설렘 예문은 일관된다. 제공 후보가 없어 ときめく의 표기·사전 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ときめく의 현재 읽기와 설렘 의미 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_126",
+    "sourceHash": "bb8e0ee69d18cdf3c14557a2baf636da009a8b9aeb1a3f676fa01a86195603d0",
+    "level": "N1",
+    "dictionaryId": "jmdict-1190730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “귀여워하다” 및 1개 sense를 대조했다. dote on와 고양이·이웃에게 사랑받은 아이 예문이 일치한다. 거칠게 훈련한다는 다른 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_128",
+    "sourceHash": "20c28d77f55f6ec5cf472cb8aeba09258df1a6f46910b34303500c914f2cded1",
+    "level": "N1",
+    "dictionaryId": "jmdict-1515580",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “어이가 없다” 및 1개 sense를 대조했다. be exasperated와 반복 변명·어지러운 방 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_129",
+    "sourceHash": "01f3a20822ad7fbc8d1103b21d631a6dc05d49ff997f1045534c1036ebabb6ab",
+    "level": "N4",
+    "dictionaryId": "jmdict-1445690",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “화내다, 꾸짖다” 및 1개 sense를 대조했다. get angry와 약속 망각·접시 파손 예문이 일치한다. 꾸짖음은 사전에 있지만 현재 예문은 감정이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_130",
+    "sourceHash": "dadaf09516fb5b0f0074ca861a89c0cd622ed2dbc2153865104eef7286cf31ee",
+    "level": "N3",
+    "dictionaryId": "jmdict-1319580",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “꾸짖다” 및 1개 sense를 대조했다. scold와 도로 안전·사정 확인 전 꾸짖기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_131",
+    "sourceHash": "18b147d848a561c753e3e40c2e1a8bea5c26408292b7042d928b0eea33984a5e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1603550",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “칭찬하다” 및 1개 sense를 대조했다. praise와 글씨·잘한 부분 칭찬 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_132",
+    "sourceHash": "328a0df71396d5aede2f9fc8c9b9f8c373ab2b26ca0ecd8bb9625f997f1e7d0b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(악의적으로) 괴롭히다” 및 1개 sense를 대조했다. 약한 아이·작은 동물 괴롭힘 예문은 일관된다. 제공 후보가 없어 いじめる/苛める 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "いじめる의 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_133",
+    "sourceHash": "576f777f7475dec28bc1c652c49e3d4ab09237a3f9f3ddf7ce6d0e9ed083d0e2",
+    "level": "N1",
+    "dictionaryId": "jmdict-1213440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “응석부리다, (호의를) 스스럼없이 받아들이다” 및 1개 sense를 대조했다. behave like a spoiled child와 안기기 요청·어머니 앞 응석 예문이 일치한다. 호의를 받아들이는 다른 용법은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

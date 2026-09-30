@@ -1,0 +1,13 @@
+{
+  "reviewedAt": "2026-09-30T04:01:07.686Z",
+  "status": "classification-complete",
+  "groups": 30,
+  "reviewedIds": 38,
+  "acceptedClassifications": 38,
+  "minimumExamplePolicy": 1,
+  "scope": "원본 뜻·읽기·품사·대표 예문과 선택 사전 의미·출처 등급을 전량 대조한 분류 제안만 승인한다. 원본 의미 편집·별칭 통합·프로필 이전·전체 콘텐츠 품질 승인과는 별개다.",
+  "examplePolicyNote": "기존 제안에 남은 세 번째 예문 필수 문구는 최신 최소 1개 정책으로 대체되며, 기존 2개 예문은 그대로 보존한다.",
+  "sourceMutation": false,
+  "aliasMergeApproved": false,
+  "profileMigrationApproved": false
+}

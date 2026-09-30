@@ -1,0 +1,347 @@
+[
+  {
+    "wordId": "JLPTN3_361",
+    "sourceHash": "6b08ad8eb13aa7e22edd16543fe209d458157f7362cdb3f04eef57783a0b2809",
+    "level": "N2",
+    "dictionaryId": "jmdict-1358430",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "현재 대표 뜻 식기 및 1개 용법(식기)의 사전 대응과 모든 예문을 다시 확인했다. 기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_362",
+    "sourceHash": "ed1e0d9e0ecd970a08095eb106a277ac0af3efea9cb2d49d1760d78b4b23bd0a",
+    "level": "N2",
+    "dictionaryId": "jmdict-1312820",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “자료” 및 1개 sense를 대조했다. materials·documents와 회의 자료·지역 조사 사진 자료 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_363",
+    "sourceHash": "0204da5c8cd2f9672430962a31fbff5d6cc2f94ccda47ed6e24b672fc937c3f8",
+    "level": "N1",
+    "dictionaryId": "jmdict-1366060",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “진행” 및 1개 sense를 대조했다. progress와 행사 운영·공사 진행 예문이 일치한다. 차량 이동이나 질병 진행은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_364",
+    "sourceHash": "9ffa92ab64d8f2cd0465cbbed96b11cb771a78ea5f867f1f903e79098061cd98",
+    "level": "N2",
+    "dictionaryId": "jmdict-1363130",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “신청” 및 1개 sense를 대조했다. application와 휴가·보조금 신청 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_365",
+    "sourceHash": "300e04a4898487d03a8ac66e937615057672b4f44bddae2064e1c94e107f0db5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1366190",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “진보” 및 1개 sense를 대조했다. improvement와 발음 향상·의학 발전 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_366",
+    "sourceHash": "cfd630c6baaec2d24c235d9fa32ced638d178318e67d725085e48cb6f1ad0f59",
+    "level": "N3",
+    "dictionaryId": "jmdict-1373060",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “숫자” 및 1개 sense를 대조했다. digit와 글자 3·8 구별 및 전화번호 끝자리 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_367",
+    "sourceHash": "acca7122e2a1d1e9a5ed4385bceb711a3e16b6038ea540f7901a4932d53221be",
+    "level": "N3",
+    "dictionaryId": "jmdict-1450890",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “두통” 및 1개 sense를 대조했다. headache와 회의 결석·증상 호전 후 식사 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_368",
+    "sourceHash": "ca97dda44dbc7afa5ba365a4a5fded22b185e1a0273b8baa47b2b5990d5aa9ec",
+    "level": "N4",
+    "dictionaryId": "jmdict-1291500",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “모래” 및 1개 sense를 대조했다. sand와 신발 속 모래·젖은 모래성 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_369",
+    "sourceHash": "31b4b9e62160e2f19beca52bac61b09288bdd4cfda8ec2d3afcbb538cd163804",
+    "level": "N1",
+    "dictionaryId": "jmdict-1376740",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “정답” 및 1개 sense를 대조했다. correct answer와 교실 정답 발표·이유 설명 조건 예문이 일치한다. 적절한 선택이라는 별도 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_370",
+    "sourceHash": "1b5ee01c2f3b620913efec6c5bcc46be4e9e887bed42a34aa953b050209eb63e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1375290",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “성격” 및 1개 sense를 대조했다. personality와 자매 성격 차이·실패를 웃어넘기는 성격 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_371",
+    "sourceHash": "e61fb8e7a1768af54fa50023b2fd9e9f84efa5216b7b67a47a84c910c0f681fe",
+    "level": "N3",
+    "dictionaryId": "jmdict-1382100",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “세금” 및 1개 sense를 대조했다. tax와 급여 공제·공공 교량 보수 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_372",
+    "sourceHash": "3cf6f953576a6d41baae061f85dbf123220e21064d6cc5cbc0eef161a3ac58b2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1374700",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “제한” 및 1개 sense를 대조했다. restriction와 차량 높이·글자 수 제한 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_373",
+    "sourceHash": "f4aaa38f0349f152d329ac3be6367d01fa0b4e79555f2acb1a1cb2268effc344",
+    "level": "N3",
+    "dictionaryId": "jmdict-1375690",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “성공” 및 1개 sense를 대조했다. success와 도전 성공·행사 성공 축하 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_374",
+    "sourceHash": "feca27882372fe6d572f579eedbd9d6667da1047a4f4c0da48a4573d109920a4",
+    "level": "N1",
+    "dictionaryId": "jmdict-1377390",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “정상” 및 1개 sense를 대조했다. normal과 엔진 작동·검사 수치 정상 범위 예문이 일치한다. 사전은 명사와 형용동사 모두 허용하므로 기존 명사를 유지한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_375",
+    "sourceHash": "fc33d069f6cb0747289a844052bb959f701e076d65d3391946c581cabe18ca39",
+    "level": "N3",
+    "dictionaryId": "jmdict-1375760",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “성적” 및 1개 sense를 대조했다. results·grades와 수학 성적·선수 시즌 성적 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_376",
+    "sourceHash": "a83c31638f8d8ae76c332ba85c452056ec6e822755b53a21fa1ea9e241a2574b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1376250",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “정리” 및 1개 sense를 대조했다. putting in order와 사진·책상 정리 예문이 일치한다. 채무 정산은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_377",
+    "sourceHash": "c2334d88a95df17442571de0d4b2680499ba0596593fc20d235aa9b770333958",
+    "level": "N3",
+    "dictionaryId": "jmdict-1382830",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “석유” 및 1개 sense를 대조했다. petroleum와 가격 상승·수입 에너지 예문이 일치한다. 등유로 좁히지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_378",
+    "sourceHash": "d405484cfe6ce7afcbf12903ba49588d44f41dfd5355c46ce4ea3004196fdbdd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1392250",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “선수” 및 1개 sense를 대조했다. athlete와 후보 선수·야구 선수 예문이 일치한다. handmade_62와 경기 참가자 의미 및 사전 ID가 같아 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_62"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_62",
+    "sourceHash": "1efba96b071e53b0414f9dedc31f52a8975b498de9e2cd955b947bdc2e63c547",
+    "level": "N3",
+    "dictionaryId": "jmdict-1392250",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “선수” 및 1개 sense를 대조했다. athlete와 부상 선수 응원·경기 후 연습 예문이 일치한다. JLPTN3_378과 같은 의미이므로 별칭 후보이며 기존 이력은 보존한다.",
+    "aliasCandidateIds": [
+      "JLPTN3_378"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_379",
+    "sourceHash": "e300aba2ba3d369efcabe186c6b52d584346c619b88176ece7bdb7deb146c0bb",
+    "level": "N5",
+    "dictionaryId": "jmdict-1390980",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “세탁, 빨래” 및 1개 sense를 대조했다. laundry와 시트 빨래·주머니 표를 놓친 빨래 예문이 일치한다. 심신의 재충전이라는 비유적 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_380",
+    "sourceHash": "f116049956b00b244afc7acce17dd10be86575678b28bf53b267f7838935c80f",
+    "level": "N2",
+    "dictionaryId": "jmdict-1389730",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “선전” 및 1개 sense를 대조했다. advertising와 가게 전단·공연 입소문 예문이 일치한다. 현재 sense는 정치 선전으로 한정하지 않고 홍보를 명시한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_381",
+    "sourceHash": "018b9a55695bcd21717a92f9321fb547b51bf1841a600905f76e4f5fb4fa5dab",
+    "level": "N3",
+    "dictionaryId": "jmdict-1389880",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “전문” 및 1개 sense를 대조했다. area of expertise와 해양 생물 전공·전문 밖 질문 예문이 일치한다. 출처 등급은 없지만 직업과 학업에서 분야를 말하는 일반 용법으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_382",
+    "sourceHash": "c7fcc35a10767435c301b0442427e7f7009f2e3dbca07dea68909c55c7e96111",
+    "level": "N3",
+    "dictionaryId": "jmdict-1399610",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “상상” 및 1개 sense를 대조했다. imagination와 미래 자신·실물 크기 예상 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_383",
+    "sourceHash": "e2851bed7c84ff7f4c7eaea32604cdde9312ce65697680210c54162d0c148027",
+    "level": "N3",
+    "dictionaryId": "jmdict-1400310",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “조퇴” 및 1개 sense를 대조했다. leaving early와 수업·근무 조퇴 예문이 일치한다. 출처 등급은 없지만 학교와 직장의 일반 출결 표현으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_384",
+    "sourceHash": "7aa48bbf0a0bb03d369e191dde3e8ef1a885011ef66386a11e8c81d4a1afc1c2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1401210",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “상담” 및 1개 sense를 대조했다. consultation와 이직 조언·비용 상담 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_385",
+    "sourceHash": "6ac21a23b69acf8e0f13bcc03c208fc64f2bbe2fa5db330177f769df45f273e2",
+    "level": "N3",
+    "dictionaryId": "jmdict-1405050",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “속도” 및 1개 sense를 대조했다. speed·pace와 차량 감속·말하기 속도 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_386",
+    "sourceHash": "eea5f7b5cd82a35239170840989a9bf16ea10fccd6c30027655982f2a4bc4153",
+    "level": "N3",
+    "dictionaryId": "jmdict-1436050",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “바닥” 및 1개 sense를 대조했다. bottom과 가방·연못 안쪽 맨 아래 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_387",
+    "sourceHash": "29aa51ba38486b22d9583b820ecc27132a350cab1de885c0008cd20855ba740a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1405890",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “졸업” 및 1개 sense를 대조했다. graduation와 졸업 후 거주·졸업 사진 예문이 일치한다. 조직을 그만둠이라는 확장 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_388",
+    "sourceHash": "0c07a09ea4fbd82e0f4e8673a409348b128b5bd46d6bddd211a3deab29b92468",
+    "level": "N3",
+    "dictionaryId": "jmdict-1406150",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “존재” 및 1개 sense를 대조했다. existence·presence와 지도에서 확인한 길·곁에 있는 사람 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_389",
+    "sourceHash": "1effce6f722d027a5d5eb45351b8455e162edc1b6d58149eeab93e0a8010bf57",
+    "level": "N3",
+    "dictionaryId": "jmdict-1413180",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “대회” 및 1개 sense를 대조했다. competition와 첫 대회 순위·수영 대회 취소 예문이 일치한다. 대규모 회의 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "JLPTN3_390",
+    "sourceHash": "650149a4864eb94527985a943cc3bfe2cf2d67a51d63d4bdd122e4cc00132f30",
+    "level": "N3",
+    "dictionaryId": "jmdict-1411790",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “대금” 및 1개 sense를 대조했다. price·payment와 상품·수리 대금 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

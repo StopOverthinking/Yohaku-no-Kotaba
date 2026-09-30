@@ -1,17 +1,24 @@
 import { describe, expect, it } from 'vitest'
 import { learnContent } from '@/features/vocab/data/learnContent'
 import { contextContentIssues, contextContentReady, contextWords } from './contextContent'
-import { isReviewedSense } from './contentValidation'
+import { isReviewedSense, validateLearnContent } from './contentValidation'
 
 describe('published contextual corpus', () => {
-  it('covers every basic and theme word with a reviewed sense and two reviewed examples', () => {
+  it('requires an actual reviewed example even when editorial flags are complete', () => {
+    const sense = learnContent[0]
+    expect(isReviewedSense({ ...sense, examples: [] })).toBe(false)
+    expect(isReviewedSense({ ...sense, examples: [{ ...sense.examples[0], status: 'draft' }] })).toBe(false)
+    expect(isReviewedSense({ ...sense, examples: [sense.examples[0]] })).toBe(true)
+  })
+  it('covers every basic and theme word with a reviewed sense and at least one reviewed example', () => {
     expect(contextContentIssues).toEqual([])
+    expect(contextContentIssues).toEqual(validateLearnContent(learnContent, new Set(contextWords.map((word) => word.id))))
     expect(contextContentReady).toBe(true)
     for (const word of contextWords) {
       const senses = learnContent.filter((sense) => sense.wordId === word.id && isReviewedSense(sense))
       expect(senses.length, word.id).toBeGreaterThanOrEqual(1)
       expect(
-        senses.some((sense) => sense.examples.filter((e) => e.status === 'reviewed').length >= 2),
+        senses.some((sense) => sense.examples.some((e) => e.status === 'reviewed')),
         word.id,
       ).toBe(true)
     }

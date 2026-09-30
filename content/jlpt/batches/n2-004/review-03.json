@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "0eb1de4d2edc9e6cea8a3bb901d2b29219dbd01254049e35739cacb0392b9d12",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:16:50.503Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1350710",
+      "10a5a5faa280525d570205da400970397203800f37555696de12dcc999a31198"
+    ],
+    [
+      "lex-jmdict-1350840",
+      "24a8d4219309f31d518390ef09d0edc779410c6f9aa1f137abb1684f141ccf42"
+    ],
+    [
+      "lex-jmdict-1350860",
+      "7a3d9b0354e69f4a2ce15282698a856576b671e38d35de8034d67e3d2dc0ba3d"
+    ],
+    [
+      "lex-jmdict-1356870",
+      "d3859fd673b989d7eb0ebc630afb72cd673622968f077bdc1096571ddc05b7c4"
+    ],
+    [
+      "lex-jmdict-1365190",
+      "45d113895a6dbea815a75b5815c8729aed384f3df4f26014d0d5c67322c17852"
+    ],
+    [
+      "lex-jmdict-1365420",
+      "61e3ce50ec284c24b10e28770dd4ca313b67995005d6fcd149b8cc0e4d99c8e5"
+    ],
+    [
+      "lex-jmdict-1365450",
+      "beb54d0d2de1f15c93e4b86db7f1aebb21ba5b8d2a14d8846d4ca6cad84d30c6"
+    ],
+    [
+      "lex-jmdict-1365480",
+      "62cc9c0fc79c1bc494ddc03d0974af8183118bec5e855d2c59dde74714d35a97"
+    ],
+    [
+      "lex-jmdict-1362660",
+      "7d5a30b6a8dbc84702ce829d52b7ea9b35deda6fb389416b91557517edb29b78"
+    ],
+    [
+      "lex-jmdict-1360920",
+      "0194f4fe3cbe4fa1217618b6639301f5495e9f6807ca8872ee0cf2b93a618589"
+    ],
+    [
+      "lex-jmdict-1363190",
+      "a1c06443e8be5890739dba9b4587695788e423efa73e6fb86fee6b7467042831"
+    ],
+    [
+      "lex-jmdict-1368820",
+      "bc53065dc737adfa45463fd12f5f5fc59ee94e01af65f78780d3943dc56ec95f"
+    ],
+    [
+      "lex-jmdict-1369400",
+      "19b681bbbcc32462eaa144f17865079c9b64ff6d202e17bf4b6d1b201d75d973"
+    ],
+    [
+      "lex-jmdict-1370370",
+      "4af0ebb1e5744c2150a67c9018d91695ab76c68448cab7cd6968d7fe20cb24ef"
+    ],
+    [
+      "lex-jmdict-1370490",
+      "433e9cb71ed2255586e4c49917aba154989e67902febb03c4be6fb78c3152d86"
+    ],
+    [
+      "lex-jmdict-1371910",
+      "26664f8d988820f06dfb227e44021a4e88ae1abdf06bee1a584c4dc7c9cc2716"
+    ],
+    [
+      "lex-jmdict-1372010",
+      "644edecac9cc681b07aa68e81349009b5fd6133375f1e1cc4935218daffff86f"
+    ],
+    [
+      "lex-jmdict-1356930",
+      "40e6674db7afd70843a899709be791bf2913bf0504dab3647ad3087e237f4619"
+    ],
+    [
+      "lex-jmdict-1371880",
+      "a346a482b56fc70708173e036125a053d24a21b7ae8f11885baffbd460eff2a3"
+    ],
+    [
+      "lex-jmdict-1356960",
+      "813cb8cf2acf9ed71204ed56061c9bd8ff650d92ddbdfccd53af3a3e3481b8a4"
+    ],
+    [
+      "lex-jmdict-1353410",
+      "6dde06591dbed326440a9bdbd07e054806ed036f3052e554776f0595976b0578"
+    ],
+    [
+      "lex-jmdict-1352710",
+      "90c797768bc75c1b2feaf7504e606490524981cf99be0008572b41c2b62863f6"
+    ],
+    [
+      "lex-jmdict-1341930",
+      "bcdb85904d7d1dc17a94ea134c7ef16eac8f1c0c91cb606fabe3f5751c0dfe47"
+    ],
+    [
+      "lex-jmdict-1342050",
+      "4ec59c28a13e158960693f35cb31343f4e43bd553d95e328540304cf33eff53f"
+    ],
+    [
+      "lex-jmdict-1364940",
+      "a984f977460641de3b173afe9169c9062942038524cf6cbbbb7fdf78b752c2dc"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1350710",
+      "category": "substantive",
+      "note": "焦げる의 전화 중 음식 태우기와 겹쳐 캐러멜 만들기로 변경하고 힌트에 갈색으로 태우는 범위 포함."
+    },
+    {
+      "wordId": "lex-jmdict-1365420",
+      "category": "substantive",
+      "note": "親戚의 먼 친척 모임 장면과 겹쳐 엽서로 주소 변경 알리기로 변경."
+    },
+    {
+      "wordId": "lex-jmdict-1360920",
+      "category": "clarity",
+      "note": "반복되는 이해하고 유념하고를 문맥에 맞는 숙지하고로 정리."
+    },
+    {
+      "wordId": "lex-jmdict-1370370",
+      "category": "substantive",
+      "note": "기존 식물·벌레의 이름을 도감에서 찾는 장면을 반복하지 않도록 그림 설명 방식으로 변경."
+    },
+    {
+      "wordId": "lex-jmdict-1353410",
+      "category": "clarity",
+      "note": "상순과 하순의 범위를 정확한 날짜로 명시."
+    },
+    {
+      "wordId": "lex-jmdict-1356930",
+      "category": "substantive",
+      "note": "기존 蓋의 냄비 뚜껑에서 김을 빼는 장면과 겹쳐 스팀 다리미로 변경."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "wordId": "lex-jmdict-1298800",
+    "category": "clarity",
+    "note": "촬영에는 사진도 포함되므로 대비 설명의 영상 한정을 풀었다."
+  },
+  {
+    "wordId": "lex-jmdict-1322490",
+    "category": "clarity",
+    "note": "煮える를 굽기 등 모든 가열로 넓히지 않도록 액체 속 가열로 힌트를 좁혔다."
+  },
+  {
+    "wordId": "lex-jmdict-1303400",
+    "category": "substantive",
+    "note": "파종은 蒔く 표기와 가까우므로 선택 사전 撒く의 기본 용례를 물 뿌리기로 바꿨다."
+  },
+  {
+    "wordId": "lex-jmdict-1303460",
+    "category": "substantive",
+    "note": "기존 途端의 창문 바람에 서류가 흩어지는 장면을 피하고 요리 고명을 뿌리는 장면으로 바꿨다."
+  },
+  {
+    "wordId": "lex-jmdict-1321430",
+    "category": "substantive",
+    "note": "기존 実際 예문과 사진보다 실제가 컸다는 문형·장면이 유사도 0.732로 겹쳐 소파 실물을 만져 보는 장면으로 바꿨다."
+  }
+]

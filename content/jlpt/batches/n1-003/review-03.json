@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "a8499f2bfbb0e7e52c487395ac0ad31e7326f2737aa1172a768cd7d8bb349a48",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:17:55.714Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1084080",
+      "758b08329afeb8f43f8852ca4d4af33efcb6df480bfe1d4e98291618ff1a9804"
+    ],
+    [
+      "lex-jmdict-1088450",
+      "86e0c917982d655b34b2aeec247224616afa345a48d53dc9463be3835e95fea0"
+    ],
+    [
+      "lex-jmdict-1084780",
+      "ebb90c5864be87d166dc1215017e63a08f08894352d12ca53679b56558405938"
+    ],
+    [
+      "lex-jmdict-1092110",
+      "2f583dd1a612eeb9e79421779a908aeb1127ab7251ffbe9b2f0a3b06a7872786"
+    ],
+    [
+      "lex-jmdict-1090840",
+      "915d2f23fc543ddda9688bc13e8bfb6d57935c3636cd5ab56da88e0641833806"
+    ],
+    [
+      "lex-jmdict-1103110",
+      "7604dbce1bedd821ef01986baeca32c3f87e09f696a5bead91e664f9885e12c1"
+    ],
+    [
+      "lex-jmdict-1113160",
+      "f0560f8b44ec03157b7fa0aea9aae488e14a0f58fbc3bc04d3fb83c83a679cf5"
+    ],
+    [
+      "lex-jmdict-1119210",
+      "4475ae798cdc84c2ba81bb67f2b21d36146154f8bb494fc4eb86257082df9b94"
+    ],
+    [
+      "lex-jmdict-1123670",
+      "636dde1b4d391adba01eb42d60a52a9f5a82a5192d770c4eb28952d315046fae"
+    ],
+    [
+      "lex-jmdict-1127900",
+      "f7f3a46c2104b508fd1feb56419aa222eb1b2287221ba5e243cb9173669047bb"
+    ],
+    [
+      "lex-jmdict-1130830",
+      "4292b35c7266347348fe6c5aebf1a8b5c1cdec341459ebaa5ad6073bbd4d9985"
+    ],
+    [
+      "lex-jmdict-1135430",
+      "3e2ac7528f498fd48ef6a5445c2960ef28e48d2bc7d0343da05d94b037e09f1f"
+    ],
+    [
+      "lex-jmdict-1137120",
+      "2a9b9fd6113dfbc3523422e1558ec7e4f3b442958882c930d2be326971e266be"
+    ],
+    [
+      "lex-jmdict-1143590",
+      "325b371cf52b363d752a5acbb7db5e152dce8dc23cc35ca417ec0f339a6108db"
+    ],
+    [
+      "lex-jmdict-1151470",
+      "a485cb537fc49ff1c214d4003abbf909fb230863106bf993c22040bcaa0a65e0"
+    ],
+    [
+      "lex-jmdict-1153430",
+      "3dae316c9a1fe57ec0abb69fcd014e5fe7850de8547dc3a4631479aa742612b8"
+    ],
+    [
+      "lex-jmdict-1153680",
+      "62756d8a891fff489c6056024b868efb66612a96fcdcbe4f9845034bebed67a7"
+    ],
+    [
+      "lex-jmdict-1153910",
+      "076b133055da73a2bb664efca49075540715b66fe32cb6d2c71f8cbf8b5246af"
+    ],
+    [
+      "lex-jmdict-1154540",
+      "382dffa610d5d682d637e46b8e54eedd1ec86bfcc34d47aa0904c98028d31e77"
+    ],
+    [
+      "lex-jmdict-1154780",
+      "ceb792e311c7dc350394e1915d5b8220d2c8dae1023cfa8d2c1003fd97213288"
+    ],
+    [
+      "lex-jmdict-1154790",
+      "2578d28e9eb42ad30875cd5863b778396a4f43445af6404ab0aaab1bc1e011e9"
+    ],
+    [
+      "lex-jmdict-1154910",
+      "134ec49ab019e1dc4c3d303f1975ad92f28a350c034e83c96d7ef44bea41d168"
+    ],
+    [
+      "lex-jmdict-1155020",
+      "ac34c0e2c96d6526d270f18fe9a93301d426e4ac3aa30fddcb666ca85cc62db7"
+    ],
+    [
+      "lex-jmdict-1155650",
+      "021f340803c9324972a3f99c9689c00ae63e944e29e21e2de7d3a8529c3d7a14"
+    ],
+    [
+      "lex-jmdict-1156450",
+      "5cd7cfc744815d11178c76a8e0928bc7f54e6afc8be71fe1639c7f3ca5403523"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1084780",
+      "category": "clarity",
+      "note": "목소리 어조를 낮추다를 자연스러운 목소리 톤을 낮추다로 정리."
+    },
+    {
+      "wordId": "lex-jmdict-1130830",
+      "category": "substantive",
+      "note": "添える를 붙이다로 단정하지 않고 첨부하다로 대응."
+    },
+    {
+      "wordId": "lex-jmdict-1143590",
+      "category": "clarity",
+      "note": "시간 약속을 느슨하게 지키다를 잘 지키지 않다로 자연스럽게 번역."
+    },
+    {
+      "wordId": "lex-jmdict-1154910",
+      "category": "substantive",
+      "note": "신규 照らす와 정전 중 휴대전화 불빛 장면이 겹쳐 밤바다의 배로 변경."
+    }
+  ]
+}

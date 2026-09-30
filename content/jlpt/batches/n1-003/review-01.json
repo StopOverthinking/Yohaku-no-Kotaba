@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "6c5dcfdb2643298a7d6c7a512528501f0f254f9d44c4171b3575aeeba4d364de",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:11:20.393Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1000360",
+      "9b63cffb7d1fa3831772a1aa8f366550710e417affc74fe56b2d3097421af3fc"
+    ],
+    [
+      "lex-jmdict-1000470",
+      "7867895ed4e819c9abe2a593f11581d09fa3d456e42b13d3aeceb4c7137332fb"
+    ],
+    [
+      "lex-jmdict-1000510",
+      "8c46b1abc43dea2125db537094ebefa4751551e552fcf8c3ebe34dcd19e19183"
+    ],
+    [
+      "lex-jmdict-1000660",
+      "0c52097a9e9224169668d756c307a6d63d31c46008b2826e16879619d6ddc968"
+    ],
+    [
+      "lex-jmdict-1001110",
+      "78aadff58387a181823292caa2d4c0aa9b34472161a0811afd7495cf928c06fe"
+    ],
+    [
+      "lex-jmdict-1001400",
+      "5df37dbd9f1dddfee0c63783be4411a69f584a9be4a3b793223e1c58a0fba109"
+    ],
+    [
+      "lex-jmdict-1002080",
+      "2338afe8afea38d2007f4d0a88a358e96d437f315c32f418b1962c031d6539e8"
+    ],
+    [
+      "lex-jmdict-1002250",
+      "baee628d6dd05535bff096942de8cf5745991b8825cdfca60bb996b972de6af1"
+    ],
+    [
+      "lex-jmdict-1003190",
+      "ac636400b75b5dcf483d143080b2022e62aca95b7eb16fa15e2c3b24f16a4ebc"
+    ],
+    [
+      "lex-jmdict-1003200",
+      "f7346e8e75c2cc039f0f1bec8f8170ce46497a5b63401970d4097f7538a1df5c"
+    ],
+    [
+      "lex-jmdict-1003440",
+      "f0e83882632d8d59d7c7a7f933154bb952dcdb3eff37ef168a79976b6a4c05bf"
+    ],
+    [
+      "lex-jmdict-1003840",
+      "bd7869df7f4f3ffd7f6fa62073ec61b2192588800b404e0d7ed3a40d8fbec5e8"
+    ],
+    [
+      "lex-jmdict-1004570",
+      "13ff2d187af9c39cf237291f7115bc41812b6cb21c857ae109e8b5c080a5f848"
+    ],
+    [
+      "lex-jmdict-1005480",
+      "561f4bc09dc7e8e56613041de7c6f94806252f55d0fb672b511be11b471e142b"
+    ],
+    [
+      "lex-jmdict-1005500",
+      "5cf4ea7ac0e15423b01078ece29e0a2f54411a01864493beda9c47ec9e999af2"
+    ],
+    [
+      "lex-jmdict-1005860",
+      "8e7990453fc81bc1a1fe7e4cd8e891c342b2496b6c2f685fe4ca926da718f552"
+    ],
+    [
+      "lex-jmdict-1006400",
+      "3ea4548e5b9854de8292a3af873f5f912cbce13a472d883f3b33743d45fcdd1c"
+    ],
+    [
+      "lex-jmdict-1006440",
+      "768cece5795e96e28e865c7dd9e5d6fb0e758736f96e0e85a4f1d9dc08ca5477"
+    ],
+    [
+      "lex-jmdict-1006450",
+      "aec1aaffa9961d629b805f876d1f55dae86922635d8dc92425f4b051328c74c1"
+    ],
+    [
+      "lex-jmdict-1006460",
+      "fd2ce05ab32b1c3bf2949efd0dd33b512a5b9d52126feba74f49fc66de9a248b"
+    ],
+    [
+      "lex-jmdict-1007170",
+      "bc459fb736eca2d17d41af37621ced291f9b29f01af701e7382db34735a2c826"
+    ],
+    [
+      "lex-jmdict-1008290",
+      "5dde0eaed9b255ec8a740d3c4d7e5bda8f39da1550b50803eef25523290d8da3"
+    ],
+    [
+      "lex-jmdict-1010530",
+      "0778dd7f4c54bcb9b82298dce1b719de2b66418a75b98c2db5454eb720882cfb"
+    ],
+    [
+      "lex-jmdict-1012210",
+      "9f07b0ea80c8277af986d1e25f9ce58bb4ec823366215e100deb356a84416761"
+    ],
+    [
+      "lex-jmdict-1012490",
+      "b5f5cb99752515825e4b0fb8ed0545c695edddea731bbce317ab7641cbb1d757"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1000470",
+      "category": "clarity",
+      "note": "뒤바뀐 대상을 두 그림의 설명으로 특정하여 제목과 내용 자체가 교환됐다는 모호함을 해소."
+    },
+    {
+      "wordId": "lex-jmdict-1002250",
+      "category": "clarity",
+      "note": "부자연스러운 빈말 칭찬을 뜻과 번역에서 빈말로 정리."
+    },
+    {
+      "wordId": "lex-jmdict-1003190",
+      "category": "clarity",
+      "note": "採用を見送る를 채용하지 않기로 함으로 명확히 번역."
+    },
+    {
+      "wordId": "lex-jmdict-1005860",
+      "category": "clarity",
+      "note": "뜻의 병렬 표현과 시간을 들여 읽는 한국어 번역을 자연스럽게 정리."
+    }
+  ]
+}

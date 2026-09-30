@@ -1,0 +1,60 @@
+{
+  "method": "Exact Dice at 0.7 after lossless prefix filtering",
+  "comparedExamples": 5080,
+  "similar": [],
+  "comparisons": 73114,
+  "repeatedEndingReview": [
+    {
+      "text": "らないでください",
+      "ids": [
+        "sense-JLPTN3_90-1-ex-2",
+        "sense-handmade_91-1-ex-2",
+        "sense-lex-jmdict-1430250-1-ex-3",
+        "sense-lex-jmdict-1560670-1-ex-1",
+        "sense-lex-jmdict-1028580-1-ex-3",
+        "sense-lex-jmdict-1599400-1-ex-1"
+      ],
+      "outcome": "pending-manual-review",
+      "note": "Current expanded groups queued for Astra scene/template review."
+    },
+    {
+      "text": "を教えてください",
+      "ids": [
+        "sense-JLPTN3_407-1-ex-1",
+        "sense-handmade_46-1-ex-1",
+        "sense-AbsoluteVerb_556-1-ex-2",
+        "sense-lex-jmdict-1038350-1-ex-1",
+        "sense-lex-jmdict-1387990-1-ex-3",
+        "sense-lex-jmdict-1594110-1-ex-1"
+      ],
+      "outcome": "pending-manual-review",
+      "note": "Current expanded groups queued for Astra scene/template review."
+    },
+    {
+      "text": "□を探しています",
+      "ids": [
+        "sense-JLPTN3_360-1-ex-1",
+        "sense-lex-jmdict-1017760-1-ex-1",
+        "sense-lex-jmdict-1246700-1-ex-3",
+        "sense-lex-jmdict-1273270-1-ex-2",
+        "sense-lex-jmdict-1185290-1-ex-1"
+      ],
+      "outcome": "pending-manual-review",
+      "note": "Current expanded groups queued for Astra scene/template review."
+    }
+  ],
+  "previousAcceptedReview": [
+    {
+      "text": "を教えてください",
+      "ids": [
+        "sense-JLPTN3_407-1-ex-1",
+        "sense-handmade_46-1-ex-1",
+        "sense-AbsoluteVerb_556-1-ex-2",
+        "sense-lex-jmdict-1038350-1-ex-1",
+        "sense-lex-jmdict-1387990-1-ex-3"
+      ],
+      "outcome": "accepted",
+      "note": "Common polite request ending. The five contexts ask for availability, a new address, shipping-inclusive price, camera operation and character reading. The target roles and surrounding clauses differ; the teacher example is vocative. Not a word-substitution template."
+    }
+  ]
+}

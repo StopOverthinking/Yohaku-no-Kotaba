@@ -1,0 +1,199 @@
+{
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "status": "editorial-nonofficial",
+  "levelNoteClarifications": 23,
+  "note": "출처 없음 9개와 복수 출처 충돌을 개별 확인하고 levelNote를 실제 근거로 구체화했다. 이는 본문 내용 수정률과 별도 집계한다.",
+  "accepted": [
+    {
+      "wordId": "lex-jmdict-1592340",
+      "japanese": "曇り",
+      "sourceLevels": [
+        "N5",
+        "N3"
+      ],
+      "reason": "기초 날씨 의미이며 N5 출처도 있음."
+    },
+    {
+      "wordId": "lex-jmdict-1593820",
+      "japanese": "錆",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "물건 관리에서 관찰하는 구체적 물질 변화."
+    },
+    {
+      "wordId": "lex-jmdict-1595070",
+      "japanese": "知り合い",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "기본적인 인간관계 표현."
+    },
+    {
+      "wordId": "lex-jmdict-1598540",
+      "japanese": "出入り口",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "공공시설 이용에 필요한 기본 공간 명칭."
+    },
+    {
+      "wordId": "lex-jmdict-1598750",
+      "japanese": "年寄り",
+      "sourceLevels": [
+        "N3",
+        "N1"
+      ],
+      "reason": "연령 집단의 일상 의미; 스모·역사 직함 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1590250",
+      "japanese": "箇所",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "교사의 지시에서 특정 글 부분을 가리키는 의미."
+    },
+    {
+      "wordId": "lex-jmdict-1589970",
+      "japanese": "書き取り",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "기초 한자 쓰기와 받아쓰기 학습 활동."
+    },
+    {
+      "wordId": "lex-jmdict-1592290",
+      "japanese": "組み合わせ",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "일상 의복의 색 배합; 수학적 조합 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1589840",
+      "japanese": "係",
+      "sourceLevels": [
+        "N3",
+        "N1"
+      ],
+      "reason": "공공장소에서 도움을 구할 담당자라는 생활 의미."
+    },
+    {
+      "wordId": "lex-jmdict-1593590",
+      "japanese": "ご馳走",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "식사를 사 주는 기본 대인관계 용법."
+    },
+    {
+      "wordId": "lex-jmdict-1584930",
+      "japanese": "余り",
+      "sourceLevels": [
+        "N3",
+        "N1"
+      ],
+      "reason": "쓰고 남은 물건을 뜻하는 명사; 고급 접속 용법 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1578700",
+      "japanese": "工場",
+      "sourceLevels": [
+        "N4",
+        "N3"
+      ],
+      "reason": "N4 출처 및 구체적 생산 시설."
+    },
+    {
+      "wordId": "lex-jmdict-1580270",
+      "japanese": "商人",
+      "sourceLevels": [
+        "N3",
+        "N1"
+      ],
+      "reason": "물건을 거래하는 기본 직업 명칭; 역사 문장에서 구체적 역할 제시."
+    },
+    {
+      "wordId": "lex-jmdict-1596200",
+      "japanese": "先々月",
+      "sourceLevels": [
+        "N2",
+        "N1"
+      ],
+      "reason": "기초 월 단위 일정 표현."
+    },
+    {
+      "wordId": "lex-jmdict-1002060",
+      "japanese": "お守り",
+      "sourceLevels": [],
+      "reason": "일본 생활문화의 구체적 휴대 물건."
+    },
+    {
+      "wordId": "lex-jmdict-1002640",
+      "japanese": "お返し",
+      "sourceLevels": [],
+      "reason": "선물에 대한 답례라는 기본 사회적 행동; 보복 뜻 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1001910",
+      "japanese": "お絞り",
+      "sourceLevels": [],
+      "reason": "식당에서 사용하는 구체적 물건."
+    },
+    {
+      "wordId": "lex-jmdict-1001670",
+      "japanese": "お化け",
+      "sourceLevels": [],
+      "reason": "일상 이야기 속 유령 의미; 비유적 거대함 제외."
+    },
+    {
+      "wordId": "lex-jmdict-1001890",
+      "japanese": "お好み焼き",
+      "sourceLevels": [],
+      "reason": "일본에서 흔히 접하는 음식 이름."
+    },
+    {
+      "wordId": "lex-jmdict-1001620",
+      "japanese": "お握り",
+      "sourceLevels": [],
+      "reason": "기본 음식 이름."
+    },
+    {
+      "wordId": "lex-jmdict-1001970",
+      "japanese": "お仕舞い",
+      "sourceLevels": [],
+      "reason": "일상 활동을 마친다는 기본 명사 용법."
+    },
+    {
+      "wordId": "lex-jmdict-1002010",
+      "japanese": "お子様",
+      "sourceLevels": [],
+      "reason": "일상 서비스에서 듣는 공손한 어린이 호칭."
+    },
+    {
+      "wordId": "lex-jmdict-1001770",
+      "japanese": "お客様",
+      "sourceLevels": [],
+      "reason": "일상 서비스에서 듣는 공손한 고객 호칭."
+    }
+  ],
+  "held": [
+    {
+      "wordId": "lex-jmdict-1588140",
+      "reason": "준비 협의라는 업무·행사 운영 어휘로 N4 배정 근거가 약함."
+    },
+    {
+      "wordId": "lex-jmdict-1588590",
+      "reason": "구매자의 기초 쇼핑 표현보다 판매자의 수요·판매 상황을 분석하는 어휘임."
+    }
+  ]
+}

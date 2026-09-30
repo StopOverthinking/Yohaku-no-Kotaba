@@ -1,0 +1,161 @@
+[
+  {
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "lex-jmdict-1414340",
+    "dictionaryId": "jmdict-1414340",
+    "members": [
+      {
+        "wordId": "lex-jmdict-1414340",
+        "senseId": "sense-lex-jmdict-1414340-1",
+        "version": 1,
+        "sourceHash": "f4a29484ec5e1f44314eafd73b89176a98fc37d0a64cbbbef4f04ade94017741",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-lex-jmdict-1414340-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1414340-1-ex-2",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1414340-1-ex-3",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "handmade_87",
+        "senseId": "sense-handmade_87-1",
+        "version": 1,
+        "sourceHash": "cde3edf692daf79b9135924f3021f7da886080f47b61708a795c13b46b2b5089",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_87-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_87-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T05:21:28.840Z",
+    "notes": [
+      "두 항목은 동일한 たいせつ 형용동사이며 だ/な/に는 활용 차이다. 기존 반지·가족 시간의 소중함은 대표의 시계·사진을 아끼는 용법에 포함된다. 대표에는 중요함까지 포함되어 범위가 더 넓으므로 기존 소중함 예문의 숙련이 대표의 모든 예문 숙련을 뜻하지는 않는다.",
+      "현재 단어·용법·모든 예문의 읽기/의미를 사전과 대조했다. 원본 ID와 내용 보존을 전제로 대표 연결이 가능하다는 판단이며, 프로필 이전 구현이나 전체 예문 숙련의 상향 승인은 포함하지 않는다."
+    ],
+    "profileTransfer": "requires-further-sense-review"
+  },
+  {
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "lex-jmdict-1214330",
+    "dictionaryId": "jmdict-1214330",
+    "members": [
+      {
+        "wordId": "lex-jmdict-1214330",
+        "senseId": "sense-lex-jmdict-1214330-1",
+        "version": 1,
+        "sourceHash": "d8279c36408e342ad34799524c5e1350c454b3381bc80cfb9ea109069cde05b1",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-lex-jmdict-1214330-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1214330-1-ex-2",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1214330-1-ex-3",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "JLPTN3_160",
+        "senseId": "sense-JLPTN3_160-1",
+        "version": 1,
+        "sourceHash": "7c94649d5f8412b0f624445aeb0f92a7fb95a852b46460a3b556c3b6c7dc3eb3",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_160-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_160-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T05:21:28.841Z",
+    "notes": [
+      "두 항목은 동일한 かんたん 형용동사로 조리·조립·설정·단순 작업에서 절차나 수고가 적음을 나타낸다. 대표에는 간략한 설명 용례도 있어 예문 단위 숙련은 별도로 보존해야 한다.",
+      "현재 단어·용법·모든 예문의 읽기/의미를 사전과 대조했다. 원본 ID와 내용 보존을 전제로 대표 연결이 가능하다는 판단이며, 프로필 이전 구현이나 전체 예문 숙련의 상향 승인은 포함하지 않는다."
+    ],
+    "profileTransfer": "requires-further-sense-review"
+  },
+  {
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "lex-jmdict-1501350",
+    "dictionaryId": "jmdict-1501350",
+    "members": [
+      {
+        "wordId": "lex-jmdict-1501350",
+        "senseId": "sense-lex-jmdict-1501350-1",
+        "version": 1,
+        "sourceHash": "6acd418068c11787c0d0115b6e4b1a724bcda6e85f9c7026ace38e4312a0d79c",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-lex-jmdict-1501350-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1501350-1-ex-2",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1501350-1-ex-3",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "JLPTN3_179",
+        "senseId": "sense-JLPTN3_179-1",
+        "version": 1,
+        "sourceHash": "ea634492d8c31cada109153eb2e7c7ed90564f44e688fa7e9aab65d382ed2cbb",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_179-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_179-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T05:21:28.841Z",
+    "notes": [
+      "두 항목은 동일한 ふくざつ 형용동사이며 길·통로·기계 절차의 구조적 복잡함과 가족 사정·인간관계의 얽힘이 같은 의미 범위다. 서로 다른 난도 수치나 세트명은 별개 어휘라는 근거가 아니다.",
+      "현재 단어·용법·모든 예문의 읽기/의미를 사전과 대조했다. 원본 ID와 내용 보존을 전제로 대표 연결이 가능하다는 판단이며, 프로필 이전 구현이나 전체 예문 숙련의 상향 승인은 포함하지 않는다."
+    ],
+    "profileTransfer": "equivalent-core-usage"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "3c73f0787dd1f3f965c7bc87d7d1f0acaef2605da29943f84e650452ee9a1394",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:18:15.810Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1177650",
+      "a9979d8bf204c462b9c2940114b2fde6fb9983d0dd8940b8d2db83ec07afd3e0"
+    ],
+    [
+      "lex-jmdict-1178340",
+      "1b1c65df34e69e02581e9a29abb52cd7853d9f8dee662c1698d75ee840499efb"
+    ],
+    [
+      "lex-jmdict-1179880",
+      "ea25a059b9e920b43ffd9c914eeb6de4fdf736ac2fd4b947fb932560ca3da9f4"
+    ],
+    [
+      "lex-jmdict-1184480",
+      "7788e90168e54808cc5a596656dd48104610b91f0f35915719a84f1becc250a4"
+    ],
+    [
+      "lex-jmdict-1184580",
+      "a65b12326365e8bbae6d59f0a6582397946cd8636a9a52a15fd49959b09e2f58"
+    ],
+    [
+      "lex-jmdict-1185180",
+      "43e3d62580b38f8c317bdd5be8b33acf783cae34a2f8b791c9e1bb4fa02961a2"
+    ],
+    [
+      "lex-jmdict-1185450",
+      "9fbbe8ded9ee879aac30a6b3eaf7d08b09438fa5c088ef42bc9781a3f573fbdc"
+    ],
+    [
+      "lex-jmdict-1185920",
+      "13fe1a04f3c2166813427eaf38fb1fe04f0fd0ddc0c655170b0f4b21833bf4c0"
+    ],
+    [
+      "lex-jmdict-1185970",
+      "6fab2401adb66771f903c8c2505fd2f35ea044cecb348216b4cd10e688c2d0dc"
+    ],
+    [
+      "lex-jmdict-1186980",
+      "b279e34e680551bc59c90501f78d769ae96a77f351d8fc2f72a861b674eedf51"
+    ],
+    [
+      "lex-jmdict-1187250",
+      "59b83ac9fa8dad14759331a667c6d996abbdc7eba6b861ff0f5517f93d24a64b"
+    ],
+    [
+      "lex-jmdict-1190120",
+      "a27a6be92f964cc80a1b5ee802e4189c78ee34026d2641148c046c5eddbad00e"
+    ],
+    [
+      "lex-jmdict-1198060",
+      "65f9bd6cdd1a549234e869409494a610089221a358471dbb3191ad4ed27192ad"
+    ],
+    [
+      "lex-jmdict-1193520",
+      "5cf30f6b4b3cf40a24a9944b664fc8b3930d51d4e85282f8e952d1ff3d44951a"
+    ],
+    [
+      "lex-jmdict-1195750",
+      "cfc20661dd10875603beb2637c3ed06c1eee2f502d9e7013b25779b04146ebc5"
+    ],
+    [
+      "lex-jmdict-1195930",
+      "8c831900a61fd8d1160bd2f8f02cbd2186e91926ef4e702884562fae817ddcc8"
+    ],
+    [
+      "lex-jmdict-1196220",
+      "7e9ea388ca0ab4fb0d40f60d15f7a15bd8bbd33542b9ec526250b47c1c6c7369"
+    ],
+    [
+      "lex-jmdict-1196490",
+      "7e6e0b368450215f959ef44f1d45669c8ccd1e874ea8e8ed8f3f0fbedc4f4f48"
+    ],
+    [
+      "lex-jmdict-1198110",
+      "b924de92c7f2a08252936e4438bb4c01095d2cbcf92d7ba428b023d0627ce6b4"
+    ],
+    [
+      "lex-jmdict-1198760",
+      "819d54e646cfc7907e193db326b704aeaa20a298f2f889d1a9009fd5b8b13cf7"
+    ],
+    [
+      "lex-jmdict-1199030",
+      "a0910f8cff4e1f18a45c16d5aa843660cbba86b2db30c560562b928e58f94a59"
+    ],
+    [
+      "lex-jmdict-1199270",
+      "f4ba7dd8a1c42466ecb1a97a7c66311881bfd3af233ae96de790114f1d7ee492"
+    ],
+    [
+      "lex-jmdict-1199610",
+      "643857165c9f04f8d8473f6ecee4b0e3c334412dd8a0e616b8581734fcb53e3c"
+    ],
+    [
+      "lex-jmdict-1199800",
+      "262f59aef9ebfd5b43a99205b1172bba00e0dc2e15c62e9086ee4dbd93800e14"
+    ],
+    [
+      "lex-jmdict-1199830",
+      "be083cf882a6d186786cd41d0441381ae0cdcc407f16d56420c7e612ff63aeca"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1179880",
+      "category": "substantive",
+      "note": "대비어 根本을 해결 관점으로 정의하던 설명을 밑바탕·본질이라는 뜻으로 바로잡음."
+    },
+    {
+      "wordId": "lex-jmdict-1193520",
+      "category": "substantive",
+      "note": "단일 하천에도 쓰이므로 여러 강을 묶어 부른다는 제한을 제거함."
+    },
+    {
+      "wordId": "lex-jmdict-1196220",
+      "category": "substantive",
+      "note": "過疎를 일반 인구 감소로 넓게 옮기지 않고 지역의 인구 과소 현상으로 구체화함."
+    },
+    {
+      "wordId": "lex-jmdict-1178340",
+      "category": "substantive",
+      "note": "우선하는 대상을 학생으로 명확히 하여 기숙사 입주자 선정 문장을 자연스럽게 수정함."
+    }
+  ]
+}

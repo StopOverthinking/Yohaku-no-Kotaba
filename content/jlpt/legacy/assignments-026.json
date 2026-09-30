@@ -1,0 +1,350 @@
+[
+  {
+    "wordId": "AbsoluteVerb_134",
+    "sourceHash": "b235243a7f9bf1fad903b3364da946c6add0ae2662faf2f109063907ef0a8694",
+    "level": "N2",
+    "dictionaryId": "jmdict-1213470",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “응석을 받아주다” 및 1개 sense를 대조했다. spoil와 손주 과잉 응석·무조건 사주기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_135",
+    "sourceHash": "b85482311663323be4b64dcd2139d57139c9a861161cd348e43a29695930e638",
+    "level": "N3",
+    "dictionaryId": "jmdict-1383160",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “비난하다” 및 1개 sense를 대조했다. blame와 실패자·자기 비난 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_136",
+    "sourceHash": "a3ce9aa9497b733a85b078c92084700c8187ef88e06e6f061f4f1d9340fe17c7",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “놀리다” 및 1개 sense를 대조했다. 머리 모양·곤란한 상대 놀림 예문이 일치하나 제공 후보가 없어 からかう 사전 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "からかう의 제공 사전 후보가 없어 연결 확인이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_137",
+    "sourceHash": "4ec0bb106b3c8a6120c2dc8d911e72d0c36b53ae893715def6976e27832d70af",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “희롱하다” 및 1개 sense를 대조했다. 계단·촬영 중 장난 예문이며 한국어 희롱하다보다는 장난치다가 현재 sense에 맞는다. 제공 사전 연결도 필요하다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ふざける의 사전 연결 및 한국어 장난치다 용법 명확화가 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_138",
+    "sourceHash": "a61acc76c11d4a5617519041c21085efd05354e473e09d3ccaec41e3420fa0bb",
+    "level": "N3",
+    "dictionaryId": "jmdict-1237510",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “미치다, (예상이) 어긋나다” 및 1개 sense를 대조했다. plan goes wrong와 열차 지연 일정·비로 어긋난 계산 예문이 일치한다. 정신 이상은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_139",
+    "sourceHash": "2db815a0c1818ed3e648d1c788aec47d091818c33a82b512d332c61d6266ef79",
+    "level": "N2",
+    "dictionaryId": "jmdict-1569880",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “노려보다, 짐작하다” 및 1개 sense를 대조했다. glare at와 시끄러운 손님·노려보지 말기 예문이 일치한다. 추정은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_140",
+    "sourceHash": "be8fee3a121fdfd805b4d7fab04024257486829638db68fb31778703dc4ea32e",
+    "level": "N3",
+    "dictionaryId": "jmdict-1486030",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “미소 짓다” 및 1개 sense를 대조했다. smile와 아기·할머니 미소 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_141",
+    "sourceHash": "dfb3cc47ed0a24cca92c5e55ef957c3305f45e6bbf58fc1c69e37672f1fb47ff",
+    "level": "N1",
+    "dictionaryId": "jmdict-1469840",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “골치 아프게 하다, 시달리게 하다” 및 1개 sense를 대조했다. afflict·torment와 소음·저녁 메뉴 고민 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_142",
+    "sourceHash": "2d4ee40e2548d1e2303705f18504911376381ea83154ea829369f56675e26620",
+    "level": "N3",
+    "dictionaryId": "jmdict-1244350",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “괴로워하다, 고생하다” 및 1개 sense를 대조했다. suffer와 허리 통증·혼자 괴로워함 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_143",
+    "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
+    "level": "N3",
+    "dictionaryId": "jmdict-1532710",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “헤매다, 망설이다” 및 1개 sense를 대조했다. hesitate와 색 선택·초대 수락 고민 예문이 일치한다. 출처 등급은 없지만 생활 의사 결정의 일반 동사로 N3를 편집 제안한다. 길 헤맴은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_144",
+    "sourceHash": "d31ccfc4b48539ae62f1612e3b67963fb32cbe40156d5b86132078d329a467d5",
+    "level": "N2",
+    "dictionaryId": "jmdict-1267100",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “어리둥절하다” 및 1개 sense를 대조했다. be bewildered와 낯선 접수 방식·칭찬에 당황 예문이 일치한다. 출처 등급은 없지만 예상과 다른 상황에 혼란을 느끼는 독해 동사로 N2를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_146",
+    "sourceHash": "aab771b06c6b6b7714abfeb089597a85faaca2be1ce3323161ea2f7c0e627d2a",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(꼴사납게) 당황하다” 및 1개 sense를 대조했다. 카메라·점장 당황 예문은 일관되지만 꼴사납게라는 평가는 모든 상황에 필수 의미가 아니다. 제공 사전 연결과 한국어 평가 표현을 검토한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "うろたえる의 사전 연결 및 꼴사납게라는 뜻 한정 여부를 검토해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_147",
+    "sourceHash": "fe97e362d8612faffc4e40fa182bb02715e4417dd64b8dc8c765a5196a2b35da",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “서성거리다” 및 1개 sense를 대조했다. 집·폐점 가게 주변 서성임 예문은 일관된다. 제공 후보가 없어 うろつく 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "うろつく의 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_148",
+    "sourceHash": "41b31f248fdcc34a63cb29f28ab2b56ac4a20320c21025e67b548c24dab271c0",
+    "level": "N1",
+    "dictionaryId": "jmdict-1350780",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “초조해하다” 및 1개 sense를 대조했다. be impatient·anxious와 시계·타인과 비교해 초조함 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_149",
+    "sourceHash": "3e2103d17f2a0459c0ef51f8804295c75bedd7a1b3fe3b20036a492a10ddccba",
+    "level": "N5",
+    "dictionaryId": "jmdict-1289590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “곤란하다” 및 1개 sense를 대조했다. be troubled와 막차 후 곤란·갑작스런 결근 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_150",
+    "sourceHash": "54327d7682c78a543e067530cbe026f72de712a104b712fde46a0f770cc19668",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “주저하다” 및 1개 sense를 대조했다. 가격 앞 주저·도움 요청 예문은 일관된다. 제공 후보가 없어 ためらう/躊躇う 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ためらう의 제공 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_152",
+    "sourceHash": "17c3ad2bf1cefefa2443f141c1c21682974b6e196de462dc68e3fb99cc983a25",
+    "level": "N3",
+    "dictionaryId": "jmdict-1519630",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(목표로서) 바라다” 및 1개 sense를 대조했다. wish for와 자녀 건강·성공 희망 예문이 일치한다. 부모의 건강 바람도 포함하므로 구체 목표에만 좁히지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_154",
+    "sourceHash": "e10daed255f260f1c00f173fffd259bf6f1ab2a6ff6eac754a2d4375c805e38c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1229350",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “찾다, 요구하다” 및 1개 sense를 대조했다. request와 안전 조치·상세 설명 요청 예문이 일치한다. 구입과 탐색은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_155",
+    "sourceHash": "b09d471f40c0d5c1a230980a2d026b5ca5ba13e57ef94cf25a5d6f01b70d5438",
+    "level": "N4",
+    "dictionaryId": "jmdict-1222770",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “기도하다” 및 1개 sense를 대조했다. pray·wish와 신사 합격 기원·배 귀환 희망 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_158",
+    "sourceHash": "96a39f0e1e689cf36373613f6967509e8cfc7ea9b528efec651423067f8964fb",
+    "level": "N4",
+    "dictionaryId": "jmdict-1323010",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “사과하다” 및 1개 sense를 대조했다. apologize와 충돌·잘못의 책임 예문이 일치한다. 거절 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_160",
+    "sourceHash": "c59a06d7192bc238fe3dfb5111752786f502366878db2f26ade4755867879eb7",
+    "level": "N3",
+    "dictionaryId": "jmdict-1584090",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(생각을) 품다” 및 1개 sense를 대조했다. have a feeling와 우주 동경·설명 의문 예문이 일치한다. 팔로 안는 뜻은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_161",
+    "sourceHash": "2a2258997b40c1dd6428fdbffe2bf2ae7a0c621b0fb7710d4937d10b8ec07150",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(사물, 식물이) 있다” 및 1개 sense를 대조했다. 빵집·열쇠 존재 예문은 무생물 존재에 일관된다. 제공 후보가 없어 ある의 존재 동사 항목 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ある의 존재 용법에 해당하는 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_162",
+    "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(사람, 동물이) 있다” 및 1개 sense를 대조했다. 고양이·교사 존재 예문은 유정물 존재에 일관된다. 제공 후보가 없어 いる의 존재 동사 항목과 다른 동음어 구별을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "いる의 사람·동물 존재 의미 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_163",
+    "sourceHash": "0a1f46f97c8efcf48bf2101277e701179d119c69a9e1fbf26f32ee7f8d586749",
+    "level": "N1",
+    "dictionaryId": "jmdict-1588410",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “낳다” 및 1개 sense를 대조했다. give rise to와 오해가 만든 갈등·만남이 만든 일 예문이 일치한다. 물리적 출산과 구별되는 추상적 산출 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_164",
+    "sourceHash": "aa055c496b805549a5c46173a77c26d96ff2d257ac7e00968e54674fd87d93b4",
+    "level": "N5",
+    "dictionaryId": "jmdict-1378690",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “태어나다” 및 1개 sense를 대조했다. be born와 아기 출생·출생 지역 예문이 일치한다. 앞 파일 handmade_7의 두 예문과 현재 sense·うまれる 읽기도 대조하여 출생 의미의 별칭 후보를 제안하되 복합 표제어 사전 연결 보류는 별도 해결이 필요하다.",
+    "aliasCandidateIds": [
+      "handmade_7"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_165",
+    "sourceHash": "0cc8a063e8d1a1b69c818e8278fd50ca4f00e1ee7e10fef9730d6f63af87477c",
+    "level": "N4",
+    "dictionaryId": "jmdict-1378520",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(생명의 의미로) 살다” 및 1개 sense를 대조했다. live와 물고기 생존·할머니 수명 예문이 일치한다. 기능 유효함은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_166",
+    "sourceHash": "0cecb423330a186ddeb6ac132fe703ee7012296dc671e303bfa37215c2fca3b1",
+    "level": "N5",
+    "dictionaryId": "jmdict-1334040",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(주거의 의미로) 살다” 및 1개 sense를 대조했다. reside와 역 근처·해변 주택 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_167",
+    "sourceHash": "362d5abd97e2e99b187afb73eb98aadbff538f858de4df64622af25ea3a1bd08",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “거주하다” 및 1개 sense를 대조했다. 작가의 옛집·해변 주민 예문은 거주 의미로 일관된다. 제공 후보가 없어 住まう의 문어적 거주 용법 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "住まう의 제공 사전 연결과 住む와의 문체 차이를 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_168",
+    "sourceHash": "c2bb20dfa6b6562f59b56d46cdf0ce3df5a2b78b9426e5f923a11aade8ce3aee",
+    "level": "N3",
+    "dictionaryId": "jmdict-1514940",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(생활의 의미로) 살다” 및 1개 sense를 대조했다. lead a life와 연금 생활·외국 생활 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_169",
+    "sourceHash": "3125ec62094268ffac43e0998f06c635345faf7b4f151950746d3d9814bb450b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1160540",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “자라다” 및 1개 sense를 대조했다. grow up와 나무 성장·고양이와 자란 개 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "wordId": "lex-jmdict-1238070",
+    "category": "substantive",
+    "note": "脅す 힌트에서 원하는 행동의 주체를 협박받는 상대가 아닌 협박하는 쪽으로 바로잡았다."
+  },
+  {
+    "wordId": "lex-jmdict-1241060",
+    "category": "clarity",
+    "note": "休む判断의 한국어를 쉬어야 할 때의 판단으로 자연스럽게 다듬었다."
+  },
+  {
+    "wordId": "lex-jmdict-1244120",
+    "category": "clarity",
+    "note": "運転見合わせ를 열차 운행의 일시 중단으로 분명하게 번역했다."
+  }
+]

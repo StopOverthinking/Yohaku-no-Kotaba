@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import type { EditorSnapshot } from '@/features/editor/editorData'
 import { buildEditorWorkbook, editorWorkbookFileName, parseEditorWorkbook } from '@/features/editor/editorSpreadsheet'
+import { importBasicWorkbook } from './importBasicWorkbook'
+import { normalizeEditorSnapshot } from './editorSerializer'
 
 function createSnapshot(): EditorSnapshot {
   return {
@@ -156,6 +158,44 @@ describe('editorSpreadsheet', () => {
         japanese: '食べる',
       }),
     ])
+  })
+
+  it('round trips shared word order and ownership without duplicating original words', async () => {
+    const snapshot = normalizeEditorSnapshot(createSnapshot())
+    snapshot.sets.push({ id: 'n5', name: 'N5', order: 2, membershipMode: 'explicit', wordIds: ['WordB_1', 'WordA_1'] })
+    const buffer = await buildEditorWorkbook(snapshot, { mode: 'basic', setId: 'n5' })
+    const parsed = await parseEditorWorkbook(buffer, 'basic')
+    if (parsed.mode !== 'basic') throw new Error('basic parse failed')
+    expect(parsed.set.membershipMode).toBe('explicit')
+    expect(parsed.set.wordIds).toEqual(['WordB_1', 'WordA_1'])
+    expect(parsed.words.map((word) => [word.id, word.setId])).toEqual([['WordB_1', 'set-b'], ['WordA_1', 'set-a']])
+    parsed.words[0].meaning = '조용하다'
+    const restored = importBasicWorkbook(snapshot, 'n5', parsed)
+    expect(restored.words).toHaveLength(2)
+    expect(restored.words.find((word) => word.id === 'WordB_1')).toMatchObject({ setId: 'set-b', meaning: '조용하다', sourceOrder: 0 })
+    expect(restored.sets.find((set) => set.id === 'n5')?.wordIds).toEqual(['WordB_1', 'WordA_1'])
+    expect(restored.sets.find((set) => set.id === 'set-b')?.wordIds).toEqual(['WordB_1'])
+
+    // Removing a reference from this workbook must not delete its original.
+    parsed.words = parsed.words.slice(1)
+    parsed.set.wordIds = ['WordA_1']
+    const unlinked = importBasicWorkbook(restored, 'n5', parsed)
+    expect(unlinked.words).toHaveLength(2)
+    expect(unlinked.sets.find((set) => set.id === 'n5')?.wordIds).toEqual(['WordA_1'])
+  })
+
+  it('rejects ownership changes, ID collisions and deletion of shared originals before applying an import', async () => {
+    const snapshot = normalizeEditorSnapshot(createSnapshot())
+    snapshot.sets.push({ id: 'n5', name: 'N5', order: 2, membershipMode: 'explicit', wordIds: ['WordA_1'] })
+    const before = JSON.stringify(snapshot)
+    const parsed = await parseEditorWorkbook(await buildEditorWorkbook(snapshot, { mode: 'basic', setId: 'n5' }), 'basic')
+    if (parsed.mode !== 'basic') throw new Error('basic parse failed')
+    parsed.words[0].setId = 'n5'
+    expect(() => importBasicWorkbook(snapshot, 'n5', parsed)).toThrow('소속')
+    parsed.words = [snapshot.words[1]]
+    expect(() => importBasicWorkbook(snapshot, 'n5', parsed)).toThrow('충돌')
+    expect(() => importBasicWorkbook(snapshot, 'set-a', { mode: 'basic', set: snapshot.sets[0], words: [] })).toThrow('참조')
+    expect(JSON.stringify(snapshot)).toBe(before)
   })
 
   it('ignores metadata-only basic rows when importing', async () => {

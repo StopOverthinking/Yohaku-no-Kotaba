@@ -1,0 +1,79 @@
+{
+  "status": "proposal-only; not applied",
+  "createdAt": "2026-09-30T06:08:03.460Z",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "source": "content/jlpt/batches/flashlight-scene-followup.json",
+  "retainedExampleIds": [
+    "sense-JLPTN3_408-1-ex-2"
+  ],
+  "items": [
+    {
+      "wordId": "AbsoluteVerb_641",
+      "japanese": "準備する",
+      "senseId": "sense-AbsoluteVerb_641-1",
+      "exampleId": "sense-AbsoluteVerb_641-1-ex-1",
+      "sourceVersion": 1,
+      "oldExample": {
+        "id": "sense-AbsoluteVerb_641-1-ex-1",
+        "version": 1,
+        "before": "停電に備えて、懐中電灯を",
+        "answer": "準備した",
+        "after": "。",
+        "reading": "じゅんびした",
+        "translation": "정전에 대비해 손전등을 준비했다.",
+        "translationTarget": "준비했다",
+        "difficulty": 18,
+        "status": "reviewed"
+      },
+      "proposedExample": {
+        "id": "sense-AbsoluteVerb_641-1-ex-1",
+        "version": 2,
+        "before": "練習を始める前に、楽譜と鉛筆を",
+        "answer": "準備した",
+        "after": "。",
+        "reading": "じゅんびした",
+        "translation": "연습을 시작하기 전에 악보와 연필을 준비했다.",
+        "translationTarget": "준비했다",
+        "difficulty": 18,
+        "status": "reviewed"
+      },
+      "reason": "소풍 도시락 초안이 기존 弁当箱 예문과 겹쳐 음악 연습 전 악보와 연필을 갖추는 장면으로 수정했다."
+    },
+    {
+      "wordId": "AbsoluteVerb_572",
+      "japanese": "備える",
+      "senseId": "sense-AbsoluteVerb_572-1",
+      "exampleId": "sense-AbsoluteVerb_572-1-ex-1",
+      "sourceVersion": 1,
+      "oldExample": {
+        "id": "sense-AbsoluteVerb_572-1-ex-1",
+        "version": 1,
+        "before": "停電に",
+        "answer": "備えて",
+        "after": "、懐中電灯を買った。",
+        "reading": "そなえて",
+        "translation": "정전에 대비해서 손전등을 샀다.",
+        "translationTarget": "대비해서",
+        "difficulty": 34,
+        "status": "reviewed"
+      },
+      "proposedExample": {
+        "id": "sense-AbsoluteVerb_572-1-ex-1",
+        "version": 2,
+        "before": "機械の故障に",
+        "answer": "備えて",
+        "after": "、手作業でも対応できる手順を決めておいた。",
+        "reading": "そなえて",
+        "translation": "기계 고장에 대비해서 수작업으로도 대응할 수 있는 절차를 정해 두었다.",
+        "translationTarget": "대비해서",
+        "difficulty": 34,
+        "status": "reviewed"
+      },
+      "reason": "태풍 전 화분 이동 초안이 기존 台風 예문과 겹쳐 기계 고장에 대비한 대체 절차 마련으로 수정했다."
+    }
+  ],
+  "reviewedAt": "2026-09-30T06:14:49.125Z",
+  "reviewModel": "gpt-6-astra",
+  "reviewReasoningEffort": "high"
+}

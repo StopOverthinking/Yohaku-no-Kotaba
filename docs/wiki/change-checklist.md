@@ -18,19 +18,8 @@
 - `docs/wiki/features/learn-mode.md`
 - 저장 규칙이 바뀌면 `docs/wiki/storage-and-share.md`
 
-## 활용형 변경
 
-- `docs/wiki/features/conjugation.md`
 
-## 시험 변경
-
-- `docs/wiki/features/exam-mode.md`
-- 오답 노트 규칙이 바뀌면 `docs/wiki/features/list-mode.md`
-
-## 게임 변경
-
-- 안정 범위가 스피드 퀴즈라면 `docs/wiki/features/game-mode.md`
-- `탭 매치 러시`는 아직 문서화하지 않는다
 
 ## 공유 변경
 

@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-09-30T04:56:20.661Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T04:56:20.724Z",
+      "metadataCompletedAt": "2026-09-30T04:56:21.551Z",
+      "draftCompletedAt": "2026-09-30T04:57:28.303Z",
+      "checksCompletedAt": "2026-09-30T04:57:28.438Z",
+      "words": 11,
+      "examples": 11,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 85,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ],
+  "pureCompositionTime": null,
+  "scope": "practical-basic-evidence-conflicts",
+  "limitations": "파일 저장·검사 시각은 실측, 순수 사고 작성 시간은 분리 측정 불가"
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "5211ac1f81f04911b7ff21f5a083f7bdf0f3f896f60ba57c38d65e6c848d8575",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:45:56.280Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1578790",
+      "44738432016c725865b167ad1e6e30b7be6b155dd6643b4bd578c6e8636f2a38"
+    ],
+    [
+      "lex-jmdict-1579080",
+      "f45cb7069d067b4501ca422e1412d969dd3e4ddf68dbe375aa5f648ad72aef1c"
+    ],
+    [
+      "lex-jmdict-1579210",
+      "39a82deaf565d0a811d2bcfa4114ab89e7672ee7c6ea922f855fb31c93b3cde1"
+    ],
+    [
+      "lex-jmdict-1580290",
+      "c9ce974fb7e53eceaf6e8ca6c3f85e540b869c71f7e27155769738657aa5754c"
+    ],
+    [
+      "lex-jmdict-1580600",
+      "eef437c711742570430cba3fcd23079072e6f16f17b87f45ddfa6f8d16f5ce7a"
+    ],
+    [
+      "lex-jmdict-1581180",
+      "b7a05dc91bf1d9708383549ad5febcd1a418481d7c366e38bc26af45414a097a"
+    ],
+    [
+      "lex-jmdict-1581590",
+      "3eab5c4e172f3270419f960aa53f156dacb683dd0313adf4d0d325040379435d"
+    ],
+    [
+      "lex-jmdict-1581610",
+      "453df1c0287b17224940c4ee0830a9572c8be4f354df8d71b6aee7d28bab65e4"
+    ],
+    [
+      "lex-jmdict-1582000",
+      "60b76f70e69b8b7abed14a7d401b409ffc9cb7c78ca847d2bbb5a038db9076fb"
+    ],
+    [
+      "lex-jmdict-1582870",
+      "147a290b9df28d3e91944e2f582ca0473aea17a026d189c8af11138cea0fcb99"
+    ],
+    [
+      "lex-jmdict-1582960",
+      "2d74514d5b4f74e127e05ed9cd236b76c42e88ea2eed3624d6fbf4b73ed88e24"
+    ],
+    [
+      "lex-jmdict-1583470",
+      "c1d9ebebe31c9a3bf9a848cbf307b0899336c108f4cb0c6bdfa816bac240029a"
+    ],
+    [
+      "lex-jmdict-1583640",
+      "1dd361bce74e9d8cd4aaf6c11c87ce06afc34e5d970f18fc4fa7e7fd3fac7a9a"
+    ],
+    [
+      "lex-jmdict-1584100",
+      "ae76179638a15a06ea3d468e57c0937a430a83f831abd7a73ed74dd9adbd5a49"
+    ],
+    [
+      "lex-jmdict-1584160",
+      "071f9b81fce5d583b503d146dd0e31e32eb6f2785778aa247119227864f21c60"
+    ],
+    [
+      "lex-jmdict-1584695",
+      "b3245a0b1ea6c8f376cf05bf2bc7cf1f064eee7acc24c914e68ba9c789948eda"
+    ],
+    [
+      "lex-jmdict-1585060",
+      "cbaf5ea131a433410cf580306c6604a506c900822096842f6b02a4ee1b2af91d"
+    ],
+    [
+      "lex-jmdict-1585110",
+      "53c3d1c3777f1ee09ca2cf31b86aa292d1f945a03f94c65b2af8cd468f50532c"
+    ],
+    [
+      "lex-jmdict-1585230",
+      "48ac55b9b3a55d12e7e1973504e441e08cf072f44cc7c5bff7e4e94e24523dc3"
+    ],
+    [
+      "lex-jmdict-1586210",
+      "d21b076d6af8ae0799b0cad571c890f7e998a7791db3cb2c129fcf29a1026dc0"
+    ],
+    [
+      "lex-jmdict-1586910",
+      "676ced527194cc133d600f91288612d5be6b99bab637f933ab94919cf889f5db"
+    ],
+    [
+      "lex-jmdict-1587300",
+      "92faeef44d8e2270772cd505b1e8b12c51485e1056b7868306360ee3755dfb3e"
+    ],
+    [
+      "lex-jmdict-1588920",
+      "28f6c2fdc74a2d670167c950859dd7044dc8b1753087184e043ecd06c12a866b"
+    ],
+    [
+      "lex-jmdict-1589340",
+      "fc62f7bbe6b6e4427836c131ef5e9e6900c4d0994fbb4fea4f451a35fb1cb34e"
+    ],
+    [
+      "lex-jmdict-1590145",
+      "e447ae51387e6c2e0d857fa98ac3aa56407d7543d102ac97bfe8dd42c03b05a5"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1584160",
+      "category": "substantive",
+      "note": "기존 真っ赤의 추위로 아이 볼이 빨개지는 장면과 겹쳐 축제 스티커 장면으로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1586210",
+      "category": "clarity",
+      "note": "정전 때 켜는 불빛의 전원을 모호하게 두지 않고 손전등 불빛으로 명확히 했다."
+    }
+  ]
+}

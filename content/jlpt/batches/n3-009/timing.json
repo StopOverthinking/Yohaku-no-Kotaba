@@ -1,0 +1,66 @@
+{
+  "batchId": "n3-009",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T04:25:39.501Z",
+  "status": "complete",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T04:25:39.502Z",
+      "metadataCompletedAt": "2026-09-30T04:27:09.799Z",
+      "draftCompletedAt": "2026-09-30T04:28:36.836Z",
+      "validationCompletedAt": "2026-09-30T04:28:38.064Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-09-30T04:28:38.065Z",
+      "metadataCompletedAt": "2026-09-30T04:30:47.476Z",
+      "draftCompletedAt": "2026-09-30T04:32:12.138Z",
+      "validationCompletedAt": "2026-09-30T04:32:13.381Z",
+      "revisionAttempts": 1,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed",
+      "revisionNote": "命 예문의 주어와 관용 표현을 자연스럽게 정리함."
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-09-30T04:32:13.382Z",
+      "metadataCompletedAt": "2026-09-30T04:34:30.148Z",
+      "draftCompletedAt": "2026-09-30T04:36:16.386Z",
+      "validationCompletedAt": "2026-09-30T04:36:17.934Z",
+      "revisionAttempts": 1,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "revisionNote": "予期의 대비 항목을 부정 활용형 대신 가까운 별개 단어 予測로 개선함.",
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-09-30T04:36:17.935Z",
+      "metadataCompletedAt": "2026-09-30T04:38:12.673Z",
+      "draftCompletedAt": "2026-09-30T04:39:36.081Z",
+      "validationCompletedAt": "2026-09-30T04:39:37.584Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    }
+  ],
+  "completedAt": "2026-09-30T04:39:37.585Z",
+  "totalWords": 100,
+  "totalExamples": 100
+}

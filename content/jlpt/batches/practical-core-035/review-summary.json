@@ -1,0 +1,28 @@
+{
+  "scope": "independent content and editorial level review",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedAt": "2026-09-30T06:40:51.266Z",
+  "words": 35,
+  "examples": 35,
+  "accepted": {
+    "N2": 26,
+    "N3": 9
+  },
+  "held": 0,
+  "correctedWords": 4,
+  "correctionCategories": {
+    "substantive": 3,
+    "clarity": 1,
+    "formatting": 0
+  },
+  "corpus": {
+    "examples": 8573,
+    "comparisons": 214072,
+    "similarPairs": 0
+  },
+  "notes": [
+    "출처 N1을 그대로 등급으로 삼지 않고 각 선택 의미의 생활·업무·독해 활용에 따라 N2/N3 분류를 독립 수용했다.",
+    "了承 번역 높임 표현 및 推測·品質·保険 장면 반복을 정리했다. 각 파일의 최종 내용과 해시를 확인한 후 compact 승인을 기록했다."
+  ]
+}

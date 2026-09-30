@@ -1,0 +1,85 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "legacy-classification-only",
+  "files": [
+    {
+      "batch": "023",
+      "startedAt": "2026-09-30T05:52:26.695Z",
+      "completedAt": "2026-09-30T05:53:56.491Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "024",
+      "startedAt": "2026-09-30T05:54:21.415Z",
+      "completedAt": "2026-09-30T05:55:30.804Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "025",
+      "startedAt": "2026-09-30T05:55:54.186Z",
+      "completedAt": "2026-09-30T05:57:04.100Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "026",
+      "startedAt": "2026-09-30T05:57:32.512Z",
+      "completedAt": "2026-09-30T05:59:07.471Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "027",
+      "startedAt": "2026-09-30T05:59:33.031Z",
+      "completedAt": "2026-09-30T06:00:55.897Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "028",
+      "startedAt": "2026-09-30T06:01:35.211Z",
+      "completedAt": "2026-09-30T06:02:49.955Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "029",
+      "startedAt": "2026-09-30T06:03:17.223Z",
+      "completedAt": "2026-09-30T06:08:55.614Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "030",
+      "startedAt": "2026-09-30T06:09:22.447Z",
+      "completedAt": "2026-09-30T06:10:09.833Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "031",
+      "startedAt": "2026-09-30T06:10:37.486Z",
+      "completedAt": "2026-09-30T06:11:52.590Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "032",
+      "startedAt": "2026-09-30T06:12:26.839Z",
+      "completedAt": "2026-09-30T06:13:26.395Z",
+      "rows": 30,
+      "structuralIssues": 0
+    }
+  ],
+  "summary": {
+    "completedAt": "2026-09-30T06:13:26.824Z",
+    "files": 10,
+    "rows": 300,
+    "unresolvedLevels": 36,
+    "rowsWithEditorialIssues": 48,
+    "structuralIssues": 0
+  }
+}

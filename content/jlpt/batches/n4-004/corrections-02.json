@@ -1,0 +1,17 @@
+[
+  {
+    "wordId": "lex-jmdict-1055810",
+    "category": "substantive",
+    "note": "アプリ를 설치형으로만 한정한 구별을 응용 프로그램으로 수정했다."
+  },
+  {
+    "wordId": "lex-jmdict-1059930",
+    "category": "clarity",
+    "note": "음식을 나누는 실제 예문 용법도 뜻·힌트·구별에 포함했다."
+  },
+  {
+    "wordId": "lex-jmdict-1061950",
+    "category": "clarity",
+    "note": "발효빵과 혼동할 수 있는 슈크림 빵을 슈크림 과자로 명확히 했다."
+  }
+]

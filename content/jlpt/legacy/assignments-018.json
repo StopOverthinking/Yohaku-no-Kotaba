@@ -1,0 +1,366 @@
+[
+  {
+    "wordId": "handmade_11",
+    "sourceHash": "804bc48704466753273a4f3d651534de2837cb34df181bdc3dd8049f5a91fadc",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "i_adj",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “정체 모를, 끝을 모르는” 및 1개 sense를 대조했다. 어두운 집의 공포·끝없는 힘 예문은 헤아리기 어려울 만큼 깊다는 의미로 일관된다. 제공 사전 후보가 없어 底知れない의 표기와 정도 표현에 대한 사전 연결을 먼저 확인한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "底知れない의 제공 사전 후보가 없어 수준과 연결을 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_12",
+    "sourceHash": "14ca509108ab03f4f1ba3625746ee817cc483d5d47235e226d303acd94542857",
+    "level": "N2",
+    "dictionaryId": "jmdict-1982090",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “토막 지식” 및 1개 sense를 대조했다. snippet of knowledge와 기다리며 읽은 새 지식·퀴즈에 쓴 토막 지식 예문이 일치한다. 출처 등급은 없지만 독해·정보 소개에서 쓰는 복합 명사로 N2를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_13",
+    "sourceHash": "0de9353138126f598c8f808fd6cec0ad3207cb08830a2fc3ea5bcd81963a510d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1545820",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “상태, 모습” 및 1개 sense를 대조했다. state·appearance와 옆방 상태·아이들의 노는 모습 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_14",
+    "sourceHash": "af1cc16a54c486ac9858eab9056a280fbb1152fa0873c827723cfdf7a5169a37",
+    "level": "N3",
+    "dictionaryId": "jmdict-1436900",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “진흙” 및 1개 sense를 대조했다. mud와 신발·개 코의 진흙 예문이 일치한다. 도둑·운영체제 속어는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_15",
+    "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+    "level": "N3",
+    "dictionaryId": "jmdict-1399790",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “청소” 및 1개 sense를 대조했다. cleaning과 창 청소·청소 미루기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_16",
+    "sourceHash": "e9d81c385408eea84d9a733047bb22174f9f93ec3b8008b0f857c5f4cb0afe40",
+    "level": "N3",
+    "dictionaryId": "jmdict-1535850",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “되돌리다” 및 1개 sense를 대조했다. put back와 잡지·의자 원위치 예문이 일치한다. AbsoluteVerb_280과 같은 복귀 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_280"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_280",
+    "sourceHash": "8d74b865d0928249e64e9b01a9d0ccc67fb8f581bf160035a3b1315e64bd235d",
+    "level": "N3",
+    "dictionaryId": "jmdict-1535850",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “되돌리다” 및 1개 sense를 대조했다. turn back·put back와 시곗바늘·공구 원위치 예문이 일치한다. handmade_16과 원상 복귀 의미를 공유하므로 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_16"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_17",
+    "sourceHash": "6d6372db21f0c9623844fa6e042b25b3f1ab9fe767c0b5ed737747655a6f6d64",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "adv",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “정중히, 정성껏” 및 1개 sense를 대조했다. 사진을 닦음·이름을 씀 예문은 세심하고 정성스러운 동작을 뜻한다. 丁寧에 に가 붙은 형태의 제공 후보가 없어 기본형 연결을 검토한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "丁寧に의 기본형 丁寧 사전 연결과 부사적 활용 관계를 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "handmade_18",
+    "sourceHash": "a72fd35563f436b12cee614c9f999964f59b1425cf052c707063936de12c3a45",
+    "level": "N2",
+    "dictionaryId": "jmdict-1253790",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “틈, 틈새” 및 1개 sense를 대조했다. gap와 문·선반 사이 공간 예문이 일치한다. 여유 시간이나 약점은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_19",
+    "sourceHash": "e8236ef4f51b6e3a28a2f9e5e72482f88306a2ca236d7681a12328d465d4bbec",
+    "level": "N3",
+    "dictionaryId": "jmdict-1291170",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(빛이) 비치다” 및 1개 sense를 대조했다. shine in과 커튼 사이 햇빛·창가의 빛 예문이 일치한다. 등급 근거는 없지만 일상 실내의 빛 유입 용법으로 N3를 편집 제안하며 삽입 타동사 용법과 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_20",
+    "sourceHash": "19bdfb50d62de64a04ee15a3ef192322eb5ce3d5ed3b0b3f8b92209389b4cb6b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1436730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “포기하다” 및 1개 sense를 대조했다. give up와 만석 포기·꿈 포기하지 말기 예문이 일치한다. AbsoluteVerb_156과 같은 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_156"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_156",
+    "sourceHash": "5c17a93f4c1506b50d6ceb1977c5c055f5aef08923715a2ba41c3a4e285e1fa8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1436730",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “포기하다” 및 1개 sense를 대조했다. give up와 출발 포기·첫 시도 후 포기 예문이 일치한다. handmade_20과 동일한 포기 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_20"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_21",
+    "sourceHash": "16ee2d664f1f6c9a20a56e64b2db94c8a29991a7541ed1036d194766c5278ff5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1459690",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수수께끼, 불가사의” 및 1개 sense를 대조했다. mystery와 꽃을 둔 사람·사건의 수수께끼 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_22",
+    "sourceHash": "2e1693395d904961d30753d14e2d8d9b918d5ab64770b61cedf2ae19837aaa1c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1582120",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “가게” 및 1개 sense를 대조했다. shop와 빵 가게·자기 가게 개업 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_23",
+    "sourceHash": "552f351d4586d7cc4a4af6bf6f17655e813235275acdea9ae3e3540d33b078b0",
+    "level": "N2",
+    "dictionaryId": "jmdict-1601810",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “수염” 및 1개 sense를 대조했다. facial hair와 면도·수프가 묻은 수염 예문이 일치한다. 동물 수염과 차트 그림자는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_24",
+    "sourceHash": "3d49d2bc5128f90098acf4bcb947cf6955d8969b842bbfbc6f700c5f30ed5d0d",
+    "level": "N4",
+    "dictionaryId": "jmdict-1477950",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “머리카락” 및 1개 sense를 대조했다. hair on the head와 말리기·길이 자르기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_25",
+    "sourceHash": "3eb5e4de7e5c9f37d18773c64e10368530cd53a5aff0504bb66914d115c63f9d",
+    "level": "N4",
+    "dictionaryId": "jmdict-1602800",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4·N3이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “배” 및 1개 sense를 대조했다. ship·boat와 섬행 결항·배 위 가족 예문이 일치한다. N4/N3 출처 중 기본 교통수단 의미로 N4를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_26",
+    "sourceHash": "876258b9b39352c5c4c5b19938b1d8328445b03ffe3a4b49910bb02c24655eac",
+    "level": "N3",
+    "dictionaryId": "jmdict-1549340",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “폭풍” 및 1개 sense를 대조했다. storm과 부러진 나뭇가지·창 닫기 예문이 일치한다. 항의의 폭풍 등 비유는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_27",
+    "sourceHash": "90d653a1f20f0665c2a801060d1e5e10a3ffd17bad15a49e70549b51b2dd9aa4",
+    "level": "N5",
+    "dictionaryId": "jmdict-1447440",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “동쪽” 및 1개 sense를 대조했다. east와 아침 햇빛·우체국 길 안내 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_28",
+    "sourceHash": "d25e14f4795128ca0e3c6f0724225e4c45cd6a0bed13f5b85a61bd5acf678198",
+    "level": "N5",
+    "dictionaryId": "jmdict-1380840",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “서쪽” 및 1개 sense를 대조했다. west와 저녁 햇빛·서쪽 논 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_29",
+    "sourceHash": "6ec5ac6fe44fdfc5c45a9d2a9d6884b1996fd41c6261fe621997f9fe1dbc015c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1459870",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “남쪽” 및 1개 sense를 대조했다. south와 새 이동·남향 창문 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_30",
+    "sourceHash": "45767b22722865c587cfc922848630e9c60c60aafdadfc54276e430c5937a3d6",
+    "level": "N5",
+    "dictionaryId": "jmdict-1520670",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “북쪽” 및 1개 sense를 대조했다. north와 역 북쪽 공원·새 이동 예문이 일치한다. 국가 명칭은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_31",
+    "sourceHash": "880e12f29464a3226d076b899576abf137c6066d0fab836bdf733440a5879152",
+    "level": "N5",
+    "dictionaryId": "jmdict-1203250",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “밖” 및 1개 sense를 대조했다. outside와 바깥 소리·방 밖 우산 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_32",
+    "sourceHash": "b131f74d3a1edf0660854bcb951261fc8d63e10ae894e73837787036416e346c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1579100",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “오늘 아침” 및 1개 sense를 대조했다. this morning과 첫 서리·메일 회신 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_33",
+    "sourceHash": "d9c2592928149675e35a9de2081f260062b7deb83f9f4a3969b976be4486a217",
+    "level": "N5",
+    "dictionaryId": "jmdict-1343460",
+    "suggestedType": "i_adj",
+    "levelNote": "현재 i_adj 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “덥다” 및 1개 sense를 대조했다. hot와 그늘 휴식·더운 밤 예문이 일치한다. 열정적이라는 확장 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_34",
+    "sourceHash": "42ae7e8510b95acbee8a6d81c22d5f8a1008bfc48931882046bc6fe8bedb8776",
+    "level": "N5",
+    "dictionaryId": "jmdict-1585650",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “상자, 함” 및 1개 sense를 대조했다. box와 신발 상자·약한 바닥 예문이 일치한다. 열차 차량이나 다른 특수 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_35",
+    "sourceHash": "3d58171bafb6fde0e7d2ba48659cbb2f947fc2fd8c6743d01281c6170a275af7",
+    "level": "N2",
+    "dictionaryId": "jmdict-1453900",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “눈동자” 및 1개 sense를 대조했다. pupil·eyes와 고양이 동공 확대·아기 눈 반사 예문이 대응한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_36",
+    "sourceHash": "7850d6fca73764bd900f3dda2919e4f0ba3779600ea1bf6dc666bd2d288954d9",
+    "level": "N4",
+    "dictionaryId": "jmdict-1312350",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “시험” 및 1개 sense를 대조했다. exam과 전날 수면·시험장 착오 예문이 일치한다. 실험 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_37",
+    "sourceHash": "39150e6e29452099d0b327b7649ea9ac55ec50a244fd24812b571c24e4d3e2a7",
+    "level": "N3",
+    "dictionaryId": "jmdict-1326720",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “거두어 들이다” 및 1개 sense를 대조했다. bring in과 빨래·이불을 안으로 거둠 예문이 일치한다. 출처 등급은 없지만 생활의 외부 물건 회수 용법으로 N3를 편집 제안한다. 이미지 가져오기·기만 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_38",
+    "sourceHash": "550fc79c5520ad215614394bc2745b52b85f078e8ebaca1d896021db5e10e2d1",
+    "level": "N2",
+    "dictionaryId": "jmdict-1323370",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “수도꼭지” 및 1개 sense를 대조했다. faucet와 누수·팔꿈치로 여는 수도꼭지 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_39",
+    "sourceHash": "79f7e0b95bd4db384ee654edea736b54ef581ba71e8fcc4f23f00cf61f9df64e",
+    "level": "N5",
+    "dictionaryId": "jmdict-1536010",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “문제” 및 1개 sense를 대조했다. question on a test와 마지막 문제·풀이 방식 질문 예문이 일치한다. 사회 문제는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_40",
+    "sourceHash": "4fd86f28af59364ac8d89a394875bf469942280b093d35ba50b3ebe22e01f06f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1350340",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “소방” 및 1개 sense를 대조했다. fire fighting·fire brigade와 소방 훈련·지역 소방단 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

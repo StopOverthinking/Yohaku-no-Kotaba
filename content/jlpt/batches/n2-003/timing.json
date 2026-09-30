@@ -1,0 +1,72 @@
+{
+  "startedAt": "2026-09-30T04:21:44.186Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T04:23:22.904Z",
+      "metadataCompletedAt": "2026-09-30T04:23:24.590Z",
+      "draftCompletedAt": "2026-09-30T04:24:58.109Z",
+      "checksCompletedAt": "2026-09-30T04:24:58.243Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 71,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T04:27:50.759Z",
+      "metadataCompletedAt": "2026-09-30T04:27:52.530Z",
+      "draftCompletedAt": "2026-09-30T04:29:15.059Z",
+      "checksCompletedAt": "2026-09-30T04:29:15.196Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 74,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-09-30T04:31:40.568Z",
+      "metadataCompletedAt": "2026-09-30T04:31:42.271Z",
+      "draftCompletedAt": "2026-09-30T04:33:06.351Z",
+      "checksCompletedAt": "2026-09-30T04:33:06.483Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 76,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "04",
+      "startedAt": "2026-09-30T04:35:25.145Z",
+      "metadataCompletedAt": "2026-09-30T04:35:26.870Z",
+      "draftCompletedAt": "2026-09-30T04:36:48.340Z",
+      "checksCompletedAt": "2026-09-30T04:36:48.477Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 78,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ],
+  "pureCompositionTime": null,
+  "limitations": "단계별 실제 저장 및 검사 시각을 기록하며 순수 사고·작성 시간은 분리 측정할 수 없다.",
+  "completedAt": "2026-09-30T04:37:18.222Z",
+  "words": 100,
+  "examples": 100
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "scope": "example-proposal-only",
+    "wordId": "lex-jmdict-1610960",
+    "exampleId": "sense-lex-jmdict-1610960-1-ex-1",
+    "sourceHash": "befcd95ca4e176f1a02d01fba4e51f07669484c0d8a07f3a10d60fadf627d12e",
+    "currentContentHash": "519e92c61cd1509b6ade1cd78bcb62ace6b424ca08d1c86217a55d576bdccd3f",
+    "proposalHash": "3d22ad45aaf435c544cf43c5ec2115be43347c85fbd1569840c5645cd393c94b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Reviewer-authored scene revision; self-reviewed proposal only; full-sense approval pending root draft.",
+    "reviewedAt": "2026-09-30T05:03:38.990Z",
+    "notes": [
+      "기존 景色의 정상에서 피로를 잊는 장면을 피하고 관람차 높이에 따라 바뀌는 도시 전망으로 바꾼다.",
+      "뜻·읽기·일한 대응을 확인했다. 단어·용법·예문 ID와 개수는 보존하고 예문 버전만 1에서 2로 올린다."
+    ],
+    "validation": {
+      "oldExampleExactlyMatchesCurrent": true,
+      "corpusExamples": 7777,
+      "comparisons": 175515,
+      "newPairs": 0,
+      "threshold": 0.7
+    },
+    "globalReviewReady": false
+  },
+  {
+    "scope": "example-proposal-only",
+    "wordId": "lex-jmdict-1357480",
+    "exampleId": "sense-lex-jmdict-1357480-1-ex-1",
+    "sourceHash": "f4289e34a53fba9b355d78f0214adb049c3d4cc4812b3f429dd534f30da28296",
+    "currentContentHash": "b19125c220e3b77a3ddcc85cb2a94ad2642d8ce9304999d0aea4469f79bb25bb",
+    "proposalHash": "2b800cda6ee4c8f7e01a857eafdfcbf5f985b13b467a2d2ef471569038deac47",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Reviewer-authored scene revision; self-reviewed proposal only; full-sense approval pending root draft.",
+    "reviewedAt": "2026-09-30T05:03:38.991Z",
+    "notes": [
+      "기존 失業의 공장 폐쇄에 따른 실직 장면을 편집자로 취업하여 아동서를 만드는 장면으로 바꾼다.",
+      "뜻·읽기·일한 대응을 확인했다. 단어·용법·예문 ID와 개수는 보존하고 예문 버전만 1에서 2로 올린다."
+    ],
+    "validation": {
+      "oldExampleExactlyMatchesCurrent": true,
+      "corpusExamples": 7777,
+      "comparisons": 175515,
+      "newPairs": 0,
+      "threshold": 0.7
+    },
+    "globalReviewReady": false
+  }
+]

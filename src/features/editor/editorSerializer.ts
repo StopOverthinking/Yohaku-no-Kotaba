@@ -1,3 +1,4 @@
+import { normalizeSetMembership } from '@/features/vocab/model/setMembership'
 import type { ComparisonPair, ComparisonWordbook, ThemeWordbook, ThemeWordbookTopic, VocabularySet, VocabularyWord } from '@/features/vocab/model/types'
 import type { EditorSnapshot } from '@/features/editor/editorData'
 import { validateLearnContent } from '@/features/learn/contentValidation'
@@ -211,12 +212,12 @@ export function normalizeEditorSnapshot(snapshot: EditorSnapshot): EditorSnapsho
           set.id,
         ),
       ),
-      wordIds: [] as string[],
+      wordIds: [...set.wordIds],
     }))
 
   const normalizedWords = normalizeWordsForParents(snapshot.words, sets.map((set) => set.id))
   sets.forEach((set) => {
-    set.wordIds = normalizedWords.filter((word) => word.setId === set.id).map((word) => word.id)
+    set.wordIds = normalizeSetMembership(set, normalizedWords)
   })
 
   const themeWordbooks = cloneThemeWordbooks(snapshot.themeWordbooks)
@@ -668,7 +669,7 @@ function buildPublishedBasicWordData(snapshot: EditorSnapshot) {
           set.id,
         ),
       ),
-      wordIds: [] as string[],
+      wordIds: [...set.wordIds],
     }))
   const words = normalizeWordsForParents(snapshot.words, sets.map((set) => set.id))
   const nextWordIds = new Map<string, string>()
@@ -688,7 +689,7 @@ function buildPublishedBasicWordData(snapshot: EditorSnapshot) {
   }))
 
   sets.forEach((set) => {
-    set.wordIds = publishedWords.filter((word) => word.setId === set.id).map((word) => word.id)
+    set.wordIds = normalizeSetMembership(set, publishedWords)
   })
 
   return {

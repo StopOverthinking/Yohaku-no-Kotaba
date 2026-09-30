@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "lex-jmdict-1000590",
+    "contentHash": "0454258a8dd53574bc5cb2950ff5b2b4a23f7051d7f515914832257b6c10b07f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "서로에게서 떨어진 대상과 과거에 공유한 모습의 연체사 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1001090",
+    "contentHash": "ef796e799e1d69d43b960201318b3451036d16b483bb324b731d9a63a3a1cd2f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "편한 긍정 대답과 공손한 はい의 차이, 인용 대화 형태를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1002400",
+    "contentHash": "089ee36fcd1944717354d75cd13149d39b478ca54638089d7df61846abcd75d2",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "상대방 댁을 높이는 의미와 방문 허락·위치·정원 칭찬 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1006140",
+    "contentHash": "8abd5fee87bde5d7641ed5e80d2850815ee37d97786d37c6b1b0dceecfb2d33b",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "바람이 쑥 들어온다는 어색한 번역을 열쇠 삽입 장면으로 바꾸고 ずっと의 정도 차이 뜻을 보완했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1007130",
+    "contentHash": "2e2d1aa41807f81838fa2e811a0b1ddd692a3582206a5e925d5ed60236657a15",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "중복 지시가 어색한 상자 문장을 고치고 길이 닫혔다는 표현을 통행금지로 명확히 했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1007660",
+    "contentHash": "2688ac1d9a35295b1988958287c4c77d96f19bf0723ed1375639dc948bbc41bc",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "이름 뒤 친근한 접미 호칭과 さん의 공손함, 한국어 음역 대응을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1058480",
+    "contentHash": "31e4c55ea516b017cb7fccf0927fc287214ff9b8ac9e6171f764dac9360a3d29",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "靴가 샌들을 배제하는 듯한 설명을 신발 전반을 가리키도록 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1075940",
+    "contentHash": "e6585543cfb4fcdda77901bcf2d886fcf0446ae9e9d71aa64a8db3a8d134cc8d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "물건 유형·사람 성향·질문 분류의 대표 뜻을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1079290",
+    "contentHash": "c22411e447c6ea7563fa7bbdaccad697a999c4bec9dc40f3d50e84ab0ee5d871",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "교재 의미의 사전 항목과 수업·연습 문제·참고 표 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1100810",
+    "contentHash": "d6fa9cbe8dcd98968e989bc7c2a2a652bc8ecec28bae7ec70491eeeb788e46c5",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "시간제 근무를 선택한 뜻과 아르바이트의 용법 중첩을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1120010",
+    "contentHash": "a9403e20581bd6fab8a5d1c04edc6f8527df8a46abbb93570956fd4c4d528c0e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "호출 벨·수업 종·자전거 벨의 공통 신호 기능을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1192420",
+    "contentHash": "0bb24d27f7d395726cd666acc91b244d74ce0297efc613edf0714cfbbca21ba9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "자기 아내를 남에게 말하는 전통적 표현과 妻의 일반적인 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1221520",
+    "contentHash": "4f29c2ba211fb3174f469626d44b1c3bbec0ef42f6d804590506ff6924885426",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "気がする의 한국어 표적을 느낌으로 맞춰 나머지 서술어와 구분했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1258710",
+    "contentHash": "def80109c6132291116582ca56dfb977de3fc65158af9412aa9645105f8fe48d",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "비단 천과 명주실의 의미, 綿과의 재료 차이를 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1335440",
+    "contentHash": "4264c7db9aaff0016ee8c4163da872bfca9be3611eeea0781f0597cc9f7e9cfb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "메치기와 굳히기 중심 무도의 뜻과 수련·대회·관람 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1348530",
+    "contentHash": "963c489b906e2c75211e7c3a6f1e293973672e6cf9fb9f1ed4947de61ff17cff",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "한 마리라는 근거 없는 수량을 뜻에서 제거하고 귀여움의 주관적 한정을 뺐다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1379750",
+    "contentHash": "1e07929c67fe3e08aea493a39a83cf70b6c62fbe98433f2342bcc7de21f7c3a1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "기존 항구 무역 예문을 열렬한 박수 장면으로 바꾸고 해당 부사적 의미를 대표 뜻에 보완했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1381100",
+    "contentHash": "b8be8e67b3019ee1a75425eddba067ea3cebb1624107ed681b7c960ff1e2d22a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "유럽·북미 중심 문화권의 뜻과 회화·악기·식재료 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1401910",
+    "contentHash": "27adb5283996a9e0a24fd9d90058ca11c3d14c1a5cef9c380f0fc91a91aaaef7",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "키가 낮아야 한다는 정의의 한정을 풀고 풀·풀밭·잡초의 번역 대응을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1416700",
+    "contentHash": "c942de534ae262de19816e34d7d4d2177199353705c3fd18df2483076fb22656",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "선반의 받침 구조와 서랍의 차이, 설치·하중 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1437450",
+    "contentHash": "2aab06b24a546a06ad5eaa96779025bd625b6d66938970804b916c5726055d18",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "알맞음과 대충함이라는 다른 두 뜻을 문맥에 맞게 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1440660",
+    "contentHash": "8021fe97f189dc1c6de4d56cb5e9be6269e3245567383b1a29b7bfa3ed144613",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "작품 전시와 성과 발표의 차이, 사진·어린이 작품·재관람 장면을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1441390",
+    "contentHash": "1c9ead64870b62f0e4df04607e1550076f17f937567380fd2190b6e8e29af827",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "세 번째 예문의 부분·측면 의미를 대표 뜻에 반영해 요점으로만 오해하지 않도록 했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1443660",
+    "contentHash": "8ba821a9ae3ecb508bf443f93ba9518acbafdff571582406f3942c02ad6f779a",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "전등의 장치 의미와 끄기·교체·정전 후 점등의 대응을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1446760",
+    "contentHash": "b4d690bbcdcafa1eb42b6273262f3946398a0999e4d317eb962fb5e6d5e2c4a9",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "학교에서 걷는다는 어색한 문장을 바다를 보며 통학하는 장면으로 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1448580",
+    "contentHash": "361f0b179f656fdf613e5ffc4c91cac61026ee8e8ecd3179f114d5e2b4bb893e",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "목욕 문맥이 없는 두 번째 예문의 번역을 일반적인 뜨거운 물로 바로잡았다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1454750",
+    "contentHash": "d189066ad957739b32d199b6f59121fd0dafee3859ee38801c8a01b9f9ebfe46",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "급행과 특급의 실제 구분 차이를 명시하고 표 가격 비교의 일본어 비교 대상을 맞췄다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1463770",
+    "contentHash": "238c21e45a48ac580d1b3079730a30e435f03e23288032d547f529a38a94c74f",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "태양의 설명을 천체 자체로 간결히 정리하고 낮·햇빛·해의 용법을 확인했다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1467710",
+    "contentHash": "04ba13c368189dfc294f5886826da26d9e22bb72ff211f7d102f6f45b415ca59",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "열을 특정 질병인 열병과 혼동하지 않도록 발열로 고쳤다."
+    ]
+  },
+  {
+    "wordId": "lex-jmdict-1472800",
+    "contentHash": "deabeffe90952e5074bc1ef8706928346c20cd4e4cc0d5b89506a8782dc96996",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and scene diversity. Parser passed; 574 prior hashes unchanged; 2,142 senses/4,918 examples: zero masked pairs >=0.7 (66,765 comparisons). Not human expert review.",
+    "reviewedAt": "2026-09-30T01:03:41.031Z",
+    "notes": [
+      "기존 별 장식 문형을 셔츠 등쪽이 땀에 젖는 장면으로 교체했다."
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "legacy-classification-only",
+  "files": [
+    {
+      "batch": "033",
+      "startedAt": "2026-09-30T06:25:15.970Z",
+      "completedAt": "2026-09-30T06:26:18.804Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "034",
+      "startedAt": "2026-09-30T06:26:45.653Z",
+      "completedAt": "2026-09-30T06:27:43.961Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "035",
+      "startedAt": "2026-09-30T06:28:12.447Z",
+      "completedAt": "2026-09-30T06:29:08.109Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "036",
+      "startedAt": "2026-09-30T06:29:36.407Z",
+      "completedAt": "2026-09-30T06:30:35.387Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "037",
+      "startedAt": "2026-09-30T06:31:10.368Z",
+      "completedAt": "2026-09-30T06:32:12.431Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "038",
+      "startedAt": "2026-09-30T06:32:42.368Z",
+      "completedAt": "2026-09-30T06:33:31.563Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "039",
+      "startedAt": "2026-09-30T06:34:03.610Z",
+      "completedAt": "2026-09-30T06:38:10.689Z",
+      "rows": 30,
+      "structuralIssues": 0,
+      "revisionAttempts": 1,
+      "reason": "root가 입력 사전 조회를 보완하여 검토 인도 전 제공 근거로 보류를 해소"
+    },
+    {
+      "batch": "040",
+      "startedAt": "2026-09-30T06:38:50.803Z",
+      "completedAt": "2026-09-30T06:40:02.166Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "041",
+      "startedAt": "2026-09-30T06:40:32.172Z",
+      "completedAt": "2026-09-30T06:41:29.455Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "042",
+      "startedAt": "2026-09-30T06:42:03.920Z",
+      "completedAt": "2026-09-30T06:43:32.090Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "043",
+      "startedAt": "2026-09-30T06:44:06.514Z",
+      "completedAt": "2026-09-30T06:45:53.290Z",
+      "rows": 30,
+      "structuralIssues": 0
+    },
+    {
+      "batch": "044",
+      "startedAt": "2026-09-30T06:46:23.635Z",
+      "completedAt": "2026-09-30T06:47:44.895Z",
+      "rows": 30,
+      "structuralIssues": 0
+    }
+  ]
+}

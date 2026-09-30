@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "5103434395de19727ce4dd48bcf457c277072b1670a4f93b038bf63556be926d",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:27:29.355Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1495220",
+      "2130afd84fb57f1ad620c18ece41b97a2a09a346b80c4d0d61f22dbbc7bbc3b4"
+    ],
+    [
+      "lex-jmdict-1495640",
+      "336c34b18bfb39584d617bc9d82a6f5641f13990c722e196c0ce46d6f455d27c"
+    ],
+    [
+      "lex-jmdict-1496540",
+      "1a2287f0657a88dd013a38357afc23f14e7af8aa29165b271ca2a3f22382b25c"
+    ],
+    [
+      "lex-jmdict-1496670",
+      "0fbd9c4aa39d6913c88d25e733518a399a34159599ca168ea54211ec668a8c1b"
+    ],
+    [
+      "lex-jmdict-1496840",
+      "89fb0e2e71f3301519ce1d9447ae21c8d6dcedca5933e84f2cea2a02195c3799"
+    ],
+    [
+      "lex-jmdict-1497180",
+      "0820b05d666f69c90332602cb3cd4c33c5f7bfc28c54260642976fc447ffe4e4"
+    ],
+    [
+      "lex-jmdict-1497960",
+      "7f87d16a63c7514bb1656c5db0877c780f25e235b8cf14be4848aa900a16b4de"
+    ],
+    [
+      "lex-jmdict-1498460",
+      "010f263a35319491c17cc97a0778b74137b818940b599eecb4f84b3a520b728b"
+    ],
+    [
+      "lex-jmdict-1499150",
+      "4a2a31b74791365c8845c1047d9b4dd8515b5a0ff1770a60687bf472fe00f4f4"
+    ],
+    [
+      "lex-jmdict-1500100",
+      "bee69a515ccb8123c488b440db33fdd32347b2329d89b8799a4dff50e8c91c7f"
+    ],
+    [
+      "lex-jmdict-1500880",
+      "d9b76e4b29e6c2690e05ad83ae13cb71d04f542555f635d3f46255baed738752"
+    ],
+    [
+      "lex-jmdict-1500970",
+      "d9c9542a58b86cfd0f891f9732c92553c7d153699101bb42b0025dfd0a93bff3"
+    ],
+    [
+      "lex-jmdict-1502420",
+      "b7f4cee4c30c283d715717c4def03a5caad9868b86474d60fa025dd8040b5a1e"
+    ],
+    [
+      "lex-jmdict-1502480",
+      "54fccc52969c1f9dbac95e9371eb4cbd9cf04344e17b0c7177b35209d8e54480"
+    ],
+    [
+      "lex-jmdict-1502550",
+      "57a8b1fe8ad5882c57c06e79eee8832d97b6eace4da8d11e14a475a8b182fe27"
+    ],
+    [
+      "lex-jmdict-1502560",
+      "f09f4ed8650bcdf5c2b10342c74bb12588ecb137297f4c26ea6cf785de2556d8"
+    ],
+    [
+      "lex-jmdict-1502790",
+      "ab32ca1b1203db110a6be2cacbeacb9683d32f0e7b740cda49b2f916eaa390a7"
+    ],
+    [
+      "lex-jmdict-1503000",
+      "4dc3a88eb8a32eff09cbabaf1bf51b57b92fb4010c9d8b3d2f61b8f82da30cd2"
+    ],
+    [
+      "lex-jmdict-1503870",
+      "07359e821cbf9c5810f916f847458d33a1d1f43c16858b628582b2aca6d014fe"
+    ],
+    [
+      "lex-jmdict-1504330",
+      "64a92a2f9d7376488506b85b28fafc6f5a67e734c47700fe204fb3c14450a256"
+    ],
+    [
+      "lex-jmdict-1505070",
+      "fcb20d2e91d663011add4f1b89ed957be5b88f92f7e2457e1e58b01af636d28a"
+    ],
+    [
+      "lex-jmdict-1505090",
+      "683d48760f218cb9fe1005bbd700df05e0a87e36f016349e38d5e1895de0eb30"
+    ],
+    [
+      "lex-jmdict-1505650",
+      "cb083b113427bfbd4705eadd573a7e3bdf49f92fe754be673eb84cc2dd3f919f"
+    ],
+    [
+      "lex-jmdict-1506870",
+      "ae2dac019a357d272ebf1169955e25c7f8759f465cb0bbfbbc6508fa75cd4434"
+    ],
+    [
+      "lex-jmdict-1506930",
+      "6cb49b698ded41f1ae0e16c1fa0c59d5a885fbcdb98d87735515cd84ba81b62e"
+    ]
+  ],
+  "corrections": []
+}

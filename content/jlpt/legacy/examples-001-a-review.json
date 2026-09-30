@@ -1,0 +1,172 @@
+[
+  {
+    "wordId": "JLPTN3_1",
+    "senseId": "sense-JLPTN3_1-1",
+    "sourceHash": "a4ef5c9b45ea0b79da81e178fde6298d78f62d864bda9e793fe34190361f95d3",
+    "proposalHash": "438f433dfc0e86dce04675733d995995888a45f08629c95aa14b124a34100ed7",
+    "exampleId": "sense-JLPTN3_1-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.806Z",
+    "notes": [
+      "반복되는 보행 경로에서 벗어나는 선택으로 게임·음식과 다른 상황을 추가한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_127",
+    "senseId": "sense-AbsoluteVerb_127-1",
+    "sourceHash": "702be175c84554a435954d86832208756f621697878ad91ac8ff1ca9f05afb14",
+    "proposalHash": "1d050393e095dd9fa737b675abc38b95cb1e89059350441fd4087ae0452b76a7",
+    "exampleId": "sense-AbsoluteVerb_127-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "반복 업무에 대한 싫증과 부서 이동 희망으로 취미 장면과 구분된다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_2",
+    "senseId": "sense-JLPTN3_2-1",
+    "sourceHash": "313df3fea4ab16f949c1c4ac5c409ffca0aa844eef31104e527c8de2a4a2c396",
+    "proposalHash": "09fb928333547e60f7fd6a20a915e05a863223ee162dd091fde1347d4760041e",
+    "exampleId": "sense-JLPTN3_2-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "검사 전 시계 보관을 맡기는 절차이며 기존 여행 짐·호텔 열쇠와 맥락이 다르다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_425",
+    "senseId": "sense-AbsoluteVerb_425-1",
+    "sourceHash": "60070a433817b518309a83446ac51633adf37ee9e19dcbd3ed2260d0de50007c",
+    "proposalHash": "ddeeeed79a6cea7dd9f2f6df9c9a1613d6f672da57812950e84a2e00fec5523b",
+    "exampleId": "sense-AbsoluteVerb_425-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "악기 수리 위탁과 대체 악기 사용으로 보관·돌봄과 다른 목적을 제시한다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_3",
+    "senseId": "sense-JLPTN3_3-1",
+    "sourceHash": "57c7e19779b895167cbc2b8098cef2683cbbdf82204eae8dfa023e22177c776b",
+    "proposalHash": "220baf37b3f8cc9e8134d2ae799942f6c54e569b283fa32fb83b6ef150ab331e",
+    "exampleId": "sense-JLPTN3_3-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "예상의 적중이라는 기존 sense를 유지하며 경기 결과 예상의 반복 실패를 제시한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_578",
+    "senseId": "sense-AbsoluteVerb_578-1",
+    "sourceHash": "f41bd20acd29fb80168e75eba4a8e9d3e1fe2b821c2827d054a6a9877a85955c",
+    "proposalHash": "54e4db8711c8ea9beefe80cd9fd1620db334a560bcb2a4af570614fb4c66be29",
+    "exampleId": "sense-AbsoluteVerb_578-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "물리적 충돌이라는 기존 sense를 유지하며 공사장 비산물·보호구를 다룬다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_4",
+    "senseId": "sense-JLPTN3_4-1",
+    "sourceHash": "9d4cb14e5e08967c5a49ac3f998cc3360d357c1ee3ec2f53e85679f8511cbd8b",
+    "proposalHash": "de1872b79fb9bba0b66ebe6c06a62b223dc5571e3997d32bc2b1b053e08a9520",
+    "exampleId": "sense-JLPTN3_4-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "목공 후 남은 재료의 재사용으로 표·음식의 잉여와 구분된다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_559",
+    "senseId": "sense-AbsoluteVerb_559-1",
+    "sourceHash": "1c1882233118c2c50968de28e52914d273a357d2bcf87016d6a824d6268c6f41",
+    "proposalHash": "60f4ac0cff64f4d42fd30574a0565b8ba1ce7c109988cc7b0ba91d011aaa5048",
+    "exampleId": "sense-AbsoluteVerb_559-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "필수 지출 뒤 남는 예산의 배분으로 음식·시간과 구분된다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_5",
+    "senseId": "sense-JLPTN3_5-1",
+    "sourceHash": "866909f8ae29c79deaf5c4e69ecc1f79c3ae3aeea10a228b8e5d57cc20b6fc04",
+    "proposalHash": "a3c1839f92d8537345e536610061b912897f79d09b25e7cadea7b98ea708967a",
+    "exampleId": "sense-JLPTN3_5-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "부자연스러운 には 연결을 고치고 양말 뒤꿈치 제작법을 영상으로 확인하는 문장으로 다듬었다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_6",
+    "senseId": "sense-JLPTN3_6-1",
+    "sourceHash": "67694460f8aebee96f3631b56e1e2f4cf5f94dd0b74ac84eb7650d33d69b8dab",
+    "proposalHash": "639ad0f9f74ee683aa0b3b2be1e73b01ad8726865f41049df29027bbe4945fc1",
+    "exampleId": "sense-JLPTN3_6-1-ex-3",
+    "scope": "legacy-example-addition-proposal-only",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent third-example proposal review; examples-001-a-review-summary.json",
+    "reviewedAt": "2026-09-30T02:43:38.807Z",
+    "notes": [
+      "감정 표현이라는 범위를 유지하면서 말의 한계를 노래로 보완하는 장면을 제시한다."
+    ]
+  }
+]

@@ -5,10 +5,9 @@ import { useNavigate } from 'react-router-dom'
 import { EmptyState } from '@/components/EmptyState'
 import { IconButton } from '@/components/IconButton'
 import { Tooltip } from '@/components/Tooltip'
-import { useExamStore } from '@/features/exam/examStore'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
-import { allSets, getSetName, getStudyItemById, getStudyItemFavoriteWordIds, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic } from '@/features/vocab/model/selectors'
+import { allSets, getSetName, getStudyItemFavoriteWordIds, getStudyItemPartLabel, getStudyItemSearchText, getStudyItemsForSet, hasStudyItemTopic, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
 import type { StudyItem } from '@/features/vocab/model/types'
 import { loadListScrollPosition, saveListScrollPosition } from '@/features/list/listScrollPositionStorage'
 import styles from '@/features/list/list.module.css'
@@ -25,7 +24,7 @@ type RenderEntry =
   | { type: 'item'; item: StudyItem; displayNumber: number }
 
 function resolveListSetId(setId: string | 'all') {
-  if (setId === 'all') {
+  if (normalizeSelectableSetId(setId) === 'all') {
     return allSets[0]?.id ?? 'favorites'
   }
 
@@ -600,7 +599,6 @@ const ListGrid = memo(function ListGrid({
 export function ListPage() {
   const navigate = useNavigate()
   const rootRef = useRef<HTMLDivElement>(null)
-  const wrongAnswerIds = useExamStore((state) => state.wrongAnswerIds)
   const hideJapaneseInList = usePreferencesStore((state) => state.hideJapaneseInList)
   const hideMeaningInList = usePreferencesStore((state) => state.hideMeaningInList)
   const listFontScale = usePreferencesStore((state) => state.listFontScale)
@@ -640,15 +638,8 @@ export function ListPage() {
   })
   const effectiveHideJapaneseInList = optimisticHideState.japanese
   const effectiveHideMeaningInList = optimisticHideState.meaning
-  const wrongAnswerWords = useMemo(
-    () =>
-      wrongAnswerIds
-        .map((itemId) => getStudyItemById(itemId))
-        .filter((item): item is StudyItem => item !== undefined),
-    [wrongAnswerIds],
-  )
   const resolvedSetId = resolveListSetId(lastSelectedSetId)
-  const currentSetName = resolvedSetId === 'wrong_answers' ? '오답 노트' : getSetName(resolvedSetId)
+  const currentSetName = getSetName(resolvedSetId)
   const needsFavoriteFilteredList = favoritesOnly || resolvedSetId === 'favorites'
   const favoriteIdsForFilter = useFavoriteIdsForListFilter(needsFavoriteFilteredList)
   const favoriteIdSetForFilter = useMemo(() => new Set(favoriteIdsForFilter), [favoriteIdsForFilter])
@@ -682,15 +673,12 @@ export function ListPage() {
   }, [listFontScale])
 
   const baseWords = useMemo(() => {
-    if (resolvedSetId === 'wrong_answers') {
-      return wrongAnswerWords
-    }
 
     return getStudyItemsForSet(
       resolvedSetId,
       resolvedSetId === 'favorites' ? favoriteIdsForFilter : EMPTY_FAVORITE_IDS,
     )
-  }, [favoriteIdsForFilter, resolvedSetId, wrongAnswerWords])
+  }, [favoriteIdsForFilter, resolvedSetId])
 
   const words = useMemo(() => {
     const normalizedQuery = deferredQuery.trim().toLowerCase()

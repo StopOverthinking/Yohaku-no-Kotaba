@@ -54,8 +54,8 @@ describe('preferences theme helpers', () => {
       currentState,
     )
 
+    expect(merged.learnDefaults).not.toHaveProperty('frontMode')
     expect(merged.learnDefaults).toMatchObject({
-      frontMode: 'meaning',
       wordCount: 25,
       requiredRangesEnabled: false,
       requiredRanges: [],

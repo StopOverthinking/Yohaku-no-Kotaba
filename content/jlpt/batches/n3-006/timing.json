@@ -1,0 +1,68 @@
+{
+  "batchId": "n3-006",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T03:42:02.296Z",
+  "status": "complete",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T03:42:02.297Z",
+      "metadataCompletedAt": "2026-09-30T03:43:43.824Z",
+      "draftCompletedAt": "2026-09-30T03:45:00.139Z",
+      "validationCompletedAt": "2026-09-30T03:45:22.791Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-09-30T03:45:22.792Z",
+      "metadataCompletedAt": "2026-09-30T03:47:14.846Z",
+      "draftCompletedAt": "2026-09-30T03:48:29.416Z",
+      "validationCompletedAt": "2026-09-30T03:49:04.083Z",
+      "revisionAttempts": 1,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed",
+      "revisionNote": "활용 타깃과 번역 타깃의 접속 표현 범위를 정리함."
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-09-30T03:49:04.084Z",
+      "metadataCompletedAt": "2026-09-30T03:50:52.579Z",
+      "draftCompletedAt": "2026-09-30T03:52:09.262Z",
+      "validationCompletedAt": "2026-09-30T03:52:39.517Z",
+      "revisionAttempts": 1,
+      "observedErrors": 1,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "errorNotes": [
+        "문맥의 図書館에 타깃 図書가 포함되어 대출 코너 표현으로 변경함."
+      ],
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-09-30T03:52:39.518Z",
+      "metadataCompletedAt": "2026-09-30T03:54:50.010Z",
+      "draftCompletedAt": "2026-09-30T03:56:15.720Z",
+      "validationCompletedAt": "2026-09-30T03:56:17.198Z",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "wordCount": 25,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    }
+  ],
+  "completedAt": "2026-09-30T03:56:17.199Z",
+  "totalWords": 100,
+  "totalExamples": 100
+}

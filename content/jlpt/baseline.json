@@ -1,0 +1,9059 @@
+{
+  "schemaVersion": 1,
+  "description": "Pre-expansion vocabulary; do not regenerate after adding content.",
+  "files": {
+    "vocabularyWords.json": "a32bd8df7046cae1a63b25c18907b718ea4a2e5da3ae9dab1e0791712efa5fc2",
+    "vocabularySets.json": "57c90fc1567beb028f062eb9fcff48fb0a1f90c7d3d4e8384f45dd8230a09d3c",
+    "learnContent.json": "c711650c4a333f4a2432acd1fd7c4c4b7ce26d0908c22d5b3e64c51dd702c759"
+  },
+  "words": [
+    {
+      "id": "JLPTN3_1",
+      "japanese": "飽きる",
+      "reading": "あきる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_2",
+      "japanese": "預ける",
+      "reading": "あずける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_3",
+      "japanese": "当たる",
+      "reading": "あたる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_4",
+      "japanese": "余る",
+      "reading": "あまる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_5",
+      "japanese": "編む",
+      "reading": "あむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_6",
+      "japanese": "表す",
+      "reading": "あらわす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_7",
+      "japanese": "慌てる",
+      "reading": "あわてる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_8",
+      "japanese": "急ぐ",
+      "reading": "いそぐ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_9",
+      "japanese": "挑む",
+      "reading": "いどむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_10",
+      "japanese": "植える",
+      "reading": "うえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_11",
+      "japanese": "受け取る",
+      "reading": "うけとる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_12",
+      "japanese": "疑う",
+      "reading": "うたがう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_13",
+      "japanese": "打つ",
+      "reading": "うつ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_14",
+      "japanese": "移る",
+      "reading": "うつる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_15",
+      "japanese": "奪う",
+      "reading": "うばう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_16",
+      "japanese": "埋める",
+      "reading": "うめる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_17",
+      "japanese": "売り切れる",
+      "reading": "うりきれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_18",
+      "japanese": "追いつく",
+      "reading": "おいつく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_19",
+      "japanese": "抑える",
+      "reading": "おさえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_20",
+      "japanese": "押す",
+      "reading": "おす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_21",
+      "japanese": "落ち着く",
+      "reading": "おちつく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_22",
+      "japanese": "驚く",
+      "reading": "おどろく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_23",
+      "japanese": "覚える",
+      "reading": "おぼえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_24",
+      "japanese": "折る",
+      "reading": "おる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_25",
+      "japanese": "折れる",
+      "reading": "おれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_26",
+      "japanese": "替える",
+      "reading": "かえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_27",
+      "japanese": "輝く",
+      "reading": "かがやく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_28",
+      "japanese": "隠す",
+      "reading": "かくす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_29",
+      "japanese": "駆ける",
+      "reading": "かける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_30",
+      "japanese": "囲む",
+      "reading": "かこむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_31",
+      "japanese": "重ねる",
+      "reading": "かさねる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_32",
+      "japanese": "飾る",
+      "reading": "かざる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_33",
+      "japanese": "貸す",
+      "reading": "かす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_34",
+      "japanese": "借りる",
+      "reading": "かりる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_35",
+      "japanese": "枯れる",
+      "reading": "かれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_36",
+      "japanese": "乾く",
+      "reading": "かわく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_37",
+      "japanese": "消える",
+      "reading": "きえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_38",
+      "japanese": "嫌う",
+      "reading": "きらう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_39",
+      "japanese": "配る",
+      "reading": "くばる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_40",
+      "japanese": "組み立てる",
+      "reading": "くみたてる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_41",
+      "japanese": "組む",
+      "reading": "くむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_42",
+      "japanese": "繰り返す",
+      "reading": "くりかえす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_43",
+      "japanese": "加える",
+      "reading": "くわえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_44",
+      "japanese": "消す",
+      "reading": "けす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_45",
+      "japanese": "凍る",
+      "reading": "こおる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_46",
+      "japanese": "焦げる",
+      "reading": "こげる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_47",
+      "japanese": "断る",
+      "reading": "ことわる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_48",
+      "japanese": "転ぶ",
+      "reading": "ころぶ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_49",
+      "japanese": "怖がる",
+      "reading": "こわがる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_50",
+      "japanese": "覚める",
+      "reading": "さめる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_51",
+      "japanese": "騒ぐ",
+      "reading": "さわぐ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_52",
+      "japanese": "触る",
+      "reading": "さわる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_53",
+      "japanese": "沈む",
+      "reading": "しずむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_54",
+      "japanese": "従う",
+      "reading": "したがう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_55",
+      "japanese": "縛る",
+      "reading": "しばる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_56",
+      "japanese": "絞る",
+      "reading": "しぼる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_57",
+      "japanese": "示す",
+      "reading": "しめす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_58",
+      "japanese": "締める",
+      "reading": "しめる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_59",
+      "japanese": "信じる",
+      "reading": "しんじる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_60",
+      "japanese": "過ぎる",
+      "reading": "すぎる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_61",
+      "japanese": "捨てる",
+      "reading": "すてる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_62",
+      "japanese": "育てる",
+      "reading": "そだてる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_63",
+      "japanese": "倒れる",
+      "reading": "たおれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_64",
+      "japanese": "確かめる",
+      "reading": "たしかめる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_65",
+      "japanese": "戦う",
+      "reading": "たたかう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_66",
+      "japanese": "畳む",
+      "reading": "たたむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_67",
+      "japanese": "経つ",
+      "reading": "たつ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_68",
+      "japanese": "黙る",
+      "reading": "だまる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_69",
+      "japanese": "頼る",
+      "reading": "たよる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_70",
+      "japanese": "違う",
+      "reading": "ちがう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_71",
+      "japanese": "疲れる",
+      "reading": "つかれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_72",
+      "japanese": "伝わる",
+      "reading": "つたわる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_73",
+      "japanese": "包む",
+      "reading": "つつむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_74",
+      "japanese": "勤める",
+      "reading": "つとめる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_75",
+      "japanese": "通る",
+      "reading": "とおる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_76",
+      "japanese": "解ける",
+      "reading": "とける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_77",
+      "japanese": "溶ける",
+      "reading": "とける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_78",
+      "japanese": "閉じる",
+      "reading": "とじる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_79",
+      "japanese": "怒鳴る",
+      "reading": "どなる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_80",
+      "japanese": "飛ぶ",
+      "reading": "とぶ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_81",
+      "japanese": "取り消す",
+      "reading": "とりけす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_82",
+      "japanese": "流れる",
+      "reading": "ながれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_83",
+      "japanese": "泣く",
+      "reading": "なく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_84",
+      "japanese": "慰める",
+      "reading": "なぐさめる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_85",
+      "japanese": "投げる",
+      "reading": "なげる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_86",
+      "japanese": "並ぶ",
+      "reading": "ならぶ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_87",
+      "japanese": "似合う",
+      "reading": "にあう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_88",
+      "japanese": "握る",
+      "reading": "にぎる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_89",
+      "japanese": "逃げる",
+      "reading": "にげる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_90",
+      "japanese": "濡れる",
+      "reading": "ぬれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_91",
+      "japanese": "願う",
+      "reading": "ねがう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_92",
+      "japanese": "眠る",
+      "reading": "ねむる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_93",
+      "japanese": "残る",
+      "reading": "のこる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_94",
+      "japanese": "延ばす",
+      "reading": "のばす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_95",
+      "japanese": "生える",
+      "reading": "はえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_96",
+      "japanese": "測る",
+      "reading": "はかる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_97",
+      "japanese": "量る",
+      "reading": "はかる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_98",
+      "japanese": "運ぶ",
+      "reading": "はこぶ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_99",
+      "japanese": "離す",
+      "reading": "はなす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_100",
+      "japanese": "冷える",
+      "reading": "ひえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_101",
+      "japanese": "光る",
+      "reading": "ひかる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_102",
+      "japanese": "引き受ける",
+      "reading": "ひきうける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_103",
+      "japanese": "拾う",
+      "reading": "ひろう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_104",
+      "japanese": "拭く",
+      "reading": "ふく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_105",
+      "japanese": "防ぐ",
+      "reading": "ふせぐ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_106",
+      "japanese": "触れる",
+      "reading": "ふれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_107",
+      "japanese": "干す",
+      "reading": "ほす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_108",
+      "japanese": "曲げる",
+      "reading": "まげる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_109",
+      "japanese": "混ぜる",
+      "reading": "まぜる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_110",
+      "japanese": "待ち合わせる",
+      "reading": "まちあわせる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_111",
+      "japanese": "学ぶ",
+      "reading": "まなぶ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_112",
+      "japanese": "間に合う",
+      "reading": "まにあう",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_113",
+      "japanese": "守る",
+      "reading": "まもる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_114",
+      "japanese": "回す",
+      "reading": "まわす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_115",
+      "japanese": "見つける",
+      "reading": "みつける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_116",
+      "japanese": "結ぶ",
+      "reading": "むすぶ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_117",
+      "japanese": "申し込む",
+      "reading": "もうしこむ",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_118",
+      "japanese": "燃える",
+      "reading": "もえる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_119",
+      "japanese": "焼く",
+      "reading": "やく",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_120",
+      "japanese": "破る",
+      "reading": "やぶる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_121",
+      "japanese": "破れる",
+      "reading": "やぶれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_122",
+      "japanese": "許す",
+      "reading": "ゆるす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_123",
+      "japanese": "揺れる",
+      "reading": "ゆれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_124",
+      "japanese": "汚れる",
+      "reading": "よごれる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_125",
+      "japanese": "呼びかける",
+      "reading": "よびかける",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_126",
+      "japanese": "渡す",
+      "reading": "わたす",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_127",
+      "japanese": "割れる",
+      "reading": "われる",
+      "type": "verb"
+    },
+    {
+      "id": "JLPTN3_128",
+      "japanese": "浅い",
+      "reading": "あさい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_129",
+      "japanese": "厚い",
+      "reading": "あつい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_130",
+      "japanese": "甘い",
+      "reading": "あまい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_131",
+      "japanese": "怪しい",
+      "reading": "あやしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_132",
+      "japanese": "薄い",
+      "reading": "うすい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_133",
+      "japanese": "美しい",
+      "reading": "うつくしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_134",
+      "japanese": "偉い",
+      "reading": "えらい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_135",
+      "japanese": "惜しい",
+      "reading": "おしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_136",
+      "japanese": "悲しい",
+      "reading": "かなしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_137",
+      "japanese": "辛い",
+      "reading": "からい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_138",
+      "japanese": "汚い",
+      "reading": "きたない",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_139",
+      "japanese": "厳しい",
+      "reading": "きびしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_140",
+      "japanese": "暗い",
+      "reading": "くらい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_141",
+      "japanese": "苦しい",
+      "reading": "くるしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_142",
+      "japanese": "詳しい",
+      "reading": "くわしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_143",
+      "japanese": "恋しい",
+      "reading": "こいしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_144",
+      "japanese": "細かい",
+      "reading": "こまかい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_145",
+      "japanese": "親しい",
+      "reading": "したしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_146",
+      "japanese": "懐かしい",
+      "reading": "なつかしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_147",
+      "japanese": "深い",
+      "reading": "ふかい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_148",
+      "japanese": "細い",
+      "reading": "ほそい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_149",
+      "japanese": "貧しい",
+      "reading": "まずしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_150",
+      "japanese": "丸い",
+      "reading": "まるい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_151",
+      "japanese": "短い",
+      "reading": "みじかい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_152",
+      "japanese": "易しい",
+      "reading": "やさしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_153",
+      "japanese": "優しい",
+      "reading": "やさしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_154",
+      "japanese": "緩い",
+      "reading": "ゆるい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_155",
+      "japanese": "若い",
+      "reading": "わかい",
+      "type": "i_adj"
+    },
+    {
+      "id": "JLPTN3_156",
+      "japanese": "一般的だ",
+      "reading": "いっぱんてきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_157",
+      "japanese": "主だ",
+      "reading": "おもだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_158",
+      "japanese": "確実だ",
+      "reading": "かくじつだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_159",
+      "japanese": "感情的だ",
+      "reading": "かんじょうてきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_160",
+      "japanese": "簡単だ",
+      "reading": "かんたんだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_161",
+      "japanese": "具体的だ",
+      "reading": "ぐたいてきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_162",
+      "japanese": "盛んだ",
+      "reading": "さかんだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_163",
+      "japanese": "実用的だ",
+      "reading": "じつようてきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_164",
+      "japanese": "重要だ",
+      "reading": "じゅうようだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_165",
+      "japanese": "主要だ",
+      "reading": "しゅようだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_166",
+      "japanese": "正直だ",
+      "reading": "しょうじきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_167",
+      "japanese": "新鮮だ",
+      "reading": "しんせんだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_168",
+      "japanese": "正確だ",
+      "reading": "せいかくだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_169",
+      "japanese": "清潔だ",
+      "reading": "せいけつだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_170",
+      "japanese": "積極的だ",
+      "reading": "せっきょくてきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_171",
+      "japanese": "退屈だ",
+      "reading": "たいくつだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_172",
+      "japanese": "代表的だ",
+      "reading": "だいひょうてきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_173",
+      "japanese": "短気だ",
+      "reading": "たんきだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_174",
+      "japanese": "単純だ",
+      "reading": "たんじゅんだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_175",
+      "japanese": "得意だ",
+      "reading": "とくいだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_176",
+      "japanese": "苦手だ",
+      "reading": "にがてだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_177",
+      "japanese": "派手だ",
+      "reading": "はでだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_178",
+      "japanese": "不安だ",
+      "reading": "ふあんだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_179",
+      "japanese": "複雑だ",
+      "reading": "ふくざつだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_180",
+      "japanese": "無事だ",
+      "reading": "ぶじだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_181",
+      "japanese": "立派だ",
+      "reading": "りっぱだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "JLPTN3_182",
+      "japanese": "合図",
+      "reading": "あいず",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_183",
+      "japanese": "相手",
+      "reading": "あいて",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_184",
+      "japanese": "穴",
+      "reading": "あな",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_185",
+      "japanese": "油",
+      "reading": "あぶら",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_186",
+      "japanese": "泡",
+      "reading": "あわ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_187",
+      "japanese": "以下",
+      "reading": "いか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_188",
+      "japanese": "息",
+      "reading": "いき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_189",
+      "japanese": "行き先",
+      "reading": "いきさき(ゆきさき)",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_190",
+      "japanese": "以降",
+      "reading": "いこう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_191",
+      "japanese": "意識",
+      "reading": "いしき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_192",
+      "japanese": "板",
+      "reading": "いた",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_193",
+      "japanese": "位置",
+      "reading": "いち",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_194",
+      "japanese": "一秒",
+      "reading": "いちびょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_195",
+      "japanese": "移転",
+      "reading": "いてん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_196",
+      "japanese": "移動",
+      "reading": "いどう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_197",
+      "japanese": "印象",
+      "reading": "いんしょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_198",
+      "japanese": "右折",
+      "reading": "うせつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_199",
+      "japanese": "裏側",
+      "reading": "うらがわ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_200",
+      "japanese": "影響",
+      "reading": "えいきょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_201",
+      "japanese": "栄養",
+      "reading": "えいよう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_202",
+      "japanese": "笑顔",
+      "reading": "えがお",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_203",
+      "japanese": "枝",
+      "reading": "えだ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_204",
+      "japanese": "演奏",
+      "reading": "えんそう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_205",
+      "japanese": "お祝い",
+      "reading": "おいわい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_206",
+      "japanese": "応援",
+      "reading": "おうえん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_207",
+      "japanese": "横断",
+      "reading": "おうだん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_208",
+      "japanese": "往復",
+      "reading": "おうふく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_209",
+      "japanese": "応募",
+      "reading": "おうぼ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_210",
+      "japanese": "応用",
+      "reading": "おうよう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_211",
+      "japanese": "お代わり",
+      "reading": "おかわり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_212",
+      "japanese": "お見舞い",
+      "reading": "おみまい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_213",
+      "japanese": "温泉",
+      "reading": "おんせん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_214",
+      "japanese": "会計",
+      "reading": "かいけい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_215",
+      "japanese": "改札(口)",
+      "reading": "かいさつ(ぐち)",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_216",
+      "japanese": "回収",
+      "reading": "かいしゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_217",
+      "japanese": "香り",
+      "reading": "かおり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_218",
+      "japanese": "各自",
+      "reading": "かくじ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_219",
+      "japanese": "各地",
+      "reading": "かくち",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_220",
+      "japanese": "確認",
+      "reading": "かくにん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_221",
+      "japanese": "過去",
+      "reading": "かこ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_222",
+      "japanese": "数",
+      "reading": "かず",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_223",
+      "japanese": "下線",
+      "reading": "かせん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_224",
+      "japanese": "肩",
+      "reading": "かた",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_225",
+      "japanese": "形",
+      "reading": "かたち",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_226",
+      "japanese": "片方",
+      "reading": "かたほう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_227",
+      "japanese": "片道",
+      "reading": "かたみち",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_228",
+      "japanese": "価値",
+      "reading": "かち",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_229",
+      "japanese": "活気",
+      "reading": "かっき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_230",
+      "japanese": "楽器",
+      "reading": "がっき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_231",
+      "japanese": "活動",
+      "reading": "かつどう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_232",
+      "japanese": "仮定",
+      "reading": "かてい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_233",
+      "japanese": "我慢",
+      "reading": "がまん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_234",
+      "japanese": "空",
+      "reading": "から",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_235",
+      "japanese": "皮",
+      "reading": "かわ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_236",
+      "japanese": "間隔",
+      "reading": "かんかく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_237",
+      "japanese": "感覚",
+      "reading": "かんかく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_238",
+      "japanese": "観客",
+      "reading": "かんきゃく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_239",
+      "japanese": "環境",
+      "reading": "かんきょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_240",
+      "japanese": "関係",
+      "reading": "かんけい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_241",
+      "japanese": "感激",
+      "reading": "かんげき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_242",
+      "japanese": "観光",
+      "reading": "かんこう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_243",
+      "japanese": "観察",
+      "reading": "かんさつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_244",
+      "japanese": "関心",
+      "reading": "かんしん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_245",
+      "japanese": "完成",
+      "reading": "かんせい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_246",
+      "japanese": "機械",
+      "reading": "きかい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_247",
+      "japanese": "機会",
+      "reading": "きかい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_248",
+      "japanese": "期限",
+      "reading": "きげん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_249",
+      "japanese": "技術",
+      "reading": "ぎじゅつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_250",
+      "japanese": "傷",
+      "reading": "きず",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_251",
+      "japanese": "基礎",
+      "reading": "きそ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_252",
+      "japanese": "規則",
+      "reading": "きそく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_253",
+      "japanese": "期待",
+      "reading": "きたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_254",
+      "japanese": "帰宅",
+      "reading": "きたく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_255",
+      "japanese": "切手",
+      "reading": "きって",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_256",
+      "japanese": "記念",
+      "reading": "きねん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_257",
+      "japanese": "基本",
+      "reading": "きほん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_258",
+      "japanese": "逆",
+      "reading": "ぎゃく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_259",
+      "japanese": "休日",
+      "reading": "きゅうじつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_260",
+      "japanese": "教師",
+      "reading": "きょうし",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_261",
+      "japanese": "競争",
+      "reading": "きょうそう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_262",
+      "japanese": "共通",
+      "reading": "きょうつう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_263",
+      "japanese": "興味",
+      "reading": "きょうみ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_264",
+      "japanese": "協力",
+      "reading": "きょうりょく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_265",
+      "japanese": "距離",
+      "reading": "きょり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_266",
+      "japanese": "記録",
+      "reading": "きろく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_267",
+      "japanese": "禁煙",
+      "reading": "きんえん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_268",
+      "japanese": "禁止",
+      "reading": "きんし",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_269",
+      "japanese": "首",
+      "reading": "くび",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_270",
+      "japanese": "工夫",
+      "reading": "くふう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_271",
+      "japanese": "区分",
+      "reading": "くぶん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_272",
+      "japanese": "区別",
+      "reading": "くべつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_273",
+      "japanese": "訓練",
+      "reading": "くんれん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_274",
+      "japanese": "経営",
+      "reading": "けいえい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_275",
+      "japanese": "計画",
+      "reading": "けいかく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_276",
+      "japanese": "経験",
+      "reading": "けいけん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_277",
+      "japanese": "経済",
+      "reading": "けいざい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_278",
+      "japanese": "計算",
+      "reading": "けいさん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_279",
+      "japanese": "経由",
+      "reading": "けいゆ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_280",
+      "japanese": "外科",
+      "reading": "げか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_281",
+      "japanese": "景色",
+      "reading": "けしき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_282",
+      "japanese": "血液",
+      "reading": "けつえき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_283",
+      "japanese": "欠席",
+      "reading": "けっせき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_284",
+      "japanese": "欠点",
+      "reading": "けってん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_285",
+      "japanese": "煙",
+      "reading": "けむり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_286",
+      "japanese": "原因",
+      "reading": "げんいん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_287",
+      "japanese": "研究",
+      "reading": "けんきゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_288",
+      "japanese": "現金",
+      "reading": "げんきん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_289",
+      "japanese": "健康",
+      "reading": "けんこう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_290",
+      "japanese": "検査",
+      "reading": "けんさ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_291",
+      "japanese": "現在",
+      "reading": "げんざい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_292",
+      "japanese": "減少",
+      "reading": "げんしょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_293",
+      "japanese": "建設",
+      "reading": "けんせつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_294",
+      "japanese": "見物",
+      "reading": "けんぶつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_295",
+      "japanese": "原料",
+      "reading": "げんりょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_296",
+      "japanese": "講演",
+      "reading": "こうえん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_297",
+      "japanese": "効果",
+      "reading": "こうか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_298",
+      "japanese": "合計",
+      "reading": "ごうけい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_299",
+      "japanese": "広告",
+      "reading": "こうこく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_300",
+      "japanese": "交代",
+      "reading": "こうたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_301",
+      "japanese": "交替",
+      "reading": "こうたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_302",
+      "japanese": "行動",
+      "reading": "こうどう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_303",
+      "japanese": "交流",
+      "reading": "こうりゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_304",
+      "japanese": "氷",
+      "reading": "こおり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_305",
+      "japanese": "呼吸",
+      "reading": "こきゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_306",
+      "japanese": "腰",
+      "reading": "こし",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_307",
+      "japanese": "故障",
+      "reading": "こしょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_308",
+      "japanese": "個人",
+      "reading": "こじん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_309",
+      "japanese": "粉",
+      "reading": "こな",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_310",
+      "japanese": "米",
+      "reading": "こめ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_311",
+      "japanese": "最終",
+      "reading": "さいしゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_312",
+      "japanese": "最上",
+      "reading": "さいじょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_313",
+      "japanese": "材料",
+      "reading": "ざいりょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_314",
+      "japanese": "坂道",
+      "reading": "さかみち",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_315",
+      "japanese": "作業",
+      "reading": "さぎょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_316",
+      "japanese": "作物",
+      "reading": "さくもつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_317",
+      "japanese": "雑誌",
+      "reading": "ざっし",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_318",
+      "japanese": "左右",
+      "reading": "さゆう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_319",
+      "japanese": "参加",
+      "reading": "さんか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_320",
+      "japanese": "賛成",
+      "reading": "さんせい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_321",
+      "japanese": "塩",
+      "reading": "しお",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_322",
+      "japanese": "支給",
+      "reading": "しきゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_323",
+      "japanese": "資源",
+      "reading": "しげん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_324",
+      "japanese": "支出",
+      "reading": "ししゅつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_325",
+      "japanese": "事情",
+      "reading": "じじょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_326",
+      "japanese": "自信",
+      "reading": "じしん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_327",
+      "japanese": "姿勢",
+      "reading": "しせい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_328",
+      "japanese": "自然",
+      "reading": "しぜん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_329",
+      "japanese": "支度",
+      "reading": "したく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_330",
+      "japanese": "失業",
+      "reading": "しつぎょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_331",
+      "japanese": "実力",
+      "reading": "じつりょく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_332",
+      "japanese": "指導",
+      "reading": "しどう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_333",
+      "japanese": "締め切り",
+      "reading": "しめきり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_334",
+      "japanese": "地面",
+      "reading": "じめん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_335",
+      "japanese": "地元",
+      "reading": "じもと",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_336",
+      "japanese": "集合",
+      "reading": "しゅうごう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_337",
+      "japanese": "収集",
+      "reading": "しゅうしゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_338",
+      "japanese": "渋滞",
+      "reading": "じゅうたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_339",
+      "japanese": "集中",
+      "reading": "しゅうちゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_340",
+      "japanese": "修理",
+      "reading": "しゅうり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_341",
+      "japanese": "縮小",
+      "reading": "しゅくしょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_342",
+      "japanese": "手術",
+      "reading": "しゅじゅつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_343",
+      "japanese": "手段",
+      "reading": "しゅだん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_344",
+      "japanese": "主張",
+      "reading": "しゅちょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_345",
+      "japanese": "出張",
+      "reading": "しゅっちょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_346",
+      "japanese": "首都",
+      "reading": "しゅと",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_347",
+      "japanese": "趣味",
+      "reading": "しゅみ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_348",
+      "japanese": "順番",
+      "reading": "じゅんばん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_349",
+      "japanese": "紹介",
+      "reading": "しょうかい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_350",
+      "japanese": "商業",
+      "reading": "しょうぎょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_351",
+      "japanese": "条件",
+      "reading": "じょうけん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_352",
+      "japanese": "乗車",
+      "reading": "じょうしゃ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_353",
+      "japanese": "招待",
+      "reading": "しょうたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_354",
+      "japanese": "商売",
+      "reading": "しょうばい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_355",
+      "japanese": "消費",
+      "reading": "しょうひ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_356",
+      "japanese": "商品",
+      "reading": "しょうひん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_357",
+      "japanese": "情報",
+      "reading": "じょうほう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_358",
+      "japanese": "証明",
+      "reading": "しょうめい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_359",
+      "japanese": "正面",
+      "reading": "しょうめん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_360",
+      "japanese": "植物",
+      "reading": "しょくぶつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_361",
+      "japanese": "食器",
+      "reading": "しょっき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_362",
+      "japanese": "資料",
+      "reading": "しりょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_363",
+      "japanese": "進行",
+      "reading": "しんこう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_364",
+      "japanese": "申請",
+      "reading": "しんせい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_365",
+      "japanese": "進歩",
+      "reading": "しんぽ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_366",
+      "japanese": "数字",
+      "reading": "すうじ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_367",
+      "japanese": "頭痛",
+      "reading": "ずつう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_368",
+      "japanese": "砂",
+      "reading": "すな",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_369",
+      "japanese": "正解",
+      "reading": "せいかい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_370",
+      "japanese": "性格",
+      "reading": "せいかく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_371",
+      "japanese": "税金",
+      "reading": "ぜいきん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_372",
+      "japanese": "制限",
+      "reading": "せいげん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_373",
+      "japanese": "成功",
+      "reading": "せいこう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_374",
+      "japanese": "正常",
+      "reading": "せいじょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_375",
+      "japanese": "成績",
+      "reading": "せいせき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_376",
+      "japanese": "整理",
+      "reading": "せいり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_377",
+      "japanese": "石油",
+      "reading": "せきゆ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_378",
+      "japanese": "選手",
+      "reading": "せんしゅ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_379",
+      "japanese": "洗濯",
+      "reading": "せんたく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_380",
+      "japanese": "宣伝",
+      "reading": "せんでん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_381",
+      "japanese": "専門",
+      "reading": "せんもん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_382",
+      "japanese": "想像",
+      "reading": "そうぞう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_383",
+      "japanese": "早退",
+      "reading": "そうたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_384",
+      "japanese": "相談",
+      "reading": "そうだん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_385",
+      "japanese": "速度",
+      "reading": "そくど",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_386",
+      "japanese": "底",
+      "reading": "そこ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_387",
+      "japanese": "卒業",
+      "reading": "そつぎょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_388",
+      "japanese": "存在",
+      "reading": "そんざい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_389",
+      "japanese": "大会",
+      "reading": "たいかい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_390",
+      "japanese": "代金",
+      "reading": "だいきん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_391",
+      "japanese": "滞在",
+      "reading": "たいざい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_392",
+      "japanese": "台所",
+      "reading": "だいどころ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_393",
+      "japanese": "台風",
+      "reading": "たいふう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_394",
+      "japanese": "体力",
+      "reading": "たいりょく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_395",
+      "japanese": "他人",
+      "reading": "たにん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_396",
+      "japanese": "誕生",
+      "reading": "たんじょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_397",
+      "japanese": "団体",
+      "reading": "だんたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_398",
+      "japanese": "遅刻",
+      "reading": "ちこく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_399",
+      "japanese": "中古",
+      "reading": "ちゅうこ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_400",
+      "japanese": "駐車",
+      "reading": "ちゅうしゃ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_401",
+      "japanese": "調子",
+      "reading": "ちょうし",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_402",
+      "japanese": "朝食",
+      "reading": "ちょうしょく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_403",
+      "japanese": "貯金",
+      "reading": "ちょきん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_404",
+      "japanese": "直接",
+      "reading": "ちょくせつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_405",
+      "japanese": "通勤",
+      "reading": "つうきん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_406",
+      "japanese": "通訳",
+      "reading": "つうやく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_407",
+      "japanese": "都合",
+      "reading": "つごう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_408",
+      "japanese": "停電",
+      "reading": "ていでん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_409",
+      "japanese": "伝言",
+      "reading": "でんごん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_410",
+      "japanese": "天井",
+      "reading": "てんじょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_411",
+      "japanese": "動作",
+      "reading": "どうさ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_412",
+      "japanese": "当日",
+      "reading": "とうじつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_413",
+      "japanese": "登場",
+      "reading": "とうじょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_414",
+      "japanese": "到着",
+      "reading": "とうちゃく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_415",
+      "japanese": "登録",
+      "reading": "とうろく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_416",
+      "japanese": "独身",
+      "reading": "どくしん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_417",
+      "japanese": "特徴",
+      "reading": "とくちょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_418",
+      "japanese": "独立",
+      "reading": "どくりつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_419",
+      "japanese": "登山",
+      "reading": "とざん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_420",
+      "japanese": "途中",
+      "reading": "とちゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_421",
+      "japanese": "努力",
+      "reading": "どりょく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_422",
+      "japanese": "内緒",
+      "reading": "ないしょ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_423",
+      "japanese": "内容",
+      "reading": "ないよう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_424",
+      "japanese": "中身",
+      "reading": "なかみ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_425",
+      "japanese": "波",
+      "reading": "なみ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_426",
+      "japanese": "涙",
+      "reading": "なみだ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_427",
+      "japanese": "荷物",
+      "reading": "にもつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_428",
+      "japanese": "人間",
+      "reading": "にんげん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_429",
+      "japanese": "値段",
+      "reading": "ねだん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_430",
+      "japanese": "根",
+      "reading": "ね",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_431",
+      "japanese": "年中",
+      "reading": "ねんじゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_432",
+      "japanese": "農業",
+      "reading": "のうぎょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_433",
+      "japanese": "歯",
+      "reading": "は",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_434",
+      "japanese": "葉",
+      "reading": "は",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_435",
+      "japanese": "~倍",
+      "reading": "~ばい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_436",
+      "japanese": "発生",
+      "reading": "はっせい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_437",
+      "japanese": "発展",
+      "reading": "はってん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_438",
+      "japanese": "発表",
+      "reading": "はっぴょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_439",
+      "japanese": "反対",
+      "reading": "はんたい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_440",
+      "japanese": "販売",
+      "reading": "はんばい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_441",
+      "japanese": "比較",
+      "reading": "ひかく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_442",
+      "japanese": "光",
+      "reading": "ひかり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_443",
+      "japanese": "否定",
+      "reading": "ひてい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_444",
+      "japanese": "表示",
+      "reading": "ひょうじ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_445",
+      "japanese": "表面",
+      "reading": "ひょうめん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_446",
+      "japanese": "風景",
+      "reading": "ふうけい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_447",
+      "japanese": "複数",
+      "reading": "ふくすう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_448",
+      "japanese": "袋",
+      "reading": "ふくろ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_449",
+      "japanese": "物価",
+      "reading": "ぶっか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_450",
+      "japanese": "沸騰",
+      "reading": "ふっとう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_451",
+      "japanese": "布団",
+      "reading": "ふとん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_452",
+      "japanese": "部分",
+      "reading": "ぶぶん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_453",
+      "japanese": "文章",
+      "reading": "ぶんしょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_454",
+      "japanese": "分類",
+      "reading": "ぶんるい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_455",
+      "japanese": "平均",
+      "reading": "へいきん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_456",
+      "japanese": "変化",
+      "reading": "へんか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_457",
+      "japanese": "貿易",
+      "reading": "ぼうえき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_458",
+      "japanese": "方向",
+      "reading": "ほうこう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_459",
+      "japanese": "方法",
+      "reading": "ほうほう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_460",
+      "japanese": "訪問",
+      "reading": "ほうもん",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_461",
+      "japanese": "法律",
+      "reading": "ほうりつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_462",
+      "japanese": "募集",
+      "reading": "ぼしゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_463",
+      "japanese": "孫",
+      "reading": "まご",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_464",
+      "japanese": "豆",
+      "reading": "まめ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_465",
+      "japanese": "満足",
+      "reading": "まんぞく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_466",
+      "japanese": "湖",
+      "reading": "みずうみ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_467",
+      "japanese": "緑",
+      "reading": "みどり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_468",
+      "japanese": "未来",
+      "reading": "みらい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_469",
+      "japanese": "命令",
+      "reading": "めいれい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_470",
+      "japanese": "免許",
+      "reading": "めんきょ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_471",
+      "japanese": "面接",
+      "reading": "めんせつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_472",
+      "japanese": "目的",
+      "reading": "もくてき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_473",
+      "japanese": "目標",
+      "reading": "もくひょう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_474",
+      "japanese": "文字",
+      "reading": "もじ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_475",
+      "japanese": "森",
+      "reading": "もり",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_476",
+      "japanese": "文句",
+      "reading": "もんく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_477",
+      "japanese": "屋根",
+      "reading": "やね",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_478",
+      "japanese": "床",
+      "reading": "ゆか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_479",
+      "japanese": "輸出",
+      "reading": "ゆしゅつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_480",
+      "japanese": "輸入",
+      "reading": "ゆにゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_481",
+      "japanese": "容器",
+      "reading": "ようき",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_482",
+      "japanese": "横",
+      "reading": "よこ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_483",
+      "japanese": "汚れ",
+      "reading": "よごれ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_484",
+      "japanese": "予測",
+      "reading": "よそく",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_485",
+      "japanese": "夜中",
+      "reading": "よなか",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_486",
+      "japanese": "予防",
+      "reading": "よぼう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_487",
+      "japanese": "留守",
+      "reading": "るす",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_488",
+      "japanese": "列",
+      "reading": "れつ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_489",
+      "japanese": "連休",
+      "reading": "れんきゅう",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_490",
+      "japanese": "訳",
+      "reading": "わけ",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_491",
+      "japanese": "割合",
+      "reading": "わりあい",
+      "type": "noun"
+    },
+    {
+      "id": "JLPTN3_492",
+      "japanese": "相変わらず",
+      "reading": "あいかわらず",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_493",
+      "japanese": "必ず",
+      "reading": "かならず",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_494",
+      "japanese": "急に",
+      "reading": "きゅうに",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_495",
+      "japanese": "次第に",
+      "reading": "しだいに",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_496",
+      "japanese": "全て",
+      "reading": "すべて",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_497",
+      "japanese": "絶対",
+      "reading": "ぜったい",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_498",
+      "japanese": "多少",
+      "reading": "たしょう",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_499",
+      "japanese": "当然",
+      "reading": "とうぜん",
+      "type": "adv"
+    },
+    {
+      "id": "JLPTN3_500",
+      "japanese": "突然",
+      "reading": "とつぜん",
+      "type": "adv"
+    },
+    {
+      "id": "handmade_1",
+      "japanese": "出来る",
+      "reading": "できる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_2",
+      "japanese": "助ける",
+      "reading": "たすける",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_3",
+      "japanese": "偉そうにする",
+      "reading": "えらそうにする",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_4",
+      "japanese": "痺れる",
+      "reading": "しびれる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_5",
+      "japanese": "昔",
+      "reading": "むかし",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_6",
+      "japanese": "渇く",
+      "reading": "かわく",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_7",
+      "japanese": "生まれる・産まれる",
+      "reading": "うまれる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_8",
+      "japanese": "宝物",
+      "reading": "たからもの",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_9",
+      "japanese": "蘞い",
+      "reading": "えぐい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_10",
+      "japanese": "貴様",
+      "reading": "きさま",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_11",
+      "japanese": "底知れない",
+      "reading": "そこしれない",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_12",
+      "japanese": "豆知識",
+      "reading": "まめちしき",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_13",
+      "japanese": "様子",
+      "reading": "ようす",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_14",
+      "japanese": "泥",
+      "reading": "どろ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_15",
+      "japanese": "掃除",
+      "reading": "そうじ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_16",
+      "japanese": "戻す",
+      "reading": "もどす",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_17",
+      "japanese": "丁寧に",
+      "reading": "ていねいに",
+      "type": "adv"
+    },
+    {
+      "id": "handmade_18",
+      "japanese": "隙間",
+      "reading": "すきま",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_19",
+      "japanese": "差し込む",
+      "reading": "さしこむ",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_20",
+      "japanese": "諦める",
+      "reading": "あきらめる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_21",
+      "japanese": "謎",
+      "reading": "なぞ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_22",
+      "japanese": "店",
+      "reading": "みせ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_23",
+      "japanese": "髭",
+      "reading": "ひげ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_24",
+      "japanese": "髪",
+      "reading": "かみ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_25",
+      "japanese": "船",
+      "reading": "ふね",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_26",
+      "japanese": "嵐",
+      "reading": "あらし",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_27",
+      "japanese": "東",
+      "reading": "ひがし",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_28",
+      "japanese": "西",
+      "reading": "にし",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_29",
+      "japanese": "南",
+      "reading": "みなみ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_30",
+      "japanese": "北",
+      "reading": "きた",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_31",
+      "japanese": "外",
+      "reading": "そと",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_32",
+      "japanese": "今朝",
+      "reading": "けさ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_33",
+      "japanese": "暑い",
+      "reading": "あつい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_34",
+      "japanese": "箱",
+      "reading": "はこ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_35",
+      "japanese": "瞳",
+      "reading": "ひとみ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_36",
+      "japanese": "試験",
+      "reading": "しけん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_37",
+      "japanese": "取り込む",
+      "reading": "とりこむ",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_38",
+      "japanese": "蛇口",
+      "reading": "じゃぐち",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_39",
+      "japanese": "問題",
+      "reading": "もんだい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_40",
+      "japanese": "消防",
+      "reading": "しょうぼう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_41",
+      "japanese": "駅",
+      "reading": "えき",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_42",
+      "japanese": "ご飯",
+      "reading": "ごはん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_43",
+      "japanese": "酒",
+      "reading": "さけ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_44",
+      "japanese": "授業",
+      "reading": "じゅぎょう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_45",
+      "japanese": "新聞",
+      "reading": "しんぶん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_46",
+      "japanese": "住所",
+      "reading": "じゅうしょ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_47",
+      "japanese": "電話",
+      "reading": "でんわ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_48",
+      "japanese": "番号",
+      "reading": "ばんごう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_49",
+      "japanese": "描く",
+      "reading": "かく・えがく",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_50",
+      "japanese": "勉強",
+      "reading": "べんきょう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_51",
+      "japanese": "変だ",
+      "reading": "へんだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "handmade_52",
+      "japanese": "味",
+      "reading": "あじ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_53",
+      "japanese": "赤ちゃん",
+      "reading": "あかちゃん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_54",
+      "japanese": "失敗",
+      "reading": "しっぱい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_55",
+      "japanese": "写真",
+      "reading": "しゃしん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_56",
+      "japanese": "収める",
+      "reading": "おさめる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_57",
+      "japanese": "揚げる",
+      "reading": "あげる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_58",
+      "japanese": "揚げ物",
+      "reading": "あげもの",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_59",
+      "japanese": "車",
+      "reading": "くるま",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_60",
+      "japanese": "渡す",
+      "reading": "わたす",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_61",
+      "japanese": "水槽",
+      "reading": "すいそう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_62",
+      "japanese": "選手",
+      "reading": "せんしゅ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_63",
+      "japanese": "決める",
+      "reading": "きめる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_64",
+      "japanese": "机",
+      "reading": "つくえ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_65",
+      "japanese": "縁",
+      "reading": "へり",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_66",
+      "japanese": "気絶",
+      "reading": "きぜつ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_67",
+      "japanese": "針",
+      "reading": "はり",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_68",
+      "japanese": "鍼",
+      "reading": "はり",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_69",
+      "japanese": "腰",
+      "reading": "こし",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_70",
+      "japanese": "和らぐ",
+      "reading": "やわらぐ",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_71",
+      "japanese": "話",
+      "reading": "はなし",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_72",
+      "japanese": "昨日",
+      "reading": "きのう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_73",
+      "japanese": "碁",
+      "reading": "ご",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_74",
+      "japanese": "結果",
+      "reading": "けっか",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_75",
+      "japanese": "一生懸命",
+      "reading": "いっしょうけんめい",
+      "type": "adv"
+    },
+    {
+      "id": "handmade_76",
+      "japanese": "将来",
+      "reading": "しょうらい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_77",
+      "japanese": "動物",
+      "reading": "どうぶつ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_78",
+      "japanese": "進路",
+      "reading": "しんろ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_79",
+      "japanese": "合格",
+      "reading": "ごうかく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_80",
+      "japanese": "耳",
+      "reading": "みみ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_81",
+      "japanese": "引っ越す",
+      "reading": "ひっこす",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_82",
+      "japanese": "連絡",
+      "reading": "れんらく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_83",
+      "japanese": "先祖",
+      "reading": "せんぞ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_84",
+      "japanese": "流浪",
+      "reading": "るろう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_85",
+      "japanese": "末",
+      "reading": "すえ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_86",
+      "japanese": "自分",
+      "reading": "じぶん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_87",
+      "japanese": "大切だ",
+      "reading": "たいせつだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "handmade_88",
+      "japanese": "頭",
+      "reading": "あたま",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_89",
+      "japanese": "痛み止め",
+      "reading": "いたみどめ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_90",
+      "japanese": "果物",
+      "reading": "くだもの",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_91",
+      "japanese": "修理",
+      "reading": "しゅうり",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_92",
+      "japanese": "屋根",
+      "reading": "やね",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_93",
+      "japanese": "肌",
+      "reading": "はだ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_94",
+      "japanese": "寒い",
+      "reading": "さむい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_95",
+      "japanese": "厳しい",
+      "reading": "きびしい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_96",
+      "japanese": "冷たい",
+      "reading": "つめたい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_97",
+      "japanese": "歯",
+      "reading": "は",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_98",
+      "japanese": "汗",
+      "reading": "あせ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_99",
+      "japanese": "脱ぐ",
+      "reading": "ぬぐ",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_100",
+      "japanese": "誰",
+      "reading": "だれ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_101",
+      "japanese": "事件",
+      "reading": "じけん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_102",
+      "japanese": "一部始終",
+      "reading": "いちぶしじゅう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_103",
+      "japanese": "本心",
+      "reading": "ほんしん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_104",
+      "japanese": "会議",
+      "reading": "かいぎ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_105",
+      "japanese": "意見",
+      "reading": "いけん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_106",
+      "japanese": "きちんと",
+      "reading": "きちんと",
+      "type": "adv"
+    },
+    {
+      "id": "handmade_107",
+      "japanese": "著者",
+      "reading": "ちょしゃ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_108",
+      "japanese": "違う",
+      "reading": "ちがう",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_109",
+      "japanese": "世界観",
+      "reading": "せかいかん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_110",
+      "japanese": "耳元",
+      "reading": "みみもと",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_111",
+      "japanese": "緊張",
+      "reading": "きんちょう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_112",
+      "japanese": "愛称",
+      "reading": "あいしょう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_113",
+      "japanese": "遠い",
+      "reading": "とおい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_114",
+      "japanese": "遠く",
+      "reading": "とおく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_115",
+      "japanese": "傾ける",
+      "reading": "かたむける",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_116",
+      "japanese": "使う",
+      "reading": "つかう",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_117",
+      "japanese": "黒板",
+      "reading": "こくばん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_118",
+      "japanese": "入る",
+      "reading": "はいる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_119",
+      "japanese": "帰る",
+      "reading": "かえる",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_120",
+      "japanese": "部屋",
+      "reading": "へや",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_121",
+      "japanese": "窓",
+      "reading": "まど",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_122",
+      "japanese": "曜日",
+      "reading": "ようび",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_123",
+      "japanese": "銀行",
+      "reading": "ぎんこう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_124",
+      "japanese": "去年",
+      "reading": "きょねん",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_125",
+      "japanese": "学位",
+      "reading": "がくい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_126",
+      "japanese": "後ろ",
+      "reading": "うしろ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_127",
+      "japanese": "金額",
+      "reading": "きんがく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_128",
+      "japanese": "紐",
+      "reading": "ひも",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_129",
+      "japanese": "泥棒",
+      "reading": "どろぼう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_130",
+      "japanese": "警察",
+      "reading": "けいさつ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_131",
+      "japanese": "紙",
+      "reading": "かみ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_132",
+      "japanese": "説明",
+      "reading": "せつめい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_133",
+      "japanese": "腕",
+      "reading": "うで",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_134",
+      "japanese": "逃す",
+      "reading": "のがす",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_135",
+      "japanese": "手がかり",
+      "reading": "てがかり",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_136",
+      "japanese": "政治家",
+      "reading": "せいじか",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_137",
+      "japanese": "絶大だ",
+      "reading": "ぜつだいだ",
+      "type": "na_adj"
+    },
+    {
+      "id": "handmade_138",
+      "japanese": "権力",
+      "reading": "けんりょく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_139",
+      "japanese": "社長",
+      "reading": "しゃちょう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_140",
+      "japanese": "道路",
+      "reading": "どうろ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_141",
+      "japanese": "東京",
+      "reading": "とうきょう",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_142",
+      "japanese": "大阪",
+      "reading": "おおさか",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_143",
+      "japanese": "軽い",
+      "reading": "かるい",
+      "type": "i_adj"
+    },
+    {
+      "id": "handmade_144",
+      "japanese": "声",
+      "reading": "こえ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_145",
+      "japanese": "腐敗",
+      "reading": "ふはい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_146",
+      "japanese": "食卓",
+      "reading": "しょくたく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_147",
+      "japanese": "ハエ",
+      "reading": "はえ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_148",
+      "japanese": "壁",
+      "reading": "かべ",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_149",
+      "japanese": "刺す",
+      "reading": "さす",
+      "type": "verb"
+    },
+    {
+      "id": "handmade_150",
+      "japanese": "洋服",
+      "reading": "ようふく",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_151",
+      "japanese": "宿題",
+      "reading": "しゅくだい",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_152",
+      "japanese": "妻",
+      "reading": "つま",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_153",
+      "japanese": "料理",
+      "reading": "りょうり",
+      "type": "noun"
+    },
+    {
+      "id": "handmade_154",
+      "japanese": "辞書",
+      "reading": "じしょ",
+      "type": "noun"
+    },
+    {
+      "id": "AbsoluteVerb_1",
+      "japanese": "寝る",
+      "reading": "ねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_2",
+      "japanese": "寝かす",
+      "reading": "ねかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_3",
+      "japanese": "眠る",
+      "reading": "ねむる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_4",
+      "japanese": "覚める",
+      "reading": "さめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_5",
+      "japanese": "起きる",
+      "reading": "おきる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_6",
+      "japanese": "起こす",
+      "reading": "おこす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_7",
+      "japanese": "畳む",
+      "reading": "たたむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_8",
+      "japanese": "洗う",
+      "reading": "あらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_9",
+      "japanese": "剃る",
+      "reading": "そる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_10",
+      "japanese": "磨く",
+      "reading": "みがく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_11",
+      "japanese": "拭く",
+      "reading": "ふく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_12",
+      "japanese": "休む",
+      "reading": "やすむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_13",
+      "japanese": "明ける",
+      "reading": "あける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_14",
+      "japanese": "暮れる",
+      "reading": "くれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_15",
+      "japanese": "沈む",
+      "reading": "しずむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_16",
+      "japanese": "吹く",
+      "reading": "ふく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_17",
+      "japanese": "降る",
+      "reading": "ふる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_18",
+      "japanese": "止む",
+      "reading": "やむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_19",
+      "japanese": "凍る",
+      "reading": "こおる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_20",
+      "japanese": "溶ける",
+      "reading": "とける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_21",
+      "japanese": "光る",
+      "reading": "ひかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_22",
+      "japanese": "輝く",
+      "reading": "かがやく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_23",
+      "japanese": "晴れる",
+      "reading": "はれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_24",
+      "japanese": "曇る",
+      "reading": "くもる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_25",
+      "japanese": "漏れる",
+      "reading": "もれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_26",
+      "japanese": "鳴る",
+      "reading": "なる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_27",
+      "japanese": "続ける",
+      "reading": "つづける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_28",
+      "japanese": "遭う",
+      "reading": "あう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_29",
+      "japanese": "喜ぶ",
+      "reading": "よろこぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_30",
+      "japanese": "見る",
+      "reading": "みる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_31",
+      "japanese": "聞く",
+      "reading": "きく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_32",
+      "japanese": "言う",
+      "reading": "いう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_33",
+      "japanese": "食べる",
+      "reading": "たべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_34",
+      "japanese": "飲む",
+      "reading": "のむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_35",
+      "japanese": "噛む",
+      "reading": "かむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_36",
+      "japanese": "吸う",
+      "reading": "すう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_37",
+      "japanese": "読む",
+      "reading": "よむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_38",
+      "japanese": "書く",
+      "reading": "かく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_39",
+      "japanese": "泣く",
+      "reading": "なく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_40",
+      "japanese": "笑う",
+      "reading": "わらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_41",
+      "japanese": "歩く",
+      "reading": "あるく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_42",
+      "japanese": "走る",
+      "reading": "はしる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_43",
+      "japanese": "跳ねる",
+      "reading": "はねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_44",
+      "japanese": "飛ぶ",
+      "reading": "とぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_45",
+      "japanese": "泳ぐ",
+      "reading": "およぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_46",
+      "japanese": "投げる",
+      "reading": "なげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_47",
+      "japanese": "蹴る",
+      "reading": "ける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_48",
+      "japanese": "打つ",
+      "reading": "うつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_49",
+      "japanese": "思う",
+      "reading": "おもう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_50",
+      "japanese": "考える",
+      "reading": "かんがえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_51",
+      "japanese": "悩む",
+      "reading": "なやむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_52",
+      "japanese": "疑う",
+      "reading": "うたがう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_53",
+      "japanese": "落ち着く",
+      "reading": "おちつく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_54",
+      "japanese": "確かめる",
+      "reading": "たしかめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_55",
+      "japanese": "信じる",
+      "reading": "しんじる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_56",
+      "japanese": "痛む",
+      "reading": "いたむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_57",
+      "japanese": "傷む",
+      "reading": "いたむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_58",
+      "japanese": "感じる",
+      "reading": "かんじる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_59",
+      "japanese": "染みる",
+      "reading": "しみる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_60",
+      "japanese": "話す",
+      "reading": "はなす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_61",
+      "japanese": "しゃべる",
+      "reading": "しゃべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_62",
+      "japanese": "語る",
+      "reading": "かたる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_63",
+      "japanese": "物語る",
+      "reading": "ものがたる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_64",
+      "japanese": "述べる",
+      "reading": "のべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_65",
+      "japanese": "つぶやく",
+      "reading": "つぶやく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_66",
+      "japanese": "ささやく",
+      "reading": "ささやく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_67",
+      "japanese": "どもる",
+      "reading": "どもる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_68",
+      "japanese": "呼ぶ",
+      "reading": "よぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_69",
+      "japanese": "叫ぶ",
+      "reading": "さけぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_70",
+      "japanese": "黙る",
+      "reading": "だまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_71",
+      "japanese": "掛ける",
+      "reading": "かける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_72",
+      "japanese": "掛かる",
+      "reading": "かかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_73",
+      "japanese": "付ける",
+      "reading": "つける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_74",
+      "japanese": "点ける",
+      "reading": "つける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_75",
+      "japanese": "消す",
+      "reading": "けす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_76",
+      "japanese": "開ける",
+      "reading": "あける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_77",
+      "japanese": "開く",
+      "reading": "あく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_78",
+      "japanese": "閉める",
+      "reading": "しめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_79",
+      "japanese": "閉まる",
+      "reading": "しまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_80",
+      "japanese": "取る",
+      "reading": "とる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_81",
+      "japanese": "持つ",
+      "reading": "もつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_82",
+      "japanese": "押す",
+      "reading": "おす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_83",
+      "japanese": "引く",
+      "reading": "ひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_84",
+      "japanese": "引っ張る",
+      "reading": "ひっぱる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_85",
+      "japanese": "押さえる",
+      "reading": "おさえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_86",
+      "japanese": "撫でる",
+      "reading": "なでる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_87",
+      "japanese": "振る",
+      "reading": "ふる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_88",
+      "japanese": "掴む",
+      "reading": "つかむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_89",
+      "japanese": "握る",
+      "reading": "にぎる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_90",
+      "japanese": "結ぶ",
+      "reading": "むすぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_91",
+      "japanese": "縛る",
+      "reading": "しばる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_92",
+      "japanese": "触る",
+      "reading": "さわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_93",
+      "japanese": "障る",
+      "reading": "さわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_94",
+      "japanese": "叩く",
+      "reading": "たたく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_95",
+      "japanese": "追い払う",
+      "reading": "おいはらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_96",
+      "japanese": "貼る",
+      "reading": "はる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_97",
+      "japanese": "塗る",
+      "reading": "ぬる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_98",
+      "japanese": "縫う",
+      "reading": "ぬう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_99",
+      "japanese": "捲る",
+      "reading": "めくる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_100",
+      "japanese": "捲る",
+      "reading": "まくる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_101",
+      "japanese": "出す",
+      "reading": "だす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_102",
+      "japanese": "作る",
+      "reading": "つくる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_103",
+      "japanese": "置く",
+      "reading": "おく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_104",
+      "japanese": "立つ",
+      "reading": "たつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_105",
+      "japanese": "立ち上がる",
+      "reading": "たちあがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_106",
+      "japanese": "座る",
+      "reading": "すわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_107",
+      "japanese": "しゃがむ",
+      "reading": "しゃがむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_108",
+      "japanese": "伏せる",
+      "reading": "ふせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_109",
+      "japanese": "横になる",
+      "reading": "よこになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_110",
+      "japanese": "曲げる",
+      "reading": "まげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_111",
+      "japanese": "組む",
+      "reading": "くむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_112",
+      "japanese": "踏む",
+      "reading": "ふむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_113",
+      "japanese": "悲しむ",
+      "reading": "かなしむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_114",
+      "japanese": "悼む",
+      "reading": "いたむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_115",
+      "japanese": "楽しむ",
+      "reading": "たのしむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_116",
+      "japanese": "好む",
+      "reading": "このむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_117",
+      "japanese": "嫌う",
+      "reading": "きらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_118",
+      "japanese": "憎む",
+      "reading": "にくむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_119",
+      "japanese": "恐れる",
+      "reading": "おそれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_120",
+      "japanese": "惜しむ",
+      "reading": "おしむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_121",
+      "japanese": "恨む",
+      "reading": "うらむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_122",
+      "japanese": "驚く",
+      "reading": "おどろく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_123",
+      "japanese": "驚かす",
+      "reading": "おどろかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_124",
+      "japanese": "びっくりする",
+      "reading": "びっくりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_125",
+      "japanese": "ときめく",
+      "reading": "ときめく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_126",
+      "japanese": "可愛がる",
+      "reading": "かわいがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_127",
+      "japanese": "飽きる",
+      "reading": "あきる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_128",
+      "japanese": "呆れる",
+      "reading": "あきれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_129",
+      "japanese": "怒る",
+      "reading": "おこる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_130",
+      "japanese": "叱る",
+      "reading": "しかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_131",
+      "japanese": "褒める",
+      "reading": "ほめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_132",
+      "japanese": "いじめる",
+      "reading": "いじめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_133",
+      "japanese": "甘える",
+      "reading": "あまえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_134",
+      "japanese": "甘やかす",
+      "reading": "あまやかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_135",
+      "japanese": "責める",
+      "reading": "せめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_136",
+      "japanese": "からかう",
+      "reading": "からかう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_137",
+      "japanese": "ふざける",
+      "reading": "ふざける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_138",
+      "japanese": "狂う",
+      "reading": "くるう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_139",
+      "japanese": "睨む",
+      "reading": "にらむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_140",
+      "japanese": "微笑む",
+      "reading": "ほほえむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_141",
+      "japanese": "悩ます",
+      "reading": "なやます",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_142",
+      "japanese": "苦しむ",
+      "reading": "くるしむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_143",
+      "japanese": "迷う",
+      "reading": "まよう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_144",
+      "japanese": "戸惑う",
+      "reading": "とまどう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_145",
+      "japanese": "慌てる",
+      "reading": "あわてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_146",
+      "japanese": "うろたえる",
+      "reading": "うろたえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_147",
+      "japanese": "うろつく",
+      "reading": "うろつく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_148",
+      "japanese": "焦る",
+      "reading": "あせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_149",
+      "japanese": "困る",
+      "reading": "こまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_150",
+      "japanese": "ためらう",
+      "reading": "ためらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_151",
+      "japanese": "頼る",
+      "reading": "たよる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_152",
+      "japanese": "望む",
+      "reading": "のぞむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_153",
+      "japanese": "願う",
+      "reading": "ねがう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_154",
+      "japanese": "求める",
+      "reading": "もとめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_155",
+      "japanese": "祈る",
+      "reading": "いのる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_156",
+      "japanese": "諦める",
+      "reading": "あきらめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_157",
+      "japanese": "慰める",
+      "reading": "なぐさめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_158",
+      "japanese": "謝る",
+      "reading": "あやまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_159",
+      "japanese": "許す",
+      "reading": "ゆるす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_160",
+      "japanese": "抱く",
+      "reading": "いだく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_161",
+      "japanese": "ある",
+      "reading": "ある",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_162",
+      "japanese": "いる",
+      "reading": "いる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_163",
+      "japanese": "生む",
+      "reading": "うむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_164",
+      "japanese": "生まれる",
+      "reading": "うまれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_165",
+      "japanese": "生きる",
+      "reading": "いきる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_166",
+      "japanese": "住む",
+      "reading": "すむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_167",
+      "japanese": "住まう",
+      "reading": "すまう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_168",
+      "japanese": "暮らす",
+      "reading": "くらす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_169",
+      "japanese": "育つ",
+      "reading": "そだつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_170",
+      "japanese": "育てる",
+      "reading": "そだてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_171",
+      "japanese": "死ぬ",
+      "reading": "しぬ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_172",
+      "japanese": "亡くなる",
+      "reading": "なくなる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_173",
+      "japanese": "咲く",
+      "reading": "さく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_174",
+      "japanese": "散る",
+      "reading": "ちる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_175",
+      "japanese": "茂る",
+      "reading": "しげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_176",
+      "japanese": "枯れる",
+      "reading": "かれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_177",
+      "japanese": "蒔く",
+      "reading": "まく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_178",
+      "japanese": "芽を出す",
+      "reading": "めをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_179",
+      "japanese": "実る",
+      "reading": "みのる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_180",
+      "japanese": "熟す",
+      "reading": "じゅくす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_181",
+      "japanese": "萎む",
+      "reading": "しぼむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_182",
+      "japanese": "植える",
+      "reading": "うえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_183",
+      "japanese": "生える",
+      "reading": "はえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_184",
+      "japanese": "飼う",
+      "reading": "かう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_185",
+      "japanese": "鳴く",
+      "reading": "なく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_186",
+      "japanese": "吠える",
+      "reading": "ほえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_187",
+      "japanese": "吼える",
+      "reading": "ほえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_188",
+      "japanese": "馴れる",
+      "reading": "なれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_189",
+      "japanese": "着る",
+      "reading": "きる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_190",
+      "japanese": "脱ぐ",
+      "reading": "ぬぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_191",
+      "japanese": "履く",
+      "reading": "はく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_192",
+      "japanese": "穿く",
+      "reading": "はく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_193",
+      "japanese": "はめる",
+      "reading": "はめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_194",
+      "japanese": "被る",
+      "reading": "かぶる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_195",
+      "japanese": "被せる",
+      "reading": "かぶせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_196",
+      "japanese": "飾る",
+      "reading": "かざる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_197",
+      "japanese": "外す",
+      "reading": "はずす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_198",
+      "japanese": "巻く",
+      "reading": "まく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_199",
+      "japanese": "差す",
+      "reading": "さす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_200",
+      "japanese": "切る",
+      "reading": "きる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_201",
+      "japanese": "刻む",
+      "reading": "きざむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_202",
+      "japanese": "むく",
+      "reading": "むく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_203",
+      "japanese": "揚げる",
+      "reading": "あげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_204",
+      "japanese": "炒める",
+      "reading": "いためる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_205",
+      "japanese": "煎る",
+      "reading": "いる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_206",
+      "japanese": "煮る",
+      "reading": "にる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_207",
+      "japanese": "ゆでる",
+      "reading": "ゆでる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_208",
+      "japanese": "沸く",
+      "reading": "わく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_209",
+      "japanese": "沸かす",
+      "reading": "わかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_210",
+      "japanese": "焼く",
+      "reading": "やく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_211",
+      "japanese": "焼ける",
+      "reading": "やける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_212",
+      "japanese": "和える",
+      "reading": "あえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_213",
+      "japanese": "蒸す",
+      "reading": "むす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_214",
+      "japanese": "漬ける",
+      "reading": "つける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_215",
+      "japanese": "炊く",
+      "reading": "たく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_216",
+      "japanese": "焦げる",
+      "reading": "こげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_217",
+      "japanese": "練る",
+      "reading": "ねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_218",
+      "japanese": "擦る",
+      "reading": "する",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_220",
+      "japanese": "潰す",
+      "reading": "つぶす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_221",
+      "japanese": "混ぜる",
+      "reading": "まぜる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_222",
+      "japanese": "冷やす",
+      "reading": "ひやす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_223",
+      "japanese": "温める",
+      "reading": "あたためる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_224",
+      "japanese": "教える",
+      "reading": "おしえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_225",
+      "japanese": "習う",
+      "reading": "ならう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_226",
+      "japanese": "学ぶ",
+      "reading": "まなぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_227",
+      "japanese": "教わる",
+      "reading": "おそわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_228",
+      "japanese": "覚える",
+      "reading": "おぼえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_229",
+      "japanese": "忘れる",
+      "reading": "わすれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_230",
+      "japanese": "分かる",
+      "reading": "わかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_231",
+      "japanese": "知る",
+      "reading": "しる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_232",
+      "japanese": "身に着ける",
+      "reading": "みにつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_233",
+      "japanese": "サボる",
+      "reading": "さぼる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_234",
+      "japanese": "眺める",
+      "reading": "ながめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_235",
+      "japanese": "見える",
+      "reading": "みえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_236",
+      "japanese": "見せる",
+      "reading": "みせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_237",
+      "japanese": "覗く",
+      "reading": "のぞく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_238",
+      "japanese": "見付かる",
+      "reading": "みつかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_239",
+      "japanese": "見付ける",
+      "reading": "みつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_240",
+      "japanese": "聞こえる",
+      "reading": "きこえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_241",
+      "japanese": "問う",
+      "reading": "とう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_242",
+      "japanese": "尋ねる",
+      "reading": "たずねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_243",
+      "japanese": "答える",
+      "reading": "こたえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_244",
+      "japanese": "伝わる",
+      "reading": "つたわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_245",
+      "japanese": "伝える",
+      "reading": "つたえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_246",
+      "japanese": "知らせる",
+      "reading": "しらせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_247",
+      "japanese": "写す",
+      "reading": "うつす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_248",
+      "japanese": "載る",
+      "reading": "のる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_249",
+      "japanese": "載せる",
+      "reading": "のせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_250",
+      "japanese": "現れる",
+      "reading": "あらわれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_251",
+      "japanese": "表す",
+      "reading": "あらわす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_252",
+      "japanese": "現す",
+      "reading": "あらわす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_253",
+      "japanese": "著す",
+      "reading": "あらわす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_254",
+      "japanese": "行く",
+      "reading": "いく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_255",
+      "japanese": "来る",
+      "reading": "くる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_256",
+      "japanese": "帰る",
+      "reading": "かえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_257",
+      "japanese": "戻る",
+      "reading": "もどる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_258",
+      "japanese": "入る",
+      "reading": "はいる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_259",
+      "japanese": "入れる",
+      "reading": "いれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_260",
+      "japanese": "出る",
+      "reading": "でる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_261",
+      "japanese": "出掛ける",
+      "reading": "でかける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_262",
+      "japanese": "去る",
+      "reading": "さる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_263",
+      "japanese": "通う",
+      "reading": "かよう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_264",
+      "japanese": "寄る",
+      "reading": "よる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_265",
+      "japanese": "上がる",
+      "reading": "あがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_266",
+      "japanese": "上げる",
+      "reading": "あげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_267",
+      "japanese": "上る",
+      "reading": "のぼる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_268",
+      "japanese": "登る",
+      "reading": "のぼる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_269",
+      "japanese": "昇る",
+      "reading": "のぼる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_270",
+      "japanese": "下る",
+      "reading": "くだる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_271",
+      "japanese": "下りる",
+      "reading": "おりる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_272",
+      "japanese": "下がる",
+      "reading": "さがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_273",
+      "japanese": "下げる",
+      "reading": "さげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_274",
+      "japanese": "落ちる",
+      "reading": "おちる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_275",
+      "japanese": "回る",
+      "reading": "まわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_276",
+      "japanese": "回す",
+      "reading": "まわす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_277",
+      "japanese": "通る",
+      "reading": "とおる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_278",
+      "japanese": "通す",
+      "reading": "とおす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_279",
+      "japanese": "通じる",
+      "reading": "つうじる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_280",
+      "japanese": "戻す",
+      "reading": "もどす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_281",
+      "japanese": "飛ばす",
+      "reading": "とばす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_282",
+      "japanese": "渡す",
+      "reading": "わたす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_283",
+      "japanese": "流れる",
+      "reading": "ながれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_284",
+      "japanese": "流す",
+      "reading": "ながす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_285",
+      "japanese": "行う",
+      "reading": "おこなう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_286",
+      "japanese": "倒れる",
+      "reading": "たおれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_287",
+      "japanese": "転ぶ",
+      "reading": "ころぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_288",
+      "japanese": "滑る",
+      "reading": "すべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_289",
+      "japanese": "真似る",
+      "reading": "まねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_290",
+      "japanese": "囲む",
+      "reading": "かこむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_291",
+      "japanese": "暴れる",
+      "reading": "あばれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_292",
+      "japanese": "疲れる",
+      "reading": "つかれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_293",
+      "japanese": "くたびれる",
+      "reading": "くたびれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_294",
+      "japanese": "寛ぐ",
+      "reading": "くつろぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_295",
+      "japanese": "動く",
+      "reading": "うごく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_296",
+      "japanese": "動かす",
+      "reading": "うごかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_297",
+      "japanese": "進む",
+      "reading": "すすむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_298",
+      "japanese": "止まる",
+      "reading": "とまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_299",
+      "japanese": "止める",
+      "reading": "とめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_300",
+      "japanese": "張る",
+      "reading": "はる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_302",
+      "japanese": "浮く",
+      "reading": "うく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_303",
+      "japanese": "浮かぶ",
+      "reading": "うかぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_304",
+      "japanese": "浮かべる",
+      "reading": "うかべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_305",
+      "japanese": "潜る",
+      "reading": "もぐる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_306",
+      "japanese": "買う",
+      "reading": "かう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_307",
+      "japanese": "売る",
+      "reading": "うる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_308",
+      "japanese": "気に入る",
+      "reading": "きにいる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_309",
+      "japanese": "似合う",
+      "reading": "にあう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_310",
+      "japanese": "選ぶ",
+      "reading": "えらぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_311",
+      "japanese": "払う",
+      "reading": "はらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_312",
+      "japanese": "包む",
+      "reading": "つつむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_313",
+      "japanese": "届く",
+      "reading": "とどく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_314",
+      "japanese": "勧める",
+      "reading": "すすめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_315",
+      "japanese": "取り扱う",
+      "reading": "とりあつかう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_316",
+      "japanese": "祝う",
+      "reading": "いわう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_317",
+      "japanese": "招く",
+      "reading": "まねく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_318",
+      "japanese": "遊ぶ",
+      "reading": "あそぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_319",
+      "japanese": "歌う",
+      "reading": "うたう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_320",
+      "japanese": "おごる",
+      "reading": "おごる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_321",
+      "japanese": "酔う",
+      "reading": "よう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_322",
+      "japanese": "よっぱらう",
+      "reading": "よっぱらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_323",
+      "japanese": "踊る",
+      "reading": "おどる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_324",
+      "japanese": "弾く",
+      "reading": "ひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_325",
+      "japanese": "騒ぐ",
+      "reading": "さわぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_326",
+      "japanese": "やる",
+      "reading": "やる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_327",
+      "japanese": "与える",
+      "reading": "あたえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_328",
+      "japanese": "あげる",
+      "reading": "あげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_329",
+      "japanese": "くれる",
+      "reading": "くれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_330",
+      "japanese": "下さる",
+      "reading": "くださる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_331",
+      "japanese": "もらう",
+      "reading": "もらう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_332",
+      "japanese": "受ける",
+      "reading": "うける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_334",
+      "japanese": "配る",
+      "reading": "くばる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_335",
+      "japanese": "守る",
+      "reading": "まもる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_336",
+      "japanese": "破る",
+      "reading": "やぶる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_337",
+      "japanese": "取り消す",
+      "reading": "とりけす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_338",
+      "japanese": "遅れる",
+      "reading": "おくれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_339",
+      "japanese": "間に合う",
+      "reading": "まにあう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_340",
+      "japanese": "決まる",
+      "reading": "きまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_341",
+      "japanese": "決める",
+      "reading": "きめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_342",
+      "japanese": "待つ",
+      "reading": "まつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_343",
+      "japanese": "待たせる",
+      "reading": "またせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_344",
+      "japanese": "待ち合わせる",
+      "reading": "まちあわせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_345",
+      "japanese": "着く",
+      "reading": "つく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_347",
+      "japanese": "混む",
+      "reading": "こむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_348",
+      "japanese": "空く",
+      "reading": "あく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_349",
+      "japanese": "乗る",
+      "reading": "のる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_350",
+      "japanese": "乗せる",
+      "reading": "のせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_351",
+      "japanese": "降りる",
+      "reading": "おりる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_352",
+      "japanese": "乗り換える",
+      "reading": "のりかえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_353",
+      "japanese": "乗り過ごす",
+      "reading": "のりすごす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_355",
+      "japanese": "争う",
+      "reading": "あらそう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_356",
+      "japanese": "戦う",
+      "reading": "たたかう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_357",
+      "japanese": "勝つ",
+      "reading": "かつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_358",
+      "japanese": "負ける",
+      "reading": "まける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_359",
+      "japanese": "敗れる",
+      "reading": "やぶれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_360",
+      "japanese": "殴る",
+      "reading": "なぐる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_361",
+      "japanese": "ひっぱたく",
+      "reading": "ひっぱたく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_362",
+      "japanese": "蹴飛ばす",
+      "reading": "けとばす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_363",
+      "japanese": "突く",
+      "reading": "つく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_364",
+      "japanese": "絡む",
+      "reading": "からむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_365",
+      "japanese": "起こる",
+      "reading": "おこる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_366",
+      "japanese": "盗む",
+      "reading": "ぬすむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_367",
+      "japanese": "だます",
+      "reading": "だます",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_368",
+      "japanese": "奪う",
+      "reading": "うばう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_369",
+      "japanese": "犯す",
+      "reading": "おかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_370",
+      "japanese": "訴える",
+      "reading": "うったえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_371",
+      "japanese": "調べる",
+      "reading": "しらべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_372",
+      "japanese": "燃える",
+      "reading": "もえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_373",
+      "japanese": "燃やす",
+      "reading": "もやす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_374",
+      "japanese": "腐る",
+      "reading": "くさる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_375",
+      "japanese": "ぶつかる",
+      "reading": "ぶつかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_376",
+      "japanese": "ぶつける",
+      "reading": "ぶつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_377",
+      "japanese": "防ぐ",
+      "reading": "ふせぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_378",
+      "japanese": "避ける",
+      "reading": "さける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_379",
+      "japanese": "よける",
+      "reading": "よける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_380",
+      "japanese": "逃げる",
+      "reading": "にげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_381",
+      "japanese": "隠れる",
+      "reading": "かくれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_382",
+      "japanese": "隠す",
+      "reading": "かくす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_383",
+      "japanese": "追いかける",
+      "reading": "おいかける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_384",
+      "japanese": "捕まる",
+      "reading": "つかまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_385",
+      "japanese": "捕まえる",
+      "reading": "つかまえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_386",
+      "japanese": "とらえる",
+      "reading": "とらえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_387",
+      "japanese": "釣る",
+      "reading": "つる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_388",
+      "japanese": "働く",
+      "reading": "はたらく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_389",
+      "japanese": "雇う",
+      "reading": "やとう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_390",
+      "japanese": "勤める",
+      "reading": "つとめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_391",
+      "japanese": "務める",
+      "reading": "つとめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_392",
+      "japanese": "努める",
+      "reading": "つとめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_393",
+      "japanese": "扱う",
+      "reading": "あつかう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_394",
+      "japanese": "負う",
+      "reading": "おう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_395",
+      "japanese": "任せる",
+      "reading": "まかせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_396",
+      "japanese": "辞める",
+      "reading": "やめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_397",
+      "japanese": "止める",
+      "reading": "やめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_398",
+      "japanese": "頑張る",
+      "reading": "がんばる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_399",
+      "japanese": "怠ける",
+      "reading": "なまける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_400",
+      "japanese": "励む",
+      "reading": "はげむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_401",
+      "japanese": "励ます",
+      "reading": "はげます",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_402",
+      "japanese": "認める",
+      "reading": "みとめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_403",
+      "japanese": "うなずく",
+      "reading": "うなずく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_404",
+      "japanese": "味わう",
+      "reading": "あじわう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_405",
+      "japanese": "慣れる",
+      "reading": "なれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_406",
+      "japanese": "譲る",
+      "reading": "ゆずる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_407",
+      "japanese": "敬う",
+      "reading": "うやまう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_408",
+      "japanese": "会う",
+      "reading": "あう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_409",
+      "japanese": "出会う",
+      "reading": "であう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_410",
+      "japanese": "付き合う",
+      "reading": "つきあう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_411",
+      "japanese": "触れる",
+      "reading": "ふれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_412",
+      "japanese": "別れる",
+      "reading": "わかれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_413",
+      "japanese": "裏切る",
+      "reading": "うらぎる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_414",
+      "japanese": "迎える",
+      "reading": "むかえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_415",
+      "japanese": "見送る",
+      "reading": "みおくる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_416",
+      "japanese": "促す",
+      "reading": "うながす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_417",
+      "japanese": "急き立てる",
+      "reading": "せきたてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_418",
+      "japanese": "構う",
+      "reading": "かまう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_419",
+      "japanese": "稼ぐ",
+      "reading": "かせぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_420",
+      "japanese": "儲ける",
+      "reading": "もうける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_421",
+      "japanese": "借りる",
+      "reading": "かりる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_422",
+      "japanese": "貸す",
+      "reading": "かす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_423",
+      "japanese": "返す",
+      "reading": "かえす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_424",
+      "japanese": "預かる",
+      "reading": "あずかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_425",
+      "japanese": "預ける",
+      "reading": "あずける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_426",
+      "japanese": "ためる",
+      "reading": "ためる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_427",
+      "japanese": "引き出す",
+      "reading": "ひきだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_428",
+      "japanese": "差し引く",
+      "reading": "さしひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_429",
+      "japanese": "失う",
+      "reading": "うしなう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_430",
+      "japanese": "拾う",
+      "reading": "ひろう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_431",
+      "japanese": "捨てる",
+      "reading": "すてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_432",
+      "japanese": "落とす",
+      "reading": "おとす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_433",
+      "japanese": "探す",
+      "reading": "さがす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_434",
+      "japanese": "探る",
+      "reading": "さぐる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_435",
+      "japanese": "無くなる",
+      "reading": "なくなる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_436",
+      "japanese": "なくす",
+      "reading": "なくす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_437",
+      "japanese": "得る",
+      "reading": "える",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_438",
+      "japanese": "まとまる",
+      "reading": "まとまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_439",
+      "japanese": "まとめる",
+      "reading": "まとめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_440",
+      "japanese": "片付く",
+      "reading": "かたづく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_441",
+      "japanese": "片付ける",
+      "reading": "かたづける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_442",
+      "japanese": "揃う",
+      "reading": "そろう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_443",
+      "japanese": "揃える",
+      "reading": "そろえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_444",
+      "japanese": "散らかる",
+      "reading": "ちらかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_445",
+      "japanese": "散らかす",
+      "reading": "ちらかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_446",
+      "japanese": "集まる",
+      "reading": "あつまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_447",
+      "japanese": "集める",
+      "reading": "あつめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_448",
+      "japanese": "始まる",
+      "reading": "はじまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_449",
+      "japanese": "始める",
+      "reading": "はじめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_450",
+      "japanese": "終わる",
+      "reading": "おわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_451",
+      "japanese": "終える",
+      "reading": "おえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_452",
+      "japanese": "しまう",
+      "reading": "しまう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_453",
+      "japanese": "仕上がる",
+      "reading": "しあがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_454",
+      "japanese": "仕上げる",
+      "reading": "しあげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_455",
+      "japanese": "出来上がる",
+      "reading": "できあがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_456",
+      "japanese": "済む",
+      "reading": "すむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_457",
+      "japanese": "済ませる",
+      "reading": "すませる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_458",
+      "japanese": "頼む",
+      "reading": "たのむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_459",
+      "japanese": "手伝う",
+      "reading": "てつだう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_460",
+      "japanese": "助かる",
+      "reading": "たすかる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_461",
+      "japanese": "助ける",
+      "reading": "たすける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_462",
+      "japanese": "救う",
+      "reading": "すくう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_463",
+      "japanese": "役立つ",
+      "reading": "やくだつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_464",
+      "japanese": "役立てる",
+      "reading": "やくだてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_465",
+      "japanese": "妨げる",
+      "reading": "さまたげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_466",
+      "japanese": "誘う",
+      "reading": "さそう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_467",
+      "japanese": "断る",
+      "reading": "ことわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_468",
+      "japanese": "数える",
+      "reading": "かぞえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_469",
+      "japanese": "足す",
+      "reading": "たす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_472",
+      "japanese": "割る",
+      "reading": "わる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_473",
+      "japanese": "見積もる",
+      "reading": "みつもる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_474",
+      "japanese": "合う",
+      "reading": "あう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_475",
+      "japanese": "合わせる",
+      "reading": "あわせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_476",
+      "japanese": "間違う",
+      "reading": "まちがう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_477",
+      "japanese": "間違える",
+      "reading": "まちがえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_478",
+      "japanese": "誤る",
+      "reading": "あやまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_479",
+      "japanese": "運ぶ",
+      "reading": "はこぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_480",
+      "japanese": "引っ越す",
+      "reading": "ひっこす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_481",
+      "japanese": "移る",
+      "reading": "うつる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_482",
+      "japanese": "移す",
+      "reading": "うつす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_483",
+      "japanese": "届ける",
+      "reading": "とどける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_484",
+      "japanese": "送る",
+      "reading": "おくる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_485",
+      "japanese": "加わる",
+      "reading": "くわわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_486",
+      "japanese": "加える",
+      "reading": "くわえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_487",
+      "japanese": "添える",
+      "reading": "そえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_488",
+      "japanese": "添う",
+      "reading": "そう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_489",
+      "japanese": "重なる",
+      "reading": "かさなる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_490",
+      "japanese": "重ねる",
+      "reading": "かさねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_491",
+      "japanese": "兼ねる",
+      "reading": "かねる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_492",
+      "japanese": "増える",
+      "reading": "ふえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_493",
+      "japanese": "増やす",
+      "reading": "ふやす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_494",
+      "japanese": "減る",
+      "reading": "へる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_495",
+      "japanese": "減らす",
+      "reading": "へらす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_496",
+      "japanese": "削る",
+      "reading": "けずる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_497",
+      "japanese": "伸びる",
+      "reading": "のびる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_498",
+      "japanese": "伸ばす",
+      "reading": "のばす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_499",
+      "japanese": "縮む",
+      "reading": "ちぢむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_500",
+      "japanese": "縮める",
+      "reading": "ちぢめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_501",
+      "japanese": "膨らむ",
+      "reading": "ふくらむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_502",
+      "japanese": "溜まる",
+      "reading": "たまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_503",
+      "japanese": "積もる",
+      "reading": "つもる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_504",
+      "japanese": "壊れる",
+      "reading": "こわれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_505",
+      "japanese": "壊す",
+      "reading": "こわす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_506",
+      "japanese": "直る",
+      "reading": "なおる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_507",
+      "japanese": "直す",
+      "reading": "なおす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_508",
+      "japanese": "崩れる",
+      "reading": "くずれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_509",
+      "japanese": "崩す",
+      "reading": "くずす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_510",
+      "japanese": "割れる",
+      "reading": "われる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_512",
+      "japanese": "破れる",
+      "reading": "やぶれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_514",
+      "japanese": "消える",
+      "reading": "きえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_515",
+      "japanese": "変わる",
+      "reading": "かわる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_516",
+      "japanese": "変える",
+      "reading": "かえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_517",
+      "japanese": "染まる",
+      "reading": "そまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_518",
+      "japanese": "染める",
+      "reading": "そめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_519",
+      "japanese": "冷える",
+      "reading": "ひえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_520",
+      "japanese": "掘る",
+      "reading": "ほる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_521",
+      "japanese": "空ける",
+      "reading": "あける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_522",
+      "japanese": "埋める",
+      "reading": "うめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_523",
+      "japanese": "詰まる",
+      "reading": "つまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_524",
+      "japanese": "詰める",
+      "reading": "つめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_525",
+      "japanese": "塞ぐ",
+      "reading": "ふさぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_527",
+      "japanese": "なる",
+      "reading": "なる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_528",
+      "japanese": "切れる",
+      "reading": "きれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_529",
+      "japanese": "曲がる",
+      "reading": "まがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_531",
+      "japanese": "折れる",
+      "reading": "おれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_532",
+      "japanese": "折る",
+      "reading": "おる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_533",
+      "japanese": "汚れる",
+      "reading": "よごれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_534",
+      "japanese": "汚す",
+      "reading": "よごす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_535",
+      "japanese": "太る",
+      "reading": "ふとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_536",
+      "japanese": "痩せる",
+      "reading": "やせる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_537",
+      "japanese": "治まる",
+      "reading": "おさまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_538",
+      "japanese": "治める",
+      "reading": "おさめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_539",
+      "japanese": "切羽詰まる",
+      "reading": "せっぱつまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_541",
+      "japanese": "覆う",
+      "reading": "おおう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_542",
+      "japanese": "偏る",
+      "reading": "かたよる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_543",
+      "japanese": "揺れる",
+      "reading": "ゆれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_544",
+      "japanese": "要る",
+      "reading": "いる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_545",
+      "japanese": "足りる",
+      "reading": "たりる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_546",
+      "japanese": "補う",
+      "reading": "おぎなう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_547",
+      "japanese": "占める",
+      "reading": "しめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_548",
+      "japanese": "立てる",
+      "reading": "たてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_549",
+      "japanese": "超える",
+      "reading": "こえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_550",
+      "japanese": "越える",
+      "reading": "こえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_551",
+      "japanese": "広がる",
+      "reading": "ひろがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_552",
+      "japanese": "広げる",
+      "reading": "ひろげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_553",
+      "japanese": "こぼれる",
+      "reading": "こぼれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_554",
+      "japanese": "こぼす",
+      "reading": "こぼす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_555",
+      "japanese": "含む",
+      "reading": "ふくむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_556",
+      "japanese": "含める",
+      "reading": "ふくめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_557",
+      "japanese": "残る",
+      "reading": "のこる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_558",
+      "japanese": "残す",
+      "reading": "のこす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_559",
+      "japanese": "余る",
+      "reading": "あまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_560",
+      "japanese": "収まる",
+      "reading": "おさまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_561",
+      "japanese": "収める",
+      "reading": "おさめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_562",
+      "japanese": "迫る",
+      "reading": "せまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_564",
+      "japanese": "近付く",
+      "reading": "ちかづく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_565",
+      "japanese": "過ぎる",
+      "reading": "すぎる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_566",
+      "japanese": "過ごす",
+      "reading": "すごす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_567",
+      "japanese": "延びる",
+      "reading": "のびる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_568",
+      "japanese": "延ばす",
+      "reading": "のばす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_569",
+      "japanese": "急ぐ",
+      "reading": "いそぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_570",
+      "japanese": "似る",
+      "reading": "にる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_571",
+      "japanese": "設ける",
+      "reading": "もうける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_572",
+      "japanese": "備える",
+      "reading": "そなえる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_573",
+      "japanese": "開く",
+      "reading": "ひらく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_575",
+      "japanese": "開ける",
+      "reading": "ひらける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_576",
+      "japanese": "改まる",
+      "reading": "あらたまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_577",
+      "japanese": "改める",
+      "reading": "あらためる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_578",
+      "japanese": "当たる",
+      "reading": "あたる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_579",
+      "japanese": "当てる",
+      "reading": "あてる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_580",
+      "japanese": "当てはまる",
+      "reading": "あてはまる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_581",
+      "japanese": "当てはめる",
+      "reading": "あてはめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_582",
+      "japanese": "解く",
+      "reading": "とく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_583",
+      "japanese": "保つ",
+      "reading": "たもつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_584",
+      "japanese": "伴う",
+      "reading": "ともなう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_585",
+      "japanese": "連れる",
+      "reading": "つれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_586",
+      "japanese": "従う",
+      "reading": "したがう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_587",
+      "japanese": "並ぶ",
+      "reading": "ならぶ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_588",
+      "japanese": "並べる",
+      "reading": "ならべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_589",
+      "japanese": "抜ける",
+      "reading": "ぬける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_590",
+      "japanese": "抜く",
+      "reading": "ぬく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_591",
+      "japanese": "とれる",
+      "reading": "とれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_592",
+      "japanese": "外れる",
+      "reading": "はずれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_593",
+      "japanese": "干す",
+      "reading": "ほす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_594",
+      "japanese": "乾く",
+      "reading": "かわく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_595",
+      "japanese": "渇く",
+      "reading": "かわく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_596",
+      "japanese": "乾かす",
+      "reading": "かわかす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_597",
+      "japanese": "濡れる",
+      "reading": "ぬれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_598",
+      "japanese": "濡らす",
+      "reading": "ぬらす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_599",
+      "japanese": "湿る",
+      "reading": "しめる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_600",
+      "japanese": "浸る",
+      "reading": "ひたる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_601",
+      "japanese": "浸す",
+      "reading": "ひたす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_602",
+      "japanese": "浴びる",
+      "reading": "あびる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_603",
+      "japanese": "向く",
+      "reading": "むく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_604",
+      "japanese": "向かう",
+      "reading": "むかう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_605",
+      "japanese": "向ける",
+      "reading": "むける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_606",
+      "japanese": "目指す",
+      "reading": "めざす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_607",
+      "japanese": "示す",
+      "reading": "しめす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_608",
+      "japanese": "憧れる",
+      "reading": "あこがれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_609",
+      "japanese": "続く",
+      "reading": "つづく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_611",
+      "japanese": "繋がる",
+      "reading": "つながる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_612",
+      "japanese": "繋ぐ",
+      "reading": "つなぐ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_613",
+      "japanese": "優れる",
+      "reading": "すぐれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_614",
+      "japanese": "勝る",
+      "reading": "まさる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_615",
+      "japanese": "劣る",
+      "reading": "おとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_616",
+      "japanese": "出来る",
+      "reading": "できる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_617",
+      "japanese": "比べる",
+      "reading": "くらべる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_618",
+      "japanese": "違う",
+      "reading": "ちがう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_619",
+      "japanese": "異なる",
+      "reading": "ことなる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_620",
+      "japanese": "分かれる",
+      "reading": "わかれる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_621",
+      "japanese": "傾く",
+      "reading": "かたむく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_622",
+      "japanese": "申す",
+      "reading": "もうす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_623",
+      "japanese": "申し上げる",
+      "reading": "もうしあげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_624",
+      "japanese": "参る",
+      "reading": "まいる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_625",
+      "japanese": "おる",
+      "reading": "おる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_626",
+      "japanese": "いただく",
+      "reading": "いただく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_627",
+      "japanese": "伺う",
+      "reading": "うかがう",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_628",
+      "japanese": "差し上げる",
+      "reading": "さしあげる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_629",
+      "japanese": "おっしゃる",
+      "reading": "おっしゃる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_630",
+      "japanese": "なさる",
+      "reading": "なさる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_631",
+      "japanese": "致す",
+      "reading": "いたす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_632",
+      "japanese": "いらっしゃる",
+      "reading": "いらっしゃる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_633",
+      "japanese": "おいでになる",
+      "reading": "おいでになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_634",
+      "japanese": "召し上がる",
+      "reading": "めしあがる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_635",
+      "japanese": "ご覧になる",
+      "reading": "ごらんになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_636",
+      "japanese": "結婚する",
+      "reading": "けっこんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_637",
+      "japanese": "離婚する",
+      "reading": "りこんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_638",
+      "japanese": "料理する",
+      "reading": "りょうりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_639",
+      "japanese": "洗濯する",
+      "reading": "せんたくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_640",
+      "japanese": "掃除する",
+      "reading": "そうじする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_641",
+      "japanese": "準備する",
+      "reading": "じゅんびする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_642",
+      "japanese": "用意する",
+      "reading": "よういする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_643",
+      "japanese": "支度する",
+      "reading": "したくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_644",
+      "japanese": "外食する",
+      "reading": "がいしょくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_645",
+      "japanese": "散歩する",
+      "reading": "さんぽする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_646",
+      "japanese": "勉強する",
+      "reading": "べんきょうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_647",
+      "japanese": "練習する",
+      "reading": "れんしゅうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_648",
+      "japanese": "復習する",
+      "reading": "ふくしゅうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_649",
+      "japanese": "留学する",
+      "reading": "りゅうがくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_650",
+      "japanese": "入学する",
+      "reading": "にゅうがくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_651",
+      "japanese": "卒業する",
+      "reading": "そつぎょうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_652",
+      "japanese": "遅刻する",
+      "reading": "ちこくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_653",
+      "japanese": "質問する",
+      "reading": "しつもんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_654",
+      "japanese": "説明する",
+      "reading": "せつめいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_655",
+      "japanese": "理解する",
+      "reading": "りかいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_656",
+      "japanese": "就職する",
+      "reading": "しゅうしょくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_657",
+      "japanese": "出張する",
+      "reading": "しゅっちょうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_658",
+      "japanese": "出席する",
+      "reading": "しゅっせきする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_659",
+      "japanese": "出社する",
+      "reading": "しゅっしゃする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_660",
+      "japanese": "接待する",
+      "reading": "せったいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_661",
+      "japanese": "成功する",
+      "reading": "せいこうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_662",
+      "japanese": "失敗する",
+      "reading": "しっぱいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_663",
+      "japanese": "遠慮する",
+      "reading": "えんりょする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_664",
+      "japanese": "対処する",
+      "reading": "たいしょする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_665",
+      "japanese": "管理する",
+      "reading": "かんりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_666",
+      "japanese": "旅行する",
+      "reading": "りょこうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_667",
+      "japanese": "見物する",
+      "reading": "けんぶつする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_668",
+      "japanese": "予約する",
+      "reading": "よやくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_669",
+      "japanese": "出発する",
+      "reading": "しゅっぱつする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_670",
+      "japanese": "参加する",
+      "reading": "さんかする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_671",
+      "japanese": "挑戦する",
+      "reading": "ちょうせんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_672",
+      "japanese": "案内する",
+      "reading": "あんないする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_673",
+      "japanese": "体験する",
+      "reading": "たいけんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_674",
+      "japanese": "経験する",
+      "reading": "けいけんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_675",
+      "japanese": "訪問する",
+      "reading": "ほうもんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_676",
+      "japanese": "電話する",
+      "reading": "でんわする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_677",
+      "japanese": "連絡する",
+      "reading": "れんらくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_678",
+      "japanese": "約束する",
+      "reading": "やくそくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_679",
+      "japanese": "外出する",
+      "reading": "がいしゅつする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_680",
+      "japanese": "乾杯する",
+      "reading": "かんぱいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_681",
+      "japanese": "失礼する",
+      "reading": "しつれいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_682",
+      "japanese": "決定する",
+      "reading": "けっていする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_683",
+      "japanese": "注文する",
+      "reading": "ちゅうもんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_684",
+      "japanese": "運動する",
+      "reading": "うんどうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_685",
+      "japanese": "返事する",
+      "reading": "へんじする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_686",
+      "japanese": "放送する",
+      "reading": "ほうそうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_687",
+      "japanese": "運転する",
+      "reading": "うんてんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_688",
+      "japanese": "録音する",
+      "reading": "ろくおんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_689",
+      "japanese": "翻訳する",
+      "reading": "ほんやくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_690",
+      "japanese": "出版する",
+      "reading": "しゅっぱんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_691",
+      "japanese": "手術する",
+      "reading": "しゅじゅつする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_692",
+      "japanese": "工夫する",
+      "reading": "くふうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_693",
+      "japanese": "調査する",
+      "reading": "ちょうさする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_694",
+      "japanese": "我慢する",
+      "reading": "がまんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_695",
+      "japanese": "発表する",
+      "reading": "はっぴょうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_696",
+      "japanese": "計算する",
+      "reading": "けいさんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_697",
+      "japanese": "紹介する",
+      "reading": "しょうかいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_698",
+      "japanese": "世話する",
+      "reading": "せわする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_699",
+      "japanese": "比較する",
+      "reading": "ひかくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_700",
+      "japanese": "故障する",
+      "reading": "こしょうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_701",
+      "japanese": "修理する",
+      "reading": "しゅうりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_702",
+      "japanese": "整理する",
+      "reading": "せいりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_703",
+      "japanese": "居眠りする",
+      "reading": "いねむりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_704",
+      "japanese": "検討する",
+      "reading": "けんとうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_705",
+      "japanese": "想像する",
+      "reading": "そうぞうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_706",
+      "japanese": "発明する",
+      "reading": "はつめいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_707",
+      "japanese": "期待する",
+      "reading": "きたいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_708",
+      "japanese": "熱中する",
+      "reading": "ねっちゅうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_709",
+      "japanese": "確認する",
+      "reading": "かくにんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_710",
+      "japanese": "維持する",
+      "reading": "いじする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_711",
+      "japanese": "調和する",
+      "reading": "ちょうわする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_712",
+      "japanese": "帰国する",
+      "reading": "きこくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_713",
+      "japanese": "滞在する",
+      "reading": "たいざいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_714",
+      "japanese": "手配する",
+      "reading": "てはいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_715",
+      "japanese": "上達する",
+      "reading": "じょうたつする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_716",
+      "japanese": "相談する",
+      "reading": "そうだんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_717",
+      "japanese": "賛成する",
+      "reading": "さんせいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_718",
+      "japanese": "反対する",
+      "reading": "はんたいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_719",
+      "japanese": "苦労する",
+      "reading": "くろうする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_720",
+      "japanese": "招待する",
+      "reading": "しょうたいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_721",
+      "japanese": "真似する",
+      "reading": "まねする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_722",
+      "japanese": "愛する",
+      "reading": "あいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_723",
+      "japanese": "終始する",
+      "reading": "しゅうしする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_724",
+      "japanese": "油断する",
+      "reading": "ゆだんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_725",
+      "japanese": "心配する",
+      "reading": "しんぱいする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_726",
+      "japanese": "スースーする",
+      "reading": "すーすーする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_727",
+      "japanese": "ちくちくする",
+      "reading": "ちくちくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_728",
+      "japanese": "ずきずきする",
+      "reading": "ずきずきする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_729",
+      "japanese": "ひりひりする",
+      "reading": "ひりひりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_730",
+      "japanese": "がんがんする",
+      "reading": "がんがんする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_731",
+      "japanese": "ざらざらする",
+      "reading": "ざらざらする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_732",
+      "japanese": "つるつるする",
+      "reading": "つるつるする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_733",
+      "japanese": "ごつごつする",
+      "reading": "ごつごつする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_734",
+      "japanese": "あっさりする",
+      "reading": "あっさりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_735",
+      "japanese": "さっぱりする",
+      "reading": "さっぱりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_736",
+      "japanese": "ゆっくりする",
+      "reading": "ゆっくりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_737",
+      "japanese": "のんびりする",
+      "reading": "のんびりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_738",
+      "japanese": "ぴったりする",
+      "reading": "ぴったりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_739",
+      "japanese": "どっしりする",
+      "reading": "どっしりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_740",
+      "japanese": "うろうろする",
+      "reading": "うろうろする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_741",
+      "japanese": "ぐずぐずする",
+      "reading": "ぐずぐずする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_742",
+      "japanese": "ぐったりする",
+      "reading": "ぐったりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_743",
+      "japanese": "うっかりする",
+      "reading": "うっかりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_744",
+      "japanese": "ぼんやりする",
+      "reading": "ぼんやりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_745",
+      "japanese": "しっかりする",
+      "reading": "しっかりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_746",
+      "japanese": "がっかりする",
+      "reading": "がっかりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_747",
+      "japanese": "どきどきする",
+      "reading": "どきどきする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_748",
+      "japanese": "わくわくする",
+      "reading": "わくわくする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_749",
+      "japanese": "はらはらする",
+      "reading": "はらはらする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_750",
+      "japanese": "むかむかする",
+      "reading": "むかむかする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_751",
+      "japanese": "うんざりする",
+      "reading": "うんざりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_752",
+      "japanese": "いらいらする",
+      "reading": "いらいらする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_753",
+      "japanese": "すっきりする",
+      "reading": "すっきりする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_754",
+      "japanese": "ほっとする",
+      "reading": "ほっとする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_755",
+      "japanese": "はっとする",
+      "reading": "はっとする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_756",
+      "japanese": "味がする",
+      "reading": "あじがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_757",
+      "japanese": "匂いがする",
+      "reading": "においがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_758",
+      "japanese": "香りがする",
+      "reading": "かおりがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_759",
+      "japanese": "音がする",
+      "reading": "おとがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_760",
+      "japanese": "声がする",
+      "reading": "こえがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_761",
+      "japanese": "感じがする",
+      "reading": "かんじがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_762",
+      "japanese": "気がする",
+      "reading": "きがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_763",
+      "japanese": "思いがする",
+      "reading": "おもいがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_764",
+      "japanese": "予感がする",
+      "reading": "よかんがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_765",
+      "japanese": "寒気がする",
+      "reading": "さむけがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_766",
+      "japanese": "めまいがする",
+      "reading": "めまいがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_767",
+      "japanese": "頭痛がする",
+      "reading": "ずつうがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_768",
+      "japanese": "吐き気がする",
+      "reading": "はきけがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_769",
+      "japanese": "耳鳴りがする",
+      "reading": "みみなりがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_770",
+      "japanese": "胸焼けがする",
+      "reading": "むねやけがする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_771",
+      "japanese": "形をしている",
+      "reading": "かたちをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_772",
+      "japanese": "模様をしている",
+      "reading": "もようをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_773",
+      "japanese": "格好をしている",
+      "reading": "かっこうをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_774",
+      "japanese": "姿をしている",
+      "reading": "すがたをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_775",
+      "japanese": "体をしている",
+      "reading": "からだをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_776",
+      "japanese": "体つきをしている",
+      "reading": "からだつきをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_777",
+      "japanese": "体格をしている",
+      "reading": "たいかくをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_778",
+      "japanese": "手をしている",
+      "reading": "てをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_779",
+      "japanese": "顔をしている",
+      "reading": "かおをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_780",
+      "japanese": "表情をしている",
+      "reading": "ひょうじょうをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_781",
+      "japanese": "目をしている",
+      "reading": "めをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_782",
+      "japanese": "鼻をしている",
+      "reading": "はなをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_783",
+      "japanese": "色をしている",
+      "reading": "いろをしている",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_784",
+      "japanese": "ピザを取る",
+      "reading": "ぴざをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_785",
+      "japanese": "休暇を取る",
+      "reading": "きゅうかをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_786",
+      "japanese": "休みを取る",
+      "reading": "やすみをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_787",
+      "japanese": "時間を取る",
+      "reading": "じかんをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_788",
+      "japanese": "年を取る",
+      "reading": "としをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_789",
+      "japanese": "連絡を取る",
+      "reading": "れんらくをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_790",
+      "japanese": "だしを取る",
+      "reading": "だしをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_791",
+      "japanese": "新聞を取る",
+      "reading": "しんぶんをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_792",
+      "japanese": "免許を取る",
+      "reading": "めんきょをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_793",
+      "japanese": "睡眠を取る",
+      "reading": "すいみんをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_794",
+      "japanese": "ねずみを捕る",
+      "reading": "ねずみをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_795",
+      "japanese": "仕事を取る",
+      "reading": "しごとをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_796",
+      "japanese": "手を取る",
+      "reading": "てをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_797",
+      "japanese": "責任を取る",
+      "reading": "せきにんをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_798",
+      "japanese": "写真を撮る",
+      "reading": "しゃしんをとる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_799",
+      "japanese": "くじを引く",
+      "reading": "くじをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_800",
+      "japanese": "カードを引く",
+      "reading": "かーどをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_801",
+      "japanese": "辞書を引く",
+      "reading": "じしょをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_802",
+      "japanese": "言葉を引く",
+      "reading": "ことばをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_803",
+      "japanese": "風邪を引く",
+      "reading": "かぜをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_804",
+      "japanese": "目を引く",
+      "reading": "めをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_805",
+      "japanese": "気を引く",
+      "reading": "きをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_806",
+      "japanese": "尾を引く",
+      "reading": "おをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_807",
+      "japanese": "手を引く",
+      "reading": "てをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_808",
+      "japanese": "線を引く",
+      "reading": "せんをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_809",
+      "japanese": "引き金を引く",
+      "reading": "ひきがねをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_810",
+      "japanese": "ピアノを弾く",
+      "reading": "ぴあのをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_811",
+      "japanese": "水を引く",
+      "reading": "みずをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_812",
+      "japanese": "糸を引く",
+      "reading": "いとをひく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_813",
+      "japanese": "手紙を出す",
+      "reading": "てがみをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_814",
+      "japanese": "本を出す",
+      "reading": "ほんをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_815",
+      "japanese": "顔を出す",
+      "reading": "かおをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_816",
+      "japanese": "口を出す",
+      "reading": "くちをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_817",
+      "japanese": "結果を出す",
+      "reading": "けっかをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_818",
+      "japanese": "ぼろを出す",
+      "reading": "ぼろをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_819",
+      "japanese": "店を出す",
+      "reading": "みせをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_820",
+      "japanese": "手を出す",
+      "reading": "てをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_821",
+      "japanese": "しっぽを出す",
+      "reading": "しっぽをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_822",
+      "japanese": "あごを出す",
+      "reading": "あごをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_823",
+      "japanese": "元気を出す",
+      "reading": "げんきをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_824",
+      "japanese": "声を出す",
+      "reading": "こえをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_825",
+      "japanese": "足を出す",
+      "reading": "あしをだす",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_826",
+      "japanese": "煙が立つ",
+      "reading": "けむりがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_827",
+      "japanese": "湯気が立つ",
+      "reading": "ゆげがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_828",
+      "japanese": "波が立つ",
+      "reading": "なみがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_829",
+      "japanese": "ほこりが立つ",
+      "reading": "ほこりがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_830",
+      "japanese": "うわさが立つ",
+      "reading": "うわさがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_831",
+      "japanese": "気が立つ",
+      "reading": "きがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_832",
+      "japanese": "腹が立つ",
+      "reading": "はらがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_833",
+      "japanese": "顔が立たない",
+      "reading": "かおがたたない",
+      "type": "expression"
+    },
+    {
+      "id": "AbsoluteVerb_834",
+      "japanese": "席を立つ",
+      "reading": "せきをたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_835",
+      "japanese": "役に立つ",
+      "reading": "やくにたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_836",
+      "japanese": "鳥肌が立つ",
+      "reading": "とりはだがたつ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_837",
+      "japanese": "実力を付ける",
+      "reading": "じつりょくをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_838",
+      "japanese": "ボタンを付ける",
+      "reading": "ぼたんをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_839",
+      "japanese": "カーテンを付ける",
+      "reading": "かーてんをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_840",
+      "japanese": "名前を付ける",
+      "reading": "なまえをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_841",
+      "japanese": "日記を付ける",
+      "reading": "にっきをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_842",
+      "japanese": "気を付ける",
+      "reading": "きをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_843",
+      "japanese": "火を付ける",
+      "reading": "ひをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_844",
+      "japanese": "身に付ける",
+      "reading": "みにつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_845",
+      "japanese": "手を付ける",
+      "reading": "てをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_846",
+      "japanese": "目を付ける",
+      "reading": "めをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_847",
+      "japanese": "理由を付ける",
+      "reading": "りゆうをつける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_848",
+      "japanese": "ためになる",
+      "reading": "ためになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_849",
+      "japanese": "お金になる",
+      "reading": "おかねになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_850",
+      "japanese": "薬になる",
+      "reading": "くすりになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_851",
+      "japanese": "邪魔になる",
+      "reading": "じゃまになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_852",
+      "japanese": "駄目になる",
+      "reading": "だめになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_853",
+      "japanese": "ふいになる",
+      "reading": "ふいになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_854",
+      "japanese": "お世話になる",
+      "reading": "おせわになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_855",
+      "japanese": "病気になる",
+      "reading": "びょうきになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_856",
+      "japanese": "火事になる",
+      "reading": "かじになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_857",
+      "japanese": "何とかなる",
+      "reading": "なんとかなる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_858",
+      "japanese": "ものになる",
+      "reading": "ものになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_859",
+      "japanese": "気が付く",
+      "reading": "きがつく",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_861",
+      "japanese": "気になる",
+      "reading": "きになる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_862",
+      "japanese": "気にする",
+      "reading": "きにする",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_864",
+      "japanese": "気が短い",
+      "reading": "きがみじかい",
+      "type": "i_adj"
+    },
+    {
+      "id": "AbsoluteVerb_865",
+      "japanese": "気が長い",
+      "reading": "きがながい",
+      "type": "i_adj"
+    },
+    {
+      "id": "AbsoluteVerb_866",
+      "japanese": "気が散る",
+      "reading": "きがちる",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_867",
+      "japanese": "気がある",
+      "reading": "きがある",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_868",
+      "japanese": "気がない",
+      "reading": "きがない",
+      "type": "i_adj"
+    },
+    {
+      "id": "AbsoluteVerb_869",
+      "japanese": "気が抜ける",
+      "reading": "きがぬける",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_870",
+      "japanese": "気が済む",
+      "reading": "きがすむ",
+      "type": "verb"
+    },
+    {
+      "id": "AbsoluteVerb_871",
+      "japanese": "気が向く",
+      "reading": "きがむく",
+      "type": "verb"
+    }
+  ]
+}

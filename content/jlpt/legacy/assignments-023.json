@@ -1,0 +1,340 @@
+[
+  {
+    "wordId": "AbsoluteVerb_24",
+    "sourceHash": "7819e178a20e2513a7c11c216cba93e8d268ea37a2cd1b346bf681f0e15057f9",
+    "level": "N5",
+    "dictionaryId": "jmdict-1457560",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(날씨가) 흐려지다, 희미해지다” 및 1개 sense를 대조했다. cloud over와 오후 흐림·별 관측 전망 예문이 일치한다. 유리 흐림이나 표정 변화는 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_25",
+    "sourceHash": "4cedc645a041575914563c981cc4a50efd36ec7218a2f7cb9bfa1e8234cde9a5",
+    "level": "N1",
+    "dictionaryId": "jmdict-1605330",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(물·빛·비밀 등이) 새다” 및 1개 sense를 대조했다. leak·shine through와 물통 차·커튼 빛 예문이 대응한다. 비밀 누설·누락은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_26",
+    "sourceHash": "9e223cb3a676769f6316afe0ac74a34c1efa4a08efd249d87c4658bb125699df",
+    "level": "N4",
+    "dictionaryId": "jmdict-1532910",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “울리다” 및 1개 sense를 대조했다. ring와 휴대전화·현관 벨 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_27",
+    "sourceHash": "752930504e6c3eb7255d6d8a909d3b9589a5c1dad018b5a9319de69743f1e833",
+    "level": "N4",
+    "dictionaryId": "jmdict-1405800",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “계속하다” 및 1개 sense를 대조했다. continue와 일기·연습 지속 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_28",
+    "sourceHash": "8314128a5bfaf5748cb9d61f35c018cd66ec55f4efd850b5701219b42a3f1422",
+    "level": "N2",
+    "dictionaryId": "jmdict-1198180",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(일을) 당하다, 겪다” 및 1개 sense를 대조했다. bad experience와 도난·갑작스런 비 예문이 일치한다. N5/N2의 공유 사전 항목 중 사람을 만남과 다른 부정적 경험 용법으로 N2를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_29",
+    "sourceHash": "a3493d3e2b60490600b412caeb51cccc7c0aaf8e45e1e9ef7d7a1e946e87a32a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1218760",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “기뻐하다” 및 1개 sense를 대조했다. be pleased와 꽃다발·결과 전 기쁨 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_30",
+    "sourceHash": "7c2acf949e35ae049924e8c7d5ee88ce123fc4090fd16cb8e1fbc03679913b09",
+    "level": "N5",
+    "dictionaryId": "jmdict-1259290",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “보다, (꿈을) 꾸다” 및 1개 sense를 대조했다. see·watch와 발밑 관찰·영화 보기 예문이 일치한다. 출처 N3이나 기본 시각 행동 의미로 N5를 편집 제안하며 다른 다의 용법과 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_31",
+    "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+    "level": "N5",
+    "dictionaryId": "jmdict-1591110",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “듣다, 묻다” 및 1개 sense를 대조했다. listen와 옛이야기·설명 듣기 예문이 일치한다. 질문·냄새 맡기 등은 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_32",
+    "sourceHash": "3da81c9bbcd973ab022bbc971a981750cbe43e77440b061252f321fb0944381a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1587040",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “말하다” 및 1개 sense를 대조했다. say와 반복 요청·괜찮다는 발언 예문이 일치한다. N5/N3 중 기본 발화 용법으로 N5를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_33",
+    "sourceHash": "c6f57370f2d19eb8c0facab6f67cea4892bbe07a7ba74f3b420d54ddde4f8e51",
+    "level": "N5",
+    "dictionaryId": "jmdict-1358280",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “먹다” 및 1개 sense를 대조했다. eat와 따뜻할 때 먹기·디저트 못 먹음 예문이 일치한다. 생계는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_34",
+    "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1169870",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “마시다, 약을 먹다” 및 1개 sense를 대조했다. drink와 물·뜨거운 차 예문이 일치한다. 복약은 사전의 같은 기본 섭취 의미에 있으나 현재 예문은 음료이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_35",
+    "sourceHash": "99197155efced3aa22687b56cbbf44cefeb6c0129eef4eb1a4053230539f0233",
+    "level": "N4",
+    "dictionaryId": "jmdict-1209240",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “씹다, 물다” 및 1개 sense를 대조했다. chew와 고기·딱딱한 빵 예문이 일치한다. 말 더듬기 등은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_36",
+    "sourceHash": "c40059f2091819ebea2070db26ca36c22f1a83805246be201b229286ab47faa0",
+    "level": "N5",
+    "dictionaryId": "jmdict-1228260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “들이마시다, (담배를) 피우다, 흡수하다” 및 1개 sense를 대조했다. inhale와 아침 공기·숨 들이마심 예문이 일치한다. 흡연·흡수는 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_37",
+    "sourceHash": "6fe26be564a1e13e1fc0a17fb4af4fc5c961ff30aaa30d2a0830b673a76c7921",
+    "level": "N5",
+    "dictionaryId": "jmdict-1456360",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “읽다” 및 1개 sense를 대조했다. read와 편지·소설 예문이 일치한다. 예측·계수 등은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_38",
+    "sourceHash": "4d93b74abe7cecaf6e10d711ba73a6b501ef18c3a82aec798a334be8023ffeaf",
+    "level": "N5",
+    "dictionaryId": "jmdict-1343950",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “쓰다, 그리다” 및 1개 sense를 대조했다. write와 주소·편지 예문이 일치한다. 그림 그리기는 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_40",
+    "sourceHash": "847ee94d0e0132b91e5acdb19a37568d41dd728ba63db2dff90846ac412b81a9",
+    "level": "N4",
+    "dictionaryId": "jmdict-1351360",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “웃다, 비웃다” 및 1개 sense를 대조했다. laugh와 동생 얼굴·사진 속 웃음 예문이 일치한다. 비웃음은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_41",
+    "sourceHash": "999a297c131f5b510498f4c6033959124e855e335c33de0ed036a69f6c4256b8",
+    "level": "N5",
+    "dictionaryId": "jmdict-1514320",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “걷다” 및 1개 sense를 대조했다. walk와 귀가·신발 물집 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_42",
+    "sourceHash": "3c859cd2c4ab3bce7337edd5ec370a6a5ef2bd530c919929491a5da9a40aa231",
+    "level": "N5",
+    "dictionaryId": "jmdict-1402540",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “달리다, (극단으로) 치닫다” 및 1개 sense를 대조했다. run와 해변·복도 달리기 예문이 일치한다. 극단으로 치달음은 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_43",
+    "sourceHash": "933da31bd5ba84fffba430664f03830dfbd1948f51f5c40326e40f01019dd5a2",
+    "level": "N2",
+    "dictionaryId": "jmdict-1429620",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “뛰어오르다, 튀기다, 들이받다” 및 1개 sense를 대조했다. jump와 물고기·강아지 뛰기 예문이 일치한다. 표제어 뜻의 들이받다는 이 제공 후보의 gloss에 없으므로 별도 표기·사전 항목을 확인해야 한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "跳ねる의 들이받다 의미는 보통 撥ねる 표기와의 연결을 별도 확인할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_45",
+    "sourceHash": "4a67be751945c8809e9df3a364ddc98d6ecfa5685ed4f502e1830814887940e5",
+    "level": "N5",
+    "dictionaryId": "jmdict-1174340",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “헤엄치다” 및 1개 sense를 대조했다. swim와 맞은편 강변·수족관 거북 예문이 일치한다. 세상 헤쳐 나감은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_47",
+    "sourceHash": "5b105e320cdd8ade388df659e547703b5240de5fe045a6d7787963f3856e3d91",
+    "level": "N2",
+    "dictionaryId": "jmdict-1333400",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(발로) 차다” 및 1개 sense를 대조했다. kick와 돌·공 차기 예문이 일치한다. 거절은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_49",
+    "sourceHash": "93fe1c2703e2b1610264af405b2f3dcbca529345b05efa3db57535baa7c4e0db",
+    "level": "N4",
+    "dictionaryId": "jmdict-1589350",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(주관적·의지적으로) 생각하다” 및 1개 sense를 대조했다. think·believe와 색이 어울림·제작 난도 예상 예문이 일치한다. 주관적이라는 설명을 객관적 생각과 절대 분리하는 규칙으로 오해하지 않도록 뜻 설명 검토 후보이다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "思う·考える를 주관·객관 또는 의지 여부로 절대 구분하는 뜻 설명은 완화할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_50",
+    "sourceHash": "420d2b9db5bc3fe568f438ff3cd2c13963a2d9d603fc55910bd5504d1954e759",
+    "level": "N4",
+    "dictionaryId": "jmdict-1281020",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(이성적·객관적으로) 생각하다” 및 1개 sense를 대조했다. think over·devise와 답변 숙고·수업 진행 구상 예문이 일치한다. 이성적·객관적이라는 뜻은 思う와의 절대적인 경계가 아니므로 설명 완화를 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "考える도 주관적인 판단에 쓰이므로 이성적·객관적 한정 설명을 완화할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_51",
+    "sourceHash": "912a092107681854f2a91c9005966b1b09b387f89b59e49f5e590b71985b7c66",
+    "level": "N3",
+    "dictionaryId": "jmdict-1469870",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “고민하다” 및 1개 sense를 대조했다. be worried와 진학 고민·타인에게 이야기하기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_56",
+    "sourceHash": "87347fe5cbab72ea084f7742e23a045b7e3b774eca44bdfa247e8b9113335511",
+    "level": "N1",
+    "dictionaryId": "jmdict-1432710",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “아프다” 및 1개 sense를 대조했다. ache와 옛 부상·치통 예문이 일치한다. AbsoluteVerb_57과 사전 ID는 같아도 신체 통증 대 물건 손상의 선택 의미가 달라 별칭을 제안하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_57",
+    "sourceHash": "4777431676e79bb6c80133f6956bc1dda6baf824fe61e851093e529c456d9259",
+    "level": "N1",
+    "dictionaryId": "jmdict-1432710",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(무생물이) 상하다, 망가지다” 및 1개 sense를 대조했다. be damaged·spoiled와 책 표지·복숭아 손상 예문이 일치한다. AbsoluteVerb_56의 신체 통증과 표기·선택 뜻을 구별하고 별칭 제안하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_58",
+    "sourceHash": "5ece063b50d6df16557b34dcb5424d4ec20ad95b7b0ab21fe3f19a80b8ffc981",
+    "level": "N3",
+    "dictionaryId": "jmdict-1212260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “느끼다” 및 1개 sense를 대조했다. feel와 외로움·허리 통증 예문이 일치한다. 감염은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_59",
+    "sourceHash": "619de034d9ee802ff5613ab4b8d18167f5f42fd87bcbbdfc9f1cd71aa2a696a2",
+    "level": "N1",
+    "dictionaryId": "jmdict-1391120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “시리다, 스며들다” 및 1개 sense를 대조했다. soak·seep와 셔츠 커피·신발 빗물 예문이 일치한다. 시림이나 깊은 감동은 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_60",
+    "sourceHash": "55042ad88f2464a0203a5f5d390e30e17b52367a5843a70b5f1aa4cc8771a467",
+    "level": "N5",
+    "dictionaryId": "jmdict-1562350",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “이야기하다, 말하다” 및 1개 sense를 대조했다. tell·talk와 할머니 이야기·둘만의 대화 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_61",
+    "sourceHash": "af20b2f6dc08281f89e1fbe8a812b87486a36e286fc5b705ad4beff85c384fbe",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “수다 떨다, 지껄이다” 및 1개 sense를 대조했다. 친구와 오래 대화·먹으면서 말하지 않기 예문은 말하기 용법에 일관된다. 제공 후보가 없어 しゃべる/喋る의 연결과 지껄이다라는 부정적 한국어 뉘앙스 범위를 확인한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "しゃべる의 제공 사전 연결과 한국어의 부정적 뉘앙스 한정 여부를 검토해야 한다."
+    ]
+  }
+]

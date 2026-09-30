@@ -1,0 +1,41 @@
+{
+  "status": "completed-awaiting-root-integration",
+  "completedFiles": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "reviewedWords": 120,
+  "reviewedExamples": 360,
+  "reviewer": "Codex GPT-6 Astra review agent",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "individualReview": "All dictionary senses/readings/POS and editorial N3 assignment; Japanese naturalness and scene variety; Korean meaning/alignment; independent hints and contrasts. AI editorial review, not human expert review.",
+  "validation": {
+    "globalDraftWords": 1161,
+    "globalDraftExamples": 3483,
+    "reviewHashBindings": 120,
+    "manuscriptsSynchronized": true,
+    "existingPublishedWords": 1041,
+    "publishedHashChanges": 0,
+    "existingRevisedExamples": 5,
+    "allExistingRevisionVersions": 2,
+    "wholeCorpus": {
+      "senses": 2669,
+      "examples": 6499,
+      "similarityThreshold": 0.7,
+      "comparisons": 119385,
+      "similarPairs": 0
+    },
+    "repeatedEndings": "Four groups of at least five share prohibitions, questions or permission grammar; no new n3-004 entries in those groups. Their objects, reasons and actions differ; no new replacement needed."
+  },
+  "corrections": [
+    "Milk and condensed-milk scope; ball/bowl spelling overlap; animal-milk cheese scope.",
+    "Knocking phrasing, handsome answer alignment, visa wording, waterside translations and rocket explanation.",
+    "Warmth kanji distinction, downward escalator variety, explicit mother-in-law context and quieter-machine translation.",
+    "Ash scope, misuse translation, cloth texture, wrong-answer cross, feeling-hint contradiction, satisfying 気味 usage and technical fault cause."
+  ],
+  "pending": "Root integration. n3-005 is not appended.",
+  "savedAt": "2026-09-30T02:36:15.564Z"
+}

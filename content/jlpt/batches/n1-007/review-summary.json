@@ -1,0 +1,27 @@
+{
+  "batch": "n1-007",
+  "status": "independently-reviewed-and-appended",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "completedAt": "2026-09-30T06:34:03.136Z",
+  "checkedWords": 100,
+  "checkedExamples": 100,
+  "acceptedWords": 100,
+  "heldWords": 0,
+  "correctedWords": 8,
+  "correctionCategories": {
+    "substantive": 6,
+    "clarity": 2,
+    "formatting": 0
+  },
+  "method": "Independent dictionary, meaning, reading, POS, hint, contrast, translation and scene review; each compact snapshot checked before acceptance.",
+  "corpus": {
+    "examples": 8538,
+    "comparisons": 212197,
+    "similarPairs": 0
+  },
+  "notes": [
+    "04의 昆虫·市街는 기존 도감 검색·전망대 조망 장면 반복을 교체했다.",
+    "기존 앱 원본은 직접 수정하지 않았으며 게시 반영은 root가 수행한다."
+  ]
+}

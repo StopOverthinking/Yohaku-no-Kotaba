@@ -156,35 +156,6 @@
   gap: var(--space-4);
 }
 
-.submenuGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: var(--space-4);
-}
-
-.submenuCard {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: var(--space-4);
-  align-items: center;
-  text-align: left;
-}
-
-.submenuIcon {
-  display: inline-grid;
-  place-items: center;
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  background: var(--surface-icon);
-  color: var(--accent-ice);
-}
-
-.submenuTitle {
-  margin: 0;
-  font-size: 1rem;
-}
-
 @media (max-width: 720px) {
   .heroActions {
     grid-template-columns: 1fr;
@@ -199,10 +170,6 @@
     flex-direction: column;
   }
 
-  .submenuGrid {
-    grid-template-columns: 1fr;
-  }
-
   .heroTop {
     grid-template-columns: 1fr;
   }
@@ -210,4 +177,11 @@
   .resumeActions {
     justify-content: flex-start;
   }
+}
+.sourcesLink {
+  align-self: flex-end;
+  display: inline-flex;
+  padding: 10px;
+  color: inherit;
+  opacity: 0.65;
 }

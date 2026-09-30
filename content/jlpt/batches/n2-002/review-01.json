@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "7abfe0ade2661ffdb03cf6ac87b76c5eea9ddf6c24ea47052c7d12cb7d2fa5b2",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T03:11:06.426Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1001010",
+      "b6b82cd3976a3e438b0a1b7d810958577447ffa3bd3816e131681d56f9481445"
+    ],
+    [
+      "lex-jmdict-1001060",
+      "e1366258827c99954f9feaee0145df9001ae5525db70f417aa9ed4b55433f93c"
+    ],
+    [
+      "lex-jmdict-1001950",
+      "25bf5caa4978afa12874273eeefe374fae83fe21483e56a99e3cd9c20a2ee9c6"
+    ],
+    [
+      "lex-jmdict-1002030",
+      "00c0c63d33be220ca4d4d6978caeedf4e486ccfa5d05db31c631650551ed91b2"
+    ],
+    [
+      "lex-jmdict-1003590",
+      "3779d0fdadb40d6a8178cf24266d867063cf6a6125fbc4b35a8cfea62b99f4aa"
+    ],
+    [
+      "lex-jmdict-1004520",
+      "bcd5315d229df80cf9b87a1eeaa2c1788d52384445dbfd930a085daea06520f1"
+    ],
+    [
+      "lex-jmdict-1005190",
+      "58c0101a0fb618e373478551e831e8845bc554d8623a1a99946e6ef0a5ed2cd8"
+    ],
+    [
+      "lex-jmdict-1006120",
+      "aa0fade1dd1f8bdd37d891b8a909d79a54f6e03150844e6b639f51ab259d2cdb"
+    ],
+    [
+      "lex-jmdict-1006420",
+      "a195d50905efab2aa7faeac1dd8028021be0d9e84feb4151aab5f1c398c52717"
+    ],
+    [
+      "lex-jmdict-1006570",
+      "cfbe1b28f27abc96fab6b0fdd5cfe67a658b694144683317d0f9d96ea49a44ae"
+    ],
+    [
+      "lex-jmdict-1006740",
+      "3cc4f71843740fee2158b5644f447590709f4975aee813164493dd94e4e3a122"
+    ],
+    [
+      "lex-jmdict-1008950",
+      "98b7977db8757c227e7569476ea9f278ca647cf43cb89367b149440819d8d958"
+    ],
+    [
+      "lex-jmdict-1009050",
+      "8b93b7155cd6b6be666f7bdd27976dceeceb191a9e3f01d44ccdd476586863ad"
+    ],
+    [
+      "lex-jmdict-1009210",
+      "40785f4133acafc3bd524f46edbc6df303c09acb16bc85dfcb370b2f014951f5"
+    ],
+    [
+      "lex-jmdict-1010040",
+      "e081f4fc41a099fab77a572cb0cd9cb34bc3fe0b2b089da6281d71500d1e8829"
+    ],
+    [
+      "lex-jmdict-1010830",
+      "a797d88cc3a7cd9cfe8213f928d3026a8667550e5cd177a1a9820bca5fccc4ec"
+    ],
+    [
+      "lex-jmdict-1011200",
+      "c6e779f0d2feee6d7be1a5f488a6eb232ec18503a38fa9412290612f7713696a"
+    ],
+    [
+      "lex-jmdict-1012070",
+      "f43b061271e1fbd6fd5463232f7efcf4d0948d9141e60245eeff9f998303e433"
+    ],
+    [
+      "lex-jmdict-1012110",
+      "e244406fa5d93d814295002a0d0c8e7f6fefd3573ce69a868c98fe23dc8f4a7b"
+    ],
+    [
+      "lex-jmdict-1012470",
+      "553cd964e0dbebe72439ff9f462cefbeca804e09e7ac8dcea285f5e466c24b70"
+    ],
+    [
+      "lex-jmdict-1015310",
+      "e580e5979e8ff31270afbdb2ad43b27c07b172a82fee25a79e460dd535c7433f"
+    ],
+    [
+      "lex-jmdict-1020410",
+      "4a18583775f3202cb46c5c539e7ee6c64745055e96a6f2c75542657de65fc569"
+    ],
+    [
+      "lex-jmdict-1021220",
+      "fa7c051a9d1a32cda724178637a0175dd954a6faf1b03cd5d93b03091f422406"
+    ],
+    [
+      "lex-jmdict-1023100",
+      "d559eb7376d9a23a744bf41b2d118e4670a5f693e78880ed97e0b048454f0c8f"
+    ],
+    [
+      "lex-jmdict-1025010",
+      "224b8119b89e43ad6950d8916642f7f9b467ffe1b54332d01c5d3288c022a5b0"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1008950",
+      "note": "どうせ의 이미 예정된 행동에 덧붙이는 용법을 힌트·대비에도 반영했다."
+    },
+    {
+      "wordId": "lex-jmdict-1010040",
+      "note": "장소를 기다린다는 부자연스러운 결합을 추월 가능한 곳까지 뒤따라가는 장면으로 고쳤다."
+    },
+    {
+      "wordId": "lex-jmdict-1021220",
+      "note": "명사 품사와 대표 예문에 맞춰 뜻을 등호로 한정했다."
+    }
+  ]
+}

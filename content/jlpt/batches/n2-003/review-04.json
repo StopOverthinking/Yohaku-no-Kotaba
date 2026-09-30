@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "fc420110cd37f7c2a147ab034dabbc382003edc99822ac9cf2334e336fbdbd16",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T04:39:54.823Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1226970",
+      "2a9dfcdb2f47cbdc6fb0faaec7fe7ee7b5bacbba8bd328b9134107b7c840463e"
+    ],
+    [
+      "lex-jmdict-1236230",
+      "d08ca9404857237e0b47abf846bea788096592b23245c724b4e3f35b3abb937a"
+    ],
+    [
+      "lex-jmdict-1245380",
+      "1c92fc7577af917b76fcc96ecc9df148fe9e57fa86ef3b4972c877d0fc99a3e7"
+    ],
+    [
+      "lex-jmdict-1260240",
+      "4e4729ed639daec67a181a91fa661f7a782852022810cc702a4f2ce827ea2138"
+    ],
+    [
+      "lex-jmdict-1274120",
+      "bbac29fff77dd1a8cca39d02449b5ec457c9ee09e7f5b4125c1229d24a42a18a"
+    ],
+    [
+      "lex-jmdict-1227700",
+      "98f59cc5ae271dcae7dc9b8c8f67bede7f035e6fd17c22e4ddf582f015cd88da"
+    ],
+    [
+      "lex-jmdict-1230350",
+      "09559922da9312f3c5811d75b2963c1c9ebf30538a887f134b42d970a052e26d"
+    ],
+    [
+      "lex-jmdict-1232990",
+      "aa8da652706b540852b3dff400f67066c7b6f94eec753e685c1bb84c2e5d18c3"
+    ],
+    [
+      "lex-jmdict-1233010",
+      "ca9fae97fd6d82b4039facbadc8e090bc7ee7679140096d98640325395a192e1"
+    ],
+    [
+      "lex-jmdict-1234210",
+      "21c980f74bb775fd3f261a4579feb6a2199b7d89691909a00e54a2767a965a64"
+    ],
+    [
+      "lex-jmdict-1236200",
+      "74c1e0db331822f1a9f4353d3e773aae36cd1482a2456e5a0e525f86f47cb009"
+    ],
+    [
+      "lex-jmdict-1244050",
+      "8b72e57b9a0ce96b4098ad3aef3604f1d8fb15e14a8b1f9b775fadb0b6b87a08"
+    ],
+    [
+      "lex-jmdict-1244090",
+      "eaddd5907cd3ef1768bd2a63ec0e4497b503238939c428bd9c40ebaccfcdb741"
+    ],
+    [
+      "lex-jmdict-1245730",
+      "b6c5a85cae255e19071c16adc07055f4adf196d484056461142ebac8fce85602"
+    ],
+    [
+      "lex-jmdict-1245790",
+      "4be036120ba6a9c873cf307ae14a0b6054fdbcb2888472726d69718d94a12b93"
+    ],
+    [
+      "lex-jmdict-1246250",
+      "896f8c70bffc41483a6d04da3b754ce4164c3c3d1fcc8aa2fc435b14d279bedf"
+    ],
+    [
+      "lex-jmdict-1247510",
+      "6f661127195c3ae22496d3772d4e64ca07f3106e964b834f26a2910b206c1d4f"
+    ],
+    [
+      "lex-jmdict-1250310",
+      "56bb8ea3eff414eff64cd313006d4e683041bdca5177d5ba3657f3c41749f81f"
+    ],
+    [
+      "lex-jmdict-1250750",
+      "3e2b9de865cd5db77abb57a4d115f94b62545e7873dfeef8e914578ade8362ca"
+    ],
+    [
+      "lex-jmdict-1250990",
+      "f1d9cb2bf14a66ca6c903a64b3567d9cb44d91f5acee9cb90590ed0a6331e5c2"
+    ],
+    [
+      "lex-jmdict-1252490",
+      "57d9515ae87240e258b033e99adff9804f203503b20cb203ce2697c5b06672aa"
+    ],
+    [
+      "lex-jmdict-1253840",
+      "6f5640d7093fcc223da12bbae03966200899c83374b8c2e5246070b44ad7a8e6"
+    ],
+    [
+      "lex-jmdict-1255110",
+      "d8e459b2b42dee480770f0b35bda564237358dadea8f1767152a137040dc0008"
+    ],
+    [
+      "lex-jmdict-1255560",
+      "32611d26d32db3d6b1397ef1a6b938d1b7e1a19f33679c3e6876040fca949d6d"
+    ],
+    [
+      "lex-jmdict-1255840",
+      "c28397f03ea2b9ab2677b46cca3dc90ee8080a1467f3e30f416662e54a9ec3c5"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1236200",
+      "category": "clarity",
+      "note": "窓の強化보다 자연스러운 足腰の強化 용례로 다듬었다."
+    },
+    {
+      "wordId": "lex-jmdict-1252490",
+      "category": "clarity",
+      "note": "警備を増やす의 불명확한 수량 표현을 경비를 철저히 한다는 결합으로 다듬었다."
+    }
+  ]
+}

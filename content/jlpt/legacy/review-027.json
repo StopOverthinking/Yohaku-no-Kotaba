@@ -1,0 +1,542 @@
+[
+  {
+    "wordId": "AbsoluteVerb_171",
+    "sourceHash": "9e2b40b642acd7c4eaae87e226bbcf57d5f95abba2323b116e2fc997460d4065",
+    "proposalHash": "9bdf7d31f0899b822d9e1bf4799c9818ff45336e099375baff9d0b762f5bec2d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "생명 종료의 두 문맥과 5단 자동사·N5 근거가 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_172",
+    "sourceHash": "cbf28d4d0d4d03cb0408b6e3c79eb38653a8577730a1521238afe31c3ec0c75b",
+    "proposalHash": "5e35845634474f10d943e4255e81bb5c41e51a8e4e00768fd3deb2171488bee9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "사람의 죽음을 완곡하게 알리는 두 예문과 N4 분류가 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_173",
+    "sourceHash": "45d4518f0e0266d1de81e195a541ed3916af4b7ac322e9edb8e1c87161a1ec36",
+    "proposalHash": "a10cdf03c0f0e451728983d09eedf313c8e1135b451966b330ad312ff9df8bb7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "꽃이 피는 기본 의미의 N5 분류가 맞는다. 꽃 무렵 다시 길을 걷는 장면은 散る와 참조 검토 때 비교할 대상이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_174",
+    "sourceHash": "9c66f7b5d48eee007ce976747a30d276a6b028b359e0337b73b2cd1e9c98c31b",
+    "proposalHash": "18f776c9aec1958b635e576ce0555d7d3a373b90fc6c218fa946b0ab5f446ea0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "꽃잎이 지는 현재 용법은 N2로 분류한다. 대표 뜻의 주의 분산은 별도 용법 보강 대상이며 길을 다시 걷는 장면도 咲く와 대조가 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_175",
+    "sourceHash": "a4778ff0b1c14537c57f4b9d0979753129896fccbe0421c78c39c397968e45b1",
+    "proposalHash": "9396a8f2a0271b3426e36c104fa8d8d79a0ca954b3a101457f58d916f7b0d6e4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "길을 덮는 풀과 그늘을 만드는 잎의 무성함이 사전 뜻에 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_177",
+    "sourceHash": "8ff5e34d37873ae264453348973192f197e3d5c8d3a2bd8e59a4150003f60432",
+    "proposalHash": "6af24e6631d54b2b7b1e4c7da2d133f7494c521450ff32396cec131095a7eaac",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "씨앗 파종의 타동사 의미를 확인했으며 나무 심기와 구별된다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_178",
+    "sourceHash": "82b6b3a70f008ae2576761d63fc114eb09c5ff2754f7666322c576a6f3de5662",
+    "proposalHash": "65adce52d5bb6a949353db672d7ee4d3a5fefee80570e8877f92a8c872bae38d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "구성 표현의 사전 연결이 없어 보류한다. 出す가 목적어 芽를 취하므로 현재 1자 정보도 정정 검토 대상이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_179",
+    "sourceHash": "d94d642eb9b97f3f980b7d4edd97c134d3d67675ebabfa08e550dbd8844a008e",
+    "proposalHash": "010589b586f20446a46644e1e73a52994a286b2bbd8309dfbd4d5581fcff3449",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "벼와 감이 결실·성숙하는 의미가 사전과 일치하며 성과의 비유는 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_180",
+    "sourceHash": "61bfc43d637fc314d0521861dfee3b2a36c5c986c334caa9c5db170264b29d5f",
+    "proposalHash": "351b212a5f9fd3a2d61cc45c0ffd5eac5b708626fcd53ea264027f237668ffcc",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "현재 과일 성숙 예문은 이해되지만 じゅくす 읽기와 해당 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_181",
+    "sourceHash": "8c07f560d5d959e9f6a739883cdd46ac11869978c584179f023d715617c4a3e6",
+    "proposalHash": "3de9619179e204e3ed60e89ba05599513fd92e0567cdf89901616ec2d66edf35",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "풍선 수축과 꽃 오므라듦을 모두 포함하는 현재 뜻과 N1 근거를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_184",
+    "sourceHash": "f71325d4661a2d206e252c12c27276cd6b23d5a3b6b4de73d0400d3aa7ec58ee",
+    "proposalHash": "0b2de2cde87be59e980d4c3cb88bf3d3e352623b37d8951859922146286ba9cc",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "동물을 먹이고 돌보는 두 예문이 맞으며 현재 제공 N3 근거를 따른다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_185",
+    "sourceHash": "8f1b9d7d26543afbb6c4426a87ff96065d1078816406cb150452891ed796e53c",
+    "proposalHash": "599b226b7caa2cb9706e691dd3c26769f1d50d8444a7c5c48149ef967538c519",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "까마귀와 고양이의 울음이 5단 자동사·N5 기본 뜻에 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_186",
+    "sourceHash": "4f650c94c46e678adba25dc52f6b51c847ff5188fa6b6f4b6385831eada60330",
+    "proposalHash": "976560f2fff260aa8d52949287e704f1ca38ba395ad4a4d3ae5e0b4ae1455d5f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "개 짖기 용법을 확인했다. 吼える의 포효와 같은 사전 ID만으로 별칭 통합하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_187",
+    "sourceHash": "4930d48c653a657c7fe6918bb68256cb8183340c8a7567392558f7c835f1fd80",
+    "proposalHash": "76da23c8c3e8d9f475a92b79c3a4d7b89730f7fa44aeadc3f7572272a5757bca",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "맹수 포효 예문은 사전 범위와 맞는다. 낮은 음색이라는 힌트 제한은 참조 전 완화 검토 대상이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_188",
+    "sourceHash": "0e833873ee797913893fb1b6399999426c4ff9e645c3900a179d0f244cb8079b",
+    "proposalHash": "3e894de5d52d266b25da9c90b5f02a28f505876d8eb6a7e5cd2065f275717b82",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "사람에게 길드는 동물 용법으로 N4/N2 중 N2 제안이 타당하며 익숙해지기 일반과 분리한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_189",
+    "sourceHash": "8e241a854deb938e806e0ccc4f6460ccaa713a53a63ddf88af6594db85d30e3d",
+    "proposalHash": "55969ed5c9e77b109e0be09f10c66e156173c53a9551fe81b8ef40902b856c1a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "셔츠와 유카타 착용의 1단 타동사·N5 의미가 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_191",
+    "sourceHash": "24b00c38ef5a063e5766ba2df60e3ff3485451948da83a3fb0c8af9e6b6cb66e",
+    "proposalHash": "f78d1c76d72725aa7d8f358e8295a9293d8548fdee2de1c73e03eef1df7e8dc1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "신발 착용 용법은 현재 제공 N3 근거와 연결된다. 같은 사전 ID의 하의 착용과 프로필을 자동 합치지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_192",
+    "sourceHash": "ac2ada33dac489934d3af4d6fed2125311b0539a4d955cea503c3d6fc6c809ca",
+    "proposalHash": "955ecfea3a5612c19d8d380c97e9d2f9e4f27f1cc702de64308ffde1bc87c051",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "바지와 치마 착용 의미를 확인했으며 履く의 신발 선택 뜻과 구분해 유지한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_193",
+    "sourceHash": "81bc0ee59c31bfe9af1a1b31f408b39302b233d3fcf91e27eeebbd78128cb6a6",
+    "proposalHash": "fb2c745b9252ea839e85ca7b8d607785c4591a855e4b6311d96ea804ad3ae6c3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "반지·장갑 착용 예문은 일관되나 제공 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_194",
+    "sourceHash": "3a441622155e2576685f670503a99ecd55d0b705c43f9238317ac49dbf3039c8",
+    "proposalHash": "42fb9c4f8f37664c8ba195192bf311cea88ac7b5a03cd8a0eab8f3ac25c9c1de",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "모자·헬멧 착용의 타동사 의미와 N3 근거가 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_195",
+    "sourceHash": "0799abcccce31c49782d704a85d3f9d13a4e7f4fa2c4ca2e0c18b317d31deb66",
+    "proposalHash": "1ec870dd44919efb8a4bd71805e4d2e4c4fbdd1ac53cf619e3bd6ba57829bb05",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "아이에게 모자를 씌우기와 기계 위를 천으로 덮기가 모두 사전 범위이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_197",
+    "sourceHash": "4e0671dc1a6948dab1761e316c471c13c0d760400141b723fd137d22f20a5810",
+    "proposalHash": "6416d3b9df0289f4b9f940dbfc202ab9a4bf520652e6d395e2889e93e7f0273a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "부착물을 떼는 N3 용법은 맞다. 대표 뜻 빗나가다는 빗맞히다 등 타동사로 정정하고 추가 의미를 분리할 필요가 있다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_198",
+    "sourceHash": "befe38e16f6d7e54760f8cc0d92ecf23a81a68e924b7ec3d59802accc7c6110e",
+    "proposalHash": "7418418bedf08e1a9b441fa0a48ce34d84558ad05a4f6cc55f464d365e2755d8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "수건을 두르고 실을 감는 두 용례가 둘러 감기 의미에 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_199",
+    "sourceHash": "55af7065db41e1d737d2bd1274781357b47e26e99de0176f1a1bb6f4c08242d3",
+    "proposalHash": "093af47b5b89611294ea867a31ac580c97af2b03dbc592313c577a712e632499",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "우산을 펼쳐 받쳐 쓰는 N5 용법은 맞으며 대표 뜻 가리다는 더 정확한 표현으로 정정할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_200",
+    "sourceHash": "5159100b9d37db2a3cb1438c25e7cb9e3634843c8c3f94076d2d8e333233df31",
+    "proposalHash": "848cc0a0ca07c3c69ae58b8bf8f08ff7c6422a1ca0d87d7ee57bbc286cdf2bea",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "도구로 종이를 자르고 채소를 써는 기본 의미의 N5 분류가 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_201",
+    "sourceHash": "53337075513ffdd5d15fcb8e69cfc4465b63a672b5c66381cfdf747c974acd6a",
+    "proposalHash": "01c278668043f9db0c93fa367555a4f3962304563dcb880b494e4d8338f53dd6",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "재료를 잘게 써는 N2 용법은 맞지만 표제 뜻 새기다·명심하다는 별도 용법 보강 검토 대상이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_202",
+    "sourceHash": "3a5935853f35cfc1c057aadf0ee45edb4c3356bbbe6985a94b59f74fab3168d4",
+    "proposalHash": "511bb47fe52d8c4a6ccae9048d2ea346f234ba884f7b3a1a578500a7263a5938",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "껍질 제거의 두 예문은 일관되나 むく의 해당 사전 연결이 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_204",
+    "sourceHash": "911eb45434d069cbafd61dc19a2d8e203558e84c8e4c46207c8414439562d3b7",
+    "proposalHash": "7b9a0869ba5af828fb45f4056a6ae10a61a3f91610ed912eb49da8c2a3b4f393",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "적은 기름으로 볶는 뜻과 1단 타동사·현재 N1 근거를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_205",
+    "sourceHash": "dc139d3783f98a50adb30c5492677cd639b5ad660baa1449f1468f77491ee105",
+    "proposalHash": "511a90512559f8c255db31ac60fe41845dfc57e9c7f563dad205d2a452d4aabc",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "깨와 콩을 마른 상태로 볶는 용법이 사전 roast·toast와 맞는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_206",
+    "sourceHash": "8c8ec4619a286ed0e8f846908de30ed32c942d92c50a755d965facfc75d6c32a",
+    "proposalHash": "f29493bdfb85893d4b933863158c7316ee31e5aed7b220c281d4a3c939d00749",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; not approved for merge",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent classification review; legacy/review-summary-027.json",
+    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "notes": [
+      "재료를 국물 속에서 익히는 두 예문이 맞으며 물 자체를 끓이는 뜻과 구분한다."
+    ]
+  }
+]

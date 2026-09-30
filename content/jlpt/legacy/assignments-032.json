@@ -1,0 +1,344 @@
+[
+  {
+    "wordId": "AbsoluteVerb_361",
+    "sourceHash": "630899971eaddd1564a827141f0a9bcfe2d308cc17c300b97ecc732d4e9e1c64",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(손으로) 후려치다” 및 1개 sense를 대조했다. 팔이나 사람을 손으로 후려치는 의미이다. 사전 후보가 없어 연결과 등급을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ひっぱたく의 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_362",
+    "sourceHash": "00da3731a2e2af707312a10d7ebca0684d32563a9d142971f0b115ccb1bd989e",
+    "level": "N1",
+    "dictionaryId": "jmdict-1333440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “걷어차다” 및 1개 sense를 대조했다. 깡통과 상자를 세게 걷어차는 물리적 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_363",
+    "sourceHash": "b003ff3813e86909671f3425702d87ece9b92502a29082982a8c7470b3132fc9",
+    "level": "N2",
+    "dictionaryId": "jmdict-1456890",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “찌르다, (공 등을) 치다, (팔꿈치 등을) 괴다” 및 1개 sense를 대조했다. 막대나 손가락으로 땅이나 어깨를 찌르는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_364",
+    "sourceHash": "f7076db98838ed6025ddc3534f957747544a297e3504625e79457a33acc3bfaf",
+    "level": "N1",
+    "dictionaryId": "jmdict-1548520",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “얽히다, 시비를 걸다” 및 1개 sense를 대조했다. 낚싯줄과 코드가 얽히는 물리적 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_365",
+    "sourceHash": "1224ab39b0ca4068328f6fc7a5cae68ff8c62faee1cff72242f93a4d651ebaca",
+    "level": "N3",
+    "dictionaryId": "jmdict-1223680",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “일어나다, 발생하다” 및 1개 sense를 대조했다. 정전이나 예측하지 못한 일이 발생하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_366",
+    "sourceHash": "5d2fdfcb535b70bd42fdf0918866ef21900283ae9acdc91dd99558b42828939e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1448440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “훔치다” 및 1개 sense를 대조했다. 자전거와 돈을 훔치는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_367",
+    "sourceHash": "2332c42f42d18e1671d4e12ca4b46f86c664fd27ac977193682c6af13497443f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “속이다” 및 1개 sense를 대조했다. 가짜 사진이나 말로 상대를 속이는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "だます의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_369",
+    "sourceHash": "7d2e0446756162b8124a46b88d0210b702acfab6c632fbc426ce711b4510ad21",
+    "level": "N1",
+    "dictionaryId": "jmdict-1481550",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(죄를) 범하다, (규칙을) 어기다” 및 1개 sense를 대조했다. 죄나 범죄를 범하는 의미를 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_370",
+    "sourceHash": "165cd0a3eb195ed0b6e665129dacabf714ba9a83016c0c0abb80ff46b489ff0c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1397720",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “고소하다, 호소하다” 및 1개 sense를 대조했다. 가슴 통증과 물 부족을 호소하는 의미이다. 고소 의미는 현재 예문에 나타나지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_371",
+    "sourceHash": "189f493a7fd00b1fdb471e9d552d234202b120434e3fab447ca56d516292e0af",
+    "level": "N4",
+    "dictionaryId": "jmdict-1429060",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “조사하다” 및 1개 sense를 대조했다. 역사와 이상한 소리의 원인을 조사하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_373",
+    "sourceHash": "5d45135dfe9ce572afa31af3673c2fa734c594de0d87dbf60da7a94d13793149",
+    "level": "N2",
+    "dictionaryId": "jmdict-1582900",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “불태우다” 및 1개 sense를 대조했다. 편지와 낙엽을 불태우는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_374",
+    "sourceHash": "f58fd8ed939ccb4274bc9b824997c882135e4d20bcb3150ead371959272f570f",
+    "level": "N3",
+    "dictionaryId": "jmdict-1497800",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “썩다” 및 1개 sense를 대조했다. 토마토와 생선이 썩는 식품 변질 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_375",
+    "sourceHash": "dd20b3dfafe86dee3a9b94f1f8bdc20fe0a1f54225d2d5d1bd38666930ccaa92",
+    "level": "N2",
+    "dictionaryId": "jmdict-1011180",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(자동사) 부딪치다” 및 1개 sense를 대조했다. 사람이나 천장에 부딪치는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_376",
+    "sourceHash": "99643efeb16a82ddfb3531b8f6d8aa87cf48ba15522761ac23e6e23b2b30328d",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(타동사) 부딪치다” 및 1개 sense를 대조했다. 머리나 가구를 다른 물체에 부딪치게 하는 타동사 의미이다. 사전 후보 누락으로 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "ぶつける의 사전 연결과 등급을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_378",
+    "sourceHash": "5372597a01913d45fc47916bca2adc08ad3a1e93845059895febcfbc19ed859a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1583260",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(상황 등을) 피하다” 및 1개 sense를 대조했다. 혼잡과 다툼이라는 상황을 피하는 뜻을 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_379",
+    "sourceHash": "91752cd4fa134e8a3416b2414959784539359aeeaf0a10cacaecb85cb0d2a65b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(순간적으로) 피하다” 및 1개 sense를 대조했다. 날아오는 공과 물웅덩이를 피하는 물리적 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "よける의 읽기 및 물리적으로 피하다 의미에 대한 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_381",
+    "sourceHash": "1a6d82dc29fdb0d84b2b2ed4c7a65d4afe2b86a85e9796ade8b0107eec95aa0c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1170660",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “숨다, 가려지다” 및 1개 sense를 대조했다. 고양이나 사람이 물체 뒤에 숨는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_383",
+    "sourceHash": "d2ab057646f9019830b1a21680de8fa339a1e5471b7eb0ed4caf9644eafe3b40",
+    "level": "N2",
+    "dictionaryId": "jmdict-1608720",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “뒤쫓다” 및 1개 sense를 대조했다. 굴러가는 모자와 사람을 뒤쫓는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_384",
+    "sourceHash": "3cb911a77726dda437f3b99ed620941982bc236dc8b8b3827cb656af6b0b44e4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1514110",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “잡히다, 꼭 붙잡고 매달리다” 및 1개 sense를 대조했다. 경찰과 술래에게 잡히는 자동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_385",
+    "sourceHash": "2d30d2658dffca3f443d7d4a28302ec26e4613cc9ef44150ee9cd9c37831af64",
+    "level": "N4",
+    "dictionaryId": "jmdict-1597780",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “붙잡다” 및 1개 sense를 대조했다. 토끼를 붙잡거나 택시를 잡는 타동사 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_386",
+    "sourceHash": "81cec0d248c8527cdee6ba9519e557b4999ac699d5a89348926996b1d524fb80",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “포착하다” 및 1개 sense를 대조했다. 사진기로 별과 자연스러운 표정을 포착하는 의미이다. 제공 후보가 없어 연결을 보류한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "とらえる의 포착 의미에 대응하는 사전 연결과 표기를 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_387",
+    "sourceHash": "f58154622d637f3ef98bd69eb7c56a1a7624046bba53524829aa3bf85904bd58",
+    "level": "N4",
+    "dictionaryId": "jmdict-1434120",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “(생선 등을) 낚다” 및 1개 sense를 대조했다. 바다에서 물고기를 낚는 뜻이다. 생선이라는 조리된 식품 표현보다 물고기가 정확하다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "한국어 word 뜻의 생선은 낚는 살아 있는 물고기를 가리키는 설명으로 수정하는 것이 정확하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_388",
+    "sourceHash": "ea02ba6a90aed734433ff0d67378aa5497b6aa90b3a3d45b5835f948a6ff7444",
+    "level": "N5",
+    "dictionaryId": "jmdict-1451150",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “일하다” 및 1개 sense를 대조했다. 식당에서 일하거나 늦게까지 일하는 기본 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_389",
+    "sourceHash": "5c3b318f3bce64e6b593f60a84d8f5109368f6a6d169cde8d2db48c458881591",
+    "level": "N3",
+    "dictionaryId": "jmdict-1605570",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “고용하다” 및 1개 sense를 대조했다. 학생과 직원을 고용하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_391",
+    "sourceHash": "dae84869732cd4b91da81dbd337d051068363edea5650ef4c8d9f4767c7a73c9",
+    "level": "N2",
+    "dictionaryId": "jmdict-2872052",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “(임무를) 맡다” 및 1개 sense를 대조했다. 사회자와 회장 역할을 맡는 의미로 勤める의 근무 의미와 구분한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_392",
+    "sourceHash": "c5eb0cdad19fd608f9a60e30254dc37fe0b8a92fd020d9e4e1140fff284f7728",
+    "level": "N2",
+    "dictionaryId": "jmdict-1240820",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “노력하다” 및 1개 sense를 대조했다. 설명을 잘하거나 실수를 막으려고 노력하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_393",
+    "sourceHash": "28b2823ad6d99be992f500e930961cd0f94a1e303840030a910e1305d97c58ab",
+    "level": "N3",
+    "dictionaryId": "jmdict-1153440",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “다루다” 및 1개 sense를 대조했다. 책과 도구를 조심하여 다루는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_394",
+    "sourceHash": "4ae1df786f5715e2c817b6c086d9ac7d5007b30cfa3f8336fb1428ca0086b689",
+    "level": "N1",
+    "dictionaryId": "jmdict-1497930",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(책임 등을) 지다” 및 1개 sense를 대조했다. 책임을 지거나 책임을 지게 하는 뜻을 선택했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_395",
+    "sourceHash": "46e30c17571992eb6d74d97c1413e74b101fdba9250cbf7c2bcdc54c1a3b2763",
+    "level": "N3",
+    "dictionaryId": "jmdict-1467150",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(일을) 맡기다” 및 1개 sense를 대조했다. 일정 관리와 운전을 다른 사람에게 맡기는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_396",
+    "sourceHash": "5fd564817f15edcf5decfa1a3eb10826a926e54a72bc245a6f9a83690de8a887",
+    "level": "N3",
+    "dictionaryId": "jmdict-1318950",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “사직하다” 및 1개 sense를 대조했다. 회사와 일을 그만두고 사직하는 의미이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

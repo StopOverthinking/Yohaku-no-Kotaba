@@ -1,0 +1,21 @@
+{
+  "batch": "n1-003",
+  "status": "completed",
+  "completedParts": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "checkedWords": 100,
+  "acceptedWords": 100,
+  "acceptedExamples": 100,
+  "heldWords": 0,
+  "scope": "Complete independent dictionary, meaning, reading, POS, hint, contrast, example, translation, level and corpus review.",
+  "reviewer": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "updatedAt": "2026-09-30T05:20:34.662Z",
+  "finalCorpusExamples": 8002,
+  "finalSimilarityComparisons": 185913,
+  "finalSimilarityPairs": 0
+}

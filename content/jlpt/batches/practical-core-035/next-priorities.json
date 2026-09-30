@@ -1,0 +1,268 @@
+{
+  "status": "proposal-only-not-authored",
+  "at": "2026-09-30T06:40:02.615Z",
+  "note": "35개 보완 후의 우선순위 제안이며 생성 할당량이 아니다. 위 세 분야를 소량씩 먼저 보완하고 실용어·의미 누락 여부를 재검토할 것을 제안한다. 고정 N1 출처를 실제 난도로 강제하지 않는다.",
+  "groups": [
+    {
+      "topic": "업무·문의 처리",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1329690",
+          "japanese": "受け付ける",
+          "reading": "うけつける",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "to accept",
+            "to receive (an application)",
+            "to take up",
+            "to (be able to) take (food, medicine, etc.)",
+            "to bear",
+            "to tolerate",
+            "to endure",
+            "to be affected by",
+            "to take damage from"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1326620",
+          "japanese": "取り寄せる",
+          "reading": "とりよせる",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "to order",
+            "to send away for",
+            "to have (something) sent to one",
+            "to pull (something) closer"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1362930",
+          "japanese": "申し出る",
+          "reading": "もうしでる",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "to offer",
+            "to propose",
+            "to suggest",
+            "to put forward",
+            "to request",
+            "to ask (for)",
+            "to apply (for)",
+            "to report (to)",
+            "to notify"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1350920",
+          "japanese": "照合",
+          "reading": "しょうごう",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "check (against)",
+            "collation (with)",
+            "comparison",
+            "verification"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1546250",
+          "japanese": "用件",
+          "reading": "ようけん",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "business",
+            "thing to be done",
+            "something that should be performed",
+            "information that should be conveyed"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1590280",
+          "japanese": "箇条書き",
+          "reading": "かじょうがき",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "itemized form",
+            "itemised form",
+            "itemization",
+            "itemisation"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        }
+      ]
+    },
+    {
+      "topic": "물건·문제 관리",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1441540",
+          "japanese": "点検",
+          "reading": "てんけん",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "detailed inspection",
+            "thorough examination",
+            "checking"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1471380",
+          "japanese": "破損",
+          "reading": "はそん",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "damage",
+            "breakage"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1505050",
+          "japanese": "紛失",
+          "reading": "ふんしつ",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "loss",
+            "going missing"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1513320",
+          "japanese": "保管",
+          "reading": "ほかん",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "charge",
+            "custody",
+            "safekeeping",
+            "deposit",
+            "storage"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1326780",
+          "japanese": "取り除く",
+          "reading": "とりのぞく",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "to remove",
+            "to deinstall",
+            "to take away",
+            "to set apart"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1514580",
+          "japanese": "補充",
+          "reading": "ほじゅう",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "replenishment",
+            "supplementation",
+            "supplement",
+            "replacement",
+            "refilling"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        }
+      ]
+    },
+    {
+      "topic": "일상 평가·관계 표현",
+      "rows": [
+        {
+          "dictionaryId": "jmdict-1327530",
+          "japanese": "手軽",
+          "reading": "てがる",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "easy",
+            "simple",
+            "informal",
+            "offhand",
+            "cheap"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1491050",
+          "japanese": "頻繁",
+          "reading": "ひんぱん",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "frequent",
+            "incessant"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1567920",
+          "japanese": "曖昧",
+          "reading": "あいまい",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "vague",
+            "ambiguous",
+            "unclear",
+            "shady",
+            "disreputable",
+            "fuzzy"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1504990",
+          "japanese": "紛らわしい",
+          "reading": "まぎらわしい",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "easily mixed up (e.g. similar words)",
+            "easily mistaken",
+            "confusing",
+            "misleading",
+            "equivocal",
+            "ambiguous"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1605250",
+          "japanese": "勿体ない",
+          "reading": "もったいない",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "wasteful",
+            "a waste",
+            "too good",
+            "more than one deserves",
+            "unworthy of",
+            "impious",
+            "profane",
+            "sacrilegious"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        },
+        {
+          "dictionaryId": "jmdict-1360640",
+          "japanese": "心強い",
+          "reading": "こころづよい",
+          "currentlyNew": true,
+          "meaningEvidence": [
+            "heartening",
+            "reassuring"
+          ],
+          "reviewNeeded": "선택 용법·대체 표기 중복 및 실제 권장 난도 검토"
+        }
+      ]
+    }
+  ]
+}

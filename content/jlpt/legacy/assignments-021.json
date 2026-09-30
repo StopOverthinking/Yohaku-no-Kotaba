@@ -1,0 +1,362 @@
+[
+  {
+    "wordId": "handmade_109",
+    "sourceHash": "7686d3c5d9926afaecc87d0ed5f5d20e946fceac81dd1b73acf576057b01e812",
+    "level": "N2",
+    "dictionaryId": "jmdict-1645810",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “세계관” 및 1개 sense를 대조했다. fictional setting와 게임·영화의 세계 설정 예문이 일치한다. 등급 근거는 없지만 작품 해설에 쓰는 일반 문화 복합어로 N2를 편집 제안한다. 철학적 세계 이해와 현재 sense를 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_110",
+    "sourceHash": "747784b09d82d12316d9822e75e42bce90444e64a263824c3e44ec88226020dd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1611820",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “귓가” 및 1개 sense를 대조했다. close to the ear와 작은 축하 말·모기 소리 예문이 일치한다. 등급 근거는 없지만 신체 주변 위치의 생활 표현으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_111",
+    "sourceHash": "850ce59e4b2c34296c506861e9d42826a41e3a74c3ef34cbaa19fe2ae8067e3b",
+    "level": "N3",
+    "dictionaryId": "jmdict-1241880",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “긴장” 및 1개 sense를 대조했다. nervousness와 면접 떨림·친구로 인한 이완 예문이 일치한다. 국가 갈등이나 근육 긴장은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_112",
+    "sourceHash": "0802b5d2539546c2e43c09ca70bd5d1c35e21ade4feb17ed26ef6f2fe637f2aa",
+    "level": "N2",
+    "dictionaryId": "jmdict-1150840",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “애칭” 및 1개 sense를 대조했다. affectionate name와 할아버지·열차 애칭 예문이 일치한다. 출처 등급은 없지만 이름 짓기 및 기사에 쓰는 일반 복합어로 N2를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_113",
+    "sourceHash": "7d653e8698e14f7690732d65a72a200f905ad243e93ce6fab82661340f71824c",
+    "level": "N5",
+    "dictionaryId": "jmdict-1177800",
+    "suggestedType": "i_adj",
+    "levelNote": "현재 i_adj 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “멀다” 및 1개 sense를 대조했다. far와 역 거리·해변 거리 예문이 일치한다. 청각·시력 용법은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_114",
+    "sourceHash": "8e6f2d664333ff5d3a701c85862a464592eb703de2e2c1e475606108b360c7d1",
+    "level": "N4",
+    "dictionaryId": "jmdict-1177820",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “먼 곳” 및 1개 sense를 대조했다. distant place와 먼 섬·멀리 가는 개 예문이 일치한다. 시간이나 비교 우위는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_115",
+    "sourceHash": "00ffb56de1c813e99829b7acd69b32b801a6d74fb20936cb571f95db1da01ec5",
+    "level": "N1",
+    "dictionaryId": "jmdict-1249420",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “(물건을) 기울이다, (노력·마음을) 쏟다” 및 1개 sense를 대조했다. tilt와 병·화면 기울이기 예문이 일치한다. 마음을 쏟는 다른 표제어 뜻은 현재 sense와 구별한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_116",
+    "sourceHash": "3926f0669ec8e230ed64786f63e7a85da50e2f4258d5deb54d357cdda6a51554",
+    "level": "N5",
+    "dictionaryId": "jmdict-1305990",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “사용하다” 및 1개 sense를 대조했다. use a tool와 가위·책상 사용 예문이 일치한다. 고용·소비 등은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_117",
+    "sourceHash": "d13bfae20ca6fe0a9c9c1253ca6d6d81d279516214d1a2254c4d9e96b11b42e4",
+    "level": "N3",
+    "dictionaryId": "jmdict-1288080",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “칠판” 및 1개 sense를 대조했다. blackboard와 글자 읽기·지우기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_118",
+    "sourceHash": "3d310423838c1631c284ff41d596946aa39361e6b68d7d786518dc2562535d53",
+    "level": "N5",
+    "dictionaryId": "jmdict-1465590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “들어가다” 및 1개 sense를 대조했다. enter와 방·상자 진입 예문이 일치한다. AbsoluteVerb_258과 안으로 들어가는 의미가 같아 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_258"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_258",
+    "sourceHash": "ebeaa6ebb000ae20b640ea5f13d30f8e703a9a27980e8f2d8cfb291e47424a66",
+    "level": "N5",
+    "dictionaryId": "jmdict-1465590",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “들어가다” 및 1개 sense를 대조했다. enter와 실내 이동·신발 속 돌 예문이 일치한다. handmade_118과 물리적 진입 의미의 별칭 후보이며 사람·물건 주어 범위도 보존한다.",
+    "aliasCandidateIds": [
+      "handmade_118"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_119",
+    "sourceHash": "d194b8584b53891f4f7e9516ea5cf0cc6629295414057bc5cfbe58fe5f5f9053",
+    "level": "N5",
+    "dictionaryId": "jmdict-1221270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “돌아가다” 및 1개 sense를 대조했다. go home와 귀가·아버지 귀환 예문이 일치한다. AbsoluteVerb_256과 원래 장소로 돌아가는 의미가 같아 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_256"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_256",
+    "sourceHash": "ad72fce9806fe60db1a92166c6cc690323f9c1442f3287318396aad9d3703e71",
+    "level": "N5",
+    "dictionaryId": "jmdict-1221270",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “귀환하다” 및 1개 sense를 대조했다. return home와 집·고국 귀환 예문이 일치한다. handmade_119과 동일한 귀가·귀환 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_119"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_120",
+    "sourceHash": "f90c2a6087ba137fdee65b1bbfbc4a6bbe3de3cd2ff572ad86580b06feac4c4b",
+    "level": "N5",
+    "dictionaryId": "jmdict-1499320",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “방” 및 1개 sense를 대조했다. room과 채광·문 잠금 예문이 일치한다. 스모 마구간은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_121",
+    "sourceHash": "64d9da8246ebfa6450576d612d5689823ae65c6b6e116bfa815157c2e5966e93",
+    "level": "N5",
+    "dictionaryId": "jmdict-1401400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “창문” 및 1개 sense를 대조했다. window와 꽃향기·공 충돌 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_122",
+    "sourceHash": "cd5510292265d65db7d69cb087489766800423f99b04683d30f594c004986753",
+    "level": "N5",
+    "dictionaryId": "jmdict-1545770",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “요일” 및 1개 sense를 대조했다. day of the week와 오늘 요일·쓰레기 배출일 예문이 일치한다. 제공 출처는 N3이나 기본 날짜·주간 일정의 명칭이므로 N5를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_123",
+    "sourceHash": "da5045d1093ea639acd15c56b27dba9343ac6cc119f0c378a3bd6e16c11b7cd7",
+    "level": "N5",
+    "dictionaryId": "jmdict-1243490",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “은행” 및 1개 sense를 대조했다. bank와 송금·계좌 개설 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_124",
+    "sourceHash": "46453375e210888d0636a2a386d1b7cf9c46f07909c1ac46ec6b7afaf73608d6",
+    "level": "N5",
+    "dictionaryId": "jmdict-1231690",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “작년” 및 1개 sense를 대조했다. last year와 작년 이맘때·작년 외투 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_125",
+    "sourceHash": "c14b29cc3b6ca6ae03f10abbdb01fc323eb0cb855e0d9d60af7661cf2ce6d2c6",
+    "level": "N2",
+    "dictionaryId": "jmdict-1206540",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “학위” 및 1개 sense를 대조했다. academic degree와 대학원 학위·지원 서류 예문이 일치한다. 등급 근거는 없지만 일반 학업·취업 서류 용법으로 N2를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_126",
+    "sourceHash": "fe2ccdd15cbb4579a7a4744b949f6fb8d57b36b55f84dfecb54205b81c23db91",
+    "level": "N5",
+    "dictionaryId": "jmdict-1269410",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “뒤” 및 1개 sense를 대조했다. behind와 뒤에서 부르는 소리·뒷좌석 예문이 일치한다. N5/N3 출처 중 기본 위치 명칭으로 N5를 선택한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_127",
+    "sourceHash": "b196200286384ed3c1abe495a9ea4aaa815674f07c4ec567b010ba97dfc7a433",
+    "level": "N3",
+    "dictionaryId": "jmdict-1242700",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “금액” 및 1개 sense를 대조했다. amount of money와 송금 자리수·영수증 금액 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_128",
+    "sourceHash": "a8ba373e713f74e7686c86cbeb19dda558880cb042806d5fd6ceaf501cb28ecd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1487970",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “끈” 및 1개 sense를 대조했다. string와 상자 묶음·신발 끈 예문이 일치한다. 기생 남성·조건 등 다른 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_129",
+    "sourceHash": "54559355c9208ff35a6bb624fa63d5bb0acf14b05f18ebada8aa53b8805a1c98",
+    "level": "N4",
+    "dictionaryId": "jmdict-1599340",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “도둑” 및 1개 sense를 대조했다. thief와 도주한 도둑·주택 침입자 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_130",
+    "sourceHash": "e55772fa9231ac606983f4cfee3325b8ebd8ebb2367896c1ddaabb86828d500e",
+    "level": "N4",
+    "dictionaryId": "jmdict-1252390",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “경찰” 및 1개 sense를 대조했다. police와 분실물 인계·사고 조사 예문이 일치한다. 자칭 단속자 속어는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_131",
+    "sourceHash": "4ebd3cbcdfc7ec1b888f06043e38df3db2031decf04893a5bb21b3bac5179bc0",
+    "level": "N5",
+    "dictionaryId": "jmdict-1311530",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “종이” 및 1개 sense를 대조했다. paper와 메모지·젖은 손 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_132",
+    "sourceHash": "e7f194f3d5dd0d7ef68e117fd1c21ed278953777b51a67b528bf54b44f7ce5ad",
+    "level": "N4",
+    "dictionaryId": "jmdict-1386460",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “설명” 및 1개 sense를 대조했다. explanation와 그림 설명·긴 설명 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_133",
+    "sourceHash": "7b42bf0d1be1aed457501addd8c5aa061b6a965763074c929f2c3e169aa23b87",
+    "level": "N4",
+    "dictionaryId": "jmdict-1562850",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “팔” 및 1개 sense를 대조했다. arm과 무거운 짐·채혈 예문이 일치한다. 능력은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_134",
+    "sourceHash": "b41f86ed0c6f4df645e1633d9371d24eaad0bc7d0c76116ddc1c749caa95c15d",
+    "level": "N1",
+    "dictionaryId": "jmdict-1450430",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “붙잡지 못하고 놓치다, 기회를 놓치다” 및 1개 sense를 대조했다. miss a chance와 할인표 구입·촬영 순간 예문이 일치한다. 풀어 줌은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_135",
+    "sourceHash": "d4a8e22be830e164bac559dd549b4a1ceed740d551669668428c60d508d48a9a",
+    "level": "N1",
+    "dictionaryId": "jmdict-1598300",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “실마리” 및 1개 sense를 대조했다. clue와 사람 찾기·수사 단서 예문이 일치한다. 손잡이 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_136",
+    "sourceHash": "17ac499d1dbf604d351dd8b9cdc77143984ec891b378ff44060270bc93ea4ea8",
+    "level": "N3",
+    "dictionaryId": "jmdict-1375980",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “정치가” 및 1개 sense를 대조했다. politician와 역 앞 연설·학교 동문 정치인 예문이 일치한다. 등급 근거는 없지만 일반 사회의 직업 명칭으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_137",
+    "sourceHash": "ea4d1cac8c188cc034ea6fd8f3037401e2e77ed0881f6c5e735d4e90135c1fe4",
+    "level": "N1",
+    "dictionaryId": "jmdict-1386920",
+    "suggestedType": "na_adj",
+    "levelNote": "현재 na_adj 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “지대하다” 및 1개 sense를 대조했다. immense와 큰 신뢰·세대의 지지 예문이 일치한다. 출처 등급은 없지만 추상적 영향의 강도를 강조하는 격식 표현으로 N1를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_138",
+    "sourceHash": "a2d0fcd96086c02f600c87d5e3a3ab1700ca40295a105701fc40a5e680e1bc45",
+    "level": "N1",
+    "dictionaryId": "jmdict-1258220",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "meaningReview": "기존 뜻 “권력” 및 1개 sense를 대조했다. political power와 비판 수용·왕위 권력 경쟁 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

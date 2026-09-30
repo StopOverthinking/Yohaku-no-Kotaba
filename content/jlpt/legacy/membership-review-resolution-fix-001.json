@@ -1,0 +1,2914 @@
+{
+  "reviewedAt": "2026-09-30T06:36:16.779Z",
+  "scope": "revised-source classification and existing-ID reference; no alias/profile merge",
+  "evidence": "content-revisions/fix-proposals-001.json",
+  "changedWords": 29,
+  "unchangedCounterparts": 3,
+  "reviewedWords": 32,
+  "reviewedSenses": 43,
+  "reviewedExamples": 75,
+  "changes": [
+    {
+      "wordId": "JLPTN3_9",
+      "batch": "001",
+      "previousProposal": {
+        "wordId": "JLPTN3_9",
+        "sourceHash": "82b518185bd558389abcdc8dd99a9b198824b7e6bc21b2d8b4ba0e7113681e67",
+        "level": "N1",
+        "dictionaryId": "jmdict-1428230",
+        "levelNote": "강한 상대·목표에 맞서 도전한다는 결합과 자타 용법 구분이 필요한 동사이며 고정 OpenJLPT N1 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 도전하다. 등산 목표에 도전하는 예문은 사전의 어려운 과제를 시도하다, 선수를 상대로 도전하는 예문은 승부를 걸다에 대응한다. 성적 접근의 별도 의미는 선택하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력에 있는 대표 용법 예문이 2개이므로 세 번째 독립 예문과 별도 콘텐츠 검토가 필요하다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_9",
+        "sourceHash": "82b518185bd558389abcdc8dd99a9b198824b7e6bc21b2d8b4ba0e7113681e67",
+        "proposalHash": "c52e7db26d35588ed0d4175995233c894600cec464017154d363f79fdb7b022b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-001 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:23:10.122Z",
+        "notes": [
+          "목표·상대에 대한 도전이 선택 사전 의미와 일치한다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_9",
+        "sourceHash": "82b518185bd558389abcdc8dd99a9b198824b7e6bc21b2d8b4ba0e7113681e67",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:17:58.506Z",
+        "notes": [
+          "목표에 도전하는 자동사 용법과 선수에게 승부를 거는 사전상 타동사 용법이 함께 있으나 원본 verbInfo가 1자로만 표시되어 자타 범위 확인이 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_9",
+        "sourceHash": "8439ee27930ee5b243b4cf2cf3bdb63615151c3bf20202138723c7d02cca15b1",
+        "level": "N1",
+        "dictionaryId": "jmdict-1428230",
+        "levelNote": "강한 상대·목표에 맞서 도전한다는 결합과 자타 용법 구분이 필요한 동사이며 고정 OpenJLPT N1 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 도전하다 및 1개 용법(어려운 목표나 상대에 맞서 도전하다)의 사전 대응과 모든 예문을 다시 확인했다. 목표와 상대에 도전하는 기존 두 예문의 핵심 뜻을 유지하며 자타 정보와 설명을 정정했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_9",
+        "sourceHash": "8439ee27930ee5b243b4cf2cf3bdb63615151c3bf20202138723c7d02cca15b1",
+        "proposalHash": "0e02bf20fc9d213c2e83c7d9bb868953faa7018d60d485a68e23039edd408e61",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "목표와 상대에 도전하는 기존 두 예문의 핵심 뜻을 유지하며 자타 정보와 설명을 정정했다.",
+          "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_9",
+        "level": "N1",
+        "sourceHash": "8439ee27930ee5b243b4cf2cf3bdb63615151c3bf20202138723c7d02cca15b1",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "목표와 상대에 도전하는 기존 두 예문의 핵심 뜻을 유지하며 자타 정보와 설명을 정정했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N1 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_29",
+      "batch": "001",
+      "previousProposal": {
+        "wordId": "JLPTN3_29",
+        "sourceHash": "6159a781811dad8d5c425d42d4f964308a2c61502172a18afb5f57a548c07f5a",
+        "level": "N1",
+        "dictionaryId": "jmdict-1244720",
+        "levelNote": "빠르게 달리는 동작을 묘사하는 동사이며 고정 OpenJLPT N1 근거를 채택한다. 선택 사전 항목은 1단 자동사이다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 전속력으로 달리다, 뛰다. 사전의 달리다·질주하다가 어린이가 운동장으로 뛰고 말이 초원을 달리는 예문과 일치한다. 날다라는 다른 사전 항목과 합치지 않으며 전속력이라는 기존 뜻은 문맥에 따른 강조이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력에 있는 대표 용법 예문이 2개이므로 세 번째 독립 예문과 별도 콘텐츠 검토가 필요하다.",
+          "기존 전속력으로는 필수 의미보다 강한 번역일 수 있다. jmdict-1570710의 5단 동사·날다 용법과 구별하며 원본 동사 그룹을 별도로 대조한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_29",
+        "sourceHash": "6159a781811dad8d5c425d42d4f964308a2c61502172a18afb5f57a548c07f5a",
+        "proposalHash": "819bc8c38d79fafdc2f892b939a5c1cd0bad28ac1779d63e7b34fc99bda86584",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-001 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:23:10.122Z",
+        "notes": [
+          "달리기의 1단 자동사 선택은 기존 2자와 일치하며 5단 날다 항목과 구별된다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_29",
+        "sourceHash": "6159a781811dad8d5c425d42d4f964308a2c61502172a18afb5f57a548c07f5a",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:17:58.506Z",
+        "notes": [
+          "원본 표제 뜻의 전속력 한정이 현재 달리기 용법보다 강하므로 뜻 범위 정리 후 참조 여부를 판단한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_29",
+        "sourceHash": "e400d2139a66799ca8f173ba4bb61c0cba044c8ea68722aa1f9dcbc842970a88",
+        "level": "N1",
+        "dictionaryId": "jmdict-1244720",
+        "levelNote": "빠르게 달리는 동작을 묘사하는 동사이며 고정 OpenJLPT N1 근거를 채택한다. 선택 사전 항목은 1단 자동사이다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 힘차게 달리다·뛰다 및 1개 용법(달리다)의 사전 대응과 모든 예문을 다시 확인했다. 달리기 용법은 그대로이며 반드시 전속력이라는 불필요한 제한만 제거했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_29",
+        "sourceHash": "e400d2139a66799ca8f173ba4bb61c0cba044c8ea68722aa1f9dcbc842970a88",
+        "proposalHash": "93984fecded2d32c91ab163c0177c1dc0032bbf4913448f6d8ae07f2f049c674",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "달리기 용법은 그대로이며 반드시 전속력이라는 불필요한 제한만 제거했다.",
+          "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_29",
+        "level": "N1",
+        "sourceHash": "e400d2139a66799ca8f173ba4bb61c0cba044c8ea68722aa1f9dcbc842970a88",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "달리기 용법은 그대로이며 반드시 전속력이라는 불필요한 제한만 제거했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N1 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_56",
+      "batch": "002",
+      "previousProposal": {
+        "wordId": "JLPTN3_56",
+        "sourceHash": "4c4a3d4990b5dd0879391e9d287fee28677b29bf805517b94035123656b67b66",
+        "level": "N2",
+        "dictionaryId": "jmdict-1594520",
+        "levelNote": "수건을 비틀어 물기를 빼는 동작과 범위 축소를 구별하는 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: (물기를) 짜다, (범위를) 줄이다. 사전의 wring·squeeze와 걸레·수건을 짜는 예문이 일치한다. 기존 범위를 줄이다는 사전의 narrow down에 해당하지만 현재 대표 예문에서는 다루지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본에 나열된 파생 뜻 중 대표 예문에 없는 의미는 독립 용법 보강 여부를 검토해야 하며 현재 수준 제안으로 일괄 승인하지 않는다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_56",
+        "sourceHash": "4c4a3d4990b5dd0879391e9d287fee28677b29bf805517b94035123656b67b66",
+        "proposalHash": "fd35c7691dd173b6ea606343c42fb6a2ac927e97a3e9320cf1bfe7f6dfc5f3d0",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-002 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:27:34.554Z",
+        "notes": [
+          "걸레·수건의 물기를 짜는 의미이며 범위 축소는 추가 용법이다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_56",
+        "sourceHash": "4c4a3d4990b5dd0879391e9d287fee28677b29bf805517b94035123656b67b66",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:17:58.506Z",
+        "notes": [
+          "원본에 범위를 줄이다를 함께 제시하지만 현재 단일 용법은 물기 짜기뿐이다. 중요한 별도 의미의 학습 처리 정책이 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_56",
+        "sourceHash": "8084fb1895fb0dafe60015e24e9dd34564436f8bc9bafde0a006ada65427ce7b",
+        "level": "N2",
+        "dictionaryId": "jmdict-1594520",
+        "levelNote": "수건을 비틀어 물기를 빼는 동작과 범위 축소를 구별하는 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 (물기를) 짜다, (범위를) 줄이다 및 2개 용법(물기를 짜다; 범위나 후보를 좁히다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 물기 짜기 용법은 그대로 두고 범위 좁히기를 새 용법으로 분리했다. 면접 질문 예문으로 기존 후보 세 개 장면 반복을 피했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_56",
+        "sourceHash": "8084fb1895fb0dafe60015e24e9dd34564436f8bc9bafde0a006ada65427ce7b",
+        "proposalHash": "cf1359a032f2ca707820444defdd4f60f593470a611a7f81ac6795a3fa608612",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 물기 짜기 용법은 그대로 두고 범위 좁히기를 새 용법으로 분리했다. 면접 질문 예문으로 기존 후보 세 개 장면 반복을 피했다.",
+          "현재 N2 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_56",
+        "level": "N2",
+        "sourceHash": "8084fb1895fb0dafe60015e24e9dd34564436f8bc9bafde0a006ada65427ce7b",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 물기 짜기 용법은 그대로 두고 범위 좁히기를 새 용법으로 분리했다. 면접 질문 예문으로 기존 후보 세 개 장면 반복을 피했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N2 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_58",
+      "batch": "002",
+      "previousProposal": {
+        "wordId": "JLPTN3_58",
+        "sourceHash": "b71494c8d87b9e31fd2416c6856e8a1cfae007f649ee032e2a586c6752c37cd2",
+        "level": "N5",
+        "dictionaryId": "jmdict-1436570",
+        "levelNote": "벨트·띠를 매어 조이는 기초 착용 동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 바싹 졸라 메다. 사전의 tie·fasten·tighten과 안전벨트·허리띠를 조여 매는 예문이 일치한다. 문을 닫는 閉める와 구별한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_58",
+        "sourceHash": "b71494c8d87b9e31fd2416c6856e8a1cfae007f649ee032e2a586c6752c37cd2",
+        "proposalHash": "6b1142cad2360573be8fd1f7aca6c355d4f9227bff4b9410573e3ecaa0d6acdf",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-002 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:27:34.554Z",
+        "notes": [
+          "안전벨트·띠를 매는 의미로 閉める와 구별되며 바싹이라는 필수 강도 한정은 완화가 필요하다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_58",
+        "sourceHash": "b71494c8d87b9e31fd2416c6856e8a1cfae007f649ee032e2a586c6752c37cd2",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:17:58.506Z",
+        "notes": [
+          "원본 바싹 졸라 메다는 일반 착용보다 강한 한정이며 매다의 표기도 수정이 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_58",
+        "sourceHash": "06ee1cf536e29a3a72d4ff5004c1895cd8aa512fe6c8bf1a6ce23b2d31b7f225",
+        "level": "N5",
+        "dictionaryId": "jmdict-1436570",
+        "levelNote": "벨트·띠를 매어 조이는 기초 착용 동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 조여 매다·매다 및 1개 용법(조여 매다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 띠와 안전띠를 매는 뜻을 유지하며 한국어 표현만 바로잡았다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_58",
+        "sourceHash": "06ee1cf536e29a3a72d4ff5004c1895cd8aa512fe6c8bf1a6ce23b2d31b7f225",
+        "proposalHash": "a885dcf50418ba7187b75334463de748dee7665b0bb5be0bcfac97b3c0223f87",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 띠와 안전띠를 매는 뜻을 유지하며 한국어 표현만 바로잡았다.",
+          "현재 N5 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_58",
+        "level": "N5",
+        "sourceHash": "06ee1cf536e29a3a72d4ff5004c1895cd8aa512fe6c8bf1a6ce23b2d31b7f225",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 띠와 안전띠를 매는 뜻을 유지하며 한국어 표현만 바로잡았다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N5 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_99",
+      "batch": "004",
+      "previousProposal": {
+        "wordId": "JLPTN3_99",
+        "sourceHash": "4596db0b9b8fbee89f4a12828b873940994f65ed56b7847a9b02844b7ca8b005",
+        "level": "N3",
+        "dictionaryId": "jmdict-1550830",
+        "levelNote": "두 대상을 떨어지게 하거나 접촉을 끊는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 떼다, 놓치다. 사전의 separate·keep apart와 냄비에서 손을 떼기·의자를 떨어뜨려 놓기가 대응한다. 원본 놓치다는 의도적 분리와 뜻이 다를 수 있어 문맥 제한이 필요하다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "기존 놓치다는 무의식적으로 잃거나 놓치는 뜻으로 오해될 수 있다. 떼다·분리하다와 접촉을 끊다의 범위로 번역 재검토가 필요하다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_99",
+        "sourceHash": "4596db0b9b8fbee89f4a12828b873940994f65ed56b7847a9b02844b7ca8b005",
+        "proposalHash": "690c1f8dcddfeb07dcb95fb8d1f26bf4a79ffbd1fe5a7187ab060f093f0ae5fe",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-004 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:42:03.232Z",
+        "notes": [
+          "분리·접촉 해제는 맞으나 원뜻의 놓치다는 의도성·문맥에 따른 보완이 필요하다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_99",
+        "level": "N3",
+        "sourceHash": "4596db0b9b8fbee89f4a12828b873940994f65ed56b7847a9b02844b7ca8b005",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:22:50.371Z",
+        "notes": [
+          "원본 뜻의 놓치다는 실수로 놓침까지 넓혀 離す의 대표 의미와 불일치할 수 있어 뜻 정정을 먼저 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_99",
+        "sourceHash": "3510208b82a8b31fafb8d62b106ba5939347d25ccd56303dbd403d4ac959a70c",
+        "level": "N3",
+        "dictionaryId": "jmdict-1550830",
+        "levelNote": "두 대상을 떨어지게 하거나 접촉을 끊는 동사이며 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 떼다·떨어뜨려 놓다·손을 놓다 및 1개 용법(떨어지게 떼다)의 사전 대응과 모든 예문을 다시 확인했다. 떼어 놓거나 손을 놓는 기존 예문에 맞춰 놓치다라는 부정확한 대표 뜻을 정정했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_99",
+        "sourceHash": "3510208b82a8b31fafb8d62b106ba5939347d25ccd56303dbd403d4ac959a70c",
+        "proposalHash": "23bc852fc521167261ce9b0ba0bf264ad8c5f5eb70975fecac3488d0699470c4",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "떼어 놓거나 손을 놓는 기존 예문에 맞춰 놓치다라는 부정확한 대표 뜻을 정정했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_99",
+        "level": "N3",
+        "sourceHash": "3510208b82a8b31fafb8d62b106ba5939347d25ccd56303dbd403d4ac959a70c",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "떼어 놓거나 손을 놓는 기존 예문에 맞춰 놓치다라는 부정확한 대표 뜻을 정정했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_125",
+      "batch": "005",
+      "previousProposal": {
+        "wordId": "JLPTN3_125",
+        "sourceHash": "3bfa23c463667e2c8f5c9d8f046a96bab348a4b5c7e002911ba8906f5f574177",
+        "level": "N2",
+        "dictionaryId": "jmdict-1266280",
+        "levelNote": "집단에 행동을 권하고 참여를 촉구하는 복합 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 호소하다, 부르다. 사전의 appeal to public·urge와 절수·참여를 촉구하는 예문이 대응한다. 특정인을 소리 내어 부르는 의미는 별도이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_125",
+        "sourceHash": "3bfa23c463667e2c8f5c9d8f046a96bab348a4b5c7e002911ba8906f5f574177",
+        "proposalHash": "487884129ce9fedac509cb337d8d99f9692651f00a2123273cbe715efd2181af",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-005.json",
+        "reviewedAt": "2026-09-30T04:01:07.686Z",
+        "notes": [
+          "대중에게 참여를 촉구하는 용법의 N2 배정을 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_125",
+        "level": "N2",
+        "sourceHash": "3bfa23c463667e2c8f5c9d8f046a96bab348a4b5c7e002911ba8906f5f574177",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:22:50.372Z",
+        "notes": [
+          "원본의 부르다와 현재 호소하다 용법은 중요한 별도 쓰임으로, 독립 용법 범위를 먼저 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_125",
+        "sourceHash": "3f5b4a0ecbfc4d5694dc71f68f3cc9bd2ec7652d81d953b89a7d05c0a211cdc3",
+        "level": "N2",
+        "dictionaryId": "jmdict-1266280",
+        "levelNote": "집단에 행동을 권하고 참여를 촉구하는 복합 동사이며 OpenJLPT N2 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 호소하다, 부르다 및 2개 용법(호소하다; 사람에게 소리 내어 말을 걸다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_125",
+        "sourceHash": "3f5b4a0ecbfc4d5694dc71f68f3cc9bd2ec7652d81d953b89a7d05c0a211cdc3",
+        "proposalHash": "afdeeb2695499c0402a9b9c1a31acfb554c603900ebea52d703e9663c6f615a0",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다.",
+          "현재 N2 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_125",
+        "level": "N2",
+        "sourceHash": "3f5b4a0ecbfc4d5694dc71f68f3cc9bd2ec7652d81d953b89a7d05c0a211cdc3",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 대중에게 호소하기를 유지하고 개인에게 소리 내어 말 걸기를 별도 추가했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N2 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_130",
+      "batch": "005",
+      "previousProposal": {
+        "wordId": "JLPTN3_130",
+        "sourceHash": "7c2b530e2367ce9adff18b863425c76097989d5ced07ab1f49986b9092eef5ed",
+        "level": "N5",
+        "dictionaryId": "jmdict-1213400",
+        "levelNote": "음식의 단맛을 나타내는 기초 형용사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: (맛이) 달다, 기준이 느슨하다. 사전의 sweet tasting와 복숭아·음식이 달다는 예문이 일치한다. 기준이 느슨하다는 사전의 lenient·loose에 해당하지만 현재 대표 예문에서는 다루지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_130",
+        "sourceHash": "7c2b530e2367ce9adff18b863425c76097989d5ced07ab1f49986b9092eef5ed",
+        "proposalHash": "152a069d7bbc4a7df089606ffa62fcc5664b438d5d5b02d09b9fe48656630232",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-005.json",
+        "reviewedAt": "2026-09-30T04:01:07.686Z",
+        "notes": [
+          "단맛이라는 대표 의미에 N5를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_130",
+        "level": "N5",
+        "sourceHash": "7c2b530e2367ce9adff18b863425c76097989d5ced07ab1f49986b9092eef5ed",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:25:50.996Z",
+        "notes": [
+          "원본의 단맛과 기준이 느슨함 중 후자는 현재 용법에 없어 중요한 별도 의미의 처리부터 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_130",
+        "sourceHash": "b663393e9260125ee7fe62bc9504a96da55e59afe3b0e0fbe4be52cdb4a23918",
+        "level": "N5",
+        "dictionaryId": "jmdict-1213400",
+        "levelNote": "기초 대표 용법의 OpenJLPT N5 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+        "meaningReview": "현재 대표 뜻 (맛이) 달다, 기준이 느슨하다 및 2개 용법(맛이 달다; 판단이나 기준이 엄격하지 않다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_130",
+        "sourceHash": "b663393e9260125ee7fe62bc9504a96da55e59afe3b0e0fbe4be52cdb4a23918",
+        "proposalHash": "ceb11485296127979c85af145765bdc6f4eecffdc643b2233cb201eda2e6df63",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다.",
+          "현재 N5 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_130",
+        "level": "N5",
+        "sourceHash": "b663393e9260125ee7fe62bc9504a96da55e59afe3b0e0fbe4be52cdb4a23918",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 단맛은 불변이며 심사 기준이 느슨한 뜻을 새 용법으로 분리했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N5 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_132",
+      "batch": "005",
+      "previousProposal": {
+        "wordId": "JLPTN3_132",
+        "sourceHash": "ffd2d743102156158aa41d8c2373be88fb898632b4326f337409fd4a0fcd8715",
+        "level": "N5",
+        "dictionaryId": "jmdict-1475480",
+        "levelNote": "물체의 두께가 작은 기초 형용사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: (두께가) 얇다, (맛·색이) 연하다. 사전의 thin of an object와 종이·수건이 얇다는 예문이 일치한다. 색·맛이 연하다는 별도 사전 의미이며 현재 예문은 두께이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_132",
+        "sourceHash": "ffd2d743102156158aa41d8c2373be88fb898632b4326f337409fd4a0fcd8715",
+        "proposalHash": "d6da4ac621f03abff2d8c729a49d73a90897d29111ff4f9ca525cb841ba0df55",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-005.json",
+        "reviewedAt": "2026-09-30T04:01:07.686Z",
+        "notes": [
+          "평평한 물체의 두께가 얇은 기본 의미에 N5를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_132",
+        "level": "N5",
+        "sourceHash": "ffd2d743102156158aa41d8c2373be88fb898632b4326f337409fd4a0fcd8715",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:25:50.999Z",
+        "notes": [
+          "원본의 얇음과 맛·색이 연함 중 후자는 현재 용법에 없어 의미 분리 또는 범위 정정을 먼저 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_132",
+        "sourceHash": "2ee4935ab03554f7cfd0d84282e3c686197d4ac1a0a3a09bf09a6f9973ab1036",
+        "level": "N5",
+        "dictionaryId": "jmdict-1475480",
+        "levelNote": "기초 대표 용법의 OpenJLPT N5 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+        "meaningReview": "현재 대표 뜻 (두께가) 얇다, (맛·색이) 연하다 및 3개 용법(두께가 얇다; 맛이 연하다; 색이 연하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_132",
+        "sourceHash": "2ee4935ab03554f7cfd0d84282e3c686197d4ac1a0a3a09bf09a6f9973ab1036",
+        "proposalHash": "705a5898fcb87d1e2f851ea6fc706e5e541b5d31ca8ff26602b01a912e840c6b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다.",
+          "현재 N5 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_132",
+        "level": "N5",
+        "sourceHash": "2ee4935ab03554f7cfd0d84282e3c686197d4ac1a0a3a09bf09a6f9973ab1036",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 두께가 얇음을 유지하고 맛과 색이 연함을 각각 새 용법으로 분리했다.",
+          "최종 원본의 읽기·품사·전체 3개 용법과 4개 예문·번역·힌트·대비 및 N5 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_140",
+      "batch": "005",
+      "previousProposal": {
+        "wordId": "JLPTN3_140",
+        "sourceHash": "952b8b010117ec34ebd4f998ba7b656f4216052411a7139649698df433ffc32b",
+        "level": "N5",
+        "dictionaryId": "jmdict-1154330",
+        "levelNote": "빛이 부족한 물리적 어둠의 기초 형용사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: (빛·분위기가) 어둡다. 사전의 dark·murky와 복도·방이 어두운 예문이 일치한다. 분위기·기분의 침울함은 현재 대표 예문에 없다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_140",
+        "sourceHash": "952b8b010117ec34ebd4f998ba7b656f4216052411a7139649698df433ffc32b",
+        "proposalHash": "6222f1e6e5abc272d1e63d43c9722afd763e94326cba7ee630155ad64da36c8b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-005.json",
+        "reviewedAt": "2026-09-30T04:01:07.686Z",
+        "notes": [
+          "물리적 빛 부족 의미에 N5를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_140",
+        "level": "N5",
+        "sourceHash": "952b8b010117ec34ebd4f998ba7b656f4216052411a7139649698df433ffc32b",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:25:51.005Z",
+        "notes": [
+          "원본은 빛·분위기의 어둠을 함께 적었으나 현재 용법은 물리적 어둠뿐이므로 분위기 의미 처리부터 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_140",
+        "sourceHash": "05eb65e796fd02420e48c1e51f1d4fa5be90c4630c0828be78d498230e75c874",
+        "level": "N5",
+        "dictionaryId": "jmdict-1154330",
+        "levelNote": "기초 대표 용법의 OpenJLPT N5 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+        "meaningReview": "현재 대표 뜻 (빛·분위기가) 어둡다 및 2개 용법(어둡다; 기분이나 분위기가 침울하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_140",
+        "sourceHash": "05eb65e796fd02420e48c1e51f1d4fa5be90c4630c0828be78d498230e75c874",
+        "proposalHash": "90072139009fffd0c20a887d60a8fc03aab9c17007b3e0f36bec6eb734a65eb1",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다.",
+          "현재 N5 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_140",
+        "level": "N5",
+        "sourceHash": "05eb65e796fd02420e48c1e51f1d4fa5be90c4630c0828be78d498230e75c874",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 빛이 부족함을 유지하고 침울한 표정의 뜻을 별도 추가했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N5 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_142",
+      "batch": "005",
+      "previousProposal": {
+        "wordId": "JLPTN3_142",
+        "sourceHash": "5c4c34c35ffd587f4f020b8ca235d8ed046c0e08c681f0701afc44c5e3719ca9",
+        "level": "N3",
+        "dictionaryId": "jmdict-1351730",
+        "levelNote": "정보가 상세하거나 사람이 잘 아는 상태를 나타내는 형용사이며 OpenJLPT N3 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 자세하다, 상세하다, 잘 알고 있다. 사전의 detailed와 길 안내·설명이 자세한 예문이 일치한다. 사람이 특정 분야에 정통하다는 별도 용법은 현재 예문에 없다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_142",
+        "sourceHash": "5c4c34c35ffd587f4f020b8ca235d8ed046c0e08c681f0701afc44c5e3719ca9",
+        "proposalHash": "50c29919975c7c3fee8389d40cbfb499af8679f6c8cbdbefa3444a018134bd41",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-005.json",
+        "reviewedAt": "2026-09-30T04:01:07.686Z",
+        "notes": [
+          "상세한 내용이라는 대표 용법에 N3를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_142",
+        "level": "N3",
+        "sourceHash": "5c4c34c35ffd587f4f020b8ca235d8ed046c0e08c681f0701afc44c5e3719ca9",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:28:19.644Z",
+        "notes": [
+          "원본의 잘 알고 있다가 현재 상세한 정보 용법과 구분되는 중요 의미여서 내용 범위 결정을 먼저 해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_142",
+        "sourceHash": "f25c025a53bbd0f4db7d1a04d8d37e1e286fb030116284d8ca1554ea64ee5066",
+        "level": "N3",
+        "dictionaryId": "jmdict-1351730",
+        "levelNote": "정보가 상세하거나 사람이 잘 아는 상태를 나타내는 형용사이며 OpenJLPT N3 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 자세하다, 상세하다, 잘 알고 있다 및 2개 용법(내용이 자세하다; 어떤 분야나 사정을 잘 알다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_142",
+        "sourceHash": "f25c025a53bbd0f4db7d1a04d8d37e1e286fb030116284d8ca1554ea64ee5066",
+        "proposalHash": "3ade41cd5d482c131723ed0135ac4fe63b1810f7dc147f7160208c61eb7b468d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_142",
+        "level": "N3",
+        "sourceHash": "f25c025a53bbd0f4db7d1a04d8d37e1e286fb030116284d8ca1554ea64ee5066",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 상세함을 유지하고 분야를 잘 아는 뜻을 추가했다. 見てもらった의 실제 도움을 받은 완료 상황에 맞춰 번역을 정정했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_144",
+      "batch": "005",
+      "previousProposal": {
+        "wordId": "JLPTN3_144",
+        "sourceHash": "487e095602a5bde7865ce94e84da7e257e32861ec8153501360a6302f6de182e",
+        "level": "N4",
+        "dictionaryId": "jmdict-1295530",
+        "levelNote": "입자·조각이 잘고 작은 구체적 형용사이며 OpenJLPT N4 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 잘다, 작다, 세세하다. 사전의 small·fine·minute와 모래알·잘게 썬 당근의 예문이 일치한다. 세심함·세부 사항의 파생 용법은 현재 대표 예문에 없다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본의 나열 뜻 중 현재 대표 예문에 없는 파생 의미는 독립 학습 용법·난도 보강 여부를 검토해야 한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_144",
+        "sourceHash": "487e095602a5bde7865ce94e84da7e257e32861ec8153501360a6302f6de182e",
+        "proposalHash": "f5d23c2a10fc1673b55715fd61d0a21c941866c20a558a1cfa9fa7bfc1feb645",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-005.json",
+        "reviewedAt": "2026-09-30T04:01:07.686Z",
+        "notes": [
+          "잘고 작은 입자·조각의 기본 뜻에 N4를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_144",
+        "level": "N4",
+        "sourceHash": "487e095602a5bde7865ce94e84da7e257e32861ec8153501360a6302f6de182e",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:28:19.646Z",
+        "notes": [
+          "원본의 세세하다가 현재 입자·조각의 작은 크기 용법과 구분되어 독립 용법이나 범위 정정을 먼저 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_144",
+        "sourceHash": "2c17e61cb2aaf5a5d4aa4a480151f4c49acfbbfacdbbf4c58b0263ec1180c1b9",
+        "level": "N4",
+        "dictionaryId": "jmdict-1295530",
+        "levelNote": "기초 대표 용법의 OpenJLPT N4 근거를 유지한다. 추가된 파생 뜻은 독립 용법으로 구분하며 모든 뜻을 기초 난도로 동일시하지 않는다. 비공식 편집 권장 수준이다.",
+        "meaningReview": "현재 대표 뜻 잘다, 작다, 세세하다 및 2개 용법(잘고 작다; 내용이나 사항이 세세하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_144",
+        "sourceHash": "2c17e61cb2aaf5a5d4aa4a480151f4c49acfbbfacdbbf4c58b0263ec1180c1b9",
+        "proposalHash": "44aa02730629325426c75cc819537032414d8e04513470b9d30c0241325abc94",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다.",
+          "현재 N4 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_144",
+        "level": "N4",
+        "sourceHash": "2c17e61cb2aaf5a5d4aa4a480151f4c49acfbbfacdbbf4c58b0263ec1180c1b9",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 작은 입자·조각 뜻을 유지하고 조건이 세세함을 별도 추가했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N4 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_154",
+      "batch": "006",
+      "previousProposal": {
+        "wordId": "JLPTN3_154",
+        "sourceHash": "a5ef39ff97f35febb9ccb4416920b0993de76ac57bc22f3387594f40b3d9280d",
+        "level": "N2",
+        "dictionaryId": "jmdict-1214410",
+        "levelNote": "끈·뚜껑의 조임이 느슨한 상태와 여러 파생 뜻을 갖는 형용사로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 느슨하다, 엄하지 않다. 사전의 loose와 구두끈·병뚜껑이 느슨한 예문이 일치한다. 엄하지 않다는 lenient 용법은 현재 대표 예문에 없다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "원본 나열 뜻 중 현재 대표 예문에서 다루지 않은 파생 의미는 독립 용법 보강 여부를 검토해야 한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_154",
+        "sourceHash": "a5ef39ff97f35febb9ccb4416920b0993de76ac57bc22f3387594f40b3d9280d",
+        "proposalHash": "caff384579fb9de55799c9cc1ca9ace2b4e5422a0da87d02d8ed02a86a3b5270",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-006.json",
+        "reviewedAt": "2026-09-30T04:13:19.820Z",
+        "notes": [
+          "조임의 느슨함을 보여 주며 N2 연결을 수용하되 엄격성 용법 통합은 별도다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_154",
+        "level": "N2",
+        "sourceHash": "a5ef39ff97f35febb9ccb4416920b0993de76ac57bc22f3387594f40b3d9280d",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:28:59.366Z",
+        "notes": [
+          "원본의 엄하지 않다가 현재 조임이 느슨함과 구분되는 의미여서 용법 추가 또는 뜻 범위 정정을 먼저 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_154",
+        "sourceHash": "9789984449dccd7b3128a5886b54d0338b749e44fe83c1dbd51daacbba40fb69",
+        "level": "N2",
+        "dictionaryId": "jmdict-1214410",
+        "levelNote": "끈·뚜껑의 조임이 느슨한 상태와 여러 파생 뜻을 갖는 형용사로 고정 OpenJLPT N2 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 느슨하다, 엄하지 않다 및 2개 용법(조임이 느슨하다; 규칙이나 관리가 느슨하다)의 사전 대응과 모든 예문을 다시 확인했다. 기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_154",
+        "sourceHash": "9789984449dccd7b3128a5886b54d0338b749e44fe83c1dbd51daacbba40fb69",
+        "proposalHash": "a19d9876ec5e177a2ec97a130c33034b7e99b17dc4a866d9c26ba35132f2c8e1",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다.",
+          "현재 N2 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_154",
+        "level": "N2",
+        "sourceHash": "9789984449dccd7b3128a5886b54d0338b749e44fe83c1dbd51daacbba40fb69",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 물리적으로 느슨한 상태를 유지하고 관리·규칙의 느슨함을 추가했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N2 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_199",
+      "batch": "007",
+      "previousProposal": {
+        "wordId": "JLPTN3_199",
+        "sourceHash": "50b69a77a5047e5e268cdc850d32ea121139b9a6541ca614a3d07c36547e16e7",
+        "level": "N3",
+        "dictionaryId": "jmdict-1550410",
+        "levelNote": "앞면의 반대쪽 면을 나타내는 명사로 N3를 편집 제안한다. 고정 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 뒤쪽, 안쪽. 사전의 reverse side·back side와 사진·간판의 뒷면 예문이 일치한다. 기존 안쪽은 대상에 따라 뒤쪽 면과 다를 수 있어 주의가 필요하다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "고정 후보에 연결 등급이 없어 의미·사용 범위에 근거한 편집 제안이다. 별도 수준 대조가 필요하다.",
+          "기존 안쪽은 내부 공간으로 오해될 수 있다. 대표 예문은 뒷면이므로 뒤쪽·뒷면 중심의 뜻 범위 검토가 필요하다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_199",
+        "sourceHash": "50b69a77a5047e5e268cdc850d32ea121139b9a6541ca614a3d07c36547e16e7",
+        "proposalHash": "c596b7e3e35d664e0ec9b8ce15bf79676e800edad2391cc2b74d8e5816c61cd4",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-007.json",
+        "reviewedAt": "2026-09-30T04:15:30.542Z",
+        "notes": [
+          "뒷면이라는 실제 용법의 N3 편집 분류를 수용하되 원본 안쪽의 범위 정리는 별도다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_199",
+        "level": "N3",
+        "sourceHash": "50b69a77a5047e5e268cdc850d32ea121139b9a6541ca614a3d07c36547e16e7",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:33:18.430Z",
+        "notes": [
+          "원본 뜻의 안쪽은 내부 공간으로 오해될 수 있어 뒷면 중심의 뜻 정정을 먼저 결정해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_199",
+        "sourceHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+        "level": "N3",
+        "dictionaryId": "jmdict-1550410",
+        "levelNote": "앞면의 반대쪽 면을 나타내는 명사로 N3를 편집 제안한다. 고정 후보에는 연결 등급이 없다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 뒷면·뒤쪽 및 1개 용법(앞면의 반대쪽)의 사전 대응과 모든 예문을 다시 확인했다. 사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_199",
+        "sourceHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+        "proposalHash": "a152989187728547c67541b4defef71d7b9c1dd585275df8f02f346cdb2a7a98",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_199",
+        "level": "N3",
+        "sourceHash": "cd7d1afe8deebd00a475818df58ccf8f742f6e7404568386530ff598cc83c5c4",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "사진과 간판 뒷면이라는 기존 뜻을 유지하며 안쪽으로 한정한 대표 뜻을 정정했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_201",
+      "batch": "007",
+      "previousProposal": {
+        "wordId": "JLPTN3_201",
+        "sourceHash": "7a6f1598737e9617503dabd60403415b5d6b2c878c324be22383058d2caf0f2a",
+        "level": "N3",
+        "dictionaryId": "jmdict-1173990",
+        "levelNote": "음식이 몸에 제공하는 영양의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 영양. 사전의 nutrition·nourishment와 영양 균형·채소에서 영양을 얻는 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_201",
+        "sourceHash": "7a6f1598737e9617503dabd60403415b5d6b2c878c324be22383058d2caf0f2a",
+        "proposalHash": "417893c2eaf812b4a56553e2c8be67ef6b5136b1f6ce32588640b088cf96d6a8",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-007.json",
+        "reviewedAt": "2026-09-30T04:15:30.542Z",
+        "notes": [
+          "음식으로 얻는 영양 의미에 N3 분류를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_201",
+        "level": "N3",
+        "sourceHash": "7a6f1598737e9617503dabd60403415b5d6b2c878c324be22383058d2caf0f2a",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:33:18.432Z",
+        "notes": [
+          "뜻과 예문은 맞지만 힌트가 영양을 영양으로 반복 설명해 독립적인 회상 단서가 부족하므로 힌트 정정 검토가 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_201",
+        "sourceHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+        "level": "N3",
+        "dictionaryId": "jmdict-1173990",
+        "levelNote": "음식이 몸에 제공하는 영양의 명사로 OpenJLPT N3 근거와 일치한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "현재 대표 뜻 영양 및 1개 용법(영양)의 사전 대응과 모든 예문을 다시 확인했다. 영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_201",
+        "sourceHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+        "proposalHash": "0c098aa2df3a08f090758e62e3759091189f1ca35b9f5aebd6990a30a9b95299",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_201",
+        "level": "N3",
+        "sourceHash": "a5ca4e23bb5067f0787f4dc420a79fef14e21c60045c1794bbfe6c580f4925cd",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "영양이라는 기존 용법을 유지하고 정답을 반복하는 순환 힌트만 풀어 설명했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_214",
+      "batch": "008",
+      "previousProposal": {
+        "wordId": "JLPTN3_214",
+        "sourceHash": "6a50c970294dfbdcea0a3885fcbd5f7ddc928f7e44d13aecec2d12d1da002d2b",
+        "level": "N3",
+        "dictionaryId": "jmdict-1198430",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “회계, 계산” 및 1개 sense를 대조했다. 사전의 bill·settlement 의미와 따로 계산하기·계산을 끝내기 예문이 일치한다. 현재 sense는 회계 업무가 아니라 음식값 지불이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_214",
+        "sourceHash": "6a50c970294dfbdcea0a3885fcbd5f7ddc928f7e44d13aecec2d12d1da002d2b",
+        "proposalHash": "cfaf4bdcdf5759cd0105f8fe61d41dffb90dc3a3cad093b0f58e1b4e6b5ab50b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-008.json",
+        "reviewedAt": "2026-09-30T04:43:20.173Z",
+        "notes": [
+          "음식값 지불의 N3 분류는 타당하다. 원래 표제 뜻의 회계 업무는 별도 콘텐츠 검토 대상이다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_214",
+        "level": "N3",
+        "sourceHash": "6a50c970294dfbdcea0a3885fcbd5f7ddc928f7e44d13aecec2d12d1da002d2b",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:47:40.536Z",
+        "notes": [
+          "표제 뜻에 회계 업무가 포함되지만 현재 용법·예문은 음식값 계산뿐이므로 중요한 별도 의미의 처리부터 결정한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_214",
+        "sourceHash": "0034baf1858974c4965dd4b79e781102b14ec9ed7b4a40107f86504ed0be8639",
+        "level": "N3",
+        "dictionaryId": "jmdict-1198430",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 회계, 계산 및 2개 용법(음식값 등을 계산함; 수입과 지출을 기록하고 관리하는 회계)의 사전 대응과 모든 예문을 다시 확인했다. 기존 계산·지불 용법은 유지하며 수입·지출 관리 업무를 별도 용법으로 추가했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_214",
+        "sourceHash": "0034baf1858974c4965dd4b79e781102b14ec9ed7b4a40107f86504ed0be8639",
+        "proposalHash": "660def5d7eab1fdf4e1dd8f99f46ef35f9ea23c39489f864b9993c06c8e36745",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 계산·지불 용법은 유지하며 수입·지출 관리 업무를 별도 용법으로 추가했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_214",
+        "level": "N3",
+        "sourceHash": "0034baf1858974c4965dd4b79e781102b14ec9ed7b4a40107f86504ed0be8639",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 계산·지불 용법은 유지하며 수입·지출 관리 업무를 별도 용법으로 추가했다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_235",
+      "batch": "008",
+      "previousProposal": {
+        "wordId": "JLPTN3_235",
+        "sourceHash": "4260701646e4b3bfc33a34c8857a5be2ee27d8c5077ea81f992c780e515d849c",
+        "level": "N3",
+        "dictionaryId": "jmdict-1483800",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “껍질, 가죽” 및 1개 sense를 대조했다. rind·peel 의미와 포도·귤 껍질 예문이 일치한다. 표제어의 피부·가죽 범위는 사전 hide·pelt와도 대응하지만 현재 sense는 과일 껍질에 한정된다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_235",
+        "sourceHash": "4260701646e4b3bfc33a34c8857a5be2ee27d8c5077ea81f992c780e515d849c",
+        "proposalHash": "f4db2d67016951e2c20b4fe7d7f7b0e0e4905b49fd8632f2bcf4667fdc102247",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-008.json",
+        "reviewedAt": "2026-09-30T04:43:20.173Z",
+        "notes": [
+          "과일 껍질의 N3 분류가 타당하다. 표제 뜻의 가죽은 현재 예문 밖의 별도 범위다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_235",
+        "level": "N3",
+        "sourceHash": "4260701646e4b3bfc33a34c8857a5be2ee27d8c5077ea81f992c780e515d849c",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:47:40.555Z",
+        "notes": [
+          "표제 뜻의 가죽과 현재 과일 껍질 용법 사이에 범위 차이가 있어 별도 의미의 처리부터 결정한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_235",
+        "sourceHash": "dd3af2444834e3c3c635f88e5431866050e0636ecae37609f13ae21918ca754a",
+        "level": "N3",
+        "dictionaryId": "jmdict-1483800",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 껍질·피부·동물의 가죽 및 2개 용법(껍질; 동물의 몸을 덮는 피부나 가죽)의 사전 대응과 모든 예문을 다시 확인했다. 기존 과일 껍질은 유지하고 동물 피부를 새 용법으로 분리했다. 가공된 革와의 차이도 맞는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_235",
+        "sourceHash": "dd3af2444834e3c3c635f88e5431866050e0636ecae37609f13ae21918ca754a",
+        "proposalHash": "720f4e8fc43dcf5c9659e4181395ca13352b54df6a9b601cd8a36e629d09a032",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 과일 껍질은 유지하고 동물 피부를 새 용법으로 분리했다. 가공된 革와의 차이도 맞는다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_235",
+        "level": "N3",
+        "sourceHash": "dd3af2444834e3c3c635f88e5431866050e0636ecae37609f13ae21918ca754a",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 과일 껍질은 유지하고 동물 피부를 새 용법으로 분리했다. 가공된 革와의 차이도 맞는다.",
+          "최종 원본의 읽기·품사·전체 2개 용법과 3개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_244",
+      "batch": "009",
+      "previousProposal": {
+        "wordId": "JLPTN3_244",
+        "sourceHash": "921f0b366270d312721167a0c0c8287e111ccf72742c99084d6718b595ea0655",
+        "level": "N3",
+        "dictionaryId": "jmdict-1215870",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “관심” 및 1개 sense를 대조했다. interest·concern과 우주에 관심을 가짐·가격에 관심이 없다고 함 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_244",
+        "sourceHash": "921f0b366270d312721167a0c0c8287e111ccf72742c99084d6718b595ea0655",
+        "proposalHash": "579dfb14a50995faf4b039137b0f080194c95693a2094eea1420231970ff64f8",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-009.json",
+        "reviewedAt": "2026-09-30T04:44:29.621Z",
+        "notes": [
+          "대상에 마음을 두는 N3 의미가 맞다. 興味와 첫 예문의 장면 반복은 참조 게시 전 별도 검토한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_244",
+        "level": "N3",
+        "sourceHash": "921f0b366270d312721167a0c0c8287e111ccf72742c99084d6718b595ea0655",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:47:40.563Z",
+        "notes": [
+          "興味 첫 예문과 자녀가 최근 우주·별에 관심을 갖는 장면·문형이 겹쳐 원본 그대로 참조 승인은 보류한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_244",
+        "sourceHash": "d166e6fb292a1763999830dfa66d890e5144d7f233bb3d027611abcedb539d3c",
+        "level": "N3",
+        "dictionaryId": "jmdict-1215870",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 관심 및 1개 용법(관심)의 사전 대응과 모든 예문을 다시 확인했다. 관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_244",
+        "sourceHash": "d166e6fb292a1763999830dfa66d890e5144d7f233bb3d027611abcedb539d3c",
+        "proposalHash": "530792669c0de9730f635c511d0002de5b4cd4cdb7eee5a6c7a023077bdd45e2",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_244",
+        "level": "N3",
+        "sourceHash": "d166e6fb292a1763999830dfa66d890e5144d7f233bb3d027611abcedb539d3c",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "관심이라는 뜻은 유지하고 자녀의 천체 관심 장면을 주민의 수질 관심으로 바꿨다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_250",
+      "batch": "009",
+      "previousProposal": {
+        "wordId": "JLPTN3_250",
+        "sourceHash": "d3b7f44441449ec5b23806c2f7794323af5406fc19ee6e56323f0278aa0a83bd",
+        "level": "N3",
+        "dictionaryId": "jmdict-1580260",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “상처” 및 1개 sense를 대조했다. wound와 무릎 상처, scratch와 책상 표면의 흠집 예문이 각각 대응한다. 신체와 물건이라는 두 하위 용법을 같은 사전 항목이 포괄한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "현재 sense의 한국어 뜻 ‘상처’에 물체의 ‘흠집’ 용법도 명시하는 편집 보완 후보가 있다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_250",
+        "sourceHash": "d3b7f44441449ec5b23806c2f7794323af5406fc19ee6e56323f0278aa0a83bd",
+        "proposalHash": "7b156eb25abfaed99b7356a15f57ee054d6c6ddbd8d9710ead58270fef75a083",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-009.json",
+        "reviewedAt": "2026-09-30T04:44:29.621Z",
+        "notes": [
+          "신체 상처와 물체 흠집이 사전에서 확인되므로 N3 분류를 수용하되 현재 뜻의 범위 보완은 남긴다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_250",
+        "level": "N3",
+        "sourceHash": "d3b7f44441449ec5b23806c2f7794323af5406fc19ee6e56323f0278aa0a83bd",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:47:40.568Z",
+        "notes": [
+          "표제·용법 뜻은 상처뿐인데 두 번째 예문은 물체의 흠집이다. 뜻 범위를 명시하는 정정이 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_250",
+        "sourceHash": "5e1f91f27c51e8a3d78b5a1d7b07eef2f8083c290a9101720e915abb80fc205d",
+        "level": "N3",
+        "dictionaryId": "jmdict-1580260",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 상처·흠집 및 1개 용법(몸의 상처나 물체 표면의 흠집)의 사전 대응과 모든 예문을 다시 확인했다. 기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_250",
+        "sourceHash": "5e1f91f27c51e8a3d78b5a1d7b07eef2f8083c290a9101720e915abb80fc205d",
+        "proposalHash": "4b71cd00b2f89f1490d651b298424354fd2c3fda7c771183a7d747ff36021dbe",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_250",
+        "level": "N3",
+        "sourceHash": "5e1f91f27c51e8a3d78b5a1d7b07eef2f8083c290a9101720e915abb80fc205d",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 신체 상처와 책상 흠집 예문에 이미 포함된 손상 의미를 정의에 명시했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_263",
+      "batch": "009",
+      "previousProposal": {
+        "wordId": "JLPTN3_263",
+        "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+        "level": "N4",
+        "dictionaryId": "jmdict-1238410",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “흥미” 및 1개 sense를 대조했다. interest·curiosity와 별에 대한 흥미·공방을 보고 싶은 흥미 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_263",
+        "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+        "proposalHash": "4fece4fbafac1e769f5750cadb1a0e15442fe840029ec87bd1f967d8ec73ef95",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-009.json",
+        "reviewedAt": "2026-09-30T04:44:29.621Z",
+        "notes": [
+          "호기심의 N4 근거는 타당하다. 関心와 첫 예문의 장면 반복은 참조 게시 전 별도 검토한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_263",
+        "level": "N4",
+        "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T04:47:40.579Z",
+        "notes": [
+          "関心 첫 예문과 자녀가 최근 우주·별에 관심을 갖는 장면·문형이 겹쳐 교체할 쪽을 결정하기 전 보류한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_263",
+        "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+        "level": "N4",
+        "dictionaryId": "jmdict-1238410",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "현재 대표 뜻 흥미 및 1개 용법(흥미)의 사전 대응과 모든 예문을 다시 확인했다. 関心의 장면 교체로 반복이 해소되며 현재 흥미 용법과 예문은 그대로 타당하다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_263",
+        "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+        "proposalHash": "0df3229464de9c8dd65aa8140e06fe1ba92e8188fdeaf07b1eef08febbe963fa",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "関心의 장면 교체로 반복이 해소되며 현재 흥미 용법과 예문은 그대로 타당하다.",
+          "현재 N4 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_263",
+        "level": "N4",
+        "sourceHash": "c116d37bc1d4683ab49b9fdee7cf39b90e91e65f1c4800c55c7120a7ade54944",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "関心의 장면 교체로 반복이 해소되며 현재 흥미 용법과 예문은 그대로 타당하다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N4 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_271",
+      "batch": "010",
+      "previousProposal": {
+        "wordId": "JLPTN3_271",
+        "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+        "level": "N2",
+        "dictionaryId": "jmdict-1244230",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+        "meaningReview": "기존 뜻 “구분” 및 1개 sense를 대조했다. classification·sorting와 쓰레기 분류 체계·연령에 따른 집단 구분 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_271",
+        "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+        "proposalHash": "59993aa46c54d309a45eb564684481beb7c8d1a8a33ed3d99ac8f2761dd63857",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-010.json",
+        "reviewedAt": "2026-09-30T04:48:53.534Z",
+        "notes": [
+          "쓰레기·연령별 분류의 N2 뜻이 맞다. 区別와 쓰레기 분류가 이전 동네와 다르다는 장면 반복은 후속 처리한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_271",
+        "level": "N2",
+        "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T05:01:38.866Z",
+        "notes": [
+          "区別 예문과 이전 동네의 쓰레기 분류가 다르다는 장면·문형이 겹친다. 교체할 쪽을 정한 뒤 재검토한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_271",
+        "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+        "level": "N2",
+        "dictionaryId": "jmdict-1244230",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+        "meaningReview": "현재 대표 뜻 구분 및 1개 용법(구분)의 사전 대응과 모든 예문을 다시 확인했다. 区別의 장면 교체로 쓰레기 분류 반복이 해소되며 현재 분류 용법은 유지한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_271",
+        "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+        "proposalHash": "d9d373442f715af04afe41733ff9af1c4a6cd902b1629b6d8b782263b55bc7ce",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "区別의 장면 교체로 쓰레기 분류 반복이 해소되며 현재 분류 용법은 유지한다.",
+          "현재 N2 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_271",
+        "level": "N2",
+        "sourceHash": "11862b0257529d1d4e934d6104f325d637559fe5dcaaf2dddfe3c0f586fa79c5",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "区別의 장면 교체로 쓰레기 분류 반복이 해소되며 현재 분류 용법은 유지한다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N2 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_272",
+      "batch": "010",
+      "previousProposal": {
+        "wordId": "JLPTN3_272",
+        "sourceHash": "2e2b7f13e90b39fc8e7a011c1cb80d534e1b4f915009473b2e0d08e95f96bec6",
+        "level": "N3",
+        "dictionaryId": "jmdict-1244250",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “구별” 및 1개 sense를 대조했다. distinction·differentiation와 쌍둥이 목소리 식별·쓰레기 종류 구별 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_272",
+        "sourceHash": "2e2b7f13e90b39fc8e7a011c1cb80d534e1b4f915009473b2e0d08e95f96bec6",
+        "proposalHash": "21c440ba90c7ef8e871d44be61f1ba3cf4417c0ae4d6f4d9760a405e5d6e7a31",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-010.json",
+        "reviewedAt": "2026-09-30T04:48:53.534Z",
+        "notes": [
+          "목소리·쓰레기 종류 식별의 N3 뜻이 맞다. 区分와 둘째 예문의 장면 반복은 후속 처리한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_272",
+        "level": "N3",
+        "sourceHash": "2e2b7f13e90b39fc8e7a011c1cb80d534e1b4f915009473b2e0d08e95f96bec6",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T05:01:38.869Z",
+        "notes": [
+          "区分 예문과 이전 동네의 쓰레기 분류가 다르다는 장면·문형이 겹친다. 교체할 쪽을 정한 뒤 재검토한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_272",
+        "sourceHash": "a70722f50f2dac2dc9be8a761547028d529f2b8db52dbfcaad29f77920682809",
+        "level": "N3",
+        "dictionaryId": "jmdict-1244250",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 구별 및 1개 용법(구별)의 사전 대응과 모든 예문을 다시 확인했다. 차이를 알아보는 핵심 뜻은 유지하며 두 약의 봉투 색 식별로 장면을 변경했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_272",
+        "sourceHash": "a70722f50f2dac2dc9be8a761547028d529f2b8db52dbfcaad29f77920682809",
+        "proposalHash": "fb40e288f70c5a87dc45be57f3df86ae3c00edcdb4b5cf218318d518560c78c8",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "차이를 알아보는 핵심 뜻은 유지하며 두 약의 봉투 색 식별로 장면을 변경했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_272",
+        "level": "N3",
+        "sourceHash": "a70722f50f2dac2dc9be8a761547028d529f2b8db52dbfcaad29f77920682809",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "차이를 알아보는 핵심 뜻은 유지하며 두 약의 봉투 색 식별로 장면을 변경했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_280",
+      "batch": "010",
+      "previousProposal": {
+        "wordId": "JLPTN3_280",
+        "sourceHash": "554ceece46055fcbc790e6ced821505ec41c41fe03991ab23eb0855ad3377d61",
+        "level": "N2",
+        "dictionaryId": "jmdict-1203380",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+        "meaningReview": "기존 뜻 “외과” 및 1개 sense를 대조했다. department of surgery와 외과 안내·외과 의사 직업 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "첫 예문의 二階를 번역한 ‘이 층’은 지시어로도 읽힐 수 있으므로 숫자 ‘2층’으로 명시하는 편집 후보이다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_280",
+        "sourceHash": "554ceece46055fcbc790e6ced821505ec41c41fe03991ab23eb0855ad3377d61",
+        "proposalHash": "0dbf08a48a865af5a85eaa651ed62102e4b78509adb59c9cd859454407a3c431",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-010.json",
+        "reviewedAt": "2026-09-30T04:48:53.534Z",
+        "notes": [
+          "수술 진료과의 N2 분류는 타당하나 二階의 한국어 이 층은 2층으로 명료화할 후속 사항이다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_280",
+        "level": "N2",
+        "sourceHash": "554ceece46055fcbc790e6ced821505ec41c41fe03991ab23eb0855ad3377d61",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T05:01:38.877Z",
+        "notes": [
+          "二階 번역이 이 층으로 되어 있어 지시 표현으로 오해된다. 2층으로 명료화한 뒤 재검토한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_280",
+        "sourceHash": "a4b086dd75234ac4e0b739e64559d8c70cd55bf3b293ca0e58655cb886e38fdb",
+        "level": "N2",
+        "dictionaryId": "jmdict-1203380",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+        "meaningReview": "현재 대표 뜻 외과 및 1개 용법(외과)의 사전 대응과 모든 예문을 다시 확인했다. 외과 용법과 일본어는 유지하고 二階를 2층으로 명확히 번역했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_280",
+        "sourceHash": "a4b086dd75234ac4e0b739e64559d8c70cd55bf3b293ca0e58655cb886e38fdb",
+        "proposalHash": "406bb4447ab4bad8ce49b13c918b4efa07b4a19d4ed354158fa48eba768795f7",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "외과 용법과 일본어는 유지하고 二階를 2층으로 명확히 번역했다.",
+          "현재 N2 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_280",
+        "level": "N2",
+        "sourceHash": "a4b086dd75234ac4e0b739e64559d8c70cd55bf3b293ca0e58655cb886e38fdb",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "외과 용법과 일본어는 유지하고 二階를 2층으로 명확히 번역했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N2 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_292",
+      "batch": "010",
+      "previousProposal": {
+        "wordId": "JLPTN3_292",
+        "sourceHash": "6a98b7085d76042ca38890dc8137d2461fe4a8d8c0fa8a18725a6e4b96db7686",
+        "level": "N1",
+        "dictionaryId": "jmdict-1263210",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "기존 뜻 “감소” 및 1개 sense를 대조했다. decrease·reduction와 이용자 감소·쓰레기 감소 예문이 일치한다. 제공 출처의 N1 근거에 따라 기존 N3 단어장 위치와 별개로 N1을 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_292",
+        "sourceHash": "6a98b7085d76042ca38890dc8137d2461fe4a8d8c0fa8a18725a6e4b96db7686",
+        "proposalHash": "9a957c45d30e99a983b1589d77415a26414a88535cead687017c46539c347342",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-010.json",
+        "reviewedAt": "2026-09-30T04:48:53.534Z",
+        "notes": [
+          "수량 감소의 고정 N1 연결을 수용한다. 버스 三本은 운행 횟수이므로 한국어 세 대 표현은 참조 전 명료화한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_292",
+        "level": "N1",
+        "sourceHash": "6a98b7085d76042ca38890dc8137d2461fe4a8d8c0fa8a18725a6e4b96db7686",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T05:01:38.890Z",
+        "notes": [
+          "버스가 하루 三本이라는 운행 횟수를 세 대로 옮겼다. 하루 세 번으로 명료화해야 한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_292",
+        "sourceHash": "f2da07bcfde57eb09e3c556147b720894183cb06f28f585a58d8df18286fb947",
+        "level": "N1",
+        "dictionaryId": "jmdict-1263210",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "현재 대표 뜻 감소 및 1개 용법(감소)의 사전 대응과 모든 예문을 다시 확인했다. 감소 용법과 일본어는 유지하고 하루 三本을 차량 대수가 아닌 운행 횟수로 번역했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_292",
+        "sourceHash": "f2da07bcfde57eb09e3c556147b720894183cb06f28f585a58d8df18286fb947",
+        "proposalHash": "5f40647c9e0f29b9e78e1f8ecb3a43cfdadcc4778bdb2ee6202716c08ed41bfa",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "감소 용법과 일본어는 유지하고 하루 三本을 차량 대수가 아닌 운행 횟수로 번역했다.",
+          "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_292",
+        "level": "N1",
+        "sourceHash": "f2da07bcfde57eb09e3c556147b720894183cb06f28f585a58d8df18286fb947",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "감소 용법과 일본어는 유지하고 하루 三本을 차량 대수가 아닌 운행 횟수로 번역했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N1 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_335",
+      "batch": "012",
+      "previousProposal": {
+        "wordId": "JLPTN3_335",
+        "sourceHash": "2ca84332919b7298729d6491a39f2bc28721137e51e17bcbe63323c43df2f542",
+        "level": "N1",
+        "dictionaryId": "jmdict-1421060",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "기존 뜻 “출신 지역, 고장, 현지” 및 1개 sense를 대조했다. local·home town와 현지인의 식당·귀향한 자기 고장 상점가 예문이 대응한다. 제공 N1 출처에 따른 제안이며 현재 sense는 현지와 자기 고장을 모두 포함한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_335",
+        "sourceHash": "2ca84332919b7298729d6491a39f2bc28721137e51e17bcbe63323c43df2f542",
+        "proposalHash": "8fcea9a945a289e96d0055877dec1e60ea35a86ae4b233f4e781d3c9cc1e737d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-012.json",
+        "reviewedAt": "2026-09-30T04:56:55.518Z",
+        "notes": [
+          "현지·자기 고장의 의미와 N1 근거는 맞다. 첫 예문의 관광지와 식당 비교는 참조 게시 전 명료화가 필요하다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_335",
+        "level": "N1",
+        "sourceHash": "2ca84332919b7298729d6491a39f2bc28721137e51e17bcbe63323c43df2f542",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T05:01:38.932Z",
+        "notes": [
+          "첫 예문에서 관광지와 현지인이 가는 식당을 직접 비교한다. 관광객 대상 식당 등 비교 대상을 맞추는 명료화가 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_335",
+        "sourceHash": "2cc389618dd47d79f405aadcc0ed42415797fd84634b301a42c447fc35d34e44",
+        "level": "N1",
+        "dictionaryId": "jmdict-1421060",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "현재 대표 뜻 출신 지역, 고장, 현지 및 1개 용법(그 지역이나 자기 고장)의 사전 대응과 모든 예문을 다시 확인했다. 현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_335",
+        "sourceHash": "2cc389618dd47d79f405aadcc0ed42415797fd84634b301a42c447fc35d34e44",
+        "proposalHash": "6d585baec371f5fe3146441812fca540c041426904c765a3996e9d70045e8908",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다.",
+          "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_335",
+        "level": "N1",
+        "sourceHash": "2cc389618dd47d79f405aadcc0ed42415797fd84634b301a42c447fc35d34e44",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "현지·자기 고장 뜻은 유지하며 가게와 식당을 비교하도록 문장의 대상을 맞췄다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N1 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_361",
+      "batch": "013",
+      "previousProposal": {
+        "wordId": "JLPTN3_361",
+        "sourceHash": "e1127d00ebe6047ba259f2594096097ba2aea6070229c94a2f3eb35a1bd5a900",
+        "level": "N2",
+        "dictionaryId": "jmdict-1358430",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+        "meaningReview": "기존 뜻 “식기” 및 1개 sense를 대조했다. tableware와 이사 포장·사용 후 반납 예문이 일치한다. 조리 도구는 포함하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_361",
+        "sourceHash": "e1127d00ebe6047ba259f2594096097ba2aea6070229c94a2f3eb35a1bd5a900",
+        "proposalHash": "cbf19d120d61182229bf632ae603baaa6edf17a5433060d5d783f97c0837c811",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-013.json",
+        "reviewedAt": "2026-09-30T05:22:39.650Z",
+        "notes": [
+          "식기 포장·반납의 N2 명사 분류는 타당하나 그릇만으로 좁힌 힌트는 참조 게시 전 재검토 대상이다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_361",
+        "level": "N2",
+        "sourceHash": "e1127d00ebe6047ba259f2594096097ba2aea6070229c94a2f3eb35a1bd5a900",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "食器의 뜻은 식기 전체이나 힌트와 대비가 그릇만으로 한정한다. 식사용 도구까지 포함하는 범위 명료화 후 참조를 다시 판단한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_361",
+        "sourceHash": "6b08ad8eb13aa7e22edd16543fe209d458157f7362cdb3f04eef57783a0b2809",
+        "level": "N2",
+        "dictionaryId": "jmdict-1358430",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+        "meaningReview": "현재 대표 뜻 식기 및 1개 용법(식기)의 사전 대응과 모든 예문을 다시 확인했다. 기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_361",
+        "sourceHash": "6b08ad8eb13aa7e22edd16543fe209d458157f7362cdb3f04eef57783a0b2809",
+        "proposalHash": "2f61906cd7d788449fba2d6d222eabf68e8408a1a2951c01ee4d82c78ad4d873",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다.",
+          "현재 N2 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_361",
+        "level": "N2",
+        "sourceHash": "6b08ad8eb13aa7e22edd16543fe209d458157f7362cdb3f04eef57783a0b2809",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 식사용 도구의 뜻은 유지하며 힌트에 그릇뿐 아니라 수저를 포함했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N2 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_410",
+      "batch": "014",
+      "previousProposal": {
+        "wordId": "JLPTN3_410",
+        "sourceHash": "c04088949006cd97ab37b8fa891a8ce8ec423b23cae59033e070d1c355d79dbb",
+        "level": "N1",
+        "dictionaryId": "jmdict-1438340",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "기존 뜻 “천정” 및 1개 sense를 대조했다. ceiling과 전구 교체·높은 천장 예문이 일치한다. 가격 상한 의미는 선택하지 않는다. 기존 한국어 천정도 이해되지만 표준적인 천장으로 표기 정리를 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "한국어 뜻 표기를 천장으로 정리할 후보이다. 원본은 유지한다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_410",
+        "sourceHash": "c04088949006cd97ab37b8fa891a8ce8ec423b23cae59033e070d1c355d79dbb",
+        "proposalHash": "d1a7de7dce9496c3e802b81d5b1f35d7c4dc18dce4a33f69d7958177c2205e9d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-014.json",
+        "reviewedAt": "2026-09-30T05:23:49.876Z",
+        "notes": [
+          "실내 윗면의 N1 뜻과 예문은 맞으며 천정→천장 표기 정리 제안은 별도 편집 후보로 유지한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_410",
+        "level": "N1",
+        "sourceHash": "c04088949006cd97ab37b8fa891a8ce8ec423b23cae59033e070d1c355d79dbb",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "단어 대표뜻 천정과 용법·번역의 천장이 불일치한다. 방 위쪽 면의 표준 표현을 명료화하는 원본 개정이 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_410",
+        "sourceHash": "da3cfd85e7ee88ba1e3caa9b569d5fcee28eb000335803f99aa1ad96bb7fd43c",
+        "level": "N1",
+        "dictionaryId": "jmdict-1438340",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "현재 대표 뜻 천장 및 1개 용법(방 위쪽의 천장)의 사전 대응과 모든 예문을 다시 확인했다. 천장이라는 현재 용법과 예문을 유지하며 대표 뜻의 표기만 통일했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_410",
+        "sourceHash": "da3cfd85e7ee88ba1e3caa9b569d5fcee28eb000335803f99aa1ad96bb7fd43c",
+        "proposalHash": "12d615d7f13e9ba9c7e6b8752a72bfe4657c7d497c9a9a55ccaaa8c481644187",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "천장이라는 현재 용법과 예문을 유지하며 대표 뜻의 표기만 통일했다.",
+          "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_410",
+        "level": "N1",
+        "sourceHash": "da3cfd85e7ee88ba1e3caa9b569d5fcee28eb000335803f99aa1ad96bb7fd43c",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "천장이라는 현재 용법과 예문을 유지하며 대표 뜻의 표기만 통일했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N1 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_441",
+      "batch": "015",
+      "previousProposal": {
+        "wordId": "JLPTN3_441",
+        "sourceHash": "e8857354b943ad8358b491b5c63ef104ed8262be131818063d001ae2cc77ea68",
+        "level": "N3",
+        "dictionaryId": "jmdict-1483560",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “비교” 및 1개 sense를 대조했다. comparison와 두 계획 비용·작년 사진 대조 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_441",
+        "sourceHash": "e8857354b943ad8358b491b5c63ef104ed8262be131818063d001ae2cc77ea68",
+        "proposalHash": "6733bd82143553cc9963c7fb2e0a85940583a6a6145b541386c966f3d077de56",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-015.json",
+        "reviewedAt": "2026-09-30T05:30:55.375Z",
+        "notes": [
+          "比較의 현재 뜻·읽기·품사와 두 예문이 선택 사전 의미 및 N3 제안에 부합한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_441",
+        "level": "N3",
+        "sourceHash": "e8857354b943ad8358b491b5c63ef104ed8262be131818063d001ae2cc77ea68",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "작년과 비교하려 같은 위치에서 사진을 찍는 두 번째 예문이 変化의 계절 변화를 같은 장소에서 기록하는 장면과 겹친다. 어느 한쪽의 명시적 개정이 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_441",
+        "sourceHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+        "level": "N3",
+        "dictionaryId": "jmdict-1483560",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 비교 및 1개 용법(비교)의 사전 대응과 모든 예문을 다시 확인했다. 비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_441",
+        "sourceHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+        "proposalHash": "7fa45de105811abcc5d70e5fc34dec400385055a1224db8d74f24cd1e176ea8b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_441",
+        "level": "N3",
+        "sourceHash": "956ee96d1669b3a0575bd9dcdfcab94f431b4b5e733ec7f77207b4293f060eca",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "비교하는 뜻은 유지하며 계절 사진 반복을 상품의 무게·가격 표로 바꿨다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_444",
+      "batch": "015",
+      "previousProposal": {
+        "wordId": "JLPTN3_444",
+        "sourceHash": "015db91ada6d477380fa646364b4fc16137ca3d596a86e08d88b1143bf606179",
+        "level": "N3",
+        "dictionaryId": "jmdict-1489610",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “표시” 및 1개 sense를 대조했다. display·indication과 화면 시간·만석 표시 예문이 일치한다. 출처 등급은 없지만 일상 기기·시설 정보 표시 용법으로 N3를 편집 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_444",
+        "sourceHash": "015db91ada6d477380fa646364b4fc16137ca3d596a86e08d88b1143bf606179",
+        "proposalHash": "15cfe6043fdad3d9dec78d57fddfeb8019e0b50c9fa0c89e470a7bd95fe63ef7",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-015.json",
+        "reviewedAt": "2026-09-30T05:30:55.375Z",
+        "notes": [
+          "등급 근거가 없는 화면·안내 표시의 일상 명사를 N3로 편집 배정하는 데 동의한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_444",
+        "level": "N3",
+        "sourceHash": "015db91ada6d477380fa646364b4fc16137ca3d596a86e08d88b1143bf606179",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "화면 표시가 작아 시간을 읽지 못하는 장면이 文字의 작은 화면 글자 장면과 반복된다. 원본 개정 검토가 남아 있다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_444",
+        "sourceHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+        "level": "N3",
+        "dictionaryId": "jmdict-1489610",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 표시 및 1개 용법(표시)의 사전 대응과 모든 예문을 다시 확인했다. 눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_444",
+        "sourceHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+        "proposalHash": "453b70c902491616483ce7d21031f5e889cc5001158ba68e4bec43a66387e2ac",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_444",
+        "level": "N3",
+        "sourceHash": "d247a848e3e856b0d95dd9ed6272616e69ed10f2c0c330f1a94652cdfd0374ad",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "눈에 보이게 나타내는 뜻은 유지하고 온도계 표시 단위 변경으로 장면을 분리했다. 이해와 표시를 대립시킨 힌트도 정리했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_450",
+      "batch": "015",
+      "previousProposal": {
+        "wordId": "JLPTN3_450",
+        "sourceHash": "5f5c2610123d03c4a438c37836d178e36f08fb33b8e5adde985ae0a0723005aa",
+        "level": "N1",
+        "dictionaryId": "jmdict-1501720",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "기존 뜻 “비등, 물이 끓음” 및 1개 sense를 대조했다. boiling과 면 투입·수프가 세게 끓는 예문이 일치한다. 논쟁 과열이나 가격 급등은 선택하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_450",
+        "sourceHash": "5f5c2610123d03c4a438c37836d178e36f08fb33b8e5adde985ae0a0723005aa",
+        "proposalHash": "60a4ce1bcce23041d9f20c7999e3ac70c136b68e4f3b40e233ee37df0e945689",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-015.json",
+        "reviewedAt": "2026-09-30T05:30:55.375Z",
+        "notes": [
+          "끓음의 N1 분류는 타당하나 현재 뜻의 물 한정과 수프 예문 범위는 참조 게시 전에 따로 검토한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_450",
+        "level": "N1",
+        "sourceHash": "5f5c2610123d03c4a438c37836d178e36f08fb33b8e5adde985ae0a0723005aa",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "용법 뜻은 물이 끓음으로 한정하지만 두 번째 예문은 수프이다. 일반 액체의 끓음으로 의미 범위 정리가 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_450",
+        "sourceHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+        "level": "N1",
+        "dictionaryId": "jmdict-1501720",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+        "meaningReview": "현재 대표 뜻 끓음·비등 및 1개 용법(액체가 끓는점에 이르러 끓는 현상)의 사전 대응과 모든 예문을 다시 확인했다. 기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_450",
+        "sourceHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+        "proposalHash": "b34326d6d7c203ae3ab46dee0e334d9a030acd52c0a38b940b8ea0939e8244c0",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다.",
+          "현재 N1 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_450",
+        "level": "N1",
+        "sourceHash": "2006e41de41f8c49a523f6fab03ac970f718d9c62fe6f0cdfd13d41642ef34f3",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "기존 물과 수프가 끓는 예문의 뜻을 유지하며 설명을 액체로 정확히 표현했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N1 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_453",
+      "batch": "016",
+      "previousProposal": {
+        "wordId": "JLPTN3_453",
+        "sourceHash": "26273c619875bfdb82d8e9bb127300fb3adc8a4b16995cc5843f2fc2f2ce0622",
+        "level": "N5",
+        "dictionaryId": "jmdict-1505470",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “문장” 및 1개 sense를 대조했다. writing·passage와 긴 문장으로 된 글·사진에 첨부한 짧은 글 예문이 대응한다. 현재 한국어 문장은 한 문장으로만 오해할 수 있어 글·문장으로 범위 명시를 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "대표 예문은 글 전체를 포함하므로 한국어 뜻을 글·문장으로 명확히 할 후보이다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_453",
+        "sourceHash": "26273c619875bfdb82d8e9bb127300fb3adc8a4b16995cc5843f2fc2f2ce0622",
+        "proposalHash": "372e7c18e9d6283d560c58db7abeb0201461958e038d3fd215f0698a1a633f5d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-016.json",
+        "reviewedAt": "2026-09-30T05:32:06.878Z",
+        "notes": [
+          "N5 명사 분류는 타당하다. 단어 뜻 문장은 글 전체까지 포함하도록 보완 후보이며 현재 sense에는 이미 글을 명시한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_453",
+        "level": "N5",
+        "sourceHash": "26273c619875bfdb82d8e9bb127300fb3adc8a4b16995cc5843f2fc2f2ce0622",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "단어 뜻 문장은 한 문장으로 오해되기 쉬우나 용법·두 예문은 여러 문장으로 된 글까지 다룬다. 단어 대표뜻에 글 범위의 명시가 필요하다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_453",
+        "sourceHash": "1f0e78d211295f4662b673580857c02fb538907cd3bd2fd7744e400f8d1f26e1",
+        "level": "N5",
+        "dictionaryId": "jmdict-1505470",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "현재 대표 뜻 글·문장 및 1개 용법(글로 이어 쓴 문장과 글)의 사전 대응과 모든 예문을 다시 확인했다. 현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_453",
+        "sourceHash": "1f0e78d211295f4662b673580857c02fb538907cd3bd2fd7744e400f8d1f26e1",
+        "proposalHash": "4e2d38f7e701b0f97b086b23db46f3a364fd2459d7ccc40adf0164d69b7ef08f",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다.",
+          "현재 N5 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_453",
+        "level": "N5",
+        "sourceHash": "1f0e78d211295f4662b673580857c02fb538907cd3bd2fd7744e400f8d1f26e1",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "현재 글 전체를 포함하는 용법을 유지하며 대표 뜻에도 글을 명시했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N5 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_456",
+      "batch": "016",
+      "previousProposal": {
+        "wordId": "JLPTN3_456",
+        "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+        "level": "N3",
+        "dictionaryId": "jmdict-1510890",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “변화” 및 1개 sense를 대조했다. change와 몸 상태 변화·계절별 숲 변화 예문이 일치한다. 문법 활용은 선택하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_456",
+        "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+        "proposalHash": "62860ea676c21528ff8a0bd2afbb4ac8b1984122f823319e41ccf7105909989e",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-016.json",
+        "reviewedAt": "2026-09-30T05:32:06.878Z",
+        "notes": [
+          "変化의 현재 대표 뜻·읽기·품사와 두 예문은 선택 사전 및 N3 분류에 부합한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_456",
+        "level": "N3",
+        "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "계절 변화를 같은 장소에서 계속 사진 찍는 두 번째 예문이 比較의 같은 장소 사진 비교와 겹친다. 원본 유지 상태로 장면 개정을 기다린다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_456",
+        "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+        "level": "N3",
+        "dictionaryId": "jmdict-1510890",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 변화 및 1개 용법(이전과 달라짐)의 사전 대응과 모든 예문을 다시 확인했다. 比較의 사진 장면 교체로 반복이 해소되며 현재 변화 용법과 예문은 유지한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_456",
+        "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+        "proposalHash": "c49e141bf9fc955ce08fd933665e668f0a7f0647ed9ee91c57022ab8781b7ea5",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "比較의 사진 장면 교체로 반복이 해소되며 현재 변화 용법과 예문은 유지한다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_456",
+        "level": "N3",
+        "sourceHash": "2b1cc149bac22b1c68fc091872495b2ffa7dd54b01e8d02c721b0081b85b69e2",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "比較의 사진 장면 교체로 반복이 해소되며 현재 변화 용법과 예문은 유지한다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_463",
+      "batch": "016",
+      "previousProposal": {
+        "wordId": "JLPTN3_463",
+        "sourceHash": "d1669b934c9c189d843dbe6160967bbfb0cee4d70cac3c56470373625545e97a",
+        "level": "N3",
+        "dictionaryId": "jmdict-1406230",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “손자” 및 1개 sense를 대조했다. grandchild와 처음 안은 손주·손주의 그림 예문이 대응한다. 孫는 성별을 가리지 않으므로 한국어 손자만으로 제한하지 않고 손주를 포함하도록 뜻 검토를 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "孫는 남녀 손주 모두이며 기존 한국어 손자는 의미 범위가 좁다."
+        ]
+      },
+      "previousClassificationReview": {
+        "wordId": "JLPTN3_463",
+        "sourceHash": "d1669b934c9c189d843dbe6160967bbfb0cee4d70cac3c56470373625545e97a",
+        "proposalHash": "0e31bc2c4d4b9a8ddfb59e9f454baf84be8b76b78ba24e9cd29b96fda8d3b6bc",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-016.json",
+        "reviewedAt": "2026-09-30T05:32:06.878Z",
+        "notes": [
+          "N3 분류에 동의한다. 현재 sense·예문은 성별 무관 손주이나 단어 뜻 손자는 범위가 좁아 참조 게시 전에 분리 검토한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "JLPTN3_463",
+        "level": "N3",
+        "sourceHash": "d1669b934c9c189d843dbe6160967bbfb0cee4d70cac3c56470373625545e97a",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:00:23.803Z",
+        "notes": [
+          "단어 대표뜻 손자는 남성으로 한정되지만 사전·용법·예문은 성별과 무관한 손주이다. 원본 뜻 정정 후 참조를 검토한다."
+        ]
+      },
+      "revisedProposal": {
+        "wordId": "JLPTN3_463",
+        "sourceHash": "f2ffb9566da31c518d0ded3ffde9d2e0d6029ca328f87311cf6fdba480750d86",
+        "level": "N3",
+        "dictionaryId": "jmdict-1406230",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "현재 대표 뜻 손주 및 1개 용법(손주)의 사전 대응과 모든 예문을 다시 확인했다. 성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "JLPTN3_463",
+        "sourceHash": "f2ffb9566da31c518d0ded3ffde9d2e0d6029ca328f87311cf6fdba480750d86",
+        "proposalHash": "9013cc1cbe775df0410a97afb4f4d3bbdc1317e5ecd3ab32771083e31a68b36f",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent revised-source classification review; membership-review-resolution-fix-001.json",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다.",
+          "현재 N3 권장 분류를 재확인했다. 내용 수정·별칭 통합 승인과 구분한다."
+        ]
+      },
+      "acceptedReview": {
+        "wordId": "JLPTN3_463",
+        "level": "N3",
+        "sourceHash": "f2ffb9566da31c518d0ded3ffde9d2e0d6029ca328f87311cf6fdba480750d86",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T06:36:16.779Z",
+        "notes": [
+          "성별을 가리지 않는 기존 용법·예문에 맞춰 대표 뜻을 손주로 정정했다.",
+          "최종 원본의 읽기·품사·전체 1개 용법과 2개 예문·번역·힌트·대비 및 N3 분류를 재검토했다. 정규형 고유·역방향 별칭 후보 없음. 기존 ID를 내용 변경 없이 참조할 수 있다."
+        ]
+      }
+    }
+  ]
+}

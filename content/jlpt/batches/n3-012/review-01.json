@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "58ac4ff70965bc00f190bdc4873c0d2b9e4f114d13383c37a02118335be70289",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T06:40:51.189Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1309800",
+      "5c3152a061e5801bfa4baa4bd49a26dd77313daffe23c069dfdb9a99e33c75c4"
+    ],
+    [
+      "lex-jmdict-1513440",
+      "dad40ebd3c1cc384d9dcb9b3d346620369e3291685b5cb19daec7a28487b688c"
+    ],
+    [
+      "lex-jmdict-1316890",
+      "75effe057d534ba1bc64bc8a9960aa53bb474c63d67f7490f7c201bc5001f5ae"
+    ],
+    [
+      "lex-jmdict-1484660",
+      "c1919610a2dc6d31439930c12b222482e0090b2f392e43a3350432c324916452"
+    ],
+    [
+      "lex-jmdict-1019940",
+      "b6f7bd2c104c58c50578b78f7a79ebc42463ae813558abe8bc4820dfd80a3548"
+    ],
+    [
+      "lex-jmdict-1050980",
+      "353689bf064fa972e3de648086510875cc4c1abf044499f780415e2f5aeb784a"
+    ],
+    [
+      "lex-jmdict-1081190",
+      "8b762cd0f139c5303412a8c3d726d0819ee8db7a5912384cce66484ccfaa277c"
+    ],
+    [
+      "lex-jmdict-1085920",
+      "8c30d62f8be2592adff621afadd0b9d05738f2a216ef5d9f6dfa0982b906b2bd"
+    ],
+    [
+      "lex-jmdict-1036080",
+      "8eacc2685383427430a030a8123e6c9f21c25999baff67197110449d10bc7da5"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1513440",
+      "category": "substantive",
+      "note": "病気になる의 여행 위험에 대비한 보험 가입과 겹쳐 차량 구매 후 기존 보험 내용 재검토로 바꿨다."
+    }
+  ]
+}

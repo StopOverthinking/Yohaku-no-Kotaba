@@ -1,0 +1,15 @@
+{"at":"2026-09-30T05:52:44.050Z","batch":"n1-006","index":"01","phase":"metadata","words":25,"examples":0,"milliseconds":158.0852,"issues":[]}
+{"at":"2026-09-30T05:54:16.116Z","batch":"n1-006","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":964.0964,"issues":[]}
+{"at":"2026-09-30T05:54:45.261Z","batch":"n1-006","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":978.63,"issues":[]}
+{"at":"2026-09-30T05:56:45.288Z","batch":"n1-006","index":"02","phase":"metadata","words":25,"examples":0,"milliseconds":146.5394,"issues":[]}
+{"at":"2026-09-30T05:57:02.701Z","batch":"n1-006","index":"02","phase":"metadata","words":25,"examples":0,"milliseconds":149.1072,"issues":[]}
+{"at":"2026-09-30T05:57:11.968Z","batch":"n1-006","index":"01","phase":"manuscript","words":25,"examples":25,"milliseconds":973.4491999999999,"issues":[]}
+{"at":"2026-09-30T05:58:34.488Z","batch":"n1-006","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":1087.6066,"issues":[]}
+{"at":"2026-09-30T06:01:00.637Z","batch":"n1-006","index":"03","phase":"metadata","words":25,"examples":0,"milliseconds":154.8863,"issues":[]}
+{"at":"2026-09-30T06:01:36.647Z","batch":"n1-006","index":"02","phase":"manuscript","words":25,"examples":25,"milliseconds":999.978,"issues":[]}
+{"at":"2026-09-30T06:02:32.038Z","batch":"n1-006","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":1103.6695,"issues":[]}
+{"at":"2026-09-30T06:04:19.946Z","batch":"n1-006","index":"03","phase":"manuscript","words":25,"examples":25,"milliseconds":970.3172000000001,"issues":[]}
+{"at":"2026-09-30T06:04:49.247Z","batch":"n1-006","index":"04","phase":"metadata","words":25,"examples":0,"milliseconds":150.8399,"issues":[]}
+{"at":"2026-09-30T06:06:16.600Z","batch":"n1-006","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":985.5539,"issues":[]}
+{"at":"2026-09-30T06:06:46.563Z","batch":"n1-006","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":971.951,"issues":[]}
+{"at":"2026-09-30T06:11:27.716Z","batch":"n1-006","index":"04","phase":"manuscript","words":25,"examples":25,"milliseconds":957.6271,"issues":[]}

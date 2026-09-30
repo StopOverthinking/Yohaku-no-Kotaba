@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "68199338d001b3f51427c50a5d1c435a58e85254b8278213c560a4adc5a3723a",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:44:28.675Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1230040",
+      "72ab783bb49957267fc4f8b9ed12fc9a6671088044b37252b0121052685e41b0"
+    ],
+    [
+      "lex-jmdict-1230080",
+      "df82b162326f3e2b40cce65d625544ddab2c41a06bb6b88efadab9095e82a4bb"
+    ],
+    [
+      "lex-jmdict-1230120",
+      "87d8bcf8b62262020f4f392be17739b7b292d3491bccd52f32a6649a5d186610"
+    ],
+    [
+      "lex-jmdict-1231060",
+      "95af0d2fe26a9a5d79b92505074ddf1e38c0ca6106d941e472ce7d9ebe39096a"
+    ],
+    [
+      "lex-jmdict-1231810",
+      "f33cd736c75e744d6a593c5778a1894b64ece55195185100580227815782040b"
+    ],
+    [
+      "lex-jmdict-1232390",
+      "b3db03e075d74577e54e384432f089b68e7337f99de65600491138d790bea215"
+    ],
+    [
+      "lex-jmdict-1232410",
+      "8beed41cbbb7ba56e814ecbed24b9eb391d0ca28cc715129a25e5c3381d41e79"
+    ],
+    [
+      "lex-jmdict-1232910",
+      "356ec8984faebb0e5de7b27646d96a759a88ad9f8cb82baf8f0d8c9dc34c7619"
+    ],
+    [
+      "lex-jmdict-1233280",
+      "5abe309e80288f2bf0a5ebbfccc95f76a902c471fa3ba0c994069c053a486039"
+    ],
+    [
+      "lex-jmdict-1234370",
+      "6413ca41fbe92bd6d2df97b2c2796ae69c71256776881cd771245da75f35a5a0"
+    ],
+    [
+      "lex-jmdict-1234760",
+      "bdd730492be1ee6294a0859a23b0a1e3272aac58732c26d1de82e945b354555f"
+    ],
+    [
+      "lex-jmdict-1235190",
+      "a92966a9068901abb43f3b7a69fef9c91beae90f9e2641e1031bb52248789364"
+    ],
+    [
+      "lex-jmdict-1235440",
+      "b672853a5e0c080ed5d890a855be0bc05c7ed5672664a75e1ee1aa10afbea29f"
+    ],
+    [
+      "lex-jmdict-1235550",
+      "4ef7a0a250e4d6f61dc23aa2d7bdac2409185cfe05054558cc337cb7afce5cd7"
+    ],
+    [
+      "lex-jmdict-1235570",
+      "45841ed58d1cd0d1aedfb6bdf73f526e4f8105f7a7420059196e0631f870f18b"
+    ],
+    [
+      "lex-jmdict-1235700",
+      "351544df9e050db7a886b51602e4c985725ce04cf650703d1a61aa695e314ab2"
+    ],
+    [
+      "lex-jmdict-1235730",
+      "00e6012b15b8d1f8aa55429c9e1e42483cbe2801f05d56389b5633860f83dcc6"
+    ],
+    [
+      "lex-jmdict-1236000",
+      "70b084a90c0f31b448a9de8c6ba7e013dca2a7bf38e7888f575af365e0c173a7"
+    ],
+    [
+      "lex-jmdict-1236080",
+      "dac65ddde02972916d5ac1d9b63d2872a101535d40923bb2b1f045f845253160"
+    ],
+    [
+      "lex-jmdict-1236100",
+      "692020a4e88a80156e87fe0f5d1e7ccc79eace3898f486c957f590a930adaa7a"
+    ],
+    [
+      "lex-jmdict-1236130",
+      "c69dbc8444be62ed3c22b6d9e521b43079e7ac3349bc5c71f67d4cc92eb348f7"
+    ],
+    [
+      "lex-jmdict-1236150",
+      "e54751840bb852bdd55529df2bafb804a0ef948b7b5f2a773c3a0679d916bc72"
+    ],
+    [
+      "lex-jmdict-1236250",
+      "b4ae8a3171094b35eb8590cfdd9da99e1f4f860f9783e8ec22cefc57dace2e04"
+    ],
+    [
+      "lex-jmdict-1236270",
+      "7ce563c7ad41ed342d6245eafc0ea0a8585466b81a8d484166a2079f6bd892da"
+    ],
+    [
+      "lex-jmdict-1236350",
+      "bce25dac75ae012b53b5fd39358a83e2a10086a95adc50d00df621785c7ae665"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1235570",
+      "category": "clarity",
+      "note": "대비 講義를 대학 교수에게 한정하지 않도록 설명했다."
+    },
+    {
+      "wordId": "lex-jmdict-1236150",
+      "category": "substantive",
+      "note": "強める의 목적어를 자연스럽게 결합하는 監視로 고치고 번역을 맞췄다."
+    }
+  ]
+}

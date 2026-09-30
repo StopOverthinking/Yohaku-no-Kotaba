@@ -1,0 +1,40 @@
+{
+  "batch": "n2-007",
+  "status": "complete",
+  "startedAt": "2026-09-30T06:33:14.788Z",
+  "sourceAuthoringBatch": "practical-core-035",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "plannedWords": 26,
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T06:35:12.223Z",
+      "metadataCompletedAt": "2026-09-30T06:35:12.224Z",
+      "draftCompletedAt": "2026-09-30T06:36:43.564Z",
+      "validationCompletedAt": "2026-09-30T06:37:18.027Z",
+      "wordCount": 25,
+      "revisionAttempts": 1,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "exampleCount": 25,
+      "validationStatus": "passed"
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-09-30T06:35:12.224Z",
+      "metadataCompletedAt": "2026-09-30T06:35:12.224Z",
+      "draftCompletedAt": "2026-09-30T06:38:19.171Z",
+      "validationCompletedAt": "2026-09-30T06:38:44.574Z",
+      "wordCount": 1,
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "pureThinkingSeconds": null,
+      "exampleCount": 1,
+      "validationStatus": "passed"
+    }
+  ],
+  "completedAt": "2026-09-30T06:38:44.575Z",
+  "totalWords": 26,
+  "totalExamples": 26
+}

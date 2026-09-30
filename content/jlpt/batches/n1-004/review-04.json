@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "821f7e0487dcffcf0b3cb080952dcaa9eb6c5487c33221fa0d64611744b74192",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:37:21.733Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1218450",
+      "fbb6f7f2b9c231aa75e6dd53422200dc156c2b821de06a159da3cce34f475efc"
+    ],
+    [
+      "lex-jmdict-1218810",
+      "65d4165a69c1c8516ea520d822c3b4db316c2b2f7b02efcc17353734acf4406a"
+    ],
+    [
+      "lex-jmdict-1219020",
+      "be3334349735cd600ba664868dcc83587fb630ad94000d1de5d03b792ca8a3a5"
+    ],
+    [
+      "lex-jmdict-1219810",
+      "d92b6fcac5bd78983964af3223fc3572099751bc861d6d0d474f87b39560dfe8"
+    ],
+    [
+      "lex-jmdict-1220040",
+      "09b421c323605e13f7f784c51c0ed136beee36cbc7dd5487ced8e3209822db8b"
+    ],
+    [
+      "lex-jmdict-1220350",
+      "66474ee83729342a4e05f00151f4422fd84cdbc8d58db45d910293ccafe2fa74"
+    ],
+    [
+      "lex-jmdict-1220610",
+      "5b9a227854a1a671976689ab40b27be624ac21a41f3a8bafa01655cb7f4f8662"
+    ],
+    [
+      "lex-jmdict-1220620",
+      "64a2da036aa33e40f75a89ca838cef570ba274174a581d57011c259d86ee19e0"
+    ],
+    [
+      "lex-jmdict-1220670",
+      "8347dc9220d0ef10dea8502f5359e477822c12573204ab4e1713c7640937a740"
+    ],
+    [
+      "lex-jmdict-1220940",
+      "be1edd2d67572faafe2131ae35e3d9fe10d86ba76b195a80d04a72beb6aa9ff1"
+    ],
+    [
+      "lex-jmdict-1222010",
+      "f5051b891f0bddca947bd3be6281454e9c562e1d27a479e8b17d9ac82de93fd3"
+    ],
+    [
+      "lex-jmdict-1222110",
+      "7e6f5121480bf5ad7c359679df5f69ae4a49c3a06bae5970bc996aed06d4687b"
+    ],
+    [
+      "lex-jmdict-1222120",
+      "aa72a6da948e0c0e5d19b48c725b33366f056eccf4043d06b37949c4e0f49ba8"
+    ],
+    [
+      "lex-jmdict-1222250",
+      "a4ff2e5a5b626b889305358cc7a502ee5bf9d9fcb047631bb9d92f0420c3e814"
+    ],
+    [
+      "lex-jmdict-1222270",
+      "7824b08673c438fdc752a3849d529636f0c944a56488572c658a0886bd55cd48"
+    ],
+    [
+      "lex-jmdict-1222310",
+      "2a1647183dd194aaed6ecfc597edcdaf4de1c13dcfb7d11e4049fe2970a08876"
+    ],
+    [
+      "lex-jmdict-1222540",
+      "bc3de21890852d07287cecb6100146b6f220febc721ead63ec6f55fac40a380c"
+    ],
+    [
+      "lex-jmdict-1222580",
+      "7ab59a6220fcfe8ff220e536b57863471f9073e233584e939976609e713ba273"
+    ],
+    [
+      "lex-jmdict-1222680",
+      "71eb3b22d3cac4e455b985092778e8444d5210c4bd8e11265ff3124c40ab4350"
+    ],
+    [
+      "lex-jmdict-1222760",
+      "1afee54ebbf879c8d0c6a72c343340230338b1edb67ed195f321ef67e236054e"
+    ],
+    [
+      "lex-jmdict-1222810",
+      "b4b70b71f67d80589c08edcb2b6d21836f9b0e91655cf4686c139afd30f6cb5b"
+    ],
+    [
+      "lex-jmdict-1222970",
+      "3cc67326fd0bd00030b5561cd77e0997c16ae9c392ad1b11396e4d6bcf5e7fcd"
+    ],
+    [
+      "lex-jmdict-1223010",
+      "e6d5e3b2930379868e65c25ccd168e4908aafaac30dec4231b9ca3a599321ca7"
+    ],
+    [
+      "lex-jmdict-1218880",
+      "4b4299511fd6e53eca27209c1815d05c8f42718a281d6ddff5f0ad1040f122b8"
+    ],
+    [
+      "lex-jmdict-1218910",
+      "603a0f3b7ec21b677b2a3381011a74c4c9a9d511e509b1acfecca1f80147e1d4"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1219810",
+      "category": "substantive",
+      "note": "発展의 철도와 도시 발전 장면에서 벗어나 옛 사진의 역사 연구 기여로 바꿨다."
+    },
+    {
+      "wordId": "lex-jmdict-1222120",
+      "category": "substantive",
+      "note": "気兼ねする의 대상을 상대 가족으로 명시하여 일본어 연결과 한국어를 자연스럽게 고쳤다."
+    }
+  ]
+}

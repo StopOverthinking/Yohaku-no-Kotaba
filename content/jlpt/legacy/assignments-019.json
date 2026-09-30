@@ -1,0 +1,385 @@
+[
+  {
+    "wordId": "handmade_41",
+    "sourceHash": "573ccdb7700d8cc07e7111d12744ca1833e5fc75957ed6aa92a3575136c68308",
+    "level": "N5",
+    "dictionaryId": "jmdict-1175140",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “(기차 등) 역” 및 1개 sense를 대조했다. railway station와 놓친 열차·개찰구 약속 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_42",
+    "sourceHash": "f941c302b4f97bcc72a556db16d3d1bc04a9cd51e2a902c16fbf80503ec57a34",
+    "level": "N5",
+    "dictionaryId": "jmdict-1270590",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “밥, 식사” 및 1개 sense를 대조했다. cooked rice와 밥 양·남은 밥 주먹밥 예문이 일치한다. 식사 전체 의미도 사전에 있으나 현재 sense는 쌀밥이다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_43",
+    "sourceHash": "35563e2eb18f85a6051d91c0d0369fc64d080b0443bdb7f99850800bb122bb02",
+    "level": "N3",
+    "dictionaryId": "jmdict-1329010",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “술” 및 1개 sense를 대조했다. alcohol와 운전자의 금주·축하 술 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_44",
+    "sourceHash": "4b2e948aa90d97c71f1b104d4fcc1d0fccf8b9ca21302f38a7a5c43c6ae77363",
+    "level": "N5",
+    "dictionaryId": "jmdict-1330290",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “수업” 및 1개 sense를 대조했다. class와 식물 관찰·수업 후 질문 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_45",
+    "sourceHash": "603f17ebb7aa2d82cc8e6ab98e5f049cc41cf63d2b9ebd1ae29e42942dd6434a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1362360",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “신문” 및 1개 sense를 대조했다. newspaper와 신문 읽기·구독 배달 중지 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_46",
+    "sourceHash": "6dccdc0dcfcdef34aad70b724929a703d312e8d4c5a80fe7c16a02b51457acca",
+    "level": "N4",
+    "dictionaryId": "jmdict-1334080",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “주소” 및 1개 sense를 대조했다. address와 이사 주소·봉투 주소 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_47",
+    "sourceHash": "04e3cc318b01fd6654b760d1e335e7bf2c72936fb73f54340ddbf68932e93474",
+    "level": "N5",
+    "dictionaryId": "jmdict-1443840",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “전화” 및 1개 sense를 대조했다. telephone와 울리는 전화·음성 대화 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_48",
+    "sourceHash": "3d4b51916136a165bca86cfd77d4bb060b76938a9c7ede5d66890630b11c5418",
+    "level": "N5",
+    "dictionaryId": "jmdict-1482290",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “번호” 및 1개 sense를 대조했다. number와 접수 번호·객실 번호 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_49",
+    "sourceHash": "cd5e2f1d0969529716a33f9adb979ede04e0041d54987c5a88fe0351a3c8857c",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “그림, 모양 등을 그리다” 및 1개 sense를 대조했다. 고양이 그림·원을 그리는 예문은 그림 그리기 용법에 일관된다. 제공 사전 후보가 없어 描く의 かく/えがく 읽기와 의미 제한을 확인해야 한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "描く의 현재 읽기에 해당하는 그림 그리기 사전 연결을 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "handmade_50",
+    "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+    "level": "N3",
+    "dictionaryId": "jmdict-1512670",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “공부” 및 1개 sense를 대조했다. study·lesson와 일본어 학습·가르치며 얻은 배움 예문이 일치한다. 가격 할인은 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_51",
+    "sourceHash": "58d2dfd9040bf3367d7d14ede8fee2899f531096189c102158a2aa4410060796",
+    "level": "N4",
+    "dictionaryId": "jmdict-1510640",
+    "suggestedType": "na_adj",
+    "levelNote": "현재 na_adj 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “이상하다” 및 1개 sense를 대조했다. strange와 냉장고 소리·고양이 부재 예문이 일치한다. 기본형 変의 형용동사 활용 変な/変だ가 현재 type과 맞는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_52",
+    "sourceHash": "9fcf37989d0b2e4557e422e589176a609ead0872ab759c991617b9ad483cb5d7",
+    "level": "N4",
+    "dictionaryId": "jmdict-1526960",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “맛” 및 1개 sense를 대조했다. taste와 소금으로 선명해진 맛·할머니 수프 맛 예문이 일치한다. 매력이나 바둑 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_53",
+    "sourceHash": "1543522efffe717b720d94acb0b6396b5d5a7740424bd94e794f8c4c49597ca5",
+    "level": "N5",
+    "dictionaryId": "jmdict-1383260",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “아기” 및 1개 sense를 대조했다. baby와 웃는 아기·잠든 아기 예문이 일치한다. 제공 N1 표시는 기본 가족·생활 명칭과 난도 차이가 커 그대로 따르지 않고 N5를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_54",
+    "sourceHash": "bcc8d71425fe556f5880d965cbaf7709122c00b327a02d6f54fb868f0f3db92f",
+    "level": "N4",
+    "dictionaryId": "jmdict-1320140",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “실패” 및 1개 sense를 대조했다. failure와 첫 실패·케이크 만들기 실패 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_55",
+    "sourceHash": "92bcea7eee65e14377fbd884ba3e0b5a6311c914e76d315646eb8a74c166af6a",
+    "level": "N5",
+    "dictionaryId": "jmdict-1321900",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “사진” 및 1개 sense를 대조했다. photograph와 지갑 가족 사진·단체 사진 예문이 일치한다. 영화 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_56",
+    "sourceHash": "2e83183c92d91d18bb311cc02324b4b6e78b41d2c90e0c5a408872115c0c22f7",
+    "level": "N3",
+    "dictionaryId": "jmdict-1589090",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(정해진 곳에) 넣다, 손에 넣다, 성과를 거두다, 수습하다” 및 1개 sense를 대조했다. put away와 칼·책을 정해진 곳에 넣음 예문이 일치한다. N3/N2 중 생활 수납 용법에 N3를 선택한다. AbsoluteVerb_561과 같은 sense의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_561"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_561",
+    "sourceHash": "94d65062ca6c273030a2efd5ae60c27fcba85fb6c4fdf9c0470f78284e9e37cd",
+    "level": "N3",
+    "dictionaryId": "jmdict-1589090",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(정해진 곳에) 넣다, 손에 넣다, 성과를 거두다, 수습하다” 및 1개 sense를 대조했다. put away와 칼집·우표 앨범 예문이 일치한다. handmade_56과 수납 의미가 같아 별칭 후보이며 성과·수습 등 표제어의 다른 뜻을 자동 통합하지 않는다.",
+    "aliasCandidateIds": [
+      "handmade_56"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_57",
+    "sourceHash": "314e51cd8836265a53ba4c6847eea56a58f49bd9d38d51d9e511cacac359da2e",
+    "level": "N2",
+    "dictionaryId": "jmdict-2864817",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “튀기다” 및 1개 sense를 대조했다. deep-fry와 튀김 조리·생선 튀기기 예문이 일치한다. AbsoluteVerb_203의 대표 sense와 같은 조리 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_203"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_203",
+    "sourceHash": "a70d3b0ffa02281357add03466bc4710ca6853205e2acb4cd2d983030aa5a641",
+    "level": "N2",
+    "dictionaryId": "jmdict-2864817",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “튀기다, (깃발을) 올리다” 및 1개 sense를 대조했다. deep-fry와 고로케·춘권 예문이 일치한다. handmade_57과 현재 sense는 같지만 표제어 뜻에 있는 깃발 올리기는 별도 의미로 보존해야 한다.",
+    "aliasCandidateIds": [
+      "handmade_57"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_58",
+    "sourceHash": "0bb83f6fb26951a3b6484f25986dc6a77de56aeb921a434e98cb5058766c6060",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "noun",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “튀김” 및 1개 sense를 대조했다. 식당 튀김·식사 선택 예문은 기름에 튀긴 음식으로 일관된다. 제공 사전 후보가 없어 揚げ物의 명사 연결을 확인한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "揚げ物의 제공 사전 연결과 수준 근거가 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_59",
+    "sourceHash": "991a9fd8a170dec82bb1a1a6ea50aa76be03c8ad5a99dc5366c3e119e752f9d7",
+    "level": "N5",
+    "dictionaryId": "jmdict-1323080",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “자동차” 및 1개 sense를 대조했다. car와 비 오는 날 마중·집 앞 주차 예문이 일치한다. 바퀴 의미는 선택하지 않는다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_61",
+    "sourceHash": "f4d6c850443d2f98313b66ed39ae17b14c31a4ca7399613d0bd589377e869a3a",
+    "level": "N3",
+    "dictionaryId": "jmdict-1371800",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “수조” 및 1개 sense를 대조했다. fish tank와 숨은 물고기·이사 전 물 줄이기 예문이 일치한다. 등급 근거는 없지만 생활의 어항·수조 용법으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_63",
+    "sourceHash": "9710c87437a56f336bd5191070758c79a377fa68ef19f33cca6b9037265ec8f3",
+    "level": "N4",
+    "dictionaryId": "jmdict-1254180",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “결정하다” 및 1개 sense를 대조했다. decide와 진학·방 선택 예문이 일치한다. AbsoluteVerb_341과 동일한 선택 결정 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_341"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_341",
+    "sourceHash": "ae71380be1898d23ba6e92b6618709827057d77700427809b354ed3e984c3a41",
+    "level": "N4",
+    "dictionaryId": "jmdict-1254180",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+    "meaningReview": "기존 뜻 “결정하다” 및 1개 sense를 대조했다. decide와 저녁 가게·이름 결정 예문이 일치한다. handmade_63과 동일한 결정 의미의 별칭 후보이다.",
+    "aliasCandidateIds": [
+      "handmade_63"
+    ],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_64",
+    "sourceHash": "07497f511f97335742956efaa5dbac44fba35dd95111542d63355d0d3c9c61c2",
+    "level": "N5",
+    "dictionaryId": "jmdict-1220210",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “책상” 및 1개 sense를 대조했다. desk와 창가 배치·서랍 문제 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_65",
+    "sourceHash": "ac3e5c3bf3922f433c965233cfe2b1e80b727c478695f9e6d1e71aab2d6e112b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "noun",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “모서리” 및 1개 sense를 대조했다. 모자 테·연못 가장자리 예문은 가장자리 의미이며 모서리로만 좁히기 어렵다. 제공 후보가 없어 縁의 현재 읽기와 가장자리 의미에 맞는 사전 연결을 확인해야 한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "縁의 가장자리 의미 연결 및 한국어 뜻을 테·가장자리로 정리할 검토가 필요하다."
+    ]
+  },
+  {
+    "wordId": "handmade_66",
+    "sourceHash": "19c1c51f077964a0b1f89844feb581eed8fbd2cdb4b2f79dc87d1ec0753b8873",
+    "level": "N3",
+    "dictionaryId": "jmdict-1222400",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “기절” 및 1개 sense를 대조했다. fainting과 더운 행사장·병원에서 깨어남 예문이 일치한다. 등급 근거는 없지만 일상 상태·사고 서술 용법으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_67",
+    "sourceHash": "73aa1df5591b14ae0168cfd36dacd786b471c53c2fa3c2dcfd06909ddad10813",
+    "level": "N3",
+    "dictionaryId": "jmdict-1366210",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “(벌, 시계 등의) 침” 및 1개 sense를 대조했다. clock hand와 시곗바늘 위치·얇은 바늘 예문이 일치한다. 벌의 침은 사전에 있지만 현재 sense와 분리한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_68",
+    "sourceHash": "fde7af1b710717bfd40a68a7f138e59f2e6db929a885f52d79547540567a22ae",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "noun",
+    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “(의료용) 침” 및 1개 sense를 대조했다. 침 치료를 받음·사용한 침 폐기 예문은 의료용 침에 일관된다. 제공 후보가 없어 鍼의 도구와 치료 행위 용법을 연결 검토한다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "鍼의 의료용 침 및 치료 행위에 대응하는 제공 사전 후보가 없어 보류한다."
+    ]
+  },
+  {
+    "wordId": "handmade_70",
+    "sourceHash": "84e1f697a3a186ebd125344073f036c42830fb9b732de471362f20b1fe7f4b1c",
+    "level": "N3",
+    "dictionaryId": "jmdict-1561950",
+    "suggestedType": "verb",
+    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+    "meaningReview": "기존 뜻 “긴장, 통증, 표정 등이 누그러지다” 및 1개 sense를 대조했다. be eased와 긴장·통증 완화 예문이 일치한다. 등급 근거는 없지만 몸과 마음의 상태 변화 용법으로 N3를 편집 제안한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_71",
+    "sourceHash": "28559305670d6f142a60e35094aade143770d23b6c3c4743b569643f98a6beab",
+    "level": "N5",
+    "dictionaryId": "jmdict-1600900",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “이야기” 및 1개 sense를 대조했다. story·talk와 여행 이야기·중단한 이야기 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_72",
+    "sourceHash": "b8c4dc1dd6cb3d6594423ffe7b323cc0ebfb98b5937673878b1eea6b2da5e905",
+    "level": "N5",
+    "dictionaryId": "jmdict-1579260",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+    "meaningReview": "기존 뜻 “어제” 및 1개 sense를 대조했다. yesterday와 어제 산 빵·어제 비 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "handmade_73",
+    "sourceHash": "939c0d1e4d902679b5a8e64f122df64051e212cd2746b25abf618ad58ff4023c",
+    "level": "N2",
+    "dictionaryId": "jmdict-1270870",
+    "suggestedType": "noun",
+    "levelNote": "현재 noun 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "meaningReview": "기존 뜻 “바둑” 및 1개 sense를 대조했다. go board game과 할아버지에게 배움·공원 대국 예문이 일치한다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  }
+]

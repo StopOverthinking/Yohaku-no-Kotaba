@@ -73,6 +73,8 @@ import { matchesWordSearch } from '@/lib/search'
 import styles from '@/features/editor/editor.module.css'
 import { LearnContentTable } from './LearnContentTable'
 import { versionLearnContent } from './learnContentVersions'
+import { resolveSetWords } from '@/features/vocab/model/setMembership'
+import { importBasicWorkbook } from './importBasicWorkbook'
 
 type EditorMode = 'basic' | 'theme' | 'compare'
 type EditorSaveState = 'idle' | 'saving' | 'saved' | 'error'
@@ -247,7 +249,16 @@ function updateThemeWordFieldInSnapshot<K extends keyof ThemeWord>(
   return changed ? { ...snapshot, themeWords } : snapshot
 }
 
-function moveBasicWordInSnapshot(snapshot: EditorSnapshot, wordId: string, direction: -1 | 1) {
+function moveBasicWordInSnapshot(snapshot: EditorSnapshot, wordId: string, direction: -1 | 1, setId: string) {
+  const set = snapshot.sets.find((item) => item.id === setId)
+  if (set?.membershipMode === 'explicit') {
+    const ids = [...set.wordIds]
+    const index = ids.indexOf(wordId)
+    const next = index + direction
+    if (index < 0 || next < 0 || next >= ids.length) return snapshot
+    ;[ids[index], ids[next]] = [ids[next], ids[index]]
+    return { ...snapshot, sets: snapshot.sets.map((item) => item.id === setId ? { ...item, wordIds: ids } : item) }
+  }
   const target = snapshot.words.find((word) => word.id === wordId)
   if (!target) {
     return snapshot
@@ -369,6 +380,7 @@ function applyUpdatedAtToAllWordbooks(snapshot: EditorSnapshot, updatedAt: strin
 }
 
 type BasicWordRowProps = {
+  setId: string
   active: boolean
   changeTickRef: MutableRefObject<number>
   setChangeTick: ChangeTickSetter
@@ -379,6 +391,7 @@ type BasicWordRowProps = {
 }
 
 const BasicWordRow = memo(function BasicWordRow({
+  setId,
   active,
   changeTickRef,
   setChangeTick,
@@ -397,7 +410,7 @@ const BasicWordRow = memo(function BasicWordRow({
             aria-label="위로"
             onClick={(event) => {
               event.stopPropagation()
-              setSnapshot((current) => moveBasicWordInSnapshot(current, word.id, -1))
+              setSnapshot((current) => moveBasicWordInSnapshot(current, word.id, -1, setId))
               markEditorDirty(setSaveState, setChangeTick, changeTickRef)
             }}
           >
@@ -409,7 +422,7 @@ const BasicWordRow = memo(function BasicWordRow({
             aria-label="아래로"
             onClick={(event) => {
               event.stopPropagation()
-              setSnapshot((current) => moveBasicWordInSnapshot(current, word.id, 1))
+              setSnapshot((current) => moveBasicWordInSnapshot(current, word.id, 1, setId))
               markEditorDirty(setSaveState, setChangeTick, changeTickRef)
             }}
           >
@@ -743,19 +756,14 @@ export function WordbookEditorPage() {
   }, [selectedComparisonWordbookId, snapshot.comparisonWordbooks])
 
   const selectedSetWords = useMemo(
-    () =>
-      snapshot.words.filter((word) => {
-        if (selectedSetId === null) {
-          return false
-        }
-
-        if (word.setId !== selectedSetId) {
-          return false
-        }
-
-        return matchesWordSearch(word, deferredSearch)
-      }),
-    [deferredSearch, selectedSetId, snapshot.words],
+    () => {
+      const set = snapshot.sets.find((item) => item.id === selectedSetId)
+      const words = set?.membershipMode === 'explicit'
+        ? resolveSetWords(set, new Map(snapshot.words.map((word) => [word.id, word])))
+        : snapshot.words.filter((word) => word.setId === selectedSetId).sort((a, b) => a.sourceOrder - b.sourceOrder)
+      return words.filter((word) => matchesWordSearch(word, deferredSearch))
+    },
+    [deferredSearch, selectedSetId, snapshot.words, snapshot.sets],
   )
 
   const selectedThemeWordbook = useMemo(
@@ -1138,6 +1146,11 @@ export function WordbookEditorPage() {
     if (!selectedSet) {
       return
     }
+    const ownedIds = new Set(snapshot.words.filter((word) => word.setId === selectedSet.id).map((word) => word.id))
+    if (snapshot.sets.some((set) => set.id !== selectedSet.id && set.wordIds.some((id) => ownedIds.has(id)))) {
+      window.alert('다른 단어장이 참조하는 단어가 있어 삭제할 수 없습니다.')
+      return
+    }
 
     if (!window.confirm('세트를 지울까요? 포함된 단어도 함께 삭제됩니다.')) {
       return
@@ -1161,17 +1174,24 @@ export function WordbookEditorPage() {
     const newWord = createEmptyWord(snapshot, selectedSetId)
     commit({
       ...snapshot,
+      sets: snapshot.sets.map((set) => {
+        if (set.id !== selectedSetId || set.membershipMode !== 'explicit') return set
+        const ids = [...set.wordIds]
+        const index = selectedWordId ? ids.indexOf(selectedWordId) : -1
+        ids.splice(index >= 0 ? index + 1 : ids.length, 0, newWord.id)
+        return { ...set, wordIds: ids }
+      }),
       words: insertWordAfterAnchor(snapshot.words, selectedWordId, newWord),
     })
     setSelectedWordId(newWord.id)
   }
 
   function handleDuplicateWord() {
-    if (!selectedWord) {
+    if (!selectedWord || !selectedSetId) {
       return
     }
 
-    const nextWord = duplicateWord(snapshot.words, selectedWord)
+    const nextWord = duplicateWord(snapshot.words, { ...selectedWord, setId: selectedSetId })
     commit({
       ...snapshot,
       words: [...snapshot.words, nextWord],
@@ -1184,12 +1204,18 @@ export function WordbookEditorPage() {
       return
     }
 
+    const linked = selectedWord.setId !== selectedSetId
+    if (!linked && snapshot.sets.some((set) => set.id !== selectedSetId && set.wordIds.includes(selectedWord.id))) {
+      window.alert('다른 단어장이 참조하는 단어는 삭제할 수 없습니다.')
+      return
+    }
     const nextSnapshot = normalizeEditorSnapshot({
       ...snapshot,
-      words: snapshot.words.filter((word) => word.id !== selectedWord.id),
+      sets: snapshot.sets.map((set) => set.id === selectedSetId ? { ...set, wordIds: set.wordIds.filter((id) => id !== selectedWord.id) } : set),
+      words: linked ? snapshot.words : snapshot.words.filter((word) => word.id !== selectedWord.id),
     })
     commit(nextSnapshot)
-    setSelectedWordId(nextSnapshot.words.find((word) => word.setId === selectedSetId)?.id ?? null)
+    setSelectedWordId(nextSnapshot.sets.find((set) => set.id === selectedSetId)?.wordIds[0] ?? null)
   }
 
   function handleAddThemeWordbook() {
@@ -1730,27 +1756,10 @@ export function WordbookEditorPage() {
 
   function applyImportedWorkbook(imported: ParsedEditorWorkbook) {
     if (imported.mode === 'basic' && selectedSetId) {
-      const targetIndex = snapshot.sets.findIndex((set) => set.id === selectedSetId)
-      if (targetIndex < 0) {
-        throw new Error('기본 단어장 없음')
-      }
-
-      const nextSet = {
-        ...imported.set,
-        order: snapshot.sets[targetIndex]?.order ?? imported.set.order,
-      }
-      const nextSnapshot = normalizeEditorSnapshot({
-        ...snapshot,
-        learnContent: imported.learnContent === undefined ? snapshot.learnContent : [...(snapshot.learnContent ?? []).filter((sense) => !snapshot.words.some((word) => word.setId === selectedSetId && word.id === sense.wordId)), ...imported.learnContent],
-        sets: snapshot.sets.map((set, index) => (index === targetIndex ? nextSet : set)),
-        words: snapshot.words
-          .filter((word) => word.setId !== selectedSetId)
-          .concat(imported.words.map((word) => ({ ...word, setId: nextSet.id }))),
-      })
-
+      const nextSnapshot = importBasicWorkbook(snapshot, selectedSetId, imported)
       commit(nextSnapshot)
-      setSelectedSetId(nextSet.id)
-      setSelectedWordId(nextSnapshot.words.find((word) => word.setId === nextSet.id)?.id ?? null)
+      setSelectedSetId(imported.set.id)
+      setSelectedWordId(nextSnapshot.sets.find((set) => set.id === imported.set.id)?.wordIds[0] ?? null)
       return
     }
 
@@ -2156,6 +2165,7 @@ export function WordbookEditorPage() {
                   {selectedSetWords.map((word) => (
                     <BasicWordRow
                       key={word.id}
+                      setId={selectedSetId!}
                       active={word.id === selectedWordId}
                       changeTickRef={changeTickRef}
                       setChangeTick={setChangeTick}

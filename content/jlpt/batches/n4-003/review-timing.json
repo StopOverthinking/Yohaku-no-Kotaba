@@ -1,0 +1,96 @@
+[
+  {
+    "index": "01",
+    "startedAt": "2026-09-30T03:44:59.751Z",
+    "completedAt": "2026-09-30T03:49:35.156Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "correctedItems": 2,
+    "acceptedWords": 23,
+    "heldWords": 2,
+    "correctionBreakdown": {
+      "substantive": 2,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 6966,
+      "comparisons": 136315,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "02",
+    "startedAt": "2026-09-30T03:50:30.921Z",
+    "completedAt": "2026-09-30T03:52:12.661Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 23,
+    "heldWords": 2,
+    "correctedItems": 2,
+    "levelNoteClarifications": 23,
+    "correctionBreakdown": {
+      "substantive": 1,
+      "clarity": 1,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7014,
+      "comparisons": 138742,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  },
+  {
+    "index": "03",
+    "startedAt": "2026-09-30T03:57:35.706Z",
+    "completedAt": "2026-09-30T03:59:24.427Z",
+    "checkedWords": 25,
+    "checkedExamples": 26,
+    "acceptedWords": 25,
+    "acceptedExamples": 26,
+    "heldWords": 0,
+    "correctedItems": 25,
+    "correctionBreakdown": {
+      "substantive": 25,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "difficultyScaleCorrectedItems": 25,
+    "textCorrections": {
+      "substantive": 1,
+      "clarity": 1
+    },
+    "additionalUsageExamples": 1,
+    "similarity": {
+      "corpusExamples": 7115,
+      "comparisons": 143135,
+      "newPairs": [],
+      "allPairs": 0
+    },
+    "note": "난도 척도 보정 25개와 본문 교체·명료화 2개 및 중요 용법 보강 1개는 중복 집계하지 않는다."
+  },
+  {
+    "index": "04",
+    "startedAt": "2026-09-30T04:02:32.885Z",
+    "completedAt": "2026-09-30T04:07:12.329Z",
+    "checkedWords": 25,
+    "checkedExamples": 25,
+    "acceptedWords": 25,
+    "acceptedExamples": 25,
+    "heldWords": 0,
+    "correctedItems": 3,
+    "correctionBreakdown": {
+      "substantive": 3,
+      "clarity": 0,
+      "formattingOnly": 0
+    },
+    "similarity": {
+      "corpusExamples": 7165,
+      "comparisons": 145513,
+      "newPairs": [],
+      "allPairs": 0
+    }
+  }
+]

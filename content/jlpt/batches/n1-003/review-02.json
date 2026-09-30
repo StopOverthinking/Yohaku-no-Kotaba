@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "1aa172a9688e96830f7281d7263e48da2913419deb32f63db7864c754e157211",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; compact record",
+    "reviewedAt": "2026-09-30T05:13:42.899Z",
+    "notes": [
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1012870",
+      "edc4fbeff60a3e606d943190433af2b7971b381996de5600ccc9dde60d99b015"
+    ],
+    [
+      "lex-jmdict-1013070",
+      "0ffc1a462e04ce819cc770b80904be41817d1231e495462844fad443893812d4"
+    ],
+    [
+      "lex-jmdict-1013140",
+      "e76570cbf946e98d3d8616d4f2ac34374275d4403725fd1a178d56c1b0b9831f"
+    ],
+    [
+      "lex-jmdict-1018260",
+      "5695937f6076e32d1509f869c75573d14e5ed0d23f81dd3c615d80bed273bd55"
+    ],
+    [
+      "lex-jmdict-1018550",
+      "a3b19997784d8e8ad269927202172a41c16fd31b029fa19fb4202a1feb0e6d9b"
+    ],
+    [
+      "lex-jmdict-1023410",
+      "ab8039195a8491820f6a44a68f6cf6332cd6b7f9cf9fbfcc8360a853eb67fbe0"
+    ],
+    [
+      "lex-jmdict-1024430",
+      "c339ef839bdd76b329a1a881d7b2c134d2bfbc81cdd5999b5b72614b924fccff"
+    ],
+    [
+      "lex-jmdict-1030350",
+      "93985360dc0b63035363b9e5d5e67b414c1aedfa25592e72517374275f2c92dd"
+    ],
+    [
+      "lex-jmdict-1035550",
+      "b9df49d30a94396f4e11bba3c1ae99c6001d0fe7e2fc10fe20d0a2d03ca4bf31"
+    ],
+    [
+      "lex-jmdict-1037630",
+      "37207744ea91cfbc80072188f3e22c98356c290db3d58dcd6fc6b3e0c59fd397"
+    ],
+    [
+      "lex-jmdict-1037790",
+      "11d780ec1c8b6609683b70ac36adbbdd56a79c1b9178ae03a6c563edb40f162c"
+    ],
+    [
+      "lex-jmdict-1038320",
+      "e631cd78aac7518164646ddbed214a58a0464ca09c2f72986db48aed8b47d925"
+    ],
+    [
+      "lex-jmdict-1039000",
+      "e2091512c8e7d76a6d58de9dd51ca24f1993ec9a2506e10f1306cd35860d2724"
+    ],
+    [
+      "lex-jmdict-1039490",
+      "213e607e5efb02cf5ca059540b22a7727c7c61c03696ddf930de7d28600bb01a"
+    ],
+    [
+      "lex-jmdict-1041530",
+      "7af82350ab30761e06578558f97e015361c74e216d8c7fc9bce7b60bae2f9009"
+    ],
+    [
+      "lex-jmdict-1041980",
+      "1fd5c466b79a4c3d73e852059944ec71c6bdc3c5f0411f905ea3055cce6eb739"
+    ],
+    [
+      "lex-jmdict-1052780",
+      "c037eb65ce2e89a2f995460ec7c740805d89891eb3a2c2e1e9174cce9d7ccb7c"
+    ],
+    [
+      "lex-jmdict-1052830",
+      "524675b25691377d412a9a178f11fa5b6f3d2ee6bcfd88b4a6ad97e089591e1f"
+    ],
+    [
+      "lex-jmdict-1055520",
+      "aa6aeb254eccbb0727ccfac521b4702a3a371fa1612346773194fab4e6045edc"
+    ],
+    [
+      "lex-jmdict-1060610",
+      "30d039fecc92a400f20b1e938cdc3086c8f9a55065c3a44818ae24576bc4afb4"
+    ],
+    [
+      "lex-jmdict-1060830",
+      "b90b5de3e331abb9ec29efe46eab26a2ffb1315d58cb1946f456a95bea2dee09"
+    ],
+    [
+      "lex-jmdict-1065920",
+      "9d32c9414430739abe185381defc0dacf2b730d62a550350baf824e7b946ca98"
+    ],
+    [
+      "lex-jmdict-1071180",
+      "0ff12dd5bd940474f811d07bcb1f28abc3e67c042df3f45d9cc84061a361cfd6"
+    ],
+    [
+      "lex-jmdict-1072810",
+      "2e5ef1c6129355f1e2dab49971937cb032174e9971f2a8fb4f58f25ab1dbfc1c"
+    ],
+    [
+      "lex-jmdict-1074490",
+      "4e0654417e025c96330874bbb4d86973a36d4f55d8629698698ab14d9ef86b2d"
+    ]
+  ],
+  "corrections": [
+    {
+      "wordId": "lex-jmdict-1060830",
+      "category": "clarity",
+      "note": "최악의 예상 전개라는 어색한 번역을 자연스러운 시나리오로 정리."
+    },
+    {
+      "wordId": "lex-jmdict-1074490",
+      "category": "clarity",
+      "note": "문서 구획을 가리키는 부분을 뜻과 번역에 명시."
+    },
+    {
+      "wordId": "lex-jmdict-1052830",
+      "category": "substantive",
+      "note": "기존 感情의 분노를 말로 내뱉고 후회하는 장면과 겹쳐 온실 온도 자동 조절로 변경."
+    }
+  ]
+}

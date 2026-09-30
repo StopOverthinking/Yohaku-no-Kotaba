@@ -1,0 +1,15 @@
+[
+  {
+    "wordId": "lex-jmdict-1157170",
+    "contentHash": "491d1c559ac6cd03fbc55f53fb64f659c7c41a54bbe66da0062678e87e9e7eb1",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent AI editorial review; n5-006/review-summary.json",
+    "reviewedAt": "2026-09-30T01:30:31.591Z",
+    "notes": [
+      "する의 기본 행위 뜻과 불규칙 3그룹 활용을 확인했고 숙제·축구·수면 중 청소 자제의 세 장면 및 긍정·과거·부정 번역을 승인했다."
+    ]
+  }
+]

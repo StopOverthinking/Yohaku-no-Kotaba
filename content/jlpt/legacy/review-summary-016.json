@@ -1,0 +1,14 @@
+{
+  "scope": "legacy-classification-proposal-only",
+  "reviewedAt": "2026-09-30T05:32:06.878Z",
+  "checkedWords": 31,
+  "checkedExamples": 62,
+  "accepted": 31,
+  "held": 0,
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "notes": [
+    "원본 전체·사전·등급·별칭 제안을 전량 대조했다. 최소 예문 1개 정책을 적용하며 원본은 유지했다.",
+    "文章·孫·床 단어 뜻 범위 문제와 文字 장면 반복은 참조 게시 전에 별도로 검토한다. 屋根는 별칭 후보만 확인한다."
+  ]
+}

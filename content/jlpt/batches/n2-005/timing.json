@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T05:36:30.021Z",
+  "scope": "practical-vocabulary-integrated",
+  "pureCompositionTime": null,
+  "limitations": "저장 및 검사 시각은 실제 관측값이며 순수 사고·작성 시간은 분리 측정하지 않았다.",
+  "batches": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T05:37:51.069Z",
+      "metadataCompletedAt": "2026-09-30T05:37:52.847Z",
+      "draftCompletedAt": "2026-09-30T05:39:16.279Z",
+      "checksCompletedAt": "2026-09-30T05:39:16.432Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 100,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T05:41:56.142Z",
+      "metadataCompletedAt": "2026-09-30T05:43:30.819Z",
+      "draftCompletedAt": "2026-09-30T05:43:33.542Z",
+      "checksCompletedAt": "2026-09-30T05:43:33.692Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 1,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 102,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-09-30T05:46:09.099Z",
+      "metadataCompletedAt": "2026-09-30T05:47:45.426Z",
+      "draftCompletedAt": "2026-09-30T05:47:48.099Z",
+      "checksCompletedAt": "2026-09-30T05:47:48.248Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 2,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 104,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    },
+    {
+      "index": "04",
+      "startedAt": "2026-09-30T05:50:14.103Z",
+      "metadataCompletedAt": "2026-09-30T05:50:15.856Z",
+      "draftCompletedAt": "2026-09-30T05:51:47.387Z",
+      "checksCompletedAt": "2026-09-30T05:51:47.546Z",
+      "words": 25,
+      "examples": 25,
+      "revisionAttempts": 0,
+      "errorCount": 0,
+      "errors": [],
+      "comparedFiles": 106,
+      "duplicateMasked": 0,
+      "duplicateWords": 0
+    }
+  ]
+}

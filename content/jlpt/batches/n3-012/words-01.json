@@ -1,0 +1,110 @@
+[
+  {
+    "japanese": "指示",
+    "reading": "しじ",
+    "type": "noun",
+    "meaning": "지시",
+    "hint": "해야 할 일이나 방법을 상대에게 구체적으로 알려 줍니다.",
+    "confusion": "支持",
+    "distinction": "선택한 指示는 행동 방법을 지시하고 같은 발음의 支持는 찬성·지지를 뜻한다. 가리켜 보인다는 뜻도 있다.",
+    "dictionaryId": "jmdict-1309800",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 일상·업무에서 빈번한 행동 지시를 선택하며 추상적 지시 대상 논의는 제외. 공식 등급이 아니며 검토 후 조정 필요."
+  },
+  {
+    "japanese": "保険",
+    "reading": "ほけん",
+    "type": "noun",
+    "meaning": "보험",
+    "hint": "정해진 돈을 내고 사고·질병 등의 손해에 대비하는 제도입니다.",
+    "confusion": "保証",
+    "distinction": "선택한 保険는 보험 제도이고 保証는 책임을 지고 보장하는 일이다. 보장책이라는 비유적 뜻도 있다.",
+    "dictionaryId": "jmdict-1513440",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 생활 계약·병원·차량 문맥의 익숙한 보험 제도를 선택. 공식 등급이 아니며 검토 후 조정 필요."
+  },
+  {
+    "japanese": "治療",
+    "reading": "ちりょう",
+    "type": "noun",
+    "meaning": "치료",
+    "hint": "질병·상처 등을 낫게 하거나 상태를 개선하는 조치입니다.",
+    "confusion": "診療",
+    "distinction": "治療는 낫게 하는 치료이고 診療는 진찰과 치료를 아우른다.",
+    "dictionaryId": "jmdict-1316890",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 생활·병원에서의 질병 치료를 선택; 전문 시술 의미는 추가하지 않음. 공식 등급이 아니며 검토 후 조정 필요."
+  },
+  {
+    "japanese": "避難",
+    "reading": "ひなん",
+    "type": "noun",
+    "meaning": "대피, 피난",
+    "hint": "위험한 곳을 떠나 안전한 장소로 옮깁니다.",
+    "confusion": "非難",
+    "distinction": "避難는 위험을 피함이고 같은 발음의 非難는 남을 비판·비난함이다.",
+    "dictionaryId": "jmdict-1484660",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 비공식 편집 권장 제안은 N3이다. 재난 안내·생활 안전에서 구체적인 대피 행동을 선택. 공식 등급이 아니며 검토 후 조정 필요."
+  },
+  {
+    "japanese": "アンケート",
+    "reading": "アンケート",
+    "type": "noun",
+    "meaning": "설문 조사",
+    "hint": "여러 사람에게 같은 질문을 하여 의견·상태를 모으는 조사입니다.",
+    "confusion": "インタビュー",
+    "distinction": "アンケート는 질문지 등의 설문이고 インタビュー는 상대와 대화하는 인터뷰이다.",
+    "dictionaryId": "jmdict-1019940",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 시설·학교·서비스의 일상적 설문 조사 장면을 선택. 공식 등급이 아니며 검토 후 확정."
+  },
+  {
+    "japanese": "コミュニケーション",
+    "reading": "コミュニケーション",
+    "type": "noun",
+    "meaning": "의사소통",
+    "hint": "사람들이 생각·감정·정보를 주고받고 서로 이해하는 과정입니다.",
+    "confusion": "会話",
+    "distinction": "コミュニケーション는 말·표정·글 등을 통한 의사소통이고 会話는 대화에 한정된다.",
+    "dictionaryId": "jmdict-1050980",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 일상·직장에서 서로 이해하는 소통의 기본 의미. 공식 등급이 아니며 검토 후 확정."
+  },
+  {
+    "japanese": "データ",
+    "reading": "データ",
+    "type": "noun",
+    "meaning": "데이터, 자료",
+    "hint": "관찰·기록·계산 등을 통해 얻은 정보들의 집합입니다.",
+    "confusion": "デート",
+    "distinction": "データ는 기록된 자료이고 비슷하게 들리는 デート는 데이트이다.",
+    "dictionaryId": "jmdict-1081190",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 생활·업무에서 다루는 기록 정보의 기본 의미. 공식 등급이 아니며 검토 후 확정."
+  },
+  {
+    "japanese": "トラブル",
+    "reading": "トラブル",
+    "type": "noun",
+    "meaning": "문제, 말썽",
+    "hint": "사람 사이의 분쟁이나 계획대로 되지 않는 문제입니다.",
+    "confusion": "事故",
+    "distinction": "선택한 トラブル는 분쟁·문제이고 事故는 사고이다. 기기 고장·건강 문제에도 쓰인다.",
+    "dictionaryId": "jmdict-1085920",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 생활·거래에서의 분쟁이나 문제라는 구체 의미. 공식 등급이 아니며 검토 후 확정."
+  },
+  {
+    "japanese": "オンライン",
+    "reading": "オンライン",
+    "type": "noun",
+    "meaning": "온라인",
+    "hint": "인터넷 등 통신망에 연결하여 이용하는 상태입니다.",
+    "confusion": "オフライン",
+    "distinction": "선택한 オンライン는 통신망에 연결됨이고 オフライン는 연결되지 않음이다. 스포츠 공이 선 위에 있다는 뜻은 선택하지 않았다.",
+    "dictionaryId": "jmdict-1036080",
+    "level": "N3",
+    "levelNote": "OpenJLPT 출처 연결 N1과 별개로 선택 의미에 대한 비공식 편집 제안은 N3이다. 인터넷 수업·접수의 일상적인 연결 상태를 선택. 공식 등급이 아니며 검토 후 확정."
+  }
+]
