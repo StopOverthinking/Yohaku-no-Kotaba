@@ -1,0 +1,580 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1505330",
+      "japanese": "文献",
+      "reading": "ぶんけん",
+      "level": "N2",
+      "spellings": [
+        "文献"
+      ],
+      "readings": [
+        "ぶんけん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "文献"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1505630",
+      "japanese": "文脈",
+      "reading": "ぶんみゃく",
+      "level": "N2",
+      "spellings": [
+        "文脈"
+      ],
+      "readings": [
+        "ぶんみゃく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "文脈"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1508480",
+      "japanese": "並行",
+      "reading": "へいこう",
+      "level": "N2",
+      "spellings": [
+        "並行",
+        "併行"
+      ],
+      "readings": [
+        "へいこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "並行"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1523270",
+      "japanese": "本来",
+      "reading": "ほんらい",
+      "level": "N2",
+      "spellings": [
+        "本来"
+      ],
+      "readings": [
+        "ほんらい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "本来"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1523830",
+      "japanese": "摩擦",
+      "reading": "まさつ",
+      "level": "N2",
+      "spellings": [
+        "摩擦"
+      ],
+      "readings": [
+        "まさつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "摩擦"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1531090",
+      "japanese": "矛盾",
+      "reading": "むじゅん",
+      "level": "N2",
+      "spellings": [
+        "矛盾",
+        "矛楯"
+      ],
+      "readings": [
+        "むじゅん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "矛盾"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1528630",
+      "japanese": "民間",
+      "reading": "みんかん",
+      "level": "N2",
+      "spellings": [
+        "民間"
+      ],
+      "readings": [
+        "みんかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "民間"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1529880",
+      "japanese": "無限",
+      "reading": "むげん",
+      "level": "N2",
+      "spellings": [
+        "無限"
+      ],
+      "readings": [
+        "むげん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "無限"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1538850",
+      "japanese": "輸送",
+      "reading": "ゆそう",
+      "level": "N2",
+      "spellings": [
+        "輸送"
+      ],
+      "readings": [
+        "ゆそう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "輸送"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1541610",
+      "japanese": "有無",
+      "reading": "うむ",
+      "level": "N2",
+      "spellings": [
+        "有無"
+      ],
+      "readings": [
+        "うむ",
+        "ゆうむ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "有無"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546270",
+      "japanese": "用語",
+      "reading": "ようご",
+      "level": "N2",
+      "spellings": [
+        "用語"
+      ],
+      "readings": [
+        "ようご"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "用語"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546380",
+      "japanese": "用途",
+      "reading": "ようと",
+      "level": "N2",
+      "spellings": [
+        "用途"
+      ],
+      "readings": [
+        "ようと"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "用途"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546770",
+      "japanese": "要旨",
+      "reading": "ようし",
+      "level": "N2",
+      "spellings": [
+        "要旨"
+      ],
+      "readings": [
+        "ようし"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "要旨"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546850",
+      "japanese": "要領",
+      "reading": "ようりょう",
+      "level": "N2",
+      "spellings": [
+        "要領"
+      ],
+      "readings": [
+        "ようりょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "要領"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1549500",
+      "japanese": "利害",
+      "reading": "りがい",
+      "level": "N2",
+      "spellings": [
+        "利害"
+      ],
+      "readings": [
+        "りがい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "利害"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1555610",
+      "japanese": "臨時",
+      "reading": "りんじ",
+      "level": "N2",
+      "spellings": [
+        "臨時"
+      ],
+      "readings": [
+        "りんじ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "臨時"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1556410",
+      "japanese": "例外",
+      "reading": "れいがい",
+      "level": "N2",
+      "spellings": [
+        "例外"
+      ],
+      "readings": [
+        "れいがい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "例外"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1596370",
+      "japanese": "相互",
+      "reading": "そうご",
+      "level": "N2",
+      "spellings": [
+        "相互"
+      ],
+      "readings": [
+        "そうご"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "相互"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1601160",
+      "japanese": "反映",
+      "reading": "はんえい",
+      "level": "N2",
+      "spellings": [
+        "反映",
+        "反影"
+      ],
+      "readings": [
+        "はんえい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "反映"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1603240",
+      "japanese": "編集",
+      "reading": "へんしゅう",
+      "level": "N2",
+      "spellings": [
+        "編集",
+        "編修",
+        "編輯"
+      ],
+      "readings": [
+        "へんしゅう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "編集"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1603660",
+      "japanese": "膨大",
+      "reading": "ぼうだい",
+      "level": "N2",
+      "spellings": [
+        "膨大",
+        "厖大",
+        "尨大"
+      ],
+      "readings": [
+        "ぼうだい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "膨大"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1589880",
+      "japanese": "関わる",
+      "reading": "かかわる",
+      "level": "N2",
+      "spellings": [
+        "関わる",
+        "係わる",
+        "拘る",
+        "関る",
+        "拘わる",
+        "係る"
+      ],
+      "readings": [
+        "かかわる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "係わる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1593780",
+      "japanese": "差し支え",
+      "reading": "さしつかえ",
+      "level": "N2",
+      "spellings": [
+        "差し支え",
+        "差支え",
+        "差閊",
+        "差閊え"
+      ],
+      "readings": [
+        "さしつかえ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "差し支え"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1596860",
+      "japanese": "蓄える",
+      "reading": "たくわえる",
+      "level": "N2",
+      "spellings": [
+        "蓄える",
+        "貯える"
+      ],
+      "readings": [
+        "たくわえる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "蓄える"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546090",
+      "japanese": "溶け込む",
+      "reading": "とけこむ",
+      "level": "N2",
+      "spellings": [
+        "溶け込む",
+        "融け込む",
+        "解け込む",
+        "溶込む",
+        "解込む",
+        "溶けこむ",
+        "とけ込む",
+        "融けこむ",
+        "解けこむ"
+      ],
+      "readings": [
+        "とけこむ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "溶け込む"
+        ]
+      }
+    }
+  ]
+}

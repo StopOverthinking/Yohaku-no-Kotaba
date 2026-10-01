@@ -1676,6 +1676,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1096830-1",
+    "wordId": "lex-jmdict-1096830",
+    "version": 1,
+    "meaning": "운전대",
+    "hint": "차량의 진행 방향을 조절하는 장치",
+    "confusions": [
+      {
+        "japanese": "ブレーキ",
+        "distinction": "방향을 바꾸는 장치와 속도를 줄이는 장치를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1096830-1-ex-1",
+        "version": 1,
+        "before": "運転中は、両手で",
+        "answer": "ハンドル",
+        "after": "を握ってください。",
+        "reading": "ハンドル",
+        "translation": "운전 중에는 양손으로 운전대를 잡아 주세요.",
+        "translationTarget": "운전대",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1073570-1",
+    "wordId": "lex-jmdict-1073570",
+    "version": 1,
+    "meaning": "세련되다·맵시 있다",
+    "hint": "옷차림이나 몸가짐이 깔끔하고 보기 좋은 상태",
+    "confusions": [
+      {
+        "japanese": "だらしない",
+        "distinction": "단정하고 세련된 모습과 흐트러진 모습을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1073570-1-ex-1",
+        "version": 1,
+        "before": "父は細いネクタイを締めると、いつもより",
+        "answer": "スマート",
+        "after": "に見える。",
+        "reading": "スマート",
+        "translation": "아버지는 가는 넥타이를 매면 평소보다 세련되게 보인다.",
+        "translationTarget": "세련되게",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505150-1",
+    "wordId": "lex-jmdict-1505150",
+    "version": 1,
+    "meaning": "문화재",
+    "hint": "역사·문화적으로 가치가 있어 보존할 유산입니다.",
+    "confusions": [
+      {
+        "japanese": "財産",
+        "distinction": "文化財는 문화적 가치를 지닌 유산이고 財産는 소유한 재산 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505150-1-ex-1",
+        "version": 1,
+        "before": "古い寺の建物は、",
+        "answer": "文化財",
+        "after": "として大切に保存されている。",
+        "reading": "ぶんかざい",
+        "translation": "오래된 사찰 건물은 문화재로 소중히 보존되고 있다.",
+        "translationTarget": "문화재",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539100-1",
+    "wordId": "lex-jmdict-1539100",
+    "version": 1,
+    "meaning": "우위",
+    "hint": "비교 대상보다 유리하거나 앞선 위치에 있습니다.",
+    "confusions": [
+      {
+        "japanese": "上位",
+        "distinction": "優位는 비교에서 유리함이고 上位는 순위·지위가 높음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539100-1-ex-1",
+        "version": 1,
+        "before": "独自の技術によって、競争で",
+        "answer": "優位",
+        "after": "に立った。",
+        "reading": "ゆうい",
+        "translation": "독자적인 기술로 경쟁에서 우위에 섰다.",
+        "translationTarget": "우위",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1447270-1",
+    "wordId": "lex-jmdict-1447270",
+    "version": 1,
+    "meaning": "투서·독자 투고",
+    "hint": "신문이나 기관 등에 의견이나 요구를 글로 보내는 것",
+    "confusions": [
+      {
+        "japanese": "返信",
+        "distinction": "의견을 써서 보내는 것과 받은 글에 답하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1447270-1-ex-1",
+        "version": 1,
+        "before": "新聞に",
+        "answer": "投書",
+        "after": "したら、翌週の紙面に意見が載った。",
+        "reading": "とうしょ",
+        "translation": "신문에 독자 투고를 했더니 다음 주 지면에 의견이 실렸다.",
+        "translationTarget": "독자 투고",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527110-1",
+    "wordId": "lex-jmdict-1527110",
+    "version": 1,
+    "meaning": "아직, 여전히",
+    "hint": "기대하는 변화가 일어나지 않아 이전 상태가 이어지는 모습",
+    "confusions": [
+      {
+        "japanese": "もう",
+        "distinction": "변화 전 상태가 이어지거나 아직 끝나지 않은 상태와 이미 변화한 상태를 구별한다. 긍정문에서는 여전히, 부정문에서는 아직 하지 않았다는 뜻으로 쓰인다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527110-1-ex-1",
+        "version": 1,
+        "before": "雨がやんでも、道は",
+        "answer": "まだ",
+        "after": "ぬれています。",
+        "reading": "まだ",
+        "translation": "비가 그쳐도 길은 아직 젖어 있어요.",
+        "translationTarget": "아직",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

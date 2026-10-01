@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "78bd7673e062340525f441a8b471877474655d2f08a4915d271b32a84c80c0bb",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+    "reviewedAt": "2026-10-01T00:21:28.038Z",
+    "notes": [
+      "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+      "게시 전 현재 원본과 모든 미게시 pilot을 합친 9176예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1333810",
+      "d2408b78a050cc94efdb63a4ee1908be66c2ec44c2e0ba129c25a81517ddc166"
+    ],
+    [
+      "lex-jmdict-1341910",
+      "ebde42515e8404661ca582d918c43d273da851c927956bdb8971b68d2f2f1346"
+    ],
+    [
+      "lex-jmdict-1378140",
+      "58bc3da35532cd07575fd759139edf508803daa629ab3d7f2e645e1cb93e71b5"
+    ],
+    [
+      "lex-jmdict-1539660",
+      "0daf60c77b61ec9141991274e7b8316313f8c2f5b77eb8e063c9269f4b813942"
+    ],
+    [
+      "lex-jmdict-1596440",
+      "6eea9e65a0d25e6b73b196fd020d7a473153533dc84694aaaecb59f49c16c96e"
+    ],
+    [
+      "lex-jmdict-1604650",
+      "f199a565ea216265b86c7b792ee874786a3a9a751a91938d0f1aeec92c02687b"
+    ]
+  ]
+}

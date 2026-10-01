@@ -104,12 +104,12 @@
   },
   {
     "wordId": "AbsoluteVerb_143",
-    "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
-    "level": "N3",
+    "sourceHash": "70b57763254181d3bab445ad8bd95c9d7292e0a210fe0940db50f900da4d6cb2",
+    "level": "N4",
     "dictionaryId": "jmdict-1532710",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
-    "meaningReview": "기존 뜻 “헤매다, 망설이다” 및 1개 sense를 대조했다. hesitate와 색 선택·초대 수락 고민 예문이 일치한다. 출처 등급은 없지만 생활 의사 결정의 일반 동사로 N3를 편집 제안한다. 길 헤맴은 현재 sense와 분리한다.",
+    "levelNote": "선택 망설임과 길을 잃는 일상 기본 용법을 함께 고려하여 비공식 N4로 재검토한다.",
+    "meaningReview": "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -243,28 +243,24 @@
   {
     "wordId": "AbsoluteVerb_161",
     "sourceHash": "2a2258997b40c1dd6428fdbffe2bf2ae7a0c621b0fb7710d4937d10b8ec07150",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N5",
+    "dictionaryId": "jmdict-1296400",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “(사물, 식물이) 있다” 및 1개 sense를 대조했다. 빵집·열쇠 존재 예문은 무생물 존재에 일관된다. 제공 후보가 없어 ある의 존재 동사 항목 연결을 보류한다.",
+    "levelNote": "현재 선택된 기초 ある 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준.",
+    "meaningReview": "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다. 有る의 존재 동사를 或る의 연체사와 구분한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "ある의 존재 용법에 해당하는 사전 연결이 필요하다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_162",
     "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N5",
+    "dictionaryId": "jmdict-1577980",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “(사람, 동물이) 있다” 및 1개 sense를 대조했다. 고양이·교사 존재 예문은 유정물 존재에 일관된다. 제공 후보가 없어 いる의 존재 동사 항목과 다른 동음어 구별을 보류한다.",
+    "levelNote": "현재 선택된 기초 いる 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준.",
+    "meaningReview": "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다. 居る의 유정물 존재 동사를 要る/炒る/入る와 구분한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "いる의 사람·동물 존재 의미 사전 연결이 필요하다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_163",

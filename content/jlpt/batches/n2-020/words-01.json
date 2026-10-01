@@ -1,0 +1,50 @@
+[
+  {
+    "japanese": "ジャーナリスト",
+    "reading": "ジャーナリスト",
+    "type": "noun",
+    "meaning": "언론인·기자",
+    "hint": "사건을 조사하고 보도하는 일을 하는 사람",
+    "confusion": "作家",
+    "distinction": "사실을 취재해 보도하는 사람과 작품을 쓰는 사람을 구별한다.",
+    "dictionaryId": "jmdict-1064980",
+    "level": "N2",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "スマート",
+    "reading": "スマート",
+    "type": "na_adj",
+    "meaning": "세련되다·맵시 있다",
+    "hint": "옷차림이나 몸가짐이 깔끔하고 보기 좋은 상태",
+    "confusion": "だらしない",
+    "distinction": "단정하고 세련된 모습과 흐트러진 모습을 구별한다.",
+    "dictionaryId": "jmdict-1073570",
+    "level": "N2",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "ゼミ",
+    "reading": "ゼミ",
+    "type": "noun",
+    "meaning": "대학 세미나·연구 수업",
+    "hint": "교수와 소수의 학생이 함께 연구하거나 토론하는 대학 수업",
+    "confusion": "講義",
+    "distinction": "소규모 연구와 토론 중심 수업과 설명을 듣는 수업을 구별한다.",
+    "dictionaryId": "jmdict-1075160",
+    "level": "N2",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "ベテラン",
+    "reading": "ベテラン",
+    "type": "noun",
+    "meaning": "숙련자·베테랑",
+    "hint": "오랜 경험으로 해당 일을 능숙하게 하는 사람",
+    "confusion": "新人",
+    "distinction": "경험이 많아 능숙한 사람과 일을 처음 시작한 사람을 구별한다.",
+    "dictionaryId": "jmdict-1119700",
+    "level": "N2",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  }
+]

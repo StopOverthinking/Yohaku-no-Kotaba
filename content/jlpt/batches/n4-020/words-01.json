@@ -1,0 +1,62 @@
+[
+  {
+    "japanese": "スカーフ",
+    "reading": "スカーフ",
+    "type": "noun",
+    "meaning": "스카프",
+    "hint": "목이나 머리에 두르는 얇은 천",
+    "confusion": "マフラー",
+    "distinction": "얇은 장식용 천과 추위를 막는 두꺼운 목도리를 구별한다.",
+    "dictionaryId": "jmdict-1067480",
+    "level": "N4",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "ネックレス",
+    "reading": "ネックレス",
+    "type": "noun",
+    "meaning": "목걸이",
+    "hint": "장식으로 목에 걸고 다니는 물건",
+    "confusion": "指輪",
+    "distinction": "목에 거는 장식과 손가락에 끼는 장식을 구별한다.",
+    "dictionaryId": "jmdict-1093000",
+    "level": "N4",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "フライパン",
+    "reading": "フライパン",
+    "type": "noun",
+    "meaning": "프라이팬",
+    "hint": "재료를 굽거나 볶는 데 쓰는 바닥이 넓은 조리 기구",
+    "confusion": "鍋",
+    "distinction": "바닥이 넓은 굽기용 기구와 깊은 끓이기용 기구를 구별한다.",
+    "dictionaryId": "jmdict-1111160",
+    "level": "N4",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "ポスター",
+    "reading": "ポスター",
+    "type": "noun",
+    "meaning": "포스터",
+    "hint": "알림이나 광고를 위해 눈에 띄게 붙이는 큰 인쇄물",
+    "confusion": "チラシ",
+    "distinction": "벽에 붙이는 큰 인쇄물과 손에 나눠 주는 작은 인쇄물을 구별한다.",
+    "dictionaryId": "jmdict-1125110",
+    "level": "N4",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  },
+  {
+    "japanese": "マンション",
+    "reading": "マンション",
+    "type": "noun",
+    "meaning": "아파트·공동 주택",
+    "hint": "여러 가구가 나누어 사는 비교적 큰 공동 주거 건물",
+    "confusion": "一戸建て",
+    "distinction": "여러 가구가 사는 건물과 한 가구의 독립 주택을 구별한다.",
+    "dictionaryId": "jmdict-1130040",
+    "level": "N4",
+    "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다."
+  }
+]

@@ -1148,6 +1148,390 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1081120-1",
+    "wordId": "lex-jmdict-1081120",
+    "version": 1,
+    "meaning": "속도·템포",
+    "hint": "음악이나 일의 진행이 빠르거나 느린 정도",
+    "confusions": [
+      {
+        "japanese": "リズム",
+        "distinction": "진행 속도와 반복되는 박자의 짜임을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1081120-1-ex-1",
+        "version": 1,
+        "before": "録音を聞いたら、後半の",
+        "answer": "テンポ",
+        "after": "が速くなっていた。",
+        "reading": "テンポ",
+        "translation": "녹음을 들어 보니 후반의 템포가 빨라져 있었다.",
+        "translationTarget": "템포",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360380-1",
+    "wordId": "lex-jmdict-1360380",
+    "version": 1,
+    "meaning": "심사",
+    "hint": "제출물·자격 등이 기준에 맞는지 검토하여 평가합니다.",
+    "confusions": [
+      {
+        "japanese": "審議",
+        "distinction": "審査는 기준에 따른 평가이고 審議는 안건에 대한 논의다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360380-1-ex-1",
+        "version": 1,
+        "before": "書類の",
+        "answer": "審査",
+        "after": "を通過した応募者に、面接の日程を知らせた。",
+        "reading": "しんさ",
+        "translation": "서류 심사를 통과한 지원자에게 면접 일정을 알렸다.",
+        "translationTarget": "심사",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1406190-1",
+    "wordId": "lex-jmdict-1406190",
+    "version": 1,
+    "meaning": "존속",
+    "hint": "조직·제도 등이 없어지지 않고 계속 존재합니다.",
+    "confusions": [
+      {
+        "japanese": "継続",
+        "distinction": "存続는 존재가 이어짐이고 継続는 행동·상태를 계속함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1406190-1-ex-1",
+        "version": 1,
+        "before": "利用者が減り、小さな映画館の",
+        "answer": "存続",
+        "after": "が危ぶまれている。",
+        "reading": "そんぞく",
+        "translation": "이용자가 줄어 작은 영화관의 존속이 위태로워지고 있다.",
+        "translationTarget": "존속",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325840-1",
+    "wordId": "lex-jmdict-1325840",
+    "version": 1,
+    "meaning": "주체, 중심 구성 요소",
+    "hint": "활동의 중심이 되어 직접 담당하는 사람·집단입니다.",
+    "confusions": [
+      {
+        "japanese": "客体",
+        "distinction": "선택한 主体는 활동의 중심 담당자이고 客体는 행위·인식의 대상이다. 구성의 핵심 부분이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325840-1-ex-1",
+        "version": 1,
+        "before": "地域の活動では、住民自身が運営の",
+        "answer": "主体",
+        "after": "となっている。",
+        "reading": "しゅたい",
+        "translation": "지역 활동에서는 주민 자신이 운영의 주체가 되고 있다.",
+        "translationTarget": "주체",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591210-1",
+    "wordId": "lex-jmdict-1591210",
+    "version": 1,
+    "meaning": "기준",
+    "hint": "판단하거나 비교할 때 근거로 삼는 수준이나 규칙",
+    "confusions": [
+      {
+        "japanese": "結果",
+        "distinction": "판단의 근거와 판단 후 나온 결과를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591210-1-ex-1",
+        "version": 1,
+        "before": "作品を選ぶ",
+        "answer": "基準",
+        "after": "は、上手さだけではありません。",
+        "reading": "きじゅん",
+        "translation": "작품을 고르는 기준은 능숙함만이 아닙니다.",
+        "translationTarget": "기준",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601830-1",
+    "wordId": "lex-jmdict-1601830",
+    "version": 1,
+    "meaning": "햇살·햇볕",
+    "hint": "태양에서 내려오는 빛과 그 세기",
+    "confusions": [
+      {
+        "japanese": "日当たり",
+        "distinction": "내려오는 햇빛 자체와 장소에 햇빛이 드는 조건을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601830-1-ex-1",
+        "version": 1,
+        "before": "午後の",
+        "answer": "日差し",
+        "after": "が強いので、カーテンを半分閉めた。",
+        "reading": "ひざし",
+        "translation": "오후 햇살이 강해서 커튼을 반쯤 닫았다.",
+        "translationTarget": "햇살",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512480-1",
+    "wordId": "lex-jmdict-1512480",
+    "version": 1,
+    "meaning": "편의",
+    "hint": "일을 편리하게 처리할 수 있도록 돕는 사정·조치입니다.",
+    "confusions": [
+      {
+        "japanese": "便利",
+        "distinction": "便宜는 편리하도록 제공하는 조치·혜택에 흔하고 便利는 편리한 성질 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512480-1-ex-1",
+        "version": 1,
+        "before": "遠方から来る参加者のため、交通の",
+        "answer": "便宜",
+        "after": "を図った。",
+        "reading": "べんぎ",
+        "translation": "멀리서 오는 참가자를 위해 교통 편의를 제공했다.",
+        "translationTarget": "편의",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528290-1",
+    "wordId": "lex-jmdict-1528290",
+    "version": 1,
+    "meaning": "밀접함",
+    "hint": "두 대상의 관계가 매우 가깝고 깊습니다.",
+    "confusions": [
+      {
+        "japanese": "密集",
+        "distinction": "密接는 관계의 가까움이고 密集는 한곳에 빽빽이 모임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528290-1-ex-1",
+        "version": 1,
+        "before": "睡眠の質は、日中の集中力と",
+        "answer": "密接",
+        "after": "に関係している。",
+        "reading": "みっせつ",
+        "translation": "수면의 질은 낮의 집중력과 밀접하게 관련되어 있다.",
+        "translationTarget": "밀접하게",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404750-1",
+    "wordId": "lex-jmdict-1404750",
+    "version": 1,
+    "meaning": "충분하다·그럴 만하다",
+    "hint": "필요한 기준을 채워 그렇게 인정할 수 있어요.",
+    "confusions": [
+      {
+        "japanese": "欠ける",
+        "distinction": "인정할 기준을 채운 상태와 필요한 것이 부족한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404750-1-ex-1",
+        "version": 1,
+        "before": "この説明には、信頼するに",
+        "answer": "足る",
+        "after": "根拠がある。",
+        "reading": "たる",
+        "translation": "이 설명에는 신뢰할 만한 근거가 있다.",
+        "translationTarget": "만한",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1442240-1",
+    "wordId": "lex-jmdict-1442240",
+    "version": 1,
+    "meaning": "전달",
+    "hint": "내용·신호를 다른 사람·곳에 전합니다.",
+    "confusions": [
+      {
+        "japanese": "伝承",
+        "distinction": "伝達는 정보·신호를 전함이고 伝承는 전통·지식을 세대에 걸쳐 이어 전함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1442240-1-ex-1",
+        "version": 1,
+        "before": "担当者が変わり、連絡事項の",
+        "answer": "伝達",
+        "after": "に漏れがあった。",
+        "reading": "でんたつ",
+        "translation": "담당자가 바뀌어 연락 사항 전달에 빠진 것이 있었다.",
+        "translationTarget": "전달",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1461870-1",
+    "wordId": "lex-jmdict-1461870",
+    "version": 1,
+    "meaning": "이차·두 번째 단계",
+    "hint": "한 번 진행한 뒤 다음으로 이어지는 단계",
+    "confusions": [
+      {
+        "japanese": "一次",
+        "distinction": "두 번째로 이어지는 단계와 첫 단계를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1461870-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "二次",
+        "after": "試験では、筆記だけでなく面接もあります。",
+        "reading": "にじ",
+        "translation": "이차 시험에서는 필기뿐 아니라 면접도 있습니다.",
+        "translationTarget": "이차",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1372350-1",
+    "wordId": "lex-jmdict-1372350",
+    "version": 1,
+    "meaning": "취사",
+    "hint": "먹을 음식을 마련하고 조리하는 집안일",
+    "confusions": [
+      {
+        "japanese": "洗濯",
+        "distinction": "음식을 마련하는 일과 옷을 빠는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1372350-1-ex-1",
+        "version": 1,
+        "before": "キャンプでは、",
+        "answer": "炊事",
+        "after": "と片付けを交代で担当した。",
+        "reading": "すいじ",
+        "translation": "캠핑에서는 취사와 정리를 번갈아 맡았다.",
+        "translationTarget": "취사",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,109 @@
+{
+  "at": "2026-10-01T01:22:13.271Z",
+  "scope": "2026-10-01 resumed around 5000 unique level words",
+  "approximateTarget": 5000,
+  "start": {
+    "levelWords": 3427,
+    "newWords": 3083,
+    "byLevel": {
+      "N5": 412,
+      "N4": 509,
+      "N3": 1338,
+      "N2": 529,
+      "N1": 639
+    }
+  },
+  "current": {
+    "levelWords": 4861,
+    "newWords": 4114,
+    "byLevel": {
+      "N5": 599,
+      "N4": 648,
+      "N3": 1727,
+      "N2": 1056,
+      "N1": 831
+    },
+    "appWords": 5635,
+    "appSenses": 5658,
+    "appExamples": 9616,
+    "levelExamples": 8068,
+    "activeAliasGroups": 27
+  },
+  "delta": {
+    "levelWords": 1434,
+    "newWords": 1031
+  },
+  "integrationReceipts": [
+    {
+      "at": "2026-09-30T23:46:05.878Z",
+      "addedWords": 134,
+      "addedNewWords": 0,
+      "addedExamples": 268
+    },
+    {
+      "at": "2026-09-30T23:48:06.797Z",
+      "addedWords": 50,
+      "addedNewWords": 50,
+      "addedExamples": 50
+    },
+    {
+      "at": "2026-09-30T23:50:07.363Z",
+      "addedWords": 102,
+      "addedNewWords": 0,
+      "addedExamples": 204
+    },
+    {
+      "at": "2026-09-30T23:51:53.762Z",
+      "addedWords": 31,
+      "addedNewWords": 31,
+      "addedExamples": 31
+    },
+    {
+      "at": "2026-09-30T23:54:01.777Z",
+      "addedWords": 75,
+      "addedNewWords": 75,
+      "addedExamples": 75
+    },
+    {
+      "at": "2026-09-30T23:59:53.940Z",
+      "addedWords": 71,
+      "addedNewWords": 71,
+      "addedExamples": 71
+    }
+  ],
+  "note": "Final bounded published corpus snapshot; source/batch/reference/alias/revision checks pass and approval/publish pending words are zero. Astra high whole-scope approval is accepted and matches this current selection hash and count. Existing partial historical integrationReceipts are preserved and do not sum to the final delta. Raw authored982 includes held determiner あの1; accepted981 excludes it. Earlier duplicate drafts3, recovered missing examples30, and previously ready20-word manuscript are separate. No public release claim or pure reasoning time estimate.",
+  "previousRecordedCurrent": {
+    "levelWords": 3890,
+    "newWords": 3310,
+    "byLevel": {
+      "N5": 491,
+      "N4": 564,
+      "N3": 1496,
+      "N2": 640,
+      "N1": 699
+    }
+  },
+  "contentSnapshotHash": "5b499f3276578ec18c04901cd2a747d482266e344b6e1f4b978400bf1b96cba4",
+  "selectionSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+  "finalScopeApproval": {
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "sourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+    "currentSelectionSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+    "currentHashMatches": true,
+    "currentCountMatches": true,
+    "progressComplete": true,
+    "mechanicalSourceApprovalIsSeparateFromFinalSelection": true
+  },
+  "freshAuthoring": {
+    "rawBoundedDraftWords": 982,
+    "acceptedNewWords": 981,
+    "heldDifferentCoreDraftWords": 1,
+    "earlierExcludedDuplicateDraftWords": 3,
+    "grossWorkBeforeBothExclusions": 985,
+    "previouslySelectedMissingExamplesRecovered": 30,
+    "previousReadyManuscriptNewWordsSeparate": 20
+  },
+  "integrationReceiptHistoryComplete": false
+}

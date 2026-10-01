@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "kind": "authorized-core-preserving-content",
+  "draft": {
+    "schemaVersion": 1,
+    "id": "fix-proposals-005",
+    "scope": "legacy-content-revision",
+    "entries": [
+      {
+        "wordId": "JLPTN3_70",
+        "before": {
+          "word": {
+            "id": "JLPTN3_70",
+            "setId": "jlpt-n3",
+            "japanese": "違う",
+            "reading": "ちがう",
+            "meaning": "다르다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1자",
+            "sourceOrder": 69
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_70-1",
+              "wordId": "JLPTN3_70",
+              "version": 1,
+              "meaning": "다르다",
+              "hint": "비교하는 두 대상이 같지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "間違う",
+                  "distinction": "차이가 있다는 것만으로 어느 한쪽이 틀렸다는 뜻은 아니다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_70-1-ex-1",
+                  "version": 1,
+                  "before": "双子でも、好きな食べ物は",
+                  "answer": "違う",
+                  "after": "。",
+                  "reading": "ちがう",
+                  "translation": "쌍둥이라도 좋아하는 음식은 다르다.",
+                  "translationTarget": "다르다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_70-1-ex-2",
+                  "version": 1,
+                  "before": "写真と色が",
+                  "answer": "違った",
+                  "after": "ので、店に問い合わせた。",
+                  "reading": "ちがった",
+                  "translation": "사진과 색이 달라서 가게에 문의했다.",
+                  "translationTarget": "달라서",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_70",
+            "setId": "jlpt-n3",
+            "japanese": "違う",
+            "reading": "ちがう",
+            "meaning": "다르다, 틀리다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1자",
+            "sourceOrder": 69
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_70-1",
+              "wordId": "JLPTN3_70",
+              "version": 1,
+              "meaning": "다르다",
+              "hint": "비교하는 두 대상이 같지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "間違う",
+                  "distinction": "차이가 있다는 것만으로 어느 한쪽이 틀렸다는 뜻은 아니다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_70-1-ex-1",
+                  "version": 1,
+                  "before": "双子でも、好きな食べ物は",
+                  "answer": "違う",
+                  "after": "。",
+                  "reading": "ちがう",
+                  "translation": "쌍둥이라도 좋아하는 음식은 다르다.",
+                  "translationTarget": "다르다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_70-1-ex-2",
+                  "version": 1,
+                  "before": "写真と色が",
+                  "answer": "違った",
+                  "after": "ので、店に問い合わせた。",
+                  "reading": "ちがった",
+                  "translation": "사진과 색이 달라서 가게에 문의했다.",
+                  "translationTarget": "달라서",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_70-2",
+              "wordId": "JLPTN3_70",
+              "version": 1,
+              "meaning": "틀리다, 올바르지 않다",
+              "hint": "답이나 내용이 올바르지 않거나 맞아야 할 기준과 어긋나요.",
+              "confusions": [
+                {
+                  "japanese": "異なる",
+                  "distinction": "비교 표현은 서로 다른 점을 중립적으로 나타낸다. 이 용법은 정답이나 올바른 내용과 어긋났음을 나타낸다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_70-2-ex-1",
+                  "version": 1,
+                  "before": "店員に、お釣りの金額が",
+                  "answer": "違う",
+                  "after": "と伝えた。",
+                  "reading": "ちがう",
+                  "translation": "점원에게 거스름돈 금액이 틀리다고 말했다.",
+                  "translationTarget": "틀리다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+        "afterHash": "26e1db76459cbf2435865cf07eaaa11cd7608b9a84dcf053f988bc9195ce6264",
+        "reason": "N5 대표 선정 대상의 기존 다르다 핵심 용법은 그대로 보존하고 사전에 별도 기재된 틀리다 핵심 용법을 새 용법 ID로 보완한다. 원본 두 peer의 선택 핵심이 다르거나 부분적으로 같아도 전체 프로필을 통합하지 않는다."
+      }
+    ]
+  },
+  "review": {
+    "scope": "legacy-content-revision",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:07:43.097Z",
+    "draftHash": "d97b1a9a00e493e4e2e0572855a08ff599aa3935b57b9ad8ae9cd18719f0c401",
+    "preservedCoreUsages": [
+      {
+        "wordId": "JLPTN3_70",
+        "senseIds": [
+          "sense-JLPTN3_70-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "중립적인 다름의 기존 핵심/예문/ID/version 완전 보존. 새 오류 sense만 독립 추가."
+      }
+    ],
+    "notes": [
+      "원본3개 6예문과 새 거스름돈 오류 문장을 독립 읽었다. 준비초안의 전체 before/after가 검토한 제안과 정확히 일치한다.",
+      "기존 어느 프로필도 새 sense로 이전하지 않으며 별도 source selection만 허용한다."
+    ]
+  }
+}

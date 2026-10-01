@@ -1,0 +1,149 @@
+[
+  {
+    "wordId": "handmade_153",
+    "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+    "afterHash": "93d3865a835214b2fcd2a1791fdcc6945a4b2054c5698c924246caefffb08ff6",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_31",
+    "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+    "afterHash": "d7f90a279002ee6f1df5f017c88b3df7493927a4a8dd46d563ca4ec521fe8596",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_34",
+    "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+    "afterHash": "ecc981014e34f71e3660083ac3875dd2806c887d671d642ac7d63ad07b40c2c5",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_81",
+    "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+    "afterHash": "8c9e19b20a4dd792ad0dbf6971c2f98b102b1c5b264239d2e428e0cedd3327b3",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_101",
+    "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+    "afterHash": "b88cfd98d4051dbc39d417d5fa9d7e90fecb186576ead256c1913f69e089ab19",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_143",
+    "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
+    "afterHash": "70b57763254181d3bab445ad8bd95c9d7292e0a210fe0940db50f900da4d6cb2",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_71",
+    "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+    "afterHash": "94e9df66ab99c25c13ca323f9f9bf916ce2c2515736f74428e73cd8139b9a67f",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:56:13.194Z",
+    "notes": [
+      "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가.",
+      "기존 단어 뜻 명료화는 핵심 의미를 유지하며 기존 용법·예문 before/after 완전 동일을 확인했다. 새8용법의 뜻·힌트·대비·예문·번역 전량 대조."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 8737,
+      "newSimilarPairs": 0
+    }
+  }
+]

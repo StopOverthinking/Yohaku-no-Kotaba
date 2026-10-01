@@ -1,6 +1,6 @@
 {
   "batch": "n4-006",
-  "status": "in-progress",
+  "status": "draft-ready",
   "startedAt": "2026-09-30T06:49:06.495Z",
   "sourceAuthoringBatch": "practical-core-050",
   "authorModel": "gpt-6.1-sol",
@@ -11,12 +11,15 @@
       "fileNumber": "01",
       "startedAt": "2026-09-30T06:49:06.495Z",
       "metadataCompletedAt": "2026-09-30T06:49:06.495Z",
-      "draftCompletedAt": null,
-      "validationCompletedAt": null,
+      "draftCompletedAt": "2026-09-30T23:43:34.131206+00:00",
+      "validationCompletedAt": "2026-09-30T23:43:36.068Z",
       "wordCount": 4,
       "revisionAttempts": 0,
       "observedErrors": 0,
-      "pureThinkingSeconds": null
+      "pureThinkingSeconds": null,
+      "preflightMilliseconds": 340.2961
     }
-  ]
+  ],
+  "resumedAt": "2026-10-01",
+  "resumeNote": "Original metadata preserved; resumed missing original examples. Prior paused elapsed time is not author time."
 }

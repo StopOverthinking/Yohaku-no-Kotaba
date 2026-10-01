@@ -1,0 +1,392 @@
+[
+  {
+    "wordId": "AbsoluteVerb_835",
+    "sourceHash": "92a652842bedd4a733a5fb3c9ddc9f6dac3f286f53094108bff2b31af8ca9067",
+    "level": "N4",
+    "dictionaryId": "jmdict-1537980",
+    "suggestedType": "verb",
+    "levelNote": "제공 OpenJLPT N4와 실용적 도움·쓸모 용법이 일치한다.",
+    "meaningReview": "기존 뜻 “도움이 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “도움이 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_836",
+    "sourceHash": "7940c559245d01216c5b64a07700827f651243e27e5770a9059a8dd5cbbb74e8",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “닭살이 돋다, 소름이 끼치다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “피부에 소름이 돋다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_837",
+    "sourceHash": "cec6921a41575287805802474d2ed65e20a36eed5072c692f03cf322359f673a",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “실력을 기르다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “실력을 기르다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_838",
+    "sourceHash": "54b9327eef7410fa0aaa2e9483a9cf20328f50f199132cd3eee62530a78aabe4",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “단추를 달다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “단추를 달다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_839",
+    "sourceHash": "e33c13ac10213d2867479d01c7bcee62c15705b8a53551949064a4d3f9a32e49",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “커튼을 달다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “커튼을 달다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_840",
+    "sourceHash": "5f494e51aadf9bbaf4d13e0f7ad81fbf2ade22fa6aca01f647d2378d224355d3",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “이름을 붙이다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “이름을 붙이다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_841",
+    "sourceHash": "f13aac97b90749c053250a2f7430f2a44604360d8c8177a749d2cd7be71493a1",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “일기를 쓰다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “일기를 쓰다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_842",
+    "sourceHash": "5492d6e43b3268364ad23fd4a002a07f3780d8f9616affa1e27a0fc0f36fc07a",
+    "level": "N4",
+    "dictionaryId": "jmdict-1591990",
+    "suggestedType": "verb",
+    "levelNote": "제공 출처는 N2이나 조심하라는 일상 안내·당부에 쓰이는 기초 표현으로 N4를 제안한다. 출처와 편집 난도를 구분한다.",
+    "meaningReview": "기존 뜻 “조심하다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “위험이나 실수를 조심하다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_843",
+    "sourceHash": "ee98180e817db447bbebfb68917b3796b512b3c967ae9c4626384334eeddf3eb",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “불을 붙이다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “불을 붙이다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_844",
+    "sourceHash": "ffb2de6edf4d40cbfb67859c9442edfe4868689fb785d2cf3ae976902b4b90bc",
+    "level": "N3",
+    "dictionaryId": "jmdict-1980660",
+    "suggestedType": "verb",
+    "levelNote": "지식과 기술을 익힌다는 관용적 핵심 용법의 실용 난도를 N3로 제안한다. 사전은 수준 미배정이다.",
+    "meaningReview": "기존 뜻 “입다, 지니다, (학문·기술을) 익히다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “익히다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [
+      "AbsoluteVerb_232"
+    ],
+    "issues": [
+      "원뜻의 입다·지니다는 현재 익히다 용법에 없다. AbsoluteVerb_232와 같은 사전 항목에 연결되지만 현재 핵심 용법의 동등성은 별도 확인해야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_845",
+    "sourceHash": "d73f65bfbaa92c39060c35fce41917031f91381b3e327a883abfa3e3747730f3",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “착수하다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “일에 착수하다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_846",
+    "sourceHash": "38141af0a53b835dbc832718d6be2001390b9e1a46da3433a7c794616cc62857",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “주목하다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “주목하다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_847",
+    "sourceHash": "8e3858210a5a4bf4e31e844b70a26817496d6fe9822b41925d719201395a2d07",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “이유를 대다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “이유를 대다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_848",
+    "sourceHash": "07f53c70aaf356d3b79aeb8346ea388b40579845e3752631341676d0435ccd85",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “도움이 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “배움이나 이익에 도움이 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "ため라는 명사만을 근거로 현재 ためになる 완성 표현을 자동 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_849",
+    "sourceHash": "e14e2102aee612a59afd1a5b87f10b69259713b6e52e2c813fd8eebd131573fd",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “돈벌이가 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “돈벌이가 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_850",
+    "sourceHash": "786cba238786e295ac333b13362883921bc38346b07529da5b8c8bbbf0bd7499",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “약이 되다, 도움이 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “약이 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "비유적인 薬になる는 苦い経験・忠告 장면의 자연스러움을 독립 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_851",
+    "sourceHash": "11ac1d5e9a4867e0a397f0dfbe79e8d40f4157dfd70fb90a2b097f7af999699d",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “방해가 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “앞을 막아 방해가 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_852",
+    "sourceHash": "319f6541f3c36f5d718906b3bb262c2d5a7203d1f3eed6ec683c6722cb60c2d6",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “소용없게 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “못 쓰게 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_853",
+    "sourceHash": "9a1d8f9c0102fa89f905ce39bc63c54e954434a12a3c213a3a253a7c6040b156",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “허사가 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “허사가 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_854",
+    "sourceHash": "26120c04e2c10cc579d6b683698ef6d67fbc93d98f3d906c70f21beeedbbe631",
+    "level": "N4",
+    "dictionaryId": "jmdict-1002260",
+    "suggestedType": "verb",
+    "levelNote": "돌봄과 도움에 감사하거나 신세 질 관계를 공손히 말하는 일상 표현으로 N4를 제안한다. 사전은 수준 미배정이다.",
+    "meaningReview": "기존 뜻 “신세 지다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “도움을 받아 신세를 지다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": []
+  },
+  {
+    "wordId": "AbsoluteVerb_855",
+    "sourceHash": "a5b5adf8768be43d604e3a052bdefbe5fe60aa56517ab57296de7c393772d5b0",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “병이 들다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “병이 들다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_856",
+    "sourceHash": "7d2cc881e7ca0110301c3a1116f67f12653eae8e4bb2f6b2178a18060c3a77f2",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “불이 나다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “화재가 나다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_857",
+    "sourceHash": "61e30f3f901d47be1e71b902efee8e3638a13b2bf61ef4bb31b650c6094b6937",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “어떻게든 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “어떻게든 해결되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_858",
+    "sourceHash": "d65974744bd84bc90d06f42cfca87f09d862ab054c5efd941cfbcec2cc6bd968",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “쓸 만한 것이 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “쓸 만하게 되다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_859",
+    "sourceHash": "a8f66a92a956ac1fc73e93201ec0558b6c116306434d8f1e9fcfeff7f741f1e5",
+    "level": "N3",
+    "dictionaryId": "jmdict-1591050",
+    "suggestedType": "verb",
+    "levelNote": "사실을 알아차리는 일상적 인식 표현으로 N3를 제안한다. 사전은 수준 미배정이다.",
+    "meaningReview": "기존 뜻 “알아차리다, 정신이 들다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “알아차리다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "원뜻의 정신이 들다 용법은 현재 알아차리다 예문에 없다. 별도 용법 추가를 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_861",
+    "sourceHash": "7e0344a11e287c5f641ebe2f8c17f5a04e984f0614c7b5aba90b0e4042eb7c85",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “걱정이 되다, 궁금하다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “마음에 걸려 궁금하다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_862",
+    "sourceHash": "93204a402a4bbbe128525ed18d4d0932e50b0c4c8bf0ad2d3715adf81d12fc49",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “걱정하다, 의식하다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “신경 쓰다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_864",
+    "sourceHash": "17420d9c0c9f6237b7a9b8a6ba192c29fa3a271dac6e14c655e5f6e23f23a81b",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "i_adj",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “성질이 거칠다, 참을성이 없다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “성미가 급하다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "원뜻의 성질이 거칠다는 성미가 급하다와 다른 뜻이다. 기존 핵심 용법은 유지하고 단어 뜻 정정을 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_865",
+    "sourceHash": "ddcee86c2333ef6aaca4ba1826410b507bcf25549eeef408ff2745d8165d98f1",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "i_adj",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “성질이 너무 태평하다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “성미가 느긋하다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "원뜻의 너무 태평하다는 현재 인내심 있고 느긋한 예문을 불필요하게 부정적으로 한정한다. 단어 뜻 정정을 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_866",
+    "sourceHash": "f17d7e01d4a62ed1331b48b2eddcfef7ec09c9a1d001977d5c35bcbeaffb443f",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “마음이 흐트러지다, 집중이 안 되다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “집중이 흐트러지다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  }
+]

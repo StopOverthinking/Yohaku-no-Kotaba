@@ -1,0 +1,550 @@
+[
+  {
+    "wordId": "AbsoluteVerb_319",
+    "sourceHash": "7d43a712a1e60fd6f381e3dc48284357f3aed3490836d44149461ddf20cafae0",
+    "proposalHash": "eab77853f5cf3cea4fbf1dcc648b41ee7be3380c2401af6e8569ea9e24d2e2ec",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:42:14.051Z",
+    "notes": [
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_320",
+    "sourceHash": "d37c29e1c21729805be184643c3e7c16693c73f62e83e3e60649611a37c054ea",
+    "proposalHash": "50998cd53453c92f4b5acf51522418213c167573e51a091d29aa6380c7820f19",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "おごる의 전체 원문과 제공 사전 의미를 대조했다. 새 사전 대체표기 연결 奢る의 대접하다 뜻과 두 음식값 부담 예문이 일치한다. 생활 대접 용법을 N3로 권장하며 傲る의 거만함과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_321",
+    "sourceHash": "c892f6b7577a3b3de69d8a9db5a429246f639d9d30af1a106df0bf3c13005136",
+    "proposalHash": "70c2379b43b3a6b21cbfd69978bcbe6dc5885b1f244c9f81ffca51f89926c1aa",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "酔う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(술에) 취하다, 멀미하다” 및 1개 sense를 대조했다. 술에 취하는 의미가 두 예문에 나타난다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_322",
+    "sourceHash": "2ed763d2df6bbaeb728829e8a2a69f2770c5d63cdeea2e2875539c36997a55b7",
+    "proposalHash": "40773711607898fa4aedbd0153b10df4b3cf97688440dabfe7bbb11b60badb2b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "よっぱらう의 전체 원문과 제공 사전 의미를 대조했다. 酔っ払う 사전의 술에 취함 의미와 일치하여 N3를 권장한다. 표제 뜻의 만취 제한은 별도 콘텐츠 보류한다.",
+      "よっぱらう는 언제나 만취를 요구하지 않는다. 표제 뜻 만취하다가 실제 술에 취하다 용법보다 좁아 정정 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_323",
+    "sourceHash": "2a22f221e092d9a2651c82aca9ed07781d28e41cc22c3e378fea755722515961",
+    "proposalHash": "e845721d60068e77c72ad1282e919573cc70370fc91337a2e6bb41456f6f1e1c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "踊る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “춤추다” 및 1개 sense를 대조했다. 축제나 방에서 춤추는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_324",
+    "sourceHash": "14bef13bbc66fdeb4a719474af184e1c5aac6ff0cc98168034072252d975d95e",
+    "proposalHash": "77e9899ae11865f6bb584272dd7ba0e1428e2a83f9ba8a2f639c508cbd02eb0f",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "弾く의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “연주하다” 및 1개 sense를 대조했다. 피아노와 기타를 연주하는 뜻이다. 모든 종류 악기 연주에 쓰는 동사로 확대하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_326",
+    "sourceHash": "1e7565ec911275c942f9d9f8f616e2afa12f3cd31dfa1650f15320c644fe16b3",
+    "proposalHash": "25f2bed6deeedecb65e8bd499d888e8475881358b1d451f281d1aa057d0efd54",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "やる의 전체 원문과 제공 사전 의미를 대조했다. 遣る의 동식물에 주다 선택 의미와 사전 수여 의미가 일치한다. 일반 기본 수여 용법을 N4로 권장하며 사전 N1과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_327",
+    "sourceHash": "0bd760494662c13c1c797dd9e94a9a46d4e119222122152c1f966c265c310e7a",
+    "proposalHash": "69c8c53600366f767a666b6ffd783d98f190eb4720179397c3c26282cae8661c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "与える의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(권한, 기회 등을) 주다, 부여하다” 및 1개 sense를 대조했다. 출전 기회와 생각할 시간을 주는 추상적 수여 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_328",
+    "sourceHash": "854d4ff114444be064d64432bbaf21e6b3cb3df399218757200a84bbd9cba05d",
+    "proposalHash": "c36c35316d34238716351055d98a132028f477d057aabb9da3705e54d2f775e1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:42:14.051Z",
+    "notes": [
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_329",
+    "sourceHash": "ee2d162f32fcac44b35a7311174e3f301e784987fa2a27d325b1050624eb3d4a",
+    "proposalHash": "b8347fb9dc5cfdfa845057f57d022a4fdcae0c93882db425002eaf526e8703af",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "くれる의 전체 원문과 제공 사전 의미를 대조했다. 呉れる의 기본 수여 방향 의미를 확인했다. 暮れる와 동음이어도 별도 사전이며 기본 학습 N5로 권장한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_330",
+    "sourceHash": "8d4b3cc5dbff651ac72bc7c8b8908c24bdeaba59052856a1835b2642f6156124",
+    "proposalHash": "8742e40d70d3c11333d238f521f5443cad938ec273fe66c9c5d8bec72f53ad77",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "下さる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “주시다 (くれる의 높임말)” 및 1개 sense를 대조했다. 선생님과 부장이 물건을 주는 행동을 높여 말하는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_331",
+    "sourceHash": "42bdf85a22198a20a57d3a0620a13fc41fabe06c7dc8e1835468601e581feb66",
+    "proposalHash": "e69d3c4c91a1200d8d40a5f99e6c33b162744b7495b539b55128e3948a443db9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "もらう의 전체 원문과 제공 사전 의미를 대조했다. 貰う의 물건을 받는 기초 용법과 두 예문이 일치하여 N5를 권장한다. 사전 N3 등급과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_332",
+    "sourceHash": "aa6bdaf27bca7112622a2a7da434e234ae3f9b6b4eff51816a1a5d4ab4c9b304",
+    "proposalHash": "eec858f7f84baf4ac37b2d1279eb6535d55323e07dddd9059d269ef597bc2bd8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "受ける의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “받다, (시험을) 치다, (피해를) 입다” 및 1개 sense를 대조했다. 대학 시험과 자격시험을 치르는 의미를 선택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_338",
+    "sourceHash": "cfb488f76dd0608b9da878935dcbd3a23651e4de62e127dc3349a9eb41c3d2e1",
+    "proposalHash": "3cdde105203cf05fc843ea72371b0adf67e2728ada8fc0533ad927bc645ea7be",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "遅れる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “지각하다, 늦다” 및 1개 sense를 대조했다. 전철이 지연되거나 면접에 늦는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_340",
+    "sourceHash": "52033f9547b34b2ede7c4ace2044345f7994093f030d291c56d64c8a13b5f16d",
+    "proposalHash": "bf3d86e8190f526e411526073c5de714358b0a91c6c5900d8752397e9b2fe2dd",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "決まる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “결정되다” 및 1개 sense를 대조했다. 일정과 가게가 결정되는 기본 자동사 의미를 선택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_342",
+    "sourceHash": "847432ebf8d7568b41e9c4ac1951f166ffde9d1ffef522e27bdc6e9a18a6ca49",
+    "proposalHash": "e372a87f830818e85099d493780ac28e374cdbf88e635b666a1727a3af1d772d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "待つ의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “기다리다” 및 1개 sense를 대조했다. 사람이나 음식이 식는 것을 기다리는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_343",
+    "sourceHash": "86944397d96562da8cee7cdafdc69879eab568ceab2faf2d82d72989a94fc58d",
+    "proposalHash": "22918b86d2f1cc3efeaa7b344937a6e72c7b2db5bc6a7161dc939aa649842d73",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "待たせる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “기다리게 하다” 및 1개 sense를 대조했다. 친구를 기다리게 하는 待つ의 사역 의미이다. 제공 출처 등급은 없으나 일상적 사역 용법으로 N4 편집 분류를 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_345",
+    "sourceHash": "a08ac8ec0b659b34c57728abd28d0f09d9362d9d5f17b6070a37acacf7495ef6",
+    "proposalHash": "05bf7e1c4b67c52934a8861cd209f24850feacb3e1054effe7b2aefdc4ef9464",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "着く의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “도착하다” 및 1개 sense를 대조했다. 산장과 역에 도착하는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_347",
+    "sourceHash": "4af3913ebc5c86714d72d346f93c0c36b937a381c89ca6bbbf552232fb068455",
+    "proposalHash": "07fc54ec0cb3f1f06c59ddf4d470f2235fe04674ad0f24c1f6924151f5624d36",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "混む의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “붐비다” 및 1개 sense를 대조했다. 가게와 전철에 사람이 많아 붐비는 일상 기본 의미이다. 제공 출처는 N1이지만 현재 선택 뜻과 기초 이동·생활 맥락에 근거하여 편집 N4를 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_348",
+    "sourceHash": "d78c6f1352105348d7f7ab8edd2fd470976199801b434f8b8d250a0b4b468e3b",
+    "proposalHash": "db1a53755e3b107a754d065be9caa5a1d0f6aece13cf0d0a6713f5464b51dafb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "空く의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “비다, 쓰이지 않다, (배가) 고프다” 및 1개 sense를 대조했다. 읽기 あく로 좌석과 회의실이 비는 뜻을 선택했다. 배가 고프다는 읽기 すく의 의미는 현재 sense와 구분한다.",
+      "word 뜻의 배가 고프다는 현재 읽기 あく와 맞지 않으며 すく 의미를 별도로 분리해야 한다.",
+      "읽기 あく에 배가 고프다를 섞었다. 해당 의미는 すく이므로 현재 단어의 의미 범위를 정정 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_349",
+    "sourceHash": "938f31cad7c42dec5dc8d914926001721752d8adf0dc4c43d920ee99fdb30a92",
+    "proposalHash": "4e33d89ee9dc63aadf15862b81cd44889f73de677fc4adad39b1253c95c039c9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "乗る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(탈것에) 타다” 및 1개 sense를 대조했다. 전철과 말에 타는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_350",
+    "sourceHash": "7d1acadc984bd13e159574823984dc494e1311fcc64f9f5ddf93764b21a8139a",
+    "proposalHash": "3db58c2d961071cd08fdd7c53e8c893295c3393b220d5764e6a9b516cc728d33",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "乗せる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(탈것에) 태우다” 및 1개 sense를 대조했다. 사람을 차에 태우는 타동사 의미를 선택했다. 같은 사전 ID의 載せる 게재 의미와 별칭으로 묶지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_351",
+    "sourceHash": "f48f99746e7e5dbc96b03e78a5f19e6ab24c7bad73a694999176223b7776168f",
+    "proposalHash": "ae592c1cad8aabe7f4f84d86450778def55ee7eb0d4b8bb44ba3f5acc2d1eed0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "降りる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(탈것에서) 내리다, 내려오다” 및 1개 sense를 대조했다. 전철과 버스에서 내리는 기본 의미이다. 같은 사전 ID의 下りる 계단 이동 의미와 구분한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_352",
+    "sourceHash": "b93e53e62deed107f93c233a3c0d8539f787483a98705c94d62eb49a9a51a856",
+    "proposalHash": "5e8e3e632cb07ca6d4f188766f5770efb1344f8d4b00d10b0b81cd6a37855e2b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:42:14.051Z",
+    "notes": [
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_353",
+    "sourceHash": "a0804c2953ba615e61f2580bfcdc73bd7eb759e353be6a28d327d501e6539fc3",
+    "proposalHash": "eb56bb343964dd6603953bf2b76579e414044bb9d3877eed902224e427a80b4e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "held",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "乗り過ごす의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “하차역을 지나치다” 및 1개 sense를 대조했다. 하차할 역을 지나쳐 계속 타고 가는 의미이나 사전 후보가 없어 연결을 보류한다.",
+      "乗り過ごす의 사전 연결과 등급을 확인해야 한다.",
+      "제공 사전에 해당 복합동사 근거가 없어 현재는 분류와 참조 승인을 보류한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_355",
+    "sourceHash": "3b54ac0651bb932dfe8bc077b483ce35afb2231bcb0067e6dd42d322fb726090",
+    "proposalHash": "6a3f3d0fb55fd065a3ed098a79cc1d9d595f6b9935f958298ef21a791d558cbd",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "争う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “다투다, 경쟁하다” 및 1개 sense를 대조했다. 순위를 놓고 경쟁하거나 토지를 놓고 다투는 두 의미를 확인했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_357",
+    "sourceHash": "1efd50f201bd5a5abfe771bbf2ec18a46290affb62d476025308b18c9d1103f2",
+    "proposalHash": "031b4173dc6e81c0af6a7f8ef779b719315a6c948d4dc252e77e2d08f7799774",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "勝つ의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “이기다” 및 1개 sense를 대조했다. 경기에서 상대를 이기는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_358",
+    "sourceHash": "7a6e9ad7eb78a011eccb2a7a5f88cf7a7dd59e73aba611b4bdea02b8c816f2c6",
+    "proposalHash": "08661dbfb4c027e12ca2c8f1a92484aeb20211b872baff569d4a57bff80d9bec",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "負ける의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(일상체) 패배하다, 값을 깎다” 및 1개 sense를 대조했다. 장기와 경기에서 지는 기본 의미이다. 가격을 깎는 뜻은 현재 예문에 없다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_359",
+    "sourceHash": "7eaf2ecac7bf8f38f3d675cf58ffc5eb000e58d06197572ecbda57a07ba8cb31",
+    "proposalHash": "3663bc2ab7733106aad05b3f19391a820fe50df0f71ececcf8472a88cd0bbe5e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "敗れる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(문어체) 패배하다” 및 1개 sense를 대조했다. 경기에서 패배하는 비교적 격식 있는 표현이다. 출처 등급은 없어 負ける와의 문체 차이 및 일반 경기 기사 용법으로 편집 N2를 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_360",
+    "sourceHash": "e6e3ab5dedf32ead68a6e7e83ff7bc4a7ea5c90c15d98991b5b8119af674fb09",
+    "proposalHash": "8d767b5067147ac05b722af2c910451aa27d0e098d964a9a43a0ba4878f6f68a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "殴る의 전체 원문과 제공 사전 의미를 대조했다. 주먹으로 때리는 일반 신체 행동은 보도와 일상에서 이해할 N2로 권장한다. 사전 N1을 그대로 적용하지 않는다."
+    ]
+  }
+]

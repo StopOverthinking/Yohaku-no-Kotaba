@@ -1,0 +1,122 @@
+[
+  {
+    "japanese": "高まる",
+    "reading": "たかまる",
+    "type": "verb",
+    "meaning": "높아지다, 커지다",
+    "hint": "정도·관심·긴장 등이 이전보다 강해집니다.",
+    "confusion": "高める",
+    "distinction": "高まる는 높아지는 자동사이고 高める는 높이는 타동사이다.",
+    "dictionaryId": "jmdict-1283220",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "慣らす",
+    "reading": "ならす",
+    "type": "verb",
+    "meaning": "익숙하게 하다",
+    "hint": "반복해서 접하게 하여 낯설지 않도록 만듭니다.",
+    "confusion": "慣れる",
+    "distinction": "慣らす는 익숙하게 만드는 타동사이고 慣れる는 익숙해지는 자동사이다. 같은 읽기의 鳴らす는 소리를 내다이다.",
+    "dictionaryId": "jmdict-1212650",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "決意",
+    "reading": "けつい",
+    "type": "noun",
+    "meaning": "결의, 결심",
+    "hint": "어떤 일을 하겠다고 마음을 단단히 정합니다.",
+    "confusion": "決議",
+    "distinction": "決意는 개인의 굳은 결심이고 決議는 회의체의 공식 결정이다.",
+    "dictionaryId": "jmdict-1254220",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "取り戻す",
+    "reading": "とりもどす",
+    "type": "verb",
+    "meaning": "되찾다",
+    "hint": "잃거나 줄어든 물건·상태를 다시 얻습니다.",
+    "confusion": "取り出す",
+    "distinction": "取り戻す는 잃은 것을 되찾음이고 取り出す는 안에서 꺼냄이다.",
+    "dictionaryId": "jmdict-1326940",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "振動",
+    "reading": "しんどう",
+    "type": "noun",
+    "meaning": "진동",
+    "hint": "물체가 일정한 중심이나 위치를 기준으로 되풀이해 움직입니다.",
+    "confusion": "振興",
+    "distinction": "振動는 물리적 흔들림이고 振興는 산업·문화를 활성화함이다.",
+    "dictionaryId": "jmdict-1361420",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "深める",
+    "reading": "ふかめる",
+    "type": "verb",
+    "meaning": "깊게 하다, 심화하다",
+    "hint": "이해·관계·수준 등을 더 깊고 충분하게 만듭니다.",
+    "confusion": "深まる",
+    "distinction": "深める는 깊게 하는 타동사이고 深まる는 깊어지는 자동사이다.",
+    "dictionaryId": "jmdict-1362680",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "盛り上がる",
+    "reading": "もりあがる",
+    "type": "verb",
+    "meaning": "고조되다, 분위기가 달아오르다",
+    "hint": "흥미·열기·기세가 점점 높아집니다.",
+    "confusion": "盛り上げる",
+    "distinction": "선택한 盛り上がる는 분위기가 고조되는 자동사이고 盛り上げる는 고조시키는 타동사이다. 물리적으로 솟아오르는 뜻도 있다.",
+    "dictionaryId": "jmdict-1379690",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "生まれつき",
+    "reading": "うまれつき",
+    "type": "adv",
+    "meaning": "타고나서, 선천적으로",
+    "hint": "태어날 때부터 가진 성질·상태입니다.",
+    "confusion": "後天的",
+    "distinction": "生まれつき는 타고난 상태이고 後天的는 태어난 뒤 형성된 상태이다.",
+    "dictionaryId": "jmdict-1378770",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "生臭い",
+    "reading": "なまぐさい",
+    "type": "i_adj",
+    "meaning": "비리다",
+    "hint": "생선·고기·피 같은 날것의 냄새가 납니다.",
+    "confusion": "臭い",
+    "distinction": "선택한 生臭い는 날것의 비린 냄새이고 臭い는 불쾌한 냄새 일반이다. 세속적이라는 뜻도 있다.",
+    "dictionaryId": "jmdict-1379110",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "生ぬるい",
+    "reading": "なまぬるい",
+    "type": "i_adj",
+    "meaning": "미지근하다",
+    "hint": "충분히 따뜻하지도 차갑지도 않습니다.",
+    "confusion": "温かい",
+    "distinction": "선택한 生ぬるい는 애매하게 미지근함이고 温かい는 따뜻함이다. 태도·처리가 안이하다는 뜻도 있다.",
+    "dictionaryId": "jmdict-1378810",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  }
+]

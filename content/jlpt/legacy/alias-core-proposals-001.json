@@ -1,0 +1,1598 @@
+{
+  "scope": "author-only-full-source-comparison-proposals",
+  "status": "awaiting-independent-review",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-10-01T00:28:18Z",
+  "completedAt": "2026-10-01T00:30:43.360Z",
+  "pureThinkingSeconds": null,
+  "groups": [
+    {
+      "candidateGroupId": "candidate-1bceeaf8cb5a2901",
+      "candidateSourceHash": "618d8d64f19fb0c20da98e0075ebf2539926428c1cf119ac9506634147031d0a",
+      "japanese": "帰る",
+      "memberWordIds": [
+        "handmade_119",
+        "AbsoluteVerb_256"
+      ],
+      "representativeWordId": "handmade_119",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "집·고국·본래 생활 기반으로 돌아가는 같은 자동사 핵심. 서로 다른 귀가 장면과 가능형은 동일 핵심의 활용이며 표제어 귀환하다의 격식 차이는 별도 학습 의미가 아니다."
+      ],
+      "representativeReason": "일상 기본 명사·동사 표제와 현재 완전한 단일 대표 용법을 보존한다. 원본 두 ID·예문·소속은 삭제·수정하지 않는다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "handmade_119",
+          "senseId": "sense-handmade_119-1",
+          "senseVersion": 1,
+          "sourceHash": "d194b8584b53891f4f7e9516ea5cf0cc6629295414057bc5cfbe58fe5f5f9053",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "handmade_119",
+            "setId": "set-2",
+            "japanese": "帰る",
+            "reading": "かえる",
+            "meaning": "돌아가다",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "1자",
+            "sourceOrder": 118
+          },
+          "senses": [
+            {
+              "id": "sense-handmade_119-1",
+              "wordId": "handmade_119",
+              "version": 1,
+              "meaning": "자기 집이나 본래 곳으로 돌아가다",
+              "hint": "머무는 집이나 원래 생활하던 곳으로 향해요.",
+              "confusions": [
+                {
+                  "japanese": "戻る",
+                  "distinction": "직전에 있던 아무 장소로 되돌아가는 것보다 집이나 본거지로 돌아가는 뜻이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-handmade_119-1-ex-1",
+                  "version": 1,
+                  "before": "今日は寄り道せずに家へ",
+                  "answer": "帰ろう",
+                  "after": "。",
+                  "reading": "かえろう",
+                  "translation": "오늘은 딴 데 들르지 말고 집으로 돌아가자.",
+                  "translationTarget": "돌아가자",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-handmade_119-1-ex-2",
+                  "version": 1,
+                  "before": "父が",
+                  "answer": "帰ってくる",
+                  "after": "まで、ケーキは切らずに待った。",
+                  "reading": "かえってくる",
+                  "translation": "아버지가 돌아오실 때까지 케이크를 자르지 않고 기다렸다.",
+                  "translationTarget": "돌아오실",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_256",
+          "senseId": "sense-AbsoluteVerb_256-1",
+          "senseVersion": 1,
+          "sourceHash": "ad72fce9806fe60db1a92166c6cc690323f9c1442f3287318396aad9d3703e71",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_256",
+            "setId": "AbsoluteVerb",
+            "japanese": "帰る",
+            "reading": "かえる",
+            "meaning": "귀환하다",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "1자",
+            "sourceOrder": 254
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_256-1",
+              "wordId": "AbsoluteVerb_256",
+              "version": 1,
+              "meaning": "돌아가다",
+              "hint": "자기 집이나 본래 생활하던 곳으로 가요. 아무 곳으로 돌아감보다 좁아요.",
+              "confusions": [
+                {
+                  "japanese": "戻る",
+                  "distinction": "앞서 있던 곳 전반보다 집과 고향 등 자기 기반으로 돌아갈 때 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_256-1-ex-1",
+                  "version": 1,
+                  "before": "終電がなくなる前に、家に",
+                  "answer": "帰ろう",
+                  "after": "。",
+                  "reading": "かえろう",
+                  "translation": "막차가 끊기기 전에 집에 돌아가자.",
+                  "translationTarget": "돌아가자",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_256-1-ex-2",
+                  "version": 1,
+                  "before": "兄は正月も国に",
+                  "answer": "帰れなかった",
+                  "after": "。",
+                  "reading": "かえれなかった",
+                  "translation": "형은 설에도 고국에 돌아가지 못했다.",
+                  "translationTarget": "돌아가지 못했다",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-c5a6ca1bd4fbdcc3",
+      "candidateSourceHash": "b42fc4ea8331930d997eb8506199ecfbbd7073ef57f4b7a3ab7b86fbe36bc00e",
+      "japanese": "入る",
+      "memberWordIds": [
+        "handmade_118",
+        "AbsoluteVerb_258"
+      ],
+      "representativeWordId": "handmade_118",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "바깥에서 공간 안으로 들어가는 자동사 핵심이 같다. 사람·고양이·작은 돌이 주어인 예문 모두 이 이동 범위. 스스로라는 설명은 의도적인 이동만으로 좁히지 않는다."
+      ],
+      "representativeReason": "일상 기본 명사·동사 표제와 현재 완전한 단일 대표 용법을 보존한다. 원본 두 ID·예문·소속은 삭제·수정하지 않는다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "handmade_118",
+          "senseId": "sense-handmade_118-1",
+          "senseVersion": 1,
+          "sourceHash": "3d310423838c1631c284ff41d596946aa39361e6b68d7d786518dc2562535d53",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "handmade_118",
+            "setId": "set-2",
+            "japanese": "入る",
+            "reading": "はいる",
+            "meaning": "들어가다",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "1자",
+            "sourceOrder": 117
+          },
+          "senses": [
+            {
+              "id": "sense-handmade_118-1",
+              "wordId": "handmade_118",
+              "version": 1,
+              "meaning": "들어가다",
+              "hint": "공간 안쪽으로 이동해요. 물건을 넣는 행동과 구별해요.",
+              "confusions": [
+                {
+                  "japanese": "入れる",
+                  "distinction": "대상이 스스로 들어가는 것과 다른 것을 넣는 행동은 다르다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-handmade_118-1-ex-1",
+                  "version": 1,
+                  "before": "靴を脱いでから、部屋に",
+                  "answer": "入って",
+                  "after": "ください。",
+                  "reading": "はいって",
+                  "translation": "신발을 벗고 방에 들어가 주세요.",
+                  "translationTarget": "들어가",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-handmade_118-1-ex-2",
+                  "version": 1,
+                  "before": "猫が箱に",
+                  "answer": "入った",
+                  "after": "まま、出てこない。",
+                  "reading": "はいった",
+                  "translation": "고양이가 상자에 들어간 채 나오지 않는다.",
+                  "translationTarget": "들어간",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_258",
+          "senseId": "sense-AbsoluteVerb_258-1",
+          "senseVersion": 1,
+          "sourceHash": "ebeaa6ebb000ae20b640ea5f13d30f8e703a9a27980e8f2d8cfb291e47424a66",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_258",
+            "setId": "AbsoluteVerb",
+            "japanese": "入る",
+            "reading": "はいる",
+            "meaning": "들어가다",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "1자",
+            "sourceOrder": 256
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_258-1",
+              "wordId": "AbsoluteVerb_258",
+              "version": 1,
+              "meaning": "들어가다",
+              "hint": "바깥에서 안쪽으로 이동해요.",
+              "confusions": [
+                {
+                  "japanese": "入れる",
+                  "distinction": "다른 것을 넣는 행동과 달리 주어 자신이 들어간다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_258-1-ex-1",
+                  "version": 1,
+                  "before": "寒いから、早く中へ",
+                  "answer": "入って",
+                  "after": "。",
+                  "reading": "はいって",
+                  "translation": "추우니 빨리 안으로 들어와.",
+                  "translationTarget": "들어와",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_258-1-ex-2",
+                  "version": 1,
+                  "before": "靴に小石が",
+                  "answer": "入った",
+                  "after": "ので、道端で立ち止まった。",
+                  "reading": "はいった",
+                  "translation": "신발에 작은 돌이 들어가서 길가에 멈춰 섰다.",
+                  "translationTarget": "들어가서",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-5b0618852fece8ee",
+      "candidateSourceHash": "d4016405e93c48265d4e56b90a9ba6bc64e32f3cab41fc4537ea9b8db672b9bf",
+      "japanese": "脱ぐ",
+      "memberWordIds": [
+        "handmade_99",
+        "AbsoluteVerb_190"
+      ],
+      "representativeWordId": "handmade_99",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "입거나 신은 옷·신발을 몸에서 벗는 타동사 의미가 일치한다. 外す와의 대비도 같은 착용물 범위이며 조건형과 연결형은 새 의미가 아니다."
+      ],
+      "representativeReason": "일상 기본 명사·동사 표제와 현재 완전한 단일 대표 용법을 보존한다. 원본 두 ID·예문·소속은 삭제·수정하지 않는다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "handmade_99",
+          "senseId": "sense-handmade_99-1",
+          "senseVersion": 1,
+          "sourceHash": "1542976aad6a41782d0e65849e52e98f532dcdc24a491cd234fde2da65c7c207",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "handmade_99",
+            "setId": "set-2",
+            "japanese": "脱ぐ",
+            "reading": "ぬぐ",
+            "meaning": "벗다",
+            "type": "verb",
+            "difficulty": 24,
+            "verbInfo": "1타",
+            "sourceOrder": 98
+          },
+          "senses": [
+            {
+              "id": "sense-handmade_99-1",
+              "wordId": "handmade_99",
+              "version": 1,
+              "meaning": "벗다",
+              "hint": "입거나 신은 것을 몸에서 떼어 내요.",
+              "confusions": [
+                {
+                  "japanese": "外す",
+                  "distinction": "부착된 것을 떼는 행동보다 옷이나 신발을 벗는 데 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-handmade_99-1-ex-1",
+                  "version": 1,
+                  "before": "ここで靴を",
+                  "answer": "脱いで",
+                  "after": "、スリッパに履き替えてください。",
+                  "reading": "ぬいで",
+                  "translation": "여기서 신발을 벗고 슬리퍼로 갈아 신으세요.",
+                  "translationTarget": "벗고",
+                  "difficulty": 24,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-handmade_99-1-ex-2",
+                  "version": 1,
+                  "before": "暑くなったので、上着を",
+                  "answer": "脱いだ",
+                  "after": "。",
+                  "reading": "ぬいだ",
+                  "translation": "더워져서 겉옷을 벗었다.",
+                  "translationTarget": "벗었다",
+                  "difficulty": 24,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_190",
+          "senseId": "sense-AbsoluteVerb_190-1",
+          "senseVersion": 1,
+          "sourceHash": "dce7539ecf0df8830fcc98be900fe682ba531ee3a59990103afad9d1d9fb91d1",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_190",
+            "setId": "AbsoluteVerb",
+            "japanese": "脱ぐ",
+            "reading": "ぬぐ",
+            "meaning": "벗다",
+            "type": "verb",
+            "difficulty": 24,
+            "verbInfo": "1타",
+            "sourceOrder": 189
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_190-1",
+              "wordId": "AbsoluteVerb_190",
+              "version": 1,
+              "meaning": "입거나 신은 것을 벗다",
+              "hint": "몸에 착용한 옷이나 신발을 벗어 내요.",
+              "confusions": [
+                {
+                  "japanese": "外す",
+                  "distinction": "안경이나 장신구를 떼는 말과 달리 옷·신발처럼 몸을 덮은 것을 벗는다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_190-1-ex-1",
+                  "version": 1,
+                  "before": "玄関で靴を",
+                  "answer": "脱いで",
+                  "after": "、畳の部屋に入った。",
+                  "reading": "ぬいで",
+                  "translation": "현관에서 신발을 벗고 다다미방에 들어갔다.",
+                  "translationTarget": "벗고",
+                  "difficulty": 24,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_190-1-ex-2",
+                  "version": 1,
+                  "before": "暑くなったら上着を",
+                  "answer": "脱げば",
+                  "after": "いいから、持って行こう。",
+                  "reading": "ぬげば",
+                  "translation": "더워지면 겉옷을 벗으면 되니 가져가자.",
+                  "translationTarget": "벗으면",
+                  "difficulty": 24,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-0328915f32f7d885",
+      "candidateSourceHash": "0ca66eec8e6d832929e86bba6b047d1b620554846936fd5e45748610dd125294",
+      "japanese": "泣く",
+      "memberWordIds": [
+        "JLPTN3_83",
+        "AbsoluteVerb_39"
+      ],
+      "representativeWordId": "JLPTN3_83",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "감정 때문에 눈물을 흘리는 자동사 의미가 일치한다. 감동·분함·졸업식·울고 싶음의 네 장면이 같은 핵심이며 鳴く와의 대비도 일치한다."
+      ],
+      "representativeReason": "현재 구체적으로 설명된 기본 용법을 대표로 유지한다. 다른 ID와 원문은 보존한다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "JLPTN3_83",
+          "senseId": "sense-JLPTN3_83-1",
+          "senseVersion": 1,
+          "sourceHash": "9e999b963ad5ab55a5723cfd6b4e35e8cb4a742a04fda0bcebb50879b9d4578a",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "JLPTN3_83",
+            "setId": "jlpt-n3",
+            "japanese": "泣く",
+            "reading": "なく",
+            "meaning": "울다",
+            "type": "verb",
+            "difficulty": 15,
+            "verbInfo": "1자",
+            "sourceOrder": 82
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_83-1",
+              "wordId": "JLPTN3_83",
+              "version": 1,
+              "meaning": "울다",
+              "hint": "감정 때문에 눈물을 흘려요. 동물의 울음소리와 표기가 달라요.",
+              "confusions": [
+                {
+                  "japanese": "鳴く",
+                  "distinction": "새나 동물의 울음소리를 나타내는 동음어와 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_83-1-ex-1",
+                  "version": 1,
+                  "before": "映画の結末を見て、父まで",
+                  "answer": "泣いていた",
+                  "after": "。",
+                  "reading": "ないていた",
+                  "translation": "영화 결말을 보고 아버지까지 울고 있었다.",
+                  "translationTarget": "울고 있었다",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_83-1-ex-2",
+                  "version": 1,
+                  "before": "",
+                  "answer": "泣きたい",
+                  "after": "ときは、無理に笑わなくていいよ。",
+                  "reading": "なきたい",
+                  "translation": "울고 싶을 때는 억지로 웃지 않아도 돼.",
+                  "translationTarget": "울고 싶을",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_39",
+          "senseId": "sense-AbsoluteVerb_39-1",
+          "senseVersion": 1,
+          "sourceHash": "a432022883b831b64b7d9fd3291b173b95c70f3d9fc07a84b3021cbf92107341",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_39",
+            "setId": "AbsoluteVerb",
+            "japanese": "泣く",
+            "reading": "なく",
+            "meaning": "울다",
+            "type": "verb",
+            "difficulty": 15,
+            "verbInfo": "1자",
+            "sourceOrder": 38
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_39-1",
+              "wordId": "AbsoluteVerb_39",
+              "version": 1,
+              "meaning": "울다",
+              "hint": "감정 때문에 눈물을 흘려요. 동물의 울음과 표기가 달라요.",
+              "confusions": [
+                {
+                  "japanese": "鳴く",
+                  "distinction": "동물의 울음소리와 사람의 눈물 어린 울음을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_39-1-ex-1",
+                  "version": 1,
+                  "before": "卒業式では",
+                  "answer": "泣かない",
+                  "after": "と決めていたのに。",
+                  "reading": "なかない",
+                  "translation": "졸업식에서는 울지 않겠다고 다짐했는데.",
+                  "translationTarget": "울지 않겠다",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_39-1-ex-2",
+                  "version": 1,
+                  "before": "妹は悔しくて",
+                  "answer": "泣いた",
+                  "after": "後、もう一度挑戦した。",
+                  "reading": "ないた",
+                  "translation": "여동생은 분해서 운 뒤 다시 도전했다.",
+                  "translationTarget": "운",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-c5c819d1cac9f2da",
+      "candidateSourceHash": "900892d06a9a9a8c2f549805a55f4f133258c1cb2cbad73b315cb88fe57e545a",
+      "japanese": "覚える",
+      "memberWordIds": [
+        "JLPTN3_23",
+        "AbsoluteVerb_228"
+      ],
+      "representativeWordId": "JLPTN3_23",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "새 정보를 외워 기억에 남기는 핵심이 같다. 구구단·암호·노래·얼굴 기억의 예문과 익힌 결과 유지 覚えている를 대조했다. 느끼다라는 별도 사전 의미로 넓히지 않는다."
+      ],
+      "representativeReason": "현재 구체적으로 설명된 기본 용법을 대표로 유지한다. 다른 ID와 원문은 보존한다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "JLPTN3_23",
+          "senseId": "sense-JLPTN3_23-1",
+          "senseVersion": 1,
+          "sourceHash": "1a96d5339eade92f9bcddb60b4e0840f868b57cde71725874e0017d508eec8fa",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "JLPTN3_23",
+            "setId": "jlpt-n3",
+            "japanese": "覚える",
+            "reading": "おぼえる",
+            "meaning": "외우다, 기억하다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "2타",
+            "sourceOrder": 22
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_23-1",
+              "wordId": "JLPTN3_23",
+              "version": 1,
+              "meaning": "외우다",
+              "hint": "새 내용을 머릿속에 넣어요. 이미 아는 것을 떠올리는 것과 구별해요.",
+              "confusions": [
+                {
+                  "japanese": "思い出す",
+                  "distinction": "이미 기억한 것을 되살리는 일과 새로 기억에 넣는 일을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_23-1-ex-1",
+                  "version": 1,
+                  "before": "歌いながらなら、九九も楽しく",
+                  "answer": "覚えられる",
+                  "after": "。",
+                  "reading": "おぼえられる",
+                  "translation": "노래를 부르면서라면 구구단도 즐겁게 외울 수 있다.",
+                  "translationTarget": "외울 수 있다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_23-1-ex-2",
+                  "version": 1,
+                  "before": "暗証番号を",
+                  "answer": "覚えた",
+                  "after": "つもりだったのに、出てこない。",
+                  "reading": "おぼえた",
+                  "translation": "비밀번호를 외웠다고 생각했는데 떠오르지 않는다.",
+                  "translationTarget": "외웠다고",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_228",
+          "senseId": "sense-AbsoluteVerb_228-1",
+          "senseVersion": 1,
+          "sourceHash": "d54dc3bdd580d9e56ee8c41d5d74cab88581ccf8d2f20ba6c7255cfebc82c061",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_228",
+            "setId": "AbsoluteVerb",
+            "japanese": "覚える",
+            "reading": "おぼえる",
+            "meaning": "외우다, 기억하다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "2타",
+            "sourceOrder": 226
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_228-1",
+              "wordId": "AbsoluteVerb_228",
+              "version": 1,
+              "meaning": "외우다",
+              "hint": "배운 내용을 머릿속에 남겨 나중에도 떠올릴 수 있어요.",
+              "confusions": [
+                {
+                  "japanese": "習う",
+                  "distinction": "가르침을 받는 과정이 아니라 기억하거나 익힌 결과에 초점을 둔다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_228-1-ex-1",
+                  "version": 1,
+                  "before": "顔は",
+                  "answer": "覚えている",
+                  "after": "が、名前が出てこない。",
+                  "reading": "おぼえている",
+                  "translation": "얼굴은 기억하고 있지만 이름이 떠오르지 않는다.",
+                  "translationTarget": "기억하고 있지만",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_228-1-ex-2",
+                  "version": 1,
+                  "before": "明日までに、この歌を",
+                  "answer": "覚えよう",
+                  "after": "。",
+                  "reading": "おぼえよう",
+                  "translation": "내일까지 이 노래를 외우자.",
+                  "translationTarget": "외우자",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-9a0312cc154feb9f",
+      "candidateSourceHash": "31be5f8a36d23fb0d70e3feeb84c6a98d22bb907eb1bba06e22144a195502eca",
+      "japanese": "借りる",
+      "memberWordIds": [
+        "JLPTN3_34",
+        "AbsoluteVerb_421"
+      ],
+      "representativeWordId": "JLPTN3_34",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "남의 물건을 반환 전제로 잠시 받아 쓰는 타동사 방향이 같다. 도구·도서·사다리·펜 모두 동일 범위이며 貸す와의 대비가 일치한다."
+      ],
+      "representativeReason": "현재 구체적으로 설명된 기본 용법을 대표로 유지한다. 다른 ID와 원문은 보존한다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "JLPTN3_34",
+          "senseId": "sense-JLPTN3_34-1",
+          "senseVersion": 1,
+          "sourceHash": "38fe91a74801540bdb34e227a66c9b82561477e4a6ac1fefded036d35f76a985",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "JLPTN3_34",
+            "setId": "jlpt-n3",
+            "japanese": "借りる",
+            "reading": "かりる",
+            "meaning": "빌리다",
+            "type": "verb",
+            "difficulty": 20,
+            "verbInfo": "2타",
+            "sourceOrder": 33
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_34-1",
+              "wordId": "JLPTN3_34",
+              "version": 1,
+              "meaning": "빌리다",
+              "hint": "남의 물건을 허락받아 잠시 내가 쓰는 방향이에요. 나중에 돌려줄 것을 전제로 해요.",
+              "confusions": [
+                {
+                  "japanese": "貸す",
+                  "distinction": "물건을 내주는 쪽이 아니라 받아서 쓰는 쪽의 행동이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_34-1-ex-1",
+                  "version": 1,
+                  "before": "一日しか使わない道具なら、買わずに",
+                  "answer": "借りよう",
+                  "after": "。",
+                  "reading": "かりよう",
+                  "translation": "하루밖에 쓰지 않을 도구라면 사지 말고 빌리자.",
+                  "translationTarget": "빌리자",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_34-1-ex-2",
+                  "version": 1,
+                  "before": "図書館で",
+                  "answer": "借りた",
+                  "after": "本に、前の人のしおりが挟まっていた。",
+                  "reading": "かりた",
+                  "translation": "도서관에서 빌린 책에 앞사람의 책갈피가 끼워져 있었다.",
+                  "translationTarget": "빌린",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_421",
+          "senseId": "sense-AbsoluteVerb_421-1",
+          "senseVersion": 1,
+          "sourceHash": "c104945ea4bc9ff6a27c5b0b954879c258fd56aaa1ca3869f0b7d4ba5a7e2a67",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_421",
+            "setId": "AbsoluteVerb",
+            "japanese": "借りる",
+            "reading": "かりる",
+            "meaning": "빌리다",
+            "type": "verb",
+            "difficulty": 20,
+            "verbInfo": "2타",
+            "sourceOrder": 419
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_421-1",
+              "wordId": "AbsoluteVerb_421",
+              "version": 1,
+              "meaning": "빌리다",
+              "hint": "갖고 있던 것을 빌려주는 반대쪽이에요.",
+              "confusions": [
+                {
+                  "japanese": "貸す",
+                  "distinction": "물건을 잠시 받아 쓰는 사람이 주어다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_421-1-ex-1",
+                  "version": 1,
+                  "before": "作業のため、隣の家からはしごを",
+                  "answer": "借りた",
+                  "after": "。",
+                  "reading": "かりた",
+                  "translation": "작업하려고 이웃집에서 사다리를 빌렸다.",
+                  "translationTarget": "빌렸다",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_421-1-ex-2",
+                  "version": 1,
+                  "before": "ちょっとペンを",
+                  "answer": "借りたい",
+                  "after": "んだけど、今使ってる？",
+                  "reading": "かりたい",
+                  "translation": "잠깐 펜을 빌리고 싶은데 지금 쓰고 있어?",
+                  "translationTarget": "빌리고 싶은데",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-6ce489219b56bc8b",
+      "candidateSourceHash": "e9c327af5180ec70c52d22a7966f7a8cc4f3730e3502af7679ec707fc722c165",
+      "japanese": "貸す",
+      "memberWordIds": [
+        "JLPTN3_33",
+        "AbsoluteVerb_422"
+      ],
+      "representativeWordId": "JLPTN3_33",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "소유물을 상대가 잠시 쓰도록 내주는 타동사 방향이 같다. 우산·지우개·사다리·사전이 같은 핵심이며 借りる와의 방향 대비가 일치한다."
+      ],
+      "representativeReason": "현재 구체적으로 설명된 기본 용법을 대표로 유지한다. 다른 ID와 원문은 보존한다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "JLPTN3_33",
+          "senseId": "sense-JLPTN3_33-1",
+          "senseVersion": 1,
+          "sourceHash": "7158c1a0e19eb54f150d5e18e66b62960f78f85e540ae781b12d001a72c295eb",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "JLPTN3_33",
+            "setId": "jlpt-n3",
+            "japanese": "貸す",
+            "reading": "かす",
+            "meaning": "빌려주다",
+            "type": "verb",
+            "difficulty": 20,
+            "verbInfo": "1타",
+            "sourceOrder": 32
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_33-1",
+              "wordId": "JLPTN3_33",
+              "version": 1,
+              "meaning": "빌려주다",
+              "hint": "내 물건을 상대가 잠시 쓰게 하는 방향이에요. 소유권을 넘기거나 내가 남의 물건을 가져오는 것은 아니에요.",
+              "confusions": [
+                {
+                  "japanese": "借りる",
+                  "distinction": "물건을 쓰도록 내주는 쪽과 받아 쓰는 쪽의 방향이 반대다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_33-1-ex-1",
+                  "version": 1,
+                  "before": "雨が強くなったので、傘のない同僚に折り畳み傘を",
+                  "answer": "貸した",
+                  "after": "。",
+                  "reading": "かした",
+                  "translation": "비가 거세져서 우산이 없는 동료에게 접이식 우산을 빌려주었다.",
+                  "translationTarget": "빌려주었다",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_33-1-ex-2",
+                  "version": 1,
+                  "before": "「消しゴム、ちょっと",
+                  "answer": "貸して",
+                  "after": "。名前を間違えちゃった。」",
+                  "reading": "かして",
+                  "translation": "“지우개 좀 빌려줘. 이름을 잘못 썼어.”",
+                  "translationTarget": "빌려줘",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_422",
+          "senseId": "sense-AbsoluteVerb_422-1",
+          "senseVersion": 1,
+          "sourceHash": "932739d7e8aefd38afdb77709d3af774e87a47f1ae7a535835812ba9b9607d3d",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_422",
+            "setId": "AbsoluteVerb",
+            "japanese": "貸す",
+            "reading": "かす",
+            "meaning": "빌려 주다",
+            "type": "verb",
+            "difficulty": 20,
+            "verbInfo": "1타",
+            "sourceOrder": 420
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_422-1",
+              "wordId": "AbsoluteVerb_422",
+              "version": 1,
+              "meaning": "빌려주다",
+              "hint": "내 것을 잠시 쓰도록 남에게 줘요. 빌리는 방향과 구별해요.",
+              "confusions": [
+                {
+                  "japanese": "借りる",
+                  "distinction": "물건을 빌려주는 소유자 쪽과 빌려 쓰는 쪽의 방향이 반대다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_422-1-ex-1",
+                  "version": 1,
+                  "before": "隣の人に脚立を",
+                  "answer": "貸した",
+                  "after": "。",
+                  "reading": "かした",
+                  "translation": "옆집 사람에게 사다리를 빌려줬다.",
+                  "translationTarget": "빌려줬다",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_422-1-ex-2",
+                  "version": 1,
+                  "before": "その辞書、明日まで",
+                  "answer": "貸して",
+                  "after": "もらえる？",
+                  "reading": "かして",
+                  "translation": "그 사전 내일까지 빌려줄 수 있어?",
+                  "translationTarget": "빌려줄",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "accepted",
+        "profileTransfer": "equivalent-core-usage",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": "candidate-17bdcb022a609a8a",
+      "candidateSourceHash": "4d923e36b2a93b2c0165775871fc71bb5da968b2bb7e46a96e6edaa2ac4b8f99",
+      "japanese": "消す",
+      "memberWordIds": [
+        "JLPTN3_44",
+        "AbsoluteVerb_75"
+      ],
+      "representativeWordId": "JLPTN3_44",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "different-or-broader",
+      "profileTransferProposal": "do-not-merge",
+      "semanticNotes": [
+        "표제어의 넓은 뜻은 겹치지만 현재44는 불·TV를 끄는 핵심,75는 글·표시·사진을 지우는 핵심이다. 각 힌트·대비·두 예문이 별도 핵심을 뒷받침하므로 현재 숙련도·예정일을 동등 이전하지 않는다."
+      ],
+      "representativeReason": "현재 구체적으로 설명된 기본 용법을 대표로 유지한다. 다른 ID와 원문은 보존한다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "JLPTN3_44",
+          "senseId": "sense-JLPTN3_44-1",
+          "senseVersion": 1,
+          "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "JLPTN3_44",
+            "setId": "jlpt-n3",
+            "japanese": "消す",
+            "reading": "けす",
+            "meaning": "(불·전원 등을) 끄다, 지우다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1타",
+            "sourceOrder": 43
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_44-1",
+              "wordId": "JLPTN3_44",
+              "version": 1,
+              "meaning": "끄다",
+              "hint": "켜진 불이나 전원을 꺼요. 누군가가 끄는 행동이에요.",
+              "confusions": [
+                {
+                  "japanese": "消える",
+                  "distinction": "불이 꺼지는 변화와 누군가 불을 끄는 행동을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_44-1-ex-1",
+                  "version": 1,
+                  "before": "寝る前に廊下の電気を",
+                  "answer": "消して",
+                  "after": "ね。",
+                  "reading": "けして",
+                  "translation": "자기 전에 복도 불을 꺼 줘.",
+                  "translationTarget": "꺼",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_44-1-ex-2",
+                  "version": 1,
+                  "before": "誰かがテレビを",
+                  "answer": "消した",
+                  "after": "途端、部屋が静かになった。",
+                  "reading": "けした",
+                  "translation": "누군가 텔레비전을 끄자마자 방이 조용해졌다.",
+                  "translationTarget": "끄자마자",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_75",
+          "senseId": "sense-AbsoluteVerb_75-1",
+          "senseVersion": 1,
+          "sourceHash": "f710f39355225f7a816b23fa318fb50259c2aa1dceb20570c9f716f23cd2e2ab",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_75",
+            "setId": "AbsoluteVerb",
+            "japanese": "消す",
+            "reading": "けす",
+            "meaning": "지우다, 없애다, 끄다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1타",
+            "sourceOrder": 74
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_75-1",
+              "wordId": "AbsoluteVerb_75",
+              "version": 1,
+              "meaning": "글·기록·표시 등을 없애다",
+              "hint": "쓰인 표시나 저장된 것을 없애요. 공식적인 삭제보다 일상적인 말이에요.",
+              "confusions": [
+                {
+                  "japanese": "削除する",
+                  "distinction": "기록 삭제에는 서로 바꿀 수 있으며, 이 말은 칠판 글씨 지우기처럼 물리적인 표시에도 널리 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_75-1-ex-1",
+                  "version": 1,
+                  "before": "黒板の日付だけ",
+                  "answer": "消して",
+                  "after": "ください。",
+                  "reading": "けして",
+                  "translation": "칠판의 날짜만 지워 주세요.",
+                  "translationTarget": "지워",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_75-1-ex-2",
+                  "version": 1,
+                  "before": "間違って、大事な写真まで",
+                  "answer": "消してしまった",
+                  "after": "。",
+                  "reading": "けしてしまった",
+                  "translation": "실수로 중요한 사진까지 지워 버렸다.",
+                  "translationTarget": "지워 버렸다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": {
+        "file": "content/jlpt/legacy/core-alias-review-001.json",
+        "reviewCurrent": true,
+        "outcome": "needs_followup",
+        "profileTransfer": "different-selected-core-usages",
+        "reviewedAt": "2026-10-01T00:27:04.489Z"
+      },
+      "holds": [
+        "동등 프로필 연결 금지. 서로 다른 현재 용법을 유지한 수준 대표 선정은 별도 경로로 검토해야 한다."
+      ],
+      "implementationBoundary": "동일 단일 핵심 용법 제안만 포함. 별도 Astra 최종 승인·현재 해시·이전 규약 확인 전 실제 프로필 연결·참조 게시를 수행하지 않는다."
+    },
+    {
+      "candidateGroupId": null,
+      "candidateSourceHash": null,
+      "japanese": "勉強",
+      "memberWordIds": [
+        "handmade_50",
+        "AbsoluteVerb_646"
+      ],
+      "representativeWordId": "handmade_50",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "명사 勉強와 suru 동사 勉強する는 표기·품사·빈칸 활용이 다르지만 현재 두 대표 용법 모두 지식을 배워 익히는 공부이다. 일본어 공부/수학을 가르치며 얻는 공부/시험 전 학습/학습 목적의 네 예문과 研究·習う 대비를 읽었다. 수학을 가르치면서 본인도 공부가 됐다는 예문은 현재 대표 지식 습득 범위이며 값 할인·경험 전반 등의 별도 사전 뜻은 포함하지 않는다."
+      ],
+      "representativeReason": "일상 기본 명사·동사 표제와 현재 완전한 단일 대표 용법을 보존한다. 원본 두 ID·예문·소속은 삭제·수정하지 않는다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "handmade_50",
+          "senseId": "sense-handmade_50-1",
+          "senseVersion": 1,
+          "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "handmade_50",
+            "setId": "set-2",
+            "japanese": "勉強",
+            "reading": "べんきょう",
+            "meaning": "공부",
+            "type": "noun",
+            "difficulty": 15,
+            "verbInfo": null,
+            "sourceOrder": 49
+          },
+          "senses": [
+            {
+              "id": "sense-handmade_50-1",
+              "wordId": "handmade_50",
+              "version": 1,
+              "meaning": "지식을 익히는 공부",
+              "hint": "학교 과목이나 필요한 지식을 배워 익혀요.",
+              "confusions": [
+                {
+                  "japanese": "研究",
+                  "distinction": "새 원리나 사실을 밝혀내는 것보다 학습하여 지식을 얻는 활동이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-handmade_50-1-ex-1",
+                  "version": 1,
+                  "before": "試験が終わっても、日本語の",
+                  "answer": "勉強",
+                  "after": "は続けたい。",
+                  "reading": "べんきょう",
+                  "translation": "시험이 끝나도 일본어 공부는 계속하고 싶다.",
+                  "translationTarget": "공부",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-handmade_50-1-ex-2",
+                  "version": 1,
+                  "before": "弟に数学を教えるうちに、自分にもいい",
+                  "answer": "勉強",
+                  "after": "になった。",
+                  "reading": "べんきょう",
+                  "translation": "남동생에게 수학을 가르치다 보니 나에게도 좋은 공부가 되었다.",
+                  "translationTarget": "공부",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_646",
+          "senseId": "sense-AbsoluteVerb_646-1",
+          "senseVersion": 1,
+          "sourceHash": "4da4572f9a753057f1a0c28f8d4031dfee855584fc6f208e9e7cc41974c79107",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_646",
+            "setId": "AbsoluteVerb",
+            "japanese": "勉強する",
+            "reading": "べんきょうする",
+            "meaning": "공부하다",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "3타",
+            "sourceOrder": 644
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_646-1",
+              "wordId": "AbsoluteVerb_646",
+              "version": 1,
+              "meaning": "공부하다",
+              "hint": "학습을 위해 읽고 쓰며 익혀요. 가르침을 받는 것만은 아니에요.",
+              "confusions": [
+                {
+                  "japanese": "習う",
+                  "distinction": "남에게 배우는 것과 달리 혼자 하는 학습에도 널리 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_646-1-ex-1",
+                  "version": 1,
+                  "before": "試験前は、図書館で夜まで",
+                  "answer": "勉強した",
+                  "after": "。",
+                  "reading": "べんきょうした",
+                  "translation": "시험 전에는 도서관에서 밤까지 공부했다.",
+                  "translationTarget": "공부했다",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_646-1-ex-2",
+                  "version": 1,
+                  "before": "何のために",
+                  "answer": "勉強する",
+                  "after": "のか、弟に聞かれた。",
+                  "reading": "べんきょうする",
+                  "translation": "무엇을 위해 공부하는지 남동생이 물었다.",
+                  "translationTarget": "공부하는지",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": null,
+      "holds": [],
+      "implementationBoundary": "명사/suru 동사 의미 동등 제안이며 자동 활성 승인이 아니다. 품사·표기 차이의 alias 후보 허용 및 프로필 이전 계약을 root와 Astra가 별도 검증해야 한다."
+    },
+    {
+      "candidateGroupId": null,
+      "candidateSourceHash": null,
+      "japanese": "掃除",
+      "memberWordIds": [
+        "handmade_15",
+        "AbsoluteVerb_640"
+      ],
+      "representativeWordId": "handmade_15",
+      "proposedLevel": "N5",
+      "levelNote": "일상 기본 행동·학습·청소의 선택된 핵심 용법을 기준으로 한 비공식 N5 제안. 기존 JLPTN3 세트 소속을 학습 난도로 강제하지 않는다.",
+      "decision": "equivalent-core",
+      "profileTransferProposal": "equivalent-core-usage-candidate",
+      "semanticNotes": [
+        "명사 掃除와 suru 동사 掃除する는 현재 동일한 먼지·때를 없애 깨끗하게 하는 청소 핵심이다. 창문/일반 청소/베란다/바닥 네 예문, 명사 片付け와 동사 片付ける의 정돈 대비가 일치한다. 정돈만 하거나 사람을 제거하는 비유 의미로 넓히지 않는다."
+      ],
+      "representativeReason": "일상 기본 명사·동사 표제와 현재 완전한 단일 대표 용법을 보존한다. 원본 두 ID·예문·소속은 삭제·수정하지 않는다.",
+      "sourceSnapshots": [
+        {
+          "wordId": "handmade_15",
+          "senseId": "sense-handmade_15-1",
+          "senseVersion": 1,
+          "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "handmade_15",
+            "setId": "set-2",
+            "japanese": "掃除",
+            "reading": "そうじ",
+            "meaning": "청소",
+            "type": "noun",
+            "difficulty": 18,
+            "verbInfo": null,
+            "sourceOrder": 14
+          },
+          "senses": [
+            {
+              "id": "sense-handmade_15-1",
+              "wordId": "handmade_15",
+              "version": 1,
+              "meaning": "청소",
+              "hint": "정리만 하는 것이 아니라 먼지나 더러움을 없애요.",
+              "confusions": [
+                {
+                  "japanese": "片付け",
+                  "distinction": "물건을 제자리에 정돈하는 것과 달리 오염을 없애는 행동이 중심이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-handmade_15-1-ex-1",
+                  "version": 1,
+                  "before": "窓の",
+                  "answer": "掃除",
+                  "after": "をしたら、部屋が明るくなった。",
+                  "reading": "そうじ",
+                  "translation": "창문 청소를 했더니 방이 밝아졌다.",
+                  "translationTarget": "청소",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-handmade_15-1-ex-2",
+                  "version": 1,
+                  "before": "今日は",
+                  "answer": "掃除",
+                  "after": "を後回しにして、先に買い物へ行こう。",
+                  "reading": "そうじ",
+                  "translation": "오늘은 청소를 나중으로 미루고 먼저 장을 보러 가자.",
+                  "translationTarget": "청소",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        },
+        {
+          "wordId": "AbsoluteVerb_640",
+          "senseId": "sense-AbsoluteVerb_640-1",
+          "senseVersion": 1,
+          "sourceHash": "5fc1e03373e9a7e5b1e086cfbee33d847533d2529c22c9ea8a51b40e854c6cb2",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "word": {
+            "id": "AbsoluteVerb_640",
+            "setId": "AbsoluteVerb",
+            "japanese": "掃除する",
+            "reading": "そうじする",
+            "meaning": "청소하다",
+            "type": "verb",
+            "difficulty": 16,
+            "verbInfo": "3타",
+            "sourceOrder": 638
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_640-1",
+              "wordId": "AbsoluteVerb_640",
+              "version": 1,
+              "meaning": "청소하다",
+              "hint": "먼지와 때를 없애 깨끗하게 해요. 물건 정리만은 아니에요.",
+              "confusions": [
+                {
+                  "japanese": "片付ける",
+                  "distinction": "물건을 제자리에 놓는 것보다 더러움을 제거하는 데 초점을 둔다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_640-1-ex-1",
+                  "version": 1,
+                  "before": "休みの日に、ベランダを",
+                  "answer": "掃除した",
+                  "after": "。",
+                  "reading": "そうじした",
+                  "translation": "쉬는 날 베란다를 청소했다.",
+                  "translationTarget": "청소했다",
+                  "difficulty": 16,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_640-1-ex-2",
+                  "version": 1,
+                  "before": "床を",
+                  "answer": "掃除している",
+                  "after": "ので、少し待ってね。",
+                  "reading": "そうじしている",
+                  "translation": "바닥을 청소하고 있으니 잠깐 기다려.",
+                  "translationTarget": "청소하고 있으니",
+                  "difficulty": 16,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "publishedLevels": []
+        }
+      ],
+      "priorIndependentReview": null,
+      "holds": [],
+      "implementationBoundary": "명사/suru 동사 의미 동등 제안이며 자동 활성 승인이 아니다. 품사·표기 차이의 alias 후보 허용 및 프로필 이전 계약을 root와 Astra가 별도 검증해야 한다."
+    }
+  ],
+  "summary": {
+    "groups": 10,
+    "equivalentCoreCandidates": 9,
+    "differentSelectedCoreUsages": 1,
+    "sourceMutations": 0,
+    "registryMutations": 0
+  }
+}

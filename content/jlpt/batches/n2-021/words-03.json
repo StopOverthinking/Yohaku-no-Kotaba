@@ -1,0 +1,74 @@
+[
+  {
+    "japanese": "醜い",
+    "reading": "みにくい",
+    "type": "i_adj",
+    "meaning": "추하다",
+    "hint": "보기에 아름답지 않거나 불쾌한 상태예요.",
+    "confusion": "美しい",
+    "distinction": "아름답지 않고 보기 싫은 상태와 아름다운 상태를 구별한다.",
+    "dictionaryId": "jmdict-1333810",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "純情",
+    "reading": "じゅんじょう",
+    "type": "na_adj",
+    "meaning": "순진하다·순수하다",
+    "hint": "마음이 꾸밈없고 사람을 쉽게 믿는 상태예요.",
+    "confusion": "計算高い",
+    "distinction": "꾸밈없이 믿는 태도와 자기 이익을 따지는 태도를 구별한다.",
+    "dictionaryId": "jmdict-1341910",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "清い",
+    "reading": "きよい",
+    "type": "i_adj",
+    "meaning": "맑다·깨끗하다",
+    "hint": "때나 흐림이 없어 깨끗하고 맑은 상태예요.",
+    "confusion": "濁った",
+    "distinction": "맑고 깨끗한 상태와 흐리고 탁한 상태를 구별한다.",
+    "dictionaryId": "jmdict-1378140",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "勇ましい",
+    "reading": "いさましい",
+    "type": "i_adj",
+    "meaning": "용감하다·씩씩하다",
+    "hint": "겁내지 않고 힘 있게 나서는 모습이에요.",
+    "confusion": "臆病",
+    "distinction": "겁내지 않고 나서는 모습과 겁이 많은 태도를 구별한다.",
+    "dictionaryId": "jmdict-1539660",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "騒々しい",
+    "reading": "そうぞうしい",
+    "type": "i_adj",
+    "meaning": "시끄럽다·소란스럽다",
+    "hint": "여러 소리가 뒤섞이거나 소동이 있어 차분하지 않은 상태예요.",
+    "confusion": "静か",
+    "distinction": "소란으로 어수선한 상태와 조용한 상태를 구별한다.",
+    "dictionaryId": "jmdict-1596440",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "見慣れる",
+    "reading": "みなれる",
+    "type": "verb",
+    "meaning": "눈에 익다",
+    "hint": "여러 번 보아 낯설게 느껴지지 않게 돼요.",
+    "confusion": "見知らぬ",
+    "distinction": "자주 보아 익숙해진 것과 처음 보아 모르는 것을 구별한다.",
+    "dictionaryId": "jmdict-1604650",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  }
+]

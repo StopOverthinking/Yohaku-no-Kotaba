@@ -1064,6 +1064,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1588880-1",
+    "wordId": "lex-jmdict-1588880",
+    "version": 1,
+    "meaning": "크다",
+    "hint": "물건의 크기나 규모가 보통보다 큰 상태",
+    "confusions": [
+      {
+        "japanese": "小さい",
+        "distinction": "크기가 큰 상태와 작은 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1588880-1-ex-1",
+        "version": 1,
+        "before": "この箱は",
+        "answer": "大きすぎて",
+        "after": "、棚に入りません。",
+        "reading": "おおきすぎて",
+        "translation": "이 상자는 너무 커서 선반에 들어가지 않습니다.",
+        "translationTarget": "너무 커서",
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1587610-1",
+    "wordId": "lex-jmdict-1587610",
+    "version": 1,
+    "meaning": "싫다·내키지 않다",
+    "hint": "하고 싶지 않거나 받아들이고 싶지 않은 마음",
+    "confusions": [
+      {
+        "japanese": "好き",
+        "distinction": "하기 싫고 꺼리는 마음과 좋고 원하는 마음을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1587610-1-ex-1",
+        "version": 2,
+        "before": "弟は、このシャツのチクチクする感じが",
+        "answer": "嫌だ",
+        "after": "と言った。",
+        "reading": "いやだ",
+        "translation": "남동생은 이 셔츠의 따끔거리는 느낌이 싫다고 말했다.",
+        "translationTarget": "싫다",
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477250-1",
+    "wordId": "lex-jmdict-1477250",
+    "version": 1,
+    "meaning": "발휘",
+    "hint": "지닌 능력·힘을 실제 활동에서 드러내는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "習得",
+        "distinction": "発揮는 이미 지닌 능력을 보임이고 習得는 능력·기술을 익힘이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477250-1-ex-1",
+        "version": 1,
+        "before": "緊急時にこそ、訓練で身に付けた力を",
+        "answer": "発揮",
+        "after": "してほしい。",
+        "reading": "はっき",
+        "translation": "긴급할 때야말로 훈련으로 익힌 힘을 발휘했으면 한다.",
+        "translationTarget": "발휘",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381180-1",
+    "wordId": "lex-jmdict-1381180",
+    "version": 1,
+    "meaning": "성실함, 진실함",
+    "hint": "거짓·꾸밈 없이 상대와 일에 진심으로 임합니다.",
+    "confusions": [
+      {
+        "japanese": "勤勉",
+        "distinction": "誠実는 진심으로 바르게 대함이고 勤勉는 부지런히 노력함이다. 성실한 근무 태도에서 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381180-1-ex-1",
+        "version": 1,
+        "before": "失敗を隠さず説明する姿に、彼の",
+        "answer": "誠実",
+        "after": "さを感じた。",
+        "reading": "せいじつ",
+        "translation": "실패를 숨기지 않고 설명하는 모습에서 그의 성실함을 느꼈다.",
+        "translationTarget": "성실함",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504750-1",
+    "wordId": "lex-jmdict-1504750",
+    "version": 1,
+    "meaning": "분투",
+    "hint": "어려운 상황에서 힘껏 노력하며 싸웁니다.",
+    "confusions": [
+      {
+        "japanese": "努力",
+        "distinction": "奮闘는 어려움 속에서 힘껏 싸우듯 노력함이고 努力는 목표를 향한 노력 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504750-1-ex-1",
+        "version": 1,
+        "before": "慣れない仕事に",
+        "answer": "奮闘",
+        "after": "する新人を、先輩たちが支えている。",
+        "reading": "ふんとう",
+        "translation": "익숙하지 않은 업무에 분투하는 신입을 선배들이 돕고 있다.",
+        "translationTarget": "분투",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430040-1",
+    "wordId": "lex-jmdict-1430040",
+    "version": 1,
+    "meaning": "장녀·맏딸",
+    "hint": "한 가정의 딸 가운데 가장 먼저 태어난 사람",
+    "confusions": [
+      {
+        "japanese": "次女",
+        "distinction": "첫째 딸과 둘째 딸을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430040-1-ex-1",
+        "version": 1,
+        "before": "叔母の",
+        "answer": "長女",
+        "after": "が、今年大学を卒業しました。",
+        "reading": "ちょうじょ",
+        "translation": "이모의 맏딸이 올해 대학을 졸업했습니다.",
+        "translationTarget": "맏딸",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1543980-1",
+    "wordId": "lex-jmdict-1543980",
+    "version": 1,
+    "meaning": "여가",
+    "hint": "일·의무 외에 자유롭게 쓸 수 있는 시간입니다.",
+    "confusions": [
+      {
+        "japanese": "休暇",
+        "distinction": "余暇는 일 외의 자유 시간이고 休暇는 직장·학교 등에서 허용된 휴가이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1543980-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "余暇",
+        "after": "を利用して、近所の美術館を巡っている。",
+        "reading": "よか",
+        "translation": "여가를 이용해 근처 미술관들을 둘러보고 있다.",
+        "translationTarget": "여가",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1179930-1",
+    "wordId": "lex-jmdict-1179930",
+    "version": 1,
+    "meaning": "응접·손님 맞이",
+    "hint": "찾아온 손님을 맞아 대하거나 안내하는 일",
+    "confusions": [
+      {
+        "japanese": "訪問",
+        "distinction": "찾아온 손님을 맞는 것과 다른 곳을 찾아가는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1179930-1-ex-1",
+        "version": 1,
+        "before": "取引先の人が来たので、",
+        "answer": "応接",
+        "after": "室へ案内した。",
+        "reading": "おうせつ",
+        "translation": "거래처 사람이 와서 응접실로 안내했다.",
+        "translationTarget": "응접",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463840-1",
+    "wordId": "lex-jmdict-1463840",
+    "version": 1,
+    "meaning": "그늘",
+    "hint": "무엇에 가려 햇빛이 직접 닿지 않는 곳",
+    "confusions": [
+      {
+        "japanese": "日なた",
+        "distinction": "햇빛이 가려진 곳과 햇빛이 드는 곳을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463840-1-ex-1",
+        "version": 1,
+        "before": "犬が",
+        "answer": "日陰",
+        "after": "で寝ている間に、庭の水やりを済ませた。",
+        "reading": "ひかげ",
+        "translation": "개가 그늘에서 자는 동안 정원에 물 주는 일을 끝냈다.",
+        "translationTarget": "그늘",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375730-1",
+    "wordId": "lex-jmdict-1375730",
+    "version": 1,
+    "meaning": "성숙",
+    "hint": "성장하여 몸·정신·기능 등이 충분히 발달합니다.",
+    "confusions": [
+      {
+        "japanese": "未熟",
+        "distinction": "成熟는 충분히 발달함이고 未熟는 아직 부족함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375730-1-ex-1",
+        "version": 1,
+        "before": "経験を積む中で、彼の判断力は",
+        "answer": "成熟",
+        "after": "していった。",
+        "reading": "せいじゅく",
+        "translation": "경험을 쌓는 동안 그의 판단력은 성숙해 갔다.",
+        "translationTarget": "성숙",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

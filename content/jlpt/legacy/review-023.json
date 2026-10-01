@@ -127,20 +127,21 @@
   },
   {
     "wordId": "AbsoluteVerb_31",
-    "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
-    "proposalHash": "cdb52aa25b6560695623cebc50371ef68fc90052eddcd5e7659b7e400c96bdbe",
+    "sourceHash": "d7f90a279002ee6f1df5f017c88b3df7493927a4a8dd46d563ca4ec521fe8596",
+    "proposalHash": "d9e738947f137d499a378cc4535c40ead5e718004e45c276d7ced04ab8e0f314",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-023.json",
-    "reviewedAt": "2026-09-30T06:03:16.812Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "옛이야기·설명을 듣는 N5 용법이며 질문 의미와 분리되어 있다."
+      "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
     ]
   },
   {
@@ -181,20 +182,21 @@
   },
   {
     "wordId": "AbsoluteVerb_34",
-    "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
-    "proposalHash": "21dc6f971da393b242929e65b34e328caeac18330d78f8c53740d639f860395c",
+    "sourceHash": "ecc981014e34f71e3660083ac3875dd2806c887d671d642ac7d63ad07b40c2c5",
+    "proposalHash": "2858079c6afe98abc8a6c891191ff3f3b2fd385313fa797b2d5778415ce39dc0",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-023.json",
-    "reviewedAt": "2026-09-30T06:03:16.812Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "물·차를 마시는 N5 용법이 정확하다."
+      "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
     ]
   },
   {
@@ -379,38 +381,40 @@
   },
   {
     "wordId": "AbsoluteVerb_49",
-    "sourceHash": "93fe1c2703e2b1610264af405b2f3dcbca529345b05efa3db57535baa7c4e0db",
-    "proposalHash": "575b7ff51fb7a8b92de5502d925128580b2fa06a48a7c4217f179728f181712c",
+    "sourceHash": "acdcd68a59418b583db124d65fe8b4c9b3a767b284019bb2c9277b758ee99d45",
+    "proposalHash": "86aefc07011f1b16f01d751ab3355103c8b229323973d188069c9da499ab54ff",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-023.json",
-    "reviewedAt": "2026-09-30T06:03:16.812Z",
+    "reviewedAt": "2026-10-01T00:42:14.052Z",
     "notes": [
-      "N4 의견·판단 뜻은 맞으나 주관적·의지적이라는 대표뜻을 객관적 사고와 절대 구분하지 않도록 정리가 필요하다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
     ]
   },
   {
     "wordId": "AbsoluteVerb_50",
-    "sourceHash": "420d2b9db5bc3fe568f438ff3cd2c13963a2d9d603fc55910bd5504d1954e759",
-    "proposalHash": "4e36c099329b40ec0272ca79aed542d9281ae8b270b8814a34b473c14389aa3d",
+    "sourceHash": "a8741aab1a86a2737b34f982bc40dcfdf84000389239979510cbcc5d7df88165",
+    "proposalHash": "558715af7de5bc91633ad7addcd53202a405eede0b39e46c1712d36d6ad25d85",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-023.json",
-    "reviewedAt": "2026-09-30T06:03:16.812Z",
+    "reviewedAt": "2026-10-01T00:42:14.052Z",
     "notes": [
-      "N4 숙고·계획 용법은 맞으나 이성적·객관적이라는 표제어 한정은 완화할 대상이다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준."
     ]
   },
   {

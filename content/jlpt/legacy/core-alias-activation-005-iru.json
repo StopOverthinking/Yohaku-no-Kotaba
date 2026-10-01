@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-01T01:04:28.592Z",
+  "input": "content/jlpt/legacy/core-alias-review-005-iru.json",
+  "inputHash": "a80cf1f27084ee14d53a3719a725d2be3d3bc4ae056bca6c4c89c202e1d66a32",
+  "previousActiveIds": [
+    "lex-jmdict-1501350",
+    "handmade_119",
+    "handmade_118",
+    "handmade_99",
+    "JLPTN3_83",
+    "JLPTN3_23",
+    "JLPTN3_34",
+    "JLPTN3_33",
+    "handmade_50",
+    "handmade_15",
+    "handmade_54",
+    "handmade_82",
+    "handmade_132",
+    "handmade_2",
+    "AbsoluteVerb_164",
+    "handmade_16",
+    "JLPTN3_126",
+    "handmade_63",
+    "handmade_81",
+    "JLPTN3_340",
+    "handmade_92",
+    "handmade_97",
+    "handmade_69"
+  ],
+  "addedIds": [
+    "lex-jmdict-1577980"
+  ],
+  "oldGroupsUnchanged": true,
+  "fullCurrentHashesVerified": true,
+  "explicitCandidateLinks": [
+    {
+      "id": "candidate-core-lex-jmdict-1577980",
+      "dictionaryId": "jmdict-1577980",
+      "wordIds": [
+        "AbsoluteVerb_162",
+        "lex-jmdict-1577980"
+      ],
+      "reviewHash": "faacd3317bfd52528a7a595b5b94efc95fc7b63353509ac9cec416d2dc999cd4"
+    }
+  ],
+  "profilePolicy": "original archives, conservative stage/date, no count summation; independent level references still required"
+}

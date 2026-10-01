@@ -1860,6 +1860,134 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1363600-1",
+    "wordId": "lex-jmdict-1363600",
+    "version": 1,
+    "meaning": "진공",
+    "hint": "공기 등 물질이 거의 없는 공간의 상태",
+    "confusions": [
+      {
+        "japanese": "空気",
+        "distinction": "물질이 거의 없는 상태와 기체가 차 있는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1363600-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "真空",
+        "after": "では音が伝わらないことを、実験で確かめた。",
+        "reading": "しんくう",
+        "translation": "진공에서는 소리가 전달되지 않는다는 것을 실험으로 확인했다.",
+        "translationTarget": "진공",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1492160-1",
+    "wordId": "lex-jmdict-1492160",
+    "version": 1,
+    "meaning": "불결하다",
+    "hint": "청결하지 않아 위생적으로 좋지 않은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "清潔",
+        "distinction": "위생적으로 더러운 상태와 깨끗한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1492160-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "不潔",
+        "after": "な布で傷を拭くと、感染の危険がある。",
+        "reading": "ふけつ",
+        "translation": "불결한 천으로 상처를 닦으면 감염 위험이 있다.",
+        "translationTarget": "불결한",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487500-1",
+    "wordId": "lex-jmdict-1487500",
+    "version": 1,
+    "meaning": "필수품",
+    "hint": "생활이나 활동에 반드시 필요한 물건",
+    "confusions": [
+      {
+        "japanese": "贅沢品",
+        "distinction": "반드시 필요한 물건과 없어도 되는 사치품을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487500-1-ex-1",
+        "version": 1,
+        "before": "水と薬は、避難するときの",
+        "answer": "必需品",
+        "after": "です。",
+        "reading": "ひつじゅひん",
+        "translation": "물과 약은 대피할 때의 필수품입니다.",
+        "translationTarget": "필수품",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326940-1",
+    "wordId": "lex-jmdict-1326940",
+    "version": 1,
+    "meaning": "되찾다",
+    "hint": "잃거나 줄어든 물건·상태를 다시 얻습니다.",
+    "confusions": [
+      {
+        "japanese": "取り出す",
+        "distinction": "取り戻す는 잃은 것을 되찾음이고 取り出す는 안에서 꺼냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326940-1-ex-1",
+        "version": 1,
+        "before": "落ち着きを",
+        "answer": "取り戻して",
+        "after": "から、もう一度説明を聞いた。",
+        "reading": "とりもどして",
+        "translation": "침착함을 되찾은 뒤 설명을 다시 들었다.",
+        "translationTarget": "되찾은",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,548 @@
+[
+  {
+    "wordId": "AbsoluteVerb_207",
+    "sourceHash": "bb3a1a5bbbd1b68e59a5d6141c761ba53ec0a936189d624e46e160b3e9603a05",
+    "proposalHash": "12e6d8857e1ffd9009173faca42170ec19e78831970fbe8bd5d5331c1c4d5cfb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "ゆでる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 새 대체표기 사전 근거 茹でる의 물에 삶는 뜻과 현재 달걀·면 예문이 일치한다. 생활 조리 핵심을 고려해 N4. 비공식 편집 권장 수준이며 출처 등급과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_208",
+    "sourceHash": "5a92f737829da2b8bf8d84b27fbb34987e5d7abbe31d7fe19414a4c9da898364",
+    "proposalHash": "c4f27c3f6dcfc0cd515a59cf8792314c52c0c7cfa6ccb41350cc66d4c35c916a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "沸く의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_209",
+    "sourceHash": "25351f5cf2a112641f7ebde649a85ccbf9cf4c3b1f77de7e474f58ba669f9b60",
+    "proposalHash": "7511291490c6fd1ef0acbffdef44672a7efa08ee65102b4ed7784111e16b4a81",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "沸かす의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_211",
+    "sourceHash": "1b0a4ed03aae86097f1f34b52c4c3163a19e203960121251c2f636b65a557d1e",
+    "proposalHash": "651d8d82efa8ee08cd8e59cbef42be2b75ad03a77afd9a213a6e848635eece8e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "焼ける의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_212",
+    "sourceHash": "b96236f7b7f146d99f67dc8f86a09b08026760514a8b81d742c4353da2ef0cfa",
+    "proposalHash": "5f31d69280be150688aa8acffe4441a48a4ded7b84ab3e70b1a0eb348a8548fb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "needs_followup",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "unresolved",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "和える의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+      "和える의 무침 용법 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_213",
+    "sourceHash": "972f1059789844c29c1f5c1f1293b4182b72b097bea3db76fe37b52ef6032914",
+    "proposalHash": "7dac7afec6860ba17d2e1c7a13de0681fb89bf7eb39d9ac9e4224b8ee4d26d68",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "蒸す의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 증기로 음식을 찌는 일반 조리 동작이므로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_214",
+    "sourceHash": "774cf60c80da61abed99f87ebd69d02dd2e6eed666c9481218a67ce96b202524",
+    "proposalHash": "505cc7e12decc68bbbf83bce21bad30d485ddcbc087c0cf73b54beb2fa0277bd",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "漬ける의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_215",
+    "sourceHash": "9058cd6d472a5507dfef3eedb7c332fa80333c50c77ebd52a04433ed31e7bf02",
+    "proposalHash": "ee0c0223fc25266e50edeb0914e8a545cb8eed4a29f5ed2bfefe615ddf511e84",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "炊く의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 쌀로 밥을 짓는 일상 동작이므로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_217",
+    "sourceHash": "9910fe8bb9710684ebc49203d702bf3f4769575faee4ed5661042e29836c4fcb",
+    "proposalHash": "3f9c88fc5d436a4c2941b030c3e2d3db9130fec1d30c5085f0e6bad718b65240",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "練る의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_218",
+    "sourceHash": "b1efcadb7dee284dc6045c2ea42bf10c90375800c35c239d8103793a9abdd259",
+    "proposalHash": "d0693658ce71458242640e9674a308d7dd8c67fb3df9bf4ac53daef13b8f4ddd",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "擦る의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+      "擦る의 으깨다·빻다 뜻은 현재 제공 사전 의미와 불일치해 별도 확인할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_220",
+    "sourceHash": "b6b85c1de546f55e4d1efe3670cc7b1b085a51dd98ddfadfd8868c23857fbdf3",
+    "proposalHash": "fd14e0535c2624f95d7f3fa7a19e171e93622a4d8efbaed4d08af5e64a13c266",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "潰す의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_222",
+    "sourceHash": "99b704c2f4bc0640adaa68f01447283b3ba7713639c5eb46af9ba4b66ef1210c",
+    "proposalHash": "3eee648d750e418efd519009c938ae2a3339fff831305fcbac037b013e2b6862",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "冷やす의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 음료·수박을 차갑게 하는 생활 동작이므로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_223",
+    "sourceHash": "2d77ed12c58e435702842b10e92fae77a26ad2c55eab41e90b05ad9d9d35ac39",
+    "proposalHash": "7188134afe1edbdc0b7454207580ecdfbda4a979302574ec8cfb6035f5a3e943",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "温める의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 수프·도시락을 데우는 필수 일상 행위로 N4. 비공식 편집 권장 수준이며 출처 등급과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_224",
+    "sourceHash": "5ffcc50bbcf8fb1c2869eec14f2380dd10159e5610d3c5d457d8de591110af0a",
+    "proposalHash": "9b1c2972f4bf2ca55970c42ee699074f9756f5c1cdfb196988193117cce3b4c1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "教える의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_225",
+    "sourceHash": "c872eeaa971464a75bdd82d4836bb39b19979516276c4cb1e8a160228e04750c",
+    "proposalHash": "478be62f98fbda3dfbef7d92fdbe2da81caa552ea114db5434ea9cff78b1d242",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:42:14.048Z",
+    "notes": [
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_227",
+    "sourceHash": "7fe937e990503df807a046cadcf1429d748c84c46e2e946dea059f0da1c9f0d1",
+    "proposalHash": "0a6a61ba16a15c843371a69e9df800ddd1052b1faf071d203e7ee8b5fbe6f591",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:42:14.052Z",
+    "notes": [
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_229",
+    "sourceHash": "15e49719614d299e1afc36fedf46ef278b96f1faa378156b664fb4b098c33406",
+    "proposalHash": "b8b38b64d58be64f86494c7e99a4926057c01132cc6818d444d4f55ca76ced0c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "忘れる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_230",
+    "sourceHash": "24cca9f6b8f5c2231525484f3a545dff6bc99be8fcdf6c2a8560cb0ba708ea0b",
+    "proposalHash": "87189c5886fafa283f67ff51b377e81daca56e986fb2345771c9fb0abdfcadc9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "分かる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N5·N2이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_231",
+    "sourceHash": "dc26314b814f39a8970216fa57244d4bd240f50ad178475d0719ec8dbb469152",
+    "proposalHash": "f511e3adbe9984f350c6f52e9535a00080330ce85a99ac22f533c0adae5a3beb",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "知る의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_232",
+    "sourceHash": "c4a81fbc7bc264289b484b8416fb9c3c33a843ec7c11001cb80c1d48f0c271df",
+    "proposalHash": "6787bc60360a3503de4cd3217aae8615cc3ca4750ea4b43e0fa61e77e99a43db",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "身に着ける의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+      "현재 뜻은 지식 습득인데 두 예문은 착용이므로 선택 의미와 한국어 뜻을 맞추어야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_233",
+    "sourceHash": "416bdcc84e63b8e4eda60ef95ea8d9ae3ecab143d491bfc82da5ff3a1d1fee5b",
+    "proposalHash": "12ece7fee829f5427d7b5d3e6dd9226f53e12119e6d6d90e089fbe98ea5e49d0",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "サボる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 연습·청소를 빼먹는 일상 구어 동작으로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
+      "한국어 게을리 하다를 게을리하다로 정리할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_234",
+    "sourceHash": "05920f53d936b9aedf4bc04bfe3971cf7fa7f0b0641782938164bab2bd3aec10",
+    "proposalHash": "d53b39c7bf034bbda2ab7b7d6ee4b2d4876ef05f2ab9f888b318966b4f132dc4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "眺める의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_235",
+    "sourceHash": "a3e21f0e2801479318050d17dfa51cdc1d7e8bc040f5748ade1265c95e660eae",
+    "proposalHash": "550ea0afb51eacd195212c1b804ee0b705bb6a6436baa369c57d89fc72716c42",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "見える의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_236",
+    "sourceHash": "6ab4cf98e97fe5f13f2f3966e740aaf0203936d3e10cce24e3c749fc10e80168",
+    "proposalHash": "1c8df3d2a4e805fee77323d6074589b629967ee484ba0b32ee92546732d2175e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "見せる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_237",
+    "sourceHash": "b6f463310b06d2e9790b7087dc8625dacfbb014e373cac54539696116aa3ba64",
+    "proposalHash": "12d0e45c0ba8ad036ee3935428a939d10a3d5d5d80abe979fe07233eaab79a0c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "覗く의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_238",
+    "sourceHash": "a33286d21f05a2886818442a233ccf0686af2daa5ea4438e45ed92f2ad45f1b2",
+    "proposalHash": "8932234230bddc8f5a5e2c4fccd3b720f2689602896af76e1b15b543ca12b0b9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "見付かる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_239",
+    "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730",
+    "proposalHash": "6b7453567e7aae89ba6a27707614a7c641e4441bacce20f2dc12ba5fa245208e",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "見付ける의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_240",
+    "sourceHash": "6f7ddb786456de342e83d2bb4a37da2b27b963116d70ef0c08de0c7615cf709a",
+    "proposalHash": "53bee9a0b09e5946fc95dfef2d61587d71621debcf519d2b791f03012f3eeae4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "聞こえる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_241",
+    "sourceHash": "8f83b99ba916535aedf1d461599129167fb503e04e5bc9865b7285653b8ddf6b",
+    "proposalHash": "17f215bf25875130dfa91568a2bd33fa36d1a33ca3d424002433069bf9d89b45",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "問う의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_242",
+    "sourceHash": "113e69a23b11654c788ef1d2fb6453ab35062e584b3c80a92fbdd5545e0bbd51",
+    "proposalHash": "ade89612cee7d384eae949345d32096d563428f34f59084f8dc71c773a241ea1",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "尋ねる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  }
+]

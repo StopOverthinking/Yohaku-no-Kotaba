@@ -1564,6 +1564,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267030-1",
+    "wordId": "lex-jmdict-1267030",
+    "version": 1,
+    "meaning": "호적, 가족 관계 등록부",
+    "hint": "출생·혼인 등 가족 신분 관계를 공적으로 기록한 장부입니다.",
+    "confusions": [
+      {
+        "japanese": "住所",
+        "distinction": "戸籍는 가족 신분 관계의 등록부이고 住所는 사는 곳의 주소다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267030-1-ex-1",
+        "version": 1,
+        "before": "手続きに必要な",
+        "answer": "戸籍",
+        "after": "の証明書を、市役所で取り寄せた。",
+        "reading": "こせき",
+        "translation": "수속에 필요한 호적 증명서를 시청을 통해 발급받았다.",
+        "translationTarget": "호적",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1108160-1",
+    "wordId": "lex-jmdict-1108160",
+    "version": 1,
+    "meaning": "지퍼",
+    "hint": "서로 맞물리는 작은 이로 옷이나 가방을 여닫는 장치",
+    "confusions": [
+      {
+        "japanese": "ボタン",
+        "distinction": "길게 맞물려 여닫는 장치와 단추를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1108160-1-ex-1",
+        "version": 1,
+        "before": "かばんの",
+        "answer": "ファスナー",
+        "after": "に布が挟まって、開かなくなった。",
+        "reading": "ファスナー",
+        "translation": "가방의 지퍼에 천이 끼어서 열리지 않게 되었다.",
+        "translationTarget": "지퍼",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531090-1",
+    "wordId": "lex-jmdict-1531090",
+    "version": 1,
+    "meaning": "모순",
+    "hint": "말·생각·사실의 앞뒤가 맞지 않아 함께 성립하기 어렵습니다.",
+    "confusions": [
+      {
+        "japanese": "相違",
+        "distinction": "矛盾는 양립할 수 없는 앞뒤 불일치이고 相違는 서로 다름 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531090-1-ex-1",
+        "version": 1,
+        "before": "彼の説明には",
+        "answer": "矛盾",
+        "after": "があり、何度聞いても納得できなかった。",
+        "reading": "むじゅん",
+        "translation": "그의 설명에는 모순이 있어 몇 번을 들어도 납득할 수 없었다.",
+        "translationTarget": "모순",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595360-1",
+    "wordId": "lex-jmdict-1595360",
+    "version": 1,
+    "meaning": "위독한 상태",
+    "hint": "목숨이 위험할 정도로 병이나 부상의 상태가 심각한 것",
+    "confusions": [
+      {
+        "japanese": "軽傷",
+        "distinction": "생명이 위험한 심각한 상태와 가벼운 부상을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595360-1-ex-1",
+        "version": 1,
+        "before": "事故で",
+        "answer": "重体",
+        "after": "だった患者が、ようやく意識を取り戻した。",
+        "reading": "じゅうたい",
+        "translation": "사고로 위독했던 환자가 마침내 의식을 되찾았다.",
+        "translationTarget": "위독했던",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1280950-1",
+    "wordId": "lex-jmdict-1280950",
+    "version": 1,
+    "meaning": "갈다·경작하다",
+    "hint": "농작물을 심으려고 흙을 뒤집고 부드럽게 만들어요.",
+    "confusions": [
+      {
+        "japanese": "植える",
+        "distinction": "땅을 갈아 준비하는 것과 식물을 심는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1280950-1-ex-1",
+        "version": 1,
+        "before": "冬の間使わなかった畑を、父と二人で",
+        "answer": "耕した",
+        "after": "。",
+        "reading": "たがやした",
+        "translation": "겨울 동안 쓰지 않은 밭을 아버지와 둘이서 갈았다.",
+        "translationTarget": "갈았다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1433280-1",
+    "wordId": "lex-jmdict-1433280",
+    "version": 1,
+    "meaning": "통상, 보통",
+    "hint": "특별한 사정이 없는 평소의 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "臨時",
+        "distinction": "通常는 평소의 상태이고 臨時는 특별히 일시적으로 마련된 경우이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1433280-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "通常",
+        "after": "は一週間で届きますが、連休中は少し遅れます。",
+        "reading": "つうじょう",
+        "translation": "보통은 일주일 만에 도착하지만 연휴 중에는 조금 늦습니다.",
+        "translationTarget": "보통",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455060-1",
+    "wordId": "lex-jmdict-1455060",
+    "version": 1,
+    "meaning": "특집",
+    "hint": "특정 주제를 중심으로 기사·방송 등을 모아 다룹니다.",
+    "confusions": [
+      {
+        "japanese": "全集",
+        "distinction": "特集는 주제 중심의 기획이고 全集는 작가 등의 작품 전체를 모은 책이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455060-1-ex-1",
+        "version": 1,
+        "before": "雑誌の今月号では、地方の暮らしを",
+        "answer": "特集",
+        "after": "している。",
+        "reading": "とくしゅう",
+        "translation": "잡지의 이번 달 호에서는 지방 생활을 특집으로 다루고 있다.",
+        "translationTarget": "특집",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1587150-1",
+    "wordId": "lex-jmdict-1587150",
+    "version": 1,
+    "meaning": "육성",
+    "hint": "사람·생물 등이 자라도록 길러 주고 지원합니다.",
+    "confusions": [
+      {
+        "japanese": "養成",
+        "distinction": "育成는 성장을 돕는 넓은 말이고 養成는 특정 능력·직업의 인재를 길러냄에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1587150-1-ex-1",
+        "version": 1,
+        "before": "若手社員の",
+        "answer": "育成",
+        "after": "に力を入れ、研修の機会を増やした。",
+        "reading": "いくせい",
+        "translation": "젊은 직원의 육성에 힘써 연수 기회를 늘렸다.",
+        "translationTarget": "육성",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267760-1",
+    "wordId": "lex-jmdict-1267760",
+    "version": 1,
+    "meaning": "자랑으로 여기다, 자랑하다",
+    "hint": "가치·성과를 훌륭하게 여기며 내세웁니다.",
+    "confusions": [
+      {
+        "japanese": "誇張する",
+        "distinction": "誇る는 자랑스럽게 여김이고 誇張する는 실제보다 부풀림이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267760-1-ex-1",
+        "version": 1,
+        "before": "町は、百年続く祭りの伝統を",
+        "answer": "誇っている",
+        "after": "。",
+        "reading": "ほこっている",
+        "translation": "마을은 100년 이어 온 축제 전통을 자랑으로 여기고 있다.",
+        "translationTarget": "자랑으로 여기고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591900-1",
+    "wordId": "lex-jmdict-1591900",
+    "version": 1,
+    "meaning": "깨끗하다, 예쁘다",
+    "hint": "더러운 것이 없거나 보기 좋고 아름다운 상태",
+    "confusions": [
+      {
+        "japanese": "汚い",
+        "distinction": "깨끗하거나 보기 좋은 상태와 더럽고 지저분한 상태를 구별한다. 끝소리가 이여도 이형용사가 아니라 명사 앞에 나를 붙이는 형용동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591900-1-ex-1",
+        "version": 1,
+        "before": "窓を拭いたら、ガラスが",
+        "answer": "きれいに",
+        "after": "なりました。",
+        "reading": "きれいに",
+        "translation": "창문을 닦으니 유리가 깨끗해졌어요.",
+        "translationTarget": "깨끗해",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,146 @@
+{
+  "preparedAt": "2026-10-01T01:20:58.342Z",
+  "scope": "explicit-reviewed-example-only-revision",
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1582920",
+      "previousPublication": {
+        "id": "lex-jmdict-1582920",
+        "level": "N5",
+        "source": {
+          "dictionary": "jmdict-1582920",
+          "proposedLevel": "N1",
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [
+              "N1"
+            ],
+            "matchedForms": [
+              "此の"
+            ]
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "acb606737532fd84c76302edf543888341b798525b48dd2a5fbf10f3788e1e3d",
+        "publishedHash": "f19ef983bfdb6ffbd1d2ad279436362f6e20bbb0f2297127467b91dbb0fe324e"
+      },
+      "previousGlobalReview": {
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+        "reviewedAt": "2026-10-01T01:10:49.232Z",
+        "notes": [
+          "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+          "게시 전 현재 원본과 모든 미게시 pilot을 합친 9603예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+        ],
+        "contentHash": "acb606737532fd84c76302edf543888341b798525b48dd2a5fbf10f3788e1e3d"
+      },
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1582920",
+          "setId": "jlpt-level-n5",
+          "japanese": "この",
+          "reading": "この",
+          "meaning": "이 (명사 앞에서)",
+          "type": "other",
+          "difficulty": 10,
+          "verbInfo": null,
+          "sourceOrder": 421
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1582920-1",
+          "wordId": "lex-jmdict-1582920",
+          "version": 1,
+          "meaning": "이 (명사 앞에서)",
+          "hint": "말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말",
+          "confusions": [
+            {
+              "japanese": "これ",
+              "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1582920-1-ex-1",
+              "version": 1,
+              "before": "",
+              "answer": "この",
+              "after": "スープはまだ熱いので、気をつけてください。",
+              "reading": "この",
+              "translation": "이 수프는 아직 뜨거우니 조심하세요.",
+              "translationTarget": "이",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1582920",
+          "setId": "jlpt-level-n5",
+          "japanese": "この",
+          "reading": "この",
+          "meaning": "이 (명사 앞에서)",
+          "type": "other",
+          "difficulty": 10,
+          "verbInfo": null,
+          "sourceOrder": 421
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1582920-1",
+          "wordId": "lex-jmdict-1582920",
+          "version": 1,
+          "meaning": "이 (명사 앞에서)",
+          "hint": "말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말",
+          "confusions": [
+            {
+              "japanese": "これ",
+              "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1582920-1-ex-1",
+              "version": 2,
+              "before": "",
+              "answer": "この",
+              "after": "箱だけ、二人で運びましょう。",
+              "reading": "この",
+              "translation": "이 상자만 둘이서 옮깁시다.",
+              "translationTarget": "이",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "review": {
+        "wordId": "lex-jmdict-1582920",
+        "contentHash": "3d72be6af1cc5538e1ef8029dda25bb069eddfcb82caeb7ac2353b4502a3e67a",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T01:19:31.908Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound single-scene revision",
+        "notes": [
+          "この의 뜨거운 수프 주의 문장은 기존 カップ의 뜨거운 컵 주의 문형과 실질적으로 반복되어, 가까운 특정 상자를 둘이 옮기자는 독립 지시 상황으로 정정한다. 단어·뜻·용법·난도는 보존한다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    }
+  ]
+}

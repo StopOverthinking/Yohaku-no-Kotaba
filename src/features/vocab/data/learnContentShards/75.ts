@@ -1420,6 +1420,134 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325420-1",
+    "wordId": "lex-jmdict-1325420",
+    "version": 1,
+    "meaning": "주어",
+    "hint": "문장에서 동작이나 상태의 주체를 나타내는 부분",
+    "confusions": [
+      {
+        "japanese": "目的語",
+        "distinction": "동작의 주체를 나타내는 부분과 동작의 대상을 나타내는 부분을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325420-1-ex-1",
+        "version": 1,
+        "before": "誰の話か分かりにくいので、",
+        "answer": "主語",
+        "after": "を補ってください。",
+        "reading": "しゅご",
+        "translation": "누구 이야기인지 알기 어려우므로 주어를 보충해 주세요.",
+        "translationTarget": "주어",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546380-1",
+    "wordId": "lex-jmdict-1546380",
+    "version": 1,
+    "meaning": "용도",
+    "hint": "물건·공간 등을 어떤 목적으로 사용하는지 나타냅니다.",
+    "confusions": [
+      {
+        "japanese": "使用",
+        "distinction": "用途는 쓰는 목적이고 使用는 실제로 씀이라는 행위다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546380-1-ex-1",
+        "version": 1,
+        "before": "同じ紙でも、",
+        "answer": "用途",
+        "after": "によって厚さを選び分ける。",
+        "reading": "ようと",
+        "translation": "같은 종이라도 용도에 따라 두께를 구별해서 고른다.",
+        "translationTarget": "용도",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559450-1",
+    "wordId": "lex-jmdict-1559450",
+    "version": 1,
+    "meaning": "연합",
+    "hint": "독립된 여러 단체·집단이 공통 목적을 위해 힘을 합치는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "統一",
+        "distinction": "連合는 여러 집단이 공동으로 결합함이고 統一는 하나의 기준·체계로 맞춤이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559450-1-ex-1",
+        "version": 1,
+        "before": "地域の商店が",
+        "answer": "連合",
+        "after": "して、共通の商品券を発行した。",
+        "reading": "れんごう",
+        "translation": "지역 상점들이 연합하여 공통 상품권을 발행했다.",
+        "translationTarget": "연합",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1600660-1",
+    "wordId": "lex-jmdict-1600660",
+    "version": 1,
+    "meaning": "도모하다, 꾀하다",
+    "hint": "목적이 이루어지도록 방법을 세워 추진합니다.",
+    "confusions": [
+      {
+        "japanese": "測る",
+        "distinction": "선택한 図る는 목적을 도모함이고 같은 읽기의 測る는 수량·정도를 잼이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1600660-1-ex-1",
+        "version": 1,
+        "before": "部署の間で情報を共有し、連携の強化を",
+        "answer": "図った",
+        "after": "。",
+        "reading": "はかった",
+        "translation": "부서 간에 정보를 공유하여 협력 강화를 도모했다.",
+        "translationTarget": "도모했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1684,6 +1684,422 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1099690-1",
+    "wordId": "lex-jmdict-1099690",
+    "version": 1,
+    "meaning": "균형",
+    "hint": "여러 요소가 한쪽으로 지나치게 치우치지 않은 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "量",
+        "distinction": "バランス는 요소 사이 균형이고 量는 개별 수량이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1099690-1-ex-1",
+        "version": 1,
+        "before": "肉ばかりではなく、野菜も食べて栄養の",
+        "answer": "バランス",
+        "after": "を整えよう。",
+        "reading": "バランス",
+        "translation": "고기만 먹지 말고 채소도 먹어 영양의 균형을 맞추자.",
+        "translationTarget": "균형",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223280-1",
+    "wordId": "lex-jmdict-1223280",
+    "version": 1,
+    "meaning": "기술, 서술",
+    "hint": "관찰한 내용이나 사실을 글로 자세히 표현하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "記載",
+        "distinction": "記述는 내용의 서술이고 記載는 문서에 적어 넣는 행위다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223280-1-ex-1",
+        "version": 1,
+        "before": "当時の暮らしは、旅人の日記の",
+        "answer": "記述",
+        "after": "から知ることができる。",
+        "reading": "きじゅつ",
+        "translation": "당시 생활은 여행자의 일기 속 서술에서 알 수 있다.",
+        "translationTarget": "서술",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1304330-1",
+    "wordId": "lex-jmdict-1304330",
+    "version": 1,
+    "meaning": "산성",
+    "hint": "물에 녹았을 때 산의 성질을 보이는 것",
+    "confusions": [
+      {
+        "japanese": "アルカリ性",
+        "distinction": "산의 성질과 그 반대쪽 성질을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1304330-1-ex-1",
+        "version": 1,
+        "before": "青いリトマス紙が赤くなったので、この液体は",
+        "answer": "酸性",
+        "after": "です。",
+        "reading": "さんせい",
+        "translation": "파란 리트머스 종이가 빨갛게 변했으므로 이 액체는 산성입니다.",
+        "translationTarget": "산성",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375950-1",
+    "wordId": "lex-jmdict-1375950",
+    "version": 1,
+    "meaning": "정책",
+    "hint": "정부·조직이 목표를 달성하기 위해 세운 방침·대책입니다.",
+    "confusions": [
+      {
+        "japanese": "政権",
+        "distinction": "政策는 정치·조직 운영의 방침이고 政権는 정치 권력을 맡은 체제이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375950-1-ex-1",
+        "version": 1,
+        "before": "子育てを支える",
+        "answer": "政策",
+        "after": "への期待が、住民の間で高まっている。",
+        "reading": "せいさく",
+        "translation": "육아를 지원하는 정책에 대한 기대가 주민들 사이에서 높아지고 있다.",
+        "translationTarget": "정책",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1488700-1",
+    "wordId": "lex-jmdict-1488700",
+    "version": 1,
+    "meaning": "표지, 표식",
+    "hint": "길·장소·주의사항 등을 알려 주는 눈에 띄는 표시입니다.",
+    "confusions": [
+      {
+        "japanese": "標準",
+        "distinction": "標識는 알리는 표시이고 標準는 판단·측정의 기준이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1488700-1-ex-1",
+        "version": 1,
+        "before": "入口の",
+        "answer": "標識",
+        "after": "を見落として、建物の裏まで行ってしまった。",
+        "reading": "ひょうしき",
+        "translation": "입구 표지를 못 보고 건물 뒤까지 가 버렸다.",
+        "translationTarget": "표지",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505630-1",
+    "wordId": "lex-jmdict-1505630",
+    "version": 1,
+    "meaning": "문맥",
+    "hint": "앞뒤 내용의 연결에 따라 말·문장의 뜻이 정해지는 흐름입니다.",
+    "confusions": [
+      {
+        "japanese": "文法",
+        "distinction": "文脈는 내용의 앞뒤 연결이고 文法는 문장을 만드는 언어 규칙이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505630-1-ex-1",
+        "version": 1,
+        "before": "同じ単語でも、",
+        "answer": "文脈",
+        "after": "によって意味が変わることがある。",
+        "reading": "ぶんみゃく",
+        "translation": "같은 단어라도 문맥에 따라 뜻이 달라질 수 있다.",
+        "translationTarget": "문맥",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1576360-1",
+    "wordId": "lex-jmdict-1576360",
+    "version": 1,
+    "meaning": "벗어나다·빗나가다",
+    "hint": "원래 가던 방향이나 예정된 범위에서 다른 쪽으로 가요.",
+    "confusions": [
+      {
+        "japanese": "沿う",
+        "distinction": "방향이나 주제에서 벗어나는 것과 그대로 따르는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1576360-1-ex-1",
+        "version": 1,
+        "before": "話が本題から",
+        "answer": "逸れた",
+        "after": "ので、司会者が質問を変えた。",
+        "reading": "それた",
+        "translation": "이야기가 본론에서 벗어나서 진행자가 질문을 바꾸었다.",
+        "translationTarget": "벗어나서",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1493120-1",
+    "wordId": "lex-jmdict-1493120",
+    "version": 1,
+    "meaning": "의심스러움, 수상함",
+    "hint": "평소와 달라 믿기 어렵거나 이상하게 여겨집니다.",
+    "confusions": [
+      {
+        "japanese": "不信",
+        "distinction": "不審는 이상해서 의심함이고 不信는 신뢰하지 않음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1493120-1-ex-1",
+        "version": 1,
+        "before": "銀行を名乗る",
+        "answer": "不審",
+        "after": "な電話があり、公式の窓口に確認した。",
+        "reading": "ふしん",
+        "translation": "은행이라고 하는 수상한 전화가 와 공식 창구에 확인했다.",
+        "translationTarget": "수상한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1480890-1",
+    "wordId": "lex-jmdict-1480890",
+    "version": 1,
+    "meaning": "반발",
+    "hint": "압력·제안 등을 받아들이지 않고 맞섭니다.",
+    "confusions": [
+      {
+        "japanese": "賛同",
+        "distinction": "선택한 反発는 반대하여 맞섬이고 賛同는 뜻에 찬성함이다. 물체가 튕겨 나오는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1480890-1-ex-1",
+        "version": 1,
+        "before": "突然の変更に、利用者から強い",
+        "answer": "反発",
+        "after": "が起きた。",
+        "reading": "はんぱつ",
+        "translation": "갑작스러운 변경에 이용자들의 거센 반발이 일어났다.",
+        "translationTarget": "반발",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539660-1",
+    "wordId": "lex-jmdict-1539660",
+    "version": 1,
+    "meaning": "용감하다·씩씩하다",
+    "hint": "겁내지 않고 힘 있게 나서는 모습이에요.",
+    "confusions": [
+      {
+        "japanese": "臆病",
+        "distinction": "겁내지 않고 나서는 모습과 겁이 많은 태도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539660-1-ex-1",
+        "version": 1,
+        "before": "子どもたちは、",
+        "answer": "勇ましい",
+        "after": "声で出発の歌を歌った。",
+        "reading": "いさましい",
+        "translation": "아이들은 씩씩한 목소리로 출발 노래를 불렀다.",
+        "translationTarget": "씩씩한",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1584130-1",
+    "wordId": "lex-jmdict-1584130",
+    "version": 1,
+    "meaning": "부족하다, 빈약하다",
+    "hint": "필요한 수량·내용 등이 충분하지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "貧しい",
+        "distinction": "乏しい는 자료·경험·양의 부족에 흔하고 貧しい는 가난함·내용의 빈약함에 쓴다. 의미가 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1584130-1-ex-1",
+        "version": 1,
+        "before": "資料が",
+        "answer": "乏しい",
+        "after": "ため、当時の状況を詳しく知るのは難しい。",
+        "reading": "とぼしい",
+        "translation": "자료가 부족해 당시 상황을 자세히 알기는 어렵다.",
+        "translationTarget": "부족해",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327900-1",
+    "wordId": "lex-jmdict-1327900",
+    "version": 1,
+    "meaning": "수갑",
+    "hint": "손목을 묶어 움직임을 제한하는 금속 도구입니다.",
+    "confusions": [
+      {
+        "japanese": "錠",
+        "distinction": "手錠는 손목을 묶는 수갑이고 錠는 잠금장치·정제 약 등 다른 뜻이 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327900-1-ex-1",
+        "version": 1,
+        "before": "警察官は、抵抗する男に",
+        "answer": "手錠",
+        "after": "をかけた。",
+        "reading": "てじょう",
+        "translation": "경찰관은 저항하는 남자에게 수갑을 채웠다.",
+        "translationTarget": "수갑",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1371460-1",
+    "wordId": "lex-jmdict-1371460",
+    "version": 1,
+    "meaning": "수원, 물의 공급원",
+    "hint": "강·수도 등에 물을 공급하는 근원입니다.",
+    "confusions": [
+      {
+        "japanese": "河口",
+        "distinction": "水源는 물의 근원이고 河口는 강의 끝 어귀이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1371460-1-ex-1",
+        "version": 1,
+        "before": "町の",
+        "answer": "水源",
+        "after": "を守るため、山の森林を保全している。",
+        "reading": "すいげん",
+        "translation": "마을의 수원을 보호하려고 산림을 보전하고 있다.",
+        "translationTarget": "수원",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

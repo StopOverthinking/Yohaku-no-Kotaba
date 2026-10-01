@@ -1,0 +1,1891 @@
+{
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewer": "Codex GPT-6 Astra independent review agent",
+  "reviewedAt": "2026-10-01T01:21:59.113Z",
+  "sourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+  "uniqueWords": 4861,
+  "byLevel": {
+    "N5": {
+      "count": 599,
+      "coverageNote": "가족·자기/상대 지칭, 기본 숫자·시간, 음식·주거·학교·이동, 기본 동사·상태 및 의문·지시·평가·빈도 표현을 대조했다. 기본 동사77개, 기초 원본 전체, 마지막 범주별 최소 누락 보완을 완료했다. あの 지시연체사는 미선정으로 보존하며 전체 문법 패러다임을 주장하지 않는다."
+    },
+    "N4": {
+      "count": 648,
+      "coverageNote": "생활 절차·교통·공공 서비스·주거 이동과 수리·연락·설명·실패·몸과 감정의 실용 확장 어휘를 검토했다. 실제 선택 핵심이 같은 명사/する는 보존 별칭을 통해 대표 하나만 연결한다."
+    },
+    "N3": {
+      "count": 1727,
+      "coverageNote": "일상·직장·학습·사회·문화·매체 독해를 잇는 폭넓은 중급 어휘를 검토했다. 수량 균등화 대신 실제 선택 의미에 따라 일부 출처 N2 용법을 재분류하여 가장 큰 비중이 되었다."
+    },
+    "N2": {
+      "count": 1056,
+      "coverageNote": "업무·공공 문서, 사회·경제·교육, 기초 과학 개념과 논리적 설명에 쓰는 명사·동사·형용사·부사를 검토했다. 세부 전문 용어를 수량 충족 목적으로 추가하지 않았다."
+    },
+    "N1": {
+      "count": 831,
+      "coverageNote": "일반 독해·업무·사회 논의에서 유용한 격식적·추상적·정밀한 표현을 검토했다. 출처 수준을 그대로 고정하지 않고 선택 의미가 일상적인 항목은 N2 등으로 옮겼다."
+    }
+  },
+  "selectionRationale": "약 5천 개 기준의 실용적 N5~N1 선택 범위를 단어·용법·예문 전량 검토, 기초 개념 누락 대조, 실제 변이 표기 중복 판정으로 확정했다. N3·명사 비중은 폭넓은 생활/업무 명사 후보와 실제 용법 재분류의 결과이며 균등 급수 교재가 아니다. 기존 ID·내용·학습 기록을 보존하면서 동일 핵심만 보수적으로 연결하고 서로 다른 핵심은 분리했다. 미선정 후보에는 중복·낮은 우선순위·수정 대기 및 일부 문법적 기능이 남으며 전체 사전·공식 JLPT 목록·모든 뜻의 완전 수록은 주장하지 않는다. あの 지시연체사는 기존 감탄사와 구별되는 미선정 후보로 보존하며, あれ/この/その 등을 포함한 실용 지시 범위를 선정했다. 마지막 확정 기초 보완 이후 선택적 희귀·전문 후보를 더 추가하지 않는다.",
+  "unresolvedGaps": [],
+  "completionScope": "reviewed-vocabulary-content-selection; not browser/performance/publication approval",
+  "evidence": {
+    "reviewedCoreConcepts": [
+      {
+        "concept": "ある",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_161",
+            "japanese": "ある",
+            "reading": "ある",
+            "meanings": [
+              "있다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "いる",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1577980",
+            "japanese": "居る",
+            "reading": "いる",
+            "meanings": [
+              "있다, 존재하다 (사람·동물)"
+            ]
+          },
+          {
+            "wordId": "lex-jmdict-1577985",
+            "japanese": "居る",
+            "reading": "おる",
+            "meanings": [
+              "있다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "行く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_254",
+            "japanese": "行く",
+            "reading": "いく",
+            "meanings": [
+              "다른 곳으로 가다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "来る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_255",
+            "japanese": "来る",
+            "reading": "くる",
+            "meanings": [
+              "오다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "帰る",
+        "selected": [
+          {
+            "wordId": "handmade_119",
+            "japanese": "帰る",
+            "reading": "かえる",
+            "meanings": [
+              "자기 집이나 본래 곳으로 돌아가다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "入る",
+        "selected": [
+          {
+            "wordId": "handmade_118",
+            "japanese": "入る",
+            "reading": "はいる",
+            "meanings": [
+              "들어가다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "出る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_260",
+            "japanese": "出る",
+            "reading": "でる",
+            "meanings": [
+              "안에서 밖으로 나가다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "食べる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_33",
+            "japanese": "食べる",
+            "reading": "たべる",
+            "meanings": [
+              "먹다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "飲む",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_34",
+            "japanese": "飲む",
+            "reading": "のむ",
+            "meanings": [
+              "음료를 마시다",
+              "약을 먹다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "見る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_30",
+            "japanese": "見る",
+            "reading": "みる",
+            "meanings": [
+              "보다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "聞く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_31",
+            "japanese": "聞く",
+            "reading": "きく",
+            "meanings": [
+              "소리를 듣다",
+              "모르는 것을 묻다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "話す",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_60",
+            "japanese": "話す",
+            "reading": "はなす",
+            "meanings": [
+              "이야기하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "読む",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_37",
+            "japanese": "読む",
+            "reading": "よむ",
+            "meanings": [
+              "글을 읽다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "書く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_38",
+            "japanese": "書く",
+            "reading": "かく",
+            "meanings": [
+              "쓰다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "買う",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_306",
+            "japanese": "買う",
+            "reading": "かう",
+            "meanings": [
+              "돈을 주고 사다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "売る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_307",
+            "japanese": "売る",
+            "reading": "うる",
+            "meanings": [
+              "팔다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "使う",
+        "selected": [
+          {
+            "wordId": "handmade_116",
+            "japanese": "使う",
+            "reading": "つかう",
+            "meanings": [
+              "도구나 수단을 사용하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "作る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_102",
+            "japanese": "作る",
+            "reading": "つくる",
+            "meanings": [
+              "만들다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "する",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1157170",
+            "japanese": "する",
+            "reading": "する",
+            "meanings": [
+              "하다, 실행하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "なる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_527",
+            "japanese": "なる",
+            "reading": "なる",
+            "meanings": [
+              "되다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "思う",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_49",
+            "japanese": "思う",
+            "reading": "おもう",
+            "meanings": [
+              "생각하다, 여기다 (의견·느낌을 품다)"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "考える",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_50",
+            "japanese": "考える",
+            "reading": "かんがえる",
+            "meanings": [
+              "생각하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "知る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_231",
+            "japanese": "知る",
+            "reading": "しる",
+            "meanings": [
+              "알다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "分かる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_230",
+            "japanese": "分かる",
+            "reading": "わかる",
+            "meanings": [
+              "뜻이나 상황을 이해하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "覚える",
+        "selected": [
+          {
+            "wordId": "JLPTN3_23",
+            "japanese": "覚える",
+            "reading": "おぼえる",
+            "meanings": [
+              "외우다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "忘れる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_229",
+            "japanese": "忘れる",
+            "reading": "わすれる",
+            "meanings": [
+              "잊다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "勉強",
+        "selected": [
+          {
+            "wordId": "handmade_50",
+            "japanese": "勉強",
+            "reading": "べんきょう",
+            "meanings": [
+              "지식을 익히는 공부"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "教える",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_224",
+            "japanese": "教える",
+            "reading": "おしえる",
+            "meanings": [
+              "방법이나 지식을 가르치다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "習う",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_225",
+            "japanese": "習う",
+            "reading": "ならう",
+            "meanings": [
+              "배우다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "教わる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_227",
+            "japanese": "教わる",
+            "reading": "おそわる",
+            "meanings": [
+              "누군가에게 배우다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "働く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_388",
+            "japanese": "働く",
+            "reading": "はたらく",
+            "meanings": [
+              "일하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "休む",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_12",
+            "japanese": "休む",
+            "reading": "やすむ",
+            "meanings": [
+              "쉬다",
+              "결석하다·결근하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "寝る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_1",
+            "japanese": "寝る",
+            "reading": "ねる",
+            "meanings": [
+              "잠자리에 들어 자다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "起きる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_5",
+            "japanese": "起きる",
+            "reading": "おきる",
+            "meanings": [
+              "잠자리에서 일어나다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "会う",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_408",
+            "japanese": "会う",
+            "reading": "あう",
+            "meanings": [
+              "사람을 만나다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "待つ",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_342",
+            "japanese": "待つ",
+            "reading": "まつ",
+            "meanings": [
+              "기다리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "持つ",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_81",
+            "japanese": "持つ",
+            "reading": "もつ",
+            "meanings": [
+              "들다",
+              "가지고 있다·소유하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "取る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_80",
+            "japanese": "取る",
+            "reading": "とる",
+            "meanings": [
+              "집다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "置く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_103",
+            "japanese": "置く",
+            "reading": "おく",
+            "meanings": [
+              "어떤 곳에 놓다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "あげる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_328",
+            "japanese": "あげる",
+            "reading": "あげる",
+            "meanings": [
+              "주다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "くれる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_329",
+            "japanese": "くれる",
+            "reading": "くれる",
+            "meanings": [
+              "주다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "もらう",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_331",
+            "japanese": "もらう",
+            "reading": "もらう",
+            "meanings": [
+              "받다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "借りる",
+        "selected": [
+          {
+            "wordId": "JLPTN3_34",
+            "japanese": "借りる",
+            "reading": "かりる",
+            "meanings": [
+              "빌리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "貸す",
+        "selected": [
+          {
+            "wordId": "JLPTN3_33",
+            "japanese": "貸す",
+            "reading": "かす",
+            "meanings": [
+              "빌려주다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "返す",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_423",
+            "japanese": "返す",
+            "reading": "かえす",
+            "meanings": [
+              "빌린 것을 돌려주다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "着る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_189",
+            "japanese": "着る",
+            "reading": "きる",
+            "meanings": [
+              "옷을 입다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "脱ぐ",
+        "selected": [
+          {
+            "wordId": "handmade_99",
+            "japanese": "脱ぐ",
+            "reading": "ぬぐ",
+            "meanings": [
+              "벗다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "履く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_191",
+            "japanese": "履く",
+            "reading": "はく",
+            "meanings": [
+              "신다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "開ける",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_76",
+            "japanese": "開ける",
+            "reading": "あける",
+            "meanings": [
+              "닫힌 것을 열다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "閉める",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_78",
+            "japanese": "閉める",
+            "reading": "しめる",
+            "meanings": [
+              "닫다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "開く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_77",
+            "japanese": "開く",
+            "reading": "あく",
+            "meanings": [
+              "열리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "閉まる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_79",
+            "japanese": "閉まる",
+            "reading": "しまる",
+            "meanings": [
+              "열려 있던 것이 닫히다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "つける",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_74",
+            "japanese": "点ける",
+            "reading": "つける",
+            "meanings": [
+              "불을 켜다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "消す",
+        "selected": [
+          {
+            "wordId": "JLPTN3_44",
+            "japanese": "消す",
+            "reading": "けす",
+            "meanings": [
+              "끄다",
+              "글씨·표시를 지우다, 저장된 기록을 삭제하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "立つ",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_104",
+            "japanese": "立つ",
+            "reading": "たつ",
+            "meanings": [
+              "서다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "座る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_106",
+            "japanese": "座る",
+            "reading": "すわる",
+            "meanings": [
+              "앉다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "歩く",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_41",
+            "japanese": "歩く",
+            "reading": "あるく",
+            "meanings": [
+              "걷다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "走る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_42",
+            "japanese": "走る",
+            "reading": "はしる",
+            "meanings": [
+              "달리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "泳ぐ",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_45",
+            "japanese": "泳ぐ",
+            "reading": "およぐ",
+            "meanings": [
+              "헤엄치다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "遊ぶ",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_318",
+            "japanese": "遊ぶ",
+            "reading": "あそぶ",
+            "meanings": [
+              "즐겁게 놀다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "歌う",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_319",
+            "japanese": "歌う",
+            "reading": "うたう",
+            "meanings": [
+              "노래 부르다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "泣く",
+        "selected": [
+          {
+            "wordId": "JLPTN3_83",
+            "japanese": "泣く",
+            "reading": "なく",
+            "meanings": [
+              "울다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "笑う",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_40",
+            "japanese": "笑う",
+            "reading": "わらう",
+            "meanings": [
+              "웃다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "乗る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_349",
+            "japanese": "乗る",
+            "reading": "のる",
+            "meanings": [
+              "타다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "降りる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_351",
+            "japanese": "降りる",
+            "reading": "おりる",
+            "meanings": [
+              "탈것에서 내리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "乗り換える",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_352",
+            "japanese": "乗り換える",
+            "reading": "のりかえる",
+            "meanings": [
+              "갈아타다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "送る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_484",
+            "japanese": "送る",
+            "reading": "おくる",
+            "meanings": [
+              "보내다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "止まる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_298",
+            "japanese": "止まる",
+            "reading": "とまる",
+            "meanings": [
+              "멈추다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "止める",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_299",
+            "japanese": "止める",
+            "reading": "とめる",
+            "meanings": [
+              "움직임을 멈추게 하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "始まる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_448",
+            "japanese": "始まる",
+            "reading": "はじまる",
+            "meanings": [
+              "일이 시작되다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "始める",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_449",
+            "japanese": "始める",
+            "reading": "はじめる",
+            "meanings": [
+              "시작하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "終わる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_450",
+            "japanese": "終わる",
+            "reading": "おわる",
+            "meanings": [
+              "끝나다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "上げる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_266",
+            "japanese": "上げる",
+            "reading": "あげる",
+            "meanings": [
+              "높은 쪽으로 올리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "下げる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_273",
+            "japanese": "下げる",
+            "reading": "さげる",
+            "meanings": [
+              "내리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "掃除",
+        "selected": [
+          {
+            "wordId": "handmade_15",
+            "japanese": "掃除",
+            "reading": "そうじ",
+            "meanings": [
+              "청소"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "料理",
+        "selected": [
+          {
+            "wordId": "handmade_153",
+            "japanese": "料理",
+            "reading": "りょうり",
+            "meanings": [
+              "요리",
+              "요리한 음식"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "切る",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_200",
+            "japanese": "切る",
+            "reading": "きる",
+            "meanings": [
+              "자르다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "東",
+        "selected": [
+          {
+            "wordId": "handmade_27",
+            "japanese": "東",
+            "reading": "ひがし",
+            "meanings": [
+              "동쪽"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "西",
+        "selected": [
+          {
+            "wordId": "handmade_28",
+            "japanese": "西",
+            "reading": "にし",
+            "meanings": [
+              "서쪽"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "南",
+        "selected": [
+          {
+            "wordId": "handmade_29",
+            "japanese": "南",
+            "reading": "みなみ",
+            "meanings": [
+              "남쪽"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "北",
+        "selected": [
+          {
+            "wordId": "handmade_30",
+            "japanese": "北",
+            "reading": "きた",
+            "meanings": [
+              "북쪽"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "失敗",
+        "selected": [
+          {
+            "wordId": "handmade_54",
+            "japanese": "失敗",
+            "reading": "しっぱい",
+            "meanings": [
+              "실패"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "連絡",
+        "selected": [
+          {
+            "wordId": "handmade_82",
+            "japanese": "連絡",
+            "reading": "れんらく",
+            "meanings": [
+              "연락"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "説明",
+        "selected": [
+          {
+            "wordId": "handmade_132",
+            "japanese": "説明",
+            "reading": "せつめい",
+            "meanings": [
+              "설명"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "出来る",
+        "selected": [
+          {
+            "wordId": "handmade_1",
+            "japanese": "出来る",
+            "reading": "できる",
+            "meanings": [
+              "할 수 있다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "助ける",
+        "selected": [
+          {
+            "wordId": "handmade_2",
+            "japanese": "助ける",
+            "reading": "たすける",
+            "meanings": [
+              "어려움에서 벗어나도록 돕다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "生まれる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_164",
+            "japanese": "生まれる",
+            "reading": "うまれる",
+            "meanings": [
+              "태어나다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "戻す",
+        "selected": [
+          {
+            "wordId": "handmade_16",
+            "japanese": "戻す",
+            "reading": "もどす",
+            "meanings": [
+              "되돌리다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "渡す",
+        "selected": [
+          {
+            "wordId": "JLPTN3_126",
+            "japanese": "渡す",
+            "reading": "わたす",
+            "meanings": [
+              "건네다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "決める",
+        "selected": [
+          {
+            "wordId": "handmade_63",
+            "japanese": "決める",
+            "reading": "きめる",
+            "meanings": [
+              "결정하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "引っ越す",
+        "selected": [
+          {
+            "wordId": "handmade_81",
+            "japanese": "引っ越す",
+            "reading": "ひっこす",
+            "meanings": [
+              "이사하다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "修理",
+        "selected": [
+          {
+            "wordId": "JLPTN3_340",
+            "japanese": "修理",
+            "reading": "しゅうり",
+            "meanings": [
+              "수리"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "屋根",
+        "selected": [
+          {
+            "wordId": "handmade_92",
+            "japanese": "屋根",
+            "reading": "やね",
+            "meanings": [
+              "건물을 덮는 지붕"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "歯",
+        "selected": [
+          {
+            "wordId": "handmade_97",
+            "japanese": "歯",
+            "reading": "は",
+            "meanings": [
+              "치아"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "違う",
+        "selected": [
+          {
+            "wordId": "JLPTN3_70",
+            "japanese": "違う",
+            "reading": "ちがう",
+            "meanings": [
+              "다르다",
+              "틀리다, 올바르지 않다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "腰",
+        "selected": [
+          {
+            "wordId": "handmade_69",
+            "japanese": "腰",
+            "reading": "こし",
+            "meanings": [
+              "허리"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "疲れる",
+        "selected": [
+          {
+            "wordId": "JLPTN3_71",
+            "japanese": "疲れる",
+            "reading": "つかれる",
+            "meanings": [
+              "지치다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "死ぬ",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_171",
+            "japanese": "死ぬ",
+            "reading": "しぬ",
+            "meanings": [
+              "죽다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "曲がる",
+        "selected": [
+          {
+            "wordId": "AbsoluteVerb_529",
+            "japanese": "曲がる",
+            "reading": "まがる",
+            "meanings": [
+              "돌다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "通る",
+        "selected": [
+          {
+            "wordId": "JLPTN3_75",
+            "japanese": "通る",
+            "reading": "とおる",
+            "meanings": [
+              "어떤 곳을 지나가다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "椅子",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1157070",
+            "japanese": "椅子",
+            "reading": "いす",
+            "meanings": [
+              "의자"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "父",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1497610",
+            "japanese": "父",
+            "reading": "ちち",
+            "meanings": [
+              "아버지"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "母",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1514990",
+            "japanese": "母",
+            "reading": "はは",
+            "meanings": [
+              "어머니"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "私",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1311110",
+            "japanese": "私",
+            "reading": "わたし",
+            "meanings": [
+              "나, 저"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "あなた",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1223615",
+            "japanese": "あなた",
+            "reading": "あなた",
+            "meanings": [
+              "당신, 너"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "四",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1579470",
+            "japanese": "四",
+            "reading": "よん",
+            "meanings": [
+              "사, 넷; 4"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "七",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1319210",
+            "japanese": "七",
+            "reading": "なな",
+            "meanings": [
+              "칠, 일곱; 7"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "九",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1578150",
+            "japanese": "九",
+            "reading": "きゅう",
+            "meanings": [
+              "구, 아홉; 9"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "十",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1579840",
+            "japanese": "十",
+            "reading": "じゅう",
+            "meanings": [
+              "십, 열; 10"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "何",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1577100",
+            "japanese": "何",
+            "reading": "なに",
+            "meanings": [
+              "무엇"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "いつ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1188760",
+            "japanese": "いつ",
+            "reading": "いつ",
+            "meanings": [
+              "언제"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "どこ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1577140",
+            "japanese": "どこ",
+            "reading": "どこ",
+            "meanings": [
+              "어디"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "どれ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1009290",
+            "japanese": "どれ",
+            "reading": "どれ",
+            "meanings": [
+              "어느 것"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "どう",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1008910",
+            "japanese": "どう",
+            "reading": "どう",
+            "meanings": [
+              "어떻게, 어떤가"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "なぜ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1577120",
+            "japanese": "なぜ",
+            "reading": "なぜ",
+            "meanings": [
+              "왜, 어째서"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "いくら",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1219980",
+            "japanese": "いくら",
+            "reading": "いくら",
+            "meanings": [
+              "얼마"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "いくつ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1219960",
+            "japanese": "いくつ",
+            "reading": "いくつ",
+            "meanings": [
+              "몇 개"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "これ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1628530",
+            "japanese": "これ",
+            "reading": "これ",
+            "meanings": [
+              "이것"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "それ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1006970",
+            "japanese": "それ",
+            "reading": "それ",
+            "meanings": [
+              "그것"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "あれ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1000580",
+            "japanese": "あれ",
+            "reading": "あれ",
+            "meanings": [
+              "저것"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "ここ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1288810",
+            "japanese": "ここ",
+            "reading": "ここ",
+            "meanings": [
+              "여기, 이곳"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "そこ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1006670",
+            "japanese": "そこ",
+            "reading": "そこ",
+            "meanings": [
+              "거기, 그곳"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "あそこ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1000320",
+            "japanese": "あそこ",
+            "reading": "あそこ",
+            "meanings": [
+              "저기, 저곳"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "この",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1582920",
+            "japanese": "この",
+            "reading": "この",
+            "meanings": [
+              "이 (명사 앞에서)"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "その",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1006830",
+            "japanese": "その",
+            "reading": "その",
+            "meanings": [
+              "그 (명사 앞에서)"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "良い",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1605820",
+            "japanese": "良い",
+            "reading": "よい",
+            "meanings": [
+              "좋다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "おいしい",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1486650",
+            "japanese": "おいしい",
+            "reading": "おいしい",
+            "meanings": [
+              "맛있다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "面白い",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1533580",
+            "japanese": "面白い",
+            "reading": "おもしろい",
+            "meanings": [
+              "재미있다, 흥미롭다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "きれい",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1591900",
+            "japanese": "きれい",
+            "reading": "きれい",
+            "meanings": [
+              "깨끗하다, 예쁘다"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "顔",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1217730",
+            "japanese": "顔",
+            "reading": "かお",
+            "meanings": [
+              "얼굴"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "いつも",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1188890",
+            "japanese": "いつも",
+            "reading": "いつも",
+            "meanings": [
+              "늘, 항상"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "まだ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1527110",
+            "japanese": "まだ",
+            "reading": "まだ",
+            "meanings": [
+              "아직, 여전히"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "また",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1524930",
+            "japanese": "また",
+            "reading": "また",
+            "meanings": [
+              "또, 다시"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "すぐ",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1430610",
+            "japanese": "すぐ",
+            "reading": "すぐ",
+            "meanings": [
+              "곧, 바로"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "とても",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1008630",
+            "japanese": "とても",
+            "reading": "とても",
+            "meanings": [
+              "매우, 아주"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "よく",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1605870",
+            "japanese": "よく",
+            "reading": "よく",
+            "meanings": [
+              "자주"
+            ]
+          }
+        ]
+      },
+      {
+        "concept": "本当",
+        "selected": [
+          {
+            "wordId": "lex-jmdict-1523060",
+            "japanese": "本当",
+            "reading": "ほんとう",
+            "meanings": [
+              "사실, 진짜"
+            ]
+          }
+        ]
+      }
+    ],
+    "initialCoreActions": 77,
+    "selectedHolds": [],
+    "byType": {
+      "N5": {
+        "noun": 395,
+        "na_adj": 16,
+        "i_adj": 56,
+        "adv": 18,
+        "other": 10,
+        "expression": 5,
+        "verb": 99
+      },
+      "N4": {
+        "noun": 500,
+        "na_adj": 22,
+        "adv": 17,
+        "other": 13,
+        "i_adj": 18,
+        "verb": 77,
+        "expression": 1
+      },
+      "N3": {
+        "noun": 1313,
+        "na_adj": 111,
+        "adv": 86,
+        "verb": 173,
+        "i_adj": 32,
+        "expression": 6,
+        "other": 6
+      },
+      "N2": {
+        "noun": 758,
+        "verb": 162,
+        "adv": 36,
+        "i_adj": 26,
+        "na_adj": 73,
+        "other": 1
+      },
+      "N1": {
+        "noun": 595,
+        "verb": 119,
+        "na_adj": 64,
+        "adv": 35,
+        "i_adj": 15,
+        "expression": 2,
+        "other": 1
+      }
+    },
+    "readyWords": 4861,
+    "selectedExamples": 8068,
+    "appExamples": 9616,
+    "activeAliasGroups": 27,
+    "repeatEvidence": "content/jlpt/final-repeated-phrases-review.json",
+    "variantEvidence": "content/jlpt/final-selected-variants-review.json",
+    "explicitExcludedFunctionWord": "content/jlpt/batches/n5-041/held-01.json",
+    "remainingUnselectedHoldCount": 22,
+    "variantFinalState": "content/jlpt/final-selected-variants-final-state.json"
+  }
+}

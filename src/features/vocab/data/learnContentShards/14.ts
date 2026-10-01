@@ -1580,6 +1580,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1127870-1",
+    "wordId": "lex-jmdict-1127870",
+    "version": 1,
+    "meaning": "마스크",
+    "hint": "입·코 또는 얼굴을 가리는 물건입니다.",
+    "confusions": [
+      {
+        "japanese": "帽子",
+        "distinction": "선택한 マスク는 얼굴을 가리고 帽子는 머리에 쓴다. 얼굴 생김새·기술적 마스크라는 별도 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1127870-1-ex-1",
+        "version": 1,
+        "before": "人の多い電車では、",
+        "answer": "マスク",
+        "after": "を着けている。",
+        "reading": "マスク",
+        "translation": "사람이 많은 전철에서는 마스크를 착용하고 있다.",
+        "translationTarget": "마스크",
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370380-1",
+    "wordId": "lex-jmdict-1370380",
+    "version": 1,
+    "meaning": "도형",
+    "hint": "선이나 면으로 나타낸 일정한 모양",
+    "confusions": [
+      {
+        "japanese": "数字",
+        "distinction": "공간의 모양을 나타낸 것과 수를 나타낸 기호를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370380-1-ex-1",
+        "version": 1,
+        "before": "同じ面積でも、",
+        "answer": "図形",
+        "after": "によって周りの長さは違います。",
+        "reading": "ずけい",
+        "translation": "넓이가 같아도 도형에 따라 둘레는 다릅니다.",
+        "translationTarget": "도형",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549500-1",
+    "wordId": "lex-jmdict-1549500",
+    "version": 1,
+    "meaning": "이해, 이익과 손해",
+    "hint": "자신에게 이익이 되거나 손해가 되는 관계입니다.",
+    "confusions": [
+      {
+        "japanese": "利益",
+        "distinction": "利害는 이익과 손해 양쪽이고 利益는 이익만이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549500-1-ex-1",
+        "version": 1,
+        "before": "立場によって",
+        "answer": "利害",
+        "after": "が異なるため、全員の同意を得るのは難しい。",
+        "reading": "りがい",
+        "translation": "입장에 따라 이익과 손해가 달라 모두의 동의를 얻기는 어렵다.",
+        "translationTarget": "이익과 손해",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443790-1",
+    "wordId": "lex-jmdict-1443790",
+    "version": 1,
+    "meaning": "전류",
+    "hint": "전하가 이동하는 흐름",
+    "confusions": [
+      {
+        "japanese": "電圧",
+        "distinction": "전하의 흐름과 그 흐름을 일으키는 전기적 차이를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443790-1-ex-1",
+        "version": 1,
+        "before": "スイッチを切ると、この部分には",
+        "answer": "電流",
+        "after": "が流れません。",
+        "reading": "でんりゅう",
+        "translation": "스위치를 끄면 이 부분에는 전류가 흐르지 않습니다.",
+        "translationTarget": "전류",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474200-1",
+    "wordId": "lex-jmdict-1474200",
+    "version": 1,
+    "meaning": "기다·기어가다",
+    "hint": "몸을 낮추고 손발 등을 써서 바닥을 따라 이동해요.",
+    "confusions": [
+      {
+        "japanese": "歩く",
+        "distinction": "몸을 낮추어 이동하는 것과 서서 걷는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474200-1-ex-1",
+        "version": 1,
+        "before": "赤ちゃんが床を",
+        "answer": "這って",
+        "after": "、母の足元まで来た。",
+        "reading": "はって",
+        "translation": "아기가 바닥을 기어서 어머니의 발치까지 왔다.",
+        "translationTarget": "기어서",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385960-1",
+    "wordId": "lex-jmdict-1385960",
+    "version": 1,
+    "meaning": "절충",
+    "hint": "서로 다른 안의 일부를 취해 조화로운 새 안을 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "妥協",
+        "distinction": "折衷는 다른 안의 요소를 섞어 만듦이고 妥協는 서로 양보해 타협함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385960-1-ex-1",
+        "version": 1,
+        "before": "二つの案を",
+        "answer": "折衷",
+        "after": "し、全員が納得できる計画にした。",
+        "reading": "せっちゅう",
+        "translation": "두 안을 절충해 모두가 납득할 계획을 만들었다.",
+        "translationTarget": "절충",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1580510-1",
+    "wordId": "lex-jmdict-1580510",
+    "version": 1,
+    "meaning": "정서, 분위기",
+    "hint": "특정 장소·경험에서 생기는 느낌·감정의 분위기입니다.",
+    "confusions": [
+      {
+        "japanese": "感情",
+        "distinction": "선택한 情緒는 정취·분위기를 띤 느낌이고 感情는 마음의 반응 일반이다. 심리적인 정서 상태도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1580510-1-ex-1",
+        "version": 1,
+        "before": "夕暮れの川沿いには、古い町ならではの",
+        "answer": "情緒",
+        "after": "がある。",
+        "reading": "じょうちょ",
+        "translation": "해 질 무렵 강변에는 옛 마을 특유의 정취가 있다.",
+        "translationTarget": "정취",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

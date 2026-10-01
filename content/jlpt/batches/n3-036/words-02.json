@@ -1,0 +1,122 @@
+[
+  {
+    "japanese": "予感",
+    "reading": "よかん",
+    "type": "noun",
+    "meaning": "예감",
+    "hint": "앞으로 어떤 일이 생길 것 같은 느낌입니다.",
+    "confusion": "予測",
+    "distinction": "予感는 느낌으로 미리 감지함이고 予測는 자료·근거로 앞으로를 예측함이다.",
+    "dictionaryId": "jmdict-1542910",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "野外",
+    "reading": "やがい",
+    "type": "noun",
+    "meaning": "야외",
+    "hint": "건물 안이 아닌 바깥의 열린 공간입니다.",
+    "confusion": "室内",
+    "distinction": "野外는 바깥의 열린 공간이고 室内는 방·건물 안이다.",
+    "dictionaryId": "jmdict-1537270",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "野生",
+    "reading": "やせい",
+    "type": "noun",
+    "meaning": "야생",
+    "hint": "사람이 기르지 않고 자연에서 살아갑니다.",
+    "confusion": "飼育",
+    "distinction": "野生는 자연에서 살아감이고 飼育는 사람이 동물을 기름이다.",
+    "dictionaryId": "jmdict-1537470",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "無口",
+    "reading": "むくち",
+    "type": "na_adj",
+    "meaning": "말이 적음, 과묵함",
+    "hint": "평소 말을 별로 하지 않습니다.",
+    "confusion": "無言",
+    "distinction": "無口는 말수가 적은 성질이고 無言는 말을 하지 않는 상태이다.",
+    "dictionaryId": "jmdict-1529940",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "無茶",
+    "reading": "むちゃ",
+    "type": "na_adj",
+    "meaning": "무모함, 지나치게 무리함",
+    "hint": "이치·능력의 한계를 무시하여 심하게 무리합니다.",
+    "confusion": "無理",
+    "distinction": "無茶는 한계를 무시하는 무모함을 강하게 나타내고 無理는 불가능·부담스러움도 말한다.",
+    "dictionaryId": "jmdict-1530670",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "無駄遣い",
+    "reading": "むだづかい",
+    "type": "noun",
+    "meaning": "낭비, 쓸데없이 쓰기",
+    "hint": "필요하지 않은 곳에 돈·자원 등을 씁니다.",
+    "confusion": "浪費",
+    "distinction": "無駄遣い와 浪費는 낭비가 겹친다. 無駄遣い는 일상적인 돈·물자의 불필요한 소비에 흔하다.",
+    "dictionaryId": "jmdict-1530520",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "名産",
+    "reading": "めいさん",
+    "type": "noun",
+    "meaning": "명산물, 유명한 지역 생산물",
+    "hint": "지역에서 만들어져 잘 알려진 물품입니다.",
+    "confusion": "名所",
+    "distinction": "名産는 유명한 생산물이고 名所는 유명한 장소이다.",
+    "dictionaryId": "jmdict-1531520",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "名簿",
+    "reading": "めいぼ",
+    "type": "noun",
+    "meaning": "명부, 이름 목록",
+    "hint": "구성원·참가자 등의 이름과 관련 정보를 적은 목록입니다.",
+    "confusion": "目次",
+    "distinction": "名簿는 사람 이름 목록이고 目次는 문서·책의 항목 목록이다.",
+    "dictionaryId": "jmdict-1531830",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "和風",
+    "reading": "わふう",
+    "type": "noun",
+    "meaning": "일본풍",
+    "hint": "일본 전통의 형태·분위기를 띱니다.",
+    "confusion": "洋風",
+    "distinction": "和風는 일본식 분위기이고 洋風는 서양식 분위기이다.",
+    "dictionaryId": "jmdict-1562180",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "朗読",
+    "reading": "ろうどく",
+    "type": "noun",
+    "meaning": "낭독",
+    "hint": "글을 소리 내어 듣기 좋게 읽습니다.",
+    "confusion": "黙読",
+    "distinction": "朗読는 소리 내어 읽음이고 黙読는 소리 없이 읽음이다.",
+    "dictionaryId": "jmdict-1560730",
+    "level": "N3",
+    "levelNote": "선택한 기본 일상·독해 용법 기준의 비공식 N3 편집 수준."
+  }
+]

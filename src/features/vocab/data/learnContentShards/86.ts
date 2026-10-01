@@ -270,7 +270,7 @@ const content: LearnSense[] = [
     "wordId": "AbsoluteVerb_225",
     "version": 1,
     "meaning": "배우다",
-    "hint": "누군가에게 방법이나 기술을 가르침 받아요.",
+    "hint": "다른 사람에게 지식이나 언어, 방법을 가르침 받아 익혀요.",
     "confusions": [
       {
         "japanese": "覚える",
@@ -1377,6 +1377,262 @@ const content: LearnSense[] = [
         "translation": "오래된 주택 단지의 주민 회관에 작은 도서실이 새로 마련되었다.",
         "translationTarget": "주택 단지",
         "difficulty": 37,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504990-1",
+    "wordId": "lex-jmdict-1504990",
+    "version": 1,
+    "meaning": "혼동하기 쉽다, 헷갈리다",
+    "hint": "서로 비슷하거나 표시가 분명하지 않아 다른 것으로 잘못 알기 쉽습니다.",
+    "confusions": [
+      {
+        "japanese": "曖昧",
+        "distinction": "紛らわしい는 구별하기 어려워 혼동하기 쉽고 曖昧는 의미·경계가 불명확하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504990-1-ex-1",
+        "version": 1,
+        "before": "二つの薬は名前が",
+        "answer": "紛らわしい",
+        "after": "ので、袋を分けている。",
+        "reading": "まぎらわしい",
+        "translation": "두 약은 이름이 헷갈려서 봉투를 나누어 두고 있다.",
+        "translationTarget": "헷갈려서",
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1077740-1",
+    "wordId": "lex-jmdict-1077740",
+    "version": 1,
+    "meaning": "팁·봉사료",
+    "hint": "서비스에 감사하며 정해진 요금 외에 주는 돈",
+    "confusions": [
+      {
+        "japanese": "料金",
+        "distinction": "서비스에 감사하며 추가로 주는 돈과 정해진 이용 요금을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1077740-1-ex-1",
+        "version": 1,
+        "before": "この国では、食事の料金とは別に",
+        "answer": "チップ",
+        "after": "を払う習慣があります。",
+        "reading": "チップ",
+        "translation": "이 나라에서는 식사 요금과 별도로 팁을 주는 관습이 있습니다.",
+        "translationTarget": "팁",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455810-1",
+    "wordId": "lex-jmdict-1455810",
+    "version": 1,
+    "meaning": "독자적임, 고유함",
+    "hint": "다른 것과 구별되는 자신만의 방식·성질입니다.",
+    "confusions": [
+      {
+        "japanese": "共通",
+        "distinction": "独自는 자신만의 특성이 있음이고 共通는 여럿이 같이 지닌 특성이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455810-1-ex-1",
+        "version": 1,
+        "before": "この会社は、",
+        "answer": "独自",
+        "after": "の技術で水の使用量を減らした。",
+        "reading": "どくじ",
+        "translation": "이 회사는 독자적인 기술로 물 사용량을 줄였다.",
+        "translationTarget": "독자적인",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429260-1",
+    "wordId": "lex-jmdict-1429260",
+    "version": 1,
+    "meaning": "조정, 분쟁 중재",
+    "hint": "제삼자가 당사자의 다툼을 조율하여 합의하도록 돕습니다.",
+    "confusions": [
+      {
+        "japanese": "裁判",
+        "distinction": "調停는 합의를 돕는 분쟁 조정이고 裁判는 법원이 법에 따라 판단함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429260-1-ex-1",
+        "version": 1,
+        "before": "近所との争いは、専門家の",
+        "answer": "調停",
+        "after": "で解決に向かった。",
+        "reading": "ちょうてい",
+        "translation": "이웃과의 다툼은 전문가의 중재로 해결을 향해 나아갔다.",
+        "translationTarget": "중재",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1508600-1",
+    "wordId": "lex-jmdict-1508600",
+    "version": 1,
+    "meaning": "폐회",
+    "hint": "회의나 행사를 공식적으로 끝내는 것",
+    "confusions": [
+      {
+        "japanese": "開会",
+        "distinction": "행사를 공식적으로 끝내는 것과 시작하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1508600-1-ex-1",
+        "version": 1,
+        "before": "最後に来年の予定を確認して、",
+        "answer": "閉会",
+        "after": "した。",
+        "reading": "へいかい",
+        "translation": "마지막으로 내년 일정을 확인하고 폐회했다.",
+        "translationTarget": "폐회",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1291980-1",
+    "wordId": "lex-jmdict-1291980",
+    "version": 1,
+    "meaning": "방석",
+    "hint": "바닥에 앉을 때 깔고 쓰는 납작한 쿠션",
+    "confusions": [
+      {
+        "japanese": "枕",
+        "distinction": "앉는 자리 아래에 까는 물건과 머리를 받치는 물건을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1291980-1-ex-1",
+        "version": 1,
+        "before": "足がしびれたので、",
+        "answer": "座布団",
+        "after": "の上で姿勢を変えた。",
+        "reading": "ざぶとん",
+        "translation": "다리가 저려서 방석 위에서 자세를 바꾸었다.",
+        "translationTarget": "방석",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1467730-1",
+    "wordId": "lex-jmdict-1467730",
+    "version": 1,
+    "meaning": "가열하다",
+    "hint": "열을 가해 물질이나 도구의 온도를 높여요.",
+    "confusions": [
+      {
+        "japanese": "冷やす",
+        "distinction": "열로 온도를 높이는 것과 온도를 낮추는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1467730-1-ex-1",
+        "version": 1,
+        "before": "油を十分に",
+        "answer": "熱して",
+        "after": "から、野菜を入れます。",
+        "reading": "ねっして",
+        "translation": "기름을 충분히 가열한 뒤 채소를 넣습니다.",
+        "translationTarget": "가열한",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545830-1",
+    "wordId": "lex-jmdict-1545830",
+    "version": 1,
+    "meaning": "양식, 형식",
+    "hint": "일정한 특징·규칙에 따라 정해진 표현·구조의 방식입니다.",
+    "confusions": [
+      {
+        "japanese": "様相",
+        "distinction": "様式는 표현·구조의 형식이고 様相는 상황의 모습이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545830-1-ex-1",
+        "version": 1,
+        "before": "この建物は、異なる時代の建築",
+        "answer": "様式",
+        "after": "を取り入れている。",
+        "reading": "ようしき",
+        "translation": "이 건물은 서로 다른 시대의 건축 양식을 받아들였다.",
+        "translationTarget": "양식",
+        "difficulty": 43,
         "status": "reviewed"
       }
     ]

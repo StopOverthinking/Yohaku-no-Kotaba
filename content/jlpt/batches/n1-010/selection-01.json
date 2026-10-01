@@ -1,0 +1,568 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1545630",
+      "japanese": "揺らぐ",
+      "reading": "ゆらぐ",
+      "level": "N1",
+      "spellings": [
+        "揺らぐ"
+      ],
+      "readings": [
+        "ゆらぐ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "揺らぐ"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1545600",
+      "japanese": "揺さぶる",
+      "reading": "ゆさぶる",
+      "level": "N1",
+      "spellings": [
+        "揺さぶる",
+        "揺さ振る"
+      ],
+      "readings": [
+        "ゆさぶる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "揺さぶる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1562510",
+      "japanese": "賄う",
+      "reading": "まかなう",
+      "level": "N1",
+      "spellings": [
+        "賄う"
+      ],
+      "readings": [
+        "まかなう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "賄う"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1554200",
+      "japanese": "凌ぐ",
+      "reading": "しのぐ",
+      "level": "N1",
+      "spellings": [
+        "凌ぐ"
+      ],
+      "readings": [
+        "しのぐ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "凌ぐ"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1555560",
+      "japanese": "臨む",
+      "reading": "のぞむ",
+      "level": "N1",
+      "spellings": [
+        "臨む"
+      ],
+      "readings": [
+        "のぞむ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "臨む"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1578075",
+      "japanese": "脅かす",
+      "reading": "おびやかす",
+      "level": "N1",
+      "spellings": [
+        "脅かす",
+        "劫かす"
+      ],
+      "readings": [
+        "おびやかす"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1472680",
+      "japanese": "背く",
+      "reading": "そむく",
+      "level": "N1",
+      "spellings": [
+        "背く",
+        "叛く"
+      ],
+      "readings": [
+        "そむく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "背く"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1598000",
+      "japanese": "慎む",
+      "reading": "つつしむ",
+      "level": "N1",
+      "spellings": [
+        "慎む",
+        "謹む",
+        "虔む"
+      ],
+      "readings": [
+        "つつしむ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "慎む"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1598340",
+      "japanese": "徹する",
+      "reading": "てっする",
+      "level": "N1",
+      "spellings": [
+        "徹する"
+      ],
+      "readings": [
+        "てっする"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "徹する"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1600660",
+      "japanese": "図る",
+      "reading": "はかる",
+      "level": "N1",
+      "spellings": [
+        "図る",
+        "謀る"
+      ],
+      "readings": [
+        "はかる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "図る"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1609040",
+      "japanese": "値する",
+      "reading": "あたいする",
+      "level": "N1",
+      "spellings": [
+        "値する",
+        "価する"
+      ],
+      "readings": [
+        "あたいする"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "値する"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1584670",
+      "japanese": "免れる",
+      "reading": "まぬがれる",
+      "level": "N1",
+      "spellings": [
+        "免れる"
+      ],
+      "readings": [
+        "まぬがれる",
+        "まぬかれる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "免れる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1584130",
+      "japanese": "乏しい",
+      "reading": "とぼしい",
+      "level": "N1",
+      "spellings": [
+        "乏しい"
+      ],
+      "readings": [
+        "とぼしい",
+        "ともしい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "乏しい"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1382220",
+      "japanese": "脆い",
+      "reading": "もろい",
+      "level": "N1",
+      "spellings": [
+        "脆い"
+      ],
+      "readings": [
+        "もろい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "脆い"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1481940",
+      "japanese": "煩わしい",
+      "reading": "わずらわしい",
+      "level": "N1",
+      "spellings": [
+        "煩わしい"
+      ],
+      "readings": [
+        "わずらわしい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "煩わしい"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1475790",
+      "japanese": "漠然",
+      "reading": "ばくぜん",
+      "level": "N1",
+      "spellings": [
+        "漠然",
+        "ばく然"
+      ],
+      "readings": [
+        "ばくぜん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "漠然"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1491910",
+      "japanese": "不吉",
+      "reading": "ふきつ",
+      "level": "N1",
+      "spellings": [
+        "不吉"
+      ],
+      "readings": [
+        "ふきつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不吉"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1483290",
+      "japanese": "悲惨",
+      "reading": "ひさん",
+      "level": "N1",
+      "spellings": [
+        "悲惨",
+        "悲酸"
+      ],
+      "readings": [
+        "ひさん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "悲惨"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1540950",
+      "japanese": "有する",
+      "reading": "ゆうする",
+      "level": "N1",
+      "spellings": [
+        "有する"
+      ],
+      "readings": [
+        "ゆうする"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "有する"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546610",
+      "japanese": "要する",
+      "reading": "ようする",
+      "level": "N1",
+      "spellings": [
+        "要する"
+      ],
+      "readings": [
+        "ようする"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "要する"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1551210",
+      "japanese": "率いる",
+      "reading": "ひきいる",
+      "level": "N1",
+      "spellings": [
+        "率いる"
+      ],
+      "readings": [
+        "ひきいる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "率いる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1504650",
+      "japanese": "憤慨",
+      "reading": "ふんがい",
+      "level": "N1",
+      "spellings": [
+        "憤慨"
+      ],
+      "readings": [
+        "ふんがい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "憤慨"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1595200",
+      "japanese": "侵略",
+      "reading": "しんりゃく",
+      "level": "N1",
+      "spellings": [
+        "侵略",
+        "侵掠"
+      ],
+      "readings": [
+        "しんりゃく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "侵略"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1594740",
+      "japanese": "執着",
+      "reading": "しゅうちゃく",
+      "level": "N1",
+      "spellings": [
+        "執着",
+        "執著"
+      ],
+      "readings": [
+        "しゅうちゃく",
+        "しゅうじゃく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "執着"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1597110",
+      "japanese": "建前",
+      "reading": "たてまえ",
+      "level": "N1",
+      "spellings": [
+        "建前",
+        "建て前",
+        "立前",
+        "立て前"
+      ],
+      "readings": [
+        "たてまえ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "建前"
+        ]
+      }
+    }
+  ]
+}

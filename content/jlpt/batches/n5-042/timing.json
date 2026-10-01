@@ -1,0 +1,26 @@
+{
+  "batch": "n5-042",
+  "status": "draft-ready",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "plannedWords": 12,
+  "actualWords": 12,
+  "startedAt": "2026-10-01T01:10:47Z",
+  "completedAt": "2026-10-01T01:13:22.679Z",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-10-01T01:10:47Z",
+      "draftCompletedAt": "2026-10-01T01:13:21.950965+00:00",
+      "wordCount": 12,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured after initial dictionary/duplicate inspection; composition and file work included; prior selection not measured.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T01:13:22.679Z",
+      "preflightMilliseconds": 596.7907,
+      "validationIssues": 0
+    }
+  ],
+  "productionClosed": true
+}

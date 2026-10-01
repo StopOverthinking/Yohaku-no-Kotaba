@@ -1948,6 +1948,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441540-1",
+    "wordId": "lex-jmdict-1441540",
+    "version": 1,
+    "meaning": "점검",
+    "hint": "기기·설비 등에 이상이 없는지 자세히 확인합니다.",
+    "confusions": [
+      {
+        "japanese": "修理",
+        "distinction": "点検는 상태 확인이고 修理는 고장 난 부분을 고치는 일이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441540-1-ex-1",
+        "version": 1,
+        "before": "出発前に、運転手がバスのタイヤを",
+        "answer": "点検",
+        "after": "した。",
+        "reading": "てんけん",
+        "translation": "출발 전에 운전기사가 버스 타이어를 점검했다.",
+        "translationTarget": "점검",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1261470-1",
+    "wordId": "lex-jmdict-1261470",
+    "version": 1,
+    "meaning": "원산·원산지",
+    "hint": "동식물이나 물산이 본래 나온 지역",
+    "confusions": [
+      {
+        "japanese": "生産",
+        "distinction": "본래 나온 지역과 실제로 만들어 내는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1261470-1-ex-1",
+        "version": 1,
+        "before": "この花は南米",
+        "answer": "原産",
+        "after": "で、寒さに弱いそうです。",
+        "reading": "げんさん",
+        "translation": "이 꽃은 남미가 원산지이며 추위에 약하다고 합니다.",
+        "translationTarget": "원산지",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1484600-1",
+    "wordId": "lex-jmdict-1484600",
+    "version": 1,
+    "meaning": "들이다, 소비하다",
+    "hint": "시간·돈·노력 등을 목적에 사용합니다.",
+    "confusions": [
+      {
+        "japanese": "蓄える",
+        "distinction": "費やす는 자원을 사용함이고 蓄える는 나중을 위해 모음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1484600-1-ex-1",
+        "version": 1,
+        "before": "彼女は作品の構想に、一年もの時間を",
+        "answer": "費やした",
+        "after": "。",
+        "reading": "ついやした",
+        "translation": "그녀는 작품 구상에 1년이나 되는 시간을 들였다.",
+        "translationTarget": "들였다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532620-1",
+    "wordId": "lex-jmdict-1532620",
+    "version": 1,
+    "meaning": "명료함",
+    "hint": "뜻·소리·모습이 분명하여 쉽게 알아볼 수 있습니다.",
+    "confusions": [
+      {
+        "japanese": "曖昧",
+        "distinction": "明瞭는 분명하고 또렷함이고 曖昧는 불분명함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532620-1-ex-1",
+        "version": 1,
+        "before": "録音の音声が",
+        "answer": "明瞭",
+        "after": "で、話の内容を聞き取りやすかった。",
+        "reading": "めいりょう",
+        "translation": "녹음 음성이 명료하여 이야기 내용을 알아듣기 쉬웠다.",
+        "translationTarget": "명료하여",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1502630-1",
+    "wordId": "lex-jmdict-1502630",
+    "version": 1,
+    "meaning": "엄청나다",
+    "hint": "정도나 규모가 놀랄 만큼 매우 큰 상태예요.",
+    "confusions": [
+      {
+        "japanese": "僅か",
+        "distinction": "놀랄 만큼 큰 정도와 매우 적은 정도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1502630-1-ex-1",
+        "version": 1,
+        "before": "花火が上がると、",
+        "answer": "物凄い",
+        "after": "音が町中に響いた。",
+        "reading": "ものすごい",
+        "translation": "불꽃이 올라가자 엄청난 소리가 온 거리에 울렸다.",
+        "translationTarget": "엄청난",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530600-1",
+    "wordId": "lex-jmdict-1530600",
+    "version": 1,
+    "meaning": "무단",
+    "hint": "필요한 허락을 받거나 미리 알리지 않은 채 합니다.",
+    "confusions": [
+      {
+        "japanese": "許可",
+        "distinction": "無断는 허락·알림 없이 함이고 許可는 해도 된다는 승인이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530600-1-ex-1",
+        "version": 1,
+        "before": "展示物の写真を",
+        "answer": "無断",
+        "after": "で公開しないでください。",
+        "reading": "むだん",
+        "translation": "전시물 사진을 무단으로 공개하지 마세요.",
+        "translationTarget": "무단",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317810-1",
+    "wordId": "lex-jmdict-1317810",
+    "version": 1,
+    "meaning": "자치",
+    "hint": "지역이나 조직의 일을 구성원들이 스스로 다스리는 것",
+    "confusions": [
+      {
+        "japanese": "支配",
+        "distinction": "구성원이 스스로 운영하는 것과 외부가 지배하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317810-1-ex-1",
+        "version": 1,
+        "before": "大学の歴史には、学生の",
+        "answer": "自治",
+        "after": "をめぐる議論もあった。",
+        "reading": "じち",
+        "translation": "대학 역사에는 학생 자치를 둘러싼 논쟁도 있었다.",
+        "translationTarget": "자치",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1476410-1",
+    "wordId": "lex-jmdict-1476410",
+    "version": 1,
+    "meaning": "젓가락",
+    "hint": "두 개의 가늘고 긴 막대로 음식을 집는 식사 도구",
+    "confusions": [
+      {
+        "japanese": "匙",
+        "distinction": "두 막대로 음식을 집는 도구와 떠서 먹는 도구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1476410-1-ex-1",
+        "version": 1,
+        "before": "子ども用の短い",
+        "answer": "箸",
+        "after": "を用意してください。",
+        "reading": "はし",
+        "translation": "아이용 짧은 젓가락을 준비해 주세요.",
+        "translationTarget": "젓가락",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523060-1",
+    "wordId": "lex-jmdict-1523060",
+    "version": 1,
+    "meaning": "사실, 진짜",
+    "hint": "꾸며 낸 말이 아니라 실제로 맞는 내용",
+    "confusions": [
+      {
+        "japanese": "嘘",
+        "distinction": "실제로 맞는 사실과 사실이 아닌 꾸며 낸 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523060-1-ex-1",
+        "version": 1,
+        "before": "兄が来週結婚するという話は、",
+        "answer": "本当",
+        "after": "です。",
+        "reading": "ほんとう",
+        "translation": "오빠가 다음 주에 결혼한다는 이야기는 사실이에요.",
+        "translationTarget": "사실",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

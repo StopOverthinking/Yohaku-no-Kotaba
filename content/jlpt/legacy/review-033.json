@@ -1,0 +1,38 @@
+[
+  {
+    "wordId": "AbsoluteVerb_408",
+    "sourceHash": "7dafc46d3c043a58f033b48dcffdf19f1e8bbb540f492978f67723623bf05ff7",
+    "proposalHash": "f87bf63a71fb3f7a8cb4f68f245d8c76f00ea9ef8a383ec19bf0073b212f987d",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
+    "notes": [
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다.",
+      "현재 선택된 기초 会う 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_423",
+    "sourceHash": "693e5c41a7786cd6fc9a4c4f43119be3ef1547b648cbc431a090678cf31c2ddb",
+    "proposalHash": "94aa251d701be4abdb40382eb8d05acd5094baa48c7ac21d2a361bce1f295c48",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "not an alias; unique selected core",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:50:31.937Z",
+    "notes": [
+      "返す의 모든 뜻·힌트·대비·일본어/한국어 2예문을 읽었다. 사전의 선택 핵심과 일치하고 동음 鳴る/帰す는 각각 소리울림/사람돌려보내기로 다른 의미다.",
+      "핵심 상태변화 또는 물건 반환의 기본 일상 N5 용법."
+    ]
+  }
+]

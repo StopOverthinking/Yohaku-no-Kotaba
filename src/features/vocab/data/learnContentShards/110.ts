@@ -138,11 +138,11 @@ const content: LearnSense[] = [
     "wordId": "AbsoluteVerb_50",
     "version": 1,
     "meaning": "생각하다",
-    "hint": "느낌만 드는 것보다 머리를 써서 따져 보아요.",
+    "hint": "대상이나 문제에 대해 생각을 정리하고 따져 보아요.",
     "confusions": [
       {
         "japanese": "思う",
-        "distinction": "판단이나 감상을 넓게 나타내는 말에 비해 의식적으로 사고하는 과정이 두드러진다."
+        "distinction": "생각을 검토하는 과정에 흔히 초점을 두며 주관적인 고민에도 쓴다. 비교 표현과 뜻이 겹치고 비교 표현은 의견·느낌을 말할 때 자주 쓰인다."
       }
     ],
     "review": {
@@ -1537,6 +1537,198 @@ const content: LearnSense[] = [
         "translation": "컴퓨터가 고장 나기 전에 중요한 데이터를 다른 곳에 저장했다.",
         "translationTarget": "데이터",
         "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343210-1",
+    "wordId": "lex-jmdict-1343210",
+    "version": 1,
+    "meaning": "소재, 있는 곳",
+    "hint": "사람·물건 등이 현재 있는 위치입니다.",
+    "confusions": [
+      {
+        "japanese": "行き先",
+        "distinction": "所在는 현재 있는 곳이고 行き先는 가려는 목적지이다. 책임 등의 소재에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343210-1-ex-1",
+        "version": 1,
+        "before": "担当者に問い合わせたが、資料の",
+        "answer": "所在",
+        "after": "は分からなかった。",
+        "reading": "しょざい",
+        "translation": "담당자에게 문의했지만 자료의 소재는 알 수 없었다.",
+        "translationTarget": "소재",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1490080-1",
+    "wordId": "lex-jmdict-1490080",
+    "version": 1,
+    "meaning": "평론",
+    "hint": "작품·사회 현상 등에 대해 근거를 들어 분석·평가하는 글·활동입니다.",
+    "confusions": [
+      {
+        "japanese": "感想",
+        "distinction": "評論는 분석·평가를 담은 논평이고 感想는 경험 뒤의 개인적인 소감이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1490080-1-ex-1",
+        "version": 1,
+        "before": "小説を読み終えてから、その作品の",
+        "answer": "評論",
+        "after": "も読んでみた。",
+        "reading": "ひょうろん",
+        "translation": "소설을 다 읽은 뒤 그 작품의 평론도 읽어 봤다.",
+        "translationTarget": "평론",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1550160-1",
+    "wordId": "lex-jmdict-1550160",
+    "version": 1,
+    "meaning": "이론",
+    "hint": "현상·문제를 논리적인 원리로 설명하는 체계입니다.",
+    "confusions": [
+      {
+        "japanese": "実践",
+        "distinction": "理論는 설명 원리이고 実践는 실제로 행함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1550160-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "理論",
+        "after": "は理解できても、実際にやってみるとうまくいかない。",
+        "reading": "りろん",
+        "translation": "이론은 이해해도 실제로 해 보면 잘되지 않는다.",
+        "translationTarget": "이론",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1296660-1",
+    "wordId": "lex-jmdict-1296660",
+    "version": 1,
+    "meaning": "목재",
+    "hint": "건축이나 제작에 쓰도록 마련한 나무 재료",
+    "confusions": [
+      {
+        "japanese": "立ち木",
+        "distinction": "재료로 사용할 나무와 땅에 자라는 나무를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1296660-1-ex-1",
+        "version": 1,
+        "before": "小屋を建てるため、",
+        "answer": "材木",
+        "after": "を長さごとに分けた。",
+        "reading": "ざいもく",
+        "translation": "작은 집을 세우기 위해 목재를 길이별로 나누었다.",
+        "translationTarget": "목재",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1519970-1",
+    "wordId": "lex-jmdict-1519970",
+    "version": 1,
+    "meaning": "부풀리다",
+    "hint": "공기 등을 넣어 물체의 크기를 늘려요.",
+    "confusions": [
+      {
+        "japanese": "縮める",
+        "distinction": "물체를 부풀려 크게 만드는 것과 작게 줄이는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1519970-1-ex-1",
+        "version": 1,
+        "before": "風船を",
+        "answer": "膨らます",
+        "after": "前に、穴がないか調べた。",
+        "reading": "ふくらます",
+        "translation": "풍선을 부풀리기 전에 구멍이 없는지 살폈다.",
+        "translationTarget": "부풀리기",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397390-1",
+    "wordId": "lex-jmdict-1397390",
+    "version": 1,
+    "meaning": "소박함",
+    "hint": "꾸밈이 적고 자연스러우며 단순합니다.",
+    "confusions": [
+      {
+        "japanese": "簡素",
+        "distinction": "素朴는 꾸밈없는 자연스러운 느낌이고 簡素는 필요한 것만 있는 간단한 형태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397390-1-ex-1",
+        "version": 1,
+        "before": "手作りの焼き菓子には、",
+        "answer": "素朴",
+        "after": "な味わいがあった。",
+        "reading": "そぼく",
+        "translation": "손수 만든 구운 과자에는 소박한 맛이 있었다.",
+        "translationTarget": "소박한",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

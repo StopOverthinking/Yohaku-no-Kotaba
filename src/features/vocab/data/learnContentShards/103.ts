@@ -1496,6 +1496,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254100-1",
+    "wordId": "lex-jmdict-1254100",
+    "version": 1,
+    "meaning": "결핍, 부족",
+    "hint": "필요한 영양·자원 등이 충분하지 않은 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "不足",
+        "distinction": "欠乏는 필수적인 것의 심한 결핍에 흔하고 不足는 양이 모자람 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254100-1-ex-1",
+        "version": 1,
+        "before": "鉄分の",
+        "answer": "欠乏",
+        "after": "が疑われたため、食生活を見直すことにした。",
+        "reading": "けつぼう",
+        "translation": "철분 결핍이 의심되어 식생활을 재검토하기로 했다.",
+        "translationTarget": "결핍",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1312750-1",
+    "wordId": "lex-jmdict-1312750",
+    "version": 1,
+    "meaning": "자산",
+    "hint": "개인·조직이 가진 재산 등 경제적 가치가 있는 것입니다.",
+    "confusions": [
+      {
+        "japanese": "負債",
+        "distinction": "資産는 소유한 경제적 가치이고 負債는 갚아야 할 빚이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1312750-1-ex-1",
+        "version": 1,
+        "before": "会社の",
+        "answer": "資産",
+        "after": "には、建物だけでなく特許も含まれる。",
+        "reading": "しさん",
+        "translation": "회사의 자산에는 건물뿐 아니라 특허도 포함된다.",
+        "translationTarget": "자산",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1140100-1",
+    "wordId": "lex-jmdict-1140100",
+    "version": 1,
+    "meaning": "점심 식사",
+    "hint": "낮에 먹는 식사나 식당에서 제공하는 점심 메뉴",
+    "confusions": [
+      {
+        "japanese": "ディナー",
+        "distinction": "낮에 먹는 식사와 저녁 식사를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1140100-1-ex-1",
+        "version": 1,
+        "before": "この店の",
+        "answer": "ランチ",
+        "after": "には、スープと飲み物も付いている。",
+        "reading": "ランチ",
+        "translation": "이 가게의 점심 메뉴에는 수프와 음료도 포함되어 있다.",
+        "translationTarget": "점심 메뉴",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501060-1",
+    "wordId": "lex-jmdict-1501060",
+    "version": 1,
+    "meaning": "복지",
+    "hint": "사람들이 안정된 생활을 누리도록 돕는 제도·활동입니다.",
+    "confusions": [
+      {
+        "japanese": "利益",
+        "distinction": "福祉는 생활의 안정·행복을 위한 지원이고 利益는 얻는 이익 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501060-1-ex-1",
+        "version": 1,
+        "before": "町の",
+        "answer": "福祉",
+        "after": "窓口で、利用できる支援制度を教えてもらった。",
+        "reading": "ふくし",
+        "translation": "마을 복지 창구에서 이용할 수 있는 지원 제도를 안내받았다.",
+        "translationTarget": "복지",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424660-1",
+    "wordId": "lex-jmdict-1424660",
+    "version": 1,
+    "meaning": "중추",
+    "hint": "전체의 기능·활동을 통제하는 중심 부분입니다.",
+    "confusions": [
+      {
+        "japanese": "末端",
+        "distinction": "中枢는 기능을 통제하는 중심이고 末端는 끝부분이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424660-1-ex-1",
+        "version": 1,
+        "before": "情報管理を担う部署は、この組織の",
+        "answer": "中枢",
+        "after": "に当たる。",
+        "reading": "ちゅうすう",
+        "translation": "정보 관리를 담당하는 부서는 이 조직의 중추에 해당한다.",
+        "translationTarget": "중추",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329860-1",
+    "wordId": "lex-jmdict-1329860",
+    "version": 1,
+    "meaning": "수동적 태도",
+    "hint": "스스로 나서지 않고 남의 행동·지시를 받아 대응합니다.",
+    "confusions": [
+      {
+        "japanese": "自主",
+        "distinction": "선택한 受身는 수동적 태도이고 自主는 스스로 판단함이다. 문법의 수동태·유도의 낙법이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329860-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "受身",
+        "after": "の姿勢をやめ、自分から改善案を出してみた。",
+        "reading": "うけみ",
+        "translation": "수동적 자세를 버리고 스스로 개선안을 내 봤다.",
+        "translationTarget": "수동적",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451660-1",
+    "wordId": "lex-jmdict-1451660",
+    "version": 1,
+    "meaning": "동력",
+    "hint": "기계·물체를 움직이게 하는 힘·에너지입니다.",
+    "confusions": [
+      {
+        "japanese": "動機",
+        "distinction": "動力는 움직임을 만드는 힘이고 動機는 사람의 행동 이유이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451660-1-ex-1",
+        "version": 1,
+        "before": "この小さな装置は、太陽の光を",
+        "answer": "動力",
+        "after": "として動く。",
+        "reading": "どうりょく",
+        "translation": "이 작은 장치는 태양빛을 동력으로 움직인다.",
+        "translationTarget": "동력",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431990-1",
+    "wordId": "lex-jmdict-1431990",
+    "version": 1,
+    "meaning": "임금",
+    "hint": "노동의 대가로 지급받는 돈입니다.",
+    "confusions": [
+      {
+        "japanese": "料金",
+        "distinction": "賃金는 노동의 대가이고 料金는 서비스·이용 등의 비용이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431990-1-ex-1",
+        "version": 1,
+        "before": "労働時間に見合う",
+        "answer": "賃金",
+        "after": "が支払われているか確認した。",
+        "reading": "ちんぎん",
+        "translation": "근로 시간에 맞는 임금이 지급되고 있는지 확인했다.",
+        "translationTarget": "임금",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454780-1",
+    "wordId": "lex-jmdict-1454780",
+    "version": 1,
+    "meaning": "특허",
+    "hint": "발명에 대해 일정 기간 독점적인 권리를 인정하는 제도·권리입니다.",
+    "confusions": [
+      {
+        "japanese": "著作権",
+        "distinction": "特許는 발명의 보호 권리이고 著作権는 창작 표현의 보호 권리이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454780-1-ex-1",
+        "version": 1,
+        "before": "研究チームは、新しい製造方法の",
+        "answer": "特許",
+        "after": "を取得した。",
+        "reading": "とっきょ",
+        "translation": "연구팀은 새 제조 방법의 특허를 취득했다.",
+        "translationTarget": "특허",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532880-1",
+    "wordId": "lex-jmdict-1532880",
+    "version": 1,
+    "meaning": "울리다·소리를 내다",
+    "hint": "물건이나 장치를 움직여 소리가 나게 해요.",
+    "confusions": [
+      {
+        "japanese": "鳴る",
+        "distinction": "소리가 나게 하는 행동과 소리가 나는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532880-1-ex-1",
+        "version": 1,
+        "before": "玄関のベルを二回",
+        "answer": "鳴らした",
+        "after": "が、誰も出てこなかった。",
+        "reading": "ならした",
+        "translation": "현관 초인종을 두 번 울렸지만 아무도 나오지 않았다.",
+        "translationTarget": "울렸지만",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

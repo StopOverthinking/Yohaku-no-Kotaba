@@ -1456,6 +1456,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1051230-1",
+    "wordId": "lex-jmdict-1051230",
+    "version": 1,
+    "meaning": "의견, 논평, 댓글",
+    "hint": "사건·작품 등에 관해 덧붙이는 의견·소감입니다.",
+    "confusions": [
+      {
+        "japanese": "質問",
+        "distinction": "コメント는 의견·소감을 덧붙이고 質問는 답을 구하는 질문이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1051230-1-ex-1",
+        "version": 1,
+        "before": "動画に寄せられた",
+        "answer": "コメント",
+        "after": "を読み、次の撮影の参考にした。",
+        "reading": "コメント",
+        "translation": "동영상에 달린 댓글을 읽어 다음 촬영에 참고했다.",
+        "translationTarget": "댓글",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360640-1",
+    "wordId": "lex-jmdict-1360640",
+    "version": 1,
+    "meaning": "든든하다",
+    "hint": "도움이나 지지를 믿을 수 있어 마음이 안정되고 힘이 납니다.",
+    "confusions": [
+      {
+        "japanese": "心細い",
+        "distinction": "心強い는 든든하고 心細い는 의지할 데가 없어 불안하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360640-1-ex-1",
+        "version": 1,
+        "before": "初めての仕事でも、経験のある先輩が一緒なので",
+        "answer": "心強い",
+        "after": "。",
+        "reading": "こころづよい",
+        "translation": "처음 해 보는 일이라도 경험 있는 선배가 함께 있어서 든든하다.",
+        "translationTarget": "든든하다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549580-1",
+    "wordId": "lex-jmdict-1549580",
+    "version": 1,
+    "meaning": "이윤",
+    "hint": "경제 활동에서 비용 등을 제외하고 남는 이익입니다.",
+    "confusions": [
+      {
+        "japanese": "売上",
+        "distinction": "利潤는 비용을 뺀 이익이고 売上는 판매로 얻은 총액이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549580-1-ex-1",
+        "version": 1,
+        "before": "原料費が上がり、商品一個当たりの",
+        "answer": "利潤",
+        "after": "が減った。",
+        "reading": "りじゅん",
+        "translation": "원료비가 올라 상품 한 개당 이윤이 줄었다.",
+        "translationTarget": "이윤",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321360-1",
+    "wordId": "lex-jmdict-1321360",
+    "version": 1,
+    "meaning": "실태",
+    "hint": "겉으로 보이는 모습과 구별되는 실제 상황입니다.",
+    "confusions": [
+      {
+        "japanese": "理想",
+        "distinction": "実態는 실제로 존재하는 상황이고 理想는 바라는 최선의 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321360-1-ex-1",
+        "version": 1,
+        "before": "アンケートだけでは分からない生活の",
+        "answer": "実態",
+        "after": "を、訪問調査で確かめた。",
+        "reading": "じったい",
+        "translation": "설문만으로는 알 수 없는 생활 실태를 방문 조사로 확인했다.",
+        "translationTarget": "실태",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1337590-1",
+    "wordId": "lex-jmdict-1337590",
+    "version": 1,
+    "meaning": "곱슬거리다·꼬불꼬불해지다",
+    "hint": "머리카락 등이 가늘게 말리거나 구불구불해져요.",
+    "confusions": [
+      {
+        "japanese": "伸びる",
+        "distinction": "가늘게 말리는 모양과 길이가 늘어나는 변화를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1337590-1-ex-1",
+        "version": 1,
+        "before": "熱い鍋に近づきすぎて、腕の毛が少し",
+        "answer": "縮れた",
+        "after": "。",
+        "reading": "ちぢれた",
+        "translation": "뜨거운 냄비에 너무 가까이 다가가서 팔의 털이 조금 말렸다.",
+        "translationTarget": "말렸다",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1369140-1",
+    "wordId": "lex-jmdict-1369140",
+    "version": 1,
+    "meaning": "인문학",
+    "hint": "언어나 역사나 철학 등 인간의 문화와 사상을 연구하는 분야",
+    "confusions": [
+      {
+        "japanese": "自然科学",
+        "distinction": "인간의 문화와 사상을 연구하는 분야와 자연 현상을 연구하는 분야를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1369140-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "人文科学",
+        "after": "の研究には、古い文書を読み解く力も必要だ。",
+        "reading": "じんぶんかがく",
+        "translation": "인문학 연구에는 오래된 문서를 해독하는 능력도 필요하다.",
+        "translationTarget": "인문학",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1390760-1",
+    "wordId": "lex-jmdict-1390760",
+    "version": 1,
+    "meaning": "선풍기",
+    "hint": "날개를 회전시켜 바람을 만드는 전기 기구",
+    "confusions": [
+      {
+        "japanese": "エアコン",
+        "distinction": "바람을 만드는 기구와 실내 온도를 조절하는 냉난방 기구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1390760-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "扇風機",
+        "after": "の向きを変えたら、机の紙が飛んでしまった。",
+        "reading": "せんぷうき",
+        "translation": "선풍기의 방향을 바꾸었더니 책상 위 종이가 날아갔다.",
+        "translationTarget": "선풍기",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475500-1",
+    "wordId": "lex-jmdict-1475500",
+    "version": 1,
+    "meaning": "희석하다·묽게 하다",
+    "hint": "물을 넣거나 섞어서 진한 정도를 줄여요.",
+    "confusions": [
+      {
+        "japanese": "濃くする",
+        "distinction": "농도를 줄이는 것과 농도를 높이는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475500-1-ex-1",
+        "version": 1,
+        "before": "味が濃すぎたので、スープをお湯で",
+        "answer": "薄めた",
+        "after": "。",
+        "reading": "うすめた",
+        "translation": "맛이 너무 진해서 수프를 뜨거운 물로 희석했다.",
+        "translationTarget": "희석했다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609000-1",
+    "wordId": "lex-jmdict-1609000",
+    "version": 1,
+    "meaning": "부채질하다",
+    "hint": "부채 등을 움직여 바람을 일으켜요.",
+    "confusions": [
+      {
+        "japanese": "吹く",
+        "distinction": "도구를 흔들어 바람을 만드는 것과 바람이 부는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609000-1-ex-1",
+        "version": 1,
+        "before": "暑そうな子どもを、母が団扇で",
+        "answer": "扇いで",
+        "after": "いた。",
+        "reading": "あおいで",
+        "translation": "더워 보이는 아이에게 어머니가 부채로 부채질하고 있었다.",
+        "translationTarget": "부채질하고",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006670-1",
+    "wordId": "lex-jmdict-1006670",
+    "version": 1,
+    "meaning": "거기, 그곳",
+    "hint": "말을 듣는 상대가 있는 쪽의 가까운 장소를 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "それ",
+        "distinction": "상대 쪽의 장소를 가리키는 말과 상대 쪽의 물건을 가리키는 말을 구별한다. 앞서 말한 장소를 다시 가리킬 수도 있다. 같은 소리의 바닥이라는 명사와는 뜻이 다르다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006670-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "そこ",
+        "after": "に立つと、車が通れません。",
+        "reading": "そこ",
+        "translation": "거기에 서 있으면 차가 지나갈 수 없습니다.",
+        "translationTarget": "거기",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

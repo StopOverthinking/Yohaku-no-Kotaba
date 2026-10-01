@@ -1368,6 +1368,134 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366160-1",
+    "wordId": "lex-jmdict-1366160",
+    "version": 1,
+    "meaning": "진전",
+    "hint": "문제·협의 등이 앞으로 나아가 다음 단계에 이르는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "進歩",
+        "distinction": "進展는 상황·협의의 진척이고 進歩는 능력·기술 등의 향상에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366160-1-ex-1",
+        "version": 1,
+        "before": "交渉に",
+        "answer": "進展",
+        "after": "があり、来週もう一度話し合うことになった。",
+        "reading": "しんてん",
+        "translation": "협상에 진전이 있어 다음 주 다시 협의하기로 했다.",
+        "translationTarget": "진전",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1494120-1",
+    "wordId": "lex-jmdict-1494120",
+    "version": 1,
+    "meaning": "부당함",
+    "hint": "정당한 근거·기준에 맞지 않아 옳지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "不適当",
+        "distinction": "不当는 정당하지 않음이고 不適当는 상황·목적에 적합하지 않음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1494120-1-ex-1",
+        "version": 1,
+        "before": "働いた分の賃金を払わないのは、",
+        "answer": "不当",
+        "after": "な扱いだ。",
+        "reading": "ふとう",
+        "translation": "일한 만큼 임금을 지급하지 않는 것은 부당한 대우이다.",
+        "translationTarget": "부당한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1339010-1",
+    "wordId": "lex-jmdict-1339010",
+    "version": 1,
+    "meaning": "출산",
+    "hint": "아기를 낳는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "妊娠",
+        "distinction": "出産는 아기를 낳음이고 妊娠는 몸속에 아기를 가진 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1339010-1-ex-1",
+        "version": 1,
+        "before": "姉の",
+        "answer": "出産",
+        "after": "を祝い、家族で花を贈った。",
+        "reading": "しゅっさん",
+        "translation": "누나의 출산을 축하하여 가족이 함께 꽃을 보냈다.",
+        "translationTarget": "출산",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1376910-1",
+    "wordId": "lex-jmdict-1376910",
+    "version": 1,
+    "meaning": "정의",
+    "hint": "옳고 공정하며 도덕적으로 마땅한 기준입니다.",
+    "confusions": [
+      {
+        "japanese": "正当",
+        "distinction": "正義는 옳음·공정함이라는 가치이고 正当는 구체적 행위에 타당한 근거가 있음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1376910-1-ex-1",
+        "version": 1,
+        "before": "自分の",
+        "answer": "正義",
+        "after": "だけを押し付けず、相手の話も聞きたい。",
+        "reading": "せいぎ",
+        "translation": "자신의 정의만 강요하지 않고 상대 이야기도 듣고 싶다.",
+        "translationTarget": "정의",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

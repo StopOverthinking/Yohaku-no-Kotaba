@@ -1688,6 +1688,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1073760-1",
+    "wordId": "lex-jmdict-1073760",
+    "version": 1,
+    "meaning": "슬라이드",
+    "hint": "발표 내용을 한 화면씩 보여 주는 자료",
+    "confusions": [
+      {
+        "japanese": "原稿",
+        "distinction": "화면에 보여 주는 자료와 읽거나 말할 내용을 적은 문서를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1073760-1-ex-1",
+        "version": 1,
+        "before": "最後の",
+        "answer": "スライド",
+        "after": "に、参考にした本を載せました。",
+        "reading": "スライド",
+        "translation": "마지막 슬라이드에 참고한 책을 실었습니다.",
+        "translationTarget": "슬라이드",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1446180-1",
+    "wordId": "lex-jmdict-1446180",
+    "version": 1,
+    "meaning": "얼어붙을 듯 춥다",
+    "hint": "심한 추위로 몸이 뻣뻣하거나 감각이 둔해져요.",
+    "confusions": [
+      {
+        "japanese": "温まる",
+        "distinction": "몸이 심하게 추워 굳는 것과 따뜻해지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1446180-1-ex-1",
+        "version": 1,
+        "before": "手袋を忘れて、指先が",
+        "answer": "凍えそう",
+        "after": "だった。",
+        "reading": "こごえそう",
+        "translation": "장갑을 잊어버려서 손끝이 얼어붙을 것 같았다.",
+        "translationTarget": "얼어붙을 것",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1482360-1",
+    "wordId": "lex-jmdict-1482360",
+    "version": 1,
+    "meaning": "번지",
+    "hint": "주소에서 땅이나 집을 구별하려고 붙인 번호",
+    "confusions": [
+      {
+        "japanese": "郵便番号",
+        "distinction": "개별 땅이나 집의 주소 번호와 우편 구역 번호를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1482360-1-ex-1",
+        "version": 1,
+        "before": "町の名前は合っていたが、",
+        "answer": "番地",
+        "after": "を一つ間違えていた。",
+        "reading": "ばんち",
+        "translation": "동네 이름은 맞았지만 번지를 하나 잘못 썼다.",
+        "translationTarget": "번지",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1310920-1",
+    "wordId": "lex-jmdict-1310920",
+    "version": 1,
+    "meaning": "시체·사체",
+    "hint": "생명이 끝난 사람이나 동물의 몸",
+    "confusions": [
+      {
+        "japanese": "生体",
+        "distinction": "죽은 몸과 살아 있는 몸을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1310920-1-ex-1",
+        "version": 1,
+        "before": "川岸で動物の",
+        "answer": "死体",
+        "after": "を見つけ、役所に連絡した。",
+        "reading": "したい",
+        "translation": "강기슭에서 동물 사체를 발견하여 관청에 연락했다.",
+        "translationTarget": "사체",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529940-1",
+    "wordId": "lex-jmdict-1529940",
+    "version": 1,
+    "meaning": "말이 적음, 과묵함",
+    "hint": "평소 말을 별로 하지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "無言",
+        "distinction": "無口는 말수가 적은 성질이고 無言는 말을 하지 않는 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529940-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "無口",
+        "after": "な父も、釣りの話になるとよく話す。",
+        "reading": "むくち",
+        "translation": "과묵한 아버지도 낚시 이야기가 나오면 말을 많이 한다.",
+        "translationTarget": "과묵한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

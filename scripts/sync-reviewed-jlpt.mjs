@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { spawnSync } from 'node:child_process'
+import { findSimilarSentences } from './lib/sentence-similarity.mjs'
 
 // Integrates existing independent approvals. It never creates editorial approvals.
 const read = p => JSON.parse(fs.readFileSync(p, 'utf8'))
@@ -35,6 +36,19 @@ if (process.argv.includes('--check')) {
   const before = read('content/jlpt/progress.json')
   const beforeAudit = optionalRead('output/jlpt/latest-content-audit.json', null)
   run('scripts/build-jlpt-pilot.mjs')
+  // Check new scenes against the full current corpus before changing app content.
+  // A manuscript approval alone cannot detect a later cross-batch scene collision.
+  const additions = read('output/jlpt/pilot-draft.json').filter(entry => !publishedIds.has(entry.word.id))
+  if (additions.length) {
+    const corpus = read('src/features/vocab/editor-data/learnContent.json')
+    const newIds = new Set(additions.flatMap(entry => entry.sense.examples.map(example => example.id)))
+    const prospective = [...corpus, ...additions.map(entry => entry.sense)]
+      .flatMap(sense => sense.examples.map(example => ({ ...example, wordId: sense.wordId, masked: `${example.before}□${example.after}` })))
+    const { similar, comparisons } = findSimilarSentences(prospective)
+    const newSimilar = similar.filter(pair => newIds.has(pair.a) || newIds.has(pair.b))
+    fs.writeFileSync('output/jlpt/prepublication-similarity.json', JSON.stringify({ at: new Date().toISOString(), newWords: additions.length, comparisons, similar: newSimilar }, null, 2) + '\n')
+    if (newSimilar.length) throw new Error(`New manuscript scenes require independent review before publication: ${newSimilar.length} pairs; see output/jlpt/prepublication-similarity.json`)
+  }
   // Existing accept command validates IDs, source/snapshot hashes, reviewer, scope and count.
   for (const entry of pending) run('scripts/accept-jlpt-batch.mjs', [entry.batch, `--part=${entry.part}`])
   // Publication validates every current manuscript approval before modifying editor data.

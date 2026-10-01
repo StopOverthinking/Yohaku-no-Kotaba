@@ -1,0 +1,71 @@
+{
+  "reviewedAt": "2026-10-01T00:40:38.184Z",
+  "wordId": "JLPTN3_44",
+  "previous": [
+    {
+      "file": "assignments-002.json",
+      "assignment": {
+        "wordId": "JLPTN3_44",
+        "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
+        "level": "N5",
+        "dictionaryId": "jmdict-1350110",
+        "levelNote": "전원을 끄거나 글·기록을 지우는 기초 타동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: (불·전원 등을) 끄다, 지우다. 사전의 switch off와 erase·delete를 확인했다. 첫 ID는 조명·텔레비전을 끄기, 두 번째 ID는 칠판 글·사진을 지우기로 대표 용법이 나뉜다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "두 원본 ID의 대표 용법 범위가 다르거나 일부만 겹치므로 별칭 후보를 비워 두었다. 학습 범위를 보존한 추가 검토가 필요하다."
+        ]
+      },
+      "review": {
+        "wordId": "JLPTN3_44",
+        "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
+        "proposalHash": "2495d7bf7c70f529053e3f60638a7b2031536a6404f738d2b79f82af1ede336f",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias proposed",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-002 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:27:34.554Z",
+        "notes": [
+          "소등과 기록 삭제는 대표 용법이 달라 별칭 제외가 타당하다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      }
+    }
+  ],
+  "approval": {
+    "wordId": "JLPTN3_44",
+    "level": "N5",
+    "sourceHash": "abeb0a1a55c7e296a269cccc1063d2275f79d6b9825adb1ff09da3d3e1a5feac",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:40:38.207Z",
+    "notes": [
+      "현재 끄다·지우다 두용법의 뜻·힌트·대비·예문3개와 peer75전체2예문 독립 검토. 기본 N5 대표44만 수록한다.",
+      "끄다 기존핵심과 별도삭제sense를 묶어 어휘표제 하나로 선택하며 모든 원본 및 프로필은 보존한다. 서로 다른 기존핵심의 학습기록을 병합하지 않는다."
+    ],
+    "duplicateSelection": {
+      "policy": "distinct-core-usages-no-profile-transfer",
+      "members": [
+        {
+          "wordId": "JLPTN3_44",
+          "sourceHash": "abeb0a1a55c7e296a269cccc1063d2275f79d6b9825adb1ff09da3d3e1a5feac"
+        },
+        {
+          "wordId": "AbsoluteVerb_75",
+          "sourceHash": "f710f39355225f7a816b23fa318fb50259c2aa1dceb20570c9f716f23cd2e2ab"
+        }
+      ],
+      "notes": [
+        "기존44의 끄다와75의 지우다 핵심은 서로 달라 프로필동등이 아니다. 44에 새독립삭제sense를추가한 현재범위로 대표수록하며75원본과모든학습기록은이전없이보존한다."
+      ]
+    }
+  }
+}

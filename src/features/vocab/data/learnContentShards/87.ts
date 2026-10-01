@@ -1452,6 +1452,422 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273510-1",
+    "wordId": "lex-jmdict-1273510",
+    "version": 1,
+    "meaning": "공공",
+    "hint": "사회 구성원들이 함께 이용하거나 사회 전체와 관련됩니다.",
+    "confusions": [
+      {
+        "japanese": "個人",
+        "distinction": "公共는 사회 전체와 관련되고 個人는 개별 사람과 관련된다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273510-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "公共",
+        "after": "の施設では、ほかの利用者にも気を配ろう。",
+        "reading": "こうきょう",
+        "translation": "공공시설에서는 다른 이용자도 배려하자.",
+        "translationTarget": "공공",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437710-1",
+    "wordId": "lex-jmdict-1437710",
+    "version": 1,
+    "meaning": "철회",
+    "hint": "전에 밝힌 말·방침·요구를 거두어들이는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "取り消し",
+        "distinction": "撤回는 발표한 주장·방침을 거둠에 흔하고 取り消し는 결정·예약 등을 취소함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437710-1-ex-1",
+        "version": 1,
+        "before": "説明に誤りがあったため、市は前日の発表を",
+        "answer": "撤回",
+        "after": "した。",
+        "reading": "てっかい",
+        "translation": "설명에 오류가 있어 시는 전날 발표를 철회했다.",
+        "translationTarget": "철회",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1347550-1",
+    "wordId": "lex-jmdict-1347550",
+    "version": 1,
+    "meaning": "장려",
+    "hint": "좋은 활동·태도를 하도록 권하고 북돋습니다.",
+    "confusions": [
+      {
+        "japanese": "強要",
+        "distinction": "奨励는 바람직한 활동을 권함이고 強要는 억지로 요구함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1347550-1-ex-1",
+        "version": 1,
+        "before": "この会社では、仕事に役立つ資格の取得を",
+        "answer": "奨励",
+        "after": "している。",
+        "reading": "しょうれい",
+        "translation": "이 회사에서는 업무에 도움이 되는 자격 취득을 장려하고 있다.",
+        "translationTarget": "장려",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528630-1",
+    "wordId": "lex-jmdict-1528630",
+    "version": 1,
+    "meaning": "민간",
+    "hint": "정부·공공기관에 속하지 않은 개인·기업 등의 영역입니다.",
+    "confusions": [
+      {
+        "japanese": "官庁",
+        "distinction": "民間는 비정부 영역이고 官庁는 국가·공공 행정 기관이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528630-1-ex-1",
+        "version": 1,
+        "before": "市は",
+        "answer": "民間",
+        "after": "の企業と協力して、空き家の活用を進めている。",
+        "reading": "みんかん",
+        "translation": "시는 민간기업과 협력하여 빈집 활용을 추진하고 있다.",
+        "translationTarget": "민간",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378790-1",
+    "wordId": "lex-jmdict-1378790",
+    "version": 1,
+    "meaning": "건방짐, 주제넘음",
+    "hint": "자기 나이·경험·입장에 비해 잘난 척하며 무례하게 행동합니다.",
+    "confusions": [
+      {
+        "japanese": "素直",
+        "distinction": "生意気는 주제넘고 건방짐이고 素直는 순순하고 솔직함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378790-1-ex-1",
+        "version": 1,
+        "before": "大人を小ばかにするような",
+        "answer": "生意気",
+        "after": "な言い方は、注意された。",
+        "reading": "なまいき",
+        "translation": "어른을 얕보는 듯한 건방진 말투는 주의를 받았다.",
+        "translationTarget": "건방진",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477750-1",
+    "wordId": "lex-jmdict-1477750",
+    "version": 1,
+    "meaning": "발전, 전기 생산",
+    "hint": "다른 에너지를 이용해 전기를 만드는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "発展",
+        "distinction": "発電는 전기를 생산함이고 発展는 사회·상황이 더 발전함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477750-1-ex-1",
+        "version": 1,
+        "before": "屋根の太陽光パネルで",
+        "answer": "発電",
+        "after": "し、家で使う電気の一部をまかなう。",
+        "reading": "はつでん",
+        "translation": "지붕의 태양광 패널로 전기를 생산해 집에서 쓰는 전기의 일부를 충당한다.",
+        "translationTarget": "전기를 생산",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483410-1",
+    "wordId": "lex-jmdict-1483410",
+    "version": 1,
+    "meaning": "비난",
+    "hint": "잘못을 지적하며 상대를 강하게 나무랍니다.",
+    "confusions": [
+      {
+        "japanese": "避難",
+        "distinction": "非難는 잘못을 나무람이고 같은 읽기의 避難는 위험을 피해 안전한 곳으로 감이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483410-1-ex-1",
+        "version": 1,
+        "before": "無責任な発言に対して、厳しい",
+        "answer": "非難",
+        "after": "が集まった。",
+        "reading": "ひなん",
+        "translation": "무책임한 발언에 대해 거센 비난이 쏟아졌다.",
+        "translationTarget": "비난",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440640-1",
+    "wordId": "lex-jmdict-1440640",
+    "version": 1,
+    "meaning": "전망",
+    "hint": "앞으로의 변화·가능성을 넓게 내다보는 것입니다.",
+    "confusions": [
+      {
+        "japanese": "回想",
+        "distinction": "선택한 展望는 앞으로를 내다봄이고 回想는 과거를 돌아봄이다. 멀리 바라보는 경치라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440640-1-ex-1",
+        "version": 1,
+        "before": "新しい市場への",
+        "answer": "展望",
+        "after": "が開け、会社の方針も変わった。",
+        "reading": "てんぼう",
+        "translation": "새 시장에 대한 전망이 열려 회사 방침도 달라졌다.",
+        "translationTarget": "전망",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475730-1",
+    "wordId": "lex-jmdict-1475730",
+    "version": 1,
+    "meaning": "박해",
+    "hint": "특정 신앙·입장·집단을 이유로 괴롭히고 억압합니다.",
+    "confusions": [
+      {
+        "japanese": "保護",
+        "distinction": "迫害는 특정 대상을 괴롭히고 억압함이고 保護는 보호함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475730-1-ex-1",
+        "version": 1,
+        "before": "作品には、信仰のために",
+        "answer": "迫害",
+        "after": "された人々の姿が描かれている。",
+        "reading": "はくがい",
+        "translation": "작품에는 신앙 때문에 박해받은 사람들의 모습이 그려져 있다.",
+        "translationTarget": "박해",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1281450-1",
+    "wordId": "lex-jmdict-1281450",
+    "version": 1,
+    "meaning": "거칠다·사납다",
+    "hint": "기세나 움직임이 세고 부드럽지 않은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "穏やか",
+        "distinction": "거센 움직임이나 기세와 차분한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1281450-1-ex-1",
+        "version": 1,
+        "before": "運転が",
+        "answer": "荒い",
+        "after": "ので、この車に乗ると酔いやすい。",
+        "reading": "あらい",
+        "translation": "운전이 거칠어서 이 차를 타면 쉽게 멀미한다.",
+        "translationTarget": "거칠어서",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531830-1",
+    "wordId": "lex-jmdict-1531830",
+    "version": 1,
+    "meaning": "명부, 이름 목록",
+    "hint": "구성원·참가자 등의 이름과 관련 정보를 적은 목록입니다.",
+    "confusions": [
+      {
+        "japanese": "目次",
+        "distinction": "名簿는 사람 이름 목록이고 目次는 문서·책의 항목 목록이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531830-1-ex-1",
+        "version": 1,
+        "before": "参加者の",
+        "answer": "名簿",
+        "after": "を見ながら、名札を順番に並べた。",
+        "reading": "めいぼ",
+        "translation": "참가자 명부를 보며 명찰을 순서대로 놓았다.",
+        "translationTarget": "명부",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254650-1",
+    "wordId": "lex-jmdict-1254650",
+    "version": 1,
+    "meaning": "연결하다, 관련짓다",
+    "hint": "서로 떨어진 생각·대상을 연결하여 관계를 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "結びつく",
+        "distinction": "結びつける는 연결하는 타동사이고 結びつく는 연결되는 자동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254650-1-ex-1",
+        "version": 1,
+        "before": "先生は、授業の内容を身近な出来事と",
+        "answer": "結びつけた",
+        "after": "。",
+        "reading": "むすびつけた",
+        "translation": "선생님은 수업 내용을 주변 사건과 관련지었다.",
+        "translationTarget": "관련지었다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577120-1",
+    "wordId": "lex-jmdict-1577120",
+    "version": 1,
+    "meaning": "왜, 어째서",
+    "hint": "어떤 일이 일어난 이유를 묻는 말",
+    "confusions": [
+      {
+        "japanese": "どう",
+        "distinction": "이유를 묻는 말과 방법이나 상태를 묻는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577120-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "なぜ",
+        "after": "電車が止まったんですか。",
+        "reading": "なぜ",
+        "translation": "왜 전철이 멈춘 것입니까?",
+        "translationTarget": "왜",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

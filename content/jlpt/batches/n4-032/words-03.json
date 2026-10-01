@@ -1,0 +1,38 @@
+[
+  {
+    "japanese": "長女",
+    "reading": "ちょうじょ",
+    "type": "noun",
+    "meaning": "장녀·맏딸",
+    "hint": "한 가정의 딸 가운데 가장 먼저 태어난 사람",
+    "confusion": "次女",
+    "distinction": "첫째 딸과 둘째 딸을 구별한다.",
+    "dictionaryId": "jmdict-1430040",
+    "level": "N4",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "長男",
+    "reading": "ちょうなん",
+    "type": "noun",
+    "meaning": "장남·맏아들",
+    "hint": "한 가정의 아들 가운데 가장 먼저 태어난 사람",
+    "confusion": "次男",
+    "distinction": "첫째 아들과 둘째 아들을 구별한다.",
+    "dictionaryId": "jmdict-1430080",
+    "level": "N4",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "当番",
+    "reading": "とうばん",
+    "type": "noun",
+    "meaning": "당번",
+    "hint": "차례를 정해 돌아가며 맡는 일이나 그 담당자",
+    "confusion": "全員",
+    "distinction": "정해진 차례로 맡은 담당자와 모든 구성원을 구별한다.",
+    "dictionaryId": "jmdict-1449220",
+    "level": "N4",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  }
+]

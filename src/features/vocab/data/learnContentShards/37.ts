@@ -1152,6 +1152,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307130-1",
+    "wordId": "lex-jmdict-1307130",
+    "version": 1,
+    "meaning": "사계절",
+    "hint": "봄과 여름과 가을과 겨울의 네 계절",
+    "confusions": [
+      {
+        "japanese": "季節",
+        "distinction": "네 계절 전체와 각각의 계절을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307130-1-ex-1",
+        "version": 1,
+        "before": "この庭では、",
+        "answer": "四季",
+        "after": "それぞれの花を楽しめます。",
+        "reading": "しき",
+        "translation": "이 정원에서는 사계절 각각의 꽃을 즐길 수 있습니다.",
+        "translationTarget": "사계절",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1357580-1",
+    "wordId": "lex-jmdict-1357580",
+    "version": 1,
+    "meaning": "직무",
+    "hint": "직업·직책에 따라 맡아 수행해야 하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "勤務",
+        "distinction": "職務는 맡은 업무 내용이고 勤務는 직장에서 일하는 행위·근무 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1357580-1-ex-1",
+        "version": 1,
+        "before": "採用後に担当する",
+        "answer": "職務",
+        "after": "について、面接で詳しく説明を受けた。",
+        "reading": "しょくむ",
+        "translation": "채용 뒤 담당할 직무에 대해 면접에서 자세한 설명을 들었다.",
+        "translationTarget": "직무",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449670-1",
+    "wordId": "lex-jmdict-1449670",
+    "version": 1,
+    "meaning": "통일",
+    "hint": "서로 다른 것의 방식·기준을 하나로 맞추는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "統合",
+        "distinction": "統一는 방식·기준을 같게 함에 흔하고 統合는 조직·기능을 하나로 합침에 흔하다. 영역이 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449670-1-ex-1",
+        "version": 1,
+        "before": "資料の表記を",
+        "answer": "統一",
+        "after": "すると、読みやすくなった。",
+        "reading": "とういつ",
+        "translation": "자료의 표기를 통일하자 읽기 쉬워졌다.",
+        "translationTarget": "통일",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481700-1",
+    "wordId": "lex-jmdict-1481700",
+    "version": 1,
+    "meaning": "번식",
+    "hint": "생물이 새로운 개체를 만들어 수가 늘어납니다.",
+    "confusions": [
+      {
+        "japanese": "成長",
+        "distinction": "繁殖는 개체 수가 늘어남이고 成長는 한 개체 등이 자람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481700-1-ex-1",
+        "version": 1,
+        "before": "この鳥は春になると、湖の近くで",
+        "answer": "繁殖",
+        "after": "する。",
+        "reading": "はんしょく",
+        "translation": "이 새는 봄이 되면 호수 근처에서 번식한다.",
+        "translationTarget": "번식",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598240-1",
+    "wordId": "lex-jmdict-1598240",
+    "version": 1,
+    "meaning": "수당",
+    "hint": "기본 급여 외에 특정 사정·업무에 따라 지급하는 돈입니다.",
+    "confusions": [
+      {
+        "japanese": "給料",
+        "distinction": "선택한 手当는 추가 수당이고 給料는 노동의 급여 일반이다. 치료·준비·처치의 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598240-1-ex-1",
+        "version": 1,
+        "before": "夜間の勤務には、通常の給与に加えて",
+        "answer": "手当",
+        "after": "が支給される。",
+        "reading": "てあて",
+        "translation": "야간 근무에는 통상 급여에 더해 수당이 지급된다.",
+        "translationTarget": "수당",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554730-1",
+    "wordId": "lex-jmdict-1554730",
+    "version": 1,
+    "meaning": "영사",
+    "hint": "외국에서 자국민 보호와 통상 등의 업무를 맡는 공무원",
+    "confusions": [
+      {
+        "japanese": "旅行者",
+        "distinction": "외국에서 공적 업무를 맡는 사람과 여행으로 방문한 사람을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554730-1-ex-1",
+        "version": 1,
+        "before": "海外での手続きについて、",
+        "answer": "領事",
+        "after": "から説明を受けた。",
+        "reading": "りょうじ",
+        "translation": "해외에서의 절차에 관해 영사에게 설명을 들었다.",
+        "translationTarget": "영사",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1236630-1",
+    "wordId": "lex-jmdict-1236630",
+    "version": 1,
+    "meaning": "겁먹다, 두려워하다",
+    "hint": "위험·공포를 느껴 무서워합니다.",
+    "confusions": [
+      {
+        "japanese": "驚く",
+        "distinction": "怯える는 무서워 겁먹음이고 驚く는 뜻밖의 일을 보고 놀람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1236630-1-ex-1",
+        "version": 1,
+        "before": "大きな雷の音に",
+        "answer": "怯えた",
+        "after": "犬が、机の下に隠れた。",
+        "reading": "おびえた",
+        "translation": "큰 천둥소리에 겁먹은 개가 책상 아래에 숨었다.",
+        "translationTarget": "겁먹은",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

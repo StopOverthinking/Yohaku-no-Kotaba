@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "d49a6c863c889d1036c9dbdd6f1b11b44203561b5c21a39e3b147519162790fd",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+    "reviewedAt": "2026-10-01T00:45:54.303Z",
+    "notes": [
+      "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+      "게시 전 현재 원본과 모든 미게시 pilot을 합친 9528예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1254770",
+      "a47e6d70ae9f7599d0e125952ba02cdffa5236692465e3ffad477122d859cccf"
+    ],
+    [
+      "lex-jmdict-1267760",
+      "8bce79a8fee70dea6fa6031d1bf9290686af827d27ff6bfa1a9ec790f8e674d0"
+    ],
+    [
+      "lex-jmdict-1269880",
+      "5cc28c29fe3798869cc9c348fa9e4a51410d4d79d9023a3c4e686c7aa57480d8"
+    ],
+    [
+      "lex-jmdict-1309700",
+      "29178f5dd043ce4a5c8ec5a2e6c085b11a881c6609942dd0c9ee22d7c877f526"
+    ],
+    [
+      "lex-jmdict-1352770",
+      "624b1053d5181b522085dd2bf009e43245ef9037dccfc0f58a6e09ecea7fdaa7"
+    ],
+    [
+      "lex-jmdict-1365260",
+      "de7a16199cccd17f375d81b6b281e896f1c2a132e0e491e574bcac0e13a35590"
+    ],
+    [
+      "lex-jmdict-1371460",
+      "be6ec79a4202dda028b9fdef974f539ff272e6a598b604563078f7219dd61b26"
+    ],
+    [
+      "lex-jmdict-1375730",
+      "949b939b076aeafacede9cdb06c556cf6508cd94b056769bf00edbd393e1874d"
+    ],
+    [
+      "lex-jmdict-1376910",
+      "b2228af90af545182a1af9e2f677d0e7040ecb732d6e20e51dc341f29acfef11"
+    ],
+    [
+      "lex-jmdict-1379900",
+      "85de20faf2097ca8e8dd9ca95503659dd628553d4176b14fed29c81cca9a5f7a"
+    ],
+    [
+      "lex-jmdict-1401070",
+      "9cb4ee07d4cd2fa02d0b49fe92cdba4effc56fe4551fc102bb7d07e3008282b0"
+    ],
+    [
+      "lex-jmdict-1404190",
+      "2afbd3b1229bc49e686f430de6b2449bf7942082cd74aa205414b42951438fa2"
+    ],
+    [
+      "lex-jmdict-1404510",
+      "61010bdf41108879ac64a18dda2e3e92fb26a69275867aec25a94e00e14c1e15"
+    ]
+  ]
+}

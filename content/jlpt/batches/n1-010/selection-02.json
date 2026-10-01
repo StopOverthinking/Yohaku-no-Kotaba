@@ -1,0 +1,565 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1317460",
+      "japanese": "自我",
+      "reading": "じが",
+      "level": "N1",
+      "spellings": [
+        "自我"
+      ],
+      "readings": [
+        "じが"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "自我"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1317890",
+      "japanese": "自首",
+      "reading": "じしゅ",
+      "level": "N1",
+      "spellings": [
+        "自首"
+      ],
+      "readings": [
+        "じしゅ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "自首"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1325360",
+      "japanese": "主権",
+      "reading": "しゅけん",
+      "level": "N1",
+      "spellings": [
+        "主権",
+        "主權"
+      ],
+      "readings": [
+        "しゅけん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "主権"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1327900",
+      "japanese": "手錠",
+      "reading": "てじょう",
+      "level": "N1",
+      "spellings": [
+        "手錠",
+        "手鎖"
+      ],
+      "readings": [
+        "てじょう",
+        "てぐさり"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "手錠"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1329360",
+      "japanese": "首脳",
+      "reading": "しゅのう",
+      "level": "N1",
+      "spellings": [
+        "首脳",
+        "主脳"
+      ],
+      "readings": [
+        "しゅのう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "首脳"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1330410",
+      "japanese": "樹立",
+      "reading": "じゅりつ",
+      "level": "N1",
+      "spellings": [
+        "樹立"
+      ],
+      "readings": [
+        "じゅりつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "樹立"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1333260",
+      "japanese": "衆議院",
+      "reading": "しゅうぎいん",
+      "level": "N1",
+      "spellings": [
+        "衆議院"
+      ],
+      "readings": [
+        "しゅうぎいん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "衆議院"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1341510",
+      "japanese": "準じる",
+      "reading": "じゅんじる",
+      "level": "N1",
+      "spellings": [
+        "準じる",
+        "准じる",
+        "順じる"
+      ],
+      "readings": [
+        "じゅんじる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "準じる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1343560",
+      "japanese": "庶民",
+      "reading": "しょみん",
+      "level": "N1",
+      "spellings": [
+        "庶民"
+      ],
+      "readings": [
+        "しょみん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "庶民"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1359500",
+      "japanese": "信任",
+      "reading": "しんにん",
+      "level": "N1",
+      "spellings": [
+        "信任"
+      ],
+      "readings": [
+        "しんにん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "信任"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1360720",
+      "japanese": "心情",
+      "reading": "しんじょう",
+      "level": "N1",
+      "spellings": [
+        "心情"
+      ],
+      "readings": [
+        "しんじょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "心情"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1364830",
+      "japanese": "神秘",
+      "reading": "しんぴ",
+      "level": "N1",
+      "spellings": [
+        "神秘"
+      ],
+      "readings": [
+        "しんぴ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "神秘"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1366730",
+      "japanese": "人格",
+      "reading": "じんかく",
+      "level": "N1",
+      "spellings": [
+        "人格"
+      ],
+      "readings": [
+        "じんかく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "人格"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1368180",
+      "japanese": "人情",
+      "reading": "にんじょう",
+      "level": "N1",
+      "spellings": [
+        "人情"
+      ],
+      "readings": [
+        "にんじょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "人情"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1369200",
+      "japanese": "人柄",
+      "reading": "ひとがら",
+      "level": "N1",
+      "spellings": [
+        "人柄"
+      ],
+      "readings": [
+        "ひとがら"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "人柄"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1372430",
+      "japanese": "衰える",
+      "reading": "おとろえる",
+      "level": "N1",
+      "spellings": [
+        "衰える"
+      ],
+      "readings": [
+        "おとろえる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "衰える"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1374870",
+      "japanese": "制定",
+      "reading": "せいてい",
+      "level": "N1",
+      "spellings": [
+        "制定"
+      ],
+      "readings": [
+        "せいてい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "制定"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1375930",
+      "japanese": "政権",
+      "reading": "せいけん",
+      "level": "N1",
+      "spellings": [
+        "政権"
+      ],
+      "readings": [
+        "せいけん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "政権"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1377660",
+      "japanese": "正当",
+      "reading": "せいとう",
+      "level": "N1",
+      "spellings": [
+        "正当"
+      ],
+      "readings": [
+        "せいとう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "正当"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1378920",
+      "japanese": "生計",
+      "reading": "せいけい",
+      "level": "N1",
+      "spellings": [
+        "生計"
+      ],
+      "readings": [
+        "せいけい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "生計"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1380540",
+      "japanese": "声明",
+      "reading": "せいめい",
+      "level": "N1",
+      "spellings": [
+        "声明"
+      ],
+      "readings": [
+        "せいめい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "声明"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1385960",
+      "japanese": "折衷",
+      "reading": "せっちゅう",
+      "level": "N1",
+      "spellings": [
+        "折衷",
+        "折中"
+      ],
+      "readings": [
+        "せっちゅう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "折衷"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1391360",
+      "japanese": "潜入",
+      "reading": "せんにゅう",
+      "level": "N1",
+      "spellings": [
+        "潜入"
+      ],
+      "readings": [
+        "せんにゅう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "潜入"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1392240",
+      "japanese": "選考",
+      "reading": "せんこう",
+      "level": "N1",
+      "spellings": [
+        "選考",
+        "銓衡",
+        "詮衡",
+        "選衡"
+      ],
+      "readings": [
+        "せんこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "選考"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1397710",
+      "japanese": "訴え",
+      "reading": "うったえ",
+      "level": "N1",
+      "spellings": [
+        "訴え"
+      ],
+      "readings": [
+        "うったえ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "訴え"
+        ]
+      }
+    }
+  ]
+}

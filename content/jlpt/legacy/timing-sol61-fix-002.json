@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "7 legacy core-sense gaps; full before/after authored proposals",
+  "startedAt": "2026-09-30T23:52:01.550Z",
+  "draftCompletedAt": "2026-09-30T23:53:01.201Z",
+  "words": 7,
+  "addedSenses": 8,
+  "addedExamples": 8,
+  "pureCompositionTime": null,
+  "limitations": "Dictionary and current-original inspection, proposal reasoning and file creation included; root final preparation and independent review not included."
+}

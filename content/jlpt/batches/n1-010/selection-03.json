@@ -1,0 +1,566 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1531530",
+      "japanese": "名残",
+      "reading": "なごり",
+      "level": "N1",
+      "spellings": [
+        "名残",
+        "名残り"
+      ],
+      "readings": [
+        "なごり"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "名残"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1532640",
+      "japanese": "明朗",
+      "reading": "めいろう",
+      "level": "N1",
+      "spellings": [
+        "明朗"
+      ],
+      "readings": [
+        "めいろう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "明朗"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1535710",
+      "japanese": "目録",
+      "reading": "もくろく",
+      "level": "N1",
+      "spellings": [
+        "目録"
+      ],
+      "readings": [
+        "もくろく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "目録"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1537430",
+      "japanese": "野心",
+      "reading": "やしん",
+      "level": "N1",
+      "spellings": [
+        "野心"
+      ],
+      "readings": [
+        "やしん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "野心"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1539120",
+      "japanese": "優越",
+      "reading": "ゆうえつ",
+      "level": "N1",
+      "spellings": [
+        "優越"
+      ],
+      "readings": [
+        "ゆうえつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "優越"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1539340",
+      "japanese": "優勢",
+      "reading": "ゆうせい",
+      "level": "N1",
+      "spellings": [
+        "優勢"
+      ],
+      "readings": [
+        "ゆうせい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "優勢"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1541180",
+      "japanese": "有機",
+      "reading": "ゆうき",
+      "level": "N1",
+      "spellings": [
+        "有機"
+      ],
+      "readings": [
+        "ゆうき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "有機"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1545830",
+      "japanese": "様式",
+      "reading": "ようしき",
+      "level": "N1",
+      "spellings": [
+        "様式"
+      ],
+      "readings": [
+        "ようしき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "様式"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1551840",
+      "japanese": "立法",
+      "reading": "りっぽう",
+      "level": "N1",
+      "spellings": [
+        "立法"
+      ],
+      "readings": [
+        "りっぽう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "立法"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1554790",
+      "japanese": "領土",
+      "reading": "りょうど",
+      "level": "N1",
+      "spellings": [
+        "領土"
+      ],
+      "readings": [
+        "りょうど"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "領土"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1559790",
+      "japanese": "連邦",
+      "reading": "れんぽう",
+      "level": "N1",
+      "spellings": [
+        "連邦",
+        "聯邦"
+      ],
+      "readings": [
+        "れんぽう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "連邦"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1559870",
+      "japanese": "連盟",
+      "reading": "れんめい",
+      "level": "N1",
+      "spellings": [
+        "連盟",
+        "聯盟"
+      ],
+      "readings": [
+        "れんめい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "連盟"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1565500",
+      "japanese": "嗜好",
+      "reading": "しこう",
+      "level": "N1",
+      "spellings": [
+        "嗜好",
+        "し好"
+      ],
+      "readings": [
+        "しこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "嗜好"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1566060",
+      "japanese": "婉曲",
+      "reading": "えんきょく",
+      "level": "N1",
+      "spellings": [
+        "婉曲"
+      ],
+      "readings": [
+        "えんきょく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "婉曲"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1577730",
+      "japanese": "寄贈",
+      "reading": "きぞう",
+      "level": "N1",
+      "spellings": [
+        "寄贈"
+      ],
+      "readings": [
+        "きぞう",
+        "きそう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "寄贈"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1578300",
+      "japanese": "兼業",
+      "reading": "けんぎょう",
+      "level": "N1",
+      "spellings": [
+        "兼業"
+      ],
+      "readings": [
+        "けんぎょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "兼業"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1580510",
+      "japanese": "情緒",
+      "reading": "じょうちょ",
+      "level": "N1",
+      "spellings": [
+        "情緒"
+      ],
+      "readings": [
+        "じょうちょ",
+        "じょうしょ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "情緒"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1477290",
+      "japanese": "発掘",
+      "reading": "はっくつ",
+      "level": "N1",
+      "spellings": [
+        "発掘"
+      ],
+      "readings": [
+        "はっくつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "発掘"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1505370",
+      "japanese": "文語",
+      "reading": "ぶんご",
+      "level": "N1",
+      "spellings": [
+        "文語"
+      ],
+      "readings": [
+        "ぶんご"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "文語"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1604745",
+      "japanese": "民俗",
+      "reading": "みんぞく",
+      "level": "N1",
+      "spellings": [
+        "民俗"
+      ],
+      "readings": [
+        "みんぞく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "民俗"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1606150",
+      "japanese": "世論",
+      "reading": "よろん",
+      "level": "N1",
+      "spellings": [
+        "世論",
+        "輿論"
+      ],
+      "readings": [
+        "よろん",
+        "せろん",
+        "せいろん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "世論"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1606250",
+      "japanese": "略奪",
+      "reading": "りゃくだつ",
+      "level": "N1",
+      "spellings": [
+        "略奪",
+        "掠奪"
+      ],
+      "readings": [
+        "りゃくだつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "略奪"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1612270",
+      "japanese": "領海",
+      "reading": "りょうかい",
+      "level": "N1",
+      "spellings": [
+        "領海"
+      ],
+      "readings": [
+        "りょうかい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "領海"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1591140",
+      "japanese": "起源",
+      "reading": "きげん",
+      "level": "N1",
+      "spellings": [
+        "起源",
+        "起原"
+      ],
+      "readings": [
+        "きげん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "起源"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1486200",
+      "japanese": "微量",
+      "reading": "びりょう",
+      "level": "N1",
+      "spellings": [
+        "微量"
+      ],
+      "readings": [
+        "びりょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "微量"
+        ]
+      }
+    }
+  ]
+}

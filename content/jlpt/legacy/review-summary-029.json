@@ -1,0 +1,16 @@
+{
+  "batch": "029",
+  "scope": "classification; separate explicit reference rows in membership registry",
+  "reviewedAt": "2026-10-01T00:07:44.032Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "checkedWords": 30,
+  "checkedExamples": 60,
+  "accepted": 30,
+  "held": 0,
+  "referenceAccepted": 25,
+  "referenceHeld": 5,
+  "notes": [
+    "30개/60예문을 전체 읽고 사전 의미·수준·대비를 독립 대조했다. 희귀 파생 의미를 기계적으로 추가하지 않으며 下りる의 중요한 하차 의미만 보완 대상으로 분리한다."
+  ]
+}

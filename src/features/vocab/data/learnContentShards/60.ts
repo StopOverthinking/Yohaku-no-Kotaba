@@ -1492,6 +1492,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283000-1",
+    "wordId": "lex-jmdict-1283000",
+    "version": 1,
+    "meaning": "항목",
+    "hint": "목록·서류 등에서 각각 따로 나눈 내용의 단위입니다.",
+    "confusions": [
+      {
+        "japanese": "科目",
+        "distinction": "선택한 項目는 목록의 항목이고 科目는 학과목 등 분류된 분야이다. 사전의 표제 항목도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283000-1-ex-1",
+        "version": 1,
+        "before": "申込書のすべての",
+        "answer": "項目",
+        "after": "に記入してください。",
+        "reading": "こうもく",
+        "translation": "신청서의 모든 항목에 기입해 주세요.",
+        "translationTarget": "항목",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1075160-1",
+    "wordId": "lex-jmdict-1075160",
+    "version": 1,
+    "meaning": "대학 세미나·연구 수업",
+    "hint": "교수와 소수의 학생이 함께 연구하거나 토론하는 대학 수업",
+    "confusions": [
+      {
+        "japanese": "講義",
+        "distinction": "소규모 연구와 토론 중심 수업과 설명을 듣는 수업을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1075160-1-ex-1",
+        "version": 1,
+        "before": "大学の",
+        "answer": "ゼミ",
+        "after": "で、地元の商店街を調べています。",
+        "reading": "ゼミ",
+        "translation": "대학 연구 수업에서 지역 상점가를 조사하고 있습니다.",
+        "translationTarget": "연구 수업",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1422520-1",
+    "wordId": "lex-jmdict-1422520",
+    "version": 1,
+    "meaning": "질서",
+    "hint": "규칙·관계에 따라 혼란 없이 정돈된 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "順序",
+        "distinction": "秩序는 사회·집단의 정돈된 상태이고 順序는 일·항목의 앞뒤 차례다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1422520-1-ex-1",
+        "version": 1,
+        "before": "大勢が集まる会場でも、係員の案内で",
+        "answer": "秩序",
+        "after": "が保たれた。",
+        "reading": "ちつじょ",
+        "translation": "많은 사람이 모인 행사장에서도 담당자의 안내로 질서가 유지되었다.",
+        "translationTarget": "질서",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435410-1",
+    "wordId": "lex-jmdict-1435410",
+    "version": 1,
+    "meaning": "정가",
+    "hint": "판매자가 상품에 정해 놓은 원래 가격",
+    "confusions": [
+      {
+        "japanese": "割引価格",
+        "distinction": "원래 정한 가격과 거기서 깎은 가격을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435410-1-ex-1",
+        "version": 1,
+        "before": "この本は古本でも、",
+        "answer": "定価",
+        "after": "とあまり変わらない値段だった。",
+        "reading": "ていか",
+        "translation": "이 책은 중고인데도 정가와 별 차이 없는 가격이었다.",
+        "translationTarget": "정가",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1388110-1",
+    "wordId": "lex-jmdict-1388110",
+    "version": 1,
+    "meaning": "끝부분·첨단",
+    "hint": "길거나 뾰족한 물체의 맨 끝 부분",
+    "confusions": [
+      {
+        "japanese": "根元",
+        "distinction": "물체의 맨 끝과 시작되어 붙어 있는 밑부분을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1388110-1-ex-1",
+        "version": 1,
+        "before": "針の",
+        "answer": "先端",
+        "after": "が曲がって、布に通らなくなった。",
+        "reading": "せんたん",
+        "translation": "바늘의 끝부분이 휘어서 천에 들어가지 않게 되었다.",
+        "translationTarget": "끝부분",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463800-1",
+    "wordId": "lex-jmdict-1463800",
+    "version": 1,
+    "meaning": "일몰",
+    "hint": "태양이 지평선 아래로 지는 것",
+    "confusions": [
+      {
+        "japanese": "日の出",
+        "distinction": "해가 지는 것과 해가 떠오르는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463800-1-ex-1",
+        "version": 1,
+        "before": "冬は",
+        "answer": "日の入り",
+        "after": "が早いので、山道を急いで下りた。",
+        "reading": "ひのいり",
+        "translation": "겨울은 일몰이 빠르므로 산길을 서둘러 내려왔다.",
+        "translationTarget": "일몰",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578300-1",
+    "wordId": "lex-jmdict-1578300",
+    "version": 1,
+    "meaning": "겸업",
+    "hint": "둘 이상의 직업·사업을 동시에 합니다.",
+    "confusions": [
+      {
+        "japanese": "専業",
+        "distinction": "兼業는 여러 일을 함께 함이고 専業는 하나의 일을 전문으로 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578300-1-ex-1",
+        "version": 1,
+        "before": "父は会社勤めと農業を",
+        "answer": "兼業",
+        "after": "している。",
+        "reading": "けんぎょう",
+        "translation": "아버지는 회사 근무와 농업을 겸업하고 있다.",
+        "translationTarget": "겸업",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605820-1",
+    "wordId": "lex-jmdict-1605820",
+    "version": 1,
+    "meaning": "좋다",
+    "hint": "상태나 성질을 긍정적으로 평가할 때 쓰는 말",
+    "confusions": [
+      {
+        "japanese": "悪い",
+        "distinction": "좋은 상태와 나쁜 상태를 구별한다. 대표 읽기는 요이이며 일상에서는 같은 뜻의 이이도 자주 쓴다. 부정형 요쿠나이와 과거형 요캇타처럼 활용할 때는 요의 형태를 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605820-1-ex-1",
+        "version": 1,
+        "before": "散歩をするには、",
+        "answer": "良い",
+        "after": "天気ですね。",
+        "reading": "よい",
+        "translation": "산책하기에 좋은 날씨네요.",
+        "translationTarget": "좋은",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,26 @@
+{
+  "batch": "n5-040",
+  "status": "draft-ready",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "plannedWords": 9,
+  "actualWords": 9,
+  "startedAt": "2026-10-01T01:00:30Z",
+  "completedAt": "2026-10-01T01:02:20.574Z",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-10-01T01:00:30Z",
+      "draftCompletedAt": "2026-10-01T01:01:47.920475+00:00",
+      "wordCount": 9,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured after initial dictionary/duplicate inspection; composition and file work included; prior selection not measured.",
+      "revisionAttempts": 1,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T01:02:20.574Z",
+      "preflightMilliseconds": 485.9562,
+      "validationIssues": 0,
+      "revisionNote": "Before handoff, number translations made normal Korean digits; long vowels in alternate-reading Korean names clarified. No reviewed source changed."
+    }
+  ]
+}

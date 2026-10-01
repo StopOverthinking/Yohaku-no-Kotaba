@@ -1,0 +1,98 @@
+[
+  {
+    "japanese": "孝行",
+    "reading": "こうこう",
+    "type": "noun",
+    "meaning": "효도",
+    "hint": "부모를 공경하고 잘 돌보는 행동",
+    "confusion": "親不孝",
+    "distinction": "부모를 잘 대하는 것과 부모를 걱정시키는 것을 구별한다.",
+    "dictionaryId": "jmdict-1277880",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "国王",
+    "reading": "こくおう",
+    "type": "noun",
+    "meaning": "국왕",
+    "hint": "왕국의 군주로서 왕위를 가진 사람",
+    "confusion": "大統領",
+    "distinction": "왕국의 군주와 공화국의 국가 원수를 구별한다.",
+    "dictionaryId": "jmdict-1286160",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "催し",
+    "reading": "もよおし",
+    "type": "noun",
+    "meaning": "행사·모임",
+    "hint": "사람들을 모아 특별한 활동을 진행하는 자리",
+    "confusion": "会合",
+    "distinction": "행사·전시 등 마련된 활동을 넓게 말한다. 비교 표현은 주로 의논이나 교류를 위해 모인 자리에 초점을 둔다.",
+    "dictionaryId": "jmdict-1292140",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "裁縫",
+    "reading": "さいほう",
+    "type": "noun",
+    "meaning": "바느질·재봉",
+    "hint": "실과 바늘로 옷이나 천을 꿰매는 일",
+    "confusion": "編み物",
+    "distinction": "천을 꿰매는 일과 실로 조직을 만들어 뜨는 일을 구별한다.",
+    "dictionaryId": "jmdict-1296200",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "材木",
+    "reading": "ざいもく",
+    "type": "noun",
+    "meaning": "목재",
+    "hint": "건축이나 제작에 쓰도록 마련한 나무 재료",
+    "confusion": "立ち木",
+    "distinction": "재료로 사용할 나무와 땅에 자라는 나무를 구별한다.",
+    "dictionaryId": "jmdict-1296660",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "山林",
+    "reading": "さんりん",
+    "type": "noun",
+    "meaning": "산림·임야",
+    "hint": "산에 있는 숲이나 나무가 자라는 땅",
+    "confusion": "市街地",
+    "distinction": "산과 숲의 땅과 건물이 밀집한 도시 지역을 구별한다.",
+    "dictionaryId": "jmdict-1303230",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "死体",
+    "reading": "したい",
+    "type": "noun",
+    "meaning": "시체·사체",
+    "hint": "생명이 끝난 사람이나 동물의 몸",
+    "confusion": "生体",
+    "distinction": "죽은 몸과 살아 있는 몸을 구별한다.",
+    "dictionaryId": "jmdict-1310920",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "歯車",
+    "reading": "はぐるま",
+    "type": "noun",
+    "meaning": "톱니바퀴",
+    "hint": "가장자리의 이가 맞물려 회전과 힘을 전달하는 바퀴",
+    "confusion": "車輪",
+    "distinction": "이가 맞물려 힘을 전달하는 부품과 차량이 굴러가는 바퀴를 구별한다.",
+    "dictionaryId": "jmdict-1313350",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  }
+]

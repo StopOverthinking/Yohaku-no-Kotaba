@@ -23,12 +23,12 @@
   },
   {
     "wordId": "AbsoluteVerb_101",
-    "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+    "sourceHash": "b88cfd98d4051dbc39d417d5fa9d7e90fecb186576ead256c1913f69e089ab19",
     "level": "N5",
     "dictionaryId": "jmdict-1338180",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “내다, 제출하다” 및 1개 sense를 대조했다. submit와 신청서·숙제 제출 예문이 일치한다.",
+    "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+    "meaningReview": "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },

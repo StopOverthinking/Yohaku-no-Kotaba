@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "kind": "authorized-core-preserving-content",
+  "draft": {
+    "schemaVersion": 1,
+    "id": "fix-proposals-004",
+    "scope": "legacy-content-revision",
+    "entries": [
+      {
+        "wordId": "JLPTN3_44",
+        "before": {
+          "word": {
+            "id": "JLPTN3_44",
+            "setId": "jlpt-n3",
+            "japanese": "消す",
+            "reading": "けす",
+            "meaning": "(불·전원 등을) 끄다, 지우다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1타",
+            "sourceOrder": 43
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_44-1",
+              "wordId": "JLPTN3_44",
+              "version": 1,
+              "meaning": "끄다",
+              "hint": "켜진 불이나 전원을 꺼요. 누군가가 끄는 행동이에요.",
+              "confusions": [
+                {
+                  "japanese": "消える",
+                  "distinction": "불이 꺼지는 변화와 누군가 불을 끄는 행동을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_44-1-ex-1",
+                  "version": 1,
+                  "before": "寝る前に廊下の電気を",
+                  "answer": "消して",
+                  "after": "ね。",
+                  "reading": "けして",
+                  "translation": "자기 전에 복도 불을 꺼 줘.",
+                  "translationTarget": "꺼",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_44-1-ex-2",
+                  "version": 1,
+                  "before": "誰かがテレビを",
+                  "answer": "消した",
+                  "after": "途端、部屋が静かになった。",
+                  "reading": "けした",
+                  "translation": "누군가 텔레비전을 끄자마자 방이 조용해졌다.",
+                  "translationTarget": "끄자마자",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "after": {
+          "word": {
+            "id": "JLPTN3_44",
+            "setId": "jlpt-n3",
+            "japanese": "消す",
+            "reading": "けす",
+            "meaning": "(불·전원 등을) 끄다, 지우다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1타",
+            "sourceOrder": 43
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_44-1",
+              "wordId": "JLPTN3_44",
+              "version": 1,
+              "meaning": "끄다",
+              "hint": "켜진 불이나 전원을 꺼요. 누군가가 끄는 행동이에요.",
+              "confusions": [
+                {
+                  "japanese": "消える",
+                  "distinction": "불이 꺼지는 변화와 누군가 불을 끄는 행동을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_44-1-ex-1",
+                  "version": 1,
+                  "before": "寝る前に廊下の電気を",
+                  "answer": "消して",
+                  "after": "ね。",
+                  "reading": "けして",
+                  "translation": "자기 전에 복도 불을 꺼 줘.",
+                  "translationTarget": "꺼",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_44-1-ex-2",
+                  "version": 1,
+                  "before": "誰かがテレビを",
+                  "answer": "消した",
+                  "after": "途端、部屋が静かになった。",
+                  "reading": "けした",
+                  "translation": "누군가 텔레비전을 끄자마자 방이 조용해졌다.",
+                  "translationTarget": "끄자마자",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            },
+            {
+              "id": "sense-JLPTN3_44-2",
+              "wordId": "JLPTN3_44",
+              "version": 1,
+              "meaning": "글씨·표시를 지우다, 저장된 기록을 삭제하다",
+              "hint": "글씨나 표시, 저장된 기록을 남지 않게 없애요.",
+              "confusions": [
+                {
+                  "japanese": "削除する",
+                  "distinction": "저장된 기록을 삭제할 때는 뜻이 겹친다. 이 용법은 글씨나 표시를 물리적으로 지우는 일에도 널리 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_44-2-ex-1",
+                  "version": 1,
+                  "before": "パソコンを売る前に、保存したデータを全部",
+                  "answer": "消した",
+                  "after": "。",
+                  "reading": "けした",
+                  "translation": "컴퓨터를 팔기 전에 저장한 데이터를 모두 삭제했다.",
+                  "translationTarget": "삭제했다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
+        "afterHash": "abeb0a1a55c7e296a269cccc1063d2275f79d6b9825adb1ff09da3d3e1a5feac",
+        "reason": "독립 Astra 판정에서 기존 끄다 용법과 별도 ID의 지우다 용법은 서로 다른 대표 학습 범위로 확인되었다. N5 대표의 끄다 용법과 기존 단어 뜻을 모두 그대로 보존하면서 지우다·삭제하다 용법을 새 ID로 추가한다. 기존 단어 두 ID의 프로필을 병합하거나 새 용법에 기존 숙련을 넘기지 않는다."
+      }
+    ]
+  },
+  "review": {
+    "scope": "legacy-content-revision",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:57.307Z",
+    "draftHash": "596b25a8e024220ec37642de02c952a4f097d6cc5883aefd6414f21fc01dcd3b",
+    "notes": [
+      "승인한 전체 before/after와 준비초안 완전 일치. 기존 끄다 용법·단어·두예문 보존, 삭제 용법만 새 ID로 추가.",
+      "peer AbsoluteVerb_75 내용·프로필은 그대로 둔다. 어떤 기존 숙련도도 새 삭제 sense로 이전하지 않는다. 전체 9,329예문 대조 유사0."
+    ],
+    "preservedCoreUsages": [
+      {
+        "wordId": "JLPTN3_44",
+        "senseIds": [
+          "sense-JLPTN3_44-1"
+        ],
+        "decision": "preserve-existing-core-usage",
+        "note": "끄다 핵심 그대로 보존, 별도 삭제sense 신설."
+      }
+    ]
+  }
+}

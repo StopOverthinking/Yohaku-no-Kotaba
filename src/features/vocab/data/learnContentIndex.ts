@@ -5299,7 +5299,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-handmade_29-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -6797,7 +6797,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       "diversity": true
     },
     "shard": 36,
-    "meaning": "주관적으로 생각하다",
+    "meaning": "생각하다, 여기다 (의견·느낌을 품다)",
     "examples": [
       {
         "id": "sense-AbsoluteVerb_49-1-ex-1",
@@ -8679,7 +8679,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-AbsoluteVerb_266-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -18039,7 +18039,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-handmade_30-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -30721,7 +30721,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-handmade_28-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 15,
         "status": "reviewed"
       },
@@ -49943,7 +49943,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1526360-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 14,
         "status": "reviewed"
       },
@@ -57047,7 +57047,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1310050-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 16,
         "status": "reviewed"
       },
@@ -60119,7 +60119,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1594110-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 17,
         "status": "reviewed"
       },
@@ -61821,7 +61821,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1013050-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 22,
         "status": "reviewed"
       },
@@ -91671,7 +91671,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1042080-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 12,
         "status": "reviewed"
       }
@@ -116045,6 +116045,20866 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
         "id": "sense-lex-jmdict-1490580-1-ex-1",
         "version": 1,
         "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1133790-1",
+    "wordId": "lex-jmdict-1133790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "메뉴, 음식 목록",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1133790-1-ex-1",
+        "version": 1,
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1127870-1",
+    "wordId": "lex-jmdict-1127870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "마스크",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1127870-1-ex-1",
+        "version": 1,
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435540-1",
+    "wordId": "lex-jmdict-1435540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "정기 휴일",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435540-1-ex-1",
+        "version": 1,
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541690-1",
+    "wordId": "lex-jmdict-1541690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "유료",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541690-1-ex-1",
+        "version": 1,
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605250-1",
+    "wordId": "lex-jmdict-1605250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "아깝다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605250-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1068870-1",
+    "wordId": "lex-jmdict-1068870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "스케줄, 일정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1068870-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1117080-1",
+    "wordId": "lex-jmdict-1117080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 84,
+    "meaning": "프로그램, 진행 순서",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1117080-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1123520-1",
+    "wordId": "lex-jmdict-1123520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "보너스, 상여금",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1123520-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1101600-1",
+    "wordId": "lex-jmdict-1101600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "패턴, 유형",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1101600-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1099690-1",
+    "wordId": "lex-jmdict-1099690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "균형",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1099690-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1087100-1",
+    "wordId": "lex-jmdict-1087100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "훈련, 트레이닝",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1087100-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1272320-1",
+    "wordId": "lex-jmdict-1272320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "교통수단, 교통기관",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1272320-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1286780-1",
+    "wordId": "lex-jmdict-1286780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "국적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1286780-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435510-1",
+    "wordId": "lex-jmdict-1435510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "정기권",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435510-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448500-1",
+    "wordId": "lex-jmdict-1448500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 94,
+    "meaning": "도난",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448500-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1457830-1",
+    "wordId": "lex-jmdict-1457830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "내과",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1457830-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1464300-1",
+    "wordId": "lex-jmdict-1464300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "일정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1464300-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1464910-1",
+    "wordId": "lex-jmdict-1464910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "일용품, 생활용품",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1464910-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1520570-1",
+    "wordId": "lex-jmdict-1520570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "범죄 예방, 방범",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1520570-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542380-1",
+    "wordId": "lex-jmdict-1542380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 15,
+    "meaning": "우송, 우편 발송",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542380-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598350-1",
+    "wordId": "lex-jmdict-1598350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "절차, 수속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598350-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1590240-1",
+    "wordId": "lex-jmdict-1590240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "대여, 대출",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1590240-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1586520-1",
+    "wordId": "lex-jmdict-1586520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "받는 이 이름·주소, 수신인",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1586520-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1107800-1",
+    "wordId": "lex-jmdict-1107800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "파일",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1107800-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1132420-1",
+    "wordId": "lex-jmdict-1132420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "제조업체",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1132420-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1071490-1",
+    "wordId": "lex-jmdict-1071490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "스트레스",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1071490-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1051230-1",
+    "wordId": "lex-jmdict-1051230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "의견, 논평, 댓글",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1051230-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1060300-1",
+    "wordId": "lex-jmdict-1060300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "시스템, 체계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1060300-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1076000-1",
+    "wordId": "lex-jmdict-1076000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "타이밍, 시점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1076000-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1011660-1",
+    "wordId": "lex-jmdict-1011660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "안도하며, 한숨 돌리며",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1011660-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329690-1",
+    "wordId": "lex-jmdict-1329690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "접수하다, 받아들이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329690-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326620-1",
+    "wordId": "lex-jmdict-1326620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "주문하여 받아 오다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326620-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1362930-1",
+    "wordId": "lex-jmdict-1362930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "제안하다, 신청하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1362930-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350920-1",
+    "wordId": "lex-jmdict-1350920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "대조, 조회 확인",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350920-1-ex-1",
+        "version": 1,
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546250-1",
+    "wordId": "lex-jmdict-1546250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "용건",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546250-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1590280-1",
+    "wordId": "lex-jmdict-1590280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 9,
+    "meaning": "항목별 정리, 개조식 작성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1590280-1-ex-1",
+        "version": 1,
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441540-1",
+    "wordId": "lex-jmdict-1441540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "점검",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441540-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1471380-1",
+    "wordId": "lex-jmdict-1471380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "파손",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1471380-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505050-1",
+    "wordId": "lex-jmdict-1505050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "분실",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505050-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1513320-1",
+    "wordId": "lex-jmdict-1513320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 43,
+    "meaning": "보관",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1513320-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326780-1",
+    "wordId": "lex-jmdict-1326780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 51,
+    "meaning": "제거하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326780-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514580-1",
+    "wordId": "lex-jmdict-1514580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "보충",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514580-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327530-1",
+    "wordId": "lex-jmdict-1327530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 15,
+    "meaning": "간편하다, 손쉽다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327530-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491050-1",
+    "wordId": "lex-jmdict-1491050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "빈번하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491050-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1567920-1",
+    "wordId": "lex-jmdict-1567920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "애매하다, 모호하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1567920-1-ex-1",
+        "version": 1,
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504990-1",
+    "wordId": "lex-jmdict-1504990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "혼동하기 쉽다, 헷갈리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504990-1-ex-1",
+        "version": 1,
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360640-1",
+    "wordId": "lex-jmdict-1360640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "든든하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360640-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283000-1",
+    "wordId": "lex-jmdict-1283000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "항목",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283000-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1292200-1",
+    "wordId": "lex-jmdict-1292200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "독촉, 재촉",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1292200-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501610-1",
+    "wordId": "lex-jmdict-1501610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "환불하다, 돌려주다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501610-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1588880-1",
+    "wordId": "lex-jmdict-1588880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "크다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1588880-1-ex-1",
+        "version": 1,
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1587610-1",
+    "wordId": "lex-jmdict-1587610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "싫다·내키지 않다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1587610-1-ex-1",
+        "version": 2,
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-2013900-1",
+    "wordId": "lex-jmdict-2013900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "빨간색",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-2013900-1-ex-1",
+        "version": 1,
+        "difficulty": 11,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374550-1",
+    "wordId": "lex-jmdict-1374550",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "대단하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374550-1-ex-1",
+        "version": 1,
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599420-1",
+    "wordId": "lex-jmdict-1599420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "좀처럼·쉽게 (않다)",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599420-1-ex-1",
+        "version": 1,
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1075500-1",
+    "wordId": "lex-jmdict-1075500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 66,
+    "meaning": "소프트웨어·프로그램",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1075500-1-ex-1",
+        "version": 1,
+        "difficulty": 19,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223110-1",
+    "wordId": "lex-jmdict-1223110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "규약, 이용 규칙",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223230-1",
+    "wordId": "lex-jmdict-1223230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 43,
+    "meaning": "기재",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223230-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223280-1",
+    "wordId": "lex-jmdict-1223280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "기술, 서술",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223280-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1259870-1",
+    "wordId": "lex-jmdict-1259870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "견지, 관점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1259870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1266730-1",
+    "wordId": "lex-jmdict-1266730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 13,
+    "meaning": "고유함, 특유함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1266730-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1266860-1",
+    "wordId": "lex-jmdict-1266860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "고립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1266860-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267030-1",
+    "wordId": "lex-jmdict-1267030",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "호적, 가족 관계 등록부",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267030-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267820-1",
+    "wordId": "lex-jmdict-1267820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "과장",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267820-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267870-1",
+    "wordId": "lex-jmdict-1267870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 13,
+    "meaning": "돌이켜보다, 회고하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282010-1",
+    "wordId": "lex-jmdict-1282010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 84,
+    "meaning": "행정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282010-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282470-1",
+    "wordId": "lex-jmdict-1282470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "구매",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282470-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1284550-1",
+    "wordId": "lex-jmdict-1284550",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "합의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1284550-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1298420-1",
+    "wordId": "lex-jmdict-1298420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "착오, 오류",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1298420-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254100-1",
+    "wordId": "lex-jmdict-1254100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "결핍, 부족",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254100-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254240-1",
+    "wordId": "lex-jmdict-1254240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "결의, 의결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254240-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254290-1",
+    "wordId": "lex-jmdict-1254290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 39,
+    "meaning": "결산",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254290-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254900-1",
+    "wordId": "lex-jmdict-1254900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "결성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254900-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252910-1",
+    "wordId": "lex-jmdict-1252910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 4,
+    "meaning": "경솔함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252910-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252860-1",
+    "wordId": "lex-jmdict-1252860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 112,
+    "meaning": "경멸",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252860-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252310-1",
+    "wordId": "lex-jmdict-1252310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "경계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252310-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252680-1",
+    "wordId": "lex-jmdict-1252680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 84,
+    "meaning": "경감, 부담 완화",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252680-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1253760-1",
+    "wordId": "lex-jmdict-1253760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "격려",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1253760-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1211970-1",
+    "wordId": "lex-jmdict-1211970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "관대함, 너그러움",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1211970-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1212850-1",
+    "wordId": "lex-jmdict-1212850",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "굳이, 일부러, 과감히",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1212850-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1284940-1",
+    "wordId": "lex-jmdict-1284940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 120,
+    "meaning": "합성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1284940-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1067480-1",
+    "wordId": "lex-jmdict-1067480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "스카프",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1067480-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1093000-1",
+    "wordId": "lex-jmdict-1093000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "목걸이",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1093000-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1111160-1",
+    "wordId": "lex-jmdict-1111160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "프라이팬",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1111160-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1125110-1",
+    "wordId": "lex-jmdict-1125110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "포스터",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1125110-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1130040-1",
+    "wordId": "lex-jmdict-1130040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "아파트·공동 주택",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1130040-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1062910-1",
+    "wordId": "lex-jmdict-1062910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "시리즈",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1062910-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1070320-1",
+    "wordId": "lex-jmdict-1070320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "무대",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1070320-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1072240-1",
+    "wordId": "lex-jmdict-1072240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "스피커",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1072240-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1073760-1",
+    "wordId": "lex-jmdict-1073760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 108,
+    "meaning": "슬라이드",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1073760-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1078830-1",
+    "wordId": "lex-jmdict-1078830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "주제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1078830-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1081120-1",
+    "wordId": "lex-jmdict-1081120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "속도·템포",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1081120-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1096830-1",
+    "wordId": "lex-jmdict-1096830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 19,
+    "meaning": "운전대",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1096830-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1100240-1",
+    "wordId": "lex-jmdict-1100240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "밴드·음악 그룹",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1100240-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1105160-1",
+    "wordId": "lex-jmdict-1105160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "비타민",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1105160-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1108160-1",
+    "wordId": "lex-jmdict-1108160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "지퍼",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1108160-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1115670-1",
+    "wordId": "lex-jmdict-1115670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "플라스틱",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1115670-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1116300-1",
+    "wordId": "lex-jmdict-1116300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "인쇄물·유인물",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1116300-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1126980-1",
+    "wordId": "lex-jmdict-1126980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "마이너스·음수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1126980-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1134480-1",
+    "wordId": "lex-jmdict-1134480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "모터·전동기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1134480-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1135270-1",
+    "wordId": "lex-jmdict-1135270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "모델·모형",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1135270-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1141620-1",
+    "wordId": "lex-jmdict-1141620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "리듬·박자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1141620-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1274550-1",
+    "wordId": "lex-jmdict-1274550",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "공표, 발표",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1274550-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273510-1",
+    "wordId": "lex-jmdict-1273510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "공공",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273510-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273820-1",
+    "wordId": "lex-jmdict-1273820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "공식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273820-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1274810-1",
+    "wordId": "lex-jmdict-1274810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "공무",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1274810-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278090-1",
+    "wordId": "lex-jmdict-1278090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "공예",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278090-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1281180-1",
+    "wordId": "lex-jmdict-1281180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "긍정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1281180-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1285140-1",
+    "wordId": "lex-jmdict-1285140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 17,
+    "meaning": "합동",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1285140-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1285390-1",
+    "wordId": "lex-jmdict-1285390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "합류",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1285390-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1294850-1",
+    "wordId": "lex-jmdict-1294850",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "채점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1294850-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1295110-1",
+    "wordId": "lex-jmdict-1295110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "재난, 불운한 사고",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1295110-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449710-1",
+    "wordId": "lex-jmdict-1449710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "통계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449710-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1433050-1",
+    "wordId": "lex-jmdict-1433050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 94,
+    "meaning": "통화, 화폐",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1433050-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440600-1",
+    "wordId": "lex-jmdict-1440600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "전개",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440600-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437290-1",
+    "wordId": "lex-jmdict-1437290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "정확함, 적절함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437290-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1376240-1",
+    "wordId": "lex-jmdict-1376240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 11,
+    "meaning": "정비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1376240-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375860-1",
+    "wordId": "lex-jmdict-1375860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "성분",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375860-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375880-1",
+    "wordId": "lex-jmdict-1375880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "성립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375880-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379230-1",
+    "wordId": "lex-jmdict-1379230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 15,
+    "meaning": "생존",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379230-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385480-1",
+    "wordId": "lex-jmdict-1385480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "접속, 연결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385480-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429410-1",
+    "wordId": "lex-jmdict-1429410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "초과",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429410-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455210-1",
+    "wordId": "lex-jmdict-1455210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "특정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455210-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477250-1",
+    "wordId": "lex-jmdict-1477250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "발휘",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477250-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477660-1",
+    "wordId": "lex-jmdict-1477660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "발상, 아이디어",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477660-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1488710-1",
+    "wordId": "lex-jmdict-1488710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "표준, 기준",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1488710-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396020-1",
+    "wordId": "lex-jmdict-1396020",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "전반, 전체",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396020-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1064980-1",
+    "wordId": "lex-jmdict-1064980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "언론인·기자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1064980-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1073570-1",
+    "wordId": "lex-jmdict-1073570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 19,
+    "meaning": "세련되다·맵시 있다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1073570-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1075160-1",
+    "wordId": "lex-jmdict-1075160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "대학 세미나·연구 수업",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1075160-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1119700-1",
+    "wordId": "lex-jmdict-1119700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "숙련자·베테랑",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1119700-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397820-1",
+    "wordId": "lex-jmdict-1397820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "저지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397820-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546780-1",
+    "wordId": "lex-jmdict-1546780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "요청",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546780-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374800-1",
+    "wordId": "lex-jmdict-1374800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "제재",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374800-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505060-1",
+    "wordId": "lex-jmdict-1505060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "분쟁",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505060-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512830-1",
+    "wordId": "lex-jmdict-1512830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "변호, 두둔",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512830-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360360-1",
+    "wordId": "lex-jmdict-1360360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 39,
+    "meaning": "심의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360360-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360380-1",
+    "wordId": "lex-jmdict-1360380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "심사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360380-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579510-1",
+    "wordId": "lex-jmdict-1579510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "시행",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1428110-1",
+    "wordId": "lex-jmdict-1428110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "징수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1428110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449760-1",
+    "wordId": "lex-jmdict-1449760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "통합",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449760-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330500-1",
+    "wordId": "lex-jmdict-1330500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 100,
+    "meaning": "수익",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330500-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542600-1",
+    "wordId": "lex-jmdict-1542600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "융자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542600-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549580-1",
+    "wordId": "lex-jmdict-1549580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "이윤",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549580-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1312750-1",
+    "wordId": "lex-jmdict-1312750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "자산",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1312750-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514650-1",
+    "wordId": "lex-jmdict-1514650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 120,
+    "meaning": "보상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514650-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474110-1",
+    "wordId": "lex-jmdict-1474110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "배상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1316840-1",
+    "wordId": "lex-jmdict-1316840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "치안",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1316840-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1422520-1",
+    "wordId": "lex-jmdict-1422520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "질서",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1422520-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533660-1",
+    "wordId": "lex-jmdict-1533660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 70,
+    "meaning": "모색",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533660-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547270-1",
+    "wordId": "lex-jmdict-1547270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "억압",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547270-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328990-1",
+    "wordId": "lex-jmdict-1328990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "취지, 요지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328990-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599900-1",
+    "wordId": "lex-jmdict-1599900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "짊어지다, 맡다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599900-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596510-1",
+    "wordId": "lex-jmdict-1596510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "손상시키다, 해치다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605320-1",
+    "wordId": "lex-jmdict-1605320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "누설하다, 새어 나가게 하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605320-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437710-1",
+    "wordId": "lex-jmdict-1437710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "철회",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437710-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-handmade_153-2",
+    "wordId": "handmade_153",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "요리한 음식",
+    "examples": [
+      {
+        "id": "sense-handmade_153-2-ex-1",
+        "version": 1,
+        "difficulty": 15,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_31-2",
+    "wordId": "AbsoluteVerb_31",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "모르는 것을 묻다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_31-2-ex-1",
+        "version": 1,
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_34-2",
+    "wordId": "AbsoluteVerb_34",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "약을 먹다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_34-2-ex-1",
+        "version": 1,
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_81-2",
+    "wordId": "AbsoluteVerb_81",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "가지고 있다·소유하다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_81-2-ex-1",
+        "version": 1,
+        "difficulty": 14,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_101-2",
+    "wordId": "AbsoluteVerb_101",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "안에서 밖으로 꺼내다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_101-2-ex-1",
+        "version": 1,
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_143-2",
+    "wordId": "AbsoluteVerb_143",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "길을 잃다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_143-2-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_71-2",
+    "wordId": "AbsoluteVerb_71",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "전화를 걸다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_71-2-ex-1",
+        "version": 1,
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_71-3",
+    "wordId": "AbsoluteVerb_71",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "안경을 쓰다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_71-3-ex-1",
+        "version": 1,
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1144700-1",
+    "wordId": "lex-jmdict-1144700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "우비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1144700-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1129210-1",
+    "wordId": "lex-jmdict-1129210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "목도리",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1129210-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1149240-1",
+    "wordId": "lex-jmdict-1149240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "원피스",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1149240-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1103270-1",
+    "wordId": "lex-jmdict-1103270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "팬티·속바지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1103270-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1113650-1",
+    "wordId": "lex-jmdict-1113650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "블라우스",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1113650-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1140100-1",
+    "wordId": "lex-jmdict-1140100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "점심 식사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1140100-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1270010-1",
+    "wordId": "lex-jmdict-1270010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "후배",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1270010-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278130-1",
+    "wordId": "lex-jmdict-1278130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "공사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278130-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278590-1",
+    "wordId": "lex-jmdict-1278590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 76,
+    "meaning": "광장",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278590-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279540-1",
+    "wordId": "lex-jmdict-1279540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "학교 건물·교사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279540-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279600-1",
+    "wordId": "lex-jmdict-1279600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "운동장·학교 뜰",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279600-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1281930-1",
+    "wordId": "lex-jmdict-1281930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "행사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1281930-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282220-1",
+    "wordId": "lex-jmdict-1282220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "줄·행렬",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282220-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282280-1",
+    "wordId": "lex-jmdict-1282280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "강사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282280-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283060-1",
+    "wordId": "lex-jmdict-1283060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "향수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283060-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283400-1",
+    "wordId": "lex-jmdict-1283400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "고급이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283400-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1287180-1",
+    "wordId": "lex-jmdict-1287180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 15,
+    "meaning": "국립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1287180-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1250430-1",
+    "wordId": "lex-jmdict-1250430",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 43,
+    "meaning": "형용사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1250430-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1268300-1",
+    "wordId": "lex-jmdict-1268300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "오십음·일본어 가나 음절 체계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1268300-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1303930-1",
+    "wordId": "lex-jmdict-1303930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 17,
+    "meaning": "산수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1303930-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1299970-1",
+    "wordId": "lex-jmdict-1299970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "삼각형·삼각",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1299970-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307090-1",
+    "wordId": "lex-jmdict-1307090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "사각형·사각",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307090-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307130-1",
+    "wordId": "lex-jmdict-1307130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "사계절",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307130-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311420-1",
+    "wordId": "lex-jmdict-1311420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "사립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311420-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1316290-1",
+    "wordId": "lex-jmdict-1316290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 112,
+    "meaning": "시속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1316290-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320490-1",
+    "wordId": "lex-jmdict-1320490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "습도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320490-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325420-1",
+    "wordId": "lex-jmdict-1325420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 75,
+    "meaning": "주어",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325420-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1342820-1",
+    "wordId": "lex-jmdict-1342820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "초순",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1342820-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1344130-1",
+    "wordId": "lex-jmdict-1344130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "서예",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1344130-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1352930-1",
+    "wordId": "lex-jmdict-1352930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "상급·고급 단계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1352930-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1147800-1",
+    "wordId": "lex-jmdict-1147800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "로비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1147800-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1146140-1",
+    "wordId": "lex-jmdict-1146140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 29,
+    "meaning": "렌즈",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1146140-1-ex-1",
+        "version": 1,
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1141870-1",
+    "wordId": "lex-jmdict-1141870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "리터",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1141870-1-ex-1",
+        "version": 1,
+        "difficulty": 21,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1142880-1",
+    "wordId": "lex-jmdict-1142880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "리본",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1142880-1-ex-1",
+        "version": 1,
+        "difficulty": 21,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1130640-1",
+    "wordId": "lex-jmdict-1130640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "재봉틀",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1130640-1-ex-1",
+        "version": 1,
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1077740-1",
+    "wordId": "lex-jmdict-1077740",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "팁·봉사료",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1077740-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1078240-1",
+    "wordId": "lex-jmdict-1078240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "분필",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1078240-1-ex-1",
+        "version": 1,
+        "difficulty": 21,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1089930-1",
+    "wordId": "lex-jmdict-1089930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "나일론",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1089930-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1105580-1",
+    "wordId": "lex-jmdict-1105580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "비닐",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1105580-1-ex-1",
+        "version": 1,
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1114910-1",
+    "wordId": "lex-jmdict-1114910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "브로치",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1114910-1-ex-1",
+        "version": 1,
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1118780-1",
+    "wordId": "lex-jmdict-1118780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "헬리콥터",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1118780-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1129290-1",
+    "wordId": "lex-jmdict-1129290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "마라톤",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1129290-1-ex-1",
+        "version": 1,
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1135680-1",
+    "wordId": "lex-jmdict-1135680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "모노레일",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1135680-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1139190-1",
+    "wordId": "lex-jmdict-1139190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "출퇴근 혼잡 시간",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1139190-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1145220-1",
+    "wordId": "lex-jmdict-1145220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "여가 활동",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1145220-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1211730-1",
+    "wordId": "lex-jmdict-1211730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "관청·정부 기관",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1211730-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1206610-1",
+    "wordId": "lex-jmdict-1206610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "학회·학술 대회",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1206610-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1206870-1",
+    "wordId": "lex-jmdict-1206870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 34,
+    "meaning": "학술",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1206870-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1208480-1",
+    "wordId": "lex-jmdict-1208480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "활력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1208480-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1251030-1",
+    "wordId": "lex-jmdict-1251030",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "계통·체계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1251030-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1253130-1",
+    "wordId": "lex-jmdict-1253130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "예능·공연 예술",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1253130-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1258880-1",
+    "wordId": "lex-jmdict-1258880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 68,
+    "meaning": "현청",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1258880-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1261470-1",
+    "wordId": "lex-jmdict-1261470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "원산·원산지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1261470-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1271970-1",
+    "wordId": "lex-jmdict-1271970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "교차",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1271970-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273420-1",
+    "wordId": "lex-jmdict-1273420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "공해",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273420-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273900-1",
+    "wordId": "lex-jmdict-1273900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "공중·일반 대중",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273900-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1275070-1",
+    "wordId": "lex-jmdict-1275070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 120,
+    "meaning": "공적·업적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1275070-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1276220-1",
+    "wordId": "lex-jmdict-1276220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "구실·핑계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1276220-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283690-1",
+    "wordId": "lex-jmdict-1283690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 71,
+    "meaning": "고층",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283690-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1260660-1",
+    "wordId": "lex-jmdict-1260660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "현미경",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1260660-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1222460-1",
+    "wordId": "lex-jmdict-1222460",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "기체",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1222460-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1239970-1",
+    "wordId": "lex-jmdict-1239970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "곡선",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1239970-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1296440-1",
+    "wordId": "lex-jmdict-1296440",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "재학",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1296440-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1304330-1",
+    "wordId": "lex-jmdict-1304330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "산성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1304330-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307250-1",
+    "wordId": "lex-jmdict-1307250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "반올림",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307250-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322890-1",
+    "wordId": "lex-jmdict-1322890",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 43,
+    "meaning": "사설",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322890-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1336980-1",
+    "wordId": "lex-jmdict-1336980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "중력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1336980-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1337830-1",
+    "wordId": "lex-jmdict-1337830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "한자 숙어·한자 합성어",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1337830-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1363600-1",
+    "wordId": "lex-jmdict-1363600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 21,
+    "meaning": "진공",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1363600-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370380-1",
+    "wordId": "lex-jmdict-1370380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "도형",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370380-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370980-1",
+    "wordId": "lex-jmdict-1370980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "수직이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370980-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321260-1",
+    "wordId": "lex-jmdict-1321260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "실천",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330640-1",
+    "wordId": "lex-jmdict-1330640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "수지, 수입과 지출",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330640-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343360-1",
+    "wordId": "lex-jmdict-1343360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "소득",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343360-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1351900-1",
+    "wordId": "lex-jmdict-1351900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "상징",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1351900-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374970-1",
+    "wordId": "lex-jmdict-1374970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "제약",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374970-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375950-1",
+    "wordId": "lex-jmdict-1375950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "정책",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375950-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1380190-1",
+    "wordId": "lex-jmdict-1380190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "정밀함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1380190-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1406750-1",
+    "wordId": "lex-jmdict-1406750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "손실",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1406750-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1408100-1",
+    "wordId": "lex-jmdict-1408100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "다양함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1408100-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410070-1",
+    "wordId": "lex-jmdict-1410070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "대처",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410070-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410250-1",
+    "wordId": "lex-jmdict-1410250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "대등함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410250-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410290-1",
+    "wordId": "lex-jmdict-1410290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 9,
+    "meaning": "대립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410290-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410300-1",
+    "wordId": "lex-jmdict-1410300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "대화",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410300-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370160-1",
+    "wordId": "lex-jmdict-1370160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "신속함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370160-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381180-1",
+    "wordId": "lex-jmdict-1381180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "성실함, 진실함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381180-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329600-1",
+    "wordId": "lex-jmdict-1329600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "이어받다, 계승하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329600-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333330-1",
+    "wordId": "lex-jmdict-1333330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "덮치다, 습격하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333330-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370090-1",
+    "wordId": "lex-jmdict-1370090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "힘을 다하다, 전력을 쏟다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370090-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1349470-1",
+    "wordId": "lex-jmdict-1349470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "승낙",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1349470-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1335400-1",
+    "wordId": "lex-jmdict-1335400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "종래, 지금까지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1335400-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325180-1",
+    "wordId": "lex-jmdict-1325180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 74,
+    "meaning": "주관",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325180-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328380-1",
+    "wordId": "lex-jmdict-1328380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "기법, 방법",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328380-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321360-1",
+    "wordId": "lex-jmdict-1321360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "실태",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321360-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325980-1",
+    "wordId": "lex-jmdict-1325980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "주도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325980-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1357580-1",
+    "wordId": "lex-jmdict-1357580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "직무",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1357580-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1364110-1",
+    "wordId": "lex-jmdict-1364110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "진상, 숨겨진 사실",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1364110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366160-1",
+    "wordId": "lex-jmdict-1366160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 111,
+    "meaning": "진전",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366160-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1383230-1",
+    "wordId": "lex-jmdict-1383230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "책무",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1383230-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1394190-1",
+    "wordId": "lex-jmdict-1394190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "전례",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1394190-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397740-1",
+    "wordId": "lex-jmdict-1397740",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "소송",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397740-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1406190-1",
+    "wordId": "lex-jmdict-1406190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "존속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1406190-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1408530-1",
+    "wordId": "lex-jmdict-1408530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "타결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1408530-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326860-1",
+    "wordId": "lex-jmdict-1326860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "단속하다, 감독하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326860-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327390-1",
+    "wordId": "lex-jmdict-1327390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 39,
+    "meaning": "직접 맡아 처리하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327390-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1335940-1",
+    "wordId": "lex-jmdict-1335940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "중시하다, 존중하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1335940-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1341790-1",
+    "wordId": "lex-jmdict-1341790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 71,
+    "meaning": "윤택해지다, 경제적 여유가 생기다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1341790-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1347490-1",
+    "wordId": "lex-jmdict-1347490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "주장하다, 제창하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1347490-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1358110-1",
+    "wordId": "lex-jmdict-1358110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "엇갈리다, 서로 맞지 않다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1358110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370070-1",
+    "wordId": "lex-jmdict-1370070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "다하다, 바닥나다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370070-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1372620-1",
+    "wordId": "lex-jmdict-1372620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "이루다, 달성하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1372620-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1373480-1",
+    "wordId": "lex-jmdict-1373480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 100,
+    "meaning": "놓다, 설치하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1373480-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396480-1",
+    "wordId": "lex-jmdict-1396480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "기우다, 수선하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396480-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397800-1",
+    "wordId": "lex-jmdict-1397800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "가로막다, 방해하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397800-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1400010-1",
+    "wordId": "lex-jmdict-1400010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "조종하다, 다루다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1400010-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1347550-1",
+    "wordId": "lex-jmdict-1347550",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "장려",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1347550-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343350-1",
+    "wordId": "lex-jmdict-1343350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "소정, 정해짐",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343350-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343210-1",
+    "wordId": "lex-jmdict-1343210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 110,
+    "meaning": "소재, 있는 곳",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343210-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1335320-1",
+    "wordId": "lex-jmdict-1335320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "종사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1335320-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325840-1",
+    "wordId": "lex-jmdict-1325840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "주체, 중심 구성 요소",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325840-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327690-1",
+    "wordId": "lex-jmdict-1327690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "솜씨, 일 처리 능력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327690-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1562300-1",
+    "wordId": "lex-jmdict-1562300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "말을 걸다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1562300-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1586430-1",
+    "wordId": "lex-jmdict-1586430",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "따뜻해지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1586430-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561590-1",
+    "wordId": "lex-jmdict-1561590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "녹음",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561590-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589250-1",
+    "wordId": "lex-jmdict-1589250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "분실물",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589250-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1612040-1",
+    "wordId": "lex-jmdict-1612040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "죄송하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1612040-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611370-1",
+    "wordId": "lex-jmdict-1611370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "날짜",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611370-1-ex-1",
+        "version": 1,
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546270-1",
+    "wordId": "lex-jmdict-1546270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "용어",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546270-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1603240-1",
+    "wordId": "lex-jmdict-1603240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "편집",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1603240-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435400-1",
+    "wordId": "lex-jmdict-1435400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "정원",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435400-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1543320-1",
+    "wordId": "lex-jmdict-1543320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "예비, 여분",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1543320-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1395410-1",
+    "wordId": "lex-jmdict-1395410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "전신, 온몸",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1395410-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1488700-1",
+    "wordId": "lex-jmdict-1488700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "표지, 표식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1488700-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487830-1",
+    "wordId": "lex-jmdict-1487830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 9,
+    "meaning": "필자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487830-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487800-1",
+    "wordId": "lex-jmdict-1487800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "필기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487800-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528040-1",
+    "wordId": "lex-jmdict-1528040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "미만",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528040-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531500-1",
+    "wordId": "lex-jmdict-1531500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "명작",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531500-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470710-1",
+    "wordId": "lex-jmdict-1470710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 112,
+    "meaning": "농산물",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470710-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546040-1",
+    "wordId": "lex-jmdict-1546040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "녹이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546040-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1548380-1",
+    "wordId": "lex-jmdict-1548380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 5,
+    "meaning": "믿음직하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1548380-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549100-1",
+    "wordId": "lex-jmdict-1549100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "거칠다·난폭하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549100-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1550630-1",
+    "wordId": "lex-jmdict-1550630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "뒤집다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1550630-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551350-1",
+    "wordId": "lex-jmdict-1551350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "멈춰 서다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551350-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552310-1",
+    "wordId": "lex-jmdict-1552310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "유행하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552310-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554380-1",
+    "wordId": "lex-jmdict-1554380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "더위를 식히다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554380-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554940-1",
+    "wordId": "lex-jmdict-1554940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "힘차다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554940-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1565480-1",
+    "wordId": "lex-jmdict-1565480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "냄새를 맡다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1565480-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1567610-1",
+    "wordId": "lex-jmdict-1567610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "주무르다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1567610-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1569240-1",
+    "wordId": "lex-jmdict-1569240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "교활하다·치사하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1569240-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1588330-1",
+    "wordId": "lex-jmdict-1588330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "비추다·영상으로 나타내다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1588330-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589330-1",
+    "wordId": "lex-jmdict-1589330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "생각이 떠오르다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589330-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1592350-1",
+    "wordId": "lex-jmdict-1592350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 25,
+    "meaning": "분하다·억울하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1592350-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594270-1",
+    "wordId": "lex-jmdict-1594270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "조용해지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594270-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1588500-1",
+    "wordId": "lex-jmdict-1588500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "매출",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1588500-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591210-1",
+    "wordId": "lex-jmdict-1591210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "기준",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591210-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598590-1",
+    "wordId": "lex-jmdict-1598590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "문의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598590-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598800-1",
+    "wordId": "lex-jmdict-1598800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 71,
+    "meaning": "갖추어지다·준비되다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598800-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594600-1",
+    "wordId": "lex-jmdict-1594600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 9,
+    "meaning": "마감하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594600-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596210-1",
+    "wordId": "lex-jmdict-1596210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "맨 앞·선두",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596210-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604420-1",
+    "wordId": "lex-jmdict-1604420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 53,
+    "meaning": "겉모습·외관",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604420-1-ex-1",
+        "version": 1,
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605280-1",
+    "wordId": "lex-jmdict-1605280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "원래·본래",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605280-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1610630-1",
+    "wordId": "lex-jmdict-1610630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "뜻밖이다·예상치 못하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1610630-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1610950-1",
+    "wordId": "lex-jmdict-1610950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "길어지다·오래 끌다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1610950-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611770-1",
+    "wordId": "lex-jmdict-1611770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "길 순서·가는 길",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611770-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601420-1",
+    "wordId": "lex-jmdict-1601420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "햇볕이 드는 정도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601420-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601830-1",
+    "wordId": "lex-jmdict-1601830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "햇살·햇볕",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601830-1-ex-1",
+        "version": 1,
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505330-1",
+    "wordId": "lex-jmdict-1505330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 51,
+    "meaning": "문헌",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505330-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505630-1",
+    "wordId": "lex-jmdict-1505630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "문맥",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505630-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1508480-1",
+    "wordId": "lex-jmdict-1508480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "병행",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1508480-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523270-1",
+    "wordId": "lex-jmdict-1523270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "본래, 원래",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523270-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523830-1",
+    "wordId": "lex-jmdict-1523830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "마찰",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523830-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531090-1",
+    "wordId": "lex-jmdict-1531090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "모순",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531090-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528630-1",
+    "wordId": "lex-jmdict-1528630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "민간",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528630-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529880-1",
+    "wordId": "lex-jmdict-1529880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "무한함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529880-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538850-1",
+    "wordId": "lex-jmdict-1538850",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "수송",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538850-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541610-1",
+    "wordId": "lex-jmdict-1541610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "유무, 있는지 없는지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541610-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546380-1",
+    "wordId": "lex-jmdict-1546380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 75,
+    "meaning": "용도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546380-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546770-1",
+    "wordId": "lex-jmdict-1546770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "요지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546770-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546850-1",
+    "wordId": "lex-jmdict-1546850",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "요령, 핵심 방법",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546850-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549500-1",
+    "wordId": "lex-jmdict-1549500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "이해, 이익과 손해",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549500-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1555610-1",
+    "wordId": "lex-jmdict-1555610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "임시, 수시",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1555610-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1556410-1",
+    "wordId": "lex-jmdict-1556410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "예외",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1556410-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596370-1",
+    "wordId": "lex-jmdict-1596370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "상호, 서로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596370-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601160-1",
+    "wordId": "lex-jmdict-1601160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "반영",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601160-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1603660-1",
+    "wordId": "lex-jmdict-1603660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "방대함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1603660-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589880-1",
+    "wordId": "lex-jmdict-1589880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "관여하다, 관계하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589880-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1593780-1",
+    "wordId": "lex-jmdict-1593780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "지장, 문제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1593780-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596860-1",
+    "wordId": "lex-jmdict-1596860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "비축하다, 축적하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596860-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546090-1",
+    "wordId": "lex-jmdict-1546090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "녹아들다, 융화되다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546090-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421420-1",
+    "wordId": "lex-jmdict-1421420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 68,
+    "meaning": "지반",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421420-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421360-1",
+    "wordId": "lex-jmdict-1421360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "지대",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421360-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1469970-1",
+    "wordId": "lex-jmdict-1469970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "농도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1469970-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470330-1",
+    "wordId": "lex-jmdict-1470330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "능률",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470330-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1469050-1",
+    "wordId": "lex-jmdict-1469050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "연도, 회계·사업 연도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1469050-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454970-1",
+    "wordId": "lex-jmdict-1454970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "특수함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454970-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455080-1",
+    "wordId": "lex-jmdict-1455080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "특색",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455080-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455200-1",
+    "wordId": "lex-jmdict-1455200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "장점, 좋은 특징",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455200-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1426190-1",
+    "wordId": "lex-jmdict-1426190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "추상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1426190-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427220-1",
+    "wordId": "lex-jmdict-1427220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "저장, 비축",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427220-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1416560-1",
+    "wordId": "lex-jmdict-1416560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "탈선, 본론에서 벗어남",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1416560-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449670-1",
+    "wordId": "lex-jmdict-1449670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "통일",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449670-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1450900-1",
+    "wordId": "lex-jmdict-1450900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "두뇌",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1450900-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538690-1",
+    "wordId": "lex-jmdict-1538690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "방심",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538690-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375390-1",
+    "wordId": "lex-jmdict-1375390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "성질, 성격",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375390-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379370-1",
+    "wordId": "lex-jmdict-1379370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "생장, 식물의 성장",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379370-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374810-1",
+    "wordId": "lex-jmdict-1374810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "제작, 예술 작품 만들기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374810-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1380650-1",
+    "wordId": "lex-jmdict-1380650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "제작, 물건 만들기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1380650-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378790-1",
+    "wordId": "lex-jmdict-1378790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "건방짐, 주제넘음",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378790-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1382090-1",
+    "wordId": "lex-jmdict-1382090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "세관",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1382090-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350140-1",
+    "wordId": "lex-jmdict-1350140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "소화",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350140-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538810-1",
+    "wordId": "lex-jmdict-1538810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "수혈",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538810-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1490080-1",
+    "wordId": "lex-jmdict-1490080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 110,
+    "meaning": "평론",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1490080-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545420-1",
+    "wordId": "lex-jmdict-1545420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "용적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545420-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533230-1",
+    "wordId": "lex-jmdict-1533230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 11,
+    "meaning": "면세",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533230-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529270-1",
+    "wordId": "lex-jmdict-1529270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "민요",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529270-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505510-1",
+    "wordId": "lex-jmdict-1505510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "문체",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505510-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505290-1",
+    "wordId": "lex-jmdict-1505290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "문예, 문학 예술",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505290-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1517380-1",
+    "wordId": "lex-jmdict-1517380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "법칙",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1517380-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523170-1",
+    "wordId": "lex-jmdict-1523170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "본부",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523170-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530280-1",
+    "wordId": "lex-jmdict-1530280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "무수함, 셀 수 없이 많음",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530280-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532760-1",
+    "wordId": "lex-jmdict-1532760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "미신",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532760-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538280-1",
+    "wordId": "lex-jmdict-1538280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 79,
+    "meaning": "약품",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538280-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1540080-1",
+    "wordId": "lex-jmdict-1540080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 84,
+    "meaning": "우호",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1540080-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549350-1",
+    "wordId": "lex-jmdict-1549350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "란, 기입 칸",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549350-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552230-1",
+    "wordId": "lex-jmdict-1552230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "유역",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552230-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559450-1",
+    "wordId": "lex-jmdict-1559450",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 75,
+    "meaning": "연합",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559450-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561640-1",
+    "wordId": "lex-jmdict-1561640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 29,
+    "meaning": "논하다, 논의하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561640-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470780-1",
+    "wordId": "lex-jmdict-1470780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "농약",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470780-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477750-1",
+    "wordId": "lex-jmdict-1477750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "발전, 전기 생산",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477750-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443810-1",
+    "wordId": "lex-jmdict-1443810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "전력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443810-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546050-1",
+    "wordId": "lex-jmdict-1546050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 15,
+    "meaning": "풀다·액체에 섞다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546050-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551960-1",
+    "wordId": "lex-jmdict-1551960",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "줄여 쓰다·줄이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551960-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560710-1",
+    "wordId": "lex-jmdict-1560710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "명랑하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560710-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1576360-1",
+    "wordId": "lex-jmdict-1576360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "벗어나다·빗나가다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1576360-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1582430-1",
+    "wordId": "lex-jmdict-1582430",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "무디다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1582430-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1592130-1",
+    "wordId": "lex-jmdict-1592130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "구분하다·나누다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1592130-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554750-1",
+    "wordId": "lex-jmdict-1554750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "금액 수령·영수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554750-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595360-1",
+    "wordId": "lex-jmdict-1595360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "위독한 상태",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595360-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596730-1",
+    "wordId": "lex-jmdict-1596730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "잇달아·속속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596730-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1597480-1",
+    "wordId": "lex-jmdict-1597480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "착실히·차근차근",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1597480-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1597300-1",
+    "wordId": "lex-jmdict-1597300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "단편",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1597300-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611980-1",
+    "wordId": "lex-jmdict-1611980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 74,
+    "meaning": "혜택을 입다·좋은 조건을 누리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611980-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604280-1",
+    "wordId": "lex-jmdict-1604280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "드물다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604280-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1422440-1",
+    "wordId": "lex-jmdict-1422440",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "축적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1422440-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425540-1",
+    "wordId": "lex-jmdict-1425540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "중립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425540-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429330-1",
+    "wordId": "lex-jmdict-1429330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 8,
+    "meaning": "조화",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429330-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435530-1",
+    "wordId": "lex-jmdict-1435530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "정의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435530-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441080-1",
+    "wordId": "lex-jmdict-1441080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 100,
+    "meaning": "전환",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441080-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451630-1",
+    "wordId": "lex-jmdict-1451630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "동요",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451630-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455810-1",
+    "wordId": "lex-jmdict-1455810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "독자적임, 고유함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455810-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455870-1",
+    "wordId": "lex-jmdict-1455870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "독점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1473200-1",
+    "wordId": "lex-jmdict-1473200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "배분",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1473200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1490830-1",
+    "wordId": "lex-jmdict-1490830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "빈곤",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1490830-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501060-1",
+    "wordId": "lex-jmdict-1501060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "복지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501060-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505150-1",
+    "wordId": "lex-jmdict-1505150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 19,
+    "meaning": "문화재",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505150-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1510380-1",
+    "wordId": "lex-jmdict-1510380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "편견",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1510380-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1511450-1",
+    "wordId": "lex-jmdict-1511450",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "변동",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1511450-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512210-1",
+    "wordId": "lex-jmdict-1512210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "변제, 빚 갚기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512210-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1503580-1",
+    "wordId": "lex-jmdict-1503580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 120,
+    "meaning": "분산",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1503580-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504370-1",
+    "wordId": "lex-jmdict-1504370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "분리",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504370-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491950-1",
+    "wordId": "lex-jmdict-1491950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "불황",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491950-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1494120-1",
+    "wordId": "lex-jmdict-1494120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 111,
+    "meaning": "부당함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1494120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483410-1",
+    "wordId": "lex-jmdict-1483410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "비난",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483410-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491400-1",
+    "wordId": "lex-jmdict-1491400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "불가결함, 꼭 필요함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491400-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1490140-1",
+    "wordId": "lex-jmdict-1490140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "묘사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1490140-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423060-1",
+    "wordId": "lex-jmdict-1423060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 74,
+    "meaning": "착수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423060-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423260-1",
+    "wordId": "lex-jmdict-1423260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "착안, 주목",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424500-1",
+    "wordId": "lex-jmdict-1424500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "중상, 근거 없는 비방",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424500-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424660-1",
+    "wordId": "lex-jmdict-1424660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "중추",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424660-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429260-1",
+    "wordId": "lex-jmdict-1429260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "조정, 분쟁 중재",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431540-1",
+    "wordId": "lex-jmdict-1431540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "직면",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431540-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432760-1",
+    "wordId": "lex-jmdict-1432760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "통감, 절실히 느낌",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432760-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435010-1",
+    "wordId": "lex-jmdict-1435010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "정체",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435010-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436380-1",
+    "wordId": "lex-jmdict-1436380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "제휴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436380-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437380-1",
+    "wordId": "lex-jmdict-1437380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 94,
+    "meaning": "적절히, 상황에 맞게",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437380-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440640-1",
+    "wordId": "lex-jmdict-1440640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "전망",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440640-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449820-1",
+    "wordId": "lex-jmdict-1449820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 74,
+    "meaning": "통제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449820-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451330-1",
+    "wordId": "lex-jmdict-1451330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "동향",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451330-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454870-1",
+    "wordId": "lex-jmdict-1454870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "특권",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1467280-1",
+    "wordId": "lex-jmdict-1467280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "임명",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1467280-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1478520-1",
+    "wordId": "lex-jmdict-1478520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "판결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1478520-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1500750-1",
+    "wordId": "lex-jmdict-1500750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "부흥, 재건",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1500750-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1510940-1",
+    "wordId": "lex-jmdict-1510940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "변혁",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1510940-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1511260-1",
+    "wordId": "lex-jmdict-1511260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "변천",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1511260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512170-1",
+    "wordId": "lex-jmdict-1512170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "반환",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512170-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512480-1",
+    "wordId": "lex-jmdict-1512480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "편의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512480-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512760-1",
+    "wordId": "lex-jmdict-1512760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "변명",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512760-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1496990-1",
+    "wordId": "lex-jmdict-1496990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "부양",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1496990-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1498080-1",
+    "wordId": "lex-jmdict-1498080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "부채",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1498080-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1502540-1",
+    "wordId": "lex-jmdict-1502540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "물자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1502540-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504750-1",
+    "wordId": "lex-jmdict-1504750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "분투",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504750-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1493120-1",
+    "wordId": "lex-jmdict-1493120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "의심스러움, 수상함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1493120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487570-1",
+    "wordId": "lex-jmdict-1487570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 34,
+    "meaning": "필연",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487570-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1419590-1",
+    "wordId": "lex-jmdict-1419590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "단언",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1419590-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432670-1",
+    "wordId": "lex-jmdict-1432670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 11,
+    "meaning": "추방",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432670-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1453120-1",
+    "wordId": "lex-jmdict-1453120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 84,
+    "meaning": "동조",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1453120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427070-1",
+    "wordId": "lex-jmdict-1427070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "현저하다, 두드러지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427070-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1484600-1",
+    "wordId": "lex-jmdict-1484600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "들이다, 소비하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1484600-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504510-1",
+    "wordId": "lex-jmdict-1504510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "분열",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1480890-1",
+    "wordId": "lex-jmdict-1480890",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "반발",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1480890-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472370-1",
+    "wordId": "lex-jmdict-1472370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 100,
+    "meaning": "배제, 제거",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472370-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472030-1",
+    "wordId": "lex-jmdict-1472030",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 13,
+    "meaning": "폐기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472030-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1478660-1",
+    "wordId": "lex-jmdict-1478660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 76,
+    "meaning": "판정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1478660-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481700-1",
+    "wordId": "lex-jmdict-1481700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "번식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481700-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1493150-1",
+    "wordId": "lex-jmdict-1493150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "부진",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1493150-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528290-1",
+    "wordId": "lex-jmdict-1528290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "밀접함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528290-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532620-1",
+    "wordId": "lex-jmdict-1532620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "명료함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532620-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533200-1",
+    "wordId": "lex-jmdict-1533200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "면제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533700-1",
+    "wordId": "lex-jmdict-1533700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "모방",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533700-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541120-1",
+    "wordId": "lex-jmdict-1541120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "유익함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1550010-1",
+    "wordId": "lex-jmdict-1550010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 94,
+    "meaning": "이성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1550010-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552440-1",
+    "wordId": "lex-jmdict-1552440",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "유통",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552440-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554110-1",
+    "wordId": "lex-jmdict-1554110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "양립, 병행",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554720-1",
+    "wordId": "lex-jmdict-1554720",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "영역",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554720-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560650-1",
+    "wordId": "lex-jmdict-1560650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "노력, 수고",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560650-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561850-1",
+    "wordId": "lex-jmdict-1561850",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "논리",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561850-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578050-1",
+    "wordId": "lex-jmdict-1578050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "공존",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578050-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423030-1",
+    "wordId": "lex-jmdict-1423030",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "착공",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423030-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429080-1",
+    "wordId": "lex-jmdict-1429080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "조인, 서명 체결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429080-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432480-1",
+    "wordId": "lex-jmdict-1432480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "추궁",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432480-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451260-1",
+    "wordId": "lex-jmdict-1451260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 11,
+    "meaning": "동원",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487250-1",
+    "wordId": "lex-jmdict-1487250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "필적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487250-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1498200-1",
+    "wordId": "lex-jmdict-1498200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "부임",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1498200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501490-1",
+    "wordId": "lex-jmdict-1501490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "뒤집다, 번복하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501490-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505010-1",
+    "wordId": "lex-jmdict-1505010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "뒤섞여 눈에 띄지 않다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505010-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1494700-1",
+    "wordId": "lex-jmdict-1494700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "불복, 불만",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1494700-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1480310-1",
+    "wordId": "lex-jmdict-1480310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "반향, 반응",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1480310-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475730-1",
+    "wordId": "lex-jmdict-1475730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "박해",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475730-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481670-1",
+    "wordId": "lex-jmdict-1481670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "번영",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481670-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481710-1",
+    "wordId": "lex-jmdict-1481710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "번창, 성업",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481710-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1534280-1",
+    "wordId": "lex-jmdict-1534280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "맹점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1534280-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539100-1",
+    "wordId": "lex-jmdict-1539100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 19,
+    "meaning": "우위",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539100-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541600-1",
+    "wordId": "lex-jmdict-1541600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 3,
+    "meaning": "유망함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541600-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1544380-1",
+    "wordId": "lex-jmdict-1544380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "여지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1544380-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545840-1",
+    "wordId": "lex-jmdict-1545840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "양상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545840-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549120-1",
+    "wordId": "lex-jmdict-1549120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "남용",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554570-1",
+    "wordId": "lex-jmdict-1554570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "양식, 건전한 판단력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554570-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1556120-1",
+    "wordId": "lex-jmdict-1556120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "유추",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1556120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559660-1",
+    "wordId": "lex-jmdict-1559660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 26,
+    "meaning": "연대",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559660-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560120-1",
+    "wordId": "lex-jmdict-1560120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 3,
+    "meaning": "노골적임",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1584900-1",
+    "wordId": "lex-jmdict-1584900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "융통성, 유연한 대응",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1584900-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591390-1",
+    "wordId": "lex-jmdict-1591390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "규범",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591390-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1602820-1",
+    "wordId": "lex-jmdict-1602820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "보편",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1602820-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441400-1",
+    "wordId": "lex-jmdict-1441400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "켜지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441400-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396910-1",
+    "wordId": "lex-jmdict-1396910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 25,
+    "meaning": "거칠다·성기다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396910-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396590-1",
+    "wordId": "lex-jmdict-1396590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "노리다·겨누다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396590-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483600-1",
+    "wordId": "lex-jmdict-1483600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "비교적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483600-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491840-1",
+    "wordId": "lex-jmdict-1491840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "불규칙하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491840-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1503210-1",
+    "wordId": "lex-jmdict-1503210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 8,
+    "meaning": "분해",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1503210-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1520380-1",
+    "wordId": "lex-jmdict-1520380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "방지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1520380-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1534490-1",
+    "wordId": "lex-jmdict-1534490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "이익이 나다·돈이 벌리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1534490-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1544090-1",
+    "wordId": "lex-jmdict-1544090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "불필요하다·쓸데없다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1544090-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278460-1",
+    "wordId": "lex-jmdict-1278460",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 0,
+    "meaning": "널리 퍼뜨리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278460-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279130-1",
+    "wordId": "lex-jmdict-1279130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "공격하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279130-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283240-1",
+    "wordId": "lex-jmdict-1283240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "높이다·향상시키다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283240-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1288350-1",
+    "wordId": "lex-jmdict-1288350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "걸터앉다·앉다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1288350-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1295170-1",
+    "wordId": "lex-jmdict-1295170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "잘게 부수다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1295170-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1295190-1",
+    "wordId": "lex-jmdict-1295190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "부서지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1295190-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1373680-1",
+    "wordId": "lex-jmdict-1373680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "맑아지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1373680-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379740-1",
+    "wordId": "lex-jmdict-1379740",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "담다·차려 담다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379740-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1382970-1",
+    "wordId": "lex-jmdict-1382970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "쌓다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1382970-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1389970-1",
+    "wordId": "lex-jmdict-1389970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "뾰족해지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1389970-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440980-1",
+    "wordId": "lex-jmdict-1440980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "굴리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440980-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441000-1",
+    "wordId": "lex-jmdict-1441000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "굴러가다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441000-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1450320-1",
+    "wordId": "lex-jmdict-1450320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "놓아주다·도망가게 하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1450320-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1456780-1",
+    "wordId": "lex-jmdict-1456780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "부딪치다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1456780-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1456940-1",
+    "wordId": "lex-jmdict-1456940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "쑤셔 넣다·밀어 넣다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1456940-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1205190-1",
+    "wordId": "lex-jmdict-1205190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "확충",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1205190-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1244530-1",
+    "wordId": "lex-jmdict-1244530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "고심·애씀",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1244530-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1292760-1",
+    "wordId": "lex-jmdict-1292760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "거듭·여러 번",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1292760-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1316400-1",
+    "wordId": "lex-jmdict-1316400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "뒤를 잇다·다음가다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1316400-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370010-1",
+    "wordId": "lex-jmdict-1370010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "심하다·지나치다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370010-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385350-1",
+    "wordId": "lex-jmdict-1385350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "접하다·맞닿다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385350-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1386700-1",
+    "wordId": "lex-jmdict-1386700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "끊임없이",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1386700-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1389810-1",
+    "wordId": "lex-jmdict-1389810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "전제 정치·독재적 지배",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1389810-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1502640-1",
+    "wordId": "lex-jmdict-1502640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "흉흉하다·위험하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1502640-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1482710-1",
+    "wordId": "lex-jmdict-1482710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 71,
+    "meaning": "비겁하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1482710-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483900-1",
+    "wordId": "lex-jmdict-1483900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 5,
+    "meaning": "빈정거림·비꼼",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483900-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1497110-1",
+    "wordId": "lex-jmdict-1497110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "보급",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1497110-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504160-1",
+    "wordId": "lex-jmdict-1504160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "분포",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504160-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501580-1",
+    "wordId": "lex-jmdict-1501580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "납입하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501580-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1518320-1",
+    "wordId": "lex-jmdict-1518320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "끝까지·철저히",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1518320-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532810-1",
+    "wordId": "lex-jmdict-1532810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "각자·제각기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532810-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279290-1",
+    "wordId": "lex-jmdict-1279290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 32,
+    "meaning": "깊어지다·늦어지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279290-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1280950-1",
+    "wordId": "lex-jmdict-1280950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "갈다·경작하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1280950-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322170-1",
+    "wordId": "lex-jmdict-1322170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "비치다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322170-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1337590-1",
+    "wordId": "lex-jmdict-1337590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "곱슬거리다·꼬불꼬불해지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1337590-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381210-1",
+    "wordId": "lex-jmdict-1381210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "맹세하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381210-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427950-1",
+    "wordId": "lex-jmdict-1427950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "새기다·조각하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427950-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1446180-1",
+    "wordId": "lex-jmdict-1446180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 108,
+    "meaning": "얼어붙을 듯 춥다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1446180-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404750-1",
+    "wordId": "lex-jmdict-1404750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "충분하다·그럴 만하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404750-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430040-1",
+    "wordId": "lex-jmdict-1430040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "장녀·맏딸",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430040-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430080-1",
+    "wordId": "lex-jmdict-1430080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 68,
+    "meaning": "장남·맏아들",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430080-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449220-1",
+    "wordId": "lex-jmdict-1449220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "당번",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449220-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533560-1",
+    "wordId": "lex-jmdict-1533560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "귀찮다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533560-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541560-1",
+    "wordId": "lex-jmdict-1541560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "고맙다·감사하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541560-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1580620-1",
+    "wordId": "lex-jmdict-1580620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "새하얗다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1580620-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1409560-1",
+    "wordId": "lex-jmdict-1409560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "부피",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1409560-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421380-1",
+    "wordId": "lex-jmdict-1421380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 43,
+    "meaning": "지점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421380-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421500-1",
+    "wordId": "lex-jmdict-1421500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "지명",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421500-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423680-1",
+    "wordId": "lex-jmdict-1423680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "중간",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423680-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425240-1",
+    "wordId": "lex-jmdict-1425240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "중년",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425240-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430130-1",
+    "wordId": "lex-jmdict-1430130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "직사각형",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430130-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430240-1",
+    "wordId": "lex-jmdict-1430240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "꼭짓점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430240-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430800-1",
+    "wordId": "lex-jmdict-1430800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "직각",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430800-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431310-1",
+    "wordId": "lex-jmdict-1431310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 53,
+    "meaning": "직선",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431310-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1433570-1",
+    "wordId": "lex-jmdict-1433570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "통용",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1433570-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435410-1",
+    "wordId": "lex-jmdict-1435410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "정가",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435410-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436840-1",
+    "wordId": "lex-jmdict-1436840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "못",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436840-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437820-1",
+    "wordId": "lex-jmdict-1437820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 29,
+    "meaning": "철교",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437820-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1442110-1",
+    "wordId": "lex-jmdict-1442110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "전염",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1442110-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443720-1",
+    "wordId": "lex-jmdict-1443720",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "전파·통신 신호",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443720-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1445000-1",
+    "wordId": "lex-jmdict-1445000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "도심",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1445000-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449510-1",
+    "wordId": "lex-jmdict-1449510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "등분",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449510-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1281450-1",
+    "wordId": "lex-jmdict-1281450",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "거칠다·사납다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1281450-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381760-1",
+    "wordId": "lex-jmdict-1381760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "창백하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381760-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1391940-1",
+    "wordId": "lex-jmdict-1391940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "부럽다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1391940-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475530-1",
+    "wordId": "lex-jmdict-1475530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "어둑하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475530-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491290-1",
+    "wordId": "lex-jmdict-1491290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "불운",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491290-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1492160-1",
+    "wordId": "lex-jmdict-1492160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 21,
+    "meaning": "불결하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1492160-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1507180-1",
+    "wordId": "lex-jmdict-1507180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 32,
+    "meaning": "태연하다·괜찮다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1507180-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1507910-1",
+    "wordId": "lex-jmdict-1507910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 5,
+    "meaning": "평범하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1507910-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1502630-1",
+    "wordId": "lex-jmdict-1502630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "엄청나다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1502630-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547390-1",
+    "wordId": "lex-jmdict-1547390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "욕심이 많다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547390-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552390-1",
+    "wordId": "lex-jmdict-1552390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 25,
+    "meaning": "역시·과연",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552390-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1582410-1",
+    "wordId": "lex-jmdict-1582410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "울퉁불퉁함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1582410-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1593650-1",
+    "wordId": "lex-jmdict-1593650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "거꾸로다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1593650-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606610-1",
+    "wordId": "lex-jmdict-1606610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "젊어 보이다·젊음이 넘치다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606610-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333810-1",
+    "wordId": "lex-jmdict-1333810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "추하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333810-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1341910-1",
+    "wordId": "lex-jmdict-1341910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 73,
+    "meaning": "순진하다·순수하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1341910-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378140-1",
+    "wordId": "lex-jmdict-1378140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "맑다·깨끗하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378140-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539660-1",
+    "wordId": "lex-jmdict-1539660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "용감하다·씩씩하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539660-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596440-1",
+    "wordId": "lex-jmdict-1596440",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 13,
+    "meaning": "시끄럽다·소란스럽다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596440-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604650-1",
+    "wordId": "lex-jmdict-1604650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "눈에 익다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604650-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404590-1",
+    "wordId": "lex-jmdict-1404590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "측량",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404590-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424710-1",
+    "wordId": "lex-jmdict-1424710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 51,
+    "meaning": "중성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424710-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425030-1",
+    "wordId": "lex-jmdict-1425030",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "도중·중도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425030-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431600-1",
+    "wordId": "lex-jmdict-1431600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 51,
+    "meaning": "직류",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431600-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443790-1",
+    "wordId": "lex-jmdict-1443790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "전류",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443790-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440610-1",
+    "wordId": "lex-jmdict-1440610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "전시",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440610-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436360-1",
+    "wordId": "lex-jmdict-1436360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 73,
+    "meaning": "제공",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436360-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1473150-1",
+    "wordId": "lex-jmdict-1473150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "배치",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1473150-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527830-1",
+    "wordId": "lex-jmdict-1527830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "미정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527830-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530600-1",
+    "wordId": "lex-jmdict-1530600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "무단",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530600-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531620-1",
+    "wordId": "lex-jmdict-1531620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "명칭",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531620-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549620-1",
+    "wordId": "lex-jmdict-1549620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "이점, 장점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549620-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1314050-1",
+    "wordId": "lex-jmdict-1314050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "사전, 일이 있기 전",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1314050-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1600190-1",
+    "wordId": "lex-jmdict-1600190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 121,
+    "meaning": "가격 할인",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1600190-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596240-1",
+    "wordId": "lex-jmdict-1596240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "전용",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596240-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1420630-1",
+    "wordId": "lex-jmdict-1420630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "지성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1420630-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1420340-1",
+    "wordId": "lex-jmdict-1420340",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "가치",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1420340-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1419230-1",
+    "wordId": "lex-jmdict-1419230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "단결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1419230-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1419530-1",
+    "wordId": "lex-jmdict-1419530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "탄력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1419530-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425160-1",
+    "wordId": "lex-jmdict-1425160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "중독",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425160-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1426140-1",
+    "wordId": "lex-jmdict-1426140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "충고",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1426140-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424900-1",
+    "wordId": "lex-jmdict-1424900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "중단",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424900-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325450-1",
+    "wordId": "lex-jmdict-1325450",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "주최",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325450-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326040-1",
+    "wordId": "lex-jmdict-1326040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "주임",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326040-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343310-1",
+    "wordId": "lex-jmdict-1343310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "소속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343310-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343250-1",
+    "wordId": "lex-jmdict-1343250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "소지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343250-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1342490-1",
+    "wordId": "lex-jmdict-1342490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "처분, 정리하여 버림",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1342490-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321170-1",
+    "wordId": "lex-jmdict-1321170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 73,
+    "meaning": "실질",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321170-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321410-1",
+    "wordId": "lex-jmdict-1321410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 76,
+    "meaning": "실비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321410-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317490-1",
+    "wordId": "lex-jmdict-1317490",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "자각",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317490-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317860-1",
+    "wordId": "lex-jmdict-1317860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "자주, 스스로 함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317860-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1318880-1",
+    "wordId": "lex-jmdict-1318880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "자립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1318880-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1318990-1",
+    "wordId": "lex-jmdict-1318990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 79,
+    "meaning": "사양, 사퇴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1318990-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320280-1",
+    "wordId": "lex-jmdict-1320280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "질투",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320280-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322860-1",
+    "wordId": "lex-jmdict-1322860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 68,
+    "meaning": "사교",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322860-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328120-1",
+    "wordId": "lex-jmdict-1328120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "때가 늦음, 이미 늦은 상태",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328120-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329860-1",
+    "wordId": "lex-jmdict-1329860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "수동적 태도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329860-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330880-1",
+    "wordId": "lex-jmdict-1330880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "수용",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330880-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1334340-1",
+    "wordId": "lex-jmdict-1334340",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "충실함, 알찬 상태",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1334340-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436400-1",
+    "wordId": "lex-jmdict-1436400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "제시",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436400-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1433280-1",
+    "wordId": "lex-jmdict-1433280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "통상, 보통",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1433280-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1453190-1",
+    "wordId": "lex-jmdict-1453190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "동등함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1453190-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455370-1",
+    "wordId": "lex-jmdict-1455370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "특유함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455370-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437410-1",
+    "wordId": "lex-jmdict-1437410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "적성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437410-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427150-1",
+    "wordId": "lex-jmdict-1427150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 122,
+    "meaning": "저명함, 유명함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427150-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430850-1",
+    "wordId": "lex-jmdict-1430850",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "직감",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430850-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451660-1",
+    "wordId": "lex-jmdict-1451660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "동력",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451660-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432560-1",
+    "wordId": "lex-jmdict-1432560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "추적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432560-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1447300-1",
+    "wordId": "lex-jmdict-1447300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "투입",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1447300-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1457100-1",
+    "wordId": "lex-jmdict-1457100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "돌파",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1457100-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431990-1",
+    "wordId": "lex-jmdict-1431990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "임금",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431990-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435740-1",
+    "wordId": "lex-jmdict-1435740",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "정년",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435740-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441120-1",
+    "wordId": "lex-jmdict-1441120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "전근",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441120-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1442240-1",
+    "wordId": "lex-jmdict-1442240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "전달",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1442240-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1447230-1",
+    "wordId": "lex-jmdict-1447230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "투자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1447230-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451310-1",
+    "wordId": "lex-jmdict-1451310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "동기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451310-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1452720-1",
+    "wordId": "lex-jmdict-1452720",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "동정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1452720-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1453340-1",
+    "wordId": "lex-jmdict-1453340",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "동봉",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1453340-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454780-1",
+    "wordId": "lex-jmdict-1454780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "특허",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454780-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455060-1",
+    "wordId": "lex-jmdict-1455060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "특집",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455060-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1467260-1",
+    "wordId": "lex-jmdict-1467260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "임무",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1467260-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1471130-1",
+    "wordId": "lex-jmdict-1471130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "파견",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1471130-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528280-1",
+    "wordId": "lex-jmdict-1528280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 8,
+    "meaning": "밀집",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528280-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527560-1",
+    "wordId": "lex-jmdict-1527560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "미숙함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527560-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527770-1",
+    "wordId": "lex-jmdict-1527770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "미지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527770-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529930-1",
+    "wordId": "lex-jmdict-1529930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "무효",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529930-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531870-1",
+    "wordId": "lex-jmdict-1531870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "명예",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531870-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533690-1",
+    "wordId": "lex-jmdict-1533690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 9,
+    "meaning": "모범",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533690-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541710-1",
+    "wordId": "lex-jmdict-1541710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "유력함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541710-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542020-1",
+    "wordId": "lex-jmdict-1542020",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "유도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542020-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542040-1",
+    "wordId": "lex-jmdict-1542040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "유혹",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542040-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1543980-1",
+    "wordId": "lex-jmdict-1543980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "여가",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1543980-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546830-1",
+    "wordId": "lex-jmdict-1546830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "요망, 요청",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546830-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547190-1",
+    "wordId": "lex-jmdict-1547190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "양성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547190-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1550160-1",
+    "wordId": "lex-jmdict-1550160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 110,
+    "meaning": "이론",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1550160-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1556100-1",
+    "wordId": "lex-jmdict-1556100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "유사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1556100-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1557150-1",
+    "wordId": "lex-jmdict-1557150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 74,
+    "meaning": "냉담함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1557150-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560240-1",
+    "wordId": "lex-jmdict-1560240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "위로하다, 노고를 헤아려 돌보다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560240-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561960-1",
+    "wordId": "lex-jmdict-1561960",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "누그러뜨리다, 완화하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561960-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1564360-1",
+    "wordId": "lex-jmdict-1564360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 29,
+    "meaning": "꼼꼼함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1564360-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579990-1",
+    "wordId": "lex-jmdict-1579990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "편리하고 유용함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579990-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578970-1",
+    "wordId": "lex-jmdict-1578970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 17,
+    "meaning": "합병",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578970-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1580230-1",
+    "wordId": "lex-jmdict-1580230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "조언",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1580230-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1313910-1",
+    "wordId": "lex-jmdict-1313910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 52,
+    "meaning": "사항",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1313910-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1344140-1",
+    "wordId": "lex-jmdict-1344140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "서평",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1344140-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1352670-1",
+    "wordId": "lex-jmdict-1352670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 70,
+    "meaning": "상연",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1352670-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1339620-1",
+    "wordId": "lex-jmdict-1339620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "출제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1339620-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1331590-1",
+    "wordId": "lex-jmdict-1331590",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 112,
+    "meaning": "취업 상태, 일을 함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1331590-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1332450-1",
+    "wordId": "lex-jmdict-1332450",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 4,
+    "meaning": "수료",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1332450-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1349780-1",
+    "wordId": "lex-jmdict-1349780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 122,
+    "meaning": "승진",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1349780-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1583130-1",
+    "wordId": "lex-jmdict-1583130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "발족",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1583130-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1587150-1",
+    "wordId": "lex-jmdict-1587150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "육성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1587150-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598240-1",
+    "wordId": "lex-jmdict-1598240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "수당",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598240-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598410-1",
+    "wordId": "lex-jmdict-1598410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "안내서, 지침",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598410-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596380-1",
+    "wordId": "lex-jmdict-1596380",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 4,
+    "meaning": "종합",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596380-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598990-1",
+    "wordId": "lex-jmdict-1598990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "취급, 다루는 방법",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598990-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599070-1",
+    "wordId": "lex-jmdict-1599070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "단속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599070-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604480-1",
+    "wordId": "lex-jmdict-1604480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 107,
+    "meaning": "전망, 예상 가능성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604480-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604610-1",
+    "wordId": "lex-jmdict-1604610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "전망, 앞으로의 예상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604610-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594180-1",
+    "wordId": "lex-jmdict-1594180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "구조, 작동 원리",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594180-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591780-1",
+    "wordId": "lex-jmdict-1591780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 3,
+    "meaning": "전환하다, 바꾸다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591780-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601480-1",
+    "wordId": "lex-jmdict-1601480",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 66,
+    "meaning": "올리다, 인상하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601480-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601600-1",
+    "wordId": "lex-jmdict-1601600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "내리다, 인하하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601600-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532220-1",
+    "wordId": "lex-jmdict-1532220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 79,
+    "meaning": "밝히다, 털어놓다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532220-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547090-1",
+    "wordId": "lex-jmdict-1547090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "부양하다, 기르다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547090-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-JLPTN3_44-2",
+    "wordId": "JLPTN3_44",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "글씨·표시를 지우다, 저장된 기록을 삭제하다",
+    "examples": [
+      {
+        "id": "sense-JLPTN3_44-2-ex-1",
+        "version": 1,
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379410-1",
+    "wordId": "lex-jmdict-1379410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "생년월일",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379410-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375520-1",
+    "wordId": "lex-jmdict-1375520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "성별",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375520-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381140-1",
+    "wordId": "lex-jmdict-1381140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 68,
+    "meaning": "서력·서기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381140-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381570-1",
+    "wordId": "lex-jmdict-1381570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 3,
+    "meaning": "청소년",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381570-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1388110-1",
+    "wordId": "lex-jmdict-1388110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "끝부분·첨단",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1388110-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396820-1",
+    "wordId": "lex-jmdict-1396820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 5,
+    "meaning": "조상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396820-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1460180-1",
+    "wordId": "lex-jmdict-1460180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "남극",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1460180-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1461870-1",
+    "wordId": "lex-jmdict-1461870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "이차·두 번째 단계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1461870-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470730-1",
+    "wordId": "lex-jmdict-1470730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "농촌",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470730-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1471420-1",
+    "wordId": "lex-jmdict-1471420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "파편·조각",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1471420-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487500-1",
+    "wordId": "lex-jmdict-1487500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 21,
+    "meaning": "필수품",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487500-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1486670-1",
+    "wordId": "lex-jmdict-1486670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "미용",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1486670-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483920-1",
+    "wordId": "lex-jmdict-1483920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "피부",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483920-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1479230-1",
+    "wordId": "lex-jmdict-1479230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 32,
+    "meaning": "반지름",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1479230-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1479770-1",
+    "wordId": "lex-jmdict-1479770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "반도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1479770-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1482360-1",
+    "wordId": "lex-jmdict-1482360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 108,
+    "meaning": "번지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1482360-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1358410-1",
+    "wordId": "lex-jmdict-1358410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "식용 소금",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1358410-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1362530-1",
+    "wordId": "lex-jmdict-1362530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "삼림·숲",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1362530-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378320-1",
+    "wordId": "lex-jmdict-1378320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "청소",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378320-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474050-1",
+    "wordId": "lex-jmdict-1474050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "매매",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474050-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477810-1",
+    "wordId": "lex-jmdict-1477810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "판매 개시·출시",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477810-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1480540-1",
+    "wordId": "lex-jmdict-1480540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "반성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1480540-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1515510-1",
+    "wordId": "lex-jmdict-1515510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "포장",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1515510-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1508600-1",
+    "wordId": "lex-jmdict-1508600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "폐회",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1508600-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1548200-1",
+    "wordId": "lex-jmdict-1548200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "일본 방문·일본에 옴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1548200-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599640-1",
+    "wordId": "lex-jmdict-1599640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "가로수·나무 행렬",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599640-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595750-1",
+    "wordId": "lex-jmdict-1595750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "거처·주거",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595750-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463920-1",
+    "wordId": "lex-jmdict-1463920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 93,
+    "meaning": "당일치기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463920-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1376060-1",
+    "wordId": "lex-jmdict-1376060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "정당",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1376060-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421130-1",
+    "wordId": "lex-jmdict-1421130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "지질",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421130-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424690-1",
+    "wordId": "lex-jmdict-1424690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "중세",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424690-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366280-1",
+    "wordId": "lex-jmdict-1366280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "진로·항로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366280-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1369140-1",
+    "wordId": "lex-jmdict-1369140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "인문학",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1369140-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1318110-1",
+    "wordId": "lex-jmdict-1318110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 63,
+    "meaning": "자연 과학",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1318110-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322720-1",
+    "wordId": "lex-jmdict-1322720",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "사회 과학",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322720-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1179930-1",
+    "wordId": "lex-jmdict-1179930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "응접·손님 맞이",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1179930-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1204520-1",
+    "wordId": "lex-jmdict-1204520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "개론",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1204520-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1291090-1",
+    "wordId": "lex-jmdict-1291090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "차감·차감한 나머지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1291090-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307570-1",
+    "wordId": "lex-jmdict-1307570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "내내·늘",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307570-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1290360-1",
+    "wordId": "lex-jmdict-1290360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "혼합",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1290360-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317400-1",
+    "wordId": "lex-jmdict-1317400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "자위·자기 방어",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317400-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317810-1",
+    "wordId": "lex-jmdict-1317810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "자치",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317810-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378240-1",
+    "wordId": "lex-jmdict-1378240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 25,
+    "meaning": "정서·깨끗이 옮겨 쓰기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378240-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1372350-1",
+    "wordId": "lex-jmdict-1372350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 61,
+    "meaning": "취사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1372350-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427980-1",
+    "wordId": "lex-jmdict-1427980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "조각",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427980-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1447270-1",
+    "wordId": "lex-jmdict-1447270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 19,
+    "meaning": "투서·독자 투고",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1447270-1-ex-1",
+        "version": 1,
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501390-1",
+    "wordId": "lex-jmdict-1501390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "복사·복제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501390-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1536060-1",
+    "wordId": "lex-jmdict-1536060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "문답",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1536060-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554730-1",
+    "wordId": "lex-jmdict-1554730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "영사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554730-1-ex-1",
+        "version": 1,
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589960-1",
+    "wordId": "lex-jmdict-1589960",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "등기 우편",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589960-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_12-2",
+    "wordId": "AbsoluteVerb_12",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "결석하다·결근하다",
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_12-2-ex-1",
+        "version": 1,
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-handmade_42-2",
+    "wordId": "handmade_42",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 0,
+    "meaning": "식사",
+    "examples": [
+      {
+        "id": "sense-handmade_42-2-ex-1",
+        "version": 1,
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1476410-1",
+    "wordId": "lex-jmdict-1476410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "젓가락",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1476410-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1276110-1",
+    "wordId": "lex-jmdict-1276110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "립스틱",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1276110-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1277460-1",
+    "wordId": "lex-jmdict-1277460",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "호불호·편식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1277460-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1291980-1",
+    "wordId": "lex-jmdict-1291980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "방석",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1291980-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1306570-1",
+    "wordId": "lex-jmdict-1306570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 76,
+    "meaning": "회·사시미",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1306570-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311640-1",
+    "wordId": "lex-jmdict-1311640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 70,
+    "meaning": "보라색",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311640-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327770-1",
+    "wordId": "lex-jmdict-1327770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "손목",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327770-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1390760-1",
+    "wordId": "lex-jmdict-1390760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "선풍기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1390760-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1390950-1",
+    "wordId": "lex-jmdict-1390950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "세제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1390950-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443170-1",
+    "wordId": "lex-jmdict-1443170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "전구",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443170-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443620-1",
+    "wordId": "lex-jmdict-1443620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 90,
+    "meaning": "전지·건전지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443620-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463740-1",
+    "wordId": "lex-jmdict-1463740",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "무지개",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463740-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1464110-1",
+    "wordId": "lex-jmdict-1464110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "일시",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1464110-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474040-1",
+    "wordId": "lex-jmdict-1474040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "매점",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474040-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1291990-1",
+    "wordId": "lex-jmdict-1291990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 11,
+    "meaning": "다다미방",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1291990-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307990-1",
+    "wordId": "lex-jmdict-1307990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "자손·후손",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307990-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311340-1",
+    "wordId": "lex-jmdict-1311340",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "민영 철도·사철",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311340-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311750-1",
+    "wordId": "lex-jmdict-1311750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 120,
+    "meaning": "지방·동물성 기름",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311750-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1315060-1",
+    "wordId": "lex-jmdict-1315060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "아동·초등학생",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1315060-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320250-1",
+    "wordId": "lex-jmdict-1320250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "실연",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320250-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321670-1",
+    "wordId": "lex-jmdict-1321670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "줄무늬",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321670-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1323120-1",
+    "wordId": "lex-jmdict-1323120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "차고",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1323120-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1323170-1",
+    "wordId": "lex-jmdict-1323170",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "차장·승무원",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1323170-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1323280-1",
+    "wordId": "lex-jmdict-1323280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 53,
+    "meaning": "차륜·바퀴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1323280-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1390730-1",
+    "wordId": "lex-jmdict-1390730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "접부채",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1390730-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1391880-1",
+    "wordId": "lex-jmdict-1391880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 4,
+    "meaning": "철로·선로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1391880-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443630-1",
+    "wordId": "lex-jmdict-1443630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "전봇대",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443630-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448600-1",
+    "wordId": "lex-jmdict-1448600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "김·수증기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448600-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448730-1",
+    "wordId": "lex-jmdict-1448730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 79,
+    "meaning": "등대",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448730-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448760-1",
+    "wordId": "lex-jmdict-1448760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "등유",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448760-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454000-1",
+    "wordId": "lex-jmdict-1454000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 54,
+    "meaning": "동화",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454000-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455250-1",
+    "wordId": "lex-jmdict-1455250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "특별 할인 판매",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455250-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455670-1",
+    "wordId": "lex-jmdict-1455670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "혼잣말",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455670-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463790-1",
+    "wordId": "lex-jmdict-1463790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "일출",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463790-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463800-1",
+    "wordId": "lex-jmdict-1463800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "일몰",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463800-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463840-1",
+    "wordId": "lex-jmdict-1463840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "그늘",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463840-1-ex-1",
+        "version": 1,
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463860-1",
+    "wordId": "lex-jmdict-1463860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "일과·매일 하는 일",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463860-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477090-1",
+    "wordId": "lex-jmdict-1477090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "화분·대야형 그릇",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477090-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1476500-1",
+    "wordId": "lex-jmdict-1476500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "내의·속옷",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1476500-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328030-1",
+    "wordId": "lex-jmdict-1328030",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "앞쪽·바로 앞",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328030-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1277880-1",
+    "wordId": "lex-jmdict-1277880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 17,
+    "meaning": "효도",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1277880-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1286160-1",
+    "wordId": "lex-jmdict-1286160",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 4,
+    "meaning": "국왕",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1286160-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1292140-1",
+    "wordId": "lex-jmdict-1292140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 9,
+    "meaning": "행사·모임",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1292140-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1296200-1",
+    "wordId": "lex-jmdict-1296200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 0,
+    "meaning": "바느질·재봉",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1296200-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1296660-1",
+    "wordId": "lex-jmdict-1296660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 110,
+    "meaning": "목재",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1296660-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1303230-1",
+    "wordId": "lex-jmdict-1303230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "산림·임야",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1303230-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1310920-1",
+    "wordId": "lex-jmdict-1310920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 108,
+    "meaning": "시체·사체",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1310920-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1313350-1",
+    "wordId": "lex-jmdict-1313350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "톱니바퀴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1313350-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1458650-1",
+    "wordId": "lex-jmdict-1458650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "내선",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1458650-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474860-1",
+    "wordId": "lex-jmdict-1474860",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "재워 주다·숙박시키다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474860-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-2856318-1",
+    "wordId": "lex-jmdict-2856318",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "치료하다·낫게 하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-2856318-1-ex-1",
+        "version": 1,
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1467730-1",
+    "wordId": "lex-jmdict-1467730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "가열하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1467730-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474200-1",
+    "wordId": "lex-jmdict-1474200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "기다·기어가다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474200-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475500-1",
+    "wordId": "lex-jmdict-1475500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "희석하다·묽게 하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475500-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1497020-1",
+    "wordId": "lex-jmdict-1497020",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 39,
+    "meaning": "깔다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1497020-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514140-1",
+    "wordId": "lex-jmdict-1514140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "잡다·포획하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514140-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1519970-1",
+    "wordId": "lex-jmdict-1519970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 110,
+    "meaning": "부풀리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1519970-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532880-1",
+    "wordId": "lex-jmdict-1532880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 103,
+    "meaning": "울리다·소리를 내다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532880-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538350-1",
+    "wordId": "lex-jmdict-1538350",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "번역하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538350-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609000-1",
+    "wordId": "lex-jmdict-1609000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "부채질하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609000-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609260-1",
+    "wordId": "lex-jmdict-1609260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "싫어하는 모습을 보이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609260-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1251910-1",
+    "wordId": "lex-jmdict-1251910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "연결하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1251910-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1399830-1",
+    "wordId": "lex-jmdict-1399830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "꽂다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1399830-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599780-1",
+    "wordId": "lex-jmdict-1599780",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "향기가 나다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599780-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611130-1",
+    "wordId": "lex-jmdict-1611130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "남김없이",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611130-1-ex-1",
+        "version": 1,
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1010090-1",
+    "wordId": "lex-jmdict-1010090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 95,
+    "meaning": "또렷하게·분명하게",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1010090-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1469530-1",
+    "wordId": "lex-jmdict-1469530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "비틀다·돌리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1469530-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472230-1",
+    "wordId": "lex-jmdict-1472230",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 71,
+    "meaning": "합장하여 빌다·절하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472230-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1516530-1",
+    "wordId": "lex-jmdict-1516530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "던지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1516530-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606020-1",
+    "wordId": "lex-jmdict-1606020",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "되살아나다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606020-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606790-1",
+    "wordId": "lex-jmdict-1606790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "사과하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606790-1-ex-1",
+        "version": 1,
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609310-1",
+    "wordId": "lex-jmdict-1609310",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "부정하다·없애다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609310-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611090-1",
+    "wordId": "lex-jmdict-1611090",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "비틀다·꼬다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611090-1-ex-1",
+        "version": 1,
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599680-1",
+    "wordId": "lex-jmdict-1599680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 28,
+    "meaning": "본받다·따르다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599680-1-ex-1",
+        "version": 1,
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1555560-1",
+    "wordId": "lex-jmdict-1555560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 71,
+    "meaning": "임하다, 맞닥뜨리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1555560-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1584130-1",
+    "wordId": "lex-jmdict-1584130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "부족하다, 빈약하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1584130-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1382220-1",
+    "wordId": "lex-jmdict-1382220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 8,
+    "meaning": "무르다, 약하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1382220-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475790-1",
+    "wordId": "lex-jmdict-1475790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 17,
+    "meaning": "막연히",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475790-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491910-1",
+    "wordId": "lex-jmdict-1491910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "불길함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491910-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483290-1",
+    "wordId": "lex-jmdict-1483290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 33,
+    "meaning": "비참함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483290-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546610-1",
+    "wordId": "lex-jmdict-1546610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 53,
+    "meaning": "필요로 하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546610-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595200-1",
+    "wordId": "lex-jmdict-1595200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 4,
+    "meaning": "침략",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594740-1",
+    "wordId": "lex-jmdict-1594740",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "집착",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594740-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1597110-1",
+    "wordId": "lex-jmdict-1597110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 66,
+    "meaning": "겉으로 내세우는 원칙·명분",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1597110-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545630-1",
+    "wordId": "lex-jmdict-1545630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "흔들리다, 불안정해지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545630-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545600-1",
+    "wordId": "lex-jmdict-1545600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "뒤흔들다, 동요시키다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545600-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1562510-1",
+    "wordId": "lex-jmdict-1562510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 78,
+    "meaning": "충당하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1562510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554200-1",
+    "wordId": "lex-jmdict-1554200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "견디다, 버티다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578075-1",
+    "wordId": "lex-jmdict-1578075",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 69,
+    "meaning": "위협하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578075-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472680-1",
+    "wordId": "lex-jmdict-1472680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 120,
+    "meaning": "거스르다, 따르지 않다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472680-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598000-1",
+    "wordId": "lex-jmdict-1598000",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 127,
+    "meaning": "삼가다, 자제하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598000-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598340-1",
+    "wordId": "lex-jmdict-1598340",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 30,
+    "meaning": "철저히 임하다, 일관하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598340-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1600660-1",
+    "wordId": "lex-jmdict-1600660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 75,
+    "meaning": "도모하다, 꾀하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1600660-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609040-1",
+    "wordId": "lex-jmdict-1609040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "할 가치가 있다, 걸맞다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609040-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1584670-1",
+    "wordId": "lex-jmdict-1584670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "면하다, 피하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1584670-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481940-1",
+    "wordId": "lex-jmdict-1481940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "번거롭다, 성가시다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481940-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1540950-1",
+    "wordId": "lex-jmdict-1540950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "가지고 있다, 보유하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1540950-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551210-1",
+    "wordId": "lex-jmdict-1551210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 25,
+    "meaning": "이끌다, 거느리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551210-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504650-1",
+    "wordId": "lex-jmdict-1504650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "분개",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504650-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317890-1",
+    "wordId": "lex-jmdict-1317890",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "자수",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317890-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327900-1",
+    "wordId": "lex-jmdict-1327900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "수갑",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327900-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329360-1",
+    "wordId": "lex-jmdict-1329360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "수뇌, 최고 지도부",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329360-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343560-1",
+    "wordId": "lex-jmdict-1343560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "서민",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343560-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360720-1",
+    "wordId": "lex-jmdict-1360720",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 79,
+    "meaning": "심정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360720-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1364830-1",
+    "wordId": "lex-jmdict-1364830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "신비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1364830-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366730-1",
+    "wordId": "lex-jmdict-1366730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 92,
+    "meaning": "인격",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366730-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1368180-1",
+    "wordId": "lex-jmdict-1368180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "인정, 사람의 정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1368180-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1369200-1",
+    "wordId": "lex-jmdict-1369200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "인품, 사람됨",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1369200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1372430-1",
+    "wordId": "lex-jmdict-1372430",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 10,
+    "meaning": "쇠하다, 약해지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1372430-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375930-1",
+    "wordId": "lex-jmdict-1375930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "정권",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375930-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1377660-1",
+    "wordId": "lex-jmdict-1377660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 88,
+    "meaning": "정당함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1377660-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378920-1",
+    "wordId": "lex-jmdict-1378920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 34,
+    "meaning": "생계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378920-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1380540-1",
+    "wordId": "lex-jmdict-1380540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 49,
+    "meaning": "성명, 공식 입장 발표",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1380540-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1391360-1",
+    "wordId": "lex-jmdict-1391360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "잠입",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1391360-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1392240-1",
+    "wordId": "lex-jmdict-1392240",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "선발 심사",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1392240-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397710-1",
+    "wordId": "lex-jmdict-1397710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "호소, 소송 제기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397710-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532640-1",
+    "wordId": "lex-jmdict-1532640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 73,
+    "meaning": "명랑함, 밝고 활기참",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532640-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1537430-1",
+    "wordId": "lex-jmdict-1537430",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "야심",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1537430-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539120-1",
+    "wordId": "lex-jmdict-1539120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 117,
+    "meaning": "우월",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539120-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539340-1",
+    "wordId": "lex-jmdict-1539340",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "우세함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539340-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545830-1",
+    "wordId": "lex-jmdict-1545830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 86,
+    "meaning": "양식, 형식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545830-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554790-1",
+    "wordId": "lex-jmdict-1554790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "영토",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554790-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559870-1",
+    "wordId": "lex-jmdict-1559870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 65,
+    "meaning": "연맹",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577730-1",
+    "wordId": "lex-jmdict-1577730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 112,
+    "meaning": "기증",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577730-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578300-1",
+    "wordId": "lex-jmdict-1578300",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "겸업",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578300-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477290-1",
+    "wordId": "lex-jmdict-1477290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 68,
+    "meaning": "발굴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477290-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606150-1",
+    "wordId": "lex-jmdict-1606150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "여론",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606150-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591140-1",
+    "wordId": "lex-jmdict-1591140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 13,
+    "meaning": "기원",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591140-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1486200-1",
+    "wordId": "lex-jmdict-1486200",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "미량",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1486200-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317460-1",
+    "wordId": "lex-jmdict-1317460",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "자아",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317460-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325360-1",
+    "wordId": "lex-jmdict-1325360",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 18,
+    "meaning": "주권",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325360-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330410-1",
+    "wordId": "lex-jmdict-1330410",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "수립",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330410-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333260-1",
+    "wordId": "lex-jmdict-1333260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "중의원",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1341510-1",
+    "wordId": "lex-jmdict-1341510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "준하다, 기준에 따르다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1341510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1359500-1",
+    "wordId": "lex-jmdict-1359500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "신임",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1359500-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374870-1",
+    "wordId": "lex-jmdict-1374870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 8,
+    "meaning": "제정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385960-1",
+    "wordId": "lex-jmdict-1385960",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "절충",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385960-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531530-1",
+    "wordId": "lex-jmdict-1531530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 100,
+    "meaning": "아쉬움, 남은 흔적",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531530-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1535710-1",
+    "wordId": "lex-jmdict-1535710",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "목록, 소장품 명세",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1535710-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541180-1",
+    "wordId": "lex-jmdict-1541180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 74,
+    "meaning": "유기, 유기적 연결",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541180-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551840-1",
+    "wordId": "lex-jmdict-1551840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "입법",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551840-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559790-1",
+    "wordId": "lex-jmdict-1559790",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 58,
+    "meaning": "연방",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559790-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1565500-1",
+    "wordId": "lex-jmdict-1565500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "기호, 취향",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1565500-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1566060-1",
+    "wordId": "lex-jmdict-1566060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "완곡함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1566060-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1580510-1",
+    "wordId": "lex-jmdict-1580510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 14,
+    "meaning": "정서, 분위기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1580510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505370-1",
+    "wordId": "lex-jmdict-1505370",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 55,
+    "meaning": "문어, 문어체 언어",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505370-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604745-1",
+    "wordId": "lex-jmdict-1604745",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "민속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604745-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606250-1",
+    "wordId": "lex-jmdict-1606250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "약탈",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606250-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1612270-1",
+    "wordId": "lex-jmdict-1612270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "영해",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1612270-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325640-1",
+    "wordId": "lex-jmdict-1325640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "주식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325640-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325680-1",
+    "wordId": "lex-jmdict-1325680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 91,
+    "meaning": "주인공",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325680-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327180-1",
+    "wordId": "lex-jmdict-1327180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 80,
+    "meaning": "수비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327180-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1338750-1",
+    "wordId": "lex-jmdict-1338750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "출혈",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1338750-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1339010-1",
+    "wordId": "lex-jmdict-1339010",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 111,
+    "meaning": "출산",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1339010-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1339150-1",
+    "wordId": "lex-jmdict-1339150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 104,
+    "meaning": "출근, 회사에 감",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1339150-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1340180-1",
+    "wordId": "lex-jmdict-1340180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "지출, 돈이 듦",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1340180-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1345650-1",
+    "wordId": "lex-jmdict-1345650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 44,
+    "meaning": "제외",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1345650-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350190-1",
+    "wordId": "lex-jmdict-1350190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 83,
+    "meaning": "삭제, 지움",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350190-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1351760-1",
+    "wordId": "lex-jmdict-1351760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "상세함, 자세한 내용",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1351760-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365650-1",
+    "wordId": "lex-jmdict-1365650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "가까움, 친숙함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365650-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366080-1",
+    "wordId": "lex-jmdict-1366080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "진출",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366080-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254770-1",
+    "wordId": "lex-jmdict-1254770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "결합",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254770-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267760-1",
+    "wordId": "lex-jmdict-1267760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "자랑으로 여기다, 자랑하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267760-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1269880-1",
+    "wordId": "lex-jmdict-1269880",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 8,
+    "meaning": "후퇴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1269880-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1309700-1",
+    "wordId": "lex-jmdict-1309700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 70,
+    "meaning": "지휘",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1309700-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1352770-1",
+    "wordId": "lex-jmdict-1352770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "웃돌다, 넘어서다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1352770-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365260-1",
+    "wordId": "lex-jmdict-1365260",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 97,
+    "meaning": "친선",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365260-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1371460-1",
+    "wordId": "lex-jmdict-1371460",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 96,
+    "meaning": "수원, 물의 공급원",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1371460-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375730-1",
+    "wordId": "lex-jmdict-1375730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 56,
+    "meaning": "성숙",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375730-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1376910-1",
+    "wordId": "lex-jmdict-1376910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 111,
+    "meaning": "정의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1376910-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379900-1",
+    "wordId": "lex-jmdict-1379900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 125,
+    "meaning": "정교함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379900-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1401070-1",
+    "wordId": "lex-jmdict-1401070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "시세",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1401070-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404190-1",
+    "wordId": "lex-jmdict-1404190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "즉시, 곧바로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404190-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404510-1",
+    "wordId": "lex-jmdict-1404510",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 3,
+    "meaning": "속박",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404510-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223430-1",
+    "wordId": "lex-jmdict-1223430",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 5,
+    "meaning": "기명, 이름 적기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223430-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325870-1",
+    "wordId": "lex-jmdict-1325870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "주제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325870-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327540-1",
+    "wordId": "lex-jmdict-1327540",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 24,
+    "meaning": "수예",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327540-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330400-1",
+    "wordId": "lex-jmdict-1330400",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "수목, 나무",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330400-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333640-1",
+    "wordId": "lex-jmdict-1333640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 94,
+    "meaning": "집계",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333640-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1337330-1",
+    "wordId": "lex-jmdict-1337330",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 34,
+    "meaning": "숙명",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1337330-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1342470-1",
+    "wordId": "lex-jmdict-1342470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "조치, 처치",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1342470-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350250-1",
+    "wordId": "lex-jmdict-1350250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 2,
+    "meaning": "소식, 행방",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350250-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1351640-1",
+    "wordId": "lex-jmdict-1351640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 106,
+    "meaning": "증언",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1351640-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1356320-1",
+    "wordId": "lex-jmdict-1356320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "정세",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1356320-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360680-1",
+    "wordId": "lex-jmdict-1360680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 50,
+    "meaning": "불안하다, 의지할 데 없어 걱정스럽다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360680-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365070-1",
+    "wordId": "lex-jmdict-1365070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 114,
+    "meaning": "친숙하게 접하다, 즐기다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365070-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365930-1",
+    "wordId": "lex-jmdict-1365930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "참음, 인내",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365930-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254250-1",
+    "wordId": "lex-jmdict-1254250",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "결행",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254250-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254870-1",
+    "wordId": "lex-jmdict-1254870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "결정, 노력의 결실",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283610-1",
+    "wordId": "lex-jmdict-1283610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "고상함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283610-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1284700-1",
+    "wordId": "lex-jmdict-1284700",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 66,
+    "meaning": "합의제 논의",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1284700-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320950-1",
+    "wordId": "lex-jmdict-1320950",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "실업가, 사업가",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320950-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360910-1",
+    "wordId": "lex-jmdict-1360910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 94,
+    "meaning": "유의 사항, 알아 둘 지식",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360910-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365870-1",
+    "wordId": "lex-jmdict-1365870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "간신히, 가까스로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365870-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366150-1",
+    "wordId": "lex-jmdict-1366150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 124,
+    "meaning": "증정",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366150-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378210-1",
+    "wordId": "lex-jmdict-1378210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 0,
+    "meaning": "청산",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378210-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385050-1",
+    "wordId": "lex-jmdict-1385050",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 42,
+    "meaning": "절실함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385050-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1393750-1",
+    "wordId": "lex-jmdict-1393750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 34,
+    "meaning": "앞길, 장래",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1393750-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1403190-1",
+    "wordId": "lex-jmdict-1403190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "증강",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1403190-1-ex-1",
+        "version": 1,
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542910-1",
+    "wordId": "lex-jmdict-1542910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 100,
+    "meaning": "예감",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542910-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1537270-1",
+    "wordId": "lex-jmdict-1537270",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 99,
+    "meaning": "야외",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1537270-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1537470-1",
+    "wordId": "lex-jmdict-1537470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 53,
+    "meaning": "야생",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1537470-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529940-1",
+    "wordId": "lex-jmdict-1529940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 108,
+    "meaning": "말이 적음, 과묵함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529940-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530670-1",
+    "wordId": "lex-jmdict-1530670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "무모함, 지나치게 무리함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530670-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530520-1",
+    "wordId": "lex-jmdict-1530520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 72,
+    "meaning": "낭비, 쓸데없이 쓰기",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530520-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531520-1",
+    "wordId": "lex-jmdict-1531520",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 25,
+    "meaning": "명산물, 유명한 지역 생산물",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531520-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531830-1",
+    "wordId": "lex-jmdict-1531830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "명부, 이름 목록",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531830-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1562180-1",
+    "wordId": "lex-jmdict-1562180",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 23,
+    "meaning": "일본풍",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1562180-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560730-1",
+    "wordId": "lex-jmdict-1560730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 84,
+    "meaning": "낭독",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560730-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283220-1",
+    "wordId": "lex-jmdict-1283220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 64,
+    "meaning": "높아지다, 커지다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283220-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1212650-1",
+    "wordId": "lex-jmdict-1212650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 105,
+    "meaning": "익숙하게 하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1212650-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254220-1",
+    "wordId": "lex-jmdict-1254220",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "결의, 결심",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254220-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326940-1",
+    "wordId": "lex-jmdict-1326940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 21,
+    "meaning": "되찾다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326940-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1361420-1",
+    "wordId": "lex-jmdict-1361420",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "진동",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1361420-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1362680-1",
+    "wordId": "lex-jmdict-1362680",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 36,
+    "meaning": "깊게 하다, 심화하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1362680-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379690-1",
+    "wordId": "lex-jmdict-1379690",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "고조되다, 분위기가 달아오르다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379690-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378770-1",
+    "wordId": "lex-jmdict-1378770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 109,
+    "meaning": "타고나서, 선천적으로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378770-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379110-1",
+    "wordId": "lex-jmdict-1379110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "비리다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379110-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378810-1",
+    "wordId": "lex-jmdict-1378810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 46,
+    "meaning": "미지근하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378810-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1544040-1",
+    "wordId": "lex-jmdict-1544040",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "여흥, 행사 중 오락",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1544040-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530080-1",
+    "wordId": "lex-jmdict-1530080",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "천진함, 순진함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530080-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530630-1",
+    "wordId": "lex-jmdict-1530630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "무지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530630-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530750-1",
+    "wordId": "lex-jmdict-1530750",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 85,
+    "meaning": "무난함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530750-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531060-1",
+    "wordId": "lex-jmdict-1531060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 102,
+    "meaning": "무례함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531060-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541060-1",
+    "wordId": "lex-jmdict-1541060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "상태, 형편",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541060-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530940-1",
+    "wordId": "lex-jmdict-1530940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "필요 없음, 쓸모없음",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530940-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528130-1",
+    "wordId": "lex-jmdict-1528130",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 98,
+    "meaning": "미련",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528130-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530770-1",
+    "wordId": "lex-jmdict-1530770",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "원통함, 분함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530770-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1394560-1",
+    "wordId": "lex-jmdict-1394560",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 0,
+    "meaning": "선량함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1394560-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397390-1",
+    "wordId": "lex-jmdict-1397390",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 110,
+    "meaning": "소박함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397390-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561940-1",
+    "wordId": "lex-jmdict-1561940",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 0,
+    "meaning": "화기애애함, 부드러움",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561940-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560800-1",
+    "wordId": "lex-jmdict-1560800",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "낭비",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560800-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559720-1",
+    "wordId": "lex-jmdict-1559720",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 89,
+    "meaning": "연일, 여러 날 계속",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559720-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554580-1",
+    "wordId": "lex-jmdict-1554580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "양질, 질이 좋음",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554580-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1266570-1",
+    "wordId": "lex-jmdict-1266570",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 67,
+    "meaning": "굳히다, 확정하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1266570-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1236620-1",
+    "wordId": "lex-jmdict-1236620",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 16,
+    "meaning": "강렬함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1236620-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1236630-1",
+    "wordId": "lex-jmdict-1236630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 37,
+    "meaning": "겁먹다, 두려워하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1236630-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1236660-1",
+    "wordId": "lex-jmdict-1236660",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "우려, 위험 가능성",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1236660-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252600-1",
+    "wordId": "lex-jmdict-1252600",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 76,
+    "meaning": "경쾌함",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252600-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254640-1",
+    "wordId": "lex-jmdict-1254640",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 66,
+    "meaning": "이어지다, 연결되다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254640-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254650-1",
+    "wordId": "lex-jmdict-1254650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "연결하다, 관련짓다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254650-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326760-1",
+    "wordId": "lex-jmdict-1326760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 113,
+    "meaning": "연결해 주다, 전달하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326760-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326960-1",
+    "wordId": "lex-jmdict-1326960",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 51,
+    "meaning": "거두다, 징수하다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326960-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329630-1",
+    "wordId": "lex-jmdict-1329630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "받아들이다, 진지하게 받아들이다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329630-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330280-1",
+    "wordId": "lex-jmdict-1330280",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 17,
+    "meaning": "수여하다, 가르쳐 주다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330280-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1373500-1",
+    "wordId": "lex-jmdict-1373500",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "설치하다, 고정해 놓다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1373500-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477190-1",
+    "wordId": "lex-jmdict-1477190",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "발아",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477190-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477470-1",
+    "wordId": "lex-jmdict-1477470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 12,
+    "meaning": "발작",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477470-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477870-1",
+    "wordId": "lex-jmdict-1477870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 40,
+    "meaning": "발병",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477870-1-ex-1",
+        "version": 1,
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1157070-1",
+    "wordId": "lex-jmdict-1157070",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 7,
+    "meaning": "의자",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1157070-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1497610-1",
+    "wordId": "lex-jmdict-1497610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 62,
+    "meaning": "아버지",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1497610-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514990-1",
+    "wordId": "lex-jmdict-1514990",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 1,
+    "meaning": "어머니",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514990-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311110-1",
+    "wordId": "lex-jmdict-1311110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 70,
+    "meaning": "나, 저",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311110-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223615-1",
+    "wordId": "lex-jmdict-1223615",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "당신, 너",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223615-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579470-1",
+    "wordId": "lex-jmdict-1579470",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "사, 넷; 4",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579470-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1319210-1",
+    "wordId": "lex-jmdict-1319210",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 27,
+    "meaning": "칠, 일곱; 7",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1319210-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578150-1",
+    "wordId": "lex-jmdict-1578150",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 119,
+    "meaning": "구, 아홉; 9",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578150-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579840-1",
+    "wordId": "lex-jmdict-1579840",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 116,
+    "meaning": "십, 열; 10",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579840-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-JLPTN3_70-2",
+    "wordId": "JLPTN3_70",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 22,
+    "meaning": "틀리다, 올바르지 않다",
+    "examples": [
+      {
+        "id": "sense-JLPTN3_70-2-ex-1",
+        "version": 1,
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577100-1",
+    "wordId": "lex-jmdict-1577100",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "무엇",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577100-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1188760-1",
+    "wordId": "lex-jmdict-1188760",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "언제",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1188760-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577140-1",
+    "wordId": "lex-jmdict-1577140",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 53,
+    "meaning": "어디",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577140-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1009290-1",
+    "wordId": "lex-jmdict-1009290",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 59,
+    "meaning": "어느 것",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1009290-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1008910-1",
+    "wordId": "lex-jmdict-1008910",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 47,
+    "meaning": "어떻게, 어떤가",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1008910-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577120-1",
+    "wordId": "lex-jmdict-1577120",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 87,
+    "meaning": "왜, 어째서",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577120-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1219980-1",
+    "wordId": "lex-jmdict-1219980",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 6,
+    "meaning": "얼마",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1219980-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1219960-1",
+    "wordId": "lex-jmdict-1219960",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "몇 개",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1219960-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1628530-1",
+    "wordId": "lex-jmdict-1628530",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 57,
+    "meaning": "이것",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1628530-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006970-1",
+    "wordId": "lex-jmdict-1006970",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 115,
+    "meaning": "그것",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006970-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1000580-1",
+    "wordId": "lex-jmdict-1000580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 70,
+    "meaning": "저것",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1000580-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1288810-1",
+    "wordId": "lex-jmdict-1288810",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 82,
+    "meaning": "여기, 이곳",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1288810-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006670-1",
+    "wordId": "lex-jmdict-1006670",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 38,
+    "meaning": "거기, 그곳",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006670-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1000320-1",
+    "wordId": "lex-jmdict-1000320",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 118,
+    "meaning": "저기, 저곳",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1000320-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1582920-1",
+    "wordId": "lex-jmdict-1582920",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 123,
+    "meaning": "이 (명사 앞에서)",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1582920-1-ex-1",
+        "version": 2,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006830-1",
+    "wordId": "lex-jmdict-1006830",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "그 (명사 앞에서)",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006830-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605820-1",
+    "wordId": "lex-jmdict-1605820",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 60,
+    "meaning": "좋다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605820-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1486650-1",
+    "wordId": "lex-jmdict-1486650",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 20,
+    "meaning": "맛있다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1486650-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533580-1",
+    "wordId": "lex-jmdict-1533580",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 77,
+    "meaning": "재미있다, 흥미롭다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533580-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591900-1",
+    "wordId": "lex-jmdict-1591900",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 41,
+    "meaning": "깨끗하다, 예쁘다",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591900-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1217730-1",
+    "wordId": "lex-jmdict-1217730",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 101,
+    "meaning": "얼굴",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1217730-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1188890-1",
+    "wordId": "lex-jmdict-1188890",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 81,
+    "meaning": "늘, 항상",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1188890-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527110-1",
+    "wordId": "lex-jmdict-1527110",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 19,
+    "meaning": "아직, 여전히",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527110-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1524930-1",
+    "wordId": "lex-jmdict-1524930",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 126,
+    "meaning": "또, 다시",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1524930-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430610-1",
+    "wordId": "lex-jmdict-1430610",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 31,
+    "meaning": "곧, 바로",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430610-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1008630-1",
+    "wordId": "lex-jmdict-1008630",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 48,
+    "meaning": "매우, 아주",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1008630-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605870-1",
+    "wordId": "lex-jmdict-1605870",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 45,
+    "meaning": "자주",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605870-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523060-1",
+    "wordId": "lex-jmdict-1523060",
+    "version": 1,
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "shard": 35,
+    "meaning": "사실, 진짜",
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523060-1-ex-1",
+        "version": 1,
+        "difficulty": 10,
         "status": "reviewed"
       }
     ]

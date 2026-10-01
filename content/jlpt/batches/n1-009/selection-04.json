@@ -1,0 +1,569 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1528290",
+      "japanese": "密接",
+      "reading": "みっせつ",
+      "level": "N1",
+      "spellings": [
+        "密接",
+        "蜜接"
+      ],
+      "readings": [
+        "みっせつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "密接"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1532620",
+      "japanese": "明瞭",
+      "reading": "めいりょう",
+      "level": "N1",
+      "spellings": [
+        "明瞭",
+        "明亮",
+        "明了",
+        "明りょう"
+      ],
+      "readings": [
+        "めいりょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "明瞭"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1533200",
+      "japanese": "免除",
+      "reading": "めんじょ",
+      "level": "N1",
+      "spellings": [
+        "免除"
+      ],
+      "readings": [
+        "めんじょ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "免除"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1533700",
+      "japanese": "模倣",
+      "reading": "もほう",
+      "level": "N1",
+      "spellings": [
+        "模倣",
+        "摸倣"
+      ],
+      "readings": [
+        "もほう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "模倣"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1534280",
+      "japanese": "盲点",
+      "reading": "もうてん",
+      "level": "N1",
+      "spellings": [
+        "盲点"
+      ],
+      "readings": [
+        "もうてん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "盲点"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1539100",
+      "japanese": "優位",
+      "reading": "ゆうい",
+      "level": "N1",
+      "spellings": [
+        "優位"
+      ],
+      "readings": [
+        "ゆうい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "優位"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1541120",
+      "japanese": "有益",
+      "reading": "ゆうえき",
+      "level": "N1",
+      "spellings": [
+        "有益"
+      ],
+      "readings": [
+        "ゆうえき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "有益"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1541600",
+      "japanese": "有望",
+      "reading": "ゆうぼう",
+      "level": "N1",
+      "spellings": [
+        "有望"
+      ],
+      "readings": [
+        "ゆうぼう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "有望"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1544380",
+      "japanese": "余地",
+      "reading": "よち",
+      "level": "N1",
+      "spellings": [
+        "余地",
+        "餘地"
+      ],
+      "readings": [
+        "よち"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "余地"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1545840",
+      "japanese": "様相",
+      "reading": "ようそう",
+      "level": "N1",
+      "spellings": [
+        "様相"
+      ],
+      "readings": [
+        "ようそう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "様相"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1549120",
+      "japanese": "乱用",
+      "reading": "らんよう",
+      "level": "N1",
+      "spellings": [
+        "乱用",
+        "濫用",
+        "らん用"
+      ],
+      "readings": [
+        "らんよう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "濫用"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1550010",
+      "japanese": "理性",
+      "reading": "りせい",
+      "level": "N1",
+      "spellings": [
+        "理性"
+      ],
+      "readings": [
+        "りせい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "理性"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1552440",
+      "japanese": "流通",
+      "reading": "りゅうつう",
+      "level": "N1",
+      "spellings": [
+        "流通"
+      ],
+      "readings": [
+        "りゅうつう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "流通"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1554110",
+      "japanese": "両立",
+      "reading": "りょうりつ",
+      "level": "N1",
+      "spellings": [
+        "両立"
+      ],
+      "readings": [
+        "りょうりつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "両立"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1554570",
+      "japanese": "良識",
+      "reading": "りょうしき",
+      "level": "N1",
+      "spellings": [
+        "良識"
+      ],
+      "readings": [
+        "りょうしき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "良識"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1554720",
+      "japanese": "領域",
+      "reading": "りょういき",
+      "level": "N1",
+      "spellings": [
+        "領域"
+      ],
+      "readings": [
+        "りょういき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "領域"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1556120",
+      "japanese": "類推",
+      "reading": "るいすい",
+      "level": "N1",
+      "spellings": [
+        "類推"
+      ],
+      "readings": [
+        "るいすい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "類推"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1559660",
+      "japanese": "連帯",
+      "reading": "れんたい",
+      "level": "N1",
+      "spellings": [
+        "連帯"
+      ],
+      "readings": [
+        "れんたい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "連帯"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1560120",
+      "japanese": "露骨",
+      "reading": "ろこつ",
+      "level": "N1",
+      "spellings": [
+        "露骨"
+      ],
+      "readings": [
+        "ろこつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "露骨"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1560650",
+      "japanese": "労力",
+      "reading": "ろうりょく",
+      "level": "N1",
+      "spellings": [
+        "労力"
+      ],
+      "readings": [
+        "ろうりょく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "労力"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1561850",
+      "japanese": "論理",
+      "reading": "ろんり",
+      "level": "N1",
+      "spellings": [
+        "論理"
+      ],
+      "readings": [
+        "ろんり"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "論理"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1578050",
+      "japanese": "共存",
+      "reading": "きょうぞん",
+      "level": "N1",
+      "spellings": [
+        "共存"
+      ],
+      "readings": [
+        "きょうぞん",
+        "きょうそん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "共存"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1584900",
+      "japanese": "融通",
+      "reading": "ゆうずう",
+      "level": "N1",
+      "spellings": [
+        "融通"
+      ],
+      "readings": [
+        "ゆうずう",
+        "ゆうづう",
+        "ゆずう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "融通"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1591390",
+      "japanese": "規範",
+      "reading": "きはん",
+      "level": "N1",
+      "spellings": [
+        "規範",
+        "軌範"
+      ],
+      "readings": [
+        "きはん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "規範"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1602820",
+      "japanese": "普遍",
+      "reading": "ふへん",
+      "level": "N1",
+      "spellings": [
+        "普遍",
+        "普偏",
+        "普辺"
+      ],
+      "readings": [
+        "ふへん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "普遍"
+        ]
+      }
+    }
+  ]
+}

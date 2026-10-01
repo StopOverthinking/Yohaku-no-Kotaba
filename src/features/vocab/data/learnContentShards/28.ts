@@ -1028,6 +1028,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267820-1",
+    "wordId": "lex-jmdict-1267820",
+    "version": 1,
+    "meaning": "과장",
+    "hint": "실제보다 크거나 심하게 표현하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "強調",
+        "distinction": "誇張는 실제보다 부풀림이고 強調는 중요한 부분을 두드러지게 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267820-1-ex-1",
+        "version": 1,
+        "before": "広告の表現には",
+        "answer": "誇張",
+        "after": "があるとして、消費者から苦情が寄せられた。",
+        "reading": "こちょう",
+        "translation": "광고의 표현에 과장이 있다는 이유로 소비자의 불만이 접수되었다.",
+        "translationTarget": "과장",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1603660-1",
+    "wordId": "lex-jmdict-1603660",
+    "version": 1,
+    "meaning": "방대함",
+    "hint": "분량·규모가 매우 큽니다.",
+    "confusions": [
+      {
+        "japanese": "巨大",
+        "distinction": "膨大는 자료·수량의 방대함에 흔하고 巨大는 사물·조직 규모의 거대함에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1603660-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "膨大",
+        "after": "な資料から、必要な情報だけを選び出した。",
+        "reading": "ぼうだい",
+        "translation": "방대한 자료에서 필요한 정보만 골라냈다.",
+        "translationTarget": "방대한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455870-1",
+    "wordId": "lex-jmdict-1455870",
+    "version": 1,
+    "meaning": "독점",
+    "hint": "이익·기회·물건 등을 혼자 차지합니다.",
+    "confusions": [
+      {
+        "japanese": "共有",
+        "distinction": "独占는 혼자 차지함이고 共有는 함께 가짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455870-1-ex-1",
+        "version": 1,
+        "before": "一つの企業が市場を",
+        "answer": "独占",
+        "after": "すると、競争が弱まることがある。",
+        "reading": "どくせん",
+        "translation": "한 기업이 시장을 독점하면 경쟁이 약해질 수 있다.",
+        "translationTarget": "독점",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531620-1",
+    "wordId": "lex-jmdict-1531620",
+    "version": 1,
+    "meaning": "명칭",
+    "hint": "사람·사물·기관 등을 가리키는 이름입니다.",
+    "confusions": [
+      {
+        "japanese": "名声",
+        "distinction": "名称는 부르는 이름이고 名声는 널리 알려진 좋은 평판이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531620-1-ex-1",
+        "version": 1,
+        "before": "施設の",
+        "answer": "名称",
+        "after": "が変わったので、案内板も新しくした。",
+        "reading": "めいしょう",
+        "translation": "시설 명칭이 바뀌어 안내판도 새로 바꿨다.",
+        "translationTarget": "명칭",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366280-1",
+    "wordId": "lex-jmdict-1366280",
+    "version": 1,
+    "meaning": "진로·항로",
+    "hint": "배나 비행기 등이 나아갈 방향",
+    "confusions": [
+      {
+        "japanese": "現在地",
+        "distinction": "나아가는 방향과 지금 있는 위치를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366280-1-ex-1",
+        "version": 1,
+        "before": "台風を避けるため、船は",
+        "answer": "針路",
+        "after": "を南へ変えた。",
+        "reading": "しんろ",
+        "translation": "태풍을 피하기 위해 배는 항로를 남쪽으로 바꾸었다.",
+        "translationTarget": "항로",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1303230-1",
+    "wordId": "lex-jmdict-1303230",
+    "version": 1,
+    "meaning": "산림·임야",
+    "hint": "산에 있는 숲이나 나무가 자라는 땅",
+    "confusions": [
+      {
+        "japanese": "市街地",
+        "distinction": "산과 숲의 땅과 건물이 밀집한 도시 지역을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1303230-1-ex-1",
+        "version": 1,
+        "before": "大雨の後、",
+        "answer": "山林",
+        "after": "の管理者が斜面を点検した。",
+        "reading": "さんりん",
+        "translation": "폭우가 내린 뒤 산림 관리자가 비탈면을 점검했다.",
+        "translationTarget": "산림",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599680-1",
+    "wordId": "lex-jmdict-1599680",
+    "version": 1,
+    "meaning": "본받다·따르다",
+    "hint": "앞선 방법이나 사례를 본보기로 삼아 같은 방식으로 해요.",
+    "confusions": [
+      {
+        "japanese": "独創する",
+        "distinction": "앞선 사례를 따르는 것과 스스로 새롭게 만드는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599680-1-ex-1",
+        "version": 1,
+        "before": "先輩の例に",
+        "answer": "倣って",
+        "after": "、資料に目次を付けた。",
+        "reading": "ならって",
+        "translation": "선배의 예를 본받아 자료에 목차를 넣었다.",
+        "translationTarget": "본받아",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

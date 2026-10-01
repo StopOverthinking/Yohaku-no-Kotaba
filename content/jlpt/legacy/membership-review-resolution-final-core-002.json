@@ -1,0 +1,211 @@
+{
+  "reviewedAt": "2026-10-01T00:50:31.933Z",
+  "scope": "Two core words independently read; partial rows only",
+  "rows": [
+    {
+      "wordId": "AbsoluteVerb_423",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_423",
+        "sourceHash": "693e5c41a7786cd6fc9a4c4f43119be3ef1547b648cbc431a090678cf31c2ddb",
+        "level": "N5",
+        "dictionaryId": "jmdict-1512130",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “돌려주다, 갚다” 및 1개 sense를 대조했다. 빌린 우산과 책을 돌려주는 기본 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": null,
+      "sourceSnapshot": {
+        "word": {
+          "id": "AbsoluteVerb_423",
+          "setId": "AbsoluteVerb",
+          "japanese": "返す",
+          "reading": "かえす",
+          "meaning": "돌려주다, 갚다",
+          "type": "verb",
+          "difficulty": 18,
+          "verbInfo": "1타",
+          "sourceOrder": 421
+        },
+        "senses": [
+          {
+            "id": "sense-AbsoluteVerb_423-1",
+            "wordId": "AbsoluteVerb_423",
+            "version": 1,
+            "meaning": "빌린 것을 돌려주다",
+            "hint": "받아 두었던 물건을 원래 주인에게 건네요.",
+            "confusions": [
+              {
+                "japanese": "戻す",
+                "distinction": "원래 위치에 되돌리는 것보다 주인에게 반환하는 관계가 중심이다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-AbsoluteVerb_423-1-ex-1",
+                "version": 1,
+                "before": "借りた傘を",
+                "answer": "返そう",
+                "after": "としたら、また雨が降り出した。",
+                "reading": "かえそう",
+                "translation": "빌린 우산을 돌려주려 하자 다시 비가 내리기 시작했다.",
+                "translationTarget": "돌려주려",
+                "difficulty": 18,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-AbsoluteVerb_423-1-ex-2",
+                "version": 1,
+                "before": "本は読み終わったので、明日",
+                "answer": "返します",
+                "after": "。",
+                "reading": "かえします",
+                "translation": "책은 다 읽었으니 내일 돌려드리겠습니다.",
+                "translationTarget": "돌려드리겠습니다",
+                "difficulty": 18,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      },
+      "approval": {
+        "wordId": "AbsoluteVerb_423",
+        "level": "N5",
+        "sourceHash": "693e5c41a7786cd6fc9a4c4f43119be3ef1547b648cbc431a090678cf31c2ddb",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:50:31.937Z",
+        "notes": [
+          "返す의 모든 뜻·힌트·대비·일본어/한국어 2예문을 읽었다. 사전의 선택 핵심과 일치하고 동음 鳴る/帰す는 각각 소리울림/사람돌려보내기로 다른 의미다.",
+          "기존원본·ID·학습기록을 보존하여 기본 N5참조만 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_527",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_527",
+        "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba",
+        "level": null,
+        "dictionaryId": null,
+        "suggestedType": "verb",
+        "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+        "meaningReview": "기존 뜻 “다른 것/상태로 되다” 및 1개 sense를 대조했다. 어두운 상태나 봄철이 되는 기본 변화 표현이다. 후보 누락으로 연결을 보류한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "なる의 상태 변화 의미 사전 연결과 등급을 확인해야 한다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "AbsoluteVerb_527",
+          "setId": "AbsoluteVerb",
+          "japanese": "なる",
+          "reading": "なる",
+          "meaning": "다른 것/상태로 되다",
+          "type": "verb",
+          "difficulty": 10,
+          "verbInfo": "1자",
+          "sourceOrder": 525
+        },
+        "senses": [
+          {
+            "id": "sense-AbsoluteVerb_527-1",
+            "wordId": "AbsoluteVerb_527",
+            "version": 1,
+            "meaning": "되다",
+            "hint": "시간이나 원인에 따라 상태가 바뀌어요. 직접 바꾸는 행동과 달라요.",
+            "confusions": [
+              {
+                "japanese": "する",
+                "distinction": "어떤 상태로 만드는 행위와 그 상태로 변하는 것을 구별한다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-AbsoluteVerb_527-1-ex-1",
+                "version": 1,
+                "before": "日が落ちて、急に暗く",
+                "answer": "なった",
+                "after": "。",
+                "reading": "なった",
+                "translation": "해가 져서 갑자기 어두워졌다.",
+                "translationTarget": "졌다",
+                "difficulty": 10,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-AbsoluteVerb_527-1-ex-2",
+                "version": 1,
+                "before": "春に",
+                "answer": "なる",
+                "after": "と、この道は花でいっぱいだ。",
+                "reading": "なる",
+                "translation": "봄이 되면 이 길은 꽃으로 가득하다.",
+                "translationTarget": "되면",
+                "difficulty": 10,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      },
+      "approval": {
+        "wordId": "AbsoluteVerb_527",
+        "level": "N5",
+        "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:50:31.945Z",
+        "notes": [
+          "なる의 모든 뜻·힌트·대비·일본어/한국어 2예문을 읽었다. 사전의 선택 핵심과 일치하고 동음 鳴る/帰す는 각각 소리울림/사람돌려보내기로 다른 의미다.",
+          "기존원본·ID·학습기록을 보존하여 기본 N5참조만 승인한다."
+        ]
+      }
+    }
+  ],
+  "resolvedAliasHolds": [
+    {
+      "wordId": "handmade_15",
+      "level": "N3",
+      "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "掃除する AbsoluteVerb_640과 청소 핵심 용법이 중복된다. 명사형/하는동사형의 별도 의미 검토 및 기록 연결 판단 전 고유 참조 승인 보류. 권장 N5."
+      ]
+    },
+    {
+      "wordId": "handmade_50",
+      "level": "N3",
+      "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "勉強する AbsoluteVerb_646과 학습 핵심 용법이 중복된다. 별도 의미/기록 연결 판단 전 보류. 권장 N5."
+      ]
+    }
+  ]
+}

@@ -345,16 +345,14 @@
   },
   {
     "wordId": "handmade_106",
-    "sourceHash": "96f5682ef3d24de6e14e90e297cb3aeb3ef59d3cbfa10ad601d9265daa99b784",
+    "sourceHash": "55dc78affe4c2ab86dfaa93a8c205e87626a4b0cd642663de32e9348f408376c",
     "level": "N3",
     "dictionaryId": "jmdict-1003400",
     "suggestedType": "adv",
-    "levelNote": "현재 adv 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
-    "meaningReview": "기존 뜻 “확실히” 및 1개 sense를 대조했다. neatly·properly와 신발 정돈·잘못을 제대로 생각함 예문이 대응한다. 한국어 확실히만으로는 질서·적절함이 드러나지 않아 제대로·단정히를 추가할 뜻 검토 후보이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N3 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
-    "issues": [
-      "きちんと의 정돈·적절함 의미를 한국어 제대로·단정히로 보완할 후보이다."
-    ]
+    "issues": []
   },
   {
     "wordId": "handmade_107",

@@ -2112,6 +2112,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1125110-1",
+    "wordId": "lex-jmdict-1125110",
+    "version": 1,
+    "meaning": "포스터",
+    "hint": "알림이나 광고를 위해 눈에 띄게 붙이는 큰 인쇄물",
+    "confusions": [
+      {
+        "japanese": "チラシ",
+        "distinction": "벽에 붙이는 큰 인쇄물과 손에 나눠 주는 작은 인쇄물을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1125110-1-ex-1",
+        "version": 1,
+        "before": "文化祭の",
+        "answer": "ポスター",
+        "after": "に、開催日を書き忘れてしまった。",
+        "reading": "ポスター",
+        "translation": "문화제 포스터에 개최일을 쓰는 것을 잊어버렸다.",
+        "translationTarget": "포스터",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1488710-1",
+    "wordId": "lex-jmdict-1488710",
+    "version": 1,
+    "meaning": "표준, 기준",
+    "hint": "판단·측정·제작에서 공통으로 삼는 기준입니다.",
+    "confusions": [
+      {
+        "japanese": "平均",
+        "distinction": "標準는 기준·모범이고 平均는 수치의 평균이다. 둘이 일치하는 경우도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1488710-1-ex-1",
+        "version": 1,
+        "before": "この規格が国際的な",
+        "answer": "標準",
+        "after": "として採用された。",
+        "reading": "ひょうじゅん",
+        "translation": "이 규격이 국제적인 표준으로 채택되었다.",
+        "translationTarget": "표준",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1114910-1",
+    "wordId": "lex-jmdict-1114910",
+    "version": 1,
+    "meaning": "브로치",
+    "hint": "핀으로 옷에 달아 장식하는 물건",
+    "confusions": [
+      {
+        "japanese": "ネックレス",
+        "distinction": "옷에 꽂는 장식과 목에 거는 장식을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1114910-1-ex-1",
+        "version": 1,
+        "before": "祖母の",
+        "answer": "ブローチ",
+        "after": "は、小さな鳥の形をしている。",
+        "reading": "ブローチ",
+        "translation": "할머니의 브로치는 작은 새 모양이다.",
+        "translationTarget": "브로치",
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589880-1",
+    "wordId": "lex-jmdict-1589880",
+    "version": 1,
+    "meaning": "관여하다, 관계하다",
+    "hint": "일·사람과 연결되어 참여하거나 영향을 주고받습니다.",
+    "confusions": [
+      {
+        "japanese": "触る",
+        "distinction": "関わる는 일·사람과 관계함이고 触る는 실제로 손 등을 대거나 접촉함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589880-1-ex-1",
+        "version": 1,
+        "before": "商品を作る過程に",
+        "answer": "関わった",
+        "after": "人たちの話を聞いた。",
+        "reading": "かかわった",
+        "translation": "상품을 만드는 과정에 관여한 사람들의 이야기를 들었다.",
+        "translationTarget": "관여한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1380650-1",
+    "wordId": "lex-jmdict-1380650",
+    "version": 1,
+    "meaning": "제작, 물건 만들기",
+    "hint": "기계·도구·가구 등 실제 물건을 만드는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "制作",
+        "distinction": "製作는 물건·장치의 제작에 흔하고 制作는 예술·표현 작품의 제작에 흔하다. 매체에 따라 표기 사용이 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1380650-1-ex-1",
+        "version": 1,
+        "before": "注文に合わせて、職人が木の棚を",
+        "answer": "製作",
+        "after": "している。",
+        "reading": "せいさく",
+        "translation": "주문에 맞춰 장인이 나무 선반을 제작하고 있다.",
+        "translationTarget": "제작",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546830-1",
+    "wordId": "lex-jmdict-1546830",
+    "version": 1,
+    "meaning": "요망, 요청",
+    "hint": "이루어지기를 바라며 구체적으로 요구하는 내용입니다.",
+    "confusions": [
+      {
+        "japanese": "希望",
+        "distinction": "要望는 상대에게 실현을 요구하는 바람이고 希望는 바라는 마음·내용 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546830-1-ex-1",
+        "version": 1,
+        "before": "利用者の",
+        "answer": "要望",
+        "after": "を受けて、開館時間を延長した。",
+        "reading": "ようぼう",
+        "translation": "이용자의 요청을 받아 개관 시간을 연장했다.",
+        "translationTarget": "요청",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1344140-1",
+    "wordId": "lex-jmdict-1344140",
+    "version": 1,
+    "meaning": "서평",
+    "hint": "책의 내용·가치를 소개하고 평가하는 글입니다.",
+    "confusions": [
+      {
+        "japanese": "書名",
+        "distinction": "書評는 책에 대한 평가 글이고 書名는 책 제목이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1344140-1-ex-1",
+        "version": 1,
+        "before": "新聞の",
+        "answer": "書評",
+        "after": "を読んで、気になっていた小説を買った。",
+        "reading": "しょひょう",
+        "translation": "신문의 서평을 읽고 관심 있던 소설을 샀다.",
+        "translationTarget": "서평",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1476500-1",
+    "wordId": "lex-jmdict-1476500",
+    "version": 1,
+    "meaning": "내의·속옷",
+    "hint": "피부 가까이에 직접 입는 옷",
+    "confusions": [
+      {
+        "japanese": "上着",
+        "distinction": "피부 가까이에 입는 옷과 바깥에 걸치는 옷을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1476500-1-ex-1",
+        "version": 1,
+        "before": "汗をかいたので、",
+        "answer": "肌着",
+        "after": "だけ先に着替えた。",
+        "reading": "はだぎ",
+        "translation": "땀이 났으므로 내의만 먼저 갈아입었다.",
+        "translationTarget": "내의",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1584670-1",
+    "wordId": "lex-jmdict-1584670",
+    "version": 1,
+    "meaning": "면하다, 피하다",
+    "hint": "책임·위험·불리한 상태에서 벗어납니다.",
+    "confusions": [
+      {
+        "japanese": "免除する",
+        "distinction": "免れる는 위험·책임을 면함이고 免除する는 의무 등을 면제해 주는 행위이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1584670-1-ex-1",
+        "version": 1,
+        "before": "早めに避難したため、けがを",
+        "answer": "免れた",
+        "after": "。",
+        "reading": "まぬがれた",
+        "translation": "일찍 대피해서 부상을 면했다.",
+        "translationTarget": "면했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1392240-1",
+    "wordId": "lex-jmdict-1392240",
+    "version": 1,
+    "meaning": "선발 심사",
+    "hint": "기준에 따라 후보들을 평가하여 뽑습니다.",
+    "confusions": [
+      {
+        "japanese": "選挙",
+        "distinction": "選考는 기준에 따른 후보 심사이고 選挙는 투표 등으로 사람을 뽑음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1392240-1-ex-1",
+        "version": 1,
+        "before": "作品の",
+        "answer": "選考",
+        "after": "は、三人の専門家が担当する。",
+        "reading": "せんこう",
+        "translation": "작품의 선발 심사는 전문가 세 명이 담당한다.",
+        "translationTarget": "선발 심사",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539120-1",
+    "wordId": "lex-jmdict-1539120",
+    "version": 1,
+    "meaning": "우월",
+    "hint": "다른 대상보다 능력·가치가 앞섭니다.",
+    "confusions": [
+      {
+        "japanese": "優位",
+        "distinction": "優越는 더 뛰어남이고 優位는 비교에서 유리한 위치이다. 우월감·우위 판단에서 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539120-1-ex-1",
+        "version": 1,
+        "before": "相手より知識があるという",
+        "answer": "優越",
+        "after": "感を、表に出さないようにした。",
+        "reading": "ゆうえつ",
+        "translation": "상대보다 지식이 많다는 우월감을 드러내지 않으려 했다.",
+        "translationTarget": "우월",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

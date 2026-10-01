@@ -1460,6 +1460,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278460-1",
+    "wordId": "lex-jmdict-1278460",
+    "version": 1,
+    "meaning": "널리 퍼뜨리다",
+    "hint": "정보나 생각을 더 많은 사람이 알게 해요.",
+    "confusions": [
+      {
+        "japanese": "広がる",
+        "distinction": "누군가 널리 알리는 행동과 범위가 저절로 넓어지는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278460-1-ex-1",
+        "version": 1,
+        "before": "地域の魅力を",
+        "answer": "広める",
+        "after": "ため、動画を作って公開した。",
+        "reading": "ひろめる",
+        "translation": "지역의 매력을 널리 알리기 위해 영상을 만들어 공개했다.",
+        "translationTarget": "널리 알리기",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-handmade_42-2",
+    "wordId": "handmade_42",
+    "version": 1,
+    "meaning": "식사",
+    "hint": "쌀밥만이 아니라 한 끼에 먹는 음식이나 끼니 자체를 말해요.",
+    "confusions": [
+      {
+        "japanese": "食事",
+        "distinction": "끼니라는 뜻은 겹친다. 이 표현은 일상 대화에 흔하고 쌀밥 자체도 가리키며, 비교 표현은 식사를 더 중립적으로 말한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-handmade_42-2-ex-1",
+        "version": 1,
+        "before": "仕事が終わったら、一緒に",
+        "answer": "ご飯",
+        "after": "を食べに行きませんか。",
+        "reading": "ごはん",
+        "translation": "일이 끝나면 함께 식사하러 가지 않을래요?",
+        "translationTarget": "식사",
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1296200-1",
+    "wordId": "lex-jmdict-1296200",
+    "version": 1,
+    "meaning": "바느질·재봉",
+    "hint": "실과 바늘로 옷이나 천을 꿰매는 일",
+    "confusions": [
+      {
+        "japanese": "編み物",
+        "distinction": "천을 꿰매는 일과 실로 조직을 만들어 뜨는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1296200-1-ex-1",
+        "version": 1,
+        "before": "祖母から",
+        "answer": "裁縫",
+        "after": "を習い、破れた袋を自分で直した。",
+        "reading": "さいほう",
+        "translation": "할머니께 바느질을 배워 찢어진 주머니를 직접 고쳤다.",
+        "translationTarget": "바느질",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378210-1",
+    "wordId": "lex-jmdict-1378210",
+    "version": 1,
+    "meaning": "청산",
+    "hint": "계산·관계 등을 정리하여 마무리합니다.",
+    "confusions": [
+      {
+        "japanese": "精算",
+        "distinction": "선택한 清算는 과거 관계·일을 정리함이고 精算는 금액을 정확히 계산함이다. 회사·채무의 정리에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378210-1-ex-1",
+        "version": 1,
+        "before": "過去の対立を",
+        "answer": "清算",
+        "after": "し、新しい関係を築くことになった。",
+        "reading": "せいさん",
+        "translation": "과거 대립을 청산하고 새 관계를 구축하기로 했다.",
+        "translationTarget": "청산",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1394560-1",
+    "wordId": "lex-jmdict-1394560",
+    "version": 1,
+    "meaning": "선량함",
+    "hint": "마음·행동이 착하고 바릅니다.",
+    "confusions": [
+      {
+        "japanese": "良好",
+        "distinction": "善良는 사람의 도덕적 착함이고 良好는 상태가 좋음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1394560-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "善良",
+        "after": "な人の信頼を利用する行為は、許されない。",
+        "reading": "ぜんりょう",
+        "translation": "선량한 사람의 신뢰를 이용하는 행위는 용납되지 않는다.",
+        "translationTarget": "선량한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561940-1",
+    "wordId": "lex-jmdict-1561940",
+    "version": 1,
+    "meaning": "화기애애함, 부드러움",
+    "hint": "분위기가 편안하고 서로 사이좋습니다.",
+    "confusions": [
+      {
+        "japanese": "穏やか",
+        "distinction": "和やか는 사람들 사이 편안한 분위기이고 穏やか는 기분·날씨 등이 평온함이다. 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561940-1-ex-1",
+        "version": 1,
+        "before": "食事が進むにつれ、会話も",
+        "answer": "和やか",
+        "after": "になった。",
+        "reading": "なごやか",
+        "translation": "식사가 이어지면서 대화도 화기애애해졌다.",
+        "translationTarget": "화기애애해졌다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

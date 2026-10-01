@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-01T01:02:34.811Z",
+  "previousHolds": [
+    {
+      "wordId": "handmade_54",
+      "level": "N4",
+      "sourceHash": "bcc8d71425fe556f5880d965cbaf7709122c00b327a02d6f54fb868f0f3db92f",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "失敗する AbsoluteVerb_662와 시도 실패 용법이 중복된다. 별도 의미/기록 연결 판단 전 보류."
+      ]
+    },
+    {
+      "wordId": "handmade_82",
+      "level": "N4",
+      "sourceHash": "7516de3dfcc4642d665ad831a78cb413ebc8f6eaf86a15bdd88630ae09a7ac79",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "連絡する AbsoluteVerb_677과 소식을 주고받는 핵심 용법이 중복된다. 별도 의미/기록 연결 판단 전 보류."
+      ]
+    },
+    {
+      "wordId": "handmade_132",
+      "level": "N4",
+      "sourceHash": "e7f194f3d5dd0d7ef68e117fd1c21ed278953777b51a67b528bf54b44f7ce5ad",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "説明する AbsoluteVerb_654와 이해를 돕는 설명 핵심 용법이 중복된다. 별도 의미/기록 연결 판단 전 보류."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "wordId": "handmade_54",
+      "level": "N4",
+      "sourceHash": "bcc8d71425fe556f5880d965cbaf7709122c00b327a02d6f54fb868f0f3db92f",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:02:34.811Z",
+      "aliasGroupId": "alias-handmade_54",
+      "notes": [
+        "전체 원본쌍 의미·힌트·대비·예문 전량 독립 검토 후 같은 핵심으로 승인했다. 현재 활성 별칭 그룹과 원본 해시를 대조하여 N4 대표 참조 하나를 승인한다.",
+        "시도한 일이 원하는 결과에 이르지 못한 실패라는 핵심이다. 첫 실패 뒤 지속/케이크 만들기/첫 빵 만들기/재료로 재시도하는 네 문장을 모두 읽었다. 잘못된 답 자체와 대비하는 설명도 동일 핵심을 지지한다."
+      ]
+    },
+    {
+      "wordId": "handmade_82",
+      "level": "N4",
+      "sourceHash": "7516de3dfcc4642d665ad831a78cb413ebc8f6eaf86a15bdd88630ae09a7ac79",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:02:34.811Z",
+      "aliasGroupId": "alias-handmade_82",
+      "notes": [
+        "전체 원본쌍 의미·힌트·대비·예문 전량 독립 검토 후 같은 핵심으로 승인했다. 현재 활성 별칭 그룹과 원본 해시를 대조하여 N4 대표 참조 하나를 승인한다.",
+        "상대에게 소식·상황을 전하고 연락을 취하는 핵심이다. 도착 소식/약속 장소에서 연락 두절/엄마에게 도착 알림/번호 변경으로 연락 불가 네 문장을 모두 읽었다. 철도 연결이나 사건 사이 연관이라는 별도 사전 뜻은 선택하지 않았다."
+      ]
+    },
+    {
+      "wordId": "handmade_132",
+      "level": "N4",
+      "sourceHash": "e7f194f3d5dd0d7ef68e117fd1c21ed278953777b51a67b528bf54b44f7ce5ad",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:02:34.811Z",
+      "aliasGroupId": "alias-handmade_132",
+      "notes": [
+        "전체 원본쌍 의미·힌트·대비·예문 전량 독립 검토 후 같은 핵심으로 승인했다. 현재 활성 별칭 그룹과 원본 해시를 대조하여 N4 대표 참조 하나를 승인한다.",
+        "상대의 이해를 돕도록 내용을 풀어 알리는 핵심이다. 그림으로 구조 이해/긴 설명에 의자 준비/도구 사용법을 그림으로 설명/느린 설명 요청 네 문장을 모두 읽었다. 결과 전달에 초점을 둔 보고와의 대비도 같은 핵심이다."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1544040",
+      "japanese": "余興",
+      "reading": "よきょう",
+      "level": "N2",
+      "spellings": [
+        "余興"
+      ],
+      "readings": [
+        "よきょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "余興"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1542910",
+      "japanese": "予感",
+      "reading": "よかん",
+      "level": "N2",
+      "spellings": [
+        "予感"
+      ],
+      "readings": [
+        "よかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "予感"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1537270",
+      "japanese": "野外",
+      "reading": "やがい",
+      "level": "N2",
+      "spellings": [
+        "野外"
+      ],
+      "readings": [
+        "やがい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "野外"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1537470",
+      "japanese": "野生",
+      "reading": "やせい",
+      "level": "N2",
+      "spellings": [
+        "野生"
+      ],
+      "readings": [
+        "やせい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "野生"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1529940",
+      "japanese": "無口",
+      "reading": "むくち",
+      "level": "N2",
+      "spellings": [
+        "無口"
+      ],
+      "readings": [
+        "むくち"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無口"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530080",
+      "japanese": "無邪気",
+      "reading": "むじゃき",
+      "level": "N2",
+      "spellings": [
+        "無邪気"
+      ],
+      "readings": [
+        "むじゃき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無邪気"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530630",
+      "japanese": "無知",
+      "reading": "むち",
+      "level": "N2",
+      "spellings": [
+        "無知",
+        "無智"
+      ],
+      "readings": [
+        "むち"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無知"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530670",
+      "japanese": "無茶",
+      "reading": "むちゃ",
+      "level": "N2",
+      "spellings": [
+        "無茶"
+      ],
+      "readings": [
+        "むちゃ",
+        "むっちゃ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無茶"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530750",
+      "japanese": "無難",
+      "reading": "ぶなん",
+      "level": "N2",
+      "spellings": [
+        "無難"
+      ],
+      "readings": [
+        "ぶなん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無難"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1531060",
+      "japanese": "無礼",
+      "reading": "ぶれい",
+      "level": "N2",
+      "spellings": [
+        "無礼",
+        "不礼"
+      ],
+      "readings": [
+        "ぶれい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無礼"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530520",
+      "japanese": "無駄遣い",
+      "reading": "むだづかい",
+      "level": "N2",
+      "spellings": [
+        "無駄遣い",
+        "徒遣い",
+        "無駄使い",
+        "無駄づかい",
+        "ムダ遣い",
+        "ムダ使い"
+      ],
+      "readings": [
+        "むだづかい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無駄遣い"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1531520",
+      "japanese": "名産",
+      "reading": "めいさん",
+      "level": "N2",
+      "spellings": [
+        "名産"
+      ],
+      "readings": [
+        "めいさん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "名産"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1531830",
+      "japanese": "名簿",
+      "reading": "めいぼ",
+      "level": "N2",
+      "spellings": [
+        "名簿"
+      ],
+      "readings": [
+        "めいぼ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "名簿"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1541060",
+      "japanese": "有様",
+      "reading": "ありさま",
+      "level": "N2",
+      "spellings": [
+        "有様",
+        "有り様",
+        "あり様",
+        "有りさま"
+      ],
+      "readings": [
+        "ありさま",
+        "ありよう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "有様"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530940",
+      "japanese": "無用",
+      "reading": "むよう",
+      "level": "N2",
+      "spellings": [
+        "無用"
+      ],
+      "readings": [
+        "むよう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無用"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1528130",
+      "japanese": "未練",
+      "reading": "みれん",
+      "level": "N2",
+      "spellings": [
+        "未練"
+      ],
+      "readings": [
+        "みれん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "未練"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530770",
+      "japanese": "無念",
+      "reading": "むねん",
+      "level": "N2",
+      "spellings": [
+        "無念"
+      ],
+      "readings": [
+        "むねん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無念"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1394560",
+      "japanese": "善良",
+      "reading": "ぜんりょう",
+      "level": "N2",
+      "spellings": [
+        "善良"
+      ],
+      "readings": [
+        "ぜんりょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "善良"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1397390",
+      "japanese": "素朴",
+      "reading": "そぼく",
+      "level": "N2",
+      "spellings": [
+        "素朴",
+        "素樸"
+      ],
+      "readings": [
+        "そぼく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "素朴"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1561940",
+      "japanese": "和やか",
+      "reading": "なごやか",
+      "level": "N2",
+      "spellings": [
+        "和やか"
+      ],
+      "readings": [
+        "なごやか"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "和やか"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1562180",
+      "japanese": "和風",
+      "reading": "わふう",
+      "level": "N2",
+      "spellings": [
+        "和風"
+      ],
+      "readings": [
+        "わふう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "和風"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1560730",
+      "japanese": "朗読",
+      "reading": "ろうどく",
+      "level": "N2",
+      "spellings": [
+        "朗読"
+      ],
+      "readings": [
+        "ろうどく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "朗読"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1560800",
+      "japanese": "浪費",
+      "reading": "ろうひ",
+      "level": "N2",
+      "spellings": [
+        "浪費"
+      ],
+      "readings": [
+        "ろうひ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "浪費"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1559720",
+      "japanese": "連日",
+      "reading": "れんじつ",
+      "level": "N2",
+      "spellings": [
+        "連日"
+      ],
+      "readings": [
+        "れんじつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "連日"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1554580",
+      "japanese": "良質",
+      "reading": "りょうしつ",
+      "level": "N2",
+      "spellings": [
+        "良質"
+      ],
+      "readings": [
+        "りょうしつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "良質"
+        ]
+      }
+    }
+  ]
+}

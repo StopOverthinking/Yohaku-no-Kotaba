@@ -1,15 +1,16 @@
 {
   "schemaVersion": 2,
-  "sourceHash": "d77139f01e0ea4f0f797b50a9802a9b1965dda1633ba1e3a7bfb3e84e67c3982",
+  "sourceHash": "babff845f028c50206bdd4222b5ab8d8af70372f0e5fbfd7b6ea0946e4e676be",
   "review": {
     "outcome": "accepted",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent complete editorial review; compact record",
-    "reviewedAt": "2026-09-30T04:23:59.508Z",
+    "reviewedAt": "2026-10-01T00:52:25.963Z",
     "notes": [
-      "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+      "All words, meanings, readings, hints, contrasts, examples and translations reviewed.",
+      "독립 승인된 예문 하나만v2로개정; final-scene-fix-history.json의 개별새승인/이전전체기록 참조."
     ]
   },
   "entries": [
@@ -59,7 +60,7 @@
     ],
     [
       "lex-jmdict-1042080",
-      "af6ad5e955728098b6930681563a71d3a56172a67fa74da4e707b4b79d5bce8e"
+      "55909b2a2372a58ad2765b433187f3cfde106e3ddc19e26bbb647d77844522bd"
     ],
     [
       "lex-jmdict-1048100",

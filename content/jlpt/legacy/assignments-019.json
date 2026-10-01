@@ -12,12 +12,12 @@
   },
   {
     "wordId": "handmade_42",
-    "sourceHash": "f941c302b4f97bcc72a556db16d3d1bc04a9cd51e2a902c16fbf80503ec57a34",
+    "sourceHash": "3383f8aabf5400d0dd1e9b28a794b82b8ff19dd97f6438d810179ea28d70f1a1",
     "level": "N5",
     "dictionaryId": "jmdict-1270590",
     "suggestedType": "noun",
-    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “밥, 식사” 및 1개 sense를 대조했다. cooked rice와 밥 양·남은 밥 주먹밥 예문이 일치한다. 식사 전체 의미도 사전에 있으나 현재 sense는 쌀밥이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },

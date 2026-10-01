@@ -1884,6 +1884,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491050-1",
+    "wordId": "lex-jmdict-1491050",
+    "version": 1,
+    "meaning": "빈번하다",
+    "hint": "같은 일이 짧은 간격으로 자주 일어납니다.",
+    "confusions": [
+      {
+        "japanese": "頻度",
+        "distinction": "頻繁는 자주 일어나는 상태이고 頻度는 발생 횟수·비율의 정도를 말하는 명사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491050-1-ex-1",
+        "version": 1,
+        "before": "工事が始まってから、この道を大型車が",
+        "answer": "頻繁",
+        "after": "に通る。",
+        "reading": "ひんぱん",
+        "translation": "공사가 시작된 뒤 이 길로 대형 차량이 빈번하게 지나간다.",
+        "translationTarget": "빈번하게",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252310-1",
+    "wordId": "lex-jmdict-1252310",
+    "version": 1,
+    "meaning": "경계",
+    "hint": "위험이나 이상한 상황에 대비하여 주의를 기울이는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "警告",
+        "distinction": "警戒는 위험에 대비함이고 警告는 위험을 알리는 경고다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252310-1-ex-1",
+        "version": 1,
+        "before": "大雨が続く地域では、土砂災害への",
+        "answer": "警戒",
+        "after": "が呼びかけられた。",
+        "reading": "けいかい",
+        "translation": "큰비가 계속되는 지역에서는 산사태에 대한 경계가 당부되었다.",
+        "translationTarget": "경계",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1100240-1",
+    "wordId": "lex-jmdict-1100240",
+    "version": 1,
+    "meaning": "밴드·음악 그룹",
+    "hint": "함께 악기를 연주하고 노래하는 사람들의 모임",
+    "confusions": [
+      {
+        "japanese": "合唱団",
+        "distinction": "악기 연주 중심의 음악 그룹과 함께 노래하는 단체를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1100240-1-ex-1",
+        "version": 1,
+        "before": "兄の",
+        "answer": "バンド",
+        "after": "は、週末に駅前で演奏しています。",
+        "reading": "バンド",
+        "translation": "형의 밴드는 주말에 역 앞에서 연주하고 있습니다.",
+        "translationTarget": "밴드",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1344130-1",
+    "wordId": "lex-jmdict-1344130",
+    "version": 1,
+    "meaning": "서예",
+    "hint": "붓으로 글씨의 모양과 아름다움을 표현하는 예술",
+    "confusions": [
+      {
+        "japanese": "絵画",
+        "distinction": "글씨로 표현하는 예술과 그림으로 표현하는 예술을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1344130-1-ex-1",
+        "version": 1,
+        "before": "祖父は毎朝、",
+        "answer": "書道",
+        "after": "の道具を静かに並べる。",
+        "reading": "しょどう",
+        "translation": "할아버지는 매일 아침 서예 도구를 조용히 늘어놓으신다.",
+        "translationTarget": "서예",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1251030-1",
+    "wordId": "lex-jmdict-1251030",
+    "version": 1,
+    "meaning": "계통·체계",
+    "hint": "관련된 요소들이 일정한 관계로 연결된 갈래",
+    "confusions": [
+      {
+        "japanese": "種類",
+        "distinction": "연결 관계에 따른 갈래와 성질에 따른 종류를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1251030-1-ex-1",
+        "version": 1,
+        "before": "停電したため、別の",
+        "answer": "系統",
+        "after": "から電力を送った。",
+        "reading": "けいとう",
+        "translation": "정전이 나서 다른 계통에서 전력을 공급했다.",
+        "translationTarget": "계통",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554380-1",
+    "wordId": "lex-jmdict-1554380",
+    "version": 1,
+    "meaning": "더위를 식히다",
+    "hint": "시원한 바람이나 장소에서 몸의 더위를 가라앉혀요.",
+    "confusions": [
+      {
+        "japanese": "暖まる",
+        "distinction": "더위를 식히는 것과 몸이 따뜻해지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554380-1-ex-1",
+        "version": 1,
+        "before": "夕方は川のそばで",
+        "answer": "涼みながら",
+        "after": "、釣り人を眺めた。",
+        "reading": "すずみながら",
+        "translation": "저녁에는 강가에서 더위를 식히며 낚시하는 사람을 바라보았다.",
+        "translationTarget": "더위를 식히며",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375930-1",
+    "wordId": "lex-jmdict-1375930",
+    "version": 1,
+    "meaning": "정권",
+    "hint": "정치적 권한을 맡아 국가를 운영하는 체제·세력입니다.",
+    "confusions": [
+      {
+        "japanese": "政策",
+        "distinction": "政権는 정치 권력을 맡은 세력·체제이고 政策는 시행할 방침·대책이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375930-1-ex-1",
+        "version": 1,
+        "before": "選挙の結果、新しい",
+        "answer": "政権",
+        "after": "が誕生した。",
+        "reading": "せいけん",
+        "translation": "선거 결과 새 정권이 탄생했다.",
+        "translationTarget": "정권",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350250-1",
+    "wordId": "lex-jmdict-1350250",
+    "version": 1,
+    "meaning": "소식, 행방",
+    "hint": "사람의 근황·어디에 있는지를 알려 주는 정보입니다.",
+    "confusions": [
+      {
+        "japanese": "情報",
+        "distinction": "消息는 사람의 근황·행방에 흔하고 情報는 자료·소식 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350250-1-ex-1",
+        "version": 1,
+        "before": "長く連絡のなかった友人の",
+        "answer": "消息",
+        "after": "が分かり、安心した。",
+        "reading": "しょうそく",
+        "translation": "오래 연락이 없던 친구의 소식을 알게 되어 안심했다.",
+        "translationTarget": "소식",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

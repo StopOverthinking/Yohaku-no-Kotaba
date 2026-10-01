@@ -1500,6 +1500,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252860-1",
+    "wordId": "lex-jmdict-1252860",
+    "version": 1,
+    "meaning": "경멸",
+    "hint": "상대를 가치가 낮다고 보며 깔보는 태도입니다.",
+    "confusions": [
+      {
+        "japanese": "尊敬",
+        "distinction": "軽蔑는 깔봄이고 尊敬는 훌륭하게 여겨 높이 평가함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252860-1-ex-1",
+        "version": 1,
+        "before": "弱い立場の人を笑う彼の態度に、周囲は",
+        "answer": "軽蔑",
+        "after": "の目を向けた。",
+        "reading": "けいべつ",
+        "translation": "약한 처지의 사람을 비웃는 그의 태도에 주변 사람들은 경멸의 눈길을 보냈다.",
+        "translationTarget": "경멸",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1316290-1",
+    "wordId": "lex-jmdict-1316290",
+    "version": 1,
+    "meaning": "시속",
+    "hint": "한 시간에 이동하는 거리로 나타낸 속도",
+    "confusions": [
+      {
+        "japanese": "距離",
+        "distinction": "시간당 이동량인 속도와 전체 이동 거리를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1316290-1-ex-1",
+        "version": 1,
+        "before": "この区間では、",
+        "answer": "時速",
+        "after": "三十キロを超えてはいけません。",
+        "reading": "じそく",
+        "translation": "이 구간에서는 시속 삼십 킬로미터를 넘으면 안 됩니다.",
+        "translationTarget": "시속",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470710-1",
+    "wordId": "lex-jmdict-1470710",
+    "version": 1,
+    "meaning": "농산물",
+    "hint": "농업을 통해 생산한 곡물·채소·과일 등의 산물입니다.",
+    "confusions": [
+      {
+        "japanese": "水産物",
+        "distinction": "農産物는 농업 생산물이고 水産物는 바다·강 등에서 얻는 수산물이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470710-1-ex-1",
+        "version": 1,
+        "before": "朝市には、近くの畑で採れた",
+        "answer": "農産物",
+        "after": "が並んでいる。",
+        "reading": "のうさんぶつ",
+        "translation": "아침 시장에는 근처 밭에서 수확한 농산물이 진열되어 있다.",
+        "translationTarget": "농산물",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1331590-1",
+    "wordId": "lex-jmdict-1331590",
+    "version": 1,
+    "meaning": "취업 상태, 일을 함",
+    "hint": "직업·근로 활동에 종사합니다.",
+    "confusions": [
+      {
+        "japanese": "就職",
+        "distinction": "就業는 일하는 상태·활동이고 就職는 직장을 얻음에 초점을 둔다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1331590-1-ex-1",
+        "version": 1,
+        "before": "育児休業の後も",
+        "answer": "就業",
+        "after": "を続けられる環境を整えている。",
+        "reading": "しゅうぎょう",
+        "translation": "육아 휴직 뒤에도 근로 활동을 이어갈 수 있는 환경을 마련하고 있다.",
+        "translationTarget": "근로 활동",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577730-1",
+    "wordId": "lex-jmdict-1577730",
+    "version": 1,
+    "meaning": "기증",
+    "hint": "물건·자료 등을 대가 없이 기관·사람에게 줍니다.",
+    "confusions": [
+      {
+        "japanese": "貸出",
+        "distinction": "寄贈는 소유권을 넘겨 기증함이고 貸出는 돌려받을 것을 전제로 빌려줌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577730-1-ex-1",
+        "version": 1,
+        "before": "卒業生が、母校の図書館に専門書を",
+        "answer": "寄贈",
+        "after": "した。",
+        "reading": "きぞう",
+        "translation": "졸업생이 모교 도서관에 전문 서적을 기증했다.",
+        "translationTarget": "기증",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

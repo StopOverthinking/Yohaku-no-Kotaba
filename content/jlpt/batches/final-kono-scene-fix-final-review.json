@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "scope": "explicit-reviewed-example-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:20:32.163Z",
+  "historyFile": "content/jlpt/batches/final-kono-scene-fix-history.json",
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1582920",
+      "contentHash": "3d72be6af1cc5538e1ef8029dda25bb069eddfcb82caeb7ac2353b4502a3e67a",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:19:31.908Z",
+      "method": "Independent full original and revised word/sense/example read; source and version-bound single-scene revision",
+      "notes": [
+        "この의 뜨거운 수프 주의 문장은 기존 カップ의 뜨거운 컵 주의 문형과 실질적으로 반복되어, 가까운 특정 상자를 둘이 옮기자는 독립 지시 상황으로 정정한다. 단어·뜻·용법·난도는 보존한다.",
+        "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+      ]
+    }
+  ]
+}

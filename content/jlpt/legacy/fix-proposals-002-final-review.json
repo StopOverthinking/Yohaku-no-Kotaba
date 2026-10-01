@@ -1,0 +1,71 @@
+{
+  "scope": "legacy-content-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-09-30T23:57:48.372Z",
+  "draftHash": "1b86dc54bd9a61d69391d15a6479ce5c7a4db796c9cec114e0197329fb0c04bd",
+  "notes": [
+    "전체 before/after7단어 및 기존7용법/14예문, 새로운8용법/8예문을 독립 의미 검토했다. 준비된 초안이 최종 검토 제안과 완전 동일함을 확인했다.",
+    "기존 용법의 ID/버전과 예문 본문/버전/순서 전체 보존. 단어 뜻 명료화는 기존 의미를 유지하며 추가 의미는 새sense v1로 독립 학습한다.",
+    "聞く·飲む의 초기 반복 장면을 수정한 최종안으로 전체 원본+미게시pilot+수정안8737예문 유사쌍0 및 수작업 장면 검토 완료."
+  ],
+  "preservedCoreUsages": [
+    {
+      "wordId": "handmade_153",
+      "senseIds": [
+        "sense-handmade_153-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가."
+    },
+    {
+      "wordId": "AbsoluteVerb_31",
+      "senseIds": [
+        "sense-AbsoluteVerb_31-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정."
+    },
+    {
+      "wordId": "AbsoluteVerb_34",
+      "senseIds": [
+        "sense-AbsoluteVerb_34-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정."
+    },
+    {
+      "wordId": "AbsoluteVerb_81",
+      "senseIds": [
+        "sense-AbsoluteVerb_81-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리."
+    },
+    {
+      "wordId": "AbsoluteVerb_101",
+      "senseIds": [
+        "sense-AbsoluteVerb_101-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리."
+    },
+    {
+      "wordId": "AbsoluteVerb_143",
+      "senseIds": [
+        "sense-AbsoluteVerb_143-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리."
+    },
+    {
+      "wordId": "AbsoluteVerb_71",
+      "senseIds": [
+        "sense-AbsoluteVerb_71-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가."
+    }
+  ]
+}

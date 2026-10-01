@@ -1,0 +1,106 @@
+[
+  {
+    "japanese": "疲れる",
+    "dictionaryId": "jmdict-1483740",
+    "level": "N5",
+    "representativeWordId": "JLPTN3_71",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "profileTransfer": "equivalent-core-usage",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:07:43.097Z",
+    "members": [
+      {
+        "wordId": "JLPTN3_71",
+        "senseId": "sense-JLPTN3_71-1",
+        "version": 1,
+        "sourceHash": "afe60f5a470f28837c4e13db8a1aea677893097a151a927abd728eb28b5bc322",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_71-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_71-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_292",
+        "senseId": "sense-AbsoluteVerb_292-1",
+        "version": 1,
+        "sourceHash": "acd82911359e77782fa810a5f06d62ad2f43b224faf76eb9770b1c5a77703c7d",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_292-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_292-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "몸·마음의 힘이 소모되어 지치는 동일 핵심이다. 이사 도움/남을 지나치게 배려/익숙하지 않은 신발/피로시 교대 네 예문과 싫증 대비를 읽었다.",
+      "전체 원문·단어·힌트·대비·번역을 독립 읽고 제공 JMdict 뜻/품사 및 N5/N4 출처 근거와 대조했다. 원본을 보존하는 기존 보수적 기록 연결만 승인한다."
+    ]
+  },
+  {
+    "japanese": "通る",
+    "dictionaryId": "jmdict-1433030",
+    "level": "N4",
+    "representativeWordId": "JLPTN3_75",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "profileTransfer": "equivalent-core-usage",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:07:43.097Z",
+    "members": [
+      {
+        "wordId": "JLPTN3_75",
+        "senseId": "sense-JLPTN3_75-1",
+        "version": 1,
+        "sourceHash": "34524dda6679b9da39104cc2e0a304f319ccb8e868a75d4621accf61e523b6ff",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_75-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_75-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_277",
+        "senseId": "sense-AbsoluteVerb_277-1",
+        "version": 1,
+        "sourceHash": "1066450fe9808e615e4b8624074bb279dc74671f76707e8d5f721ba1714d2cd6",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_277-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_277-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "경로·공간을 지나가는 동일 자동 핵심이다. 공원 통과/큰 짐으로 좁은 입구 통과 불가/초등학교 앞 경로/큰 짐으로 문 통과 불가 네 문장을 읽었다. 通う의 반복 방문과 구별한다.",
+      "전체 원문·단어·힌트·대비·번역을 독립 읽고 제공 JMdict 뜻/품사 및 N5/N4 출처 근거와 대조했다. 원본을 보존하는 기존 보수적 기록 연결만 승인한다."
+    ]
+  }
+]

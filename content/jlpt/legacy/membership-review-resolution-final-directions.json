@@ -1,0 +1,668 @@
+{
+  "reviewedAt": "2026-10-01T01:08:36.154Z",
+  "rows": [
+    {
+      "wordId": "handmade_27",
+      "previousProposal": {
+        "wordId": "handmade_27",
+        "sourceHash": "90d653a1f20f0665c2a801060d1e5e10a3ffd17bad15a49e70549b51b2dd9aa4",
+        "level": "N5",
+        "dictionaryId": "jmdict-1447440",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “동쪽” 및 1개 sense를 대조했다. east와 아침 햇빛·우체국 길 안내 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "handmade_27",
+        "sourceHash": "90d653a1f20f0665c2a801060d1e5e10a3ffd17bad15a49e70549b51b2dd9aa4",
+        "proposalHash": "c002b83d00ebaff2c69bcf611617712bba8d8d6cec1078d0242821398699bb2b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-018.json",
+        "reviewedAt": "2026-09-30T05:35:57.314Z",
+        "notes": [
+          "동쪽 기본 방위 명사의 N5 분류를 확인했다. 동서남 창문 방향·햇빛 장면의 반복은 별도 참조 검토 사항이다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "handmade_27",
+          "setId": "set-2",
+          "japanese": "東",
+          "reading": "ひがし",
+          "meaning": "동쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 26
+        },
+        "senses": [
+          {
+            "id": "sense-handmade_27-1",
+            "wordId": "handmade_27",
+            "version": 1,
+            "meaning": "동쪽",
+            "hint": "해가 뜨는 방향을 떠올려 보세요.",
+            "confusions": [
+              {
+                "japanese": "西",
+                "distinction": "해가 지는 쪽과 반대 방향이다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-handmade_27-1-ex-1",
+                "version": 1,
+                "before": "窓が",
+                "answer": "東",
+                "after": "に向いているので、朝日が入る。",
+                "reading": "ひがし",
+                "translation": "창문이 동쪽을 향하고 있어서 아침 햇살이 들어온다.",
+                "translationTarget": "동쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-handmade_27-1-ex-2",
+                "version": 1,
+                "before": "ここから",
+                "answer": "東",
+                "after": "へ五分歩くと、郵便局があります。",
+                "reading": "ひがし",
+                "translation": "여기서 동쪽으로 오 분 걸으면 우체국이 있습니다.",
+                "translationTarget": "동쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wordId": "handmade_28",
+      "previousProposal": {
+        "wordId": "handmade_28",
+        "sourceHash": "d25e14f4795128ca0e3c6f0724225e4c45cd6a0bed13f5b85a61bd5acf678198",
+        "level": "N5",
+        "dictionaryId": "jmdict-1380840",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “서쪽” 및 1개 sense를 대조했다. west와 저녁 햇빛·서쪽 논 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "handmade_28",
+        "sourceHash": "d25e14f4795128ca0e3c6f0724225e4c45cd6a0bed13f5b85a61bd5acf678198",
+        "proposalHash": "a942fb6547a947a43f8d741c83e623aa9d63d2e226881fa7b2518999a6ebb052",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-018.json",
+        "reviewedAt": "2026-09-30T05:35:57.314Z",
+        "notes": [
+          "서쪽 기본 방위의 N5는 타당하나 동·남과 같은 창문 햇빛 장면 반복을 분리 검토한다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "handmade_28",
+          "setId": "set-2",
+          "japanese": "西",
+          "reading": "にし",
+          "meaning": "서쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 27
+        },
+        "senses": [
+          {
+            "id": "sense-handmade_28-1",
+            "wordId": "handmade_28",
+            "version": 1,
+            "meaning": "서쪽",
+            "hint": "해가 지는 쪽이에요. 비슷한 방향 말과 구별해요.",
+            "confusions": [
+              {
+                "japanese": "東",
+                "distinction": "해가 뜨는 동쪽과 지는 서쪽은 반대 방향이다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-handmade_28-1-ex-1",
+                "version": 2,
+                "before": "日が",
+                "answer": "西",
+                "after": "に沈み、空が赤くなった。",
+                "reading": "にし",
+                "translation": "해가 서쪽으로 지고 하늘이 붉어졌다.",
+                "translationTarget": "서쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-handmade_28-1-ex-2",
+                "version": 1,
+                "before": "町の",
+                "answer": "西",
+                "after": "には、まだ田んぼが残っている。",
+                "reading": "にし",
+                "translation": "마을 서쪽에는 아직 논이 남아 있다.",
+                "translationTarget": "서쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wordId": "handmade_29",
+      "previousProposal": {
+        "wordId": "handmade_29",
+        "sourceHash": "6ec5ac6fe44fdfc5c45a9d2a9d6884b1996fd41c6261fe621997f9fe1dbc015c",
+        "level": "N5",
+        "dictionaryId": "jmdict-1459870",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “남쪽” 및 1개 sense를 대조했다. south와 새 이동·남향 창문 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "handmade_29",
+        "sourceHash": "6ec5ac6fe44fdfc5c45a9d2a9d6884b1996fd41c6261fe621997f9fe1dbc015c",
+        "proposalHash": "892cefda9ed1093625fff5b1f1c6c20e7af375f2d147e43253a85ae104bd0768",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-018.json",
+        "reviewedAt": "2026-09-30T05:35:57.314Z",
+        "notes": [
+          "남쪽 기본 방위 N5에 동의한다. 창문 방향·햇빛 및 새 이동 장면은 다른 방위 예문과 가까워 분리 검토한다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "handmade_29",
+          "setId": "set-2",
+          "japanese": "南",
+          "reading": "みなみ",
+          "meaning": "남쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 28
+        },
+        "senses": [
+          {
+            "id": "sense-handmade_29-1",
+            "wordId": "handmade_29",
+            "version": 1,
+            "meaning": "남쪽",
+            "hint": "동서남북의 한 방향이에요. 특정 대상의 남쪽 면보다 방위 자체를 말해요.",
+            "confusions": [
+              {
+                "japanese": "南側",
+                "distinction": "특정 물체나 지역의 남쪽 면을 말하는 표현과 달리 방위 자체를 가리킨다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-handmade_29-1-ex-1",
+                "version": 1,
+                "before": "鳥の群れが",
+                "answer": "南",
+                "after": "へ飛んでいった。",
+                "reading": "みなみ",
+                "translation": "새 떼가 남쪽으로 날아갔다.",
+                "translationTarget": "남쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-handmade_29-1-ex-2",
+                "version": 2,
+                "before": "夏休みに",
+                "answer": "南",
+                "after": "の島で泳ぎました。",
+                "reading": "みなみ",
+                "translation": "여름 방학에 남쪽 섬에서 수영했습니다.",
+                "translationTarget": "남쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wordId": "handmade_30",
+      "previousProposal": {
+        "wordId": "handmade_30",
+        "sourceHash": "45767b22722865c587cfc922848630e9c60c60aafdadfc54276e430c5937a3d6",
+        "level": "N5",
+        "dictionaryId": "jmdict-1520670",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “북쪽” 및 1개 sense를 대조했다. north와 역 북쪽 공원·새 이동 예문이 일치한다. 국가 명칭은 선택하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "handmade_30",
+        "sourceHash": "45767b22722865c587cfc922848630e9c60c60aafdadfc54276e430c5937a3d6",
+        "proposalHash": "62e7fab684c0a4ec99eb3bdc3e34e411c066ba37e0e70086eff31df1e1a0f76c",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-018.json",
+        "reviewedAt": "2026-09-30T05:35:57.314Z",
+        "notes": [
+          "북쪽 N5 분류는 적절하다. 새의 방위 이동 장면은 南과 가까워 참조 게시에서 확인한다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "handmade_30",
+          "setId": "set-2",
+          "japanese": "北",
+          "reading": "きた",
+          "meaning": "북쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 29
+        },
+        "senses": [
+          {
+            "id": "sense-handmade_30-1",
+            "wordId": "handmade_30",
+            "version": 1,
+            "meaning": "북쪽",
+            "hint": "지도에서 보통 위로 나타내는 방향이에요.",
+            "confusions": [
+              {
+                "japanese": "南",
+                "distinction": "지도상 보통 아래에 표시하는 남쪽과 반대다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-handmade_30-1-ex-1",
+                "version": 1,
+                "before": "駅の",
+                "answer": "北",
+                "after": "に、新しい公園ができた。",
+                "reading": "きた",
+                "translation": "역 북쪽에 새 공원이 생겼다.",
+                "translationTarget": "북쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-handmade_30-1-ex-2",
+                "version": 2,
+                "before": "冷たい風が",
+                "answer": "北",
+                "after": "から吹いてきた。",
+                "reading": "きた",
+                "translation": "차가운 바람이 북쪽에서 불어왔다.",
+                "translationTarget": "북쪽",
+                "difficulty": 15,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_171",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_171",
+        "sourceHash": "9e2b40b642acd7c4eaae87e226bbcf57d5f95abba2323b116e2fc997460d4065",
+        "level": "N5",
+        "dictionaryId": "jmdict-1310730",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “죽다” 및 1개 sense를 대조했다. die와 금붕어·소설 주인공 죽음 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_171",
+        "sourceHash": "9e2b40b642acd7c4eaae87e226bbcf57d5f95abba2323b116e2fc997460d4065",
+        "proposalHash": "9bdf7d31f0899b822d9e1bf4799c9818ff45336e099375baff9d0b762f5bec2d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-027.json",
+        "reviewedAt": "2026-09-30T06:38:07.460Z",
+        "notes": [
+          "생명 종료의 두 문맥과 5단 자동사·N5 근거가 맞는다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "AbsoluteVerb_171",
+          "setId": "AbsoluteVerb",
+          "japanese": "死ぬ",
+          "reading": "しぬ",
+          "meaning": "죽다",
+          "type": "verb",
+          "difficulty": 12,
+          "verbInfo": "1자",
+          "sourceOrder": 170
+        },
+        "senses": [
+          {
+            "id": "sense-AbsoluteVerb_171-1",
+            "wordId": "AbsoluteVerb_171",
+            "version": 1,
+            "meaning": "죽다",
+            "hint": "생명이 끝나요. 시드는 식물 표현과 구별해요.",
+            "confusions": [
+              {
+                "japanese": "枯れる",
+                "distinction": "死ぬ는 사람·동물을 비롯한 생물의 생명이 끝남을 넓게 말하고 식물에도 쓸 수 있다. 枯れる는 식물이 말라 생기를 잃는 변화에 특히 자연스럽다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-AbsoluteVerb_171-1-ex-1",
+                "version": 1,
+                "before": "長く飼っていた金魚が",
+                "answer": "死んだ",
+                "after": "。",
+                "reading": "しんだ",
+                "translation": "오랫동안 기르던 금붕어가 죽었다.",
+                "translationTarget": "죽었다",
+                "difficulty": 12,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-AbsoluteVerb_171-1-ex-2",
+                "version": 1,
+                "before": "物語の主人公が最後に",
+                "answer": "死ぬ",
+                "after": "とは思わなかった。",
+                "reading": "しぬ",
+                "translation": "이야기의 주인공이 마지막에 죽을 줄은 몰랐다.",
+                "translationTarget": "죽을",
+                "difficulty": 12,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_529",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_529",
+        "sourceHash": "c60ddb7cc2c1c0bd9444b05040e6141df2a8b52b276e489a6bf208ebde0820c4",
+        "level": "N5",
+        "dictionaryId": "jmdict-1239730",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “구부러지다, 돌다, 비뚤어지다” 및 1개 sense를 대조했다. 모퉁이에서 진행 방향을 바꾸는 기본 이동 의미를 선택했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": null,
+      "sourceSnapshot": {
+        "word": {
+          "id": "AbsoluteVerb_529",
+          "setId": "AbsoluteVerb",
+          "japanese": "曲がる",
+          "reading": "まがる",
+          "meaning": "구부러지다, 돌다, 비뚤어지다",
+          "type": "verb",
+          "difficulty": 22,
+          "verbInfo": "1자",
+          "sourceOrder": 527
+        },
+        "senses": [
+          {
+            "id": "sense-AbsoluteVerb_529-1",
+            "wordId": "AbsoluteVerb_529",
+            "version": 1,
+            "meaning": "돌다",
+            "hint": "진행하던 길에서 방향을 바꾸어요.",
+            "confusions": [
+              {
+                "japanese": "曲げる",
+                "distinction": "물건을 구부리는 것과 달리 주어가 방향을 바꾼다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-AbsoluteVerb_529-1-ex-1",
+                "version": 1,
+                "before": "次の角を右に",
+                "answer": "曲がって",
+                "after": "ください。",
+                "reading": "まがって",
+                "translation": "다음 모퉁이에서 오른쪽으로 도세요.",
+                "translationTarget": "도세요",
+                "difficulty": 22,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-AbsoluteVerb_529-1-ex-2",
+                "version": 1,
+                "before": "細い道へ",
+                "answer": "曲がった",
+                "after": "ら、急に静かになった。",
+                "reading": "まがった",
+                "translation": "좁은 길로 돌아섰더니 갑자기 조용해졌다.",
+                "translationTarget": "돌아섰더니",
+                "difficulty": 22,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "previousHolds": [
+    {
+      "wordId": "handmade_27",
+      "level": "N5",
+      "sourceHash": "90d653a1f20f0665c2a801060d1e5e10a3ffd17bad15a49e70549b51b2dd9aa4",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "東/西/南의 창 방향과 햇빛 장면 반복. 동서남북 묶음의 실제 예문을 별개의 상황으로 개정 후 검토."
+      ]
+    },
+    {
+      "wordId": "handmade_28",
+      "level": "N5",
+      "sourceHash": "d25e14f4795128ca0e3c6f0724225e4c45cd6a0bed13f5b85a61bd5acf678198",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "東/西/南의 창 방향과 햇빛 장면 반복. 동서남북 묶음의 실제 예문을 별개의 상황으로 개정 후 검토."
+      ]
+    },
+    {
+      "wordId": "handmade_29",
+      "level": "N5",
+      "sourceHash": "6ec5ac6fe44fdfc5c45a9d2a9d6884b1996fd41c6261fe621997f9fe1dbc015c",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "東/西/南 창 방향과 햇빛 및 南/北 새 이동 장면이 반복된다. 별개 문맥 개정 후 검토."
+      ]
+    },
+    {
+      "wordId": "handmade_30",
+      "level": "N5",
+      "sourceHash": "45767b22722865c587cfc922848630e9c60c60aafdadfc54276e430c5937a3d6",
+      "scope": "legacy-reference-publication",
+      "outcome": "needs_followup",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-09-30T23:45:40.912Z",
+      "notes": [
+        "南/北 새 이동 장면이 반복된다. 별개 문맥 개정 후 검토."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "wordId": "handmade_27",
+      "level": "N5",
+      "sourceHash": "90d653a1f20f0665c2a801060d1e5e10a3ffd17bad15a49e70549b51b2dd9aa4",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:08:36.154Z",
+      "notes": [
+        "전량 방향 의미·힌트·대비·두 예문을 독립 읽고 최소 장면 개정 적용본의 정확한 원본 해시를 대조했다. 원본 ID·용법/학습 기록을 보존하여 N5 참조만 추가한다."
+      ]
+    },
+    {
+      "wordId": "handmade_28",
+      "level": "N5",
+      "sourceHash": "b3eaaee26fca1b2a2be7c84e3b7e9d5664b2acef05b574eadf514ba54e9426d5",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:08:36.154Z",
+      "notes": [
+        "전량 방향 의미·힌트·대비·두 예문을 독립 읽고 최소 장면 개정 적용본의 정확한 원본 해시를 대조했다. 원본 ID·용법/학습 기록을 보존하여 N5 참조만 추가한다."
+      ]
+    },
+    {
+      "wordId": "handmade_29",
+      "level": "N5",
+      "sourceHash": "c7c0a5cac7cab54bd9aa460fc00d8349c7a1d0ea213682cf7eb7c61f2870488a",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:08:36.154Z",
+      "notes": [
+        "전량 방향 의미·힌트·대비·두 예문을 독립 읽고 최소 장면 개정 적용본의 정확한 원본 해시를 대조했다. 원본 ID·용법/학습 기록을 보존하여 N5 참조만 추가한다."
+      ]
+    },
+    {
+      "wordId": "handmade_30",
+      "level": "N5",
+      "sourceHash": "ac8ff99cc307f3c49dd93a2b6ca51b5d6c1b88654e727697a5238a4f06dbf91a",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:08:36.154Z",
+      "notes": [
+        "전량 방향 의미·힌트·대비·두 예문을 독립 읽고 최소 장면 개정 적용본의 정확한 원본 해시를 대조했다. 원본 ID·용법/학습 기록을 보존하여 N5 참조만 추가한다."
+      ]
+    },
+    {
+      "wordId": "AbsoluteVerb_171",
+      "level": "N5",
+      "sourceHash": "9e2b40b642acd7c4eaae87e226bbcf57d5f95abba2323b116e2fc997460d4065",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:08:36.154Z",
+      "notes": [
+        "금붕어 죽음과 이야기 주인공 죽음 2예문, 생명 종료 핵심 및 식물에도 사용 가능하다는 枯れる 대비를 읽었다. 별도 비유 의미 확대 없이 N5 생명 기본 동사로 승인한다."
+      ]
+    },
+    {
+      "wordId": "AbsoluteVerb_529",
+      "level": "N5",
+      "sourceHash": "c60ddb7cc2c1c0bd9444b05040e6141df2a8b52b276e489a6bf208ebde0820c4",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:08:36.154Z",
+      "notes": [
+        "다음 모퉁이에서 우회전/좁은 길로 접어듦 2예문과 자타 대비를 읽었다. 이동 방향을 바꾸는 핵심을 N5 길 안내 동사로 승인하며 물체 구부러짐 숙련을 주장하지 않는다."
+      ]
+    }
+  ]
+}

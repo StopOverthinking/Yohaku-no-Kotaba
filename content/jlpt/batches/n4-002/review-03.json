@@ -248,15 +248,16 @@
   },
   {
     "wordId": "lex-jmdict-1594110",
-    "contentHash": "7d244f18a08aa87bb847f764763a74847bf5a9a833766294ea34caf52ea8935d",
+    "contentHash": "c5b9373699c5be71ef9fec7ae7af024d1af732bd25154fc2fde22e6010d5f0e1",
     "outcome": "accepted",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 162 examples, Korean, hints, contrasts and scene diversity. Parser passed; 634 prior hashes unchanged; 2,196 senses/5,080 examples: zero masked pairs >=0.7 (73,209 comparisons). Not human expert review.",
-    "reviewedAt": "2026-09-30T01:09:00.882Z",
+    "reviewedAt": "2026-10-01T00:52:25.963Z",
+    "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
     "notes": [
-      "일 처리·연습·청소 방식의 명사 용법을 확인했다."
+      "방법을 알려 달라는 공통 틀을 세탁 방법 변경에 따른 결과 장면으로 바꾼다.",
+      "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
     ]
   },
   {

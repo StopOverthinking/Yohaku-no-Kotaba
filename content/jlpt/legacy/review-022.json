@@ -199,20 +199,21 @@
   },
   {
     "wordId": "handmade_150",
-    "sourceHash": "2ae5d7f06592d1885ee176b0ef91d04115205feed7e9b4dc7b7a7dc453132d0d",
-    "proposalHash": "9c529099e2bedd42ca5c20d964c2888769cbf639cf30b6f4e80e9ed4ed1d62e2",
+    "sourceHash": "19047c482a21d21b267df4080215e76f4c0278d32979741f057a38ef2dd7d09b",
+    "proposalHash": "94ef5c3356c9735938ce303b85edfb5a14b99ba1cf44725c02a0a145729e19b5",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-022.json",
-    "reviewedAt": "2026-09-30T05:49:22.090Z",
+    "reviewedAt": "2026-10-01T00:42:14.052Z",
     "notes": [
-      "N5 서양식 의복 용법은 타당하며 정장으로 좁게 읽히는 표제어 뜻은 별도 보완 대상이다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
     ]
   },
   {
@@ -253,20 +254,21 @@
   },
   {
     "wordId": "handmade_153",
-    "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
-    "proposalHash": "a6163e4f660036f4add051ccf04c77dc19bc4d45233b5aaa5c1bfcde37d534f4",
+    "sourceHash": "93d3865a835214b2fcd2a1791fdcc6945a4b2054c5698c924246caefffb08ff6",
+    "proposalHash": "0415ee95a18df19d99c13a2e1171c29ead3a32e4d4ca40e95f2e2094e40a5c6b",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-022.json",
-    "reviewedAt": "2026-09-30T05:49:22.090Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "料理의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+      "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
     ]
   },
   {
@@ -415,20 +417,21 @@
   },
   {
     "wordId": "AbsoluteVerb_12",
-    "sourceHash": "d51f34b34cab058b8a4a6f2eddba7404ee6a2b730a0f95581f29d825662fb947",
-    "proposalHash": "68f31ce5b27fdd02c97b913340709b33e669afe42b17297db1bc63b9bf678aad",
+    "sourceHash": "f060cef23aaf691d61ce4ee373e367db69a18f173524e2a8b97e7bc0b6d9b55a",
+    "proposalHash": "a3b9c4ed2bd7285103d9bf25cb951beff149277ba0c97839c3db6c04cc994b69",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-022.json",
-    "reviewedAt": "2026-09-30T05:49:22.090Z",
+    "reviewedAt": "2026-10-01T00:42:14.044Z",
     "notes": [
-      "기본 휴식 N5를 확인했다. 두 번째 예문의 十分은 10분과 충분히의 표기 중의성을 참조 검토에서 확인한다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
     ]
   },
   {

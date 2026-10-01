@@ -297,12 +297,12 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-handmade_30-1-ex-2",
-        "version": 1,
-        "before": "暖かくなると、この鳥は",
+        "version": 2,
+        "before": "冷たい風が",
         "answer": "北",
-        "after": "へ移動する。",
+        "after": "から吹いてきた。",
         "reading": "きた",
-        "translation": "날씨가 따뜻해지면 이 새는 북쪽으로 이동한다.",
+        "translation": "차가운 바람이 북쪽에서 불어왔다.",
         "translationTarget": "북쪽",
         "difficulty": 15,
         "status": "reviewed"
@@ -1425,6 +1425,294 @@ const content: LearnSense[] = [
         "translation": "매출을 늘릴 방책을 직원 모두가 함께 생각했다.",
         "translationTarget": "방책",
         "difficulty": 45,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1067480-1",
+    "wordId": "lex-jmdict-1067480",
+    "version": 1,
+    "meaning": "스카프",
+    "hint": "목이나 머리에 두르는 얇은 천",
+    "confusions": [
+      {
+        "japanese": "マフラー",
+        "distinction": "얇은 장식용 천과 추위를 막는 두꺼운 목도리를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1067480-1-ex-1",
+        "version": 1,
+        "before": "祖母からもらった",
+        "answer": "スカーフ",
+        "after": "を、かばんの持ち手に結びました。",
+        "reading": "スカーフ",
+        "translation": "할머니께 받은 스카프를 가방 손잡이에 묶었습니다.",
+        "translationTarget": "스카프",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_101-2",
+    "wordId": "AbsoluteVerb_101",
+    "version": 1,
+    "meaning": "안에서 밖으로 꺼내다",
+    "hint": "안에 있던 물건을 바깥으로 옮겨 드러내요.",
+    "confusions": [
+      {
+        "japanese": "入れる",
+        "distinction": "안에서 밖으로 꺼내는 행동과 밖에서 안으로 넣는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_101-2-ex-1",
+        "version": 1,
+        "before": "暑くなったので、かばんから扇子を",
+        "answer": "出した",
+        "after": "。",
+        "reading": "だした",
+        "translation": "더워져서 가방에서 부채를 꺼냈다.",
+        "translationTarget": "꺼냈다",
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1129210-1",
+    "wordId": "lex-jmdict-1129210",
+    "version": 1,
+    "meaning": "목도리",
+    "hint": "목에 두르며 추위를 막는 두꺼운 천",
+    "confusions": [
+      {
+        "japanese": "スカーフ",
+        "distinction": "추위를 막는 두꺼운 천과 얇은 장식용 천을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1129210-1-ex-1",
+        "version": 1,
+        "before": "駅まで歩く間に、",
+        "answer": "マフラー",
+        "after": "が風でほどけてしまった。",
+        "reading": "マフラー",
+        "translation": "역까지 걷는 동안 목도리가 바람에 풀리고 말았다.",
+        "translationTarget": "목도리",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605280-1",
+    "wordId": "lex-jmdict-1605280",
+    "version": 1,
+    "meaning": "원래·본래",
+    "hint": "변화하기 전이나 처음부터 그랬다는 것을 나타내요.",
+    "confusions": [
+      {
+        "japanese": "今では",
+        "distinction": "처음부터의 상태와 현재 바뀐 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605280-1-ex-1",
+        "version": 1,
+        "before": "この建物は",
+        "answer": "元々",
+        "after": "、小さな病院だったそうです。",
+        "reading": "もともと",
+        "translation": "이 건물은 원래 작은 병원이었다고 합니다.",
+        "translationTarget": "원래",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523270-1",
+    "wordId": "lex-jmdict-1523270",
+    "version": 1,
+    "meaning": "본래, 원래",
+    "hint": "다른 이유로 달라지기 전의 원래 모습·역할입니다.",
+    "confusions": [
+      {
+        "japanese": "現在",
+        "distinction": "本来는 원래의 성질·원칙에 초점을 두고 現在는 지금 상태·시점이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523270-1-ex-1",
+        "version": 1,
+        "before": "この部屋は、",
+        "answer": "本来",
+        "after": "は倉庫として使われていた。",
+        "reading": "ほんらい",
+        "translation": "이 방은 원래 창고로 쓰였다.",
+        "translationTarget": "원래",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449220-1",
+    "wordId": "lex-jmdict-1449220",
+    "version": 1,
+    "meaning": "당번",
+    "hint": "차례를 정해 돌아가며 맡는 일이나 그 담당자",
+    "confusions": [
+      {
+        "japanese": "全員",
+        "distinction": "정해진 차례로 맡은 담당자와 모든 구성원을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449220-1-ex-1",
+        "version": 1,
+        "before": "今日は掃除の",
+        "answer": "当番",
+        "after": "なので、少し早く教室に来ました。",
+        "reading": "とうばん",
+        "translation": "오늘은 청소 당번이어서 조금 일찍 교실에 왔습니다.",
+        "translationTarget": "당번",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430130-1",
+    "wordId": "lex-jmdict-1430130",
+    "version": 1,
+    "meaning": "직사각형",
+    "hint": "네 각이 모두 직각이고 마주 보는 변의 길이가 같은 사각형",
+    "confusions": [
+      {
+        "japanese": "三角形",
+        "distinction": "네 직각을 가진 사각형과 세 변을 가진 도형을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430130-1-ex-1",
+        "version": 1,
+        "before": "花壇を",
+        "answer": "長方形",
+        "after": "にすると、通路を作りやすくなります。",
+        "reading": "ちょうほうけい",
+        "translation": "화단을 직사각형으로 만들면 통로를 만들기 쉬워집니다.",
+        "translationTarget": "직사각형",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604610-1",
+    "wordId": "lex-jmdict-1604610",
+    "version": 1,
+    "meaning": "전망, 앞으로의 예상",
+    "hint": "앞으로의 변화·전개를 내다보는 판단입니다.",
+    "confusions": [
+      {
+        "japanese": "見込み",
+        "distinction": "선택한 見通し는 전개를 내다봄이고 見込み는 가능성·예상량에 흔하다. 시야가 트임의 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604610-1-ex-1",
+        "version": 1,
+        "before": "修理がいつ終わるか、まだ",
+        "answer": "見通し",
+        "after": "が立たない。",
+        "reading": "みとおし",
+        "translation": "수리가 언제 끝날지 아직 전망이 서지 않는다.",
+        "translationTarget": "전망",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477870-1",
+    "wordId": "lex-jmdict-1477870",
+    "version": 1,
+    "meaning": "발병",
+    "hint": "질병이 처음 생겨 증상이 나타납니다.",
+    "confusions": [
+      {
+        "japanese": "回復",
+        "distinction": "発病는 병이 발생함이고 回復는 건강·상태가 나아짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477870-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "発病",
+        "after": "した時期を確認するため、昔の記録を調べた。",
+        "reading": "はつびょう",
+        "translation": "발병한 시기를 확인하려고 옛 기록을 조사했다.",
+        "translationTarget": "발병",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

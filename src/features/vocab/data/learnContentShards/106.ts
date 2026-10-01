@@ -1588,6 +1588,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282470-1",
+    "wordId": "lex-jmdict-1282470",
+    "version": 1,
+    "meaning": "구매",
+    "hint": "물건을 사서 확보하는 활동입니다.",
+    "confusions": [
+      {
+        "japanese": "販売",
+        "distinction": "購買는 사는 활동이고 販売는 파는 활동이다. 개인 구매와 조직의 조달에 모두 쓰인다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282470-1-ex-1",
+        "version": 1,
+        "before": "値上げが続き、消費者の",
+        "answer": "購買",
+        "after": "意欲が弱まっている。",
+        "reading": "こうばい",
+        "translation": "가격 인상이 계속되어 소비자의 구매 의욕이 약해지고 있다.",
+        "translationTarget": "구매",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375880-1",
+    "wordId": "lex-jmdict-1375880",
+    "version": 1,
+    "meaning": "성립",
+    "hint": "조건이 갖추어져 계약·관계·제도 등이 이루어지는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "設立",
+        "distinction": "成立는 조건이 맞아 이루어짐이고 設立는 조직·기관을 세움이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375880-1-ex-1",
+        "version": 1,
+        "before": "双方が条件を受け入れ、ようやく契約が",
+        "answer": "成立",
+        "after": "した。",
+        "reading": "せいりつ",
+        "translation": "양쪽이 조건을 받아들여 마침내 계약이 성립했다.",
+        "translationTarget": "성립",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1139190-1",
+    "wordId": "lex-jmdict-1139190",
+    "version": 1,
+    "meaning": "출퇴근 혼잡 시간",
+    "hint": "출퇴근하는 사람이 몰려 교통이 특히 붐비는 시간대",
+    "confusions": [
+      {
+        "japanese": "深夜",
+        "distinction": "이동하는 사람이 몰리는 시간과 한밤중을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1139190-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "ラッシュアワー",
+        "after": "を避けるため、今日は早く家を出た。",
+        "reading": "ラッシュアワー",
+        "translation": "출퇴근 혼잡 시간을 피하려고 오늘은 일찍 집을 나섰다.",
+        "translationTarget": "출퇴근 혼잡 시간",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594270-1",
+    "wordId": "lex-jmdict-1594270",
+    "version": 1,
+    "meaning": "조용해지다",
+    "hint": "소란스럽던 소리나 움직임이 줄어들어 잠잠해져요.",
+    "confusions": [
+      {
+        "japanese": "騒ぐ",
+        "distinction": "소란이 가라앉는 것과 떠들썩해지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594270-1-ex-1",
+        "version": 1,
+        "before": "先生が入ってくると、教室の騒ぎが",
+        "answer": "静まった",
+        "after": "。",
+        "reading": "しずまった",
+        "translation": "선생님이 들어오자 교실의 소란이 가라앉았다.",
+        "translationTarget": "가라앉았다",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374810-1",
+    "wordId": "lex-jmdict-1374810",
+    "version": 1,
+    "meaning": "제작, 예술 작품 만들기",
+    "hint": "영화·그림·방송 등 표현 작품을 만드는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "製作",
+        "distinction": "制作는 예술·표현 작품의 제작에 흔하고 製作는 물건·장치의 제작에 흔하다. 매체에 따라 표기 사용이 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374810-1-ex-1",
+        "version": 1,
+        "before": "学生たちは、卒業作品として短い映画を",
+        "answer": "制作",
+        "after": "した。",
+        "reading": "せいさく",
+        "translation": "학생들은 졸업 작품으로 짧은 영화를 제작했다.",
+        "translationTarget": "제작",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322170-1",
+    "wordId": "lex-jmdict-1322170",
+    "version": 1,
+    "meaning": "비치다",
+    "hint": "햇빛 등이 어떤 곳으로 들어와 닿아요.",
+    "confusions": [
+      {
+        "japanese": "照らす",
+        "distinction": "빛이 들어와 닿는 상태와 빛으로 밝히는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322170-1-ex-1",
+        "version": 1,
+        "before": "雲の切れ間から日が",
+        "answer": "射して",
+        "after": "、山頂が明るくなった。",
+        "reading": "さして",
+        "translation": "구름 틈에서 햇빛이 비쳐서 산 정상이 밝아졌다.",
+        "translationTarget": "비쳐서",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437410-1",
+    "wordId": "lex-jmdict-1437410",
+    "version": 1,
+    "meaning": "적성",
+    "hint": "일·역할에 알맞은 능력·성격의 성질입니다.",
+    "confusions": [
+      {
+        "japanese": "適応",
+        "distinction": "適性는 일에 맞는 소질이고 適応는 환경에 맞춰 변하거나 익숙해짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437410-1-ex-1",
+        "version": 1,
+        "before": "短い体験でも、自分の",
+        "answer": "適性",
+        "after": "を考えるきっかけになった。",
+        "reading": "てきせい",
+        "translation": "짧은 체험이라도 자신의 적성을 생각하는 계기가 되었다.",
+        "translationTarget": "적성",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1351640-1",
+    "wordId": "lex-jmdict-1351640",
+    "version": 1,
+    "meaning": "증언",
+    "hint": "직접 알거나 경험한 사실을 증거로 말합니다.",
+    "confusions": [
+      {
+        "japanese": "証拠",
+        "distinction": "証言는 사실을 말로 증명함이고 証拠는 판단을 뒷받침하는 자료 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1351640-1-ex-1",
+        "version": 1,
+        "before": "目撃者の",
+        "answer": "証言",
+        "after": "から、事故の時刻が確かめられた。",
+        "reading": "しょうげん",
+        "translation": "목격자의 증언으로 사고 시각을 확인했다.",
+        "translationTarget": "증언",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

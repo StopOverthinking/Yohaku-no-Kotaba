@@ -1,0 +1,60 @@
+{
+  "batch": "n1-010",
+  "status": "draft-ready",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-10-01T00:15:09Z",
+  "plannedWords": 100,
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-10-01T00:15:09Z",
+      "draftCompletedAt": "2026-10-01T00:17:13.324484+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:17:14.617Z",
+      "preflightMilliseconds": 1012.4232000000001
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-10-01T00:17:15Z",
+      "draftCompletedAt": "2026-10-01T00:19:01.586756+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:19:03.009Z",
+      "preflightMilliseconds": 1098.5864000000001
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-10-01T00:19:03Z",
+      "draftCompletedAt": "2026-10-01T00:20:53.032165+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:20:54.528Z",
+      "preflightMilliseconds": 1169.7838000000002
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-10-01T00:20:55Z",
+      "draftCompletedAt": "2026-10-01T00:22:39.002475+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:22:40.698Z",
+      "preflightMilliseconds": 1327.1477
+    }
+  ],
+  "actualWords": 100,
+  "completedAt": "2026-10-01T00:22:40.698Z"
+}

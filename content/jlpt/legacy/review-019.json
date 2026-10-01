@@ -19,20 +19,21 @@
   },
   {
     "wordId": "handmade_42",
-    "sourceHash": "f941c302b4f97bcc72a556db16d3d1bc04a9cd51e2a902c16fbf80503ec57a34",
-    "proposalHash": "fa0ecd1928b1ce6cb7df4500f493f8b1b4d0146018766697df532b28ccf4091c",
+    "sourceHash": "3383f8aabf5400d0dd1e9b28a794b82b8ff19dd97f6438d810179ea28d70f1a1",
+    "proposalHash": "4cb66b2ad3f090b80d5f785afafd1c2b021c31bbdf106ee3474f62369ceba666",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-019.json",
-    "reviewedAt": "2026-09-30T05:40:51.473Z",
+    "reviewedAt": "2026-10-01T00:42:14.051Z",
     "notes": [
-      "ご飯의 현재 뜻·읽기·예문과 제안 수준을 대조했다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
     ]
   },
   {

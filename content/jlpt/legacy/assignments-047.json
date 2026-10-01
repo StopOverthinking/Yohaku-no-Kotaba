@@ -1,0 +1,71 @@
+[
+  {
+    "wordId": "AbsoluteVerb_867",
+    "sourceHash": "beb52d7e07f73b7c15968b39556b87ad970d521e37899f1d69e53e08dfd074b6",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “마음/관심이 있다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “호감이 있다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "연애의 호감 용법으로 예문 범위가 정해져 있으며 일반적인 하려는 마음 용법과 구별하여 원뜻의 범위를 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_868",
+    "sourceHash": "95dbaad50b30a24fee7c913e1761701a1211c48ff2a9d18940a35b9b5f6772e3",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "i_adj",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “마음/관심이 없다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “할 마음이 없다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_869",
+    "sourceHash": "ff70a7ba324605caebf0036ed3029d311a44889c87a357a71d44ff8cff753228",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “맥이 빠지다, 탄산/김이 빠지다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “맥이 빠지다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "원뜻의 탄산·김이 빠지다 용법은 현재 맥이 빠지다 예문에 없다. 중요한 물리적 별도 용법을 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_870",
+    "sourceHash": "2f94a7d0da74d64ba659e642d63f9e4947c4aa9d97d675d52af1822d97b9a4a1",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “마음이 홀가분해지다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “직성이 풀리다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "원뜻의 마음이 홀가분해지다보다 현재 용법의 직성이 풀리다가 정확하며 일반적 안심과 구별하도록 뜻을 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_871",
+    "sourceHash": "38c3eaeda45d1980dd3f802c5efeaa9ee45eb98bd1b84675536639b7dc074b32",
+    "level": null,
+    "dictionaryId": null,
+    "suggestedType": "verb",
+    "levelNote": "제공 사전 후보가 없으므로 현재 완성 표현 전체의 수준과 사전 연결을 보류한다.",
+    "meaningReview": "기존 뜻 “기분이 내키다” 및 1개 용법과 전 예문을 대조했다. 현재 대표 학습 범위는 “무언가 할 기분이 들다”이며 두 예문의 실제 행동·상태를 기준으로 확인했다.",
+    "aliasCandidateIds": [],
+    "issues": [
+      "현재 완성 표현에 대응하는 제공 사전 후보가 없어 표현 전체의 사전 근거와 등급을 확인해야 한다. 구성 명사나 동사 하나에 임의 연결하지 않는다.",
+      "두 번째 예문의 散歩に気が向いた는 어색하므로 散歩する気になった와 혼동하지 않는 자연스러운 気が向く 장면으로 개정 검토한다."
+    ]
+  }
+]

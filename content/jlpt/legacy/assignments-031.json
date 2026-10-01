@@ -1,27 +1,25 @@
 [
   {
     "wordId": "AbsoluteVerb_319",
-    "sourceHash": "96559e19d5b938d43436796b14ec6a0308145117d9aac46629d2e2fb90c7c4f8",
+    "sourceHash": "7d43a712a1e60fd6f381e3dc48284357f3aed3490836d44149461ddf20cafae0",
     "level": "N5",
     "dictionaryId": "jmdict-1588120",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “노래 부르다” 및 1개 sense를 대조했다. 노래를 부르는 기본 동사 의미이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },
   {
     "wordId": "AbsoluteVerb_320",
     "sourceHash": "d37c29e1c21729805be184643c3e7c16693c73f62e83e3e60649611a37c054ea",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N3",
+    "dictionaryId": "jmdict-1565940",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “한턱내다” 및 1개 sense를 대조했다. 식사와 커피를 한턱내는 의미이나 제공 사전 후보가 없어 연결을 보류한다.",
+    "levelNote": "새 사전 대체표기 연결 奢る의 대접하다 뜻과 두 음식값 부담 예문이 일치한다. 생활 대접 용법을 N3로 권장하며 傲る의 거만함과 구별한다.",
+    "meaningReview": "새 사전 대체표기 연결 奢る의 대접하다 뜻과 두 음식값 부담 예문이 일치한다. 생활 대접 용법을 N3로 권장하며 傲る의 거만함과 구별한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "おごる의 한턱내다 의미에 해당하는 사전 연결과 등급을 확인해야 한다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_321",
@@ -37,14 +35,14 @@
   {
     "wordId": "AbsoluteVerb_322",
     "sourceHash": "2ed763d2df6bbaeb728829e8a2a69f2770c5d63cdeea2e2875539c36997a55b7",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N3",
+    "dictionaryId": "jmdict-1372670",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “만취하다” 및 1개 sense를 대조했다. 술에 취하는 두 예문이다. 제공 사전 후보가 없어 연결을 보류한다.",
+    "levelNote": "酔っ払う 사전의 술에 취함 의미와 일치하여 N3를 권장한다. 표제 뜻의 만취 제한은 별도 콘텐츠 보류한다.",
+    "meaningReview": "酔っ払う 사전의 술에 취함 의미와 일치하여 N3를 권장한다. 표제 뜻의 만취 제한은 별도 콘텐츠 보류한다.",
     "aliasCandidateIds": [],
     "issues": [
-      "よっぱらう의 사전 연결이 없으며 만취라는 뜻이 언제나 심하게 취한 상태만 요구하는지 검토해야 한다."
+      "よっぱらう는 언제나 만취를 요구하지 않는다. 표제 뜻 만취하다가 실제 술에 취하다 용법보다 좁아 정정 필요."
     ]
   },
   {
@@ -72,15 +70,13 @@
   {
     "wordId": "AbsoluteVerb_326",
     "sourceHash": "1e7565ec911275c942f9d9f8f616e2afa12f3cd31dfa1650f15320c644fe16b3",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N4",
+    "dictionaryId": "jmdict-1012980",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “(낮춤말) 주다” 및 1개 sense를 대조했다. 꽃에 물과 물고기에 먹이를 주는 의미이다. 제공 사전 후보가 없어 등급과 연결을 보류한다.",
+    "levelNote": "遣る의 동식물에 주다 선택 의미와 사전 수여 의미가 일치한다. 일반 기본 수여 용법을 N4로 권장하며 사전 N1과 구별한다.",
+    "meaningReview": "遣る의 동식물에 주다 선택 의미와 사전 수여 의미가 일치한다. 일반 기본 수여 용법을 N4로 권장하며 사전 N1과 구별한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "やる의 수여 의미에 대응하는 사전 후보가 필요하다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_327",
@@ -95,29 +91,25 @@
   },
   {
     "wordId": "AbsoluteVerb_328",
-    "sourceHash": "4b0b8a790df2efd5617648e063b3abc493e5ace6b1175c69a6548a110d779e2b",
-    "level": null,
-    "dictionaryId": null,
+    "sourceHash": "854d4ff114444be064d64432bbaf21e6b3cb3df399218757200a84bbd9cba05d",
+    "level": "N5",
+    "dictionaryId": "jmdict-1352320",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “(내가 남에게) 주다” 및 1개 sense를 대조했다. 내가 다른 사람에게 물건을 주는 기본 수여 의미이다. 후보 누락으로 사전 연결과 등급을 보류한다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
-    "issues": [
-      "あげる의 수여 의미 사전 후보가 필요하며 上げる의 높이 올리다 의미와 분리해야 한다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_329",
     "sourceHash": "ee2d162f32fcac44b35a7311174e3f301e784987fa2a27d325b1050624eb3d4a",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N5",
+    "dictionaryId": "jmdict-1269130",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “(남이 내게) 주다” 및 1개 sense를 대조했다. 다른 사람이 말하는 사람에게 물건을 주는 수여 의미이다. 사전 후보가 없어 연결을 보류한다.",
+    "levelNote": "呉れる의 기본 수여 방향 의미를 확인했다. 暮れる와 동음이어도 별도 사전이며 기본 학습 N5로 권장한다.",
+    "meaningReview": "呉れる의 기본 수여 방향 의미를 확인했다. 暮れる와 동음이어도 별도 사전이며 기본 학습 N5로 권장한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "くれる의 수여 의미 사전 연결을 확인해야 한다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_330",
@@ -133,15 +125,13 @@
   {
     "wordId": "AbsoluteVerb_331",
     "sourceHash": "42bdf85a22198a20a57d3a0620a13fc41fabe06c7dc8e1835468601e581feb66",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N5",
+    "dictionaryId": "jmdict-1535910",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “받다, 얻다” 및 1개 sense를 대조했다. 이웃이나 다른 사람에게서 물건을 받는 수수 의미이다. 사전 후보가 없어 연결을 보류한다.",
+    "levelNote": "貰う의 물건을 받는 기초 용법과 두 예문이 일치하여 N5를 권장한다. 사전 N3 등급과 구별한다.",
+    "meaningReview": "貰う의 물건을 받는 기초 용법과 두 예문이 일치하여 N5를 권장한다. 사전 N3 등급과 구별한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "もらう의 기본 수수 의미에 대한 사전 연결이 필요하다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_332",
@@ -230,7 +220,8 @@
     "meaningReview": "기존 뜻 “비다, 쓰이지 않다, (배가) 고프다” 및 1개 sense를 대조했다. 읽기 あく로 좌석과 회의실이 비는 뜻을 선택했다. 배가 고프다는 읽기 すく의 의미는 현재 sense와 구분한다.",
     "aliasCandidateIds": [],
     "issues": [
-      "word 뜻의 배가 고프다는 현재 읽기 あく와 맞지 않으며 すく 의미를 별도로 분리해야 한다."
+      "word 뜻의 배가 고프다는 현재 읽기 あく와 맞지 않으며 すく 의미를 별도로 분리해야 한다.",
+      "읽기 あく에 배가 고프다를 섞었다. 해당 의미는 すく이므로 현재 단어의 의미 범위를 정정 필요."
     ]
   },
   {
@@ -268,12 +259,12 @@
   },
   {
     "wordId": "AbsoluteVerb_352",
-    "sourceHash": "bf95c3bd386f9a8d2c08ccd5651bfd663d07511285618dfe62e7076147f838e6",
+    "sourceHash": "b93e53e62deed107f93c233a3c0d8539f787483a98705c94d62eb49a9a51a856",
     "level": "N4",
     "dictionaryId": "jmdict-1600470",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
-    "meaningReview": "기존 뜻 “갈아타다” 및 1개 sense를 대조했다. 열차에서 지하철로 갈아타는 기본 교통 의미이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -287,7 +278,8 @@
     "meaningReview": "기존 뜻 “하차역을 지나치다” 및 1개 sense를 대조했다. 하차할 역을 지나쳐 계속 타고 가는 의미이나 사전 후보가 없어 연결을 보류한다.",
     "aliasCandidateIds": [],
     "issues": [
-      "乗り過ごす의 사전 연결과 등급을 확인해야 한다."
+      "乗り過ごす의 사전 연결과 등급을 확인해야 한다.",
+      "제공 사전에 해당 복합동사 근거가 없어 현재는 분류와 참조 승인을 보류한다."
     ]
   },
   {
@@ -337,11 +329,11 @@
   {
     "wordId": "AbsoluteVerb_360",
     "sourceHash": "e6e3ab5dedf32ead68a6e7e83ff7bc4a7ea5c90c15d98991b5b8119af674fb09",
-    "level": "N1",
+    "level": "N2",
     "dictionaryId": "jmdict-1181390",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
-    "meaningReview": "기존 뜻 “때리다, 구타하다” 및 1개 sense를 대조했다. 벽이나 사람을 주먹 등으로 때리는 의미이다.",
+    "levelNote": "주먹으로 때리는 일반 신체 행동은 보도와 일상에서 이해할 N2로 권장한다. 사전 N1을 그대로 적용하지 않는다.",
+    "meaningReview": "주먹으로 때리는 일반 신체 행동은 보도와 일상에서 이해할 N2로 권장한다. 사전 N1을 그대로 적용하지 않는다.",
     "aliasCandidateIds": [],
     "issues": []
   }

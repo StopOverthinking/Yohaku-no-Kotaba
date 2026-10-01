@@ -1,0 +1,23 @@
+[
+  {
+    "wordId": "JLPTN3_44",
+    "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
+    "afterHash": "abeb0a1a55c7e296a269cccc1063d2275f79d6b9825adb1ff09da3d3e1a5feac",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "decision": "preserve-existing-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:37:25.987Z",
+    "notes": [
+      "끄다 기존 단어·용법·두예문 완전 보존. 새 기록 삭제 용법은 컴퓨터 매각 전 데이터 삭제 독립 장면이다. 물리적 글씨 지움과 기록삭제 범위/대비 정확.",
+      "원본44와peer75 전체 뜻·힌트·대비·4예문 및 신규1예문을 독립 읽었다. peer의 기존기록/끄다학습기록을 새sense로 이전하지 않는다. 선택전용출처 관계만 허용한다."
+    ],
+    "validation": {
+      "existingSensesUnchanged": true,
+      "corpusExamples": 9329,
+      "newSimilarPairs": 0
+    }
+  }
+]

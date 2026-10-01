@@ -1,0 +1,86 @@
+[
+  {
+    "japanese": "政党",
+    "reading": "せいとう",
+    "type": "noun",
+    "meaning": "정당",
+    "hint": "같은 정치적 목표를 가진 사람들이 만든 조직",
+    "confusion": "政府",
+    "distinction": "정치적 목표로 모인 조직과 국가 행정을 맡는 기관을 구별한다.",
+    "dictionaryId": "jmdict-1376060",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "地質",
+    "reading": "ちしつ",
+    "type": "noun",
+    "meaning": "지질",
+    "hint": "땅을 이루는 암석이나 지층의 성질과 구조",
+    "confusion": "地形",
+    "distinction": "땅의 물질적 성질과 겉으로 드러난 모양을 구별한다.",
+    "dictionaryId": "jmdict-1421130",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "中世",
+    "reading": "ちゅうせい",
+    "type": "noun",
+    "meaning": "중세",
+    "hint": "고대와 근대 사이에 해당하는 역사적 시대",
+    "confusion": "現代",
+    "distinction": "과거의 중간 역사 시대와 지금의 시대를 구별한다.",
+    "dictionaryId": "jmdict-1424690",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "針路",
+    "reading": "しんろ",
+    "type": "noun",
+    "meaning": "진로·항로",
+    "hint": "배나 비행기 등이 나아갈 방향",
+    "confusion": "現在地",
+    "distinction": "나아가는 방향과 지금 있는 위치를 구별한다.",
+    "dictionaryId": "jmdict-1366280",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "人文科学",
+    "reading": "じんぶんかがく",
+    "type": "noun",
+    "meaning": "인문학",
+    "hint": "언어나 역사나 철학 등 인간의 문화와 사상을 연구하는 분야",
+    "confusion": "自然科学",
+    "distinction": "인간의 문화와 사상을 연구하는 분야와 자연 현상을 연구하는 분야를 구별한다.",
+    "dictionaryId": "jmdict-1369140",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "自然科学",
+    "reading": "しぜんかがく",
+    "type": "noun",
+    "meaning": "자연 과학",
+    "hint": "자연 현상을 관찰과 실험으로 연구하는 학문 분야",
+    "confusion": "社会科学",
+    "distinction": "자연 현상을 연구하는 분야와 인간 사회를 연구하는 분야를 구별한다.",
+    "dictionaryId": "jmdict-1318110",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "社会科学",
+    "reading": "しゃかいかがく",
+    "type": "noun",
+    "meaning": "사회 과학",
+    "hint": "경제나 정치 등 인간 사회의 구조와 활동을 연구하는 분야",
+    "confusion": "自然科学",
+    "distinction": "인간 사회의 활동을 연구하는 분야와 자연 현상을 연구하는 분야를 구별한다.",
+    "dictionaryId": "jmdict-1322720",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  }
+]

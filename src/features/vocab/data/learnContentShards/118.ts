@@ -121,12 +121,12 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-handmade_29-1-ex-2",
-        "version": 1,
-        "before": "部屋の窓が",
+        "version": 2,
+        "before": "夏休みに",
         "answer": "南",
-        "after": "を向いているので、冬も明るい。",
+        "after": "の島で泳ぎました。",
         "reading": "みなみ",
-        "translation": "방 창문이 남쪽을 향하고 있어서 겨울에도 밝다.",
+        "translation": "여름 방학에 남쪽 섬에서 수영했습니다.",
         "translationTarget": "남쪽",
         "difficulty": 15,
         "status": "reviewed"
@@ -314,11 +314,11 @@ const content: LearnSense[] = [
     "wordId": "AbsoluteVerb_328",
     "version": 1,
     "meaning": "주다",
-    "hint": "나 또는 내 쪽에서 남에게 물건이 가요.",
+    "hint": "다른 사람에게 물건을 주어요. 제삼자가 또 다른 사람에게 주는 상황에도 써요.",
     "confusions": [
       {
         "japanese": "くれる",
-        "distinction": "남이 내 쪽으로 주는 것과 방향이 다르다."
+        "distinction": "주는 쪽에서 상대에게 건네는 수여를 나타낸다. 비교 표현은 화자나 화자 쪽 사람에게 주는 상황을 중심으로 말한다."
       }
     ],
     "review": {
@@ -1513,6 +1513,326 @@ const content: LearnSense[] = [
         "translation": "수업에서는 입법·행정·사법의 역할을 배웠다.",
         "translationTarget": "사법",
         "difficulty": 46,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_143-2",
+    "wordId": "AbsoluteVerb_143",
+    "version": 1,
+    "meaning": "길을 잃다",
+    "hint": "어느 길로 가야 하는지 몰라 목적지로 가기 어려워져요.",
+    "confusions": [
+      {
+        "japanese": "迷わせる",
+        "distinction": "자신이 갈 길을 잃는 상태와 다른 사람을 갈피 못 잡게 하는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_143-2-ex-1",
+        "version": 1,
+        "before": "山で道に",
+        "answer": "迷った",
+        "after": "ときは、むやみに歩かないほうがいい。",
+        "reading": "まよった",
+        "translation": "산에서 길을 잃었을 때는 함부로 돌아다니지 않는 편이 좋다.",
+        "translationTarget": "길을 잃었을 때는",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283060-1",
+    "wordId": "lex-jmdict-1283060",
+    "version": 1,
+    "meaning": "향수",
+    "hint": "좋은 향을 내기 위해 몸이나 옷에 쓰는 액체",
+    "confusions": [
+      {
+        "japanese": "化粧水",
+        "distinction": "향을 내는 액체와 피부를 관리하는 화장품을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283060-1-ex-1",
+        "version": 1,
+        "before": "食事の席なので、今日は",
+        "answer": "香水",
+        "after": "を付けずに出かけた。",
+        "reading": "こうすい",
+        "translation": "식사 자리라서 오늘은 향수를 뿌리지 않고 나갔다.",
+        "translationTarget": "향수",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512760-1",
+    "wordId": "lex-jmdict-1512760",
+    "version": 1,
+    "meaning": "변명",
+    "hint": "잘못·오해에 대해 자신의 입장을 설명하여 이해를 구합니다.",
+    "confusions": [
+      {
+        "japanese": "謝罪",
+        "distinction": "弁解는 자신의 사정을 설명함이고 謝罪는 잘못을 인정해 사과함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512760-1-ex-1",
+        "version": 1,
+        "before": "遅れた理由を",
+        "answer": "弁解",
+        "after": "するより、まず相手に謝った。",
+        "reading": "べんかい",
+        "translation": "늦은 이유를 변명하기보다 먼저 상대에게 사과했다.",
+        "translationTarget": "변명",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1373680-1",
+    "wordId": "lex-jmdict-1373680",
+    "version": 1,
+    "meaning": "맑아지다",
+    "hint": "물이나 공기가 깨끗하고 투명한 상태가 돼요.",
+    "confusions": [
+      {
+        "japanese": "濁る",
+        "distinction": "깨끗하고 투명해지는 것과 흐려지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1373680-1-ex-1",
+        "version": 1,
+        "before": "雨の翌朝は空気が",
+        "answer": "澄んで",
+        "after": "、遠くの島まで見えた。",
+        "reading": "すんで",
+        "translation": "비 온 다음 날 아침은 공기가 맑아서 먼 섬까지 보였다.",
+        "translationTarget": "맑아서",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423680-1",
+    "wordId": "lex-jmdict-1423680",
+    "version": 1,
+    "meaning": "중간",
+    "hint": "두 위치나 단계 사이에 있는 부분",
+    "confusions": [
+      {
+        "japanese": "両端",
+        "distinction": "두 끝 사이의 부분과 양쪽 끝을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423680-1-ex-1",
+        "version": 1,
+        "before": "二つの駅の",
+        "answer": "中間",
+        "after": "に住めば、どちらにも歩いて行ける。",
+        "reading": "ちゅうかん",
+        "translation": "두 역의 중간에 살면 어느 쪽이든 걸어갈 수 있다.",
+        "translationTarget": "중간",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595750-1",
+    "wordId": "lex-jmdict-1595750",
+    "version": 1,
+    "meaning": "거처·주거",
+    "hint": "사람이 살고 있는 집이나 장소",
+    "confusions": [
+      {
+        "japanese": "職場",
+        "distinction": "생활하며 사는 장소와 일하는 장소를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595750-1-ex-1",
+        "version": 1,
+        "before": "今の",
+        "answer": "住まい",
+        "after": "は駅から遠いが、静かで気に入っている。",
+        "reading": "すまい",
+        "translation": "지금 거처는 역에서 멀지만 조용해서 마음에 든다.",
+        "translationTarget": "거처",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463860-1",
+    "wordId": "lex-jmdict-1463860",
+    "version": 1,
+    "meaning": "일과·매일 하는 일",
+    "hint": "매일 정해 두고 반복하는 활동",
+    "confusions": [
+      {
+        "japanese": "臨時",
+        "distinction": "매일 반복하는 활동과 필요에 따라 일시적으로 하는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463860-1-ex-1",
+        "version": 1,
+        "before": "朝に新聞を読むことが、祖父の",
+        "answer": "日課",
+        "after": "です。",
+        "reading": "にっか",
+        "translation": "아침에 신문을 읽는 것이 할아버지의 일과입니다.",
+        "translationTarget": "일과",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530940-1",
+    "wordId": "lex-jmdict-1530940",
+    "version": 1,
+    "meaning": "필요 없음, 쓸모없음",
+    "hint": "사용·걱정 등을 할 필요가 없습니다.",
+    "confusions": [
+      {
+        "japanese": "不要",
+        "distinction": "無用와 不要는 필요 없음이 겹친다. 無用는 쓸모없음·금지 의미로도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530940-1-ex-1",
+        "version": 1,
+        "before": "説明を聞いて、余計な心配は",
+        "answer": "無用",
+        "after": "だと分かった。",
+        "reading": "むよう",
+        "translation": "설명을 듣고 쓸데없는 걱정은 필요 없다는 것을 알았다.",
+        "translationTarget": "필요 없다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223615-1",
+    "wordId": "lex-jmdict-1223615",
+    "version": 1,
+    "meaning": "당신, 너",
+    "hint": "말을 듣는 상대방을 가리키는 표현",
+    "confusions": [
+      {
+        "japanese": "私",
+        "distinction": "말을 듣는 상대와 말하는 자신을 구별한다. 상대를 직접 지칭하는 말은 관계에 따라 강하게 들릴 수 있어 이름이나 호칭을 쓸 때도 많다. 배우자를 다정하게 부르는 용법은 이번 핵심 뜻에 포함하지 않는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223615-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "あなた",
+        "after": "はどの色が好きですか。",
+        "reading": "あなた",
+        "translation": "당신은 어떤 색을 좋아합니까?",
+        "translationTarget": "당신",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1000320-1",
+    "wordId": "lex-jmdict-1000320",
+    "version": 1,
+    "meaning": "저기, 저곳",
+    "hint": "말하는 사람과 듣는 사람 모두에게서 떨어진 장소를 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "あれ",
+        "distinction": "멀리 있는 장소를 가리키는 말과 멀리 있는 물건을 가리키는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1000320-1-ex-1",
+        "version": 1,
+        "before": "バスは",
+        "answer": "あそこ",
+        "after": "に止まります。赤い看板の前です。",
+        "reading": "あそこ",
+        "translation": "버스는 저기에 멈춥니다. 빨간 간판 앞입니다.",
+        "translationTarget": "저기",
+        "difficulty": 10,
         "status": "reviewed"
       }
     ]

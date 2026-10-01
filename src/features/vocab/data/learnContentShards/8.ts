@@ -1384,6 +1384,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429330-1",
+    "wordId": "lex-jmdict-1429330",
+    "version": 1,
+    "meaning": "조화",
+    "hint": "여러 요소가 어울려 균형 있고 자연스러운 상태를 이룹니다.",
+    "confusions": [
+      {
+        "japanese": "統一",
+        "distinction": "調和는 다른 요소가 어울림이고 統一는 기준·방식을 하나로 맞춤이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429330-1-ex-1",
+        "version": 1,
+        "before": "新しい建物は、周囲の景観との",
+        "answer": "調和",
+        "after": "を大切にして設計された。",
+        "reading": "ちょうわ",
+        "translation": "새 건물은 주변 경관과의 조화를 중요하게 여겨 설계되었다.",
+        "translationTarget": "조화",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1503210-1",
+    "wordId": "lex-jmdict-1503210",
+    "version": 1,
+    "meaning": "분해",
+    "hint": "하나의 물건을 구성하는 여러 부분으로 나누는 일",
+    "confusions": [
+      {
+        "japanese": "組み立て",
+        "distinction": "부품으로 나누는 것과 부품을 합쳐 완성하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1503210-1-ex-1",
+        "version": 1,
+        "before": "故障の原因を調べるため、時計を",
+        "answer": "分解",
+        "after": "した。",
+        "reading": "ぶんかい",
+        "translation": "고장 원인을 조사하기 위해 시계를 분해했다.",
+        "translationTarget": "분해",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528280-1",
+    "wordId": "lex-jmdict-1528280",
+    "version": 1,
+    "meaning": "밀집",
+    "hint": "많은 대상이 좁은 곳에 빽빽하게 모여 있습니다.",
+    "confusions": [
+      {
+        "japanese": "集中",
+        "distinction": "密集는 공간에 빽빽이 모임이고 集中는 장소·대상에 집중됨 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528280-1-ex-1",
+        "version": 1,
+        "before": "住宅が",
+        "answer": "密集",
+        "after": "する地域では、火事の広がりに注意が必要だ。",
+        "reading": "みっしゅう",
+        "translation": "주택이 밀집한 지역에서는 불길이 번지는 것에 주의가 필요하다.",
+        "translationTarget": "밀집",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1382220-1",
+    "wordId": "lex-jmdict-1382220",
+    "version": 1,
+    "meaning": "무르다, 약하다",
+    "hint": "외부 힘·변화에 쉽게 깨지거나 무너집니다.",
+    "confusions": [
+      {
+        "japanese": "柔らかい",
+        "distinction": "脆い는 쉽게 부서지거나 무너짐이고 柔らかい는 딱딱하지 않고 부드러움이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1382220-1-ex-1",
+        "version": 1,
+        "before": "乾いた土の壁は",
+        "answer": "脆く",
+        "after": "、少し触れただけで崩れた。",
+        "reading": "もろく",
+        "translation": "마른 흙벽은 약하여 살짝 건드리기만 해도 무너졌다.",
+        "translationTarget": "약하여",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374870-1",
+    "wordId": "lex-jmdict-1374870",
+    "version": 1,
+    "meaning": "제정",
+    "hint": "법률·규칙 등을 새로 정하여 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "改正",
+        "distinction": "制定는 새 규칙·법을 만듦이고 改正는 기존 것을 고쳐 바로잡음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374870-1-ex-1",
+        "version": 1,
+        "before": "市は、景観を守るための条例を",
+        "answer": "制定",
+        "after": "した。",
+        "reading": "せいてい",
+        "translation": "시는 경관을 보호하기 위한 조례를 제정했다.",
+        "translationTarget": "제정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1269880-1",
+    "wordId": "lex-jmdict-1269880",
+    "version": 1,
+    "meaning": "후퇴",
+    "hint": "위치·성과·상태가 이전보다 뒤로 물러납니다.",
+    "confusions": [
+      {
+        "japanese": "後悔",
+        "distinction": "後退는 뒤로 물러남이고 後悔는 지난 행동을 아쉬워함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1269880-1-ex-1",
+        "version": 1,
+        "before": "協議は一度進んだが、条件が変わって再び",
+        "answer": "後退",
+        "after": "した。",
+        "reading": "こうたい",
+        "translation": "협의는 한 번 진전되었지만 조건이 바뀌어 다시 후퇴했다.",
+        "translationTarget": "후퇴",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-01T00:14:44.333Z",
+  "sourceCommit": "33ac54c35db10dd2a7575c107231e403f46f1028",
+  "cause": "11 unpublished relevelled words used an occupied legacy batch folder; recovered before app publication",
+  "newFolder": "n3-030",
+  "restoredOriginalBatch": "n3-009",
+  "items": [
+    {
+      "restored": "content/jlpt/batches/n3-009/words-02.json",
+      "movedUnpublished": "content/jlpt/batches/n3-030/words-02.json",
+      "restoredHash": "68ff3aa2c6be166cfd75bbbe34c60fd0f5f9ea1840893b2784de6c8b1995535e",
+      "unpublishedHash": "f037732fb32b0a660b4159bf948775f06a7002263267773e947148de610e63ea"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/examples-02.txt",
+      "movedUnpublished": "content/jlpt/batches/n3-030/examples-02.txt",
+      "restoredHash": "9412e9a82f850878a846bb31ad322ccfa0cca6f62f9396b5edba12fc343d19bc",
+      "unpublishedHash": "357d2e7129b8b9490fcf94b3949dc8a089a3e3559c03e279a1c9b08eaee8544f"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/review-02.json",
+      "movedUnpublished": "content/jlpt/batches/n3-030/review-02.json",
+      "restoredHash": "f7d2cc1cc19ad601356bfeea762319a570533c66f7b2a1d261875a17cf114232",
+      "unpublishedHash": "a615ff1616516738f417896c5bfafada1e513ceba5e7057f7d769d09c75c4938"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/words-03.json",
+      "movedUnpublished": "content/jlpt/batches/n3-030/words-03.json",
+      "restoredHash": "dbfccdd15663072710d91d95c285dab3af63c1b0ae5cef29e7bfa3fd93c5e677",
+      "unpublishedHash": "e4bc1d1360273701167a31ac41edcad3ac0749740862fdce72cfa1ae287d4e97"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/examples-03.txt",
+      "movedUnpublished": "content/jlpt/batches/n3-030/examples-03.txt",
+      "restoredHash": "eece0bb44e1eca6a8e54bc3b81c74eddc267355ecf09a0597c17bd3732af84cf",
+      "unpublishedHash": "80d9469dfa3f69511e6abea01a52ce59417f5072438ae0f8d49fc4e3015f8450"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/review-03.json",
+      "movedUnpublished": "content/jlpt/batches/n3-030/review-03.json",
+      "restoredHash": "60e51058e126caa2e5a5bdb96a91c3445bf96e5dbee13f80310fa34fdb285a00",
+      "unpublishedHash": "9f2d85b931e7972a97a1276f7154aab39c347a94526f2625ffd1cc39b8e73d8e"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/words-04.json",
+      "movedUnpublished": "content/jlpt/batches/n3-030/words-04.json",
+      "restoredHash": "69ab1b3ba1d5393f7ea20d3654121b95cfffc8bd70a614b318507c70625f690a",
+      "unpublishedHash": "2e73ccf98c7598677d6afe47fcdc0444b7e95e093f57244ee917006ef2a78d70"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/examples-04.txt",
+      "movedUnpublished": "content/jlpt/batches/n3-030/examples-04.txt",
+      "restoredHash": "7b1555714b26cb012a39a37f5ecf4c84260b80d9bbbaa08485254649e3be32d5",
+      "unpublishedHash": "b68cf7e0ef75430541d2f7c557fdd31728c185e904cc91af8d2114961ae42293"
+    },
+    {
+      "restored": "content/jlpt/batches/n3-009/review-04.json",
+      "movedUnpublished": "content/jlpt/batches/n3-030/review-04.json",
+      "restoredHash": "00ae1114174fab75fb469185558ce0fc77a9dbd44b54eda38764deedc6826c35",
+      "unpublishedHash": "032df31bdae18a427d4dd20600264c9f3f12fc5456f98758b256a4553a1fe842"
+    }
+  ],
+  "appSourceChanged": false,
+  "pilotSourceChanged": false
+}

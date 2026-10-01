@@ -345,16 +345,13 @@
   },
   {
     "wordId": "JLPTN3_44",
-    "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
+    "sourceHash": "abeb0a1a55c7e296a269cccc1063d2275f79d6b9825adb1ff09da3d3e1a5feac",
     "level": "N5",
     "dictionaryId": "jmdict-1350110",
-    "levelNote": "전원을 끄거나 글·기록을 지우는 기초 타동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
-    "meaningReview": "기존 뜻: (불·전원 등을) 끄다, 지우다. 사전의 switch off와 erase·delete를 확인했다. 첫 ID는 조명·텔레비전을 끄기, 두 번째 ID는 칠판 글·사진을 지우기로 대표 용법이 나뉜다.",
+    "levelNote": "끄다·글씨/기록 삭제의 기본 일상 핵심을 N5로 독립 판단.",
+    "meaningReview": "기존 끄다 핵심과 새 삭제 용법을 전량 재검토했다. peer75는 그대로 유지하며 프로필이전 없이 대표44만 선택한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
-      "두 원본 ID의 대표 용법 범위가 다르거나 일부만 겹치므로 별칭 후보를 비워 두었다. 학습 범위를 보존한 추가 검토가 필요하다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_75",

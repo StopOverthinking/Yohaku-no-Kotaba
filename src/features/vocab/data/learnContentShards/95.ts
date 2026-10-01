@@ -1456,6 +1456,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1274810-1",
+    "wordId": "lex-jmdict-1274810",
+    "version": 1,
+    "meaning": "공무",
+    "hint": "공무원이 맡아 수행하는 공적인 업무입니다.",
+    "confusions": [
+      {
+        "japanese": "私用",
+        "distinction": "公務는 공적인 직무이고 私用는 개인적인 용무다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1274810-1-ex-1",
+        "version": 1,
+        "before": "市長は",
+        "answer": "公務",
+        "after": "のため、式典を途中で退席した。",
+        "reading": "こうむ",
+        "translation": "시장은 공무 때문에 의식 도중에 자리를 떴다.",
+        "translationTarget": "공무",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596510-1",
+    "wordId": "lex-jmdict-1596510",
+    "version": 1,
+    "meaning": "손상시키다, 해치다",
+    "hint": "가치·기능·관계가 좋지 않게 되도록 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "失う",
+        "distinction": "損なう는 대상의 상태·가치를 해침이고 失う는 대상을 잃음이다. 동사 뒤에서 실패·놓침을 나타내기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596510-1-ex-1",
+        "version": 1,
+        "before": "一度の不誠実な対応が、長年の信頼を",
+        "answer": "損なった",
+        "after": "。",
+        "reading": "そこなった",
+        "translation": "한 번의 불성실한 대응이 오랜 신뢰를 해쳤다.",
+        "translationTarget": "해쳤다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-handmade_153-2",
+    "wordId": "handmade_153",
+    "version": 1,
+    "meaning": "요리한 음식",
+    "hint": "재료를 조리하여 먹을 수 있게 만든 음식이에요.",
+    "confusions": [
+      {
+        "japanese": "食材",
+        "distinction": "만들기 전의 재료와 조리하여 완성한 음식을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-handmade_153-2-ex-1",
+        "version": 1,
+        "before": "この店の",
+        "answer": "料理",
+        "after": "は、どれも野菜がたっぷり入っている。",
+        "reading": "りょうり",
+        "translation": "이 가게의 요리는 모두 채소가 듬뿍 들어 있다.",
+        "translationTarget": "요리",
+        "difficulty": 15,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1511450-1",
+    "wordId": "lex-jmdict-1511450",
+    "version": 1,
+    "meaning": "변동",
+    "hint": "수치·상황이 고정되지 않고 달라집니다.",
+    "confusions": [
+      {
+        "japanese": "固定",
+        "distinction": "変動는 값·상태가 달라짐이고 固定는 변하지 않게 정함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1511450-1-ex-1",
+        "version": 1,
+        "before": "為替の",
+        "answer": "変動",
+        "after": "が、輸入品の価格に影響している。",
+        "reading": "へんどう",
+        "translation": "환율 변동이 수입품 가격에 영향을 주고 있다.",
+        "translationTarget": "변동",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1391940-1",
+    "wordId": "lex-jmdict-1391940",
+    "version": 1,
+    "meaning": "부럽다",
+    "hint": "다른 사람이 가진 좋은 것을 자신도 원하게 되는 마음이에요.",
+    "confusions": [
+      {
+        "japanese": "満足",
+        "distinction": "다른 사람의 좋은 것을 원하는 마음과 자기 상태에 만족하는 마음을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1391940-1-ex-1",
+        "version": 1,
+        "before": "海の近くで暮らせるなんて、",
+        "answer": "羨ましい",
+        "after": "な。",
+        "reading": "うらやましい",
+        "translation": "바다 가까이에서 살 수 있다니 부럽다.",
+        "translationTarget": "부럽다",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596240-1",
+    "wordId": "lex-jmdict-1596240",
+    "version": 1,
+    "meaning": "전용",
+    "hint": "특정 대상·목적만을 위해 사용합니다.",
+    "confusions": [
+      {
+        "japanese": "共用",
+        "distinction": "専用는 정해진 대상만 이용함이고 共用는 함께 이용함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596240-1-ex-1",
+        "version": 1,
+        "before": "この駐車場は、施設の利用者",
+        "answer": "専用",
+        "after": "です。",
+        "reading": "せんよう",
+        "translation": "이 주차장은 시설 이용자 전용입니다.",
+        "translationTarget": "전용",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451310-1",
+    "wordId": "lex-jmdict-1451310",
+    "version": 1,
+    "meaning": "동기",
+    "hint": "어떤 행동을 하게 만든 이유·계기입니다.",
+    "confusions": [
+      {
+        "japanese": "動向",
+        "distinction": "動機는 행동의 이유이고 動向는 움직임·변화의 경향이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451310-1-ex-1",
+        "version": 1,
+        "before": "面接では、この仕事を選んだ",
+        "answer": "動機",
+        "after": "を聞かれた。",
+        "reading": "どうき",
+        "translation": "면접에서는 이 일을 선택한 동기를 질문받았다.",
+        "translationTarget": "동기",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527770-1",
+    "wordId": "lex-jmdict-1527770",
+    "version": 1,
+    "meaning": "미지",
+    "hint": "아직 알려지거나 경험되지 않았습니다.",
+    "confusions": [
+      {
+        "japanese": "既知",
+        "distinction": "未知는 아직 모름이고 既知는 이미 알려짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527770-1-ex-1",
+        "version": 1,
+        "before": "研究を進めるほど、",
+        "answer": "未知",
+        "after": "の課題が次々と見つかった。",
+        "reading": "みち",
+        "translation": "연구를 진행할수록 미지의 과제가 잇달아 발견되었다.",
+        "translationTarget": "미지",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1010090-1",
+    "wordId": "lex-jmdict-1010090",
+    "version": 1,
+    "meaning": "또렷하게·분명하게",
+    "hint": "말이나 행동이 망설임 없이 명확하고 힘 있는 모습",
+    "confusions": [
+      {
+        "japanese": "もごもご",
+        "distinction": "말을 분명하게 하는 모습과 입 안에서 흐리게 말하는 모습을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1010090-1-ex-1",
+        "version": 1,
+        "before": "面接では、短くても",
+        "answer": "はきはき",
+        "after": "と答えるようにした。",
+        "reading": "はきはき",
+        "translation": "면접에서는 짧더라도 또렷하게 대답하도록 했다.",
+        "translationTarget": "또렷하게",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

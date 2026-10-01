@@ -1,0 +1,16 @@
+{
+  "batch": "028",
+  "scope": "classification; separate explicit reference rows in membership registry",
+  "reviewedAt": "2026-10-01T00:03:05.801Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "checkedWords": 30,
+  "checkedExamples": 60,
+  "accepted": 29,
+  "held": 1,
+  "referenceAccepted": 24,
+  "referenceHeld": 6,
+  "notes": [
+    "All actual source content and selected dictionary senses read. 和える no supplied dictionary match; confirmed errors held. Existing content and IDs unchanged."
+  ]
+}

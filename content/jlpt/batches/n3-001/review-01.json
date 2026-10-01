@@ -222,15 +222,16 @@
   },
   {
     "wordId": "lex-jmdict-1013050",
-    "contentHash": "7fe2b14f92fbddd017bb341bd345ed75aece54f7cee5e3dc7c4fa07ca1ba055d",
+    "contentHash": "da0fbd60af13784f17fcea71107207e5eb88850f7992e578b63b29b2025dbe96",
     "outcome": "accepted",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent AI editorial review; n3-001/review-summary.json",
-    "reviewedAt": "2026-09-30T01:15:57.837Z",
+    "reviewedAt": "2026-10-01T00:52:25.963Z",
+    "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
     "notes": [
-      "느린 걸음·충분한 대화 시간·작품 감상에서 여유와 속도 의미를 확인했다."
+      "친구와 대화하는 장면을 휴일 아침 식사로 바꿔 충분한 시간을 들이는 기존 뜻을 유지한다.",
+      "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
     ]
   },
   {

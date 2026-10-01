@@ -1,0 +1,14 @@
+[
+  {
+    "japanese": "内線",
+    "reading": "ないせん",
+    "type": "noun",
+    "meaning": "내선",
+    "hint": "같은 건물이나 조직 안에서 연결하는 전화 회선",
+    "confusion": "外線",
+    "distinction": "조직 안에서 연결하는 회선과 밖으로 연결하는 회선을 구별한다.",
+    "dictionaryId": "jmdict-1458650",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  }
+]

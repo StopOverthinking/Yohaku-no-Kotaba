@@ -1,0 +1,86 @@
+[
+  {
+    "japanese": "領収",
+    "reading": "りょうしゅう",
+    "type": "noun",
+    "meaning": "금액 수령·영수",
+    "hint": "돈을 받았음을 확인하는 일",
+    "confusion": "請求",
+    "distinction": "대금을 받는 일과 지급을 요구하는 일을 구별한다.",
+    "dictionaryId": "jmdict-1554750",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "重体",
+    "reading": "じゅうたい",
+    "type": "noun",
+    "meaning": "위독한 상태",
+    "hint": "목숨이 위험할 정도로 병이나 부상의 상태가 심각한 것",
+    "confusion": "軽傷",
+    "distinction": "생명이 위험한 심각한 상태와 가벼운 부상을 구별한다.",
+    "dictionaryId": "jmdict-1595360",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "続々",
+    "reading": "ぞくぞく",
+    "type": "adv",
+    "meaning": "잇달아·속속",
+    "hint": "여러 사람이 오거나 일이 일어나는 것이 끊이지 않고 이어져요.",
+    "confusion": "一度だけ",
+    "distinction": "여러 일이 계속 이어지는 것과 한 번뿐인 것을 구별한다.",
+    "dictionaryId": "jmdict-1596730",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "着々",
+    "reading": "ちゃくちゃく",
+    "type": "adv",
+    "meaning": "착실히·차근차근",
+    "hint": "계획한 일이 순서대로 확실하게 진행되는 모습",
+    "confusion": "停滞",
+    "distinction": "계획대로 확실히 진전되는 것과 진행이 막힌 상태를 구별한다.",
+    "dictionaryId": "jmdict-1597480",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "短編",
+    "reading": "たんぺん",
+    "type": "noun",
+    "meaning": "단편",
+    "hint": "분량이 짧은 이야기나 영상 작품",
+    "confusion": "長編",
+    "distinction": "짧은 분량의 작품과 긴 분량의 작품을 구별한다.",
+    "dictionaryId": "jmdict-1597300",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "恵まれる",
+    "reading": "めぐまれる",
+    "type": "verb",
+    "meaning": "혜택을 입다·좋은 조건을 누리다",
+    "hint": "좋은 조건이나 도움을 운 좋게 얻어 누려요.",
+    "confusion": "欠ける",
+    "distinction": "좋은 조건을 갖춘 것과 필요한 것이 부족한 것을 구별한다.",
+    "dictionaryId": "jmdict-1611980",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "稀",
+    "reading": "まれ",
+    "type": "na_adj",
+    "meaning": "드물다",
+    "hint": "일어나는 횟수나 있는 수가 매우 적은 상태예요.",
+    "confusion": "頻繁",
+    "distinction": "흔히 일어나지 않는 상태와 자주 일어나는 상태를 구별한다.",
+    "dictionaryId": "jmdict-1604280",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  }
+]

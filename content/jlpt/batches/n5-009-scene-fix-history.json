@@ -1,0 +1,188 @@
+{
+  "preparedAt": "2026-09-30T23:54:02.152Z",
+  "scope": "explicit-reviewed-example-revision-not-yet-runtime-applied",
+  "wordId": "lex-jmdict-1587610",
+  "oldWord": {
+    "id": "lex-jmdict-1587610",
+    "setId": "jlpt-level-n5",
+    "japanese": "嫌",
+    "reading": "いや",
+    "meaning": "싫다·내키지 않다",
+    "type": "na_adj",
+    "difficulty": 13,
+    "verbInfo": null,
+    "sourceOrder": 394
+  },
+  "oldSense": {
+    "id": "sense-lex-jmdict-1587610-1",
+    "wordId": "lex-jmdict-1587610",
+    "version": 1,
+    "meaning": "싫다·내키지 않다",
+    "hint": "하고 싶지 않거나 받아들이고 싶지 않은 마음",
+    "confusions": [
+      {
+        "japanese": "好き",
+        "distinction": "하기 싫고 꺼리는 마음과 좋고 원하는 마음을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1587610-1-ex-1",
+        "version": 1,
+        "before": "一人で暗い道を歩くのは",
+        "answer": "嫌です",
+        "after": "。",
+        "reading": "いやです",
+        "translation": "혼자 어두운 길을 걷는 것은 싫습니다.",
+        "translationTarget": "싫습니다",
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  "oldExample": {
+    "id": "sense-lex-jmdict-1587610-1-ex-1",
+    "version": 1,
+    "before": "一人で暗い道を歩くのは",
+    "answer": "嫌です",
+    "after": "。",
+    "reading": "いやです",
+    "translation": "혼자 어두운 길을 걷는 것은 싫습니다.",
+    "translationTarget": "싫습니다",
+    "difficulty": 13,
+    "status": "reviewed"
+  },
+  "proposedExample": {
+    "id": "sense-lex-jmdict-1587610-1-ex-1",
+    "version": 2,
+    "before": "弟は、このシャツのチクチクする感じが",
+    "answer": "嫌だ",
+    "after": "と言った。",
+    "reading": "いやだ",
+    "translation": "남동생은 이 셔츠의 따끔거리는 느낌이 싫다고 말했다.",
+    "translationTarget": "싫다",
+    "difficulty": 13,
+    "status": "reviewed"
+  },
+  "oldLine": "一人で暗い道を歩くのは《嫌です》。|いやです|혼자 어두운 길을 걷는 것은 《싫습니다》.|13",
+  "newLine": "弟は、このシャツのチクチクする感じが《嫌だ》と言った。|いやだ|남동생은 이 셔츠의 따끔거리는 느낌이 《싫다》고 말했다.|13",
+  "previousPublication": {
+    "id": "lex-jmdict-1587610",
+    "level": "N5",
+    "source": {
+      "dictionary": "jmdict-1587610",
+      "proposedLevel": "N5",
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N5"
+        ],
+        "matchedForms": [
+          "嫌"
+        ]
+      },
+      "assignment": "editorial-estimate"
+    },
+    "contentHash": "e0d9aefe8793ea5d5100f3d71ee266c5abc23c54401680b609b9ffd03dd7d83c",
+    "publishedHash": "1514e6a8374bcf029f5812e64da7dc8ec47f6920a11b9d8ab01853ffea091a60"
+  },
+  "previousReview": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all words, readings, types, level selection, Korean hints/contrasts, Japanese examples and translations read.",
+    "reviewedAt": "2026-09-30T23:51:12.557Z",
+    "notes": [
+      "기초 생활 용법3개 검토 완료. 부정문 なかなか 및 소프트웨어 ソフト처럼 선택한 용법 범위를 명확히 유지한다."
+    ],
+    "contentHash": "e0d9aefe8793ea5d5100f3d71ee266c5abc23c54401680b609b9ffd03dd7d83c"
+  },
+  "previousBatchReview": {
+    "schemaVersion": 2,
+    "sourceHash": "e2fc06c3617807c57a286084e96acb215099cf11683015a46ada55ee226b6407",
+    "review": {
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "method": "Independent complete editorial review; all words, readings, types, level selection, Korean hints/contrasts, Japanese examples and translations read.",
+      "reviewedAt": "2026-09-30T23:51:12.557Z",
+      "notes": [
+        "기초 생활 용법3개 검토 완료. 부정문 なかなか 및 소프트웨어 ソフト처럼 선택한 용법 범위를 명확히 유지한다."
+      ]
+    },
+    "entries": [
+      [
+        "lex-jmdict-1588880",
+        "27003703538847d9b462aae5c5ae63479d3677739f62457f62cf018f8dd9fffc"
+      ],
+      [
+        "lex-jmdict-1587610",
+        "e0d9aefe8793ea5d5100f3d71ee266c5abc23c54401680b609b9ffd03dd7d83c"
+      ],
+      [
+        "lex-jmdict-2013900",
+        "6eb6a16803b56486472ae1b5d9ffdb4bad7dd536ee863298b1faacfe64d93ab3"
+      ]
+    ]
+  },
+  "previousExampleVersions": {
+    "sense-lex-jmdict-1252330-1-ex-1": 2,
+    "sense-lex-jmdict-1344930-1-ex-1": 2,
+    "sense-lex-jmdict-1365250-1-ex-1": 2,
+    "sense-lex-jmdict-1345250-1-ex-3": 2,
+    "sense-lex-jmdict-1185290-1-ex-1": 2,
+    "sense-lex-jmdict-1610960-1-ex-1": 2,
+    "sense-lex-jmdict-1357480-1-ex-1": 2
+  },
+  "approval": {
+    "wordId": "lex-jmdict-1587610",
+    "contentHash": "3923aaa17ecf0d8a98be20792f03a09ea17a83082adf2e2c31f2a52d65ed9feb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Reviewer-authored scene revision; complete unchanged core-sense and modified example verification.",
+    "reviewedAt": "2026-09-30T23:54:01.753Z",
+    "notes": [
+      "怖い의 어두운 길 혼자 걷는 장면을 제거하고 셔츠의 따끔거리는 감촉이 싫다는 독립 생활 장면으로 수정. 한국어/일본어 의미·활용 읽기를 대조했다.",
+      "단어·용법·예문 ID/순서/개수·난도는 불변이며 기존 용법 버전1과 학습 기록을 보존한다. 이 예문 버전만1→2."
+    ]
+  },
+  "validation": {
+    "unchangedCoreMetadata": true,
+    "oldSourceMatches": true,
+    "exampleVersionIncrement": 1,
+    "corpusExamples": 8729,
+    "newSimilarPairs": 0,
+    "threshold": 0.7
+  },
+  "appliedAt": "2026-09-30T23:55:11.113Z",
+  "currentPublication": {
+    "id": "lex-jmdict-1587610",
+    "level": "N5",
+    "source": {
+      "dictionary": "jmdict-1587610",
+      "proposedLevel": "N5",
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N5"
+        ],
+        "matchedForms": [
+          "嫌"
+        ]
+      },
+      "assignment": "editorial-estimate"
+    },
+    "contentHash": "3923aaa17ecf0d8a98be20792f03a09ea17a83082adf2e2c31f2a52d65ed9feb",
+    "publishedHash": "0113232fcea8aca4860939ce4bbd11bf22bcc7c066b123e8d0b623da54bed307"
+  },
+  "application": "Explicit --revise import completed; word/sense identity and mastery preserved; whole content audit similar0/missing0."
+}

@@ -457,21 +457,21 @@
   },
   {
     "wordId": "JLPTN3_44",
-    "sourceHash": "931f4f21dd9dd779bdca089383a786d17caa2b6f4c3851d2f338b938a0f6d7eb",
-    "proposalHash": "2495d7bf7c70f529053e3f60638a7b2031536a6404f738d2b79f82af1ede336f",
+    "sourceHash": "abeb0a1a55c7e296a269cccc1063d2275f79d6b9825adb1ff09da3d3e1a5feac",
+    "proposalHash": "7534d718dc7a3106a3169d8e0ea132ff742ab93150a8dc64d7d781298e4ff256",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "accepted-with-listed-editorial-issues",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "no alias proposed",
+    "aliasOutcome": "distinct-core-usages; no profile transfer",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent dictionary/meaning/level/alias proposal review; legacy-002 source snapshot and structural audit.",
-    "reviewedAt": "2026-09-30T02:27:34.554Z",
+    "reviewedAt": "2026-10-01T00:40:38.186Z",
     "notes": [
-      "소등과 기록 삭제는 대표 용법이 달라 별칭 제외가 타당하다.",
-      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+      "기존 끄다 핵심과 새 삭제 용법을 전량 재검토했다. peer75는 그대로 유지하며 프로필이전 없이 대표44만 선택한다.",
+      "끄다·글씨/기록 삭제의 기본 일상 핵심을 N5로 독립 판단."
     ]
   },
   {

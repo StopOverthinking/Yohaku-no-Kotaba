@@ -1600,6 +1600,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1586520-1",
+    "wordId": "lex-jmdict-1586520",
+    "version": 1,
+    "meaning": "받는 이 이름·주소, 수신인",
+    "hint": "편지·소포 등에 받을 상대의 이름·주소를 적은 부분입니다.",
+    "confusions": [
+      {
+        "japanese": "差出人",
+        "distinction": "宛名는 받는 이의 이름·주소이고 差出人는 보내는 사람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1586520-1-ex-1",
+        "version": 1,
+        "before": "封筒の",
+        "answer": "宛名",
+        "after": "を確認すると、隣の部屋の住人への手紙だった。",
+        "reading": "あてな",
+        "translation": "봉투의 받는 이 이름을 확인하니 옆방 주민에게 온 편지였다.",
+        "translationTarget": "받는 이 이름",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1070320-1",
+    "wordId": "lex-jmdict-1070320",
+    "version": 1,
+    "meaning": "무대",
+    "hint": "공연자가 올라가 관객에게 공연하는 공간",
+    "confusions": [
+      {
+        "japanese": "客席",
+        "distinction": "공연하는 공간과 관객이 앉는 공간을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1070320-1-ex-1",
+        "version": 1,
+        "before": "照明が消えると、歌手が",
+        "answer": "ステージ",
+        "after": "に現れた。",
+        "reading": "ステージ",
+        "translation": "조명이 꺼지자 가수가 무대에 나타났다.",
+        "translationTarget": "무대",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1253130-1",
+    "wordId": "lex-jmdict-1253130",
+    "version": 1,
+    "meaning": "예능·공연 예술",
+    "hint": "노래나 춤 등으로 관객을 즐겁게 하는 예술 활동",
+    "confusions": [
+      {
+        "japanese": "美術",
+        "distinction": "공연으로 보여 주는 예술과 그림이나 조각 중심의 예술을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1253130-1-ex-1",
+        "version": 1,
+        "before": "地域に伝わる",
+        "answer": "芸能",
+        "after": "を、子どもたちも練習している。",
+        "reading": "げいのう",
+        "translation": "지역에 전해 내려오는 공연 예술을 아이들도 연습하고 있다.",
+        "translationTarget": "공연 예술",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1494700-1",
+    "wordId": "lex-jmdict-1494700",
+    "version": 1,
+    "meaning": "불복, 불만",
+    "hint": "판단·처분을 받아들이기 어렵게 여깁니다.",
+    "confusions": [
+      {
+        "japanese": "服従",
+        "distinction": "不服는 결정에 승복하지 못함이고 服従는 지시·권위에 따름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1494700-1-ex-1",
+        "version": 1,
+        "before": "決定に",
+        "answer": "不服",
+        "after": "がある場合は、理由を添えて申し立ててください。",
+        "reading": "ふふく",
+        "translation": "결정에 불복할 경우에는 이유를 붙여 이의를 제기해 주세요.",
+        "translationTarget": "불복",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1433570-1",
+    "wordId": "lex-jmdict-1433570",
+    "version": 1,
+    "meaning": "통용",
+    "hint": "말이나 돈이나 방법이 어느 범위에서 유효하게 쓰이는 것",
+    "confusions": [
+      {
+        "japanese": "無効",
+        "distinction": "받아들여져 사용할 수 있는 것과 효력이 없는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1433570-1-ex-1",
+        "version": 1,
+        "before": "その言い訳は、この職場では",
+        "answer": "通用",
+        "after": "しません。",
+        "reading": "つうよう",
+        "translation": "그 핑계는 이 직장에서는 통하지 않습니다.",
+        "translationTarget": "통하지",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448600-1",
+    "wordId": "lex-jmdict-1448600",
+    "version": 1,
+    "meaning": "김·수증기",
+    "hint": "뜨거운 물이나 음식에서 하얗게 올라오는 것",
+    "confusions": [
+      {
+        "japanese": "煙",
+        "distinction": "뜨거운 물에서 올라오는 김과 불타는 것에서 나오는 연기를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448600-1-ex-1",
+        "version": 1,
+        "before": "窓が曇るほど、鍋から",
+        "answer": "湯気",
+        "after": "が上がっていた。",
+        "reading": "ゆげ",
+        "translation": "창문이 흐려질 만큼 냄비에서 김이 올라오고 있었다.",
+        "translationTarget": "김",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1368180-1",
+    "wordId": "lex-jmdict-1368180",
+    "version": 1,
+    "meaning": "인정, 사람의 정",
+    "hint": "사람 사이에서 생기는 따뜻한 마음·공감입니다.",
+    "confusions": [
+      {
+        "japanese": "感情",
+        "distinction": "人情는 인간적인 정·공감에 흔하고 感情는 마음의 느낌 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1368180-1-ex-1",
+        "version": 1,
+        "before": "旅先で受けた親切に、町の人々の",
+        "answer": "人情",
+        "after": "を感じた。",
+        "reading": "にんじょう",
+        "translation": "여행지에서 받은 친절에서 마을 사람들의 인정을 느꼈다.",
+        "translationTarget": "인정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1373500-1",
+    "wordId": "lex-jmdict-1373500",
+    "version": 1,
+    "meaning": "설치하다, 고정해 놓다",
+    "hint": "큰 기기 등을 정해진 위치에 놓아 사용할 수 있게 합니다.",
+    "confusions": [
+      {
+        "japanese": "取り外す",
+        "distinction": "据え付ける는 자리를 정해 설치함이고 取り外す는 붙은 것을 떼어 냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1373500-1-ex-1",
+        "version": 1,
+        "before": "専門の業者が、店の厨房に新しい機器を",
+        "answer": "据え付けた",
+        "after": "。",
+        "reading": "すえつけた",
+        "translation": "전문 업체가 가게 주방에 새 기기를 설치했다.",
+        "translationTarget": "설치했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579470-1",
+    "wordId": "lex-jmdict-1579470",
+    "version": 1,
+    "meaning": "사, 넷; 4",
+    "hint": "셋보다 하나 많고 다섯보다 하나 적은 수",
+    "confusions": [
+      {
+        "japanese": "五",
+        "distinction": "4와 5를 구별한다. 4의 대표 읽기는 욘이며 시도 쓰인다. 요는 요지처럼 시간이나 세는 말과 결합할 때 나타난다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579470-1-ex-1",
+        "version": 1,
+        "before": "三の次は",
+        "answer": "四",
+        "after": "です。",
+        "reading": "よん",
+        "translation": "3 다음은 4입니다.",
+        "translationTarget": "4",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1188760-1",
+    "wordId": "lex-jmdict-1188760",
+    "version": 1,
+    "meaning": "언제",
+    "hint": "일이나 사건이 일어나는 때를 묻는 말",
+    "confusions": [
+      {
+        "japanese": "どこ",
+        "distinction": "시간을 묻는 말과 장소를 묻는 말을 구별한다. 시각을 한정해 묻는 몇 시와도 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1188760-1-ex-1",
+        "version": 1,
+        "before": "荷物は",
+        "answer": "いつ",
+        "after": "届きますか。",
+        "reading": "いつ",
+        "translation": "짐은 언제 도착합니까?",
+        "translationTarget": "언제",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1009290-1",
+    "wordId": "lex-jmdict-1009290",
+    "version": 1,
+    "meaning": "어느 것",
+    "hint": "여러 물건 가운데 하나를 골라 묻는 말",
+    "confusions": [
+      {
+        "japanese": "どの",
+        "distinction": "대상을 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 대상을 한정하는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1009290-1-ex-1",
+        "version": 1,
+        "before": "赤、青、黒があります。",
+        "answer": "どれ",
+        "after": "にしますか。",
+        "reading": "どれ",
+        "translation": "빨강, 파랑, 검정이 있습니다. 어느 것으로 하겠습니까?",
+        "translationTarget": "어느 것",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

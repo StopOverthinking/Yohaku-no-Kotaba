@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "9e143c2f39c16ca9b0d36167ea8f05f4f372ad9e4401cec13df35930f2e7f377",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all vocabulary, selected levels, hints, contrasts and Japanese/Korean examples read.",
+    "reviewedAt": "2026-09-30T23:52:35.925Z",
+    "notes": [
+      "원래 n2-020/01의 실용 외래어25를 전량 대조한 뒤 선택 의미 난도로 N2 4/N3 16/N4 5 분리했다. 단순 출처 수준을 따르지 않고 기존 ファイル/メーカー 등과 일관된 범위를 적용한다. 원고 의미·예문은 유지."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1067480",
+      "3c483295b043e6d437eff201b66dab6709207f66758100a40c49bb1af3f6e97b"
+    ],
+    [
+      "lex-jmdict-1093000",
+      "efde53afab56bfa114b486d745c4b4f4b494fe60f54ad8c2d2253969d4f6f153"
+    ],
+    [
+      "lex-jmdict-1111160",
+      "c5171b73bd3069f1c418cfd34c62eab2246a49fef387f74ac058cc7cdfc656be"
+    ],
+    [
+      "lex-jmdict-1125110",
+      "fcfe752b6ac38c75bb99045c1cb0b471445b4b789bf4266c88ee8964776a1693"
+    ],
+    [
+      "lex-jmdict-1130040",
+      "ea843df66e3874a42dafa341d1ca1a6418c8047566caec803f4bff8b2a10d637"
+    ]
+  ]
+}

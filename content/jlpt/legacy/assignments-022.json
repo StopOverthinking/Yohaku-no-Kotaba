@@ -126,16 +126,14 @@
   },
   {
     "wordId": "handmade_150",
-    "sourceHash": "2ae5d7f06592d1885ee176b0ef91d04115205feed7e9b4dc7b7a7dc453132d0d",
+    "sourceHash": "19047c482a21d21b267df4080215e76f4c0278d32979741f057a38ef2dd7d09b",
     "level": "N5",
     "dictionaryId": "jmdict-1546020",
     "suggestedType": "noun",
-    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “양복” 및 1개 sense를 대조했다. Western-style clothes와 기모노에서 갈아입음·직접 옷 만들기 예문이 일치한다. 한국어 양복은 정장으로 좁게 읽힐 수 있어 서양식 옷을 함께 명시할 후보이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
-    "issues": [
-      "洋服는 정장만이 아니라 서양식 의복 전체이므로 한국어 뜻 범위 보완 후보이다."
-    ]
+    "issues": []
   },
   {
     "wordId": "handmade_151",
@@ -161,12 +159,12 @@
   },
   {
     "wordId": "handmade_153",
-    "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+    "sourceHash": "93d3865a835214b2fcd2a1791fdcc6945a4b2054c5698c924246caefffb08ff6",
     "level": "N5",
     "dictionaryId": "jmdict-1554310",
     "suggestedType": "noun",
-    "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “요리” 및 1개 sense를 대조했다. cooking·dish와 요리 취미·아버지 요리 예문이 일치한다. 사람을 능숙하게 처리함이라는 비유는 선택하지 않는다.",
+    "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+    "meaningReview": "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -260,12 +258,12 @@
   },
   {
     "wordId": "AbsoluteVerb_12",
-    "sourceHash": "d51f34b34cab058b8a4a6f2eddba7404ee6a2b730a0f95581f29d825662fb947",
+    "sourceHash": "f060cef23aaf691d61ce4ee373e367db69a18f173524e2a8b97e7bc0b6d9b55a",
     "level": "N5",
     "dictionaryId": "jmdict-1227560",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “쉬다, 결석하다, 취침하다” 및 1개 sense를 대조했다. rest와 벤치 휴식·휴식 후 회복 예문이 일치한다. 결석·취침은 현재 sense와 구별한다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },

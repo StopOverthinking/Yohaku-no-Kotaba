@@ -1464,6 +1464,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1520570-1",
+    "wordId": "lex-jmdict-1520570",
+    "version": 1,
+    "meaning": "범죄 예방, 방범",
+    "hint": "도난 등 범죄가 일어나지 않도록 대비하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "防災",
+        "distinction": "防犯는 범죄 예방이고 防災는 재난 피해를 줄이는 대비이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1520570-1-ex-1",
+        "version": 1,
+        "before": "夜間は、店の前の照明を",
+        "answer": "防犯",
+        "after": "のために点けておく。",
+        "reading": "ぼうはん",
+        "translation": "야간에는 가게 앞 조명을 범죄 예방을 위해 켜 둔다.",
+        "translationTarget": "범죄 예방",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501610-1",
+    "wordId": "lex-jmdict-1501610",
+    "version": 1,
+    "meaning": "환불하다, 돌려주다",
+    "hint": "이미 받은 돈을 취소·변경 등의 이유로 다시 돌려줍니다.",
+    "confusions": [
+      {
+        "japanese": "払い込む",
+        "distinction": "払い戻す는 돈을 돌려주고 払い込む는 정해진 곳에 납입한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501610-1-ex-1",
+        "version": 1,
+        "before": "公演が中止になり、主催者はチケット代を",
+        "answer": "払い戻した",
+        "after": "。",
+        "reading": "はらいもどした",
+        "translation": "공연이 취소되어 주최자는 표값을 환불했다.",
+        "translationTarget": "환불했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512830-1",
+    "wordId": "lex-jmdict-1512830",
+    "version": 1,
+    "meaning": "변호, 두둔",
+    "hint": "상대의 입장을 지켜 주장하거나 법적으로 돕는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "非難",
+        "distinction": "弁護는 상대의 입장을 지킴이고 非難는 잘못을 따져 비판함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512830-1-ex-1",
+        "version": 1,
+        "before": "事実を知らずに彼を",
+        "answer": "弁護",
+        "after": "するのは、かえって危険だと思う。",
+        "reading": "べんご",
+        "translation": "사실을 모르고 그를 두둔하는 것은 오히려 위험하다고 생각한다.",
+        "translationTarget": "두둔",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1078240-1",
+    "wordId": "lex-jmdict-1078240",
+    "version": 1,
+    "meaning": "분필",
+    "hint": "칠판에 글씨를 쓰고 지울 수 있는 막대 모양의 필기구",
+    "confusions": [
+      {
+        "japanese": "鉛筆",
+        "distinction": "칠판에 쓰는 필기구와 종이에 쓰는 필기구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1078240-1-ex-1",
+        "version": 1,
+        "before": "白い",
+        "answer": "チョーク",
+        "after": "がなくなったので、黄色で式を書いた。",
+        "reading": "チョーク",
+        "translation": "흰 분필이 다 떨어져서 노란색으로 식을 썼다.",
+        "translationTarget": "분필",
+        "difficulty": 21,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1105580-1",
+    "wordId": "lex-jmdict-1105580",
+    "version": 1,
+    "meaning": "비닐",
+    "hint": "얇게 만들어 포장이나 방수에 쓰는 합성 재료",
+    "confusions": [
+      {
+        "japanese": "紙",
+        "distinction": "물을 잘 통과시키지 않는 합성 재료와 종이를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1105580-1-ex-1",
+        "version": 1,
+        "before": "雨にぬれないように、本を",
+        "answer": "ビニール",
+        "after": "で包んだ。",
+        "reading": "ビニール",
+        "translation": "비에 젖지 않도록 책을 비닐로 감쌌다.",
+        "translationTarget": "비닐",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1550630-1",
+    "wordId": "lex-jmdict-1550630",
+    "version": 1,
+    "meaning": "뒤집다",
+    "hint": "물건의 뒷면이나 안쪽이 밖으로 나오게 해요.",
+    "confusions": [
+      {
+        "japanese": "返す",
+        "distinction": "앞뒤나 안팎을 바꾸는 것과 물건을 돌려주는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1550630-1-ex-1",
+        "version": 1,
+        "before": "焼き色が付いたら、魚を",
+        "answer": "裏返してください",
+        "after": "。",
+        "reading": "うらがえしてください",
+        "translation": "노릇하게 익으면 생선을 뒤집어 주세요.",
+        "translationTarget": "뒤집어 주세요",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427950-1",
+    "wordId": "lex-jmdict-1427950",
+    "version": 1,
+    "meaning": "새기다·조각하다",
+    "hint": "나무나 돌의 표면을 깎아 모양이나 글자를 만들어요.",
+    "confusions": [
+      {
+        "japanese": "塗る",
+        "distinction": "표면을 깎아 모양을 만드는 것과 표면에 색 등을 바르는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427950-1-ex-1",
+        "version": 1,
+        "before": "小さな木の板に、娘の名前を",
+        "answer": "彫った",
+        "after": "。",
+        "reading": "ほった",
+        "translation": "작은 나무판에 딸의 이름을 새겼다.",
+        "translationTarget": "새겼다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317400-1",
+    "wordId": "lex-jmdict-1317400",
+    "version": 1,
+    "meaning": "자위·자기 방어",
+    "hint": "자기 몸이나 권리를 스스로 지키는 것",
+    "confusions": [
+      {
+        "japanese": "攻撃",
+        "distinction": "스스로를 지키는 것과 상대를 공격하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317400-1-ex-1",
+        "version": 1,
+        "before": "危険を避けるための",
+        "answer": "自衛",
+        "after": "の方法を、講習で学んだ。",
+        "reading": "じえい",
+        "translation": "위험을 피하기 위한 자기 방어 방법을 강습에서 배웠다.",
+        "translationTarget": "자기 방어",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551840-1",
+    "wordId": "lex-jmdict-1551840",
+    "version": 1,
+    "meaning": "입법",
+    "hint": "국가의 법률을 새로 만들거나 정하는 활동입니다.",
+    "confusions": [
+      {
+        "japanese": "行政",
+        "distinction": "立法는 법을 만드는 활동이고 行政는 법·정책에 따른 공공 업무 집행이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551840-1-ex-1",
+        "version": 1,
+        "before": "授業で、",
+        "answer": "立法",
+        "after": "と行政の役割の違いを学んだ。",
+        "reading": "りっぽう",
+        "translation": "수업에서 입법과 행정의 역할 차이를 배웠다.",
+        "translationTarget": "입법",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360680-1",
+    "wordId": "lex-jmdict-1360680",
+    "version": 1,
+    "meaning": "불안하다, 의지할 데 없어 걱정스럽다",
+    "hint": "도움을 받기 어렵다고 느껴 마음이 놓이지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "寂しい",
+        "distinction": "心細い는 의지할 데 없는 불안이고 寂しい는 외로움·허전함이다. 혼자 있는 상황에서 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360680-1-ex-1",
+        "version": 1,
+        "before": "初めての土地で一人になり、少し",
+        "answer": "心細かった",
+        "after": "。",
+        "reading": "こころぼそかった",
+        "translation": "처음 온 곳에서 혼자가 되어 조금 불안했다.",
+        "translationTarget": "불안했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

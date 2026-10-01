@@ -1,0 +1,40 @@
+{
+  "scope": "practical basic gaps; all alternate spelling/reading current exact combinations checked",
+  "selected": [
+    "jmdict-1374550",
+    "jmdict-1599420",
+    "jmdict-1075500"
+  ],
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1157080",
+      "japanese": "為",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1213870",
+      "japanese": "看護婦",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1283860",
+      "japanese": "高等学校",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2017840",
+      "japanese": "鑑",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2607730",
+      "japanese": "もし",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2759530",
+      "japanese": "ン",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    }
+  ]
+}

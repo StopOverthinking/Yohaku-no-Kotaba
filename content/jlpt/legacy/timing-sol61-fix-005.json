@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-10-01T00:59:53.055Z",
+  "draftValidatedAt": "2026-10-01T01:00:56.078Z",
+  "measuredElapsedSeconds": 63.023,
+  "scope": "3 canonical originals inspected; 1 representative supplemental sense",
+  "addedSenses": 1,
+  "addedExamples": 1,
+  "pureCompositionTime": null,
+  "limitations": "Includes current originals, dictionary evidence inspection, composition and preservation/hash validation; independent review/application excluded. No offline interval."
+}

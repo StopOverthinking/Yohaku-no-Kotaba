@@ -1704,6 +1704,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326780-1",
+    "wordId": "lex-jmdict-1326780",
+    "version": 1,
+    "meaning": "제거하다",
+    "hint": "불필요하거나 방해되는 것을 없애거나 다른 곳으로 치웁니다.",
+    "confusions": [
+      {
+        "japanese": "取り入れる",
+        "distinction": "取り除く는 제거하고 取り入れる는 받아들여 넣는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326780-1-ex-1",
+        "version": 1,
+        "before": "野菜を洗う前に、傷んだ葉を",
+        "answer": "取り除いた",
+        "after": "。",
+        "reading": "とりのぞいた",
+        "translation": "채소를 씻기 전에 상한 잎을 제거했다.",
+        "translationTarget": "제거했다",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505330-1",
+    "wordId": "lex-jmdict-1505330",
+    "version": 1,
+    "meaning": "문헌",
+    "hint": "연구·조사에 참고하는 글·자료입니다.",
+    "confusions": [
+      {
+        "japanese": "文芸",
+        "distinction": "文献는 연구 자료이고 文芸는 문학 예술이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505330-1-ex-1",
+        "version": 1,
+        "before": "論文を書く前に、関連する",
+        "answer": "文献",
+        "after": "を図書館で集めた。",
+        "reading": "ぶんけん",
+        "translation": "논문을 쓰기 전에 관련 문헌을 도서관에서 모았다.",
+        "translationTarget": "문헌",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424710-1",
+    "wordId": "lex-jmdict-1424710",
+    "version": 1,
+    "meaning": "중성",
+    "hint": "산성이나 알칼리성 어느 쪽에도 치우치지 않는 성질",
+    "confusions": [
+      {
+        "japanese": "酸性",
+        "distinction": "어느 쪽에도 치우치지 않는 성질과 산의 성질을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424710-1-ex-1",
+        "version": 1,
+        "before": "この洗剤は",
+        "answer": "中性",
+        "after": "なので、素材への影響が比較的小さい。",
+        "reading": "ちゅうせい",
+        "translation": "이 세제는 중성이므로 소재에 미치는 영향이 비교적 작다.",
+        "translationTarget": "중성",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431600-1",
+    "wordId": "lex-jmdict-1431600",
+    "version": 1,
+    "meaning": "직류",
+    "hint": "한 방향으로 계속 흐르는 전류",
+    "confusions": [
+      {
+        "japanese": "交流",
+        "distinction": "한 방향으로 흐르는 전류와 방향이 주기적으로 바뀌는 전류를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431600-1-ex-1",
+        "version": 1,
+        "before": "電池から流れる電気は、",
+        "answer": "直流",
+        "after": "です。",
+        "reading": "ちょくりゅう",
+        "translation": "전지에서 흐르는 전기는 직류입니다.",
+        "translationTarget": "직류",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326960-1",
+    "wordId": "lex-jmdict-1326960",
+    "version": 1,
+    "meaning": "거두다, 징수하다",
+    "hint": "빌려준 돈·세금 등 받을 돈을 요구하여 거둡니다.",
+    "confusions": [
+      {
+        "japanese": "取り上げる",
+        "distinction": "선택한 取り立てる는 받을 돈을 거둠이고 取り上げる는 들어 올리거나 빼앗거나 논의 대상으로 삼음이다. 발탁·특별히 내세움의 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326960-1-ex-1",
+        "version": 1,
+        "before": "契約に従って、未払いの料金を",
+        "answer": "取り立てた",
+        "after": "。",
+        "reading": "とりたてた",
+        "translation": "계약에 따라 미납 요금을 거두었다.",
+        "translationTarget": "거두었다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

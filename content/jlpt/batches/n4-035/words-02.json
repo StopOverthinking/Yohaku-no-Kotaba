@@ -1,0 +1,74 @@
+[
+  {
+    "japanese": "口紅",
+    "reading": "くちべに",
+    "type": "noun",
+    "meaning": "립스틱",
+    "hint": "입술에 색을 내는 화장품",
+    "confusion": "香水",
+    "distinction": "입술에 바르는 화장품과 향을 내는 화장품을 구별한다.",
+    "dictionaryId": "jmdict-1276110",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "好き嫌い",
+    "reading": "すききらい",
+    "type": "noun",
+    "meaning": "호불호·편식",
+    "hint": "무엇을 좋아하고 싫어하는 개인의 취향",
+    "confusion": "優劣",
+    "distinction": "개인의 선호와 어느 쪽이 더 낫거나 못한지의 비교를 구별한다.",
+    "dictionaryId": "jmdict-1277460",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "座布団",
+    "reading": "ざぶとん",
+    "type": "noun",
+    "meaning": "방석",
+    "hint": "바닥에 앉을 때 깔고 쓰는 납작한 쿠션",
+    "confusion": "枕",
+    "distinction": "앉는 자리 아래에 까는 물건과 머리를 받치는 물건을 구별한다.",
+    "dictionaryId": "jmdict-1291980",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "刺身",
+    "reading": "さしみ",
+    "type": "noun",
+    "meaning": "회·사시미",
+    "hint": "생선이나 해산물을 날것으로 얇게 썬 음식",
+    "confusion": "焼き魚",
+    "distinction": "날것으로 썬 음식과 구워 익힌 생선을 구별한다.",
+    "dictionaryId": "jmdict-1306570",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "紫",
+    "reading": "むらさき",
+    "type": "noun",
+    "meaning": "보라색",
+    "hint": "빨강과 파랑이 섞인 계열의 색",
+    "confusion": "黄色",
+    "distinction": "보라 계열과 노랑 계열의 색을 구별한다.",
+    "dictionaryId": "jmdict-1311640",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "手首",
+    "reading": "てくび",
+    "type": "noun",
+    "meaning": "손목",
+    "hint": "손과 팔이 연결되어 구부러지는 부분",
+    "confusion": "足首",
+    "distinction": "손과 팔을 잇는 부분과 발과 다리를 잇는 부분을 구별한다.",
+    "dictionaryId": "jmdict-1327770",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  }
+]

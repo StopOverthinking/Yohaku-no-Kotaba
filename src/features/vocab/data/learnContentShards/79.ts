@@ -1728,6 +1728,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538280-1",
+    "wordId": "lex-jmdict-1538280",
+    "version": 1,
+    "meaning": "약품",
+    "hint": "치료·실험·공업 등에 사용하는 화학 물질·약제입니다.",
+    "confusions": [
+      {
+        "japanese": "食品",
+        "distinction": "薬品는 치료·실험 등의 약제이고 食品는 먹는 식품이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538280-1-ex-1",
+        "version": 1,
+        "before": "実験に使う",
+        "answer": "薬品",
+        "after": "は、鍵のかかる場所に保管してある。",
+        "reading": "やくひん",
+        "translation": "실험에 쓰는 약품은 잠글 수 있는 곳에 보관해 두었다.",
+        "translationTarget": "약품",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1318990-1",
+    "wordId": "lex-jmdict-1318990",
+    "version": 1,
+    "meaning": "사양, 사퇴",
+    "hint": "받을 기회·맡을 역할을 스스로 거절하거나 물러납니다.",
+    "confusions": [
+      {
+        "japanese": "辞職",
+        "distinction": "辞退는 제안·기회 등을 사양함이고 辞職는 맡던 직위를 그만둠이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1318990-1-ex-1",
+        "version": 1,
+        "before": "家庭の事情で、海外研修への参加を",
+        "answer": "辞退",
+        "after": "した。",
+        "reading": "じたい",
+        "translation": "가정 사정으로 해외 연수 참가를 사양했다.",
+        "translationTarget": "사양",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532220-1",
+    "wordId": "lex-jmdict-1532220",
+    "version": 1,
+    "meaning": "밝히다, 털어놓다",
+    "hint": "감춰져 있거나 알려지지 않은 사실을 알립니다.",
+    "confusions": [
+      {
+        "japanese": "隠す",
+        "distinction": "선택한 明かす는 사실을 드러냄이고 隠す는 감춤이다. 밤을 새우는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532220-1-ex-1",
+        "version": 1,
+        "before": "彼はようやく、退職を決めた理由を",
+        "answer": "明かした",
+        "after": "。",
+        "reading": "あかした",
+        "translation": "그는 마침내 퇴직을 결정한 이유를 밝혔다.",
+        "translationTarget": "밝혔다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448730-1",
+    "wordId": "lex-jmdict-1448730",
+    "version": 1,
+    "meaning": "등대",
+    "hint": "빛으로 배에 위치와 위험한 곳을 알려 주는 시설",
+    "confusions": [
+      {
+        "japanese": "街灯",
+        "distinction": "배에 항로 정보를 주는 시설과 거리를 밝히는 조명을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448730-1-ex-1",
+        "version": 1,
+        "before": "暗い海に、",
+        "answer": "灯台",
+        "after": "の光が一定の間隔で見えた。",
+        "reading": "とうだい",
+        "translation": "어두운 바다에 등대의 빛이 일정한 간격으로 보였다.",
+        "translationTarget": "등대",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360720-1",
+    "wordId": "lex-jmdict-1360720",
+    "version": 1,
+    "meaning": "심정",
+    "hint": "어떤 상황에서 마음속에 느끼는 생각·감정입니다.",
+    "confusions": [
+      {
+        "japanese": "表情",
+        "distinction": "心情는 마음속 느낌이고 表情는 얼굴·겉에 드러난 모습이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360720-1-ex-1",
+        "version": 1,
+        "before": "故郷を離れる主人公の",
+        "answer": "心情",
+        "after": "が、静かな言葉で描かれている。",
+        "reading": "しんじょう",
+        "translation": "고향을 떠나는 주인공의 심정이 조용한 말로 묘사되어 있다.",
+        "translationTarget": "심정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

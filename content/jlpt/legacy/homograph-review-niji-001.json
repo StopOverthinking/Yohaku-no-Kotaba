@@ -1,0 +1,47 @@
+{
+  "scope": "distinct-lexemes-selected-senses",
+  "outcome": "accepted-as-distinct",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T00:43:49.006Z",
+  "entries": [
+    {
+      "batch": "n3-034/04",
+      "dictionaryId": "jmdict-1461870",
+      "word": {
+        "japanese": "二次",
+        "reading": "にじ",
+        "type": "noun",
+        "meaning": "이차·두 번째 단계",
+        "hint": "한 번 진행한 뒤 다음으로 이어지는 단계",
+        "confusion": "一次",
+        "distinction": "두 번째로 이어지는 단계와 첫 단계를 구별한다.",
+        "dictionaryId": "jmdict-1461870",
+        "level": "N3",
+        "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+      },
+      "sourceHash": "959206a055cbaa3ddfa178f86447d83eab482e87a3009e7a46cc691e3e2d7866"
+    },
+    {
+      "batch": "n4-035/03",
+      "dictionaryId": "jmdict-1463740",
+      "word": {
+        "japanese": "虹",
+        "reading": "にじ",
+        "type": "noun",
+        "meaning": "무지개",
+        "hint": "물방울에 햇빛이 비쳐 하늘에 나타나는 색의 띠",
+        "confusion": "雲",
+        "distinction": "여러 색의 빛 띠와 물방울이 모인 구름을 구별한다.",
+        "dictionaryId": "jmdict-1463740",
+        "level": "N4",
+        "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+      },
+      "sourceHash": "5d44b792b4a217d76a565d4467373c41de1b7e1e099f9367b6e7837668e77cf1"
+    }
+  ],
+  "notes": [
+    "二次の選択意味は二番目の試験段階、虹は雨上がりの虹という光学現象。各原稿の意味・ヒント・対比・例文・翻訳とJMdictの該当意味を全て読んだ。",
+    "二次の別表記虹は二次元に由来する俗語の意味であり、今回選択した第二段階の二次にも虹の自然現象にも重複学習範囲を作らない。読みが同じだけでalias/profileを統合しない。"
+  ]
+}

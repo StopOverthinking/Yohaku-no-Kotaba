@@ -46,22 +46,22 @@
   {
     "wordId": "AbsoluteVerb_248",
     "sourceHash": "79e18fc98b7e8cfea045d22e3fa4a132334b735166d41c66a3c86ab54ae3c6e7",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-2649690",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “게재되다” 및 1개 sense를 대조했다. 신문과 안내서에 사진이나 가게가 실리는 자동사 의미이다.",
+    "levelNote": "신문·안내서에 실리는 일상 매체 의미를 선택하여 출처 N2보다 낮은 N3 권장 수준으로 검토한다.",
+    "meaningReview": "신문·안내서에 실리는 일상 매체 의미를 선택하여 출처 N2보다 낮은 N3 권장 수준으로 검토한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
   {
     "wordId": "AbsoluteVerb_249",
     "sourceHash": "6cbf49e3436b7cf349af5d40da37601d491e84dca9b5f3889ad57ddaf630938f",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1600270",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3·N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “게재하다” 및 1개 sense를 대조했다. 신문과 블로그에 내용을 게재하는 타동사 의미를 선택했다. 물건을 얹거나 사람을 태우는 다른 뜻과 구분한다.",
+    "levelNote": "신문·블로그에 내용을 싣는 일반 의미를 선택하여 N3 권장 수준으로 검토한다.",
+    "meaningReview": "신문·블로그에 내용을 싣는 일반 의미를 선택하여 N3 권장 수준으로 검토한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -210,12 +210,12 @@
   },
   {
     "wordId": "AbsoluteVerb_266",
-    "sourceHash": "0fc55d8fccbe5c29abde0207f38b928f141c3bbd01dc49cf62ee33db2af22d8c",
+    "sourceHash": "9f963ece78559b97c8920a8c8547604b218548383b9937ab373a119aec72e339",
     "level": "N5",
     "dictionaryId": "jmdict-1352320",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “올리다” 및 1개 sense를 대조했다. 사진을 들거나 의자의 높이를 올리는 기본 타동사 의미이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -230,7 +230,9 @@
     "aliasCandidateIds": [
       "AbsoluteVerb_268"
     ],
-    "issues": []
+    "issues": [
+      "登る 268과 핵심 상승 의미가 겹치는 별칭 후보이다. 표기만으로 별도 고유 어휘 승인하지 않는다."
+    ]
   },
   {
     "wordId": "AbsoluteVerb_268",
@@ -244,7 +246,8 @@
       "AbsoluteVerb_267"
     ],
     "issues": [
-      "뜻의 힘들여라는 제한은 사전의 기본 등반 의미에서 항상 필수인 조건은 아니다."
+      "뜻의 힘들여라는 제한은 사전의 기본 등반 의미에서 항상 필수인 조건은 아니다.",
+      "上る 267과 핵심 상승 의미가 겹치며 항상 힘들여야 한다는 제한도 과도하다. 별칭 및 표현 범위 후속 검토."
     ]
   },
   {
@@ -261,11 +264,11 @@
   {
     "wordId": "AbsoluteVerb_270",
     "sourceHash": "6fb7d0645554ecc9d1272f0a2dad5f0c376cd2369ce7902f36b85d0526366534",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1184450",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “(경로를 따라) 내려가다, (명령 등이) 내려지다” 및 1개 sense를 대조했다. 강과 경사로를 따라 내려가는 이동 의미를 선택했다. 명령이 내려오는 뜻은 예문에서 사용하지 않았다.",
+    "levelNote": "강이나 언덕의 경로를 내려가는 기본 이동 용법으로 N3를 권장한다. 명령이 내려지는 추상 용법과 구별한다.",
+    "meaningReview": "강이나 언덕의 경로를 내려가는 기본 이동 용법으로 N3를 권장한다. 명령이 내려지는 추상 용법과 구별한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -276,7 +279,7 @@
     "dictionaryId": "jmdict-1589500",
     "suggestedType": "verb",
     "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N4이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “(높은 곳에서) 내려가다, (탈것에서) 내리다” 및 1개 sense를 대조했다. 계단과 산에서 내려오는 기본 이동 의미로 복수 등급 중 N5를 제안한다.",
+    "meaningReview": "기존 뜻 “(높은 곳에서) 내려가다, (탈것에서) 내리다” 및 1개 sense를 대조했다. 계단과 산에서 내려오는 기본 이동 의미로 복수 등급 중 N5를 제안한다. 031의 降りる 351을 직접 검토하여 탈것에서 내리는 핵심이 별도 기존 ID로 제공됨을 확인했다. 下りる 271은 계단·산에서 내려가는 선택 용법에 한정해 무변경 참조 승인한다. 같은 사전 항목의 표기 차이여도 선택 핵심 의미는 물리 하강과 하차로 구분된다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -297,8 +300,8 @@
     "level": "N4",
     "dictionaryId": "jmdict-1184170",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
-    "meaningReview": "기존 뜻 “내리다” 및 1개 sense를 대조했다. 손이나 의자의 높이를 낮추는 타동사 의미이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },

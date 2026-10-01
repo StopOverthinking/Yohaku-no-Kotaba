@@ -541,20 +541,21 @@
   },
   {
     "wordId": "handmade_106",
-    "sourceHash": "96f5682ef3d24de6e14e90e297cb3aeb3ef59d3cbfa10ad601d9265daa99b784",
-    "proposalHash": "abd93a97c060fe98b23d0f2b113626f2a0092048435d7265ef3604aaabe19810",
+    "sourceHash": "55dc78affe4c2ab86dfaa93a8c205e87626a4b0cd642663de32e9348f408376c",
+    "proposalHash": "5d451d424e514ab98e892a8d2f49032c0733ec2e030e82c028428bf1e1210e21",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-020.json",
-    "reviewedAt": "2026-09-30T05:46:45.934Z",
+    "reviewedAt": "2026-10-01T00:42:14.052Z",
     "notes": [
-      "N3 분류는 타당하며 표제어 확실히의 정돈·적절함 범위 보완은 참조 승인 전에 해결해야 한다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N3 수준."
     ]
   },
   {

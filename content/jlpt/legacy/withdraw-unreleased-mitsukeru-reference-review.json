@@ -1,0 +1,41 @@
+{
+  "scope": "withdraw-unreleased-duplicate-level-reference",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:13:37.817Z",
+  "wordId": "AbsoluteVerb_239",
+  "keepWordId": "JLPTN3_115",
+  "level": "N4",
+  "sourceHashes": [
+    {
+      "wordId": "JLPTN3_115",
+      "sourceHash": "2330cfbb8adb6521b8e5c2822e9b4ef3ce86e13d1076ff8d556cb743a3d40bca"
+    },
+    {
+      "wordId": "AbsoluteVerb_239",
+      "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730"
+    }
+  ],
+  "publicCommit": "33ac54c35db10dd2a7575c107231e403f46f1028",
+  "publicLevelReferenceAbsent": true,
+  "retainedPublicLevel": "N4",
+  "previousReference": {
+    "wordId": "AbsoluteVerb_239",
+    "level": "N4",
+    "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "見付ける의 선택 찾아서 발견하다 용법과 모든 힌트·대비·일본어/한국어 예문을 따로 검토해 기존 ID/내용 보존 수준 참조를 승인한다.",
+      "현재 verb 용법의 사전 출처 등급은 N4·N2이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다."
+    ]
+  },
+  "notes": [
+    "직접 파싱한 공개 기준 커밋에서 JLPT115는 N4에 있고 AV239는 5개 수준별 목록 모두에 없다. root는 원격 기준 일치를 별도로 확인한다.",
+    "미공개 AV239 참조 하나만 철회하며 원본 단어·용법·예문·학습 기록과 다른 항목 상대 순서를 바꾸지 않는다. 일반 append-only 규칙을 바꾸지 않는 명시 복구 승인이다."
+  ]
+}

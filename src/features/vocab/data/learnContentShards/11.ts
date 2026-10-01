@@ -1416,6 +1416,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1376240-1",
+    "wordId": "lex-jmdict-1376240",
+    "version": 1,
+    "meaning": "정비",
+    "hint": "기기·설비를 점검하고 잘 작동하도록 손질합니다.",
+    "confusions": [
+      {
+        "japanese": "修理",
+        "distinction": "선택한 整備는 상태를 갖추어 유지함이고 修理는 고장을 고침이다. 제도·환경의 정비에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1376240-1-ex-1",
+        "version": 1,
+        "before": "長距離を走る前に、車の",
+        "answer": "整備",
+        "after": "を専門店に頼んだ。",
+        "reading": "せいび",
+        "translation": "장거리를 달리기 전에 자동차 정비를 전문점에 맡겼다.",
+        "translationTarget": "정비",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533230-1",
+    "wordId": "lex-jmdict-1533230",
+    "version": 1,
+    "meaning": "면세",
+    "hint": "세금을 내는 의무가 면제되는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "課税",
+        "distinction": "免税는 세금이 면제됨이고 課税는 세금을 부과함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533230-1-ex-1",
+        "version": 1,
+        "before": "旅行者は、購入前に",
+        "answer": "免税",
+        "after": "の条件を店員に確認した。",
+        "reading": "めんぜい",
+        "translation": "여행자는 구매 전에 면세 조건을 직원에게 확인했다.",
+        "translationTarget": "면세",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432670-1",
+    "wordId": "lex-jmdict-1432670",
+    "version": 1,
+    "meaning": "추방",
+    "hint": "사람·대상을 집단·장소에서 강제로 내보냅니다.",
+    "confusions": [
+      {
+        "japanese": "退職",
+        "distinction": "追放는 강제로 내쫓음이고 退職는 직장을 그만둠이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432670-1-ex-1",
+        "version": 1,
+        "before": "重大な規則違反によって、彼は団体から",
+        "answer": "追放",
+        "after": "された。",
+        "reading": "ついほう",
+        "translation": "중대한 규칙 위반으로 그는 단체에서 추방되었다.",
+        "translationTarget": "추방",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451260-1",
+    "wordId": "lex-jmdict-1451260",
+    "version": 1,
+    "meaning": "동원",
+    "hint": "목적을 위해 사람·자원 등을 조직적으로 모아 사용합니다.",
+    "confusions": [
+      {
+        "japanese": "採用",
+        "distinction": "動員는 필요한 인력·자원을 모아 씀이고 採用는 사람·방안을 채택함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451260-1-ex-1",
+        "version": 1,
+        "before": "行方不明者の捜索に、多くの人員が",
+        "answer": "動員",
+        "after": "された。",
+        "reading": "どういん",
+        "translation": "실종자 수색에 많은 인력이 동원되었다.",
+        "translationTarget": "동원",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1291990-1",
+    "wordId": "lex-jmdict-1291990",
+    "version": 1,
+    "meaning": "다다미방",
+    "hint": "다다미를 깔아 앉거나 생활하는 일본식 방",
+    "confusions": [
+      {
+        "japanese": "廊下",
+        "distinction": "다다미를 깐 방과 방 사이를 연결하는 통로를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1291990-1-ex-1",
+        "version": 1,
+        "before": "旅館の",
+        "answer": "座敷",
+        "after": "から、手入れされた庭が見えた。",
+        "reading": "ざしき",
+        "translation": "여관의 다다미방에서 잘 가꾸어진 정원이 보였다.",
+        "translationTarget": "다다미방",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

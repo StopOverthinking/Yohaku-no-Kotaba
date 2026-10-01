@@ -1,0 +1,14 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "15 legacy basic-content corrections; full before/after author proposals",
+  "startedAt": "2026-10-01T00:26:52.548Z",
+  "draftValidatedAt": "2026-10-01T00:31:41.308Z",
+  "measuredElapsedSeconds": 288.76,
+  "words": 15,
+  "addedSenses": 2,
+  "addedExamples": 2,
+  "revisedExamples": 1,
+  "pureCompositionTime": null,
+  "limitations": "Elapsed wall time includes original/dictionary inspection, reasoning, online dictionary corroboration, drafting and structural validation. No offline gap recorded in this interval. Independent Astra review, root preparation/application and later review fixes excluded."
+}

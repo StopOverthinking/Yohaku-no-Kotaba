@@ -1396,6 +1396,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1206610-1",
+    "wordId": "lex-jmdict-1206610",
+    "version": 1,
+    "meaning": "학회·학술 대회",
+    "hint": "같은 분야의 연구자들이 모여 연구 결과를 나누는 모임",
+    "confusions": [
+      {
+        "japanese": "会議",
+        "distinction": "연구자들이 학문을 논의하는 모임과 일반 업무 회의를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1206610-1-ex-1",
+        "version": 1,
+        "before": "彼女は",
+        "answer": "学会",
+        "after": "で、新しい治療法について発表した。",
+        "reading": "がっかい",
+        "translation": "그녀는 학술 대회에서 새로운 치료법에 관해 발표했다.",
+        "translationTarget": "학술 대회",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546040-1",
+    "wordId": "lex-jmdict-1546040",
+    "version": 1,
+    "meaning": "녹이다",
+    "hint": "열 등을 가해 고체를 액체로 만들어요.",
+    "confusions": [
+      {
+        "japanese": "溶ける",
+        "distinction": "무엇을 녹이는 행동과 물질이 스스로 녹는 상태 변화를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546040-1-ex-1",
+        "version": 1,
+        "before": "チョコレートを湯せんで",
+        "answer": "溶かして",
+        "after": "から、型に流します。",
+        "reading": "とかして",
+        "translation": "초콜릿을 중탕으로 녹인 뒤 틀에 붓습니다.",
+        "translationTarget": "녹인",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470330-1",
+    "wordId": "lex-jmdict-1470330",
+    "version": 1,
+    "meaning": "능률",
+    "hint": "일정한 노력·시간에 비해 일을 해내는 효율입니다.",
+    "confusions": [
+      {
+        "japanese": "能力",
+        "distinction": "能率는 일 처리의 효율이고 能力는 해낼 수 있는 힘이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470330-1-ex-1",
+        "version": 1,
+        "before": "道具の配置を変えるだけで、作業の",
+        "answer": "能率",
+        "after": "が上がった。",
+        "reading": "のうりつ",
+        "translation": "도구 배치만 바꾸어도 작업 능률이 올랐다.",
+        "translationTarget": "능률",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1510380-1",
+    "wordId": "lex-jmdict-1510380",
+    "version": 1,
+    "meaning": "편견",
+    "hint": "충분한 근거 없이 한쪽으로 치우친 판단입니다.",
+    "confusions": [
+      {
+        "japanese": "先入観",
+        "distinction": "偏見는 치우친 평가·태도이고 先入観는 새 정보를 보기 전 이미 가진 생각이다. 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1510380-1-ex-1",
+        "version": 1,
+        "before": "職業に対する",
+        "answer": "偏見",
+        "after": "をなくすため、実際に働く人の話を聞いた。",
+        "reading": "へんけん",
+        "translation": "직업에 대한 편견을 없애려고 실제로 일하는 사람의 이야기를 들었다.",
+        "translationTarget": "편견",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431540-1",
+    "wordId": "lex-jmdict-1431540",
+    "version": 1,
+    "meaning": "직면",
+    "hint": "피하기 어려운 문제·현실을 바로 앞에 맞닥뜨립니다.",
+    "confusions": [
+      {
+        "japanese": "回避",
+        "distinction": "直面는 문제를 직접 맞음이고 回避는 피함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431540-1-ex-1",
+        "version": 1,
+        "before": "人口の減少に",
+        "answer": "直面",
+        "after": "する町では、新しい産業を育てようとしている。",
+        "reading": "ちょくめん",
+        "translation": "인구 감소에 직면한 마을에서는 새로운 산업을 키우려 하고 있다.",
+        "translationTarget": "직면",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1389810-1",
+    "wordId": "lex-jmdict-1389810",
+    "version": 1,
+    "meaning": "전제 정치·독재적 지배",
+    "hint": "한 사람이나 소수가 권력을 독점해 마음대로 다스리는 것",
+    "confusions": [
+      {
+        "japanese": "民主主義",
+        "distinction": "권력을 독점해 지배하는 방식과 시민이 정치에 참여하는 방식을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1389810-1-ex-1",
+        "version": 1,
+        "before": "歴史の授業で、",
+        "answer": "専制",
+        "after": "政治に対する人々の抵抗を学んだ。",
+        "reading": "せんせい",
+        "translation": "역사 수업에서 전제 정치에 대한 사람들의 저항을 배웠다.",
+        "translationTarget": "전제",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1315060-1",
+    "wordId": "lex-jmdict-1315060",
+    "version": 1,
+    "meaning": "아동·초등학생",
+    "hint": "어린 나이의 아이나 초등학교에 다니는 학생",
+    "confusions": [
+      {
+        "japanese": "成人",
+        "distinction": "어린 아이와 성인이 된 사람을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1315060-1-ex-1",
+        "version": 1,
+        "before": "低学年の",
+        "answer": "児童",
+        "after": "が、安全に道路を渡る練習をした。",
+        "reading": "じどう",
+        "translation": "저학년 초등학생이 안전하게 길을 건너는 연습을 했다.",
+        "translationTarget": "초등학생",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559790-1",
+    "wordId": "lex-jmdict-1559790",
+    "version": 1,
+    "meaning": "연방",
+    "hint": "여러 구성 국가·지역이 자치권을 유지하며 결합한 국가 체제입니다.",
+    "confusions": [
+      {
+        "japanese": "連盟",
+        "distinction": "連邦는 연방 국가 체제이고 連盟는 공통 목적의 단체 연합이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559790-1-ex-1",
+        "version": 1,
+        "before": "この国では、州と",
+        "answer": "連邦",
+        "after": "の政府がそれぞれの権限を持つ。",
+        "reading": "れんぽう",
+        "translation": "이 나라에서는 주 정부와 연방정부가 각각의 권한을 갖는다.",
+        "translationTarget": "연방",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

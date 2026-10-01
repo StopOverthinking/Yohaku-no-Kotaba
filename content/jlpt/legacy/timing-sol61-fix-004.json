@@ -1,0 +1,13 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "single legacy representative supplemental sense; not a new word batch",
+  "startedAt": "2026-10-01T00:34:19.881Z",
+  "draftValidatedAt": "2026-10-01T00:35:21.933Z",
+  "measuredElapsedSeconds": 62.052,
+  "words": 1,
+  "addedSenses": 1,
+  "addedExamples": 1,
+  "pureCompositionTime": null,
+  "limitations": "Start before source and independent alias decision inspection; includes inspection, reasoning, composition, snapshot/hash creation and structural validation. Initial file discovery before timing excluded. Independent review/application excluded; no offline interval."
+}

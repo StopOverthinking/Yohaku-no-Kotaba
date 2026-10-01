@@ -1,0 +1,127 @@
+{
+  "scope": "legacy-content-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T00:40:38.134Z",
+  "draftHash": "0ae70f19a1c57071d1eec5ed7fdfd55ba22afe747135973858697198d08796b7",
+  "notes": [
+    "독립 전량 읽기로 승인한 15제안 중 실제변경14의 전체 before/after와 준비초안이 동일함을 확인했다. 무변경 下げる는 제안 승인에 별도 보존.",
+    "기존15핵심 ID/버전 보존, 기존예문30 중 上げる ex2만v2, 休む 결석·ご飯 식사만 새 ID추가. 전체 원본+pilot+수정안 대조 유사0.",
+    "새 결석/식사 용법의 혼동 대비 추가안 전량 검토 완료. 현재 준비본과 승인 제안의14 before/after 완전 일치."
+  ],
+  "preservedCoreUsages": [
+    {
+      "wordId": "AbsoluteVerb_12",
+      "senseIds": [
+        "sense-AbsoluteVerb_12-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "휴식 핵심은 그대로 두고 학교 결석 별도 용법 추가. 小学館 精選版 日本国語大辞典의 자동사/타동사 분석을 직접 열어 대조했다."
+    },
+    {
+      "wordId": "AbsoluteVerb_225",
+      "senseIds": [
+        "sense-AbsoluteVerb_225-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "기술만이라는 한정 제거. 가르침을 받아 익히는 기존 핵심과 뜨개질·수영 예문 유지."
+    },
+    {
+      "wordId": "AbsoluteVerb_328",
+      "senseIds": [
+        "sense-AbsoluteVerb_328-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "일인칭 주어 제한 제거. 제삼자 수여를 포함하며 화자쪽 수령의 くれる와 구별. 높이 올리기와 별도 선택 핵심."
+    },
+    {
+      "wordId": "AbsoluteVerb_319",
+      "senseIds": [
+        "sense-AbsoluteVerb_319-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "부엌 노래·객석 합창 두 장면과 노래 핵심 유지, 사전의 자타 양용 반영."
+    },
+    {
+      "wordId": "AbsoluteVerb_352",
+      "senseIds": [
+        "sense-AbsoluteVerb_352-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "환승의 기존 핵심과 지하철/공항 두 예문 유지, 사전의 타동사 표기 반영."
+    },
+    {
+      "wordId": "handmade_42",
+      "senseIds": [
+        "sense-handmade_42-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "쌀밥의 두 예문 보존, 일과 뒤 함께 식사하러 가는 끼니 용법을 독립 추가."
+    },
+    {
+      "wordId": "AbsoluteVerb_266",
+      "senseIds": [
+        "sense-AbsoluteVerb_266-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "높이를 올리는 핵심 유지. 반복 의자 예문만 교실 질문 때 손 들기 v2로 교체."
+    },
+    {
+      "wordId": "AbsoluteVerb_227",
+      "senseIds": [
+        "sense-AbsoluteVerb_227-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "가르침 받는 기존 의미·매듭/노래 두 예문 유지. 내용 목적어를 받는 타동사."
+    },
+    {
+      "wordId": "JLPTN3_478",
+      "senseIds": [
+        "sense-JLPTN3_478-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "나무 마루로 한정되던 표제 뜻만 실내 바닥으로 정정. 물 쏟기·아기 기기 예문과 기존 힌트 일치."
+    },
+    {
+      "wordId": "handmade_150",
+      "senseIds": [
+        "sense-handmade_150-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "남성 정장으로 오해하는 양복을 서양식 옷으로 정정. 기존 전통옷 대비·예문 그대로."
+    },
+    {
+      "wordId": "handmade_106",
+      "senseIds": [
+        "sense-handmade_106-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "확실히를 제대로·정돈되게로 정정. 신발 정렬·잘못 생각하기 기존 예문과 일치."
+    },
+    {
+      "wordId": "AbsoluteVerb_49",
+      "senseIds": [
+        "sense-AbsoluteVerb_49-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "생각하다 의견판단 핵심 유지, 주관/의지 전용이라는 제한 제거. 한국어 뜻풀이 명료화."
+    },
+    {
+      "wordId": "AbsoluteVerb_50",
+      "senseIds": [
+        "sense-AbsoluteVerb_50-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "사고·숙고 핵심과 답을 미루어 생각/수업진행 두 예문 보존. 객관 전용이라는 제한 제거."
+    },
+    {
+      "wordId": "AbsoluteVerb_318",
+      "senseIds": [
+        "sense-AbsoluteVerb_318-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "놀이 핵심·강가/숙제 후 놀기 예문 보존. 대비 휴식을 완전 무활동으로 단정하지 않게 수정."
+    }
+  ]
+}

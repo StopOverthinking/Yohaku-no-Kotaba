@@ -1,0 +1,38 @@
+[
+  {
+    "dictionaryId": "jmdict-1588880",
+    "japanese": "大きい",
+    "reading": "おおきい",
+    "type": "i_adj",
+    "meaning": "크다",
+    "hint": "물건의 크기나 규모가 보통보다 큰 상태",
+    "confusion": "小さい",
+    "distinction": "크기가 큰 상태와 작은 상태를 구별한다.",
+    "level": "N5",
+    "levelNote": "제공 OpenJLPT N5 근거를 따르며 일상적인 크다 용법을 선정한다. 공식 출제 등급으로 주장하지 않는다."
+  },
+  {
+    "dictionaryId": "jmdict-1587610",
+    "japanese": "嫌",
+    "reading": "いや",
+    "type": "na_adj",
+    "meaning": "싫다·내키지 않다",
+    "hint": "하고 싶지 않거나 받아들이고 싶지 않은 마음",
+    "confusion": "好き",
+    "distinction": "하기 싫고 꺼리는 마음과 좋고 원하는 마음을 구별한다.",
+    "level": "N5",
+    "levelNote": "제공 OpenJLPT N5 근거를 따르며 일상적인 싫다·내키지 않다 용법을 선정한다. 공식 출제 등급으로 주장하지 않는다."
+  },
+  {
+    "dictionaryId": "jmdict-2013900",
+    "japanese": "赤",
+    "reading": "あか",
+    "type": "noun",
+    "meaning": "빨간색",
+    "hint": "잘 익은 토마토처럼 선명한 색",
+    "confusion": "青",
+    "distinction": "빨간색과 파란색을 구별한다.",
+    "level": "N5",
+    "levelNote": "제공 OpenJLPT N5 근거를 따르며 일상적인 빨간색 용법을 선정한다. 공식 출제 등급으로 주장하지 않는다."
+  }
+]

@@ -1,0 +1,570 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1326860",
+      "japanese": "取り締まる",
+      "reading": "とりしまる",
+      "level": "N1",
+      "spellings": [
+        "取り締まる",
+        "取締る",
+        "取締まる"
+      ],
+      "readings": [
+        "とりしまる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "取り締まる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1327390",
+      "japanese": "手がける",
+      "reading": "てがける",
+      "level": "N1",
+      "spellings": [
+        "手がける",
+        "手掛ける",
+        "手懸ける"
+      ],
+      "readings": [
+        "てがける"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "手掛ける"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1329600",
+      "japanese": "受け継ぐ",
+      "reading": "うけつぐ",
+      "level": "N1",
+      "spellings": [
+        "受け継ぐ",
+        "受けつぐ"
+      ],
+      "readings": [
+        "うけつぐ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "受け継ぐ"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1333330",
+      "japanese": "襲う",
+      "reading": "おそう",
+      "level": "N1",
+      "spellings": [
+        "襲う"
+      ],
+      "readings": [
+        "おそう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "襲う"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1335940",
+      "japanese": "重んじる",
+      "reading": "おもんじる",
+      "level": "N1",
+      "spellings": [
+        "重んじる"
+      ],
+      "readings": [
+        "おもんじる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "重んじる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1341790",
+      "japanese": "潤う",
+      "reading": "うるおう",
+      "level": "N1",
+      "spellings": [
+        "潤う",
+        "霑う"
+      ],
+      "readings": [
+        "うるおう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "潤う"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1347490",
+      "japanese": "唱える",
+      "reading": "となえる",
+      "level": "N1",
+      "spellings": [
+        "唱える"
+      ],
+      "readings": [
+        "となえる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "唱える"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1358110",
+      "japanese": "食い違う",
+      "reading": "くいちがう",
+      "level": "N1",
+      "spellings": [
+        "食い違う",
+        "食違う",
+        "くい違う",
+        "食いちがう"
+      ],
+      "readings": [
+        "くいちがう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "食い違う"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1370070",
+      "japanese": "尽きる",
+      "reading": "つきる",
+      "level": "N1",
+      "spellings": [
+        "尽きる",
+        "竭きる"
+      ],
+      "readings": [
+        "つきる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "尽きる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1370090",
+      "japanese": "尽くす",
+      "reading": "つくす",
+      "level": "N1",
+      "spellings": [
+        "尽くす",
+        "尽す",
+        "盡す",
+        "竭す"
+      ],
+      "readings": [
+        "つくす"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "尽くす"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1372620",
+      "japanese": "遂げる",
+      "reading": "とげる",
+      "level": "N1",
+      "spellings": [
+        "遂げる"
+      ],
+      "readings": [
+        "とげる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "遂げる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1373480",
+      "japanese": "据える",
+      "reading": "すえる",
+      "level": "N1",
+      "spellings": [
+        "据える"
+      ],
+      "readings": [
+        "すえる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "据える"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1396480",
+      "japanese": "繕う",
+      "reading": "つくろう",
+      "level": "N1",
+      "spellings": [
+        "繕う"
+      ],
+      "readings": [
+        "つくろう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "繕う"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1397800",
+      "japanese": "阻む",
+      "reading": "はばむ",
+      "level": "N1",
+      "spellings": [
+        "阻む",
+        "沮む"
+      ],
+      "readings": [
+        "はばむ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "阻む"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1400010",
+      "japanese": "操る",
+      "reading": "あやつる",
+      "level": "N1",
+      "spellings": [
+        "操る"
+      ],
+      "readings": [
+        "あやつる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "操る"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1347550",
+      "japanese": "奨励",
+      "reading": "しょうれい",
+      "level": "N1",
+      "spellings": [
+        "奨励"
+      ],
+      "readings": [
+        "しょうれい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "奨励"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1349470",
+      "japanese": "承諾",
+      "reading": "しょうだく",
+      "level": "N1",
+      "spellings": [
+        "承諾"
+      ],
+      "readings": [
+        "しょうだく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "承諾"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1343350",
+      "japanese": "所定",
+      "reading": "しょてい",
+      "level": "N1",
+      "spellings": [
+        "所定"
+      ],
+      "readings": [
+        "しょてい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "所定"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1343210",
+      "japanese": "所在",
+      "reading": "しょざい",
+      "level": "N1",
+      "spellings": [
+        "所在"
+      ],
+      "readings": [
+        "しょざい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "所在"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1335320",
+      "japanese": "従事",
+      "reading": "じゅうじ",
+      "level": "N1",
+      "spellings": [
+        "従事"
+      ],
+      "readings": [
+        "じゅうじ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "従事"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1335400",
+      "japanese": "従来",
+      "reading": "じゅうらい",
+      "level": "N1",
+      "spellings": [
+        "従来"
+      ],
+      "readings": [
+        "じゅうらい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "従来"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1325180",
+      "japanese": "主観",
+      "reading": "しゅかん",
+      "level": "N1",
+      "spellings": [
+        "主観"
+      ],
+      "readings": [
+        "しゅかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "主観"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1325840",
+      "japanese": "主体",
+      "reading": "しゅたい",
+      "level": "N1",
+      "spellings": [
+        "主体"
+      ],
+      "readings": [
+        "しゅたい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "主体"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1327690",
+      "japanese": "手際",
+      "reading": "てぎわ",
+      "level": "N1",
+      "spellings": [
+        "手際",
+        "手ぎわ"
+      ],
+      "readings": [
+        "てぎわ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "手際"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1328380",
+      "japanese": "手法",
+      "reading": "しゅほう",
+      "level": "N1",
+      "spellings": [
+        "手法"
+      ],
+      "readings": [
+        "しゅほう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "手法"
+        ]
+      }
+    }
+  ]
+}

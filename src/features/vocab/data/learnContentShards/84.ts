@@ -1540,6 +1540,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1117080-1",
+    "wordId": "lex-jmdict-1117080",
+    "version": 1,
+    "meaning": "프로그램, 진행 순서",
+    "hint": "행사·공연에서 어떤 순서로 무엇을 할지 정한 내용입니다.",
+    "confusions": [
+      {
+        "japanese": "スケジュール",
+        "distinction": "선택한 プログラム는 행사 진행 내용·순서이고 スケジュール는 시간·날짜 계획이다. 안내 책자·컴퓨터 프로그램이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1117080-1-ex-1",
+        "version": 1,
+        "before": "演奏会の",
+        "answer": "プログラム",
+        "after": "には、最後の曲だけ載っていなかった。",
+        "reading": "プログラム",
+        "translation": "연주회 프로그램에는 마지막 곡만 실려 있지 않았다.",
+        "translationTarget": "프로그램",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282010-1",
+    "wordId": "lex-jmdict-1282010",
+    "version": 1,
+    "meaning": "행정",
+    "hint": "국가·지방자치단체가 정책과 공공 업무를 실행하는 활동입니다.",
+    "confusions": [
+      {
+        "japanese": "政治",
+        "distinction": "行政는 공공 업무의 집행이고 政治는 권력·정책 결정 등 더 넓은 정치 활동이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282010-1-ex-1",
+        "version": 1,
+        "before": "住民の声を",
+        "answer": "行政",
+        "after": "に届けるため、地域の意見をまとめた。",
+        "reading": "ぎょうせい",
+        "translation": "주민의 목소리를 행정에 전달하려고 지역 의견을 모았다.",
+        "translationTarget": "행정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252680-1",
+    "wordId": "lex-jmdict-1252680",
+    "version": 1,
+    "meaning": "경감, 부담 완화",
+    "hint": "부담·고통·피해의 정도를 줄이는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "削減",
+        "distinction": "軽減는 부담·고통의 완화에 흔하고 削減는 비용·수량을 깎아 줄임에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252680-1-ex-1",
+        "version": 1,
+        "before": "オンライン申請の導入で、窓口の担当者の負担が",
+        "answer": "軽減",
+        "after": "された。",
+        "reading": "けいげん",
+        "translation": "온라인 신청 도입으로 창구 담당자의 부담이 경감되었다.",
+        "translationTarget": "경감",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1540080-1",
+    "wordId": "lex-jmdict-1540080",
+    "version": 1,
+    "meaning": "우호",
+    "hint": "사람·집단·국가 사이가 친근하고 사이좋은 관계입니다.",
+    "confusions": [
+      {
+        "japanese": "敵対",
+        "distinction": "友好는 우호적인 관계이고 敵対는 적으로 맞서는 관계이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1540080-1-ex-1",
+        "version": 1,
+        "before": "両市は、文化交流を通じて",
+        "answer": "友好",
+        "after": "を深めてきた。",
+        "reading": "ゆうこう",
+        "translation": "두 도시는 문화 교류를 통해 우호를 다져 왔다.",
+        "translationTarget": "우호",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1453120-1",
+    "wordId": "lex-jmdict-1453120",
+    "version": 1,
+    "meaning": "동조",
+    "hint": "다른 사람·집단의 의견·행동에 맞춰 따릅니다.",
+    "confusions": [
+      {
+        "japanese": "同意",
+        "distinction": "同調는 의견·행동의 흐름을 따라 맞춤이고 同意는 제안·의견에 찬성함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1453120-1-ex-1",
+        "version": 1,
+        "before": "周囲に",
+        "answer": "同調",
+        "after": "するだけでなく、自分の考えも伝えよう。",
+        "reading": "どうちょう",
+        "translation": "주변에 동조하기만 하지 말고 자신의 생각도 전하자.",
+        "translationTarget": "동조",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560730-1",
+    "wordId": "lex-jmdict-1560730",
+    "version": 1,
+    "meaning": "낭독",
+    "hint": "글을 소리 내어 듣기 좋게 읽습니다.",
+    "confusions": [
+      {
+        "japanese": "黙読",
+        "distinction": "朗読는 소리 내어 읽음이고 黙読는 소리 없이 읽음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560730-1-ex-1",
+        "version": 1,
+        "before": "詩の",
+        "answer": "朗読",
+        "after": "を聞くと、文字だけでは気づかなかった響きが分かった。",
+        "reading": "ろうどく",
+        "translation": "시의 낭독을 들으니 글자만으로는 몰랐던 울림을 알 수 있었다.",
+        "translationTarget": "낭독",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

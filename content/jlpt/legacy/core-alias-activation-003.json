@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-01T01:00:35.549Z",
+  "input": "content/jlpt/legacy/core-alias-review-003.json",
+  "inputHash": "746fb05f9cce332018a4504c3b217dfbb335ce5a7595e26a54f64cb24553627e",
+  "previousActiveIds": [
+    "lex-jmdict-1501350",
+    "handmade_119",
+    "handmade_118",
+    "handmade_99",
+    "JLPTN3_83",
+    "JLPTN3_23",
+    "JLPTN3_34",
+    "JLPTN3_33",
+    "handmade_50",
+    "handmade_15"
+  ],
+  "addedIds": [
+    "handmade_54",
+    "handmade_82",
+    "handmade_132"
+  ],
+  "oldGroupsUnchanged": true,
+  "fullCurrentHashesVerified": true,
+  "explicitCandidateLinks": [
+    {
+      "id": "candidate-core-handmade_54",
+      "dictionaryId": "jmdict-1320140",
+      "wordIds": [
+        "handmade_54",
+        "AbsoluteVerb_662"
+      ],
+      "reviewHash": "7f9a83bc6ed23de707e5ac72d4e104e02c85b844dc0d52c76323f17c8757efe2"
+    },
+    {
+      "id": "candidate-core-handmade_82",
+      "dictionaryId": "jmdict-1559900",
+      "wordIds": [
+        "handmade_82",
+        "AbsoluteVerb_677"
+      ],
+      "reviewHash": "4dc670d230ec08e6bcaea25e1c71289cfc555daf9b53784c2499aacef6bb3598"
+    },
+    {
+      "id": "candidate-core-handmade_132",
+      "dictionaryId": "jmdict-1386460",
+      "wordIds": [
+        "handmade_132",
+        "AbsoluteVerb_654"
+      ],
+      "reviewHash": "4bb5c2c2c8219f062948fd6951d7561eaf7a07a5fd9653f5c0b515b0d49c879f"
+    }
+  ],
+  "profilePolicy": "original archives, conservative stage/date, no count summation; independent level references still required"
+}

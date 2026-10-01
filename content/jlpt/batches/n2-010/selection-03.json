@@ -1,0 +1,558 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1528280",
+      "japanese": "密集",
+      "reading": "みっしゅう",
+      "level": "N2",
+      "spellings": [
+        "密集"
+      ],
+      "readings": [
+        "みっしゅう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "密集"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1527560",
+      "japanese": "未熟",
+      "reading": "みじゅく",
+      "level": "N2",
+      "spellings": [
+        "未熟"
+      ],
+      "readings": [
+        "みじゅく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "未熟"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1527770",
+      "japanese": "未知",
+      "reading": "みち",
+      "level": "N2",
+      "spellings": [
+        "未知"
+      ],
+      "readings": [
+        "みち"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "未知"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1527830",
+      "japanese": "未定",
+      "reading": "みてい",
+      "level": "N2",
+      "spellings": [
+        "未定"
+      ],
+      "readings": [
+        "みてい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "未定"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1529930",
+      "japanese": "無効",
+      "reading": "むこう",
+      "level": "N2",
+      "spellings": [
+        "無効"
+      ],
+      "readings": [
+        "むこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無効"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1530600",
+      "japanese": "無断",
+      "reading": "むだん",
+      "level": "N2",
+      "spellings": [
+        "無断"
+      ],
+      "readings": [
+        "むだん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "無断"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1531620",
+      "japanese": "名称",
+      "reading": "めいしょう",
+      "level": "N2",
+      "spellings": [
+        "名称"
+      ],
+      "readings": [
+        "めいしょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "名称"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1531870",
+      "japanese": "名誉",
+      "reading": "めいよ",
+      "level": "N2",
+      "spellings": [
+        "名誉"
+      ],
+      "readings": [
+        "めいよ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "名誉"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1533690",
+      "japanese": "模範",
+      "reading": "もはん",
+      "level": "N2",
+      "spellings": [
+        "模範"
+      ],
+      "readings": [
+        "もはん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "模範"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1541710",
+      "japanese": "有力",
+      "reading": "ゆうりょく",
+      "level": "N2",
+      "spellings": [
+        "有力"
+      ],
+      "readings": [
+        "ゆうりょく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "有力"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1542020",
+      "japanese": "誘導",
+      "reading": "ゆうどう",
+      "level": "N2",
+      "spellings": [
+        "誘導"
+      ],
+      "readings": [
+        "ゆうどう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "誘導"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1542040",
+      "japanese": "誘惑",
+      "reading": "ゆうわく",
+      "level": "N2",
+      "spellings": [
+        "誘惑"
+      ],
+      "readings": [
+        "ゆうわく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "誘惑"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1543980",
+      "japanese": "余暇",
+      "reading": "よか",
+      "level": "N2",
+      "spellings": [
+        "余暇"
+      ],
+      "readings": [
+        "よか"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "余暇"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1546830",
+      "japanese": "要望",
+      "reading": "ようぼう",
+      "level": "N2",
+      "spellings": [
+        "要望"
+      ],
+      "readings": [
+        "ようぼう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "要望"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1547190",
+      "japanese": "養成",
+      "reading": "ようせい",
+      "level": "N2",
+      "spellings": [
+        "養成"
+      ],
+      "readings": [
+        "ようせい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "養成"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1549620",
+      "japanese": "利点",
+      "reading": "りてん",
+      "level": "N2",
+      "spellings": [
+        "利点"
+      ],
+      "readings": [
+        "りてん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "利点"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1550160",
+      "japanese": "理論",
+      "reading": "りろん",
+      "level": "N2",
+      "spellings": [
+        "理論"
+      ],
+      "readings": [
+        "りろん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "理論"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1556100",
+      "japanese": "類似",
+      "reading": "るいじ",
+      "level": "N2",
+      "spellings": [
+        "類似"
+      ],
+      "readings": [
+        "るいじ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "類似"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1557150",
+      "japanese": "冷淡",
+      "reading": "れいたん",
+      "level": "N2",
+      "spellings": [
+        "冷淡"
+      ],
+      "readings": [
+        "れいたん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "冷淡"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1560240",
+      "japanese": "労る",
+      "reading": "いたわる",
+      "level": "N2",
+      "spellings": [
+        "労る",
+        "労わる"
+      ],
+      "readings": [
+        "いたわる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "労る"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1561960",
+      "japanese": "和らげる",
+      "reading": "やわらげる",
+      "level": "N2",
+      "spellings": [
+        "和らげる"
+      ],
+      "readings": [
+        "やわらげる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "和らげる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1564360",
+      "japanese": "几帳面",
+      "reading": "きちょうめん",
+      "level": "N2",
+      "spellings": [
+        "几帳面"
+      ],
+      "readings": [
+        "きちょうめん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "几帳面"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1579990",
+      "japanese": "重宝",
+      "reading": "ちょうほう",
+      "level": "N2",
+      "spellings": [
+        "重宝"
+      ],
+      "readings": [
+        "ちょうほう",
+        "じゅうほう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "重宝"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1578970",
+      "japanese": "合併",
+      "reading": "がっぺい",
+      "level": "N2",
+      "spellings": [
+        "合併"
+      ],
+      "readings": [
+        "がっぺい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "合併"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1580230",
+      "japanese": "助言",
+      "reading": "じょげん",
+      "level": "N2",
+      "spellings": [
+        "助言"
+      ],
+      "readings": [
+        "じょげん",
+        "じょごん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "助言"
+        ]
+      }
+    }
+  ]
+}

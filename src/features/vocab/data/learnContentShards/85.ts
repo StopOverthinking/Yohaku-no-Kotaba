@@ -329,12 +329,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_28-1-ex-1",
-        "version": 1,
-        "before": "窓が",
+        "version": 2,
+        "before": "日が",
         "answer": "西",
-        "after": "に向いているので、夕方はまぶしい。",
+        "after": "に沈み、空が赤くなった。",
         "reading": "にし",
-        "translation": "창이 서쪽을 향해 있어서 저녁에는 눈이 부시다.",
+        "translation": "해가 서쪽으로 지고 하늘이 붉어졌다.",
         "translationTarget": "서쪽",
         "difficulty": 15,
         "status": "reviewed"
@@ -1165,6 +1165,230 @@ const content: LearnSense[] = [
         "translation": "오랜 지인 사이라고 해도 업무 의뢰는 조건을 분명히 한 뒤 받았다.",
         "translationTarget": "오랜 지인",
         "difficulty": 45,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343350-1",
+    "wordId": "lex-jmdict-1343350",
+    "version": 1,
+    "meaning": "소정, 정해짐",
+    "hint": "규정·절차에서 미리 정해 놓은 것입니다.",
+    "confusions": [
+      {
+        "japanese": "臨時",
+        "distinction": "所定는 미리 정해 놓음이고 臨時는 필요에 따라 임시로 마련함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343350-1-ex-1",
+        "version": 1,
+        "before": "申請には、",
+        "answer": "所定",
+        "after": "の用紙を使ってください。",
+        "reading": "しょてい",
+        "translation": "신청에는 소정의 양식을 사용해 주세요.",
+        "translationTarget": "소정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561590-1",
+    "wordId": "lex-jmdict-1561590",
+    "version": 1,
+    "meaning": "녹음",
+    "hint": "소리를 나중에 다시 들을 수 있게 기록하는 일",
+    "confusions": [
+      {
+        "japanese": "録画",
+        "distinction": "소리를 기록하는 것과 영상을 기록하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561590-1-ex-1",
+        "version": 1,
+        "before": "祖母の昔話を",
+        "answer": "録音",
+        "after": "して、家族に聞かせたい。",
+        "reading": "ろくおん",
+        "translation": "할머니의 옛이야기를 녹음하여 가족에게 들려주고 싶다.",
+        "translationTarget": "녹음",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523170-1",
+    "wordId": "lex-jmdict-1523170",
+    "version": 1,
+    "meaning": "본부",
+    "hint": "조직 전체를 관리하고 지시하는 중심 부서·장소입니다.",
+    "confusions": [
+      {
+        "japanese": "支部",
+        "distinction": "本部는 조직의 중심이고 支部는 지역 등의 하위 조직이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523170-1-ex-1",
+        "version": 1,
+        "before": "各地の支店から、",
+        "answer": "本部",
+        "after": "に被害状況が報告された。",
+        "reading": "ほんぶ",
+        "translation": "각지의 지점에서 본부에 피해 상황을 보고했다.",
+        "translationTarget": "본부",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1502540-1",
+    "wordId": "lex-jmdict-1502540",
+    "version": 1,
+    "meaning": "물자",
+    "hint": "생활·생산 등에 필요한 여러 물품입니다.",
+    "confusions": [
+      {
+        "japanese": "資金",
+        "distinction": "物資는 필요한 물품이고 資金는 활동에 필요한 돈이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1502540-1-ex-1",
+        "version": 1,
+        "before": "道路が復旧し、避難所への",
+        "answer": "物資",
+        "after": "の輸送が再開された。",
+        "reading": "ぶっし",
+        "translation": "도로가 복구되어 대피소로의 물자 수송이 재개되었다.",
+        "translationTarget": "물자",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396590-1",
+    "wordId": "lex-jmdict-1396590",
+    "version": 1,
+    "meaning": "노리다·겨누다",
+    "hint": "목표를 맞히거나 얻기 위해 그곳을 향해 움직여요.",
+    "confusions": [
+      {
+        "japanese": "外す",
+        "distinction": "목표를 향하는 것과 목표를 맞히지 못하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396590-1-ex-1",
+        "version": 1,
+        "before": "弓を持つ手を落ち着かせて、的の中心を",
+        "answer": "狙った",
+        "after": "。",
+        "reading": "ねらった",
+        "translation": "활을 쥔 손을 안정시키고 과녁의 중심을 겨누었다.",
+        "translationTarget": "겨누었다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1473150-1",
+    "wordId": "lex-jmdict-1473150",
+    "version": 1,
+    "meaning": "배치",
+    "hint": "사람·물건을 목적에 맞는 자리·위치에 둡니다.",
+    "confusions": [
+      {
+        "japanese": "配布",
+        "distinction": "配置는 적절한 위치에 놓음이고 配布는 자료·물건을 나누어 줌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1473150-1-ex-1",
+        "version": 1,
+        "before": "机の",
+        "answer": "配置",
+        "after": "を変えると、部屋の中を歩きやすくなった。",
+        "reading": "はいち",
+        "translation": "책상 배치를 바꾸자 방 안에서 다니기 쉬워졌다.",
+        "translationTarget": "배치",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530750-1",
+    "wordId": "lex-jmdict-1530750",
+    "version": 1,
+    "meaning": "무난함",
+    "hint": "크게 실패하거나 비난받을 위험이 적습니다.",
+    "confusions": [
+      {
+        "japanese": "簡単",
+        "distinction": "無難는 문제·위험이 적은 선택이고 簡単는 하기 쉬움이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530750-1-ex-1",
+        "version": 1,
+        "before": "初対面の人への贈り物なら、お菓子が",
+        "answer": "無難",
+        "after": "だと思う。",
+        "reading": "ぶなん",
+        "translation": "처음 만나는 사람에게 줄 선물이라면 과자가 무난하다고 생각한다.",
+        "translationTarget": "무난하다",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

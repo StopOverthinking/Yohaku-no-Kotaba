@@ -2,19 +2,17 @@
   {
     "wordId": "AbsoluteVerb_171",
     "sourceHash": "9e2b40b642acd7c4eaae87e226bbcf57d5f95abba2323b116e2fc997460d4065",
-    "proposalHash": "9bdf7d31f0899b822d9e1bf4799c9818ff45336e099375baff9d0b762f5bec2d",
+    "proposalHash": "002b84f2a67ab6c03d1a474ec748f024606657723face7c0e26178c7888c1563",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
-    "reviewer": "Codex GPT-6 Astra review agent",
+    "aliasOutcome": "no profile merge approval",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-027.json",
-    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "reviewedAt": "2026-10-01T01:08:36.154Z",
     "notes": [
-      "생명 종료의 두 문맥과 5단 자동사·N5 근거가 맞는다."
+      "금붕어 죽음과 이야기 주인공 죽음 2예문, 생명 종료 핵심 및 식물에도 사용 가능하다는 枯れる 대비를 읽었다. 별도 비유 의미 확대 없이 N5 생명 기본 동사로 승인한다."
     ]
   },
   {
@@ -272,37 +270,39 @@
   {
     "wordId": "AbsoluteVerb_189",
     "sourceHash": "8e241a854deb938e806e0ccc4f6460ccaa713a53a63ddf88af6594db85d30e3d",
-    "proposalHash": "55969ed5c9e77b109e0be09f10c66e156173c53a9551fe81b8ef40902b856c1a",
+    "proposalHash": "4e2c5cf3687d29094eacb4ab5bcc5f9434bc6d61caf1b3cd8af2e323720f95b2",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "candidate-only; no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-027.json",
-    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
     "notes": [
-      "셔츠와 유카타 착용의 1단 타동사·N5 의미가 맞는다."
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다.",
+      "현재 선택된 기초 着る 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
     ]
   },
   {
     "wordId": "AbsoluteVerb_191",
     "sourceHash": "24b00c38ef5a063e5766ba2df60e3ff3485451948da83a3fb0c8af9e6b6cb66e",
-    "proposalHash": "f78d1c76d72725aa7d8f358e8295a9293d8548fdee2de1c73e03eef1df7e8dc1",
+    "proposalHash": "2ffc79fa254e1884e538da0ba80eac75ce0cc8ddc73fd5c34920106057eb70b5",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "candidate-only; no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-027.json",
-    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
     "notes": [
-      "신발 착용 용법은 현재 제공 N3 근거와 연결된다. 같은 사전 ID의 하의 착용과 프로필을 자동 합치지 않는다."
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다. 履く의 신발 착용 용법은 穿く의 하의 착용과 선택 범위를 나누며 무리한 별칭 통합은 하지 않는다.",
+      "현재 선택된 기초 履く 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
     ]
   },
   {
@@ -434,19 +434,20 @@
   {
     "wordId": "AbsoluteVerb_200",
     "sourceHash": "5159100b9d37db2a3cb1438c25e7cb9e3634843c8c3f94076d2d8e333233df31",
-    "proposalHash": "848cc0a0ca07c3c69ae58b8bf8f08ff7c6422a1ca0d87d7ee57bbc286cdf2bea",
+    "proposalHash": "835fc4c61c3315b32713568fd877f4d478ea71f030c7df2fc354836eff896ed4",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "candidate-only; no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-027.json",
-    "reviewedAt": "2026-09-30T06:38:07.460Z",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
     "notes": [
-      "도구로 종이를 자르고 채소를 써는 기본 의미의 N5 분류가 맞는다."
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다.",
+      "현재 선택된 기초 切る 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
     ]
   },
   {

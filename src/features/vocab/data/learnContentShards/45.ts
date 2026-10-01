@@ -1532,6 +1532,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1134480-1",
+    "wordId": "lex-jmdict-1134480",
+    "version": 1,
+    "meaning": "모터·전동기",
+    "hint": "전기 에너지를 회전하는 힘으로 바꾸는 장치",
+    "confusions": [
+      {
+        "japanese": "電池",
+        "distinction": "움직이는 힘을 만드는 장치와 전기를 저장하는 장치를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1134480-1-ex-1",
+        "version": 1,
+        "before": "古い扇風機は、",
+        "answer": "モーター",
+        "after": "が熱くなりすぎます。",
+        "reading": "モーター",
+        "translation": "오래된 선풍기는 모터가 지나치게 뜨거워집니다.",
+        "translationTarget": "모터",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_71-3",
+    "wordId": "AbsoluteVerb_71",
+    "version": 1,
+    "meaning": "안경을 쓰다",
+    "hint": "잘 보거나 눈을 보호하려고 안경을 얼굴에 착용해요.",
+    "confusions": [
+      {
+        "japanese": "外す",
+        "distinction": "안경을 착용하는 행동과 착용한 안경을 벗는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_71-3-ex-1",
+        "version": 1,
+        "before": "細かい文字を読むときだけ、眼鏡を",
+        "answer": "掛けています",
+        "after": "。",
+        "reading": "かけています",
+        "translation": "작은 글씨를 읽을 때만 안경을 쓰고 있습니다.",
+        "translationTarget": "쓰고 있습니다",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1260660-1",
+    "wordId": "lex-jmdict-1260660",
+    "version": 1,
+    "meaning": "현미경",
+    "hint": "맨눈으로 보기 어려운 작은 것을 확대해 관찰하는 기구",
+    "confusions": [
+      {
+        "japanese": "望遠鏡",
+        "distinction": "아주 작은 물체를 확대하는 기구와 먼 대상을 보는 기구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1260660-1-ex-1",
+        "version": 1,
+        "before": "研究室の",
+        "answer": "顕微鏡",
+        "after": "は高価なので、両手で慎重に運んだ。",
+        "reading": "けんびきょう",
+        "translation": "연구실의 현미경은 비싸서 양손으로 조심스럽게 옮겼다.",
+        "translationTarget": "현미경",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491950-1",
+    "wordId": "lex-jmdict-1491950",
+    "version": 1,
+    "meaning": "불황",
+    "hint": "경제 활동이 침체하여 생산·거래 등이 부진합니다.",
+    "confusions": [
+      {
+        "japanese": "不調",
+        "distinction": "不況는 경제의 침체이고 不調는 몸·일·기계 등의 상태가 좋지 않음 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491950-1-ex-1",
+        "version": 1,
+        "before": "長引く",
+        "answer": "不況",
+        "after": "で、閉店する店が増えている。",
+        "reading": "ふきょう",
+        "translation": "길어지는 불황으로 문을 닫는 가게가 늘고 있다.",
+        "translationTarget": "불황",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1295170-1",
+    "wordId": "lex-jmdict-1295170",
+    "version": 1,
+    "meaning": "잘게 부수다",
+    "hint": "단단한 것을 힘을 가해 여러 작은 조각으로 만들어요.",
+    "confusions": [
+      {
+        "japanese": "砕ける",
+        "distinction": "물건을 부수는 행동과 물건이 부서진 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1295170-1-ex-1",
+        "version": 1,
+        "before": "氷を",
+        "answer": "砕いて",
+        "after": "、冷たい飲み物に入れた。",
+        "reading": "くだいて",
+        "translation": "얼음을 잘게 부수어 차가운 음료에 넣었다.",
+        "translationTarget": "잘게 부수어",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1442110-1",
+    "wordId": "lex-jmdict-1442110",
+    "version": 1,
+    "meaning": "전염",
+    "hint": "질병 등이 다른 사람이나 생물에게 옮는 것",
+    "confusions": [
+      {
+        "japanese": "予防",
+        "distinction": "병이 옮는 것과 병에 걸리지 않도록 막는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1442110-1-ex-1",
+        "version": 1,
+        "before": "この病気は、人から人へ",
+        "answer": "伝染",
+        "after": "することがあります。",
+        "reading": "でんせん",
+        "translation": "이 병은 사람에게서 사람으로 전염될 수 있습니다.",
+        "translationTarget": "전염",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307570-1",
+    "wordId": "lex-jmdict-1307570",
+    "version": 1,
+    "meaning": "내내·늘",
+    "hint": "어떤 기간 동안 거의 계속 그러한 모습",
+    "confusions": [
+      {
+        "japanese": "たまに",
+        "distinction": "기간 내내 이어지는 것과 드물게 일어나는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307570-1-ex-1",
+        "version": 1,
+        "before": "客がいる間も、猫は",
+        "answer": "始終",
+        "after": "窓の外を見ていた。",
+        "reading": "しじゅう",
+        "translation": "손님이 있는 동안에도 고양이는 내내 창밖을 보고 있었다.",
+        "translationTarget": "내내",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604745-1",
+    "wordId": "lex-jmdict-1604745",
+    "version": 1,
+    "meaning": "민속",
+    "hint": "사람들의 생활에 전해져 온 풍습·의례·전승입니다.",
+    "confusions": [
+      {
+        "japanese": "民族",
+        "distinction": "民俗는 전통 생활·풍습이고 같은 읽기의 民族는 공통 문화 등을 지닌 사람 집단이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604745-1-ex-1",
+        "version": 1,
+        "before": "祭りの由来を調べるうちに、地域の",
+        "answer": "民俗",
+        "after": "に興味を持った。",
+        "reading": "みんぞく",
+        "translation": "축제의 유래를 조사하다가 지역 민속에 관심을 갖게 되었다.",
+        "translationTarget": "민속",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605870-1",
+    "wordId": "lex-jmdict-1605870",
+    "version": 1,
+    "meaning": "자주",
+    "hint": "같은 일이 적지 않은 횟수로 되풀이되는 모습",
+    "confusions": [
+      {
+        "japanese": "いつも",
+        "distinction": "자주 일어나지만 매번은 아닐 수 있는 행동과 항상 이어지는 행동을 구별한다. 같은 표현의 잘·충분히라는 정도 용법은 이번 예문과 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605870-1-ex-1",
+        "version": 1,
+        "before": "姉は図書館で",
+        "answer": "よく",
+        "after": "本を借ります。",
+        "reading": "よく",
+        "translation": "언니는 도서관에서 자주 책을 빌려요.",
+        "translationTarget": "자주",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

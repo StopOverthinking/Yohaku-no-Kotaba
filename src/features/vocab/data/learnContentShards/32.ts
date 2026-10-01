@@ -1200,6 +1200,102 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279290-1",
+    "wordId": "lex-jmdict-1279290",
+    "version": 1,
+    "meaning": "깊어지다·늦어지다",
+    "hint": "밤이 진행되어 늦은 시간에 이르게 돼요.",
+    "confusions": [
+      {
+        "japanese": "明ける",
+        "distinction": "밤이 깊어지는 것과 밤이 끝나 밝아오는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279290-1-ex-1",
+        "version": 1,
+        "before": "話に夢中になっているうちに、夜が",
+        "answer": "更けて",
+        "after": "いた。",
+        "reading": "ふけて",
+        "translation": "이야기에 몰두하는 사이에 밤이 깊어져 있었다.",
+        "translationTarget": "깊어져",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1507180-1",
+    "wordId": "lex-jmdict-1507180",
+    "version": 1,
+    "meaning": "태연하다·괜찮다",
+    "hint": "걱정하거나 힘들어하지 않고 견딜 수 있는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "怖い",
+        "distinction": "아무렇지 않게 받아들이는 상태와 두려운 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1507180-1-ex-1",
+        "version": 1,
+        "before": "私は高い所も",
+        "answer": "平気",
+        "after": "だが、弟は窓に近づけない。",
+        "reading": "へいき",
+        "translation": "나는 높은 곳도 괜찮지만 남동생은 창문에 다가가지 못한다.",
+        "translationTarget": "괜찮지만",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1479230-1",
+    "wordId": "lex-jmdict-1479230",
+    "version": 1,
+    "meaning": "반지름",
+    "hint": "원의 중심에서 원둘레까지의 거리",
+    "confusions": [
+      {
+        "japanese": "直径",
+        "distinction": "중심에서 둘레까지의 거리와 중심을 지나 양쪽 둘레를 잇는 거리를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1479230-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "半径",
+        "after": "五メートルの円を、運動場に描いた。",
+        "reading": "はんけい",
+        "translation": "반지름 오 미터의 원을 운동장에 그렸다.",
+        "translationTarget": "반지름",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,22 @@
+{
+  "scope": "legacy-content-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:07:43.097Z",
+  "draftHash": "d97b1a9a00e493e4e2e0572855a08ff599aa3935b57b9ad8ae9cd18719f0c401",
+  "preservedCoreUsages": [
+    {
+      "wordId": "JLPTN3_70",
+      "senseIds": [
+        "sense-JLPTN3_70-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "중립적인 다름의 기존 핵심/예문/ID/version 완전 보존. 새 오류 sense만 독립 추가."
+    }
+  ],
+  "notes": [
+    "원본3개 6예문과 새 거스름돈 오류 문장을 독립 읽었다. 준비초안의 전체 before/after가 검토한 제안과 정확히 일치한다.",
+    "기존 어느 프로필도 새 sense로 이전하지 않으며 별도 source selection만 허용한다."
+  ]
+}

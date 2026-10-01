@@ -1,0 +1,970 @@
+{
+  "reviewedAt": "2026-10-01T00:42:14.019Z",
+  "scope": "15 explicitly reviewed fix003 current sources, not full legacy batch approvals",
+  "rows": [
+    {
+      "wordId": "AbsoluteVerb_12",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_12",
+          "level": "N5",
+          "sourceHash": "d51f34b34cab058b8a4a6f2eddba7404ee6a2b730a0f95581f29d825662fb947",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:49:49.903Z",
+          "notes": [
+            "쉬다만 학습되며 단어 뜻에 있는 결석·결근이라는 핵심 용법이 없다. 学校を休む의 자타 정보도 별도 검토하고 새 용법을 기존 쉬다 숙련도와 분리해야 한다."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_12",
+        "sourceHash": "d51f34b34cab058b8a4a6f2eddba7404ee6a2b730a0f95581f29d825662fb947",
+        "level": "N5",
+        "dictionaryId": "jmdict-1227560",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “쉬다, 결석하다, 취침하다” 및 1개 sense를 대조했다. rest와 벤치 휴식·휴식 후 회복 예문이 일치한다. 결석·취침은 현재 sense와 구별한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_12",
+        "sourceHash": "d51f34b34cab058b8a4a6f2eddba7404ee6a2b730a0f95581f29d825662fb947",
+        "proposalHash": "68f31ce5b27fdd02c97b913340709b33e669afe42b17297db1bc63b9bf678aad",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-022.json",
+        "reviewedAt": "2026-09-30T05:49:22.090Z",
+        "notes": [
+          "기본 휴식 N5를 확인했다. 두 번째 예문의 十分은 10분과 충분히의 표기 중의성을 참조 검토에서 확인한다."
+        ]
+      },
+      "batch": "assignments-022.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_12",
+        "level": "N5",
+        "sourceHash": "f060cef23aaf691d61ce4ee373e367db69a18f173524e2a8b97e7bc0b6d9b55a",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.044Z",
+        "notes": [
+          "休む의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_225",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_225",
+          "level": "N5",
+          "sourceHash": "a5a9f3e56b15214eefd91596ac13dc6d11fe5687d7a75bff93e7519ba8d56079",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:03:05.801Z",
+          "notes": [
+            "기술적으로라는 단어 뜻 한정은 선생에게 지식·언어를 배우는 용법도 포함하도록 완화할 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_225",
+        "sourceHash": "a5a9f3e56b15214eefd91596ac13dc6d11fe5687d7a75bff93e7519ba8d56079",
+        "level": "N5",
+        "dictionaryId": "jmdict-1333070",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “(기술적으로) 배우다” 및 1개 sense를 대조했다. learn from teacher와 뜨개질·수영 예문이 일치한다. 기술에만 절대 한정하는 말이 아니라 타인의 수업으로 배움을 명시한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "기술적으로라는 단어 뜻 한정은 선생에게 지식·언어를 배우는 용법도 포함하도록 완화할 필요."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_225",
+        "sourceHash": "a5a9f3e56b15214eefd91596ac13dc6d11fe5687d7a75bff93e7519ba8d56079",
+        "proposalHash": "98ee25efbb18c0c8a09e35265de04ae07623e1f9cb0fb6590c945b4926b9482a",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:03:05.801Z",
+        "notes": [
+          "習う의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+          "기술적으로라는 단어 뜻 한정은 선생에게 지식·언어를 배우는 용법도 포함하도록 완화할 필요."
+        ]
+      },
+      "batch": "assignments-028.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_225",
+        "level": "N5",
+        "sourceHash": "c872eeaa971464a75bdd82d4836bb39b19979516276c4cb1e8a160228e04750c",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.048Z",
+        "notes": [
+          "習う의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_328",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_328",
+          "level": "N5",
+          "sourceHash": "4b0b8a790df2efd5617648e063b3abc493e5ace6b1175c69a6548a110d779e2b",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:09:35.896Z",
+          "notes": [
+            "あげる는 제삼자 사이의 수여도 표현하므로 표제의 내가 남에게와 힌트 나 또는 내 쪽만이라는 범위는 너무 좁다. 기본 방향을 유지하면서 주체 범위를 정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_328",
+        "sourceHash": "4b0b8a790df2efd5617648e063b3abc493e5ace6b1175c69a6548a110d779e2b",
+        "level": "N5",
+        "dictionaryId": "jmdict-1352320",
+        "suggestedType": "verb",
+        "levelNote": "上げる 사전 내 give 의미와 맞는 기본 수여 동사로 N5를 권장한다. 높이 올리다 용법과 의미를 나누고 표제의 주어 제한은 별도 보류한다.",
+        "meaningReview": "上げる 사전 내 give 의미와 맞는 기본 수여 동사로 N5를 권장한다. 높이 올리다 용법과 의미를 나누고 표제의 주어 제한은 별도 보류한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "あげる는 제삼자 사이의 수여도 표현하므로 표제의 내가 남에게와 힌트 나 또는 내 쪽만이라는 범위는 너무 좁다. 기본 방향을 유지하면서 주체 범위를 정정 필요."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_328",
+        "sourceHash": "4b0b8a790df2efd5617648e063b3abc493e5ace6b1175c69a6548a110d779e2b",
+        "proposalHash": "0bd023ccdfb4e1e55276a384d9c28181c2b62c67d8d87e7cd74ba502e1b29e9d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:09:35.896Z",
+        "notes": [
+          "あげる의 전체 원문과 제공 사전 의미를 대조했다. 上げる 사전 내 give 의미와 맞는 기본 수여 동사로 N5를 권장한다. 높이 올리다 용법과 의미를 나누고 표제의 주어 제한은 별도 보류한다.",
+          "あげる는 제삼자 사이의 수여도 표현하므로 표제의 내가 남에게와 힌트 나 또는 내 쪽만이라는 범위는 너무 좁다. 기본 방향을 유지하면서 주체 범위를 정정 필요."
+        ]
+      },
+      "batch": "assignments-031.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_328",
+        "level": "N5",
+        "sourceHash": "854d4ff114444be064d64432bbaf21e6b3cb3df399218757200a84bbd9cba05d",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.051Z",
+        "notes": [
+          "あげる의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_319",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_319",
+          "level": "N5",
+          "sourceHash": "96559e19d5b938d43436796b14ec6a0308145117d9aac46629d2e2fb90c7c4f8",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:09:35.896Z",
+          "notes": [
+            "노래를 부르는 첫 예문은 타동사 용법이며 사전은 자타 양용인데 verbInfo가 1자로만 적혀 있다. 자타 정보를 원본 보존 절차로 정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_319",
+        "sourceHash": "96559e19d5b938d43436796b14ec6a0308145117d9aac46629d2e2fb90c7c4f8",
+        "level": "N5",
+        "dictionaryId": "jmdict-1588120",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “노래 부르다” 및 1개 sense를 대조했다. 노래를 부르는 기본 동사 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "노래를 부르는 첫 예문은 타동사 용법이며 사전은 자타 양용인데 verbInfo가 1자로만 적혀 있다. 자타 정보를 원본 보존 절차로 정정 필요."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_319",
+        "sourceHash": "96559e19d5b938d43436796b14ec6a0308145117d9aac46629d2e2fb90c7c4f8",
+        "proposalHash": "d68a008ffab8102747880f7ba2ca7aa478671bbacc91f689791e8253bce60c18",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:09:35.896Z",
+        "notes": [
+          "歌う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “노래 부르다” 및 1개 sense를 대조했다. 노래를 부르는 기본 동사 의미이다.",
+          "노래를 부르는 첫 예문은 타동사 용법이며 사전은 자타 양용인데 verbInfo가 1자로만 적혀 있다. 자타 정보를 원본 보존 절차로 정정 필요."
+        ]
+      },
+      "batch": "assignments-031.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_319",
+        "level": "N5",
+        "sourceHash": "7d43a712a1e60fd6f381e3dc48284357f3aed3490836d44149461ddf20cafae0",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.051Z",
+        "notes": [
+          "歌う의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_352",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_352",
+          "level": "N4",
+          "sourceHash": "bf95c3bd386f9a8d2c08ccd5651bfd663d07511285618dfe62e7076147f838e6",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:09:35.896Z",
+          "notes": [
+            "사전은 타동사인데 현재 verbInfo가 2자이다. 선택 용법의 품사 표기를 재검토·정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_352",
+        "sourceHash": "bf95c3bd386f9a8d2c08ccd5651bfd663d07511285618dfe62e7076147f838e6",
+        "level": "N4",
+        "dictionaryId": "jmdict-1600470",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “갈아타다” 및 1개 sense를 대조했다. 열차에서 지하철로 갈아타는 기본 교통 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "사전은 타동사인데 현재 verbInfo가 2자이다. 선택 용법의 품사 표기를 재검토·정정 필요."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_352",
+        "sourceHash": "bf95c3bd386f9a8d2c08ccd5651bfd663d07511285618dfe62e7076147f838e6",
+        "proposalHash": "0af2e66841cd8ab2566efb2d2eb877276d5a272e9a056b26c89195735427e743",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:09:35.896Z",
+        "notes": [
+          "乗り換える의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “갈아타다” 및 1개 sense를 대조했다. 열차에서 지하철로 갈아타는 기본 교통 의미이다.",
+          "사전은 타동사인데 현재 verbInfo가 2자이다. 선택 용법의 품사 표기를 재검토·정정 필요."
+        ]
+      },
+      "batch": "assignments-031.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_352",
+        "level": "N4",
+        "sourceHash": "b93e53e62deed107f93c233a3c0d8539f787483a98705c94d62eb49a9a51a856",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.051Z",
+        "notes": [
+          "乗り換える의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N4 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "handmade_42",
+      "previousHold": [
+        {
+          "wordId": "handmade_42",
+          "level": "N5",
+          "sourceHash": "f941c302b4f97bcc72a556db16d3d1bc04a9cd51e2a902c16fbf80503ec57a34",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:45:40.912Z",
+          "notes": [
+            "밥 용법만으로 대표 의미의 식사까지 학습했다고 볼 수 없다. 일상 핵심 식사 용법을 새 sense로 추가하고 기존 밥 숙련도 보존 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "handmade_42",
+        "sourceHash": "f941c302b4f97bcc72a556db16d3d1bc04a9cd51e2a902c16fbf80503ec57a34",
+        "level": "N5",
+        "dictionaryId": "jmdict-1270590",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “밥, 식사” 및 1개 sense를 대조했다. cooked rice와 밥 양·남은 밥 주먹밥 예문이 일치한다. 식사 전체 의미도 사전에 있으나 현재 sense는 쌀밥이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "handmade_42",
+        "sourceHash": "f941c302b4f97bcc72a556db16d3d1bc04a9cd51e2a902c16fbf80503ec57a34",
+        "proposalHash": "fa0ecd1928b1ce6cb7df4500f493f8b1b4d0146018766697df532b28ccf4091c",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-019.json",
+        "reviewedAt": "2026-09-30T05:40:51.473Z",
+        "notes": [
+          "ご飯의 현재 뜻·읽기·예문과 제안 수준을 대조했다."
+        ]
+      },
+      "batch": "assignments-019.json",
+      "approval": {
+        "wordId": "handmade_42",
+        "level": "N5",
+        "sourceHash": "3383f8aabf5400d0dd1e9b28a794b82b8ff19dd97f6438d810179ea28d70f1a1",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "ご飯의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_266",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_266",
+          "level": "N5",
+          "sourceHash": "0fc55d8fccbe5c29abde0207f38b928f141c3bbd01dc49cf62ee33db2af22d8c",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:07:44.032Z",
+          "notes": [
+            "下げる 273의 둘째 예문과 같은 의자 높이 조절 장면을 반대 동사로 반복한다. 기존 원본 보존 개정 후 참조 재검토."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_266",
+        "sourceHash": "0fc55d8fccbe5c29abde0207f38b928f141c3bbd01dc49cf62ee33db2af22d8c",
+        "level": "N5",
+        "dictionaryId": "jmdict-1352320",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “올리다” 및 1개 sense를 대조했다. 사진을 들거나 의자의 높이를 올리는 기본 타동사 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "下げる 273의 둘째 예문과 같은 의자 높이 조절 장면을 반대 동사로 반복한다. 기존 원본 보존 개정 후 참조 재검토."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_266",
+        "sourceHash": "0fc55d8fccbe5c29abde0207f38b928f141c3bbd01dc49cf62ee33db2af22d8c",
+        "proposalHash": "f5e8735e36725febf46a66a483b78efb5d7737779928b556ffdec6774d20424c",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:07:44.032Z",
+        "notes": [
+          "上げる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “올리다” 및 1개 sense를 대조했다. 사진을 들거나 의자의 높이를 올리는 기본 타동사 의미이다.",
+          "下げる 273의 둘째 예문과 같은 의자 높이 조절 장면을 반대 동사로 반복한다. 기존 원본 보존 개정 후 참조 재검토."
+        ]
+      },
+      "batch": "assignments-029.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_266",
+        "level": "N5",
+        "sourceHash": "9f963ece78559b97c8920a8c8547604b218548383b9937ab373a119aec72e339",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "上げる의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_273",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_273",
+          "level": "N4",
+          "sourceHash": "0992fde1f067e099e188813764a5c88aba69b53d0b8bcbb36c00c1daa7c89da8",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:07:44.032Z",
+          "notes": [
+            "上げる 266의 둘째 예문과 같은 의자 높이 조절 장면을 반대 동사로 반복한다. 기존 원본 보존 개정 후 참조 재검토."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_273",
+        "sourceHash": "0992fde1f067e099e188813764a5c88aba69b53d0b8bcbb36c00c1daa7c89da8",
+        "level": "N4",
+        "dictionaryId": "jmdict-1184170",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “내리다” 및 1개 sense를 대조했다. 손이나 의자의 높이를 낮추는 타동사 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "上げる 266의 둘째 예문과 같은 의자 높이 조절 장면을 반대 동사로 반복한다. 기존 원본 보존 개정 후 참조 재검토."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_273",
+        "sourceHash": "0992fde1f067e099e188813764a5c88aba69b53d0b8bcbb36c00c1daa7c89da8",
+        "proposalHash": "816aabcd7c824392a5aa1acd15c9a021b437a6436db77ede4080b7a7b71614d0",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:07:44.032Z",
+        "notes": [
+          "下げる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “내리다” 및 1개 sense를 대조했다. 손이나 의자의 높이를 낮추는 타동사 의미이다.",
+          "上げる 266의 둘째 예문과 같은 의자 높이 조절 장면을 반대 동사로 반복한다. 기존 원본 보존 개정 후 참조 재검토."
+        ]
+      },
+      "batch": "assignments-029.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_273",
+        "level": "N4",
+        "sourceHash": "0992fde1f067e099e188813764a5c88aba69b53d0b8bcbb36c00c1daa7c89da8",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "下げる의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N4 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_227",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_227",
+          "level": "N4",
+          "sourceHash": "0ef8ef4898301d1da1d0df75fee258e5fa6013f9bd7f82f78438f73098c8f3de",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:03:05.801Z",
+          "notes": [
+            "사전 타동사 및 실제 가르침 받는 목적어 용법에 비해 verbInfo 1자가 불일치한다. 1타 정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_227",
+        "sourceHash": "0ef8ef4898301d1da1d0df75fee258e5fa6013f9bd7f82f78438f73098c8f3de",
+        "level": "N4",
+        "dictionaryId": "jmdict-1236940",
+        "suggestedType": "verb",
+        "levelNote": "사람에게 가르침을 받는 일상 학습 관계로 N4. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
+        "meaningReview": "기존 뜻 “가르침을 받다” 및 1개 sense를 대조했다. be taught와 매듭·노래 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "사전 타동사 및 실제 가르침 받는 목적어 용법에 비해 verbInfo 1자가 불일치한다. 1타 정정 필요."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_227",
+        "sourceHash": "0ef8ef4898301d1da1d0df75fee258e5fa6013f9bd7f82f78438f73098c8f3de",
+        "proposalHash": "d52bb54b1abf4dd1863945db56a36ba7e0387d008054b58d228f26b94a3cb3ca",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:03:05.801Z",
+        "notes": [
+          "教わる의 전체 원문 1용법/2예문을 제공 사전 의미와 대조했다. 사람에게 가르침을 받는 일상 학습 관계로 N4. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
+          "사전 타동사 및 실제 가르침 받는 목적어 용법에 비해 verbInfo 1자가 불일치한다. 1타 정정 필요."
+        ]
+      },
+      "batch": "assignments-028.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_227",
+        "level": "N4",
+        "sourceHash": "7fe937e990503df807a046cadcf1429d748c84c46e2e946dea059f0da1c9f0d1",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "教わる의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N4 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "JLPTN3_478",
+      "previousHold": [
+        {
+          "wordId": "JLPTN3_478",
+          "level": "N3",
+          "sourceHash": "509fba72d395de1774036fa0259be6d5b53359a04f8a42e83c4ea836087a5024",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:45:40.912Z",
+          "notes": [
+            "단어 뜻 마루는 재질을 한정하나 현재 sense/예문은 실내 바닥 일반이다. 같은 핵심 용법의 단어 설명 정정 및 재검토 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "JLPTN3_478",
+        "sourceHash": "509fba72d395de1774036fa0259be6d5b53359a04f8a42e83c4ea836087a5024",
+        "level": "N3",
+        "dictionaryId": "jmdict-1349380",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “마루” 및 1개 sense를 대조했다. floor와 젖은 바닥·아기 기기 예문이 일치한다. 기존 마루는 목재 바닥으로 좁아 보일 수 있어 바닥도 포함하는 뜻 정리를 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "床는 재질과 관계없는 실내 바닥이므로 마루·바닥으로 뜻을 넓힐 후보이다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "JLPTN3_478",
+        "sourceHash": "509fba72d395de1774036fa0259be6d5b53359a04f8a42e83c4ea836087a5024",
+        "proposalHash": "0a9ae746dae306499967c33baac7cb1d1ec686b7bf7e7e85033a5b49cf00cccc",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-016.json",
+        "reviewedAt": "2026-09-30T05:32:06.878Z",
+        "notes": [
+          "바닥 의미와 N3 분류를 확인했다. 단어 뜻 마루의 재질 한정 가능성은 별도 편집 후보로 유지한다."
+        ]
+      },
+      "batch": "assignments-016.json",
+      "approval": {
+        "wordId": "JLPTN3_478",
+        "level": "N4",
+        "sourceHash": "3aebf711b47dd28cb8484a1695c5ec54a3a4967da1d36406fff525fb20efd69b",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "床의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N4 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "handmade_150",
+      "previousHold": [
+        {
+          "wordId": "handmade_150",
+          "level": "N5",
+          "sourceHash": "2ae5d7f06592d1885ee176b0ef91d04115205feed7e9b4dc7b7a7dc453132d0d",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:45:40.912Z",
+          "notes": [
+            "한국어 양복은 정장으로 읽히지만 현재 sense/예문은 서양식 옷 전체이다. 같은 핵심 의미의 단어 설명 정정 후 재검토 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "handmade_150",
+        "sourceHash": "2ae5d7f06592d1885ee176b0ef91d04115205feed7e9b4dc7b7a7dc453132d0d",
+        "level": "N5",
+        "dictionaryId": "jmdict-1546020",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “양복” 및 1개 sense를 대조했다. Western-style clothes와 기모노에서 갈아입음·직접 옷 만들기 예문이 일치한다. 한국어 양복은 정장으로 좁게 읽힐 수 있어 서양식 옷을 함께 명시할 후보이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "洋服는 정장만이 아니라 서양식 의복 전체이므로 한국어 뜻 범위 보완 후보이다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "handmade_150",
+        "sourceHash": "2ae5d7f06592d1885ee176b0ef91d04115205feed7e9b4dc7b7a7dc453132d0d",
+        "proposalHash": "9c529099e2bedd42ca5c20d964c2888769cbf639cf30b6f4e80e9ed4ed1d62e2",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-022.json",
+        "reviewedAt": "2026-09-30T05:49:22.090Z",
+        "notes": [
+          "N5 서양식 의복 용법은 타당하며 정장으로 좁게 읽히는 표제어 뜻은 별도 보완 대상이다."
+        ]
+      },
+      "batch": "assignments-022.json",
+      "approval": {
+        "wordId": "handmade_150",
+        "level": "N5",
+        "sourceHash": "19047c482a21d21b267df4080215e76f4c0278d32979741f057a38ef2dd7d09b",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "洋服의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "handmade_106",
+      "previousHold": [
+        {
+          "wordId": "handmade_106",
+          "level": "N3",
+          "sourceHash": "96f5682ef3d24de6e14e90e297cb3aeb3ef59d3cbfa10ad601d9265daa99b784",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:45:40.912Z",
+          "notes": [
+            "단어 뜻 확실히는 현재 sense 제대로 및 신발을 가지런히 놓는 예문과 맞지 않는다. 핵심 의미 보존 설명 정정 후 검토."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "handmade_106",
+        "sourceHash": "96f5682ef3d24de6e14e90e297cb3aeb3ef59d3cbfa10ad601d9265daa99b784",
+        "level": "N3",
+        "dictionaryId": "jmdict-1003400",
+        "suggestedType": "adv",
+        "levelNote": "현재 adv 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “확실히” 및 1개 sense를 대조했다. neatly·properly와 신발 정돈·잘못을 제대로 생각함 예문이 대응한다. 한국어 확실히만으로는 질서·적절함이 드러나지 않아 제대로·단정히를 추가할 뜻 검토 후보이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "きちんと의 정돈·적절함 의미를 한국어 제대로·단정히로 보완할 후보이다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "handmade_106",
+        "sourceHash": "96f5682ef3d24de6e14e90e297cb3aeb3ef59d3cbfa10ad601d9265daa99b784",
+        "proposalHash": "abd93a97c060fe98b23d0f2b113626f2a0092048435d7265ef3604aaabe19810",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-020.json",
+        "reviewedAt": "2026-09-30T05:46:45.934Z",
+        "notes": [
+          "N3 분류는 타당하며 표제어 확실히의 정돈·적절함 범위 보완은 참조 승인 전에 해결해야 한다."
+        ]
+      },
+      "batch": "assignments-020.json",
+      "approval": {
+        "wordId": "handmade_106",
+        "level": "N3",
+        "sourceHash": "55dc78affe4c2ab86dfaa93a8c205e87626a4b0cd642663de32e9348f408376c",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "きちんと의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N3 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_49",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_49",
+          "level": "N4",
+          "sourceHash": "93fe1c2703e2b1610264af405b2f3dcbca529345b05efa3db57535baa7c4e0db",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:49:49.903Z",
+          "notes": [
+            "思う의 단어 뜻 주관적·의지적 한정은 考える와의 차이를 과도하게 고정한다. 의견·느낌을 생각한다는 핵심 뜻 보존 설명 정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_49",
+        "sourceHash": "93fe1c2703e2b1610264af405b2f3dcbca529345b05efa3db57535baa7c4e0db",
+        "level": "N4",
+        "dictionaryId": "jmdict-1589350",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “(주관적·의지적으로) 생각하다” 및 1개 sense를 대조했다. think·believe와 색이 어울림·제작 난도 예상 예문이 일치한다. 주관적이라는 설명을 객관적 생각과 절대 분리하는 규칙으로 오해하지 않도록 뜻 설명 검토 후보이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "思う·考える를 주관·객관 또는 의지 여부로 절대 구분하는 뜻 설명은 완화할 후보이다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_49",
+        "sourceHash": "93fe1c2703e2b1610264af405b2f3dcbca529345b05efa3db57535baa7c4e0db",
+        "proposalHash": "575b7ff51fb7a8b92de5502d925128580b2fa06a48a7c4217f179728f181712c",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-023.json",
+        "reviewedAt": "2026-09-30T06:03:16.812Z",
+        "notes": [
+          "N4 의견·판단 뜻은 맞으나 주관적·의지적이라는 대표뜻을 객관적 사고와 절대 구분하지 않도록 정리가 필요하다."
+        ]
+      },
+      "batch": "assignments-023.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_49",
+        "level": "N5",
+        "sourceHash": "acdcd68a59418b583db124d65fe8b4c9b3a767b284019bb2c9277b758ee99d45",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "思う의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_50",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_50",
+          "level": "N4",
+          "sourceHash": "420d2b9db5bc3fe568f438ff3cd2c13963a2d9d603fc55910bd5504d1954e759",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-09-30T23:49:49.903Z",
+          "notes": [
+            "考える의 이성적·객관적 한정은 주관적인 숙고도 가능한 실제 용법을 좁힌다. 생각을 따져 보는 과정 중심으로 설명 정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_50",
+        "sourceHash": "420d2b9db5bc3fe568f438ff3cd2c13963a2d9d603fc55910bd5504d1954e759",
+        "level": "N4",
+        "dictionaryId": "jmdict-1281020",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “(이성적·객관적으로) 생각하다” 및 1개 sense를 대조했다. think over·devise와 답변 숙고·수업 진행 구상 예문이 일치한다. 이성적·객관적이라는 뜻은 思う와의 절대적인 경계가 아니므로 설명 완화를 제안한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "考える도 주관적인 판단에 쓰이므로 이성적·객관적 한정 설명을 완화할 후보이다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_50",
+        "sourceHash": "420d2b9db5bc3fe568f438ff3cd2c13963a2d9d603fc55910bd5504d1954e759",
+        "proposalHash": "4e36c099329b40ec0272ca79aed542d9281ae8b270b8814a34b473c14389aa3d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-023.json",
+        "reviewedAt": "2026-09-30T06:03:16.812Z",
+        "notes": [
+          "N4 숙고·계획 용법은 맞으나 이성적·객관적이라는 표제어 한정은 완화할 대상이다."
+        ]
+      },
+      "batch": "assignments-023.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_50",
+        "level": "N4",
+        "sourceHash": "a8741aab1a86a2737b34f982bc40dcfdf84000389239979510cbcc5d7df88165",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.052Z",
+        "notes": [
+          "考える의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N4 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_318",
+      "previousHold": [
+        {
+          "wordId": "AbsoluteVerb_318",
+          "level": "N5",
+          "sourceHash": "1516f45d4aa7b2132573078b97bf3397af97a40a6fed350bf3680a437fcb2f84",
+          "scope": "legacy-reference-publication",
+          "outcome": "needs_followup",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "reviewedAt": "2026-10-01T00:08:34.570Z",
+          "notes": [
+            "休む를 아무 활동 없이 쉬는 것으로 제한한 대비 설명은 과도하다. 휴식 중 활동할 수도 있으므로 놀이의 즐거움 중심으로 대비 정정 필요."
+          ]
+        }
+      ],
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_318",
+        "sourceHash": "1516f45d4aa7b2132573078b97bf3397af97a40a6fed350bf3680a437fcb2f84",
+        "level": "N5",
+        "dictionaryId": "jmdict-1542160",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “놀다” 및 1개 sense를 대조했다. 아이들이 놀거나 숙제 후 함께 노는 기본 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "休む를 아무 활동 없이 쉬는 것으로 제한한 대비 설명은 과도하다. 휴식 중 활동할 수도 있으므로 놀이의 즐거움 중심으로 대비 정정 필요."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_318",
+        "sourceHash": "1516f45d4aa7b2132573078b97bf3397af97a40a6fed350bf3680a437fcb2f84",
+        "proposalHash": "9c894a5b9538c13afd622c9f112a17d394d4d6e671d69d3f3c9da0a53584a39c",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; no profile merge approval",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+        "reviewedAt": "2026-10-01T00:08:34.570Z",
+        "notes": [
+          "遊ぶ의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “놀다” 및 1개 sense를 대조했다. 아이들이 놀거나 숙제 후 함께 노는 기본 의미이다.",
+          "休む를 아무 활동 없이 쉬는 것으로 제한한 대비 설명은 과도하다. 휴식 중 활동할 수도 있으므로 놀이의 즐거움 중심으로 대비 정정 필요."
+        ]
+      },
+      "batch": "assignments-030.json",
+      "approval": {
+        "wordId": "AbsoluteVerb_318",
+        "level": "N5",
+        "sourceHash": "4a2f76c75e61a32fc1341924b080f18d3fa1e2d3c907644511ac9a0f1b37c1f3",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:42:14.053Z",
+        "notes": [
+          "遊ぶ의 현재 전체 선택 용법, 모든 힌트·대비·일본어 및 한국어 예문을 독립 읽고 수정 결과를 승인했다. 기존 ID를 유지한 N5 수준 참조를 승인한다.",
+          "fix003 전체내용 독립승인/적용 이력과 현재 원본 해시를 대조했다. 미선택 희귀 파생 뜻 확대를 요구하지 않는다."
+        ]
+      }
+    }
+  ]
+}

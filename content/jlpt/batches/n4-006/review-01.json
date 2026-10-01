@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "1d5169725faeda3e1eaf6ed2cbea865bc29e68628aa0eaa984f696db119aaccd",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; every word, level, sense, hint, contrast, Japanese example and Korean translation read.",
+    "reviewedAt": "2026-09-30T23:47:45.594Z",
+    "notes": [
+      "실용 핵심어50의 선택 용법·대표 문맥을 독립 검토했다. 비공식 N2/N3/N4 권장 수준을 수용하고 출처 N1과 구별한다.",
+      "勿体ない 힌트를 아깝다는 판단으로, 保管 번역을 잠금장치가 있는 수납장으로 명료화한 최종본이다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1133790",
+      "23e6a2dfff083bff2a8bf299b1fc138e5137629b2eab40ef5920af4399a91702"
+    ],
+    [
+      "lex-jmdict-1127870",
+      "2ece077588bc53c0519d7a628ea74da3baf36c347e58fea06e335d0bad7b863d"
+    ],
+    [
+      "lex-jmdict-1435540",
+      "db696c6cb516021e9bfd1ff1456db1e632f216fc5f6ff1198fd03d32c3dc4a5a"
+    ],
+    [
+      "lex-jmdict-1541690",
+      "bcf564c030df6e41550e1516bdecf8592c5de0eb4ef78ae67fdcdff111ec3873"
+    ]
+  ]
+}

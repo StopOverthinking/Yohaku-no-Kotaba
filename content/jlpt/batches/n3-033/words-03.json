@@ -1,0 +1,50 @@
+[
+  {
+    "japanese": "未定",
+    "reading": "みてい",
+    "type": "noun",
+    "meaning": "미정",
+    "hint": "아직 결정되지 않았습니다.",
+    "confusion": "決定",
+    "distinction": "未定는 아직 정하지 않음이고 決定는 정함이다.",
+    "dictionaryId": "jmdict-1527830",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "無断",
+    "reading": "むだん",
+    "type": "noun",
+    "meaning": "무단",
+    "hint": "필요한 허락을 받거나 미리 알리지 않은 채 합니다.",
+    "confusion": "許可",
+    "distinction": "無断는 허락·알림 없이 함이고 許可는 해도 된다는 승인이다.",
+    "dictionaryId": "jmdict-1530600",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "名称",
+    "reading": "めいしょう",
+    "type": "noun",
+    "meaning": "명칭",
+    "hint": "사람·사물·기관 등을 가리키는 이름입니다.",
+    "confusion": "名声",
+    "distinction": "名称는 부르는 이름이고 名声는 널리 알려진 좋은 평판이다.",
+    "dictionaryId": "jmdict-1531620",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "利点",
+    "reading": "りてん",
+    "type": "noun",
+    "meaning": "이점, 장점",
+    "hint": "선택·방법 등에 유리하고 도움이 되는 점입니다.",
+    "confusion": "欠点",
+    "distinction": "利点는 유리한 점이고 欠点는 부족하거나 불리한 점이다.",
+    "dictionaryId": "jmdict-1549620",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  }
+]

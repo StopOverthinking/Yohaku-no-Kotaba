@@ -89,5 +89,20 @@
       "rows": 30,
       "structuralIssues": 0
     }
-  ]
+  ],
+  "resumeIntervals": [
+    {
+      "startedAt": "2026-09-30T23:43:47.354Z",
+      "completedAt": "2026-09-30T23:44:01.265Z",
+      "batches": [
+        "045",
+        "046",
+        "047"
+      ],
+      "rows": 65,
+      "structuralIssues": 0,
+      "note": "File-generation and structural-validation interval only. Prior reading, classification decisions and offline gap excluded; not authoring throughput."
+    }
+  ],
+  "pureCompositionTime": null
 }

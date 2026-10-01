@@ -1656,6 +1656,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252910-1",
+    "wordId": "lex-jmdict-1252910",
+    "version": 1,
+    "meaning": "경솔함",
+    "hint": "충분히 생각하지 않고 성급하게 판단하거나 행동합니다.",
+    "confusions": [
+      {
+        "japanese": "軽快",
+        "distinction": "軽率는 신중하지 않음이고 軽快는 움직임·기분이 가볍고 산뜻함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252910-1-ex-1",
+        "version": 1,
+        "before": "確認もせずにうわさを広めたのは、",
+        "answer": "軽率",
+        "after": "な行動だった。",
+        "reading": "けいそつ",
+        "translation": "확인도 하지 않고 소문을 퍼뜨린 것은 경솔한 행동이었다.",
+        "translationTarget": "경솔한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1332450-1",
+    "wordId": "lex-jmdict-1332450",
+    "version": 1,
+    "meaning": "수료",
+    "hint": "정해진 교육·훈련 과정을 모두 마칩니다.",
+    "confusions": [
+      {
+        "japanese": "終了",
+        "distinction": "修了는 교육 과정의 수료이고 終了는 일이 끝남 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1332450-1-ex-1",
+        "version": 1,
+        "before": "研修を",
+        "answer": "修了",
+        "after": "した参加者には、証明書が渡される。",
+        "reading": "しゅうりょう",
+        "translation": "연수를 수료한 참가자에게는 증명서가 전달된다.",
+        "translationTarget": "수료",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596380-1",
+    "wordId": "lex-jmdict-1596380",
+    "version": 1,
+    "meaning": "종합",
+    "hint": "여러 요소·결과를 모아 전체로 판단·구성합니다.",
+    "confusions": [
+      {
+        "japanese": "個別",
+        "distinction": "総合는 요소를 모아 전체로 봄이고 個別는 각각 따로 봄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596380-1-ex-1",
+        "version": 1,
+        "before": "費用だけでなく、使いやすさも含めて",
+        "answer": "総合",
+        "after": "的に判断した。",
+        "reading": "そうごう",
+        "translation": "비용뿐 아니라 사용 편의성도 포함해 종합적으로 판단했다.",
+        "translationTarget": "종합",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1391880-1",
+    "wordId": "lex-jmdict-1391880",
+    "version": 1,
+    "meaning": "철로·선로",
+    "hint": "열차가 달리는 철제 궤도",
+    "confusions": [
+      {
+        "japanese": "道路",
+        "distinction": "열차가 다니는 궤도와 자동차가 다니는 길을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1391880-1-ex-1",
+        "version": 1,
+        "before": "落ちた物を取るために、",
+        "answer": "線路",
+        "after": "へ降りてはいけません。",
+        "reading": "せんろ",
+        "translation": "떨어진 물건을 꺼내려고 선로로 내려가면 안 됩니다.",
+        "translationTarget": "선로",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1286160-1",
+    "wordId": "lex-jmdict-1286160",
+    "version": 1,
+    "meaning": "국왕",
+    "hint": "왕국의 군주로서 왕위를 가진 사람",
+    "confusions": [
+      {
+        "japanese": "大統領",
+        "distinction": "왕국의 군주와 공화국의 국가 원수를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1286160-1-ex-1",
+        "version": 1,
+        "before": "新しい",
+        "answer": "国王",
+        "after": "の即位を祝う式典が開かれた。",
+        "reading": "こくおう",
+        "translation": "새 국왕의 즉위를 축하하는 의식이 열렸다.",
+        "translationTarget": "국왕",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1595200-1",
+    "wordId": "lex-jmdict-1595200",
+    "version": 1,
+    "meaning": "침략",
+    "hint": "다른 나라·영역에 힘으로 침입하여 차지하려 합니다.",
+    "confusions": [
+      {
+        "japanese": "侵入",
+        "distinction": "侵略는 영역을 빼앗으려는 침입이고 侵入는 안으로 들어옴 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1595200-1-ex-1",
+        "version": 1,
+        "before": "歴史の授業では、他国への",
+        "answer": "侵略",
+        "after": "が残した被害を学んだ。",
+        "reading": "しんりゃく",
+        "translation": "역사 수업에서는 다른 나라에 대한 침략이 남긴 피해를 배웠다.",
+        "translationTarget": "침략",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

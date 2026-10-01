@@ -1,0 +1,35 @@
+[
+  {
+    "wordId": "AbsoluteVerb_527",
+    "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba",
+    "proposalHash": "116de147d5e917463b5aa606c93185302ee3d1230ce93066c89b5f9c3d1606ac",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "not an alias; unique selected core",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:50:31.945Z",
+    "notes": [
+      "なる의 모든 뜻·힌트·대비·일본어/한국어 2예문을 읽었다. 사전의 선택 핵심과 일치하고 동음 鳴る/帰す는 각각 소리울림/사람돌려보내기로 다른 의미다.",
+      "핵심 상태변화 또는 물건 반환의 기본 일상 N5 용법."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_529",
+    "sourceHash": "c60ddb7cc2c1c0bd9444b05040e6141df2a8b52b276e489a6bf208ebde0820c4",
+    "proposalHash": "ff6a74eac0258a74a65a3d44de48166dfac5b4a65f07b46e735e5f382ae7b1ec",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:08:36.154Z",
+    "notes": [
+      "다음 모퉁이에서 우회전/좁은 길로 접어듦 2예문과 자타 대비를 읽었다. 이동 방향을 바꾸는 핵심을 N5 길 안내 동사로 승인하며 물체 구부러짐 숙련을 주장하지 않는다."
+    ]
+  }
+]

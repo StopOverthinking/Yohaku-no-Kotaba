@@ -1388,6 +1388,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1268300-1",
+    "wordId": "lex-jmdict-1268300",
+    "version": 1,
+    "meaning": "오십음·일본어 가나 음절 체계",
+    "hint": "일본어의 기본 가나 소리를 정해진 순서로 정리한 체계",
+    "confusions": [
+      {
+        "japanese": "漢字",
+        "distinction": "가나의 기본 소리 배열과 뜻을 나타내는 한자를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1268300-1-ex-1",
+        "version": 1,
+        "before": "名簿は",
+        "answer": "五十音",
+        "after": "順なので、名前の読みを先に確かめます。",
+        "reading": "ごじゅうおん",
+        "translation": "명부는 일본어 가나 순서이므로 이름의 읽기를 먼저 확인합니다.",
+        "translationTarget": "일본어 가나",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1380190-1",
+    "wordId": "lex-jmdict-1380190",
+    "version": 1,
+    "meaning": "정밀함",
+    "hint": "작은 부분까지 정확하고 세밀하게 만들어지거나 살펴집니다.",
+    "confusions": [
+      {
+        "japanese": "大まか",
+        "distinction": "精密는 세밀하고 정확함이고 大まか는 큰 틀에서 대략적임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1380190-1-ex-1",
+        "version": 1,
+        "before": "故障の原因を調べるため、機器の",
+        "answer": "精密",
+        "after": "な検査を行った。",
+        "reading": "せいみつ",
+        "translation": "고장 원인을 알아보려고 기기를 정밀하게 검사했다.",
+        "translationTarget": "정밀하게",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441000-1",
+    "wordId": "lex-jmdict-1441000",
+    "version": 1,
+    "meaning": "굴러가다",
+    "hint": "물체가 돌면서 다른 위치로 이동해요.",
+    "confusions": [
+      {
+        "japanese": "転がす",
+        "distinction": "물체가 굴러가는 것과 누군가 물체를 굴리는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441000-1-ex-1",
+        "version": 1,
+        "before": "机から落ちた鉛筆が、椅子の下へ",
+        "answer": "転がった",
+        "after": "。",
+        "reading": "ころがった",
+        "translation": "책상에서 떨어진 연필이 의자 아래로 굴러갔다.",
+        "translationTarget": "굴러갔다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425240-1",
+    "wordId": "lex-jmdict-1425240",
+    "version": 1,
+    "meaning": "중년",
+    "hint": "젊은 시기와 노년 사이에 해당하는 나이대",
+    "confusions": [
+      {
+        "japanese": "青年",
+        "distinction": "젊은 시기를 지난 나이대와 젊은 성인의 시기를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425240-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "中年",
+        "after": "になってから、健康のために水泳を始めた。",
+        "reading": "ちゅうねん",
+        "translation": "중년이 되고 나서 건강을 위해 수영을 시작했다.",
+        "translationTarget": "중년",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381760-1",
+    "wordId": "lex-jmdict-1381760",
+    "version": 1,
+    "meaning": "창백하다",
+    "hint": "얼굴 등의 색에 생기가 없고 희푸른 빛이 도는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "血色がいい",
+        "distinction": "생기 없이 희푸른 얼굴빛과 건강한 혈색을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381760-1-ex-1",
+        "version": 1,
+        "before": "熱は下がったが、顔はまだ",
+        "answer": "青白かった",
+        "after": "。",
+        "reading": "あおじろかった",
+        "translation": "열은 내렸지만 얼굴은 아직 창백했다.",
+        "translationTarget": "창백했다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325450-1",
+    "wordId": "lex-jmdict-1325450",
+    "version": 1,
+    "meaning": "주최",
+    "hint": "행사·모임을 중심이 되어 계획하고 엽니다.",
+    "confusions": [
+      {
+        "japanese": "後援",
+        "distinction": "主催는 직접 행사를 주관하여 엶이고 後援는 뒤에서 지원함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325450-1-ex-1",
+        "version": 1,
+        "before": "来月の展示会は、市と商工会が",
+        "answer": "主催",
+        "after": "する。",
+        "reading": "しゅさい",
+        "translation": "다음 달 전시회는 시와 상공회가 주최한다.",
+        "translationTarget": "주최",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542020-1",
+    "wordId": "lex-jmdict-1542020",
+    "version": 1,
+    "meaning": "유도",
+    "hint": "사람·흐름을 원하는 방향으로 안내합니다.",
+    "confusions": [
+      {
+        "japanese": "強制",
+        "distinction": "誘導는 방향을 이끌어 줌이고 強制는 의사와 관계없이 따르게 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542020-1-ex-1",
+        "version": 1,
+        "before": "係員が出口へ",
+        "answer": "誘導",
+        "after": "したので、混乱なく外に出られた。",
+        "reading": "ゆうどう",
+        "translation": "담당자가 출구로 유도해서 혼란 없이 밖으로 나갈 수 있었다.",
+        "translationTarget": "유도",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455250-1",
+    "wordId": "lex-jmdict-1455250",
+    "version": 1,
+    "meaning": "특별 할인 판매",
+    "hint": "상품을 평소보다 싸게 파는 특별 판매",
+    "confusions": [
+      {
+        "japanese": "定価",
+        "distinction": "특별히 가격을 낮춰 파는 것과 원래 정한 가격을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455250-1-ex-1",
+        "version": 1,
+        "before": "今日は卵が",
+        "answer": "特売",
+        "after": "なので、朝から買い物に行った。",
+        "reading": "とくばい",
+        "translation": "오늘은 달걀을 특별 할인 판매하므로 아침부터 장을 보러 갔다.",
+        "translationTarget": "특별 할인 판매",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366730-1",
+    "wordId": "lex-jmdict-1366730",
+    "version": 1,
+    "meaning": "인격",
+    "hint": "사람의 생각·태도 등을 이루는 전체적인 성품입니다.",
+    "confusions": [
+      {
+        "japanese": "人柄",
+        "distinction": "人格는 도덕적·전체적 인격이고 人柄는 대인관계에서 느껴지는 사람됨에 흔하다. 의미가 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366730-1-ex-1",
+        "version": 1,
+        "before": "成績だけで人の",
+        "answer": "人格",
+        "after": "まで評価することはできない。",
+        "reading": "じんかく",
+        "translation": "성적만으로 사람의 인격까지 평가할 수는 없다.",
+        "translationTarget": "인격",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

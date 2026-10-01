@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "46684d91b33be2270789213421a152e59aef8f0bc6b29c4aed284589ac75d748",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+    "reviewedAt": "2026-10-01T00:21:28.034Z",
+    "notes": [
+      "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+      "게시 전 현재 원본과 모든 미게시 pilot을 합친 9176예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1409560",
+      "33fb57e0bba695dc68599b583974284231d74e62f58e7d11ba3c0c76795609d7"
+    ],
+    [
+      "lex-jmdict-1421380",
+      "8ca36769665bfad70dd3d640abb1d7f61bf63c15a615d0a1d015149943603c23"
+    ],
+    [
+      "lex-jmdict-1421500",
+      "2bacd9e718fc080c2a5336fba440ce4b7aa8ec835b3f69c174db8617b0738b44"
+    ],
+    [
+      "lex-jmdict-1423680",
+      "4a252e09aca023f7e2bf1839b98a81a8614c26bdd27dc94f01eb1a7f2eff0d54"
+    ],
+    [
+      "lex-jmdict-1425240",
+      "5ab8e1003ed43fb08f6d77e7f2f31047e2a6a1b00ba47e8df2deaee0e784746a"
+    ],
+    [
+      "lex-jmdict-1430130",
+      "2f7d0560fd1e151d30ac34caa486e33112f1130dea3903231b77a1f8f79ad048"
+    ],
+    [
+      "lex-jmdict-1430240",
+      "24b940ad06a277fce62eab0fa4b7f4b11ae0f7a23e24cc0368f499a443f524f1"
+    ],
+    [
+      "lex-jmdict-1430800",
+      "e9c3dfeb9a0ffa20e723950871bcc3dfe84592cc6617251aeab018c37aaac441"
+    ],
+    [
+      "lex-jmdict-1431310",
+      "1ece3e7782d73d434117a3dddcddbfd8051cd35b396de7d9969182658b3d4f44"
+    ],
+    [
+      "lex-jmdict-1433570",
+      "ff9758f2936aa776fb58e6dd080ed989e8529d35899bf6e9f4a4cab67f20731e"
+    ],
+    [
+      "lex-jmdict-1435410",
+      "8e91d9114211e9cae8e9888cfb784198c14aa530a170e29f3b4e7ee6e6e3c464"
+    ],
+    [
+      "lex-jmdict-1436840",
+      "c44fb5456f724573df4f9827bb0216c3203378f8df641e73305aa4e85b6c4fa3"
+    ],
+    [
+      "lex-jmdict-1437820",
+      "9553c782ca3b02a0c3e924a2b70c952e498c6c0796d8d7004b8e5bf32314d765"
+    ],
+    [
+      "lex-jmdict-1442110",
+      "c4ccfcaa048e1b92762c2ba21131f483948bc7dc2579c42ca0bbedd6353bc94d"
+    ],
+    [
+      "lex-jmdict-1443720",
+      "5064f9a1f5395fd55b6d37344ee7873ee082da1116a8827ec9f89b8e36ad1f13"
+    ],
+    [
+      "lex-jmdict-1445000",
+      "ad8678bc28e1164678ec28539f8c57596396b6b4feb443f4436033201953983a"
+    ],
+    [
+      "lex-jmdict-1449510",
+      "fd865afab05545c16425ba75a4fabbb87e6ac18410d392d9705d945603bf35b4"
+    ]
+  ]
+}

@@ -1972,6 +1972,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1142880-1",
+    "wordId": "lex-jmdict-1142880",
+    "version": 1,
+    "meaning": "리본",
+    "hint": "장식이나 묶는 데 쓰는 좁고 긴 띠 모양의 천",
+    "confusions": [
+      {
+        "japanese": "ひも",
+        "distinction": "장식용 띠 모양의 천과 일반적인 끈을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1142880-1-ex-1",
+        "version": 1,
+        "before": "箱に青い",
+        "answer": "リボン",
+        "after": "を掛けて、贈り物にしました。",
+        "reading": "リボン",
+        "translation": "상자에 파란 리본을 둘러 선물로 만들었습니다.",
+        "translationTarget": "리본",
+        "difficulty": 21,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397800-1",
+    "wordId": "lex-jmdict-1397800",
+    "version": 1,
+    "meaning": "가로막다, 방해하다",
+    "hint": "앞으로 나아가거나 이루려는 것을 막습니다.",
+    "confusions": [
+      {
+        "japanese": "妨げる",
+        "distinction": "阻む와 妨げる는 방해함이 겹친다. 阻む는 진로·성취를 가로막는 장벽에 흔하고 妨げる는 방해 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397800-1-ex-1",
+        "version": 1,
+        "before": "厚い氷が船の進路を",
+        "answer": "阻んでいる",
+        "after": "。",
+        "reading": "はばんでいる",
+        "translation": "두꺼운 얼음이 배의 진로를 가로막고 있다.",
+        "translationTarget": "가로막고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1567610-1",
+    "wordId": "lex-jmdict-1567610",
+    "version": 1,
+    "meaning": "주무르다",
+    "hint": "손으로 누르고 문지르며 뭉친 곳을 풀어요.",
+    "confusions": [
+      {
+        "japanese": "叩く",
+        "distinction": "누르며 주무르는 것과 두드리는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1567610-1-ex-1",
+        "version": 1,
+        "before": "長時間座っていたので、母に肩を少し",
+        "answer": "揉んで",
+        "after": "もらった。",
+        "reading": "もんで",
+        "translation": "오랫동안 앉아 있어서 어머니가 어깨를 조금 주물러 주셨다.",
+        "translationTarget": "주물러",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326040-1",
+    "wordId": "lex-jmdict-1326040",
+    "version": 1,
+    "meaning": "주임",
+    "hint": "어떤 업무·부서를 중심에서 맡아 관리하는 담당자입니다.",
+    "confusions": [
+      {
+        "japanese": "新人",
+        "distinction": "主任는 책임 있는 중심 담당자이고 新人는 새로 들어온 사람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326040-1-ex-1",
+        "version": 1,
+        "before": "判断に迷ったので、売り場の",
+        "answer": "主任",
+        "after": "に相談した。",
+        "reading": "しゅにん",
+        "translation": "판단이 어려워 매장 주임에게 상의했다.",
+        "translationTarget": "주임",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542040-1",
+    "wordId": "lex-jmdict-1542040",
+    "version": 1,
+    "meaning": "유혹",
+    "hint": "매력으로 마음을 끌어 어떤 행동을 하게 합니다.",
+    "confusions": [
+      {
+        "japanese": "誘導",
+        "distinction": "誘惑는 마음을 끄는 유혹이고 誘導는 방향으로 이끌어 감이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542040-1-ex-1",
+        "version": 1,
+        "before": "勉強中に、動画を見たいという",
+        "answer": "誘惑",
+        "after": "に負けてしまった。",
+        "reading": "ゆうわく",
+        "translation": "공부 중에 동영상을 보고 싶다는 유혹에 지고 말았다.",
+        "translationTarget": "유혹",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1548200-1",
+    "wordId": "lex-jmdict-1548200",
+    "version": 1,
+    "meaning": "일본 방문·일본에 옴",
+    "hint": "다른 나라에서 일본으로 오는 것",
+    "confusions": [
+      {
+        "japanese": "帰国",
+        "distinction": "일본으로 오는 것과 자기 나라로 돌아가는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1548200-1-ex-1",
+        "version": 1,
+        "before": "初めて",
+        "answer": "来日",
+        "after": "した友人に、電車の乗り方を教えた。",
+        "reading": "らいにち",
+        "translation": "처음 일본에 온 친구에게 전철 타는 방법을 가르쳐 주었다.",
+        "translationTarget": "일본에 온",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443170-1",
+    "wordId": "lex-jmdict-1443170",
+    "version": 1,
+    "meaning": "전구",
+    "hint": "전기를 통해 빛을 내는 조명 부품",
+    "confusions": [
+      {
+        "japanese": "電池",
+        "distinction": "빛을 내는 부품과 전기를 저장하는 부품을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443170-1-ex-1",
+        "version": 1,
+        "before": "台所の",
+        "answer": "電球",
+        "after": "を交換するため、脚立を借りた。",
+        "reading": "でんきゅう",
+        "translation": "부엌 전구를 교체하려고 사다리를 빌렸다.",
+        "translationTarget": "전구",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448760-1",
+    "wordId": "lex-jmdict-1448760",
+    "version": 1,
+    "meaning": "등유",
+    "hint": "난로나 조명 등의 연료로 사용하는 기름",
+    "confusions": [
+      {
+        "japanese": "ガソリン",
+        "distinction": "난방 등에 쓰는 연료와 자동차 등에 쓰는 연료를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448760-1-ex-1",
+        "version": 1,
+        "before": "冬になる前に、ストーブ用の",
+        "answer": "灯油",
+        "after": "を買っておいた。",
+        "reading": "とうゆ",
+        "translation": "겨울이 되기 전에 난로용 등유를 사 두었다.",
+        "translationTarget": "등유",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560800-1",
+    "wordId": "lex-jmdict-1560800",
+    "version": 1,
+    "meaning": "낭비",
+    "hint": "돈·시간·노력 등을 쓸데없이 많이 씁니다.",
+    "confusions": [
+      {
+        "japanese": "節約",
+        "distinction": "浪費는 불필요하게 많이 씀이고 節約는 아껴 씀이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560800-1-ex-1",
+        "version": 1,
+        "before": "目的のない会議は、参加者の時間の",
+        "answer": "浪費",
+        "after": "になってしまう。",
+        "reading": "ろうひ",
+        "translation": "목적 없는 회의는 참가자 시간의 낭비가 되고 만다.",
+        "translationTarget": "낭비",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-JLPTN3_70-2",
+    "wordId": "JLPTN3_70",
+    "version": 1,
+    "meaning": "틀리다, 올바르지 않다",
+    "hint": "답이나 내용이 올바르지 않거나 맞아야 할 기준과 어긋나요.",
+    "confusions": [
+      {
+        "japanese": "異なる",
+        "distinction": "비교 표현은 서로 다른 점을 중립적으로 나타낸다. 이 용법은 정답이나 올바른 내용과 어긋났음을 나타낸다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-JLPTN3_70-2-ex-1",
+        "version": 1,
+        "before": "店員に、お釣りの金額が",
+        "answer": "違う",
+        "after": "と伝えた。",
+        "reading": "ちがう",
+        "translation": "점원에게 거스름돈 금액이 틀리다고 말했다.",
+        "translationTarget": "틀리다",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

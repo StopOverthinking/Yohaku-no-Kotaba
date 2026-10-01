@@ -1096,6 +1096,70 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427150-1",
+    "wordId": "lex-jmdict-1427150",
+    "version": 1,
+    "meaning": "저명함, 유명함",
+    "hint": "이름·업적이 널리 알려져 있습니다.",
+    "confusions": [
+      {
+        "japanese": "著しい",
+        "distinction": "著名는 이름이 널리 알려짐이고 著しい는 변화·차이가 두드러짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427150-1-ex-1",
+        "version": 1,
+        "before": "町の図書館で、",
+        "answer": "著名",
+        "after": "な作家の講演が開かれた。",
+        "reading": "ちょめい",
+        "translation": "마을 도서관에서 저명한 작가의 강연이 열렸다.",
+        "translationTarget": "저명한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1349780-1",
+    "wordId": "lex-jmdict-1349780",
+    "version": 1,
+    "meaning": "승진",
+    "hint": "직장에서 더 높은 지위·직급에 오릅니다.",
+    "confusions": [
+      {
+        "japanese": "進学",
+        "distinction": "昇進는 직급이 높아짐이고 進学는 상급 학교로 진학함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1349780-1-ex-1",
+        "version": 1,
+        "before": "長年の働きが認められ、課長に",
+        "answer": "昇進",
+        "after": "した。",
+        "reading": "しょうしん",
+        "translation": "오랜 근무 성과를 인정받아 과장으로 승진했다.",
+        "translationTarget": "승진",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

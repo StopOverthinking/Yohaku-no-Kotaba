@@ -1,0 +1,2992 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "selectedAt": "2026-09-30T23:47:05.166Z",
+  "scope": "practical N2 source-evidence vocabulary; avoid other author reserved IDs",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1062910",
+      "japanese": "シリーズ",
+      "reading": "シリーズ",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1064980",
+      "japanese": "ジャーナリスト",
+      "reading": "ジャーナリスト",
+      "level": "N2",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n2-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1067480",
+      "japanese": "スカーフ",
+      "reading": "スカーフ",
+      "level": "N4",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n4-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1070320",
+      "japanese": "ステージ",
+      "reading": "ステージ",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1072240",
+      "japanese": "スピーカー",
+      "reading": "スピーカー",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1073570",
+      "japanese": "スマート",
+      "reading": "スマート",
+      "level": "N2",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n2-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1073760",
+      "japanese": "スライド",
+      "reading": "スライド",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1075160",
+      "japanese": "ゼミ",
+      "reading": "ゼミ",
+      "level": "N2",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n2-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1078830",
+      "japanese": "テーマ",
+      "reading": "テーマ",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1081120",
+      "japanese": "テンポ",
+      "reading": "テンポ",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1093000",
+      "japanese": "ネックレス",
+      "reading": "ネックレス",
+      "level": "N4",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n4-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1096830",
+      "japanese": "ハンドル",
+      "reading": "ハンドル",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1100240",
+      "japanese": "バンド",
+      "reading": "バンド",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1105160",
+      "japanese": "ビタミン",
+      "reading": "ビタミン",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1108160",
+      "japanese": "ファスナー",
+      "reading": "ファスナー",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1111160",
+      "japanese": "フライパン",
+      "reading": "フライパン",
+      "level": "N4",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n4-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1115670",
+      "japanese": "プラスチック",
+      "reading": "プラスチック",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1116300",
+      "japanese": "プリント",
+      "reading": "プリント",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1119700",
+      "japanese": "ベテラン",
+      "reading": "ベテラン",
+      "level": "N2",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N2로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n2-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1125110",
+      "japanese": "ポスター",
+      "reading": "ポスター",
+      "level": "N4",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n4-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1126980",
+      "japanese": "マイナス",
+      "reading": "マイナス",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1130040",
+      "japanese": "マンション",
+      "reading": "マンション",
+      "level": "N4",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N4로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n4-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1134480",
+      "japanese": "モーター",
+      "reading": "モーター",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1135270",
+      "japanese": "モデル",
+      "reading": "モデル",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1141620",
+      "japanese": "リズム",
+      "reading": "リズム",
+      "level": "N3",
+      "levelNote": "출처 OpenJLPT N2이며 독립 검토에서 선택한 일상 용법의 실제 난도를 N3로 제안했다. 출처 수준과 편집 분류를 구분한다.",
+      "draftSegment": "n3-020/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1211730",
+      "japanese": "官庁",
+      "reading": "かんちょう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 관청·정부 기관 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1206610",
+      "japanese": "学会",
+      "reading": "がっかい",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 학회·학술 대회 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1206870",
+      "japanese": "学術",
+      "reading": "がくじゅつ",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 학술 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1208480",
+      "japanese": "活力",
+      "reading": "かつりょく",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 활력 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1251030",
+      "japanese": "系統",
+      "reading": "けいとう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 계통·체계 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1253130",
+      "japanese": "芸能",
+      "reading": "げいのう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 예능·공연 예술 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1258880",
+      "japanese": "県庁",
+      "reading": "けんちょう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 현청 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1261470",
+      "japanese": "原産",
+      "reading": "げんさん",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 원산·원산지 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1270010",
+      "japanese": "後輩",
+      "reading": "こうはい",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 후배 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1271970",
+      "japanese": "交差",
+      "reading": "こうさ",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 교차 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1273420",
+      "japanese": "公害",
+      "reading": "こうがい",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 공해 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1273900",
+      "japanese": "公衆",
+      "reading": "こうしゅう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 공중·일반 대중 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1275070",
+      "japanese": "功績",
+      "reading": "こうせき",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 공적·업적 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1276220",
+      "japanese": "口実",
+      "reading": "こうじつ",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 구실·핑계 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1278130",
+      "japanese": "工事",
+      "reading": "こうじ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 공사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1278590",
+      "japanese": "広場",
+      "reading": "ひろば",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 광장 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1279540",
+      "japanese": "校舎",
+      "reading": "こうしゃ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 학교 건물·교사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1279600",
+      "japanese": "校庭",
+      "reading": "こうてい",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 운동장·학교 뜰 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1281930",
+      "japanese": "行事",
+      "reading": "ぎょうじ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 행사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1282220",
+      "japanese": "行列",
+      "reading": "ぎょうれつ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 줄·행렬 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1282280",
+      "japanese": "講師",
+      "reading": "こうし",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 강사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1283060",
+      "japanese": "香水",
+      "reading": "こうすい",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 향수 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1283400",
+      "japanese": "高級",
+      "reading": "こうきゅう",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 고급이다 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1283690",
+      "japanese": "高層",
+      "reading": "こうそう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 고층 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1287180",
+      "japanese": "国立",
+      "reading": "こくりつ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 국립 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1260660",
+      "japanese": "顕微鏡",
+      "reading": "けんびきょう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 현미경 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1222460",
+      "japanese": "気体",
+      "reading": "きたい",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 기체 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1239970",
+      "japanese": "曲線",
+      "reading": "きょくせん",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 곡선 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1250430",
+      "japanese": "形容詞",
+      "reading": "けいようし",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 형용사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1268300",
+      "japanese": "五十音",
+      "reading": "ごじゅうおん",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 오십음·일본어 가나 음절 체계 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1296440",
+      "japanese": "在学",
+      "reading": "ざいがく",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 재학 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1303930",
+      "japanese": "算数",
+      "reading": "さんすう",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 산수 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1304330",
+      "japanese": "酸性",
+      "reading": "さんせい",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 산성 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1299970",
+      "japanese": "三角",
+      "reading": "さんかく",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 삼각형·삼각 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1307090",
+      "japanese": "四角",
+      "reading": "しかく",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 사각형·사각 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1307130",
+      "japanese": "四季",
+      "reading": "しき",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 사계절 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1307250",
+      "japanese": "四捨五入",
+      "reading": "ししゃごにゅう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 반올림 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1311420",
+      "japanese": "私立",
+      "reading": "しりつ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 사립 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1316290",
+      "japanese": "時速",
+      "reading": "じそく",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 시속 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1320490",
+      "japanese": "湿度",
+      "reading": "しつど",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 습도 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1322890",
+      "japanese": "社説",
+      "reading": "しゃせつ",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 사설 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1325420",
+      "japanese": "主語",
+      "reading": "しゅご",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 주어 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1336980",
+      "japanese": "重力",
+      "reading": "じゅうりょく",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 중력 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1337830",
+      "japanese": "熟語",
+      "reading": "じゅくご",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 한자 숙어·한자 합성어 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1342820",
+      "japanese": "初旬",
+      "reading": "しょじゅん",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 초순 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1344130",
+      "japanese": "書道",
+      "reading": "しょどう",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 서예 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1352930",
+      "japanese": "上級",
+      "reading": "じょうきゅう",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 상급·고급 단계 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1363600",
+      "japanese": "真空",
+      "reading": "しんくう",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 진공 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1370380",
+      "japanese": "図形",
+      "reading": "ずけい",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 도형 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1370980",
+      "japanese": "垂直",
+      "reading": "すいちょく",
+      "level": "N2",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 수직이다 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N2로 검토했다.",
+      "draftSegment": "n2-020/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1147800",
+      "japanese": "ロビー",
+      "reading": "ロビー",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 로비 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1146140",
+      "japanese": "レンズ",
+      "reading": "レンズ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 렌즈 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1144700",
+      "japanese": "レインコート",
+      "reading": "レインコート",
+      "level": "N4",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 우비 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다.",
+      "draftSegment": "n4-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1141870",
+      "japanese": "リットル",
+      "reading": "リットル",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 리터 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1142880",
+      "japanese": "リボン",
+      "reading": "リボン",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 리본 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1129210",
+      "japanese": "マフラー",
+      "reading": "マフラー",
+      "level": "N4",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 목도리 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다.",
+      "draftSegment": "n4-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1149240",
+      "japanese": "ワンピース",
+      "reading": "ワンピース",
+      "level": "N4",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 원피스 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다.",
+      "draftSegment": "n4-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1130640",
+      "japanese": "ミシン",
+      "reading": "ミシン",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 재봉틀 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1077740",
+      "japanese": "チップ",
+      "reading": "チップ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 팁·봉사료 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1078240",
+      "japanese": "チョーク",
+      "reading": "チョーク",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 분필 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1089930",
+      "japanese": "ナイロン",
+      "reading": "ナイロン",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 나일론 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1103270",
+      "japanese": "パンツ",
+      "reading": "パンツ",
+      "level": "N4",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 팬티·속바지 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다.",
+      "draftSegment": "n4-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1105580",
+      "japanese": "ビニール",
+      "reading": "ビニール",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 비닐 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1113650",
+      "japanese": "ブラウス",
+      "reading": "ブラウス",
+      "level": "N4",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 블라우스 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다.",
+      "draftSegment": "n4-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1114910",
+      "japanese": "ブローチ",
+      "reading": "ブローチ",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 브로치 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1118780",
+      "japanese": "ヘリコプター",
+      "reading": "ヘリコプター",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 헬리콥터 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1129290",
+      "japanese": "マラソン",
+      "reading": "マラソン",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 마라톤 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1135680",
+      "japanese": "モノレール",
+      "reading": "モノレール",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 모노레일 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1139190",
+      "japanese": "ラッシュアワー",
+      "reading": "ラッシュアワー",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 출퇴근 혼잡 시간 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1140100",
+      "japanese": "ランチ",
+      "reading": "ランチ",
+      "level": "N4",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 점심 식사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다.",
+      "draftSegment": "n4-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1145220",
+      "japanese": "レジャー",
+      "reading": "レジャー",
+      "level": "N3",
+      "levelNote": "사전 출처 N2와 별도로 현재 선택한 여가 활동 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N3로 검토했다.",
+      "draftSegment": "n3-020/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1546040",
+      "japanese": "溶かす",
+      "reading": "とかす",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1546050",
+      "japanese": "溶く",
+      "reading": "とく",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-11.json"
+    },
+    {
+      "dictionaryId": "jmdict-1548380",
+      "japanese": "頼もしい",
+      "reading": "たのもしい",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1549100",
+      "japanese": "乱暴",
+      "reading": "らんぼう",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1550630",
+      "japanese": "裏返す",
+      "reading": "うらがえす",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1551350",
+      "japanese": "立ち止まる",
+      "reading": "たちどまる",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1551960",
+      "japanese": "略す",
+      "reading": "りゃくす",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-11.json"
+    },
+    {
+      "dictionaryId": "jmdict-1552310",
+      "japanese": "流行る",
+      "reading": "はやる",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1554380",
+      "japanese": "涼む",
+      "reading": "すずむ",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1554940",
+      "japanese": "力強い",
+      "reading": "ちからづよい",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1560710",
+      "japanese": "朗らか",
+      "reading": "ほがらか",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-11.json"
+    },
+    {
+      "dictionaryId": "jmdict-1562300",
+      "japanese": "話しかける",
+      "reading": "はなしかける",
+      "level": "N4",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "n4-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1565480",
+      "japanese": "嗅ぐ",
+      "reading": "かぐ",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1567610",
+      "japanese": "揉む",
+      "reading": "もむ",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1569240",
+      "japanese": "狡い",
+      "reading": "ずるい",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1576360",
+      "japanese": "逸れる",
+      "reading": "それる",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-11.json"
+    },
+    {
+      "dictionaryId": "jmdict-1582430",
+      "japanese": "鈍い",
+      "reading": "にぶい",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-11.json"
+    },
+    {
+      "dictionaryId": "jmdict-1586430",
+      "japanese": "温まる",
+      "reading": "あたたまる",
+      "level": "N4",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "n4-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1588330",
+      "japanese": "映す",
+      "reading": "うつす",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1589330",
+      "japanese": "思いつく",
+      "reading": "おもいつく",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1592130",
+      "japanese": "区切る",
+      "reading": "くぎる",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-11.json"
+    },
+    {
+      "dictionaryId": "jmdict-1592350",
+      "japanese": "悔しい",
+      "reading": "くやしい",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1594270",
+      "japanese": "静まる",
+      "reading": "しずまる",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1205190",
+      "japanese": "拡充",
+      "reading": "かくじゅう",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1244530",
+      "japanese": "苦心",
+      "reading": "くしん",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1292760",
+      "japanese": "再三",
+      "reading": "さいさん",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1316400",
+      "japanese": "次ぐ",
+      "reading": "つぐ",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1370010",
+      "japanese": "甚だしい",
+      "reading": "はなはだしい",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1404750",
+      "japanese": "足る",
+      "reading": "たる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1385350",
+      "japanese": "接する",
+      "reading": "せっする",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1386700",
+      "japanese": "絶えず",
+      "reading": "たえず",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1396910",
+      "japanese": "粗い",
+      "reading": "あらい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1389810",
+      "japanese": "専制",
+      "reading": "せんせい",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1396590",
+      "japanese": "狙う",
+      "reading": "ねらう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1483600",
+      "japanese": "比較的",
+      "reading": "ひかくてき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1491840",
+      "japanese": "不規則",
+      "reading": "ふきそく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1502640",
+      "japanese": "物騒",
+      "reading": "ぶっそう",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1482710",
+      "japanese": "卑怯",
+      "reading": "ひきょう",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1483900",
+      "japanese": "皮肉",
+      "reading": "ひにく",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1497110",
+      "japanese": "普及",
+      "reading": "ふきゅう",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1503210",
+      "japanese": "分解",
+      "reading": "ぶんかい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1504160",
+      "japanese": "分布",
+      "reading": "ぶんぷ",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1520380",
+      "japanese": "防止",
+      "reading": "ぼうし",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1501580",
+      "japanese": "払い込む",
+      "reading": "はらいこむ",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1518320",
+      "japanese": "飽くまで",
+      "reading": "あくまで",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1532810",
+      "japanese": "銘々",
+      "reading": "めいめい",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1534490",
+      "japanese": "儲かる",
+      "reading": "もうかる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1544090",
+      "japanese": "余計",
+      "reading": "よけい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1554750",
+      "japanese": "領収",
+      "reading": "りょうしゅう",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1561590",
+      "japanese": "録音",
+      "reading": "ろくおん",
+      "level": "N4",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "n4-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1588500",
+      "japanese": "売り上げ",
+      "reading": "うりあげ",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1589250",
+      "japanese": "落し物",
+      "reading": "おとしもの",
+      "level": "N4",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "n4-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1591210",
+      "japanese": "基準",
+      "reading": "きじゅん",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1598590",
+      "japanese": "問い合わせ",
+      "reading": "といあわせ",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1598800",
+      "japanese": "整う",
+      "reading": "ととのう",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1594600",
+      "japanese": "締め切る",
+      "reading": "しめきる",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1596210",
+      "japanese": "先頭",
+      "reading": "せんとう",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1595360",
+      "japanese": "重体",
+      "reading": "じゅうたい",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1596730",
+      "japanese": "続々",
+      "reading": "ぞくぞく",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1597480",
+      "japanese": "着々",
+      "reading": "ちゃくちゃく",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1597300",
+      "japanese": "短編",
+      "reading": "たんぺん",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1604420",
+      "japanese": "見かけ",
+      "reading": "みかけ",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1605280",
+      "japanese": "元々",
+      "reading": "もともと",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1610630",
+      "japanese": "思いがけない",
+      "reading": "おもいがけない",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1610950",
+      "japanese": "長引く",
+      "reading": "ながびく",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1611980",
+      "japanese": "恵まれる",
+      "reading": "めぐまれる",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1612040",
+      "japanese": "申し訳ない",
+      "reading": "もうしわけない",
+      "level": "N4",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "n4-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1611770",
+      "japanese": "道順",
+      "reading": "みちじゅん",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1601420",
+      "japanese": "日当たり",
+      "reading": "ひあたり",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1601830",
+      "japanese": "日差し",
+      "reading": "ひざし",
+      "level": "N3",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1611370",
+      "japanese": "日にち",
+      "reading": "ひにち",
+      "level": "N4",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "n4-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1604280",
+      "japanese": "稀",
+      "reading": "まれ",
+      "level": "N2",
+      "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-12.json"
+    },
+    {
+      "dictionaryId": "jmdict-1404590",
+      "japanese": "測量",
+      "reading": "そくりょう",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1409560",
+      "japanese": "体積",
+      "reading": "たいせき",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1421380",
+      "japanese": "地点",
+      "reading": "ちてん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1421500",
+      "japanese": "地名",
+      "reading": "ちめい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1423680",
+      "japanese": "中間",
+      "reading": "ちゅうかん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1424710",
+      "japanese": "中性",
+      "reading": "ちゅうせい",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1425030",
+      "japanese": "中途",
+      "reading": "ちゅうと",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1425240",
+      "japanese": "中年",
+      "reading": "ちゅうねん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1430040",
+      "japanese": "長女",
+      "reading": "ちょうじょ",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1430080",
+      "japanese": "長男",
+      "reading": "ちょうなん",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1430130",
+      "japanese": "長方形",
+      "reading": "ちょうほうけい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1430240",
+      "japanese": "頂点",
+      "reading": "ちょうてん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1430800",
+      "japanese": "直角",
+      "reading": "ちょっかく",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1431310",
+      "japanese": "直線",
+      "reading": "ちょくせん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1431600",
+      "japanese": "直流",
+      "reading": "ちょくりゅう",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1433570",
+      "japanese": "通用",
+      "reading": "つうよう",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1435410",
+      "japanese": "定価",
+      "reading": "ていか",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1436840",
+      "japanese": "釘",
+      "reading": "くぎ",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1437820",
+      "japanese": "鉄橋",
+      "reading": "てっきょう",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1442110",
+      "japanese": "伝染",
+      "reading": "でんせん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1443720",
+      "japanese": "電波",
+      "reading": "でんぱ",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1443790",
+      "japanese": "電流",
+      "reading": "でんりゅう",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1445000",
+      "japanese": "都心",
+      "reading": "としん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1449220",
+      "japanese": "当番",
+      "reading": "とうばん",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1449510",
+      "japanese": "等分",
+      "reading": "とうぶん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "n3-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1279290",
+      "japanese": "更ける",
+      "reading": "ふける",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1280950",
+      "japanese": "耕す",
+      "reading": "たがやす",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1322170",
+      "japanese": "射す",
+      "reading": "さす",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1337590",
+      "japanese": "縮れる",
+      "reading": "ちぢれる",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1381210",
+      "japanese": "誓う",
+      "reading": "ちかう",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1427950",
+      "japanese": "彫る",
+      "reading": "ほる",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1446180",
+      "japanese": "凍える",
+      "reading": "こごえる",
+      "level": "N2",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1333810",
+      "japanese": "醜い",
+      "reading": "みにくい",
+      "level": "N2",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1341910",
+      "japanese": "純情",
+      "reading": "じゅんじょう",
+      "level": "N2",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1378140",
+      "japanese": "清い",
+      "reading": "きよい",
+      "level": "N2",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1539660",
+      "japanese": "勇ましい",
+      "reading": "いさましい",
+      "level": "N2",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1596440",
+      "japanese": "騒々しい",
+      "reading": "そうぞうしい",
+      "level": "N2",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1604650",
+      "japanese": "見慣れる",
+      "reading": "みなれる",
+      "level": "N2",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준.",
+      "draftSegment": "n2-021/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1376060",
+      "japanese": "政党",
+      "reading": "せいとう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1375520",
+      "japanese": "性別",
+      "reading": "せいべつ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1379410",
+      "japanese": "生年月日",
+      "reading": "せいねんがっぴ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1381140",
+      "japanese": "西暦",
+      "reading": "せいれき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1381570",
+      "japanese": "青少年",
+      "reading": "せいしょうねん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1388110",
+      "japanese": "先端",
+      "reading": "せんたん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1396820",
+      "japanese": "祖先",
+      "reading": "そせん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1421130",
+      "japanese": "地質",
+      "reading": "ちしつ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1424690",
+      "japanese": "中世",
+      "reading": "ちゅうせい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1460180",
+      "japanese": "南極",
+      "reading": "なんきょく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1461870",
+      "japanese": "二次",
+      "reading": "にじ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1470730",
+      "japanese": "農村",
+      "reading": "のうそん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1471420",
+      "japanese": "破片",
+      "reading": "はへん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1487500",
+      "japanese": "必需品",
+      "reading": "ひつじゅひん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1486670",
+      "japanese": "美容",
+      "reading": "びよう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1483920",
+      "japanese": "皮膚",
+      "reading": "ひふ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1479230",
+      "japanese": "半径",
+      "reading": "はんけい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1479770",
+      "japanese": "半島",
+      "reading": "はんとう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1482360",
+      "japanese": "番地",
+      "reading": "ばんち",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1358410",
+      "japanese": "食塩",
+      "reading": "しょくえん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1362530",
+      "japanese": "森林",
+      "reading": "しんりん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1366280",
+      "japanese": "針路",
+      "reading": "しんろ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1369140",
+      "japanese": "人文科学",
+      "reading": "じんぶんかがく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1318110",
+      "japanese": "自然科学",
+      "reading": "しぜんかがく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1322720",
+      "japanese": "社会科学",
+      "reading": "しゃかいかがく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-021/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1179930",
+      "japanese": "応接",
+      "reading": "おうせつ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1204520",
+      "japanese": "概論",
+      "reading": "がいろん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1291090",
+      "japanese": "差し引き",
+      "reading": "さしひき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1307570",
+      "japanese": "始終",
+      "reading": "しじゅう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1290360",
+      "japanese": "混合",
+      "reading": "こんごう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1317400",
+      "japanese": "自衛",
+      "reading": "じえい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1317810",
+      "japanese": "自治",
+      "reading": "じち",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1378240",
+      "japanese": "清書",
+      "reading": "せいしょ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1378320",
+      "japanese": "清掃",
+      "reading": "せいそう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1372350",
+      "japanese": "炊事",
+      "reading": "すいじ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1427980",
+      "japanese": "彫刻",
+      "reading": "ちょうこく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1447270",
+      "japanese": "投書",
+      "reading": "とうしょ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1474050",
+      "japanese": "売買",
+      "reading": "ばいばい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1477810",
+      "japanese": "発売",
+      "reading": "はつばい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1480540",
+      "japanese": "反省",
+      "reading": "はんせい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1501390",
+      "japanese": "複写",
+      "reading": "ふくしゃ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1515510",
+      "japanese": "包装",
+      "reading": "ほうそう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1508600",
+      "japanese": "閉会",
+      "reading": "へいかい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1536060",
+      "japanese": "問答",
+      "reading": "もんどう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1548200",
+      "japanese": "来日",
+      "reading": "らいにち",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1554730",
+      "japanese": "領事",
+      "reading": "りょうじ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1599640",
+      "japanese": "並木",
+      "reading": "なみき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1595750",
+      "japanese": "住まい",
+      "reading": "すまい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1589960",
+      "japanese": "書留",
+      "reading": "かきとめ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1463920",
+      "japanese": "日帰り",
+      "reading": "ひがえり",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-01.json"
+    },
+    {
+      "dictionaryId": "jmdict-1276110",
+      "japanese": "口紅",
+      "reading": "くちべに",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1277460",
+      "japanese": "好き嫌い",
+      "reading": "すききらい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1277880",
+      "japanese": "孝行",
+      "reading": "こうこう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1286160",
+      "japanese": "国王",
+      "reading": "こくおう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1291980",
+      "japanese": "座布団",
+      "reading": "ざぶとん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1291990",
+      "japanese": "座敷",
+      "reading": "ざしき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1292140",
+      "japanese": "催し",
+      "reading": "もよおし",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1296200",
+      "japanese": "裁縫",
+      "reading": "さいほう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1296660",
+      "japanese": "材木",
+      "reading": "ざいもく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1303230",
+      "japanese": "山林",
+      "reading": "さんりん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1306570",
+      "japanese": "刺身",
+      "reading": "さしみ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1307990",
+      "japanese": "子孫",
+      "reading": "しそん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1310920",
+      "japanese": "死体",
+      "reading": "したい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1311340",
+      "japanese": "私鉄",
+      "reading": "してつ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1311640",
+      "japanese": "紫",
+      "reading": "むらさき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1311750",
+      "japanese": "脂",
+      "reading": "あぶら",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1313350",
+      "japanese": "歯車",
+      "reading": "はぐるま",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1315060",
+      "japanese": "児童",
+      "reading": "じどう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1320250",
+      "japanese": "失恋",
+      "reading": "しつれん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1321670",
+      "japanese": "縞",
+      "reading": "しま",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1323120",
+      "japanese": "車庫",
+      "reading": "しゃこ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1323170",
+      "japanese": "車掌",
+      "reading": "しゃしょう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1323280",
+      "japanese": "車輪",
+      "reading": "しゃりん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1327770",
+      "japanese": "手首",
+      "reading": "てくび",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-02.json"
+    },
+    {
+      "dictionaryId": "jmdict-1390730",
+      "japanese": "扇子",
+      "reading": "せんす",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1390760",
+      "japanese": "扇風機",
+      "reading": "せんぷうき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1390950",
+      "japanese": "洗剤",
+      "reading": "せんざい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1391880",
+      "japanese": "線路",
+      "reading": "せんろ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1443170",
+      "japanese": "電球",
+      "reading": "でんきゅう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1443620",
+      "japanese": "電池",
+      "reading": "でんち",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1443630",
+      "japanese": "電柱",
+      "reading": "でんちゅう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1448600",
+      "japanese": "湯気",
+      "reading": "ゆげ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1448730",
+      "japanese": "灯台",
+      "reading": "とうだい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1448760",
+      "japanese": "灯油",
+      "reading": "とうゆ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1454000",
+      "japanese": "童話",
+      "reading": "どうわ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1455250",
+      "japanese": "特売",
+      "reading": "とくばい",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1455670",
+      "japanese": "独り言",
+      "reading": "ひとりごと",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1458650",
+      "japanese": "内線",
+      "reading": "ないせん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1463740",
+      "japanese": "虹",
+      "reading": "にじ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1463790",
+      "japanese": "日の出",
+      "reading": "ひので",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1463800",
+      "japanese": "日の入り",
+      "reading": "ひのいり",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1463840",
+      "japanese": "日陰",
+      "reading": "ひかげ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1463860",
+      "japanese": "日課",
+      "reading": "にっか",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1464110",
+      "japanese": "日時",
+      "reading": "にちじ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1474040",
+      "japanese": "売店",
+      "reading": "ばいてん",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1476410",
+      "japanese": "箸",
+      "reading": "はし",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1477090",
+      "japanese": "鉢",
+      "reading": "はち",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1476500",
+      "japanese": "肌着",
+      "reading": "はだぎ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1328030",
+      "japanese": "手前",
+      "reading": "てまえ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-03.json"
+    },
+    {
+      "dictionaryId": "jmdict-1467730",
+      "japanese": "熱する",
+      "reading": "ねっする",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1469530",
+      "japanese": "捻る",
+      "reading": "ひねる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1472230",
+      "japanese": "拝む",
+      "reading": "おがむ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1474200",
+      "japanese": "這う",
+      "reading": "はう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1474860",
+      "japanese": "泊める",
+      "reading": "とめる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1475500",
+      "japanese": "薄める",
+      "reading": "うすめる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1497020",
+      "japanese": "敷く",
+      "reading": "しく",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1514140",
+      "japanese": "捕る",
+      "reading": "とる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1516530",
+      "japanese": "放る",
+      "reading": "ほうる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1519970",
+      "japanese": "膨らます",
+      "reading": "ふくらます",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1532880",
+      "japanese": "鳴らす",
+      "reading": "ならす",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1538350",
+      "japanese": "訳す",
+      "reading": "やくす",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1606020",
+      "japanese": "蘇る",
+      "reading": "よみがえる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1606790",
+      "japanese": "詫びる",
+      "reading": "わびる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1609000",
+      "japanese": "扇ぐ",
+      "reading": "あおぐ",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1609260",
+      "japanese": "嫌がる",
+      "reading": "いやがる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1609310",
+      "japanese": "打ち消す",
+      "reading": "うちけす",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1611090",
+      "japanese": "捩る",
+      "reading": "ねじる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1251910",
+      "japanese": "繋げる",
+      "reading": "つなげる",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1399830",
+      "japanese": "挿す",
+      "reading": "さす",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-2856318",
+      "japanese": "治す",
+      "reading": "なおす",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1599680",
+      "japanese": "倣う",
+      "reading": "ならう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1599780",
+      "japanese": "匂う",
+      "reading": "におう",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1611130",
+      "japanese": "残らず",
+      "reading": "のこらず",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1010090",
+      "japanese": "はきはき",
+      "reading": "はきはき",
+      "level": "N2",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n2-022/words-04.json"
+    },
+    {
+      "dictionaryId": "jmdict-1278460",
+      "japanese": "広める",
+      "reading": "ひろめる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1279130",
+      "japanese": "攻める",
+      "reading": "せめる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1283240",
+      "japanese": "高める",
+      "reading": "たかめる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1288350",
+      "japanese": "腰掛ける",
+      "reading": "こしかける",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1295170",
+      "japanese": "砕く",
+      "reading": "くだく",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1295190",
+      "japanese": "砕ける",
+      "reading": "くだける",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1373680",
+      "japanese": "澄む",
+      "reading": "すむ",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1379740",
+      "japanese": "盛る",
+      "reading": "もる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1382970",
+      "japanese": "積む",
+      "reading": "つむ",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1389970",
+      "japanese": "尖る",
+      "reading": "とがる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1440980",
+      "japanese": "転がす",
+      "reading": "ころがす",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1441000",
+      "japanese": "転がる",
+      "reading": "ころがる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1441400",
+      "japanese": "点く",
+      "reading": "つく",
+      "level": "N5",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N5 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n5-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1450320",
+      "japanese": "逃がす",
+      "reading": "にがす",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1456780",
+      "japanese": "突き当たる",
+      "reading": "つきあたる",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1456940",
+      "japanese": "突っ込む",
+      "reading": "つっこむ",
+      "level": "N3",
+      "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-031\\words-02.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1281450",
+      "japanese": "荒い",
+      "reading": "あらい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1381760",
+      "japanese": "青白い",
+      "reading": "あおじろい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1391940",
+      "japanese": "羨ましい",
+      "reading": "うらやましい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1475530",
+      "japanese": "薄暗い",
+      "reading": "うすぐらい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1491290",
+      "japanese": "不運",
+      "reading": "ふうん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1492160",
+      "japanese": "不潔",
+      "reading": "ふけつ",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1507180",
+      "japanese": "平気",
+      "reading": "へいき",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1507910",
+      "japanese": "平凡",
+      "reading": "へいぼん",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1502630",
+      "japanese": "物凄い",
+      "reading": "ものすごい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1533560",
+      "japanese": "面倒くさい",
+      "reading": "めんどくさい",
+      "level": "N4",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n4-032\\words-13.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1541560",
+      "japanese": "有難い",
+      "reading": "ありがたい",
+      "level": "N4",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n4-032\\words-13.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1547390",
+      "japanese": "欲張り",
+      "reading": "よくばり",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1552390",
+      "japanese": "流石",
+      "reading": "さすが",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1580620",
+      "japanese": "真っ白",
+      "reading": "まっしろ",
+      "level": "N4",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n4-032\\words-13.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1582410",
+      "japanese": "凸凹",
+      "reading": "でこぼこ",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1593650",
+      "japanese": "逆さま",
+      "reading": "さかさま",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    },
+    {
+      "dictionaryId": "jmdict-1606610",
+      "japanese": "若々しい",
+      "reading": "わかわかしい",
+      "level": "N3",
+      "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N3 권장 수준.",
+      "draftSegment": "content\\jlpt\\batches\\n3-032\\words-03.json",
+      "reviewerMoved": true
+    }
+  ],
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1378660",
+      "japanese": "生ずる",
+      "reason": "Already broad Japanese original verb inventory and irregular zuru group requires separate treatment; not generated as quota filler."
+    },
+    {
+      "japanese": "纏める",
+      "reason": "All-alternative spelling/read check found existing AbsoluteVerb_439 まとめる; preserve draft prose as excluded history, no duplicate generation.",
+      "originalManuscriptLine": "纏める|verb|모아 정리하다|여러 자료나 의견을 하나의 형태로 정리해요.|纏まる|여러 내용을 정리하는 행동과 내용이 정리된 상태를 구별한다.|会議で出た意見を一枚の紙に《纏めた》。|まとめた|회의에서 나온 의견을 종이 한 장에 《정리했다》.|28"
+    },
+    {
+      "japanese": "刷る",
+      "reason": "All-allowed-kana check overlaps する different dictionary sense; keep explicit independent homograph review before publication.",
+      "originalManuscriptLine": "刷る|verb|인쇄하다|글이나 그림을 종이 등에 찍어 여러 장 만들어요.|書く|기계로 같은 자료를 찍는 것과 직접 글을 쓰는 것을 구별한다.|配る人数が増えたので、案内を二十枚多く《刷った》。|すった|나누어 줄 사람이 늘어서 안내문을 스무 장 더 《인쇄했다》.|30"
+    },
+    {
+      "dictionaryId": "jmdict-1552630",
+      "japanese": "溜める",
+      "reading": "ためる",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-01.json",
+      "reason": "Same spelling/read through allowed kana alternative as legacy original. Excluded, no new publication."
+    },
+    {
+      "dictionaryId": "jmdict-1565670",
+      "japanese": "囁く",
+      "reading": "ささやく",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-01.json",
+      "reason": "Same spelling/read through allowed kana alternative as legacy original. Excluded, no new publication."
+    },
+    {
+      "dictionaryId": "jmdict-1611640",
+      "japanese": "纏まる",
+      "reading": "まとまる",
+      "level": "N3",
+      "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다.",
+      "draftSegment": "n3-021/words-02.json",
+      "reason": "Same spelling/read through allowed kana alternative as legacy original. Excluded, no new publication."
+    }
+  ],
+  "updatedAt": "2026-10-01T00:23:40.442Z",
+  "productionStoppedAt": "2026-10-01T00:23:40.442Z",
+  "stopReason": "root stop at own369net practical drafts; await residual final scope and required legacy fixes"
+}

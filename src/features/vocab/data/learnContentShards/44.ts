@@ -1660,6 +1660,390 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1068870-1",
+    "wordId": "lex-jmdict-1068870",
+    "version": 1,
+    "meaning": "스케줄, 일정",
+    "hint": "어떤 일을 언제 할지 시간·날짜에 맞춰 정한 계획입니다.",
+    "confusions": [
+      {
+        "japanese": "日程",
+        "distinction": "スケジュール와 日程는 일정 의미가 겹친다. 선택한 スケジュール는 하루·주간 시간 배치, 日程는 행사 날짜·진행 일정을 대표 장면으로 구분한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1068870-1-ex-1",
+        "version": 1,
+        "before": "出張が決まり、来週の",
+        "answer": "スケジュール",
+        "after": "を組み直した。",
+        "reading": "スケジュール",
+        "translation": "출장이 정해져 다음 주 일정을 다시 짰다.",
+        "translationTarget": "일정",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1274550-1",
+    "wordId": "lex-jmdict-1274550",
+    "version": 1,
+    "meaning": "공표, 발표",
+    "hint": "내용·결과 등을 일반 사람들이 알도록 공개합니다.",
+    "confusions": [
+      {
+        "japanese": "発表",
+        "distinction": "公表는 내용을 공적으로 공개함에 초점을 두고 発表는 의견·작품·결과를 내놓는 발표 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1274550-1-ex-1",
+        "version": 1,
+        "before": "調査結果は、来月ホームページで",
+        "answer": "公表",
+        "after": "される予定だ。",
+        "reading": "こうひょう",
+        "translation": "조사 결과는 다음 달 홈페이지에 공표될 예정이다.",
+        "translationTarget": "공표",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542600-1",
+    "wordId": "lex-jmdict-1542600",
+    "version": 1,
+    "meaning": "융자",
+    "hint": "필요한 사업·활동 자금을 빌려 주는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "寄付",
+        "distinction": "融資는 자금을 빌려줌이고 寄付는 대가 없이 내놓음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542600-1-ex-1",
+        "version": 1,
+        "before": "銀行から",
+        "answer": "融資",
+        "after": "を受けて、古い工場の設備を更新した。",
+        "reading": "ゆうし",
+        "translation": "은행에서 융자를 받아 오래된 공장 설비를 교체했다.",
+        "translationTarget": "융자",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1508480-1",
+    "wordId": "lex-jmdict-1508480",
+    "version": 1,
+    "meaning": "병행",
+    "hint": "둘 이상의 작업·과정을 동시에 진행합니다.",
+    "confusions": [
+      {
+        "japanese": "平行",
+        "distinction": "선택한 並行는 동시에 진행함이고 平行는 선·면이 만나지 않고 나란함이다. 표기별 사용이 겹치기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1508480-1-ex-1",
+        "version": 1,
+        "before": "店を営業しながら、改装工事も",
+        "answer": "並行",
+        "after": "して進めた。",
+        "reading": "へいこう",
+        "translation": "가게를 운영하면서 개보수 공사도 병행해서 진행했다.",
+        "translationTarget": "병행",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1510940-1",
+    "wordId": "lex-jmdict-1510940",
+    "version": 1,
+    "meaning": "변혁",
+    "hint": "기존 구조·제도를 근본적으로 바꾸는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "変更",
+        "distinction": "変革는 큰 구조의 근본적 변화이고 変更는 일부를 바꿈에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1510940-1-ex-1",
+        "version": 1,
+        "before": "技術の進歩が、働き方の",
+        "answer": "変革",
+        "after": "をもたらした。",
+        "reading": "へんかく",
+        "translation": "기술 진보가 근무 방식의 변혁을 가져왔다.",
+        "translationTarget": "변혁",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1498200-1",
+    "wordId": "lex-jmdict-1498200",
+    "version": 1,
+    "meaning": "부임",
+    "hint": "업무로 정해진 근무지에 가서 임무를 맡습니다.",
+    "confusions": [
+      {
+        "japanese": "帰任",
+        "distinction": "赴任는 근무지에 가서 맡음이고 帰任는 원래 근무지·임무로 돌아옴이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1498200-1-ex-1",
+        "version": 1,
+        "before": "来月から海外の支店に",
+        "answer": "赴任",
+        "after": "することになった。",
+        "reading": "ふにん",
+        "translation": "다음 달부터 해외 지점으로 부임하게 되었다.",
+        "translationTarget": "부임",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541560-1",
+    "wordId": "lex-jmdict-1541560",
+    "version": 1,
+    "meaning": "고맙다·감사하다",
+    "hint": "도움이나 좋은 일을 받아 감사할 만한 상태예요.",
+    "confusions": [
+      {
+        "japanese": "迷惑",
+        "distinction": "도움으로 고마운 상태와 폐를 끼쳐 불편한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541560-1-ex-1",
+        "version": 1,
+        "before": "忙しい日に夕食を作ってもらえるのは、本当に",
+        "answer": "有難い",
+        "after": "。",
+        "reading": "ありがたい",
+        "translation": "바쁜 날에 저녁을 만들어 주는 것은 정말 고맙다.",
+        "translationTarget": "고맙다",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604650-1",
+    "wordId": "lex-jmdict-1604650",
+    "version": 1,
+    "meaning": "눈에 익다",
+    "hint": "여러 번 보아 낯설게 느껴지지 않게 돼요.",
+    "confusions": [
+      {
+        "japanese": "見知らぬ",
+        "distinction": "자주 보아 익숙해진 것과 처음 보아 모르는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604650-1-ex-1",
+        "version": 1,
+        "before": "毎日通ううちに、外国語の看板にも",
+        "answer": "見慣れて",
+        "after": "きた。",
+        "reading": "みなれて",
+        "translation": "매일 다니는 사이에 외국어 간판도 눈에 익어 왔다.",
+        "translationTarget": "눈에 익어",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435740-1",
+    "wordId": "lex-jmdict-1435740",
+    "version": 1,
+    "meaning": "정년",
+    "hint": "규정에 따라 직장을 그만두게 되는 나이입니다.",
+    "confusions": [
+      {
+        "japanese": "退職",
+        "distinction": "定年는 정해진 퇴직 연령이고 退職는 직장을 그만두는 일 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435740-1-ex-1",
+        "version": 1,
+        "before": "父は",
+        "answer": "定年",
+        "after": "後、地域の活動に参加する時間が増えた。",
+        "reading": "ていねん",
+        "translation": "아버지는 정년 뒤 지역 활동에 참여하는 시간이 늘었다.",
+        "translationTarget": "정년",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594180-1",
+    "wordId": "lex-jmdict-1594180",
+    "version": 1,
+    "meaning": "구조, 작동 원리",
+    "hint": "여러 부분이 연결되어 기능하는 방식입니다.",
+    "confusions": [
+      {
+        "japanese": "仕掛け",
+        "distinction": "仕組み는 체계의 작동 방식이고 仕掛け는 장치·고안한 방법에 흔하다. 영역이 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594180-1-ex-1",
+        "version": 1,
+        "before": "時計の中の",
+        "answer": "仕組み",
+        "after": "を見て、歯車の役割を知った。",
+        "reading": "しくみ",
+        "translation": "시계 안의 구조를 보고 톱니바퀴의 역할을 알았다.",
+        "translationTarget": "구조",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463790-1",
+    "wordId": "lex-jmdict-1463790",
+    "version": 1,
+    "meaning": "일출",
+    "hint": "태양이 지평선 위로 떠오르는 것",
+    "confusions": [
+      {
+        "japanese": "日の入り",
+        "distinction": "해가 떠오르는 것과 해가 지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463790-1-ex-1",
+        "version": 1,
+        "before": "海辺で",
+        "answer": "日の出",
+        "after": "を見るため、まだ暗いうちに出発した。",
+        "reading": "ひので",
+        "translation": "바닷가에서 일출을 보려고 아직 어두울 때 출발했다.",
+        "translationTarget": "일출",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1345650-1",
+    "wordId": "lex-jmdict-1345650",
+    "version": 1,
+    "meaning": "제외",
+    "hint": "어떤 대상을 범위·대상에 넣지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "排除",
+        "distinction": "除外는 범위에서 뺌이고 排除는 적극적으로 제거·배제함에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1345650-1-ex-1",
+        "version": 1,
+        "before": "故障中の機器は、貸出の対象から",
+        "answer": "除外",
+        "after": "した。",
+        "reading": "じょがい",
+        "translation": "고장 난 기기는 대여 대상에서 제외했다.",
+        "translationTarget": "제외",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

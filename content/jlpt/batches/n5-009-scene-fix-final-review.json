@@ -1,0 +1,16 @@
+[
+  {
+    "wordId": "lex-jmdict-1587610",
+    "contentHash": "3923aaa17ecf0d8a98be20792f03a09ea17a83082adf2e2c31f2a52d65ed9feb",
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Reviewer-authored scene revision; complete unchanged core-sense and modified example verification.",
+    "reviewedAt": "2026-09-30T23:54:01.753Z",
+    "notes": [
+      "怖い의 어두운 길 혼자 걷는 장면을 제거하고 셔츠의 따끔거리는 감촉이 싫다는 독립 생활 장면으로 수정. 한국어/일본어 의미·활용 읽기를 대조했다.",
+      "단어·용법·예문 ID/순서/개수·난도는 불변이며 기존 용법 버전1과 학습 기록을 보존한다. 이 예문 버전만1→2."
+    ]
+  }
+]

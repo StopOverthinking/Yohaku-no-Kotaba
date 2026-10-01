@@ -1,0 +1,58 @@
+[
+  {
+    "japanese": "居る / いる",
+    "dictionaryId": "jmdict-1577980",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "lex-jmdict-1577980",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "AbsoluteVerb_162",
+        "senseId": "sense-AbsoluteVerb_162-1",
+        "version": 1,
+        "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_162-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_162-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "lex-jmdict-1577980",
+        "senseId": "sense-lex-jmdict-1577980-1",
+        "version": 1,
+        "sourceHash": "69c59f2beb32d5ce59abc7b9830255a68680b215f0bf0a57b992663a2f605042",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-lex-jmdict-1577980-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1577980-1-ex-2",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1577980-1-ex-3",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:02:34.811Z",
+    "profileTransfer": "equivalent-core-usage",
+    "notes": [
+      "두 원본 전체 단어·단일 용법·힌트·ある 대비 및 5예문을 직접 읽었다. 사람·동물이 어떤 장소에 존재한다는 동일 핵심이다. 居る의 おる 항목은 별개 읽기로 이 그룹에 포함하지 않는다.",
+      "표기만 달라 기존 수준별 수록에 중복 포함된 항목이다. 게시된 신규 居る를 대표로 두고 원본 いる의 ID·내용·학습 기록을 보존하여 보수적으로 연결한다."
+    ]
+  }
+]

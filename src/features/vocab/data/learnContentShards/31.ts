@@ -1964,6 +1964,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254900-1",
+    "wordId": "lex-jmdict-1254900",
+    "version": 1,
+    "meaning": "결성",
+    "hint": "사람들이 모여 조직·단체를 만드는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "結合",
+        "distinction": "結成는 조직을 만듦이고 結合는 요소를 서로 붙여 합침이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254900-1-ex-1",
+        "version": 1,
+        "before": "商店街の若い店主たちが、地域を盛り上げる団体を",
+        "answer": "結成",
+        "after": "した。",
+        "reading": "けっせい",
+        "translation": "상점가의 젊은 가게 주인들이 지역을 활성화할 단체를 결성했다.",
+        "translationTarget": "결성",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1406750-1",
+    "wordId": "lex-jmdict-1406750",
+    "version": 1,
+    "meaning": "손실",
+    "hint": "재산·기회 등을 잃어 입은 손해입니다.",
+    "confusions": [
+      {
+        "japanese": "利益",
+        "distinction": "損失는 잃은 가치·손해이고 利益는 얻은 이익이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1406750-1-ex-1",
+        "version": 1,
+        "before": "停電による生産の停止で、工場に大きな",
+        "answer": "損失",
+        "after": "が出た。",
+        "reading": "そんしつ",
+        "translation": "정전으로 생산이 멈춰 공장에 큰 손실이 났다.",
+        "translationTarget": "손실",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596860-1",
+    "wordId": "lex-jmdict-1596860",
+    "version": 1,
+    "meaning": "비축하다, 축적하다",
+    "hint": "나중에 쓸 수 있도록 돈·물자·지식 등을 모아 둡니다.",
+    "confusions": [
+      {
+        "japanese": "費やす",
+        "distinction": "蓄える는 모아 둠이고 費やす는 시간·돈 등을 써 버림이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596860-1-ex-1",
+        "version": 1,
+        "before": "冬に備えて、動物は体に脂肪を",
+        "answer": "蓄える",
+        "after": "。",
+        "reading": "たくわえる",
+        "translation": "겨울에 대비해 동물은 몸에 지방을 비축한다.",
+        "translationTarget": "비축한다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491840-1",
+    "wordId": "lex-jmdict-1491840",
+    "version": 1,
+    "meaning": "불규칙하다",
+    "hint": "일정한 순서나 간격 없이 들쭉날쭉한 상태예요.",
+    "confusions": [
+      {
+        "japanese": "規則正しい",
+        "distinction": "일정한 규칙이 없는 상태와 일정한 질서를 지키는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491840-1-ex-1",
+        "version": 1,
+        "before": "勤務時間が",
+        "answer": "不規則",
+        "after": "なので、毎日は一緒に夕食を取れない。",
+        "reading": "ふきそく",
+        "translation": "근무 시간이 불규칙해서 매일 함께 저녁을 먹을 수는 없다.",
+        "translationTarget": "불규칙해서",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1244530-1",
+    "wordId": "lex-jmdict-1244530",
+    "version": 1,
+    "meaning": "고심·애씀",
+    "hint": "어려운 문제를 해결하려고 마음과 힘을 많이 쓰는 일",
+    "confusions": [
+      {
+        "japanese": "妥協",
+        "distinction": "어렵게 애쓰는 것과 서로 조건을 양보해 합의하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1244530-1-ex-1",
+        "version": 1,
+        "before": "予算を抑えながら品質を保つ方法に、",
+        "answer": "苦心",
+        "after": "した。",
+        "reading": "くしん",
+        "translation": "예산을 줄이면서 품질을 유지하는 방법을 찾느라 고심했다.",
+        "translationTarget": "고심",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1316400-1",
+    "wordId": "lex-jmdict-1316400",
+    "version": 1,
+    "meaning": "뒤를 잇다·다음가다",
+    "hint": "순서나 순위에서 앞선 것 바로 뒤에 와요.",
+    "confusions": [
+      {
+        "japanese": "先立つ",
+        "distinction": "뒤에 이어지는 것과 먼저 오는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1316400-1-ex-1",
+        "version": 1,
+        "before": "この港は、規模では首都の港に",
+        "answer": "次いでいる",
+        "after": "。",
+        "reading": "ついでいる",
+        "translation": "이 항구는 규모로는 수도의 항구에 다음간다.",
+        "translationTarget": "다음간다",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317490-1",
+    "wordId": "lex-jmdict-1317490",
+    "version": 1,
+    "meaning": "자각",
+    "hint": "자신의 상태·책임 등을 분명히 알아차립니다.",
+    "confusions": [
+      {
+        "japanese": "無意識",
+        "distinction": "自覚는 스스로 인식함이고 無意識는 의식하지 못한 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317490-1-ex-1",
+        "version": 1,
+        "before": "責任者としての",
+        "answer": "自覚",
+        "after": "が、行動に表れるようになった。",
+        "reading": "じかく",
+        "translation": "책임자로서의 자각이 행동에 드러나기 시작했다.",
+        "translationTarget": "자각",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1390730-1",
+    "wordId": "lex-jmdict-1390730",
+    "version": 1,
+    "meaning": "접부채",
+    "hint": "접고 펼칠 수 있는 손으로 부치는 도구",
+    "confusions": [
+      {
+        "japanese": "団扇",
+        "distinction": "접을 수 있는 부채와 접히지 않는 부채를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1390730-1-ex-1",
+        "version": 1,
+        "before": "祖母は",
+        "answer": "扇子",
+        "after": "を小さく畳んで、袖にしまった。",
+        "reading": "せんす",
+        "translation": "할머니는 접부채를 작게 접어 소매에 넣으셨다.",
+        "translationTarget": "접부채",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1391360-1",
+    "wordId": "lex-jmdict-1391360",
+    "version": 1,
+    "meaning": "잠입",
+    "hint": "들키지 않도록 몰래 들어갑니다.",
+    "confusions": [
+      {
+        "japanese": "侵入",
+        "distinction": "潜入는 숨겨 몰래 들어감이고 侵入는 허용되지 않은 곳에 들어감 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1391360-1-ex-1",
+        "version": 1,
+        "before": "映画では、記者が組織に",
+        "answer": "潜入",
+        "after": "して真実を探る。",
+        "reading": "せんにゅう",
+        "translation": "영화에서는 기자가 조직에 잠입하여 진실을 찾는다.",
+        "translationTarget": "잠입",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283610-1",
+    "wordId": "lex-jmdict-1283610",
+    "version": 1,
+    "meaning": "고상함",
+    "hint": "생각·취향·내용의 수준이 높고 품위가 있습니다.",
+    "confusions": [
+      {
+        "japanese": "上品",
+        "distinction": "高尚는 지적·문화적 내용의 고상함에 흔하고 上品는 태도·모습의 품위에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283610-1-ex-1",
+        "version": 1,
+        "before": "難しい本を読むだけで、",
+        "answer": "高尚",
+        "after": "な趣味になるわけではない。",
+        "reading": "こうしょう",
+        "translation": "어려운 책을 읽는다고 해서 고상한 취미가 되는 것은 아니다.",
+        "translationTarget": "고상한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430610-1",
+    "wordId": "lex-jmdict-1430610",
+    "version": 1,
+    "meaning": "곧, 바로",
+    "hint": "시간을 거의 두지 않고 다음 행동이 이어지는 모습",
+    "confusions": [
+      {
+        "japanese": "ゆっくり",
+        "distinction": "시간을 거의 지체하지 않는 행동과 서두르지 않고 천천히 하는 행동을 구별한다. 바로 가까이라는 장소 의미는 이번 예문에서 쓰지 않는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430610-1-ex-1",
+        "version": 1,
+        "before": "牛乳をこぼしたので、",
+        "answer": "すぐ",
+        "after": "拭きました。",
+        "reading": "すぐ",
+        "translation": "우유를 쏟아서 바로 닦았어요.",
+        "translationTarget": "바로",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

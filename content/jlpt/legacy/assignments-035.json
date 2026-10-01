@@ -165,8 +165,8 @@
     "level": "N4",
     "dictionaryId": "jmdict-1402730",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
-    "meaningReview": "기존 뜻 “보내다, 배웅하다” 및 1개 sense를 대조했다. 사진과 물건을 다른 곳으로 보내는 의미이다.",
+    "levelNote": "현재 선택된 기초 送る 용법과 전체 예문을 검토하여 N4로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준.",
+    "meaningReview": "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다.",
     "aliasCandidateIds": [],
     "issues": []
   },

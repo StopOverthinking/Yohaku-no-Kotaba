@@ -1708,6 +1708,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1130040-1",
+    "wordId": "lex-jmdict-1130040",
+    "version": 1,
+    "meaning": "아파트·공동 주택",
+    "hint": "여러 가구가 나누어 사는 비교적 큰 공동 주거 건물",
+    "confusions": [
+      {
+        "japanese": "一戸建て",
+        "distinction": "여러 가구가 사는 건물과 한 가구의 독립 주택을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1130040-1-ex-1",
+        "version": 1,
+        "before": "駅の近くに、新しい",
+        "answer": "マンション",
+        "after": "が建ちました。",
+        "reading": "マンション",
+        "translation": "역 근처에 새 아파트가 들어섰습니다.",
+        "translationTarget": "아파트",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_81-2",
+    "wordId": "AbsoluteVerb_81",
+    "version": 1,
+    "meaning": "가지고 있다·소유하다",
+    "hint": "손에 들고 있지 않아도 자기 것으로 갖고 있어요.",
+    "confusions": [
+      {
+        "japanese": "借りる",
+        "distinction": "자기 것으로 소유하는 상태와 다른 사람의 것을 빌려 쓰는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_81-2-ex-1",
+        "version": 1,
+        "before": "兄は車を",
+        "answer": "持っている",
+        "after": "が、通勤には電車を使っている。",
+        "reading": "もっている",
+        "translation": "형은 차를 가지고 있지만 출근할 때는 전철을 이용한다.",
+        "translationTarget": "가지고 있지만",
+        "difficulty": 14,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1144700-1",
+    "wordId": "lex-jmdict-1144700",
+    "version": 1,
+    "meaning": "우비",
+    "hint": "비에 몸이나 옷이 젖지 않도록 걸치는 옷",
+    "confusions": [
+      {
+        "japanese": "傘",
+        "distinction": "몸에 입는 비막이와 손에 드는 비막이를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1144700-1-ex-1",
+        "version": 1,
+        "before": "風が強いので、傘を畳んで",
+        "answer": "レインコート",
+        "after": "を着た。",
+        "reading": "レインコート",
+        "translation": "바람이 강해서 우산을 접고 우비를 입었다.",
+        "translationTarget": "우비",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1335940-1",
+    "wordId": "lex-jmdict-1335940",
+    "version": 1,
+    "meaning": "중시하다, 존중하다",
+    "hint": "가치·원칙 등을 중요하게 여겨 지킵니다.",
+    "confusions": [
+      {
+        "japanese": "軽んじる",
+        "distinction": "重んじる는 중요하게 여김이고 軽んじる는 가볍게 여김이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1335940-1-ex-1",
+        "version": 1,
+        "before": "結果だけでなく、挑戦する姿勢も",
+        "answer": "重んじる",
+        "after": "職場で働きたい。",
+        "reading": "おもんじる",
+        "translation": "결과뿐 아니라 도전하는 자세도 중시하는 직장에서 일하고 싶다.",
+        "translationTarget": "중시하는",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435530-1",
+    "wordId": "lex-jmdict-1435530",
+    "version": 1,
+    "meaning": "정의",
+    "hint": "말·개념의 뜻과 범위를 명확하게 정합니다.",
+    "confusions": [
+      {
+        "japanese": "説明",
+        "distinction": "定義는 개념의 뜻·범위를 정함이고 説明는 이해를 돕는 설명 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435530-1-ex-1",
+        "version": 1,
+        "before": "議論を始める前に、用語の",
+        "answer": "定義",
+        "after": "を共有しておこう。",
+        "reading": "ていぎ",
+        "translation": "논의를 시작하기 전에 용어의 정의를 공유해 두자.",
+        "translationTarget": "정의",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432760-1",
+    "wordId": "lex-jmdict-1432760",
+    "version": 1,
+    "meaning": "통감, 절실히 느낌",
+    "hint": "경험을 통해 어떤 사실을 강하고 절실하게 깨닫습니다.",
+    "confusions": [
+      {
+        "japanese": "予感",
+        "distinction": "痛感는 사실을 절실히 느낌이고 予感는 앞으로 생길 일을 미리 느끼는 것이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432760-1-ex-1",
+        "version": 1,
+        "before": "海外で道に迷い、語学力の必要性を",
+        "answer": "痛感",
+        "after": "した。",
+        "reading": "つうかん",
+        "translation": "해외에서 길을 잃고 어학 능력의 필요성을 절실히 느꼈다.",
+        "translationTarget": "절실히 느꼈다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504160-1",
+    "wordId": "lex-jmdict-1504160",
+    "version": 1,
+    "meaning": "분포",
+    "hint": "여러 대상이 어떤 지역이나 범위에 퍼져 있는 상태",
+    "confusions": [
+      {
+        "japanese": "集中",
+        "distinction": "여러 곳에 퍼져 있는 상태와 한곳에 몰려 있는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504160-1-ex-1",
+        "version": 1,
+        "before": "地図の色で、人口の",
+        "answer": "分布",
+        "after": "を示しています。",
+        "reading": "ぶんぷ",
+        "translation": "지도의 색으로 인구의 분포를 나타내고 있습니다.",
+        "translationTarget": "분포",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1464110-1",
+    "wordId": "lex-jmdict-1464110",
+    "version": 1,
+    "meaning": "일시",
+    "hint": "어떤 일이 있을 날짜와 시간을 함께 말하는 것",
+    "confusions": [
+      {
+        "japanese": "場所",
+        "distinction": "일이 있는 날짜와 시간과 일이 있는 장소를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1464110-1-ex-1",
+        "version": 1,
+        "before": "会議の",
+        "answer": "日時",
+        "after": "が変わったので、案内を送り直した。",
+        "reading": "にちじ",
+        "translation": "회의 일시가 바뀌어서 안내를 다시 보냈다.",
+        "translationTarget": "일시",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365260-1",
+    "wordId": "lex-jmdict-1365260",
+    "version": 1,
+    "meaning": "친선",
+    "hint": "사람·집단·국가 사이의 우호를 깊게 합니다.",
+    "confusions": [
+      {
+        "japanese": "親切",
+        "distinction": "親善는 친한 관계를 증진함이고 親切는 상대를 배려하는 친절한 행동이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365260-1-ex-1",
+        "version": 1,
+        "before": "留学生との交流は、国を越えた",
+        "answer": "親善",
+        "after": "につながった。",
+        "reading": "しんぜん",
+        "translation": "유학생과의 교류는 국경을 넘는 친선으로 이어졌다.",
+        "translationTarget": "친선",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

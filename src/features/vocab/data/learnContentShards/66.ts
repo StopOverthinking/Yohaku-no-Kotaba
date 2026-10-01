@@ -1204,6 +1204,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1075500-1",
+    "wordId": "lex-jmdict-1075500",
+    "version": 1,
+    "meaning": "소프트웨어·프로그램",
+    "hint": "컴퓨터에서 특정 작업을 실행하게 하는 프로그램",
+    "confusions": [
+      {
+        "japanese": "ハードウェア",
+        "distinction": "실행하는 프로그램과 컴퓨터의 물리적인 장치를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1075500-1-ex-1",
+        "version": 1,
+        "before": "写真を編集する",
+        "answer": "ソフト",
+        "after": "を無料で使っています。",
+        "reading": "ソフト",
+        "translation": "사진을 편집하는 프로그램을 무료로 사용하고 있습니다.",
+        "translationTarget": "프로그램",
+        "difficulty": 19,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601480-1",
+    "wordId": "lex-jmdict-1601480",
+    "version": 1,
+    "meaning": "올리다, 인상하다",
+    "hint": "가격·수준·한도 등을 더 높게 합니다.",
+    "confusions": [
+      {
+        "japanese": "引き下げる",
+        "distinction": "선택한 引き上げる는 수준·가격을 올림이고 引き下げる는 낮춤이다. 끌어 올리다·철수하다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601480-1-ex-1",
+        "version": 1,
+        "before": "店は原料費の上昇を受け、商品の価格を",
+        "answer": "引き上げた",
+        "after": "。",
+        "reading": "ひきあげた",
+        "translation": "가게는 원료비 상승에 따라 상품 가격을 인상했다.",
+        "translationTarget": "인상했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1597110-1",
+    "wordId": "lex-jmdict-1597110",
+    "version": 1,
+    "meaning": "겉으로 내세우는 원칙·명분",
+    "hint": "속마음과 구별하여 대외적으로 밝히는 입장입니다.",
+    "confusions": [
+      {
+        "japanese": "本音",
+        "distinction": "선택한 建前는 겉으로 내세운 입장이고 本音는 실제 속마음이다. 건축 공정의 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1597110-1-ex-1",
+        "version": 1,
+        "before": "公平さを",
+        "answer": "建前",
+        "after": "にしていたが、実際は身内を優先していた。",
+        "reading": "たてまえ",
+        "translation": "공정함을 겉으로 내세우는 명분으로 삼았지만 실제로는 가까운 사람을 우선했다.",
+        "translationTarget": "겉으로 내세우는 명분",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1284700-1",
+    "wordId": "lex-jmdict-1284700",
+    "version": 1,
+    "meaning": "합의제 논의",
+    "hint": "여러 사람이 함께 의논하여 결정합니다.",
+    "confusions": [
+      {
+        "japanese": "合意",
+        "distinction": "合議는 여러 사람이 논의하는 절차이고 合意는 의견이 일치한 결과이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1284700-1-ex-1",
+        "version": 1,
+        "before": "重要な案件は、一人で決めずに",
+        "answer": "合議",
+        "after": "で判断する。",
+        "reading": "ごうぎ",
+        "translation": "중요한 안건은 혼자 정하지 않고 함께 논의하여 판단한다.",
+        "translationTarget": "함께 논의하여",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254640-1",
+    "wordId": "lex-jmdict-1254640",
+    "version": 1,
+    "meaning": "이어지다, 연결되다",
+    "hint": "대상·사건이 다른 것과 관계를 맺습니다.",
+    "confusions": [
+      {
+        "japanese": "結びつける",
+        "distinction": "結びつく는 연결되는 자동사이고 結びつける는 연결하는 타동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254640-1-ex-1",
+        "version": 1,
+        "before": "毎日の小さな工夫が、仕事の改善に",
+        "answer": "結びついた",
+        "after": "。",
+        "reading": "むすびついた",
+        "translation": "매일의 작은 궁리가 업무 개선으로 이어졌다.",
+        "translationTarget": "이어졌다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1052,6 +1052,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1286780-1",
+    "wordId": "lex-jmdict-1286780",
+    "version": 1,
+    "meaning": "국적",
+    "hint": "법적으로 어느 나라의 국민에 속하는지 나타내는 자격입니다.",
+    "confusions": [
+      {
+        "japanese": "出身",
+        "distinction": "선택한 国籍는 법적 국적이고 出身는 태어나거나 자란 출신지·소속을 뜻한다. 선박·항공기 등록 국가에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1286780-1-ex-1",
+        "version": 1,
+        "before": "この学校には、さまざまな",
+        "answer": "国籍",
+        "after": "の子どもが通っている。",
+        "reading": "こくせき",
+        "translation": "이 학교에는 다양한 국적의 아이들이 다니고 있다.",
+        "translationTarget": "국적",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505050-1",
+    "wordId": "lex-jmdict-1505050",
+    "version": 1,
+    "meaning": "분실",
+    "hint": "물건을 잃어 어디에 있는지 알지 못하게 됩니다.",
+    "confusions": [
+      {
+        "japanese": "盗難",
+        "distinction": "紛失는 분실이고 盗難는 남이 훔쳐 간 도난 피해이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505050-1-ex-1",
+        "version": 1,
+        "before": "学生証を",
+        "answer": "紛失",
+        "after": "したので、事務室で再発行を申請した。",
+        "reading": "ふんしつ",
+        "translation": "학생증을 분실해서 사무실에서 재발급을 신청했다.",
+        "translationTarget": "분실",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437290-1",
+    "wordId": "lex-jmdict-1437290",
+    "version": 1,
+    "meaning": "정확함, 적절함",
+    "hint": "핵심을 정확히 짚어 상황에 맞게 판단합니다.",
+    "confusions": [
+      {
+        "japanese": "適当",
+        "distinction": "的確는 핵심을 정확히 짚음이고 適当는 알맞음 또는 대충함이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437290-1-ex-1",
+        "version": 1,
+        "before": "医師の",
+        "answer": "的確",
+        "after": "な判断で、すぐに必要な処置を受けられた。",
+        "reading": "てきかく",
+        "translation": "의사의 정확한 판단으로 바로 필요한 처치를 받을 수 있었다.",
+        "translationTarget": "정확한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1129290-1",
+    "wordId": "lex-jmdict-1129290",
+    "version": 1,
+    "meaning": "마라톤",
+    "hint": "정해진 긴 거리를 달리는 육상 경기",
+    "confusions": [
+      {
+        "japanese": "短距離走",
+        "distinction": "긴 거리를 달리는 경기와 짧은 거리를 빠르게 달리는 경기를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1129290-1-ex-1",
+        "version": 1,
+        "before": "初めての",
+        "answer": "マラソン",
+        "after": "で、父は五時間かけて完走した。",
+        "reading": "マラソン",
+        "translation": "첫 마라톤에서 아버지는 다섯 시간에 걸쳐 완주했다.",
+        "translationTarget": "마라톤",
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326860-1",
+    "wordId": "lex-jmdict-1326860",
+    "version": 1,
+    "meaning": "단속하다, 감독하다",
+    "hint": "규칙을 어기는 행위를 살피고 막습니다.",
+    "confusions": [
+      {
+        "japanese": "見守る",
+        "distinction": "선택한 取り締まる는 위반 행위를 단속하고 見守る는 상태를 지켜본다. 조직을 관리·감독하는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326860-1-ex-1",
+        "version": 1,
+        "before": "警察は、通学路での速度違反を厳しく",
+        "answer": "取り締まっている",
+        "after": "。",
+        "reading": "とりしまっている",
+        "translation": "경찰은 통학로에서의 속도 위반을 엄격히 단속하고 있다.",
+        "translationTarget": "단속하고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1467260-1",
+    "wordId": "lex-jmdict-1467260",
+    "version": 1,
+    "meaning": "임무",
+    "hint": "맡아서 수행해야 하는 일·역할입니다.",
+    "confusions": [
+      {
+        "japanese": "義務",
+        "distinction": "任務는 맡겨진 구체적인 역할이고 義務는 지켜야 하는 법·도덕상 책임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1467260-1-ex-1",
+        "version": 1,
+        "before": "救助隊は、",
+        "answer": "任務",
+        "after": "を終えて基地に戻った。",
+        "reading": "にんむ",
+        "translation": "구조대는 임무를 마치고 기지로 돌아왔다.",
+        "translationTarget": "임무",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378320-1",
+    "wordId": "lex-jmdict-1378320",
+    "version": 1,
+    "meaning": "청소",
+    "hint": "시설이나 공간의 쓰레기와 먼지를 치워 깨끗하게 하는 일",
+    "confusions": [
+      {
+        "japanese": "汚染",
+        "distinction": "더러운 것을 치우는 일과 더럽히는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378320-1-ex-1",
+        "version": 1,
+        "before": "公園の",
+        "answer": "清掃",
+        "after": "に参加したら、顔見知りが増えた。",
+        "reading": "せいそう",
+        "translation": "공원 청소에 참여했더니 아는 사람이 늘었다.",
+        "translationTarget": "청소",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317460-1",
+    "wordId": "lex-jmdict-1317460",
+    "version": 1,
+    "meaning": "자아",
+    "hint": "다른 사람과 구별되는 자신의 존재·의식입니다.",
+    "confusions": [
+      {
+        "japanese": "自己",
+        "distinction": "自我는 자신을 인식하는 자아이고 自己는 자기 자신을 가리키는 넓은 말이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317460-1-ex-1",
+        "version": 1,
+        "before": "思春期には、",
+        "answer": "自我",
+        "after": "が強くなり、親への反発も見られる。",
+        "reading": "じが",
+        "translation": "사춘기에는 자아가 강해져 부모에 대한 반발도 나타난다.",
+        "translationTarget": "자아",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327180-1",
+    "wordId": "lex-jmdict-1327180",
+    "version": 1,
+    "meaning": "수비",
+    "hint": "상대의 공격을 막아 지켜 냅니다.",
+    "confusions": [
+      {
+        "japanese": "攻撃",
+        "distinction": "守備는 공격을 막는 역할이고 攻撃는 상대를 공격함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327180-1-ex-1",
+        "version": 1,
+        "before": "チームの",
+        "answer": "守備",
+        "after": "が安定し、失点が減った。",
+        "reading": "しゅび",
+        "translation": "팀의 수비가 안정되어 실점이 줄었다.",
+        "translationTarget": "수비",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,441 @@
+{
+  "scope": "exact-nine-basic-gap-words-only",
+  "note": "Representative reading is a kana field without parentheses. Common numeric readings are explained in Korean in the contrast; source readings remain complete in this ledger. Same reading with a different spelling and meaning is not falsely considered the numeric/basic target.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1157070",
+      "japanese": "椅子",
+      "representativeReading": "いす",
+      "allDictionarySpellings": [
+        "椅子",
+        "倚子"
+      ],
+      "allDictionaryReadings": [
+        "いす",
+        "イス"
+      ],
+      "leadingSense": {
+        "pos": [
+          "noun (common) (futsuumeishi)"
+        ],
+        "glosses": [
+          "chair",
+          "seat",
+          "stool",
+          "bench"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "椅子"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1497610",
+      "japanese": "父",
+      "representativeReading": "ちち",
+      "allDictionarySpellings": [
+        "父"
+      ],
+      "allDictionaryReadings": [
+        "ちち"
+      ],
+      "leadingSense": {
+        "pos": [
+          "noun (common) (futsuumeishi)"
+        ],
+        "glosses": [
+          "father"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1514990",
+      "japanese": "母",
+      "representativeReading": "はは",
+      "allDictionarySpellings": [
+        "母"
+      ],
+      "allDictionaryReadings": [
+        "はは"
+      ],
+      "leadingSense": {
+        "pos": [
+          "noun (common) (futsuumeishi)"
+        ],
+        "glosses": [
+          "mother"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1311110",
+      "japanese": "私",
+      "representativeReading": "わたし",
+      "allDictionarySpellings": [
+        "私"
+      ],
+      "allDictionaryReadings": [
+        "わたし",
+        "ワタシ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "I",
+          "me"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1223615",
+      "japanese": "あなた",
+      "representativeReading": "あなた",
+      "allDictionarySpellings": [
+        "貴方",
+        "貴女",
+        "貴男"
+      ],
+      "allDictionaryReadings": [
+        "あなた"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "you"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "貴女"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1579470",
+      "japanese": "四",
+      "representativeReading": "よん",
+      "allDictionarySpellings": [
+        "四",
+        "４",
+        "肆"
+      ],
+      "allDictionaryReadings": [
+        "し",
+        "よん",
+        "よ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "numeric"
+        ],
+        "glosses": [
+          "four",
+          "4"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "四"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "lex-jmdict-1308090",
+          "japanese": "市",
+          "reading": "し",
+          "meaning": "시, 도시 행정구역"
+        },
+        {
+          "id": "lex-jmdict-1929950",
+          "japanese": "詩",
+          "reading": "し",
+          "meaning": "시"
+        },
+        {
+          "id": "jmdict-1929950",
+          "japanese": "詩",
+          "reading": "し",
+          "meaning": "시"
+        },
+        {
+          "id": "jmdict-1308090",
+          "japanese": "市",
+          "reading": "し",
+          "meaning": "시, 도시 행정구역"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1319210",
+      "japanese": "七",
+      "representativeReading": "なな",
+      "allDictionarySpellings": [
+        "七",
+        "７",
+        "漆",
+        "柒"
+      ],
+      "allDictionaryReadings": [
+        "しち",
+        "なな",
+        "なあ",
+        "ひち",
+        "な"
+      ],
+      "leadingSense": {
+        "pos": [
+          "numeric"
+        ],
+        "glosses": [
+          "seven"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "七"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "lex-jmdict-1531330",
+          "japanese": "名",
+          "reading": "な",
+          "meaning": "이름, 명성"
+        },
+        {
+          "id": "jmdict-1531330",
+          "japanese": "名",
+          "reading": "な",
+          "meaning": "이름, 명성"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1578150",
+      "japanese": "九",
+      "representativeReading": "きゅう",
+      "allDictionarySpellings": [
+        "九",
+        "９",
+        "玖"
+      ],
+      "allDictionaryReadings": [
+        "きゅう",
+        "く",
+        "ここの",
+        "この",
+        "ここ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "numeric"
+        ],
+        "glosses": [
+          "nine",
+          "9"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "九"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "lex-jmdict-1228560",
+          "japanese": "急",
+          "reading": "きゅう",
+          "meaning": "갑작스럽다, 급하다"
+        },
+        {
+          "id": "lex-jmdict-1229880",
+          "japanese": "球",
+          "reading": "きゅう",
+          "meaning": "구, 구형의 물체"
+        },
+        {
+          "id": "lex-jmdict-1243940",
+          "japanese": "句",
+          "reading": "く",
+          "meaning": "구, 시구"
+        },
+        {
+          "id": "lex-jmdict-1919590",
+          "japanese": "級",
+          "reading": "きゅう",
+          "meaning": "급, 등급"
+        },
+        {
+          "id": "jmdict-1229880",
+          "japanese": "球",
+          "reading": "きゅう",
+          "meaning": "구, 구형의 물체"
+        },
+        {
+          "id": "jmdict-1243940",
+          "japanese": "句",
+          "reading": "く",
+          "meaning": "구, 시구"
+        },
+        {
+          "id": "jmdict-1919590",
+          "japanese": "級",
+          "reading": "きゅう",
+          "meaning": "급, 등급"
+        },
+        {
+          "id": "jmdict-1228560",
+          "japanese": "急",
+          "reading": "きゅう",
+          "meaning": "갑작스럽다, 급하다"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1579840",
+      "japanese": "十",
+      "representativeReading": "じゅう",
+      "allDictionarySpellings": [
+        "十",
+        "１０",
+        "拾",
+        "什",
+        "一〇"
+      ],
+      "allDictionaryReadings": [
+        "じゅう",
+        "とお",
+        "と"
+      ],
+      "leadingSense": {
+        "pos": [
+          "numeric"
+        ],
+        "glosses": [
+          "ten",
+          "10"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "十"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "lex-jmdict-1266970",
+          "japanese": "戸",
+          "reading": "と",
+          "meaning": "문, 미닫이문"
+        },
+        {
+          "id": "lex-jmdict-1337000",
+          "japanese": "銃",
+          "reading": "じゅう",
+          "meaning": "총"
+        },
+        {
+          "id": "lex-jmdict-1621470",
+          "japanese": "都",
+          "reading": "と",
+          "meaning": "도, 도쿄도의 행정 단위"
+        },
+        {
+          "id": "jmdict-1337000",
+          "japanese": "銃",
+          "reading": "じゅう",
+          "meaning": "총"
+        },
+        {
+          "id": "jmdict-1621470",
+          "japanese": "都",
+          "reading": "と",
+          "meaning": "도, 도쿄도의 행정 단위"
+        },
+        {
+          "id": "jmdict-1266970",
+          "japanese": "戸",
+          "reading": "と",
+          "meaning": "문, 미닫이문"
+        }
+      ]
+    }
+  ]
+}

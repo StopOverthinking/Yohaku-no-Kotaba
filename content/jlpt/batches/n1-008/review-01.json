@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "2d6e852267542f5308a722ec04bf2794b26271cbbfefe916e2a4ddf7a9c14591",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all words, readings, types, level selection, Korean hints/contrasts, Japanese examples and translations read.",
+    "reviewedAt": "2026-09-30T23:51:12.665Z",
+    "notes": [
+      "업무·독해 핵심 N1 어휘25의 선택 용법·대비·대표 문맥을 검토. 誇張 예문의 광고 효과를 광고 표현으로 정정하여 무엇을 부풀리는지 명료화했다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1223110",
+      "18d8e75c75d2c3cf865eb02ccc6c98935b62871834d9294f2106bd196e43bd13"
+    ],
+    [
+      "lex-jmdict-1223230",
+      "b45c8b0022d8992ad936c768a2a4abf46b30207d8a24b8f78d67f62533005731"
+    ],
+    [
+      "lex-jmdict-1223280",
+      "8bc4445b41a7e34533470bfb0ed40308155e98c4b829fdcf8d835d4e524fd0eb"
+    ],
+    [
+      "lex-jmdict-1259870",
+      "3bd5b1bdac9766b3a59e8189919581bf7b6fb68ddeb31dd4f0d6e59292942992"
+    ],
+    [
+      "lex-jmdict-1266730",
+      "04261e49129a84b79aad37ddb8ad5200ab95d94fdfa90ac307b2b89cc5a11236"
+    ],
+    [
+      "lex-jmdict-1266860",
+      "68524cabd762db0e8de240445618ad933986bfc9d9aff480b925efdf4b1feb0b"
+    ],
+    [
+      "lex-jmdict-1267030",
+      "072cd2692f181afa436769a846747ef7e580ef6158cd60c8ab3100c5af1e1fc5"
+    ],
+    [
+      "lex-jmdict-1267820",
+      "8e7239a092f3898d4bae840c6fa787deb1fcd27eb9327ba7e5c0e60e23278705"
+    ],
+    [
+      "lex-jmdict-1267870",
+      "c5ca062c2f7e3285ca3f0e3d62cc300da13ea467bbdf77cfa6067c602ca01724"
+    ],
+    [
+      "lex-jmdict-1282010",
+      "5b2ce26d698cf667c88464b7e26599e7abd7b8e0a4958e327aa3604ffa1eb861"
+    ],
+    [
+      "lex-jmdict-1282470",
+      "11798159f339afd841892e52884deb2dcd2a3dfbc3a257ecf82f9d7171198edd"
+    ],
+    [
+      "lex-jmdict-1284550",
+      "76b3450ae1d90bd337fd75ad343881afbac9605e27c1e1f9bcece90760a6a10f"
+    ],
+    [
+      "lex-jmdict-1298420",
+      "2923f3dcd426186afa0927234e89269d36515dc092b6f27edc0f0f25e0494bed"
+    ],
+    [
+      "lex-jmdict-1254100",
+      "3754b4da2a44f25c1942eee37c405cc6211fe62f04b92dd042eac5189e92d0d3"
+    ],
+    [
+      "lex-jmdict-1254240",
+      "e5c87556f7483572b323b1477863b941e2fab5300548e4bd967ed320b6d1c688"
+    ],
+    [
+      "lex-jmdict-1254290",
+      "493c5586c580e78e23faa92bc55d84ea3b76da77935f9de9801ddd82248df44d"
+    ],
+    [
+      "lex-jmdict-1254900",
+      "94167b8352a9efea7514bccb076c755a7069671f8eec8ac1424774ec93773ef3"
+    ],
+    [
+      "lex-jmdict-1252910",
+      "4c324b963e09d57d2c46d6b521d47e97c2b404d503312fe30679bb566baaa933"
+    ],
+    [
+      "lex-jmdict-1252860",
+      "79bffd01d905d61f08759799204981d7324802fc13fb1e6e8e5277d6e251334e"
+    ],
+    [
+      "lex-jmdict-1252310",
+      "57f08cb8e7267d613841bbe2bad95f79e0500748244c4d74409482bb443cc4c9"
+    ],
+    [
+      "lex-jmdict-1252680",
+      "1fbab1cdababbfd70e331b9db193eb2ce5c67c57d4272e90ce331e8b70154282"
+    ],
+    [
+      "lex-jmdict-1253760",
+      "ff5456933fa85ed307f13d05fc0e1aab86f9986ad023a2018bc3370748df9cb4"
+    ],
+    [
+      "lex-jmdict-1211970",
+      "42e1913df838a05cd766ebe9126e1960b30b7ad5c8c1d23c74a8efd50028d17b"
+    ],
+    [
+      "lex-jmdict-1212850",
+      "72eeb1d841ab66a790a641e36b4b72d19c8f11bad6a3d6b8d278d1b2b4d5a483"
+    ],
+    [
+      "lex-jmdict-1284940",
+      "a922cd62a83b4a3d5a9421c19553fb947929a5fa399be79a9b7ea8ee4889d314"
+    ]
+  ]
+}

@@ -1644,6 +1644,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1266860-1",
+    "wordId": "lex-jmdict-1266860",
+    "version": 1,
+    "meaning": "고립",
+    "hint": "다른 사람·집단과 연결되지 못하고 홀로 떨어진 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "独立",
+        "distinction": "孤立는 관계가 끊겨 홀로 됨이고 独立는 다른 것에 의존하지 않음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1266860-1-ex-1",
+        "version": 1,
+        "before": "在宅勤務でも同僚と話す機会を作り、",
+        "answer": "孤立",
+        "after": "を防いでいる。",
+        "reading": "こりつ",
+        "translation": "재택근무 중에도 동료와 이야기할 기회를 만들어 고립을 막고 있다.",
+        "translationTarget": "고립",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1478520-1",
+    "wordId": "lex-jmdict-1478520",
+    "version": 1,
+    "meaning": "판결",
+    "hint": "재판에서 법원이 사건에 대해 판단을 내립니다.",
+    "confusions": [
+      {
+        "japanese": "判定",
+        "distinction": "判決는 재판의 법원 판단이고 判定는 검사·경기 등의 판단 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1478520-1-ex-1",
+        "version": 1,
+        "before": "裁判所の",
+        "answer": "判決",
+        "after": "を受け、会社は対応を検討している。",
+        "reading": "はんけつ",
+        "translation": "법원의 판결을 받아 회사는 대응을 검토하고 있다.",
+        "translationTarget": "판결",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1544090-1",
+    "wordId": "lex-jmdict-1544090",
+    "version": 1,
+    "meaning": "불필요하다·쓸데없다",
+    "hint": "필요한 범위를 넘어 오히려 방해가 되는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "必要",
+        "distinction": "필요를 넘어 남는 것과 있어야 하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1544090-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "余計",
+        "after": "な心配をかけないように、着いたら連絡します。",
+        "reading": "よけい",
+        "translation": "불필요한 걱정을 끼치지 않도록 도착하면 연락하겠습니다.",
+        "translationTarget": "불필요한",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430850-1",
+    "wordId": "lex-jmdict-1430850",
+    "version": 1,
+    "meaning": "직감",
+    "hint": "충분한 분석 없이 바로 느껴 판단합니다.",
+    "confusions": [
+      {
+        "japanese": "理論",
+        "distinction": "直感는 바로 느끼는 판단이고 理論는 체계적인 원리·설명이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430850-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "直感",
+        "after": "ではこちらがよいと思ったが、数字でも確かめた。",
+        "reading": "ちょっかん",
+        "translation": "직감으로는 이쪽이 낫다고 생각했지만 숫자로도 확인했다.",
+        "translationTarget": "직감",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1471130-1",
+    "wordId": "lex-jmdict-1471130",
+    "version": 1,
+    "meaning": "파견",
+    "hint": "사람을 다른 장소·기관에 보내 업무를 맡깁니다.",
+    "confusions": [
+      {
+        "japanese": "出張",
+        "distinction": "派遣는 조직이 사람을 보내 맡김이고 出張는 업무로 출장 감이다. 근무 형태로 겹칠 수도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1471130-1-ex-1",
+        "version": 1,
+        "before": "修理のため、専門の技術者が現場へ",
+        "answer": "派遣",
+        "after": "された。",
+        "reading": "はけん",
+        "translation": "수리를 위해 전문 기술자가 현장으로 파견되었다.",
+        "translationTarget": "파견",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598990-1",
+    "wordId": "lex-jmdict-1598990",
+    "version": 1,
+    "meaning": "취급, 다루는 방법",
+    "hint": "물건·사람·문제를 다루는 방식·행위입니다.",
+    "confusions": [
+      {
+        "japanese": "取り引き",
+        "distinction": "取り扱い는 다룸·취급이고 取り引き는 매매·교섭의 거래이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598990-1-ex-1",
+        "version": 1,
+        "before": "機械の",
+        "answer": "取り扱い",
+        "after": "を誤ると、けがにつながることがある。",
+        "reading": "とりあつかい",
+        "translation": "기계 취급을 잘못하면 부상으로 이어질 수 있다.",
+        "translationTarget": "취급",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599070-1",
+    "wordId": "lex-jmdict-1599070",
+    "version": 1,
+    "meaning": "단속",
+    "hint": "규칙 위반을 감시하고 바로잡는 활동입니다.",
+    "confusions": [
+      {
+        "japanese": "取り調べ",
+        "distinction": "取り締まり는 위반을 단속하는 활동이고 取り調べ는 사실을 조사해 알아봄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599070-1-ex-1",
+        "version": 1,
+        "before": "駅前では、違法駐車の",
+        "answer": "取り締まり",
+        "after": "が強化された。",
+        "reading": "とりしまり",
+        "translation": "역 앞에서는 불법 주차 단속이 강화되었다.",
+        "translationTarget": "단속",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-2856318-1",
+    "wordId": "lex-jmdict-2856318",
+    "version": 1,
+    "meaning": "치료하다·낫게 하다",
+    "hint": "병이나 상처를 회복시켜 건강한 상태로 만들어요.",
+    "confusions": [
+      {
+        "japanese": "治る",
+        "distinction": "병이나 상처를 낫게 하는 타동사와 병이나 상처가 낫는 자동사를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-2856318-1-ex-1",
+        "version": 1,
+        "before": "まず風邪を",
+        "answer": "治して",
+        "after": "から、練習に戻りましょう。",
+        "reading": "なおして",
+        "translation": "먼저 감기를 치료한 뒤 연습에 돌아갑시다.",
+        "translationTarget": "치료한",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578075-1",
+    "wordId": "lex-jmdict-1578075",
+    "version": 1,
+    "meaning": "위협하다",
+    "hint": "안전·지위 등을 불안하게 하거나 위험에 빠뜨립니다.",
+    "confusions": [
+      {
+        "japanese": "驚かす",
+        "distinction": "선택한 脅かす의 おびやかす는 안전·상태를 위협함이고 驚かす는 놀라게 함이다. おどかす 읽기의 겁주다와 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578075-1-ex-1",
+        "version": 1,
+        "before": "水質の悪化が、川の生き物の命を",
+        "answer": "脅かしている",
+        "after": "。",
+        "reading": "おびやかしている",
+        "translation": "수질 악화가 강 생물들의 생명을 위협하고 있다.",
+        "translationTarget": "위협하고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

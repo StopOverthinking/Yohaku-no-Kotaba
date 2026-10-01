@@ -1,0 +1,122 @@
+[
+  {
+    "japanese": "清掃",
+    "reading": "せいそう",
+    "type": "noun",
+    "meaning": "청소",
+    "hint": "시설이나 공간의 쓰레기와 먼지를 치워 깨끗하게 하는 일",
+    "confusion": "汚染",
+    "distinction": "더러운 것을 치우는 일과 더럽히는 것을 구별한다.",
+    "dictionaryId": "jmdict-1378320",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "売買",
+    "reading": "ばいばい",
+    "type": "noun",
+    "meaning": "매매",
+    "hint": "물건 등을 사고파는 거래",
+    "confusion": "贈与",
+    "distinction": "대가를 받고 사고파는 것과 무상으로 주는 것을 구별한다.",
+    "dictionaryId": "jmdict-1474050",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "発売",
+    "reading": "はつばい",
+    "type": "noun",
+    "meaning": "판매 개시·출시",
+    "hint": "새 상품을 시장에 내놓아 팔기 시작하는 것",
+    "confusion": "開発",
+    "distinction": "상품을 팔기 시작하는 것과 상품을 새로 만드는 것을 구별한다.",
+    "dictionaryId": "jmdict-1477810",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "反省",
+    "reading": "はんせい",
+    "type": "noun",
+    "meaning": "반성",
+    "hint": "자신의 행동을 돌아보아 잘못과 개선할 점을 생각하는 것",
+    "confusion": "後悔",
+    "distinction": "행동을 돌아보며 개선점을 찾는 것과 지난 일을 아쉬워하는 마음을 구별한다.",
+    "dictionaryId": "jmdict-1480540",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "包装",
+    "reading": "ほうそう",
+    "type": "noun",
+    "meaning": "포장",
+    "hint": "물건을 종이나 용기 등으로 싸는 것",
+    "confusion": "開封",
+    "distinction": "물건을 싸는 것과 싸인 것을 여는 것을 구별한다.",
+    "dictionaryId": "jmdict-1515510",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "閉会",
+    "reading": "へいかい",
+    "type": "noun",
+    "meaning": "폐회",
+    "hint": "회의나 행사를 공식적으로 끝내는 것",
+    "confusion": "開会",
+    "distinction": "행사를 공식적으로 끝내는 것과 시작하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1508600",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "来日",
+    "reading": "らいにち",
+    "type": "noun",
+    "meaning": "일본 방문·일본에 옴",
+    "hint": "다른 나라에서 일본으로 오는 것",
+    "confusion": "帰国",
+    "distinction": "일본으로 오는 것과 자기 나라로 돌아가는 것을 구별한다.",
+    "dictionaryId": "jmdict-1548200",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "並木",
+    "reading": "なみき",
+    "type": "noun",
+    "meaning": "가로수·나무 행렬",
+    "hint": "길을 따라 나란히 심은 나무들",
+    "confusion": "森林",
+    "distinction": "길을 따라 줄지어 선 나무와 넓게 모여 자라는 숲을 구별한다.",
+    "dictionaryId": "jmdict-1599640",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "住まい",
+    "reading": "すまい",
+    "type": "noun",
+    "meaning": "거처·주거",
+    "hint": "사람이 살고 있는 집이나 장소",
+    "confusion": "職場",
+    "distinction": "생활하며 사는 장소와 일하는 장소를 구별한다.",
+    "dictionaryId": "jmdict-1595750",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "日帰り",
+    "reading": "ひがえり",
+    "type": "noun",
+    "meaning": "당일치기",
+    "hint": "외박하지 않고 떠난 날에 돌아오는 여행이나 이동",
+    "confusion": "宿泊",
+    "distinction": "그날 돌아오는 이동과 묵고 돌아오는 것을 구별한다.",
+    "dictionaryId": "jmdict-1463920",
+    "level": "N3",
+    "levelNote": "선택한 일상 핵심 용법 기준의 비공식 N3 편집 수준."
+  }
+]

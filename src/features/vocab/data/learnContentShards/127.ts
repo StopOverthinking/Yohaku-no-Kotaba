@@ -1716,6 +1716,454 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435510-1",
+    "wordId": "lex-jmdict-1435510",
+    "version": 1,
+    "meaning": "정기권",
+    "hint": "정해진 기간·구간을 반복 이용할 수 있게 하는 승차권입니다.",
+    "confusions": [
+      {
+        "japanese": "回数券",
+        "distinction": "定期券는 기간 중심의 정기권이고 回数券는 정해진 횟수의 회수권이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435510-1-ex-1",
+        "version": 1,
+        "before": "駅の窓口で、来月から使う",
+        "answer": "定期券",
+        "after": "を購入した。",
+        "reading": "ていきけん",
+        "translation": "역 창구에서 다음 달부터 사용할 정기권을 샀다.",
+        "translationTarget": "정기권",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1011660-1",
+    "wordId": "lex-jmdict-1011660",
+    "version": 1,
+    "meaning": "안도하며, 한숨 돌리며",
+    "hint": "걱정·긴장이 풀려 마음이 놓이는 느낌입니다.",
+    "confusions": [
+      {
+        "japanese": "ぼっと",
+        "distinction": "선택한 ほっと는 안도의 느낌이고 ぼっと는 멍하니 있거나 불붙는 모양이다. 깊은 한숨을 내쉬는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1011660-1-ex-1",
+        "version": 1,
+        "before": "迷子の犬が無事に見つかり、家族みんなが",
+        "answer": "ほっと",
+        "after": "した。",
+        "reading": "ほっと",
+        "translation": "길을 잃은 개를 무사히 찾아 가족 모두가 안도했다.",
+        "translationTarget": "안도",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1111160-1",
+    "wordId": "lex-jmdict-1111160",
+    "version": 1,
+    "meaning": "프라이팬",
+    "hint": "재료를 굽거나 볶는 데 쓰는 바닥이 넓은 조리 기구",
+    "confusions": [
+      {
+        "japanese": "鍋",
+        "distinction": "바닥이 넓은 굽기용 기구와 깊은 끓이기용 기구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1111160-1-ex-1",
+        "version": 1,
+        "before": "卵を焼く前に、",
+        "answer": "フライパン",
+        "after": "を十分に温めます。",
+        "reading": "フライパン",
+        "translation": "달걀을 굽기 전에 프라이팬을 충분히 데웁니다.",
+        "translationTarget": "프라이팬",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385480-1",
+    "wordId": "lex-jmdict-1385480",
+    "version": 1,
+    "meaning": "접속, 연결",
+    "hint": "기기·회선 등을 이어 서로 작동하게 합니다.",
+    "confusions": [
+      {
+        "japanese": "切断",
+        "distinction": "接続는 연결함이고 切断는 연결을 끊음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385480-1-ex-1",
+        "version": 1,
+        "before": "会議が始まる前に、マイクの",
+        "answer": "接続",
+        "after": "を確かめておいた。",
+        "reading": "せつぞく",
+        "translation": "회의가 시작되기 전에 마이크의 연결을 확인해 두었다.",
+        "translationTarget": "연결",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429410-1",
+    "wordId": "lex-jmdict-1429410",
+    "version": 1,
+    "meaning": "초과",
+    "hint": "정해진 한도·기준을 넘어서는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "不足",
+        "distinction": "超過는 기준을 넘음이고 不足는 필요한 양에 못 미침이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429410-1-ex-1",
+        "version": 1,
+        "before": "荷物の重さが制限を",
+        "answer": "超過",
+        "after": "したため、追加料金を払った。",
+        "reading": "ちょうか",
+        "translation": "짐의 무게가 제한을 초과해서 추가 요금을 냈다.",
+        "translationTarget": "초과",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374800-1",
+    "wordId": "lex-jmdict-1374800",
+    "version": 1,
+    "meaning": "제재",
+    "hint": "규칙·의무를 어긴 데 대해 불이익이나 처벌을 가하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "規制",
+        "distinction": "制裁는 위반에 대한 처벌·불이익이고 規制는 활동 범위를 제한하는 규율이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374800-1-ex-1",
+        "version": 1,
+        "before": "規則に違反した選手には、出場停止の",
+        "answer": "制裁",
+        "after": "が科された。",
+        "reading": "せいさい",
+        "translation": "규칙을 위반한 선수에게는 출전 정지 제재가 부과되었다.",
+        "translationTarget": "제재",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1316840-1",
+    "wordId": "lex-jmdict-1316840",
+    "version": 1,
+    "meaning": "치안",
+    "hint": "범죄·소요 없이 사회의 안전과 질서가 유지되는 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "治療",
+        "distinction": "治安는 사회의 안전·질서이고 治療는 질병을 고침이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1316840-1-ex-1",
+        "version": 1,
+        "before": "夜の巡回を増やし、地域の",
+        "answer": "治安",
+        "after": "を守っている。",
+        "reading": "ちあん",
+        "translation": "야간 순찰을 늘려 지역의 치안을 지키고 있다.",
+        "translationTarget": "치안",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1239970-1",
+    "wordId": "lex-jmdict-1239970",
+    "version": 1,
+    "meaning": "곡선",
+    "hint": "방향이 부드럽게 휘어지는 선",
+    "confusions": [
+      {
+        "japanese": "直線",
+        "distinction": "휘어진 선과 곧은 선을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1239970-1-ex-1",
+        "version": 1,
+        "before": "この橋は、屋根の美しい",
+        "answer": "曲線",
+        "after": "で知られている。",
+        "reading": "きょくせん",
+        "translation": "이 다리는 지붕의 아름다운 곡선으로 알려져 있다.",
+        "translationTarget": "곡선",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329600-1",
+    "wordId": "lex-jmdict-1329600",
+    "version": 1,
+    "meaning": "이어받다, 계승하다",
+    "hint": "앞사람의 기술·전통·역할 등을 물려받아 이어갑니다.",
+    "confusions": [
+      {
+        "japanese": "受け取る",
+        "distinction": "受け継ぐ는 앞선 것을 이어받음이고 受け取る는 물건·정보를 받음 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329600-1-ex-1",
+        "version": 1,
+        "before": "祖母から",
+        "answer": "受け継いだ",
+        "after": "染色の技術を、次の世代にも伝えたい。",
+        "reading": "うけついだ",
+        "translation": "할머니에게서 이어받은 염색 기술을 다음 세대에도 전하고 싶다.",
+        "translationTarget": "이어받은",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529880-1",
+    "wordId": "lex-jmdict-1529880",
+    "version": 1,
+    "meaning": "무한함",
+    "hint": "끝이나 한도가 없습니다.",
+    "confusions": [
+      {
+        "japanese": "有限",
+        "distinction": "無限는 한계가 없음이고 有限는 한계가 있음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529880-1-ex-1",
+        "version": 1,
+        "before": "資源は",
+        "answer": "無限",
+        "after": "ではないので、使い方を考えよう。",
+        "reading": "むげん",
+        "translation": "자원은 무한하지 않으므로 사용 방법을 생각하자.",
+        "translationTarget": "무한하지",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1520380-1",
+    "wordId": "lex-jmdict-1520380",
+    "version": 1,
+    "meaning": "방지",
+    "hint": "좋지 않은 일이 생기지 않도록 미리 막는 것",
+    "confusions": [
+      {
+        "japanese": "対処",
+        "distinction": "사건이 생기지 않게 막는 것과 발생한 뒤 처리하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1520380-1-ex-1",
+        "version": 1,
+        "before": "事故の",
+        "answer": "防止",
+        "after": "には、設備の点検だけでなく訓練も必要だ。",
+        "reading": "ぼうし",
+        "translation": "사고 방지에는 설비 점검뿐 아니라 훈련도 필요하다.",
+        "translationTarget": "방지",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1583130-1",
+    "wordId": "lex-jmdict-1583130",
+    "version": 1,
+    "meaning": "발족",
+    "hint": "새 조직·제도가 만들어져 활동을 시작합니다.",
+    "confusions": [
+      {
+        "japanese": "解散",
+        "distinction": "発足는 조직·제도가 시작됨이고 解散는 조직을 흩어 없앰이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1583130-1-ex-1",
+        "version": 1,
+        "before": "地域の課題を話し合う委員会が",
+        "answer": "発足",
+        "after": "した。",
+        "reading": "ほっそく",
+        "translation": "지역 과제를 의논하는 위원회가 발족했다.",
+        "translationTarget": "발족",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379410-1",
+    "wordId": "lex-jmdict-1379410",
+    "version": 1,
+    "meaning": "생년월일",
+    "hint": "태어난 해와 달과 날",
+    "confusions": [
+      {
+        "japanese": "記念日",
+        "distinction": "태어난 정확한 날짜와 어떤 일을 기념하는 날짜를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379410-1-ex-1",
+        "version": 1,
+        "before": "本人確認のため、",
+        "answer": "生年月日",
+        "after": "を入力してください。",
+        "reading": "せいねんがっぴ",
+        "translation": "본인 확인을 위해 생년월일을 입력해 주세요.",
+        "translationTarget": "생년월일",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598000-1",
+    "wordId": "lex-jmdict-1598000",
+    "version": 1,
+    "meaning": "삼가다, 자제하다",
+    "hint": "말·행동이 지나치지 않도록 조심하고 억제합니다.",
+    "confusions": [
+      {
+        "japanese": "控える",
+        "distinction": "慎む와 控える는 삼감이 겹친다. 慎む는 품행·말을 조심함, 控える는 양·빈도를 줄임에도 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598000-1-ex-1",
+        "version": 1,
+        "before": "大切な会議の前なので、軽はずみな発言を",
+        "answer": "慎んだ",
+        "after": "。",
+        "reading": "つつしんだ",
+        "translation": "중요한 회의 전이라 경솔한 발언을 삼갔다.",
+        "translationTarget": "삼갔다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

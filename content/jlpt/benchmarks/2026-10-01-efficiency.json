@@ -1,0 +1,711 @@
+{
+  "generatedAt": "2026-10-01T01:22:50.767771+00:00",
+  "scope": "2026-10-01 resume final bounded practical corpus; source approvals and final scope approval reported separately",
+  "contentSnapshot": {
+    "currentSelectionSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+    "finalScopeApproval": {
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "sourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+      "currentSelectionSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+      "currentHashMatches": true,
+      "currentCountMatches": true,
+      "progressComplete": true,
+      "mechanicalSourceApprovalIsSeparateFromFinalSelection": true
+    },
+    "capture": {
+      "attempt": 1,
+      "startedAt": "2026-10-01T01:22:12.997Z",
+      "completedAt": "2026-10-01T01:22:13.271Z",
+      "changed": [],
+      "newFiles": [],
+      "stable": true
+    },
+    "snapshotHash": "5b499f3276578ec18c04901cd2a747d482266e344b6e1f4b978400bf1b96cba4",
+    "uniqueLevelWords": 4861,
+    "levelCounts": {
+      "N5": 599,
+      "N4": 648,
+      "N3": 1727,
+      "N2": 1056,
+      "N1": 831
+    },
+    "rawDictionaryPublishedWords": 4127,
+    "lexicallyNewWords": 4114,
+    "existingOrEquivalentLevelWords": 747,
+    "lexicalCountDefinition": "Calculated against current level word IDs and immutable baseline lexicalKey; na_adj final-da equivalents are excluded from lexical novelty, while raw dictionary publication count is preserved separately.",
+    "start": {
+      "levelWords": 3427,
+      "newWords": 3083,
+      "byLevel": {
+        "N5": 412,
+        "N4": 509,
+        "N3": 1338,
+        "N2": 529,
+        "N1": 639
+      }
+    },
+    "deltaLevelWordsFrom3427": 1434
+  },
+  "freshAuthoring": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "totalNewDraftWords": 982,
+    "acceptedNewWords": 981,
+    "heldDifferentCoreDraftWords": 1,
+    "heldDraft": {
+      "file": "content/jlpt/batches/n5-041/held-01.json",
+      "word": "あの",
+      "dictionaryId": "jmdict-1000420",
+      "reason": "Determiner conflicts in canonical spelling/reading with preserved original interjection; not integrated and not an approval-pending publication."
+    },
+    "grossDraftWordsBeforeLegacyDuplicateExclusions": 985,
+    "excludedDuplicateDrafts": [
+      {
+        "word": "溜める",
+        "legacyId": "AbsoluteVerb_426",
+        "timingPart": "n3-021/01"
+      },
+      {
+        "word": "囁く",
+        "legacyId": "AbsoluteVerb_66",
+        "timingPart": "n3-021/01"
+      },
+      {
+        "word": "纏まる",
+        "legacyId": "AbsoluteVerb_438",
+        "timingPart": "n3-021/02"
+      }
+    ],
+    "totalRepresentativeExamples": 982,
+    "acceptedRepresentativeExamples": 981,
+    "authorGroups": {
+      "vocabulary": {
+        "freshDraftWords": 613,
+        "acceptedNewWords": 612,
+        "heldDraftWords": 1,
+        "grossTimedDraftWords": 613,
+        "netTimedWords": 612,
+        "excludedDuplicateDraftWords": 0,
+        "timedWords": 613,
+        "excludedSaveOnlyWords": 0,
+        "segments": 26,
+        "segmentElapsedSecondsSum": 2965.369,
+        "segmentUnionSeconds": 2965.369,
+        "timedSecondsPerWord": 4.837,
+        "pureThinkingSeconds": null
+      },
+      "examples": {
+        "freshDraftWords": 369,
+        "acceptedNewWords": 369,
+        "heldDraftWords": 0,
+        "grossTimedDraftWords": 366,
+        "netTimedWords": 363,
+        "excludedDuplicateDraftWords": 3,
+        "timedWords": 366,
+        "excludedSaveOnlyWords": 6,
+        "segments": 15,
+        "segmentElapsedSecondsSum": 1531.916,
+        "segmentUnionSeconds": 1531.916,
+        "timedSecondsPerWord": 4.186,
+        "pureThinkingSeconds": null
+      }
+    },
+    "recoveredPreviouslyAuthoredMissingExamples": 30,
+    "recoveredIncludedInFreshAccepted981": false,
+    "pendingFreshWordsAtSnapshot": 0,
+    "completedFreshIntegrationBy981MinusPending": 981,
+    "countDerivation": "Vocabulary author 575+9+17+12 =613 draft, minus held determiner1 =612 accepted; examples author369 accepted including6 save-only basic words. Raw bounded draft982, accepted981; earlier discarded duplicate drafts3 remain separate gross985 work. Releveling changes folders, not author totals."
+  },
+  "measurement": {
+    "timingFileHashes": {
+      "content/jlpt/batches/n1-008/timing.json": "5f21175afb195628ef518c045c2f28699b051e072c33d206ed79e8cdae800b49",
+      "content/jlpt/batches/n1-009/timing.json": "e1918abd6f1d3b7a410bf5361f88621461af9afbcb3113da58707f545b98d566",
+      "content/jlpt/batches/n1-010/timing.json": "43bd88e7a645ac556de0653d8dbfbff484f3cd94cacca8555925d8f80f11f5e1",
+      "content/jlpt/batches/n2-009/timing.json": "b88e162ab3d66a9466416572a150b6e101b6b1985ccc6e285a8479813484c248",
+      "content/jlpt/batches/n2-010/timing.json": "3c2befde9cfe02d99485912d82f91e2cf89809ef14dea94a0f03920346106d32",
+      "content/jlpt/batches/n2-011/timing.json": "e9ccc9dfba1d9aa5ff95d03c68dff4409377326cb8dff41c8fb962682b1d8c62",
+      "content/jlpt/batches/n5-040/timing.json": "70800a51435e94bed61e08cd07f10e7e8efc39e828d48a43566802b9aa337af9",
+      "content/jlpt/batches/n5-041/timing.json": "5856f3831dd36485e3e9eca7ec96b7178136c741a437001703c62203d160e07a",
+      "content/jlpt/batches/n5-042/timing.json": "4f396f2c42d967707621d917f30e006511466c9816a20e304a9cf49243074d19",
+      "content/jlpt/batches/n2-020/timing.json": "c0a2ee61fd8bf24c9307ab9a84e5833fdb186ea1b77c4a9b3fadc368ea0a1e1f",
+      "content/jlpt/batches/n2-021/timing.json": "2f7272f29b36d9712bcf44006aa2656e5fc5724edb54b6b03a0c56a3b8490319",
+      "content/jlpt/batches/n2-022/timing.json": "bb049e927ea4e07ccd82a9ea110c2a2b205fbe32a137ce57e49d4290fd2cb03f",
+      "content/jlpt/batches/n3-020/timing.json": "689d7132f982e5c6ec4fdae39a7f6627da6b92124daac2eb39f5be543943e242",
+      "content/jlpt/batches/n3-021/timing.json": "d861b2a6c74bc9385aa40033f809c5765fa1131f588a3f21a40190e269621f73",
+      "content/jlpt/batches/n4-007/timing.json": "bc1caf3312a477ffaba0d86e6490d4c0866715d0d56b06db4d79168bf2d27c8a",
+      "content/jlpt/batches/n5-009/timing.json": "020b67a952352e47a4d2df85c5fa82e7e98bd8e8fca876a596d9de53b97d4792"
+    },
+    "batches": [
+      {
+        "batch": "n1-008",
+        "authorGroup": "vocabulary",
+        "words": 100,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-09-30T23:43:36Z",
+            "draftCompletedAt": "2026-09-30T23:46:16.907065+00:00",
+            "authorSegmentElapsedSeconds": 160.907065,
+            "validationCompletedAt": "2026-09-30T23:46:18.182Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-09-30T23:47:58Z",
+            "draftCompletedAt": "2026-09-30T23:49:59.761063+00:00",
+            "authorSegmentElapsedSeconds": 121.761063,
+            "validationCompletedAt": "2026-09-30T23:50:00.976Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-09-30T23:50:01Z",
+            "draftCompletedAt": "2026-09-30T23:51:41.727919+00:00",
+            "authorSegmentElapsedSeconds": 100.727919,
+            "validationCompletedAt": "2026-09-30T23:51:42.960Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-09-30T23:51:43Z",
+            "draftCompletedAt": "2026-09-30T23:53:35.397084+00:00",
+            "authorSegmentElapsedSeconds": 112.397084,
+            "validationCompletedAt": "2026-09-30T23:54:04.177Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 495.793131
+      },
+      {
+        "batch": "n1-009",
+        "authorGroup": "vocabulary",
+        "words": 100,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-10-01T00:01:03Z",
+            "draftCompletedAt": "2026-10-01T00:02:49.462825+00:00",
+            "authorSegmentElapsedSeconds": 106.462825,
+            "validationCompletedAt": "2026-10-01T00:02:50.937Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-10-01T00:02:51Z",
+            "draftCompletedAt": "2026-10-01T00:04:24.616088+00:00",
+            "authorSegmentElapsedSeconds": 93.616088,
+            "validationCompletedAt": "2026-10-01T00:04:26.097Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-10-01T00:04:26Z",
+            "draftCompletedAt": "2026-10-01T00:06:10.602126+00:00",
+            "authorSegmentElapsedSeconds": 104.602126,
+            "validationCompletedAt": "2026-10-01T00:06:11.894Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-10-01T00:06:12Z",
+            "draftCompletedAt": "2026-10-01T00:07:48.359926+00:00",
+            "authorSegmentElapsedSeconds": 96.359926,
+            "validationCompletedAt": "2026-10-01T00:07:49.845Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 401.040965
+      },
+      {
+        "batch": "n1-010",
+        "authorGroup": "vocabulary",
+        "words": 100,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-10-01T00:15:09Z",
+            "draftCompletedAt": "2026-10-01T00:17:13.324484+00:00",
+            "authorSegmentElapsedSeconds": 124.324484,
+            "validationCompletedAt": "2026-10-01T00:17:14.617Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-10-01T00:17:15Z",
+            "draftCompletedAt": "2026-10-01T00:19:01.586756+00:00",
+            "authorSegmentElapsedSeconds": 106.586756,
+            "validationCompletedAt": "2026-10-01T00:19:03.009Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-10-01T00:19:03Z",
+            "draftCompletedAt": "2026-10-01T00:20:53.032165+00:00",
+            "authorSegmentElapsedSeconds": 110.032165,
+            "validationCompletedAt": "2026-10-01T00:20:54.528Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-10-01T00:20:55Z",
+            "draftCompletedAt": "2026-10-01T00:22:39.002475+00:00",
+            "authorSegmentElapsedSeconds": 104.002475,
+            "validationCompletedAt": "2026-10-01T00:22:40.698Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 444.94588
+      },
+      {
+        "batch": "n2-009",
+        "authorGroup": "vocabulary",
+        "words": 100,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-09-30T23:46:18Z",
+            "draftCompletedAt": "2026-09-30T23:47:57.536870+00:00",
+            "authorSegmentElapsedSeconds": 99.53687,
+            "validationCompletedAt": "2026-09-30T23:47:58.824Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-09-30T23:54:04Z",
+            "draftCompletedAt": "2026-09-30T23:55:53.024560+00:00",
+            "authorSegmentElapsedSeconds": 109.02456,
+            "validationCompletedAt": "2026-09-30T23:55:54.275Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-09-30T23:55:54Z",
+            "draftCompletedAt": "2026-09-30T23:59:05.857315+00:00",
+            "authorSegmentElapsedSeconds": 191.857315,
+            "validationCompletedAt": "2026-09-30T23:59:20.316Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-09-30T23:59:21Z",
+            "draftCompletedAt": "2026-10-01T00:01:01.846896+00:00",
+            "authorSegmentElapsedSeconds": 100.846896,
+            "validationCompletedAt": "2026-10-01T00:01:03.262Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 501.265641
+      },
+      {
+        "batch": "n2-010",
+        "authorGroup": "vocabulary",
+        "words": 100,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-10-01T00:07:50Z",
+            "draftCompletedAt": "2026-10-01T00:09:32.399775+00:00",
+            "authorSegmentElapsedSeconds": 102.399775,
+            "validationCompletedAt": "2026-10-01T00:09:33.733Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-10-01T00:09:34Z",
+            "draftCompletedAt": "2026-10-01T00:11:15.820819+00:00",
+            "authorSegmentElapsedSeconds": 101.820819,
+            "validationCompletedAt": "2026-10-01T00:11:17.085Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-10-01T00:11:17Z",
+            "draftCompletedAt": "2026-10-01T00:13:01.915287+00:00",
+            "authorSegmentElapsedSeconds": 104.915287,
+            "validationCompletedAt": "2026-10-01T00:13:21.428Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-10-01T00:13:22Z",
+            "draftCompletedAt": "2026-10-01T00:15:06.975475+00:00",
+            "authorSegmentElapsedSeconds": 104.975475,
+            "validationCompletedAt": "2026-10-01T00:15:08.255Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 414.111356
+      },
+      {
+        "batch": "n2-011",
+        "authorGroup": "vocabulary",
+        "words": 75,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-10-01T00:22:41Z",
+            "draftCompletedAt": "2026-10-01T00:24:25.589930+00:00",
+            "authorSegmentElapsedSeconds": 104.58993,
+            "validationCompletedAt": "2026-10-01T00:24:27.038Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-10-01T00:24:28Z",
+            "draftCompletedAt": "2026-10-01T00:26:25.024292+00:00",
+            "authorSegmentElapsedSeconds": 117.024292,
+            "validationCompletedAt": "2026-10-01T00:26:26.507Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-10-01T00:26:27Z",
+            "draftCompletedAt": "2026-10-01T00:28:15.897119+00:00",
+            "authorSegmentElapsedSeconds": 108.897119,
+            "validationCompletedAt": "2026-10-01T00:28:17.162Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 330.511341
+      },
+      {
+        "batch": "n5-040",
+        "authorGroup": "vocabulary",
+        "words": 9,
+        "segments": [
+          {
+            "part": "01",
+            "words": 9,
+            "startedAt": "2026-10-01T01:00:30Z",
+            "draftCompletedAt": "2026-10-01T01:01:47.920475+00:00",
+            "authorSegmentElapsedSeconds": 77.920475,
+            "validationCompletedAt": "2026-10-01T01:02:20.574Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 77.920475
+      },
+      {
+        "batch": "n5-041",
+        "authorGroup": "vocabulary",
+        "words": 17,
+        "segments": [
+          {
+            "part": "01",
+            "words": 17,
+            "startedAt": "2026-10-01T01:06:18Z",
+            "draftCompletedAt": "2026-10-01T01:08:42.829Z",
+            "authorSegmentElapsedSeconds": 144.829,
+            "validationCompletedAt": "2026-10-01T01:08:42.829Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 144.829
+      },
+      {
+        "batch": "n5-042",
+        "authorGroup": "vocabulary",
+        "words": 12,
+        "segments": [
+          {
+            "part": "01",
+            "words": 12,
+            "startedAt": "2026-10-01T01:10:47Z",
+            "draftCompletedAt": "2026-10-01T01:13:21.950965+00:00",
+            "authorSegmentElapsedSeconds": 154.950965,
+            "validationCompletedAt": "2026-10-01T01:13:22.679Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 154.950965
+      },
+      {
+        "batch": "n2-020",
+        "authorGroup": "examples",
+        "words": 75,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-09-30T23:47:42.801Z",
+            "draftCompletedAt": "2026-09-30T23:49:05.937Z",
+            "authorSegmentElapsedSeconds": 83.136,
+            "validationCompletedAt": "2026-09-30T23:51:37.505Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-09-30T23:49:24.124Z",
+            "draftCompletedAt": "2026-09-30T23:51:06.957Z",
+            "authorSegmentElapsedSeconds": 102.833,
+            "validationCompletedAt": "2026-09-30T23:51:07.991Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-09-30T23:53:25.331Z",
+            "draftCompletedAt": "2026-09-30T23:54:42.003Z",
+            "authorSegmentElapsedSeconds": 76.672,
+            "validationCompletedAt": "2026-09-30T23:54:43.030Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 262.641
+      },
+      {
+        "batch": "n2-021",
+        "authorGroup": "examples",
+        "words": 96,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-10-01T00:03:43.969Z",
+            "draftCompletedAt": "2026-10-01T00:05:42.620Z",
+            "authorSegmentElapsedSeconds": 118.651,
+            "validationCompletedAt": "2026-10-01T00:05:43.689Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 23,
+            "startedAt": "2026-10-01T00:06:33.362Z",
+            "draftCompletedAt": "2026-10-01T00:09:24.291Z",
+            "authorSegmentElapsedSeconds": 170.929,
+            "validationCompletedAt": "2026-10-01T00:09:25.308Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 23,
+            "startedAt": "2026-10-01T00:10:43.296Z",
+            "draftCompletedAt": "2026-10-01T00:12:38.751Z",
+            "authorSegmentElapsedSeconds": 115.455,
+            "validationCompletedAt": "2026-10-01T00:12:39.724Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-10-01T00:13:02.366Z",
+            "draftCompletedAt": "2026-10-01T00:14:23.677Z",
+            "authorSegmentElapsedSeconds": 81.311,
+            "validationCompletedAt": "2026-10-01T00:14:24.726Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 486.346
+      },
+      {
+        "batch": "n2-022",
+        "authorGroup": "examples",
+        "words": 99,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-10-01T00:14:55.936Z",
+            "draftCompletedAt": "2026-10-01T00:16:19.922Z",
+            "authorSegmentElapsedSeconds": 83.986,
+            "validationCompletedAt": "2026-10-01T00:16:20.978Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 24,
+            "startedAt": "2026-10-01T00:17:05.695Z",
+            "draftCompletedAt": "2026-10-01T00:18:34.035Z",
+            "authorSegmentElapsedSeconds": 88.34,
+            "validationCompletedAt": "2026-10-01T00:18:35.568Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-10-01T00:19:14.324Z",
+            "draftCompletedAt": "2026-10-01T00:20:38.481Z",
+            "authorSegmentElapsedSeconds": 84.157,
+            "validationCompletedAt": "2026-10-01T00:20:39.797Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "04",
+            "words": 25,
+            "startedAt": "2026-10-01T00:21:05.820Z",
+            "draftCompletedAt": "2026-10-01T00:22:49.848Z",
+            "authorSegmentElapsedSeconds": 104.028,
+            "validationCompletedAt": "2026-10-01T00:22:50.973Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 360.511
+      },
+      {
+        "batch": "n3-020",
+        "authorGroup": "examples",
+        "words": 21,
+        "segments": [
+          {
+            "part": "04",
+            "words": 21,
+            "startedAt": "2026-09-30T23:55:10.124Z",
+            "draftCompletedAt": "2026-09-30T23:56:18.260Z",
+            "authorSegmentElapsedSeconds": 68.136,
+            "validationCompletedAt": "2026-09-30T23:56:19.166Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 68.136
+      },
+      {
+        "batch": "n3-021",
+        "authorGroup": "examples",
+        "words": 75,
+        "segments": [
+          {
+            "part": "01",
+            "words": 25,
+            "startedAt": "2026-09-30T23:56:37.251Z",
+            "draftCompletedAt": "2026-09-30T23:58:42.532Z",
+            "authorSegmentElapsedSeconds": 125.281,
+            "validationCompletedAt": "2026-10-01T00:10:44.445Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "02",
+            "words": 25,
+            "startedAt": "2026-09-30T23:59:17.452Z",
+            "draftCompletedAt": "2026-10-01T00:00:41.739Z",
+            "authorSegmentElapsedSeconds": 84.287,
+            "validationCompletedAt": "2026-10-01T00:10:45.612Z",
+            "pureThinkingSeconds": null
+          },
+          {
+            "part": "03",
+            "words": 25,
+            "startedAt": "2026-10-01T00:01:05.186Z",
+            "draftCompletedAt": "2026-10-01T00:03:29.900Z",
+            "authorSegmentElapsedSeconds": 144.714,
+            "validationCompletedAt": "2026-10-01T00:03:31.041Z",
+            "pureThinkingSeconds": null
+          }
+        ],
+        "measuredSegmentElapsedSeconds": 354.282
+      },
+      {
+        "batch": "n4-007",
+        "authorGroup": "examples",
+        "words": 3,
+        "segments": [],
+        "measuredSegmentElapsedSeconds": 0
+      },
+      {
+        "batch": "n5-009",
+        "authorGroup": "examples",
+        "words": 3,
+        "segments": [],
+        "measuredSegmentElapsedSeconds": 0
+      }
+    ],
+    "excludedFromThroughput": [
+      {
+        "batch": "n4-007",
+        "words": 3,
+        "reason": "Saved-file generation timestamps only. Selection, reading and composition before execution not measured; do not use as authoring throughput.",
+        "fileSaveElapsedSeconds": 0.003
+      },
+      {
+        "batch": "n5-009",
+        "words": 3,
+        "reason": "Saved-file generation timestamps only. Selection, reading and composition before execution not measured; do not use as authoring throughput.",
+        "fileSaveElapsedSeconds": 0.002
+      }
+    ],
+    "summedIndependentAuthorSegmentElapsedSeconds": 4497.285,
+    "combinedSegmentUnionSeconds": 3031.269,
+    "crossAuthorOverlapSeconds": 1466.016,
+    "firstToLastMeasuredSegmentSpanSeconds": 5385.951,
+    "pureThinkingSeconds": null,
+    "limitations": [
+      "Segment elapsed time includes composition and tool/file work as recorded; some prior shortlist selection and source inspection precede segment timing.",
+      "Summed author segments are not wall-clock completion time; two authors overlap. Batch startedAt-to-completedAt spans also overlap through interleaving and must not be added.",
+      "The six basic words have save-only timestamps and are excluded from throughput. Validation timestamps are separate and can be delayed while other parts proceed.",
+      "Astra high independent full-entry review is a separate phase. No complete started-to-finished review timer exists for these fresh batches, so reviewer duration and end-to-end throughput are not estimated.",
+      "Pure reasoning and pure composition time are unavailable and remain null."
+    ]
+  },
+  "pipeline": {
+    "representativeExampleMinimum": 1,
+    "authorGate": "individual parse/metadata preflight and alternative-form duplicate check",
+    "rootGate": "whole-corpus masked sentence similarity before new integration",
+    "reviewGate": "gpt-6-astra high independent review of every entry; batch/full-level current-content hashes",
+    "integration": "incremental current approval, pilot, source metadata, published receipt and editor hash checks",
+    "legacyReferenceReuse": "Existing learned entries reuse preserved IDs and source references; authoring throughput excludes legacy placement. Resume receipt history is partial/stale and is not treated as final total."
+  },
+  "pendingAtSnapshot": [],
+  "provenanceSummary": {
+    "sourceApprovalErrors": 0,
+    "lexicallyNewWords": 4114,
+    "heldDraftFiles": 3,
+    "boundedFinalHeldDraftWords": 1,
+    "appWords": 5635,
+    "appSenses": 5658,
+    "appExamples": 9616,
+    "levelExamples": 8068,
+    "finalFiveRevisionApprovalErrors": 0,
+    "batchParts": 207,
+    "orphanManuscriptFiles": 0,
+    "orphanReviewFiles": 0,
+    "wordMetadataRows": 3947,
+    "reviewedParts": 207,
+    "unreviewedParts": 0,
+    "integratedParts": 207,
+    "pendingParts": 0,
+    "pendingWords": 0,
+    "currentPilotWords": 4127,
+    "publishedWords": 4127,
+    "globalIssues": 0,
+    "partsWithFindings": 38,
+    "publishedWithoutCurrentBatchCoverage": 187,
+    "historicalBatchContentRevisions": 7,
+    "unresolvedBatchContentRevisions": 0,
+    "originalWholeLevelSourceWords": 180,
+    "auxiliaryMetadataDriftParts": 32,
+    "uniqueLevelWords": 4861,
+    "levelCounts": {
+      "N5": 599,
+      "N4": 648,
+      "N3": 1727,
+      "N2": 1056,
+      "N1": 831
+    }
+  },
+  "sourceFilesModified": false
+}

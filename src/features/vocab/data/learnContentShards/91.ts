@@ -1709,12 +1709,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1042080-1-ex-1",
-        "version": 1,
-        "before": "父からいちご味の",
+        "version": 2,
+        "before": "口の中で",
         "answer": "キャンディ",
-        "after": "をもらいました。",
+        "after": "が溶けて、甘い味が広がりました。",
         "reading": "キャンディ",
-        "translation": "아버지에게 딸기 맛 사탕을 받았습니다.",
+        "translation": "입안에서 사탕이 녹아 달콤한 맛이 퍼졌습니다.",
         "translationTarget": "사탕",
         "difficulty": 12,
         "status": "reviewed"
@@ -1973,6 +1973,358 @@ const content: LearnSense[] = [
         "translation": "하나의 수입원에 대한 의존을 줄이기 위해 새 사업을 시작했다.",
         "translationTarget": "의존",
         "difficulty": 37,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-2013900-1",
+    "wordId": "lex-jmdict-2013900",
+    "version": 1,
+    "meaning": "빨간색",
+    "hint": "잘 익은 토마토처럼 선명한 색",
+    "confusions": [
+      {
+        "japanese": "青",
+        "distinction": "빨간색과 파란색을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-2013900-1-ex-1",
+        "version": 1,
+        "before": "信号が",
+        "answer": "赤",
+        "after": "なので、ここで待ちましょう。",
+        "reading": "あか",
+        "translation": "신호등이 빨간색이니 여기서 기다립시다.",
+        "translationTarget": "빨간색",
+        "difficulty": 11,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1130640-1",
+    "wordId": "lex-jmdict-1130640",
+    "version": 1,
+    "meaning": "재봉틀",
+    "hint": "실과 바늘로 천을 기계적으로 꿰매는 도구",
+    "confusions": [
+      {
+        "japanese": "針",
+        "distinction": "바느질을 하는 기계와 손으로 쓰는 바늘을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1130640-1-ex-1",
+        "version": 1,
+        "before": "久しぶりに",
+        "answer": "ミシン",
+        "after": "を使って、クッションのカバーを作った。",
+        "reading": "ミシン",
+        "translation": "오랜만에 재봉틀을 써서 쿠션 덮개를 만들었다.",
+        "translationTarget": "재봉틀",
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611770-1",
+    "wordId": "lex-jmdict-1611770",
+    "version": 1,
+    "meaning": "길 순서·가는 길",
+    "hint": "목적지까지 어떤 길로 차례대로 가는지에 대한 안내",
+    "confusions": [
+      {
+        "japanese": "目的地",
+        "distinction": "가는 길의 순서와 도착하려는 장소를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611770-1-ex-1",
+        "version": 1,
+        "before": "ホテルまでの",
+        "answer": "道順",
+        "after": "を、紙に描いてもらった。",
+        "reading": "みちじゅん",
+        "translation": "호텔까지 가는 길을 종이에 그려 받았다.",
+        "translationTarget": "가는 길",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455080-1",
+    "wordId": "lex-jmdict-1455080",
+    "version": 1,
+    "meaning": "특색",
+    "hint": "다른 것과 구별되는 눈에 띄는 성질입니다.",
+    "confusions": [
+      {
+        "japanese": "特長",
+        "distinction": "特色는 구별되는 성질이고 特長는 특히 좋은 장점이다. 좋은 특색에서는 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455080-1-ex-1",
+        "version": 1,
+        "before": "地元の食材を使うことが、この店の",
+        "answer": "特色",
+        "after": "だ。",
+        "reading": "とくしょく",
+        "translation": "지역 식재료를 쓰는 것이 이 가게의 특색이다.",
+        "translationTarget": "특색",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423030-1",
+    "wordId": "lex-jmdict-1423030",
+    "version": 1,
+    "meaning": "착공",
+    "hint": "공사에 실제로 착수하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "着手",
+        "distinction": "着工는 공사를 시작함이고 着手는 일에 착수함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423030-1-ex-1",
+        "version": 1,
+        "before": "新しい橋は来月",
+        "answer": "着工",
+        "after": "し、二年後の完成を目指す。",
+        "reading": "ちゃっこう",
+        "translation": "새 다리는 다음 달 착공하여 2년 뒤 완공을 목표로 한다.",
+        "translationTarget": "착공",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1456940-1",
+    "wordId": "lex-jmdict-1456940",
+    "version": 1,
+    "meaning": "쑤셔 넣다·밀어 넣다",
+    "hint": "물건을 안쪽으로 힘 있게 넣거나 마구 집어넣어요.",
+    "confusions": [
+      {
+        "japanese": "引き出す",
+        "distinction": "안쪽으로 밀어 넣는 행동과 밖으로 끌어내는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1456940-1-ex-1",
+        "version": 1,
+        "before": "急いでいたので、書類をかばんに",
+        "answer": "突っ込んだ",
+        "after": "まま出た。",
+        "reading": "つっこんだ",
+        "translation": "급해서 서류를 가방에 쑤셔 넣은 채 나갔다.",
+        "translationTarget": "쑤셔 넣은",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404590-1",
+    "wordId": "lex-jmdict-1404590",
+    "version": 1,
+    "meaning": "측량",
+    "hint": "땅의 위치와 거리와 높이를 재어 지도나 도면으로 나타내는 일",
+    "confusions": [
+      {
+        "japanese": "測定",
+        "distinction": "땅의 위치와 형태를 재는 일과 일반적인 수치 측정을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404590-1-ex-1",
+        "version": 1,
+        "before": "道路を広げる前に、周辺の土地を",
+        "answer": "測量",
+        "after": "した。",
+        "reading": "そくりょう",
+        "translation": "도로를 넓히기 전에 주변 토지를 측량했다.",
+        "translationTarget": "측량",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529930-1",
+    "wordId": "lex-jmdict-1529930",
+    "version": 1,
+    "meaning": "무효",
+    "hint": "효력·유효성이 없습니다.",
+    "confusions": [
+      {
+        "japanese": "有効",
+        "distinction": "無効는 효력이 없음이고 有効는 효력이 있음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529930-1-ex-1",
+        "version": 1,
+        "before": "期限を過ぎた切符は",
+        "answer": "無効",
+        "after": "になります。",
+        "reading": "むこう",
+        "translation": "기한이 지난 표는 무효가 됩니다.",
+        "translationTarget": "무효",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320250-1",
+    "wordId": "lex-jmdict-1320250",
+    "version": 1,
+    "meaning": "실연",
+    "hint": "좋아하는 상대와의 사랑이 이루어지지 않거나 끝난 일",
+    "confusions": [
+      {
+        "japanese": "両思い",
+        "distinction": "사랑이 이루어지지 않은 일과 서로 좋아하는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320250-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "失恋",
+        "after": "した友人と、何も聞かずに一日散歩した。",
+        "reading": "しつれん",
+        "translation": "실연한 친구와 아무것도 묻지 않고 하루 동안 산책했다.",
+        "translationTarget": "실연",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554790-1",
+    "wordId": "lex-jmdict-1554790",
+    "version": 1,
+    "meaning": "영토",
+    "hint": "국가의 주권이 미치는 땅입니다.",
+    "confusions": [
+      {
+        "japanese": "領域",
+        "distinction": "領土는 국가의 땅이고 領域는 공간·분야의 범위 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554790-1-ex-1",
+        "version": 1,
+        "before": "地図で国の",
+        "answer": "領土",
+        "after": "を確認し、歴史的な変化を調べた。",
+        "reading": "りょうど",
+        "translation": "지도에서 국가의 영토를 확인하고 역사적 변화를 조사했다.",
+        "translationTarget": "영토",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325680-1",
+    "wordId": "lex-jmdict-1325680",
+    "version": 1,
+    "meaning": "주인공",
+    "hint": "이야기·작품의 중심이 되는 인물입니다.",
+    "confusions": [
+      {
+        "japanese": "作者",
+        "distinction": "主人公는 작품 속 중심 인물이고 作者는 작품을 만든 사람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325680-1-ex-1",
+        "version": 1,
+        "before": "この小説の",
+        "answer": "主人公",
+        "after": "は、町の小さな本屋で働いている。",
+        "reading": "しゅじんこう",
+        "translation": "이 소설의 주인공은 마을의 작은 서점에서 일하고 있다.",
+        "translationTarget": "주인공",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

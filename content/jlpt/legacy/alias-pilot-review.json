@@ -157,5 +157,1432 @@
       "현재 단어·용법·모든 예문의 읽기/의미를 사전과 대조했다. 원본 ID와 내용 보존을 전제로 대표 연결이 가능하다는 판단이며, 프로필 이전 구현이나 전체 예문 숙련의 상향 승인은 포함하지 않는다."
     ],
     "profileTransfer": "equivalent-core-usage"
+  },
+  {
+    "japanese": "帰る",
+    "dictionaryId": "jmdict-1221270",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_119",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_119",
+        "senseId": "sense-handmade_119-1",
+        "version": 1,
+        "sourceHash": "d194b8584b53891f4f7e9516ea5cf0cc6629295414057bc5cfbe58fe5f5f9053",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_119-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_119-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_256",
+        "senseId": "sense-AbsoluteVerb_256-1",
+        "version": 1,
+        "sourceHash": "ad72fce9806fe60db1a92166c6cc690323f9c1442f3287318396aad9d3703e71",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_256-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_256-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "집·고국 등 자신의 생활 기반으로 돌아가는 자동사 의미가 같다. 귀환하다라는 표제 어감 차이는 별개 용법이 아니다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "入る",
+    "dictionaryId": "jmdict-1465590",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_118",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_118",
+        "senseId": "sense-handmade_118-1",
+        "version": 1,
+        "sourceHash": "3d310423838c1631c284ff41d596946aa39361e6b68d7d786518dc2562535d53",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_118-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_118-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_258",
+        "senseId": "sense-AbsoluteVerb_258-1",
+        "version": 1,
+        "sourceHash": "ebeaa6ebb000ae20b640ea5f13d30f8e703a9a27980e8f2d8cfb291e47424a66",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_258-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_258-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "사람·고양이·돌이 바깥에서 공간 안으로 이동하는 같은 자동사 의미이다. 스스로라는 말은 의지적으로만 이동한다는 뜻으로 좁히지 않는다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "脱ぐ",
+    "dictionaryId": "jmdict-1416400",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_99",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_99",
+        "senseId": "sense-handmade_99-1",
+        "version": 1,
+        "sourceHash": "1542976aad6a41782d0e65849e52e98f532dcdc24a491cd234fde2da65c7c207",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_99-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_99-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_190",
+        "senseId": "sense-AbsoluteVerb_190-1",
+        "version": 1,
+        "sourceHash": "dce7539ecf0df8830fcc98be900fe682ba531ee3a59990103afad9d1d9fb91d1",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_190-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_190-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "양쪽 모두 옷과 신발을 벗는 같은 타동사 범위이다. 네 예문의 겉옷·신발은 같은 핵심 학습 범위다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "泣く",
+    "dictionaryId": "jmdict-1229840",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_83",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "JLPTN3_83",
+        "senseId": "sense-JLPTN3_83-1",
+        "version": 1,
+        "sourceHash": "9e999b963ad5ab55a5723cfd6b4e35e8cb4a742a04fda0bcebb50879b9d4578a",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_83-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_83-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_39",
+        "senseId": "sense-AbsoluteVerb_39-1",
+        "version": 1,
+        "sourceHash": "a432022883b831b64b7d9fd3291b173b95c70f3d9fc07a84b3021cbf92107341",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_39-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_39-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "감정으로 눈물을 흘리는 같은 자동사 의미이며 鳴く와의 대비도 동일하다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "覚える",
+    "dictionaryId": "jmdict-1206050",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_23",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "JLPTN3_23",
+        "senseId": "sense-JLPTN3_23-1",
+        "version": 1,
+        "sourceHash": "1a96d5339eade92f9bcddb60b4e0840f868b57cde71725874e0017d508eec8fa",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_23-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_23-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_228",
+        "senseId": "sense-AbsoluteVerb_228-1",
+        "version": 1,
+        "sourceHash": "d54dc3bdd580d9e56ee8c41d5d74cab88581ccf8d2f20ba6c7255cfebc82c061",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_228-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_228-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "새 정보를 외우고 기억에 남기는 같은 핵심 용법이다. 覚えている의 기억 유지 상태는 이 기억 습득의 결과이며 경험이나 감각의 다른 사전 의미를 선택하지 않았다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "借りる",
+    "dictionaryId": "jmdict-1323560",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_34",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "JLPTN3_34",
+        "senseId": "sense-JLPTN3_34-1",
+        "version": 1,
+        "sourceHash": "38fe91a74801540bdb34e227a66c9b82561477e4a6ac1fefded036d35f76a985",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_34-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_34-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_421",
+        "senseId": "sense-AbsoluteVerb_421-1",
+        "version": 1,
+        "sourceHash": "c104945ea4bc9ff6a27c5b0b954879c258fd56aaa1ca3869f0b7d4ba5a7e2a67",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_421-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_421-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "남의 물건을 잠시 받아 쓰는 방향과 반환 전제가 일치한다. 유료 임대 등의 추가 의미는 이 비교 범위에 없다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "貸す",
+    "dictionaryId": "jmdict-1411160",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_33",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "JLPTN3_33",
+        "senseId": "sense-JLPTN3_33-1",
+        "version": 1,
+        "sourceHash": "7158c1a0e19eb54f150d5e18e66b62960f78f85e540ae781b12d001a72c295eb",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_33-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_33-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_422",
+        "senseId": "sense-AbsoluteVerb_422-1",
+        "version": 1,
+        "sourceHash": "932739d7e8aefd38afdb77709d3af774e87a47f1ae7a535835812ba9b9607d3d",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_422-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_422-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:27:04.489Z",
+    "notes": [
+      "물건을 상대가 잠시 쓰도록 내주는 같은 방향의 타동사 의미이다. 두 대표 예문쌍의 물건 차이는 핵심 의미를 바꾸지 않는다.",
+      "원본 단어·용법·힌트·대비·32개 일본어/한국어 예문 및 사전 해당 의미를 직접 읽었다. 이 판정은 의미 동등성만 승인한다. 원본 ID/기록을 보존하며 개별 예문 숙련을 임의로 상향하지 않는 기존 이전 규약이 적용되어야 한다. 실제 프로필 변경·활성화·참조 게시를 수행하지 않았다."
+    ]
+  },
+  {
+    "japanese": "勉強",
+    "dictionaryId": "jmdict-1512670",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_50",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_50",
+        "senseId": "sense-handmade_50-1",
+        "version": 1,
+        "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_50-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_50-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_646",
+        "senseId": "sense-AbsoluteVerb_646-1",
+        "version": 1,
+        "sourceHash": "4da4572f9a753057f1a0c28f8d4031dfee855584fc6f208e9e7cc41974c79107",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_646-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_646-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:35:09.164Z",
+    "notes": [
+      "지식을 배우는 공부 핵심이 같다. 일본어 학습/수학을 가르치며 본인의 학습/도서관 시험공부/학습 목적 4예문 전량 읽었다. 수학을 다시 익히는 장면은 할인이나 학업 외 인생교훈 의미가 아니다.",
+      "제공 JMdict는 해당 선택 핵심을 명사와 する 명사 양쪽으로 분류한다. 선택 핵심 의미 동등성만 승인하며 표면 형태·활용형의 개별 예문 숙련을 새로 획득했다고 간주하지 않는다. 원본 ID·예문·프로필을 보존하는 기존 보수적 이전 규약으로만 연결 가능하다.",
+      "현재 명사/する 조합의 candidateGroupId가 없다. root가 명시적 후보 연결·품사/읽기 차이 허용 및 기존 ID/기록 보존을 검증한 뒤에만 활성화해야 한다. 본 파일은 앱 활성화나 게시를 수행하지 않는다."
+    ]
+  },
+  {
+    "japanese": "掃除",
+    "dictionaryId": "jmdict-1399790",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_15",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_15",
+        "senseId": "sense-handmade_15-1",
+        "version": 1,
+        "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_15-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_15-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_640",
+        "senseId": "sense-AbsoluteVerb_640-1",
+        "version": 1,
+        "sourceHash": "5fc1e03373e9a7e5b1e086cfbee33d847533d2529c22c9ea8a51b40e854c6cb2",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_640-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_640-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:35:09.164Z",
+    "notes": [
+      "먼지·때 제거의 청소 핵심이 같다. 창문/일반 청소/베란다/바닥 4예문과 정돈 대비를 전량 읽었다.",
+      "제공 JMdict는 해당 선택 핵심을 명사와 する 명사 양쪽으로 분류한다. 선택 핵심 의미 동등성만 승인하며 표면 형태·활용형의 개별 예문 숙련을 새로 획득했다고 간주하지 않는다. 원본 ID·예문·프로필을 보존하는 기존 보수적 이전 규약으로만 연결 가능하다.",
+      "현재 명사/する 조합의 candidateGroupId가 없다. root가 명시적 후보 연결·품사/읽기 차이 허용 및 기존 ID/기록 보존을 검증한 뒤에만 활성화해야 한다. 본 파일은 앱 활성화나 게시를 수행하지 않는다."
+    ]
+  },
+  {
+    "japanese": "失敗",
+    "dictionaryId": "jmdict-1320140",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_54",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_54",
+        "senseId": "sense-handmade_54-1",
+        "version": 1,
+        "sourceHash": "bcc8d71425fe556f5880d965cbaf7709122c00b327a02d6f54fb868f0f3db92f",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_54-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_54-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_662",
+        "senseId": "sense-AbsoluteVerb_662-1",
+        "version": 1,
+        "sourceHash": "d1cdd7ec875797dff1b8939d15f0f6bf7fbe50982d9fcda89f3dcaf1e6adc26a",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_662-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_662-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:58:45.957Z",
+    "notes": [
+      "시도한 일이 원하는 결과에 이르지 못한 실패라는 핵심이다. 첫 실패 뒤 지속/케이크 만들기/첫 빵 만들기/재료로 재시도하는 네 문장을 모두 읽었다. 잘못된 답 자체와 대비하는 설명도 동일 핵심을 지지한다.",
+      "제공 JMdict의 명사·する 용법과 OpenJLPT N4 근거를 실제 선택 의미와 대조했다. 명사/동사 형태의 개별 활용 숙련이 같다는 주장이 아니라 선택된 대표 의미의 동등성만 승인한다.",
+      "원본 ID·문장·프로필을 보존하는 기존 보수적 기록 연결 규약을 적용한다. 명시 후보 연결과 전체 멤버 해시를 검증한 뒤 활성화하며 본 검토는 자체적으로 앱 활성화나 수준별 게시를 수행하지 않는다."
+    ]
+  },
+  {
+    "japanese": "連絡",
+    "dictionaryId": "jmdict-1559900",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_82",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_82",
+        "senseId": "sense-handmade_82-1",
+        "version": 1,
+        "sourceHash": "7516de3dfcc4642d665ad831a78cb413ebc8f6eaf86a15bdd88630ae09a7ac79",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_82-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_82-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_677",
+        "senseId": "sense-AbsoluteVerb_677-1",
+        "version": 1,
+        "sourceHash": "4fab43aaf3c48cf7c85fcfb912fcc48bac16312c9b53b328964a93ae8cb3cd0b",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_677-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_677-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:58:45.959Z",
+    "notes": [
+      "상대에게 소식·상황을 전하고 연락을 취하는 핵심이다. 도착 소식/약속 장소에서 연락 두절/엄마에게 도착 알림/번호 변경으로 연락 불가 네 문장을 모두 읽었다. 철도 연결이나 사건 사이 연관이라는 별도 사전 뜻은 선택하지 않았다.",
+      "제공 JMdict의 명사·する 용법과 OpenJLPT N4 근거를 실제 선택 의미와 대조했다. 명사/동사 형태의 개별 활용 숙련이 같다는 주장이 아니라 선택된 대표 의미의 동등성만 승인한다.",
+      "원본 ID·문장·프로필을 보존하는 기존 보수적 기록 연결 규약을 적용한다. 명시 후보 연결과 전체 멤버 해시를 검증한 뒤 활성화하며 본 검토는 자체적으로 앱 활성화나 수준별 게시를 수행하지 않는다."
+    ]
+  },
+  {
+    "japanese": "説明",
+    "dictionaryId": "jmdict-1386460",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_132",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_132",
+        "senseId": "sense-handmade_132-1",
+        "version": 1,
+        "sourceHash": "e7f194f3d5dd0d7ef68e117fd1c21ed278953777b51a67b528bf54b44f7ce5ad",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_132-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_132-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_654",
+        "senseId": "sense-AbsoluteVerb_654-1",
+        "version": 1,
+        "sourceHash": "701bd9ea76f787da9f35a79d3ea8ffd7bdf8690fee80505b4395626cf500ddfa",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_654-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_654-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:58:45.959Z",
+    "notes": [
+      "상대의 이해를 돕도록 내용을 풀어 알리는 핵심이다. 그림으로 구조 이해/긴 설명에 의자 준비/도구 사용법을 그림으로 설명/느린 설명 요청 네 문장을 모두 읽었다. 결과 전달에 초점을 둔 보고와의 대비도 같은 핵심이다.",
+      "제공 JMdict의 명사·する 용법과 OpenJLPT N4 근거를 실제 선택 의미와 대조했다. 명사/동사 형태의 개별 활용 숙련이 같다는 주장이 아니라 선택된 대표 의미의 동등성만 승인한다.",
+      "원본 ID·문장·프로필을 보존하는 기존 보수적 기록 연결 규약을 적용한다. 명시 후보 연결과 전체 멤버 해시를 검증한 뒤 활성화하며 본 검토는 자체적으로 앱 활성화나 수준별 게시를 수행하지 않는다."
+    ]
+  },
+  {
+    "japanese": "助ける",
+    "dictionaryId": "jmdict-1344410",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_2",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_2",
+        "senseId": "sense-handmade_2-1",
+        "version": 1,
+        "sourceHash": "d5bdfb3029b853aa369ca0d03483002ef09be77ea9a28327e6a4ef95b9bb5dbe",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_2-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_2-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_461",
+        "senseId": "sense-AbsoluteVerb_461-1",
+        "version": 1,
+        "sourceHash": "dfbf895870b4f69a80117479caf35d38ce1ce03ef8f8cf17f40e6902253eaddd",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_461-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_461-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.047Z",
+    "notes": [
+      "어려운 처지에서 돕는 의미를 양쪽 힌트가 구조와 일손 지원 모두로 명시한다. 강의 개 구조/곤란할 때 도움/가게 운영 지원/짐 운반 도움 네 예문을 읽었다. 단순 구조 대 도움으로 강제 분리하지 않으며 금융 지원 등 미선택 사전 뜻은 포함하지 않는다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "生まれる",
+    "dictionaryId": "jmdict-1378690",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "AbsoluteVerb_164",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_7",
+        "senseId": "sense-handmade_7-1",
+        "version": 1,
+        "sourceHash": "7cc46eca06973b35ed4036658720480df5c7489fdadf9d6aa1c727c036ba3002",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_7-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_7-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_164",
+        "senseId": "sense-AbsoluteVerb_164-1",
+        "version": 1,
+        "sourceHash": "aa055c496b805549a5c46173a77c26d96ff2d257ac7e00968e54674fd87d93b4",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_164-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_164-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "새 생명이 태어난다는 동일 자동 용법이다. 동생 출생 사진/강아지 출산 준비/언니 아기/출생지와 성장지 네 예문을 읽었다. 결합 표제어 원본은 그대로 두고 단일 표제어를 대표로 선택한다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "戻す",
+    "dictionaryId": "jmdict-1535850",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_16",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_16",
+        "senseId": "sense-handmade_16-1",
+        "version": 1,
+        "sourceHash": "e9d81c385408eea84d9a733047bb22174f9f93ec3b8008b0f857c5f4cb0afe40",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_16-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_16-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_280",
+        "senseId": "sense-AbsoluteVerb_280-1",
+        "version": 1,
+        "sourceHash": "8d74b865d0928249e64e9b01a9d0ccc67fb8f581bf160035a3b1315e64bd235d",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_280-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_280-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "대상을 이전 자리로 되돌리는 타동 핵심이다. 잡지 선반/의자 원위치/시계 바늘/공구 상자 네 예문을 읽었다. 구토나 시세 회복은 선택 의미에 없다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "渡す",
+    "dictionaryId": "jmdict-1444610",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_126",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "JLPTN3_126",
+        "senseId": "sense-JLPTN3_126-1",
+        "version": 1,
+        "sourceHash": "4d52ca02c99041a8831278e638b15d466ca84da1901a76a01ff2bbc9bb9e0a50",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_126-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_126-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "handmade_60",
+        "senseId": "sense-handmade_60-1",
+        "version": 1,
+        "sourceHash": "6342c1b57a6886ca44ac36cd4a34ca85a90c1c48de8a81a697e78925de7d46a5",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_60-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_60-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_282",
+        "senseId": "sense-AbsoluteVerb_282-1",
+        "version": 1,
+        "sourceHash": "7336892af15856d0701feebcce9c9269248dd7b418ad7c1201c644ef01a1867b",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_282-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_282-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "소유한 물건을 다른 사람에게 건네는 핵심이다. 거스름돈/메모 전달/운전기사 표/친구에게 부탁한 편지/개찰구 표/본인에게 직접 전달 여섯 문장을 읽었다. 강을 건너게 하거나 다리를 걸치는 뜻은 미선택이다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "決める",
+    "dictionaryId": "jmdict-1254180",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_63",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_63",
+        "senseId": "sense-handmade_63-1",
+        "version": 1,
+        "sourceHash": "9710c87437a56f336bd5191070758c79a377fa68ef19f33cca6b9037265ec8f3",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_63-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_63-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_341",
+        "senseId": "sense-AbsoluteVerb_341-1",
+        "version": 1,
+        "sourceHash": "ae71380be1898d23ba6e92b6618709827057d77700427809b354ed3e984c3a41",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_341-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_341-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "여러 가능성에서 내용을 정하는 타동 핵심이다. 진학 상담/방 방문 전 결정 보류/가게 제비뽑기/가족과 이름 결정 네 문장을 읽었다. 경기 기술 성공 등 부가 뜻은 미선택이다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "引っ越す",
+    "dictionaryId": "jmdict-1169340",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_81",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_81",
+        "senseId": "sense-handmade_81-1",
+        "version": 1,
+        "sourceHash": "031af1b68aefb0c128c376fb04cfe8b53ea0092d2c6cd580d29a65478ab68b25",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_81-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_81-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_480",
+        "senseId": "sense-AbsoluteVerb_480-1",
+        "version": 1,
+        "sourceHash": "590d30b0cc12d74a4ceedd8c90bbd173b3e7a243d18f3da58c19c3f9f11dcb1c",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_480-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_480-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "거주지를 옮기는 동일 자동 용법이다. 역 근처 아파트/이웃 이사/개를 위한 정원 집/이사해도 보관할 책상 네 문장을 읽었다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "修理",
+    "dictionaryId": "jmdict-1332400",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_340",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "JLPTN3_340",
+        "senseId": "sense-JLPTN3_340-1",
+        "version": 1,
+        "sourceHash": "b60da3ea9cad6db8f5b3138939b05ef97232c103a34b21a3ae33b79fe9268883",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_340-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_340-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "handmade_91",
+        "senseId": "sense-handmade_91-1",
+        "version": 1,
+        "sourceHash": "d4aaffec3629a422508ddd4fc7de501a199d4214f071842568e658a124978f69",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_91-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_91-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_701",
+        "senseId": "sense-AbsoluteVerb_701-1",
+        "version": 1,
+        "sourceHash": "e86c481643009bc4cffecb3a8ceb40f03db99dba0aea8140d501979a964def68",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_701-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_701-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "고장 난 물건의 기능을 복구하는 핵심이다. 자전거를 맡김/교체보다 높은 수리비/할머니 시계/지붕 수리 중 출입 제한/시계 소리 회복/교체 전 수리 가능성 문의 여섯 문장을 읽었다. 명사와 する 형태는 같은 선택 의미이며 텍스트 수정과 구별된다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "屋根",
+    "dictionaryId": "jmdict-1182700",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_92",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_92",
+        "senseId": "sense-handmade_92-1",
+        "version": 1,
+        "sourceHash": "69137376ee8011ea669376899a9bf8a0502be05b180338b7f3ff4c7afeeaa87a",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_92-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_92-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "JLPTN3_477",
+        "senseId": "sense-JLPTN3_477-1",
+        "version": 1,
+        "sourceHash": "a1e63a50a41cec0587dc2d1075a08f4b69b3ff4b72930563607727549921d3fe",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_477-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_477-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.049Z",
+    "notes": [
+      "건물 바깥 윗부분을 덮는 지붕이다. 눈 무게 파손/길 안내 표지/빗소리/기와 수리 네 문장을 읽었다. 실내 천장 대비가 일치한다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "歯",
+    "dictionaryId": "jmdict-1313000",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_97",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_97",
+        "senseId": "sense-handmade_97-1",
+        "version": 1,
+        "sourceHash": "e395c714d2b65bc4131ab1f153f56f170cc153f3b5a9589ec59d8fc115fc1256",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_97-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_97-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "JLPTN3_433",
+        "senseId": "sense-JLPTN3_433-1",
+        "version": 1,
+        "sourceHash": "0f09ec16f0ef96e6f9cfcf792c6a865c44b4a88f28fe2e43d4087ba92aab9b92",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_433-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_433-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.050Z",
+    "notes": [
+      "신체 치아라는 동일 핵심이다. 센베이에 깨짐/유치 빠짐/김이 묻음/어금니 통증 네 문장을 읽었다. 톱니와 신발 굽은 미선택이다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "腰",
+    "dictionaryId": "jmdict-1288340",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_69",
+    "level": "N4",
+    "members": [
+      {
+        "wordId": "handmade_69",
+        "senseId": "sense-handmade_69-1",
+        "version": 1,
+        "sourceHash": "dd922af961cc29a20b1d76f2e10727205a2e607b7f60e81b6dee9f854ec88f84",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_69-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_69-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "JLPTN3_306",
+        "senseId": "sense-JLPTN3_306-1",
+        "version": 1,
+        "sourceHash": "90a4382de81251a2674a498fb110e383a50044c067c38e5dd7c2839774364dec",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_306-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_306-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:00:44.050Z",
+    "notes": [
+      "몸통 아래 허리 부위라는 동일 핵심이다. 상자를 들다 부상/할머니 일어남/장시간 앉음/물의 허리 높이 네 문장을 읽었다. 면발 탄력은 미선택이다.",
+      "모든 멤버의 단어·용법·힌트·대비·예문 및 번역을 직접 읽고 제공 JMdict 실제 뜻·품사와 대조했다. N5/N4는 선택한 생활 핵심 용법의 편집 수준이며 일부 출처 N3를 공식 난도처럼 고정하지 않는다.",
+      "개별 활용형 숙련이 아니라 선택 핵심 의미의 동등성만 승인한다. 원본 ID·프로필·내용을 보존하고 기존 보수적 연결 규약 및 전체 멤버 해시 검증 후 활성화한다."
+    ]
+  },
+  {
+    "japanese": "居る / いる",
+    "dictionaryId": "jmdict-1577980",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "lex-jmdict-1577980",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "AbsoluteVerb_162",
+        "senseId": "sense-AbsoluteVerb_162-1",
+        "version": 1,
+        "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_162-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_162-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "lex-jmdict-1577980",
+        "senseId": "sense-lex-jmdict-1577980-1",
+        "version": 1,
+        "sourceHash": "69c59f2beb32d5ce59abc7b9830255a68680b215f0bf0a57b992663a2f605042",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-lex-jmdict-1577980-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1577980-1-ex-2",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-lex-jmdict-1577980-1-ex-3",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:02:34.811Z",
+    "profileTransfer": "equivalent-core-usage",
+    "notes": [
+      "두 원본 전체 단어·단일 용법·힌트·ある 대비 및 5예문을 직접 읽었다. 사람·동물이 어떤 장소에 존재한다는 동일 핵심이다. 居る의 おる 항목은 별개 읽기로 이 그룹에 포함하지 않는다.",
+      "표기만 달라 기존 수준별 수록에 중복 포함된 항목이다. 게시된 신규 居る를 대표로 두고 원본 いる의 ID·내용·학습 기록을 보존하여 보수적으로 연결한다."
+    ]
+  },
+  {
+    "japanese": "疲れる",
+    "dictionaryId": "jmdict-1483740",
+    "level": "N5",
+    "representativeWordId": "JLPTN3_71",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "profileTransfer": "equivalent-core-usage",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:07:43.097Z",
+    "members": [
+      {
+        "wordId": "JLPTN3_71",
+        "senseId": "sense-JLPTN3_71-1",
+        "version": 1,
+        "sourceHash": "afe60f5a470f28837c4e13db8a1aea677893097a151a927abd728eb28b5bc322",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_71-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_71-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_292",
+        "senseId": "sense-AbsoluteVerb_292-1",
+        "version": 1,
+        "sourceHash": "acd82911359e77782fa810a5f06d62ad2f43b224faf76eb9770b1c5a77703c7d",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_292-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_292-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "몸·마음의 힘이 소모되어 지치는 동일 핵심이다. 이사 도움/남을 지나치게 배려/익숙하지 않은 신발/피로시 교대 네 예문과 싫증 대비를 읽었다.",
+      "전체 원문·단어·힌트·대비·번역을 독립 읽고 제공 JMdict 뜻/품사 및 N5/N4 출처 근거와 대조했다. 원본을 보존하는 기존 보수적 기록 연결만 승인한다."
+    ]
+  },
+  {
+    "japanese": "通る",
+    "dictionaryId": "jmdict-1433030",
+    "level": "N4",
+    "representativeWordId": "JLPTN3_75",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "profileTransfer": "equivalent-core-usage",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:07:43.097Z",
+    "members": [
+      {
+        "wordId": "JLPTN3_75",
+        "senseId": "sense-JLPTN3_75-1",
+        "version": 1,
+        "sourceHash": "34524dda6679b9da39104cc2e0a304f319ccb8e868a75d4621accf61e523b6ff",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_75-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_75-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_277",
+        "senseId": "sense-AbsoluteVerb_277-1",
+        "version": 1,
+        "sourceHash": "1066450fe9808e615e4b8624074bb279dc74671f76707e8d5f721ba1714d2cd6",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_277-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_277-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "경로·공간을 지나가는 동일 자동 핵심이다. 공원 통과/큰 짐으로 좁은 입구 통과 불가/초등학교 앞 경로/큰 짐으로 문 통과 불가 네 문장을 읽었다. 通う의 반복 방문과 구별한다.",
+      "전체 원문·단어·힌트·대비·번역을 독립 읽고 제공 JMdict 뜻/품사 및 N5/N4 출처 근거와 대조했다. 원본을 보존하는 기존 보수적 기록 연결만 승인한다."
+    ]
+  },
+  {
+    "japanese": "見つける / 見付ける",
+    "dictionaryId": "jmdict-1604570",
+    "level": "N4",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_115",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:13:37.817Z",
+    "profileTransfer": "equivalent-core-usage",
+    "members": [
+      {
+        "wordId": "JLPTN3_115",
+        "senseId": "sense-JLPTN3_115-1",
+        "version": 1,
+        "sourceHash": "2330cfbb8adb6521b8e5c2822e9b4ef3ce86e13d1076ff8d556cb743a3d40bca",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_115-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_115-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_239",
+        "senseId": "sense-AbsoluteVerb_239-1",
+        "version": 1,
+        "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_239-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_239-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "발견한 결과라는 동일 대표 핵심이다. 두 표제/읽기/뜻/힌트/대비 및 열쇠·클로버·책·오자 발견 네 예문을 모두 읽었다. 찾는 과정 探す와 발견 결과의 구별이 일치한다.",
+      "먼저 공개된 N4 대표 JLPT115를 유지한다. AV239 원본 ID·내용·학습 기록을 보존하여 기존 보수적 규약으로 연결하며 미공개 중복 수준별 참조만 명시 철회한다."
+    ]
   }
 ]

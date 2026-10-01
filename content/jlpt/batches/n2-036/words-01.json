@@ -1,0 +1,122 @@
+[
+  {
+    "japanese": "臨む",
+    "reading": "のぞむ",
+    "type": "verb",
+    "meaning": "임하다, 맞닥뜨리다",
+    "hint": "중요한 일·상황을 앞에 두고 참여합니다.",
+    "confusion": "望む",
+    "distinction": "선택한 臨む는 상황에 임함이고 같은 읽기의 望む는 바람·소망이다. 장소를 마주한다는 뜻도 있다.",
+    "dictionaryId": "jmdict-1555560",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "乏しい",
+    "reading": "とぼしい",
+    "type": "i_adj",
+    "meaning": "부족하다, 빈약하다",
+    "hint": "필요한 수량·내용 등이 충분하지 않습니다.",
+    "confusion": "貧しい",
+    "distinction": "乏しい는 자료·경험·양의 부족에 흔하고 貧しい는 가난함·내용의 빈약함에 쓴다. 의미가 겹친다.",
+    "dictionaryId": "jmdict-1584130",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "脆い",
+    "reading": "もろい",
+    "type": "i_adj",
+    "meaning": "무르다, 약하다",
+    "hint": "외부 힘·변화에 쉽게 깨지거나 무너집니다.",
+    "confusion": "柔らかい",
+    "distinction": "脆い는 쉽게 부서지거나 무너짐이고 柔らかい는 딱딱하지 않고 부드러움이다.",
+    "dictionaryId": "jmdict-1382220",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "漠然",
+    "reading": "ばくぜん",
+    "type": "adv",
+    "meaning": "막연히",
+    "hint": "내용·모양이 명확하지 않고 어렴풋한 모습입니다.",
+    "confusion": "明確",
+    "distinction": "漠然는 분명하지 않음이고 明確는 뚜렷함이다.",
+    "dictionaryId": "jmdict-1475790",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "不吉",
+    "reading": "ふきつ",
+    "type": "na_adj",
+    "meaning": "불길함",
+    "hint": "좋지 않은 일이 생길 것 같은 느낌·징조입니다.",
+    "confusion": "不運",
+    "distinction": "不吉는 나쁜 일을 예감하게 함이고 不運는 실제 운이 나쁨이다.",
+    "dictionaryId": "jmdict-1491910",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "悲惨",
+    "reading": "ひさん",
+    "type": "na_adj",
+    "meaning": "비참함",
+    "hint": "고통·피해가 심하여 보거나 겪기 안타깝습니다.",
+    "confusion": "悲観",
+    "distinction": "悲惨는 처지가 매우 참혹함이고 悲観는 전망을 나쁘게 봄이다.",
+    "dictionaryId": "jmdict-1483290",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "要する",
+    "reading": "ようする",
+    "type": "verb",
+    "meaning": "필요로 하다",
+    "hint": "일을 하는 데 시간·비용·조건 등이 필요합니다.",
+    "confusion": "要望する",
+    "distinction": "要する는 필요로 함이고 要望する는 실현을 바라며 요청함이다.",
+    "dictionaryId": "jmdict-1546610",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "侵略",
+    "reading": "しんりゃく",
+    "type": "noun",
+    "meaning": "침략",
+    "hint": "다른 나라·영역에 힘으로 침입하여 차지하려 합니다.",
+    "confusion": "侵入",
+    "distinction": "侵略는 영역을 빼앗으려는 침입이고 侵入는 안으로 들어옴 일반이다.",
+    "dictionaryId": "jmdict-1595200",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "執着",
+    "reading": "しゅうちゃく",
+    "type": "noun",
+    "meaning": "집착",
+    "hint": "특정 대상·생각을 놓지 못하고 강하게 매달립니다.",
+    "confusion": "愛着",
+    "distinction": "執着는 놓지 못하는 고집스러운 집착이고 愛着는 친숙하고 소중히 여기는 애정이다.",
+    "dictionaryId": "jmdict-1594740",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  },
+  {
+    "japanese": "建前",
+    "reading": "たてまえ",
+    "type": "noun",
+    "meaning": "겉으로 내세우는 원칙·명분",
+    "hint": "속마음과 구별하여 대외적으로 밝히는 입장입니다.",
+    "confusion": "本音",
+    "distinction": "선택한 建前는 겉으로 내세운 입장이고 本音는 실제 속마음이다. 건축 공정의 뜻도 있다.",
+    "dictionaryId": "jmdict-1597110",
+    "level": "N2",
+    "levelNote": "선택 용법에 대한 비공식 N2 편집 수준."
+  }
+]

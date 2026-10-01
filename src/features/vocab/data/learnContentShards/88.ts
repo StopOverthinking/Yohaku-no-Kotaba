@@ -1388,6 +1388,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1071490-1",
+    "wordId": "lex-jmdict-1071490",
+    "version": 1,
+    "meaning": "스트레스",
+    "hint": "부담·긴장 때문에 심신에 생기는 압박입니다.",
+    "confusions": [
+      {
+        "japanese": "疲れ",
+        "distinction": "선택한 ストレス는 심리·신체의 압박이고 疲れ는 피로이다. 기술 분야의 응력을 뜻하기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1071490-1-ex-1",
+        "version": 1,
+        "before": "仕事の",
+        "answer": "ストレス",
+        "after": "を減らすため、休日は携帯電話を見ないようにしている。",
+        "reading": "ストレス",
+        "translation": "업무 스트레스를 줄이려고 휴일에는 휴대 전화를 보지 않으려 하고 있다.",
+        "translationTarget": "스트레스",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455210-1",
+    "wordId": "lex-jmdict-1455210",
+    "version": 1,
+    "meaning": "특정",
+    "hint": "여럿 중 어떤 정해진 대상만을 가리킵니다.",
+    "confusions": [
+      {
+        "japanese": "全体",
+        "distinction": "선택한 特定는 정해진 특정 대상이고 全体는 대상 전체이다. 대상을 밝혀내는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455210-1-ex-1",
+        "version": 1,
+        "before": "この割引は、",
+        "answer": "特定",
+        "after": "の店舗でのみ利用できる。",
+        "reading": "とくてい",
+        "translation": "이 할인은 특정 매장에서만 이용할 수 있다.",
+        "translationTarget": "특정",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397820-1",
+    "wordId": "lex-jmdict-1397820",
+    "version": 1,
+    "meaning": "저지",
+    "hint": "어떤 행위·진행이 이루어지지 못하게 막는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "停止",
+        "distinction": "阻止는 진행을 막음이고 停止는 움직임·활동이 멈추거나 멈추게 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397820-1-ex-1",
+        "version": 1,
+        "before": "住民の署名活動によって、公園の取り壊しを",
+        "answer": "阻止",
+        "after": "できた。",
+        "reading": "そし",
+        "translation": "주민의 서명 운동으로 공원 철거를 저지할 수 있었다.",
+        "translationTarget": "저지",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1089930-1",
+    "wordId": "lex-jmdict-1089930",
+    "version": 1,
+    "meaning": "나일론",
+    "hint": "가볍고 질긴 합성 섬유 재료",
+    "confusions": [
+      {
+        "japanese": "綿",
+        "distinction": "합성하여 만든 섬유와 식물에서 얻는 천연 섬유를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1089930-1-ex-1",
+        "version": 1,
+        "before": "この袋は",
+        "answer": "ナイロン",
+        "after": "製で、ぬれてもすぐ乾きます。",
+        "reading": "ナイロン",
+        "translation": "이 주머니는 나일론으로 만들어져서 젖어도 금방 마릅니다.",
+        "translationTarget": "나일론",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1276220-1",
+    "wordId": "lex-jmdict-1276220",
+    "version": 1,
+    "meaning": "구실·핑계",
+    "hint": "진짜 목적을 숨기거나 행동을 정당화하려고 내세우는 이유",
+    "confusions": [
+      {
+        "japanese": "理由",
+        "distinction": "내세우는 핑계와 실제 원인이나 사유를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1276220-1-ex-1",
+        "version": 1,
+        "before": "彼は仕事を",
+        "answer": "口実",
+        "after": "にして、家族の集まりを断った。",
+        "reading": "こうじつ",
+        "translation": "그는 일을 핑계로 가족 모임을 거절했다.",
+        "translationTarget": "핑계",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514140-1",
+    "wordId": "lex-jmdict-1514140",
+    "version": 1,
+    "meaning": "잡다·포획하다",
+    "hint": "동물이나 물고기 등을 잡아서 확보해요.",
+    "confusions": [
+      {
+        "japanese": "逃がす",
+        "distinction": "생물을 잡는 행동과 잡은 생물을 놓아주는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514140-1-ex-1",
+        "version": 1,
+        "before": "子どものころ、川で魚を",
+        "answer": "捕って",
+        "after": "遊んだ。",
+        "reading": "とって",
+        "translation": "어릴 때 강에서 물고기를 잡으며 놀았다.",
+        "translationTarget": "잡으며",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1377660-1",
+    "wordId": "lex-jmdict-1377660",
+    "version": 1,
+    "meaning": "정당함",
+    "hint": "이치·법·기준에 맞아 타당합니다.",
+    "confusions": [
+      {
+        "japanese": "適切",
+        "distinction": "正当는 권리·행위에 정당한 근거가 있음이고 適切는 상황에 잘 맞음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1377660-1-ex-1",
+        "version": 1,
+        "before": "働いた分の報酬を求めるのは、",
+        "answer": "正当",
+        "after": "な要求だ。",
+        "reading": "せいとう",
+        "translation": "일한 만큼 보수를 요구하는 것은 정당한 요구이다.",
+        "translationTarget": "정당한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

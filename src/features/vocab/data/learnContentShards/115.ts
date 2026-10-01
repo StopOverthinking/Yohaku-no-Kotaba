@@ -1184,6 +1184,422 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278090-1",
+    "wordId": "lex-jmdict-1278090",
+    "version": 1,
+    "meaning": "공예",
+    "hint": "기능과 아름다움을 갖춘 생활 도구 등을 만드는 기술·예술입니다.",
+    "confusions": [
+      {
+        "japanese": "工業",
+        "distinction": "工芸는 공예 기술·작품이고 工業는 산업적 제품 생산이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278090-1-ex-1",
+        "version": 1,
+        "before": "旅先で出会った木の器をきっかけに、伝統",
+        "answer": "工芸",
+        "after": "に興味を持った。",
+        "reading": "こうげい",
+        "translation": "여행지에서 만난 나무 그릇을 계기로 전통 공예에 관심을 갖게 되었다.",
+        "translationTarget": "공예",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449760-1",
+    "wordId": "lex-jmdict-1449760",
+    "version": 1,
+    "meaning": "통합",
+    "hint": "따로 있던 조직·기능 등을 하나로 합치는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "分割",
+        "distinction": "統合는 하나로 합침이고 分割는 여러 부분으로 나눔이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449760-1-ex-1",
+        "version": 1,
+        "before": "二つの窓口を",
+        "answer": "統合",
+        "after": "し、一か所で手続きを済ませられるようにした。",
+        "reading": "とうごう",
+        "translation": "창구 두 곳을 통합하여 한 곳에서 수속을 끝낼 수 있게 했다.",
+        "translationTarget": "통합",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1270010-1",
+    "wordId": "lex-jmdict-1270010",
+    "version": 1,
+    "meaning": "후배",
+    "hint": "같은 학교나 조직에 자신보다 나중에 들어온 사람",
+    "confusions": [
+      {
+        "japanese": "先輩",
+        "distinction": "나중에 들어온 사람과 먼저 들어온 사람을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1270010-1-ex-1",
+        "version": 1,
+        "before": "困っている",
+        "answer": "後輩",
+        "after": "に、資料の探し方を教えた。",
+        "reading": "こうはい",
+        "translation": "곤란해하는 후배에게 자료 찾는 방법을 가르쳐 주었다.",
+        "translationTarget": "후배",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1208480-1",
+    "wordId": "lex-jmdict-1208480",
+    "version": 1,
+    "meaning": "활력",
+    "hint": "활동을 계속 힘 있게 할 수 있는 에너지",
+    "confusions": [
+      {
+        "japanese": "体力",
+        "distinction": "활동을 북돋는 에너지와 몸으로 버티는 능력을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1208480-1-ex-1",
+        "version": 1,
+        "before": "若い社員の提案が、会社に",
+        "answer": "活力",
+        "after": "を与えた。",
+        "reading": "かつりょく",
+        "translation": "젊은 직원의 제안이 회사에 활력을 주었다.",
+        "translationTarget": "활력",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1394190-1",
+    "wordId": "lex-jmdict-1394190",
+    "version": 1,
+    "meaning": "전례",
+    "hint": "이전에 같은 종류의 일에서 있었던 사례입니다.",
+    "confusions": [
+      {
+        "japanese": "例外",
+        "distinction": "前例는 이전 사례이고 例外는 일반 규칙에서 벗어나는 사례이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1394190-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "前例",
+        "after": "がないという理由だけで、新しい提案を退けるべきではない。",
+        "reading": "ぜんれい",
+        "translation": "전례가 없다는 이유만으로 새로운 제안을 물리쳐서는 안 된다.",
+        "translationTarget": "전례",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546090-1",
+    "wordId": "lex-jmdict-1546090",
+    "version": 1,
+    "meaning": "녹아들다, 융화되다",
+    "hint": "주변 사람·환경과 자연스럽게 어울리게 됩니다.",
+    "confusions": [
+      {
+        "japanese": "溶かす",
+        "distinction": "선택한 溶け込む는 집단·환경에 융화되는 자동사이고 溶かす는 물질을 녹이는 타동사이다. 물질 속에 녹아드는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546090-1-ex-1",
+        "version": 1,
+        "before": "転校した弟は、部活動を通じて新しいクラスに",
+        "answer": "溶け込んだ",
+        "after": "。",
+        "reading": "とけこんだ",
+        "translation": "전학한 남동생은 동아리 활동을 통해 새 반에 융화되었다.",
+        "translationTarget": "융화되었다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1602820-1",
+    "wordId": "lex-jmdict-1602820",
+    "version": 1,
+    "meaning": "보편",
+    "hint": "특정한 경우에 한정되지 않고 널리 성립합니다.",
+    "confusions": [
+      {
+        "japanese": "個別",
+        "distinction": "普遍는 여러 대상에 널리 성립함이고 個別는 각각 따로인 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1602820-1-ex-1",
+        "version": 1,
+        "before": "家族への思いは、この作品の",
+        "answer": "普遍",
+        "after": "的なテーマだ。",
+        "reading": "ふへん",
+        "translation": "가족을 향한 마음은 이 작품의 보편적인 주제이다.",
+        "translationTarget": "보편",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1288350-1",
+    "wordId": "lex-jmdict-1288350",
+    "version": 1,
+    "meaning": "걸터앉다·앉다",
+    "hint": "의자나 걸터앉을 수 있는 곳에 몸을 내려 앉아요.",
+    "confusions": [
+      {
+        "japanese": "立つ",
+        "distinction": "앉을 곳에 몸을 내리는 것과 일어서 있는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1288350-1-ex-1",
+        "version": 1,
+        "before": "靴を脱ぐため、玄関の低い椅子に",
+        "answer": "腰掛けた",
+        "after": "。",
+        "reading": "こしかけた",
+        "translation": "신발을 벗으려고 현관의 낮은 의자에 걸터앉았다.",
+        "translationTarget": "걸터앉았다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375520-1",
+    "wordId": "lex-jmdict-1375520",
+    "version": 1,
+    "meaning": "성별",
+    "hint": "사람이나 동물의 성을 구별하는 분류",
+    "confusions": [
+      {
+        "japanese": "年齢",
+        "distinction": "성에 따른 구별과 살아온 나이를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375520-1-ex-1",
+        "version": 1,
+        "before": "このアンケートでは、",
+        "answer": "性別",
+        "after": "の回答は任意です。",
+        "reading": "せいべつ",
+        "translation": "이 설문에서는 성별 응답은 선택 사항입니다.",
+        "translationTarget": "성별",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1323170-1",
+    "wordId": "lex-jmdict-1323170",
+    "version": 1,
+    "meaning": "차장·승무원",
+    "hint": "열차 안에서 안내와 승객 응대를 맡는 직원",
+    "confusions": [
+      {
+        "japanese": "運転士",
+        "distinction": "열차 안의 승객 안내 담당과 열차를 운전하는 담당을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1323170-1-ex-1",
+        "version": 1,
+        "before": "忘れ物に気付いて、",
+        "answer": "車掌",
+        "after": "に次の駅で相談した。",
+        "reading": "しゃしょう",
+        "translation": "물건을 두고 온 것을 알아차려 다음 역에서 승무원에게 문의했다.",
+        "translationTarget": "승무원",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541060-1",
+    "wordId": "lex-jmdict-1541060",
+    "version": 1,
+    "meaning": "상태, 형편",
+    "hint": "실제로 벌어진 일·사람의 모습이나 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "様式",
+        "distinction": "有様는 실제 상태·형편이고 様式는 정해진 형식·양식이다. 좋지 않은 상태를 가리킬 때도 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541060-1-ex-1",
+        "version": 1,
+        "before": "雨漏りで、部屋の床が水浸しという",
+        "answer": "有様",
+        "after": "だった。",
+        "reading": "ありさま",
+        "translation": "빗물이 새어 방바닥이 물에 잠긴 상태였다.",
+        "translationTarget": "상태",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530770-1",
+    "wordId": "lex-jmdict-1530770",
+    "version": 1,
+    "meaning": "원통함, 분함",
+    "hint": "바라던 일을 이루지 못해 매우 아쉽고 분합니다.",
+    "confusions": [
+      {
+        "japanese": "未練",
+        "distinction": "無念는 이루지 못한 원통함이고 未練는 놓지 못하는 애착이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530770-1-ex-1",
+        "version": 1,
+        "before": "けがで決勝に出られず、彼は",
+        "answer": "無念",
+        "after": "そうに会場を見つめた。",
+        "reading": "むねん",
+        "translation": "부상으로 결승에 나가지 못해 그는 분한 듯 행사장을 바라봤다.",
+        "translationTarget": "분한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006970-1",
+    "wordId": "lex-jmdict-1006970",
+    "version": 1,
+    "meaning": "그것",
+    "hint": "말을 듣는 상대 가까이에 있는 물건을 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "その",
+        "distinction": "물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 앞서 말한 물건을 다시 가리킬 때도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006970-1-ex-1",
+        "version": 1,
+        "before": "手に持っている",
+        "answer": "それ",
+        "after": "を見せてください。",
+        "reading": "それ",
+        "translation": "손에 들고 있는 그것을 보여 주세요.",
+        "translationTarget": "그것",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

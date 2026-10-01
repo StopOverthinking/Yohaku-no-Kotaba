@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises'
+import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { lexicalKey, hashContent, validateLegacyMembership, appendReviewedSources } from './lib/jlpt-pilot.mjs'
@@ -92,6 +93,7 @@ try { selection = evaluatePracticalScope(scope, { sourceHash: selectionSourceHas
 catch (error) { issues.push(error.message) }
 const report = {
   schemaVersion: 2, targetPolicy: scope.policy, provisionalRange: scope.provisionalRange,
+  approximateTarget: scope.approximateTarget ?? null,
   targetUniqueWords: selection.finalCount, targetNewWords: null, selectionSourceHash,
   levelWords: unique.size, newWords: entries.filter((e) => e.new).length,
   readyWords: entries.filter((e) => e.ready).length,
@@ -101,12 +103,13 @@ const report = {
   revisedLegacy,
   revisedLegacyContent,
   complete: selection.complete && !issues.length,
+  completionScope: 'reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately',
   issues,
-  remaining: ['Complete practical N5-N1 coverage and independently review the final selection; no fixed count quota',
-    'Legacy vocabulary classification and alias/profile migration',
-    'Full-size shard loading and IndexedDB/backup performance verification',
-    'Full-size device performance verification and release'],
+  remaining: selection.complete && !issues.length ? [] : [
+    'Complete and independently review the selected practical N5-N1 content; no fixed count quota',
+    ...issues,
+  ],
 }
-await fs.writeFile(path.join(root, 'content/jlpt/progress.json'), JSON.stringify(report, null, 2) + '\n')
+await writeGeneratedFile(path.join(root, 'content/jlpt/progress.json'), JSON.stringify(report, null, 2) + '\n')
 console.log(JSON.stringify(report, null, 2))
 if (issues.length || (process.argv.includes('--require-target') && !report.complete)) process.exitCode = 1

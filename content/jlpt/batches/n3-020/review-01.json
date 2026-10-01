@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "c02dbb184017c1379c5d7eaa55be513280b77ac904af0bbd04a8652459602ec4",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all vocabulary, selected levels, hints, contrasts and Japanese/Korean examples read.",
+    "reviewedAt": "2026-09-30T23:52:35.873Z",
+    "notes": [
+      "원래 n2-020/01의 실용 외래어25를 전량 대조한 뒤 선택 의미 난도로 N2 4/N3 16/N4 5 분리했다. 단순 출처 수준을 따르지 않고 기존 ファイル/メーカー 등과 일관된 범위를 적용한다. 원고 의미·예문은 유지."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1062910",
+      "08ae2c974143b3a33e5357b9043bb94b3846da74a99e19365a05207c94002944"
+    ],
+    [
+      "lex-jmdict-1070320",
+      "c328b23cda1169d6e8b4ddecae14165bc9bbb9066e63ba5d560909d47c935022"
+    ],
+    [
+      "lex-jmdict-1072240",
+      "0a271d9b479d7ee133e0080ba8e949b0e56ba727d2407ab8f25131e1e5277710"
+    ],
+    [
+      "lex-jmdict-1073760",
+      "743b22767367b3c9b0206bb5e451a4d460fc97c1381fce429c108ebdc7217960"
+    ],
+    [
+      "lex-jmdict-1078830",
+      "0fee7880ab61802dcc627a9018713632127aeeebba16a6c0d3f6528ab28f6b3d"
+    ],
+    [
+      "lex-jmdict-1081120",
+      "4ea58f98b04874442602af3456aa68915a2335166535eabae9c3e2e6bb47beb4"
+    ],
+    [
+      "lex-jmdict-1096830",
+      "687123d9def68df3e26f8c970c59074b56ed3887fec9e6487f686c83d86dc6d7"
+    ],
+    [
+      "lex-jmdict-1100240",
+      "84d906553e0b8a0fd5273e3365d2a162ef048c046f2b05c7908410ba1f5926fd"
+    ],
+    [
+      "lex-jmdict-1105160",
+      "21d88a481acb6b6c63d5da645ed5c8a350f78f00b0c967b753b28b0641325465"
+    ],
+    [
+      "lex-jmdict-1108160",
+      "3c03a053825af14c0ec575babc884419b7b231d692a15cf24cdc6e989cf6d820"
+    ],
+    [
+      "lex-jmdict-1115670",
+      "3144c468bc7a2385b9d9b0be2fad810f111d0f4f44f8be67deafce7d5a3e2913"
+    ],
+    [
+      "lex-jmdict-1116300",
+      "118c3b8060610f72d98e69d799dbd7d37d0654e60b3c0838e135c7e437d81d2f"
+    ],
+    [
+      "lex-jmdict-1126980",
+      "a99a27ec3783aabe4085d976993fd85788d1e604f0bd582f62786efb9bb3085d"
+    ],
+    [
+      "lex-jmdict-1134480",
+      "4411c740c3728d23b374aceeb33be8a366ff9c9bb4eb0e6d85566bccfeda9939"
+    ],
+    [
+      "lex-jmdict-1135270",
+      "0669fcc0a34f119f456bcdd5a6a7a9c9bf40ec5ff07db062e597b64f55de5350"
+    ],
+    [
+      "lex-jmdict-1141620",
+      "39d281f19184b57b49279418efc385ec1c087a27076e9ec0ead98e0cc30bd260"
+    ]
+  ]
+}

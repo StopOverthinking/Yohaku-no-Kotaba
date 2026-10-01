@@ -1,0 +1,21 @@
+[
+  {
+    "wordId": "AbsoluteVerb_388",
+    "sourceHash": "ea02ba6a90aed734433ff0d67378aa5497b6aa90b3a3d45b5835f948a6ff7444",
+    "proposalHash": "2b3703ff8f31d4b8188af4968f5288ee51518e500abad4fb6009da6f2831ae70",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
+    "notes": [
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다.",
+      "현재 선택된 기초 働く 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
+    ]
+  }
+]

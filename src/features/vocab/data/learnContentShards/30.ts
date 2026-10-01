@@ -2068,6 +2068,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1060300-1",
+    "wordId": "lex-jmdict-1060300",
+    "version": 1,
+    "meaning": "시스템, 체계",
+    "hint": "여러 요소·절차가 연결되어 하나의 기능을 하는 구조입니다.",
+    "confusions": [
+      {
+        "japanese": "機械",
+        "distinction": "システム는 연결된 요소의 체계이고 機械는 기계 장치이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1060300-1-ex-1",
+        "version": 1,
+        "before": "新しい予約",
+        "answer": "システム",
+        "after": "では、空いている時間を画面で選べる。",
+        "reading": "システム",
+        "translation": "새 예약 시스템에서는 빈 시간을 화면에서 고를 수 있다.",
+        "translationTarget": "시스템",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_31-2",
+    "wordId": "AbsoluteVerb_31",
+    "version": 1,
+    "meaning": "모르는 것을 묻다",
+    "hint": "알고 싶은 내용을 다른 사람에게 질문해요.",
+    "confusions": [
+      {
+        "japanese": "答える",
+        "distinction": "정보를 물어보는 행동과 질문에 답하는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_31-2-ex-1",
+        "version": 1,
+        "before": "友達に、誕生日に何が欲しいか",
+        "answer": "聞いた",
+        "after": "。",
+        "reading": "きいた",
+        "translation": "친구에게 생일에 무엇이 갖고 싶은지 물었다.",
+        "translationTarget": "물었다",
+        "difficulty": 13,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370160-1",
+    "wordId": "lex-jmdict-1370160",
+    "version": 1,
+    "meaning": "신속함",
+    "hint": "필요한 판단·행동을 지체 없이 빠르게 합니다.",
+    "confusions": [
+      {
+        "japanese": "拙速",
+        "distinction": "迅速는 신속함이고 拙速는 서둘러 결과가 미흡함을 말한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370160-1-ex-1",
+        "version": 1,
+        "before": "係員の",
+        "answer": "迅速",
+        "after": "な対応で、落とし物はその日のうちに戻ってきた。",
+        "reading": "じんそく",
+        "translation": "담당자의 신속한 대응으로 분실물이 그날 안에 돌아왔다.",
+        "translationTarget": "신속한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1469970-1",
+    "wordId": "lex-jmdict-1469970",
+    "version": 1,
+    "meaning": "농도",
+    "hint": "혼합물 속 특정 성분이 차지하는 비율·진한 정도입니다.",
+    "confusions": [
+      {
+        "japanese": "温度",
+        "distinction": "濃度는 성분의 농도이고 温度는 덥고 차가운 정도다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1469970-1-ex-1",
+        "version": 1,
+        "before": "薬品の",
+        "answer": "濃度",
+        "after": "を間違えないよう、説明書を確認した。",
+        "reading": "のうど",
+        "translation": "약품의 농도를 틀리지 않도록 설명서를 확인했다.",
+        "translationTarget": "농도",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440610-1",
+    "wordId": "lex-jmdict-1440610",
+    "version": 1,
+    "meaning": "전시",
+    "hint": "사람들이 보도록 물건·작품을 공간에 펼쳐 놓습니다.",
+    "confusions": [
+      {
+        "japanese": "陳列",
+        "distinction": "展示는 관람·소개 목적의 전시에 흔하고 陳列는 상품 등을 늘어놓음에 흔하다. 의미가 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440610-1-ex-1",
+        "version": 1,
+        "before": "会場には、子どもたちが作った模型が",
+        "answer": "展示",
+        "after": "されていた。",
+        "reading": "てんじ",
+        "translation": "행사장에는 아이들이 만든 모형이 전시되어 있었다.",
+        "translationTarget": "전시",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598410-1",
+    "wordId": "lex-jmdict-1598410",
+    "version": 1,
+    "meaning": "안내서, 지침",
+    "hint": "처음 하는 사람에게 방법·절차를 알려 주는 자료입니다.",
+    "confusions": [
+      {
+        "japanese": "手順",
+        "distinction": "선택한 手引き는 방법을 알려 주는 안내 자료이고 手順는 작업 순서 자체이다. 이끌어 안내함의 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598410-1-ex-1",
+        "version": 1,
+        "before": "新任の教師向けに、保護者面談の",
+        "answer": "手引き",
+        "after": "を作成した。",
+        "reading": "てびき",
+        "translation": "새로 부임한 교사들을 위해 학부모 면담 안내서를 작성했다.",
+        "translationTarget": "안내서",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609260-1",
+    "wordId": "lex-jmdict-1609260",
+    "version": 1,
+    "meaning": "싫어하는 모습을 보이다",
+    "hint": "말이나 행동으로 원하지 않는 기색을 나타내요.",
+    "confusions": [
+      {
+        "japanese": "好む",
+        "distinction": "싫다는 기색을 보이는 것과 좋아하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609260-1-ex-1",
+        "version": 1,
+        "before": "犬は足を触られるのを",
+        "answer": "嫌がって",
+        "after": "、後ろへ下がった。",
+        "reading": "いやがって",
+        "translation": "개는 발을 만지는 것을 싫어하여 뒤로 물러났다.",
+        "translationTarget": "싫어하여",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598340-1",
+    "wordId": "lex-jmdict-1598340",
+    "version": 1,
+    "meaning": "철저히 임하다, 일관하다",
+    "hint": "특정 역할·태도를 끝까지 일관되게 지킵니다.",
+    "confusions": [
+      {
+        "japanese": "終える",
+        "distinction": "선택한 徹する는 태도·역할을 끝까지 지킴이고 終える는 일을 끝냄이다. 깊이 통한다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598340-1-ex-1",
+        "version": 1,
+        "before": "今日は聞き役に",
+        "answer": "徹して",
+        "after": "、相手の話を最後まで聞いた。",
+        "reading": "てっして",
+        "translation": "오늘은 듣는 역할에 철저히 임하여 상대 이야기를 끝까지 들었다.",
+        "translationTarget": "철저히 임하여",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

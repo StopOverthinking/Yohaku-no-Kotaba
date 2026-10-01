@@ -1,0 +1,38 @@
+[
+  {
+    "japanese": "展示",
+    "reading": "てんじ",
+    "type": "noun",
+    "meaning": "전시",
+    "hint": "사람들이 보도록 물건·작품을 공간에 펼쳐 놓습니다.",
+    "confusion": "陳列",
+    "distinction": "展示는 관람·소개 목적의 전시에 흔하고 陳列는 상품 등을 늘어놓음에 흔하다. 의미가 겹친다.",
+    "dictionaryId": "jmdict-1440610",
+    "level": "N3",
+    "levelNote": "선택한 일상 전시·제공·배치 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "提供",
+    "reading": "ていきょう",
+    "type": "noun",
+    "meaning": "제공",
+    "hint": "필요한 물건·정보·서비스를 상대가 쓰도록 내놓습니다.",
+    "confusion": "提案",
+    "distinction": "提供는 이용할 것을 내놓음이고 提案는 의견·안을 내놓음이다.",
+    "dictionaryId": "jmdict-1436360",
+    "level": "N3",
+    "levelNote": "선택한 일상 전시·제공·배치 용법 기준의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "配置",
+    "reading": "はいち",
+    "type": "noun",
+    "meaning": "배치",
+    "hint": "사람·물건을 목적에 맞는 자리·위치에 둡니다.",
+    "confusion": "配布",
+    "distinction": "配置는 적절한 위치에 놓음이고 配布는 자료·물건을 나누어 줌이다.",
+    "dictionaryId": "jmdict-1473150",
+    "level": "N3",
+    "levelNote": "선택한 일상 전시·제공·배치 용법 기준의 비공식 N3 편집 수준."
+  }
+]

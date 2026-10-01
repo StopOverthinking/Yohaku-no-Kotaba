@@ -2072,6 +2072,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1116300-1",
+    "wordId": "lex-jmdict-1116300",
+    "version": 1,
+    "meaning": "인쇄물·유인물",
+    "hint": "종이에 인쇄해 사람들에게 나눠 주는 자료",
+    "confusions": [
+      {
+        "japanese": "ノート",
+        "distinction": "배부하는 인쇄 자료와 직접 적는 공책을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1116300-1-ex-1",
+        "version": 1,
+        "before": "欠席した友達の分も、",
+        "answer": "プリント",
+        "after": "を受け取っておいた。",
+        "reading": "プリント",
+        "translation": "결석한 친구 몫도 유인물을 받아 두었다.",
+        "translationTarget": "유인물",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375860-1",
+    "wordId": "lex-jmdict-1375860",
+    "version": 1,
+    "meaning": "성분",
+    "hint": "물질·제품을 구성하는 각각의 요소입니다.",
+    "confusions": [
+      {
+        "japanese": "材料",
+        "distinction": "成分는 구성 요소이고 材料는 만들 때 사용하는 재료다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375860-1-ex-1",
+        "version": 1,
+        "before": "アレルギーがあるので、食品の",
+        "answer": "成分",
+        "after": "表示を必ず読む。",
+        "reading": "せいぶん",
+        "translation": "알레르기가 있어 식품의 성분 표시를 반드시 읽는다.",
+        "translationTarget": "성분",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427220-1",
+    "wordId": "lex-jmdict-1427220",
+    "version": 1,
+    "meaning": "저장, 비축",
+    "hint": "물자·식품 등을 나중에 사용하도록 모아 둡니다.",
+    "confusions": [
+      {
+        "japanese": "保存",
+        "distinction": "貯蔵는 물자를 쌓아 둠이고 保存는 상태를 유지하여 보관함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427220-1-ex-1",
+        "version": 1,
+        "before": "収穫したジャガイモは、涼しい場所に",
+        "answer": "貯蔵",
+        "after": "しておく。",
+        "reading": "ちょぞう",
+        "translation": "수확한 감자는 서늘한 곳에 저장해 둔다.",
+        "translationTarget": "저장",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343560-1",
+    "wordId": "lex-jmdict-1343560",
+    "version": 1,
+    "meaning": "서민",
+    "hint": "특별한 권력·재산을 갖지 않은 보통 사람들입니다.",
+    "confusions": [
+      {
+        "japanese": "市民",
+        "distinction": "庶民는 보통 생활자의 계층을 가리키고 市民는 도시·사회 구성원이라는 신분에 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343560-1-ex-1",
+        "version": 1,
+        "before": "昔の",
+        "answer": "庶民",
+        "after": "の暮らしを、生活道具の展示から知ることができる。",
+        "reading": "しょみん",
+        "translation": "옛 서민의 생활을 생활 도구 전시로 알 수 있다.",
+        "translationTarget": "서민",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530630-1",
+    "wordId": "lex-jmdict-1530630",
+    "version": 1,
+    "meaning": "무지",
+    "hint": "필요한 사실·지식을 알지 못합니다.",
+    "confusions": [
+      {
+        "japanese": "無学",
+        "distinction": "無知는 아는 것이 부족함이고 無学는 학문·교육을 배우지 못함에 초점을 둔다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530630-1-ex-1",
+        "version": 1,
+        "before": "自分の",
+        "answer": "無知",
+        "after": "を認めることが、学びの出発点になった。",
+        "reading": "むち",
+        "translation": "자신의 무지를 인정하는 것이 배움의 출발점이 되었다.",
+        "translationTarget": "무지",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1006830-1",
+    "wordId": "lex-jmdict-1006830",
+    "version": 1,
+    "meaning": "그 (명사 앞에서)",
+    "hint": "상대 쪽의 대상이나 이미 말한 대상을 뒤의 명사와 함께 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "それ",
+        "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다. 머뭇거리는 감탄사는 이번 뜻에 포함하지 않는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1006830-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "その",
+        "after": "帽子、よく似合っていますね。",
+        "reading": "その",
+        "translation": "그 모자, 참 잘 어울리네요.",
+        "translationTarget": "그",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1008630-1",
+    "wordId": "lex-jmdict-1008630",
+    "version": 1,
+    "meaning": "매우, 아주",
+    "hint": "성질이나 상태의 정도가 보통보다 훨씬 강한 모습",
+    "confusions": [
+      {
+        "japanese": "少し",
+        "distinction": "상태의 정도가 큰 것과 작은 것을 구별한다. 부정문에서 도저히 할 수 없다는 뜻도 있지만 이번 용법은 성질이나 상태의 정도가 큼을 강조한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1008630-1-ex-1",
+        "version": 1,
+        "before": "夜の公園は",
+        "answer": "とても",
+        "after": "静かで、虫の声が聞こえました。",
+        "reading": "とても",
+        "translation": "밤의 공원은 매우 조용해서 벌레 소리가 들렸어요.",
+        "translationTarget": "매우",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

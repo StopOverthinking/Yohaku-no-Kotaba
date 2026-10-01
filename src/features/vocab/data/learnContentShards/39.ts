@@ -916,6 +916,134 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254290-1",
+    "wordId": "lex-jmdict-1254290",
+    "version": 1,
+    "meaning": "결산",
+    "hint": "일정 기간의 수입·지출 등을 정리하여 재무 결과를 확정하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "予算",
+        "distinction": "決算는 지나간 기간의 실제 회계 결과이고 予算는 앞으로 쓸 돈의 계획이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254290-1-ex-1",
+        "version": 1,
+        "before": "年度末の",
+        "answer": "決算",
+        "after": "で、予想以上の利益が出たことが分かった。",
+        "reading": "けっさん",
+        "translation": "연도 말 결산에서 예상보다 많은 이익이 난 것으로 드러났다.",
+        "translationTarget": "결산",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360360-1",
+    "wordId": "lex-jmdict-1360360",
+    "version": 1,
+    "meaning": "심의",
+    "hint": "안건을 충분히 검토하고 논의하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "審査",
+        "distinction": "審議는 안건을 논의함이고 審査는 기준에 맞는지 평가·검사함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360360-1-ex-1",
+        "version": 1,
+        "before": "予算案の",
+        "answer": "審議",
+        "after": "が長引き、会議は夜まで続いた。",
+        "reading": "しんぎ",
+        "translation": "예산안 심의가 길어져 회의는 밤까지 이어졌다.",
+        "translationTarget": "심의",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327390-1",
+    "wordId": "lex-jmdict-1327390",
+    "version": 1,
+    "meaning": "직접 맡아 처리하다",
+    "hint": "자신이 관여하여 일·작품을 만들거나 처리합니다.",
+    "confusions": [
+      {
+        "japanese": "見送る",
+        "distinction": "手がける는 직접 맡아 관여함이고 見送る는 보류하거나 배웅함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327390-1-ex-1",
+        "version": 1,
+        "before": "彼女は、地域の歴史を紹介する映像を",
+        "answer": "手がけた",
+        "after": "。",
+        "reading": "てがけた",
+        "translation": "그녀는 지역 역사를 소개하는 영상을 직접 맡아 제작했다.",
+        "translationTarget": "직접 맡아 제작했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1497020-1",
+    "wordId": "lex-jmdict-1497020",
+    "version": 1,
+    "meaning": "깔다",
+    "hint": "바닥이나 물건 아래에 천이나 매트 등을 펼쳐 놓아요.",
+    "confusions": [
+      {
+        "japanese": "掛ける",
+        "distinction": "아래에 펼쳐 놓는 행동과 위에 덮거나 거는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1497020-1-ex-1",
+        "version": 1,
+        "before": "花見の場所にシートを",
+        "answer": "敷いて",
+        "after": "、荷物を置いた。",
+        "reading": "しいて",
+        "translation": "꽃구경할 자리에 돗자리를 깔고 짐을 놓았다.",
+        "translationTarget": "깔고",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

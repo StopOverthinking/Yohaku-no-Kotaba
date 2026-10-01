@@ -976,6 +976,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1115670-1",
+    "wordId": "lex-jmdict-1115670",
+    "version": 1,
+    "meaning": "플라스틱",
+    "hint": "가볍고 여러 모양으로 만들 수 있는 합성 재료",
+    "confusions": [
+      {
+        "japanese": "ガラス",
+        "distinction": "가벼운 합성 재료와 깨지기 쉬운 유리 재료를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1115670-1-ex-1",
+        "version": 1,
+        "before": "この椅子は、",
+        "answer": "プラスチック",
+        "after": "でできているので軽い。",
+        "reading": "プラスチック",
+        "translation": "이 의자는 플라스틱으로 만들어져서 가볍다.",
+        "translationTarget": "플라스틱",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1211730-1",
+    "wordId": "lex-jmdict-1211730",
+    "version": 1,
+    "meaning": "관청·정부 기관",
+    "hint": "국가의 행정 업무를 맡아 처리하는 기관",
+    "confusions": [
+      {
+        "japanese": "企業",
+        "distinction": "국가 행정을 맡은 기관과 이익을 추구하는 회사를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1211730-1-ex-1",
+        "version": 1,
+        "before": "手続きの窓口は、担当の",
+        "answer": "官庁",
+        "after": "に確認してください。",
+        "reading": "かんちょう",
+        "translation": "절차를 담당하는 창구는 담당 정부 기관에 확인해 주세요.",
+        "translationTarget": "정부 기관",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427070-1",
+    "wordId": "lex-jmdict-1427070",
+    "version": 1,
+    "meaning": "현저하다, 두드러지다",
+    "hint": "변화·차이의 정도가 뚜렷하게 눈에 띕니다.",
+    "confusions": [
+      {
+        "japanese": "珍しい",
+        "distinction": "著しい는 차이·변화가 뚜렷함이고 珍しい는 드물거나 새로움이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427070-1-ex-1",
+        "version": 1,
+        "before": "この十年で、通信技術は",
+        "answer": "著しい",
+        "after": "進歩を遂げた。",
+        "reading": "いちじるしい",
+        "translation": "지난 10년 동안 통신 기술은 현저한 진보를 이루었다.",
+        "translationTarget": "현저한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1584900-1",
+    "wordId": "lex-jmdict-1584900",
+    "version": 1,
+    "meaning": "융통성, 유연한 대응",
+    "hint": "상황에 맞춰 방법·조건을 유연하게 바꿉니다.",
+    "confusions": [
+      {
+        "japanese": "融資",
+        "distinction": "선택한 融通는 상황에 맞는 유연함이고 融資는 자금을 빌려줌이다. 돈·물건을 서로 돌려 쓰는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1584900-1-ex-1",
+        "version": 1,
+        "before": "時間に",
+        "answer": "融通",
+        "after": "が利く仕事なので、家族の予定にも合わせやすい。",
+        "reading": "ゆうずう",
+        "translation": "시간에 융통성이 있는 일이라 가족 일정에도 맞추기 쉽다.",
+        "translationTarget": "융통성",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425160-1",
+    "wordId": "lex-jmdict-1425160",
+    "version": 1,
+    "meaning": "중독",
+    "hint": "해로운 물질이 몸에 들어가 기능에 이상이 생기는 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "感染",
+        "distinction": "선택한 中毒는 독성 물질의 영향이고 感染는 병원체가 몸에 들어와 퍼짐이다. 습관·행동의 중독도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425160-1-ex-1",
+        "version": 1,
+        "before": "食べ物による",
+        "answer": "中毒",
+        "after": "を防ぐため、保存温度に注意している。",
+        "reading": "ちゅうどく",
+        "translation": "음식으로 인한 중독을 막으려고 보관 온도에 주의하고 있다.",
+        "translationTarget": "중독",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1427980-1",
+    "wordId": "lex-jmdict-1427980",
+    "version": 1,
+    "meaning": "조각",
+    "hint": "돌·나무·금속 등으로 입체적인 형태를 만드는 예술과 그 작품",
+    "confusions": [
+      {
+        "japanese": "絵画",
+        "distinction": "입체 형태를 만드는 예술과 평면에 그리는 예술을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1427980-1-ex-1",
+        "version": 1,
+        "before": "駅前の",
+        "answer": "彫刻",
+        "after": "は、地元の芸術家が作ったものです。",
+        "reading": "ちょうこく",
+        "translation": "역 앞 조각은 지역 예술가가 만든 것입니다.",
+        "translationTarget": "조각",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481940-1",
+    "wordId": "lex-jmdict-1481940",
+    "version": 1,
+    "meaning": "번거롭다, 성가시다",
+    "hint": "계속 신경 쓰거나 처리해야 하여 부담스럽습니다.",
+    "confusions": [
+      {
+        "japanese": "難しい",
+        "distinction": "煩わしい는 번거롭고 성가심이고 難しい는 해내기 어려움 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481940-1-ex-1",
+        "version": 1,
+        "before": "毎回同じ情報を入力するのは",
+        "answer": "煩わしい",
+        "after": "。",
+        "reading": "わずらわしい",
+        "translation": "매번 같은 정보를 입력하는 것은 번거롭다.",
+        "translationTarget": "번거롭다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1359500-1",
+    "wordId": "lex-jmdict-1359500",
+    "version": 1,
+    "meaning": "신임",
+    "hint": "상대가 역할을 잘할 것이라고 믿고 맡깁니다.",
+    "confusions": [
+      {
+        "japanese": "信用",
+        "distinction": "信任는 역할을 믿고 맡김이고 信用는 믿을 수 있다고 여김 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1359500-1-ex-1",
+        "version": 1,
+        "before": "委員会は投票で、議長への",
+        "answer": "信任",
+        "after": "を示した。",
+        "reading": "しんにん",
+        "translation": "위원회는 투표로 의장에 대한 신임을 나타냈다.",
+        "translationTarget": "신임",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1319210-1",
+    "wordId": "lex-jmdict-1319210",
+    "version": 1,
+    "meaning": "칠, 일곱; 7",
+    "hint": "여섯보다 하나 많고 여덟보다 하나 적은 수",
+    "confusions": [
+      {
+        "japanese": "六",
+        "distinction": "7과 6을 구별한다. 7의 대표 읽기는 나나이며 시치도 쓰인다. 나노카처럼 날짜를 읽을 때는 소리가 달라진다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1319210-1-ex-1",
+        "version": 1,
+        "before": "この本の",
+        "answer": "七",
+        "after": "ページを開いてください。",
+        "reading": "なな",
+        "translation": "이 책의 7페이지를 펴 주세요.",
+        "translationTarget": "7",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

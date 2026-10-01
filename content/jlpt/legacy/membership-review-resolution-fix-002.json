@@ -1,0 +1,647 @@
+{
+  "reviewedAt": "2026-10-01T00:01:08.504Z",
+  "scope": "complete revised-source classification and explicit reference publication; no profile merge",
+  "evidence": "content-revisions/fix-proposals-002.json",
+  "reviewedWords": 7,
+  "reviewedSenses": 15,
+  "reviewedExamples": 22,
+  "changes": [
+    {
+      "wordId": "handmade_153",
+      "batch": "022",
+      "previousProposal": {
+        "wordId": "handmade_153",
+        "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+        "level": "N5",
+        "dictionaryId": "jmdict-1554310",
+        "suggestedType": "noun",
+        "levelNote": "현재 noun 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “요리” 및 1개 sense를 대조했다. cooking·dish와 요리 취미·아버지 요리 예문이 일치한다. 사람을 능숙하게 처리함이라는 비유는 선택하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "handmade_153",
+        "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+        "proposalHash": "a6163e4f660036f4add051ccf04c77dc19bc4d45233b5aaa5c1bfcde37d534f4",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-022.json",
+        "reviewedAt": "2026-09-30T05:49:22.090Z",
+        "notes": [
+          "料理의 현재 대표 뜻·읽기·두 예문과 제안 수준을 대조했다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "handmade_153",
+        "level": "N5",
+        "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "현재 힌트·대비가 음식을 만드는 일만으로 한정되어 요리된 음식이라는 일상 핵심 명사 용법을 다루지 못한다. 별도 핵심 용법 추가 검토 필요."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "handmade_153",
+        "sourceHash": "93d3865a835214b2fcd2a1791fdcc6945a4b2054c5698c924246caefffb08ff6",
+        "level": "N5",
+        "dictionaryId": "jmdict-1554310",
+        "suggestedType": "noun",
+        "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+        "meaningReview": "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "handmade_153",
+        "sourceHash": "93d3865a835214b2fcd2a1791fdcc6945a4b2054c5698c924246caefffb08ff6",
+        "proposalHash": "0415ee95a18df19d99c13a2e1171c29ead3a32e4d4ca40e95f2e2094e40a5c6b",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "handmade_153",
+        "level": "N5",
+        "sourceHash": "93d3865a835214b2fcd2a1791fdcc6945a4b2054c5698c924246caefffb08ff6",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "기존 요리하는 행위를 그대로 두고 완성된 음식이라는 별도 명사 용법 추가.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_31",
+      "batch": "023",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_31",
+        "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+        "level": "N5",
+        "dictionaryId": "jmdict-1591110",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “듣다, 묻다” 및 1개 sense를 대조했다. listen와 옛이야기·설명 듣기 예문이 일치한다. 질문·냄새 맡기 등은 현재 sense와 구별한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "AbsoluteVerb_31",
+        "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+        "proposalHash": "cdb52aa25b6560695623cebc50371ef68fc90052eddcd5e7659b7e400c96bdbe",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-023.json",
+        "reviewedAt": "2026-09-30T06:03:16.812Z",
+        "notes": [
+          "옛이야기·설명을 듣는 N5 용법이며 질문 의미와 분리되어 있다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "AbsoluteVerb_31",
+        "level": "N5",
+        "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "소리를 듣다 용법뿐이며 질문하여 묻다라는 기초 핵심 용법이 빠져 있다. 별도 sense 추가 검토 필요."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "AbsoluteVerb_31",
+        "sourceHash": "d7f90a279002ee6f1df5f017c88b3df7493927a4a8dd46d563ca4ec521fe8596",
+        "level": "N5",
+        "dictionaryId": "jmdict-1591110",
+        "suggestedType": "verb",
+        "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+        "meaningReview": "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "AbsoluteVerb_31",
+        "sourceHash": "d7f90a279002ee6f1df5f017c88b3df7493927a4a8dd46d563ca4ec521fe8596",
+        "proposalHash": "d9e738947f137d499a378cc4535c40ead5e718004e45c276d7ced04ab8e0f314",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "AbsoluteVerb_31",
+        "level": "N5",
+        "sourceHash": "d7f90a279002ee6f1df5f017c88b3df7493927a4a8dd46d563ca4ec521fe8596",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_34",
+      "batch": "023",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_34",
+        "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+        "level": "N5",
+        "dictionaryId": "jmdict-1169870",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “마시다, 약을 먹다” 및 1개 sense를 대조했다. drink와 물·뜨거운 차 예문이 일치한다. 복약은 사전의 같은 기본 섭취 의미에 있으나 현재 예문은 음료이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "AbsoluteVerb_34",
+        "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+        "proposalHash": "21dc6f971da393b242929e65b34e328caeac18330d78f8c53740d639f860395c",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-023.json",
+        "reviewedAt": "2026-09-30T06:03:16.812Z",
+        "notes": [
+          "물·차를 마시는 N5 용법이 정확하다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "AbsoluteVerb_34",
+        "level": "N5",
+        "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "액체 음료만이라는 힌트·대비로 약을 먹다라는 기초 결합을 포괄하지 못한다. 별도 약 복용 용법 추가 검토 필요."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "AbsoluteVerb_34",
+        "sourceHash": "ecc981014e34f71e3660083ac3875dd2806c887d671d642ac7d63ad07b40c2c5",
+        "level": "N5",
+        "dictionaryId": "jmdict-1169870",
+        "suggestedType": "verb",
+        "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+        "meaningReview": "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "AbsoluteVerb_34",
+        "sourceHash": "ecc981014e34f71e3660083ac3875dd2806c887d671d642ac7d63ad07b40c2c5",
+        "proposalHash": "2858079c6afe98abc8a6c891191ff3f3b2fd385313fa797b2d5778415ce39dc0",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "AbsoluteVerb_34",
+        "level": "N5",
+        "sourceHash": "ecc981014e34f71e3660083ac3875dd2806c887d671d642ac7d63ad07b40c2c5",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_71",
+      "batch": "024",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_71",
+        "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+        "level": "N4",
+        "dictionaryId": "jmdict-1207610",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “(벽 등에) 걸다, (전화를) 걸다, (자물쇠를) 잠그다, (안경을) 쓰다, 곱하다, 씌우다” 및 1개 sense를 대조했다. hang와 코트·벽시계 예문이 일치한다. 전화·안경·곱셈 등은 현재 sense와 분리한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "AbsoluteVerb_71",
+        "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+        "proposalHash": "89ce6956e5571e5dceaf9d6055c0c09fae4141a9ab24a6674df5233575ac42c6",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-024.json",
+        "reviewedAt": "2026-09-30T06:09:16.787Z",
+        "notes": [
+          "옷·시계를 걸어 놓는 N4 타동사 의미를 확인했다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "AbsoluteVerb_71",
+        "level": "N4",
+        "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "벽에 물건을 걸다만이며 단어 뜻에 명시한 전화·안경이라는 주요 일상 용법이 없다. 중요한 독립 용법 추가 검토 필요."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "AbsoluteVerb_71",
+        "sourceHash": "94e9df66ab99c25c13ca323f9f9bf916ce2c2515736f74428e73cd8139b9a67f",
+        "level": "N4",
+        "dictionaryId": "jmdict-1207610",
+        "suggestedType": "verb",
+        "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N4를 유지한다.",
+        "meaningReview": "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가. 현재 3개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "AbsoluteVerb_71",
+        "sourceHash": "94e9df66ab99c25c13ca323f9f9bf916ce2c2515736f74428e73cd8139b9a67f",
+        "proposalHash": "65c6ddba327048acc20419b3c0d0b76be4bac30061e84791e0b313fa7ca43736",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가. 현재 3개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N4를 유지한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "AbsoluteVerb_71",
+        "level": "N4",
+        "sourceHash": "94e9df66ab99c25c13ca323f9f9bf916ce2c2515736f74428e73cd8139b9a67f",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N4를 유지한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_81",
+      "batch": "024",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_81",
+        "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+        "level": "N5",
+        "dictionaryId": "jmdict-1315720",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “가지다, 들다” 및 1개 sense를 대조했다. hold와 봉지·우산 예문이 일치한다. 소유·지속은 현재 sense와 분리한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "AbsoluteVerb_81",
+        "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+        "proposalHash": "60d9972b69c1e2bf840a17bf7005605c9441c84da897ef22d0c8c078fd23fe3a",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-024.json",
+        "reviewedAt": "2026-09-30T06:09:16.787Z",
+        "notes": [
+          "가방·우산을 손에 들고 있는 N5 의미를 확인했다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "AbsoluteVerb_81",
+        "level": "N5",
+        "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "손에 들다만이며 가지고 있다/소유하다의 기초 의미가 누락되었다. 손으로 지탱한다는 힌트에 소유 숙련도를 합치지 말고 별도 sense 검토."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "AbsoluteVerb_81",
+        "sourceHash": "8c9e19b20a4dd792ad0dbf6971c2f98b102b1c5b264239d2e428e0cedd3327b3",
+        "level": "N5",
+        "dictionaryId": "jmdict-1315720",
+        "suggestedType": "verb",
+        "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+        "meaningReview": "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "AbsoluteVerb_81",
+        "sourceHash": "8c9e19b20a4dd792ad0dbf6971c2f98b102b1c5b264239d2e428e0cedd3327b3",
+        "proposalHash": "92887e62dace182bb5107ae56e5f9856aca7db6854f168af9d71860b28c08125",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "AbsoluteVerb_81",
+        "level": "N5",
+        "sourceHash": "8c9e19b20a4dd792ad0dbf6971c2f98b102b1c5b264239d2e428e0cedd3327b3",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_101",
+      "batch": "025",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_101",
+        "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+        "level": "N5",
+        "dictionaryId": "jmdict-1338180",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “내다, 제출하다” 및 1개 sense를 대조했다. submit와 신청서·숙제 제출 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "AbsoluteVerb_101",
+        "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+        "proposalHash": "c1332c6d095d22a7f67fb4fa93b5d5727d4d780189eb2bcf9ab2c160df6cf9ee",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-025.json",
+        "reviewedAt": "2026-09-30T06:17:16.305Z",
+        "notes": [
+          "제출하는 N5 용법은 맞으나 직접 건네는 방식과 대조한 힌트는 참조 게시 전 명료화 후보이다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "AbsoluteVerb_101",
+        "level": "N5",
+        "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "제출하다 용법만이며 기본적인 안에서 밖으로 꺼내다/내놓다 용법이 없다. 독립 핵심 용법 추가 검토 필요."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "AbsoluteVerb_101",
+        "sourceHash": "b88cfd98d4051dbc39d417d5fa9d7e90fecb186576ead256c1913f69e089ab19",
+        "level": "N5",
+        "dictionaryId": "jmdict-1338180",
+        "suggestedType": "verb",
+        "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+        "meaningReview": "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "AbsoluteVerb_101",
+        "sourceHash": "b88cfd98d4051dbc39d417d5fa9d7e90fecb186576ead256c1913f69e089ab19",
+        "proposalHash": "2797bd0c2b15d907c271ee898abde51758bcee385e769f78769180dec8da306f",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "AbsoluteVerb_101",
+        "level": "N5",
+        "sourceHash": "b88cfd98d4051dbc39d417d5fa9d7e90fecb186576ead256c1913f69e089ab19",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리.",
+          "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_143",
+      "batch": "026",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_143",
+        "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
+        "level": "N3",
+        "dictionaryId": "jmdict-1532710",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 없음이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “헤매다, 망설이다” 및 1개 sense를 대조했다. hesitate와 색 선택·초대 수락 고민 예문이 일치한다. 출처 등급은 없지만 생활 의사 결정의 일반 동사로 N3를 편집 제안한다. 길 헤맴은 현재 sense와 분리한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousClassificationReview": {
+        "wordId": "AbsoluteVerb_143",
+        "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
+        "proposalHash": "a9116d086c7cb835314c65483620a4cc80876e4b018b1c5c6f520ea64e071096",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-026.json",
+        "reviewedAt": "2026-09-30T06:24:04.091Z",
+        "notes": [
+          "선택 사이에서 망설이는 일반적 뜻의 편집 N3를 수용한다."
+        ]
+      },
+      "previousHold": {
+        "wordId": "AbsoluteVerb_143",
+        "level": "N3",
+        "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
+        "scope": "legacy-reference-publication",
+        "outcome": "needs_followup",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-09-30T23:49:49.903Z",
+        "notes": [
+          "선택을 망설이다만이며 길을 잃다라는 필수 생활 용법이 없다. 별도 sense 추가 검토 필요."
+        ]
+      },
+      "finalProposal": {
+        "wordId": "AbsoluteVerb_143",
+        "sourceHash": "70b57763254181d3bab445ad8bd95c9d7292e0a210fe0940db50f900da4d6cb2",
+        "level": "N4",
+        "dictionaryId": "jmdict-1532710",
+        "suggestedType": "verb",
+        "levelNote": "선택 망설임과 길을 잃는 일상 기본 용법을 함께 고려하여 비공식 N4로 재검토한다.",
+        "meaningReview": "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "classificationReview": {
+        "wordId": "AbsoluteVerb_143",
+        "sourceHash": "70b57763254181d3bab445ad8bd95c9d7292e0a210fe0940db50f900da4d6cb2",
+        "proposalHash": "ef890a3c24a27f74b8ecc934068f275ca4790060c93a89045f38ef819ac24cae",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "no alias/profile merge approved",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent re-review of complete final core-preserving content revision fix002",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+          "선택 망설임과 길을 잃는 일상 기본 용법을 함께 고려하여 비공식 N4로 재검토한다."
+        ]
+      },
+      "referenceReview": {
+        "wordId": "AbsoluteVerb_143",
+        "level": "N4",
+        "sourceHash": "70b57763254181d3bab445ad8bd95c9d7292e0a210fe0940db50f900da4d6cb2",
+        "scope": "legacy-reference-publication",
+        "outcome": "accepted",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:01:08.504Z",
+        "notes": [
+          "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리.",
+          "선택 망설임과 길을 잃는 일상 기본 용법을 함께 고려하여 비공식 N4로 재검토한다.",
+          "모든 현재 단어/용법/힌트/대비/예문/번역을 검토한 최종 afterHash이며 기존 ID 그대로 수준 목록 참조를 별도로 승인한다."
+        ]
+      }
+    }
+  ]
+}

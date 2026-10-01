@@ -905,12 +905,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1310050-1-ex-1",
-        "version": 1,
-        "before": "母から小さな",
+        "version": 2,
+        "before": "",
         "answer": "指輪",
-        "after": "をもらいました。",
+        "after": "のサイズを直してもらったら、指にぴったり合いました。",
         "reading": "ゆびわ",
-        "translation": "어머니께 작은 반지를 받았어요.",
+        "translation": "반지 치수를 조정받았더니 손가락에 꼭 맞았어요.",
         "translationTarget": "반지",
         "difficulty": 16,
         "status": "reviewed"
@@ -1337,6 +1337,326 @@ const content: LearnSense[] = [
         "translation": "부품을 교체했더니 바퀴의 회전이 좋아졌다.",
         "translationTarget": "회전",
         "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514580-1",
+    "wordId": "lex-jmdict-1514580",
+    "version": 1,
+    "meaning": "보충",
+    "hint": "줄거나 모자란 물품·내용 등을 더하여 채웁니다.",
+    "confusions": [
+      {
+        "japanese": "補償",
+        "distinction": "補充는 부족분을 채움이고 補償는 손해를 보상함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514580-1-ex-1",
+        "version": 1,
+        "before": "店員は、棚の空いた所に商品を",
+        "answer": "補充",
+        "after": "した。",
+        "reading": "ほじゅう",
+        "translation": "점원은 선반의 빈 곳에 상품을 보충했다.",
+        "translationTarget": "보충",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1064980-1",
+    "wordId": "lex-jmdict-1064980",
+    "version": 1,
+    "meaning": "언론인·기자",
+    "hint": "사건을 조사하고 보도하는 일을 하는 사람",
+    "confusions": [
+      {
+        "japanese": "作家",
+        "distinction": "사실을 취재해 보도하는 사람과 작품을 쓰는 사람을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1064980-1-ex-1",
+        "version": 1,
+        "before": "現地の",
+        "answer": "ジャーナリスト",
+        "after": "が、洪水の被害を伝えた。",
+        "reading": "ジャーナリスト",
+        "translation": "현지 언론인이 홍수 피해를 전했다.",
+        "translationTarget": "언론인",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435010-1",
+    "wordId": "lex-jmdict-1435010",
+    "version": 1,
+    "meaning": "정체",
+    "hint": "진행·활동이 앞으로 나아가지 못하고 머뭅니다.",
+    "confusions": [
+      {
+        "japanese": "進展",
+        "distinction": "停滞는 진행이 막혀 머묾이고 進展는 앞으로 나아감이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435010-1-ex-1",
+        "version": 1,
+        "before": "意見がまとまらず、計画の進行が",
+        "answer": "停滞",
+        "after": "している。",
+        "reading": "ていたい",
+        "translation": "의견이 모이지 않아 계획 진행이 정체되고 있다.",
+        "translationTarget": "정체",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554720-1",
+    "wordId": "lex-jmdict-1554720",
+    "version": 1,
+    "meaning": "영역",
+    "hint": "활동·지식·지배 등이 미치는 범위입니다.",
+    "confusions": [
+      {
+        "japanese": "領土",
+        "distinction": "領域는 공간·분야의 범위이고 領土는 국가가 소유·지배하는 땅이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554720-1-ex-1",
+        "version": 1,
+        "before": "医療と工学を結ぶ新しい研究",
+        "answer": "領域",
+        "after": "が広がっている。",
+        "reading": "りょういき",
+        "translation": "의료와 공학을 잇는 새로운 연구 영역이 넓어지고 있다.",
+        "translationTarget": "영역",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481710-1",
+    "wordId": "lex-jmdict-1481710",
+    "version": 1,
+    "meaning": "번창, 성업",
+    "hint": "가게·장사에 손님이 많고 거래가 잘됩니다.",
+    "confusions": [
+      {
+        "japanese": "繁栄",
+        "distinction": "繁盛는 가게·장사가 잘됨이고 繁栄는 사회·산업 등이 발전함에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481710-1-ex-1",
+        "version": 1,
+        "before": "口コミが広がり、小さな食堂は毎日",
+        "answer": "繁盛",
+        "after": "している。",
+        "reading": "はんじょう",
+        "translation": "입소문이 퍼져 작은 식당은 매일 성업 중이다.",
+        "translationTarget": "성업",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491290-1",
+    "wordId": "lex-jmdict-1491290",
+    "version": 1,
+    "meaning": "불운",
+    "hint": "우연히 좋지 않은 일을 겪는 운",
+    "confusions": [
+      {
+        "japanese": "幸運",
+        "distinction": "좋지 않은 우연과 좋은 우연을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491290-1-ex-1",
+        "version": 1,
+        "before": "故障に渋滞まで重なる",
+        "answer": "不運",
+        "after": "で、試合に間に合わなかった。",
+        "reading": "ふうん",
+        "translation": "고장에 정체까지 겹치는 불운으로 경기에 제때 도착하지 못했다.",
+        "translationTarget": "불운",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1291090-1",
+    "wordId": "lex-jmdict-1291090",
+    "version": 1,
+    "meaning": "차감·차감한 나머지",
+    "hint": "전체에서 필요한 금액이나 양을 빼고 남기는 것",
+    "confusions": [
+      {
+        "japanese": "合計",
+        "distinction": "일부를 뺀 나머지와 모두 더한 양을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1291090-1-ex-1",
+        "version": 1,
+        "before": "経費を除くと、",
+        "answer": "差し引き",
+        "after": "で三万円の利益が残る。",
+        "reading": "さしひき",
+        "translation": "경비를 빼면 차감한 나머지로 삼만 엔의 이익이 남는다.",
+        "translationTarget": "차감한 나머지",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1535710-1",
+    "wordId": "lex-jmdict-1535710",
+    "version": 1,
+    "meaning": "목록, 소장품 명세",
+    "hint": "소장 자료·물품의 이름 등을 정리한 목록입니다.",
+    "confusions": [
+      {
+        "japanese": "目次",
+        "distinction": "目録는 자료·물품 등의 목록이고 目次는 책·문서 안의 항목 순서이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1535710-1-ex-1",
+        "version": 1,
+        "before": "寄贈された本の",
+        "answer": "目録",
+        "after": "を作り、資料室に保管した。",
+        "reading": "もくろく",
+        "translation": "기증받은 책의 목록을 만들어 자료실에 보관했다.",
+        "translationTarget": "목록",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379110-1",
+    "wordId": "lex-jmdict-1379110",
+    "version": 1,
+    "meaning": "비리다",
+    "hint": "생선·고기·피 같은 날것의 냄새가 납니다.",
+    "confusions": [
+      {
+        "japanese": "臭い",
+        "distinction": "선택한 生臭い는 날것의 비린 냄새이고 臭い는 불쾌한 냄새 일반이다. 세속적이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379110-1-ex-1",
+        "version": 1,
+        "before": "魚を切ったまな板が",
+        "answer": "生臭い",
+        "after": "ので、丁寧に洗った。",
+        "reading": "なまぐさい",
+        "translation": "생선을 썬 도마가 비려서 꼼꼼히 씻었다.",
+        "translationTarget": "비려서",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1236620-1",
+    "wordId": "lex-jmdict-1236620",
+    "version": 1,
+    "meaning": "강렬함",
+    "hint": "자극·인상이 매우 세고 뚜렷합니다.",
+    "confusions": [
+      {
+        "japanese": "強引",
+        "distinction": "強烈는 자극·인상의 강함이고 強引는 무리하게 밀어붙이는 태도이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1236620-1-ex-1",
+        "version": 1,
+        "before": "香辛料の",
+        "answer": "強烈",
+        "after": "な香りが、店の外まで漂っていた。",
+        "reading": "きょうれつ",
+        "translation": "향신료의 강렬한 향이 가게 밖까지 퍼지고 있었다.",
+        "translationTarget": "강렬한",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

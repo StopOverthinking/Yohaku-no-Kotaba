@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "e769fd0fcac6d18120181df367c56b97846720af5e583f78ac4bf02d428f1b00",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all words, readings, types, levels, Korean hints/contrasts, Japanese examples and translations read.",
+    "reviewedAt": "2026-09-30T23:52:00.455Z",
+    "notes": [
+      "실용 N2 용법25개를 전체 대조했다. 公表 힌트의 확정 내용 한정을 제거하고 災難 번역을 지갑 분실 문맥에 맞는 불운으로 다듬었다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1274550",
+      "999a0cafd0f34285affd1549bfb45416bc758c61948e6e77224e194de894fee5"
+    ],
+    [
+      "lex-jmdict-1273510",
+      "5063959503dfc53a166862b1b37da79c5742f999ede0219005f7eac5ff86db4c"
+    ],
+    [
+      "lex-jmdict-1273820",
+      "152f05c02d20f34cb15e2b833822424c2efcb829cc03aecd01b7822c725a3254"
+    ],
+    [
+      "lex-jmdict-1274810",
+      "b2f00f646fc61087bdbbdf9a92cb547f3cf403c869307b151630512c96a4f0a0"
+    ],
+    [
+      "lex-jmdict-1278090",
+      "fd694562f50dd1aaae384e79608f6cd67dc71526177bc8ef9cc0117709a81542"
+    ],
+    [
+      "lex-jmdict-1281180",
+      "643b4b884c6915613949e352d14bdc8f1a322143aaa6e28a3dd32d95284c1d7c"
+    ],
+    [
+      "lex-jmdict-1285140",
+      "40409ed0fff93ea51d74f85f12c09fd65b59ecdeea9acada62326faaa8cd93b2"
+    ],
+    [
+      "lex-jmdict-1285390",
+      "2d74e7704ce55756e66506dcdeef1bd0cc34c4cc332fe6dd94aeaec41bec751c"
+    ],
+    [
+      "lex-jmdict-1294850",
+      "74e211dc76c4352df7d164fc32e0673c199beaf9eae882123cbcc33d1cdf5b85"
+    ],
+    [
+      "lex-jmdict-1295110",
+      "8d04d74f795a84bf3dbd64d111a1d7d8e8e6d31d4828901d9cb1884a6003b743"
+    ],
+    [
+      "lex-jmdict-1449710",
+      "d728caff62d55f90ed7b88c758c228353adc3d54a8b2508733cd6c771ac33d79"
+    ],
+    [
+      "lex-jmdict-1433050",
+      "d693d216c0d6323711e88c0bb55ae7e273bf88aaf8710f9770b4205ea9ddb33a"
+    ],
+    [
+      "lex-jmdict-1440600",
+      "fe1a51ec7ecc89917bfaa048c934338af6bd61044fa2228a5bfd2604600912f7"
+    ],
+    [
+      "lex-jmdict-1437290",
+      "7fcffc894e1398982e198471504b2daff67c1341b00499721cb20b35ce54debe"
+    ],
+    [
+      "lex-jmdict-1376240",
+      "159aeaedc5f430293cdd3638c68871cd55c76cf4bf2ec6c868a9c0331e6b5f3c"
+    ],
+    [
+      "lex-jmdict-1375860",
+      "f6f052c1c45aed2e2957371ace99d8ab70b01f7b6fbe711e7f3ac8b6a654ef36"
+    ],
+    [
+      "lex-jmdict-1375880",
+      "27a82398307a7c43b3576ba5ffc1008ee49f8e33213456ac07811b6d57250a6a"
+    ],
+    [
+      "lex-jmdict-1379230",
+      "5ecf35ed413674c4d91ac9a156960d56280f8465eee96d5bf4f7395e890dc628"
+    ],
+    [
+      "lex-jmdict-1385480",
+      "a42630a29910ff4530f400b61c7759b1227c4f5d66e2f0283619dbe5d6738cac"
+    ],
+    [
+      "lex-jmdict-1429410",
+      "f2864a8979f1ef2f03e315904e801e812320fb95e924e5e347a06eb7b9bda067"
+    ],
+    [
+      "lex-jmdict-1455210",
+      "8d6221b86a6ca1cebfdcf0b0381fd03462e83da02b68e8fb8980b64c46c29c15"
+    ],
+    [
+      "lex-jmdict-1477250",
+      "4eb9676f94d4bd0be655a8a81c061712707b1c9b7101218bdbd948b76a688b46"
+    ],
+    [
+      "lex-jmdict-1477660",
+      "c34bec3d7e696e058b5e9e4b293ffe34565bc620306e89fbe7ceee873aec46e3"
+    ],
+    [
+      "lex-jmdict-1488710",
+      "018737da8fa4e01af02297507be98c6e1ec517a303bd5292e1c5ab67cc7bc8a7"
+    ],
+    [
+      "lex-jmdict-1396020",
+      "ad6ee079f6114885b1a78bead9bd5e30399316f3b7849bdcdbda5041de64d779"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "batch": "030",
+  "scope": "classification; separate explicit reference rows in membership registry",
+  "reviewedAt": "2026-10-01T00:08:34.570Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "checkedWords": 30,
+  "checkedExamples": 60,
+  "accepted": 30,
+  "held": 0,
+  "referenceAccepted": 27,
+  "referenceHeld": 3,
+  "notes": [
+    "30개/60예문과 사전 의미 전체 독립 검토. 새 대체표기 사전 근거로 くたびれる 분류 보류를 해결했다. 원본의 품사/핵심 의미/대비 오류 세 건만 별도 참조 보류한다."
+  ]
+}

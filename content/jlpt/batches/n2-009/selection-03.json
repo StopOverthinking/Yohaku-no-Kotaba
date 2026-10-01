@@ -1,0 +1,557 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1421420",
+      "japanese": "地盤",
+      "reading": "じばん",
+      "level": "N2",
+      "spellings": [
+        "地盤"
+      ],
+      "readings": [
+        "じばん",
+        "ちばん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "地盤"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1421360",
+      "japanese": "地帯",
+      "reading": "ちたい",
+      "level": "N2",
+      "spellings": [
+        "地帯"
+      ],
+      "readings": [
+        "ちたい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "地帯"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1469970",
+      "japanese": "濃度",
+      "reading": "のうど",
+      "level": "N2",
+      "spellings": [
+        "濃度"
+      ],
+      "readings": [
+        "のうど"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "濃度"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1470330",
+      "japanese": "能率",
+      "reading": "のうりつ",
+      "level": "N2",
+      "spellings": [
+        "能率"
+      ],
+      "readings": [
+        "のうりつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "能率"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1469050",
+      "japanese": "年度",
+      "reading": "ねんど",
+      "level": "N2",
+      "spellings": [
+        "年度"
+      ],
+      "readings": [
+        "ねんど"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "年度"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1435400",
+      "japanese": "定員",
+      "reading": "ていいん",
+      "level": "N2",
+      "spellings": [
+        "定員"
+      ],
+      "readings": [
+        "ていいん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "定員"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1454970",
+      "japanese": "特殊",
+      "reading": "とくしゅ",
+      "level": "N2",
+      "spellings": [
+        "特殊"
+      ],
+      "readings": [
+        "とくしゅ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "特殊"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1455080",
+      "japanese": "特色",
+      "reading": "とくしょく",
+      "level": "N2",
+      "spellings": [
+        "特色"
+      ],
+      "readings": [
+        "とくしょく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "特色"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1455200",
+      "japanese": "特長",
+      "reading": "とくちょう",
+      "level": "N2",
+      "spellings": [
+        "特長"
+      ],
+      "readings": [
+        "とくちょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "特長"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1426190",
+      "japanese": "抽象",
+      "reading": "ちゅうしょう",
+      "level": "N2",
+      "spellings": [
+        "抽象"
+      ],
+      "readings": [
+        "ちゅうしょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "抽象"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1427220",
+      "japanese": "貯蔵",
+      "reading": "ちょぞう",
+      "level": "N2",
+      "spellings": [
+        "貯蔵"
+      ],
+      "readings": [
+        "ちょぞう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "貯蔵"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1416560",
+      "japanese": "脱線",
+      "reading": "だっせん",
+      "level": "N2",
+      "spellings": [
+        "脱線"
+      ],
+      "readings": [
+        "だっせん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "脱線"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1449670",
+      "japanese": "統一",
+      "reading": "とういつ",
+      "level": "N2",
+      "spellings": [
+        "統一"
+      ],
+      "readings": [
+        "とういつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "統一"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1450900",
+      "japanese": "頭脳",
+      "reading": "ずのう",
+      "level": "N2",
+      "spellings": [
+        "頭脳"
+      ],
+      "readings": [
+        "ずのう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "頭脳"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1543320",
+      "japanese": "予備",
+      "reading": "よび",
+      "level": "N2",
+      "spellings": [
+        "予備",
+        "預備"
+      ],
+      "readings": [
+        "よび"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "予備"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1538690",
+      "japanese": "油断",
+      "reading": "ゆだん",
+      "level": "N2",
+      "spellings": [
+        "油断"
+      ],
+      "readings": [
+        "ゆだん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "油断"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1395410",
+      "japanese": "全身",
+      "reading": "ぜんしん",
+      "level": "N2",
+      "spellings": [
+        "全身"
+      ],
+      "readings": [
+        "ぜんしん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "全身"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1375390",
+      "japanese": "性質",
+      "reading": "せいしつ",
+      "level": "N2",
+      "spellings": [
+        "性質"
+      ],
+      "readings": [
+        "せいしつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "性質"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1379370",
+      "japanese": "生長",
+      "reading": "せいちょう",
+      "level": "N2",
+      "spellings": [
+        "生長"
+      ],
+      "readings": [
+        "せいちょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "生長"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1374810",
+      "japanese": "制作",
+      "reading": "せいさく",
+      "level": "N2",
+      "spellings": [
+        "制作"
+      ],
+      "readings": [
+        "せいさく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "制作"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1380650",
+      "japanese": "製作",
+      "reading": "せいさく",
+      "level": "N2",
+      "spellings": [
+        "製作"
+      ],
+      "readings": [
+        "せいさく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "製作"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1378790",
+      "japanese": "生意気",
+      "reading": "なまいき",
+      "level": "N2",
+      "spellings": [
+        "生意気"
+      ],
+      "readings": [
+        "なまいき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "生意気"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1382090",
+      "japanese": "税関",
+      "reading": "ぜいかん",
+      "level": "N2",
+      "spellings": [
+        "税関"
+      ],
+      "readings": [
+        "ぜいかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "税関"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1350140",
+      "japanese": "消化",
+      "reading": "しょうか",
+      "level": "N2",
+      "spellings": [
+        "消化"
+      ],
+      "readings": [
+        "しょうか"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "消化"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1538810",
+      "japanese": "輸血",
+      "reading": "ゆけつ",
+      "level": "N2",
+      "spellings": [
+        "輸血"
+      ],
+      "readings": [
+        "ゆけつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N2"
+        ],
+        "matchedForms": [
+          "輸血"
+        ]
+      }
+    }
+  ]
+}

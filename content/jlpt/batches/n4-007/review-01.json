@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "334588e92c867dd802a5bcebfd117517af815f135b02011ca811c95b4251611b",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all words, readings, types, level selection, Korean hints/contrasts, Japanese examples and translations read.",
+    "reviewedAt": "2026-09-30T23:51:12.610Z",
+    "notes": [
+      "기초 생활 용법3개 검토 완료. 부정문 なかなか 및 소프트웨어 ソフト처럼 선택한 용법 범위를 명확히 유지한다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1374550",
+      "aad9a88736bae17c20d2e58a1687b7e7700f6b9806775127ed65e499efbf7524"
+    ],
+    [
+      "lex-jmdict-1599420",
+      "5116fd838223ed447bce1d6a55e094778386c1e6d02c4422df4da54764bc5685"
+    ],
+    [
+      "lex-jmdict-1075500",
+      "45ab39adfa8253ae4e75120297954918a6f2fff12b86a6cb65a62e35f88adb1a"
+    ]
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "japanese": "座敷",
+    "reading": "ざしき",
+    "type": "noun",
+    "meaning": "다다미방",
+    "hint": "다다미를 깔아 앉거나 생활하는 일본식 방",
+    "confusion": "廊下",
+    "distinction": "다다미를 깐 방과 방 사이를 연결하는 통로를 구별한다.",
+    "dictionaryId": "jmdict-1291990",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "子孫",
+    "reading": "しそん",
+    "type": "noun",
+    "meaning": "자손·후손",
+    "hint": "한 사람이나 집안에서 뒤에 이어 태어난 사람들",
+    "confusion": "祖先",
+    "distinction": "뒤에 태어난 세대와 앞선 세대를 구별한다.",
+    "dictionaryId": "jmdict-1307990",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "私鉄",
+    "reading": "してつ",
+    "type": "noun",
+    "meaning": "민영 철도·사철",
+    "hint": "민간 회사가 운영하는 철도",
+    "confusion": "地下鉄",
+    "distinction": "운영 주체가 민간인 철도와 주로 지하를 달리는 철도의 구별 기준을 구별한다.",
+    "dictionaryId": "jmdict-1311340",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "脂",
+    "reading": "あぶら",
+    "type": "noun",
+    "meaning": "지방·동물성 기름",
+    "hint": "고기나 동물의 몸에 들어 있는 기름 성분",
+    "confusion": "油",
+    "distinction": "동물성 지방과 넓은 의미의 액체 기름을 구별한다.",
+    "dictionaryId": "jmdict-1311750",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "児童",
+    "reading": "じどう",
+    "type": "noun",
+    "meaning": "아동·초등학생",
+    "hint": "어린 나이의 아이나 초등학교에 다니는 학생",
+    "confusion": "成人",
+    "distinction": "어린 아이와 성인이 된 사람을 구별한다.",
+    "dictionaryId": "jmdict-1315060",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "失恋",
+    "reading": "しつれん",
+    "type": "noun",
+    "meaning": "실연",
+    "hint": "좋아하는 상대와의 사랑이 이루어지지 않거나 끝난 일",
+    "confusion": "両思い",
+    "distinction": "사랑이 이루어지지 않은 일과 서로 좋아하는 상태를 구별한다.",
+    "dictionaryId": "jmdict-1320250",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "縞",
+    "reading": "しま",
+    "type": "noun",
+    "meaning": "줄무늬",
+    "hint": "길고 좁은 선이 나란히 반복되는 무늬",
+    "confusion": "水玉",
+    "distinction": "반복되는 선 무늬와 둥근 점 무늬를 구별한다.",
+    "dictionaryId": "jmdict-1321670",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "車庫",
+    "reading": "しゃこ",
+    "type": "noun",
+    "meaning": "차고",
+    "hint": "차량을 넣어 두거나 보호하는 공간",
+    "confusion": "車道",
+    "distinction": "차량을 보관하는 공간과 차량이 다니는 길을 구별한다.",
+    "dictionaryId": "jmdict-1323120",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "車掌",
+    "reading": "しゃしょう",
+    "type": "noun",
+    "meaning": "차장·승무원",
+    "hint": "열차 안에서 안내와 승객 응대를 맡는 직원",
+    "confusion": "運転士",
+    "distinction": "열차 안의 승객 안내 담당과 열차를 운전하는 담당을 구별한다.",
+    "dictionaryId": "jmdict-1323170",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "車輪",
+    "reading": "しゃりん",
+    "type": "noun",
+    "meaning": "차륜·바퀴",
+    "hint": "차량 아래에서 회전하여 이동을 돕는 둥근 부품",
+    "confusion": "歯車",
+    "distinction": "차량을 굴리는 바퀴와 내부에서 맞물려 힘을 전달하는 부품을 구별한다.",
+    "dictionaryId": "jmdict-1323280",
+    "level": "N3",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N3 편집 수준."
+  }
+]

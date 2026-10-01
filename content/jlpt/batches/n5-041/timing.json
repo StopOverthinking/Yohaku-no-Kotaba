@@ -1,0 +1,29 @@
+{
+  "batch": "n5-041",
+  "status": "draft-ready-held-for-semantic-collision-publication-path",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "plannedWords": 17,
+  "actualWords": 17,
+  "startedAt": "2026-10-01T01:06:18Z",
+  "completedAt": "2026-10-01T01:08:42.829Z",
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-10-01T01:06:18Z",
+      "draftCompletedAt": "2026-10-01T01:08:42.829Z",
+      "wordCount": 17,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured after initial dictionary inspection; authored planning, composition, file operations and final preflight included. Earlier candidate inspection excluded; pure thinking unavailable.",
+      "revisionAttempts": 1,
+      "observedErrors": 1,
+      "initialDraftCompletedAt": "2026-10-01T01:08:19.795989+00:00",
+      "validationCompletedAt": "2026-10-01T01:08:42.829Z",
+      "preflightMilliseconds": 717.1196,
+      "preflightIssues": [
+        "あの: exact spelling/reading of different-core existing interjection; root publication path needs independent judgment"
+      ],
+      "revisionNote": "Before review handoff, initial ここ shoe-removal scene exactly matched an existing masked sentence and was changed to vehicle access boundary; no duplicate sentence remains. Selection inspection output script missing optional legacy meaning was repaired before files were saved."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "scope": "final-current-selected-variant-adjudication",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:22:32.999Z",
+  "selectionSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+  "selectedWords": 4861,
+  "scanSourceHash": "cd2210895800f8a84345353a6717fa27e9786eab978190ac6e7405db501f2c09",
+  "scanHash": "a62641d3cbde0b509c9f86fb4efb15d3783c8bbb129fe4c4bdb7aff8e218f0f9",
+  "remainingGroups": [
+    {
+      "dictionaryId": "jmdict-1202450",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_13",
+          "sourceHash": "e3ff29be8586cf1ed1c31eeb00592ac27b4c79e06d59d76aad9886c42671e3c0"
+        },
+        {
+          "wordId": "AbsoluteVerb_76",
+          "sourceHash": "1c815852c34cb0dd147bf716c0ea625ed167d17ed752ef7e2a18ebea5a039741"
+        }
+      ],
+      "notes": [
+        "明ける는 밤이 끝나 아침이 되는 자동 변화, 開ける는 닫힌 것을 여는 타동 행동이다."
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1532910",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_26",
+          "sourceHash": "9e223cb3a676769f6316afe0ac74a34c1efa4a08efd249d87c4658bb125699df"
+        },
+        {
+          "wordId": "AbsoluteVerb_527",
+          "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba"
+        }
+      ],
+      "notes": [
+        "鳴る는 소리 발생, なる는 상태/계절이 되는 변화다. 가나 표기의 사전 교차 연결만으로 동일 뜻이라 할 수 없다."
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1198180",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_28",
+          "sourceHash": "8314128a5bfaf5748cb9d61f35c018cd66ec55f4efd850b5701219b42a3f1422"
+        },
+        {
+          "wordId": "AbsoluteVerb_408",
+          "sourceHash": "7dafc46d3c043a58f033b48dcffdf19f1e8bbb540f492978f67723623bf05ff7"
+        }
+      ],
+      "notes": [
+        "遭う는 재난·도난·비를 겪음, 会う는 사람과 마주 만남이다."
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1432710",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_56",
+          "sourceHash": "87347fe5cbab72ea084f7742e23a045b7e3b774eca44bdfa247e8b9113335511"
+        },
+        {
+          "wordId": "AbsoluteVerb_57",
+          "sourceHash": "4777431676e79bb6c80133f6956bc1dda6baf824fe61e851093e529c456d9259"
+        }
+      ],
+      "notes": [
+        "痛む는 신체 통증, 傷む는 책·과일의 손상과 변질이다."
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1600270",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_249",
+          "sourceHash": "6cbf49e3436b7cf349af5d40da37601d491e84dca9b5f3889ad57ddaf630938f"
+        },
+        {
+          "wordId": "AbsoluteVerb_350",
+          "sourceHash": "7d1acadc984bd13e159574823984dc494e1311fcc64f9f5ddf93764b21a8139a"
+        }
+      ],
+      "notes": [
+        "載せる는 그림·사진의 매체 게재, 乗せる는 사람을 탈것에 태움이다."
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1352320",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_266",
+          "sourceHash": "9f963ece78559b97c8920a8c8547604b218548383b9937ab373a119aec72e339"
+        },
+        {
+          "wordId": "AbsoluteVerb_328",
+          "sourceHash": "854d4ff114444be064d64432bbaf21e6b3cb3df399218757200a84bbd9cba05d"
+        }
+      ],
+      "notes": [
+        "上げる는 위치를 높임, あげる는 물건을 다른 사람에게 줌이다."
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1589500",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "members": [
+        {
+          "wordId": "AbsoluteVerb_271",
+          "sourceHash": "36df4ca929c14aeee8a14414cfbba88d985b8cf3a24b21c3eebdbc52f8c70e21"
+        },
+        {
+          "wordId": "AbsoluteVerb_351",
+          "sourceHash": "f48f99746e7e5dbc96b03e78a5f19e6ab24c7bad73a694999176223b7776168f"
+        }
+      ],
+      "notes": [
+        "下りる는 계단·산의 높은 곳에서 낮은 곳으로 이동, 降りる는 역·정류장에서 탈것을 떠남이다."
+      ]
+    }
+  ],
+  "resolvedDuplicate": "見つける / 見付ける equivalent group retains JLPT115; unreleased AV239 reference removed with originals preserved",
+  "notes": [
+    "전량 변이 대조를 최종 원본으로 재실행했다. 남은7그룹의 전체 내용은 직접 읽고 판정한 원본과 정확히 같다. 새로운 중복 후보는 없다."
+  ]
+}

@@ -1308,6 +1308,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1101600-1",
+    "wordId": "lex-jmdict-1101600",
+    "version": 1,
+    "meaning": "패턴, 유형",
+    "hint": "반복해서 나타나는 행동·상황의 일정한 형식입니다.",
+    "confusions": [
+      {
+        "japanese": "模様",
+        "distinction": "선택한 パターン는 반복되는 양상이고 模様는 무늬·모양 또는 상황을 뜻한다. 무늬·도안이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1101600-1-ex-1",
+        "version": 1,
+        "before": "この店では、雨の日に注文が増える",
+        "answer": "パターン",
+        "after": "が見られる。",
+        "reading": "パターン",
+        "translation": "이 가게에서는 비 오는 날 주문이 늘어나는 패턴이 나타난다.",
+        "translationTarget": "패턴",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598350-1",
+    "wordId": "lex-jmdict-1598350",
+    "version": 1,
+    "meaning": "절차, 수속",
+    "hint": "신청·변경 등을 마치기 위해 정해진 처리를 순서대로 합니다.",
+    "confusions": [
+      {
+        "japanese": "手順",
+        "distinction": "手続き는 공식 처리 절차·수속이고 手順는 작업 순서 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598350-1-ex-1",
+        "version": 1,
+        "before": "住所を変えたら、銀行でも変更の",
+        "answer": "手続き",
+        "after": "が必要だ。",
+        "reading": "てつづき",
+        "translation": "주소를 바꾸면 은행에서도 변경 수속이 필요하다.",
+        "translationTarget": "수속",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1126980-1",
+    "wordId": "lex-jmdict-1126980",
+    "version": 1,
+    "meaning": "마이너스·음수",
+    "hint": "수에서 영보다 작거나 부족한 쪽을 나타내는 말",
+    "confusions": [
+      {
+        "japanese": "プラス",
+        "distinction": "영보다 작거나 줄어드는 쪽과 더해지는 쪽을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1126980-1-ex-1",
+        "version": 1,
+        "before": "明日の朝は、",
+        "answer": "マイナス",
+        "after": "五度まで冷え込むそうです。",
+        "reading": "マイナス",
+        "translation": "내일 아침은 영하 오 도까지 추워진다고 합니다.",
+        "translationTarget": "영하",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440600-1",
+    "wordId": "lex-jmdict-1440600",
+    "version": 1,
+    "meaning": "전개",
+    "hint": "사건·이야기·상황이 다음 단계로 펼쳐지는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "結末",
+        "distinction": "선택한 展開는 상황이 펼쳐지는 과정이고 結末는 마지막 결과이다. 사업 확대·수학적 전개 등에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440600-1-ex-1",
+        "version": 1,
+        "before": "予想外の",
+        "answer": "展開",
+        "after": "に、ドラマを見ていた家族が声を上げた。",
+        "reading": "てんかい",
+        "translation": "예상 밖의 전개에 드라마를 보던 가족들이 소리를 냈다.",
+        "translationTarget": "전개",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1271970-1",
+    "wordId": "lex-jmdict-1271970",
+    "version": 1,
+    "meaning": "교차",
+    "hint": "둘 이상의 길이나 선이 서로 엇갈려 만나는 것",
+    "confusions": [
+      {
+        "japanese": "並行",
+        "distinction": "서로 만나는 관계와 같은 방향으로 나란히 가는 관계를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1271970-1-ex-1",
+        "version": 1,
+        "before": "地図を見ると、この先で二本の道が",
+        "answer": "交差",
+        "after": "しています。",
+        "reading": "こうさ",
+        "translation": "지도를 보니 이 앞에서 두 길이 교차하고 있습니다.",
+        "translationTarget": "교차",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1534280-1",
+    "wordId": "lex-jmdict-1534280",
+    "version": 1,
+    "meaning": "맹점",
+    "hint": "생각·검토 과정에서 미처 알아차리지 못한 빈틈입니다.",
+    "confusions": [
+      {
+        "japanese": "要点",
+        "distinction": "선택한 盲点는 간과한 빈틈이고 要点는 중요한 핵심이다. 시각 기관의 맹점이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1534280-1-ex-1",
+        "version": 1,
+        "before": "第三者の指摘で、計画の",
+        "answer": "盲点",
+        "after": "に気づいた。",
+        "reading": "もうてん",
+        "translation": "제삼자의 지적으로 계획의 맹점을 알아차렸다.",
+        "translationTarget": "맹점",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1419530-1",
+    "wordId": "lex-jmdict-1419530",
+    "version": 1,
+    "meaning": "탄력",
+    "hint": "눌리거나 늘어난 뒤 원래 모습으로 되돌아가려는 힘입니다.",
+    "confusions": [
+      {
+        "japanese": "柔軟",
+        "distinction": "선택한 弾力는 원상으로 돌아가는 힘이고 柔軟는 부드럽게 잘 휘어짐이다. 유연한 운영·대응을 뜻하기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1419530-1-ex-1",
+        "version": 1,
+        "before": "この靴底には",
+        "answer": "弾力",
+        "after": "があり、長く歩いても疲れにくい。",
+        "reading": "だんりょく",
+        "translation": "이 신발 밑창에는 탄력이 있어 오래 걸어도 쉽게 피곤해지지 않는다.",
+        "translationTarget": "탄력",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531870-1",
+    "wordId": "lex-jmdict-1531870",
+    "version": 1,
+    "meaning": "명예",
+    "hint": "좋은 평가를 받아 존중받는 가치·평판입니다.",
+    "confusions": [
+      {
+        "japanese": "有名",
+        "distinction": "名誉는 존중받는 명예이고 有名는 좋고 나쁨에 관계없이 널리 알려짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531870-1-ex-1",
+        "version": 1,
+        "before": "国の代表に選ばれることは、大きな",
+        "answer": "名誉",
+        "after": "だと感じた。",
+        "reading": "めいよ",
+        "translation": "국가 대표로 뽑히는 것은 큰 명예라고 느꼈다.",
+        "translationTarget": "명예",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1376060-1",
+    "wordId": "lex-jmdict-1376060",
+    "version": 1,
+    "meaning": "정당",
+    "hint": "같은 정치적 목표를 가진 사람들이 만든 조직",
+    "confusions": [
+      {
+        "japanese": "政府",
+        "distinction": "정치적 목표로 모인 조직과 국가 행정을 맡는 기관을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1376060-1-ex-1",
+        "version": 1,
+        "before": "選挙の前に、各",
+        "answer": "政党",
+        "after": "の政策を読み比べた。",
+        "reading": "せいとう",
+        "translation": "선거 전에 각 정당의 정책을 읽어 비교했다.",
+        "translationTarget": "정당",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1290360-1",
+    "wordId": "lex-jmdict-1290360",
+    "version": 1,
+    "meaning": "혼합",
+    "hint": "둘 이상의 물질이나 요소를 함께 섞는 것",
+    "confusions": [
+      {
+        "japanese": "分離",
+        "distinction": "여러 요소를 섞는 것과 따로 나누는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1290360-1-ex-1",
+        "version": 1,
+        "before": "この燃料は、二種類の油を",
+        "answer": "混合",
+        "after": "して作ります。",
+        "reading": "こんごう",
+        "translation": "이 연료는 두 종류의 기름을 혼합하여 만듭니다.",
+        "translationTarget": "혼합",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350190-1",
+    "wordId": "lex-jmdict-1350190",
+    "version": 1,
+    "meaning": "삭제, 지움",
+    "hint": "기록·정보 등을 없애서 남지 않게 합니다.",
+    "confusions": [
+      {
+        "japanese": "消費",
+        "distinction": "消去는 정보·기록을 지움이고 消費는 자원 등을 사용함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350190-1-ex-1",
+        "version": 1,
+        "before": "古い連絡先を",
+        "answer": "消去",
+        "after": "する前に、必要な番号を控えた。",
+        "reading": "しょうきょ",
+        "translation": "옛 연락처를 삭제하기 전에 필요한 번호를 적어 두었다.",
+        "translationTarget": "삭제",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

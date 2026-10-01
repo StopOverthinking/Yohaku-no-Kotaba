@@ -948,6 +948,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604420-1",
+    "wordId": "lex-jmdict-1604420",
+    "version": 1,
+    "meaning": "겉모습·외관",
+    "hint": "겉에서 보고 알 수 있는 모습",
+    "confusions": [
+      {
+        "japanese": "中身",
+        "distinction": "겉으로 보이는 모습과 안에 담긴 내용을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604420-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "見かけ",
+        "after": "は古いが、この機械はまだよく動く。",
+        "reading": "みかけ",
+        "translation": "겉모습은 낡았지만 이 기계는 아직 잘 작동한다.",
+        "translationTarget": "겉모습",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1431310-1",
+    "wordId": "lex-jmdict-1431310",
+    "version": 1,
+    "meaning": "직선",
+    "hint": "휘어지지 않고 곧게 이어지는 선",
+    "confusions": [
+      {
+        "japanese": "曲線",
+        "distinction": "곧게 이어진 선과 휘어진 선을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1431310-1-ex-1",
+        "version": 1,
+        "before": "地図では、",
+        "answer": "直線",
+        "after": "に見える道も実際には坂が多い。",
+        "reading": "ちょくせん",
+        "translation": "지도에서는 직선으로 보이는 길도 실제로는 비탈이 많다.",
+        "translationTarget": "직선",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1323280-1",
+    "wordId": "lex-jmdict-1323280",
+    "version": 1,
+    "meaning": "차륜·바퀴",
+    "hint": "차량 아래에서 회전하여 이동을 돕는 둥근 부품",
+    "confusions": [
+      {
+        "japanese": "歯車",
+        "distinction": "차량을 굴리는 바퀴와 내부에서 맞물려 힘을 전달하는 부품을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1323280-1-ex-1",
+        "version": 1,
+        "before": "古い自転車の",
+        "answer": "車輪",
+        "after": "を外して、タイヤを交換した。",
+        "reading": "しゃりん",
+        "translation": "오래된 자전거의 바퀴를 떼어 내고 타이어를 교체했다.",
+        "translationTarget": "바퀴",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546610-1",
+    "wordId": "lex-jmdict-1546610",
+    "version": 1,
+    "meaning": "필요로 하다",
+    "hint": "일을 하는 데 시간·비용·조건 등이 필요합니다.",
+    "confusions": [
+      {
+        "japanese": "要望する",
+        "distinction": "要する는 필요로 함이고 要望する는 실현을 바라며 요청함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546610-1-ex-1",
+        "version": 1,
+        "before": "この作業には、専門的な知識を",
+        "answer": "要する",
+        "after": "。",
+        "reading": "ようする",
+        "translation": "이 작업은 전문적인 지식을 필요로 한다.",
+        "translationTarget": "필요로 한다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1537470-1",
+    "wordId": "lex-jmdict-1537470",
+    "version": 1,
+    "meaning": "야생",
+    "hint": "사람이 기르지 않고 자연에서 살아갑니다.",
+    "confusions": [
+      {
+        "japanese": "飼育",
+        "distinction": "野生는 자연에서 살아감이고 飼育는 사람이 동물을 기름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1537470-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "野生",
+        "after": "の動物には、食べ物を与えないようにしている。",
+        "reading": "やせい",
+        "translation": "야생 동물에게는 먹을 것을 주지 않도록 하고 있다.",
+        "translationTarget": "야생",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577140-1",
+    "wordId": "lex-jmdict-1577140",
+    "version": 1,
+    "meaning": "어디",
+    "hint": "위치나 장소를 알지 못해 묻는 말",
+    "confusions": [
+      {
+        "japanese": "いつ",
+        "distinction": "장소를 묻는 말과 때를 묻는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577140-1-ex-1",
+        "version": 1,
+        "before": "駅は",
+        "answer": "どこ",
+        "after": "ですか。",
+        "reading": "どこ",
+        "translation": "역은 어디입니까?",
+        "translationTarget": "어디",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

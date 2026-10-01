@@ -1584,6 +1584,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1062910-1",
+    "wordId": "lex-jmdict-1062910",
+    "version": 1,
+    "meaning": "시리즈",
+    "hint": "같은 주제나 인물로 이어지는 여러 작품의 묶음",
+    "confusions": [
+      {
+        "japanese": "単行本",
+        "distinction": "연속된 작품 묶음과 한 권으로 나온 책을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1062910-1-ex-1",
+        "version": 1,
+        "before": "この",
+        "answer": "シリーズ",
+        "after": "は、二作目から主人公が変わります。",
+        "reading": "シリーズ",
+        "translation": "이 시리즈는 두 번째 작품부터 주인공이 바뀝니다.",
+        "translationTarget": "시리즈",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273820-1",
+    "wordId": "lex-jmdict-1273820",
+    "version": 1,
+    "meaning": "공식",
+    "hint": "기관·단체가 정식으로 인정하거나 제공한 것입니다.",
+    "confusions": [
+      {
+        "japanese": "非公式",
+        "distinction": "선택한 公式는 정식으로 인정된 것이고 非公式는 정식이 아닌 것이다. 수학의 공식이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273820-1-ex-1",
+        "version": 1,
+        "before": "偽の情報を避けるため、会社の",
+        "answer": "公式",
+        "after": "サイトで確認した。",
+        "reading": "こうしき",
+        "translation": "거짓 정보를 피하려고 회사의 공식 사이트에서 확인했다.",
+        "translationTarget": "공식",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397740-1",
+    "wordId": "lex-jmdict-1397740",
+    "version": 1,
+    "meaning": "소송",
+    "hint": "법원에서 법적 분쟁의 판단을 구하는 절차입니다.",
+    "confusions": [
+      {
+        "japanese": "交渉",
+        "distinction": "訴訟는 법원의 판단을 구함이고 交渉는 당사자끼리 조건·해결을 협의함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397740-1-ex-1",
+        "version": 1,
+        "before": "話し合いで解決できず、最終的に",
+        "answer": "訴訟",
+        "after": "となった。",
+        "reading": "そしょう",
+        "translation": "협의로 해결하지 못해 최종적으로 소송이 되었다.",
+        "translationTarget": "소송",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1358110-1",
+    "wordId": "lex-jmdict-1358110",
+    "version": 1,
+    "meaning": "엇갈리다, 서로 맞지 않다",
+    "hint": "둘 이상의 말·생각·내용이 일치하지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "一致する",
+        "distinction": "선택한 食い違う는 내용이 서로 맞지 않음이고 一致する는 같음이다. 맞물린 부분이 어긋나는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1358110-1-ex-1",
+        "version": 1,
+        "before": "二人の説明が",
+        "answer": "食い違って",
+        "after": "いたので、記録を確認した。",
+        "reading": "くいちがって",
+        "translation": "두 사람의 설명이 엇갈려 기록을 확인했다.",
+        "translationTarget": "엇갈려",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379740-1",
+    "wordId": "lex-jmdict-1379740",
+    "version": 1,
+    "meaning": "담다·차려 담다",
+    "hint": "음식을 그릇에 담거나 쌓아요.",
+    "confusions": [
+      {
+        "japanese": "こぼす",
+        "distinction": "음식을 그릇에 담는 것과 그릇 밖으로 흘리는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379740-1-ex-1",
+        "version": 1,
+        "before": "少食の妹には、ご飯を小さな茶碗に少しだけ",
+        "answer": "盛った",
+        "after": "。",
+        "reading": "もった",
+        "translation": "적게 먹는 여동생에게는 작은 밥그릇에 밥을 조금만 담았다.",
+        "translationTarget": "담았다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547390-1",
+    "wordId": "lex-jmdict-1547390",
+    "version": 1,
+    "meaning": "욕심이 많다",
+    "hint": "필요한 것 이상으로 많이 얻으려고 하는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "控えめ",
+        "distinction": "많이 얻으려고 하는 태도와 지나치지 않게 자제하는 태도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547390-1-ex-1",
+        "version": 1,
+        "before": "そんなに全部ほしがるなんて、",
+        "answer": "欲張り",
+        "after": "だね。",
+        "reading": "よくばり",
+        "translation": "그렇게 전부 갖고 싶어 하다니 욕심이 많네.",
+        "translationTarget": "욕심이 많네",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483920-1",
+    "wordId": "lex-jmdict-1483920",
+    "version": 1,
+    "meaning": "피부",
+    "hint": "몸의 겉을 덮어 보호하는 조직",
+    "confusions": [
+      {
+        "japanese": "筋肉",
+        "distinction": "몸 표면의 조직과 몸을 움직이는 안쪽 조직을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483920-1-ex-1",
+        "version": 1,
+        "before": "乾燥する季節には、",
+        "answer": "皮膚",
+        "after": "のかゆみが強くなる。",
+        "reading": "ひふ",
+        "translation": "건조한 계절에는 피부 가려움이 심해진다.",
+        "translationTarget": "피부",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307990-1",
+    "wordId": "lex-jmdict-1307990",
+    "version": 1,
+    "meaning": "자손·후손",
+    "hint": "한 사람이나 집안에서 뒤에 이어 태어난 사람들",
+    "confusions": [
+      {
+        "japanese": "祖先",
+        "distinction": "뒤에 태어난 세대와 앞선 세대를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307990-1-ex-1",
+        "version": 1,
+        "before": "この建物は、創業者の",
+        "answer": "子孫",
+        "after": "が今も守っている。",
+        "reading": "しそん",
+        "translation": "이 건물은 창업자의 후손이 지금도 지키고 있다.",
+        "translationTarget": "후손",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1364830-1",
+    "wordId": "lex-jmdict-1364830",
+    "version": 1,
+    "meaning": "신비",
+    "hint": "쉽게 설명·이해할 수 없는 불가사의한 성질입니다.",
+    "confusions": [
+      {
+        "japanese": "秘密",
+        "distinction": "神秘는 불가사의하고 신비로운 성질이고 秘密는 남에게 숨긴 내용이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1364830-1-ex-1",
+        "version": 1,
+        "before": "深い海には、まだ多くの",
+        "answer": "神秘",
+        "after": "が残されている。",
+        "reading": "しんぴ",
+        "translation": "깊은 바다에는 아직 많은 신비가 남아 있다.",
+        "translationTarget": "신비",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330400-1",
+    "wordId": "lex-jmdict-1330400",
+    "version": 1,
+    "meaning": "수목, 나무",
+    "hint": "땅에 자라는 목질의 식물을 통틀어 가리킵니다.",
+    "confusions": [
+      {
+        "japanese": "草花",
+        "distinction": "樹木는 나무이고 草花는 풀·꽃이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330400-1-ex-1",
+        "version": 1,
+        "before": "公園の",
+        "answer": "樹木",
+        "after": "には、名前が分かる札が付いている。",
+        "reading": "じゅもく",
+        "translation": "공원의 수목에는 이름을 알 수 있는 표찰이 달려 있다.",
+        "translationTarget": "수목",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1537270-1",
+    "wordId": "lex-jmdict-1537270",
+    "version": 1,
+    "meaning": "야외",
+    "hint": "건물 안이 아닌 바깥의 열린 공간입니다.",
+    "confusions": [
+      {
+        "japanese": "室内",
+        "distinction": "野外는 바깥의 열린 공간이고 室内는 방·건물 안이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1537270-1-ex-1",
+        "version": 1,
+        "before": "風が強くなり、",
+        "answer": "野外",
+        "after": "での演奏会は中止になった。",
+        "reading": "やがい",
+        "translation": "바람이 강해져 야외 연주회는 취소되었다.",
+        "translationTarget": "야외",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

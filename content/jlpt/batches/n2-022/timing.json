@@ -1,0 +1,48 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "practical-authored-content",
+  "parts": [
+    {
+      "index": "01",
+      "startedAt": "2026-10-01T00:14:55.936Z",
+      "draftCompletedAt": "2026-10-01T00:16:19.922Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:16:20.978Z",
+      "lastPreflightMilliseconds": 992.3501
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-10-01T00:17:05.695Z",
+      "draftCompletedAt": "2026-10-01T00:18:34.035Z",
+      "words": 24,
+      "examples": 24,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:18:35.568Z",
+      "lastPreflightMilliseconds": 1448.8267999999998
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-10-01T00:19:14.324Z",
+      "draftCompletedAt": "2026-10-01T00:20:38.481Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:20:39.797Z",
+      "lastPreflightMilliseconds": 1234.8937
+    },
+    {
+      "index": "04",
+      "startedAt": "2026-10-01T00:21:05.820Z",
+      "draftCompletedAt": "2026-10-01T00:22:49.848Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:22:50.973Z",
+      "lastPreflightMilliseconds": 1053.5477999999998
+    }
+  ],
+  "pureCompositionTime": null
+}

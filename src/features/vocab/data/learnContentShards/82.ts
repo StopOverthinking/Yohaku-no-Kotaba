@@ -1252,6 +1252,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487800-1",
+    "wordId": "lex-jmdict-1487800",
+    "version": 1,
+    "meaning": "필기",
+    "hint": "내용을 글로 적어 기록하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "口述",
+        "distinction": "筆記는 글로 적음이고 口述는 말로 내용을 전함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487800-1-ex-1",
+        "version": 1,
+        "before": "採用試験には、面接のほかに",
+        "answer": "筆記",
+        "after": "試験もある。",
+        "reading": "ひっき",
+        "translation": "채용 시험에는 면접 외에 필기시험도 있다.",
+        "translationTarget": "필기",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551350-1",
+    "wordId": "lex-jmdict-1551350",
+    "version": 1,
+    "meaning": "멈춰 서다",
+    "hint": "걷거나 이동하던 도중 그 자리에 멈춰 서요.",
+    "confusions": [
+      {
+        "japanese": "歩き続ける",
+        "distinction": "이동하다가 멈춰 서는 것과 계속 걷는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551350-1-ex-1",
+        "version": 1,
+        "before": "懐かしい歌が聞こえて、店の前で",
+        "answer": "立ち止まった",
+        "after": "。",
+        "reading": "たちどまった",
+        "translation": "그리운 노래가 들려서 가게 앞에 멈춰 섰다.",
+        "translationTarget": "멈춰 섰다",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505290-1",
+    "wordId": "lex-jmdict-1505290",
+    "version": 1,
+    "meaning": "문예, 문학 예술",
+    "hint": "소설·시 등 언어로 표현하는 예술입니다.",
+    "confusions": [
+      {
+        "japanese": "文献",
+        "distinction": "文芸는 문학 예술이고 文献는 연구·조사의 참고 자료이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505290-1-ex-1",
+        "version": 1,
+        "before": "大学では",
+        "answer": "文芸",
+        "after": "サークルに入り、仲間と詩を読み合った。",
+        "reading": "ぶんげい",
+        "translation": "대학에서는 문예 동아리에 들어 동료들과 서로 시를 읽었다.",
+        "translationTarget": "문예",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560710-1",
+    "wordId": "lex-jmdict-1560710",
+    "version": 1,
+    "meaning": "명랑하다",
+    "hint": "밝고 즐거운 태도로 사람들을 편하게 해요.",
+    "confusions": [
+      {
+        "japanese": "陰気",
+        "distinction": "밝고 즐거운 성격과 어둡고 침울한 성격을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560710-1-ex-1",
+        "version": 1,
+        "before": "彼女はいつも",
+        "answer": "朗らか",
+        "after": "で、初対面の人ともすぐに話せる。",
+        "reading": "ほがらか",
+        "translation": "그녀는 언제나 명랑해서 처음 만난 사람과도 금방 이야기할 수 있다.",
+        "translationTarget": "명랑해서",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1511260-1",
+    "wordId": "lex-jmdict-1511260",
+    "version": 1,
+    "meaning": "변천",
+    "hint": "시간에 따라 모습·상태가 옮겨 달라지는 과정입니다.",
+    "confusions": [
+      {
+        "japanese": "変動",
+        "distinction": "変遷는 시대에 따른 변화의 흐름이고 変動는 수치·상태의 오르내림·변화에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1511260-1-ex-1",
+        "version": 1,
+        "before": "展示では、百年間の街並みの",
+        "answer": "変遷",
+        "after": "を写真で紹介している。",
+        "reading": "へんせん",
+        "translation": "전시에서는 100년간 거리 모습의 변천을 사진으로 소개하고 있다.",
+        "translationTarget": "변천",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504510-1",
+    "wordId": "lex-jmdict-1504510",
+    "version": 1,
+    "meaning": "분열",
+    "hint": "하나였던 집단·개체가 둘 이상으로 갈라집니다.",
+    "confusions": [
+      {
+        "japanese": "分離",
+        "distinction": "分裂는 하나가 갈라져 나뉨이고 分離는 붙거나 섞인 것을 따로 떼어 냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504510-1-ex-1",
+        "version": 1,
+        "before": "方針の違いによって、組織が二つに",
+        "answer": "分裂",
+        "after": "した。",
+        "reading": "ぶんれつ",
+        "translation": "방침 차이로 조직이 둘로 분열했다.",
+        "translationTarget": "분열",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561850-1",
+    "wordId": "lex-jmdict-1561850",
+    "version": 1,
+    "meaning": "논리",
+    "hint": "생각·주장이 이치에 맞게 연결되는 구조입니다.",
+    "confusions": [
+      {
+        "japanese": "倫理",
+        "distinction": "論理는 생각·주장의 연결 원리이고 倫理는 올바른 행동의 도덕 기준이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561850-1-ex-1",
+        "version": 1,
+        "before": "結論には賛成だが、説明の",
+        "answer": "論理",
+        "after": "には飛躍がある。",
+        "reading": "ろんり",
+        "translation": "결론에는 찬성하지만 설명의 논리에는 비약이 있다.",
+        "translationTarget": "논리",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1540950-1",
+    "wordId": "lex-jmdict-1540950",
+    "version": 1,
+    "meaning": "가지고 있다, 보유하다",
+    "hint": "능력·자격·권리 등을 갖고 있습니다.",
+    "confusions": [
+      {
+        "japanese": "所有する",
+        "distinction": "有する는 성질·능력·권리도 가진다는 격식 표현이고 所有する는 자기 소유로 가짐에 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1540950-1-ex-1",
+        "version": 1,
+        "before": "この機関は、独自に調査を行う権限を",
+        "answer": "有する",
+        "after": "。",
+        "reading": "ゆうする",
+        "translation": "이 기관은 독자적으로 조사할 권한을 가지고 있다.",
+        "translationTarget": "가지고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1397710-1",
+    "wordId": "lex-jmdict-1397710",
+    "version": 1,
+    "meaning": "호소, 소송 제기",
+    "hint": "어려움·주장을 다른 사람·기관에 밝혀 해결을 구합니다.",
+    "confusions": [
+      {
+        "japanese": "訴訟",
+        "distinction": "선택한 訴え는 호소·주장을 알림이고 訴訟는 법원에서 판단을 구하는 절차이다. 소송 제기의 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1397710-1-ex-1",
+        "version": 1,
+        "before": "住民の",
+        "answer": "訴え",
+        "after": "を受けて、道路の安全対策が始まった。",
+        "reading": "うったえ",
+        "translation": "주민의 호소를 받아 도로 안전 대책이 시작되었다.",
+        "translationTarget": "호소",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1288810-1",
+    "wordId": "lex-jmdict-1288810",
+    "version": 1,
+    "meaning": "여기, 이곳",
+    "hint": "말하는 사람이 있는 쪽의 가까운 장소를 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "これ",
+        "distinction": "가까운 장소를 가리키는 말과 가까운 물건을 가리키는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1288810-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "ここ",
+        "after": "から先は、車で入れません。",
+        "reading": "ここ",
+        "translation": "여기서부터는 차로 들어갈 수 없습니다.",
+        "translationTarget": "여기",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

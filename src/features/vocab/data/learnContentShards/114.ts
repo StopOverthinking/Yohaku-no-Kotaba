@@ -1676,6 +1676,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512210-1",
+    "wordId": "lex-jmdict-1512210",
+    "version": 1,
+    "meaning": "변제, 빚 갚기",
+    "hint": "빌린 돈을 갚는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "返還",
+        "distinction": "返済는 빚을 갚음이고 返還는 맡거나 가진 물건·권리 등을 돌려줌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512210-1-ex-1",
+        "version": 1,
+        "before": "借入金の",
+        "answer": "返済",
+        "after": "が終わり、毎月の負担が軽くなった。",
+        "reading": "へんさい",
+        "translation": "대출금 변제가 끝나 매달 부담이 줄었다.",
+        "translationTarget": "변제",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504370-1",
+    "wordId": "lex-jmdict-1504370",
+    "version": 1,
+    "meaning": "분리",
+    "hint": "붙어 있거나 섞인 것을 나누어 따로 떼어 놓습니다.",
+    "confusions": [
+      {
+        "japanese": "結合",
+        "distinction": "分離는 따로 나눔이고 結合는 합쳐 붙임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504370-1-ex-1",
+        "version": 1,
+        "before": "工場では、油と水を",
+        "answer": "分離",
+        "after": "してから排水を処理する。",
+        "reading": "ぶんり",
+        "translation": "공장에서는 기름과 물을 분리한 뒤 폐수를 처리한다.",
+        "translationTarget": "분리",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1440980-1",
+    "wordId": "lex-jmdict-1440980",
+    "version": 1,
+    "meaning": "굴리다",
+    "hint": "둥근 물체가 돌면서 이동하게 해요.",
+    "confusions": [
+      {
+        "japanese": "転がる",
+        "distinction": "물체를 굴리는 행동과 물체가 굴러가는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1440980-1-ex-1",
+        "version": 1,
+        "before": "手でボールを",
+        "answer": "転がして",
+        "after": "、赤ちゃんの近くへ送った。",
+        "reading": "ころがして",
+        "translation": "손으로 공을 굴려서 아기 가까이로 보냈다.",
+        "translationTarget": "굴려서",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501580-1",
+    "wordId": "lex-jmdict-1501580",
+    "version": 1,
+    "meaning": "납입하다",
+    "hint": "정해진 돈을 지정된 계좌나 기관에 넣어 내요.",
+    "confusions": [
+      {
+        "japanese": "払い戻す",
+        "distinction": "대금을 지정한 곳에 내는 것과 이미 낸 돈을 돌려주는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501580-1-ex-1",
+        "version": 1,
+        "before": "受験料は、金曜日までに指定の口座へ",
+        "answer": "払い込んで",
+        "after": "ください。",
+        "reading": "はらいこんで",
+        "translation": "응시료는 금요일까지 지정 계좌로 납입해 주세요.",
+        "translationTarget": "납입해",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436840-1",
+    "wordId": "lex-jmdict-1436840",
+    "version": 1,
+    "meaning": "못",
+    "hint": "물건을 고정하려고 두드려 박는 끝이 뾰족한 금속 막대",
+    "confusions": [
+      {
+        "japanese": "ねじ",
+        "distinction": "두드려 박는 고정 도구와 돌려 끼우는 고정 도구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436840-1-ex-1",
+        "version": 1,
+        "before": "板から",
+        "answer": "釘",
+        "after": "が出ているので、触らないでください。",
+        "reading": "くぎ",
+        "translation": "판자에서 못이 나와 있으므로 만지지 마세요.",
+        "translationTarget": "못",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320280-1",
+    "wordId": "lex-jmdict-1320280",
+    "version": 1,
+    "meaning": "질투",
+    "hint": "다른 사람의 성공·애정 등을 보고 부럽거나 미워하는 마음입니다.",
+    "confusions": [
+      {
+        "japanese": "憧れ",
+        "distinction": "嫉妬는 부러움·미움이 섞인 질투이고 憧れ는 동경하는 마음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320280-1-ex-1",
+        "version": 1,
+        "before": "友人の成功に",
+        "answer": "嫉妬",
+        "after": "する自分が、少し恥ずかしかった。",
+        "reading": "しっと",
+        "translation": "친구의 성공을 질투하는 자신이 조금 부끄러웠다.",
+        "translationTarget": "질투",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1334340-1",
+    "wordId": "lex-jmdict-1334340",
+    "version": 1,
+    "meaning": "충실함, 알찬 상태",
+    "hint": "내용·조건이 충분하여 만족스럽습니다.",
+    "confusions": [
+      {
+        "japanese": "空虚",
+        "distinction": "充実는 내용이 알차고 충분함이고 空虚는 속이 비어 허전함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1334340-1-ex-1",
+        "version": 1,
+        "before": "毎日新しいことを学び、研修は",
+        "answer": "充実",
+        "after": "した時間になった。",
+        "reading": "じゅうじつ",
+        "translation": "매일 새로운 것을 배워 연수는 알찬 시간이 되었다.",
+        "translationTarget": "알찬",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254770-1",
+    "wordId": "lex-jmdict-1254770",
+    "version": 1,
+    "meaning": "결합",
+    "hint": "둘 이상의 부분·요소를 연결하여 하나로 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "結成",
+        "distinction": "結合는 요소를 연결해 합침이고 結成는 사람들이 조직을 만듦이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254770-1-ex-1",
+        "version": 1,
+        "before": "二つの部品を",
+        "answer": "結合",
+        "after": "すると、装置全体が動き出した。",
+        "reading": "けつごう",
+        "translation": "부품 두 개를 결합하자 장치 전체가 움직이기 시작했다.",
+        "translationTarget": "결합",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365070-1",
+    "wordId": "lex-jmdict-1365070",
+    "version": 1,
+    "meaning": "친숙하게 접하다, 즐기다",
+    "hint": "대상을 가까이 느끼며 자주 접하고 좋아합니다.",
+    "confusions": [
+      {
+        "japanese": "親切にする",
+        "distinction": "親しむ는 대상에 친숙해지고 즐김이고 親切にする는 상대를 배려하여 친절하게 대함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365070-1-ex-1",
+        "version": 1,
+        "before": "幼い頃から自然に",
+        "answer": "親しんで",
+        "after": "きたので、虫の名前に詳しい。",
+        "reading": "したしんで",
+        "translation": "어릴 때부터 자연을 친숙하게 접해 와서 곤충 이름을 잘 안다.",
+        "translationTarget": "친숙하게 접해",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

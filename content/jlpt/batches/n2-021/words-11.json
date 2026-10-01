@@ -1,0 +1,74 @@
+[
+  {
+    "japanese": "溶く",
+    "reading": "とく",
+    "type": "verb",
+    "meaning": "풀다·액체에 섞다",
+    "hint": "가루나 재료를 액체에 섞어 고르게 풀어요.",
+    "confusion": "混ぜる",
+    "distinction": "가루를 액체에 풀어 고르게 만드는 것과 넓은 의미의 섞기를 구별한다.",
+    "dictionaryId": "jmdict-1546050",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "略す",
+    "reading": "りゃくす",
+    "type": "verb",
+    "meaning": "줄여 쓰다·줄이다",
+    "hint": "긴 이름이나 내용을 일부 생략해 짧게 만들어요.",
+    "confusion": "詳しく述べる",
+    "distinction": "말이나 이름을 짧게 줄이는 것과 자세히 설명하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1551960",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "朗らか",
+    "reading": "ほがらか",
+    "type": "na_adj",
+    "meaning": "명랑하다",
+    "hint": "밝고 즐거운 태도로 사람들을 편하게 해요.",
+    "confusion": "陰気",
+    "distinction": "밝고 즐거운 성격과 어둡고 침울한 성격을 구별한다.",
+    "dictionaryId": "jmdict-1560710",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "逸れる",
+    "reading": "それる",
+    "type": "verb",
+    "meaning": "벗어나다·빗나가다",
+    "hint": "원래 가던 방향이나 예정된 범위에서 다른 쪽으로 가요.",
+    "confusion": "沿う",
+    "distinction": "방향이나 주제에서 벗어나는 것과 그대로 따르는 것을 구별한다.",
+    "dictionaryId": "jmdict-1576360",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "鈍い",
+    "reading": "にぶい",
+    "type": "i_adj",
+    "meaning": "무디다",
+    "hint": "칼 등의 날이 날카롭지 않아 잘 베지 못하는 상태예요.",
+    "confusion": "鋭い",
+    "distinction": "날이 잘 들지 않는 상태와 날카로운 상태를 구별한다.",
+    "dictionaryId": "jmdict-1582430",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "区切る",
+    "reading": "くぎる",
+    "type": "verb",
+    "meaning": "구분하다·나누다",
+    "hint": "이어진 것을 적당한 단위나 경계로 나누어요.",
+    "confusion": "繋ぐ",
+    "distinction": "단위별로 나누는 것과 이어 붙이는 것을 구별한다.",
+    "dictionaryId": "jmdict-1592130",
+    "level": "N2",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  }
+]

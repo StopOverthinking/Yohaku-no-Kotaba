@@ -1,0 +1,26 @@
+[
+  {
+    "japanese": "用語",
+    "reading": "ようご",
+    "type": "noun",
+    "meaning": "용어",
+    "hint": "특정 분야·상황에서 사용하는 말입니다.",
+    "confusion": "単語",
+    "distinction": "用語는 분야·상황에 사용하는 표현이고 単語는 어휘 단위 일반이다.",
+    "dictionaryId": "jmdict-1546270",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "編集",
+    "reading": "へんしゅう",
+    "type": "noun",
+    "meaning": "편집",
+    "hint": "글·영상 등의 자료를 골라 순서·형태를 정리합니다.",
+    "confusion": "執筆",
+    "distinction": "編集는 자료를 정리해 구성함이고 執筆는 글을 씀이다.",
+    "dictionaryId": "jmdict-1603240",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  }
+]

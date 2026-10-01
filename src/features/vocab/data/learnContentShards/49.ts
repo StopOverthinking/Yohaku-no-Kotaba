@@ -1648,6 +1648,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1408530-1",
+    "wordId": "lex-jmdict-1408530",
+    "version": 1,
+    "meaning": "타결",
+    "hint": "대립하던 당사자가 조건에 합의하여 협상을 마치는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "妥協",
+        "distinction": "妥結는 협상의 최종 합의이고 妥協는 서로 양보해 접점을 찾음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1408530-1-ex-1",
+        "version": 1,
+        "before": "賃金をめぐる交渉は、三日目にようやく",
+        "answer": "妥結",
+        "after": "した。",
+        "reading": "だけつ",
+        "translation": "임금을 둘러싼 협상은 사흘째에야 겨우 타결되었다.",
+        "translationTarget": "타결",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549350-1",
+    "wordId": "lex-jmdict-1549350",
+    "version": 1,
+    "meaning": "란, 기입 칸",
+    "hint": "표·서류에서 내용을 적도록 구분한 부분입니다.",
+    "confusions": [
+      {
+        "japanese": "行",
+        "distinction": "선택한 欄는 서류·표의 구분 칸이고 行는 글·표의 가로줄이다. 신문의 고정 지면도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549350-1-ex-1",
+        "version": 1,
+        "before": "連絡先の",
+        "answer": "欄",
+        "after": "には、昼間つながる電話番号を記入した。",
+        "reading": "らん",
+        "translation": "연락처 칸에는 낮에 연결되는 전화번호를 적었다.",
+        "translationTarget": "칸",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487250-1",
+    "wordId": "lex-jmdict-1487250",
+    "version": 1,
+    "meaning": "필적",
+    "hint": "능력·가치 등이 다른 대상과 맞먹습니다.",
+    "confusions": [
+      {
+        "japanese": "劣る",
+        "distinction": "匹敵는 맞먹는 수준임이고 劣る는 더 낮은 수준임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487250-1-ex-1",
+        "version": 1,
+        "before": "小さな町の祭りだが、熱気は大都市のイベントに",
+        "answer": "匹敵",
+        "after": "する。",
+        "reading": "ひってき",
+        "translation": "작은 마을 축제지만 열기는 대도시 행사에 필적한다.",
+        "translationTarget": "필적",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545840-1",
+    "wordId": "lex-jmdict-1545840",
+    "version": 1,
+    "meaning": "양상",
+    "hint": "상황이 드러내는 전체적인 모습·성격입니다.",
+    "confusions": [
+      {
+        "japanese": "様式",
+        "distinction": "様相는 상황의 모습이고 様式는 정해진 형식·양식이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545840-1-ex-1",
+        "version": 1,
+        "before": "参加者が増えるにつれ、議論は複雑な",
+        "answer": "様相",
+        "after": "を帯びてきた。",
+        "reading": "ようそう",
+        "translation": "참가자가 늘수록 논의는 복잡한 양상을 띠기 시작했다.",
+        "translationTarget": "양상",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547190-1",
+    "wordId": "lex-jmdict-1547190",
+    "version": 1,
+    "meaning": "양성",
+    "hint": "능력·기술을 가르쳐 필요한 인재를 길러냅니다.",
+    "confusions": [
+      {
+        "japanese": "育成",
+        "distinction": "養成는 특정 직업·능력의 인재를 길러냄에 흔하고 育成는 성장 지원 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547190-1-ex-1",
+        "version": 1,
+        "before": "地域の案内を担う人材を",
+        "answer": "養成",
+        "after": "する講座が始まった。",
+        "reading": "ようせい",
+        "translation": "지역 안내를 맡을 인재를 양성하는 강좌가 시작되었다.",
+        "translationTarget": "양성",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611130-1",
+    "wordId": "lex-jmdict-1611130",
+    "version": 1,
+    "meaning": "남김없이",
+    "hint": "하나도 남겨 두지 않고 모두 처리하는 모습",
+    "confusions": [
+      {
+        "japanese": "一部だけ",
+        "distinction": "전부 처리하는 것과 일부만 처리하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611130-1-ex-1",
+        "version": 1,
+        "before": "机に置いた書類を",
+        "answer": "残らず",
+        "after": "確認してから帰った。",
+        "reading": "のこらず",
+        "translation": "책상 위에 둔 서류를 남김없이 확인한 뒤 돌아갔다.",
+        "translationTarget": "남김없이",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1380540-1",
+    "wordId": "lex-jmdict-1380540",
+    "version": 1,
+    "meaning": "성명, 공식 입장 발표",
+    "hint": "단체·기관이 입장을 공식적으로 밝힌 말·문서입니다.",
+    "confusions": [
+      {
+        "japanese": "説明",
+        "distinction": "声明는 공식적인 입장 표명이고 説明는 이해를 돕는 설명 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1380540-1-ex-1",
+        "version": 1,
+        "before": "団体は、暴力に反対する",
+        "answer": "声明",
+        "after": "を発表した。",
+        "reading": "せいめい",
+        "translation": "단체는 폭력에 반대하는 성명을 발표했다.",
+        "translationTarget": "성명",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,50 @@
+[
+  {
+    "japanese": "録音",
+    "reading": "ろくおん",
+    "type": "noun",
+    "meaning": "녹음",
+    "hint": "소리를 나중에 다시 들을 수 있게 기록하는 일",
+    "confusion": "録画",
+    "distinction": "소리를 기록하는 것과 영상을 기록하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1561590",
+    "level": "N4",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "落し物",
+    "reading": "おとしもの",
+    "type": "noun",
+    "meaning": "분실물",
+    "hint": "떨어뜨리거나 두고 가서 주인에게서 떨어진 물건",
+    "confusion": "忘れ物",
+    "distinction": "잃어버린 물건과 가져와야 했는데 두고 온 물건의 초점을 구별한다.",
+    "dictionaryId": "jmdict-1589250",
+    "level": "N4",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "申し訳ない",
+    "reading": "もうしわけない",
+    "type": "i_adj",
+    "meaning": "죄송하다",
+    "hint": "잘못이나 폐를 끼친 일을 미안하게 생각해요.",
+    "confusion": "ありがたい",
+    "distinction": "폐를 끼쳐 미안한 마음과 도움을 받아 고마운 마음을 구별한다.",
+    "dictionaryId": "jmdict-1612040",
+    "level": "N4",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "日にち",
+    "reading": "ひにち",
+    "type": "noun",
+    "meaning": "날짜",
+    "hint": "어떤 일이 예정되거나 일어나는 달력상의 날",
+    "confusion": "時刻",
+    "distinction": "달력상의 날과 하루 중 특정 시간을 구별한다.",
+    "dictionaryId": "jmdict-1611370",
+    "level": "N4",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  }
+]

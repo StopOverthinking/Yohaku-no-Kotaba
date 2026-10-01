@@ -78,12 +78,12 @@
   },
   {
     "wordId": "AbsoluteVerb_31",
-    "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+    "sourceHash": "d7f90a279002ee6f1df5f017c88b3df7493927a4a8dd46d563ca4ec521fe8596",
     "level": "N5",
     "dictionaryId": "jmdict-1591110",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “듣다, 묻다” 및 1개 sense를 대조했다. listen와 옛이야기·설명 듣기 예문이 일치한다. 질문·냄새 맡기 등은 현재 sense와 구별한다.",
+    "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+    "meaningReview": "기존 청취 용법 그대로 두고 질문 용법 추가. 역 위치를 점원에게 묻는 장면은 기존 尋ねる와 중복되어 친구의 생일 선물 취향을 묻는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -111,12 +111,12 @@
   },
   {
     "wordId": "AbsoluteVerb_34",
-    "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+    "sourceHash": "ecc981014e34f71e3660083ac3875dd2806c887d671d642ac7d63ad07b40c2c5",
     "level": "N5",
     "dictionaryId": "jmdict-1169870",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “마시다, 약을 먹다” 및 1개 sense를 대조했다. drink와 물·뜨거운 차 예문이 일치한다. 복약은 사전의 같은 기본 섭취 의미에 있으나 현재 예문은 음료이다.",
+    "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+    "meaningReview": "음료를 마시는 기존 용법을 그대로 두고 약 복용 추가. 식후 약 복용은 必ず와 겹쳐 큰 알약을 물 없이 먹기 어렵다는 문맥으로 수정. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -234,29 +234,25 @@
   },
   {
     "wordId": "AbsoluteVerb_49",
-    "sourceHash": "93fe1c2703e2b1610264af405b2f3dcbca529345b05efa3db57535baa7c4e0db",
-    "level": "N4",
+    "sourceHash": "acdcd68a59418b583db124d65fe8b4c9b3a767b284019bb2c9277b758ee99d45",
+    "level": "N5",
     "dictionaryId": "jmdict-1589350",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
-    "meaningReview": "기존 뜻 “(주관적·의지적으로) 생각하다” 및 1개 sense를 대조했다. think·believe와 색이 어울림·제작 난도 예상 예문이 일치한다. 주관적이라는 설명을 객관적 생각과 절대 분리하는 규칙으로 오해하지 않도록 뜻 설명 검토 후보이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
-    "issues": [
-      "思う·考える를 주관·객관 또는 의지 여부로 절대 구분하는 뜻 설명은 완화할 후보이다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_50",
-    "sourceHash": "420d2b9db5bc3fe568f438ff3cd2c13963a2d9d603fc55910bd5504d1954e759",
+    "sourceHash": "a8741aab1a86a2737b34f982bc40dcfdf84000389239979510cbcc5d7df88165",
     "level": "N4",
     "dictionaryId": "jmdict-1281020",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
-    "meaningReview": "기존 뜻 “(이성적·객관적으로) 생각하다” 및 1개 sense를 대조했다. think over·devise와 답변 숙고·수업 진행 구상 예문이 일치한다. 이성적·객관적이라는 뜻은 思う와의 절대적인 경계가 아니므로 설명 완화를 제안한다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
-    "issues": [
-      "考える도 주관적인 판단에 쓰이므로 이성적·객관적 한정 설명을 완화할 후보이다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_51",

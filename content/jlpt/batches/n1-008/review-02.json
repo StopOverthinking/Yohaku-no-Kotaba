@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "ce7649e48162daf2b6568a1e3692d1d7490da8360ea7cabbdcfae3fcc9a6061d",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial review; all words, readings, types, levels, Korean hints/contrasts, Japanese examples and translations read.",
+    "reviewedAt": "2026-09-30T23:52:00.393Z",
+    "notes": [
+      "정치·사회·재정·논리의 실용 독해 용법25를 전체 대조했다. 범위가 겹치는 補償/賠償는 손실 보상과 책임 있는 손해 배상으로 설명하되 제도별 차이를 유지한다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1397820",
+      "baf89c96e0d2b7fe72bcd60d95bd49712e00b57c1d7cb07139ba59a82cbf96bc"
+    ],
+    [
+      "lex-jmdict-1546780",
+      "10e1b967795eb26aeae492dd5da99480abadf1c20e923cb967d694b9087f5e85"
+    ],
+    [
+      "lex-jmdict-1374800",
+      "70972a53a563123eba96426b1546be04702f9b6aa4744746dd5a9e21055a0e2f"
+    ],
+    [
+      "lex-jmdict-1505060",
+      "d1d55b40a0fa150ccf783573af55a16140f52e328ef411ccf9b81c2315d9f0e2"
+    ],
+    [
+      "lex-jmdict-1512830",
+      "ea37cc7cc4158185cd889f64642fd08c8e37b4b61249a7ec6bf64921a7373725"
+    ],
+    [
+      "lex-jmdict-1360360",
+      "061434ed4360388ff530a39d47af4b909d6f7e78d1298ab7fd366f5ed577dc03"
+    ],
+    [
+      "lex-jmdict-1360380",
+      "2ada648a7519185227ee1a611ebbb42e9814aeb2cf80a3873d12fc56ba659f4d"
+    ],
+    [
+      "lex-jmdict-1579510",
+      "c858b441b5b1800190f2242a13eced467e354ffee22fbd93154d38f5903c04e3"
+    ],
+    [
+      "lex-jmdict-1428110",
+      "c3072542143df0a877aa26f0cdb3890f72b8f6459ff987c7ee6d01f55a8a2dc2"
+    ],
+    [
+      "lex-jmdict-1449760",
+      "92b57d06ddcf47b6e11c612c294f47fdfca9565a1226e9e22f5f1f633f0976a1"
+    ],
+    [
+      "lex-jmdict-1330500",
+      "a35ade7e486cb30ae644f27628d1efbef7d2996aaef5ab491ba131dd039f079e"
+    ],
+    [
+      "lex-jmdict-1542600",
+      "f83807a73047416986b7b89a84b40f230c5becb46c9664f9d04171b2af7bd0ae"
+    ],
+    [
+      "lex-jmdict-1549580",
+      "355d5e7b78f86f576e281610152493796d87087939ea1142d8fe969eab187610"
+    ],
+    [
+      "lex-jmdict-1312750",
+      "c6ecc5d1a8a337a95b03fd25905cfb095a39c38880b4950c5ee3e2b97fa0e760"
+    ],
+    [
+      "lex-jmdict-1514650",
+      "7dfc0c3760425cf9dc389630b4f13ac592ff2f087398ead830c5a48fcf801e4a"
+    ],
+    [
+      "lex-jmdict-1474110",
+      "b56edb4969a80379451d2727e204cb8db90afccf99a489a25386ec39911856d5"
+    ],
+    [
+      "lex-jmdict-1316840",
+      "3b34c0cedfa93fb7fb50ec2c73926bd471422cfc6500c72c41af398a46d8118b"
+    ],
+    [
+      "lex-jmdict-1422520",
+      "32337ec841b1ca8c6d9815e0d2d40ec493ce6716fed01748868a8a31b9bf7c06"
+    ],
+    [
+      "lex-jmdict-1533660",
+      "ce02e7050edf2f3d1dbecc725cb8c8d9e610abdfa12bb537fca2b5e0a20e3684"
+    ],
+    [
+      "lex-jmdict-1547270",
+      "6631b30d433e902683997f98175fa9d9adce5950ed512ea4b0804063c131fecc"
+    ],
+    [
+      "lex-jmdict-1328990",
+      "3ae1dad5b2fe8419ba8ba8deadbb9206d38bcfb7a8fbb7674e90ea1db06b744c"
+    ],
+    [
+      "lex-jmdict-1599900",
+      "6de7ec2741ff807e1b19d2e9412e6cf6572bc4e70a0fb00e40fa6c75bf48ed05"
+    ],
+    [
+      "lex-jmdict-1596510",
+      "3dec17fe5a0787e552e0f24536a45bfa2e9facde7cb5a68fedb354791547c6f7"
+    ],
+    [
+      "lex-jmdict-1605320",
+      "9afa56e4140ebee862e50a1af164a4a2260cf5a4400aec609d6fa261dae02d93"
+    ],
+    [
+      "lex-jmdict-1437710",
+      "3b8046ae302dc8524e5de20341eb9a0ec27b750f291621ec34920831302876b0"
+    ]
+  ]
+}

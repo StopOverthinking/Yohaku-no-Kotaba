@@ -1,0 +1,460 @@
+{
+  "scope": "exact-twelve-final-basic-domain-gaps-only",
+  "note": "Twelve confirmed basic domain gaps only. All source spellings/readings checked against baseline, current source and other drafts; exact collisions empty. 良い uses valid よい dictionary ID1605820; related colloquial いい has separate ID2820690, also checked for existing collisions and explained in Korean contrast. Core common evaluation, literal face, time/frequency/degree, and truth usages are selected independently of source proposed level.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1605820",
+      "japanese": "良い",
+      "representativeReading": "よい",
+      "allDictionarySpellings": [
+        "良い",
+        "好い",
+        "善い",
+        "佳い",
+        "吉い",
+        "宜い"
+      ],
+      "allDictionaryReadings": [
+        "よい",
+        "えい"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adjective (keiyoushi)"
+        ],
+        "glosses": [
+          "good",
+          "excellent",
+          "fine",
+          "nice",
+          "pleasant",
+          "agreeable"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "好い"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [],
+      "relatedColloquialEntry": {
+        "dictionaryId": "jmdict-2820690",
+        "japanese": "いい",
+        "readings": [
+          "いい"
+        ],
+        "spellings": [],
+        "existingExactCollisions": [],
+        "notSeparateNewWord": true
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1486650",
+      "japanese": "おいしい",
+      "representativeReading": "おいしい",
+      "allDictionarySpellings": [
+        "美味しい",
+        "旨味しい"
+      ],
+      "allDictionaryReadings": [
+        "おいしい",
+        "オイシイ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adjective (keiyoushi)"
+        ],
+        "glosses": [
+          "good(-tasting)",
+          "nice",
+          "delicious",
+          "tasty"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "美味しい"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1533580",
+      "japanese": "面白い",
+      "representativeReading": "おもしろい",
+      "allDictionarySpellings": [
+        "面白い"
+      ],
+      "allDictionaryReadings": [
+        "おもしろい"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adjective (keiyoushi)"
+        ],
+        "glosses": [
+          "interesting",
+          "fascinating",
+          "intriguing",
+          "enthralling"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "面白い"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1591900",
+      "japanese": "きれい",
+      "representativeReading": "きれい",
+      "allDictionarySpellings": [
+        "綺麗",
+        "奇麗",
+        "暉麗"
+      ],
+      "allDictionaryReadings": [
+        "きれい",
+        "キレイ",
+        "きれーい"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adjectival nouns or quasi-adjectives (keiyodoshi)"
+        ],
+        "glosses": [
+          "pretty",
+          "lovely",
+          "beautiful",
+          "fair"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "奇麗"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1217730",
+      "japanese": "顔",
+      "representativeReading": "かお",
+      "allDictionarySpellings": [
+        "顔",
+        "貌",
+        "顏"
+      ],
+      "allDictionaryReadings": [
+        "かお"
+      ],
+      "leadingSense": {
+        "pos": [
+          "noun (common) (futsuumeishi)"
+        ],
+        "glosses": [
+          "face",
+          "visage",
+          "looks",
+          "(facial) features"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1188890",
+      "japanese": "いつも",
+      "representativeReading": "いつも",
+      "allDictionarySpellings": [
+        "何時も"
+      ],
+      "allDictionaryReadings": [
+        "いつも"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "always",
+          "all the time",
+          "at all times"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "何時も"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1527110",
+      "japanese": "まだ",
+      "representativeReading": "まだ",
+      "allDictionarySpellings": [
+        "未だ"
+      ],
+      "allDictionaryReadings": [
+        "まだ",
+        "いまだ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "still",
+          "as yet",
+          "only"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3",
+          "N1"
+        ],
+        "matchedForms": [
+          "未だ"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1524930",
+      "japanese": "また",
+      "representativeReading": "また",
+      "allDictionarySpellings": [
+        "又",
+        "亦",
+        "復"
+      ],
+      "allDictionaryReadings": [
+        "また"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "again",
+          "once more",
+          "once again",
+          "another time",
+          "some other time"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "又"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1430610",
+      "japanese": "すぐ",
+      "representativeReading": "すぐ",
+      "allDictionarySpellings": [
+        "直ぐ"
+      ],
+      "allDictionaryReadings": [
+        "すぐ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)",
+          "noun (common) (futsuumeishi)"
+        ],
+        "glosses": [
+          "immediately",
+          "at once",
+          "right away",
+          "directly"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "直ぐ"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1008630",
+      "japanese": "とても",
+      "representativeReading": "とても",
+      "allDictionarySpellings": [
+        "迚も"
+      ],
+      "allDictionaryReadings": [
+        "とても",
+        "とっても"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "very",
+          "awfully",
+          "exceedingly"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "迚も"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1605870",
+      "japanese": "よく",
+      "representativeReading": "よく",
+      "allDictionarySpellings": [
+        "良く",
+        "善く",
+        "能く",
+        "好く",
+        "克く"
+      ],
+      "allDictionaryReadings": [
+        "よく"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "nicely",
+          "properly",
+          "well",
+          "skillfully",
+          "skilfully"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1523060",
+      "japanese": "本当",
+      "representativeReading": "ほんとう",
+      "allDictionarySpellings": [
+        "本当",
+        "本當"
+      ],
+      "allDictionaryReadings": [
+        "ほんとう",
+        "ほんと",
+        "ホントー",
+        "ホント",
+        "ホントウ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "noun (common) (futsuumeishi)",
+          "nouns which may take the genitive case particle 'no'",
+          "adjectival nouns or quasi-adjectives (keiyodoshi)"
+        ],
+        "glosses": [
+          "truth",
+          "reality",
+          "actuality",
+          "fact"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "本当"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    }
+  ]
+}

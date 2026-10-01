@@ -1648,6 +1648,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1123520-1",
+    "wordId": "lex-jmdict-1123520",
+    "version": 1,
+    "meaning": "보너스, 상여금",
+    "hint": "정기 급여 외에 추가로 지급받는 돈입니다.",
+    "confusions": [
+      {
+        "japanese": "給料",
+        "distinction": "선택한 ボーナス는 추가 상여금이고 給料는 정기 급여이다. 추가 혜택을 뜻하기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1123520-1-ex-1",
+        "version": 1,
+        "before": "夏の",
+        "answer": "ボーナス",
+        "after": "で、壊れかけた冷蔵庫を買い替えた。",
+        "reading": "ボーナス",
+        "translation": "여름 상여금으로 고장 나려던 냉장고를 새로 샀다.",
+        "translationTarget": "상여금",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1471380-1",
+    "wordId": "lex-jmdict-1471380",
+    "version": 1,
+    "meaning": "파손",
+    "hint": "물건의 일부가 깨지거나 손상됩니다.",
+    "confusions": [
+      {
+        "japanese": "紛失",
+        "distinction": "破損는 물건의 손상이고 紛失는 물건을 잃어버림이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1471380-1-ex-1",
+        "version": 1,
+        "before": "荷物を開けると、中の花瓶が",
+        "answer": "破損",
+        "after": "していた。",
+        "reading": "はそん",
+        "translation": "짐을 열어 보니 안에 있던 꽃병이 파손되어 있었다.",
+        "translationTarget": "파손",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1567920-1",
+    "wordId": "lex-jmdict-1567920",
+    "version": 1,
+    "meaning": "애매하다, 모호하다",
+    "hint": "뜻·입장·경계 등이 분명하게 드러나지 않습니다.",
+    "confusions": [
+      {
+        "japanese": "紛らわしい",
+        "distinction": "선택한 曖昧는 불명확하고 紛らわしい는 비슷한 것과 헷갈리기 쉽다. 수상한·불미스러운 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1567920-1-ex-1",
+        "version": 1,
+        "before": "契約の条件が",
+        "answer": "曖昧",
+        "after": "だったので、詳しく説明してもらった。",
+        "reading": "あいまい",
+        "translation": "계약 조건이 모호해서 자세히 설명해 달라고 했다.",
+        "translationTarget": "모호",
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279540-1",
+    "wordId": "lex-jmdict-1279540",
+    "version": 1,
+    "meaning": "학교 건물·교사",
+    "hint": "학교에서 수업과 여러 활동에 사용하는 건물",
+    "confusions": [
+      {
+        "japanese": "校庭",
+        "distinction": "학교의 건물과 건물 밖 운동장을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279540-1-ex-1",
+        "version": 1,
+        "before": "古い",
+        "answer": "校舎",
+        "after": "の壁に、卒業生の写真が飾ってある。",
+        "reading": "こうしゃ",
+        "translation": "오래된 학교 건물 벽에 졸업생 사진이 걸려 있다.",
+        "translationTarget": "학교 건물",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554940-1",
+    "wordId": "lex-jmdict-1554940",
+    "version": 1,
+    "meaning": "힘차다",
+    "hint": "목소리나 움직임에 힘이 실려 기세가 뚜렷해요.",
+    "confusions": [
+      {
+        "japanese": "弱々しい",
+        "distinction": "힘과 기세가 뚜렷한 모습과 힘없이 약한 모습을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554940-1-ex-1",
+        "version": 1,
+        "before": "観客の",
+        "answer": "力強い",
+        "after": "拍手が、選手を励ました。",
+        "reading": "ちからづよい",
+        "translation": "관객의 힘찬 박수가 선수를 격려했다.",
+        "translationTarget": "힘찬",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505010-1",
+    "wordId": "lex-jmdict-1505010",
+    "version": 1,
+    "meaning": "뒤섞여 눈에 띄지 않다",
+    "hint": "비슷한 것 사이에 섞여 구별하기 어려워집니다.",
+    "confusions": [
+      {
+        "japanese": "混ざる",
+        "distinction": "선택한 紛れる는 섞여 눈에 띄지 않음이고 混ざる는 섞임 일반이다. 주의·괴로움이 다른 일로 흐려지는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505010-1-ex-1",
+        "version": 1,
+        "before": "大事な書類が広告に",
+        "answer": "紛れて",
+        "after": "、見つけるのに時間がかかった。",
+        "reading": "まぎれて",
+        "translation": "중요한 서류가 광고지에 뒤섞여 눈에 띄지 않아 찾는 데 시간이 걸렸다.",
+        "translationTarget": "뒤섞여 눈에 띄지 않아",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1313910-1",
+    "wordId": "lex-jmdict-1313910",
+    "version": 1,
+    "meaning": "사항",
+    "hint": "문서·논의에서 다루는 개별 내용·항목입니다.",
+    "confusions": [
+      {
+        "japanese": "事態",
+        "distinction": "事項는 다룰 내용이고 事態는 벌어진 상황이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1313910-1-ex-1",
+        "version": 1,
+        "before": "重要な",
+        "answer": "事項",
+        "after": "は、契約書の別のページにまとめてある。",
+        "reading": "じこう",
+        "translation": "중요한 사항은 계약서의 다른 페이지에 정리해 두었다.",
+        "translationTarget": "사항",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

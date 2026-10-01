@@ -1496,6 +1496,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1087100-1",
+    "wordId": "lex-jmdict-1087100",
+    "version": 1,
+    "meaning": "훈련, 트레이닝",
+    "hint": "능력·체력을 기르기 위해 반복하는 연습입니다.",
+    "confusions": [
+      {
+        "japanese": "試合",
+        "distinction": "선택한 トレーニング는 능력·체력 훈련이고 試合는 상대와 겨루는 경기이다. 직무·기술 훈련에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1087100-1-ex-1",
+        "version": 1,
+        "before": "大会を目指して、週に三回の",
+        "answer": "トレーニング",
+        "after": "を続けている。",
+        "reading": "トレーニング",
+        "translation": "대회를 목표로 주 세 번의 훈련을 계속하고 있다.",
+        "translationTarget": "훈련",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1294850-1",
+    "wordId": "lex-jmdict-1294850",
+    "version": 1,
+    "meaning": "채점",
+    "hint": "답안·경기 등을 기준에 따라 점수로 평가하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "受験",
+        "distinction": "採点는 점수를 매김이고 受験는 시험을 치름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1294850-1-ex-1",
+        "version": 1,
+        "before": "記述式の答案は、二人の教員が別々に",
+        "answer": "採点",
+        "after": "する。",
+        "reading": "さいてん",
+        "translation": "서술형 답안은 교원 두 명이 따로 채점한다.",
+        "translationTarget": "채점",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1586430-1",
+    "wordId": "lex-jmdict-1586430",
+    "version": 1,
+    "meaning": "따뜻해지다",
+    "hint": "차갑던 몸이나 물건의 온도가 올라가요.",
+    "confusions": [
+      {
+        "japanese": "冷える",
+        "distinction": "온도가 올라 따뜻해지는 것과 온도가 내려가는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1586430-1-ex-1",
+        "version": 1,
+        "before": "お風呂で体が",
+        "answer": "温まった",
+        "after": "ので、手の冷たさも消えた。",
+        "reading": "あたたまった",
+        "translation": "목욕으로 몸이 따뜻해져서 손의 차가움도 사라졌다.",
+        "translationTarget": "따뜻해져서",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455200-1",
+    "wordId": "lex-jmdict-1455200",
+    "version": 1,
+    "meaning": "장점, 좋은 특징",
+    "hint": "다른 것보다 특히 뛰어난 좋은 점입니다.",
+    "confusions": [
+      {
+        "japanese": "特徴",
+        "distinction": "特長는 좋은 점이고 特徴는 좋고 나쁨과 관계없이 구별되는 특징이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455200-1-ex-1",
+        "version": 1,
+        "before": "軽くて持ち運びやすいのが、この製品の",
+        "answer": "特長",
+        "after": "です。",
+        "reading": "とくちょう",
+        "translation": "가볍고 휴대하기 쉬운 것이 이 제품의 장점입니다.",
+        "translationTarget": "장점",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554110-1",
+    "wordId": "lex-jmdict-1554110",
+    "version": 1,
+    "meaning": "양립, 병행",
+    "hint": "두 조건·역할을 함께 성립시키고 유지합니다.",
+    "confusions": [
+      {
+        "japanese": "両方",
+        "distinction": "両立는 두 역할·조건이 함께 성립함이고 両方는 두 쪽 모두를 가리킨다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554110-1-ex-1",
+        "version": 1,
+        "before": "仕事と介護の",
+        "answer": "両立",
+        "after": "を支える制度が必要だ。",
+        "reading": "りょうりつ",
+        "translation": "일과 간병의 병행를 지원하는 제도가 필요하다.",
+        "translationTarget": "병행",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1340180-1",
+    "wordId": "lex-jmdict-1340180",
+    "version": 1,
+    "meaning": "지출, 돈이 듦",
+    "hint": "어떤 일에 돈을 쓰는 것입니다.",
+    "confusions": [
+      {
+        "japanese": "収入",
+        "distinction": "出費는 돈을 씀이고 収入는 돈이 들어옴이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1340180-1-ex-1",
+        "version": 1,
+        "before": "修理が続き、今月は思わぬ",
+        "answer": "出費",
+        "after": "が重なった。",
+        "reading": "しゅっぴ",
+        "translation": "수리가 이어져 이번 달에는 뜻밖의 지출이 겹쳤다.",
+        "translationTarget": "지출",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1352770-1",
+    "wordId": "lex-jmdict-1352770",
+    "version": 1,
+    "meaning": "웃돌다, 넘어서다",
+    "hint": "비교 기준·예상보다 수치·수준이 높습니다.",
+    "confusions": [
+      {
+        "japanese": "下回る",
+        "distinction": "上回る는 기준보다 높음이고 下回る는 낮음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1352770-1-ex-1",
+        "version": 1,
+        "before": "今年の応募者数は、去年を大きく",
+        "answer": "上回った",
+        "after": "。",
+        "reading": "うわまわった",
+        "translation": "올해 지원자 수는 지난해를 크게 웃돌았다.",
+        "translationTarget": "웃돌았다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365930-1",
+    "wordId": "lex-jmdict-1365930",
+    "version": 1,
+    "meaning": "참음, 인내",
+    "hint": "힘들고 불편한 상황을 참고 견딥니다.",
+    "confusions": [
+      {
+        "japanese": "我慢",
+        "distinction": "辛抱와 我慢는 참음이 겹친다. 辛抱는 어려운 시기를 끈기 있게 견딤에도 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365930-1-ex-1",
+        "version": 1,
+        "before": "あと少しの",
+        "answer": "辛抱",
+        "after": "だと思い、修理が終わるのを待った。",
+        "reading": "しんぼう",
+        "translation": "조금만 더 참으면 된다고 생각하며 수리가 끝나기를 기다렸다.",
+        "translationTarget": "참으면",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533580-1",
+    "wordId": "lex-jmdict-1533580",
+    "version": 1,
+    "meaning": "재미있다, 흥미롭다",
+    "hint": "내용이나 모습이 관심을 끌고 즐겁게 느껴지는 상태",
+    "confusions": [
+      {
+        "japanese": "つまらない",
+        "distinction": "관심과 즐거움을 주는 상태와 지루하고 흥미가 없는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533580-1-ex-1",
+        "version": 1,
+        "before": "この絵は",
+        "answer": "面白い",
+        "after": "ですね。魚が空を飛んでいます。",
+        "reading": "おもしろい",
+        "translation": "이 그림은 재미있네요. 물고기가 하늘을 날고 있어요.",
+        "translationTarget": "재미있네요",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

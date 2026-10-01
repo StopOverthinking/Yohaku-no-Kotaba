@@ -1,0 +1,185 @@
+{
+  "reviewedAt": "2026-10-01T01:04:03.037Z",
+  "entries": [
+    {
+      "wordId": "handmade_2",
+      "level": "N4",
+      "sourceHash": "d5bdfb3029b853aa369ca0d03483002ef09be77ea9a28327e6a4ef95b9bb5dbe",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_2",
+      "notes": [
+        "어려운 처지에서 돕는 의미를 양쪽 힌트가 구조와 일손 지원 모두로 명시한다. 강의 개 구조/곤란할 때 도움/가게 운영 지원/짐 운반 도움 네 예문을 읽었다. 단순 구조 대 도움으로 강제 분리하지 않으며 금융 지원 등 미선택 사전 뜻은 포함하지 않는다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "AbsoluteVerb_164",
+      "level": "N5",
+      "sourceHash": "aa055c496b805549a5c46173a77c26d96ff2d257ac7e00968e54674fd87d93b4",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-AbsoluteVerb_164",
+      "notes": [
+        "새 생명이 태어난다는 동일 자동 용법이다. 동생 출생 사진/강아지 출산 준비/언니 아기/출생지와 성장지 네 예문을 읽었다. 결합 표제어 원본은 그대로 두고 단일 표제어를 대표로 선택한다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_16",
+      "level": "N4",
+      "sourceHash": "e9d81c385408eea84d9a733047bb22174f9f93ec3b8008b0f857c5f4cb0afe40",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_16",
+      "notes": [
+        "대상을 이전 자리로 되돌리는 타동 핵심이다. 잡지 선반/의자 원위치/시계 바늘/공구 상자 네 예문을 읽었다. 구토나 시세 회복은 선택 의미에 없다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "JLPTN3_126",
+      "level": "N5",
+      "sourceHash": "4d52ca02c99041a8831278e638b15d466ca84da1901a76a01ff2bbc9bb9e0a50",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-JLPTN3_126",
+      "notes": [
+        "소유한 물건을 다른 사람에게 건네는 핵심이다. 거스름돈/메모 전달/운전기사 표/친구에게 부탁한 편지/개찰구 표/본인에게 직접 전달 여섯 문장을 읽었다. 강을 건너게 하거나 다리를 걸치는 뜻은 미선택이다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_63",
+      "level": "N4",
+      "sourceHash": "9710c87437a56f336bd5191070758c79a377fa68ef19f33cca6b9037265ec8f3",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_63",
+      "notes": [
+        "여러 가능성에서 내용을 정하는 타동 핵심이다. 진학 상담/방 방문 전 결정 보류/가게 제비뽑기/가족과 이름 결정 네 문장을 읽었다. 경기 기술 성공 등 부가 뜻은 미선택이다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_81",
+      "level": "N4",
+      "sourceHash": "031af1b68aefb0c128c376fb04cfe8b53ea0092d2c6cd580d29a65478ab68b25",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_81",
+      "notes": [
+        "거주지를 옮기는 동일 자동 용법이다. 역 근처 아파트/이웃 이사/개를 위한 정원 집/이사해도 보관할 책상 네 문장을 읽었다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "JLPTN3_340",
+      "level": "N4",
+      "sourceHash": "b60da3ea9cad6db8f5b3138939b05ef97232c103a34b21a3ae33b79fe9268883",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-JLPTN3_340",
+      "notes": [
+        "고장 난 물건의 기능을 복구하는 핵심이다. 자전거를 맡김/교체보다 높은 수리비/할머니 시계/지붕 수리 중 출입 제한/시계 소리 회복/교체 전 수리 가능성 문의 여섯 문장을 읽었다. 명사와 する 형태는 같은 선택 의미이며 텍스트 수정과 구별된다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_92",
+      "level": "N4",
+      "sourceHash": "69137376ee8011ea669376899a9bf8a0502be05b180338b7f3ff4c7afeeaa87a",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_92",
+      "notes": [
+        "건물 바깥 윗부분을 덮는 지붕이다. 눈 무게 파손/길 안내 표지/빗소리/기와 수리 네 문장을 읽었다. 실내 천장 대비가 일치한다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_97",
+      "level": "N5",
+      "sourceHash": "e395c714d2b65bc4131ab1f153f56f170cc153f3b5a9589ec59d8fc115fc1256",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_97",
+      "notes": [
+        "신체 치아라는 동일 핵심이다. 센베이에 깨짐/유치 빠짐/김이 묻음/어금니 통증 네 문장을 읽었다. 톱니와 신발 굽은 미선택이다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_69",
+      "level": "N4",
+      "sourceHash": "dd922af961cc29a20b1d76f2e10727205a2e607b7f60e81b6dee9f854ec88f84",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "aliasGroupId": "alias-handmade_69",
+      "notes": [
+        "몸통 아래 허리 부위라는 동일 핵심이다. 상자를 들다 부상/할머니 일어남/장시간 앉음/물의 허리 높이 네 문장을 읽었다. 면발 탄력은 미선택이다.",
+        "전량 독립 읽기와 현재 활성 그룹/전체 원본 해시를 대조했다. 대표 하나만 수준별 참조하며 원본 ID·용법·예문·기록은 보존한다."
+      ]
+    },
+    {
+      "wordId": "handmade_1",
+      "level": "N5",
+      "sourceHash": "775b8dc81cfba3f548384aedf052eef27c08e35a942201bc90580899a8cd290b",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:04:03.037Z",
+      "duplicateSelection": {
+        "policy": "distinct-core-usages-no-profile-transfer",
+        "members": [
+          {
+            "wordId": "handmade_1",
+            "sourceHash": "775b8dc81cfba3f548384aedf052eef27c08e35a942201bc90580899a8cd290b"
+          },
+          {
+            "wordId": "AbsoluteVerb_616",
+            "sourceHash": "3b217fc060842b7ca7e2c43b5364da85e9dd3967eb7fac9b576d4e2e8c62311a"
+          }
+        ],
+        "notes": [
+          "handmade_1은 능력·여건상 할 수 있음(혼자 예약/야근 불가), AV616은 완성·생겨남(저녁 완성/도서관 신설)이다. 두 원본 단어·용법·대비·힌트·4예문을 전량 읽고 JMdict1340450 별도 의미와 대조했다.",
+          "동일 표제어라도 선택 핵심이 달라 프로필은 통합하지 않는다. N5 대표로 능력/가능성 handmade_1만 연결하고 두 원본 내용과 학습 기록을 유지한다."
+        ]
+      },
+      "notes": [
+        "기초 가능성 표현의 누락을 해결한다. 현재 선택한 대표 용법의 N5 참조를 승인하며 완성이라는 별도 원본 핵심 숙련으로 간주하지 않는다."
+      ]
+    }
+  ]
+}

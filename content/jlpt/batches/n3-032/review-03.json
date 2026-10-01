@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "65a4d707deb70c97fce0b1c4afe665e5717584aa12280cfb04baa1962fa3e5cc",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+    "reviewedAt": "2026-10-01T00:21:28.048Z",
+    "notes": [
+      "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+      "게시 전 현재 원본과 모든 미게시 pilot을 합친 9176예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1281450",
+      "60dfe97ed9fbe1ad55d367672a4c797832af8cfc65bdd5b5b7e9f9471048d950"
+    ],
+    [
+      "lex-jmdict-1381760",
+      "a679e9451a67795dc2ece22a69592af1dbfc5a23e77ffcb5c3e66980dcb03c98"
+    ],
+    [
+      "lex-jmdict-1391940",
+      "079319aefc5e3a801bb7e6b5048a7d74c5d8ad6c1163056a87959ac644c6e16d"
+    ],
+    [
+      "lex-jmdict-1475530",
+      "ed691eeed18f0b57bfe736fff83f1f16ebe5097fa1edd72519fdb61bd65179c1"
+    ],
+    [
+      "lex-jmdict-1491290",
+      "6fba8d018f8d7babb8be4bd74e99963218147af4e54b2cae5abb29b66d23b27c"
+    ],
+    [
+      "lex-jmdict-1492160",
+      "65edf62173de9686ec669a43fe10b784a758d558c1d04d95600212bd4475e616"
+    ],
+    [
+      "lex-jmdict-1507180",
+      "fe2fb44089e26c0d9ff974eabaf39eae5915af94bb0d70f4b697671f934cfa78"
+    ],
+    [
+      "lex-jmdict-1507910",
+      "49336329973a260480c2eb6602e526a06beccb388570f4af29d57df7e31e81db"
+    ],
+    [
+      "lex-jmdict-1502630",
+      "c160778a6789dd65d39dd133273b91448fcdeee935565f52ab7a2df880cf903d"
+    ],
+    [
+      "lex-jmdict-1547390",
+      "a3652b14b4d63719fca6d5ac6144583b7941559014ff8a295e966492d99d0a9c"
+    ],
+    [
+      "lex-jmdict-1552390",
+      "94cebbf12effd12b2eac3147e433962e5ec64dfb0df8b9131804349692b8ebe8"
+    ],
+    [
+      "lex-jmdict-1582410",
+      "d262b4317896e8a08f3008aa5bf89741441d85f6b66a4ddc09afd122a67d549f"
+    ],
+    [
+      "lex-jmdict-1593650",
+      "4dc17fa0b57d1b4673cea89eefd7188b2aafcd929b78583b7cb5a49985201b26"
+    ],
+    [
+      "lex-jmdict-1606610",
+      "af7777359f8ba508643b9bb34164f0f3d07ef6295a24eddb18181ab808693cea"
+    ]
+  ]
+}

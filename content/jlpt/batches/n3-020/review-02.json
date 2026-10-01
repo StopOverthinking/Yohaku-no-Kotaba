@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "sourceHash": "0c8639a398b866e6cfd3a8fbf0608c143dff5bcb26ddca82b05429362e574b02",
+  "review": {
+    "outcome": "accepted",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+    "reviewedAt": "2026-09-30T23:59:29.488Z",
+    "notes": [
+      "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+      "게시 전 현재 원본과 모든 미게시 pilot을 합친 8808예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+    ]
+  },
+  "entries": [
+    [
+      "lex-jmdict-1270010",
+      "1ab828dc799f798dde8203dcf8109f4bc11f0734c2702c827bcd2634aa728c30"
+    ],
+    [
+      "lex-jmdict-1278130",
+      "93cb3e7d5c50071261d0f956e573873e4259b1c255725d2f1821ab4420fee1a0"
+    ],
+    [
+      "lex-jmdict-1278590",
+      "e7b00248ad23ef2143a478272ce30074026fb69a19a03e779ab04dfa9acb44bd"
+    ],
+    [
+      "lex-jmdict-1279540",
+      "5d359d3a729bdbf3df625ce17d1cb1be440a97da063407e00a642b827ec42acc"
+    ],
+    [
+      "lex-jmdict-1279600",
+      "cc34e07e31937fa837c7f3769bc2dd21dd0c3a2a689a620b55a994c481f33843"
+    ],
+    [
+      "lex-jmdict-1281930",
+      "f05c6e83fed94d8cffbc609251960f6fa286f2b19fc24de1da4da2055d8f3390"
+    ],
+    [
+      "lex-jmdict-1282220",
+      "d65aa77638c0b7f8049fdadde9d05a2fe9fca4a7cdcf8f2f020d6d6d319262ce"
+    ],
+    [
+      "lex-jmdict-1282280",
+      "3aeabc079d2819898e600e1039a06397e959896b03209298dcbdb0d1c525cd5f"
+    ],
+    [
+      "lex-jmdict-1283060",
+      "217f13f65930da789dd52726745f3dd88b7bcda33b79fe5d528e87a0ec08a4ce"
+    ],
+    [
+      "lex-jmdict-1283400",
+      "c5267d407a0471f06f5aae46600a460ccadb9b90b15b19d8066fbab0e8cb0082"
+    ],
+    [
+      "lex-jmdict-1287180",
+      "c75cad47765e1756d90bccf030b889e65b1db971db7d4c35ae64cec08fb0040d"
+    ]
+  ]
+}

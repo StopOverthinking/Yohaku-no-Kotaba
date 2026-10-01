@@ -2212,6 +2212,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533660-1",
+    "wordId": "lex-jmdict-1533660",
+    "version": 1,
+    "meaning": "모색",
+    "hint": "해답·방법을 바로 알지 못해 여러 가능성을 살펴 찾는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "検索",
+        "distinction": "模索는 방법·해결책을 탐색함이고 検索는 자료에서 해당 정보를 찾아냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533660-1-ex-1",
+        "version": 1,
+        "before": "売り上げが落ちる中、店主は新しい販売方法を",
+        "answer": "模索",
+        "after": "している。",
+        "reading": "もさく",
+        "translation": "매출이 떨어지는 가운데 가게 주인은 새로운 판매 방법을 모색하고 있다.",
+        "translationTarget": "모색",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1352670-1",
+    "wordId": "lex-jmdict-1352670",
+    "version": 1,
+    "meaning": "상연",
+    "hint": "연극·극 등을 무대에서 보여 줍니다.",
+    "confusions": [
+      {
+        "japanese": "上映",
+        "distinction": "上演는 연극·공연을 무대에서 보임이고 上映는 영화를 화면에 틂이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1352670-1-ex-1",
+        "version": 1,
+        "before": "学生の劇団が、古典の作品を",
+        "answer": "上演",
+        "after": "する。",
+        "reading": "じょうえん",
+        "translation": "학생 극단이 고전 작품을 상연한다.",
+        "translationTarget": "상연",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311640-1",
+    "wordId": "lex-jmdict-1311640",
+    "version": 1,
+    "meaning": "보라색",
+    "hint": "빨강과 파랑이 섞인 계열의 색",
+    "confusions": [
+      {
+        "japanese": "黄色",
+        "distinction": "보라 계열과 노랑 계열의 색을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311640-1-ex-1",
+        "version": 1,
+        "before": "夕焼けの空が、少しずつ",
+        "answer": "紫",
+        "after": "に変わっていった。",
+        "reading": "むらさき",
+        "translation": "노을 진 하늘이 조금씩 보라색으로 바뀌어 갔다.",
+        "translationTarget": "보라색",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1309700-1",
+    "wordId": "lex-jmdict-1309700",
+    "version": 1,
+    "meaning": "지휘",
+    "hint": "집단의 활동·연주를 중심에서 이끌고 조정합니다.",
+    "confusions": [
+      {
+        "japanese": "命令",
+        "distinction": "指揮는 전체 활동을 이끌고 조정함이고 命令는 구체적인 지시이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1309700-1-ex-1",
+        "version": 1,
+        "before": "経験豊富な隊長が、救助活動の",
+        "answer": "指揮",
+        "after": "を取った。",
+        "reading": "しき",
+        "translation": "경험 많은 대장이 구조 활동을 지휘했다.",
+        "translationTarget": "지휘",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311110-1",
+    "wordId": "lex-jmdict-1311110",
+    "version": 1,
+    "meaning": "나, 저",
+    "hint": "말하는 사람이 자신을 가리키는 일반적인 표현",
+    "confusions": [
+      {
+        "japanese": "あなた",
+        "distinction": "말하는 자신과 말을 듣는 상대를 구별한다. 대표 읽기는 와타시이며, 격식 있는 와타쿠시와 구어적인 아타시는 별도 읽기이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311110-1-ex-1",
+        "version": 1,
+        "before": "この青いかばんは",
+        "answer": "私",
+        "after": "のです。",
+        "reading": "わたし",
+        "translation": "이 파란 가방은 제 것입니다.",
+        "translationTarget": "제",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1000580-1",
+    "wordId": "lex-jmdict-1000580",
+    "version": 1,
+    "meaning": "저것",
+    "hint": "말하는 사람과 듣는 사람 모두에게서 떨어진 물건을 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "あの",
+        "distinction": "멀리 있는 물건 자체를 대신하는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 놀라는 감탄사는 이번 핵심 뜻이 아니다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1000580-1-ex-1",
+        "version": 1,
+        "before": "川の向こうに見える",
+        "answer": "あれ",
+        "after": "は、学校です。",
+        "reading": "あれ",
+        "translation": "강 건너편에 보이는 저것은 학교입니다.",
+        "translationTarget": "저것",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

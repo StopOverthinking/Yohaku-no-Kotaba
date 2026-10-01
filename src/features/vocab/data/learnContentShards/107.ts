@@ -1336,6 +1336,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1337830-1",
+    "wordId": "lex-jmdict-1337830",
+    "version": 1,
+    "meaning": "한자 숙어·한자 합성어",
+    "hint": "둘 이상의 한자가 결합해 하나의 뜻을 이루는 말",
+    "confusions": [
+      {
+        "japanese": "単漢字",
+        "distinction": "여러 한자가 결합한 말과 한 글자의 한자를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1337830-1-ex-1",
+        "version": 1,
+        "before": "知らない",
+        "answer": "熟語",
+        "after": "でも、漢字の意味から推測できることがある。",
+        "reading": "じゅくご",
+        "translation": "모르는 한자 합성어도 한자의 뜻을 통해 추측할 수 있는 경우가 있다.",
+        "translationTarget": "한자 합성어",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410300-1",
+    "wordId": "lex-jmdict-1410300",
+    "version": 1,
+    "meaning": "대화",
+    "hint": "서로 말을 주고받으며 생각·입장을 나눕니다.",
+    "confusions": [
+      {
+        "japanese": "独白",
+        "distinction": "対話는 상대와 주고받는 말이고 独白는 혼자 하는 말이다. 의견 차이를 풀기 위한 대화에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410300-1-ex-1",
+        "version": 1,
+        "before": "意見が違っても、",
+        "answer": "対話",
+        "after": "を続けることを大切にしている。",
+        "reading": "たいわ",
+        "translation": "의견이 달라도 대화를 이어가는 것을 중요하게 여기고 있다.",
+        "translationTarget": "대화",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596370-1",
+    "wordId": "lex-jmdict-1596370",
+    "version": 1,
+    "meaning": "상호, 서로",
+    "hint": "양쪽이 서로에게 같은 관계·작용을 미칩니다.",
+    "confusions": [
+      {
+        "japanese": "一方",
+        "distinction": "相互는 서로 작용함이고 一方는 한쪽 또는 한편이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596370-1-ex-1",
+        "version": 1,
+        "before": "異なる文化を学ぶことが、",
+        "answer": "相互",
+        "after": "の理解につながる。",
+        "reading": "そうご",
+        "translation": "다른 문화를 배우는 것이 상호 이해로 이어진다.",
+        "translationTarget": "상호",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1469050-1",
+    "wordId": "lex-jmdict-1469050",
+    "version": 1,
+    "meaning": "연도, 회계·사업 연도",
+    "hint": "회계·학교·사업에서 정한 1년의 구분입니다.",
+    "confusions": [
+      {
+        "japanese": "年齢",
+        "distinction": "年度는 사업·회계상의 1년 단위이고 年齢는 나이다. 달력의 1월~12월과 다를 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1469050-1-ex-1",
+        "version": 1,
+        "before": "新しい",
+        "answer": "年度",
+        "after": "が始まる前に、予算の使い方を決めた。",
+        "reading": "ねんど",
+        "translation": "새 사업 연도가 시작되기 전에 예산 사용 방법을 정했다.",
+        "translationTarget": "사업 연도",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505510-1",
+    "wordId": "lex-jmdict-1505510",
+    "version": 1,
+    "meaning": "문체",
+    "hint": "글에서 드러나는 표현·문장 구성의 특징적 방식입니다.",
+    "confusions": [
+      {
+        "japanese": "字体",
+        "distinction": "文体는 글의 표현 방식이고 字体는 글자 모양이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505510-1-ex-1",
+        "version": 1,
+        "before": "同じ出来事でも、",
+        "answer": "文体",
+        "after": "を変えると印象が違ってくる。",
+        "reading": "ぶんたい",
+        "translation": "같은 사건이라도 문체를 바꾸면 인상이 달라진다.",
+        "translationTarget": "문체",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533700-1",
+    "wordId": "lex-jmdict-1533700",
+    "version": 1,
+    "meaning": "모방",
+    "hint": "다른 사람의 방식·모습·작품을 따라 합니다.",
+    "confusions": [
+      {
+        "japanese": "創造",
+        "distinction": "模倣는 다른 것을 따름이고 創造는 새롭게 만들어 냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533700-1-ex-1",
+        "version": 1,
+        "before": "最初は先輩の作品を",
+        "answer": "模倣",
+        "after": "しながら、技術を学んだ。",
+        "reading": "もほう",
+        "translation": "처음에는 선배 작품을 모방하면서 기술을 배웠다.",
+        "translationTarget": "모방",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604480-1",
+    "wordId": "lex-jmdict-1604480",
+    "version": 1,
+    "meaning": "전망, 예상 가능성",
+    "hint": "앞으로 어떤 일이 될 것으로 예상되는 가능성입니다.",
+    "confusions": [
+      {
+        "japanese": "見通し",
+        "distinction": "見込み와 見通し는 전망 의미가 겹친다. 見込み는 가능성·예상량, 見通し는 전개를 내다봄에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604480-1-ex-1",
+        "version": 1,
+        "before": "天気が回復する",
+        "answer": "見込み",
+        "after": "なので、予定どおり出発する。",
+        "reading": "みこみ",
+        "translation": "날씨가 회복될 전망이어서 예정대로 출발한다.",
+        "translationTarget": "전망",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

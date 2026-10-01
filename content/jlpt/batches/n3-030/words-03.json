@@ -1,0 +1,38 @@
+[
+  {
+    "japanese": "定員",
+    "reading": "ていいん",
+    "type": "noun",
+    "meaning": "정원",
+    "hint": "모집·이용 등에 허용하거나 정해 놓은 인원수입니다.",
+    "confusion": "人数",
+    "distinction": "定員는 정해진 인원 한도이고 人数는 실제 사람 수 일반이다.",
+    "dictionaryId": "jmdict-1435400",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "予備",
+    "reading": "よび",
+    "type": "noun",
+    "meaning": "예비, 여분",
+    "hint": "필요할 때를 대비해 따로 준비해 둔 것입니다.",
+    "confusion": "本番",
+    "distinction": "선택한 予備는 여분·대비용이고 本番는 실제 시행·공연이다. 사전 준비라는 뜻도 있다.",
+    "dictionaryId": "jmdict-1543320",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "全身",
+    "reading": "ぜんしん",
+    "type": "noun",
+    "meaning": "전신, 온몸",
+    "hint": "머리부터 발까지 몸 전체입니다.",
+    "confusion": "上半身",
+    "distinction": "全身는 몸 전체이고 上半身는 허리 위쪽 부분이다.",
+    "dictionaryId": "jmdict-1395410",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  }
+]

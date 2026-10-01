@@ -1160,6 +1160,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547270-1",
+    "wordId": "lex-jmdict-1547270",
+    "version": 1,
+    "meaning": "억압",
+    "hint": "감정·행동·자유 등을 강한 힘으로 눌러 제한하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "抑制",
+        "distinction": "抑圧는 강하게 눌러 억압함이고 抑制는 정도·발생을 조절해 억제함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547270-1-ex-1",
+        "version": 1,
+        "before": "自由な発言への",
+        "answer": "抑圧",
+        "after": "が、社会の問題として取り上げられた。",
+        "reading": "よくあつ",
+        "translation": "자유로운 발언에 대한 억압이 사회 문제로 다뤄졌다.",
+        "translationTarget": "억압",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328990-1",
+    "wordId": "lex-jmdict-1328990",
+    "version": 1,
+    "meaning": "취지, 요지",
+    "hint": "말·활동의 중심 내용이나 의도한 목적입니다.",
+    "confusions": [
+      {
+        "japanese": "趣味",
+        "distinction": "趣旨는 중심 뜻·목적이고 趣味는 개인의 취미·기호이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328990-1-ex-1",
+        "version": 1,
+        "before": "企画の",
+        "answer": "趣旨",
+        "after": "を説明したところ、多くの人が協力を申し出た。",
+        "reading": "しゅし",
+        "translation": "기획의 취지를 설명하자 많은 사람이 협조하겠다고 나섰다.",
+        "translationTarget": "취지",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_71-2",
+    "wordId": "AbsoluteVerb_71",
+    "version": 1,
+    "meaning": "전화를 걸다",
+    "hint": "상대와 통화하기 위해 전화 연결을 시작해요.",
+    "confusions": [
+      {
+        "japanese": "受ける",
+        "distinction": "상대에게 전화하는 행동과 걸려 온 전화를 받는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_71-2-ex-1",
+        "version": 1,
+        "before": "予約を変更したくて、ホテルに電話を",
+        "answer": "掛けた",
+        "after": "。",
+        "reading": "かけた",
+        "translation": "예약을 변경하고 싶어서 호텔에 전화를 걸었다.",
+        "translationTarget": "걸었다",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1135680-1",
+    "wordId": "lex-jmdict-1135680",
+    "version": 1,
+    "meaning": "모노레일",
+    "hint": "하나의 궤도를 따라 달리는 철도 차량이나 교통 체계",
+    "confusions": [
+      {
+        "japanese": "地下鉄",
+        "distinction": "하나의 궤도를 쓰는 철도와 주로 지하를 달리는 철도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1135680-1-ex-1",
+        "version": 1,
+        "before": "空港から",
+        "answer": "モノレール",
+        "after": "に乗ると、町まで十五分です。",
+        "reading": "モノレール",
+        "translation": "공항에서 모노레일을 타면 시내까지 십오 분입니다.",
+        "translationTarget": "모노레일",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1296440-1",
+    "wordId": "lex-jmdict-1296440",
+    "version": 1,
+    "meaning": "재학",
+    "hint": "학교에 학생으로 등록해 다니고 있는 상태",
+    "confusions": [
+      {
+        "japanese": "卒業",
+        "distinction": "학생으로 학교에 다니는 상태와 과정을 마친 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1296440-1-ex-1",
+        "version": 1,
+        "before": "大学に",
+        "answer": "在学",
+        "after": "中、夜は書店で働いていました。",
+        "reading": "ざいがく",
+        "translation": "대학에 재학 중일 때 밤에는 서점에서 일했습니다.",
+        "translationTarget": "재학",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589250-1",
+    "wordId": "lex-jmdict-1589250",
+    "version": 1,
+    "meaning": "분실물",
+    "hint": "떨어뜨리거나 두고 가서 주인에게서 떨어진 물건",
+    "confusions": [
+      {
+        "japanese": "忘れ物",
+        "distinction": "잃어버린 물건과 가져와야 했는데 두고 온 물건의 초점을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589250-1-ex-1",
+        "version": 1,
+        "before": "駅で",
+        "answer": "落し物",
+        "after": "をした人は、窓口に相談してください。",
+        "reading": "おとしもの",
+        "translation": "역에서 물건을 잃어버린 사람은 창구에 문의해 주세요.",
+        "translationTarget": "물건을 잃어버린",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549100-1",
+    "wordId": "lex-jmdict-1549100",
+    "version": 1,
+    "meaning": "거칠다·난폭하다",
+    "hint": "말이나 행동이 부드럽지 않고 함부로 하는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "丁寧",
+        "distinction": "함부로 거칠게 대하는 것과 조심스럽고 정중하게 대하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549100-1-ex-1",
+        "version": 1,
+        "before": "箱を",
+        "answer": "乱暴",
+        "after": "に扱うと、中の食器が割れてしまいます。",
+        "reading": "らんぼう",
+        "translation": "상자를 거칠게 다루면 안의 식기가 깨지고 맙니다.",
+        "translationTarget": "거칠게",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1375390-1",
+    "wordId": "lex-jmdict-1375390",
+    "version": 1,
+    "meaning": "성질, 성격",
+    "hint": "사람·사물이 본래 지닌 특성입니다.",
+    "confusions": [
+      {
+        "japanese": "品質",
+        "distinction": "性質는 본래의 특성이고 品質는 제품의 질·수준이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1375390-1-ex-1",
+        "version": 1,
+        "before": "金属の",
+        "answer": "性質",
+        "after": "を調べてから、使う材料を選んだ。",
+        "reading": "せいしつ",
+        "translation": "금속의 성질을 조사한 뒤 쓸 재료를 골랐다.",
+        "translationTarget": "성질",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350140-1",
+    "wordId": "lex-jmdict-1350140",
+    "version": 1,
+    "meaning": "소화",
+    "hint": "먹은 음식을 몸이 흡수할 수 있도록 분해합니다.",
+    "confusions": [
+      {
+        "japanese": "吸収",
+        "distinction": "선택한 消化는 음식을 분해함이고 吸収는 분해된 영양 등을 흡수함이다. 일·정보를 처리한다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350140-1-ex-1",
+        "version": 1,
+        "before": "脂っこい料理は",
+        "answer": "消化",
+        "after": "に時間がかかるので、寝る前には控えている。",
+        "reading": "しょうか",
+        "translation": "기름진 음식은 소화에 시간이 걸려 잠들기 전에는 삼가고 있다.",
+        "translationTarget": "소화",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559660-1",
+    "wordId": "lex-jmdict-1559660",
+    "version": 1,
+    "meaning": "연대",
+    "hint": "함께 책임·목표를 나누며 협력하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "連続",
+        "distinction": "連帯는 서로 힘·책임을 나눔이고 連続는 끊기지 않고 이어짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559660-1-ex-1",
+        "version": 1,
+        "before": "地域を越えて",
+        "answer": "連帯",
+        "after": "し、被災した人々を支えた。",
+        "reading": "れんたい",
+        "translation": "지역을 넘어 연대하여 피해를 입은 사람들을 도왔다.",
+        "translationTarget": "연대",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

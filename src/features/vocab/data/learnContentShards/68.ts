@@ -1564,6 +1564,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1258880-1",
+    "wordId": "lex-jmdict-1258880",
+    "version": 1,
+    "meaning": "현청",
+    "hint": "일본의 현 단위 행정을 담당하는 기관과 청사",
+    "confusions": [
+      {
+        "japanese": "市役所",
+        "distinction": "현 전체의 행정 기관과 시 단위의 행정 기관을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1258880-1-ex-1",
+        "version": 1,
+        "before": "新しい橋の計画について、",
+        "answer": "県庁",
+        "after": "の担当者に話を聞いた。",
+        "reading": "けんちょう",
+        "translation": "새 다리 계획에 관해 현청 담당자에게 이야기를 들었다.",
+        "translationTarget": "현청",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421420-1",
+    "wordId": "lex-jmdict-1421420",
+    "version": 1,
+    "meaning": "지반",
+    "hint": "건물·땅을 받치는 토양·지층의 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "地面",
+        "distinction": "선택한 地盤는 땅의 기반·지층이고 地面는 땅의 표면이다. 정치·사업의 기반이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421420-1-ex-1",
+        "version": 1,
+        "before": "家を建てる前に、土地の",
+        "answer": "地盤",
+        "after": "が強いか調べた。",
+        "reading": "じばん",
+        "translation": "집을 짓기 전에 땅의 지반이 단단한지 조사했다.",
+        "translationTarget": "지반",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430080-1",
+    "wordId": "lex-jmdict-1430080",
+    "version": 1,
+    "meaning": "장남·맏아들",
+    "hint": "한 가정의 아들 가운데 가장 먼저 태어난 사람",
+    "confusions": [
+      {
+        "japanese": "次男",
+        "distinction": "첫째 아들과 둘째 아들을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430080-1-ex-1",
+        "version": 1,
+        "before": "祖父は",
+        "answer": "長男",
+        "after": "だが、年上の姉が二人いる。",
+        "reading": "ちょうなん",
+        "translation": "할아버지는 맏아들이지만 위로 누나가 두 분 계신다.",
+        "translationTarget": "맏아들",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322860-1",
+    "wordId": "lex-jmdict-1322860",
+    "version": 1,
+    "meaning": "사교",
+    "hint": "사람들과 만나 관계를 나누는 활동입니다.",
+    "confusions": [
+      {
+        "japanese": "交渉",
+        "distinction": "社交는 사회적 관계를 나눔이고 交渉는 조건·문제를 의논하여 조정함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322860-1-ex-1",
+        "version": 1,
+        "before": "彼女は",
+        "answer": "社交",
+        "after": "が得意で、初対面の人ともすぐに打ち解ける。",
+        "reading": "しゃこう",
+        "translation": "그녀는 사교에 능해서 처음 만난 사람과도 바로 친해진다.",
+        "translationTarget": "사교",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381140-1",
+    "wordId": "lex-jmdict-1381140",
+    "version": 1,
+    "meaning": "서력·서기",
+    "hint": "연도를 세계적으로 널리 쓰는 기원 기준으로 세는 방식",
+    "confusions": [
+      {
+        "japanese": "和暦",
+        "distinction": "서기 기준의 연도와 일본 연호 기준의 연도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381140-1-ex-1",
+        "version": 1,
+        "before": "申込書の年は、和暦ではなく",
+        "answer": "西暦",
+        "after": "で書いてください。",
+        "reading": "せいれき",
+        "translation": "신청서의 연도는 일본 연호가 아니라 서기로 써 주세요.",
+        "translationTarget": "서기",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477290-1",
+    "wordId": "lex-jmdict-1477290",
+    "version": 1,
+    "meaning": "발굴",
+    "hint": "땅속에 묻힌 유물·자원 등을 파내 찾아냅니다.",
+    "confusions": [
+      {
+        "japanese": "発見",
+        "distinction": "선택한 発掘는 묻힌 것을 파내 찾음이고 発見는 찾아냄 일반이다. 인재를 찾아냄에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477290-1-ex-1",
+        "version": 1,
+        "before": "工事の前に、遺跡の",
+        "answer": "発掘",
+        "after": "調査が行われた。",
+        "reading": "はっくつ",
+        "translation": "공사 전에 유적 발굴 조사가 이루어졌다.",
+        "translationTarget": "발굴",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

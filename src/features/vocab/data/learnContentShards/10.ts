@@ -1756,6 +1756,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326620-1",
+    "wordId": "lex-jmdict-1326620",
+    "version": 1,
+    "meaning": "주문하여 받아 오다",
+    "hint": "필요한 물건을 다른 장소에서 보내 달라고 하여 받습니다.",
+    "confusions": [
+      {
+        "japanese": "取り出す",
+        "distinction": "선택한 取り寄せる는 보내 달라고 하여 확보하고 取り出す는 안에서 꺼낸다. 가까이 당기는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326620-1-ex-1",
+        "version": 1,
+        "before": "店に在庫がなかったので、別の支店から商品を",
+        "answer": "取り寄せた",
+        "after": "。",
+        "reading": "とりよせた",
+        "translation": "가게에 재고가 없어서 다른 지점에서 상품을 주문하여 받아 왔다.",
+        "translationTarget": "주문하여 받아 왔다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1610950-1",
+    "wordId": "lex-jmdict-1610950",
+    "version": 1,
+    "meaning": "길어지다·오래 끌다",
+    "hint": "예상보다 오랜 시간 동안 끝나지 않고 이어져요.",
+    "confusions": [
+      {
+        "japanese": "終わる",
+        "distinction": "일이 오래 계속되는 것과 끝나는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1610950-1-ex-1",
+        "version": 1,
+        "before": "会議が",
+        "answer": "長引いた",
+        "after": "ため、昼食を取る時間がなくなった。",
+        "reading": "ながびいた",
+        "translation": "회의가 길어져서 점심을 먹을 시간이 없어졌다.",
+        "translationTarget": "길어져서",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1467280-1",
+    "wordId": "lex-jmdict-1467280",
+    "version": 1,
+    "meaning": "임명",
+    "hint": "일정한 직책·역할을 맡도록 공식적으로 정합니다.",
+    "confusions": [
+      {
+        "japanese": "選挙",
+        "distinction": "任命는 권한 있는 사람이 직책을 맡김이고 選挙는 투표 등으로 사람을 뽑음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1467280-1-ex-1",
+        "version": 1,
+        "before": "委員長に",
+        "answer": "任命",
+        "after": "された彼は、最初の会議で方針を示した。",
+        "reading": "にんめい",
+        "translation": "위원장으로 임명된 그는 첫 회의에서 방침을 밝혔다.",
+        "translationTarget": "임명",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591390-1",
+    "wordId": "lex-jmdict-1591390",
+    "version": 1,
+    "meaning": "규범",
+    "hint": "행동·판단에서 따라야 할 기준입니다.",
+    "confusions": [
+      {
+        "japanese": "規模",
+        "distinction": "規範는 따라야 할 기준이고 規模는 크기·범위이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591390-1-ex-1",
+        "version": 1,
+        "before": "専門職としての倫理",
+        "answer": "規範",
+        "after": "を、研修で学んだ。",
+        "reading": "きはん",
+        "translation": "전문직으로서의 윤리 규범을 연수에서 배웠다.",
+        "translationTarget": "규범",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1420340-1",
+    "wordId": "lex-jmdict-1420340",
+    "version": 1,
+    "meaning": "가치",
+    "hint": "물건·경험 등을 얻거나 지킬 만한 유용성·중요성입니다.",
+    "confusions": [
+      {
+        "japanese": "値段",
+        "distinction": "値打ち는 가치이고 値段는 매매 가격이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1420340-1-ex-1",
+        "version": 1,
+        "before": "古い道具だが、今でも使う",
+        "answer": "値打ち",
+        "after": "がある。",
+        "reading": "ねうち",
+        "translation": "오래된 도구지만 지금도 쓸 가치가 있다.",
+        "translationTarget": "가치",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477810-1",
+    "wordId": "lex-jmdict-1477810",
+    "version": 1,
+    "meaning": "판매 개시·출시",
+    "hint": "새 상품을 시장에 내놓아 팔기 시작하는 것",
+    "confusions": [
+      {
+        "japanese": "開発",
+        "distinction": "상품을 팔기 시작하는 것과 상품을 새로 만드는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477810-1-ex-1",
+        "version": 1,
+        "before": "新しい切手は、来週の月曜日に",
+        "answer": "発売",
+        "after": "されます。",
+        "reading": "はつばい",
+        "translation": "새 우표는 다음 주 월요일에 판매되기 시작합니다.",
+        "translationTarget": "판매되기 시작합니다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609040-1",
+    "wordId": "lex-jmdict-1609040",
+    "version": 1,
+    "meaning": "할 가치가 있다, 걸맞다",
+    "hint": "평가·주의 등을 받을 만한 가치가 있습니다.",
+    "confusions": [
+      {
+        "japanese": "値段",
+        "distinction": "値する는 평가 등에 걸맞다는 동사이며 물건의 가격을 나타내는 値段와 다르다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609040-1-ex-1",
+        "version": 1,
+        "before": "この発見は、詳しく調べるに",
+        "answer": "値する",
+        "after": "。",
+        "reading": "あたいする",
+        "translation": "이 발견은 자세히 조사할 가치가 있다.",
+        "translationTarget": "가치가 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1372430-1",
+    "wordId": "lex-jmdict-1372430",
+    "version": 1,
+    "meaning": "쇠하다, 약해지다",
+    "hint": "힘·기능·활력이 이전보다 떨어집니다.",
+    "confusions": [
+      {
+        "japanese": "弱める",
+        "distinction": "衰える는 힘·기능이 쇠해지는 자동사이고 弱める는 약하게 만드는 타동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1372430-1-ex-1",
+        "version": 1,
+        "before": "休んでいる間に筋力が",
+        "answer": "衰えた",
+        "after": "ので、少しずつ運動を始めた。",
+        "reading": "おとろえた",
+        "translation": "쉬는 동안 근력이 약해져 조금씩 운동을 시작했다.",
+        "translationTarget": "약해져",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

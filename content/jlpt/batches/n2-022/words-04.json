@@ -1,0 +1,98 @@
+[
+  {
+    "japanese": "捻る",
+    "reading": "ひねる",
+    "type": "verb",
+    "meaning": "비틀다·돌리다",
+    "hint": "몸의 일부나 손잡이 등을 돌리는 힘을 가해요.",
+    "confusion": "伸ばす",
+    "distinction": "돌려 비트는 동작과 곧게 펴는 동작을 구별한다.",
+    "dictionaryId": "jmdict-1469530",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "拝む",
+    "reading": "おがむ",
+    "type": "verb",
+    "meaning": "합장하여 빌다·절하다",
+    "hint": "신불 등을 향해 손을 모으고 공경하는 뜻을 나타내요.",
+    "confusion": "願う",
+    "distinction": "손을 모으고 공경하는 행위와 마음속으로 원하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1472230",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "放る",
+    "reading": "ほうる",
+    "type": "verb",
+    "meaning": "던지다",
+    "hint": "물건을 손에서 놓아 다른 쪽으로 날아가게 해요.",
+    "confusion": "拾う",
+    "distinction": "물건을 던지는 행동과 떨어진 물건을 집는 행동을 구별한다.",
+    "dictionaryId": "jmdict-1516530",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "蘇る",
+    "reading": "よみがえる",
+    "type": "verb",
+    "meaning": "되살아나다",
+    "hint": "사라졌거나 잊힌 기억이나 힘이 다시 나타나요.",
+    "confusion": "消える",
+    "distinction": "다시 살아나 나타나는 것과 없어지는 것을 구별한다.",
+    "dictionaryId": "jmdict-1606020",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "詫びる",
+    "reading": "わびる",
+    "type": "verb",
+    "meaning": "사과하다",
+    "hint": "잘못이나 폐를 끼친 일에 미안함을 전해요.",
+    "confusion": "責める",
+    "distinction": "자신의 잘못을 사과하는 것과 상대의 잘못을 꾸짖는 것을 구별한다.",
+    "dictionaryId": "jmdict-1606790",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "打ち消す",
+    "reading": "うちけす",
+    "type": "verb",
+    "meaning": "부정하다·없애다",
+    "hint": "이미 나온 말이나 주장을 사실이 아니라고 해요.",
+    "confusion": "認める",
+    "distinction": "주장을 사실이 아니라고 하는 것과 인정하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1609310",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "捩る",
+    "reading": "ねじる",
+    "type": "verb",
+    "meaning": "비틀다·꼬다",
+    "hint": "물체의 양쪽 등에 반대 방향의 힘을 주어 꼬아요.",
+    "confusion": "解く",
+    "distinction": "물체를 비틀어 꼬는 것과 꼬인 것을 푸는 것을 구별한다.",
+    "dictionaryId": "jmdict-1611090",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  },
+  {
+    "japanese": "倣う",
+    "reading": "ならう",
+    "type": "verb",
+    "meaning": "본받다·따르다",
+    "hint": "앞선 방법이나 사례를 본보기로 삼아 같은 방식으로 해요.",
+    "confusion": "独創する",
+    "distinction": "앞선 사례를 따르는 것과 스스로 새롭게 만드는 것을 구별한다.",
+    "dictionaryId": "jmdict-1599680",
+    "level": "N2",
+    "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N2로 제안하며 공식 출제 수준으로 주장하지 않는다."
+  }
+]

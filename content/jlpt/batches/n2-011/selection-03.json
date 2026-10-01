@@ -1,0 +1,590 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1283220",
+      "japanese": "高まる",
+      "reading": "たかまる",
+      "level": "N2",
+      "spellings": [
+        "高まる",
+        "昂まる"
+      ],
+      "readings": [
+        "たかまる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "高まる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1266570",
+      "japanese": "固める",
+      "reading": "かためる",
+      "level": "N2",
+      "spellings": [
+        "固める",
+        "堅める"
+      ],
+      "readings": [
+        "かためる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "固める"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1212650",
+      "japanese": "慣らす",
+      "reading": "ならす",
+      "level": "N2",
+      "spellings": [
+        "慣らす",
+        "馴らす"
+      ],
+      "readings": [
+        "ならす"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "慣らす",
+          "馴らす"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1236620",
+      "japanese": "強烈",
+      "reading": "きょうれつ",
+      "level": "N2",
+      "spellings": [
+        "強烈"
+      ],
+      "readings": [
+        "きょうれつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "強烈"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1236630",
+      "japanese": "怯える",
+      "reading": "おびえる",
+      "level": "N2",
+      "spellings": [
+        "怯える",
+        "脅える",
+        "悸える"
+      ],
+      "readings": [
+        "おびえる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "怯える"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1236660",
+      "japanese": "恐れ",
+      "reading": "おそれ",
+      "level": "N2",
+      "spellings": [
+        "恐れ",
+        "怖れ",
+        "虞",
+        "畏れ",
+        "虞れ"
+      ],
+      "readings": [
+        "おそれ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "恐れ"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1252600",
+      "japanese": "軽快",
+      "reading": "けいかい",
+      "level": "N2",
+      "spellings": [
+        "軽快"
+      ],
+      "readings": [
+        "けいかい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "軽快"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1254220",
+      "japanese": "決意",
+      "reading": "けつい",
+      "level": "N2",
+      "spellings": [
+        "決意"
+      ],
+      "readings": [
+        "けつい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "決意"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1254640",
+      "japanese": "結びつく",
+      "reading": "むすびつく",
+      "level": "N2",
+      "spellings": [
+        "結びつく",
+        "結び付く"
+      ],
+      "readings": [
+        "むすびつく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "結び付く"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1254650",
+      "japanese": "結びつける",
+      "reading": "むすびつける",
+      "level": "N2",
+      "spellings": [
+        "結びつける",
+        "結び付ける"
+      ],
+      "readings": [
+        "むすびつける"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "結び付ける"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1326940",
+      "japanese": "取り戻す",
+      "reading": "とりもどす",
+      "level": "N2",
+      "spellings": [
+        "取り戻す",
+        "とり戻す",
+        "取りもどす",
+        "取戻す"
+      ],
+      "readings": [
+        "とりもどす"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "取り戻す"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1326760",
+      "japanese": "取り次ぐ",
+      "reading": "とりつぐ",
+      "level": "N2",
+      "spellings": [
+        "取り次ぐ",
+        "取次ぐ",
+        "取りつぐ",
+        "取り継ぐ",
+        "取継ぐ"
+      ],
+      "readings": [
+        "とりつぐ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "取り次ぐ"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1326960",
+      "japanese": "取り立てる",
+      "reading": "とりたてる",
+      "level": "N2",
+      "spellings": [
+        "取り立てる",
+        "取立てる",
+        "取りたてる"
+      ],
+      "readings": [
+        "とりたてる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "取り立てる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1329630",
+      "japanese": "受け止める",
+      "reading": "うけとめる",
+      "level": "N2",
+      "spellings": [
+        "受け止める",
+        "受けとめる"
+      ],
+      "readings": [
+        "うけとめる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "受け止める"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1330280",
+      "japanese": "授ける",
+      "reading": "さずける",
+      "level": "N2",
+      "spellings": [
+        "授ける"
+      ],
+      "readings": [
+        "さずける"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "授ける"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1361420",
+      "japanese": "振動",
+      "reading": "しんどう",
+      "level": "N2",
+      "spellings": [
+        "振動"
+      ],
+      "readings": [
+        "しんどう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "振動"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1362680",
+      "japanese": "深める",
+      "reading": "ふかめる",
+      "level": "N2",
+      "spellings": [
+        "深める"
+      ],
+      "readings": [
+        "ふかめる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "深める"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1373500",
+      "japanese": "据え付ける",
+      "reading": "すえつける",
+      "level": "N2",
+      "spellings": [
+        "据え付ける",
+        "据付ける",
+        "据えつける"
+      ],
+      "readings": [
+        "すえつける"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "据え付ける"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1379690",
+      "japanese": "盛り上がる",
+      "reading": "もりあがる",
+      "level": "N2",
+      "spellings": [
+        "盛り上がる",
+        "盛りあがる",
+        "盛り上る",
+        "盛上がる",
+        "盛上る"
+      ],
+      "readings": [
+        "もりあがる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "盛り上がる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1378770",
+      "japanese": "生まれつき",
+      "reading": "うまれつき",
+      "level": "N2",
+      "spellings": [
+        "生まれつき",
+        "生まれ付き",
+        "生れつき",
+        "生れ付き"
+      ],
+      "readings": [
+        "うまれつき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "生まれつき"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1379110",
+      "japanese": "生臭い",
+      "reading": "なまぐさい",
+      "level": "N2",
+      "spellings": [
+        "生臭い",
+        "腥い",
+        "生ぐさい",
+        "なま臭い"
+      ],
+      "readings": [
+        "なまぐさい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "生臭い"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1378810",
+      "japanese": "生ぬるい",
+      "reading": "なまぬるい",
+      "level": "N2",
+      "spellings": [
+        "生ぬるい",
+        "生温い"
+      ],
+      "readings": [
+        "なまぬるい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "生温い"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1477190",
+      "japanese": "発芽",
+      "reading": "はつが",
+      "level": "N2",
+      "spellings": [
+        "発芽"
+      ],
+      "readings": [
+        "はつが"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "発芽"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1477470",
+      "japanese": "発作",
+      "reading": "ほっさ",
+      "level": "N2",
+      "spellings": [
+        "発作"
+      ],
+      "readings": [
+        "ほっさ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "発作"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1477870",
+      "japanese": "発病",
+      "reading": "はつびょう",
+      "level": "N2",
+      "spellings": [
+        "発病"
+      ],
+      "readings": [
+        "はつびょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "発病"
+        ]
+      }
+    }
+  ]
+}

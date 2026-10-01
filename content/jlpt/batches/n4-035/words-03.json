@@ -1,0 +1,86 @@
+[
+  {
+    "japanese": "扇風機",
+    "reading": "せんぷうき",
+    "type": "noun",
+    "meaning": "선풍기",
+    "hint": "날개를 회전시켜 바람을 만드는 전기 기구",
+    "confusion": "エアコン",
+    "distinction": "바람을 만드는 기구와 실내 온도를 조절하는 냉난방 기구를 구별한다.",
+    "dictionaryId": "jmdict-1390760",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "洗剤",
+    "reading": "せんざい",
+    "type": "noun",
+    "meaning": "세제",
+    "hint": "때나 기름을 씻어 내는 데 사용하는 약제",
+    "confusion": "漂白剤",
+    "distinction": "때를 씻는 약제와 색이나 얼룩을 표백하는 약제를 구별한다.",
+    "dictionaryId": "jmdict-1390950",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "電球",
+    "reading": "でんきゅう",
+    "type": "noun",
+    "meaning": "전구",
+    "hint": "전기를 통해 빛을 내는 조명 부품",
+    "confusion": "電池",
+    "distinction": "빛을 내는 부품과 전기를 저장하는 부품을 구별한다.",
+    "dictionaryId": "jmdict-1443170",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "電池",
+    "reading": "でんち",
+    "type": "noun",
+    "meaning": "전지·건전지",
+    "hint": "기기에 전력을 공급하며 다 쓰면 교체하거나 충전하는 전원",
+    "confusion": "充電器",
+    "distinction": "기기에 전력을 공급하는 전원과 충전식 전원에 에너지를 채우는 기구를 구별한다.",
+    "dictionaryId": "jmdict-1443620",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "虹",
+    "reading": "にじ",
+    "type": "noun",
+    "meaning": "무지개",
+    "hint": "물방울에 햇빛이 비쳐 하늘에 나타나는 색의 띠",
+    "confusion": "雲",
+    "distinction": "여러 색의 빛 띠와 물방울이 모인 구름을 구별한다.",
+    "dictionaryId": "jmdict-1463740",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "日時",
+    "reading": "にちじ",
+    "type": "noun",
+    "meaning": "일시",
+    "hint": "어떤 일이 있을 날짜와 시간을 함께 말하는 것",
+    "confusion": "場所",
+    "distinction": "일이 있는 날짜와 시간과 일이 있는 장소를 구별한다.",
+    "dictionaryId": "jmdict-1464110",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "売店",
+    "reading": "ばいてん",
+    "type": "noun",
+    "meaning": "매점",
+    "hint": "역이나 시설 안에서 필요한 물품을 파는 작은 가게",
+    "confusion": "倉庫",
+    "distinction": "물품을 파는 작은 가게와 물품을 보관하는 곳을 구별한다.",
+    "dictionaryId": "jmdict-1474040",
+    "level": "N4",
+    "levelNote": "선택된 기본 생활·교통·자연 용법의 비공식 N4 편집 수준."
+  }
+]

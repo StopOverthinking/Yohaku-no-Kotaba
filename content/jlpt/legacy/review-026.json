@@ -163,20 +163,21 @@
   },
   {
     "wordId": "AbsoluteVerb_143",
-    "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
-    "proposalHash": "a9116d086c7cb835314c65483620a4cc80876e4b018b1c5c6f520ea64e071096",
+    "sourceHash": "70b57763254181d3bab445ad8bd95c9d7292e0a210fe0940db50f900da4d6cb2",
+    "proposalHash": "ef890a3c24a27f74b8ecc934068f275ca4790060c93a89045f38ef819ac24cae",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-026.json",
-    "reviewedAt": "2026-09-30T06:24:04.091Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "선택 사이에서 망설이는 일반적 뜻의 편집 N3를 수용한다."
+      "선택 망설임 기존 용법과 산에서 길을 잃는 별도 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "선택 망설임과 길을 잃는 일상 기본 용법을 함께 고려하여 비공식 N4로 재검토한다."
     ]
   },
   {
@@ -380,37 +381,39 @@
   {
     "wordId": "AbsoluteVerb_161",
     "sourceHash": "2a2258997b40c1dd6428fdbffe2bf2ae7a0c621b0fb7710d4937d10b8ec07150",
-    "proposalHash": "8e918f2923a6f5e5c064bf36b87389ace3c037a6f36dc4c4d35534c79178e61d",
+    "proposalHash": "ee4163d7ea08239483cccea372cb28d92da90a368695ed104bc99432e89810b3",
     "scope": "legacy-classification-proposal-only",
-    "outcome": "needs_followup",
+    "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
-    "levelOutcome": "unresolved",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-026.json",
-    "reviewedAt": "2026-09-30T06:24:04.091Z",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
     "notes": [
-      "무생물 존재의 두 예문은 맞으나 제공 사전 연결이 없어 보류한다."
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다. 有る의 존재 동사를 或る의 연체사와 구분한다.",
+      "현재 선택된 기초 ある 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
     ]
   },
   {
     "wordId": "AbsoluteVerb_162",
     "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
-    "proposalHash": "dc6645060e685862fd68f6ad86d379cfd90ac8282e06eb3e1b34d43df471bb19",
+    "proposalHash": "161ad1ae883de9fd3f3ff3ffca954df25625272b23eba82179d9b546b9a1e260",
     "scope": "legacy-classification-proposal-only",
-    "outcome": "needs_followup",
+    "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
-    "levelOutcome": "unresolved",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-026.json",
-    "reviewedAt": "2026-09-30T06:24:04.091Z",
+    "method": "Independent complete actual source and selected dictionary sense read",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
     "notes": [
-      "사람·동물 존재의 두 예문은 맞으나 동음어와 구분할 사전 연결이 없어 보류한다."
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다. 居る의 유정물 존재 동사를 要る/炒る/入る와 구분한다.",
+      "현재 선택된 기초 いる 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
     ]
   },
   {

@@ -1,0 +1,26 @@
+[
+  {
+    "japanese": "話しかける",
+    "reading": "はなしかける",
+    "type": "verb",
+    "meaning": "말을 걸다",
+    "hint": "상대에게 먼저 말을 하여 대화를 시작해요.",
+    "confusion": "答える",
+    "distinction": "먼저 대화를 시작하는 것과 질문에 대답하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1562300",
+    "level": "N4",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "温まる",
+    "reading": "あたたまる",
+    "type": "verb",
+    "meaning": "따뜻해지다",
+    "hint": "차갑던 몸이나 물건의 온도가 올라가요.",
+    "confusion": "冷える",
+    "distinction": "온도가 올라 따뜻해지는 것과 온도가 내려가는 것을 구별한다.",
+    "dictionaryId": "jmdict-1586430",
+    "level": "N4",
+    "levelNote": "선택한 실제 용법의 어휘 난도와 생활·문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  }
+]

@@ -1,0 +1,890 @@
+{
+  "preparedAt": "2026-10-01T00:55:57.087Z",
+  "scope": "explicit-reviewed-example-only-revision",
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1526360",
+      "previousPublication": {
+        "id": "lex-jmdict-1526360",
+        "level": "N5",
+        "source": {
+          "dictionary": "jmdict-1526360",
+          "proposedLevel": "N5",
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [
+              "N5"
+            ],
+            "matchedForms": [
+              "万年筆"
+            ]
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "c9fdd617caf041ec50e6306cc8e47ec5661454e1386e3fc7c5154fcd31b6bad2",
+        "publishedHash": "11fd7aaf3208de4a4e46b52fb279fe19d850927b975bd33e6649916862d036bd"
+      },
+      "previousGlobalReview": {
+        "wordId": "lex-jmdict-1526360",
+        "contentHash": "c9fdd617caf041ec50e6306cc8e47ec5661454e1386e3fc7c5154fcd31b6bad2",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "GPT-6 Astra high independent AI review: local JMdict, readings/POS, all three examples, Korean alignment, independent hints, contrasts and diversity. Parser passed; 300 published hashes unchanged; 1,868 senses/4,096 examples show zero masked pairs >=0.7 (41,630 comparisons). Not human expert review.",
+        "reviewedAt": "2026-09-30T00:35:13.149Z",
+        "notes": [
+          "파란 펜 몸체가 아니라 잉크색이 글의 특징임을 드러내도록 青いインクの万年筆로 수정했다."
+        ]
+      },
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1526360",
+          "setId": "jlpt-level-n5",
+          "japanese": "万年筆",
+          "reading": "まんねんひつ",
+          "meaning": "만년필",
+          "type": "noun",
+          "difficulty": 14,
+          "verbInfo": null,
+          "sourceOrder": 255
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1526360-1",
+          "wordId": "lex-jmdict-1526360",
+          "version": 1,
+          "meaning": "만년필",
+          "hint": "잉크를 넣어 금속 펜촉으로 글씨를 쓰는 필기구를 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "鉛筆",
+              "distinction": "万年筆: 잉크와 펜촉으로 쓰는 도구; 鉛筆: 심을 종이에 문질러 쓰는 도구."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1526360-1-ex-1",
+              "version": 1,
+              "before": "卒業祝いに",
+              "answer": "万年筆",
+              "after": "をもらいました。",
+              "reading": "まんねんひつ",
+              "translation": "졸업 선물로 만년필을 받았어요.",
+              "translationTarget": "만년필",
+              "difficulty": 14,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1526360-1-ex-2",
+              "version": 1,
+              "before": "父の",
+              "answer": "万年筆",
+              "after": "はインクが切れていました。",
+              "reading": "まんねんひつ",
+              "translation": "아버지 만년필은 잉크가 떨어져 있었어요.",
+              "translationTarget": "만년필",
+              "difficulty": 14,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1526360-1-ex-3",
+              "version": 1,
+              "before": "その手紙は青いインクの",
+              "answer": "万年筆",
+              "after": "で書かれていました。",
+              "reading": "まんねんひつ",
+              "translation": "그 편지는 파란 잉크가 든 만년필로 쓰여 있었어요.",
+              "translationTarget": "만년필",
+              "difficulty": 16,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1526360",
+          "setId": "jlpt-level-n5",
+          "japanese": "万年筆",
+          "reading": "まんねんひつ",
+          "meaning": "만년필",
+          "type": "noun",
+          "difficulty": 14,
+          "verbInfo": null,
+          "sourceOrder": 255
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1526360-1",
+          "wordId": "lex-jmdict-1526360",
+          "version": 1,
+          "meaning": "만년필",
+          "hint": "잉크를 넣어 금속 펜촉으로 글씨를 쓰는 필기구를 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "鉛筆",
+              "distinction": "万年筆: 잉크와 펜촉으로 쓰는 도구; 鉛筆: 심을 종이에 문질러 쓰는 도구."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1526360-1-ex-1",
+              "version": 2,
+              "before": "",
+              "answer": "万年筆",
+              "after": "にインクを入れすぎて、指が青くなりました。",
+              "reading": "まんねんひつ",
+              "translation": "만년필에 잉크를 너무 많이 넣어서 손가락이 파래졌어요.",
+              "translationTarget": "만년필",
+              "difficulty": 14,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1526360-1-ex-2",
+              "version": 1,
+              "before": "父の",
+              "answer": "万年筆",
+              "after": "はインクが切れていました。",
+              "reading": "まんねんひつ",
+              "translation": "아버지 만년필은 잉크가 떨어져 있었어요.",
+              "translationTarget": "만년필",
+              "difficulty": 14,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1526360-1-ex-3",
+              "version": 1,
+              "before": "その手紙は青いインクの",
+              "answer": "万年筆",
+              "after": "で書かれていました。",
+              "reading": "まんねんひつ",
+              "translation": "그 편지는 파란 잉크가 든 만년필로 쓰여 있었어요.",
+              "translationTarget": "만년필",
+              "difficulty": 16,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "review": {
+        "wordId": "lex-jmdict-1526360",
+        "contentHash": "9410159713de069679c0d7558b8099860158e068c02343529c8dea3c5c2004d6",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:52:25.963Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+        "notes": [
+          "선물 수령 장면을 잉크 보충 중 손에 묻는 장면으로 바꾼다. 기존 잉크가 떨어진 상태·편지 쓰기 장면과 구별한다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    },
+    {
+      "wordId": "lex-jmdict-1310050",
+      "previousPublication": {
+        "id": "lex-jmdict-1310050",
+        "level": "N4",
+        "source": {
+          "dictionary": "jmdict-1310050",
+          "proposedLevel": "N4",
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [
+              "N4"
+            ],
+            "matchedForms": [
+              "指輪"
+            ]
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "655146c17fd000539b936f87d580516248ea1bd753ed4eda261968d2a06eccbb",
+        "publishedHash": "2eea654d46821975d674ef5c4c706cbd779df464e7f31fe23decdb81ee61437f"
+      },
+      "previousGlobalReview": {
+        "contentHash": "655146c17fd000539b936f87d580516248ea1bd753ed4eda261968d2a06eccbb",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and diversity. Parser passed; 514 prior hashes unchanged; 2,082 senses/4,738 examples: zero masked pairs >=0.7 (60,494 comparisons). Not human expert review.",
+        "reviewedAt": "2026-09-30T00:57:39.189Z",
+        "notes": [
+          "반지가 손 전체에 크다는 문장을 손가락에 큰 것으로 고쳐 결합과 번역을 맞췄다."
+        ]
+      },
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1310050",
+          "setId": "jlpt-level-n4",
+          "japanese": "指輪",
+          "reading": "ゆびわ",
+          "meaning": "반지",
+          "type": "noun",
+          "difficulty": 17,
+          "verbInfo": null,
+          "sourceOrder": 153
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1310050-1",
+          "wordId": "lex-jmdict-1310050",
+          "version": 1,
+          "meaning": "반지",
+          "hint": "손가락에 끼워 장식하거나 약속의 의미를 나타내는 둥근 장신구를 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "腕輪",
+              "distinction": "指輪（ゆびわ）: 손가락에 끼우는 장신구; 腕輪（うでわ）: 손목이나 팔에 두르는 장신구."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1310050-1-ex-1",
+              "version": 1,
+              "before": "母から小さな",
+              "answer": "指輪",
+              "after": "をもらいました。",
+              "reading": "ゆびわ",
+              "translation": "어머니께 작은 반지를 받았어요.",
+              "translationTarget": "반지",
+              "difficulty": 16,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1310050-1-ex-2",
+              "version": 1,
+              "before": "この",
+              "answer": "指輪",
+              "after": "は私の指には少し大きいです。",
+              "reading": "ゆびわ",
+              "translation": "이 반지는 제 손가락에는 조금 커요.",
+              "translationTarget": "반지",
+              "difficulty": 17,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1310050-1-ex-3",
+              "version": 1,
+              "before": "旅行中に",
+              "answer": "指輪",
+              "after": "をなくさないよう、箱に入れました。",
+              "reading": "ゆびわ",
+              "translation": "여행 중 반지를 잃지 않도록 상자에 넣었어요.",
+              "translationTarget": "반지",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1310050",
+          "setId": "jlpt-level-n4",
+          "japanese": "指輪",
+          "reading": "ゆびわ",
+          "meaning": "반지",
+          "type": "noun",
+          "difficulty": 17,
+          "verbInfo": null,
+          "sourceOrder": 153
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1310050-1",
+          "wordId": "lex-jmdict-1310050",
+          "version": 1,
+          "meaning": "반지",
+          "hint": "손가락에 끼워 장식하거나 약속의 의미를 나타내는 둥근 장신구를 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "腕輪",
+              "distinction": "指輪（ゆびわ）: 손가락에 끼우는 장신구; 腕輪（うでわ）: 손목이나 팔에 두르는 장신구."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1310050-1-ex-1",
+              "version": 2,
+              "before": "",
+              "answer": "指輪",
+              "after": "のサイズを直してもらったら、指にぴったり合いました。",
+              "reading": "ゆびわ",
+              "translation": "반지 치수를 조정받았더니 손가락에 꼭 맞았어요.",
+              "translationTarget": "반지",
+              "difficulty": 16,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1310050-1-ex-2",
+              "version": 1,
+              "before": "この",
+              "answer": "指輪",
+              "after": "は私の指には少し大きいです。",
+              "reading": "ゆびわ",
+              "translation": "이 반지는 제 손가락에는 조금 커요.",
+              "translationTarget": "반지",
+              "difficulty": 17,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1310050-1-ex-3",
+              "version": 1,
+              "before": "旅行中に",
+              "answer": "指輪",
+              "after": "をなくさないよう、箱に入れました。",
+              "reading": "ゆびわ",
+              "translation": "여행 중 반지를 잃지 않도록 상자에 넣었어요.",
+              "translationTarget": "반지",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "review": {
+        "wordId": "lex-jmdict-1310050",
+        "contentHash": "cc6d2567f398fe871ead2f4f3b0a83e27abbd8da759120893a392772a1d5b697",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:52:25.963Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+        "notes": [
+          "선물 수령 장면을 치수 조정 이후 착용 결과로 바꾼다. 기존 조금 크다는 상태 묘사와 구별한다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    },
+    {
+      "wordId": "lex-jmdict-1042080",
+      "previousPublication": {
+        "id": "lex-jmdict-1042080",
+        "level": "N5",
+        "source": {
+          "dictionary": "jmdict-1042080",
+          "proposedLevel": null,
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [],
+            "matchedForms": []
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "af6ad5e955728098b6930681563a71d3a56172a67fa74da4e707b4b79d5bce8e",
+        "publishedHash": "3fe86a8685fe2500f80daf2a5ac5fd517200f3b3828d41102daf79f31115f1b4"
+      },
+      "previousGlobalReview": {
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete editorial review; compact record",
+        "reviewedAt": "2026-09-30T04:23:59.508Z",
+        "notes": [
+          "All words, meanings, readings, hints, contrasts, examples and translations reviewed."
+        ],
+        "contentHash": "af6ad5e955728098b6930681563a71d3a56172a67fa74da4e707b4b79d5bce8e"
+      },
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1042080",
+          "setId": "jlpt-level-n5",
+          "japanese": "キャンディ",
+          "reading": "キャンディ",
+          "meaning": "사탕",
+          "type": "noun",
+          "difficulty": 12,
+          "verbInfo": null,
+          "sourceOrder": 356
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1042080-1",
+          "wordId": "lex-jmdict-1042080",
+          "version": 1,
+          "meaning": "사탕",
+          "hint": "설탕 등을 굳혀 만든 작은 단 과자",
+          "confusions": [
+            {
+              "japanese": "チョコレート",
+              "distinction": "キャンディ는 설탕을 주재료로 굳힌 사탕, チョコレート는 카카오로 만든 과자이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1042080-1-ex-1",
+              "version": 1,
+              "before": "父からいちご味の",
+              "answer": "キャンディ",
+              "after": "をもらいました。",
+              "reading": "キャンディ",
+              "translation": "아버지에게 딸기 맛 사탕을 받았습니다.",
+              "translationTarget": "사탕",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1042080",
+          "setId": "jlpt-level-n5",
+          "japanese": "キャンディ",
+          "reading": "キャンディ",
+          "meaning": "사탕",
+          "type": "noun",
+          "difficulty": 12,
+          "verbInfo": null,
+          "sourceOrder": 356
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1042080-1",
+          "wordId": "lex-jmdict-1042080",
+          "version": 1,
+          "meaning": "사탕",
+          "hint": "설탕 등을 굳혀 만든 작은 단 과자",
+          "confusions": [
+            {
+              "japanese": "チョコレート",
+              "distinction": "キャンディ는 설탕을 주재료로 굳힌 사탕, チョコレート는 카카오로 만든 과자이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1042080-1-ex-1",
+              "version": 2,
+              "before": "口の中で",
+              "answer": "キャンディ",
+              "after": "が溶けて、甘い味が広がりました。",
+              "reading": "キャンディ",
+              "translation": "입안에서 사탕이 녹아 달콤한 맛이 퍼졌습니다.",
+              "translationTarget": "사탕",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "review": {
+        "wordId": "lex-jmdict-1042080",
+        "contentHash": "55909b2a2372a58ad2765b433187f3cfde106e3ddc19e26bbb647d77844522bd",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:52:25.963Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+        "notes": [
+          "선물 수령 장면을 입안에서 녹아 맛이 퍼지는 장면으로 바꾼다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    },
+    {
+      "wordId": "lex-jmdict-1013050",
+      "previousPublication": {
+        "id": "lex-jmdict-1013050",
+        "level": "N3",
+        "source": {
+          "dictionary": "jmdict-1013050",
+          "proposedLevel": "N3",
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [
+              "N3"
+            ],
+            "matchedForms": [
+              "ゆっくり"
+            ]
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "7fe2b14f92fbddd017bb341bd345ed75aece54f7cee5e3dc7c4fa07ca1ba055d",
+        "publishedHash": "e9ddcf8f35b94ea25b7bcdeea19550a4fbbc0fe5925065b3d7f7a4b58749861c"
+      },
+      "previousGlobalReview": {
+        "contentHash": "7fe2b14f92fbddd017bb341bd345ed75aece54f7cee5e3dc7c4fa07ca1ba055d",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent AI editorial review; n3-001/review-summary.json",
+        "reviewedAt": "2026-09-30T01:15:57.837Z",
+        "notes": [
+          "느린 걸음·충분한 대화 시간·작품 감상에서 여유와 속도 의미를 확인했다."
+        ]
+      },
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1013050",
+          "setId": "jlpt-level-n3",
+          "japanese": "ゆっくり",
+          "reading": "ゆっくり",
+          "meaning": "천천히, 여유 있게",
+          "type": "adv",
+          "difficulty": 21,
+          "verbInfo": null,
+          "sourceOrder": 37
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1013050-1",
+          "wordId": "lex-jmdict-1013050",
+          "version": 1,
+          "meaning": "천천히, 여유 있게",
+          "hint": "급히 움직이지 않고 속도를 낮춰 충분한 시간을 들이는 모습을 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "そっと",
+              "distinction": "ゆっくり: 동작이나 진행의 속도가 느림; そっと: 소리나 움직임을 줄여 조심스럽고 눈에 띄지 않게 함."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1013050-1-ex-1",
+              "version": 1,
+              "before": "道が凍っているので、",
+              "answer": "ゆっくり",
+              "after": "歩いてください。",
+              "reading": "ゆっくり",
+              "translation": "길이 얼어 있으니 천천히 걸어 주세요.",
+              "translationTarget": "천천히",
+              "difficulty": 20,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1013050-1-ex-2",
+              "version": 1,
+              "before": "久しぶりに会った友達と",
+              "answer": "ゆっくり",
+              "after": "話せました。",
+              "reading": "ゆっくり",
+              "translation": "오랜만에 만난 친구와 여유 있게 이야기할 수 있었어요.",
+              "translationTarget": "여유 있게",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1013050-1-ex-3",
+              "version": 1,
+              "before": "急ぐ必要はありません。この絵を",
+              "answer": "ゆっくり",
+              "after": "見てください。",
+              "reading": "ゆっくり",
+              "translation": "서두를 필요 없어요. 이 그림을 천천히 보세요.",
+              "translationTarget": "천천히",
+              "difficulty": 21,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1013050",
+          "setId": "jlpt-level-n3",
+          "japanese": "ゆっくり",
+          "reading": "ゆっくり",
+          "meaning": "천천히, 여유 있게",
+          "type": "adv",
+          "difficulty": 21,
+          "verbInfo": null,
+          "sourceOrder": 37
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1013050-1",
+          "wordId": "lex-jmdict-1013050",
+          "version": 1,
+          "meaning": "천천히, 여유 있게",
+          "hint": "급히 움직이지 않고 속도를 낮춰 충분한 시간을 들이는 모습을 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "そっと",
+              "distinction": "ゆっくり: 동작이나 진행의 속도가 느림; そっと: 소리나 움직임을 줄여 조심스럽고 눈에 띄지 않게 함."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1013050-1-ex-1",
+              "version": 1,
+              "before": "道が凍っているので、",
+              "answer": "ゆっくり",
+              "after": "歩いてください。",
+              "reading": "ゆっくり",
+              "translation": "길이 얼어 있으니 천천히 걸어 주세요.",
+              "translationTarget": "천천히",
+              "difficulty": 20,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1013050-1-ex-2",
+              "version": 2,
+              "before": "休日の朝は、",
+              "answer": "ゆっくり",
+              "after": "朝ご飯を食べます。",
+              "reading": "ゆっくり",
+              "translation": "휴일 아침에는 여유 있게 아침밥을 먹어요.",
+              "translationTarget": "여유 있게",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1013050-1-ex-3",
+              "version": 1,
+              "before": "急ぐ必要はありません。この絵を",
+              "answer": "ゆっくり",
+              "after": "見てください。",
+              "reading": "ゆっくり",
+              "translation": "서두를 필요 없어요. 이 그림을 천천히 보세요.",
+              "translationTarget": "천천히",
+              "difficulty": 21,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "review": {
+        "wordId": "lex-jmdict-1013050",
+        "contentHash": "da0fbd60af13784f17fcea71107207e5eb88850f7992e578b63b29b2025dbe96",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:52:25.963Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+        "notes": [
+          "친구와 대화하는 장면을 휴일 아침 식사로 바꿔 충분한 시간을 들이는 기존 뜻을 유지한다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    },
+    {
+      "wordId": "lex-jmdict-1594110",
+      "previousPublication": {
+        "id": "lex-jmdict-1594110",
+        "level": "N4",
+        "source": {
+          "dictionary": "jmdict-1594110",
+          "proposedLevel": "N4",
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [
+              "N4"
+            ],
+            "matchedForms": [
+              "仕方"
+            ]
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "7d244f18a08aa87bb847f764763a74847bf5a9a833766294ea34caf52ea8935d",
+        "publishedHash": "f87cd50e58a7a95bb2ffc7712e3c9a8a9452566301790c8d6a4df70045b27081"
+      },
+      "previousGlobalReview": {
+        "contentHash": "7d244f18a08aa87bb847f764763a74847bf5a9a833766294ea34caf52ea8935d",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 162 examples, Korean, hints, contrasts and scene diversity. Parser passed; 634 prior hashes unchanged; 2,196 senses/5,080 examples: zero masked pairs >=0.7 (73,209 comparisons). Not human expert review.",
+        "reviewedAt": "2026-09-30T01:09:00.882Z",
+        "notes": [
+          "일 처리·연습·청소 방식의 명사 용법을 확인했다."
+        ]
+      },
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1594110",
+          "setId": "jlpt-level-n4",
+          "japanese": "仕方",
+          "reading": "しかた",
+          "meaning": "방법, 하는 방식",
+          "type": "noun",
+          "difficulty": 17,
+          "verbInfo": null,
+          "sourceOrder": 249
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1594110-1",
+          "wordId": "lex-jmdict-1594110",
+          "version": 1,
+          "meaning": "방법, 하는 방식",
+          "hint": "어떤 일을 처리하거나 물건을 사용하는 순서와 방법을 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "方法",
+              "distinction": "仕方（しかた）: 어떤 일을 하는 방식이나 방법을 일상적으로 가리킴; 方法（ほうほう）: 목적을 이루기 위한 방법·수단을 비교적 일반적으로 가리킴."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1594110-1-ex-1",
+              "version": 1,
+              "before": "この仕事の",
+              "answer": "仕方",
+              "after": "を教えてください。",
+              "reading": "しかた",
+              "translation": "이 일의 방법을 알려 주세요.",
+              "translationTarget": "방법",
+              "difficulty": 17,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1594110-1-ex-2",
+              "version": 1,
+              "before": "先生の説明を聞いて、練習の",
+              "answer": "仕方",
+              "after": "が分かりました。",
+              "reading": "しかた",
+              "translation": "선생님 설명을 듣고 연습 방법을 알았어요.",
+              "translationTarget": "방법",
+              "difficulty": 18,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1594110-1-ex-3",
+              "version": 1,
+              "before": "人によって掃除の",
+              "answer": "仕方",
+              "after": "が違います。",
+              "reading": "しかた",
+              "translation": "사람마다 청소하는 방식이 달라요.",
+              "translationTarget": "방식",
+              "difficulty": 17,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1594110",
+          "setId": "jlpt-level-n4",
+          "japanese": "仕方",
+          "reading": "しかた",
+          "meaning": "방법, 하는 방식",
+          "type": "noun",
+          "difficulty": 17,
+          "verbInfo": null,
+          "sourceOrder": 249
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1594110-1",
+          "wordId": "lex-jmdict-1594110",
+          "version": 1,
+          "meaning": "방법, 하는 방식",
+          "hint": "어떤 일을 처리하거나 물건을 사용하는 순서와 방법을 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "方法",
+              "distinction": "仕方（しかた）: 어떤 일을 하는 방식이나 방법을 일상적으로 가리킴; 方法（ほうほう）: 목적을 이루기 위한 방법·수단을 비교적 일반적으로 가리킴."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1594110-1-ex-1",
+              "version": 2,
+              "before": "洗濯の",
+              "answer": "仕方",
+              "after": "を変えたら、シャツが縮まなくなりました。",
+              "reading": "しかた",
+              "translation": "세탁 방법을 바꾸었더니 셔츠가 줄어들지 않게 됐어요.",
+              "translationTarget": "방법",
+              "difficulty": 17,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1594110-1-ex-2",
+              "version": 1,
+              "before": "先生の説明を聞いて、練習の",
+              "answer": "仕方",
+              "after": "が分かりました。",
+              "reading": "しかた",
+              "translation": "선생님 설명을 듣고 연습 방법을 알았어요.",
+              "translationTarget": "방법",
+              "difficulty": 18,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-lex-jmdict-1594110-1-ex-3",
+              "version": 1,
+              "before": "人によって掃除の",
+              "answer": "仕方",
+              "after": "が違います。",
+              "reading": "しかた",
+              "translation": "사람마다 청소하는 방식이 달라요.",
+              "translationTarget": "방식",
+              "difficulty": 17,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "review": {
+        "wordId": "lex-jmdict-1594110",
+        "contentHash": "c5b9373699c5be71ef9fec7ae7af024d1af732bd25154fc2fde22e6010d5f0e1",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T00:52:25.963Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+        "notes": [
+          "방법을 알려 달라는 공통 틀을 세탁 방법 변경에 따른 결과 장면으로 바꾼다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    }
+  ]
+}

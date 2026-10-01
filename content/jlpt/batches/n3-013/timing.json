@@ -1,6 +1,6 @@
 {
   "batch": "n3-013",
-  "status": "in-progress",
+  "status": "draft-ready",
   "startedAt": "2026-09-30T06:49:06.491Z",
   "sourceAuthoringBatch": "practical-core-050",
   "authorModel": "gpt-6.1-sol",
@@ -11,23 +11,27 @@
       "fileNumber": "01",
       "startedAt": "2026-09-30T06:49:06.491Z",
       "metadataCompletedAt": "2026-09-30T06:49:06.494Z",
-      "draftCompletedAt": null,
-      "validationCompletedAt": null,
+      "draftCompletedAt": "2026-09-30T23:43:34.129922+00:00",
+      "validationCompletedAt": "2026-09-30T23:43:35.322Z",
       "wordCount": 25,
       "revisionAttempts": 0,
       "observedErrors": 0,
-      "pureThinkingSeconds": null
+      "pureThinkingSeconds": null,
+      "preflightMilliseconds": 1140.3252
     },
     {
       "fileNumber": "02",
       "startedAt": "2026-09-30T06:49:06.491Z",
       "metadataCompletedAt": "2026-09-30T06:49:06.494Z",
-      "draftCompletedAt": null,
-      "validationCompletedAt": null,
+      "draftCompletedAt": "2026-09-30T23:43:34.129922+00:00",
+      "validationCompletedAt": "2026-09-30T23:43:35.655Z",
       "wordCount": 1,
       "revisionAttempts": 0,
       "observedErrors": 0,
-      "pureThinkingSeconds": null
+      "pureThinkingSeconds": null,
+      "preflightMilliseconds": 232.02270000000001
     }
-  ]
+  ],
+  "resumedAt": "2026-10-01",
+  "resumeNote": "Original metadata preserved; resumed missing original examples. Prior paused elapsed time is not author time."
 }

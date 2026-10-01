@@ -1,0 +1,38 @@
+[
+  {
+    "japanese": "面倒くさい",
+    "reading": "めんどくさい",
+    "type": "i_adj",
+    "meaning": "귀찮다",
+    "hint": "수고나 절차가 많아 하기 싫은 느낌이 드는 상태예요.",
+    "confusion": "手軽",
+    "distinction": "수고가 많아 싫은 느낌과 간단하게 할 수 있는 상태를 구별한다.",
+    "dictionaryId": "jmdict-1533560",
+    "level": "N4",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "有難い",
+    "reading": "ありがたい",
+    "type": "i_adj",
+    "meaning": "고맙다·감사하다",
+    "hint": "도움이나 좋은 일을 받아 감사할 만한 상태예요.",
+    "confusion": "迷惑",
+    "distinction": "도움으로 고마운 상태와 폐를 끼쳐 불편한 상태를 구별한다.",
+    "dictionaryId": "jmdict-1541560",
+    "level": "N4",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  },
+  {
+    "japanese": "真っ白",
+    "reading": "まっしろ",
+    "type": "na_adj",
+    "meaning": "새하얗다",
+    "hint": "다른 색이 섞이지 않고 온통 흰 상태예요.",
+    "confusion": "真っ黒",
+    "distinction": "온통 흰 상태와 온통 검은 상태를 구별한다.",
+    "dictionaryId": "jmdict-1580620",
+    "level": "N4",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N4 권장 수준."
+  }
+]

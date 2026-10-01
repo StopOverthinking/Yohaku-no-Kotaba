@@ -1584,6 +1584,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1135270-1",
+    "wordId": "lex-jmdict-1135270",
+    "version": 1,
+    "meaning": "모델·모형",
+    "hint": "실물의 구조나 모습을 본떠 만든 것",
+    "confusions": [
+      {
+        "japanese": "実物",
+        "distinction": "본떠 만든 것과 실제 물건을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1135270-1-ex-1",
+        "version": 1,
+        "before": "建築家は、家の",
+        "answer": "モデル",
+        "after": "を見せて屋根の形を説明した。",
+        "reading": "モデル",
+        "translation": "건축가는 집의 모형을 보여 주며 지붕 모양을 설명했다.",
+        "translationTarget": "모형",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330640-1",
+    "wordId": "lex-jmdict-1330640",
+    "version": 1,
+    "meaning": "수지, 수입과 지출",
+    "hint": "들어온 돈과 나간 돈을 함께 나타냅니다.",
+    "confusions": [
+      {
+        "japanese": "収入",
+        "distinction": "収支는 수입과 지출 양쪽이고 収入는 들어온 돈만이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330640-1-ex-1",
+        "version": 1,
+        "before": "毎月の",
+        "answer": "収支",
+        "after": "を記録すると、無駄な出費に気づきやすい。",
+        "reading": "しゅうし",
+        "translation": "매달 수입과 지출을 기록하면 불필요한 지출을 알아차리기 쉽다.",
+        "translationTarget": "수입과 지출",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328380-1",
+    "wordId": "lex-jmdict-1328380",
+    "version": 1,
+    "meaning": "기법, 방법",
+    "hint": "작품·연구·작업에서 사용하는 구체적인 방식입니다.",
+    "confusions": [
+      {
+        "japanese": "目的",
+        "distinction": "手法는 수행 방법이고 目的는 이루려는 목표이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328380-1-ex-1",
+        "version": 1,
+        "before": "この映画では、昔の撮影",
+        "answer": "手法",
+        "after": "をあえて使っている。",
+        "reading": "しゅほう",
+        "translation": "이 영화에서는 옛 촬영 기법을 일부러 사용하고 있다.",
+        "translationTarget": "기법",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435400-1",
+    "wordId": "lex-jmdict-1435400",
+    "version": 1,
+    "meaning": "정원",
+    "hint": "모집·이용 등에 허용하거나 정해 놓은 인원수입니다.",
+    "confusions": [
+      {
+        "japanese": "人数",
+        "distinction": "定員는 정해진 인원 한도이고 人数는 실제 사람 수 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435400-1-ex-1",
+        "version": 1,
+        "before": "申し込みが",
+        "answer": "定員",
+        "after": "に達したため、募集を終了した。",
+        "reading": "ていいん",
+        "translation": "신청이 정원에 도달하여 모집을 마쳤다.",
+        "translationTarget": "정원",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1490140-1",
+    "wordId": "lex-jmdict-1490140",
+    "version": 1,
+    "meaning": "묘사",
+    "hint": "장면·상태·심리를 글·그림 등으로 구체적으로 나타냅니다.",
+    "confusions": [
+      {
+        "japanese": "説明",
+        "distinction": "描写는 모습·느낌을 표현함이고 説明는 이해하도록 풀어 말함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1490140-1-ex-1",
+        "version": 1,
+        "before": "細やかな心理の",
+        "answer": "描写",
+        "after": "によって、登場人物が身近に感じられる。",
+        "reading": "びょうしゃ",
+        "translation": "섬세한 심리 묘사로 등장인물을 친근하게 느낄 수 있다.",
+        "translationTarget": "묘사",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333810-1",
+    "wordId": "lex-jmdict-1333810",
+    "version": 1,
+    "meaning": "추하다",
+    "hint": "보기에 아름답지 않거나 불쾌한 상태예요.",
+    "confusions": [
+      {
+        "japanese": "美しい",
+        "distinction": "아름답지 않고 보기 싫은 상태와 아름다운 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333810-1-ex-1",
+        "version": 1,
+        "before": "責任を押し付け合う",
+        "answer": "醜い",
+        "after": "争いは、もうやめよう。",
+        "reading": "みにくい",
+        "translation": "책임을 서로 떠넘기는 추한 다툼은 이제 그만하자.",
+        "translationTarget": "추한",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425030-1",
+    "wordId": "lex-jmdict-1425030",
+    "version": 1,
+    "meaning": "도중·중도",
+    "hint": "일이나 과정이 아직 끝나지 않은 중간 단계",
+    "confusions": [
+      {
+        "japanese": "完了",
+        "distinction": "과정의 중간 단계와 일이 끝난 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425030-1-ex-1",
+        "version": 1,
+        "before": "事情があって、計画を",
+        "answer": "中途",
+        "after": "で変更することになった。",
+        "reading": "ちゅうと",
+        "translation": "사정이 있어서 계획을 도중에 변경하게 되었다.",
+        "translationTarget": "도중",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538350-1",
+    "wordId": "lex-jmdict-1538350",
+    "version": 1,
+    "meaning": "번역하다",
+    "hint": "어떤 언어의 내용을 다른 언어로 옮겨 표현해요.",
+    "confusions": [
+      {
+        "japanese": "写す",
+        "distinction": "언어를 바꾸어 표현하는 것과 그대로 베끼는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538350-1-ex-1",
+        "version": 1,
+        "before": "説明書を日本語に",
+        "answer": "訳して",
+        "after": "、祖母に渡した。",
+        "reading": "やくして",
+        "translation": "설명서를 일본어로 번역하여 할머니께 드렸다.",
+        "translationTarget": "번역하여",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491910-1",
+    "wordId": "lex-jmdict-1491910",
+    "version": 1,
+    "meaning": "불길함",
+    "hint": "좋지 않은 일이 생길 것 같은 느낌·징조입니다.",
+    "confusions": [
+      {
+        "japanese": "不運",
+        "distinction": "不吉는 나쁜 일을 예감하게 함이고 不運는 실제 운이 나쁨이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491910-1-ex-1",
+        "version": 1,
+        "before": "電話が鳴った瞬間、なぜか",
+        "answer": "不吉",
+        "after": "な予感がした。",
+        "reading": "ふきつ",
+        "translation": "전화가 울린 순간 왠지 불길한 예감이 들었다.",
+        "translationTarget": "불길한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530080-1",
+    "wordId": "lex-jmdict-1530080",
+    "version": 1,
+    "meaning": "천진함, 순진함",
+    "hint": "꾸밈·악의 없이 솔직하고 맑습니다.",
+    "confusions": [
+      {
+        "japanese": "無知",
+        "distinction": "無邪気는 악의·꾸밈이 없음이고 無知는 아는 것이 부족함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530080-1-ex-1",
+        "version": 1,
+        "before": "子どもたちの",
+        "answer": "無邪気",
+        "after": "な笑顔に、緊張がほぐれた。",
+        "reading": "むじゃき",
+        "translation": "아이들의 천진한 미소에 긴장이 풀렸다.",
+        "translationTarget": "천진한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1188890-1",
+    "wordId": "lex-jmdict-1188890",
+    "version": 1,
+    "meaning": "늘, 항상",
+    "hint": "평소에 변함없이 같은 상태나 행동이 이어지는 모습",
+    "confusions": [
+      {
+        "japanese": "よく",
+        "distinction": "항상 또는 평소와 변함없음을 나타내는 말과 자주 일어나지만 매번은 아닐 수 있는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1188890-1-ex-1",
+        "version": 1,
+        "before": "祖父は",
+        "answer": "いつも",
+        "after": "同じ席に座ります。",
+        "reading": "いつも",
+        "translation": "할아버지는 항상 같은 자리에 앉아요.",
+        "translationTarget": "항상",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1732,6 +1732,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1285140-1",
+    "wordId": "lex-jmdict-1285140",
+    "version": 1,
+    "meaning": "합동",
+    "hint": "여러 집단이 함께 모여 같은 활동을 합니다.",
+    "confusions": [
+      {
+        "japanese": "単独",
+        "distinction": "선택한 合同는 여러 집단이 함께 함이고 単独는 하나가 따로 함이다. 합병·수학의 합동이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1285140-1-ex-1",
+        "version": 1,
+        "before": "三つの学校が",
+        "answer": "合同",
+        "after": "で避難訓練を実施した。",
+        "reading": "ごうどう",
+        "translation": "세 학교가 합동으로 대피 훈련을 실시했다.",
+        "translationTarget": "합동",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1303930-1",
+    "wordId": "lex-jmdict-1303930",
+    "version": 1,
+    "meaning": "산수",
+    "hint": "초등학교에서 수와 계산의 기초를 배우는 과목",
+    "confusions": [
+      {
+        "japanese": "数学",
+        "distinction": "초등학교의 기초 계산 과목과 더 넓은 수학 분야를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1303930-1-ex-1",
+        "version": 1,
+        "before": "妹は",
+        "answer": "算数",
+        "after": "が得意で、買い物の合計をすぐに計算する。",
+        "reading": "さんすう",
+        "translation": "여동생은 산수를 잘해서 쇼핑 금액의 합계를 바로 계산한다.",
+        "translationTarget": "산수",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578970-1",
+    "wordId": "lex-jmdict-1578970",
+    "version": 1,
+    "meaning": "합병",
+    "hint": "따로 있던 회사·기관 등을 하나의 조직으로 합칩니다.",
+    "confusions": [
+      {
+        "japanese": "提携",
+        "distinction": "合併는 조직을 합침이고 提携는 별도 조직끼리 협력함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578970-1-ex-1",
+        "version": 1,
+        "before": "二つの会社が",
+        "answer": "合併",
+        "after": "し、新しい社名になった。",
+        "reading": "がっぺい",
+        "translation": "회사 두 곳이 합병하여 새 회사 이름이 되었다.",
+        "translationTarget": "합병",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1277880-1",
+    "wordId": "lex-jmdict-1277880",
+    "version": 1,
+    "meaning": "효도",
+    "hint": "부모를 공경하고 잘 돌보는 행동",
+    "confusions": [
+      {
+        "japanese": "親不孝",
+        "distinction": "부모를 잘 대하는 것과 부모를 걱정시키는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1277880-1-ex-1",
+        "version": 1,
+        "before": "遠くに住んでいても、電話で話すだけで親",
+        "answer": "孝行",
+        "after": "になる。",
+        "reading": "こうこう",
+        "translation": "멀리 살아도 전화로 이야기하는 것만으로 부모에게 효도가 된다.",
+        "translationTarget": "효도",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475790-1",
+    "wordId": "lex-jmdict-1475790",
+    "version": 1,
+    "meaning": "막연히",
+    "hint": "내용·모양이 명확하지 않고 어렴풋한 모습입니다.",
+    "confusions": [
+      {
+        "japanese": "明確",
+        "distinction": "漠然는 분명하지 않음이고 明確는 뚜렷함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475790-1-ex-1",
+        "version": 1,
+        "before": "将来への不安はあるが、何が心配なのかは",
+        "answer": "漠然",
+        "after": "としている。",
+        "reading": "ばくぜん",
+        "translation": "미래에 대한 불안은 있지만 무엇이 걱정인지는 막연하다.",
+        "translationTarget": "막연하다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330280-1",
+    "wordId": "lex-jmdict-1330280",
+    "version": 1,
+    "meaning": "수여하다, 가르쳐 주다",
+    "hint": "지식·자격·소중한 것을 상대에게 줍니다.",
+    "confusions": [
+      {
+        "japanese": "授かる",
+        "distinction": "授ける는 지식·자격 등을 주는 쪽의 행동이고 授かる는 받는 쪽의 행동이다. 조언·지식을 전하는 데도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330280-1-ex-1",
+        "version": 1,
+        "before": "先生は、旅に出る弟子に最後の助言を",
+        "answer": "授けた",
+        "after": "。",
+        "reading": "さずけた",
+        "translation": "선생님은 여행을 떠나는 제자에게 마지막 조언을 전해 주었다.",
+        "translationTarget": "전해 주었다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

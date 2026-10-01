@@ -165,13 +165,13 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-AbsoluteVerb_266-1-ex-2",
-        "version": 1,
-        "before": "椅子を少し",
-        "answer": "上げたら",
-        "after": "、机との高さがちょうどよくなった。",
-        "reading": "あげたら",
-        "translation": "의자를 조금 올렸더니 책상과의 높이가 알맞아졌다.",
-        "translationTarget": "올렸더니",
+        "version": 2,
+        "before": "質問がある人は、手を",
+        "answer": "上げて",
+        "after": "ください。",
+        "reading": "あげて",
+        "translation": "질문이 있는 사람은 손을 들어 주세요.",
+        "translationTarget": "들어",
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -1629,6 +1629,166 @@ const content: LearnSense[] = [
         "translation": "포장이 엉성했기 때문에 도착한 접시에 금이 가 있었다.",
         "translationTarget": "엉성",
         "difficulty": 44,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542380-1",
+    "wordId": "lex-jmdict-1542380",
+    "version": 1,
+    "meaning": "우송, 우편 발송",
+    "hint": "서류·물건을 우편 서비스를 통해 보냅니다.",
+    "confusions": [
+      {
+        "japanese": "配送",
+        "distinction": "郵送는 우편 발송이고 配送는 배송·배달 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542380-1-ex-1",
+        "version": 1,
+        "before": "申請書は窓口に持参せず、",
+        "answer": "郵送",
+        "after": "でも提出できる。",
+        "reading": "ゆうそう",
+        "translation": "신청서는 창구에 직접 가져가지 않고 우편 발송으로도 제출할 수 있다.",
+        "translationTarget": "우편 발송",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327530-1",
+    "wordId": "lex-jmdict-1327530",
+    "version": 1,
+    "meaning": "간편하다, 손쉽다",
+    "hint": "큰 노력·비용 없이 쉽게 이용하거나 할 수 있습니다.",
+    "confusions": [
+      {
+        "japanese": "簡単",
+        "distinction": "선택한 手軽는 부담 없이 할 수 있음이고 簡単는 구조·방법이 단순함도 폭넓게 말한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327530-1-ex-1",
+        "version": 1,
+        "before": "電子書籍なら、外出先でも",
+        "answer": "手軽",
+        "after": "に読書を楽しめる。",
+        "reading": "てがる",
+        "translation": "전자책이라면 외출한 곳에서도 손쉽게 독서를 즐길 수 있다.",
+        "translationTarget": "손쉽게",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379230-1",
+    "wordId": "lex-jmdict-1379230",
+    "version": 1,
+    "meaning": "생존",
+    "hint": "살아 있는 상태를 유지하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "死亡",
+        "distinction": "生存는 살아 있음이고 死亡는 생명을 잃음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379230-1-ex-1",
+        "version": 1,
+        "before": "救助隊は、倒れた建物の中に",
+        "answer": "生存",
+        "after": "者がいないか調べた。",
+        "reading": "せいぞん",
+        "translation": "구조대는 무너진 건물 안에 생존자가 없는지 조사했다.",
+        "translationTarget": "생존",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1287180-1",
+    "wordId": "lex-jmdict-1287180",
+    "version": 1,
+    "meaning": "국립",
+    "hint": "국가가 세우고 운영하는 것",
+    "confusions": [
+      {
+        "japanese": "私立",
+        "distinction": "국가가 운영하는 기관과 민간이 운영하는 기관을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1287180-1-ex-1",
+        "version": 1,
+        "before": "姉は",
+        "answer": "国立",
+        "after": "の大学で、農業について研究している。",
+        "reading": "こくりつ",
+        "translation": "언니는 국립 대학에서 농업에 관해 연구하고 있다.",
+        "translationTarget": "국립",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546050-1",
+    "wordId": "lex-jmdict-1546050",
+    "version": 1,
+    "meaning": "풀다·액체에 섞다",
+    "hint": "가루나 재료를 액체에 섞어 고르게 풀어요.",
+    "confusions": [
+      {
+        "japanese": "混ぜる",
+        "distinction": "가루를 액체에 풀어 고르게 만드는 것과 넓은 의미의 섞기를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546050-1-ex-1",
+        "version": 1,
+        "before": "少しの水で片栗粉を",
+        "answer": "溶いて",
+        "after": "、最後に鍋へ加える。",
+        "reading": "といて",
+        "translation": "적은 양의 물에 전분을 풀어 마지막에 냄비에 넣는다.",
+        "translationTarget": "풀어",
+        "difficulty": 29,
         "status": "reviewed"
       }
     ]

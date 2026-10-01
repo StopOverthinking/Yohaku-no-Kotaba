@@ -1,0 +1,38 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "practical-authored-content",
+  "parts": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T23:56:37.251Z",
+      "draftCompletedAt": "2026-09-30T23:58:42.532Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:10:44.445Z",
+      "lastPreflightMilliseconds": 1090.7353
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T23:59:17.452Z",
+      "draftCompletedAt": "2026-10-01T00:00:41.739Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:10:45.612Z",
+      "lastPreflightMilliseconds": 1067.1833
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-10-01T00:01:05.186Z",
+      "draftCompletedAt": "2026-10-01T00:03:29.900Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-10-01T00:03:31.041Z",
+      "lastPreflightMilliseconds": 1069.1837
+    }
+  ],
+  "pureCompositionTime": null
+}

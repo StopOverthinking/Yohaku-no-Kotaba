@@ -170,15 +170,16 @@
   },
   {
     "wordId": "lex-jmdict-1310050",
-    "contentHash": "655146c17fd000539b936f87d580516248ea1bd753ed4eda261968d2a06eccbb",
+    "contentHash": "cc6d2567f398fe871ead2f4f3b0a83e27abbd8da759120893a392772a1d5b697",
     "outcome": "accepted",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "GPT-6 Astra high independent AI review: JMdict readings/POS, representative N4 senses, 180 examples, Korean, hints, contrasts and diversity. Parser passed; 514 prior hashes unchanged; 2,082 senses/4,738 examples: zero masked pairs >=0.7 (60,494 comparisons). Not human expert review.",
-    "reviewedAt": "2026-09-30T00:57:39.189Z",
+    "reviewedAt": "2026-10-01T00:52:25.963Z",
+    "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
     "notes": [
-      "반지가 손 전체에 크다는 문장을 손가락에 큰 것으로 고쳐 결합과 번역을 맞췄다."
+      "선물 수령 장면을 치수 조정 이후 착용 결과로 바꾼다. 기존 조금 크다는 상태 묘사와 구별한다.",
+      "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
     ]
   },
   {

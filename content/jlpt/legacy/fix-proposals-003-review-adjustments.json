@@ -1,0 +1,13 @@
+{
+  "reviewedAt": "2026-10-01T00:33:35.016Z",
+  "beforeProposalHash": "afea737413b1184ae963e187f380f79bda3812377b80baf74ef2f0e7cc4e2a8b",
+  "changes": [
+    {
+      "wordId": "AbsoluteVerb_49",
+      "field": "after.senses[0].meaning",
+      "before": "의견이나 느낌을 생각하다",
+      "after": "생각하다, 여기다 (의견·느낌을 품다)",
+      "reason": "한국어 뜻풀이를 자연스럽게 하고 기존 의견·판단 용법 유지"
+    }
+  ]
+}

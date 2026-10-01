@@ -1,0 +1,137 @@
+[
+  {
+    "wordId": "handmade_119",
+    "level": "N5",
+    "sourceHash": "d194b8584b53891f4f7e9516ea5cf0cc6629295414057bc5cfbe58fe5f5f9053",
+    "aliasGroupId": "alias-handmade_119",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.690Z",
+    "notes": [
+      "帰る의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_118",
+    "level": "N5",
+    "sourceHash": "3d310423838c1631c284ff41d596946aa39361e6b68d7d786518dc2562535d53",
+    "aliasGroupId": "alias-handmade_118",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "入る의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_99",
+    "level": "N5",
+    "sourceHash": "1542976aad6a41782d0e65849e52e98f532dcdc24a491cd234fde2da65c7c207",
+    "aliasGroupId": "alias-handmade_99",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "脱ぐ의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_83",
+    "level": "N5",
+    "sourceHash": "9e999b963ad5ab55a5723cfd6b4e35e8cb4a742a04fda0bcebb50879b9d4578a",
+    "aliasGroupId": "alias-JLPTN3_83",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "泣く의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_23",
+    "level": "N5",
+    "sourceHash": "1a96d5339eade92f9bcddb60b4e0840f868b57cde71725874e0017d508eec8fa",
+    "aliasGroupId": "alias-JLPTN3_23",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "覚える의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_34",
+    "level": "N5",
+    "sourceHash": "38fe91a74801540bdb34e227a66c9b82561477e4a6ac1fefded036d35f76a985",
+    "aliasGroupId": "alias-JLPTN3_34",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "借りる의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "JLPTN3_33",
+    "level": "N5",
+    "sourceHash": "7158c1a0e19eb54f150d5e18e66b62960f78f85e540ae781b12d001a72c295eb",
+    "aliasGroupId": "alias-JLPTN3_33",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "貸す의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_50",
+    "level": "N5",
+    "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+    "aliasGroupId": "alias-handmade_50",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "勉強의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  },
+  {
+    "wordId": "handmade_15",
+    "level": "N5",
+    "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+    "aliasGroupId": "alias-handmade_15",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:38:23.691Z",
+    "notes": [
+      "掃除의 현재 선택 핵심, 모든 뜻·힌트·대비·예문을 독립 검토하고 기본 일상 N5 참조를 승인한다.",
+      "이미 별도로 해시 승인한 동등핵심 그룹의 대표만 수록한다. 각 원본 ID·예문·기록 보존 및 보수적 이전을 전제로 하며 새 어휘로 중복 세지 않는다."
+    ]
+  }
+]

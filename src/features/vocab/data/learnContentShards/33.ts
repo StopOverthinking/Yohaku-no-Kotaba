@@ -1272,6 +1272,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1428110-1",
+    "wordId": "lex-jmdict-1428110",
+    "version": 1,
+    "meaning": "징수",
+    "hint": "세금·요금 등 납부할 돈을 거두는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "支給",
+        "distinction": "徴収는 돈을 거둠이고 支給는 지급함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1428110-1-ex-1",
+        "version": 1,
+        "before": "参加費は、当日の受付で",
+        "answer": "徴収",
+        "after": "します。",
+        "reading": "ちょうしゅう",
+        "translation": "참가비는 당일 접수처에서 징수합니다.",
+        "translationTarget": "징수",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1222460-1",
+    "wordId": "lex-jmdict-1222460",
+    "version": 1,
+    "meaning": "기체",
+    "hint": "일정한 모양이나 부피 없이 공간을 채우는 물질의 상태",
+    "confusions": [
+      {
+        "japanese": "液体",
+        "distinction": "공간을 채워 퍼지는 상태와 흐르는 액체 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1222460-1-ex-1",
+        "version": 1,
+        "before": "水は加熱されると、やがて",
+        "answer": "気体",
+        "after": "に変わります。",
+        "reading": "きたい",
+        "translation": "물은 가열되면 결국 기체로 바뀝니다.",
+        "translationTarget": "기체",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598590-1",
+    "wordId": "lex-jmdict-1598590",
+    "version": 1,
+    "meaning": "문의",
+    "hint": "궁금한 사항을 담당하는 곳에 물어 확인하는 일",
+    "confusions": [
+      {
+        "japanese": "回答",
+        "distinction": "정보를 물어 확인하는 것과 그 질문에 답하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598590-1-ex-1",
+        "version": 1,
+        "before": "商品の発送についての",
+        "answer": "問い合わせ",
+        "after": "が増えています。",
+        "reading": "といあわせ",
+        "translation": "상품 발송에 관한 문의가 늘고 있습니다.",
+        "translationTarget": "문의",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1582430-1",
+    "wordId": "lex-jmdict-1582430",
+    "version": 1,
+    "meaning": "무디다",
+    "hint": "칼 등의 날이 날카롭지 않아 잘 베지 못하는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "鋭い",
+        "distinction": "날이 잘 들지 않는 상태와 날카로운 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1582430-1-ex-1",
+        "version": 1,
+        "before": "この包丁は切れ味が",
+        "answer": "鈍く",
+        "after": "なったので、研ぐ必要がある。",
+        "reading": "にぶく",
+        "translation": "이 칼은 날이 무뎌졌으므로 갈 필요가 있다.",
+        "translationTarget": "무뎌졌으므로",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1480310-1",
+    "wordId": "lex-jmdict-1480310",
+    "version": 1,
+    "meaning": "반향, 반응",
+    "hint": "발언·작품 등이 사람들에게 일으키는 반응입니다.",
+    "confusions": [
+      {
+        "japanese": "反射",
+        "distinction": "선택한 反響는 사회적 반응이고 反射는 빛·파동의 반사나 몸의 반응이다. 소리의 울림이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1480310-1-ex-1",
+        "version": 1,
+        "before": "記事への",
+        "answer": "反響",
+        "after": "が大きく、続編を掲載することになった。",
+        "reading": "はんきょう",
+        "translation": "기사에 대한 반향이 커 후속편을 싣게 되었다.",
+        "translationTarget": "반향",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1318880-1",
+    "wordId": "lex-jmdict-1318880",
+    "version": 1,
+    "meaning": "자립",
+    "hint": "다른 사람에게 의존하지 않고 스스로 생활·행동합니다.",
+    "confusions": [
+      {
+        "japanese": "孤立",
+        "distinction": "自立는 의존 없이 생활함이고 孤立는 관계에서 홀로 떨어짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1318880-1-ex-1",
+        "version": 1,
+        "before": "一人暮らしを始め、少しずつ生活の",
+        "answer": "自立",
+        "after": "を目指している。",
+        "reading": "じりつ",
+        "translation": "혼자 살기 시작하여 조금씩 생활의 자립을 지향하고 있다.",
+        "translationTarget": "자립",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483290-1",
+    "wordId": "lex-jmdict-1483290",
+    "version": 1,
+    "meaning": "비참함",
+    "hint": "고통·피해가 심하여 보거나 겪기 안타깝습니다.",
+    "confusions": [
+      {
+        "japanese": "悲観",
+        "distinction": "悲惨는 처지가 매우 참혹함이고 悲観는 전망을 나쁘게 봄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483290-1-ex-1",
+        "version": 1,
+        "before": "戦争の",
+        "answer": "悲惨",
+        "after": "な現実を、写真展で知った。",
+        "reading": "ひさん",
+        "translation": "전쟁의 비참한 현실을 사진전에서 알게 되었다.",
+        "translationTarget": "비참한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

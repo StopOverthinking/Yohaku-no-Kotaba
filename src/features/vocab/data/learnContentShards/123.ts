@@ -849,12 +849,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1526360-1-ex-1",
-        "version": 1,
-        "before": "卒業祝いに",
+        "version": 2,
+        "before": "",
         "answer": "万年筆",
-        "after": "をもらいました。",
+        "after": "にインクを入れすぎて、指が青くなりました。",
         "reading": "まんねんひつ",
-        "translation": "졸업 선물로 만년필을 받았어요.",
+        "translation": "만년필에 잉크를 너무 많이 넣어서 손가락이 파래졌어요.",
         "translationTarget": "만년필",
         "difficulty": 14,
         "status": "reviewed"
@@ -1641,6 +1641,454 @@ const content: LearnSense[] = [
         "translation": "구운 닭의 껍질은 고소하고 맛있었다.",
         "translationTarget": "껍질은",
         "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1107800-1",
+    "wordId": "lex-jmdict-1107800",
+    "version": 1,
+    "meaning": "파일",
+    "hint": "컴퓨터에서 이름을 붙여 저장한 자료 단위입니다.",
+    "confusions": [
+      {
+        "japanese": "データ",
+        "distinction": "선택한 ファイル는 이름 붙여 저장된 파일 단위이고 データ는 정보·자료 일반이다. 서류철이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1107800-1-ex-1",
+        "version": 1,
+        "before": "写真の",
+        "answer": "ファイル",
+        "after": "を開こうとしたが、対応するアプリがなかった。",
+        "reading": "ファイル",
+        "translation": "사진 파일을 열려고 했지만 지원하는 앱이 없었다.",
+        "translationTarget": "파일",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1565480-1",
+    "wordId": "lex-jmdict-1565480",
+    "version": 1,
+    "meaning": "냄새를 맡다",
+    "hint": "코로 냄새를 확인하거나 살펴보아요.",
+    "confusions": [
+      {
+        "japanese": "見る",
+        "distinction": "코로 냄새를 확인하는 것과 눈으로 보는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1565480-1-ex-1",
+        "version": 1,
+        "before": "牛乳を飲む前に、念のため匂いを",
+        "answer": "嗅いだ",
+        "after": "。",
+        "reading": "かいだ",
+        "translation": "우유를 마시기 전에 혹시 몰라 냄새를 맡았다.",
+        "translationTarget": "맡았다",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1588500-1",
+    "wordId": "lex-jmdict-1588500",
+    "version": 1,
+    "meaning": "매출",
+    "hint": "물건이나 서비스를 팔아 얻은 전체 금액",
+    "confusions": [
+      {
+        "japanese": "利益",
+        "distinction": "판매로 들어온 전체 금액과 비용을 뺀 이익을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1588500-1-ex-1",
+        "version": 1,
+        "before": "雨が続いて、今週の",
+        "answer": "売り上げ",
+        "after": "は半分に減った。",
+        "reading": "うりあげ",
+        "translation": "비가 계속 내려 이번 주 매출은 절반으로 줄었다.",
+        "translationTarget": "매출",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596730-1",
+    "wordId": "lex-jmdict-1596730",
+    "version": 1,
+    "meaning": "잇달아·속속",
+    "hint": "여러 사람이 오거나 일이 일어나는 것이 끊이지 않고 이어져요.",
+    "confusions": [
+      {
+        "japanese": "一度だけ",
+        "distinction": "여러 일이 계속 이어지는 것과 한 번뿐인 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596730-1-ex-1",
+        "version": 1,
+        "before": "開場すると、お客さんが",
+        "answer": "続々",
+        "after": "と入ってきた。",
+        "reading": "ぞくぞく",
+        "translation": "문을 열자 손님들이 속속 들어왔다.",
+        "translationTarget": "속속",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436380-1",
+    "wordId": "lex-jmdict-1436380",
+    "version": 1,
+    "meaning": "제휴",
+    "hint": "독립된 조직들이 공통 목적을 위해 협력 관계를 맺습니다.",
+    "confusions": [
+      {
+        "japanese": "合併",
+        "distinction": "提携는 조직을 유지한 채 협력함이고 合併는 조직을 합침이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436380-1-ex-1",
+        "version": 1,
+        "before": "地元の大学と",
+        "answer": "提携",
+        "after": "して、新しい技術の研究を進めた。",
+        "reading": "ていけい",
+        "translation": "지역 대학과 제휴하여 새로운 기술 연구를 진행했다.",
+        "translationTarget": "제휴",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554570-1",
+    "wordId": "lex-jmdict-1554570",
+    "version": 1,
+    "meaning": "양식, 건전한 판단력",
+    "hint": "사회적으로 건전하고 상식적인 판단을 하는 능력입니다.",
+    "confusions": [
+      {
+        "japanese": "知識",
+        "distinction": "良識는 건전한 판단력이고 知識는 알고 있는 정보이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554570-1-ex-1",
+        "version": 1,
+        "before": "自由に発言できる場だからこそ、参加者の",
+        "answer": "良識",
+        "after": "が問われる。",
+        "reading": "りょうしき",
+        "translation": "자유롭게 발언할 수 있는 자리이기에 참가자의 건전한 판단력이 요구된다.",
+        "translationTarget": "건전한 판단력",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1593650-1",
+    "wordId": "lex-jmdict-1593650",
+    "version": 1,
+    "meaning": "거꾸로다",
+    "hint": "위아래나 방향이 원래와 반대로 놓인 상태예요.",
+    "confusions": [
+      {
+        "japanese": "元通り",
+        "distinction": "방향이 뒤집힌 상태와 원래대로의 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1593650-1-ex-1",
+        "version": 1,
+        "before": "地図を",
+        "answer": "逆さま",
+        "after": "に持っていたので、右と左を間違えた。",
+        "reading": "さかさま",
+        "translation": "지도를 거꾸로 들고 있어서 오른쪽과 왼쪽을 잘못 알았다.",
+        "translationTarget": "거꾸로",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599780-1",
+    "wordId": "lex-jmdict-1599780",
+    "version": 1,
+    "meaning": "향기가 나다",
+    "hint": "좋은 냄새가 주변에 퍼져 코로 느껴져요.",
+    "confusions": [
+      {
+        "japanese": "臭う",
+        "distinction": "기분 좋은 향과 불쾌한 냄새를 표기로 구별하는 경향이 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599780-1-ex-1",
+        "version": 1,
+        "before": "窓を開けると、庭の花がほのかに",
+        "answer": "匂った",
+        "after": "。",
+        "reading": "におった",
+        "translation": "창문을 열자 정원의 꽃에서 은은하게 향기가 났다.",
+        "translationTarget": "향기가 났다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1504650-1",
+    "wordId": "lex-jmdict-1504650",
+    "version": 1,
+    "meaning": "분개",
+    "hint": "부당한 일에 매우 화가 나고 못마땅하게 여깁니다.",
+    "confusions": [
+      {
+        "japanese": "怒り",
+        "distinction": "憤慨는 부당함에 대한 강한 분노이고 怒り는 분노 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1504650-1-ex-1",
+        "version": 1,
+        "before": "説明のない一方的な決定に、住民は",
+        "answer": "憤慨",
+        "after": "した。",
+        "reading": "ふんがい",
+        "translation": "설명 없는 일방적인 결정에 주민들은 분개했다.",
+        "translationTarget": "분개",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317890-1",
+    "wordId": "lex-jmdict-1317890",
+    "version": 1,
+    "meaning": "자수",
+    "hint": "범인이 수사기관에 스스로 범행을 밝히고 나섭니다.",
+    "confusions": [
+      {
+        "japanese": "出頭",
+        "distinction": "自首는 스스로 범행을 신고함이고 出頭는 기관·장소에 출석함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317890-1-ex-1",
+        "version": 1,
+        "before": "事件の翌日、男は警察に",
+        "answer": "自首",
+        "after": "した。",
+        "reading": "じしゅ",
+        "translation": "사건 다음 날 남자는 경찰에 자수했다.",
+        "translationTarget": "자수",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606150-1",
+    "wordId": "lex-jmdict-1606150",
+    "version": 1,
+    "meaning": "여론",
+    "hint": "사회에서 널리 형성된 사람들의 의견입니다.",
+    "confusions": [
+      {
+        "japanese": "持論",
+        "distinction": "世論는 사회의 의견 흐름이고 持論는 개인이 평소 지닌 주장이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606150-1-ex-1",
+        "version": 1,
+        "before": "新しい政策について、",
+        "answer": "世論",
+        "after": "調査の結果が報道された。",
+        "reading": "よろん",
+        "translation": "새 정책에 대한 여론 조사 결과가 보도되었다.",
+        "translationTarget": "여론",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254250-1",
+    "wordId": "lex-jmdict-1254250",
+    "version": 1,
+    "meaning": "결행",
+    "hint": "어려움·반대가 있어도 계획한 일을 실행합니다.",
+    "confusions": [
+      {
+        "japanese": "実行",
+        "distinction": "決行는 장애에도 계획을 실행함이고 実行는 실행 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254250-1-ex-1",
+        "version": 1,
+        "before": "雨の予報だったが、主催者は予定どおりの開催を",
+        "answer": "決行",
+        "after": "した。",
+        "reading": "けっこう",
+        "translation": "비 예보가 있었지만 주최 측은 예정대로 개최를 결행했다.",
+        "translationTarget": "결행",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1361420-1",
+    "wordId": "lex-jmdict-1361420",
+    "version": 1,
+    "meaning": "진동",
+    "hint": "물체가 일정한 중심이나 위치를 기준으로 되풀이해 움직입니다.",
+    "confusions": [
+      {
+        "japanese": "振興",
+        "distinction": "振動는 물리적 흔들림이고 振興는 산업·문화를 활성화함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1361420-1-ex-1",
+        "version": 1,
+        "before": "電車が通るたびに、窓に小さな",
+        "answer": "振動",
+        "after": "が伝わる。",
+        "reading": "しんどう",
+        "translation": "전철이 지날 때마다 창문에 작은 진동이 전해진다.",
+        "translationTarget": "진동",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1582920-1",
+    "wordId": "lex-jmdict-1582920",
+    "version": 1,
+    "meaning": "이 (명사 앞에서)",
+    "hint": "말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "これ",
+        "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1582920-1-ex-1",
+        "version": 2,
+        "before": "",
+        "answer": "この",
+        "after": "箱だけ、二人で運びましょう。",
+        "reading": "この",
+        "translation": "이 상자만 둘이서 옮깁시다.",
+        "translationTarget": "이",
+        "difficulty": 10,
         "status": "reviewed"
       }
     ]

@@ -189,15 +189,13 @@
   {
     "wordId": "AbsoluteVerb_527",
     "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N5",
+    "dictionaryId": "jmdict-1375610",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “다른 것/상태로 되다” 및 1개 sense를 대조했다. 어두운 상태나 봄철이 되는 기본 변화 표현이다. 후보 누락으로 연결을 보류한다.",
+    "levelNote": "핵심 상태변화 또는 물건 반환의 기본 일상 N5 용법.",
+    "meaningReview": "なる의 모든 뜻·힌트·대비·일본어/한국어 2예문을 읽었다. 사전의 선택 핵심과 일치하고 동음 鳴る/帰す는 각각 소리울림/사람돌려보내기로 다른 의미다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "なる의 상태 변화 의미 사전 연결과 등급을 확인해야 한다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_528",
@@ -216,8 +214,8 @@
     "level": "N5",
     "dictionaryId": "jmdict-1239730",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “구부러지다, 돌다, 비뚤어지다” 및 1개 sense를 대조했다. 모퉁이에서 진행 방향을 바꾸는 기본 이동 의미를 선택했다.",
+    "levelNote": "선택한 기초 방향/생활 동사의 실제 핵심 뜻과 사전 근거를 대조하여 N5로 선정했다.",
+    "meaningReview": "다음 모퉁이에서 우회전/좁은 길로 접어듦 2예문과 자타 대비를 읽었다. 이동 방향을 바꾸는 핵심을 N5 길 안내 동사로 승인하며 물체 구부러짐 숙련을 주장하지 않는다.",
     "aliasCandidateIds": [],
     "issues": []
   },

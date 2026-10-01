@@ -56,7 +56,9 @@ describe('reviewed JLPT pilot', () => {
       }
       for (const sense of wordSenses) expect(seen.get(sense.id)!.size).toBe(sense.examples.length)
     }
-  })
+  // This exhaustively schedules every word/usage several times against the
+  // complete corpus. Individual card latency is measured in browser benchmarks.
+  }, 30_000)
 
   it('retains stable IDs through editor normalization and allows saving every set', () => {
     const data = normalizeEditorSnapshot({ sets: editorVocabularySets, words: editorVocabularyWords,

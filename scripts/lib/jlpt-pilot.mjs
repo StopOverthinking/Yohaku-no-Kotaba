@@ -71,13 +71,28 @@ export function validateLegacyMembership(reviews, words, senses, baselineWords, 
       throw new Error(`${word.id}: explicit reference approval required`)
     if (hashContent({ word, senses: content }) !== review.sourceHash)
       throw new Error(`${word.id}: legacy source changed since reference review`)
-    // A duplicate may be referenced only after an independent, active profile
-    // mapping AND a separate level-publication approval of its representative.
+    // Equivalent cores need an active mapping. Distinct cores may select one
+    // reviewed word without linking profiles, with every canonical peer bound
+    // to the same review. Neither path edits original content or study records.
     const key = lexicalKey(word)
     const group = aliasGroups.find(group => group.members.some(member => member.wordId === word.id))
     const groupMembers = new Set(group?.members.map(member => member.wordId))
-    if (keys.has(key) || (group ? group.representativeWordId !== word.id || review.aliasGroupId !== group.id ||
-        keyMembers.get(key).some(id => !groupMembers.has(id)) : keyMembers.get(key).length !== 1 || review.aliasGroupId))
+    const selection = review.duplicateSelection
+    const peers = keyMembers.get(key)
+    let distinctSelection = false
+    if (selection) {
+      const selectedPeers = new Set(selection.members?.map(member => member.wordId))
+      distinctSelection = selection.policy === 'distinct-core-usages-no-profile-transfer' &&
+        selection.notes?.length > 0 && peers.length > 1 &&
+        Array.isArray(selection.members) && selectedPeers.size === selection.members.length &&
+        selectedPeers.size === peers.length && peers.every(id => selectedPeers.has(id)) &&
+        selection.members.every(member => originals.has(member.wordId) &&
+          member.sourceHash === hashContent({ word: byId.get(member.wordId), senses: contentByWord.get(member.wordId) ?? [] })) &&
+        !review.aliasGroupId && !aliasGroups.some(alias => alias.members.some(member => selectedPeers.has(member.wordId)))
+      if (!distinctSelection) throw new Error(`${word.id}: invalid distinct-core peer selection`)
+    }
+    if (keys.has(key) || (group ? selection || group.representativeWordId !== word.id || review.aliasGroupId !== group.id ||
+        peers.some(id => !groupMembers.has(id)) : (!distinctSelection && peers.length !== 1) || review.aliasGroupId))
       throw new Error(`${word.id}: alias group requires separate migration`)
     if (!content.length || content.some((sense) => !sense.review.word || !sense.review.contrast || !sense.review.diversity ||
         !sense.examples.length || sense.examples.some((example) => example.status !== 'reviewed')))

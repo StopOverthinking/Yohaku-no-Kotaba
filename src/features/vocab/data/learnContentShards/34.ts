@@ -1816,6 +1816,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1206870-1",
+    "wordId": "lex-jmdict-1206870",
+    "version": 1,
+    "meaning": "학술",
+    "hint": "체계적인 학문 연구와 그 지식",
+    "confusions": [
+      {
+        "japanese": "技術",
+        "distinction": "학문 연구와 지식의 영역과 실제 작업 방법을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1206870-1-ex-1",
+        "version": 1,
+        "before": "この雑誌は、",
+        "answer": "学術",
+        "after": "論文を一般の読者にも分かりやすく紹介している。",
+        "reading": "がくじゅつ",
+        "translation": "이 잡지는 학술 논문을 일반 독자도 알기 쉽게 소개한다.",
+        "translationTarget": "학술",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487570-1",
+    "wordId": "lex-jmdict-1487570",
+    "version": 1,
+    "meaning": "필연",
+    "hint": "조건·원인에 따라 반드시 그렇게 될 수밖에 없습니다.",
+    "confusions": [
+      {
+        "japanese": "偶然",
+        "distinction": "必然는 반드시 일어날 수밖에 없음이고 偶然는 뜻밖의 우연이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487570-1-ex-1",
+        "version": 1,
+        "before": "この結果は偶然ではなく、準備不足による",
+        "answer": "必然",
+        "after": "だった。",
+        "reading": "ひつぜん",
+        "translation": "이 결과는 우연이 아니라 준비 부족에 따른 필연이었다.",
+        "translationTarget": "필연",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378920-1",
+    "wordId": "lex-jmdict-1378920",
+    "version": 1,
+    "meaning": "생계",
+    "hint": "살아가는 데 필요한 경제적 생활·살림입니다.",
+    "confusions": [
+      {
+        "japanese": "生活",
+        "distinction": "生計는 생활비를 마련하는 경제적 살림이고 生活는 일상의 생활 전체이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378920-1-ex-1",
+        "version": 1,
+        "before": "彼は翻訳の仕事で",
+        "answer": "生計",
+        "after": "を立てている。",
+        "reading": "せいけい",
+        "translation": "그는 번역 일로 생계를 유지하고 있다.",
+        "translationTarget": "생계",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1337330-1",
+    "wordId": "lex-jmdict-1337330",
+    "version": 1,
+    "meaning": "숙명",
+    "hint": "태어날 때부터 정해져 피할 수 없다고 여기는 운명입니다.",
+    "confusions": [
+      {
+        "japanese": "運命",
+        "distinction": "宿命는 피하기 어렵게 정해진 운명에 초점을 두고 運命는 삶의 운명 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1337330-1-ex-1",
+        "version": 1,
+        "before": "主人公は自分の",
+        "answer": "宿命",
+        "after": "に逆らい、新しい道を選んだ。",
+        "reading": "しゅくめい",
+        "translation": "주인공은 자신의 숙명에 거슬러 새로운 길을 골랐다.",
+        "translationTarget": "숙명",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1393750-1",
+    "wordId": "lex-jmdict-1393750",
+    "version": 1,
+    "meaning": "앞길, 장래",
+    "hint": "앞으로 나아갈 길·발전 가능성입니다.",
+    "confusions": [
+      {
+        "japanese": "途中",
+        "distinction": "前途는 앞으로의 길·장래이고 途中는 진행하는 도중이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1393750-1-ex-1",
+        "version": 1,
+        "before": "新しい仕事を始める彼女の",
+        "answer": "前途",
+        "after": "を、仲間が祝った。",
+        "reading": "ぜんと",
+        "translation": "새 일을 시작하는 그녀의 앞길을 동료들이 축복했다.",
+        "translationTarget": "앞길",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

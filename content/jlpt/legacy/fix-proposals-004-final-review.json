@@ -1,0 +1,22 @@
+{
+  "scope": "legacy-content-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T00:38:57.307Z",
+  "draftHash": "596b25a8e024220ec37642de02c952a4f097d6cc5883aefd6414f21fc01dcd3b",
+  "notes": [
+    "승인한 전체 before/after와 준비초안 완전 일치. 기존 끄다 용법·단어·두예문 보존, 삭제 용법만 새 ID로 추가.",
+    "peer AbsoluteVerb_75 내용·프로필은 그대로 둔다. 어떤 기존 숙련도도 새 삭제 sense로 이전하지 않는다. 전체 9,329예문 대조 유사0."
+  ],
+  "preservedCoreUsages": [
+    {
+      "wordId": "JLPTN3_44",
+      "senseIds": [
+        "sense-JLPTN3_44-1"
+      ],
+      "decision": "preserve-existing-core-usage",
+      "note": "끄다 핵심 그대로 보존, 별도 삭제sense 신설."
+    }
+  ]
+}

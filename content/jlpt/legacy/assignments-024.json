@@ -95,12 +95,12 @@
   },
   {
     "wordId": "AbsoluteVerb_71",
-    "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+    "sourceHash": "94e9df66ab99c25c13ca323f9f9bf916ce2c2515736f74428e73cd8139b9a67f",
     "level": "N4",
     "dictionaryId": "jmdict-1207610",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
-    "meaningReview": "기존 뜻 “(벽 등에) 걸다, (전화를) 걸다, (자물쇠를) 잠그다, (안경을) 쓰다, 곱하다, 씌우다” 및 1개 sense를 대조했다. hang와 코트·벽시계 예문이 일치한다. 전화·안경·곱셈 등은 현재 sense와 분리한다.",
+    "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N4를 유지한다.",
+    "meaningReview": "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가. 현재 3개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -194,12 +194,12 @@
   },
   {
     "wordId": "AbsoluteVerb_81",
-    "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+    "sourceHash": "8c9e19b20a4dd792ad0dbf6971c2f98b102b1c5b264239d2e428e0cedd3327b3",
     "level": "N5",
     "dictionaryId": "jmdict-1315720",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “가지다, 들다” 및 1개 sense를 대조했다. hold와 봉지·우산 예문이 일치한다. 소유·지속은 현재 sense와 분리한다.",
+    "levelNote": "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다.",
+    "meaningReview": "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
     "aliasCandidateIds": [],
     "issues": []
   },

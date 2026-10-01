@@ -1,0 +1,16 @@
+{
+  "batch": "031",
+  "scope": "classification; separate explicit reference rows in membership registry",
+  "reviewedAt": "2026-10-01T00:09:35.896Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "checkedWords": 30,
+  "checkedExamples": 60,
+  "accepted": 29,
+  "held": 1,
+  "referenceAccepted": 24,
+  "referenceHeld": 6,
+  "notes": [
+    "30개/60예문 전체 독립 검토. 수여 표현의 동음어 사전과 실제 의미를 분리했고 낮춘/높인 수여 방향을 대조했다. 降りる의 하차 용법이 전체 기초 범위를 보완함을 확인했다."
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "scope": "Explicitly selected eleven core words only; partial reviews for032–035, not complete batch approval",
+  "reviewedAt": "2026-10-01T00:25:15.859Z",
+  "checkedWords": 11,
+  "checkedExamples": 22,
+  "history": [
+    {
+      "wordId": "AbsoluteVerb_161",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_161",
+        "sourceHash": "2a2258997b40c1dd6428fdbffe2bf2ae7a0c621b0fb7710d4937d10b8ec07150",
+        "level": null,
+        "dictionaryId": null,
+        "suggestedType": "verb",
+        "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+        "meaningReview": "기존 뜻 “(사물, 식물이) 있다” 및 1개 sense를 대조했다. 빵집·열쇠 존재 예문은 무생물 존재에 일관된다. 제공 후보가 없어 ある의 존재 동사 항목 연결을 보류한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "ある의 존재 용법에 해당하는 사전 연결이 필요하다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_161",
+        "sourceHash": "2a2258997b40c1dd6428fdbffe2bf2ae7a0c621b0fb7710d4937d10b8ec07150",
+        "proposalHash": "8e918f2923a6f5e5c064bf36b87389ace3c037a6f36dc4c4d35534c79178e61d",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "needs_followup",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "unresolved",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-026.json",
+        "reviewedAt": "2026-09-30T06:24:04.091Z",
+        "notes": [
+          "무생물 존재의 두 예문은 맞으나 제공 사전 연결이 없어 보류한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_162",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_162",
+        "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
+        "level": null,
+        "dictionaryId": null,
+        "suggestedType": "verb",
+        "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
+        "meaningReview": "기존 뜻 “(사람, 동물이) 있다” 및 1개 sense를 대조했다. 고양이·교사 존재 예문은 유정물 존재에 일관된다. 제공 후보가 없어 いる의 존재 동사 항목과 다른 동음어 구별을 보류한다.",
+        "aliasCandidateIds": [],
+        "issues": [
+          "いる의 사람·동물 존재 의미 사전 연결이 필요하다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_162",
+        "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
+        "proposalHash": "dc6645060e685862fd68f6ad86d379cfd90ac8282e06eb3e1b34d43df471bb19",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "needs_followup",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "unresolved",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-026.json",
+        "reviewedAt": "2026-09-30T06:24:04.091Z",
+        "notes": [
+          "사람·동물 존재의 두 예문은 맞으나 동음어와 구분할 사전 연결이 없어 보류한다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_189",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_189",
+        "sourceHash": "8e241a854deb938e806e0ccc4f6460ccaa713a53a63ddf88af6594db85d30e3d",
+        "level": "N5",
+        "dictionaryId": "jmdict-1423000",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “(허리 위, 또는 전신 옷을) 입다” 및 1개 sense를 대조했다. wear from shoulders와 셔츠·유카타 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_189",
+        "sourceHash": "8e241a854deb938e806e0ccc4f6460ccaa713a53a63ddf88af6594db85d30e3d",
+        "proposalHash": "55969ed5c9e77b109e0be09f10c66e156173c53a9551fe81b8ef40902b856c1a",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-027.json",
+        "reviewedAt": "2026-09-30T06:38:07.460Z",
+        "notes": [
+          "셔츠와 유카타 착용의 1단 타동사·N5 의미가 맞는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_191",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_191",
+        "sourceHash": "24b00c38ef5a063e5766ba2df60e3ff3485451948da83a3fb0c8af9e6b6cb66e",
+        "level": "N3",
+        "dictionaryId": "jmdict-1607260",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
+        "meaningReview": "기존 뜻 “(발에) 신다” 및 1개 sense를 대조했다. wear footwear와 장화·신발 예문이 일치한다. AbsoluteVerb_192와 사전 ID는 같지만 선택된 한국어와 예문은 신발 대 하의로 달라 별칭 제안하지 않는다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_191",
+        "sourceHash": "24b00c38ef5a063e5766ba2df60e3ff3485451948da83a3fb0c8af9e6b6cb66e",
+        "proposalHash": "f78d1c76d72725aa7d8f358e8295a9293d8548fdee2de1c73e03eef1df7e8dc1",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-027.json",
+        "reviewedAt": "2026-09-30T06:38:07.460Z",
+        "notes": [
+          "신발 착용 용법은 현재 제공 N3 근거와 연결된다. 같은 사전 ID의 하의 착용과 프로필을 자동 합치지 않는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_200",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_200",
+        "sourceHash": "5159100b9d37db2a3cb1438c25e7cb9e3634843c8c3f94076d2d8e333233df31",
+        "level": "N5",
+        "dictionaryId": "jmdict-1384830",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “자르다” 및 1개 sense를 대조했다. cut와 종이·채소 예문이 일치한다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      },
+      "previousReview": {
+        "wordId": "AbsoluteVerb_200",
+        "sourceHash": "5159100b9d37db2a3cb1438c25e7cb9e3634843c8c3f94076d2d8e333233df31",
+        "proposalHash": "848cc0a0ca07c3c69ae58b8bf8f08ff7c6422a1ca0d87d7ee57bbc286cdf2bea",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "reviewed-for-classification-only",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent classification review; legacy/review-summary-027.json",
+        "reviewedAt": "2026-09-30T06:38:07.460Z",
+        "notes": [
+          "도구로 종이를 자르고 채소를 써는 기본 의미의 N5 분류가 맞는다."
+        ]
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_388",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_388",
+        "sourceHash": "ea02ba6a90aed734433ff0d67378aa5497b6aa90b3a3d45b5835f948a6ff7444",
+        "level": "N5",
+        "dictionaryId": "jmdict-1451150",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “일하다” 및 1개 sense를 대조했다. 식당에서 일하거나 늦게까지 일하는 기본 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_408",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_408",
+        "sourceHash": "7dafc46d3c043a58f033b48dcffdf19f1e8bbb540f492978f67723623bf05ff7",
+        "level": "N5",
+        "dictionaryId": "jmdict-1198180",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N2이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “만나다” 및 1개 sense를 대조했다. 교사를 만나거나 직접 만나 이야기를 하는 기본 의미를 선택했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_448",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_448",
+        "sourceHash": "eb5f2b4a98de7471ee1ae9c26325e8362fb0707e08e0dbf9b6c1a0d7e878818f",
+        "level": "N5",
+        "dictionaryId": "jmdict-1307500",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “시작되다” 및 1개 sense를 대조했다. 영화와 공사가 시작되는 기본 자동사 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_449",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_449",
+        "sourceHash": "4689305f0d39f1535f700c2fbf901f4174367962d1beefde6a4af751ce9aa967",
+        "level": "N4",
+        "dictionaryId": "jmdict-1307550",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “시작하다” 및 1개 sense를 대조했다. 피아노와 녹음을 시작하는 타동사 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_450",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_450",
+        "sourceHash": "929b6945e5eeed98c01af9baf86bb9e627ef6aac7493b69fb63347500e48a3bc",
+        "level": "N5",
+        "dictionaryId": "jmdict-1589600",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N1이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
+        "meaningReview": "기존 뜻 “끝나다” 및 1개 sense를 대조했다. 영화와 공사가 끝나는 기본 자동사 의미를 선택했다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      }
+    },
+    {
+      "wordId": "AbsoluteVerb_484",
+      "previousProposal": {
+        "wordId": "AbsoluteVerb_484",
+        "sourceHash": "1e8bf6b49c272a1b12bd26abb29b3aeb9d3ad824bff39f9ee63aa18e80ecb2bc",
+        "level": "N4",
+        "dictionaryId": "jmdict-1402730",
+        "suggestedType": "verb",
+        "levelNote": "현재 verb 용법의 사전 출처 등급은 N4이다. 대표 예문의 의미 범위를 검토하여 N4로 제안한다.",
+        "meaningReview": "기존 뜻 “보내다, 배웅하다” 및 1개 sense를 대조했다. 사진과 물건을 다른 곳으로 보내는 의미이다.",
+        "aliasCandidateIds": [],
+        "issues": []
+      }
+    }
+  ]
+}

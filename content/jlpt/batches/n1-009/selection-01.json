@@ -1,0 +1,557 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1422440",
+      "japanese": "蓄積",
+      "reading": "ちくせき",
+      "level": "N1",
+      "spellings": [
+        "蓄積"
+      ],
+      "readings": [
+        "ちくせき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "蓄積"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1423060",
+      "japanese": "着手",
+      "reading": "ちゃくしゅ",
+      "level": "N1",
+      "spellings": [
+        "着手",
+        "著手"
+      ],
+      "readings": [
+        "ちゃくしゅ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "着手"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1423260",
+      "japanese": "着目",
+      "reading": "ちゃくもく",
+      "level": "N1",
+      "spellings": [
+        "着目"
+      ],
+      "readings": [
+        "ちゃくもく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "着目"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1424500",
+      "japanese": "中傷",
+      "reading": "ちゅうしょう",
+      "level": "N1",
+      "spellings": [
+        "中傷"
+      ],
+      "readings": [
+        "ちゅうしょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "中傷"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1424660",
+      "japanese": "中枢",
+      "reading": "ちゅうすう",
+      "level": "N1",
+      "spellings": [
+        "中枢"
+      ],
+      "readings": [
+        "ちゅうすう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "中枢"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1425540",
+      "japanese": "中立",
+      "reading": "ちゅうりつ",
+      "level": "N1",
+      "spellings": [
+        "中立"
+      ],
+      "readings": [
+        "ちゅうりつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "中立"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1429260",
+      "japanese": "調停",
+      "reading": "ちょうてい",
+      "level": "N1",
+      "spellings": [
+        "調停"
+      ],
+      "readings": [
+        "ちょうてい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "調停"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1429330",
+      "japanese": "調和",
+      "reading": "ちょうわ",
+      "level": "N1",
+      "spellings": [
+        "調和"
+      ],
+      "readings": [
+        "ちょうわ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "調和"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1431540",
+      "japanese": "直面",
+      "reading": "ちょくめん",
+      "level": "N1",
+      "spellings": [
+        "直面"
+      ],
+      "readings": [
+        "ちょくめん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "直面"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1432760",
+      "japanese": "痛感",
+      "reading": "つうかん",
+      "level": "N1",
+      "spellings": [
+        "痛感"
+      ],
+      "readings": [
+        "つうかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "痛感"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1435010",
+      "japanese": "停滞",
+      "reading": "ていたい",
+      "level": "N1",
+      "spellings": [
+        "停滞"
+      ],
+      "readings": [
+        "ていたい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "停滞"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1435530",
+      "japanese": "定義",
+      "reading": "ていぎ",
+      "level": "N1",
+      "spellings": [
+        "定義"
+      ],
+      "readings": [
+        "ていぎ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "定義"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1436380",
+      "japanese": "提携",
+      "reading": "ていけい",
+      "level": "N1",
+      "spellings": [
+        "提携",
+        "提挈"
+      ],
+      "readings": [
+        "ていけい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "提携"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1437380",
+      "japanese": "適宜",
+      "reading": "てきぎ",
+      "level": "N1",
+      "spellings": [
+        "適宜"
+      ],
+      "readings": [
+        "てきぎ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "適宜"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1440640",
+      "japanese": "展望",
+      "reading": "てんぼう",
+      "level": "N1",
+      "spellings": [
+        "展望"
+      ],
+      "readings": [
+        "てんぼう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "展望"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1441080",
+      "japanese": "転換",
+      "reading": "てんかん",
+      "level": "N1",
+      "spellings": [
+        "転換"
+      ],
+      "readings": [
+        "てんかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "転換"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1449820",
+      "japanese": "統制",
+      "reading": "とうせい",
+      "level": "N1",
+      "spellings": [
+        "統制"
+      ],
+      "readings": [
+        "とうせい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "統制"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1451330",
+      "japanese": "動向",
+      "reading": "どうこう",
+      "level": "N1",
+      "spellings": [
+        "動向"
+      ],
+      "readings": [
+        "どうこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "動向"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1451630",
+      "japanese": "動揺",
+      "reading": "どうよう",
+      "level": "N1",
+      "spellings": [
+        "動揺"
+      ],
+      "readings": [
+        "どうよう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "動揺"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1454870",
+      "japanese": "特権",
+      "reading": "とっけん",
+      "level": "N1",
+      "spellings": [
+        "特権"
+      ],
+      "readings": [
+        "とっけん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "特権"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1455810",
+      "japanese": "独自",
+      "reading": "どくじ",
+      "level": "N1",
+      "spellings": [
+        "独自"
+      ],
+      "readings": [
+        "どくじ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "独自"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1455870",
+      "japanese": "独占",
+      "reading": "どくせん",
+      "level": "N1",
+      "spellings": [
+        "独占"
+      ],
+      "readings": [
+        "どくせん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "独占"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1467280",
+      "japanese": "任命",
+      "reading": "にんめい",
+      "level": "N1",
+      "spellings": [
+        "任命"
+      ],
+      "readings": [
+        "にんめい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "任命"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1473200",
+      "japanese": "配分",
+      "reading": "はいぶん",
+      "level": "N1",
+      "spellings": [
+        "配分"
+      ],
+      "readings": [
+        "はいぶん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "配分"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1478520",
+      "japanese": "判決",
+      "reading": "はんけつ",
+      "level": "N1",
+      "spellings": [
+        "判決"
+      ],
+      "readings": [
+        "はんけつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "判決"
+        ]
+      }
+    }
+  ]
+}

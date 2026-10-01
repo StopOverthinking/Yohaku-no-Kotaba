@@ -1248,6 +1248,390 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1132420-1",
+    "wordId": "lex-jmdict-1132420",
+    "version": 1,
+    "meaning": "제조업체",
+    "hint": "상품을 만들어 시장에 공급하는 회사입니다.",
+    "confusions": [
+      {
+        "japanese": "販売店",
+        "distinction": "선택한 メーカー는 제조업체이고 販売店는 제품을 판매하는 가게이다. 만드는 사람·장치를 뜻하기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1132420-1-ex-1",
+        "version": 1,
+        "before": "修理について、製品の",
+        "answer": "メーカー",
+        "after": "に直接問い合わせた。",
+        "reading": "メーカー",
+        "translation": "수리에 대해 제품의 제조업체에 직접 문의했다.",
+        "translationTarget": "제조업체",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1093000-1",
+    "wordId": "lex-jmdict-1093000",
+    "version": 1,
+    "meaning": "목걸이",
+    "hint": "장식으로 목에 걸고 다니는 물건",
+    "confusions": [
+      {
+        "japanese": "指輪",
+        "distinction": "목에 거는 장식과 손가락에 끼는 장식을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1093000-1-ex-1",
+        "version": 1,
+        "before": "旅行の前に、",
+        "answer": "ネックレス",
+        "after": "を小さな箱にしまった。",
+        "reading": "ネックレス",
+        "translation": "여행 전에 목걸이를 작은 상자에 넣었다.",
+        "translationTarget": "목걸이",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1141620-1",
+    "wordId": "lex-jmdict-1141620",
+    "version": 1,
+    "meaning": "리듬·박자",
+    "hint": "소리나 움직임이 규칙적으로 반복되는 짜임",
+    "confusions": [
+      {
+        "japanese": "テンポ",
+        "distinction": "반복되는 박자의 짜임과 진행 속도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1141620-1-ex-1",
+        "version": 1,
+        "before": "子どもたちは、太鼓の",
+        "answer": "リズム",
+        "after": "に合わせて歩いた。",
+        "reading": "リズム",
+        "translation": "아이들은 북의 리듬에 맞춰 걸었다.",
+        "translationTarget": "리듬",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1281180-1",
+    "wordId": "lex-jmdict-1281180",
+    "version": 1,
+    "meaning": "긍정",
+    "hint": "내용·존재·가치를 옳거나 있다고 인정하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "否定",
+        "distinction": "肯定는 인정함이고 否定는 인정하지 않음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1281180-1-ex-1",
+        "version": 1,
+        "before": "子どもの努力を",
+        "answer": "肯定",
+        "after": "する言葉が、次の挑戦につながる。",
+        "reading": "こうてい",
+        "translation": "아이의 노력을 긍정하는 말이 다음 도전으로 이어진다.",
+        "translationTarget": "긍정",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_34-2",
+    "wordId": "AbsoluteVerb_34",
+    "version": 1,
+    "meaning": "약을 먹다",
+    "hint": "정해진 약을 입으로 삼켜 복용해요.",
+    "confusions": [
+      {
+        "japanese": "塗る",
+        "distinction": "입으로 약을 복용하는 것과 피부에 약을 바르는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_34-2-ex-1",
+        "version": 1,
+        "before": "錠剤が大きくて、水なしでは",
+        "answer": "飲めなかった",
+        "after": "。",
+        "reading": "のめなかった",
+        "translation": "알약이 커서 물 없이는 먹을 수 없었다.",
+        "translationTarget": "먹을 수 없었다",
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279600-1",
+    "wordId": "lex-jmdict-1279600",
+    "version": 1,
+    "meaning": "운동장·학교 뜰",
+    "hint": "학교 건물 밖에 있는 운동이나 놀이를 위한 공간",
+    "confusions": [
+      {
+        "japanese": "教室",
+        "distinction": "학교 건물 밖 활동 공간과 안에서 수업하는 방을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279600-1-ex-1",
+        "version": 1,
+        "before": "雨がやんでも、",
+        "answer": "校庭",
+        "after": "には大きな水たまりが残っていた。",
+        "reading": "こうてい",
+        "translation": "비가 그친 뒤에도 운동장에는 큰 물웅덩이가 남아 있었다.",
+        "translationTarget": "운동장",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1610630-1",
+    "wordId": "lex-jmdict-1610630",
+    "version": 1,
+    "meaning": "뜻밖이다·예상치 못하다",
+    "hint": "미리 예상하지 않았던 일이 갑자기 일어난 상태예요.",
+    "confusions": [
+      {
+        "japanese": "予想通り",
+        "distinction": "미리 생각하지 못한 일과 예상한 대로의 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1610630-1-ex-1",
+        "version": 1,
+        "before": "帰り道で、",
+        "answer": "思いがけない",
+        "after": "再会があった。",
+        "reading": "おもいがけない",
+        "translation": "돌아오는 길에 뜻밖의 재회가 있었다.",
+        "translationTarget": "뜻밖의",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1593780-1",
+    "wordId": "lex-jmdict-1593780",
+    "version": 1,
+    "meaning": "지장, 문제",
+    "hint": "어떤 일을 하는 데 방해되거나 불편한 사정입니다.",
+    "confusions": [
+      {
+        "japanese": "差し引き",
+        "distinction": "差し支え는 지장·불편이고 差し引き는 더하거나 빼어 계산한 결과이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1593780-1-ex-1",
+        "version": 1,
+        "before": "仕事に",
+        "answer": "差し支え",
+        "after": "がなければ、明日は少し早く帰りたい。",
+        "reading": "さしつかえ",
+        "translation": "업무에 지장이 없다면 내일은 조금 일찍 돌아가고 싶다.",
+        "translationTarget": "지장",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421360-1",
+    "wordId": "lex-jmdict-1421360",
+    "version": 1,
+    "meaning": "지대",
+    "hint": "공통된 특성에 따라 구분되는 넓은 지역입니다.",
+    "confusions": [
+      {
+        "japanese": "地点",
+        "distinction": "地帯는 일정한 특징의 넓은 지역이고 地点는 특정한 한 곳이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421360-1-ex-1",
+        "version": 1,
+        "before": "この",
+        "answer": "地帯",
+        "after": "では、冬になると強い風が吹く。",
+        "reading": "ちたい",
+        "translation": "이 지대에서는 겨울이 되면 강한 바람이 분다.",
+        "translationTarget": "지대",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1450900-1",
+    "wordId": "lex-jmdict-1450900",
+    "version": 1,
+    "meaning": "두뇌",
+    "hint": "생각·판단을 담당하는 뇌 또는 사고 능력입니다.",
+    "confusions": [
+      {
+        "japanese": "頭痛",
+        "distinction": "頭脳는 뇌·사고 능력이고 頭痛는 머리 통증이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1450900-1-ex-1",
+        "version": 1,
+        "before": "彼はその優れた",
+        "answer": "頭脳",
+        "after": "を生かして、難しい問題を解決した。",
+        "reading": "ずのう",
+        "translation": "그는 뛰어난 두뇌를 살려 어려운 문제를 해결했다.",
+        "translationTarget": "두뇌",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1592130-1",
+    "wordId": "lex-jmdict-1592130",
+    "version": 1,
+    "meaning": "구분하다·나누다",
+    "hint": "이어진 것을 적당한 단위나 경계로 나누어요.",
+    "confusions": [
+      {
+        "japanese": "繋ぐ",
+        "distinction": "단위별로 나누는 것과 이어 붙이는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1592130-1-ex-1",
+        "version": 1,
+        "before": "長い文章は、意味のまとまりごとに",
+        "answer": "区切って",
+        "after": "読もう。",
+        "reading": "くぎって",
+        "translation": "긴 문장은 뜻의 덩어리마다 나누어 읽자.",
+        "translationTarget": "나누어",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1600190-1",
+    "wordId": "lex-jmdict-1600190",
+    "version": 1,
+    "meaning": "가격 할인",
+    "hint": "원래 가격을 낮추어 팝니다.",
+    "confusions": [
+      {
+        "japanese": "値上げ",
+        "distinction": "値引き는 가격을 깎음이고 値上げ는 가격을 올림이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1600190-1-ex-1",
+        "version": 1,
+        "before": "展示に使われた商品だったので、少し",
+        "answer": "値引き",
+        "after": "してもらえた。",
+        "reading": "ねびき",
+        "translation": "전시에 쓰인 상품이라 조금 가격 할인을 받았다.",
+        "translationTarget": "가격 할인",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

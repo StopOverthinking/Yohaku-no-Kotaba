@@ -324,21 +324,18 @@
   },
   {
     "wordId": "JLPTN3_70",
-    "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
-    "proposalHash": "951cb289be6f4e654168187a2cef9cb02cc15219e950fd237820d434bc4208e0",
+    "sourceHash": "26e1db76459cbf2435865cf07eaaa11cd7608b9a84dcf053f988bc9195ce6264",
+    "proposalHash": "4d38caf3b1fc60841acc90277a5debfe092f73c6191ca74f617cbd131821af45",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
-    "meaningOutcome": "accepted-with-listed-editorial-issues",
+    "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
-    "reviewer": "Codex GPT-6 Astra review agent",
+    "aliasOutcome": "distinct-core; no profile merge",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
-    "reviewedAt": "2026-09-30T02:38:06.783Z",
+    "reviewedAt": "2026-10-01T01:11:48.241Z",
     "notes": [
-      "서로 다름과 정답 오류를 구분한 후보 집합이 타당하며 handmade_108은 합치지 않는다.",
-      "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+      "fix005 전후 전량 검토 및 독립 오류 sense 추가 적용을 확인했다. 기존 중립 차이 용법과 두 예문은 보존했다."
     ]
   },
   {

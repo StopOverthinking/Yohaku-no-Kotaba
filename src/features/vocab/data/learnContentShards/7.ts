@@ -1568,6 +1568,422 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1212850-1",
+    "wordId": "lex-jmdict-1212850",
+    "version": 1,
+    "meaning": "굳이, 일부러, 과감히",
+    "hint": "어려움·반대 이유가 있는데도 의도적으로 행동합니다.",
+    "confusions": [
+      {
+        "japanese": "わざと",
+        "distinction": "敢えて는 어려움·불필요함을 알면서도 행함에 흔하고 わざと는 고의로 함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1212850-1-ex-1",
+        "version": 1,
+        "before": "反対意見が多かったが、彼女は",
+        "answer": "敢えて",
+        "after": "自分の案を説明した。",
+        "reading": "あえて",
+        "translation": "반대 의견이 많았지만 그녀는 과감히 자기 안을 설명했다.",
+        "translationTarget": "과감히",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477660-1",
+    "wordId": "lex-jmdict-1477660",
+    "version": 1,
+    "meaning": "발상, 아이디어",
+    "hint": "새로운 생각을 떠올리거나 문제를 바라보는 방식입니다.",
+    "confusions": [
+      {
+        "japanese": "感想",
+        "distinction": "発想는 생각의 착안·아이디어이고 感想는 경험 뒤의 느낌·소감이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477660-1-ex-1",
+        "version": 1,
+        "before": "使わなくなった傘をかばんにするという",
+        "answer": "発想",
+        "after": "が面白い。",
+        "reading": "はっそう",
+        "translation": "쓰지 않게 된 우산을 가방으로 만든다는 발상이 재미있다.",
+        "translationTarget": "발상",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1119700-1",
+    "wordId": "lex-jmdict-1119700",
+    "version": 1,
+    "meaning": "숙련자·베테랑",
+    "hint": "오랜 경험으로 해당 일을 능숙하게 하는 사람",
+    "confusions": [
+      {
+        "japanese": "新人",
+        "distinction": "경험이 많아 능숙한 사람과 일을 처음 시작한 사람을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1119700-1-ex-1",
+        "version": 1,
+        "before": "修理は、この道三十年の",
+        "answer": "ベテラン",
+        "after": "に頼みました。",
+        "reading": "ベテラン",
+        "translation": "수리는 이 분야에서 삼십 년 일한 숙련자에게 부탁했습니다.",
+        "translationTarget": "숙련자",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546780-1",
+    "wordId": "lex-jmdict-1546780",
+    "version": 1,
+    "meaning": "요청",
+    "hint": "필요한 행동·지원을 상대에게 정식으로 요구하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "強制",
+        "distinction": "要請는 상대에게 요구·요청함이고 強制는 의사와 관계없이 따르게 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546780-1-ex-1",
+        "version": 1,
+        "before": "被害を受けた市は、近隣の自治体に支援を",
+        "answer": "要請",
+        "after": "した。",
+        "reading": "ようせい",
+        "translation": "피해를 입은 시는 인근 지자체에 지원을 요청했다.",
+        "translationTarget": "요청",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282280-1",
+    "wordId": "lex-jmdict-1282280",
+    "version": 1,
+    "meaning": "강사",
+    "hint": "특정 과목이나 기술을 설명하고 가르치는 사람",
+    "confusions": [
+      {
+        "japanese": "生徒",
+        "distinction": "가르치는 사람과 배우는 학생을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282280-1-ex-1",
+        "version": 1,
+        "before": "料理教室の",
+        "answer": "講師",
+        "after": "が、包丁の持ち方から教えてくれた。",
+        "reading": "こうし",
+        "translation": "요리 교실 강사가 칼 잡는 방법부터 가르쳐 주었다.",
+        "translationTarget": "강사",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273420-1",
+    "wordId": "lex-jmdict-1273420",
+    "version": 1,
+    "meaning": "공해",
+    "hint": "산업 활동 등으로 환경이 오염되어 주민이 입는 피해",
+    "confusions": [
+      {
+        "japanese": "災害",
+        "distinction": "오염으로 생활에 생기는 피해와 재난으로 인한 피해를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273420-1-ex-1",
+        "version": 1,
+        "before": "工場の排水による",
+        "answer": "公害",
+        "after": "で、川の魚が減った。",
+        "reading": "こうがい",
+        "translation": "공장 폐수로 인한 공해로 강의 물고기가 줄었다.",
+        "translationTarget": "공해",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554750-1",
+    "wordId": "lex-jmdict-1554750",
+    "version": 1,
+    "meaning": "금액 수령·영수",
+    "hint": "돈을 받았음을 확인하는 일",
+    "confusions": [
+      {
+        "japanese": "請求",
+        "distinction": "대금을 받는 일과 지급을 요구하는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554750-1-ex-1",
+        "version": 1,
+        "before": "代金を確かに",
+        "answer": "領収",
+        "after": "しましたので、控えをお渡しします。",
+        "reading": "りょうしゅう",
+        "translation": "대금을 확실히 수령했으므로 보관용 사본을 드리겠습니다.",
+        "translationTarget": "수령",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1389970-1",
+    "wordId": "lex-jmdict-1389970",
+    "version": 1,
+    "meaning": "뾰족해지다",
+    "hint": "끝부분이 가늘고 날카로운 모양이 돼요.",
+    "confusions": [
+      {
+        "japanese": "丸まる",
+        "distinction": "끝이 날카로운 모양과 둥글게 말린 모양을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1389970-1-ex-1",
+        "version": 1,
+        "before": "鉛筆の先が",
+        "answer": "尖っている",
+        "after": "ので、細い線が描ける。",
+        "reading": "とがっている",
+        "translation": "연필 끝이 뾰족해서 가는 선을 그릴 수 있다.",
+        "translationTarget": "뾰족해서",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432560-1",
+    "wordId": "lex-jmdict-1432560",
+    "version": 1,
+    "meaning": "추적",
+    "hint": "대상의 흔적·이동을 따라가며 살핍니다.",
+    "confusions": [
+      {
+        "japanese": "追及",
+        "distinction": "追跡는 흔적·움직임을 따라감이고 追及는 책임·원인을 끝까지 따짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432560-1-ex-1",
+        "version": 1,
+        "before": "荷物の番号を入力すると、配送状況を",
+        "answer": "追跡",
+        "after": "できる。",
+        "reading": "ついせき",
+        "translation": "짐 번호를 입력하면 배송 상황을 추적할 수 있다.",
+        "translationTarget": "추적",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1369200-1",
+    "wordId": "lex-jmdict-1369200",
+    "version": 1,
+    "meaning": "인품, 사람됨",
+    "hint": "행동·말투에서 느껴지는 그 사람의 성품입니다.",
+    "confusions": [
+      {
+        "japanese": "外見",
+        "distinction": "人柄는 사람의 성품이고 外見는 겉모습이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1369200-1-ex-1",
+        "version": 1,
+        "before": "短い会話でも、彼の温かな",
+        "answer": "人柄",
+        "after": "が伝わってきた。",
+        "reading": "ひとがら",
+        "translation": "짧은 대화에서도 그의 따뜻한 인품이 전해졌다.",
+        "translationTarget": "인품",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325640-1",
+    "wordId": "lex-jmdict-1325640",
+    "version": 1,
+    "meaning": "주식",
+    "hint": "식사에서 기본이 되는 중심 음식입니다.",
+    "confusions": [
+      {
+        "japanese": "副食",
+        "distinction": "主食는 식사의 중심 음식이고 副食는 함께 먹는 반찬류이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325640-1-ex-1",
+        "version": 1,
+        "before": "地域によって、米や小麦など",
+        "answer": "主食",
+        "after": "は異なる。",
+        "reading": "しゅしょく",
+        "translation": "지역에 따라 쌀이나 밀 등 주식이 다르다.",
+        "translationTarget": "주식",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1401070-1",
+    "wordId": "lex-jmdict-1401070",
+    "version": 1,
+    "meaning": "시세",
+    "hint": "시장에서 일반적으로 형성되는 거래 가격입니다.",
+    "confusions": [
+      {
+        "japanese": "定価",
+        "distinction": "相場는 시장에서 형성되는 가격이고 定価는 정해 놓은 판매 가격이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1401070-1-ex-1",
+        "version": 1,
+        "before": "中古車を買う前に、同じ車種の",
+        "answer": "相場",
+        "after": "を調べた。",
+        "reading": "そうば",
+        "translation": "중고차를 사기 전에 같은 차종의 시세를 알아봤다.",
+        "translationTarget": "시세",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1157070-1",
+    "wordId": "lex-jmdict-1157070",
+    "version": 1,
+    "meaning": "의자",
+    "hint": "앉을 수 있도록 등받이와 자리를 갖춘 가구",
+    "confusions": [
+      {
+        "japanese": "机",
+        "distinction": "앉는 가구와 물건을 올려 놓고 작업하는 가구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1157070-1-ex-1",
+        "version": 1,
+        "before": "窓のそばに",
+        "answer": "椅子",
+        "after": "を置きましょう。",
+        "reading": "いす",
+        "translation": "창문 옆에 의자를 놓읍시다.",
+        "translationTarget": "의자",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

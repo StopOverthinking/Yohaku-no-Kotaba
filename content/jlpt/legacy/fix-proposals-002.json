@@ -1,0 +1,1133 @@
+[
+  {
+    "wordId": "handmade_153",
+    "sourceHash": "1086ddb95dd31d93cbb2e65ec27aa5ee2bf18f718d59a50408e94e69320cc05d",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1554310",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "handmade_153",
+        "setId": "set-2",
+        "japanese": "料理",
+        "reading": "りょうり",
+        "meaning": "요리",
+        "type": "noun",
+        "difficulty": 22,
+        "verbInfo": null,
+        "sourceOrder": 152
+      },
+      "senses": [
+        {
+          "id": "sense-handmade_153-1",
+          "wordId": "handmade_153",
+          "version": 1,
+          "meaning": "요리",
+          "hint": "재료를 다루어 먹을 음식을 만드는 일이에요.",
+          "confusions": [
+            {
+              "japanese": "食事",
+              "distinction": "먹는 행위나 끼니와 달리 음식을 만드는 일이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_153-1-ex-1",
+              "version": 1,
+              "before": "一人暮らしを始めて、",
+              "answer": "料理",
+              "after": "が好きになった。",
+              "reading": "りょうり",
+              "translation": "혼자 살기 시작하면서 요리를 좋아하게 되었다.",
+              "translationTarget": "요리",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_153-1-ex-2",
+              "version": 1,
+              "before": "父の",
+              "answer": "料理",
+              "after": "は豪快で、いつも鍋がいっぱいになる。",
+              "reading": "りょうり",
+              "translation": "아버지의 요리는 호쾌해서 언제나 냄비가 가득 찬다.",
+              "translationTarget": "요리",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "handmade_153",
+        "setId": "set-2",
+        "japanese": "料理",
+        "reading": "りょうり",
+        "meaning": "요리, 요리한 음식",
+        "type": "noun",
+        "difficulty": 22,
+        "verbInfo": null,
+        "sourceOrder": 152
+      },
+      "senses": [
+        {
+          "id": "sense-handmade_153-1",
+          "wordId": "handmade_153",
+          "version": 1,
+          "meaning": "요리",
+          "hint": "재료를 다루어 먹을 음식을 만드는 일이에요.",
+          "confusions": [
+            {
+              "japanese": "食事",
+              "distinction": "먹는 행위나 끼니와 달리 음식을 만드는 일이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_153-1-ex-1",
+              "version": 1,
+              "before": "一人暮らしを始めて、",
+              "answer": "料理",
+              "after": "が好きになった。",
+              "reading": "りょうり",
+              "translation": "혼자 살기 시작하면서 요리를 좋아하게 되었다.",
+              "translationTarget": "요리",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_153-1-ex-2",
+              "version": 1,
+              "before": "父の",
+              "answer": "料理",
+              "after": "は豪快で、いつも鍋がいっぱいになる。",
+              "reading": "りょうり",
+              "translation": "아버지의 요리는 호쾌해서 언제나 냄비가 가득 찬다.",
+              "translationTarget": "요리",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-handmade_153-2",
+          "wordId": "handmade_153",
+          "version": 1,
+          "meaning": "요리한 음식",
+          "hint": "재료를 조리하여 먹을 수 있게 만든 음식이에요.",
+          "confusions": [
+            {
+              "japanese": "食材",
+              "distinction": "만들기 전의 재료와 조리하여 완성한 음식을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_153-2-ex-1",
+              "version": 1,
+              "before": "この店の",
+              "answer": "料理",
+              "after": "は、どれも野菜がたっぷり入っている。",
+              "reading": "りょうり",
+              "translation": "이 가게의 요리는 모두 채소가 듬뿍 들어 있다.",
+              "translationTarget": "요리",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_31",
+    "sourceHash": "64b7c0c8522177028ba747e22548ae8c1ee8d0c057bc0b8e68a7697a3690ddad",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1591110",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "AbsoluteVerb_31",
+        "setId": "AbsoluteVerb",
+        "japanese": "聞く",
+        "reading": "きく",
+        "meaning": "듣다, 묻다",
+        "type": "verb",
+        "difficulty": 10,
+        "verbInfo": "1타",
+        "sourceOrder": 30
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_31-1",
+          "wordId": "AbsoluteVerb_31",
+          "version": 1,
+          "meaning": "소리를 듣다",
+          "hint": "말이나 음악이 귀로 들어와 그 내용을 받아들여요.",
+          "confusions": [
+            {
+              "japanese": "聞こえる",
+              "distinction": "소리가 들리는 상태와 듣는 사람이 소리를 받아들이는 행위를 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_31-1-ex-1",
+              "version": 1,
+              "before": "父の昔話を",
+              "answer": "聞きながら",
+              "after": "、古い写真を整理した。",
+              "reading": "ききながら",
+              "translation": "아버지의 옛이야기를 들으며 오래된 사진을 정리했다.",
+              "translationTarget": "들으며",
+              "difficulty": 10,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_31-1-ex-2",
+              "version": 1,
+              "before": "説明を最後まで",
+              "answer": "聞いて",
+              "after": "から、質問してください。",
+              "reading": "きいて",
+              "translation": "설명을 끝까지 듣고 질문해 주세요.",
+              "translationTarget": "듣고",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "AbsoluteVerb_31",
+        "setId": "AbsoluteVerb",
+        "japanese": "聞く",
+        "reading": "きく",
+        "meaning": "듣다, (모르는 것을) 묻다",
+        "type": "verb",
+        "difficulty": 10,
+        "verbInfo": "1타",
+        "sourceOrder": 30
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_31-1",
+          "wordId": "AbsoluteVerb_31",
+          "version": 1,
+          "meaning": "소리를 듣다",
+          "hint": "말이나 음악이 귀로 들어와 그 내용을 받아들여요.",
+          "confusions": [
+            {
+              "japanese": "聞こえる",
+              "distinction": "소리가 들리는 상태와 듣는 사람이 소리를 받아들이는 행위를 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_31-1-ex-1",
+              "version": 1,
+              "before": "父の昔話を",
+              "answer": "聞きながら",
+              "after": "、古い写真を整理した。",
+              "reading": "ききながら",
+              "translation": "아버지의 옛이야기를 들으며 오래된 사진을 정리했다.",
+              "translationTarget": "들으며",
+              "difficulty": 10,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_31-1-ex-2",
+              "version": 1,
+              "before": "説明を最後まで",
+              "answer": "聞いて",
+              "after": "から、質問してください。",
+              "reading": "きいて",
+              "translation": "설명을 끝까지 듣고 질문해 주세요.",
+              "translationTarget": "듣고",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_31-2",
+          "wordId": "AbsoluteVerb_31",
+          "version": 1,
+          "meaning": "모르는 것을 묻다",
+          "hint": "알고 싶은 내용을 다른 사람에게 질문해요.",
+          "confusions": [
+            {
+              "japanese": "答える",
+              "distinction": "정보를 물어보는 행동과 질문에 답하는 행동을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_31-2-ex-1",
+              "version": 1,
+              "before": "友達に、誕生日に何が欲しいか",
+              "answer": "聞いた",
+              "after": "。",
+              "reading": "きいた",
+              "translation": "친구에게 생일에 무엇이 갖고 싶은지 물었다.",
+              "translationTarget": "물었다",
+              "difficulty": 13,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_34",
+    "sourceHash": "8512d163796eb669a9aa46d8366ee48e8fe46f17b998944548d24cc60ab3768a",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1169870",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "AbsoluteVerb_34",
+        "setId": "AbsoluteVerb",
+        "japanese": "飲む",
+        "reading": "のむ",
+        "meaning": "마시다, 약을 먹다",
+        "type": "verb",
+        "difficulty": 10,
+        "verbInfo": "1타",
+        "sourceOrder": 33
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_34-1",
+          "wordId": "AbsoluteVerb_34",
+          "version": 1,
+          "meaning": "음료를 마시다",
+          "hint": "액체를 입으로 받아 삼켜요.",
+          "confusions": [
+            {
+              "japanese": "食べる",
+              "distinction": "씹어 먹는 음식보다 액체를 삼키는 행동이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_34-1-ex-1",
+              "version": 1,
+              "before": "喉が渇いて、水を一気に",
+              "answer": "飲んだ",
+              "after": "。",
+              "reading": "のんだ",
+              "translation": "목이 말라 물을 단숨에 마셨다.",
+              "translationTarget": "마셨다",
+              "difficulty": 10,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_34-1-ex-2",
+              "version": 1,
+              "before": "そのお茶は熱いから、ゆっくり",
+              "answer": "飲んで",
+              "after": "ね。",
+              "reading": "のんで",
+              "translation": "그 차는 뜨거우니 천천히 마셔.",
+              "translationTarget": "마셔",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "AbsoluteVerb_34",
+        "setId": "AbsoluteVerb",
+        "japanese": "飲む",
+        "reading": "のむ",
+        "meaning": "마시다, (약을) 먹다",
+        "type": "verb",
+        "difficulty": 10,
+        "verbInfo": "1타",
+        "sourceOrder": 33
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_34-1",
+          "wordId": "AbsoluteVerb_34",
+          "version": 1,
+          "meaning": "음료를 마시다",
+          "hint": "액체를 입으로 받아 삼켜요.",
+          "confusions": [
+            {
+              "japanese": "食べる",
+              "distinction": "씹어 먹는 음식보다 액체를 삼키는 행동이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_34-1-ex-1",
+              "version": 1,
+              "before": "喉が渇いて、水を一気に",
+              "answer": "飲んだ",
+              "after": "。",
+              "reading": "のんだ",
+              "translation": "목이 말라 물을 단숨에 마셨다.",
+              "translationTarget": "마셨다",
+              "difficulty": 10,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_34-1-ex-2",
+              "version": 1,
+              "before": "そのお茶は熱いから、ゆっくり",
+              "answer": "飲んで",
+              "after": "ね。",
+              "reading": "のんで",
+              "translation": "그 차는 뜨거우니 천천히 마셔.",
+              "translationTarget": "마셔",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_34-2",
+          "wordId": "AbsoluteVerb_34",
+          "version": 1,
+          "meaning": "약을 먹다",
+          "hint": "정해진 약을 입으로 삼켜 복용해요.",
+          "confusions": [
+            {
+              "japanese": "塗る",
+              "distinction": "입으로 약을 복용하는 것과 피부에 약을 바르는 것을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_34-2-ex-1",
+              "version": 1,
+              "before": "錠剤が大きくて、水なしでは",
+              "answer": "飲めなかった",
+              "after": "。",
+              "reading": "のめなかった",
+              "translation": "알약이 커서 물 없이는 먹을 수 없었다.",
+              "translationTarget": "먹을 수 없었다",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_81",
+    "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1315720",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "AbsoluteVerb_81",
+        "setId": "AbsoluteVerb",
+        "japanese": "持つ",
+        "reading": "もつ",
+        "meaning": "가지다, 들다",
+        "type": "verb",
+        "difficulty": 12,
+        "verbInfo": "1타",
+        "sourceOrder": 80
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_81-1",
+          "wordId": "AbsoluteVerb_81",
+          "version": 1,
+          "meaning": "들다",
+          "hint": "손으로 잡아 지탱해요. 다른 곳으로 나르는 것까지는 아니에요.",
+          "confusions": [
+            {
+              "japanese": "運ぶ",
+              "distinction": "장소 사이로 나르는 이동보다 손에 들고 있는 상태에 초점을 둔다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_81-1-ex-1",
+              "version": 1,
+              "before": "ちょっとこの袋を",
+              "answer": "持って",
+              "after": "。靴ひもを結びたい。",
+              "reading": "もって",
+              "translation": "잠깐 이 봉투 좀 들어 줘. 신발 끈을 묶고 싶어.",
+              "translationTarget": "들어 줘",
+              "difficulty": 12,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_81-1-ex-2",
+              "version": 1,
+              "before": "片手に傘を",
+              "answer": "持った",
+              "after": "まま、鍵を探した。",
+              "reading": "もった",
+              "translation": "한 손에 우산을 든 채 열쇠를 찾았다.",
+              "translationTarget": "든",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "AbsoluteVerb_81",
+        "setId": "AbsoluteVerb",
+        "japanese": "持つ",
+        "reading": "もつ",
+        "meaning": "(손에) 들다, 가지다·소유하다",
+        "type": "verb",
+        "difficulty": 12,
+        "verbInfo": "1타",
+        "sourceOrder": 80
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_81-1",
+          "wordId": "AbsoluteVerb_81",
+          "version": 1,
+          "meaning": "들다",
+          "hint": "손으로 잡아 지탱해요. 다른 곳으로 나르는 것까지는 아니에요.",
+          "confusions": [
+            {
+              "japanese": "運ぶ",
+              "distinction": "장소 사이로 나르는 이동보다 손에 들고 있는 상태에 초점을 둔다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_81-1-ex-1",
+              "version": 1,
+              "before": "ちょっとこの袋を",
+              "answer": "持って",
+              "after": "。靴ひもを結びたい。",
+              "reading": "もって",
+              "translation": "잠깐 이 봉투 좀 들어 줘. 신발 끈을 묶고 싶어.",
+              "translationTarget": "들어 줘",
+              "difficulty": 12,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_81-1-ex-2",
+              "version": 1,
+              "before": "片手に傘を",
+              "answer": "持った",
+              "after": "まま、鍵を探した。",
+              "reading": "もった",
+              "translation": "한 손에 우산을 든 채 열쇠를 찾았다.",
+              "translationTarget": "든",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_81-2",
+          "wordId": "AbsoluteVerb_81",
+          "version": 1,
+          "meaning": "가지고 있다·소유하다",
+          "hint": "손에 들고 있지 않아도 자기 것으로 갖고 있어요.",
+          "confusions": [
+            {
+              "japanese": "借りる",
+              "distinction": "자기 것으로 소유하는 상태와 다른 사람의 것을 빌려 쓰는 것을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_81-2-ex-1",
+              "version": 1,
+              "before": "兄は車を",
+              "answer": "持っている",
+              "after": "が、通勤には電車を使っている。",
+              "reading": "もっている",
+              "translation": "형은 차를 가지고 있지만 출근할 때는 전철을 이용한다.",
+              "translationTarget": "가지고 있지만",
+              "difficulty": 14,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_101",
+    "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1338180",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "AbsoluteVerb_101",
+        "setId": "AbsoluteVerb",
+        "japanese": "出す",
+        "reading": "だす",
+        "meaning": "내다, 제출하다",
+        "type": "verb",
+        "difficulty": 12,
+        "verbInfo": "1타",
+        "sourceOrder": 100
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_101-1",
+          "wordId": "AbsoluteVerb_101",
+          "version": 1,
+          "meaning": "제출하다",
+          "hint": "직접 건네는 방식보다 정해진 곳에 서류를 제출해요.",
+          "confusions": [
+            {
+              "japanese": "渡す",
+              "distinction": "건네는 방법보다 제출이라는 목적에 초점을 둔다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_101-1-ex-1",
+              "version": 1,
+              "before": "申込書は、明日までに受付へ",
+              "answer": "出して",
+              "after": "ください。",
+              "reading": "だして",
+              "translation": "신청서는 내일까지 접수대에 제출해 주세요.",
+              "translationTarget": "제출해",
+              "difficulty": 12,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_101-1-ex-2",
+              "version": 1,
+              "before": "宿題を",
+              "answer": "出した",
+              "after": "つもりだったが、かばんに残っていた。",
+              "reading": "だした",
+              "translation": "숙제를 제출한 줄 알았지만 가방에 남아 있었다.",
+              "translationTarget": "제출한",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "AbsoluteVerb_101",
+        "setId": "AbsoluteVerb",
+        "japanese": "出す",
+        "reading": "だす",
+        "meaning": "(안에서 밖으로) 꺼내다·내놓다, 제출하다",
+        "type": "verb",
+        "difficulty": 12,
+        "verbInfo": "1타",
+        "sourceOrder": 100
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_101-1",
+          "wordId": "AbsoluteVerb_101",
+          "version": 1,
+          "meaning": "제출하다",
+          "hint": "직접 건네는 방식보다 정해진 곳에 서류를 제출해요.",
+          "confusions": [
+            {
+              "japanese": "渡す",
+              "distinction": "건네는 방법보다 제출이라는 목적에 초점을 둔다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_101-1-ex-1",
+              "version": 1,
+              "before": "申込書は、明日までに受付へ",
+              "answer": "出して",
+              "after": "ください。",
+              "reading": "だして",
+              "translation": "신청서는 내일까지 접수대에 제출해 주세요.",
+              "translationTarget": "제출해",
+              "difficulty": 12,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_101-1-ex-2",
+              "version": 1,
+              "before": "宿題を",
+              "answer": "出した",
+              "after": "つもりだったが、かばんに残っていた。",
+              "reading": "だした",
+              "translation": "숙제를 제출한 줄 알았지만 가방에 남아 있었다.",
+              "translationTarget": "제출한",
+              "difficulty": 12,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_101-2",
+          "wordId": "AbsoluteVerb_101",
+          "version": 1,
+          "meaning": "안에서 밖으로 꺼내다",
+          "hint": "안에 있던 물건을 바깥으로 옮겨 드러내요.",
+          "confusions": [
+            {
+              "japanese": "入れる",
+              "distinction": "안에서 밖으로 꺼내는 행동과 밖에서 안으로 넣는 행동을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_101-2-ex-1",
+              "version": 1,
+              "before": "暑くなったので、かばんから扇子を",
+              "answer": "出した",
+              "after": "。",
+              "reading": "だした",
+              "translation": "더워져서 가방에서 부채를 꺼냈다.",
+              "translationTarget": "꺼냈다",
+              "difficulty": 13,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_143",
+    "sourceHash": "a595b04ea5bd1ac648909449a181251adfcf731ba5b076e2baff4735ff269b21",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1532710",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "AbsoluteVerb_143",
+        "setId": "AbsoluteVerb",
+        "japanese": "迷う",
+        "reading": "まよう",
+        "meaning": "헤매다, 망설이다",
+        "type": "verb",
+        "difficulty": 22,
+        "verbInfo": "1자",
+        "sourceOrder": 142
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_143-1",
+          "wordId": "AbsoluteVerb_143",
+          "version": 1,
+          "meaning": "망설이다",
+          "hint": "길을 잃는 뜻도 있지만 여기서는 선택을 못 정해요.",
+          "confusions": [
+            {
+              "japanese": "悩む",
+              "distinction": "깊은 고민보다 여러 선택 사이에서 결정을 못 하는 상황에 흔히 쓴다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_143-1-ex-1",
+              "version": 1,
+              "before": "赤と青のどちらにするか、まだ",
+              "answer": "迷っている",
+              "after": "。",
+              "reading": "まよっている",
+              "translation": "빨강과 파랑 중 무엇으로 할지 아직 망설이고 있다.",
+              "translationTarget": "망설이고 있다",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_143-1-ex-2",
+              "version": 1,
+              "before": "誘いを受けるか",
+              "answer": "迷った",
+              "after": "が、結局行くことにした。",
+              "reading": "まよった",
+              "translation": "초대를 받아들일지 망설였지만 결국 가기로 했다.",
+              "translationTarget": "망설였지만",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "AbsoluteVerb_143",
+        "setId": "AbsoluteVerb",
+        "japanese": "迷う",
+        "reading": "まよう",
+        "meaning": "길을 잃다·헤매다, 망설이다",
+        "type": "verb",
+        "difficulty": 22,
+        "verbInfo": "1자",
+        "sourceOrder": 142
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_143-1",
+          "wordId": "AbsoluteVerb_143",
+          "version": 1,
+          "meaning": "망설이다",
+          "hint": "길을 잃는 뜻도 있지만 여기서는 선택을 못 정해요.",
+          "confusions": [
+            {
+              "japanese": "悩む",
+              "distinction": "깊은 고민보다 여러 선택 사이에서 결정을 못 하는 상황에 흔히 쓴다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_143-1-ex-1",
+              "version": 1,
+              "before": "赤と青のどちらにするか、まだ",
+              "answer": "迷っている",
+              "after": "。",
+              "reading": "まよっている",
+              "translation": "빨강과 파랑 중 무엇으로 할지 아직 망설이고 있다.",
+              "translationTarget": "망설이고 있다",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_143-1-ex-2",
+              "version": 1,
+              "before": "誘いを受けるか",
+              "answer": "迷った",
+              "after": "が、結局行くことにした。",
+              "reading": "まよった",
+              "translation": "초대를 받아들일지 망설였지만 결국 가기로 했다.",
+              "translationTarget": "망설였지만",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_143-2",
+          "wordId": "AbsoluteVerb_143",
+          "version": 1,
+          "meaning": "길을 잃다",
+          "hint": "어느 길로 가야 하는지 몰라 목적지로 가기 어려워져요.",
+          "confusions": [
+            {
+              "japanese": "迷わせる",
+              "distinction": "자신이 갈 길을 잃는 상태와 다른 사람을 갈피 못 잡게 하는 행동을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_143-2-ex-1",
+              "version": 1,
+              "before": "山で道に",
+              "answer": "迷った",
+              "after": "ときは、むやみに歩かないほうがいい。",
+              "reading": "まよった",
+              "translation": "산에서 길을 잃었을 때는 함부로 돌아다니지 않는 편이 좋다.",
+              "translationTarget": "길을 잃었을 때는",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "wordId": "AbsoluteVerb_71",
+    "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1207610",
+    "reason": "독립 참조 검토에서 확인한 기초 중요 용법 누락을 현재 핵심 용법에 덮어씌우지 않고 새 용법과 대표 예문으로 추가한다. 기존 용법 ID·버전·전체 내용과 예문은 그대로 보존한다.",
+    "before": {
+      "word": {
+        "id": "AbsoluteVerb_71",
+        "setId": "AbsoluteVerb",
+        "japanese": "掛ける",
+        "reading": "かける",
+        "meaning": "(벽 등에) 걸다, (전화를) 걸다, (자물쇠를) 잠그다, (안경을) 쓰다, 곱하다, 씌우다",
+        "type": "verb",
+        "difficulty": 22,
+        "verbInfo": "2타",
+        "sourceOrder": 70
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_71-1",
+          "wordId": "AbsoluteVerb_71",
+          "version": 1,
+          "meaning": "걸다",
+          "hint": "물건을 고리나 벽에 걸어 두어요.",
+          "confusions": [
+            {
+              "japanese": "置く",
+              "distinction": "바닥이나 받침 위에 놓는 것과 달리 걸어 지탱한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_71-1-ex-1",
+              "version": 1,
+              "before": "ぬれたコートは、このフックに",
+              "answer": "掛けて",
+              "after": "ください。",
+              "reading": "かけて",
+              "translation": "젖은 외투는 이 고리에 걸어 주세요.",
+              "translationTarget": "걸어",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_71-1-ex-2",
+              "version": 1,
+              "before": "壁に時計を",
+              "answer": "掛けた",
+              "after": "ら、部屋らしくなった。",
+              "reading": "かけた",
+              "translation": "벽에 시계를 걸었더니 방다운 모습이 되었다.",
+              "translationTarget": "걸었더니",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "AbsoluteVerb_71",
+        "setId": "AbsoluteVerb",
+        "japanese": "掛ける",
+        "reading": "かける",
+        "meaning": "(벽 등에) 걸다, (전화를) 걸다, (자물쇠를) 잠그다, (안경을) 쓰다, 곱하다, 씌우다",
+        "type": "verb",
+        "difficulty": 22,
+        "verbInfo": "2타",
+        "sourceOrder": 70
+      },
+      "senses": [
+        {
+          "id": "sense-AbsoluteVerb_71-1",
+          "wordId": "AbsoluteVerb_71",
+          "version": 1,
+          "meaning": "걸다",
+          "hint": "물건을 고리나 벽에 걸어 두어요.",
+          "confusions": [
+            {
+              "japanese": "置く",
+              "distinction": "바닥이나 받침 위에 놓는 것과 달리 걸어 지탱한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_71-1-ex-1",
+              "version": 1,
+              "before": "ぬれたコートは、このフックに",
+              "answer": "掛けて",
+              "after": "ください。",
+              "reading": "かけて",
+              "translation": "젖은 외투는 이 고리에 걸어 주세요.",
+              "translationTarget": "걸어",
+              "difficulty": 22,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-AbsoluteVerb_71-1-ex-2",
+              "version": 1,
+              "before": "壁に時計を",
+              "answer": "掛けた",
+              "after": "ら、部屋らしくなった。",
+              "reading": "かけた",
+              "translation": "벽에 시계를 걸었더니 방다운 모습이 되었다.",
+              "translationTarget": "걸었더니",
+              "difficulty": 22,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_71-2",
+          "wordId": "AbsoluteVerb_71",
+          "version": 1,
+          "meaning": "전화를 걸다",
+          "hint": "상대와 통화하기 위해 전화 연결을 시작해요.",
+          "confusions": [
+            {
+              "japanese": "受ける",
+              "distinction": "상대에게 전화하는 행동과 걸려 온 전화를 받는 행동을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_71-2-ex-1",
+              "version": 1,
+              "before": "予約を変更したくて、ホテルに電話を",
+              "answer": "掛けた",
+              "after": "。",
+              "reading": "かけた",
+              "translation": "예약을 변경하고 싶어서 호텔에 전화를 걸었다.",
+              "translationTarget": "걸었다",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-AbsoluteVerb_71-3",
+          "wordId": "AbsoluteVerb_71",
+          "version": 1,
+          "meaning": "안경을 쓰다",
+          "hint": "잘 보거나 눈을 보호하려고 안경을 얼굴에 착용해요.",
+          "confusions": [
+            {
+              "japanese": "外す",
+              "distinction": "안경을 착용하는 행동과 착용한 안경을 벗는 행동을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-AbsoluteVerb_71-3-ex-1",
+              "version": 1,
+              "before": "細かい文字を読むときだけ、眼鏡を",
+              "answer": "掛けています",
+              "after": "。",
+              "reading": "かけています",
+              "translation": "작은 글씨를 읽을 때만 안경을 쓰고 있습니다.",
+              "translationTarget": "쓰고 있습니다",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

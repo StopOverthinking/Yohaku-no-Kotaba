@@ -2,15 +2,13 @@
   {
     "wordId": "AbsoluteVerb_207",
     "sourceHash": "bb3a1a5bbbd1b68e59a5d6141c761ba53ec0a936189d624e46e160b3e9603a05",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N4",
+    "dictionaryId": "jmdict-1571470",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “삶다” 및 1개 sense를 대조했다. 달걀·면 삶기 예문은 일관된다. 제공 후보가 없어 ゆでる/茹でる 조리 의미 연결을 보류한다.",
+    "levelNote": "새 대체표기 사전 근거 茹でる의 물에 삶는 뜻과 현재 달걀·면 예문이 일치한다. 생활 조리 핵심을 고려해 N4. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
+    "meaningReview": "새 대체표기 사전 근거 茹でる의 물에 삶는 뜻과 현재 달걀·면 예문이 일치한다. 생활 조리 핵심을 고려해 N4.",
     "aliasCandidateIds": [],
-    "issues": [
-      "ゆでる의 삶기 사전 연결이 필요하다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_208",
@@ -61,10 +59,10 @@
   {
     "wordId": "AbsoluteVerb_213",
     "sourceHash": "972f1059789844c29c1f5c1f1293b4182b72b097bea3db76fe37b52ef6032914",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1356900",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "levelNote": "증기로 음식을 찌는 일반 조리 동작이므로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
     "meaningReview": "기존 뜻 “찌다, 후텁지근하다” 및 1개 sense를 대조했다. steam와 호박·고기 찐빵 예문이 일치한다. 후텁지근함은 현재 sense와 분리한다.",
     "aliasCandidateIds": [],
     "issues": []
@@ -83,10 +81,10 @@
   {
     "wordId": "AbsoluteVerb_215",
     "sourceHash": "9058cd6d472a5507dfef3eedb7c332fa80333c50c77ebd52a04433ed31e7bf02",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1596830",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "levelNote": "쌀로 밥을 짓는 일상 동작이므로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
     "meaningReview": "기존 뜻 “밥을 짓다” 및 1개 sense를 대조했다. cook rice와 뚝배기 밥·인원에 맞춘 밥 예문이 일치한다.",
     "aliasCandidateIds": [],
     "issues": []
@@ -129,10 +127,10 @@
   {
     "wordId": "AbsoluteVerb_222",
     "sourceHash": "99b704c2f4bc0640adaa68f01447283b3ba7713639c5eb46af9ba4b66ef1210c",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1556770",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "levelNote": "음료·수박을 차갑게 하는 생활 동작이므로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
     "meaningReview": "기존 뜻 “차갑게 하다, 식혀서 차게 만들다” 및 1개 sense를 대조했다. chill와 음료·수박 예문이 일치한다. 마음 진정은 선택하지 않는다.",
     "aliasCandidateIds": [],
     "issues": []
@@ -140,10 +138,10 @@
   {
     "wordId": "AbsoluteVerb_223",
     "sourceHash": "2d77ed12c58e435702842b10e92fae77a26ad2c55eab41e90b05ad9d9d35ac39",
-    "level": "N2",
+    "level": "N4",
     "dictionaryId": "jmdict-1586440",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
+    "levelNote": "수프·도시락을 데우는 필수 일상 행위로 N4. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
     "meaningReview": "기존 뜻 “데우다” 및 1개 sense를 대조했다. warm up와 수프·도시락 예문이 일치한다. 계획 보관은 선택하지 않는다.",
     "aliasCandidateIds": [],
     "issues": []
@@ -161,23 +159,23 @@
   },
   {
     "wordId": "AbsoluteVerb_225",
-    "sourceHash": "a5a9f3e56b15214eefd91596ac13dc6d11fe5687d7a75bff93e7519ba8d56079",
+    "sourceHash": "c872eeaa971464a75bdd82d4836bb39b19979516276c4cb1e8a160228e04750c",
     "level": "N5",
     "dictionaryId": "jmdict-1333070",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “(기술적으로) 배우다” 및 1개 sense를 대조했다. learn from teacher와 뜨개질·수영 예문이 일치한다. 기술에만 절대 한정하는 말이 아니라 타인의 수업으로 배움을 명시한다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },
   {
     "wordId": "AbsoluteVerb_227",
-    "sourceHash": "0ef8ef4898301d1da1d0df75fee258e5fa6013f9bd7f82f78438f73098c8f3de",
-    "level": "N2",
+    "sourceHash": "7fe937e990503df807a046cadcf1429d748c84c46e2e946dea059f0da1c9f0d1",
+    "level": "N4",
     "dictionaryId": "jmdict-1236940",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “가르침을 받다” 및 1개 sense를 대조했다. be taught와 매듭·노래 예문이 일치한다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -230,10 +228,10 @@
   {
     "wordId": "AbsoluteVerb_233",
     "sourceHash": "416bdcc84e63b8e4eda60ef95ea8d9ae3ecab143d491bfc82da5ff3a1d1fee5b",
-    "level": "N1",
+    "level": "N3",
     "dictionaryId": "jmdict-1057580",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
+    "levelNote": "연습·청소를 빼먹는 일상 구어 동작으로 N3. 비공식 편집 권장 수준이며 출처 등급과 구별한다.",
     "meaningReview": "기존 뜻 “게을리 하다” 및 1개 sense를 대조했다. slack off와 연습·청소 빼먹기 예문이 일치한다. 한국어 게을리 하다는 게을리하다로 붙여 쓰는 표기 정리 후보이다.",
     "aliasCandidateIds": [],
     "issues": [

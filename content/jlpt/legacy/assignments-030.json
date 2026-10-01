@@ -79,15 +79,13 @@
   {
     "wordId": "AbsoluteVerb_293",
     "sourceHash": "4243c7f1c88f34ea9291c4ff62f81387e76263d9fc432099d9f3b224c944173a",
-    "level": null,
-    "dictionaryId": null,
+    "level": "N3",
+    "dictionaryId": "jmdict-1003810",
     "suggestedType": "verb",
-    "levelNote": "현재 표제어에 대응하는 제공 사전 후보가 없어 등급과 사전 연결을 보류한다.",
-    "meaningReview": "기존 뜻 “(구어적) 지치다, 녹초가 되다, 낡아지다” 및 1개 sense를 대조했다. 두 문장은 지쳐 있는 구어적 의미이다. 표제어에 대응하는 사전 후보가 없어 연결과 등급을 보류한다.",
+    "levelNote": "새 대체표기 사전 근거 草臥れる와 현재 지침/피로 용법이 일치한다. 일상 구어의 지침 표현을 N3로 권장하며 원천 N1과 구별한다.",
+    "meaningReview": "새 대체표기 사전 근거 草臥れる와 현재 지침/피로 용법이 일치한다. 일상 구어의 지침 표현을 N3로 권장하며 원천 N1과 구별한다.",
     "aliasCandidateIds": [],
-    "issues": [
-      "くたびれる의 제공 사전 후보가 없어 읽기·등급·사전 연결을 별도 확인해야 한다."
-    ]
+    "issues": []
   },
   {
     "wordId": "AbsoluteVerb_294",
@@ -114,11 +112,11 @@
   {
     "wordId": "AbsoluteVerb_296",
     "sourceHash": "6cc794f761cc9321e347916c09716ae4910e470ff5ff9cfc36c581d01f3661b9",
-    "level": "N3",
+    "level": "N4",
     "dictionaryId": "jmdict-1451170",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
-    "meaningReview": "기존 뜻 “옮기다, (마음을) 움직이다” 및 1개 sense를 대조했다. 소파와 선반을 움직이는 물리적 타동사 의미이다.",
+    "levelNote": "소파·선반을 다른 위치로 움직이는 기초 타동사 용법은 N4 권장 수준으로 검토한다.",
+    "meaningReview": "소파·선반을 다른 위치로 움직이는 기초 타동사 용법은 N4 권장 수준으로 검토한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -164,38 +162,42 @@
     "levelNote": "현재 verb 용법의 사전 출처 등급은 N5·N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
     "meaningReview": "기존 뜻 “(팽팽하게) 펴다·치다, 팽팽해지다, (물을) 채우다, (얼음이) 얼어 덮이다” 및 1개 sense를 대조했다. 텐트를 치고 로프를 팽팽하게 설치하는 의미이다. 접착하여 붙이는 다른 쓰임과 구분하여 N3를 제안한다.",
     "aliasCandidateIds": [],
-    "issues": []
+    "issues": [
+      "실제 텐트·밧줄을 치는 타동사 용법과 사전 transitive에 비해 verbInfo 1자가 잘못되어 있다."
+    ]
   },
   {
     "wordId": "AbsoluteVerb_302",
     "sourceHash": "4499f524386895f8e3dc22c2f515dd0438937b86a0aa7aedbe332776ef1e14a9",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1497420",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “(물·공중에) 뜨다, (바닥에서) 들뜨다” 및 1개 sense를 대조했다. 나무와 장난감이 물 위에 뜨는 자동사 의미이다.",
+    "levelNote": "물체가 물에 뜨는 기본 물리 의미를 선택하여 N3로 권장한다.",
+    "meaningReview": "물체가 물에 뜨는 기본 물리 의미를 선택하여 N3로 권장한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
   {
     "wordId": "AbsoluteVerb_303",
     "sourceHash": "fe45684cab98f30655957df6f984cdf8882bdca5375bb37e05172f7a37d8d1ac",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1497430",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2·N1이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “(물·공중에) 떠오르다, (생각·표정이) 떠오르다” 및 1개 sense를 대조했다. 낙엽과 열매가 물 위에 떠 있는 물리적 의미이다. 떠오르는 생각이나 표정은 현재 예문에 없다.",
+    "levelNote": "물 위에 떠 있는 물리 의미는 N3로 권장한다. 원천 복수 등급보다 실제 선택 용법을 기준으로 한다.",
+    "meaningReview": "물 위에 떠 있는 물리 의미는 N3로 권장한다. 원천 복수 등급보다 실제 선택 용법을 기준으로 한다.",
     "aliasCandidateIds": [],
-    "issues": []
+    "issues": [
+      "물 위에 뜨는 두 예문은 적합하나 중요 핵심인 생각이 떠오르는 용법이 없다. 둘째 예문도 浮く 302의 나무가 물에 뜨는 장면과 유사하여 보완 시 새 장면을 사용한다."
+    ]
   },
   {
     "wordId": "AbsoluteVerb_304",
     "sourceHash": "133f8081552b17cf738ffe7ae78167957dc441efb7f00727339cc2f4ddebd526",
-    "level": "N2",
+    "level": "N3",
     "dictionaryId": "jmdict-1497360",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N2이다. 대표 예문의 의미 범위를 검토하여 N2로 제안한다.",
-    "meaningReview": "기존 뜻 “띄우다” 및 1개 sense를 대조했다. 유자와 종이배를 물에 띄우는 타동사 의미이다.",
+    "levelNote": "물에 물건을 띄우는 기본 물리 의미를 선택하여 N3로 권장한다.",
+    "meaningReview": "물에 물건을 띄우는 기본 물리 의미를 선택하여 N3로 권장한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -268,11 +270,11 @@
   {
     "wordId": "AbsoluteVerb_313",
     "sourceHash": "f6325e18541935c9f75b0fe7b08c56c2dda09253f7b26cd142cce818a7a75c7f",
-    "level": "N3",
+    "level": "N4",
     "dictionaryId": "jmdict-1457200",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
-    "meaningReview": "기존 뜻 “도착하다, 닿다” 및 1개 sense를 대조했다. 주문한 책과 통지서가 배송되어 도착하는 의미이다.",
+    "levelNote": "책과 우편이 수신자에게 도착하는 일상 용법은 N4로 권장한다.",
+    "meaningReview": "책과 우편이 수신자에게 도착하는 일상 용법은 N4로 권장한다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -290,11 +292,11 @@
   {
     "wordId": "AbsoluteVerb_315",
     "sourceHash": "81a7a2b6f7dbd5e2f2017ec026138930355047b3730506a980df0c58640f12f9",
-    "level": "N1",
+    "level": "N2",
     "dictionaryId": "jmdict-1326540",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N1이다. 대표 예문의 의미 범위를 검토하여 N1로 제안한다.",
-    "meaningReview": "기존 뜻 “취급하다” 및 1개 sense를 대조했다. 깨지기 쉬운 물건과 약품을 다루는 의미이다.",
+    "levelNote": "취급 주의 및 약품 취급의 일반 안내 용법은 N2로 권장한다. 사전 N1을 그대로 적용하지 않는다.",
+    "meaningReview": "취급 주의 및 약품 취급의 일반 안내 용법은 N2로 권장한다. 사전 N1을 그대로 적용하지 않는다.",
     "aliasCandidateIds": [],
     "issues": []
   },
@@ -322,12 +324,12 @@
   },
   {
     "wordId": "AbsoluteVerb_318",
-    "sourceHash": "1516f45d4aa7b2132573078b97bf3397af97a40a6fed350bf3680a437fcb2f84",
+    "sourceHash": "4a2f76c75e61a32fc1341924b080f18d3fa1e2d3c907644511ac9a0f1b37c1f3",
     "level": "N5",
     "dictionaryId": "jmdict-1542160",
     "suggestedType": "verb",
-    "levelNote": "현재 verb 용법의 사전 출처 등급은 N5이다. 대표 예문의 의미 범위를 검토하여 N5로 제안한다.",
-    "meaningReview": "기존 뜻 “놀다” 및 1개 sense를 대조했다. 아이들이 놀거나 숙제 후 함께 노는 기본 의미이다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
     "issues": []
   }

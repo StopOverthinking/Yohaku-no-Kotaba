@@ -1496,6 +1496,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1448500-1",
+    "wordId": "lex-jmdict-1448500",
+    "version": 1,
+    "meaning": "도난",
+    "hint": "다른 사람이 물건 등을 훔쳐 가서 피해를 입는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "紛失",
+        "distinction": "盗難는 도난 피해이고 紛失는 어디에 있는지 모르도록 분실함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1448500-1-ex-1",
+        "version": 1,
+        "before": "自転車の",
+        "answer": "盗難",
+        "after": "に備えて、二つの鍵を付けている。",
+        "reading": "とうなん",
+        "translation": "자전거 도난에 대비해서 자물쇠 두 개를 달고 있다.",
+        "translationTarget": "도난",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1433050-1",
+    "wordId": "lex-jmdict-1433050",
+    "version": 1,
+    "meaning": "통화, 화폐",
+    "hint": "한 나라·지역에서 돈으로 통용되는 단위·화폐입니다.",
+    "confusions": [
+      {
+        "japanese": "現金",
+        "distinction": "通貨는 통용되는 화폐 체계이고 現金는 지폐·동전 등 바로 지급 가능한 돈이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1433050-1-ex-1",
+        "version": 1,
+        "before": "海外旅行の前に、現地の",
+        "answer": "通貨",
+        "after": "と為替レートを調べた。",
+        "reading": "つうか",
+        "translation": "해외여행 전에 현지 통화와 환율을 알아봤다.",
+        "translationTarget": "통화",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437380-1",
+    "wordId": "lex-jmdict-1437380",
+    "version": 1,
+    "meaning": "적절히, 상황에 맞게",
+    "hint": "상황·필요에 알맞도록 판단하여 합니다.",
+    "confusions": [
+      {
+        "japanese": "一律",
+        "distinction": "適宜는 상황에 맞춰 조정함이고 一律는 같은 기준으로 일괄 처리함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437380-1-ex-1",
+        "version": 1,
+        "before": "疲れを感じたら、",
+        "answer": "適宜",
+        "after": "休憩を取りながら作業してください。",
+        "reading": "てきぎ",
+        "translation": "피로를 느끼면 상황에 맞게 휴식을 취하며 작업해 주세요.",
+        "translationTarget": "상황에 맞게",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1550010-1",
+    "wordId": "lex-jmdict-1550010",
+    "version": 1,
+    "meaning": "이성",
+    "hint": "감정에 휩쓸리지 않고 논리적으로 판단하는 능력입니다.",
+    "confusions": [
+      {
+        "japanese": "感情",
+        "distinction": "理性는 이치에 따라 판단하는 능력이고 感情는 느끼는 마음의 반응이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1550010-1-ex-1",
+        "version": 1,
+        "before": "怒りが湧いたが、",
+        "answer": "理性",
+        "after": "を保って話を聞いた。",
+        "reading": "りせい",
+        "translation": "화가 났지만 이성을 유지하며 이야기를 들었다.",
+        "translationTarget": "이성",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333640-1",
+    "wordId": "lex-jmdict-1333640",
+    "version": 1,
+    "meaning": "집계",
+    "hint": "여러 자료의 수치를 모아 합계·결과를 냅니다.",
+    "confusions": [
+      {
+        "japanese": "計算",
+        "distinction": "集計는 자료를 모아 결과를 냄이고 計算는 수치 연산 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333640-1-ex-1",
+        "version": 1,
+        "before": "投票結果の",
+        "answer": "集計",
+        "after": "が終わるまで、しばらく時間がかかった。",
+        "reading": "しゅうけい",
+        "translation": "투표 결과 집계가 끝날 때까지 시간이 조금 걸렸다.",
+        "translationTarget": "집계",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1360910-1",
+    "wordId": "lex-jmdict-1360910",
+    "version": 1,
+    "meaning": "유의 사항, 알아 둘 지식",
+    "hint": "행동·역할에 필요한 마음가짐·주의점을 알고 있는 것입니다.",
+    "confusions": [
+      {
+        "japanese": "資格",
+        "distinction": "心得는 필요한 지식·마음가짐이고 資格는 역할을 맡을 자격이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1360910-1-ex-1",
+        "version": 1,
+        "before": "山に入る前に、登山の",
+        "answer": "心得",
+        "after": "を教わった。",
+        "reading": "こころえ",
+        "translation": "산에 들어가기 전에 등산 유의 사항을 배웠다.",
+        "translationTarget": "유의 사항",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

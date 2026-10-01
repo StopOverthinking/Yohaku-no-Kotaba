@@ -93,12 +93,12 @@ const content: LearnSense[] = [
     "id": "sense-AbsoluteVerb_49-1",
     "wordId": "AbsoluteVerb_49",
     "version": 1,
-    "meaning": "주관적으로 생각하다",
-    "hint": "내 마음속에 떠오른 판단이나 느낌을 말해요.",
+    "meaning": "생각하다, 여기다 (의견·느낌을 품다)",
+    "hint": "어떤 사실에 대해 품은 의견이나 느낌을 말해요.",
     "confusions": [
       {
         "japanese": "考える",
-        "distinction": "순서를 따져 깊이 사고하는 것보다 의견이나 느낌을 나타낼 때 널리 쓴다."
+        "distinction": "의견·판단·느낌을 나타내는 데 흔히 쓰며 비교 표현과 뜻이 겹친다. 비교 표현은 생각을 검토하는 과정에 초점이 놓이는 경우가 많다."
       }
     ],
     "review": {
@@ -2085,6 +2085,390 @@ const content: LearnSense[] = [
         "translation": "화재로 잃은 가게의 재건에 이웃들도 협력했다.",
         "translationTarget": "재건",
         "difficulty": 45,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1253760-1",
+    "wordId": "lex-jmdict-1253760",
+    "version": 1,
+    "meaning": "격려",
+    "hint": "상대가 힘을 내어 계속 노력하도록 북돋는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "慰め",
+        "distinction": "激励는 노력할 힘을 북돋고 慰め는 슬픔·실망을 달랜다. 상황에 따라 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1253760-1-ex-1",
+        "version": 1,
+        "before": "監督は、敗れた選手たちを次の試合に向けて",
+        "answer": "激励",
+        "after": "した。",
+        "reading": "げきれい",
+        "translation": "감독은 패배한 선수들을 다음 경기를 위해 격려했다.",
+        "translationTarget": "격려",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1072240-1",
+    "wordId": "lex-jmdict-1072240",
+    "version": 1,
+    "meaning": "스피커",
+    "hint": "전기 신호를 사람이 들을 수 있는 소리로 바꾸는 장치",
+    "confusions": [
+      {
+        "japanese": "マイク",
+        "distinction": "소리를 내보내는 장치와 소리를 받아들이는 장치를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1072240-1-ex-1",
+        "version": 1,
+        "before": "右側の",
+        "answer": "スピーカー",
+        "after": "からだけ音が出ません。",
+        "reading": "スピーカー",
+        "translation": "오른쪽 스피커에서만 소리가 나지 않습니다.",
+        "translationTarget": "스피커",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1105160-1",
+    "wordId": "lex-jmdict-1105160",
+    "version": 1,
+    "meaning": "비타민",
+    "hint": "몸이 건강하게 활동하는 데 조금씩 필요한 영양 성분",
+    "confusions": [
+      {
+        "japanese": "カロリー",
+        "distinction": "몸의 기능에 필요한 성분과 음식의 에너지 양을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1105160-1-ex-1",
+        "version": 1,
+        "before": "この野菜には、",
+        "answer": "ビタミン",
+        "after": "が豊富に含まれています。",
+        "reading": "ビタミン",
+        "translation": "이 채소에는 비타민이 풍부하게 들어 있습니다.",
+        "translationTarget": "비타민",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449710-1",
+    "wordId": "lex-jmdict-1449710",
+    "version": 1,
+    "meaning": "통계",
+    "hint": "많은 자료를 수량으로 모아 전체 경향을 나타냅니다.",
+    "confusions": [
+      {
+        "japanese": "計算",
+        "distinction": "統計는 집단 자료의 경향을 나타냄이고 計算는 수치 연산 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449710-1-ex-1",
+        "version": 1,
+        "before": "人口の",
+        "answer": "統計",
+        "after": "を見ると、この町では高齢者の割合が増えている。",
+        "reading": "とうけい",
+        "translation": "인구 통계를 보면 이 마을에서는 고령자의 비율이 늘고 있다.",
+        "translationTarget": "통계",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538810-1",
+    "wordId": "lex-jmdict-1538810",
+    "version": 1,
+    "meaning": "수혈",
+    "hint": "혈액을 혈관을 통해 몸에 넣는 의료 처치입니다.",
+    "confusions": [
+      {
+        "japanese": "献血",
+        "distinction": "輸血는 몸에 혈액을 넣음이고 献血는 치료에 쓰도록 피를 제공함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538810-1-ex-1",
+        "version": 1,
+        "before": "手術中に、",
+        "answer": "輸血",
+        "after": "が必要になったと説明された。",
+        "reading": "ゆけつ",
+        "translation": "수술 중에 수혈이 필요해졌다고 설명을 들었다.",
+        "translationTarget": "수혈",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532760-1",
+    "wordId": "lex-jmdict-1532760",
+    "version": 1,
+    "meaning": "미신",
+    "hint": "근거가 없는 믿음·관습을 사실로 받아들이는 것입니다.",
+    "confusions": [
+      {
+        "japanese": "信仰",
+        "distinction": "迷信는 근거 없는 믿음이라고 평가한 말이고 信仰는 종교적 믿음 일반이다. 종교 자체를 모두 미신이라고 하지 않는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532760-1-ex-1",
+        "version": 1,
+        "before": "数字で運が決まるという考えを、彼は",
+        "answer": "迷信",
+        "after": "だと笑った。",
+        "reading": "めいしん",
+        "translation": "숫자로 운이 정해진다는 생각을 그는 미신이라며 웃어넘겼다.",
+        "translationTarget": "미신",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1500750-1",
+    "wordId": "lex-jmdict-1500750",
+    "version": 1,
+    "meaning": "부흥, 재건",
+    "hint": "피해·쇠퇴를 겪은 지역·산업 등이 다시 활력을 되찾습니다.",
+    "confusions": [
+      {
+        "japanese": "復旧",
+        "distinction": "復興는 생활·산업까지 다시 일으킴이고 復旧는 손상된 시설·상태를 원래대로 돌림에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1500750-1-ex-1",
+        "version": 1,
+        "before": "震災からの",
+        "answer": "復興",
+        "after": "に向けて、地域の商店が力を合わせた。",
+        "reading": "ふっこう",
+        "translation": "지진 피해로부터의 재건을 위해 지역 상점들이 힘을 합쳤다.",
+        "translationTarget": "재건",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501490-1",
+    "wordId": "lex-jmdict-1501490",
+    "version": 1,
+    "meaning": "뒤집다, 번복하다",
+    "hint": "기존 결론·평가·상태를 반대로 바꿉니다.",
+    "confusions": [
+      {
+        "japanese": "覆う",
+        "distinction": "선택한 覆す는 기존 판단을 뒤집음이고 覆う는 위를 덮음이다. 실제 물체를 뒤집는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501490-1-ex-1",
+        "version": 1,
+        "before": "新しい証拠が、これまでの結論を",
+        "answer": "覆した",
+        "after": "。",
+        "reading": "くつがえした",
+        "translation": "새로운 증거가 지금까지의 결론을 뒤집었다.",
+        "translationTarget": "뒤집었다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1556120-1",
+    "wordId": "lex-jmdict-1556120",
+    "version": 1,
+    "meaning": "유추",
+    "hint": "비슷한 사례를 바탕으로 아직 모르는 것을 추론합니다.",
+    "confusions": [
+      {
+        "japanese": "推測",
+        "distinction": "類推는 유사성에 근거한 추론이고 推測는 단서로 미루어 짐작함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1556120-1-ex-1",
+        "version": 1,
+        "before": "過去の例から",
+        "answer": "類推",
+        "after": "すると、今回も時間がかかりそうだ。",
+        "reading": "るいすい",
+        "translation": "과거 사례에서 유추하면 이번에도 시간이 걸릴 듯하다.",
+        "translationTarget": "유추",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545630-1",
+    "wordId": "lex-jmdict-1545630",
+    "version": 1,
+    "meaning": "흔들리다, 불안정해지다",
+    "hint": "믿음·기반 등이 안정되지 못하고 동요합니다.",
+    "confusions": [
+      {
+        "japanese": "揺れる",
+        "distinction": "선택한 揺らぐ는 믿음·기반의 불안정함에 흔하고 揺れる는 실제 흔들림 일반이다. 물체가 흔들리는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545630-1-ex-1",
+        "version": 1,
+        "before": "不正が明らかになり、組織への信頼が",
+        "answer": "揺らいだ",
+        "after": "。",
+        "reading": "ゆらいだ",
+        "translation": "부정행위가 밝혀져 조직에 대한 신뢰가 흔들렸다.",
+        "translationTarget": "흔들렸다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1565500-1",
+    "wordId": "lex-jmdict-1565500",
+    "version": 1,
+    "meaning": "기호, 취향",
+    "hint": "특정 음식·물건·활동을 좋아하는 개인적 성향입니다.",
+    "confusions": [
+      {
+        "japanese": "志向",
+        "distinction": "嗜好는 좋아하는 취향이고 같은 읽기의 志向는 어떤 방향·목표를 지향함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1565500-1-ex-1",
+        "version": 1,
+        "before": "消費者の",
+        "answer": "嗜好",
+        "after": "の変化に合わせて、商品の味を調整した。",
+        "reading": "しこう",
+        "translation": "소비자 기호의 변화에 맞춰 상품 맛을 조정했다.",
+        "translationTarget": "기호",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1362680-1",
+    "wordId": "lex-jmdict-1362680",
+    "version": 1,
+    "meaning": "깊게 하다, 심화하다",
+    "hint": "이해·관계·수준 등을 더 깊고 충분하게 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "深まる",
+        "distinction": "深める는 깊게 하는 타동사이고 深まる는 깊어지는 자동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1362680-1-ex-1",
+        "version": 1,
+        "before": "作品について話し合い、互いの理解を",
+        "answer": "深めた",
+        "after": "。",
+        "reading": "ふかめた",
+        "translation": "작품에 대해 이야기하여 서로의 이해를 심화했다.",
+        "translationTarget": "심화했다",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

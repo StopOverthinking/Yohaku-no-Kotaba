@@ -929,12 +929,12 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1013050-1-ex-2",
-        "version": 1,
-        "before": "久しぶりに会った友達と",
+        "version": 2,
+        "before": "休日の朝は、",
         "answer": "ゆっくり",
-        "after": "話せました。",
+        "after": "朝ご飯を食べます。",
         "reading": "ゆっくり",
-        "translation": "오랜만에 만난 친구와 여유 있게 이야기할 수 있었어요.",
+        "translation": "휴일 아침에는 여유 있게 아침밥을 먹어요.",
         "translationTarget": "여유 있게",
         "difficulty": 22,
         "status": "reviewed"
@@ -1557,6 +1557,230 @@ const content: LearnSense[] = [
         "translation": "지역 기업들이 협력하여 청년 고용을 늘리려 하고 있다.",
         "translationTarget": "고용",
         "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307090-1",
+    "wordId": "lex-jmdict-1307090",
+    "version": 1,
+    "meaning": "사각형·사각",
+    "hint": "네 변과 네 각을 가진 모양",
+    "confusions": [
+      {
+        "japanese": "三角",
+        "distinction": "네 변의 모양과 세 변의 모양을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307090-1-ex-1",
+        "version": 1,
+        "before": "丸い窓の隣に、",
+        "answer": "四角",
+        "after": "の窓が一つあります。",
+        "reading": "しかく",
+        "translation": "둥근 창문 옆에 사각형 창문이 하나 있습니다.",
+        "translationTarget": "사각형",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533200-1",
+    "wordId": "lex-jmdict-1533200",
+    "version": 1,
+    "meaning": "면제",
+    "hint": "부담해야 하는 의무·비용 등을 면해 줍니다.",
+    "confusions": [
+      {
+        "japanese": "控除",
+        "distinction": "免除는 의무·부담 자체를 면함이고 控除는 계산에서 일정 금액 등을 뺌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533200-1-ex-1",
+        "version": 1,
+        "before": "条件を満たした学生は、授業料の一部が",
+        "answer": "免除",
+        "after": "される。",
+        "reading": "めんじょ",
+        "translation": "조건을 충족한 학생은 수업료 일부가 면제된다.",
+        "translationTarget": "면제",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1205190-1",
+    "wordId": "lex-jmdict-1205190",
+    "version": 1,
+    "meaning": "확충",
+    "hint": "규모를 넓히면서 필요한 내용이나 설비를 채우는 일",
+    "confusions": [
+      {
+        "japanese": "縮小",
+        "distinction": "규모와 내용을 넓혀 채우는 것과 작게 줄이는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1205190-1-ex-1",
+        "version": 1,
+        "before": "利用者が増えたため、相談窓口の",
+        "answer": "拡充",
+        "after": "を決めた。",
+        "reading": "かくじゅう",
+        "translation": "이용자가 늘어서 상담 창구의 확충을 결정했다.",
+        "translationTarget": "확충",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1445000-1",
+    "wordId": "lex-jmdict-1445000",
+    "version": 1,
+    "meaning": "도심",
+    "hint": "큰 도시의 업무나 상업이 집중된 중심 지역",
+    "confusions": [
+      {
+        "japanese": "郊外",
+        "distinction": "도시의 중심 지역과 도시 바깥쪽 지역을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1445000-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "都心",
+        "after": "から離れるほど、家賃が安くなるとは限らない。",
+        "reading": "としん",
+        "translation": "도심에서 멀어질수록 집세가 싸지는 것은 아니다.",
+        "translationTarget": "도심",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560240-1",
+    "wordId": "lex-jmdict-1560240",
+    "version": 1,
+    "meaning": "위로하다, 노고를 헤아려 돌보다",
+    "hint": "힘든 일을 한 상대를 배려하고 수고를 알아줍니다.",
+    "confusions": [
+      {
+        "japanese": "慰める",
+        "distinction": "労る는 노고·처지를 배려하여 돌봄이고 慰める는 슬픔·실망을 달램이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560240-1-ex-1",
+        "version": 1,
+        "before": "遅くまで働いた仲間を、温かい言葉で",
+        "answer": "労った",
+        "after": "。",
+        "reading": "いたわった",
+        "translation": "늦게까지 일한 동료를 따뜻한 말로 위로했다.",
+        "translationTarget": "위로했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601600-1",
+    "wordId": "lex-jmdict-1601600",
+    "version": 1,
+    "meaning": "내리다, 인하하다",
+    "hint": "가격·수준·한도 등을 더 낮게 합니다.",
+    "confusions": [
+      {
+        "japanese": "引き上げる",
+        "distinction": "선택한 引き下げる는 수준·가격을 낮춤이고 引き上げる는 올림이다. 끌어 내리는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601600-1-ex-1",
+        "version": 1,
+        "before": "利用者を増やすため、入会金を",
+        "answer": "引き下げた",
+        "after": "。",
+        "reading": "ひきさげた",
+        "translation": "이용자를 늘리려고 가입비를 인하했다.",
+        "translationTarget": "인하했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327540-1",
+    "wordId": "lex-jmdict-1327540",
+    "version": 1,
+    "meaning": "수예",
+    "hint": "바느질·뜨개질 등 손으로 장식·생활용품을 만드는 활동입니다.",
+    "confusions": [
+      {
+        "japanese": "工芸",
+        "distinction": "手芸는 개인이 손으로 만드는 수예에 흔하고 工芸는 도구·기법·예술의 더 넓은 공예이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327540-1-ex-1",
+        "version": 1,
+        "before": "休日は",
+        "answer": "手芸",
+        "after": "を楽しみ、布で小物を作っている。",
+        "reading": "しゅげい",
+        "translation": "휴일에는 수예를 즐기며 천으로 소품을 만들고 있다.",
+        "translationTarget": "수예",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

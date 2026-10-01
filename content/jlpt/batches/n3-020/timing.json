@@ -1,0 +1,18 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "practical-authored-content",
+  "parts": [
+    {
+      "index": "04",
+      "startedAt": "2026-09-30T23:55:10.124Z",
+      "draftCompletedAt": "2026-09-30T23:56:18.260Z",
+      "words": 21,
+      "examples": 21,
+      "limitations": "Measured wall interval includes source inspection, planning, composition, coordination and file validation; earlier common96 shortlist selection excluded when reused. Pure composition not isolated; no offline gap included.",
+      "checksCompletedAt": "2026-09-30T23:56:19.166Z",
+      "lastPreflightMilliseconds": 843.3139
+    }
+  ],
+  "pureCompositionTime": null
+}

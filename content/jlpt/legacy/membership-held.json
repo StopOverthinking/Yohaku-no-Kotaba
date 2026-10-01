@@ -1,1 +1,288 @@
-[]
+[
+  {
+    "wordId": "handmade_67",
+    "level": "N3",
+    "sourceHash": "73aa1df5591b14ae0168cfd36dacd786b471c53c2fa3c2dcfd06909ddad10813",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:45:40.912Z",
+    "notes": [
+      "단어 뜻이 벌·시계 침에 치우치고 예문은 시계바늘뿐이다. 일반 바늘/봉제바늘이라는 핵심 용법을 독립 추가할지 검토 필요."
+    ]
+  },
+  {
+    "wordId": "handmade_115",
+    "level": "N1",
+    "sourceHash": "00ffb56de1c813e99829b7acd69b32b801a6d74fb20936cb571f95db1da01ec5",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:45:40.912Z",
+    "notes": [
+      "단어 뜻의 노력·마음을 쏟다 용법은 물체를 비스듬히 하는 현재 sense로 학습되지 않는다. 별도 비유 핵심 용법 추가 검토 필요."
+    ]
+  },
+  {
+    "wordId": "handmade_149",
+    "level": "N2",
+    "sourceHash": "c077855513d397beb8b925884933a7087f4a23fcfcaf4a4d86cfd063367e2312",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:45:40.912Z",
+    "notes": [
+      "타동사 刺す의 뜻 쏘이다는 피동 刺される와 혼동된다. 쏘다로 설명 정정하고 벌레 용법을 독립적으로 검토할 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_9",
+    "level": "N2",
+    "sourceHash": "ec00cf4e5da760798b7ebcf9527a6dd43d20c705423960c689abb576c2984841",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "이미 검토된 髭 handmade_23 예문과 아버지가 수염을 깎자 젊어 보이는 장면이 사실상 반복된다. 이 동사 예문을 개별 상황으로 개정 후 재검토."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_14",
+    "level": "N4",
+    "sourceHash": "274beceeb1ba032158e16fe48120a4993b3eb32140b39f43ec4a973e970965a0",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "단어 뜻 지새우다는 자동사 暮れる의 날이 저물다와 맞지 않는다. 단어 설명 정정 후 현재 용법 보존 재검토 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_16",
+    "level": "N5",
+    "sourceHash": "b6986ee8288d32bf840b44ae92dd04bafa7d409e31d6db165ccafe2f4a666cfc",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "자타1자 표기와 입으로/악기를 불다라는 단어 의미가 불일치하며 학습은 바람만이다. 자타 정보 및 악기 등 핵심 타동 용법을 별도로 검토할 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_35",
+    "level": "N4",
+    "sourceHash": "99197155efced3aa22687b56cbbf44cefeb6c0129eef4eb1a4053230539f0233",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "음식을 씹다뿐이며 개 등이 물다라는 흔한 핵심 용법이 빠져 있다. 별도 sense 추가 검토 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_36",
+    "level": "N5",
+    "sourceHash": "c40059f2091819ebea2070db26ca36c22f1a83805246be201b229286ab47faa0",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "공기를 들이마시다뿐이며 담배를 피우다·액체를 빨다 용법과 현재 힌트의 공기 한정이 맞지 않는다. 일상 핵심 용법 보강 검토 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_43",
+    "level": "N2",
+    "sourceHash": "933da31bd5ba84fffba430664f03830dfbd1948f51f5c40326e40f01019dd5a2",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "자동사 跳ねる에 타동의 튀기다·들이받다를 함께 넣었다. 撥ねる 표기 및 자타/의미 분리 확인 후 단어 설명 정정 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_84",
+    "level": "N3",
+    "sourceHash": "350170738698cbecd1707b5bf89bbb3d016959a882b6b50320ac6c78529c87a6",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "引く AbsoluteVerb_83의 아이가 내 소매를 당기는 예문과 반복된다. 이 항목의 예문을 별개 문맥으로 개정 후 재검토."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_98",
+    "level": "N2",
+    "sourceHash": "7bb8345f0af43674270f07ccb2d7c217c418cbe51ee97e64a4ed6021004c231d",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T23:49:49.903Z",
+    "notes": [
+      "단어 뜻 꿰메다는 꿰매다의 오기이다. 동일 핵심 뜻의 단어 설명 정정 후 재검토."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_212",
+    "level": null,
+    "sourceHash": "b96236f7b7f146d99f67dc8f86a09b08026760514a8b81d742c4353da2ef0cfa",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "和える의 무침 용법 사전 연결이 필요하다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_218",
+    "level": "N3",
+    "sourceHash": "b1efcadb7dee284dc6045c2ea42bf10c90375800c35c239d8103793a9abdd259",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "擦る의 으깨다·빻다 뜻은 현재 제공 사전 의미와 불일치해 별도 확인할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_232",
+    "level": "N4",
+    "sourceHash": "c4a81fbc7bc264289b484b8416fb9c3c33a843ec7c11001cb80c1d48f0c271df",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "현재 뜻은 지식 습득인데 두 예문은 착용이므로 선택 의미와 한국어 뜻을 맞추어야 한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_233",
+    "level": "N3",
+    "sourceHash": "416bdcc84e63b8e4eda60ef95ea8d9ae3ecab143d491bfc82da5ff3a1d1fee5b",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:03:05.801Z",
+    "notes": [
+      "한국어 게을리 하다를 게을리하다로 정리할 후보이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_267",
+    "level": "N5",
+    "sourceHash": "d8548508d397c18b0c63c002bab3f16c40f191a2d225f6fb8083a37c34e30545",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:07:44.032Z",
+    "notes": [
+      "登る 268과 핵심 상승 의미가 겹치는 별칭 후보이다. 표기만으로 별도 고유 어휘 승인하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_268",
+    "level": "N5",
+    "sourceHash": "ce26d97afbe30fb575a8b0c2edfedab1ca4367068c2164261022d9788f59992a",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:07:44.032Z",
+    "notes": [
+      "上る 267과 핵심 상승 의미가 겹치며 항상 힘들여야 한다는 제한도 과도하다. 별칭 및 표현 범위 후속 검토."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_300",
+    "level": "N3",
+    "sourceHash": "3180782b59098c74a19b2d3f55b96ad24acdbfa3256aee18026d677a39b9b6ef",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "실제 텐트·밧줄을 치는 타동사 용법과 사전 transitive에 비해 verbInfo 1자가 잘못되어 있다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_303",
+    "level": "N3",
+    "sourceHash": "fe45684cab98f30655957df6f984cdf8882bdca5375bb37e05172f7a37d8d1ac",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "물 위에 뜨는 두 예문은 적합하나 중요 핵심인 생각이 떠오르는 용법이 없다. 둘째 예문도 浮く 302의 나무가 물에 뜨는 장면과 유사하여 보완 시 새 장면을 사용한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_322",
+    "level": "N3",
+    "sourceHash": "2ed763d2df6bbaeb728829e8a2a69f2770c5d63cdeea2e2875539c36997a55b7",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "よっぱらう는 언제나 만취를 요구하지 않는다. 표제 뜻 만취하다가 실제 술에 취하다 용법보다 좁아 정정 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_348",
+    "level": "N4",
+    "sourceHash": "d78c6f1352105348d7f7ab8edd2fd470976199801b434f8b8d250a0b4b468e3b",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "읽기 あく에 배가 고프다를 섞었다. 해당 의미는 すく이므로 현재 단어의 의미 범위를 정정 필요."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_353",
+    "level": null,
+    "sourceHash": "a0804c2953ba615e61f2580bfcdc73bd7eb759e353be6a28d327d501e6539fc3",
+    "scope": "legacy-reference-publication",
+    "outcome": "needs_followup",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:09:35.896Z",
+    "notes": [
+      "제공 사전에 해당 복합동사 근거가 없어 현재는 분류와 참조 승인을 보류한다."
+    ]
+  }
+]

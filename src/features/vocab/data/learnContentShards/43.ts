@@ -1400,6 +1400,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1513320-1",
+    "wordId": "lex-jmdict-1513320",
+    "version": 1,
+    "meaning": "보관",
+    "hint": "물건·서류 등을 책임 있게 맡아 안전하게 둡니다.",
+    "confusions": [
+      {
+        "japanese": "保存",
+        "distinction": "保管는 맡아 안전하게 둠이고 保存는 상태·내용을 유지해 저장함에 흔하다. 의미가 겹치는 경우도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1513320-1-ex-1",
+        "version": 1,
+        "before": "契約書の原本は、鍵のかかる棚に",
+        "answer": "保管",
+        "after": "している。",
+        "reading": "ほかん",
+        "translation": "계약서 원본은 잠금장치가 있는 수납장에 보관하고 있다.",
+        "translationTarget": "보관",
+        "difficulty": 34,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223230-1",
+    "wordId": "lex-jmdict-1223230",
+    "version": 1,
+    "meaning": "기재",
+    "hint": "서류·자료에 내용을 적어 넣는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "記述",
+        "distinction": "記載는 자료에 정보를 적는 행위이고 記述는 내용을 서술하는 데 초점을 둔다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223230-1-ex-1",
+        "version": 1,
+        "before": "申込書に",
+        "answer": "記載",
+        "after": "された住所へ、確認の手紙を送った。",
+        "reading": "きさい",
+        "translation": "신청서에 기재된 주소로 확인 편지를 보냈다.",
+        "translationTarget": "기재",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1250430-1",
+    "wordId": "lex-jmdict-1250430",
+    "version": 1,
+    "meaning": "형용사",
+    "hint": "성질이나 상태를 나타내고 활용하는 말의 품사",
+    "confusions": [
+      {
+        "japanese": "動詞",
+        "distinction": "성질이나 상태를 나타내는 말과 동작을 나타내는 말의 품사를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1250430-1-ex-1",
+        "version": 1,
+        "before": "今日の授業では、",
+        "answer": "形容詞",
+        "after": "の否定形を練習します。",
+        "reading": "けいようし",
+        "translation": "오늘 수업에서는 형용사의 부정형을 연습합니다.",
+        "translationTarget": "형용사",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322890-1",
+    "wordId": "lex-jmdict-1322890",
+    "version": 1,
+    "meaning": "사설",
+    "hint": "신문사가 주요 문제에 관해 공식 의견을 쓴 글",
+    "confusions": [
+      {
+        "japanese": "記事",
+        "distinction": "신문사의 의견을 밝힌 글과 사건을 전하는 일반 기사를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322890-1-ex-1",
+        "version": 1,
+        "before": "新聞の",
+        "answer": "社説",
+        "after": "は、給食費の無償化を支持していた。",
+        "reading": "しゃせつ",
+        "translation": "신문의 사설은 급식비 무상화를 지지했다.",
+        "translationTarget": "사설",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421380-1",
+    "wordId": "lex-jmdict-1421380",
+    "version": 1,
+    "meaning": "지점",
+    "hint": "공간에서 특정한 위치로 정한 곳",
+    "confusions": [
+      {
+        "japanese": "範囲",
+        "distinction": "특정한 한 위치와 넓게 포함하는 영역을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421380-1-ex-1",
+        "version": 1,
+        "before": "二本の川が合わさる",
+        "answer": "地点",
+        "after": "に、小さな橋がある。",
+        "reading": "ちてん",
+        "translation": "두 강이 합쳐지는 지점에 작은 다리가 있다.",
+        "translationTarget": "지점",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

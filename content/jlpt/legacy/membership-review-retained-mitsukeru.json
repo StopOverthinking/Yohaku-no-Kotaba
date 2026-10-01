@@ -1,0 +1,31 @@
+{
+  "previousApproval": {
+    "wordId": "JLPTN3_115",
+    "level": "N4",
+    "sourceHash": "2330cfbb8adb6521b8e5c2822e9b4ef3ce86e13d1076ff8d556cb743a3d40bca",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-09-30T04:22:50.367Z",
+    "notes": [
+      "분실물·네잎클로버 발견의 기초 용법으로 N4 편집 배정이 타당하다."
+    ]
+  },
+  "newApproval": {
+    "wordId": "JLPTN3_115",
+    "level": "N4",
+    "sourceHash": "2330cfbb8adb6521b8e5c2822e9b4ef3ce86e13d1076ff8d556cb743a3d40bca",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:17:56.363Z",
+    "notes": [
+      "분실물·네잎클로버 발견의 기초 용법으로 N4 편집 배정이 타당하다.",
+      "見つける/見付ける 두 원본 전체 의미·대비·힌트·4예문을 읽고 같은 발견 결과 핵심으로 독립 승인했다. 미공개 중복 AV239 참조 철회 후 기존 N4 JLPT115 원본을 그대로 유지하며 활성 별칭 그룹을 명시 연결한다."
+    ],
+    "aliasGroupId": "alias-JLPTN3_115"
+  },
+  "scope": "explicit-equivalent-core-alias-link-on-retained-reference; unchanged-source"
+}

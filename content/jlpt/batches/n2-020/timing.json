@@ -1,0 +1,38 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "scope": "practical-authored-content",
+  "parts": [
+    {
+      "index": "01",
+      "startedAt": "2026-09-30T23:47:42.801Z",
+      "draftCompletedAt": "2026-09-30T23:49:05.937Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "Representative-example composition and file/check operations included; prior candidate selection and dictionary inspection excluded, not full selection-to-validation throughput.",
+      "checksCompletedAt": "2026-09-30T23:51:37.505Z",
+      "lastPreflightMilliseconds": 310.3696
+    },
+    {
+      "index": "02",
+      "startedAt": "2026-09-30T23:49:24.124Z",
+      "draftCompletedAt": "2026-09-30T23:51:06.957Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "includes authored planning and file operations; pure composition time not isolated",
+      "checksCompletedAt": "2026-09-30T23:51:07.991Z",
+      "lastPreflightMilliseconds": 970.9390000000001
+    },
+    {
+      "index": "03",
+      "startedAt": "2026-09-30T23:53:25.331Z",
+      "draftCompletedAt": "2026-09-30T23:54:42.003Z",
+      "words": 25,
+      "examples": 25,
+      "limitations": "includes authored planning and file operations; pure composition time not isolated",
+      "checksCompletedAt": "2026-09-30T23:54:43.030Z",
+      "lastPreflightMilliseconds": 967.1687000000001
+    }
+  ],
+  "pureCompositionTime": null
+}

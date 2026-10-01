@@ -1548,6 +1548,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1349470-1",
+    "wordId": "lex-jmdict-1349470",
+    "version": 1,
+    "meaning": "승낙",
+    "hint": "상대의 요청·제안을 받아들이는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "拒否",
+        "distinction": "承諾는 요청을 받아들임이고 拒否는 거절함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1349470-1-ex-1",
+        "version": 1,
+        "before": "本人の",
+        "answer": "承諾",
+        "after": "を得てから、写真を広報紙に掲載した。",
+        "reading": "しょうだく",
+        "translation": "본인의 승낙을 얻은 뒤 사진을 소식지에 실었다.",
+        "translationTarget": "승낙",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1347490-1",
+    "wordId": "lex-jmdict-1347490",
+    "version": 1,
+    "meaning": "주장하다, 제창하다",
+    "hint": "자신의 의견·방침을 분명하게 내세웁니다.",
+    "confusions": [
+      {
+        "japanese": "述べる",
+        "distinction": "선택한 唱える는 주장·방침을 내세움이고 述べる는 생각·사실을 말함 일반이다. 경문 등을 읊는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1347490-1-ex-1",
+        "version": 1,
+        "before": "議員の一人が、計画の見直しを",
+        "answer": "唱えた",
+        "after": "。",
+        "reading": "となえた",
+        "translation": "의원 한 명이 계획 재검토를 주장했다.",
+        "translationTarget": "주장했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1400010-1",
+    "wordId": "lex-jmdict-1400010",
+    "version": 1,
+    "meaning": "조종하다, 다루다",
+    "hint": "기계·도구 등을 능숙하게 움직이거나 통제합니다.",
+    "confusions": [
+      {
+        "japanese": "操縦する",
+        "distinction": "操る는 기계·인형·사람 등을 다루는 넓은 말이고 操縦する는 탈것·기계를 운전·조종하는 데 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1400010-1-ex-1",
+        "version": 1,
+        "before": "職人は、細い糸で人形を巧みに",
+        "answer": "操った",
+        "after": "。",
+        "reading": "あやつった",
+        "translation": "장인은 가는 실로 인형을 능숙하게 조종했다.",
+        "translationTarget": "조종했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327690-1",
+    "wordId": "lex-jmdict-1327690",
+    "version": 1,
+    "meaning": "솜씨, 일 처리 능력",
+    "hint": "일을 능숙하고 효율적으로 처리하는 방식·능력입니다.",
+    "confusions": [
+      {
+        "japanese": "手順",
+        "distinction": "手際는 처리 솜씨이고 手順는 작업 순서이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327690-1-ex-1",
+        "version": 1,
+        "before": "店員の",
+        "answer": "手際",
+        "after": "がよく、長い列もすぐに短くなった。",
+        "reading": "てぎわ",
+        "translation": "직원의 일 처리 솜씨가 좋아 긴 줄도 금방 짧아졌다.",
+        "translationTarget": "일 처리 솜씨",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546770-1",
+    "wordId": "lex-jmdict-1546770",
+    "version": 1,
+    "meaning": "요지",
+    "hint": "긴 글·발표의 핵심 내용을 짧게 간추린 것입니다.",
+    "confusions": [
+      {
+        "japanese": "目次",
+        "distinction": "要旨는 핵심 내용 요약이고 目次는 항목 제목·순서의 목록이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546770-1-ex-1",
+        "version": 1,
+        "before": "発表の",
+        "answer": "要旨",
+        "after": "を先に読むと、研究の目的が分かりやすい。",
+        "reading": "ようし",
+        "translation": "발표의 요지를 먼저 읽으면 연구 목적을 이해하기 쉽다.",
+        "translationTarget": "요지",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441400-1",
+    "wordId": "lex-jmdict-1441400",
+    "version": 1,
+    "meaning": "켜지다",
+    "hint": "등이나 불이 빛을 내거나 타기 시작해요.",
+    "confusions": [
+      {
+        "japanese": "消える",
+        "distinction": "불빛이 생기는 것과 없어지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441400-1-ex-1",
+        "version": 1,
+        "before": "暗くなると、庭の電灯が自動で",
+        "answer": "点きます",
+        "after": "。",
+        "reading": "つきます",
+        "translation": "어두워지면 정원 전등이 자동으로 켜집니다.",
+        "translationTarget": "켜집니다",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1580620-1",
+    "wordId": "lex-jmdict-1580620",
+    "version": 1,
+    "meaning": "새하얗다",
+    "hint": "다른 색이 섞이지 않고 온통 흰 상태예요.",
+    "confusions": [
+      {
+        "japanese": "真っ黒",
+        "distinction": "온통 흰 상태와 온통 검은 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1580620-1-ex-1",
+        "version": 1,
+        "before": "朝起きると、庭が雪で",
+        "answer": "真っ白",
+        "after": "になっていた。",
+        "reading": "まっしろ",
+        "translation": "아침에 일어나니 정원이 눈으로 새하얗게 되어 있었다.",
+        "translationTarget": "새하얗게",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1460180-1",
+    "wordId": "lex-jmdict-1460180",
+    "version": 1,
+    "meaning": "남극",
+    "hint": "지구 남쪽 끝의 극이나 그 주변 지역",
+    "confusions": [
+      {
+        "japanese": "北極",
+        "distinction": "지구 남쪽 끝의 극과 북쪽 끝의 극을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1460180-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "南極",
+        "after": "で働く研究者に、冬の生活を聞いてみたい。",
+        "reading": "なんきょく",
+        "translation": "남극에서 일하는 연구자에게 겨울 생활을 물어보고 싶다.",
+        "translationTarget": "남극",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1339150-1",
+    "wordId": "lex-jmdict-1339150",
+    "version": 1,
+    "meaning": "출근, 회사에 감",
+    "hint": "근무하는 회사에 나갑니다.",
+    "confusions": [
+      {
+        "japanese": "退社",
+        "distinction": "出社는 회사에 감이고 退社는 회사에서 나가거나 그만둠이다. 재택 근무와 구별될 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1339150-1-ex-1",
+        "version": 1,
+        "before": "明日は会議があるので、いつもより早く",
+        "answer": "出社",
+        "after": "する。",
+        "reading": "しゅっしゃ",
+        "translation": "내일은 회의가 있어 평소보다 일찍 출근한다.",
+        "translationTarget": "출근",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

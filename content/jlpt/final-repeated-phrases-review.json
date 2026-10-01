@@ -1,0 +1,568 @@
+{
+  "scope": "manual-full-sentence-review-of-every-flagged-group",
+  "reviewedAt": "2026-10-01T01:21:58.733Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "sourceContentHash": "ed9b0c40aea4937004d478446b6cc4f6d482e6b919348a55d4824af7484dc112",
+  "openingGroups": 1,
+  "endingGroups": 10,
+  "method": "All actual Japanese and Korean sentences in the reported groups were read. Similarity metrics alone were not approval. Five substantive scene overlaps were revised before this accepted residual review.",
+  "groups": [
+    {
+      "kind": "repeatedOpenings",
+      "text": "久しぶりに会った",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "도입은 같지만 장시간 수다/피로 인상/형의 체중 감소/이름 망각/악수/여행 화제/아버지 손의 노화로 각 핵심과 사건 관계가 다르다. ゆっくり의 같은 재회 대화 장면은 휴일 아침 식사로 개정했다.",
+      "examples": [
+        {
+          "id": "sense-AbsoluteVerb_61-1-ex-1",
+          "japanese": "久しぶりに会った友達と、閉店まで《しゃべった》。",
+          "translation": "오랜만에 만난 친구와 문 닫을 때까지 수다를 떨었다.",
+          "sourceHash": "d89b0740af7f022c61435cd43b8c7899e584fbf3364dcfd167983206fc6a04e5"
+        },
+        {
+          "id": "sense-AbsoluteVerb_761-1-ex-2",
+          "japanese": "久しぶりに会った彼は、少し疲れている《感じがした》。",
+          "translation": "오랜만에 만난 그는 조금 지쳐 있는 느낌이 들었다.",
+          "sourceHash": "289817cef79b0d8a274471e21af8e5e04365ea160adac8afb3cb3be4f919a348"
+        },
+        {
+          "id": "sense-AbsoluteVerb_536-1-ex-1",
+          "japanese": "久しぶりに会った兄は、少し《痩せていた》。",
+          "translation": "오랜만에 만난 형은 조금 살이 빠져 있었다.",
+          "sourceHash": "d9d65aefe1e8de7dcb718f2c8b137b8170324a80de6bd61c7eea11457b4464df"
+        },
+        {
+          "id": "sense-AbsoluteVerb_229-1-ex-1",
+          "japanese": "久しぶりに会ったのに、名前を《忘れていた》。",
+          "translation": "오랜만에 만났는데 이름을 잊고 있었다.",
+          "sourceHash": "459ee9811596cd5ce4016e47a15d312a9fb6d41d1d3f41feff55963294ba1e2b"
+        },
+        {
+          "id": "sense-lex-jmdict-1152730-1-ex-2",
+          "japanese": "久しぶりに会った友人と笑顔で《握手》を交わしました。",
+          "translation": "오랜만에 만난 친구와 웃으며 악수를 나눴어요.",
+          "sourceHash": "d3a5ae6a73647a5da573f3b332484498814c31541d7c8504f5c7c56797e05609"
+        },
+        {
+          "id": "sense-lex-jmdict-1562400-1-ex-1",
+          "japanese": "久しぶりに会った友人とは、旅行の《話題》で話が弾んだ。",
+          "translation": "오랜만에 만난 친구와는 여행을 화제로 삼아 한창 이야기를 나눴다.",
+          "sourceHash": "a143a1abd40d4a141f01e3e0ffcb22a32817f38b10b34fe7fda4e1e0793d956b"
+        },
+        {
+          "id": "sense-lex-jmdict-1643510-1-ex-1",
+          "japanese": "久しぶりに会った父の手を見て、《老い》を感じた。",
+          "translation": "오랜만에 만난 아버지의 손을 보고 늙음을 느꼈다.",
+          "sourceHash": "fb186f962226db5c7b1c0c7f8ee8bcd34194f40d92dc2442ac321271f1abd4c8"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "することになった",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "17문장은 예산 감소/정부 협력/인원 모집/선박 고장/인사이동/자료 오류/우회/보안/정보 유출/주차장 수요/의결/시간 부족/개별 심사/회계 담당/해외 부임/기사 반향/중도 변경의 구체적 원인과 결과가 다르다. 결정·경위라는 공통 문법만 공유한다.",
+      "examples": [
+        {
+          "id": "sense-JLPTN3_341-1-ex-2",
+          "japanese": "予算が減り、祭りの規模を《縮小》することになった。",
+          "translation": "예산이 줄어 축제 규모를 축소하게 되었다.",
+          "sourceHash": "87653264ba4361366ed4ba1b4816ebdd6f16269fd9dbb26586c04f50452440ce"
+        },
+        {
+          "id": "sense-lex-jmdict-1376070-1-ex-3",
+          "japanese": "外国の《政府》と協力して、海の環境を調査することになった。",
+          "translation": "외국 정부와 협력하여 해양 환경을 조사하기로 했다.",
+          "sourceHash": "f5789760d539d91384a66d12bae1d4a5f5374450e6c8bf9ab4e4cc43326e8f35"
+        },
+        {
+          "id": "sense-lex-jmdict-1134370-1-ex-1",
+          "japanese": "合唱団の《メンバー》が減ったので、新しく募集することになった。",
+          "translation": "합창단 멤버가 줄어 새로 모집하기로 했다.",
+          "sourceHash": "3d3055a01588e628f107c31e26d7151acb49ed354eb9b15d95ae5f5bb46faf2e"
+        },
+        {
+          "id": "sense-lex-jmdict-1220870-1-ex-3",
+          "japanese": "船の《機関》に異常が起き、港で修理することになった。",
+          "translation": "배의 엔진에 이상이 생겨 항구에서 수리하기로 했다.",
+          "sourceHash": "f176d5f3dbb33e1b6f891976d5a0b78c8923d0f01dc3d23dae3ad6c7bda8b7a5"
+        },
+        {
+          "id": "sense-lex-jmdict-1157970-1-ex-1",
+          "japanese": "四月の《異動》で研究部門を離れ、企画を担当することになった。",
+          "translation": "사월의 인사이동으로 연구 부문을 떠나 기획을 담당하게 되었다.",
+          "sourceHash": "cafe654a97fec976b4705c0293b67fc2ccb75c8b120f40df8ce6904415243d60"
+        },
+        {
+          "id": "sense-lex-jmdict-1200740-1-ex-1",
+          "japanese": "資料に誤りが見つかったため、会議で《改めて》説明することになった。",
+          "translation": "자료에서 오류가 발견되어 회의에서 다시 설명하게 되었다.",
+          "sourceHash": "50e1b5c5eb5d13aa72d786d3a93ebead97795d0bbba6857168405b6e8f7ad094"
+        },
+        {
+          "id": "sense-lex-jmdict-1199360-1-ex-1",
+          "japanese": "橋が工事中で通れず、駅まで《回り道》をすることになった。",
+          "translation": "다리가 공사 중이라 지나갈 수 없어 역까지 우회하게 되었다.",
+          "sourceHash": "4c1cb99c26654bb9b913ceb95a0b0f1db8fa46db68cc33e843a50ae84b9fbfdd"
+        },
+        {
+          "id": "sense-lex-jmdict-1252490-1-ex-1",
+          "japanese": "会場の《警備》を厳しくし、入り口で荷物を確認することになった。",
+          "translation": "행사장의 경비를 철저히 하고 입구에서 짐을 확인하게 되었다.",
+          "sourceHash": "437094e0359adc0c172ec96ec2868dcf01e554330453b9d214a2e9a82f0b82c6"
+        },
+        {
+          "id": "sense-lex-jmdict-1127900-1-ex-1",
+          "japanese": "発表前に情報が《マスコミ》に伝わり、会社は予定を早めて説明することになった。",
+          "translation": "발표 전에 정보가 대중 매체에 전해져 회사는 일정을 앞당겨 설명하게 되었다.",
+          "sourceHash": "c627d76e3340fd2dbbd359d4f932c99271fee6eb46c46914c85c8c7ff5e1665a"
+        },
+        {
+          "id": "sense-lex-jmdict-1205220-1-ex-1",
+          "japanese": "利用者が増えたため、駐車場を《拡張》することになった。",
+          "translation": "이용자가 늘어서 주차장을 확장하기로 했다.",
+          "sourceHash": "1f4948b3c2c76ec7dc1477eee78b1f72f86c59d4f0d176f268307ca95e242a3d"
+        },
+        {
+          "id": "sense-lex-jmdict-1226050-1-ex-1",
+          "japanese": "会議の《議決》に従い、来年度から事業の規模を縮小することになった。",
+          "translation": "회의 의결에 따라 내년도부터 사업 규모를 축소하게 되었다.",
+          "sourceHash": "fa5ad1d970413af4ac995f50229edfb8dc24faa6d373592015d8e0485097868d"
+        },
+        {
+          "id": "sense-lex-jmdict-1244800-1-ex-1",
+          "japanese": "時間が足りなかったので、最後の章は《駆け足》で説明することになった。",
+          "translation": "시간이 부족해서 마지막 장은 서둘러 설명하게 되었다.",
+          "sourceHash": "e041e4b9d04e66a7cba48bcd4d850630205c1b8502b59dc6c4bc67ba18165fb4"
+        },
+        {
+          "id": "sense-lex-jmdict-1265000-1-ex-1",
+          "japanese": "事情が異なるため、申請は《個別》に審査することになった。",
+          "translation": "사정이 달라 신청은 개별적으로 심사하게 되었다.",
+          "sourceHash": "bc5f0c654b4a2d0602e5a4e6b216798285fcd591dc2ead5485a64284b8ebc961"
+        },
+        {
+          "id": "sense-JLPTN3_214-2-ex-1",
+          "japanese": "経験を生かし、地域の団体の《会計》を担当することになった。",
+          "translation": "경험을 살려 지역 단체의 회계를 맡게 되었다.",
+          "sourceHash": "a4d52607d5bb2302cd75b0e4086663fe085b3c0bda4096e4922e04bcb5f72018"
+        },
+        {
+          "id": "sense-lex-jmdict-1498200-1-ex-1",
+          "japanese": "来月から海外の支店に《赴任》することになった。",
+          "translation": "다음 달부터 해외 지점으로 부임하게 되었다.",
+          "sourceHash": "a5d5e6cabe3ee2f3c17172d7a8d9f5f5a6a79d1a8dd0b4145ad4b295409db3eb"
+        },
+        {
+          "id": "sense-lex-jmdict-1480310-1-ex-1",
+          "japanese": "記事への《反響》が大きく、続編を掲載することになった。",
+          "translation": "기사에 대한 반향이 커 후속편을 싣게 되었다.",
+          "sourceHash": "b473db3e35b74f1ae48dbe5a409d0e07b6e7c38d4b194505f92a0afb71ddb841"
+        },
+        {
+          "id": "sense-lex-jmdict-1425030-1-ex-1",
+          "japanese": "事情があって、計画を《中途》で変更することになった。",
+          "translation": "사정이 있어서 계획을 도중에 변경하게 되었다.",
+          "sourceHash": "9d654bd4ad03fd40a60741bcbb1f679a39361946ae51f871acf32ce7c26b3af4"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "らないでください",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "젖은 바닥/수리 중 출입/새 먹이/수업 중 복도/어린이 에스컬레이터/부상 회복/뜨거운 다리미/고장 난 브레이크/공사 구역/돌출 못의 위험과 행동이 각기 다르다.",
+      "examples": [
+        {
+          "id": "sense-JLPTN3_90-1-ex-2",
+          "japanese": "床が《濡れている》から、走らないでください。",
+          "translation": "바닥이 젖어 있으니 뛰지 마세요.",
+          "sourceHash": "2534ecea61d5fdaa2f75d7f3cb836001518d1e9b969c05c3b54b0a3a85fce3ec"
+        },
+        {
+          "id": "sense-handmade_91-1-ex-2",
+          "japanese": "屋根の《修理》中は、庭に入らないでください。",
+          "translation": "지붕 수리 중에는 마당에 들어오지 마세요.",
+          "sourceHash": "ad346f2b34314071d45ac7ceba3eca371e03b0ad7140e64c8a29ebffd902793a"
+        },
+        {
+          "id": "sense-lex-jmdict-1430250-1-ex-3",
+          "japanese": "庭の《鳥》にパンをやらないでください。",
+          "translation": "마당의 새에게 빵을 주지 마세요.",
+          "sourceHash": "e4fde2f8436b20b729b6ab5ccc789c0abf5c841a8ff6afabd4e05e76bee470fa"
+        },
+        {
+          "id": "sense-lex-jmdict-1560670-1-ex-1",
+          "japanese": "授業中は《廊下》を走らないでください。",
+          "translation": "수업 중에는 복도에서 뛰지 마세요.",
+          "sourceHash": "7e1aea23541a311dbcbd1a36735bee2e6874333478bde568984d0bc262b96cff"
+        },
+        {
+          "id": "sense-lex-jmdict-1028580-1-ex-3",
+          "japanese": "小さい子は《エスカレーター》に一人で乗らないでください。",
+          "translation": "어린아이는 에스컬레이터를 혼자 타지 마세요.",
+          "sourceHash": "35659ac3d53b46fd85a82e5843c06ac88f729b110ac56c0a84fd4bce64b2087b"
+        },
+        {
+          "id": "sense-lex-jmdict-1599400-1-ex-1",
+          "japanese": "けがが《治る》まで走らないでください。",
+          "translation": "다친 곳이 나을 때까지 뛰지 마세요.",
+          "sourceHash": "c1180aa784ded822499fd7ad0407c6d8f7f4b9c7fd5eaaf1d22fc75b02fa9bf3"
+        },
+        {
+          "id": "sense-lex-jmdict-1014590-1-ex-2",
+          "japanese": "熱い《アイロン》には触らないでください。",
+          "translation": "뜨거운 다리미에는 손대지 마세요.",
+          "sourceHash": "23c279758b4affa0dd860ab247a68966470819ebdf6641726e435efd3ae5ac67"
+        },
+        {
+          "id": "sense-lex-jmdict-1591100-1-ex-2",
+          "japanese": "ブレーキが《効かなくなった》自転車には、乗らないでください。",
+          "translation": "브레이크가 작동하지 않게 된 자전거는 타지 마세요.",
+          "sourceHash": "30bfada347e651cf6f5e4c7d97cf1d364db69cd25e2b895e4ee9adfc61cace81"
+        },
+        {
+          "id": "sense-lex-jmdict-1244090-1-ex-1",
+          "japanese": "工事中の《区域》には、安全のため入らないでください。",
+          "translation": "공사 중인 구역에는 안전을 위해 들어가지 마세요.",
+          "sourceHash": "39629e66b990f1693bd0bff06af75ba056ef5debcea73463a611aae801e4e6f7"
+        },
+        {
+          "id": "sense-lex-jmdict-1436840-1-ex-1",
+          "japanese": "板から《釘》が出ているので、触らないでください。",
+          "translation": "판자에서 못이 나와 있으므로 만지지 마세요.",
+          "sourceHash": "4fb9c8aa3987b65e407eebaf83c209f4776591f2377a82473063a99b80ac0fd2"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "なければならない",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "반려견 돌봄 책임/가격과 품질/공정한 심사/위험 작업 감독/빈 냉장고/불리한 사실 공개/자금 고갈의 의무 관계가 다르다.",
+      "examples": [
+        {
+          "id": "sense-lex-jmdict-1383180-1-ex-3",
+          "japanese": "犬を飼うなら、世話をする《責任》も考えなければならない。",
+          "translation": "개를 키운다면 돌볼 책임도 생각해야 해요.",
+          "sourceHash": "5f3e5f30a2497643da0e33a5e327b0ef48574dd4f6b9a8845ed2ff6aa758c797"
+        },
+        {
+          "id": "sense-lex-jmdict-1158450-1-ex-2",
+          "japanese": "値段を下げても、品質は《維持》しなければならない。",
+          "translation": "가격을 내려도 품질은 유지해야 해요.",
+          "sourceHash": "ba9b265f736cb5eded698f57cacea1478185c35a6f0ae014d989ee15b81ab44b"
+        },
+        {
+          "id": "sense-lex-jmdict-1274640-1-ex-1",
+          "japanese": "親しい相手であっても、審査では《公平に》判断しなければならない。",
+          "translation": "친한 상대라 해도 심사에서는 공정하게 판단해야 한다.",
+          "sourceHash": "c38261e9c313a9a874a621b2de101f08577cff1e027c42aa7b132399fa224692"
+        },
+        {
+          "id": "sense-lex-jmdict-1213720-1-ex-3",
+          "japanese": "危険な作業は、責任者の《監督》の下で進めなければならない。",
+          "translation": "위험한 작업은 책임자의 감독 아래 진행해야 한다.",
+          "sourceHash": "ab657deede53403cd362b68fe125ef5aab46ac3a036649fa53a16899c066a567"
+        },
+        {
+          "id": "sense-lex-jmdict-1245380-1-ex-1",
+          "japanese": "冷蔵庫が《空っぽ》なので、帰りに食材を買わなければならない。",
+          "translation": "냉장고가 텅 비어서 돌아오는 길에 식재료를 사야 한다.",
+          "sourceHash": "4bfb9fcd4746d964c295021fb747e7c9ecfe5763dec3e0fe7062e8ee2c34b456"
+        },
+        {
+          "id": "sense-lex-jmdict-1192850-1-ex-1",
+          "japanese": "説明する責任を《果たす》には、都合の悪い事実も示さなければならない。",
+          "translation": "설명할 책임을 다하려면 불리한 사실도 제시해야 한다.",
+          "sourceHash": "875df8d97e8027d1a32724e8145f7cd9455c48387d533ef289476f5ed2920272"
+        },
+        {
+          "id": "sense-lex-jmdict-1370070-1-ex-1",
+          "japanese": "資金が《尽きる》前に、事業を続ける方法を考えなければならない。",
+          "translation": "자금이 바닥나기 전에 사업을 계속할 방법을 생각해야 한다.",
+          "sourceHash": "c9d0509ab1046f8113ddc40093376e1d4d14f09570993f267ccc304da2265c54"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "ってもいいですか",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "가지 자르기/문제에 도형 사용/빈 좌석 이동/망설이며 착석 요청/카드 결제/티슈 요청으로 허락 대상과 문맥이 다르다.",
+      "examples": [
+        {
+          "id": "sense-JLPTN3_203-1-ex-2",
+          "japanese": "道に伸びた《枝》を切ってもいいですか。",
+          "translation": "길로 뻗은 나뭇가지를 잘라도 되나요?",
+          "sourceHash": "d0b8ba09b90b7a2a7b33ce31a1a74b27523c3d09d8257e9954414df33558c725"
+        },
+        {
+          "id": "sense-handmade_39-1-ex-2",
+          "japanese": "先生、この《問題》には図を使ってもいいですか。",
+          "translation": "선생님, 이 문제에는 그림을 써도 되나요?",
+          "sourceHash": "e4a78b64c910f0d2babb31d2293b6d4175e053d0c0e62650c140b64ca467f488"
+        },
+        {
+          "id": "sense-AbsoluteVerb_348-1-ex-1",
+          "japanese": "窓側の席が《空いた》ので、移ってもいいですか。",
+          "translation": "창가 자리가 비었으니 옮겨도 될까요?",
+          "sourceHash": "4d52020567b7cfa06de18ce38a22051960a46adbea7dda4b0c5f8255da1e7ded"
+        },
+        {
+          "id": "sense-lex-jmdict-1000430-1-ex-1",
+          "japanese": "「《あの》、ここに座ってもいいですか。」",
+          "translation": "“저, 여기 앉아도 될까요?”",
+          "sourceHash": "b3ed2b30b570cb14d07088282ca950820a332e594c048e8d973b7e06db094845"
+        },
+        {
+          "id": "sense-lex-jmdict-1036400-1-ex-2",
+          "japanese": "財布の中にある《カード》で払ってもいいですか。",
+          "translation": "지갑 속 카드로 결제해도 될까요?",
+          "sourceHash": "93f08db6428594de926a39fbabc7eb83cd2cc8a9810c916b5de4e0d6b5a1cc47"
+        },
+        {
+          "id": "sense-lex-jmdict-1079090-1-ex-1",
+          "japanese": "《ティッシュ》を一枚もらってもいいですか。",
+          "translation": "티슈 한 장을 받아도 될까요?",
+          "sourceHash": "69e39a10b65d4aae4c5947058f01a0b7315e03b40f3a171db9acb2ca1af38135"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "れないでください",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "약한 봉지와 병/사진만 넣는 상자/여행 속옷/젖은 수건/금속과 전자레인지/자동 잠금과 열쇠로 금지 이유와 행위가 다르다.",
+      "examples": [
+        {
+          "id": "sense-JLPTN3_448-1-ex-1",
+          "japanese": "この《袋》は薄いので、瓶を入れないでください。",
+          "translation": "이 봉지는 얇으니 병을 넣지 마세요.",
+          "sourceHash": "282c53a9c411315192d073110d1e2efe050dffe1b84ed30c2eb1e705d3e1413e"
+        },
+        {
+          "id": "sense-lex-jmdict-1155090-1-ex-2",
+          "japanese": "この箱には写真《以外》の物を入れないでください。",
+          "translation": "이 상자에는 사진 이외의 물건을 넣지 마세요.",
+          "sourceHash": "c41ac2550e2211c65648733b61e46055d5754cdc56fcc8bd35d06a3ec8edca5f"
+        },
+        {
+          "id": "sense-lex-jmdict-1185930-1-ex-1",
+          "japanese": "旅行には着替えの《下着》を忘れないでください。",
+          "translation": "여행에는 갈아입을 속옷을 잊지 마세요.",
+          "sourceHash": "e177e2326fcd1b82e28a5d92227b8ccb7120e5ea715801bbc782ec6177776b3a"
+        },
+        {
+          "id": "sense-lex-jmdict-1076170-1-ex-2",
+          "japanese": "ぬれた《タオル》をそのままかばんに入れないでください。",
+          "translation": "젖은 수건을 그대로 가방에 넣지 마세요.",
+          "sourceHash": "5f091fafdd7542b6471c279747d816c8be66291e2153c781c920122e2230a6a0"
+        },
+        {
+          "id": "sense-lex-jmdict-1243040-1-ex-1",
+          "japanese": "この容器は《金属》でできているので、電子レンジには入れないでください。",
+          "translation": "이 용기는 금속으로 되어 있으니 전자레인지에 넣지 마세요.",
+          "sourceHash": "4f80af26790e5aefe1997c8d6e9b72277cd39b345d87c8f7f6d6807a3b458947"
+        },
+        {
+          "id": "sense-lex-jmdict-1032260-1-ex-1",
+          "japanese": "玄関は《オートロック》なので、出かけるときは鍵を忘れないでください。",
+          "translation": "현관은 자동 잠금 장치가 있으니 외출할 때는 열쇠를 잊지 마세요.",
+          "sourceHash": "a9b06c58e8ea52989d418106c3af9f483cd96f821cf16136832ef8018fc2fb94"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "を教えてください",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "가능한 날짜/이사 후 주소/배송비 포함 가격/카메라 사용법/교사에게 한자 독음으로 정보 요구 대상과 맥락이 다르다. 仕方의 같은 사용법 문형은 세탁 방법 변경 결과로 개정했다.",
+      "examples": [
+        {
+          "id": "sense-JLPTN3_407-1-ex-1",
+          "japanese": "来週、《都合》のいい日を教えてください。",
+          "translation": "다음 주에 시간이 괜찮은 날을 알려 주세요.",
+          "sourceHash": "d440aa18e2f5e2b9ab0db058ed31dd2bd3d38dc335588994ac0ecd60e5ac52b5"
+        },
+        {
+          "id": "sense-handmade_46-1-ex-1",
+          "japanese": "引っ越したら、新しい《住所》を教えてください。",
+          "translation": "이사하면 새 주소를 알려 주세요.",
+          "sourceHash": "d40891e571b8f857fbee84619c7b29f8b776f3fb3f80c70ba568fccda8aff80e"
+        },
+        {
+          "id": "sense-AbsoluteVerb_556-1-ex-2",
+          "japanese": "送料を《含めた》値段を教えてください。",
+          "translation": "배송비를 포함한 가격을 알려 주세요.",
+          "sourceHash": "b6813be933f948e34dd3389d636283fc4a8cb98532cbf4bcef51ac32a96c2c79"
+        },
+        {
+          "id": "sense-lex-jmdict-1038350-1-ex-1",
+          "japanese": "この《カメラ》の使い方を教えてください。",
+          "translation": "이 카메라 사용법을 알려 주세요.",
+          "sourceHash": "1226ecbdf72c06d91340e43f65410f853135ee3ece0ea5f589911f5804ef8687"
+        },
+        {
+          "id": "sense-lex-jmdict-1387990-1-ex-3",
+          "japanese": "「《先生》、この漢字の読み方を教えてください。」",
+          "translation": "“선생님, 이 한자의 읽는 법을 알려 주세요.”",
+          "sourceHash": "0541441047ec2b50225a9683be9381a1312b1e093bddf8532f23308228a3c7b7"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "記入してください",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "지원 자격 학위/현재 주소/작성 도구 볼펜/이름 독음 표기/양식의 모든 항목으로 같은 문서 영역 안에서도 자격·시점·도구·발음 주석·완결성의 역할이 다르다. 단일 명사 교체로 생성한 문장 묶음으로 판단하지 않는다.",
+      "examples": [
+        {
+          "id": "sense-handmade_125-1-ex-2",
+          "japanese": "応募書類には、持っている《学位》も記入してください。",
+          "translation": "지원 서류에는 보유한 학위도 기입해 주세요.",
+          "sourceHash": "e3d3004c490d7859a00280d23d2e1cab12823e5756192a9f78cfea0497fe30a1"
+        },
+        {
+          "id": "sense-JLPTN3_291-1-ex-2",
+          "japanese": "《現在》の住所を、こちらに記入してください。",
+          "translation": "현재 주소를 여기에 적어 주세요.",
+          "sourceHash": "027891f95ac55ac7294b30fe52b311ee82be46ca0b3980161d50e4f555e26ae0"
+        },
+        {
+          "id": "sense-lex-jmdict-1123590-1-ex-1",
+          "japanese": "申込書は黒い《ボールペン》で記入してください。",
+          "translation": "신청서는 검은 볼펜으로 작성해 주세요.",
+          "sourceHash": "e32c24df2d1720d855484ac06c64e0613888cfef8b85e3bd5e871344a489178e"
+        },
+        {
+          "id": "sense-lex-jmdict-1361150-1-ex-1",
+          "japanese": "申込書の氏名欄には、《振り仮名》も記入してください。",
+          "translation": "신청서의 성명란에는 독음 표기도 적어 주세요.",
+          "sourceHash": "422bc636efda8e566bfa217700dccedaea586a6ce2b5998f2207f2936a76db7f"
+        },
+        {
+          "id": "sense-lex-jmdict-1283000-1-ex-1",
+          "japanese": "申込書のすべての《項目》に記入してください。",
+          "translation": "신청서의 모든 항목에 기입해 주세요.",
+          "sourceHash": "e68f1342148625ba4bfaa2ea265de9a4ac35c889cea6ab0ad137e1541c4b2eba"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "を使ってください",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "수프용 숟가락/사진 인쇄 재료/상처 처치 위생/지정 신청 양식/파손 방지 포장으로 목적과 도구의 관계가 다르다. 종이 둘은 인쇄 적합성과 보호 재료라는 다른 사용 문맥이다.",
+      "examples": [
+        {
+          "id": "sense-lex-jmdict-1072590-1-ex-1",
+          "japanese": "スープにはこの大きい《スプーン》を使ってください。",
+          "translation": "수프를 먹을 때는 이 큰 숟가락을 쓰세요.",
+          "sourceHash": "d5aecfa2f319bd774759e535123fe6954c712284ba8e5383772bbed3728c6455"
+        },
+        {
+          "id": "sense-lex-jmdict-1168190-1-ex-2",
+          "japanese": "写真を《印刷》するときは、厚い紙を使ってください。",
+          "translation": "사진을 인쇄할 때는 두꺼운 종이를 쓰세요.",
+          "sourceHash": "2790e24e39f1898ed4777d782e7e2b24f2b33855bca76a2eb3fc6b513f2069db"
+        },
+        {
+          "id": "sense-lex-jmdict-1378200-1-ex-3",
+          "japanese": "傷の手当てには、《清潔な》布を使ってください。",
+          "translation": "상처를 처치할 때는 깨끗한 천을 사용하세요.",
+          "sourceHash": "07a334744b521d55da9ba1ffebd34a5290d729bd7113e972049de425d81b16df"
+        },
+        {
+          "id": "sense-lex-jmdict-1343350-1-ex-1",
+          "japanese": "申請には、《所定》の用紙を使ってください。",
+          "translation": "신청에는 소정의 양식을 사용해 주세요.",
+          "sourceHash": "411c1b03a393a905690fa2cad64c0eb5413f2718e846a3c01ea36303addc01a2"
+        },
+        {
+          "id": "sense-lex-jmdict-1515510-1-ex-1",
+          "japanese": "壊れやすいので、《包装》には厚い紙を使ってください。",
+          "translation": "깨지기 쉬우므로 포장에는 두꺼운 종이를 써 주세요.",
+          "sourceHash": "c67ec70e18cdba3a46ba4ed102a31a25cde8d119afc1054ca8f385337574dfad"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "声が聞こえました",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "전화 너머 엄마 목소리/창밖 새소리/숲에서 나는 새소리/가게의 환영 인사/조용한 밤 공원의 벌레 소리를 직접 읽었다. 새와 숲 두 문장은 아침 새소리라는 장면이 겹치지만 대상인 새와 소리의 발생 장소인 숲이라는 문법·정보 역할이 다르며 단어 하나만 바꾸어 만든 같은 문장은 아니다. とても는 고요함의 정도 때문에 작은 소리를 듣는 인과를 가르친다. 이 그룹은 동일 장면의 완전 배제가 아니라 단어 대입형 반복 금지 기준으로 판단했다.",
+      "examples": [
+        {
+          "id": "sense-lex-jmdict-1002650-1-ex-1",
+          "japanese": "電話の向こうから《お母さん》の声が聞こえました。",
+          "translation": "전화 너머에서 엄마 목소리가 들렸어요.",
+          "sourceHash": "9b00125eba21c69d8b87286d66ce050cb9710f4702661d4278eb929d597add5b"
+        },
+        {
+          "id": "sense-lex-jmdict-1430250-1-ex-2",
+          "japanese": "朝、窓の外から《鳥》の声が聞こえました。",
+          "translation": "아침에 창밖에서 새 소리가 들렸어요.",
+          "sourceHash": "bc2f1c983d5a25eb62cee0e86c48d3efe5c77ecdb3c35b6b3bee5a62460d4c4e"
+        },
+        {
+          "id": "sense-lex-jmdict-1555440-1-ex-2",
+          "japanese": "朝の《林》から鳥の声が聞こえました。",
+          "translation": "아침 숲에서 새소리가 들렸어요.",
+          "sourceHash": "3a96c11c47a42067f167c11959f991a3d534d2e13c1fce8e7b112443fc421a26"
+        },
+        {
+          "id": "sense-lex-jmdict-1000920-1-ex-2",
+          "japanese": "店に入ったとたん、「《いらっしゃい》」という元気な声が聞こえました。",
+          "translation": "가게에 들어가자마자 “어서 오세요” 하는 활기찬 목소리가 들렸어요.",
+          "sourceHash": "44d67065c64809e89f3549835dc715ab4b157ae745a33dad9615383d5f390439"
+        },
+        {
+          "id": "sense-lex-jmdict-1008630-1-ex-1",
+          "japanese": "夜の公園は《とても》静かで、虫の声が聞こえました。",
+          "translation": "밤의 공원은 매우 조용해서 벌레 소리가 들렸어요.",
+          "sourceHash": "5b9ef1c18593640cec70da86f7a760eb1c62dfb6535a0beb9c6b48d254f2954c"
+        }
+      ]
+    },
+    {
+      "kind": "repeatedEndings",
+      "text": "れるようになった",
+      "outcome": "accepted-shared-grammar-distinct-contexts",
+      "note": "통신 속도/자동화 야간 생산/날 개선과 절삭력/달리기 훈련/책임 자각의 행동 표현으로 변화 원인과 결과가 다르다.",
+      "examples": [
+        {
+          "id": "sense-lex-jmdict-1283700-1-ex-3",
+          "japanese": "新しい回線に変えて、動画を《高速》で送れるようになった。",
+          "translation": "새 회선으로 바꾸어 동영상을 고속으로 보낼 수 있게 되었다.",
+          "sourceHash": "8299cc7e6d84273c96aa216ffee5b16dae7bf0e8b09c8577430298bb94239c59"
+        },
+        {
+          "id": "sense-lex-jmdict-1032180-1-ex-1",
+          "japanese": "工場では《オートメーション》が進み、夜間も製品を作れるようになった。",
+          "translation": "공장에서는 자동화가 진행되어 밤에도 제품을 만들 수 있게 되었다.",
+          "sourceHash": "61d617e8ff288fc436820516e8e2f8d7ad688dda5e61d6b0fc7918dd0a988918"
+        },
+        {
+          "id": "sense-lex-jmdict-1201140-1-ex-1",
+          "japanese": "刃の形を《改良》した結果、硬い材料も少ない力で切れるようになった。",
+          "translation": "날의 형태를 개량한 결과 단단한 재료도 적은 힘으로 자를 수 있게 되었다.",
+          "sourceHash": "db615d7b1db1b38e3f7e342b415a15cfac2b3c04c9e4daeda62e4e7627b485d7"
+        },
+        {
+          "id": "sense-lex-jmdict-1414920-1-ex-1",
+          "japanese": "毎日練習したので、前より《大分》速く走れるようになった。",
+          "translation": "매일 연습했으므로 전보다 상당히 빠르게 달릴 수 있게 되었다.",
+          "sourceHash": "680850c9dd0fa5ddc1b84222a63f8486e8a1aa584bff3547ad098a4e74e41c7d"
+        },
+        {
+          "id": "sense-lex-jmdict-1317490-1-ex-1",
+          "japanese": "責任者としての《自覚》が、行動に表れるようになった。",
+          "translation": "책임자로서의 자각이 행동에 드러나기 시작했다.",
+          "sourceHash": "9a3b81c483da1397d8d8578c8de493bb79df15f91b53e11f9c97fbc5b4163d81"
+        }
+      ]
+    }
+  ]
+}

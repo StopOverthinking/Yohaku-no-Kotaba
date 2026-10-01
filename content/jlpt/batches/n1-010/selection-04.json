@@ -1,0 +1,559 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1254250",
+      "japanese": "決行",
+      "reading": "けっこう",
+      "level": "N1",
+      "spellings": [
+        "決行"
+      ],
+      "readings": [
+        "けっこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "決行"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1254770",
+      "japanese": "結合",
+      "reading": "けつごう",
+      "level": "N1",
+      "spellings": [
+        "結合"
+      ],
+      "readings": [
+        "けつごう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "結合"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1254870",
+      "japanese": "結晶",
+      "reading": "けっしょう",
+      "level": "N1",
+      "spellings": [
+        "結晶"
+      ],
+      "readings": [
+        "けっしょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "結晶"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1267760",
+      "japanese": "誇る",
+      "reading": "ほこる",
+      "level": "N1",
+      "spellings": [
+        "誇る"
+      ],
+      "readings": [
+        "ほこる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "誇る"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1269880",
+      "japanese": "後退",
+      "reading": "こうたい",
+      "level": "N1",
+      "spellings": [
+        "後退"
+      ],
+      "readings": [
+        "こうたい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "後退"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1283610",
+      "japanese": "高尚",
+      "reading": "こうしょう",
+      "level": "N1",
+      "spellings": [
+        "高尚"
+      ],
+      "readings": [
+        "こうしょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "高尚"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1284700",
+      "japanese": "合議",
+      "reading": "ごうぎ",
+      "level": "N1",
+      "spellings": [
+        "合議"
+      ],
+      "readings": [
+        "ごうぎ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "合議"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1309700",
+      "japanese": "指揮",
+      "reading": "しき",
+      "level": "N1",
+      "spellings": [
+        "指揮",
+        "指麾"
+      ],
+      "readings": [
+        "しき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "指揮"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1320950",
+      "japanese": "実業家",
+      "reading": "じつぎょうか",
+      "level": "N1",
+      "spellings": [
+        "実業家"
+      ],
+      "readings": [
+        "じつぎょうか"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "実業家"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1352770",
+      "japanese": "上回る",
+      "reading": "うわまわる",
+      "level": "N1",
+      "spellings": [
+        "上回る",
+        "上廻る",
+        "上まわる"
+      ],
+      "readings": [
+        "うわまわる",
+        "うわまる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "上回る"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1360910",
+      "japanese": "心得",
+      "reading": "こころえ",
+      "level": "N1",
+      "spellings": [
+        "心得"
+      ],
+      "readings": [
+        "こころえ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "心得"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1365260",
+      "japanese": "親善",
+      "reading": "しんぜん",
+      "level": "N1",
+      "spellings": [
+        "親善"
+      ],
+      "readings": [
+        "しんぜん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "親善"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1365870",
+      "japanese": "辛うじて",
+      "reading": "かろうじて",
+      "level": "N1",
+      "spellings": [
+        "辛うじて"
+      ],
+      "readings": [
+        "かろうじて"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "辛うじて"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1366150",
+      "japanese": "進呈",
+      "reading": "しんてい",
+      "level": "N1",
+      "spellings": [
+        "進呈"
+      ],
+      "readings": [
+        "しんてい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "進呈"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1371460",
+      "japanese": "水源",
+      "reading": "すいげん",
+      "level": "N1",
+      "spellings": [
+        "水源"
+      ],
+      "readings": [
+        "すいげん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "水源"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1375730",
+      "japanese": "成熟",
+      "reading": "せいじゅく",
+      "level": "N1",
+      "spellings": [
+        "成熟"
+      ],
+      "readings": [
+        "せいじゅく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "成熟"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1376910",
+      "japanese": "正義",
+      "reading": "せいぎ",
+      "level": "N1",
+      "spellings": [
+        "正義"
+      ],
+      "readings": [
+        "せいぎ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "正義"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1378210",
+      "japanese": "清算",
+      "reading": "せいさん",
+      "level": "N1",
+      "spellings": [
+        "清算"
+      ],
+      "readings": [
+        "せいさん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "清算"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1379900",
+      "japanese": "精巧",
+      "reading": "せいこう",
+      "level": "N1",
+      "spellings": [
+        "精巧"
+      ],
+      "readings": [
+        "せいこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "精巧"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1385050",
+      "japanese": "切実",
+      "reading": "せつじつ",
+      "level": "N1",
+      "spellings": [
+        "切実"
+      ],
+      "readings": [
+        "せつじつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "切実"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1393750",
+      "japanese": "前途",
+      "reading": "ぜんと",
+      "level": "N1",
+      "spellings": [
+        "前途"
+      ],
+      "readings": [
+        "ぜんと"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "前途"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1403190",
+      "japanese": "増強",
+      "reading": "ぞうきょう",
+      "level": "N1",
+      "spellings": [
+        "増強"
+      ],
+      "readings": [
+        "ぞうきょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "増強"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1401070",
+      "japanese": "相場",
+      "reading": "そうば",
+      "level": "N1",
+      "spellings": [
+        "相場"
+      ],
+      "readings": [
+        "そうば"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "相場"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1404190",
+      "japanese": "即座に",
+      "reading": "そくざに",
+      "level": "N1",
+      "spellings": [
+        "即座に"
+      ],
+      "readings": [
+        "そくざに"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "即座に"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1404510",
+      "japanese": "束縛",
+      "reading": "そくばく",
+      "level": "N1",
+      "spellings": [
+        "束縛"
+      ],
+      "readings": [
+        "そくばく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "束縛"
+        ]
+      }
+    }
+  ]
+}

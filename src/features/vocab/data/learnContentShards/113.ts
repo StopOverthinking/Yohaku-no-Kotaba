@@ -1116,6 +1116,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1211970-1",
+    "wordId": "lex-jmdict-1211970",
+    "version": 1,
+    "meaning": "관대함, 너그러움",
+    "hint": "남의 차이·잘못 등을 넓은 마음으로 받아들이는 태도입니다.",
+    "confusions": [
+      {
+        "japanese": "厳格",
+        "distinction": "寛容는 차이·잘못을 너그럽게 받아들임이고 厳格는 기준을 엄하게 지킴이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1211970-1-ex-1",
+        "version": 1,
+        "before": "互いの文化の違いに",
+        "answer": "寛容",
+        "after": "な社会を目指したい。",
+        "reading": "かんよう",
+        "translation": "서로의 문화 차이에 관대한 사회를 지향하고 싶다.",
+        "translationTarget": "관대한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605320-1",
+    "wordId": "lex-jmdict-1605320",
+    "version": 1,
+    "meaning": "누설하다, 새어 나가게 하다",
+    "hint": "밖으로 나오지 않아야 할 정보·내용을 드러냅니다.",
+    "confusions": [
+      {
+        "japanese": "漏れる",
+        "distinction": "선택한 漏らす는 정보를 밖에 누설하는 타동사이고 漏れる는 밖으로 새는 자동사이다. 액체·빛·소리가 새게 함에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605320-1-ex-1",
+        "version": 1,
+        "before": "会議で知った個人情報を、外部に",
+        "answer": "漏らして",
+        "after": "はいけない。",
+        "reading": "もらして",
+        "translation": "회의에서 알게 된 개인정보를 외부에 누설해서는 안 된다.",
+        "translationTarget": "누설해서는",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1145220-1",
+    "wordId": "lex-jmdict-1145220",
+    "version": 1,
+    "meaning": "여가 활동",
+    "hint": "쉬는 시간에 즐기며 보내는 활동",
+    "confusions": [
+      {
+        "japanese": "労働",
+        "distinction": "쉬면서 즐기는 활동과 일을 하는 활동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1145220-1-ex-1",
+        "version": 1,
+        "before": "連休中は、",
+        "answer": "レジャー",
+        "after": "施設へ向かう車で道が混んでいた。",
+        "reading": "レジャー",
+        "translation": "연휴에는 여가 시설로 가는 차로 길이 붐볐다.",
+        "translationTarget": "여가",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321260-1",
+    "wordId": "lex-jmdict-1321260",
+    "version": 1,
+    "meaning": "실천",
+    "hint": "배운 원칙·생각을 실제 행동으로 옮기는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "理論",
+        "distinction": "実践는 행동으로 실행함이고 理論는 설명·원리의 체계이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321260-1-ex-1",
+        "version": 1,
+        "before": "研修で学んだ方法を、翌日の授業で",
+        "answer": "実践",
+        "after": "してみた。",
+        "reading": "じっせん",
+        "translation": "연수에서 배운 방법을 다음 날 수업에서 실천해 봤다.",
+        "translationTarget": "실천",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552310-1",
+    "wordId": "lex-jmdict-1552310",
+    "version": 1,
+    "meaning": "유행하다",
+    "hint": "많은 사람이 좋아하거나 따라 하여 널리 퍼져요.",
+    "confusions": [
+      {
+        "japanese": "廃れる",
+        "distinction": "널리 인기를 얻는 것과 쓰이지 않게 되는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552310-1-ex-1",
+        "version": 1,
+        "before": "去年",
+        "answer": "流行った",
+        "after": "歌を聞くと、旅行を思い出す。",
+        "reading": "はやった",
+        "translation": "작년에 유행한 노래를 들으면 여행이 생각난다.",
+        "translationTarget": "유행한",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1569240-1",
+    "wordId": "lex-jmdict-1569240",
+    "version": 1,
+    "meaning": "교활하다·치사하다",
+    "hint": "자기만 이익을 얻으려고 공정하지 않게 행동하는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "正直",
+        "distinction": "자기 이익을 위해 속임수를 쓰는 것과 솔직한 태도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1569240-1-ex-1",
+        "version": 1,
+        "before": "自分だけ先に答えを見るなんて、",
+        "answer": "狡い",
+        "after": "よ。",
+        "reading": "ずるい",
+        "translation": "자기만 먼저 답을 보다니 치사해.",
+        "translationTarget": "치사해",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1555610-1",
+    "wordId": "lex-jmdict-1555610",
+    "version": 1,
+    "meaning": "임시, 수시",
+    "hint": "필요에 따라 정기적인 것 외에 일시적으로 마련합니다.",
+    "confusions": [
+      {
+        "japanese": "定期",
+        "distinction": "臨時는 일시적·필요에 따라 마련됨이고 定期는 정해진 주기에 따름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1555610-1-ex-1",
+        "version": 1,
+        "before": "連休中は、駅から会場まで",
+        "answer": "臨時",
+        "after": "のバスが出る。",
+        "reading": "りんじ",
+        "translation": "연휴 중에는 역에서 행사장까지 임시 버스가 운행된다.",
+        "translationTarget": "임시",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1382090-1",
+    "wordId": "lex-jmdict-1382090",
+    "version": 1,
+    "meaning": "세관",
+    "hint": "국경을 오가는 물품을 검사하고 관세 등을 처리하는 기관입니다.",
+    "confusions": [
+      {
+        "japanese": "入国審査",
+        "distinction": "税関는 물품·관세의 검사 기관이고 入国審査는 사람의 입국 자격 검사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1382090-1-ex-1",
+        "version": 1,
+        "before": "空港の",
+        "answer": "税関",
+        "after": "で、持ち込んだ品物について質問された。",
+        "reading": "ぜいかん",
+        "translation": "공항 세관에서 반입한 물품에 대해 질문을 받았다.",
+        "translationTarget": "세관",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328120-1",
+    "wordId": "lex-jmdict-1328120",
+    "version": 1,
+    "meaning": "때가 늦음, 이미 늦은 상태",
+    "hint": "적절한 조치를 할 시기를 놓쳐 회복·해결이 어렵습니다.",
+    "confusions": [
+      {
+        "japanese": "遅刻",
+        "distinction": "手遅れ는 조치할 시기를 놓침이고 遅刻는 약속·시작 시간에 늦음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328120-1-ex-1",
+        "version": 1,
+        "before": "被害が広がってからでは",
+        "answer": "手遅れ",
+        "after": "になるので、早めに相談した。",
+        "reading": "ておくれ",
+        "translation": "피해가 커지고 나면 때가 늦어지므로 일찍 상담했다.",
+        "translationTarget": "때가 늦어지므로",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1486200-1",
+    "wordId": "lex-jmdict-1486200",
+    "version": 1,
+    "meaning": "미량",
+    "hint": "아주 적은 양입니다.",
+    "confusions": [
+      {
+        "japanese": "大量",
+        "distinction": "微量는 매우 적은 양이고 大量는 많은 양이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1486200-1-ex-1",
+        "version": 1,
+        "before": "検査では、水から",
+        "answer": "微量",
+        "after": "の金属が見つかった。",
+        "reading": "びりょう",
+        "translation": "검사에서는 물에서 미량의 금속이 발견되었다.",
+        "translationTarget": "미량",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1326760-1",
+    "wordId": "lex-jmdict-1326760",
+    "version": 1,
+    "meaning": "연결해 주다, 전달하다",
+    "hint": "연락·용건을 다른 담당자·상대에게 이어 줍니다.",
+    "confusions": [
+      {
+        "japanese": "取り付ける",
+        "distinction": "取り次ぐ는 연락을 전달·연결함이고 取り付ける는 물건을 달거나 약속 등을 받아 냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1326760-1-ex-1",
+        "version": 1,
+        "before": "受付の人が、電話を担当者に",
+        "answer": "取り次いで",
+        "after": "くれた。",
+        "reading": "とりついで",
+        "translation": "접수 담당자가 전화를 담당자에게 연결해 주었다.",
+        "translationTarget": "연결해",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,60 @@
+{
+  "batch": "n1-008",
+  "status": "draft-ready",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T23:43:36Z",
+  "plannedWords": 100,
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-09-30T23:43:36Z",
+      "draftCompletedAt": "2026-09-30T23:46:16.907065+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-09-30T23:46:18.182Z",
+      "preflightMilliseconds": 989.5909
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-09-30T23:47:58Z",
+      "draftCompletedAt": "2026-09-30T23:49:59.761063+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-09-30T23:50:00.976Z",
+      "preflightMilliseconds": 941.4986
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-09-30T23:50:01Z",
+      "draftCompletedAt": "2026-09-30T23:51:41.727919+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-09-30T23:51:42.960Z",
+      "preflightMilliseconds": 955.0549
+    },
+    {
+      "fileNumber": "04",
+      "startedAt": "2026-09-30T23:51:43Z",
+      "draftCompletedAt": "2026-09-30T23:53:35.397084+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-09-30T23:54:04.177Z",
+      "preflightMilliseconds": 1055.5792000000001
+    }
+  ],
+  "completedAt": "2026-09-30T23:54:04.177Z",
+  "actualWords": 100
+}

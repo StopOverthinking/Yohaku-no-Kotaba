@@ -1516,6 +1516,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1118780-1",
+    "wordId": "lex-jmdict-1118780",
+    "version": 1,
+    "meaning": "헬리콥터",
+    "hint": "위에서 회전하는 날개로 떠오르는 항공기",
+    "confusions": [
+      {
+        "japanese": "飛行機",
+        "distinction": "회전 날개로 수직 이착륙하는 항공기와 활주로를 쓰는 항공기를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1118780-1-ex-1",
+        "version": 1,
+        "before": "山でけがをした人を、",
+        "answer": "ヘリコプター",
+        "after": "で病院に運んだ。",
+        "reading": "ヘリコプター",
+        "translation": "산에서 다친 사람을 헬리콥터로 병원에 이송했다.",
+        "translationTarget": "헬리콥터",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325980-1",
+    "wordId": "lex-jmdict-1325980",
+    "version": 1,
+    "meaning": "주도",
+    "hint": "중심이 되어 방향을 정하고 이끌어 가는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "補助",
+        "distinction": "主導는 중심에서 이끎이고 補助는 필요한 도움을 더함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325980-1-ex-1",
+        "version": 1,
+        "before": "このプロジェクトは、現場の職員が",
+        "answer": "主導",
+        "after": "して進めている。",
+        "reading": "しゅどう",
+        "translation": "이 프로젝트는 현장 직원이 주도하여 진행하고 있다.",
+        "translationTarget": "주도",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1364110-1",
+    "wordId": "lex-jmdict-1364110",
+    "version": 1,
+    "meaning": "진상, 숨겨진 사실",
+    "hint": "사건 뒤에 감춰져 있던 실제 내용입니다.",
+    "confusions": [
+      {
+        "japanese": "予想",
+        "distinction": "真相는 사건의 실제 내용이고 予想는 앞으로 일어날 일을 짐작함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1364110-1-ex-1",
+        "version": 1,
+        "before": "証言を一つずつ確かめ、事故の",
+        "answer": "真相",
+        "after": "に迫った。",
+        "reading": "しんそう",
+        "translation": "증언을 하나씩 확인해 사고의 진상에 다가갔다.",
+        "translationTarget": "진상",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283240-1",
+    "wordId": "lex-jmdict-1283240",
+    "version": 1,
+    "meaning": "높이다·향상시키다",
+    "hint": "능력이나 수준이 더 높은 상태가 되게 해요.",
+    "confusions": [
+      {
+        "japanese": "高まる",
+        "distinction": "수준을 높이는 행동과 수준이 높아지는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283240-1-ex-1",
+        "version": 1,
+        "before": "発表を録画して見直すことで、説明の質を",
+        "answer": "高めて",
+        "after": "いる。",
+        "reading": "たかめて",
+        "translation": "발표를 녹화해 다시 보면서 설명의 질을 높이고 있다.",
+        "translationTarget": "높이고",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430240-1",
+    "wordId": "lex-jmdict-1430240",
+    "version": 1,
+    "meaning": "꼭짓점",
+    "hint": "도형에서 둘 이상의 변이나 모서리가 만나는 점",
+    "confusions": [
+      {
+        "japanese": "辺",
+        "distinction": "변이 만나는 점과 도형을 이루는 선 부분을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430240-1-ex-1",
+        "version": 1,
+        "before": "三角形の",
+        "answer": "頂点",
+        "after": "から、向かいの辺へ線を引いた。",
+        "reading": "ちょうてん",
+        "translation": "삼각형의 꼭짓점에서 맞은편 변으로 선을 그었다.",
+        "translationTarget": "꼭짓점",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1420630-1",
+    "wordId": "lex-jmdict-1420630",
+    "version": 1,
+    "meaning": "지성",
+    "hint": "이해·판단·사고를 이치에 맞게 하는 능력입니다.",
+    "confusions": [
+      {
+        "japanese": "知識",
+        "distinction": "知性는 이해·판단 능력이고 知識는 알고 있는 정보이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1420630-1-ex-1",
+        "version": 1,
+        "before": "子どもの",
+        "answer": "知性",
+        "after": "を育てるには、自由に考える時間も必要だ。",
+        "reading": "ちせい",
+        "translation": "아이의 지성을 기르려면 자유롭게 생각하는 시간도 필요하다.",
+        "translationTarget": "지성",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1556100-1",
+    "wordId": "lex-jmdict-1556100",
+    "version": 1,
+    "meaning": "유사",
+    "hint": "모습·성질·내용이 비슷합니다.",
+    "confusions": [
+      {
+        "japanese": "同一",
+        "distinction": "類似는 비슷함이고 同一는 동일한 것임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1556100-1-ex-1",
+        "version": 1,
+        "before": "別の店で、",
+        "answer": "類似",
+        "after": "したデザインの商品を見つけた。",
+        "reading": "るいじ",
+        "translation": "다른 가게에서 유사한 디자인의 상품을 찾았다.",
+        "translationTarget": "유사한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579990-1",
+    "wordId": "lex-jmdict-1579990",
+    "version": 1,
+    "meaning": "편리하고 유용함",
+    "hint": "쓸모가 많아 소중히 여기며 자주 씁니다.",
+    "confusions": [
+      {
+        "japanese": "宝物",
+        "distinction": "선택한 重宝는 유용해 요긴함이고 宝物는 소중한 보물이다. 소중한 물건이라는 명사 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579990-1-ex-1",
+        "version": 1,
+        "before": "持ち運びやすいこの道具は、出張先でも",
+        "answer": "重宝",
+        "after": "している。",
+        "reading": "ちょうほう",
+        "translation": "휴대하기 쉬운 이 도구는 출장지에서도 요긴하게 쓰고 있다.",
+        "translationTarget": "요긴하게 쓰고 있다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1323120-1",
+    "wordId": "lex-jmdict-1323120",
+    "version": 1,
+    "meaning": "차고",
+    "hint": "차량을 넣어 두거나 보호하는 공간",
+    "confusions": [
+      {
+        "japanese": "車道",
+        "distinction": "차량을 보관하는 공간과 차량이 다니는 길을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1323120-1-ex-1",
+        "version": 1,
+        "before": "台風が来るので、自転車も",
+        "answer": "車庫",
+        "after": "に入れた。",
+        "reading": "しゃこ",
+        "translation": "태풍이 오므로 자전거도 차고에 넣었다.",
+        "translationTarget": "차고",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528130-1",
+    "wordId": "lex-jmdict-1528130",
+    "version": 1,
+    "meaning": "미련",
+    "hint": "끝난 일·관계에 대한 마음을 놓지 못합니다.",
+    "confusions": [
+      {
+        "japanese": "後悔",
+        "distinction": "未練는 아직 남은 애착이고 後悔는 지난 행동을 잘못이라고 아쉬워함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528130-1-ex-1",
+        "version": 1,
+        "before": "仕事を辞めた後も、その職場に少し",
+        "answer": "未練",
+        "after": "が残っていた。",
+        "reading": "みれん",
+        "translation": "일을 그만둔 뒤에도 그 직장에 조금 미련이 남아 있었다.",
+        "translationTarget": "미련",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

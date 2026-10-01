@@ -1972,6 +1972,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1273900-1",
+    "wordId": "lex-jmdict-1273900",
+    "version": 1,
+    "meaning": "공중·일반 대중",
+    "hint": "사회의 불특정한 여러 사람",
+    "confusions": [
+      {
+        "japanese": "個人",
+        "distinction": "불특정 다수의 사람들과 한 사람을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1273900-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "公衆",
+        "after": "の面前で、人の失敗を笑ってはいけない。",
+        "reading": "こうしゅう",
+        "translation": "여러 사람 앞에서 남의 실수를 비웃어서는 안 된다.",
+        "translationTarget": "여러 사람",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1603240-1",
+    "wordId": "lex-jmdict-1603240",
+    "version": 1,
+    "meaning": "편집",
+    "hint": "글·영상 등의 자료를 골라 순서·형태를 정리합니다.",
+    "confusions": [
+      {
+        "japanese": "執筆",
+        "distinction": "編集는 자료를 정리해 구성함이고 執筆는 글을 씀이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1603240-1-ex-1",
+        "version": 1,
+        "before": "撮影した映像を",
+        "answer": "編集",
+        "after": "し、五分間の動画にまとめた。",
+        "reading": "へんしゅう",
+        "translation": "촬영한 영상을 편집해 5분짜리 동영상으로 정리했다.",
+        "translationTarget": "편집",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561960-1",
+    "wordId": "lex-jmdict-1561960",
+    "version": 1,
+    "meaning": "누그러뜨리다, 완화하다",
+    "hint": "고통·긴장·강한 정도를 약하게 합니다.",
+    "confusions": [
+      {
+        "japanese": "和らぐ",
+        "distinction": "和らげる는 누그러뜨리는 타동사이고 和らぐ는 누그러지는 자동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561960-1-ex-1",
+        "version": 1,
+        "before": "先生は冗談を言って、初めての発表に臨む生徒の緊張を",
+        "answer": "和らげた",
+        "after": "。",
+        "reading": "やわらげた",
+        "translation": "선생님은 농담을 해서 첫 발표에 임하는 학생의 긴장을 누그러뜨렸다.",
+        "translationTarget": "누그러뜨렸다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474860-1",
+    "wordId": "lex-jmdict-1474860",
+    "version": 1,
+    "meaning": "재워 주다·숙박시키다",
+    "hint": "다른 사람이 자기 집 등에서 밤을 보내게 해요.",
+    "confusions": [
+      {
+        "japanese": "泊まる",
+        "distinction": "다른 사람을 재워 주는 행동과 자신이 숙박하는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474860-1-ex-1",
+        "version": 1,
+        "before": "終電を逃した友人を、家に",
+        "answer": "泊めた",
+        "after": "。",
+        "reading": "とめた",
+        "translation": "막차를 놓친 친구를 집에 재워 주었다.",
+        "translationTarget": "재워 주었다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1469530-1",
+    "wordId": "lex-jmdict-1469530",
+    "version": 1,
+    "meaning": "비틀다·돌리다",
+    "hint": "몸의 일부나 손잡이 등을 돌리는 힘을 가해요.",
+    "confusions": [
+      {
+        "japanese": "伸ばす",
+        "distinction": "돌려 비트는 동작과 곧게 펴는 동작을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1469530-1-ex-1",
+        "version": 1,
+        "before": "重い箱を持ち上げたとき、腰を",
+        "answer": "捻って",
+        "after": "しまった。",
+        "reading": "ひねって",
+        "translation": "무거운 상자를 들어 올릴 때 허리를 비틀고 말았다.",
+        "translationTarget": "비틀고",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594740-1",
+    "wordId": "lex-jmdict-1594740",
+    "version": 1,
+    "meaning": "집착",
+    "hint": "특정 대상·생각을 놓지 못하고 강하게 매달립니다.",
+    "confusions": [
+      {
+        "japanese": "愛着",
+        "distinction": "執着는 놓지 못하는 고집스러운 집착이고 愛着는 친숙하고 소중히 여기는 애정이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594740-1-ex-1",
+        "version": 1,
+        "before": "過去の成功への",
+        "answer": "執着",
+        "after": "が、新しい方法を試す妨げになっていた。",
+        "reading": "しゅうちゃく",
+        "translation": "과거 성공에 대한 집착이 새 방법을 시도하는 데 방해가 되고 있었다.",
+        "translationTarget": "집착",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1524930-1",
+    "wordId": "lex-jmdict-1524930",
+    "version": 1,
+    "meaning": "또, 다시",
+    "hint": "앞서 있었던 일이나 상태가 한 번 더 나타나는 모습",
+    "confusions": [
+      {
+        "japanese": "まだ",
+        "distinction": "일이 다시 일어나는 모습과 이전 상태가 계속 남아 있는 모습을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1524930-1-ex-1",
+        "version": 1,
+        "before": "電気を消したのに、",
+        "answer": "また",
+        "after": "ついています。",
+        "reading": "また",
+        "translation": "불을 껐는데 또 켜져 있어요.",
+        "translationTarget": "또",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

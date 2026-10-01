@@ -1628,6 +1628,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325180-1",
+    "wordId": "lex-jmdict-1325180",
+    "version": 1,
+    "meaning": "주관",
+    "hint": "개인의 생각·느낌에 따라 판단하는 관점입니다.",
+    "confusions": [
+      {
+        "japanese": "客観",
+        "distinction": "主観는 개인의 관점이고 客観는 개인 느낌을 벗어나 대상을 봄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325180-1-ex-1",
+        "version": 1,
+        "before": "好き嫌いという",
+        "answer": "主観",
+        "after": "だけで、作品の価値を決めたくない。",
+        "reading": "しゅかん",
+        "translation": "좋고 싫음이라는 주관만으로 작품의 가치를 정하고 싶지는 않다.",
+        "translationTarget": "주관",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611980-1",
+    "wordId": "lex-jmdict-1611980",
+    "version": 1,
+    "meaning": "혜택을 입다·좋은 조건을 누리다",
+    "hint": "좋은 조건이나 도움을 운 좋게 얻어 누려요.",
+    "confusions": [
+      {
+        "japanese": "欠ける",
+        "distinction": "좋은 조건을 갖춘 것과 필요한 것이 부족한 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611980-1-ex-1",
+        "version": 1,
+        "before": "良い指導者に",
+        "answer": "恵まれて",
+        "after": "、安心して練習を続けられた。",
+        "reading": "めぐまれて",
+        "translation": "좋은 지도자를 만난 덕분에 안심하고 연습을 계속할 수 있었다.",
+        "translationTarget": "만난 덕분에",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423060-1",
+    "wordId": "lex-jmdict-1423060",
+    "version": 1,
+    "meaning": "착수",
+    "hint": "계획하던 일을 실제로 시작합니다.",
+    "confusions": [
+      {
+        "japanese": "完了",
+        "distinction": "着手는 일을 시작함이고 完了는 끝냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423060-1-ex-1",
+        "version": 1,
+        "before": "必要な許可が下りて、ようやく工事に",
+        "answer": "着手",
+        "after": "できた。",
+        "reading": "ちゃくしゅ",
+        "translation": "필요한 허가가 나와 마침내 공사에 착수할 수 있었다.",
+        "translationTarget": "착수",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449820-1",
+    "wordId": "lex-jmdict-1449820",
+    "version": 1,
+    "meaning": "통제",
+    "hint": "조직·활동이 정한 기준을 따르도록 전체를 관리합니다.",
+    "confusions": [
+      {
+        "japanese": "統一",
+        "distinction": "統制는 활동을 관리·제한함이고 統一는 방식·기준을 같게 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449820-1-ex-1",
+        "version": 1,
+        "before": "指示がばらばらで、現場の",
+        "answer": "統制",
+        "after": "が取れていなかった。",
+        "reading": "とうせい",
+        "translation": "지시가 제각각이어서 현장이 제대로 통제되지 않았다.",
+        "translationTarget": "통제",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1557150-1",
+    "wordId": "lex-jmdict-1557150",
+    "version": 1,
+    "meaning": "냉담함",
+    "hint": "상대에게 관심·정성을 보이지 않아 차갑습니다.",
+    "confusions": [
+      {
+        "japanese": "冷静",
+        "distinction": "冷淡는 상대에게 차가운 태도이고 冷静는 감정에 휩쓸리지 않고 침착함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1557150-1-ex-1",
+        "version": 1,
+        "before": "相談した相手の",
+        "answer": "冷淡",
+        "after": "な返事に、彼女はがっかりした。",
+        "reading": "れいたん",
+        "translation": "상담한 상대의 냉담한 답변에 그녀는 실망했다.",
+        "translationTarget": "냉담한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541180-1",
+    "wordId": "lex-jmdict-1541180",
+    "version": 1,
+    "meaning": "유기, 유기적 연결",
+    "hint": "여러 부분이 살아 있는 전체처럼 긴밀하게 연결됩니다.",
+    "confusions": [
+      {
+        "japanese": "断片的",
+        "distinction": "선택한 有機的는 여러 요소가 서로 긴밀히 이어짐이고 断片的는 조각조각 나뉘어 전체 연결이 부족함이다. 화학·농업의 유기라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541180-1-ex-1",
+        "version": 1,
+        "before": "各部署が",
+        "answer": "有機",
+        "after": "的につながり、一つのサービスを支えている。",
+        "reading": "ゆうき",
+        "translation": "각 부서가 유기적으로 연결되어 하나의 서비스를 뒷받침하고 있다.",
+        "translationTarget": "유기",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

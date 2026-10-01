@@ -1,0 +1,74 @@
+[
+  {
+    "japanese": "レインコート",
+    "reading": "レインコート",
+    "type": "noun",
+    "meaning": "우비",
+    "hint": "비에 몸이나 옷이 젖지 않도록 걸치는 옷",
+    "confusion": "傘",
+    "distinction": "몸에 입는 비막이와 손에 드는 비막이를 구별한다.",
+    "dictionaryId": "jmdict-1144700",
+    "level": "N4",
+    "levelNote": "사전 출처 N2와 별도로 현재 선택한 우비 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다."
+  },
+  {
+    "japanese": "マフラー",
+    "reading": "マフラー",
+    "type": "noun",
+    "meaning": "목도리",
+    "hint": "목에 두르며 추위를 막는 두꺼운 천",
+    "confusion": "スカーフ",
+    "distinction": "추위를 막는 두꺼운 천과 얇은 장식용 천을 구별한다.",
+    "dictionaryId": "jmdict-1129210",
+    "level": "N4",
+    "levelNote": "사전 출처 N2와 별도로 현재 선택한 목도리 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다."
+  },
+  {
+    "japanese": "ワンピース",
+    "reading": "ワンピース",
+    "type": "noun",
+    "meaning": "원피스",
+    "hint": "상의와 치마 부분이 하나로 이어진 옷",
+    "confusion": "スカート",
+    "distinction": "위아래가 이어진 옷과 허리 아래만 입는 옷을 구별한다.",
+    "dictionaryId": "jmdict-1149240",
+    "level": "N4",
+    "levelNote": "사전 출처 N2와 별도로 현재 선택한 원피스 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다."
+  },
+  {
+    "japanese": "パンツ",
+    "reading": "パンツ",
+    "type": "noun",
+    "meaning": "팬티·속바지",
+    "hint": "하반신에 속옷으로 입는 짧은 옷",
+    "confusion": "ズボン",
+    "distinction": "여기서는 속옷인 팬티를 뜻한다. 이 표현은 겉옷 바지도 가리키므로 문맥으로 구별한다.",
+    "dictionaryId": "jmdict-1103270",
+    "level": "N4",
+    "levelNote": "사전 출처 N2와 별도로 현재 선택한 팬티·속바지 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다."
+  },
+  {
+    "japanese": "ブラウス",
+    "reading": "ブラウス",
+    "type": "noun",
+    "meaning": "블라우스",
+    "hint": "주로 여성이 입는 얇고 부드러운 윗옷",
+    "confusion": "コート",
+    "distinction": "가벼운 윗옷과 그 위에 입는 두꺼운 겉옷을 구별한다.",
+    "dictionaryId": "jmdict-1113650",
+    "level": "N4",
+    "levelNote": "사전 출처 N2와 별도로 현재 선택한 블라우스 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다."
+  },
+  {
+    "japanese": "ランチ",
+    "reading": "ランチ",
+    "type": "noun",
+    "meaning": "점심 식사",
+    "hint": "낮에 먹는 식사나 식당에서 제공하는 점심 메뉴",
+    "confusion": "ディナー",
+    "distinction": "낮에 먹는 식사와 저녁 식사를 구별한다.",
+    "dictionaryId": "jmdict-1140100",
+    "level": "N4",
+    "levelNote": "사전 출처 N2와 별도로 현재 선택한 점심 식사 용법의 생활 빈도·추상성 및 기존 어휘 난도를 대조하여 비공식 N4로 검토했다."
+  }
+]

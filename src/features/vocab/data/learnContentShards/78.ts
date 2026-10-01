@@ -1560,6 +1560,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1464300-1",
+    "wordId": "lex-jmdict-1464300",
+    "version": 1,
+    "meaning": "일정",
+    "hint": "행사·출장 등이 어느 날 어떤 순서로 진행되는지 정한 계획입니다.",
+    "confusions": [
+      {
+        "japanese": "スケジュール",
+        "distinction": "日程와 スケジュール는 일정 의미가 겹친다. 선택한 日程는 행사 날짜·여러 날의 진행 계획을 대표 장면으로 삼는다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1464300-1-ex-1",
+        "version": 1,
+        "before": "台風のため、修学旅行の",
+        "answer": "日程",
+        "after": "が一週間ずれた。",
+        "reading": "にってい",
+        "translation": "태풍 때문에 수학여행 일정이 일주일 미뤄졌다.",
+        "translationTarget": "일정",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1528040-1",
+    "wordId": "lex-jmdict-1528040",
+    "version": 1,
+    "meaning": "미만",
+    "hint": "기준으로 제시한 수치에 이르지 못합니다.",
+    "confusions": [
+      {
+        "japanese": "以下",
+        "distinction": "未満는 기준 수치를 포함하지 않고 以下는 기준 수치를 포함한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1528040-1-ex-1",
+        "version": 1,
+        "before": "この映画は、十八歳",
+        "answer": "未満",
+        "after": "の人には見られない。",
+        "reading": "みまん",
+        "translation": "이 영화는 18세 미만인 사람은 볼 수 없다.",
+        "translationTarget": "미만",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541610-1",
+    "wordId": "lex-jmdict-1541610",
+    "version": 1,
+    "meaning": "유무, 있는지 없는지",
+    "hint": "어떤 것이 있거나 없는지를 함께 나타냅니다.",
+    "confusions": [
+      {
+        "japanese": "多少",
+        "distinction": "有無는 존재 여부이고 多少는 양의 많고 적음 또는 약간이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541610-1-ex-1",
+        "version": 1,
+        "before": "予約の",
+        "answer": "有無",
+        "after": "を確認してから、席へ案内された。",
+        "reading": "うむ",
+        "translation": "예약 유무를 확인한 뒤 자리로 안내받았다.",
+        "translationTarget": "유무",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370010-1",
+    "wordId": "lex-jmdict-1370010",
+    "version": 1,
+    "meaning": "심하다·지나치다",
+    "hint": "정도가 보통을 크게 넘어서 눈에 띄는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "僅か",
+        "distinction": "정도가 매우 큰 상태와 매우 적은 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370010-1-ex-1",
+        "version": 1,
+        "before": "根拠もなく全員を疑うのは、見当違いも",
+        "answer": "甚だしい",
+        "after": "。",
+        "reading": "はなはだしい",
+        "translation": "근거도 없이 모두를 의심하는 것은 잘못 짚어도 너무 심하다.",
+        "translationTarget": "너무 심하다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1457100-1",
+    "wordId": "lex-jmdict-1457100",
+    "version": 1,
+    "meaning": "돌파",
+    "hint": "어려운 한계·장벽을 넘어 앞으로 나아갑니다.",
+    "confusions": [
+      {
+        "japanese": "到達",
+        "distinction": "突破는 막힌 한계·장벽을 넘음이고 到達는 목표 지점에 이름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1457100-1-ex-1",
+        "version": 1,
+        "before": "チームは予選を",
+        "answer": "突破",
+        "after": "し、決勝大会への出場を決めた。",
+        "reading": "とっぱ",
+        "translation": "팀은 예선을 돌파하여 결승 대회 출전을 확정했다.",
+        "translationTarget": "돌파",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1362530-1",
+    "wordId": "lex-jmdict-1362530",
+    "version": 1,
+    "meaning": "삼림·숲",
+    "hint": "나무가 많이 모여 자라는 넓은 지역",
+    "confusions": [
+      {
+        "japanese": "草原",
+        "distinction": "나무가 무성한 지역과 풀이 넓게 자라는 지역을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1362530-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "森林",
+        "after": "を守ることは、川の水を守ることにもつながる。",
+        "reading": "しんりん",
+        "translation": "삼림을 지키는 것은 강물을 지키는 일로도 이어진다.",
+        "translationTarget": "삼림",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1313350-1",
+    "wordId": "lex-jmdict-1313350",
+    "version": 1,
+    "meaning": "톱니바퀴",
+    "hint": "가장자리의 이가 맞물려 회전과 힘을 전달하는 바퀴",
+    "confusions": [
+      {
+        "japanese": "車輪",
+        "distinction": "이가 맞물려 힘을 전달하는 부품과 차량이 굴러가는 바퀴를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1313350-1-ex-1",
+        "version": 1,
+        "before": "小さな",
+        "answer": "歯車",
+        "after": "が一つ欠けただけで、時計が止まった。",
+        "reading": "はぐるま",
+        "translation": "작은 톱니바퀴가 하나 빠졌을 뿐인데 시계가 멈췄다.",
+        "translationTarget": "톱니바퀴",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1609310-1",
+    "wordId": "lex-jmdict-1609310",
+    "version": 1,
+    "meaning": "부정하다·없애다",
+    "hint": "이미 나온 말이나 주장을 사실이 아니라고 해요.",
+    "confusions": [
+      {
+        "japanese": "認める",
+        "distinction": "주장을 사실이 아니라고 하는 것과 인정하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1609310-1-ex-1",
+        "version": 1,
+        "before": "会社は移転のうわさを、正式な発表で",
+        "answer": "打ち消した",
+        "after": "。",
+        "reading": "うちけした",
+        "translation": "회사는 이전 소문을 공식 발표로 부정했다.",
+        "translationTarget": "부정했다",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1562510-1",
+    "wordId": "lex-jmdict-1562510",
+    "version": 1,
+    "meaning": "충당하다",
+    "hint": "필요한 비용·인력·물자를 마련해 사용합니다.",
+    "confusions": [
+      {
+        "japanese": "費やす",
+        "distinction": "선택한 賄う는 필요한 몫을 충당함이고 費やす는 자원을 써 들임이다. 식사를 제공하는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1562510-1-ex-1",
+        "version": 1,
+        "before": "イベントの費用は、参加費だけで",
+        "answer": "賄っている",
+        "after": "。",
+        "reading": "まかなっている",
+        "translation": "행사 비용은 참가비만으로 충당하고 있다.",
+        "translationTarget": "충당하고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

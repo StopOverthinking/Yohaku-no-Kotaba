@@ -1448,6 +1448,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505060-1",
+    "wordId": "lex-jmdict-1505060",
+    "version": 1,
+    "meaning": "분쟁",
+    "hint": "이해관계·주장이 부딪쳐 심한 다툼이 이어지는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "競争",
+        "distinction": "紛争는 이해관계의 충돌·다툼이고 競争는 목표를 두고 서로 겨룸이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505060-1-ex-1",
+        "version": 1,
+        "before": "土地の境界をめぐる",
+        "answer": "紛争",
+        "after": "は、調停によって解決した。",
+        "reading": "ふんそう",
+        "translation": "토지 경계를 둘러싼 분쟁은 조정으로 해결되었다.",
+        "translationTarget": "분쟁",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546270-1",
+    "wordId": "lex-jmdict-1546270",
+    "version": 1,
+    "meaning": "용어",
+    "hint": "특정 분야·상황에서 사용하는 말입니다.",
+    "confusions": [
+      {
+        "japanese": "単語",
+        "distinction": "用語는 분야·상황에 사용하는 표현이고 単語는 어휘 단위 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546270-1-ex-1",
+        "version": 1,
+        "before": "専門",
+        "answer": "用語",
+        "after": "が多く、初めて読む人には難しい説明だった。",
+        "reading": "ようご",
+        "translation": "전문 용어가 많아 처음 읽는 사람에게는 어려운 설명이었다.",
+        "translationTarget": "용어",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1447300-1",
+    "wordId": "lex-jmdict-1447300",
+    "version": 1,
+    "meaning": "투입",
+    "hint": "사람·돈·재료 등을 목적에 맞는 곳에 넣어 사용합니다.",
+    "confusions": [
+      {
+        "japanese": "投資",
+        "distinction": "投入는 자원·재료를 넣어 씀이고 投資는 수익·성과를 기대해 자금을 씀이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1447300-1-ex-1",
+        "version": 1,
+        "before": "新しい工場には、多くの資金と人員が",
+        "answer": "投入",
+        "after": "された。",
+        "reading": "とうにゅう",
+        "translation": "새 공장에는 많은 자금과 인력이 투입되었다.",
+        "translationTarget": "투입",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1390950-1",
+    "wordId": "lex-jmdict-1390950",
+    "version": 1,
+    "meaning": "세제",
+    "hint": "때나 기름을 씻어 내는 데 사용하는 약제",
+    "confusions": [
+      {
+        "japanese": "漂白剤",
+        "distinction": "때를 씻는 약제와 색이나 얼룩을 표백하는 약제를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1390950-1-ex-1",
+        "version": 1,
+        "before": "この",
+        "answer": "洗剤",
+        "after": "は少量で泡立つので、入れすぎないでください。",
+        "reading": "せんざい",
+        "translation": "이 세제는 적은 양으로도 거품이 나므로 너무 많이 넣지 마세요.",
+        "translationTarget": "세제",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1328030-1",
+    "wordId": "lex-jmdict-1328030",
+    "version": 1,
+    "meaning": "앞쪽·바로 앞",
+    "hint": "기준 장소보다 자신 쪽에 가까운 위치",
+    "confusions": [
+      {
+        "japanese": "向こう",
+        "distinction": "자신 쪽에 가까운 위치와 건너편 위치를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1328030-1-ex-1",
+        "version": 1,
+        "before": "橋の",
+        "answer": "手前",
+        "after": "で右に曲がると、郵便局があります。",
+        "reading": "てまえ",
+        "translation": "다리 바로 앞에서 오른쪽으로 돌면 우체국이 있습니다.",
+        "translationTarget": "바로 앞",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1342470-1",
+    "wordId": "lex-jmdict-1342470",
+    "version": 1,
+    "meaning": "조치, 처치",
+    "hint": "문제·상태에 맞춰 필요한 처리를 합니다.",
+    "confusions": [
+      {
+        "japanese": "治療",
+        "distinction": "処置는 상황에 대한 조치 일반이고 治療는 질병·부상의 치료이다. 의료 처치에서 겹친다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1342470-1-ex-1",
+        "version": 1,
+        "before": "機械を止めるという",
+        "answer": "処置",
+        "after": "で、被害の拡大を防いだ。",
+        "reading": "しょち",
+        "translation": "기계를 멈추는 조치로 피해 확대를 막았다.",
+        "translationTarget": "조치",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1266570-1",
+    "wordId": "lex-jmdict-1266570",
+    "version": 1,
+    "meaning": "굳히다, 확정하다",
+    "hint": "생각·의지 등을 쉽게 바뀌지 않도록 확실히 합니다.",
+    "confusions": [
+      {
+        "japanese": "固まる",
+        "distinction": "선택한 固める는 방침·의지를 굳히는 타동사이고 固まる는 굳어지는 자동사이다. 물질을 단단하게 함에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1266570-1-ex-1",
+        "version": 1,
+        "before": "家族と話し合い、留学する決心を",
+        "answer": "固めた",
+        "after": "。",
+        "reading": "かためた",
+        "translation": "가족과 의논하여 유학할 결심을 굳혔다.",
+        "translationTarget": "굳혔다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

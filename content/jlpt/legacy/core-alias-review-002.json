@@ -1,0 +1,110 @@
+[
+  {
+    "japanese": "勉強",
+    "dictionaryId": "jmdict-1512670",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_50",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_50",
+        "senseId": "sense-handmade_50-1",
+        "version": 1,
+        "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_50-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_50-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_646",
+        "senseId": "sense-AbsoluteVerb_646-1",
+        "version": 1,
+        "sourceHash": "4da4572f9a753057f1a0c28f8d4031dfee855584fc6f208e9e7cc41974c79107",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_646-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_646-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:35:09.164Z",
+    "notes": [
+      "지식을 배우는 공부 핵심이 같다. 일본어 학습/수학을 가르치며 본인의 학습/도서관 시험공부/학습 목적 4예문 전량 읽었다. 수학을 다시 익히는 장면은 할인이나 학업 외 인생교훈 의미가 아니다.",
+      "제공 JMdict는 해당 선택 핵심을 명사와 する 명사 양쪽으로 분류한다. 선택 핵심 의미 동등성만 승인하며 표면 형태·활용형의 개별 예문 숙련을 새로 획득했다고 간주하지 않는다. 원본 ID·예문·프로필을 보존하는 기존 보수적 이전 규약으로만 연결 가능하다.",
+      "현재 명사/する 조합의 candidateGroupId가 없다. root가 명시적 후보 연결·품사/읽기 차이 허용 및 기존 ID/기록 보존을 검증한 뒤에만 활성화해야 한다. 본 파일은 앱 활성화나 게시를 수행하지 않는다."
+    ]
+  },
+  {
+    "japanese": "掃除",
+    "dictionaryId": "jmdict-1399790",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "handmade_15",
+    "level": "N5",
+    "members": [
+      {
+        "wordId": "handmade_15",
+        "senseId": "sense-handmade_15-1",
+        "version": 1,
+        "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-handmade_15-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-handmade_15-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_640",
+        "senseId": "sense-AbsoluteVerb_640-1",
+        "version": 1,
+        "sourceHash": "5fc1e03373e9a7e5b1e086cfbee33d847533d2529c22c9ea8a51b40e854c6cb2",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_640-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_640-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "outcome": "accepted",
+    "profileTransfer": "equivalent-core-usage",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:35:09.164Z",
+    "notes": [
+      "먼지·때 제거의 청소 핵심이 같다. 창문/일반 청소/베란다/바닥 4예문과 정돈 대비를 전량 읽었다.",
+      "제공 JMdict는 해당 선택 핵심을 명사와 する 명사 양쪽으로 분류한다. 선택 핵심 의미 동등성만 승인하며 표면 형태·활용형의 개별 예문 숙련을 새로 획득했다고 간주하지 않는다. 원본 ID·예문·프로필을 보존하는 기존 보수적 이전 규약으로만 연결 가능하다.",
+      "현재 명사/する 조합의 candidateGroupId가 없다. root가 명시적 후보 연결·품사/읽기 차이 허용 및 기존 ID/기록 보존을 검증한 뒤에만 활성화해야 한다. 본 파일은 앱 활성화나 게시를 수행하지 않는다."
+    ]
+  }
+]

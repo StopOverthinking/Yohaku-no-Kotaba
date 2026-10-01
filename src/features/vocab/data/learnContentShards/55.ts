@@ -1624,6 +1624,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1078830-1",
+    "wordId": "lex-jmdict-1078830",
+    "version": 1,
+    "meaning": "주제",
+    "hint": "작품이나 토론에서 중심으로 다루는 내용",
+    "confusions": [
+      {
+        "japanese": "題名",
+        "distinction": "중심 내용과 작품에 붙인 이름을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1078830-1-ex-1",
+        "version": 1,
+        "before": "今年の写真展の",
+        "answer": "テーマ",
+        "after": "は、夜の町です。",
+        "reading": "テーマ",
+        "translation": "올해 사진전의 주제는 밤의 거리입니다.",
+        "translationTarget": "주제",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1113650-1",
+    "wordId": "lex-jmdict-1113650",
+    "version": 1,
+    "meaning": "블라우스",
+    "hint": "주로 여성이 입는 얇고 부드러운 윗옷",
+    "confusions": [
+      {
+        "japanese": "コート",
+        "distinction": "가벼운 윗옷과 그 위에 입는 두꺼운 겉옷을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1113650-1-ex-1",
+        "version": 1,
+        "before": "アイロンを掛けた",
+        "answer": "ブラウス",
+        "after": "を、ハンガーに戻した。",
+        "reading": "ブラウス",
+        "translation": "다림질한 블라우스를 옷걸이에 다시 걸었다.",
+        "translationTarget": "블라우스",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531500-1",
+    "wordId": "lex-jmdict-1531500",
+    "version": 1,
+    "meaning": "명작",
+    "hint": "뛰어나 널리 평가받는 작품입니다.",
+    "confusions": [
+      {
+        "japanese": "新作",
+        "distinction": "名作는 뛰어나다고 평가받는 작품이고 新作는 새로 나온 작품이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531500-1-ex-1",
+        "version": 1,
+        "before": "子どもの頃に読んだ",
+        "answer": "名作",
+        "after": "を、大人になって読み返した。",
+        "reading": "めいさく",
+        "translation": "어린 시절 읽은 명작을 어른이 되어 다시 읽었다.",
+        "translationTarget": "명작",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601160-1",
+    "wordId": "lex-jmdict-1601160",
+    "version": 1,
+    "meaning": "반영",
+    "hint": "의견·변화 등이 다른 결과·내용에 드러나게 합니다.",
+    "confusions": [
+      {
+        "japanese": "引用",
+        "distinction": "선택한 反映는 의견·상황을 결과에 담음이고 引用는 남의 표현을 가져다 씀이다. 빛이 비침이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601160-1-ex-1",
+        "version": 1,
+        "before": "利用者の意見を",
+        "answer": "反映",
+        "after": "して、画面の配置を変えた。",
+        "reading": "はんえい",
+        "translation": "이용자의 의견을 반영해 화면 배치를 바꿨다.",
+        "translationTarget": "반영",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530280-1",
+    "wordId": "lex-jmdict-1530280",
+    "version": 1,
+    "meaning": "무수함, 셀 수 없이 많음",
+    "hint": "수가 너무 많아 셀 수 없습니다.",
+    "confusions": [
+      {
+        "japanese": "無限",
+        "distinction": "無数는 셀 수 없이 많음이고 無限는 한계가 없음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530280-1-ex-1",
+        "version": 1,
+        "before": "夜空には、",
+        "answer": "無数",
+        "after": "の星が輝いていた。",
+        "reading": "むすう",
+        "translation": "밤하늘에는 무수한 별이 빛나고 있었다.",
+        "translationTarget": "무수한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551960-1",
+    "wordId": "lex-jmdict-1551960",
+    "version": 1,
+    "meaning": "줄여 쓰다·줄이다",
+    "hint": "긴 이름이나 내용을 일부 생략해 짧게 만들어요.",
+    "confusions": [
+      {
+        "japanese": "詳しく述べる",
+        "distinction": "말이나 이름을 짧게 줄이는 것과 자세히 설명하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551960-1-ex-1",
+        "version": 1,
+        "before": "この団体の名前は長いので、頭文字だけに",
+        "answer": "略して",
+        "after": "います。",
+        "reading": "りゃくして",
+        "translation": "이 단체의 이름은 길어서 머리글자만으로 줄여 쓰고 있습니다.",
+        "translationTarget": "줄여 쓰고",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533560-1",
+    "wordId": "lex-jmdict-1533560",
+    "version": 1,
+    "meaning": "귀찮다",
+    "hint": "수고나 절차가 많아 하기 싫은 느낌이 드는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "手軽",
+        "distinction": "수고가 많아 싫은 느낌과 간단하게 할 수 있는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533560-1-ex-1",
+        "version": 1,
+        "before": "入力し直すのは",
+        "answer": "面倒くさい",
+        "after": "が、間違ったままにはできない。",
+        "reading": "めんどくさい",
+        "translation": "다시 입력하는 것은 귀찮지만 틀린 채로 둘 수는 없다.",
+        "translationTarget": "귀찮지만",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1277460-1",
+    "wordId": "lex-jmdict-1277460",
+    "version": 1,
+    "meaning": "호불호·편식",
+    "hint": "무엇을 좋아하고 싫어하는 개인의 취향",
+    "confusions": [
+      {
+        "japanese": "優劣",
+        "distinction": "개인의 선호와 어느 쪽이 더 낫거나 못한지의 비교를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1277460-1-ex-1",
+        "version": 1,
+        "before": "食べ物の",
+        "answer": "好き嫌い",
+        "after": "が少ないので、旅行先でも困らない。",
+        "reading": "すききらい",
+        "translation": "음식 호불호가 적어서 여행지에서도 곤란하지 않다.",
+        "translationTarget": "호불호",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1505370-1",
+    "wordId": "lex-jmdict-1505370",
+    "version": 1,
+    "meaning": "문어, 문어체 언어",
+    "hint": "일상 구어와 구별되는 글의 언어·전통 문법입니다.",
+    "confusions": [
+      {
+        "japanese": "口語",
+        "distinction": "文語는 글의 언어·전통 문법이고 口語는 일상 말의 언어이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1505370-1-ex-1",
+        "version": 1,
+        "before": "古い詩には",
+        "answer": "文語",
+        "after": "の表現が多く、注釈を頼りに読んだ。",
+        "reading": "ぶんご",
+        "translation": "옛 시에는 문어 표현이 많아 주석을 참고해 읽었다.",
+        "translationTarget": "문어",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

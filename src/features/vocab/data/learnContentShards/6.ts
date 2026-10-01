@@ -920,6 +920,454 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1435540-1",
+    "wordId": "lex-jmdict-1435540",
+    "version": 1,
+    "meaning": "정기 휴일",
+    "hint": "가게·기관이 정기적으로 영업을 쉬는 날입니다.",
+    "confusions": [
+      {
+        "japanese": "祝日",
+        "distinction": "定休日는 정해진 영업 휴일이고 祝日는 국가의 공휴일이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1435540-1-ex-1",
+        "version": 1,
+        "before": "パン屋の",
+        "answer": "定休日",
+        "after": "は、毎週水曜日です。",
+        "reading": "ていきゅうび",
+        "translation": "빵집의 정기 휴일은 매주 수요일입니다.",
+        "translationTarget": "정기 휴일",
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254240-1",
+    "wordId": "lex-jmdict-1254240",
+    "version": 1,
+    "meaning": "결의, 의결",
+    "hint": "회의에서 안건을 논의·표결하여 결정하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "決心",
+        "distinction": "決議는 회의체의 공식 결정이고 決心는 개인의 마음속 결심이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254240-1-ex-1",
+        "version": 1,
+        "before": "総会では、会費の改定について",
+        "answer": "決議",
+        "after": "を行った。",
+        "reading": "けつぎ",
+        "translation": "총회에서는 회비 개정에 대해 의결했다.",
+        "translationTarget": "의결",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1285390-1",
+    "wordId": "lex-jmdict-1285390",
+    "version": 1,
+    "meaning": "합류",
+    "hint": "따로 움직이던 사람·흐름이 하나로 모이는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "分岐",
+        "distinction": "合流는 흐름이 하나로 모임이고 分岐는 여러 갈래로 나뉨이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1285390-1-ex-1",
+        "version": 1,
+        "before": "駅で待っている友人と",
+        "answer": "合流",
+        "after": "してから、会場へ向かった。",
+        "reading": "ごうりゅう",
+        "translation": "역에서 기다리는 친구와 합류한 뒤 행사장으로 향했다.",
+        "translationTarget": "합류",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1103270-1",
+    "wordId": "lex-jmdict-1103270",
+    "version": 1,
+    "meaning": "팬티·속바지",
+    "hint": "하반신에 속옷으로 입는 짧은 옷",
+    "confusions": [
+      {
+        "japanese": "ズボン",
+        "distinction": "여기서는 속옷인 팬티를 뜻한다. 이 표현은 겉옷 바지도 가리키므로 문맥으로 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1103270-1-ex-1",
+        "version": 1,
+        "before": "旅行用に、着替えの",
+        "answer": "パンツ",
+        "after": "を三枚入れた。",
+        "reading": "パンツ",
+        "translation": "여행용으로 갈아입을 팬티를 세 장 넣었다.",
+        "translationTarget": "팬티",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278130-1",
+    "wordId": "lex-jmdict-1278130",
+    "version": 1,
+    "meaning": "공사",
+    "hint": "건물이나 도로 등을 만들거나 고치는 작업",
+    "confusions": [
+      {
+        "japanese": "設計",
+        "distinction": "실제로 만들고 고치는 작업과 미리 구조를 계획하는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278130-1-ex-1",
+        "version": 1,
+        "before": "道路の",
+        "answer": "工事",
+        "after": "が終わるまで、このバス停は使えません。",
+        "reading": "こうじ",
+        "translation": "도로 공사가 끝날 때까지 이 버스 정류장은 사용할 수 없습니다.",
+        "translationTarget": "공사",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1498080-1",
+    "wordId": "lex-jmdict-1498080",
+    "version": 1,
+    "meaning": "부채",
+    "hint": "개인·조직이 다른 사람에게 갚아야 할 빚입니다.",
+    "confusions": [
+      {
+        "japanese": "資産",
+        "distinction": "負債는 갚아야 하는 빚이고 資産는 가진 경제적 가치이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1498080-1-ex-1",
+        "version": 1,
+        "before": "会社は不要な設備を売り、",
+        "answer": "負債",
+        "after": "を減らそうとしている。",
+        "reading": "ふさい",
+        "translation": "회사는 불필요한 설비를 팔아 부채를 줄이려 하고 있다.",
+        "translationTarget": "부채",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606610-1",
+    "wordId": "lex-jmdict-1606610",
+    "version": 1,
+    "meaning": "젊어 보이다·젊음이 넘치다",
+    "hint": "실제 나이와 관계없이 모습이나 기운이 젊게 느껴져요.",
+    "confusions": [
+      {
+        "japanese": "年老いた",
+        "distinction": "젊은 모습과 기운이 느껴지는 것과 노쇠한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606610-1-ex-1",
+        "version": 1,
+        "before": "祖母は歩く姿が",
+        "answer": "若々しくて",
+        "after": "、年齢を聞くと驚かれる。",
+        "reading": "わかわかしくて",
+        "translation": "할머니는 걷는 모습이 젊어 보여서 나이를 들으면 다들 놀란다.",
+        "translationTarget": "젊어 보여서",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527830-1",
+    "wordId": "lex-jmdict-1527830",
+    "version": 1,
+    "meaning": "미정",
+    "hint": "아직 결정되지 않았습니다.",
+    "confusions": [
+      {
+        "japanese": "決定",
+        "distinction": "未定는 아직 정하지 않음이고 決定는 정함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527830-1-ex-1",
+        "version": 1,
+        "before": "次の開催日は",
+        "answer": "未定",
+        "after": "ですが、決まり次第お知らせします。",
+        "reading": "みてい",
+        "translation": "다음 개최일은 미정이지만 정해지는 대로 알려 드리겠습니다.",
+        "translationTarget": "미정",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1419230-1",
+    "wordId": "lex-jmdict-1419230",
+    "version": 1,
+    "meaning": "단결",
+    "hint": "사람들이 같은 목적을 향해 힘을 합칩니다.",
+    "confusions": [
+      {
+        "japanese": "分裂",
+        "distinction": "団結는 하나로 힘을 합침이고 分裂는 갈라져 나뉨이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1419230-1-ex-1",
+        "version": 1,
+        "before": "困難な時期を、社員の",
+        "answer": "団結",
+        "after": "によって乗り越えた。",
+        "reading": "だんけつ",
+        "translation": "어려운 시기를 직원들의 단결로 극복했다.",
+        "translationTarget": "단결",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1547090-1",
+    "wordId": "lex-jmdict-1547090",
+    "version": 1,
+    "meaning": "부양하다, 기르다",
+    "hint": "생활에 필요한 것을 마련하여 사람을 돌봅니다.",
+    "confusions": [
+      {
+        "japanese": "育てる",
+        "distinction": "선택한 養う는 생활을 부양함이고 育てる는 성장하도록 기름이다. 능력·습관을 기른다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1547090-1-ex-1",
+        "version": 1,
+        "before": "彼女は働きながら、二人の子どもを",
+        "answer": "養っている",
+        "after": "。",
+        "reading": "やしなっている",
+        "translation": "그녀는 일하면서 아이 둘을 부양하고 있다.",
+        "translationTarget": "부양하고 있다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1204520-1",
+    "wordId": "lex-jmdict-1204520",
+    "version": 1,
+    "meaning": "개론",
+    "hint": "학문이나 분야의 전체 내용을 간추려 소개하는 설명",
+    "confusions": [
+      {
+        "japanese": "各論",
+        "distinction": "전체를 간추린 소개와 개별 사항을 자세히 다룬 설명을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1204520-1-ex-1",
+        "version": 1,
+        "before": "初めて経済を学ぶので、まず",
+        "answer": "概論",
+        "after": "の授業を取った。",
+        "reading": "がいろん",
+        "translation": "경제를 처음 배우므로 먼저 개론 수업을 신청했다.",
+        "translationTarget": "개론",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325870-1",
+    "wordId": "lex-jmdict-1325870",
+    "version": 1,
+    "meaning": "주제",
+    "hint": "작품·논의 전체를 이끄는 중심 내용입니다.",
+    "confusions": [
+      {
+        "japanese": "題名",
+        "distinction": "主題는 중심 내용이고 題名는 작품의 제목이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325870-1-ex-1",
+        "version": 1,
+        "before": "家族のつながりを",
+        "answer": "主題",
+        "after": "にした映画を、授業で取り上げた。",
+        "reading": "しゅだい",
+        "translation": "가족의 유대를 주제로 한 영화를 수업에서 다뤘다.",
+        "translationTarget": "주제",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320950-1",
+    "wordId": "lex-jmdict-1320950",
+    "version": 1,
+    "meaning": "실업가, 사업가",
+    "hint": "사업·기업을 실제로 경영하는 사람입니다.",
+    "confusions": [
+      {
+        "japanese": "起業家",
+        "distinction": "実業家는 사업을 경영하는 사람이고 起業家는 새 사업을 일으키는 사람이다. 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320950-1-ex-1",
+        "version": 1,
+        "before": "地域出身の",
+        "answer": "実業家",
+        "after": "が、奨学金制度を設けた。",
+        "reading": "じつぎょうか",
+        "translation": "지역 출신 사업가가 장학금 제도를 마련했다.",
+        "translationTarget": "사업가",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1219980-1",
+    "wordId": "lex-jmdict-1219980",
+    "version": 1,
+    "meaning": "얼마",
+    "hint": "물건의 가격이나 돈의 금액을 묻는 말",
+    "confusions": [
+      {
+        "japanese": "いくつ",
+        "distinction": "가격이나 금액을 묻는 말과 물건의 개수를 묻는 말을 구별한다. 같은 소리의 연어알 이름은 다른 뜻이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1219980-1-ex-1",
+        "version": 1,
+        "before": "この切手は一枚",
+        "answer": "いくら",
+        "after": "ですか。",
+        "reading": "いくら",
+        "translation": "이 우표는 한 장에 얼마입니까?",
+        "translationTarget": "얼마",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

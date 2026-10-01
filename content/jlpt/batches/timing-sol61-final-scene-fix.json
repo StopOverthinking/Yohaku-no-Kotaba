@@ -1,0 +1,10 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-10-01T00:49:06.453Z",
+  "draftValidatedAt": "2026-10-01T00:50:34.419Z",
+  "measuredElapsedSeconds": 87.966,
+  "scope": "5 example-only scene revisions",
+  "pureCompositionTime": null,
+  "limitations": "Includes current editor/publication inspection, scene selection, composition, full snapshot and hash construction and validation. Independent Astra review and application excluded. No offline interval."
+}

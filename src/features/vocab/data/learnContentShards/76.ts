@@ -1032,6 +1032,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1278590-1",
+    "wordId": "lex-jmdict-1278590",
+    "version": 1,
+    "meaning": "광장",
+    "hint": "사람들이 모이거나 활동할 수 있게 트인 넓은 공간",
+    "confusions": [
+      {
+        "japanese": "路地",
+        "distinction": "넓게 트인 공간과 건물 사이의 좁은 길을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1278590-1-ex-1",
+        "version": 1,
+        "before": "噴水のある",
+        "answer": "広場",
+        "after": "で、友達と待ち合わせました。",
+        "reading": "ひろば",
+        "translation": "분수가 있는 광장에서 친구와 만나기로 했습니다.",
+        "translationTarget": "광장",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1478660-1",
+    "wordId": "lex-jmdict-1478660",
+    "version": 1,
+    "meaning": "판정",
+    "hint": "검사·기준에 따라 상태·결과를 판단합니다.",
+    "confusions": [
+      {
+        "japanese": "判決",
+        "distinction": "判定는 기준에 따른 판단 일반이고 判決는 재판의 법원 판단이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1478660-1-ex-1",
+        "version": 1,
+        "before": "写真を確認した審判が、得点を認める",
+        "answer": "判定",
+        "after": "を下した。",
+        "reading": "はんてい",
+        "translation": "사진을 확인한 심판이 득점을 인정하는 판정을 내렸다.",
+        "translationTarget": "판정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321410-1",
+    "wordId": "lex-jmdict-1321410",
+    "version": 1,
+    "meaning": "실비",
+    "hint": "실제로 든 비용입니다.",
+    "confusions": [
+      {
+        "japanese": "定価",
+        "distinction": "実費는 실제 지출한 비용이고 定価는 정해진 판매 가격이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321410-1-ex-1",
+        "version": 1,
+        "before": "交通費は、領収書に基づいて",
+        "answer": "実費",
+        "after": "を支給します。",
+        "reading": "じっぴ",
+        "translation": "교통비는 영수증에 근거해 실비를 지급합니다.",
+        "translationTarget": "실비",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1306570-1",
+    "wordId": "lex-jmdict-1306570",
+    "version": 1,
+    "meaning": "회·사시미",
+    "hint": "생선이나 해산물을 날것으로 얇게 썬 음식",
+    "confusions": [
+      {
+        "japanese": "焼き魚",
+        "distinction": "날것으로 썬 음식과 구워 익힌 생선을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1306570-1-ex-1",
+        "version": 1,
+        "before": "新鮮な魚なので、半分は",
+        "answer": "刺身",
+        "after": "にして食べた。",
+        "reading": "さしみ",
+        "translation": "신선한 생선이므로 절반은 회로 만들어 먹었다.",
+        "translationTarget": "회",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1252600-1",
+    "wordId": "lex-jmdict-1252600",
+    "version": 1,
+    "meaning": "경쾌함",
+    "hint": "움직임·소리 등이 가볍고 산뜻합니다.",
+    "confusions": [
+      {
+        "japanese": "軽率",
+        "distinction": "軽快는 가볍고 산뜻함이고 軽率는 신중하지 못함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1252600-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "軽快",
+        "after": "な音楽に合わせて、子どもたちが体を動かした。",
+        "reading": "けいかい",
+        "translation": "경쾌한 음악에 맞춰 아이들이 몸을 움직였다.",
+        "translationTarget": "경쾌한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

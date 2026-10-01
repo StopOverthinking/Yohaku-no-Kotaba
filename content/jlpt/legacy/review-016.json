@@ -508,20 +508,21 @@
   },
   {
     "wordId": "JLPTN3_478",
-    "sourceHash": "509fba72d395de1774036fa0259be6d5b53359a04f8a42e83c4ea836087a5024",
-    "proposalHash": "0a9ae746dae306499967c33baac7cb1d1ec686b7bf7e7e85033a5b49cf00cccc",
+    "sourceHash": "3aebf711b47dd28cb8484a1695c5ec54a3a4967da1d36406fff525fb20efd69b",
+    "proposalHash": "986ea657d2d0b1f55becde5a90ae31c1c914d0c03379144aa957043c7f03a73e",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no profile merge approval",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
     "method": "Independent classification review; legacy/review-summary-016.json",
-    "reviewedAt": "2026-09-30T05:32:06.878Z",
+    "reviewedAt": "2026-10-01T00:42:14.052Z",
     "notes": [
-      "바닥 의미와 N3 분류를 확인했다. 단어 뜻 마루의 재질 한정 가능성은 별도 편집 후보로 유지한다."
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준."
     ]
   },
   {

@@ -1,0 +1,625 @@
+{
+  "scope": "exact-seventeen-basic-interrogative-demonstrative-functions-only",
+  "note": "Kana function words selected using explicit JMdict IDs, not kana interjections or homophonic content nouns. Existing あの interjection exact canonical collision is explicitly retained as different-core/grammatical-function and needs root publication-path judgment; no duplicate-free claim for it. 何 uses なに before を; なん is a related separately indexed reading explained in Korean contrast.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1577100",
+      "japanese": "何",
+      "representativeReading": "なに",
+      "allDictionarySpellings": [
+        "何"
+      ],
+      "allDictionaryReadings": [
+        "なに",
+        "ナニ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "what"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "何"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1188760",
+      "japanese": "いつ",
+      "representativeReading": "いつ",
+      "allDictionarySpellings": [
+        "何時"
+      ],
+      "allDictionaryReadings": [
+        "いつ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "when",
+          "at what time",
+          "how soon"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "何時"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1577140",
+      "japanese": "どこ",
+      "representativeReading": "どこ",
+      "allDictionarySpellings": [
+        "何処",
+        "何所",
+        "何處"
+      ],
+      "allDictionaryReadings": [
+        "どこ",
+        "いずこ",
+        "いずく",
+        "いづこ",
+        "いどこ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "where",
+          "what place"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "何処"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1009290",
+      "japanese": "どれ",
+      "representativeReading": "どれ",
+      "allDictionarySpellings": [
+        "何れ"
+      ],
+      "allDictionaryReadings": [
+        "どれ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "which (of three or more)"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1008910",
+      "japanese": "どう",
+      "representativeReading": "どう",
+      "allDictionarySpellings": [
+        "如何",
+        "何う"
+      ],
+      "allDictionaryReadings": [
+        "どう"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "how",
+          "in what way",
+          "how about"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1577120",
+      "japanese": "なぜ",
+      "representativeReading": "なぜ",
+      "allDictionarySpellings": [
+        "何故"
+      ],
+      "allDictionaryReadings": [
+        "なぜ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "why",
+          "how",
+          "for what reason"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "何故"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1219980",
+      "japanese": "いくら",
+      "representativeReading": "いくら",
+      "allDictionarySpellings": [
+        "幾ら"
+      ],
+      "allDictionaryReadings": [
+        "いくら"
+      ],
+      "leadingSense": {
+        "pos": [
+          "noun (common) (futsuumeishi)",
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "how much"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "幾ら"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1219960",
+      "japanese": "いくつ",
+      "representativeReading": "いくつ",
+      "allDictionarySpellings": [
+        "幾つ"
+      ],
+      "allDictionaryReadings": [
+        "いくつ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "adverb (fukushi)"
+        ],
+        "glosses": [
+          "how many"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N3"
+        ],
+        "matchedForms": [
+          "幾つ"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1628530",
+      "japanese": "これ",
+      "representativeReading": "これ",
+      "allDictionarySpellings": [
+        "此れ",
+        "是",
+        "之",
+        "維",
+        "惟",
+        "此",
+        "是れ",
+        "之れ"
+      ],
+      "allDictionaryReadings": [
+        "これ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "this",
+          "this one"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "此れ"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1006970",
+      "japanese": "それ",
+      "representativeReading": "それ",
+      "allDictionarySpellings": [
+        "其れ",
+        "其"
+      ],
+      "allDictionaryReadings": [
+        "それ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "that",
+          "it"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "其れ"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1000580",
+      "japanese": "あれ",
+      "representativeReading": "あれ",
+      "allDictionarySpellings": [
+        "彼",
+        "彼れ"
+      ],
+      "allDictionaryReadings": [
+        "あれ",
+        "アレ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "that",
+          "that thing"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1288810",
+      "japanese": "ここ",
+      "representativeReading": "ここ",
+      "allDictionarySpellings": [
+        "此処",
+        "此所",
+        "是",
+        "茲",
+        "爰"
+      ],
+      "allDictionaryReadings": [
+        "ここ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "here",
+          "this place"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1006670",
+      "japanese": "そこ",
+      "representativeReading": "そこ",
+      "allDictionarySpellings": [
+        "其処",
+        "其所"
+      ],
+      "allDictionaryReadings": [
+        "そこ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "there (place relatively near listener)"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "其処"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "JLPTN3_386",
+          "japanese": "底",
+          "reading": "そこ",
+          "meaning": null
+        },
+        {
+          "id": "JLPTN3_386",
+          "japanese": "底",
+          "reading": "そこ",
+          "meaning": "바닥"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1000320",
+      "japanese": "あそこ",
+      "representativeReading": "あそこ",
+      "allDictionarySpellings": [
+        "彼処",
+        "彼所"
+      ],
+      "allDictionaryReadings": [
+        "あそこ",
+        "あすこ",
+        "かしこ",
+        "アソコ",
+        "あしこ"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pronoun"
+        ],
+        "glosses": [
+          "there",
+          "over there",
+          "that place",
+          "yonder",
+          "you-know-where"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "彼処"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1582920",
+      "japanese": "この",
+      "representativeReading": "この",
+      "allDictionarySpellings": [
+        "此の",
+        "斯の"
+      ],
+      "allDictionaryReadings": [
+        "この",
+        "こん"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pre-noun adjectival (rentaishi)"
+        ],
+        "glosses": [
+          "this"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "此の"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": []
+    },
+    {
+      "dictionaryId": "jmdict-1006830",
+      "japanese": "その",
+      "representativeReading": "その",
+      "allDictionarySpellings": [
+        "其の"
+      ],
+      "allDictionaryReadings": [
+        "その",
+        "そん"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pre-noun adjectival (rentaishi)"
+        ],
+        "glosses": [
+          "that",
+          "the"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [],
+        "matchedForms": []
+      },
+      "exactAlternativeFormReadingCollisions": [],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "lex-jmdict-1406660",
+          "japanese": "損",
+          "reading": "そん",
+          "meaning": "손해, 불이익"
+        },
+        {
+          "id": "jmdict-1406660",
+          "japanese": "損",
+          "reading": "そん",
+          "meaning": "손해, 불이익"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1000420",
+      "japanese": "あの",
+      "representativeReading": "あの",
+      "allDictionarySpellings": [
+        "彼の"
+      ],
+      "allDictionaryReadings": [
+        "あの",
+        "あん"
+      ],
+      "leadingSense": {
+        "pos": [
+          "pre-noun adjectival (rentaishi)"
+        ],
+        "glosses": [
+          "that",
+          "those",
+          "the"
+        ],
+        "restrictedSpellings": [],
+        "restrictedReadings": []
+      },
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "彼の"
+        ]
+      },
+      "exactAlternativeFormReadingCollisions": [
+        {
+          "japanese": "あの",
+          "reading": "あの"
+        }
+      ],
+      "sameReadingDifferentSpellings": [
+        {
+          "id": "lex-jmdict-1154770",
+          "japanese": "案",
+          "reading": "あん",
+          "meaning": "안, 제안·초안"
+        },
+        {
+          "id": "jmdict-1154770",
+          "japanese": "案",
+          "reading": "あん",
+          "meaning": "안, 제안·초안"
+        }
+      ]
+    }
+  ]
+}

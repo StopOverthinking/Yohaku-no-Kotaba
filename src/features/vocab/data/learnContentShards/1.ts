@@ -1828,6 +1828,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599900-1",
+    "wordId": "lex-jmdict-1599900",
+    "version": 1,
+    "meaning": "짊어지다, 맡다",
+    "hint": "역할·책임을 자신의 몫으로 지고 수행합니다.",
+    "confusions": [
+      {
+        "japanese": "背負う",
+        "distinction": "선택한 担う는 역할·책임을 맡음이고 背負う는 등에 지거나 책임을 짊어짐에 쓴다. 실제로 어깨에 메는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599900-1-ex-1",
+        "version": 1,
+        "before": "若い世代が、地域の祭りを支える役割を",
+        "answer": "担っている",
+        "after": "。",
+        "reading": "になっている",
+        "translation": "젊은 세대가 지역 축제를 뒷받침하는 역할을 맡고 있다.",
+        "translationTarget": "맡고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1299970-1",
+    "wordId": "lex-jmdict-1299970",
+    "version": 1,
+    "meaning": "삼각형·삼각",
+    "hint": "세 변과 세 각을 가진 모양",
+    "confusions": [
+      {
+        "japanese": "四角",
+        "distinction": "세 변의 모양과 네 변의 모양을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1299970-1-ex-1",
+        "version": 1,
+        "before": "紙を",
+        "answer": "三角",
+        "after": "に折って、封筒の目印にしました。",
+        "reading": "さんかく",
+        "translation": "종이를 삼각형으로 접어 봉투의 표시로 삼았습니다.",
+        "translationTarget": "삼각형",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1597300-1",
+    "wordId": "lex-jmdict-1597300",
+    "version": 1,
+    "meaning": "단편",
+    "hint": "분량이 짧은 이야기나 영상 작품",
+    "confusions": [
+      {
+        "japanese": "長編",
+        "distinction": "짧은 분량의 작품과 긴 분량의 작품을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1597300-1-ex-1",
+        "version": 1,
+        "before": "寝る前に読める",
+        "answer": "短編",
+        "after": "を、図書館で借りてきた。",
+        "reading": "たんぺん",
+        "translation": "잠들기 전에 읽을 수 있는 단편을 도서관에서 빌려 왔다.",
+        "translationTarget": "단편",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560650-1",
+    "wordId": "lex-jmdict-1560650",
+    "version": 1,
+    "meaning": "노력, 수고",
+    "hint": "어떤 일을 해내는 데 드는 신체·정신의 힘입니다.",
+    "confusions": [
+      {
+        "japanese": "効率",
+        "distinction": "労力는 투입하는 힘·수고이고 効率는 투입에 비한 성과 비율이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560650-1-ex-1",
+        "version": 1,
+        "before": "自動化によって、入力にかかる",
+        "answer": "労力",
+        "after": "を減らせた。",
+        "reading": "ろうりょく",
+        "translation": "자동화로 입력에 드는 수고를 줄일 수 있었다.",
+        "translationTarget": "수고",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1409560-1",
+    "wordId": "lex-jmdict-1409560",
+    "version": 1,
+    "meaning": "부피",
+    "hint": "입체 물체가 공간에서 차지하는 크기",
+    "confusions": [
+      {
+        "japanese": "面積",
+        "distinction": "입체가 차지하는 크기와 평면의 넓이를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1409560-1-ex-1",
+        "version": 1,
+        "before": "形が変わっても、粘土の",
+        "answer": "体積",
+        "after": "は同じです。",
+        "reading": "たいせき",
+        "translation": "모양이 바뀌어도 점토의 부피는 같습니다.",
+        "translationTarget": "부피",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1342490-1",
+    "wordId": "lex-jmdict-1342490",
+    "version": 1,
+    "meaning": "처분, 정리하여 버림",
+    "hint": "필요 없는 물건 등을 정리하여 버리거나 내놓습니다.",
+    "confusions": [
+      {
+        "japanese": "保管",
+        "distinction": "선택한 処分는 물건을 정리해 치움이고 保管는 안전하게 둠이다. 징계·행정 처분이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1342490-1-ex-1",
+        "version": 1,
+        "before": "引っ越しを機に、使わなくなった家具を",
+        "answer": "処分",
+        "after": "した。",
+        "reading": "しょぶん",
+        "translation": "이사를 계기로 쓰지 않게 된 가구를 처분했다.",
+        "translationTarget": "처분",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455370-1",
+    "wordId": "lex-jmdict-1455370",
+    "version": 1,
+    "meaning": "특유함",
+    "hint": "어떤 대상에만 특별히 있는 성질입니다.",
+    "confusions": [
+      {
+        "japanese": "共通",
+        "distinction": "特有는 대상 특유의 성질이고 共通는 여러 대상에 같은 성질이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455370-1-ex-1",
+        "version": 1,
+        "before": "この木には、ほかの木にはない",
+        "answer": "特有",
+        "after": "の香りがある。",
+        "reading": "とくゆう",
+        "translation": "이 나무에는 다른 나무에 없는 특유의 향이 있다.",
+        "translationTarget": "특유의",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554200-1",
+    "wordId": "lex-jmdict-1554200",
+    "version": 1,
+    "meaning": "견디다, 버티다",
+    "hint": "어려움·고통을 참고 넘깁니다.",
+    "confusions": [
+      {
+        "japanese": "耐える",
+        "distinction": "선택한 凌ぐ는 어려운 시기를 버티어 넘김이고 耐える는 부담을 견딤 일반이다. 능력·수준이 능가한다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554200-1-ex-1",
+        "version": 1,
+        "before": "充電式の小さな扇風機で暑さを",
+        "answer": "凌ぎ",
+        "after": "ながら、停電の復旧を待った。",
+        "reading": "しのぎ",
+        "translation": "작은 충전식 선풍기로 더위를 견디면서 정전 복구를 기다렸다.",
+        "translationTarget": "견디면서",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514990-1",
+    "wordId": "lex-jmdict-1514990",
+    "version": 1,
+    "meaning": "어머니",
+    "hint": "남에게 자기 어머니에 대해 말할 때 쓰는 말",
+    "confusions": [
+      {
+        "japanese": "お母さん",
+        "distinction": "자기 어머니를 남에게 말하는 담담한 표현과 어머니를 부르거나 남의 어머니를 높이는 표현을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514990-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "母",
+        "after": "と一緒にスーパーへ行きます。",
+        "reading": "はは",
+        "translation": "어머니와 함께 슈퍼마켓에 갑니다.",
+        "translationTarget": "어머니",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

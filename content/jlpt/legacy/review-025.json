@@ -37,20 +37,21 @@
   },
   {
     "wordId": "AbsoluteVerb_101",
-    "sourceHash": "e8fd75e8d1c0ea1049de1642147c280ae6ec262082bd84329bc2d1788b425c1c",
-    "proposalHash": "c1332c6d095d22a7f67fb4fa93b5d5727d4d780189eb2bcf9ab2c160df6cf9ee",
+    "sourceHash": "b88cfd98d4051dbc39d417d5fa9d7e90fecb186576ead256c1913f69e089ab19",
+    "proposalHash": "2797bd0c2b15d907c271ee898abde51758bcee385e769f78769180dec8da306f",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-025.json",
-    "reviewedAt": "2026-09-30T06:17:16.305Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "제출하는 N5 용법은 맞으나 직접 건네는 방식과 대조한 힌트는 참조 게시 전 명료화 후보이다."
+      "서류 제출 기존 용법과 가방에서 부채를 꺼내는 새 기본 용법 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
     ]
   },
   {

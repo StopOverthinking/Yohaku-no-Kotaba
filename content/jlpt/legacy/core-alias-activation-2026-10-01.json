@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "activatedAt": "2026-10-01T00:37:24.076Z",
+  "scope": "mechanical-activation-of-independently-reviewed-equivalent-cores",
+  "previousActiveIds": [
+    "lex-jmdict-1501350"
+  ],
+  "addedActiveIds": [
+    "handmade_119",
+    "handmade_118",
+    "handmade_99",
+    "JLPTN3_83",
+    "JLPTN3_23",
+    "JLPTN3_34",
+    "JLPTN3_33",
+    "handmade_50",
+    "handmade_15"
+  ],
+  "priorReviewsHash": "c7087f28ba8c28144659d03613bb970d8983aa820d54be4aff0a2c064f703596",
+  "reviewedSourceHashes": [
+    {
+      "representativeWordId": "handmade_119",
+      "members": [
+        {
+          "wordId": "handmade_119",
+          "senseId": "sense-handmade_119-1",
+          "version": 1,
+          "sourceHash": "d194b8584b53891f4f7e9516ea5cf0cc6629295414057bc5cfbe58fe5f5f9053",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-handmade_119-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-handmade_119-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_256",
+          "senseId": "sense-AbsoluteVerb_256-1",
+          "version": 1,
+          "sourceHash": "ad72fce9806fe60db1a92166c6cc690323f9c1442f3287318396aad9d3703e71",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_256-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_256-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "handmade_118",
+      "members": [
+        {
+          "wordId": "handmade_118",
+          "senseId": "sense-handmade_118-1",
+          "version": 1,
+          "sourceHash": "3d310423838c1631c284ff41d596946aa39361e6b68d7d786518dc2562535d53",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-handmade_118-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-handmade_118-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_258",
+          "senseId": "sense-AbsoluteVerb_258-1",
+          "version": 1,
+          "sourceHash": "ebeaa6ebb000ae20b640ea5f13d30f8e703a9a27980e8f2d8cfb291e47424a66",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_258-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_258-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "handmade_99",
+      "members": [
+        {
+          "wordId": "handmade_99",
+          "senseId": "sense-handmade_99-1",
+          "version": 1,
+          "sourceHash": "1542976aad6a41782d0e65849e52e98f532dcdc24a491cd234fde2da65c7c207",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-handmade_99-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-handmade_99-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_190",
+          "senseId": "sense-AbsoluteVerb_190-1",
+          "version": 1,
+          "sourceHash": "dce7539ecf0df8830fcc98be900fe682ba531ee3a59990103afad9d1d9fb91d1",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_190-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_190-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "JLPTN3_83",
+      "members": [
+        {
+          "wordId": "JLPTN3_83",
+          "senseId": "sense-JLPTN3_83-1",
+          "version": 1,
+          "sourceHash": "9e999b963ad5ab55a5723cfd6b4e35e8cb4a742a04fda0bcebb50879b9d4578a",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-JLPTN3_83-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-JLPTN3_83-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_39",
+          "senseId": "sense-AbsoluteVerb_39-1",
+          "version": 1,
+          "sourceHash": "a432022883b831b64b7d9fd3291b173b95c70f3d9fc07a84b3021cbf92107341",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_39-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_39-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "JLPTN3_23",
+      "members": [
+        {
+          "wordId": "JLPTN3_23",
+          "senseId": "sense-JLPTN3_23-1",
+          "version": 1,
+          "sourceHash": "1a96d5339eade92f9bcddb60b4e0840f868b57cde71725874e0017d508eec8fa",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-JLPTN3_23-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-JLPTN3_23-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_228",
+          "senseId": "sense-AbsoluteVerb_228-1",
+          "version": 1,
+          "sourceHash": "d54dc3bdd580d9e56ee8c41d5d74cab88581ccf8d2f20ba6c7255cfebc82c061",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_228-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_228-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "JLPTN3_34",
+      "members": [
+        {
+          "wordId": "JLPTN3_34",
+          "senseId": "sense-JLPTN3_34-1",
+          "version": 1,
+          "sourceHash": "38fe91a74801540bdb34e227a66c9b82561477e4a6ac1fefded036d35f76a985",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-JLPTN3_34-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-JLPTN3_34-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_421",
+          "senseId": "sense-AbsoluteVerb_421-1",
+          "version": 1,
+          "sourceHash": "c104945ea4bc9ff6a27c5b0b954879c258fd56aaa1ca3869f0b7d4ba5a7e2a67",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_421-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_421-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "JLPTN3_33",
+      "members": [
+        {
+          "wordId": "JLPTN3_33",
+          "senseId": "sense-JLPTN3_33-1",
+          "version": 1,
+          "sourceHash": "7158c1a0e19eb54f150d5e18e66b62960f78f85e540ae781b12d001a72c295eb",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-JLPTN3_33-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-JLPTN3_33-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_422",
+          "senseId": "sense-AbsoluteVerb_422-1",
+          "version": 1,
+          "sourceHash": "932739d7e8aefd38afdb77709d3af774e87a47f1ae7a535835812ba9b9607d3d",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_422-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_422-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "handmade_50",
+      "members": [
+        {
+          "wordId": "handmade_50",
+          "senseId": "sense-handmade_50-1",
+          "version": 1,
+          "sourceHash": "d10cf4b867e2be3492a940c8faab70ad2689381c78175f8ff95bc40efe460b15",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-handmade_50-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-handmade_50-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_646",
+          "senseId": "sense-AbsoluteVerb_646-1",
+          "version": 1,
+          "sourceHash": "4da4572f9a753057f1a0c28f8d4031dfee855584fc6f208e9e7cc41974c79107",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_646-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_646-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "representativeWordId": "handmade_15",
+      "members": [
+        {
+          "wordId": "handmade_15",
+          "senseId": "sense-handmade_15-1",
+          "version": 1,
+          "sourceHash": "49e01555a54a8a22ebfc1bec786081092b0b8ee62ed093a5ba4f5de83342cc58",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-handmade_15-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-handmade_15-1-ex-2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "wordId": "AbsoluteVerb_640",
+          "senseId": "sense-AbsoluteVerb_640-1",
+          "version": 1,
+          "sourceHash": "5fc1e03373e9a7e5b1e086cfbee33d847533d2529c22c9ea8a51b40e854c6cb2",
+          "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+          "exampleVersions": [
+            {
+              "exampleId": "sense-AbsoluteVerb_640-1-ex-1",
+              "version": 1
+            },
+            {
+              "exampleId": "sense-AbsoluteVerb_640-1-ex-2",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "explicitCandidateLinks": [
+    {
+      "id": "candidate-core-handmade_50",
+      "dictionaryId": "jmdict-1512670",
+      "wordIds": [
+        "handmade_50",
+        "AbsoluteVerb_646"
+      ],
+      "reviewHash": "e2b47218d216a98a7c4b2cf283998b6c561bc79e57c1629ea61a0869c0074b3c"
+    },
+    {
+      "id": "candidate-core-handmade_15",
+      "dictionaryId": "jmdict-1399790",
+      "wordIds": [
+        "handmade_15",
+        "AbsoluteVerb_640"
+      ],
+      "reviewHash": "d104e9d99d1eaadccc286ded8a2b1f8a03f73ddef7bdd04a7d9c3ddb0d91c89b"
+    }
+  ],
+  "verified": {
+    "fullCurrentSourceHashes": true,
+    "oneSensePerMember": true,
+    "disjointGroups": true,
+    "priorGroupUnchanged": true,
+    "originalsUnchanged": true,
+    "profileTransferPolicy": "existing-conservative-migration-with-original-archives",
+    "independentLevelReferenceStillRequired": true
+  }
+}

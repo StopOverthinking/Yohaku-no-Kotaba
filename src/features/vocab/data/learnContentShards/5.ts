@@ -1380,6 +1380,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1548380-1",
+    "wordId": "lex-jmdict-1548380",
+    "version": 1,
+    "meaning": "믿음직하다",
+    "hint": "의지하면 잘 해낼 것 같아 마음이 놓이는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "不安",
+        "distinction": "의지할 수 있어 안심되는 상태와 걱정되는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1548380-1-ex-1",
+        "version": 1,
+        "before": "弟が一人で修理できるようになって、",
+        "answer": "頼もしく",
+        "after": "感じた。",
+        "reading": "たのもしく",
+        "translation": "남동생이 혼자 수리할 수 있게 되어 믿음직하게 느껴졌다.",
+        "translationTarget": "믿음직하게",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483900-1",
+    "wordId": "lex-jmdict-1483900",
+    "version": 1,
+    "meaning": "빈정거림·비꼼",
+    "hint": "상대에게 직접 말하는 대신 반대말 등으로 날카롭게 꼬집는 말",
+    "confusions": [
+      {
+        "japanese": "称賛",
+        "distinction": "돌려서 깎아내리는 말과 진심으로 칭찬하는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483900-1-ex-1",
+        "version": 1,
+        "before": "彼の言葉は褒め言葉ではなく、",
+        "answer": "皮肉",
+        "after": "だった。",
+        "reading": "ひにく",
+        "translation": "그의 말은 칭찬이 아니라 비꼼이었다.",
+        "translationTarget": "비꼼",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1507910-1",
+    "wordId": "lex-jmdict-1507910",
+    "version": 1,
+    "meaning": "평범하다",
+    "hint": "특별히 뛰어나거나 눈에 띄는 점이 없는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "非凡",
+        "distinction": "특별히 두드러지지 않는 것과 보통을 뛰어넘는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1507910-1-ex-1",
+        "version": 1,
+        "before": "何も起きない",
+        "answer": "平凡",
+        "after": "な一日が、今はありがたい。",
+        "reading": "へいぼん",
+        "translation": "아무 일도 일어나지 않는 평범한 하루가 지금은 고맙다.",
+        "translationTarget": "평범한",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396820-1",
+    "wordId": "lex-jmdict-1396820",
+    "version": 1,
+    "meaning": "조상",
+    "hint": "자신이나 한 집안보다 앞선 세대의 사람들",
+    "confusions": [
+      {
+        "japanese": "子孫",
+        "distinction": "앞선 세대의 사람들과 뒤에 태어나는 후손을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396820-1-ex-1",
+        "version": 1,
+        "before": "博物館で、私たちの",
+        "answer": "祖先",
+        "after": "が使っていた道具を見た。",
+        "reading": "そせん",
+        "translation": "박물관에서 우리의 조상이 쓰던 도구를 보았다.",
+        "translationTarget": "조상",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223430-1",
+    "wordId": "lex-jmdict-1223430",
+    "version": 1,
+    "meaning": "기명, 이름 적기",
+    "hint": "서류·투표 등에 자신의 이름을 적어 표시합니다.",
+    "confusions": [
+      {
+        "japanese": "署名",
+        "distinction": "記名는 이름을 적는 넓은 행위이고 署名는 본인이 이름을 써 의사를 확인함에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223430-1-ex-1",
+        "version": 1,
+        "before": "アンケートは",
+        "answer": "記名",
+        "after": "式なので、名前を忘れずに書いてください。",
+        "reading": "きめい",
+        "translation": "설문은 기명식이므로 이름을 잊지 말고 써 주세요.",
+        "translationTarget": "기명",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

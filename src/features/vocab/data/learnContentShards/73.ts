@@ -2108,6 +2108,134 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1341910-1",
+    "wordId": "lex-jmdict-1341910",
+    "version": 1,
+    "meaning": "순진하다·순수하다",
+    "hint": "마음이 꾸밈없고 사람을 쉽게 믿는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "計算高い",
+        "distinction": "꾸밈없이 믿는 태도와 자기 이익을 따지는 태도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1341910-1-ex-1",
+        "version": 1,
+        "before": "妹は",
+        "answer": "純情",
+        "after": "で、友達の冗談を本気にしてしまった。",
+        "reading": "じゅんじょう",
+        "translation": "여동생은 순진해서 친구의 농담을 진심으로 받아들였다.",
+        "translationTarget": "순진해서",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436360-1",
+    "wordId": "lex-jmdict-1436360",
+    "version": 1,
+    "meaning": "제공",
+    "hint": "필요한 물건·정보·서비스를 상대가 쓰도록 내놓습니다.",
+    "confusions": [
+      {
+        "japanese": "提案",
+        "distinction": "提供는 이용할 것을 내놓음이고 提案는 의견·안을 내놓음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436360-1-ex-1",
+        "version": 1,
+        "before": "この施設では、旅行者に無料の地図を",
+        "answer": "提供",
+        "after": "している。",
+        "reading": "ていきょう",
+        "translation": "이 시설에서는 여행자에게 무료 지도를 제공하고 있다.",
+        "translationTarget": "제공",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321170-1",
+    "wordId": "lex-jmdict-1321170",
+    "version": 1,
+    "meaning": "실질",
+    "hint": "겉으로 내세운 형식보다 실제 내용·효과입니다.",
+    "confusions": [
+      {
+        "japanese": "形式",
+        "distinction": "実質는 실제 내용이고 形式는 겉의 형식이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321170-1-ex-1",
+        "version": 1,
+        "before": "手数料を含めると、",
+        "answer": "実質",
+        "after": "的な値上げになる。",
+        "reading": "じっしつ",
+        "translation": "수수료를 포함하면 실질적인 가격 인상이 된다.",
+        "translationTarget": "실질",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532640-1",
+    "wordId": "lex-jmdict-1532640",
+    "version": 1,
+    "meaning": "명랑함, 밝고 활기참",
+    "hint": "성격·분위기가 밝고 쾌활합니다.",
+    "confusions": [
+      {
+        "japanese": "明瞭",
+        "distinction": "선택한 明朗는 밝고 쾌활함이고 明瞭는 뜻·소리가 분명함이다. 회계가 명확함도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532640-1-ex-1",
+        "version": 1,
+        "before": "彼の",
+        "answer": "明朗",
+        "after": "な笑い声で、部屋の雰囲気が和らいだ。",
+        "reading": "めいろう",
+        "translation": "그의 명랑한 웃음소리로 방 분위기가 누그러졌다.",
+        "translationTarget": "명랑한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

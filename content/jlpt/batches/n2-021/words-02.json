@@ -1,0 +1,86 @@
+[
+  {
+    "japanese": "更ける",
+    "reading": "ふける",
+    "type": "verb",
+    "meaning": "깊어지다·늦어지다",
+    "hint": "밤이 진행되어 늦은 시간에 이르게 돼요.",
+    "confusion": "明ける",
+    "distinction": "밤이 깊어지는 것과 밤이 끝나 밝아오는 것을 구별한다.",
+    "dictionaryId": "jmdict-1279290",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "耕す",
+    "reading": "たがやす",
+    "type": "verb",
+    "meaning": "갈다·경작하다",
+    "hint": "농작물을 심으려고 흙을 뒤집고 부드럽게 만들어요.",
+    "confusion": "植える",
+    "distinction": "땅을 갈아 준비하는 것과 식물을 심는 것을 구별한다.",
+    "dictionaryId": "jmdict-1280950",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "射す",
+    "reading": "さす",
+    "type": "verb",
+    "meaning": "비치다",
+    "hint": "햇빛 등이 어떤 곳으로 들어와 닿아요.",
+    "confusion": "照らす",
+    "distinction": "빛이 들어와 닿는 상태와 빛으로 밝히는 행동을 구별한다.",
+    "dictionaryId": "jmdict-1322170",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "縮れる",
+    "reading": "ちぢれる",
+    "type": "verb",
+    "meaning": "곱슬거리다·꼬불꼬불해지다",
+    "hint": "머리카락 등이 가늘게 말리거나 구불구불해져요.",
+    "confusion": "伸びる",
+    "distinction": "가늘게 말리는 모양과 길이가 늘어나는 변화를 구별한다.",
+    "dictionaryId": "jmdict-1337590",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "誓う",
+    "reading": "ちかう",
+    "type": "verb",
+    "meaning": "맹세하다",
+    "hint": "꼭 지키겠다는 마음으로 굳게 약속해요.",
+    "confusion": "破る",
+    "distinction": "굳게 약속하는 것과 약속을 지키지 않는 것을 구별한다.",
+    "dictionaryId": "jmdict-1381210",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "彫る",
+    "reading": "ほる",
+    "type": "verb",
+    "meaning": "새기다·조각하다",
+    "hint": "나무나 돌의 표면을 깎아 모양이나 글자를 만들어요.",
+    "confusion": "塗る",
+    "distinction": "표면을 깎아 모양을 만드는 것과 표면에 색 등을 바르는 것을 구별한다.",
+    "dictionaryId": "jmdict-1427950",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "凍える",
+    "reading": "こごえる",
+    "type": "verb",
+    "meaning": "얼어붙을 듯 춥다",
+    "hint": "심한 추위로 몸이 뻣뻣하거나 감각이 둔해져요.",
+    "confusion": "温まる",
+    "distinction": "몸이 심하게 추워 굳는 것과 따뜻해지는 것을 구별한다.",
+    "dictionaryId": "jmdict-1446180",
+    "level": "N2",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N2 권장 수준."
+  }
+]

@@ -1312,6 +1312,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1133790-1",
+    "wordId": "lex-jmdict-1133790",
+    "version": 1,
+    "meaning": "메뉴, 음식 목록",
+    "hint": "식당에서 주문할 수 있는 음식·가격을 적은 목록입니다.",
+    "confusions": [
+      {
+        "japanese": "レシピ",
+        "distinction": "선택한 メニュー는 음식 목록이고 レシピ는 조리법이다. 프로그램·서비스 구성이나 화면의 메뉴도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1133790-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "メニュー",
+        "after": "の写真を見て、このスープに決めた。",
+        "reading": "メニュー",
+        "translation": "메뉴의 사진을 보고 이 수프로 정했다.",
+        "translationTarget": "메뉴",
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1335400-1",
+    "wordId": "lex-jmdict-1335400",
+    "version": 1,
+    "meaning": "종래, 지금까지",
+    "hint": "과거부터 현재까지 이어져 온 방식·상태입니다.",
+    "confusions": [
+      {
+        "japanese": "今後",
+        "distinction": "従来는 지금까지이고 今後는 앞으로이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1335400-1-ex-1",
+        "version": 1,
+        "before": "新しい装置は、",
+        "answer": "従来",
+        "after": "の製品より消費電力が少ない。",
+        "reading": "じゅうらい",
+        "translation": "새 장치는 종래 제품보다 소비 전력이 적다.",
+        "translationTarget": "종래",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1532810-1",
+    "wordId": "lex-jmdict-1532810",
+    "version": 1,
+    "meaning": "각자·제각기",
+    "hint": "여러 사람이 저마다 따로 행동하는 모습",
+    "confusions": [
+      {
+        "japanese": "一緒に",
+        "distinction": "각 사람이 따로 하는 것과 함께 하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1532810-1-ex-1",
+        "version": 1,
+        "before": "説明が終わると、参加者は",
+        "answer": "銘々",
+        "after": "の机に戻った。",
+        "reading": "めいめい",
+        "translation": "설명이 끝나자 참가자들은 각자의 책상으로 돌아갔다.",
+        "translationTarget": "각자의",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1339620-1",
+    "wordId": "lex-jmdict-1339620",
+    "version": 1,
+    "meaning": "출제",
+    "hint": "시험·퀴즈에서 풀어야 할 문제를 냅니다.",
+    "confusions": [
+      {
+        "japanese": "解答",
+        "distinction": "出題는 문제를 냄이고 解答는 문제의 답을 작성함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1339620-1-ex-1",
+        "version": 1,
+        "before": "今回の試験では、文章を要約する問題が",
+        "answer": "出題",
+        "after": "された。",
+        "reading": "しゅつだい",
+        "translation": "이번 시험에서는 글을 요약하는 문제가 출제되었다.",
+        "translationTarget": "출제",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477090-1",
+    "wordId": "lex-jmdict-1477090",
+    "version": 1,
+    "meaning": "화분·대야형 그릇",
+    "hint": "식물을 심거나 무엇을 담는 깊은 용기",
+    "confusions": [
+      {
+        "japanese": "皿",
+        "distinction": "깊게 담는 용기와 넓고 얕은 접시를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477090-1-ex-1",
+        "version": 1,
+        "before": "根が伸びたので、一回り大きい",
+        "answer": "鉢",
+        "after": "に植え替えた。",
+        "reading": "はち",
+        "translation": "뿌리가 자라서 한 치수 큰 화분에 옮겨 심었다.",
+        "translationTarget": "화분",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365870-1",
+    "wordId": "lex-jmdict-1365870",
+    "version": 1,
+    "meaning": "간신히, 가까스로",
+    "hint": "어려움을 겪고 아주 작은 여유로 겨우 가능합니다.",
+    "confusions": [
+      {
+        "japanese": "幸い",
+        "distinction": "辛うじて는 겨우 해냄이고 幸い는 다행스러운 상황이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365870-1-ex-1",
+        "version": 1,
+        "before": "最後まで粘り、",
+        "answer": "辛うじて",
+        "after": "決勝への出場権を得た。",
+        "reading": "かろうじて",
+        "translation": "끝까지 버텨 간신히 결승 출전권을 얻었다.",
+        "translationTarget": "간신히",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385050-1",
+    "wordId": "lex-jmdict-1385050",
+    "version": 1,
+    "meaning": "절실함",
+    "hint": "자신에게 매우 중요하여 진심으로 강하게 느껴집니다.",
+    "confusions": [
+      {
+        "japanese": "真剣",
+        "distinction": "切実는 필요·문제가 절박하게 와닿음이고 真剣는 진지한 태도이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385050-1-ex-1",
+        "version": 1,
+        "before": "介護を支える制度は、家族にとって",
+        "answer": "切実",
+        "after": "な問題だ。",
+        "reading": "せつじつ",
+        "translation": "간병을 지원하는 제도는 가족에게 절실한 문제이다.",
+        "translationTarget": "절실한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

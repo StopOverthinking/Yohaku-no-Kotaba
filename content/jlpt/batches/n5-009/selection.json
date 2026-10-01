@@ -1,0 +1,105 @@
+{
+  "scope": "practical basic gaps; all alternate spelling/reading current exact combinations checked",
+  "selected": [
+    "jmdict-1588880",
+    "jmdict-1587610",
+    "jmdict-2013900"
+  ],
+  "excluded": [
+    {
+      "dictionaryId": "jmdict-1021180",
+      "japanese": "イクラ",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1078810",
+      "japanese": "テープレコーダー",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1109380",
+      "japanese": "フィルム",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1144940",
+      "japanese": "レコード",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1315140",
+      "japanese": "字引",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1472740",
+      "japanese": "背広",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1516925",
+      "japanese": "方",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1601340",
+      "japanese": "晩御飯",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2136180",
+      "japanese": "小さな",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2220600",
+      "japanese": "お風呂",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2842390",
+      "japanese": "私",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1299685",
+      "japanese": "お皿",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-1329015",
+      "japanese": "お酒",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2216120",
+      "japanese": "これ",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2216210",
+      "japanese": "それ",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2255350",
+      "japanese": "どう",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2546180",
+      "japanese": "だんだん",
+      "reason": "해당 사전은 초급 목록과 같은 표기의 다른 뜻·다른 품사 또는 대체형이다. 초급 뜻으로 임의 바꾸지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2784220",
+      "japanese": "マッチ",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    },
+    {
+      "dictionaryId": "jmdict-2847612",
+      "japanese": "あれ",
+      "reason": "현대 실용성 또는 이미 수록된 관련 핵심어와 의미·변형 관계 검토를 우선한다. 수량을 채우려 추가하지 않는다."
+    }
+  ]
+}

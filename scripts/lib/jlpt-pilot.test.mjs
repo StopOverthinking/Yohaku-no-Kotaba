@@ -5,6 +5,30 @@ import { buildReviewedAliases } from './jlpt-aliases.mjs'
 const dictionary = [{ id: 'jmdict-1', spellings: ['学校'], readings: ['がっこう'], senses: [{ pos: ['noun'] }], proposedLevel: 'N5' }]
 const draft = '@学校|がっこう|noun|학교|수업받는 곳이에요.|教室|교실은 학교 안의 방이다.\n家から《学校》まで十分です。|がっこう|집에서 《학교》까지 십 분이에요.|10\n日曜日は《学校》に行きません。|がっこう|일요일에는 《학교》에 가지 않아요.|12\nあの建物が《学校》です。|がっこう|저 건물이 《학교》예요.|11'
 describe('editorial publication boundary', () => {
+  it('selects distinct-core duplicates without profile mapping and rejects missing, stale or overlapping peers', () => {
+    const entry = parseManuscript(draft, 'N5', dictionary)[0]
+    const word = entry.word, peer = { ...word, id: 'distinct-peer' }
+    const sense = { ...entry.sense, review: { word: true, contrast: true, diversity: true },
+      examples: entry.sense.examples.map(e => ({ ...e, status: 'reviewed' })) }
+    const peerSense = { ...sense, id: 'peer-sense', wordId: peer.id, meaning: 'A different selected core' }
+    const words = [word, peer], senses = [sense, peerSense]
+    const sourceHash = hashContent({ word, senses: [sense] })
+    const review = { wordId: word.id, level: 'N5', sourceHash,
+      scope: 'legacy-reference-publication', outcome: 'accepted', model: 'gpt-6-astra', reasoningEffort: 'high',
+      reviewedAt: '2026-10-01T00:00:00Z', notes: ['Both current cores and chosen level independently reviewed'],
+      duplicateSelection: { policy: 'distinct-core-usages-no-profile-transfer', notes: ['Original IDs and separate profiles remain'],
+        members: [{ wordId: word.id, sourceHash }, { wordId: peer.id, sourceHash: hashContent({ word: peer, senses: [peerSense] }) }] } }
+    const snapshot = hashContent({ words, senses, review })
+    expect(validateLegacyMembership([review], words, senses, words)).toEqual([{ id: word.id, level: 'N5', sourceHash }])
+    expect(hashContent({ words, senses, review })).toBe(snapshot)
+    expect(() => validateLegacyMembership([{ ...review, duplicateSelection: { ...review.duplicateSelection, members: [review.duplicateSelection.members[0]] } }], words, senses, words)).toThrow('peer selection')
+    expect(() => validateLegacyMembership([review], words, [sense, { ...peerSense, hint: 'changed' }], words)).toThrow('peer selection')
+    expect(() => validateLegacyMembership([review], [...words, { ...peer, id: 'third' }], senses, words)).toThrow('peer selection')
+    expect(() => validateLegacyMembership([review], words, senses, words, [{ id: 'active', representativeWordId: peer.id, members: [{ wordId: peer.id }] }])).toThrow('peer selection')
+    expect(() => validateLegacyMembership([review], words, senses, [word])).toThrow('peer selection')
+    expect(() => validateLegacyMembership([review, { ...review, wordId: peer.id, sourceHash: review.duplicateSelection.members[1].sourceHash }], words, senses, words)).toThrow('alias group')
+    expect(() => validateLegacyMembership([{ ...review, aliasGroupId: 'fake' }], words, senses, words)).toThrow('peer selection')
+  })
   it('publishes only the separately approved representative of a fully reviewed active duplicate group', () => {
     const entry = parseManuscript(draft, 'N5', dictionary)[0]
     const word = entry.word, alias = { ...word, id: 'old-alias' }

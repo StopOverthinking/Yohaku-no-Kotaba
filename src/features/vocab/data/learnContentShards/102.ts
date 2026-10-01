@@ -1552,6 +1552,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541690-1",
+    "wordId": "lex-jmdict-1541690",
+    "version": 1,
+    "meaning": "유료",
+    "hint": "이용하려면 돈을 내야 하는 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "無料",
+        "distinction": "선택한 有料는 유료이고 無料는 무료이다. 유료 도로를 가리키는 별도 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541690-1-ex-1",
+        "version": 1,
+        "before": "入場は無料ですが、駐車場は",
+        "answer": "有料",
+        "after": "です。",
+        "reading": "ゆうりょう",
+        "translation": "입장은 무료이지만 주차장은 유료입니다.",
+        "translationTarget": "유료",
+        "difficulty": 20,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311420-1",
+    "wordId": "lex-jmdict-1311420",
+    "version": 1,
+    "meaning": "사립",
+    "hint": "민간의 개인이나 단체가 세워 운영하는 것",
+    "confusions": [
+      {
+        "japanese": "国立",
+        "distinction": "민간이 운영하는 기관과 국가가 운영하는 기관을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311420-1-ex-1",
+        "version": 1,
+        "before": "弟は家から近い",
+        "answer": "私立",
+        "after": "高校を選びました。",
+        "reading": "しりつ",
+        "translation": "남동생은 집에서 가까운 사립 고등학교를 선택했습니다.",
+        "translationTarget": "사립",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1342820-1",
+    "wordId": "lex-jmdict-1342820",
+    "version": 1,
+    "meaning": "초순",
+    "hint": "한 달의 첫째 날부터 열째 날까지의 기간",
+    "confusions": [
+      {
+        "japanese": "下旬",
+        "distinction": "한 달의 첫 열흘과 마지막 열흘 무렵을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1342820-1-ex-1",
+        "version": 1,
+        "before": "新しい店は、十一月",
+        "answer": "初旬",
+        "after": "に開く予定です。",
+        "reading": "しょじゅん",
+        "translation": "새 가게는 십일월 초순에 열 예정입니다.",
+        "translationTarget": "초순",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333330-1",
+    "wordId": "lex-jmdict-1333330",
+    "version": 1,
+    "meaning": "덮치다, 습격하다",
+    "hint": "사람·지역 등이 갑작스러운 공격·재난을 받습니다.",
+    "confusions": [
+      {
+        "japanese": "訪れる",
+        "distinction": "襲う는 공격·재난이 덮침이고 訪れる는 방문하거나 때·상황이 찾아옴이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333330-1-ex-1",
+        "version": 1,
+        "before": "強い揺れが町を",
+        "answer": "襲い",
+        "after": "、住民は広場へ避難した。",
+        "reading": "おそい",
+        "translation": "강한 진동이 마을을 덮쳐 주민들은 광장으로 대피했다.",
+        "translationTarget": "덮쳐",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370090-1",
+    "wordId": "lex-jmdict-1370090",
+    "version": 1,
+    "meaning": "힘을 다하다, 전력을 쏟다",
+    "hint": "가능한 힘·노력을 남김없이 사용합니다.",
+    "confusions": [
+      {
+        "japanese": "尽きる",
+        "distinction": "선택한 尽くす는 힘을 다하는 타동사이고 尽きる는 자원이 바닥나는 자동사이다. 모두 써 버리는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370090-1-ex-1",
+        "version": 1,
+        "before": "選手たちは、最後の一秒まで力を",
+        "answer": "尽くした",
+        "after": "。",
+        "reading": "つくした",
+        "translation": "선수들은 마지막 1초까지 힘을 다했다.",
+        "translationTarget": "힘을 다했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596210-1",
+    "wordId": "lex-jmdict-1596210",
+    "version": 1,
+    "meaning": "맨 앞·선두",
+    "hint": "늘어선 사람이나 물건 중 가장 앞의 위치",
+    "confusions": [
+      {
+        "japanese": "最後尾",
+        "distinction": "줄의 맨 앞과 맨 뒤를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596210-1-ex-1",
+        "version": 1,
+        "before": "列の",
+        "answer": "先頭",
+        "after": "にいる人から、順に中へ入ってください。",
+        "reading": "せんとう",
+        "translation": "줄 맨 앞에 있는 사람부터 차례대로 안으로 들어가 주세요.",
+        "translationTarget": "맨 앞",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421130-1",
+    "wordId": "lex-jmdict-1421130",
+    "version": 1,
+    "meaning": "지질",
+    "hint": "땅을 이루는 암석이나 지층의 성질과 구조",
+    "confusions": [
+      {
+        "japanese": "地形",
+        "distinction": "땅의 물질적 성질과 겉으로 드러난 모양을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421130-1-ex-1",
+        "version": 1,
+        "before": "トンネルを掘る前に、山の",
+        "answer": "地質",
+        "after": "を詳しく調べた。",
+        "reading": "ちしつ",
+        "translation": "터널을 뚫기 전에 산의 지질을 자세히 조사했다.",
+        "translationTarget": "지질",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531060-1",
+    "wordId": "lex-jmdict-1531060",
+    "version": 1,
+    "meaning": "무례함",
+    "hint": "상대에 대한 예의·존중이 부족합니다.",
+    "confusions": [
+      {
+        "japanese": "失礼",
+        "distinction": "無礼와 失礼는 예의 없음이 겹친다. 無礼는 무례한 행동·태도를 강하게 평가하고 失礼는 가벼운 결례에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531060-1-ex-1",
+        "version": 1,
+        "before": "相手の話を遮るのは、",
+        "answer": "無礼",
+        "after": "な態度だと注意された。",
+        "reading": "ぶれい",
+        "translation": "상대 말을 끊는 것은 무례한 태도라고 주의를 받았다.",
+        "translationTarget": "무례한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

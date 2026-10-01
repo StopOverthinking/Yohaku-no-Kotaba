@@ -1268,6 +1268,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1464910-1",
+    "wordId": "lex-jmdict-1464910",
+    "version": 1,
+    "meaning": "일용품, 생활용품",
+    "hint": "매일의 생활에서 자주 사용하는 물건들입니다.",
+    "confusions": [
+      {
+        "japanese": "食料品",
+        "distinction": "日用品는 생활용품이고 食料品는 먹는 식료품이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1464910-1-ex-1",
+        "version": 1,
+        "before": "引っ越したばかりなので、洗剤などの",
+        "answer": "日用品",
+        "after": "を買いそろえた。",
+        "reading": "にちようひん",
+        "translation": "막 이사해서 세제 등의 생활용품을 갖추어 샀다.",
+        "translationTarget": "생활용품",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1284550-1",
+    "wordId": "lex-jmdict-1284550",
+    "version": 1,
+    "meaning": "합의",
+    "hint": "당사자들이 의논 끝에 같은 의견에 이르는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "同意",
+        "distinction": "合意는 당사자 사이 의견 일치를, 同意는 제안·의견에 찬성함을 대표한다. 의미가 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1284550-1-ex-1",
+        "version": 1,
+        "before": "長い話し合いの末、両社は新しい契約条件に",
+        "answer": "合意",
+        "after": "した。",
+        "reading": "ごうい",
+        "translation": "긴 협의 끝에 두 회사는 새 계약 조건에 합의했다.",
+        "translationTarget": "합의",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1562300-1",
+    "wordId": "lex-jmdict-1562300",
+    "version": 1,
+    "meaning": "말을 걸다",
+    "hint": "상대에게 먼저 말을 하여 대화를 시작해요.",
+    "confusions": [
+      {
+        "japanese": "答える",
+        "distinction": "먼저 대화를 시작하는 것과 질문에 대답하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1562300-1-ex-1",
+        "version": 1,
+        "before": "隣の席の人に",
+        "answer": "話しかけたら",
+        "after": "、同じ町の出身だった。",
+        "reading": "はなしかけたら",
+        "translation": "옆자리 사람에게 말을 걸었더니 같은 동네 출신이었다.",
+        "translationTarget": "말을 걸었더니",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1425540-1",
+    "wordId": "lex-jmdict-1425540",
+    "version": 1,
+    "meaning": "중립",
+    "hint": "서로 맞서는 어느 한쪽에도 치우치지 않는 입장입니다.",
+    "confusions": [
+      {
+        "japanese": "対立",
+        "distinction": "中立는 어느 편에도 치우치지 않음이고 対立는 서로 맞섬이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1425540-1-ex-1",
+        "version": 1,
+        "before": "司会者には、議論の間ずっと",
+        "answer": "中立",
+        "after": "を保つことが求められた。",
+        "reading": "ちゅうりつ",
+        "translation": "사회자에게는 논의 내내 중립을 유지하는 것이 요구되었다.",
+        "translationTarget": "중립",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454870-1",
+    "wordId": "lex-jmdict-1454870",
+    "version": 1,
+    "meaning": "특권",
+    "hint": "특정 사람·집단만 누리는 특별한 권리입니다.",
+    "confusions": [
+      {
+        "japanese": "権利",
+        "distinction": "特権는 특정 대상만의 특별한 권리이고 権利는 정당하게 누리는 권리 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454870-1-ex-1",
+        "version": 1,
+        "before": "役職に伴う",
+        "answer": "特権",
+        "after": "を、私的な目的に使ってはならない。",
+        "reading": "とっけん",
+        "translation": "직책에 따르는 특권을 개인적인 목적으로 써서는 안 된다.",
+        "translationTarget": "특권",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1544380-1",
+    "wordId": "lex-jmdict-1544380",
+    "version": 1,
+    "meaning": "여지",
+    "hint": "더 생각하거나 바꾸거나 할 수 있도록 남아 있는 가능성·공간입니다.",
+    "confusions": [
+      {
+        "japanese": "余暇",
+        "distinction": "余地는 남은 가능성·공간이고 余暇는 자유롭게 쓸 수 있는 시간이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1544380-1-ex-1",
+        "version": 1,
+        "before": "まだ改善の",
+        "answer": "余地",
+        "after": "があるので、意見を集めたい。",
+        "reading": "よち",
+        "translation": "아직 개선 여지가 있어 의견을 모으고 싶다.",
+        "translationTarget": "여지",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343310-1",
+    "wordId": "lex-jmdict-1343310",
+    "version": 1,
+    "meaning": "소속",
+    "hint": "사람이 특정 조직·집단의 일원으로 속합니다.",
+    "confusions": [
+      {
+        "japanese": "所在",
+        "distinction": "所属는 집단과의 소속 관계이고 所在는 있는 위치이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343310-1-ex-1",
+        "version": 1,
+        "before": "名札には、名前と",
+        "answer": "所属",
+        "after": "する部署が書かれている。",
+        "reading": "しょぞく",
+        "translation": "명찰에는 이름과 소속 부서가 적혀 있다.",
+        "translationTarget": "소속",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-AbsoluteVerb_12-2",
+    "wordId": "AbsoluteVerb_12",
+    "version": 1,
+    "meaning": "결석하다·결근하다",
+    "hint": "가야 할 학교나 직장에 그날 가지 않아요. 휴식하는 동작 자체보다 출석하지 않는 일에 초점이 있어요.",
+    "confusions": [
+      {
+        "japanese": "怠ける",
+        "distinction": "학교나 직장에 가지 않는 사실을 말하며 병이나 정당한 사유도 포함한다. 비교 표현은 해야 할 일을 게을리한다는 뜻이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-AbsoluteVerb_12-2-ex-1",
+        "version": 1,
+        "before": "熱が出たので、今日は学校を",
+        "answer": "休みます",
+        "after": "。",
+        "reading": "やすみます",
+        "translation": "열이 나서 오늘은 학교에 결석합니다.",
+        "translationTarget": "결석합니다",
+        "difficulty": 12,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606790-1",
+    "wordId": "lex-jmdict-1606790",
+    "version": 1,
+    "meaning": "사과하다",
+    "hint": "잘못이나 폐를 끼친 일에 미안함을 전해요.",
+    "confusions": [
+      {
+        "japanese": "責める",
+        "distinction": "자신의 잘못을 사과하는 것과 상대의 잘못을 꾸짖는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606790-1-ex-1",
+        "version": 1,
+        "before": "約束を忘れていたことを、友人に正直に",
+        "answer": "詫びた",
+        "after": "。",
+        "reading": "わびた",
+        "translation": "약속을 잊고 있었던 것을 친구에게 솔직히 사과했다.",
+        "translationTarget": "사과했다",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559720-1",
+    "wordId": "lex-jmdict-1559720",
+    "version": 1,
+    "meaning": "연일, 여러 날 계속",
+    "hint": "여러 날에 걸쳐 날마다 이어집니다.",
+    "confusions": [
+      {
+        "japanese": "毎日",
+        "distinction": "連日는 특정 일이 여러 날 계속됨을 강조하고 毎日는 매일 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559720-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "連日",
+        "after": "の猛暑で、庭の植物が弱ってきた。",
+        "reading": "れんじつ",
+        "translation": "연일 이어지는 폭염으로 정원의 식물이 약해졌다.",
+        "translationTarget": "연일",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1676,6 +1676,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1320490-1",
+    "wordId": "lex-jmdict-1320490",
+    "version": 1,
+    "meaning": "습도",
+    "hint": "공기 속에 수증기가 들어 있는 정도",
+    "confusions": [
+      {
+        "japanese": "温度",
+        "distinction": "공기의 수분 정도와 덥거나 차가운 정도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1320490-1-ex-1",
+        "version": 1,
+        "before": "雨の日は",
+        "answer": "湿度",
+        "after": "が高くて、洗濯物が乾きにくい。",
+        "reading": "しつど",
+        "translation": "비 오는 날은 습도가 높아서 빨래가 잘 마르지 않는다.",
+        "translationTarget": "습도",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1372620-1",
+    "wordId": "lex-jmdict-1372620",
+    "version": 1,
+    "meaning": "이루다, 달성하다",
+    "hint": "오랜 노력·과정을 거쳐 목표·변화를 완성합니다.",
+    "confusions": [
+      {
+        "japanese": "始める",
+        "distinction": "遂げる는 목표·변화를 이루어 냄이고 始める는 시작함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1372620-1-ex-1",
+        "version": 1,
+        "before": "小さな会社が、十年で大きな成長を",
+        "answer": "遂げた",
+        "after": "。",
+        "reading": "とげた",
+        "translation": "작은 회사가 10년 만에 큰 성장을 이루었다.",
+        "translationTarget": "이루었다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1395410-1",
+    "wordId": "lex-jmdict-1395410",
+    "version": 1,
+    "meaning": "전신, 온몸",
+    "hint": "머리부터 발까지 몸 전체입니다.",
+    "confusions": [
+      {
+        "japanese": "上半身",
+        "distinction": "全身는 몸 전체이고 上半身는 허리 위쪽 부분이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1395410-1-ex-1",
+        "version": 1,
+        "before": "長い山道を歩き続け、",
+        "answer": "全身",
+        "after": "に汗をかいた。",
+        "reading": "ぜんしん",
+        "translation": "긴 산길을 계속 걸어 온몸에 땀이 났다.",
+        "translationTarget": "온몸",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1481670-1",
+    "wordId": "lex-jmdict-1481670",
+    "version": 1,
+    "meaning": "번영",
+    "hint": "사회·산업 등이 활발해지고 풍요로워집니다.",
+    "confusions": [
+      {
+        "japanese": "繁盛",
+        "distinction": "繁栄는 사회·산업의 번영이고 繁盛는 가게·장사의 성업에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1481670-1-ex-1",
+        "version": 1,
+        "before": "港の整備が、この町の",
+        "answer": "繁栄",
+        "after": "を支えてきた。",
+        "reading": "はんえい",
+        "translation": "항구 정비가 이 마을의 번영을 뒷받침해 왔다.",
+        "translationTarget": "번영",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1450320-1",
+    "wordId": "lex-jmdict-1450320",
+    "version": 1,
+    "meaning": "놓아주다·도망가게 하다",
+    "hint": "붙잡힌 생물이 자유롭게 나가도록 해요.",
+    "confusions": [
+      {
+        "japanese": "捕まえる",
+        "distinction": "잡은 생물을 풀어 주는 것과 붙잡는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1450320-1-ex-1",
+        "version": 1,
+        "before": "観察が終わったので、虫を元の草むらへ",
+        "answer": "逃がした",
+        "after": "。",
+        "reading": "にがした",
+        "translation": "관찰이 끝났으므로 벌레를 원래 풀숲에 놓아주었다.",
+        "translationTarget": "놓아주었다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541710-1",
+    "wordId": "lex-jmdict-1541710",
+    "version": 1,
+    "meaning": "유력함",
+    "hint": "힘·가능성·설득력이 커서 중요하게 여겨집니다.",
+    "confusions": [
+      {
+        "japanese": "有益",
+        "distinction": "有力는 힘·가능성이 큼이고 有益는 도움이 됨이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541710-1-ex-1",
+        "version": 1,
+        "before": "複数の候補の中では、この案が最も",
+        "answer": "有力",
+        "after": "だ。",
+        "reading": "ゆうりょく",
+        "translation": "여러 후보 중에서는 이 안이 가장 유력하다.",
+        "translationTarget": "유력하다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1501390-1",
+    "wordId": "lex-jmdict-1501390",
+    "version": 1,
+    "meaning": "복사·복제",
+    "hint": "원본의 내용이나 모양을 그대로 재현해 만드는 것",
+    "confusions": [
+      {
+        "japanese": "編集",
+        "distinction": "원본과 같게 만드는 것과 내용을 수정하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1501390-1-ex-1",
+        "version": 1,
+        "before": "申請書を",
+        "answer": "複写",
+        "after": "して、一部を手元に残した。",
+        "reading": "ふくしゃ",
+        "translation": "신청서를 복사하여 한 부를 가지고 있었다.",
+        "translationTarget": "복사",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1327770-1",
+    "wordId": "lex-jmdict-1327770",
+    "version": 1,
+    "meaning": "손목",
+    "hint": "손과 팔이 연결되어 구부러지는 부분",
+    "confusions": [
+      {
+        "japanese": "足首",
+        "distinction": "손과 팔을 잇는 부분과 발과 다리를 잇는 부분을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1327770-1-ex-1",
+        "version": 1,
+        "before": "長く字を書いたら、",
+        "answer": "手首",
+        "after": "が痛くなった。",
+        "reading": "てくび",
+        "translation": "오랫동안 글씨를 썼더니 손목이 아파졌다.",
+        "translationTarget": "손목",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1537430-1",
+    "wordId": "lex-jmdict-1537430",
+    "version": 1,
+    "meaning": "야심",
+    "hint": "큰 목표·지위를 이루려는 강한 욕구입니다.",
+    "confusions": [
+      {
+        "japanese": "意欲",
+        "distinction": "野心는 큰 목표를 향한 야심이고 意欲는 하고 싶어 하는 의욕 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1537430-1-ex-1",
+        "version": 1,
+        "before": "彼は、小さな店を全国に広げる",
+        "answer": "野心",
+        "after": "を持っていた。",
+        "reading": "やしん",
+        "translation": "그는 작은 가게를 전국으로 넓힐 야심을 지니고 있었다.",
+        "translationTarget": "야심",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1577100-1",
+    "wordId": "lex-jmdict-1577100",
+    "version": 1,
+    "meaning": "무엇",
+    "hint": "사물이나 내용을 알지 못해 그 정체를 묻는 말",
+    "confusions": [
+      {
+        "japanese": "誰",
+        "distinction": "사물이나 내용을 묻는 말과 사람을 묻는 말을 구별한다. 대표 읽기는 나니이며, 난이라는 읽기도 있어 난데스카나 난지처럼 뒤에 오는 말에 따라 쓰인다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1577100-1-ex-1",
+        "version": 1,
+        "before": "夕ご飯に",
+        "answer": "何",
+        "after": "を作りましょうか。",
+        "reading": "なに",
+        "translation": "저녁밥으로 무엇을 만들까요?",
+        "translationTarget": "무엇",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1628530-1",
+    "wordId": "lex-jmdict-1628530",
+    "version": 1,
+    "meaning": "이것",
+    "hint": "말하는 사람 가까이에 있는 물건을 가리키는 말",
+    "confusions": [
+      {
+        "japanese": "この",
+        "distinction": "물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 부르는 감탄사의 뜻은 이번 용법이 아니다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1628530-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "これ",
+        "after": "を一口食べてみてください。",
+        "reading": "これ",
+        "translation": "이것을 한 입 먹어 보세요.",
+        "translationTarget": "이것",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

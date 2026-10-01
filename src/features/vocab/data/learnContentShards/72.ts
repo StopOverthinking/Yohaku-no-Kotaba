@@ -1516,6 +1516,358 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599420-1",
+    "wordId": "lex-jmdict-1599420",
+    "version": 1,
+    "meaning": "좀처럼·쉽게 (않다)",
+    "hint": "기대하거나 노력해도 일이 쉽게 이루어지지 않는 모습",
+    "confusions": [
+      {
+        "japanese": "すぐ",
+        "distinction": "쉽게 이루어지지 않는 상황과 곧바로 이루어지는 상황을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599420-1-ex-1",
+        "version": 1,
+        "before": "何度電話しても、",
+        "answer": "なかなか",
+        "after": "つながりません。",
+        "reading": "なかなか",
+        "translation": "몇 번 전화해도 좀처럼 연결되지 않습니다.",
+        "translationTarget": "좀처럼",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283400-1",
+    "wordId": "lex-jmdict-1283400",
+    "version": 1,
+    "meaning": "고급이다",
+    "hint": "품질이나 가격이 높아 특별하게 여겨지는 상태",
+    "confusions": [
+      {
+        "japanese": "安物",
+        "distinction": "품질이 높고 값비싼 것과 값싼 물건을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283400-1-ex-1",
+        "version": 1,
+        "before": "記念日に、",
+        "answer": "高級",
+        "after": "なホテルで一晩過ごしました。",
+        "reading": "こうきゅう",
+        "translation": "기념일에 고급 호텔에서 하룻밤을 보냈습니다.",
+        "translationTarget": "고급",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1556410-1",
+    "wordId": "lex-jmdict-1556410",
+    "version": 1,
+    "meaning": "예외",
+    "hint": "일반 원칙·규칙에 해당하지 않는 특별한 경우입니다.",
+    "confusions": [
+      {
+        "japanese": "原則",
+        "distinction": "例外는 규칙에서 벗어나는 경우이고 原則는 기본 규칙이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1556410-1-ex-1",
+        "version": 1,
+        "before": "締め切り後の申し込みは、",
+        "answer": "例外",
+        "after": "なく受け付けない。",
+        "reading": "れいがい",
+        "translation": "마감 뒤 신청은 예외 없이 받지 않는다.",
+        "translationTarget": "예외",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552230-1",
+    "wordId": "lex-jmdict-1552230",
+    "version": 1,
+    "meaning": "유역",
+    "hint": "강으로 물이 모여드는 주변 지역입니다.",
+    "confusions": [
+      {
+        "japanese": "河口",
+        "distinction": "流域는 강으로 배수되는 지역 전체이고 河口는 강이 바다 등으로 들어가는 어귀이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552230-1-ex-1",
+        "version": 1,
+        "before": "大雨で川が増水し、",
+        "answer": "流域",
+        "after": "の住民に避難が呼びかけられた。",
+        "reading": "りゅういき",
+        "translation": "큰비로 강물이 불어나 유역 주민에게 대피가 당부되었다.",
+        "translationTarget": "유역",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1423260-1",
+    "wordId": "lex-jmdict-1423260",
+    "version": 1,
+    "meaning": "착안, 주목",
+    "hint": "특정한 특징·부분에 눈을 돌려 중요하게 봅니다.",
+    "confusions": [
+      {
+        "japanese": "注目",
+        "distinction": "着目와 注目는 주목함이 겹친다. 着目는 조사·발상의 특정 부분을 짚음에 흔하고 注目는 관심·시선을 모음에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1423260-1-ex-1",
+        "version": 1,
+        "before": "研究者は、葉の形の違いに",
+        "answer": "着目",
+        "after": "した。",
+        "reading": "ちゃくもく",
+        "translation": "연구자는 잎 모양의 차이에 주목했다.",
+        "translationTarget": "주목",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378140-1",
+    "wordId": "lex-jmdict-1378140",
+    "version": 1,
+    "meaning": "맑다·깨끗하다",
+    "hint": "때나 흐림이 없어 깨끗하고 맑은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "濁った",
+        "distinction": "맑고 깨끗한 상태와 흐리고 탁한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378140-1-ex-1",
+        "version": 1,
+        "before": "山の奥には、",
+        "answer": "清い",
+        "after": "水が流れる小川があった。",
+        "reading": "きよい",
+        "translation": "산 깊숙한 곳에는 맑은 물이 흐르는 개울이 있었다.",
+        "translationTarget": "맑은",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1527560-1",
+    "wordId": "lex-jmdict-1527560",
+    "version": 1,
+    "meaning": "미숙함",
+    "hint": "기술·경험 등이 아직 충분히 발달하지 못했습니다.",
+    "confusions": [
+      {
+        "japanese": "成熟",
+        "distinction": "선택한 未熟는 능력·경험이 부족함이고 成熟는 충분히 발달함이다. 열매가 덜 익은 상태에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1527560-1-ex-1",
+        "version": 1,
+        "before": "経験が浅く、",
+        "answer": "未熟",
+        "after": "な点も多いので、ご指導をお願いします。",
+        "reading": "みじゅく",
+        "translation": "경험이 적고 미숙한 점도 많으므로 지도 부탁드립니다.",
+        "translationTarget": "미숙한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424690-1",
+    "wordId": "lex-jmdict-1424690",
+    "version": 1,
+    "meaning": "중세",
+    "hint": "고대와 근대 사이에 해당하는 역사적 시대",
+    "confusions": [
+      {
+        "japanese": "現代",
+        "distinction": "과거의 중간 역사 시대와 지금의 시대를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424690-1-ex-1",
+        "version": 1,
+        "before": "この城は、",
+        "answer": "中世",
+        "after": "の姿をほぼそのまま残している。",
+        "reading": "ちゅうせい",
+        "translation": "이 성은 중세의 모습을 거의 그대로 남기고 있다.",
+        "translationTarget": "중세",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474040-1",
+    "wordId": "lex-jmdict-1474040",
+    "version": 1,
+    "meaning": "매점",
+    "hint": "역이나 시설 안에서 필요한 물품을 파는 작은 가게",
+    "confusions": [
+      {
+        "japanese": "倉庫",
+        "distinction": "물품을 파는 작은 가게와 물품을 보관하는 곳을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474040-1-ex-1",
+        "version": 1,
+        "before": "列車が出る前に、駅の",
+        "answer": "売店",
+        "after": "で水を買った。",
+        "reading": "ばいてん",
+        "translation": "열차가 출발하기 전에 역 매점에서 물을 샀다.",
+        "translationTarget": "매점",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1403190-1",
+    "wordId": "lex-jmdict-1403190",
+    "version": 1,
+    "meaning": "증강",
+    "hint": "기존 능력·규모를 더 늘리고 강하게 합니다.",
+    "confusions": [
+      {
+        "japanese": "増加",
+        "distinction": "増強는 능력·전력을 늘려 강화함이고 増加는 수량이 늘어남 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1403190-1-ex-1",
+        "version": 1,
+        "before": "救急の要請が増え、病院は夜間の体制を",
+        "answer": "増強",
+        "after": "した。",
+        "reading": "ぞうきょう",
+        "translation": "응급 요청이 늘어 병원은 야간 운영 체제를 증강했다.",
+        "translationTarget": "증강",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530520-1",
+    "wordId": "lex-jmdict-1530520",
+    "version": 1,
+    "meaning": "낭비, 쓸데없이 쓰기",
+    "hint": "필요하지 않은 곳에 돈·자원 등을 씁니다.",
+    "confusions": [
+      {
+        "japanese": "浪費",
+        "distinction": "無駄遣い와 浪費는 낭비가 겹친다. 無駄遣い는 일상적인 돈·물자의 불필요한 소비에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530520-1-ex-1",
+        "version": 1,
+        "before": "小さな買い物でも、重なると",
+        "answer": "無駄遣い",
+        "after": "になることがある。",
+        "reading": "むだづかい",
+        "translation": "작은 구매라도 겹치면 낭비가 될 수 있다.",
+        "translationTarget": "낭비",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

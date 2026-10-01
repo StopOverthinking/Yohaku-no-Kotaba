@@ -1,0 +1,35 @@
+{
+  "reason": "Full candidate alternative spelling/read duplicate existing legacy entry. Not new vocabulary and no original ID changed.",
+  "rows": [
+    {
+      "word": {
+        "japanese": "溜める",
+        "reading": "ためる",
+        "type": "verb",
+        "meaning": "모으다·쌓아 두다",
+        "hint": "물건이나 할 일을 한꺼번에 많아지도록 쌓아 두어요.",
+        "confusion": "減らす",
+        "distinction": "쌓아 많아지게 하는 것과 양을 줄이는 것을 구별한다.",
+        "dictionaryId": "jmdict-1552630",
+        "level": "N3",
+        "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다."
+      },
+      "manuscript": "@溜める|ためる|verb|모으다·쌓아 두다|물건이나 할 일을 한꺼번에 많아지도록 쌓아 두어요.|減らす|쌓아 많아지게 하는 것과 양을 줄이는 것을 구별한다.|jmdict-1552630\n宿題を《溜めない》ように、毎日少しずつ進めている。|ためない|숙제를 《쌓아 두지 않도록》 매일 조금씩 하고 있다.|26\n"
+    },
+    {
+      "word": {
+        "japanese": "囁く",
+        "reading": "ささやく",
+        "type": "verb",
+        "meaning": "속삭이다",
+        "hint": "가까이 있는 사람에게만 들리도록 작은 목소리로 말해요.",
+        "confusion": "叫ぶ",
+        "distinction": "작은 소리로 말하는 것과 큰 소리로 외치는 것을 구별한다.",
+        "dictionaryId": "jmdict-1565670",
+        "level": "N3",
+        "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다."
+      },
+      "manuscript": "@囁く|ささやく|verb|속삭이다|가까이 있는 사람에게만 들리도록 작은 목소리로 말해요.|叫ぶ|작은 소리로 말하는 것과 큰 소리로 외치는 것을 구별한다.|jmdict-1565670\n赤ちゃんを起こさないように、二人は小声で《囁いた》。|ささやいた|아기를 깨우지 않으려고 두 사람은 작은 목소리로 《속삭였다》.|28\n"
+    }
+  ]
+}

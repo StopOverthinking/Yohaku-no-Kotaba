@@ -1468,6 +1468,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1590280-1",
+    "wordId": "lex-jmdict-1590280",
+    "version": 1,
+    "meaning": "항목별 정리, 개조식 작성",
+    "hint": "내용을 긴 문장으로 잇지 않고 각 항목으로 나누어 적습니다.",
+    "confusions": [
+      {
+        "japanese": "縦書き",
+        "distinction": "箇条書き는 항목별 정리 방식이고 縦書き는 글자를 세로로 쓰는 방향이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1590280-1-ex-1",
+        "version": 1,
+        "before": "会議で決まったことを、",
+        "answer": "箇条書き",
+        "after": "で短く記録した。",
+        "reading": "かじょうがき",
+        "translation": "회의에서 결정한 내용을 개조식으로 짧게 기록했다.",
+        "translationTarget": "개조식",
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410290-1",
+    "wordId": "lex-jmdict-1410290",
+    "version": 1,
+    "meaning": "대립",
+    "hint": "두 입장·주장이 서로 맞서 양립하지 못합니다.",
+    "confusions": [
+      {
+        "japanese": "対話",
+        "distinction": "対立는 입장이 맞섬이고 対話는 서로 이야기하며 의견을 나눔이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410290-1-ex-1",
+        "version": 1,
+        "before": "計画への賛否が分かれ、住民の間に",
+        "answer": "対立",
+        "after": "が生まれた。",
+        "reading": "たいりつ",
+        "translation": "계획에 대한 찬반이 갈려 주민들 사이에 대립이 생겼다.",
+        "translationTarget": "대립",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1487830-1",
+    "wordId": "lex-jmdict-1487830",
+    "version": 1,
+    "meaning": "필자",
+    "hint": "그 글을 쓴 사람입니다.",
+    "confusions": [
+      {
+        "japanese": "読者",
+        "distinction": "筆者는 글을 쓴 사람이고 読者는 읽는 사람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1487830-1-ex-1",
+        "version": 1,
+        "before": "最後の段落に、",
+        "answer": "筆者",
+        "after": "の一番伝えたい考えが示されている。",
+        "reading": "ひっしゃ",
+        "translation": "마지막 문단에 필자가 가장 전하고 싶은 생각이 제시되어 있다.",
+        "translationTarget": "필자",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1594600-1",
+    "wordId": "lex-jmdict-1594600",
+    "version": 1,
+    "meaning": "마감하다",
+    "hint": "신청이나 접수를 정해진 때에 끝내어 더 받지 않아요.",
+    "confusions": [
+      {
+        "japanese": "受け付ける",
+        "distinction": "접수를 끝내는 것과 신청을 받는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1594600-1-ex-1",
+        "version": 1,
+        "before": "定員に達したため、参加申し込みを",
+        "answer": "締め切りました",
+        "after": "。",
+        "reading": "しめきりました",
+        "translation": "정원에 도달하여 참가 신청을 마감했습니다.",
+        "translationTarget": "마감했습니다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1533690-1",
+    "wordId": "lex-jmdict-1533690",
+    "version": 1,
+    "meaning": "모범",
+    "hint": "다른 사람이 따를 만한 좋은 본보기입니다.",
+    "confusions": [
+      {
+        "japanese": "模型",
+        "distinction": "模範는 좋은 본보기이고 模型는 실물의 모형이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1533690-1-ex-1",
+        "version": 1,
+        "before": "彼の落ち着いた対応は、後輩たちの",
+        "answer": "模範",
+        "after": "になった。",
+        "reading": "もはん",
+        "translation": "그의 침착한 대응은 후배들의 모범이 되었다.",
+        "translationTarget": "모범",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1292140-1",
+    "wordId": "lex-jmdict-1292140",
+    "version": 1,
+    "meaning": "행사·모임",
+    "hint": "사람들을 모아 특별한 활동을 진행하는 자리",
+    "confusions": [
+      {
+        "japanese": "会合",
+        "distinction": "행사·전시 등 마련된 활동을 넓게 말한다. 비교 표현은 주로 의논이나 교류를 위해 모인 자리에 초점을 둔다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1292140-1-ex-1",
+        "version": 1,
+        "before": "広場の",
+        "answer": "催し",
+        "after": "では、地元の野菜が安く売られていた。",
+        "reading": "もよおし",
+        "translation": "광장의 행사에서는 지역 채소가 싸게 팔리고 있었다.",
+        "translationTarget": "행사",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

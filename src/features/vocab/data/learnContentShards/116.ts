@@ -1324,6 +1324,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370980-1",
+    "wordId": "lex-jmdict-1370980",
+    "version": 1,
+    "meaning": "수직이다",
+    "hint": "기준 선이나 면과 직각으로 만나는 상태",
+    "confusions": [
+      {
+        "japanese": "平行",
+        "distinction": "직각으로 만나는 관계와 서로 만나지 않고 나란한 관계를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370980-1-ex-1",
+        "version": 1,
+        "before": "柱が地面に",
+        "answer": "垂直",
+        "after": "になるように、角度を調整した。",
+        "reading": "すいちょく",
+        "translation": "기둥이 지면에 수직이 되도록 각도를 조정했다.",
+        "translationTarget": "수직",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1383230-1",
+    "wordId": "lex-jmdict-1383230",
+    "version": 1,
+    "meaning": "책무",
+    "hint": "자신의 지위·역할에서 책임지고 수행해야 하는 의무입니다.",
+    "confusions": [
+      {
+        "japanese": "権利",
+        "distinction": "責務는 수행해야 하는 책임·의무이고 権利는 정당하게 누리거나 요구할 수 있는 것이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1383230-1-ex-1",
+        "version": 1,
+        "before": "安全な環境を整えることは、施設を運営する側の",
+        "answer": "責務",
+        "after": "だ。",
+        "reading": "せきむ",
+        "translation": "안전한 환경을 마련하는 것은 시설 운영 측의 책무다.",
+        "translationTarget": "책무",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1370070-1",
+    "wordId": "lex-jmdict-1370070",
+    "version": 1,
+    "meaning": "다하다, 바닥나다",
+    "hint": "남아 있던 자원·수단 등이 더 이상 없게 됩니다.",
+    "confusions": [
+      {
+        "japanese": "尽くす",
+        "distinction": "尽きる는 자원이 다하는 자동사이고 尽くす는 자원을 모두 쓰거나 힘을 다하는 타동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1370070-1-ex-1",
+        "version": 1,
+        "before": "資金が",
+        "answer": "尽きる",
+        "after": "前に、事業を続ける方法を考えなければならない。",
+        "reading": "つきる",
+        "translation": "자금이 바닥나기 전에 사업을 계속할 방법을 생각해야 한다.",
+        "translationTarget": "바닥나기",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541120-1",
+    "wordId": "lex-jmdict-1541120",
+    "version": 1,
+    "meaning": "유익함",
+    "hint": "도움·이익이 있어 쓸모가 있습니다.",
+    "confusions": [
+      {
+        "japanese": "有害",
+        "distinction": "有益는 유익함이고 有害는 해로움이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541120-1-ex-1",
+        "version": 1,
+        "before": "現場で働く人の話は、進路を考える上で",
+        "answer": "有益",
+        "after": "だった。",
+        "reading": "ゆうえき",
+        "translation": "현장에서 일하는 사람의 이야기는 진로를 생각하는 데 유익했다.",
+        "translationTarget": "유익했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1534490-1",
+    "wordId": "lex-jmdict-1534490",
+    "version": 1,
+    "meaning": "이익이 나다·돈이 벌리다",
+    "hint": "장사나 사업에서 비용보다 수입이 커서 이익이 생겨요.",
+    "confusions": [
+      {
+        "japanese": "損する",
+        "distinction": "돈의 이익이 생기는 것과 손해를 입는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1534490-1-ex-1",
+        "version": 1,
+        "before": "店は忙しそうだが、材料費が高くてあまり",
+        "answer": "儲からない",
+        "after": "。",
+        "reading": "もうからない",
+        "translation": "가게는 바빠 보이지만 재료비가 높아서 별로 이익이 나지 않는다.",
+        "translationTarget": "이익이 나지 않는다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1453340-1",
+    "wordId": "lex-jmdict-1453340",
+    "version": 1,
+    "meaning": "동봉",
+    "hint": "편지·서류와 함께 같은 봉투에 다른 것을 넣습니다.",
+    "confusions": [
+      {
+        "japanese": "郵送",
+        "distinction": "同封는 같은 봉투에 함께 넣음이고 郵送는 우편으로 보냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1453340-1-ex-1",
+        "version": 1,
+        "before": "申請書に、身分証のコピーを",
+        "answer": "同封",
+        "after": "してください。",
+        "reading": "どうふう",
+        "translation": "신청서에 신분증 사본을 동봉해 주세요.",
+        "translationTarget": "동봉",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1356320-1",
+    "wordId": "lex-jmdict-1356320",
+    "version": 1,
+    "meaning": "정세",
+    "hint": "사회·경제 등의 움직임과 전체 상황입니다.",
+    "confusions": [
+      {
+        "japanese": "感情",
+        "distinction": "情勢는 변화하는 사회 상황이고 感情는 마음의 느낌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1356320-1-ex-1",
+        "version": 1,
+        "before": "海外の",
+        "answer": "情勢",
+        "after": "が変わり、輸入の計画を見直した。",
+        "reading": "じょうせい",
+        "translation": "해외 정세가 바뀌어 수입 계획을 재검토했다.",
+        "translationTarget": "정세",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1236660-1",
+    "wordId": "lex-jmdict-1236660",
+    "version": 1,
+    "meaning": "우려, 위험 가능성",
+    "hint": "좋지 않은 일이 생길 가능성을 염려합니다.",
+    "confusions": [
+      {
+        "japanese": "恐怖",
+        "distinction": "선택한 恐れ는 나쁜 일의 가능성·우려이고 恐怖는 강한 공포의 감정이다. 두려움이라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1236660-1-ex-1",
+        "version": 1,
+        "before": "強風で木が倒れる",
+        "answer": "恐れ",
+        "after": "があるため、道は閉鎖された。",
+        "reading": "おそれ",
+        "translation": "강풍으로 나무가 쓰러질 우려가 있어 길이 폐쇄되었다.",
+        "translationTarget": "우려",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579840-1",
+    "wordId": "lex-jmdict-1579840",
+    "version": 1,
+    "meaning": "십, 열; 10",
+    "hint": "아홉보다 하나 많으며 일의 자리에서 다음 자릿수로 넘어가는 수",
+    "confusions": [
+      {
+        "japanese": "九",
+        "distinction": "10과 9를 구별한다. 10의 대표 읽기는 주우이며 개수를 셀 때 토오도 쓰인다. 토오카처럼 날짜를 읽을 때는 소리가 달라진다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579840-1-ex-1",
+        "version": 1,
+        "before": "一から",
+        "answer": "十",
+        "after": "まで数えます。",
+        "reading": "じゅう",
+        "translation": "1부터 10까지 셉니다.",
+        "translationTarget": "10",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "kind": "authorized-before-after-content",
+  "draft": {
+    "schemaVersion": 1,
+    "id": "final-direction-examples",
+    "scope": "legacy-example-revision",
+    "entries": [
+      {
+        "word": {
+          "id": "handmade_28",
+          "setId": "set-2",
+          "japanese": "西",
+          "reading": "にし",
+          "meaning": "서쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 27
+        },
+        "before": {
+          "id": "sense-handmade_28-1",
+          "wordId": "handmade_28",
+          "version": 1,
+          "meaning": "서쪽",
+          "hint": "해가 지는 쪽이에요. 비슷한 방향 말과 구별해요.",
+          "confusions": [
+            {
+              "japanese": "東",
+              "distinction": "해가 뜨는 동쪽과 지는 서쪽은 반대 방향이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_28-1-ex-1",
+              "version": 1,
+              "before": "窓が",
+              "answer": "西",
+              "after": "に向いているので、夕方はまぶしい。",
+              "reading": "にし",
+              "translation": "창이 서쪽을 향해 있어서 저녁에는 눈이 부시다.",
+              "translationTarget": "서쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_28-1-ex-2",
+              "version": 1,
+              "before": "町の",
+              "answer": "西",
+              "after": "には、まだ田んぼが残っている。",
+              "reading": "にし",
+              "translation": "마을 서쪽에는 아직 논이 남아 있다.",
+              "translationTarget": "서쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-handmade_28-1",
+          "wordId": "handmade_28",
+          "version": 1,
+          "meaning": "서쪽",
+          "hint": "해가 지는 쪽이에요. 비슷한 방향 말과 구별해요.",
+          "confusions": [
+            {
+              "japanese": "東",
+              "distinction": "해가 뜨는 동쪽과 지는 서쪽은 반대 방향이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_28-1-ex-1",
+              "version": 2,
+              "before": "日が",
+              "answer": "西",
+              "after": "に沈み、空が赤くなった。",
+              "reading": "にし",
+              "translation": "해가 서쪽으로 지고 하늘이 붉어졌다.",
+              "translationTarget": "서쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_28-1-ex-2",
+              "version": 1,
+              "before": "町の",
+              "answer": "西",
+              "after": "には、まだ田んぼが残っている。",
+              "reading": "にし",
+              "translation": "마을 서쪽에는 아직 논이 남아 있다.",
+              "translationTarget": "서쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "5a54431d20b2df2722e4b7725c68422c9d1ef7c0e22124cef21439be90fbe72e",
+        "afterHash": "86ab6de2551a8915608ad1371bff996505b5243bffd09fd938c3faa3bdffe500"
+      },
+      {
+        "word": {
+          "id": "handmade_29",
+          "setId": "set-2",
+          "japanese": "南",
+          "reading": "みなみ",
+          "meaning": "남쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 28
+        },
+        "before": {
+          "id": "sense-handmade_29-1",
+          "wordId": "handmade_29",
+          "version": 1,
+          "meaning": "남쪽",
+          "hint": "동서남북의 한 방향이에요. 특정 대상의 남쪽 면보다 방위 자체를 말해요.",
+          "confusions": [
+            {
+              "japanese": "南側",
+              "distinction": "특정 물체나 지역의 남쪽 면을 말하는 표현과 달리 방위 자체를 가리킨다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_29-1-ex-1",
+              "version": 1,
+              "before": "鳥の群れが",
+              "answer": "南",
+              "after": "へ飛んでいった。",
+              "reading": "みなみ",
+              "translation": "새 떼가 남쪽으로 날아갔다.",
+              "translationTarget": "남쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_29-1-ex-2",
+              "version": 1,
+              "before": "部屋の窓が",
+              "answer": "南",
+              "after": "を向いているので、冬も明るい。",
+              "reading": "みなみ",
+              "translation": "방 창문이 남쪽을 향하고 있어서 겨울에도 밝다.",
+              "translationTarget": "남쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-handmade_29-1",
+          "wordId": "handmade_29",
+          "version": 1,
+          "meaning": "남쪽",
+          "hint": "동서남북의 한 방향이에요. 특정 대상의 남쪽 면보다 방위 자체를 말해요.",
+          "confusions": [
+            {
+              "japanese": "南側",
+              "distinction": "특정 물체나 지역의 남쪽 면을 말하는 표현과 달리 방위 자체를 가리킨다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_29-1-ex-1",
+              "version": 1,
+              "before": "鳥の群れが",
+              "answer": "南",
+              "after": "へ飛んでいった。",
+              "reading": "みなみ",
+              "translation": "새 떼가 남쪽으로 날아갔다.",
+              "translationTarget": "남쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_29-1-ex-2",
+              "version": 2,
+              "before": "夏休みに",
+              "answer": "南",
+              "after": "の島で泳ぎました。",
+              "reading": "みなみ",
+              "translation": "여름 방학에 남쪽 섬에서 수영했습니다.",
+              "translationTarget": "남쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "be4f9c095181bc3c16fa955c62965cb74915bbb6774be5d07a5238cf0c1b3573",
+        "afterHash": "b6e3b85425f4ef0fd51feee18930df76a40e542a892894aa5b73b3c34baa0bcb"
+      },
+      {
+        "word": {
+          "id": "handmade_30",
+          "setId": "set-2",
+          "japanese": "北",
+          "reading": "きた",
+          "meaning": "북쪽",
+          "type": "noun",
+          "difficulty": 15,
+          "verbInfo": null,
+          "sourceOrder": 29
+        },
+        "before": {
+          "id": "sense-handmade_30-1",
+          "wordId": "handmade_30",
+          "version": 1,
+          "meaning": "북쪽",
+          "hint": "지도에서 보통 위로 나타내는 방향이에요.",
+          "confusions": [
+            {
+              "japanese": "南",
+              "distinction": "지도상 보통 아래에 표시하는 남쪽과 반대다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_30-1-ex-1",
+              "version": 1,
+              "before": "駅の",
+              "answer": "北",
+              "after": "に、新しい公園ができた。",
+              "reading": "きた",
+              "translation": "역 북쪽에 새 공원이 생겼다.",
+              "translationTarget": "북쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_30-1-ex-2",
+              "version": 1,
+              "before": "暖かくなると、この鳥は",
+              "answer": "北",
+              "after": "へ移動する。",
+              "reading": "きた",
+              "translation": "날씨가 따뜻해지면 이 새는 북쪽으로 이동한다.",
+              "translationTarget": "북쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-handmade_30-1",
+          "wordId": "handmade_30",
+          "version": 1,
+          "meaning": "북쪽",
+          "hint": "지도에서 보통 위로 나타내는 방향이에요.",
+          "confusions": [
+            {
+              "japanese": "南",
+              "distinction": "지도상 보통 아래에 표시하는 남쪽과 반대다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-handmade_30-1-ex-1",
+              "version": 1,
+              "before": "駅の",
+              "answer": "北",
+              "after": "に、新しい公園ができた。",
+              "reading": "きた",
+              "translation": "역 북쪽에 새 공원이 생겼다.",
+              "translationTarget": "북쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-handmade_30-1-ex-2",
+              "version": 2,
+              "before": "冷たい風が",
+              "answer": "北",
+              "after": "から吹いてきた。",
+              "reading": "きた",
+              "translation": "차가운 바람이 북쪽에서 불어왔다.",
+              "translationTarget": "북쪽",
+              "difficulty": 15,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "773df098ab8a0ac835deb4189bdce3622aaa2534409d67752805678208dcf611",
+        "afterHash": "458bccdc5fdf41a63bb908a1814ca513c89bb757682c6c003f4367e17d8a81ee"
+      }
+    ]
+  },
+  "review": {
+    "scope": "legacy-example-revision",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:02:34.811Z",
+    "draftHash": "fe9af4338aa4edf67608c779d3dd8b0102a7372d088abd91b2b0501182231097",
+    "notes": [
+      "Full four words, four senses and eight original examples read; three replacements read independently in JP and KO.",
+      "West sunset and reddening sky; south island holiday swimming; cold wind from north are natural direction uses and separate scenes.",
+      "Only selected examples increment v1 to v2. All word/sense IDs, versions, meanings, hints, contrasts, difficulty and other examples preserved. East remains unchanged."
+    ]
+  }
+}

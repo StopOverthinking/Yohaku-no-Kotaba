@@ -1,0 +1,199 @@
+{
+  "reviewedAt": "2026-10-01T01:11:48.241Z",
+  "rows": [
+    {
+      "previousProposal": {
+        "wordId": "JLPTN3_70",
+        "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+        "level": "N5",
+        "dictionaryId": "jmdict-1158880",
+        "levelNote": "다름과 정답의 오류를 표현하는 기초 동사이며 OpenJLPT N5 근거를 채택한다. 검토 전 비공식 권장 수준 제안이다.",
+        "meaningReview": "기존 뜻: 다르다. 사전에는 different와 incorrect가 별도로 있다. JLPTN3_70·AbsoluteVerb_618은 대상 간 차이, handmade_108은 정답·번호의 오류를 대표로 학습한다.",
+        "aliasCandidateIds": [
+          "AbsoluteVerb_618"
+        ],
+        "issues": [
+          "입력의 대표 용법 예문은 2개이므로 세 번째 독립 예문과 콘텐츠 검토가 필요하다.",
+          "표기뿐 아니라 뜻·대표 예문의 공통 의미를 비교한 별칭 후보이다. 학습 이력이 없어 별칭 승인·프로필 이전은 보류한다.",
+          "차이를 나타내는 두 ID와 정답·번호의 오류를 나타내는 handmade_108은 대표 학습 의미가 달라 모두 한 별칭으로 승인하지 않는다."
+        ]
+      },
+      "previousReview": {
+        "wordId": "JLPTN3_70",
+        "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+        "proposalHash": "951cb289be6f4e654168187a2cef9cb02cc15219e950fd237820d434bc4208e0",
+        "scope": "legacy-classification-proposal-only",
+        "outcome": "accepted",
+        "meaningOutcome": "accepted-with-listed-editorial-issues",
+        "levelOutcome": "accepted-editorial-recommendation",
+        "aliasOutcome": "candidate-only; not approved for merge",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent dictionary/meaning/level/alias proposal review; legacy-003 source snapshot and structural audit.",
+        "reviewedAt": "2026-09-30T02:38:06.783Z",
+        "notes": [
+          "서로 다름과 정답 오류를 구분한 후보 집합이 타당하며 handmade_108은 합치지 않는다.",
+          "세 번째 독립 예문과 전체 콘텐츠 검토는 미완료이며 학습 이력·프로필 통합은 승인하지 않는다."
+        ]
+      },
+      "sourceSnapshot": {
+        "word": {
+          "id": "JLPTN3_70",
+          "setId": "jlpt-n3",
+          "japanese": "違う",
+          "reading": "ちがう",
+          "meaning": "다르다, 틀리다",
+          "type": "verb",
+          "difficulty": 18,
+          "verbInfo": "1자",
+          "sourceOrder": 69
+        },
+        "senses": [
+          {
+            "id": "sense-JLPTN3_70-1",
+            "wordId": "JLPTN3_70",
+            "version": 1,
+            "meaning": "다르다",
+            "hint": "비교하는 두 대상이 같지 않아요.",
+            "confusions": [
+              {
+                "japanese": "間違う",
+                "distinction": "차이가 있다는 것만으로 어느 한쪽이 틀렸다는 뜻은 아니다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-JLPTN3_70-1-ex-1",
+                "version": 1,
+                "before": "双子でも、好きな食べ物は",
+                "answer": "違う",
+                "after": "。",
+                "reading": "ちがう",
+                "translation": "쌍둥이라도 좋아하는 음식은 다르다.",
+                "translationTarget": "다르다",
+                "difficulty": 18,
+                "status": "reviewed"
+              },
+              {
+                "id": "sense-JLPTN3_70-1-ex-2",
+                "version": 1,
+                "before": "写真と色が",
+                "answer": "違った",
+                "after": "ので、店に問い合わせた。",
+                "reading": "ちがった",
+                "translation": "사진과 색이 달라서 가게에 문의했다.",
+                "translationTarget": "달라서",
+                "difficulty": 18,
+                "status": "reviewed"
+              }
+            ]
+          },
+          {
+            "id": "sense-JLPTN3_70-2",
+            "wordId": "JLPTN3_70",
+            "version": 1,
+            "meaning": "틀리다, 올바르지 않다",
+            "hint": "답이나 내용이 올바르지 않거나 맞아야 할 기준과 어긋나요.",
+            "confusions": [
+              {
+                "japanese": "異なる",
+                "distinction": "비교 표현은 서로 다른 점을 중립적으로 나타낸다. 이 용법은 정답이나 올바른 내용과 어긋났음을 나타낸다."
+              }
+            ],
+            "review": {
+              "word": true,
+              "contrast": true,
+              "diversity": true
+            },
+            "examples": [
+              {
+                "id": "sense-JLPTN3_70-2-ex-1",
+                "version": 1,
+                "before": "店員に、お釣りの金額が",
+                "answer": "違う",
+                "after": "と伝えた。",
+                "reading": "ちがう",
+                "translation": "점원에게 거스름돈 금액이 틀리다고 말했다.",
+                "translationTarget": "틀리다",
+                "difficulty": 18,
+                "status": "reviewed"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "entries": [
+    {
+      "wordId": "JLPTN3_71",
+      "level": "N5",
+      "sourceHash": "afe60f5a470f28837c4e13db8a1aea677893097a151a927abd728eb28b5bc322",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:11:48.241Z",
+      "aliasGroupId": "alias-JLPTN3_71",
+      "notes": [
+        "몸·마음의 힘이 소모되어 지치는 동일 핵심이다. 이사 도움/남을 지나치게 배려/익숙하지 않은 신발/피로시 교대 네 예문과 싫증 대비를 읽었다.",
+        "독립 의미/전체 예문 검토 후 현재 활성 그룹/원본 해시를 대조하여 대표 하나의 수준 참조를 승인한다."
+      ]
+    },
+    {
+      "wordId": "JLPTN3_75",
+      "level": "N4",
+      "sourceHash": "34524dda6679b9da39104cc2e0a304f319ccb8e868a75d4621accf61e523b6ff",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:11:48.241Z",
+      "aliasGroupId": "alias-JLPTN3_75",
+      "notes": [
+        "경로·공간을 지나가는 동일 자동 핵심이다. 공원 통과/큰 짐으로 좁은 입구 통과 불가/초등학교 앞 경로/큰 짐으로 문 통과 불가 네 문장을 읽었다. 通う의 반복 방문과 구별한다.",
+        "독립 의미/전체 예문 검토 후 현재 활성 그룹/원본 해시를 대조하여 대표 하나의 수준 참조를 승인한다."
+      ]
+    },
+    {
+      "wordId": "JLPTN3_70",
+      "level": "N5",
+      "sourceHash": "26e1db76459cbf2435865cf07eaaa11cd7608b9a84dcf053f988bc9195ce6264",
+      "scope": "legacy-reference-publication",
+      "outcome": "accepted",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T01:11:48.241Z",
+      "duplicateSelection": {
+        "policy": "distinct-core-usages-no-profile-transfer",
+        "members": [
+          {
+            "wordId": "JLPTN3_70",
+            "sourceHash": "26e1db76459cbf2435865cf07eaaa11cd7608b9a84dcf053f988bc9195ce6264"
+          },
+          {
+            "wordId": "handmade_108",
+            "sourceHash": "8d78e1f8ddd18dfd1b2a3d49473436dbfbb94b7662eed33347c181958e5d71d0"
+          },
+          {
+            "wordId": "AbsoluteVerb_618",
+            "sourceHash": "c5c10b1b80f0abd52ea08a4ea5556fb44323ed13eb5962f9bdeb3cc297b0a9b8"
+          }
+        ],
+        "notes": [
+          "원본3개 전체 의미·힌트·대비·6예문과 새 오류 예문을 읽었다. 중립 차이와 틀림은 다른 선택 핵심이므로 전체 profile을 합치지 않는다.",
+          "fix005 후 JLPT70의 중립 차이 원본을 그대로 두고 틀림 sense를 새 ID로 추가했다. 현재 변경 원본 해시를 재대조했다. 새 오류 sense는 기존 어느 기록도 이전받지 않는다."
+        ]
+      },
+      "notes": [
+        "다르다/틀리다 두 기본 용법으로 N5 대표 하나를 승인한다. 보존 승인·정확한 적용 결과를 확인했으며 기존 peer들은 삭제하거나 통합하지 않는다."
+      ]
+    }
+  ]
+}

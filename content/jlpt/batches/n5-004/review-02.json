@@ -66,15 +66,16 @@
   },
   {
     "wordId": "lex-jmdict-1526360",
-    "contentHash": "c9fdd617caf041ec50e6306cc8e47ec5661454e1386e3fc7c5154fcd31b6bad2",
+    "contentHash": "9410159713de069679c0d7558b8099860158e068c02343529c8dea3c5c2004d6",
     "outcome": "accepted",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "GPT-6 Astra high independent AI review: local JMdict, readings/POS, all three examples, Korean alignment, independent hints, contrasts and diversity. Parser passed; 300 published hashes unchanged; 1,868 senses/4,096 examples show zero masked pairs >=0.7 (41,630 comparisons). Not human expert review.",
-    "reviewedAt": "2026-09-30T00:35:13.149Z",
+    "reviewedAt": "2026-10-01T00:52:25.963Z",
+    "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
     "notes": [
-      "파란 펜 몸체가 아니라 잉크색이 글의 특징임을 드러내도록 青いインクの万年筆로 수정했다."
+      "선물 수령 장면을 잉크 보충 중 손에 묻는 장면으로 바꾼다. 기존 잉크가 떨어진 상태·편지 쓰기 장면과 구별한다.",
+      "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
     ]
   },
   {

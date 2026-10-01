@@ -1,0 +1,74 @@
+[
+  {
+    "japanese": "標識",
+    "reading": "ひょうしき",
+    "type": "noun",
+    "meaning": "표지, 표식",
+    "hint": "길·장소·주의사항 등을 알려 주는 눈에 띄는 표시입니다.",
+    "confusion": "標準",
+    "distinction": "標識는 알리는 표시이고 標準는 판단·측정의 기준이다.",
+    "dictionaryId": "jmdict-1488700",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "筆者",
+    "reading": "ひっしゃ",
+    "type": "noun",
+    "meaning": "필자",
+    "hint": "그 글을 쓴 사람입니다.",
+    "confusion": "読者",
+    "distinction": "筆者는 글을 쓴 사람이고 読者는 읽는 사람이다.",
+    "dictionaryId": "jmdict-1487830",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "筆記",
+    "reading": "ひっき",
+    "type": "noun",
+    "meaning": "필기",
+    "hint": "내용을 글로 적어 기록하는 일입니다.",
+    "confusion": "口述",
+    "distinction": "筆記는 글로 적음이고 口述는 말로 내용을 전함이다.",
+    "dictionaryId": "jmdict-1487800",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "未満",
+    "reading": "みまん",
+    "type": "noun",
+    "meaning": "미만",
+    "hint": "기준으로 제시한 수치에 이르지 못합니다.",
+    "confusion": "以下",
+    "distinction": "未満는 기준 수치를 포함하지 않고 以下는 기준 수치를 포함한다.",
+    "dictionaryId": "jmdict-1528040",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "名作",
+    "reading": "めいさく",
+    "type": "noun",
+    "meaning": "명작",
+    "hint": "뛰어나 널리 평가받는 작품입니다.",
+    "confusion": "新作",
+    "distinction": "名作는 뛰어나다고 평가받는 작품이고 新作는 새로 나온 작품이다.",
+    "dictionaryId": "jmdict-1531500",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  },
+  {
+    "japanese": "農産物",
+    "reading": "のうさんぶつ",
+    "type": "noun",
+    "meaning": "농산물",
+    "hint": "농업을 통해 생산한 곡물·채소·과일 등의 산물입니다.",
+    "confusion": "水産物",
+    "distinction": "農産物는 농업 생산물이고 水産物는 바다·강 등에서 얻는 수산물이다.",
+    "dictionaryId": "jmdict-1470710",
+    "level": "N3",
+    "levelNote": "선택된 일반 생활·독해 용법을 독립 검토하여 비공식 N3 학습 수준으로 권장한다."
+  }
+]

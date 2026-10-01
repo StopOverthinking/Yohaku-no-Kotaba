@@ -2216,6 +2216,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1592350-1",
+    "wordId": "lex-jmdict-1592350",
+    "version": 1,
+    "meaning": "분하다·억울하다",
+    "hint": "실패하거나 부당한 일을 겪어 쉽게 마음이 풀리지 않아요.",
+    "confusions": [
+      {
+        "japanese": "嬉しい",
+        "distinction": "실패나 부당함으로 속상한 감정과 기쁜 감정을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1592350-1-ex-1",
+        "version": 1,
+        "before": "あと一問で合格だったのに、落ちてしまって",
+        "answer": "悔しい",
+        "after": "。",
+        "reading": "くやしい",
+        "translation": "한 문제만 더 맞히면 합격이었는데 떨어져서 분하다.",
+        "translationTarget": "분하다",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396910-1",
+    "wordId": "lex-jmdict-1396910",
+    "version": 1,
+    "meaning": "거칠다·성기다",
+    "hint": "알갱이나 짜임이 곱거나 촘촘하지 않은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "細かい",
+        "distinction": "알갱이나 짜임이 큰 상태와 잘게 된 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396910-1-ex-1",
+        "version": 1,
+        "before": "目の",
+        "answer": "粗い",
+        "after": "網では、小さな魚が逃げてしまう。",
+        "reading": "あらい",
+        "translation": "짜임이 성긴 그물에서는 작은 물고기가 도망치고 만다.",
+        "translationTarget": "성긴",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552390-1",
+    "wordId": "lex-jmdict-1552390",
+    "version": 1,
+    "meaning": "역시·과연",
+    "hint": "실력이나 평판에 맞는 결과를 보고 인정하는 말이에요.",
+    "confusions": [
+      {
+        "japanese": "意外",
+        "distinction": "기대한 실력을 인정하는 것과 예상 밖이라고 느끼는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552390-1-ex-1",
+        "version": 1,
+        "before": "一度聞いただけで弾けるなんて、",
+        "answer": "流石",
+        "after": "プロだ。",
+        "reading": "さすが",
+        "translation": "한 번 들었을 뿐인데 연주할 수 있다니 역시 전문가다.",
+        "translationTarget": "역시",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378240-1",
+    "wordId": "lex-jmdict-1378240",
+    "version": 1,
+    "meaning": "정서·깨끗이 옮겨 쓰기",
+    "hint": "초안을 다듬어 바른 글씨로 깨끗하게 다시 쓰는 것",
+    "confusions": [
+      {
+        "japanese": "下書き",
+        "distinction": "완성 내용을 깨끗이 다시 쓰는 것과 처음 대강 적는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378240-1-ex-1",
+        "version": 1,
+        "before": "誤字を直してから、手紙を",
+        "answer": "清書",
+        "after": "した。",
+        "reading": "せいしょ",
+        "translation": "오자를 고친 뒤 편지를 깨끗이 옮겨 썼다.",
+        "translationTarget": "깨끗이 옮겨 썼다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1551210-1",
+    "wordId": "lex-jmdict-1551210",
+    "version": 1,
+    "meaning": "이끌다, 거느리다",
+    "hint": "집단의 앞에 서서 함께 움직이도록 지휘합니다.",
+    "confusions": [
+      {
+        "japanese": "従う",
+        "distinction": "率いる는 집단을 이끎이고 従う는 상대를 따름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1551210-1-ex-1",
+        "version": 1,
+        "before": "若い監督がチームを",
+        "answer": "率いて",
+        "after": "、初めて全国大会に出場した。",
+        "reading": "ひきいて",
+        "translation": "젊은 감독이 팀을 이끌고 처음 전국 대회에 출전했다.",
+        "translationTarget": "이끌고",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531520-1",
+    "wordId": "lex-jmdict-1531520",
+    "version": 1,
+    "meaning": "명산물, 유명한 지역 생산물",
+    "hint": "지역에서 만들어져 잘 알려진 물품입니다.",
+    "confusions": [
+      {
+        "japanese": "名所",
+        "distinction": "名産는 유명한 생산물이고 名所는 유명한 장소이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531520-1-ex-1",
+        "version": 1,
+        "before": "旅先で、その地方の",
+        "answer": "名産",
+        "after": "の果物を味わった。",
+        "reading": "めいさん",
+        "translation": "여행지에서 그 지방의 명산물인 과일을 맛봤다.",
+        "translationTarget": "명산물",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -326,73 +326,65 @@
   {
     "wordId": "handmade_27",
     "sourceHash": "90d653a1f20f0665c2a801060d1e5e10a3ffd17bad15a49e70549b51b2dd9aa4",
-    "proposalHash": "c002b83d00ebaff2c69bcf611617712bba8d8d6cec1078d0242821398699bb2b",
+    "proposalHash": "8376175bc789cbec965aa2a9b2389fb672f63c68088505941cb732f04a8ffec8",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
-    "reviewer": "Codex GPT-6 Astra review agent",
+    "aliasOutcome": "no profile merge approval",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-018.json",
-    "reviewedAt": "2026-09-30T05:35:57.314Z",
+    "reviewedAt": "2026-10-01T01:08:36.154Z",
     "notes": [
-      "동쪽 기본 방위 명사의 N5 분류를 확인했다. 동서남 창문 방향·햇빛 장면의 반복은 별도 참조 검토 사항이다."
+      "동서남북 네 방향의 전량 단어/힌트/대비 및 8예문과 최소3개 장면 개정본을 직접 읽었다. 개정 적용 현재 해시를 대조하고 방향 뜻을 보존한 N5 참조를 승인한다."
     ]
   },
   {
     "wordId": "handmade_28",
-    "sourceHash": "d25e14f4795128ca0e3c6f0724225e4c45cd6a0bed13f5b85a61bd5acf678198",
-    "proposalHash": "a942fb6547a947a43f8d741c83e623aa9d63d2e226881fa7b2518999a6ebb052",
+    "sourceHash": "b3eaaee26fca1b2a2be7c84e3b7e9d5664b2acef05b574eadf514ba54e9426d5",
+    "proposalHash": "f9ab77193df57b520a3d512ebb538310fd109b840b0ea4f5244e8356229a634c",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
-    "reviewer": "Codex GPT-6 Astra review agent",
+    "aliasOutcome": "no profile merge approval",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-018.json",
-    "reviewedAt": "2026-09-30T05:35:57.314Z",
+    "reviewedAt": "2026-10-01T01:08:36.154Z",
     "notes": [
-      "서쪽 기본 방위의 N5는 타당하나 동·남과 같은 창문 햇빛 장면 반복을 분리 검토한다."
+      "동서남북 네 방향의 전량 단어/힌트/대비 및 8예문과 최소3개 장면 개정본을 직접 읽었다. 개정 적용 현재 해시를 대조하고 방향 뜻을 보존한 N5 참조를 승인한다."
     ]
   },
   {
     "wordId": "handmade_29",
-    "sourceHash": "6ec5ac6fe44fdfc5c45a9d2a9d6884b1996fd41c6261fe621997f9fe1dbc015c",
-    "proposalHash": "892cefda9ed1093625fff5b1f1c6c20e7af375f2d147e43253a85ae104bd0768",
+    "sourceHash": "c7c0a5cac7cab54bd9aa460fc00d8349c7a1d0ea213682cf7eb7c61f2870488a",
+    "proposalHash": "821a0baad935145ba1c7b573c92397deb3a979f5c227916bcd401f4afd76926d",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
-    "reviewer": "Codex GPT-6 Astra review agent",
+    "aliasOutcome": "no profile merge approval",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-018.json",
-    "reviewedAt": "2026-09-30T05:35:57.314Z",
+    "reviewedAt": "2026-10-01T01:08:36.154Z",
     "notes": [
-      "남쪽 기본 방위 N5에 동의한다. 창문 방향·햇빛 및 새 이동 장면은 다른 방위 예문과 가까워 분리 검토한다."
+      "동서남북 네 방향의 전량 단어/힌트/대비 및 8예문과 최소3개 장면 개정본을 직접 읽었다. 개정 적용 현재 해시를 대조하고 방향 뜻을 보존한 N5 참조를 승인한다."
     ]
   },
   {
     "wordId": "handmade_30",
-    "sourceHash": "45767b22722865c587cfc922848630e9c60c60aafdadfc54276e430c5937a3d6",
-    "proposalHash": "62e7fab684c0a4ec99eb3bdc3e34e411c066ba37e0e70086eff31df1e1a0f76c",
+    "sourceHash": "ac8ff99cc307f3c49dd93a2b6ca51b5d6c1b88654e727697a5238a4f06dbf91a",
+    "proposalHash": "f1ab914411f8230c0a3027b672e702c0b37c3d26b02729ae50497e3a83847e69",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
-    "reviewer": "Codex GPT-6 Astra review agent",
+    "aliasOutcome": "no profile merge approval",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-018.json",
-    "reviewedAt": "2026-09-30T05:35:57.314Z",
+    "reviewedAt": "2026-10-01T01:08:36.154Z",
     "notes": [
-      "북쪽 N5 분류는 적절하다. 새의 방위 이동 장면은 南과 가까워 참조 게시에서 확인한다."
+      "동서남북 네 방향의 전량 단어/힌트/대비 및 8예문과 최소3개 장면 개정본을 직접 읽었다. 개정 적용 현재 해시를 대조하고 방향 뜻을 보존한 N5 참조를 승인한다."
     ]
   },
   {

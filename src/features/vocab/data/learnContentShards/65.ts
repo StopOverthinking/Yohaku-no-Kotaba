@@ -1388,6 +1388,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1282220-1",
+    "wordId": "lex-jmdict-1282220",
+    "version": 1,
+    "meaning": "줄·행렬",
+    "hint": "사람이나 물건이 차례로 길게 늘어선 상태",
+    "confusions": [
+      {
+        "japanese": "混雑",
+        "distinction": "차례대로 늘어선 줄과 여러 사람이 붐비는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1282220-1-ex-1",
+        "version": 1,
+        "before": "人気のパン屋には、開店前から",
+        "answer": "行列",
+        "after": "ができていた。",
+        "reading": "ぎょうれつ",
+        "translation": "인기 있는 빵집에는 문을 열기 전부터 줄이 생겨 있었다.",
+        "translationTarget": "줄",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1517380-1",
+    "wordId": "lex-jmdict-1517380",
+    "version": 1,
+    "meaning": "법칙",
+    "hint": "일정한 조건에서 반복적으로 성립하는 관계·규칙입니다.",
+    "confusions": [
+      {
+        "japanese": "法律",
+        "distinction": "法則는 자연·현상 등의 규칙이고 法律는 국가가 정한 법이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1517380-1-ex-1",
+        "version": 1,
+        "before": "実験を重ねることで、温度と体積の関係を表す",
+        "answer": "法則",
+        "after": "を見つけた。",
+        "reading": "ほうそく",
+        "translation": "실험을 거듭해 온도와 부피의 관계를 나타내는 법칙을 찾아냈다.",
+        "translationTarget": "법칙",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1604280-1",
+    "wordId": "lex-jmdict-1604280",
+    "version": 1,
+    "meaning": "드물다",
+    "hint": "일어나는 횟수나 있는 수가 매우 적은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "頻繁",
+        "distinction": "흔히 일어나지 않는 상태와 자주 일어나는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1604280-1-ex-1",
+        "version": 1,
+        "before": "この地域で雪が積もるのは、",
+        "answer": "稀",
+        "after": "なことです。",
+        "reading": "まれ",
+        "translation": "이 지역에서 눈이 쌓이는 것은 드문 일입니다.",
+        "translationTarget": "드문",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451330-1",
+    "wordId": "lex-jmdict-1451330",
+    "version": 1,
+    "meaning": "동향",
+    "hint": "사회·시장·사람 등이 움직이는 경향입니다.",
+    "confusions": [
+      {
+        "japanese": "動機",
+        "distinction": "動向는 움직임의 경향이고 動機는 행동을 일으킨 이유이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451330-1-ex-1",
+        "version": 1,
+        "before": "海外市場の",
+        "answer": "動向",
+        "after": "を調べてから、販売戦略を決める。",
+        "reading": "どうこう",
+        "translation": "해외 시장 동향을 조사한 뒤 판매 전략을 정한다.",
+        "translationTarget": "동향",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1322720-1",
+    "wordId": "lex-jmdict-1322720",
+    "version": 1,
+    "meaning": "사회 과학",
+    "hint": "경제나 정치 등 인간 사회의 구조와 활동을 연구하는 분야",
+    "confusions": [
+      {
+        "japanese": "自然科学",
+        "distinction": "인간 사회의 활동을 연구하는 분야와 자연 현상을 연구하는 분야를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1322720-1-ex-1",
+        "version": 1,
+        "before": "失業の原因を考えることは、",
+        "answer": "社会科学",
+        "after": "の重要な課題の一つだ。",
+        "reading": "しゃかいかがく",
+        "translation": "실업의 원인을 생각하는 것은 사회 과학의 중요한 과제 중 하나다.",
+        "translationTarget": "사회 과학",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1539340-1",
+    "wordId": "lex-jmdict-1539340",
+    "version": 1,
+    "meaning": "우세함",
+    "hint": "경쟁·싸움에서 상대보다 형세가 좋습니다.",
+    "confusions": [
+      {
+        "japanese": "優勝",
+        "distinction": "優勢는 형세가 유리함이고 優勝는 경쟁에서 최종 1위가 됨이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1539340-1-ex-1",
+        "version": 1,
+        "before": "前半は",
+        "answer": "優勢",
+        "after": "だったが、後半に逆転された。",
+        "reading": "ゆうせい",
+        "translation": "전반에는 우세했지만 후반에 역전당했다.",
+        "translationTarget": "우세했지만",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1559870-1",
+    "wordId": "lex-jmdict-1559870",
+    "version": 1,
+    "meaning": "연맹",
+    "hint": "여러 단체가 공통 목적을 위해 결성한 연합 조직입니다.",
+    "confusions": [
+      {
+        "japanese": "連邦",
+        "distinction": "連盟는 단체들의 연합 조직이고 連邦는 국가 체제이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1559870-1-ex-1",
+        "version": 1,
+        "before": "競技の",
+        "answer": "連盟",
+        "after": "が、新しい大会規則を発表した。",
+        "reading": "れんめい",
+        "translation": "경기 연맹이 새 대회 규칙을 발표했다.",
+        "translationTarget": "연맹",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

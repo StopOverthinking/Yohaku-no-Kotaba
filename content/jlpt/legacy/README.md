@@ -4,7 +4,7 @@
 
 ## 고유한 기존 ID의 수준별 참조 게시
 
-`membership-reviews.json`에는 Astra high가 기존 단어의 현재 내용 및 권장 수준을 실제로 검토하여 **기존 ID를 내용 수정 없이 수준별 목록에 연결해도 된다**고 승인한 항목만 다음 형태로 저장한다. 첫 6개 승인·반영을 마쳤으며 미해결 내용은 `membership-held.json`에 보존한다.
+`membership-reviews.json`에는 Astra high가 기존 단어의 현재 내용 및 권장 수준을 실제로 검토하여 **기존 ID를 내용 수정 없이 수준별 목록에 연결해도 된다**고 승인한 항목만 다음 형태로 저장한다. 최종734개 참조를 승인·반영했으며 미해결 내용은 `membership-held.json`에 보존한다.
 
 검토 입력은 `node scripts/prepare-jlpt-reference-review.mjs`로 준비한다. 현재 해시와 독립 분류 승인을 대조한 뒤 이미 참조 승인·보류한 ID 및 정규형 중복/별칭 후보를 제외하고 현재 원본 전체를 `output/jlpt/legacy-reference-candidates.json`에 모은다. 보류 항목을 다시 볼 때만 `--include-held`를 사용한다. 분류 제안의 나머지 이슈도 남기며 이 명령은 승인이나 게시를 수행하지 않는다.
 
@@ -51,3 +51,11 @@
 `node scripts/prepare-jlpt-legacy-fixes.mjs`는 참조 보류 원장과 현재 원본·사전 근거를 합친 읽기 전용 수정 입력 `output/jlpt/legacy-fix-candidates.json`을 만든다. 보류 당시 해시 일치 여부와 이미 참조 승인된 항목을 명시한다. 예문 정정, 같은 핵심 뜻의 메타데이터 정정, 중요한 별도 용법 추가, 별칭 판단, 근거 부족을 구분해 제안하며 이 생성기로 원본이나 승인을 바꾸지 않는다.
 
 설명 정정·별도 용법 추가는 `revise-legacy-content.mjs --prepare <proposals.json>` 뒤 전체 초안에 대한 별도 Astra high 승인을 받아 `--apply <draft.json> <review.json>`으로 적용한다. scope=legacy-content-revision, draftHash/시각/메모와 `preservedCoreUsages` 각 행의 wordId/senseIds/decision=preserve-existing-core-usage/note가 필요하다. 기존 용법 ID/버전은 보존하고, 별도 용법은 새 ID/버전1이다. 원문/승인/결과를 content-revisions에 먼저 저장해 두 원본 파일의 부분 적용을 같은 승인으로만 복구한다. 현재 참조/활성 별칭 승인이 있는 단어는 별도 재검토 없이는 이 경로에서 바꾸지 않는다. 의미가 달라지는 정정에 기존 숙련도를 자동 승계하지 않는다.
+
+## 확정 선정과 명시적 복구 (2026-10-01)
+
+동일 핵심27그룹만 활성화했다. 미공개 중복 수준 참조2개(AbsoluteVerb_162 いる, AbsoluteVerb_239 見付ける)만 별도 독립 승인·현재 원격 공개 기준 대조·전후 이력으로 철회했다. 원본 ID·콘텐츠·프로필 및 나머지 상대 순서는 보존했다. 일반 가져오기의 추가 전용 규칙은 바꾸지 않았고 기존 공개 JLPTN3_115 참조를 유지했다. 이 좁은 복구를 일반 삭제 권한으로 사용하지 않는다.
+
+다른 핵심의 같은 정규형은 모든 원본 현재 해시를 포함한 `duplicateSelection: distinct-core-usages-no-profile-transfer` 승인으로 대표 하나만 수준 목록에 선택한다. 활성 별칭과 겹치거나 원본이 바뀌면 거부한다. 이 선택은 원본/프로필을 변경하지 않는다. 消す·出来る·違う가 해당하며 추가 용법은 새 ID를 사용한다.
+
+미선정 후보의 보류는 삭제나 전체 선정 미완료를 뜻하지 않는다. 현재 해시의 `final-selection-review.json`이 선정 범위와 실제 남은 누락을 별도로 판단한다.

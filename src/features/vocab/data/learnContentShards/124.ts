@@ -2120,6 +2120,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1292200-1",
+    "wordId": "lex-jmdict-1292200",
+    "version": 1,
+    "meaning": "독촉, 재촉",
+    "hint": "상대가 해야 할 일을 빨리 하도록 거듭 요구합니다.",
+    "confusions": [
+      {
+        "japanese": "催し",
+        "distinction": "催促는 독촉·재촉이고 催し는 행사·모임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1292200-1-ex-1",
+        "version": 1,
+        "before": "期限を過ぎても返事がなく、担当者に",
+        "answer": "催促",
+        "after": "のメールを送った。",
+        "reading": "さいそく",
+        "translation": "기한이 지나도 답장이 없어 담당자에게 독촉 메일을 보냈다.",
+        "translationTarget": "독촉",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1601420-1",
+    "wordId": "lex-jmdict-1601420",
+    "version": 1,
+    "meaning": "햇볕이 드는 정도",
+    "hint": "장소에 햇빛이 얼마나 잘 들어오는지의 상태",
+    "confusions": [
+      {
+        "japanese": "日陰",
+        "distinction": "햇빛이 들어오는 정도와 햇빛을 가린 그늘을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1601420-1-ex-1",
+        "version": 1,
+        "before": "この部屋は",
+        "answer": "日当たり",
+        "after": "がいいので、冬も暖かい。",
+        "reading": "ひあたり",
+        "translation": "이 방은 햇볕이 잘 들어서 겨울에도 따뜻하다.",
+        "translationTarget": "햇볕이 잘 들어서",
+        "difficulty": 25,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424500-1",
+    "wordId": "lex-jmdict-1424500",
+    "version": 1,
+    "meaning": "중상, 근거 없는 비방",
+    "hint": "근거 없이 남을 헐뜯어 명예를 해칩니다.",
+    "confusions": [
+      {
+        "japanese": "批判",
+        "distinction": "中傷는 근거 없는 비방이고 批判는 잘못·가치를 따져 평가함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424500-1-ex-1",
+        "version": 1,
+        "before": "匿名の",
+        "answer": "中傷",
+        "after": "によって、無関係な人まで傷つけられた。",
+        "reading": "ちゅうしょう",
+        "translation": "익명의 비방으로 관계없는 사람까지 상처를 입었다.",
+        "translationTarget": "비방",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549120-1",
+    "wordId": "lex-jmdict-1549120",
+    "version": 1,
+    "meaning": "남용",
+    "hint": "필요한 범위를 넘어 함부로 쓰는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "利用",
+        "distinction": "乱用는 부적절하게 지나치게 씀이고 利用는 목적에 맞게 활용함 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549120-1-ex-1",
+        "version": 1,
+        "before": "権限の",
+        "answer": "乱用",
+        "after": "を防ぐため、判断の記録を残す。",
+        "reading": "らんよう",
+        "translation": "권한 남용을 막으려고 판단 기록을 남긴다.",
+        "translationTarget": "남용",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1382970-1",
+    "wordId": "lex-jmdict-1382970",
+    "version": 1,
+    "meaning": "쌓다",
+    "hint": "여러 물건을 위로 겹쳐 올려놓아요.",
+    "confusions": [
+      {
+        "japanese": "崩す",
+        "distinction": "물건을 차곡차곡 올리는 것과 쌓인 것을 무너뜨리는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1382970-1-ex-1",
+        "version": 1,
+        "before": "箱を高く",
+        "answer": "積みすぎる",
+        "after": "と、倒れる危険がある。",
+        "reading": "つみすぎる",
+        "translation": "상자를 높이 너무 많이 쌓으면 넘어질 위험이 있다.",
+        "translationTarget": "너무 많이 쌓으면",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1518320-1",
+    "wordId": "lex-jmdict-1518320",
+    "version": 1,
+    "meaning": "끝까지·철저히",
+    "hint": "마지막까지 입장이나 태도를 바꾸지 않고 유지하는 모습",
+    "confusions": [
+      {
+        "japanese": "途中で",
+        "distinction": "끝까지 유지하는 것과 과정 중간에 바꾸는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1518320-1-ex-1",
+        "version": 1,
+        "before": "彼は周囲の反対にも、",
+        "answer": "飽くまで",
+        "after": "自分の考えを通した。",
+        "reading": "あくまで",
+        "translation": "그는 주변의 반대에도 끝까지 자기 생각을 밀고 나갔다.",
+        "translationTarget": "끝까지",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1333260-1",
+    "wordId": "lex-jmdict-1333260",
+    "version": 1,
+    "meaning": "중의원",
+    "hint": "일본 국회의 두 의회 중 하나입니다.",
+    "confusions": [
+      {
+        "japanese": "参議院",
+        "distinction": "衆議院는 일본 국회의 중의원이고 参議院는 참의원이다. 임기·선출 제도 등이 다르다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1333260-1-ex-1",
+        "version": 1,
+        "before": "新しい法案が、",
+        "answer": "衆議院",
+        "after": "で審議されている。",
+        "reading": "しゅうぎいん",
+        "translation": "새 법안이 중의원에서 심의되고 있다.",
+        "translationTarget": "중의원",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366150-1",
+    "wordId": "lex-jmdict-1366150",
+    "version": 1,
+    "meaning": "증정",
+    "hint": "물건을 상대에게 예의를 갖추어 줍니다.",
+    "confusions": [
+      {
+        "japanese": "寄贈",
+        "distinction": "進呈는 선물·경품 등을 정중히 줌이고 寄贈는 기관 등에 가치 있는 물건을 기증함에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366150-1-ex-1",
+        "version": 1,
+        "before": "来場者には、記念の冊子を",
+        "answer": "進呈",
+        "after": "します。",
+        "reading": "しんてい",
+        "translation": "방문자에게는 기념 책자를 증정합니다.",
+        "translationTarget": "증정",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

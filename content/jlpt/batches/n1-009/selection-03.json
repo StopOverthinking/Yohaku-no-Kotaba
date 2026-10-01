@@ -1,0 +1,561 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1419590",
+      "japanese": "断言",
+      "reading": "だんげん",
+      "level": "N1",
+      "spellings": [
+        "断言"
+      ],
+      "readings": [
+        "だんげん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "断言"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1423030",
+      "japanese": "着工",
+      "reading": "ちゃっこう",
+      "level": "N1",
+      "spellings": [
+        "着工"
+      ],
+      "readings": [
+        "ちゃっこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "着工"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1429080",
+      "japanese": "調印",
+      "reading": "ちょういん",
+      "level": "N1",
+      "spellings": [
+        "調印"
+      ],
+      "readings": [
+        "ちょういん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "調印"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1432480",
+      "japanese": "追及",
+      "reading": "ついきゅう",
+      "level": "N1",
+      "spellings": [
+        "追及"
+      ],
+      "readings": [
+        "ついきゅう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "追及"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1432670",
+      "japanese": "追放",
+      "reading": "ついほう",
+      "level": "N1",
+      "spellings": [
+        "追放"
+      ],
+      "readings": [
+        "ついほう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "追放"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1451260",
+      "japanese": "動員",
+      "reading": "どういん",
+      "level": "N1",
+      "spellings": [
+        "動員"
+      ],
+      "readings": [
+        "どういん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "動員"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1453120",
+      "japanese": "同調",
+      "reading": "どうちょう",
+      "level": "N1",
+      "spellings": [
+        "同調"
+      ],
+      "readings": [
+        "どうちょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "同調"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1427070",
+      "japanese": "著しい",
+      "reading": "いちじるしい",
+      "level": "N1",
+      "spellings": [
+        "著しい"
+      ],
+      "readings": [
+        "いちじるしい",
+        "いちぢるしい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "著しい"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1484600",
+      "japanese": "費やす",
+      "reading": "ついやす",
+      "level": "N1",
+      "spellings": [
+        "費やす",
+        "費す"
+      ],
+      "readings": [
+        "ついやす"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "費やす"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1487250",
+      "japanese": "匹敵",
+      "reading": "ひってき",
+      "level": "N1",
+      "spellings": [
+        "匹敵"
+      ],
+      "readings": [
+        "ひってき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "匹敵"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1498200",
+      "japanese": "赴任",
+      "reading": "ふにん",
+      "level": "N1",
+      "spellings": [
+        "赴任"
+      ],
+      "readings": [
+        "ふにん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "赴任"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1501490",
+      "japanese": "覆す",
+      "reading": "くつがえす",
+      "level": "N1",
+      "spellings": [
+        "覆す"
+      ],
+      "readings": [
+        "くつがえす"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "覆す"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1505010",
+      "japanese": "紛れる",
+      "reading": "まぎれる",
+      "level": "N1",
+      "spellings": [
+        "紛れる"
+      ],
+      "readings": [
+        "まぎれる"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "紛れる"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1504510",
+      "japanese": "分裂",
+      "reading": "ぶんれつ",
+      "level": "N1",
+      "spellings": [
+        "分裂"
+      ],
+      "readings": [
+        "ぶんれつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "分裂"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1494700",
+      "japanese": "不服",
+      "reading": "ふふく",
+      "level": "N1",
+      "spellings": [
+        "不服"
+      ],
+      "readings": [
+        "ふふく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不服"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1480310",
+      "japanese": "反響",
+      "reading": "はんきょう",
+      "level": "N1",
+      "spellings": [
+        "反響"
+      ],
+      "readings": [
+        "はんきょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "反響"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1480890",
+      "japanese": "反発",
+      "reading": "はんぱつ",
+      "level": "N1",
+      "spellings": [
+        "反発",
+        "反撥"
+      ],
+      "readings": [
+        "はんぱつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "反発"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1475730",
+      "japanese": "迫害",
+      "reading": "はくがい",
+      "level": "N1",
+      "spellings": [
+        "迫害"
+      ],
+      "readings": [
+        "はくがい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "迫害"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1472370",
+      "japanese": "排除",
+      "reading": "はいじょ",
+      "level": "N1",
+      "spellings": [
+        "排除"
+      ],
+      "readings": [
+        "はいじょ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "排除"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1472030",
+      "japanese": "廃棄",
+      "reading": "はいき",
+      "level": "N1",
+      "spellings": [
+        "廃棄"
+      ],
+      "readings": [
+        "はいき"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "廃棄"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1478660",
+      "japanese": "判定",
+      "reading": "はんてい",
+      "level": "N1",
+      "spellings": [
+        "判定"
+      ],
+      "readings": [
+        "はんてい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "判定"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1481670",
+      "japanese": "繁栄",
+      "reading": "はんえい",
+      "level": "N1",
+      "spellings": [
+        "繁栄"
+      ],
+      "readings": [
+        "はんえい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "繁栄"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1481700",
+      "japanese": "繁殖",
+      "reading": "はんしょく",
+      "level": "N1",
+      "spellings": [
+        "繁殖",
+        "蕃殖"
+      ],
+      "readings": [
+        "はんしょく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "繁殖"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1481710",
+      "japanese": "繁盛",
+      "reading": "はんじょう",
+      "level": "N1",
+      "spellings": [
+        "繁盛",
+        "繁昌",
+        "蕃昌"
+      ],
+      "readings": [
+        "はんじょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "繁盛"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1493150",
+      "japanese": "不振",
+      "reading": "ふしん",
+      "level": "N1",
+      "spellings": [
+        "不振"
+      ],
+      "readings": [
+        "ふしん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不振"
+        ]
+      }
+    }
+  ]
+}

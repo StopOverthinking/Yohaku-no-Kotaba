@@ -1,0 +1,54 @@
+[
+  {
+    "japanese": "見つける / 見付ける",
+    "dictionaryId": "jmdict-1604570",
+    "level": "N4",
+    "scope": "same-lexeme-and-representative-usage-only",
+    "representativeWordId": "JLPTN3_115",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:13:37.817Z",
+    "profileTransfer": "equivalent-core-usage",
+    "members": [
+      {
+        "wordId": "JLPTN3_115",
+        "senseId": "sense-JLPTN3_115-1",
+        "version": 1,
+        "sourceHash": "2330cfbb8adb6521b8e5c2822e9b4ef3ce86e13d1076ff8d556cb743a3d40bca",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-JLPTN3_115-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-JLPTN3_115-1-ex-2",
+            "version": 1
+          }
+        ]
+      },
+      {
+        "wordId": "AbsoluteVerb_239",
+        "senseId": "sense-AbsoluteVerb_239-1",
+        "version": 1,
+        "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "exampleVersions": [
+          {
+            "exampleId": "sense-AbsoluteVerb_239-1-ex-1",
+            "version": 1
+          },
+          {
+            "exampleId": "sense-AbsoluteVerb_239-1-ex-2",
+            "version": 1
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "발견한 결과라는 동일 대표 핵심이다. 두 표제/읽기/뜻/힌트/대비 및 열쇠·클로버·책·오자 발견 네 예문을 모두 읽었다. 찾는 과정 探す와 발견 결과의 구별이 일치한다.",
+      "먼저 공개된 N4 대표 JLPT115를 유지한다. AV239 원본 ID·내용·학습 기록을 보존하여 기존 보수적 규약으로 연결하며 미공개 중복 수준별 참조만 명시 철회한다."
+    ]
+  }
+]

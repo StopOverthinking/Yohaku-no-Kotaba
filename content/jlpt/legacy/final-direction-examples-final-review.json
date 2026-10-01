@@ -1,0 +1,13 @@
+{
+  "scope": "legacy-example-revision",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:02:34.811Z",
+  "draftHash": "fe9af4338aa4edf67608c779d3dd8b0102a7372d088abd91b2b0501182231097",
+  "notes": [
+    "Full four words, four senses and eight original examples read; three replacements read independently in JP and KO.",
+    "West sunset and reddening sky; south island holiday swimming; cold wind from north are natural direction uses and separate scenes.",
+    "Only selected examples increment v1 to v2. All word/sense IDs, versions, meanings, hints, contrasts, difficulty and other examples preserved. East remains unchanged."
+  ]
+}

@@ -1408,6 +1408,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1223110-1",
+    "wordId": "lex-jmdict-1223110",
+    "version": 1,
+    "meaning": "규약, 이용 규칙",
+    "hint": "단체·서비스의 이용과 운영에 관해 정한 규칙입니다.",
+    "confusions": [
+      {
+        "japanese": "規則",
+        "distinction": "規約는 단체나 서비스의 합의된 규칙에 흔하고 規則는 규칙 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1223110-1-ex-1",
+        "version": 1,
+        "before": "利用",
+        "answer": "規約",
+        "after": "を読んでから、アカウントを作成してください。",
+        "reading": "きやく",
+        "translation": "이용 규약을 읽은 뒤 계정을 만들어 주세요.",
+        "translationTarget": "규약",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1543320-1",
+    "wordId": "lex-jmdict-1543320",
+    "version": 1,
+    "meaning": "예비, 여분",
+    "hint": "필요할 때를 대비해 따로 준비해 둔 것입니다.",
+    "confusions": [
+      {
+        "japanese": "本番",
+        "distinction": "선택한 予備는 여분·대비용이고 本番는 실제 시행·공연이다. 사전 준비라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1543320-1-ex-1",
+        "version": 1,
+        "before": "電池が切れたときのために、",
+        "answer": "予備",
+        "after": "を二本持っている。",
+        "reading": "よび",
+        "translation": "건전지가 다 되었을 때를 위해 여분 두 개를 가지고 있다.",
+        "translationTarget": "여분",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379370-1",
+    "wordId": "lex-jmdict-1379370",
+    "version": 1,
+    "meaning": "생장, 식물의 성장",
+    "hint": "식물이 자라서 크기·부분이 발달하는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "成長",
+        "distinction": "生長는 식물의 생장에 쓰고 成長는 사람·동물·사업의 성장에도 쓴다. 식물에서는 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379370-1-ex-1",
+        "version": 1,
+        "before": "光の量によって、苗の",
+        "answer": "生長",
+        "after": "に違いが見られた。",
+        "reading": "せいちょう",
+        "translation": "빛의 양에 따라 모종의 생장에 차이가 나타났다.",
+        "translationTarget": "생장",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1358410-1",
+    "wordId": "lex-jmdict-1358410",
+    "version": 1,
+    "meaning": "식용 소금",
+    "hint": "음식에 맛을 내거나 보존하는 데 사용하는 소금",
+    "confusions": [
+      {
+        "japanese": "砂糖",
+        "distinction": "짠맛을 내는 재료와 단맛을 내는 재료를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1358410-1-ex-1",
+        "version": 1,
+        "before": "このスープは、",
+        "answer": "食塩",
+        "after": "を加えなくても十分に味がある。",
+        "reading": "しょくえん",
+        "translation": "이 수프는 소금을 넣지 않아도 맛이 충분하다.",
+        "translationTarget": "소금",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1515510-1",
+    "wordId": "lex-jmdict-1515510",
+    "version": 1,
+    "meaning": "포장",
+    "hint": "물건을 종이나 용기 등으로 싸는 것",
+    "confusions": [
+      {
+        "japanese": "開封",
+        "distinction": "물건을 싸는 것과 싸인 것을 여는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1515510-1-ex-1",
+        "version": 1,
+        "before": "壊れやすいので、",
+        "answer": "包装",
+        "after": "には厚い紙を使ってください。",
+        "reading": "ほうそう",
+        "translation": "깨지기 쉬우므로 포장에는 두꺼운 종이를 써 주세요.",
+        "translationTarget": "포장",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589960-1",
+    "wordId": "lex-jmdict-1589960",
+    "version": 1,
+    "meaning": "등기 우편",
+    "hint": "접수와 배달 과정을 기록하여 확인할 수 있는 우편",
+    "confusions": [
+      {
+        "japanese": "普通郵便",
+        "distinction": "배달 기록이 남는 우편과 일반 우편을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589960-1-ex-1",
+        "version": 1,
+        "before": "大切な証明書なので、",
+        "answer": "書留",
+        "after": "で送りました。",
+        "reading": "かきとめ",
+        "translation": "중요한 증명서이므로 등기 우편으로 보냈습니다.",
+        "translationTarget": "등기 우편",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254220-1",
+    "wordId": "lex-jmdict-1254220",
+    "version": 1,
+    "meaning": "결의, 결심",
+    "hint": "어떤 일을 하겠다고 마음을 단단히 정합니다.",
+    "confusions": [
+      {
+        "japanese": "決議",
+        "distinction": "決意는 개인의 굳은 결심이고 決議는 회의체의 공식 결정이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254220-1-ex-1",
+        "version": 1,
+        "before": "彼女は、自分の店を開く",
+        "answer": "決意",
+        "after": "を家族に伝えた。",
+        "reading": "けつい",
+        "translation": "그녀는 자기 가게를 열 결심을 가족에게 전했다.",
+        "translationTarget": "결심",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1544040-1",
+    "wordId": "lex-jmdict-1544040",
+    "version": 1,
+    "meaning": "여흥, 행사 중 오락",
+    "hint": "모임·행사에서 분위기를 즐겁게 하는 추가 공연·놀이입니다.",
+    "confusions": [
+      {
+        "japanese": "娯楽",
+        "distinction": "余興는 행사 중 분위기를 돋우는 오락이고 娯楽는 즐기기 위한 활동 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1544040-1-ex-1",
+        "version": 1,
+        "before": "送別会の",
+        "answer": "余興",
+        "after": "で、同僚たちが短い劇を演じた。",
+        "reading": "よきょう",
+        "translation": "송별회 여흥으로 동료들이 짧은 연극을 했다.",
+        "translationTarget": "여흥",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329630-1",
+    "wordId": "lex-jmdict-1329630",
+    "version": 1,
+    "meaning": "받아들이다, 진지하게 받아들이다",
+    "hint": "말·사건의 뜻을 마음에 받아들이고 그에 반응합니다.",
+    "confusions": [
+      {
+        "japanese": "受け取る",
+        "distinction": "선택한 受け止める는 내용·감정을 진지하게 받아들임이고 受け取る는 물건·정보를 받음 일반이다. 날아오는 것을 받아 막는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329630-1-ex-1",
+        "version": 1,
+        "before": "厳しい意見も真剣に",
+        "answer": "受け止めて",
+        "after": "、改善に生かした。",
+        "reading": "うけとめて",
+        "translation": "따끔한 의견도 진지하게 받아들여 개선에 활용했다.",
+        "translationTarget": "받아들여",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477470-1",
+    "wordId": "lex-jmdict-1477470",
+    "version": 1,
+    "meaning": "발작",
+    "hint": "병의 증상이 갑자기 강하게 나타납니다.",
+    "confusions": [
+      {
+        "japanese": "症状",
+        "distinction": "発作는 갑작스러운 증상 발생이고 症状는 병에서 나타나는 상태 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477470-1-ex-1",
+        "version": 1,
+        "before": "患者は突然の",
+        "answer": "発作",
+        "after": "について、医師に詳しく伝えた。",
+        "reading": "ほっさ",
+        "translation": "환자는 갑작스러운 발작에 대해 의사에게 자세히 말했다.",
+        "translationTarget": "발작",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

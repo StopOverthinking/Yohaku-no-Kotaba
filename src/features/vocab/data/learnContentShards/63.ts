@@ -1652,6 +1652,326 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1147800-1",
+    "wordId": "lex-jmdict-1147800",
+    "version": 1,
+    "meaning": "로비",
+    "hint": "호텔이나 극장 입구 안쪽의 넓은 대기 공간",
+    "confusions": [
+      {
+        "japanese": "客室",
+        "distinction": "입구 쪽의 공용 대기 공간과 투숙객의 방을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1147800-1-ex-1",
+        "version": 1,
+        "before": "チェックアウトの後、",
+        "answer": "ロビー",
+        "after": "で迎えの車を待った。",
+        "reading": "ロビー",
+        "translation": "체크아웃 후 로비에서 마중 오는 차를 기다렸다.",
+        "translationTarget": "로비",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1589330-1",
+    "wordId": "lex-jmdict-1589330",
+    "version": 1,
+    "meaning": "생각이 떠오르다",
+    "hint": "이전에는 없던 방법이나 아이디어가 갑자기 머리에 떠올라요.",
+    "confusions": [
+      {
+        "japanese": "思い出す",
+        "distinction": "선택한 용법은 새 아이디어가 떠오르는 뜻으로, 기억을 되살리는 思い出す와 초점을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1589330-1-ex-1",
+        "version": 1,
+        "before": "帰りの電車で、問題を解く別の方法を",
+        "answer": "思いついた",
+        "after": "。",
+        "reading": "おもいついた",
+        "translation": "돌아오는 전철에서 문제를 푸는 다른 방법이 떠올랐다.",
+        "translationTarget": "떠올랐다",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1426190-1",
+    "wordId": "lex-jmdict-1426190",
+    "version": 1,
+    "meaning": "추상",
+    "hint": "구체적인 개별 모습에서 공통 성질·개념을 뽑아냅니다.",
+    "confusions": [
+      {
+        "japanese": "具体",
+        "distinction": "抽象는 공통 개념으로 나타냄이고 具体는 실제 모습·예로 나타냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1426190-1-ex-1",
+        "version": 1,
+        "before": "説明が",
+        "answer": "抽象",
+        "after": "的すぎて、何をすればよいか分からなかった。",
+        "reading": "ちゅうしょう",
+        "translation": "설명이 지나치게 추상적이어서 무엇을 하면 될지 알 수 없었다.",
+        "translationTarget": "추상",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545420-1",
+    "wordId": "lex-jmdict-1545420",
+    "version": 1,
+    "meaning": "용적",
+    "hint": "그릇·공간의 내부에 담을 수 있는 부피입니다.",
+    "confusions": [
+      {
+        "japanese": "面積",
+        "distinction": "容積는 내부의 부피·용량이고 面積는 평면의 넓이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545420-1-ex-1",
+        "version": 1,
+        "before": "箱の",
+        "answer": "容積",
+        "after": "を計算して、荷物が全部入るか確かめた。",
+        "reading": "ようせき",
+        "translation": "상자의 용적을 계산해 짐이 전부 들어가는지 확인했다.",
+        "translationTarget": "용적",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1491400-1",
+    "wordId": "lex-jmdict-1491400",
+    "version": 1,
+    "meaning": "불가결함, 꼭 필요함",
+    "hint": "없으면 일이 성립하기 어려울 정도로 필요합니다.",
+    "confusions": [
+      {
+        "japanese": "不要",
+        "distinction": "不可欠는 빠질 수 없이 필요함이고 不要는 필요 없음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1491400-1-ex-1",
+        "version": 1,
+        "before": "安全な運転には、十分な睡眠が",
+        "answer": "不可欠",
+        "after": "だ。",
+        "reading": "ふかけつ",
+        "translation": "안전 운전에는 충분한 수면이 꼭 필요하다.",
+        "translationTarget": "꼭 필요하다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1582410-1",
+    "wordId": "lex-jmdict-1582410",
+    "version": 1,
+    "meaning": "울퉁불퉁함",
+    "hint": "높고 낮은 부분이 섞여 표면이 고르지 않은 상태",
+    "confusions": [
+      {
+        "japanese": "平ら",
+        "distinction": "표면이 고르지 않은 상태와 평평한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1582410-1-ex-1",
+        "version": 1,
+        "before": "道路の",
+        "answer": "凸凹",
+        "after": "が多くて、自転車が何度も揺れた。",
+        "reading": "でこぼこ",
+        "translation": "도로에 울퉁불퉁한 곳이 많아 자전거가 몇 번이나 흔들렸다.",
+        "translationTarget": "울퉁불퉁한 곳",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1453190-1",
+    "wordId": "lex-jmdict-1453190",
+    "version": 1,
+    "meaning": "동등함",
+    "hint": "비교 대상과 가치·정도·수준이 같습니다.",
+    "confusions": [
+      {
+        "japanese": "同一",
+        "distinction": "同等는 수준·가치가 같음이고 同一는 동일한 대상·내용임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1453190-1-ex-1",
+        "version": 1,
+        "before": "経験が少なくても、",
+        "answer": "同等",
+        "after": "の能力があれば応募できる。",
+        "reading": "どうとう",
+        "translation": "경험이 적어도 동등한 능력이 있으면 지원할 수 있다.",
+        "translationTarget": "동등한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1452720-1",
+    "wordId": "lex-jmdict-1452720",
+    "version": 1,
+    "meaning": "동정",
+    "hint": "다른 사람의 어려움을 이해하고 안타깝게 여깁니다.",
+    "confusions": [
+      {
+        "japanese": "共感",
+        "distinction": "同情는 어려움을 안타깝게 여김이고 共感는 상대의 생각·감정을 함께 느낌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1452720-1-ex-1",
+        "version": 1,
+        "before": "事情を聞いて",
+        "answer": "同情",
+        "after": "したが、規則を変えることはできなかった。",
+        "reading": "どうじょう",
+        "translation": "사정을 듣고 동정했지만 규칙을 바꿀 수는 없었다.",
+        "translationTarget": "동정",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1471420-1",
+    "wordId": "lex-jmdict-1471420",
+    "version": 1,
+    "meaning": "파편·조각",
+    "hint": "깨지거나 부서진 물체에서 떨어져 나온 부분",
+    "confusions": [
+      {
+        "japanese": "全体",
+        "distinction": "부서져 나온 조각과 물체의 전체를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1471420-1-ex-1",
+        "version": 1,
+        "before": "窓が割れた後、床の",
+        "answer": "破片",
+        "after": "を慎重に拾い集めた。",
+        "reading": "はへん",
+        "translation": "창문이 깨진 뒤 바닥의 파편을 조심해서 주워 모았다.",
+        "translationTarget": "파편",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1318110-1",
+    "wordId": "lex-jmdict-1318110",
+    "version": 1,
+    "meaning": "자연 과학",
+    "hint": "자연 현상을 관찰과 실험으로 연구하는 학문 분야",
+    "confusions": [
+      {
+        "japanese": "社会科学",
+        "distinction": "자연 현상을 연구하는 분야와 인간 사회를 연구하는 분야를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1318110-1-ex-1",
+        "version": 1,
+        "before": "この博物館では、",
+        "answer": "自然科学",
+        "after": "を体験しながら学べる。",
+        "reading": "しぜんかがく",
+        "translation": "이 박물관에서는 자연 과학을 체험하며 배울 수 있다.",
+        "translationTarget": "자연 과학",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

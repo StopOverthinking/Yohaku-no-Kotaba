@@ -1732,6 +1732,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1457830-1",
+    "wordId": "lex-jmdict-1457830",
+    "version": 1,
+    "meaning": "내과",
+    "hint": "몸 안의 질병을 주로 약·검사 등으로 진료하는 분야·진료과입니다.",
+    "confusions": [
+      {
+        "japanese": "外科",
+        "distinction": "内科는 내과이고 外科는 수술 등을 중심으로 진료하는 외과이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1457830-1-ex-1",
+        "version": 1,
+        "before": "熱が三日も下がらないので、近くの",
+        "answer": "内科",
+        "after": "を受診した。",
+        "reading": "ないか",
+        "translation": "열이 사흘이나 내리지 않아 근처 내과에서 진료를 받았다.",
+        "translationTarget": "내과",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1579510-1",
+    "wordId": "lex-jmdict-1579510",
+    "version": 1,
+    "meaning": "시행",
+    "hint": "정해진 법률·제도를 실제로 효력이 있도록 실행합니다.",
+    "confusions": [
+      {
+        "japanese": "公布",
+        "distinction": "선택한 施行는 법·제도의 시행이고 公布는 확정한 법령을 공적으로 알림이다. せこう 읽기도 있으나 선택 읽기는 しこう다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1579510-1-ex-1",
+        "version": 1,
+        "before": "新しい条例は、来年の四月から",
+        "answer": "施行",
+        "after": "される。",
+        "reading": "しこう",
+        "translation": "새 조례는 내년 4월부터 시행된다.",
+        "translationTarget": "시행",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474110-1",
+    "wordId": "lex-jmdict-1474110",
+    "version": 1,
+    "meaning": "배상",
+    "hint": "다른 사람에게 준 손해를 책임지고 갚는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "補償",
+        "distinction": "賠償는 책임 있는 손해를 배상함이고 補償는 손실을 메우는 더 넓은 보상이다. 실제 적용 범위는 제도에 따라 다르다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474110-1-ex-1",
+        "version": 1,
+        "before": "裁判所は、事故による損害の",
+        "answer": "賠償",
+        "after": "を命じた。",
+        "reading": "ばいしょう",
+        "translation": "법원은 사고로 인한 손해의 배상을 명령했다.",
+        "translationTarget": "배상",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1336980-1",
+    "wordId": "lex-jmdict-1336980",
+    "version": 1,
+    "meaning": "중력",
+    "hint": "물체를 지구 등 큰 천체 쪽으로 끌어당기는 힘",
+    "confusions": [
+      {
+        "japanese": "摩擦",
+        "distinction": "천체가 물체를 끌어당기는 힘과 접촉면에서 운동을 방해하는 힘을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1336980-1-ex-1",
+        "version": 1,
+        "before": "月では",
+        "answer": "重力",
+        "after": "が小さいため、高く跳べます。",
+        "reading": "じゅうりょく",
+        "translation": "달에서는 중력이 작아서 높이 뛸 수 있습니다.",
+        "translationTarget": "중력",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1496990-1",
+    "wordId": "lex-jmdict-1496990",
+    "version": 1,
+    "meaning": "부양",
+    "hint": "자력으로 생활하기 어려운 가족 등의 생계를 돌봅니다.",
+    "confusions": [
+      {
+        "japanese": "養育",
+        "distinction": "扶養는 경제적으로 생활을 돌봄이고 養育는 아이를 보살펴 기름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1496990-1-ex-1",
+        "version": 1,
+        "before": "父が退職してから、兄が家族を",
+        "answer": "扶養",
+        "after": "している。",
+        "reading": "ふよう",
+        "translation": "아버지가 퇴직한 뒤로 형이 가족을 부양하고 있다.",
+        "translationTarget": "부양",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1429080-1",
+    "wordId": "lex-jmdict-1429080",
+    "version": 1,
+    "meaning": "조인, 서명 체결",
+    "hint": "공식 문서에 서명하여 협정·계약을 확정합니다.",
+    "confusions": [
+      {
+        "japanese": "署名",
+        "distinction": "調印는 협정 등 공식 문서의 체결 서명이고 署名는 자기 이름을 적는 서명 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1429080-1-ex-1",
+        "version": 1,
+        "before": "代表者が協定書に",
+        "answer": "調印",
+        "after": "し、交流事業が正式に決まった。",
+        "reading": "ちょういん",
+        "translation": "대표자가 협정서에 조인하여 교류 사업이 공식적으로 정해졌다.",
+        "translationTarget": "조인",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1432480-1",
+    "wordId": "lex-jmdict-1432480",
+    "version": 1,
+    "meaning": "추궁",
+    "hint": "책임·원인 등을 끝까지 따져 밝힙니다.",
+    "confusions": [
+      {
+        "japanese": "追求",
+        "distinction": "追及는 책임·원인을 따짐이고 追求는 목표·가치 등을 계속 구함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1432480-1-ex-1",
+        "version": 1,
+        "before": "記者は、不正の責任を",
+        "answer": "追及",
+        "after": "する質問を続けた。",
+        "reading": "ついきゅう",
+        "translation": "기자는 부정행위의 책임을 추궁하는 질문을 이어 갔다.",
+        "translationTarget": "추궁",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1480540-1",
+    "wordId": "lex-jmdict-1480540",
+    "version": 1,
+    "meaning": "반성",
+    "hint": "자신의 행동을 돌아보아 잘못과 개선할 점을 생각하는 것",
+    "confusions": [
+      {
+        "japanese": "後悔",
+        "distinction": "행동을 돌아보며 개선점을 찾는 것과 지난 일을 아쉬워하는 마음을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1480540-1-ex-1",
+        "version": 1,
+        "before": "自分の準備不足を",
+        "answer": "反省",
+        "after": "して、次の計画に生かした。",
+        "reading": "はんせい",
+        "translation": "자신의 준비 부족을 반성하여 다음 계획에 반영했다.",
+        "translationTarget": "반성",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454000-1",
+    "wordId": "lex-jmdict-1454000",
+    "version": 1,
+    "meaning": "동화",
+    "hint": "어린이를 위해 쓴 이야기",
+    "confusions": [
+      {
+        "japanese": "論文",
+        "distinction": "어린이에게 들려주는 이야기와 연구 결과를 정리한 글을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454000-1-ex-1",
+        "version": 1,
+        "before": "寝る前に",
+        "answer": "童話",
+        "after": "を一つ読むのが、親子の習慣だ。",
+        "reading": "どうわ",
+        "translation": "잠들기 전에 동화 한 편을 읽는 것이 부모와 아이의 습관이다.",
+        "translationTarget": "동화",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

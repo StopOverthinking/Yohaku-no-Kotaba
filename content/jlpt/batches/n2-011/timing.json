@@ -1,0 +1,49 @@
+{
+  "batch": "n2-011",
+  "status": "draft-ready",
+  "authorModel": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-10-01T00:22:41Z",
+  "plannedWords": 75,
+  "segments": [
+    {
+      "fileNumber": "01",
+      "startedAt": "2026-10-01T00:22:41Z",
+      "draftCompletedAt": "2026-10-01T00:24:25.589930+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:24:27.038Z",
+      "preflightMilliseconds": 1129.0889
+    },
+    {
+      "fileNumber": "02",
+      "startedAt": "2026-10-01T00:24:28Z",
+      "draftCompletedAt": "2026-10-01T00:26:25.024292+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:26:26.507Z",
+      "preflightMilliseconds": 1088.9079000000002
+    },
+    {
+      "fileNumber": "03",
+      "startedAt": "2026-10-01T00:26:27Z",
+      "draftCompletedAt": "2026-10-01T00:28:15.897119+00:00",
+      "wordCount": 25,
+      "pureThinkingSeconds": null,
+      "wallTimeNote": "Measured elapsed author segment time; pure reasoning time unavailable.",
+      "revisionAttempts": 0,
+      "observedErrors": 0,
+      "validationCompletedAt": "2026-10-01T00:28:17.162Z",
+      "preflightMilliseconds": 975.6229000000001
+    }
+  ],
+  "actualWords": 75,
+  "completedAt": "2026-10-01T00:28:17.162Z",
+  "closedEarlyReason": "Root stop instruction received immediately after part03 completed. Part04 not started. Fresh author total575; prioritize core alias comparisons."
+}

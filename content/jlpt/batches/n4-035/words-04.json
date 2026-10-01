@@ -1,0 +1,26 @@
+[
+  {
+    "japanese": "泊める",
+    "reading": "とめる",
+    "type": "verb",
+    "meaning": "재워 주다·숙박시키다",
+    "hint": "다른 사람이 자기 집 등에서 밤을 보내게 해요.",
+    "confusion": "泊まる",
+    "distinction": "다른 사람을 재워 주는 행동과 자신이 숙박하는 행동을 구별한다.",
+    "dictionaryId": "jmdict-1474860",
+    "level": "N4",
+    "levelNote": "선택 용법에 대한 비공식 N4 편집 수준."
+  },
+  {
+    "japanese": "治す",
+    "reading": "なおす",
+    "type": "verb",
+    "meaning": "치료하다·낫게 하다",
+    "hint": "병이나 상처를 회복시켜 건강한 상태로 만들어요.",
+    "confusion": "治る",
+    "distinction": "병이나 상처를 낫게 하는 타동사와 병이나 상처가 낫는 자동사를 구별한다.",
+    "dictionaryId": "jmdict-2856318",
+    "level": "N4",
+    "levelNote": "선택 용법에 대한 비공식 N4 편집 수준."
+  }
+]

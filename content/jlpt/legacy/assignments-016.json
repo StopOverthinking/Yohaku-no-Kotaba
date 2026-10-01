@@ -313,16 +313,14 @@
   },
   {
     "wordId": "JLPTN3_478",
-    "sourceHash": "509fba72d395de1774036fa0259be6d5b53359a04f8a42e83c4ea836087a5024",
-    "level": "N3",
+    "sourceHash": "3aebf711b47dd28cb8484a1695c5ec54a3a4967da1d36406fff525fb20efd69b",
+    "level": "N4",
     "dictionaryId": "jmdict-1349380",
     "suggestedType": "noun",
-    "levelNote": "현재 noun 용법의 사전 출처 등급은 N3이다. 대표 예문의 의미 범위를 검토하여 N3로 제안한다.",
-    "meaningReview": "기존 뜻 “마루” 및 1개 sense를 대조했다. floor와 젖은 바닥·아기 기기 예문이 일치한다. 기존 마루는 목재 바닥으로 좁아 보일 수 있어 바닥도 포함하는 뜻 정리를 제안한다.",
+    "levelNote": "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N4 수준.",
+    "meaningReview": "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
     "aliasCandidateIds": [],
-    "issues": [
-      "床는 재질과 관계없는 실내 바닥이므로 마루·바닥으로 뜻을 넓힐 후보이다."
-    ]
+    "issues": []
   },
   {
     "wordId": "JLPTN3_479",

@@ -1,0 +1,1043 @@
+{
+  "scope": "whole-selected-candidate-variant-overlap-semantic-adjudication",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:13:37.817Z",
+  "scanHash": "23e9455eb3f6e28946a9863a7c1f0a6dc4b2bf132a38fcf92bdbd562f7c40f7a",
+  "method": "All 16 source words, senses, hints, contrasts and 32 Japanese/Korean examples in all 8 groups were read independently. Dictionary candidate overlap is not equivalence.",
+  "groups": [
+    {
+      "dictionaryId": "jmdict-1604570",
+      "decision": "equivalent-selected-core; withdraw-unreleased-duplicate-reference",
+      "notes": [
+        "두 표기는 발견한 결과라는 동일 대표 핵심이다. 잃은 열쇠/네잎 클로버/헌책방의 책/오자 발견 네 문장을 모두 읽었다. 탐색 과정과 발견 결과의 대비가 일치한다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "JLPTN3_115",
+            "setId": "jlpt-n3",
+            "japanese": "見つける",
+            "reading": "みつける",
+            "meaning": "찾아내다, 발견하다",
+            "type": "verb",
+            "difficulty": 20,
+            "verbInfo": "2타",
+            "sourceOrder": 114
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_115-1",
+              "wordId": "JLPTN3_115",
+              "version": 1,
+              "meaning": "찾아내다",
+              "hint": "찾던 것이나 눈에 띈 것을 발견하는 순간이에요.",
+              "confusions": [
+                {
+                  "japanese": "探す",
+                  "distinction": "찾는 과정이 아니라 발견했다는 결과에 초점이 있다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_115-1-ex-1",
+                  "version": 1,
+                  "before": "なくした鍵を、コートの内側で",
+                  "answer": "見つけた",
+                  "after": "。",
+                  "reading": "みつけた",
+                  "translation": "잃어버린 열쇠를 외투 안쪽에서 찾았다.",
+                  "translationTarget": "찾았다",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_115-1-ex-2",
+                  "version": 1,
+                  "before": "四つ葉のクローバーを",
+                  "answer": "見つけたら",
+                  "after": "、写真を撮ってね。",
+                  "reading": "みつけたら",
+                  "translation": "네 잎 클로버를 찾으면 사진을 찍어 줘.",
+                  "translationTarget": "찾으면",
+                  "difficulty": 20,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "2330cfbb8adb6521b8e5c2822e9b4ef3ce86e13d1076ff8d556cb743a3d40bca"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_239",
+            "setId": "AbsoluteVerb",
+            "japanese": "見付ける",
+            "reading": "みつける",
+            "meaning": "눈으로 찾아내다, 발견하다",
+            "type": "verb",
+            "difficulty": 22,
+            "verbInfo": "2타",
+            "sourceOrder": 237
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_239-1",
+              "wordId": "AbsoluteVerb_239",
+              "version": 1,
+              "meaning": "찾아서 발견하다",
+              "hint": "찾던 것이 어디 있는지 마침내 알아내요.",
+              "confusions": [
+                {
+                  "japanese": "探す",
+                  "distinction": "찾으려 애쓰는 과정과 달리 발견한 결과를 뜻한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_239-1-ex-1",
+                  "version": 1,
+                  "before": "古本屋で、ずっと欲しかった本を",
+                  "answer": "見付けた",
+                  "after": "。",
+                  "reading": "みつけた",
+                  "translation": "헌책방에서 줄곧 갖고 싶었던 책을 찾아냈다.",
+                  "translationTarget": "찾아냈다",
+                  "difficulty": 22,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_239-1-ex-2",
+                  "version": 1,
+                  "before": "誤字を",
+                  "answer": "見付けたら",
+                  "after": "、赤い丸を付けてください。",
+                  "reading": "みつけたら",
+                  "translation": "오자를 발견하면 빨간 동그라미를 표시해 주세요.",
+                  "translationTarget": "발견하면",
+                  "difficulty": 22,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "709454d81c44ab9993fe223719e0356818d42423936c98bcd64627cbfda86730"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1202450",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "明ける는 밤이 끝나 아침이 되는 자동 변화, 開ける는 닫힌 것을 여는 타동 행동이다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_13",
+            "setId": "AbsoluteVerb",
+            "japanese": "明ける",
+            "reading": "あける",
+            "meaning": "(날이) 밝다, (해가) 바뀌다",
+            "type": "verb",
+            "difficulty": 28,
+            "verbInfo": "2자",
+            "sourceOrder": 12
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_13-1",
+              "wordId": "AbsoluteVerb_13",
+              "version": 1,
+              "meaning": "날이 밝다",
+              "hint": "밤이 끝나고 아침이 되는 변화예요.",
+              "confusions": [
+                {
+                  "japanese": "明るくなる",
+                  "distinction": "조명 때문에 밝아지는 것까지 포함하지 않고 밤이 끝나는 시간 변화를 말한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_13-1-ex-1",
+                  "version": 1,
+                  "before": "夜が",
+                  "answer": "明ける",
+                  "after": "前に出発したので、道はまだ暗かった。",
+                  "reading": "あける",
+                  "translation": "날이 밝기 전에 출발해서 길은 아직 어두웠다.",
+                  "translationTarget": "밝기",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_13-1-ex-2",
+                  "version": 1,
+                  "before": "話し込んでいるうちに、すっかり夜が",
+                  "answer": "明けていた",
+                  "after": "。",
+                  "reading": "あけていた",
+                  "translation": "이야기에 빠져 있는 사이에 날이 완전히 밝아 있었다.",
+                  "translationTarget": "밝아 있었다",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "e3ff29be8586cf1ed1c31eeb00592ac27b4c79e06d59d76aad9886c42671e3c0"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_76",
+            "setId": "AbsoluteVerb",
+            "japanese": "開ける",
+            "reading": "あける",
+            "meaning": "(문, 뚜껑 등을) 열다, (눈을) 뜨다",
+            "type": "verb",
+            "difficulty": 15,
+            "verbInfo": "2타",
+            "sourceOrder": 75
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_76-1",
+              "wordId": "AbsoluteVerb_76",
+              "version": 1,
+              "meaning": "닫힌 것을 열다",
+              "hint": "문이나 뚜껑을 움직여 안팎이 통하게 해요.",
+              "confusions": [
+                {
+                  "japanese": "開く",
+                  "distinction": "대상 자체가 열리는 것과 달리 사람이 열어 주는 행동이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_76-1-ex-1",
+                  "version": 1,
+                  "before": "両手がふさがっているから、ドアを",
+                  "answer": "開けて",
+                  "after": "くれる？",
+                  "reading": "あけて",
+                  "translation": "양손이 다 차 있어서 그런데 문을 열어 줄래?",
+                  "translationTarget": "열어",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_76-1-ex-2",
+                  "version": 1,
+                  "before": "箱を",
+                  "answer": "開けた",
+                  "after": "瞬間、花の香りがした。",
+                  "reading": "あけた",
+                  "translation": "상자를 연 순간 꽃향기가 났다.",
+                  "translationTarget": "연",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "1c815852c34cb0dd147bf716c0ea625ed167d17ed752ef7e2a18ebea5a039741"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1532910",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "鳴る는 소리 발생, なる는 상태/계절이 되는 변화다. 가나 표기의 사전 교차 연결만으로 동일 뜻이라 할 수 없다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_26",
+            "setId": "AbsoluteVerb",
+            "japanese": "鳴る",
+            "reading": "なる",
+            "meaning": "울리다",
+            "type": "verb",
+            "difficulty": 22,
+            "verbInfo": "1자",
+            "sourceOrder": 25
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_26-1",
+              "wordId": "AbsoluteVerb_26",
+              "version": 1,
+              "meaning": "소리가 울리다",
+              "hint": "누가 울리는 행동보다 소리 자체가 나는 현상이에요.",
+              "confusions": [
+                {
+                  "japanese": "鳴らす",
+                  "distinction": "사람이 소리를 내게 하는 것과 달리 대상에서 소리가 난다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_26-1-ex-1",
+                  "version": 1,
+                  "before": "授業中に携帯が",
+                  "answer": "鳴って",
+                  "after": "、慌てて電源を切った。",
+                  "reading": "なって",
+                  "translation": "수업 중에 휴대전화가 울려서 허둥지둥 전원을 껐다.",
+                  "translationTarget": "울려서",
+                  "difficulty": 22,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_26-1-ex-2",
+                  "version": 1,
+                  "before": "玄関のベルが",
+                  "answer": "鳴った",
+                  "after": "。宅配便かな。",
+                  "reading": "なった",
+                  "translation": "현관 벨이 울렸다. 택배일까?",
+                  "translationTarget": "울렸다",
+                  "difficulty": 22,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "9e223cb3a676769f6316afe0ac74a34c1efa4a08efd249d87c4658bb125699df"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_527",
+            "setId": "AbsoluteVerb",
+            "japanese": "なる",
+            "reading": "なる",
+            "meaning": "다른 것/상태로 되다",
+            "type": "verb",
+            "difficulty": 10,
+            "verbInfo": "1자",
+            "sourceOrder": 525
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_527-1",
+              "wordId": "AbsoluteVerb_527",
+              "version": 1,
+              "meaning": "되다",
+              "hint": "시간이나 원인에 따라 상태가 바뀌어요. 직접 바꾸는 행동과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "する",
+                  "distinction": "어떤 상태로 만드는 행위와 그 상태로 변하는 것을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_527-1-ex-1",
+                  "version": 1,
+                  "before": "日が落ちて、急に暗く",
+                  "answer": "なった",
+                  "after": "。",
+                  "reading": "なった",
+                  "translation": "해가 져서 갑자기 어두워졌다.",
+                  "translationTarget": "졌다",
+                  "difficulty": 10,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_527-1-ex-2",
+                  "version": 1,
+                  "before": "春に",
+                  "answer": "なる",
+                  "after": "と、この道は花でいっぱいだ。",
+                  "reading": "なる",
+                  "translation": "봄이 되면 이 길은 꽃으로 가득하다.",
+                  "translationTarget": "되면",
+                  "difficulty": 10,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "be7208deab84a92f530c63873f317aeefa772c9113e59f14e848082f54a476ba"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1198180",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "遭う는 재난·도난·비를 겪음, 会う는 사람과 마주 만남이다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_28",
+            "setId": "AbsoluteVerb",
+            "japanese": "遭う",
+            "reading": "あう",
+            "meaning": "(일을) 당하다, 겪다",
+            "type": "verb",
+            "difficulty": 38,
+            "verbInfo": "1자",
+            "sourceOrder": 27
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_28-1",
+              "wordId": "AbsoluteVerb_28",
+              "version": 1,
+              "meaning": "좋지 않은 일을 당하다",
+              "hint": "원하지 않은 사고나 재난에 맞닥뜨려요.",
+              "confusions": [
+                {
+                  "japanese": "会う",
+                  "distinction": "사람을 만나는 중립적 만남과 달리 재난이나 피해를 겪는 경우에 쓰는 표기다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_28-1-ex-1",
+                  "version": 1,
+                  "before": "旅先で盗難に",
+                  "answer": "遭った",
+                  "after": "が、パスポートは無事だった。",
+                  "reading": "あった",
+                  "translation": "여행지에서 도난을 당했지만 여권은 무사했다.",
+                  "translationTarget": "당했지만",
+                  "difficulty": 38,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_28-1-ex-2",
+                  "version": 1,
+                  "before": "突然の雨に",
+                  "answer": "遭って",
+                  "after": "、近くの店へ駆け込んだ。",
+                  "reading": "あって",
+                  "translation": "갑작스러운 비를 만나 근처 가게로 뛰어들었다.",
+                  "translationTarget": "만나",
+                  "difficulty": 38,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "8314128a5bfaf5748cb9d61f35c018cd66ec55f4efd850b5701219b42a3f1422"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_408",
+            "setId": "AbsoluteVerb",
+            "japanese": "会う",
+            "reading": "あう",
+            "meaning": "만나다",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "1자",
+            "sourceOrder": 406
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_408-1",
+              "wordId": "AbsoluteVerb_408",
+              "version": 1,
+              "meaning": "사람을 만나다",
+              "hint": "서로 같은 곳에서 얼굴을 마주해요.",
+              "confusions": [
+                {
+                  "japanese": "合う",
+                  "distinction": "발음은 같지만 조건이 맞는 뜻이 아니라 사람과 만나는 행동이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_408-1-ex-1",
+                  "version": 1,
+                  "before": "旅先で昔の先生に",
+                  "answer": "会って",
+                  "after": "、とても驚いた。",
+                  "reading": "あって",
+                  "translation": "여행지에서 옛 선생님을 만나 무척 놀랐다.",
+                  "translationTarget": "만나",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_408-1-ex-2",
+                  "version": 1,
+                  "before": "メールだけでは伝わらないから、一度",
+                  "answer": "会おう",
+                  "after": "。",
+                  "reading": "あおう",
+                  "translation": "이메일만으로는 전달되지 않으니 한번 만나자.",
+                  "translationTarget": "만나자",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "7dafc46d3c043a58f033b48dcffdf19f1e8bbb540f492978f67723623bf05ff7"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1432710",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "痛む는 신체 통증, 傷む는 책·과일의 손상과 변질이다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_56",
+            "setId": "AbsoluteVerb",
+            "japanese": "痛む",
+            "reading": "いたむ",
+            "meaning": "아프다",
+            "type": "verb",
+            "difficulty": 28,
+            "verbInfo": "1자",
+            "sourceOrder": 55
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_56-1",
+              "wordId": "AbsoluteVerb_56",
+              "version": 1,
+              "meaning": "아프다",
+              "hint": "마음의 고민보다 여기서는 몸의 통증을 말해요.",
+              "confusions": [
+                {
+                  "japanese": "傷む",
+                  "distinction": "음식이나 물건이 상하는 표기와 달리 통증에 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_56-1-ex-1",
+                  "version": 1,
+                  "before": "階段を上ると、古いけがのところが",
+                  "answer": "痛む",
+                  "after": "。",
+                  "reading": "いたむ",
+                  "translation": "계단을 오르면 예전에 다친 곳이 아프다.",
+                  "translationTarget": "아프다",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_56-1-ex-2",
+                  "version": 1,
+                  "before": "歯が",
+                  "answer": "痛んで",
+                  "after": "、夕食を半分残した。",
+                  "reading": "いたんで",
+                  "translation": "이가 아파서 저녁 식사를 절반 남겼다.",
+                  "translationTarget": "아파서",
+                  "difficulty": 28,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "87347fe5cbab72ea084f7742e23a045b7e3b774eca44bdfa247e8b9113335511"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_57",
+            "setId": "AbsoluteVerb",
+            "japanese": "傷む",
+            "reading": "いたむ",
+            "meaning": "(무생물이) 상하다, 망가지다",
+            "type": "verb",
+            "difficulty": 32,
+            "verbInfo": "1자",
+            "sourceOrder": 56
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_57-1",
+              "wordId": "AbsoluteVerb_57",
+              "version": 1,
+              "meaning": "상하다",
+              "hint": "물건의 상태가 나빠져요. 아픔을 느끼는 것과 표기가 달라요.",
+              "confusions": [
+                {
+                  "japanese": "痛む",
+                  "distinction": "신체의 통증을 뜻하는 동음어와 달리 물건의 손상이나 식품의 변질이다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_57-1-ex-1",
+                  "version": 1,
+                  "before": "雨にぬれて、本の表紙が",
+                  "answer": "傷んだ",
+                  "after": "。",
+                  "reading": "いたんだ",
+                  "translation": "비에 젖어서 책 표지가 상했다.",
+                  "translationTarget": "상했다",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_57-1-ex-2",
+                  "version": 1,
+                  "before": "この桃は",
+                  "answer": "傷みやすい",
+                  "after": "ので、早めに食べてね。",
+                  "reading": "いたみやすい",
+                  "translation": "이 복숭아는 상하기 쉬우니 일찍 먹어.",
+                  "translationTarget": "상하기 쉬우니",
+                  "difficulty": 32,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "4777431676e79bb6c80133f6956bc1dda6baf824fe61e851093e529c456d9259"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1600270",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "載せる는 그림·사진의 매체 게재, 乗せる는 사람을 탈것에 태움이다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_249",
+            "setId": "AbsoluteVerb",
+            "japanese": "載せる",
+            "reading": "のせる",
+            "meaning": "게재하다",
+            "type": "verb",
+            "difficulty": 34,
+            "verbInfo": "2타",
+            "sourceOrder": 247
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_249-1",
+              "wordId": "AbsoluteVerb_249",
+              "version": 1,
+              "meaning": "싣다",
+              "hint": "사람을 태우는 것이 아니라 글이나 사진을 매체에 실어요.",
+              "confusions": [
+                {
+                  "japanese": "乗せる",
+                  "distinction": "탈것에 태우는 표기와 달리 출판물 등에 게재할 때 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_249-1-ex-1",
+                  "version": 1,
+                  "before": "学校の新聞に、私の絵が",
+                  "answer": "載せられた",
+                  "after": "。",
+                  "reading": "のせられた",
+                  "translation": "학교 신문에 내 그림이 실렸다.",
+                  "translationTarget": "실렸다",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_249-1-ex-2",
+                  "version": 1,
+                  "before": "この写真をブログに",
+                  "answer": "載せても",
+                  "after": "いいですか。",
+                  "reading": "のせても",
+                  "translation": "이 사진을 블로그에 실어도 되나요?",
+                  "translationTarget": "실어도",
+                  "difficulty": 34,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "6cbf49e3436b7cf349af5d40da37601d491e84dca9b5f3889ad57ddaf630938f"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_350",
+            "setId": "AbsoluteVerb",
+            "japanese": "乗せる",
+            "reading": "のせる",
+            "meaning": "(탈것에) 태우다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "2타",
+            "sourceOrder": 348
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_350-1",
+              "wordId": "AbsoluteVerb_350",
+              "version": 1,
+              "meaning": "탈것에 태우다",
+              "hint": "사람이 차나 배 등에 타도록 해요.",
+              "confusions": [
+                {
+                  "japanese": "載せる",
+                  "distinction": "물건을 싣거나 글을 게재하는 표기와 달리 사람을 탈것에 태운다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_350-1-ex-1",
+                  "version": 1,
+                  "before": "けがをした友達を車に",
+                  "answer": "乗せて",
+                  "after": "、病院へ向かった。",
+                  "reading": "のせて",
+                  "translation": "다친 친구를 차에 태우고 병원으로 향했다.",
+                  "translationTarget": "태우고",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_350-1-ex-2",
+                  "version": 1,
+                  "before": "駅まで",
+                  "answer": "乗せて",
+                  "after": "くれるなら、あと五分で支度するよ。",
+                  "reading": "のせて",
+                  "translation": "역까지 태워 준다면 5분 안에 준비할게.",
+                  "translationTarget": "태워",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "7d1acadc984bd13e159574823984dc494e1311fcc64f9f5ddf93764b21a8139a"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1352320",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "上げる는 위치를 높임, あげる는 물건을 다른 사람에게 줌이다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_266",
+            "setId": "AbsoluteVerb",
+            "japanese": "上げる",
+            "reading": "あげる",
+            "meaning": "올리다",
+            "type": "verb",
+            "difficulty": 15,
+            "verbInfo": "2타",
+            "sourceOrder": 264
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_266-1",
+              "wordId": "AbsoluteVerb_266",
+              "version": 1,
+              "meaning": "높은 쪽으로 올리다",
+              "hint": "위치나 높이를 지금보다 높게 만들어요.",
+              "confusions": [
+                {
+                  "japanese": "上がる",
+                  "distinction": "대상의 위치가 올라가는 변화와 누군가 그 대상을 올리는 행동을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_266-1-ex-1",
+                  "version": 1,
+                  "before": "後ろにも見えるように、写真を高く",
+                  "answer": "上げた",
+                  "after": "。",
+                  "reading": "あげた",
+                  "translation": "뒤에서도 보이도록 사진을 높이 들어 올렸다.",
+                  "translationTarget": "들어 올렸다",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_266-1-ex-2",
+                  "version": 2,
+                  "before": "質問がある人は、手を",
+                  "answer": "上げて",
+                  "after": "ください。",
+                  "reading": "あげて",
+                  "translation": "질문이 있는 사람은 손을 들어 주세요.",
+                  "translationTarget": "들어",
+                  "difficulty": 15,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "9f963ece78559b97c8920a8c8547604b218548383b9937ab373a119aec72e339"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_328",
+            "setId": "AbsoluteVerb",
+            "japanese": "あげる",
+            "reading": "あげる",
+            "meaning": "주다 (상대에게 건네다)",
+            "type": "verb",
+            "difficulty": 12,
+            "verbInfo": "2타",
+            "sourceOrder": 326
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_328-1",
+              "wordId": "AbsoluteVerb_328",
+              "version": 1,
+              "meaning": "주다",
+              "hint": "다른 사람에게 물건을 주어요. 제삼자가 또 다른 사람에게 주는 상황에도 써요.",
+              "confusions": [
+                {
+                  "japanese": "くれる",
+                  "distinction": "주는 쪽에서 상대에게 건네는 수여를 나타낸다. 비교 표현은 화자나 화자 쪽 사람에게 주는 상황을 중심으로 말한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_328-1-ex-1",
+                  "version": 1,
+                  "before": "弟に使わなくなった時計を",
+                  "answer": "あげた",
+                  "after": "。",
+                  "reading": "あげた",
+                  "translation": "남동생에게 쓰지 않는 시계를 주었다.",
+                  "translationTarget": "주었다",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_328-1-ex-2",
+                  "version": 1,
+                  "before": "その花は誰に",
+                  "answer": "あげる",
+                  "after": "の？",
+                  "reading": "あげる",
+                  "translation": "그 꽃은 누구에게 줄 거야?",
+                  "translationTarget": "줄",
+                  "difficulty": 12,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "854d4ff114444be064d64432bbaf21e6b3cb3df399218757200a84bbd9cba05d"
+        }
+      ]
+    },
+    {
+      "dictionaryId": "jmdict-1589500",
+      "decision": "distinct-selected-cores; keep-separate-profiles",
+      "notes": [
+        "下りる는 계단·산의 높은 곳에서 낮은 곳으로 이동, 降りる는 역·정류장에서 탈것을 떠남이다."
+      ],
+      "members": [
+        {
+          "word": {
+            "id": "AbsoluteVerb_271",
+            "setId": "AbsoluteVerb",
+            "japanese": "下りる",
+            "reading": "おりる",
+            "meaning": "(높은 곳에서) 내려가다, (탈것에서) 내리다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "2자",
+            "sourceOrder": 269
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_271-1",
+              "wordId": "AbsoluteVerb_271",
+              "version": 1,
+              "meaning": "내려가다",
+              "hint": "높은 곳에서 낮은 곳으로 옮겨요. 떨어지는 것과 달라요.",
+              "confusions": [
+                {
+                  "japanese": "落ちる",
+                  "distinction": "통제 없이 낙하하는 것과 내려가는 이동을 구별한다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_271-1-ex-1",
+                  "version": 1,
+                  "before": "階段を",
+                  "answer": "下りる",
+                  "after": "とき、手すりにつかまった。",
+                  "reading": "おりる",
+                  "translation": "계단을 내려갈 때 난간을 붙잡았다.",
+                  "translationTarget": "내려갈",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_271-1-ex-2",
+                  "version": 1,
+                  "before": "暗くなる前に山を",
+                  "answer": "下りた",
+                  "after": "。",
+                  "reading": "おりた",
+                  "translation": "어두워지기 전에 산을 내려왔다.",
+                  "translationTarget": "내려왔다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "36df4ca929c14aeee8a14414cfbba88d985b8cf3a24b21c3eebdbc52f8c70e21"
+        },
+        {
+          "word": {
+            "id": "AbsoluteVerb_351",
+            "setId": "AbsoluteVerb",
+            "japanese": "降りる",
+            "reading": "おりる",
+            "meaning": "(탈것에서) 내리다, 내려오다",
+            "type": "verb",
+            "difficulty": 14,
+            "verbInfo": "2자",
+            "sourceOrder": 349
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_351-1",
+              "wordId": "AbsoluteVerb_351",
+              "version": 1,
+              "meaning": "탈것에서 내리다",
+              "hint": "여정 전체를 멈추지 않아도 타던 차에서 밖으로 나와요.",
+              "confusions": [
+                {
+                  "japanese": "下りる",
+                  "distinction": "높은 곳에서 내려가는 표기와 달리 탈것에서 내릴 때 이 표기를 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_351-1-ex-1",
+                  "version": 1,
+                  "before": "次の駅で",
+                  "answer": "降りて",
+                  "after": "、地下鉄に乗り換える。",
+                  "reading": "おりて",
+                  "translation": "다음 역에서 내려서 지하철로 갈아탄다.",
+                  "translationTarget": "내려서",
+                  "difficulty": 14,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_351-1-ex-2",
+                  "version": 1,
+                  "before": "バスを",
+                  "answer": "降りた",
+                  "after": "途端、雨が強くなった。",
+                  "reading": "おりた",
+                  "translation": "버스에서 내리자마자 비가 거세졌다.",
+                  "translationTarget": "내리자마자",
+                  "difficulty": 14,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ],
+          "sourceHash": "f48f99746e7e5dbc96b03e78a5f19e6ab24c7bad73a694999176223b7776168f"
+        }
+      ]
+    }
+  ]
+}

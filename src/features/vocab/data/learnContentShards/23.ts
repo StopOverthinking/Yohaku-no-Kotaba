@@ -1232,6 +1232,454 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1272320-1",
+    "wordId": "lex-jmdict-1272320",
+    "version": 1,
+    "meaning": "교통수단, 교통기관",
+    "hint": "사람·물건을 이동시키는 버스·철도 등의 수단·체계입니다.",
+    "confusions": [
+      {
+        "japanese": "交通費",
+        "distinction": "交通機関는 교통수단·기관이고 交通費는 이동에 드는 비용이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1272320-1-ex-1",
+        "version": 1,
+        "before": "大雪で、町の公共",
+        "answer": "交通機関",
+        "after": "がほとんど止まってしまった。",
+        "reading": "こうつうきかん",
+        "translation": "폭설로 마을의 대중 교통수단이 거의 모두 멈춰 버렸다.",
+        "translationTarget": "교통수단",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1352930-1",
+    "wordId": "lex-jmdict-1352930",
+    "version": 1,
+    "meaning": "상급·고급 단계",
+    "hint": "학습이나 기술의 수준이 높은 단계",
+    "confusions": [
+      {
+        "japanese": "初級",
+        "distinction": "높은 수준의 단계와 처음 배우는 단계를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1352930-1-ex-1",
+        "version": 1,
+        "before": "来月から",
+        "answer": "上級",
+        "after": "クラスに移るので、復習を増やしました。",
+        "reading": "じょうきゅう",
+        "translation": "다음 달부터 상급 반으로 옮기므로 복습을 늘렸습니다.",
+        "translationTarget": "상급",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1351900-1",
+    "wordId": "lex-jmdict-1351900",
+    "version": 1,
+    "meaning": "상징",
+    "hint": "어떤 생각·성질을 구체적인 사물이나 모습으로 나타냅니다.",
+    "confusions": [
+      {
+        "japanese": "証拠",
+        "distinction": "象徴는 의미를 나타내는 상징이고 証拠는 사실을 뒷받침하는 근거이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1351900-1-ex-1",
+        "version": 1,
+        "before": "白い鳩は、平和の",
+        "answer": "象徴",
+        "after": "としてよく描かれる。",
+        "reading": "しょうちょう",
+        "translation": "흰 비둘기는 평화의 상징으로 자주 그려진다.",
+        "translationTarget": "상징",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546850-1",
+    "wordId": "lex-jmdict-1546850",
+    "version": 1,
+    "meaning": "요령, 핵심 방법",
+    "hint": "일을 제대로 해내기 위한 핵심 방법·처리 방식입니다.",
+    "confusions": [
+      {
+        "japanese": "要旨",
+        "distinction": "선택한 要領는 일 처리의 핵심 요령이고 要旨는 글·말의 요약이다. 사무 절차의 주요 내용도 뜻한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546850-1-ex-1",
+        "version": 1,
+        "before": "何度か練習するうちに、道具の使い方の",
+        "answer": "要領",
+        "after": "がつかめた。",
+        "reading": "ようりょう",
+        "translation": "여러 번 연습하는 동안 도구 사용의 요령을 파악했다.",
+        "translationTarget": "요령",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443810-1",
+    "wordId": "lex-jmdict-1443810",
+    "version": 1,
+    "meaning": "전력",
+    "hint": "전기가 일을 하는 속도를 나타내는 양이며, 공급되는 전기를 가리키기도 합니다.",
+    "confusions": [
+      {
+        "japanese": "電圧",
+        "distinction": "電力는 전기의 일률 또는 공급 전력이고 電圧는 두 지점 사이의 전위차이다. 같은 물리량이 아니다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443810-1-ex-1",
+        "version": 1,
+        "before": "猛暑で冷房の使用が増え、",
+        "answer": "電力",
+        "after": "の需要が高まった。",
+        "reading": "でんりょく",
+        "translation": "폭염으로 냉방 사용이 늘어 전력 수요가 높아졌다.",
+        "translationTarget": "전력",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1493150-1",
+    "wordId": "lex-jmdict-1493150",
+    "version": 1,
+    "meaning": "부진",
+    "hint": "성적·매출·활동이 기대보다 활발하지 못합니다.",
+    "confusions": [
+      {
+        "japanese": "不調",
+        "distinction": "不振는 성적·실적의 부진에 흔하고 不調는 상태가 좋지 않음 일반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1493150-1-ex-1",
+        "version": 1,
+        "before": "販売の",
+        "answer": "不振",
+        "after": "が続き、広告の方法を見直すことになった。",
+        "reading": "ふしん",
+        "translation": "판매 부진이 계속되어 광고 방법을 재검토하게 되었다.",
+        "translationTarget": "부진",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1295190-1",
+    "wordId": "lex-jmdict-1295190",
+    "version": 1,
+    "meaning": "부서지다",
+    "hint": "단단한 물체가 여러 조각으로 나뉘어 깨져요.",
+    "confusions": [
+      {
+        "japanese": "砕く",
+        "distinction": "물체가 부서지는 상태와 누군가 부수는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1295190-1-ex-1",
+        "version": 1,
+        "before": "落とした花瓶が",
+        "answer": "砕けて",
+        "after": "、床に破片が散らばった。",
+        "reading": "くだけて",
+        "translation": "떨어뜨린 꽃병이 부서져서 바닥에 파편이 흩어졌다.",
+        "translationTarget": "부서져서",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1385350-1",
+    "wordId": "lex-jmdict-1385350",
+    "version": 1,
+    "meaning": "접하다·맞닿다",
+    "hint": "서로 가까이 있어 경계나 부분이 맞닿아 있어요.",
+    "confusions": [
+      {
+        "japanese": "離れる",
+        "distinction": "경계가 맞닿은 상태와 떨어져 있는 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1385350-1-ex-1",
+        "version": 1,
+        "before": "学校の敷地は、北側で公園に",
+        "answer": "接している",
+        "after": "。",
+        "reading": "せっしている",
+        "translation": "학교 부지는 북쪽에서 공원과 맞닿아 있다.",
+        "translationTarget": "맞닿아 있다",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1447230-1",
+    "wordId": "lex-jmdict-1447230",
+    "version": 1,
+    "meaning": "투자",
+    "hint": "수익·미래 성과를 기대하며 돈·자원을 씁니다.",
+    "confusions": [
+      {
+        "japanese": "浪費",
+        "distinction": "投資는 장래 성과를 기대한 투입이고 浪費는 불필요하게 낭비함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1447230-1-ex-1",
+        "version": 1,
+        "before": "会社は、人材を育てるための",
+        "answer": "投資",
+        "after": "を増やした。",
+        "reading": "とうし",
+        "translation": "회사는 인재 육성을 위한 투자를 늘렸다.",
+        "translationTarget": "투자",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1399830-1",
+    "wordId": "lex-jmdict-1399830",
+    "version": 1,
+    "meaning": "꽂다",
+    "hint": "가느다란 물건 등을 틈이나 용기 안에 세워 넣어요.",
+    "confusions": [
+      {
+        "japanese": "抜く",
+        "distinction": "물체를 꽂아 넣는 것과 꽂힌 것을 빼는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1399830-1-ex-1",
+        "version": 1,
+        "before": "庭の花を一本切って、小さな瓶に",
+        "answer": "挿した",
+        "after": "。",
+        "reading": "さした",
+        "translation": "정원의 꽃을 한 송이 잘라 작은 병에 꽂았다.",
+        "translationTarget": "꽂았다",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1612270-1",
+    "wordId": "lex-jmdict-1612270",
+    "version": 1,
+    "meaning": "영해",
+    "hint": "국가의 주권이 미치는 주변 바다의 범위입니다.",
+    "confusions": [
+      {
+        "japanese": "領土",
+        "distinction": "領海는 주권이 미치는 바다이고 領土는 땅이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1612270-1-ex-1",
+        "version": 1,
+        "before": "船は、その国の",
+        "answer": "領海",
+        "after": "に入る前に航路を確認した。",
+        "reading": "りょうかい",
+        "translation": "배는 그 나라 영해에 들어가기 전에 항로를 확인했다.",
+        "translationTarget": "영해",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404190-1",
+    "wordId": "lex-jmdict-1404190",
+    "version": 1,
+    "meaning": "즉시, 곧바로",
+    "hint": "생각·행동을 지체하지 않고 바로 합니다.",
+    "confusions": [
+      {
+        "japanese": "徐々に",
+        "distinction": "即座に는 즉각적임이고 徐々に는 조금씩 점진적임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404190-1-ex-1",
+        "version": 1,
+        "before": "質問された彼女は、",
+        "answer": "即座に",
+        "after": "答えを示した。",
+        "reading": "そくざに",
+        "translation": "질문받은 그녀는 즉시 답을 제시했다.",
+        "translationTarget": "즉시",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1254870-1",
+    "wordId": "lex-jmdict-1254870",
+    "version": 1,
+    "meaning": "결정, 노력의 결실",
+    "hint": "계속 쌓인 노력·경험이 모여 구체적인 결과가 됩니다.",
+    "confusions": [
+      {
+        "japanese": "結果",
+        "distinction": "선택한 結晶는 노력의 응축된 결실이고 結果는 일의 결과 일반이다. 규칙적 구조의 고체라는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1254870-1-ex-1",
+        "version": 1,
+        "before": "この作品は、長年の研究と工夫の",
+        "answer": "結晶",
+        "after": "だ。",
+        "reading": "けっしょう",
+        "translation": "이 작품은 오랜 연구와 궁리의 결실이다.",
+        "translationTarget": "결실",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1562180-1",
+    "wordId": "lex-jmdict-1562180",
+    "version": 1,
+    "meaning": "일본풍",
+    "hint": "일본 전통의 형태·분위기를 띱니다.",
+    "confusions": [
+      {
+        "japanese": "洋風",
+        "distinction": "和風는 일본식 분위기이고 洋風는 서양식 분위기이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1562180-1-ex-1",
+        "version": 1,
+        "before": "駅の近くに、",
+        "answer": "和風",
+        "after": "の庭を楽しめる喫茶店がある。",
+        "reading": "わふう",
+        "translation": "역 근처에 일본풍 정원을 즐길 수 있는 카페가 있다.",
+        "translationTarget": "일본풍",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

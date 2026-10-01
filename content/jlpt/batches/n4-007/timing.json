@@ -1,0 +1,11 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-09-30T23:46:10.684Z",
+  "draftCompletedAt": "2026-09-30T23:46:10.687Z",
+  "words": 3,
+  "examples": 3,
+  "scope": "practical-level-gaps",
+  "limitations": "Saved-file generation timestamps only. Selection, reading and composition before execution not measured; do not use as authoring throughput.",
+  "pureCompositionTime": null
+}

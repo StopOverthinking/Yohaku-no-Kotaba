@@ -1632,6 +1632,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329690-1",
+    "wordId": "lex-jmdict-1329690",
+    "version": 1,
+    "meaning": "접수하다, 받아들이다",
+    "hint": "신청·예약·요청 등을 공식적으로 받습니다.",
+    "confusions": [
+      {
+        "japanese": "受け取る",
+        "distinction": "선택한 受け付ける는 신청 등을 접수하고 受け取る는 물건·정보를 받는다. 음식 등을 몸이 받아들이는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329690-1-ex-1",
+        "version": 1,
+        "before": "参加の申し込みは、来週の金曜日まで",
+        "answer": "受け付ける",
+        "after": "。",
+        "reading": "うけつける",
+        "translation": "참가 신청은 다음 주 금요일까지 접수한다.",
+        "translationTarget": "접수한다",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1362930-1",
+    "wordId": "lex-jmdict-1362930",
+    "version": 1,
+    "meaning": "제안하다, 신청하다",
+    "hint": "자신의 의사·요청을 상대에게 먼저 밝힙니다.",
+    "confusions": [
+      {
+        "japanese": "申し込む",
+        "distinction": "申し出る는 자발적으로 제안·요청을 밝히고 申し込む는 정해진 신청 절차로 지원하는 데 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1362930-1-ex-1",
+        "version": 1,
+        "before": "重い箱を運ぶ同僚に、手伝いを",
+        "answer": "申し出た",
+        "after": "。",
+        "reading": "もうしでた",
+        "translation": "무거운 상자를 옮기는 동료에게 돕겠다고 제안했다.",
+        "translationTarget": "제안했다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1281930-1",
+    "wordId": "lex-jmdict-1281930",
+    "version": 1,
+    "meaning": "행사",
+    "hint": "특정 목적이나 관례에 따라 여는 활동",
+    "confusions": [
+      {
+        "japanese": "日常",
+        "distinction": "특별한 목적과 일정으로 여는 활동과 평소 생활을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1281930-1-ex-1",
+        "version": 1,
+        "before": "学校の",
+        "answer": "行事",
+        "after": "が重なって、今月は忙しくなりそうだ。",
+        "reading": "ぎょうじ",
+        "translation": "학교 행사가 겹쳐서 이번 달은 바빠질 것 같다.",
+        "translationTarget": "행사",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1454970-1",
+    "wordId": "lex-jmdict-1454970",
+    "version": 1,
+    "meaning": "특수함",
+    "hint": "일반적인 경우와 달리 특별한 조건·성질이 있습니다.",
+    "confusions": [
+      {
+        "japanese": "一般",
+        "distinction": "特殊는 일반적이지 않은 특별한 성질이고 一般는 널리 공통된 경우이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1454970-1-ex-1",
+        "version": 1,
+        "before": "この作業には、",
+        "answer": "特殊",
+        "after": "な装置が必要になる。",
+        "reading": "とくしゅ",
+        "translation": "이 작업에는 특수한 장치가 필요하다.",
+        "translationTarget": "특수한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343250-1",
+    "wordId": "lex-jmdict-1343250",
+    "version": 1,
+    "meaning": "소지",
+    "hint": "물건·자격 등을 현재 지니고 있습니다.",
+    "confusions": [
+      {
+        "japanese": "所有",
+        "distinction": "所持는 현재 지니고 있음이고 所有는 자기 소유임에 초점을 둔다. 겹치는 경우도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343250-1-ex-1",
+        "version": 1,
+        "before": "受付で、資格証の",
+        "answer": "所持",
+        "after": "を確認された。",
+        "reading": "しょじ",
+        "translation": "접수처에서 자격증 소지 여부를 확인받았다.",
+        "translationTarget": "소지",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1436400-1",
+    "wordId": "lex-jmdict-1436400",
+    "version": 1,
+    "meaning": "제시",
+    "hint": "상대가 판단·확인하도록 자료·조건 등을 보여 줍니다.",
+    "confusions": [
+      {
+        "japanese": "提出",
+        "distinction": "提示는 보도록 보여 줌이고 提出는 심사·접수 등의 목적으로 내놓음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1436400-1-ex-1",
+        "version": 1,
+        "before": "契約の前に、会社から具体的な条件が",
+        "answer": "提示",
+        "after": "された。",
+        "reading": "ていじ",
+        "translation": "계약 전에 회사가 구체적인 조건을 제시했다.",
+        "translationTarget": "제시",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1486670-1",
+    "wordId": "lex-jmdict-1486670",
+    "version": 1,
+    "meaning": "미용",
+    "hint": "몸이나 외모를 아름답게 가꾸는 일",
+    "confusions": [
+      {
+        "japanese": "治療",
+        "distinction": "외모를 가꾸는 일과 질병을 고치는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1486670-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "美容",
+        "after": "のためだけでなく、健康のためにもよく眠りたい。",
+        "reading": "びよう",
+        "translation": "미용을 위해서뿐 아니라 건강을 위해서도 충분히 자고 싶다.",
+        "translationTarget": "미용",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1325360-1",
+    "wordId": "lex-jmdict-1325360",
+    "version": 1,
+    "meaning": "주권",
+    "hint": "국가·정치의 최종 권한을 가진 지위·권리입니다.",
+    "confusions": [
+      {
+        "japanese": "人権",
+        "distinction": "主権는 국가·정치의 최고 권한이고 人権는 사람이 지닌 기본 권리이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1325360-1-ex-1",
+        "version": 1,
+        "before": "授業では、国民の",
+        "answer": "主権",
+        "after": "と選挙の関係を考えた。",
+        "reading": "しゅけん",
+        "translation": "수업에서는 국민의 주권과 선거의 관계를 생각했다.",
+        "translationTarget": "주권",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

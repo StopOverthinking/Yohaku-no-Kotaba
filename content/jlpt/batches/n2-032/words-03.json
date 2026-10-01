@@ -1,0 +1,62 @@
+[
+  {
+    "japanese": "測量",
+    "reading": "そくりょう",
+    "type": "noun",
+    "meaning": "측량",
+    "hint": "땅의 위치와 거리와 높이를 재어 지도나 도면으로 나타내는 일",
+    "confusion": "測定",
+    "distinction": "땅의 위치와 형태를 재는 일과 일반적인 수치 측정을 구별한다.",
+    "dictionaryId": "jmdict-1404590",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "中性",
+    "reading": "ちゅうせい",
+    "type": "noun",
+    "meaning": "중성",
+    "hint": "산성이나 알칼리성 어느 쪽에도 치우치지 않는 성질",
+    "confusion": "酸性",
+    "distinction": "어느 쪽에도 치우치지 않는 성질과 산의 성질을 구별한다.",
+    "dictionaryId": "jmdict-1424710",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "中途",
+    "reading": "ちゅうと",
+    "type": "noun",
+    "meaning": "도중·중도",
+    "hint": "일이나 과정이 아직 끝나지 않은 중간 단계",
+    "confusion": "完了",
+    "distinction": "과정의 중간 단계와 일이 끝난 상태를 구별한다.",
+    "dictionaryId": "jmdict-1425030",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "直流",
+    "reading": "ちょくりゅう",
+    "type": "noun",
+    "meaning": "직류",
+    "hint": "한 방향으로 계속 흐르는 전류",
+    "confusion": "交流",
+    "distinction": "한 방향으로 흐르는 전류와 방향이 주기적으로 바뀌는 전류를 구별한다.",
+    "dictionaryId": "jmdict-1431600",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "電流",
+    "reading": "でんりゅう",
+    "type": "noun",
+    "meaning": "전류",
+    "hint": "전하가 이동하는 흐름",
+    "confusion": "電圧",
+    "distinction": "전하의 흐름과 그 흐름을 일으키는 전기적 차이를 구별한다.",
+    "dictionaryId": "jmdict-1443790",
+    "level": "N2",
+    "levelNote": "선택한 실제 의미의 어휘 난도와 일반 생활·학습/문어적 범위를 독립 검토한 비공식 N2 권장 수준."
+  }
+]

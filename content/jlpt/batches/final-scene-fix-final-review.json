@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "scope": "explicit-reviewed-example-revision",
+  "reviewedAt": "2026-10-01T00:55:37.527Z",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "outcome": "accepted",
+  "historyFile": "content/jlpt/batches/final-scene-fix-history.json",
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1526360",
+      "contentHash": "9410159713de069679c0d7558b8099860158e068c02343529c8dea3c5c2004d6",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T00:52:25.963Z",
+      "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+      "notes": [
+        "선물 수령 장면을 잉크 보충 중 손에 묻는 장면으로 바꾼다. 기존 잉크가 떨어진 상태·편지 쓰기 장면과 구별한다.",
+        "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+      ]
+    },
+    {
+      "wordId": "lex-jmdict-1310050",
+      "contentHash": "cc6d2567f398fe871ead2f4f3b0a83e27abbd8da759120893a392772a1d5b697",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T00:52:25.963Z",
+      "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+      "notes": [
+        "선물 수령 장면을 치수 조정 이후 착용 결과로 바꾼다. 기존 조금 크다는 상태 묘사와 구별한다.",
+        "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+      ]
+    },
+    {
+      "wordId": "lex-jmdict-1042080",
+      "contentHash": "55909b2a2372a58ad2765b433187f3cfde106e3ddc19e26bbb647d77844522bd",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T00:52:25.963Z",
+      "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+      "notes": [
+        "선물 수령 장면을 입안에서 녹아 맛이 퍼지는 장면으로 바꾼다.",
+        "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+      ]
+    },
+    {
+      "wordId": "lex-jmdict-1013050",
+      "contentHash": "da0fbd60af13784f17fcea71107207e5eb88850f7992e578b63b29b2025dbe96",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T00:52:25.963Z",
+      "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+      "notes": [
+        "친구와 대화하는 장면을 휴일 아침 식사로 바꿔 충분한 시간을 들이는 기존 뜻을 유지한다.",
+        "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+      ]
+    },
+    {
+      "wordId": "lex-jmdict-1594110",
+      "contentHash": "c5b9373699c5be71ef9fec7ae7af024d1af732bd25154fc2fde22e6010d5f0e1",
+      "outcome": "accepted",
+      "reviewer": "Codex GPT-6 Astra review agent",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "reviewedAt": "2026-10-01T00:52:25.963Z",
+      "method": "Independent full original and revised word/sense/example read; source and version-bound five-scene revision",
+      "notes": [
+        "방법을 알려 달라는 공통 틀을 세탁 방법 변경에 따른 결과 장면으로 바꾼다.",
+        "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+      ]
+    }
+  ]
+}

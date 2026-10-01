@@ -1652,6 +1652,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1350920-1",
+    "wordId": "lex-jmdict-1350920",
+    "version": 1,
+    "meaning": "대조, 조회 확인",
+    "hint": "자료 두 가지를 맞춰 보아 내용이 일치하는지 확인합니다.",
+    "confusions": [
+      {
+        "japanese": "照明",
+        "distinction": "照合는 자료를 대조·확인하고 照明는 빛을 비추는 조명이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1350920-1-ex-1",
+        "version": 1,
+        "before": "受付では、名簿と身分証明書の名前を",
+        "answer": "照合",
+        "after": "した。",
+        "reading": "しょうごう",
+        "translation": "접수처에서는 명단과 신분증의 이름을 대조했다.",
+        "translationTarget": "대조",
+        "difficulty": 36,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538850-1",
+    "wordId": "lex-jmdict-1538850",
+    "version": 1,
+    "meaning": "수송",
+    "hint": "사람·물자를 일정한 장소까지 옮기는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "配送",
+        "distinction": "輸送는 사람·물자의 운반이고 配送는 물건을 목적지에 나누어 배달함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538850-1-ex-1",
+        "version": 1,
+        "before": "大雪の影響で、鉄道による貨物の",
+        "answer": "輸送",
+        "after": "が遅れている。",
+        "reading": "ゆそう",
+        "translation": "폭설의 영향으로 철도를 통한 화물 수송이 지연되고 있다.",
+        "translationTarget": "수송",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1483600-1",
+    "wordId": "lex-jmdict-1483600",
+    "version": 1,
+    "meaning": "비교적",
+    "hint": "다른 것과 견주었을 때 어느 정도 그러한 편이라는 말",
+    "confusions": [
+      {
+        "japanese": "絶対に",
+        "distinction": "비교하여 상대적인 정도를 말하는 것과 조건 없이 확정하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1483600-1-ex-1",
+        "version": 1,
+        "before": "この道は遠回りだが、朝は",
+        "answer": "比較的",
+        "after": "空いている。",
+        "reading": "ひかくてき",
+        "translation": "이 길은 돌아가는 길이지만 아침에는 비교적 한산하다.",
+        "translationTarget": "비교적",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1424900-1",
+    "wordId": "lex-jmdict-1424900",
+    "version": 1,
+    "meaning": "중단",
+    "hint": "진행 중이던 일을 도중에 끊거나 멈춥니다.",
+    "confusions": [
+      {
+        "japanese": "終了",
+        "distinction": "中断는 도중에 끊음이고 終了는 끝냄이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1424900-1-ex-1",
+        "version": 1,
+        "before": "雷が近づいたため、試合を",
+        "answer": "中断",
+        "after": "して屋内に移動した。",
+        "reading": "ちゅうだん",
+        "translation": "번개가 가까워져 경기를 중단하고 실내로 이동했다.",
+        "translationTarget": "중단",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1599640-1",
+    "wordId": "lex-jmdict-1599640",
+    "version": 1,
+    "meaning": "가로수·나무 행렬",
+    "hint": "길을 따라 나란히 심은 나무들",
+    "confusions": [
+      {
+        "japanese": "森林",
+        "distinction": "길을 따라 줄지어 선 나무와 넓게 모여 자라는 숲을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1599640-1-ex-1",
+        "version": 1,
+        "before": "銀杏の",
+        "answer": "並木",
+        "after": "が黄色くなり、通りが明るく見える。",
+        "reading": "なみき",
+        "translation": "은행나무 가로수가 노랗게 물들어 거리가 밝아 보인다.",
+        "translationTarget": "가로수",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1321670-1",
+    "wordId": "lex-jmdict-1321670",
+    "version": 1,
+    "meaning": "줄무늬",
+    "hint": "길고 좁은 선이 나란히 반복되는 무늬",
+    "confusions": [
+      {
+        "japanese": "水玉",
+        "distinction": "반복되는 선 무늬와 둥근 점 무늬를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1321670-1-ex-1",
+        "version": 1,
+        "before": "赤と白の",
+        "answer": "縞",
+        "after": "が入ったシャツは、遠くからでも目立つ。",
+        "reading": "しま",
+        "translation": "빨강과 흰색 줄무늬가 들어간 셔츠는 멀리서도 눈에 띈다.",
+        "translationTarget": "줄무늬",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283220-1",
+    "wordId": "lex-jmdict-1283220",
+    "version": 1,
+    "meaning": "높아지다, 커지다",
+    "hint": "정도·관심·긴장 등이 이전보다 강해집니다.",
+    "confusions": [
+      {
+        "japanese": "高める",
+        "distinction": "高まる는 높아지는 자동사이고 高める는 높이는 타동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283220-1-ex-1",
+        "version": 1,
+        "before": "試合の日が近づき、選手たちの緊張が",
+        "answer": "高まっている",
+        "after": "。",
+        "reading": "たかまっている",
+        "translation": "경기 날이 가까워져 선수들의 긴장이 높아지고 있다.",
+        "translationTarget": "높아지고 있다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

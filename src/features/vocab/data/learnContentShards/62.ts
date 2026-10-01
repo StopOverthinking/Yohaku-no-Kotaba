@@ -1408,6 +1408,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1076000-1",
+    "wordId": "lex-jmdict-1076000",
+    "version": 1,
+    "meaning": "타이밍, 시점",
+    "hint": "행동이 다른 일과 맞물려 일어나는 알맞은 때입니다.",
+    "confusions": [
+      {
+        "japanese": "期間",
+        "distinction": "タイミング는 행동의 시점·때이고 期間는 시작부터 끝까지의 기간이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1076000-1-ex-1",
+        "version": 1,
+        "before": "話しかける",
+        "answer": "タイミング",
+        "after": "がつかめず、会議が終わるまで待った。",
+        "reading": "タイミング",
+        "translation": "말을 걸 타이밍을 잡지 못해 회의가 끝날 때까지 기다렸다.",
+        "translationTarget": "타이밍",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1259870-1",
+    "wordId": "lex-jmdict-1259870",
+    "version": 1,
+    "meaning": "견지, 관점",
+    "hint": "어떤 문제를 판단할 때 바탕으로 삼는 입장입니다.",
+    "confusions": [
+      {
+        "japanese": "景色",
+        "distinction": "見地는 판단의 관점이고 景色는 눈에 보이는 풍경이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1259870-1-ex-1",
+        "version": 1,
+        "before": "この計画は、安全の",
+        "answer": "見地",
+        "after": "から再検討する必要がある。",
+        "reading": "けんち",
+        "translation": "이 계획은 안전이라는 관점에서 재검토할 필요가 있다.",
+        "translationTarget": "관점",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1343360-1",
+    "wordId": "lex-jmdict-1343360",
+    "version": 1,
+    "meaning": "소득",
+    "hint": "노동·사업·재산 등에서 얻는 경제적 수입입니다.",
+    "confusions": [
+      {
+        "japanese": "売上",
+        "distinction": "所得는 개인·사업의 소득이고 売上는 판매 총액이다. 세금 계산에서는 비용 공제 등의 기준이 따른다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1343360-1-ex-1",
+        "version": 1,
+        "before": "この制度では、世帯の",
+        "answer": "所得",
+        "after": "に応じて支援額が変わる。",
+        "reading": "しょとく",
+        "translation": "이 제도에서는 가구 소득에 따라 지원 금액이 달라진다.",
+        "translationTarget": "소득",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1612040-1",
+    "wordId": "lex-jmdict-1612040",
+    "version": 1,
+    "meaning": "죄송하다",
+    "hint": "잘못이나 폐를 끼친 일을 미안하게 생각해요.",
+    "confusions": [
+      {
+        "japanese": "ありがたい",
+        "distinction": "폐를 끼쳐 미안한 마음과 도움을 받아 고마운 마음을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1612040-1-ex-1",
+        "version": 1,
+        "before": "お待たせして",
+        "answer": "申し訳ありません",
+        "after": "。すぐにご案内します。",
+        "reading": "もうしわけありません",
+        "translation": "기다리시게 해서 죄송합니다. 바로 안내하겠습니다.",
+        "translationTarget": "죄송합니다",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1538690-1",
+    "wordId": "lex-jmdict-1538690",
+    "version": 1,
+    "meaning": "방심",
+    "hint": "괜찮다고 생각하여 필요한 주의를 놓는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "安心",
+        "distinction": "油断는 주의를 느슨하게 함이고 安心는 걱정 없이 마음이 놓임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1538690-1-ex-1",
+        "version": 1,
+        "before": "慣れた道でも、",
+        "answer": "油断",
+        "after": "せずに周りを確認して運転しよう。",
+        "reading": "ゆだん",
+        "translation": "익숙한 길이라도 방심하지 말고 주변을 확인하며 운전하자.",
+        "translationTarget": "방심",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1276110-1",
+    "wordId": "lex-jmdict-1276110",
+    "version": 1,
+    "meaning": "립스틱",
+    "hint": "입술에 색을 내는 화장품",
+    "confusions": [
+      {
+        "japanese": "香水",
+        "distinction": "입술에 바르는 화장품과 향을 내는 화장품을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1276110-1-ex-1",
+        "version": 1,
+        "before": "鏡を見て、",
+        "answer": "口紅",
+        "after": "が歯に付いていることに気付いた。",
+        "reading": "くちべに",
+        "translation": "거울을 보고 립스틱이 치아에 묻은 것을 알아차렸다.",
+        "translationTarget": "립스틱",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1455670-1",
+    "wordId": "lex-jmdict-1455670",
+    "version": 1,
+    "meaning": "혼잣말",
+    "hint": "듣는 상대를 정하지 않고 혼자 하는 말",
+    "confusions": [
+      {
+        "japanese": "会話",
+        "distinction": "혼자 내뱉는 말과 상대와 주고받는 말을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1455670-1-ex-1",
+        "version": 1,
+        "before": "父は考え事をしていると、",
+        "answer": "独り言",
+        "after": "が増える。",
+        "reading": "ひとりごと",
+        "translation": "아버지는 무언가 생각에 잠기면 혼잣말이 늘어난다.",
+        "translationTarget": "혼잣말",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1497610-1",
+    "wordId": "lex-jmdict-1497610",
+    "version": 1,
+    "meaning": "아버지",
+    "hint": "남에게 자기 아버지에 대해 말할 때 쓰는 말",
+    "confusions": [
+      {
+        "japanese": "お父さん",
+        "distinction": "자기 아버지를 남에게 말하는 담담한 표현과 아버지를 부르거나 남의 아버지를 높이는 표현을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1497610-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "父",
+        "after": "は毎朝、犬と散歩します。",
+        "reading": "ちち",
+        "translation": "아버지는 매일 아침 개와 산책합니다.",
+        "translationTarget": "아버지",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

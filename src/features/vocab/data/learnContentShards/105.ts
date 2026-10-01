@@ -1141,12 +1141,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1594110-1-ex-1",
-        "version": 1,
-        "before": "この仕事の",
+        "version": 2,
+        "before": "洗濯の",
         "answer": "仕方",
-        "after": "を教えてください。",
+        "after": "を変えたら、シャツが縮まなくなりました。",
         "reading": "しかた",
-        "translation": "이 일의 방법을 알려 주세요.",
+        "translation": "세탁 방법을 바꾸었더니 셔츠가 줄어들지 않게 됐어요.",
         "translationTarget": "방법",
         "difficulty": 17,
         "status": "reviewed"
@@ -1829,6 +1829,262 @@ const content: LearnSense[] = [
         "translation": "제출이 하루 늦어 보고서는 5점 감점되었다.",
         "translationTarget": "감점",
         "difficulty": 44,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1605250-1",
+    "wordId": "lex-jmdict-1605250",
+    "version": 1,
+    "meaning": "아깝다",
+    "hint": "아직 쓸 수 있거나 가치 있는 것을 버리거나 낭비하기에는 아깝다고 느낍니다.",
+    "confusions": [
+      {
+        "japanese": "惜しい",
+        "distinction": "선택한 勿体ない는 가치 있는 것의 낭비가 아깝고 惜しい는 잃기 아쉬움·근소하게 못 미침도 말한다. 과분하다·황송하다는 별도 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1605250-1-ex-1",
+        "version": 1,
+        "before": "まだ使える机を捨てるのは",
+        "answer": "勿体ない",
+        "after": "。",
+        "reading": "もったいない",
+        "translation": "아직 쓸 수 있는 책상을 버리는 것은 아깝다.",
+        "translationTarget": "아깝다",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410070-1",
+    "wordId": "lex-jmdict-1410070",
+    "version": 1,
+    "meaning": "대처",
+    "hint": "발생한 문제·상황에 맞춰 필요한 조치를 합니다.",
+    "confusions": [
+      {
+        "japanese": "予防",
+        "distinction": "対処는 상황에 맞게 조치함이고 予防는 문제가 생기지 않도록 미리 막음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410070-1-ex-1",
+        "version": 1,
+        "before": "機械の異常音に気づいた作業員が、すぐに",
+        "answer": "対処",
+        "after": "した。",
+        "reading": "たいしょ",
+        "translation": "기계의 이상한 소리를 알아차린 작업자가 바로 대처했다.",
+        "translationTarget": "대처",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1421500-1",
+    "wordId": "lex-jmdict-1421500",
+    "version": 1,
+    "meaning": "지명",
+    "hint": "마을이나 지역에 붙인 이름",
+    "confusions": [
+      {
+        "japanese": "人名",
+        "distinction": "장소에 붙인 이름과 사람의 이름을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1421500-1-ex-1",
+        "version": 1,
+        "before": "古い",
+        "answer": "地名",
+        "after": "には、その土地の歴史が残っています。",
+        "reading": "ちめい",
+        "translation": "오래된 지명에는 그 땅의 역사가 남아 있습니다.",
+        "translationTarget": "지명",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1580230-1",
+    "wordId": "lex-jmdict-1580230",
+    "version": 1,
+    "meaning": "조언",
+    "hint": "상대가 판단·행동하는 데 도움이 되는 말을 합니다.",
+    "confusions": [
+      {
+        "japanese": "命令",
+        "distinction": "助言는 도움이 되는 의견이고 命令는 따르도록 내리는 지시이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1580230-1-ex-1",
+        "version": 1,
+        "before": "経験のある人から",
+        "answer": "助言",
+        "after": "をもらい、準備の順序を決めた。",
+        "reading": "じょげん",
+        "translation": "경험 있는 사람에게 조언을 받아 준비 순서를 정했다.",
+        "translationTarget": "조언",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1536060-1",
+    "wordId": "lex-jmdict-1536060",
+    "version": 1,
+    "meaning": "문답",
+    "hint": "질문과 대답을 서로 주고받는 것",
+    "confusions": [
+      {
+        "japanese": "独白",
+        "distinction": "물음과 답을 주고받는 것과 혼자 말하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1536060-1-ex-1",
+        "version": 1,
+        "before": "講演の後、参加者と講師の",
+        "answer": "問答",
+        "after": "が三十分続いた。",
+        "reading": "もんどう",
+        "translation": "강연 후 참가자와 강사의 문답이 삼십 분 이어졌다.",
+        "translationTarget": "문답",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311340-1",
+    "wordId": "lex-jmdict-1311340",
+    "version": 1,
+    "meaning": "민영 철도·사철",
+    "hint": "민간 회사가 운영하는 철도",
+    "confusions": [
+      {
+        "japanese": "地下鉄",
+        "distinction": "운영 주체가 민간인 철도와 주로 지하를 달리는 철도의 구별 기준을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311340-1-ex-1",
+        "version": 1,
+        "before": "この駅では、地下鉄から",
+        "answer": "私鉄",
+        "after": "に乗り換えられます。",
+        "reading": "してつ",
+        "translation": "이 역에서는 지하철에서 민영 철도로 갈아탈 수 있습니다.",
+        "translationTarget": "민영 철도",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1516530-1",
+    "wordId": "lex-jmdict-1516530",
+    "version": 1,
+    "meaning": "던지다",
+    "hint": "물건을 손에서 놓아 다른 쪽으로 날아가게 해요.",
+    "confusions": [
+      {
+        "japanese": "拾う",
+        "distinction": "물건을 던지는 행동과 떨어진 물건을 집는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1516530-1-ex-1",
+        "version": 1,
+        "before": "鍵を机の上に",
+        "answer": "放った",
+        "after": "ら、床まで滑って落ちた。",
+        "reading": "ほうった",
+        "translation": "열쇠를 책상 위로 던졌더니 바닥까지 미끄러져 떨어졌다.",
+        "translationTarget": "던졌더니",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1212650-1",
+    "wordId": "lex-jmdict-1212650",
+    "version": 1,
+    "meaning": "익숙하게 하다",
+    "hint": "반복해서 접하게 하여 낯설지 않도록 만듭니다.",
+    "confusions": [
+      {
+        "japanese": "慣れる",
+        "distinction": "慣らす는 익숙하게 만드는 타동사이고 慣れる는 익숙해지는 자동사이다. 같은 읽기의 鳴らす는 소리를 내다이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1212650-1-ex-1",
+        "version": 1,
+        "before": "新しい靴に足を",
+        "answer": "慣らす",
+        "after": "ため、短い距離から歩き始めた。",
+        "reading": "ならす",
+        "translation": "새 신발에 발을 익숙하게 하려고 짧은 거리부터 걷기 시작했다.",
+        "translationTarget": "익숙하게 하려고",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

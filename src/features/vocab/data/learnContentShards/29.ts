@@ -98,7 +98,7 @@ const content: LearnSense[] = [
     "confusions": [
       {
         "japanese": "休む",
-        "distinction": "아무 활동 없이 쉬는 것과 달리 놀이를 하며 즐긴다."
+        "distinction": "놀이와 여가를 즐기는 데 초점을 둔다. 비교 표현은 피로를 풀거나 활동을 잠시 멈추는 휴식에 초점을 두며 가벼운 활동을 동반할 수도 있다."
       }
     ],
     "review": {
@@ -1333,6 +1333,134 @@ const content: LearnSense[] = [
         "translation": "이 문제를 해결하려면 제도를 근본부터 재검토해야 한다.",
         "translationTarget": "근본",
         "difficulty": 37,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1146140-1",
+    "wordId": "lex-jmdict-1146140",
+    "version": 1,
+    "meaning": "렌즈",
+    "hint": "빛을 모으거나 퍼뜨려 상을 만드는 투명한 부품",
+    "confusions": [
+      {
+        "japanese": "鏡",
+        "distinction": "빛을 통과시켜 상을 만드는 부품과 빛을 반사하는 거울을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1146140-1-ex-1",
+        "version": 1,
+        "before": "カメラの",
+        "answer": "レンズ",
+        "after": "に指紋が付いて、写真がぼやけた。",
+        "reading": "レンズ",
+        "translation": "카메라 렌즈에 지문이 묻어서 사진이 흐릿해졌다.",
+        "translationTarget": "렌즈",
+        "difficulty": 23,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1561640-1",
+    "wordId": "lex-jmdict-1561640",
+    "version": 1,
+    "meaning": "논하다, 논의하다",
+    "hint": "주제에 대해 근거를 들어 의견을 펼칩니다.",
+    "confusions": [
+      {
+        "japanese": "述べる",
+        "distinction": "論ずる는 주제를 따져 의견을 전개함이고 述べる는 생각·사실을 말함 일반이다. 論じる라는 형태도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1561640-1-ex-1",
+        "version": 1,
+        "before": "この本は、技術と社会の関係を幅広く",
+        "answer": "論ずる",
+        "after": "。",
+        "reading": "ろんずる",
+        "translation": "이 책은 기술과 사회의 관계를 폭넓게 논한다.",
+        "translationTarget": "논한다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1437820-1",
+    "wordId": "lex-jmdict-1437820",
+    "version": 1,
+    "meaning": "철교",
+    "hint": "철로 만든 다리로, 특히 철도 다리에 흔히 쓰는 말",
+    "confusions": [
+      {
+        "japanese": "トンネル",
+        "distinction": "강 등을 건너는 다리와 땅속이나 산을 통과하는 길을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1437820-1-ex-1",
+        "version": 1,
+        "before": "電車が",
+        "answer": "鉄橋",
+        "after": "を渡ると、川の景色がよく見えた。",
+        "reading": "てっきょう",
+        "translation": "전철이 철교를 건너자 강 풍경이 잘 보였다.",
+        "translationTarget": "철교",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1564360-1",
+    "wordId": "lex-jmdict-1564360",
+    "version": 1,
+    "meaning": "꼼꼼함",
+    "hint": "작은 일도 규칙적이고 빈틈없이 정리합니다.",
+    "confusions": [
+      {
+        "japanese": "大ざっぱ",
+        "distinction": "几帳面는 꼼꼼하고 질서 있게 처리함이고 大ざっぱ는 세부를 따지지 않고 대략적임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1564360-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "几帳面",
+        "after": "な兄は、支出を毎日ノートに記録している。",
+        "reading": "きちょうめん",
+        "translation": "꼼꼼한 형은 지출을 매일 공책에 기록하고 있다.",
+        "translationTarget": "꼼꼼한",
+        "difficulty": 35,
         "status": "reviewed"
       }
     ]

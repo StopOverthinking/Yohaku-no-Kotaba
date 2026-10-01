@@ -1,0 +1,10 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "startedAt": "2026-10-01T00:57:42.476Z",
+  "draftValidatedAt": "2026-10-01T00:58:36.781Z",
+  "measuredElapsedSeconds": 54.305,
+  "scope": "4 original direction words inspected; 3 example-only scene revisions",
+  "pureCompositionTime": null,
+  "limitations": "Includes original inspection, established proposal-contract inspection, scene reasoning, drafting and preservation validation. Independent review/application excluded. No offline interval."
+}

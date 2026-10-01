@@ -1972,6 +1972,294 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1295110-1",
+    "wordId": "lex-jmdict-1295110",
+    "version": 1,
+    "meaning": "재난, 불운한 사고",
+    "hint": "예기치 못하게 닥쳐 고통·손해를 주는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "幸運",
+        "distinction": "災難는 불행한 사고·재난이고 幸運는 좋은 운이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1295110-1-ex-1",
+        "version": 1,
+        "before": "旅行中に財布までなくすとは、とんだ",
+        "answer": "災難",
+        "after": "だった。",
+        "reading": "さいなん",
+        "translation": "여행 중에 지갑까지 잃다니 정말 뜻밖의 불운이었다.",
+        "translationTarget": "불운",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396480-1",
+    "wordId": "lex-jmdict-1396480",
+    "version": 1,
+    "meaning": "기우다, 수선하다",
+    "hint": "찢어지거나 해진 부분을 고쳐 쓸 수 있게 합니다.",
+    "confusions": [
+      {
+        "japanese": "破る",
+        "distinction": "선택한 繕う는 손상 부분을 고침이고 破る는 찢거나 깨뜨림이다. 겉모습을 꾸며 감추는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396480-1-ex-1",
+        "version": 1,
+        "before": "母は、袖のほつれを丁寧に",
+        "answer": "繕って",
+        "after": "くれた。",
+        "reading": "つくろって",
+        "translation": "어머니는 소매의 풀린 부분을 정성껏 수선해 주셨다.",
+        "translationTarget": "수선해",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611370-1",
+    "wordId": "lex-jmdict-1611370",
+    "version": 1,
+    "meaning": "날짜",
+    "hint": "어떤 일이 예정되거나 일어나는 달력상의 날",
+    "confusions": [
+      {
+        "japanese": "時刻",
+        "distinction": "달력상의 날과 하루 중 특정 시간을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611370-1-ex-1",
+        "version": 1,
+        "before": "旅行の",
+        "answer": "日にち",
+        "after": "が決まったら、すぐに知らせてね。",
+        "reading": "ひにち",
+        "translation": "여행 날짜가 정해지면 바로 알려 줘.",
+        "translationTarget": "날짜",
+        "difficulty": 24,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330880-1",
+    "wordId": "lex-jmdict-1330880",
+    "version": 1,
+    "meaning": "수용",
+    "hint": "사람·물건을 시설·공간 안에 받아들여 둡니다.",
+    "confusions": [
+      {
+        "japanese": "収集",
+        "distinction": "収容는 공간에 받아들여 둠이고 収集는 대상들을 모음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330880-1-ex-1",
+        "version": 1,
+        "before": "この体育館は、災害時に二百人を",
+        "answer": "収容",
+        "after": "できる。",
+        "reading": "しゅうよう",
+        "translation": "이 체육관은 재난 시 200명을 수용할 수 있다.",
+        "translationTarget": "수용",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443630-1",
+    "wordId": "lex-jmdict-1443630",
+    "version": 1,
+    "meaning": "전봇대",
+    "hint": "전선이나 통신선을 높이 걸어 지탱하는 기둥",
+    "confusions": [
+      {
+        "japanese": "街灯",
+        "distinction": "전선을 지탱하는 기둥과 거리의 조명 기구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443630-1-ex-1",
+        "version": 1,
+        "before": "強風で倒れた",
+        "answer": "電柱",
+        "after": "の近くには、誰も近づけない。",
+        "reading": "でんちゅう",
+        "translation": "강풍으로 쓰러진 전봇대 근처에는 아무도 다가갈 수 없다.",
+        "translationTarget": "전봇대",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1251910-1",
+    "wordId": "lex-jmdict-1251910",
+    "version": 1,
+    "meaning": "연결하다",
+    "hint": "떨어져 있던 부분이나 장치를 서로 이어 붙여요.",
+    "confusions": [
+      {
+        "japanese": "切り離す",
+        "distinction": "부분들을 이어 붙이는 것과 연결된 것을 떼어 놓는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1251910-1-ex-1",
+        "version": 1,
+        "before": "パソコンを画面に",
+        "answer": "繋げて",
+        "after": "、資料を全員に見せた。",
+        "reading": "つなげて",
+        "translation": "컴퓨터를 화면에 연결하여 자료를 모두에게 보여 주었다.",
+        "translationTarget": "연결하여",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606020-1",
+    "wordId": "lex-jmdict-1606020",
+    "version": 1,
+    "meaning": "되살아나다",
+    "hint": "사라졌거나 잊힌 기억이나 힘이 다시 나타나요.",
+    "confusions": [
+      {
+        "japanese": "消える",
+        "distinction": "다시 살아나 나타나는 것과 없어지는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606020-1-ex-1",
+        "version": 1,
+        "before": "昔の写真を見ると、あの日の景色が鮮やかに",
+        "answer": "蘇る",
+        "after": "。",
+        "reading": "よみがえる",
+        "translation": "옛날 사진을 보면 그날의 풍경이 생생하게 되살아난다.",
+        "translationTarget": "되살아난다",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1351760-1",
+    "wordId": "lex-jmdict-1351760",
+    "version": 1,
+    "meaning": "상세함, 자세한 내용",
+    "hint": "작은 부분까지 구체적으로 알 수 있습니다.",
+    "confusions": [
+      {
+        "japanese": "概要",
+        "distinction": "詳細는 세부까지 자세함이고 概要는 전체 요약이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1351760-1-ex-1",
+        "version": 1,
+        "before": "工事の",
+        "answer": "詳細",
+        "after": "な予定は、来週の説明会で知らせる。",
+        "reading": "しょうさい",
+        "translation": "공사의 상세한 일정은 다음 주 설명회에서 알린다.",
+        "translationTarget": "상세한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1008910-1",
+    "wordId": "lex-jmdict-1008910",
+    "version": 1,
+    "meaning": "어떻게, 어떤가",
+    "hint": "방법이나 상태가 어떠한지 묻는 말",
+    "confusions": [
+      {
+        "japanese": "なぜ",
+        "distinction": "방법이나 상태를 묻는 말과 이유를 묻는 말을 구별한다. 말을 멈추게 하는 감탄사나 같은 소리의 금속 이름은 이번 뜻이 아니다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1008910-1-ex-1",
+        "version": 1,
+        "before": "この機械は",
+        "answer": "どう",
+        "after": "使いますか。",
+        "reading": "どう",
+        "translation": "이 기계는 어떻게 사용합니까?",
+        "translationTarget": "어떻게",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

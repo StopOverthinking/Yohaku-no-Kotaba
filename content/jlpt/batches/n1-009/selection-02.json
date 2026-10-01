@@ -1,0 +1,560 @@
+{
+  "note": "Practical cross-domain selection; all dictionary alternate spellings checked against baseline, current source and reserved manuscripts before authoring.",
+  "selected": [
+    {
+      "dictionaryId": "jmdict-1490830",
+      "japanese": "貧困",
+      "reading": "ひんこん",
+      "level": "N1",
+      "spellings": [
+        "貧困"
+      ],
+      "readings": [
+        "ひんこん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "貧困"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1501060",
+      "japanese": "福祉",
+      "reading": "ふくし",
+      "level": "N1",
+      "spellings": [
+        "福祉"
+      ],
+      "readings": [
+        "ふくし",
+        "ふくち"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "福祉"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1500750",
+      "japanese": "復興",
+      "reading": "ふっこう",
+      "level": "N1",
+      "spellings": [
+        "復興"
+      ],
+      "readings": [
+        "ふっこう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "復興"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1505150",
+      "japanese": "文化財",
+      "reading": "ぶんかざい",
+      "level": "N1",
+      "spellings": [
+        "文化財"
+      ],
+      "readings": [
+        "ぶんかざい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "文化財"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1510380",
+      "japanese": "偏見",
+      "reading": "へんけん",
+      "level": "N1",
+      "spellings": [
+        "偏見"
+      ],
+      "readings": [
+        "へんけん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "偏見"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1510940",
+      "japanese": "変革",
+      "reading": "へんかく",
+      "level": "N1",
+      "spellings": [
+        "変革"
+      ],
+      "readings": [
+        "へんかく"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "変革"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1511260",
+      "japanese": "変遷",
+      "reading": "へんせん",
+      "level": "N1",
+      "spellings": [
+        "変遷"
+      ],
+      "readings": [
+        "へんせん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "変遷"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1511450",
+      "japanese": "変動",
+      "reading": "へんどう",
+      "level": "N1",
+      "spellings": [
+        "変動"
+      ],
+      "readings": [
+        "へんどう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "変動"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1512170",
+      "japanese": "返還",
+      "reading": "へんかん",
+      "level": "N1",
+      "spellings": [
+        "返還"
+      ],
+      "readings": [
+        "へんかん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "返還"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1512210",
+      "japanese": "返済",
+      "reading": "へんさい",
+      "level": "N1",
+      "spellings": [
+        "返済"
+      ],
+      "readings": [
+        "へんさい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "返済"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1512480",
+      "japanese": "便宜",
+      "reading": "べんぎ",
+      "level": "N1",
+      "spellings": [
+        "便宜"
+      ],
+      "readings": [
+        "べんぎ",
+        "びんぎ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "便宜"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1512760",
+      "japanese": "弁解",
+      "reading": "べんかい",
+      "level": "N1",
+      "spellings": [
+        "弁解",
+        "辯解"
+      ],
+      "readings": [
+        "べんかい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "弁解"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1496990",
+      "japanese": "扶養",
+      "reading": "ふよう",
+      "level": "N1",
+      "spellings": [
+        "扶養"
+      ],
+      "readings": [
+        "ふよう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "扶養"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1498080",
+      "japanese": "負債",
+      "reading": "ふさい",
+      "level": "N1",
+      "spellings": [
+        "負債"
+      ],
+      "readings": [
+        "ふさい"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "負債"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1502540",
+      "japanese": "物資",
+      "reading": "ぶっし",
+      "level": "N1",
+      "spellings": [
+        "物資"
+      ],
+      "readings": [
+        "ぶっし"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "物資"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1503580",
+      "japanese": "分散",
+      "reading": "ぶんさん",
+      "level": "N1",
+      "spellings": [
+        "分散"
+      ],
+      "readings": [
+        "ぶんさん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "分散"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1504370",
+      "japanese": "分離",
+      "reading": "ぶんり",
+      "level": "N1",
+      "spellings": [
+        "分離"
+      ],
+      "readings": [
+        "ぶんり"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "分離"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1504750",
+      "japanese": "奮闘",
+      "reading": "ふんとう",
+      "level": "N1",
+      "spellings": [
+        "奮闘"
+      ],
+      "readings": [
+        "ふんとう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "奮闘"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1491950",
+      "japanese": "不況",
+      "reading": "ふきょう",
+      "level": "N1",
+      "spellings": [
+        "不況"
+      ],
+      "readings": [
+        "ふきょう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不況"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1494120",
+      "japanese": "不当",
+      "reading": "ふとう",
+      "level": "N1",
+      "spellings": [
+        "不当"
+      ],
+      "readings": [
+        "ふとう"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不当"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1493120",
+      "japanese": "不審",
+      "reading": "ふしん",
+      "level": "N1",
+      "spellings": [
+        "不審"
+      ],
+      "readings": [
+        "ふしん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不審"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1483410",
+      "japanese": "非難",
+      "reading": "ひなん",
+      "level": "N1",
+      "spellings": [
+        "非難",
+        "批難"
+      ],
+      "readings": [
+        "ひなん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "非難"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1487570",
+      "japanese": "必然",
+      "reading": "ひつぜん",
+      "level": "N1",
+      "spellings": [
+        "必然"
+      ],
+      "readings": [
+        "ひつぜん"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "必然"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1491400",
+      "japanese": "不可欠",
+      "reading": "ふかけつ",
+      "level": "N1",
+      "spellings": [
+        "不可欠"
+      ],
+      "readings": [
+        "ふかけつ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "不可欠"
+        ]
+      }
+    },
+    {
+      "dictionaryId": "jmdict-1490140",
+      "japanese": "描写",
+      "reading": "びょうしゃ",
+      "level": "N1",
+      "spellings": [
+        "描写",
+        "描寫"
+      ],
+      "readings": [
+        "びょうしゃ"
+      ],
+      "alternateSpellingDuplicateMatches": [],
+      "levelEvidence": {
+        "source": "openjlpt",
+        "levels": [
+          "N1"
+        ],
+        "matchedForms": [
+          "描写"
+        ]
+      }
+    }
+  ]
+}

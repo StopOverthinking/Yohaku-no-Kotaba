@@ -1,0 +1,17 @@
+[
+  {
+    "wordId": "JLPTN3_70",
+    "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+    "afterHash": "26e1db76459cbf2435865cf07eaaa11cd7608b9a84dcf053f988bc9195ce6264",
+    "scope": "legacy-content-proposal-review",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T01:02:34.811Z",
+    "decision": "preserve-existing-core-usage",
+    "notes": [
+      "원본3개의 전체 단어·용법·대비·힌트·6예문과 새 거스름돈 금액 오류 예문을 직접 읽었다. 중립적 다름과 정답·정상 금액에서 어긋남은 사전에서도 별도 핵심이다.",
+      "기존 JLPT70 중립 차이 sense/두예문 완전 보존. 새 틀리다 sense는 새 ID/version1 및 미학습으로 시작하며 어떤 기존 프로필도 이전하지 않는다."
+    ]
+  }
+]

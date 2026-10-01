@@ -1,0 +1,38 @@
+[
+  {
+    "japanese": "事前",
+    "reading": "じぜん",
+    "type": "noun",
+    "meaning": "사전, 일이 있기 전",
+    "hint": "어떤 일이 일어나거나 시작되기 전입니다.",
+    "confusion": "事後",
+    "distinction": "事前는 일이 있기 전이고 事後는 일이 있은 뒤이다.",
+    "dictionaryId": "jmdict-1314050",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "値引き",
+    "reading": "ねびき",
+    "type": "noun",
+    "meaning": "가격 할인",
+    "hint": "원래 가격을 낮추어 팝니다.",
+    "confusion": "値上げ",
+    "distinction": "値引き는 가격을 깎음이고 値上げ는 가격을 올림이다.",
+    "dictionaryId": "jmdict-1600190",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  },
+  {
+    "japanese": "専用",
+    "reading": "せんよう",
+    "type": "noun",
+    "meaning": "전용",
+    "hint": "특정 대상·목적만을 위해 사용합니다.",
+    "confusion": "共用",
+    "distinction": "専用는 정해진 대상만 이용함이고 共用는 함께 이용함이다.",
+    "dictionaryId": "jmdict-1596240",
+    "level": "N3",
+    "levelNote": "선택한 일반 공지·일상 용법의 비공식 N3 편집 수준."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "japanese": "受け継ぐ",
+    "reading": "うけつぐ",
+    "type": "verb",
+    "meaning": "이어받다, 계승하다",
+    "hint": "앞사람의 기술·전통·역할 등을 물려받아 이어갑니다.",
+    "confusion": "受け取る",
+    "distinction": "受け継ぐ는 앞선 것을 이어받음이고 受け取る는 물건·정보를 받음 일반이다.",
+    "dictionaryId": "jmdict-1329600",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  },
+  {
+    "japanese": "襲う",
+    "reading": "おそう",
+    "type": "verb",
+    "meaning": "덮치다, 습격하다",
+    "hint": "사람·지역 등이 갑작스러운 공격·재난을 받습니다.",
+    "confusion": "訪れる",
+    "distinction": "襲う는 공격·재난이 덮침이고 訪れる는 방문하거나 때·상황이 찾아옴이다.",
+    "dictionaryId": "jmdict-1333330",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  },
+  {
+    "japanese": "尽くす",
+    "reading": "つくす",
+    "type": "verb",
+    "meaning": "힘을 다하다, 전력을 쏟다",
+    "hint": "가능한 힘·노력을 남김없이 사용합니다.",
+    "confusion": "尽きる",
+    "distinction": "선택한 尽くす는 힘을 다하는 타동사이고 尽きる는 자원이 바닥나는 자동사이다. 모두 써 버리는 뜻도 있다.",
+    "dictionaryId": "jmdict-1370090",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  },
+  {
+    "japanese": "承諾",
+    "reading": "しょうだく",
+    "type": "noun",
+    "meaning": "승낙",
+    "hint": "상대의 요청·제안을 받아들이는 일입니다.",
+    "confusion": "拒否",
+    "distinction": "承諾는 요청을 받아들임이고 拒否는 거절함이다.",
+    "dictionaryId": "jmdict-1349470",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  },
+  {
+    "japanese": "従来",
+    "reading": "じゅうらい",
+    "type": "noun",
+    "meaning": "종래, 지금까지",
+    "hint": "과거부터 현재까지 이어져 온 방식·상태입니다.",
+    "confusion": "今後",
+    "distinction": "従来는 지금까지이고 今後는 앞으로이다.",
+    "dictionaryId": "jmdict-1335400",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  },
+  {
+    "japanese": "主観",
+    "reading": "しゅかん",
+    "type": "noun",
+    "meaning": "주관",
+    "hint": "개인의 생각·느낌에 따라 판단하는 관점입니다.",
+    "confusion": "客観",
+    "distinction": "主観는 개인의 관점이고 客観는 개인 느낌을 벗어나 대상을 봄이다.",
+    "dictionaryId": "jmdict-1325180",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  },
+  {
+    "japanese": "手法",
+    "reading": "しゅほう",
+    "type": "noun",
+    "meaning": "기법, 방법",
+    "hint": "작품·연구·작업에서 사용하는 구체적인 방식입니다.",
+    "confusion": "目的",
+    "distinction": "手法는 수행 방법이고 目的는 이루려는 목표이다.",
+    "dictionaryId": "jmdict-1328380",
+    "level": "N2",
+    "levelNote": "선택한 일반 사회·업무·생활 독해 용법을 독립 검토하여 N2를 권장한다. 원천 N1과 구별되는 비공식 학습 수준이다."
+  }
+]

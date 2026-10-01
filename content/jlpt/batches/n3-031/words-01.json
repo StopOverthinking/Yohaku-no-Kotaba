@@ -1,0 +1,98 @@
+[
+  {
+    "japanese": "粗い",
+    "reading": "あらい",
+    "type": "i_adj",
+    "meaning": "거칠다·성기다",
+    "hint": "알갱이나 짜임이 곱거나 촘촘하지 않은 상태예요.",
+    "confusion": "細かい",
+    "distinction": "알갱이나 짜임이 큰 상태와 잘게 된 상태를 구별한다.",
+    "dictionaryId": "jmdict-1396910",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "狙う",
+    "reading": "ねらう",
+    "type": "verb",
+    "meaning": "노리다·겨누다",
+    "hint": "목표를 맞히거나 얻기 위해 그곳을 향해 움직여요.",
+    "confusion": "外す",
+    "distinction": "목표를 향하는 것과 목표를 맞히지 못하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1396590",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "比較的",
+    "reading": "ひかくてき",
+    "type": "adv",
+    "meaning": "비교적",
+    "hint": "다른 것과 견주었을 때 어느 정도 그러한 편이라는 말",
+    "confusion": "絶対に",
+    "distinction": "비교하여 상대적인 정도를 말하는 것과 조건 없이 확정하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1483600",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "不規則",
+    "reading": "ふきそく",
+    "type": "na_adj",
+    "meaning": "불규칙하다",
+    "hint": "일정한 순서나 간격 없이 들쭉날쭉한 상태예요.",
+    "confusion": "規則正しい",
+    "distinction": "일정한 규칙이 없는 상태와 일정한 질서를 지키는 상태를 구별한다.",
+    "dictionaryId": "jmdict-1491840",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "分解",
+    "reading": "ぶんかい",
+    "type": "noun",
+    "meaning": "분해",
+    "hint": "하나의 물건을 구성하는 여러 부분으로 나누는 일",
+    "confusion": "組み立て",
+    "distinction": "부품으로 나누는 것과 부품을 합쳐 완성하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1503210",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "防止",
+    "reading": "ぼうし",
+    "type": "noun",
+    "meaning": "방지",
+    "hint": "좋지 않은 일이 생기지 않도록 미리 막는 것",
+    "confusion": "対処",
+    "distinction": "사건이 생기지 않게 막는 것과 발생한 뒤 처리하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1520380",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "儲かる",
+    "reading": "もうかる",
+    "type": "verb",
+    "meaning": "이익이 나다·돈이 벌리다",
+    "hint": "장사나 사업에서 비용보다 수입이 커서 이익이 생겨요.",
+    "confusion": "損する",
+    "distinction": "돈의 이익이 생기는 것과 손해를 입는 것을 구별한다.",
+    "dictionaryId": "jmdict-1534490",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  },
+  {
+    "japanese": "余計",
+    "reading": "よけい",
+    "type": "na_adj",
+    "meaning": "불필요하다·쓸데없다",
+    "hint": "필요한 범위를 넘어 오히려 방해가 되는 상태예요.",
+    "confusion": "必要",
+    "distinction": "필요를 넘어 남는 것과 있어야 하는 것을 구별한다.",
+    "dictionaryId": "jmdict-1544090",
+    "level": "N3",
+    "levelNote": "선택한 실제 어휘·용법의 난도와 일반 생활·문어적 사용을 독립 검토한 비공식 N3 권장 수준."
+  }
+]

@@ -1544,6 +1544,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1590240-1",
+    "wordId": "lex-jmdict-1590240",
+    "version": 1,
+    "meaning": "대여, 대출",
+    "hint": "물건·도서 등을 정해진 조건으로 빌려줍니다.",
+    "confusions": [
+      {
+        "japanese": "返却",
+        "distinction": "貸出는 빌려줌이고 返却는 빌린 것을 돌려줌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1590240-1-ex-1",
+        "version": 1,
+        "before": "図書館では、一人五冊までの",
+        "answer": "貸出",
+        "after": "を行っている。",
+        "reading": "かしだし",
+        "translation": "도서관에서는 한 사람당 다섯 권까지 대출해 주고 있다.",
+        "translationTarget": "대출",
+        "difficulty": 28,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1410250-1",
+    "wordId": "lex-jmdict-1410250",
+    "version": 1,
+    "meaning": "대등함",
+    "hint": "서로의 지위·권리·능력이 같은 정도입니다.",
+    "confusions": [
+      {
+        "japanese": "平等",
+        "distinction": "対等는 서로 동등한 관계이고 平等는 차별 없이 같은 대우·권리임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1410250-1-ex-1",
+        "version": 1,
+        "before": "年齢に関係なく、",
+        "answer": "対等",
+        "after": "な立場で意見を交換したい。",
+        "reading": "たいとう",
+        "translation": "나이에 관계없이 대등한 처지에서 의견을 나누고 싶다.",
+        "translationTarget": "대등한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1335320-1",
+    "wordId": "lex-jmdict-1335320",
+    "version": 1,
+    "meaning": "종사",
+    "hint": "일정한 직업·업무에 참여하여 일합니다.",
+    "confusions": [
+      {
+        "japanese": "従業員",
+        "distinction": "従事는 업무에 참여해 일함이고 従業員는 그 조직에서 일하는 사람이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1335320-1-ex-1",
+        "version": 1,
+        "before": "彼は長年、海の環境を調べる仕事に",
+        "answer": "従事",
+        "after": "してきた。",
+        "reading": "じゅうじ",
+        "translation": "그는 오랫동안 바다 환경을 조사하는 일에 종사해 왔다.",
+        "translationTarget": "종사",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470780-1",
+    "wordId": "lex-jmdict-1470780",
+    "version": 1,
+    "meaning": "농약",
+    "hint": "농작물의 해충·병·잡초 등을 방제하는 약제입니다.",
+    "confusions": [
+      {
+        "japanese": "肥料",
+        "distinction": "農薬는 해충·병·잡초를 방제하고 肥料는 식물에 영양을 준다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470780-1-ex-1",
+        "version": 1,
+        "before": "この農園では、",
+        "answer": "農薬",
+        "after": "の使用量を減らす工夫をしている。",
+        "reading": "のうやく",
+        "translation": "이 농장에서는 농약 사용량을 줄이기 위해 노력하고 있다.",
+        "translationTarget": "농약",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441120-1",
+    "wordId": "lex-jmdict-1441120",
+    "version": 1,
+    "meaning": "전근",
+    "hint": "같은 조직 안에서 다른 근무지로 옮깁니다.",
+    "confusions": [
+      {
+        "japanese": "転職",
+        "distinction": "転勤는 조직 내 근무지를 옮김이고 転職는 직장을 바꿈이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441120-1-ex-1",
+        "version": 1,
+        "before": "大阪への",
+        "answer": "転勤",
+        "after": "が決まり、家族で住まいを探している。",
+        "reading": "てんきん",
+        "translation": "오사카로 전근이 정해져 가족과 집을 찾고 있다.",
+        "translationTarget": "전근",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1474050-1",
+    "wordId": "lex-jmdict-1474050",
+    "version": 1,
+    "meaning": "매매",
+    "hint": "물건 등을 사고파는 거래",
+    "confusions": [
+      {
+        "japanese": "贈与",
+        "distinction": "대가를 받고 사고파는 것과 무상으로 주는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1474050-1-ex-1",
+        "version": 1,
+        "before": "中古車の",
+        "answer": "売買",
+        "after": "では、契約前の確認が大切だ。",
+        "reading": "ばいばい",
+        "translation": "중고차 매매에서는 계약 전 확인이 중요하다.",
+        "translationTarget": "매매",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1341510-1",
+    "wordId": "lex-jmdict-1341510",
+    "version": 1,
+    "meaning": "준하다, 기준에 따르다",
+    "hint": "비슷한 기준·규정에 맞추어 취급합니다.",
+    "confusions": [
+      {
+        "japanese": "従う",
+        "distinction": "準じる는 비슷한 기준에 맞춰 취급함이고 従う는 규칙·지시 등을 따름 일반이다. 準ずる라는 형태도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1341510-1-ex-1",
+        "version": 1,
+        "before": "契約社員の待遇も、正社員の規定に",
+        "answer": "準じる",
+        "after": "。",
+        "reading": "じゅんじる",
+        "translation": "계약직 직원의 대우도 정규직 규정에 준한다.",
+        "translationTarget": "준한다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379900-1",
+    "wordId": "lex-jmdict-1379900",
+    "version": 1,
+    "meaning": "정교함",
+    "hint": "세부까지 매우 섬세하고 솜씨 좋게 만들어져 있습니다.",
+    "confusions": [
+      {
+        "japanese": "精密",
+        "distinction": "精巧는 섬세하게 만든 솜씨·구조이고 精密는 오차 없이 정확한 세밀함이다. 겹칠 수 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379900-1-ex-1",
+        "version": 1,
+        "before": "本物と見間違えるほど",
+        "answer": "精巧",
+        "after": "な模型だった。",
+        "reading": "せいこう",
+        "translation": "진짜로 착각할 정도로 정교한 모형이었다.",
+        "translationTarget": "정교한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

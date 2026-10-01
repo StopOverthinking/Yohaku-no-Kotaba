@@ -1764,6 +1764,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1546250-1",
+    "wordId": "lex-jmdict-1546250",
+    "version": 1,
+    "meaning": "용건",
+    "hint": "전화·방문 등에서 처리하거나 전달하려는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "要件",
+        "distinction": "用件는 전할 용건이고 같은 발음의 要件는 필요한 조건이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1546250-1-ex-1",
+        "version": 1,
+        "before": "電話をかける前に、伝える",
+        "answer": "用件",
+        "after": "をメモにまとめた。",
+        "reading": "ようけん",
+        "translation": "전화를 걸기 전에 전달할 용건을 메모로 정리했다.",
+        "translationTarget": "용건",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1490830-1",
+    "wordId": "lex-jmdict-1490830",
+    "version": 1,
+    "meaning": "빈곤",
+    "hint": "생활에 필요한 돈·자원 등이 부족한 상태입니다.",
+    "confusions": [
+      {
+        "japanese": "貧弱",
+        "distinction": "貧困는 경제적 빈곤·내용의 부족이고 貧弱는 약하고 빈약함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1490830-1-ex-1",
+        "version": 1,
+        "before": "教育の機会を広げることが、",
+        "answer": "貧困",
+        "after": "から抜け出す助けになる。",
+        "reading": "ひんこん",
+        "translation": "교육 기회를 넓히는 것이 빈곤에서 벗어나는 데 도움이 된다.",
+        "translationTarget": "빈곤",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1292760-1",
+    "wordId": "lex-jmdict-1292760",
+    "version": 1,
+    "meaning": "거듭·여러 번",
+    "hint": "같은 일을 몇 차례나 반복하는 모습",
+    "confusions": [
+      {
+        "japanese": "一度",
+        "distinction": "같은 행동을 여러 번 하는 것과 한 번만 하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1292760-1-ex-1",
+        "version": 1,
+        "before": "締め切りは",
+        "answer": "再三",
+        "after": "伝えていたのに、書類が届かなかった。",
+        "reading": "さいさん",
+        "translation": "마감은 여러 번 알렸는데도 서류가 도착하지 않았다.",
+        "translationTarget": "여러 번",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463740-1",
+    "wordId": "lex-jmdict-1463740",
+    "version": 1,
+    "meaning": "무지개",
+    "hint": "물방울에 햇빛이 비쳐 하늘에 나타나는 색의 띠",
+    "confusions": [
+      {
+        "japanese": "雲",
+        "distinction": "여러 색의 빛 띠와 물방울이 모인 구름을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463740-1-ex-1",
+        "version": 1,
+        "before": "雨がやむと、山の上に",
+        "answer": "虹",
+        "after": "がかかった。",
+        "reading": "にじ",
+        "translation": "비가 그치자 산 위에 무지개가 걸렸다.",
+        "translationTarget": "무지개",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1458650-1",
+    "wordId": "lex-jmdict-1458650",
+    "version": 1,
+    "meaning": "내선",
+    "hint": "같은 건물이나 조직 안에서 연결하는 전화 회선",
+    "confusions": [
+      {
+        "japanese": "外線",
+        "distinction": "조직 안에서 연결하는 회선과 밖으로 연결하는 회선을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1458650-1-ex-1",
+        "version": 1,
+        "before": "受付に電話して、",
+        "answer": "内線",
+        "after": "三〇二につないでもらった。",
+        "reading": "ないせん",
+        "translation": "접수처에 전화해서 내선 삼백이 번으로 연결받았다.",
+        "translationTarget": "내선",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1379690-1",
+    "wordId": "lex-jmdict-1379690",
+    "version": 1,
+    "meaning": "고조되다, 분위기가 달아오르다",
+    "hint": "흥미·열기·기세가 점점 높아집니다.",
+    "confusions": [
+      {
+        "japanese": "盛り上げる",
+        "distinction": "선택한 盛り上がる는 분위기가 고조되는 자동사이고 盛り上げる는 고조시키는 타동사이다. 물리적으로 솟아오르는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1379690-1-ex-1",
+        "version": 1,
+        "before": "応援の声が増え、会場の雰囲気が",
+        "answer": "盛り上がった",
+        "after": "。",
+        "reading": "もりあがった",
+        "translation": "응원 소리가 늘어 행사장 분위기가 달아올랐다.",
+        "translationTarget": "달아올랐다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1477190-1",
+    "wordId": "lex-jmdict-1477190",
+    "version": 1,
+    "meaning": "발아",
+    "hint": "씨앗에서 싹이 나옵니다.",
+    "confusions": [
+      {
+        "japanese": "開花",
+        "distinction": "発芽는 씨앗에서 싹이 남이고 開花는 꽃이 핌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1477190-1-ex-1",
+        "version": 1,
+        "before": "種をまいて三日後、最初の",
+        "answer": "発芽",
+        "after": "を確認した。",
+        "reading": "はつが",
+        "translation": "씨를 뿌린 사흘 뒤 최초의 발아를 확인했다.",
+        "translationTarget": "발아",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1217730-1",
+    "wordId": "lex-jmdict-1217730",
+    "version": 1,
+    "meaning": "얼굴",
+    "hint": "눈과 코와 입이 있는 머리의 앞부분",
+    "confusions": [
+      {
+        "japanese": "頭",
+        "distinction": "눈·코·입이 있는 앞부분과 머리 전체를 구별한다. 체면이나 대표라는 비유적 의미는 이번 핵심 용법이 아니다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1217730-1-ex-1",
+        "version": 1,
+        "before": "子どもの",
+        "answer": "顔",
+        "after": "に、チョコレートがついています。",
+        "reading": "かお",
+        "translation": "아이의 얼굴에 초콜릿이 묻어 있어요.",
+        "translationTarget": "얼굴",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-01T01:17:18.178Z",
+  "input": "content/jlpt/legacy/core-alias-review-007-mitsukeru.json",
+  "inputHash": "241f553fac848db46c60ea1c3e19bb6bccce1c6c322f7484bbb4140c1fca9345",
+  "previousActiveIds": [
+    "lex-jmdict-1501350",
+    "handmade_119",
+    "handmade_118",
+    "handmade_99",
+    "JLPTN3_83",
+    "JLPTN3_23",
+    "JLPTN3_34",
+    "JLPTN3_33",
+    "handmade_50",
+    "handmade_15",
+    "handmade_54",
+    "handmade_82",
+    "handmade_132",
+    "handmade_2",
+    "AbsoluteVerb_164",
+    "handmade_16",
+    "JLPTN3_126",
+    "handmade_63",
+    "handmade_81",
+    "JLPTN3_340",
+    "handmade_92",
+    "handmade_97",
+    "handmade_69",
+    "lex-jmdict-1577980",
+    "JLPTN3_71",
+    "JLPTN3_75"
+  ],
+  "addedIds": [
+    "JLPTN3_115"
+  ],
+  "oldGroupsUnchanged": true,
+  "fullCurrentHashesVerified": true,
+  "explicitCandidateLinks": [
+    {
+      "id": "candidate-core-JLPTN3_115",
+      "dictionaryId": "jmdict-1604570",
+      "wordIds": [
+        "JLPTN3_115",
+        "AbsoluteVerb_239"
+      ],
+      "reviewHash": "4a3c80f97d47624d2e92aeb04177ce645bf7b7b6163fa89a7930969e83fafba6"
+    }
+  ],
+  "profilePolicy": "original archives, conservative stage/date, no count summation; independent level references still required"
+}

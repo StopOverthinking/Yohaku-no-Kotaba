@@ -1396,6 +1396,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1422440-1",
+    "wordId": "lex-jmdict-1422440",
+    "version": 1,
+    "meaning": "축적",
+    "hint": "경험·지식·물질 등이 차곡차곡 쌓이는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "消費",
+        "distinction": "蓄積는 계속 모여 쌓임이고 消費는 사용하여 줄임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1422440-1-ex-1",
+        "version": 1,
+        "before": "長年の経験の",
+        "answer": "蓄積",
+        "after": "が、難しい判断を支えている。",
+        "reading": "ちくせき",
+        "translation": "오랜 경험의 축적이 어려운 판단을 뒷받침하고 있다.",
+        "translationTarget": "축적",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1512170-1",
+    "wordId": "lex-jmdict-1512170",
+    "version": 1,
+    "meaning": "반환",
+    "hint": "맡거나 차지하고 있던 물건·권리 등을 본래 주인에게 돌려줍니다.",
+    "confusions": [
+      {
+        "japanese": "返済",
+        "distinction": "返還는 물건·권리의 반환이고 返済는 빌린 돈을 갚음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1512170-1-ex-1",
+        "version": 1,
+        "before": "借りていた資料は、展示終了後に所有者へ",
+        "answer": "返還",
+        "after": "された。",
+        "reading": "へんかん",
+        "translation": "빌렸던 자료는 전시 종료 뒤 소유자에게 반환되었다.",
+        "translationTarget": "반환",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1456780-1",
+    "wordId": "lex-jmdict-1456780",
+    "version": 1,
+    "meaning": "부딪치다",
+    "hint": "이동하다가 앞에 있는 물체나 벽에 닿아요.",
+    "confusions": [
+      {
+        "japanese": "避ける",
+        "distinction": "앞의 장애물에 부딪치는 것과 피해 가는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1456780-1-ex-1",
+        "version": 1,
+        "before": "暗い廊下で、突き出た棚に肩が",
+        "answer": "突き当たった",
+        "after": "。",
+        "reading": "つきあたった",
+        "translation": "어두운 복도에서 튀어나온 선반에 어깨가 부딪쳤다.",
+        "translationTarget": "부딪쳤다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1386700-1",
+    "wordId": "lex-jmdict-1386700",
+    "version": 1,
+    "meaning": "끊임없이",
+    "hint": "동작이나 변화가 중간에 멈추지 않고 이어지는 모습",
+    "confusions": [
+      {
+        "japanese": "時々",
+        "distinction": "쉬지 않고 이어지는 것과 가끔 일어나는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1386700-1-ex-1",
+        "version": 1,
+        "before": "海岸では、風向きが",
+        "answer": "絶えず",
+        "after": "変わっていた。",
+        "reading": "たえず",
+        "translation": "해안에서는 바람 방향이 끊임없이 바뀌고 있었다.",
+        "translationTarget": "끊임없이",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443720-1",
+    "wordId": "lex-jmdict-1443720",
+    "version": 1,
+    "meaning": "전파·통신 신호",
+    "hint": "무선 통신 등에 쓰는 전자기파",
+    "confusions": [
+      {
+        "japanese": "音波",
+        "distinction": "무선 통신 등에 쓰는 파동과 소리가 전해지는 파동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443720-1-ex-1",
+        "version": 1,
+        "before": "山の中では",
+        "answer": "電波",
+        "after": "が弱くて、電話が途中で切れた。",
+        "reading": "でんぱ",
+        "translation": "산속에서는 통신 신호가 약해서 전화가 도중에 끊겼다.",
+        "translationTarget": "통신 신호",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1475530-1",
+    "wordId": "lex-jmdict-1475530",
+    "version": 1,
+    "meaning": "어둑하다",
+    "hint": "조금은 보이지만 빛이 충분하지 않은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "明るい",
+        "distinction": "빛이 부족해 어둑한 상태와 빛이 충분한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1475530-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "薄暗い",
+        "after": "倉庫で、古い写真の箱を見つけた。",
+        "reading": "うすぐらい",
+        "translation": "어둑한 창고에서 오래된 사진 상자를 발견했다.",
+        "translationTarget": "어둑한",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-JLPTN3_44-2",
+    "wordId": "JLPTN3_44",
+    "version": 1,
+    "meaning": "글씨·표시를 지우다, 저장된 기록을 삭제하다",
+    "hint": "글씨나 표시, 저장된 기록을 남지 않게 없애요.",
+    "confusions": [
+      {
+        "japanese": "削除する",
+        "distinction": "저장된 기록을 삭제할 때는 뜻이 겹친다. 이 용법은 글씨나 표시를 물리적으로 지우는 일에도 널리 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-JLPTN3_44-2-ex-1",
+        "version": 1,
+        "before": "パソコンを売る前に、保存したデータを全部",
+        "answer": "消した",
+        "after": "。",
+        "reading": "けした",
+        "translation": "컴퓨터를 팔기 전에 저장한 데이터를 모두 삭제했다.",
+        "translationTarget": "삭제했다",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1463920-1",
+    "wordId": "lex-jmdict-1463920",
+    "version": 1,
+    "meaning": "당일치기",
+    "hint": "외박하지 않고 떠난 날에 돌아오는 여행이나 이동",
+    "confusions": [
+      {
+        "japanese": "宿泊",
+        "distinction": "그날 돌아오는 이동과 묵고 돌아오는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1463920-1-ex-1",
+        "version": 1,
+        "before": "朝早く出れば、",
+        "answer": "日帰り",
+        "after": "でも温泉を楽しめます。",
+        "reading": "ひがえり",
+        "translation": "아침 일찍 떠나면 당일치기로도 온천을 즐길 수 있습니다.",
+        "translationTarget": "당일치기",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

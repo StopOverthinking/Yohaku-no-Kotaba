@@ -1,0 +1,20 @@
+{
+  "reason": "Full candidate alternative spelling/read duplicate existing legacy entry. Not new vocabulary and no original ID changed.",
+  "rows": [
+    {
+      "word": {
+        "japanese": "纏まる",
+        "reading": "まとまる",
+        "type": "verb",
+        "meaning": "정리되다·합의되다",
+        "hint": "흩어져 있던 의견이나 내용이 하나로 정리되어 결론이 나요.",
+        "confusion": "纏める",
+        "distinction": "의견이 정리된 상태와 누군가 의견을 정리하는 행동을 구별한다.",
+        "dictionaryId": "jmdict-1611640",
+        "level": "N3",
+        "levelNote": "제공 OpenJLPT N2 근거와 사전 대표 의미를 대조했다. 선택한 실용 용법의 편집 난도를 N3로 제안하며 공식 출제 수준으로 주장하지 않는다."
+      },
+      "manuscript": "@纏まる|まとまる|verb|정리되다·합의되다|흩어져 있던 의견이나 내용이 하나로 정리되어 결론이 나요.|纏める|의견이 정리된 상태와 누군가 의견을 정리하는 행동을 구별한다.|jmdict-1611640\n何度も話し合って、ようやく意見が《纏まった》。|まとまった|몇 번이나 의논하여 마침내 의견이 《정리되었다》.|28\n"
+    }
+  ]
+}

@@ -1584,6 +1584,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1541600-1",
+    "wordId": "lex-jmdict-1541600",
+    "version": 1,
+    "meaning": "유망함",
+    "hint": "앞으로 잘될 가능성·기대가 큽니다.",
+    "confusions": [
+      {
+        "japanese": "有名",
+        "distinction": "有望는 앞으로 기대되는 가능성이 있음이고 有名는 이미 널리 알려짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1541600-1-ex-1",
+        "version": 1,
+        "before": "この研究分野は、",
+        "answer": "有望",
+        "after": "な若手が次々と育っている。",
+        "reading": "ゆうぼう",
+        "translation": "이 연구 분야에서는 유망한 신진 연구자들이 잇달아 자라고 있다.",
+        "translationTarget": "유망한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1560120-1",
+    "wordId": "lex-jmdict-1560120",
+    "version": 1,
+    "meaning": "노골적임",
+    "hint": "의도·감정 등을 숨기지 않아 그대로 드러납니다.",
+    "confusions": [
+      {
+        "japanese": "率直",
+        "distinction": "露骨는 숨김없이 드러나 불쾌할 수 있음을 강조하고 率直는 솔직한 태도에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1560120-1-ex-1",
+        "version": 1,
+        "before": "彼は退屈そうな顔を",
+        "answer": "露骨",
+        "after": "に見せた。",
+        "reading": "ろこつ",
+        "translation": "그는 지루한 듯한 표정을 노골적으로 드러냈다.",
+        "translationTarget": "노골적으로",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591780-1",
+    "wordId": "lex-jmdict-1591780",
+    "version": 1,
+    "meaning": "전환하다, 바꾸다",
+    "hint": "사용하는 방식·대상·상태를 다른 것으로 바꿉니다.",
+    "confusions": [
+      {
+        "japanese": "切り替わる",
+        "distinction": "切り替える는 바꾸는 타동사이고 切り替わる는 바뀌는 자동사이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591780-1-ex-1",
+        "version": 1,
+        "before": "混雑を避けるため、通勤の手段を自転車に",
+        "answer": "切り替えた",
+        "after": "。",
+        "reading": "きりかえた",
+        "translation": "혼잡을 피하려고 통근 수단을 자전거로 바꿨다.",
+        "translationTarget": "바꿨다",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381570-1",
+    "wordId": "lex-jmdict-1381570",
+    "version": 1,
+    "meaning": "청소년",
+    "hint": "아직 성장하는 시기의 젊은 사람들",
+    "confusions": [
+      {
+        "japanese": "高齢者",
+        "distinction": "성장기에 있는 젊은 세대와 나이 든 세대를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381570-1-ex-1",
+        "version": 1,
+        "before": "市は、",
+        "answer": "青少年",
+        "after": "が放課後に過ごせる場所を増やしている。",
+        "reading": "せいしょうねん",
+        "translation": "시는 청소년이 방과 후에 지낼 수 있는 장소를 늘리고 있다.",
+        "translationTarget": "청소년",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1404510-1",
+    "wordId": "lex-jmdict-1404510",
+    "version": 1,
+    "meaning": "속박",
+    "hint": "행동·자유를 얽매어 제한합니다.",
+    "confusions": [
+      {
+        "japanese": "制約",
+        "distinction": "束縛는 행동·자유를 얽매는 데 초점을 두고 制約는 제한하는 조건·한계에 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1404510-1-ex-1",
+        "version": 1,
+        "before": "時間の",
+        "answer": "束縛",
+        "after": "が少ない働き方を選びたい。",
+        "reading": "そくばく",
+        "translation": "시간 속박이 적은 근무 방식을 고르고 싶다.",
+        "translationTarget": "속박",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

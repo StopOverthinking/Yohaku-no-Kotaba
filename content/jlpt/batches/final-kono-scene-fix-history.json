@@ -1,0 +1,543 @@
+{
+  "preparedAt": "2026-10-01T01:19:31.666Z",
+  "scope": "explicit-reviewed-example-revision-not-yet-runtime-applied",
+  "previousExampleVersions": {
+    "sense-lex-jmdict-1252330-1-ex-1": 2,
+    "sense-lex-jmdict-1344930-1-ex-1": 2,
+    "sense-lex-jmdict-1365250-1-ex-1": 2,
+    "sense-lex-jmdict-1345250-1-ex-3": 2,
+    "sense-lex-jmdict-1185290-1-ex-1": 2,
+    "sense-lex-jmdict-1610960-1-ex-1": 2,
+    "sense-lex-jmdict-1357480-1-ex-1": 2,
+    "sense-lex-jmdict-1587610-1-ex-1": 2,
+    "sense-lex-jmdict-1526360-1-ex-1": 2,
+    "sense-lex-jmdict-1310050-1-ex-1": 2,
+    "sense-lex-jmdict-1042080-1-ex-1": 2,
+    "sense-lex-jmdict-1013050-1-ex-2": 2,
+    "sense-lex-jmdict-1594110-1-ex-1": 2
+  },
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1582920",
+      "before": {
+        "word": {
+          "id": "lex-jmdict-1582920",
+          "setId": "jlpt-level-n5",
+          "japanese": "この",
+          "reading": "この",
+          "meaning": "이 (명사 앞에서)",
+          "type": "other",
+          "difficulty": 10,
+          "verbInfo": null,
+          "sourceOrder": 421
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1582920-1",
+          "wordId": "lex-jmdict-1582920",
+          "version": 1,
+          "meaning": "이 (명사 앞에서)",
+          "hint": "말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말",
+          "confusions": [
+            {
+              "japanese": "これ",
+              "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1582920-1-ex-1",
+              "version": 1,
+              "before": "",
+              "answer": "この",
+              "after": "スープはまだ熱いので、気をつけてください。",
+              "reading": "この",
+              "translation": "이 수프는 아직 뜨거우니 조심하세요.",
+              "translationTarget": "이",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "after": {
+        "word": {
+          "id": "lex-jmdict-1582920",
+          "setId": "jlpt-level-n5",
+          "japanese": "この",
+          "reading": "この",
+          "meaning": "이 (명사 앞에서)",
+          "type": "other",
+          "difficulty": 10,
+          "verbInfo": null,
+          "sourceOrder": 421
+        },
+        "sense": {
+          "id": "sense-lex-jmdict-1582920-1",
+          "wordId": "lex-jmdict-1582920",
+          "version": 1,
+          "meaning": "이 (명사 앞에서)",
+          "hint": "말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말",
+          "confusions": [
+            {
+              "japanese": "これ",
+              "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1582920-1-ex-1",
+              "version": 2,
+              "before": "",
+              "answer": "この",
+              "after": "箱だけ、二人で運びましょう。",
+              "reading": "この",
+              "translation": "이 상자만 둘이서 옮깁시다.",
+              "translationTarget": "이",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        }
+      },
+      "previousPublication": {
+        "id": "lex-jmdict-1582920",
+        "level": "N5",
+        "source": {
+          "dictionary": "jmdict-1582920",
+          "proposedLevel": "N1",
+          "levelEvidence": {
+            "source": "openjlpt",
+            "levels": [
+              "N1"
+            ],
+            "matchedForms": [
+              "此の"
+            ]
+          },
+          "assignment": "editorial-estimate"
+        },
+        "contentHash": "acb606737532fd84c76302edf543888341b798525b48dd2a5fbf10f3788e1e3d",
+        "publishedHash": "f19ef983bfdb6ffbd1d2ad279436362f6e20bbb0f2297127467b91dbb0fe324e"
+      },
+      "previousGlobalReview": {
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+        "reviewedAt": "2026-10-01T01:10:49.232Z",
+        "notes": [
+          "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+          "게시 전 현재 원본과 모든 미게시 pilot을 합친 9603예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+        ],
+        "contentHash": "acb606737532fd84c76302edf543888341b798525b48dd2a5fbf10f3788e1e3d"
+      },
+      "exampleId": "sense-lex-jmdict-1582920-1-ex-1",
+      "reason": "この의 뜨거운 수프 주의 문장은 기존 カップ의 뜨거운 컵 주의 문형과 실질적으로 반복되어, 가까운 특정 상자를 둘이 옮기자는 독립 지시 상황으로 정정한다. 단어·뜻·용법·난도는 보존한다.",
+      "approval": {
+        "wordId": "lex-jmdict-1582920",
+        "contentHash": "3d72be6af1cc5538e1ef8029dda25bb069eddfcb82caeb7ac2353b4502a3e67a",
+        "outcome": "accepted",
+        "reviewer": "Codex GPT-6 Astra review agent",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "reviewedAt": "2026-10-01T01:19:31.908Z",
+        "method": "Independent full original and revised word/sense/example read; source and version-bound single-scene revision",
+        "notes": [
+          "この의 뜨거운 수프 주의 문장은 기존 カップ의 뜨거운 컵 주의 문형과 실질적으로 반복되어, 가까운 특정 상자를 둘이 옮기자는 독립 지시 상황으로 정정한다. 단어·뜻·용법·난도는 보존한다.",
+          "단어 및 용법 ID·버전·뜻·힌트·대비·난도 보존, 지정예문만v2. 다른 예문은 모두 완전히 동일."
+        ]
+      }
+    }
+  ],
+  "sourceFiles": [
+    {
+      "batch": "n5-041",
+      "part": "01",
+      "previousVocabulary": [
+        {
+          "dictionaryId": "jmdict-1577100",
+          "japanese": "何",
+          "reading": "なに",
+          "type": "noun",
+          "meaning": "무엇",
+          "hint": "사물이나 내용을 알지 못해 그 정체를 묻는 말",
+          "confusion": "誰",
+          "distinction": "사물이나 내용을 묻는 말과 사람을 묻는 말을 구별한다. 대표 읽기는 나니이며, 난이라는 읽기도 있어 난데스카나 난지처럼 뒤에 오는 말에 따라 쓰인다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1188760",
+          "japanese": "いつ",
+          "reading": "いつ",
+          "type": "noun",
+          "meaning": "언제",
+          "hint": "일이나 사건이 일어나는 때를 묻는 말",
+          "confusion": "どこ",
+          "distinction": "시간을 묻는 말과 장소를 묻는 말을 구별한다. 시각을 한정해 묻는 몇 시와도 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1577140",
+          "japanese": "どこ",
+          "reading": "どこ",
+          "type": "noun",
+          "meaning": "어디",
+          "hint": "위치나 장소를 알지 못해 묻는 말",
+          "confusion": "いつ",
+          "distinction": "장소를 묻는 말과 때를 묻는 말을 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1009290",
+          "japanese": "どれ",
+          "reading": "どれ",
+          "type": "noun",
+          "meaning": "어느 것",
+          "hint": "여러 물건 가운데 하나를 골라 묻는 말",
+          "confusion": "どの",
+          "distinction": "대상을 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 대상을 한정하는 말을 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1008910",
+          "japanese": "どう",
+          "reading": "どう",
+          "type": "adv",
+          "meaning": "어떻게, 어떤가",
+          "hint": "방법이나 상태가 어떠한지 묻는 말",
+          "confusion": "なぜ",
+          "distinction": "방법이나 상태를 묻는 말과 이유를 묻는 말을 구별한다. 말을 멈추게 하는 감탄사나 같은 소리의 금속 이름은 이번 뜻이 아니다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1577120",
+          "japanese": "なぜ",
+          "reading": "なぜ",
+          "type": "adv",
+          "meaning": "왜, 어째서",
+          "hint": "어떤 일이 일어난 이유를 묻는 말",
+          "confusion": "どう",
+          "distinction": "이유를 묻는 말과 방법이나 상태를 묻는 말을 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1219980",
+          "japanese": "いくら",
+          "reading": "いくら",
+          "type": "noun",
+          "meaning": "얼마",
+          "hint": "물건의 가격이나 돈의 금액을 묻는 말",
+          "confusion": "いくつ",
+          "distinction": "가격이나 금액을 묻는 말과 물건의 개수를 묻는 말을 구별한다. 같은 소리의 연어알 이름은 다른 뜻이다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1219960",
+          "japanese": "いくつ",
+          "reading": "いくつ",
+          "type": "adv",
+          "meaning": "몇 개",
+          "hint": "물건이 몇 개 있는지 개수를 묻는 말",
+          "confusion": "いくら",
+          "distinction": "개수를 묻는 말과 금액을 묻는 말을 구별한다. 같은 표현으로 나이를 물을 수도 있지만 이번 예문은 물건의 개수에 한정한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1628530",
+          "japanese": "これ",
+          "reading": "これ",
+          "type": "noun",
+          "meaning": "이것",
+          "hint": "말하는 사람 가까이에 있는 물건을 가리키는 말",
+          "confusion": "この",
+          "distinction": "물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 부르는 감탄사의 뜻은 이번 용법이 아니다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1006970",
+          "japanese": "それ",
+          "reading": "それ",
+          "type": "noun",
+          "meaning": "그것",
+          "hint": "말을 듣는 상대 가까이에 있는 물건을 가리키는 말",
+          "confusion": "その",
+          "distinction": "물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 앞서 말한 물건을 다시 가리킬 때도 쓴다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1000580",
+          "japanese": "あれ",
+          "reading": "あれ",
+          "type": "noun",
+          "meaning": "저것",
+          "hint": "말하는 사람과 듣는 사람 모두에게서 떨어진 물건을 가리키는 말",
+          "confusion": "あの",
+          "distinction": "멀리 있는 물건 자체를 대신하는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 놀라는 감탄사는 이번 핵심 뜻이 아니다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1288810",
+          "japanese": "ここ",
+          "reading": "ここ",
+          "type": "noun",
+          "meaning": "여기, 이곳",
+          "hint": "말하는 사람이 있는 쪽의 가까운 장소를 가리키는 말",
+          "confusion": "これ",
+          "distinction": "가까운 장소를 가리키는 말과 가까운 물건을 가리키는 말을 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1006670",
+          "japanese": "そこ",
+          "reading": "そこ",
+          "type": "noun",
+          "meaning": "거기, 그곳",
+          "hint": "말을 듣는 상대가 있는 쪽의 가까운 장소를 가리키는 말",
+          "confusion": "それ",
+          "distinction": "상대 쪽의 장소를 가리키는 말과 상대 쪽의 물건을 가리키는 말을 구별한다. 앞서 말한 장소를 다시 가리킬 수도 있다. 같은 소리의 바닥이라는 명사와는 뜻이 다르다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1000320",
+          "japanese": "あそこ",
+          "reading": "あそこ",
+          "type": "noun",
+          "meaning": "저기, 저곳",
+          "hint": "말하는 사람과 듣는 사람 모두에게서 떨어진 장소를 가리키는 말",
+          "confusion": "あれ",
+          "distinction": "멀리 있는 장소를 가리키는 말과 멀리 있는 물건을 가리키는 말을 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1582920",
+          "japanese": "この",
+          "reading": "この",
+          "type": "other",
+          "meaning": "이 (명사 앞에서)",
+          "hint": "말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말",
+          "confusion": "これ",
+          "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        },
+        {
+          "dictionaryId": "jmdict-1006830",
+          "japanese": "その",
+          "reading": "その",
+          "type": "other",
+          "meaning": "그 (명사 앞에서)",
+          "hint": "상대 쪽의 대상이나 이미 말한 대상을 뒤의 명사와 함께 가리키는 말",
+          "confusion": "それ",
+          "distinction": "뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다. 머뭇거리는 감탄사는 이번 뜻에 포함하지 않는다.",
+          "level": "N5",
+          "levelNote": "최종 기초 범위 검토에서 확인한 의문·지시 기능의 누락 핵심 용법만 선정. 실제 일상 의문·지시 기능에 따른 비공식 N5 편집 수준이며 사전 표기의 출처 제안 수준이나 같은 소리의 다른 뜻과 구분한다."
+        }
+      ],
+      "previousManuscript": "@何|なに|noun|무엇|사물이나 내용을 알지 못해 그 정체를 묻는 말|誰|사물이나 내용을 묻는 말과 사람을 묻는 말을 구별한다. 대표 읽기는 나니이며, 난이라는 읽기도 있어 난데스카나 난지처럼 뒤에 오는 말에 따라 쓰인다.|jmdict-1577100\r\n夕ご飯に《何》を作りましょうか。|なに|저녁밥으로 《무엇》을 만들까요?|10\n\n@いつ|いつ|noun|언제|일이나 사건이 일어나는 때를 묻는 말|どこ|시간을 묻는 말과 장소를 묻는 말을 구별한다. 시각을 한정해 묻는 몇 시와도 구별한다.|jmdict-1188760\r\n荷物は《いつ》届きますか。|いつ|짐은 《언제》 도착합니까?|10\n\n@どこ|どこ|noun|어디|위치나 장소를 알지 못해 묻는 말|いつ|장소를 묻는 말과 때를 묻는 말을 구별한다.|jmdict-1577140\r\n駅は《どこ》ですか。|どこ|역은 《어디》입니까?|10\n\n@どれ|どれ|noun|어느 것|여러 물건 가운데 하나를 골라 묻는 말|どの|대상을 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 대상을 한정하는 말을 구별한다.|jmdict-1009290\r\n赤、青、黒があります。《どれ》にしますか。|どれ|빨강, 파랑, 검정이 있습니다. 《어느 것》으로 하겠습니까?|10\n\n@どう|どう|adv|어떻게, 어떤가|방법이나 상태가 어떠한지 묻는 말|なぜ|방법이나 상태를 묻는 말과 이유를 묻는 말을 구별한다. 말을 멈추게 하는 감탄사나 같은 소리의 금속 이름은 이번 뜻이 아니다.|jmdict-1008910\r\nこの機械は《どう》使いますか。|どう|이 기계는 《어떻게》 사용합니까?|10\n\n@なぜ|なぜ|adv|왜, 어째서|어떤 일이 일어난 이유를 묻는 말|どう|이유를 묻는 말과 방법이나 상태를 묻는 말을 구별한다.|jmdict-1577120\r\n《なぜ》電車が止まったんですか。|なぜ|《왜》 전철이 멈춘 것입니까?|10\n\n@いくら|いくら|noun|얼마|물건의 가격이나 돈의 금액을 묻는 말|いくつ|가격이나 금액을 묻는 말과 물건의 개수를 묻는 말을 구별한다. 같은 소리의 연어알 이름은 다른 뜻이다.|jmdict-1219980\r\nこの切手は一枚《いくら》ですか。|いくら|이 우표는 한 장에 《얼마》입니까?|10\n\n@いくつ|いくつ|adv|몇 개|물건이 몇 개 있는지 개수를 묻는 말|いくら|개수를 묻는 말과 금액을 묻는 말을 구별한다. 같은 표현으로 나이를 물을 수도 있지만 이번 예문은 물건의 개수에 한정한다.|jmdict-1219960\r\nりんごを《いくつ》買いますか。|いくつ|사과를 《몇 개》 삽니까?|10\n\n@これ|これ|noun|이것|말하는 사람 가까이에 있는 물건을 가리키는 말|この|물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 부르는 감탄사의 뜻은 이번 용법이 아니다.|jmdict-1628530\r\n《これ》を一口食べてみてください。|これ|《이것》을 한 입 먹어 보세요.|10\n\n@それ|それ|noun|그것|말을 듣는 상대 가까이에 있는 물건을 가리키는 말|その|물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 앞서 말한 물건을 다시 가리킬 때도 쓴다.|jmdict-1006970\r\n手に持っている《それ》を見せてください。|それ|손에 들고 있는 《그것》을 보여 주세요.|10\n\n@あれ|あれ|noun|저것|말하는 사람과 듣는 사람 모두에게서 떨어진 물건을 가리키는 말|あの|멀리 있는 물건 자체를 대신하는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 놀라는 감탄사는 이번 핵심 뜻이 아니다.|jmdict-1000580\r\n川の向こうに見える《あれ》は、学校です。|あれ|강 건너편에 보이는 《저것》은 학교입니다.|10\n\n@ここ|ここ|noun|여기, 이곳|말하는 사람이 있는 쪽의 가까운 장소를 가리키는 말|これ|가까운 장소를 가리키는 말과 가까운 물건을 가리키는 말을 구별한다.|jmdict-1288810\r\n《ここ》から先は、車で入れません。|ここ|《여기》서부터는 차로 들어갈 수 없습니다.|10\n\n@そこ|そこ|noun|거기, 그곳|말을 듣는 상대가 있는 쪽의 가까운 장소를 가리키는 말|それ|상대 쪽의 장소를 가리키는 말과 상대 쪽의 물건을 가리키는 말을 구별한다. 앞서 말한 장소를 다시 가리킬 수도 있다. 같은 소리의 바닥이라는 명사와는 뜻이 다르다.|jmdict-1006670\r\n《そこ》に立つと、車が通れません。|そこ|《거기》에 서 있으면 차가 지나갈 수 없습니다.|10\n\n@あそこ|あそこ|noun|저기, 저곳|말하는 사람과 듣는 사람 모두에게서 떨어진 장소를 가리키는 말|あれ|멀리 있는 장소를 가리키는 말과 멀리 있는 물건을 가리키는 말을 구별한다.|jmdict-1000320\r\nバスは《あそこ》に止まります。赤い看板の前です。|あそこ|버스는 《저기》에 멈춥니다. 빨간 간판 앞입니다.|10\n\n@この|この|other|이 (명사 앞에서)|말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말|これ|뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다.|jmdict-1582920\r\n《この》スープはまだ熱いので、気をつけてください。|この|《이》 수프는 아직 뜨거우니 조심하세요.|10\n\n@その|その|other|그 (명사 앞에서)|상대 쪽의 대상이나 이미 말한 대상을 뒤의 명사와 함께 가리키는 말|それ|뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다. 머뭇거리는 감탄사는 이번 뜻에 포함하지 않는다.|jmdict-1006830\r\n《その》帽子、よく似合っていますね。|その|《그》 모자, 참 잘 어울리네요.|10\n",
+      "previousReview": {
+        "schemaVersion": 2,
+        "sourceHash": "8c057cf717959b6daa51e66cd0ea13d72e52e0e4f48724a26bd67ab56535b84e",
+        "review": {
+          "outcome": "accepted",
+          "reviewer": "Codex GPT-6 Astra review agent",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+          "reviewedAt": "2026-10-01T01:10:49.232Z",
+          "notes": [
+            "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+            "게시 전 현재 원본과 모든 미게시 pilot을 합친 9603예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다."
+          ]
+        },
+        "entries": [
+          [
+            "lex-jmdict-1577100",
+            "a6c04221194001452aa1969b18b06e4f95e65508c0a596aec2b800e3ce973f73"
+          ],
+          [
+            "lex-jmdict-1188760",
+            "f9fb9679f8f82346b3158cbceca817bdc31e69ad267245206a3866af2400653f"
+          ],
+          [
+            "lex-jmdict-1577140",
+            "53fa08b266be2ae718680a56690ed2439a06a1d8df1290afb7a874d3bf6d75aa"
+          ],
+          [
+            "lex-jmdict-1009290",
+            "dd6b1f99ac5a623cebe77ac08eeb17053d2ad3dfd0213f52e91b055c394dcd05"
+          ],
+          [
+            "lex-jmdict-1008910",
+            "551d233501438c579de10ba9a0f25e81260b151f4d3c82c2848d43dbda3c5d97"
+          ],
+          [
+            "lex-jmdict-1577120",
+            "7fff33b4b3cbad1f4d2a79393f4d9ac8ed3f96cfac0c6d33672fce9eb1b8d4fc"
+          ],
+          [
+            "lex-jmdict-1219980",
+            "4f5fb9cbdcbb48941986852abec48060d90c6769bcc6b810804d725996716bc9"
+          ],
+          [
+            "lex-jmdict-1219960",
+            "995d8e7a00f9e5025bb5f173a960839a40974f01c6a26fff2f4bb88e4c6b0f07"
+          ],
+          [
+            "lex-jmdict-1628530",
+            "da57392f673da2ba7c6f95cdd519ec37e71d0b28b84ed087c1db88b29ee9f1b9"
+          ],
+          [
+            "lex-jmdict-1006970",
+            "c0fa93a8a619525c095cc34abc6f607c48515cb57bbfc9f379d6dd91c1100aab"
+          ],
+          [
+            "lex-jmdict-1000580",
+            "66be4d976d79611bcffb4fd34fae2b1a8e2c2dc9ac4844ac8af605c073c4d752"
+          ],
+          [
+            "lex-jmdict-1288810",
+            "3516dc5afd2d264c22ec977c5f74a440d2128e18f94753bffedcb73208e74570"
+          ],
+          [
+            "lex-jmdict-1006670",
+            "8de7afd3dcbccc7635ecb1c478e9816ed7312916583de7698b664f366a14b390"
+          ],
+          [
+            "lex-jmdict-1000320",
+            "eae7a51af2cb906c338fc6b97a216c148d888a03b973cf608e21e438b7c87c8b"
+          ],
+          [
+            "lex-jmdict-1582920",
+            "acb606737532fd84c76302edf543888341b798525b48dd2a5fbf10f3788e1e3d"
+          ],
+          [
+            "lex-jmdict-1006830",
+            "c738ddf0174daf1fea5035f145fd37f25e11bc66f22e3f4448ee86b1bfef74f5"
+          ]
+        ]
+      },
+      "nextManuscript": "@何|なに|noun|무엇|사물이나 내용을 알지 못해 그 정체를 묻는 말|誰|사물이나 내용을 묻는 말과 사람을 묻는 말을 구별한다. 대표 읽기는 나니이며, 난이라는 읽기도 있어 난데스카나 난지처럼 뒤에 오는 말에 따라 쓰인다.|jmdict-1577100\r\n夕ご飯に《何》を作りましょうか。|なに|저녁밥으로 《무엇》을 만들까요?|10\n\n@いつ|いつ|noun|언제|일이나 사건이 일어나는 때를 묻는 말|どこ|시간을 묻는 말과 장소를 묻는 말을 구별한다. 시각을 한정해 묻는 몇 시와도 구별한다.|jmdict-1188760\r\n荷物は《いつ》届きますか。|いつ|짐은 《언제》 도착합니까?|10\n\n@どこ|どこ|noun|어디|위치나 장소를 알지 못해 묻는 말|いつ|장소를 묻는 말과 때를 묻는 말을 구별한다.|jmdict-1577140\r\n駅は《どこ》ですか。|どこ|역은 《어디》입니까?|10\n\n@どれ|どれ|noun|어느 것|여러 물건 가운데 하나를 골라 묻는 말|どの|대상을 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 대상을 한정하는 말을 구별한다.|jmdict-1009290\r\n赤、青、黒があります。《どれ》にしますか。|どれ|빨강, 파랑, 검정이 있습니다. 《어느 것》으로 하겠습니까?|10\n\n@どう|どう|adv|어떻게, 어떤가|방법이나 상태가 어떠한지 묻는 말|なぜ|방법이나 상태를 묻는 말과 이유를 묻는 말을 구별한다. 말을 멈추게 하는 감탄사나 같은 소리의 금속 이름은 이번 뜻이 아니다.|jmdict-1008910\r\nこの機械は《どう》使いますか。|どう|이 기계는 《어떻게》 사용합니까?|10\n\n@なぜ|なぜ|adv|왜, 어째서|어떤 일이 일어난 이유를 묻는 말|どう|이유를 묻는 말과 방법이나 상태를 묻는 말을 구별한다.|jmdict-1577120\r\n《なぜ》電車が止まったんですか。|なぜ|《왜》 전철이 멈춘 것입니까?|10\n\n@いくら|いくら|noun|얼마|물건의 가격이나 돈의 금액을 묻는 말|いくつ|가격이나 금액을 묻는 말과 물건의 개수를 묻는 말을 구별한다. 같은 소리의 연어알 이름은 다른 뜻이다.|jmdict-1219980\r\nこの切手は一枚《いくら》ですか。|いくら|이 우표는 한 장에 《얼마》입니까?|10\n\n@いくつ|いくつ|adv|몇 개|물건이 몇 개 있는지 개수를 묻는 말|いくら|개수를 묻는 말과 금액을 묻는 말을 구별한다. 같은 표현으로 나이를 물을 수도 있지만 이번 예문은 물건의 개수에 한정한다.|jmdict-1219960\r\nりんごを《いくつ》買いますか。|いくつ|사과를 《몇 개》 삽니까?|10\n\n@これ|これ|noun|이것|말하는 사람 가까이에 있는 물건을 가리키는 말|この|물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 부르는 감탄사의 뜻은 이번 용법이 아니다.|jmdict-1628530\r\n《これ》を一口食べてみてください。|これ|《이것》을 한 입 먹어 보세요.|10\n\n@それ|それ|noun|그것|말을 듣는 상대 가까이에 있는 물건을 가리키는 말|その|물건 자체를 대신하여 혼자 쓰는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 앞서 말한 물건을 다시 가리킬 때도 쓴다.|jmdict-1006970\r\n手に持っている《それ》を見せてください。|それ|손에 들고 있는 《그것》을 보여 주세요.|10\n\n@あれ|あれ|noun|저것|말하는 사람과 듣는 사람 모두에게서 떨어진 물건을 가리키는 말|あの|멀리 있는 물건 자체를 대신하는 말과 뒤에 명사를 붙여 물건을 꾸미는 말을 구별한다. 놀라는 감탄사는 이번 핵심 뜻이 아니다.|jmdict-1000580\r\n川の向こうに見える《あれ》は、学校です。|あれ|강 건너편에 보이는 《저것》은 학교입니다.|10\n\n@ここ|ここ|noun|여기, 이곳|말하는 사람이 있는 쪽의 가까운 장소를 가리키는 말|これ|가까운 장소를 가리키는 말과 가까운 물건을 가리키는 말을 구별한다.|jmdict-1288810\r\n《ここ》から先は、車で入れません。|ここ|《여기》서부터는 차로 들어갈 수 없습니다.|10\n\n@そこ|そこ|noun|거기, 그곳|말을 듣는 상대가 있는 쪽의 가까운 장소를 가리키는 말|それ|상대 쪽의 장소를 가리키는 말과 상대 쪽의 물건을 가리키는 말을 구별한다. 앞서 말한 장소를 다시 가리킬 수도 있다. 같은 소리의 바닥이라는 명사와는 뜻이 다르다.|jmdict-1006670\r\n《そこ》に立つと、車が通れません。|そこ|《거기》에 서 있으면 차가 지나갈 수 없습니다.|10\n\n@あそこ|あそこ|noun|저기, 저곳|말하는 사람과 듣는 사람 모두에게서 떨어진 장소를 가리키는 말|あれ|멀리 있는 장소를 가리키는 말과 멀리 있는 물건을 가리키는 말을 구별한다.|jmdict-1000320\r\nバスは《あそこ》に止まります。赤い看板の前です。|あそこ|버스는 《저기》에 멈춥니다. 빨간 간판 앞입니다.|10\n\n@この|この|other|이 (명사 앞에서)|말하는 사람 가까이에 있는 대상을 뒤의 명사와 함께 가리키는 말|これ|뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다.|jmdict-1582920\r\n《この》箱だけ、二人で運びましょう。|この|《이》 상자만 둘이서 옮깁시다.|10\n\n@その|その|other|그 (명사 앞에서)|상대 쪽의 대상이나 이미 말한 대상을 뒤의 명사와 함께 가리키는 말|それ|뒤에 명사가 필요한 꾸미는 말과 명사 없이 물건 자체를 가리키는 말을 구별한다. 머뭇거리는 감탄사는 이번 뜻에 포함하지 않는다.|jmdict-1006830\r\n《その》帽子、よく似合っていますね。|その|《그》 모자, 참 잘 어울리네요.|10\n",
+      "nextReview": {
+        "schemaVersion": 2,
+        "sourceHash": "e089b11b355f066c1e8d215f008dd4cb2997a179d08d1547441da6fa8e72e9f0",
+        "review": {
+          "outcome": "accepted",
+          "reviewer": "Codex GPT-6 Astra review agent",
+          "model": "gpt-6-astra",
+          "reasoningEffort": "high",
+          "method": "Independent complete editorial read of every word, selected level, hint, contrast, Japanese example and Korean translation; subsequent source/hash and full-corpus similarity verification.",
+          "reviewedAt": "2026-10-01T01:19:31.908Z",
+          "notes": [
+            "표제어·읽기·품사·선택 의미·수준·힌트·대비·일본어 예문·번역을 각각 읽어 독립 검토한 최종본이다. 수준은 선택 용법의 비공식 권장 난도이며 원천 등급과 구별한다.",
+            "게시 전 현재 원본과 모든 미게시 pilot을 합친 9603예문에서 이 묶음 신규 유사쌍0. 단어·원고의 모든 대응 필드와 원본 해시를 확인했다.",
+            "독립 승인된 예문 하나만v2로개정; final-kono-scene-fix-history.json의 개별새승인/이전전체기록 참조."
+          ]
+        },
+        "entries": [
+          [
+            "lex-jmdict-1577100",
+            "a6c04221194001452aa1969b18b06e4f95e65508c0a596aec2b800e3ce973f73"
+          ],
+          [
+            "lex-jmdict-1188760",
+            "f9fb9679f8f82346b3158cbceca817bdc31e69ad267245206a3866af2400653f"
+          ],
+          [
+            "lex-jmdict-1577140",
+            "53fa08b266be2ae718680a56690ed2439a06a1d8df1290afb7a874d3bf6d75aa"
+          ],
+          [
+            "lex-jmdict-1009290",
+            "dd6b1f99ac5a623cebe77ac08eeb17053d2ad3dfd0213f52e91b055c394dcd05"
+          ],
+          [
+            "lex-jmdict-1008910",
+            "551d233501438c579de10ba9a0f25e81260b151f4d3c82c2848d43dbda3c5d97"
+          ],
+          [
+            "lex-jmdict-1577120",
+            "7fff33b4b3cbad1f4d2a79393f4d9ac8ed3f96cfac0c6d33672fce9eb1b8d4fc"
+          ],
+          [
+            "lex-jmdict-1219980",
+            "4f5fb9cbdcbb48941986852abec48060d90c6769bcc6b810804d725996716bc9"
+          ],
+          [
+            "lex-jmdict-1219960",
+            "995d8e7a00f9e5025bb5f173a960839a40974f01c6a26fff2f4bb88e4c6b0f07"
+          ],
+          [
+            "lex-jmdict-1628530",
+            "da57392f673da2ba7c6f95cdd519ec37e71d0b28b84ed087c1db88b29ee9f1b9"
+          ],
+          [
+            "lex-jmdict-1006970",
+            "c0fa93a8a619525c095cc34abc6f607c48515cb57bbfc9f379d6dd91c1100aab"
+          ],
+          [
+            "lex-jmdict-1000580",
+            "66be4d976d79611bcffb4fd34fae2b1a8e2c2dc9ac4844ac8af605c073c4d752"
+          ],
+          [
+            "lex-jmdict-1288810",
+            "3516dc5afd2d264c22ec977c5f74a440d2128e18f94753bffedcb73208e74570"
+          ],
+          [
+            "lex-jmdict-1006670",
+            "8de7afd3dcbccc7635ecb1c478e9816ed7312916583de7698b664f366a14b390"
+          ],
+          [
+            "lex-jmdict-1000320",
+            "eae7a51af2cb906c338fc6b97a216c148d888a03b973cf608e21e438b7c87c8b"
+          ],
+          [
+            "lex-jmdict-1582920",
+            "3d72be6af1cc5538e1ef8029dda25bb069eddfcb82caeb7ac2353b4502a3e67a"
+          ],
+          [
+            "lex-jmdict-1006830",
+            "c738ddf0174daf1fea5035f145fd37f25e11bc66f22e3f4448ee86b1bfef74f5"
+          ]
+        ]
+      }
+    }
+  ],
+  "validation": {
+    "unchangedCoreMetadata": true,
+    "oldSourceMatches": true,
+    "exampleVersionIncrement": 1,
+    "corpusExamples": 9616,
+    "newSimilarPairs": 0
+  },
+  "authorEndorsement": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "receivedAt": "2026-10-01T01:20:32.162Z",
+    "text": "Author read original and independently proposed the same exact box-carrying replacement; natural この+名詞 usage and distinct scene confirmed. Existing reviewer history is the single source for application."
+  }
+}

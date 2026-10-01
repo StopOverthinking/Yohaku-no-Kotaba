@@ -1420,6 +1420,230 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1298420-1",
+    "wordId": "lex-jmdict-1298420",
+    "version": 1,
+    "meaning": "착오, 오류",
+    "hint": "판단·인식이 사실과 어긋나는 잘못입니다.",
+    "confusions": [
+      {
+        "japanese": "試行",
+        "distinction": "錯誤는 잘못된 인식·판단이고 試行는 시험 삼아 해 보는 일이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1298420-1-ex-1",
+        "version": 1,
+        "before": "試行",
+        "answer": "錯誤",
+        "after": "を重ねながら、作業の進め方を改善した。",
+        "reading": "さくご",
+        "translation": "시행착오를 거듭하면서 작업 진행 방법을 개선했다.",
+        "translationTarget": "착오",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1141870-1",
+    "wordId": "lex-jmdict-1141870",
+    "version": 1,
+    "meaning": "리터",
+    "hint": "액체 등의 부피를 세는 단위",
+    "confusions": [
+      {
+        "japanese": "キログラム",
+        "distinction": "부피의 단위와 무게의 단위를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1141870-1-ex-1",
+        "version": 1,
+        "before": "二人で歩くには、水が一",
+        "answer": "リットル",
+        "after": "では足りません。",
+        "reading": "リットル",
+        "translation": "두 사람이 걸어가기에는 물 일 리터로는 부족합니다.",
+        "translationTarget": "리터",
+        "difficulty": 21,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1307250-1",
+    "wordId": "lex-jmdict-1307250",
+    "version": 1,
+    "meaning": "반올림",
+    "hint": "남길 자리 다음 숫자가 오 이상이면 올리고 사 이하면 버리는 계산",
+    "confusions": [
+      {
+        "japanese": "切り捨て",
+        "distinction": "숫자에 따라 올리거나 버리는 계산과 무조건 아래 자리를 버리는 계산을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1307250-1-ex-1",
+        "version": 1,
+        "before": "小数第二位を",
+        "answer": "四捨五入",
+        "after": "して、答えを書いてください。",
+        "reading": "ししゃごにゅう",
+        "translation": "소수 둘째 자리에서 반올림하여 답을 써 주세요.",
+        "translationTarget": "반올림",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1588330-1",
+    "wordId": "lex-jmdict-1588330",
+    "version": 1,
+    "meaning": "비추다·영상으로 나타내다",
+    "hint": "화면이나 표면에 모습이나 영상을 나타내요.",
+    "confusions": [
+      {
+        "japanese": "写す",
+        "distinction": "화면에 영상을 나타내는 것과 사진으로 찍거나 베끼는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1588330-1-ex-1",
+        "version": 1,
+        "before": "旅行の写真を大きな画面に",
+        "answer": "映して",
+        "after": "、家族に見せた。",
+        "reading": "うつして",
+        "translation": "여행 사진을 큰 화면에 비추어 가족에게 보여 주었다.",
+        "translationTarget": "비추어",
+        "difficulty": 26,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1523830-1",
+    "wordId": "lex-jmdict-1523830",
+    "version": 1,
+    "meaning": "마찰",
+    "hint": "접촉한 물체나 다른 입장이 서로 부딪치는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "衝突",
+        "distinction": "摩擦는 접촉의 저항·갈등이고 衝突는 세게 부딪치거나 직접 맞섬이다. 물리와 인간관계에 모두 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1523830-1-ex-1",
+        "version": 1,
+        "before": "仕事の進め方の違いから、二つの部署の間に",
+        "answer": "摩擦",
+        "after": "が起きた。",
+        "reading": "まさつ",
+        "translation": "업무 진행 방식의 차이로 두 부서 사이에 마찰이 생겼다.",
+        "translationTarget": "마찰",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1449510-1",
+    "wordId": "lex-jmdict-1449510",
+    "version": 1,
+    "meaning": "등분",
+    "hint": "크기나 양이 같은 여러 부분으로 나누는 것",
+    "confusions": [
+      {
+        "japanese": "分別",
+        "distinction": "같은 양으로 나누는 것과 종류에 따라 나누는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1449510-1-ex-1",
+        "version": 1,
+        "before": "一枚のピザを四つに",
+        "answer": "等分",
+        "after": "して、みんなで食べた。",
+        "reading": "とうぶん",
+        "translation": "피자 한 판을 넷으로 등분하여 함께 먹었다.",
+        "translationTarget": "등분",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1443620-1",
+    "wordId": "lex-jmdict-1443620",
+    "version": 1,
+    "meaning": "전지·건전지",
+    "hint": "기기에 전력을 공급하며 다 쓰면 교체하거나 충전하는 전원",
+    "confusions": [
+      {
+        "japanese": "充電器",
+        "distinction": "기기에 전력을 공급하는 전원과 충전식 전원에 에너지를 채우는 기구를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1443620-1-ex-1",
+        "version": 1,
+        "before": "時計が遅れるようになったので、",
+        "answer": "電池",
+        "after": "を新しくした。",
+        "reading": "でんち",
+        "translation": "시계가 느려지기 시작해서 건전지를 새것으로 바꾸었다.",
+        "translationTarget": "건전지",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

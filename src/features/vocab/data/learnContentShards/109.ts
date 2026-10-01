@@ -1252,6 +1252,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374550-1",
+    "wordId": "lex-jmdict-1374550",
+    "version": 1,
+    "meaning": "대단하다",
+    "hint": "능력이나 성과가 두드러져 감탄할 만한 상태",
+    "confusions": [
+      {
+        "japanese": "普通",
+        "distinction": "감탄할 만큼 뛰어난 정도와 보통 정도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374550-1-ex-1",
+        "version": 1,
+        "before": "十秒で答えを出せるなんて、",
+        "answer": "すごい",
+        "after": "ね。",
+        "reading": "すごい",
+        "translation": "십 초 만에 답을 낼 수 있다니 대단하네.",
+        "translationTarget": "대단하네",
+        "difficulty": 18,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1396020-1",
+    "wordId": "lex-jmdict-1396020",
+    "version": 1,
+    "meaning": "전반, 전체",
+    "hint": "일부에 한정하지 않은 관련 영역 전체입니다.",
+    "confusions": [
+      {
+        "japanese": "一部",
+        "distinction": "全般는 관련 영역 전체이고 一部는 그중 일부이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1396020-1-ex-1",
+        "version": 1,
+        "before": "説明会では、留学生活",
+        "answer": "全般",
+        "after": "について質問できる。",
+        "reading": "ぜんぱん",
+        "translation": "설명회에서는 유학 생활 전반에 대해 질문할 수 있다.",
+        "translationTarget": "전반",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1416560-1",
+    "wordId": "lex-jmdict-1416560",
+    "version": 1,
+    "meaning": "탈선, 본론에서 벗어남",
+    "hint": "이야기·활동이 원래 진행 방향에서 벗어납니다.",
+    "confusions": [
+      {
+        "japanese": "中断",
+        "distinction": "선택한 脱線는 이야기의 본론 이탈이고 中断는 잠시 끊어짐이다. 열차가 선로를 벗어나는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1416560-1-ex-1",
+        "version": 1,
+        "before": "会議の話が",
+        "answer": "脱線",
+        "after": "したので、司会者が議題に戻した。",
+        "reading": "だっせん",
+        "translation": "회의 이야기가 본론에서 벗어나 사회자가 의제로 되돌렸다.",
+        "translationTarget": "본론에서 벗어나",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1473200-1",
+    "wordId": "lex-jmdict-1473200",
+    "version": 1,
+    "meaning": "배분",
+    "hint": "전체 자원·몫을 일정 기준에 따라 나눕니다.",
+    "confusions": [
+      {
+        "japanese": "配布",
+        "distinction": "配分는 자원·몫을 나누어 정함이고 配布는 자료·물건을 사람들에게 나누어 줌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1473200-1-ex-1",
+        "version": 1,
+        "before": "限られた予算を、必要性に応じて各部署に",
+        "answer": "配分",
+        "after": "した。",
+        "reading": "はいぶん",
+        "translation": "한정된 예산을 필요성에 따라 각 부서에 배분했다.",
+        "translationTarget": "배분",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1419590-1",
+    "wordId": "lex-jmdict-1419590",
+    "version": 1,
+    "meaning": "단언",
+    "hint": "의심의 여지가 없다는 듯 확실하게 말합니다.",
+    "confusions": [
+      {
+        "japanese": "推測",
+        "distinction": "断言는 확실하다고 분명히 말함이고 推測는 자료로 미루어 짐작함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1419590-1-ex-1",
+        "version": 1,
+        "before": "証拠がない段階で、原因を",
+        "answer": "断言",
+        "after": "することはできない。",
+        "reading": "だんげん",
+        "translation": "증거가 없는 단계에서 원인을 단언할 수는 없다.",
+        "translationTarget": "단언",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1552440-1",
+    "wordId": "lex-jmdict-1552440",
+    "version": 1,
+    "meaning": "유통",
+    "hint": "상품·돈 등이 생산자부터 이용자까지 이동하는 과정입니다.",
+    "confusions": [
+      {
+        "japanese": "輸送",
+        "distinction": "流通는 거래·상품 이동의 전체 과정이고 輸送는 물리적 운반이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1552440-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "流通",
+        "after": "の仕組みが変わり、産地から直接買えるようになった。",
+        "reading": "りゅうつう",
+        "translation": "유통 구조가 바뀌어 산지에서 직접 살 수 있게 되었다.",
+        "translationTarget": "유통",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1549620-1",
+    "wordId": "lex-jmdict-1549620",
+    "version": 1,
+    "meaning": "이점, 장점",
+    "hint": "선택·방법 등에 유리하고 도움이 되는 점입니다.",
+    "confusions": [
+      {
+        "japanese": "欠点",
+        "distinction": "利点는 유리한 점이고 欠点는 부족하거나 불리한 점이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1549620-1-ex-1",
+        "version": 1,
+        "before": "オンライン授業には、移動が不要という",
+        "answer": "利点",
+        "after": "がある。",
+        "reading": "りてん",
+        "translation": "온라인 수업에는 이동이 필요 없다는 이점이 있다.",
+        "translationTarget": "이점",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378770-1",
+    "wordId": "lex-jmdict-1378770",
+    "version": 1,
+    "meaning": "타고나서, 선천적으로",
+    "hint": "태어날 때부터 가진 성질·상태입니다.",
+    "confusions": [
+      {
+        "japanese": "後天的",
+        "distinction": "生まれつき는 타고난 상태이고 後天的는 태어난 뒤 형성된 상태이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378770-1-ex-1",
+        "version": 1,
+        "before": "彼女は",
+        "answer": "生まれつき",
+        "after": "耳がよく、小さな音の違いにも気づく。",
+        "reading": "うまれつき",
+        "translation": "그녀는 선천적으로 청력이 좋아 작은 소리 차이도 알아차린다.",
+        "translationTarget": "선천적으로",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

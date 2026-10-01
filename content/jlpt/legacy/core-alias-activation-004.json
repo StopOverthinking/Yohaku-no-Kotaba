@@ -1,0 +1,129 @@
+{
+  "at": "2026-10-01T01:01:52.969Z",
+  "input": "content/jlpt/legacy/core-alias-review-004.json",
+  "inputHash": "4844fd20e8ad5ab56240b5d92063158511f6ff69261855b0b4ea636eee9984e1",
+  "previousActiveIds": [
+    "lex-jmdict-1501350",
+    "handmade_119",
+    "handmade_118",
+    "handmade_99",
+    "JLPTN3_83",
+    "JLPTN3_23",
+    "JLPTN3_34",
+    "JLPTN3_33",
+    "handmade_50",
+    "handmade_15",
+    "handmade_54",
+    "handmade_82",
+    "handmade_132"
+  ],
+  "addedIds": [
+    "handmade_2",
+    "AbsoluteVerb_164",
+    "handmade_16",
+    "JLPTN3_126",
+    "handmade_63",
+    "handmade_81",
+    "JLPTN3_340",
+    "handmade_92",
+    "handmade_97",
+    "handmade_69"
+  ],
+  "oldGroupsUnchanged": true,
+  "fullCurrentHashesVerified": true,
+  "explicitCandidateLinks": [
+    {
+      "id": "candidate-core-handmade_2",
+      "dictionaryId": "jmdict-1344410",
+      "wordIds": [
+        "handmade_2",
+        "AbsoluteVerb_461"
+      ],
+      "reviewHash": "649ffe4284aac84dbbdc2ce2bda13e15eca959ee9b09567ec3ec463a437d558c"
+    },
+    {
+      "id": "candidate-core-AbsoluteVerb_164",
+      "dictionaryId": "jmdict-1378690",
+      "wordIds": [
+        "handmade_7",
+        "AbsoluteVerb_164"
+      ],
+      "reviewHash": "8f326e847f01dd46853116530a4d1e029495ffc0476de4f1c68261e6f9b7999b"
+    },
+    {
+      "id": "candidate-core-handmade_16",
+      "dictionaryId": "jmdict-1535850",
+      "wordIds": [
+        "handmade_16",
+        "AbsoluteVerb_280"
+      ],
+      "reviewHash": "aab84acc7b1f00b3e6e805dfa0dce3c97b149b8669bdac41721a3415d5903365"
+    },
+    {
+      "id": "candidate-core-JLPTN3_126",
+      "dictionaryId": "jmdict-1444610",
+      "wordIds": [
+        "JLPTN3_126",
+        "handmade_60",
+        "AbsoluteVerb_282"
+      ],
+      "reviewHash": "f05828154b9fc0bcc1eb7f4f627486a96e43258f8b75ccfab571203fa48de296"
+    },
+    {
+      "id": "candidate-core-handmade_63",
+      "dictionaryId": "jmdict-1254180",
+      "wordIds": [
+        "handmade_63",
+        "AbsoluteVerb_341"
+      ],
+      "reviewHash": "3164903e5d577a6f1c096b0c718576ff8d9fb94fe18cc9dbaa7bc97c4a85b81d"
+    },
+    {
+      "id": "candidate-core-handmade_81",
+      "dictionaryId": "jmdict-1169340",
+      "wordIds": [
+        "handmade_81",
+        "AbsoluteVerb_480"
+      ],
+      "reviewHash": "83e3085fe8391bb190e31d16101d010bddcef1831d2f1126095683fd6b4452ab"
+    },
+    {
+      "id": "candidate-core-JLPTN3_340",
+      "dictionaryId": "jmdict-1332400",
+      "wordIds": [
+        "JLPTN3_340",
+        "handmade_91",
+        "AbsoluteVerb_701"
+      ],
+      "reviewHash": "b1d37f4067722200e407a42c0aa302acbec551f677d26ab2ff5ec4fb1d0fe2c7"
+    },
+    {
+      "id": "candidate-core-handmade_92",
+      "dictionaryId": "jmdict-1182700",
+      "wordIds": [
+        "handmade_92",
+        "JLPTN3_477"
+      ],
+      "reviewHash": "3898b64d45f3b9fb21c217d661193d761d87a43e3d4cb0775854206688f6d667"
+    },
+    {
+      "id": "candidate-core-handmade_97",
+      "dictionaryId": "jmdict-1313000",
+      "wordIds": [
+        "handmade_97",
+        "JLPTN3_433"
+      ],
+      "reviewHash": "d96dec00da9516cb88644b03b6af19fcf7981226e98dfdda4f5365c2c3049082"
+    },
+    {
+      "id": "candidate-core-handmade_69",
+      "dictionaryId": "jmdict-1288340",
+      "wordIds": [
+        "handmade_69",
+        "JLPTN3_306"
+      ],
+      "reviewHash": "6d7d96d812cb2fe6647f5d8b598381f2dc5430693298290e7ad4f4d308aa88a1"
+    }
+  ],
+  "profilePolicy": "original archives, conservative stage/date, no count summation; independent level references still required"
+}

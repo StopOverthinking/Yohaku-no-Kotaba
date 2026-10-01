@@ -1620,6 +1620,390 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1408100-1",
+    "wordId": "lex-jmdict-1408100",
+    "version": 1,
+    "meaning": "다양함",
+    "hint": "종류·방식·성질이 여러 가지로 서로 다릅니다.",
+    "confusions": [
+      {
+        "japanese": "同一",
+        "distinction": "多様는 여러 성질·종류가 있음이고 同一는 같은 것임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1408100-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "多様",
+        "after": "な働き方を認めることで、応募する人が増えた。",
+        "reading": "たよう",
+        "translation": "다양한 근무 방식을 인정하자 지원자가 늘었다.",
+        "translationTarget": "다양한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1529270-1",
+    "wordId": "lex-jmdict-1529270",
+    "version": 1,
+    "meaning": "민요",
+    "hint": "한 지역 사람들 사이에서 전해져 온 노래입니다.",
+    "confusions": [
+      {
+        "japanese": "国歌",
+        "distinction": "民謡는 지역에 전승된 노래이고 国歌는 국가를 대표하는 공식 노래이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1529270-1-ex-1",
+        "version": 1,
+        "before": "祭りでは、昔から伝わる",
+        "answer": "民謡",
+        "after": "に合わせて踊った。",
+        "reading": "みんよう",
+        "translation": "축제에서는 옛날부터 전해지는 민요에 맞춰 춤췄다.",
+        "translationTarget": "민요",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1451630-1",
+    "wordId": "lex-jmdict-1451630",
+    "version": 1,
+    "meaning": "동요",
+    "hint": "마음·상태가 흔들려 안정되지 못합니다.",
+    "confusions": [
+      {
+        "japanese": "動作",
+        "distinction": "선택한 動揺는 심리·상태의 흔들림이고 動作는 몸·기계의 움직임이다. 실제 흔들림에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1451630-1-ex-1",
+        "version": 1,
+        "before": "突然の知らせに",
+        "answer": "動揺",
+        "after": "し、しばらく言葉が出なかった。",
+        "reading": "どうよう",
+        "translation": "갑작스러운 소식에 동요하여 한동안 말이 나오지 않았다.",
+        "translationTarget": "동요",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1426140-1",
+    "wordId": "lex-jmdict-1426140",
+    "version": 1,
+    "meaning": "충고",
+    "hint": "상대에게 도움이 되도록 잘못·위험을 지적하며 조언합니다.",
+    "confusions": [
+      {
+        "japanese": "命令",
+        "distinction": "忠告는 상대를 위한 조언이고 命令는 따르도록 내리는 지시이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1426140-1-ex-1",
+        "version": 1,
+        "before": "先輩の",
+        "answer": "忠告",
+        "after": "を聞いて、無理な計画を見直した。",
+        "reading": "ちゅうこく",
+        "translation": "선배의 충고를 듣고 무리한 계획을 재검토했다.",
+        "translationTarget": "충고",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1470730-1",
+    "wordId": "lex-jmdict-1470730",
+    "version": 1,
+    "meaning": "농촌",
+    "hint": "농사를 중심으로 사람들이 생활하는 마을이나 지역",
+    "confusions": [
+      {
+        "japanese": "都市",
+        "distinction": "농업 중심의 마을과 상업이나 산업이 집중된 도시를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1470730-1-ex-1",
+        "version": 1,
+        "before": "夏休みに",
+        "answer": "農村",
+        "after": "へ行き、野菜の収穫を手伝った。",
+        "reading": "のうそん",
+        "translation": "여름 방학에 농촌에 가서 채소 수확을 도왔다.",
+        "translationTarget": "농촌",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1329360-1",
+    "wordId": "lex-jmdict-1329360",
+    "version": 1,
+    "meaning": "수뇌, 최고 지도부",
+    "hint": "국가·조직을 최고 위치에서 이끄는 사람들입니다.",
+    "confusions": [
+      {
+        "japanese": "首相",
+        "distinction": "首脳는 최고 지도자·지도부이고 首相는 내각을 이끄는 총리이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1329360-1-ex-1",
+        "version": 1,
+        "before": "両国の",
+        "answer": "首脳",
+        "after": "が会談し、交流の再開を確認した。",
+        "reading": "しゅのう",
+        "translation": "양국 정상이 회담하여 교류 재개를 확인했다.",
+        "translationTarget": "정상",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330410-1",
+    "wordId": "lex-jmdict-1330410",
+    "version": 1,
+    "meaning": "수립",
+    "hint": "제도·체제·기록 등을 새롭게 세웁니다.",
+    "confusions": [
+      {
+        "japanese": "設立",
+        "distinction": "樹立는 체제·기록 등을 세움이고 設立는 조직·기관을 만듦이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330410-1-ex-1",
+        "version": 1,
+        "before": "大会で世界記録を",
+        "answer": "樹立",
+        "after": "し、大きな注目を集めた。",
+        "reading": "じゅりつ",
+        "translation": "대회에서 세계 기록을 수립하여 큰 주목을 받았다.",
+        "translationTarget": "수립",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1566060-1",
+    "wordId": "lex-jmdict-1566060",
+    "version": 1,
+    "meaning": "완곡함",
+    "hint": "직접적인 표현을 피하여 부드럽게 돌려 말합니다.",
+    "confusions": [
+      {
+        "japanese": "率直",
+        "distinction": "婉曲는 돌려 표현함이고 率直는 솔직하고 직접적인 태도이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1566060-1-ex-1",
+        "version": 1,
+        "before": "断る気持ちを、",
+        "answer": "婉曲",
+        "after": "な言い方で伝えた。",
+        "reading": "えんきょく",
+        "translation": "거절할 마음을 완곡한 말로 전했다.",
+        "translationTarget": "완곡한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1606250-1",
+    "wordId": "lex-jmdict-1606250",
+    "version": 1,
+    "meaning": "약탈",
+    "hint": "힘으로 다른 사람의 재산·물자를 빼앗습니다.",
+    "confusions": [
+      {
+        "japanese": "盗難",
+        "distinction": "略奪는 폭력적으로 빼앗음이고 盗難는 도난 피해를 나타낸다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1606250-1-ex-1",
+        "version": 1,
+        "before": "混乱の中で店が",
+        "answer": "略奪",
+        "after": "され、多くの商品が失われた。",
+        "reading": "りゃくだつ",
+        "translation": "혼란 속에서 가게가 약탈당해 많은 상품을 잃었다.",
+        "translationTarget": "약탈",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1365650-1",
+    "wordId": "lex-jmdict-1365650",
+    "version": 1,
+    "meaning": "가까움, 친숙함",
+    "hint": "생활 속에서 자주 접하고 가까이 느껴집니다.",
+    "confusions": [
+      {
+        "japanese": "近所",
+        "distinction": "身近는 친숙하거나 가까운 성질이고 近所는 사는 곳 주변이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1365650-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "身近",
+        "after": "な材料を使って、簡単な実験を行った。",
+        "reading": "みぢか",
+        "translation": "친숙한 재료를 사용해 간단한 실험을 했다.",
+        "translationTarget": "친숙한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1366080-1",
+    "wordId": "lex-jmdict-1366080",
+    "version": 1,
+    "meaning": "진출",
+    "hint": "새 분야·지역에 나아가 활동을 시작하거나 더 높은 단계로 갑니다.",
+    "confusions": [
+      {
+        "japanese": "進展",
+        "distinction": "進出는 새 분야·단계로 나아감이고 進展는 상황·협의의 진척이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1366080-1-ex-1",
+        "version": 1,
+        "before": "この店は来年、海外にも",
+        "answer": "進出",
+        "after": "する予定だ。",
+        "reading": "しんしゅつ",
+        "translation": "이 가게는 내년에 해외에도 진출할 예정이다.",
+        "translationTarget": "진출",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1378810-1",
+    "wordId": "lex-jmdict-1378810",
+    "version": 1,
+    "meaning": "미지근하다",
+    "hint": "충분히 따뜻하지도 차갑지도 않습니다.",
+    "confusions": [
+      {
+        "japanese": "温かい",
+        "distinction": "선택한 生ぬるい는 애매하게 미지근함이고 温かい는 따뜻함이다. 태도·처리가 안이하다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1378810-1-ex-1",
+        "version": 1,
+        "before": "置いたままの水は",
+        "answer": "生ぬるく",
+        "after": "なっていた。",
+        "reading": "なまぬるく",
+        "translation": "그대로 둔 물은 미지근해져 있었다.",
+        "translationTarget": "미지근해져",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

@@ -1668,6 +1668,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1283690-1",
+    "wordId": "lex-jmdict-1283690",
+    "version": 1,
+    "meaning": "고층",
+    "hint": "건물의 층수가 많거나 높은 위치에 있는 것",
+    "confusions": [
+      {
+        "japanese": "低層",
+        "distinction": "여러 층이 높게 올라간 상태와 낮은 층수의 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1283690-1-ex-1",
+        "version": 1,
+        "before": "この地域では、",
+        "answer": "高層",
+        "after": "ビルの建設が制限されています。",
+        "reading": "こうそう",
+        "translation": "이 지역에서는 고층 건물의 건설이 제한되어 있습니다.",
+        "translationTarget": "고층",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1341790-1",
+    "wordId": "lex-jmdict-1341790",
+    "version": 1,
+    "meaning": "윤택해지다, 경제적 여유가 생기다",
+    "hint": "수입·이익이 생겨 살림이나 경제가 풍부해집니다.",
+    "confusions": [
+      {
+        "japanese": "潤す",
+        "distinction": "선택한 潤う는 경제가 윤택해지는 자동사이고 潤す는 윤택하게 하는 타동사다. 수분으로 촉촉해지는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1341790-1-ex-1",
+        "version": 1,
+        "before": "観光客が増え、駅前の商店街も",
+        "answer": "潤っている",
+        "after": "。",
+        "reading": "うるおっている",
+        "translation": "관광객이 늘어 역 앞 상점가도 경제적으로 윤택해지고 있다.",
+        "translationTarget": "경제적으로 윤택해지고 있다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1598800-1",
+    "wordId": "lex-jmdict-1598800",
+    "version": 1,
+    "meaning": "갖추어지다·준비되다",
+    "hint": "필요한 것이 빠짐없이 마련되어 시작할 수 있게 돼요.",
+    "confusions": [
+      {
+        "japanese": "整える",
+        "distinction": "준비가 갖추어진 상태와 누군가 준비를 갖추는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1598800-1-ex-1",
+        "version": 1,
+        "before": "必要な書類が",
+        "answer": "整った",
+        "after": "ので、申請に行きます。",
+        "reading": "ととのった",
+        "translation": "필요한 서류가 갖추어졌으므로 신청하러 갑니다.",
+        "translationTarget": "갖추어졌으므로",
+        "difficulty": 27,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1482710-1",
+    "wordId": "lex-jmdict-1482710",
+    "version": 1,
+    "meaning": "비겁하다",
+    "hint": "떳떳하지 않게 책임이나 정면 승부를 피하는 상태예요.",
+    "confusions": [
+      {
+        "japanese": "堂々",
+        "distinction": "공정하지 않거나 겁을 내는 태도와 떳떳한 태도를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1482710-1-ex-1",
+        "version": 1,
+        "before": "相手がいないところで悪口を言うのは、",
+        "answer": "卑怯",
+        "after": "だと思う。",
+        "reading": "ひきょう",
+        "translation": "상대가 없는 곳에서 험담하는 것은 비겁하다고 생각한다.",
+        "translationTarget": "비겁하다",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472230-1",
+    "wordId": "lex-jmdict-1472230",
+    "version": 1,
+    "meaning": "합장하여 빌다·절하다",
+    "hint": "신불 등을 향해 손을 모으고 공경하는 뜻을 나타내요.",
+    "confusions": [
+      {
+        "japanese": "願う",
+        "distinction": "손을 모으고 공경하는 행위와 마음속으로 원하는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472230-1-ex-1",
+        "version": 1,
+        "before": "祖父は仏壇の前で静かに手を合わせて",
+        "answer": "拝んだ",
+        "after": "。",
+        "reading": "おがんだ",
+        "translation": "할아버지는 불단 앞에서 조용히 손을 모아 기도하셨다.",
+        "translationTarget": "기도하셨다",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1555560-1",
+    "wordId": "lex-jmdict-1555560",
+    "version": 1,
+    "meaning": "임하다, 맞닥뜨리다",
+    "hint": "중요한 일·상황을 앞에 두고 참여합니다.",
+    "confusions": [
+      {
+        "japanese": "望む",
+        "distinction": "선택한 臨む는 상황에 임함이고 같은 읽기의 望む는 바람·소망이다. 장소를 마주한다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1555560-1-ex-1",
+        "version": 1,
+        "before": "十分に準備をして、最後の面接に",
+        "answer": "臨んだ",
+        "after": "。",
+        "reading": "のぞんだ",
+        "translation": "충분히 준비하여 마지막 면접에 임했다.",
+        "translationTarget": "임했다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

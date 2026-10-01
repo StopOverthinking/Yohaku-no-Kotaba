@@ -1480,6 +1480,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1330500-1",
+    "wordId": "lex-jmdict-1330500",
+    "version": 1,
+    "meaning": "수익",
+    "hint": "사업·활동을 통해 얻는 경제적 이익·수입입니다.",
+    "confusions": [
+      {
+        "japanese": "費用",
+        "distinction": "収益는 활동에서 얻는 수입·이익이고 費用는 활동에 드는 지출이다. 회계에서는 비용을 빼기 전 수익도 말한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1330500-1-ex-1",
+        "version": 1,
+        "before": "イベントの",
+        "answer": "収益",
+        "after": "の一部を、地域の図書館に寄付した。",
+        "reading": "しゅうえき",
+        "translation": "행사 수익의 일부를 지역 도서관에 기부했다.",
+        "translationTarget": "수익",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1373480-1",
+    "wordId": "lex-jmdict-1373480",
+    "version": 1,
+    "meaning": "놓다, 설치하다",
+    "hint": "물건을 정해진 위치에 안정적으로 놓습니다.",
+    "confusions": [
+      {
+        "japanese": "動かす",
+        "distinction": "선택한 据える는 위치를 정해 놓음이고 動かす는 움직임이다. 중심에 두거나 마음을 가라앉힌다는 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1373480-1-ex-1",
+        "version": 1,
+        "before": "窓際に大きな机を",
+        "answer": "据えて",
+        "after": "、新しい仕事場を整えた。",
+        "reading": "すえて",
+        "translation": "창가에 큰 책상을 놓아 새로운 작업 공간을 마련했다.",
+        "translationTarget": "놓아",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1441080-1",
+    "wordId": "lex-jmdict-1441080",
+    "version": 1,
+    "meaning": "전환",
+    "hint": "방향·생각·방식 등을 다른 것으로 바꿉니다.",
+    "confusions": [
+      {
+        "japanese": "継続",
+        "distinction": "転換는 다른 방향·방식으로 바꿈이고 継続는 같은 활동·상태를 이어감이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1441080-1-ex-1",
+        "version": 1,
+        "before": "売るだけの店から、体験も提供する店へ方針を",
+        "answer": "転換",
+        "after": "した。",
+        "reading": "てんかん",
+        "translation": "판매만 하는 가게에서 체험도 제공하는 가게로 방침을 전환했다.",
+        "translationTarget": "전환",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472370-1",
+    "wordId": "lex-jmdict-1472370",
+    "version": 1,
+    "meaning": "배제, 제거",
+    "hint": "불필요하거나 방해된다고 판단한 것을 밖으로 밀어냅니다.",
+    "confusions": [
+      {
+        "japanese": "除外",
+        "distinction": "排除는 적극적으로 제거·배제함이고 除外는 범위에 포함하지 않음에 흔하다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472370-1-ex-1",
+        "version": 1,
+        "before": "年齢だけを理由に応募者を",
+        "answer": "排除",
+        "after": "しない方針だ。",
+        "reading": "はいじょ",
+        "translation": "나이만을 이유로 지원자를 배제하지 않는 방침이다.",
+        "translationTarget": "배제",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1531530-1",
+    "wordId": "lex-jmdict-1531530",
+    "version": 1,
+    "meaning": "아쉬움, 남은 흔적",
+    "hint": "지나간 상태·시간이 남기는 느낌이나 자취입니다.",
+    "confusions": [
+      {
+        "japanese": "思い出",
+        "distinction": "선택한 名残는 지나간 것의 남은 흔적이고 思い出는 기억 속 추억이다. 이별을 아쉬워함에도 쓴다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1531530-1-ex-1",
+        "version": 1,
+        "before": "古い建物に、かつての工場の",
+        "answer": "名残",
+        "after": "が見られる。",
+        "reading": "なごり",
+        "translation": "오래된 건물에서 옛 공장의 흔적이 보인다.",
+        "translationTarget": "흔적",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1542910-1",
+    "wordId": "lex-jmdict-1542910",
+    "version": 1,
+    "meaning": "예감",
+    "hint": "앞으로 어떤 일이 생길 것 같은 느낌입니다.",
+    "confusions": [
+      {
+        "japanese": "予測",
+        "distinction": "予感는 느낌으로 미리 감지함이고 予測는 자료·근거로 앞으로를 예측함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1542910-1-ex-1",
+        "version": 1,
+        "before": "久しぶりに友人と会えそうな",
+        "answer": "予感",
+        "after": "がして、電話をかけた。",
+        "reading": "よかん",
+        "translation": "오랜만에 친구를 만날 수 있을 듯한 예감이 들어 전화했다.",
+        "translationTarget": "예감",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

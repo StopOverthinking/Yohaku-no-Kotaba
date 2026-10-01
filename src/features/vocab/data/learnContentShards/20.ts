@@ -1256,6 +1256,390 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1597480-1",
+    "wordId": "lex-jmdict-1597480",
+    "version": 1,
+    "meaning": "착실히·차근차근",
+    "hint": "계획한 일이 순서대로 확실하게 진행되는 모습",
+    "confusions": [
+      {
+        "japanese": "停滞",
+        "distinction": "계획대로 확실히 진전되는 것과 진행이 막힌 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1597480-1-ex-1",
+        "version": 1,
+        "before": "大会に向けて、準備が",
+        "answer": "着々",
+        "after": "と進んでいる。",
+        "reading": "ちゃくちゃく",
+        "translation": "대회를 위해 준비가 차근차근 진행되고 있다.",
+        "translationTarget": "차근차근",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578050-1",
+    "wordId": "lex-jmdict-1578050",
+    "version": 1,
+    "meaning": "공존",
+    "hint": "서로 다른 대상이 함께 존재합니다.",
+    "confusions": [
+      {
+        "japanese": "独占",
+        "distinction": "共存는 함께 존재함이고 独占는 하나만 차지함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578050-1-ex-1",
+        "version": 1,
+        "before": "人と野生動物の",
+        "answer": "共存",
+        "after": "には、距離の取り方も大切だ。",
+        "reading": "きょうぞん",
+        "translation": "사람과 야생 동물의 공존에는 거리 유지 방법도 중요하다.",
+        "translationTarget": "공존",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1502640-1",
+    "wordId": "lex-jmdict-1502640",
+    "version": 1,
+    "meaning": "흉흉하다·위험하다",
+    "hint": "범죄나 사건이 생길 것 같아 마음 놓기 어려운 상태예요.",
+    "confusions": [
+      {
+        "japanese": "安全",
+        "distinction": "사건 위험으로 불안한 상태와 위험이 적은 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1502640-1-ex-1",
+        "version": 1,
+        "before": "最近は",
+        "answer": "物騒",
+        "after": "だから、帰り道を明るい通りに変えた。",
+        "reading": "ぶっそう",
+        "translation": "요즘은 흉흉해서 돌아오는 길을 밝은 거리로 바꾸었다.",
+        "translationTarget": "흉흉해서",
+        "difficulty": 32,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1381210-1",
+    "wordId": "lex-jmdict-1381210",
+    "version": 1,
+    "meaning": "맹세하다",
+    "hint": "꼭 지키겠다는 마음으로 굳게 약속해요.",
+    "confusions": [
+      {
+        "japanese": "破る",
+        "distinction": "굳게 약속하는 것과 약속을 지키지 않는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1381210-1-ex-1",
+        "version": 1,
+        "before": "決勝で負けた後、来年は優勝すると",
+        "answer": "誓った",
+        "after": "。",
+        "reading": "ちかった",
+        "translation": "결승에서 패한 뒤 내년에는 우승하겠다고 맹세했다.",
+        "translationTarget": "맹세했다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1430800-1",
+    "wordId": "lex-jmdict-1430800",
+    "version": 1,
+    "meaning": "직각",
+    "hint": "두 선이 만나 이루는 구십 도의 각",
+    "confusions": [
+      {
+        "japanese": "鋭角",
+        "distinction": "구십 도의 각과 그보다 작은 각을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1430800-1-ex-1",
+        "version": 1,
+        "before": "机の角が",
+        "answer": "直角",
+        "after": "かどうか、定規で確かめました。",
+        "reading": "ちょっかく",
+        "translation": "책상 모서리가 직각인지 자로 확인했습니다.",
+        "translationTarget": "직각",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1314050-1",
+    "wordId": "lex-jmdict-1314050",
+    "version": 1,
+    "meaning": "사전, 일이 있기 전",
+    "hint": "어떤 일이 일어나거나 시작되기 전입니다.",
+    "confusions": [
+      {
+        "japanese": "事後",
+        "distinction": "事前는 일이 있기 전이고 事後는 일이 있은 뒤이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1314050-1-ex-1",
+        "version": 1,
+        "before": "工場を見学するには、",
+        "answer": "事前",
+        "after": "の予約が必要です。",
+        "reading": "じぜん",
+        "translation": "공장을 견학하려면 사전 예약이 필요합니다.",
+        "translationTarget": "사전",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1317860-1",
+    "wordId": "lex-jmdict-1317860",
+    "version": 1,
+    "meaning": "자주, 스스로 함",
+    "hint": "남의 강요에 따르지 않고 스스로 판단하여 행동합니다.",
+    "confusions": [
+      {
+        "japanese": "強制",
+        "distinction": "自主는 스스로 결정해 행함이고 強制는 강제로 따르게 함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1317860-1-ex-1",
+        "version": 1,
+        "before": "授業の後、希望する生徒が",
+        "answer": "自主",
+        "after": "練習を行った。",
+        "reading": "じしゅ",
+        "translation": "수업 뒤 희망하는 학생이 자발적 연습을 했다.",
+        "translationTarget": "자발적",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1611090-1",
+    "wordId": "lex-jmdict-1611090",
+    "version": 1,
+    "meaning": "비틀다·꼬다",
+    "hint": "물체의 양쪽 등에 반대 방향의 힘을 주어 꼬아요.",
+    "confusions": [
+      {
+        "japanese": "解く",
+        "distinction": "물체를 비틀어 꼬는 것과 꼬인 것을 푸는 것을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1611090-1-ex-1",
+        "version": 1,
+        "before": "ぬれたタオルを",
+        "answer": "捩って",
+        "after": "、水を切った。",
+        "reading": "ねじって",
+        "translation": "젖은 수건을 비틀어 물을 뺐다.",
+        "translationTarget": "비틀어",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1530670-1",
+    "wordId": "lex-jmdict-1530670",
+    "version": 1,
+    "meaning": "무모함, 지나치게 무리함",
+    "hint": "이치·능력의 한계를 무시하여 심하게 무리합니다.",
+    "confusions": [
+      {
+        "japanese": "無理",
+        "distinction": "無茶는 한계를 무시하는 무모함을 강하게 나타내고 無理는 불가능·부담스러움도 말한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1530670-1-ex-1",
+        "version": 1,
+        "before": "一日で全部終わらせるのは、",
+        "answer": "無茶",
+        "after": "な計画だ。",
+        "reading": "むちゃ",
+        "translation": "하루에 전부 끝내는 것은 무모한 계획이다.",
+        "translationTarget": "무모한",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1554580-1",
+    "wordId": "lex-jmdict-1554580",
+    "version": 1,
+    "meaning": "양질, 질이 좋음",
+    "hint": "재료·내용 등의 품질이 좋습니다.",
+    "confusions": [
+      {
+        "japanese": "良好",
+        "distinction": "良質는 품질이 좋음이고 良好는 상태·관계가 좋음이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1554580-1-ex-1",
+        "version": 1,
+        "before": "",
+        "answer": "良質",
+        "after": "な素材を選んで、長く使える服を作っている。",
+        "reading": "りょうしつ",
+        "translation": "질 좋은 소재를 골라 오래 쓸 수 있는 옷을 만들고 있다.",
+        "translationTarget": "질 좋은",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1219960-1",
+    "wordId": "lex-jmdict-1219960",
+    "version": 1,
+    "meaning": "몇 개",
+    "hint": "물건이 몇 개 있는지 개수를 묻는 말",
+    "confusions": [
+      {
+        "japanese": "いくら",
+        "distinction": "개수를 묻는 말과 금액을 묻는 말을 구별한다. 같은 표현으로 나이를 물을 수도 있지만 이번 예문은 물건의 개수에 한정한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1219960-1-ex-1",
+        "version": 1,
+        "before": "りんごを",
+        "answer": "いくつ",
+        "after": "買いますか。",
+        "reading": "いくつ",
+        "translation": "사과를 몇 개 삽니까?",
+        "translationTarget": "몇 개",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1486650-1",
+    "wordId": "lex-jmdict-1486650",
+    "version": 1,
+    "meaning": "맛있다",
+    "hint": "음식을 먹었을 때 맛이 좋게 느껴지는 상태",
+    "confusions": [
+      {
+        "japanese": "まずい",
+        "distinction": "먹는 맛이 좋은 상태와 좋지 않은 상태를 구별한다. 유리한 기회라는 비유적 뜻은 이번 핵심 용법이 아니다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1486650-1-ex-1",
+        "version": 1,
+        "before": "焼きたてのパンは",
+        "answer": "おいしくて",
+        "after": "、もう一つ食べたくなりました。",
+        "reading": "おいしくて",
+        "translation": "갓 구운 빵은 맛있어서 하나 더 먹고 싶어졌어요.",
+        "translationTarget": "맛있어서",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

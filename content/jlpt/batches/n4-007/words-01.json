@@ -1,0 +1,38 @@
+[
+  {
+    "dictionaryId": "jmdict-1374550",
+    "japanese": "すごい",
+    "reading": "すごい",
+    "type": "i_adj",
+    "meaning": "대단하다",
+    "hint": "능력이나 성과가 두드러져 감탄할 만한 상태",
+    "confusion": "普通",
+    "distinction": "감탄할 만큼 뛰어난 정도와 보통 정도를 구별한다.",
+    "level": "N4",
+    "levelNote": "제공 OpenJLPT N4 근거를 따르며 일상적인 대단하다 용법을 선정한다. 공식 출제 등급으로 주장하지 않는다."
+  },
+  {
+    "dictionaryId": "jmdict-1599420",
+    "japanese": "なかなか",
+    "reading": "なかなか",
+    "type": "adv",
+    "meaning": "좀처럼·쉽게 (않다)",
+    "hint": "기대하거나 노력해도 일이 쉽게 이루어지지 않는 모습",
+    "confusion": "すぐ",
+    "distinction": "쉽게 이루어지지 않는 상황과 곧바로 이루어지는 상황을 구별한다.",
+    "level": "N4",
+    "levelNote": "제공 OpenJLPT N4 근거를 따르며 일상적인 좀처럼·쉽게 (않다) 용법을 선정한다. 공식 출제 등급으로 주장하지 않는다."
+  },
+  {
+    "dictionaryId": "jmdict-1075500",
+    "japanese": "ソフト",
+    "reading": "ソフト",
+    "type": "noun",
+    "meaning": "소프트웨어·프로그램",
+    "hint": "컴퓨터에서 특정 작업을 실행하게 하는 프로그램",
+    "confusion": "ハードウェア",
+    "distinction": "실행하는 프로그램과 컴퓨터의 물리적인 장치를 구별한다.",
+    "level": "N4",
+    "levelNote": "제공 OpenJLPT N4 근거를 따르며 일상적인 소프트웨어·프로그램 용법을 선정한다. 공식 출제 등급으로 주장하지 않는다."
+  }
+]

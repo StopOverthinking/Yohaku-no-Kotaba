@@ -1124,6 +1124,166 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1266730-1",
+    "wordId": "lex-jmdict-1266730",
+    "version": 1,
+    "meaning": "고유함, 특유함",
+    "hint": "다른 대상과 구별되는 그 대상만의 성질입니다.",
+    "confusions": [
+      {
+        "japanese": "共有",
+        "distinction": "固有는 대상 특유의 성질이고 共有는 여럿이 함께 가짐이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1266730-1-ex-1",
+        "version": 1,
+        "before": "島に",
+        "answer": "固有",
+        "after": "の植物を守るため、持ち込みを制限している。",
+        "reading": "こゆう",
+        "translation": "섬에 고유한 식물을 보호하기 위해 반입을 제한하고 있다.",
+        "translationTarget": "고유한",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1267870-1",
+    "wordId": "lex-jmdict-1267870",
+    "version": 1,
+    "meaning": "돌이켜보다, 회고하다",
+    "hint": "지나온 경험·행동을 돌아보며 생각합니다.",
+    "confusions": [
+      {
+        "japanese": "振り向く",
+        "distinction": "선택한 顧みる는 과거를 돌아봄이고 振り向く는 뒤를 향해 고개·몸을 돌림에도 쓴다. 돌보다·고려하다는 별도 뜻도 있다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1267870-1-ex-1",
+        "version": 1,
+        "before": "卒業を前に学校生活を",
+        "answer": "顧みる",
+        "after": "と、友人への感謝が湧いてくる。",
+        "reading": "かえりみる",
+        "translation": "졸업을 앞두고 학교생활을 돌이켜보면 친구들에 대한 감사가 솟아난다.",
+        "translationTarget": "돌이켜보면",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472030-1",
+    "wordId": "lex-jmdict-1472030",
+    "version": 1,
+    "meaning": "폐기",
+    "hint": "필요 없거나 사용할 수 없는 물건·자료 등을 버립니다.",
+    "confusions": [
+      {
+        "japanese": "保管",
+        "distinction": "廃棄는 버려 처리함이고 保管는 안전하게 맡아 둠이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472030-1-ex-1",
+        "version": 1,
+        "before": "保存期間を過ぎた書類は、内容を確認してから",
+        "answer": "廃棄",
+        "after": "する。",
+        "reading": "はいき",
+        "translation": "보존 기간이 지난 서류는 내용을 확인한 뒤 폐기한다.",
+        "translationTarget": "폐기",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1596440-1",
+    "wordId": "lex-jmdict-1596440",
+    "version": 1,
+    "meaning": "시끄럽다·소란스럽다",
+    "hint": "여러 소리가 뒤섞이거나 소동이 있어 차분하지 않은 상태예요.",
+    "confusions": [
+      {
+        "japanese": "静か",
+        "distinction": "소란으로 어수선한 상태와 조용한 상태를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1596440-1-ex-1",
+        "version": 1,
+        "before": "隣で工事が始まり、朝から",
+        "answer": "騒々しい",
+        "after": "。",
+        "reading": "そうぞうしい",
+        "translation": "옆에서 공사가 시작되어 아침부터 소란스럽다.",
+        "translationTarget": "소란스럽다",
+        "difficulty": 30,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1591140-1",
+    "wordId": "lex-jmdict-1591140",
+    "version": 1,
+    "meaning": "기원",
+    "hint": "현상·문화·관습 등이 처음 시작된 근원입니다.",
+    "confusions": [
+      {
+        "japanese": "期限",
+        "distinction": "起源는 시작의 근원이고 같은 읽기의 期限는 정해진 기한이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1591140-1-ex-1",
+        "version": 1,
+        "before": "言葉の",
+        "answer": "起源",
+        "after": "を調べると、昔の暮らしが見えてくる。",
+        "reading": "きげん",
+        "translation": "말의 기원을 조사하면 옛 생활이 보인다.",
+        "translationTarget": "기원",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

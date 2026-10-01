@@ -1608,6 +1608,198 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1284940-1",
+    "wordId": "lex-jmdict-1284940",
+    "version": 1,
+    "meaning": "합성",
+    "hint": "여러 성분·자료를 결합하여 새로운 것을 만드는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "混合",
+        "distinction": "合成는 결합해 새로운 것을 만듦이고 混合는 서로 섞음에 초점을 둔다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1284940-1-ex-1",
+        "version": 1,
+        "before": "二枚の写真を",
+        "answer": "合成",
+        "after": "し、一つの風景に仕上げた。",
+        "reading": "ごうせい",
+        "translation": "사진 두 장을 합성해 하나의 풍경으로 완성했다.",
+        "translationTarget": "합성",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1514650-1",
+    "wordId": "lex-jmdict-1514650",
+    "version": 1,
+    "meaning": "보상",
+    "hint": "발생한 손실·피해를 돈 등으로 메워 주는 일입니다.",
+    "confusions": [
+      {
+        "japanese": "保証",
+        "distinction": "補償는 손해를 메움이고 保証는 품질·의무 이행 등을 보장함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1514650-1-ex-1",
+        "version": 1,
+        "before": "工事による騒音被害について、住民への",
+        "answer": "補償",
+        "after": "が検討された。",
+        "reading": "ほしょう",
+        "translation": "공사로 인한 소음 피해에 대해 주민에게 할 보상이 검토되었다.",
+        "translationTarget": "보상",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1275070-1",
+    "wordId": "lex-jmdict-1275070",
+    "version": 1,
+    "meaning": "공적·업적",
+    "hint": "사회나 조직에 기여한 뛰어난 일과 성과",
+    "confusions": [
+      {
+        "japanese": "失敗",
+        "distinction": "기여한 성과와 일을 이루지 못한 결과를 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1275070-1-ex-1",
+        "version": 1,
+        "before": "村を洪水から守った彼の",
+        "answer": "功績",
+        "after": "は、今も語り継がれている。",
+        "reading": "こうせき",
+        "translation": "마을을 홍수에서 지킨 그의 공적은 지금도 전해지고 있다.",
+        "translationTarget": "공적",
+        "difficulty": 33,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1503580-1",
+    "wordId": "lex-jmdict-1503580",
+    "version": 1,
+    "meaning": "분산",
+    "hint": "한곳에 모인 것·위험 등을 여러 곳으로 나눕니다.",
+    "confusions": [
+      {
+        "japanese": "集中",
+        "distinction": "分散는 여러 곳으로 흩어짐이고 集中는 한곳으로 모임이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1503580-1-ex-1",
+        "version": 1,
+        "before": "注文が集中しないよう、配送日を",
+        "answer": "分散",
+        "after": "させた。",
+        "reading": "ぶんさん",
+        "translation": "주문이 집중되지 않도록 배송 날짜를 분산시켰다.",
+        "translationTarget": "분산",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1311750-1",
+    "wordId": "lex-jmdict-1311750",
+    "version": 1,
+    "meaning": "지방·동물성 기름",
+    "hint": "고기나 동물의 몸에 들어 있는 기름 성분",
+    "confusions": [
+      {
+        "japanese": "油",
+        "distinction": "동물성 지방과 넓은 의미의 액체 기름을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1311750-1-ex-1",
+        "version": 1,
+        "before": "肉から出た",
+        "answer": "脂",
+        "after": "を拭き取ると、料理が軽く仕上がる。",
+        "reading": "あぶら",
+        "translation": "고기에서 나온 기름을 닦아 내면 요리가 담백하게 완성된다.",
+        "translationTarget": "기름",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1472680-1",
+    "wordId": "lex-jmdict-1472680",
+    "version": 1,
+    "meaning": "거스르다, 따르지 않다",
+    "hint": "기대·명령·원칙에 반하여 행동합니다.",
+    "confusions": [
+      {
+        "japanese": "従う",
+        "distinction": "背く는 거스름이고 従う는 따름이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1472680-1-ex-1",
+        "version": 1,
+        "before": "信頼してくれた人の期待に",
+        "answer": "背く",
+        "after": "ようなことはしたくない。",
+        "reading": "そむく",
+        "translation": "나를 믿어 준 사람의 기대를 거스르는 일은 하고 싶지 않다.",
+        "translationTarget": "거스르는",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

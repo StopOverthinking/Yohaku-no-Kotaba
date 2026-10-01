@@ -1404,6 +1404,262 @@ const content: LearnSense[] = [
         "status": "reviewed"
       }
     ]
+  },
+  {
+    "id": "sense-lex-jmdict-1149240-1",
+    "wordId": "lex-jmdict-1149240",
+    "version": 1,
+    "meaning": "원피스",
+    "hint": "상의와 치마 부분이 하나로 이어진 옷",
+    "confusions": [
+      {
+        "japanese": "スカート",
+        "distinction": "위아래가 이어진 옷과 허리 아래만 입는 옷을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1149240-1-ex-1",
+        "version": 1,
+        "before": "結婚式には、母が縫ってくれた",
+        "answer": "ワンピース",
+        "after": "を着ます。",
+        "reading": "ワンピース",
+        "translation": "결혼식에는 어머니가 바느질해 주신 원피스를 입습니다.",
+        "translationTarget": "원피스",
+        "difficulty": 22,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1374970-1",
+    "wordId": "lex-jmdict-1374970",
+    "version": 1,
+    "meaning": "제약",
+    "hint": "행동·선택을 자유롭게 할 수 없게 하는 조건·한계입니다.",
+    "confusions": [
+      {
+        "japanese": "制裁",
+        "distinction": "制約는 자유를 제한하는 조건이고 制裁는 위반에 대한 처벌이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1374970-1-ex-1",
+        "version": 1,
+        "before": "時間の",
+        "answer": "制約",
+        "after": "があるため、今日は要点だけ説明します。",
+        "reading": "せいやく",
+        "translation": "시간 제약이 있어 오늘은 요점만 설명하겠습니다.",
+        "translationTarget": "제약",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1279130-1",
+    "wordId": "lex-jmdict-1279130",
+    "version": 1,
+    "meaning": "공격하다",
+    "hint": "상대의 방어나 약한 곳을 향해 적극적으로 압박해요.",
+    "confusions": [
+      {
+        "japanese": "守る",
+        "distinction": "상대를 공격하는 행동과 공격을 막는 행동을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1279130-1-ex-1",
+        "version": 1,
+        "before": "後半は相手の左側を",
+        "answer": "攻めて",
+        "after": "、得点の機会を作った。",
+        "reading": "せめて",
+        "translation": "후반에는 상대의 왼쪽을 공격하여 득점 기회를 만들었다.",
+        "translationTarget": "공격하여",
+        "difficulty": 29,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1497110-1",
+    "wordId": "lex-jmdict-1497110",
+    "version": 1,
+    "meaning": "보급",
+    "hint": "기술이나 제품이 많은 사람에게 널리 쓰이게 되는 것",
+    "confusions": [
+      {
+        "japanese": "開発",
+        "distinction": "널리 쓰이게 되는 것과 새로운 것을 만드는 일을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1497110-1-ex-1",
+        "version": 1,
+        "before": "スマートフォンの",
+        "answer": "普及",
+        "after": "で、写真の送り方が変わった。",
+        "reading": "ふきゅう",
+        "translation": "스마트폰의 보급으로 사진을 보내는 방법이 바뀌었다.",
+        "translationTarget": "보급",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1479770-1",
+    "wordId": "lex-jmdict-1479770",
+    "version": 1,
+    "meaning": "반도",
+    "hint": "세 면이 물로 둘러싸이고 한쪽은 육지에 붙은 땅",
+    "confusions": [
+      {
+        "japanese": "島",
+        "distinction": "육지에 한쪽이 이어진 땅과 물에 완전히 둘러싸인 땅을 구별한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1479770-1-ex-1",
+        "version": 1,
+        "before": "地図を見ると、この",
+        "answer": "半島",
+        "after": "には漁港が多い。",
+        "reading": "はんとう",
+        "translation": "지도를 보니 이 반도에는 어항이 많다.",
+        "translationTarget": "반도",
+        "difficulty": 31,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1545600-1",
+    "wordId": "lex-jmdict-1545600",
+    "version": 1,
+    "meaning": "뒤흔들다, 동요시키다",
+    "hint": "마음·상태를 강하게 움직여 불안정하게 합니다.",
+    "confusions": [
+      {
+        "japanese": "揺らぐ",
+        "distinction": "선택한 揺さぶる는 흔들어 영향을 주는 타동사이고 揺らぐ는 불안정해지는 자동사이다. 물체를 세게 흔들기도 한다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1545600-1-ex-1",
+        "version": 1,
+        "before": "その証言は、事件に対する私の見方を",
+        "answer": "揺さぶった",
+        "after": "。",
+        "reading": "ゆさぶった",
+        "translation": "그 증언은 사건에 대한 내 관점을 뒤흔들었다.",
+        "translationTarget": "뒤흔들었다",
+        "difficulty": 43,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1338750-1",
+    "wordId": "lex-jmdict-1338750",
+    "version": 1,
+    "meaning": "출혈",
+    "hint": "몸의 혈관 밖으로 피가 나옵니다.",
+    "confusions": [
+      {
+        "japanese": "献血",
+        "distinction": "出血는 피가 남이고 献血는 치료용 혈액을 자발적으로 제공함이다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1338750-1-ex-1",
+        "version": 1,
+        "before": "傷は小さかったが、",
+        "answer": "出血",
+        "after": "が多くて驚いた。",
+        "reading": "しゅっけつ",
+        "translation": "상처는 작았지만 출혈이 많아 놀랐다.",
+        "translationTarget": "출혈",
+        "difficulty": 35,
+        "status": "reviewed"
+      }
+    ]
+  },
+  {
+    "id": "sense-lex-jmdict-1578150-1",
+    "wordId": "lex-jmdict-1578150",
+    "version": 1,
+    "meaning": "구, 아홉; 9",
+    "hint": "여덟보다 하나 많고 열보다 하나 적은 수",
+    "confusions": [
+      {
+        "japanese": "八",
+        "distinction": "9와 8을 구별한다. 9의 대표 읽기는 큐우이며 쿠도 쓰인다. 코코노카처럼 날짜를 읽거나 코코노츠처럼 개수를 셀 때는 소리가 달라진다."
+      }
+    ],
+    "review": {
+      "word": true,
+      "contrast": true,
+      "diversity": true
+    },
+    "examples": [
+      {
+        "id": "sense-lex-jmdict-1578150-1-ex-1",
+        "version": 1,
+        "before": "電話番号に",
+        "answer": "九",
+        "after": "が三つ続いています。",
+        "reading": "きゅう",
+        "translation": "전화번호에 9가 세 번 이어져 있습니다.",
+        "translationTarget": "9",
+        "difficulty": 10,
+        "status": "reviewed"
+      }
+    ]
   }
 ]
 export default content

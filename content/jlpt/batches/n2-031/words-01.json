@@ -1,0 +1,110 @@
+[
+  {
+    "japanese": "蓄積",
+    "reading": "ちくせき",
+    "type": "noun",
+    "meaning": "축적",
+    "hint": "경험·지식·물질 등이 차곡차곡 쌓이는 일입니다.",
+    "confusion": "消費",
+    "distinction": "蓄積는 계속 모여 쌓임이고 消費는 사용하여 줄임이다.",
+    "dictionaryId": "jmdict-1422440",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "中立",
+    "reading": "ちゅうりつ",
+    "type": "noun",
+    "meaning": "중립",
+    "hint": "서로 맞서는 어느 한쪽에도 치우치지 않는 입장입니다.",
+    "confusion": "対立",
+    "distinction": "中立는 어느 편에도 치우치지 않음이고 対立는 서로 맞섬이다.",
+    "dictionaryId": "jmdict-1425540",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "調和",
+    "reading": "ちょうわ",
+    "type": "noun",
+    "meaning": "조화",
+    "hint": "여러 요소가 어울려 균형 있고 자연스러운 상태를 이룹니다.",
+    "confusion": "統一",
+    "distinction": "調和는 다른 요소가 어울림이고 統一는 기준·방식을 하나로 맞춤이다.",
+    "dictionaryId": "jmdict-1429330",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "定義",
+    "reading": "ていぎ",
+    "type": "noun",
+    "meaning": "정의",
+    "hint": "말·개념의 뜻과 범위를 명확하게 정합니다.",
+    "confusion": "説明",
+    "distinction": "定義는 개념의 뜻·범위를 정함이고 説明는 이해를 돕는 설명 일반이다.",
+    "dictionaryId": "jmdict-1435530",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "転換",
+    "reading": "てんかん",
+    "type": "noun",
+    "meaning": "전환",
+    "hint": "방향·생각·방식 등을 다른 것으로 바꿉니다.",
+    "confusion": "継続",
+    "distinction": "転換는 다른 방향·방식으로 바꿈이고 継続는 같은 활동·상태를 이어감이다.",
+    "dictionaryId": "jmdict-1441080",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "動揺",
+    "reading": "どうよう",
+    "type": "noun",
+    "meaning": "동요",
+    "hint": "마음·상태가 흔들려 안정되지 못합니다.",
+    "confusion": "動作",
+    "distinction": "선택한 動揺는 심리·상태의 흔들림이고 動作는 몸·기계의 움직임이다. 실제 흔들림에도 쓴다.",
+    "dictionaryId": "jmdict-1451630",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "独自",
+    "reading": "どくじ",
+    "type": "na_adj",
+    "meaning": "독자적임, 고유함",
+    "hint": "다른 것과 구별되는 자신만의 방식·성질입니다.",
+    "confusion": "共通",
+    "distinction": "独自는 자신만의 특성이 있음이고 共通는 여럿이 같이 지닌 특성이다.",
+    "dictionaryId": "jmdict-1455810",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "独占",
+    "reading": "どくせん",
+    "type": "noun",
+    "meaning": "독점",
+    "hint": "이익·기회·물건 등을 혼자 차지합니다.",
+    "confusion": "共有",
+    "distinction": "独占는 혼자 차지함이고 共有는 함께 가짐이다.",
+    "dictionaryId": "jmdict-1455870",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  },
+  {
+    "japanese": "配分",
+    "reading": "はいぶん",
+    "type": "noun",
+    "meaning": "배분",
+    "hint": "전체 자원·몫을 일정 기준에 따라 나눕니다.",
+    "confusion": "配布",
+    "distinction": "配分는 자원·몫을 나누어 정함이고 配布는 자료·물건을 사람들에게 나누어 줌이다.",
+    "dictionaryId": "jmdict-1473200",
+    "level": "N2",
+    "levelNote": "선택한 의미의 실제 어휘 난도·일반 독해·문어적 사용 범위를 독립 검토한 비공식 N2 권장 수준."
+  }
+]

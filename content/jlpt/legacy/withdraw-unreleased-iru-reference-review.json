@@ -1,0 +1,42 @@
+{
+  "scope": "withdraw-unreleased-duplicate-level-reference",
+  "outcome": "accepted",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-10-01T01:02:34.811Z",
+  "wordId": "AbsoluteVerb_162",
+  "keepWordId": "lex-jmdict-1577980",
+  "level": "N5",
+  "sourceHashes": [
+    {
+      "wordId": "AbsoluteVerb_162",
+      "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342"
+    },
+    {
+      "wordId": "lex-jmdict-1577980",
+      "sourceHash": "69c59f2beb32d5ce59abc7b9830255a68680b215f0bf0a57b992663a2f605042"
+    }
+  ],
+  "publicCommit": "33ac54c35db10dd2a7575c107231e403f46f1028",
+  "publicLevelReferenceAbsent": true,
+  "previousReference": {
+    "wordId": "AbsoluteVerb_162",
+    "level": "N5",
+    "sourceHash": "586ba068c23fa4d63db97c1902fa803043785deafe00feb67cd0975eab436342",
+    "scope": "legacy-reference-publication",
+    "outcome": "accepted",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-10-01T00:25:15.859Z",
+    "notes": [
+      "현재 いる의 전체 의미·힌트·대비·일본어와 한국어 두 예문을 별도로 직접 읽고 원본 내용·ID 보존 참조 게시를 승인한다.",
+      "전체 원문의 의미·힌트·대비·두 예문·번역 및 제공 사전의 해당 용법을 직접 대조했다. 居る의 유정물 존재 동사를 要る/炒る/入る와 구분한다.",
+      "현재 선택된 기초 いる 용법과 전체 예문을 검토하여 N5로 권장한다. 사전 출처 등급과 구별되는 비공식 편집 수준."
+    ]
+  },
+  "notes": [
+    "공개 기준 커밋의 5개 수준별 목록을 직접 파싱해 AV162 미포함을 확인했다. 원격 공개 기준 일치는 root 별도 증거에 따르며 여기서 네트워크 확인했다고 주장하지 않는다.",
+    "이번 작업의 미공개 중복 참조 하나만 명시 철회한다. 원본 단어·용법·예문·ID·학습 프로필 및 다른 목록의 상대 순서는 변경하지 않는다. 신규 居る 원고의 기존 승인/수록은 유지한다.",
+    "일반 append-only import 규칙의 변경이 아니라 이 실수 한 건의 명시 복구를 승인한다."
+  ]
+}

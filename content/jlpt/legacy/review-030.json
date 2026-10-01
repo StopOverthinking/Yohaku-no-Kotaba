@@ -1,0 +1,545 @@
+[
+  {
+    "wordId": "AbsoluteVerb_279",
+    "sourceHash": "c8beaecf4cf7fb37191fcefe57454769214357b9de630212a26968caf9923fb8",
+    "proposalHash": "7160542cc89a57d4296392e924b0ad52871b9e311983a0bdd163db51fd962d75",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "通じる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “연결되다, (언어 등이) 통하다” 및 1개 sense를 대조했다. 영어와 의사 표현이 상대에게 이해되는 의미를 선택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_281",
+    "sourceHash": "d7df2bb3f5dde99538056da20ae9088c9d02f982216aa56bcd396c1282d8e01e",
+    "proposalHash": "c7c5326e3294b4f30e1c279d6b196a3577cafda81cf38282d45bd242981f2019",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "飛ばす의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “날리다, 빨리 몰다, 건너뛰다” 및 1개 sense를 대조했다. 종이비행기와 연을 날리는 타동사 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_284",
+    "sourceHash": "20ffdba69c3cd89b21514877b3ecb1f31f2225caac9e01749b0502a8f8eea9e1",
+    "proposalHash": "45e127a4a4a29ab8e0138574d754f027403a4928f16ea6a38b41eed5067a1831",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "流す의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “흘리다, 씻어내다, 퍼뜨리다” 및 1개 sense를 대조했다. 물을 흘려 보내거나 흘려서 바닥을 씻는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_285",
+    "sourceHash": "1674ec59e025d1c8dc47faaff75f6a33a88627275f5e634aa8020e6cff8bafa5",
+    "proposalHash": "74833fe0ee183eeff325a4ddca259fb2eb188bd3416fb01fe7d6bb2e902f25a2",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "行う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “실시하다” 및 1개 sense를 대조했다. 훈련과 검사를 실시하는 용법이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_288",
+    "sourceHash": "af007fabef945673955f2a667aec3f24a22b70b9a040b7216efdc2600ad86d90",
+    "proposalHash": "60dee988ca27ee0612ec19f1b441cdb45c80f58bc715fb0fedd85840b9417b9a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "滑る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “미끄러지다, 낙방하다” 및 1개 sense를 대조했다. 젖은 돌과 눈길에서 미끄러지는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_289",
+    "sourceHash": "97a53b1738a2f206afea2c9ee0a20e00175d744a6e7cfbcc06904034f56c7bf0",
+    "proposalHash": "c4e27b674f4107a69d126dc17f453d2eb2b62ab6ff7bcd214c61341c6bfd7224",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "真似る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “흉내 내다” 및 1개 sense를 대조했다. 걸음걸이와 그림의 본보기를 흉내 내는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_291",
+    "sourceHash": "998d0cb5da42482d49afbd625176402f3853c3f2eb0e76934440704b657fdacc",
+    "proposalHash": "dfcc79f4b8ae0c248231b56463d04aa485741dbca6e1cbb4ac379112533b5824",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "暴れる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “난폭하게 행동하다, 난동 피우다” 및 1개 sense를 대조했다. 물고기가 몸부림치는 장면과 사람이 난동을 피우는 장면 모두 사전 의미에 포함된다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_293",
+    "sourceHash": "4243c7f1c88f34ea9291c4ff62f81387e76263d9fc432099d9f3b224c944173a",
+    "proposalHash": "0e1b161d45d017ab6e0cd308f1aafe092401ecf8c23d71d30b14fc3f266bbc59",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "くたびれる의 전체 원문과 제공 사전 의미를 대조했다. 새 대체표기 사전 근거 草臥れる와 현재 지침/피로 용법이 일치한다. 일상 구어의 지침 표현을 N3로 권장하며 원천 N1과 구별한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_294",
+    "sourceHash": "ea85d60ae6d3caf0643096662273a196cd7632c9e783c24356c30accfbc11191",
+    "proposalHash": "4e610e8f1c40dd1291fd9718beff1e8377516760093b10581cd93faf7b9768b4",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "寛ぐ의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “편히 쉬다” 및 1개 sense를 대조했다. 숙소에서 편히 쉬거나 긴장을 푸는 의미이며 제공 출처 등급은 없다. 한자 표기와 문어적인 표현 난도를 고려하여 N2 편집 분류를 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_295",
+    "sourceHash": "08c3b60eaf3bc2275803daedb145938f58b73f8b52b187c34aff7d1e9b175acd",
+    "proposalHash": "4315db4f8cb6043f1eb4a6354a14f35478cdb16394a6cc776bc404d69ebe887c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "動く의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “움직이다” 및 1개 sense를 대조했다. 물체나 사람이 움직이는 기본 자동사 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_296",
+    "sourceHash": "6cc794f761cc9321e347916c09716ae4910e470ff5ff9cfc36c581d01f3661b9",
+    "proposalHash": "7001becab8f8818cb6d891f4c9a1624e5d55620f7820753ea9459cc7c05291f9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "動かす의 전체 원문과 제공 사전 의미를 대조했다. 소파·선반을 다른 위치로 움직이는 기초 타동사 용법은 N4 권장 수준으로 검토한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_297",
+    "sourceHash": "5bf3b70296f19a7b4732c3614dc2ad040cb5d7f5775211f1306badc086a3212f",
+    "proposalHash": "154f345d92e6ebe6abac5b2e87968deb2f433f3bc0d306f1c8fa663dcb2be35b",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "進む의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “나아가다, 진학하다” 및 1개 sense를 대조했다. 안개 속이나 화살표 방향으로 앞으로 나아가는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_298",
+    "sourceHash": "9db85a185d03d6f7c9a1b2e45c798c9b1662fb184fd7cdb6186b02284ac1f502",
+    "proposalHash": "be8e20e5c993dc05e43daea515957c6bfd61da685e29296ccef141138e0dee54",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "止まる의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “멈추다” 및 1개 sense를 대조했다. 차와 시계가 멈추는 기본 자동사 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_299",
+    "sourceHash": "94130288c1e360a16cf5996651f5dcc3406977b4f04f14c9e5de01641144f89a",
+    "proposalHash": "d0e4903e64b68451ca2cc5538cc19be805b37b91b7a41373980bd1e571a1d612",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "止める의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “멈추게 하다” 및 1개 sense를 대조했다. 기계와 차를 멈추게 하는 기본 타동사 의미로 복수 출처 중 N4를 제안한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_300",
+    "sourceHash": "3180782b59098c74a19b2d3f55b96ad24acdbfa3256aee18026d677a39b9b6ef",
+    "proposalHash": "68451b637f14d4fa338ce3283f25275d1bebc992cf13e9364235470ca18347e5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "張る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “(팽팽하게) 펴다·치다, 팽팽해지다, (물을) 채우다, (얼음이) 얼어 덮이다” 및 1개 sense를 대조했다. 텐트를 치고 로프를 팽팽하게 설치하는 의미이다. 접착하여 붙이는 다른 쓰임과 구분하여 N3를 제안한다.",
+      "실제 텐트·밧줄을 치는 타동사 용법과 사전 transitive에 비해 verbInfo 1자가 잘못되어 있다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_302",
+    "sourceHash": "4499f524386895f8e3dc22c2f515dd0438937b86a0aa7aedbe332776ef1e14a9",
+    "proposalHash": "f2cbfcd478c48c11d3f07201141052ea71e5f289de867b9947d75088044287a7",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "浮く의 전체 원문과 제공 사전 의미를 대조했다. 물체가 물에 뜨는 기본 물리 의미를 선택하여 N3로 권장한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_303",
+    "sourceHash": "fe45684cab98f30655957df6f984cdf8882bdca5375bb37e05172f7a37d8d1ac",
+    "proposalHash": "72c743500119bb3c5900fde8e831e2eae3f1a357352cc714c776afa0fa77b15a",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "浮かぶ의 전체 원문과 제공 사전 의미를 대조했다. 물 위에 떠 있는 물리 의미는 N3로 권장한다. 원천 복수 등급보다 실제 선택 용법을 기준으로 한다.",
+      "물 위에 뜨는 두 예문은 적합하나 중요 핵심인 생각이 떠오르는 용법이 없다. 둘째 예문도 浮く 302의 나무가 물에 뜨는 장면과 유사하여 보완 시 새 장면을 사용한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_304",
+    "sourceHash": "133f8081552b17cf738ffe7ae78167957dc441efb7f00727339cc2f4ddebd526",
+    "proposalHash": "9de24e1a9e3407e926c8115ab9c38649f915c276144d25a29319dcf91fd220ed",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "浮かべる의 전체 원문과 제공 사전 의미를 대조했다. 물에 물건을 띄우는 기본 물리 의미를 선택하여 N3로 권장한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_305",
+    "sourceHash": "2e8f2de24e27cb046e993db9315863fa804a1ddccff231c9162d1c72cb6759b4",
+    "proposalHash": "44718e48e03a9ce409b78ad80d4e2dab4cc7a74645d147bc25c8943a131ff791",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "潜る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “잠수하다” 및 1개 sense를 대조했다. 수영장이나 바위가 있는 물속으로 잠수하는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_306",
+    "sourceHash": "84e2cab39ef264efe46b3096431dbf25a294a7d4f0d5787ee18fd63f11ef52e7",
+    "proposalHash": "d362d80bdc38e9b6e2da1803837985cac14de8882138213fe300ebba3e1405b9",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "買う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “사다” 및 1개 sense를 대조했다. 우산이나 상품을 사는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_307",
+    "sourceHash": "79ea28c2d8f280f53f389e66c20b386c2acd566e1c9af0f802e33e31d4fe1b28",
+    "proposalHash": "5181f491df066483366cc55addadc8ad0b75ddfeb90cb6d6061dba99eb84b863",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "売る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “팔다” 및 1개 sense를 대조했다. 자전거와 우표를 파는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_308",
+    "sourceHash": "a8a4eb9d5765bf0e36bea6c151e815009aa90e496376d254d9aa70a1ad8ad5bf",
+    "proposalHash": "0e0b78aea9dd0dfcb2a9cf738986cbcb7b8fb7844672e038edaee4f9eb4a53bc",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "気に入る의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “마음에 들다” 및 1개 sense를 대조했다. 셔츠와 방을 좋아하거나 마음에 들어 하는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_310",
+    "sourceHash": "374e348277c86d0f32e7abefe5e11cd347883567a727116314f1669a5a6b7498",
+    "proposalHash": "301fdeb607a624764b1ecfa37c0105bc442cfdbfdeeca643d075155b1c89db67",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "選ぶ의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “선택하다” 및 1개 sense를 대조했다. 꽃과 자리를 선택하는 기본 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_311",
+    "sourceHash": "063baccf955d7d1a4db8406dad6d1a50010e70baf658df12a162cc82739e4392",
+    "proposalHash": "cded12e3da17f0ed46e9a825671addf1ecac9cf36b437e8aa73d1af3ed864492",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "払う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “지불하다, 털어내다” 및 1개 sense를 대조했다. 물건값과 요금을 지불하는 뜻을 선택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_313",
+    "sourceHash": "f6325e18541935c9f75b0fe7b08c56c2dda09253f7b26cd142cce818a7a75c7f",
+    "proposalHash": "325a175fbf96d4e013f675adf85e116a9e205034c0ade72fc7f0073986d4b1c8",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "届く의 전체 원문과 제공 사전 의미를 대조했다. 책과 우편이 수신자에게 도착하는 일상 용법은 N4로 권장한다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_314",
+    "sourceHash": "8b3f9151612db4a06ca52174ad0e7211aac45fbd0cbf6bb7b48d863c7e0d9906",
+    "proposalHash": "71298c844aa94319174d723046d577a1f44ec04f740df4b26ffbdc248f5ac0e3",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "勧める의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “권하다” 및 1개 sense를 대조했다. 상품을 추천하거나 술을 권하는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_315",
+    "sourceHash": "81a7a2b6f7dbd5e2f2017ec026138930355047b3730506a980df0c58640f12f9",
+    "proposalHash": "f6a1bbcb6dc2bfd9fe94b0da6bc2fdf6e32d2d391706034396dc6a51092fdbf5",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "取り扱う의 전체 원문과 제공 사전 의미를 대조했다. 취급 주의 및 약품 취급의 일반 안내 용법은 N2로 권장한다. 사전 N1을 그대로 적용하지 않는다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_316",
+    "sourceHash": "5a02dae14746d6f11c31d44138e77ab7dcb54a5a83057b3b2f6ed3fc4f05e15e",
+    "proposalHash": "d39266110dbf3b74d4cd994cfd1d8e69e4e46723d289f48c2444dbc4c6ab1b2c",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "祝う의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “축하하다” 및 1개 sense를 대조했다. 생일과 졸업을 축하하는 의미이다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_317",
+    "sourceHash": "cdc328c5ecf3ddd08b90f74110f20f218dd9d1b56266fef1dde00ace2c34323c",
+    "proposalHash": "0949f73ad01992c61b4725f87e7e738ba8d34ad06695d15873818058b19c6743",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "candidate-only; no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:08:34.570Z",
+    "notes": [
+      "招く의 전체 원문과 제공 사전 의미를 대조했다. 기존 뜻 “초대하다, 초래하다” 및 1개 sense를 대조했다. 부모와 친구를 집으로 초대하는 뜻을 선택했다."
+    ]
+  },
+  {
+    "wordId": "AbsoluteVerb_318",
+    "sourceHash": "4a2f76c75e61a32fc1341924b080f18d3fa1e2d3c907644511ac9a0f1b37c1f3",
+    "proposalHash": "be7c0e3d8c5e2807ad34d19319388cb7b55b5c37886922bbf33c107a8e2392da",
+    "scope": "legacy-classification-proposal-only",
+    "outcome": "accepted",
+    "meaningOutcome": "reviewed-for-classification-only",
+    "levelOutcome": "accepted-editorial-recommendation",
+    "aliasOutcome": "no profile merge approval",
+    "reviewer": "Codex GPT-6 Astra review agent",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "method": "Independent complete word/sense/hint/contrast/example/translation/dictionary review",
+    "reviewedAt": "2026-10-01T00:42:14.053Z",
+    "notes": [
+      "fix003 전체 before/after 독립 승인 후 실제 적용 원본의 단어·용법·힌트·대비·예문 해시가 승인본과 같음을 확인. 기존 핵심 ID·버전 보존.",
+      "수정 후 현재 선택한 일상 핵심 용법을 독립 검토한 비공식 N5 수준."
+    ]
+  }
+]

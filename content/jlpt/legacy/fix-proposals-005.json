@@ -1,0 +1,464 @@
+[
+  {
+    "wordId": "JLPTN3_70",
+    "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+    "beforeHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+    "afterHash": "26e1db76459cbf2435865cf07eaaa11cd7608b9a84dcf053f988bc9195ce6264",
+    "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+    "category": "additional-common-sense",
+    "dictionaryId": "jmdict-1158880",
+    "reason": "N5 대표 선정 대상의 기존 다르다 핵심 용법은 그대로 보존하고 사전에 별도 기재된 틀리다 핵심 용법을 새 용법 ID로 보완한다. 원본 두 peer의 선택 핵심이 다르거나 부분적으로 같아도 전체 프로필을 통합하지 않는다.",
+    "before": {
+      "word": {
+        "id": "JLPTN3_70",
+        "setId": "jlpt-n3",
+        "japanese": "違う",
+        "reading": "ちがう",
+        "meaning": "다르다",
+        "type": "verb",
+        "difficulty": 18,
+        "verbInfo": "1자",
+        "sourceOrder": 69
+      },
+      "senses": [
+        {
+          "id": "sense-JLPTN3_70-1",
+          "wordId": "JLPTN3_70",
+          "version": 1,
+          "meaning": "다르다",
+          "hint": "비교하는 두 대상이 같지 않아요.",
+          "confusions": [
+            {
+              "japanese": "間違う",
+              "distinction": "차이가 있다는 것만으로 어느 한쪽이 틀렸다는 뜻은 아니다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-JLPTN3_70-1-ex-1",
+              "version": 1,
+              "before": "双子でも、好きな食べ物は",
+              "answer": "違う",
+              "after": "。",
+              "reading": "ちがう",
+              "translation": "쌍둥이라도 좋아하는 음식은 다르다.",
+              "translationTarget": "다르다",
+              "difficulty": 18,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-JLPTN3_70-1-ex-2",
+              "version": 1,
+              "before": "写真と色が",
+              "answer": "違った",
+              "after": "ので、店に問い合わせた。",
+              "reading": "ちがった",
+              "translation": "사진과 색이 달라서 가게에 문의했다.",
+              "translationTarget": "달라서",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "word": {
+        "id": "JLPTN3_70",
+        "setId": "jlpt-n3",
+        "japanese": "違う",
+        "reading": "ちがう",
+        "meaning": "다르다, 틀리다",
+        "type": "verb",
+        "difficulty": 18,
+        "verbInfo": "1자",
+        "sourceOrder": 69
+      },
+      "senses": [
+        {
+          "id": "sense-JLPTN3_70-1",
+          "wordId": "JLPTN3_70",
+          "version": 1,
+          "meaning": "다르다",
+          "hint": "비교하는 두 대상이 같지 않아요.",
+          "confusions": [
+            {
+              "japanese": "間違う",
+              "distinction": "차이가 있다는 것만으로 어느 한쪽이 틀렸다는 뜻은 아니다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-JLPTN3_70-1-ex-1",
+              "version": 1,
+              "before": "双子でも、好きな食べ物は",
+              "answer": "違う",
+              "after": "。",
+              "reading": "ちがう",
+              "translation": "쌍둥이라도 좋아하는 음식은 다르다.",
+              "translationTarget": "다르다",
+              "difficulty": 18,
+              "status": "reviewed"
+            },
+            {
+              "id": "sense-JLPTN3_70-1-ex-2",
+              "version": 1,
+              "before": "写真と色が",
+              "answer": "違った",
+              "after": "ので、店に問い合わせた。",
+              "reading": "ちがった",
+              "translation": "사진과 색이 달라서 가게에 문의했다.",
+              "translationTarget": "달라서",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        },
+        {
+          "id": "sense-JLPTN3_70-2",
+          "wordId": "JLPTN3_70",
+          "version": 1,
+          "meaning": "틀리다, 올바르지 않다",
+          "hint": "답이나 내용이 올바르지 않거나 맞아야 할 기준과 어긋나요.",
+          "confusions": [
+            {
+              "japanese": "異なる",
+              "distinction": "비교 표현은 서로 다른 점을 중립적으로 나타낸다. 이 용법은 정답이나 올바른 내용과 어긋났음을 나타낸다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-JLPTN3_70-2-ex-1",
+              "version": 1,
+              "before": "店員に、お釣りの金額が",
+              "answer": "違う",
+              "after": "と伝えた。",
+              "reading": "ちがう",
+              "translation": "점원에게 거스름돈 금액이 틀리다고 말했다.",
+              "translationTarget": "틀리다",
+              "difficulty": 18,
+              "status": "reviewed"
+            }
+          ]
+        }
+      ]
+    },
+    "canonicalPeerSources": [
+      {
+        "wordId": "JLPTN3_70",
+        "sourceHash": "991b1c7ad192703211dbb36332b12c31e99dfaf0f304d03b57da0ab5ff4e1d2b",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "snapshot": {
+          "word": {
+            "id": "JLPTN3_70",
+            "setId": "jlpt-n3",
+            "japanese": "違う",
+            "reading": "ちがう",
+            "meaning": "다르다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1자",
+            "sourceOrder": 69
+          },
+          "senses": [
+            {
+              "id": "sense-JLPTN3_70-1",
+              "wordId": "JLPTN3_70",
+              "version": 1,
+              "meaning": "다르다",
+              "hint": "비교하는 두 대상이 같지 않아요.",
+              "confusions": [
+                {
+                  "japanese": "間違う",
+                  "distinction": "차이가 있다는 것만으로 어느 한쪽이 틀렸다는 뜻은 아니다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-JLPTN3_70-1-ex-1",
+                  "version": 1,
+                  "before": "双子でも、好きな食べ物は",
+                  "answer": "違う",
+                  "after": "。",
+                  "reading": "ちがう",
+                  "translation": "쌍둥이라도 좋아하는 음식은 다르다.",
+                  "translationTarget": "다르다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-JLPTN3_70-1-ex-2",
+                  "version": 1,
+                  "before": "写真と色が",
+                  "answer": "違った",
+                  "after": "ので、店に問い合わせた。",
+                  "reading": "ちがった",
+                  "translation": "사진과 색이 달라서 가게에 문의했다.",
+                  "translationTarget": "달라서",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "role": "proposed-selection-representative"
+      },
+      {
+        "wordId": "handmade_108",
+        "sourceHash": "8d78e1f8ddd18dfd1b2a3d49473436dbfbb94b7662eed33347c181958e5d71d0",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "snapshot": {
+          "word": {
+            "id": "handmade_108",
+            "setId": "set-2",
+            "japanese": "違う",
+            "reading": "ちがう",
+            "meaning": "다르다, 틀리다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1자",
+            "sourceOrder": 107
+          },
+          "senses": [
+            {
+              "id": "sense-handmade_108-1",
+              "wordId": "handmade_108",
+              "version": 1,
+              "meaning": "틀리다",
+              "hint": "여기서는 정답이나 예상과 맞지 않는 상황이에요.",
+              "confusions": [
+                {
+                  "japanese": "異なる",
+                  "distinction": "다름만을 중립적으로 말하는 것과 달리 문맥에 따라 틀렸다는 뜻으로 쓴다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-handmade_108-1-ex-1",
+                  "version": 1,
+                  "before": "答えが",
+                  "answer": "違う",
+                  "after": "と言われ、もう一度計算した。",
+                  "reading": "ちがう",
+                  "translation": "답이 틀리다는 말을 듣고 다시 계산했다.",
+                  "translationTarget": "틀리다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-handmade_108-1-ex-2",
+                  "version": 1,
+                  "before": "番号が一つ",
+                  "answer": "違っていた",
+                  "after": "ので、別の家に電話がつながった。",
+                  "reading": "ちがっていた",
+                  "translation": "번호 하나가 틀려서 다른 집으로 전화가 연결되었다.",
+                  "translationTarget": "틀려서",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "role": "selection-only peer evidence; original preserved; no profile transfer"
+      },
+      {
+        "wordId": "AbsoluteVerb_618",
+        "sourceHash": "c5c10b1b80f0abd52ea08a4ea5556fb44323ed13eb5962f9bdeb3cc297b0a9b8",
+        "sourceHashSchema": "SHA256(JSON.stringify({word,senses}))",
+        "snapshot": {
+          "word": {
+            "id": "AbsoluteVerb_618",
+            "setId": "AbsoluteVerb",
+            "japanese": "違う",
+            "reading": "ちがう",
+            "meaning": "다르다, 틀리다",
+            "type": "verb",
+            "difficulty": 18,
+            "verbInfo": "1자",
+            "sourceOrder": 616
+          },
+          "senses": [
+            {
+              "id": "sense-AbsoluteVerb_618-1",
+              "wordId": "AbsoluteVerb_618",
+              "version": 1,
+              "meaning": "다르다",
+              "hint": "둘 사이에 차이가 있으며 꼭 틀렸다는 뜻은 아니에요.",
+              "confusions": [
+                {
+                  "japanese": "間違う",
+                  "distinction": "차이 자체만으로 정오를 판정하지 않는다."
+                }
+              ],
+              "review": {
+                "word": true,
+                "contrast": true,
+                "diversity": true
+              },
+              "examples": [
+                {
+                  "id": "sense-AbsoluteVerb_618-1-ex-1",
+                  "version": 1,
+                  "before": "同じ曲でも、演奏者によって雰囲気が",
+                  "answer": "違う",
+                  "after": "。",
+                  "reading": "ちがう",
+                  "translation": "같은 곡도 연주자에 따라 분위기가 다르다.",
+                  "translationTarget": "다르다",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                },
+                {
+                  "id": "sense-AbsoluteVerb_618-1-ex-2",
+                  "version": 1,
+                  "before": "いつもと道が",
+                  "answer": "違う",
+                  "after": "けれど、近道なの？",
+                  "reading": "ちがう",
+                  "translation": "평소와 길이 다른데 지름길이야?",
+                  "translationTarget": "다른데",
+                  "difficulty": 18,
+                  "status": "reviewed"
+                }
+              ]
+            }
+          ]
+        },
+        "role": "selection-only peer evidence; original preserved; no profile transfer"
+      }
+    ],
+    "dictionaryEvidence": {
+      "file": "output/jlpt/legacy-work/legacy-003.json",
+      "candidate": {
+        "id": "jmdict-1158880",
+        "japanese": "違う",
+        "reading": "ちがう",
+        "spellings": [
+          "違う"
+        ],
+        "readings": [
+          "ちがう"
+        ],
+        "senses": [
+          {
+            "pos": [
+              "Godan verb with 'u' ending",
+              "intransitive verb"
+            ],
+            "glosses": [
+              "to differ (from)",
+              "to be different",
+              "to be distinct",
+              "to be unlike",
+              "to vary",
+              "to disagree (with)"
+            ],
+            "restrictedSpellings": [],
+            "restrictedReadings": []
+          },
+          {
+            "pos": [
+              "Godan verb with 'u' ending",
+              "intransitive verb"
+            ],
+            "glosses": [
+              "to be wrong",
+              "to be incorrect",
+              "to be mistaken"
+            ],
+            "restrictedSpellings": [],
+            "restrictedReadings": []
+          },
+          {
+            "pos": [
+              "Godan verb with 'u' ending",
+              "intransitive verb"
+            ],
+            "glosses": [
+              "to become abnormal",
+              "to go wrong"
+            ],
+            "restrictedSpellings": [],
+            "restrictedReadings": []
+          },
+          {
+            "pos": [
+              "expressions (phrases, clauses, etc.)"
+            ],
+            "glosses": [
+              "isn't it?",
+              "wasn't it?"
+            ],
+            "restrictedSpellings": [],
+            "restrictedReadings": []
+          }
+        ],
+        "proposedLevel": "N5",
+        "levelEvidence": {
+          "source": "openjlpt",
+          "levels": [
+            "N5"
+          ],
+          "matchedForms": [
+            "違う"
+          ]
+        },
+        "priorities": [
+          "ichi1",
+          "news2",
+          "nf27"
+        ],
+        "existingWordIds": [
+          "JLPTN3_70",
+          "handmade_108",
+          "AbsoluteVerb_618"
+        ],
+        "status": "candidate",
+        "source": "jmdict",
+        "needs": [
+          "korean-meaning",
+          "level-review",
+          "sense-selection",
+          "three-authored-examples",
+          "content-review"
+        ]
+      }
+    },
+    "profileTransfer": "none",
+    "notes": [
+      "기존 JLPTN3_70 단어 뜻에 틀리다만 추가한다. 표기·읽기·품사·원본ID·order·동사정보는 보존한다.",
+      "기존 sense-JLPTN3_70-1 전체 ID·버전·metadata·예문 ID·버전·내용은 그대로 보존한다.",
+      "handmade_108 및 AbsoluteVerb_618 단어·용법·예문 원본 전체는 절대 변경하지 않는다. 3개 원본 전체 snapshot/hash는 선정 출처 근거이며 프로필 통합의 승인 자료가 아니다.",
+      "새 sense-JLPTN3_70-2/version1 및 ex1/version1에는 기존 세 단어·용법의 숙련도·복습 일정·예문 기록을 승계하지 않는다.",
+      "독립 검토 전 제안이며 원본 적용·별칭 변경·수준별 참조·pilot·프로필 변경을 수행하지 않았다."
+    ]
+  }
+]

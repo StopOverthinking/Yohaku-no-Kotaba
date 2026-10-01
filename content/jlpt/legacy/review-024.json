@@ -145,20 +145,21 @@
   },
   {
     "wordId": "AbsoluteVerb_71",
-    "sourceHash": "687d08db102a503e9a21fedcb6f54eb69f10f02181ac0f51cd340db99b97273d",
-    "proposalHash": "89ce6956e5571e5dceaf9d6055c0c09fae4141a9ab24a6674df5233575ac42c6",
+    "sourceHash": "94e9df66ab99c25c13ca323f9f9bf916ce2c2515736f74428e73cd8139b9a67f",
+    "proposalHash": "65c6ddba327048acc20419b3c0d0b76be4bac30061e84791e0b313fa7ca43736",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-024.json",
-    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "옷·시계를 걸어 놓는 N4 타동사 의미를 확인했다."
+      "벽에 걸기 기존 용법 불변, 전화 연결·안경 착용 각각 새 ID 추가. 현재 3개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N4를 유지한다."
     ]
   },
   {
@@ -307,20 +308,21 @@
   },
   {
     "wordId": "AbsoluteVerb_81",
-    "sourceHash": "36d69c4fe551637999ffd906be619f1d0763ba62f8377cea810fcbd853c6e89e",
-    "proposalHash": "60d9972b69c1e2bf840a17bf7005605c9441c84da897ef22d0c8c078fd23fe3a",
+    "sourceHash": "8c9e19b20a4dd792ad0dbf6971c2f98b102b1c5b264239d2e428e0cedd3327b3",
+    "proposalHash": "92887e62dace182bb5107ae56e5f9856aca7db6854f168af9d71860b28c08125",
     "scope": "legacy-classification-proposal-only",
     "outcome": "accepted",
     "meaningOutcome": "reviewed-for-classification-only",
     "levelOutcome": "accepted-editorial-recommendation",
-    "aliasOutcome": "candidate-only; not approved for merge",
+    "aliasOutcome": "no alias/profile merge approved",
     "reviewer": "Codex GPT-6 Astra review agent",
     "model": "gpt-6-astra",
     "reasoningEffort": "high",
-    "method": "Independent classification review; legacy/review-summary-024.json",
-    "reviewedAt": "2026-09-30T06:09:16.787Z",
+    "method": "Independent re-review of complete final core-preserving content revision fix002",
+    "reviewedAt": "2026-10-01T00:01:08.504Z",
     "notes": [
-      "가방·우산을 손에 들고 있는 N5 의미를 확인했다."
+      "손에 들고 있는 기존 용법과 차를 소유하는 신규 용법의 프로필을 분리. 현재 2개 독립 용법과 모든 기존·추가 예문이 사전 핵심 의미에 부합한다.",
+      "현재 보강된 생활 핵심 용법과 사전 근거를 대조하여 비공식 N5를 유지한다."
     ]
   },
   {
