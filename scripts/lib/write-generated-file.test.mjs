@@ -1,12 +1,17 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import os from 'node:os'
 import { writeGeneratedFile } from './write-generated-file.mjs'
 
 let directory
-beforeEach(async () => { directory = await fs.mkdtemp(path.resolve('output/jlpt/write-test-')) })
+beforeEach(async () => {
+  directory = undefined
+  directory = await fs.mkdtemp(path.join(os.tmpdir(), 'yohaku-write-test-'))
+})
 afterEach(async () => {
   vi.restoreAllMocks()
+  if (!directory) return
   for (const name of await fs.readdir(directory)) await fs.unlink(path.join(directory, name))
   await fs.rmdir(directory)
 })
