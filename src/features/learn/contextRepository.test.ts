@@ -8,7 +8,7 @@ import { answerContext, emptyContextState, startContext } from './contextEngine'
 import { testSense } from './contextTestFixtures'
 
 const senses = ['a', 'b'].map((id) => testSense(id))
-const empty = () => emptyContextState(senses)
+const empty = () => emptyContextState()
 const initial = () => startContext(empty(), {
   setId: 'all', setName: 'test', candidateWordIds: ['a', 'b'], requiredWordIds: [],
   wordCount: 2, allowEarly: false,

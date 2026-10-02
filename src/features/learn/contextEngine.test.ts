@@ -29,7 +29,7 @@ describe('context scheduling', () => {
     const original = testSense('same-word', 20)
     const added = { ...testSense('new-usage', 20), wordId: original.wordId }
     const content = [original, added]
-    const state = emptyContextState(content)
+    const state = emptyContextState()
     const profile = { ...reviewProfile(undefined, original, original.examples[0], true, false, day), due: addDays(day, 30), step: 8 }
     state.profiles[profileKey(original)] = profile
     state.level.assessedWordIds = [original.wordId]
@@ -46,7 +46,7 @@ describe('context scheduling', () => {
     const single = { ...senses[0], examples: [senses[0].examples[0]] }
     const content = [single]
     const selection = { ...options, candidateWordIds: ['a'], wordCount: 1, allowEarly: true }
-    let state = startContext(emptyContextState(content), selection, content, day)
+    let state = startContext(emptyContextState(), selection, content, day)
     expect(state.session!.current.exampleId).toBe(single.examples[0].id)
     const started = state
     state = answerContext(state, false, content, day)
@@ -63,7 +63,7 @@ describe('context scheduling', () => {
   it('retains mastery after an example correction but refuses a pending answer against old wording', () => {
     const original = senses[0]
     const profile = reviewProfile(undefined, original, original.examples[0], true, false, day)
-    const state = emptyContextState(senses)
+    const state = emptyContextState()
     state.profiles[profileKey(original)] = profile
     const started = startContext(state, { ...options, candidateWordIds: ['a'], allowEarly: true }, senses, day)
     const changed = structuredClone(senses)
@@ -82,8 +82,7 @@ describe('context scheduling', () => {
       id, wordId, version, review,
       examples: examples.map(({ id, version, difficulty, status }) => ({ id, version, difficulty, status })),
     }))
-    expect(emptyContextState(index)).toEqual(emptyContextState(senses))
-    let full = startContext(emptyContextState(senses), options, senses, day, () => 0)
+    let full = startContext(emptyContextState(), options, senses, day, () => 0)
     let indexed = structuredClone(full)
     for (const known of [false, true, false, true, true, true, true]) {
       if (!full.session) break
@@ -94,26 +93,26 @@ describe('context scheduling', () => {
       expect(undoContext(indexed)).toEqual(undoContext(full))
     }
   })
-  it('starts from the median, reserves required words, and adapts the next unseen word', () => {
+  it('starts with a beginner prior, reserves required words, and adapts the next unseen word', () => {
     let state = startContext(
-      emptyContextState(senses),
+      emptyContextState(),
       { ...options, requiredWordIds: ['a', 'c', 'a'], wordCount: 1 },
       senses,
       day,
       () => 0,
     )
-    expect(state.level.value).toBe(30)
+    expect(state.level.value).toBe(16)
     expect(state.session?.targetCount).toBe(2)
     const first = state.session!.current.senseId
     state = answerContext(state, true, senses, day)
     expect(new Set([first, state.session!.current.senseId])).toEqual(new Set(['sense-a', 'sense-c']))
-    expect(state.level.value).toBeGreaterThan(30)
+    expect(state.level.value).toBeGreaterThan(16)
     expect(state.session!.cards).toHaveLength(2)
   })
 
   it('repeats failures until known, without repeatedly advancing level or dates that day', () => {
     let state = startContext(
-      emptyContextState(senses),
+      emptyContextState(),
       { ...options, candidateWordIds: ['b'], wordCount: 1 },
       senses,
       day,
@@ -163,7 +162,7 @@ describe('context scheduling', () => {
   })
 
   it('prioritizes overdue reviews over new words and excludes future reviews in automatic mode', () => {
-    const state = emptyContextState(senses)
+    const state = emptyContextState()
     state.profiles[profileKey(senses[2])] = reviewProfile(
       undefined,
       senses[2],
@@ -188,7 +187,7 @@ describe('context scheduling', () => {
   })
 
   it('undo restores profile, level, hint, answer reveal, queue and selected candidates', () => {
-    let state = startContext(emptyContextState(senses), options, senses, day, () => 0.2)
+    let state = startContext(emptyContextState(), options, senses, day, () => 0.2)
     state.session = { ...state.session!, revealed: true, hintShown: true }
     const before = structuredClone(state)
     state = answerContext(state, false, senses, day)
@@ -197,7 +196,7 @@ describe('context scheduling', () => {
   })
 
   it('new sense versions do not inherit previous mastery', () => {
-    const state = emptyContextState(senses)
+    const state = emptyContextState()
     state.profiles['sense-b@1'] = reviewProfile(undefined, senses[1], senses[1].examples[0], true, false, day)
     const updated = [{ ...senses[1], version: 2 }]
     expect(
@@ -207,7 +206,7 @@ describe('context scheduling', () => {
 
   it('continues distinct-word calibration across sessions and changes gain after twenty words', () => {
     const pool = Array.from({ length: 21 }, (_, i) => testSense(`cal-${i}`, 30))
-    let state = emptyContextState(pool)
+    let state = emptyContextState()
     for (let i = 0; i < 20; i++) {
       state = startContext(state, { ...options, candidateWordIds: [`cal-${i}`], wordCount: 1 }, pool, day)
       state = answerContext(state, i % 2 === 0, pool, day)
@@ -221,16 +220,53 @@ describe('context scheduling', () => {
     expect(state.level.assessedWordIds).toHaveLength(20)
   })
 
-  it('initializes the level from the available scope and never draws outside it', () => {
+  it.each(['a', 'c'])('keeps the beginner prior for a first scope limited to %s and never draws outside it', (wordId) => {
     const state = startContext(
-      emptyContextState(senses),
-      { ...options, candidateWordIds: ['a'], wordCount: 10 },
+      emptyContextState(),
+      { ...options, candidateWordIds: [wordId], wordCount: 10 },
       senses,
       day,
     )
-    expect(state.level.value).toBe(10)
+    expect(state.level).toEqual({ value: 16, assessedWordIds: [] })
     expect(state.session!.targetCount).toBe(1)
+    expect(state.session!.current.senseId).toBe(`sense-${wordId}`)
     expect(answerContext(state, true, senses, day).session).toBeNull()
+  })
+
+  it.each([
+    { known: true, score: 20, next: 'higher' },
+    { known: false, score: 12, next: 'lower' },
+  ])('adjusts the beginner prior and next recommendation after known=$known', ({ known, score, next }) => {
+    const pool = [testSense('lower', 12), testSense('first', 16), testSense('higher', 20), testSense('advanced', 43)]
+    const started = startContext(emptyContextState(), {
+      ...options, candidateWordIds: pool.map((sense) => sense.wordId), wordCount: 2,
+    }, pool, day)
+    expect(started.level).toEqual({ value: 16, assessedWordIds: [] })
+    expect(started.session!.current.senseId).toBe('sense-first')
+    const answered = answerContext(started, known, pool, day)
+    expect(answered.level).toEqual({ value: score, assessedWordIds: ['first'] })
+    expect(answered.session!.current.senseId).toBe(`sense-${next}`)
+    expect(undoContext(answered)).toEqual(started)
+  })
+
+  it('applies the beginner prior to an old unassessed score when first starting', () => {
+    const state = emptyContextState()
+    state.level.value = 50
+    const started = startContext(state, options, senses, day)
+    expect(started.level).toEqual({ value: 16, assessedWordIds: [] })
+    expect(started.session!.current.senseId).toBe('sense-a')
+    expect(state.level.value).toBe(50)
+  })
+
+  it.each(['assessment', 'profile'])('preserves an existing score with an %s record across scopes', (record) => {
+    const state = emptyContextState()
+    state.level.value = 47.5
+    if (record === 'assessment') state.level.assessedWordIds = ['b']
+    else state.profiles[profileKey(senses[1])] = reviewProfile(undefined, senses[1], senses[1].examples[0], true, false, day)
+    const started = startContext(state, { ...options, candidateWordIds: ['a'], wordCount: 1 }, senses, day)
+    expect(started.level).toEqual(state.level)
+    expect(started.profiles).toEqual(state.profiles)
+    expect(started.session!.current.senseId).toBe('sense-a')
   })
 
   it('same-date sessions cannot promote an interval twice, and the next day resets daily count', () => {

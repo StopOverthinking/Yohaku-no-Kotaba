@@ -8,7 +8,7 @@ describe('compact undo persistence', () => {
   it('round-trips mixed rounds and every undo snapshot', () => {
     const senses = ['a', 'b', 'c'].map((id) => testSense(id))
     let state = startContext(
-      emptyContextState(senses),
+      emptyContextState(),
       {
         setId: 'all',
         setName: 'test',
@@ -35,7 +35,7 @@ describe('compact undo persistence', () => {
   it('stores large scopes once instead of repeating them for every answer', () => {
     const senses = Array.from({ length: 1520 }, (_, i) => testSense(`word-${i}`))
     let state = startContext(
-      emptyContextState(senses),
+      emptyContextState(),
       {
         setId: 'all',
         setName: 'test',
@@ -57,7 +57,7 @@ describe('compact undo persistence', () => {
   it('rejects corrupted patch boundaries', () => {
     const senses = [testSense('a'), testSense('b')]
     let state = startContext(
-      emptyContextState(senses),
+      emptyContextState(),
       {
         setId: 'all',
         setName: 'test',

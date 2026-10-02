@@ -29,19 +29,42 @@ const content: LearnSense[] = [
         "translation": "약을 바꾼 지 일주일이 지났지만 아직 몸 상태에 변화는 없다.",
         "translationTarget": "변화",
         "difficulty": 29,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-JLPTN3_456-1-ex-2",
-        "version": 1,
-        "before": "季節による森の",
-        "answer": "変化",
-        "after": "を、同じ場所から撮り続けた。",
-        "reading": "へんか",
-        "translation": "계절에 따른 숲의 변화를 같은 장소에서 계속 찍었다.",
-        "translationTarget": "변화",
-        "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "薬",
+            "reading": "くすり"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "変え",
+            "reading": "かえ"
+          },
+          {
+            "text": "て"
+          },
+          {
+            "text": "一週間",
+            "reading": "いっしゅうかん"
+          },
+          {
+            "text": "たつが、まだ"
+          },
+          {
+            "text": "体調",
+            "reading": "たいちょう"
+          },
+          {
+            "text": "に"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "はない。"
+          }
+        ]
       }
     ]
   },
@@ -73,19 +96,35 @@ const content: LearnSense[] = [
         "translation": "물이 끓어서 불을 껐다.",
         "translationTarget": "끓어서",
         "difficulty": 22,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_208-1-ex-2",
-        "version": 1,
-        "before": "まだ",
-        "answer": "沸いていない",
-        "after": "から、お茶を入れるのは待って。",
-        "reading": "わいていない",
-        "translation": "아직 끓지 않았으니 차를 우리는 건 기다려.",
-        "translationTarget": "끓지 않았으니",
-        "difficulty": 22,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "お湯",
+            "reading": "おゆ"
+          },
+          {
+            "text": "が"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "ので、"
+          },
+          {
+            "text": "火",
+            "reading": "ひ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "止め",
+            "reading": "とめ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -117,19 +156,42 @@ const content: LearnSense[] = [
         "translation": "마지막에 레몬즙을 더하면 맛이 또렷해진다.",
         "translationTarget": "더하면",
         "difficulty": 30,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_486-1-ex-2",
-        "version": 1,
-        "before": "説明に一つ例を",
-        "answer": "加えた",
-        "after": "だけで、ぐっと分かりやすくなった。",
-        "reading": "くわえた",
-        "translation": "설명에 예 하나를 추가한 것만으로 훨씬 이해하기 쉬워졌다.",
-        "translationTarget": "추가한",
-        "difficulty": 30,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "最後",
+            "reading": "さいご"
+          },
+          {
+            "text": "にレモン"
+          },
+          {
+            "text": "汁",
+            "reading": "じる"
+          },
+          {
+            "text": "を"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "と、"
+          },
+          {
+            "text": "味",
+            "reading": "あじ"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "引き締まる",
+            "reading": "ひきしまる"
+          },
+          {
+            "text": "。"
+          }
+        ]
       }
     ]
   },
@@ -161,19 +223,42 @@ const content: LearnSense[] = [
         "translation": "봉투는 남아 있지만 편지의 내용은 기억나지 않는다.",
         "translationTarget": "내용",
         "difficulty": 29,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-JLPTN3_423-1-ex-2",
-        "version": 1,
-        "before": "申込書の",
-        "answer": "内容",
-        "after": "を、送信前にもう一度見直した。",
-        "reading": "ないよう",
-        "translation": "신청서의 내용을 보내기 전에 다시 한번 검토했다.",
-        "translationTarget": "내용",
-        "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "封筒",
+            "reading": "ふうとう"
+          },
+          {
+            "text": "は"
+          },
+          {
+            "text": "残っ",
+            "reading": "のこっ"
+          },
+          {
+            "text": "ているが、"
+          },
+          {
+            "text": "手紙",
+            "reading": "てがみ"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "は"
+          },
+          {
+            "text": "覚え",
+            "reading": "おぼえ"
+          },
+          {
+            "text": "ていない。"
+          }
+        ]
       }
     ]
   },
@@ -205,19 +290,42 @@ const content: LearnSense[] = [
         "translation": "기모노에서 서양식 옷으로 갈아입고 장을 보러 나갔다.",
         "translationTarget": "서양식 옷",
         "difficulty": 25,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-handmade_150-1-ex-2",
-        "version": 1,
-        "before": "祖母は自分で",
-        "answer": "洋服",
-        "after": "を縫っていた。",
-        "reading": "ようふく",
-        "translation": "할머니는 직접 서양식 옷을 지어 입으셨다.",
-        "translationTarget": "서양식 옷",
-        "difficulty": 25,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "着物",
+            "reading": "きもの"
+          },
+          {
+            "text": "から"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "に"
+          },
+          {
+            "text": "着替え",
+            "reading": "きがえ"
+          },
+          {
+            "text": "て、"
+          },
+          {
+            "text": "買い物",
+            "reading": "かいもの"
+          },
+          {
+            "text": "へ"
+          },
+          {
+            "text": "出",
+            "reading": "で"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -249,19 +357,39 @@ const content: LearnSense[] = [
         "translation": "철사를 구부려서 작은 고리를 만들었다.",
         "translationTarget": "구부려서",
         "difficulty": 28,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_110-1-ex-2",
-        "version": 1,
-        "before": "ひざを少し",
-        "answer": "曲げる",
-        "after": "と、姿勢が安定する。",
-        "reading": "まげる",
-        "translation": "무릎을 조금 굽히면 자세가 안정된다.",
-        "translationTarget": "굽히면",
-        "difficulty": 28,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "針金",
+            "reading": "はりがね"
+          },
+          {
+            "text": "を"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "、"
+          },
+          {
+            "text": "小さな",
+            "reading": "ちいさな"
+          },
+          {
+            "text": "輪",
+            "reading": "わ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "作っ",
+            "reading": "つくっ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -293,19 +421,36 @@ const content: LearnSense[] = [
         "translation": "노래를 부르면서라면 구구단도 즐겁게 외울 수 있다.",
         "translationTarget": "외울 수 있다",
         "difficulty": 18,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-JLPTN3_23-1-ex-2",
-        "version": 1,
-        "before": "暗証番号を",
-        "answer": "覚えた",
-        "after": "つもりだったのに、出てこない。",
-        "reading": "おぼえた",
-        "translation": "비밀번호를 외웠다고 생각했는데 떠오르지 않는다.",
-        "translationTarget": "외웠다고",
-        "difficulty": 18,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "歌い",
+            "reading": "うたい"
+          },
+          {
+            "text": "ながらなら、"
+          },
+          {
+            "text": "九",
+            "reading": "きゅう"
+          },
+          {
+            "text": "九",
+            "reading": "きゅう"
+          },
+          {
+            "text": "も"
+          },
+          {
+            "text": "楽しく",
+            "reading": "たのしく"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
+          }
+        ]
       }
     ]
   },
@@ -337,19 +482,35 @@ const content: LearnSense[] = [
         "translation": "걸레를 잘 짜고 바닥을 닦아 주세요.",
         "translationTarget": "짜고",
         "difficulty": 37,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-JLPTN3_56-1-ex-2",
-        "version": 1,
-        "before": "タオルを片手で",
-        "answer": "絞る",
-        "after": "のは難しいね。",
-        "reading": "しぼる",
-        "translation": "수건을 한 손으로 짜기는 어렵네.",
-        "translationTarget": "짜기는",
-        "difficulty": 37,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "雑巾",
+            "reading": "ぞうきん"
+          },
+          {
+            "text": "をよく"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "から、"
+          },
+          {
+            "text": "床",
+            "reading": "ゆか"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "拭い",
+            "reading": "ふい"
+          },
+          {
+            "text": "てください。"
+          }
+        ]
       }
     ]
   },
@@ -381,19 +542,32 @@ const content: LearnSense[] = [
         "translation": "여름방학에 번 돈으로 기타를 샀다.",
         "translationTarget": "번",
         "difficulty": 28,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_419-1-ex-2",
-        "version": 1,
-        "before": "生活費を",
-        "answer": "稼ぐ",
-        "after": "ために、夜も働いている。",
-        "reading": "かせぐ",
-        "translation": "생활비를 벌기 위해 밤에도 일하고 있다.",
-        "translationTarget": "벌기",
-        "difficulty": 28,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "夏休み",
+            "reading": "なつやすみ"
+          },
+          {
+            "text": "に"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "お金",
+            "reading": "おかね"
+          },
+          {
+            "text": "で、ギターを"
+          },
+          {
+            "text": "買っ",
+            "reading": "かっ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -425,19 +599,56 @@ const content: LearnSense[] = [
         "translation": "기계 고장에 대비해서 수작업으로도 대응할 수 있는 절차를 정해 두었다.",
         "translationTarget": "대비해서",
         "difficulty": 34,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_572-1-ex-2",
-        "version": 1,
-        "before": "雪に",
-        "answer": "備える",
-        "after": "には、この靴では足りない。",
-        "reading": "そなえる",
-        "translation": "눈에 대비하기에는 이 신발로 부족하다.",
-        "translationTarget": "대비하기에는",
-        "difficulty": 34,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "機械",
+            "reading": "きかい"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "故障",
+            "reading": "こしょう"
+          },
+          {
+            "text": "に"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "、"
+          },
+          {
+            "text": "手作業",
+            "reading": "てさぎょう"
+          },
+          {
+            "text": "でも"
+          },
+          {
+            "text": "対応",
+            "reading": "たいおう"
+          },
+          {
+            "text": "できる"
+          },
+          {
+            "text": "手順",
+            "reading": "てじゅん"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "決め",
+            "reading": "きめ"
+          },
+          {
+            "text": "ておいた。"
+          }
+        ]
       }
     ]
   },
@@ -469,19 +680,28 @@ const content: LearnSense[] = [
         "translation": "쉬는 날 베란다를 청소했다.",
         "translationTarget": "청소했다",
         "difficulty": 16,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_640-1-ex-2",
-        "version": 1,
-        "before": "床を",
-        "answer": "掃除している",
-        "after": "ので、少し待ってね。",
-        "reading": "そうじしている",
-        "translation": "바닥을 청소하고 있으니 잠깐 기다려.",
-        "translationTarget": "청소하고 있으니",
-        "difficulty": 16,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "休み",
+            "reading": "やすみ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "日",
+            "reading": "ひ"
+          },
+          {
+            "text": "に、ベランダを"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
+          }
+        ]
       }
     ]
   },
@@ -513,19 +733,39 @@ const content: LearnSense[] = [
         "translation": "아버지는 성미가 급하셔서 긴 줄에는 서려고 하지 않으신다.",
         "translationTarget": "성미가 급하셔서",
         "difficulty": 30,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-AbsoluteVerb_864-1-ex-2",
-        "version": 1,
-        "before": "昔は",
-        "answer": "気が短かった",
-        "after": "が、子育てで少し変わった。",
-        "reading": "きがみじかかった",
-        "translation": "예전에는 성미가 급했지만 육아로 조금 달라졌다.",
-        "translationTarget": "성미가 급했지만",
-        "difficulty": 30,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "父",
+            "reading": "ちち"
+          },
+          {
+            "text": "は"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "ので、"
+          },
+          {
+            "text": "長い",
+            "reading": "ながい"
+          },
+          {
+            "text": "列",
+            "reading": "れつ"
+          },
+          {
+            "text": "には"
+          },
+          {
+            "text": "並び",
+            "reading": "ならび"
+          },
+          {
+            "text": "たがらない。"
+          }
+        ]
       }
     ]
   },
@@ -548,18 +788,6 @@ const content: LearnSense[] = [
     },
     "examples": [
       {
-        "id": "sense-lex-jmdict-1427360-1-ex-1",
-        "version": 1,
-        "before": "店員が使い方を",
-        "answer": "丁寧",
-        "after": "に説明してくれました。",
-        "reading": "ていねい",
-        "translation": "점원이 사용법을 친절하고 자세하게 설명해 줬어요.",
-        "translationTarget": "친절하고 자세하게",
-        "difficulty": 26,
-        "status": "reviewed"
-      },
-      {
         "id": "sense-lex-jmdict-1427360-1-ex-2",
         "version": 1,
         "before": "相手が読みやすいように、字を",
@@ -569,7 +797,42 @@ const content: LearnSense[] = [
         "translation": "상대가 읽기 쉽도록 글씨를 정성 들여 써요.",
         "translationTarget": "정성 들여",
         "difficulty": 27,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "相手",
+            "reading": "あいて"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "読み",
+            "reading": "よみ"
+          },
+          {
+            "text": "やすいように、"
+          },
+          {
+            "text": "字",
+            "reading": "じ"
+          },
+          {
+            "text": "を"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "に"
+          },
+          {
+            "text": "書き",
+            "reading": "かき"
+          },
+          {
+            "text": "ます。"
+          }
+        ]
       },
       {
         "id": "sense-lex-jmdict-1427360-1-ex-3",
@@ -581,7 +844,40 @@ const content: LearnSense[] = [
         "translation": "처음 만나는 사람에게는 정중한 말로 이야기합시다.",
         "translationTarget": "정중한",
         "difficulty": 27,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "初めて",
+            "reading": "はじめて"
+          },
+          {
+            "text": "会う",
+            "reading": "あう"
+          },
+          {
+            "text": "人",
+            "reading": "ひと"
+          },
+          {
+            "text": "には、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "言葉",
+            "reading": "ことば"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "話し",
+            "reading": "はなし"
+          },
+          {
+            "text": "ましょう。"
+          }
+        ]
       }
     ]
   },
@@ -613,31 +909,38 @@ const content: LearnSense[] = [
         "translation": "“내일도 오세요?” “네, 와요.”",
         "translationTarget": "네",
         "difficulty": 12,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1001140-1-ex-2",
-        "version": 1,
-        "before": "「その本、面白かったですか。」「",
-        "answer": "ええ",
-        "after": "、最後まで読みました。」",
-        "reading": "ええ",
-        "translation": "“그 책 재미있었나요?” “네, 끝까지 읽었어요.”",
-        "translationTarget": "네",
-        "difficulty": 14,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1001140-1-ex-3",
-        "version": 1,
-        "before": "話を聞いた祖母は「",
-        "answer": "ええ",
-        "after": "、そうですね」とうなずきました。",
-        "reading": "ええ",
-        "translation": "이야기를 들은 할머니는 “네, 그렇네요” 하며 고개를 끄덕이셨어요.",
-        "translationTarget": "네",
-        "difficulty": 16,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "「"
+          },
+          {
+            "text": "明日",
+            "reading": "あした"
+          },
+          {
+            "text": "も"
+          },
+          {
+            "text": "来",
+            "reading": "き"
+          },
+          {
+            "text": "ますか。」「"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "、"
+          },
+          {
+            "text": "来",
+            "reading": "き"
+          },
+          {
+            "text": "ますよ。」"
+          }
+        ]
       }
     ]
   },
@@ -669,31 +972,35 @@ const content: LearnSense[] = [
         "translation": "집에서 중학교까지는 비탈길이 이어져 있어요.",
         "translationTarget": "중학교",
         "difficulty": 17,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1423650-1-ex-2",
-        "version": 1,
-        "before": "その",
-        "answer": "中学校",
-        "after": "では毎年音楽会を開きます。",
-        "reading": "ちゅうがっこう",
-        "translation": "그 중학교에서는 해마다 음악회를 열어요.",
-        "translationTarget": "중학교",
-        "difficulty": 17,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1423650-1-ex-3",
-        "version": 1,
-        "before": "",
-        "answer": "中学校",
-        "after": "の卒業式で、先生に手紙を渡しました。",
-        "reading": "ちゅうがっこう",
-        "translation": "중학교 졸업식에서 선생님께 편지를 드렸어요.",
-        "translationTarget": "중학교",
-        "difficulty": 18,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "家",
+            "reading": "いえ"
+          },
+          {
+            "text": "から"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "までは、"
+          },
+          {
+            "text": "坂道",
+            "reading": "さかみち"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "続い",
+            "reading": "つづい"
+          },
+          {
+            "text": "ています。"
+          }
+        ]
       }
     ]
   },
@@ -725,31 +1032,28 @@ const content: LearnSense[] = [
         "translation": "일본 음식에는 예를 들면 초밥과 우동이 있어요.",
         "translationTarget": "예를 들면",
         "difficulty": 17,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1556370-1-ex-2",
-        "version": 1,
-        "before": "時間を節約するには、",
-        "answer": "例えば",
-        "after": "前の晩に準備するといいですよ。",
-        "reading": "たとえば",
-        "translation": "시간을 아끼려면 예를 들어 전날 밤에 준비하면 좋아요.",
-        "translationTarget": "예를 들어",
-        "difficulty": 20,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1556370-1-ex-3",
-        "version": 1,
-        "before": "好きな色を一つ、",
-        "answer": "例えば",
-        "after": "青を選んでください。",
-        "reading": "たとえば",
-        "translation": "좋아하는 색을 하나, 예를 들어 파랑을 골라 주세요.",
-        "translationTarget": "예를 들어",
-        "difficulty": 18,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "日本",
+            "reading": "にっぽん"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "食べ物",
+            "reading": "たべもの"
+          },
+          {
+            "text": "には、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "すしやうどんがあります。"
+          }
+        ]
       }
     ]
   },
@@ -781,31 +1085,42 @@ const content: LearnSense[] = [
         "translation": "어릴 때 사진에서는 형과 동생이 꼭 닮았어요.",
         "translationTarget": "꼭 닮았어요",
         "difficulty": 22,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1006790-1-ex-2",
-        "version": 1,
-        "before": "この絵は本物と",
-        "answer": "そっくり",
-        "after": "なので、少し驚きました。",
-        "reading": "そっくり",
-        "translation": "이 그림은 진짜와 똑같아서 조금 놀랐어요.",
-        "translationTarget": "똑같아서",
-        "difficulty": 22,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1006790-1-ex-3",
-        "version": 1,
-        "before": "母に",
-        "answer": "そっくり",
-        "after": "な声で電話をしたら、父が間違えました。",
-        "reading": "そっくり",
-        "translation": "어머니와 꼭 닮은 목소리로 전화했더니 아버지가 착각했어요.",
-        "translationTarget": "꼭 닮은",
-        "difficulty": 24,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "子供",
+            "reading": "こども"
+          },
+          {
+            "text": "のころの"
+          },
+          {
+            "text": "写真",
+            "reading": "しゃしん"
+          },
+          {
+            "text": "では、"
+          },
+          {
+            "text": "兄",
+            "reading": "あに"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "弟",
+            "reading": "おとうと"
+          },
+          {
+            "text": "が"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "です。"
+          }
+        ]
       }
     ]
   },
@@ -837,19 +1152,35 @@ const content: LearnSense[] = [
         "translation": "이 호텔은 가족을 위한 서비스가 많아요.",
         "translationTarget": "서비스",
         "difficulty": 22,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1055000-1-ex-2",
-        "version": 1,
-        "before": "店員さんが笑顔で",
-        "answer": "サービス",
-        "after": "の内容を説明しました。",
-        "reading": "サービス",
-        "translation": "직원이 웃으며 서비스 내용을 설명했어요.",
-        "translationTarget": "서비스",
-        "difficulty": 22,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "このホテルは"
+          },
+          {
+            "text": "家族",
+            "reading": "かぞく"
+          },
+          {
+            "text": "向け",
+            "reading": "むけ"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "が"
+          },
+          {
+            "text": "多い",
+            "reading": "おおい"
+          },
+          {
+            "text": "です。"
+          }
+        ]
       },
       {
         "id": "sense-lex-jmdict-1055000-1-ex-3",
@@ -861,7 +1192,25 @@ const content: LearnSense[] = [
         "translation": "음료를 한 잔 더 서비스로 주었어요.",
         "translationTarget": "서비스로",
         "difficulty": 22,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "飲み物",
+            "reading": "のみもの"
+          },
+          {
+            "text": "をもう"
+          },
+          {
+            "text": "一杯",
+            "reading": "いっぱい"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "してくれました。"
+          }
+        ]
       }
     ]
   },
@@ -893,31 +1242,46 @@ const content: LearnSense[] = [
         "translation": "배 안에 있는 식당에서 호화로운 저녁 식사를 맛보았다.",
         "translationTarget": "호화로운",
         "difficulty": 25,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1285520-1-ex-2",
-        "version": 1,
-        "before": "金色の飾りが増え、舞台の衣装が前より",
-        "answer": "豪華になった",
-        "after": "。",
-        "reading": "ごうかになった",
-        "translation": "금빛 장식이 늘어 무대 의상이 전보다 화려해졌다.",
-        "translationTarget": "화려해졌다",
-        "difficulty": 27,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1285520-1-ex-3",
-        "version": 1,
-        "before": "ここまで",
-        "answer": "豪華に",
-        "after": "部屋を飾るには、かなり費用がかかっただろう。",
-        "reading": "ごうかに",
-        "translation": "이 정도로 호화롭게 방을 꾸미려면 비용이 꽤 들었을 것이다.",
-        "translationTarget": "호화롭게",
-        "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "船",
+            "reading": "ふね"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "中",
+            "reading": "なか"
+          },
+          {
+            "text": "にある"
+          },
+          {
+            "text": "食堂",
+            "reading": "しょくどう"
+          },
+          {
+            "text": "で、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "夕食",
+            "reading": "ゆうしょく"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "味わっ",
+            "reading": "あじわっ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -949,31 +1313,50 @@ const content: LearnSense[] = [
         "translation": "지역 금융 기관이 작은 가게의 개업을 지원하고 있다.",
         "translationTarget": "금융",
         "difficulty": 29,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1243290-1-ex-2",
-        "version": 1,
-        "before": "大学では法律を学んだが、就職先は",
-        "answer": "金融",
-        "after": "の分野だった。",
-        "reading": "きんゆう",
-        "translation": "대학에서는 법률을 배웠지만 취업한 곳은 금융 분야였다.",
-        "translationTarget": "금융",
-        "difficulty": 28,
-        "status": "reviewed"
-      },
-      {
-        "id": "sense-lex-jmdict-1243290-1-ex-3",
-        "version": 1,
-        "before": "子ども向けの",
-        "answer": "金融",
-        "after": "教育で、お金を借りる仕組みを説明した。",
-        "reading": "きんゆう",
-        "translation": "어린이 대상 금융 교육에서 돈을 빌리는 구조를 설명했다.",
-        "translationTarget": "금융",
-        "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "地域",
+            "reading": "ちいき"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "機関",
+            "reading": "きかん"
+          },
+          {
+            "text": "が、"
+          },
+          {
+            "text": "小さな",
+            "reading": "ちいさな"
+          },
+          {
+            "text": "店",
+            "reading": "みせ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "開業",
+            "reading": "かいぎょう"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "支援",
+            "reading": "しえん"
+          },
+          {
+            "text": "している。"
+          }
+        ]
       }
     ]
   },
@@ -1005,7 +1388,49 @@ const content: LearnSense[] = [
         "translation": "조사한 마을 역사를 보고서로 정리해 선생님께 제출했다.",
         "translationTarget": "보고서",
         "difficulty": 23,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "調べ",
+            "reading": "しらべ"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "町",
+            "reading": "まち"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "歴史",
+            "reading": "れきし"
+          },
+          {
+            "text": "を"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "にまとめて、"
+          },
+          {
+            "text": "先生",
+            "reading": "せんせい"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "提出",
+            "reading": "ていしゅつ"
+          },
+          {
+            "text": "した。"
+          }
+        ]
       }
     ]
   },
@@ -1037,7 +1462,53 @@ const content: LearnSense[] = [
         "translation": "아침에 밭에 흰 서리가 내려 잎이 차가워져 있었다.",
         "translationTarget": "서리",
         "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "朝",
+            "reading": "あさ"
+          },
+          {
+            "text": "、"
+          },
+          {
+            "text": "畑",
+            "reading": "はたけ"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "白い",
+            "reading": "しろい"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "が"
+          },
+          {
+            "text": "降り",
+            "reading": "おり"
+          },
+          {
+            "text": "ていて、"
+          },
+          {
+            "text": "葉",
+            "reading": "は"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "冷たく",
+            "reading": "つめたく"
+          },
+          {
+            "text": "なっていた。"
+          }
+        ]
       }
     ]
   },
@@ -1069,7 +1540,46 @@ const content: LearnSense[] = [
         "translation": "부드러운 스펀지를 쓰면 이 접시에 흠집이 잘 나지 않는다.",
         "translationTarget": "스펀지",
         "difficulty": 24,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "柔らかい",
+            "reading": "やわらかい"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "を"
+          },
+          {
+            "text": "使え",
+            "reading": "つかえ"
+          },
+          {
+            "text": "ば、この"
+          },
+          {
+            "text": "皿",
+            "reading": "さら"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "傷",
+            "reading": "きず"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "付き",
+            "reading": "つき"
+          },
+          {
+            "text": "にくい。"
+          }
+        ]
       }
     ]
   },
@@ -1101,7 +1611,54 @@ const content: LearnSense[] = [
         "translation": "긴 연습을 마치고 마시는 차가운 물의 맛은 각별하다.",
         "translationTarget": "각별하다",
         "difficulty": 36,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "長い",
+            "reading": "ながい"
+          },
+          {
+            "text": "練習",
+            "reading": "れんしゅう"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "終え",
+            "reading": "おえ"
+          },
+          {
+            "text": "て"
+          },
+          {
+            "text": "飲む",
+            "reading": "のむ"
+          },
+          {
+            "text": "冷たい",
+            "reading": "つめたい"
+          },
+          {
+            "text": "水",
+            "reading": "みず"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "味",
+            "reading": "あじ"
+          },
+          {
+            "text": "は"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "だ。"
+          }
+        ]
       }
     ]
   },
@@ -1133,7 +1690,39 @@ const content: LearnSense[] = [
         "translation": "질문을 무시하지 말고 아는 범위에서 답해 주세요.",
         "translationTarget": "무시",
         "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "質問",
+            "reading": "しつもん"
+          },
+          {
+            "text": "を"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "せず、"
+          },
+          {
+            "text": "分かる",
+            "reading": "わかる"
+          },
+          {
+            "text": "範囲",
+            "reading": "はんい"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "答え",
+            "reading": "こたえ"
+          },
+          {
+            "text": "てください。"
+          }
+        ]
       }
     ]
   },
@@ -1165,7 +1754,54 @@ const content: LearnSense[] = [
         "translation": "발표 전에 소리 내어 읽는 연습을 여러 번 했다.",
         "translationTarget": "연습",
         "difficulty": 28,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "発表",
+            "reading": "はっぴょう"
+          },
+          {
+            "text": "前",
+            "reading": "まえ"
+          },
+          {
+            "text": "に、"
+          },
+          {
+            "text": "声",
+            "reading": "こえ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "出し",
+            "reading": "だし"
+          },
+          {
+            "text": "て"
+          },
+          {
+            "text": "読む",
+            "reading": "よむ"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "を"
+          },
+          {
+            "text": "何",
+            "reading": "なん"
+          },
+          {
+            "text": "度",
+            "reading": "ど"
+          },
+          {
+            "text": "もした。"
+          }
+        ]
       }
     ]
   },
@@ -1197,7 +1833,49 @@ const content: LearnSense[] = [
         "translation": "긴장하면 말이 빨라져서 발표할 때는 문장마다 간격을 두었다.",
         "translationTarget": "말이 빨라져서",
         "difficulty": 38,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "緊張",
+            "reading": "きんちょう"
+          },
+          {
+            "text": "すると"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "になるので、"
+          },
+          {
+            "text": "発表",
+            "reading": "はっぴょう"
+          },
+          {
+            "text": "では"
+          },
+          {
+            "text": "一文",
+            "reading": "いちぶん"
+          },
+          {
+            "text": "ずつ"
+          },
+          {
+            "text": "間",
+            "reading": "ま"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "取っ",
+            "reading": "とっ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -1229,7 +1907,53 @@ const content: LearnSense[] = [
         "translation": "해외 회사와의 거래에서는 통화와 지급 기한을 명확히 한다.",
         "translationTarget": "거래",
         "difficulty": 36,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "海外",
+            "reading": "かいがい"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "会社",
+            "reading": "かいしゃ"
+          },
+          {
+            "text": "との"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "では、"
+          },
+          {
+            "text": "通貨",
+            "reading": "つうか"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "支払",
+            "reading": "しはらい"
+          },
+          {
+            "text": "期限",
+            "reading": "きげん"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "明確",
+            "reading": "めいかく"
+          },
+          {
+            "text": "にする。"
+          }
+        ]
       }
     ]
   },
@@ -1261,7 +1985,39 @@ const content: LearnSense[] = [
         "translation": "폭설로 마을의 대중 교통수단이 거의 모두 멈춰 버렸다.",
         "translationTarget": "교통수단",
         "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "大雪",
+            "reading": "おおゆき"
+          },
+          {
+            "text": "で、"
+          },
+          {
+            "text": "町",
+            "reading": "まち"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "公共",
+            "reading": "こうきょう"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "がほとんど"
+          },
+          {
+            "text": "止まっ",
+            "reading": "とまっ"
+          },
+          {
+            "text": "てしまった。"
+          }
+        ]
       }
     ]
   },
@@ -1293,7 +2049,42 @@ const content: LearnSense[] = [
         "translation": "다음 달부터 상급 반으로 옮기므로 복습을 늘렸습니다.",
         "translationTarget": "상급",
         "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "来月",
+            "reading": "らいげつ"
+          },
+          {
+            "text": "から"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "クラスに"
+          },
+          {
+            "text": "移る",
+            "reading": "うつる"
+          },
+          {
+            "text": "ので、"
+          },
+          {
+            "text": "復習",
+            "reading": "ふくしゅう"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "増やし",
+            "reading": "ふやし"
+          },
+          {
+            "text": "ました。"
+          }
+        ]
       }
     ]
   },
@@ -1325,7 +2116,39 @@ const content: LearnSense[] = [
         "translation": "흰 비둘기는 평화의 상징으로 자주 그려진다.",
         "translationTarget": "상징",
         "difficulty": 43,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "白い",
+            "reading": "しろい"
+          },
+          {
+            "text": "鳩",
+            "reading": "はと"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "平和",
+            "reading": "へいわ"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "としてよく"
+          },
+          {
+            "text": "描か",
+            "reading": "えがか"
+          },
+          {
+            "text": "れる。"
+          }
+        ]
       }
     ]
   },
@@ -1357,7 +2180,46 @@ const content: LearnSense[] = [
         "translation": "여러 번 연습하는 동안 도구 사용의 요령을 파악했다.",
         "translationTarget": "요령",
         "difficulty": 35,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "何",
+            "reading": "なん"
+          },
+          {
+            "text": "度",
+            "reading": "ど"
+          },
+          {
+            "text": "か"
+          },
+          {
+            "text": "練習",
+            "reading": "れんしゅう"
+          },
+          {
+            "text": "するうちに、"
+          },
+          {
+            "text": "道具",
+            "reading": "どうぐ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "使い方",
+            "reading": "つかいかた"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "がつかめた。"
+          }
+        ]
       }
     ]
   },
@@ -1389,7 +2251,56 @@ const content: LearnSense[] = [
         "translation": "폭염으로 냉방 사용이 늘어 전력 수요가 높아졌다.",
         "translationTarget": "전력",
         "difficulty": 35,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "猛暑",
+            "reading": "もうしょ"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "冷房",
+            "reading": "れいぼう"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "使用",
+            "reading": "しよう"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "増え",
+            "reading": "ふえ"
+          },
+          {
+            "text": "、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "の"
+          },
+          {
+            "text": "需要",
+            "reading": "じゅよう"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "高まっ",
+            "reading": "たかまっ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -1421,7 +2332,49 @@ const content: LearnSense[] = [
         "translation": "판매 부진이 계속되어 광고 방법을 재검토하게 되었다.",
         "translationTarget": "부진",
         "difficulty": 43,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "販売",
+            "reading": "はんばい"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "が"
+          },
+          {
+            "text": "続き",
+            "reading": "つづき"
+          },
+          {
+            "text": "、"
+          },
+          {
+            "text": "広告",
+            "reading": "こうこく"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "方法",
+            "reading": "ほうほう"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "見直す",
+            "reading": "みなおす"
+          },
+          {
+            "text": "ことになった。"
+          }
+        ]
       }
     ]
   },
@@ -1453,7 +2406,49 @@ const content: LearnSense[] = [
         "translation": "떨어뜨린 꽃병이 부서져서 바닥에 파편이 흩어졌다.",
         "translationTarget": "부서져서",
         "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "落とし",
+            "reading": "おとし"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "花瓶",
+            "reading": "かびん"
+          },
+          {
+            "text": "が"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "、"
+          },
+          {
+            "text": "床",
+            "reading": "ゆか"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "破片",
+            "reading": "はへん"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "散らばっ",
+            "reading": "ちらばっ"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -1485,7 +2480,42 @@ const content: LearnSense[] = [
         "translation": "학교 부지는 북쪽에서 공원과 맞닿아 있다.",
         "translationTarget": "맞닿아 있다",
         "difficulty": 32,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "学校",
+            "reading": "がっこう"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "敷地",
+            "reading": "しきち"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "北側",
+            "reading": "きたがわ"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "公園",
+            "reading": "こうえん"
+          },
+          {
+            "text": "に"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
+          }
+        ]
       }
     ]
   },
@@ -1517,7 +2547,42 @@ const content: LearnSense[] = [
         "translation": "회사는 인재 육성을 위한 투자를 늘렸다.",
         "translationTarget": "투자",
         "difficulty": 35,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "会社",
+            "reading": "かいしゃ"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "人材",
+            "reading": "じんざい"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "育てる",
+            "reading": "そだてる"
+          },
+          {
+            "text": "ための"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "を"
+          },
+          {
+            "text": "増やし",
+            "reading": "ふやし"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -1549,7 +2614,50 @@ const content: LearnSense[] = [
         "translation": "정원의 꽃을 한 송이 잘라 작은 병에 꽂았다.",
         "translationTarget": "꽂았다",
         "difficulty": 29,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "庭",
+            "reading": "にわ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "花",
+            "reading": "はな"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "一本",
+            "reading": "いっぽん"
+          },
+          {
+            "text": "切っ",
+            "reading": "きっ"
+          },
+          {
+            "text": "て、"
+          },
+          {
+            "text": "小さな",
+            "reading": "ちいさな"
+          },
+          {
+            "text": "瓶",
+            "reading": "びん"
+          },
+          {
+            "text": "に"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
+          }
+        ]
       }
     ]
   },
@@ -1581,7 +2689,53 @@ const content: LearnSense[] = [
         "translation": "배는 그 나라 영해에 들어가기 전에 항로를 확인했다.",
         "translationTarget": "영해",
         "difficulty": 43,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "船",
+            "reading": "ふね"
+          },
+          {
+            "text": "は、その"
+          },
+          {
+            "text": "国",
+            "reading": "くに"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "に"
+          },
+          {
+            "text": "入る",
+            "reading": "はいる"
+          },
+          {
+            "text": "前",
+            "reading": "まえ"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "航路",
+            "reading": "こうろ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "確認",
+            "reading": "かくにん"
+          },
+          {
+            "text": "した。"
+          }
+        ]
       }
     ]
   },
@@ -1613,7 +2767,39 @@ const content: LearnSense[] = [
         "translation": "질문받은 그녀는 즉시 답을 제시했다.",
         "translationTarget": "즉시",
         "difficulty": 43,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "質問",
+            "reading": "しつもん"
+          },
+          {
+            "text": "された"
+          },
+          {
+            "text": "彼女",
+            "reading": "かのじょ"
+          },
+          {
+            "text": "は、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "答え",
+            "reading": "こたえ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "示し",
+            "reading": "しめし"
+          },
+          {
+            "text": "た。"
+          }
+        ]
       }
     ]
   },
@@ -1645,7 +2831,45 @@ const content: LearnSense[] = [
         "translation": "이 작품은 오랜 연구와 궁리의 결실이다.",
         "translationTarget": "결실",
         "difficulty": 43,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "この"
+          },
+          {
+            "text": "作品",
+            "reading": "さくひん"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "長年",
+            "reading": "ながねん"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "研究",
+            "reading": "けんきゅう"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "工夫",
+            "reading": "くふう"
+          },
+          {
+            "text": "の"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "だ。"
+          }
+        ]
       }
     ]
   },
@@ -1677,7 +2901,46 @@ const content: LearnSense[] = [
         "translation": "역 근처에 일본풍 정원을 즐길 수 있는 카페가 있다.",
         "translationTarget": "일본풍",
         "difficulty": 35,
-        "status": "reviewed"
+        "status": "reviewed",
+        "beforeFurigana": [
+          {
+            "text": "駅",
+            "reading": "えき"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "近く",
+            "reading": "ちかく"
+          },
+          {
+            "text": "に、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "の"
+          },
+          {
+            "text": "庭",
+            "reading": "にわ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "楽しめる",
+            "reading": "たのしめる"
+          },
+          {
+            "text": "喫茶店",
+            "reading": "きっさてん"
+          },
+          {
+            "text": "がある。"
+          }
+        ]
       }
     ]
   }

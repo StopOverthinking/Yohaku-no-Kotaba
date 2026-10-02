@@ -15,6 +15,8 @@ import { getSetName, getStudySelectableWordbooks, isComparisonWordbook, normaliz
 import { LearningProgress } from './LearningProgress'
 import { useContextStore } from './contextStore'
 import { contextAliasCatalog, contextContentReady, contextSenseMap } from './contextContent'
+import { scopedReviews } from './contextPresentation'
+import { localDay } from './contextEngine'
 
 const MIN_WORD_COUNT = 1
 const COUNT_STEPS = [-10, -5, 5, 10] as const
@@ -133,8 +135,9 @@ export function LearnSetupPage() {
     () => new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id))).size,
     [availableWords, requiredWords],
   )
-  const scopeIds = new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id)))
-  const nextDue = Object.values(context.data.profiles).filter((profile) => contextSenseMap.get(profile.senseId)?.version === profile.version && scopeIds.has(contextAliasCatalog.resolveWordId(contextSenseMap.get(profile.senseId)!.wordId))).map((profile) => profile.due).sort()[0]
+  const scopeIds = useMemo(() => new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id))), [availableWords, requiredWords])
+  const today = localDay()
+  const { dueCount, nextDue } = useMemo(() => scopedReviews(context.data.profiles, contextSenseMap, scopeIds, contextAliasCatalog.resolveWordId, today), [context.data.profiles, scopeIds, today])
   const requiredWordCount = new Set(requiredWords.map(word => contextAliasCatalog.resolveWordId(word.id))).size
   const minimumWordCount = Math.max(MIN_WORD_COUNT, requiredWordCount)
 
@@ -425,6 +428,7 @@ export function LearnSetupPage() {
 
           <div className="form-field">
             <label className="form-label" htmlFor="count-input">학습 항목 수</label>
+            {dueCount > 0 && <p className="page-header__caption" role="status">오늘 복습해야 하는 {dueCount}개의 단어가 있어요</p>}
             <div className={styles.countControl}>
               <div className={styles.countStepColumn}>
                 {COUNT_STEPS.filter((step) => step < 0).map((step) => (

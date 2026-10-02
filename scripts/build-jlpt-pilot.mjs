@@ -3,6 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
+import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
 import { parseManuscript, applyReview, hashContent, lexicalKey, appendReviewedMembership, appendReviewedSources, validateLegacyMembership, validateExampleRevision } from './lib/jlpt-pilot.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -42,8 +43,11 @@ if (process.argv.includes('--publish')) {
     optionalRead(`${base}/legacy/active-aliases.json`, []),
   ])
   if (membershipReceipt.schemaVersion !== 1) throw new Error('Unknown membership receipt version')
-  const aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, words, senses)
-  const references = validateLegacyMembership(referenceReviews, words, senses, baseline.words, aliasGroups)
+  const pruningJournals = await readExamplePruning(root)
+  const pruning = verifyExamplePruning(words, senses, pruningJournals)
+  const historicalSenseMap = new Map(pruning.historicalSenses.map(sense => [sense.id, sense]))
+  const aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, words, pruning.historicalSenses)
+  const references = validateLegacyMembership(referenceReviews, words, pruning.historicalSenses, baseline.words, aliasGroups)
   const originalHashes = Object.fromEntries(['vocabularyWords', 'vocabularySets', 'learnContent'].map((name, i) => [name, hashContent([words, sets, senses][i])]))
   const wordById = new Map(words.map((word) => [word.id, word]))
   const senseIndexById = new Map(senses.map((sense, index) => [sense.id, index]))
@@ -54,6 +58,13 @@ if (process.argv.includes('--publish')) {
     const oldSenseIndex = senseIndexById.get(entry.sense.id)
     const oldSense = oldSenseIndex === undefined ? undefined : senses[oldSenseIndex]
     if (oldWord || oldSense) {
+      // Re-importing the original manuscript must not resurrect retired examples.
+      const historical = historicalSenseMap.get(entry.sense.id)
+      if (oldSense && hashContent(oldSense) !== hashContent(historical)) {
+        if (hashContent(oldWord) !== hashContent(entry.word) || hashContent(historical) !== hashContent(entry.sense))
+          throw new Error(`${entry.word.id}: pruned content requires a new explicit content revision`)
+        continue
+      }
       if (hashContent(oldWord) !== hashContent(entry.word) || hashContent(oldSense) !== hashContent(entry.sense)) {
         if (!revisionIds.has(entry.word.id) || !oldWord || !oldSense)
           throw new Error(`${entry.word.id}: editor has diverged; refusing to overwrite`)
@@ -87,6 +98,8 @@ if (process.argv.includes('--publish')) {
     membershipReceipt.byLevel[level] = { wordIds: [...sets.find((set) => set.id === id).wordIds], referenceIds }
   }
   // Recheck disk immediately before writing, so an editor save is never silently replaced.
+  if (hashContent(await readExamplePruning(root)) !== hashContent(pruningJournals))
+    throw new Error('Example pruning changed during import')
   for (const name of Object.keys(originalHashes))
     if (hashContent(await read(`${editor}/${name}.json`)) !== originalHashes[name]) throw new Error('Editor changed during import')
   if (hashContent(await optionalRead(`${base}/legacy/membership-reviews.json`, [])) !== hashContent(referenceReviews))

@@ -29,7 +29,7 @@ describe('denser review schedule', () => {
 
   it('migrates every old stage without moving its date or changing its penalized interval', () => {
     const senses = oldIntervals.map((_, i) => testSense(String(i)))
-    const state = emptyContextState(senses)
+    const state = emptyContextState()
     for (const [step, sense] of senses.entries()) {
       const profile = reviewProfile(undefined, sense, sense.examples[0], true, false, day)
       Object.assign(profile, { step, failedDays: 2, failures: 3, failedDay: day, levelDay: day })
@@ -56,7 +56,7 @@ describe('denser review schedule', () => {
 
   it('migrates compressed undo profiles so going back preserves the original interval', () => {
     const senses = [testSense('a'), testSense('b')]
-    let state = emptyContextState(senses)
+    let state = emptyContextState()
     const profile = reviewProfile(undefined, senses[0], senses[0].examples[0], true, false, '2026-09-01')
     Object.assign(profile, { step: 4, levelDay: '2026-09-01', due: day })
     state.profiles[profileKey(senses[0])] = profile

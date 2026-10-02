@@ -8,6 +8,8 @@ import type {
 } from './contextTypes'
 
 export const RECOMMENDATION_POLICY = {
+  // Beginner prior between the reviewed N5 (14) and N4 (18) difficulty medians.
+  initialLevel: 16,
   calibrationWords: 20,
   calibrationGain: 8,
   ongoingGain: 2,
@@ -40,22 +42,12 @@ export function addDays(day: string, days: number) {
 export const profileKey = (sense: LearnSenseIndex) => `${sense.id}@${sense.version}`
 export const expectedKnown = (level: number, difficulty: number) =>
   1 / (1 + Math.exp((difficulty - level) / RECOMMENDATION_POLICY.probabilityScale))
-export function emptyContextState(senses: LearnSenseIndex[]): ContextState {
-  const difficulties = senses
-    .flatMap((s) => s.examples.filter((e) => e.status === 'reviewed').map((e) => e.difficulty))
-    .sort((a, b) => a - b)
-  const middle = Math.floor(difficulties.length / 2)
-  const median =
-    difficulties.length === 0
-      ? 30
-      : difficulties.length % 2
-        ? difficulties[middle]
-        : (difficulties[middle - 1] + difficulties[middle]) / 2
+export function emptyContextState(): ContextState {
   return {
     version: 2,
     scheduleVersion: SCHEDULE_VERSION,
     revision: 0,
-    level: { value: median, assessedWordIds: [] },
+    level: { value: RECOMMENDATION_POLICY.initialLevel, assessedWordIds: [] },
     profiles: {},
     session: null,
     history: [],
@@ -157,7 +149,7 @@ export function startContext(
   const allIds = [...new Set([...candidateWordIds, ...requiredWordIds])]
   const initialState =
     !state.level.assessedWordIds.length && !Object.keys(state.profiles).length
-      ? { ...state, level: emptyContextState(senses.filter((sense) => allIds.includes(sense.wordId))).level }
+      ? { ...state, level: emptyContextState().level }
       : state
   const eligibleIds = new Set(
     senses
@@ -266,7 +258,7 @@ export function answerContext(
     (s) => s.id === previousSession.current.senseId && s.version === previousSession.current.senseVersion,
   )
   const example = sense?.examples.find(
-    (e) => e.id === previousSession.current.exampleId && e.version === previousSession.current.exampleVersion,
+    (e) => e.id === previousSession.current.exampleId && e.version === previousSession.current.exampleVersion && e.status === 'reviewed',
   )
   if (!sense || !example) throw new Error('예문이 변경되었습니다. 학습을 다시 시작해 주세요.')
   const key = profileKey(sense)

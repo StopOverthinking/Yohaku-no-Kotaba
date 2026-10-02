@@ -1,0 +1,2164 @@
+[
+  {
+    "exampleId": "sense-AbsoluteVerb_308-1-ex-1",
+    "side": "before",
+    "text": "試着した青いシャツが",
+    "parts": [
+      {
+        "text": "試着",
+        "reading": "しちゃく"
+      },
+      {
+        "text": "した"
+      },
+      {
+        "text": "青い",
+        "reading": "あおい"
+      },
+      {
+        "text": "シャツが"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_451-1-ex-1",
+    "side": "after",
+    "text": "から出るのに十分かかった。",
+    "parts": [
+      {
+        "text": "から"
+      },
+      {
+        "text": "出る",
+        "reading": "でる"
+      },
+      {
+        "text": "のに"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "かかった。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1206730-1-ex-1",
+    "side": "after",
+    "text": "まで歩いて十分です。",
+    "parts": [
+      {
+        "text": "まで"
+      },
+      {
+        "text": "歩い",
+        "reading": "あるい"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "です。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1279310-1-ex-1",
+    "side": "after",
+    "text": "十分歩くと、目的の神社に着く。",
+    "parts": [
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "歩く",
+        "reading": "あるく"
+      },
+      {
+        "text": "と、"
+      },
+      {
+        "text": "目的",
+        "reading": "もくてき"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "神社",
+        "reading": "じんじゃ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "着く",
+        "reading": "つく"
+      },
+      {
+        "text": "。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1017340-1-ex-1",
+    "side": "after",
+    "text": "によると、電車は十分ほど遅れるそうだ。",
+    "parts": [
+      {
+        "text": "によると、"
+      },
+      {
+        "text": "電車",
+        "reading": "でんしゃ"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "ほど"
+      },
+      {
+        "text": "遅れる",
+        "reading": "おくれる"
+      },
+      {
+        "text": "そうだ。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1426370-1-ex-1",
+    "side": "before",
+    "text": "十分ほど",
+    "parts": [
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "ほど"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_229-1-ex-1",
+    "side": "before",
+    "text": "朝の市場は",
+    "parts": [
+      {
+        "text": "朝",
+        "reading": "あさ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "は"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1445590-1-ex-1",
+    "side": "after",
+    "text": "の朝は家族で市場へ行きます。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "朝",
+        "reading": "あさ"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "家族",
+        "reading": "かぞく"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "へ"
+      },
+      {
+        "text": "行き",
+        "reading": "いき"
+      },
+      {
+        "text": "ます。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1518180-1-ex-1",
+    "side": "before",
+    "text": "この市場の魚は種類が",
+    "parts": [
+      {
+        "text": "この"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "魚",
+        "reading": "さかな"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "種類",
+        "reading": "しゅるい"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1115900-1-ex-1",
+    "side": "before",
+    "text": "美術館と市場を回る",
+    "parts": [
+      {
+        "text": "美術館",
+        "reading": "びじゅつかん"
+      },
+      {
+        "text": "と"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "回る",
+        "reading": "まわる"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1166510-1-ex-3",
+    "side": "after",
+    "text": "、昔からの市場もにぎわいを保っている。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "昔",
+        "reading": "むかし"
+      },
+      {
+        "text": "からの"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "もにぎわいを"
+      },
+      {
+        "text": "保っ",
+        "reading": "たもっ"
+      },
+      {
+        "text": "ている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1060000-1-ex-1",
+    "side": "after",
+    "text": "が、今日使う野菜を市場で選んでいた。",
+    "parts": [
+      {
+        "text": "が、"
+      },
+      {
+        "text": "今日",
+        "reading": "きょう"
+      },
+      {
+        "text": "使う",
+        "reading": "つかう"
+      },
+      {
+        "text": "野菜",
+        "reading": "やさい"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "選ん",
+        "reading": "えらん"
+      },
+      {
+        "text": "でいた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1303870-1-ex-1",
+    "side": "before",
+    "text": "市場には、山や海の",
+    "parts": [
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "には、"
+      },
+      {
+        "text": "山",
+        "reading": "やま"
+      },
+      {
+        "text": "や"
+      },
+      {
+        "text": "海",
+        "reading": "うみ"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1305310-1-ex-1",
+    "side": "before",
+    "text": "店主は毎朝、市場で新鮮な魚を",
+    "parts": [
+      {
+        "text": "店主",
+        "reading": "てんしゅ"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "毎朝",
+        "reading": "まいあさ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "市場",
+        "reading": "いちば"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "新鮮",
+        "reading": "しんせん"
+      },
+      {
+        "text": "な"
+      },
+      {
+        "text": "魚",
+        "reading": "さかな"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1331780-1-ex-1",
+    "side": "before",
+    "text": "新しい館長は、来月一日付で",
+    "parts": [
+      {
+        "text": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "text": "館長",
+        "reading": "かんちょう"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "来月",
+        "reading": "らいげつ"
+      },
+      {
+        "text": "一日",
+        "reading": "ついたち"
+      },
+      {
+        "text": "付",
+        "reading": "づけ"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1378790-1-ex-1",
+    "side": "before",
+    "text": "大人を小ばかにするような",
+    "parts": [
+      {
+        "text": "大人",
+        "reading": "おとな"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "小",
+        "reading": "こ"
+      },
+      {
+        "text": "ばかにするような"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-handmade_134-1-ex-1",
+    "side": "before",
+    "text": "迷っている間に、安い切符を買う機会を",
+    "parts": [
+      {
+        "text": "迷っ",
+        "reading": "まよっ"
+      },
+      {
+        "text": "ている"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "安い",
+        "reading": "やすい"
+      },
+      {
+        "text": "切符",
+        "reading": "きっぷ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "買う",
+        "reading": "かう"
+      },
+      {
+        "text": "機会",
+        "reading": "きかい"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_121-1-ex-1",
+    "side": "before",
+    "text": "助けてくれなかった兄を、長い間",
+    "parts": [
+      {
+        "text": "助け",
+        "reading": "たすけ"
+      },
+      {
+        "text": "てくれなかった"
+      },
+      {
+        "text": "兄",
+        "reading": "あに"
+      },
+      {
+        "text": "を、"
+      },
+      {
+        "text": "長い",
+        "reading": "ながい"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_142-1-ex-1",
+    "side": "before",
+    "text": "友人は長い間、腰の痛みに",
+    "parts": [
+      {
+        "text": "友人",
+        "reading": "ゆうじん"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "長い",
+        "reading": "ながい"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "腰",
+        "reading": "こし"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "痛み",
+        "reading": "いたみ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_46-1-ex-1",
+    "side": "before",
+    "text": "電話に出ている間に、トーストが",
+    "parts": [
+      {
+        "text": "電話",
+        "reading": "でんわ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "出",
+        "reading": "で"
+      },
+      {
+        "text": "ている"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、トーストが"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_487-1-ex-1",
+    "side": "after",
+    "text": "の間、隣の人が花に水をやってくれた。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "隣",
+        "reading": "となり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "人",
+        "reading": "ひと"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "花",
+        "reading": "はな"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "をやってくれた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_2-1-ex-1",
+    "side": "after",
+    "text": "間、私は静かに本を読んだ。",
+    "parts": [
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "私",
+        "reading": "わたし"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "静か",
+        "reading": "しずか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "本",
+        "reading": "ほん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "読ん",
+        "reading": "よん"
+      },
+      {
+        "text": "だ。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_425-1-ex-1",
+    "side": "before",
+    "text": "買い物の間、犬を姉に",
+    "parts": [
+      {
+        "text": "買い物",
+        "reading": "かいもの"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "犬",
+        "reading": "いぬ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "姉",
+        "reading": "あね"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_35-1-ex-1",
+    "side": "before",
+    "text": "留守の間に、ベランダの花が",
+    "parts": [
+      {
+        "text": "留守",
+        "reading": "るす"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、ベランダの"
+      },
+      {
+        "text": "花",
+        "reading": "はな"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_77-1-ex-1",
+    "side": "before",
+    "text": "撮影している間に、アイスが",
+    "parts": [
+      {
+        "text": "撮影",
+        "reading": "さつえい"
+      },
+      {
+        "text": "している"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、アイスが"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_250-1-ex-1",
+    "side": "before",
+    "text": "雲の間から月が",
+    "parts": [
+      {
+        "text": "雲",
+        "reading": "くも"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "月",
+        "reading": "つき"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_497-1-ex-1",
+    "side": "before",
+    "text": "夏休みの間に、弟の背が",
+    "parts": [
+      {
+        "text": "夏休み",
+        "reading": "なつやすみ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "弟",
+        "reading": "おとうと"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "背",
+        "reading": "せ"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_679-1-ex-1",
+    "side": "after",
+    "text": "間に、夕飯を作った。",
+    "parts": [
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "夕飯",
+        "reading": "ゆうはん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "作っ",
+        "reading": "つくっ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1080510-1-ex-1",
+    "side": "before",
+    "text": "食事の間は",
+    "parts": [
+      {
+        "text": "食事",
+        "reading": "しょくじ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "は"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1002610-1-ex-1",
+    "side": "before",
+    "text": "診察の間、",
+    "parts": [
+      {
+        "text": "診察",
+        "reading": "しんさつ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1324990-1-ex-1",
+    "side": "after",
+    "text": "冬の間使わない農具を保管している。",
+    "parts": [
+      {
+        "text": "冬",
+        "reading": "ふゆ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "使わ",
+        "reading": "つかわ"
+      },
+      {
+        "text": "ない"
+      },
+      {
+        "text": "農具",
+        "reading": "のうぐ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "保管",
+        "reading": "ほかん"
+      },
+      {
+        "text": "している。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1355970-1-ex-1",
+    "side": "before",
+    "text": "電源が入っている間、このランプは",
+    "parts": [
+      {
+        "text": "電源",
+        "reading": "でんげん"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "入っ",
+        "reading": "はいっ"
+      },
+      {
+        "text": "ている"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、このランプは"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1359730-1-ex-1",
+    "side": "before",
+    "text": "困った時に助け合ううちに、二人の間に",
+    "parts": [
+      {
+        "text": "困っ",
+        "reading": "こまっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "時",
+        "reading": "とき"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "助け合う",
+        "reading": "たすけあう"
+      },
+      {
+        "text": "うちに、"
+      },
+      {
+        "text": "二人",
+        "reading": "ふたり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1243940-1-ex-2",
+    "side": "after",
+    "text": "の間に線を引いて、意味の切れ目を示した。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "線",
+        "reading": "せん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "引い",
+        "reading": "ひい"
+      },
+      {
+        "text": "て、"
+      },
+      {
+        "text": "意味",
+        "reading": "いみ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "切れ目",
+        "reading": "きれめ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "示し",
+        "reading": "しめし"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1086410-1-ex-1",
+    "side": "before",
+    "text": "停電の間、ろうそくの明かりで",
+    "parts": [
+      {
+        "text": "停電",
+        "reading": "ていでん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、ろうそくの"
+      },
+      {
+        "text": "明かり",
+        "reading": "あかり"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1283700-1-ex-2",
+    "side": "after",
+    "text": "で回転している間は、ふたを開けてはいけない。",
+    "parts": [
+      {
+        "text": "で"
+      },
+      {
+        "text": "回転",
+        "reading": "かいてん"
+      },
+      {
+        "text": "している"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "は、ふたを"
+      },
+      {
+        "text": "開け",
+        "reading": "あけ"
+      },
+      {
+        "text": "てはいけない。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1365460-1-ex-1",
+    "side": "after",
+    "text": "を待つ間に、最近の体調を紙に書いておいた。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "待つ",
+        "reading": "まつ"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "最近",
+        "reading": "さいきん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "体調",
+        "reading": "たいちょう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "紙",
+        "reading": "かみ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "書い",
+        "reading": "かい"
+      },
+      {
+        "text": "ておいた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1374300-1-ex-1",
+    "side": "before",
+    "text": "留守の間、隣の人に猫の",
+    "parts": [
+      {
+        "text": "留守",
+        "reading": "るす"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "隣",
+        "reading": "となり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "人",
+        "reading": "ひと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "猫",
+        "reading": "ねこ"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1386350-1-ex-1",
+    "side": "after",
+    "text": "のため、歯を磨く間は蛇口を閉めている。",
+    "parts": [
+      {
+        "text": "のため、"
+      },
+      {
+        "text": "歯",
+        "reading": "は"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "磨く",
+        "reading": "みがく"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "蛇口",
+        "reading": "じゃぐち"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "閉め",
+        "reading": "しめ"
+      },
+      {
+        "text": "ている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1047870-1-ex-1",
+    "side": "after",
+    "text": "を掃除する間、窓を閉めておいた。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "掃除",
+        "reading": "そうじ"
+      },
+      {
+        "text": "する"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "窓",
+        "reading": "まど"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "閉め",
+        "reading": "しめ"
+      },
+      {
+        "text": "ておいた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1212780-1-ex-1",
+    "side": "before",
+    "text": "塗料を使う間は、十分な",
+    "parts": [
+      {
+        "text": "塗料",
+        "reading": "とりょう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "使う",
+        "reading": "つかう"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅうぶん"
+      },
+      {
+        "text": "な"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1196460-1-ex-1",
+    "side": "after",
+    "text": "な日程を見直し、移動の間にも休める時間を確保した。",
+    "parts": [
+      {
+        "text": "な"
+      },
+      {
+        "text": "日程",
+        "reading": "にってい"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "見直し",
+        "reading": "みなおし"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "移動",
+        "reading": "いどう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "にも"
+      },
+      {
+        "text": "休める",
+        "reading": "やすめる"
+      },
+      {
+        "text": "時間",
+        "reading": "じかん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "確保",
+        "reading": "かくほ"
+      },
+      {
+        "text": "した。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1202950-1-ex-1",
+    "side": "before",
+    "text": "夏休みの間、学校の体育館を住民に",
+    "parts": [
+      {
+        "text": "夏休み",
+        "reading": "なつやすみ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "学校",
+        "reading": "がっこう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "体育館",
+        "reading": "たいいくかん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "住民",
+        "reading": "じゅうみん"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1271510-1-ex-1",
+    "side": "before",
+    "text": "重要な資料を運ぶ間、車には",
+    "parts": [
+      {
+        "text": "重要",
+        "reading": "じゅうよう"
+      },
+      {
+        "text": "な"
+      },
+      {
+        "text": "資料",
+        "reading": "しりょう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "運ぶ",
+        "reading": "はこぶ"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "車",
+        "reading": "くるま"
+      },
+      {
+        "text": "には"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1281250-1-ex-1",
+    "side": "after",
+    "text": "の間、乗組員は限られた物資を分け合って暮らした。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "乗組",
+        "reading": "のりくみ"
+      },
+      {
+        "text": "員",
+        "reading": "いん"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "限ら",
+        "reading": "かぎら"
+      },
+      {
+        "text": "れた"
+      },
+      {
+        "text": "物資",
+        "reading": "ぶっし"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "分け合っ",
+        "reading": "わけあっ"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "暮らし",
+        "reading": "くらし"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1415520-1-ex-1",
+    "side": "before",
+    "text": "森の道を抜けると、岩の間から流れ落ちる",
+    "parts": [
+      {
+        "text": "森",
+        "reading": "もり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "道",
+        "reading": "みち"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "抜ける",
+        "reading": "ぬける"
+      },
+      {
+        "text": "と、"
+      },
+      {
+        "text": "岩",
+        "reading": "いわ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "流れ落ちる",
+        "reading": "ながれおちる"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1418640-1-ex-1",
+    "side": "before",
+    "text": "春休みの間だけ働ける",
+    "parts": [
+      {
+        "text": "春休み",
+        "reading": "はるやすみ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "だけ"
+      },
+      {
+        "text": "働ける",
+        "reading": "はたらける"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1085920-1-ex-1",
+    "side": "before",
+    "text": "代金の支払いをめぐって、店と客の間に",
+    "parts": [
+      {
+        "text": "代金",
+        "reading": "だいきん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "支払い",
+        "reading": "しはらい"
+      },
+      {
+        "text": "をめぐって、"
+      },
+      {
+        "text": "店",
+        "reading": "みせ"
+      },
+      {
+        "text": "と"
+      },
+      {
+        "text": "客",
+        "reading": "きゃく"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1129210-1-ex-1",
+    "side": "before",
+    "text": "駅まで歩く間に、",
+    "parts": [
+      {
+        "text": "駅",
+        "reading": "えき"
+      },
+      {
+        "text": "まで"
+      },
+      {
+        "text": "歩く",
+        "reading": "あるく"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1375950-1-ex-1",
+    "side": "after",
+    "text": "への期待が、住民の間で高まっている。",
+    "parts": [
+      {
+        "text": "への"
+      },
+      {
+        "text": "期待",
+        "reading": "きたい"
+      },
+      {
+        "text": "が、"
+      },
+      {
+        "text": "住民",
+        "reading": "じゅうみん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "高まっ",
+        "reading": "たかまっ"
+      },
+      {
+        "text": "ている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1410290-1-ex-1",
+    "side": "before",
+    "text": "計画への賛否が分かれ、住民の間に",
+    "parts": [
+      {
+        "text": "計画",
+        "reading": "けいかく"
+      },
+      {
+        "text": "への"
+      },
+      {
+        "text": "賛否",
+        "reading": "さんぴ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "分かれ",
+        "reading": "わかれ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "住民",
+        "reading": "じゅうみん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1523830-1-ex-1",
+    "side": "before",
+    "text": "仕事の進め方の違いから、二つの部署の間に",
+    "parts": [
+      {
+        "text": "仕事",
+        "reading": "しごと"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "進め方",
+        "reading": "すすめかた"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "違い",
+        "reading": "ちがい"
+      },
+      {
+        "text": "から、"
+      },
+      {
+        "text": "二つ",
+        "reading": "ふたつ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "部署",
+        "reading": "ぶしょ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1425540-1-ex-1",
+    "side": "before",
+    "text": "司会者には、議論の間ずっと",
+    "parts": [
+      {
+        "text": "司会",
+        "reading": "しかい"
+      },
+      {
+        "text": "者",
+        "reading": "しゃ"
+      },
+      {
+        "text": "には、"
+      },
+      {
+        "text": "議論",
+        "reading": "ぎろん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "ずっと"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1280950-1-ex-1",
+    "side": "before",
+    "text": "冬の間使わなかった畑を、父と二人で",
+    "parts": [
+      {
+        "text": "冬",
+        "reading": "ふゆ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "使わ",
+        "reading": "つかわ"
+      },
+      {
+        "text": "なかった"
+      },
+      {
+        "text": "畑",
+        "reading": "はたけ"
+      },
+      {
+        "text": "を、"
+      },
+      {
+        "text": "父",
+        "reading": "ちち"
+      },
+      {
+        "text": "と"
+      },
+      {
+        "text": "二人",
+        "reading": "ふたり"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1307570-1-ex-1",
+    "side": "before",
+    "text": "客がいる間も、猫は",
+    "parts": [
+      {
+        "text": "客",
+        "reading": "きゃく"
+      },
+      {
+        "text": "がいる"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "も、"
+      },
+      {
+        "text": "猫",
+        "reading": "ねこ"
+      },
+      {
+        "text": "は"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1463840-1-ex-1",
+    "side": "after",
+    "text": "で寝ている間に、庭の水やりを済ませた。",
+    "parts": [
+      {
+        "text": "で"
+      },
+      {
+        "text": "寝",
+        "reading": "ね"
+      },
+      {
+        "text": "ている"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "庭",
+        "reading": "にわ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "やりを"
+      },
+      {
+        "text": "済ませ",
+        "reading": "すませ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1600660-1-ex-1",
+    "side": "before",
+    "text": "部署の間で情報を共有し、連携の強化を",
+    "parts": [
+      {
+        "text": "部署",
+        "reading": "ぶしょ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "情報",
+        "reading": "じょうほう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "共有",
+        "reading": "きょうゆう"
+      },
+      {
+        "text": "し、"
+      },
+      {
+        "text": "連携",
+        "reading": "れんけい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "強化",
+        "reading": "きょうか"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1372430-1-ex-1",
+    "side": "before",
+    "text": "休んでいる間に筋力が",
+    "parts": [
+      {
+        "text": "休ん",
+        "reading": "やすん"
+      },
+      {
+        "text": "でいる"
+      },
+      {
+        "text": "間",
+        "reading": "あいだ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "筋力",
+        "reading": "きんりょく"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_684-1-ex-1",
+    "side": "before",
+    "text": "朝に十分だけ",
+    "parts": [
+      {
+        "text": "朝",
+        "reading": "あさ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "だけ"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_8-1-ex-1",
+    "side": "before",
+    "text": "閉店まで十分しかないから、",
+    "parts": [
+      {
+        "text": "閉店",
+        "reading": "へいてん"
+      },
+      {
+        "text": "まで"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "しかないから、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1340000-1-ex-1",
+    "side": "after",
+    "text": "まで、あと十分しかない。",
+    "parts": [
+      {
+        "text": "まで、あと"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅっぷん"
+      },
+      {
+        "text": "しかない。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1220550-1-ex-1",
+    "side": "after",
+    "text": "は、今月一日から十日までです。",
+    "parts": [
+      {
+        "text": "は、"
+      },
+      {
+        "text": "今月",
+        "reading": "こんげつ"
+      },
+      {
+        "text": "一日",
+        "reading": "ついたち"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "十日",
+        "reading": "とおか"
+      },
+      {
+        "text": "までです。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1008430-1-ex-1",
+    "side": "after",
+    "text": "、今日中に買い物を済ませましょう。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "今日中",
+        "reading": "きょうじゅう"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "買い物",
+        "reading": "かいもの"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "済ませ",
+        "reading": "すませ"
+      },
+      {
+        "text": "ましょう。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1255020-1-ex-1",
+    "side": "before",
+    "text": "資料が足りないので、今日中に",
+    "parts": [
+      {
+        "text": "資料",
+        "reading": "しりょう"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "足り",
+        "reading": "たり"
+      },
+      {
+        "text": "ないので、"
+      },
+      {
+        "text": "今日中",
+        "reading": "きょうじゅう"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  }
+]

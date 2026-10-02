@@ -10,6 +10,7 @@ import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { useContextStore } from './contextStore'
 import { contextSenses } from './contextContent'
 import { allWords } from '@/features/vocab/model/selectors'
+import { addDays, localDay, profileKey, reviewProfile } from './contextEngine'
 
 vi.mock('./contextContent', async () => {
   const { testSense } = await import('./contextTestFixtures')
@@ -71,6 +72,26 @@ describe('LearnSetupPage', () => {
     expect(within(columns[1] as HTMLElement).getByRole('button', { name: '+5' })).toBeInTheDocument()
     expect(within(columns[1] as HTMLElement).getByRole('button', { name: '+10' })).toBeInTheDocument()
     expect(screen.getByRole('spinbutton', { name: '학습 항목 수' })).toBeInTheDocument()
+  })
+
+  it('shows due words near the count controls and follows the selected range, required ranges and favorites', async () => {
+    const today = localDay()
+    const profiles = Object.fromEntries(contextSenses.slice(0, 6).map(sense => [profileKey(sense), reviewProfile(undefined, sense, sense.examples[0], true, false, addDays(today, -2))]))
+    profiles[profileKey(contextSenses[5])].due = addDays(today, 1)
+    useContextStore.setState({ data: { ...useContextStore.getState().data, profiles } })
+    usePreferencesStore.setState({ learnDefaults: { ...usePreferencesStore.getState().learnDefaults, rangeEnabled: true, rangeStart: 2, rangeEnd: 3 } })
+    render(<MemoryRouter><LearnSetupPage /></MemoryRouter>)
+    const message = screen.getByText('오늘 복습해야 하는 2개의 단어가 있어요')
+    expect(message.parentElement).toContainElement(screen.getByRole('spinbutton', { name: '학습 항목 수' }))
+    await act(async () => { usePreferencesStore.getState().updateLearnDefaults({ requiredRangesEnabled: true, requiredRanges: [{ start: 1, end: 2 }] }) })
+    expect(screen.getByText('오늘 복습해야 하는 3개의 단어가 있어요')).toBeVisible()
+    await act(async () => {
+      useFavoritesStore.setState({ favoriteIds: [contextSenses[1].wordId] })
+      usePreferencesStore.getState().updateLearnDefaults({ favoritesOnly: true, rangeEnabled: false, requiredRangesEnabled: false })
+    })
+    expect(screen.getByText('오늘 복습해야 하는 1개의 단어가 있어요')).toBeVisible()
+    await act(async () => { useFavoritesStore.setState({ favoriteIds: [contextSenses[5].wordId] }) })
+    expect(screen.queryByText(/오늘 복습해야 하는/)).not.toBeInTheDocument()
   })
 
   it.each(['theme-core', 'ComparingWords'])('falls back to all for removed wordbook %s', (setId) => {

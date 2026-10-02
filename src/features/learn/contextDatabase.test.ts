@@ -6,7 +6,7 @@ import { serializeContextState } from './contextSerialization'
 import { testSense } from './contextTestFixtures'
 
 const senses = ['a', 'b', 'c'].map((id) => testSense(id))
-const empty = () => emptyContextState(senses)
+const empty = () => emptyContextState()
 const start = () => startContext(empty(), {
   setId: 'all', setName: 'test', candidateWordIds: ['a', 'b', 'c'], requiredWordIds: [],
   wordCount: 3, allowEarly: false,
@@ -93,7 +93,7 @@ describe('transactional learning database', () => {
 
   it('persists 12,000 profiles and 500 decisions without rewriting the whole profile collection', async () => {
     const large = Array.from({ length: 12000 }, (_, i) => testSense(`database-scale-${i}`, i % 60 + 5))
-    let state = emptyContextState(large)
+    let state = emptyContextState()
     for (const sense of large) state.profiles[profileKey(sense)] = {
       ...reviewProfile(undefined, sense, sense.examples[0], true, false, '2026-09-20'),
       levelDay: '2026-09-20',

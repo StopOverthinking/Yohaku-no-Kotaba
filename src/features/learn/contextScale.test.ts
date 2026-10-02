@@ -11,7 +11,7 @@ describe('large corpus scheduling', () => {
       s.examples.push({ ...s.examples[0], id: `${s.wordId}-e3` })
       return s
     })
-    let state = emptyContextState(senses)
+    let state = emptyContextState()
     for (const s of senses) state.profiles[profileKey(s)] = {
       ...reviewProfile(undefined, s, s.examples[0], true, false, '2026-09-20'),
       levelDay: '2026-09-20',

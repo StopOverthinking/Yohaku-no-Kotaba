@@ -4,11 +4,16 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
 import { ContextSessionPage } from './ContextSessionPage'
 import { useContextStore } from './contextStore'
-import { loadContextSense } from './contextContent'
+import { contextSenses, loadContextSense } from './contextContent'
+import { addDays, localDay, profileKey, reviewProfile } from './contextEngine'
 
 vi.mock('./contextContent', async () => {
   const { testSense } = await import('./contextTestFixtures')
   const senses = [testSense('a'), testSense('b')]
+  for (const sense of senses) for (const example of sense.examples) {
+    example.beforeFurigana = [{ text: '場面', reading: 'ばめん' }, { text: example.before.slice(2) }]
+    example.afterFurigana = [{ text: example.after }]
+  }
   return {
     loadContextSense: vi.fn(async (id: string) => senses.find((sense) => sense.id === id)!),
     contextSenses: senses, contextAliasGroups: [], contextAliasCatalog: { resolveWordId: (id: string) => id },
@@ -44,6 +49,7 @@ describe('context card', () => {
   afterEach(() => {
     cleanup()
     vi.restoreAllMocks()
+    vi.unstubAllGlobals()
   })
 
   it('does not put either answer or reading into DOM before reveal; hint is independent', async () => {
@@ -51,6 +57,9 @@ describe('context card', () => {
     expect(container.innerHTML).not.toContain('答えた')
     expect(container.innerHTML).not.toContain('こたえた')
     expect(container.innerHTML).not.toContain('答える')
+    expect(container.querySelector('ruby rt')).toHaveTextContent('ばめん')
+    expect(screen.getByText('새 단어')).toBeVisible()
+    expect(screen.getByRole('button', { name: /^문장 정답 공개/ })).not.toHaveAccessibleName(expect.stringContaining('こたえた'))
     await interact(() => fireEvent.click(screen.getByRole('button', { name: '뉘앙스 힌트' })))
     expect(screen.getByText('문맥으로 구별하는 테스트 힌트입니다.')).toBeVisible()
     expect(container.innerHTML).not.toContain('答えた')
@@ -59,6 +68,62 @@ describe('context card', () => {
     expect(screen.getByText('こたえた')).toBeVisible()
     expect(screen.getByText('こたえる')).toBeVisible()
     expect(screen.getByText('문맥으로 구별하는 테스트 힌트입니다.')).toBeVisible()
+  })
+
+  it('keeps every card tool separate from answer reveal', async () => {
+    await renderPage()
+    for (const name of ['즐겨찾기', '글자 작게', '글자 크게', '뉘앙스 힌트']) {
+      await interact(() => fireEvent.click(screen.getByRole('button', { name })))
+      expect(useContextStore.getState().data.session!.revealed).toBe(false)
+    }
+    expect(screen.getByRole('button', { name: /^문장 정답 공개/ }).parentElement).toContainElement(screen.getByText('새 단어'))
+    expect(document.querySelector('button button')).toBeNull()
+  })
+
+  it('suppresses the synthesized click after a swipe and records only one card', async () => {
+    vi.stubGlobal('PointerEvent', MouseEvent)
+    await renderPage()
+    const surface = screen.getByRole('button', { name: /^문장 정답 공개/ })
+    await interact(() => {
+      fireEvent.pointerDown(surface, { clientX: 220, clientY: 100 })
+      fireEvent.pointerUp(surface, { clientX: 80, clientY: 100 })
+      fireEvent.click(surface)
+    })
+    expect(useContextStore.getState().data.session!.decisions).toBe(1)
+    expect(useContextStore.getState().data.session!.revealed).toBe(false)
+    await interact(() => fireEvent.click(screen.getByRole('button', { name: /^문장 정답 공개/ })))
+    expect(useContextStore.getState().data.session!.decisions).toBe(1)
+    expect(useContextStore.getState().data.session!.revealed).toBe(false)
+    vi.unstubAllGlobals()
+  })
+
+  it('derives prior-day review status and restores it with undo', async () => {
+    const state = useContextStore.getState().data
+    const sense = contextSenses.find(s => s.id === state.session!.current.senseId)!
+    const profile = reviewProfile(undefined, sense, sense.examples[0], true, false, addDays(localDay(), -3))
+    useContextStore.setState({ data: { ...state, profiles: { [profileKey(sense)]: profile } } })
+    await renderPage()
+    expect(screen.getByText('3일 전')).toBeVisible()
+    await interact(() => fireEvent.click(screen.getByRole('button', { name: '모름' })))
+    expect(screen.getByText('새 단어')).toBeVisible()
+    await interact(() => fireEvent.click(screen.getByRole('button', { name: '이전 카드' })))
+    expect(screen.getByText('3일 전')).toBeVisible()
+    expect(useContextStore.getState().data.profiles[profileKey(sense)].due).toBe(profile.due)
+  })
+
+  it('shows zero days for same-day retries and preserves the badge on reload and undo', async () => {
+    await useContextStore.getState().discard()
+    await useContextStore.getState().start({ ...options, wordCount: 1 })
+    let page = await renderPage()
+    expect(screen.getByText('새 단어')).toBeVisible()
+    await interact(() => fireEvent.click(screen.getByRole('button', { name: '모름' })))
+    expect(screen.getByText('0일 전')).toBeVisible()
+    page.unmount()
+    await act(async () => { await useContextStore.getState().hydrate() })
+    await renderPage()
+    expect(screen.getByText('0일 전')).toBeVisible()
+    await interact(() => fireEvent.click(screen.getByRole('button', { name: '이전 카드' })))
+    expect(screen.getByText('새 단어')).toBeVisible()
   })
 
   it('records voluntary judgement without requiring reveal and ignores double click', async () => {

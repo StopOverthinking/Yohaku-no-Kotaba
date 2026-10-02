@@ -26,6 +26,51 @@ describe('asynchronous learning store', () => {
   })
   afterEach(async () => { vi.restoreAllMocks(); await db.close() })
 
+  it('commits retired-card recovery atomically and retries after a failed save without losing undo or profiles', async () => {
+    await store.getState().hydrate()
+    await store.getState().start({ ...options, candidateWordIds: ['a'], wordCount: 1 })
+    await store.getState().answer(false)
+    const previous = store.getState().data
+    const original = senses[0], removed = original.examples[0], kept = original.examples[1]
+    const updated = createAsyncContextStore([{ ...original, examples: [kept] }, senses[1]], () => repo,
+      () => '2026-10-02', [], [{ senseId: original.id, senseVersion: original.version,
+        exampleId: removed.id, exampleVersion: removed.version,
+        replacementId: kept.id, replacementVersion: kept.version }])
+    vi.spyOn(repo, 'save').mockRejectedValueOnce(new Error('quota'))
+    await updated.getState().hydrate()
+    expect(updated.getState().ready).toBe(false)
+    expect((await db.read())!.data).toEqual(previous)
+    await updated.getState().hydrate()
+    expect(updated.getState().ready).toBe(true)
+    expect(updated.getState().data.session!.current.exampleId).toBe(kept.id)
+    expect(updated.getState().data.profiles).toEqual(previous.profiles)
+    expect(updated.getState().data.level).toEqual(previous.level)
+    expect((await db.read())!.data).toEqual(updated.getState().data)
+    const revision = updated.getState().data.revision
+    await updated.getState().hydrate()
+    expect(updated.getState().data.revision).toBe(revision)
+    expect(await updated.getState().undo()).toBe(true)
+    expect(updated.getState().data.session!.current.exampleId).toBe(kept.id)
+    expect(await updated.getState().answer(true)).toBe(true)
+  })
+
+  it('keeps the beginner score from first hydration through start and reload', async () => {
+    await store.getState().hydrate()
+    expect(store.getState().data.level).toEqual({ value: 16, assessedWordIds: [] })
+    expect(await store.getState().start({ ...options, candidateWordIds: ['b'], wordCount: 1 })).toBe(true)
+    const started = store.getState().data
+    expect(started.level.value).toBe(16)
+    expect(started.session!.current.senseId).toBe('sense-b')
+    await store.getState().hydrate()
+    expect(store.getState().data).toEqual(started)
+    await store.getState().answer(true)
+    const learned = store.getState().data
+    await store.getState().hydrate()
+    expect(store.getState().data.level).toEqual(learned.level)
+    expect(await store.getState().start({ ...options, candidateWordIds: ['a'], wordCount: 1 })).toBe(true)
+    expect(store.getState().data.level).toEqual(learned.level)
+  })
+
   it('coalesces hydration, and blocks a new session until loading succeeds', async () => {
     const gate = deferred()
     const load = repo.load.bind(repo)

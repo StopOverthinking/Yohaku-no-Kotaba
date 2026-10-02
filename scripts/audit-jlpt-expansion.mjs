@@ -7,6 +7,7 @@ import { evaluatePracticalScope } from './lib/jlpt-scope.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
 import { validateLegacyRevisionJournals } from './lib/legacy-example-revision.mjs'
 import { validateLegacyContentJournals } from './lib/legacy-content-revision.mjs'
+import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = async (p) => JSON.parse(await fs.readFile(path.join(root, p), 'utf8'))
@@ -21,13 +22,24 @@ const senseMap = new Map(senses.map((s) => [s.wordId, []]))
 for (const s of senses) senseMap.get(s.wordId).push(s)
 const prior = new Set(baseline.words.map(lexicalKey))
 const issues = [], entries = []
+let historicalSenses = senses, examplePruning = null
+try {
+  const pruning = verifyExamplePruning(words, senses, await readExamplePruning(root))
+  historicalSenses = pruning.historicalSenses
+  examplePruning = pruning.report
+} catch (error) { issues.push(error.message) }
+const historicalByWord = new Map()
+for (const sense of historicalSenses) {
+  if (!historicalByWord.has(sense.wordId)) historicalByWord.set(sense.wordId, [])
+  historicalByWord.get(sense.wordId).push(sense)
+}
 const revisionDirectory = 'content/jlpt/legacy/revisions'
 let revisionNames = []
 try { revisionNames = await fs.readdir(path.join(root, revisionDirectory)) }
 catch (error) { if (error.code !== 'ENOENT') throw error }
 const legacyRevisions = await Promise.all(revisionNames.filter(name => name.endsWith('.json')).sort().map(name => read(`${revisionDirectory}/${name}`)))
 let revisedLegacy = { journals: 0, senses: 0 }
-try { revisedLegacy = validateLegacyRevisionJournals(legacyRevisions, words, senses, baseline.words.map(word => word.id)) }
+try { revisedLegacy = validateLegacyRevisionJournals(legacyRevisions, words, historicalSenses, baseline.words.map(word => word.id)) }
 catch (error) { issues.push(error.message) }
 const contentRevisionDirectory = 'content/jlpt/legacy/content-revisions'
 let contentRevisionNames = []
@@ -35,19 +47,19 @@ try { contentRevisionNames = await fs.readdir(path.join(root, contentRevisionDir
 catch (error) { if (error.code !== 'ENOENT') throw error }
 const legacyContentRevisions = await Promise.all(contentRevisionNames.filter(name => name.endsWith('.json')).sort().map(name => read(`${contentRevisionDirectory}/${name}`)))
 let revisedLegacyContent = { journals: 0, words: 0 }
-try { revisedLegacyContent = validateLegacyContentJournals(legacyContentRevisions, words, senses, baseline.words.map(word => word.id)) }
+try { revisedLegacyContent = validateLegacyContentJournals(legacyContentRevisions, words, historicalSenses, baseline.words.map(word => word.id)) }
 catch (error) { issues.push(error.message) }
 const aliasReviews = await optionalRead('content/jlpt/legacy/alias-pilot-review.json', [])
 const activeAliasIds = await optionalRead('content/jlpt/legacy/active-aliases.json', [])
 let aliasGroups = []
-try { aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, words, senses) }
+try { aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, words, historicalSenses) }
 catch (error) { issues.push(error.message) }
 const [referenceReviews, membershipReceipt] = await Promise.all([
   optionalRead('content/jlpt/legacy/membership-reviews.json', []),
   optionalRead('content/jlpt/pilot/published-membership.json', null),
 ])
 try {
-  const references = validateLegacyMembership(referenceReviews, words, senses, baseline.words, aliasGroups)
+  const references = validateLegacyMembership(referenceReviews, words, historicalSenses, baseline.words, aliasGroups)
   if (membershipReceipt) {
     if (membershipReceipt.schemaVersion !== 1) throw new Error('Unknown membership receipt version')
     for (const level of ['N5', 'N4', 'N3', 'N2', 'N1']) {
@@ -81,7 +93,7 @@ for (const level of ['N5', 'N4', 'N3', 'N2', 'N1']) {
   }
 }
 for (const entry of published) {
-  const word = wordMap.get(entry.id), content = senseMap.get(entry.id)
+  const word = wordMap.get(entry.id), content = historicalByWord.get(entry.id)
   if (!word || content?.length !== 1 || hashContent({ word, sense: content[0] }) !== entry.publishedHash)
     issues.push(`${entry.id}: content changed since recorded pilot review; re-review required`)
 }
@@ -102,6 +114,7 @@ const report = {
   activeAliasGroups: aliasGroups.length,
   revisedLegacy,
   revisedLegacyContent,
+  examplePruning,
   complete: selection.complete && !issues.length,
   completionScope: 'reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately',
   issues,

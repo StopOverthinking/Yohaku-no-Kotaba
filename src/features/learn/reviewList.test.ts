@@ -6,7 +6,7 @@ import { testSense } from './contextTestFixtures'
 describe('review list', () => {
   it('uses the actual interval, includes 30 days and excludes mastered overdue items', () => {
     const senses = ['thirty', 'sixty', 'penalty', 'old-version', 'unseen'].map((id) => testSense(id))
-    const state = emptyContextState(senses)
+    const state = emptyContextState()
     for (const sense of senses.slice(0, 4)) {
       state.profiles[profileKey(sense)] = reviewProfile(
         undefined,
@@ -31,7 +31,7 @@ describe('review list', () => {
   })
   it('returns failed mastered words to the list and rounds tiny score changes without negative zero', () => {
     const sense = testSense('a')
-    const state = emptyContextState([sense])
+    const state = emptyContextState()
     const profile = reviewProfile(undefined, sense, sense.examples[0], true, false, '2026-09-01')
     profile.step = 14
     state.profiles[profileKey(sense)] = reviewProfile(

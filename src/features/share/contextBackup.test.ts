@@ -23,16 +23,16 @@ describe('cross-storage backup restore', () => {
       return result
     }
     backup = new ContextBackupCoordinator(db, localStorage, lock)
-    await repo.load(emptyContextState([]))
+    await repo.load(emptyContextState())
     localStorage.setItem('jsp-react:preferences', 'before')
     localStorage.setItem('unrelated', 'keep')
   })
   afterEach(async () => { vi.restoreAllMocks(); await db.close() })
-  const target = () => ({ ...emptyContextState([]), level: { value: 61, assessedWordIds: [] } })
+  const target = () => ({ ...emptyContextState(), level: { value: 61, assessedWordIds: [] } })
   const entries = () => ({ 'jsp-react:preferences': 'after', [CONTEXT_STORAGE_KEY]: serializeContextState(target()) })
 
   it('commits preferences and learning together without exporting a migration marker as data', async () => {
-    await backup.restore(entries(), emptyContextState([]))
+    await backup.restore(entries(), emptyContextState())
     expect(localStorage.getItem('jsp-react:preferences')).toBe('after')
     expect(localStorage.getItem(CONTEXT_STORAGE_KEY)).toBe(CONTEXT_MIGRATED_MARKER)
     expect(localStorage.getItem('unrelated')).toBe('keep')
@@ -47,7 +47,7 @@ describe('cross-storage backup restore', () => {
   it('rolls local changes back when final DB commit fails', async () => {
     const before = await db.read()
     vi.spyOn(db, 'write').mockRejectedValueOnce(new Error('disk full'))
-    await expect(backup.restore(entries(), emptyContextState([]))).rejects.toThrow('disk full')
+    await expect(backup.restore(entries(), emptyContextState())).rejects.toThrow('disk full')
     expect(await db.read()).toEqual(before)
     expect(localStorage.getItem('jsp-react:preferences')).toBe('before')
     expect(await db.readRestore()).toBeNull()
@@ -59,7 +59,7 @@ describe('cross-storage backup restore', () => {
       if (key === 'jsp-react:fail') throw new Error('quota')
       return setItem.call(this, key, value)
     })
-    await expect(backup.restore({ ...entries(), 'jsp-react:new': 'new', 'jsp-react:fail': 'large' }, emptyContextState([]))).rejects.toThrow('quota')
+    await expect(backup.restore({ ...entries(), 'jsp-react:new': 'new', 'jsp-react:fail': 'large' }, emptyContextState())).rejects.toThrow('quota')
     expect(localStorage.getItem('jsp-react:new')).toBeNull()
     expect(localStorage.getItem('jsp-react:preferences')).toBe('before')
     expect(await db.readRestore()).toBeNull()
@@ -96,7 +96,7 @@ describe('cross-storage backup restore', () => {
     const gate = new Promise<void>((resolve) => { finish = resolve })
     const write = db.write.bind(db)
     vi.spyOn(db, 'write').mockImplementation(async (...args) => { await gate; return write(...args) })
-    const restoring = backup.restore(entries(), emptyContextState([]))
+    const restoring = backup.restore(entries(), emptyContextState())
     await vi.waitFor(async () => expect(await db.readRestore()).not.toBeNull())
     const peer = new ContextBackupCoordinator(db, localStorage, lock)
     const recovering = peer.recover()
@@ -111,8 +111,8 @@ describe('cross-storage backup restore', () => {
   })
 
   it('rejects malformed backup and out-of-scope keys before creating a journal', async () => {
-    await expect(backup.restore({ [CONTEXT_STORAGE_KEY]: '{bad' }, emptyContextState([]))).rejects.toThrow()
-    await expect(backup.restore({ unrelated: 'overwrite' }, emptyContextState([]))).rejects.toThrow()
+    await expect(backup.restore({ [CONTEXT_STORAGE_KEY]: '{bad' }, emptyContextState())).rejects.toThrow()
+    await expect(backup.restore({ unrelated: 'overwrite' }, emptyContextState())).rejects.toThrow()
     expect(await db.readRestore()).toBeNull()
     expect(localStorage.getItem('unrelated')).toBe('keep')
   })

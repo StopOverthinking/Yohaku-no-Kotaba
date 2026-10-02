@@ -12,7 +12,7 @@
   "levelWords": 4861,
   "newWords": 4114,
   "readyWords": 4861,
-  "examples": 8068,
+  "examples": 5083,
   "byLevel": {
     "N5": 599,
     "N4": 648,
@@ -28,6 +28,11 @@
   "revisedLegacyContent": {
     "journals": 5,
     "words": 52
+  },
+  "examplePruning": {
+    "journals": 1,
+    "removedExamples": 3742,
+    "sourceHash": "2d28f0feb08a3258cbcf8ce7feebb533e01c3c80d4a9694fa85d207bbdff469c"
   },
   "complete": true,
   "completionScope": "reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately",

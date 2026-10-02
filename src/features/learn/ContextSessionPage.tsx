@@ -8,7 +8,16 @@ import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { contextSenseMap, contextWordMap } from './contextContent'
 import { useContextStore } from './contextStore'
 import { useContextSense } from './useContextSense'
+import { profileKey } from './contextEngine'
+import { cardRecency } from './contextPresentation'
+import type { FuriganaPart } from './contextTypes'
 import styles from './context.module.css'
+
+function Furigana({ text, parts }: { text: string; parts?: FuriganaPart[] }) {
+  return parts ? parts.map((part, index) => part.reading
+    ? <ruby key={index}>{part.text}<rt>{part.reading}</rt></ruby>
+    : <span key={index}>{part.text}</span>) : text
+}
 
 export function ContextSessionPage() {
   const navigate = useNavigate()
@@ -20,10 +29,11 @@ export function ContextSessionPage() {
   const toggleFavorite = useFavoritesStore((s) => s.toggleFavorite)
   const pointer = useRef<{ x: number; y: number; id: number } | null>(null)
   const dragged = useRef(false)
+  const suppressClickUntil = useRef(0)
   const lockUntil = useRef(0)
   const candidateSense = session ? contextSenseMap.get(session.current.senseId) : undefined
   const validCard = candidateSense?.version === session?.current.senseVersion && candidateSense?.examples.some(
-    (e) => e.id === session?.current.exampleId && e.version === session.current.exampleVersion,
+    (e) => e.id === session?.current.exampleId && e.version === session.current.exampleVersion && e.status === 'reviewed',
   )
   const content = useContextSense(ready && validCard ? candidateSense?.id : undefined)
   const sense = content.sense
@@ -92,8 +102,7 @@ export function ContextSessionPage() {
       {error && <p role="alert">{error}</p>}
       <GlassPanel className={styles.panel} padding="lg">
         <button
-          className={styles.sentence}
-          style={{ fontSize: `${1.1 + fontScale * 0.2}rem` }}
+          className={styles.cardSurface}
           type="button"
           disabled={busy || !ready}
           aria-label={`문장 정답 공개. ${example.before}${session.revealed ? example.answer : '빈칸'}${example.after} ${example.translation}`}
@@ -101,6 +110,7 @@ export function ContextSessionPage() {
           onPointerDown={(event) => {
             pointer.current = { x: event.clientX, y: event.clientY, id: event.pointerId }
             dragged.current = false
+            event.currentTarget.setPointerCapture?.(event.pointerId)
           }}
           onPointerCancel={() => {
             pointer.current = null
@@ -113,29 +123,32 @@ export function ContextSessionPage() {
             const dy = event.clientY - start.y
             if (Math.abs(dx) >= 96 && Math.abs(dx) > Math.abs(dy) * 1.4) {
               dragged.current = true
+              suppressClickUntil.current = Date.now() + 500
               decide(dx < 0)
             }
           }}
           onClick={() => {
-            if (!dragged.current) reveal()
+            if (!dragged.current && Date.now() >= suppressClickUntil.current && Date.now() >= lockUntil.current) reveal()
             dragged.current = false
           }}
-        >
+        />
+        <div className={styles.recency}>{cardRecency(data.profiles[profileKey(sense)])}</div>
+        <div className={styles.sentence} style={{ fontSize: `${1.1 + fontScale * 0.2}rem` }}>
           <span lang="ja">
-            {example.before}
+            <Furigana text={example.before} parts={example.beforeFurigana} />
             {session.revealed ? (
               <strong className={styles.answer}>{example.answer}</strong>
             ) : (
               <span className={styles.blank} aria-label="빈칸" />
             )}
-            {example.after}
+            <Furigana text={example.after} parts={example.afterFurigana} />
           </span>
           <span className={styles.translation} lang="ko">
             {example.translation.slice(0, targetStart)}
             <em>{example.translationTarget}</em>
             {example.translation.slice(targetStart + example.translationTarget.length)}
           </span>
-        </button>
+        </div>
         <div className={styles.details}>
           {session.revealed && (
             <div className={styles.forms}>

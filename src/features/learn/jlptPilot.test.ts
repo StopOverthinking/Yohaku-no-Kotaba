@@ -6,13 +6,24 @@ import { normalizeEditorSnapshot, validateEditorSnapshot } from '@/features/edit
 import { editorVocabularySets, editorVocabularyWords, editorLearnContent } from '@/features/editor/editorData'
 
 describe('reviewed JLPT pilot', () => {
+  it('recommends a beginner example first even with the complete N5–N1 corpus', () => {
+    const settings = { setId: 'all', setName: 'all', candidateWordIds: allWords.map((word) => word.id),
+      requiredWordIds: [], wordCount: 10, allowEarly: false }
+    const state = startContext(emptyContextState(), settings, contextSenses, '2026-10-02')
+    expect(state.level).toEqual({ value: 16, assessedWordIds: [] })
+    const current = state.session!.current
+    const sense = contextSenseMap.get(current.senseId)!
+    const example = sense.examples.find((item) => item.id === current.exampleId)!
+    expect(example.difficulty).toBeGreaterThanOrEqual(14)
+    expect(example.difficulty).toBeLessThanOrEqual(18)
+  })
   it('continues an existing profile through a published level reference without copying or losing its schedule', () => {
     const book = editorVocabularySets.find((set) => set.membershipMode === 'explicit' &&
       set.wordIds.some((id) => editorVocabularyWords.find((word) => word.id === id)?.setId !== set.id))!
     expect(book).toBeDefined()
     const word = editorVocabularyWords.find((item) => book.wordIds.includes(item.id) && item.setId !== book.id)!
     const settings = { setId: word.setId, setName: 'original', candidateWordIds: [word.id], requiredWordIds: [], wordCount: 1, allowEarly: true }
-    let state = startContext(emptyContextState(contextSenses), settings, contextSenses, '2026-09-29')
+    let state = startContext(emptyContextState(), settings, contextSenses, '2026-09-29')
     const senseId = state.session!.current.senseId
     state = answerContext(state, true, contextSenses, '2026-09-29')
     const profiles = state.profiles
@@ -31,7 +42,7 @@ describe('reviewed JLPT pilot', () => {
     const words = getWordsForSet(setId)
     expect(words.length).toBeGreaterThanOrEqual(20)
     for (const word of words) {
-      let state = emptyContextState(contextSenses)
+      let state = emptyContextState()
       const wordSenses = contextSenses.filter((sense) => sense.wordId === word.id)
       expect(wordSenses.length).toBeGreaterThanOrEqual(1)
       const seen = new Map(wordSenses.map(sense => [sense.id, new Set<string>()]))

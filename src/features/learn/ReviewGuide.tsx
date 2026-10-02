@@ -1,4 +1,4 @@
-import { REVIEW_INTERVALS } from './contextEngine'
+import { RECOMMENDATION_POLICY, REVIEW_INTERVALS } from './contextEngine'
 import styles from './progress.module.css'
 
 export function ReviewGuide() {
@@ -8,7 +8,7 @@ export function ReviewGuide() {
       <h3>점수는 다음 문제의 난도를 고르는 기준이에요</h3>
       <p>
         앎을 누르면 오르고 모름을 누르면 내려갑니다. 만점이나 합격선은 없고, JLPT 등급도 아니에요. 처음에는
-        전체 예문 난도의 중간값에서 시작하며, 첫 학습 범위를 지정했다면 그 범위의 중간값을 사용합니다.
+        N5~N4 수준으로 가정해 {RECOMMENDATION_POLICY.initialLevel}점에서 시작하며, 단어장이나 범위를 바꿔도 초기 점수는 같습니다.
       </p>
       <p>
         서로 다른 20단어를 처음 만날 때까지 수준을 빠르게 조정하고, 이후에는 조금씩 조정해요. 알고 있을

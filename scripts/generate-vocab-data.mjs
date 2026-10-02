@@ -3,8 +3,10 @@ import path from 'node:path'
 import vm from 'node:vm'
 import { fileURLToPath } from 'node:url'
 import { partitionLearnContent } from './lib/learn-content-shards.mjs'
+import { addLearnFurigana } from './lib/learn-furigana.mjs'
 import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
+import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
 import ts from 'typescript'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -142,25 +144,36 @@ async function readEditorSource() {
 }
 
 async function writeOutputFiles(data) {
+  const pruning = verifyExamplePruning(data.words, data.learnContent ?? [], await readExamplePruning(projectRoot))
   const aliasRoot = path.join(projectRoot, 'content/jlpt/legacy')
   const aliases = buildReviewedAliases(
     await readJsonFile(path.join(aliasRoot, 'alias-pilot-review.json'), []),
     await readJsonFile(path.join(aliasRoot, 'active-aliases.json'), []),
-    data.words, data.learnContent ?? [],
+    data.words, pruning.historicalSenses,
   )
   await fs.mkdir(outputDir, { recursive: true })
+  await writeGeneratedFile(path.join(outputDir, 'exampleRetirements.ts'),
+    `import type { ExampleRetirement } from '../../learn/contextExampleRetirements'\n\nexport const exampleRetirements: ExampleRetirement[] = ${toTsLiteral(pruning.retirements)}\n`)
   await writeGeneratedFile(path.join(outputDir, 'learnAliases.ts'),
     `import type { ContextAliasGroup } from '../../learn/contextTypes'\n\nexport const learnAliases: ContextAliasGroup[] = ${toTsLiteral(aliases)}\n`)
   await fs.mkdir(editorDataDir, { recursive: true })
   await fs.mkdir(outputDir, { recursive: true })
-  const { index: contentIndex, shards } = partitionLearnContent(data.learnContent ?? [])
+  const retiredIds = new Set(pruning.retirements.map(row => row.exampleId))
+  const furiganaOverrides = await readJsonFile(path.join(projectRoot, 'content/learn/furigana-overrides.json'), [])
+  // Only validated retirements may be absent when reading older correction files.
+  const furigana = await addLearnFurigana(data.learnContent ?? [], furiganaOverrides.filter(row => !retiredIds.has(row.exampleId)))
+  const furiganaReportDir = path.join(projectRoot, 'output/furigana')
+  await fs.mkdir(furiganaReportDir, { recursive: true })
+  await writeGeneratedFile(path.join(furiganaReportDir, 'review.json'), `${JSON.stringify(furigana.report, null, 2)}\n`)
+  if (furigana.report.missing.length) throw new Error(`Missing furigana readings: ${furigana.report.missing.length}; see output/furigana/review.json`)
+  const { index: contentIndex, shards } = partitionLearnContent(furigana.senses)
   // Run the same validator used by loaded shards, without requiring Node's TS support.
   const validationSource = await fs.readFile(path.join(projectRoot, 'src/features/learn/contentValidation.ts'), 'utf8')
   const validationJs = ts.transpileModule(validationSource, {
     compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext },
   }).outputText
   const { validateLearnContent } = await import(`data:text/javascript;base64,${Buffer.from(validationJs).toString('base64')}`)
-  const issues = validateLearnContent(data.learnContent ?? [], new Set([...data.words, ...data.themeWords].map((word) => word.id)))
+  const issues = validateLearnContent(furigana.senses, new Set([...data.words, ...data.themeWords].map((word) => word.id)))
   await writeGeneratedFile(path.join(outputDir, 'learnContentValidation.ts'),
     `// Generated from the complete corpus; loaded shards are also validated at runtime.\nexport const learnContentIssues: string[] = ${toTsLiteral(issues)}\n`, 'utf8')
   const shardDir = path.join(outputDir, 'learnContentShards')

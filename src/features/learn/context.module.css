@@ -15,25 +15,54 @@
   opacity: 0.65;
 }
 .panel {
+  position: relative;
   display: grid;
   gap: 1.4rem;
 }
-.sentence {
+.panel > .cardSurface {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
   appearance: none;
   background: none;
   border: 0;
+  border-radius: inherit;
   color: inherit;
   cursor: pointer;
   width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+}
+.cardSurface:disabled {
+  cursor: wait;
+}
+.sentence, .details, .recency {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+.sentence {
   padding: 2rem 0.5rem 1rem;
   line-height: 2;
   text-align: center;
-  touch-action: pan-y;
 }
-.sentence:focus-visible {
+.cardSurface:focus-visible {
   outline: 2px solid currentColor;
-  outline-offset: 4px;
-  border-radius: 12px;
+  outline-offset: -4px;
+}
+.sentence rt {
+  font-size: 0.52em;
+  color: color-mix(in srgb, var(--accent-ice) 55%, var(--text-soft));
+}
+.recency {
+  justify-self: end;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  border-radius: 8px;
+  color: var(--text-muted, #8c869c);
+  background: color-mix(in srgb, currentColor 4%, transparent);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
 }
 .blank {
   display: inline-block;
@@ -86,10 +115,16 @@
   opacity: 0.8;
 }
 .tools {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   justify-content: center;
+}
+.tools button {
+  pointer-events: auto;
 }
 .decisions {
   display: flex;

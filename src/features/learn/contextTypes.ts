@@ -1,9 +1,12 @@
+export type FuriganaPart = { text: string; reading?: string }
 export type LearnExample = {
   id: string
   version: number
   before: string
   answer: string
   after: string
+  beforeFurigana?: FuriganaPart[]
+  afterFurigana?: FuriganaPart[]
   reading: string
   translation: string
   translationTarget: string

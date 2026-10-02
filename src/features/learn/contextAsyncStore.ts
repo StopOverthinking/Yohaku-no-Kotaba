@@ -3,6 +3,7 @@ import { answerContext, emptyContextState, localDay, startContext, undoContext, 
 import { ContextConflictError, type ContextSnapshot } from './contextDatabase'
 import type { ContextAliasGroup, ContextResult, ContextState, LearnSenseIndex } from './contextTypes'
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'
+import { reconcileRetiredExamples, type ExampleRetirement } from './contextExampleRetirements'
 
 export type ContextPersistence = {
   load: (empty: ContextState) => Promise<ContextSnapshot>
@@ -34,6 +35,7 @@ export function createAsyncContextStore(
   getRepository: () => ContextPersistence,
   day: () => string = localDay,
   aliasGroups: ContextAliasGroup[] = [],
+  retirements: ExampleRetirement[] = [],
 ) {
   const aliases = createAliasCatalog(senses, aliasGroups)
   const senseMap = new Map(senses.map((sense) => [sense.id, sense]))
@@ -80,8 +82,8 @@ export function createAsyncContextStore(
         if (priorWrite) await priorWrite
         set({ busy: true })
         try {
-          let snapshot = await getRepository().load(emptyContextState(senses))
-          const migrated = migrateContextAliases(snapshot.data, aliases, day())
+          let snapshot = await getRepository().load(emptyContextState())
+          const migrated = migrateContextAliases(reconcileRetiredExamples(snapshot.data, senses, retirements), aliases, day())
           if (migrated !== snapshot.data)
             snapshot = await getRepository().save(snapshot, { ...migrated, revision: snapshot.data.revision + 1 })
           const session = snapshot.data.session
@@ -103,7 +105,7 @@ export function createAsyncContextStore(
     }
 
     return {
-      data: emptyContextState(senses), snapshot: null, lastResult: null,
+      data: emptyContextState(), snapshot: null, lastResult: null,
       error: null, ready: false, busy: false, hydrate,
       start: (options) => mutate((state) => {
         if (state.session) throw new Error('진행 중인 학습을 이어가거나 닫아 주세요.')

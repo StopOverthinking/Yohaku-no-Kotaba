@@ -20,7 +20,7 @@ const catalog = createAliasCatalog(senses, groups)
 const keyA = profileKey(senses[0]), keyB = profileKey(senses[1])
 const options = { setId: 'test', setName: 'test', candidateWordIds: ['a', 'b'], requiredWordIds: ['a', 'b'], wordCount: 2, allowEarly: true }
 function existing() {
-  const state = emptyContextState(senses)
+  const state = emptyContextState()
   state.level = { value: 42, assessedWordIds: ['a', 'b', 'another'] }
   state.profiles[keyA] = { ...reviewProfile(undefined, senses[0], senses[0].examples[0], true, false, day),
     due: '2026-10-20', step: 4, failures: 1, failedDays: 1, dailyAttempts: 2, levelDay: day }
@@ -90,7 +90,7 @@ describe('reviewed equivalent-word progress migration', () => {
     const db = new ContextDatabase(new IDBFactory())
     try {
       const repo = new ContextRepository(db, localStorage)
-      const base = await repo.load(emptyContextState(senses))
+      const base = await repo.load(emptyContextState())
       const original = startContext(existing(), { ...options, candidateWordIds: ['a'], requiredWordIds: ['a'], wordCount: 1 }, senses, day)
       await repo.save(base, original)
       const store = createAsyncContextStore(senses, () => repo, () => day, groups)
@@ -118,7 +118,7 @@ describe('reviewed equivalent-word progress migration', () => {
     const db = new ContextDatabase(new IDBFactory())
     try {
       const repo = new ContextRepository(db, localStorage)
-      const base = await repo.load(emptyContextState(senses))
+      const base = await repo.load(emptyContextState())
       const saved = await repo.save(base, existing())
       const failure = vi.spyOn(repo, 'save').mockRejectedValueOnce(new Error('disk full'))
       const store = createAsyncContextStore(senses, () => repo, () => day, groups)
@@ -142,7 +142,7 @@ describe('reviewed equivalent-word progress migration', () => {
       expect(group.members.map(member => member.wordId)).toContain('JLPTN3_179')
       const old = contextSenses.find(sense => sense.wordId === 'JLPTN3_179')!
       const representative = contextSenses.find(sense => sense.wordId === group.representativeWordId)!
-      const state = emptyContextState(contextSenses)
+      const state = emptyContextState()
       state.profiles[profileKey(old)] = { ...reviewProfile(undefined, old, old.examples[0], true, false, day), levelDay: day }
       const repo = new ContextRepository(db, localStorage)
       const base = await repo.load(state)
