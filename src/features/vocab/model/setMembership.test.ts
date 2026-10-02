@@ -1,12 +1,14 @@
 import { describe, expect, it, vi } from 'vitest'
 import { normalizeSetMembership, resolveSetWords } from './setMembership'
-import { getWordsForSet, getStudyItemsForSet } from './selectors'
+import { allSelectableWordbooks, getWordsForSet, getStudyItemsForSet, normalizeSelectableSetId } from './selectors'
 import { vocabularySets, vocabularyWords } from '../data'
 
 vi.mock('../data', () => ({
   vocabularySets: [
     { id: 'original', name: '원본', order: 0, wordIds: ['a', 'b'] },
     { id: 'level', name: 'N3', order: 1, membershipMode: 'explicit', wordIds: ['b', 'a'] },
+    { id: 'archived', name: '병합된 단어장', order: 2, archived: true, wordIds: ['a'] },
+    { id: 'jlpt-level-n5', name: 'N5', order: 3, membershipMode: 'explicit', wordIds: ['a'] },
   ],
   vocabularyWords: ['a', 'b'].map((id, index) => ({
     id, setId: 'original', japanese: id, reading: id, meaning: id,
@@ -16,6 +18,12 @@ vi.mock('../data', () => ({
 }))
 
 describe('shared level membership', () => {
+  it('hides archived books and redirects saved selection while retaining old session lookup', () => {
+    expect(allSelectableWordbooks.some(book => book.id === 'archived')).toBe(false)
+    expect(normalizeSelectableSetId('archived')).toBe('jlpt-level-n5')
+    expect(getStudyItemsForSet('archived').map(item => item.id)).toEqual(['a'])
+    expect(getStudyItemsForSet('jlpt-level-n5')[0]).toBe(getStudyItemsForSet('archived')[0])
+  })
   it('resolves the same original objects in level order without duplicating all/favorite views', () => {
     expect(getWordsForSet('level').map((word) => word.id)).toEqual(['b', 'a'])
     expect(getWordsForSet('level')[0]).toBe(vocabularyWords[1])

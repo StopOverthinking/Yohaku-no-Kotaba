@@ -2,7 +2,7 @@ import { comparisonPairs, comparisonWords, comparisonWordbooks, themeWords, them
 import type { ComparisonPair, SelectableWordbook, StudyComparisonItem, StudyItem, StudyWordItem, ThemeWordbookTopic, VocabularySet, VocabularyWord, WordbookKind } from '@/features/vocab/model/types'
 import { resolveSetWords } from './setMembership'
 
-export const allSets = vocabularySets
+export const allSets = vocabularySets.filter((set) => !set.archived)
 export const allBasicWords = vocabularyWords
 export const allThemeWords = themeWords
 export const allComparisonWords = comparisonWords
@@ -11,7 +11,7 @@ export const allWords = [...allNonComparisonWords, ...allComparisonWords]
 export const allThemeWordbooks = themeWordbooks
 export const allComparisonWordbooks = comparisonWordbooks
 
-const setMap = new Map<string, VocabularySet>(allSets.map((set) => [set.id, set]))
+const setMap = new Map<string, VocabularySet>(vocabularySets.map((set) => [set.id, set]))
 const wordMap = new Map<string, VocabularyWord>(allWords.map((word) => [word.id, word]))
 const basicWordMap = new Map(allBasicWords.map((word) => [word.id, word]))
 const themeWordMap = new Map<string, VocabularyWord>(allThemeWords.map((word) => [word.id, word]))
@@ -110,6 +110,8 @@ export function normalizeSelectableSetId(setId: string | 'all' | 'favorites') {
   if (setId === 'all' || setId === 'favorites') {
     return setId
   }
+
+  if (setMap.get(setId)?.archived) return 'jlpt-level-n5'
 
   return setMap.has(setId) || themeWordbookMap.has(setId) || comparisonWordbookMap.has(setId) ? setId : 'all'
 }

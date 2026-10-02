@@ -6,21 +6,35 @@
     5250
   ],
   "approximateTarget": 5000,
-  "targetUniqueWords": 4861,
+  "targetUniqueWords": 5364,
   "targetNewWords": null,
-  "selectionSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
-  "levelWords": 4861,
+  "selectionSourceHash": "f08c89acb9da0f2525ce091d90748d48044bfc0fe00ef754bd58b1c97de414d6",
+  "levelWords": 5364,
   "newWords": 4114,
-  "readyWords": 4861,
-  "examples": 5083,
+  "readyWords": 5364,
+  "examples": 5600,
   "byLevel": {
-    "N5": 599,
-    "N4": 648,
-    "N3": 1727,
-    "N2": 1056,
-    "N1": 831
+    "N5": 620,
+    "N4": 767,
+    "N3": 1927,
+    "N2": 1194,
+    "N1": 856
   },
   "activeAliasGroups": 27,
+  "membershipConsolidation": {
+    "addedWords": 503,
+    "coveredWords": 351,
+    "addedByLevel": {
+      "N5": 21,
+      "N4": 119,
+      "N3": 200,
+      "N2": 138,
+      "N1": 25
+    },
+    "reviewHash": "1afecfb0330f402a7431a9b34572a06a88fb0da155b8895fcc1cd227dd2e02f8",
+    "reviewScope": "membership and editorial level decisions; existing content approvals retained, no new independent Astra approval claimed",
+    "preservedIndependentSelectionHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2"
+  },
   "revisedLegacy": {
     "journals": 2,
     "senses": 5
@@ -35,7 +49,7 @@
     "sourceHash": "2d28f0feb08a3258cbcf8ce7feebb533e01c3c80d4a9694fa85d207bbdff469c"
   },
   "complete": true,
-  "completionScope": "reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately",
+  "completionScope": "original-independent-content-selection plus separately reviewed user-authorized membership consolidation; no new independent content approval claimed",
   "issues": [],
   "remaining": []
 }

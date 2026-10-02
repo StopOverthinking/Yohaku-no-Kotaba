@@ -24,11 +24,12 @@ type RenderEntry =
   | { type: 'item'; item: StudyItem; displayNumber: number }
 
 function resolveListSetId(setId: string | 'all') {
-  if (normalizeSelectableSetId(setId) === 'all') {
+  const normalized = normalizeSelectableSetId(setId)
+  if (normalized === 'all') {
     return allSets[0]?.id ?? 'favorites'
   }
 
-  return setId
+  return normalized
 }
 
 function subscribeToFavoriteIds(onStoreChange: () => void) {

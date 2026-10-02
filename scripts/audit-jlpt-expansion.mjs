@@ -8,6 +8,7 @@ import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
 import { validateLegacyRevisionJournals } from './lib/legacy-example-revision.mjs'
 import { validateLegacyContentJournals } from './lib/legacy-content-revision.mjs'
 import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
+import { validateVerbConsolidation } from './lib/verb-consolidation.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = async (p) => JSON.parse(await fs.readFile(path.join(root, p), 'utf8'))
@@ -58,20 +59,25 @@ const [referenceReviews, membershipReceipt] = await Promise.all([
   optionalRead('content/jlpt/legacy/membership-reviews.json', []),
   optionalRead('content/jlpt/pilot/published-membership.json', null),
 ])
+const consolidationReview = await optionalRead('content/jlpt/legacy/verb-consolidation.json', null)
+let consolidation = null
+try { consolidation = validateVerbConsolidation(consolidationReview, sets, words, senses, membershipReceipt) }
+catch (error) { issues.push(error.message) }
+const approvalReceipt = consolidation?.baseMembership ?? membershipReceipt
 try {
   const references = validateLegacyMembership(referenceReviews, words, historicalSenses, baseline.words, aliasGroups)
   if (membershipReceipt) {
     if (membershipReceipt.schemaVersion !== 1) throw new Error('Unknown membership receipt version')
     for (const level of ['N5', 'N4', 'N3', 'N2', 'N1']) {
-      const receipt = membershipReceipt.byLevel[level]
+      const receipt = approvalReceipt.byLevel[level]
       const book = sets.find((set) => set.id === `jlpt-level-${level.toLowerCase()}`)
-      if (!receipt || hashContent(book?.wordIds) !== hashContent(receipt.wordIds)) issues.push(`${level}: membership changed since publication`)
+      if (!receipt || (!consolidation && hashContent(book?.wordIds) !== hashContent(receipt.wordIds))) issues.push(`${level}: membership changed since publication`)
       const approvedIds = references.filter((entry) => entry.level === level).map((entry) => entry.id)
       if (receipt?.referenceIds.some((id, index) => approvedIds[index] !== id)) issues.push(`${level}: published reference approval changed`)
       if (receipt?.referenceIds.length && book?.membershipMode !== 'explicit') issues.push(`${level}: references require explicit membership`)
       if (receipt && book) {
         const authored = published.filter((entry) => entry.level === level).map((entry) => entry.id)
-        appendReviewedSources(book.wordIds, authored, authored, receipt.referenceIds, receipt.wordIds)
+        appendReviewedSources(consolidation ? receipt.wordIds : book.wordIds, authored, authored, receipt.referenceIds, receipt.wordIds)
       }
     }
   }
@@ -99,9 +105,23 @@ for (const entry of published) {
 }
 const scope = await read('content/jlpt/scope.json')
 const byLevel = Object.fromEntries(['N5', 'N4', 'N3', 'N2', 'N1'].map((l) => [l, entries.filter((e) => e.level === l).length]))
-const selectionSourceHash = hashContent({ published, referenceReviews, membershipReceipt, aliasReviews, activeAliasIds, legacyRevisions, legacyContentRevisions })
+const baseSelectionSourceHash = hashContent({ published, referenceReviews, membershipReceipt: approvalReceipt, aliasReviews, activeAliasIds, legacyRevisions, legacyContentRevisions })
+const selectionSourceHash = consolidation ? hashContent({ baseSelectionSourceHash, consolidationReview }) : baseSelectionSourceHash
 let selection = { complete: false, finalCount: null }
-try { selection = evaluatePracticalScope(scope, { sourceHash: selectionSourceHash, uniqueWords: unique.size, byLevel }) }
+try {
+  // Keep the original independent approval bound to its exact original corpus.
+  // A separately reviewed membership-only migration cannot rewrite that approval.
+  if (consolidation) {
+    const binding = scope.membershipConsolidation
+    if (!binding || binding.reviewHash !== consolidation.manifestHash || binding.baseSourceHash !== baseSelectionSourceHash ||
+        binding.baseUniqueWords !== unique.size - consolidation.addedWords ||
+        hashContent(binding.addedByLevel) !== hashContent(consolidation.addedByLevel))
+      throw new Error('Verb consolidation review is missing or stale')
+  } else if (scope.membershipConsolidation) throw new Error('Required verb consolidation review missing')
+  selection = evaluatePracticalScope(scope, { sourceHash: baseSelectionSourceHash,
+    uniqueWords: unique.size - (consolidation?.addedWords ?? 0), byLevel: consolidation?.baseByLevel ?? byLevel })
+  if (selection.finalCount !== null) selection.finalCount += consolidation?.addedWords ?? 0
+}
 catch (error) { issues.push(error.message) }
 const report = {
   schemaVersion: 2, targetPolicy: scope.policy, provisionalRange: scope.provisionalRange,
@@ -112,11 +132,15 @@ const report = {
   examples: entries.reduce((n, e) => n + e.examples, 0),
   byLevel,
   activeAliasGroups: aliasGroups.length,
+  ...(consolidation ? { membershipConsolidation: { addedWords: consolidation.addedWords, coveredWords: consolidation.coveredWords,
+    addedByLevel: consolidation.addedByLevel, reviewHash: consolidation.manifestHash,
+    reviewScope: consolidationReview.reviewScope, preservedIndependentSelectionHash: baseSelectionSourceHash } } : {}),
   revisedLegacy,
   revisedLegacyContent,
   examplePruning,
   complete: selection.complete && !issues.length,
-  completionScope: 'reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately',
+  completionScope: consolidation ? 'original-independent-content-selection plus separately reviewed user-authorized membership consolidation; no new independent content approval claimed'
+    : 'reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately',
   issues,
   remaining: selection.complete && !issues.length ? [] : [
     'Complete and independently review the selected practical N5-N1 content; no fixed count quota',

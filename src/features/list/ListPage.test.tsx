@@ -376,6 +376,15 @@ describe('ListPage', () => {
     expect(screen.getByText('home')).toBeInTheDocument()
   })
 
+  it('uses the normalized N5 selection for the archived verb book without displaying its original list', () => {
+    usePreferencesStore.setState({ lastSelectedSetId: 'AbsoluteVerb' })
+    renderPage()
+    expect(usePreferencesStore.getState().lastSelectedSetId).toBe('jlpt-level-n5')
+    expect(screen.getByText('N5', { exact: true })).toBeInTheDocument()
+    expect(screen.queryByText('동사대박살')).not.toBeInTheDocument()
+    expect(screen.getByText('620개 표시', { exact: true })).toBeInTheDocument()
+  })
+
   it.each(['theme-core', 'ComparingWords'])('falls back to the first wordbook for removed %s', (setId) => {
     usePreferencesStore.setState({
       themeMode: 'dark',

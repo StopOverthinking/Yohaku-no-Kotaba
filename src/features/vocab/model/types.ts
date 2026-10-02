@@ -10,6 +10,8 @@ export interface VocabularySet {
   wordIds: string[]
   /** Explicit membership can reference existing words without changing their owner. */
   membershipMode?: 'explicit'
+  /** Retain ownership and old sessions while removing the book from selection. */
+  archived?: boolean
 }
 
 export interface ThemeWordbook {

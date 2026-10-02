@@ -5,6 +5,7 @@ import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
 import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
 import { parseManuscript, applyReview, hashContent, lexicalKey, appendReviewedMembership, appendReviewedSources, validateLegacyMembership, validateExampleRevision } from './lib/jlpt-pilot.mjs'
+import { validateVerbConsolidation } from './lib/verb-consolidation.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = async (p) => JSON.parse(await fs.readFile(path.join(root, p), 'utf8'))
@@ -43,6 +44,8 @@ if (process.argv.includes('--publish')) {
     optionalRead(`${base}/legacy/active-aliases.json`, []),
   ])
   if (membershipReceipt.schemaVersion !== 1) throw new Error('Unknown membership receipt version')
+  const consolidationReview = await optionalRead(`${base}/legacy/verb-consolidation.json`, null)
+  validateVerbConsolidation(consolidationReview, sets, words, senses, membershipReceipt)
   const pruningJournals = await readExamplePruning(root)
   const pruning = verifyExamplePruning(words, senses, pruningJournals)
   const historicalSenseMap = new Map(pruning.historicalSenses.map(sense => [sense.id, sense]))
@@ -87,7 +90,8 @@ if (process.argv.includes('--publish')) {
     const referenceIds = references.filter((entry) => entry.level === level).map((entry) => entry.id)
     appendReviewedMembership(priorMembership.referenceIds, priorMembership.referenceIds, referenceIds)
     if (oldSet) {
-      const next = appendReviewedSources(oldSet.wordIds, priorIds, wordIds, priorMembership.referenceIds, priorMembership.wordIds)
+      const next = appendReviewedSources(oldSet.wordIds, priorIds, wordIds,
+        [...priorMembership.referenceIds, ...(priorMembership.consolidationIds ?? [])], priorMembership.wordIds)
       oldSet.wordIds = appendReviewedMembership(next, next, [...next, ...referenceIds.slice(priorMembership.referenceIds.length)])
       if (referenceIds.length) oldSet.membershipMode = 'explicit'
     } else {
@@ -95,7 +99,8 @@ if (process.argv.includes('--publish')) {
       sets.push({ id, name: level, order: sets.length, wordIdPrefix: `JLPTLevel${level}`, wordIds: [...wordIds, ...referenceIds],
         ...(referenceIds.length ? { membershipMode: 'explicit' } : {}), updatedAt: '2026-09-29T00:00:00.000Z' })
     }
-    membershipReceipt.byLevel[level] = { wordIds: [...sets.find((set) => set.id === id).wordIds], referenceIds }
+    membershipReceipt.byLevel[level] = { wordIds: [...sets.find((set) => set.id === id).wordIds], referenceIds,
+      ...(priorMembership.consolidationIds ? { consolidationIds: priorMembership.consolidationIds } : {}) }
   }
   // Recheck disk immediately before writing, so an editor save is never silently replaced.
   if (hashContent(await readExamplePruning(root)) !== hashContent(pruningJournals))
@@ -107,6 +112,8 @@ if (process.argv.includes('--publish')) {
   if (hashContent(await optionalRead(`${base}/legacy/alias-pilot-review.json`, [])) !== hashContent(aliasReviews) ||
       hashContent(await optionalRead(`${base}/legacy/active-aliases.json`, [])) !== hashContent(activeAliasIds))
     throw new Error('Alias approvals changed during import')
+  if (hashContent(await optionalRead(`${base}/legacy/verb-consolidation.json`, null)) !== hashContent(consolidationReview))
+    throw new Error('Verb consolidation review changed during import')
   await write(`${editor}/vocabularyWords.json`, words)
   await write(`${editor}/vocabularySets.json`, sets)
   await write(`${editor}/learnContent.json`, senses)

@@ -47,5 +47,19 @@
     },
     "selectionRationale": "약 5천 개 기준의 실용적 N5~N1 선택 범위를 단어·용법·예문 전량 검토, 기초 개념 누락 대조, 실제 변이 표기 중복 판정으로 확정했다. N3·명사 비중은 폭넓은 생활/업무 명사 후보와 실제 용법 재분류의 결과이며 균등 급수 교재가 아니다. 기존 ID·내용·학습 기록을 보존하면서 동일 핵심만 보수적으로 연결하고 서로 다른 핵심은 분리했다. 미선정 후보에는 중복·낮은 우선순위·수정 대기 및 일부 문법적 기능이 남으며 전체 사전·공식 JLPT 목록·모든 뜻의 완전 수록은 주장하지 않는다. あの 지시연체사는 기존 감탄사와 구별되는 미선정 후보로 보존하며, あれ/この/その 등을 포함한 실용 지시 범위를 선정했다. 마지막 확정 기초 보완 이후 선택적 희귀·전문 후보를 더 추가하지 않는다.",
     "unresolvedGaps": []
+  },
+  "membershipConsolidation": {
+    "reviewHash": "1afecfb0330f402a7431a9b34572a06a88fb0da155b8895fcc1cd227dd2e02f8",
+    "baseSourceHash": "48ddd2cbb8b9b019cfdaa052f58ed183fb03f5c0f3425a4589d4dacef45d10e2",
+    "baseUniqueWords": 4861,
+    "addedByLevel": {
+      "N5": 21,
+      "N4": 119,
+      "N3": 200,
+      "N2": 138,
+      "N1": 25
+    },
+    "authorization": "2026-10-02 사용자가 동사대박살의 비중복 단어를 적절한 N5~N1에 병합하고 원래 단어장을 목록에서 제거하도록 명시했다. 이후 판단 질문 없이 검증·Git push·게시·컴퓨터 종료를 지시했다.",
+    "reviewScope": "membership and editorial level decisions; existing content approvals retained, no new independent Astra approval claimed"
   }
 }
