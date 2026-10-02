@@ -1,4 +1,5 @@
-import { localDay, profileKey } from './contextEngine'
+import { profileKey } from './contextEngine'
+import { localDay } from './contextReviewPolicy'
 import type { ContextState, LearnSenseIndex, ReviewProfile } from './contextTypes'
 
 function calendarDay(day: string) {
@@ -20,6 +21,7 @@ export function scopedReviews(
   const dueWords = new Set<string>()
   let nextDue: string | undefined
   for (const profile of Object.values(profiles)) {
+    if (profile.mastered) continue
     const sense = senses.get(profile.senseId)
     if (!sense || profileKey(sense) !== `${profile.senseId}@${profile.version}`) continue
     const wordId = resolveWordId(sense.wordId)

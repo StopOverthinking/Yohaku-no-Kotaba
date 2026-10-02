@@ -1,5 +1,6 @@
+import { localDay } from './contextReviewPolicy'
 import { create } from 'zustand'
-import { answerContext, emptyContextState, localDay, startContext, undoContext, type StartContextOptions } from './contextEngine'
+import { answerContext, emptyContextState, startContext, undoContext, type StartContextOptions } from './contextEngine'
 import { ContextConflictError, type ContextSnapshot } from './contextDatabase'
 import type { ContextAliasGroup, ContextResult, ContextState, LearnSenseIndex } from './contextTypes'
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'

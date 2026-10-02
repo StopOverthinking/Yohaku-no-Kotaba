@@ -76,7 +76,7 @@ describe('LearnSetupPage', () => {
 
   it('shows due words near the count controls and follows the selected range, required ranges and favorites', async () => {
     const today = localDay()
-    const profiles = Object.fromEntries(contextSenses.slice(0, 6).map(sense => [profileKey(sense), reviewProfile(undefined, sense, sense.examples[0], true, false, addDays(today, -2))]))
+    const profiles = Object.fromEntries(contextSenses.slice(0, 6).map(sense => [profileKey(sense), reviewProfile(undefined, sense, sense.examples[0], true, false, addDays(today, -3))]))
     profiles[profileKey(contextSenses[5])].due = addDays(today, 1)
     useContextStore.setState({ data: { ...useContextStore.getState().data, profiles } })
     usePreferencesStore.setState({ learnDefaults: { ...usePreferencesStore.getState().learnDefaults, rangeEnabled: true, rangeStart: 2, rangeEnd: 3 } })

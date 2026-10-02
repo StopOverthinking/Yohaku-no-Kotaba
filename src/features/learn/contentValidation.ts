@@ -36,7 +36,7 @@ export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>)
         ) || parts.map((part) => part.text).join('') !== example[side]))
           issues.push(`${label}: 후리가나 원문/읽기 오류`)
       }
-      // Drafts must survive editor saves and XLSX round trips while being ineligible for study.
+      // Source drafts retain their IDs and links while remaining ineligible for study.
       if (example.status !== 'reviewed') continue
       if (!example.answer.trim() || !example.reading.trim() || !example.translation.trim())
         issues.push(`${label}: 정답/읽기/번역 누락`)

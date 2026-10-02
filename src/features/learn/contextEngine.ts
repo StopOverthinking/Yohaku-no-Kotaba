@@ -7,38 +7,10 @@ import type {
   ReviewProfile,
 } from './contextTypes'
 
-export const RECOMMENDATION_POLICY = {
-  // Beginner prior between the reviewed N5 (14) and N4 (18) difficulty medians.
-  initialLevel: 16,
-  calibrationWords: 20,
-  calibrationGain: 8,
-  ongoingGain: 2,
-  probabilityScale: 8,
-  calibrationTarget: 0.5,
-  ongoingTarget: 0.75,
-  failurePenalty: 0.25,
-  failureDayCap: 4,
-  intervals: [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 120, 150, 180],
-} as const
-export const SCHEDULE_VERSION = 2
-export const REVIEW_INTERVALS = RECOMMENDATION_POLICY.intervals
-export function reviewInterval(step: number, failedDays: number) {
-  return Math.max(
-    1,
-    Math.round(
-      REVIEW_INTERVALS[step] /
-        (1 +
-          RECOMMENDATION_POLICY.failurePenalty * Math.min(failedDays, RECOMMENDATION_POLICY.failureDayCap)),
-    ),
-  )
-}
-export function localDay(date = new Date()) {
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
-}
-export function addDays(day: string, days: number) {
-  const [y, m, d] = day.split('-').map(Number)
-  return localDay(new Date(y, m - 1, d + days, 12))
-}
+import { RECOMMENDATION_POLICY, SCHEDULE_VERSION, reviewProfile } from './contextReviewPolicy'
+// Keep existing engine imports compatible while consumers move to the policy boundary.
+export { RECOMMENDATION_POLICY, SCHEDULE_VERSION, REVIEW_INTERVALS, reviewInterval, localDay, addDays, reviewProfile } from './contextReviewPolicy'
+
 export const profileKey = (sense: LearnSenseIndex) => `${sense.id}@${sense.version}`
 export const expectedKnown = (level: number, difficulty: number) =>
   1 / (1 + Math.exp((difficulty - level) / RECOMMENDATION_POLICY.probabilityScale))
@@ -105,7 +77,7 @@ export function selectNext(
   for (const sense of senses) {
     if (!candidates.has(sense.wordId) || selectedWords.has(sense.wordId)) continue
     const profile = state.profiles[profileKey(sense)]
-    const priority = required.has(sense.wordId) ? 0 : profile && profile.due <= day ? 1 : !profile ? 2 : 3
+    const priority = required.has(sense.wordId) ? 0 : profile && !profile.mastered && profile.due <= day ? 1 : !profile ? 2 : 3
     if (priority === 3 && !session.allowEarly) continue
     if (first && priority > first.priority) continue
     const example = chooseExample(sense, profile, day)
@@ -159,7 +131,7 @@ export function startContext(
           (options.allowEarly ||
             requiredWordIds.includes(sense.wordId) ||
             !state.profiles[profileKey(sense)] ||
-            state.profiles[profileKey(sense)].due <= day),
+            (!state.profiles[profileKey(sense)].mastered && state.profiles[profileKey(sense)].due <= day)),
       )
       .map((sense) => sense.wordId),
   )
@@ -196,54 +168,6 @@ export function startContext(
   session.current = current
   session.cards = [current]
   return { ...initialState, session, history: [] }
-}
-
-export function reviewProfile(
-  previous: ReviewProfile | undefined,
-  sense: LearnSenseIndex,
-  example: LearnExampleIndex,
-  known: boolean,
-  hint: boolean,
-  day: string,
-): ReviewProfile {
-  const profile: ReviewProfile = previous
-    ? { ...previous, examples: { ...previous.examples } }
-    : {
-        senseId: sense.id,
-        version: sense.version,
-        due: addDays(day, 1),
-        step: 0,
-        lastDay: '',
-        dailyAttempts: 0,
-        failedDay: null,
-        levelDay: '',
-        failedDays: 0,
-        failures: 0,
-        lastExampleId: '',
-        examples: {},
-      }
-  const isFirstToday = profile.lastDay !== day
-  profile.dailyAttempts = isFirstToday ? 1 : profile.dailyAttempts + 1
-  if (!known) {
-    profile.failures++
-    if (profile.failedDay !== day) profile.failedDays++
-    profile.failedDay = day
-    profile.step = 0
-    profile.due = addDays(day, 1)
-  } else if (previous && isFirstToday && profile.due <= day) {
-    profile.step = Math.min(REVIEW_INTERVALS.length - 1, profile.step + 1)
-    const days = reviewInterval(profile.step, profile.failedDays)
-    profile.due = addDays(day, days)
-  }
-  const exampleStats = profile.examples[example.id] ?? { seen: 0, failures: 0, hints: 0 }
-  profile.examples[example.id] = {
-    seen: exampleStats.seen + 1,
-    failures: exampleStats.failures + (known ? 0 : 1),
-    hints: exampleStats.hints + (hint ? 1 : 0),
-  }
-  profile.lastDay = day
-  profile.lastExampleId = example.id
-  return profile
 }
 
 export function answerContext(

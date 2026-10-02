@@ -60,12 +60,15 @@
 - `docs/wiki/features/list-mode.md`
 - `docs/wiki/features/learn-mode.md`
 - `docs/wiki/features/share-panel.md`
-- `docs/wiki/features/editor.md`
 - `docs/wiki/features/preferences-and-debug.md`
 
 ## 템플릿
 
 - `docs/wiki/templates/feature-template.md`
+
+## 개발 계획
+
+- [유지보수·개발 효율 최적화 계획](../plans/maintenance-efficiency.md): 이번 변경의 범위·검증과 후속 제안. 완료 사항과 미구현 제안을 구분하며 현재 구현 계약을 대체하지 않는다.
 
 ## 읽기 규칙
 

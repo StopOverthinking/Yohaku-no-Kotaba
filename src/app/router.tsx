@@ -1,5 +1,4 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom'
-import { lazy, Suspense } from 'react'
 import { App } from '@/app/App'
 import { HomePage } from '@/features/home/HomePage'
 import { LearnResultPage } from '@/features/learn/LearnResultPage'
@@ -8,20 +7,8 @@ import { ReviewListPage } from '@/features/learn/ReviewListPage'
 import { LearnSetupPage } from '@/features/learn/LearnSetupPage'
 import { ListPage } from '@/features/list/ListPage'
 
-const EditorScreen = lazy(() =>
-  import('@/features/editor/EditorScreen').then((module) => ({ default: module.EditorScreen })),
-)
-
 export const router = createBrowserRouter(
   [
-    {
-      path: '/editor',
-      element: (
-        <Suspense fallback={null}>
-          <EditorScreen />
-        </Suspense>
-      ),
-    },
     {
       path: '/',
       element: <App />,

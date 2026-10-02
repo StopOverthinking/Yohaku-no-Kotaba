@@ -66,6 +66,8 @@ export function migrateContextAliases(state: ContextState, catalog: ContextAlias
         failedDay: previous.flatMap(p => p.failedDay ? [p.failedDay] : []).sort().at(-1) ?? null,
         levelDay: previous.map(p => p.levelDay).sort().at(-1)!, examples,
       }
+      if (previous.every(p => p.mastered === true)) merged.mastered = true
+      else delete merged.mastered
       for (const member of group.members) delete profiles[key(member)]
       profiles[key(target)] = merged
     }

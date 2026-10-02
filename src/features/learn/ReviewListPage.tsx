@@ -5,7 +5,7 @@ import { IconButton } from '@/components/IconButton'
 import { GlassPanel } from '@/components/GlassPanel'
 import { useContextStore } from './contextStore'
 import { contextSenses, contextWordMap } from './contextContent'
-import { localDay } from './contextEngine'
+import { localDay } from './contextReviewPolicy'
 import { reviewList } from './reviewList'
 import styles from './progress.module.css'
 
@@ -27,7 +27,7 @@ export function ReviewListPage() {
           <h1 className="page-header__title">
             복습 예정 단어 <small>{rows.length}</small>
           </h1>
-          <p className="page-header__caption">복습 간격 30일 이하 · 예정일 순</p>
+          <p className="page-header__caption">예정일 순</p>
         </div>
       </div>
       <input
@@ -37,7 +37,7 @@ export function ReviewListPage() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      {!rows.length && <p>아직 복습 간격이 30일 이하인 학습 단어가 없습니다.</p>}
+      {!rows.length && <p>복습 예정인 단어가 없습니다.</p>}
       {rows.length > 0 && !filtered.length && <p>검색 결과가 없습니다.</p>}
       <ul className={styles.list}>
         {filtered.map(({ sense, profile, interval }) => {

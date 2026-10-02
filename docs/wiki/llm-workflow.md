@@ -24,7 +24,6 @@
 - 목록: `features/list-mode.md`
 - 일반 학습: `features/learn-mode.md`
 - 공유: `features/share-panel.md`
-- 에디터: `features/editor.md`
 - 설정: `features/preferences-and-debug.md`
 
 ## 위키를 먼저 보는 이유
@@ -53,4 +52,4 @@
 
 - 위키를 읽지 않고 바로 전역 검색부터 시작하기
 - `탭 매치 러시` 코드를 기준으로 공통 설계를 추론하기
-- 에디터를 모바일 기준으로 재구성하는 설계
+- 제거된 에디터 앱을 유지보수 대상으로 되살리는 설계

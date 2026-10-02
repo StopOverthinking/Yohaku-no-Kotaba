@@ -38,7 +38,7 @@ describe('context scheduling', () => {
     expect(started.session!.current.senseId).toBe(added.id)
     const answered = answerContext(started, true, content, day)
     expect(answered.profiles[profileKey(original)]).toEqual(profile)
-    expect(answered.profiles[profileKey(added)].due).toBe(addDays(day, 1))
+    expect(answered.profiles[profileKey(added)].due).toBe(addDays(day, 3))
     expect(answered.level.assessedWordIds).toEqual([original.wordId])
     expect(undoContext(answered)).toEqual(started)
   })
@@ -129,7 +129,7 @@ describe('context scheduling', () => {
     expect(state.profiles['sense-b@1']).toMatchObject({
       due: '2026-09-29',
       step: 0,
-      failures: 16,
+      failures: 1,
       failedDays: 1,
       dailyAttempts: 17,
     })
@@ -139,24 +139,24 @@ describe('context scheduling', () => {
     const sense = senses[1],
       example = sense.examples[0]
     const first = reviewProfile(undefined, sense, example, true, false, day)
-    expect(first.due).toBe('2026-09-29')
+    expect(first.due).toBe('2026-10-01')
     expect(chooseExample(sense, first, day).id).toBe(example.id)
     expect(chooseExample(sense, first, '2026-09-29').id).toBe(sense.examples[1].id)
-    const due = reviewProfile(first, sense, sense.examples[1], true, true, '2026-09-29')
-    expect(due).toMatchObject({ step: 1, due: '2026-10-01' })
-    const early = reviewProfile(due, sense, example, true, false, '2026-09-30')
-    expect(early.due).toBe('2026-10-01')
-    const failed = reviewProfile(early, sense, example, false, false, '2026-09-30')
-    expect(failed).toMatchObject({ step: 0, due: '2026-10-01', failedDays: 1 })
+    const due = reviewProfile(first, sense, sense.examples[1], true, true, '2026-10-01')
+    expect(due).toMatchObject({ step: 4, due: '2026-10-08' })
+    const early = reviewProfile(due, sense, example, true, false, '2026-10-02')
+    expect(early.due).toBe('2026-10-08')
+    const failed = reviewProfile(early, sense, example, false, false, '2026-10-03')
+    expect(failed).toMatchObject({ step: 0, due: '2026-10-04', failedDays: 1 })
   })
 
-  it('uses actual review date for overdue intervals and shortens after failed dates', () => {
+  it('uses actual review date for overdue intervals and restarts the one-failure flow regardless of past failed dates', () => {
     const sense = senses[0]
     let profile = reviewProfile(undefined, sense, sense.examples[0], false, false, day)
     profile = reviewProfile(profile, sense, sense.examples[0], false, false, '2026-09-29')
     profile = reviewProfile(profile, sense, sense.examples[1], true, false, '2026-10-10')
     expect(profile.failedDays).toBe(2)
-    expect(profile.due).toBe('2026-10-11')
+    expect(profile.due).toBe('2026-10-12')
     expect(addDays('2026-12-31', 1)).toBe('2027-01-01')
     expect(addDays('2028-02-28', 1)).toBe('2028-02-29')
   })
@@ -271,12 +271,12 @@ describe('context scheduling', () => {
 
   it('same-date sessions cannot promote an interval twice, and the next day resets daily count', () => {
     const sense = senses[1]
-    let profile = reviewProfile(undefined, sense, sense.examples[0], true, false, '2026-09-27')
+    let profile = reviewProfile(undefined, sense, sense.examples[0], true, false, '2026-09-25')
     profile = reviewProfile(profile, sense, sense.examples[1], true, false, day)
     const due = profile.due
     for (let i = 0; i < 4; i++) profile = reviewProfile(profile, sense, sense.examples[1], true, false, day)
-    expect(profile).toMatchObject({ step: 1, due, dailyAttempts: 5 })
+    expect(profile).toMatchObject({ step: 4, due, dailyAttempts: 5 })
     profile = reviewProfile(profile, sense, sense.examples[0], true, false, '2026-09-29')
-    expect(profile).toMatchObject({ step: 1, due, dailyAttempts: 1 })
+    expect(profile).toMatchObject({ step: 4, due, dailyAttempts: 1 })
   })
 })

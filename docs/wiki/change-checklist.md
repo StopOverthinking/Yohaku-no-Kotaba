@@ -26,10 +26,11 @@
 - `docs/wiki/features/share-panel.md`
 - `docs/wiki/storage-and-share.md`
 
-## 에디터 변경
+## 어휘 원본 변경
 
-- `docs/wiki/features/editor.md`
-- 데이터 형식 변경이면 `docs/wiki/features/vocab-data.md`
+- `docs/wiki/features/vocab-data.md`
+- 원본 변경 후 런타임을 생성하고 콘텐츠 감사를 실행한다.
+- ID·소속·목록 순서·버전·기존 승인 이력을 보존한다.
 
 ## 설정 변경
 

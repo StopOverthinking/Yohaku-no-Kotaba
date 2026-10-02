@@ -1,10 +1,19 @@
 import type { ContextState } from './contextTypes'
-import { REVIEW_INTERVALS, SCHEDULE_VERSION } from './contextEngine'
+import { REVIEW_INTERVALS, SCHEDULE_VERSION } from './contextReviewPolicy'
 import { expandContextState } from './contextSerialization'
 
 export const CONTEXT_STORAGE_KEY = 'jsp-react:context-learn-v2'
 
 const LEGACY_INTERVALS = [1, 3, 7, 14, 30, 60, 120, 180] as const
+
+export class UnsupportedContextVersionError extends Error {
+  constructor(readonly kind: 'state' | 'schedule') {
+    super(kind === 'schedule'
+      ? '이 앱에서 지원하지 않는 복습 정책 버전입니다.'
+      : '이 앱에서 지원하지 않는 학습 기록 버전입니다.')
+    this.name = 'UnsupportedContextVersionError'
+  }
+}
 
 type RecordValue = Record<string, unknown>
 const record = (value: unknown): value is RecordValue =>
@@ -36,6 +45,7 @@ function profile(value: unknown, stepCount: number): boolean {
     (value.step as number) >= stepCount ||
     !count(value.failures) ||
     !count(value.failedDays) ||
+    (value.mastered !== undefined && typeof value.mastered !== 'boolean') ||
     !positive(value.dailyAttempts) ||
     typeof value.lastExampleId !== 'string' ||
     !record(value.examples)
@@ -65,11 +75,19 @@ function session(value: unknown): boolean {
 }
 
 export function parseContextState(raw: string): ContextState {
-  const state: unknown = expandContextState(JSON.parse(raw))
+  const parsed: unknown = JSON.parse(raw)
+  // Reject unknown contracts before attempting to expand their undo encoding.
+  if (record(parsed)) {
+    if (Number.isInteger(parsed.version) && parsed.version !== 2 && parsed.version !== 3)
+      throw new UnsupportedContextVersionError('state')
+    if (Number.isInteger(parsed.scheduleVersion) && parsed.scheduleVersion !== 1 && parsed.scheduleVersion !== 2 && parsed.scheduleVersion !== SCHEDULE_VERSION)
+      throw new UnsupportedContextVersionError('schedule')
+  }
+  const state: unknown = expandContextState(parsed)
   if (
     !record(state) ||
     (state.version !== 2 && state.version !== 3) ||
-    (state.scheduleVersion !== undefined && state.scheduleVersion !== 1 && state.scheduleVersion !== SCHEDULE_VERSION) ||
+    (state.scheduleVersion !== undefined && state.scheduleVersion !== 1 && state.scheduleVersion !== 2 && state.scheduleVersion !== SCHEDULE_VERSION) ||
     !count(state.revision) ||
     !level(state.level) ||
     (state.lastScoreChange !== undefined &&
@@ -82,7 +100,7 @@ export function parseContextState(raw: string): ContextState {
     (state.session !== null && !session(state.session))
   )
     throw new Error('학습 기록을 읽을 수 없습니다.')
-  const legacy = state.scheduleVersion !== SCHEDULE_VERSION
+  const legacy = state.scheduleVersion === undefined || state.scheduleVersion === 1
   const stepCount = legacy ? LEGACY_INTERVALS.length : REVIEW_INTERVALS.length
   if (
     !Object.entries(state.profiles).every(
@@ -91,7 +109,7 @@ export function parseContextState(raw: string): ContextState {
   )
     throw new Error('학습 기록 형식이 올바르지 않습니다.')
   if (state.version === 3) {
-    if (state.scheduleVersion !== SCHEDULE_VERSION || !record(state.aliasMigrations) || !Object.keys(state.aliasMigrations).length)
+    if (legacy || !record(state.aliasMigrations) || !Object.keys(state.aliasMigrations).length)
       throw new Error('단어 연결 원본 기록이 없습니다.')
     const archivedWords = new Set<string>()
     for (const [id, migration] of Object.entries(state.aliasMigrations)) {

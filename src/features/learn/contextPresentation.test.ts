@@ -23,7 +23,7 @@ describe('learning presentation', () => {
     profiles[profileKey(senses[3])].due = '2026-10-03'
     profiles['a@0'] = { ...profiles[profileKey(senses[0])], version: 0, due: '2026-01-01' }
     const resolve = (id: string) => id === 'alias' ? 'a' : id
-    expect(scopedReviews(profiles, new Map(senses.map(s => [s.id, s])), new Set(['a', 'future']), resolve, '2026-10-02')).toEqual({ dueCount: 1, nextDue: '2026-09-30' })
+    expect(scopedReviews(profiles, new Map(senses.map(s => [s.id, s])), new Set(['a', 'future']), resolve, '2026-10-02')).toEqual({ dueCount: 1, nextDue: '2026-10-02' })
     expect(scopedReviews(profiles, new Map(senses.map(s => [s.id, s])), new Set(['future']), resolve, '2026-10-02')).toEqual({ dueCount: 0, nextDue: '2026-10-03' })
     expect(scopedReviews(profiles, new Map(senses.map(s => [s.id, s])), new Set(), resolve, '2026-10-02')).toEqual({ dueCount: 0, nextDue: undefined })
   })

@@ -1,7 +1,7 @@
 import { IDBFactory } from 'fake-indexeddb'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { ContextDatabase } from '@/features/learn/contextDatabase'
-import { CONTEXT_STORAGE_KEY } from '@/features/learn/contextPersistence'
+import { CONTEXT_STORAGE_KEY, UnsupportedContextVersionError } from '@/features/learn/contextPersistence'
 import { CONTEXT_MIGRATED_MARKER, ContextRepository } from '@/features/learn/contextRepository'
 import { emptyContextState } from '@/features/learn/contextEngine'
 import { serializeContextState } from '@/features/learn/contextSerialization'
@@ -115,5 +115,21 @@ describe('cross-storage backup restore', () => {
     await expect(backup.restore({ unrelated: 'overwrite' }, emptyContextState())).rejects.toThrow()
     expect(await db.readRestore()).toBeNull()
     expect(localStorage.getItem('unrelated')).toBe('keep')
+  })
+
+  it.each(['version', 'scheduleVersion'])('preserves live DB and settings when backup %s is unsupported', async field => {
+    const before = await db.read()
+    const begin = vi.spyOn(db, 'beginRestore')
+    const raw = JSON.stringify({ ...target(), [field]: 99 })
+    await expect(backup.restore({ ...entries(), [CONTEXT_STORAGE_KEY]: raw }, emptyContextState()))
+      .rejects.toThrow(UnsupportedContextVersionError)
+    expect(begin).not.toHaveBeenCalled()
+    expect(await db.read()).toEqual(before)
+    expect(await db.readRestore()).toBeNull()
+    expect(localStorage.getItem('jsp-react:preferences')).toBe('before')
+    expect(localStorage.getItem(CONTEXT_STORAGE_KEY)).toBe(CONTEXT_MIGRATED_MARKER)
+    expect(localStorage.getItem('unrelated')).toBe('keep')
+    await backup.restore(entries(), emptyContextState())
+    expect((await db.read())?.data.level.value).toBe(61)
   })
 })

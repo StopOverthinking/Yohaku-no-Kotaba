@@ -13,18 +13,19 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 const workspaceRoot = path.resolve(projectRoot, '..')
-const editorDataDir = path.join(projectRoot, 'src', 'features', 'vocab', 'editor-data')
+// Historical path retained for canonical JSON and immutable source/audit references.
+const sourceDataDir = path.join(projectRoot, 'src', 'features', 'vocab', 'editor-data')
 const outputDir = path.join(projectRoot, 'src', 'features', 'vocab', 'data')
 
-const editorPaths = {
-  learnContent: path.join(editorDataDir, 'learnContent.json'),
-  sets: path.join(editorDataDir, 'vocabularySets.json'),
-  words: path.join(editorDataDir, 'vocabularyWords.json'),
-  themeWordbooks: path.join(editorDataDir, 'themeWordbooks.json'),
-  themeWords: path.join(editorDataDir, 'themeWords.json'),
-  comparisonWordbooks: path.join(editorDataDir, 'comparisonWordbooks.json'),
-  comparisonWords: path.join(editorDataDir, 'comparisonWords.json'),
-  comparisonPairs: path.join(editorDataDir, 'comparisonPairs.json'),
+const sourcePaths = {
+  learnContent: path.join(sourceDataDir, 'learnContent.json'),
+  sets: path.join(sourceDataDir, 'vocabularySets.json'),
+  words: path.join(sourceDataDir, 'vocabularyWords.json'),
+  themeWordbooks: path.join(sourceDataDir, 'themeWordbooks.json'),
+  themeWords: path.join(sourceDataDir, 'themeWords.json'),
+  comparisonWordbooks: path.join(sourceDataDir, 'comparisonWordbooks.json'),
+  comparisonWords: path.join(sourceDataDir, 'comparisonWords.json'),
+  comparisonPairs: path.join(sourceDataDir, 'comparisonPairs.json'),
 }
 
 const sourceFiles = [
@@ -116,15 +117,15 @@ async function readJsonFile(filePath, fallback) {
   }
 }
 
-async function readEditorSource() {
+async function readVocabSource() {
   const [sets, words, themeWordbooks, themeWords, comparisonWordbooks, comparisonWords, comparisonPairs] = await Promise.all([
-    readJsonFile(editorPaths.sets, null),
-    readJsonFile(editorPaths.words, null),
-    readJsonFile(editorPaths.themeWordbooks, []),
-    readJsonFile(editorPaths.themeWords, []),
-    readJsonFile(editorPaths.comparisonWordbooks, []),
-    readJsonFile(editorPaths.comparisonWords, []),
-    readJsonFile(editorPaths.comparisonPairs, []),
+    readJsonFile(sourcePaths.sets, null),
+    readJsonFile(sourcePaths.words, null),
+    readJsonFile(sourcePaths.themeWordbooks, []),
+    readJsonFile(sourcePaths.themeWords, []),
+    readJsonFile(sourcePaths.comparisonWordbooks, []),
+    readJsonFile(sourcePaths.comparisonWords, []),
+    readJsonFile(sourcePaths.comparisonPairs, []),
   ])
 
   if (!sets || !words) {
@@ -132,7 +133,7 @@ async function readEditorSource() {
   }
 
   return {
-    learnContent: await readJsonFile(editorPaths.learnContent, []),
+    learnContent: await readJsonFile(sourcePaths.learnContent, []),
     sets,
     words,
     themeWordbooks,
@@ -156,7 +157,7 @@ async function writeOutputFiles(data) {
     `import type { ExampleRetirement } from '../../learn/contextExampleRetirements'\n\nexport const exampleRetirements: ExampleRetirement[] = ${toTsLiteral(pruning.retirements)}\n`)
   await writeGeneratedFile(path.join(outputDir, 'learnAliases.ts'),
     `import type { ContextAliasGroup } from '../../learn/contextTypes'\n\nexport const learnAliases: ContextAliasGroup[] = ${toTsLiteral(aliases)}\n`)
-  await fs.mkdir(editorDataDir, { recursive: true })
+  await fs.mkdir(sourceDataDir, { recursive: true })
   await fs.mkdir(outputDir, { recursive: true })
   const retiredIds = new Set(pruning.retirements.map(row => row.exampleId))
   const furiganaOverrides = await readJsonFile(path.join(projectRoot, 'content/learn/furigana-overrides.json'), [])
@@ -196,13 +197,13 @@ async function writeOutputFiles(data) {
 
   await Promise.all([
     writeGeneratedFile(path.join(outputDir, 'learnContent.ts'), `import type { LearnSense } from '../../learn/contextTypes'\n\nexport const learnContent: LearnSense[] = ${toTsLiteral(data.learnContent ?? [])}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.sets, `${JSON.stringify(data.sets, null, 2)}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.words, `${JSON.stringify(data.words, null, 2)}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.themeWordbooks, `${JSON.stringify(data.themeWordbooks, null, 2)}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.themeWords, `${JSON.stringify(data.themeWords, null, 2)}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.comparisonWordbooks, `${JSON.stringify(data.comparisonWordbooks, null, 2)}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.comparisonWords, `${JSON.stringify(data.comparisonWords, null, 2)}\n`, 'utf8'),
-    writeGeneratedFile(editorPaths.comparisonPairs, `${JSON.stringify(data.comparisonPairs, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.sets, `${JSON.stringify(data.sets, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.words, `${JSON.stringify(data.words, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.themeWordbooks, `${JSON.stringify(data.themeWordbooks, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.themeWords, `${JSON.stringify(data.themeWords, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.comparisonWordbooks, `${JSON.stringify(data.comparisonWordbooks, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.comparisonWords, `${JSON.stringify(data.comparisonWords, null, 2)}\n`, 'utf8'),
+    writeGeneratedFile(sourcePaths.comparisonPairs, `${JSON.stringify(data.comparisonPairs, null, 2)}\n`, 'utf8'),
     writeGeneratedFile(path.join(outputDir, 'vocabularySets.ts'), setsFile, 'utf8'),
     writeGeneratedFile(path.join(outputDir, 'vocabularyWords.ts'), wordsFile, 'utf8'),
     writeGeneratedFile(path.join(outputDir, 'themeWordbooks.ts'), themeWordbooksFile, 'utf8'),
@@ -215,28 +216,28 @@ async function writeOutputFiles(data) {
 }
 
 async function main() {
-  const editorSource = await readEditorSource()
+  const vocabSource = await readVocabSource()
   const legacySets = await collectLegacySets()
 
-  if (!editorSource && legacySets.length > 0) {
+  if (!vocabSource && legacySets.length > 0) {
     const legacyData = buildDataFromLegacySets(legacySets)
     await writeOutputFiles({
       sets: legacyData.sets,
       words: legacyData.words,
-      themeWordbooks: editorSource?.themeWordbooks ?? [],
-      themeWords: editorSource?.themeWords ?? [],
-      comparisonWordbooks: editorSource?.comparisonWordbooks ?? [],
-      comparisonWords: editorSource?.comparisonWords ?? [],
-      comparisonPairs: editorSource?.comparisonPairs ?? [],
+      themeWordbooks: vocabSource?.themeWordbooks ?? [],
+      themeWords: vocabSource?.themeWords ?? [],
+      comparisonWordbooks: vocabSource?.comparisonWordbooks ?? [],
+      comparisonWords: vocabSource?.comparisonWords ?? [],
+      comparisonPairs: vocabSource?.comparisonPairs ?? [],
     })
     return
   }
 
-  if (!editorSource) {
+  if (!vocabSource) {
     return
   }
 
-  await writeOutputFiles(editorSource)
+  await writeOutputFiles(vocabSource)
 }
 
 main().catch((error) => {

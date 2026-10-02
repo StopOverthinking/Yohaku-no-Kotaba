@@ -30,6 +30,19 @@ function existing() {
 }
 
 describe('reviewed equivalent-word progress migration', () => {
+  it('preserves policy-v2 alias archives and only merges completion when every existing profile is complete', () => {
+    const state = existing()
+    state.profiles[keyA].mastered = true
+    const pending = migrateContextAliases(state, catalog, day)
+    expect(pending.profiles[keyB].mastered).toBeUndefined()
+    const old = JSON.parse(serializeContextState(pending))
+    old.scheduleVersion = 2
+    expect(parseContextState(JSON.stringify(old))).toEqual(pending)
+    state.profiles[keyB].mastered = true
+    const complete = migrateContextAliases(state, catalog, day)
+    expect(complete.profiles[keyB].mastered).toBe(true)
+    expect(parseContextState(serializeContextState(complete))).toEqual(complete)
+  })
   it('adds a later reviewed group to an existing v3 record without changing the earlier archive', () => {
     const first = migrateContextAliases(existing(), catalog, day)
     const extra = [testSense('c'), testSense('d')]

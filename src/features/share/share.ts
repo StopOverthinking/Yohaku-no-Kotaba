@@ -1,4 +1,4 @@
-import { CONTEXT_STORAGE_KEY, parseContextState } from '@/features/learn/contextPersistence'
+import { CONTEXT_STORAGE_KEY, parseContextState, UnsupportedContextVersionError } from '@/features/learn/contextPersistence'
 
 export const SHARE_STORAGE_PREFIX = 'jsp-react:'
 export const SHARE_SCHEMA_VERSION = 'jsp-react-backup-v1'
@@ -345,12 +345,30 @@ export function parseRestorePayload(text: string): RestoreParseResult {
     }
   }
 
+  // Numeric v1 belongs to the supported legacy envelope; schema-less entries
+  // remain supported. A future envelope must never become a partial import.
+  if (parsed.schemaVersion !== undefined && parsed.schemaVersion !== SHARE_SCHEMA_VERSION && parsed.schemaVersion !== 1) {
+    return {
+      ok: false,
+      error: typeof parsed.schemaVersion === 'string' || Number.isInteger(parsed.schemaVersion)
+        ? '이 앱에서 지원하지 않는 백업 버전입니다. 현재 학습 기록과 설정은 그대로 유지됩니다. 이 백업을 만든 앱 버전을 사용하거나 다른 백업을 선택해 주세요.'
+        : '백업 버전의 형식이 올바르지 않습니다. 현재 학습 기록과 설정은 그대로 유지됩니다. 다른 백업을 선택해 주세요.',
+    }
+  }
+
   const rawEntries = isRecord(parsed.data) ? parsed.data : parsed
   const normalizedEntries = normalizeLegacyEntries(rawEntries)
   const contextRaw = normalizedEntries[CONTEXT_STORAGE_KEY]
-  if (contextRaw) {
+  if (contextRaw !== undefined) {
     try { parseContextState(contextRaw) }
-    catch { return { ok: false, error: '문장 학습 기록의 형식이 올바르지 않습니다. 기존 기록은 변경하지 않았습니다.' } }
+    catch (error) {
+      return {
+        ok: false,
+        error: error instanceof UnsupportedContextVersionError
+          ? `${error.message} 현재 학습 기록과 설정은 그대로 유지됩니다. 이 백업을 만든 앱 버전을 사용하거나 다른 백업을 선택해 주세요.`
+          : '문장 학습 기록의 형식이 올바르지 않습니다. 현재 학습 기록과 설정은 그대로 유지됩니다. 다른 백업을 선택해 주세요.',
+      }
+    }
   }
   const keyCount = Object.keys(normalizedEntries).length
 
@@ -381,7 +399,7 @@ export function parseRestorePayload(text: string): RestoreParseResult {
 
 export function applyImportedBackup(entries: Record<string, string>, storage?: WritableStorageLike) {
   const target = resolveWritableStorage(storage)
-  if (entries[CONTEXT_STORAGE_KEY]) parseContextState(entries[CONTEXT_STORAGE_KEY])
+  if (entries[CONTEXT_STORAGE_KEY] !== undefined) parseContextState(entries[CONTEXT_STORAGE_KEY])
   const previous: Record<string, string> = {}
   for (let index = 0; index < target.length; index += 1) {
     const key = target.key(index)

@@ -467,6 +467,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
     const parsed = parseRestorePayload(rawText)
     if (!parsed.ok) {
       setStatus({ tone: 'error', message: parsed.error })
+      if (sourceLabel === 'QR') setQrImportError(parsed.error)
       return false
     }
 
@@ -488,7 +489,9 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
 
     try { await restoreAppBackup(parsed.data) }
     catch (error) {
-      setStatus({ tone: 'error', message: error instanceof Error ? error.message : '백업을 복원하지 못했습니다.' })
+      const message = error instanceof Error ? error.message : '백업을 복원하지 못했습니다.'
+      setStatus({ tone: 'error', message })
+      if (sourceLabel === 'QR') setQrImportError(message)
       return false
     }
     window.location.reload()
@@ -677,7 +680,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
         </div>
 
         {status ? (
-          <p className={styles.status} data-tone={status.tone}>
+          <p className={styles.status} data-tone={status.tone} role={status.tone === 'error' ? 'alert' : 'status'}>
             {status.message}
           </p>
         ) : null}
@@ -766,7 +769,7 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
                   <span className="miniChip">{qrImportCountLabel}</span>
                 </div>
 
-                <p className={styles.status} data-tone={qrImportError ? 'error' : 'info'}>
+                <p className={styles.status} data-tone={qrImportError ? 'error' : 'info'} role={qrImportError ? 'alert' : 'status'}>
                   {qrImportError ?? qrImportStatus}
                 </p>
 
@@ -849,6 +852,10 @@ export function SharePanel({ mode = 'panel' }: SharePanelProps) {
               onChange={(event) => setManualImportText(event.target.value)}
               placeholder="백업 JSON"
             />
+
+            {status?.tone === 'error' ? (
+              <p className={styles.status} data-tone="error" role="alert">{status.message}</p>
+            ) : null}
 
             <div className={styles.modalButtonRow}>
               <button type="button" className="pill" onClick={() => void handleManualImportSubmit()}>

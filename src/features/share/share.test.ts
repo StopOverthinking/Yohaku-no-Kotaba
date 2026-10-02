@@ -1,4 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { emptyContextState } from '@/features/learn/contextEngine'
+import { CONTEXT_STORAGE_KEY } from '@/features/learn/contextPersistence'
 import {
   applyImportedBackup,
   buildBackupEnvelope,
@@ -25,6 +27,38 @@ function createStorage(entries: Record<string, string>) {
 describe('share utils', () => {
   beforeEach(() => {
     vi.unstubAllGlobals()
+  })
+
+  it.each(['version', 'scheduleVersion'])('explains unsupported %s without accepting a settings-only partial import', field => {
+    const payload = JSON.stringify({ data: {
+      'jsp-react:preferences': 'after',
+      [CONTEXT_STORAGE_KEY]: JSON.stringify({ ...emptyContextState(), [field]: 99 }),
+    } })
+    expect(parseRestorePayload(payload)).toMatchObject({
+      ok: false, error: expect.stringMatching(/지원하지 않는.*현재 학습 기록과 설정은 그대로 유지.*다른 백업/),
+    })
+  })
+
+  it('rejects a future envelope and keeps current and legacy envelope formats supported', () => {
+    const data = { 'jsp-react:favorites': '[]' }
+    expect(parseRestorePayload(JSON.stringify({ schemaVersion: 'jsp-react-backup-v99', data })))
+      .toMatchObject({ ok: false, error: expect.stringMatching(/지원하지 않는 백업 버전.*그대로 유지/) })
+    for (const schemaVersion of [SHARE_SCHEMA_VERSION, 1, undefined]) {
+      expect(parseRestorePayload(JSON.stringify({ schemaVersion, data }))).toMatchObject({ ok: true, data })
+    }
+    expect(parseRestorePayload(JSON.stringify(data))).toMatchObject({ ok: true, data })
+    expect(parseRestorePayload(JSON.stringify({ schemaVersion: {}, data })))
+      .toMatchObject({ ok: false, error: expect.stringMatching(/형식이 올바르지/) })
+  })
+
+  it.each(['', '{bad', JSON.stringify({ ...emptyContextState(), profiles: { invalid: {} } })])('rejects malformed learning data before applying settings (%s)', raw => {
+    const values = { 'jsp-react:preferences': 'before', [CONTEXT_STORAGE_KEY]: 'existing-record' }
+    const storage = { ...createStorage(values), setItem: vi.fn(), removeItem: vi.fn() }
+    const entries = { 'jsp-react:preferences': 'after', [CONTEXT_STORAGE_KEY]: raw }
+    expect(parseRestorePayload(JSON.stringify({ data: entries }))).toMatchObject({ ok: false })
+    expect(() => applyImportedBackup(entries, storage)).toThrow()
+    expect(storage.setItem).not.toHaveBeenCalled()
+    expect(storage.removeItem).not.toHaveBeenCalled()
   })
 
   it('rolls back a partially written backup when storage is full', () => {

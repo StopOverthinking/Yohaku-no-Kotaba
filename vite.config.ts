@@ -10,14 +10,6 @@ const pagesBase = process.env.GITHUB_PAGES === 'true' && githubRepository
 export default defineConfig({
   base: pagesBase,
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html'),
-        editor: path.resolve(__dirname, 'editor.html'),
-      },
-    },
-  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

@@ -1,14 +1,15 @@
-import { profileKey, reviewInterval } from './contextEngine'
+import { profileKey } from './contextEngine'
+import { reviewInterval } from './contextReviewPolicy'
 import type { ContextState, LearnSenseIndex } from './contextTypes'
 
-// A mastered 60-day item stays hidden even when its due date approaches.
+// Keep every pending review visible until its flow explicitly finishes.
 export function reviewList<T extends LearnSenseIndex>(state: ContextState, senses: T[]) {
   return senses
     .flatMap((sense) => {
       const profile = state.profiles[profileKey(sense)]
-      if (!profile) return []
-      const interval = reviewInterval(profile.step, profile.failedDays)
-      return interval <= 30 ? [{ sense, profile, interval }] : []
+      if (!profile || profile.mastered) return []
+      const interval = reviewInterval(profile.step, profile.failures)
+      return [{ sense, profile, interval }]
     })
     .sort(
       (a, b) =>

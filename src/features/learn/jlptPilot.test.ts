@@ -2,8 +2,17 @@ import { describe, expect, it } from 'vitest'
 import { allWords, getWordsForSet } from '@/features/vocab/model/selectors'
 import { contextSenses, contextSenseMap } from './contextContent'
 import { startContext, answerContext, emptyContextState, addDays, undoContext } from './contextEngine'
-import { normalizeEditorSnapshot, validateEditorSnapshot } from '@/features/editor/editorSerializer'
-import { editorVocabularySets, editorVocabularyWords, editorLearnContent } from '@/features/editor/editorData'
+import { vocabularySets } from '@/features/vocab/data/vocabularySets'
+import { learnContent } from '@/features/vocab/data/learnContent'
+import sourceSets from '@/features/vocab/editor-data/vocabularySets.json'
+import sourceWords from '@/features/vocab/editor-data/vocabularyWords.json'
+import sourceLearnContent from '@/features/vocab/editor-data/learnContent.json'
+import sourceThemeWordbooks from '@/features/vocab/editor-data/themeWordbooks.json'
+import sourceThemeWords from '@/features/vocab/editor-data/themeWords.json'
+import sourceComparisonWordbooks from '@/features/vocab/editor-data/comparisonWordbooks.json'
+import sourceComparisonWords from '@/features/vocab/editor-data/comparisonWords.json'
+import sourceComparisonPairs from '@/features/vocab/editor-data/comparisonPairs.json'
+import { validateVocabSource, type VocabSource } from '@/features/vocab/model/sourceValidation'
 
 describe('reviewed JLPT pilot', () => {
   it('recommends a beginner example first even with the complete N5–N1 corpus', () => {
@@ -18,10 +27,10 @@ describe('reviewed JLPT pilot', () => {
     expect(example.difficulty).toBeLessThanOrEqual(18)
   })
   it('continues an existing profile through a published level reference without copying or losing its schedule', () => {
-    const book = editorVocabularySets.find((set) => set.membershipMode === 'explicit' &&
-      set.wordIds.some((id) => editorVocabularyWords.find((word) => word.id === id)?.setId !== set.id))!
+    const book = vocabularySets.find((set) => set.membershipMode === 'explicit' &&
+      set.wordIds.some((id) => allWords.find((word) => word.id === id)?.setId !== set.id))!
     expect(book).toBeDefined()
-    const word = editorVocabularyWords.find((item) => book.wordIds.includes(item.id) && item.setId !== book.id)!
+    const word = allWords.find((item) => book.wordIds.includes(item.id) && item.setId !== book.id)!
     const settings = { setId: word.setId, setName: 'original', candidateWordIds: [word.id], requiredWordIds: [], wordCount: 1, allowEarly: true }
     let state = startContext(emptyContextState(), settings, contextSenses, '2026-09-29')
     const senseId = state.session!.current.senseId
@@ -71,13 +80,17 @@ describe('reviewed JLPT pilot', () => {
   // complete corpus. Individual card latency is measured in browser benchmarks.
   }, 30_000)
 
-  it('retains stable IDs through editor normalization and allows saving every set', () => {
-    const data = normalizeEditorSnapshot({ sets: editorVocabularySets, words: editorVocabularyWords,
-      learnContent: editorLearnContent, themeWordbooks: [], themeWords: [], comparisonWordbooks: [], comparisonWords: [], comparisonPairs: [] })
-    expect(validateEditorSnapshot(data)).toEqual([])
-    expect(data.words.map((w) => w.id).sort()).toEqual(allWords.map((w) => w.id).sort())
-    for (const set of data.sets)
-      expect(set.wordIds).toEqual(editorVocabularySets.find((original) => original.id === set.id)?.wordIds)
+  it('validates source data and preserves generated IDs, content and membership order', () => {
+    const data = { sets: sourceSets, words: sourceWords, learnContent: sourceLearnContent,
+      themeWordbooks: sourceThemeWordbooks, themeWords: sourceThemeWords,
+      comparisonWordbooks: sourceComparisonWordbooks, comparisonWords: sourceComparisonWords,
+      comparisonPairs: sourceComparisonPairs } as VocabSource
+    const original = JSON.stringify(data)
+    expect(validateVocabSource(data)).toEqual([])
+    expect(JSON.stringify(data)).toBe(original)
+    expect(data.words).toEqual(allWords)
+    expect(data.sets).toEqual(vocabularySets)
+    expect(data.learnContent).toEqual(learnContent)
     const keys = allWords.filter((w) => w.setId.startsWith('jlpt-level-')).map((w) => `${w.japanese}|${w.reading}`)
     expect(keys.length).toBeGreaterThanOrEqual(100)
     expect(new Set(keys).size).toBe(keys.length)

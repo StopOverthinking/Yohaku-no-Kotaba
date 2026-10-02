@@ -1,9 +1,11 @@
-import { cleanup, render, screen } from '@testing-library/react'
+import { cleanup, fireEvent, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { SharePanel } from '@/features/share/SharePanel'
 import * as shareModule from '@/features/share/share'
 import * as appBackup from './appBackup'
+import { emptyContextState } from '@/features/learn/contextEngine'
+import { CONTEXT_STORAGE_KEY } from '@/features/learn/contextPersistence'
 
 describe('SharePanel', () => {
   beforeEach(() => {
@@ -76,5 +78,27 @@ describe('SharePanel', () => {
     expect(screen.getByRole('dialog')).toBeInTheDocument()
     expect(screen.getByText('앱 복원')).toBeInTheDocument()
     expect(screen.getByText('클립보드에서 2개 항목을 복원할까요?')).toBeInTheDocument()
+  })
+
+  it('keeps incompatible paste errors visible with close and another-file fallback', async () => {
+    const user = userEvent.setup()
+    Object.defineProperty(navigator, 'clipboard', { configurable: true, value: undefined })
+    const restore = vi.spyOn(appBackup, 'restoreAppBackup').mockResolvedValue(undefined)
+    localStorage.setItem('jsp-react:preferences', 'current-settings')
+    render(<SharePanel mode="submenu" />)
+    await user.click(screen.getByRole('button', { name: '앱 클립보드에서 불러오기' }))
+    const dialog = screen.getByRole('dialog')
+    fireEvent.change(within(dialog).getByPlaceholderText('백업 JSON'), { target: { value: JSON.stringify({ data: {
+      'jsp-react:preferences': 'new-settings',
+      [CONTEXT_STORAGE_KEY]: JSON.stringify({ ...emptyContextState(), scheduleVersion: 99 }),
+    } }) } })
+    await user.click(within(dialog).getByRole('button', { name: '복원' }))
+    expect(within(dialog).getByRole('alert')).toHaveTextContent('지원하지 않는 복습 정책 버전')
+    expect(within(dialog).getByRole('alert')).toHaveTextContent('다른 백업을 선택')
+    expect(restore).not.toHaveBeenCalled()
+    expect(localStorage.getItem('jsp-react:preferences')).toBe('current-settings')
+    await user.click(within(dialog).getByRole('button', { name: '취소' }))
+    expect(screen.queryByRole('dialog')).toBeNull()
+    expect(screen.getByRole('button', { name: '앱 저장된 파일에서 불러오기' })).toBeEnabled()
   })
 })

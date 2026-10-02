@@ -32,6 +32,7 @@ export type LearnSenseIndex = Pick<LearnSense, 'id' | 'wordId' | 'version' | 're
 }
 
 export type ReviewProfile = {
+  mastered?: boolean
   senseId: string
   version: number
   due: string
@@ -103,7 +104,7 @@ export type ContextState = {
   lastScoreChange?: ScoreChange
   version: 2 | 3
   aliasMigrations?: Record<string, ContextAliasMigration>
-  scheduleVersion: 2
+  scheduleVersion: 3
   revision: number
   level: LearnerLevel
   profiles: Record<string, ReviewProfile>

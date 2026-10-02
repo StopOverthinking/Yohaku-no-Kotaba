@@ -4,7 +4,7 @@ import { reviewList, formatScoreChange } from './reviewList'
 import { testSense } from './contextTestFixtures'
 
 describe('review list', () => {
-  it('uses the actual interval, includes 30 days and excludes mastered overdue items', () => {
+  it('keeps pending reviews beyond 30 days visible until explicitly mastered', () => {
     const senses = ['thirty', 'sixty', 'penalty', 'old-version', 'unseen'].map((id) => testSense(id))
     const state = emptyContextState()
     for (const sense of senses.slice(0, 4)) {
@@ -19,15 +19,16 @@ describe('review list', () => {
     }
     Object.assign(state.profiles[profileKey(senses[0])], { step: 8, due: '2026-10-01' })
     Object.assign(state.profiles[profileKey(senses[1])], { step: 10, due: '2026-09-02' })
-    Object.assign(state.profiles[profileKey(senses[2])], { step: 10, failedDays: 4, due: '2026-09-30' })
+    Object.assign(state.profiles[profileKey(senses[2])], { step: 10, failedDays: 1, failures: 4, due: '2026-09-30' })
     senses[3].version = 2
     expect(reviewList(state, senses).map(({ sense, interval }) => [sense.wordId, interval])).toEqual([
-      ['penalty', 30],
+      ['sixty', 60],
+      ['penalty', 48],
       ['thirty', 30],
     ])
     // Early practice changes lastDay, never the established interval or list membership.
     state.profiles[profileKey(senses[1])].lastDay = '2026-09-28'
-    expect(reviewList(state, senses)).toHaveLength(2)
+    expect(reviewList(state, senses)).toHaveLength(3)
   })
   it('returns failed mastered words to the list and rounds tiny score changes without negative zero', () => {
     const sense = testSense('a')

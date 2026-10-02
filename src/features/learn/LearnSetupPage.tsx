@@ -16,7 +16,7 @@ import { LearningProgress } from './LearningProgress'
 import { useContextStore } from './contextStore'
 import { contextAliasCatalog, contextContentReady, contextSenseMap } from './contextContent'
 import { scopedReviews } from './contextPresentation'
-import { localDay } from './contextEngine'
+import { localDay } from './contextReviewPolicy'
 
 const MIN_WORD_COUNT = 1
 const COUNT_STEPS = [-10, -5, 5, 10] as const
