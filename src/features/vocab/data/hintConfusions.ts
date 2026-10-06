@@ -1,0 +1,27255 @@
+import type { HintConfusions } from '../../learn/contextTypes'
+
+export const hintConfusions: HintConfusions = {
+  "sense-AbsoluteVerb_1-1": {
+    "senseVersion": 1,
+    "words": [
+      "眠る",
+      "睡眠"
+    ]
+  },
+  "sense-AbsoluteVerb_10-1": {
+    "senseVersion": 1,
+    "words": [
+      "拭く",
+      "擦る（こする）"
+    ]
+  },
+  "sense-AbsoluteVerb_100-1": {
+    "senseVersion": 1,
+    "words": [
+      "脱ぐ",
+      "丸める"
+    ]
+  },
+  "sense-AbsoluteVerb_101-1": {
+    "senseVersion": 1,
+    "words": [
+      "差し出す",
+      "届ける"
+    ]
+  },
+  "sense-AbsoluteVerb_101-2": {
+    "senseVersion": 1,
+    "words": [
+      "取り出す",
+      "引き出す"
+    ]
+  },
+  "sense-AbsoluteVerb_102-1": {
+    "senseVersion": 1,
+    "words": [
+      "出来る",
+      "生産"
+    ]
+  },
+  "sense-AbsoluteVerb_103-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "据える"
+    ]
+  },
+  "sense-AbsoluteVerb_104-1": {
+    "senseVersion": 1,
+    "words": [
+      "立てる",
+      "起きる"
+    ]
+  },
+  "sense-AbsoluteVerb_105-1": {
+    "senseVersion": 1,
+    "words": [
+      "立つ",
+      "始める"
+    ]
+  },
+  "sense-AbsoluteVerb_106-1": {
+    "senseVersion": 1,
+    "words": [
+      "腰掛ける"
+    ]
+  },
+  "sense-AbsoluteVerb_108-1": {
+    "senseVersion": 1,
+    "words": [
+      "倒す",
+      "転がす"
+    ]
+  },
+  "sense-AbsoluteVerb_110-1": {
+    "senseVersion": 1,
+    "words": [
+      "曲がる",
+      "傾斜"
+    ]
+  },
+  "sense-AbsoluteVerb_111-1": {
+    "senseVersion": 1,
+    "words": [
+      "曲げる",
+      "はめる"
+    ]
+  },
+  "sense-AbsoluteVerb_113-1": {
+    "senseVersion": 1,
+    "words": [
+      "悲しい",
+      "惜しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_114-1": {
+    "senseVersion": 1,
+    "words": [
+      "悲しむ",
+      "惜しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_115-1": {
+    "senseVersion": 1,
+    "words": [
+      "喜ぶ",
+      "親しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_116-1": {
+    "senseVersion": 1,
+    "words": [
+      "好き",
+      "欲しがる"
+    ]
+  },
+  "sense-AbsoluteVerb_117-1": {
+    "senseVersion": 1,
+    "words": [
+      "怖がる",
+      "嫌い"
+    ]
+  },
+  "sense-AbsoluteVerb_119-1": {
+    "senseVersion": 1,
+    "words": [
+      "怯える",
+      "怖がる"
+    ]
+  },
+  "sense-AbsoluteVerb_12-1": {
+    "senseVersion": 1,
+    "words": [
+      "休憩",
+      "休息"
+    ]
+  },
+  "sense-AbsoluteVerb_120-1": {
+    "senseVersion": 1,
+    "words": [
+      "悔やむ",
+      "悲しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_123-1": {
+    "senseVersion": 1,
+    "words": [
+      "驚く",
+      "脅す"
+    ]
+  },
+  "sense-AbsoluteVerb_125-1": {
+    "senseVersion": 1,
+    "words": [
+      "わくわくする",
+      "どきどきする"
+    ]
+  },
+  "sense-AbsoluteVerb_126-1": {
+    "senseVersion": 1,
+    "words": [
+      "かわいい",
+      "撫でる"
+    ]
+  },
+  "sense-AbsoluteVerb_129-1": {
+    "senseVersion": 1,
+    "words": [
+      "叱る"
+    ]
+  },
+  "sense-AbsoluteVerb_13-1": {
+    "senseVersion": 1,
+    "words": [
+      "明るくなる",
+      "明るい"
+    ]
+  },
+  "sense-AbsoluteVerb_130-1": {
+    "senseVersion": 1,
+    "words": [
+      "怒る",
+      "注意"
+    ]
+  },
+  "sense-AbsoluteVerb_131-1": {
+    "senseVersion": 1,
+    "words": [
+      "おだてる",
+      "お世辞"
+    ]
+  },
+  "sense-AbsoluteVerb_132-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦しめる",
+      "からかう"
+    ]
+  },
+  "sense-AbsoluteVerb_133-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼る",
+      "仰ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_135-1": {
+    "senseVersion": 1,
+    "words": [
+      "攻める",
+      "非難"
+    ]
+  },
+  "sense-AbsoluteVerb_136-1": {
+    "senseVersion": 1,
+    "words": [
+      "いじめる",
+      "構う"
+    ]
+  },
+  "sense-AbsoluteVerb_137-1": {
+    "senseVersion": 1,
+    "words": [
+      "からかう",
+      "冗談"
+    ]
+  },
+  "sense-AbsoluteVerb_138-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずれる",
+      "変わる"
+    ]
+  },
+  "sense-AbsoluteVerb_140-1": {
+    "senseVersion": 1,
+    "words": [
+      "笑う",
+      "笑い"
+    ]
+  },
+  "sense-AbsoluteVerb_141-1": {
+    "senseVersion": 1,
+    "words": [
+      "悩む",
+      "苦しめる"
+    ]
+  },
+  "sense-AbsoluteVerb_142-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦しめる",
+      "悩む"
+    ]
+  },
+  "sense-AbsoluteVerb_143-1": {
+    "senseVersion": 1,
+    "words": [
+      "ためらう",
+      "戸惑う"
+    ]
+  },
+  "sense-AbsoluteVerb_143-2": {
+    "senseVersion": 1,
+    "words": [
+      "逸れる"
+    ]
+  },
+  "sense-AbsoluteVerb_144-1": {
+    "senseVersion": 1,
+    "words": [
+      "驚く",
+      "迷う"
+    ]
+  },
+  "sense-AbsoluteVerb_145-1": {
+    "senseVersion": 1,
+    "words": [
+      "急ぐ",
+      "焦る"
+    ]
+  },
+  "sense-AbsoluteVerb_147-1": {
+    "senseVersion": 1,
+    "words": [
+      "散歩する",
+      "うろうろ"
+    ]
+  },
+  "sense-AbsoluteVerb_148-1": {
+    "senseVersion": 1,
+    "words": [
+      "慌てる"
+    ]
+  },
+  "sense-AbsoluteVerb_149-1": {
+    "senseVersion": 1,
+    "words": [
+      "困難",
+      "苦しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_150-1": {
+    "senseVersion": 1,
+    "words": [
+      "迷う"
+    ]
+  },
+  "sense-AbsoluteVerb_151-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼む",
+      "仰ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_152-1": {
+    "senseVersion": 1,
+    "words": [
+      "願う",
+      "待つ"
+    ]
+  },
+  "sense-AbsoluteVerb_153-1": {
+    "senseVersion": 1,
+    "words": [
+      "望む",
+      "祈る"
+    ]
+  },
+  "sense-AbsoluteVerb_154-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼む",
+      "要する"
+    ]
+  },
+  "sense-AbsoluteVerb_155-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼む",
+      "願う"
+    ]
+  },
+  "sense-AbsoluteVerb_156-1": {
+    "senseVersion": 1,
+    "words": [
+      "断る",
+      "捨てる"
+    ]
+  },
+  "sense-AbsoluteVerb_158-1": {
+    "senseVersion": 1,
+    "words": [
+      "詫びる",
+      "誤る"
+    ]
+  },
+  "sense-AbsoluteVerb_159-1": {
+    "senseVersion": 1,
+    "words": [
+      "忘れる",
+      "許容"
+    ]
+  },
+  "sense-AbsoluteVerb_161-1": {
+    "senseVersion": 1,
+    "words": [
+      "いる",
+      "居る（おる）"
+    ]
+  },
+  "sense-AbsoluteVerb_162-1": {
+    "senseVersion": 1,
+    "words": [
+      "ある",
+      "居る（おる）"
+    ]
+  },
+  "sense-AbsoluteVerb_163-1": {
+    "senseVersion": 1,
+    "words": [
+      "産む",
+      "作る"
+    ]
+  },
+  "sense-AbsoluteVerb_165-1": {
+    "senseVersion": 1,
+    "words": [
+      "住む",
+      "過ごす"
+    ]
+  },
+  "sense-AbsoluteVerb_166-1": {
+    "senseVersion": 1,
+    "words": [
+      "暮らす",
+      "生きる"
+    ]
+  },
+  "sense-AbsoluteVerb_168-1": {
+    "senseVersion": 1,
+    "words": [
+      "住む",
+      "生きる"
+    ]
+  },
+  "sense-AbsoluteVerb_169-1": {
+    "senseVersion": 1,
+    "words": [
+      "育てる",
+      "伸びる"
+    ]
+  },
+  "sense-AbsoluteVerb_170-1": {
+    "senseVersion": 1,
+    "words": [
+      "養う",
+      "育つ"
+    ]
+  },
+  "sense-AbsoluteVerb_171-1": {
+    "senseVersion": 1,
+    "words": [
+      "枯れる",
+      "亡くなる"
+    ]
+  },
+  "sense-AbsoluteVerb_172-1": {
+    "senseVersion": 1,
+    "words": [
+      "死ぬ",
+      "枯れる"
+    ]
+  },
+  "sense-AbsoluteVerb_176-1": {
+    "senseVersion": 1,
+    "words": [
+      "散る",
+      "死ぬ"
+    ]
+  },
+  "sense-AbsoluteVerb_177-1": {
+    "senseVersion": 1,
+    "words": [
+      "植える",
+      "撒く"
+    ]
+  },
+  "sense-AbsoluteVerb_18-1": {
+    "senseVersion": 1,
+    "words": [
+      "止まる",
+      "終わる"
+    ]
+  },
+  "sense-AbsoluteVerb_181-1": {
+    "senseVersion": 1,
+    "words": [
+      "枯れる"
+    ]
+  },
+  "sense-AbsoluteVerb_182-1": {
+    "senseVersion": 1,
+    "words": [
+      "蒔く",
+      "挿す"
+    ]
+  },
+  "sense-AbsoluteVerb_183-1": {
+    "senseVersion": 1,
+    "words": [
+      "生やす",
+      "芽"
+    ]
+  },
+  "sense-AbsoluteVerb_184-1": {
+    "senseVersion": 1,
+    "words": [
+      "育てる",
+      "養う"
+    ]
+  },
+  "sense-AbsoluteVerb_185-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴る",
+      "叫ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_186-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴く",
+      "叫ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_187-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴く",
+      "叫ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_189-1": {
+    "senseVersion": 1,
+    "words": [
+      "穿く",
+      "締める"
+    ]
+  },
+  "sense-AbsoluteVerb_19-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷える",
+      "固まる"
+    ]
+  },
+  "sense-AbsoluteVerb_190-1": {
+    "senseVersion": 1,
+    "words": [
+      "外す"
+    ]
+  },
+  "sense-AbsoluteVerb_191-1": {
+    "senseVersion": 1,
+    "words": [
+      "着る",
+      "締める"
+    ]
+  },
+  "sense-AbsoluteVerb_192-1": {
+    "senseVersion": 1,
+    "words": [
+      "着る",
+      "締める"
+    ]
+  },
+  "sense-AbsoluteVerb_193-1": {
+    "senseVersion": 1,
+    "words": [
+      "着る",
+      "組む"
+    ]
+  },
+  "sense-AbsoluteVerb_194-1": {
+    "senseVersion": 1,
+    "words": [
+      "掛ける",
+      "着る"
+    ]
+  },
+  "sense-AbsoluteVerb_195-1": {
+    "senseVersion": 1,
+    "words": [
+      "被る",
+      "包む"
+    ]
+  },
+  "sense-AbsoluteVerb_197-1": {
+    "senseVersion": 1,
+    "words": [
+      "取る",
+      "削る"
+    ]
+  },
+  "sense-AbsoluteVerb_198-1": {
+    "senseVersion": 1,
+    "words": [
+      "結ぶ",
+      "包む"
+    ]
+  },
+  "sense-AbsoluteVerb_199-1": {
+    "senseVersion": 1,
+    "words": [
+      "開く",
+      "覆う"
+    ]
+  },
+  "sense-AbsoluteVerb_20-1": {
+    "senseVersion": 1,
+    "words": [
+      "溶かす",
+      "溶く"
+    ]
+  },
+  "sense-AbsoluteVerb_200-1": {
+    "senseVersion": 1,
+    "words": [
+      "折る",
+      "刈る"
+    ]
+  },
+  "sense-AbsoluteVerb_205-1": {
+    "senseVersion": 1,
+    "words": [
+      "炒める",
+      "焼く"
+    ]
+  },
+  "sense-AbsoluteVerb_206-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆでる",
+      "炊く"
+    ]
+  },
+  "sense-AbsoluteVerb_207-1": {
+    "senseVersion": 1,
+    "words": [
+      "煮る",
+      "炊く"
+    ]
+  },
+  "sense-AbsoluteVerb_208-1": {
+    "senseVersion": 1,
+    "words": [
+      "沸かす"
+    ]
+  },
+  "sense-AbsoluteVerb_209-1": {
+    "senseVersion": 1,
+    "words": [
+      "煮る",
+      "熱する"
+    ]
+  },
+  "sense-AbsoluteVerb_21-1": {
+    "senseVersion": 1,
+    "words": [
+      "照る",
+      "輝く"
+    ]
+  },
+  "sense-AbsoluteVerb_210-1": {
+    "senseVersion": 1,
+    "words": [
+      "煮る",
+      "沸かす"
+    ]
+  },
+  "sense-AbsoluteVerb_211-1": {
+    "senseVersion": 1,
+    "words": [
+      "焼く",
+      "燃える"
+    ]
+  },
+  "sense-AbsoluteVerb_214-1": {
+    "senseVersion": 1,
+    "words": [
+      "浸す",
+      "染みる"
+    ]
+  },
+  "sense-AbsoluteVerb_215-1": {
+    "senseVersion": 1,
+    "words": [
+      "煮る",
+      "ゆでる"
+    ]
+  },
+  "sense-AbsoluteVerb_216-1": {
+    "senseVersion": 1,
+    "words": [
+      "燃える",
+      "焼ける"
+    ]
+  },
+  "sense-AbsoluteVerb_218-1": {
+    "senseVersion": 1,
+    "words": [
+      "擦る（こする）",
+      "撫でる"
+    ]
+  },
+  "sense-AbsoluteVerb_22-1": {
+    "senseVersion": 1,
+    "words": [
+      "光る",
+      "照る"
+    ]
+  },
+  "sense-AbsoluteVerb_220-1": {
+    "senseVersion": 1,
+    "words": [
+      "刻む",
+      "殺す"
+    ]
+  },
+  "sense-AbsoluteVerb_221-1": {
+    "senseVersion": 1,
+    "words": [
+      "混ざる",
+      "合わせる"
+    ]
+  },
+  "sense-AbsoluteVerb_222-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷える",
+      "冷める"
+    ]
+  },
+  "sense-AbsoluteVerb_223-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱する",
+      "沸かす"
+    ]
+  },
+  "sense-AbsoluteVerb_224-1": {
+    "senseVersion": 1,
+    "words": [
+      "教わる",
+      "唱える"
+    ]
+  },
+  "sense-AbsoluteVerb_225-1": {
+    "senseVersion": 1,
+    "words": [
+      "学ぶ",
+      "覚える"
+    ]
+  },
+  "sense-AbsoluteVerb_226-1": {
+    "senseVersion": 1,
+    "words": [
+      "習う",
+      "覚える"
+    ]
+  },
+  "sense-AbsoluteVerb_227-1": {
+    "senseVersion": 1,
+    "words": [
+      "学ぶ",
+      "覚える"
+    ]
+  },
+  "sense-AbsoluteVerb_228-1": {
+    "senseVersion": 1,
+    "words": [
+      "習う",
+      "知る"
+    ]
+  },
+  "sense-AbsoluteVerb_230-1": {
+    "senseVersion": 1,
+    "words": [
+      "知る",
+      "把握"
+    ]
+  },
+  "sense-AbsoluteVerb_231-1": {
+    "senseVersion": 1,
+    "words": [
+      "分かる",
+      "把握"
+    ]
+  },
+  "sense-AbsoluteVerb_232-1": {
+    "senseVersion": 1,
+    "words": [
+      "着る",
+      "掛ける"
+    ]
+  },
+  "sense-AbsoluteVerb_233-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "怠る"
+    ]
+  },
+  "sense-AbsoluteVerb_234-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る",
+      "見渡す"
+    ]
+  },
+  "sense-AbsoluteVerb_235-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る",
+      "出る"
+    ]
+  },
+  "sense-AbsoluteVerb_236-1": {
+    "senseVersion": 1,
+    "words": [
+      "見える",
+      "示す"
+    ]
+  },
+  "sense-AbsoluteVerb_239-1": {
+    "senseVersion": 1,
+    "words": [
+      "探す",
+      "知る"
+    ]
+  },
+  "sense-AbsoluteVerb_241-1": {
+    "senseVersion": 1,
+    "words": [
+      "聞く",
+      "問い合わせる"
+    ]
+  },
+  "sense-AbsoluteVerb_242-1": {
+    "senseVersion": 1,
+    "words": [
+      "訪ねる",
+      "問う"
+    ]
+  },
+  "sense-AbsoluteVerb_243-1": {
+    "senseVersion": 1,
+    "words": [
+      "返事する",
+      "回答"
+    ]
+  },
+  "sense-AbsoluteVerb_244-1": {
+    "senseVersion": 1,
+    "words": [
+      "伝える",
+      "拡大"
+    ]
+  },
+  "sense-AbsoluteVerb_245-1": {
+    "senseVersion": 1,
+    "words": [
+      "伝わる",
+      "送る"
+    ]
+  },
+  "sense-AbsoluteVerb_246-1": {
+    "senseVersion": 1,
+    "words": [
+      "告げる",
+      "伝える"
+    ]
+  },
+  "sense-AbsoluteVerb_247-1": {
+    "senseVersion": 1,
+    "words": [
+      "まとめる",
+      "複写"
+    ]
+  },
+  "sense-AbsoluteVerb_249-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗せる",
+      "運ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_25-1": {
+    "senseVersion": 1,
+    "words": [
+      "漏らす",
+      "こぼれる"
+    ]
+  },
+  "sense-AbsoluteVerb_250-1": {
+    "senseVersion": 1,
+    "words": [
+      "現す",
+      "出る"
+    ]
+  },
+  "sense-AbsoluteVerb_251-1": {
+    "senseVersion": 1,
+    "words": [
+      "現す",
+      "示す"
+    ]
+  },
+  "sense-AbsoluteVerb_252-1": {
+    "senseVersion": 1,
+    "words": [
+      "表す",
+      "示す"
+    ]
+  },
+  "sense-AbsoluteVerb_253-1": {
+    "senseVersion": 1,
+    "words": [
+      "書く",
+      "掲げる"
+    ]
+  },
+  "sense-AbsoluteVerb_254-1": {
+    "senseVersion": 1,
+    "words": [
+      "来る",
+      "運ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_255-1": {
+    "senseVersion": 1,
+    "words": [
+      "行く",
+      "参る"
+    ]
+  },
+  "sense-AbsoluteVerb_256-1": {
+    "senseVersion": 1,
+    "words": [
+      "戻る",
+      "離れる"
+    ]
+  },
+  "sense-AbsoluteVerb_257-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰る",
+      "帰り"
+    ]
+  },
+  "sense-AbsoluteVerb_258-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_259-1": {
+    "senseVersion": 1,
+    "words": [
+      "入る",
+      "交える"
+    ]
+  },
+  "sense-AbsoluteVerb_26-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴らす",
+      "響く"
+    ]
+  },
+  "sense-AbsoluteVerb_260-1": {
+    "senseVersion": 1,
+    "words": [
+      "出す",
+      "離れる"
+    ]
+  },
+  "sense-AbsoluteVerb_261-1": {
+    "senseVersion": 1,
+    "words": [
+      "外出する",
+      "出発する"
+    ]
+  },
+  "sense-AbsoluteVerb_262-1": {
+    "senseVersion": 1,
+    "words": [
+      "出発する",
+      "離れる"
+    ]
+  },
+  "sense-AbsoluteVerb_264-1": {
+    "senseVersion": 1,
+    "words": [
+      "訪ねる",
+      "迫る"
+    ]
+  },
+  "sense-AbsoluteVerb_265-1": {
+    "senseVersion": 1,
+    "words": [
+      "登る",
+      "高まる"
+    ]
+  },
+  "sense-AbsoluteVerb_266-1": {
+    "senseVersion": 1,
+    "words": [
+      "上がる",
+      "高まる"
+    ]
+  },
+  "sense-AbsoluteVerb_267-1": {
+    "senseVersion": 1,
+    "words": [
+      "登る",
+      "上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_268-1": {
+    "senseVersion": 1,
+    "words": [
+      "上る",
+      "上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_269-1": {
+    "senseVersion": 1,
+    "words": [
+      "登る",
+      "上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_27-1": {
+    "senseVersion": 1,
+    "words": [
+      "続く"
+    ]
+  },
+  "sense-AbsoluteVerb_270-1": {
+    "senseVersion": 1,
+    "words": [
+      "下りる",
+      "降りる"
+    ]
+  },
+  "sense-AbsoluteVerb_271-1": {
+    "senseVersion": 1,
+    "words": [
+      "下る",
+      "落ちる"
+    ]
+  },
+  "sense-AbsoluteVerb_272-1": {
+    "senseVersion": 1,
+    "words": [
+      "下げる",
+      "低下"
+    ]
+  },
+  "sense-AbsoluteVerb_273-1": {
+    "senseVersion": 1,
+    "words": [
+      "引き下げる",
+      "下ろす"
+    ]
+  },
+  "sense-AbsoluteVerb_274-1": {
+    "senseVersion": 1,
+    "words": [
+      "離れる",
+      "とれる"
+    ]
+  },
+  "sense-AbsoluteVerb_275-1": {
+    "senseVersion": 1,
+    "words": [
+      "回す",
+      "回転"
+    ]
+  },
+  "sense-AbsoluteVerb_276-1": {
+    "senseVersion": 1,
+    "words": [
+      "逸らす",
+      "捻る"
+    ]
+  },
+  "sense-AbsoluteVerb_277-1": {
+    "senseVersion": 1,
+    "words": [
+      "通り過ぎる",
+      "通う"
+    ]
+  },
+  "sense-AbsoluteVerb_278-1": {
+    "senseVersion": 1,
+    "words": [
+      "通る",
+      "越える"
+    ]
+  },
+  "sense-AbsoluteVerb_279-1": {
+    "senseVersion": 1,
+    "words": [
+      "伝える",
+      "伝わる"
+    ]
+  },
+  "sense-AbsoluteVerb_28-1": {
+    "senseVersion": 1,
+    "words": [
+      "会う",
+      "直面"
+    ]
+  },
+  "sense-AbsoluteVerb_280-1": {
+    "senseVersion": 1,
+    "words": [
+      "戻る",
+      "返還"
+    ]
+  },
+  "sense-AbsoluteVerb_282-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄越す",
+      "受け取る"
+    ]
+  },
+  "sense-AbsoluteVerb_283-1": {
+    "senseVersion": 1,
+    "words": [
+      "流す",
+      "流れ"
+    ]
+  },
+  "sense-AbsoluteVerb_284-1": {
+    "senseVersion": 1,
+    "words": [
+      "流れる",
+      "注ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_285-1": {
+    "senseVersion": 1,
+    "words": [
+      "する",
+      "営む"
+    ]
+  },
+  "sense-AbsoluteVerb_286-1": {
+    "senseVersion": 1,
+    "words": [
+      "倒す",
+      "崩れる"
+    ]
+  },
+  "sense-AbsoluteVerb_287-1": {
+    "senseVersion": 1,
+    "words": [
+      "転がる",
+      "倒れる"
+    ]
+  },
+  "sense-AbsoluteVerb_288-1": {
+    "senseVersion": 1,
+    "words": [
+      "転ぶ",
+      "スキー"
+    ]
+  },
+  "sense-AbsoluteVerb_289-1": {
+    "senseVersion": 1,
+    "words": [
+      "真似する",
+      "習う"
+    ]
+  },
+  "sense-AbsoluteVerb_292-1": {
+    "senseVersion": 1,
+    "words": [
+      "飽きる",
+      "くたびれる"
+    ]
+  },
+  "sense-AbsoluteVerb_293-1": {
+    "senseVersion": 1,
+    "words": [
+      "あごを出す",
+      "疲れる"
+    ]
+  },
+  "sense-AbsoluteVerb_294-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "落ち着く"
+    ]
+  },
+  "sense-AbsoluteVerb_295-1": {
+    "senseVersion": 1,
+    "words": [
+      "動かす",
+      "移行"
+    ]
+  },
+  "sense-AbsoluteVerb_296-1": {
+    "senseVersion": 1,
+    "words": [
+      "動く",
+      "移行"
+    ]
+  },
+  "sense-AbsoluteVerb_297-1": {
+    "senseVersion": 1,
+    "words": [
+      "行く",
+      "進出"
+    ]
+  },
+  "sense-AbsoluteVerb_298-1": {
+    "senseVersion": 1,
+    "words": [
+      "止める",
+      "立ち止まる"
+    ]
+  },
+  "sense-AbsoluteVerb_299-1": {
+    "senseVersion": 1,
+    "words": [
+      "止まる",
+      "押さえる"
+    ]
+  },
+  "sense-AbsoluteVerb_3-1": {
+    "senseVersion": 1,
+    "words": [
+      "寝る",
+      "睡眠"
+    ]
+  },
+  "sense-AbsoluteVerb_30-1": {
+    "senseVersion": 1,
+    "words": [
+      "見える",
+      "眺める"
+    ]
+  },
+  "sense-AbsoluteVerb_300-1": {
+    "senseVersion": 1,
+    "words": [
+      "貼る",
+      "掲げる"
+    ]
+  },
+  "sense-AbsoluteVerb_302-1": {
+    "senseVersion": 1,
+    "words": [
+      "浮かぶ",
+      "浮かべる"
+    ]
+  },
+  "sense-AbsoluteVerb_303-1": {
+    "senseVersion": 1,
+    "words": [
+      "浮かべる",
+      "上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_304-1": {
+    "senseVersion": 1,
+    "words": [
+      "浮かぶ",
+      "浮く"
+    ]
+  },
+  "sense-AbsoluteVerb_306-1": {
+    "senseVersion": 1,
+    "words": [
+      "借りる",
+      "購買"
+    ]
+  },
+  "sense-AbsoluteVerb_307-1": {
+    "senseVersion": 1,
+    "words": [
+      "買う",
+      "売れる"
+    ]
+  },
+  "sense-AbsoluteVerb_308-1": {
+    "senseVersion": 1,
+    "words": [
+      "気になる",
+      "好む"
+    ]
+  },
+  "sense-AbsoluteVerb_309-1": {
+    "senseVersion": 1,
+    "words": [
+      "合う",
+      "一致"
+    ]
+  },
+  "sense-AbsoluteVerb_31-1": {
+    "senseVersion": 1,
+    "words": [
+      "聞こえる",
+      "承る"
+    ]
+  },
+  "sense-AbsoluteVerb_31-2": {
+    "senseVersion": 1,
+    "words": [
+      "尋ねる",
+      "問う"
+    ]
+  },
+  "sense-AbsoluteVerb_310-1": {
+    "senseVersion": 1,
+    "words": [
+      "決める",
+      "取る"
+    ]
+  },
+  "sense-AbsoluteVerb_311-1": {
+    "senseVersion": 1,
+    "words": [
+      "支払う",
+      "賄う"
+    ]
+  },
+  "sense-AbsoluteVerb_312-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "覆う"
+    ]
+  },
+  "sense-AbsoluteVerb_313-1": {
+    "senseVersion": 1,
+    "words": [
+      "着く",
+      "届ける"
+    ]
+  },
+  "sense-AbsoluteVerb_314-1": {
+    "senseVersion": 1,
+    "words": [
+      "進める",
+      "呼びかける"
+    ]
+  },
+  "sense-AbsoluteVerb_315-1": {
+    "senseVersion": 1,
+    "words": [
+      "扱う",
+      "使う"
+    ]
+  },
+  "sense-AbsoluteVerb_317-1": {
+    "senseVersion": 1,
+    "words": [
+      "招待する",
+      "呼ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_318-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "遊び"
+    ]
+  },
+  "sense-AbsoluteVerb_319-1": {
+    "senseVersion": 1,
+    "words": [
+      "弾く",
+      "語る"
+    ]
+  },
+  "sense-AbsoluteVerb_32-1": {
+    "senseVersion": 1,
+    "words": [
+      "申す",
+      "話す"
+    ]
+  },
+  "sense-AbsoluteVerb_323-1": {
+    "senseVersion": 1,
+    "words": [
+      "躍る",
+      "踊り"
+    ]
+  },
+  "sense-AbsoluteVerb_325-1": {
+    "senseVersion": 1,
+    "words": [
+      "話す",
+      "叫ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_326-1": {
+    "senseVersion": 1,
+    "words": [
+      "あげる",
+      "くれる"
+    ]
+  },
+  "sense-AbsoluteVerb_327-1": {
+    "senseVersion": 1,
+    "words": [
+      "あげる",
+      "供給"
+    ]
+  },
+  "sense-AbsoluteVerb_328-1": {
+    "senseVersion": 1,
+    "words": [
+      "くれる",
+      "やる"
+    ]
+  },
+  "sense-AbsoluteVerb_329-1": {
+    "senseVersion": 1,
+    "words": [
+      "あげる",
+      "やる"
+    ]
+  },
+  "sense-AbsoluteVerb_33-1": {
+    "senseVersion": 1,
+    "words": [
+      "食う",
+      "飲む"
+    ]
+  },
+  "sense-AbsoluteVerb_330-1": {
+    "senseVersion": 1,
+    "words": [
+      "差し上げる",
+      "贈る"
+    ]
+  },
+  "sense-AbsoluteVerb_331-1": {
+    "senseVersion": 1,
+    "words": [
+      "承る",
+      "頂く"
+    ]
+  },
+  "sense-AbsoluteVerb_334-1": {
+    "senseVersion": 1,
+    "words": [
+      "渡す",
+      "分ける"
+    ]
+  },
+  "sense-AbsoluteVerb_335-1": {
+    "senseVersion": 1,
+    "words": [
+      "防ぐ",
+      "保つ"
+    ]
+  },
+  "sense-AbsoluteVerb_336-1": {
+    "senseVersion": 1,
+    "words": [
+      "違反する",
+      "違反"
+    ]
+  },
+  "sense-AbsoluteVerb_337-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止する",
+      "取り戻す"
+    ]
+  },
+  "sense-AbsoluteVerb_338-1": {
+    "senseVersion": 1,
+    "words": [
+      "遅い",
+      "遅らせる"
+    ]
+  },
+  "sense-AbsoluteVerb_34-1": {
+    "senseVersion": 1,
+    "words": [
+      "食べる",
+      "召し上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_34-2": {
+    "senseVersion": 1,
+    "words": [
+      "塗る",
+      "食べる"
+    ]
+  },
+  "sense-AbsoluteVerb_340-1": {
+    "senseVersion": 1,
+    "words": [
+      "決める",
+      "整う"
+    ]
+  },
+  "sense-AbsoluteVerb_341-1": {
+    "senseVersion": 1,
+    "words": [
+      "決まる",
+      "選ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_342-1": {
+    "senseVersion": 1,
+    "words": [
+      "期待する",
+      "望む"
+    ]
+  },
+  "sense-AbsoluteVerb_344-1": {
+    "senseVersion": 1,
+    "words": [
+      "出会う",
+      "出会い"
+    ]
+  },
+  "sense-AbsoluteVerb_345-1": {
+    "senseVersion": 1,
+    "words": [
+      "届く",
+      "到着する"
+    ]
+  },
+  "sense-AbsoluteVerb_347-1": {
+    "senseVersion": 1,
+    "words": [
+      "渋滞する",
+      "込む"
+    ]
+  },
+  "sense-AbsoluteVerb_350-1": {
+    "senseVersion": 1,
+    "words": [
+      "載せる"
+    ]
+  },
+  "sense-AbsoluteVerb_351-1": {
+    "senseVersion": 1,
+    "words": [
+      "下りる",
+      "下げる"
+    ]
+  },
+  "sense-AbsoluteVerb_352-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗る",
+      "切り替える"
+    ]
+  },
+  "sense-AbsoluteVerb_355-1": {
+    "senseVersion": 1,
+    "words": [
+      "競う",
+      "衝突"
+    ]
+  },
+  "sense-AbsoluteVerb_356-1": {
+    "senseVersion": 1,
+    "words": [
+      "争う",
+      "戦い"
+    ]
+  },
+  "sense-AbsoluteVerb_358-1": {
+    "senseVersion": 1,
+    "words": [
+      "敗れる"
+    ]
+  },
+  "sense-AbsoluteVerb_359-1": {
+    "senseVersion": 1,
+    "words": [
+      "破れる",
+      "負ける"
+    ]
+  },
+  "sense-AbsoluteVerb_360-1": {
+    "senseVersion": 1,
+    "words": [
+      "叩く",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-AbsoluteVerb_363-1": {
+    "senseVersion": 1,
+    "words": [
+      "刺す",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-AbsoluteVerb_364-1": {
+    "senseVersion": 1,
+    "words": [
+      "結ぶ",
+      "関わる"
+    ]
+  },
+  "sense-AbsoluteVerb_365-1": {
+    "senseVersion": 1,
+    "words": [
+      "怒る",
+      "起きる"
+    ]
+  },
+  "sense-AbsoluteVerb_366-1": {
+    "senseVersion": 1,
+    "words": [
+      "奪う"
+    ]
+  },
+  "sense-AbsoluteVerb_367-1": {
+    "senseVersion": 1,
+    "words": [
+      "欺く",
+      "嘘をつく"
+    ]
+  },
+  "sense-AbsoluteVerb_368-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り上げる",
+      "盗む"
+    ]
+  },
+  "sense-AbsoluteVerb_369-1": {
+    "senseVersion": 1,
+    "words": [
+      "侵す",
+      "破る"
+    ]
+  },
+  "sense-AbsoluteVerb_37-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る",
+      "語る"
+    ]
+  },
+  "sense-AbsoluteVerb_370-1": {
+    "senseVersion": 1,
+    "words": [
+      "呼びかける",
+      "説明する"
+    ]
+  },
+  "sense-AbsoluteVerb_371-1": {
+    "senseVersion": 1,
+    "words": [
+      "確かめる",
+      "探す"
+    ]
+  },
+  "sense-AbsoluteVerb_372-1": {
+    "senseVersion": 1,
+    "words": [
+      "燃やす",
+      "焦げる"
+    ]
+  },
+  "sense-AbsoluteVerb_373-1": {
+    "senseVersion": 1,
+    "words": [
+      "燃える",
+      "焼く"
+    ]
+  },
+  "sense-AbsoluteVerb_374-1": {
+    "senseVersion": 1,
+    "words": [
+      "傷む",
+      "腐敗"
+    ]
+  },
+  "sense-AbsoluteVerb_375-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぶつける",
+      "衝突"
+    ]
+  },
+  "sense-AbsoluteVerb_376-1": {
+    "senseVersion": 1,
+    "words": [
+      "突き当たる",
+      "ぶつかる"
+    ]
+  },
+  "sense-AbsoluteVerb_377-1": {
+    "senseVersion": 1,
+    "words": [
+      "塞ぐ",
+      "守る"
+    ]
+  },
+  "sense-AbsoluteVerb_378-1": {
+    "senseVersion": 1,
+    "words": [
+      "逃げる",
+      "寄せる"
+    ]
+  },
+  "sense-AbsoluteVerb_379-1": {
+    "senseVersion": 1,
+    "words": [
+      "逸らす",
+      "免れる"
+    ]
+  },
+  "sense-AbsoluteVerb_38-1": {
+    "senseVersion": 1,
+    "words": [
+      "描く",
+      "著す"
+    ]
+  },
+  "sense-AbsoluteVerb_380-1": {
+    "senseVersion": 1,
+    "words": [
+      "去る",
+      "避難"
+    ]
+  },
+  "sense-AbsoluteVerb_381-1": {
+    "senseVersion": 1,
+    "words": [
+      "隠す",
+      "逃げる"
+    ]
+  },
+  "sense-AbsoluteVerb_382-1": {
+    "senseVersion": 1,
+    "words": [
+      "隠れる",
+      "包む"
+    ]
+  },
+  "sense-AbsoluteVerb_383-1": {
+    "senseVersion": 1,
+    "words": [
+      "追う",
+      "追い越す"
+    ]
+  },
+  "sense-AbsoluteVerb_385-1": {
+    "senseVersion": 1,
+    "words": [
+      "捕まる",
+      "逮捕"
+    ]
+  },
+  "sense-AbsoluteVerb_386-1": {
+    "senseVersion": 1,
+    "words": [
+      "捕まえる",
+      "逮捕"
+    ]
+  },
+  "sense-AbsoluteVerb_388-1": {
+    "senseVersion": 1,
+    "words": [
+      "勤める",
+      "稼ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_389-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼む",
+      "雇用"
+    ]
+  },
+  "sense-AbsoluteVerb_39-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴く",
+      "叫ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_390-1": {
+    "senseVersion": 1,
+    "words": [
+      "働く",
+      "尽くす"
+    ]
+  },
+  "sense-AbsoluteVerb_391-1": {
+    "senseVersion": 1,
+    "words": [
+      "勤める",
+      "受け持つ"
+    ]
+  },
+  "sense-AbsoluteVerb_392-1": {
+    "senseVersion": 1,
+    "words": [
+      "励む",
+      "勤める"
+    ]
+  },
+  "sense-AbsoluteVerb_393-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り扱う",
+      "使う"
+    ]
+  },
+  "sense-AbsoluteVerb_394-1": {
+    "senseVersion": 1,
+    "words": [
+      "背負う",
+      "抱える"
+    ]
+  },
+  "sense-AbsoluteVerb_395-1": {
+    "senseVersion": 1,
+    "words": [
+      "預ける"
+    ]
+  },
+  "sense-AbsoluteVerb_396-1": {
+    "senseVersion": 1,
+    "words": [
+      "止める",
+      "止す"
+    ]
+  },
+  "sense-AbsoluteVerb_397-1": {
+    "senseVersion": 1,
+    "words": [
+      "止める（とめる）"
+    ]
+  },
+  "sense-AbsoluteVerb_398-1": {
+    "senseVersion": 1,
+    "words": [
+      "努める",
+      "長引く"
+    ]
+  },
+  "sense-AbsoluteVerb_399-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "怠る"
+    ]
+  },
+  "sense-AbsoluteVerb_4-1": {
+    "senseVersion": 1,
+    "words": [
+      "起きる",
+      "起こす"
+    ]
+  },
+  "sense-AbsoluteVerb_40-1": {
+    "senseVersion": 1,
+    "words": [
+      "微笑む",
+      "笑い"
+    ]
+  },
+  "sense-AbsoluteVerb_400-1": {
+    "senseVersion": 1,
+    "words": [
+      "努める",
+      "頑張る"
+    ]
+  },
+  "sense-AbsoluteVerb_401-1": {
+    "senseVersion": 1,
+    "words": [
+      "褒める",
+      "促す"
+    ]
+  },
+  "sense-AbsoluteVerb_402-1": {
+    "senseVersion": 1,
+    "words": [
+      "褒める",
+      "知る"
+    ]
+  },
+  "sense-AbsoluteVerb_404-1": {
+    "senseVersion": 1,
+    "words": [
+      "味見する",
+      "楽しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_406-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸す",
+      "渡す"
+    ]
+  },
+  "sense-AbsoluteVerb_407-1": {
+    "senseVersion": 1,
+    "words": [
+      "慕う",
+      "仰ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_408-1": {
+    "senseVersion": 1,
+    "words": [
+      "合う",
+      "出会い"
+    ]
+  },
+  "sense-AbsoluteVerb_409-1": {
+    "senseVersion": 1,
+    "words": [
+      "待ち合わせる",
+      "出会い"
+    ]
+  },
+  "sense-AbsoluteVerb_41-1": {
+    "senseVersion": 1,
+    "words": [
+      "走る",
+      "散歩"
+    ]
+  },
+  "sense-AbsoluteVerb_411-1": {
+    "senseVersion": 1,
+    "words": [
+      "触る",
+      "接する"
+    ]
+  },
+  "sense-AbsoluteVerb_412-1": {
+    "senseVersion": 1,
+    "words": [
+      "分かれる",
+      "分裂"
+    ]
+  },
+  "sense-AbsoluteVerb_414-1": {
+    "senseVersion": 1,
+    "words": [
+      "招く",
+      "呼ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_415-1": {
+    "senseVersion": 1,
+    "words": [
+      "送る"
+    ]
+  },
+  "sense-AbsoluteVerb_416-1": {
+    "senseVersion": 1,
+    "words": [
+      "急かす",
+      "呼びかける"
+    ]
+  },
+  "sense-AbsoluteVerb_418-1": {
+    "senseVersion": 1,
+    "words": [
+      "気にする",
+      "いじめる"
+    ]
+  },
+  "sense-AbsoluteVerb_419-1": {
+    "senseVersion": 1,
+    "words": [
+      "ためる",
+      "働く"
+    ]
+  },
+  "sense-AbsoluteVerb_42-1": {
+    "senseVersion": 1,
+    "words": [
+      "急ぐ",
+      "競争"
+    ]
+  },
+  "sense-AbsoluteVerb_420-1": {
+    "senseVersion": 1,
+    "words": [
+      "稼ぐ",
+      "仕入れる"
+    ]
+  },
+  "sense-AbsoluteVerb_421-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸す",
+      "家賃"
+    ]
+  },
+  "sense-AbsoluteVerb_422-1": {
+    "senseVersion": 1,
+    "words": [
+      "借りる",
+      "融資"
+    ]
+  },
+  "sense-AbsoluteVerb_423-1": {
+    "senseVersion": 1,
+    "words": [
+      "戻す",
+      "返還"
+    ]
+  },
+  "sense-AbsoluteVerb_424-1": {
+    "senseVersion": 1,
+    "words": [
+      "預ける",
+      "収める"
+    ]
+  },
+  "sense-AbsoluteVerb_425-1": {
+    "senseVersion": 1,
+    "words": [
+      "任せる",
+      "預かる"
+    ]
+  },
+  "sense-AbsoluteVerb_426-1": {
+    "senseVersion": 1,
+    "words": [
+      "集める",
+      "蓄積"
+    ]
+  },
+  "sense-AbsoluteVerb_427-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り出す",
+      "出す"
+    ]
+  },
+  "sense-AbsoluteVerb_429-1": {
+    "senseVersion": 1,
+    "words": [
+      "なくす",
+      "見落とす"
+    ]
+  },
+  "sense-AbsoluteVerb_430-1": {
+    "senseVersion": 1,
+    "words": [
+      "取る",
+      "取り出す"
+    ]
+  },
+  "sense-AbsoluteVerb_431-1": {
+    "senseVersion": 1,
+    "words": [
+      "片付ける",
+      "投げる"
+    ]
+  },
+  "sense-AbsoluteVerb_432-1": {
+    "senseVersion": 1,
+    "words": [
+      "落ちる",
+      "下げる"
+    ]
+  },
+  "sense-AbsoluteVerb_433-1": {
+    "senseVersion": 1,
+    "words": [
+      "見つける",
+      "図る"
+    ]
+  },
+  "sense-AbsoluteVerb_434-1": {
+    "senseVersion": 1,
+    "words": [
+      "探す",
+      "尋ねる"
+    ]
+  },
+  "sense-AbsoluteVerb_435-1": {
+    "senseVersion": 1,
+    "words": [
+      "無くす",
+      "尽きる"
+    ]
+  },
+  "sense-AbsoluteVerb_436-1": {
+    "senseVersion": 1,
+    "words": [
+      "落とす",
+      "消す"
+    ]
+  },
+  "sense-AbsoluteVerb_437-1": {
+    "senseVersion": 1,
+    "words": [
+      "もらう",
+      "覚える"
+    ]
+  },
+  "sense-AbsoluteVerb_438-1": {
+    "senseVersion": 1,
+    "words": [
+      "片付く",
+      "まとめる"
+    ]
+  },
+  "sense-AbsoluteVerb_439-1": {
+    "senseVersion": 1,
+    "words": [
+      "集める",
+      "寄せる"
+    ]
+  },
+  "sense-AbsoluteVerb_440-1": {
+    "senseVersion": 1,
+    "words": [
+      "まとまる",
+      "片付ける"
+    ]
+  },
+  "sense-AbsoluteVerb_441-1": {
+    "senseVersion": 1,
+    "words": [
+      "掃除する",
+      "収める"
+    ]
+  },
+  "sense-AbsoluteVerb_442-1": {
+    "senseVersion": 1,
+    "words": [
+      "集まる",
+      "集める"
+    ]
+  },
+  "sense-AbsoluteVerb_443-1": {
+    "senseVersion": 1,
+    "words": [
+      "集める",
+      "作る"
+    ]
+  },
+  "sense-AbsoluteVerb_445-1": {
+    "senseVersion": 1,
+    "words": [
+      "汚す",
+      "散らす"
+    ]
+  },
+  "sense-AbsoluteVerb_446-1": {
+    "senseVersion": 1,
+    "words": [
+      "集める",
+      "加わる"
+    ]
+  },
+  "sense-AbsoluteVerb_447-1": {
+    "senseVersion": 1,
+    "words": [
+      "集まる",
+      "寄せる"
+    ]
+  },
+  "sense-AbsoluteVerb_448-1": {
+    "senseVersion": 1,
+    "words": [
+      "始める",
+      "開始"
+    ]
+  },
+  "sense-AbsoluteVerb_449-1": {
+    "senseVersion": 1,
+    "words": [
+      "始まる",
+      "開始"
+    ]
+  },
+  "sense-AbsoluteVerb_450-1": {
+    "senseVersion": 1,
+    "words": [
+      "済む",
+      "終える"
+    ]
+  },
+  "sense-AbsoluteVerb_451-1": {
+    "senseVersion": 1,
+    "words": [
+      "終わる",
+      "済ます"
+    ]
+  },
+  "sense-AbsoluteVerb_452-1": {
+    "senseVersion": 1,
+    "words": [
+      "収める",
+      "片付ける"
+    ]
+  },
+  "sense-AbsoluteVerb_453-1": {
+    "senseVersion": 1,
+    "words": [
+      "出来る",
+      "出来上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_454-1": {
+    "senseVersion": 1,
+    "words": [
+      "終える",
+      "終わる"
+    ]
+  },
+  "sense-AbsoluteVerb_455-1": {
+    "senseVersion": 1,
+    "words": [
+      "出来る",
+      "仕上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_456-1": {
+    "senseVersion": 1,
+    "words": [
+      "終わる",
+      "終える"
+    ]
+  },
+  "sense-AbsoluteVerb_457-1": {
+    "senseVersion": 1,
+    "words": [
+      "終える",
+      "解決"
+    ]
+  },
+  "sense-AbsoluteVerb_458-1": {
+    "senseVersion": 1,
+    "words": [
+      "命じる",
+      "注文"
+    ]
+  },
+  "sense-AbsoluteVerb_459-1": {
+    "senseVersion": 1,
+    "words": [
+      "助ける",
+      "援助"
+    ]
+  },
+  "sense-AbsoluteVerb_46-1": {
+    "senseVersion": 1,
+    "words": [
+      "放る",
+      "落とす"
+    ]
+  },
+  "sense-AbsoluteVerb_460-1": {
+    "senseVersion": 1,
+    "words": [
+      "助ける",
+      "役に立つ"
+    ]
+  },
+  "sense-AbsoluteVerb_461-1": {
+    "senseVersion": 1,
+    "words": [
+      "救う",
+      "養う"
+    ]
+  },
+  "sense-AbsoluteVerb_462-1": {
+    "senseVersion": 1,
+    "words": [
+      "助ける",
+      "手伝う"
+    ]
+  },
+  "sense-AbsoluteVerb_463-1": {
+    "senseVersion": 1,
+    "words": [
+      "役に立つ",
+      "助かる"
+    ]
+  },
+  "sense-AbsoluteVerb_465-1": {
+    "senseVersion": 1,
+    "words": [
+      "阻む",
+      "邪魔する"
+    ]
+  },
+  "sense-AbsoluteVerb_466-1": {
+    "senseVersion": 1,
+    "words": [
+      "招待する",
+      "呼ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_468-1": {
+    "senseVersion": 1,
+    "words": [
+      "計算する",
+      "勘定"
+    ]
+  },
+  "sense-AbsoluteVerb_469-1": {
+    "senseVersion": 1,
+    "words": [
+      "加える",
+      "詰める"
+    ]
+  },
+  "sense-AbsoluteVerb_472-1": {
+    "senseVersion": 1,
+    "words": [
+      "割れる",
+      "分ける"
+    ]
+  },
+  "sense-AbsoluteVerb_474-1": {
+    "senseVersion": 1,
+    "words": [
+      "似る",
+      "一致"
+    ]
+  },
+  "sense-AbsoluteVerb_475-1": {
+    "senseVersion": 1,
+    "words": [
+      "沿う",
+      "合う"
+    ]
+  },
+  "sense-AbsoluteVerb_476-1": {
+    "senseVersion": 1,
+    "words": [
+      "違う",
+      "間違える"
+    ]
+  },
+  "sense-AbsoluteVerb_477-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違う",
+      "誤る"
+    ]
+  },
+  "sense-AbsoluteVerb_478-1": {
+    "senseVersion": 1,
+    "words": [
+      "謝る",
+      "違う"
+    ]
+  },
+  "sense-AbsoluteVerb_479-1": {
+    "senseVersion": 1,
+    "words": [
+      "持つ",
+      "輸送"
+    ]
+  },
+  "sense-AbsoluteVerb_48-1": {
+    "senseVersion": 1,
+    "words": [
+      "轢く",
+      "叩く"
+    ]
+  },
+  "sense-AbsoluteVerb_480-1": {
+    "senseVersion": 1,
+    "words": [
+      "移る",
+      "移住"
+    ]
+  },
+  "sense-AbsoluteVerb_481-1": {
+    "senseVersion": 1,
+    "words": [
+      "移す",
+      "運ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_482-1": {
+    "senseVersion": 1,
+    "words": [
+      "移る",
+      "運ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_483-1": {
+    "senseVersion": 1,
+    "words": [
+      "送る",
+      "出す"
+    ]
+  },
+  "sense-AbsoluteVerb_484-1": {
+    "senseVersion": 1,
+    "words": [
+      "過ごす",
+      "寄越す"
+    ]
+  },
+  "sense-AbsoluteVerb_485-1": {
+    "senseVersion": 1,
+    "words": [
+      "加える",
+      "集まる"
+    ]
+  },
+  "sense-AbsoluteVerb_486-1": {
+    "senseVersion": 1,
+    "words": [
+      "足す",
+      "合わせる"
+    ]
+  },
+  "sense-AbsoluteVerb_487-1": {
+    "senseVersion": 1,
+    "words": [
+      "交える",
+      "加える"
+    ]
+  },
+  "sense-AbsoluteVerb_488-1": {
+    "senseVersion": 1,
+    "words": [
+      "沿う",
+      "応じる"
+    ]
+  },
+  "sense-AbsoluteVerb_489-1": {
+    "senseVersion": 1,
+    "words": [
+      "重ねる",
+      "積む"
+    ]
+  },
+  "sense-AbsoluteVerb_49-1": {
+    "senseVersion": 1,
+    "words": [
+      "考える",
+      "感じる"
+    ]
+  },
+  "sense-AbsoluteVerb_490-1": {
+    "senseVersion": 1,
+    "words": [
+      "並べる",
+      "積む"
+    ]
+  },
+  "sense-AbsoluteVerb_492-1": {
+    "senseVersion": 1,
+    "words": [
+      "増やす",
+      "増加"
+    ]
+  },
+  "sense-AbsoluteVerb_493-1": {
+    "senseVersion": 1,
+    "words": [
+      "増す",
+      "増える"
+    ]
+  },
+  "sense-AbsoluteVerb_494-1": {
+    "senseVersion": 1,
+    "words": [
+      "減らす",
+      "減少"
+    ]
+  },
+  "sense-AbsoluteVerb_495-1": {
+    "senseVersion": 1,
+    "words": [
+      "減る",
+      "減少"
+    ]
+  },
+  "sense-AbsoluteVerb_496-1": {
+    "senseVersion": 1,
+    "words": [
+      "刈る",
+      "切る"
+    ]
+  },
+  "sense-AbsoluteVerb_497-1": {
+    "senseVersion": 1,
+    "words": [
+      "伸ばす",
+      "育つ"
+    ]
+  },
+  "sense-AbsoluteVerb_498-1": {
+    "senseVersion": 1,
+    "words": [
+      "延ばす",
+      "広げる"
+    ]
+  },
+  "sense-AbsoluteVerb_499-1": {
+    "senseVersion": 1,
+    "words": [
+      "縮める",
+      "減らす"
+    ]
+  },
+  "sense-AbsoluteVerb_5-1": {
+    "senseVersion": 1,
+    "words": [
+      "起こす",
+      "起こる"
+    ]
+  },
+  "sense-AbsoluteVerb_50-1": {
+    "senseVersion": 1,
+    "words": [
+      "思う",
+      "図る"
+    ]
+  },
+  "sense-AbsoluteVerb_500-1": {
+    "senseVersion": 1,
+    "words": [
+      "控える",
+      "省く"
+    ]
+  },
+  "sense-AbsoluteVerb_501-1": {
+    "senseVersion": 1,
+    "words": [
+      "増える",
+      "広げる"
+    ]
+  },
+  "sense-AbsoluteVerb_502-1": {
+    "senseVersion": 1,
+    "words": [
+      "貯まる",
+      "重ねる"
+    ]
+  },
+  "sense-AbsoluteVerb_503-1": {
+    "senseVersion": 1,
+    "words": [
+      "積む",
+      "重ねる"
+    ]
+  },
+  "sense-AbsoluteVerb_504-1": {
+    "senseVersion": 1,
+    "words": [
+      "壊す",
+      "崩れる"
+    ]
+  },
+  "sense-AbsoluteVerb_505-1": {
+    "senseVersion": 1,
+    "words": [
+      "壊れる",
+      "破る"
+    ]
+  },
+  "sense-AbsoluteVerb_506-1": {
+    "senseVersion": 1,
+    "words": [
+      "治る",
+      "改める"
+    ]
+  },
+  "sense-AbsoluteVerb_507-1": {
+    "senseVersion": 1,
+    "words": [
+      "治す",
+      "治療"
+    ]
+  },
+  "sense-AbsoluteVerb_508-1": {
+    "senseVersion": 1,
+    "words": [
+      "崩す",
+      "倒れる"
+    ]
+  },
+  "sense-AbsoluteVerb_509-1": {
+    "senseVersion": 1,
+    "words": [
+      "崩れる",
+      "破る"
+    ]
+  },
+  "sense-AbsoluteVerb_51-1": {
+    "senseVersion": 1,
+    "words": [
+      "考える",
+      "迷惑"
+    ]
+  },
+  "sense-AbsoluteVerb_510-1": {
+    "senseVersion": 1,
+    "words": [
+      "壊れる",
+      "分かれる"
+    ]
+  },
+  "sense-AbsoluteVerb_512-1": {
+    "senseVersion": 1,
+    "words": [
+      "破る",
+      "崩れる"
+    ]
+  },
+  "sense-AbsoluteVerb_514-1": {
+    "senseVersion": 1,
+    "words": [
+      "消す",
+      "隠れる"
+    ]
+  },
+  "sense-AbsoluteVerb_515-1": {
+    "senseVersion": 1,
+    "words": [
+      "変える",
+      "替える"
+    ]
+  },
+  "sense-AbsoluteVerb_516-1": {
+    "senseVersion": 1,
+    "words": [
+      "切り替える",
+      "変わる"
+    ]
+  },
+  "sense-AbsoluteVerb_517-1": {
+    "senseVersion": 1,
+    "words": [
+      "染める",
+      "染みる"
+    ]
+  },
+  "sense-AbsoluteVerb_519-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷やす",
+      "冷める"
+    ]
+  },
+  "sense-AbsoluteVerb_52-1": {
+    "senseVersion": 1,
+    "words": [
+      "怪しむ",
+      "疑惑"
+    ]
+  },
+  "sense-AbsoluteVerb_522-1": {
+    "senseVersion": 1,
+    "words": [
+      "塞ぐ",
+      "盛る"
+    ]
+  },
+  "sense-AbsoluteVerb_524-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "包む"
+    ]
+  },
+  "sense-AbsoluteVerb_525-1": {
+    "senseVersion": 1,
+    "words": [
+      "防ぐ",
+      "埋める"
+    ]
+  },
+  "sense-AbsoluteVerb_528-1": {
+    "senseVersion": 1,
+    "words": [
+      "外れる",
+      "壊れる"
+    ]
+  },
+  "sense-AbsoluteVerb_529-1": {
+    "senseVersion": 1,
+    "words": [
+      "曲げる",
+      "回す"
+    ]
+  },
+  "sense-AbsoluteVerb_53-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心する",
+      "和らぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_531-1": {
+    "senseVersion": 1,
+    "words": [
+      "折る",
+      "壊れる"
+    ]
+  },
+  "sense-AbsoluteVerb_532-1": {
+    "senseVersion": 1,
+    "words": [
+      "折れる",
+      "破る"
+    ]
+  },
+  "sense-AbsoluteVerb_534-1": {
+    "senseVersion": 1,
+    "words": [
+      "汚れる",
+      "汚れ"
+    ]
+  },
+  "sense-AbsoluteVerb_536-1": {
+    "senseVersion": 1,
+    "words": [
+      "細い",
+      "スマート"
+    ]
+  },
+  "sense-AbsoluteVerb_537-1": {
+    "senseVersion": 1,
+    "words": [
+      "沈む",
+      "和らぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_538-1": {
+    "senseVersion": 1,
+    "words": [
+      "納める",
+      "支配"
+    ]
+  },
+  "sense-AbsoluteVerb_54-1": {
+    "senseVersion": 1,
+    "words": [
+      "確認する",
+      "調べる"
+    ]
+  },
+  "sense-AbsoluteVerb_541-1": {
+    "senseVersion": 1,
+    "words": [
+      "被せる",
+      "包む"
+    ]
+  },
+  "sense-AbsoluteVerb_542-1": {
+    "senseVersion": 1,
+    "words": [
+      "傾く",
+      "傾斜"
+    ]
+  },
+  "sense-AbsoluteVerb_543-1": {
+    "senseVersion": 1,
+    "words": [
+      "揺らぐ",
+      "揺らす"
+    ]
+  },
+  "sense-AbsoluteVerb_544-1": {
+    "senseVersion": 1,
+    "words": [
+      "必要",
+      "需要"
+    ]
+  },
+  "sense-AbsoluteVerb_545-1": {
+    "senseVersion": 1,
+    "words": [
+      "余る",
+      "十分"
+    ]
+  },
+  "sense-AbsoluteVerb_546-1": {
+    "senseVersion": 1,
+    "words": [
+      "増やす",
+      "追加"
+    ]
+  },
+  "sense-AbsoluteVerb_548-1": {
+    "senseVersion": 1,
+    "words": [
+      "建てる",
+      "掲げる"
+    ]
+  },
+  "sense-AbsoluteVerb_549-1": {
+    "senseVersion": 1,
+    "words": [
+      "越える",
+      "勝る"
+    ]
+  },
+  "sense-AbsoluteVerb_550-1": {
+    "senseVersion": 1,
+    "words": [
+      "超える",
+      "勝る"
+    ]
+  },
+  "sense-AbsoluteVerb_551-1": {
+    "senseVersion": 1,
+    "words": [
+      "広げる",
+      "拡大"
+    ]
+  },
+  "sense-AbsoluteVerb_552-1": {
+    "senseVersion": 1,
+    "words": [
+      "開く",
+      "拡大"
+    ]
+  },
+  "sense-AbsoluteVerb_553-1": {
+    "senseVersion": 1,
+    "words": [
+      "こぼす",
+      "流す"
+    ]
+  },
+  "sense-AbsoluteVerb_554-1": {
+    "senseVersion": 1,
+    "words": [
+      "流す",
+      "注ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_555-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "交える"
+    ]
+  },
+  "sense-AbsoluteVerb_556-1": {
+    "senseVersion": 1,
+    "words": [
+      "含む",
+      "交える"
+    ]
+  },
+  "sense-AbsoluteVerb_557-1": {
+    "senseVersion": 1,
+    "words": [
+      "残す",
+      "余る"
+    ]
+  },
+  "sense-AbsoluteVerb_558-1": {
+    "senseVersion": 1,
+    "words": [
+      "残る",
+      "保存"
+    ]
+  },
+  "sense-AbsoluteVerb_559-1": {
+    "senseVersion": 1,
+    "words": [
+      "残る"
+    ]
+  },
+  "sense-AbsoluteVerb_56-1": {
+    "senseVersion": 1,
+    "words": [
+      "痛い",
+      "傷む"
+    ]
+  },
+  "sense-AbsoluteVerb_560-1": {
+    "senseVersion": 1,
+    "words": [
+      "入る",
+      "上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_561-1": {
+    "senseVersion": 1,
+    "words": [
+      "しまう",
+      "納める"
+    ]
+  },
+  "sense-AbsoluteVerb_562-1": {
+    "senseVersion": 1,
+    "words": [
+      "近づく",
+      "強いる"
+    ]
+  },
+  "sense-AbsoluteVerb_564-1": {
+    "senseVersion": 1,
+    "words": [
+      "近付ける",
+      "迫る"
+    ]
+  },
+  "sense-AbsoluteVerb_565-1": {
+    "senseVersion": 1,
+    "words": [
+      "経る",
+      "過ごす"
+    ]
+  },
+  "sense-AbsoluteVerb_566-1": {
+    "senseVersion": 1,
+    "words": [
+      "送る",
+      "暮らす"
+    ]
+  },
+  "sense-AbsoluteVerb_567-1": {
+    "senseVersion": 1,
+    "words": [
+      "伸びる",
+      "長引く"
+    ]
+  },
+  "sense-AbsoluteVerb_568-1": {
+    "senseVersion": 1,
+    "words": [
+      "見合わせる",
+      "伸ばす"
+    ]
+  },
+  "sense-AbsoluteVerb_569-1": {
+    "senseVersion": 1,
+    "words": [
+      "慌てる",
+      "急かす"
+    ]
+  },
+  "sense-AbsoluteVerb_57-1": {
+    "senseVersion": 1,
+    "words": [
+      "痛む",
+      "損なう"
+    ]
+  },
+  "sense-AbsoluteVerb_571-1": {
+    "senseVersion": 1,
+    "words": [
+      "儲ける",
+      "作る"
+    ]
+  },
+  "sense-AbsoluteVerb_572-1": {
+    "senseVersion": 1,
+    "words": [
+      "用意する",
+      "与える"
+    ]
+  },
+  "sense-AbsoluteVerb_573-1": {
+    "senseVersion": 1,
+    "words": [
+      "開ける",
+      "広げる"
+    ]
+  },
+  "sense-AbsoluteVerb_575-1": {
+    "senseVersion": 1,
+    "words": [
+      "開ける（あける）"
+    ]
+  },
+  "sense-AbsoluteVerb_577-1": {
+    "senseVersion": 1,
+    "words": [
+      "直す",
+      "見直す"
+    ]
+  },
+  "sense-AbsoluteVerb_578-1": {
+    "senseVersion": 1,
+    "words": [
+      "正しい",
+      "当てる"
+    ]
+  },
+  "sense-AbsoluteVerb_579-1": {
+    "senseVersion": 1,
+    "words": [
+      "当たる",
+      "ぶつかる"
+    ]
+  },
+  "sense-AbsoluteVerb_58-1": {
+    "senseVersion": 1,
+    "words": [
+      "思う",
+      "察する"
+    ]
+  },
+  "sense-AbsoluteVerb_580-1": {
+    "senseVersion": 1,
+    "words": [
+      "合う",
+      "適当"
+    ]
+  },
+  "sense-AbsoluteVerb_581-1": {
+    "senseVersion": 1,
+    "words": [
+      "当てはまる"
+    ]
+  },
+  "sense-AbsoluteVerb_582-1": {
+    "senseVersion": 1,
+    "words": [
+      "解く（ほどく）",
+      "緩める"
+    ]
+  },
+  "sense-AbsoluteVerb_583-1": {
+    "senseVersion": 1,
+    "words": [
+      "守る",
+      "貫く"
+    ]
+  },
+  "sense-AbsoluteVerb_584-1": {
+    "senseVersion": 1,
+    "words": [
+      "伴わせる",
+      "従う"
+    ]
+  },
+  "sense-AbsoluteVerb_586-1": {
+    "senseVersion": 1,
+    "words": [
+      "守る",
+      "準じる"
+    ]
+  },
+  "sense-AbsoluteVerb_588-1": {
+    "senseVersion": 1,
+    "words": [
+      "並ぶ",
+      "設ける"
+    ]
+  },
+  "sense-AbsoluteVerb_589-1": {
+    "senseVersion": 1,
+    "words": [
+      "抜く",
+      "落ちる"
+    ]
+  },
+  "sense-AbsoluteVerb_59-1": {
+    "senseVersion": 1,
+    "words": [
+      "濡れる",
+      "漬ける"
+    ]
+  },
+  "sense-AbsoluteVerb_590-1": {
+    "senseVersion": 1,
+    "words": [
+      "取る",
+      "選ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_591-1": {
+    "senseVersion": 1,
+    "words": [
+      "落ちる",
+      "離れる"
+    ]
+  },
+  "sense-AbsoluteVerb_592-1": {
+    "senseVersion": 1,
+    "words": [
+      "外す",
+      "落ちる"
+    ]
+  },
+  "sense-AbsoluteVerb_593-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾かす"
+    ]
+  },
+  "sense-AbsoluteVerb_596-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾く",
+      "干す"
+    ]
+  },
+  "sense-AbsoluteVerb_598-1": {
+    "senseVersion": 1,
+    "words": [
+      "濡れる",
+      "漬ける"
+    ]
+  },
+  "sense-AbsoluteVerb_6-1": {
+    "senseVersion": 1,
+    "words": [
+      "覚ます",
+      "起きる"
+    ]
+  },
+  "sense-AbsoluteVerb_60-1": {
+    "senseVersion": 1,
+    "words": [
+      "言う",
+      "しゃべる"
+    ]
+  },
+  "sense-AbsoluteVerb_601-1": {
+    "senseVersion": 1,
+    "words": [
+      "漬ける",
+      "染みる"
+    ]
+  },
+  "sense-AbsoluteVerb_603-1": {
+    "senseVersion": 1,
+    "words": [
+      "対する",
+      "向かう"
+    ]
+  },
+  "sense-AbsoluteVerb_604-1": {
+    "senseVersion": 1,
+    "words": [
+      "着く",
+      "直面"
+    ]
+  },
+  "sense-AbsoluteVerb_605-1": {
+    "senseVersion": 1,
+    "words": [
+      "向く",
+      "直面"
+    ]
+  },
+  "sense-AbsoluteVerb_606-1": {
+    "senseVersion": 1,
+    "words": [
+      "向かう",
+      "狙う"
+    ]
+  },
+  "sense-AbsoluteVerb_607-1": {
+    "senseVersion": 1,
+    "words": [
+      "指す",
+      "掲げる"
+    ]
+  },
+  "sense-AbsoluteVerb_608-1": {
+    "senseVersion": 1,
+    "words": [
+      "羨む",
+      "志す"
+    ]
+  },
+  "sense-AbsoluteVerb_609-1": {
+    "senseVersion": 1,
+    "words": [
+      "続ける",
+      "次ぐ"
+    ]
+  },
+  "sense-AbsoluteVerb_61-1": {
+    "senseVersion": 1,
+    "words": [
+      "話す",
+      "話"
+    ]
+  },
+  "sense-AbsoluteVerb_611-1": {
+    "senseVersion": 1,
+    "words": [
+      "繋ぐ",
+      "結ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_612-1": {
+    "senseVersion": 1,
+    "words": [
+      "結ぶ",
+      "接する"
+    ]
+  },
+  "sense-AbsoluteVerb_613-1": {
+    "senseVersion": 1,
+    "words": [
+      "得意だ",
+      "勝る"
+    ]
+  },
+  "sense-AbsoluteVerb_614-1": {
+    "senseVersion": 1,
+    "words": [
+      "勝つ",
+      "越える"
+    ]
+  },
+  "sense-AbsoluteVerb_616-1": {
+    "senseVersion": 1,
+    "words": [
+      "出来上がる",
+      "仕上がる"
+    ]
+  },
+  "sense-AbsoluteVerb_618-1": {
+    "senseVersion": 1,
+    "words": [
+      "異なる",
+      "間違う"
+    ]
+  },
+  "sense-AbsoluteVerb_619-1": {
+    "senseVersion": 1,
+    "words": [
+      "違う",
+      "間違う"
+    ]
+  },
+  "sense-AbsoluteVerb_62-1": {
+    "senseVersion": 1,
+    "words": [
+      "言う",
+      "物語る"
+    ]
+  },
+  "sense-AbsoluteVerb_620-1": {
+    "senseVersion": 1,
+    "words": [
+      "別れる",
+      "分裂"
+    ]
+  },
+  "sense-AbsoluteVerb_621-1": {
+    "senseVersion": 1,
+    "words": [
+      "傾ける",
+      "傾斜"
+    ]
+  },
+  "sense-AbsoluteVerb_622-1": {
+    "senseVersion": 1,
+    "words": [
+      "言う",
+      "おっしゃる"
+    ]
+  },
+  "sense-AbsoluteVerb_623-1": {
+    "senseVersion": 1,
+    "words": [
+      "おっしゃる",
+      "言う"
+    ]
+  },
+  "sense-AbsoluteVerb_624-1": {
+    "senseVersion": 1,
+    "words": [
+      "いらっしゃる",
+      "来る"
+    ]
+  },
+  "sense-AbsoluteVerb_625-1": {
+    "senseVersion": 1,
+    "words": [
+      "居る（おる）",
+      "居る（いる）"
+    ]
+  },
+  "sense-AbsoluteVerb_626-1": {
+    "senseVersion": 1,
+    "words": [
+      "下さる",
+      "受け止める"
+    ]
+  },
+  "sense-AbsoluteVerb_628-1": {
+    "senseVersion": 1,
+    "words": [
+      "くださる",
+      "提供"
+    ]
+  },
+  "sense-AbsoluteVerb_629-1": {
+    "senseVersion": 1,
+    "words": [
+      "申し上げる",
+      "言う"
+    ]
+  },
+  "sense-AbsoluteVerb_63-1": {
+    "senseVersion": 1,
+    "words": [
+      "話す",
+      "示す"
+    ]
+  },
+  "sense-AbsoluteVerb_631-1": {
+    "senseVersion": 1,
+    "words": [
+      "する",
+      "なさる"
+    ]
+  },
+  "sense-AbsoluteVerb_632-1": {
+    "senseVersion": 1,
+    "words": [
+      "おる",
+      "おいでになる"
+    ]
+  },
+  "sense-AbsoluteVerb_633-1": {
+    "senseVersion": 1,
+    "words": [
+      "おる",
+      "いらっしゃる"
+    ]
+  },
+  "sense-AbsoluteVerb_634-1": {
+    "senseVersion": 1,
+    "words": [
+      "いただく",
+      "食べる"
+    ]
+  },
+  "sense-AbsoluteVerb_635-1": {
+    "senseVersion": 1,
+    "words": [
+      "拝見する",
+      "見る"
+    ]
+  },
+  "sense-AbsoluteVerb_64-1": {
+    "senseVersion": 1,
+    "words": [
+      "しゃべる",
+      "言う"
+    ]
+  },
+  "sense-AbsoluteVerb_641-1": {
+    "senseVersion": 1,
+    "words": [
+      "用意する",
+      "構える"
+    ]
+  },
+  "sense-AbsoluteVerb_642-1": {
+    "senseVersion": 1,
+    "words": [
+      "構える",
+      "準備する"
+    ]
+  },
+  "sense-AbsoluteVerb_65-1": {
+    "senseVersion": 1,
+    "words": [
+      "ささやく",
+      "愚痴"
+    ]
+  },
+  "sense-AbsoluteVerb_655-1": {
+    "senseVersion": 1,
+    "words": [
+      "暗記する",
+      "分かる"
+    ]
+  },
+  "sense-AbsoluteVerb_671-1": {
+    "senseVersion": 1,
+    "words": [
+      "試す",
+      "挑む"
+    ]
+  },
+  "sense-AbsoluteVerb_679-1": {
+    "senseVersion": 1,
+    "words": [
+      "出掛ける",
+      "出勤する"
+    ]
+  },
+  "sense-AbsoluteVerb_68-1": {
+    "senseVersion": 1,
+    "words": [
+      "叫ぶ",
+      "連絡"
+    ]
+  },
+  "sense-AbsoluteVerb_682-1": {
+    "senseVersion": 1,
+    "words": [
+      "決める",
+      "検討する"
+    ]
+  },
+  "sense-AbsoluteVerb_689-1": {
+    "senseVersion": 1,
+    "words": [
+      "通訳する",
+      "訳す"
+    ]
+  },
+  "sense-AbsoluteVerb_69-1": {
+    "senseVersion": 1,
+    "words": [
+      "呼ぶ",
+      "要請"
+    ]
+  },
+  "sense-AbsoluteVerb_690-1": {
+    "senseVersion": 1,
+    "words": [
+      "印刷する",
+      "本を出す"
+    ]
+  },
+  "sense-AbsoluteVerb_692-1": {
+    "senseVersion": 1,
+    "words": [
+      "考える",
+      "工夫"
+    ]
+  },
+  "sense-AbsoluteVerb_7-1": {
+    "senseVersion": 1,
+    "words": [
+      "折る",
+      "閉じる"
+    ]
+  },
+  "sense-AbsoluteVerb_701-1": {
+    "senseVersion": 1,
+    "words": [
+      "修正する",
+      "直す"
+    ]
+  },
+  "sense-AbsoluteVerb_702-1": {
+    "senseVersion": 1,
+    "words": [
+      "掃除する",
+      "まとめる"
+    ]
+  },
+  "sense-AbsoluteVerb_709-1": {
+    "senseVersion": 1,
+    "words": [
+      "確かめる",
+      "承認する"
+    ]
+  },
+  "sense-AbsoluteVerb_71-1": {
+    "senseVersion": 1,
+    "words": [
+      "吊る",
+      "下げる"
+    ]
+  },
+  "sense-AbsoluteVerb_71-3": {
+    "senseVersion": 1,
+    "words": [
+      "被る",
+      "身に着ける"
+    ]
+  },
+  "sense-AbsoluteVerb_710-1": {
+    "senseVersion": 1,
+    "words": [
+      "保存する",
+      "保つ"
+    ]
+  },
+  "sense-AbsoluteVerb_714-1": {
+    "senseVersion": 1,
+    "words": [
+      "用意する",
+      "構える"
+    ]
+  },
+  "sense-AbsoluteVerb_719-1": {
+    "senseVersion": 1,
+    "words": [
+      "努力する",
+      "苦しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_72-1": {
+    "senseVersion": 1,
+    "words": [
+      "掛ける",
+      "引っかかる"
+    ]
+  },
+  "sense-AbsoluteVerb_720-1": {
+    "senseVersion": 1,
+    "words": [
+      "招く",
+      "呼ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_721-1": {
+    "senseVersion": 1,
+    "words": [
+      "真似る",
+      "参考にする"
+    ]
+  },
+  "sense-AbsoluteVerb_723-1": {
+    "senseVersion": 1,
+    "words": [
+      "徹する",
+      "一貫する"
+    ]
+  },
+  "sense-AbsoluteVerb_725-1": {
+    "senseVersion": 1,
+    "words": [
+      "気にする",
+      "案じる"
+    ]
+  },
+  "sense-AbsoluteVerb_728-1": {
+    "senseVersion": 1,
+    "words": [
+      "ちくちくする",
+      "がんがんする"
+    ]
+  },
+  "sense-AbsoluteVerb_73-1": {
+    "senseVersion": 1,
+    "words": [
+      "貼る",
+      "付く"
+    ]
+  },
+  "sense-AbsoluteVerb_730-1": {
+    "senseVersion": 1,
+    "words": [
+      "ちくちくする",
+      "ずきずきする"
+    ]
+  },
+  "sense-AbsoluteVerb_733-1": {
+    "senseVersion": 1,
+    "words": [
+      "ざらざらする",
+      "凸凹"
+    ]
+  },
+  "sense-AbsoluteVerb_734-1": {
+    "senseVersion": 1,
+    "words": [
+      "薄い",
+      "さっぱりする"
+    ]
+  },
+  "sense-AbsoluteVerb_735-1": {
+    "senseVersion": 1,
+    "words": [
+      "すっきりする",
+      "あっさりする"
+    ]
+  },
+  "sense-AbsoluteVerb_74-1": {
+    "senseVersion": 1,
+    "words": [
+      "点く",
+      "輝く"
+    ]
+  },
+  "sense-AbsoluteVerb_742-1": {
+    "senseVersion": 1,
+    "words": [
+      "疲れる",
+      "くたびれる"
+    ]
+  },
+  "sense-AbsoluteVerb_745-1": {
+    "senseVersion": 1,
+    "words": [
+      "心強い",
+      "硬い"
+    ]
+  },
+  "sense-AbsoluteVerb_748-1": {
+    "senseVersion": 1,
+    "words": [
+      "ときめく",
+      "どきどきする"
+    ]
+  },
+  "sense-AbsoluteVerb_75-1": {
+    "senseVersion": 1,
+    "words": [
+      "削除する",
+      "打ち消す"
+    ]
+  },
+  "sense-AbsoluteVerb_758-1": {
+    "senseVersion": 1,
+    "words": [
+      "匂いがする",
+      "匂う"
+    ]
+  },
+  "sense-AbsoluteVerb_76-1": {
+    "senseVersion": 1,
+    "words": [
+      "開く",
+      "広げる"
+    ]
+  },
+  "sense-AbsoluteVerb_761-1": {
+    "senseVersion": 1,
+    "words": [
+      "気がする",
+      "思いがする"
+    ]
+  },
+  "sense-AbsoluteVerb_762-1": {
+    "senseVersion": 1,
+    "words": [
+      "思いがする",
+      "分かる"
+    ]
+  },
+  "sense-AbsoluteVerb_763-1": {
+    "senseVersion": 1,
+    "words": [
+      "気がする",
+      "感じがする"
+    ]
+  },
+  "sense-AbsoluteVerb_77-1": {
+    "senseVersion": 1,
+    "words": [
+      "開ける",
+      "広げる"
+    ]
+  },
+  "sense-AbsoluteVerb_78-1": {
+    "senseVersion": 1,
+    "words": [
+      "締める",
+      "閉じる"
+    ]
+  },
+  "sense-AbsoluteVerb_785-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "休みを取る"
+    ]
+  },
+  "sense-AbsoluteVerb_786-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "休暇を取る"
+    ]
+  },
+  "sense-AbsoluteVerb_79-1": {
+    "senseVersion": 1,
+    "words": [
+      "閉める",
+      "閉じる"
+    ]
+  },
+  "sense-AbsoluteVerb_797-1": {
+    "senseVersion": 1,
+    "words": [
+      "責任がある",
+      "負う"
+    ]
+  },
+  "sense-AbsoluteVerb_80-1": {
+    "senseVersion": 1,
+    "words": [
+      "つかむ",
+      "選ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_81-1": {
+    "senseVersion": 1,
+    "words": [
+      "握る",
+      "掴む"
+    ]
+  },
+  "sense-AbsoluteVerb_81-2": {
+    "senseVersion": 1,
+    "words": [
+      "有する"
+    ]
+  },
+  "sense-AbsoluteVerb_814-1": {
+    "senseVersion": 1,
+    "words": [
+      "本を書く",
+      "出版する"
+    ]
+  },
+  "sense-AbsoluteVerb_815-1": {
+    "senseVersion": 1,
+    "words": [
+      "顔を見せる",
+      "出る"
+    ]
+  },
+  "sense-AbsoluteVerb_82-1": {
+    "senseVersion": 1,
+    "words": [
+      "引く",
+      "押さえる"
+    ]
+  },
+  "sense-AbsoluteVerb_820-1": {
+    "senseVersion": 1,
+    "words": [
+      "触る",
+      "始める"
+    ]
+  },
+  "sense-AbsoluteVerb_822-1": {
+    "senseVersion": 1,
+    "words": [
+      "くたびれる",
+      "疲れる"
+    ]
+  },
+  "sense-AbsoluteVerb_83-1": {
+    "senseVersion": 1,
+    "words": [
+      "押す",
+      "下げる"
+    ]
+  },
+  "sense-AbsoluteVerb_835-1": {
+    "senseVersion": 1,
+    "words": [
+      "手伝う",
+      "助かる"
+    ]
+  },
+  "sense-AbsoluteVerb_84-1": {
+    "senseVersion": 1,
+    "words": [
+      "引く",
+      "引きずる"
+    ]
+  },
+  "sense-AbsoluteVerb_844-1": {
+    "senseVersion": 1,
+    "words": [
+      "覚える",
+      "学ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_848-1": {
+    "senseVersion": 1,
+    "words": [
+      "役に立つ",
+      "助かる"
+    ]
+  },
+  "sense-AbsoluteVerb_85-1": {
+    "senseVersion": 1,
+    "words": [
+      "押す",
+      "抑える"
+    ]
+  },
+  "sense-AbsoluteVerb_850-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強になる",
+      "役に立つ"
+    ]
+  },
+  "sense-AbsoluteVerb_851-1": {
+    "senseVersion": 1,
+    "words": [
+      "邪魔をする",
+      "障る"
+    ]
+  },
+  "sense-AbsoluteVerb_859-1": {
+    "senseVersion": 1,
+    "words": [
+      "察する",
+      "気づく"
+    ]
+  },
+  "sense-AbsoluteVerb_86-1": {
+    "senseVersion": 1,
+    "words": [
+      "触る",
+      "擦る（する）"
+    ]
+  },
+  "sense-AbsoluteVerb_862-1": {
+    "senseVersion": 1,
+    "words": [
+      "気になる",
+      "案じる"
+    ]
+  },
+  "sense-AbsoluteVerb_864-1": {
+    "senseVersion": 1,
+    "words": [
+      "短気",
+      "気が荒い"
+    ]
+  },
+  "sense-AbsoluteVerb_87-1": {
+    "senseVersion": 1,
+    "words": [
+      "揺らす",
+      "振動"
+    ]
+  },
+  "sense-AbsoluteVerb_88-1": {
+    "senseVersion": 1,
+    "words": [
+      "握る",
+      "逮捕"
+    ]
+  },
+  "sense-AbsoluteVerb_89-1": {
+    "senseVersion": 1,
+    "words": [
+      "触る",
+      "取る"
+    ]
+  },
+  "sense-AbsoluteVerb_9-1": {
+    "senseVersion": 1,
+    "words": [
+      "刈る",
+      "削る"
+    ]
+  },
+  "sense-AbsoluteVerb_90-1": {
+    "senseVersion": 1,
+    "words": [
+      "巻く",
+      "接する"
+    ]
+  },
+  "sense-AbsoluteVerb_91-1": {
+    "senseVersion": 1,
+    "words": [
+      "結ぶ",
+      "締める"
+    ]
+  },
+  "sense-AbsoluteVerb_92-1": {
+    "senseVersion": 1,
+    "words": [
+      "手を出す",
+      "撫でる"
+    ]
+  },
+  "sense-AbsoluteVerb_93-1": {
+    "senseVersion": 1,
+    "words": [
+      "触る",
+      "阻む"
+    ]
+  },
+  "sense-AbsoluteVerb_94-1": {
+    "senseVersion": 1,
+    "words": [
+      "殴る",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-AbsoluteVerb_96-1": {
+    "senseVersion": 1,
+    "words": [
+      "張る",
+      "掲げる"
+    ]
+  },
+  "sense-AbsoluteVerb_97-1": {
+    "senseVersion": 1,
+    "words": [
+      "付ける",
+      "描く（えがく）"
+    ]
+  },
+  "sense-AbsoluteVerb_98-1": {
+    "senseVersion": 1,
+    "words": [
+      "編む",
+      "刺す"
+    ]
+  },
+  "sense-AbsoluteVerb_99-1": {
+    "senseVersion": 1,
+    "words": [
+      "めくれる",
+      "曲がる"
+    ]
+  },
+  "sense-handmade_101-1": {
+    "senseVersion": 1,
+    "words": [
+      "事故",
+      "紛争"
+    ]
+  },
+  "sense-handmade_103-1": {
+    "senseVersion": 1,
+    "words": [
+      "本音",
+      "心情"
+    ]
+  },
+  "sense-handmade_104-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "会見"
+    ]
+  },
+  "sense-handmade_105-1": {
+    "senseVersion": 1,
+    "words": [
+      "考え",
+      "コメント"
+    ]
+  },
+  "sense-handmade_106-1": {
+    "senseVersion": 1,
+    "words": [
+      "ちゃんと",
+      "すっきり"
+    ]
+  },
+  "sense-handmade_107-1": {
+    "senseVersion": 1,
+    "words": [
+      "作家",
+      "作者"
+    ]
+  },
+  "sense-handmade_108-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違う",
+      "異なる"
+    ]
+  },
+  "sense-handmade_111-1": {
+    "senseVersion": 1,
+    "words": [
+      "心配",
+      "過労"
+    ]
+  },
+  "sense-handmade_113-1": {
+    "senseVersion": 1,
+    "words": [
+      "長い",
+      "向こう"
+    ]
+  },
+  "sense-handmade_114-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠方",
+      "向こう"
+    ]
+  },
+  "sense-handmade_115-1": {
+    "senseVersion": 1,
+    "words": [
+      "傾く",
+      "傾斜"
+    ]
+  },
+  "sense-handmade_116-1": {
+    "senseVersion": 1,
+    "words": [
+      "利用する",
+      "使用"
+    ]
+  },
+  "sense-handmade_118-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "上がる"
+    ]
+  },
+  "sense-handmade_119-1": {
+    "senseVersion": 1,
+    "words": [
+      "戻る",
+      "離れる"
+    ]
+  },
+  "sense-handmade_120-1": {
+    "senseVersion": 1,
+    "words": [
+      "家",
+      "場所"
+    ]
+  },
+  "sense-handmade_126-1": {
+    "senseVersion": 1,
+    "words": [
+      "後",
+      "裏"
+    ]
+  },
+  "sense-handmade_127-1": {
+    "senseVersion": 1,
+    "words": [
+      "値段",
+      "額"
+    ]
+  },
+  "sense-handmade_128-1": {
+    "senseVersion": 1,
+    "words": [
+      "糸",
+      "縄"
+    ]
+  },
+  "sense-handmade_129-1": {
+    "senseVersion": 1,
+    "words": [
+      "強盗",
+      "盗難"
+    ]
+  },
+  "sense-handmade_13-1": {
+    "senseVersion": 1,
+    "words": [
+      "状態",
+      "姿"
+    ]
+  },
+  "sense-handmade_132-1": {
+    "senseVersion": 1,
+    "words": [
+      "報告",
+      "記事"
+    ]
+  },
+  "sense-handmade_134-1": {
+    "senseVersion": 1,
+    "words": [
+      "逃がす",
+      "失う"
+    ]
+  },
+  "sense-handmade_135-1": {
+    "senseVersion": 1,
+    "words": [
+      "証拠",
+      "鍵"
+    ]
+  },
+  "sense-handmade_137-1": {
+    "senseVersion": 1,
+    "words": [
+      "大きい",
+      "巨大"
+    ]
+  },
+  "sense-handmade_138-1": {
+    "senseVersion": 1,
+    "words": [
+      "権威",
+      "権限"
+    ]
+  },
+  "sense-handmade_139-1": {
+    "senseVersion": 1,
+    "words": [
+      "部長",
+      "監督"
+    ]
+  },
+  "sense-handmade_14-1": {
+    "senseVersion": 1,
+    "words": [
+      "土",
+      "汚れ"
+    ]
+  },
+  "sense-handmade_140-1": {
+    "senseVersion": 1,
+    "words": [
+      "道",
+      "高速"
+    ]
+  },
+  "sense-handmade_143-1": {
+    "senseVersion": 1,
+    "words": [
+      "薄い",
+      "気軽"
+    ]
+  },
+  "sense-handmade_144-1": {
+    "senseVersion": 1,
+    "words": [
+      "音",
+      "物音"
+    ]
+  },
+  "sense-handmade_145-1": {
+    "senseVersion": 1,
+    "words": [
+      "発酵",
+      "腐る"
+    ]
+  },
+  "sense-handmade_146-1": {
+    "senseVersion": 1,
+    "words": [
+      "机",
+      "テーブル"
+    ]
+  },
+  "sense-handmade_148-1": {
+    "senseVersion": 1,
+    "words": [
+      "塀",
+      "邪魔"
+    ]
+  },
+  "sense-handmade_149-1": {
+    "senseVersion": 1,
+    "words": [
+      "刺さる",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-handmade_15-1": {
+    "senseVersion": 1,
+    "words": [
+      "清掃",
+      "片付け"
+    ]
+  },
+  "sense-handmade_151-1": {
+    "senseVersion": 1,
+    "words": [
+      "課題"
+    ]
+  },
+  "sense-handmade_152-1": {
+    "senseVersion": 1,
+    "words": [
+      "奥さん",
+      "嫁"
+    ]
+  },
+  "sense-handmade_153-1": {
+    "senseVersion": 1,
+    "words": [
+      "炊事"
+    ]
+  },
+  "sense-handmade_153-2": {
+    "senseVersion": 1,
+    "words": [
+      "食べ物",
+      "食品"
+    ]
+  },
+  "sense-handmade_154-1": {
+    "senseVersion": 1,
+    "words": [
+      "辞典",
+      "百科事典"
+    ]
+  },
+  "sense-handmade_16-1": {
+    "senseVersion": 1,
+    "words": [
+      "戻る",
+      "返還"
+    ]
+  },
+  "sense-handmade_18-1": {
+    "senseVersion": 1,
+    "words": [
+      "穴",
+      "場所"
+    ]
+  },
+  "sense-handmade_19-1": {
+    "senseVersion": 1,
+    "words": [
+      "照らす",
+      "映る"
+    ]
+  },
+  "sense-handmade_2-1": {
+    "senseVersion": 1,
+    "words": [
+      "手伝う",
+      "救う"
+    ]
+  },
+  "sense-handmade_20-1": {
+    "senseVersion": 1,
+    "words": [
+      "やめる",
+      "捨てる"
+    ]
+  },
+  "sense-handmade_21-1": {
+    "senseVersion": 1,
+    "words": [
+      "秘密",
+      "神秘"
+    ]
+  },
+  "sense-handmade_22-1": {
+    "senseVersion": 1,
+    "words": [
+      "会社",
+      "食堂"
+    ]
+  },
+  "sense-handmade_24-1": {
+    "senseVersion": 1,
+    "words": [
+      "毛"
+    ]
+  },
+  "sense-handmade_3-1": {
+    "senseVersion": 1,
+    "words": [
+      "威張る",
+      "自慢する"
+    ]
+  },
+  "sense-handmade_31-1": {
+    "senseVersion": 1,
+    "words": [
+      "外出",
+      "表面"
+    ]
+  },
+  "sense-handmade_33-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱い",
+      "暖かい"
+    ]
+  },
+  "sense-handmade_34-1": {
+    "senseVersion": 1,
+    "words": [
+      "ケース",
+      "袋"
+    ]
+  },
+  "sense-handmade_36-1": {
+    "senseVersion": 1,
+    "words": [
+      "テスト",
+      "実験"
+    ]
+  },
+  "sense-handmade_37-1": {
+    "senseVersion": 1,
+    "words": [
+      "受け取る",
+      "取り上げる"
+    ]
+  },
+  "sense-handmade_39-1": {
+    "senseVersion": 1,
+    "words": [
+      "課題",
+      "問い"
+    ]
+  },
+  "sense-handmade_42-2": {
+    "senseVersion": 1,
+    "words": [
+      "食事"
+    ]
+  },
+  "sense-handmade_43-1": {
+    "senseVersion": 1,
+    "words": [
+      "ビール",
+      "アルコール"
+    ]
+  },
+  "sense-handmade_44-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強",
+      "教育"
+    ]
+  },
+  "sense-handmade_46-1": {
+    "senseVersion": 1,
+    "words": [
+      "アドレス",
+      "宛名"
+    ]
+  },
+  "sense-handmade_48-1": {
+    "senseVersion": 1,
+    "words": [
+      "数字",
+      "数"
+    ]
+  },
+  "sense-handmade_5-1": {
+    "senseVersion": 1,
+    "words": [
+      "以前",
+      "過去"
+    ]
+  },
+  "sense-handmade_50-1": {
+    "senseVersion": 1,
+    "words": [
+      "研究",
+      "学習"
+    ]
+  },
+  "sense-handmade_51-1": {
+    "senseVersion": 1,
+    "words": [
+      "妙",
+      "不思議"
+    ]
+  },
+  "sense-handmade_53-1": {
+    "senseVersion": 1,
+    "words": [
+      "赤ん坊",
+      "子ども"
+    ]
+  },
+  "sense-handmade_54-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違い",
+      "誤り"
+    ]
+  },
+  "sense-handmade_55-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵",
+      "映像"
+    ]
+  },
+  "sense-handmade_56-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "蓄積"
+    ]
+  },
+  "sense-handmade_59-1": {
+    "senseVersion": 1,
+    "words": [
+      "自動車",
+      "自転車"
+    ]
+  },
+  "sense-handmade_60-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄越す",
+      "受け取る"
+    ]
+  },
+  "sense-handmade_63-1": {
+    "senseVersion": 1,
+    "words": [
+      "決定する",
+      "決まる"
+    ]
+  },
+  "sense-handmade_69-1": {
+    "senseVersion": 1,
+    "words": [
+      "背中",
+      "ウエスト"
+    ]
+  },
+  "sense-handmade_70-1": {
+    "senseVersion": 1,
+    "words": [
+      "消える",
+      "冷める"
+    ]
+  },
+  "sense-handmade_71-1": {
+    "senseVersion": 1,
+    "words": [
+      "物語",
+      "会話"
+    ]
+  },
+  "sense-handmade_74-1": {
+    "senseVersion": 1,
+    "words": [
+      "成果",
+      "影響"
+    ]
+  },
+  "sense-handmade_76-1": {
+    "senseVersion": 1,
+    "words": [
+      "前途",
+      "未来"
+    ]
+  },
+  "sense-handmade_78-1": {
+    "senseVersion": 1,
+    "words": [
+      "針路",
+      "職業"
+    ]
+  },
+  "sense-handmade_79-1": {
+    "senseVersion": 1,
+    "words": [
+      "入学",
+      "成功"
+    ]
+  },
+  "sense-handmade_8-1": {
+    "senseVersion": 1,
+    "words": [
+      "貴重品",
+      "宝"
+    ]
+  },
+  "sense-handmade_81-1": {
+    "senseVersion": 1,
+    "words": [
+      "移る",
+      "移住"
+    ]
+  },
+  "sense-handmade_82-1": {
+    "senseVersion": 1,
+    "words": [
+      "報告",
+      "通信"
+    ]
+  },
+  "sense-handmade_83-1": {
+    "senseVersion": 1,
+    "words": [
+      "祖父",
+      "祖先"
+    ]
+  },
+  "sense-handmade_85-1": {
+    "senseVersion": 1,
+    "words": [
+      "最終日",
+      "後"
+    ]
+  },
+  "sense-handmade_86-1": {
+    "senseVersion": 1,
+    "words": [
+      "私",
+      "自身"
+    ]
+  },
+  "sense-handmade_87-1": {
+    "senseVersion": 1,
+    "words": [
+      "大事"
+    ]
+  },
+  "sense-handmade_88-1": {
+    "senseVersion": 1,
+    "words": [
+      "髪",
+      "頭脳"
+    ]
+  },
+  "sense-handmade_90-1": {
+    "senseVersion": 1,
+    "words": [
+      "野菜",
+      "果実"
+    ]
+  },
+  "sense-handmade_91-1": {
+    "senseVersion": 1,
+    "words": [
+      "修正",
+      "調整"
+    ]
+  },
+  "sense-handmade_93-1": {
+    "senseVersion": 1,
+    "words": [
+      "皮膚",
+      "皮"
+    ]
+  },
+  "sense-handmade_94-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷たい",
+      "冷淡"
+    ]
+  },
+  "sense-handmade_95-1": {
+    "senseVersion": 1,
+    "words": [
+      "難しい",
+      "深刻"
+    ]
+  },
+  "sense-handmade_96-1": {
+    "senseVersion": 1,
+    "words": [
+      "寒い",
+      "冷淡"
+    ]
+  },
+  "sense-handmade_99-1": {
+    "senseVersion": 1,
+    "words": [
+      "外す"
+    ]
+  },
+  "sense-JLPTN3_10-1": {
+    "senseVersion": 1,
+    "words": [
+      "蒔く",
+      "挿す"
+    ]
+  },
+  "sense-JLPTN3_100-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷やす",
+      "冷める"
+    ]
+  },
+  "sense-JLPTN3_101-1": {
+    "senseVersion": 1,
+    "words": [
+      "輝く",
+      "照る"
+    ]
+  },
+  "sense-JLPTN3_102-1": {
+    "senseVersion": 1,
+    "words": [
+      "預かる",
+      "応じる"
+    ]
+  },
+  "sense-JLPTN3_103-1": {
+    "senseVersion": 1,
+    "words": [
+      "取る",
+      "取り出す"
+    ]
+  },
+  "sense-JLPTN3_105-1": {
+    "senseVersion": 1,
+    "words": [
+      "塞ぐ",
+      "守る"
+    ]
+  },
+  "sense-JLPTN3_106-1": {
+    "senseVersion": 1,
+    "words": [
+      "触る",
+      "接する"
+    ]
+  },
+  "sense-JLPTN3_107-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾く",
+      "乾かす"
+    ]
+  },
+  "sense-JLPTN3_108-1": {
+    "senseVersion": 1,
+    "words": [
+      "曲がる",
+      "傾斜"
+    ]
+  },
+  "sense-JLPTN3_109-1": {
+    "senseVersion": 1,
+    "words": [
+      "混ざる",
+      "合わせる"
+    ]
+  },
+  "sense-JLPTN3_11-1": {
+    "senseVersion": 1,
+    "words": [
+      "渡す",
+      "受け止める"
+    ]
+  },
+  "sense-JLPTN3_110-1": {
+    "senseVersion": 1,
+    "words": [
+      "会う",
+      "出会い"
+    ]
+  },
+  "sense-JLPTN3_111-1": {
+    "senseVersion": 1,
+    "words": [
+      "習う",
+      "覚える"
+    ]
+  },
+  "sense-JLPTN3_113-1": {
+    "senseVersion": 1,
+    "words": [
+      "従う",
+      "保つ"
+    ]
+  },
+  "sense-JLPTN3_114-1": {
+    "senseVersion": 1,
+    "words": [
+      "逸らす",
+      "捻る"
+    ]
+  },
+  "sense-JLPTN3_115-1": {
+    "senseVersion": 1,
+    "words": [
+      "探す",
+      "知る"
+    ]
+  },
+  "sense-JLPTN3_116-1": {
+    "senseVersion": 1,
+    "words": [
+      "縛る",
+      "接する"
+    ]
+  },
+  "sense-JLPTN3_117-1": {
+    "senseVersion": 1,
+    "words": [
+      "申し出る",
+      "予約する"
+    ]
+  },
+  "sense-JLPTN3_118-1": {
+    "senseVersion": 1,
+    "words": [
+      "燃やす",
+      "焦げる"
+    ]
+  },
+  "sense-JLPTN3_119-1": {
+    "senseVersion": 1,
+    "words": [
+      "煮る",
+      "沸かす"
+    ]
+  },
+  "sense-JLPTN3_12-1": {
+    "senseVersion": 1,
+    "words": [
+      "怪しむ",
+      "疑惑"
+    ]
+  },
+  "sense-JLPTN3_120-1": {
+    "senseVersion": 1,
+    "words": [
+      "裂く",
+      "切る"
+    ]
+  },
+  "sense-JLPTN3_121-1": {
+    "senseVersion": 1,
+    "words": [
+      "破る",
+      "崩れる"
+    ]
+  },
+  "sense-JLPTN3_122-1": {
+    "senseVersion": 1,
+    "words": [
+      "認める",
+      "許容"
+    ]
+  },
+  "sense-JLPTN3_123-1": {
+    "senseVersion": 1,
+    "words": [
+      "揺らぐ",
+      "揺らす"
+    ]
+  },
+  "sense-JLPTN3_125-1": {
+    "senseVersion": 1,
+    "words": [
+      "訴える",
+      "要請"
+    ]
+  },
+  "sense-JLPTN3_125-2": {
+    "senseVersion": 1,
+    "words": [
+      "話しかける",
+      "呼ぶ"
+    ]
+  },
+  "sense-JLPTN3_126-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄越す",
+      "受け取る"
+    ]
+  },
+  "sense-JLPTN3_127-1": {
+    "senseVersion": 1,
+    "words": [
+      "割る",
+      "分かれる"
+    ]
+  },
+  "sense-JLPTN3_129-1": {
+    "senseVersion": 1,
+    "words": [
+      "太い",
+      "濃い"
+    ]
+  },
+  "sense-JLPTN3_13-1": {
+    "senseVersion": 1,
+    "words": [
+      "轢く",
+      "叩く"
+    ]
+  },
+  "sense-JLPTN3_130-2": {
+    "senseVersion": 1,
+    "words": [
+      "緩い",
+      "緩やか"
+    ]
+  },
+  "sense-JLPTN3_131-1": {
+    "senseVersion": 1,
+    "words": [
+      "変だ",
+      "微妙"
+    ]
+  },
+  "sense-JLPTN3_132-1": {
+    "senseVersion": 1,
+    "words": [
+      "細い"
+    ]
+  },
+  "sense-JLPTN3_132-2": {
+    "senseVersion": 1,
+    "words": [
+      "薄める"
+    ]
+  },
+  "sense-JLPTN3_132-3": {
+    "senseVersion": 1,
+    "words": [
+      "青白い"
+    ]
+  },
+  "sense-JLPTN3_133-1": {
+    "senseVersion": 1,
+    "words": [
+      "きれいだ",
+      "見事"
+    ]
+  },
+  "sense-JLPTN3_134-1": {
+    "senseVersion": 1,
+    "words": [
+      "賢い",
+      "最高"
+    ]
+  },
+  "sense-JLPTN3_135-1": {
+    "senseVersion": 1,
+    "words": [
+      "残念だ",
+      "残念"
+    ]
+  },
+  "sense-JLPTN3_136-1": {
+    "senseVersion": 1,
+    "words": [
+      "寂しい",
+      "悲惨"
+    ]
+  },
+  "sense-JLPTN3_138-1": {
+    "senseVersion": 1,
+    "words": [
+      "散らかっている",
+      "不潔"
+    ]
+  },
+  "sense-JLPTN3_139-1": {
+    "senseVersion": 1,
+    "words": [
+      "怖い",
+      "深刻"
+    ]
+  },
+  "sense-JLPTN3_14-1": {
+    "senseVersion": 1,
+    "words": [
+      "移す",
+      "運ぶ"
+    ]
+  },
+  "sense-JLPTN3_140-1": {
+    "senseVersion": 1,
+    "words": [
+      "薄暗い",
+      "黒い"
+    ]
+  },
+  "sense-JLPTN3_140-2": {
+    "senseVersion": 1,
+    "words": [
+      "陰気"
+    ]
+  },
+  "sense-JLPTN3_141-1": {
+    "senseVersion": 1,
+    "words": [
+      "辛い（つらい）",
+      "難しい"
+    ]
+  },
+  "sense-JLPTN3_142-1": {
+    "senseVersion": 1,
+    "words": [
+      "詳細",
+      "細かい"
+    ]
+  },
+  "sense-JLPTN3_144-1": {
+    "senseVersion": 1,
+    "words": [
+      "小さい",
+      "細い"
+    ]
+  },
+  "sense-JLPTN3_144-2": {
+    "senseVersion": 1,
+    "words": [
+      "詳しい",
+      "詳細"
+    ]
+  },
+  "sense-JLPTN3_145-1": {
+    "senseVersion": 1,
+    "words": [
+      "近い",
+      "密接"
+    ]
+  },
+  "sense-JLPTN3_148-1": {
+    "senseVersion": 1,
+    "words": [
+      "薄い",
+      "細かい"
+    ]
+  },
+  "sense-JLPTN3_149-1": {
+    "senseVersion": 1,
+    "words": [
+      "少ない",
+      "苦しい"
+    ]
+  },
+  "sense-JLPTN3_15-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り上げる",
+      "盗む"
+    ]
+  },
+  "sense-JLPTN3_151-1": {
+    "senseVersion": 1,
+    "words": [
+      "低い",
+      "簡単"
+    ]
+  },
+  "sense-JLPTN3_152-1": {
+    "senseVersion": 1,
+    "words": [
+      "優しい",
+      "簡単"
+    ]
+  },
+  "sense-JLPTN3_153-1": {
+    "senseVersion": 1,
+    "words": [
+      "易しい",
+      "穏やか"
+    ]
+  },
+  "sense-JLPTN3_154-1": {
+    "senseVersion": 1,
+    "words": [
+      "緩やか",
+      "ルーズ"
+    ]
+  },
+  "sense-JLPTN3_154-2": {
+    "senseVersion": 1,
+    "words": [
+      "甘い",
+      "ルーズ"
+    ]
+  },
+  "sense-JLPTN3_155-1": {
+    "senseVersion": 1,
+    "words": [
+      "幼い",
+      "未熟"
+    ]
+  },
+  "sense-JLPTN3_156-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通だ",
+      "一般"
+    ]
+  },
+  "sense-JLPTN3_157-1": {
+    "senseVersion": 1,
+    "words": [
+      "重要だ",
+      "重要"
+    ]
+  },
+  "sense-JLPTN3_158-1": {
+    "senseVersion": 1,
+    "words": [
+      "正確だ",
+      "明らか"
+    ]
+  },
+  "sense-JLPTN3_160-1": {
+    "senseVersion": 1,
+    "words": [
+      "易しい",
+      "単純"
+    ]
+  },
+  "sense-JLPTN3_161-1": {
+    "senseVersion": 1,
+    "words": [
+      "詳しい",
+      "特定"
+    ]
+  },
+  "sense-JLPTN3_162-1": {
+    "senseVersion": 1,
+    "words": [
+      "活発",
+      "盛大だ"
+    ]
+  },
+  "sense-JLPTN3_163-1": {
+    "senseVersion": 1,
+    "words": [
+      "便利だ",
+      "便利"
+    ]
+  },
+  "sense-JLPTN3_164-1": {
+    "senseVersion": 1,
+    "words": [
+      "大切",
+      "大切だ"
+    ]
+  },
+  "sense-JLPTN3_165-1": {
+    "senseVersion": 1,
+    "words": [
+      "主な",
+      "重要"
+    ]
+  },
+  "sense-JLPTN3_166-1": {
+    "senseVersion": 1,
+    "words": [
+      "素直だ",
+      "単純"
+    ]
+  },
+  "sense-JLPTN3_167-1": {
+    "senseVersion": 1,
+    "words": [
+      "新しい",
+      "新た"
+    ]
+  },
+  "sense-JLPTN3_168-1": {
+    "senseVersion": 1,
+    "words": [
+      "確実だ",
+      "確か"
+    ]
+  },
+  "sense-JLPTN3_169-1": {
+    "senseVersion": 1,
+    "words": [
+      "きれいだ",
+      "純粋"
+    ]
+  },
+  "sense-JLPTN3_170-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱心だ",
+      "活発"
+    ]
+  },
+  "sense-JLPTN3_171-1": {
+    "senseVersion": 1,
+    "words": [
+      "飽きる",
+      "うんざり"
+    ]
+  },
+  "sense-JLPTN3_172-1": {
+    "senseVersion": 1,
+    "words": [
+      "典型的だ",
+      "代表"
+    ]
+  },
+  "sense-JLPTN3_173-1": {
+    "senseVersion": 1,
+    "words": [
+      "気が短い",
+      "せっかちだ"
+    ]
+  },
+  "sense-JLPTN3_174-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡単だ",
+      "簡単"
+    ]
+  },
+  "sense-JLPTN3_176-1": {
+    "senseVersion": 1,
+    "words": [
+      "下手だ",
+      "下手"
+    ]
+  },
+  "sense-JLPTN3_177-1": {
+    "senseVersion": 1,
+    "words": [
+      "豪華",
+      "豪華だ"
+    ]
+  },
+  "sense-JLPTN3_178-1": {
+    "senseVersion": 1,
+    "words": [
+      "心配だ",
+      "恐れ"
+    ]
+  },
+  "sense-JLPTN3_179-1": {
+    "senseVersion": 1,
+    "words": [
+      "難しい",
+      "微妙"
+    ]
+  },
+  "sense-JLPTN3_180-1": {
+    "senseVersion": 1,
+    "words": [
+      "安全だ",
+      "安全"
+    ]
+  },
+  "sense-JLPTN3_181-1": {
+    "senseVersion": 1,
+    "words": [
+      "優秀だ",
+      "有力"
+    ]
+  },
+  "sense-JLPTN3_182-1": {
+    "senseVersion": 1,
+    "words": [
+      "印",
+      "看板"
+    ]
+  },
+  "sense-JLPTN3_183-1": {
+    "senseVersion": 1,
+    "words": [
+      "敵",
+      "仲間"
+    ]
+  },
+  "sense-JLPTN3_184-1": {
+    "senseVersion": 1,
+    "words": [
+      "隙間",
+      "距離"
+    ]
+  },
+  "sense-JLPTN3_185-1": {
+    "senseVersion": 1,
+    "words": [
+      "脂",
+      "石油"
+    ]
+  },
+  "sense-JLPTN3_187-1": {
+    "senseVersion": 1,
+    "words": [
+      "未満",
+      "以内"
+    ]
+  },
+  "sense-JLPTN3_189-1": {
+    "senseVersion": 1,
+    "words": [
+      "目的地",
+      "先"
+    ]
+  },
+  "sense-JLPTN3_19-1": {
+    "senseVersion": 1,
+    "words": [
+      "我慢する",
+      "抑制"
+    ]
+  },
+  "sense-JLPTN3_190-1": {
+    "senseVersion": 1,
+    "words": [
+      "以後",
+      "以来"
+    ]
+  },
+  "sense-JLPTN3_191-1": {
+    "senseVersion": 1,
+    "words": [
+      "記憶",
+      "感じ"
+    ]
+  },
+  "sense-JLPTN3_193-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "土地"
+    ]
+  },
+  "sense-JLPTN3_195-1": {
+    "senseVersion": 1,
+    "words": [
+      "引っ越し",
+      "移行"
+    ]
+  },
+  "sense-JLPTN3_196-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行",
+      "運動"
+    ]
+  },
+  "sense-JLPTN3_197-1": {
+    "senseVersion": 1,
+    "words": [
+      "感じ",
+      "イメージ"
+    ]
+  },
+  "sense-JLPTN3_199-1": {
+    "senseVersion": 1,
+    "words": [
+      "内側",
+      "裏"
+    ]
+  },
+  "sense-JLPTN3_2-1": {
+    "senseVersion": 1,
+    "words": [
+      "預かる",
+      "払い込む"
+    ]
+  },
+  "sense-JLPTN3_20-1": {
+    "senseVersion": 1,
+    "words": [
+      "叩く",
+      "押さえる"
+    ]
+  },
+  "sense-JLPTN3_200-1": {
+    "senseVersion": 1,
+    "words": [
+      "効果",
+      "結果"
+    ]
+  },
+  "sense-JLPTN3_202-1": {
+    "senseVersion": 1,
+    "words": [
+      "笑い声",
+      "笑い"
+    ]
+  },
+  "sense-JLPTN3_205-1": {
+    "senseVersion": 1,
+    "words": [
+      "お礼",
+      "記念"
+    ]
+  },
+  "sense-JLPTN3_206-1": {
+    "senseVersion": 1,
+    "words": [
+      "支援",
+      "援助"
+    ]
+  },
+  "sense-JLPTN3_207-1": {
+    "senseVersion": 1,
+    "words": [
+      "縦断",
+      "交差点"
+    ]
+  },
+  "sense-JLPTN3_209-1": {
+    "senseVersion": 1,
+    "words": [
+      "募集",
+      "参加"
+    ]
+  },
+  "sense-JLPTN3_21-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心する",
+      "冷静"
+    ]
+  },
+  "sense-JLPTN3_210-1": {
+    "senseVersion": 1,
+    "words": [
+      "暗記",
+      "使用"
+    ]
+  },
+  "sense-JLPTN3_212-1": {
+    "senseVersion": 1,
+    "words": [
+      "面会",
+      "訪問"
+    ]
+  },
+  "sense-JLPTN3_214-1": {
+    "senseVersion": 1,
+    "words": [
+      "勘定",
+      "計算"
+    ]
+  },
+  "sense-JLPTN3_214-2": {
+    "senseVersion": 1,
+    "words": [
+      "勘定",
+      "計算"
+    ]
+  },
+  "sense-JLPTN3_216-1": {
+    "senseVersion": 1,
+    "words": [
+      "収集",
+      "回復"
+    ]
+  },
+  "sense-JLPTN3_217-1": {
+    "senseVersion": 1,
+    "words": [
+      "匂い",
+      "香水"
+    ]
+  },
+  "sense-JLPTN3_218-1": {
+    "senseVersion": 1,
+    "words": [
+      "一人一人",
+      "銘々"
+    ]
+  },
+  "sense-JLPTN3_220-1": {
+    "senseVersion": 1,
+    "words": [
+      "承認",
+      "検査"
+    ]
+  },
+  "sense-JLPTN3_221-1": {
+    "senseVersion": 1,
+    "words": [
+      "昔",
+      "以前"
+    ]
+  },
+  "sense-JLPTN3_222-1": {
+    "senseVersion": 1,
+    "words": [
+      "数字",
+      "程度"
+    ]
+  },
+  "sense-JLPTN3_223-1": {
+    "senseVersion": 1,
+    "words": [
+      "アンダーライン",
+      "下書き"
+    ]
+  },
+  "sense-JLPTN3_225-1": {
+    "senseVersion": 1,
+    "words": [
+      "大きさ",
+      "顔"
+    ]
+  },
+  "sense-JLPTN3_226-1": {
+    "senseVersion": 1,
+    "words": [
+      "もう片方",
+      "一面"
+    ]
+  },
+  "sense-JLPTN3_228-1": {
+    "senseVersion": 1,
+    "words": [
+      "値打ち",
+      "値段"
+    ]
+  },
+  "sense-JLPTN3_229-1": {
+    "senseVersion": 1,
+    "words": [
+      "元気",
+      "勢い"
+    ]
+  },
+  "sense-JLPTN3_23-1": {
+    "senseVersion": 1,
+    "words": [
+      "思い出す",
+      "知る"
+    ]
+  },
+  "sense-JLPTN3_231-1": {
+    "senseVersion": 1,
+    "words": [
+      "行動",
+      "実行"
+    ]
+  },
+  "sense-JLPTN3_232-1": {
+    "senseVersion": 1,
+    "words": [
+      "家庭",
+      "仮説"
+    ]
+  },
+  "sense-JLPTN3_233-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠慮",
+      "根気"
+    ]
+  },
+  "sense-JLPTN3_234-1": {
+    "senseVersion": 1,
+    "words": [
+      "空き",
+      "空っぽ"
+    ]
+  },
+  "sense-JLPTN3_235-2": {
+    "senseVersion": 1,
+    "words": [
+      "肌",
+      "皮膚"
+    ]
+  },
+  "sense-JLPTN3_236-1": {
+    "senseVersion": 1,
+    "words": [
+      "間（あいだ）",
+      "間（ま）"
+    ]
+  },
+  "sense-JLPTN3_237-1": {
+    "senseVersion": 1,
+    "words": [
+      "感情",
+      "気持ち"
+    ]
+  },
+  "sense-JLPTN3_238-1": {
+    "senseVersion": 1,
+    "words": [
+      "聴衆",
+      "客"
+    ]
+  },
+  "sense-JLPTN3_239-1": {
+    "senseVersion": 1,
+    "words": [
+      "境遇",
+      "景色"
+    ]
+  },
+  "sense-JLPTN3_24-1": {
+    "senseVersion": 1,
+    "words": [
+      "畳む",
+      "曲げる"
+    ]
+  },
+  "sense-JLPTN3_240-1": {
+    "senseVersion": 1,
+    "words": [
+      "連絡",
+      "関連"
+    ]
+  },
+  "sense-JLPTN3_241-1": {
+    "senseVersion": 1,
+    "words": [
+      "感心",
+      "感動"
+    ]
+  },
+  "sense-JLPTN3_242-1": {
+    "senseVersion": 1,
+    "words": [
+      "見学",
+      "見物"
+    ]
+  },
+  "sense-JLPTN3_243-1": {
+    "senseVersion": 1,
+    "words": [
+      "見物",
+      "調査"
+    ]
+  },
+  "sense-JLPTN3_244-1": {
+    "senseVersion": 1,
+    "words": [
+      "感心",
+      "恐れ"
+    ]
+  },
+  "sense-JLPTN3_245-1": {
+    "senseVersion": 1,
+    "words": [
+      "出来上がり",
+      "完了"
+    ]
+  },
+  "sense-JLPTN3_246-1": {
+    "senseVersion": 1,
+    "words": [
+      "器具",
+      "機構"
+    ]
+  },
+  "sense-JLPTN3_247-1": {
+    "senseVersion": 1,
+    "words": [
+      "チャンス",
+      "きっかけ"
+    ]
+  },
+  "sense-JLPTN3_248-1": {
+    "senseVersion": 1,
+    "words": [
+      "期間",
+      "時間"
+    ]
+  },
+  "sense-JLPTN3_249-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "手法"
+    ]
+  },
+  "sense-JLPTN3_25-1": {
+    "senseVersion": 1,
+    "words": [
+      "折る",
+      "壊れる"
+    ]
+  },
+  "sense-JLPTN3_250-1": {
+    "senseVersion": 1,
+    "words": [
+      "けが",
+      "跡"
+    ]
+  },
+  "sense-JLPTN3_251-1": {
+    "senseVersion": 1,
+    "words": [
+      "基本",
+      "基準"
+    ]
+  },
+  "sense-JLPTN3_252-1": {
+    "senseVersion": 1,
+    "words": [
+      "習慣",
+      "規制"
+    ]
+  },
+  "sense-JLPTN3_253-1": {
+    "senseVersion": 1,
+    "words": [
+      "楽しみ",
+      "予想"
+    ]
+  },
+  "sense-JLPTN3_254-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰り",
+      "帰国"
+    ]
+  },
+  "sense-JLPTN3_256-1": {
+    "senseVersion": 1,
+    "words": [
+      "記憶",
+      "祝い"
+    ]
+  },
+  "sense-JLPTN3_257-1": {
+    "senseVersion": 1,
+    "words": [
+      "基礎",
+      "基準"
+    ]
+  },
+  "sense-JLPTN3_258-1": {
+    "senseVersion": 1,
+    "words": [
+      "違い",
+      "反対"
+    ]
+  },
+  "sense-JLPTN3_259-1": {
+    "senseVersion": 1,
+    "words": [
+      "休み",
+      "祝日"
+    ]
+  },
+  "sense-JLPTN3_26-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り替える",
+      "変える"
+    ]
+  },
+  "sense-JLPTN3_260-1": {
+    "senseVersion": 1,
+    "words": [
+      "先生",
+      "講師"
+    ]
+  },
+  "sense-JLPTN3_261-1": {
+    "senseVersion": 1,
+    "words": [
+      "競走",
+      "試合"
+    ]
+  },
+  "sense-JLPTN3_262-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "相互"
+    ]
+  },
+  "sense-JLPTN3_263-1": {
+    "senseVersion": 1,
+    "words": [
+      "趣味",
+      "関心"
+    ]
+  },
+  "sense-JLPTN3_264-1": {
+    "senseVersion": 1,
+    "words": [
+      "賛成",
+      "援助"
+    ]
+  },
+  "sense-JLPTN3_265-1": {
+    "senseVersion": 1,
+    "words": [
+      "道のり",
+      "幅"
+    ]
+  },
+  "sense-JLPTN3_266-1": {
+    "senseVersion": 1,
+    "words": [
+      "記憶",
+      "撮影"
+    ]
+  },
+  "sense-JLPTN3_268-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止",
+      "停止"
+    ]
+  },
+  "sense-JLPTN3_27-1": {
+    "senseVersion": 1,
+    "words": [
+      "光る",
+      "照る"
+    ]
+  },
+  "sense-JLPTN3_270-1": {
+    "senseVersion": 1,
+    "words": [
+      "考え",
+      "工夫する"
+    ]
+  },
+  "sense-JLPTN3_271-1": {
+    "senseVersion": 1,
+    "words": [
+      "区別",
+      "部分"
+    ]
+  },
+  "sense-JLPTN3_272-1": {
+    "senseVersion": 1,
+    "words": [
+      "差別",
+      "違い"
+    ]
+  },
+  "sense-JLPTN3_273-1": {
+    "senseVersion": 1,
+    "words": [
+      "練習",
+      "教育"
+    ]
+  },
+  "sense-JLPTN3_274-1": {
+    "senseVersion": 1,
+    "words": [
+      "営業",
+      "管理"
+    ]
+  },
+  "sense-JLPTN3_275-1": {
+    "senseVersion": 1,
+    "words": [
+      "プラン",
+      "予定"
+    ]
+  },
+  "sense-JLPTN3_276-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "覚え"
+    ]
+  },
+  "sense-JLPTN3_277-1": {
+    "senseVersion": 1,
+    "words": [
+      "経営",
+      "金融"
+    ]
+  },
+  "sense-JLPTN3_278-1": {
+    "senseVersion": 1,
+    "words": [
+      "勘定",
+      "数える"
+    ]
+  },
+  "sense-JLPTN3_28-1": {
+    "senseVersion": 1,
+    "words": [
+      "隠れる",
+      "包む"
+    ]
+  },
+  "sense-JLPTN3_280-1": {
+    "senseVersion": 1,
+    "words": [
+      "内科",
+      "手術"
+    ]
+  },
+  "sense-JLPTN3_281-1": {
+    "senseVersion": 1,
+    "words": [
+      "風景",
+      "場面"
+    ]
+  },
+  "sense-JLPTN3_283-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠勤",
+      "休み"
+    ]
+  },
+  "sense-JLPTN3_284-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠陥",
+      "故障"
+    ]
+  },
+  "sense-JLPTN3_286-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "源"
+    ]
+  },
+  "sense-JLPTN3_287-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強",
+      "調査"
+    ]
+  },
+  "sense-JLPTN3_288-1": {
+    "senseVersion": 1,
+    "words": [
+      "預金",
+      "通貨"
+    ]
+  },
+  "sense-JLPTN3_289-1": {
+    "senseVersion": 1,
+    "words": [
+      "元気",
+      "健全"
+    ]
+  },
+  "sense-JLPTN3_290-1": {
+    "senseVersion": 1,
+    "words": [
+      "調査",
+      "試験"
+    ]
+  },
+  "sense-JLPTN3_291-1": {
+    "senseVersion": 1,
+    "words": [
+      "今",
+      "現代"
+    ]
+  },
+  "sense-JLPTN3_292-1": {
+    "senseVersion": 1,
+    "words": [
+      "減量",
+      "削減"
+    ]
+  },
+  "sense-JLPTN3_293-1": {
+    "senseVersion": 1,
+    "words": [
+      "建築",
+      "工作"
+    ]
+  },
+  "sense-JLPTN3_294-1": {
+    "senseVersion": 1,
+    "words": [
+      "見学",
+      "観光"
+    ]
+  },
+  "sense-JLPTN3_295-1": {
+    "senseVersion": 1,
+    "words": [
+      "材料",
+      "成分"
+    ]
+  },
+  "sense-JLPTN3_296-1": {
+    "senseVersion": 1,
+    "words": [
+      "講義",
+      "言葉"
+    ]
+  },
+  "sense-JLPTN3_297-1": {
+    "senseVersion": 1,
+    "words": [
+      "効率",
+      "影響"
+    ]
+  },
+  "sense-JLPTN3_299-1": {
+    "senseVersion": 1,
+    "words": [
+      "記事",
+      "宣伝"
+    ]
+  },
+  "sense-JLPTN3_3-1": {
+    "senseVersion": 1,
+    "words": [
+      "当てる",
+      "合う"
+    ]
+  },
+  "sense-JLPTN3_300-1": {
+    "senseVersion": 1,
+    "words": [
+      "交替",
+      "交換"
+    ]
+  },
+  "sense-JLPTN3_301-1": {
+    "senseVersion": 1,
+    "words": [
+      "交代",
+      "交換"
+    ]
+  },
+  "sense-JLPTN3_302-1": {
+    "senseVersion": 1,
+    "words": [
+      "動作",
+      "活動"
+    ]
+  },
+  "sense-JLPTN3_303-1": {
+    "senseVersion": 1,
+    "words": [
+      "交際",
+      "交換"
+    ]
+  },
+  "sense-JLPTN3_306-1": {
+    "senseVersion": 1,
+    "words": [
+      "背中",
+      "ウエスト"
+    ]
+  },
+  "sense-JLPTN3_307-1": {
+    "senseVersion": 1,
+    "words": [
+      "破損",
+      "事件"
+    ]
+  },
+  "sense-JLPTN3_308-1": {
+    "senseVersion": 1,
+    "words": [
+      "団体",
+      "個別"
+    ]
+  },
+  "sense-JLPTN3_31-1": {
+    "senseVersion": 1,
+    "words": [
+      "重なる",
+      "積む"
+    ]
+  },
+  "sense-JLPTN3_311-1": {
+    "senseVersion": 1,
+    "words": [
+      "最新",
+      "最後"
+    ]
+  },
+  "sense-JLPTN3_312-1": {
+    "senseVersion": 1,
+    "words": [
+      "最高",
+      "一流"
+    ]
+  },
+  "sense-JLPTN3_313-1": {
+    "senseVersion": 1,
+    "words": [
+      "道具",
+      "資料"
+    ]
+  },
+  "sense-JLPTN3_314-1": {
+    "senseVersion": 1,
+    "words": [
+      "階段",
+      "坂"
+    ]
+  },
+  "sense-JLPTN3_315-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕事",
+      "課題"
+    ]
+  },
+  "sense-JLPTN3_316-1": {
+    "senseVersion": 1,
+    "words": [
+      "植物",
+      "収穫"
+    ]
+  },
+  "sense-JLPTN3_318-1": {
+    "senseVersion": 1,
+    "words": [
+      "前後",
+      "横"
+    ]
+  },
+  "sense-JLPTN3_319-1": {
+    "senseVersion": 1,
+    "words": [
+      "見学",
+      "応募"
+    ]
+  },
+  "sense-JLPTN3_320-1": {
+    "senseVersion": 1,
+    "words": [
+      "協力",
+      "合意"
+    ]
+  },
+  "sense-JLPTN3_321-1": {
+    "senseVersion": 1,
+    "words": [
+      "砂糖",
+      "食塩"
+    ]
+  },
+  "sense-JLPTN3_322-1": {
+    "senseVersion": 1,
+    "words": [
+      "支払う",
+      "供給"
+    ]
+  },
+  "sense-JLPTN3_323-1": {
+    "senseVersion": 1,
+    "words": [
+      "ごみ",
+      "財源"
+    ]
+  },
+  "sense-JLPTN3_324-1": {
+    "senseVersion": 1,
+    "words": [
+      "出費",
+      "費用"
+    ]
+  },
+  "sense-JLPTN3_325-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "事態"
+    ]
+  },
+  "sense-JLPTN3_326-1": {
+    "senseVersion": 1,
+    "words": [
+      "自慢",
+      "安心"
+    ]
+  },
+  "sense-JLPTN3_327-1": {
+    "senseVersion": 1,
+    "words": [
+      "態度",
+      "格好"
+    ]
+  },
+  "sense-JLPTN3_328-1": {
+    "senseVersion": 1,
+    "words": [
+      "天然"
+    ]
+  },
+  "sense-JLPTN3_329-1": {
+    "senseVersion": 1,
+    "words": [
+      "準備",
+      "整備"
+    ]
+  },
+  "sense-JLPTN3_33-1": {
+    "senseVersion": 1,
+    "words": [
+      "借りる",
+      "融資"
+    ]
+  },
+  "sense-JLPTN3_331-1": {
+    "senseVersion": 1,
+    "words": [
+      "能力",
+      "働き"
+    ]
+  },
+  "sense-JLPTN3_332-1": {
+    "senseVersion": 1,
+    "words": [
+      "命令",
+      "監督"
+    ]
+  },
+  "sense-JLPTN3_333-1": {
+    "senseVersion": 1,
+    "words": [
+      "期限",
+      "最終"
+    ]
+  },
+  "sense-JLPTN3_334-1": {
+    "senseVersion": 1,
+    "words": [
+      "床",
+      "土地"
+    ]
+  },
+  "sense-JLPTN3_335-1": {
+    "senseVersion": 1,
+    "words": [
+      "故郷",
+      "現地"
+    ]
+  },
+  "sense-JLPTN3_336-1": {
+    "senseVersion": 1,
+    "words": [
+      "集会",
+      "会議"
+    ]
+  },
+  "sense-JLPTN3_337-1": {
+    "senseVersion": 1,
+    "words": [
+      "コレクション",
+      "回収"
+    ]
+  },
+  "sense-JLPTN3_338-1": {
+    "senseVersion": 1,
+    "words": [
+      "混雑",
+      "不振"
+    ]
+  },
+  "sense-JLPTN3_339-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱中",
+      "中心"
+    ]
+  },
+  "sense-JLPTN3_34-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸す",
+      "家賃"
+    ]
+  },
+  "sense-JLPTN3_340-1": {
+    "senseVersion": 1,
+    "words": [
+      "修正",
+      "調整"
+    ]
+  },
+  "sense-JLPTN3_341-1": {
+    "senseVersion": 1,
+    "words": [
+      "減少",
+      "削減"
+    ]
+  },
+  "sense-JLPTN3_342-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療",
+      "外科"
+    ]
+  },
+  "sense-JLPTN3_343-1": {
+    "senseVersion": 1,
+    "words": [
+      "策",
+      "目的"
+    ]
+  },
+  "sense-JLPTN3_344-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "意見"
+    ]
+  },
+  "sense-JLPTN3_346-1": {
+    "senseVersion": 1,
+    "words": [
+      "都（みやこ）",
+      "都会"
+    ]
+  },
+  "sense-JLPTN3_347-1": {
+    "senseVersion": 1,
+    "words": [
+      "興味",
+      "遊び"
+    ]
+  },
+  "sense-JLPTN3_348-1": {
+    "senseVersion": 1,
+    "words": [
+      "順序",
+      "段階"
+    ]
+  },
+  "sense-JLPTN3_349-1": {
+    "senseVersion": 1,
+    "words": [
+      "招待",
+      "推薦"
+    ]
+  },
+  "sense-JLPTN3_35-1": {
+    "senseVersion": 1,
+    "words": [
+      "しおれる",
+      "死ぬ"
+    ]
+  },
+  "sense-JLPTN3_350-1": {
+    "senseVersion": 1,
+    "words": [
+      "工業",
+      "取引"
+    ]
+  },
+  "sense-JLPTN3_351-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "必要"
+    ]
+  },
+  "sense-JLPTN3_353-1": {
+    "senseVersion": 1,
+    "words": [
+      "誘い",
+      "案内"
+    ]
+  },
+  "sense-JLPTN3_354-1": {
+    "senseVersion": 1,
+    "words": [
+      "経営",
+      "仕事"
+    ]
+  },
+  "sense-JLPTN3_355-1": {
+    "senseVersion": 1,
+    "words": [
+      "使用",
+      "支出"
+    ]
+  },
+  "sense-JLPTN3_356-1": {
+    "senseVersion": 1,
+    "words": [
+      "製品",
+      "物資"
+    ]
+  },
+  "sense-JLPTN3_357-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "記事"
+    ]
+  },
+  "sense-JLPTN3_358-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "確認"
+    ]
+  },
+  "sense-JLPTN3_359-1": {
+    "senseVersion": 1,
+    "words": [
+      "前",
+      "先頭"
+    ]
+  },
+  "sense-JLPTN3_362-1": {
+    "senseVersion": 1,
+    "words": [
+      "材料",
+      "情報"
+    ]
+  },
+  "sense-JLPTN3_363-1": {
+    "senseVersion": 1,
+    "words": [
+      "進歩",
+      "進出"
+    ]
+  },
+  "sense-JLPTN3_364-1": {
+    "senseVersion": 1,
+    "words": [
+      "申し込み",
+      "要請"
+    ]
+  },
+  "sense-JLPTN3_365-1": {
+    "senseVersion": 1,
+    "words": [
+      "上達",
+      "成長"
+    ]
+  },
+  "sense-JLPTN3_366-1": {
+    "senseVersion": 1,
+    "words": [
+      "数",
+      "番号"
+    ]
+  },
+  "sense-JLPTN3_37-1": {
+    "senseVersion": 1,
+    "words": [
+      "消す"
+    ]
+  },
+  "sense-JLPTN3_370-1": {
+    "senseVersion": 1,
+    "words": [
+      "性質",
+      "気分"
+    ]
+  },
+  "sense-JLPTN3_371-1": {
+    "senseVersion": 1,
+    "words": [
+      "料金",
+      "関税"
+    ]
+  },
+  "sense-JLPTN3_372-1": {
+    "senseVersion": 1,
+    "words": [
+      "禁止",
+      "規制"
+    ]
+  },
+  "sense-JLPTN3_373-1": {
+    "senseVersion": 1,
+    "words": [
+      "完成",
+      "業績"
+    ]
+  },
+  "sense-JLPTN3_374-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通",
+      "通常"
+    ]
+  },
+  "sense-JLPTN3_375-1": {
+    "senseVersion": 1,
+    "words": [
+      "点数",
+      "業績"
+    ]
+  },
+  "sense-JLPTN3_376-1": {
+    "senseVersion": 1,
+    "words": [
+      "掃除",
+      "解決"
+    ]
+  },
+  "sense-JLPTN3_377-1": {
+    "senseVersion": 1,
+    "words": [
+      "石炭",
+      "油"
+    ]
+  },
+  "sense-JLPTN3_38-1": {
+    "senseVersion": 1,
+    "words": [
+      "憎む",
+      "嫌い"
+    ]
+  },
+  "sense-JLPTN3_380-1": {
+    "senseVersion": 1,
+    "words": [
+      "広告"
+    ]
+  },
+  "sense-JLPTN3_381-1": {
+    "senseVersion": 1,
+    "words": [
+      "専攻",
+      "分野"
+    ]
+  },
+  "sense-JLPTN3_382-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想",
+      "考え"
+    ]
+  },
+  "sense-JLPTN3_384-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "協議"
+    ]
+  },
+  "sense-JLPTN3_385-1": {
+    "senseVersion": 1,
+    "words": [
+      "テンポ",
+      "速さ"
+    ]
+  },
+  "sense-JLPTN3_386-1": {
+    "senseVersion": 1,
+    "words": [
+      "床",
+      "下"
+    ]
+  },
+  "sense-JLPTN3_387-1": {
+    "senseVersion": 1,
+    "words": [
+      "退学",
+      "修了"
+    ]
+  },
+  "sense-JLPTN3_388-1": {
+    "senseVersion": 1,
+    "words": [
+      "実在",
+      "生命"
+    ]
+  },
+  "sense-JLPTN3_389-1": {
+    "senseVersion": 1,
+    "words": [
+      "試合",
+      "会議"
+    ]
+  },
+  "sense-JLPTN3_39-1": {
+    "senseVersion": 1,
+    "words": [
+      "渡す",
+      "分ける"
+    ]
+  },
+  "sense-JLPTN3_390-1": {
+    "senseVersion": 1,
+    "words": [
+      "料金",
+      "価格"
+    ]
+  },
+  "sense-JLPTN3_391-1": {
+    "senseVersion": 1,
+    "words": [
+      "居住",
+      "居る（いる）"
+    ]
+  },
+  "sense-JLPTN3_394-1": {
+    "senseVersion": 1,
+    "words": [
+      "スタミナ",
+      "気力"
+    ]
+  },
+  "sense-JLPTN3_395-1": {
+    "senseVersion": 1,
+    "words": [
+      "他の人",
+      "人"
+    ]
+  },
+  "sense-JLPTN3_396-1": {
+    "senseVersion": 1,
+    "words": [
+      "出産",
+      "生まれ"
+    ]
+  },
+  "sense-JLPTN3_397-1": {
+    "senseVersion": 1,
+    "words": [
+      "集団",
+      "機関"
+    ]
+  },
+  "sense-JLPTN3_399-1": {
+    "senseVersion": 1,
+    "words": [
+      "古い",
+      "久しい"
+    ]
+  },
+  "sense-JLPTN3_4-1": {
+    "senseVersion": 1,
+    "words": [
+      "残る"
+    ]
+  },
+  "sense-JLPTN3_40-1": {
+    "senseVersion": 1,
+    "words": [
+      "作る",
+      "設ける"
+    ]
+  },
+  "sense-JLPTN3_401-1": {
+    "senseVersion": 1,
+    "words": [
+      "気分",
+      "状態"
+    ]
+  },
+  "sense-JLPTN3_402-1": {
+    "senseVersion": 1,
+    "words": [
+      "朝ごはん",
+      "朝ご飯"
+    ]
+  },
+  "sense-JLPTN3_403-1": {
+    "senseVersion": 1,
+    "words": [
+      "節約",
+      "預金"
+    ]
+  },
+  "sense-JLPTN3_404-1": {
+    "senseVersion": 1,
+    "words": [
+      "自分で",
+      "真っ直ぐ"
+    ]
+  },
+  "sense-JLPTN3_406-1": {
+    "senseVersion": 1,
+    "words": [
+      "翻訳",
+      "解釈"
+    ]
+  },
+  "sense-JLPTN3_407-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "事情"
+    ]
+  },
+  "sense-JLPTN3_409-1": {
+    "senseVersion": 1,
+    "words": [
+      "連絡",
+      "言葉"
+    ]
+  },
+  "sense-JLPTN3_41-1": {
+    "senseVersion": 1,
+    "words": [
+      "組み立てる",
+      "合わせる"
+    ]
+  },
+  "sense-JLPTN3_411-1": {
+    "senseVersion": 1,
+    "words": [
+      "行動",
+      "運動"
+    ]
+  },
+  "sense-JLPTN3_415-1": {
+    "senseVersion": 1,
+    "words": [
+      "記入",
+      "記録"
+    ]
+  },
+  "sense-JLPTN3_416-1": {
+    "senseVersion": 1,
+    "words": [
+      "一人暮らし",
+      "シングル"
+    ]
+  },
+  "sense-JLPTN3_417-1": {
+    "senseVersion": 1,
+    "words": [
+      "長所",
+      "独特"
+    ]
+  },
+  "sense-JLPTN3_418-1": {
+    "senseVersion": 1,
+    "words": [
+      "孤立",
+      "自由"
+    ]
+  },
+  "sense-JLPTN3_420-1": {
+    "senseVersion": 1,
+    "words": [
+      "最中",
+      "中途"
+    ]
+  },
+  "sense-JLPTN3_421-1": {
+    "senseVersion": 1,
+    "words": [
+      "手間",
+      "労力"
+    ]
+  },
+  "sense-JLPTN3_422-1": {
+    "senseVersion": 1,
+    "words": [
+      "秘密",
+      "神秘"
+    ]
+  },
+  "sense-JLPTN3_423-1": {
+    "senseVersion": 1,
+    "words": [
+      "題名",
+      "実質"
+    ]
+  },
+  "sense-JLPTN3_424-1": {
+    "senseVersion": 1,
+    "words": [
+      "実",
+      "内容"
+    ]
+  },
+  "sense-JLPTN3_427-1": {
+    "senseVersion": 1,
+    "words": [
+      "持ち物",
+      "荷"
+    ]
+  },
+  "sense-JLPTN3_428-1": {
+    "senseVersion": 1,
+    "words": [
+      "人",
+      "人物"
+    ]
+  },
+  "sense-JLPTN3_429-1": {
+    "senseVersion": 1,
+    "words": [
+      "価格",
+      "価値"
+    ]
+  },
+  "sense-JLPTN3_43-1": {
+    "senseVersion": 1,
+    "words": [
+      "増やす",
+      "合わせる"
+    ]
+  },
+  "sense-JLPTN3_430-1": {
+    "senseVersion": 1,
+    "words": [
+      "枝",
+      "原因"
+    ]
+  },
+  "sense-JLPTN3_431-1": {
+    "senseVersion": 1,
+    "words": [
+      "毎年",
+      "必ず"
+    ]
+  },
+  "sense-JLPTN3_432-1": {
+    "senseVersion": 1,
+    "words": [
+      "農家",
+      "耕作"
+    ]
+  },
+  "sense-JLPTN3_436-1": {
+    "senseVersion": 1,
+    "words": [
+      "発見",
+      "出来事"
+    ]
+  },
+  "sense-JLPTN3_437-1": {
+    "senseVersion": 1,
+    "words": [
+      "発達",
+      "進歩"
+    ]
+  },
+  "sense-JLPTN3_438-1": {
+    "senseVersion": 1,
+    "words": [
+      "報告",
+      "言葉"
+    ]
+  },
+  "sense-JLPTN3_439-1": {
+    "senseVersion": 1,
+    "words": [
+      "拒否",
+      "対立"
+    ]
+  },
+  "sense-JLPTN3_44-1": {
+    "senseVersion": 1,
+    "words": [
+      "消える"
+    ]
+  },
+  "sense-JLPTN3_44-2": {
+    "senseVersion": 1,
+    "words": [
+      "削除する",
+      "除く"
+    ]
+  },
+  "sense-JLPTN3_440-1": {
+    "senseVersion": 1,
+    "words": [
+      "売買",
+      "営業"
+    ]
+  },
+  "sense-JLPTN3_441-1": {
+    "senseVersion": 1,
+    "words": [
+      "対比",
+      "競争"
+    ]
+  },
+  "sense-JLPTN3_442-1": {
+    "senseVersion": 1,
+    "words": [
+      "明るさ",
+      "明るい"
+    ]
+  },
+  "sense-JLPTN3_443-1": {
+    "senseVersion": 1,
+    "words": [
+      "反対",
+      "拒否"
+    ]
+  },
+  "sense-JLPTN3_444-1": {
+    "senseVersion": 1,
+    "words": [
+      "印",
+      "表記"
+    ]
+  },
+  "sense-JLPTN3_445-1": {
+    "senseVersion": 1,
+    "words": [
+      "表",
+      "外"
+    ]
+  },
+  "sense-JLPTN3_446-1": {
+    "senseVersion": 1,
+    "words": [
+      "景色",
+      "場面"
+    ]
+  },
+  "sense-JLPTN3_45-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷える",
+      "固まる"
+    ]
+  },
+  "sense-JLPTN3_452-1": {
+    "senseVersion": 1,
+    "words": [
+      "点",
+      "箇所"
+    ]
+  },
+  "sense-JLPTN3_453-1": {
+    "senseVersion": 1,
+    "words": [
+      "文",
+      "記事"
+    ]
+  },
+  "sense-JLPTN3_454-1": {
+    "senseVersion": 1,
+    "words": [
+      "カテゴリ",
+      "区別"
+    ]
+  },
+  "sense-JLPTN3_455-1": {
+    "senseVersion": 1,
+    "words": [
+      "合計",
+      "標準"
+    ]
+  },
+  "sense-JLPTN3_456-1": {
+    "senseVersion": 1,
+    "words": [
+      "進歩",
+      "改正"
+    ]
+  },
+  "sense-JLPTN3_457-1": {
+    "senseVersion": 1,
+    "words": [
+      "商売",
+      "営業"
+    ]
+  },
+  "sense-JLPTN3_458-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "道"
+    ]
+  },
+  "sense-JLPTN3_459-1": {
+    "senseVersion": 1,
+    "words": [
+      "手段",
+      "手続き"
+    ]
+  },
+  "sense-JLPTN3_46-1": {
+    "senseVersion": 1,
+    "words": [
+      "燃える",
+      "焼ける"
+    ]
+  },
+  "sense-JLPTN3_460-1": {
+    "senseVersion": 1,
+    "words": [
+      "観光",
+      "訪ねる"
+    ]
+  },
+  "sense-JLPTN3_461-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "立法"
+    ]
+  },
+  "sense-JLPTN3_462-1": {
+    "senseVersion": 1,
+    "words": [
+      "採用",
+      "勧誘"
+    ]
+  },
+  "sense-JLPTN3_465-1": {
+    "senseVersion": 1,
+    "words": [
+      "納得",
+      "十分"
+    ]
+  },
+  "sense-JLPTN3_468-1": {
+    "senseVersion": 1,
+    "words": [
+      "将来",
+      "前途"
+    ]
+  },
+  "sense-JLPTN3_469-1": {
+    "senseVersion": 1,
+    "words": [
+      "お願い",
+      "命じる"
+    ]
+  },
+  "sense-JLPTN3_470-1": {
+    "senseVersion": 1,
+    "words": [
+      "資格",
+      "許可"
+    ]
+  },
+  "sense-JLPTN3_471-1": {
+    "senseVersion": 1,
+    "words": [
+      "面談",
+      "会見"
+    ]
+  },
+  "sense-JLPTN3_472-1": {
+    "senseVersion": 1,
+    "words": [
+      "手段",
+      "意向"
+    ]
+  },
+  "sense-JLPTN3_473-1": {
+    "senseVersion": 1,
+    "words": [
+      "目的",
+      "対象"
+    ]
+  },
+  "sense-JLPTN3_474-1": {
+    "senseVersion": 1,
+    "words": [
+      "文章",
+      "字"
+    ]
+  },
+  "sense-JLPTN3_475-1": {
+    "senseVersion": 1,
+    "words": [
+      "林",
+      "森林"
+    ]
+  },
+  "sense-JLPTN3_476-1": {
+    "senseVersion": 1,
+    "words": [
+      "不平",
+      "不満"
+    ]
+  },
+  "sense-JLPTN3_48-1": {
+    "senseVersion": 1,
+    "words": [
+      "倒れる",
+      "転がる"
+    ]
+  },
+  "sense-JLPTN3_481-1": {
+    "senseVersion": 1,
+    "words": [
+      "器",
+      "食器"
+    ]
+  },
+  "sense-JLPTN3_482-1": {
+    "senseVersion": 1,
+    "words": [
+      "隣",
+      "側"
+    ]
+  },
+  "sense-JLPTN3_483-1": {
+    "senseVersion": 1,
+    "words": [
+      "傷",
+      "土"
+    ]
+  },
+  "sense-JLPTN3_484-1": {
+    "senseVersion": 1,
+    "words": [
+      "期待",
+      "見通し"
+    ]
+  },
+  "sense-JLPTN3_486-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療",
+      "防止"
+    ]
+  },
+  "sense-JLPTN3_487-1": {
+    "senseVersion": 1,
+    "words": [
+      "不在",
+      "休み"
+    ]
+  },
+  "sense-JLPTN3_488-1": {
+    "senseVersion": 1,
+    "words": [
+      "行列",
+      "連続"
+    ]
+  },
+  "sense-JLPTN3_49-1": {
+    "senseVersion": 1,
+    "words": [
+      "驚く",
+      "危ぶむ"
+    ]
+  },
+  "sense-JLPTN3_490-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "原因"
+    ]
+  },
+  "sense-JLPTN3_491-1": {
+    "senseVersion": 1,
+    "words": [
+      "率",
+      "比率"
+    ]
+  },
+  "sense-JLPTN3_492-1": {
+    "senseVersion": 1,
+    "words": [
+      "まだ",
+      "依然"
+    ]
+  },
+  "sense-JLPTN3_493-1": {
+    "senseVersion": 1,
+    "words": [
+      "必ずしも",
+      "きっと"
+    ]
+  },
+  "sense-JLPTN3_494-1": {
+    "senseVersion": 1,
+    "words": [
+      "突然",
+      "案外"
+    ]
+  },
+  "sense-JLPTN3_495-1": {
+    "senseVersion": 1,
+    "words": [
+      "徐々に"
+    ]
+  },
+  "sense-JLPTN3_496-1": {
+    "senseVersion": 1,
+    "words": [
+      "全員",
+      "全部"
+    ]
+  },
+  "sense-JLPTN3_497-1": {
+    "senseVersion": 1,
+    "words": [
+      "決して",
+      "必ず"
+    ]
+  },
+  "sense-JLPTN3_498-1": {
+    "senseVersion": 1,
+    "words": [
+      "少し",
+      "少々"
+    ]
+  },
+  "sense-JLPTN3_499-1": {
+    "senseVersion": 1,
+    "words": [
+      "てっきり",
+      "必ず"
+    ]
+  },
+  "sense-JLPTN3_50-1": {
+    "senseVersion": 1,
+    "words": [
+      "起きる",
+      "起こす"
+    ]
+  },
+  "sense-JLPTN3_500-1": {
+    "senseVersion": 1,
+    "words": [
+      "急に",
+      "急"
+    ]
+  },
+  "sense-JLPTN3_51-1": {
+    "senseVersion": 1,
+    "words": [
+      "叫ぶ",
+      "興じる"
+    ]
+  },
+  "sense-JLPTN3_52-1": {
+    "senseVersion": 1,
+    "words": [
+      "触れる",
+      "接する"
+    ]
+  },
+  "sense-JLPTN3_53-1": {
+    "senseVersion": 1,
+    "words": [
+      "治まる",
+      "落ちる"
+    ]
+  },
+  "sense-JLPTN3_54-1": {
+    "senseVersion": 1,
+    "words": [
+      "ついて行く",
+      "守る"
+    ]
+  },
+  "sense-JLPTN3_55-1": {
+    "senseVersion": 1,
+    "words": [
+      "結ぶ",
+      "締める"
+    ]
+  },
+  "sense-JLPTN3_56-2": {
+    "senseVersion": 1,
+    "words": [
+      "減らす",
+      "省く"
+    ]
+  },
+  "sense-JLPTN3_57-1": {
+    "senseVersion": 1,
+    "words": [
+      "見せる",
+      "掲げる"
+    ]
+  },
+  "sense-JLPTN3_58-1": {
+    "senseVersion": 1,
+    "words": [
+      "結ぶ",
+      "縛る"
+    ]
+  },
+  "sense-JLPTN3_6-1": {
+    "senseVersion": 1,
+    "words": [
+      "現す",
+      "示す"
+    ]
+  },
+  "sense-JLPTN3_60-1": {
+    "senseVersion": 1,
+    "words": [
+      "過ごす",
+      "終わる"
+    ]
+  },
+  "sense-JLPTN3_61-1": {
+    "senseVersion": 1,
+    "words": [
+      "落とす",
+      "投げる"
+    ]
+  },
+  "sense-JLPTN3_62-1": {
+    "senseVersion": 1,
+    "words": [
+      "育つ",
+      "育成"
+    ]
+  },
+  "sense-JLPTN3_63-1": {
+    "senseVersion": 1,
+    "words": [
+      "倒す",
+      "崩れる"
+    ]
+  },
+  "sense-JLPTN3_64-1": {
+    "senseVersion": 1,
+    "words": [
+      "確認する",
+      "調べる"
+    ]
+  },
+  "sense-JLPTN3_65-1": {
+    "senseVersion": 1,
+    "words": [
+      "争う",
+      "戦い"
+    ]
+  },
+  "sense-JLPTN3_66-1": {
+    "senseVersion": 1,
+    "words": [
+      "折る",
+      "閉じる"
+    ]
+  },
+  "sense-JLPTN3_67-1": {
+    "senseVersion": 1,
+    "words": [
+      "過ぎる",
+      "経る"
+    ]
+  },
+  "sense-JLPTN3_69-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼む",
+      "仰ぐ"
+    ]
+  },
+  "sense-JLPTN3_7-1": {
+    "senseVersion": 1,
+    "words": [
+      "急ぐ",
+      "焦る"
+    ]
+  },
+  "sense-JLPTN3_70-1": {
+    "senseVersion": 1,
+    "words": [
+      "異なる",
+      "変わる"
+    ]
+  },
+  "sense-JLPTN3_70-2": {
+    "senseVersion": 1,
+    "words": [
+      "間違う",
+      "誤る"
+    ]
+  },
+  "sense-JLPTN3_71-1": {
+    "senseVersion": 1,
+    "words": [
+      "飽きる",
+      "くたびれる"
+    ]
+  },
+  "sense-JLPTN3_72-1": {
+    "senseVersion": 1,
+    "words": [
+      "伝える",
+      "拡大"
+    ]
+  },
+  "sense-JLPTN3_73-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "覆う"
+    ]
+  },
+  "sense-JLPTN3_74-1": {
+    "senseVersion": 1,
+    "words": [
+      "働く",
+      "尽くす"
+    ]
+  },
+  "sense-JLPTN3_75-1": {
+    "senseVersion": 1,
+    "words": [
+      "通う",
+      "越える"
+    ]
+  },
+  "sense-JLPTN3_76-1": {
+    "senseVersion": 1,
+    "words": [
+      "解く",
+      "済む"
+    ]
+  },
+  "sense-JLPTN3_77-1": {
+    "senseVersion": 1,
+    "words": [
+      "溶かす",
+      "溶く"
+    ]
+  },
+  "sense-JLPTN3_78-1": {
+    "senseVersion": 1,
+    "words": [
+      "閉める",
+      "覆う"
+    ]
+  },
+  "sense-JLPTN3_79-1": {
+    "senseVersion": 1,
+    "words": [
+      "叫ぶ",
+      "吠える"
+    ]
+  },
+  "sense-JLPTN3_8-1": {
+    "senseVersion": 1,
+    "words": [
+      "慌てる",
+      "急かす"
+    ]
+  },
+  "sense-JLPTN3_81-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止する",
+      "取り戻す"
+    ]
+  },
+  "sense-JLPTN3_82-1": {
+    "senseVersion": 1,
+    "words": [
+      "流す",
+      "流れ"
+    ]
+  },
+  "sense-JLPTN3_83-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴く",
+      "叫ぶ"
+    ]
+  },
+  "sense-JLPTN3_85-1": {
+    "senseVersion": 1,
+    "words": [
+      "放る",
+      "落とす"
+    ]
+  },
+  "sense-JLPTN3_87-1": {
+    "senseVersion": 1,
+    "words": [
+      "似る",
+      "一致"
+    ]
+  },
+  "sense-JLPTN3_88-1": {
+    "senseVersion": 1,
+    "words": [
+      "持つ",
+      "取る"
+    ]
+  },
+  "sense-JLPTN3_89-1": {
+    "senseVersion": 1,
+    "words": [
+      "避ける",
+      "避難"
+    ]
+  },
+  "sense-JLPTN3_9-1": {
+    "senseVersion": 1,
+    "words": [
+      "試す",
+      "取り組む"
+    ]
+  },
+  "sense-JLPTN3_91-1": {
+    "senseVersion": 1,
+    "words": [
+      "望む",
+      "頼む"
+    ]
+  },
+  "sense-JLPTN3_92-1": {
+    "senseVersion": 1,
+    "words": [
+      "寝る",
+      "睡眠"
+    ]
+  },
+  "sense-JLPTN3_93-1": {
+    "senseVersion": 1,
+    "words": [
+      "残す",
+      "余る"
+    ]
+  },
+  "sense-JLPTN3_94-1": {
+    "senseVersion": 1,
+    "words": [
+      "遅らせる",
+      "延びる"
+    ]
+  },
+  "sense-JLPTN3_95-1": {
+    "senseVersion": 1,
+    "words": [
+      "生やす",
+      "芽"
+    ]
+  },
+  "sense-JLPTN3_96-1": {
+    "senseVersion": 1,
+    "words": [
+      "量る"
+    ]
+  },
+  "sense-JLPTN3_97-1": {
+    "senseVersion": 1,
+    "words": [
+      "測る"
+    ]
+  },
+  "sense-JLPTN3_98-1": {
+    "senseVersion": 1,
+    "words": [
+      "持つ",
+      "輸送"
+    ]
+  },
+  "sense-JLPTN3_99-1": {
+    "senseVersion": 1,
+    "words": [
+      "離れる",
+      "分ける"
+    ]
+  },
+  "sense-lex-jmdict-1000320-1": {
+    "senseVersion": 1,
+    "words": [
+      "あれ",
+      "向こう"
+    ]
+  },
+  "sense-lex-jmdict-1000360-1": {
+    "senseVersion": 1,
+    "words": [
+      "さっぱり",
+      "こってり"
+    ]
+  },
+  "sense-lex-jmdict-1000470-1": {
+    "senseVersion": 1,
+    "words": [
+      "逆",
+      "反対"
+    ]
+  },
+  "sense-lex-jmdict-1000510-1": {
+    "senseVersion": 1,
+    "words": [
+      "曖昧",
+      "微妙"
+    ]
+  },
+  "sense-lex-jmdict-1000580-1": {
+    "senseVersion": 1,
+    "words": [
+      "あの",
+      "その"
+    ]
+  },
+  "sense-lex-jmdict-1000590-1": {
+    "senseVersion": 1,
+    "words": [
+      "そんな",
+      "こんな"
+    ]
+  },
+  "sense-lex-jmdict-1000660-1": {
+    "senseVersion": 1,
+    "words": [
+      "まるで",
+      "実際"
+    ]
+  },
+  "sense-lex-jmdict-1000920-1": {
+    "senseVersion": 1,
+    "words": [
+      "お帰りなさい",
+      "どうぞ"
+    ]
+  },
+  "sense-lex-jmdict-1001010-1": {
+    "senseVersion": 1,
+    "words": [
+      "すっかり",
+      "わざと"
+    ]
+  },
+  "sense-lex-jmdict-1001060-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぶらぶら",
+      "うろつく"
+    ]
+  },
+  "sense-lex-jmdict-1001090-1": {
+    "senseVersion": 1,
+    "words": [
+      "はい",
+      "ええ"
+    ]
+  },
+  "sense-lex-jmdict-1001110-1": {
+    "senseVersion": 1,
+    "words": [
+      "飽きる",
+      "退屈"
+    ]
+  },
+  "sense-lex-jmdict-1001140-1": {
+    "senseVersion": 1,
+    "words": [
+      "はい",
+      "うん"
+    ]
+  },
+  "sense-lex-jmdict-1001400-1": {
+    "senseVersion": 1,
+    "words": [
+      "ドキドキ",
+      "動揺"
+    ]
+  },
+  "sense-lex-jmdict-1001670-1": {
+    "senseVersion": 1,
+    "words": [
+      "鬼",
+      "悪魔"
+    ]
+  },
+  "sense-lex-jmdict-1001710-1": {
+    "senseVersion": 1,
+    "words": [
+      "菓子",
+      "おかず"
+    ]
+  },
+  "sense-lex-jmdict-1001770-1": {
+    "senseVersion": 1,
+    "words": [
+      "客",
+      "観客"
+    ]
+  },
+  "sense-lex-jmdict-1001820-1": {
+    "senseVersion": 1,
+    "words": [
+      "料金",
+      "金銭"
+    ]
+  },
+  "sense-lex-jmdict-1001830-1": {
+    "senseVersion": 1,
+    "words": [
+      "兄",
+      "青年"
+    ]
+  },
+  "sense-lex-jmdict-1001970-1": {
+    "senseVersion": 1,
+    "words": [
+      "始まり",
+      "最終"
+    ]
+  },
+  "sense-lex-jmdict-1001990-1": {
+    "senseVersion": 1,
+    "words": [
+      "姉",
+      "少女"
+    ]
+  },
+  "sense-lex-jmdict-1002010-1": {
+    "senseVersion": 1,
+    "words": [
+      "子供",
+      "子"
+    ]
+  },
+  "sense-lex-jmdict-1002100-1": {
+    "senseVersion": 1,
+    "words": [
+      "トイレ",
+      "洗面所"
+    ]
+  },
+  "sense-lex-jmdict-1002170-1": {
+    "senseVersion": 1,
+    "words": [
+      "娘",
+      "少女"
+    ]
+  },
+  "sense-lex-jmdict-1002250-1": {
+    "senseVersion": 1,
+    "words": [
+      "褒め言葉",
+      "褒める"
+    ]
+  },
+  "sense-lex-jmdict-1002500-1": {
+    "senseVersion": 1,
+    "words": [
+      "土産",
+      "プレゼント"
+    ]
+  },
+  "sense-lex-jmdict-1002610-1": {
+    "senseVersion": 1,
+    "words": [
+      "胃",
+      "腹"
+    ]
+  },
+  "sense-lex-jmdict-1002640-1": {
+    "senseVersion": 1,
+    "words": [
+      "代わり",
+      "返却"
+    ]
+  },
+  "sense-lex-jmdict-1002650-1": {
+    "senseVersion": 1,
+    "words": [
+      "母",
+      "ママ"
+    ]
+  },
+  "sense-lex-jmdict-1003440-1": {
+    "senseVersion": 1,
+    "words": [
+      "はっきり",
+      "ズバリ"
+    ]
+  },
+  "sense-lex-jmdict-1003450-1": {
+    "senseVersion": 1,
+    "words": [
+      "厳しい",
+      "窮屈"
+    ]
+  },
+  "sense-lex-jmdict-1003590-1": {
+    "senseVersion": 1,
+    "words": [
+      "たっぷり",
+      "過密"
+    ]
+  },
+  "sense-lex-jmdict-1003840-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぼんやり",
+      "はっきり"
+    ]
+  },
+  "sense-lex-jmdict-1004520-1": {
+    "senseVersion": 1,
+    "words": [
+      "静かに",
+      "そっと"
+    ]
+  },
+  "sense-lex-jmdict-1004570-1": {
+    "senseVersion": 1,
+    "words": [
+      "軒並み",
+      "ほとんど"
+    ]
+  },
+  "sense-lex-jmdict-1004880-1": {
+    "senseVersion": 1,
+    "words": [
+      "そんな",
+      "あんな"
+    ]
+  },
+  "sense-lex-jmdict-1004890-1": {
+    "senseVersion": 1,
+    "words": [
+      "そんなに",
+      "こんな"
+    ]
+  },
+  "sense-lex-jmdict-1005190-1": {
+    "senseVersion": 1,
+    "words": [
+      "急いで",
+      "直ちに"
+    ]
+  },
+  "sense-lex-jmdict-1005210-1": {
+    "senseVersion": 1,
+    "words": [
+      "一切",
+      "全然"
+    ]
+  },
+  "sense-lex-jmdict-1005390-1": {
+    "senseVersion": 1,
+    "words": [
+      "大体",
+      "約"
+    ]
+  },
+  "sense-lex-jmdict-1005480-1": {
+    "senseVersion": 1,
+    "words": [
+      "再三",
+      "たまに"
+    ]
+  },
+  "sense-lex-jmdict-1005500-1": {
+    "senseVersion": 1,
+    "words": [
+      "失敗する",
+      "失敗"
+    ]
+  },
+  "sense-lex-jmdict-1005860-1": {
+    "senseVersion": 1,
+    "words": [
+      "たっぷり",
+      "ゆっくり"
+    ]
+  },
+  "sense-lex-jmdict-1005900-1": {
+    "senseVersion": 1,
+    "words": [
+      "すると",
+      "では"
+    ]
+  },
+  "sense-lex-jmdict-1006110-1": {
+    "senseVersion": 1,
+    "words": [
+      "うっかり",
+      "全く"
+    ]
+  },
+  "sense-lex-jmdict-1006120-1": {
+    "senseVersion": 1,
+    "words": [
+      "さっぱり",
+      "きちんと"
+    ]
+  },
+  "sense-lex-jmdict-1006140-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずっと",
+      "そっと"
+    ]
+  },
+  "sense-lex-jmdict-1006280-1": {
+    "senseVersion": 1,
+    "words": [
+      "じゃあ",
+      "では"
+    ]
+  },
+  "sense-lex-jmdict-1006380-1": {
+    "senseVersion": 1,
+    "words": [
+      "継続",
+      "始終"
+    ]
+  },
+  "sense-lex-jmdict-1006400-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぴったり",
+      "遠回しに"
+    ]
+  },
+  "sense-lex-jmdict-1006420-1": {
+    "senseVersion": 1,
+    "words": [
+      "延ばす",
+      "移行"
+    ]
+  },
+  "sense-lex-jmdict-1006440-1": {
+    "senseVersion": 1,
+    "words": [
+      "じっくり",
+      "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1006450-1": {
+    "senseVersion": 1,
+    "words": [
+      "違い",
+      "差"
+    ]
+  },
+  "sense-lex-jmdict-1006460-1": {
+    "senseVersion": 1,
+    "words": [
+      "狂う",
+      "逸れる"
+    ]
+  },
+  "sense-lex-jmdict-1006670-1": {
+    "senseVersion": 1,
+    "words": [
+      "それ",
+      "向こう"
+    ]
+  },
+  "sense-lex-jmdict-1006740-1": {
+    "senseVersion": 1,
+    "words": [
+      "慌てる",
+      "適当"
+    ]
+  },
+  "sense-lex-jmdict-1006790-1": {
+    "senseVersion": 1,
+    "words": [
+      "似ている",
+      "同一"
+    ]
+  },
+  "sense-lex-jmdict-1006810-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆっくり",
+      "あっさり"
+    ]
+  },
+  "sense-lex-jmdict-1006830-1": {
+    "senseVersion": 1,
+    "words": [
+      "それ",
+      "あれ"
+    ]
+  },
+  "sense-lex-jmdict-1006970-1": {
+    "senseVersion": 1,
+    "words": [
+      "その",
+      "あれ"
+    ]
+  },
+  "sense-lex-jmdict-1007130-1": {
+    "senseVersion": 1,
+    "words": [
+      "あんな",
+      "こんな"
+    ]
+  },
+  "sense-lex-jmdict-1007170-1": {
+    "senseVersion": 1,
+    "words": [
+      "丁寧",
+      "適当"
+    ]
+  },
+  "sense-lex-jmdict-1007240-1": {
+    "senseVersion": 1,
+    "words": [
+      "じっくり",
+      "少し"
+    ]
+  },
+  "sense-lex-jmdict-1007310-1": {
+    "senseVersion": 1,
+    "words": [
+      "ですから",
+      "でも"
+    ]
+  },
+  "sense-lex-jmdict-1007370-1": {
+    "senseVersion": 1,
+    "words": [
+      "でも",
+      "だから"
+    ]
+  },
+  "sense-lex-jmdict-1007720-1": {
+    "senseVersion": 1,
+    "words": [
+      "きちんと",
+      "十分"
+    ]
+  },
+  "sense-lex-jmdict-1008290-1": {
+    "senseVersion": 1,
+    "words": [
+      "当然",
+      "きっと"
+    ]
+  },
+  "sense-lex-jmdict-1008430-1": {
+    "senseVersion": 1,
+    "words": [
+      "だから",
+      "しかし"
+    ]
+  },
+  "sense-lex-jmdict-1008450-1": {
+    "senseVersion": 1,
+    "words": [
+      "それでは",
+      "じゃあ"
+    ]
+  },
+  "sense-lex-jmdict-1008460-1": {
+    "senseVersion": 1,
+    "words": [
+      "だけど",
+      "だから"
+    ]
+  },
+  "sense-lex-jmdict-1008630-1": {
+    "senseVersion": 1,
+    "words": [
+      "大いに",
+      "ごく"
+    ]
+  },
+  "sense-lex-jmdict-1008950-1": {
+    "senseVersion": 1,
+    "words": [
+      "とにかく",
+      "結局"
+    ]
+  },
+  "sense-lex-jmdict-1009000-1": {
+    "senseVersion": 1,
+    "words": [
+      "ありがとう",
+      "礼"
+    ]
+  },
+  "sense-lex-jmdict-1009210-1": {
+    "senseVersion": 1,
+    "words": [
+      "一度に",
+      "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1009320-1": {
+    "senseVersion": 1,
+    "words": [
+      "だんだん",
+      "次々"
+    ]
+  },
+  "sense-lex-jmdict-1009330-1": {
+    "senseVersion": 1,
+    "words": [
+      "どの",
+      "何"
+    ]
+  },
+  "sense-lex-jmdict-1009340-1": {
+    "senseVersion": 1,
+    "words": [
+      "こんなに",
+      "いくら"
+    ]
+  },
+  "sense-lex-jmdict-1010040-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆっくり",
+      "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1010050-1": {
+    "senseVersion": 1,
+    "words": [
+      "急いで",
+      "落ち着く"
+    ]
+  },
+  "sense-lex-jmdict-1010080-1": {
+    "senseVersion": 1,
+    "words": [
+      "いいえ",
+      "うん"
+    ]
+  },
+  "sense-lex-jmdict-1010090-1": {
+    "senseVersion": 1,
+    "words": [
+      "はっきり",
+      "もごもご"
+    ]
+  },
+  "sense-lex-jmdict-1010150-1": {
+    "senseVersion": 1,
+    "words": [
+      "はきはき",
+      "大きく"
+    ]
+  },
+  "sense-lex-jmdict-1010530-1": {
+    "senseVersion": 1,
+    "words": [
+      "ただ",
+      "単に"
+    ]
+  },
+  "sense-lex-jmdict-1010900-1": {
+    "senseVersion": 1,
+    "words": [
+      "ズバリ",
+      "ちょうど"
+    ]
+  },
+  "sense-lex-jmdict-1011200-1": {
+    "senseVersion": 1,
+    "words": [
+      "はっきり",
+      "愚痴"
+    ]
+  },
+  "sense-lex-jmdict-1011660-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぼっと",
+      "すっきり"
+    ]
+  },
+  "sense-lex-jmdict-1012050-1": {
+    "senseVersion": 1,
+    "words": [
+      "とても",
+      "少し"
+    ]
+  },
+  "sense-lex-jmdict-1012070-1": {
+    "senseVersion": 1,
+    "words": [
+      "素晴らしい",
+      "無難"
+    ]
+  },
+  "sense-lex-jmdict-1012210-1": {
+    "senseVersion": 1,
+    "words": [
+      "誠実",
+      "充実"
+    ]
+  },
+  "sense-lex-jmdict-1012470-1": {
+    "senseVersion": 1,
+    "words": [
+      "少しずつ",
+      "相当"
+    ]
+  },
+  "sense-lex-jmdict-1012480-1": {
+    "senseVersion": 1,
+    "words": [
+      "既に",
+      "まだ"
+    ]
+  },
+  "sense-lex-jmdict-1012490-1": {
+    "senseVersion": 1,
+    "words": [
+      "動く",
+      "戦う"
+    ]
+  },
+  "sense-lex-jmdict-1012620-1": {
+    "senseVersion": 1,
+    "words": [
+      "少し",
+      "一層"
+    ]
+  },
+  "sense-lex-jmdict-1012870-1": {
+    "senseVersion": 1,
+    "words": [
+      "複雑",
+      "紛らわしい"
+    ]
+  },
+  "sense-lex-jmdict-1012960-1": {
+    "senseVersion": 1,
+    "words": [
+      "やり直し",
+      "方法"
+    ]
+  },
+  "sense-lex-jmdict-1013050-1": {
+    "senseVersion": 1,
+    "words": [
+      "そっと",
+      "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1013070-1": {
+    "senseVersion": 1,
+    "words": [
+      "余裕",
+      "暇"
+    ]
+  },
+  "sense-lex-jmdict-1013140-1": {
+    "senseVersion": 1,
+    "words": [
+      "送る",
+      "渡す"
+    ]
+  },
+  "sense-lex-jmdict-1013190-1": {
+    "senseVersion": 1,
+    "words": [
+      "ほど",
+      "以来"
+    ]
+  },
+  "sense-lex-jmdict-1014340-1": {
+    "senseVersion": 1,
+    "words": [
+      "ファン",
+      "スター"
+    ]
+  },
+  "sense-lex-jmdict-1014770-1": {
+    "senseVersion": 1,
+    "words": [
+      "インドア",
+      "野外"
+    ]
+  },
+  "sense-lex-jmdict-1015220-1": {
+    "senseVersion": 1,
+    "words": [
+      "服",
+      "ジュエリー"
+    ]
+  },
+  "sense-lex-jmdict-1015230-1": {
+    "senseVersion": 1,
+    "words": [
+      "接続",
+      "ログイン"
+    ]
+  },
+  "sense-lex-jmdict-1015310-1": {
+    "senseVersion": 1,
+    "words": [
+      "発音",
+      "重点"
+    ]
+  },
+  "sense-lex-jmdict-1015740-1": {
+    "senseVersion": 1,
+    "words": [
+      "助手",
+      "責任者"
+    ]
+  },
+  "sense-lex-jmdict-1016880-1": {
+    "senseVersion": 1,
+    "words": [
+      "入場券",
+      "乗り物"
+    ]
+  },
+  "sense-lex-jmdict-1017070-1": {
+    "senseVersion": 1,
+    "words": [
+      "助言",
+      "命令"
+    ]
+  },
+  "sense-lex-jmdict-1017240-1": {
+    "senseVersion": 1,
+    "words": [
+      "住所",
+      "宛名"
+    ]
+  },
+  "sense-lex-jmdict-1017330-1": {
+    "senseVersion": 1,
+    "words": [
+      "記者",
+      "司会"
+    ]
+  },
+  "sense-lex-jmdict-1017340-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "放送"
+    ]
+  },
+  "sense-lex-jmdict-1017760-1": {
+    "senseVersion": 1,
+    "words": [
+      "マンション"
+    ]
+  },
+  "sense-lex-jmdict-1018550-1": {
+    "senseVersion": 1,
+    "words": [
+      "素人",
+      "プロ"
+    ]
+  },
+  "sense-lex-jmdict-1019280-1": {
+    "senseVersion": 1,
+    "words": [
+      "お酒",
+      "酒"
+    ]
+  },
+  "sense-lex-jmdict-1019940-1": {
+    "senseVersion": 1,
+    "words": [
+      "インタビュー",
+      "調査"
+    ]
+  },
+  "sense-lex-jmdict-1020200-1": {
+    "senseVersion": 1,
+    "words": [
+      "下線",
+      "囲み"
+    ]
+  },
+  "sense-lex-jmdict-1021680-1": {
+    "senseVersion": 1,
+    "words": [
+      "行事",
+      "催し"
+    ]
+  },
+  "sense-lex-jmdict-1021750-1": {
+    "senseVersion": 1,
+    "words": [
+      "感じ",
+      "印象"
+    ]
+  },
+  "sense-lex-jmdict-1021940-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵",
+      "絵画"
+    ]
+  },
+  "sense-lex-jmdict-1022050-1": {
+    "senseVersion": 1,
+    "words": [
+      "照明",
+      "光"
+    ]
+  },
+  "sense-lex-jmdict-1022650-1": {
+    "senseVersion": 1,
+    "words": [
+      "講師",
+      "受講者"
+    ]
+  },
+  "sense-lex-jmdict-1023100-1": {
+    "senseVersion": 1,
+    "words": [
+      "面接",
+      "会見"
+    ]
+  },
+  "sense-lex-jmdict-1023810-1": {
+    "senseVersion": 1,
+    "words": [
+      "発音",
+      "アクセント"
+    ]
+  },
+  "sense-lex-jmdict-1024400-1": {
+    "senseVersion": 1,
+    "words": [
+      "風邪"
+    ]
+  },
+  "sense-lex-jmdict-1026070-1": {
+    "senseVersion": 1,
+    "words": [
+      "丈",
+      "腰"
+    ]
+  },
+  "sense-lex-jmdict-1027180-1": {
+    "senseVersion": 1,
+    "words": [
+      "扇風機",
+      "冷房"
+    ]
+  },
+  "sense-lex-jmdict-1028990-1": {
+    "senseVersion": 1,
+    "words": [
+      "礼儀",
+      "規則"
+    ]
+  },
+  "sense-lex-jmdict-1029430-1": {
+    "senseVersion": 1,
+    "words": [
+      "気",
+      "力"
+    ]
+  },
+  "sense-lex-jmdict-1030040-1": {
+    "senseVersion": 1,
+    "words": [
+      "誤り",
+      "錯誤"
+    ]
+  },
+  "sense-lex-jmdict-1030950-1": {
+    "senseVersion": 1,
+    "words": [
+      "機関",
+      "モーター"
+    ]
+  },
+  "sense-lex-jmdict-1034660-1": {
+    "senseVersion": 1,
+    "words": [
+      "事務所",
+      "工場"
+    ]
+  },
+  "sense-lex-jmdict-1035040-1": {
+    "senseVersion": 1,
+    "words": [
+      "標準",
+      "選考"
+    ]
+  },
+  "sense-lex-jmdict-1036290-1": {
+    "senseVersion": 1,
+    "words": [
+      "ブラインド",
+      "幕"
+    ]
+  },
+  "sense-lex-jmdict-1036560-1": {
+    "senseVersion": 1,
+    "words": [
+      "曲線",
+      "直線"
+    ]
+  },
+  "sense-lex-jmdict-1037630-1": {
+    "senseVersion": 1,
+    "words": [
+      "削減",
+      "削除"
+    ]
+  },
+  "sense-lex-jmdict-1037790-1": {
+    "senseVersion": 1,
+    "words": [
+      "分類",
+      "例"
+    ]
+  },
+  "sense-lex-jmdict-1037960-1": {
+    "senseVersion": 1,
+    "words": [
+      "蓋",
+      "埋める"
+    ]
+  },
+  "sense-lex-jmdict-1038050-1": {
+    "senseVersion": 1,
+    "words": [
+      "食堂",
+      "喫茶店"
+    ]
+  },
+  "sense-lex-jmdict-1039000-1": {
+    "senseVersion": 1,
+    "words": [
+      "診断書",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1039490-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強",
+      "詐欺"
+    ]
+  },
+  "sense-lex-jmdict-1041530-1": {
+    "senseVersion": 1,
+    "words": [
+      "発信",
+      "確保"
+    ]
+  },
+  "sense-lex-jmdict-1042080-1": {
+    "senseVersion": 1,
+    "words": [
+      "飴",
+      "チョコレート"
+    ]
+  },
+  "sense-lex-jmdict-1042150-1": {
+    "senseVersion": 1,
+    "words": [
+      "教室",
+      "校庭"
+    ]
+  },
+  "sense-lex-jmdict-1043290-1": {
+    "senseVersion": 1,
+    "words": [
+      "領収書",
+      "券"
+    ]
+  },
+  "sense-lex-jmdict-1044020-1": {
+    "senseVersion": 1,
+    "words": [
+      "ポップス",
+      "古典"
+    ]
+  },
+  "sense-lex-jmdict-1044070-1": {
+    "senseVersion": 1,
+    "words": [
+      "学級",
+      "授業"
+    ]
+  },
+  "sense-lex-jmdict-1044440-1": {
+    "senseVersion": 1,
+    "words": [
+      "洗濯",
+      "清掃"
+    ]
+  },
+  "sense-lex-jmdict-1046170-1": {
+    "senseVersion": 1,
+    "words": [
+      "品物",
+      "賞品"
+    ]
+  },
+  "sense-lex-jmdict-1046340-1": {
+    "senseVersion": 1,
+    "words": [
+      "校庭",
+      "体育館"
+    ]
+  },
+  "sense-lex-jmdict-1047200-1": {
+    "senseVersion": 1,
+    "words": [
+      "柄",
+      "刃"
+    ]
+  },
+  "sense-lex-jmdict-1047300-1": {
+    "senseVersion": 1,
+    "words": [
+      "集団",
+      "一人"
+    ]
+  },
+  "sense-lex-jmdict-1047880-1": {
+    "senseVersion": 1,
+    "words": [
+      "箱",
+      "際"
+    ]
+  },
+  "sense-lex-jmdict-1048330-1": {
+    "senseVersion": 1,
+    "words": [
+      "玄関",
+      "出入り口"
+    ]
+  },
+  "sense-lex-jmdict-1048400-1": {
+    "senseVersion": 1,
+    "words": [
+      "景気",
+      "試合"
+    ]
+  },
+  "sense-lex-jmdict-1048830-1": {
+    "senseVersion": 1,
+    "words": [
+      "道",
+      "方向"
+    ]
+  },
+  "sense-lex-jmdict-1048910-1": {
+    "senseVersion": 1,
+    "words": [
+      "選手",
+      "監督"
+    ]
+  },
+  "sense-lex-jmdict-1049000-1": {
+    "senseVersion": 1,
+    "words": [
+      "上着"
+    ]
+  },
+  "sense-lex-jmdict-1049010-1": {
+    "senseVersion": 1,
+    "words": [
+      "決まり",
+      "規則"
+    ]
+  },
+  "sense-lex-jmdict-1049870-1": {
+    "senseVersion": 1,
+    "words": [
+      "硬貨",
+      "紙幣"
+    ]
+  },
+  "sense-lex-jmdict-1050310-1": {
+    "senseVersion": 1,
+    "words": [
+      "シェフ",
+      "ウェーター"
+    ]
+  },
+  "sense-lex-jmdict-1050590-1": {
+    "senseVersion": 1,
+    "words": [
+      "複写",
+      "印刷"
+    ]
+  },
+  "sense-lex-jmdict-1050980-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "通信"
+    ]
+  },
+  "sense-lex-jmdict-1051200-1": {
+    "senseVersion": 1,
+    "words": [
+      "喜劇",
+      "悲劇"
+    ]
+  },
+  "sense-lex-jmdict-1051230-1": {
+    "senseVersion": 1,
+    "words": [
+      "意見",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1051540-1": {
+    "senseVersion": 1,
+    "words": [
+      "収集",
+      "商品"
+    ]
+  },
+  "sense-lex-jmdict-1051840-1": {
+    "senseVersion": 1,
+    "words": [
+      "発表会",
+      "試合"
+    ]
+  },
+  "sense-lex-jmdict-1052780-1": {
+    "senseVersion": 1,
+    "words": [
+      "対比",
+      "比較"
+    ]
+  },
+  "sense-lex-jmdict-1052830-1": {
+    "senseVersion": 1,
+    "words": [
+      "統制",
+      "調節"
+    ]
+  },
+  "sense-lex-jmdict-1054230-1": {
+    "senseVersion": 1,
+    "words": [
+      "目的",
+      "目標"
+    ]
+  },
+  "sense-lex-jmdict-1054850-1": {
+    "senseVersion": 1,
+    "words": [
+      "会社",
+      "仲間"
+    ]
+  },
+  "sense-lex-jmdict-1055000-1": {
+    "senseVersion": 1,
+    "words": [
+      "手伝い",
+      "業務"
+    ]
+  },
+  "sense-lex-jmdict-1055520-1": {
+    "senseVersion": 1,
+    "words": [
+      "循環",
+      "一回"
+    ]
+  },
+  "sense-lex-jmdict-1056230-1": {
+    "senseVersion": 1,
+    "words": [
+      "署名",
+      "信号"
+    ]
+  },
+  "sense-lex-jmdict-1057630-1": {
+    "senseVersion": 1,
+    "words": [
+      "妨害",
+      "援助"
+    ]
+  },
+  "sense-lex-jmdict-1058760-1": {
+    "senseVersion": 1,
+    "words": [
+      "見本",
+      "商品"
+    ]
+  },
+  "sense-lex-jmdict-1059300-1": {
+    "senseVersion": 1,
+    "words": [
+      "季節",
+      "時期"
+    ]
+  },
+  "sense-lex-jmdict-1059930-1": {
+    "senseVersion": 1,
+    "words": [
+      "独占",
+      "共同"
+    ]
+  },
+  "sense-lex-jmdict-1060000-1": {
+    "senseVersion": 1,
+    "words": [
+      "コック",
+      "客"
+    ]
+  },
+  "sense-lex-jmdict-1060300-1": {
+    "senseVersion": 1,
+    "words": [
+      "体制",
+      "体系"
+    ]
+  },
+  "sense-lex-jmdict-1060610-1": {
+    "senseVersion": 1,
+    "words": [
+      "派手",
+      "スマート"
+    ]
+  },
+  "sense-lex-jmdict-1060830-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定",
+      "脚本"
+    ]
+  },
+  "sense-lex-jmdict-1061100-1": {
+    "senseVersion": 1,
+    "words": [
+      "休暇",
+      "交替"
+    ]
+  },
+  "sense-lex-jmdict-1061520-1": {
+    "senseVersion": 1,
+    "words": [
+      "上着",
+      "肌着"
+    ]
+  },
+  "sense-lex-jmdict-1062910-1": {
+    "senseVersion": 1,
+    "words": [
+      "単行本",
+      "連続"
+    ]
+  },
+  "sense-lex-jmdict-1063150-1": {
+    "senseVersion": 1,
+    "words": [
+      "絹",
+      "木綿"
+    ]
+  },
+  "sense-lex-jmdict-1063530-1": {
+    "senseVersion": 1,
+    "words": [
+      "ツイン",
+      "独身"
+    ]
+  },
+  "sense-lex-jmdict-1064170-1": {
+    "senseVersion": 1,
+    "words": [
+      "発言",
+      "動作"
+    ]
+  },
+  "sense-lex-jmdict-1064620-1": {
+    "senseVersion": 1,
+    "words": [
+      "折り紙",
+      "謎"
+    ]
+  },
+  "sense-lex-jmdict-1064980-1": {
+    "senseVersion": 1,
+    "words": [
+      "記者",
+      "作家"
+    ]
+  },
+  "sense-lex-jmdict-1065170-1": {
+    "senseVersion": 1,
+    "words": [
+      "コート",
+      "上着"
+    ]
+  },
+  "sense-lex-jmdict-1065920-1": {
+    "senseVersion": 1,
+    "words": [
+      "分野",
+      "作品"
+    ]
+  },
+  "sense-lex-jmdict-1065980-1": {
+    "senseVersion": 1,
+    "words": [
+      "宝石",
+      "アクセサリー"
+    ]
+  },
+  "sense-lex-jmdict-1066230-1": {
+    "senseVersion": 1,
+    "words": [
+      "冗談",
+      "嘘"
+    ]
+  },
+  "sense-lex-jmdict-1066680-1": {
+    "senseVersion": 1,
+    "words": [
+      "制服",
+      "服"
+    ]
+  },
+  "sense-lex-jmdict-1067210-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボタン",
+      "乗り換える"
+    ]
+  },
+  "sense-lex-jmdict-1067770-1": {
+    "senseVersion": 1,
+    "words": [
+      "スケート",
+      "滑る"
+    ]
+  },
+  "sense-lex-jmdict-1068550-1": {
+    "senseVersion": 1,
+    "words": [
+      "画面",
+      "幕"
+    ]
+  },
+  "sense-lex-jmdict-1068770-1": {
+    "senseVersion": 1,
+    "words": [
+      "スキー",
+      "滑る"
+    ]
+  },
+  "sense-lex-jmdict-1068870-1": {
+    "senseVersion": 1,
+    "words": [
+      "日程",
+      "予定"
+    ]
+  },
+  "sense-lex-jmdict-1069210-1": {
+    "senseVersion": 1,
+    "words": [
+      "星",
+      "アイドル"
+    ]
+  },
+  "sense-lex-jmdict-1069520-1": {
+    "senseVersion": 1,
+    "words": [
+      "体格",
+      "形"
+    ]
+  },
+  "sense-lex-jmdict-1069810-1": {
+    "senseVersion": 1,
+    "words": [
+      "体力",
+      "眠気"
+    ]
+  },
+  "sense-lex-jmdict-1069930-1": {
+    "senseVersion": 1,
+    "words": [
+      "電灯",
+      "台"
+    ]
+  },
+  "sense-lex-jmdict-1070320-1": {
+    "senseVersion": 1,
+    "words": [
+      "舞台",
+      "客席"
+    ]
+  },
+  "sense-lex-jmdict-1071220-1": {
+    "senseVersion": 1,
+    "words": [
+      "縞",
+      "水玉"
+    ]
+  },
+  "sense-lex-jmdict-1071490-1": {
+    "senseVersion": 1,
+    "words": [
+      "疲れ",
+      "緊張"
+    ]
+  },
+  "sense-lex-jmdict-1071500-1": {
+    "senseVersion": 1,
+    "words": [
+      "筋トレ",
+      "引っ張る"
+    ]
+  },
+  "sense-lex-jmdict-1072260-1": {
+    "senseVersion": 1,
+    "words": [
+      "演説",
+      "会話"
+    ]
+  },
+  "sense-lex-jmdict-1072750-1": {
+    "senseVersion": 1,
+    "words": [
+      "クリーム",
+      "霧"
+    ]
+  },
+  "sense-lex-jmdict-1072810-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "席"
+    ]
+  },
+  "sense-lex-jmdict-1072930-1": {
+    "senseVersion": 1,
+    "words": [
+      "予備",
+      "余り"
+    ]
+  },
+  "sense-lex-jmdict-1073210-1": {
+    "senseVersion": 1,
+    "words": [
+      "運動",
+      "競技"
+    ]
+  },
+  "sense-lex-jmdict-1073570-1": {
+    "senseVersion": 1,
+    "words": [
+      "だらしない",
+      "細い"
+    ]
+  },
+  "sense-lex-jmdict-1073760-1": {
+    "senseVersion": 1,
+    "words": [
+      "原稿",
+      "滑る"
+    ]
+  },
+  "sense-lex-jmdict-1074490-1": {
+    "senseVersion": 1,
+    "words": [
+      "地区",
+      "部分"
+    ]
+  },
+  "sense-lex-jmdict-1074600-1": {
+    "senseVersion": 1,
+    "words": [
+      "単品",
+      "組"
+    ]
+  },
+  "sense-lex-jmdict-1075040-1": {
+    "senseVersion": 1,
+    "words": [
+      "中心",
+      "中央"
+    ]
+  },
+  "sense-lex-jmdict-1075160-1": {
+    "senseVersion": 1,
+    "words": [
+      "講義",
+      "演習"
+    ]
+  },
+  "sense-lex-jmdict-1075500-1": {
+    "senseVersion": 1,
+    "words": [
+      "プログラム",
+      "ハードウェア"
+    ]
+  },
+  "sense-lex-jmdict-1075940-1": {
+    "senseVersion": 1,
+    "words": [
+      "型",
+      "パターン"
+    ]
+  },
+  "sense-lex-jmdict-1077250-1": {
+    "senseVersion": 1,
+    "words": [
+      "踊り",
+      "踊る"
+    ]
+  },
+  "sense-lex-jmdict-1077360-1": {
+    "senseVersion": 1,
+    "words": [
+      "組",
+      "団体"
+    ]
+  },
+  "sense-lex-jmdict-1077720-1": {
+    "senseVersion": 1,
+    "words": [
+      "領収書",
+      "切符"
+    ]
+  },
+  "sense-lex-jmdict-1078040-1": {
+    "senseVersion": 1,
+    "words": [
+      "機会",
+      "可能性"
+    ]
+  },
+  "sense-lex-jmdict-1078630-1": {
+    "senseVersion": 1,
+    "words": [
+      "机",
+      "台"
+    ]
+  },
+  "sense-lex-jmdict-1078830-1": {
+    "senseVersion": 1,
+    "words": [
+      "主題",
+      "題"
+    ]
+  },
+  "sense-lex-jmdict-1079290-1": {
+    "senseVersion": 1,
+    "words": [
+      "教科書",
+      "文"
+    ]
+  },
+  "sense-lex-jmdict-1079760-1": {
+    "senseVersion": 1,
+    "words": [
+      "試験",
+      "宿題"
+    ]
+  },
+  "sense-lex-jmdict-1081120-1": {
+    "senseVersion": 1,
+    "words": [
+      "速度",
+      "リズム"
+    ]
+  },
+  "sense-lex-jmdict-1081190-1": {
+    "senseVersion": 1,
+    "words": [
+      "デート",
+      "資料"
+    ]
+  },
+  "sense-lex-jmdict-1084000-1": {
+    "senseVersion": 1,
+    "words": [
+      "デモンストレーション",
+      "抗議"
+    ]
+  },
+  "sense-lex-jmdict-1084080-1": {
+    "senseVersion": 1,
+    "words": [
+      "デモ",
+      "説明"
+    ]
+  },
+  "sense-lex-jmdict-1084810-1": {
+    "senseVersion": 1,
+    "words": [
+      "お手洗い",
+      "お風呂"
+    ]
+  },
+  "sense-lex-jmdict-1085030-1": {
+    "senseVersion": 1,
+    "words": [
+      "先頭",
+      "首脳"
+    ]
+  },
+  "sense-lex-jmdict-1085920-1": {
+    "senseVersion": 1,
+    "words": [
+      "厄介",
+      "故障"
+    ]
+  },
+  "sense-lex-jmdict-1087100-1": {
+    "senseVersion": 1,
+    "words": [
+      "演習",
+      "試合"
+    ]
+  },
+  "sense-lex-jmdict-1087820-1": {
+    "senseVersion": 1,
+    "words": [
+      "窓",
+      "戸"
+    ]
+  },
+  "sense-lex-jmdict-1088450-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷たい",
+      "冷静"
+    ]
+  },
+  "sense-lex-jmdict-1088830-1": {
+    "senseVersion": 1,
+    "words": [
+      "ドキュメンタリー",
+      "劇"
+    ]
+  },
+  "sense-lex-jmdict-1089280-1": {
+    "senseVersion": 1,
+    "words": [
+      "スーツ",
+      "ワンピース"
+    ]
+  },
+  "sense-lex-jmdict-1091500-1": {
+    "senseVersion": 1,
+    "words": [
+      "消息",
+      "便り"
+    ]
+  },
+  "sense-lex-jmdict-1093450-1": {
+    "senseVersion": 1,
+    "words": [
+      "教科書",
+      "メモ"
+    ]
+  },
+  "sense-lex-jmdict-1093920-1": {
+    "senseVersion": 1,
+    "words": [
+      "呼び鈴",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-lex-jmdict-1096770-1": {
+    "senseVersion": 1,
+    "words": [
+      "リュック",
+      "財布"
+    ]
+  },
+  "sense-lex-jmdict-1099690-1": {
+    "senseVersion": 1,
+    "words": [
+      "均衡",
+      "量"
+    ]
+  },
+  "sense-lex-jmdict-1100610-1": {
+    "senseVersion": 1,
+    "words": [
+      "割合",
+      "率"
+    ]
+  },
+  "sense-lex-jmdict-1100760-1": {
+    "senseVersion": 1,
+    "words": [
+      "会議",
+      "宴会"
+    ]
+  },
+  "sense-lex-jmdict-1101120-1": {
+    "senseVersion": 1,
+    "words": [
+      "管"
+    ]
+  },
+  "sense-lex-jmdict-1101440-1": {
+    "senseVersion": 1,
+    "words": [
+      "通過",
+      "合格"
+    ]
+  },
+  "sense-lex-jmdict-1101600-1": {
+    "senseVersion": 1,
+    "words": [
+      "模様",
+      "型"
+    ]
+  },
+  "sense-lex-jmdict-1103110-1": {
+    "senseVersion": 1,
+    "words": [
+      "故障"
+    ]
+  },
+  "sense-lex-jmdict-1105360-1": {
+    "senseVersion": 1,
+    "words": [
+      "映像",
+      "写真"
+    ]
+  },
+  "sense-lex-jmdict-1105580-1": {
+    "senseVersion": 1,
+    "words": [
+      "紙",
+      "プラスチック"
+    ]
+  },
+  "sense-lex-jmdict-1106530-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠足",
+      "外出"
+    ]
+  },
+  "sense-lex-jmdict-1107060-1": {
+    "senseVersion": 1,
+    "words": [
+      "針",
+      "釘"
+    ]
+  },
+  "sense-lex-jmdict-1113160-1": {
+    "senseVersion": 1,
+    "words": [
+      "流行",
+      "習慣"
+    ]
+  },
+  "sense-lex-jmdict-1114640-1": {
+    "senseVersion": 1,
+    "words": [
+      "アクセル",
+      "停車"
+    ]
+  },
+  "sense-lex-jmdict-1115630-1": {
+    "senseVersion": 1,
+    "words": [
+      "マイナス",
+      "積極的"
+    ]
+  },
+  "sense-lex-jmdict-1115670-1": {
+    "senseVersion": 1,
+    "words": [
+      "ガラス",
+      "ビニール"
+    ]
+  },
+  "sense-lex-jmdict-1115900-1": {
+    "senseVersion": 1,
+    "words": [
+      "計画",
+      "予定"
+    ]
+  },
+  "sense-lex-jmdict-1116300-1": {
+    "senseVersion": 1,
+    "words": [
+      "ノート",
+      "印刷"
+    ]
+  },
+  "sense-lex-jmdict-1116840-1": {
+    "senseVersion": 1,
+    "words": [
+      "贈り物",
+      "お土産"
+    ]
+  },
+  "sense-lex-jmdict-1117030-1": {
+    "senseVersion": 1,
+    "words": [
+      "博士",
+      "玄人"
+    ]
+  },
+  "sense-lex-jmdict-1117080-1": {
+    "senseVersion": 1,
+    "words": [
+      "ソフト",
+      "スケジュール"
+    ]
+  },
+  "sense-lex-jmdict-1119210-1": {
+    "senseVersion": 1,
+    "words": [
+      "基盤",
+      "元"
+    ]
+  },
+  "sense-lex-jmdict-1120070-1": {
+    "senseVersion": 1,
+    "words": [
+      "帯"
+    ]
+  },
+  "sense-lex-jmdict-1122650-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅館",
+      "宿"
+    ]
+  },
+  "sense-lex-jmdict-1123520-1": {
+    "senseVersion": 1,
+    "words": [
+      "給料",
+      "手当"
+    ]
+  },
+  "sense-lex-jmdict-1123550-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボウル",
+      "球"
+    ]
+  },
+  "sense-lex-jmdict-1123750-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボール",
+      "器"
+    ]
+  },
+  "sense-lex-jmdict-1125150-1": {
+    "senseVersion": 1,
+    "words": [
+      "郵便局",
+      "郵便"
+    ]
+  },
+  "sense-lex-jmdict-1126190-1": {
+    "senseVersion": 1,
+    "words": [
+      "市場",
+      "店"
+    ]
+  },
+  "sense-lex-jmdict-1126980-1": {
+    "senseVersion": 1,
+    "words": [
+      "プラス",
+      "損害"
+    ]
+  },
+  "sense-lex-jmdict-1129240-1": {
+    "senseVersion": 1,
+    "words": [
+      "お母さん",
+      "母"
+    ]
+  },
+  "sense-lex-jmdict-1130040-1": {
+    "senseVersion": 1,
+    "words": [
+      "アパート",
+      "一戸建て"
+    ]
+  },
+  "sense-lex-jmdict-1130650-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違い",
+      "誤り"
+    ]
+  },
+  "sense-lex-jmdict-1131990-1": {
+    "senseVersion": 1,
+    "words": [
+      "牛乳"
+    ]
+  },
+  "sense-lex-jmdict-1132420-1": {
+    "senseVersion": 1,
+    "words": [
+      "販売店",
+      "業者"
+    ]
+  },
+  "sense-lex-jmdict-1133790-1": {
+    "senseVersion": 1,
+    "words": [
+      "レシピ",
+      "献立"
+    ]
+  },
+  "sense-lex-jmdict-1133830-1": {
+    "senseVersion": 1,
+    "words": [
+      "日記",
+      "ノート"
+    ]
+  },
+  "sense-lex-jmdict-1134370-1": {
+    "senseVersion": 1,
+    "words": [
+      "会員",
+      "参加者"
+    ]
+  },
+  "sense-lex-jmdict-1134480-1": {
+    "senseVersion": 1,
+    "words": [
+      "電池",
+      "機関"
+    ]
+  },
+  "sense-lex-jmdict-1135270-1": {
+    "senseVersion": 1,
+    "words": [
+      "実物",
+      "標準"
+    ]
+  },
+  "sense-lex-jmdict-1136850-1": {
+    "senseVersion": 1,
+    "words": [
+      "皮肉",
+      "冗談"
+    ]
+  },
+  "sense-lex-jmdict-1137120-1": {
+    "senseVersion": 1,
+    "words": [
+      "独特",
+      "普通"
+    ]
+  },
+  "sense-lex-jmdict-1140100-1": {
+    "senseVersion": 1,
+    "words": [
+      "昼食",
+      "ディナー"
+    ]
+  },
+  "sense-lex-jmdict-1143590-1": {
+    "senseVersion": 1,
+    "words": [
+      "いい加減",
+      "厳格"
+    ]
+  },
+  "sense-lex-jmdict-1145220-1": {
+    "senseVersion": 1,
+    "words": [
+      "遊び",
+      "労働"
+    ]
+  },
+  "sense-lex-jmdict-1145310-1": {
+    "senseVersion": 1,
+    "words": [
+      "食堂",
+      "店"
+    ]
+  },
+  "sense-lex-jmdict-1145910-1": {
+    "senseVersion": 1,
+    "words": [
+      "程度",
+      "水準"
+    ]
+  },
+  "sense-lex-jmdict-1145990-1": {
+    "senseVersion": 1,
+    "words": [
+      "作文",
+      "記事"
+    ]
+  },
+  "sense-lex-jmdict-1147560-1": {
+    "senseVersion": 1,
+    "words": [
+      "金庫",
+      "戸棚"
+    ]
+  },
+  "sense-lex-jmdict-1149240-1": {
+    "senseVersion": 1,
+    "words": [
+      "スカート",
+      "ドレス"
+    ]
+  },
+  "sense-lex-jmdict-1150110-1": {
+    "senseVersion": 1,
+    "words": [
+      "悲しい",
+      "不幸"
+    ]
+  },
+  "sense-lex-jmdict-1150410-1": {
+    "senseVersion": 1,
+    "words": [
+      "恋",
+      "愛情"
+    ]
+  },
+  "sense-lex-jmdict-1150860-1": {
+    "senseVersion": 1,
+    "words": [
+      "愛",
+      "友情"
+    ]
+  },
+  "sense-lex-jmdict-1151120-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "迎える"
+    ]
+  },
+  "sense-lex-jmdict-1151260-1": {
+    "senseVersion": 1,
+    "words": [
+      "悪",
+      "苦手"
+    ]
+  },
+  "sense-lex-jmdict-1151470-1": {
+    "senseVersion": 1,
+    "words": [
+      "改善",
+      "低下"
+    ]
+  },
+  "sense-lex-jmdict-1152510-1": {
+    "senseVersion": 1,
+    "words": [
+      "天使",
+      "鬼"
+    ]
+  },
+  "sense-lex-jmdict-1153080-1": {
+    "senseVersion": 1,
+    "words": [
+      "凝縮",
+      "省略"
+    ]
+  },
+  "sense-lex-jmdict-1153310-1": {
+    "senseVersion": 1,
+    "words": [
+      "圧力",
+      "抑制"
+    ]
+  },
+  "sense-lex-jmdict-1153430-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り扱い",
+      "扱う"
+    ]
+  },
+  "sense-lex-jmdict-1153520-1": {
+    "senseVersion": 1,
+    "words": [
+      "キャンディ",
+      "雨"
+    ]
+  },
+  "sense-lex-jmdict-1153680-1": {
+    "senseVersion": 1,
+    "words": [
+      "安い",
+      "下らない"
+    ]
+  },
+  "sense-lex-jmdict-1153720-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡単",
+      "単純"
+    ]
+  },
+  "sense-lex-jmdict-1153890-1": {
+    "senseVersion": 1,
+    "words": [
+      "安全",
+      "緩和"
+    ]
+  },
+  "sense-lex-jmdict-1153910-1": {
+    "senseVersion": 1,
+    "words": [
+      "安定",
+      "静か"
+    ]
+  },
+  "sense-lex-jmdict-1153930-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心",
+      "無事"
+    ]
+  },
+  "sense-lex-jmdict-1154120-1": {
+    "senseVersion": 1,
+    "words": [
+      "安静",
+      "安心"
+    ]
+  },
+  "sense-lex-jmdict-1154550-1": {
+    "senseVersion": 1,
+    "words": [
+      "明示",
+      "手がかり"
+    ]
+  },
+  "sense-lex-jmdict-1154770-1": {
+    "senseVersion": 1,
+    "words": [
+      "提案",
+      "計画"
+    ]
+  },
+  "sense-lex-jmdict-1154780-1": {
+    "senseVersion": 1,
+    "words": [
+      "考える",
+      "不安"
+    ]
+  },
+  "sense-lex-jmdict-1154820-1": {
+    "senseVersion": 1,
+    "words": [
+      "意外",
+      "急"
+    ]
+  },
+  "sense-lex-jmdict-1154860-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "指導"
+    ]
+  },
+  "sense-lex-jmdict-1154910-1": {
+    "senseVersion": 1,
+    "words": [
+      "影",
+      "陰"
+    ]
+  },
+  "sense-lex-jmdict-1155090-1": {
+    "senseVersion": 1,
+    "words": [
+      "以内",
+      "除く"
+    ]
+  },
+  "sense-lex-jmdict-1155100-1": {
+    "senseVersion": 1,
+    "words": [
+      "今後",
+      "以前"
+    ]
+  },
+  "sense-lex-jmdict-1155150-1": {
+    "senseVersion": 1,
+    "words": [
+      "前",
+      "以後"
+    ]
+  },
+  "sense-lex-jmdict-1155180-1": {
+    "senseVersion": 1,
+    "words": [
+      "内",
+      "以外"
+    ]
+  },
+  "sense-lex-jmdict-1155210-1": {
+    "senseVersion": 1,
+    "words": [
+      "以後",
+      "以降"
+    ]
+  },
+  "sense-lex-jmdict-1155400-1": {
+    "senseVersion": 1,
+    "words": [
+      "地位",
+      "身分"
+    ]
+  },
+  "sense-lex-jmdict-1155650-1": {
+    "senseVersion": 1,
+    "words": [
+      "まだ",
+      "以前"
+    ]
+  },
+  "sense-lex-jmdict-1155710-1": {
+    "senseVersion": 1,
+    "words": [
+      "願い",
+      "相談"
+    ]
+  },
+  "sense-lex-jmdict-1155920-1": {
+    "senseVersion": 1,
+    "words": [
+      "優秀",
+      "見事"
+    ]
+  },
+  "sense-lex-jmdict-1156160-1": {
+    "senseVersion": 1,
+    "words": [
+      "依頼"
+    ]
+  },
+  "sense-lex-jmdict-1156320-1": {
+    "senseVersion": 1,
+    "words": [
+      "偉そうにする",
+      "誇る"
+    ]
+  },
+  "sense-lex-jmdict-1156410-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想外",
+      "急"
+    ]
+  },
+  "sense-lex-jmdict-1156450-1": {
+    "senseVersion": 1,
+    "words": [
+      "気になる",
+      "張り切る"
+    ]
+  },
+  "sense-lex-jmdict-1156520-1": {
+    "senseVersion": 1,
+    "words": [
+      "意味",
+      "趣旨"
+    ]
+  },
+  "sense-lex-jmdict-1156560-1": {
+    "senseVersion": 1,
+    "words": [
+      "意思",
+      "意向"
+    ]
+  },
+  "sense-lex-jmdict-1156610-1": {
+    "senseVersion": 1,
+    "words": [
+      "意向",
+      "意志"
+    ]
+  },
+  "sense-lex-jmdict-1156690-1": {
+    "senseVersion": 1,
+    "words": [
+      "意向",
+      "意志"
+    ]
+  },
+  "sense-lex-jmdict-1156740-1": {
+    "senseVersion": 1,
+    "words": [
+      "厳しい",
+      "最低"
+    ]
+  },
+  "sense-lex-jmdict-1156800-1": {
+    "senseVersion": 1,
+    "words": [
+      "読み方",
+      "意義"
+    ]
+  },
+  "sense-lex-jmdict-1157070-1": {
+    "senseVersion": 1,
+    "words": [
+      "机",
+      "席"
+    ]
+  },
+  "sense-lex-jmdict-1157170-1": {
+    "senseVersion": 1,
+    "words": [
+      "致す",
+      "擦る"
+    ]
+  },
+  "sense-lex-jmdict-1157330-1": {
+    "senseVersion": 1,
+    "words": [
+      "物価",
+      "換算"
+    ]
+  },
+  "sense-lex-jmdict-1157580-1": {
+    "senseVersion": 1,
+    "words": [
+      "異論",
+      "反対"
+    ]
+  },
+  "sense-lex-jmdict-1157760-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通",
+      "珍しい"
+    ]
+  },
+  "sense-lex-jmdict-1157970-1": {
+    "senseVersion": 1,
+    "words": [
+      "移動",
+      "交替"
+    ]
+  },
+  "sense-lex-jmdict-1158150-1": {
+    "senseVersion": 1,
+    "words": [
+      "異議",
+      "反対"
+    ]
+  },
+  "sense-lex-jmdict-1158240-1": {
+    "senseVersion": 1,
+    "words": [
+      "転換",
+      "移動"
+    ]
+  },
+  "sense-lex-jmdict-1158280-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行",
+      "移動"
+    ]
+  },
+  "sense-lex-jmdict-1158450-1": {
+    "senseVersion": 1,
+    "words": [
+      "改善",
+      "継続"
+    ]
+  },
+  "sense-lex-jmdict-1158500-1": {
+    "senseVersion": 1,
+    "words": [
+      "お腹",
+      "腹"
+    ]
+  },
+  "sense-lex-jmdict-1158760-1": {
+    "senseVersion": 1,
+    "words": [
+      "衣料",
+      "服"
+    ]
+  },
+  "sense-lex-jmdict-1158810-1": {
+    "senseVersion": 1,
+    "words": [
+      "服",
+      "着物"
+    ]
+  },
+  "sense-lex-jmdict-1158830-1": {
+    "senseVersion": 1,
+    "words": [
+      "衣装",
+      "服"
+    ]
+  },
+  "sense-lex-jmdict-1158870-1": {
+    "senseVersion": 1,
+    "words": [
+      "差",
+      "相違"
+    ]
+  },
+  "sense-lex-jmdict-1158950-1": {
+    "senseVersion": 1,
+    "words": [
+      "犯罪",
+      "破る"
+    ]
+  },
+  "sense-lex-jmdict-1159380-1": {
+    "senseVersion": 1,
+    "words": [
+      "遺品",
+      "跡"
+    ]
+  },
+  "sense-lex-jmdict-1159930-1": {
+    "senseVersion": 1,
+    "words": [
+      "医者"
+    ]
+  },
+  "sense-lex-jmdict-1159980-1": {
+    "senseVersion": 1,
+    "words": [
+      "医師",
+      "看護師"
+    ]
+  },
+  "sense-lex-jmdict-1160140-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療",
+      "診療"
+    ]
+  },
+  "sense-lex-jmdict-1160520-1": {
+    "senseVersion": 1,
+    "words": [
+      "成長",
+      "生まれ"
+    ]
+  },
+  "sense-lex-jmdict-1160630-1": {
+    "senseVersion": 1,
+    "words": [
+      "教育",
+      "育ち"
+    ]
+  },
+  "sense-lex-jmdict-1160790-1": {
+    "senseVersion": 1,
+    "words": [
+      "一つ"
+    ]
+  },
+  "sense-lex-jmdict-1160820-1": {
+    "senseVersion": 1,
+    "words": [
+      "一",
+      "一人"
+    ]
+  },
+  "sense-lex-jmdict-1161170-1": {
+    "senseVersion": 1,
+    "words": [
+      "一度",
+      "一旦"
+    ]
+  },
+  "sense-lex-jmdict-1161390-1": {
+    "senseVersion": 1,
+    "words": [
+      "一律",
+      "一般に"
+    ]
+  },
+  "sense-lex-jmdict-1161470-1": {
+    "senseVersion": 1,
+    "words": [
+      "個別",
+      "集計"
+    ]
+  },
+  "sense-lex-jmdict-1161830-1": {
+    "senseVersion": 1,
+    "words": [
+      "休憩",
+      "一息"
+    ]
+  },
+  "sense-lex-jmdict-1163340-1": {
+    "senseVersion": 1,
+    "words": [
+      "瞬間",
+      "少しの間"
+    ]
+  },
+  "sense-lex-jmdict-1163400-1": {
+    "senseVersion": 1,
+    "words": [
+      "共に",
+      "同じ"
+    ]
+  },
+  "sense-lex-jmdict-1164040-1": {
+    "senseVersion": 1,
+    "words": [
+      "軒並み",
+      "順番に"
+    ]
+  },
+  "sense-lex-jmdict-1164170-1": {
+    "senseVersion": 1,
+    "words": [
+      "全然",
+      "さっぱり"
+    ]
+  },
+  "sense-lex-jmdict-1164340-1": {
+    "senseVersion": 1,
+    "words": [
+      "更に",
+      "もっと"
+    ]
+  },
+  "sense-lex-jmdict-1164390-1": {
+    "senseVersion": 1,
+    "words": [
+      "一休み",
+      "ため息"
+    ]
+  },
+  "sense-lex-jmdict-1164570-1": {
+    "senseVersion": 1,
+    "words": [
+      "辺り",
+      "一点"
+    ]
+  },
+  "sense-lex-jmdict-1164650-1": {
+    "senseVersion": 1,
+    "words": [
+      "一度",
+      "一応"
+    ]
+  },
+  "sense-lex-jmdict-1164740-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "合意"
+    ]
+  },
+  "sense-lex-jmdict-1164910-1": {
+    "senseVersion": 1,
+    "words": [
+      "徹底的に",
+      "一応"
+    ]
+  },
+  "sense-lex-jmdict-1164950-1": {
+    "senseVersion": 1,
+    "words": [
+      "不定",
+      "一律"
+    ]
+  },
+  "sense-lex-jmdict-1165340-1": {
+    "senseVersion": 1,
+    "words": [
+      "全員",
+      "全部"
+    ]
+  },
+  "sense-lex-jmdict-1165790-1": {
+    "senseVersion": 1,
+    "words": [
+      "通常",
+      "普通"
+    ]
+  },
+  "sense-lex-jmdict-1166870-1": {
+    "senseVersion": 1,
+    "words": [
+      "全体",
+      "片方"
+    ]
+  },
+  "sense-lex-jmdict-1167130-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "同じ"
+    ]
+  },
+  "sense-lex-jmdict-1167250-1": {
+    "senseVersion": 1,
+    "words": [
+      "一概に",
+      "個別に"
+    ]
+  },
+  "sense-lex-jmdict-1167270-1": {
+    "senseVersion": 1,
+    "words": [
+      "一位",
+      "有力"
+    ]
+  },
+  "sense-lex-jmdict-1167450-1": {
+    "senseVersion": 1,
+    "words": [
+      "単独",
+      "連続"
+    ]
+  },
+  "sense-lex-jmdict-1167650-1": {
+    "senseVersion": 1,
+    "words": [
+      "回す",
+      "よける"
+    ]
+  },
+  "sense-lex-jmdict-1167750-1": {
+    "senseVersion": 1,
+    "words": [
+      "変更",
+      "脱線"
+    ]
+  },
+  "sense-lex-jmdict-1168060-1": {
+    "senseVersion": 1,
+    "words": [
+      "表示",
+      "判子"
+    ]
+  },
+  "sense-lex-jmdict-1168190-1": {
+    "senseVersion": 1,
+    "words": [
+      "コピー",
+      "掲載"
+    ]
+  },
+  "sense-lex-jmdict-1168660-1": {
+    "senseVersion": 1,
+    "words": [
+      "沿う",
+      "倣う"
+    ]
+  },
+  "sense-lex-jmdict-1168880-1": {
+    "senseVersion": 1,
+    "words": [
+      "起きる",
+      "起こす"
+    ]
+  },
+  "sense-lex-jmdict-1168960-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り立てる",
+      "預ける"
+    ]
+  },
+  "sense-lex-jmdict-1169000-1": {
+    "senseVersion": 1,
+    "words": [
+      "持ち上げる",
+      "引っ張る"
+    ]
+  },
+  "sense-lex-jmdict-1169140-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰る",
+      "帰り"
+    ]
+  },
+  "sense-lex-jmdict-1169320-1": {
+    "senseVersion": 1,
+    "words": [
+      "ひっくり返す",
+      "覆す"
+    ]
+  },
+  "sense-lex-jmdict-1169350-1": {
+    "senseVersion": 1,
+    "words": [
+      "罹る",
+      "引っかける"
+    ]
+  },
+  "sense-lex-jmdict-1169390-1": {
+    "senseVersion": 1,
+    "words": [
+      "出る",
+      "落ちる"
+    ]
+  },
+  "sense-lex-jmdict-1169610-1": {
+    "senseVersion": 1,
+    "words": [
+      "辞める",
+      "定年"
+    ]
+  },
+  "sense-lex-jmdict-1169660-1": {
+    "senseVersion": 1,
+    "words": [
+      "参考",
+      "参照"
+    ]
+  },
+  "sense-lex-jmdict-1170280-1": {
+    "senseVersion": 1,
+    "words": [
+      "陽気",
+      "暗い"
+    ]
+  },
+  "sense-lex-jmdict-1170690-1": {
+    "senseVersion": 1,
+    "words": [
+      "退職",
+      "引退"
+    ]
+  },
+  "sense-lex-jmdict-1171680-1": {
+    "senseVersion": 1,
+    "words": [
+      "翼",
+      "毛"
+    ]
+  },
+  "sense-lex-jmdict-1172590-1": {
+    "senseVersion": 1,
+    "words": [
+      "ニュース",
+      "話"
+    ]
+  },
+  "sense-lex-jmdict-1172610-1": {
+    "senseVersion": 1,
+    "words": [
+      "偶然",
+      "幸運"
+    ]
+  },
+  "sense-lex-jmdict-1172690-1": {
+    "senseVersion": 1,
+    "words": [
+      "経営",
+      "管理"
+    ]
+  },
+  "sense-lex-jmdict-1172830-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗る",
+      "操作"
+    ]
+  },
+  "sense-lex-jmdict-1172910-1": {
+    "senseVersion": 1,
+    "words": [
+      "練習",
+      "移動"
+    ]
+  },
+  "sense-lex-jmdict-1173010-1": {
+    "senseVersion": 1,
+    "words": [
+      "輸送",
+      "交通"
+    ]
+  },
+  "sense-lex-jmdict-1173050-1": {
+    "senseVersion": 1,
+    "words": [
+      "交通",
+      "運搬"
+    ]
+  },
+  "sense-lex-jmdict-1173090-1": {
+    "senseVersion": 1,
+    "words": [
+      "運営",
+      "経営"
+    ]
+  },
+  "sense-lex-jmdict-1173420-1": {
+    "senseVersion": 1,
+    "words": [
+      "開く",
+      "行う"
+    ]
+  },
+  "sense-lex-jmdict-1173430-1": {
+    "senseVersion": 1,
+    "words": [
+      "販売",
+      "取引"
+    ]
+  },
+  "sense-lex-jmdict-1173710-1": {
+    "senseVersion": 1,
+    "words": [
+      "射す",
+      "映す"
+    ]
+  },
+  "sense-lex-jmdict-1173720-1": {
+    "senseVersion": 1,
+    "words": [
+      "映画館",
+      "映像"
+    ]
+  },
+  "sense-lex-jmdict-1173800-1": {
+    "senseVersion": 1,
+    "words": [
+      "ビデオ",
+      "写真"
+    ]
+  },
+  "sense-lex-jmdict-1174070-1": {
+    "senseVersion": 1,
+    "words": [
+      "永久",
+      "無限"
+    ]
+  },
+  "sense-lex-jmdict-1174890-1": {
+    "senseVersion": 1,
+    "words": [
+      "鈍い",
+      "利口"
+    ]
+  },
+  "sense-lex-jmdict-1175030-1": {
+    "senseVersion": 1,
+    "words": [
+      "気体",
+      "水"
+    ]
+  },
+  "sense-lex-jmdict-1175380-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸出",
+      "読書"
+    ]
+  },
+  "sense-lex-jmdict-1175860-1": {
+    "senseVersion": 1,
+    "words": [
+      "直径",
+      "周辺"
+    ]
+  },
+  "sense-lex-jmdict-1176200-1": {
+    "senseVersion": 1,
+    "words": [
+      "完全",
+      "静か"
+    ]
+  },
+  "sense-lex-jmdict-1176320-1": {
+    "senseVersion": 1,
+    "words": [
+      "会議",
+      "ご馳走"
+    ]
+  },
+  "sense-lex-jmdict-1176430-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止",
+      "見送り"
+    ]
+  },
+  "sense-lex-jmdict-1176510-1": {
+    "senseVersion": 1,
+    "words": [
+      "短縮",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1176660-1": {
+    "senseVersion": 1,
+    "words": [
+      "世話",
+      "手伝い"
+    ]
+  },
+  "sense-lex-jmdict-1176700-1": {
+    "senseVersion": 1,
+    "words": [
+      "合わせる",
+      "倣う"
+    ]
+  },
+  "sense-lex-jmdict-1176740-1": {
+    "senseVersion": 1,
+    "words": [
+      "沖合",
+      "海岸"
+    ]
+  },
+  "sense-lex-jmdict-1176820-1": {
+    "senseVersion": 1,
+    "words": [
+      "芝居",
+      "演奏"
+    ]
+  },
+  "sense-lex-jmdict-1176860-1": {
+    "senseVersion": 1,
+    "words": [
+      "劇",
+      "芝居"
+    ]
+  },
+  "sense-lex-jmdict-1176930-1": {
+    "senseVersion": 1,
+    "words": [
+      "練習",
+      "実習"
+    ]
+  },
+  "sense-lex-jmdict-1176950-1": {
+    "senseVersion": 1,
+    "words": [
+      "演技",
+      "作品"
+    ]
+  },
+  "sense-lex-jmdict-1176960-1": {
+    "senseVersion": 1,
+    "words": [
+      "スピーチ",
+      "講演"
+    ]
+  },
+  "sense-lex-jmdict-1177070-1": {
+    "senseVersion": 1,
+    "words": [
+      "火",
+      "花火"
+    ]
+  },
+  "sense-lex-jmdict-1177190-1": {
+    "senseVersion": 1,
+    "words": [
+      "臭い",
+      "煙たい"
+    ]
+  },
+  "sense-lex-jmdict-1177200-1": {
+    "senseVersion": 1,
+    "words": [
+      "怖い",
+      "窮屈"
+    ]
+  },
+  "sense-lex-jmdict-1177500-1": {
+    "senseVersion": 1,
+    "words": [
+      "端",
+      "辺"
+    ]
+  },
+  "sense-lex-jmdict-1177680-1": {
+    "senseVersion": 1,
+    "words": [
+      "光沢",
+      "色"
+    ]
+  },
+  "sense-lex-jmdict-1177830-1": {
+    "senseVersion": 1,
+    "words": [
+      "離れる",
+      "遠ざける"
+    ]
+  },
+  "sense-lex-jmdict-1177930-1": {
+    "senseVersion": 1,
+    "words": [
+      "近道",
+      "回り道"
+    ]
+  },
+  "sense-lex-jmdict-1178260-1": {
+    "senseVersion": 1,
+    "words": [
+      "ピクニック",
+      "留学"
+    ]
+  },
+  "sense-lex-jmdict-1178340-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠く",
+      "近辺"
+    ]
+  },
+  "sense-lex-jmdict-1178450-1": {
+    "senseVersion": 1,
+    "words": [
+      "辞退",
+      "我慢"
+    ]
+  },
+  "sense-lex-jmdict-1179040-1": {
+    "senseVersion": 1,
+    "words": [
+      "汚れ",
+      "公害"
+    ]
+  },
+  "sense-lex-jmdict-1179200-1": {
+    "senseVersion": 1,
+    "words": [
+      "潰れる",
+      "膨らむ"
+    ]
+  },
+  "sense-lex-jmdict-1179320-1": {
+    "senseVersion": 1,
+    "words": [
+      "手前",
+      "中身"
+    ]
+  },
+  "sense-lex-jmdict-1179330-1": {
+    "senseVersion": 1,
+    "words": [
+      "嫁",
+      "家内"
+    ]
+  },
+  "sense-lex-jmdict-1179830-1": {
+    "senseVersion": 1,
+    "words": [
+      "受け止める",
+      "受け付ける"
+    ]
+  },
+  "sense-lex-jmdict-1179930-1": {
+    "senseVersion": 1,
+    "words": [
+      "訪問",
+      "対応"
+    ]
+  },
+  "sense-lex-jmdict-1179980-1": {
+    "senseVersion": 1,
+    "words": [
+      "応答",
+      "対応"
+    ]
+  },
+  "sense-lex-jmdict-1180260-1": {
+    "senseVersion": 1,
+    "words": [
+      "突っ込む",
+      "取り出す"
+    ]
+  },
+  "sense-lex-jmdict-1180860-1": {
+    "senseVersion": 1,
+    "words": [
+      "渡る",
+      "越える"
+    ]
+  },
+  "sense-lex-jmdict-1181700-1": {
+    "senseVersion": 1,
+    "words": [
+      "王子",
+      "王"
+    ]
+  },
+  "sense-lex-jmdict-1182680-1": {
+    "senseVersion": 1,
+    "words": [
+      "屋内",
+      "外"
+    ]
+  },
+  "sense-lex-jmdict-1182790-1": {
+    "senseVersion": 1,
+    "words": [
+      "慎重",
+      "卑怯"
+    ]
+  },
+  "sense-lex-jmdict-1183090-1": {
+    "senseVersion": 1,
+    "words": [
+      "恩恵",
+      "恵み"
+    ]
+  },
+  "sense-lex-jmdict-1183140-1": {
+    "senseVersion": 1,
+    "words": [
+      "恵み",
+      "恩"
+    ]
+  },
+  "sense-lex-jmdict-1183300-1": {
+    "senseVersion": 1,
+    "words": [
+      "生ぬるい",
+      "暖かい"
+    ]
+  },
+  "sense-lex-jmdict-1183480-1": {
+    "senseVersion": 1,
+    "words": [
+      "暖かい",
+      "穏やか"
+    ]
+  },
+  "sense-lex-jmdict-1183510-1": {
+    "senseVersion": 1,
+    "words": [
+      "気温",
+      "熱"
+    ]
+  },
+  "sense-lex-jmdict-1183590-1": {
+    "senseVersion": 1,
+    "words": [
+      "静か",
+      "温暖"
+    ]
+  },
+  "sense-lex-jmdict-1184140-1": {
+    "senseVersion": 1,
+    "words": [
+      "上",
+      "以下"
+    ]
+  },
+  "sense-lex-jmdict-1184360-1": {
+    "senseVersion": 1,
+    "words": [
+      "小さい",
+      "無用"
+    ]
+  },
+  "sense-lex-jmdict-1184580-1": {
+    "senseVersion": 1,
+    "words": [
+      "盛況",
+      "後退"
+    ]
+  },
+  "sense-lex-jmdict-1184940-1": {
+    "senseVersion": 1,
+    "words": [
+      "上昇",
+      "減少"
+    ]
+  },
+  "sense-lex-jmdict-1185200-1": {
+    "senseVersion": 1,
+    "words": [
+      "上手",
+      "苦手"
+    ]
+  },
+  "sense-lex-jmdict-1185290-1": {
+    "senseVersion": 1,
+    "words": [
+      "寮",
+      "宿泊"
+    ]
+  },
+  "sense-lex-jmdict-1185370-1": {
+    "senseVersion": 1,
+    "words": [
+      "案",
+      "清書"
+    ]
+  },
+  "sense-lex-jmdict-1185920-1": {
+    "senseVersion": 1,
+    "words": [
+      "元",
+      "ベース"
+    ]
+  },
+  "sense-lex-jmdict-1185930-1": {
+    "senseVersion": 1,
+    "words": [
+      "肌着",
+      "上着"
+    ]
+  },
+  "sense-lex-jmdict-1185970-1": {
+    "senseVersion": 1,
+    "words": [
+      "本調査",
+      "準備"
+    ]
+  },
+  "sense-lex-jmdict-1186230-1": {
+    "senseVersion": 1,
+    "words": [
+      "下手",
+      "露骨"
+    ]
+  },
+  "sense-lex-jmdict-1186710-1": {
+    "senseVersion": 1,
+    "words": [
+      "変える",
+      "変わる"
+    ]
+  },
+  "sense-lex-jmdict-1188330-1": {
+    "senseVersion": 1,
+    "words": [
+      "何より",
+      "なぜなら"
+    ]
+  },
+  "sense-lex-jmdict-1188420-1": {
+    "senseVersion": 1,
+    "words": [
+      "辛うじて",
+      "何となく"
+    ]
+  },
+  "sense-lex-jmdict-1188530-1": {
+    "senseVersion": 1,
+    "words": [
+      "何しろ",
+      "何でも"
+    ]
+  },
+  "sense-lex-jmdict-1188890-1": {
+    "senseVersion": 1,
+    "words": [
+      "常に",
+      "よく"
+    ]
+  },
+  "sense-lex-jmdict-1189130-1": {
+    "senseVersion": 1,
+    "words": [
+      "是非",
+      "どうも"
+    ]
+  },
+  "sense-lex-jmdict-1189500-1": {
+    "senseVersion": 1,
+    "words": [
+      "値段",
+      "費用"
+    ]
+  },
+  "sense-lex-jmdict-1190080-1": {
+    "senseVersion": 1,
+    "words": [
+      "調整",
+      "程度"
+    ]
+  },
+  "sense-lex-jmdict-1190120-1": {
+    "senseVersion": 1,
+    "words": [
+      "原料",
+      "処理"
+    ]
+  },
+  "sense-lex-jmdict-1190370-1": {
+    "senseVersion": 1,
+    "words": [
+      "減速",
+      "促進"
+    ]
+  },
+  "sense-lex-jmdict-1190430-1": {
+    "senseVersion": 1,
+    "words": [
+      "参加",
+      "応募"
+    ]
+  },
+  "sense-lex-jmdict-1190470-1": {
+    "senseVersion": 1,
+    "words": [
+      "過熱",
+      "暖房"
+    ]
+  },
+  "sense-lex-jmdict-1190570-1": {
+    "senseVersion": 1,
+    "words": [
+      "無視",
+      "考慮"
+    ]
+  },
+  "sense-lex-jmdict-1190810-1": {
+    "senseVersion": 1,
+    "words": [
+      "否決",
+      "採用"
+    ]
+  },
+  "sense-lex-jmdict-1191680-1": {
+    "senseVersion": 1,
+    "words": [
+      "花嫁",
+      "家内"
+    ]
+  },
+  "sense-lex-jmdict-1191730-1": {
+    "senseVersion": 1,
+    "words": [
+      "住宅",
+      "家庭"
+    ]
+  },
+  "sense-lex-jmdict-1191780-1": {
+    "senseVersion": 1,
+    "words": [
+      "家庭",
+      "建物"
+    ]
+  },
+  "sense-lex-jmdict-1192150-1": {
+    "senseVersion": 1,
+    "words": [
+      "親戚",
+      "家庭"
+    ]
+  },
+  "sense-lex-jmdict-1192270-1": {
+    "senseVersion": 1,
+    "words": [
+      "住宅ローン",
+      "借りる"
+    ]
+  },
+  "sense-lex-jmdict-1192280-1": {
+    "senseVersion": 1,
+    "words": [
+      "仮定",
+      "家"
+    ]
+  },
+  "sense-lex-jmdict-1192420-1": {
+    "senseVersion": 1,
+    "words": [
+      "嫁",
+      "奥さん"
+    ]
+  },
+  "sense-lex-jmdict-1192700-1": {
+    "senseVersion": 1,
+    "words": [
+      "化学",
+      "学術"
+    ]
+  },
+  "sense-lex-jmdict-1192850-1": {
+    "senseVersion": 1,
+    "words": [
+      "遂げる",
+      "果てる"
+    ]
+  },
+  "sense-lex-jmdict-1192860-1": {
+    "senseVersion": 1,
+    "words": [
+      "始まり",
+      "端"
+    ]
+  },
+  "sense-lex-jmdict-1192940-1": {
+    "senseVersion": 1,
+    "words": [
+      "実",
+      "葉"
+    ]
+  },
+  "sense-lex-jmdict-1193610-1": {
+    "senseVersion": 1,
+    "words": [
+      "花火",
+      "炎"
+    ]
+  },
+  "sense-lex-jmdict-1193760-1": {
+    "senseVersion": 1,
+    "words": [
+      "炎",
+      "火"
+    ]
+  },
+  "sense-lex-jmdict-1193880-1": {
+    "senseVersion": 1,
+    "words": [
+      "火事"
+    ]
+  },
+  "sense-lex-jmdict-1193950-1": {
+    "senseVersion": 1,
+    "words": [
+      "火災",
+      "火"
+    ]
+  },
+  "sense-lex-jmdict-1194500-1": {
+    "senseVersion": 1,
+    "words": [
+      "鼻",
+      "桜"
+    ]
+  },
+  "sense-lex-jmdict-1194570-1": {
+    "senseVersion": 1,
+    "words": [
+      "嫁",
+      "花婿"
+    ]
+  },
+  "sense-lex-jmdict-1194580-1": {
+    "senseVersion": 1,
+    "words": [
+      "火",
+      "炎"
+    ]
+  },
+  "sense-lex-jmdict-1195250-1": {
+    "senseVersion": 1,
+    "words": [
+      "荷造り",
+      "責任"
+    ]
+  },
+  "sense-lex-jmdict-1195270-1": {
+    "senseVersion": 1,
+    "words": [
+      "包装",
+      "荷物"
+    ]
+  },
+  "sense-lex-jmdict-1195610-1": {
+    "senseVersion": 1,
+    "words": [
+      "質素",
+      "高級"
+    ]
+  },
+  "sense-lex-jmdict-1195670-1": {
+    "senseVersion": 1,
+    "words": [
+      "お菓子",
+      "料理"
+    ]
+  },
+  "sense-lex-jmdict-1195710-1": {
+    "senseVersion": 1,
+    "words": [
+      "部",
+      "授業"
+    ]
+  },
+  "sense-lex-jmdict-1195820-1": {
+    "senseVersion": 1,
+    "words": [
+      "問題",
+      "宿題"
+    ]
+  },
+  "sense-lex-jmdict-1195850-1": {
+    "senseVersion": 1,
+    "words": [
+      "過程",
+      "科目"
+    ]
+  },
+  "sense-lex-jmdict-1195890-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗客",
+      "荷"
+    ]
+  },
+  "sense-lex-jmdict-1195930-1": {
+    "senseVersion": 1,
+    "words": [
+      "通貨",
+      "紙幣"
+    ]
+  },
+  "sense-lex-jmdict-1196010-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違い",
+      "罪"
+    ]
+  },
+  "sense-lex-jmdict-1196120-1": {
+    "senseVersion": 1,
+    "words": [
+      "故意",
+      "事故"
+    ]
+  },
+  "sense-lex-jmdict-1196170-1": {
+    "senseVersion": 1,
+    "words": [
+      "不足",
+      "余計"
+    ]
+  },
+  "sense-lex-jmdict-1196230-1": {
+    "senseVersion": 1,
+    "words": [
+      "不足",
+      "過剰"
+    ]
+  },
+  "sense-lex-jmdict-1196270-1": {
+    "senseVersion": 1,
+    "words": [
+      "課程",
+      "方法"
+    ]
+  },
+  "sense-lex-jmdict-1196380-1": {
+    "senseVersion": 1,
+    "words": [
+      "半数",
+      "大半"
+    ]
+  },
+  "sense-lex-jmdict-1196460-1": {
+    "senseVersion": 1,
+    "words": [
+      "余裕",
+      "渋滞"
+    ]
+  },
+  "sense-lex-jmdict-1196490-1": {
+    "senseVersion": 1,
+    "words": [
+      "疲労",
+      "緊張"
+    ]
+  },
+  "sense-lex-jmdict-1197710-1": {
+    "senseVersion": 1,
+    "words": [
+      "葉",
+      "生える"
+    ]
+  },
+  "sense-lex-jmdict-1198060-1": {
+    "senseVersion": 1,
+    "words": [
+      "世話",
+      "看病"
+    ]
+  },
+  "sense-lex-jmdict-1198110-1": {
+    "senseVersion": 1,
+    "words": [
+      "仲裁",
+      "調停"
+    ]
+  },
+  "sense-lex-jmdict-1198170-1": {
+    "senseVersion": 1,
+    "words": [
+      "会合",
+      "集まり"
+    ]
+  },
+  "sense-lex-jmdict-1198230-1": {
+    "senseVersion": 1,
+    "words": [
+      "メンバー",
+      "参加者"
+    ]
+  },
+  "sense-lex-jmdict-1198500-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "会議"
+    ]
+  },
+  "sense-lex-jmdict-1198530-1": {
+    "senseVersion": 1,
+    "words": [
+      "集会",
+      "集まり"
+    ]
+  },
+  "sense-lex-jmdict-1198550-1": {
+    "senseVersion": 1,
+    "words": [
+      "事務所",
+      "企業"
+    ]
+  },
+  "sense-lex-jmdict-1198660-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "所"
+    ]
+  },
+  "sense-lex-jmdict-1198760-1": {
+    "senseVersion": 1,
+    "words": [
+      "会合",
+      "会議"
+    ]
+  },
+  "sense-lex-jmdict-1198880-1": {
+    "senseVersion": 1,
+    "words": [
+      "対話",
+      "発表"
+    ]
+  },
+  "sense-lex-jmdict-1198900-1": {
+    "senseVersion": 1,
+    "words": [
+      "解く（とく）"
+    ]
+  },
+  "sense-lex-jmdict-1198960-1": {
+    "senseVersion": 1,
+    "words": [
+      "解答",
+      "答え"
+    ]
+  },
+  "sense-lex-jmdict-1199000-1": {
+    "senseVersion": 1,
+    "words": [
+      "集合",
+      "清算"
+    ]
+  },
+  "sense-lex-jmdict-1199010-1": {
+    "senseVersion": 1,
+    "words": [
+      "翻訳",
+      "説明"
+    ]
+  },
+  "sense-lex-jmdict-1199030-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止",
+      "緩和"
+    ]
+  },
+  "sense-lex-jmdict-1199080-1": {
+    "senseVersion": 1,
+    "words": [
+      "解答",
+      "説明"
+    ]
+  },
+  "sense-lex-jmdict-1199160-1": {
+    "senseVersion": 1,
+    "words": [
+      "答案",
+      "回答"
+    ]
+  },
+  "sense-lex-jmdict-1199250-1": {
+    "senseVersion": 1,
+    "words": [
+      "開放",
+      "解除"
+    ]
+  },
+  "sense-lex-jmdict-1199270-1": {
+    "senseVersion": 1,
+    "words": [
+      "診察",
+      "分解"
+    ]
+  },
+  "sense-lex-jmdict-1199360-1": {
+    "senseVersion": 1,
+    "words": [
+      "近道",
+      "遠回り"
+    ]
+  },
+  "sense-lex-jmdict-1199640-1": {
+    "senseVersion": 1,
+    "words": [
+      "回り",
+      "停止"
+    ]
+  },
+  "sense-lex-jmdict-1199680-1": {
+    "senseVersion": 1,
+    "words": [
+      "解答",
+      "答え"
+    ]
+  },
+  "sense-lex-jmdict-1199720-1": {
+    "senseVersion": 1,
+    "words": [
+      "改善",
+      "再建"
+    ]
+  },
+  "sense-lex-jmdict-1199800-1": {
+    "senseVersion": 1,
+    "words": [
+      "配布",
+      "流通"
+    ]
+  },
+  "sense-lex-jmdict-1199830-1": {
+    "senseVersion": 1,
+    "words": [
+      "配線",
+      "輪"
+    ]
+  },
+  "sense-lex-jmdict-1199970-1": {
+    "senseVersion": 1,
+    "words": [
+      "快適",
+      "良い"
+    ]
+  },
+  "sense-lex-jmdict-1200060-1": {
+    "senseVersion": 1,
+    "words": [
+      "曇り",
+      "晴れ"
+    ]
+  },
+  "sense-lex-jmdict-1200120-1": {
+    "senseVersion": 1,
+    "words": [
+      "便利",
+      "良い"
+    ]
+  },
+  "sense-lex-jmdict-1200220-1": {
+    "senseVersion": 1,
+    "words": [
+      "病気",
+      "事故"
+    ]
+  },
+  "sense-lex-jmdict-1200450-1": {
+    "senseVersion": 1,
+    "words": [
+      "喜ぶ",
+      "悲しむ"
+    ]
+  },
+  "sense-lex-jmdict-1200740-1": {
+    "senseVersion": 1,
+    "words": [
+      "再び",
+      "また"
+    ]
+  },
+  "sense-lex-jmdict-1200760-1": {
+    "senseVersion": 1,
+    "words": [
+      "改善",
+      "低下"
+    ]
+  },
+  "sense-lex-jmdict-1200780-1": {
+    "senseVersion": 1,
+    "words": [
+      "改良",
+      "改造"
+    ]
+  },
+  "sense-lex-jmdict-1200880-1": {
+    "senseVersion": 1,
+    "words": [
+      "修繕",
+      "新築"
+    ]
+  },
+  "sense-lex-jmdict-1200930-1": {
+    "senseVersion": 1,
+    "words": [
+      "改定",
+      "改訂"
+    ]
+  },
+  "sense-lex-jmdict-1200960-1": {
+    "senseVersion": 1,
+    "words": [
+      "変更",
+      "整備"
+    ]
+  },
+  "sense-lex-jmdict-1201000-1": {
+    "senseVersion": 1,
+    "words": [
+      "修理",
+      "改革"
+    ]
+  },
+  "sense-lex-jmdict-1201040-1": {
+    "senseVersion": 1,
+    "words": [
+      "改訂",
+      "改正"
+    ]
+  },
+  "sense-lex-jmdict-1201060-1": {
+    "senseVersion": 1,
+    "words": [
+      "改定",
+      "改正"
+    ]
+  },
+  "sense-lex-jmdict-1201140-1": {
+    "senseVersion": 1,
+    "words": [
+      "修理",
+      "改革"
+    ]
+  },
+  "sense-lex-jmdict-1201190-1": {
+    "senseVersion": 1,
+    "words": [
+      "湖",
+      "海洋"
+    ]
+  },
+  "sense-lex-jmdict-1201280-1": {
+    "senseVersion": 1,
+    "words": [
+      "岸",
+      "海"
+    ]
+  },
+  "sense-lex-jmdict-1201790-1": {
+    "senseVersion": 1,
+    "words": [
+      "河川",
+      "海"
+    ]
+  },
+  "sense-lex-jmdict-1202150-1": {
+    "senseVersion": 1,
+    "words": [
+      "全員",
+      "全部"
+    ]
+  },
+  "sense-lex-jmdict-1202170-1": {
+    "senseVersion": 1,
+    "words": [
+      "皆",
+      "全員"
+    ]
+  },
+  "sense-lex-jmdict-1202270-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵画",
+      "図"
+    ]
+  },
+  "sense-lex-jmdict-1202300-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵",
+      "図"
+    ]
+  },
+  "sense-lex-jmdict-1202710-1": {
+    "senseVersion": 1,
+    "words": [
+      "参加",
+      "主催"
+    ]
+  },
+  "sense-lex-jmdict-1202760-1": {
+    "senseVersion": 1,
+    "words": [
+      "始まり",
+      "終了"
+    ]
+  },
+  "sense-lex-jmdict-1202830-1": {
+    "senseVersion": 1,
+    "words": [
+      "開発",
+      "開放"
+    ]
+  },
+  "sense-lex-jmdict-1202850-1": {
+    "senseVersion": 1,
+    "words": [
+      "通行止め",
+      "開放"
+    ]
+  },
+  "sense-lex-jmdict-1202880-1": {
+    "senseVersion": 1,
+    "words": [
+      "発見",
+      "開拓"
+    ]
+  },
+  "sense-lex-jmdict-1202950-1": {
+    "senseVersion": 1,
+    "words": [
+      "解放",
+      "開拓"
+    ]
+  },
+  "sense-lex-jmdict-1203040-1": {
+    "senseVersion": 1,
+    "words": [
+      "階層",
+      "段階"
+    ]
+  },
+  "sense-lex-jmdict-1203080-1": {
+    "senseVersion": 1,
+    "words": [
+      "階級",
+      "級"
+    ]
+  },
+  "sense-lex-jmdict-1203460-1": {
+    "senseVersion": 1,
+    "words": [
+      "見かけ",
+      "内装"
+    ]
+  },
+  "sense-lex-jmdict-1203800-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行",
+      "出発"
+    ]
+  },
+  "sense-lex-jmdict-1204070-1": {
+    "senseVersion": 1,
+    "words": [
+      "内部",
+      "外"
+    ]
+  },
+  "sense-lex-jmdict-1204330-1": {
+    "senseVersion": 1,
+    "words": [
+      "被害",
+      "損害"
+    ]
+  },
+  "sense-lex-jmdict-1204470-1": {
+    "senseVersion": 1,
+    "words": [
+      "詳説",
+      "要旨"
+    ]
+  },
+  "sense-lex-jmdict-1204480-1": {
+    "senseVersion": 1,
+    "words": [
+      "事例",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1204510-1": {
+    "senseVersion": 1,
+    "words": [
+      "詳細",
+      "趣旨"
+    ]
+  },
+  "sense-lex-jmdict-1204520-1": {
+    "senseVersion": 1,
+    "words": [
+      "各論",
+      "要旨"
+    ]
+  },
+  "sense-lex-jmdict-1204540-1": {
+    "senseVersion": 1,
+    "words": [
+      "底",
+      "カバー"
+    ]
+  },
+  "sense-lex-jmdict-1204640-1": {
+    "senseVersion": 1,
+    "words": [
+      "街道",
+      "道"
+    ]
+  },
+  "sense-lex-jmdict-1204800-1": {
+    "senseVersion": 1,
+    "words": [
+      "柵",
+      "屋根"
+    ]
+  },
+  "sense-lex-jmdict-1205180-1": {
+    "senseVersion": 1,
+    "words": [
+      "集中",
+      "普及"
+    ]
+  },
+  "sense-lex-jmdict-1205190-1": {
+    "senseVersion": 1,
+    "words": [
+      "縮小",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1205200-1": {
+    "senseVersion": 1,
+    "words": [
+      "縮小",
+      "延長"
+    ]
+  },
+  "sense-lex-jmdict-1205220-1": {
+    "senseVersion": 1,
+    "words": [
+      "縮小",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1205340-1": {
+    "senseVersion": 1,
+    "words": [
+      "差",
+      "区別"
+    ]
+  },
+  "sense-lex-jmdict-1205490-1": {
+    "senseVersion": 1,
+    "words": [
+      "特別",
+      "普通"
+    ]
+  },
+  "sense-lex-jmdict-1205510-1": {
+    "senseVersion": 1,
+    "words": [
+      "中心",
+      "周辺"
+    ]
+  },
+  "sense-lex-jmdict-1205750-1": {
+    "senseVersion": 1,
+    "words": [
+      "取得",
+      "所持"
+    ]
+  },
+  "sense-lex-jmdict-1205830-1": {
+    "senseVersion": 1,
+    "words": [
+      "確か",
+      "明らか"
+    ]
+  },
+  "sense-lex-jmdict-1205870-1": {
+    "senseVersion": 1,
+    "words": [
+      "推測",
+      "自信"
+    ]
+  },
+  "sense-lex-jmdict-1205880-1": {
+    "senseVersion": 1,
+    "words": [
+      "決定",
+      "判断"
+    ]
+  },
+  "sense-lex-jmdict-1205920-1": {
+    "senseVersion": 1,
+    "words": [
+      "保証",
+      "キャッチ"
+    ]
+  },
+  "sense-lex-jmdict-1205950-1": {
+    "senseVersion": 1,
+    "words": [
+      "可能性",
+      "恐れ"
+    ]
+  },
+  "sense-lex-jmdict-1206030-1": {
+    "senseVersion": 1,
+    "words": [
+      "設置",
+      "成立"
+    ]
+  },
+  "sense-lex-jmdict-1206040-1": {
+    "senseVersion": 1,
+    "words": [
+      "記憶",
+      "思い出"
+    ]
+  },
+  "sense-lex-jmdict-1206060-1": {
+    "senseVersion": 1,
+    "words": [
+      "起こす",
+      "覚める"
+    ]
+  },
+  "sense-lex-jmdict-1206080-1": {
+    "senseVersion": 1,
+    "words": [
+      "準備",
+      "決意"
+    ]
+  },
+  "sense-lex-jmdict-1206110-1": {
+    "senseVersion": 1,
+    "words": [
+      "隅",
+      "縁（ふち）"
+    ]
+  },
+  "sense-lex-jmdict-1206340-1": {
+    "senseVersion": 1,
+    "words": [
+      "隔てる",
+      "離れる"
+    ]
+  },
+  "sense-lex-jmdict-1206360-1": {
+    "senseVersion": 1,
+    "words": [
+      "近づける",
+      "分ける"
+    ]
+  },
+  "sense-lex-jmdict-1206470-1": {
+    "senseVersion": 1,
+    "words": [
+      "改良",
+      "改革"
+    ]
+  },
+  "sense-lex-jmdict-1206500-1": {
+    "senseVersion": 1,
+    "words": [
+      "改革",
+      "変革"
+    ]
+  },
+  "sense-lex-jmdict-1206590-1": {
+    "senseVersion": 1,
+    "words": [
+      "学部",
+      "科目"
+    ]
+  },
+  "sense-lex-jmdict-1206680-1": {
+    "senseVersion": 1,
+    "words": [
+      "クラス",
+      "学年"
+    ]
+  },
+  "sense-lex-jmdict-1206730-1": {
+    "senseVersion": 1,
+    "words": [
+      "教室",
+      "学部"
+    ]
+  },
+  "sense-lex-jmdict-1206800-1": {
+    "senseVersion": 1,
+    "words": [
+      "学生",
+      "博士"
+    ]
+  },
+  "sense-lex-jmdict-1206820-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強",
+      "研究"
+    ]
+  },
+  "sense-lex-jmdict-1206870-1": {
+    "senseVersion": 1,
+    "words": [
+      "技術",
+      "科学"
+    ]
+  },
+  "sense-lex-jmdict-1206950-1": {
+    "senseVersion": 1,
+    "words": [
+      "説",
+      "感想"
+    ]
+  },
+  "sense-lex-jmdict-1207030-1": {
+    "senseVersion": 1,
+    "words": [
+      "学級",
+      "年度"
+    ]
+  },
+  "sense-lex-jmdict-1207080-1": {
+    "senseVersion": 1,
+    "words": [
+      "学科",
+      "学校"
+    ]
+  },
+  "sense-lex-jmdict-1207130-1": {
+    "senseVersion": 1,
+    "words": [
+      "学習",
+      "教育"
+    ]
+  },
+  "sense-lex-jmdict-1207180-1": {
+    "senseVersion": 1,
+    "words": [
+      "学歴",
+      "学術"
+    ]
+  },
+  "sense-lex-jmdict-1207230-1": {
+    "senseVersion": 1,
+    "words": [
+      "気楽",
+      "簡単"
+    ]
+  },
+  "sense-lex-jmdict-1207240-1": {
+    "senseVersion": 1,
+    "words": [
+      "面白い",
+      "愉快"
+    ]
+  },
+  "sense-lex-jmdict-1207250-1": {
+    "senseVersion": 1,
+    "words": [
+      "期待",
+      "楽しい"
+    ]
+  },
+  "sense-lex-jmdict-1207500-1": {
+    "senseVersion": 1,
+    "words": [
+      "金額",
+      "程度"
+    ]
+  },
+  "sense-lex-jmdict-1207730-1": {
+    "senseVersion": 1,
+    "words": [
+      "破る",
+      "切る"
+    ]
+  },
+  "sense-lex-jmdict-1208410-1": {
+    "senseVersion": 1,
+    "words": [
+      "盛ん",
+      "静か"
+    ]
+  },
+  "sense-lex-jmdict-1208450-1": {
+    "senseVersion": 1,
+    "words": [
+      "休養",
+      "活動"
+    ]
+  },
+  "sense-lex-jmdict-1208460-1": {
+    "senseVersion": 1,
+    "words": [
+      "利用",
+      "使用"
+    ]
+  },
+  "sense-lex-jmdict-1208480-1": {
+    "senseVersion": 1,
+    "words": [
+      "体力",
+      "勢い"
+    ]
+  },
+  "sense-lex-jmdict-1208560-1": {
+    "senseVersion": 1,
+    "words": [
+      "滑る",
+      "柔軟"
+    ]
+  },
+  "sense-lex-jmdict-1208660-1": {
+    "senseVersion": 1,
+    "words": [
+      "楽しい",
+      "変"
+    ]
+  },
+  "sense-lex-jmdict-1208840-1": {
+    "senseVersion": 1,
+    "words": [
+      "または",
+      "更に"
+    ]
+  },
+  "sense-lex-jmdict-1208920-1": {
+    "senseVersion": 1,
+    "words": [
+      "株式",
+      "債券"
+    ]
+  },
+  "sense-lex-jmdict-1208970-1": {
+    "senseVersion": 1,
+    "words": [
+      "株",
+      "債券"
+    ]
+  },
+  "sense-lex-jmdict-1209540-1": {
+    "senseVersion": 1,
+    "words": [
+      "削る",
+      "切る"
+    ]
+  },
+  "sense-lex-jmdict-1210100-1": {
+    "senseVersion": 1,
+    "words": [
+      "電池",
+      "充電器"
+    ]
+  },
+  "sense-lex-jmdict-1210570-1": {
+    "senseVersion": 1,
+    "words": [
+      "執筆",
+      "公開"
+    ]
+  },
+  "sense-lex-jmdict-1210590-1": {
+    "senseVersion": 1,
+    "words": [
+      "直感",
+      "知識"
+    ]
+  },
+  "sense-lex-jmdict-1210620-1": {
+    "senseVersion": 1,
+    "words": [
+      "錯覚",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1210750-1": {
+    "senseVersion": 1,
+    "words": [
+      "計算",
+      "会計"
+    ]
+  },
+  "sense-lex-jmdict-1210870-1": {
+    "senseVersion": 1,
+    "words": [
+      "許可",
+      "許す"
+    ]
+  },
+  "sense-lex-jmdict-1210900-1": {
+    "senseVersion": 1,
+    "words": [
+      "推薦",
+      "勧誘"
+    ]
+  },
+  "sense-lex-jmdict-1210970-1": {
+    "senseVersion": 1,
+    "words": [
+      "命令",
+      "推薦"
+    ]
+  },
+  "sense-lex-jmdict-1211120-1": {
+    "senseVersion": 1,
+    "words": [
+      "勧め",
+      "推薦"
+    ]
+  },
+  "sense-lex-jmdict-1211310-1": {
+    "senseVersion": 1,
+    "words": [
+      "凌ぐ",
+      "諦める"
+    ]
+  },
+  "sense-lex-jmdict-1211510-1": {
+    "senseVersion": 1,
+    "words": [
+      "全部",
+      "完了"
+    ]
+  },
+  "sense-lex-jmdict-1211630-1": {
+    "senseVersion": 1,
+    "words": [
+      "終了",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1211970-1": {
+    "senseVersion": 1,
+    "words": [
+      "厳格",
+      "許容"
+    ]
+  },
+  "sense-lex-jmdict-1212050-1": {
+    "senseVersion": 1,
+    "words": [
+      "助言",
+      "介入"
+    ]
+  },
+  "sense-lex-jmdict-1212250-1": {
+    "senseVersion": 1,
+    "words": [
+      "気持ち",
+      "印象"
+    ]
+  },
+  "sense-lex-jmdict-1212310-1": {
+    "senseVersion": 1,
+    "words": [
+      "感想",
+      "感動"
+    ]
+  },
+  "sense-lex-jmdict-1212380-1": {
+    "senseVersion": 1,
+    "words": [
+      "お礼",
+      "礼"
+    ]
+  },
+  "sense-lex-jmdict-1212410-1": {
+    "senseVersion": 1,
+    "words": [
+      "気分",
+      "気"
+    ]
+  },
+  "sense-lex-jmdict-1212450-1": {
+    "senseVersion": 1,
+    "words": [
+      "感動",
+      "立派"
+    ]
+  },
+  "sense-lex-jmdict-1212480-1": {
+    "senseVersion": 1,
+    "words": [
+      "事実",
+      "気"
+    ]
+  },
+  "sense-lex-jmdict-1212550-1": {
+    "senseVersion": 1,
+    "words": [
+      "精度",
+      "神経"
+    ]
+  },
+  "sense-lex-jmdict-1212570-1": {
+    "senseVersion": 1,
+    "words": [
+      "感情",
+      "刺激"
+    ]
+  },
+  "sense-lex-jmdict-1212650-1": {
+    "senseVersion": 1,
+    "words": [
+      "慣れる",
+      "育てる"
+    ]
+  },
+  "sense-lex-jmdict-1212680-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "習慣"
+    ]
+  },
+  "sense-lex-jmdict-1212700-1": {
+    "senseVersion": 1,
+    "words": [
+      "習慣",
+      "伝統"
+    ]
+  },
+  "sense-lex-jmdict-1212750-1": {
+    "senseVersion": 1,
+    "words": [
+      "例外",
+      "伝統"
+    ]
+  },
+  "sense-lex-jmdict-1212820-1": {
+    "senseVersion": 1,
+    "words": [
+      "交換",
+      "転換"
+    ]
+  },
+  "sense-lex-jmdict-1212850-1": {
+    "senseVersion": 1,
+    "words": [
+      "強いて",
+      "わざと"
+    ]
+  },
+  "sense-lex-jmdict-1212960-1": {
+    "senseVersion": 1,
+    "words": [
+      "招待",
+      "対応"
+    ]
+  },
+  "sense-lex-jmdict-1213680-1": {
+    "senseVersion": 1,
+    "words": [
+      "監督",
+      "観測"
+    ]
+  },
+  "sense-lex-jmdict-1213720-1": {
+    "senseVersion": 1,
+    "words": [
+      "指導",
+      "管理"
+    ]
+  },
+  "sense-lex-jmdict-1213810-1": {
+    "senseVersion": 1,
+    "words": [
+      "介護",
+      "看病"
+    ]
+  },
+  "sense-lex-jmdict-1213990-1": {
+    "senseVersion": 1,
+    "words": [
+      "広告",
+      "印"
+    ]
+  },
+  "sense-lex-jmdict-1214030-1": {
+    "senseVersion": 1,
+    "words": [
+      "介護",
+      "診察"
+    ]
+  },
+  "sense-lex-jmdict-1214200-1": {
+    "senseVersion": 1,
+    "words": [
+      "手入れ",
+      "経営"
+    ]
+  },
+  "sense-lex-jmdict-1214270-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡単",
+      "簡潔"
+    ]
+  },
+  "sense-lex-jmdict-1214290-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡素",
+      "簡単"
+    ]
+  },
+  "sense-lex-jmdict-1214300-1": {
+    "senseVersion": 1,
+    "words": [
+      "華美",
+      "地味"
+    ]
+  },
+  "sense-lex-jmdict-1214330-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡易",
+      "易しい"
+    ]
+  },
+  "sense-lex-jmdict-1214430-1": {
+    "senseVersion": 1,
+    "words": [
+      "緩める"
+    ]
+  },
+  "sense-lex-jmdict-1214440-1": {
+    "senseVersion": 1,
+    "words": [
+      "解く（とく）",
+      "解く（ほどく）"
+    ]
+  },
+  "sense-lex-jmdict-1214450-1": {
+    "senseVersion": 1,
+    "words": [
+      "急",
+      "遅い"
+    ]
+  },
+  "sense-lex-jmdict-1214530-1": {
+    "senseVersion": 1,
+    "words": [
+      "解除",
+      "安心"
+    ]
+  },
+  "sense-lex-jmdict-1214540-1": {
+    "senseVersion": 1,
+    "words": [
+      "瓶",
+      "缶詰"
+    ]
+  },
+  "sense-lex-jmdict-1214560-1": {
+    "senseVersion": 1,
+    "words": [
+      "生鮮食品",
+      "缶"
+    ]
+  },
+  "sense-lex-jmdict-1214980-1": {
+    "senseVersion": 1,
+    "words": [
+      "予報",
+      "調査"
+    ]
+  },
+  "sense-lex-jmdict-1215000-1": {
+    "senseVersion": 1,
+    "words": [
+      "見地",
+      "視力"
+    ]
+  },
+  "sense-lex-jmdict-1215040-1": {
+    "senseVersion": 1,
+    "words": [
+      "見学",
+      "見物"
+    ]
+  },
+  "sense-lex-jmdict-1215070-1": {
+    "senseVersion": 1,
+    "words": [
+      "変える",
+      "守る"
+    ]
+  },
+  "sense-lex-jmdict-1215130-1": {
+    "senseVersion": 1,
+    "words": [
+      "独占",
+      "返還"
+    ]
+  },
+  "sense-lex-jmdict-1215230-1": {
+    "senseVersion": 1,
+    "words": [
+      "間隔",
+      "隙間"
+    ]
+  },
+  "sense-lex-jmdict-1215240-1": {
+    "senseVersion": 1,
+    "words": [
+      "間（あいだ）",
+      "間隔"
+    ]
+  },
+  "sense-lex-jmdict-1215320-1": {
+    "senseVersion": 1,
+    "words": [
+      "誤り",
+      "ミス"
+    ]
+  },
+  "sense-lex-jmdict-1215660-1": {
+    "senseVersion": 1,
+    "words": [
+      "仲",
+      "間（ま）"
+    ]
+  },
+  "sense-lex-jmdict-1215790-1": {
+    "senseVersion": 1,
+    "words": [
+      "関わる",
+      "関係"
+    ]
+  },
+  "sense-lex-jmdict-1215930-1": {
+    "senseVersion": 1,
+    "words": [
+      "消費税",
+      "税金"
+    ]
+  },
+  "sense-lex-jmdict-1216050-1": {
+    "senseVersion": 1,
+    "words": [
+      "無関係",
+      "参加"
+    ]
+  },
+  "sense-lex-jmdict-1216060-1": {
+    "senseVersion": 1,
+    "words": [
+      "関係",
+      "仲"
+    ]
+  },
+  "sense-lex-jmdict-1216250-1": {
+    "senseVersion": 1,
+    "words": [
+      "円",
+      "輪"
+    ]
+  },
+  "sense-lex-jmdict-1216300-1": {
+    "senseVersion": 1,
+    "words": [
+      "広げる",
+      "捲る（まくる）"
+    ]
+  },
+  "sense-lex-jmdict-1216410-1": {
+    "senseVersion": 1,
+    "words": [
+      "一部だけ",
+      "全体"
+    ]
+  },
+  "sense-lex-jmdict-1217040-1": {
+    "senseVersion": 1,
+    "words": [
+      "海岸",
+      "沖"
+    ]
+  },
+  "sense-lex-jmdict-1217270-1": {
+    "senseVersion": 1,
+    "words": [
+      "石"
+    ]
+  },
+  "sense-lex-jmdict-1217680-1": {
+    "senseVersion": 1,
+    "words": [
+      "頑丈",
+      "強硬"
+    ]
+  },
+  "sense-lex-jmdict-1217690-1": {
+    "senseVersion": 1,
+    "words": [
+      "丈夫",
+      "健やか"
+    ]
+  },
+  "sense-lex-jmdict-1217730-1": {
+    "senseVersion": 1,
+    "words": [
+      "頭",
+      "形"
+    ]
+  },
+  "sense-lex-jmdict-1217850-1": {
+    "senseVersion": 1,
+    "words": [
+      "表情",
+      "顔色"
+    ]
+  },
+  "sense-lex-jmdict-1217900-1": {
+    "senseVersion": 1,
+    "words": [
+      "希望",
+      "依頼"
+    ]
+  },
+  "sense-lex-jmdict-1218050-1": {
+    "senseVersion": 1,
+    "words": [
+      "履歴書",
+      "応募"
+    ]
+  },
+  "sense-lex-jmdict-1218150-1": {
+    "senseVersion": 1,
+    "words": [
+      "実行",
+      "計画"
+    ]
+  },
+  "sense-lex-jmdict-1218190-1": {
+    "senseVersion": 1,
+    "words": [
+      "会社",
+      "業者"
+    ]
+  },
+  "sense-lex-jmdict-1218360-1": {
+    "senseVersion": 1,
+    "words": [
+      "危ない",
+      "安全"
+    ]
+  },
+  "sense-lex-jmdict-1218380-1": {
+    "senseVersion": 1,
+    "words": [
+      "危険",
+      "危うい"
+    ]
+  },
+  "sense-lex-jmdict-1218410-1": {
+    "senseVersion": 1,
+    "words": [
+      "危ない",
+      "疑う"
+    ]
+  },
+  "sense-lex-jmdict-1218440-1": {
+    "senseVersion": 1,
+    "words": [
+      "被害",
+      "危険"
+    ]
+  },
+  "sense-lex-jmdict-1218450-1": {
+    "senseVersion": 1,
+    "words": [
+      "危険",
+      "緊急"
+    ]
+  },
+  "sense-lex-jmdict-1218560-1": {
+    "senseVersion": 1,
+    "words": [
+      "危ない",
+      "物騒"
+    ]
+  },
+  "sense-lex-jmdict-1218810-1": {
+    "senseVersion": 1,
+    "words": [
+      "コメディ",
+      "悲劇"
+    ]
+  },
+  "sense-lex-jmdict-1218880-1": {
+    "senseVersion": 1,
+    "words": [
+      "容器",
+      "器官"
+    ]
+  },
+  "sense-lex-jmdict-1218920-1": {
+    "senseVersion": 1,
+    "words": [
+      "道具",
+      "材料"
+    ]
+  },
+  "sense-lex-jmdict-1218960-1": {
+    "senseVersion": 1,
+    "words": [
+      "不器用",
+      "巧み"
+    ]
+  },
+  "sense-lex-jmdict-1219170-1": {
+    "senseVersion": 1,
+    "words": [
+      "ベース",
+      "基準"
+    ]
+  },
+  "sense-lex-jmdict-1219490-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通",
+      "意外"
+    ]
+  },
+  "sense-lex-jmdict-1219510-1": {
+    "senseVersion": 1,
+    "words": [
+      "楽しい",
+      "快適"
+    ]
+  },
+  "sense-lex-jmdict-1219560-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄る",
+      "集める"
+    ]
+  },
+  "sense-lex-jmdict-1219810-1": {
+    "senseVersion": 1,
+    "words": [
+      "貢献",
+      "寄付"
+    ]
+  },
+  "sense-lex-jmdict-1219910-1": {
+    "senseVersion": 1,
+    "words": [
+      "望み",
+      "願い"
+    ]
+  },
+  "sense-lex-jmdict-1219980-1": {
+    "senseVersion": 1,
+    "words": [
+      "いくつ",
+      "どんなに"
+    ]
+  },
+  "sense-lex-jmdict-1220040-1": {
+    "senseVersion": 1,
+    "words": [
+      "幾つ",
+      "多い"
+    ]
+  },
+  "sense-lex-jmdict-1220060-1": {
+    "senseVersion": 1,
+    "words": [
+      "全く",
+      "少し"
+    ]
+  },
+  "sense-lex-jmdict-1220310-1": {
+    "senseVersion": 1,
+    "words": [
+      "もう",
+      "以前"
+    ]
+  },
+  "sense-lex-jmdict-1220550-1": {
+    "senseVersion": 1,
+    "words": [
+      "間（あいだ）",
+      "内"
+    ]
+  },
+  "sense-lex-jmdict-1220610-1": {
+    "senseVersion": 1,
+    "words": [
+      "期間",
+      "期限"
+    ]
+  },
+  "sense-lex-jmdict-1220670-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠席",
+      "撤回"
+    ]
+  },
+  "sense-lex-jmdict-1220870-1": {
+    "senseVersion": 1,
+    "words": [
+      "エンジン",
+      "機械"
+    ]
+  },
+  "sense-lex-jmdict-1220930-1": {
+    "senseVersion": 1,
+    "words": [
+      "気持ち",
+      "気"
+    ]
+  },
+  "sense-lex-jmdict-1220940-1": {
+    "senseVersion": 1,
+    "words": [
+      "構造",
+      "仕組み"
+    ]
+  },
+  "sense-lex-jmdict-1221130-1": {
+    "senseVersion": 1,
+    "words": [
+      "働き",
+      "技能"
+    ]
+  },
+  "sense-lex-jmdict-1221250-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰宅",
+      "帰る"
+    ]
+  },
+  "sense-lex-jmdict-1221520-1": {
+    "senseVersion": 1,
+    "words": [
+      "気持ち",
+      "心"
+    ]
+  },
+  "sense-lex-jmdict-1221770-1": {
+    "senseVersion": 1,
+    "words": [
+      "かわいそう",
+      "残念"
+    ]
+  },
+  "sense-lex-jmdict-1221950-1": {
+    "senseVersion": 1,
+    "words": [
+      "気候",
+      "熱"
+    ]
+  },
+  "sense-lex-jmdict-1222010-1": {
+    "senseVersion": 1,
+    "words": [
+      "気軽",
+      "快適"
+    ]
+  },
+  "sense-lex-jmdict-1222110-1": {
+    "senseVersion": 1,
+    "words": [
+      "気楽",
+      "安易"
+    ]
+  },
+  "sense-lex-jmdict-1222120-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠慮"
+    ]
+  },
+  "sense-lex-jmdict-1222250-1": {
+    "senseVersion": 1,
+    "words": [
+      "気象",
+      "気"
+    ]
+  },
+  "sense-lex-jmdict-1222270-1": {
+    "senseVersion": 1,
+    "words": [
+      "気質",
+      "天気"
+    ]
+  },
+  "sense-lex-jmdict-1222460-1": {
+    "senseVersion": 1,
+    "words": [
+      "液体",
+      "蒸気"
+    ]
+  },
+  "sense-lex-jmdict-1222540-1": {
+    "senseVersion": 1,
+    "words": [
+      "派手",
+      "名誉"
+    ]
+  },
+  "sense-lex-jmdict-1222580-1": {
+    "senseVersion": 1,
+    "words": [
+      "気流",
+      "精神"
+    ]
+  },
+  "sense-lex-jmdict-1222590-1": {
+    "senseVersion": 1,
+    "words": [
+      "気",
+      "気持ち"
+    ]
+  },
+  "sense-lex-jmdict-1222640-1": {
+    "senseVersion": 1,
+    "words": [
+      "気持ち",
+      "気分"
+    ]
+  },
+  "sense-lex-jmdict-1222700-1": {
+    "senseVersion": 1,
+    "words": [
+      "電車",
+      "列車"
+    ]
+  },
+  "sense-lex-jmdict-1222760-1": {
+    "senseVersion": 1,
+    "words": [
+      "祈る",
+      "願い"
+    ]
+  },
+  "sense-lex-jmdict-1222840-1": {
+    "senseVersion": 1,
+    "words": [
+      "天気",
+      "時期"
+    ]
+  },
+  "sense-lex-jmdict-1222970-1": {
+    "senseVersion": 1,
+    "words": [
+      "企画",
+      "基準"
+    ]
+  },
+  "sense-lex-jmdict-1223010-1": {
+    "senseVersion": 1,
+    "words": [
+      "規格",
+      "支配"
+    ]
+  },
+  "sense-lex-jmdict-1223090-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "範囲"
+    ]
+  },
+  "sense-lex-jmdict-1223110-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "協定"
+    ]
+  },
+  "sense-lex-jmdict-1223120-1": {
+    "senseVersion": 1,
+    "words": [
+      "法律",
+      "憲法"
+    ]
+  },
+  "sense-lex-jmdict-1223150-1": {
+    "senseVersion": 1,
+    "words": [
+      "思い出",
+      "覚え"
+    ]
+  },
+  "sense-lex-jmdict-1223210-1": {
+    "senseVersion": 1,
+    "words": [
+      "文字",
+      "跡"
+    ]
+  },
+  "sense-lex-jmdict-1223230-1": {
+    "senseVersion": 1,
+    "words": [
+      "記述",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1223240-1": {
+    "senseVersion": 1,
+    "words": [
+      "ニュース",
+      "情報"
+    ]
+  },
+  "sense-lex-jmdict-1223250-1": {
+    "senseVersion": 1,
+    "words": [
+      "ジャーナリスト",
+      "アナウンサー"
+    ]
+  },
+  "sense-lex-jmdict-1223280-1": {
+    "senseVersion": 1,
+    "words": [
+      "記載",
+      "記事"
+    ]
+  },
+  "sense-lex-jmdict-1223330-1": {
+    "senseVersion": 1,
+    "words": [
+      "記録",
+      "登録"
+    ]
+  },
+  "sense-lex-jmdict-1223430-1": {
+    "senseVersion": 1,
+    "words": [
+      "署名",
+      "登録"
+    ]
+  },
+  "sense-lex-jmdict-1223520-1": {
+    "senseVersion": 1,
+    "words": [
+      "大事",
+      "高価"
+    ]
+  },
+  "sense-lex-jmdict-1223615-1": {
+    "senseVersion": 1,
+    "words": [
+      "私",
+      "君"
+    ]
+  },
+  "sense-lex-jmdict-1223980-1": {
+    "senseVersion": 1,
+    "words": [
+      "方向",
+      "線路"
+    ]
+  },
+  "sense-lex-jmdict-1224190-1": {
+    "senseVersion": 1,
+    "words": [
+      "悪魔",
+      "お化け"
+    ]
+  },
+  "sense-lex-jmdict-1224700-1": {
+    "senseVersion": 1,
+    "words": [
+      "意識",
+      "式"
+    ]
+  },
+  "sense-lex-jmdict-1224880-1": {
+    "senseVersion": 1,
+    "words": [
+      "大丈夫",
+      "結構"
+    ]
+  },
+  "sense-lex-jmdict-1225010-1": {
+    "senseVersion": 1,
+    "words": [
+      "小説",
+      "劇"
+    ]
+  },
+  "sense-lex-jmdict-1225230-1": {
+    "senseVersion": 1,
+    "words": [
+      "機能",
+      "働き"
+    ]
+  },
+  "sense-lex-jmdict-1225420-1": {
+    "senseVersion": 1,
+    "words": [
+      "だます",
+      "間違える"
+    ]
+  },
+  "sense-lex-jmdict-1225630-1": {
+    "senseVersion": 1,
+    "words": [
+      "質問",
+      "疑惑"
+    ]
+  },
+  "sense-lex-jmdict-1225680-1": {
+    "senseVersion": 1,
+    "words": [
+      "疑問",
+      "不審"
+    ]
+  },
+  "sense-lex-jmdict-1225900-1": {
+    "senseVersion": 1,
+    "words": [
+      "権利",
+      "責任"
+    ]
+  },
+  "sense-lex-jmdict-1225920-1": {
+    "senseVersion": 1,
+    "words": [
+      "法律",
+      "責任"
+    ]
+  },
+  "sense-lex-jmdict-1226040-1": {
+    "senseVersion": 1,
+    "words": [
+      "会議",
+      "国会"
+    ]
+  },
+  "sense-lex-jmdict-1226050-1": {
+    "senseVersion": 1,
+    "words": [
+      "決議",
+      "議論"
+    ]
+  },
+  "sense-lex-jmdict-1226140-1": {
+    "senseVersion": 1,
+    "words": [
+      "司会者",
+      "司会"
+    ]
+  },
+  "sense-lex-jmdict-1226160-1": {
+    "senseVersion": 1,
+    "words": [
+      "相談",
+      "協議"
+    ]
+  },
+  "sense-lex-jmdict-1226440-1": {
+    "senseVersion": 1,
+    "words": [
+      "レストラン",
+      "カフェ"
+    ]
+  },
+  "sense-lex-jmdict-1226610-1": {
+    "senseVersion": 1,
+    "words": [
+      "寧ろ",
+      "やはり"
+    ]
+  },
+  "sense-lex-jmdict-1226630-1": {
+    "senseVersion": 1,
+    "words": [
+      "お客様",
+      "店員"
+    ]
+  },
+  "sense-lex-jmdict-1226830-1": {
+    "senseVersion": 1,
+    "words": [
+      "脚本",
+      "誇張"
+    ]
+  },
+  "sense-lex-jmdict-1226880-1": {
+    "senseVersion": 1,
+    "words": [
+      "脚色",
+      "シナリオ"
+    ]
+  },
+  "sense-lex-jmdict-1226970-1": {
+    "senseVersion": 1,
+    "words": [
+      "逆さま",
+      "正面"
+    ]
+  },
+  "sense-lex-jmdict-1226990-1": {
+    "senseVersion": 1,
+    "words": [
+      "背く",
+      "従う"
+    ]
+  },
+  "sense-lex-jmdict-1227340-1": {
+    "senseVersion": 1,
+    "words": [
+      "古い",
+      "久しぶり"
+    ]
+  },
+  "sense-lex-jmdict-1227500-1": {
+    "senseVersion": 1,
+    "words": [
+      "休日",
+      "休憩"
+    ]
+  },
+  "sense-lex-jmdict-1227570-1": {
+    "senseVersion": 1,
+    "words": [
+      "休む",
+      "休み"
+    ]
+  },
+  "sense-lex-jmdict-1227610-1": {
+    "senseVersion": 1,
+    "words": [
+      "休憩",
+      "休み"
+    ]
+  },
+  "sense-lex-jmdict-1227720-1": {
+    "senseVersion": 1,
+    "words": [
+      "休み",
+      "休息"
+    ]
+  },
+  "sense-lex-jmdict-1227780-1": {
+    "senseVersion": 1,
+    "words": [
+      "休業",
+      "解除"
+    ]
+  },
+  "sense-lex-jmdict-1227940-1": {
+    "senseVersion": 1,
+    "words": [
+      "休み",
+      "休憩"
+    ]
+  },
+  "sense-lex-jmdict-1228100-1": {
+    "senseVersion": 1,
+    "words": [
+      "休憩",
+      "回復"
+    ]
+  },
+  "sense-lex-jmdict-1228170-1": {
+    "senseVersion": 1,
+    "words": [
+      "達する",
+      "至る"
+    ]
+  },
+  "sense-lex-jmdict-1228180-1": {
+    "senseVersion": 1,
+    "words": [
+      "受ける",
+      "引き起こす"
+    ]
+  },
+  "sense-lex-jmdict-1228560-1": {
+    "senseVersion": 1,
+    "words": [
+      "急ぐ",
+      "危機"
+    ]
+  },
+  "sense-lex-jmdict-1228580-1": {
+    "senseVersion": 1,
+    "words": [
+      "急ぐ",
+      "慌てる"
+    ]
+  },
+  "sense-lex-jmdict-1228680-1": {
+    "senseVersion": 1,
+    "words": [
+      "急速",
+      "急"
+    ]
+  },
+  "sense-lex-jmdict-1228690-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通電車",
+      "速達"
+    ]
+  },
+  "sense-lex-jmdict-1228890-1": {
+    "senseVersion": 1,
+    "words": [
+      "早い",
+      "急激"
+    ]
+  },
+  "sense-lex-jmdict-1229070-1": {
+    "senseVersion": 1,
+    "words": [
+      "救済",
+      "救助"
+    ]
+  },
+  "sense-lex-jmdict-1229150-1": {
+    "senseVersion": 1,
+    "words": [
+      "救援",
+      "協力"
+    ]
+  },
+  "sense-lex-jmdict-1229200-1": {
+    "senseVersion": 1,
+    "words": [
+      "援助",
+      "救援"
+    ]
+  },
+  "sense-lex-jmdict-1229610-1": {
+    "senseVersion": 1,
+    "words": [
+      "注ぐ",
+      "流す"
+    ]
+  },
+  "sense-lex-jmdict-1229880-1": {
+    "senseVersion": 1,
+    "words": [
+      "円",
+      "玉"
+    ]
+  },
+  "sense-lex-jmdict-1230040-1": {
+    "senseVersion": 1,
+    "words": [
+      "途中",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1230080-1": {
+    "senseVersion": 1,
+    "words": [
+      "広い",
+      "過密"
+    ]
+  },
+  "sense-lex-jmdict-1230120-1": {
+    "senseVersion": 1,
+    "words": [
+      "節約",
+      "貧困"
+    ]
+  },
+  "sense-lex-jmdict-1230350-1": {
+    "senseVersion": 1,
+    "words": [
+      "賞金",
+      "賃金"
+    ]
+  },
+  "sense-lex-jmdict-1230360-1": {
+    "senseVersion": 1,
+    "words": [
+      "月給",
+      "収入"
+    ]
+  },
+  "sense-lex-jmdict-1231590-1": {
+    "senseVersion": 1,
+    "words": [
+      "ミルク",
+      "豆乳"
+    ]
+  },
+  "sense-lex-jmdict-1231810-1": {
+    "senseVersion": 1,
+    "words": [
+      "滞在",
+      "住宅"
+    ]
+  },
+  "sense-lex-jmdict-1232180-1": {
+    "senseVersion": 1,
+    "words": [
+      "大きい",
+      "膨大"
+    ]
+  },
+  "sense-lex-jmdict-1232390-1": {
+    "senseVersion": 1,
+    "words": [
+      "拒否",
+      "抵抗"
+    ]
+  },
+  "sense-lex-jmdict-1232410-1": {
+    "senseVersion": 1,
+    "words": [
+      "拒絶",
+      "抵抗"
+    ]
+  },
+  "sense-lex-jmdict-1232880-1": {
+    "senseVersion": 1,
+    "words": [
+      "承認",
+      "賛成"
+    ]
+  },
+  "sense-lex-jmdict-1232910-1": {
+    "senseVersion": 1,
+    "words": [
+      "禁止",
+      "許可"
+    ]
+  },
+  "sense-lex-jmdict-1233280-1": {
+    "senseVersion": 1,
+    "words": [
+      "負担",
+      "楽しみ"
+    ]
+  },
+  "sense-lex-jmdict-1233630-1": {
+    "senseVersion": 1,
+    "words": [
+      "需要",
+      "支給"
+    ]
+  },
+  "sense-lex-jmdict-1234080-1": {
+    "senseVersion": 1,
+    "words": [
+      "試合",
+      "景気"
+    ]
+  },
+  "sense-lex-jmdict-1234260-1": {
+    "senseVersion": 1,
+    "words": [
+      "一緒",
+      "全員"
+    ]
+  },
+  "sense-lex-jmdict-1234370-1": {
+    "senseVersion": 1,
+    "words": [
+      "同意",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1235190-1": {
+    "senseVersion": 1,
+    "words": [
+      "共感",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1235550-1": {
+    "senseVersion": 1,
+    "words": [
+      "会",
+      "教会"
+    ]
+  },
+  "sense-lex-jmdict-1235570-1": {
+    "senseVersion": 1,
+    "words": [
+      "講義",
+      "会議"
+    ]
+  },
+  "sense-lex-jmdict-1235700-1": {
+    "senseVersion": 1,
+    "words": [
+      "調和",
+      "強調"
+    ]
+  },
+  "sense-lex-jmdict-1235730-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定",
+      "契約"
+    ]
+  },
+  "sense-lex-jmdict-1235950-1": {
+    "senseVersion": 1,
+    "words": [
+      "境界",
+      "警戒"
+    ]
+  },
+  "sense-lex-jmdict-1235960-1": {
+    "senseVersion": 1,
+    "words": [
+      "警戒",
+      "境"
+    ]
+  },
+  "sense-lex-jmdict-1236000-1": {
+    "senseVersion": 1,
+    "words": [
+      "環境",
+      "立場"
+    ]
+  },
+  "sense-lex-jmdict-1236070-1": {
+    "senseVersion": 1,
+    "words": [
+      "弱い",
+      "有力"
+    ]
+  },
+  "sense-lex-jmdict-1236080-1": {
+    "senseVersion": 1,
+    "words": [
+      "敢えて",
+      "自然に"
+    ]
+  },
+  "sense-lex-jmdict-1236100-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼む",
+      "迫る"
+    ]
+  },
+  "sense-lex-jmdict-1236150-1": {
+    "senseVersion": 1,
+    "words": [
+      "強まる",
+      "固める"
+    ]
+  },
+  "sense-lex-jmdict-1236170-1": {
+    "senseVersion": 1,
+    "words": [
+      "穏やか",
+      "無理"
+    ]
+  },
+  "sense-lex-jmdict-1236200-1": {
+    "senseVersion": 1,
+    "words": [
+      "弱化",
+      "応援"
+    ]
+  },
+  "sense-lex-jmdict-1236230-1": {
+    "senseVersion": 1,
+    "words": [
+      "強硬",
+      "弱気"
+    ]
+  },
+  "sense-lex-jmdict-1236250-1": {
+    "senseVersion": 1,
+    "words": [
+      "強気",
+      "強行"
+    ]
+  },
+  "sense-lex-jmdict-1236270-1": {
+    "senseVersion": 1,
+    "words": [
+      "強硬",
+      "実施"
+    ]
+  },
+  "sense-lex-jmdict-1236350-1": {
+    "senseVersion": 1,
+    "words": [
+      "強調",
+      "実施"
+    ]
+  },
+  "sense-lex-jmdict-1236470-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "重点"
+    ]
+  },
+  "sense-lex-jmdict-1236500-1": {
+    "senseVersion": 1,
+    "words": [
+      "泥棒",
+      "盗難"
+    ]
+  },
+  "sense-lex-jmdict-1236600-1": {
+    "senseVersion": 1,
+    "words": [
+      "強い",
+      "有力"
+    ]
+  },
+  "sense-lex-jmdict-1236620-1": {
+    "senseVersion": 1,
+    "words": [
+      "強引",
+      "深刻"
+    ]
+  },
+  "sense-lex-jmdict-1236630-1": {
+    "senseVersion": 1,
+    "words": [
+      "恐れる",
+      "驚く"
+    ]
+  },
+  "sense-lex-jmdict-1236660-1": {
+    "senseVersion": 1,
+    "words": [
+      "恐怖",
+      "関心"
+    ]
+  },
+  "sense-lex-jmdict-1236690-1": {
+    "senseVersion": 1,
+    "words": [
+      "怖い",
+      "甚だしい"
+    ]
+  },
+  "sense-lex-jmdict-1236750-1": {
+    "senseVersion": 1,
+    "words": [
+      "不安",
+      "恐れ"
+    ]
+  },
+  "sense-lex-jmdict-1236950-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強",
+      "指導"
+    ]
+  },
+  "sense-lex-jmdict-1237150-1": {
+    "senseVersion": 1,
+    "words": [
+      "学校",
+      "学部"
+    ]
+  },
+  "sense-lex-jmdict-1237170-1": {
+    "senseVersion": 1,
+    "words": [
+      "講義",
+      "教育"
+    ]
+  },
+  "sense-lex-jmdict-1237370-1": {
+    "senseVersion": 1,
+    "words": [
+      "専攻",
+      "教育"
+    ]
+  },
+  "sense-lex-jmdict-1237410-1": {
+    "senseVersion": 1,
+    "words": [
+      "箸",
+      "橋渡し"
+    ]
+  },
+  "sense-lex-jmdict-1237440-1": {
+    "senseVersion": 1,
+    "words": [
+      "橋",
+      "世話"
+    ]
+  },
+  "sense-lex-jmdict-1237470-1": {
+    "senseVersion": 1,
+    "words": [
+      "しかし",
+      "一層"
+    ]
+  },
+  "sense-lex-jmdict-1237680-1": {
+    "senseVersion": 1,
+    "words": [
+      "広い",
+      "少ない"
+    ]
+  },
+  "sense-lex-jmdict-1237820-1": {
+    "senseVersion": 1,
+    "words": [
+      "心",
+      "気"
+    ]
+  },
+  "sense-lex-jmdict-1238070-1": {
+    "senseVersion": 1,
+    "words": [
+      "脅かす",
+      "驚かす"
+    ]
+  },
+  "sense-lex-jmdict-1238110-1": {
+    "senseVersion": 1,
+    "words": [
+      "要求",
+      "強制"
+    ]
+  },
+  "sense-lex-jmdict-1238180-1": {
+    "senseVersion": 1,
+    "words": [
+      "興る",
+      "騒ぐ"
+    ]
+  },
+  "sense-lex-jmdict-1238380-1": {
+    "senseVersion": 1,
+    "words": [
+      "緊張",
+      "刺激"
+    ]
+  },
+  "sense-lex-jmdict-1238610-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴らす",
+      "鳴る"
+    ]
+  },
+  "sense-lex-jmdict-1238780-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る",
+      "頼む"
+    ]
+  },
+  "sense-lex-jmdict-1239440-1": {
+    "senseVersion": 1,
+    "words": [
+      "消費者",
+      "会社"
+    ]
+  },
+  "sense-lex-jmdict-1239460-1": {
+    "senseVersion": 1,
+    "words": [
+      "実績",
+      "功績"
+    ]
+  },
+  "sense-lex-jmdict-1239540-1": {
+    "senseVersion": 1,
+    "words": [
+      "業績",
+      "作業"
+    ]
+  },
+  "sense-lex-jmdict-1239560-1": {
+    "senseVersion": 1,
+    "words": [
+      "課"
+    ]
+  },
+  "sense-lex-jmdict-1239970-1": {
+    "senseVersion": 1,
+    "words": [
+      "カーブ",
+      "直線"
+    ]
+  },
+  "sense-lex-jmdict-1240180-1": {
+    "senseVersion": 1,
+    "words": [
+      "とても",
+      "極めて"
+    ]
+  },
+  "sense-lex-jmdict-1240200-1": {
+    "senseVersion": 1,
+    "words": [
+      "大いに",
+      "ごく"
+    ]
+  },
+  "sense-lex-jmdict-1240380-1": {
+    "senseVersion": 1,
+    "words": [
+      "中間",
+      "激しい"
+    ]
+  },
+  "sense-lex-jmdict-1240530-1": {
+    "senseVersion": 1,
+    "words": [
+      "球",
+      "宝石"
+    ]
+  },
+  "sense-lex-jmdict-1240750-1": {
+    "senseVersion": 1,
+    "words": [
+      "たくさん",
+      "少し"
+    ]
+  },
+  "sense-lex-jmdict-1240810-1": {
+    "senseVersion": 1,
+    "words": [
+      "勤務",
+      "仕事"
+    ]
+  },
+  "sense-lex-jmdict-1241070-1": {
+    "senseVersion": 1,
+    "words": [
+      "勤め",
+      "通勤"
+    ]
+  },
+  "sense-lex-jmdict-1241270-1": {
+    "senseVersion": 1,
+    "words": [
+      "バランス",
+      "同一"
+    ]
+  },
+  "sense-lex-jmdict-1241470-1": {
+    "senseVersion": 1,
+    "words": [
+      "許す",
+      "禁止"
+    ]
+  },
+  "sense-lex-jmdict-1241750-1": {
+    "senseVersion": 1,
+    "words": [
+      "論理",
+      "骨"
+    ]
+  },
+  "sense-lex-jmdict-1241850-1": {
+    "senseVersion": 1,
+    "words": [
+      "重要",
+      "危機"
+    ]
+  },
+  "sense-lex-jmdict-1242130-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠い",
+      "同様"
+    ]
+  },
+  "sense-lex-jmdict-1242160-1": {
+    "senseVersion": 1,
+    "words": [
+      "近所",
+      "辺"
+    ]
+  },
+  "sense-lex-jmdict-1242230-1": {
+    "senseVersion": 1,
+    "words": [
+      "差し掛かる",
+      "遠ざかる"
+    ]
+  },
+  "sense-lex-jmdict-1242290-1": {
+    "senseVersion": 1,
+    "words": [
+      "都心",
+      "環境"
+    ]
+  },
+  "sense-lex-jmdict-1242300-1": {
+    "senseVersion": 1,
+    "words": [
+      "最近"
+    ]
+  },
+  "sense-lex-jmdict-1242350-1": {
+    "senseVersion": 1,
+    "words": [
+      "辺",
+      "辺り"
+    ]
+  },
+  "sense-lex-jmdict-1242520-1": {
+    "senseVersion": 1,
+    "words": [
+      "近づく",
+      "寄せる"
+    ]
+  },
+  "sense-lex-jmdict-1243020-1": {
+    "senseVersion": 1,
+    "words": [
+      "お金",
+      "現金"
+    ]
+  },
+  "sense-lex-jmdict-1243290-1": {
+    "senseVersion": 1,
+    "words": [
+      "経済",
+      "融資"
+    ]
+  },
+  "sense-lex-jmdict-1243390-1": {
+    "senseVersion": 1,
+    "words": [
+      "味見",
+      "調査"
+    ]
+  },
+  "sense-lex-jmdict-1243600-1": {
+    "senseVersion": 1,
+    "words": [
+      "九人",
+      "九"
+    ]
+  },
+  "sense-lex-jmdict-1243940-1": {
+    "senseVersion": 1,
+    "words": [
+      "文",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1244090-1": {
+    "senseVersion": 1,
+    "words": [
+      "地区",
+      "セクション"
+    ]
+  },
+  "sense-lex-jmdict-1244120-1": {
+    "senseVersion": 1,
+    "words": [
+      "期間",
+      "部分"
+    ]
+  },
+  "sense-lex-jmdict-1244180-1": {
+    "senseVersion": 1,
+    "words": [
+      "終わり",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1244310-1": {
+    "senseVersion": 1,
+    "words": [
+      "辛い",
+      "悔しい"
+    ]
+  },
+  "sense-lex-jmdict-1244360-1": {
+    "senseVersion": 1,
+    "words": [
+      "いじめる",
+      "苦しむ"
+    ]
+  },
+  "sense-lex-jmdict-1244470-1": {
+    "senseVersion": 1,
+    "words": [
+      "下手",
+      "悪い"
+    ]
+  },
+  "sense-lex-jmdict-1244520-1": {
+    "senseVersion": 1,
+    "words": [
+      "不満",
+      "抗議"
+    ]
+  },
+  "sense-lex-jmdict-1244530-1": {
+    "senseVersion": 1,
+    "words": [
+      "妥協",
+      "努力"
+    ]
+  },
+  "sense-lex-jmdict-1244560-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦労",
+      "困難"
+    ]
+  },
+  "sense-lex-jmdict-1244680-1": {
+    "senseVersion": 1,
+    "words": [
+      "手間",
+      "労力"
+    ]
+  },
+  "sense-lex-jmdict-1245100-1": {
+    "senseVersion": 1,
+    "words": [
+      "賢い",
+      "鈍い"
+    ]
+  },
+  "sense-lex-jmdict-1245170-1": {
+    "senseVersion": 1,
+    "words": [
+      "提案",
+      "つぶやく"
+    ]
+  },
+  "sense-lex-jmdict-1245290-1": {
+    "senseVersion": 1,
+    "words": [
+      "天気",
+      "空中"
+    ]
+  },
+  "sense-lex-jmdict-1245370-1": {
+    "senseVersion": 1,
+    "words": [
+      "無駄",
+      "悲しい"
+    ]
+  },
+  "sense-lex-jmdict-1245380-1": {
+    "senseVersion": 1,
+    "words": [
+      "満杯",
+      "空（から）"
+    ]
+  },
+  "sense-lex-jmdict-1245470-1": {
+    "senseVersion": 1,
+    "words": [
+      "雰囲気",
+      "情緒"
+    ]
+  },
+  "sense-lex-jmdict-1245570-1": {
+    "senseVersion": 1,
+    "words": [
+      "飛行場",
+      "駅"
+    ]
+  },
+  "sense-lex-jmdict-1245730-1": {
+    "senseVersion": 1,
+    "words": [
+      "実行",
+      "構想"
+    ]
+  },
+  "sense-lex-jmdict-1245790-1": {
+    "senseVersion": 1,
+    "words": [
+      "地上",
+      "空（そら）"
+    ]
+  },
+  "sense-lex-jmdict-1246270-1": {
+    "senseVersion": 1,
+    "words": [
+      "必然",
+      "運"
+    ]
+  },
+  "sense-lex-jmdict-1246440-1": {
+    "senseVersion": 1,
+    "words": [
+      "中央",
+      "角"
+    ]
+  },
+  "sense-lex-jmdict-1247250-1": {
+    "senseVersion": 1,
+    "words": [
+      "あなた"
+    ]
+  },
+  "sense-lex-jmdict-1247290-1": {
+    "senseVersion": 1,
+    "words": [
+      "国民",
+      "王"
+    ]
+  },
+  "sense-lex-jmdict-1247500-1": {
+    "senseVersion": 1,
+    "words": [
+      "集める",
+      "群れ"
+    ]
+  },
+  "sense-lex-jmdict-1247510-1": {
+    "senseVersion": 1,
+    "words": [
+      "一匹",
+      "団体"
+    ]
+  },
+  "sense-lex-jmdict-1249470-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "意向"
+    ]
+  },
+  "sense-lex-jmdict-1249500-1": {
+    "senseVersion": 1,
+    "words": [
+      "高さ",
+      "坂"
+    ]
+  },
+  "sense-lex-jmdict-1249780-1": {
+    "senseVersion": 1,
+    "words": [
+      "注意",
+      "判決"
+    ]
+  },
+  "sense-lex-jmdict-1250090-1": {
+    "senseVersion": 1,
+    "words": [
+      "形態",
+      "タイプ"
+    ]
+  },
+  "sense-lex-jmdict-1250180-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "原因"
+    ]
+  },
+  "sense-lex-jmdict-1250190-1": {
+    "senseVersion": 1,
+    "words": [
+      "約束",
+      "協定"
+    ]
+  },
+  "sense-lex-jmdict-1250310-1": {
+    "senseVersion": 1,
+    "words": [
+      "形態",
+      "様式"
+    ]
+  },
+  "sense-lex-jmdict-1250350-1": {
+    "senseVersion": 1,
+    "words": [
+      "形成",
+      "事情"
+    ]
+  },
+  "sense-lex-jmdict-1250360-1": {
+    "senseVersion": 1,
+    "words": [
+      "形勢",
+      "成立"
+    ]
+  },
+  "sense-lex-jmdict-1250390-1": {
+    "senseVersion": 1,
+    "words": [
+      "型",
+      "形式"
+    ]
+  },
+  "sense-lex-jmdict-1250470-1": {
+    "senseVersion": 1,
+    "words": [
+      "恩恵",
+      "恩"
+    ]
+  },
+  "sense-lex-jmdict-1250600-1": {
+    "senseVersion": 1,
+    "words": [
+      "隠す",
+      "示す"
+    ]
+  },
+  "sense-lex-jmdict-1250610-1": {
+    "senseVersion": 1,
+    "words": [
+      "投稿",
+      "公開"
+    ]
+  },
+  "sense-lex-jmdict-1250620-1": {
+    "senseVersion": 1,
+    "words": [
+      "展示",
+      "広告"
+    ]
+  },
+  "sense-lex-jmdict-1250660-1": {
+    "senseVersion": 1,
+    "words": [
+      "関わる",
+      "就く"
+    ]
+  },
+  "sense-lex-jmdict-1250680-1": {
+    "senseVersion": 1,
+    "words": [
+      "形態",
+      "所持"
+    ]
+  },
+  "sense-lex-jmdict-1250720-1": {
+    "senseVersion": 1,
+    "words": [
+      "尊敬",
+      "尊重"
+    ]
+  },
+  "sense-lex-jmdict-1250830-1": {
+    "senseVersion": 1,
+    "words": [
+      "試合",
+      "競技"
+    ]
+  },
+  "sense-lex-jmdict-1250990-1": {
+    "senseVersion": 1,
+    "words": [
+      "練習",
+      "演習"
+    ]
+  },
+  "sense-lex-jmdict-1251030-1": {
+    "senseVersion": 1,
+    "words": [
+      "体制",
+      "体系"
+    ]
+  },
+  "sense-lex-jmdict-1251110-1": {
+    "senseVersion": 1,
+    "words": [
+      "過ぎる",
+      "減る"
+    ]
+  },
+  "sense-lex-jmdict-1251250-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "流れ"
+    ]
+  },
+  "sense-lex-jmdict-1251810-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずっと",
+      "中断"
+    ]
+  },
+  "sense-lex-jmdict-1251870-1": {
+    "senseVersion": 1,
+    "words": [
+      "仲",
+      "接続"
+    ]
+  },
+  "sense-lex-jmdict-1251910-1": {
+    "senseVersion": 1,
+    "words": [
+      "結びつける",
+      "切り離す"
+    ]
+  },
+  "sense-lex-jmdict-1252310-1": {
+    "senseVersion": 1,
+    "words": [
+      "境",
+      "境界"
+    ]
+  },
+  "sense-lex-jmdict-1252360-1": {
+    "senseVersion": 1,
+    "words": [
+      "注意",
+      "警戒"
+    ]
+  },
+  "sense-lex-jmdict-1252490-1": {
+    "senseVersion": 1,
+    "words": [
+      "攻撃",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1252600-1": {
+    "senseVersion": 1,
+    "words": [
+      "軽率",
+      "明るい"
+    ]
+  },
+  "sense-lex-jmdict-1252680-1": {
+    "senseVersion": 1,
+    "words": [
+      "削減",
+      "減少"
+    ]
+  },
+  "sense-lex-jmdict-1252910-1": {
+    "senseVersion": 1,
+    "words": [
+      "軽快",
+      "適当"
+    ]
+  },
+  "sense-lex-jmdict-1253060-1": {
+    "senseVersion": 1,
+    "words": [
+      "美術",
+      "文芸"
+    ]
+  },
+  "sense-lex-jmdict-1253180-1": {
+    "senseVersion": 1,
+    "words": [
+      "見送り",
+      "歓迎"
+    ]
+  },
+  "sense-lex-jmdict-1253310-1": {
+    "senseVersion": 1,
+    "words": [
+      "演劇",
+      "芝居"
+    ]
+  },
+  "sense-lex-jmdict-1253410-1": {
+    "senseVersion": 1,
+    "words": [
+      "映画館",
+      "演劇"
+    ]
+  },
+  "sense-lex-jmdict-1253760-1": {
+    "senseVersion": 1,
+    "words": [
+      "慰め",
+      "応援"
+    ]
+  },
+  "sense-lex-jmdict-1253840-1": {
+    "senseVersion": 1,
+    "words": [
+      "駄作",
+      "名作"
+    ]
+  },
+  "sense-lex-jmdict-1253920-1": {
+    "senseVersion": 1,
+    "words": [
+      "乏しい",
+      "壊れる"
+    ]
+  },
+  "sense-lex-jmdict-1253950-1": {
+    "senseVersion": 1,
+    "words": [
+      "故障",
+      "傷"
+    ]
+  },
+  "sense-lex-jmdict-1254100-1": {
+    "senseVersion": 1,
+    "words": [
+      "不足",
+      "貧困"
+    ]
+  },
+  "sense-lex-jmdict-1254130-1": {
+    "senseVersion": 1,
+    "words": [
+      "絶対",
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1254220-1": {
+    "senseVersion": 1,
+    "words": [
+      "決議",
+      "決心"
+    ]
+  },
+  "sense-lex-jmdict-1254240-1": {
+    "senseVersion": 1,
+    "words": [
+      "議決",
+      "決心"
+    ]
+  },
+  "sense-lex-jmdict-1254250-1": {
+    "senseVersion": 1,
+    "words": [
+      "実行",
+      "実施"
+    ]
+  },
+  "sense-lex-jmdict-1254340-1": {
+    "senseVersion": 1,
+    "words": [
+      "決意",
+      "決定"
+    ]
+  },
+  "sense-lex-jmdict-1254380-1": {
+    "senseVersion": 1,
+    "words": [
+      "決心",
+      "判断"
+    ]
+  },
+  "sense-lex-jmdict-1254640-1": {
+    "senseVersion": 1,
+    "words": [
+      "結びつける",
+      "関する"
+    ]
+  },
+  "sense-lex-jmdict-1254650-1": {
+    "senseVersion": 1,
+    "words": [
+      "繋げる",
+      "結びつく"
+    ]
+  },
+  "sense-lex-jmdict-1254730-1": {
+    "senseVersion": 1,
+    "words": [
+      "ついに",
+      "要するに"
+    ]
+  },
+  "sense-lex-jmdict-1254760-1": {
+    "senseVersion": 1,
+    "words": [
+      "随分",
+      "十分"
+    ]
+  },
+  "sense-lex-jmdict-1254770-1": {
+    "senseVersion": 1,
+    "words": [
+      "結成",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1254870-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "収穫"
+    ]
+  },
+  "sense-lex-jmdict-1254900-1": {
+    "senseVersion": 1,
+    "words": [
+      "結合",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1254930-1": {
+    "senseVersion": 1,
+    "words": [
+      "分裂",
+      "一致"
+    ]
+  },
+  "sense-lex-jmdict-1255020-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "判断"
+    ]
+  },
+  "sense-lex-jmdict-1255560-1": {
+    "senseVersion": 1,
+    "words": [
+      "給料",
+      "時給"
+    ]
+  },
+  "sense-lex-jmdict-1255810-1": {
+    "senseVersion": 1,
+    "words": [
+      "平凡",
+      "独創的"
+    ]
+  },
+  "sense-lex-jmdict-1256010-1": {
+    "senseVersion": 1,
+    "words": [
+      "節約",
+      "浪費"
+    ]
+  },
+  "sense-lex-jmdict-1256110-1": {
+    "senseVersion": 1,
+    "words": [
+      "丈夫",
+      "頑丈"
+    ]
+  },
+  "sense-lex-jmdict-1256300-1": {
+    "senseVersion": 1,
+    "words": [
+      "健全",
+      "元気"
+    ]
+  },
+  "sense-lex-jmdict-1256360-1": {
+    "senseVersion": 1,
+    "words": [
+      "健在",
+      "健康"
+    ]
+  },
+  "sense-lex-jmdict-1256730-1": {
+    "senseVersion": 1,
+    "words": [
+      "切符",
+      "クーポン"
+    ]
+  },
+  "sense-lex-jmdict-1257040-1": {
+    "senseVersion": 1,
+    "words": [
+      "戦い",
+      "議論"
+    ]
+  },
+  "sense-lex-jmdict-1257240-1": {
+    "senseVersion": 1,
+    "words": [
+      "嫌",
+      "好き"
+    ]
+  },
+  "sense-lex-jmdict-1257330-1": {
+    "senseVersion": 1,
+    "words": [
+      "作る",
+      "組み立てる"
+    ]
+  },
+  "sense-lex-jmdict-1257500-1": {
+    "senseVersion": 1,
+    "words": [
+      "建設",
+      "工作"
+    ]
+  },
+  "sense-lex-jmdict-1257540-1": {
+    "senseVersion": 1,
+    "words": [
+      "家",
+      "家屋"
+    ]
+  },
+  "sense-lex-jmdict-1257590-1": {
+    "senseVersion": 1,
+    "words": [
+      "法律",
+      "規約"
+    ]
+  },
+  "sense-lex-jmdict-1257690-1": {
+    "senseVersion": 1,
+    "words": [
+      "賞賛",
+      "賞"
+    ]
+  },
+  "sense-lex-jmdict-1258000-1": {
+    "senseVersion": 1,
+    "words": [
+      "考慮",
+      "審議"
+    ]
+  },
+  "sense-lex-jmdict-1258090-1": {
+    "senseVersion": 1,
+    "words": [
+      "権限",
+      "権力"
+    ]
+  },
+  "sense-lex-jmdict-1258130-1": {
+    "senseVersion": 1,
+    "words": [
+      "権威",
+      "権力"
+    ]
+  },
+  "sense-lex-jmdict-1258200-1": {
+    "senseVersion": 1,
+    "words": [
+      "義務",
+      "特権"
+    ]
+  },
+  "sense-lex-jmdict-1258500-1": {
+    "senseVersion": 1,
+    "words": [
+      "食材",
+      "メニュー"
+    ]
+  },
+  "sense-lex-jmdict-1258660-1": {
+    "senseVersion": 1,
+    "words": [
+      "研究",
+      "教育"
+    ]
+  },
+  "sense-lex-jmdict-1258710-1": {
+    "senseVersion": 1,
+    "words": [
+      "シルク",
+      "綿"
+    ]
+  },
+  "sense-lex-jmdict-1258810-1": {
+    "senseVersion": 1,
+    "words": [
+      "市",
+      "州"
+    ]
+  },
+  "sense-lex-jmdict-1259180-1": {
+    "senseVersion": 1,
+    "words": [
+      "豪華",
+      "粗末"
+    ]
+  },
+  "sense-lex-jmdict-1259250-1": {
+    "senseVersion": 1,
+    "words": [
+      "見えない",
+      "露骨"
+    ]
+  },
+  "sense-lex-jmdict-1259390-1": {
+    "senseVersion": 1,
+    "words": [
+      "説",
+      "感想"
+    ]
+  },
+  "sense-lex-jmdict-1259440-1": {
+    "senseVersion": 1,
+    "words": [
+      "見物",
+      "旅行"
+    ]
+  },
+  "sense-lex-jmdict-1259500-1": {
+    "senseVersion": 1,
+    "words": [
+      "醜い",
+      "美しい"
+    ]
+  },
+  "sense-lex-jmdict-1259570-1": {
+    "senseVersion": 1,
+    "words": [
+      "延ばす",
+      "延期する"
+    ]
+  },
+  "sense-lex-jmdict-1259620-1": {
+    "senseVersion": 1,
+    "words": [
+      "素晴らしい",
+      "上手"
+    ]
+  },
+  "sense-lex-jmdict-1259710-1": {
+    "senseVersion": 1,
+    "words": [
+      "題名",
+      "題"
+    ]
+  },
+  "sense-lex-jmdict-1259770-1": {
+    "senseVersion": 1,
+    "words": [
+      "眺め",
+      "見通し"
+    ]
+  },
+  "sense-lex-jmdict-1259820-1": {
+    "senseVersion": 1,
+    "words": [
+      "迎え",
+      "延期"
+    ]
+  },
+  "sense-lex-jmdict-1259870-1": {
+    "senseVersion": 1,
+    "words": [
+      "観点",
+      "景色"
+    ]
+  },
+  "sense-lex-jmdict-1259900-1": {
+    "senseVersion": 1,
+    "words": [
+      "繰り返す",
+      "検討"
+    ]
+  },
+  "sense-lex-jmdict-1259920-1": {
+    "senseVersion": 1,
+    "words": [
+      "巡る",
+      "見つめる"
+    ]
+  },
+  "sense-lex-jmdict-1259930-1": {
+    "senseVersion": 1,
+    "words": [
+      "心当たり",
+      "検討"
+    ]
+  },
+  "sense-lex-jmdict-1260100-1": {
+    "senseVersion": 1,
+    "words": [
+      "サンプル",
+      "本物"
+    ]
+  },
+  "sense-lex-jmdict-1260140-1": {
+    "senseVersion": 1,
+    "words": [
+      "見逃す",
+      "失う"
+    ]
+  },
+  "sense-lex-jmdict-1260190-1": {
+    "senseVersion": 1,
+    "words": [
+      "傲慢",
+      "簡素"
+    ]
+  },
+  "sense-lex-jmdict-1260240-1": {
+    "senseVersion": 1,
+    "words": [
+      "自慢",
+      "遠慮"
+    ]
+  },
+  "sense-lex-jmdict-1260260-1": {
+    "senseVersion": 1,
+    "words": [
+      "利口",
+      "賢明"
+    ]
+  },
+  "sense-lex-jmdict-1260320-1": {
+    "senseVersion": 1,
+    "words": [
+      "賢い",
+      "懸命"
+    ]
+  },
+  "sense-lex-jmdict-1260380-1": {
+    "senseVersion": 1,
+    "words": [
+      "一斉",
+      "悉く"
+    ]
+  },
+  "sense-lex-jmdict-1260490-1": {
+    "senseVersion": 1,
+    "words": [
+      "錠",
+      "手がかり"
+    ]
+  },
+  "sense-lex-jmdict-1260640-1": {
+    "senseVersion": 1,
+    "words": [
+      "著しい",
+      "重大"
+    ]
+  },
+  "sense-lex-jmdict-1260670-1": {
+    "senseVersion": 1,
+    "words": [
+      "源",
+      "起源"
+    ]
+  },
+  "sense-lex-jmdict-1260720-1": {
+    "senseVersion": 1,
+    "words": [
+      "病気",
+      "健康"
+    ]
+  },
+  "sense-lex-jmdict-1260870-1": {
+    "senseVersion": 1,
+    "words": [
+      "首相",
+      "王"
+    ]
+  },
+  "sense-lex-jmdict-1261080-1": {
+    "senseVersion": 1,
+    "words": [
+      "本来",
+      "元々"
+    ]
+  },
+  "sense-lex-jmdict-1261140-1": {
+    "senseVersion": 1,
+    "words": [
+      "畑"
+    ]
+  },
+  "sense-lex-jmdict-1261340-1": {
+    "senseVersion": 1,
+    "words": [
+      "完成品",
+      "投書"
+    ]
+  },
+  "sense-lex-jmdict-1261450-1": {
+    "senseVersion": 1,
+    "words": [
+      "脚本",
+      "創作"
+    ]
+  },
+  "sense-lex-jmdict-1261470-1": {
+    "senseVersion": 1,
+    "words": [
+      "生産",
+      "産地"
+    ]
+  },
+  "sense-lex-jmdict-1262070-1": {
+    "senseVersion": 1,
+    "words": [
+      "主義",
+      "例外"
+    ]
+  },
+  "sense-lex-jmdict-1262150-1": {
+    "senseVersion": 1,
+    "words": [
+      "原点",
+      "実物"
+    ]
+  },
+  "sense-lex-jmdict-1262160-1": {
+    "senseVersion": 1,
+    "words": [
+      "原典",
+      "原因"
+    ]
+  },
+  "sense-lex-jmdict-1262460-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "原則"
+    ]
+  },
+  "sense-lex-jmdict-1262660-1": {
+    "senseVersion": 1,
+    "words": [
+      "不注意",
+      "深刻"
+    ]
+  },
+  "sense-lex-jmdict-1262830-1": {
+    "senseVersion": 1,
+    "words": [
+      "厳しい",
+      "明確"
+    ]
+  },
+  "sense-lex-jmdict-1263360-1": {
+    "senseVersion": 1,
+    "words": [
+      "元",
+      "結果"
+    ]
+  },
+  "sense-lex-jmdict-1263400-1": {
+    "senseVersion": 1,
+    "words": [
+      "出入り口",
+      "ゲート"
+    ]
+  },
+  "sense-lex-jmdict-1263430-1": {
+    "senseVersion": 1,
+    "words": [
+      "博士",
+      "プロ"
+    ]
+  },
+  "sense-lex-jmdict-1263500-1": {
+    "senseVersion": 1,
+    "words": [
+      "実際",
+      "仮に"
+    ]
+  },
+  "sense-lex-jmdict-1263710-1": {
+    "senseVersion": 1,
+    "words": [
+      "理想",
+      "事実"
+    ]
+  },
+  "sense-lex-jmdict-1263810-1": {
+    "senseVersion": 1,
+    "words": [
+      "近代",
+      "今日"
+    ]
+  },
+  "sense-lex-jmdict-1263860-1": {
+    "senseVersion": 1,
+    "words": [
+      "現状",
+      "地元"
+    ]
+  },
+  "sense-lex-jmdict-1264080-1": {
+    "senseVersion": 1,
+    "words": [
+      "言い直す",
+      "申し出る"
+    ]
+  },
+  "sense-lex-jmdict-1264230-1": {
+    "senseVersion": 1,
+    "words": [
+      "命じる",
+      "頼む"
+    ]
+  },
+  "sense-lex-jmdict-1264420-1": {
+    "senseVersion": 1,
+    "words": [
+      "言葉",
+      "語"
+    ]
+  },
+  "sense-lex-jmdict-1264540-1": {
+    "senseVersion": 1,
+    "words": [
+      "語",
+      "言語"
+    ]
+  },
+  "sense-lex-jmdict-1264560-1": {
+    "senseVersion": 1,
+    "words": [
+      "声量",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1264580-1": {
+    "senseVersion": 1,
+    "words": [
+      "世論",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1264600-1": {
+    "senseVersion": 1,
+    "words": [
+      "格言",
+      "句"
+    ]
+  },
+  "sense-lex-jmdict-1264640-1": {
+    "senseVersion": 1,
+    "words": [
+      "制限",
+      "限界"
+    ]
+  },
+  "sense-lex-jmdict-1264650-1": {
+    "senseVersion": 1,
+    "words": [
+      "限度",
+      "制限"
+    ]
+  },
+  "sense-lex-jmdict-1264670-1": {
+    "senseVersion": 1,
+    "words": [
+      "拡大",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1264690-1": {
+    "senseVersion": 1,
+    "words": [
+      "限界",
+      "範囲"
+    ]
+  },
+  "sense-lex-jmdict-1264960-1": {
+    "senseVersion": 1,
+    "words": [
+      "共通点",
+      "性格"
+    ]
+  },
+  "sense-lex-jmdict-1265000-1": {
+    "senseVersion": 1,
+    "words": [
+      "一括",
+      "個人"
+    ]
+  },
+  "sense-lex-jmdict-1265070-1": {
+    "senseVersion": 1,
+    "words": [
+      "久しい",
+      "新しい"
+    ]
+  },
+  "sense-lex-jmdict-1265860-1": {
+    "senseVersion": 1,
+    "words": [
+      "新作",
+      "クラシック"
+    ]
+  },
+  "sense-lex-jmdict-1266330-1": {
+    "senseVersion": 1,
+    "words": [
+      "呼び出す",
+      "止まる"
+    ]
+  },
+  "sense-lex-jmdict-1266350-1": {
+    "senseVersion": 1,
+    "words": [
+      "送り出す",
+      "呼ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1266550-1": {
+    "senseVersion": 1,
+    "words": [
+      "溶ける",
+      "凍る"
+    ]
+  },
+  "sense-lex-jmdict-1266570-1": {
+    "senseVersion": 1,
+    "words": [
+      "固まる",
+      "強める"
+    ]
+  },
+  "sense-lex-jmdict-1266730-1": {
+    "senseVersion": 1,
+    "words": [
+      "独自",
+      "特有"
+    ]
+  },
+  "sense-lex-jmdict-1266860-1": {
+    "senseVersion": 1,
+    "words": [
+      "独立",
+      "一人"
+    ]
+  },
+  "sense-lex-jmdict-1266970-1": {
+    "senseVersion": 1,
+    "words": [
+      "ドア",
+      "玄関"
+    ]
+  },
+  "sense-lex-jmdict-1267050-1": {
+    "senseVersion": 1,
+    "words": [
+      "棚",
+      "ロッカー"
+    ]
+  },
+  "sense-lex-jmdict-1267740-1": {
+    "senseVersion": 1,
+    "words": [
+      "自慢",
+      "名誉"
+    ]
+  },
+  "sense-lex-jmdict-1267820-1": {
+    "senseVersion": 1,
+    "words": [
+      "強調",
+      "脚色"
+    ]
+  },
+  "sense-lex-jmdict-1267860-1": {
+    "senseVersion": 1,
+    "words": [
+      "採用",
+      "雇う"
+    ]
+  },
+  "sense-lex-jmdict-1267870-1": {
+    "senseVersion": 1,
+    "words": [
+      "振り向く",
+      "思う"
+    ]
+  },
+  "sense-lex-jmdict-1268770-1": {
+    "senseVersion": 1,
+    "words": [
+      "相互",
+      "お互い"
+    ]
+  },
+  "sense-lex-jmdict-1269290-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕事",
+      "楽しみ"
+    ]
+  },
+  "sense-lex-jmdict-1269320-1": {
+    "senseVersion": 1,
+    "words": [
+      "前",
+      "末"
+    ]
+  },
+  "sense-lex-jmdict-1269880-1": {
+    "senseVersion": 1,
+    "words": [
+      "後悔",
+      "不況"
+    ]
+  },
+  "sense-lex-jmdict-1270810-1": {
+    "senseVersion": 1,
+    "words": [
+      "礼",
+      "感謝"
+    ]
+  },
+  "sense-lex-jmdict-1270850-1": {
+    "senseVersion": 1,
+    "words": [
+      "気づく",
+      "察する"
+    ]
+  },
+  "sense-lex-jmdict-1270910-1": {
+    "senseVersion": 1,
+    "words": [
+      "言葉",
+      "言語"
+    ]
+  },
+  "sense-lex-jmdict-1271060-1": {
+    "senseVersion": 1,
+    "words": [
+      "文章",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1271260-1": {
+    "senseVersion": 1,
+    "words": [
+      "単語",
+      "用語"
+    ]
+  },
+  "sense-lex-jmdict-1271290-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違い",
+      "罪"
+    ]
+  },
+  "sense-lex-jmdict-1271310-1": {
+    "senseVersion": 1,
+    "words": [
+      "勘違い",
+      "錯覚"
+    ]
+  },
+  "sense-lex-jmdict-1271320-1": {
+    "senseVersion": 1,
+    "words": [
+      "誤解",
+      "違い"
+    ]
+  },
+  "sense-lex-jmdict-1271480-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違える",
+      "詐欺"
+    ]
+  },
+  "sense-lex-jmdict-1271510-1": {
+    "senseVersion": 1,
+    "words": [
+      "案内",
+      "警備"
+    ]
+  },
+  "sense-lex-jmdict-1271660-1": {
+    "senseVersion": 1,
+    "words": [
+      "添える",
+      "交わる"
+    ]
+  },
+  "sense-lex-jmdict-1271700-1": {
+    "senseVersion": 1,
+    "words": [
+      "交える",
+      "合う"
+    ]
+  },
+  "sense-lex-jmdict-1271710-1": {
+    "senseVersion": 1,
+    "words": [
+      "交流",
+      "貿易"
+    ]
+  },
+  "sense-lex-jmdict-1271750-1": {
+    "senseVersion": 1,
+    "words": [
+      "変更",
+      "交流"
+    ]
+  },
+  "sense-lex-jmdict-1271970-1": {
+    "senseVersion": 1,
+    "words": [
+      "並行",
+      "横断"
+    ]
+  },
+  "sense-lex-jmdict-1271990-1": {
+    "senseVersion": 1,
+    "words": [
+      "付き合い",
+      "交流"
+    ]
+  },
+  "sense-lex-jmdict-1272110-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "会談"
+    ]
+  },
+  "sense-lex-jmdict-1272280-1": {
+    "senseVersion": 1,
+    "words": [
+      "運輸",
+      "旅行"
+    ]
+  },
+  "sense-lex-jmdict-1272320-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗り物",
+      "交通費"
+    ]
+  },
+  "sense-lex-jmdict-1272520-1": {
+    "senseVersion": 1,
+    "words": [
+      "提出",
+      "配達"
+    ]
+  },
+  "sense-lex-jmdict-1272950-1": {
+    "senseVersion": 1,
+    "words": [
+      "場面",
+      "景色"
+    ]
+  },
+  "sense-lex-jmdict-1273050-1": {
+    "senseVersion": 1,
+    "words": [
+      "艶",
+      "光熱費"
+    ]
+  },
+  "sense-lex-jmdict-1273170-1": {
+    "senseVersion": 1,
+    "words": [
+      "公開",
+      "私"
+    ]
+  },
+  "sense-lex-jmdict-1273370-1": {
+    "senseVersion": 1,
+    "words": [
+      "公",
+      "公演"
+    ]
+  },
+  "sense-lex-jmdict-1273420-1": {
+    "senseVersion": 1,
+    "words": [
+      "災害",
+      "汚染"
+    ]
+  },
+  "sense-lex-jmdict-1273510-1": {
+    "senseVersion": 1,
+    "words": [
+      "個人",
+      "公立"
+    ]
+  },
+  "sense-lex-jmdict-1273820-1": {
+    "senseVersion": 1,
+    "words": [
+      "非公式",
+      "正式"
+    ]
+  },
+  "sense-lex-jmdict-1273900-1": {
+    "senseVersion": 1,
+    "words": [
+      "個人",
+      "世間"
+    ]
+  },
+  "sense-lex-jmdict-1274120-1": {
+    "senseVersion": 1,
+    "words": [
+      "公平",
+      "不公平"
+    ]
+  },
+  "sense-lex-jmdict-1274190-1": {
+    "senseVersion": 1,
+    "words": [
+      "密かに",
+      "公共"
+    ]
+  },
+  "sense-lex-jmdict-1274450-1": {
+    "senseVersion": 1,
+    "words": [
+      "黙認",
+      "許可"
+    ]
+  },
+  "sense-lex-jmdict-1274550-1": {
+    "senseVersion": 1,
+    "words": [
+      "発表",
+      "声明"
+    ]
+  },
+  "sense-lex-jmdict-1274640-1": {
+    "senseVersion": 1,
+    "words": [
+      "公正",
+      "平等"
+    ]
+  },
+  "sense-lex-jmdict-1275000-1": {
+    "senseVersion": 1,
+    "words": [
+      "私立",
+      "公共"
+    ]
+  },
+  "sense-lex-jmdict-1275070-1": {
+    "senseVersion": 1,
+    "words": [
+      "業績",
+      "失敗"
+    ]
+  },
+  "sense-lex-jmdict-1275210-1": {
+    "senseVersion": 1,
+    "words": [
+      "効果",
+      "性能"
+    ]
+  },
+  "sense-lex-jmdict-1275250-1": {
+    "senseVersion": 1,
+    "words": [
+      "期限",
+      "影響"
+    ]
+  },
+  "sense-lex-jmdict-1275330-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠慮深い",
+      "生意気"
+    ]
+  },
+  "sense-lex-jmdict-1276220-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "弁解"
+    ]
+  },
+  "sense-lex-jmdict-1277140-1": {
+    "senseVersion": 1,
+    "words": [
+      "こちら",
+      "向かい"
+    ]
+  },
+  "sense-lex-jmdict-1277250-1": {
+    "senseVersion": 1,
+    "words": [
+      "上昇",
+      "改善"
+    ]
+  },
+  "sense-lex-jmdict-1277440-1": {
+    "senseVersion": 1,
+    "words": [
+      "ルーズ",
+      "適切"
+    ]
+  },
+  "sense-lex-jmdict-1277450-1": {
+    "senseVersion": 1,
+    "words": [
+      "好む",
+      "嫌い"
+    ]
+  },
+  "sense-lex-jmdict-1277460-1": {
+    "senseVersion": 1,
+    "words": [
+      "優劣",
+      "趣味"
+    ]
+  },
+  "sense-lex-jmdict-1277490-1": {
+    "senseVersion": 1,
+    "words": [
+      "好き",
+      "結構"
+    ]
+  },
+  "sense-lex-jmdict-1277500-1": {
+    "senseVersion": 1,
+    "words": [
+      "嗜好",
+      "趣味"
+    ]
+  },
+  "sense-lex-jmdict-1277530-1": {
+    "senseVersion": 1,
+    "words": [
+      "行為",
+      "愛"
+    ]
+  },
+  "sense-lex-jmdict-1277620-1": {
+    "senseVersion": 1,
+    "words": [
+      "不況",
+      "景気"
+    ]
+  },
+  "sense-lex-jmdict-1277730-1": {
+    "senseVersion": 1,
+    "words": [
+      "好評",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1277780-1": {
+    "senseVersion": 1,
+    "words": [
+      "好調",
+      "人気"
+    ]
+  },
+  "sense-lex-jmdict-1278100-1": {
+    "senseVersion": 1,
+    "words": [
+      "耕作",
+      "建設"
+    ]
+  },
+  "sense-lex-jmdict-1278290-1": {
+    "senseVersion": 1,
+    "words": [
+      "上手",
+      "巧妙"
+    ]
+  },
+  "sense-lex-jmdict-1278340-1": {
+    "senseVersion": 1,
+    "words": [
+      "巧み",
+      "単純"
+    ]
+  },
+  "sense-lex-jmdict-1278400-1": {
+    "senseVersion": 1,
+    "words": [
+      "幸運",
+      "楽しみ"
+    ]
+  },
+  "sense-lex-jmdict-1278410-1": {
+    "senseVersion": 1,
+    "words": [
+      "狭い",
+      "大きい"
+    ]
+  },
+  "sense-lex-jmdict-1278450-1": {
+    "senseVersion": 1,
+    "words": [
+      "広める",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1278460-1": {
+    "senseVersion": 1,
+    "words": [
+      "広がる",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1278810-1": {
+    "senseVersion": 1,
+    "words": [
+      "忙しい",
+      "迅速"
+    ]
+  },
+  "sense-lex-jmdict-1278860-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦情",
+      "講義"
+    ]
+  },
+  "sense-lex-jmdict-1278950-1": {
+    "senseVersion": 1,
+    "words": [
+      "対立",
+      "交流"
+    ]
+  },
+  "sense-lex-jmdict-1279000-1": {
+    "senseVersion": 1,
+    "words": [
+      "解放",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1279060-1": {
+    "senseVersion": 1,
+    "words": [
+      "慎む",
+      "縮める"
+    ]
+  },
+  "sense-lex-jmdict-1279080-1": {
+    "senseVersion": 1,
+    "words": [
+      "追加",
+      "差し引き"
+    ]
+  },
+  "sense-lex-jmdict-1279130-1": {
+    "senseVersion": 1,
+    "words": [
+      "守る",
+      "攻撃"
+    ]
+  },
+  "sense-lex-jmdict-1279170-1": {
+    "senseVersion": 1,
+    "words": [
+      "防御",
+      "侵略"
+    ]
+  },
+  "sense-lex-jmdict-1279290-1": {
+    "senseVersion": 1,
+    "words": [
+      "深まる",
+      "明ける"
+    ]
+  },
+  "sense-lex-jmdict-1279310-1": {
+    "senseVersion": 1,
+    "words": [
+      "一層",
+      "また"
+    ]
+  },
+  "sense-lex-jmdict-1279600-1": {
+    "senseVersion": 1,
+    "words": [
+      "グラウンド",
+      "教室"
+    ]
+  },
+  "sense-lex-jmdict-1279700-1": {
+    "senseVersion": 1,
+    "words": [
+      "用意する",
+      "構う"
+    ]
+  },
+  "sense-lex-jmdict-1279730-1": {
+    "senseVersion": 1,
+    "words": [
+      "材料",
+      "機構"
+    ]
+  },
+  "sense-lex-jmdict-1279780-1": {
+    "senseVersion": 1,
+    "words": [
+      "考え",
+      "完成"
+    ]
+  },
+  "sense-lex-jmdict-1279790-1": {
+    "senseVersion": 1,
+    "words": [
+      "機構",
+      "仕組み"
+    ]
+  },
+  "sense-lex-jmdict-1280530-1": {
+    "senseVersion": 1,
+    "words": [
+      "コイン",
+      "紙幣"
+    ]
+  },
+  "sense-lex-jmdict-1280970-1": {
+    "senseVersion": 1,
+    "words": [
+      "工作",
+      "農業"
+    ]
+  },
+  "sense-lex-jmdict-1281000-1": {
+    "senseVersion": 1,
+    "words": [
+      "意見",
+      "思考"
+    ]
+  },
+  "sense-lex-jmdict-1281170-1": {
+    "senseVersion": 1,
+    "words": [
+      "無視",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1281180-1": {
+    "senseVersion": 1,
+    "words": [
+      "否定",
+      "確認"
+    ]
+  },
+  "sense-lex-jmdict-1281270-1": {
+    "senseVersion": 1,
+    "words": [
+      "航海",
+      "飛行"
+    ]
+  },
+  "sense-lex-jmdict-1281450-1": {
+    "senseVersion": 1,
+    "words": [
+      "乱暴",
+      "雑"
+    ]
+  },
+  "sense-lex-jmdict-1281470-1": {
+    "senseVersion": 1,
+    "words": [
+      "乱暴",
+      "雑"
+    ]
+  },
+  "sense-lex-jmdict-1281620-1": {
+    "senseVersion": 1,
+    "words": [
+      "復興",
+      "衰える"
+    ]
+  },
+  "sense-lex-jmdict-1281890-1": {
+    "senseVersion": 1,
+    "words": [
+      "作法",
+      "行動"
+    ]
+  },
+  "sense-lex-jmdict-1281930-1": {
+    "senseVersion": 1,
+    "words": [
+      "催し",
+      "イベント"
+    ]
+  },
+  "sense-lex-jmdict-1282010-1": {
+    "senseVersion": 1,
+    "words": [
+      "政治",
+      "事務"
+    ]
+  },
+  "sense-lex-jmdict-1282220-1": {
+    "senseVersion": 1,
+    "words": [
+      "混雑",
+      "線"
+    ]
+  },
+  "sense-lex-jmdict-1282280-1": {
+    "senseVersion": 1,
+    "words": [
+      "インストラクター",
+      "生徒"
+    ]
+  },
+  "sense-lex-jmdict-1282410-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄与",
+      "協力"
+    ]
+  },
+  "sense-lex-jmdict-1282470-1": {
+    "senseVersion": 1,
+    "words": [
+      "販売",
+      "買う"
+    ]
+  },
+  "sense-lex-jmdict-1283000-1": {
+    "senseVersion": 1,
+    "words": [
+      "科目",
+      "事項"
+    ]
+  },
+  "sense-lex-jmdict-1283060-1": {
+    "senseVersion": 1,
+    "words": [
+      "化粧水",
+      "香り"
+    ]
+  },
+  "sense-lex-jmdict-1283190-1": {
+    "senseVersion": 1,
+    "words": [
+      "安い",
+      "高層"
+    ]
+  },
+  "sense-lex-jmdict-1283220-1": {
+    "senseVersion": 1,
+    "words": [
+      "高める",
+      "増加"
+    ]
+  },
+  "sense-lex-jmdict-1283240-1": {
+    "senseVersion": 1,
+    "words": [
+      "高まる",
+      "引き上げる"
+    ]
+  },
+  "sense-lex-jmdict-1283400-1": {
+    "senseVersion": 1,
+    "words": [
+      "安物",
+      "贅沢"
+    ]
+  },
+  "sense-lex-jmdict-1283690-1": {
+    "senseVersion": 1,
+    "words": [
+      "低層",
+      "高い"
+    ]
+  },
+  "sense-lex-jmdict-1283700-1": {
+    "senseVersion": 1,
+    "words": [
+      "低速",
+      "道路"
+    ]
+  },
+  "sense-lex-jmdict-1284550-1": {
+    "senseVersion": 1,
+    "words": [
+      "同意",
+      "賛成"
+    ]
+  },
+  "sense-lex-jmdict-1284700-1": {
+    "senseVersion": 1,
+    "words": [
+      "合意",
+      "会議"
+    ]
+  },
+  "sense-lex-jmdict-1284940-1": {
+    "senseVersion": 1,
+    "words": [
+      "混合",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1285100-1": {
+    "senseVersion": 1,
+    "words": [
+      "一致",
+      "合意"
+    ]
+  },
+  "sense-lex-jmdict-1285140-1": {
+    "senseVersion": 1,
+    "words": [
+      "単独",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1285390-1": {
+    "senseVersion": 1,
+    "words": [
+      "分岐",
+      "参加"
+    ]
+  },
+  "sense-lex-jmdict-1285520-1": {
+    "senseVersion": 1,
+    "words": [
+      "派手",
+      "贅沢"
+    ]
+  },
+  "sense-lex-jmdict-1285790-1": {
+    "senseVersion": 1,
+    "words": [
+      "回避",
+      "突破"
+    ]
+  },
+  "sense-lex-jmdict-1285990-1": {
+    "senseVersion": 1,
+    "words": [
+      "知らせる",
+      "言う"
+    ]
+  },
+  "sense-lex-jmdict-1286160-1": {
+    "senseVersion": 1,
+    "words": [
+      "大統領",
+      "王"
+    ]
+  },
+  "sense-lex-jmdict-1286170-1": {
+    "senseVersion": 1,
+    "words": [
+      "国",
+      "政府"
+    ]
+  },
+  "sense-lex-jmdict-1286240-1": {
+    "senseVersion": 1,
+    "words": [
+      "議会",
+      "会議"
+    ]
+  },
+  "sense-lex-jmdict-1286890-1": {
+    "senseVersion": 1,
+    "words": [
+      "土地",
+      "国"
+    ]
+  },
+  "sense-lex-jmdict-1287070-1": {
+    "senseVersion": 1,
+    "words": [
+      "住民",
+      "市民"
+    ]
+  },
+  "sense-lex-jmdict-1287410-1": {
+    "senseVersion": 1,
+    "words": [
+      "白",
+      "黒い"
+    ]
+  },
+  "sense-lex-jmdict-1287420-1": {
+    "senseVersion": 1,
+    "words": [
+      "黒",
+      "濃い"
+    ]
+  },
+  "sense-lex-jmdict-1288350-1": {
+    "senseVersion": 1,
+    "words": [
+      "座る",
+      "立つ"
+    ]
+  },
+  "sense-lex-jmdict-1288480-1": {
+    "senseVersion": 1,
+    "words": [
+      "やがて",
+      "一斉"
+    ]
+  },
+  "sense-lex-jmdict-1288790-1": {
+    "senseVersion": 1,
+    "words": [
+      "盛る",
+      "入れる"
+    ]
+  },
+  "sense-lex-jmdict-1288850-1": {
+    "senseVersion": 1,
+    "words": [
+      "現在",
+      "後"
+    ]
+  },
+  "sense-lex-jmdict-1288940-1": {
+    "senseVersion": 1,
+    "words": [
+      "今すぐ",
+      "すぐ"
+    ]
+  },
+  "sense-lex-jmdict-1289070-1": {
+    "senseVersion": 1,
+    "words": [
+      "今度"
+    ]
+  },
+  "sense-lex-jmdict-1289140-1": {
+    "senseVersion": 1,
+    "words": [
+      "以後",
+      "これから"
+    ]
+  },
+  "sense-lex-jmdict-1289150-1": {
+    "senseVersion": 1,
+    "words": [
+      "今から",
+      "改めて"
+    ]
+  },
+  "sense-lex-jmdict-1289370-1": {
+    "senseVersion": 1,
+    "words": [
+      "今回",
+      "また"
+    ]
+  },
+  "sense-lex-jmdict-1289470-1": {
+    "senseVersion": 1,
+    "words": [
+      "今夜",
+      "今朝"
+    ]
+  },
+  "sense-lex-jmdict-1289520-1": {
+    "senseVersion": 1,
+    "words": [
+      "今晩",
+      "昨夜"
+    ]
+  },
+  "sense-lex-jmdict-1289620-1": {
+    "senseVersion": 1,
+    "words": [
+      "難しい",
+      "困る"
+    ]
+  },
+  "sense-lex-jmdict-1289980-1": {
+    "senseVersion": 1,
+    "words": [
+      "虫"
+    ]
+  },
+  "sense-lex-jmdict-1290110-1": {
+    "senseVersion": 1,
+    "words": [
+      "元気",
+      "継続"
+    ]
+  },
+  "sense-lex-jmdict-1290120-1": {
+    "senseVersion": 1,
+    "words": [
+      "理由",
+      "基準"
+    ]
+  },
+  "sense-lex-jmdict-1290260-1": {
+    "senseVersion": 1,
+    "words": [
+      "表面",
+      "基準"
+    ]
+  },
+  "sense-lex-jmdict-1290360-1": {
+    "senseVersion": 1,
+    "words": [
+      "分離",
+      "混同"
+    ]
+  },
+  "sense-lex-jmdict-1290390-1": {
+    "senseVersion": 1,
+    "words": [
+      "渋滞",
+      "混乱"
+    ]
+  },
+  "sense-lex-jmdict-1290480-1": {
+    "senseVersion": 1,
+    "words": [
+      "混雑",
+      "混乱"
+    ]
+  },
+  "sense-lex-jmdict-1290560-1": {
+    "senseVersion": 1,
+    "words": [
+      "混雑",
+      "混同"
+    ]
+  },
+  "sense-lex-jmdict-1291070-1": {
+    "senseVersion": 1,
+    "words": [
+      "違い",
+      "格差"
+    ]
+  },
+  "sense-lex-jmdict-1291090-1": {
+    "senseVersion": 1,
+    "words": [
+      "合計",
+      "残り"
+    ]
+  },
+  "sense-lex-jmdict-1291140-1": {
+    "senseVersion": 1,
+    "words": [
+      "近寄る",
+      "通り過ぎる"
+    ]
+  },
+  "sense-lex-jmdict-1291180-1": {
+    "senseVersion": 1,
+    "words": [
+      "邪魔する",
+      "阻む"
+    ]
+  },
+  "sense-lex-jmdict-1291230-1": {
+    "senseVersion": 1,
+    "words": [
+      "出す",
+      "差し込む"
+    ]
+  },
+  "sense-lex-jmdict-1291340-1": {
+    "senseVersion": 1,
+    "words": [
+      "違い",
+      "差"
+    ]
+  },
+  "sense-lex-jmdict-1291370-1": {
+    "senseVersion": 1,
+    "words": [
+      "差異",
+      "違い"
+    ]
+  },
+  "sense-lex-jmdict-1291410-1": {
+    "senseVersion": 1,
+    "words": [
+      "区別",
+      "違い"
+    ]
+  },
+  "sense-lex-jmdict-1291690-1": {
+    "senseVersion": 1,
+    "words": [
+      "冗談",
+      "不正"
+    ]
+  },
+  "sense-lex-jmdict-1291880-1": {
+    "senseVersion": 1,
+    "words": [
+      "席",
+      "椅子"
+    ]
+  },
+  "sense-lex-jmdict-1292140-1": {
+    "senseVersion": 1,
+    "words": [
+      "会合",
+      "集会"
+    ]
+  },
+  "sense-lex-jmdict-1292160-1": {
+    "senseVersion": 1,
+    "words": [
+      "集まる",
+      "開く（ひらく）"
+    ]
+  },
+  "sense-lex-jmdict-1292200-1": {
+    "senseVersion": 1,
+    "words": [
+      "催し",
+      "要求"
+    ]
+  },
+  "sense-lex-jmdict-1292300-1": {
+    "senseVersion": 1,
+    "words": [
+      "また",
+      "改めて"
+    ]
+  },
+  "sense-lex-jmdict-1292590-1": {
+    "senseVersion": 1,
+    "words": [
+      "復興",
+      "新設"
+    ]
+  },
+  "sense-lex-jmdict-1292640-1": {
+    "senseVersion": 1,
+    "words": [
+      "再発",
+      "復興"
+    ]
+  },
+  "sense-lex-jmdict-1292760-1": {
+    "senseVersion": 1,
+    "words": [
+      "頻りに",
+      "一度"
+    ]
+  },
+  "sense-lex-jmdict-1292960-1": {
+    "senseVersion": 1,
+    "words": [
+      "録音",
+      "回復"
+    ]
+  },
+  "sense-lex-jmdict-1293700-1": {
+    "senseVersion": 1,
+    "words": [
+      "一番",
+      "最高"
+    ]
+  },
+  "sense-lex-jmdict-1293780-1": {
+    "senseVersion": 1,
+    "words": [
+      "近頃",
+      "今度"
+    ]
+  },
+  "sense-lex-jmdict-1293810-1": {
+    "senseVersion": 1,
+    "words": [
+      "最初",
+      "最終"
+    ]
+  },
+  "sense-lex-jmdict-1293850-1": {
+    "senseVersion": 1,
+    "words": [
+      "最も",
+      "最上"
+    ]
+  },
+  "sense-lex-jmdict-1293990-1": {
+    "senseVersion": 1,
+    "words": [
+      "最後",
+      "開始"
+    ]
+  },
+  "sense-lex-jmdict-1294170-1": {
+    "senseVersion": 1,
+    "words": [
+      "まだ",
+      "既に"
+    ]
+  },
+  "sense-lex-jmdict-1294220-1": {
+    "senseVersion": 1,
+    "words": [
+      "最小",
+      "嫌"
+    ]
+  },
+  "sense-lex-jmdict-1294630-1": {
+    "senseVersion": 1,
+    "words": [
+      "努力",
+      "実力"
+    ]
+  },
+  "sense-lex-jmdict-1294760-1": {
+    "senseVersion": 1,
+    "words": [
+      "採択",
+      "決議"
+    ]
+  },
+  "sense-lex-jmdict-1294780-1": {
+    "senseVersion": 1,
+    "words": [
+      "収支",
+      "予算"
+    ]
+  },
+  "sense-lex-jmdict-1294810-1": {
+    "senseVersion": 1,
+    "words": [
+      "採掘",
+      "収集"
+    ]
+  },
+  "sense-lex-jmdict-1294830-1": {
+    "senseVersion": 1,
+    "words": [
+      "採決",
+      "採用"
+    ]
+  },
+  "sense-lex-jmdict-1294890-1": {
+    "senseVersion": 1,
+    "words": [
+      "採択",
+      "雇用"
+    ]
+  },
+  "sense-lex-jmdict-1294910-1": {
+    "senseVersion": 1,
+    "words": [
+      "飼育",
+      "耕作"
+    ]
+  },
+  "sense-lex-jmdict-1295030-1": {
+    "senseVersion": 1,
+    "words": [
+      "済む",
+      "終える"
+    ]
+  },
+  "sense-lex-jmdict-1295100-1": {
+    "senseVersion": 1,
+    "words": [
+      "事故",
+      "悲劇"
+    ]
+  },
+  "sense-lex-jmdict-1295110-1": {
+    "senseVersion": 1,
+    "words": [
+      "幸運",
+      "災害"
+    ]
+  },
+  "sense-lex-jmdict-1295170-1": {
+    "senseVersion": 1,
+    "words": [
+      "砕ける",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-lex-jmdict-1295190-1": {
+    "senseVersion": 1,
+    "words": [
+      "砕く",
+      "崩れる"
+    ]
+  },
+  "sense-lex-jmdict-1295610-1": {
+    "senseVersion": 1,
+    "words": [
+      "加工",
+      "制作"
+    ]
+  },
+  "sense-lex-jmdict-1296120-1": {
+    "senseVersion": 1,
+    "words": [
+      "判決"
+    ]
+  },
+  "sense-lex-jmdict-1296300-1": {
+    "senseVersion": 1,
+    "words": [
+      "場合",
+      "ケース"
+    ]
+  },
+  "sense-lex-jmdict-1296470-1": {
+    "senseVersion": 1,
+    "words": [
+      "在籍",
+      "商品"
+    ]
+  },
+  "sense-lex-jmdict-1296660-1": {
+    "senseVersion": 1,
+    "words": [
+      "立ち木",
+      "木"
+    ]
+  },
+  "sense-lex-jmdict-1296680-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違い",
+      "誤り"
+    ]
+  },
+  "sense-lex-jmdict-1296810-1": {
+    "senseVersion": 1,
+    "words": [
+      "財産",
+      "資源"
+    ]
+  },
+  "sense-lex-jmdict-1296820-1": {
+    "senseVersion": 1,
+    "words": [
+      "収入",
+      "資産"
+    ]
+  },
+  "sense-lex-jmdict-1296970-1": {
+    "senseVersion": 1,
+    "words": [
+      "かばん",
+      "ハンドバッグ"
+    ]
+  },
+  "sense-lex-jmdict-1297050-1": {
+    "senseVersion": 1,
+    "words": [
+      "澄む",
+      "眠くなる"
+    ]
+  },
+  "sense-lex-jmdict-1297110-1": {
+    "senseVersion": 1,
+    "words": [
+      "道",
+      "山"
+    ]
+  },
+  "sense-lex-jmdict-1297250-1": {
+    "senseVersion": 1,
+    "words": [
+      "機構",
+      "構造"
+    ]
+  },
+  "sense-lex-jmdict-1297510-1": {
+    "senseVersion": 1,
+    "words": [
+      "作者",
+      "画家"
+    ]
+  },
+  "sense-lex-jmdict-1297710-1": {
+    "senseVersion": 1,
+    "words": [
+      "作家",
+      "読者"
+    ]
+  },
+  "sense-lex-jmdict-1297760-1": {
+    "senseVersion": 1,
+    "words": [
+      "作製",
+      "形成"
+    ]
+  },
+  "sense-lex-jmdict-1297800-1": {
+    "senseVersion": 1,
+    "words": [
+      "戦争",
+      "対策"
+    ]
+  },
+  "sense-lex-jmdict-1297910-1": {
+    "senseVersion": 1,
+    "words": [
+      "商品",
+      "演出"
+    ]
+  },
+  "sense-lex-jmdict-1297960-1": {
+    "senseVersion": 1,
+    "words": [
+      "手紙",
+      "文章"
+    ]
+  },
+  "sense-lex-jmdict-1297980-1": {
+    "senseVersion": 1,
+    "words": [
+      "行儀",
+      "礼儀"
+    ]
+  },
+  "sense-lex-jmdict-1298000-1": {
+    "senseVersion": 1,
+    "words": [
+      "働き",
+      "作業"
+    ]
+  },
+  "sense-lex-jmdict-1298110-1": {
+    "senseVersion": 1,
+    "words": [
+      "カット",
+      "削除"
+    ]
+  },
+  "sense-lex-jmdict-1298120-1": {
+    "senseVersion": 1,
+    "words": [
+      "消去",
+      "カット"
+    ]
+  },
+  "sense-lex-jmdict-1298250-1": {
+    "senseVersion": 1,
+    "words": [
+      "垣根",
+      "塀"
+    ]
+  },
+  "sense-lex-jmdict-1298260-1": {
+    "senseVersion": 1,
+    "words": [
+      "方法",
+      "手段"
+    ]
+  },
+  "sense-lex-jmdict-1298400-1": {
+    "senseVersion": 1,
+    "words": [
+      "勘違い",
+      "覚悟"
+    ]
+  },
+  "sense-lex-jmdict-1298420-1": {
+    "senseVersion": 1,
+    "words": [
+      "誤り",
+      "エラー"
+    ]
+  },
+  "sense-lex-jmdict-1298740-1": {
+    "senseVersion": 1,
+    "words": [
+      "気づく",
+      "悟る"
+    ]
+  },
+  "sense-lex-jmdict-1298800-1": {
+    "senseVersion": 1,
+    "words": [
+      "上映",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1298910-1": {
+    "senseVersion": 1,
+    "words": [
+      "擦る（する）",
+      "撫でる"
+    ]
+  },
+  "sense-lex-jmdict-1298960-1": {
+    "senseVersion": 1,
+    "words": [
+      "紙幣",
+      "硬貨"
+    ]
+  },
+  "sense-lex-jmdict-1299030-1": {
+    "senseVersion": 1,
+    "words": [
+      "死ぬ",
+      "殺人"
+    ]
+  },
+  "sense-lex-jmdict-1299100-1": {
+    "senseVersion": 1,
+    "words": [
+      "傷害",
+      "殺す"
+    ]
+  },
+  "sense-lex-jmdict-1299240-1": {
+    "senseVersion": 1,
+    "words": [
+      "乱暴",
+      "粗末"
+    ]
+  },
+  "sense-lex-jmdict-1299280-1": {
+    "senseVersion": 1,
+    "words": [
+      "音楽",
+      "音"
+    ]
+  },
+  "sense-lex-jmdict-1299640-1": {
+    "senseVersion": 1,
+    "words": [
+      "腐る",
+      "錆"
+    ]
+  },
+  "sense-lex-jmdict-1299740-1": {
+    "senseVersion": 1,
+    "words": [
+      "三人",
+      "三"
+    ]
+  },
+  "sense-lex-jmdict-1302280-1": {
+    "senseVersion": 1,
+    "words": [
+      "引用",
+      "参照"
+    ]
+  },
+  "sense-lex-jmdict-1302410-1": {
+    "senseVersion": 1,
+    "words": [
+      "参加",
+      "参考"
+    ]
+  },
+  "sense-lex-jmdict-1302680-1": {
+    "senseVersion": 1,
+    "words": [
+      "丘",
+      "坂"
+    ]
+  },
+  "sense-lex-jmdict-1303280-1": {
+    "senseVersion": 1,
+    "words": [
+      "寂しい",
+      "悲惨"
+    ]
+  },
+  "sense-lex-jmdict-1303400-1": {
+    "senseVersion": 1,
+    "words": [
+      "集める",
+      "分ける"
+    ]
+  },
+  "sense-lex-jmdict-1303460-1": {
+    "senseVersion": 1,
+    "words": [
+      "散る",
+      "分ける"
+    ]
+  },
+  "sense-lex-jmdict-1303620-1": {
+    "senseVersion": 1,
+    "words": [
+      "通勤",
+      "歩く"
+    ]
+  },
+  "sense-lex-jmdict-1303650-1": {
+    "senseVersion": 1,
+    "words": [
+      "橋",
+      "橋渡し"
+    ]
+  },
+  "sense-lex-jmdict-1303810-1": {
+    "senseVersion": 1,
+    "words": [
+      "生産",
+      "算出"
+    ]
+  },
+  "sense-lex-jmdict-1303820-1": {
+    "senseVersion": 1,
+    "words": [
+      "消費地",
+      "地域"
+    ]
+  },
+  "sense-lex-jmdict-1303870-1": {
+    "senseVersion": 1,
+    "words": [
+      "原料",
+      "結果"
+    ]
+  },
+  "sense-lex-jmdict-1303930-1": {
+    "senseVersion": 1,
+    "words": [
+      "数学",
+      "計算"
+    ]
+  },
+  "sense-lex-jmdict-1304240-1": {
+    "senseVersion": 1,
+    "words": [
+      "賛成",
+      "褒める"
+    ]
+  },
+  "sense-lex-jmdict-1304480-1": {
+    "senseVersion": 1,
+    "words": [
+      "余り",
+      "残高"
+    ]
+  },
+  "sense-lex-jmdict-1304590-1": {
+    "senseVersion": 1,
+    "words": [
+      "総額",
+      "残り"
+    ]
+  },
+  "sense-lex-jmdict-1304680-1": {
+    "senseVersion": 1,
+    "words": [
+      "寂しい",
+      "悔しい"
+    ]
+  },
+  "sense-lex-jmdict-1304760-1": {
+    "senseVersion": 1,
+    "words": [
+      "使える",
+      "尽くす"
+    ]
+  },
+  "sense-lex-jmdict-1304820-1": {
+    "senseVersion": 1,
+    "words": [
+      "据える",
+      "据え付ける"
+    ]
+  },
+  "sense-lex-jmdict-1304970-1": {
+    "senseVersion": 1,
+    "words": [
+      "職業",
+      "勉強"
+    ]
+  },
+  "sense-lex-jmdict-1305120-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕上げ",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1305180-1": {
+    "senseVersion": 1,
+    "words": [
+      "区切る",
+      "仕掛ける"
+    ]
+  },
+  "sense-lex-jmdict-1305310-1": {
+    "senseVersion": 1,
+    "words": [
+      "売り出す",
+      "買う"
+    ]
+  },
+  "sense-lex-jmdict-1305500-1": {
+    "senseVersion": 1,
+    "words": [
+      "使用",
+      "指定"
+    ]
+  },
+  "sense-lex-jmdict-1305560-1": {
+    "senseVersion": 1,
+    "words": [
+      "着る",
+      "作る"
+    ]
+  },
+  "sense-lex-jmdict-1305900-1": {
+    "senseVersion": 1,
+    "words": [
+      "用途",
+      "用"
+    ]
+  },
+  "sense-lex-jmdict-1306160-1": {
+    "senseVersion": 1,
+    "words": [
+      "氏名",
+      "課題"
+    ]
+  },
+  "sense-lex-jmdict-1306200-1": {
+    "senseVersion": 1,
+    "words": [
+      "利用",
+      "使う"
+    ]
+  },
+  "sense-lex-jmdict-1306390-1": {
+    "senseVersion": 1,
+    "words": [
+      "刺す",
+      "突く"
+    ]
+  },
+  "sense-lex-jmdict-1306630-1": {
+    "senseVersion": 1,
+    "words": [
+      "任せる",
+      "支配"
+    ]
+  },
+  "sense-lex-jmdict-1306640-1": {
+    "senseVersion": 1,
+    "words": [
+      "講演",
+      "議長"
+    ]
+  },
+  "sense-lex-jmdict-1307040-1": {
+    "senseVersion": 1,
+    "words": [
+      "四人",
+      "四"
+    ]
+  },
+  "sense-lex-jmdict-1307570-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずっと",
+      "たまに"
+    ]
+  },
+  "sense-lex-jmdict-1307620-1": {
+    "senseVersion": 1,
+    "words": [
+      "処理",
+      "開始"
+    ]
+  },
+  "sense-lex-jmdict-1307710-1": {
+    "senseVersion": 1,
+    "words": [
+      "格好",
+      "形"
+    ]
+  },
+  "sense-lex-jmdict-1307770-1": {
+    "senseVersion": 1,
+    "words": [
+      "子供",
+      "大人"
+    ]
+  },
+  "sense-lex-jmdict-1307850-1": {
+    "senseVersion": 1,
+    "words": [
+      "子",
+      "お子様"
+    ]
+  },
+  "sense-lex-jmdict-1307990-1": {
+    "senseVersion": 1,
+    "words": [
+      "祖先",
+      "子"
+    ]
+  },
+  "sense-lex-jmdict-1308090-1": {
+    "senseVersion": 1,
+    "words": [
+      "市民",
+      "都市"
+    ]
+  },
+  "sense-lex-jmdict-1308190-1": {
+    "senseVersion": 1,
+    "words": [
+      "郊外",
+      "都市"
+    ]
+  },
+  "sense-lex-jmdict-1308300-1": {
+    "senseVersion": 1,
+    "words": [
+      "マーケット",
+      "店"
+    ]
+  },
+  "sense-lex-jmdict-1308690-1": {
+    "senseVersion": 1,
+    "words": [
+      "市",
+      "国民"
+    ]
+  },
+  "sense-lex-jmdict-1309050-1": {
+    "senseVersion": 1,
+    "words": [
+      "気分",
+      "意向"
+    ]
+  },
+  "sense-lex-jmdict-1309060-1": {
+    "senseVersion": 1,
+    "words": [
+      "諦める",
+      "考える"
+    ]
+  },
+  "sense-lex-jmdict-1309110-1": {
+    "senseVersion": 1,
+    "words": [
+      "思考",
+      "意向"
+    ]
+  },
+  "sense-lex-jmdict-1309140-1": {
+    "senseVersion": 1,
+    "words": [
+      "希望",
+      "要求"
+    ]
+  },
+  "sense-lex-jmdict-1309260-1": {
+    "senseVersion": 1,
+    "words": [
+      "思い出",
+      "知る"
+    ]
+  },
+  "sense-lex-jmdict-1309380-1": {
+    "senseVersion": 1,
+    "words": [
+      "発想",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1309530-1": {
+    "senseVersion": 1,
+    "words": [
+      "考え",
+      "志向"
+    ]
+  },
+  "sense-lex-jmdict-1309560-1": {
+    "senseVersion": 1,
+    "words": [
+      "感想",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1309670-1": {
+    "senseVersion": 1,
+    "words": [
+      "差す",
+      "示す"
+    ]
+  },
+  "sense-lex-jmdict-1309700-1": {
+    "senseVersion": 1,
+    "words": [
+      "命令",
+      "監督"
+    ]
+  },
+  "sense-lex-jmdict-1309800-1": {
+    "senseVersion": 1,
+    "words": [
+      "支持",
+      "指定"
+    ]
+  },
+  "sense-lex-jmdict-1309910-1": {
+    "senseVersion": 1,
+    "words": [
+      "選択",
+      "採用"
+    ]
+  },
+  "sense-lex-jmdict-1310050-1": {
+    "senseVersion": 1,
+    "words": [
+      "腕輪",
+      "輪"
+    ]
+  },
+  "sense-lex-jmdict-1310090-1": {
+    "senseVersion": 1,
+    "words": [
+      "助ける",
+      "掲げる"
+    ]
+  },
+  "sense-lex-jmdict-1310270-1": {
+    "senseVersion": 1,
+    "words": [
+      "管理",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1310300-1": {
+    "senseVersion": 1,
+    "words": [
+      "払う",
+      "賄う"
+    ]
+  },
+  "sense-lex-jmdict-1310600-1": {
+    "senseVersion": 1,
+    "words": [
+      "止める",
+      "止める（やめる）"
+    ]
+  },
+  "sense-lex-jmdict-1311060-1": {
+    "senseVersion": 1,
+    "words": [
+      "住所",
+      "名"
+    ]
+  },
+  "sense-lex-jmdict-1311420-1": {
+    "senseVersion": 1,
+    "words": [
+      "国立",
+      "民間"
+    ]
+  },
+  "sense-lex-jmdict-1311450-1": {
+    "senseVersion": 1,
+    "words": [
+      "縄",
+      "紐"
+    ]
+  },
+  "sense-lex-jmdict-1311600-1": {
+    "senseVersion": 1,
+    "words": [
+      "札",
+      "硬貨"
+    ]
+  },
+  "sense-lex-jmdict-1311870-1": {
+    "senseVersion": 1,
+    "words": [
+      "達する",
+      "及ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1311900-1": {
+    "senseVersion": 1,
+    "words": [
+      "後日",
+      "急"
+    ]
+  },
+  "sense-lex-jmdict-1312250-1": {
+    "senseVersion": 1,
+    "words": [
+      "試験",
+      "試す"
+    ]
+  },
+  "sense-lex-jmdict-1312260-1": {
+    "senseVersion": 1,
+    "words": [
+      "試みる",
+      "試し"
+    ]
+  },
+  "sense-lex-jmdict-1312420-1": {
+    "senseVersion": 1,
+    "words": [
+      "景気",
+      "競技"
+    ]
+  },
+  "sense-lex-jmdict-1312750-1": {
+    "senseVersion": 1,
+    "words": [
+      "負債",
+      "財産"
+    ]
+  },
+  "sense-lex-jmdict-1313850-1": {
+    "senseVersion": 1,
+    "words": [
+      "災害",
+      "事件"
+    ]
+  },
+  "sense-lex-jmdict-1313910-1": {
+    "senseVersion": 1,
+    "words": [
+      "事態",
+      "内容"
+    ]
+  },
+  "sense-lex-jmdict-1313960-1": {
+    "senseVersion": 1,
+    "words": [
+      "本当",
+      "意見"
+    ]
+  },
+  "sense-lex-jmdict-1314050-1": {
+    "senseVersion": 1,
+    "words": [
+      "事後",
+      "先"
+    ]
+  },
+  "sense-lex-jmdict-1314270-1": {
+    "senseVersion": 1,
+    "words": [
+      "営業",
+      "行政"
+    ]
+  },
+  "sense-lex-jmdict-1314400-1": {
+    "senseVersion": 1,
+    "words": [
+      "オフィス",
+      "会社"
+    ]
+  },
+  "sense-lex-jmdict-1315060-1": {
+    "senseVersion": 1,
+    "words": [
+      "成人",
+      "子供"
+    ]
+  },
+  "sense-lex-jmdict-1315130-1": {
+    "senseVersion": 1,
+    "words": [
+      "文",
+      "文字"
+    ]
+  },
+  "sense-lex-jmdict-1315610-1": {
+    "senseVersion": 1,
+    "words": [
+      "上げる",
+      "高める"
+    ]
+  },
+  "sense-lex-jmdict-1315790-1": {
+    "senseVersion": 1,
+    "words": [
+      "郵送",
+      "携帯"
+    ]
+  },
+  "sense-lex-jmdict-1315920-1": {
+    "senseVersion": 1,
+    "words": [
+      "時",
+      "期間"
+    ]
+  },
+  "sense-lex-jmdict-1315960-1": {
+    "senseVersion": 1,
+    "words": [
+      "時刻表",
+      "計画"
+    ]
+  },
+  "sense-lex-jmdict-1316040-1": {
+    "senseVersion": 1,
+    "words": [
+      "時代",
+      "時刻"
+    ]
+  },
+  "sense-lex-jmdict-1316220-1": {
+    "senseVersion": 1,
+    "words": [
+      "時間",
+      "時期"
+    ]
+  },
+  "sense-lex-jmdict-1316290-1": {
+    "senseVersion": 1,
+    "words": [
+      "距離",
+      "速度"
+    ]
+  },
+  "sense-lex-jmdict-1316300-1": {
+    "senseVersion": 1,
+    "words": [
+      "時期",
+      "季節"
+    ]
+  },
+  "sense-lex-jmdict-1316380-1": {
+    "senseVersion": 1,
+    "words": [
+      "順",
+      "前"
+    ]
+  },
+  "sense-lex-jmdict-1316400-1": {
+    "senseVersion": 1,
+    "words": [
+      "先立つ",
+      "続く"
+    ]
+  },
+  "sense-lex-jmdict-1316890-1": {
+    "senseVersion": 1,
+    "words": [
+      "診療",
+      "介護"
+    ]
+  },
+  "sense-lex-jmdict-1317460-1": {
+    "senseVersion": 1,
+    "words": [
+      "自己",
+      "自身"
+    ]
+  },
+  "sense-lex-jmdict-1317490-1": {
+    "senseVersion": 1,
+    "words": [
+      "無意識",
+      "意識"
+    ]
+  },
+  "sense-lex-jmdict-1317810-1": {
+    "senseVersion": 1,
+    "words": [
+      "支配",
+      "自主"
+    ]
+  },
+  "sense-lex-jmdict-1317860-1": {
+    "senseVersion": 1,
+    "words": [
+      "強制",
+      "自治"
+    ]
+  },
+  "sense-lex-jmdict-1318000-1": {
+    "senseVersion": 1,
+    "words": [
+      "身",
+      "本人"
+    ]
+  },
+  "sense-lex-jmdict-1318400-1": {
+    "senseVersion": 1,
+    "words": [
+      "車",
+      "自転車"
+    ]
+  },
+  "sense-lex-jmdict-1318680-1": {
+    "senseVersion": 1,
+    "words": [
+      "誇り"
+    ]
+  },
+  "sense-lex-jmdict-1318720-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "独立"
+    ]
+  },
+  "sense-lex-jmdict-1318880-1": {
+    "senseVersion": 1,
+    "words": [
+      "孤立",
+      "独立"
+    ]
+  },
+  "sense-lex-jmdict-1318990-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠慮",
+      "辞職"
+    ]
+  },
+  "sense-lex-jmdict-1319060-1": {
+    "senseVersion": 1,
+    "words": [
+      "儀式",
+      "会"
+    ]
+  },
+  "sense-lex-jmdict-1319210-1": {
+    "senseVersion": 1,
+    "words": [
+      "六",
+      "七つ"
+    ]
+  },
+  "sense-lex-jmdict-1319220-1": {
+    "senseVersion": 1,
+    "words": [
+      "七人",
+      "七"
+    ]
+  },
+  "sense-lex-jmdict-1319710-1": {
+    "senseVersion": 1,
+    "words": [
+      "読書",
+      "文章"
+    ]
+  },
+  "sense-lex-jmdict-1320410-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾燥",
+      "水分"
+    ]
+  },
+  "sense-lex-jmdict-1320490-1": {
+    "senseVersion": 1,
+    "words": [
+      "温度",
+      "水分"
+    ]
+  },
+  "sense-lex-jmdict-1320640-1": {
+    "senseVersion": 1,
+    "words": [
+      "品質",
+      "性質"
+    ]
+  },
+  "sense-lex-jmdict-1320760-1": {
+    "senseVersion": 1,
+    "words": [
+      "問い",
+      "答え"
+    ]
+  },
+  "sense-lex-jmdict-1320810-1": {
+    "senseVersion": 1,
+    "words": [
+      "中身",
+      "果実"
+    ]
+  },
+  "sense-lex-jmdict-1320830-1": {
+    "senseVersion": 1,
+    "words": [
+      "実際に",
+      "事実"
+    ]
+  },
+  "sense-lex-jmdict-1320950-1": {
+    "senseVersion": 1,
+    "words": [
+      "起業家",
+      "業者"
+    ]
+  },
+  "sense-lex-jmdict-1321020-1": {
+    "senseVersion": 1,
+    "words": [
+      "実行",
+      "実施"
+    ]
+  },
+  "sense-lex-jmdict-1321040-1": {
+    "senseVersion": 1,
+    "words": [
+      "実現",
+      "活動"
+    ]
+  },
+  "sense-lex-jmdict-1321110-1": {
+    "senseVersion": 1,
+    "words": [
+      "現に",
+      "理想"
+    ]
+  },
+  "sense-lex-jmdict-1321140-1": {
+    "senseVersion": 1,
+    "words": [
+      "実行",
+      "実現"
+    ]
+  },
+  "sense-lex-jmdict-1321170-1": {
+    "senseVersion": 1,
+    "words": [
+      "形式",
+      "内容"
+    ]
+  },
+  "sense-lex-jmdict-1321200-1": {
+    "senseVersion": 1,
+    "words": [
+      "演習",
+      "講義"
+    ]
+  },
+  "sense-lex-jmdict-1321240-1": {
+    "senseVersion": 1,
+    "words": [
+      "業績",
+      "目標"
+    ]
+  },
+  "sense-lex-jmdict-1321260-1": {
+    "senseVersion": 1,
+    "words": [
+      "理論",
+      "実施"
+    ]
+  },
+  "sense-lex-jmdict-1321360-1": {
+    "senseVersion": 1,
+    "words": [
+      "理想",
+      "現実"
+    ]
+  },
+  "sense-lex-jmdict-1321430-1": {
+    "senseVersion": 1,
+    "words": [
+      "模型",
+      "本物"
+    ]
+  },
+  "sense-lex-jmdict-1321480-1": {
+    "senseVersion": 1,
+    "words": [
+      "鑑賞",
+      "運用"
+    ]
+  },
+  "sense-lex-jmdict-1321560-1": {
+    "senseVersion": 1,
+    "words": [
+      "仮定",
+      "例"
+    ]
+  },
+  "sense-lex-jmdict-1321630-1": {
+    "senseVersion": 1,
+    "words": [
+      "演技",
+      "劇"
+    ]
+  },
+  "sense-lex-jmdict-1321670-1": {
+    "senseVersion": 1,
+    "words": [
+      "ストライプ",
+      "水玉"
+    ]
+  },
+  "sense-lex-jmdict-1321820-1": {
+    "senseVersion": 1,
+    "words": [
+      "写す",
+      "映る"
+    ]
+  },
+  "sense-lex-jmdict-1322170-1": {
+    "senseVersion": 1,
+    "words": [
+      "映る",
+      "照らす"
+    ]
+  },
+  "sense-lex-jmdict-1322700-1": {
+    "senseVersion": 1,
+    "words": [
+      "世の中",
+      "世間"
+    ]
+  },
+  "sense-lex-jmdict-1323120-1": {
+    "senseVersion": 1,
+    "words": [
+      "車道",
+      "小屋"
+    ]
+  },
+  "sense-lex-jmdict-1323280-1": {
+    "senseVersion": 1,
+    "words": [
+      "歯車",
+      "輪"
+    ]
+  },
+  "sense-lex-jmdict-1323500-1": {
+    "senseVersion": 1,
+    "words": [
+      "迷惑",
+      "障害"
+    ]
+  },
+  "sense-lex-jmdict-1323940-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸付",
+      "融資"
+    ]
+  },
+  "sense-lex-jmdict-1324520-1": {
+    "senseVersion": 1,
+    "words": [
+      "脆い",
+      "強い"
+    ]
+  },
+  "sense-lex-jmdict-1324870-1": {
+    "senseVersion": 1,
+    "words": [
+      "長所",
+      "傷"
+    ]
+  },
+  "sense-lex-jmdict-1324990-1": {
+    "senseVersion": 1,
+    "words": [
+      "特に",
+      "大半"
+    ]
+  },
+  "sense-lex-jmdict-1325260-1": {
+    "senseVersion": 1,
+    "words": [
+      "原則",
+      "習慣"
+    ]
+  },
+  "sense-lex-jmdict-1325450-1": {
+    "senseVersion": 1,
+    "words": [
+      "後援",
+      "開催"
+    ]
+  },
+  "sense-lex-jmdict-1325680-1": {
+    "senseVersion": 1,
+    "words": [
+      "主役",
+      "作者"
+    ]
+  },
+  "sense-lex-jmdict-1325840-1": {
+    "senseVersion": 1,
+    "words": [
+      "客体",
+      "中心"
+    ]
+  },
+  "sense-lex-jmdict-1325870-1": {
+    "senseVersion": 1,
+    "words": [
+      "題",
+      "テーマ"
+    ]
+  },
+  "sense-lex-jmdict-1325980-1": {
+    "senseVersion": 1,
+    "words": [
+      "補助",
+      "指導"
+    ]
+  },
+  "sense-lex-jmdict-1326040-1": {
+    "senseVersion": 1,
+    "words": [
+      "新人",
+      "監督"
+    ]
+  },
+  "sense-lex-jmdict-1326290-1": {
+    "senseVersion": 1,
+    "words": [
+      "主人公",
+      "脇役"
+    ]
+  },
+  "sense-lex-jmdict-1326620-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り出す",
+      "注文"
+    ]
+  },
+  "sense-lex-jmdict-1326760-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り付ける",
+      "運ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1326770-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り入れる",
+      "出す"
+    ]
+  },
+  "sense-lex-jmdict-1326780-1": {
+    "senseVersion": 1,
+    "words": [
+      "除く",
+      "取り入れる"
+    ]
+  },
+  "sense-lex-jmdict-1326800-1": {
+    "senseVersion": 1,
+    "words": [
+      "奪う",
+      "操る"
+    ]
+  },
+  "sense-lex-jmdict-1326820-1": {
+    "senseVersion": 1,
+    "words": [
+      "始める",
+      "挑む"
+    ]
+  },
+  "sense-lex-jmdict-1326830-1": {
+    "senseVersion": 1,
+    "words": [
+      "替える",
+      "変える"
+    ]
+  },
+  "sense-lex-jmdict-1326860-1": {
+    "senseVersion": 1,
+    "words": [
+      "見守る",
+      "指揮"
+    ]
+  },
+  "sense-lex-jmdict-1326880-1": {
+    "senseVersion": 1,
+    "words": [
+      "応じる",
+      "受け止める"
+    ]
+  },
+  "sense-lex-jmdict-1326940-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り出す",
+      "返す"
+    ]
+  },
+  "sense-lex-jmdict-1326960-1": {
+    "senseVersion": 1,
+    "words": [
+      "引き取る",
+      "取り上げる"
+    ]
+  },
+  "sense-lex-jmdict-1326990-1": {
+    "senseVersion": 1,
+    "words": [
+      "離れる",
+      "落ちる"
+    ]
+  },
+  "sense-lex-jmdict-1327180-1": {
+    "senseVersion": 1,
+    "words": [
+      "攻撃",
+      "警備"
+    ]
+  },
+  "sense-lex-jmdict-1327390-1": {
+    "senseVersion": 1,
+    "words": [
+      "見送る",
+      "使う"
+    ]
+  },
+  "sense-lex-jmdict-1327410-1": {
+    "senseVersion": 1,
+    "words": [
+      "労力",
+      "時間"
+    ]
+  },
+  "sense-lex-jmdict-1327530-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡単",
+      "単純"
+    ]
+  },
+  "sense-lex-jmdict-1327660-1": {
+    "senseVersion": 1,
+    "words": [
+      "適度",
+      "適する"
+    ]
+  },
+  "sense-lex-jmdict-1327690-1": {
+    "senseVersion": 1,
+    "words": [
+      "手順",
+      "技術"
+    ]
+  },
+  "sense-lex-jmdict-1327720-1": {
+    "senseVersion": 1,
+    "words": [
+      "便り",
+      "葉書"
+    ]
+  },
+  "sense-lex-jmdict-1327810-1": {
+    "senseVersion": 1,
+    "words": [
+      "手続き",
+      "順"
+    ]
+  },
+  "sense-lex-jmdict-1328170-1": {
+    "senseVersion": 1,
+    "words": [
+      "援助",
+      "世話"
+    ]
+  },
+  "sense-lex-jmdict-1328250-1": {
+    "senseVersion": 1,
+    "words": [
+      "管理",
+      "放置"
+    ]
+  },
+  "sense-lex-jmdict-1328260-1": {
+    "senseVersion": 1,
+    "words": [
+      "準備",
+      "用意"
+    ]
+  },
+  "sense-lex-jmdict-1328380-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕方",
+      "目的"
+    ]
+  },
+  "sense-lex-jmdict-1328820-1": {
+    "senseVersion": 1,
+    "words": [
+      "実",
+      "原因"
+    ]
+  },
+  "sense-lex-jmdict-1328890-1": {
+    "senseVersion": 1,
+    "words": [
+      "数",
+      "項目"
+    ]
+  },
+  "sense-lex-jmdict-1328990-1": {
+    "senseVersion": 1,
+    "words": [
+      "要旨",
+      "趣味"
+    ]
+  },
+  "sense-lex-jmdict-1329300-1": {
+    "senseVersion": 1,
+    "words": [
+      "大統領",
+      "総理大臣"
+    ]
+  },
+  "sense-lex-jmdict-1329360-1": {
+    "senseVersion": 1,
+    "words": [
+      "首相",
+      "代表"
+    ]
+  },
+  "sense-lex-jmdict-1329600-1": {
+    "senseVersion": 1,
+    "words": [
+      "受け取る",
+      "引き受ける"
+    ]
+  },
+  "sense-lex-jmdict-1329630-1": {
+    "senseVersion": 1,
+    "words": [
+      "応じる",
+      "受け付ける"
+    ]
+  },
+  "sense-lex-jmdict-1329640-1": {
+    "senseVersion": 1,
+    "words": [
+      "担う",
+      "任せる"
+    ]
+  },
+  "sense-lex-jmdict-1329690-1": {
+    "senseVersion": 1,
+    "words": [
+      "応じる",
+      "受け止める"
+    ]
+  },
+  "sense-lex-jmdict-1329770-1": {
+    "senseVersion": 1,
+    "words": [
+      "発送",
+      "受付"
+    ]
+  },
+  "sense-lex-jmdict-1330240-1": {
+    "senseVersion": 1,
+    "words": [
+      "年齢",
+      "生命"
+    ]
+  },
+  "sense-lex-jmdict-1330280-1": {
+    "senseVersion": 1,
+    "words": [
+      "贈る",
+      "授かる"
+    ]
+  },
+  "sense-lex-jmdict-1330400-1": {
+    "senseVersion": 1,
+    "words": [
+      "木",
+      "草花"
+    ]
+  },
+  "sense-lex-jmdict-1330410-1": {
+    "senseVersion": 1,
+    "words": [
+      "設立",
+      "成立"
+    ]
+  },
+  "sense-lex-jmdict-1330450-1": {
+    "senseVersion": 1,
+    "words": [
+      "供給",
+      "必要"
+    ]
+  },
+  "sense-lex-jmdict-1330500-1": {
+    "senseVersion": 1,
+    "words": [
+      "利益",
+      "費用"
+    ]
+  },
+  "sense-lex-jmdict-1330510-1": {
+    "senseVersion": 1,
+    "words": [
+      "収入",
+      "結果"
+    ]
+  },
+  "sense-lex-jmdict-1330640-1": {
+    "senseVersion": 1,
+    "words": [
+      "採算",
+      "収入"
+    ]
+  },
+  "sense-lex-jmdict-1330790-1": {
+    "senseVersion": 1,
+    "words": [
+      "収益",
+      "所得"
+    ]
+  },
+  "sense-lex-jmdict-1331030-1": {
+    "senseVersion": 1,
+    "words": [
+      "周り",
+      "内部"
+    ]
+  },
+  "sense-lex-jmdict-1331300-1": {
+    "senseVersion": 1,
+    "words": [
+      "周り",
+      "辺"
+    ]
+  },
+  "sense-lex-jmdict-1331400-1": {
+    "senseVersion": 1,
+    "words": [
+      "信仰"
+    ]
+  },
+  "sense-lex-jmdict-1331530-1": {
+    "senseVersion": 1,
+    "words": [
+      "携わる",
+      "着く"
+    ]
+  },
+  "sense-lex-jmdict-1331590-1": {
+    "senseVersion": 1,
+    "words": [
+      "就職",
+      "作業"
+    ]
+  },
+  "sense-lex-jmdict-1331780-1": {
+    "senseVersion": 1,
+    "words": [
+      "辞任",
+      "発足"
+    ]
+  },
+  "sense-lex-jmdict-1331840-1": {
+    "senseVersion": 1,
+    "words": [
+      "県",
+      "国"
+    ]
+  },
+  "sense-lex-jmdict-1332130-1": {
+    "senseVersion": 1,
+    "words": [
+      "変更",
+      "改正"
+    ]
+  },
+  "sense-lex-jmdict-1332170-1": {
+    "senseVersion": 1,
+    "words": [
+      "改修",
+      "交換"
+    ]
+  },
+  "sense-lex-jmdict-1332450-1": {
+    "senseVersion": 1,
+    "words": [
+      "終了",
+      "卒業"
+    ]
+  },
+  "sense-lex-jmdict-1333040-1": {
+    "senseVersion": 1,
+    "words": [
+      "開始",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1333090-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定",
+      "伝統"
+    ]
+  },
+  "sense-lex-jmdict-1333150-1": {
+    "senseVersion": 1,
+    "words": [
+      "匂い",
+      "生臭い"
+    ]
+  },
+  "sense-lex-jmdict-1333330-1": {
+    "senseVersion": 1,
+    "words": [
+      "訪れる",
+      "攻撃"
+    ]
+  },
+  "sense-lex-jmdict-1333600-1": {
+    "senseVersion": 1,
+    "words": [
+      "会合",
+      "集まり"
+    ]
+  },
+  "sense-lex-jmdict-1333640-1": {
+    "senseVersion": 1,
+    "words": [
+      "計算",
+      "一括"
+    ]
+  },
+  "sense-lex-jmdict-1333730-1": {
+    "senseVersion": 1,
+    "words": [
+      "グループ",
+      "個人"
+    ]
+  },
+  "sense-lex-jmdict-1333810-1": {
+    "senseVersion": 1,
+    "words": [
+      "見苦しい",
+      "美しい"
+    ]
+  },
+  "sense-lex-jmdict-1334150-1": {
+    "senseVersion": 1,
+    "words": [
+      "家",
+      "建物"
+    ]
+  },
+  "sense-lex-jmdict-1334210-1": {
+    "senseVersion": 1,
+    "words": [
+      "国民",
+      "市民"
+    ]
+  },
+  "sense-lex-jmdict-1334340-1": {
+    "senseVersion": 1,
+    "words": [
+      "空虚",
+      "強化"
+    ]
+  },
+  "sense-lex-jmdict-1335080-1": {
+    "senseVersion": 1,
+    "words": [
+      "豊か",
+      "結構"
+    ]
+  },
+  "sense-lex-jmdict-1335480-1": {
+    "senseVersion": 1,
+    "words": [
+      "曖昧",
+      "滑らか"
+    ]
+  },
+  "sense-lex-jmdict-1335640-1": {
+    "senseVersion": 1,
+    "words": [
+      "横",
+      "垂直"
+    ]
+  },
+  "sense-lex-jmdict-1335940-1": {
+    "senseVersion": 1,
+    "words": [
+      "軽んじる",
+      "尊重"
+    ]
+  },
+  "sense-lex-jmdict-1336500-1": {
+    "senseVersion": 1,
+    "words": [
+      "重要",
+      "深刻"
+    ]
+  },
+  "sense-lex-jmdict-1336570-1": {
+    "senseVersion": 1,
+    "words": [
+      "全体",
+      "強調"
+    ]
+  },
+  "sense-lex-jmdict-1336820-1": {
+    "senseVersion": 1,
+    "words": [
+      "大切",
+      "必要"
+    ]
+  },
+  "sense-lex-jmdict-1337190-1": {
+    "senseVersion": 1,
+    "words": [
+      "家",
+      "家庭"
+    ]
+  },
+  "sense-lex-jmdict-1337300-1": {
+    "senseVersion": 1,
+    "words": [
+      "滞在",
+      "宿"
+    ]
+  },
+  "sense-lex-jmdict-1337370-1": {
+    "senseVersion": 1,
+    "words": [
+      "祭り",
+      "記念"
+    ]
+  },
+  "sense-lex-jmdict-1338400-1": {
+    "senseVersion": 1,
+    "words": [
+      "別れ",
+      "出会う"
+    ]
+  },
+  "sense-lex-jmdict-1338600-1": {
+    "senseVersion": 1,
+    "words": [
+      "出社",
+      "退勤"
+    ]
+  },
+  "sense-lex-jmdict-1338720-1": {
+    "senseVersion": 1,
+    "words": [
+      "見送る",
+      "迎える"
+    ]
+  },
+  "sense-lex-jmdict-1339010-1": {
+    "senseVersion": 1,
+    "words": [
+      "妊娠",
+      "誕生"
+    ]
+  },
+  "sense-lex-jmdict-1339150-1": {
+    "senseVersion": 1,
+    "words": [
+      "出勤",
+      "退社"
+    ]
+  },
+  "sense-lex-jmdict-1339460-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠席",
+      "出勤"
+    ]
+  },
+  "sense-lex-jmdict-1340000-1": {
+    "senseVersion": 1,
+    "words": [
+      "到着",
+      "外出"
+    ]
+  },
+  "sense-lex-jmdict-1340030-1": {
+    "senseVersion": 1,
+    "words": [
+      "発行",
+      "公開"
+    ]
+  },
+  "sense-lex-jmdict-1340180-1": {
+    "senseVersion": 1,
+    "words": [
+      "支出",
+      "収入"
+    ]
+  },
+  "sense-lex-jmdict-1340570-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定",
+      "事件"
+    ]
+  },
+  "sense-lex-jmdict-1340600-1": {
+    "senseVersion": 1,
+    "words": [
+      "完成",
+      "材料"
+    ]
+  },
+  "sense-lex-jmdict-1341210-1": {
+    "senseVersion": 1,
+    "words": [
+      "一瞬",
+      "期間"
+    ]
+  },
+  "sense-lex-jmdict-1341340-1": {
+    "senseVersion": 1,
+    "words": [
+      "サイクル",
+      "移動"
+    ]
+  },
+  "sense-lex-jmdict-1341510-1": {
+    "senseVersion": 1,
+    "words": [
+      "従う",
+      "守る"
+    ]
+  },
+  "sense-lex-jmdict-1341670-1": {
+    "senseVersion": 1,
+    "words": [
+      "用意",
+      "手配"
+    ]
+  },
+  "sense-lex-jmdict-1341790-1": {
+    "senseVersion": 1,
+    "words": [
+      "潤す",
+      "儲ける"
+    ]
+  },
+  "sense-lex-jmdict-1341910-1": {
+    "senseVersion": 1,
+    "words": [
+      "純粋",
+      "計算高い"
+    ]
+  },
+  "sense-lex-jmdict-1341930-1": {
+    "senseVersion": 1,
+    "words": [
+      "純情",
+      "複雑"
+    ]
+  },
+  "sense-lex-jmdict-1342050-1": {
+    "senseVersion": 1,
+    "words": [
+      "見渡す",
+      "留まる"
+    ]
+  },
+  "sense-lex-jmdict-1342220-1": {
+    "senseVersion": 1,
+    "words": [
+      "手順",
+      "順序"
+    ]
+  },
+  "sense-lex-jmdict-1342340-1": {
+    "senseVersion": 1,
+    "words": [
+      "順",
+      "手順"
+    ]
+  },
+  "sense-lex-jmdict-1342380-1": {
+    "senseVersion": 1,
+    "words": [
+      "快調",
+      "好調"
+    ]
+  },
+  "sense-lex-jmdict-1342470-1": {
+    "senseVersion": 1,
+    "words": [
+      "措置",
+      "治療"
+    ]
+  },
+  "sense-lex-jmdict-1342490-1": {
+    "senseVersion": 1,
+    "words": [
+      "保管",
+      "処理"
+    ]
+  },
+  "sense-lex-jmdict-1342510-1": {
+    "senseVersion": 1,
+    "words": [
+      "始末",
+      "解決"
+    ]
+  },
+  "sense-lex-jmdict-1342550-1": {
+    "senseVersion": 1,
+    "words": [
+      "もう",
+      "最初"
+    ]
+  },
+  "sense-lex-jmdict-1343100-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "箇所"
+    ]
+  },
+  "sense-lex-jmdict-1343210-1": {
+    "senseVersion": 1,
+    "words": [
+      "行き先",
+      "場所"
+    ]
+  },
+  "sense-lex-jmdict-1343250-1": {
+    "senseVersion": 1,
+    "words": [
+      "所有",
+      "獲得"
+    ]
+  },
+  "sense-lex-jmdict-1343310-1": {
+    "senseVersion": 1,
+    "words": [
+      "所在",
+      "加入"
+    ]
+  },
+  "sense-lex-jmdict-1343350-1": {
+    "senseVersion": 1,
+    "words": [
+      "臨時",
+      "一定"
+    ]
+  },
+  "sense-lex-jmdict-1343360-1": {
+    "senseVersion": 1,
+    "words": [
+      "売上",
+      "収入"
+    ]
+  },
+  "sense-lex-jmdict-1343640-1": {
+    "senseVersion": 1,
+    "words": [
+      "サイン",
+      "記名"
+    ]
+  },
+  "sense-lex-jmdict-1344090-1": {
+    "senseVersion": 1,
+    "words": [
+      "書物",
+      "雑誌"
+    ]
+  },
+  "sense-lex-jmdict-1344150-1": {
+    "senseVersion": 1,
+    "words": [
+      "書籍",
+      "書類"
+    ]
+  },
+  "sense-lex-jmdict-1344200-1": {
+    "senseVersion": 1,
+    "words": [
+      "書物",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1344650-1": {
+    "senseVersion": 1,
+    "words": [
+      "アシスタント",
+      "手伝い"
+    ]
+  },
+  "sense-lex-jmdict-1344930-1": {
+    "senseVersion": 1,
+    "words": [
+      "女子",
+      "女性"
+    ]
+  },
+  "sense-lex-jmdict-1344970-1": {
+    "senseVersion": 1,
+    "words": [
+      "少女",
+      "男の子"
+    ]
+  },
+  "sense-lex-jmdict-1345020-1": {
+    "senseVersion": 1,
+    "words": [
+      "王妃",
+      "国王"
+    ]
+  },
+  "sense-lex-jmdict-1345140-1": {
+    "senseVersion": 1,
+    "words": [
+      "女",
+      "女性"
+    ]
+  },
+  "sense-lex-jmdict-1345250-1": {
+    "senseVersion": 1,
+    "words": [
+      "女子",
+      "女"
+    ]
+  },
+  "sense-lex-jmdict-1345605-1": {
+    "senseVersion": 1,
+    "words": [
+      "もうすぐ",
+      "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1345640-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り除く",
+      "省く"
+    ]
+  },
+  "sense-lex-jmdict-1345650-1": {
+    "senseVersion": 1,
+    "words": [
+      "排除",
+      "例外"
+    ]
+  },
+  "sense-lex-jmdict-1346220-1": {
+    "senseVersion": 1,
+    "words": [
+      "勝利",
+      "結果"
+    ]
+  },
+  "sense-lex-jmdict-1347490-1": {
+    "senseVersion": 1,
+    "words": [
+      "述べる",
+      "叫ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1347550-1": {
+    "senseVersion": 1,
+    "words": [
+      "強要",
+      "促進"
+    ]
+  },
+  "sense-lex-jmdict-1347750-1": {
+    "senseVersion": 1,
+    "words": [
+      "大きい",
+      "細かい"
+    ]
+  },
+  "sense-lex-jmdict-1347830-1": {
+    "senseVersion": 1,
+    "words": [
+      "住宅",
+      "車庫"
+    ]
+  },
+  "sense-lex-jmdict-1348030-1": {
+    "senseVersion": 1,
+    "words": [
+      "給与",
+      "支給"
+    ]
+  },
+  "sense-lex-jmdict-1348430-1": {
+    "senseVersion": 1,
+    "words": [
+      "作文",
+      "物語"
+    ]
+  },
+  "sense-lex-jmdict-1348870-1": {
+    "senseVersion": 1,
+    "words": [
+      "多少",
+      "少々"
+    ]
+  },
+  "sense-lex-jmdict-1348900-1": {
+    "senseVersion": 1,
+    "words": [
+      "全然",
+      "一切"
+    ]
+  },
+  "sense-lex-jmdict-1348910-1": {
+    "senseVersion": 1,
+    "words": [
+      "多い",
+      "低い"
+    ]
+  },
+  "sense-lex-jmdict-1349170-1": {
+    "senseVersion": 1,
+    "words": [
+      "男の子",
+      "青年"
+    ]
+  },
+  "sense-lex-jmdict-1349440-1": {
+    "senseVersion": 1,
+    "words": [
+      "もらう",
+      "頂く"
+    ]
+  },
+  "sense-lex-jmdict-1349470-1": {
+    "senseVersion": 1,
+    "words": [
+      "承知",
+      "拒否"
+    ]
+  },
+  "sense-lex-jmdict-1349480-1": {
+    "senseVersion": 1,
+    "words": [
+      "理解",
+      "了承"
+    ]
+  },
+  "sense-lex-jmdict-1349520-1": {
+    "senseVersion": 1,
+    "words": [
+      "了承",
+      "承知"
+    ]
+  },
+  "sense-lex-jmdict-1350190-1": {
+    "senseVersion": 1,
+    "words": [
+      "削除",
+      "カット"
+    ]
+  },
+  "sense-lex-jmdict-1350250-1": {
+    "senseVersion": 1,
+    "words": [
+      "便り",
+      "ニュース"
+    ]
+  },
+  "sense-lex-jmdict-1350710-1": {
+    "senseVersion": 1,
+    "words": [
+      "焦げる",
+      "燃やす"
+    ]
+  },
+  "sense-lex-jmdict-1350810-1": {
+    "senseVersion": 1,
+    "words": [
+      "重点",
+      "中心"
+    ]
+  },
+  "sense-lex-jmdict-1350840-1": {
+    "senseVersion": 1,
+    "words": [
+      "映す",
+      "照る"
+    ]
+  },
+  "sense-lex-jmdict-1350860-1": {
+    "senseVersion": 1,
+    "words": [
+      "光る",
+      "照らす"
+    ]
+  },
+  "sense-lex-jmdict-1350920-1": {
+    "senseVersion": 1,
+    "words": [
+      "対照",
+      "照明"
+    ]
+  },
+  "sense-lex-jmdict-1351030-1": {
+    "senseVersion": 1,
+    "words": [
+      "病名",
+      "状態"
+    ]
+  },
+  "sense-lex-jmdict-1351040-1": {
+    "senseVersion": 1,
+    "words": [
+      "控える",
+      "縮める"
+    ]
+  },
+  "sense-lex-jmdict-1351120-1": {
+    "senseVersion": 1,
+    "words": [
+      "補足",
+      "圧縮"
+    ]
+  },
+  "sense-lex-jmdict-1351270-1": {
+    "senseVersion": 1,
+    "words": [
+      "節",
+      "課"
+    ]
+  },
+  "sense-lex-jmdict-1351280-1": {
+    "senseVersion": 1,
+    "words": [
+      "涙",
+      "笑顔"
+    ]
+  },
+  "sense-lex-jmdict-1351560-1": {
+    "senseVersion": 1,
+    "words": [
+      "接触",
+      "摩擦"
+    ]
+  },
+  "sense-lex-jmdict-1351640-1": {
+    "senseVersion": 1,
+    "words": [
+      "証拠",
+      "証明"
+    ]
+  },
+  "sense-lex-jmdict-1351760-1": {
+    "senseVersion": 1,
+    "words": [
+      "概要",
+      "具体的"
+    ]
+  },
+  "sense-lex-jmdict-1351900-1": {
+    "senseVersion": 1,
+    "words": [
+      "証拠",
+      "表現"
+    ]
+  },
+  "sense-lex-jmdict-1351910-1": {
+    "senseVersion": 1,
+    "words": [
+      "賞金",
+      "賞品"
+    ]
+  },
+  "sense-lex-jmdict-1351930-1": {
+    "senseVersion": 1,
+    "words": [
+      "賞品",
+      "礼"
+    ]
+  },
+  "sense-lex-jmdict-1351960-1": {
+    "senseVersion": 1,
+    "words": [
+      "品物",
+      "グッズ"
+    ]
+  },
+  "sense-lex-jmdict-1352060-1": {
+    "senseVersion": 1,
+    "words": [
+      "邪魔",
+      "差し支え"
+    ]
+  },
+  "sense-lex-jmdict-1352130-1": {
+    "senseVersion": 1,
+    "words": [
+      "下",
+      "一流"
+    ]
+  },
+  "sense-lex-jmdict-1352670-1": {
+    "senseVersion": 1,
+    "words": [
+      "上映",
+      "主催"
+    ]
+  },
+  "sense-lex-jmdict-1352770-1": {
+    "senseVersion": 1,
+    "words": [
+      "下回る",
+      "勝る"
+    ]
+  },
+  "sense-lex-jmdict-1353320-1": {
+    "senseVersion": 1,
+    "words": [
+      "巧み",
+      "下手"
+    ]
+  },
+  "sense-lex-jmdict-1353850-1": {
+    "senseVersion": 1,
+    "words": [
+      "成長",
+      "改善"
+    ]
+  },
+  "sense-lex-jmdict-1354030-1": {
+    "senseVersion": 1,
+    "words": [
+      "高価",
+      "見事"
+    ]
+  },
+  "sense-lex-jmdict-1355540-1": {
+    "senseVersion": 1,
+    "words": [
+      "ジョーク",
+      "嘘"
+    ]
+  },
+  "sense-lex-jmdict-1355790-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "席"
+    ]
+  },
+  "sense-lex-jmdict-1355810-1": {
+    "senseVersion": 1,
+    "words": [
+      "事態",
+      "状況"
+    ]
+  },
+  "sense-lex-jmdict-1355850-1": {
+    "senseVersion": 1,
+    "words": [
+      "所",
+      "会場"
+    ]
+  },
+  "sense-lex-jmdict-1355910-1": {
+    "senseVersion": 1,
+    "words": [
+      "事態",
+      "状況"
+    ]
+  },
+  "sense-lex-jmdict-1355970-1": {
+    "senseVersion": 1,
+    "words": [
+      "いつも",
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1356000-1": {
+    "senseVersion": 1,
+    "words": [
+      "専門知識",
+      "良識"
+    ]
+  },
+  "sense-lex-jmdict-1356320-1": {
+    "senseVersion": 1,
+    "words": [
+      "感情",
+      "環境"
+    ]
+  },
+  "sense-lex-jmdict-1356700-1": {
+    "senseVersion": 1,
+    "words": [
+      "事態",
+      "場面"
+    ]
+  },
+  "sense-lex-jmdict-1356730-1": {
+    "senseVersion": 1,
+    "words": [
+      "様子",
+      "具合"
+    ]
+  },
+  "sense-lex-jmdict-1356870-1": {
+    "senseVersion": 1,
+    "words": [
+      "涼しい",
+      "暑い"
+    ]
+  },
+  "sense-lex-jmdict-1356930-1": {
+    "senseVersion": 1,
+    "words": [
+      "煙",
+      "気体"
+    ]
+  },
+  "sense-lex-jmdict-1357050-1": {
+    "senseVersion": 1,
+    "words": [
+      "妥協",
+      "協調"
+    ]
+  },
+  "sense-lex-jmdict-1357480-1": {
+    "senseVersion": 1,
+    "words": [
+      "職業",
+      "仕事"
+    ]
+  },
+  "sense-lex-jmdict-1357510-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕事",
+      "職"
+    ]
+  },
+  "sense-lex-jmdict-1358110-1": {
+    "senseVersion": 1,
+    "words": [
+      "一致する",
+      "衝突"
+    ]
+  },
+  "sense-lex-jmdict-1358340-1": {
+    "senseVersion": 1,
+    "words": [
+      "食物",
+      "飲み物"
+    ]
+  },
+  "sense-lex-jmdict-1358410-1": {
+    "senseVersion": 1,
+    "words": [
+      "砂糖",
+      "塩"
+    ]
+  },
+  "sense-lex-jmdict-1358490-1": {
+    "senseVersion": 1,
+    "words": [
+      "ご飯",
+      "食料"
+    ]
+  },
+  "sense-lex-jmdict-1358550-1": {
+    "senseVersion": 1,
+    "words": [
+      "台所",
+      "レストラン"
+    ]
+  },
+  "sense-lex-jmdict-1358600-1": {
+    "senseVersion": 1,
+    "words": [
+      "食事",
+      "料理"
+    ]
+  },
+  "sense-lex-jmdict-1358620-1": {
+    "senseVersion": 1,
+    "words": [
+      "食べ物",
+      "食事"
+    ]
+  },
+  "sense-lex-jmdict-1358670-1": {
+    "senseVersion": 1,
+    "words": [
+      "食糧",
+      "食事"
+    ]
+  },
+  "sense-lex-jmdict-1358680-1": {
+    "senseVersion": 1,
+    "words": [
+      "食べ物",
+      "食物"
+    ]
+  },
+  "sense-lex-jmdict-1358690-1": {
+    "senseVersion": 1,
+    "words": [
+      "食料",
+      "食品"
+    ]
+  },
+  "sense-lex-jmdict-1359150-1": {
+    "senseVersion": 1,
+    "words": [
+      "宗教",
+      "確信"
+    ]
+  },
+  "sense-lex-jmdict-1359240-1": {
+    "senseVersion": 1,
+    "words": [
+      "サイン",
+      "標識"
+    ]
+  },
+  "sense-lex-jmdict-1359500-1": {
+    "senseVersion": 1,
+    "words": [
+      "信用",
+      "信頼"
+    ]
+  },
+  "sense-lex-jmdict-1359620-1": {
+    "senseVersion": 1,
+    "words": [
+      "信頼",
+      "名"
+    ]
+  },
+  "sense-lex-jmdict-1359730-1": {
+    "senseVersion": 1,
+    "words": [
+      "信用",
+      "依存"
+    ]
+  },
+  "sense-lex-jmdict-1359850-1": {
+    "senseVersion": 1,
+    "words": [
+      "入場",
+      "攻撃"
+    ]
+  },
+  "sense-lex-jmdict-1360360-1": {
+    "senseVersion": 1,
+    "words": [
+      "審査",
+      "協議"
+    ]
+  },
+  "sense-lex-jmdict-1360380-1": {
+    "senseVersion": 1,
+    "words": [
+      "審議",
+      "研究"
+    ]
+  },
+  "sense-lex-jmdict-1360480-1": {
+    "senseVersion": 1,
+    "words": [
+      "気持ち",
+      "気"
+    ]
+  },
+  "sense-lex-jmdict-1360640-1": {
+    "senseVersion": 1,
+    "words": [
+      "しっかりする",
+      "心細い"
+    ]
+  },
+  "sense-lex-jmdict-1360680-1": {
+    "senseVersion": 1,
+    "words": [
+      "寂しい",
+      "不安"
+    ]
+  },
+  "sense-lex-jmdict-1360720-1": {
+    "senseVersion": 1,
+    "words": [
+      "表情",
+      "気持ち"
+    ]
+  },
+  "sense-lex-jmdict-1360890-1": {
+    "senseVersion": 1,
+    "words": [
+      "見当",
+      "証拠"
+    ]
+  },
+  "sense-lex-jmdict-1360910-1": {
+    "senseVersion": 1,
+    "words": [
+      "資格",
+      "憲法"
+    ]
+  },
+  "sense-lex-jmdict-1360920-1": {
+    "senseVersion": 1,
+    "words": [
+      "忘れる",
+      "知る"
+    ]
+  },
+  "sense-lex-jmdict-1360930-1": {
+    "senseVersion": 1,
+    "words": [
+      "関心",
+      "恐れ"
+    ]
+  },
+  "sense-lex-jmdict-1361000-1": {
+    "senseVersion": 1,
+    "words": [
+      "気分",
+      "心理学"
+    ]
+  },
+  "sense-lex-jmdict-1361110-1": {
+    "senseVersion": 1,
+    "words": [
+      "消極的",
+      "細かい"
+    ]
+  },
+  "sense-lex-jmdict-1361420-1": {
+    "senseVersion": 1,
+    "words": [
+      "振興",
+      "動揺"
+    ]
+  },
+  "sense-lex-jmdict-1361490-1": {
+    "senseVersion": 1,
+    "words": [
+      "新た",
+      "古い"
+    ]
+  },
+  "sense-lex-jmdict-1361510-1": {
+    "senseVersion": 1,
+    "words": [
+      "新しい",
+      "古い"
+    ]
+  },
+  "sense-lex-jmdict-1362100-1": {
+    "senseVersion": 1,
+    "words": [
+      "新しい",
+      "新た"
+    ]
+  },
+  "sense-lex-jmdict-1362530-1": {
+    "senseVersion": 1,
+    "words": [
+      "草原",
+      "森"
+    ]
+  },
+  "sense-lex-jmdict-1362660-1": {
+    "senseVersion": 1,
+    "words": [
+      "更ける",
+      "深める"
+    ]
+  },
+  "sense-lex-jmdict-1362680-1": {
+    "senseVersion": 1,
+    "words": [
+      "深まる",
+      "高まる"
+    ]
+  },
+  "sense-lex-jmdict-1362730-1": {
+    "senseVersion": 1,
+    "words": [
+      "重大",
+      "強烈"
+    ]
+  },
+  "sense-lex-jmdict-1362930-1": {
+    "senseVersion": 1,
+    "words": [
+      "申し込む",
+      "頼む"
+    ]
+  },
+  "sense-lex-jmdict-1363260-1": {
+    "senseVersion": 1,
+    "words": [
+      "最後",
+      "最初"
+    ]
+  },
+  "sense-lex-jmdict-1363650-1": {
+    "senseVersion": 1,
+    "words": [
+      "真面目",
+      "熱心"
+    ]
+  },
+  "sense-lex-jmdict-1363740-1": {
+    "senseVersion": 1,
+    "words": [
+      "練習",
+      "複写"
+    ]
+  },
+  "sense-lex-jmdict-1364110-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想",
+      "事実"
+    ]
+  },
+  "sense-lex-jmdict-1364360-1": {
+    "senseVersion": 1,
+    "words": [
+      "真剣",
+      "おとなしい"
+    ]
+  },
+  "sense-lex-jmdict-1364520-1": {
+    "senseVersion": 1,
+    "words": [
+      "血管",
+      "感度"
+    ]
+  },
+  "sense-lex-jmdict-1364830-1": {
+    "senseVersion": 1,
+    "words": [
+      "秘密",
+      "謎"
+    ]
+  },
+  "sense-lex-jmdict-1365070-1": {
+    "senseVersion": 1,
+    "words": [
+      "親切にする",
+      "楽しむ"
+    ]
+  },
+  "sense-lex-jmdict-1365230-1": {
+    "senseVersion": 1,
+    "words": [
+      "親類",
+      "家族"
+    ]
+  },
+  "sense-lex-jmdict-1365250-1": {
+    "senseVersion": 1,
+    "words": [
+      "優しい",
+      "穏やか"
+    ]
+  },
+  "sense-lex-jmdict-1365260-1": {
+    "senseVersion": 1,
+    "words": [
+      "親切",
+      "友好"
+    ]
+  },
+  "sense-lex-jmdict-1365410-1": {
+    "senseVersion": 1,
+    "words": [
+      "仲良し",
+      "知り合い"
+    ]
+  },
+  "sense-lex-jmdict-1365420-1": {
+    "senseVersion": 1,
+    "words": [
+      "親戚",
+      "知人"
+    ]
+  },
+  "sense-lex-jmdict-1365450-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る",
+      "検査"
+    ]
+  },
+  "sense-lex-jmdict-1365460-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療",
+      "診断"
+    ]
+  },
+  "sense-lex-jmdict-1365480-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療",
+      "診察"
+    ]
+  },
+  "sense-lex-jmdict-1365500-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療",
+      "医療"
+    ]
+  },
+  "sense-lex-jmdict-1365520-1": {
+    "senseVersion": 1,
+    "words": [
+      "自身",
+      "体"
+    ]
+  },
+  "sense-lex-jmdict-1365650-1": {
+    "senseVersion": 1,
+    "words": [
+      "近所",
+      "親しい"
+    ]
+  },
+  "sense-lex-jmdict-1365770-1": {
+    "senseVersion": 1,
+    "words": [
+      "体重",
+      "背"
+    ]
+  },
+  "sense-lex-jmdict-1365810-1": {
+    "senseVersion": 1,
+    "words": [
+      "位",
+      "性格"
+    ]
+  },
+  "sense-lex-jmdict-1365860-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦しい",
+      "辛い(からい)"
+    ]
+  },
+  "sense-lex-jmdict-1365870-1": {
+    "senseVersion": 1,
+    "words": [
+      "何とか",
+      "幸い"
+    ]
+  },
+  "sense-lex-jmdict-1365930-1": {
+    "senseVersion": 1,
+    "words": [
+      "我慢",
+      "根気"
+    ]
+  },
+  "sense-lex-jmdict-1365990-1": {
+    "senseVersion": 1,
+    "words": [
+      "進む",
+      "進出"
+    ]
+  },
+  "sense-lex-jmdict-1366080-1": {
+    "senseVersion": 1,
+    "words": [
+      "進展",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1366150-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄贈"
+    ]
+  },
+  "sense-lex-jmdict-1366160-1": {
+    "senseVersion": 1,
+    "words": [
+      "進歩",
+      "成長"
+    ]
+  },
+  "sense-lex-jmdict-1366280-1": {
+    "senseVersion": 1,
+    "words": [
+      "進路",
+      "現在地"
+    ]
+  },
+  "sense-lex-jmdict-1366310-1": {
+    "senseVersion": 1,
+    "words": [
+      "揺れる",
+      "揺らぐ"
+    ]
+  },
+  "sense-lex-jmdict-1366730-1": {
+    "senseVersion": 1,
+    "words": [
+      "人柄",
+      "性格"
+    ]
+  },
+  "sense-lex-jmdict-1367010-1": {
+    "senseVersion": 1,
+    "words": [
+      "有名",
+      "評判"
+    ]
+  },
+  "sense-lex-jmdict-1367680-1": {
+    "senseVersion": 1,
+    "words": [
+      "大勢",
+      "集団"
+    ]
+  },
+  "sense-lex-jmdict-1367760-1": {
+    "senseVersion": 1,
+    "words": [
+      "人手",
+      "人物"
+    ]
+  },
+  "sense-lex-jmdict-1368180-1": {
+    "senseVersion": 1,
+    "words": [
+      "感情",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1368370-1": {
+    "senseVersion": 1,
+    "words": [
+      "生活",
+      "暮らし"
+    ]
+  },
+  "sense-lex-jmdict-1369070-1": {
+    "senseVersion": 1,
+    "words": [
+      "人間",
+      "人材"
+    ]
+  },
+  "sense-lex-jmdict-1369200-1": {
+    "senseVersion": 1,
+    "words": [
+      "外見",
+      "性格"
+    ]
+  },
+  "sense-lex-jmdict-1369400-1": {
+    "senseVersion": 1,
+    "words": [
+      "人名",
+      "生命"
+    ]
+  },
+  "sense-lex-jmdict-1369530-1": {
+    "senseVersion": 1,
+    "words": [
+      "国民",
+      "人間"
+    ]
+  },
+  "sense-lex-jmdict-1370010-1": {
+    "senseVersion": 1,
+    "words": [
+      "激しい",
+      "僅か"
+    ]
+  },
+  "sense-lex-jmdict-1370070-1": {
+    "senseVersion": 1,
+    "words": [
+      "尽くす",
+      "終える"
+    ]
+  },
+  "sense-lex-jmdict-1370090-1": {
+    "senseVersion": 1,
+    "words": [
+      "尽きる",
+      "努める"
+    ]
+  },
+  "sense-lex-jmdict-1370160-1": {
+    "senseVersion": 1,
+    "words": [
+      "拙速",
+      "急"
+    ]
+  },
+  "sense-lex-jmdict-1370320-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵",
+      "絵画"
+    ]
+  },
+  "sense-lex-jmdict-1370380-1": {
+    "senseVersion": 1,
+    "words": [
+      "数字",
+      "形"
+    ]
+  },
+  "sense-lex-jmdict-1370410-1": {
+    "senseVersion": 1,
+    "words": [
+      "図",
+      "文献"
+    ]
+  },
+  "sense-lex-jmdict-1370490-1": {
+    "senseVersion": 1,
+    "words": [
+      "図",
+      "表（ひょう）"
+    ]
+  },
+  "sense-lex-jmdict-1370980-1": {
+    "senseVersion": 1,
+    "words": [
+      "平行",
+      "縦"
+    ]
+  },
+  "sense-lex-jmdict-1371170-1": {
+    "senseVersion": 1,
+    "words": [
+      "勧め",
+      "命令"
+    ]
+  },
+  "sense-lex-jmdict-1371200-1": {
+    "senseVersion": 1,
+    "words": [
+      "確認",
+      "想像"
+    ]
+  },
+  "sense-lex-jmdict-1371210-1": {
+    "senseVersion": 1,
+    "words": [
+      "確定",
+      "前提"
+    ]
+  },
+  "sense-lex-jmdict-1371260-1": {
+    "senseVersion": 1,
+    "words": [
+      "お湯",
+      "液体"
+    ]
+  },
+  "sense-lex-jmdict-1371320-1": {
+    "senseVersion": 1,
+    "words": [
+      "泳ぎ",
+      "泳ぐ"
+    ]
+  },
+  "sense-lex-jmdict-1371460-1": {
+    "senseVersion": 1,
+    "words": [
+      "河口",
+      "源"
+    ]
+  },
+  "sense-lex-jmdict-1371610-1": {
+    "senseVersion": 1,
+    "words": [
+      "程度",
+      "レベル"
+    ]
+  },
+  "sense-lex-jmdict-1372010-1": {
+    "senseVersion": 1,
+    "words": [
+      "油分",
+      "水"
+    ]
+  },
+  "sense-lex-jmdict-1372350-1": {
+    "senseVersion": 1,
+    "words": [
+      "洗濯",
+      "料理"
+    ]
+  },
+  "sense-lex-jmdict-1372370-1": {
+    "senseVersion": 1,
+    "words": [
+      "休憩",
+      "寝る"
+    ]
+  },
+  "sense-lex-jmdict-1372430-1": {
+    "senseVersion": 1,
+    "words": [
+      "弱める",
+      "減少"
+    ]
+  },
+  "sense-lex-jmdict-1372620-1": {
+    "senseVersion": 1,
+    "words": [
+      "果たす",
+      "始める"
+    ]
+  },
+  "sense-lex-jmdict-1372630-1": {
+    "senseVersion": 1,
+    "words": [
+      "とうとう",
+      "結局"
+    ]
+  },
+  "sense-lex-jmdict-1372800-1": {
+    "senseVersion": 1,
+    "words": [
+      "結構",
+      "大分"
+    ]
+  },
+  "sense-lex-jmdict-1373480-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕掛ける",
+      "据え付ける"
+    ]
+  },
+  "sense-lex-jmdict-1373500-1": {
+    "senseVersion": 1,
+    "words": [
+      "据える",
+      "仕掛ける"
+    ]
+  },
+  "sense-lex-jmdict-1373680-1": {
+    "senseVersion": 1,
+    "words": [
+      "冴える",
+      "濁る"
+    ]
+  },
+  "sense-lex-jmdict-1373850-1": {
+    "senseVersion": 1,
+    "words": [
+      "世界",
+      "社会"
+    ]
+  },
+  "sense-lex-jmdict-1373860-1": {
+    "senseVersion": 1,
+    "words": [
+      "世の中",
+      "地球"
+    ]
+  },
+  "sense-lex-jmdict-1373970-1": {
+    "senseVersion": 1,
+    "words": [
+      "世の中",
+      "社会"
+    ]
+  },
+  "sense-lex-jmdict-1373990-1": {
+    "senseVersion": 1,
+    "words": [
+      "年代",
+      "時代"
+    ]
+  },
+  "sense-lex-jmdict-1374300-1": {
+    "senseVersion": 1,
+    "words": [
+      "介護",
+      "援助"
+    ]
+  },
+  "sense-lex-jmdict-1374510-1": {
+    "senseVersion": 1,
+    "words": [
+      "改善",
+      "改正"
+    ]
+  },
+  "sense-lex-jmdict-1374530-1": {
+    "senseVersion": 1,
+    "words": [
+      "どうぞ",
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1374550-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通",
+      "最高"
+    ]
+  },
+  "sense-lex-jmdict-1374800-1": {
+    "senseVersion": 1,
+    "words": [
+      "規制",
+      "刑罰"
+    ]
+  },
+  "sense-lex-jmdict-1374810-1": {
+    "senseVersion": 1,
+    "words": [
+      "製作",
+      "作品"
+    ]
+  },
+  "sense-lex-jmdict-1374870-1": {
+    "senseVersion": 1,
+    "words": [
+      "改正",
+      "成立"
+    ]
+  },
+  "sense-lex-jmdict-1374880-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "機構"
+    ]
+  },
+  "sense-lex-jmdict-1374970-1": {
+    "senseVersion": 1,
+    "words": [
+      "制裁",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1375040-1": {
+    "senseVersion": 1,
+    "words": [
+      "速度",
+      "刺激"
+    ]
+  },
+  "sense-lex-jmdict-1375260-1": {
+    "senseVersion": 1,
+    "words": [
+      "性別",
+      "性格"
+    ]
+  },
+  "sense-lex-jmdict-1375390-1": {
+    "senseVersion": 1,
+    "words": [
+      "性格",
+      "質"
+    ]
+  },
+  "sense-lex-jmdict-1375470-1": {
+    "senseVersion": 1,
+    "words": [
+      "機能",
+      "実力"
+    ]
+  },
+  "sense-lex-jmdict-1375520-1": {
+    "senseVersion": 1,
+    "words": [
+      "性",
+      "年齢"
+    ]
+  },
+  "sense-lex-jmdict-1375740-1": {
+    "senseVersion": 1,
+    "words": [
+      "大人",
+      "老人"
+    ]
+  },
+  "sense-lex-jmdict-1375790-1": {
+    "senseVersion": 1,
+    "words": [
+      "育ち",
+      "発展"
+    ]
+  },
+  "sense-lex-jmdict-1375860-1": {
+    "senseVersion": 1,
+    "words": [
+      "材料",
+      "要素"
+    ]
+  },
+  "sense-lex-jmdict-1375880-1": {
+    "senseVersion": 1,
+    "words": [
+      "設立",
+      "実現"
+    ]
+  },
+  "sense-lex-jmdict-1375930-1": {
+    "senseVersion": 1,
+    "words": [
+      "政策",
+      "政府"
+    ]
+  },
+  "sense-lex-jmdict-1375950-1": {
+    "senseVersion": 1,
+    "words": [
+      "政権",
+      "方針"
+    ]
+  },
+  "sense-lex-jmdict-1375970-1": {
+    "senseVersion": 1,
+    "words": [
+      "政府",
+      "行政"
+    ]
+  },
+  "sense-lex-jmdict-1376060-1": {
+    "senseVersion": 1,
+    "words": [
+      "党",
+      "政府"
+    ]
+  },
+  "sense-lex-jmdict-1376070-1": {
+    "senseVersion": 1,
+    "words": [
+      "国会",
+      "行政"
+    ]
+  },
+  "sense-lex-jmdict-1376240-1": {
+    "senseVersion": 1,
+    "words": [
+      "修理",
+      "改善"
+    ]
+  },
+  "sense-lex-jmdict-1376460-1": {
+    "senseVersion": 1,
+    "words": [
+      "曇り",
+      "快晴"
+    ]
+  },
+  "sense-lex-jmdict-1376600-1": {
+    "senseVersion": 1,
+    "words": [
+      "正確",
+      "正当"
+    ]
+  },
+  "sense-lex-jmdict-1376760-1": {
+    "senseVersion": 1,
+    "words": [
+      "正しい",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1376910-1": {
+    "senseVersion": 1,
+    "words": [
+      "正当",
+      "当然"
+    ]
+  },
+  "sense-lex-jmdict-1377080-1": {
+    "senseVersion": 1,
+    "words": [
+      "深夜",
+      "昼"
+    ]
+  },
+  "sense-lex-jmdict-1377290-1": {
+    "senseVersion": 1,
+    "words": [
+      "公式",
+      "適切"
+    ]
+  },
+  "sense-lex-jmdict-1377590-1": {
+    "senseVersion": 1,
+    "words": [
+      "素直",
+      "単純"
+    ]
+  },
+  "sense-lex-jmdict-1377660-1": {
+    "senseVersion": 1,
+    "words": [
+      "適切",
+      "正式"
+    ]
+  },
+  "sense-lex-jmdict-1378140-1": {
+    "senseVersion": 1,
+    "words": [
+      "きれい",
+      "濁った"
+    ]
+  },
+  "sense-lex-jmdict-1378200-1": {
+    "senseVersion": 1,
+    "words": [
+      "きれい",
+      "純粋"
+    ]
+  },
+  "sense-lex-jmdict-1378210-1": {
+    "senseVersion": 1,
+    "words": [
+      "精算",
+      "解散"
+    ]
+  },
+  "sense-lex-jmdict-1378320-1": {
+    "senseVersion": 1,
+    "words": [
+      "掃除",
+      "汚染"
+    ]
+  },
+  "sense-lex-jmdict-1378590-1": {
+    "senseVersion": 1,
+    "words": [
+      "生物"
+    ]
+  },
+  "sense-lex-jmdict-1378650-1": {
+    "senseVersion": 1,
+    "words": [
+      "起こる",
+      "作る"
+    ]
+  },
+  "sense-lex-jmdict-1378770-1": {
+    "senseVersion": 1,
+    "words": [
+      "後天的",
+      "本来"
+    ]
+  },
+  "sense-lex-jmdict-1378790-1": {
+    "senseVersion": 1,
+    "words": [
+      "素直",
+      "厚かましい"
+    ]
+  },
+  "sense-lex-jmdict-1378810-1": {
+    "senseVersion": 1,
+    "words": [
+      "温い",
+      "温かい"
+    ]
+  },
+  "sense-lex-jmdict-1378920-1": {
+    "senseVersion": 1,
+    "words": [
+      "生活",
+      "暮らし"
+    ]
+  },
+  "sense-lex-jmdict-1378990-1": {
+    "senseVersion": 1,
+    "words": [
+      "産出",
+      "消費"
+    ]
+  },
+  "sense-lex-jmdict-1379110-1": {
+    "senseVersion": 1,
+    "words": [
+      "臭い"
+    ]
+  },
+  "sense-lex-jmdict-1379230-1": {
+    "senseVersion": 1,
+    "words": [
+      "死亡",
+      "存在"
+    ]
+  },
+  "sense-lex-jmdict-1379330-1": {
+    "senseVersion": 1,
+    "words": [
+      "服",
+      "布"
+    ]
+  },
+  "sense-lex-jmdict-1379370-1": {
+    "senseVersion": 1,
+    "words": [
+      "成長",
+      "増加"
+    ]
+  },
+  "sense-lex-jmdict-1379430-1": {
+    "senseVersion": 1,
+    "words": [
+      "生き物"
+    ]
+  },
+  "sense-lex-jmdict-1379530-1": {
+    "senseVersion": 1,
+    "words": [
+      "命",
+      "寿命"
+    ]
+  },
+  "sense-lex-jmdict-1379690-1": {
+    "senseVersion": 1,
+    "words": [
+      "盛り上げる",
+      "増加"
+    ]
+  },
+  "sense-lex-jmdict-1379740-1": {
+    "senseVersion": 1,
+    "words": [
+      "込める",
+      "こぼす"
+    ]
+  },
+  "sense-lex-jmdict-1379750-1": {
+    "senseVersion": 1,
+    "words": [
+      "活発",
+      "賑やか"
+    ]
+  },
+  "sense-lex-jmdict-1379900-1": {
+    "senseVersion": 1,
+    "words": [
+      "精密",
+      "緻密"
+    ]
+  },
+  "sense-lex-jmdict-1379950-1": {
+    "senseVersion": 1,
+    "words": [
+      "心",
+      "気分"
+    ]
+  },
+  "sense-lex-jmdict-1380190-1": {
+    "senseVersion": 1,
+    "words": [
+      "大まか",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1380540-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1380650-1": {
+    "senseVersion": 1,
+    "words": [
+      "制作",
+      "生産"
+    ]
+  },
+  "sense-lex-jmdict-1380690-1": {
+    "senseVersion": 1,
+    "words": [
+      "生産",
+      "作る"
+    ]
+  },
+  "sense-lex-jmdict-1380760-1": {
+    "senseVersion": 1,
+    "words": [
+      "商品",
+      "結果"
+    ]
+  },
+  "sense-lex-jmdict-1381180-1": {
+    "senseVersion": 1,
+    "words": [
+      "勤勉",
+      "正直"
+    ]
+  },
+  "sense-lex-jmdict-1381320-1": {
+    "senseVersion": 1,
+    "words": [
+      "支払",
+      "要求"
+    ]
+  },
+  "sense-lex-jmdict-1381380-1": {
+    "senseVersion": 1,
+    "words": [
+      "青い"
+    ]
+  },
+  "sense-lex-jmdict-1381390-1": {
+    "senseVersion": 1,
+    "words": [
+      "青"
+    ]
+  },
+  "sense-lex-jmdict-1381570-1": {
+    "senseVersion": 1,
+    "words": [
+      "高齢者",
+      "青年"
+    ]
+  },
+  "sense-lex-jmdict-1381750-1": {
+    "senseVersion": 1,
+    "words": [
+      "少年",
+      "青少年"
+    ]
+  },
+  "sense-lex-jmdict-1381760-1": {
+    "senseVersion": 1,
+    "words": [
+      "血色がいい",
+      "薄い"
+    ]
+  },
+  "sense-lex-jmdict-1381820-1": {
+    "senseVersion": 1,
+    "words": [
+      "にぎやか",
+      "穏やか"
+    ]
+  },
+  "sense-lex-jmdict-1382090-1": {
+    "senseVersion": 1,
+    "words": [
+      "入国審査",
+      "関税"
+    ]
+  },
+  "sense-lex-jmdict-1382220-1": {
+    "senseVersion": 1,
+    "words": [
+      "弱い",
+      "柔らかい"
+    ]
+  },
+  "sense-lex-jmdict-1382250-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "座席"
+    ]
+  },
+  "sense-lex-jmdict-1382440-1": {
+    "senseVersion": 1,
+    "words": [
+      "岩"
+    ]
+  },
+  "sense-lex-jmdict-1382970-1": {
+    "senseVersion": 1,
+    "words": [
+      "崩す",
+      "包む"
+    ]
+  },
+  "sense-lex-jmdict-1383030-1": {
+    "senseVersion": 1,
+    "words": [
+      "消極的",
+      "活発"
+    ]
+  },
+  "sense-lex-jmdict-1383180-1": {
+    "senseVersion": 1,
+    "words": [
+      "義務",
+      "役"
+    ]
+  },
+  "sense-lex-jmdict-1383230-1": {
+    "senseVersion": 1,
+    "words": [
+      "権利",
+      "責任"
+    ]
+  },
+  "sense-lex-jmdict-1383310-1": {
+    "senseVersion": 1,
+    "words": [
+      "赤ちゃん",
+      "子ども"
+    ]
+  },
+  "sense-lex-jmdict-1383680-1": {
+    "senseVersion": 1,
+    "words": [
+      "後",
+      "遺跡"
+    ]
+  },
+  "sense-lex-jmdict-1384840-1": {
+    "senseVersion": 1,
+    "words": [
+      "破片",
+      "切る"
+    ]
+  },
+  "sense-lex-jmdict-1385050-1": {
+    "senseVersion": 1,
+    "words": [
+      "真剣",
+      "深刻"
+    ]
+  },
+  "sense-lex-jmdict-1385170-1": {
+    "senseVersion": 1,
+    "words": [
+      "定期券",
+      "券"
+    ]
+  },
+  "sense-lex-jmdict-1385350-1": {
+    "senseVersion": 1,
+    "words": [
+      "離れる",
+      "結ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1385480-1": {
+    "senseVersion": 1,
+    "words": [
+      "アクセス",
+      "繋がり"
+    ]
+  },
+  "sense-lex-jmdict-1385960-1": {
+    "senseVersion": 1,
+    "words": [
+      "妥協",
+      "譲歩"
+    ]
+  },
+  "sense-lex-jmdict-1386020-1": {
+    "senseVersion": 1,
+    "words": [
+      "建設",
+      "計画"
+    ]
+  },
+  "sense-lex-jmdict-1386070-1": {
+    "senseVersion": 1,
+    "words": [
+      "道具",
+      "装置"
+    ]
+  },
+  "sense-lex-jmdict-1386160-1": {
+    "senseVersion": 1,
+    "words": [
+      "関節",
+      "部分"
+    ]
+  },
+  "sense-lex-jmdict-1386350-1": {
+    "senseVersion": 1,
+    "words": [
+      "倹約",
+      "貯金"
+    ]
+  },
+  "sense-lex-jmdict-1386370-1": {
+    "senseVersion": 1,
+    "words": [
+      "見解",
+      "学説"
+    ]
+  },
+  "sense-lex-jmdict-1386700-1": {
+    "senseVersion": 1,
+    "words": [
+      "時々",
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1387210-1": {
+    "senseVersion": 1,
+    "words": [
+      "先ず",
+      "後"
+    ]
+  },
+  "sense-lex-jmdict-1387240-1": {
+    "senseVersion": 1,
+    "words": [
+      "一応",
+      "先"
+    ]
+  },
+  "sense-lex-jmdict-1387990-1": {
+    "senseVersion": 1,
+    "words": [
+      "教師",
+      "生徒"
+    ]
+  },
+  "sense-lex-jmdict-1388110-1": {
+    "senseVersion": 1,
+    "words": [
+      "根元",
+      "先頭"
+    ]
+  },
+  "sense-lex-jmdict-1391780-1": {
+    "senseVersion": 1,
+    "words": [
+      "点",
+      "道"
+    ]
+  },
+  "sense-lex-jmdict-1391880-1": {
+    "senseVersion": 1,
+    "words": [
+      "道路",
+      "鉄道"
+    ]
+  },
+  "sense-lex-jmdict-1392240-1": {
+    "senseVersion": 1,
+    "words": [
+      "選挙",
+      "選択"
+    ]
+  },
+  "sense-lex-jmdict-1392290-1": {
+    "senseVersion": 1,
+    "words": [
+      "決定",
+      "選考"
+    ]
+  },
+  "sense-lex-jmdict-1392580-1": {
+    "senseVersion": 1,
+    "words": [
+      "以前",
+      "後"
+    ]
+  },
+  "sense-lex-jmdict-1393350-1": {
+    "senseVersion": 1,
+    "words": [
+      "後退",
+      "進出"
+    ]
+  },
+  "sense-lex-jmdict-1393680-1": {
+    "senseVersion": 1,
+    "words": [
+      "結論",
+      "条件"
+    ]
+  },
+  "sense-lex-jmdict-1393750-1": {
+    "senseVersion": 1,
+    "words": [
+      "将来",
+      "途中"
+    ]
+  },
+  "sense-lex-jmdict-1394190-1": {
+    "senseVersion": 1,
+    "words": [
+      "例外",
+      "例"
+    ]
+  },
+  "sense-lex-jmdict-1394250-1": {
+    "senseVersion": 1,
+    "words": [
+      "悪",
+      "正義"
+    ]
+  },
+  "sense-lex-jmdict-1394560-1": {
+    "senseVersion": 1,
+    "words": [
+      "良好",
+      "善"
+    ]
+  },
+  "sense-lex-jmdict-1394800-1": {
+    "senseVersion": 1,
+    "words": [
+      "すっかり",
+      "少し"
+    ]
+  },
+  "sense-lex-jmdict-1394840-1": {
+    "senseVersion": 1,
+    "words": [
+      "全部",
+      "皆"
+    ]
+  },
+  "sense-lex-jmdict-1395620-1": {
+    "senseVersion": 1,
+    "words": [
+      "少しも",
+      "一切"
+    ]
+  },
+  "sense-lex-jmdict-1395660-1": {
+    "senseVersion": 1,
+    "words": [
+      "全般",
+      "部分"
+    ]
+  },
+  "sense-lex-jmdict-1396020-1": {
+    "senseVersion": 1,
+    "words": [
+      "全体",
+      "一部"
+    ]
+  },
+  "sense-lex-jmdict-1396130-1": {
+    "senseVersion": 1,
+    "words": [
+      "全員",
+      "皆"
+    ]
+  },
+  "sense-lex-jmdict-1396480-1": {
+    "senseVersion": 1,
+    "words": [
+      "破る",
+      "修正"
+    ]
+  },
+  "sense-lex-jmdict-1396530-1": {
+    "senseVersion": 1,
+    "words": [
+      "処置",
+      "対策"
+    ]
+  },
+  "sense-lex-jmdict-1396590-1": {
+    "senseVersion": 1,
+    "words": [
+      "外す",
+      "図る"
+    ]
+  },
+  "sense-lex-jmdict-1396820-1": {
+    "senseVersion": 1,
+    "words": [
+      "子孫",
+      "先祖"
+    ]
+  },
+  "sense-lex-jmdict-1396910-1": {
+    "senseVersion": 1,
+    "words": [
+      "乱暴",
+      "雑"
+    ]
+  },
+  "sense-lex-jmdict-1397100-1": {
+    "senseVersion": 1,
+    "words": [
+      "雑",
+      "豪華"
+    ]
+  },
+  "sense-lex-jmdict-1397240-1": {
+    "senseVersion": 1,
+    "words": [
+      "技術",
+      "性格"
+    ]
+  },
+  "sense-lex-jmdict-1397270-1": {
+    "senseVersion": 1,
+    "words": [
+      "アマチュア",
+      "専門家"
+    ]
+  },
+  "sense-lex-jmdict-1397300-1": {
+    "senseVersion": 1,
+    "words": [
+      "見事",
+      "普通"
+    ]
+  },
+  "sense-lex-jmdict-1397340-1": {
+    "senseVersion": 1,
+    "words": [
+      "正直",
+      "頑固"
+    ]
+  },
+  "sense-lex-jmdict-1397390-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡素",
+      "単純"
+    ]
+  },
+  "sense-lex-jmdict-1397450-1": {
+    "senseVersion": 1,
+    "words": [
+      "個人",
+      "団体"
+    ]
+  },
+  "sense-lex-jmdict-1397620-1": {
+    "senseVersion": 1,
+    "words": [
+      "組",
+      "協会"
+    ]
+  },
+  "sense-lex-jmdict-1397630-1": {
+    "senseVersion": 1,
+    "words": [
+      "団体",
+      "機構"
+    ]
+  },
+  "sense-lex-jmdict-1397710-1": {
+    "senseVersion": 1,
+    "words": [
+      "訴訟",
+      "不満"
+    ]
+  },
+  "sense-lex-jmdict-1397800-1": {
+    "senseVersion": 1,
+    "words": [
+      "妨げる",
+      "防止"
+    ]
+  },
+  "sense-lex-jmdict-1397820-1": {
+    "senseVersion": 1,
+    "words": [
+      "停止",
+      "障害"
+    ]
+  },
+  "sense-lex-jmdict-1398420-1": {
+    "senseVersion": 1,
+    "words": [
+      "模倣",
+      "作品"
+    ]
+  },
+  "sense-lex-jmdict-1399120-1": {
+    "senseVersion": 1,
+    "words": [
+      "物置",
+      "店舗"
+    ]
+  },
+  "sense-lex-jmdict-1399830-1": {
+    "senseVersion": 1,
+    "words": [
+      "抜く",
+      "植える"
+    ]
+  },
+  "sense-lex-jmdict-1399970-1": {
+    "senseVersion": 1,
+    "words": [
+      "書く",
+      "傷"
+    ]
+  },
+  "sense-lex-jmdict-1400010-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り上げる",
+      "操縦する"
+    ]
+  },
+  "sense-lex-jmdict-1400050-1": {
+    "senseVersion": 1,
+    "words": [
+      "修理",
+      "運転"
+    ]
+  },
+  "sense-lex-jmdict-1400300-1": {
+    "senseVersion": 1,
+    "words": [
+      "直ちに",
+      "即座に"
+    ]
+  },
+  "sense-lex-jmdict-1400820-1": {
+    "senseVersion": 1,
+    "words": [
+      "違い",
+      "差"
+    ]
+  },
+  "sense-lex-jmdict-1401240-1": {
+    "senseVersion": 1,
+    "words": [
+      "適当",
+      "有力"
+    ]
+  },
+  "sense-lex-jmdict-1401420-1": {
+    "senseVersion": 1,
+    "words": [
+      "窓",
+      "売り場"
+    ]
+  },
+  "sense-lex-jmdict-1401820-1": {
+    "senseVersion": 1,
+    "words": [
+      "大統領",
+      "首相"
+    ]
+  },
+  "sense-lex-jmdict-1402360-1": {
+    "senseVersion": 1,
+    "words": [
+      "道具",
+      "設備"
+    ]
+  },
+  "sense-lex-jmdict-1402850-1": {
+    "senseVersion": 1,
+    "words": [
+      "歓迎",
+      "見送り"
+    ]
+  },
+  "sense-lex-jmdict-1403000-1": {
+    "senseVersion": 1,
+    "words": [
+      "騒々しい",
+      "うるさい"
+    ]
+  },
+  "sense-lex-jmdict-1403020-1": {
+    "senseVersion": 1,
+    "words": [
+      "騒音",
+      "動揺"
+    ]
+  },
+  "sense-lex-jmdict-1403060-1": {
+    "senseVersion": 1,
+    "words": [
+      "音楽",
+      "音"
+    ]
+  },
+  "sense-lex-jmdict-1403120-1": {
+    "senseVersion": 1,
+    "words": [
+      "増やす",
+      "増える"
+    ]
+  },
+  "sense-lex-jmdict-1403160-1": {
+    "senseVersion": 1,
+    "words": [
+      "減少",
+      "成長"
+    ]
+  },
+  "sense-lex-jmdict-1403190-1": {
+    "senseVersion": 1,
+    "words": [
+      "増加",
+      "強化"
+    ]
+  },
+  "sense-lex-jmdict-1403200-1": {
+    "senseVersion": 1,
+    "words": [
+      "増加",
+      "変動"
+    ]
+  },
+  "sense-lex-jmdict-1403310-1": {
+    "senseVersion": 1,
+    "words": [
+      "減少",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1403550-1": {
+    "senseVersion": 1,
+    "words": [
+      "授ける",
+      "送る"
+    ]
+  },
+  "sense-lex-jmdict-1403780-1": {
+    "senseVersion": 1,
+    "words": [
+      "強制",
+      "育成"
+    ]
+  },
+  "sense-lex-jmdict-1403830-1": {
+    "senseVersion": 1,
+    "words": [
+      "中",
+      "町"
+    ]
+  },
+  "sense-lex-jmdict-1404190-1": {
+    "senseVersion": 1,
+    "words": [
+      "直ちに",
+      "早速"
+    ]
+  },
+  "sense-lex-jmdict-1404450-1": {
+    "senseVersion": 1,
+    "words": [
+      "箱",
+      "包み"
+    ]
+  },
+  "sense-lex-jmdict-1404510-1": {
+    "senseVersion": 1,
+    "words": [
+      "制約",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1404570-1": {
+    "senseVersion": 1,
+    "words": [
+      "推測",
+      "観測"
+    ]
+  },
+  "sense-lex-jmdict-1404590-1": {
+    "senseVersion": 1,
+    "words": [
+      "測定",
+      "観測"
+    ]
+  },
+  "sense-lex-jmdict-1404750-1": {
+    "senseVersion": 1,
+    "words": [
+      "十分",
+      "結構"
+    ]
+  },
+  "sense-lex-jmdict-1404975-1": {
+    "senseVersion": 1,
+    "words": [
+      "急速",
+      "遅い"
+    ]
+  },
+  "sense-lex-jmdict-1405030-1": {
+    "senseVersion": 1,
+    "words": [
+      "書留",
+      "急行"
+    ]
+  },
+  "sense-lex-jmdict-1405080-1": {
+    "senseVersion": 1,
+    "words": [
+      "距離",
+      "時速"
+    ]
+  },
+  "sense-lex-jmdict-1406140-1": {
+    "senseVersion": 1,
+    "words": [
+      "ご存じ",
+      "知る"
+    ]
+  },
+  "sense-lex-jmdict-1406190-1": {
+    "senseVersion": 1,
+    "words": [
+      "継続",
+      "生存"
+    ]
+  },
+  "sense-lex-jmdict-1406400-1": {
+    "senseVersion": 1,
+    "words": [
+      "尊重",
+      "敬意"
+    ]
+  },
+  "sense-lex-jmdict-1406460-1": {
+    "senseVersion": 1,
+    "words": [
+      "尊敬",
+      "敬意"
+    ]
+  },
+  "sense-lex-jmdict-1406660-1": {
+    "senseVersion": 1,
+    "words": [
+      "損害",
+      "得"
+    ]
+  },
+  "sense-lex-jmdict-1406710-1": {
+    "senseVersion": 1,
+    "words": [
+      "損",
+      "被害"
+    ]
+  },
+  "sense-lex-jmdict-1406750-1": {
+    "senseVersion": 1,
+    "words": [
+      "利益",
+      "損害"
+    ]
+  },
+  "sense-lex-jmdict-1407460-1": {
+    "senseVersion": 1,
+    "words": [
+      "少ない",
+      "大いに"
+    ]
+  },
+  "sense-lex-jmdict-1407980-1": {
+    "senseVersion": 1,
+    "words": [
+      "確か",
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1408100-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "様々"
+    ]
+  },
+  "sense-lex-jmdict-1408180-1": {
+    "senseVersion": 1,
+    "words": [
+      "細い",
+      "厚い"
+    ]
+  },
+  "sense-lex-jmdict-1408510-1": {
+    "senseVersion": 1,
+    "words": [
+      "譲歩",
+      "折衷"
+    ]
+  },
+  "sense-lex-jmdict-1408530-1": {
+    "senseVersion": 1,
+    "words": [
+      "妥協",
+      "解決"
+    ]
+  },
+  "sense-lex-jmdict-1408540-1": {
+    "senseVersion": 1,
+    "words": [
+      "尤も",
+      "不当"
+    ]
+  },
+  "sense-lex-jmdict-1408815-1": {
+    "senseVersion": 1,
+    "words": [
+      "叩く",
+      "打つ（うつ）"
+    ]
+  },
+  "sense-lex-jmdict-1409110-1": {
+    "senseVersion": 1,
+    "words": [
+      "可能",
+      "嫌"
+    ]
+  },
+  "sense-lex-jmdict-1409140-1": {
+    "senseVersion": 1,
+    "words": [
+      "心",
+      "スタイル"
+    ]
+  },
+  "sense-lex-jmdict-1409200-1": {
+    "senseVersion": 1,
+    "words": [
+      "運動",
+      "体操"
+    ]
+  },
+  "sense-lex-jmdict-1409390-1": {
+    "senseVersion": 1,
+    "words": [
+      "体制",
+      "系統"
+    ]
+  },
+  "sense-lex-jmdict-1409550-1": {
+    "senseVersion": 1,
+    "words": [
+      "体系",
+      "系統"
+    ]
+  },
+  "sense-lex-jmdict-1409560-1": {
+    "senseVersion": 1,
+    "words": [
+      "面積",
+      "容積"
+    ]
+  },
+  "sense-lex-jmdict-1409580-1": {
+    "senseVersion": 1,
+    "words": [
+      "散歩",
+      "体育"
+    ]
+  },
+  "sense-lex-jmdict-1409840-1": {
+    "senseVersion": 1,
+    "words": [
+      "反応",
+      "歓迎"
+    ]
+  },
+  "sense-lex-jmdict-1410050-1": {
+    "senseVersion": 1,
+    "words": [
+      "原因",
+      "措置"
+    ]
+  },
+  "sense-lex-jmdict-1410070-1": {
+    "senseVersion": 1,
+    "words": [
+      "予防",
+      "対応"
+    ]
+  },
+  "sense-lex-jmdict-1410080-1": {
+    "senseVersion": 1,
+    "words": [
+      "照合",
+      "一致"
+    ]
+  },
+  "sense-lex-jmdict-1410120-1": {
+    "senseVersion": 1,
+    "words": [
+      "目的",
+      "目標"
+    ]
+  },
+  "sense-lex-jmdict-1410250-1": {
+    "senseVersion": 1,
+    "words": [
+      "平等",
+      "同等"
+    ]
+  },
+  "sense-lex-jmdict-1410260-1": {
+    "senseVersion": 1,
+    "words": [
+      "比較",
+      "コントラスト"
+    ]
+  },
+  "sense-lex-jmdict-1410290-1": {
+    "senseVersion": 1,
+    "words": [
+      "抗争",
+      "対話"
+    ]
+  },
+  "sense-lex-jmdict-1410300-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "独白"
+    ]
+  },
+  "sense-lex-jmdict-1410410-1": {
+    "senseVersion": 1,
+    "words": [
+      "ベルト"
+    ]
+  },
+  "sense-lex-jmdict-1410710-1": {
+    "senseVersion": 1,
+    "words": [
+      "努める",
+      "逃げる"
+    ]
+  },
+  "sense-lex-jmdict-1410780-1": {
+    "senseVersion": 1,
+    "words": [
+      "姿勢",
+      "行動"
+    ]
+  },
+  "sense-lex-jmdict-1411110-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸出",
+      "借り"
+    ]
+  },
+  "sense-lex-jmdict-1411470-1": {
+    "senseVersion": 1,
+    "words": [
+      "有罪",
+      "捕る"
+    ]
+  },
+  "sense-lex-jmdict-1412170-1": {
+    "senseVersion": 1,
+    "words": [
+      "代理",
+      "首脳"
+    ]
+  },
+  "sense-lex-jmdict-1412400-1": {
+    "senseVersion": 1,
+    "words": [
+      "本人",
+      "代表"
+    ]
+  },
+  "sense-lex-jmdict-1412560-1": {
+    "senseVersion": 1,
+    "words": [
+      "椅子",
+      "基盤"
+    ]
+  },
+  "sense-lex-jmdict-1412880-1": {
+    "senseVersion": 1,
+    "words": [
+      "とても",
+      "極めて"
+    ]
+  },
+  "sense-lex-jmdict-1412890-1": {
+    "senseVersion": 1,
+    "words": [
+      "小さな",
+      "膨大"
+    ]
+  },
+  "sense-lex-jmdict-1412960-1": {
+    "senseVersion": 1,
+    "words": [
+      "大きい",
+      "重要"
+    ]
+  },
+  "sense-lex-jmdict-1413330-1": {
+    "senseVersion": 1,
+    "words": [
+      "天気",
+      "空気"
+    ]
+  },
+  "sense-lex-jmdict-1413940-1": {
+    "senseVersion": 1,
+    "words": [
+      "大切"
+    ]
+  },
+  "sense-lex-jmdict-1414150-1": {
+    "senseVersion": 1,
+    "words": [
+      "平気",
+      "宜しい"
+    ]
+  },
+  "sense-lex-jmdict-1414170-1": {
+    "senseVersion": 1,
+    "words": [
+      "成人",
+      "子供"
+    ]
+  },
+  "sense-lex-jmdict-1414220-1": {
+    "senseVersion": 1,
+    "words": [
+      "人ごみ",
+      "多い"
+    ]
+  },
+  "sense-lex-jmdict-1414340-1": {
+    "senseVersion": 1,
+    "words": [
+      "大事"
+    ]
+  },
+  "sense-lex-jmdict-1414470-1": {
+    "senseVersion": 1,
+    "words": [
+      "約",
+      "ざっと"
+    ]
+  },
+  "sense-lex-jmdict-1414570-1": {
+    "senseVersion": 1,
+    "words": [
+      "路地",
+      "通路"
+    ]
+  },
+  "sense-lex-jmdict-1414580-1": {
+    "senseVersion": 1,
+    "words": [
+      "一般",
+      "通常"
+    ]
+  },
+  "sense-lex-jmdict-1414790-1": {
+    "senseVersion": 1,
+    "words": [
+      "大部分",
+      "半分"
+    ]
+  },
+  "sense-lex-jmdict-1414850-1": {
+    "senseVersion": 1,
+    "words": [
+      "大半",
+      "全部"
+    ]
+  },
+  "sense-lex-jmdict-1414920-1": {
+    "senseVersion": 1,
+    "words": [
+      "結構",
+      "随分"
+    ]
+  },
+  "sense-lex-jmdict-1415470-1": {
+    "senseVersion": 1,
+    "words": [
+      "見出し",
+      "主題"
+    ]
+  },
+  "sense-lex-jmdict-1415490-1": {
+    "senseVersion": 1,
+    "words": [
+      "見出し",
+      "題"
+    ]
+  },
+  "sense-lex-jmdict-1416190-1": {
+    "senseVersion": 1,
+    "words": [
+      "従って",
+      "だけど"
+    ]
+  },
+  "sense-lex-jmdict-1416230-1": {
+    "senseVersion": 1,
+    "words": [
+      "至る",
+      "及ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1416560-1": {
+    "senseVersion": 1,
+    "words": [
+      "中断",
+      "逸脱"
+    ]
+  },
+  "sense-lex-jmdict-1416700-1": {
+    "senseVersion": 1,
+    "words": [
+      "引き出し",
+      "台"
+    ]
+  },
+  "sense-lex-jmdict-1417020-1": {
+    "senseVersion": 1,
+    "words": [
+      "単に",
+      "簡単"
+    ]
+  },
+  "sense-lex-jmdict-1417030-1": {
+    "senseVersion": 1,
+    "words": [
+      "特に",
+      "あっさり"
+    ]
+  },
+  "sense-lex-jmdict-1418140-1": {
+    "senseVersion": 1,
+    "words": [
+      "抱える",
+      "負う"
+    ]
+  },
+  "sense-lex-jmdict-1418760-1": {
+    "senseVersion": 1,
+    "words": [
+      "長所",
+      "傷"
+    ]
+  },
+  "sense-lex-jmdict-1419230-1": {
+    "senseVersion": 1,
+    "words": [
+      "分裂",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1419530-1": {
+    "senseVersion": 1,
+    "words": [
+      "柔軟",
+      "融通"
+    ]
+  },
+  "sense-lex-jmdict-1419590-1": {
+    "senseVersion": 1,
+    "words": [
+      "推測",
+      "主張"
+    ]
+  },
+  "sense-lex-jmdict-1419740-1": {
+    "senseVersion": 1,
+    "words": [
+      "推測",
+      "決定"
+    ]
+  },
+  "sense-lex-jmdict-1419860-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷房",
+      "加熱"
+    ]
+  },
+  "sense-lex-jmdict-1419950-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果",
+      "時期"
+    ]
+  },
+  "sense-lex-jmdict-1419990-1": {
+    "senseVersion": 1,
+    "words": [
+      "男性",
+      "男子"
+    ]
+  },
+  "sense-lex-jmdict-1420010-1": {
+    "senseVersion": 1,
+    "words": [
+      "少年",
+      "女の子"
+    ]
+  },
+  "sense-lex-jmdict-1420070-1": {
+    "senseVersion": 1,
+    "words": [
+      "男",
+      "男性"
+    ]
+  },
+  "sense-lex-jmdict-1420160-1": {
+    "senseVersion": 1,
+    "words": [
+      "男",
+      "男子"
+    ]
+  },
+  "sense-lex-jmdict-1420340-1": {
+    "senseVersion": 1,
+    "words": [
+      "価値",
+      "値段"
+    ]
+  },
+  "sense-lex-jmdict-1420400-1": {
+    "senseVersion": 1,
+    "words": [
+      "通知",
+      "消息"
+    ]
+  },
+  "sense-lex-jmdict-1420530-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "理性"
+    ]
+  },
+  "sense-lex-jmdict-1420590-1": {
+    "senseVersion": 1,
+    "words": [
+      "知能",
+      "情報"
+    ]
+  },
+  "sense-lex-jmdict-1420630-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "知恵"
+    ]
+  },
+  "sense-lex-jmdict-1420680-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "知恵"
+    ]
+  },
+  "sense-lex-jmdict-1420780-1": {
+    "senseVersion": 1,
+    "words": [
+      "位",
+      "位置"
+    ]
+  },
+  "sense-lex-jmdict-1420800-1": {
+    "senseVersion": 1,
+    "words": [
+      "地区",
+      "地方"
+    ]
+  },
+  "sense-lex-jmdict-1421020-1": {
+    "senseVersion": 1,
+    "words": [
+      "区域",
+      "セクション"
+    ]
+  },
+  "sense-lex-jmdict-1421290-1": {
+    "senseVersion": 1,
+    "words": [
+      "写真",
+      "図"
+    ]
+  },
+  "sense-lex-jmdict-1421360-1": {
+    "senseVersion": 1,
+    "words": [
+      "地点",
+      "地域"
+    ]
+  },
+  "sense-lex-jmdict-1421380-1": {
+    "senseVersion": 1,
+    "words": [
+      "箇所",
+      "範囲"
+    ]
+  },
+  "sense-lex-jmdict-1421420-1": {
+    "senseVersion": 1,
+    "words": [
+      "地面",
+      "基本"
+    ]
+  },
+  "sense-lex-jmdict-1421450-1": {
+    "senseVersion": 1,
+    "words": [
+      "田舎",
+      "都会"
+    ]
+  },
+  "sense-lex-jmdict-1421490-1": {
+    "senseVersion": 1,
+    "words": [
+      "派手",
+      "簡素"
+    ]
+  },
+  "sense-lex-jmdict-1421630-1": {
+    "senseVersion": 1,
+    "words": [
+      "困る",
+      "醜い"
+    ]
+  },
+  "sense-lex-jmdict-1421970-1": {
+    "senseVersion": 1,
+    "words": [
+      "遅れる",
+      "早い"
+    ]
+  },
+  "sense-lex-jmdict-1422440-1": {
+    "senseVersion": 1,
+    "words": [
+      "消費",
+      "収める"
+    ]
+  },
+  "sense-lex-jmdict-1422520-1": {
+    "senseVersion": 1,
+    "words": [
+      "順序",
+      "機構"
+    ]
+  },
+  "sense-lex-jmdict-1423030-1": {
+    "senseVersion": 1,
+    "words": [
+      "着手",
+      "就業"
+    ]
+  },
+  "sense-lex-jmdict-1423060-1": {
+    "senseVersion": 1,
+    "words": [
+      "完了",
+      "最初"
+    ]
+  },
+  "sense-lex-jmdict-1423240-1": {
+    "senseVersion": 1,
+    "words": [
+      "洋服",
+      "服"
+    ]
+  },
+  "sense-lex-jmdict-1423260-1": {
+    "senseVersion": 1,
+    "words": [
+      "注目",
+      "注意"
+    ]
+  },
+  "sense-lex-jmdict-1423310-1": {
+    "senseVersion": 1,
+    "words": [
+      "外",
+      "中央"
+    ]
+  },
+  "sense-lex-jmdict-1423430-1": {
+    "senseVersion": 1,
+    "words": [
+      "端",
+      "中心"
+    ]
+  },
+  "sense-lex-jmdict-1423680-1": {
+    "senseVersion": 1,
+    "words": [
+      "半ば",
+      "両端"
+    ]
+  },
+  "sense-lex-jmdict-1424410-1": {
+    "senseVersion": 1,
+    "words": [
+      "停止",
+      "解除"
+    ]
+  },
+  "sense-lex-jmdict-1424500-1": {
+    "senseVersion": 1,
+    "words": [
+      "批判",
+      "悪口"
+    ]
+  },
+  "sense-lex-jmdict-1424550-1": {
+    "senseVersion": 1,
+    "words": [
+      "核",
+      "周辺"
+    ]
+  },
+  "sense-lex-jmdict-1424660-1": {
+    "senseVersion": 1,
+    "words": [
+      "末端",
+      "中央"
+    ]
+  },
+  "sense-lex-jmdict-1424900-1": {
+    "senseVersion": 1,
+    "words": [
+      "終了",
+      "停止"
+    ]
+  },
+  "sense-lex-jmdict-1425030-1": {
+    "senseVersion": 1,
+    "words": [
+      "途中",
+      "最中"
+    ]
+  },
+  "sense-lex-jmdict-1425710-1": {
+    "senseVersion": 1,
+    "words": [
+      "間柄",
+      "間"
+    ]
+  },
+  "sense-lex-jmdict-1425790-1": {
+    "senseVersion": 1,
+    "words": [
+      "同僚",
+      "親友"
+    ]
+  },
+  "sense-lex-jmdict-1426000-1": {
+    "senseVersion": 1,
+    "words": [
+      "けんか",
+      "調整"
+    ]
+  },
+  "sense-lex-jmdict-1426100-1": {
+    "senseVersion": 1,
+    "words": [
+      "親友",
+      "知人"
+    ]
+  },
+  "sense-lex-jmdict-1426140-1": {
+    "senseVersion": 1,
+    "words": [
+      "命令",
+      "勧告"
+    ]
+  },
+  "sense-lex-jmdict-1426250-1": {
+    "senseVersion": 1,
+    "words": [
+      "夜",
+      "正午"
+    ]
+  },
+  "sense-lex-jmdict-1426530-1": {
+    "senseVersion": 1,
+    "words": [
+      "用心",
+      "警告"
+    ]
+  },
+  "sense-lex-jmdict-1426650-1": {
+    "senseVersion": 1,
+    "words": [
+      "予約",
+      "要求"
+    ]
+  },
+  "sense-lex-jmdict-1426670-1": {
+    "senseVersion": 1,
+    "words": [
+      "着目",
+      "注意"
+    ]
+  },
+  "sense-lex-jmdict-1426680-1": {
+    "senseVersion": 1,
+    "words": [
+      "昆虫",
+      "動物"
+    ]
+  },
+  "sense-lex-jmdict-1427070-1": {
+    "senseVersion": 1,
+    "words": [
+      "顕著",
+      "珍しい"
+    ]
+  },
+  "sense-lex-jmdict-1427150-1": {
+    "senseVersion": 1,
+    "words": [
+      "著しい",
+      "有力"
+    ]
+  },
+  "sense-lex-jmdict-1427220-1": {
+    "senseVersion": 1,
+    "words": [
+      "保存",
+      "維持"
+    ]
+  },
+  "sense-lex-jmdict-1427360-1": {
+    "senseVersion": 1,
+    "words": [
+      "親切",
+      "慎重"
+    ]
+  },
+  "sense-lex-jmdict-1427870-1": {
+    "senseVersion": 1,
+    "words": [
+      "落ち込む",
+      "意気込む"
+    ]
+  },
+  "sense-lex-jmdict-1428110-1": {
+    "senseVersion": 1,
+    "words": [
+      "支給",
+      "回収"
+    ]
+  },
+  "sense-lex-jmdict-1429080-1": {
+    "senseVersion": 1,
+    "words": [
+      "署名",
+      "サイン"
+    ]
+  },
+  "sense-lex-jmdict-1429120-1": {
+    "senseVersion": 1,
+    "words": [
+      "研究",
+      "観測"
+    ]
+  },
+  "sense-lex-jmdict-1429200-1": {
+    "senseVersion": 1,
+    "words": [
+      "調停",
+      "調節"
+    ]
+  },
+  "sense-lex-jmdict-1429240-1": {
+    "senseVersion": 1,
+    "words": [
+      "加減",
+      "コントロール"
+    ]
+  },
+  "sense-lex-jmdict-1429260-1": {
+    "senseVersion": 1,
+    "words": [
+      "調整",
+      "裁判"
+    ]
+  },
+  "sense-lex-jmdict-1429330-1": {
+    "senseVersion": 1,
+    "words": [
+      "協調",
+      "統一"
+    ]
+  },
+  "sense-lex-jmdict-1429410-1": {
+    "senseVersion": 1,
+    "words": [
+      "不足",
+      "突破"
+    ]
+  },
+  "sense-lex-jmdict-1429750-1": {
+    "senseVersion": 1,
+    "words": [
+      "短い",
+      "古い"
+    ]
+  },
+  "sense-lex-jmdict-1430030-1": {
+    "senseVersion": 1,
+    "words": [
+      "利点",
+      "特長"
+    ]
+  },
+  "sense-lex-jmdict-1430220-1": {
+    "senseVersion": 1,
+    "words": [
+      "麓",
+      "一流"
+    ]
+  },
+  "sense-lex-jmdict-1430240-1": {
+    "senseVersion": 1,
+    "words": [
+      "辺",
+      "一流"
+    ]
+  },
+  "sense-lex-jmdict-1430610-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆっくり",
+      "直ちに"
+    ]
+  },
+  "sense-lex-jmdict-1430670-1": {
+    "senseVersion": 1,
+    "words": [
+      "早速",
+      "即座に"
+    ]
+  },
+  "sense-lex-jmdict-1430690-1": {
+    "senseVersion": 1,
+    "words": [
+      "間接的に",
+      "直接"
+    ]
+  },
+  "sense-lex-jmdict-1430850-1": {
+    "senseVersion": 1,
+    "words": [
+      "勘",
+      "理論"
+    ]
+  },
+  "sense-lex-jmdict-1431540-1": {
+    "senseVersion": 1,
+    "words": [
+      "回避",
+      "対立"
+    ]
+  },
+  "sense-lex-jmdict-1431850-1": {
+    "senseVersion": 1,
+    "words": [
+      "稀",
+      "有名"
+    ]
+  },
+  "sense-lex-jmdict-1431990-1": {
+    "senseVersion": 1,
+    "words": [
+      "料金",
+      "給与"
+    ]
+  },
+  "sense-lex-jmdict-1432280-1": {
+    "senseVersion": 1,
+    "words": [
+      "追いつく",
+      "勝る"
+    ]
+  },
+  "sense-lex-jmdict-1432410-1": {
+    "senseVersion": 1,
+    "words": [
+      "追いかける",
+      "追跡"
+    ]
+  },
+  "sense-lex-jmdict-1432460-1": {
+    "senseVersion": 1,
+    "words": [
+      "削除",
+      "増加"
+    ]
+  },
+  "sense-lex-jmdict-1432480-1": {
+    "senseVersion": 1,
+    "words": [
+      "追求",
+      "研究"
+    ]
+  },
+  "sense-lex-jmdict-1432560-1": {
+    "senseVersion": 1,
+    "words": [
+      "追及",
+      "追う"
+    ]
+  },
+  "sense-lex-jmdict-1432670-1": {
+    "senseVersion": 1,
+    "words": [
+      "退職",
+      "解除"
+    ]
+  },
+  "sense-lex-jmdict-1432680-1": {
+    "senseVersion": 1,
+    "words": [
+      "痛む",
+      "苦しい"
+    ]
+  },
+  "sense-lex-jmdict-1432980-1": {
+    "senseVersion": 1,
+    "words": [
+      "通る",
+      "過ぎる"
+    ]
+  },
+  "sense-lex-jmdict-1433050-1": {
+    "senseVersion": 1,
+    "words": [
+      "貨幣",
+      "現金"
+    ]
+  },
+  "sense-lex-jmdict-1433070-1": {
+    "senseVersion": 1,
+    "words": [
+      "パス",
+      "停止"
+    ]
+  },
+  "sense-lex-jmdict-1433180-1": {
+    "senseVersion": 1,
+    "words": [
+      "通学",
+      "交通"
+    ]
+  },
+  "sense-lex-jmdict-1433280-1": {
+    "senseVersion": 1,
+    "words": [
+      "一般",
+      "普通"
+    ]
+  },
+  "sense-lex-jmdict-1433330-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話",
+      "対話"
+    ]
+  },
+  "sense-lex-jmdict-1433470-1": {
+    "senseVersion": 1,
+    "words": [
+      "知らせ",
+      "相談"
+    ]
+  },
+  "sense-lex-jmdict-1433570-1": {
+    "senseVersion": 1,
+    "words": [
+      "無効",
+      "流通"
+    ]
+  },
+  "sense-lex-jmdict-1433600-1": {
+    "senseVersion": 1,
+    "words": [
+      "出口",
+      "道"
+    ]
+  },
+  "sense-lex-jmdict-1433830-1": {
+    "senseVersion": 1,
+    "words": [
+      "凹む",
+      "潰す"
+    ]
+  },
+  "sense-lex-jmdict-1434020-1": {
+    "senseVersion": 1,
+    "words": [
+      "置く",
+      "下げる"
+    ]
+  },
+  "sense-lex-jmdict-1434050-1": {
+    "senseVersion": 1,
+    "words": [
+      "偏る",
+      "安定"
+    ]
+  },
+  "sense-lex-jmdict-1434180-1": {
+    "senseVersion": 1,
+    "words": [
+      "高い",
+      "少ない"
+    ]
+  },
+  "sense-lex-jmdict-1434250-1": {
+    "senseVersion": 1,
+    "words": [
+      "向上",
+      "減少"
+    ]
+  },
+  "sense-lex-jmdict-1434920-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止",
+      "再開"
+    ]
+  },
+  "sense-lex-jmdict-1434960-1": {
+    "senseVersion": 1,
+    "words": [
+      "駐車",
+      "阻止"
+    ]
+  },
+  "sense-lex-jmdict-1435010-1": {
+    "senseVersion": 1,
+    "words": [
+      "進展",
+      "停止"
+    ]
+  },
+  "sense-lex-jmdict-1435740-1": {
+    "senseVersion": 1,
+    "words": [
+      "退職",
+      "引退"
+    ]
+  },
+  "sense-lex-jmdict-1436260-1": {
+    "senseVersion": 1,
+    "words": [
+      "拒否",
+      "拒絶"
+    ]
+  },
+  "sense-lex-jmdict-1436320-1": {
+    "senseVersion": 1,
+    "words": [
+      "案",
+      "命令"
+    ]
+  },
+  "sense-lex-jmdict-1436360-1": {
+    "senseVersion": 1,
+    "words": [
+      "提案",
+      "与える"
+    ]
+  },
+  "sense-lex-jmdict-1436380-1": {
+    "senseVersion": 1,
+    "words": [
+      "合併",
+      "共同"
+    ]
+  },
+  "sense-lex-jmdict-1436400-1": {
+    "senseVersion": 1,
+    "words": [
+      "提出",
+      "表示"
+    ]
+  },
+  "sense-lex-jmdict-1436410-1": {
+    "senseVersion": 1,
+    "words": [
+      "提示"
+    ]
+  },
+  "sense-lex-jmdict-1436510-1": {
+    "senseVersion": 1,
+    "words": [
+      "程度",
+      "加減"
+    ]
+  },
+  "sense-lex-jmdict-1436540-1": {
+    "senseVersion": 1,
+    "words": [
+      "水準",
+      "加減"
+    ]
+  },
+  "sense-lex-jmdict-1436840-1": {
+    "senseVersion": 1,
+    "words": [
+      "ねじ",
+      "ピン"
+    ]
+  },
+  "sense-lex-jmdict-1437290-1": {
+    "senseVersion": 1,
+    "words": [
+      "正確",
+      "適切"
+    ]
+  },
+  "sense-lex-jmdict-1437340-1": {
+    "senseVersion": 1,
+    "words": [
+      "手ごろ",
+      "異なる"
+    ]
+  },
+  "sense-lex-jmdict-1437380-1": {
+    "senseVersion": 1,
+    "words": [
+      "一律",
+      "正式"
+    ]
+  },
+  "sense-lex-jmdict-1437410-1": {
+    "senseVersion": 1,
+    "words": [
+      "適応",
+      "素質"
+    ]
+  },
+  "sense-lex-jmdict-1437430-1": {
+    "senseVersion": 1,
+    "words": [
+      "正確",
+      "正式"
+    ]
+  },
+  "sense-lex-jmdict-1437440-1": {
+    "senseVersion": 1,
+    "words": [
+      "手ごろ",
+      "過度"
+    ]
+  },
+  "sense-lex-jmdict-1437450-1": {
+    "senseVersion": 1,
+    "words": [
+      "適切",
+      "いい加減"
+    ]
+  },
+  "sense-lex-jmdict-1437500-1": {
+    "senseVersion": 1,
+    "words": [
+      "応用",
+      "使用"
+    ]
+  },
+  "sense-lex-jmdict-1437670-1": {
+    "senseVersion": 1,
+    "words": [
+      "中途半端",
+      "厳重"
+    ]
+  },
+  "sense-lex-jmdict-1437710-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り消し",
+      "廃棄"
+    ]
+  },
+  "sense-lex-jmdict-1437960-1": {
+    "senseVersion": 1,
+    "words": [
+      "道路",
+      "線路"
+    ]
+  },
+  "sense-lex-jmdict-1438080-1": {
+    "senseVersion": 1,
+    "words": [
+      "例外",
+      "代表"
+    ]
+  },
+  "sense-lex-jmdict-1438690-1": {
+    "senseVersion": 1,
+    "words": [
+      "天候",
+      "季節"
+    ]
+  },
+  "sense-lex-jmdict-1438970-1": {
+    "senseVersion": 1,
+    "words": [
+      "天気",
+      "気候"
+    ]
+  },
+  "sense-lex-jmdict-1439580-1": {
+    "senseVersion": 1,
+    "words": [
+      "人工",
+      "自然"
+    ]
+  },
+  "sense-lex-jmdict-1440600-1": {
+    "senseVersion": 1,
+    "words": [
+      "結末",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1440610-1": {
+    "senseVersion": 1,
+    "words": [
+      "陳列",
+      "表示"
+    ]
+  },
+  "sense-lex-jmdict-1440640-1": {
+    "senseVersion": 1,
+    "words": [
+      "見通し",
+      "見込み"
+    ]
+  },
+  "sense-lex-jmdict-1440660-1": {
+    "senseVersion": 1,
+    "words": [
+      "発表会",
+      "展示"
+    ]
+  },
+  "sense-lex-jmdict-1440980-1": {
+    "senseVersion": 1,
+    "words": [
+      "転がる",
+      "倒す"
+    ]
+  },
+  "sense-lex-jmdict-1441000-1": {
+    "senseVersion": 1,
+    "words": [
+      "転がす",
+      "転ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1441080-1": {
+    "senseVersion": 1,
+    "words": [
+      "移行",
+      "継続"
+    ]
+  },
+  "sense-lex-jmdict-1441100-1": {
+    "senseVersion": 1,
+    "words": [
+      "転勤",
+      "移転"
+    ]
+  },
+  "sense-lex-jmdict-1441390-1": {
+    "senseVersion": 1,
+    "words": [
+      "部分",
+      "箇所"
+    ]
+  },
+  "sense-lex-jmdict-1441400-1": {
+    "senseVersion": 1,
+    "words": [
+      "消える",
+      "付く"
+    ]
+  },
+  "sense-lex-jmdict-1442240-1": {
+    "senseVersion": 1,
+    "words": [
+      "伝承",
+      "通信"
+    ]
+  },
+  "sense-lex-jmdict-1442260-1": {
+    "senseVersion": 1,
+    "words": [
+      "流行",
+      "習慣"
+    ]
+  },
+  "sense-lex-jmdict-1442750-1": {
+    "senseVersion": 1,
+    "words": [
+      "地方",
+      "郊外"
+    ]
+  },
+  "sense-lex-jmdict-1443530-1": {
+    "senseVersion": 1,
+    "words": [
+      "バス",
+      "列車"
+    ]
+  },
+  "sense-lex-jmdict-1443620-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾電池",
+      "充電器"
+    ]
+  },
+  "sense-lex-jmdict-1443720-1": {
+    "senseVersion": 1,
+    "words": [
+      "音波",
+      "信号"
+    ]
+  },
+  "sense-lex-jmdict-1444680-1": {
+    "senseVersion": 1,
+    "words": [
+      "通る",
+      "越える"
+    ]
+  },
+  "sense-lex-jmdict-1444950-1": {
+    "senseVersion": 1,
+    "words": [
+      "首都",
+      "都会"
+    ]
+  },
+  "sense-lex-jmdict-1444970-1": {
+    "senseVersion": 1,
+    "words": [
+      "都市",
+      "田舎"
+    ]
+  },
+  "sense-lex-jmdict-1444990-1": {
+    "senseVersion": 1,
+    "words": [
+      "都会",
+      "町"
+    ]
+  },
+  "sense-lex-jmdict-1445150-1": {
+    "senseVersion": 1,
+    "words": [
+      "回",
+      "時間"
+    ]
+  },
+  "sense-lex-jmdict-1445270-1": {
+    "senseVersion": 1,
+    "words": [
+      "砂",
+      "土地"
+    ]
+  },
+  "sense-lex-jmdict-1445360-1": {
+    "senseVersion": 1,
+    "words": [
+      "お土産",
+      "記念品"
+    ]
+  },
+  "sense-lex-jmdict-1445470-1": {
+    "senseVersion": 1,
+    "words": [
+      "土",
+      "場所"
+    ]
+  },
+  "sense-lex-jmdict-1445770-1": {
+    "senseVersion": 1,
+    "words": [
+      "倒れる",
+      "損なう"
+    ]
+  },
+  "sense-lex-jmdict-1445980-1": {
+    "senseVersion": 1,
+    "words": [
+      "政党",
+      "政府"
+    ]
+  },
+  "sense-lex-jmdict-1447230-1": {
+    "senseVersion": 1,
+    "words": [
+      "浪費",
+      "投入"
+    ]
+  },
+  "sense-lex-jmdict-1447270-1": {
+    "senseVersion": 1,
+    "words": [
+      "返信",
+      "手紙"
+    ]
+  },
+  "sense-lex-jmdict-1447300-1": {
+    "senseVersion": 1,
+    "words": [
+      "投資"
+    ]
+  },
+  "sense-lex-jmdict-1447320-1": {
+    "senseVersion": 1,
+    "words": [
+      "選挙",
+      "採決"
+    ]
+  },
+  "sense-lex-jmdict-1448500-1": {
+    "senseVersion": 1,
+    "words": [
+      "紛失",
+      "強盗"
+    ]
+  },
+  "sense-lex-jmdict-1448600-1": {
+    "senseVersion": 1,
+    "words": [
+      "煙",
+      "蒸気"
+    ]
+  },
+  "sense-lex-jmdict-1448760-1": {
+    "senseVersion": 1,
+    "words": [
+      "ガソリン",
+      "石油"
+    ]
+  },
+  "sense-lex-jmdict-1449330-1": {
+    "senseVersion": 1,
+    "words": [
+      "同じ",
+      "似ている"
+    ]
+  },
+  "sense-lex-jmdict-1449530-1": {
+    "senseVersion": 1,
+    "words": [
+      "質問",
+      "解決"
+    ]
+  },
+  "sense-lex-jmdict-1449550-1": {
+    "senseVersion": 1,
+    "words": [
+      "解答",
+      "問題"
+    ]
+  },
+  "sense-lex-jmdict-1449670-1": {
+    "senseVersion": 1,
+    "words": [
+      "統合",
+      "合併"
+    ]
+  },
+  "sense-lex-jmdict-1449760-1": {
+    "senseVersion": 1,
+    "words": [
+      "分割",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1449820-1": {
+    "senseVersion": 1,
+    "words": [
+      "コントロール",
+      "統一"
+    ]
+  },
+  "sense-lex-jmdict-1450320-1": {
+    "senseVersion": 1,
+    "words": [
+      "放す",
+      "捕まえる"
+    ]
+  },
+  "sense-lex-jmdict-1450900-1": {
+    "senseVersion": 1,
+    "words": [
+      "頭痛",
+      "知能"
+    ]
+  },
+  "sense-lex-jmdict-1451040-1": {
+    "senseVersion": 1,
+    "words": [
+      "機能",
+      "技能"
+    ]
+  },
+  "sense-lex-jmdict-1451310-1": {
+    "senseVersion": 1,
+    "words": [
+      "動向",
+      "目的"
+    ]
+  },
+  "sense-lex-jmdict-1451330-1": {
+    "senseVersion": 1,
+    "words": [
+      "動機",
+      "傾向"
+    ]
+  },
+  "sense-lex-jmdict-1451630-1": {
+    "senseVersion": 1,
+    "words": [
+      "動作",
+      "刺激"
+    ]
+  },
+  "sense-lex-jmdict-1451660-1": {
+    "senseVersion": 1,
+    "words": [
+      "動機",
+      "勢い"
+    ]
+  },
+  "sense-lex-jmdict-1451750-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "一様"
+    ]
+  },
+  "sense-lex-jmdict-1451900-1": {
+    "senseVersion": 1,
+    "words": [
+      "一様",
+      "同じ"
+    ]
+  },
+  "sense-lex-jmdict-1452500-1": {
+    "senseVersion": 1,
+    "words": [
+      "順番",
+      "一斉"
+    ]
+  },
+  "sense-lex-jmdict-1452720-1": {
+    "senseVersion": 1,
+    "words": [
+      "共感",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1453120-1": {
+    "senseVersion": 1,
+    "words": [
+      "同意",
+      "合意"
+    ]
+  },
+  "sense-lex-jmdict-1453190-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "同様"
+    ]
+  },
+  "sense-lex-jmdict-1453550-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "一様"
+    ]
+  },
+  "sense-lex-jmdict-1453580-1": {
+    "senseVersion": 1,
+    "words": [
+      "仲間",
+      "上司"
+    ]
+  },
+  "sense-lex-jmdict-1454080-1": {
+    "senseVersion": 1,
+    "words": [
+      "橋",
+      "方向"
+    ]
+  },
+  "sense-lex-jmdict-1454180-1": {
+    "senseVersion": 1,
+    "words": [
+      "器具",
+      "材料"
+    ]
+  },
+  "sense-lex-jmdict-1454670-1": {
+    "senseVersion": 1,
+    "words": [
+      "とても",
+      "格別"
+    ]
+  },
+  "sense-lex-jmdict-1454870-1": {
+    "senseVersion": 1,
+    "words": [
+      "権利"
+    ]
+  },
+  "sense-lex-jmdict-1454970-1": {
+    "senseVersion": 1,
+    "words": [
+      "一般",
+      "特別"
+    ]
+  },
+  "sense-lex-jmdict-1455080-1": {
+    "senseVersion": 1,
+    "words": [
+      "特長",
+      "特徴"
+    ]
+  },
+  "sense-lex-jmdict-1455200-1": {
+    "senseVersion": 1,
+    "words": [
+      "利点",
+      "長所"
+    ]
+  },
+  "sense-lex-jmdict-1455210-1": {
+    "senseVersion": 1,
+    "words": [
+      "全体",
+      "具体的"
+    ]
+  },
+  "sense-lex-jmdict-1455280-1": {
+    "senseVersion": 1,
+    "words": [
+      "格別",
+      "普通"
+    ]
+  },
+  "sense-lex-jmdict-1455370-1": {
+    "senseVersion": 1,
+    "words": [
+      "固有",
+      "共通"
+    ]
+  },
+  "sense-lex-jmdict-1455500-1": {
+    "senseVersion": 1,
+    "words": [
+      "薬",
+      "害"
+    ]
+  },
+  "sense-lex-jmdict-1455810-1": {
+    "senseVersion": 1,
+    "words": [
+      "固有",
+      "共通"
+    ]
+  },
+  "sense-lex-jmdict-1456010-1": {
+    "senseVersion": 1,
+    "words": [
+      "ユニーク",
+      "一般的"
+    ]
+  },
+  "sense-lex-jmdict-1456130-1": {
+    "senseVersion": 1,
+    "words": [
+      "意味",
+      "読書"
+    ]
+  },
+  "sense-lex-jmdict-1456420-1": {
+    "senseVersion": 1,
+    "words": [
+      "朗読",
+      "読み"
+    ]
+  },
+  "sense-lex-jmdict-1456780-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぶつける",
+      "避ける"
+    ]
+  },
+  "sense-lex-jmdict-1456940-1": {
+    "senseVersion": 1,
+    "words": [
+      "押し込む",
+      "引き出す"
+    ]
+  },
+  "sense-lex-jmdict-1457100-1": {
+    "senseVersion": 1,
+    "words": [
+      "到達",
+      "合格"
+    ]
+  },
+  "sense-lex-jmdict-1457730-1": {
+    "senseVersion": 1,
+    "words": [
+      "間",
+      "期間"
+    ]
+  },
+  "sense-lex-jmdict-1459360-1": {
+    "senseVersion": 1,
+    "words": [
+      "総額",
+      "箇条書き"
+    ]
+  },
+  "sense-lex-jmdict-1459720-1": {
+    "senseVersion": 1,
+    "words": [
+      "皿",
+      "鉢"
+    ]
+  },
+  "sense-lex-jmdict-1459830-1": {
+    "senseVersion": 1,
+    "words": [
+      "糸",
+      "紐"
+    ]
+  },
+  "sense-lex-jmdict-1460850-1": {
+    "senseVersion": 1,
+    "words": [
+      "易しい",
+      "複雑"
+    ]
+  },
+  "sense-lex-jmdict-1463480-1": {
+    "senseVersion": 1,
+    "words": [
+      "静か",
+      "活発"
+    ]
+  },
+  "sense-lex-jmdict-1463770-1": {
+    "senseVersion": 1,
+    "words": [
+      "日光",
+      "太陽"
+    ]
+  },
+  "sense-lex-jmdict-1463840-1": {
+    "senseVersion": 1,
+    "words": [
+      "陰",
+      "日なた"
+    ]
+  },
+  "sense-lex-jmdict-1464030-1": {
+    "senseVersion": 1,
+    "words": [
+      "日",
+      "照明"
+    ]
+  },
+  "sense-lex-jmdict-1464180-1": {
+    "senseVersion": 1,
+    "words": [
+      "特別",
+      "一般"
+    ]
+  },
+  "sense-lex-jmdict-1464250-1": {
+    "senseVersion": 1,
+    "words": [
+      "夜間",
+      "日"
+    ]
+  },
+  "sense-lex-jmdict-1464300-1": {
+    "senseVersion": 1,
+    "words": [
+      "スケジュール",
+      "予定"
+    ]
+  },
+  "sense-lex-jmdict-1464340-1": {
+    "senseVersion": 1,
+    "words": [
+      "日にち",
+      "曜日"
+    ]
+  },
+  "sense-lex-jmdict-1465850-1": {
+    "senseVersion": 1,
+    "words": [
+      "卒業",
+      "入場"
+    ]
+  },
+  "sense-lex-jmdict-1466360-1": {
+    "senseVersion": 1,
+    "words": [
+      "入学"
+    ]
+  },
+  "sense-lex-jmdict-1467260-1": {
+    "senseVersion": 1,
+    "words": [
+      "義務",
+      "課題"
+    ]
+  },
+  "sense-lex-jmdict-1467280-1": {
+    "senseVersion": 1,
+    "words": [
+      "選挙",
+      "採用"
+    ]
+  },
+  "sense-lex-jmdict-1467550-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "意識"
+    ]
+  },
+  "sense-lex-jmdict-1467710-1": {
+    "senseVersion": 1,
+    "words": [
+      "暑さ",
+      "気温"
+    ]
+  },
+  "sense-lex-jmdict-1467720-1": {
+    "senseVersion": 1,
+    "words": [
+      "暑い",
+      "暖かい"
+    ]
+  },
+  "sense-lex-jmdict-1467730-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷やす",
+      "沸かす"
+    ]
+  },
+  "sense-lex-jmdict-1467910-1": {
+    "senseVersion": 1,
+    "words": [
+      "真剣",
+      "熱中"
+    ]
+  },
+  "sense-lex-jmdict-1468060-1": {
+    "senseVersion": 1,
+    "words": [
+      "月",
+      "年齢"
+    ]
+  },
+  "sense-lex-jmdict-1468950-1": {
+    "senseVersion": 1,
+    "words": [
+      "年齢",
+      "時期"
+    ]
+  },
+  "sense-lex-jmdict-1469050-1": {
+    "senseVersion": 1,
+    "words": [
+      "年齢",
+      "学年"
+    ]
+  },
+  "sense-lex-jmdict-1469530-1": {
+    "senseVersion": 1,
+    "words": [
+      "回す",
+      "逸らす"
+    ]
+  },
+  "sense-lex-jmdict-1469890-1": {
+    "senseVersion": 1,
+    "words": [
+      "薄い",
+      "黒い"
+    ]
+  },
+  "sense-lex-jmdict-1470080-1": {
+    "senseVersion": 1,
+    "words": [
+      "理解",
+      "合意"
+    ]
+  },
+  "sense-lex-jmdict-1470090-1": {
+    "senseVersion": 1,
+    "words": [
+      "納税",
+      "供給"
+    ]
+  },
+  "sense-lex-jmdict-1470330-1": {
+    "senseVersion": 1,
+    "words": [
+      "能力",
+      "効率"
+    ]
+  },
+  "sense-lex-jmdict-1470370-1": {
+    "senseVersion": 1,
+    "words": [
+      "力",
+      "努力"
+    ]
+  },
+  "sense-lex-jmdict-1470910-1": {
+    "senseVersion": 1,
+    "words": [
+      "確認",
+      "知る"
+    ]
+  },
+  "sense-lex-jmdict-1471130-1": {
+    "senseVersion": 1,
+    "words": [
+      "出張",
+      "展開"
+    ]
+  },
+  "sense-lex-jmdict-1471380-1": {
+    "senseVersion": 1,
+    "words": [
+      "紛失",
+      "故障"
+    ]
+  },
+  "sense-lex-jmdict-1471420-1": {
+    "senseVersion": 1,
+    "words": [
+      "切れ",
+      "全体"
+    ]
+  },
+  "sense-lex-jmdict-1472030-1": {
+    "senseVersion": 1,
+    "words": [
+      "保管",
+      "処分"
+    ]
+  },
+  "sense-lex-jmdict-1472230-1": {
+    "senseVersion": 1,
+    "words": [
+      "願う",
+      "頼む"
+    ]
+  },
+  "sense-lex-jmdict-1472370-1": {
+    "senseVersion": 1,
+    "words": [
+      "除外",
+      "解除"
+    ]
+  },
+  "sense-lex-jmdict-1472680-1": {
+    "senseVersion": 1,
+    "words": [
+      "逆らう",
+      "従う"
+    ]
+  },
+  "sense-lex-jmdict-1472800-1": {
+    "senseVersion": 1,
+    "words": [
+      "腰",
+      "背"
+    ]
+  },
+  "sense-lex-jmdict-1473140-1": {
+    "senseVersion": 1,
+    "words": [
+      "配送",
+      "交付"
+    ]
+  },
+  "sense-lex-jmdict-1473150-1": {
+    "senseVersion": 1,
+    "words": [
+      "配布",
+      "派遣"
+    ]
+  },
+  "sense-lex-jmdict-1473200-1": {
+    "senseVersion": 1,
+    "words": [
+      "配布",
+      "分散"
+    ]
+  },
+  "sense-lex-jmdict-1473210-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠慮",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1473960-1": {
+    "senseVersion": 1,
+    "words": [
+      "売る"
+    ]
+  },
+  "sense-lex-jmdict-1474040-1": {
+    "senseVersion": 1,
+    "words": [
+      "倉庫",
+      "店"
+    ]
+  },
+  "sense-lex-jmdict-1474050-1": {
+    "senseVersion": 1,
+    "words": [
+      "贈与",
+      "貿易"
+    ]
+  },
+  "sense-lex-jmdict-1474110-1": {
+    "senseVersion": 1,
+    "words": [
+      "補償",
+      "代わり"
+    ]
+  },
+  "sense-lex-jmdict-1474620-1": {
+    "senseVersion": 1,
+    "words": [
+      "玄人",
+      "プロ"
+    ]
+  },
+  "sense-lex-jmdict-1474910-1": {
+    "senseVersion": 1,
+    "words": [
+      "白",
+      "真っ白"
+    ]
+  },
+  "sense-lex-jmdict-1475500-1": {
+    "senseVersion": 1,
+    "words": [
+      "濃くする",
+      "薄い"
+    ]
+  },
+  "sense-lex-jmdict-1475530-1": {
+    "senseVersion": 1,
+    "words": [
+      "明るい",
+      "暗い"
+    ]
+  },
+  "sense-lex-jmdict-1475730-1": {
+    "senseVersion": 1,
+    "words": [
+      "保護",
+      "抑圧"
+    ]
+  },
+  "sense-lex-jmdict-1475790-1": {
+    "senseVersion": 1,
+    "words": [
+      "明確",
+      "曖昧"
+    ]
+  },
+  "sense-lex-jmdict-1476060-1": {
+    "senseVersion": 1,
+    "words": [
+      "少額",
+      "巨大"
+    ]
+  },
+  "sense-lex-jmdict-1476500-1": {
+    "senseVersion": 1,
+    "words": [
+      "下着",
+      "上着"
+    ]
+  },
+  "sense-lex-jmdict-1476520-1": {
+    "senseVersion": 1,
+    "words": [
+      "田",
+      "原"
+    ]
+  },
+  "sense-lex-jmdict-1477090-1": {
+    "senseVersion": 1,
+    "words": [
+      "皿",
+      "器"
+    ]
+  },
+  "sense-lex-jmdict-1477250-1": {
+    "senseVersion": 1,
+    "words": [
+      "習得",
+      "表示"
+    ]
+  },
+  "sense-lex-jmdict-1477290-1": {
+    "senseVersion": 1,
+    "words": [
+      "発見"
+    ]
+  },
+  "sense-lex-jmdict-1477310-1": {
+    "senseVersion": 1,
+    "words": [
+      "発明",
+      "発掘"
+    ]
+  },
+  "sense-lex-jmdict-1477390-1": {
+    "senseVersion": 1,
+    "words": [
+      "販売",
+      "公開"
+    ]
+  },
+  "sense-lex-jmdict-1477500-1": {
+    "senseVersion": 1,
+    "words": [
+      "出発",
+      "発足"
+    ]
+  },
+  "sense-lex-jmdict-1477660-1": {
+    "senseVersion": 1,
+    "words": [
+      "感想",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1477680-1": {
+    "senseVersion": 1,
+    "words": [
+      "発展",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1477810-1": {
+    "senseVersion": 1,
+    "words": [
+      "開発",
+      "販売"
+    ]
+  },
+  "sense-lex-jmdict-1477910-1": {
+    "senseVersion": 1,
+    "words": [
+      "発見",
+      "工夫"
+    ]
+  },
+  "sense-lex-jmdict-1478520-1": {
+    "senseVersion": 1,
+    "words": [
+      "判定",
+      "裁判"
+    ]
+  },
+  "sense-lex-jmdict-1478620-1": {
+    "senseVersion": 1,
+    "words": [
+      "決定",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1478660-1": {
+    "senseVersion": 1,
+    "words": [
+      "判決",
+      "決定"
+    ]
+  },
+  "sense-lex-jmdict-1478750-1": {
+    "senseVersion": 1,
+    "words": [
+      "半分",
+      "半ば"
+    ]
+  },
+  "sense-lex-jmdict-1478780-1": {
+    "senseVersion": 1,
+    "words": [
+      "中間",
+      "終わり"
+    ]
+  },
+  "sense-lex-jmdict-1479890-1": {
+    "senseVersion": 1,
+    "words": [
+      "全部",
+      "半"
+    ]
+  },
+  "sense-lex-jmdict-1480310-1": {
+    "senseVersion": 1,
+    "words": [
+      "反射",
+      "影響"
+    ]
+  },
+  "sense-lex-jmdict-1480380-1": {
+    "senseVersion": 1,
+    "words": [
+      "抵抗",
+      "反対"
+    ]
+  },
+  "sense-lex-jmdict-1480540-1": {
+    "senseVersion": 1,
+    "words": [
+      "後悔",
+      "考え"
+    ]
+  },
+  "sense-lex-jmdict-1480890-1": {
+    "senseVersion": 1,
+    "words": [
+      "賛同",
+      "反対"
+    ]
+  },
+  "sense-lex-jmdict-1481590-1": {
+    "senseVersion": 1,
+    "words": [
+      "違反",
+      "罪"
+    ]
+  },
+  "sense-lex-jmdict-1481670-1": {
+    "senseVersion": 1,
+    "words": [
+      "繁盛",
+      "発展"
+    ]
+  },
+  "sense-lex-jmdict-1481710-1": {
+    "senseVersion": 1,
+    "words": [
+      "繁栄",
+      "発展"
+    ]
+  },
+  "sense-lex-jmdict-1481890-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所",
+      "規模"
+    ]
+  },
+  "sense-lex-jmdict-1481920-1": {
+    "senseVersion": 1,
+    "words": [
+      "騒々しい",
+      "騒がしい"
+    ]
+  },
+  "sense-lex-jmdict-1481940-1": {
+    "senseVersion": 1,
+    "words": [
+      "面倒",
+      "難しい"
+    ]
+  },
+  "sense-lex-jmdict-1482110-1": {
+    "senseVersion": 1,
+    "words": [
+      "夕飯",
+      "夜"
+    ]
+  },
+  "sense-lex-jmdict-1482340-1": {
+    "senseVersion": 1,
+    "words": [
+      "番組表",
+      "放送"
+    ]
+  },
+  "sense-lex-jmdict-1482360-1": {
+    "senseVersion": 1,
+    "words": [
+      "郵便番号",
+      "住所"
+    ]
+  },
+  "sense-lex-jmdict-1482710-1": {
+    "senseVersion": 1,
+    "words": [
+      "堂々",
+      "不当"
+    ]
+  },
+  "sense-lex-jmdict-1483070-1": {
+    "senseVersion": 1,
+    "words": [
+      "彼女",
+      "恋人"
+    ]
+  },
+  "sense-lex-jmdict-1483150-1": {
+    "senseVersion": 1,
+    "words": [
+      "彼",
+      "恋人"
+    ]
+  },
+  "sense-lex-jmdict-1483280-1": {
+    "senseVersion": 1,
+    "words": [
+      "喜劇",
+      "災害"
+    ]
+  },
+  "sense-lex-jmdict-1483290-1": {
+    "senseVersion": 1,
+    "words": [
+      "悲観",
+      "気の毒"
+    ]
+  },
+  "sense-lex-jmdict-1483410-1": {
+    "senseVersion": 1,
+    "words": [
+      "避難",
+      "批判"
+    ]
+  },
+  "sense-lex-jmdict-1483420-1": {
+    "senseVersion": 1,
+    "words": [
+      "批評",
+      "意見"
+    ]
+  },
+  "sense-lex-jmdict-1483440-1": {
+    "senseVersion": 1,
+    "words": [
+      "批判",
+      "解説"
+    ]
+  },
+  "sense-lex-jmdict-1483920-1": {
+    "senseVersion": 1,
+    "words": [
+      "肌",
+      "筋肉"
+    ]
+  },
+  "sense-lex-jmdict-1484150-1": {
+    "senseVersion": 1,
+    "words": [
+      "噂",
+      "謎"
+    ]
+  },
+  "sense-lex-jmdict-1484350-1": {
+    "senseVersion": 1,
+    "words": [
+      "損害",
+      "害"
+    ]
+  },
+  "sense-lex-jmdict-1484600-1": {
+    "senseVersion": 1,
+    "words": [
+      "蓄える",
+      "使う"
+    ]
+  },
+  "sense-lex-jmdict-1484620-1": {
+    "senseVersion": 1,
+    "words": [
+      "収入",
+      "価格"
+    ]
+  },
+  "sense-lex-jmdict-1484660-1": {
+    "senseVersion": 1,
+    "words": [
+      "非難",
+      "逃げる"
+    ]
+  },
+  "sense-lex-jmdict-1484920-1": {
+    "senseVersion": 1,
+    "words": [
+      "日常",
+      "危機"
+    ]
+  },
+  "sense-lex-jmdict-1484930-1": {
+    "senseVersion": 1,
+    "words": [
+      "とても",
+      "大いに"
+    ]
+  },
+  "sense-lex-jmdict-1485350-1": {
+    "senseVersion": 1,
+    "words": [
+      "出る",
+      "逃げる"
+    ]
+  },
+  "sense-lex-jmdict-1485450-1": {
+    "senseVersion": 1,
+    "words": [
+      "飛行機",
+      "航空"
+    ]
+  },
+  "sense-lex-jmdict-1485520-1": {
+    "senseVersion": 1,
+    "words": [
+      "空港",
+      "駅"
+    ]
+  },
+  "sense-lex-jmdict-1486170-1": {
+    "senseVersion": 1,
+    "words": [
+      "明確",
+      "複雑"
+    ]
+  },
+  "sense-lex-jmdict-1487250-1": {
+    "senseVersion": 1,
+    "words": [
+      "劣る",
+      "準じる"
+    ]
+  },
+  "sense-lex-jmdict-1487410-1": {
+    "senseVersion": 1,
+    "words": [
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1487570-1": {
+    "senseVersion": 1,
+    "words": [
+      "偶然",
+      "必要"
+    ]
+  },
+  "sense-lex-jmdict-1487660-1": {
+    "senseVersion": 1,
+    "words": [
+      "要る",
+      "大切"
+    ]
+  },
+  "sense-lex-jmdict-1487800-1": {
+    "senseVersion": 1,
+    "words": [
+      "口述",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1487830-1": {
+    "senseVersion": 1,
+    "words": [
+      "読者",
+      "作家"
+    ]
+  },
+  "sense-lex-jmdict-1488700-1": {
+    "senseVersion": 1,
+    "words": [
+      "標準",
+      "跡"
+    ]
+  },
+  "sense-lex-jmdict-1488710-1": {
+    "senseVersion": 1,
+    "words": [
+      "基準",
+      "平均"
+    ]
+  },
+  "sense-lex-jmdict-1489340-1": {
+    "senseVersion": 1,
+    "words": [
+      "裏",
+      "外"
+    ]
+  },
+  "sense-lex-jmdict-1489350-1": {
+    "senseVersion": 1,
+    "words": [
+      "図",
+      "図表"
+    ]
+  },
+  "sense-lex-jmdict-1489510-1": {
+    "senseVersion": 1,
+    "words": [
+      "表情",
+      "説明"
+    ]
+  },
+  "sense-lex-jmdict-1489700-1": {
+    "senseVersion": 1,
+    "words": [
+      "顔つき",
+      "感情"
+    ]
+  },
+  "sense-lex-jmdict-1490010-1": {
+    "senseVersion": 1,
+    "words": [
+      "感想",
+      "承認"
+    ]
+  },
+  "sense-lex-jmdict-1490070-1": {
+    "senseVersion": 1,
+    "words": [
+      "人気",
+      "評価"
+    ]
+  },
+  "sense-lex-jmdict-1490080-1": {
+    "senseVersion": 1,
+    "words": [
+      "感想",
+      "意見"
+    ]
+  },
+  "sense-lex-jmdict-1490140-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "表現"
+    ]
+  },
+  "sense-lex-jmdict-1490580-1": {
+    "senseVersion": 1,
+    "words": [
+      "質",
+      "品種"
+    ]
+  },
+  "sense-lex-jmdict-1490670-1": {
+    "senseVersion": 1,
+    "words": [
+      "賞品",
+      "グッズ"
+    ]
+  },
+  "sense-lex-jmdict-1490830-1": {
+    "senseVersion": 1,
+    "words": [
+      "貧弱",
+      "不足"
+    ]
+  },
+  "sense-lex-jmdict-1491290-1": {
+    "senseVersion": 1,
+    "words": [
+      "幸運",
+      "災害"
+    ]
+  },
+  "sense-lex-jmdict-1491370-1": {
+    "senseVersion": 1,
+    "words": [
+      "可能",
+      "不当"
+    ]
+  },
+  "sense-lex-jmdict-1491400-1": {
+    "senseVersion": 1,
+    "words": [
+      "不要",
+      "重要"
+    ]
+  },
+  "sense-lex-jmdict-1491910-1": {
+    "senseVersion": 1,
+    "words": [
+      "不運",
+      "怪しい"
+    ]
+  },
+  "sense-lex-jmdict-1491950-1": {
+    "senseVersion": 1,
+    "words": [
+      "不調",
+      "不振"
+    ]
+  },
+  "sense-lex-jmdict-1492160-1": {
+    "senseVersion": 1,
+    "words": [
+      "清潔",
+      "汚い"
+    ]
+  },
+  "sense-lex-jmdict-1492350-1": {
+    "senseVersion": 1,
+    "words": [
+      "幸福",
+      "災害"
+    ]
+  },
+  "sense-lex-jmdict-1492570-1": {
+    "senseVersion": 1,
+    "words": [
+      "妙",
+      "変"
+    ]
+  },
+  "sense-lex-jmdict-1492680-1": {
+    "senseVersion": 1,
+    "words": [
+      "不便",
+      "障害"
+    ]
+  },
+  "sense-lex-jmdict-1493120-1": {
+    "senseVersion": 1,
+    "words": [
+      "不信",
+      "疑問"
+    ]
+  },
+  "sense-lex-jmdict-1493150-1": {
+    "senseVersion": 1,
+    "words": [
+      "不調",
+      "不況"
+    ]
+  },
+  "sense-lex-jmdict-1493370-1": {
+    "senseVersion": 1,
+    "words": [
+      "正当",
+      "詐欺"
+    ]
+  },
+  "sense-lex-jmdict-1493700-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠乏",
+      "余分"
+    ]
+  },
+  "sense-lex-jmdict-1494120-1": {
+    "senseVersion": 1,
+    "words": [
+      "不適当",
+      "不可"
+    ]
+  },
+  "sense-lex-jmdict-1494700-1": {
+    "senseVersion": 1,
+    "words": [
+      "不満",
+      "苦情"
+    ]
+  },
+  "sense-lex-jmdict-1494790-1": {
+    "senseVersion": 1,
+    "words": [
+      "文句",
+      "不満"
+    ]
+  },
+  "sense-lex-jmdict-1494860-1": {
+    "senseVersion": 1,
+    "words": [
+      "便利",
+      "迷惑"
+    ]
+  },
+  "sense-lex-jmdict-1494970-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦情",
+      "不服"
+    ]
+  },
+  "sense-lex-jmdict-1495220-1": {
+    "senseVersion": 1,
+    "words": [
+      "有利",
+      "損"
+    ]
+  },
+  "sense-lex-jmdict-1495640-1": {
+    "senseVersion": 1,
+    "words": [
+      "交際",
+      "友情"
+    ]
+  },
+  "sense-lex-jmdict-1495740-1": {
+    "senseVersion": 1,
+    "words": [
+      "付ける",
+      "貼る"
+    ]
+  },
+  "sense-lex-jmdict-1496540-1": {
+    "senseVersion": 1,
+    "words": [
+      "婦人",
+      "嫁"
+    ]
+  },
+  "sense-lex-jmdict-1496670-1": {
+    "senseVersion": 1,
+    "words": [
+      "夫人",
+      "女子"
+    ]
+  },
+  "sense-lex-jmdict-1496840-1": {
+    "senseVersion": 1,
+    "words": [
+      "生地"
+    ]
+  },
+  "sense-lex-jmdict-1496990-1": {
+    "senseVersion": 1,
+    "words": [
+      "養育",
+      "援助"
+    ]
+  },
+  "sense-lex-jmdict-1497020-1": {
+    "senseVersion": 1,
+    "words": [
+      "掛ける",
+      "据える"
+    ]
+  },
+  "sense-lex-jmdict-1497110-1": {
+    "senseVersion": 1,
+    "words": [
+      "開発",
+      "拡大"
+    ]
+  },
+  "sense-lex-jmdict-1497180-1": {
+    "senseVersion": 1,
+    "words": [
+      "特別",
+      "一般"
+    ]
+  },
+  "sense-lex-jmdict-1497190-1": {
+    "senseVersion": 1,
+    "words": [
+      "一般",
+      "通常"
+    ]
+  },
+  "sense-lex-jmdict-1498080-1": {
+    "senseVersion": 1,
+    "words": [
+      "資産",
+      "借金"
+    ]
+  },
+  "sense-lex-jmdict-1499150-1": {
+    "senseVersion": 1,
+    "words": [
+      "ステージ",
+      "客席"
+    ]
+  },
+  "sense-lex-jmdict-1500750-1": {
+    "senseVersion": 1,
+    "words": [
+      "再建",
+      "復旧"
+    ]
+  },
+  "sense-lex-jmdict-1500800-1": {
+    "senseVersion": 1,
+    "words": [
+      "予習",
+      "審査"
+    ]
+  },
+  "sense-lex-jmdict-1500880-1": {
+    "senseVersion": 1,
+    "words": [
+      "長さ",
+      "距離"
+    ]
+  },
+  "sense-lex-jmdict-1500940-1": {
+    "senseVersion": 1,
+    "words": [
+      "衣服",
+      "上着"
+    ]
+  },
+  "sense-lex-jmdict-1500970-1": {
+    "senseVersion": 1,
+    "words": [
+      "服",
+      "衣装"
+    ]
+  },
+  "sense-lex-jmdict-1501110-1": {
+    "senseVersion": 1,
+    "words": [
+      "胃",
+      "お腹"
+    ]
+  },
+  "sense-lex-jmdict-1501350-1": {
+    "senseVersion": 1,
+    "words": [
+      "ややこしい",
+      "簡単"
+    ]
+  },
+  "sense-lex-jmdict-1501390-1": {
+    "senseVersion": 1,
+    "words": [
+      "コピー",
+      "編集"
+    ]
+  },
+  "sense-lex-jmdict-1501490-1": {
+    "senseVersion": 1,
+    "words": [
+      "裏返す",
+      "覆う"
+    ]
+  },
+  "sense-lex-jmdict-1501580-1": {
+    "senseVersion": 1,
+    "words": [
+      "払い戻す",
+      "預ける"
+    ]
+  },
+  "sense-lex-jmdict-1501610-1": {
+    "senseVersion": 1,
+    "words": [
+      "払い込む",
+      "返済"
+    ]
+  },
+  "sense-lex-jmdict-1502390-1": {
+    "senseVersion": 1,
+    "words": [
+      "品物",
+      "事"
+    ]
+  },
+  "sense-lex-jmdict-1502420-1": {
+    "senseVersion": 1,
+    "words": [
+      "声",
+      "音"
+    ]
+  },
+  "sense-lex-jmdict-1502480-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明",
+      "記事"
+    ]
+  },
+  "sense-lex-jmdict-1502540-1": {
+    "senseVersion": 1,
+    "words": [
+      "資金",
+      "商品"
+    ]
+  },
+  "sense-lex-jmdict-1502560-1": {
+    "senseVersion": 1,
+    "words": [
+      "精神",
+      "材料"
+    ]
+  },
+  "sense-lex-jmdict-1502630-1": {
+    "senseVersion": 1,
+    "words": [
+      "僅か",
+      "極端"
+    ]
+  },
+  "sense-lex-jmdict-1502640-1": {
+    "senseVersion": 1,
+    "words": [
+      "危険",
+      "危ない"
+    ]
+  },
+  "sense-lex-jmdict-1502690-1": {
+    "senseVersion": 1,
+    "words": [
+      "倉庫",
+      "押し入れ"
+    ]
+  },
+  "sense-lex-jmdict-1503000-1": {
+    "senseVersion": 1,
+    "words": [
+      "区切る",
+      "分かれる"
+    ]
+  },
+  "sense-lex-jmdict-1503210-1": {
+    "senseVersion": 1,
+    "words": [
+      "組み立て",
+      "解散"
+    ]
+  },
+  "sense-lex-jmdict-1503580-1": {
+    "senseVersion": 1,
+    "words": [
+      "集中",
+      "拡散"
+    ]
+  },
+  "sense-lex-jmdict-1503870-1": {
+    "senseVersion": 1,
+    "words": [
+      "収集",
+      "検討"
+    ]
+  },
+  "sense-lex-jmdict-1504160-1": {
+    "senseVersion": 1,
+    "words": [
+      "集中",
+      "配分"
+    ]
+  },
+  "sense-lex-jmdict-1504330-1": {
+    "senseVersion": 1,
+    "words": [
+      "ジャンル",
+      "場所"
+    ]
+  },
+  "sense-lex-jmdict-1504370-1": {
+    "senseVersion": 1,
+    "words": [
+      "結合",
+      "独立"
+    ]
+  },
+  "sense-lex-jmdict-1504510-1": {
+    "senseVersion": 1,
+    "words": [
+      "分離",
+      "分ける"
+    ]
+  },
+  "sense-lex-jmdict-1504990-1": {
+    "senseVersion": 1,
+    "words": [
+      "ややこしい",
+      "曖昧"
+    ]
+  },
+  "sense-lex-jmdict-1505050-1": {
+    "senseVersion": 1,
+    "words": [
+      "盗難",
+      "損失"
+    ]
+  },
+  "sense-lex-jmdict-1505060-1": {
+    "senseVersion": 1,
+    "words": [
+      "競争",
+      "事件"
+    ]
+  },
+  "sense-lex-jmdict-1505070-1": {
+    "senseVersion": 1,
+    "words": [
+      "空気",
+      "情緒"
+    ]
+  },
+  "sense-lex-jmdict-1505090-1": {
+    "senseVersion": 1,
+    "words": [
+      "文字",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1505120-1": {
+    "senseVersion": 1,
+    "words": [
+      "文明"
+    ]
+  },
+  "sense-lex-jmdict-1505190-1": {
+    "senseVersion": 1,
+    "words": [
+      "文法",
+      "文芸"
+    ]
+  },
+  "sense-lex-jmdict-1505290-1": {
+    "senseVersion": 1,
+    "words": [
+      "文献",
+      "芸術"
+    ]
+  },
+  "sense-lex-jmdict-1505330-1": {
+    "senseVersion": 1,
+    "words": [
+      "文芸",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1505650-1": {
+    "senseVersion": 1,
+    "words": [
+      "文化"
+    ]
+  },
+  "sense-lex-jmdict-1506870-1": {
+    "senseVersion": 1,
+    "words": [
+      "壁",
+      "垣根"
+    ]
+  },
+  "sense-lex-jmdict-1506930-1": {
+    "senseVersion": 1,
+    "words": [
+      "丸い",
+      "滑らか"
+    ]
+  },
+  "sense-lex-jmdict-1507180-1": {
+    "senseVersion": 1,
+    "words": [
+      "大丈夫",
+      "宜しい"
+    ]
+  },
+  "sense-lex-jmdict-1507670-1": {
+    "senseVersion": 1,
+    "words": [
+      "公平",
+      "公正"
+    ]
+  },
+  "sense-lex-jmdict-1507910-1": {
+    "senseVersion": 1,
+    "words": [
+      "月並み",
+      "非凡"
+    ]
+  },
+  "sense-lex-jmdict-1508070-1": {
+    "senseVersion": 1,
+    "words": [
+      "戦争",
+      "無事"
+    ]
+  },
+  "sense-lex-jmdict-1508290-1": {
+    "senseVersion": 1,
+    "words": [
+      "グリップ",
+      "刃"
+    ]
+  },
+  "sense-lex-jmdict-1508480-1": {
+    "senseVersion": 1,
+    "words": [
+      "両立",
+      "平行"
+    ]
+  },
+  "sense-lex-jmdict-1509350-1": {
+    "senseVersion": 1,
+    "words": [
+      "習慣",
+      "個性"
+    ]
+  },
+  "sense-lex-jmdict-1509430-1": {
+    "senseVersion": 1,
+    "words": [
+      "違い",
+      "差"
+    ]
+  },
+  "sense-lex-jmdict-1509490-1": {
+    "senseVersion": 1,
+    "words": [
+      "出会い",
+      "独立"
+    ]
+  },
+  "sense-lex-jmdict-1510640-1": {
+    "senseVersion": 1,
+    "words": [
+      "妙",
+      "不思議"
+    ]
+  },
+  "sense-lex-jmdict-1510940-1": {
+    "senseVersion": 1,
+    "words": [
+      "変更",
+      "改革"
+    ]
+  },
+  "sense-lex-jmdict-1511040-1": {
+    "senseVersion": 1,
+    "words": [
+      "修正",
+      "改正"
+    ]
+  },
+  "sense-lex-jmdict-1511260-1": {
+    "senseVersion": 1,
+    "words": [
+      "変動",
+      "変化"
+    ]
+  },
+  "sense-lex-jmdict-1511450-1": {
+    "senseVersion": 1,
+    "words": [
+      "固定",
+      "変化"
+    ]
+  },
+  "sense-lex-jmdict-1512070-1": {
+    "senseVersion": 1,
+    "words": [
+      "周辺",
+      "周り"
+    ]
+  },
+  "sense-lex-jmdict-1512080-1": {
+    "senseVersion": 1,
+    "words": [
+      "近所",
+      "一帯"
+    ]
+  },
+  "sense-lex-jmdict-1512170-1": {
+    "senseVersion": 1,
+    "words": [
+      "返済",
+      "還元"
+    ]
+  },
+  "sense-lex-jmdict-1512210-1": {
+    "senseVersion": 1,
+    "words": [
+      "返還",
+      "払い戻す"
+    ]
+  },
+  "sense-lex-jmdict-1512220-1": {
+    "senseVersion": 1,
+    "words": [
+      "答え",
+      "回答"
+    ]
+  },
+  "sense-lex-jmdict-1512410-1": {
+    "senseVersion": 1,
+    "words": [
+      "手紙",
+      "消息"
+    ]
+  },
+  "sense-lex-jmdict-1512480-1": {
+    "senseVersion": 1,
+    "words": [
+      "便利",
+      "利益"
+    ]
+  },
+  "sense-lex-jmdict-1512610-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡単",
+      "有益"
+    ]
+  },
+  "sense-lex-jmdict-1512760-1": {
+    "senseVersion": 1,
+    "words": [
+      "謝罪",
+      "理由"
+    ]
+  },
+  "sense-lex-jmdict-1512830-1": {
+    "senseVersion": 1,
+    "words": [
+      "非難",
+      "弁解"
+    ]
+  },
+  "sense-lex-jmdict-1513060-1": {
+    "senseVersion": 1,
+    "words": [
+      "お弁当",
+      "食堂"
+    ]
+  },
+  "sense-lex-jmdict-1513065-1": {
+    "senseVersion": 1,
+    "words": [
+      "弁当",
+      "昼ご飯"
+    ]
+  },
+  "sense-lex-jmdict-1513320-1": {
+    "senseVersion": 1,
+    "words": [
+      "保存",
+      "預金"
+    ]
+  },
+  "sense-lex-jmdict-1513940-1": {
+    "senseVersion": 1,
+    "words": [
+      "保管",
+      "貯蔵"
+    ]
+  },
+  "sense-lex-jmdict-1514140-1": {
+    "senseVersion": 1,
+    "words": [
+      "逃がす",
+      "逮捕"
+    ]
+  },
+  "sense-lex-jmdict-1514580-1": {
+    "senseVersion": 1,
+    "words": [
+      "補償",
+      "交換"
+    ]
+  },
+  "sense-lex-jmdict-1514650-1": {
+    "senseVersion": 1,
+    "words": [
+      "保証",
+      "代わり"
+    ]
+  },
+  "sense-lex-jmdict-1514930-1": {
+    "senseVersion": 1,
+    "words": [
+      "人生",
+      "居住"
+    ]
+  },
+  "sense-lex-jmdict-1514950-1": {
+    "senseVersion": 1,
+    "words": [
+      "暮らし",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1514990-1": {
+    "senseVersion": 1,
+    "words": [
+      "お母さん",
+      "ママ"
+    ]
+  },
+  "sense-lex-jmdict-1515340-1": {
+    "senseVersion": 1,
+    "words": [
+      "包む",
+      "荷物"
+    ]
+  },
+  "sense-lex-jmdict-1515510-1": {
+    "senseVersion": 1,
+    "words": [
+      "荷造り",
+      "開封"
+    ]
+  },
+  "sense-lex-jmdict-1515670-1": {
+    "senseVersion": 1,
+    "words": [
+      "相談",
+      "記事"
+    ]
+  },
+  "sense-lex-jmdict-1516160-1": {
+    "senseVersion": 1,
+    "words": [
+      "宝石",
+      "宝物"
+    ]
+  },
+  "sense-lex-jmdict-1516220-1": {
+    "senseVersion": 1,
+    "words": [
+      "石",
+      "玉"
+    ]
+  },
+  "sense-lex-jmdict-1516310-1": {
+    "senseVersion": 1,
+    "words": [
+      "抱く",
+      "負う"
+    ]
+  },
+  "sense-lex-jmdict-1516460-1": {
+    "senseVersion": 1,
+    "words": [
+      "逃がす",
+      "離す"
+    ]
+  },
+  "sense-lex-jmdict-1516530-1": {
+    "senseVersion": 1,
+    "words": [
+      "投げる",
+      "拾う"
+    ]
+  },
+  "sense-lex-jmdict-1516750-1": {
+    "senseVersion": 1,
+    "words": [
+      "通信",
+      "番組"
+    ]
+  },
+  "sense-lex-jmdict-1517040-1": {
+    "senseVersion": 1,
+    "words": [
+      "方法",
+      "計画"
+    ]
+  },
+  "sense-lex-jmdict-1517150-1": {
+    "senseVersion": 1,
+    "words": [
+      "方法",
+      "法律"
+    ]
+  },
+  "sense-lex-jmdict-1517380-1": {
+    "senseVersion": 1,
+    "words": [
+      "法律",
+      "主義"
+    ]
+  },
+  "sense-lex-jmdict-1518070-1": {
+    "senseVersion": 1,
+    "words": [
+      "尋ねる",
+      "訪問"
+    ]
+  },
+  "sense-lex-jmdict-1518130-1": {
+    "senseVersion": 1,
+    "words": [
+      "十分",
+      "豊富"
+    ]
+  },
+  "sense-lex-jmdict-1518180-1": {
+    "senseVersion": 1,
+    "words": [
+      "豊か"
+    ]
+  },
+  "sense-lex-jmdict-1519290-1": {
+    "senseVersion": 1,
+    "words": [
+      "暇",
+      "慌ただしい"
+    ]
+  },
+  "sense-lex-jmdict-1519620-1": {
+    "senseVersion": 1,
+    "words": [
+      "希望",
+      "願い"
+    ]
+  },
+  "sense-lex-jmdict-1519830-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行",
+      "危険"
+    ]
+  },
+  "sense-lex-jmdict-1519970-1": {
+    "senseVersion": 1,
+    "words": [
+      "縮める",
+      "広げる"
+    ]
+  },
+  "sense-lex-jmdict-1520380-1": {
+    "senseVersion": 1,
+    "words": [
+      "対処",
+      "予防"
+    ]
+  },
+  "sense-lex-jmdict-1520570-1": {
+    "senseVersion": 1,
+    "words": [
+      "防災",
+      "警備"
+    ]
+  },
+  "sense-lex-jmdict-1522150-1": {
+    "senseVersion": 1,
+    "words": [
+      "本棚",
+      "書籍"
+    ]
+  },
+  "sense-lex-jmdict-1522750-1": {
+    "senseVersion": 1,
+    "words": [
+      "自身",
+      "代理"
+    ]
+  },
+  "sense-lex-jmdict-1523060-1": {
+    "senseVersion": 1,
+    "words": [
+      "事実",
+      "本物"
+    ]
+  },
+  "sense-lex-jmdict-1523180-1": {
+    "senseVersion": 1,
+    "words": [
+      "本当",
+      "偽物"
+    ]
+  },
+  "sense-lex-jmdict-1523270-1": {
+    "senseVersion": 1,
+    "words": [
+      "元来",
+      "元々"
+    ]
+  },
+  "sense-lex-jmdict-1523400-1": {
+    "senseVersion": 1,
+    "words": [
+      "訳（やく）",
+      "通訳"
+    ]
+  },
+  "sense-lex-jmdict-1523830-1": {
+    "senseVersion": 1,
+    "words": [
+      "衝突",
+      "紛争"
+    ]
+  },
+  "sense-lex-jmdict-1524720-1": {
+    "senseVersion": 1,
+    "words": [
+      "毎週",
+      "日常"
+    ]
+  },
+  "sense-lex-jmdict-1524750-1": {
+    "senseVersion": 1,
+    "words": [
+      "窓",
+      "カーテン"
+    ]
+  },
+  "sense-lex-jmdict-1524930-1": {
+    "senseVersion": 1,
+    "words": [
+      "再び",
+      "改めて"
+    ]
+  },
+  "sense-lex-jmdict-1527110-1": {
+    "senseVersion": 1,
+    "words": [
+      "依然",
+      "もう"
+    ]
+  },
+  "sense-lex-jmdict-1527560-1": {
+    "senseVersion": 1,
+    "words": [
+      "成熟",
+      "若い"
+    ]
+  },
+  "sense-lex-jmdict-1528040-1": {
+    "senseVersion": 1,
+    "words": [
+      "以下",
+      "以内"
+    ]
+  },
+  "sense-lex-jmdict-1528130-1": {
+    "senseVersion": 1,
+    "words": [
+      "後悔",
+      "反省"
+    ]
+  },
+  "sense-lex-jmdict-1528280-1": {
+    "senseVersion": 1,
+    "words": [
+      "集中",
+      "群れ"
+    ]
+  },
+  "sense-lex-jmdict-1528290-1": {
+    "senseVersion": 1,
+    "words": [
+      "密集",
+      "近い"
+    ]
+  },
+  "sense-lex-jmdict-1528490-1": {
+    "senseVersion": 1,
+    "words": [
+      "変",
+      "不思議"
+    ]
+  },
+  "sense-lex-jmdict-1528630-1": {
+    "senseVersion": 1,
+    "words": [
+      "官庁",
+      "私立"
+    ]
+  },
+  "sense-lex-jmdict-1529410-1": {
+    "senseVersion": 1,
+    "words": [
+      "目標",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1529530-1": {
+    "senseVersion": 1,
+    "words": [
+      "打ち消す",
+      "忘れる"
+    ]
+  },
+  "sense-lex-jmdict-1529880-1": {
+    "senseVersion": 1,
+    "words": [
+      "有限",
+      "永遠"
+    ]
+  },
+  "sense-lex-jmdict-1529930-1": {
+    "senseVersion": 1,
+    "words": [
+      "有効",
+      "虚しい"
+    ]
+  },
+  "sense-lex-jmdict-1529940-1": {
+    "senseVersion": 1,
+    "words": [
+      "無言",
+      "静か"
+    ]
+  },
+  "sense-lex-jmdict-1530080-1": {
+    "senseVersion": 1,
+    "words": [
+      "無知",
+      "単純"
+    ]
+  },
+  "sense-lex-jmdict-1530510-1": {
+    "senseVersion": 1,
+    "words": [
+      "虚しい",
+      "不要"
+    ]
+  },
+  "sense-lex-jmdict-1530520-1": {
+    "senseVersion": 1,
+    "words": [
+      "浪費",
+      "無駄"
+    ]
+  },
+  "sense-lex-jmdict-1530670-1": {
+    "senseVersion": 1,
+    "words": [
+      "無理",
+      "不当"
+    ]
+  },
+  "sense-lex-jmdict-1530750-1": {
+    "senseVersion": 1,
+    "words": [
+      "簡単",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1530770-1": {
+    "senseVersion": 1,
+    "words": [
+      "未練",
+      "反省"
+    ]
+  },
+  "sense-lex-jmdict-1530940-1": {
+    "senseVersion": 1,
+    "words": [
+      "不要",
+      "余計"
+    ]
+  },
+  "sense-lex-jmdict-1530970-1": {
+    "senseVersion": 1,
+    "words": [
+      "無駄",
+      "難しい"
+    ]
+  },
+  "sense-lex-jmdict-1531110-1": {
+    "senseVersion": 1,
+    "words": [
+      "雲",
+      "曇り"
+    ]
+  },
+  "sense-lex-jmdict-1531190-1": {
+    "senseVersion": 1,
+    "words": [
+      "息子",
+      "女子"
+    ]
+  },
+  "sense-lex-jmdict-1531330-1": {
+    "senseVersion": 1,
+    "words": [
+      "名前",
+      "名誉"
+    ]
+  },
+  "sense-lex-jmdict-1531500-1": {
+    "senseVersion": 1,
+    "words": [
+      "新作",
+      "傑作"
+    ]
+  },
+  "sense-lex-jmdict-1531530-1": {
+    "senseVersion": 1,
+    "words": [
+      "思い出",
+      "跡"
+    ]
+  },
+  "sense-lex-jmdict-1531620-1": {
+    "senseVersion": 1,
+    "words": [
+      "名声",
+      "名"
+    ]
+  },
+  "sense-lex-jmdict-1531680-1": {
+    "senseVersion": 1,
+    "words": [
+      "初心者",
+      "博士"
+    ]
+  },
+  "sense-lex-jmdict-1531710-1": {
+    "senseVersion": 1,
+    "words": [
+      "名",
+      "名字"
+    ]
+  },
+  "sense-lex-jmdict-1531870-1": {
+    "senseVersion": 1,
+    "words": [
+      "有名",
+      "名"
+    ]
+  },
+  "sense-lex-jmdict-1531940-1": {
+    "senseVersion": 1,
+    "words": [
+      "生命",
+      "寿命"
+    ]
+  },
+  "sense-lex-jmdict-1531950-1": {
+    "senseVersion": 1,
+    "words": [
+      "言いつける",
+      "頼む"
+    ]
+  },
+  "sense-lex-jmdict-1532220-1": {
+    "senseVersion": 1,
+    "words": [
+      "隠す",
+      "物語る"
+    ]
+  },
+  "sense-lex-jmdict-1532310-1": {
+    "senseVersion": 1,
+    "words": [
+      "明確",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1532350-1": {
+    "senseVersion": 1,
+    "words": [
+      "暗い",
+      "光"
+    ]
+  },
+  "sense-lex-jmdict-1532410-1": {
+    "senseVersion": 1,
+    "words": [
+      "明らか",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1532620-1": {
+    "senseVersion": 1,
+    "words": [
+      "曖昧",
+      "明らか"
+    ]
+  },
+  "sense-lex-jmdict-1532640-1": {
+    "senseVersion": 1,
+    "words": [
+      "明瞭",
+      "明るい"
+    ]
+  },
+  "sense-lex-jmdict-1532800-1": {
+    "senseVersion": 1,
+    "words": [
+      "邪魔",
+      "事件"
+    ]
+  },
+  "sense-lex-jmdict-1532810-1": {
+    "senseVersion": 1,
+    "words": [
+      "各自",
+      "一人一人"
+    ]
+  },
+  "sense-lex-jmdict-1532880-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳴る"
+    ]
+  },
+  "sense-lex-jmdict-1533330-1": {
+    "senseVersion": 1,
+    "words": [
+      "毛",
+      "木綿"
+    ]
+  },
+  "sense-lex-jmdict-1533550-1": {
+    "senseVersion": 1,
+    "words": [
+      "煩わしい",
+      "面倒くさい"
+    ]
+  },
+  "sense-lex-jmdict-1533560-1": {
+    "senseVersion": 1,
+    "words": [
+      "面倒",
+      "手軽"
+    ]
+  },
+  "sense-lex-jmdict-1533580-1": {
+    "senseVersion": 1,
+    "words": [
+      "楽しい",
+      "つまらない"
+    ]
+  },
+  "sense-lex-jmdict-1533690-1": {
+    "senseVersion": 1,
+    "words": [
+      "模型",
+      "代表"
+    ]
+  },
+  "sense-lex-jmdict-1533700-1": {
+    "senseVersion": 1,
+    "words": [
+      "創造",
+      "複写"
+    ]
+  },
+  "sense-lex-jmdict-1533720-1": {
+    "senseVersion": 1,
+    "words": [
+      "パターン",
+      "形"
+    ]
+  },
+  "sense-lex-jmdict-1533820-1": {
+    "senseVersion": 1,
+    "words": [
+      "髪",
+      "羽"
+    ]
+  },
+  "sense-lex-jmdict-1534280-1": {
+    "senseVersion": 1,
+    "words": [
+      "要点",
+      "弱点"
+    ]
+  },
+  "sense-lex-jmdict-1534520-1": {
+    "senseVersion": 1,
+    "words": [
+      "樹木",
+      "木曜日"
+    ]
+  },
+  "sense-lex-jmdict-1534870-1": {
+    "senseVersion": 1,
+    "words": [
+      "絹",
+      "綿"
+    ]
+  },
+  "sense-lex-jmdict-1535780-1": {
+    "senseVersion": 1,
+    "words": [
+      "多分",
+      "当然"
+    ]
+  },
+  "sense-lex-jmdict-1535810-1": {
+    "senseVersion": 1,
+    "words": [
+      "妥当",
+      "最も"
+    ]
+  },
+  "sense-lex-jmdict-1535930-1": {
+    "senseVersion": 1,
+    "words": [
+      "質問",
+      "答え"
+    ]
+  },
+  "sense-lex-jmdict-1535960-1": {
+    "senseVersion": 1,
+    "words": [
+      "訪ねる",
+      "問う"
+    ]
+  },
+  "sense-lex-jmdict-1536060-1": {
+    "senseVersion": 1,
+    "words": [
+      "独白",
+      "対話"
+    ]
+  },
+  "sense-lex-jmdict-1536350-1": {
+    "senseVersion": 1,
+    "words": [
+      "昼",
+      "晩"
+    ]
+  },
+  "sense-lex-jmdict-1537150-1": {
+    "senseVersion": 1,
+    "words": [
+      "夕暮れ",
+      "明ける"
+    ]
+  },
+  "sense-lex-jmdict-1537270-1": {
+    "senseVersion": 1,
+    "words": [
+      "室内",
+      "外"
+    ]
+  },
+  "sense-lex-jmdict-1537430-1": {
+    "senseVersion": 1,
+    "words": [
+      "意欲",
+      "希望"
+    ]
+  },
+  "sense-lex-jmdict-1537820-1": {
+    "senseVersion": 1,
+    "words": [
+      "容易",
+      "事件"
+    ]
+  },
+  "sense-lex-jmdict-1537970-1": {
+    "senseVersion": 1,
+    "words": [
+      "俳優",
+      "責任"
+    ]
+  },
+  "sense-lex-jmdict-1538000-1": {
+    "senseVersion": 1,
+    "words": [
+      "職業",
+      "業務"
+    ]
+  },
+  "sense-lex-jmdict-1538100-1": {
+    "senseVersion": 1,
+    "words": [
+      "大体",
+      "ざっと"
+    ]
+  },
+  "sense-lex-jmdict-1538130-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定",
+      "協定"
+    ]
+  },
+  "sense-lex-jmdict-1538160-1": {
+    "senseVersion": 1,
+    "words": [
+      "毒",
+      "薬品"
+    ]
+  },
+  "sense-lex-jmdict-1538280-1": {
+    "senseVersion": 1,
+    "words": [
+      "食品",
+      "薬"
+    ]
+  },
+  "sense-lex-jmdict-1538350-1": {
+    "senseVersion": 1,
+    "words": [
+      "写す",
+      "翻訳する"
+    ]
+  },
+  "sense-lex-jmdict-1538560-1": {
+    "senseVersion": 1,
+    "words": [
+      "楽しい",
+      "不快"
+    ]
+  },
+  "sense-lex-jmdict-1538850-1": {
+    "senseVersion": 1,
+    "words": [
+      "配送",
+      "交通"
+    ]
+  },
+  "sense-lex-jmdict-1538920-1": {
+    "senseVersion": 1,
+    "words": [
+      "多数",
+      "一つ"
+    ]
+  },
+  "sense-lex-jmdict-1539100-1": {
+    "senseVersion": 1,
+    "words": [
+      "上位",
+      "優勢"
+    ]
+  },
+  "sense-lex-jmdict-1539120-1": {
+    "senseVersion": 1,
+    "words": [
+      "優位",
+      "優勢"
+    ]
+  },
+  "sense-lex-jmdict-1539230-1": {
+    "senseVersion": 1,
+    "words": [
+      "優れた",
+      "見事"
+    ]
+  },
+  "sense-lex-jmdict-1539340-1": {
+    "senseVersion": 1,
+    "words": [
+      "優勝",
+      "優位"
+    ]
+  },
+  "sense-lex-jmdict-1540080-1": {
+    "senseVersion": 1,
+    "words": [
+      "敵対",
+      "親善"
+    ]
+  },
+  "sense-lex-jmdict-1540130-1": {
+    "senseVersion": 1,
+    "words": [
+      "恋愛",
+      "友好"
+    ]
+  },
+  "sense-lex-jmdict-1540170-1": {
+    "senseVersion": 1,
+    "words": [
+      "知り合い",
+      "相手"
+    ]
+  },
+  "sense-lex-jmdict-1540950-1": {
+    "senseVersion": 1,
+    "words": [
+      "持つ",
+      "所有する"
+    ]
+  },
+  "sense-lex-jmdict-1541060-1": {
+    "senseVersion": 1,
+    "words": [
+      "具合",
+      "状態"
+    ]
+  },
+  "sense-lex-jmdict-1541120-1": {
+    "senseVersion": 1,
+    "words": [
+      "有害",
+      "有利"
+    ]
+  },
+  "sense-lex-jmdict-1541290-1": {
+    "senseVersion": 1,
+    "words": [
+      "効く",
+      "効果的"
+    ]
+  },
+  "sense-lex-jmdict-1541600-1": {
+    "senseVersion": 1,
+    "words": [
+      "有名",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1541620-1": {
+    "senseVersion": 1,
+    "words": [
+      "人気",
+      "著名"
+    ]
+  },
+  "sense-lex-jmdict-1541710-1": {
+    "senseVersion": 1,
+    "words": [
+      "有益",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1542020-1": {
+    "senseVersion": 1,
+    "words": [
+      "強制",
+      "指導"
+    ]
+  },
+  "sense-lex-jmdict-1542040-1": {
+    "senseVersion": 1,
+    "words": [
+      "誘導",
+      "誘う"
+    ]
+  },
+  "sense-lex-jmdict-1542070-1": {
+    "senseVersion": 1,
+    "words": [
+      "レジャー",
+      "休み"
+    ]
+  },
+  "sense-lex-jmdict-1542600-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄付",
+      "金融"
+    ]
+  },
+  "sense-lex-jmdict-1542910-1": {
+    "senseVersion": 1,
+    "words": [
+      "予測",
+      "直感"
+    ]
+  },
+  "sense-lex-jmdict-1542920-1": {
+    "senseVersion": 1,
+    "words": [
+      "予測",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1543240-1": {
+    "senseVersion": 1,
+    "words": [
+      "日程",
+      "スケジュール"
+    ]
+  },
+  "sense-lex-jmdict-1543320-1": {
+    "senseVersion": 1,
+    "words": [
+      "余り",
+      "スペア"
+    ]
+  },
+  "sense-lex-jmdict-1543630-1": {
+    "senseVersion": 1,
+    "words": [
+      "予測",
+      "見通し"
+    ]
+  },
+  "sense-lex-jmdict-1543750-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定",
+      "応募"
+    ]
+  },
+  "sense-lex-jmdict-1543980-1": {
+    "senseVersion": 1,
+    "words": [
+      "暇",
+      "休暇"
+    ]
+  },
+  "sense-lex-jmdict-1544040-1": {
+    "senseVersion": 1,
+    "words": [
+      "娯楽"
+    ]
+  },
+  "sense-lex-jmdict-1544090-1": {
+    "senseVersion": 1,
+    "words": [
+      "必要",
+      "過剰"
+    ]
+  },
+  "sense-lex-jmdict-1544380-1": {
+    "senseVersion": 1,
+    "words": [
+      "余暇",
+      "余裕"
+    ]
+  },
+  "sense-lex-jmdict-1544520-1": {
+    "senseVersion": 1,
+    "words": [
+      "無駄",
+      "過剰"
+    ]
+  },
+  "sense-lex-jmdict-1544590-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆとり",
+      "暇"
+    ]
+  },
+  "sense-lex-jmdict-1545020-1": {
+    "senseVersion": 1,
+    "words": [
+      "貯金",
+      "保管"
+    ]
+  },
+  "sense-lex-jmdict-1545110-1": {
+    "senseVersion": 1,
+    "words": [
+      "若い",
+      "少ない"
+    ]
+  },
+  "sense-lex-jmdict-1545350-1": {
+    "senseVersion": 1,
+    "words": [
+      "困難",
+      "簡単"
+    ]
+  },
+  "sense-lex-jmdict-1545420-1": {
+    "senseVersion": 1,
+    "words": [
+      "面積",
+      "体積"
+    ]
+  },
+  "sense-lex-jmdict-1545600-1": {
+    "senseVersion": 1,
+    "words": [
+      "揺らぐ",
+      "振動"
+    ]
+  },
+  "sense-lex-jmdict-1545630-1": {
+    "senseVersion": 1,
+    "words": [
+      "揺れる",
+      "振動"
+    ]
+  },
+  "sense-lex-jmdict-1545830-1": {
+    "senseVersion": 1,
+    "words": [
+      "形式",
+      "形態"
+    ]
+  },
+  "sense-lex-jmdict-1545840-1": {
+    "senseVersion": 1,
+    "words": [
+      "様式",
+      "時期"
+    ]
+  },
+  "sense-lex-jmdict-1546040-1": {
+    "senseVersion": 1,
+    "words": [
+      "溶ける",
+      "溶く"
+    ]
+  },
+  "sense-lex-jmdict-1546050-1": {
+    "senseVersion": 1,
+    "words": [
+      "解く（とく）",
+      "解く（ほどく）"
+    ]
+  },
+  "sense-lex-jmdict-1546090-1": {
+    "senseVersion": 1,
+    "words": [
+      "溶かす",
+      "まとめる"
+    ]
+  },
+  "sense-lex-jmdict-1546200-1": {
+    "senseVersion": 1,
+    "words": [
+      "用事",
+      "用途"
+    ]
+  },
+  "sense-lex-jmdict-1546210-1": {
+    "senseVersion": 1,
+    "words": [
+      "使う",
+      "使用"
+    ]
+  },
+  "sense-lex-jmdict-1546220-1": {
+    "senseVersion": 1,
+    "words": [
+      "準備",
+      "手配"
+    ]
+  },
+  "sense-lex-jmdict-1546250-1": {
+    "senseVersion": 1,
+    "words": [
+      "要件",
+      "用事"
+    ]
+  },
+  "sense-lex-jmdict-1546270-1": {
+    "senseVersion": 1,
+    "words": [
+      "単語",
+      "言葉"
+    ]
+  },
+  "sense-lex-jmdict-1546300-1": {
+    "senseVersion": 1,
+    "words": [
+      "用",
+      "仕事"
+    ]
+  },
+  "sense-lex-jmdict-1546310-1": {
+    "senseVersion": 1,
+    "words": [
+      "警戒",
+      "注意"
+    ]
+  },
+  "sense-lex-jmdict-1546380-1": {
+    "senseVersion": 1,
+    "words": [
+      "使い道",
+      "用"
+    ]
+  },
+  "sense-lex-jmdict-1546590-1": {
+    "senseVersion": 1,
+    "words": [
+      "手紙"
+    ]
+  },
+  "sense-lex-jmdict-1546610-1": {
+    "senseVersion": 1,
+    "words": [
+      "要望する",
+      "必要"
+    ]
+  },
+  "sense-lex-jmdict-1546620-1": {
+    "senseVersion": 1,
+    "words": [
+      "つまり",
+      "結局"
+    ]
+  },
+  "sense-lex-jmdict-1546680-1": {
+    "senseVersion": 1,
+    "words": [
+      "依頼",
+      "条件"
+    ]
+  },
+  "sense-lex-jmdict-1546770-1": {
+    "senseVersion": 1,
+    "words": [
+      "趣旨",
+      "目次"
+    ]
+  },
+  "sense-lex-jmdict-1546780-1": {
+    "senseVersion": 1,
+    "words": [
+      "要望",
+      "強制"
+    ]
+  },
+  "sense-lex-jmdict-1546800-1": {
+    "senseVersion": 1,
+    "words": [
+      "全体",
+      "成分"
+    ]
+  },
+  "sense-lex-jmdict-1546820-1": {
+    "senseVersion": 1,
+    "words": [
+      "詳細",
+      "趣旨"
+    ]
+  },
+  "sense-lex-jmdict-1546830-1": {
+    "senseVersion": 1,
+    "words": [
+      "要請",
+      "希望"
+    ]
+  },
+  "sense-lex-jmdict-1546850-1": {
+    "senseVersion": 1,
+    "words": [
+      "要旨",
+      "趣旨"
+    ]
+  },
+  "sense-lex-jmdict-1546880-1": {
+    "senseVersion": 1,
+    "words": [
+      "踊る",
+      "ダンス"
+    ]
+  },
+  "sense-lex-jmdict-1546990-1": {
+    "senseVersion": 1,
+    "words": [
+      "朗らか",
+      "元気"
+    ]
+  },
+  "sense-lex-jmdict-1547090-1": {
+    "senseVersion": 1,
+    "words": [
+      "育てる",
+      "引き取る"
+    ]
+  },
+  "sense-lex-jmdict-1547190-1": {
+    "senseVersion": 1,
+    "words": [
+      "育成",
+      "教育"
+    ]
+  },
+  "sense-lex-jmdict-1547270-1": {
+    "senseVersion": 1,
+    "words": [
+      "抑制",
+      "制限"
+    ]
+  },
+  "sense-lex-jmdict-1547290-1": {
+    "senseVersion": 1,
+    "words": [
+      "禁止",
+      "規制"
+    ]
+  },
+  "sense-lex-jmdict-1547330-1": {
+    "senseVersion": 1,
+    "words": [
+      "欲しがる",
+      "願う"
+    ]
+  },
+  "sense-lex-jmdict-1548380-1": {
+    "senseVersion": 1,
+    "words": [
+      "不安",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1549100-1": {
+    "senseVersion": 1,
+    "words": [
+      "荒っぽい",
+      "雑"
+    ]
+  },
+  "sense-lex-jmdict-1549350-1": {
+    "senseVersion": 1,
+    "words": [
+      "行",
+      "列"
+    ]
+  },
+  "sense-lex-jmdict-1549470-1": {
+    "senseVersion": 1,
+    "words": [
+      "収益",
+      "売上"
+    ]
+  },
+  "sense-lex-jmdict-1549550-1": {
+    "senseVersion": 1,
+    "words": [
+      "賢い",
+      "知識"
+    ]
+  },
+  "sense-lex-jmdict-1549580-1": {
+    "senseVersion": 1,
+    "words": [
+      "売上",
+      "利益"
+    ]
+  },
+  "sense-lex-jmdict-1549620-1": {
+    "senseVersion": 1,
+    "words": [
+      "長所",
+      "特長"
+    ]
+  },
+  "sense-lex-jmdict-1549660-1": {
+    "senseVersion": 1,
+    "words": [
+      "活用",
+      "使用"
+    ]
+  },
+  "sense-lex-jmdict-1549910-1": {
+    "senseVersion": 1,
+    "words": [
+      "了承",
+      "承知"
+    ]
+  },
+  "sense-lex-jmdict-1550010-1": {
+    "senseVersion": 1,
+    "words": [
+      "感情",
+      "筋"
+    ]
+  },
+  "sense-lex-jmdict-1550140-1": {
+    "senseVersion": 1,
+    "words": [
+      "訳（わけ）",
+      "目的"
+    ]
+  },
+  "sense-lex-jmdict-1550160-1": {
+    "senseVersion": 1,
+    "words": [
+      "実践",
+      "原理"
+    ]
+  },
+  "sense-lex-jmdict-1550190-1": {
+    "senseVersion": 1,
+    "words": [
+      "表",
+      "後"
+    ]
+  },
+  "sense-lex-jmdict-1550630-1": {
+    "senseVersion": 1,
+    "words": [
+      "覆す",
+      "返す"
+    ]
+  },
+  "sense-lex-jmdict-1550840-1": {
+    "senseVersion": 1,
+    "words": [
+      "落ちる",
+      "遠ざかる"
+    ]
+  },
+  "sense-lex-jmdict-1550880-1": {
+    "senseVersion": 1,
+    "words": [
+      "結婚",
+      "別れる"
+    ]
+  },
+  "sense-lex-jmdict-1550980-1": {
+    "senseVersion": 1,
+    "words": [
+      "海",
+      "沿岸"
+    ]
+  },
+  "sense-lex-jmdict-1551200-1": {
+    "senseVersion": 1,
+    "words": [
+      "割合",
+      "数"
+    ]
+  },
+  "sense-lex-jmdict-1551210-1": {
+    "senseVersion": 1,
+    "words": [
+      "従う",
+      "指揮"
+    ]
+  },
+  "sense-lex-jmdict-1551350-1": {
+    "senseVersion": 1,
+    "words": [
+      "歩き続ける",
+      "停止"
+    ]
+  },
+  "sense-lex-jmdict-1551710-1": {
+    "senseVersion": 1,
+    "words": [
+      "境遇",
+      "地位"
+    ]
+  },
+  "sense-lex-jmdict-1551840-1": {
+    "senseVersion": 1,
+    "words": [
+      "行政",
+      "法律"
+    ]
+  },
+  "sense-lex-jmdict-1551960-1": {
+    "senseVersion": 1,
+    "words": [
+      "控える",
+      "縮める"
+    ]
+  },
+  "sense-lex-jmdict-1552130-1": {
+    "senseVersion": 1,
+    "words": [
+      "流す",
+      "方法"
+    ]
+  },
+  "sense-lex-jmdict-1552440-1": {
+    "senseVersion": 1,
+    "words": [
+      "輸送",
+      "回転"
+    ]
+  },
+  "sense-lex-jmdict-1553120-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行",
+      "通勤"
+    ]
+  },
+  "sense-lex-jmdict-1553170-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅",
+      "通勤"
+    ]
+  },
+  "sense-lex-jmdict-1554010-1": {
+    "senseVersion": 1,
+    "words": [
+      "片方",
+      "共に"
+    ]
+  },
+  "sense-lex-jmdict-1554110-1": {
+    "senseVersion": 1,
+    "words": [
+      "並行",
+      "両方"
+    ]
+  },
+  "sense-lex-jmdict-1554200-1": {
+    "senseVersion": 1,
+    "words": [
+      "耐える"
+    ]
+  },
+  "sense-lex-jmdict-1554280-1": {
+    "senseVersion": 1,
+    "words": [
+      "値段",
+      "請求"
+    ]
+  },
+  "sense-lex-jmdict-1554370-1": {
+    "senseVersion": 1,
+    "words": [
+      "寒い",
+      "快い"
+    ]
+  },
+  "sense-lex-jmdict-1554380-1": {
+    "senseVersion": 1,
+    "words": [
+      "暖まる",
+      "冷やす"
+    ]
+  },
+  "sense-lex-jmdict-1554570-1": {
+    "senseVersion": 1,
+    "words": [
+      "知識",
+      "常識"
+    ]
+  },
+  "sense-lex-jmdict-1554640-1": {
+    "senseVersion": 1,
+    "words": [
+      "質",
+      "程度"
+    ]
+  },
+  "sense-lex-jmdict-1554720-1": {
+    "senseVersion": 1,
+    "words": [
+      "領土",
+      "世界"
+    ]
+  },
+  "sense-lex-jmdict-1554750-1": {
+    "senseVersion": 1,
+    "words": [
+      "請求",
+      "受付"
+    ]
+  },
+  "sense-lex-jmdict-1554790-1": {
+    "senseVersion": 1,
+    "words": [
+      "領域",
+      "国土"
+    ]
+  },
+  "sense-lex-jmdict-1554820-1": {
+    "senseVersion": 1,
+    "words": [
+      "能力",
+      "体力"
+    ]
+  },
+  "sense-lex-jmdict-1554940-1": {
+    "senseVersion": 1,
+    "words": [
+      "弱々しい",
+      "有力"
+    ]
+  },
+  "sense-lex-jmdict-1555440-1": {
+    "senseVersion": 1,
+    "words": [
+      "森",
+      "森林"
+    ]
+  },
+  "sense-lex-jmdict-1555560-1": {
+    "senseVersion": 1,
+    "words": [
+      "望む",
+      "直面"
+    ]
+  },
+  "sense-lex-jmdict-1555710-1": {
+    "senseVersion": 1,
+    "words": [
+      "円",
+      "回路"
+    ]
+  },
+  "sense-lex-jmdict-1555830-1": {
+    "senseVersion": 1,
+    "words": [
+      "近く",
+      "次"
+    ]
+  },
+  "sense-lex-jmdict-1556100-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "類推"
+    ]
+  },
+  "sense-lex-jmdict-1556120-1": {
+    "senseVersion": 1,
+    "words": [
+      "推測",
+      "類似"
+    ]
+  },
+  "sense-lex-jmdict-1556410-1": {
+    "senseVersion": 1,
+    "words": [
+      "原則",
+      "除外"
+    ]
+  },
+  "sense-lex-jmdict-1556740-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷める",
+      "冷やす"
+    ]
+  },
+  "sense-lex-jmdict-1556750-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷ます",
+      "冷える"
+    ]
+  },
+  "sense-lex-jmdict-1557050-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷淡",
+      "安定"
+    ]
+  },
+  "sense-lex-jmdict-1557150-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷静",
+      "冷たい"
+    ]
+  },
+  "sense-lex-jmdict-1557290-1": {
+    "senseVersion": 1,
+    "words": [
+      "暖房",
+      "エアコン"
+    ]
+  },
+  "sense-lex-jmdict-1557450-1": {
+    "senseVersion": 1,
+    "words": [
+      "感謝",
+      "お礼"
+    ]
+  },
+  "sense-lex-jmdict-1557470-1": {
+    "senseVersion": 1,
+    "words": [
+      "エチケット",
+      "法律"
+    ]
+  },
+  "sense-lex-jmdict-1558370-1": {
+    "senseVersion": 1,
+    "words": [
+      "電車",
+      "汽車"
+    ]
+  },
+  "sense-lex-jmdict-1558670-1": {
+    "senseVersion": 1,
+    "words": [
+      "愛",
+      "愛情"
+    ]
+  },
+  "sense-lex-jmdict-1558920-1": {
+    "senseVersion": 1,
+    "words": [
+      "友人",
+      "彼女"
+    ]
+  },
+  "sense-lex-jmdict-1559160-1": {
+    "senseVersion": 1,
+    "words": [
+      "演習",
+      "稽古"
+    ]
+  },
+  "sense-lex-jmdict-1559260-1": {
+    "senseVersion": 1,
+    "words": [
+      "本人",
+      "相手"
+    ]
+  },
+  "sense-lex-jmdict-1559450-1": {
+    "senseVersion": 1,
+    "words": [
+      "統一",
+      "協会"
+    ]
+  },
+  "sense-lex-jmdict-1559600-1": {
+    "senseVersion": 1,
+    "words": [
+      "記憶",
+      "暗示"
+    ]
+  },
+  "sense-lex-jmdict-1559610-1": {
+    "senseVersion": 1,
+    "words": [
+      "継続",
+      "延長"
+    ]
+  },
+  "sense-lex-jmdict-1559660-1": {
+    "senseVersion": 1,
+    "words": [
+      "連続",
+      "合同"
+    ]
+  },
+  "sense-lex-jmdict-1559790-1": {
+    "senseVersion": 1,
+    "words": [
+      "連盟",
+      "連合"
+    ]
+  },
+  "sense-lex-jmdict-1559870-1": {
+    "senseVersion": 1,
+    "words": [
+      "連邦",
+      "連合"
+    ]
+  },
+  "sense-lex-jmdict-1560120-1": {
+    "senseVersion": 1,
+    "words": [
+      "率直",
+      "明らか"
+    ]
+  },
+  "sense-lex-jmdict-1560240-1": {
+    "senseVersion": 1,
+    "words": [
+      "慰める",
+      "看護"
+    ]
+  },
+  "sense-lex-jmdict-1560650-1": {
+    "senseVersion": 1,
+    "words": [
+      "手間",
+      "努力"
+    ]
+  },
+  "sense-lex-jmdict-1560710-1": {
+    "senseVersion": 1,
+    "words": [
+      "陽気",
+      "陰気"
+    ]
+  },
+  "sense-lex-jmdict-1560800-1": {
+    "senseVersion": 1,
+    "words": [
+      "無駄遣い",
+      "節約"
+    ]
+  },
+  "sense-lex-jmdict-1561090-1": {
+    "senseVersion": 1,
+    "words": [
+      "年寄り",
+      "成人"
+    ]
+  },
+  "sense-lex-jmdict-1561590-1": {
+    "senseVersion": 1,
+    "words": [
+      "録画",
+      "記録"
+    ]
+  },
+  "sense-lex-jmdict-1561620-1": {
+    "senseVersion": 1,
+    "words": [
+      "論ずる",
+      "話す"
+    ]
+  },
+  "sense-lex-jmdict-1561640-1": {
+    "senseVersion": 1,
+    "words": [
+      "論じる",
+      "述べる"
+    ]
+  },
+  "sense-lex-jmdict-1561760-1": {
+    "senseVersion": 1,
+    "words": [
+      "相談",
+      "議論"
+    ]
+  },
+  "sense-lex-jmdict-1561840-1": {
+    "senseVersion": 1,
+    "words": [
+      "作文",
+      "記事"
+    ]
+  },
+  "sense-lex-jmdict-1561850-1": {
+    "senseVersion": 1,
+    "words": [
+      "筋",
+      "倫理"
+    ]
+  },
+  "sense-lex-jmdict-1561940-1": {
+    "senseVersion": 1,
+    "words": [
+      "穏やか",
+      "静か"
+    ]
+  },
+  "sense-lex-jmdict-1561960-1": {
+    "senseVersion": 1,
+    "words": [
+      "和らぐ",
+      "緩める"
+    ]
+  },
+  "sense-lex-jmdict-1562300-1": {
+    "senseVersion": 1,
+    "words": [
+      "答える",
+      "呼びかける"
+    ]
+  },
+  "sense-lex-jmdict-1562310-1": {
+    "senseVersion": 1,
+    "words": [
+      "話す",
+      "論じる"
+    ]
+  },
+  "sense-lex-jmdict-1562400-1": {
+    "senseVersion": 1,
+    "words": [
+      "題名",
+      "話"
+    ]
+  },
+  "sense-lex-jmdict-1562510-1": {
+    "senseVersion": 1,
+    "words": [
+      "費やす",
+      "供給"
+    ]
+  },
+  "sense-lex-jmdict-1562530-1": {
+    "senseVersion": 1,
+    "words": [
+      "中",
+      "横"
+    ]
+  },
+  "sense-lex-jmdict-1564360-1": {
+    "senseVersion": 1,
+    "words": [
+      "大ざっぱ",
+      "明確"
+    ]
+  },
+  "sense-lex-jmdict-1565480-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る",
+      "匂う"
+    ]
+  },
+  "sense-lex-jmdict-1565500-1": {
+    "senseVersion": 1,
+    "words": [
+      "好み",
+      "志向"
+    ]
+  },
+  "sense-lex-jmdict-1567610-1": {
+    "senseVersion": 1,
+    "words": [
+      "叩く",
+      "擦る（する）"
+    ]
+  },
+  "sense-lex-jmdict-1567920-1": {
+    "senseVersion": 1,
+    "words": [
+      "あやふや",
+      "紛らわしい"
+    ]
+  },
+  "sense-lex-jmdict-1569240-1": {
+    "senseVersion": 1,
+    "words": [
+      "正直",
+      "不当"
+    ]
+  },
+  "sense-lex-jmdict-1570520-1": {
+    "senseVersion": 1,
+    "words": [
+      "複雑",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1573150-1": {
+    "senseVersion": 1,
+    "words": [
+      "節約",
+      "高級"
+    ]
+  },
+  "sense-lex-jmdict-1575730-1": {
+    "senseVersion": 1,
+    "words": [
+      "忠告",
+      "中傷"
+    ]
+  },
+  "sense-lex-jmdict-1575870-1": {
+    "senseVersion": 1,
+    "words": [
+      "独立",
+      "信頼"
+    ]
+  },
+  "sense-lex-jmdict-1575940-1": {
+    "senseVersion": 1,
+    "words": [
+      "一人",
+      "家族"
+    ]
+  },
+  "sense-lex-jmdict-1576100-1": {
+    "senseVersion": 1,
+    "words": [
+      "永久",
+      "一度"
+    ]
+  },
+  "sense-lex-jmdict-1576150-1": {
+    "senseVersion": 1,
+    "words": [
+      "二人",
+      "孤立"
+    ]
+  },
+  "sense-lex-jmdict-1576250-1": {
+    "senseVersion": 1,
+    "words": [
+      "一応",
+      "一旦"
+    ]
+  },
+  "sense-lex-jmdict-1576360-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずれる",
+      "沿う"
+    ]
+  },
+  "sense-lex-jmdict-1576520-1": {
+    "senseVersion": 1,
+    "words": [
+      "永遠",
+      "一時"
+    ]
+  },
+  "sense-lex-jmdict-1576570-1": {
+    "senseVersion": 1,
+    "words": [
+      "迅速",
+      "円満"
+    ]
+  },
+  "sense-lex-jmdict-1576900-1": {
+    "senseVersion": 1,
+    "words": [
+      "声",
+      "騒音"
+    ]
+  },
+  "sense-lex-jmdict-1577100-1": {
+    "senseVersion": 1,
+    "words": [
+      "誰",
+      "どんな"
+    ]
+  },
+  "sense-lex-jmdict-1577280-1": {
+    "senseVersion": 1,
+    "words": [
+      "余暇",
+      "休み"
+    ]
+  },
+  "sense-lex-jmdict-1577730-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸出",
+      "寄付"
+    ]
+  },
+  "sense-lex-jmdict-1577980-1": {
+    "senseVersion": 1,
+    "words": [
+      "ある",
+      "居る（おる）"
+    ]
+  },
+  "sense-lex-jmdict-1577985-1": {
+    "senseVersion": 1,
+    "words": [
+      "いる",
+      "居る（いる）"
+    ]
+  },
+  "sense-lex-jmdict-1578050-1": {
+    "senseVersion": 1,
+    "words": [
+      "独占",
+      "両立"
+    ]
+  },
+  "sense-lex-jmdict-1578075-1": {
+    "senseVersion": 1,
+    "words": [
+      "脅す",
+      "驚かす"
+    ]
+  },
+  "sense-lex-jmdict-1578150-1": {
+    "senseVersion": 1,
+    "words": [
+      "八",
+      "九つ"
+    ]
+  },
+  "sense-lex-jmdict-1578790-1": {
+    "senseVersion": 1,
+    "words": [
+      "道順",
+      "帰り"
+    ]
+  },
+  "sense-lex-jmdict-1578970-1": {
+    "senseVersion": 1,
+    "words": [
+      "提携",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1579080-1": {
+    "senseVersion": 1,
+    "words": [
+      "時刻",
+      "時間"
+    ]
+  },
+  "sense-lex-jmdict-1579110-1": {
+    "senseVersion": 1,
+    "words": [
+      "明日",
+      "現代"
+    ]
+  },
+  "sense-lex-jmdict-1579210-1": {
+    "senseVersion": 1,
+    "words": [
+      "途中",
+      "中途"
+    ]
+  },
+  "sense-lex-jmdict-1579350-1": {
+    "senseVersion": 1,
+    "words": [
+      "四",
+      "三つ"
+    ]
+  },
+  "sense-lex-jmdict-1579470-1": {
+    "senseVersion": 1,
+    "words": [
+      "五",
+      "四つ"
+    ]
+  },
+  "sense-lex-jmdict-1579510-1": {
+    "senseVersion": 1,
+    "words": [
+      "公布",
+      "実施"
+    ]
+  },
+  "sense-lex-jmdict-1579720-1": {
+    "senseVersion": 1,
+    "words": [
+      "悲しい",
+      "惨め"
+    ]
+  },
+  "sense-lex-jmdict-1579990-1": {
+    "senseVersion": 1,
+    "words": [
+      "宝物",
+      "便利"
+    ]
+  },
+  "sense-lex-jmdict-1580230-1": {
+    "senseVersion": 1,
+    "words": [
+      "アドバイス",
+      "命令"
+    ]
+  },
+  "sense-lex-jmdict-1580270-1": {
+    "senseVersion": 1,
+    "words": [
+      "職人",
+      "業者"
+    ]
+  },
+  "sense-lex-jmdict-1580290-1": {
+    "senseVersion": 1,
+    "words": [
+      "女の子",
+      "少年"
+    ]
+  },
+  "sense-lex-jmdict-1580340-1": {
+    "senseVersion": 1,
+    "words": [
+      "下着",
+      "コート"
+    ]
+  },
+  "sense-lex-jmdict-1580480-1": {
+    "senseVersion": 1,
+    "words": [
+      "健やか",
+      "頑丈"
+    ]
+  },
+  "sense-lex-jmdict-1580490-1": {
+    "senseVersion": 1,
+    "words": [
+      "運転手",
+      "客"
+    ]
+  },
+  "sense-lex-jmdict-1580510-1": {
+    "senseVersion": 1,
+    "words": [
+      "空気",
+      "雰囲気"
+    ]
+  },
+  "sense-lex-jmdict-1580600-1": {
+    "senseVersion": 1,
+    "words": [
+      "曲がる",
+      "直接"
+    ]
+  },
+  "sense-lex-jmdict-1580620-1": {
+    "senseVersion": 1,
+    "words": [
+      "真っ黒",
+      "白い"
+    ]
+  },
+  "sense-lex-jmdict-1580640-1": {
+    "senseVersion": 1,
+    "words": [
+      "人々",
+      "国民"
+    ]
+  },
+  "sense-lex-jmdict-1581610-1": {
+    "senseVersion": 1,
+    "words": [
+      "縁（ふち）",
+      "中央"
+    ]
+  },
+  "sense-lex-jmdict-1581710-1": {
+    "senseVersion": 1,
+    "words": [
+      "夜間",
+      "日"
+    ]
+  },
+  "sense-lex-jmdict-1581730-1": {
+    "senseVersion": 1,
+    "words": [
+      "入れる",
+      "流す"
+    ]
+  },
+  "sense-lex-jmdict-1582410-1": {
+    "senseVersion": 1,
+    "words": [
+      "平ら",
+      "ごつごつする"
+    ]
+  },
+  "sense-lex-jmdict-1582430-1": {
+    "senseVersion": 1,
+    "words": [
+      "鋭い",
+      "緩やか"
+    ]
+  },
+  "sense-lex-jmdict-1582820-1": {
+    "senseVersion": 1,
+    "words": [
+      "出口",
+      "門"
+    ]
+  },
+  "sense-lex-jmdict-1582920-1": {
+    "senseVersion": 1,
+    "words": [
+      "これ"
+    ]
+  },
+  "sense-lex-jmdict-1583130-1": {
+    "senseVersion": 1,
+    "words": [
+      "解散",
+      "就任"
+    ]
+  },
+  "sense-lex-jmdict-1583460-1": {
+    "senseVersion": 1,
+    "words": [
+      "書く",
+      "絵"
+    ]
+  },
+  "sense-lex-jmdict-1583470-1": {
+    "senseVersion": 1,
+    "words": [
+      "品物",
+      "賞品"
+    ]
+  },
+  "sense-lex-jmdict-1583720-1": {
+    "senseVersion": 1,
+    "words": [
+      "風",
+      "インフルエンザ"
+    ]
+  },
+  "sense-lex-jmdict-1584100-1": {
+    "senseVersion": 1,
+    "words": [
+      "皆さん",
+      "方々(ほうぼう)"
+    ]
+  },
+  "sense-lex-jmdict-1584130-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠ける",
+      "貧しい"
+    ]
+  },
+  "sense-lex-jmdict-1584670-1": {
+    "senseVersion": 1,
+    "words": [
+      "よける",
+      "逸らす"
+    ]
+  },
+  "sense-lex-jmdict-1584695-1": {
+    "senseVersion": 1,
+    "words": [
+      "点",
+      "全面"
+    ]
+  },
+  "sense-lex-jmdict-1584800-1": {
+    "senseVersion": 1,
+    "words": [
+      "戸",
+      "入り口"
+    ]
+  },
+  "sense-lex-jmdict-1584900-1": {
+    "senseVersion": 1,
+    "words": [
+      "融資",
+      "弾力"
+    ]
+  },
+  "sense-lex-jmdict-1584930-1": {
+    "senseVersion": 1,
+    "words": [
+      "残り",
+      "予備"
+    ]
+  },
+  "sense-lex-jmdict-1585110-1": {
+    "senseVersion": 1,
+    "words": [
+      "ブーム",
+      "伝統"
+    ]
+  },
+  "sense-lex-jmdict-1585230-1": {
+    "senseVersion": 1,
+    "words": [
+      "規則",
+      "場面"
+    ]
+  },
+  "sense-lex-jmdict-1585310-1": {
+    "senseVersion": 1,
+    "words": [
+      "七",
+      "六つ"
+    ]
+  },
+  "sense-lex-jmdict-1585315-1": {
+    "senseVersion": 1,
+    "words": [
+      "六日",
+      "六"
+    ]
+  },
+  "sense-lex-jmdict-1586210-1": {
+    "senseVersion": 1,
+    "words": [
+      "暗闇",
+      "光"
+    ]
+  },
+  "sense-lex-jmdict-1586330-1": {
+    "senseVersion": 1,
+    "words": [
+      "朝食",
+      "夕飯"
+    ]
+  },
+  "sense-lex-jmdict-1586420-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱い",
+      "温暖"
+    ]
+  },
+  "sense-lex-jmdict-1586520-1": {
+    "senseVersion": 1,
+    "words": [
+      "住所",
+      "アドレス"
+    ]
+  },
+  "sense-lex-jmdict-1587150-1": {
+    "senseVersion": 1,
+    "words": [
+      "養成",
+      "教育"
+    ]
+  },
+  "sense-lex-jmdict-1587200-1": {
+    "senseVersion": 1,
+    "words": [
+      "意思",
+      "意図"
+    ]
+  },
+  "sense-lex-jmdict-1587290-1": {
+    "senseVersion": 1,
+    "words": [
+      "もらう",
+      "承る"
+    ]
+  },
+  "sense-lex-jmdict-1587300-1": {
+    "senseVersion": 1,
+    "words": [
+      "痛い",
+      "困難"
+    ]
+  },
+  "sense-lex-jmdict-1587610-1": {
+    "senseVersion": 1,
+    "words": [
+      "嫌い",
+      "好き"
+    ]
+  },
+  "sense-lex-jmdict-1588060-1": {
+    "senseVersion": 1,
+    "words": [
+      "窓口",
+      "対応"
+    ]
+  },
+  "sense-lex-jmdict-1588330-1": {
+    "senseVersion": 1,
+    "words": [
+      "照らす",
+      "写す"
+    ]
+  },
+  "sense-lex-jmdict-1588500-1": {
+    "senseVersion": 1,
+    "words": [
+      "利益",
+      "販売"
+    ]
+  },
+  "sense-lex-jmdict-1588550-1": {
+    "senseVersion": 1,
+    "words": [
+      "レジ",
+      "窓口"
+    ]
+  },
+  "sense-lex-jmdict-1588880-1": {
+    "senseVersion": 1,
+    "words": [
+      "小さい",
+      "広い"
+    ]
+  },
+  "sense-lex-jmdict-1588920-1": {
+    "senseVersion": 1,
+    "words": [
+      "山",
+      "坂"
+    ]
+  },
+  "sense-lex-jmdict-1589030-1": {
+    "senseVersion": 1,
+    "words": [
+      "プレゼント",
+      "お土産"
+    ]
+  },
+  "sense-lex-jmdict-1589110-1": {
+    "senseVersion": 1,
+    "words": [
+      "クローゼット",
+      "戸棚"
+    ]
+  },
+  "sense-lex-jmdict-1589330-1": {
+    "senseVersion": 1,
+    "words": [
+      "思い出す",
+      "考える"
+    ]
+  },
+  "sense-lex-jmdict-1589340-1": {
+    "senseVersion": 1,
+    "words": [
+      "記憶",
+      "覚え"
+    ]
+  },
+  "sense-lex-jmdict-1589580-1": {
+    "senseVersion": 1,
+    "words": [
+      "下げる",
+      "引き下げる"
+    ]
+  },
+  "sense-lex-jmdict-1589590-1": {
+    "senseVersion": 1,
+    "words": [
+      "始まり",
+      "最後"
+    ]
+  },
+  "sense-lex-jmdict-1589840-1": {
+    "senseVersion": 1,
+    "words": [
+      "責任者",
+      "主任"
+    ]
+  },
+  "sense-lex-jmdict-1589880-1": {
+    "senseVersion": 1,
+    "words": [
+      "携わる",
+      "関する"
+    ]
+  },
+  "sense-lex-jmdict-1590145-1": {
+    "senseVersion": 1,
+    "words": [
+      "陰",
+      "跡"
+    ]
+  },
+  "sense-lex-jmdict-1590150-1": {
+    "senseVersion": 1,
+    "words": [
+      "日陰",
+      "影"
+    ]
+  },
+  "sense-lex-jmdict-1590240-1": {
+    "senseVersion": 1,
+    "words": [
+      "貸し",
+      "返却"
+    ]
+  },
+  "sense-lex-jmdict-1590250-1": {
+    "senseVersion": 1,
+    "words": [
+      "部分",
+      "地点"
+    ]
+  },
+  "sense-lex-jmdict-1590280-1": {
+    "senseVersion": 1,
+    "words": [
+      "縦書き",
+      "内訳"
+    ]
+  },
+  "sense-lex-jmdict-1590480-1": {
+    "senseVersion": 1,
+    "words": [
+      "姿",
+      "格好いい"
+    ]
+  },
+  "sense-lex-jmdict-1590600-1": {
+    "senseVersion": 1,
+    "words": [
+      "項目",
+      "学科"
+    ]
+  },
+  "sense-lex-jmdict-1590770-1": {
+    "senseVersion": 1,
+    "words": [
+      "お返し",
+      "代わる"
+    ]
+  },
+  "sense-lex-jmdict-1591100-1": {
+    "senseVersion": 1,
+    "words": [
+      "有効",
+      "効かせる"
+    ]
+  },
+  "sense-lex-jmdict-1591140-1": {
+    "senseVersion": 1,
+    "words": [
+      "期限",
+      "原因"
+    ]
+  },
+  "sense-lex-jmdict-1591210-1": {
+    "senseVersion": 1,
+    "words": [
+      "標準",
+      "結果"
+    ]
+  },
+  "sense-lex-jmdict-1591330-1": {
+    "senseVersion": 1,
+    "words": [
+      "悟る",
+      "察する"
+    ]
+  },
+  "sense-lex-jmdict-1591390-1": {
+    "senseVersion": 1,
+    "words": [
+      "規模",
+      "基準"
+    ]
+  },
+  "sense-lex-jmdict-1591400-1": {
+    "senseVersion": 1,
+    "words": [
+      "支払",
+      "貢献"
+    ]
+  },
+  "sense-lex-jmdict-1591430-1": {
+    "senseVersion": 1,
+    "words": [
+      "気",
+      "気味"
+    ]
+  },
+  "sense-lex-jmdict-1591660-1": {
+    "senseVersion": 1,
+    "words": [
+      "個別",
+      "協力"
+    ]
+  },
+  "sense-lex-jmdict-1591780-1": {
+    "senseVersion": 1,
+    "words": [
+      "変える",
+      "切り替わる"
+    ]
+  },
+  "sense-lex-jmdict-1591900-1": {
+    "senseVersion": 1,
+    "words": [
+      "清い",
+      "汚い"
+    ]
+  },
+  "sense-lex-jmdict-1592100-1": {
+    "senseVersion": 1,
+    "words": [
+      "食べる",
+      "飲む"
+    ]
+  },
+  "sense-lex-jmdict-1592130-1": {
+    "senseVersion": 1,
+    "words": [
+      "分ける",
+      "仕切る"
+    ]
+  },
+  "sense-lex-jmdict-1592250-1": {
+    "senseVersion": 1,
+    "words": [
+      "国家",
+      "国語"
+    ]
+  },
+  "sense-lex-jmdict-1592290-1": {
+    "senseVersion": 1,
+    "words": [
+      "単独",
+      "総合"
+    ]
+  },
+  "sense-lex-jmdict-1592340-1": {
+    "senseVersion": 1,
+    "words": [
+      "晴れ",
+      "霧"
+    ]
+  },
+  "sense-lex-jmdict-1592350-1": {
+    "senseVersion": 1,
+    "words": [
+      "嬉しい",
+      "残念"
+    ]
+  },
+  "sense-lex-jmdict-1592500-1": {
+    "senseVersion": 1,
+    "words": [
+      "有様",
+      "状態"
+    ]
+  },
+  "sense-lex-jmdict-1592930-1": {
+    "senseVersion": 1,
+    "words": [
+      "幸福",
+      "運"
+    ]
+  },
+  "sense-lex-jmdict-1592970-1": {
+    "senseVersion": 1,
+    "words": [
+      "角",
+      "横断"
+    ]
+  },
+  "sense-lex-jmdict-1593290-1": {
+    "senseVersion": 1,
+    "words": [
+      "手紙",
+      "荷物"
+    ]
+  },
+  "sense-lex-jmdict-1593410-1": {
+    "senseVersion": 1,
+    "words": [
+      "混ぜる",
+      "混む"
+    ]
+  },
+  "sense-lex-jmdict-1593480-1": {
+    "senseVersion": 1,
+    "words": [
+      "恐ろしい"
+    ]
+  },
+  "sense-lex-jmdict-1593590-1": {
+    "senseVersion": 1,
+    "words": [
+      "食事",
+      "宴会"
+    ]
+  },
+  "sense-lex-jmdict-1593650-1": {
+    "senseVersion": 1,
+    "words": [
+      "逆さ",
+      "元通り"
+    ]
+  },
+  "sense-lex-jmdict-1593710-1": {
+    "senseVersion": 1,
+    "words": [
+      "梅",
+      "花"
+    ]
+  },
+  "sense-lex-jmdict-1593780-1": {
+    "senseVersion": 1,
+    "words": [
+      "トラブル",
+      "差し引き"
+    ]
+  },
+  "sense-lex-jmdict-1593820-1": {
+    "senseVersion": 1,
+    "words": [
+      "汚れ",
+      "錆びる"
+    ]
+  },
+  "sense-lex-jmdict-1593830-1": {
+    "senseVersion": 1,
+    "words": [
+      "同一",
+      "多様"
+    ]
+  },
+  "sense-lex-jmdict-1594060-1": {
+    "senseVersion": 1,
+    "words": [
+      "幸運",
+      "幸福"
+    ]
+  },
+  "sense-lex-jmdict-1594110-1": {
+    "senseVersion": 1,
+    "words": [
+      "手法",
+      "方法"
+    ]
+  },
+  "sense-lex-jmdict-1594180-1": {
+    "senseVersion": 1,
+    "words": [
+      "機構",
+      "構造"
+    ]
+  },
+  "sense-lex-jmdict-1594190-1": {
+    "senseVersion": 1,
+    "words": [
+      "反応",
+      "勢い"
+    ]
+  },
+  "sense-lex-jmdict-1594270-1": {
+    "senseVersion": 1,
+    "words": [
+      "騒ぐ",
+      "冷める"
+    ]
+  },
+  "sense-lex-jmdict-1594480-1": {
+    "senseVersion": 1,
+    "words": [
+      "請求",
+      "支給"
+    ]
+  },
+  "sense-lex-jmdict-1594740-1": {
+    "senseVersion": 1,
+    "words": [
+      "愛着",
+      "愛"
+    ]
+  },
+  "sense-lex-jmdict-1594930-1": {
+    "senseVersion": 1,
+    "words": [
+      "少し",
+      "多少"
+    ]
+  },
+  "sense-lex-jmdict-1595200-1": {
+    "senseVersion": 1,
+    "words": [
+      "侵入",
+      "攻撃"
+    ]
+  },
+  "sense-lex-jmdict-1595240-1": {
+    "senseVersion": 1,
+    "words": [
+      "状況",
+      "場面"
+    ]
+  },
+  "sense-lex-jmdict-1595270-1": {
+    "senseVersion": 1,
+    "words": [
+      "辞書",
+      "事典"
+    ]
+  },
+  "sense-lex-jmdict-1595480-1": {
+    "senseVersion": 1,
+    "words": [
+      "次第に",
+      "着々"
+    ]
+  },
+  "sense-lex-jmdict-1595750-1": {
+    "senseVersion": 1,
+    "words": [
+      "職場",
+      "住宅"
+    ]
+  },
+  "sense-lex-jmdict-1596210-1": {
+    "senseVersion": 1,
+    "words": [
+      "最後尾",
+      "正面"
+    ]
+  },
+  "sense-lex-jmdict-1596370-1": {
+    "senseVersion": 1,
+    "words": [
+      "お互い",
+      "互い"
+    ]
+  },
+  "sense-lex-jmdict-1596380-1": {
+    "senseVersion": 1,
+    "words": [
+      "個別",
+      "連合"
+    ]
+  },
+  "sense-lex-jmdict-1596440-1": {
+    "senseVersion": 1,
+    "words": [
+      "騒がしい",
+      "うるさい"
+    ]
+  },
+  "sense-lex-jmdict-1596510-1": {
+    "senseVersion": 1,
+    "words": [
+      "失う",
+      "壊す"
+    ]
+  },
+  "sense-lex-jmdict-1596860-1": {
+    "senseVersion": 1,
+    "words": [
+      "費やす",
+      "残す"
+    ]
+  },
+  "sense-lex-jmdict-1596930-1": {
+    "senseVersion": 1,
+    "words": [
+      "確実",
+      "多分"
+    ]
+  },
+  "sense-lex-jmdict-1596950-1": {
+    "senseVersion": 1,
+    "words": [
+      "喧嘩",
+      "争い"
+    ]
+  },
+  "sense-lex-jmdict-1597180-1": {
+    "senseVersion": 1,
+    "words": [
+      "偶然",
+      "時々"
+    ]
+  },
+  "sense-lex-jmdict-1597480-1": {
+    "senseVersion": 1,
+    "words": [
+      "停滞",
+      "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1597850-1": {
+    "senseVersion": 1,
+    "words": [
+      "順番に",
+      "一人一人"
+    ]
+  },
+  "sense-lex-jmdict-1598000-1": {
+    "senseVersion": 1,
+    "words": [
+      "控える",
+      "止める（やめる）"
+    ]
+  },
+  "sense-lex-jmdict-1598240-1": {
+    "senseVersion": 1,
+    "words": [
+      "給料",
+      "代わり"
+    ]
+  },
+  "sense-lex-jmdict-1598340-1": {
+    "senseVersion": 1,
+    "words": [
+      "終始する",
+      "終える"
+    ]
+  },
+  "sense-lex-jmdict-1598350-1": {
+    "senseVersion": 1,
+    "words": [
+      "手順",
+      "方法"
+    ]
+  },
+  "sense-lex-jmdict-1598410-1": {
+    "senseVersion": 1,
+    "words": [
+      "手順",
+      "指導"
+    ]
+  },
+  "sense-lex-jmdict-1598540-1": {
+    "senseVersion": 1,
+    "words": [
+      "玄関",
+      "ゲート"
+    ]
+  },
+  "sense-lex-jmdict-1598590-1": {
+    "senseVersion": 1,
+    "words": [
+      "回答",
+      "質問"
+    ]
+  },
+  "sense-lex-jmdict-1598680-1": {
+    "senseVersion": 1,
+    "words": [
+      "毎日",
+      "たまたま"
+    ]
+  },
+  "sense-lex-jmdict-1598750-1": {
+    "senseVersion": 1,
+    "words": [
+      "老人",
+      "若者"
+    ]
+  },
+  "sense-lex-jmdict-1598800-1": {
+    "senseVersion": 1,
+    "words": [
+      "整える",
+      "決まる"
+    ]
+  },
+  "sense-lex-jmdict-1598990-1": {
+    "senseVersion": 1,
+    "words": [
+      "扱い",
+      "取り引き"
+    ]
+  },
+  "sense-lex-jmdict-1599070-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り調べ",
+      "監督"
+    ]
+  },
+  "sense-lex-jmdict-1599120-1": {
+    "senseVersion": 1,
+    "words": [
+      "取材",
+      "交渉"
+    ]
+  },
+  "sense-lex-jmdict-1599400-1": {
+    "senseVersion": 1,
+    "words": [
+      "直る",
+      "戻す"
+    ]
+  },
+  "sense-lex-jmdict-1599420-1": {
+    "senseVersion": 1,
+    "words": [
+      "滅多に",
+      "すぐ"
+    ]
+  },
+  "sense-lex-jmdict-1599680-1": {
+    "senseVersion": 1,
+    "words": [
+      "沿う",
+      "依る"
+    ]
+  },
+  "sense-lex-jmdict-1599760-1": {
+    "senseVersion": 1,
+    "words": [
+      "味",
+      "香り"
+    ]
+  },
+  "sense-lex-jmdict-1599780-1": {
+    "senseVersion": 1,
+    "words": [
+      "臭う",
+      "嗅ぐ"
+    ]
+  },
+  "sense-lex-jmdict-1599900-1": {
+    "senseVersion": 1,
+    "words": [
+      "受け持つ",
+      "背負う"
+    ]
+  },
+  "sense-lex-jmdict-1600240-1": {
+    "senseVersion": 1,
+    "words": [
+      "年代",
+      "年"
+    ]
+  },
+  "sense-lex-jmdict-1600530-1": {
+    "senseVersion": 1,
+    "words": [
+      "交通機関",
+      "乗客"
+    ]
+  },
+  "sense-lex-jmdict-1600660-1": {
+    "senseVersion": 1,
+    "words": [
+      "測る",
+      "考える"
+    ]
+  },
+  "sense-lex-jmdict-1600720-1": {
+    "senseVersion": 1,
+    "words": [
+      "甚だしい",
+      "強い"
+    ]
+  },
+  "sense-lex-jmdict-1601160-1": {
+    "senseVersion": 1,
+    "words": [
+      "引用",
+      "映像"
+    ]
+  },
+  "sense-lex-jmdict-1601260-1": {
+    "senseVersion": 1,
+    "words": [
+      "愚か",
+      "鈍い"
+    ]
+  },
+  "sense-lex-jmdict-1601480-1": {
+    "senseVersion": 1,
+    "words": [
+      "引き下げる",
+      "高まる"
+    ]
+  },
+  "sense-lex-jmdict-1601600-1": {
+    "senseVersion": 1,
+    "words": [
+      "下げる",
+      "下ろす"
+    ]
+  },
+  "sense-lex-jmdict-1601830-1": {
+    "senseVersion": 1,
+    "words": [
+      "日当たり",
+      "日"
+    ]
+  },
+  "sense-lex-jmdict-1602330-1": {
+    "senseVersion": 1,
+    "words": [
+      "ランチ",
+      "お昼"
+    ]
+  },
+  "sense-lex-jmdict-1602340-1": {
+    "senseVersion": 1,
+    "words": [
+      "夕飯",
+      "昼食"
+    ]
+  },
+  "sense-lex-jmdict-1602820-1": {
+    "senseVersion": 1,
+    "words": [
+      "個別",
+      "一般"
+    ]
+  },
+  "sense-lex-jmdict-1603660-1": {
+    "senseVersion": 1,
+    "words": [
+      "巨大",
+      "大きな"
+    ]
+  },
+  "sense-lex-jmdict-1603990-1": {
+    "senseVersion": 1,
+    "words": [
+      "村",
+      "都市"
+    ]
+  },
+  "sense-lex-jmdict-1604130-1": {
+    "senseVersion": 1,
+    "words": [
+      "お祭り",
+      "会議"
+    ]
+  },
+  "sense-lex-jmdict-1604135-1": {
+    "senseVersion": 1,
+    "words": [
+      "祭り",
+      "式"
+    ]
+  },
+  "sense-lex-jmdict-1604280-1": {
+    "senseVersion": 1,
+    "words": [
+      "珍しい",
+      "頻繁"
+    ]
+  },
+  "sense-lex-jmdict-1604290-1": {
+    "senseVersion": 1,
+    "words": [
+      "周辺",
+      "周囲"
+    ]
+  },
+  "sense-lex-jmdict-1604420-1": {
+    "senseVersion": 1,
+    "words": [
+      "外観",
+      "中身"
+    ]
+  },
+  "sense-lex-jmdict-1604480-1": {
+    "senseVersion": 1,
+    "words": [
+      "見通し",
+      "予期"
+    ]
+  },
+  "sense-lex-jmdict-1604590-1": {
+    "senseVersion": 1,
+    "words": [
+      "請求",
+      "評価"
+    ]
+  },
+  "sense-lex-jmdict-1604610-1": {
+    "senseVersion": 1,
+    "words": [
+      "見込み",
+      "展望"
+    ]
+  },
+  "sense-lex-jmdict-1604750-1": {
+    "senseVersion": 1,
+    "words": [
+      "隣",
+      "向こう"
+    ]
+  },
+  "sense-lex-jmdict-1604870-1": {
+    "senseVersion": 1,
+    "words": [
+      "却って",
+      "かえって"
+    ]
+  },
+  "sense-lex-jmdict-1605270-1": {
+    "senseVersion": 1,
+    "words": [
+      "従う",
+      "始める"
+    ]
+  },
+  "sense-lex-jmdict-1605280-1": {
+    "senseVersion": 1,
+    "words": [
+      "本来",
+      "元来"
+    ]
+  },
+  "sense-lex-jmdict-1605320-1": {
+    "senseVersion": 1,
+    "words": [
+      "漏れる",
+      "現す"
+    ]
+  },
+  "sense-lex-jmdict-1605630-1": {
+    "senseVersion": 1,
+    "words": [
+      "硬い",
+      "柔軟"
+    ]
+  },
+  "sense-lex-jmdict-1605680-1": {
+    "senseVersion": 1,
+    "words": [
+      "郵便局",
+      "ポスト"
+    ]
+  },
+  "sense-lex-jmdict-1605720-1": {
+    "senseVersion": 1,
+    "words": [
+      "便利",
+      "好調"
+    ]
+  },
+  "sense-lex-jmdict-1605820-1": {
+    "senseVersion": 1,
+    "words": [
+      "宜しい",
+      "好ましい"
+    ]
+  },
+  "sense-lex-jmdict-1605870-1": {
+    "senseVersion": 1,
+    "words": [
+      "いつも",
+      "頻りに"
+    ]
+  },
+  "sense-lex-jmdict-1606020-1": {
+    "senseVersion": 1,
+    "words": [
+      "消える",
+      "治る"
+    ]
+  },
+  "sense-lex-jmdict-1606250-1": {
+    "senseVersion": 1,
+    "words": [
+      "盗難",
+      "強盗"
+    ]
+  },
+  "sense-lex-jmdict-1606280-1": {
+    "senseVersion": 1,
+    "words": [
+      "承認",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1606450-1": {
+    "senseVersion": 1,
+    "words": [
+      "仕事",
+      "作業"
+    ]
+  },
+  "sense-lex-jmdict-1606610-1": {
+    "senseVersion": 1,
+    "words": [
+      "年老いた",
+      "若い"
+    ]
+  },
+  "sense-lex-jmdict-1606790-1": {
+    "senseVersion": 1,
+    "words": [
+      "謝る",
+      "責める"
+    ]
+  },
+  "sense-lex-jmdict-1609040-1": {
+    "senseVersion": 1,
+    "words": [
+      "値段",
+      "価値"
+    ]
+  },
+  "sense-lex-jmdict-1609050-1": {
+    "senseVersion": 1,
+    "words": [
+      "会合",
+      "集会"
+    ]
+  },
+  "sense-lex-jmdict-1609210-1": {
+    "senseVersion": 1,
+    "words": [
+      "どっと",
+      "同時に"
+    ]
+  },
+  "sense-lex-jmdict-1609310-1": {
+    "senseVersion": 1,
+    "words": [
+      "無くす",
+      "認める"
+    ]
+  },
+  "sense-lex-jmdict-1609350-1": {
+    "senseVersion": 1,
+    "words": [
+      "出身",
+      "誕生"
+    ]
+  },
+  "sense-lex-jmdict-1609500-1": {
+    "senseVersion": 1,
+    "words": [
+      "引っかかる",
+      "掛かる"
+    ]
+  },
+  "sense-lex-jmdict-1609660-1": {
+    "senseVersion": 1,
+    "words": [
+      "コード",
+      "決定"
+    ]
+  },
+  "sense-lex-jmdict-1610040-1": {
+    "senseVersion": 1,
+    "words": [
+      "おかげ",
+      "罪"
+    ]
+  },
+  "sense-lex-jmdict-1610160-1": {
+    "senseVersion": 1,
+    "words": [
+      "向く",
+      "関する"
+    ]
+  },
+  "sense-lex-jmdict-1610630-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想通り",
+      "急"
+    ]
+  },
+  "sense-lex-jmdict-1610740-1": {
+    "senseVersion": 1,
+    "words": [
+      "かもしれない",
+      "確か"
+    ]
+  },
+  "sense-lex-jmdict-1610950-1": {
+    "senseVersion": 1,
+    "words": [
+      "終わる",
+      "頑張る"
+    ]
+  },
+  "sense-lex-jmdict-1610960-1": {
+    "senseVersion": 1,
+    "words": [
+      "見通し",
+      "展望"
+    ]
+  },
+  "sense-lex-jmdict-1611090-1": {
+    "senseVersion": 1,
+    "words": [
+      "捻る",
+      "解く"
+    ]
+  },
+  "sense-lex-jmdict-1611130-1": {
+    "senseVersion": 1,
+    "words": [
+      "一部だけ",
+      "全部"
+    ]
+  },
+  "sense-lex-jmdict-1611200-1": {
+    "senseVersion": 1,
+    "words": [
+      "開始",
+      "始める"
+    ]
+  },
+  "sense-lex-jmdict-1611370-1": {
+    "senseVersion": 1,
+    "words": [
+      "日付",
+      "時刻"
+    ]
+  },
+  "sense-lex-jmdict-1611770-1": {
+    "senseVersion": 1,
+    "words": [
+      "行き",
+      "目的地"
+    ]
+  },
+  "sense-lex-jmdict-1612000-1": {
+    "senseVersion": 1,
+    "words": [
+      "なかなか",
+      "たまに"
+    ]
+  },
+  "sense-lex-jmdict-1612530-1": {
+    "senseVersion": 1,
+    "words": [
+      "各自",
+      "銘々"
+    ]
+  },
+  "sense-lex-jmdict-1612920-1": {
+    "senseVersion": 1,
+    "words": [
+      "打つ（うつ）",
+      "引く"
+    ]
+  },
+  "sense-lex-jmdict-1613570-1": {
+    "senseVersion": 1,
+    "words": [
+      "水泳",
+      "泳ぐ"
+    ]
+  },
+  "sense-lex-jmdict-1628530-1": {
+    "senseVersion": 1,
+    "words": [
+      "この"
+    ]
+  },
+  "sense-lex-jmdict-1629200-1": {
+    "senseVersion": 1,
+    "words": [
+      "王子",
+      "元首"
+    ]
+  },
+  "sense-lex-jmdict-1632430-1": {
+    "senseVersion": 1,
+    "words": [
+      "偶然",
+      "たまたま"
+    ]
+  },
+  "sense-lex-jmdict-1633690-1": {
+    "senseVersion": 1,
+    "words": [
+      "階",
+      "段階"
+    ]
+  },
+  "sense-lex-jmdict-1894690-1": {
+    "senseVersion": 1,
+    "words": [
+      "続ける",
+      "連続"
+    ]
+  },
+  "sense-lex-jmdict-1919590-1": {
+    "senseVersion": 1,
+    "words": [
+      "段",
+      "段階"
+    ]
+  },
+  "sense-lex-jmdict-1979930-1": {
+    "senseVersion": 1,
+    "words": [
+      "相互",
+      "互い"
+    ]
+  },
+  "sense-lex-jmdict-2005860-1": {
+    "senseVersion": 1,
+    "words": [
+      "もう一つ",
+      "再び"
+    ]
+  },
+  "sense-lex-jmdict-2008740-1": {
+    "senseVersion": 1,
+    "words": [
+      "ああ",
+      "あんなに"
+    ]
+  },
+  "sense-lex-jmdict-2057030-1": {
+    "senseVersion": 1,
+    "words": [
+      "翻訳",
+      "訳す"
+    ]
+  },
+  "sense-lex-jmdict-2085080-1": {
+    "senseVersion": 1,
+    "words": [
+      "そんなに",
+      "こう"
+    ]
+  },
+  "sense-lex-jmdict-2147990-1": {
+    "senseVersion": 1,
+    "words": [
+      "背中",
+      "身長"
+    ]
+  },
+  "sense-lex-jmdict-2800530-1": {
+    "senseVersion": 1,
+    "words": [
+      "回転",
+      "周り"
+    ]
+  },
+  "sense-lex-jmdict-2820720-1": {
+    "senseVersion": 1,
+    "words": [
+      "実は",
+      "実際"
+    ]
+  },
+  "sense-lex-jmdict-2830705-1": {
+    "senseVersion": 1,
+    "words": [
+      "体"
+    ]
+  },
+  "sense-lex-jmdict-2848289-1": {
+    "senseVersion": 1,
+    "words": [
+      "基本",
+      "基礎"
+    ]
+  },
+  "sense-lex-jmdict-2853884-1": {
+    "senseVersion": 1,
+    "words": [
+      "出身地",
+      "産地"
+    ]
+  },
+  "sense-lex-jmdict-2856318-1": {
+    "senseVersion": 1,
+    "words": [
+      "治る",
+      "治療"
+    ]
+  },
+  "sense-lex-jmdict-2868440-1": {
+    "senseVersion": 1,
+    "words": [
+      "筒",
+      "パイプ"
+    ]
+  }
+}

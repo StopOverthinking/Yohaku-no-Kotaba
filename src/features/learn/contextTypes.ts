@@ -25,6 +25,9 @@ export type LearnSense = {
   examples: LearnExample[]
 }
 
+/** One or two selected display comparisons; authored content and learning versions stay intact. */
+export type HintConfusions = Record<string, { senseVersion: number; words: string[] }>
+
 /** Scheduling metadata; sentence text can be fetched separately for the visible card. */
 export type LearnExampleIndex = Pick<LearnExample, 'id' | 'version' | 'difficulty' | 'status'>
 export type LearnSenseIndex = Pick<LearnSense, 'id' | 'wordId' | 'version' | 'review'> & {

@@ -19,6 +19,7 @@ const outputDir = path.join(projectRoot, 'src', 'features', 'vocab', 'data')
 
 const sourcePaths = {
   learnContent: path.join(sourceDataDir, 'learnContent.json'),
+  hintConfusions: path.join(sourceDataDir, 'hintConfusions.json'),
   sets: path.join(sourceDataDir, 'vocabularySets.json'),
   words: path.join(sourceDataDir, 'vocabularyWords.json'),
   themeWordbooks: path.join(sourceDataDir, 'themeWordbooks.json'),
@@ -134,6 +135,7 @@ async function readVocabSource() {
 
   return {
     learnContent: await readJsonFile(sourcePaths.learnContent, []),
+    hintConfusions: JSON.parse(await fs.readFile(sourcePaths.hintConfusions, 'utf8')),
     sets,
     words,
     themeWordbooks,
@@ -145,6 +147,15 @@ async function readVocabSource() {
 }
 
 async function writeOutputFiles(data) {
+  const validationSource = await fs.readFile(path.join(projectRoot, 'src/features/learn/contentValidation.ts'), 'utf8')
+  const validationJs = ts.transpileModule(validationSource, {
+    compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext },
+  }).outputText
+  const { validateLearnContent, validateHintConfusions } = await import(`data:text/javascript;base64,${Buffer.from(validationJs).toString('base64')}`)
+  const hintConfusions = data.hintConfusions ?? {}
+  const hintIssues = validateHintConfusions(hintConfusions, data.learnContent ?? [],
+    new Map([...data.words, ...data.themeWords].map((word) => [word.id, word])))
+  if (hintIssues.length) throw new Error(hintIssues.join('\n'))
   const pruning = verifyReviewedExampleHistory(data.words, data.learnContent ?? [], await readReviewedExampleHistory(projectRoot))
   const aliasRoot = path.join(projectRoot, 'content/jlpt/legacy')
   const aliases = buildReviewedAliases(
@@ -153,6 +164,8 @@ async function writeOutputFiles(data) {
     data.words, pruning.historicalSenses,
   )
   await fs.mkdir(outputDir, { recursive: true })
+  await writeGeneratedFile(path.join(outputDir, 'hintConfusions.ts'),
+    `import type { HintConfusions } from '../../learn/contextTypes'\n\nexport const hintConfusions: HintConfusions = ${toTsLiteral(hintConfusions)}\n`)
   await writeGeneratedFile(path.join(outputDir, 'exampleRetirements.ts'),
     `import type { ExampleRetirement } from '../../learn/contextExampleRetirements'\n\nexport const exampleRetirements: ExampleRetirement[] = ${toTsLiteral(pruning.retirements)}\n`)
   await writeGeneratedFile(path.join(outputDir, 'learnAliases.ts'),
@@ -169,11 +182,6 @@ async function writeOutputFiles(data) {
   if (furigana.report.missing.length) throw new Error(`Missing furigana readings: ${furigana.report.missing.length}; see output/furigana/review.json`)
   const { index: contentIndex, shards } = partitionLearnContent(furigana.senses)
   // Run the same validator used by loaded shards, without requiring Node's TS support.
-  const validationSource = await fs.readFile(path.join(projectRoot, 'src/features/learn/contentValidation.ts'), 'utf8')
-  const validationJs = ts.transpileModule(validationSource, {
-    compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext },
-  }).outputText
-  const { validateLearnContent } = await import(`data:text/javascript;base64,${Buffer.from(validationJs).toString('base64')}`)
   const issues = validateLearnContent(furigana.senses, new Set([...data.words, ...data.themeWords].map((word) => word.id)))
   await writeGeneratedFile(path.join(outputDir, 'learnContentValidation.ts'),
     `// Generated from the complete corpus; loaded shards are also validated at runtime.\nexport const learnContentIssues: string[] = ${toTsLiteral(issues)}\n`, 'utf8')

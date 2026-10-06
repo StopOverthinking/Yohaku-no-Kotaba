@@ -9,7 +9,7 @@ import { contextSenseMap, contextWordMap } from './contextContent'
 import { useContextStore } from './contextStore'
 import { useContextSense } from './useContextSense'
 import { profileKey } from './contextEngine'
-import { cardRecency } from './contextPresentation'
+import { cardRecency, similarHintWords } from './contextPresentation'
 import type { FuriganaPart } from './contextTypes'
 import styles from './context.module.css'
 
@@ -88,6 +88,7 @@ export function ContextSessionPage() {
       </div>
     )
   const targetStart = example.translation.indexOf(example.translationTarget)
+  const similarWords = session.hintShown ? similarHintWords(sense, word, example) : []
   return (
     <div className={styles.root}>
       <header className={styles.header}>
@@ -163,7 +164,14 @@ export function ContextSessionPage() {
               <span>{sense.meaning}</span>
             </div>
           )}
-          {session.hintShown && <p className={styles.hint}>{sense.hint}</p>}
+          {session.hintShown && (
+            <div className={styles.hint}>
+              <p>{sense.hint}</p>
+              {similarWords.length > 0 && (
+                <p className={styles.similarWords}>비슷한 단어: <span lang="ja">{similarWords.join(' · ')}</span></p>
+              )}
+            </div>
+          )}
         </div>
         <div className={styles.tools}>
           <IconButton

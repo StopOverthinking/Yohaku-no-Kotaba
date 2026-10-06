@@ -1,9 +1,34 @@
 import { describe, expect, it } from 'vitest'
-import { cardRecency, scopedReviews } from './contextPresentation'
+import { cardRecency, scopedReviews, similarHintWords } from './contextPresentation'
 import { profileKey, reviewProfile } from './contextEngine'
 import { testSense } from './contextTestFixtures'
 
 describe('learning presentation', () => {
+  it('deduplicates comparison words and excludes the current answer, headword and readings', () => {
+    const sense = testSense('a')
+    const word = { japanese: '答える', reading: 'こたえる' }
+    sense.confusions = ['返事する', '返事する ', '', word.japanese, word.reading, sense.examples[0].answer, sense.examples[0].reading]
+      .map((japanese) => ({ japanese, distinction: '차이' }))
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual(['返事する'])
+    sense.confusions = [{ japanese: word.japanese, distinction: '다른 읽기' }]
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual([])
+  })
+
+  it('shows a different homograph reading but rejects a qualified version of the answer', () => {
+    const sense = testSense('a')
+    const word = { japanese: '開く', reading: 'あく' }
+    sense.confusions = ['開く', '開く（あく）', '開く（ひらく）'].map((japanese) => ({ japanese, distinction: '읽기 차이' }))
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual(['開く（ひらく）'])
+  })
+
+  it('shows at most two comparisons after filtering and deduplication', () => {
+    const sense = testSense('a')
+    const word = { japanese: '答える', reading: 'こたえる' }
+    sense.confusions = [word.japanese, ' ', '返事する', '返事する', '応じる', '言う']
+      .map((japanese) => ({ japanese, distinction: '차이' }))
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual(['返事する', '応じる'])
+  })
+
   it('uses calendar days for new, same-day, overdue and future-dated cards', () => {
     const sense = testSense('a')
     const profile = reviewProfile(undefined, sense, sense.examples[0], true, false, '2026-09-29')

@@ -21,6 +21,8 @@
     "jlpt:accept": "node scripts/accept-jlpt-batch.mjs",
     "jlpt:audit": "node scripts/audit-jlpt-expansion.mjs",
     "audit:content": "node scripts/audit-learn-content.mjs --require-complete",
+    "hint:scan": "node scripts/scan-hint-confusions.mjs",
+    "hint:audit": "node scripts/build-hint-confusions.mjs",
     "release:manifest": "node scripts/write-release-manifest.mjs"
   },
   "dependencies": {

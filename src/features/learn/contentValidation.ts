@@ -1,4 +1,25 @@
-import type { LearnSense, LearnSenseIndex } from './contextTypes'
+import type { HintConfusions, LearnSense, LearnSenseIndex } from './contextTypes'
+
+export function validateHintConfusions(
+  overrides: HintConfusions,
+  senses: LearnSense[],
+  words: Map<string, { japanese: string; reading: string }>,
+): string[] {
+  const issues: string[] = []
+  const byId = new Map(senses.map((sense) => [sense.id, sense]))
+  for (const [id, entry] of Object.entries(overrides)) {
+    const sense = byId.get(id)
+    const word = sense && words.get(sense.wordId)
+    if (!sense || !word) issues.push(`${id}: 힌트 비교 대상의 용법/단어 없음`)
+    if (!entry || entry.senseVersion !== sense?.version) issues.push(`${id}: 힌트 비교 대상의 용법 버전 불일치`)
+    if (!Array.isArray(entry?.words) || !entry.words.length || entry.words.length > 2 || entry.words.some((text) =>
+      typeof text !== 'string' || !text.trim() || text !== text.trim() || text === word?.japanese || text === word?.reading
+      || (text.normalize('NFKC').match(/^(.+)\((.+)\)$/u)?.slice(1).join('|') === `${word?.japanese}|${word?.reading}`)
+    ) || new Set(entry.words).size !== entry.words.length)
+      issues.push(`${id}: 힌트 비교 단어 누락/개수 초과/중복/자기 참조`)
+  }
+  return issues
+}
 
 export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>): string[] {
   const issues: string[] = []
