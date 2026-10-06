@@ -1,12 +1,19 @@
-import { describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vitest'
 import { learnContent } from '@/features/vocab/data/learnContent'
 import { learnContentIndex } from '@/features/vocab/data/learnContentIndex'
 import { learnContentLoaders } from '@/features/vocab/data/learnContentLoaders'
 import { validateLearnContent } from './contentValidation'
+import type { LearnSense } from './contextTypes'
 
 describe('generated content shards', () => {
-  it('loads every authored sense unchanged and indexes the same versions and difficulty', async () => {
-    const shards = await Promise.all(Object.entries(learnContentLoaders).map(async ([id, load]) => [Number(id), await load()] as const))
+  let shards: Array<readonly [number, LearnSense[]]>
+  // Load and transform every generated module as fixture preparation; keep all
+  // corpus assertions below within the unchanged default test timeout.
+  beforeAll(async () => {
+    shards = await Promise.all(Object.entries(learnContentLoaders).map(async ([id, load]) => [Number(id), await load()] as const))
+  })
+
+  it('loads every authored sense unchanged and indexes the same versions and difficulty', () => {
     const byShard = new Map(shards)
     const restored = new Map(shards.flatMap(([, senses]) => senses.map((s) => [s.id, s] as const)))
     expect(restored.size).toBe(learnContent.length)
