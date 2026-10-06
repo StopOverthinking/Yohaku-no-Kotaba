@@ -1,4 +1,5 @@
-import { describe, expect, it } from 'vitest'
+import { setImmediate } from 'node:timers/promises'
+import { afterEach, describe, expect, it } from 'vitest'
 import { allWords, getWordsForSet } from '@/features/vocab/model/selectors'
 import { contextSenses, contextSenseMap } from './contextContent'
 import { startContext, answerContext, emptyContextState, undoContext } from './contextEngine'
@@ -15,6 +16,10 @@ import sourceComparisonPairs from '@/features/vocab/editor-data/comparisonPairs.
 import { validateVocabSource, type VocabSource } from '@/features/vocab/model/sourceValidation'
 
 describe('reviewed JLPT pilot', () => {
+  // Synchronous corpus batches otherwise starve the worker's RPC responses
+  // across the entire suite, even though each test meets its own timeout.
+  afterEach(async () => { await setImmediate() })
+
   it('recommends a beginner example first even with the complete N5–N1 corpus', () => {
     const settings = { setId: 'all', setName: 'all', candidateWordIds: allWords.map((word) => word.id),
       requiredWordIds: [], wordCount: 10, allowEarly: false }
