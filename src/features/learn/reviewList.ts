@@ -4,10 +4,11 @@ import type { ContextState, LearnSenseIndex } from './contextTypes'
 
 // Keep every pending review visible until its flow explicitly finishes.
 export function reviewList<T extends LearnSenseIndex>(state: ContextState, senses: T[]) {
+  const excluded = new Set(state.excludedWordIds)
   return senses
     .flatMap((sense) => {
       const profile = state.profiles[profileKey(sense)]
-      if (!profile || profile.mastered) return []
+      if (!profile || profile.mastered || excluded.has(sense.wordId)) return []
       const interval = reviewInterval(profile.step, profile.failures)
       return [{ sense, profile, interval }]
     })

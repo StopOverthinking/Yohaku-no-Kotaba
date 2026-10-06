@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { allWords, getWordsForSet } from '@/features/vocab/model/selectors'
 import { contextSenses, contextSenseMap } from './contextContent'
-import { startContext, answerContext, emptyContextState, addDays, undoContext } from './contextEngine'
+import { startContext, answerContext, emptyContextState, undoContext } from './contextEngine'
 import { vocabularySets } from '@/features/vocab/data/vocabularySets'
 import { learnContent } from '@/features/vocab/data/learnContent'
 import sourceSets from '@/features/vocab/editor-data/vocabularySets.json'
@@ -36,10 +36,11 @@ describe('reviewed JLPT pilot', () => {
     const senseId = state.session!.current.senseId
     state = answerContext(state, true, contextSenses, '2026-09-29')
     const profiles = state.profiles
-    state = startContext(state, { ...settings, setId: book.id, setName: book.name }, contextSenses, '2026-09-30')
+    expect(() => startContext(state, { ...settings, setId: book.id, setName: book.name }, contextSenses, '2026-09-30')).toThrow('지금 복습')
+    state = startContext(state, { ...settings, setId: book.id, setName: book.name }, contextSenses, '2026-10-02')
     expect(state.session!.current.senseId).toBe(senseId)
     expect(state.profiles).toEqual(profiles)
-    state = answerContext(state, false, contextSenses, '2026-09-30')
+    state = answerContext(state, false, contextSenses, '2026-10-02')
     expect(Object.keys(state.profiles)).toEqual(Object.keys(profiles))
     expect(state.level.assessedWordIds).toEqual([word.id])
     state = undoContext(state)
@@ -51,26 +52,26 @@ describe('reviewed JLPT pilot', () => {
     const words = getWordsForSet(setId)
     expect(words.length).toBeGreaterThanOrEqual(20)
     for (const word of words) {
-      let state = emptyContextState()
       const wordSenses = contextSenses.filter((sense) => sense.wordId === word.id)
       expect(wordSenses.length).toBeGreaterThanOrEqual(1)
       const seen = new Map(wordSenses.map(sense => [sense.id, new Set<string>()]))
-      const rounds = Math.max(3, ...wordSenses.map(sense => sense.examples.length))
-      for (let i = 0; i < rounds; i++) {
-        const day = addDays('2026-09-29', i * 180)
-        const studied = new Set<string>()
-        // One word per session; finish every due/new usage in successive sessions.
-        for (let j = 0; j < wordSenses.length; j++) {
-          state = startContext(state, { setId, setName: level, candidateWordIds: [word.id], requiredWordIds: [], wordCount: 1, allowEarly: false }, contextSenses, day)
+      for (const target of wordSenses) {
+        let state = emptyContextState()
+        // Verify each usage against the corpus independently. Another usage of
+        // this same word cannot be studied during its current cooldown.
+        const pool = contextSenses.filter(sense => sense.wordId !== word.id || sense.id === target.id)
+        const rounds = Math.max(3, target.examples.length)
+        for (let i = 0; i < rounds; i++) {
+          const day = i === 0 ? '2026-09-29' : state.profiles[`${target.id}@${target.version}`].due
+          state = startContext(state, { setId, setName: level, candidateWordIds: [word.id], requiredWordIds: [], wordCount: 1, allowEarly: false }, pool, day)
           const current = state.session!.current
           const sense = contextSenseMap.get(current.senseId)!
           expect(sense.wordId).toBe(word.id)
-          expect(studied.has(sense.id)).toBe(false)
-          studied.add(sense.id)
+          expect(sense.id).toBe(target.id)
           expect(sense.examples.length).toBeGreaterThanOrEqual(1)
           if (i < sense.examples.length) expect(seen.get(sense.id)!.has(current.exampleId)).toBe(false)
           seen.get(sense.id)!.add(current.exampleId)
-          state = answerContext(state, true, contextSenses, day)
+          state = answerContext(state, true, pool, day)
           expect(state.session).toBeNull()
         }
       }

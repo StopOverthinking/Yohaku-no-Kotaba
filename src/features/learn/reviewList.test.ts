@@ -19,7 +19,7 @@ describe('review list', () => {
     }
     Object.assign(state.profiles[profileKey(senses[0])], { step: 8, due: '2026-10-01' })
     Object.assign(state.profiles[profileKey(senses[1])], { step: 10, due: '2026-09-02' })
-    Object.assign(state.profiles[profileKey(senses[2])], { step: 10, failedDays: 1, failures: 4, due: '2026-09-30' })
+    Object.assign(state.profiles[profileKey(senses[2])], { step: 8, failedDays: 1, failures: 4, due: '2026-09-30' })
     senses[3].version = 2
     expect(reviewList(state, senses).map(({ sense, interval }) => [sense.wordId, interval])).toEqual([
       ['sixty', 60],

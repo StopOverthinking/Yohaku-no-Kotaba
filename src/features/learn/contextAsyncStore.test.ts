@@ -5,6 +5,9 @@ import { ContextDatabase } from './contextDatabase'
 import { ContextRepository } from './contextRepository'
 import { parseContextState } from './contextPersistence'
 import { testSense } from './contextTestFixtures'
+import { emptyContextState, profileKey, reviewProfile } from './contextEngine'
+import { reviewList } from './reviewList'
+import type { ContextState } from './contextTypes'
 
 const senses = ['a', 'b'].map((id) => testSense(id))
 const options = { setId: 'all', setName: 'test', candidateWordIds: ['a', 'b'], requiredWordIds: [], wordCount: 2, allowEarly: true }
@@ -180,5 +183,68 @@ describe('asynchronous learning store', () => {
     expect(await db.read()).toBeNull()
     await store.getState().hydrate()
     expect(await store.getState().start(options)).toBe(true)
+  })
+
+  it('keeps a removed word out of retries, undo, all later sessions and backup while preserving its profile and score', async () => {
+    await store.getState().hydrate()
+    await store.getState().start({ ...options, requiredWordIds: ['a'] })
+    await store.getState().answer(false)
+    const before = store.getState().data
+    const gate = deferred()
+    const save = repo.save.bind(repo)
+    const saveSpy = vi.spyOn(repo, 'save').mockImplementationOnce(async (...args) => { await gate.promise; return save(...args) })
+    const pending = store.getState().removeReviewWord('a')
+    expect(store.getState().data).toBe(before)
+    expect(await store.getState().removeReviewWord('a')).toBe(false)
+    gate.resolve()
+    expect(await pending).toBe(true)
+    saveSpy.mockRestore()
+    expect(store.getState().data.profiles).toEqual(before.profiles)
+    expect(store.getState().data.level).toEqual(before.level)
+    expect(store.getState().data.session!.retry).toEqual([])
+    expect(reviewList(store.getState().data, senses)).toEqual([])
+    await store.getState().undo()
+    expect(store.getState().data.session!.current.senseId).toBe('sense-b')
+    await store.getState().answer(true)
+    expect(store.getState().data.session).toBeNull()
+    const exported = await repo.exportRaw()
+    await repo.restoreRaw(exported)
+    await store.getState().hydrate()
+    expect(store.getState().data.excludedWordIds).toEqual(['a'])
+    expect(await store.getState().start({ ...options, candidateWordIds: ['a'], requiredWordIds: ['a'] })).toBe(false)
+  })
+
+  it('preserves the row on a failed removal and commits exclusion on retry', async () => {
+    await store.getState().hydrate()
+    await store.getState().start({ ...options, candidateWordIds: ['a'], wordCount: 1 })
+    await store.getState().answer(false)
+    const before = store.getState().data
+    vi.spyOn(repo, 'save').mockRejectedValueOnce(new Error('quota'))
+    expect(await store.getState().removeReviewWord('a')).toBe(false)
+    expect(store.getState().data).toBe(before)
+    expect((await db.read())!.data).toEqual(before)
+    expect(await store.getState().removeReviewWord('a')).toBe(true)
+    expect(store.getState().data.session).toBeNull()
+    expect(store.getState().data.profiles).toEqual(before.profiles)
+    expect(parseContextState(await repo.exportRaw()).excludedWordIds).toEqual(['a'])
+  })
+
+  it('atomically persists v3 stage migration in existing IndexedDB, retries failure and never maps it twice', async () => {
+    const base = await repo.load(emptyContextState())
+    const legacy = emptyContextState()
+    legacy.profiles[profileKey(senses[0])] = { ...reviewProfile(undefined, senses[0], senses[0].examples[0], false, false, '2026-09-01'),
+      step: 14, due: '2027-03-01', levelDay: '2026-09-01' }
+    await db.write(base, { ...legacy, scheduleVersion: 3 } as unknown as ContextState)
+    vi.spyOn(repo, 'save').mockRejectedValueOnce(new Error('quota'))
+    await store.getState().hydrate()
+    expect(store.getState().ready).toBe(false)
+    expect((await db.read())!.needsScheduleMigration).toBe(true)
+    await store.getState().hydrate()
+    expect(store.getState().ready).toBe(true)
+    expect(store.getState().data.profiles[profileKey(senses[0])]).toMatchObject({ step: 11, due: '2027-03-01', failures: 1 })
+    expect((await db.read())!.needsScheduleMigration).toBeUndefined()
+    const migrated = store.getState().data
+    await store.getState().hydrate()
+    expect(store.getState().data).toEqual(migrated)
   })
 })

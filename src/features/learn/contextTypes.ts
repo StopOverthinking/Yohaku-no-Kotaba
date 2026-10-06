@@ -104,7 +104,8 @@ export type ContextState = {
   lastScoreChange?: ScoreChange
   version: 2 | 3
   aliasMigrations?: Record<string, ContextAliasMigration>
-  scheduleVersion: 3
+  scheduleVersion: 4
+  excludedWordIds?: string[]
   revision: number
   level: LearnerLevel
   profiles: Record<string, ReviewProfile>

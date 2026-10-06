@@ -34,11 +34,14 @@ describe('context scheduling', () => {
     state.profiles[profileKey(original)] = profile
     state.level.assessedWordIds = [original.wordId]
     const selection = { ...options, candidateWordIds: [original.wordId], wordCount: 1, allowEarly: false }
-    const started = startContext(state, selection, content, day)
+    expect(() => startContext(state, selection, content, day)).toThrow('지금 복습')
+    // Once the word's cooldown ends, an unseen usage still starts independently.
+    profile.mastered = true
+    const started = startContext(state, selection, content, profile.due)
     expect(started.session!.current.senseId).toBe(added.id)
-    const answered = answerContext(started, true, content, day)
+    const answered = answerContext(started, true, content, profile.due)
     expect(answered.profiles[profileKey(original)]).toEqual(profile)
-    expect(answered.profiles[profileKey(added)].due).toBe(addDays(day, 3))
+    expect(answered.profiles[profileKey(added)].due).toBe(addDays(profile.due, 3))
     expect(answered.level.assessedWordIds).toEqual([original.wordId])
     expect(undoContext(answered)).toEqual(started)
   })
@@ -65,13 +68,13 @@ describe('context scheduling', () => {
     const profile = reviewProfile(undefined, original, original.examples[0], true, false, day)
     const state = emptyContextState()
     state.profiles[profileKey(original)] = profile
-    const started = startContext(state, { ...options, candidateWordIds: ['a'], allowEarly: true }, senses, day)
+    const started = startContext(state, { ...options, candidateWordIds: ['a'], allowEarly: true }, senses, profile.due)
     const changed = structuredClone(senses)
     const example = changed[0].examples.find((e) => e.id === started.session!.current.exampleId)!
     example.version++
     example.before = '別の場面で'
-    expect(() => answerContext(started, true, changed, day)).toThrow('변경')
-    const restarted = startContext(started, { ...options, candidateWordIds: ['a'], allowEarly: true }, changed, day)
+    expect(() => answerContext(started, true, changed, profile.due)).toThrow('변경')
+    const restarted = startContext(started, { ...options, candidateWordIds: ['a'], allowEarly: true }, changed, profile.due)
     expect(restarted.profiles).toEqual(state.profiles)
     expect(restarted.profiles[profileKey(changed[0])].due).toBe(profile.due)
     const selected = changed[0].examples.find((e) => e.id === restarted.session!.current.exampleId)!
@@ -175,15 +178,12 @@ describe('context scheduling', () => {
     expect(active.session!.current.senseId).toBe('sense-c')
     active = answerContext(active, true, senses, day)
     expect(active.session!.current.senseId).not.toBe('sense-c')
-    const onlyFuture = startContext(
+    expect(() => startContext(
       state,
       { ...options, candidateWordIds: ['c'], allowEarly: true },
       senses,
       '2026-09-20',
-    )
-    expect(
-      selectNext(onlyFuture, { ...onlyFuture.session!, cards: [], allowEarly: false }, senses, '2026-09-20'),
-    ).toBeNull()
+    )).toThrow('지금 복습')
   })
 
   it('undo restores profile, level, hint, answer reveal, queue and selected candidates', () => {

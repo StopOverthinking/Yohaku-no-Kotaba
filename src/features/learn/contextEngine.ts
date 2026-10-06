@@ -8,6 +8,7 @@ import type {
 } from './contextTypes'
 
 import { RECOMMENDATION_POLICY, SCHEDULE_VERSION, reviewProfile } from './contextReviewPolicy'
+import { blockedStudyWords, eligibleStudyWords, isStudyDue } from './contextEligibility'
 // Keep existing engine imports compatible while consumers move to the policy boundary.
 export { RECOMMENDATION_POLICY, SCHEDULE_VERSION, REVIEW_INTERVALS, reviewInterval, localDay, addDays, reviewProfile } from './contextReviewPolicy'
 
@@ -56,6 +57,7 @@ export function selectNext(
   const selectedWords = new Set(session.cards.map((c) => byId.get(c.senseId)?.wordId))
   const candidates = new Set([...session.candidateWordIds, ...session.requiredWordIds])
   const required = new Set(session.requiredWordIds)
+  const blocked = blockedStudyWords(state.profiles, senses, day, state.excludedWordIds)
   const tie = new Map(session.tieOrder.map((id, i) => [id, i]))
   const target =
     state.level.assessedWordIds.length < RECOMMENDATION_POLICY.calibrationWords
@@ -67,7 +69,6 @@ export function selectNext(
     (a.priority === 1
       ? a.profile!.due.localeCompare(b.profile!.due) || b.profile!.failures - a.profile!.failures
       : 0) ||
-    (a.priority === 3 ? a.profile!.due.localeCompare(b.profile!.due) : 0) ||
     a.distance - b.distance ||
     (tie.get(a.sense.wordId) ?? 0) - (tie.get(b.sense.wordId) ?? 0) ||
     a.sense.id.localeCompare(b.sense.id)
@@ -75,10 +76,10 @@ export function selectNext(
   // compares the entire 12k-word pool after every answer.
   let first: Ranked | undefined
   for (const sense of senses) {
-    if (!candidates.has(sense.wordId) || selectedWords.has(sense.wordId)) continue
+    if (!candidates.has(sense.wordId) || selectedWords.has(sense.wordId) || blocked.has(sense.wordId)) continue
     const profile = state.profiles[profileKey(sense)]
-    const priority = required.has(sense.wordId) ? 0 : profile && !profile.mastered && profile.due <= day ? 1 : !profile ? 2 : 3
-    if (priority === 3 && !session.allowEarly) continue
+    if (!isStudyDue(profile, day)) continue
+    const priority = required.has(sense.wordId) ? 0 : profile ? 1 : 2
     if (first && priority > first.priority) continue
     const example = chooseExample(sense, profile, day)
     const entry = {
@@ -123,18 +124,9 @@ export function startContext(
     !state.level.assessedWordIds.length && !Object.keys(state.profiles).length
       ? { ...state, level: emptyContextState().level }
       : state
-  const eligibleIds = new Set(
-    senses
-      .filter(
-        (sense) =>
-          allIds.includes(sense.wordId) &&
-          (options.allowEarly ||
-            requiredWordIds.includes(sense.wordId) ||
-            !state.profiles[profileKey(sense)] ||
-            (!state.profiles[profileKey(sense)].mastered && state.profiles[profileKey(sense)].due <= day)),
-      )
-      .map((sense) => sense.wordId),
-  )
+  const eligibleIds = eligibleStudyWords(state, senses, day)
+  const eligibleRequired = requiredWordIds.filter(id => eligibleIds.has(id))
+  const eligibleCount = allIds.filter(id => eligibleIds.has(id)).length
   const tieOrder = [...allIds]
   for (let i = tieOrder.length - 1; i > 0; i--) {
     const j = Math.floor(random() * (i + 1))
@@ -145,11 +137,11 @@ export function startContext(
     setId: options.setId,
     setName: options.setName,
     candidateWordIds,
-    requiredWordIds,
-    allowEarly: options.allowEarly,
+    requiredWordIds: eligibleRequired,
+    allowEarly: false,
     targetCount: Math.min(
-      eligibleIds.size,
-      Math.max(1, Math.floor(options.wordCount) || 1, requiredWordIds.length),
+      eligibleCount,
+      Math.max(1, Math.floor(options.wordCount) || 1, eligibleRequired.length),
     ),
     tieOrder,
     cards: [],
@@ -170,6 +162,46 @@ export function startContext(
   return { ...initialState, session, history: [] }
 }
 
+/** Skip early cards from older sessions and explicitly removed words, including retries.
+ * Retries already admitted to this session remain available until the user knows them.
+ */
+export function reconcileStudySession(state: ContextState, senses: LearnSenseIndex[], day: string): ContextState {
+  const original = state.session
+  if (!original) return state
+  const byId = new Map(senses.map(sense => [sense.id, sense]))
+  const excluded = new Set(state.excludedWordIds)
+  const blocked = blockedStudyWords(state.profiles, senses, day, state.excludedWordIds)
+  const retained = (card: ContextCard) => !excluded.has(byId.get(card.senseId)?.wordId ?? '')
+  const allowed = (card: ContextCard) => {
+    const sense = byId.get(card.senseId)
+    // Content validation reports missing/changed cards separately.
+    if (!sense) return true
+    return retained(card) && (original.round > 1 ||
+      (!blocked.has(sense.wordId) && isStudyDue(state.profiles[profileKey(sense)], day)))
+  }
+  const queue = original.queue.filter(retained)
+  const retry = original.retry.filter(retained)
+  if (allowed(original.current) && queue.length === original.queue.length && retry.length === original.retry.length) return state
+  const session = { ...original, queue, retry }
+  if (!allowed(original.current)) {
+    if (session.round === 1) session.cards = session.cards.filter(card => card.senseId !== original.current.senseId)
+    let current = session.round === 1 && session.cards.length < session.targetCount
+      ? selectNext(state, session, senses, day) : null
+    if (current) session.cards = [...session.cards, current]
+    if (!current) current = session.queue.shift() ?? null
+    if (!current && session.retry.length) {
+      session.round++
+      session.queue = session.retry
+      session.retry = []
+      current = session.queue.shift() ?? null
+    }
+    if (!current) return { ...state, session: null, history: [] }
+    session.current = current
+    session.revealed = session.hintShown = session.hintUsed = false
+  }
+  return { ...state, session }
+}
+
 export function answerContext(
   state: ContextState,
   known: boolean,
@@ -187,6 +219,9 @@ export function answerContext(
   if (!sense || !example) throw new Error('예문이 변경되었습니다. 학습을 다시 시작해 주세요.')
   const key = profileKey(sense)
   const previous = state.profiles[key]
+  if (state.excludedWordIds?.includes(sense.wordId) || (previousSession.round === 1 &&
+    (blockedStudyWords(state.profiles, senses, day).has(sense.wordId) || !isStudyDue(previous, day))))
+    throw new Error('예정일 전이거나 복습에서 제외된 단어입니다. 학습을 다시 불러와 주세요.')
   const profile = reviewProfile(previous, sense, example, known, previousSession.hintUsed, day)
   const level = { ...state.level, assessedWordIds: [...state.level.assessedWordIds] }
   if (previous?.levelDay !== day) {

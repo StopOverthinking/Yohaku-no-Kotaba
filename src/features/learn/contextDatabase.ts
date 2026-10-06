@@ -1,6 +1,7 @@
 import { parseContextState } from './contextPersistence'
 import { serializeContextState } from './contextSerialization'
 import type { ContextState, ReviewProfile } from './contextTypes'
+import { SCHEDULE_VERSION } from './contextReviewPolicy'
 
 export const CONTEXT_DATABASE_NAME = 'yohaku-context-learning'
 const META = 'meta'
@@ -11,7 +12,7 @@ const RESTORE = 'pending-restore'
 export type RestoreJournal = { id: string; token: string | null; beforeLocal: Record<string, string> }
 type Header = { token: string; core: string; profileCount: number }
 type ProfileRow = { key: string; value: ReviewProfile }
-export type ContextSnapshot = { token: string; data: ContextState }
+export type ContextSnapshot = { token: string; data: ContextState; needsScheduleMigration?: boolean }
 
 export class ContextConflictError extends Error {
   constructor() {
@@ -88,7 +89,7 @@ export class ContextDatabase {
           const data = parseContextState(JSON.stringify({
             ...core, profiles: Object.fromEntries(profiles.map((row) => [row.key, row.value])),
           }))
-          resolve({ token: value.token, data })
+          resolve({ token: value.token, data, ...(core.scheduleVersion !== SCHEDULE_VERSION ? { needsScheduleMigration: true } : {}) })
         } catch (error) { reject(error) }
       }
     })
@@ -118,7 +119,7 @@ export class ContextDatabase {
       profileCount: Object.keys(data.profiles).length,
     }
     const changed = Object.entries(data.profiles)
-      .filter(([key, value]) => previous?.data.profiles[key] !== value)
+      .filter(([key, value]) => previous?.needsScheduleMigration || previous?.data.profiles[key] !== value)
       .map(([key, value]) => ({ key, value }))
     const removed = Object.keys(previous?.data.profiles ?? {}).filter((key) => !Object.hasOwn(data.profiles, key))
     if (originalRaw !== undefined) parseContextState(originalRaw)

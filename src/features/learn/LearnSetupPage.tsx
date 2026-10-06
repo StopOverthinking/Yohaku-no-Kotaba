@@ -14,7 +14,8 @@ import {
 import { getSetName, getStudySelectableWordbooks, isComparisonWordbook, normalizeSelectableSetId } from '@/features/vocab/model/selectors'
 import { LearningProgress } from './LearningProgress'
 import { useContextStore } from './contextStore'
-import { contextAliasCatalog, contextContentReady, contextSenseMap } from './contextContent'
+import { contextAliasCatalog, contextContentReady, contextSenseMap, contextSenses } from './contextContent'
+import { eligibleStudyWords } from './contextEligibility'
 import { scopedReviews } from './contextPresentation'
 import { localDay } from './contextReviewPolicy'
 
@@ -131,14 +132,12 @@ export function LearnSetupPage() {
     [baseWords, learnDefaults.requiredRanges, learnDefaults.requiredRangesEnabled],
   )
 
-  const maxAvailableWordCount = useMemo(
-    () => new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id))).size,
-    [availableWords, requiredWords],
-  )
   const scopeIds = useMemo(() => new Set([...availableWords, ...requiredWords].map((word) => contextAliasCatalog.resolveWordId(word.id))), [availableWords, requiredWords])
   const today = localDay()
-  const { dueCount, nextDue } = useMemo(() => scopedReviews(context.data.profiles, contextSenseMap, scopeIds, contextAliasCatalog.resolveWordId, today), [context.data.profiles, scopeIds, today])
-  const requiredWordCount = new Set(requiredWords.map(word => contextAliasCatalog.resolveWordId(word.id))).size
+  const eligibleIds = useMemo(() => eligibleStudyWords(context.data, contextSenses, today), [context.data.profiles, context.data.excludedWordIds, today])
+  const maxAvailableWordCount = [...scopeIds].filter(id => eligibleIds.has(id)).length
+  const { dueCount, nextDue } = useMemo(() => scopedReviews(context.data.profiles, contextSenseMap, scopeIds, contextAliasCatalog.resolveWordId, today, context.data.excludedWordIds), [context.data.profiles, context.data.excludedWordIds, scopeIds, today])
+  const requiredWordCount = new Set(requiredWords.map(word => contextAliasCatalog.resolveWordId(word.id)).filter(id => eligibleIds.has(id))).size
   const minimumWordCount = Math.max(MIN_WORD_COUNT, requiredWordCount)
 
   useEffect(() => {
@@ -339,7 +338,7 @@ export function LearnSetupPage() {
       return
     }
     if (maxAvailableWordCount === 0) {
-      setError('시작할 항목이 없습니다. 단어장과 필터를 다시 확인해 주세요.')
+      setError(nextDue ? `지금 학습할 단어가 없습니다. 다음 복습일은 ${nextDue}입니다.` : '시작할 항목이 없습니다. 단어장과 필터를 다시 확인해 주세요.')
       return
     }
 
@@ -350,7 +349,7 @@ export function LearnSetupPage() {
       candidateWordIds: availableWords.map((word) => word.id),
       requiredWordIds: requiredWords.map((word) => word.id),
       wordCount: learnDefaults.wordCount,
-      allowEarly: selectedSetId !== 'all' || learnDefaults.rangeEnabled || learnDefaults.favoritesOnly,
+      allowEarly: false,
     })
     if (started) navigate('/learn/session')
   }
@@ -530,7 +529,7 @@ export function LearnSetupPage() {
           <div className="toggle-row">
             <div>
               <div className="form-label">반드시 포함할 범위</div>
-              <p className="page-header__caption">지정한 구간은 모두 포함하고 나머지만 무작위로 채웁니다.</p>
+            <p className="page-header__caption">지정한 구간에서 오늘 학습할 단어를 우선 포함합니다.</p>
             </div>
             <Tooltip label="반드시 포함할 범위">
               <span>

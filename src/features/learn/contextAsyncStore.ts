@@ -1,6 +1,6 @@
 import { localDay } from './contextReviewPolicy'
 import { create } from 'zustand'
-import { answerContext, emptyContextState, startContext, undoContext, type StartContextOptions } from './contextEngine'
+import { answerContext, emptyContextState, reconcileStudySession, startContext, undoContext, type StartContextOptions } from './contextEngine'
 import { ContextConflictError, type ContextSnapshot } from './contextDatabase'
 import type { ContextAliasGroup, ContextResult, ContextState, LearnSenseIndex } from './contextTypes'
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'
@@ -25,6 +25,7 @@ export type AsyncContextStore = {
   toggleHint: () => Promise<boolean>
   undo: () => Promise<boolean>
   discard: () => Promise<boolean>
+  removeReviewWord: (wordId: string) => Promise<boolean>
   clearResult: () => void
 }
 
@@ -54,7 +55,7 @@ export function createAsyncContextStore(
         try {
           const change = make(current.data)
           if (!change) return false
-          const data = { ...change.data, revision: current.data.revision + 1 }
+          const data = { ...reconcileStudySession(change.data, senses, day()), revision: current.data.revision + 1 }
           saving = true
           const saved = await getRepository().save(current.snapshot!, data)
           set({ data: saved.data, snapshot: saved, error: null,
@@ -84,8 +85,8 @@ export function createAsyncContextStore(
         set({ busy: true })
         try {
           let snapshot = await getRepository().load(emptyContextState())
-          const migrated = migrateContextAliases(reconcileRetiredExamples(snapshot.data, senses, retirements), aliases, day())
-          if (migrated !== snapshot.data)
+          const migrated = migrateContextAliases(reconcileStudySession(reconcileRetiredExamples(snapshot.data, senses, retirements), senses, day()), aliases, day())
+          if (migrated !== snapshot.data || snapshot.needsScheduleMigration)
             snapshot = await getRepository().save(snapshot, { ...migrated, revision: snapshot.data.revision + 1 })
           const session = snapshot.data.session
           const cards = session ? [session.current, ...session.cards, ...session.queue, ...session.retry] : []
@@ -118,6 +119,8 @@ export function createAsyncContextStore(
         return { data: startContext(migrated, canonicalOptions, senses, day()), lastResult: null }
       }),
       answer: (known, expectedCard) => mutate((state) => {
+        const reconciled = reconcileStudySession(state, senses, day())
+        if (reconciled !== state) return { data: reconciled }
         const session = state.session
         if (!session || (expectedCard && expectedCard !== `${session.id}:${session.decisions}`)) return null
         const next = answerContext(state, known, senses, day())
@@ -136,6 +139,12 @@ export function createAsyncContextStore(
       } } : null),
       undo: () => mutate((state) => state.history.length ? { data: undoContext(state) } : null),
       discard: () => mutate((state) => ({ data: migrateContextAliases({ ...state, session: null, history: [] }, aliases, day()) })),
+      removeReviewWord: (wordId) => mutate((state) => {
+        const canonical = aliases.resolveWordId(wordId)
+        if (!senses.some(sense => sense.wordId === canonical) || state.excludedWordIds?.includes(canonical)) return null
+        const members = [...aliases.groups.values()].find(group => group.representativeWordId === canonical)?.members.map(member => member.wordId) ?? []
+        return { data: { ...state, excludedWordIds: [...new Set([...(state.excludedWordIds ?? []), canonical, ...members])] } }
+      }),
       clearResult: () => set({ lastResult: null }),
     }
   })

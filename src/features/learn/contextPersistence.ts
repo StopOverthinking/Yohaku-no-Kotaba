@@ -1,5 +1,5 @@
 import type { ContextState } from './contextTypes'
-import { REVIEW_INTERVALS, SCHEDULE_VERSION } from './contextReviewPolicy'
+import { FAILURE_INTERVALS, REVIEW_INTERVALS, SCHEDULE_VERSION } from './contextReviewPolicy'
 import { expandContextState } from './contextSerialization'
 
 export const CONTEXT_STORAGE_KEY = 'jsp-react:context-learn-v2'
@@ -80,14 +80,15 @@ export function parseContextState(raw: string): ContextState {
   if (record(parsed)) {
     if (Number.isInteger(parsed.version) && parsed.version !== 2 && parsed.version !== 3)
       throw new UnsupportedContextVersionError('state')
-    if (Number.isInteger(parsed.scheduleVersion) && parsed.scheduleVersion !== 1 && parsed.scheduleVersion !== 2 && parsed.scheduleVersion !== SCHEDULE_VERSION)
+    if (Number.isInteger(parsed.scheduleVersion) && ![1, 2, 3, SCHEDULE_VERSION].includes(parsed.scheduleVersion as number))
       throw new UnsupportedContextVersionError('schedule')
   }
   const state: unknown = expandContextState(parsed)
   if (
     !record(state) ||
     (state.version !== 2 && state.version !== 3) ||
-    (state.scheduleVersion !== undefined && state.scheduleVersion !== 1 && state.scheduleVersion !== 2 && state.scheduleVersion !== SCHEDULE_VERSION) ||
+    (state.scheduleVersion !== undefined && ![1, 2, 3, SCHEDULE_VERSION].includes(state.scheduleVersion as number)) ||
+    (state.excludedWordIds !== undefined && !strings(state.excludedWordIds)) ||
     !count(state.revision) ||
     !level(state.level) ||
     (state.lastScoreChange !== undefined &&
@@ -101,10 +102,13 @@ export function parseContextState(raw: string): ContextState {
   )
     throw new Error('학습 기록을 읽을 수 없습니다.')
   const legacy = state.scheduleVersion === undefined || state.scheduleVersion === 1
+  const oldPolicy = state.scheduleVersion !== SCHEDULE_VERSION
   const stepCount = legacy ? LEGACY_INTERVALS.length : REVIEW_INTERVALS.length
   if (
     !Object.entries(state.profiles).every(
-      ([key, value]) => profile(value, stepCount) && record(value) && key === `${value.senseId}@${value.version}`,
+      ([key, value]) => profile(value, stepCount) && record(value) &&
+        (oldPolicy || !(value.failures as number) || (value.step as number) < FAILURE_INTERVALS.length) &&
+        key === `${value.senseId}@${value.version}`,
     )
   )
     throw new Error('학습 기록 형식이 올바르지 않습니다.')
@@ -143,15 +147,20 @@ export function parseContextState(raw: string): ContextState {
       (entry.profile !== null &&
         (!profile(entry.profile, stepCount) ||
           !record(entry.profile) ||
-          entry.profileKey !== `${entry.profile.senseId}@${entry.profile.version}`))
+          entry.profileKey !== `${entry.profile.senseId}@${entry.profile.version}` ||
+          (!oldPolicy && (entry.profile.failures as number) > 0 && (entry.profile.step as number) >= FAILURE_INTERVALS.length)))
     )
       throw new Error('이전 카드 기록을 읽을 수 없습니다.')
   }
   const result = state as ContextState
-  if (legacy) {
-    // Keep established dates and interval lengths, including every undo snapshot.
+  if (oldPolicy) {
+    // Preserve reserved dates and counters. Map to the last new interval no longer
+    // than the old interval, including undo; archived alias originals stay intact.
     const migrate = (value: ContextState['profiles'][string]) => {
-      value.step = REVIEW_INTERVALS.indexOf(LEGACY_INTERVALS[value.step])
+      const basic = legacy ? LEGACY_INTERVALS[value.step] : REVIEW_INTERVALS[value.step]
+      value.step = value.failures > 0
+        ? FAILURE_INTERVALS.reduce((step, interval, index) => interval <= Math.max(1, Math.round(basic / 1.25)) ? index : step, 0)
+        : REVIEW_INTERVALS.indexOf(basic)
     }
     Object.values(result.profiles).forEach(migrate)
     result.history.forEach((entry) => { if (entry.profile) migrate(entry.profile) })

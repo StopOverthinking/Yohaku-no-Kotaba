@@ -1,7 +1,7 @@
 import { IDBFactory } from 'fake-indexeddb'
 import { describe, expect, it, vi } from 'vitest'
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'
-import { emptyContextState, profileKey, reviewProfile, startContext } from './contextEngine'
+import { addDays, emptyContextState, profileKey, reviewProfile, startContext } from './contextEngine'
 import { parseContextState } from './contextPersistence'
 import { serializeContextState } from './contextSerialization'
 import { ContextDatabase } from './contextDatabase'
@@ -30,6 +30,28 @@ function existing() {
 }
 
 describe('reviewed equivalent-word progress migration', () => {
+  it('excludes every alias when removing a word from an unmigrated in-progress session', async () => {
+    localStorage.clear()
+    const db = new ContextDatabase(new IDBFactory())
+    try {
+      const repo = new ContextRepository(db, localStorage)
+      const base = await repo.load(emptyContextState())
+      const active = startContext(emptyContextState(), { ...options, requiredWordIds: ['a'], wordCount: 1 }, senses, day)
+      await repo.save(base, active)
+      const store = createAsyncContextStore(senses, () => repo, () => day, groups)
+      await store.getState().hydrate()
+      expect(await store.getState().answer(false)).toBe(true)
+      expect(store.getState().data.session!.current.senseId).toBe(senses[0].id)
+      const before = store.getState().data.profiles
+      expect(await store.getState().removeReviewWord('a')).toBe(true)
+      expect(store.getState().data.session).toBeNull()
+      expect(store.getState().data.profiles).toEqual(before)
+      expect(new Set(store.getState().data.excludedWordIds)).toEqual(new Set(['a', 'b']))
+      await store.getState().hydrate()
+      expect(store.getState().data.excludedWordIds).toEqual(['b'])
+      expect(await store.getState().start(options)).toBe(false)
+    } finally { await db.close() }
+  })
   it('preserves policy-v2 alias archives and only merges completion when every existing profile is complete', () => {
     const state = existing()
     state.profiles[keyA].mastered = true
@@ -85,7 +107,7 @@ describe('reviewed equivalent-word progress migration', () => {
     expect(next.profiles[keyB].examples['b-e1']).toBeUndefined()
   })
   it('waits for the old session and undo history to finish', () => {
-    const before = startContext(existing(), options, senses, day)
+    const before = startContext(existing(), options, senses, '2026-10-20')
     expect(migrateContextAliases(before, catalog, day)).toBe(before)
   })
   it('preserves archives through backup serialization and rejects corrupt or conflicting mappings', () => {
@@ -104,7 +126,11 @@ describe('reviewed equivalent-word progress migration', () => {
     try {
       const repo = new ContextRepository(db, localStorage)
       const base = await repo.load(emptyContextState())
-      const original = startContext(existing(), { ...options, candidateWordIds: ['a'], requiredWordIds: ['a'], wordCount: 1 }, senses, day)
+      const source = existing()
+      source.profiles[keyA].due = day
+      source.profiles[keyA].lastDay = '2026-09-29'
+      source.profiles[keyA].levelDay = '2026-09-29'
+      const original = startContext(source, { ...options, candidateWordIds: ['a'], requiredWordIds: ['a'], wordCount: 1 }, senses, day)
       await repo.save(base, original)
       const store = createAsyncContextStore(senses, () => repo, () => day, groups)
       await store.getState().hydrate()
@@ -117,10 +143,13 @@ describe('reviewed equivalent-word progress migration', () => {
       const migrated = store.getState().data
       expect(migrated.version).toBe(3)
       expect(migrated.session).toBeNull()
-      expect(await store.getState().start(options)).toBe(true)
-      expect(store.getState().data.session).toMatchObject({ candidateWordIds: ['b'], requiredWordIds: ['b'], targetCount: 1 })
-      expect(await store.getState().answer(true)).toBe(true)
-      expect(store.getState().data.level.value).toBe(migrated.level.value)
+      expect(await store.getState().start(options)).toBe(false)
+      const dueStore = createAsyncContextStore(senses, () => repo, () => addDays(day, 1), groups)
+      await dueStore.getState().hydrate()
+      expect(await dueStore.getState().start(options)).toBe(true)
+      expect(dueStore.getState().data.session).toMatchObject({ candidateWordIds: ['b'], requiredWordIds: ['b'], targetCount: 1 })
+      expect(await dueStore.getState().answer(true)).toBe(true)
+      expect(dueStore.getState().data.level.assessedWordIds).toEqual(migrated.level.assessedWordIds)
       const backup = await repo.exportRaw()
       await repo.restoreRaw(backup)
       expect((await db.read())!.data.aliasMigrations).toEqual(migrated.aliasMigrations)
@@ -160,7 +189,8 @@ describe('reviewed equivalent-word progress migration', () => {
       const repo = new ContextRepository(db, localStorage)
       const base = await repo.load(state)
       const stale = await repo.save(base, state)
-      const store = createAsyncContextStore(contextSenses, () => repo, () => day, contextAliasGroups)
+      let today = day
+      const store = createAsyncContextStore(contextSenses, () => repo, () => today, contextAliasGroups)
       await store.getState().hydrate()
       expect(store.getState().ready).toBe(true)
       const migrated = store.getState().data
@@ -168,6 +198,8 @@ describe('reviewed equivalent-word progress migration', () => {
       expect(migrated.aliasMigrations![group.id].profiles[profileKey(old)]).toEqual(state.profiles[profileKey(old)])
       await expect(repo.save(stale, { ...state, revision: state.revision + 1 })).rejects.toThrow()
       expect((await db.read())!.data).toEqual(migrated)
+      expect(await store.getState().start({ ...options, candidateWordIds: group.members.map(member => member.wordId), requiredWordIds: ['JLPTN3_179'] })).toBe(false)
+      today = migrated.profiles[profileKey(representative)].due
       expect(await store.getState().start({ ...options, candidateWordIds: group.members.map(member => member.wordId),
         requiredWordIds: ['JLPTN3_179'] })).toBe(true)
       expect(store.getState().data.session).toMatchObject({ candidateWordIds: [representative.wordId], targetCount: 1 })

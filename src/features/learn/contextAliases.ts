@@ -1,4 +1,5 @@
 import type { ContextAliasGroup, ContextState, LearnSenseIndex, ReviewProfile } from './contextTypes'
+import { FAILURE_INTERVALS, reviewInterval } from './contextReviewPolicy'
 
 const key = (member: ContextAliasGroup['members'][number]) => `${member.senseId}@${member.version}`
 const signature = (group: ContextAliasGroup) => JSON.stringify({
@@ -68,12 +69,17 @@ export function migrateContextAliases(state: ContextState, catalog: ContextAlias
       }
       if (previous.every(p => p.mastered === true)) merged.mastered = true
       else delete merged.mastered
+      if (merged.failures > 0) {
+        const shortest = Math.min(...previous.map(p => reviewInterval(p.step, p.failures)))
+        merged.step = FAILURE_INTERVALS.reduce((step, interval, index) => interval <= shortest ? index : step, 0)
+      }
       for (const member of group.members) delete profiles[key(member)]
       profiles[key(target)] = merged
     }
   }
   return {
     ...state, version: 3, profiles, aliasMigrations,
+    ...(state.excludedWordIds ? { excludedWordIds: [...new Set(state.excludedWordIds.map(catalog.resolveWordId))] } : {}),
     level: { ...state.level, assessedWordIds: [...new Set(state.level.assessedWordIds.map(catalog.resolveWordId))] },
   }
 }

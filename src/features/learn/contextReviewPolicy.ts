@@ -9,22 +9,16 @@ export const RECOMMENDATION_POLICY = {
   probabilityScale: 8,
   calibrationTarget: 0.5,
   ongoingTarget: 0.75,
-  failurePenalty: 0.25,
   firstKnownStep: 2,
   knownSteps: [2, 4, 8, 11],
   intervals: [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 120, 150, 180],
+  failureIntervals: [1, 2, 3, 5, 8, 14, 21, 36, 48, 72, 96, 120],
 } as const
-export const SCHEDULE_VERSION = 3
+export const SCHEDULE_VERSION = 4
 export const REVIEW_INTERVALS = RECOMMENDATION_POLICY.intervals
+export const FAILURE_INTERVALS = RECOMMENDATION_POLICY.failureIntervals
 export function reviewInterval(step: number, failures: number) {
-  return Math.max(
-    1,
-    Math.round(
-      REVIEW_INTERVALS[step] /
-        (1 +
-          RECOMMENDATION_POLICY.failurePenalty * (failures > 0 ? 1 : 0)),
-    ),
-  )
+  return failures > 0 ? FAILURE_INTERVALS[step] : REVIEW_INTERVALS[step]
 }
 export function localDay(date = new Date()) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
@@ -79,8 +73,11 @@ export function reviewProfile(
         profile.due = addDays(day, reviewInterval(profile.step, 0))
       }
     } else {
-      profile.step = Math.min(REVIEW_INTERVALS.length - 1, profile.step + 1)
-      profile.due = addDays(day, reviewInterval(profile.step, 1))
+      if (profile.step === FAILURE_INTERVALS.length - 1) profile.mastered = true
+      else {
+        profile.step++
+        profile.due = addDays(day, reviewInterval(profile.step, 1))
+      }
     }
   }
   const exampleStats = profile.examples[example.id] ?? { seen: 0, failures: 0, hints: 0 }
