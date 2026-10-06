@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { describe, expect, it } from 'vitest'
 import { hashContent } from './jlpt-pilot.mjs'
 import { prepareLegacyContentRevision, applyLegacyContentRevision, validateLegacyContentJournals } from './legacy-content-revision.mjs'

@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { setImmediate } from 'node:timers/promises'
 import { afterEach, describe, expect, it } from 'vitest'
 import { allWords, getWordsForSet } from '@/features/vocab/model/selectors'

@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { test } from 'vitest'
 import assert from 'node:assert/strict'
 import { scanHintConfusions, meaningFragments } from './hint-confusion-scan.mjs'

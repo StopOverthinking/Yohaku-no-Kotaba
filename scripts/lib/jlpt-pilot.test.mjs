@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { describe, expect, it } from 'vitest'
 import { parseManuscript, applyReview, appendReviewedMembership, appendReviewedSources, validateLegacyMembership, hashContent, lexicalKey, validateExampleRevision, expandBatchReview, aliasCandidateMembers } from './jlpt-pilot.mjs'
 import { buildReviewedAliases } from './jlpt-aliases.mjs'

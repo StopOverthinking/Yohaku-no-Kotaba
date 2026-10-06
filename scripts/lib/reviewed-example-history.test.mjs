@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { describe, expect, it } from 'vitest'
 import fs from 'node:fs/promises'
 import { hashContent } from './jlpt-pilot.mjs'

@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { describe, expect, it } from 'vitest'
 import { addDays, localDay, reviewProfile } from './contextReviewPolicy'
 import { testSense } from './contextTestFixtures'

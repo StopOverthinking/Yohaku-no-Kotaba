@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { describe, expect, it } from 'vitest'
 import { emptyContextState, startContext, answerContext, undoContext, profileKey, reviewProfile } from './contextEngine'
 import { serializeContextState } from './contextSerialization'

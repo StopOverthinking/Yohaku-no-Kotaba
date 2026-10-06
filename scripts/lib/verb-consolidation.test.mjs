@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { describe, expect, it } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { hashContent } from './jlpt-pilot.mjs'

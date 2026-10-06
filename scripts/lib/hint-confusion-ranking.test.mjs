@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import { test } from 'vitest'
 import assert from 'node:assert/strict'
 import { rankHintLabels } from './hint-confusion-ranking.mjs'
