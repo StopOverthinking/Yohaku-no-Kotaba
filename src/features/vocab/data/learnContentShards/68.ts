@@ -21,13 +21,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_127-1-ex-1",
-        "version": 1,
-        "before": "落としたコップは、幸い",
-        "answer": "割れなかった",
+        "version": 2,
+        "before": "落としたコップが床で",
+        "answer": "割れた",
         "after": "。",
-        "reading": "われなかった",
-        "translation": "떨어뜨린 컵은 다행히 깨지지 않았다.",
-        "translationTarget": "깨지지 않았다",
+        "reading": "われた",
+        "translation": "떨어뜨린 컵이 바닥에서 깨졌다.",
+        "translationTarget": "깨졌다",
         "difficulty": 26,
         "status": "reviewed",
         "beforeFurigana": [
@@ -36,11 +36,14 @@ const content: LearnSense[] = [
             "reading": "おとし"
           },
           {
-            "text": "たコップは、"
+            "text": "たコップが"
           },
           {
-            "text": "幸い",
-            "reading": "さいわい"
+            "text": "床",
+            "reading": "ゆか"
+          },
+          {
+            "text": "で"
           }
         ],
         "afterFurigana": [
@@ -1771,12 +1774,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1436510-1-ex-1",
-        "version": 1,
-        "before": "傷の深さは、手術が必要な",
+        "version": 2,
+        "before": "傷は、手術が必要な",
         "answer": "程",
-        "after": "ではなかった。",
+        "after": "深かった。",
         "reading": "ほど",
-        "translation": "상처의 깊이는 수술이 필요할 정도는 아니었다.",
+        "translation": "상처는 수술이 필요할 정도로 깊었다.",
         "translationTarget": "정도",
         "difficulty": 29,
         "status": "reviewed",
@@ -1786,14 +1789,7 @@ const content: LearnSense[] = [
             "reading": "きず"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "深",
-            "reading": "ふか"
-          },
-          {
-            "text": "さは、"
+            "text": "は、"
           },
           {
             "text": "手術",
@@ -1812,7 +1808,11 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "ではなかった。"
+            "text": "深かっ",
+            "reading": "ふかかっ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

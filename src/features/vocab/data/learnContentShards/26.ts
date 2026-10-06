@@ -528,13 +528,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_816-1-ex-1",
-        "version": 1,
-        "before": "二人の問題に、私は",
-        "answer": "口を出さなかった",
+        "version": 2,
+        "before": "二人で決めようとしていたら、兄が横から",
+        "answer": "口を出した",
         "after": "。",
-        "reading": "くちをださなかった",
-        "translation": "두 사람의 문제에 나는 말참견하지 않았다.",
-        "translationTarget": "말참견하지 않았다",
+        "reading": "くちをだした",
+        "translation": "둘이서 결정하려고 했더니 형이 옆에서 말참견했다.",
+        "translationTarget": "말참견했다",
         "difficulty": 26,
         "status": "reviewed",
         "beforeFurigana": [
@@ -543,21 +543,28 @@ const content: LearnSense[] = [
             "reading": "ふたり"
           },
           {
-            "text": "の"
+            "text": "で"
           },
           {
-            "text": "問題",
-            "reading": "もんだい"
+            "text": "決めよ",
+            "reading": "きめよ"
           },
           {
-            "text": "に、"
+            "text": "うとしていたら、"
           },
           {
-            "text": "私",
-            "reading": "わたし"
+            "text": "兄",
+            "reading": "あに"
           },
           {
-            "text": "は"
+            "text": "が"
+          },
+          {
+            "text": "横",
+            "reading": "よこ"
+          },
+          {
+            "text": "から"
           }
         ],
         "afterFurigana": [

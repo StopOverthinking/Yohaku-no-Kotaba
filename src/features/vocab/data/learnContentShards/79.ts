@@ -829,32 +829,43 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_820-1-ex-1",
-        "version": 1,
-        "before": "よく知らない投資には",
-        "answer": "手を出さない",
+        "version": 2,
+        "before": "友人に勧められて、株の投資に",
+        "answer": "手を出した",
         "after": "。",
-        "reading": "てをださない",
-        "translation": "잘 모르는 투자에는 손대지 않는다.",
-        "translationTarget": "손대지 않는다",
+        "reading": "てをだした",
+        "translation": "친구의 권유로 주식 투자에 손댔다.",
+        "translationTarget": "손댔다",
         "difficulty": 24,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "よく"
+            "text": "友人",
+            "reading": "ゆうじん"
           },
           {
-            "text": "知ら",
-            "reading": "しら"
+            "text": "に"
           },
           {
-            "text": "ない"
+            "text": "勧め",
+            "reading": "すすめ"
+          },
+          {
+            "text": "られて、"
+          },
+          {
+            "text": "株",
+            "reading": "かぶ"
+          },
+          {
+            "text": "の"
           },
           {
             "text": "投資",
             "reading": "とうし"
           },
           {
-            "text": "には"
+            "text": "に"
           }
         ],
         "afterFurigana": [

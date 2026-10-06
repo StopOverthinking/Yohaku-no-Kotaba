@@ -1126,29 +1126,33 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_870-1-ex-1",
-        "version": 1,
-        "before": "自分で確かめないと",
-        "answer": "気が済まない",
+        "version": 2,
+        "before": "思っていたことを全部話したら、ようやく",
+        "answer": "気が済んだ",
         "after": "。",
-        "reading": "きがすまない",
-        "translation": "직접 확인하지 않으면 직성이 풀리지 않는다.",
-        "translationTarget": "직성이 풀리지 않는다",
+        "reading": "きがすんだ",
+        "translation": "생각했던 것을 전부 이야기하니 마침내 직성이 풀렸다.",
+        "translationTarget": "직성이 풀렸다",
         "difficulty": 28,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "自分",
-            "reading": "じぶん"
+            "text": "思っ",
+            "reading": "おもっ"
           },
           {
-            "text": "で"
+            "text": "ていたことを"
           },
           {
-            "text": "確かめ",
-            "reading": "たしかめ"
+            "text": "全部",
+            "reading": "ぜんぶ"
           },
           {
-            "text": "ないと"
+            "text": "話し",
+            "reading": "はなし"
+          },
+          {
+            "text": "たら、ようやく"
           }
         ],
         "afterFurigana": [

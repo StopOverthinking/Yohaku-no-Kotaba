@@ -506,29 +506,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_92-1-ex-1",
-        "version": 1,
-        "before": "ペンキが乾くまで、柵に",
-        "answer": "触らないで",
-        "after": "。",
-        "reading": "さわらないで",
-        "translation": "페인트가 마를 때까지 울타리에 손대지 마.",
-        "translationTarget": "손대지 마",
+        "version": 2,
+        "before": "職人は壁に",
+        "answer": "触って",
+        "after": "、ペンキの乾き具合を確かめた。",
+        "reading": "さわって",
+        "translation": "장인은 벽에 손대어 페인트가 마른 정도를 확인했다.",
+        "translationTarget": "손대어",
         "difficulty": 27,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "ペンキが"
+            "text": "職人",
+            "reading": "しょくにん"
           },
           {
-            "text": "乾く",
-            "reading": "かわく"
+            "text": "は"
           },
           {
-            "text": "まで、"
-          },
-          {
-            "text": "柵",
-            "reading": "しがらみ"
+            "text": "壁",
+            "reading": "かべ"
           },
           {
             "text": "に"
@@ -536,7 +533,25 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "。"
+            "text": "、ペンキの"
+          },
+          {
+            "text": "乾き",
+            "reading": "かわき"
+          },
+          {
+            "text": "具合",
+            "reading": "ぐあい"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "確かめ",
+            "reading": "たしかめ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

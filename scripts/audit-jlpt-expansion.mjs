@@ -7,7 +7,7 @@ import { evaluatePracticalScope } from './lib/jlpt-scope.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
 import { validateLegacyRevisionJournals } from './lib/legacy-example-revision.mjs'
 import { validateLegacyContentJournals } from './lib/legacy-content-revision.mjs'
-import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
+import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './lib/reviewed-example-history.mjs'
 import { validateVerbConsolidation } from './lib/verb-consolidation.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -23,10 +23,12 @@ const senseMap = new Map(senses.map((s) => [s.wordId, []]))
 for (const s of senses) senseMap.get(s.wordId).push(s)
 const prior = new Set(baseline.words.map(lexicalKey))
 const issues = [], entries = []
-let historicalSenses = senses, examplePruning = null
+let historicalSenses = senses, beforeCorrections = senses, examplePruning = null, exampleCorrections = null
 try {
-  const pruning = verifyExamplePruning(words, senses, await readExamplePruning(root))
+  const pruning = verifyReviewedExampleHistory(words, senses, await readReviewedExampleHistory(root))
   historicalSenses = pruning.historicalSenses
+  beforeCorrections = pruning.beforeCorrections
+  exampleCorrections = pruning.corrections
   examplePruning = pruning.report
 } catch (error) { issues.push(error.message) }
 const historicalByWord = new Map()
@@ -61,7 +63,7 @@ const [referenceReviews, membershipReceipt] = await Promise.all([
 ])
 const consolidationReview = await optionalRead('content/jlpt/legacy/verb-consolidation.json', null)
 let consolidation = null
-try { consolidation = validateVerbConsolidation(consolidationReview, sets, words, senses, membershipReceipt) }
+try { consolidation = validateVerbConsolidation(consolidationReview, sets, words, beforeCorrections, membershipReceipt) }
 catch (error) { issues.push(error.message) }
 const approvalReceipt = consolidation?.baseMembership ?? membershipReceipt
 try {
@@ -138,6 +140,7 @@ const report = {
   revisedLegacy,
   revisedLegacyContent,
   examplePruning,
+  exampleCorrections,
   complete: selection.complete && !issues.length,
   completionScope: consolidation ? 'original-independent-content-selection plus separately reviewed user-authorized membership consolidation; no new independent content approval claimed'
     : 'reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately',

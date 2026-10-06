@@ -2074,49 +2074,53 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1236350-1-ex-1",
-        "version": 1,
-        "before": "研修への参加は任意であり、",
+        "version": 2,
+        "before": "参加を断る自由もなく、これは事実上の",
         "answer": "強制",
-        "after": "ではないと改めて伝えた。",
+        "after": "だと感じた。",
         "reading": "きょうせい",
-        "translation": "연수 참여는 자율이며 강제가 아니라고 다시 알렸다.",
+        "translation": "참여를 거절할 자유도 없어 이것은 사실상의 강제라고 느꼈다.",
         "translationTarget": "강제",
         "difficulty": 44,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "研修",
-            "reading": "けんしゅう"
-          },
-          {
-            "text": "への"
-          },
-          {
             "text": "参加",
             "reading": "さんか"
           },
           {
-            "text": "は"
+            "text": "を"
           },
           {
-            "text": "任意",
-            "reading": "にんい"
+            "text": "断る",
+            "reading": "ことわる"
           },
           {
-            "text": "であり、"
+            "text": "自由",
+            "reading": "じゆう"
+          },
+          {
+            "text": "もなく、これは"
+          },
+          {
+            "text": "事実",
+            "reading": "じじつ"
+          },
+          {
+            "text": "上",
+            "reading": "じょう"
+          },
+          {
+            "text": "の"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ではないと"
+            "text": "だと"
           },
           {
-            "text": "改めて",
-            "reading": "あらためて"
-          },
-          {
-            "text": "伝え",
-            "reading": "つたえ"
+            "text": "感じ",
+            "reading": "かんじ"
           },
           {
             "text": "た。"

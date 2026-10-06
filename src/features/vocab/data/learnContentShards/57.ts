@@ -95,13 +95,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_55-1-ex-1",
-        "version": 1,
-        "before": "写真を見るまで、あんな大きな魚がいるとは",
-        "answer": "信じられなかった",
+        "version": 2,
+        "before": "写真を見て、あんな大きな魚がいることをようやく",
+        "answer": "信じた",
         "after": "。",
-        "reading": "しんじられなかった",
-        "translation": "사진을 보기 전까지 그렇게 큰 물고기가 있다는 것을 믿을 수 없었다.",
-        "translationTarget": "믿을 수 없었다",
+        "reading": "しんじた",
+        "translation": "사진을 보고 그렇게 큰 물고기가 있다는 사실을 마침내 믿었다.",
+        "translationTarget": "믿었다",
         "difficulty": 25,
         "status": "reviewed",
         "beforeFurigana": [
@@ -113,11 +113,11 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "見る",
-            "reading": "みる"
+            "text": "見",
+            "reading": "み"
           },
           {
-            "text": "まで、あんな"
+            "text": "て、あんな"
           },
           {
             "text": "大きな",
@@ -128,7 +128,7 @@ const content: LearnSense[] = [
             "reading": "さかな"
           },
           {
-            "text": "がいるとは"
+            "text": "がいることをようやく"
           }
         ],
         "afterFurigana": [

@@ -612,13 +612,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_669-1-ex-1",
-        "version": 1,
-        "before": "霧が晴れるまで、船は",
-        "answer": "出発できなかった",
+        "version": 2,
+        "before": "霧が晴れると、船は港を",
+        "answer": "出発した",
         "after": "。",
-        "reading": "しゅっぱつできなかった",
-        "translation": "안개가 걷힐 때까지 배는 출발할 수 없었다.",
-        "translationTarget": "출발할 수 없었다",
+        "reading": "しゅっぱつした",
+        "translation": "안개가 걷히자 배는 항구를 출발했다.",
+        "translationTarget": "출발했다",
         "difficulty": 18,
         "status": "reviewed",
         "beforeFurigana": [
@@ -634,7 +634,7 @@ const content: LearnSense[] = [
             "reading": "はれる"
           },
           {
-            "text": "まで、"
+            "text": "と、"
           },
           {
             "text": "船",
@@ -642,6 +642,13 @@ const content: LearnSense[] = [
           },
           {
             "text": "は"
+          },
+          {
+            "text": "港",
+            "reading": "みなと"
+          },
+          {
+            "text": "を"
           }
         ],
         "afterFurigana": [

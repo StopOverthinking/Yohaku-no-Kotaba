@@ -615,12 +615,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_400-1-ex-1",
-        "version": 1,
-        "before": "店の前は",
+        "version": 2,
+        "before": "店の裏に",
         "answer": "駐車",
-        "after": "できないので、裏へ回った。",
+        "after": "して、荷物を運んだ。",
         "reading": "ちゅうしゃ",
-        "translation": "가게 앞에는 주차할 수 없어서 뒤로 돌아갔다.",
+        "translation": "가게 뒤에 주차하고 짐을 옮겼다.",
         "translationTarget": "주차",
         "difficulty": 31,
         "status": "reviewed",
@@ -633,30 +633,30 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "前",
-            "reading": "まえ"
-          },
-          {
-            "text": "は"
-          }
-        ],
-        "afterFurigana": [
-          {
-            "text": "できないので、"
-          },
-          {
             "text": "裏",
             "reading": "うら"
           },
           {
-            "text": "へ"
+            "text": "に"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "して、"
           },
           {
-            "text": "回っ",
-            "reading": "まわっ"
+            "text": "荷物",
+            "reading": "にもつ"
           },
           {
-            "text": "た。"
+            "text": "を"
+          },
+          {
+            "text": "運ん",
+            "reading": "はこん"
+          },
+          {
+            "text": "だ。"
           }
         ]
       }
@@ -2701,30 +2701,16 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1534490-1-ex-1",
-        "version": 1,
-        "before": "店は忙しそうだが、材料費が高くてあまり",
-        "answer": "儲からない",
-        "after": "。",
-        "reading": "もうからない",
-        "translation": "가게는 바빠 보이지만 재료비가 높아서 별로 이익이 나지 않는다.",
-        "translationTarget": "이익이 나지 않는다",
+        "version": 2,
+        "before": "材料費を抑えたので、店は以前より",
+        "answer": "儲かる",
+        "after": "ようになった。",
+        "reading": "もうかる",
+        "translation": "재료비를 줄여서 가게는 전보다 이익이 나게 되었다.",
+        "translationTarget": "이익이 나게 되었다",
         "difficulty": 30,
         "status": "reviewed",
         "beforeFurigana": [
-          {
-            "text": "店",
-            "reading": "みせ"
-          },
-          {
-            "text": "は"
-          },
-          {
-            "text": "忙し",
-            "reading": "いそがし"
-          },
-          {
-            "text": "そうだが、"
-          },
           {
             "text": "材料",
             "reading": "ざいりょう"
@@ -2734,19 +2720,33 @@ const content: LearnSense[] = [
             "reading": "ひ"
           },
           {
-            "text": "が"
+            "text": "を"
           },
           {
-            "text": "高く",
-            "reading": "たかく"
+            "text": "抑え",
+            "reading": "おさえ"
           },
           {
-            "text": "てあまり"
+            "text": "たので、"
+          },
+          {
+            "text": "店",
+            "reading": "みせ"
+          },
+          {
+            "text": "は"
+          },
+          {
+            "text": "以前",
+            "reading": "いぜん"
+          },
+          {
+            "text": "より"
           }
         ],
         "afterFurigana": [
           {
-            "text": "。"
+            "text": "ようになった。"
           }
         ]
       }

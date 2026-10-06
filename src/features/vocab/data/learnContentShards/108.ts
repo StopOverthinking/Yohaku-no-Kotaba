@@ -335,26 +335,36 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_3-1-ex-1",
-        "version": 1,
-        "before": "少し年上だからといって、",
-        "answer": "偉そうにしないで",
+        "version": 2,
+        "before": "彼は部下の前ではいつも",
+        "answer": "偉そうにする",
         "after": "。",
-        "reading": "えらそうにしないで",
-        "translation": "조금 나이가 많다고 잘난 체하지 마.",
-        "translationTarget": "잘난 체하지 마",
+        "reading": "えらそうにする",
+        "translation": "그는 부하 직원들 앞에서는 늘 잘난 체한다.",
+        "translationTarget": "잘난 체한다",
         "difficulty": 38,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "少し",
-            "reading": "すこし"
+            "text": "彼",
+            "reading": "かれ"
           },
           {
-            "text": "年上",
-            "reading": "としうえ"
+            "text": "は"
           },
           {
-            "text": "だからといって、"
+            "text": "部下",
+            "reading": "ぶか"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "前",
+            "reading": "まえ"
+          },
+          {
+            "text": "ではいつも"
           }
         ],
         "afterFurigana": [

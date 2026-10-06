@@ -987,7 +987,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-JLPTN3_28-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -1027,7 +1027,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_36-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 28,
         "status": "reviewed"
       }
@@ -1633,7 +1633,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_127-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -3633,7 +3633,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_456-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 29,
         "status": "reviewed"
       }
@@ -5305,7 +5305,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_55-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -6171,7 +6171,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_184-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -8075,7 +8075,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_474-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -10279,7 +10279,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_809-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 34,
         "status": "reviewed"
       }
@@ -10379,7 +10379,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_824-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -11005,7 +11005,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_52-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -11185,7 +11185,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_79-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 37,
         "status": "reviewed"
       }
@@ -12731,7 +12731,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_339-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 32,
         "status": "reviewed"
       }
@@ -13791,7 +13791,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-handmade_3-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 38,
         "status": "reviewed"
       }
@@ -15423,7 +15423,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_92-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -16509,7 +16509,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_255-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 10,
         "status": "reviewed"
       }
@@ -16789,7 +16789,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_297-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -16969,7 +16969,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_325-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -17569,7 +17569,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_418-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 30,
         "status": "reviewed"
       }
@@ -19169,7 +19169,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_669-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -20149,7 +20149,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_816-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -20449,7 +20449,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_862-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -20849,7 +20849,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_59-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -21109,7 +21109,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_98-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -22935,7 +22935,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-JLPTN3_400-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 31,
         "status": "reviewed"
       }
@@ -24867,7 +24867,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_39-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -25713,7 +25713,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_165-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -27819,7 +27819,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_488-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 36,
         "status": "reviewed"
       }
@@ -27945,7 +27945,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-AbsoluteVerb_506-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -28325,7 +28325,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_569-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -29991,7 +29991,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_820-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 24,
         "status": "reviewed"
       }
@@ -30311,7 +30311,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_870-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 28,
         "status": "reviewed"
       }
@@ -32155,7 +32155,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1167750-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 68,
         "status": "reviewed"
       }
@@ -39875,7 +39875,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1376600-1-ex-3",
-        "version": 1,
+        "version": 2,
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -46169,7 +46169,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1178450-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 22,
         "status": "reviewed"
       },
@@ -46367,7 +46367,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1157760-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 22,
         "status": "reviewed"
       }
@@ -47033,7 +47033,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1211510-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 22,
         "status": "reviewed"
       }
@@ -47231,7 +47231,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1326990-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -47833,7 +47833,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1516310-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -48673,7 +48673,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1532410-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 30,
         "status": "reviewed"
       }
@@ -49063,7 +49063,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1591100-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -50045,7 +50045,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1518130-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 29,
         "status": "reviewed"
       },
@@ -50237,7 +50237,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1612920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 28,
         "status": "reviewed"
       }
@@ -59683,7 +59683,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1306200-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -61407,7 +61407,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1579490-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 22,
         "status": "reviewed"
       }
@@ -63153,7 +63153,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       },
       {
         "id": "sense-lex-jmdict-1015230-1-ex-2",
-        "version": 1,
+        "version": 2,
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -72151,7 +72151,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1530020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 29,
         "status": "reviewed"
       }
@@ -72571,7 +72571,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1242230-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 35,
         "status": "reviewed"
       }
@@ -73131,7 +73131,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1542920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 31,
         "status": "reviewed"
       }
@@ -76551,7 +76551,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1600240-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 29,
         "status": "reviewed"
       }
@@ -77911,7 +77911,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1436510-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 29,
         "status": "reviewed"
       }
@@ -79331,7 +79331,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1002250-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 43,
         "status": "reviewed"
       }
@@ -81931,7 +81931,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1167130-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 46,
         "status": "reviewed"
       }
@@ -82771,7 +82771,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1206040-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 45,
         "status": "reviewed"
       }
@@ -86671,7 +86671,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1236350-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 44,
         "status": "reviewed"
       }
@@ -91171,7 +91171,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1419740-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 38,
         "status": "reviewed"
       }
@@ -96771,7 +96771,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-AbsoluteVerb_34-2-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 12,
         "status": "reviewed"
       }
@@ -100351,7 +100351,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1529880-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 35,
         "status": "reviewed"
       }
@@ -100931,7 +100931,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1538690-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 35,
         "status": "reviewed"
       }
@@ -102891,7 +102891,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1472370-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 43,
         "status": "reviewed"
       }
@@ -103891,7 +103891,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1534490-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 30,
         "status": "reviewed"
       }

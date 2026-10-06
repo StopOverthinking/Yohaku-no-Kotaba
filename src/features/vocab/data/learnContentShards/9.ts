@@ -1420,12 +1420,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1579490-1-ex-1",
-        "version": 1,
-        "before": "あの二人はよく似ているけれど、",
+        "version": 2,
+        "before": "あの二人は",
         "answer": "姉妹",
-        "after": "ではなく友達だ。",
+        "after": "で、同じ店で働いている。",
         "reading": "しまい",
-        "translation": "저 두 사람은 매우 닮았지만 자매가 아니라 친구다.",
+        "translation": "저 두 사람은 자매로 같은 가게에서 일한다.",
         "translationTarget": "자매",
         "difficulty": 22,
         "status": "reviewed",
@@ -1438,26 +1438,30 @@ const content: LearnSense[] = [
             "reading": "ふたり"
           },
           {
-            "text": "はよく"
-          },
-          {
-            "text": "似",
-            "reading": "に"
-          },
-          {
-            "text": "ているけれど、"
+            "text": "は"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ではなく"
+            "text": "で、"
           },
           {
-            "text": "友達",
-            "reading": "ともだち"
+            "text": "同じ",
+            "reading": "おなじ"
           },
           {
-            "text": "だ。"
+            "text": "店",
+            "reading": "みせ"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "働い",
+            "reading": "はたらい"
+          },
+          {
+            "text": "ている。"
           }
         ]
       }

@@ -351,13 +351,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_809-1-ex-1",
-        "version": 1,
-        "before": "映画の主人公は、最後まで",
-        "answer": "引き金を引かなかった",
+        "version": 2,
+        "before": "映画の主人公は、敵に向けて",
+        "answer": "引き金を引いた",
         "after": "。",
-        "reading": "ひきがねをひかなかった",
-        "translation": "영화 주인공은 끝까지 방아쇠를 당기지 않았다.",
-        "translationTarget": "방아쇠를 당기지 않았다",
+        "reading": "ひきがねをひいた",
+        "translation": "영화 주인공은 적을 향해 방아쇠를 당겼다.",
+        "translationTarget": "방아쇠를 당겼다",
         "difficulty": 34,
         "status": "reviewed",
         "beforeFurigana": [
@@ -376,11 +376,18 @@ const content: LearnSense[] = [
             "text": "は、"
           },
           {
-            "text": "最後",
-            "reading": "さいご"
+            "text": "敵",
+            "reading": "てき"
           },
           {
-            "text": "まで"
+            "text": "に"
+          },
+          {
+            "text": "向け",
+            "reading": "むけ"
+          },
+          {
+            "text": "て"
           }
         ],
         "afterFurigana": [

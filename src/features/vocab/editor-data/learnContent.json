@@ -1579,13 +1579,13 @@
       },
       {
         "id": "sense-JLPTN3_28-1-ex-2",
-        "version": 1,
-        "before": "失敗を",
-        "answer": "隠さず",
-        "after": "に報告してくれて、ありがとう。",
-        "reading": "かくさず",
-        "translation": "실패를 숨기지 않고 보고해 줘서 고마워.",
-        "translationTarget": "숨기지 않고",
+        "version": 2,
+        "before": "子供は割った花瓶を棚の奥に",
+        "answer": "隠した",
+        "after": "。",
+        "reading": "かくした",
+        "translation": "아이는 깨뜨린 꽃병을 선반 안쪽에 숨겼다.",
+        "translationTarget": "숨겼다",
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -1643,13 +1643,13 @@
     "examples": [
       {
         "id": "sense-JLPTN3_36-1-ex-1",
-        "version": 1,
-        "before": "昨日洗った靴がまだ",
-        "answer": "乾いていない",
+        "version": 2,
+        "before": "昨日洗った靴が、昼までにすっかり",
+        "answer": "乾いた",
         "after": "。",
-        "reading": "かわいていない",
-        "translation": "어제 빤 신발이 아직 마르지 않았다.",
-        "translationTarget": "마르지 않았다",
+        "reading": "かわいた",
+        "translation": "어제 빤 신발이 낮까지 완전히 말랐다.",
+        "translationTarget": "말랐다",
         "difficulty": 28,
         "status": "reviewed"
       }
@@ -2615,13 +2615,13 @@
     "examples": [
       {
         "id": "sense-JLPTN3_127-1-ex-1",
-        "version": 1,
-        "before": "落としたコップは、幸い",
-        "answer": "割れなかった",
+        "version": 2,
+        "before": "落としたコップが床で",
+        "answer": "割れた",
         "after": "。",
-        "reading": "われなかった",
-        "translation": "떨어뜨린 컵은 다행히 깨지지 않았다.",
-        "translationTarget": "깨지지 않았다",
+        "reading": "われた",
+        "translation": "떨어뜨린 컵이 바닥에서 깨졌다.",
+        "translationTarget": "깨졌다",
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -5815,12 +5815,12 @@
     "examples": [
       {
         "id": "sense-JLPTN3_456-1-ex-1",
-        "version": 1,
-        "before": "薬を変えて一週間たつが、まだ体調に",
+        "version": 2,
+        "before": "薬を変えて一週間で、体調に",
         "answer": "変化",
-        "after": "はない。",
+        "after": "が現れた。",
         "reading": "へんか",
-        "translation": "약을 바꾼 지 일주일이 지났지만 아직 몸 상태에 변화는 없다.",
+        "translation": "약을 바꾸고 일주일 만에 몸 상태에 변화가 나타났다.",
         "translationTarget": "변화",
         "difficulty": 29,
         "status": "reviewed"
@@ -8495,13 +8495,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_55-1-ex-1",
-        "version": 1,
-        "before": "写真を見るまで、あんな大きな魚がいるとは",
-        "answer": "信じられなかった",
+        "version": 2,
+        "before": "写真を見て、あんな大きな魚がいることをようやく",
+        "answer": "信じた",
         "after": "。",
-        "reading": "しんじられなかった",
-        "translation": "사진을 보기 전까지 그렇게 큰 물고기가 있다는 것을 믿을 수 없었다.",
-        "translationTarget": "믿을 수 없었다",
+        "reading": "しんじた",
+        "translation": "사진을 보고 그렇게 큰 물고기가 있다는 사실을 마침내 믿었다.",
+        "translationTarget": "믿었다",
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -9883,13 +9883,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_184-1-ex-1",
-        "version": 1,
-        "before": "この部屋では猫を",
-        "answer": "飼えない",
-        "after": "ので、別の家を探した。",
-        "reading": "かえない",
-        "translation": "이 방에서는 고양이를 기를 수 없어서 다른 집을 찾았다.",
-        "translationTarget": "기를 수 없어서",
+        "version": 2,
+        "before": "引っ越した家で、猫を二匹",
+        "answer": "飼っている",
+        "after": "。",
+        "reading": "かっている",
+        "translation": "이사한 집에서 고양이 두 마리를 기르고 있다.",
+        "translationTarget": "기르고 있다",
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -12939,13 +12939,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_474-1-ex-1",
-        "version": 1,
-        "before": "計算が",
-        "answer": "合わない",
-        "after": "ので、レシートを一枚ずつ見直した。",
-        "reading": "あわない",
-        "translation": "계산이 맞지 않아서 영수증을 한 장씩 다시 봤다.",
-        "translationTarget": "맞지 않아서",
+        "version": 2,
+        "before": "レシートを一枚ずつ確認したら、計算がぴったり",
+        "answer": "合った",
+        "after": "。",
+        "reading": "あった",
+        "translation": "영수증을 한 장씩 확인했더니 계산이 딱 맞았다.",
+        "translationTarget": "맞았다",
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -16475,13 +16475,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_809-1-ex-1",
-        "version": 1,
-        "before": "映画の主人公は、最後まで",
-        "answer": "引き金を引かなかった",
+        "version": 2,
+        "before": "映画の主人公は、敵に向けて",
+        "answer": "引き金を引いた",
         "after": "。",
-        "reading": "ひきがねをひかなかった",
-        "translation": "영화 주인공은 끝까지 방아쇠를 당기지 않았다.",
-        "translationTarget": "방아쇠를 당기지 않았다",
+        "reading": "ひきがねをひいた",
+        "translation": "영화 주인공은 적을 향해 방아쇠를 당겼다.",
+        "translationTarget": "방아쇠를 당겼다",
         "difficulty": 34,
         "status": "reviewed"
       }
@@ -16635,13 +16635,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_824-1-ex-1",
-        "version": 1,
-        "before": "怖くて",
-        "answer": "声を出せず",
-        "after": "、ただ友達の袖を引いた。",
-        "reading": "こえをだせず",
-        "translation": "무서워서 소리를 내지 못하고 그저 친구의 소매를 당겼다.",
-        "translationTarget": "소리를 내지 못하고",
+        "version": 2,
+        "before": "暗い部屋で友達を呼ぶために、大きな",
+        "answer": "声を出した",
+        "after": "。",
+        "reading": "こえをだした",
+        "translation": "어두운 방에서 친구를 부르려고 큰 목소리를 냈다.",
+        "translationTarget": "목소리를 냈다",
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -17639,13 +17639,13 @@
     "examples": [
       {
         "id": "sense-JLPTN3_52-1-ex-1",
-        "version": 1,
-        "before": "展示品には",
-        "answer": "触らないで",
-        "after": "ください。",
-        "reading": "さわらないで",
-        "translation": "전시품은 만지지 말아 주세요.",
-        "translationTarget": "만지지 말아",
+        "version": 2,
+        "before": "子供は猫の背中をそっと",
+        "answer": "触った",
+        "after": "。",
+        "reading": "さわった",
+        "translation": "아이는 고양이 등을 살며시 만졌다.",
+        "translationTarget": "만졌다",
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -17927,13 +17927,13 @@
     "examples": [
       {
         "id": "sense-JLPTN3_79-1-ex-1",
-        "version": 1,
-        "before": "そんなに",
-        "answer": "怒鳴らなくても",
-        "after": "聞こえるよ。",
-        "reading": "どならなくても",
-        "translation": "그렇게 고함치지 않아도 들려.",
-        "translationTarget": "고함치지 않아도",
+        "version": 2,
+        "before": "危険に気づいた係員が「止まれ」と",
+        "answer": "怒鳴った",
+        "after": "。",
+        "reading": "どなった",
+        "translation": "위험을 알아챈 담당자가 ‘멈춰’라고 고함쳤다.",
+        "translationTarget": "고함쳤다",
         "difficulty": 37,
         "status": "reviewed"
       }
@@ -20403,12 +20403,12 @@
     "examples": [
       {
         "id": "sense-JLPTN3_339-1-ex-1",
-        "version": 1,
-        "before": "隣の話し声が気になって、勉強に",
+        "version": 2,
+        "before": "静かな図書館で、勉強に",
         "answer": "集中",
-        "after": "できない。",
+        "after": "した。",
         "reading": "しゅうちゅう",
-        "translation": "옆에서 이야기하는 소리가 신경 쓰여 공부에 집중할 수 없다.",
+        "translation": "조용한 도서관에서 공부에 집중했다.",
         "translationTarget": "집중",
         "difficulty": 32,
         "status": "reviewed"
@@ -22099,13 +22099,13 @@
     "examples": [
       {
         "id": "sense-handmade_3-1-ex-1",
-        "version": 1,
-        "before": "少し年上だからといって、",
-        "answer": "偉そうにしないで",
+        "version": 2,
+        "before": "彼は部下の前ではいつも",
+        "answer": "偉そうにする",
         "after": "。",
-        "reading": "えらそうにしないで",
-        "translation": "조금 나이가 많다고 잘난 체하지 마.",
-        "translationTarget": "잘난 체하지 마",
+        "reading": "えらそうにする",
+        "translation": "그는 부하 직원들 앞에서는 늘 잘난 체한다.",
+        "translationTarget": "잘난 체한다",
         "difficulty": 38,
         "status": "reviewed"
       }
@@ -24715,13 +24715,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_92-1-ex-1",
-        "version": 1,
-        "before": "ペンキが乾くまで、柵に",
-        "answer": "触らないで",
-        "after": "。",
-        "reading": "さわらないで",
-        "translation": "페인트가 마를 때까지 울타리에 손대지 마.",
-        "translationTarget": "손대지 마",
+        "version": 2,
+        "before": "職人は壁に",
+        "answer": "触って",
+        "after": "、ペンキの乾き具合を確かめた。",
+        "reading": "さわって",
+        "translation": "장인은 벽에 손대어 페인트가 마른 정도를 확인했다.",
+        "translationTarget": "손대어",
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -26455,13 +26455,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_255-1-ex-1",
-        "version": 1,
-        "before": "明日、うちへ",
-        "answer": "来ませんか",
-        "after": "。",
-        "reading": "きませんか",
-        "translation": "내일 우리 집에 오지 않을래요?",
-        "translationTarget": "오지 않을래요",
+        "version": 2,
+        "before": "明日の午後、うちへ遊びに",
+        "answer": "来て",
+        "after": "ください。",
+        "reading": "きて",
+        "translation": "내일 오후에 우리 집에 놀러 와 주세요.",
+        "translationTarget": "와 주세요",
         "difficulty": 10,
         "status": "reviewed"
       }
@@ -26903,13 +26903,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_297-1-ex-1",
-        "version": 1,
-        "before": "霧が濃くて、一歩も",
-        "answer": "進めなかった",
+        "version": 2,
+        "before": "霧が晴れてから、登山隊は頂上へ",
+        "answer": "進んだ",
         "after": "。",
-        "reading": "すすめなかった",
-        "translation": "안개가 짙어서 한 걸음도 나아갈 수 없었다.",
-        "translationTarget": "나아갈 수 없었다",
+        "reading": "すすんだ",
+        "translation": "안개가 걷힌 뒤 등산대는 정상으로 나아갔다.",
+        "translationTarget": "나아갔다",
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -27191,13 +27191,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_325-1-ex-1",
-        "version": 1,
-        "before": "廊下で",
-        "answer": "騒がないで",
-        "after": "。まだ試験中です。",
-        "reading": "さわがないで",
-        "translation": "복도에서 떠들지 마세요. 아직 시험 중입니다.",
-        "translationTarget": "떠들지 마세요",
+        "version": 2,
+        "before": "試験が終わると、学生たちは廊下で",
+        "answer": "騒ぎ始めた",
+        "after": "。",
+        "reading": "さわぎはじめた",
+        "translation": "시험이 끝나자 학생들은 복도에서 떠들기 시작했다.",
+        "translationTarget": "떠들기 시작했다",
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -28151,13 +28151,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_418-1-ex-1",
-        "version": 1,
-        "before": "周りの目に",
-        "answer": "構わず",
-        "after": "、好きな服を着たい。",
-        "reading": "かまわず",
-        "translation": "주변 시선을 신경 쓰지 않고 좋아하는 옷을 입고 싶다.",
-        "translationTarget": "신경 쓰지 않고",
+        "version": 2,
+        "before": "彼は身なりに",
+        "answer": "構う",
+        "after": "ようになり、服を丁寧に選んでいる。",
+        "reading": "かまう",
+        "translation": "그는 옷차림에 신경 쓰게 되어 옷을 정성껏 고르고 있다.",
+        "translationTarget": "신경 쓰게 되어",
         "difficulty": 30,
         "status": "reviewed"
       }
@@ -30711,13 +30711,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_669-1-ex-1",
-        "version": 1,
-        "before": "霧が晴れるまで、船は",
-        "answer": "出発できなかった",
+        "version": 2,
+        "before": "霧が晴れると、船は港を",
+        "answer": "出発した",
         "after": "。",
-        "reading": "しゅっぱつできなかった",
-        "translation": "안개가 걷힐 때까지 배는 출발할 수 없었다.",
-        "translationTarget": "출발할 수 없었다",
+        "reading": "しゅっぱつした",
+        "translation": "안개가 걷히자 배는 항구를 출발했다.",
+        "translationTarget": "출발했다",
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -32279,13 +32279,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_816-1-ex-1",
-        "version": 1,
-        "before": "二人の問題に、私は",
-        "answer": "口を出さなかった",
+        "version": 2,
+        "before": "二人で決めようとしていたら、兄が横から",
+        "answer": "口を出した",
         "after": "。",
-        "reading": "くちをださなかった",
-        "translation": "두 사람의 문제에 나는 말참견하지 않았다.",
-        "translationTarget": "말참견하지 않았다",
+        "reading": "くちをだした",
+        "translation": "둘이서 결정하려고 했더니 형이 옆에서 말참견했다.",
+        "translationTarget": "말참견했다",
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -32759,13 +32759,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_862-1-ex-1",
-        "version": 1,
-        "before": "小さな失敗をいつまでも",
-        "answer": "気にしないで",
+        "version": 2,
+        "before": "彼女は小さな失敗をいつまでも",
+        "answer": "気にしている",
         "after": "。",
-        "reading": "きにしないで",
-        "translation": "작은 실수를 언제까지나 신경 쓰지 마.",
-        "translationTarget": "신경 쓰지 마",
+        "reading": "きにしている",
+        "translation": "그녀는 작은 실수를 계속 신경 쓰고 있다.",
+        "translationTarget": "신경 쓰고 있다",
         "difficulty": 18,
         "status": "reviewed"
       }
@@ -33399,13 +33399,13 @@
     "examples": [
       {
         "id": "sense-JLPTN3_59-1-ex-1",
-        "version": 1,
-        "before": "最初は冗談だと思って、誰も",
-        "answer": "信じなかった",
+        "version": 2,
+        "before": "友達の真剣な表情を見て、その話を",
+        "answer": "信じた",
         "after": "。",
-        "reading": "しんじなかった",
-        "translation": "처음에는 농담인 줄 알고 아무도 믿지 않았다.",
-        "translationTarget": "믿지 않았다",
+        "reading": "しんじた",
+        "translation": "친구의 진지한 표정을 보고 그 이야기를 믿었다.",
+        "translationTarget": "믿었다",
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -33815,13 +33815,13 @@
     "examples": [
       {
         "id": "sense-JLPTN3_98-1-ex-1",
-        "version": 1,
-        "before": "この机、一人では",
-        "answer": "運べません",
+        "version": 2,
+        "before": "二人で机を隣の部屋へ",
+        "answer": "運んだ",
         "after": "。",
-        "reading": "はこべません",
-        "translation": "이 책상은 혼자서는 운반할 수 없어요.",
-        "translationTarget": "운반할 수 없어요",
+        "reading": "はこんだ",
+        "translation": "둘이서 책상을 옆방으로 운반했다.",
+        "translationTarget": "운반했다",
         "difficulty": 25,
         "status": "reviewed"
       }
@@ -36739,12 +36739,12 @@
     "examples": [
       {
         "id": "sense-JLPTN3_400-1-ex-1",
-        "version": 1,
-        "before": "店の前は",
+        "version": 2,
+        "before": "店の裏に",
         "answer": "駐車",
-        "after": "できないので、裏へ回った。",
+        "after": "して、荷物を運んだ。",
         "reading": "ちゅうしゃ",
-        "translation": "가게 앞에는 주차할 수 없어서 뒤로 돌아갔다.",
+        "translation": "가게 뒤에 주차하고 짐을 옮겼다.",
         "translationTarget": "주차",
         "difficulty": 31,
         "status": "reviewed"
@@ -39835,13 +39835,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_39-1-ex-1",
-        "version": 1,
-        "before": "卒業式では",
-        "answer": "泣かない",
-        "after": "と決めていたのに。",
-        "reading": "なかない",
-        "translation": "졸업식에서는 울지 않겠다고 다짐했는데.",
-        "translationTarget": "울지 않겠다",
+        "version": 2,
+        "before": "卒業式で友達と別れるとき、思わず",
+        "answer": "泣いた",
+        "after": "。",
+        "reading": "ないた",
+        "translation": "졸업식에서 친구들과 헤어질 때 나도 모르게 울었다.",
+        "translationTarget": "울었다",
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -41191,13 +41191,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_165-1-ex-1",
-        "version": 1,
-        "before": "水がなければ、魚は",
-        "answer": "生きられない",
+        "version": 2,
+        "before": "この魚は、冷たい川の水の中で",
+        "answer": "生きている",
         "after": "。",
-        "reading": "いきられない",
-        "translation": "물이 없으면 물고기는 살 수 없다.",
-        "translationTarget": "살 수 없다",
+        "reading": "いきている",
+        "translation": "이 물고기는 차가운 강물 속에서 살고 있다.",
+        "translationTarget": "살고 있다",
         "difficulty": 15,
         "status": "reviewed"
       }
@@ -44563,13 +44563,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_488-1-ex-1",
-        "version": 1,
-        "before": "ご期待に",
-        "answer": "添えず",
-        "after": "、申し訳ありません。",
-        "reading": "そえず",
-        "translation": "기대에 부응하지 못해 죄송합니다.",
-        "translationTarget": "부응하지 못해",
+        "version": 2,
+        "before": "新しい提案は、お客様のご希望に",
+        "answer": "添う",
+        "after": "内容になっています。",
+        "reading": "そう",
+        "translation": "새 제안은 고객님의 희망에 부응하는 내용으로 되어 있습니다.",
+        "translationTarget": "부응하는",
         "difficulty": 36,
         "status": "reviewed"
       }
@@ -44767,13 +44767,13 @@
       },
       {
         "id": "sense-AbsoluteVerb_506-1-ex-2",
-        "version": 1,
-        "before": "この癖は、注意するだけでは",
-        "answer": "直らない",
+        "version": 2,
+        "before": "練習を重ねるうちに、発音の癖が",
+        "answer": "直った",
         "after": "。",
-        "reading": "なおらない",
-        "translation": "이 버릇은 주의하는 것만으로는 고쳐지지 않는다.",
-        "translationTarget": "고쳐지지 않는다",
+        "reading": "なおった",
+        "translation": "연습을 거듭하는 사이에 발음 버릇이 고쳐졌다.",
+        "translationTarget": "고쳐졌다",
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -45375,13 +45375,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_569-1-ex-1",
-        "version": 1,
-        "before": "結論を",
-        "answer": "急がずに",
-        "after": "、全員の話を聞こう。",
-        "reading": "いそがずに",
-        "translation": "결론을 서두르지 말고 모두의 이야기를 듣자.",
-        "translationTarget": "서두르지 말고",
+        "version": 2,
+        "before": "電車の時間が迫っていたので、駅への道を",
+        "answer": "急いだ",
+        "after": "。",
+        "reading": "いそいだ",
+        "translation": "전철 시간이 다가와서 역으로 가는 길을 서둘렀다.",
+        "translationTarget": "서둘렀다",
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -48043,13 +48043,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_820-1-ex-1",
-        "version": 1,
-        "before": "よく知らない投資には",
-        "answer": "手を出さない",
+        "version": 2,
+        "before": "友人に勧められて、株の投資に",
+        "answer": "手を出した",
         "after": "。",
-        "reading": "てをださない",
-        "translation": "잘 모르는 투자에는 손대지 않는다.",
-        "translationTarget": "손대지 않는다",
+        "reading": "てをだした",
+        "translation": "친구의 권유로 주식 투자에 손댔다.",
+        "translationTarget": "손댔다",
         "difficulty": 24,
         "status": "reviewed"
       }
@@ -48555,13 +48555,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_870-1-ex-1",
-        "version": 1,
-        "before": "自分で確かめないと",
-        "answer": "気が済まない",
+        "version": 2,
+        "before": "思っていたことを全部話したら、ようやく",
+        "answer": "気が済んだ",
         "after": "。",
-        "reading": "きがすまない",
-        "translation": "직접 확인하지 않으면 직성이 풀리지 않는다.",
-        "translationTarget": "직성이 풀리지 않는다",
+        "reading": "きがすんだ",
+        "translation": "생각했던 것을 전부 이야기하니 마침내 직성이 풀렸다.",
+        "translationTarget": "직성이 풀렸다",
         "difficulty": 28,
         "status": "reviewed"
       }
@@ -51515,13 +51515,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1167750-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "議論が本来の目的から",
         "answer": "逸脱",
-        "after": "しないよう、司会者が話題を戻した。",
+        "after": "したため、司会者が話題を戻した。",
         "reading": "いつだつ",
-        "translation": "논의가 본래 목적에서 벗어나지 않도록 진행자가 화제를 되돌렸어요.",
-        "translationTarget": "벗어나지",
+        "translation": "논의가 본래 목적에서 벗어나서 진행자가 화제를 되돌렸어요.",
+        "translationTarget": "벗어나서",
         "difficulty": 68,
         "status": "reviewed"
       }
@@ -63939,13 +63939,13 @@
       },
       {
         "id": "sense-lex-jmdict-1376600-1-ex-3",
-        "version": 1,
-        "before": "人の話を聞かずに決めるのは",
-        "answer": "正しくない",
+        "version": 2,
+        "before": "相手の話を最後まで聞いてから判断するのが",
+        "answer": "正しい",
         "after": "と思います。",
-        "reading": "ただしくない",
-        "translation": "남의 말을 듣지 않고 결정하는 건 옳지 않다고 생각해요.",
-        "translationTarget": "옳지 않다",
+        "reading": "ただしい",
+        "translation": "상대의 말을 끝까지 듣고 판단하는 것이 옳다고 생각해요.",
+        "translationTarget": "옳다",
         "difficulty": 20,
         "status": "reviewed"
       }
@@ -74151,12 +74151,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1178450-1-ex-1",
-        "version": 1,
-        "before": "食べたい物があれば、",
+        "version": 2,
+        "before": "勧められたお菓子を、彼女は",
         "answer": "遠慮",
-        "after": "せずに言ってください。",
+        "after": "して受け取らなかった。",
         "reading": "えんりょ",
-        "translation": "먹고 싶은 게 있으면 사양하지 말고 말해 주세요.",
+        "translation": "권해 준 과자를 그녀는 사양하고 받지 않았다.",
         "translationTarget": "사양",
         "difficulty": 22,
         "status": "reviewed"
@@ -74475,12 +74475,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1157760-1-ex-1",
-        "version": 1,
-        "before": "検査の結果、機械に",
+        "version": 2,
+        "before": "点検で機械の",
         "answer": "異常",
-        "after": "はありませんでした。",
+        "after": "が見つかり、部品を交換した。",
         "reading": "いじょう",
-        "translation": "검사 결과 기계에 이상은 없었어요.",
+        "translation": "점검에서 기계의 이상이 발견되어 부품을 교체했다.",
         "translationTarget": "이상",
         "difficulty": 22,
         "status": "reviewed"
@@ -75543,13 +75543,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1211510-1-ex-1",
-        "version": 1,
-        "before": "この地図はまだ",
+        "version": 2,
+        "before": "必要な情報をすべて載せた、",
         "answer": "完全",
-        "after": "ではありません。",
+        "after": "な地図ができました。",
         "reading": "かんぜん",
-        "translation": "이 지도는 아직 완전하지 않아요.",
-        "translationTarget": "완전하지",
+        "translation": "필요한 정보를 모두 담은 완전한 지도가 완성되었어요.",
+        "translationTarget": "완전한",
         "difficulty": 22,
         "status": "reviewed"
       }
@@ -75867,13 +75867,13 @@
       },
       {
         "id": "sense-lex-jmdict-1326990-1-ex-2",
-        "version": 1,
-        "before": "何度洗っても、この容器についたにおいが",
-        "answer": "取れない",
+        "version": 2,
+        "before": "重曹で洗ったら、容器についたにおいが",
+        "answer": "取れた",
         "after": "。",
-        "reading": "とれない",
-        "translation": "몇 번을 씻어도 이 용기에 밴 냄새가 없어지지 않는다.",
-        "translationTarget": "없어지지 않는다",
+        "reading": "とれた",
+        "translation": "베이킹 소다로 씻었더니 용기에 밴 냄새가 없어졌다.",
+        "translationTarget": "없어졌다",
         "difficulty": 26,
         "status": "reviewed"
       }
@@ -76847,13 +76847,13 @@
       },
       {
         "id": "sense-lex-jmdict-1516310-1-ex-2",
-        "version": 1,
-        "before": "悩みを一人で",
-        "answer": "抱えずに",
-        "after": "、誰かに話してみてください。",
-        "reading": "かかえずに",
-        "translation": "고민을 혼자 떠안지 말고 누군가에게 이야기해 보세요.",
-        "translationTarget": "떠안지 말고",
+        "version": 2,
+        "before": "彼は家族にも相談できず、悩みを一人で",
+        "answer": "抱えている",
+        "after": "。",
+        "reading": "かかえている",
+        "translation": "그는 가족에게도 상담하지 못하고 고민을 혼자 떠안고 있다.",
+        "translationTarget": "떠안고 있다",
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -78215,13 +78215,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1532410-1-ex-1",
-        "version": 1,
-        "before": "引き受ける人が決まるまで、責任の所在は",
-        "answer": "明確ではなかった",
+        "version": 2,
+        "before": "担当者を決めたことで、責任の所在が",
+        "answer": "明確になった",
         "after": "。",
-        "reading": "めいかくではなかった",
-        "translation": "맡을 사람이 정해질 때까지 책임 소재는 명확하지 않았다.",
-        "translationTarget": "명확하지 않았다",
+        "reading": "めいかくになった",
+        "translation": "담당자를 정함으로써 책임 소재가 명확해졌다.",
+        "translationTarget": "명확해졌다",
         "difficulty": 30,
         "status": "reviewed"
       }
@@ -78851,13 +78851,13 @@
       },
       {
         "id": "sense-lex-jmdict-1591100-1-ex-2",
-        "version": 1,
-        "before": "ブレーキが",
-        "answer": "効かなくなった",
-        "after": "自転車には、乗らないでください。",
-        "reading": "きかなくなった",
-        "translation": "브레이크가 작동하지 않게 된 자전거는 타지 마세요.",
-        "translationTarget": "작동하지 않게 된",
+        "version": 2,
+        "before": "修理の後は、自転車のブレーキがよく",
+        "answer": "効く",
+        "after": "ようになった。",
+        "reading": "きく",
+        "translation": "수리 후에는 자전거 브레이크가 잘 작동하게 되었다.",
+        "translationTarget": "작동하게 되었다",
         "difficulty": 27,
         "status": "reviewed"
       }
@@ -80439,13 +80439,13 @@
       },
       {
         "id": "sense-lex-jmdict-1518130-1-ex-2",
-        "version": 1,
-        "before": "収入が増えても、自由な時間がなければ生活は",
-        "answer": "豊かにならない",
+        "version": 2,
+        "before": "休日を家族と過ごすようになり、生活が",
+        "answer": "豊かになった",
         "after": "。",
-        "reading": "ゆたかにならない",
-        "translation": "수입이 늘어도 자유로운 시간이 없으면 생활은 풍요로워지지 않는다.",
-        "translationTarget": "풍요로워지지 않는다",
+        "reading": "ゆたかになった",
+        "translation": "휴일을 가족과 보내게 되면서 생활이 풍요로워졌다.",
+        "translationTarget": "풍요로워졌다",
         "difficulty": 29,
         "status": "reviewed"
       },
@@ -80751,13 +80751,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1612920-1-ex-1",
-        "version": 1,
-        "before": "運転手は道に飛び出した犬を",
-        "answer": "轢かないように",
-        "after": "、急ブレーキをかけた。",
-        "reading": "ひかないように",
-        "translation": "운전자는 도로로 뛰어나온 개를 치지 않으려고 급브레이크를 밟았다.",
-        "translationTarget": "치지 않으려고",
+        "version": 2,
+        "before": "山道で鹿を",
+        "answer": "轢いた",
+        "after": "運転手が、警察に連絡した。",
+        "reading": "ひいた",
+        "translation": "산길에서 사슴을 친 운전자가 경찰에 연락했다.",
+        "translationTarget": "친",
         "difficulty": 28,
         "status": "reviewed"
       }
@@ -95987,12 +95987,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1306200-1-ex-1",
-        "version": 1,
-        "before": "許可なくこの道具を",
+        "version": 2,
+        "before": "この道具は、木材を切るときに",
         "answer": "使用",
-        "after": "しないでください。",
+        "after": "します。",
         "reading": "しよう",
-        "translation": "허가 없이 이 도구를 사용하지 마세요.",
+        "translation": "이 도구는 목재를 자를 때 사용합니다.",
         "translationTarget": "사용",
         "difficulty": 27,
         "status": "reviewed"
@@ -98755,12 +98755,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1579490-1-ex-1",
-        "version": 1,
-        "before": "あの二人はよく似ているけれど、",
+        "version": 2,
+        "before": "あの二人は",
         "answer": "姉妹",
-        "after": "ではなく友達だ。",
+        "after": "で、同じ店で働いている。",
         "reading": "しまい",
-        "translation": "저 두 사람은 매우 닮았지만 자매가 아니라 친구다.",
+        "translation": "저 두 사람은 자매로 같은 가게에서 일한다.",
         "translationTarget": "자매",
         "difficulty": 22,
         "status": "reviewed"
@@ -101551,12 +101551,12 @@
       },
       {
         "id": "sense-lex-jmdict-1015230-1-ex-2",
-        "version": 1,
-        "before": "利用者が多すぎて、予約サイトに",
+        "version": 2,
+        "before": "予約サイトに",
         "answer": "アクセス",
-        "after": "できなかった。",
-        "reading": "アクセス",
-        "translation": "이용자가 너무 많아서 예약 사이트에 접속할 수 없었다.",
+        "after": "して、空いている日を調べた。",
+        "reading": "あくせす",
+        "translation": "예약 사이트에 접속해서 예약 가능한 날을 알아봤다.",
         "translationTarget": "접속",
         "difficulty": 25,
         "status": "reviewed"
@@ -115955,12 +115955,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1530020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "質問を",
         "answer": "無視",
-        "after": "せず、分かる範囲で答えてください。",
+        "after": "して話を進めたため、参加者から不満が出た。",
         "reading": "むし",
-        "translation": "질문을 무시하지 말고 아는 범위에서 답해 주세요.",
+        "translation": "질문을 무시하고 이야기를 진행해서 참가자들이 불만을 제기했다.",
         "translationTarget": "무시",
         "difficulty": 29,
         "status": "reviewed"
@@ -116627,13 +116627,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1242230-1-ex-1",
-        "version": 1,
-        "before": "知らない犬には、急に",
-        "answer": "近寄らない",
-        "after": "方がいい。",
-        "reading": "ちかよらない",
-        "translation": "모르는 개에게는 갑자기 다가가지 않는 편이 좋다.",
-        "translationTarget": "다가가지 않는",
+        "version": 2,
+        "before": "迷子の子供に",
+        "answer": "近寄って",
+        "after": "、名前を尋ねた。",
+        "reading": "ちかよって",
+        "translation": "길을 잃은 아이에게 다가가서 이름을 물었다.",
+        "translationTarget": "다가가서",
         "difficulty": 35,
         "status": "reviewed"
       }
@@ -117523,12 +117523,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1542920-1-ex-1",
-        "version": 1,
-        "before": "",
+        "version": 2,
+        "before": "担当者は来月の注文増加を",
         "answer": "予期",
-        "after": "しなかった質問を受け、答えを考えるのに時間がかかった。",
+        "after": "して、材料を多めに用意した。",
         "reading": "よき",
-        "translation": "예상하지 못한 질문을 받아 답을 생각하는 데 시간이 걸렸다.",
+        "translation": "담당자는 다음 달의 주문 증가를 예상해서 재료를 넉넉히 준비했다.",
         "translationTarget": "예상",
         "difficulty": 31,
         "status": "reviewed"
@@ -122995,12 +122995,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1600240-1-ex-1",
-        "version": 1,
-        "before": "応募できるかどうかは、",
+        "version": 2,
+        "before": "申込書には、氏名と",
         "answer": "年齢",
-        "after": "ではなく経験で決まる。",
+        "after": "を記入してください。",
         "reading": "ねんれい",
-        "translation": "지원할 수 있는지는 나이가 아니라 경험으로 결정된다.",
+        "translation": "신청서에는 이름과 나이를 적어 주세요.",
         "translationTarget": "나이",
         "difficulty": 29,
         "status": "reviewed"
@@ -125171,12 +125171,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1436510-1-ex-1",
-        "version": 1,
-        "before": "傷の深さは、手術が必要な",
+        "version": 2,
+        "before": "傷は、手術が必要な",
         "answer": "程",
-        "after": "ではなかった。",
+        "after": "深かった。",
         "reading": "ほど",
-        "translation": "상처의 깊이는 수술이 필요할 정도는 아니었다.",
+        "translation": "상처는 수술이 필요할 정도로 깊었다.",
         "translationTarget": "정도",
         "difficulty": 29,
         "status": "reviewed"
@@ -127443,13 +127443,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1002250-1-ex-1",
-        "version": 1,
-        "before": "",
+        "version": 2,
+        "before": "相手の機嫌を取ろうと、大げさな",
         "answer": "お世辞",
-        "after": "ではなく、あなたの説明は本当に分かりやすかった。",
+        "after": "を言った。",
         "reading": "おせじ",
-        "translation": "빈말이 아니라 당신의 설명은 정말 이해하기 쉬웠다.",
-        "translationTarget": "빈말",
+        "translation": "상대의 기분을 맞추려고 과장된 아첨을 했다.",
+        "translationTarget": "아첨",
         "difficulty": 43,
         "status": "reviewed"
       }
@@ -131603,13 +131603,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1167130-1-ex-1",
-        "version": 1,
-        "before": "参加者の反応は",
+        "version": 2,
+        "before": "説明を聞いた参加者は、",
         "answer": "一様",
-        "after": "ではなく、年齢によって評価が大きく分かれた。",
+        "after": "にうなずいた。",
         "reading": "いちよう",
-        "translation": "참가자 반응은 한결같지 않고 나이에 따라 평가가 크게 갈렸다.",
-        "translationTarget": "한결같지",
+        "translation": "설명을 들은 참가자들은 한결같이 고개를 끄덕였다.",
+        "translationTarget": "한결같이",
         "difficulty": 46,
         "status": "reviewed"
       }
@@ -132947,12 +132947,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1206040-1-ex-1",
-        "version": 1,
-        "before": "こんな書類に署名した",
+        "version": 2,
+        "before": "この書類に署名した",
         "answer": "覚え",
-        "after": "はないので、原本を見せてほしい。",
+        "after": "があるので、日付を確認した。",
         "reading": "おぼえ",
-        "translation": "이런 서류에 서명한 기억은 없으니 원본을 보여 주었으면 한다.",
+        "translation": "이 서류에 서명한 기억이 있어서 날짜를 확인했다.",
         "translationTarget": "기억",
         "difficulty": 45,
         "status": "reviewed"
@@ -139187,12 +139187,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1236350-1-ex-1",
-        "version": 1,
-        "before": "研修への参加は任意であり、",
+        "version": 2,
+        "before": "参加を断る自由もなく、これは事実上の",
         "answer": "強制",
-        "after": "ではないと改めて伝えた。",
+        "after": "だと感じた。",
         "reading": "きょうせい",
-        "translation": "연수 참여는 자율이며 강제가 아니라고 다시 알렸다.",
+        "translation": "참여를 거절할 자유도 없어 이것은 사실상의 강제라고 느꼈다.",
         "translationTarget": "강제",
         "difficulty": 44,
         "status": "reviewed"
@@ -146387,12 +146387,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1419740-1-ex-1",
-        "version": 1,
-        "before": "写真だけでは原因を",
+        "version": 2,
+        "before": "専門家は、現場の調査結果から故障の原因を",
         "answer": "断定",
-        "after": "できないので、現場を確かめる必要がある。",
+        "after": "した。",
         "reading": "だんてい",
-        "translation": "사진만으로는 원인을 단정할 수 없어서 현장을 확인할 필요가 있다.",
+        "translation": "전문가는 현장 조사 결과로 고장 원인을 단정했다.",
         "translationTarget": "단정",
         "difficulty": 38,
         "status": "reviewed"
@@ -155347,13 +155347,13 @@
     "examples": [
       {
         "id": "sense-AbsoluteVerb_34-2-ex-1",
-        "version": 1,
-        "before": "錠剤が大きくて、水なしでは",
-        "answer": "飲めなかった",
+        "version": 2,
+        "before": "食後に水で錠剤を",
+        "answer": "飲んだ",
         "after": "。",
-        "reading": "のめなかった",
-        "translation": "알약이 커서 물 없이는 먹을 수 없었다.",
-        "translationTarget": "먹을 수 없었다",
+        "reading": "のんだ",
+        "translation": "식후에 물로 알약을 먹었다.",
+        "translationTarget": "먹었다",
         "difficulty": 12,
         "status": "reviewed"
       }
@@ -161075,13 +161075,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1529880-1-ex-1",
-        "version": 1,
-        "before": "資源は",
+        "version": 2,
+        "before": "この記号は、数が",
         "answer": "無限",
-        "after": "ではないので、使い方を考えよう。",
+        "after": "に続くことを表します。",
         "reading": "むげん",
-        "translation": "자원은 무한하지 않으므로 사용 방법을 생각하자.",
-        "translationTarget": "무한하지",
+        "translation": "이 기호는 수가 무한히 이어지는 것을 나타냅니다.",
+        "translationTarget": "무한히",
         "difficulty": 35,
         "status": "reviewed"
       }
@@ -162003,12 +162003,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1538690-1-ex-1",
-        "version": 1,
-        "before": "慣れた道でも、",
+        "version": 2,
+        "before": "慣れた道で",
         "answer": "油断",
-        "after": "せずに周りを確認して運転しよう。",
+        "after": "して、曲がる場所を通り過ぎた。",
         "reading": "ゆだん",
-        "translation": "익숙한 길이라도 방심하지 말고 주변을 확인하며 운전하자.",
+        "translation": "익숙한 길에서 방심해서 돌아야 할 곳을 지나쳤다.",
         "translationTarget": "방심",
         "difficulty": 35,
         "status": "reviewed"
@@ -165139,12 +165139,12 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1472370-1-ex-1",
-        "version": 1,
-        "before": "年齢だけを理由に応募者を",
+        "version": 2,
+        "before": "応募条件を満たしていない候補者を、選考から",
         "answer": "排除",
-        "after": "しない方針だ。",
+        "after": "した。",
         "reading": "はいじょ",
-        "translation": "나이만을 이유로 지원자를 배제하지 않는 방침이다.",
+        "translation": "지원 조건을 충족하지 않은 후보자를 선발에서 배제했다.",
         "translationTarget": "배제",
         "difficulty": 43,
         "status": "reviewed"
@@ -166739,13 +166739,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1534490-1-ex-1",
-        "version": 1,
-        "before": "店は忙しそうだが、材料費が高くてあまり",
-        "answer": "儲からない",
-        "after": "。",
-        "reading": "もうからない",
-        "translation": "가게는 바빠 보이지만 재료비가 높아서 별로 이익이 나지 않는다.",
-        "translationTarget": "이익이 나지 않는다",
+        "version": 2,
+        "before": "材料費を抑えたので、店は以前より",
+        "answer": "儲かる",
+        "after": "ようになった。",
+        "reading": "もうかる",
+        "translation": "재료비를 줄여서 가게는 전보다 이익이 나게 되었다.",
+        "translationTarget": "이익이 나게 되었다",
         "difficulty": 30,
         "status": "reviewed"
       }

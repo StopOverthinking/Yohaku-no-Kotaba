@@ -2690,52 +2690,56 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1472370-1-ex-1",
-        "version": 1,
-        "before": "年齢だけを理由に応募者を",
+        "version": 2,
+        "before": "応募条件を満たしていない候補者を、選考から",
         "answer": "排除",
-        "after": "しない方針だ。",
+        "after": "した。",
         "reading": "はいじょ",
-        "translation": "나이만을 이유로 지원자를 배제하지 않는 방침이다.",
+        "translation": "지원 조건을 충족하지 않은 후보자를 선발에서 배제했다.",
         "translationTarget": "배제",
         "difficulty": 43,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "年齢",
-            "reading": "ねんれい"
-          },
-          {
-            "text": "だけを"
-          },
-          {
-            "text": "理由",
-            "reading": "りゆう"
-          },
-          {
-            "text": "に"
-          },
-          {
             "text": "応募",
             "reading": "おうぼ"
+          },
+          {
+            "text": "条件",
+            "reading": "じょうけん"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "満たし",
+            "reading": "みたし"
+          },
+          {
+            "text": "ていない"
+          },
+          {
+            "text": "候補",
+            "reading": "こうほ"
           },
           {
             "text": "者",
             "reading": "しゃ"
           },
           {
-            "text": "を"
+            "text": "を、"
+          },
+          {
+            "text": "選考",
+            "reading": "せんこう"
+          },
+          {
+            "text": "から"
           }
         ],
         "afterFurigana": [
           {
-            "text": "しない"
-          },
-          {
-            "text": "方針",
-            "reading": "ほうしん"
-          },
-          {
-            "text": "だ。"
+            "text": "した。"
           }
         ]
       }

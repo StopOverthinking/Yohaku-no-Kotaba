@@ -287,13 +287,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_255-1-ex-1",
-        "version": 1,
-        "before": "明日、うちへ",
-        "answer": "来ませんか",
-        "after": "。",
-        "reading": "きませんか",
-        "translation": "내일 우리 집에 오지 않을래요?",
-        "translationTarget": "오지 않을래요",
+        "version": 2,
+        "before": "明日の午後、うちへ遊びに",
+        "answer": "来て",
+        "after": "ください。",
+        "reading": "きて",
+        "translation": "내일 오후에 우리 집에 놀러 와 주세요.",
+        "translationTarget": "와 주세요",
         "difficulty": 10,
         "status": "reviewed",
         "beforeFurigana": [
@@ -302,12 +302,26 @@ const content: LearnSense[] = [
             "reading": "あした"
           },
           {
+            "text": "の"
+          },
+          {
+            "text": "午後",
+            "reading": "ごご"
+          },
+          {
             "text": "、うちへ"
+          },
+          {
+            "text": "遊び",
+            "reading": "あそび"
+          },
+          {
+            "text": "に"
           }
         ],
         "afterFurigana": [
           {
-            "text": "。"
+            "text": "ください。"
           }
         ]
       }
@@ -2303,18 +2317,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1206040-1-ex-1",
-        "version": 1,
-        "before": "こんな書類に署名した",
+        "version": 2,
+        "before": "この書類に署名した",
         "answer": "覚え",
-        "after": "はないので、原本を見せてほしい。",
+        "after": "があるので、日付を確認した。",
         "reading": "おぼえ",
-        "translation": "이런 서류에 서명한 기억은 없으니 원본을 보여 주었으면 한다.",
+        "translation": "이 서류에 서명한 기억이 있어서 날짜를 확인했다.",
         "translationTarget": "기억",
         "difficulty": 45,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "こんな"
+            "text": "この"
           },
           {
             "text": "書類",
@@ -2333,21 +2347,21 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "はないので、"
+            "text": "があるので、"
           },
           {
-            "text": "原本",
-            "reading": "げんぽん"
+            "text": "日付",
+            "reading": "ひづけ"
           },
           {
             "text": "を"
           },
           {
-            "text": "見せ",
-            "reading": "みせ"
+            "text": "確認",
+            "reading": "かくにん"
           },
           {
-            "text": "てほしい。"
+            "text": "した。"
           }
         ]
       }

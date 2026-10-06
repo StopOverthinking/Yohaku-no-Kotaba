@@ -227,31 +227,41 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_52-1-ex-1",
-        "version": 1,
-        "before": "展示品には",
-        "answer": "触らないで",
-        "after": "ください。",
-        "reading": "さわらないで",
-        "translation": "전시품은 만지지 말아 주세요.",
-        "translationTarget": "만지지 말아",
+        "version": 2,
+        "before": "子供は猫の背中をそっと",
+        "answer": "触った",
+        "after": "。",
+        "reading": "さわった",
+        "translation": "아이는 고양이 등을 살며시 만졌다.",
+        "translationTarget": "만졌다",
         "difficulty": 27,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "展示",
-            "reading": "てんじ"
+            "text": "子供",
+            "reading": "こども"
           },
           {
-            "text": "品",
-            "reading": "ひん"
+            "text": "は"
           },
           {
-            "text": "には"
+            "text": "猫",
+            "reading": "ねこ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "背中",
+            "reading": "せなか"
+          },
+          {
+            "text": "をそっと"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ください。"
+            "text": "。"
           }
         ]
       }

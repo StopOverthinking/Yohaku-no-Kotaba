@@ -1794,33 +1794,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1242230-1-ex-1",
-        "version": 1,
-        "before": "知らない犬には、急に",
-        "answer": "近寄らない",
-        "after": "方がいい。",
-        "reading": "ちかよらない",
-        "translation": "모르는 개에게는 갑자기 다가가지 않는 편이 좋다.",
-        "translationTarget": "다가가지 않는",
+        "version": 2,
+        "before": "迷子の子供に",
+        "answer": "近寄って",
+        "after": "、名前を尋ねた。",
+        "reading": "ちかよって",
+        "translation": "길을 잃은 아이에게 다가가서 이름을 물었다.",
+        "translationTarget": "다가가서",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "知ら",
-            "reading": "しら"
+            "text": "迷子",
+            "reading": "まいご"
           },
           {
-            "text": "ない"
+            "text": "の"
           },
           {
-            "text": "犬",
-            "reading": "いぬ"
-          },
-          {
-            "text": "には、"
-          },
-          {
-            "text": "急",
-            "reading": "きゅう"
+            "text": "子供",
+            "reading": "こども"
           },
           {
             "text": "に"
@@ -1828,11 +1821,21 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "方",
-            "reading": "ほう"
+            "text": "、"
           },
           {
-            "text": "がいい。"
+            "text": "名前",
+            "reading": "なまえ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "尋ね",
+            "reading": "たずね"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

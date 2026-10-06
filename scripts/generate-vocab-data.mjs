@@ -6,7 +6,7 @@ import { partitionLearnContent } from './lib/learn-content-shards.mjs'
 import { addLearnFurigana } from './lib/learn-furigana.mjs'
 import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
-import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
+import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './lib/reviewed-example-history.mjs'
 import ts from 'typescript'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -145,7 +145,7 @@ async function readVocabSource() {
 }
 
 async function writeOutputFiles(data) {
-  const pruning = verifyExamplePruning(data.words, data.learnContent ?? [], await readExamplePruning(projectRoot))
+  const pruning = verifyReviewedExampleHistory(data.words, data.learnContent ?? [], await readReviewedExampleHistory(projectRoot))
   const aliasRoot = path.join(projectRoot, 'content/jlpt/legacy')
   const aliases = buildReviewedAliases(
     await readJsonFile(path.join(aliasRoot, 'alias-pilot-review.json'), []),

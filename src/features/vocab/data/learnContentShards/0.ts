@@ -647,26 +647,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_418-1-ex-1",
-        "version": 1,
-        "before": "周りの目に",
-        "answer": "構わず",
-        "after": "、好きな服を着たい。",
-        "reading": "かまわず",
-        "translation": "주변 시선을 신경 쓰지 않고 좋아하는 옷을 입고 싶다.",
-        "translationTarget": "신경 쓰지 않고",
+        "version": 2,
+        "before": "彼は身なりに",
+        "answer": "構う",
+        "after": "ようになり、服を丁寧に選んでいる。",
+        "reading": "かまう",
+        "translation": "그는 옷차림에 신경 쓰게 되어 옷을 정성껏 고르고 있다.",
+        "translationTarget": "신경 쓰게 되어",
         "difficulty": 30,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "周り",
-            "reading": "まわり"
+            "text": "彼",
+            "reading": "かれ"
           },
           {
-            "text": "の"
+            "text": "は"
           },
           {
-            "text": "目",
-            "reading": "め"
+            "text": "身なり",
+            "reading": "みなり"
           },
           {
             "text": "に"
@@ -674,14 +674,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "、"
-          },
-          {
-            "text": "好き",
-            "reading": "すき"
-          },
-          {
-            "text": "な"
+            "text": "ようになり、"
           },
           {
             "text": "服",
@@ -691,11 +684,18 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "着",
-            "reading": "き"
+            "text": "丁寧",
+            "reading": "ていねい"
           },
           {
-            "text": "たい。"
+            "text": "に"
+          },
+          {
+            "text": "選ん",
+            "reading": "えらん"
+          },
+          {
+            "text": "でいる。"
           }
         ]
       }

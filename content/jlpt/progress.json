@@ -48,6 +48,12 @@
     "removedExamples": 3742,
     "sourceHash": "2d28f0feb08a3258cbcf8ce7feebb533e01c3c80d4a9694fa85d207bbdff469c"
   },
+  "exampleCorrections": {
+    "journals": 1,
+    "correctedExamples": 60,
+    "sourceHash": "9d017ce1256058d6c0e860c7f954dd92dd6dbc0a94b3026194b67c60000e763e",
+    "reviewScope": "user-authorized editorial correction; no new independent approval claimed"
+  },
   "complete": true,
   "completionScope": "original-independent-content-selection plus separately reviewed user-authorized membership consolidation; no new independent content approval claimed",
   "issues": [],

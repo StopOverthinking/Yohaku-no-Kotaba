@@ -1023,33 +1023,33 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1532410-1-ex-1",
-        "version": 1,
-        "before": "引き受ける人が決まるまで、責任の所在は",
-        "answer": "明確ではなかった",
+        "version": 2,
+        "before": "担当者を決めたことで、責任の所在が",
+        "answer": "明確になった",
         "after": "。",
-        "reading": "めいかくではなかった",
-        "translation": "맡을 사람이 정해질 때까지 책임 소재는 명확하지 않았다.",
-        "translationTarget": "명확하지 않았다",
+        "reading": "めいかくになった",
+        "translation": "담당자를 정함으로써 책임 소재가 명확해졌다.",
+        "translationTarget": "명확해졌다",
         "difficulty": 30,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "引き受ける",
-            "reading": "ひきうける"
+            "text": "担当",
+            "reading": "たんとう"
           },
           {
-            "text": "人",
-            "reading": "ひと"
+            "text": "者",
+            "reading": "しゃ"
           },
           {
-            "text": "が"
+            "text": "を"
           },
           {
-            "text": "決まる",
-            "reading": "きまる"
+            "text": "決め",
+            "reading": "きめ"
           },
           {
-            "text": "まで、"
+            "text": "たことで、"
           },
           {
             "text": "責任",
@@ -1063,7 +1063,7 @@ const content: LearnSense[] = [
             "reading": "しょざい"
           },
           {
-            "text": "は"
+            "text": "が"
           }
         ],
         "afterFurigana": [

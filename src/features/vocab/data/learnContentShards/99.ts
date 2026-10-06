@@ -383,48 +383,49 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_824-1-ex-1",
-        "version": 1,
-        "before": "怖くて",
-        "answer": "声を出せず",
-        "after": "、ただ友達の袖を引いた。",
-        "reading": "こえをだせず",
-        "translation": "무서워서 소리를 내지 못하고 그저 친구의 소매를 당겼다.",
-        "translationTarget": "소리를 내지 못하고",
+        "version": 2,
+        "before": "暗い部屋で友達を呼ぶために、大きな",
+        "answer": "声を出した",
+        "after": "。",
+        "reading": "こえをだした",
+        "translation": "어두운 방에서 친구를 부르려고 큰 목소리를 냈다.",
+        "translationTarget": "목소리를 냈다",
         "difficulty": 18,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "怖く",
-            "reading": "こわく"
+            "text": "暗い",
+            "reading": "くらい"
           },
           {
-            "text": "て"
-          }
-        ],
-        "afterFurigana": [
+            "text": "部屋",
+            "reading": "へや"
+          },
           {
-            "text": "、ただ"
+            "text": "で"
           },
           {
             "text": "友達",
             "reading": "ともだち"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "袖",
-            "reading": "そで"
-          },
-          {
             "text": "を"
           },
           {
-            "text": "引い",
-            "reading": "ひい"
+            "text": "呼ぶ",
+            "reading": "よぶ"
           },
           {
-            "text": "た。"
+            "text": "ために、"
+          },
+          {
+            "text": "大きな",
+            "reading": "おおきな"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
           }
         ]
       }
@@ -1083,19 +1084,19 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1376600-1-ex-3",
-        "version": 1,
-        "before": "人の話を聞かずに決めるのは",
-        "answer": "正しくない",
+        "version": 2,
+        "before": "相手の話を最後まで聞いてから判断するのが",
+        "answer": "正しい",
         "after": "と思います。",
-        "reading": "ただしくない",
-        "translation": "남의 말을 듣지 않고 결정하는 건 옳지 않다고 생각해요.",
-        "translationTarget": "옳지 않다",
+        "reading": "ただしい",
+        "translation": "상대의 말을 끝까지 듣고 판단하는 것이 옳다고 생각해요.",
+        "translationTarget": "옳다",
         "difficulty": 20,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "人",
-            "reading": "ひと"
+            "text": "相手",
+            "reading": "あいて"
           },
           {
             "text": "の"
@@ -1108,18 +1109,25 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "聞か",
-            "reading": "きか"
+            "text": "最後",
+            "reading": "さいご"
           },
           {
-            "text": "ずに"
+            "text": "まで"
           },
           {
-            "text": "決める",
-            "reading": "きめる"
+            "text": "聞い",
+            "reading": "きい"
           },
           {
-            "text": "のは"
+            "text": "てから"
+          },
+          {
+            "text": "判断",
+            "reading": "はんだん"
+          },
+          {
+            "text": "するのが"
           }
         ],
         "afterFurigana": [

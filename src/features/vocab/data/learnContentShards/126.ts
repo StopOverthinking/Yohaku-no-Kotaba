@@ -2954,22 +2954,51 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1419740-1-ex-1",
-        "version": 1,
-        "before": "写真だけでは原因を",
+        "version": 2,
+        "before": "専門家は、現場の調査結果から故障の原因を",
         "answer": "断定",
-        "after": "できないので、現場を確かめる必要がある。",
+        "after": "した。",
         "reading": "だんてい",
-        "translation": "사진만으로는 원인을 단정할 수 없어서 현장을 확인할 필요가 있다.",
+        "translation": "전문가는 현장 조사 결과로 고장 원인을 단정했다.",
         "translationTarget": "단정",
         "difficulty": 38,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "写真",
-            "reading": "しゃしん"
+            "text": "専門",
+            "reading": "せんもん"
           },
           {
-            "text": "だけでは"
+            "text": "家",
+            "reading": "か"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "現場",
+            "reading": "げんば"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "調査",
+            "reading": "ちょうさ"
+          },
+          {
+            "text": "結果",
+            "reading": "けっか"
+          },
+          {
+            "text": "から"
+          },
+          {
+            "text": "故障",
+            "reading": "こしょう"
+          },
+          {
+            "text": "の"
           },
           {
             "text": "原因",
@@ -2981,25 +3010,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "できないので、"
-          },
-          {
-            "text": "現場",
-            "reading": "げんば"
-          },
-          {
-            "text": "を"
-          },
-          {
-            "text": "確かめる",
-            "reading": "たしかめる"
-          },
-          {
-            "text": "必要",
-            "reading": "ひつよう"
-          },
-          {
-            "text": "がある。"
+            "text": "した。"
           }
         ]
       }

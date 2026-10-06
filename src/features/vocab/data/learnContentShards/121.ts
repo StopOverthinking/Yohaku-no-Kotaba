@@ -226,36 +226,29 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_339-1-ex-1",
-        "version": 1,
-        "before": "隣の話し声が気になって、勉強に",
+        "version": 2,
+        "before": "静かな図書館で、勉強に",
         "answer": "集中",
-        "after": "できない。",
+        "after": "した。",
         "reading": "しゅうちゅう",
-        "translation": "옆에서 이야기하는 소리가 신경 쓰여 공부에 집중할 수 없다.",
+        "translation": "조용한 도서관에서 공부에 집중했다.",
         "translationTarget": "집중",
         "difficulty": 32,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "隣",
-            "reading": "となり"
+            "text": "静か",
+            "reading": "しずか"
           },
           {
-            "text": "の"
+            "text": "な"
           },
           {
-            "text": "話し声",
-            "reading": "はなしごえ"
+            "text": "図書館",
+            "reading": "としょかん"
           },
           {
-            "text": "が"
-          },
-          {
-            "text": "気",
-            "reading": "き"
-          },
-          {
-            "text": "になって、"
+            "text": "で、"
           },
           {
             "text": "勉強",
@@ -267,7 +260,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "できない。"
+            "text": "した。"
           }
         ]
       }
@@ -1085,16 +1078,37 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1516310-1-ex-2",
-        "version": 1,
-        "before": "悩みを一人で",
-        "answer": "抱えずに",
-        "after": "、誰かに話してみてください。",
-        "reading": "かかえずに",
-        "translation": "고민을 혼자 떠안지 말고 누군가에게 이야기해 보세요.",
-        "translationTarget": "떠안지 말고",
+        "version": 2,
+        "before": "彼は家族にも相談できず、悩みを一人で",
+        "answer": "抱えている",
+        "after": "。",
+        "reading": "かかえている",
+        "translation": "그는 가족에게도 상담하지 못하고 고민을 혼자 떠안고 있다.",
+        "translationTarget": "떠안고 있다",
         "difficulty": 27,
         "status": "reviewed",
         "beforeFurigana": [
+          {
+            "text": "彼",
+            "reading": "かれ"
+          },
+          {
+            "text": "は"
+          },
+          {
+            "text": "家族",
+            "reading": "かぞく"
+          },
+          {
+            "text": "にも"
+          },
+          {
+            "text": "相談",
+            "reading": "そうだん"
+          },
+          {
+            "text": "できず、"
+          },
           {
             "text": "悩み",
             "reading": "なやみ"
@@ -1112,21 +1126,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "、"
-          },
-          {
-            "text": "誰",
-            "reading": "だれ"
-          },
-          {
-            "text": "かに"
-          },
-          {
-            "text": "話し",
-            "reading": "はなし"
-          },
-          {
-            "text": "てみてください。"
+            "text": "。"
           }
         ]
       }
@@ -2415,36 +2415,36 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_34-2-ex-1",
-        "version": 1,
-        "before": "錠剤が大きくて、水なしでは",
-        "answer": "飲めなかった",
+        "version": 2,
+        "before": "食後に水で錠剤を",
+        "answer": "飲んだ",
         "after": "。",
-        "reading": "のめなかった",
-        "translation": "알약이 커서 물 없이는 먹을 수 없었다.",
-        "translationTarget": "먹을 수 없었다",
+        "reading": "のんだ",
+        "translation": "식후에 물로 알약을 먹었다.",
+        "translationTarget": "먹었다",
         "difficulty": 12,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "錠剤",
-            "reading": "じょうざい"
+            "text": "食後",
+            "reading": "しょくご"
           },
           {
-            "text": "が"
-          },
-          {
-            "text": "大きく",
-            "reading": "おおきく"
-          },
-          {
-            "text": "て、"
+            "text": "に"
           },
           {
             "text": "水",
             "reading": "みず"
           },
           {
-            "text": "なしでは"
+            "text": "で"
+          },
+          {
+            "text": "錠剤",
+            "reading": "じょうざい"
+          },
+          {
+            "text": "を"
           }
         ],
         "afterFurigana": [

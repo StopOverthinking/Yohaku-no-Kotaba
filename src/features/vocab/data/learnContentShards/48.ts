@@ -984,32 +984,43 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-AbsoluteVerb_506-1-ex-2",
-        "version": 1,
-        "before": "この癖は、注意するだけでは",
-        "answer": "直らない",
+        "version": 2,
+        "before": "練習を重ねるうちに、発音の癖が",
+        "answer": "直った",
         "after": "。",
-        "reading": "なおらない",
-        "translation": "이 버릇은 주의하는 것만으로는 고쳐지지 않는다.",
-        "translationTarget": "고쳐지지 않는다",
+        "reading": "なおった",
+        "translation": "연습을 거듭하는 사이에 발음 버릇이 고쳐졌다.",
+        "translationTarget": "고쳐졌다",
         "difficulty": 20,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "この"
+            "text": "練習",
+            "reading": "れんしゅう"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "重ねる",
+            "reading": "かさねる"
+          },
+          {
+            "text": "うちに、"
+          },
+          {
+            "text": "発音",
+            "reading": "はつおん"
+          },
+          {
+            "text": "の"
           },
           {
             "text": "癖",
             "reading": "くせ"
           },
           {
-            "text": "は、"
-          },
-          {
-            "text": "注意",
-            "reading": "ちゅうい"
-          },
-          {
-            "text": "するだけでは"
+            "text": "が"
           }
         ],
         "afterFurigana": [

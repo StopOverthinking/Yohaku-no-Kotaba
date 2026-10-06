@@ -81,25 +81,29 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_184-1-ex-1",
-        "version": 1,
-        "before": "この部屋では猫を",
-        "answer": "飼えない",
-        "after": "ので、別の家を探した。",
-        "reading": "かえない",
-        "translation": "이 방에서는 고양이를 기를 수 없어서 다른 집을 찾았다.",
-        "translationTarget": "기를 수 없어서",
+        "version": 2,
+        "before": "引っ越した家で、猫を二匹",
+        "answer": "飼っている",
+        "after": "。",
+        "reading": "かっている",
+        "translation": "이사한 집에서 고양이 두 마리를 기르고 있다.",
+        "translationTarget": "기르고 있다",
         "difficulty": 20,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "この"
+            "text": "引っ越し",
+            "reading": "ひっこし"
           },
           {
-            "text": "部屋",
-            "reading": "へや"
+            "text": "た"
           },
           {
-            "text": "では"
+            "text": "家",
+            "reading": "いえ"
+          },
+          {
+            "text": "で、"
           },
           {
             "text": "猫",
@@ -107,32 +111,15 @@ const content: LearnSense[] = [
           },
           {
             "text": "を"
+          },
+          {
+            "text": "二匹",
+            "reading": "にひき"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ので、"
-          },
-          {
-            "text": "別",
-            "reading": "べつ"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "家",
-            "reading": "いえ"
-          },
-          {
-            "text": "を"
-          },
-          {
-            "text": "探し",
-            "reading": "さがし"
-          },
-          {
-            "text": "た。"
+            "text": "。"
           }
         ]
       }
@@ -448,43 +435,50 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_59-1-ex-1",
-        "version": 1,
-        "before": "最初は冗談だと思って、誰も",
-        "answer": "信じなかった",
+        "version": 2,
+        "before": "友達の真剣な表情を見て、その話を",
+        "answer": "信じた",
         "after": "。",
-        "reading": "しんじなかった",
-        "translation": "처음에는 농담인 줄 알고 아무도 믿지 않았다.",
-        "translationTarget": "믿지 않았다",
+        "reading": "しんじた",
+        "translation": "친구의 진지한 표정을 보고 그 이야기를 믿었다.",
+        "translationTarget": "믿었다",
         "difficulty": 25,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "最初",
-            "reading": "さいしょ"
+            "text": "友達",
+            "reading": "ともだち"
           },
           {
-            "text": "は"
+            "text": "の"
           },
           {
-            "text": "冗談",
-            "reading": "じょうだん"
+            "text": "真剣",
+            "reading": "しんけん"
           },
           {
-            "text": "だと"
+            "text": "な"
           },
           {
-            "text": "思っ",
-            "reading": "おもっ"
+            "text": "表情",
+            "reading": "ひょうじょう"
           },
           {
-            "text": "て、"
+            "text": "を"
           },
           {
-            "text": "誰",
-            "reading": "だれ"
+            "text": "見",
+            "reading": "み"
           },
           {
-            "text": "も"
+            "text": "て、その"
+          },
+          {
+            "text": "話",
+            "reading": "はなし"
+          },
+          {
+            "text": "を"
           }
         ],
         "afterFurigana": [

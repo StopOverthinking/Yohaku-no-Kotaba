@@ -920,13 +920,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1167750-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "議論が本来の目的から",
         "answer": "逸脱",
-        "after": "しないよう、司会者が話題を戻した。",
+        "after": "したため、司会者が話題を戻した。",
         "reading": "いつだつ",
-        "translation": "논의가 본래 목적에서 벗어나지 않도록 진행자가 화제를 되돌렸어요.",
-        "translationTarget": "벗어나지",
+        "translation": "논의가 본래 목적에서 벗어나서 진행자가 화제를 되돌렸어요.",
+        "translationTarget": "벗어나서",
         "difficulty": 68,
         "status": "reviewed",
         "beforeFurigana": [
@@ -954,7 +954,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "しないよう、"
+            "text": "したため、"
           },
           {
             "text": "司会",

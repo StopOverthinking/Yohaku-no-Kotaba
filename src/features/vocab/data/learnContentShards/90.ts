@@ -72,34 +72,55 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-JLPTN3_28-1-ex-2",
-        "version": 1,
-        "before": "失敗を",
-        "answer": "隠さず",
-        "after": "に報告してくれて、ありがとう。",
-        "reading": "かくさず",
-        "translation": "실패를 숨기지 않고 보고해 줘서 고마워.",
-        "translationTarget": "숨기지 않고",
+        "version": 2,
+        "before": "子供は割った花瓶を棚の奥に",
+        "answer": "隠した",
+        "after": "。",
+        "reading": "かくした",
+        "translation": "아이는 깨뜨린 꽃병을 선반 안쪽에 숨겼다.",
+        "translationTarget": "숨겼다",
         "difficulty": 26,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "失敗",
-            "reading": "しっぱい"
+            "text": "子供",
+            "reading": "こども"
+          },
+          {
+            "text": "は"
+          },
+          {
+            "text": "割っ",
+            "reading": "わっ"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "花瓶",
+            "reading": "かびん"
           },
           {
             "text": "を"
+          },
+          {
+            "text": "棚",
+            "reading": "たな"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "奥",
+            "reading": "おく"
+          },
+          {
+            "text": "に"
           }
         ],
         "afterFurigana": [
           {
-            "text": "に"
-          },
-          {
-            "text": "報告",
-            "reading": "ほうこく"
-          },
-          {
-            "text": "してくれて、ありがとう。"
+            "text": "。"
           }
         ]
       }

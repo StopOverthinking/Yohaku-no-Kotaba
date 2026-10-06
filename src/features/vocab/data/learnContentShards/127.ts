@@ -1354,30 +1354,48 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1211510-1-ex-1",
-        "version": 1,
-        "before": "この地図はまだ",
+        "version": 2,
+        "before": "必要な情報をすべて載せた、",
         "answer": "完全",
-        "after": "ではありません。",
+        "after": "な地図ができました。",
         "reading": "かんぜん",
-        "translation": "이 지도는 아직 완전하지 않아요.",
-        "translationTarget": "완전하지",
+        "translation": "필요한 정보를 모두 담은 완전한 지도가 완성되었어요.",
+        "translationTarget": "완전한",
         "difficulty": 22,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "この"
+            "text": "必要",
+            "reading": "ひつよう"
+          },
+          {
+            "text": "な"
+          },
+          {
+            "text": "情報",
+            "reading": "じょうほう"
+          },
+          {
+            "text": "をすべて"
+          },
+          {
+            "text": "載せ",
+            "reading": "のせ"
+          },
+          {
+            "text": "た、"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "な"
           },
           {
             "text": "地図",
             "reading": "ちず"
           },
           {
-            "text": "はまだ"
-          }
-        ],
-        "afterFurigana": [
-          {
-            "text": "ではありません。"
+            "text": "ができました。"
           }
         ]
       }
@@ -3345,41 +3363,51 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1529880-1-ex-1",
-        "version": 1,
-        "before": "資源は",
+        "version": 2,
+        "before": "この記号は、数が",
         "answer": "無限",
-        "after": "ではないので、使い方を考えよう。",
+        "after": "に続くことを表します。",
         "reading": "むげん",
-        "translation": "자원은 무한하지 않으므로 사용 방법을 생각하자.",
-        "translationTarget": "무한하지",
+        "translation": "이 기호는 수가 무한히 이어지는 것을 나타냅니다.",
+        "translationTarget": "무한히",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "資源",
-            "reading": "しげん"
+            "text": "この"
           },
           {
-            "text": "は"
+            "text": "記号",
+            "reading": "きごう"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "数",
+            "reading": "かず"
+          },
+          {
+            "text": "が"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ではないので、"
+            "text": "に"
           },
           {
-            "text": "使い方",
-            "reading": "つかいかた"
+            "text": "続く",
+            "reading": "つづく"
           },
           {
-            "text": "を"
+            "text": "ことを"
           },
           {
-            "text": "考えよ",
-            "reading": "かんがえよ"
+            "text": "表し",
+            "reading": "あらわし"
           },
           {
-            "text": "う。"
+            "text": "ます。"
           }
         ]
       }

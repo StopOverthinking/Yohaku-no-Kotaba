@@ -1605,30 +1605,29 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1326990-1-ex-2",
-        "version": 1,
-        "before": "何度洗っても、この容器についたにおいが",
-        "answer": "取れない",
+        "version": 2,
+        "before": "重曹で洗ったら、容器についたにおいが",
+        "answer": "取れた",
         "after": "。",
-        "reading": "とれない",
-        "translation": "몇 번을 씻어도 이 용기에 밴 냄새가 없어지지 않는다.",
-        "translationTarget": "없어지지 않는다",
+        "reading": "とれた",
+        "translation": "베이킹 소다로 씻었더니 용기에 밴 냄새가 없어졌다.",
+        "translationTarget": "없어졌다",
         "difficulty": 26,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "何",
-            "reading": "なん"
+            "text": "重曹",
+            "reading": "じゅうそう"
           },
           {
-            "text": "度",
-            "reading": "ど"
+            "text": "で"
           },
           {
             "text": "洗っ",
             "reading": "あらっ"
           },
           {
-            "text": "ても、この"
+            "text": "たら、"
           },
           {
             "text": "容器",

@@ -1751,34 +1751,16 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1015230-1-ex-2",
-        "version": 1,
-        "before": "利用者が多すぎて、予約サイトに",
+        "version": 2,
+        "before": "予約サイトに",
         "answer": "アクセス",
-        "after": "できなかった。",
-        "reading": "アクセス",
-        "translation": "이용자가 너무 많아서 예약 사이트에 접속할 수 없었다.",
+        "after": "して、空いている日を調べた。",
+        "reading": "あくせす",
+        "translation": "예약 사이트에 접속해서 예약 가능한 날을 알아봤다.",
         "translationTarget": "접속",
         "difficulty": 25,
         "status": "reviewed",
         "beforeFurigana": [
-          {
-            "text": "利用",
-            "reading": "りよう"
-          },
-          {
-            "text": "者",
-            "reading": "しゃ"
-          },
-          {
-            "text": "が"
-          },
-          {
-            "text": "多",
-            "reading": "おお"
-          },
-          {
-            "text": "すぎて、"
-          },
           {
             "text": "予約",
             "reading": "よやく"
@@ -1789,7 +1771,28 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "できなかった。"
+            "text": "して、"
+          },
+          {
+            "text": "空い",
+            "reading": "あい"
+          },
+          {
+            "text": "ている"
+          },
+          {
+            "text": "日",
+            "reading": "ひ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "調べ",
+            "reading": "しらべ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

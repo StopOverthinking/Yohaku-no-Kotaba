@@ -658,16 +658,37 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_325-1-ex-1",
-        "version": 1,
-        "before": "廊下で",
-        "answer": "騒がないで",
-        "after": "。まだ試験中です。",
-        "reading": "さわがないで",
-        "translation": "복도에서 떠들지 마세요. 아직 시험 중입니다.",
-        "translationTarget": "떠들지 마세요",
+        "version": 2,
+        "before": "試験が終わると、学生たちは廊下で",
+        "answer": "騒ぎ始めた",
+        "after": "。",
+        "reading": "さわぎはじめた",
+        "translation": "시험이 끝나자 학생들은 복도에서 떠들기 시작했다.",
+        "translationTarget": "떠들기 시작했다",
         "difficulty": 26,
         "status": "reviewed",
         "beforeFurigana": [
+          {
+            "text": "試験",
+            "reading": "しけん"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "終わる",
+            "reading": "おわる"
+          },
+          {
+            "text": "と、"
+          },
+          {
+            "text": "学生",
+            "reading": "がくせい"
+          },
+          {
+            "text": "たちは"
+          },
           {
             "text": "廊下",
             "reading": "ろうか"
@@ -678,18 +699,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "。まだ"
-          },
-          {
-            "text": "試験",
-            "reading": "しけん"
-          },
-          {
-            "text": "中",
-            "reading": "ちゅう"
-          },
-          {
-            "text": "です。"
+            "text": "。"
           }
         ]
       }
@@ -772,32 +782,43 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_98-1-ex-1",
-        "version": 1,
-        "before": "この机、一人では",
-        "answer": "運べません",
+        "version": 2,
+        "before": "二人で机を隣の部屋へ",
+        "answer": "運んだ",
         "after": "。",
-        "reading": "はこべません",
-        "translation": "이 책상은 혼자서는 운반할 수 없어요.",
-        "translationTarget": "운반할 수 없어요",
+        "reading": "はこんだ",
+        "translation": "둘이서 책상을 옆방으로 운반했다.",
+        "translationTarget": "운반했다",
         "difficulty": 25,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "この"
+            "text": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "text": "で"
           },
           {
             "text": "机",
             "reading": "つくえ"
           },
           {
-            "text": "、"
+            "text": "を"
           },
           {
-            "text": "一人",
-            "reading": "ひとり"
+            "text": "隣",
+            "reading": "となり"
           },
           {
-            "text": "では"
+            "text": "の"
+          },
+          {
+            "text": "部屋",
+            "reading": "へや"
+          },
+          {
+            "text": "へ"
           }
         ],
         "afterFurigana": [
@@ -2843,41 +2864,45 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1600240-1-ex-1",
-        "version": 1,
-        "before": "応募できるかどうかは、",
+        "version": 2,
+        "before": "申込書には、氏名と",
         "answer": "年齢",
-        "after": "ではなく経験で決まる。",
+        "after": "を記入してください。",
         "reading": "ねんれい",
-        "translation": "지원할 수 있는지는 나이가 아니라 경험으로 결정된다.",
+        "translation": "신청서에는 이름과 나이를 적어 주세요.",
         "translationTarget": "나이",
         "difficulty": 29,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "応募",
-            "reading": "おうぼ"
+            "text": "申込",
+            "reading": "もうしこみ"
           },
           {
-            "text": "できるかどうかは、"
+            "text": "書",
+            "reading": "しょ"
+          },
+          {
+            "text": "には、"
+          },
+          {
+            "text": "氏名",
+            "reading": "しめい"
+          },
+          {
+            "text": "と"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ではなく"
+            "text": "を"
           },
           {
-            "text": "経験",
-            "reading": "けいけん"
+            "text": "記入",
+            "reading": "きにゅう"
           },
           {
-            "text": "で"
-          },
-          {
-            "text": "決まる",
-            "reading": "きまる"
-          },
-          {
-            "text": "。"
+            "text": "してください。"
           }
         ]
       }

@@ -498,22 +498,37 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_488-1-ex-1",
-        "version": 1,
-        "before": "ご期待に",
-        "answer": "添えず",
-        "after": "、申し訳ありません。",
-        "reading": "そえず",
-        "translation": "기대에 부응하지 못해 죄송합니다.",
-        "translationTarget": "부응하지 못해",
+        "version": 2,
+        "before": "新しい提案は、お客様のご希望に",
+        "answer": "添う",
+        "after": "内容になっています。",
+        "reading": "そう",
+        "translation": "새 제안은 고객님의 희망에 부응하는 내용으로 되어 있습니다.",
+        "translationTarget": "부응하는",
         "difficulty": 36,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "ご"
+            "text": "新しい",
+            "reading": "あたらしい"
           },
           {
-            "text": "期待",
-            "reading": "きたい"
+            "text": "提案",
+            "reading": "ていあん"
+          },
+          {
+            "text": "は、"
+          },
+          {
+            "text": "お客様",
+            "reading": "おきゃくさま"
+          },
+          {
+            "text": "のご"
+          },
+          {
+            "text": "希望",
+            "reading": "きぼう"
           },
           {
             "text": "に"
@@ -521,14 +536,11 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "、"
+            "text": "内容",
+            "reading": "ないよう"
           },
           {
-            "text": "申し訳",
-            "reading": "もうしわけ"
-          },
-          {
-            "text": "ありません。"
+            "text": "になっています。"
           }
         ]
       }

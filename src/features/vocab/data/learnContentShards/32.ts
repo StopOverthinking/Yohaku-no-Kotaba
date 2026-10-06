@@ -1697,37 +1697,55 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1002250-1-ex-1",
-        "version": 1,
-        "before": "",
+        "version": 2,
+        "before": "相手の機嫌を取ろうと、大げさな",
         "answer": "お世辞",
-        "after": "ではなく、あなたの説明は本当に分かりやすかった。",
+        "after": "を言った。",
         "reading": "おせじ",
-        "translation": "빈말이 아니라 당신의 설명은 정말 이해하기 쉬웠다.",
-        "translationTarget": "빈말",
+        "translation": "상대의 기분을 맞추려고 과장된 아첨을 했다.",
+        "translationTarget": "아첨",
         "difficulty": 43,
         "status": "reviewed",
-        "beforeFurigana": [],
+        "beforeFurigana": [
+          {
+            "text": "相手",
+            "reading": "あいて"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "機嫌",
+            "reading": "きげん"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "取ろ",
+            "reading": "とろ"
+          },
+          {
+            "text": "うと、"
+          },
+          {
+            "text": "大げさ",
+            "reading": "おおげさ"
+          },
+          {
+            "text": "な"
+          }
+        ],
         "afterFurigana": [
           {
-            "text": "ではなく、あなたの"
+            "text": "を"
           },
           {
-            "text": "説明",
-            "reading": "せつめい"
+            "text": "言っ",
+            "reading": "いっ"
           },
           {
-            "text": "は"
-          },
-          {
-            "text": "本当に",
-            "reading": "ほんとうに"
-          },
-          {
-            "text": "分かり",
-            "reading": "わかり"
-          },
-          {
-            "text": "やすかった。"
+            "text": "た。"
           }
         ]
       }

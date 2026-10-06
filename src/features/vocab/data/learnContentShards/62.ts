@@ -177,27 +177,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_474-1-ex-1",
-        "version": 1,
-        "before": "計算が",
-        "answer": "合わない",
-        "after": "ので、レシートを一枚ずつ見直した。",
-        "reading": "あわない",
-        "translation": "계산이 맞지 않아서 영수증을 한 장씩 다시 봤다.",
-        "translationTarget": "맞지 않아서",
+        "version": 2,
+        "before": "レシートを一枚ずつ確認したら、計算がぴったり",
+        "answer": "合った",
+        "after": "。",
+        "reading": "あった",
+        "translation": "영수증을 한 장씩 확인했더니 계산이 딱 맞았다.",
+        "translationTarget": "맞았다",
         "difficulty": 18,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "計算",
-            "reading": "けいさん"
-          },
-          {
-            "text": "が"
-          }
-        ],
-        "afterFurigana": [
-          {
-            "text": "ので、レシートを"
+            "text": "レシートを"
           },
           {
             "text": "一枚",
@@ -207,11 +198,23 @@ const content: LearnSense[] = [
             "text": "ずつ"
           },
           {
-            "text": "見直し",
-            "reading": "みなおし"
+            "text": "確認",
+            "reading": "かくにん"
           },
           {
-            "text": "た。"
+            "text": "したら、"
+          },
+          {
+            "text": "計算",
+            "reading": "けいさん"
+          },
+          {
+            "text": "がぴったり"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
           }
         ]
       }
@@ -2764,12 +2767,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1538690-1-ex-1",
-        "version": 1,
-        "before": "慣れた道でも、",
+        "version": 2,
+        "before": "慣れた道で",
         "answer": "油断",
-        "after": "せずに周りを確認して運転しよう。",
+        "after": "して、曲がる場所を通り過ぎた。",
         "reading": "ゆだん",
-        "translation": "익숙한 길이라도 방심하지 말고 주변을 확인하며 운전하자.",
+        "translation": "익숙한 길에서 방심해서 돌아야 할 곳을 지나쳤다.",
         "translationTarget": "방심",
         "difficulty": 35,
         "status": "reviewed",
@@ -2786,33 +2789,30 @@ const content: LearnSense[] = [
             "reading": "みち"
           },
           {
-            "text": "でも、"
+            "text": "で"
           }
         ],
         "afterFurigana": [
           {
-            "text": "せずに"
+            "text": "して、"
           },
           {
-            "text": "周り",
-            "reading": "まわり"
+            "text": "曲がる",
+            "reading": "まがる"
+          },
+          {
+            "text": "場所",
+            "reading": "ばしょ"
           },
           {
             "text": "を"
           },
           {
-            "text": "確認",
-            "reading": "かくにん"
+            "text": "通り過ぎ",
+            "reading": "とおりすぎ"
           },
           {
-            "text": "して"
-          },
-          {
-            "text": "運転",
-            "reading": "うんてん"
-          },
-          {
-            "text": "しよう。"
+            "text": "た。"
           }
         ]
       }

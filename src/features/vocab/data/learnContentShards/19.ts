@@ -465,13 +465,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_39-1-ex-1",
-        "version": 1,
-        "before": "卒業式では",
-        "answer": "泣かない",
-        "after": "と決めていたのに。",
-        "reading": "なかない",
-        "translation": "졸업식에서는 울지 않겠다고 다짐했는데.",
-        "translationTarget": "울지 않겠다",
+        "version": 2,
+        "before": "卒業式で友達と別れるとき、思わず",
+        "answer": "泣いた",
+        "after": "。",
+        "reading": "ないた",
+        "translation": "졸업식에서 친구들과 헤어질 때 나도 모르게 울었다.",
+        "translationTarget": "울었다",
         "difficulty": 15,
         "status": "reviewed",
         "beforeFurigana": [
@@ -484,19 +484,30 @@ const content: LearnSense[] = [
             "reading": "しき"
           },
           {
-            "text": "では"
-          }
-        ],
-        "afterFurigana": [
+            "text": "で"
+          },
+          {
+            "text": "友達",
+            "reading": "ともだち"
+          },
           {
             "text": "と"
           },
           {
-            "text": "決め",
-            "reading": "きめ"
+            "text": "別れる",
+            "reading": "わかれる"
           },
           {
-            "text": "ていたのに。"
+            "text": "とき、"
+          },
+          {
+            "text": "思わず",
+            "reading": "おもわず"
+          }
+        ],
+        "afterFurigana": [
+          {
+            "text": "。"
           }
         ]
       }

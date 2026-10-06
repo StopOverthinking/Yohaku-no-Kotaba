@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { hashContent } from './jlpt-pilot.mjs'
 import { validateVerbConsolidation } from './verb-consolidation.mjs'
+import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './reviewed-example-history.mjs'
 
 const read = path => JSON.parse(readFileSync(path, 'utf8'))
 const original = {
@@ -11,6 +12,9 @@ const original = {
   senses: read('src/features/vocab/editor-data/learnContent.json'),
   receipt: read('content/jlpt/pilot/published-membership.json'),
 }
+// The membership receipt remains bound to the exact corpus it reviewed.
+original.senses = verifyReviewedExampleHistory(original.words, original.senses,
+  await readReviewedExampleHistory(process.cwd())).beforeCorrections
 const check = data => validateVerbConsolidation(data.manifest, data.sets, data.words, data.senses, data.receipt)
 const copy = () => structuredClone(original)
 

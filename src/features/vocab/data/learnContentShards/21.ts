@@ -21,13 +21,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_36-1-ex-1",
-        "version": 1,
-        "before": "昨日洗った靴がまだ",
-        "answer": "乾いていない",
+        "version": 2,
+        "before": "昨日洗った靴が、昼までにすっかり",
+        "answer": "乾いた",
         "after": "。",
-        "reading": "かわいていない",
-        "translation": "어제 빤 신발이 아직 마르지 않았다.",
-        "translationTarget": "마르지 않았다",
+        "reading": "かわいた",
+        "translation": "어제 빤 신발이 낮까지 완전히 말랐다.",
+        "translationTarget": "말랐다",
         "difficulty": 28,
         "status": "reviewed",
         "beforeFurigana": [
@@ -47,7 +47,14 @@ const content: LearnSense[] = [
             "reading": "くつ"
           },
           {
-            "text": "がまだ"
+            "text": "が、"
+          },
+          {
+            "text": "昼",
+            "reading": "ひる"
+          },
+          {
+            "text": "までにすっかり"
           }
         ],
         "afterFurigana": [

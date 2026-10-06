@@ -1209,20 +1209,16 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1306200-1-ex-1",
-        "version": 1,
-        "before": "許可なくこの道具を",
+        "version": 2,
+        "before": "この道具は、木材を切るときに",
         "answer": "使用",
-        "after": "しないでください。",
+        "after": "します。",
         "reading": "しよう",
-        "translation": "허가 없이 이 도구를 사용하지 마세요.",
+        "translation": "이 도구는 목재를 자를 때 사용합니다.",
         "translationTarget": "사용",
         "difficulty": 27,
         "status": "reviewed",
         "beforeFurigana": [
-          {
-            "text": "許可なく",
-            "reading": "きょかなく"
-          },
           {
             "text": "この"
           },
@@ -1231,12 +1227,26 @@ const content: LearnSense[] = [
             "reading": "どうぐ"
           },
           {
+            "text": "は、"
+          },
+          {
+            "text": "木材",
+            "reading": "もくざい"
+          },
+          {
             "text": "を"
+          },
+          {
+            "text": "切る",
+            "reading": "きる"
+          },
+          {
+            "text": "ときに"
           }
         ],
         "afterFurigana": [
           {
-            "text": "しないでください。"
+            "text": "します。"
           }
         ]
       }

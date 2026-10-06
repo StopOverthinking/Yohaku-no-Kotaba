@@ -21,12 +21,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_456-1-ex-1",
-        "version": 1,
-        "before": "薬を変えて一週間たつが、まだ体調に",
+        "version": 2,
+        "before": "薬を変えて一週間で、体調に",
         "answer": "変化",
-        "after": "はない。",
+        "after": "が現れた。",
         "reading": "へんか",
-        "translation": "약을 바꾼 지 일주일이 지났지만 아직 몸 상태에 변화는 없다.",
+        "translation": "약을 바꾸고 일주일 만에 몸 상태에 변화가 나타났다.",
         "translationTarget": "변화",
         "difficulty": 29,
         "status": "reviewed",
@@ -50,7 +50,7 @@ const content: LearnSense[] = [
             "reading": "いっしゅうかん"
           },
           {
-            "text": "たつが、まだ"
+            "text": "で、"
           },
           {
             "text": "体調",
@@ -62,7 +62,14 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "はない。"
+            "text": "が"
+          },
+          {
+            "text": "現れ",
+            "reading": "あらわれ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }
@@ -1682,12 +1689,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1530020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "質問を",
         "answer": "無視",
-        "after": "せず、分かる範囲で答えてください。",
+        "after": "して話を進めたため、参加者から不満が出た。",
         "reading": "むし",
-        "translation": "질문을 무시하지 말고 아는 범위에서 답해 주세요.",
+        "translation": "질문을 무시하고 이야기를 진행해서 참가자들이 불만을 제기했다.",
         "translationTarget": "무시",
         "difficulty": 29,
         "status": "reviewed",
@@ -1702,25 +1709,46 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "せず、"
+            "text": "して"
           },
           {
-            "text": "分かる",
-            "reading": "わかる"
+            "text": "話",
+            "reading": "はなし"
           },
           {
-            "text": "範囲",
-            "reading": "はんい"
+            "text": "を"
           },
           {
-            "text": "で"
+            "text": "進め",
+            "reading": "すすめ"
           },
           {
-            "text": "答え",
-            "reading": "こたえ"
+            "text": "たため、"
           },
           {
-            "text": "てください。"
+            "text": "参加",
+            "reading": "さんか"
+          },
+          {
+            "text": "者",
+            "reading": "しゃ"
+          },
+          {
+            "text": "から"
+          },
+          {
+            "text": "不満",
+            "reading": "ふまん"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "出",
+            "reading": "で"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

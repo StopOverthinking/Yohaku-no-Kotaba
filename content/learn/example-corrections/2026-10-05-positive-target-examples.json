@@ -1,0 +1,4520 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-05-positive-target-examples",
+  "scope": "user-authorized-example-polarity-correction",
+  "authorization": "사용자 요청: 목표 단어 '올바르다'의 예문이 '올바르지 않다'로 사용되는 것을 만든 건 이상하다. 이런 걸 찾아보고 고쳐라",
+  "review": {
+    "outcome": "accepted",
+    "reviewedBy": "current Codex session editorial review",
+    "independent": false,
+    "reviewedAt": "2026-10-05T02:59:59.877Z",
+    "notes": [
+      "현재 전량 5,874개 예문에서 정답 내부/직후의 부정과 한국어 강조 구간을 대조했다.",
+      "표제어 고유의 ない/ず, 부정 의미 자체인 관용구와 자연스러운 의역은 유지했다. 초대·금지·불가능 문맥도 목표어의 긍정 용례로 바꿨다.",
+      "단어·용법·예문 ID와 순서, 소속, 핵심 뜻, 용법 버전과 예문 난도를 보존하고 바뀐 예문 버전만 1 증가했다. 새로운 독립 Astra 승인을 주장하지 않는다."
+    ]
+  },
+  "entriesHash": "678b139207e319d01f3894ff23f02c4400be3d14a100b31e924baa226c441f97",
+  "entries": [
+    {
+      "wordId": "JLPTN3_28",
+      "wordHash": "8ccf92c541004dd49f03301439e0649e94298425a85209045617bebdafadb161",
+      "beforeHash": "040113ade06ed903c2ae89ac1efa7c67f1519ab3522e42148182800284e2bd3f",
+      "afterHash": "c1ab894ffe7564dd14123d611c661c874a21bce27f63a344e298739a6ed61f8e",
+      "before": {
+        "id": "sense-JLPTN3_28-1",
+        "wordId": "JLPTN3_28",
+        "version": 1,
+        "meaning": "보이지 않게 숨기다",
+        "hint": "다른 사람이 찾거나 알지 못하도록 가려 두는 행동이에요.",
+        "confusions": [
+          {
+            "japanese": "隠れる",
+            "distinction": "대상이 스스로 숨는 것과 달리 누군가가 대상을 보이지 않게 한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_28-1-ex-1",
+            "version": 1,
+            "before": "誕生日の贈り物を、妹の部屋に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "생일 선물을 여동생 방에 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-JLPTN3_28-1-ex-2",
+            "version": 1,
+            "before": "失敗を",
+            "answer": "隠さず",
+            "after": "に報告してくれて、ありがとう。",
+            "reading": "かくさず",
+            "translation": "실패를 숨기지 않고 보고해 줘서 고마워.",
+            "translationTarget": "숨기지 않고",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_28-1",
+        "wordId": "JLPTN3_28",
+        "version": 1,
+        "meaning": "보이지 않게 숨기다",
+        "hint": "다른 사람이 찾거나 알지 못하도록 가려 두는 행동이에요.",
+        "confusions": [
+          {
+            "japanese": "隠れる",
+            "distinction": "대상이 스스로 숨는 것과 달리 누군가가 대상을 보이지 않게 한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_28-1-ex-1",
+            "version": 1,
+            "before": "誕生日の贈り物を、妹の部屋に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "생일 선물을 여동생 방에 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-JLPTN3_28-1-ex-2",
+            "version": 2,
+            "before": "子供は割った花瓶を棚の奥に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "아이는 깨뜨린 꽃병을 선반 안쪽에 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_36",
+      "wordHash": "3d8b5eb7cf666957118ab7e1af10f8e3adfbba1471381f0ce40614ddb0f0346d",
+      "beforeHash": "5169ff437ea4345d4d440e19cc6dfea7bf4f838bc4058a5e6fb4a71d12c6d99d",
+      "afterHash": "90c5f272db22760923023e0d08966eed4baa90bffe964998cb625c3aba552245",
+      "before": {
+        "id": "sense-JLPTN3_36-1",
+        "wordId": "JLPTN3_36",
+        "version": 1,
+        "meaning": "물기가 마르다",
+        "hint": "젖어 있던 물건에서 수분이 없어지는 변화예요.",
+        "confusions": [
+          {
+            "japanese": "乾かす",
+            "distinction": "물기를 없애는 행동이 아니라 물기가 없어지는 쪽을 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_36-1-ex-1",
+            "version": 1,
+            "before": "昨日洗った靴がまだ",
+            "answer": "乾いていない",
+            "after": "。",
+            "reading": "かわいていない",
+            "translation": "어제 빤 신발이 아직 마르지 않았다.",
+            "translationTarget": "마르지 않았다",
+            "difficulty": 28,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_36-1",
+        "wordId": "JLPTN3_36",
+        "version": 1,
+        "meaning": "물기가 마르다",
+        "hint": "젖어 있던 물건에서 수분이 없어지는 변화예요.",
+        "confusions": [
+          {
+            "japanese": "乾かす",
+            "distinction": "물기를 없애는 행동이 아니라 물기가 없어지는 쪽을 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_36-1-ex-1",
+            "version": 2,
+            "before": "昨日洗った靴が、昼までにすっかり",
+            "answer": "乾いた",
+            "after": "。",
+            "reading": "かわいた",
+            "translation": "어제 빤 신발이 낮까지 완전히 말랐다.",
+            "translationTarget": "말랐다",
+            "difficulty": 28,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_127",
+      "wordHash": "98cb0a022cab0655de30ca9268cad748cfa814422e9922f2cf48c15d80135cc8",
+      "beforeHash": "b183047b94cbce04bfda5142ab500fdac5ea6daba9fa58fbf2c38dccbd96d02d",
+      "afterHash": "c67aebf6d12e9562c44b4c7b0470484a6bed2a8f9b82c53ffb70a3a08e15772d",
+      "before": {
+        "id": "sense-JLPTN3_127-1",
+        "wordId": "JLPTN3_127",
+        "version": 1,
+        "meaning": "단단한 것이 깨지다",
+        "hint": "유리나 그릇처럼 단단한 물건이 갈라져요.",
+        "confusions": [
+          {
+            "japanese": "割る",
+            "distinction": "누가 깨뜨리는 행동이 아니라 물건이 깨지는 변화다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_127-1-ex-1",
+            "version": 1,
+            "before": "落としたコップは、幸い",
+            "answer": "割れなかった",
+            "after": "。",
+            "reading": "われなかった",
+            "translation": "떨어뜨린 컵은 다행히 깨지지 않았다.",
+            "translationTarget": "깨지지 않았다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_127-1",
+        "wordId": "JLPTN3_127",
+        "version": 1,
+        "meaning": "단단한 것이 깨지다",
+        "hint": "유리나 그릇처럼 단단한 물건이 갈라져요.",
+        "confusions": [
+          {
+            "japanese": "割る",
+            "distinction": "누가 깨뜨리는 행동이 아니라 물건이 깨지는 변화다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_127-1-ex-1",
+            "version": 2,
+            "before": "落としたコップが床で",
+            "answer": "割れた",
+            "after": "。",
+            "reading": "われた",
+            "translation": "떨어뜨린 컵이 바닥에서 깨졌다.",
+            "translationTarget": "깨졌다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_456",
+      "wordHash": "f379cd82ed966a926c089b925d1cff875c2b8ec45ed52be4dcd1624f10954b5d",
+      "beforeHash": "8fa13fb723f3540b0018976778649a630c80435860a6b11ad5ae465cf4783bd6",
+      "afterHash": "6dd24ec6143d85ac5658aa8c3417808fbf012ed240af1c022e496cdf9ba53735",
+      "before": {
+        "id": "sense-JLPTN3_456-1",
+        "wordId": "JLPTN3_456",
+        "version": 1,
+        "meaning": "이전과 달라짐",
+        "hint": "좋아지거나 나빠지는 평가 없이 전과 다른 상태가 되는 것을 말해요.",
+        "confusions": [
+          {
+            "japanese": "進歩",
+            "distinction": "더 나아지는 경우에 한정하지 않고 모든 방향의 달라짐을 포함한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_456-1-ex-1",
+            "version": 1,
+            "before": "薬を変えて一週間たつが、まだ体調に",
+            "answer": "変化",
+            "after": "はない。",
+            "reading": "へんか",
+            "translation": "약을 바꾼 지 일주일이 지났지만 아직 몸 상태에 변화는 없다.",
+            "translationTarget": "변화",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_456-1",
+        "wordId": "JLPTN3_456",
+        "version": 1,
+        "meaning": "이전과 달라짐",
+        "hint": "좋아지거나 나빠지는 평가 없이 전과 다른 상태가 되는 것을 말해요.",
+        "confusions": [
+          {
+            "japanese": "進歩",
+            "distinction": "더 나아지는 경우에 한정하지 않고 모든 방향의 달라짐을 포함한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_456-1-ex-1",
+            "version": 2,
+            "before": "薬を変えて一週間で、体調に",
+            "answer": "変化",
+            "after": "が現れた。",
+            "reading": "へんか",
+            "translation": "약을 바꾸고 일주일 만에 몸 상태에 변화가 나타났다.",
+            "translationTarget": "변화",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_55",
+      "wordHash": "cf85f856f29492fecf29913a5f3c721953376926575cd45d1396a22b88a58c3c",
+      "beforeHash": "55d363449622ecf537f32aa9b392f5b91a42525c59b51d62ac12167a582ab991",
+      "afterHash": "0a28f50389b30edb82f6b80d77a4927834c3d2115a1d74868d5cb04e5235a159",
+      "before": {
+        "id": "sense-AbsoluteVerb_55-1",
+        "wordId": "AbsoluteVerb_55",
+        "version": 1,
+        "meaning": "사실이나 사람을 믿다",
+        "hint": "진실하거나 믿을 만하다고 받아들여요.",
+        "confusions": [
+          {
+            "japanese": "頼る",
+            "distinction": "도움을 얻으려고 의지하는 것보다 사실성과 신뢰를 받아들이는 마음이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_55-1-ex-1",
+            "version": 1,
+            "before": "写真を見るまで、あんな大きな魚がいるとは",
+            "answer": "信じられなかった",
+            "after": "。",
+            "reading": "しんじられなかった",
+            "translation": "사진을 보기 전까지 그렇게 큰 물고기가 있다는 것을 믿을 수 없었다.",
+            "translationTarget": "믿을 수 없었다",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_55-1",
+        "wordId": "AbsoluteVerb_55",
+        "version": 1,
+        "meaning": "사실이나 사람을 믿다",
+        "hint": "진실하거나 믿을 만하다고 받아들여요.",
+        "confusions": [
+          {
+            "japanese": "頼る",
+            "distinction": "도움을 얻으려고 의지하는 것보다 사실성과 신뢰를 받아들이는 마음이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_55-1-ex-1",
+            "version": 2,
+            "before": "写真を見て、あんな大きな魚がいることをようやく",
+            "answer": "信じた",
+            "after": "。",
+            "reading": "しんじた",
+            "translation": "사진을 보고 그렇게 큰 물고기가 있다는 사실을 마침내 믿었다.",
+            "translationTarget": "믿었다",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_184",
+      "wordHash": "691ddce9950ddec22def25bf9732827918ce6a220797e1aedcc18b48ee01349a",
+      "beforeHash": "7a10dcc93cddaae07ec156a018aa6280ec9c8762b2135dcac4443ac7fbe054da",
+      "afterHash": "3e82d2e334e257bc8407b4e3a7bfa00dd3625a0d7aa8602326fa8a2d04f865c9",
+      "before": {
+        "id": "sense-AbsoluteVerb_184-1",
+        "wordId": "AbsoluteVerb_184",
+        "version": 1,
+        "meaning": "동물을 기르다",
+        "hint": "먹이와 거처를 챙기며 동물을 돌봐요.",
+        "confusions": [
+          {
+            "japanese": "育てる",
+            "distinction": "아이와 식물도 키울 수 있는 말과 달리 동물을 사육하는 데 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_184-1-ex-1",
+            "version": 1,
+            "before": "この部屋では猫を",
+            "answer": "飼えない",
+            "after": "ので、別の家を探した。",
+            "reading": "かえない",
+            "translation": "이 방에서는 고양이를 기를 수 없어서 다른 집을 찾았다.",
+            "translationTarget": "기를 수 없어서",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_184-1",
+        "wordId": "AbsoluteVerb_184",
+        "version": 1,
+        "meaning": "동물을 기르다",
+        "hint": "먹이와 거처를 챙기며 동물을 돌봐요.",
+        "confusions": [
+          {
+            "japanese": "育てる",
+            "distinction": "아이와 식물도 키울 수 있는 말과 달리 동물을 사육하는 데 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_184-1-ex-1",
+            "version": 2,
+            "before": "引っ越した家で、猫を二匹",
+            "answer": "飼っている",
+            "after": "。",
+            "reading": "かっている",
+            "translation": "이사한 집에서 고양이 두 마리를 기르고 있다.",
+            "translationTarget": "기르고 있다",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_474",
+      "wordHash": "638344c4d8c92d6ebb41f7cd6b99caa4745856256af6d3c7ff9e191ed6d65538",
+      "beforeHash": "5b7f95054faa37301a0e3f76e3c717b2c5c17b90f9897d75c964b2d85984e846",
+      "afterHash": "c5cd3685033c98b075c81ce01847fa93bb9654763d03a20607d7cb32894e629f",
+      "before": {
+        "id": "sense-AbsoluteVerb_474-1",
+        "wordId": "AbsoluteVerb_474",
+        "version": 1,
+        "meaning": "서로 맞다",
+        "hint": "두 수치나 내용이 어긋나지 않고 일치해요.",
+        "confusions": [
+          {
+            "japanese": "似る",
+            "distinction": "비슷해 보이는 정도가 아니라 기준이나 상대와 맞아떨어지는 관계다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_474-1-ex-1",
+            "version": 1,
+            "before": "計算が",
+            "answer": "合わない",
+            "after": "ので、レシートを一枚ずつ見直した。",
+            "reading": "あわない",
+            "translation": "계산이 맞지 않아서 영수증을 한 장씩 다시 봤다.",
+            "translationTarget": "맞지 않아서",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_474-1",
+        "wordId": "AbsoluteVerb_474",
+        "version": 1,
+        "meaning": "서로 맞다",
+        "hint": "두 수치나 내용이 어긋나지 않고 일치해요.",
+        "confusions": [
+          {
+            "japanese": "似る",
+            "distinction": "비슷해 보이는 정도가 아니라 기준이나 상대와 맞아떨어지는 관계다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_474-1-ex-1",
+            "version": 2,
+            "before": "レシートを一枚ずつ確認したら、計算がぴったり",
+            "answer": "合った",
+            "after": "。",
+            "reading": "あった",
+            "translation": "영수증을 한 장씩 확인했더니 계산이 딱 맞았다.",
+            "translationTarget": "맞았다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_809",
+      "wordHash": "dba913b15d0436e9394bfc4c6af784254639e94078a01cb36b213288503a4d79",
+      "beforeHash": "333b043c9af676fdafb91712fd816ae59ac297f86b857eeb75aa1cd65d9dfb5e",
+      "afterHash": "310010f93d10c3701c259e0940ea9529d56c49c082ffe20b932dd3e86d39fb01",
+      "before": {
+        "id": "sense-AbsoluteVerb_809-1",
+        "wordId": "AbsoluteVerb_809",
+        "version": 1,
+        "meaning": "방아쇠를 당기다",
+        "hint": "총의 발사 장치를 손가락으로 당기는 동작이에요.",
+        "confusions": [
+          {
+            "japanese": "銃を構える",
+            "distinction": "총을 겨누어 준비하는 자세와 달리 발사 장치를 당긴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_809-1-ex-1",
+            "version": 1,
+            "before": "映画の主人公は、最後まで",
+            "answer": "引き金を引かなかった",
+            "after": "。",
+            "reading": "ひきがねをひかなかった",
+            "translation": "영화 주인공은 끝까지 방아쇠를 당기지 않았다.",
+            "translationTarget": "방아쇠를 당기지 않았다",
+            "difficulty": 34,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_809-1",
+        "wordId": "AbsoluteVerb_809",
+        "version": 1,
+        "meaning": "방아쇠를 당기다",
+        "hint": "총의 발사 장치를 손가락으로 당기는 동작이에요.",
+        "confusions": [
+          {
+            "japanese": "銃を構える",
+            "distinction": "총을 겨누어 준비하는 자세와 달리 발사 장치를 당긴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_809-1-ex-1",
+            "version": 2,
+            "before": "映画の主人公は、敵に向けて",
+            "answer": "引き金を引いた",
+            "after": "。",
+            "reading": "ひきがねをひいた",
+            "translation": "영화 주인공은 적을 향해 방아쇠를 당겼다.",
+            "translationTarget": "방아쇠를 당겼다",
+            "difficulty": 34,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_824",
+      "wordHash": "de3bdc195973eefd81a904ced65b82cc5c160dc2c9aa459bb200a6269a8c5302",
+      "beforeHash": "33cc3b70a2210f8a04d1c4ed05d9b3b7cff663e06f102e150333e92c053797bf",
+      "afterHash": "6a805a27bf1188e35e5dc17d70ce3016bb8a2eb1fa1fbe23e8c77e7be69e2b42",
+      "before": {
+        "id": "sense-AbsoluteVerb_824-1",
+        "wordId": "AbsoluteVerb_824",
+        "version": 1,
+        "meaning": "목소리를 내다",
+        "hint": "말이나 소리가 실제로 입 밖에 나오게 해요.",
+        "confusions": [
+          {
+            "japanese": "話す",
+            "distinction": "의미 있는 말을 하는 것뿐 아니라 외침이나 발성에도 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_824-1-ex-1",
+            "version": 1,
+            "before": "怖くて",
+            "answer": "声を出せず",
+            "after": "、ただ友達の袖を引いた。",
+            "reading": "こえをだせず",
+            "translation": "무서워서 소리를 내지 못하고 그저 친구의 소매를 당겼다.",
+            "translationTarget": "소리를 내지 못하고",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_824-1",
+        "wordId": "AbsoluteVerb_824",
+        "version": 1,
+        "meaning": "목소리를 내다",
+        "hint": "말이나 소리가 실제로 입 밖에 나오게 해요.",
+        "confusions": [
+          {
+            "japanese": "話す",
+            "distinction": "의미 있는 말을 하는 것뿐 아니라 외침이나 발성에도 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_824-1-ex-1",
+            "version": 2,
+            "before": "暗い部屋で友達を呼ぶために、大きな",
+            "answer": "声を出した",
+            "after": "。",
+            "reading": "こえをだした",
+            "translation": "어두운 방에서 친구를 부르려고 큰 목소리를 냈다.",
+            "translationTarget": "목소리를 냈다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_52",
+      "wordHash": "f9e64f9c4dc7d15b3e17efdfce7dbee0ba03ebe6c625a5befd128d9792e22d44",
+      "beforeHash": "350950356e854d36532435c35839835caa92b98a1206decd40ed41b1e74dc3bd",
+      "afterHash": "e1799ad57d4b2fd02c4394bd3115178a89bfd486fa601ddd92132f0efeb3244c",
+      "before": {
+        "id": "sense-JLPTN3_52-1",
+        "wordId": "JLPTN3_52",
+        "version": 1,
+        "meaning": "만지다",
+        "hint": "손 등을 대어 물건의 감촉을 느껴요.",
+        "confusions": [
+          {
+            "japanese": "触れる",
+            "distinction": "접촉을 나타낸다는 점은 같으며, 일상적인 손의 행동에 흔히 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_52-1-ex-1",
+            "version": 1,
+            "before": "展示品には",
+            "answer": "触らないで",
+            "after": "ください。",
+            "reading": "さわらないで",
+            "translation": "전시품은 만지지 말아 주세요.",
+            "translationTarget": "만지지 말아",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_52-1",
+        "wordId": "JLPTN3_52",
+        "version": 1,
+        "meaning": "만지다",
+        "hint": "손 등을 대어 물건의 감촉을 느껴요.",
+        "confusions": [
+          {
+            "japanese": "触れる",
+            "distinction": "접촉을 나타낸다는 점은 같으며, 일상적인 손의 행동에 흔히 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_52-1-ex-1",
+            "version": 2,
+            "before": "子供は猫の背中をそっと",
+            "answer": "触った",
+            "after": "。",
+            "reading": "さわった",
+            "translation": "아이는 고양이 등을 살며시 만졌다.",
+            "translationTarget": "만졌다",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_79",
+      "wordHash": "553fa1e9365c97f7ac9a50746ae19b1226cd4afccbd086d73a4b1768dd8eb1c5",
+      "beforeHash": "8a99843b374307db3a538b99592bcef5bbd75bae8ac479d3ad43e3c3af1126fd",
+      "afterHash": "cf72510529b807142558ecc33c32154734da5dc0025c43cb511acc0a490921c7",
+      "before": {
+        "id": "sense-JLPTN3_79-1",
+        "wordId": "JLPTN3_79",
+        "version": 1,
+        "meaning": "고함치다",
+        "hint": "큰 목소리로 거칠게 말해요.",
+        "confusions": [
+          {
+            "japanese": "叫ぶ",
+            "distinction": "큰 소리를 내는 것과 겹치지만 상대를 향한 거친 말투가 두드러진다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_79-1-ex-1",
+            "version": 1,
+            "before": "そんなに",
+            "answer": "怒鳴らなくても",
+            "after": "聞こえるよ。",
+            "reading": "どならなくても",
+            "translation": "그렇게 고함치지 않아도 들려.",
+            "translationTarget": "고함치지 않아도",
+            "difficulty": 37,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_79-1",
+        "wordId": "JLPTN3_79",
+        "version": 1,
+        "meaning": "고함치다",
+        "hint": "큰 목소리로 거칠게 말해요.",
+        "confusions": [
+          {
+            "japanese": "叫ぶ",
+            "distinction": "큰 소리를 내는 것과 겹치지만 상대를 향한 거친 말투가 두드러진다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_79-1-ex-1",
+            "version": 2,
+            "before": "危険に気づいた係員が「止まれ」と",
+            "answer": "怒鳴った",
+            "after": "。",
+            "reading": "どなった",
+            "translation": "위험을 알아챈 담당자가 ‘멈춰’라고 고함쳤다.",
+            "translationTarget": "고함쳤다",
+            "difficulty": 37,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_339",
+      "wordHash": "5635254e70adf59aa13ad3326543cf03730a2f85bce934d5c61b3d2385cac684",
+      "beforeHash": "086a05a3c2929d0a37e223869c3e13de185ef91343fc96221992d6a1febcd97b",
+      "afterHash": "4d73851cee638c28e2c215b926107fbeaf12e4aaedeef664fed32f107d44f4f3",
+      "before": {
+        "id": "sense-JLPTN3_339-1",
+        "wordId": "JLPTN3_339",
+        "version": 1,
+        "meaning": "집중",
+        "hint": "주의나 힘을 한곳에 모아요.",
+        "confusions": [
+          {
+            "japanese": "熱中",
+            "distinction": "푹 빠져 열중하는 마음보다 주의를 한쪽으로 모으는 데 초점을 둔다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_339-1-ex-1",
+            "version": 1,
+            "before": "隣の話し声が気になって、勉強に",
+            "answer": "集中",
+            "after": "できない。",
+            "reading": "しゅうちゅう",
+            "translation": "옆에서 이야기하는 소리가 신경 쓰여 공부에 집중할 수 없다.",
+            "translationTarget": "집중",
+            "difficulty": 32,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_339-1",
+        "wordId": "JLPTN3_339",
+        "version": 1,
+        "meaning": "집중",
+        "hint": "주의나 힘을 한곳에 모아요.",
+        "confusions": [
+          {
+            "japanese": "熱中",
+            "distinction": "푹 빠져 열중하는 마음보다 주의를 한쪽으로 모으는 데 초점을 둔다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_339-1-ex-1",
+            "version": 2,
+            "before": "静かな図書館で、勉強に",
+            "answer": "集中",
+            "after": "した。",
+            "reading": "しゅうちゅう",
+            "translation": "조용한 도서관에서 공부에 집중했다.",
+            "translationTarget": "집중",
+            "difficulty": 32,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "handmade_3",
+      "wordHash": "4189145cc0af32e17ebb519e508aefac59e27b51541bc52262528c00669bced8",
+      "beforeHash": "d0def9c7090edee506cea9766c80660e455521e0baab7058690c1ae1daee7e42",
+      "afterHash": "a5425148ab09cd58bfad460d9e685880507dda5ac9a4f84749ecaab86980f425",
+      "before": {
+        "id": "sense-handmade_3-1",
+        "wordId": "handmade_3",
+        "version": 1,
+        "meaning": "잘난 체하다",
+        "hint": "정말 훌륭한지와 별개로 남보다 대단한 듯 행동해요.",
+        "confusions": [
+          {
+            "japanese": "自慢する",
+            "distinction": "자랑하는 말을 하는 것보다 거만한 태도를 보이는 행동에 초점을 둔다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-handmade_3-1-ex-1",
+            "version": 1,
+            "before": "少し年上だからといって、",
+            "answer": "偉そうにしないで",
+            "after": "。",
+            "reading": "えらそうにしないで",
+            "translation": "조금 나이가 많다고 잘난 체하지 마.",
+            "translationTarget": "잘난 체하지 마",
+            "difficulty": 38,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-handmade_3-1",
+        "wordId": "handmade_3",
+        "version": 1,
+        "meaning": "잘난 체하다",
+        "hint": "정말 훌륭한지와 별개로 남보다 대단한 듯 행동해요.",
+        "confusions": [
+          {
+            "japanese": "自慢する",
+            "distinction": "자랑하는 말을 하는 것보다 거만한 태도를 보이는 행동에 초점을 둔다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-handmade_3-1-ex-1",
+            "version": 2,
+            "before": "彼は部下の前ではいつも",
+            "answer": "偉そうにする",
+            "after": "。",
+            "reading": "えらそうにする",
+            "translation": "그는 부하 직원들 앞에서는 늘 잘난 체한다.",
+            "translationTarget": "잘난 체한다",
+            "difficulty": 38,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_92",
+      "wordHash": "c582e39db881bf68de13941555bb4c394a04d55e64813dc1963eeaeb7c91b289",
+      "beforeHash": "38104c4aac885f428a9e648a3b4f4e0720abc03d393f0ed7927d8f9af3dd3f9c",
+      "afterHash": "15cde935a23b2ac1592cc091c896f9cf19c75e0f20f7debe8ef3c0302b047fe3",
+      "before": {
+        "id": "sense-AbsoluteVerb_92-1",
+        "wordId": "AbsoluteVerb_92",
+        "version": 1,
+        "meaning": "손대다",
+        "hint": "손을 대어 접촉하는 행동이에요. 부드럽게 쓸어 주는 방식까지 특정하지는 않아요.",
+        "confusions": [
+          {
+            "japanese": "撫でる",
+            "distinction": "쓰다듬는 것보다 단순 접촉을 넓게 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_92-1-ex-1",
+            "version": 1,
+            "before": "ペンキが乾くまで、柵に",
+            "answer": "触らないで",
+            "after": "。",
+            "reading": "さわらないで",
+            "translation": "페인트가 마를 때까지 울타리에 손대지 마.",
+            "translationTarget": "손대지 마",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_92-1",
+        "wordId": "AbsoluteVerb_92",
+        "version": 1,
+        "meaning": "손대다",
+        "hint": "손을 대어 접촉하는 행동이에요. 부드럽게 쓸어 주는 방식까지 특정하지는 않아요.",
+        "confusions": [
+          {
+            "japanese": "撫でる",
+            "distinction": "쓰다듬는 것보다 단순 접촉을 넓게 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_92-1-ex-1",
+            "version": 2,
+            "before": "職人は壁に",
+            "answer": "触って",
+            "after": "、ペンキの乾き具合を確かめた。",
+            "reading": "さわって",
+            "translation": "장인은 벽에 손대어 페인트가 마른 정도를 확인했다.",
+            "translationTarget": "손대어",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_255",
+      "wordHash": "b930efa18a3772abcb2b8db4589b0e5b544c16fb74df74aa19d5e24c4e2ab5c0",
+      "beforeHash": "d1c11809a7cf6b46a048feeb11c0bcbeeca2c8618a71302768d75eaab57e68b5",
+      "afterHash": "c52c02c3891b98a39d61e26aa34127375cdda7685a12e8bbfb4cdae56a95a070",
+      "before": {
+        "id": "sense-AbsoluteVerb_255-1",
+        "wordId": "AbsoluteVerb_255",
+        "version": 1,
+        "meaning": "오다",
+        "hint": "기준이 되는 장소 쪽으로 이동해요.",
+        "confusions": [
+          {
+            "japanese": "行く",
+            "distinction": "기준점에서 멀어지는 것과 달리 그쪽으로 다가온다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_255-1-ex-1",
+            "version": 1,
+            "before": "明日、うちへ",
+            "answer": "来ませんか",
+            "after": "。",
+            "reading": "きませんか",
+            "translation": "내일 우리 집에 오지 않을래요?",
+            "translationTarget": "오지 않을래요",
+            "difficulty": 10,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_255-1",
+        "wordId": "AbsoluteVerb_255",
+        "version": 1,
+        "meaning": "오다",
+        "hint": "기준이 되는 장소 쪽으로 이동해요.",
+        "confusions": [
+          {
+            "japanese": "行く",
+            "distinction": "기준점에서 멀어지는 것과 달리 그쪽으로 다가온다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_255-1-ex-1",
+            "version": 2,
+            "before": "明日の午後、うちへ遊びに",
+            "answer": "来て",
+            "after": "ください。",
+            "reading": "きて",
+            "translation": "내일 오후에 우리 집에 놀러 와 주세요.",
+            "translationTarget": "와 주세요",
+            "difficulty": 10,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_297",
+      "wordHash": "30f312aad23f9cd0daaf571ab38b020f62616a4e48aeb4144c1b811e1db7ac2a",
+      "beforeHash": "93bf806be37dffb4154eae24b929dc2949fdcbca06373d653e873724ce93b459",
+      "afterHash": "d2889fd07fd374bebc207257f0f26d8ff50c09f2b68446b12b7b1051f8c58cae",
+      "before": {
+        "id": "sense-AbsoluteVerb_297-1",
+        "wordId": "AbsoluteVerb_297",
+        "version": 1,
+        "meaning": "나아가다",
+        "hint": "목적지 이름보다 앞을 향해 이동하는 모습에 초점을 두어요.",
+        "confusions": [
+          {
+            "japanese": "行く",
+            "distinction": "이동 전체보다 앞쪽으로 나아가는 진행 방향을 강조한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_297-1-ex-1",
+            "version": 1,
+            "before": "霧が濃くて、一歩も",
+            "answer": "進めなかった",
+            "after": "。",
+            "reading": "すすめなかった",
+            "translation": "안개가 짙어서 한 걸음도 나아갈 수 없었다.",
+            "translationTarget": "나아갈 수 없었다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_297-1",
+        "wordId": "AbsoluteVerb_297",
+        "version": 1,
+        "meaning": "나아가다",
+        "hint": "목적지 이름보다 앞을 향해 이동하는 모습에 초점을 두어요.",
+        "confusions": [
+          {
+            "japanese": "行く",
+            "distinction": "이동 전체보다 앞쪽으로 나아가는 진행 방향을 강조한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_297-1-ex-1",
+            "version": 2,
+            "before": "霧が晴れてから、登山隊は頂上へ",
+            "answer": "進んだ",
+            "after": "。",
+            "reading": "すすんだ",
+            "translation": "안개가 걷힌 뒤 등산대는 정상으로 나아갔다.",
+            "translationTarget": "나아갔다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_325",
+      "wordHash": "97350da7ff208b74fb86b18a1c506dd658b9f1a72796e44cdcc8acc99edcc802",
+      "beforeHash": "de7242948296a5ea8cf38fe71c3cac1260282e8643fc0b07b4e72b8a96e1b20c",
+      "afterHash": "853a4d3ff9517ace0feec0e1bc4f22f90b585dfe5131618c38f360f2257f75b0",
+      "before": {
+        "id": "sense-AbsoluteVerb_325-1",
+        "wordId": "AbsoluteVerb_325",
+        "version": 1,
+        "meaning": "떠들다",
+        "hint": "큰 소리나 움직임으로 소란을 만들어요. 보통의 대화보다 시끄러운 모습이에요.",
+        "confusions": [
+          {
+            "japanese": "話す",
+            "distinction": "보통의 대화보다 시끄럽고 소란스러운 상태다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_325-1-ex-1",
+            "version": 1,
+            "before": "廊下で",
+            "answer": "騒がないで",
+            "after": "。まだ試験中です。",
+            "reading": "さわがないで",
+            "translation": "복도에서 떠들지 마세요. 아직 시험 중입니다.",
+            "translationTarget": "떠들지 마세요",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_325-1",
+        "wordId": "AbsoluteVerb_325",
+        "version": 1,
+        "meaning": "떠들다",
+        "hint": "큰 소리나 움직임으로 소란을 만들어요. 보통의 대화보다 시끄러운 모습이에요.",
+        "confusions": [
+          {
+            "japanese": "話す",
+            "distinction": "보통의 대화보다 시끄럽고 소란스러운 상태다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_325-1-ex-1",
+            "version": 2,
+            "before": "試験が終わると、学生たちは廊下で",
+            "answer": "騒ぎ始めた",
+            "after": "。",
+            "reading": "さわぎはじめた",
+            "translation": "시험이 끝나자 학생들은 복도에서 떠들기 시작했다.",
+            "translationTarget": "떠들기 시작했다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_418",
+      "wordHash": "f67252a22d1fed5f39142f9b52a169cf5fbbd1f9579a2d310fab4acd02679684",
+      "beforeHash": "ae3626369d06305a756d9dcc5f9f13cfe5f0b36c9115073453517fc70c845f61",
+      "afterHash": "55df8f18abd5eaad086d47472164d5f3c77fc5d758e3d44ac3504f2486216409",
+      "before": {
+        "id": "sense-AbsoluteVerb_418-1",
+        "wordId": "AbsoluteVerb_418",
+        "version": 1,
+        "meaning": "신경 쓰다",
+        "hint": "남의 상태나 시선을 마음에 두고 신경 쓰는 뜻이에요.",
+        "confusions": [
+          {
+            "japanese": "気にする",
+            "distinction": "의미가 겹치며 부정형에서 상대를 신경 쓰거나 돌보지 않아도 된다는 말에 흔하다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_418-1-ex-1",
+            "version": 1,
+            "before": "周りの目に",
+            "answer": "構わず",
+            "after": "、好きな服を着たい。",
+            "reading": "かまわず",
+            "translation": "주변 시선을 신경 쓰지 않고 좋아하는 옷을 입고 싶다.",
+            "translationTarget": "신경 쓰지 않고",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_418-1",
+        "wordId": "AbsoluteVerb_418",
+        "version": 1,
+        "meaning": "신경 쓰다",
+        "hint": "남의 상태나 시선을 마음에 두고 신경 쓰는 뜻이에요.",
+        "confusions": [
+          {
+            "japanese": "気にする",
+            "distinction": "의미가 겹치며 부정형에서 상대를 신경 쓰거나 돌보지 않아도 된다는 말에 흔하다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_418-1-ex-1",
+            "version": 2,
+            "before": "彼は身なりに",
+            "answer": "構う",
+            "after": "ようになり、服を丁寧に選んでいる。",
+            "reading": "かまう",
+            "translation": "그는 옷차림에 신경 쓰게 되어 옷을 정성껏 고르고 있다.",
+            "translationTarget": "신경 쓰게 되어",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_669",
+      "wordHash": "7e9f16002e5737abe7a1cbb9bb53218aa91453cf5122dcba0071f9df981e0f11",
+      "beforeHash": "191463f1e70a2841ec39990ddc616450578648e50209f4508d198b0f2395c836",
+      "afterHash": "87adc68c4e84efd6b829eb333b01bb1d2e2640c9a451fd1d0a83e774b3007bfd",
+      "before": {
+        "id": "sense-AbsoluteVerb_669-1",
+        "wordId": "AbsoluteVerb_669",
+        "version": 1,
+        "meaning": "출발하다",
+        "hint": "잠깐 외출하기보다 목적지를 향한 여정을 시작해요.",
+        "confusions": [
+          {
+            "japanese": "出掛ける",
+            "distinction": "외출과 겹치지만 여정의 출발 시점과 이동 개시에 초점을 둔다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_669-1-ex-1",
+            "version": 1,
+            "before": "霧が晴れるまで、船は",
+            "answer": "出発できなかった",
+            "after": "。",
+            "reading": "しゅっぱつできなかった",
+            "translation": "안개가 걷힐 때까지 배는 출발할 수 없었다.",
+            "translationTarget": "출발할 수 없었다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_669-1",
+        "wordId": "AbsoluteVerb_669",
+        "version": 1,
+        "meaning": "출발하다",
+        "hint": "잠깐 외출하기보다 목적지를 향한 여정을 시작해요.",
+        "confusions": [
+          {
+            "japanese": "出掛ける",
+            "distinction": "외출과 겹치지만 여정의 출발 시점과 이동 개시에 초점을 둔다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_669-1-ex-1",
+            "version": 2,
+            "before": "霧が晴れると、船は港を",
+            "answer": "出発した",
+            "after": "。",
+            "reading": "しゅっぱつした",
+            "translation": "안개가 걷히자 배는 항구를 출발했다.",
+            "translationTarget": "출발했다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_816",
+      "wordHash": "ab8e0039b9e793c63fd607d59aadf55e182b76e05210e40b56c3a53db3e27363",
+      "beforeHash": "785393702ef8945950557fb3de1419ea96a583b57ae23035b01a2cf664bccc90",
+      "afterHash": "dc0ed13f676cc2d69315357359e8bb0294bbd2e12b5f11750c1afd0cc6370533",
+      "before": {
+        "id": "sense-AbsoluteVerb_816-1",
+        "wordId": "AbsoluteVerb_816",
+        "version": 1,
+        "meaning": "말참견하다",
+        "hint": "자기 일이 아닌 대화나 판단에 끼어들어요.",
+        "confusions": [
+          {
+            "japanese": "口に出す",
+            "distinction": "생각을 말로 표현하는 것과 달리 남의 일에 개입한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_816-1-ex-1",
+            "version": 1,
+            "before": "二人の問題に、私は",
+            "answer": "口を出さなかった",
+            "after": "。",
+            "reading": "くちをださなかった",
+            "translation": "두 사람의 문제에 나는 말참견하지 않았다.",
+            "translationTarget": "말참견하지 않았다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_816-1",
+        "wordId": "AbsoluteVerb_816",
+        "version": 1,
+        "meaning": "말참견하다",
+        "hint": "자기 일이 아닌 대화나 판단에 끼어들어요.",
+        "confusions": [
+          {
+            "japanese": "口に出す",
+            "distinction": "생각을 말로 표현하는 것과 달리 남의 일에 개입한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_816-1-ex-1",
+            "version": 2,
+            "before": "二人で決めようとしていたら、兄が横から",
+            "answer": "口を出した",
+            "after": "。",
+            "reading": "くちをだした",
+            "translation": "둘이서 결정하려고 했더니 형이 옆에서 말참견했다.",
+            "translationTarget": "말참견했다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_862",
+      "wordHash": "8679d1729fe7793a34e5a093f9516b7faece7573df6863fc06cf8816f25ad664",
+      "beforeHash": "6f28b4df8bb24f35ee398a4fad38eb9db686ee097aad5d09067e5d7084a9aee9",
+      "afterHash": "a55be817bb1caab15eda34f7573a77f7c792bbc903fe5855ac5b659e9327e7fb",
+      "before": {
+        "id": "sense-AbsoluteVerb_862-1",
+        "wordId": "AbsoluteVerb_862",
+        "version": 1,
+        "meaning": "신경 쓰다",
+        "hint": "그냥 궁금한 것보다 마음에 두고 걱정해요.",
+        "confusions": [
+          {
+            "japanese": "気になる",
+            "distinction": "두 표현은 뜻이 겹치며, 이 말은 마음에 두는 사람을 중심으로 말한다. 비교 표현은 마음에 걸리는 대상을 중심으로 말한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_862-1-ex-1",
+            "version": 1,
+            "before": "小さな失敗をいつまでも",
+            "answer": "気にしないで",
+            "after": "。",
+            "reading": "きにしないで",
+            "translation": "작은 실수를 언제까지나 신경 쓰지 마.",
+            "translationTarget": "신경 쓰지 마",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_862-1",
+        "wordId": "AbsoluteVerb_862",
+        "version": 1,
+        "meaning": "신경 쓰다",
+        "hint": "그냥 궁금한 것보다 마음에 두고 걱정해요.",
+        "confusions": [
+          {
+            "japanese": "気になる",
+            "distinction": "두 표현은 뜻이 겹치며, 이 말은 마음에 두는 사람을 중심으로 말한다. 비교 표현은 마음에 걸리는 대상을 중심으로 말한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_862-1-ex-1",
+            "version": 2,
+            "before": "彼女は小さな失敗をいつまでも",
+            "answer": "気にしている",
+            "after": "。",
+            "reading": "きにしている",
+            "translation": "그녀는 작은 실수를 계속 신경 쓰고 있다.",
+            "translationTarget": "신경 쓰고 있다",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_59",
+      "wordHash": "3c2779239a98a031b6d908995ea47a056b19651861e4d07b4c3b63e32e647b8d",
+      "beforeHash": "f31784545d98550cce492f9b94d06b54bc7f240908ae1bc91e1713715aa57bd3",
+      "afterHash": "57e7db71f248a1ba42b0790f85d63b928c83e7c4e4ca5af79217b9a1c7583490",
+      "before": {
+        "id": "sense-JLPTN3_59-1",
+        "wordId": "JLPTN3_59",
+        "version": 1,
+        "meaning": "믿다",
+        "hint": "말이나 사실을 참으로 받아들여요. 누군가에게 의지하는 것과는 달라요.",
+        "confusions": [
+          {
+            "japanese": "頼る",
+            "distinction": "상대의 도움에 기대는 행동보다 말이나 사실이 참이라고 받아들이는 태도다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_59-1-ex-1",
+            "version": 1,
+            "before": "最初は冗談だと思って、誰も",
+            "answer": "信じなかった",
+            "after": "。",
+            "reading": "しんじなかった",
+            "translation": "처음에는 농담인 줄 알고 아무도 믿지 않았다.",
+            "translationTarget": "믿지 않았다",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_59-1",
+        "wordId": "JLPTN3_59",
+        "version": 1,
+        "meaning": "믿다",
+        "hint": "말이나 사실을 참으로 받아들여요. 누군가에게 의지하는 것과는 달라요.",
+        "confusions": [
+          {
+            "japanese": "頼る",
+            "distinction": "상대의 도움에 기대는 행동보다 말이나 사실이 참이라고 받아들이는 태도다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_59-1-ex-1",
+            "version": 2,
+            "before": "友達の真剣な表情を見て、その話を",
+            "answer": "信じた",
+            "after": "。",
+            "reading": "しんじた",
+            "translation": "친구의 진지한 표정을 보고 그 이야기를 믿었다.",
+            "translationTarget": "믿었다",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_98",
+      "wordHash": "7ee1aa5197da0ec70cbdd0a9d70b39b5fc29487c03827f6cd8511fc4ebc07f64",
+      "beforeHash": "ee9fb0cbe0aa68241110b16265aa676567ba7663042e944acbc03274694a2a6a",
+      "afterHash": "9b07ba029899477b535164906276986cc54b110fd8606064737733e74d079617",
+      "before": {
+        "id": "sense-JLPTN3_98-1",
+        "wordId": "JLPTN3_98",
+        "version": 1,
+        "meaning": "운반하다",
+        "hint": "물건을 다른 장소로 가져가요. 손에 들고만 있는 것과 달라요.",
+        "confusions": [
+          {
+            "japanese": "持つ",
+            "distinction": "손에 들고 있는 것보다 장소 사이의 이동에 초점이 있다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_98-1-ex-1",
+            "version": 1,
+            "before": "この机、一人では",
+            "answer": "運べません",
+            "after": "。",
+            "reading": "はこべません",
+            "translation": "이 책상은 혼자서는 운반할 수 없어요.",
+            "translationTarget": "운반할 수 없어요",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_98-1",
+        "wordId": "JLPTN3_98",
+        "version": 1,
+        "meaning": "운반하다",
+        "hint": "물건을 다른 장소로 가져가요. 손에 들고만 있는 것과 달라요.",
+        "confusions": [
+          {
+            "japanese": "持つ",
+            "distinction": "손에 들고 있는 것보다 장소 사이의 이동에 초점이 있다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_98-1-ex-1",
+            "version": 2,
+            "before": "二人で机を隣の部屋へ",
+            "answer": "運んだ",
+            "after": "。",
+            "reading": "はこんだ",
+            "translation": "둘이서 책상을 옆방으로 운반했다.",
+            "translationTarget": "운반했다",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "JLPTN3_400",
+      "wordHash": "db1e0b65fb1fdceef19532410719e6612309dfab1565f076e6ba745153407651",
+      "beforeHash": "546bd31df248735d2eb22da2e9fe1d534dae86e144a5653915153e439646ae57",
+      "afterHash": "4cdab068b9abbe0a61208a0549b6ef17d6d240b9f3f02b5fba28d5d8df2f7dbc",
+      "before": {
+        "id": "sense-JLPTN3_400-1",
+        "wordId": "JLPTN3_400",
+        "version": 1,
+        "meaning": "주차",
+        "hint": "차를 일정 시간 세워 두어요. 잠깐 멈추기만 하는 것보다 길어요.",
+        "confusions": [
+          {
+            "japanese": "停車",
+            "distinction": "잠깐 멈추는 것까지 포함하는 말보다 일정 시간 차를 세워 두는 뜻이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_400-1-ex-1",
+            "version": 1,
+            "before": "店の前は",
+            "answer": "駐車",
+            "after": "できないので、裏へ回った。",
+            "reading": "ちゅうしゃ",
+            "translation": "가게 앞에는 주차할 수 없어서 뒤로 돌아갔다.",
+            "translationTarget": "주차",
+            "difficulty": 31,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_400-1",
+        "wordId": "JLPTN3_400",
+        "version": 1,
+        "meaning": "주차",
+        "hint": "차를 일정 시간 세워 두어요. 잠깐 멈추기만 하는 것보다 길어요.",
+        "confusions": [
+          {
+            "japanese": "停車",
+            "distinction": "잠깐 멈추는 것까지 포함하는 말보다 일정 시간 차를 세워 두는 뜻이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_400-1-ex-1",
+            "version": 2,
+            "before": "店の裏に",
+            "answer": "駐車",
+            "after": "して、荷物を運んだ。",
+            "reading": "ちゅうしゃ",
+            "translation": "가게 뒤에 주차하고 짐을 옮겼다.",
+            "translationTarget": "주차",
+            "difficulty": 31,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_39",
+      "wordHash": "a2c4d6ea797a6dd9fa00c72dfc44953194e48fa3b6a3026895fb873c0bc6f7ca",
+      "beforeHash": "babaa2a9c7b417ceb324a740752d670098bb092d96690c3d471119265ca8d50d",
+      "afterHash": "0b8852dccb27fb5b519803e30ce7632ebf8b6df020411bf13340179b8168dfe4",
+      "before": {
+        "id": "sense-AbsoluteVerb_39-1",
+        "wordId": "AbsoluteVerb_39",
+        "version": 1,
+        "meaning": "울다",
+        "hint": "감정 때문에 눈물을 흘려요. 동물의 울음과 표기가 달라요.",
+        "confusions": [
+          {
+            "japanese": "鳴く",
+            "distinction": "동물의 울음소리와 사람의 눈물 어린 울음을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_39-1-ex-1",
+            "version": 1,
+            "before": "卒業式では",
+            "answer": "泣かない",
+            "after": "と決めていたのに。",
+            "reading": "なかない",
+            "translation": "졸업식에서는 울지 않겠다고 다짐했는데.",
+            "translationTarget": "울지 않겠다",
+            "difficulty": 15,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_39-1",
+        "wordId": "AbsoluteVerb_39",
+        "version": 1,
+        "meaning": "울다",
+        "hint": "감정 때문에 눈물을 흘려요. 동물의 울음과 표기가 달라요.",
+        "confusions": [
+          {
+            "japanese": "鳴く",
+            "distinction": "동물의 울음소리와 사람의 눈물 어린 울음을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_39-1-ex-1",
+            "version": 2,
+            "before": "卒業式で友達と別れるとき、思わず",
+            "answer": "泣いた",
+            "after": "。",
+            "reading": "ないた",
+            "translation": "졸업식에서 친구들과 헤어질 때 나도 모르게 울었다.",
+            "translationTarget": "울었다",
+            "difficulty": 15,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_165",
+      "wordHash": "7981187a7deddb00caa11c8d62a4eac2fae01cc44c1e6fae2cde2da9e6fcbd1b",
+      "beforeHash": "afb627a46b0176e3b89cd87d90c51a3df89d8008451491fa2d6673e403badb3e",
+      "afterHash": "89dbc8076286eb44094ba1d18dc8dc094e5915b70304c23647bbeb8b89761aad",
+      "before": {
+        "id": "sense-AbsoluteVerb_165-1",
+        "wordId": "AbsoluteVerb_165",
+        "version": 1,
+        "meaning": "살다",
+        "hint": "생명을 유지해요. 거주지에서 생활한다는 뜻과 달라요.",
+        "confusions": [
+          {
+            "japanese": "住む",
+            "distinction": "거주지를 나타내는 것과 생명이 이어지는 것을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_165-1-ex-1",
+            "version": 1,
+            "before": "水がなければ、魚は",
+            "answer": "生きられない",
+            "after": "。",
+            "reading": "いきられない",
+            "translation": "물이 없으면 물고기는 살 수 없다.",
+            "translationTarget": "살 수 없다",
+            "difficulty": 15,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_165-1",
+        "wordId": "AbsoluteVerb_165",
+        "version": 1,
+        "meaning": "살다",
+        "hint": "생명을 유지해요. 거주지에서 생활한다는 뜻과 달라요.",
+        "confusions": [
+          {
+            "japanese": "住む",
+            "distinction": "거주지를 나타내는 것과 생명이 이어지는 것을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_165-1-ex-1",
+            "version": 2,
+            "before": "この魚は、冷たい川の水の中で",
+            "answer": "生きている",
+            "after": "。",
+            "reading": "いきている",
+            "translation": "이 물고기는 차가운 강물 속에서 살고 있다.",
+            "translationTarget": "살고 있다",
+            "difficulty": 15,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_488",
+      "wordHash": "58db78ebcd6f5746b99c78800fcd72905dee8931a139fa540a080a5f04ab057b",
+      "beforeHash": "773bc1c82a69b9ed982e5928dc25eb60b8d75f8ceb44fe75909a9f83d93fde4f",
+      "afterHash": "da42c95b84e0294c09ffea87e5ad074b4a77ccd31105b3308589b4ca036b9d59",
+      "before": {
+        "id": "sense-AbsoluteVerb_488-1",
+        "wordId": "AbsoluteVerb_488",
+        "version": 1,
+        "meaning": "부응하다",
+        "hint": "상대의 기대나 바람에 맞아요. 길을 따른다는 표기도 이 뜻으로 함께 쓰일 수 있어요.",
+        "confusions": [
+          {
+            "japanese": "沿う",
+            "distinction": "기대나 희망에 부응하는 뜻에서는 添う와 沿う 두 표기가 겹칠 수 있다. 물리적인 길이나 선을 따라가는 경우에는 보통 沿う를 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_488-1-ex-1",
+            "version": 1,
+            "before": "ご期待に",
+            "answer": "添えず",
+            "after": "、申し訳ありません。",
+            "reading": "そえず",
+            "translation": "기대에 부응하지 못해 죄송합니다.",
+            "translationTarget": "부응하지 못해",
+            "difficulty": 36,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_488-1",
+        "wordId": "AbsoluteVerb_488",
+        "version": 1,
+        "meaning": "부응하다",
+        "hint": "상대의 기대나 바람에 맞아요. 길을 따른다는 표기도 이 뜻으로 함께 쓰일 수 있어요.",
+        "confusions": [
+          {
+            "japanese": "沿う",
+            "distinction": "기대나 희망에 부응하는 뜻에서는 添う와 沿う 두 표기가 겹칠 수 있다. 물리적인 길이나 선을 따라가는 경우에는 보통 沿う를 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_488-1-ex-1",
+            "version": 2,
+            "before": "新しい提案は、お客様のご希望に",
+            "answer": "添う",
+            "after": "内容になっています。",
+            "reading": "そう",
+            "translation": "새 제안은 고객님의 희망에 부응하는 내용으로 되어 있습니다.",
+            "translationTarget": "부응하는",
+            "difficulty": 36,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_506",
+      "wordHash": "2d8541bba5c4dcd77310bd81dd05a6376ea48ef91c883a6c7e0de92ac656a326",
+      "beforeHash": "cf8a3f3ac10546f02577847299d752d3b6891dc55ee53f86ca8745f7d676984b",
+      "afterHash": "f30872c71490fa337aa02c0761667e1a909f1d2ada295b609032306b2dce549d",
+      "before": {
+        "id": "sense-AbsoluteVerb_506-1",
+        "wordId": "AbsoluteVerb_506",
+        "version": 1,
+        "meaning": "고쳐지다",
+        "hint": "고장이나 잘못이 원래대로 돌아와요. 병이 낫는 표기와 달라요.",
+        "confusions": [
+          {
+            "japanese": "治る",
+            "distinction": "질병의 회복과 물건이나 오류의 수정을 한자로 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_506-1-ex-1",
+            "version": 1,
+            "before": "調子の悪かった時計が",
+            "answer": "直った",
+            "after": "。",
+            "reading": "なおった",
+            "translation": "상태가 나빴던 시계가 고쳐졌다.",
+            "translationTarget": "고쳐졌다",
+            "difficulty": 20,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-AbsoluteVerb_506-1-ex-2",
+            "version": 1,
+            "before": "この癖は、注意するだけでは",
+            "answer": "直らない",
+            "after": "。",
+            "reading": "なおらない",
+            "translation": "이 버릇은 주의하는 것만으로는 고쳐지지 않는다.",
+            "translationTarget": "고쳐지지 않는다",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_506-1",
+        "wordId": "AbsoluteVerb_506",
+        "version": 1,
+        "meaning": "고쳐지다",
+        "hint": "고장이나 잘못이 원래대로 돌아와요. 병이 낫는 표기와 달라요.",
+        "confusions": [
+          {
+            "japanese": "治る",
+            "distinction": "질병의 회복과 물건이나 오류의 수정을 한자로 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_506-1-ex-1",
+            "version": 1,
+            "before": "調子の悪かった時計が",
+            "answer": "直った",
+            "after": "。",
+            "reading": "なおった",
+            "translation": "상태가 나빴던 시계가 고쳐졌다.",
+            "translationTarget": "고쳐졌다",
+            "difficulty": 20,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-AbsoluteVerb_506-1-ex-2",
+            "version": 2,
+            "before": "練習を重ねるうちに、発音の癖が",
+            "answer": "直った",
+            "after": "。",
+            "reading": "なおった",
+            "translation": "연습을 거듭하는 사이에 발음 버릇이 고쳐졌다.",
+            "translationTarget": "고쳐졌다",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_569",
+      "wordHash": "574aa06bfc7ae93f49319ada07a87abe5e2629515a4ae9c0c13c4a983ab05bc1",
+      "beforeHash": "d8868ae43281f38f6644b50f1d3db4f7bb7ac21d8b84f4352005bc3333705f82",
+      "afterHash": "04895c09e7efe38f9544be06d93b9a8c718073951fd0fd32c0783ed7db9ff7bd",
+      "before": {
+        "id": "sense-AbsoluteVerb_569-1",
+        "wordId": "AbsoluteVerb_569",
+        "version": 1,
+        "meaning": "서두르다",
+        "hint": "시간을 맞추려고 동작을 빠르게 해요. 당황함과 달라요.",
+        "confusions": [
+          {
+            "japanese": "慌てる",
+            "distinction": "침착함을 잃는 상태와 달리 빠르게 행동하는 것 자체를 말한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_569-1-ex-1",
+            "version": 1,
+            "before": "結論を",
+            "answer": "急がずに",
+            "after": "、全員の話を聞こう。",
+            "reading": "いそがずに",
+            "translation": "결론을 서두르지 말고 모두의 이야기를 듣자.",
+            "translationTarget": "서두르지 말고",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_569-1",
+        "wordId": "AbsoluteVerb_569",
+        "version": 1,
+        "meaning": "서두르다",
+        "hint": "시간을 맞추려고 동작을 빠르게 해요. 당황함과 달라요.",
+        "confusions": [
+          {
+            "japanese": "慌てる",
+            "distinction": "침착함을 잃는 상태와 달리 빠르게 행동하는 것 자체를 말한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_569-1-ex-1",
+            "version": 2,
+            "before": "電車の時間が迫っていたので、駅への道を",
+            "answer": "急いだ",
+            "after": "。",
+            "reading": "いそいだ",
+            "translation": "전철 시간이 다가와서 역으로 가는 길을 서둘렀다.",
+            "translationTarget": "서둘렀다",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_820",
+      "wordHash": "0da696e08a14dabc3445a3295325703dd9faf5c33d711d6a99ea8d39455b951b",
+      "beforeHash": "1d6a85589049a4b374f6397b7462bcf5c82e20644f24c2df344d2ba926870210",
+      "afterHash": "0424138c01ee7aa02d47a3a9b07f8685c32ccd9bb94bf0575b66555f81c0b972",
+      "before": {
+        "id": "sense-AbsoluteVerb_820-1",
+        "wordId": "AbsoluteVerb_820",
+        "version": 1,
+        "meaning": "손대다",
+        "hint": "새 분야나 일에 관여하기 시작해요. 육체적 손짓과 구별해요.",
+        "confusions": [
+          {
+            "japanese": "始める",
+            "distinction": "시작한다는 뜻에 더해 충분히 알지 못하는 일에 관여한다는 뉘앙스가 나기도 한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_820-1-ex-1",
+            "version": 1,
+            "before": "よく知らない投資には",
+            "answer": "手を出さない",
+            "after": "。",
+            "reading": "てをださない",
+            "translation": "잘 모르는 투자에는 손대지 않는다.",
+            "translationTarget": "손대지 않는다",
+            "difficulty": 24,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_820-1",
+        "wordId": "AbsoluteVerb_820",
+        "version": 1,
+        "meaning": "손대다",
+        "hint": "새 분야나 일에 관여하기 시작해요. 육체적 손짓과 구별해요.",
+        "confusions": [
+          {
+            "japanese": "始める",
+            "distinction": "시작한다는 뜻에 더해 충분히 알지 못하는 일에 관여한다는 뉘앙스가 나기도 한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_820-1-ex-1",
+            "version": 2,
+            "before": "友人に勧められて、株の投資に",
+            "answer": "手を出した",
+            "after": "。",
+            "reading": "てをだした",
+            "translation": "친구의 권유로 주식 투자에 손댔다.",
+            "translationTarget": "손댔다",
+            "difficulty": 24,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_870",
+      "wordHash": "c8ae67bdb997501ab6567a41a9acaecd9da8c556f562c24824f8c23d078a4f67",
+      "beforeHash": "f1a618415fa2cfeaae239757e795ee5ce0a725263f201698d45ea35deba2cf92",
+      "afterHash": "14e60faedcd6ee294258a39b5045cc52b4c44f51a97f4d315d88db9abc6d0534",
+      "before": {
+        "id": "sense-AbsoluteVerb_870-1",
+        "wordId": "AbsoluteVerb_870",
+        "version": 1,
+        "meaning": "직성이 풀리다",
+        "hint": "하고 싶은 일을 충분히 해야 마음이 편해져요.",
+        "confusions": [
+          {
+            "japanese": "安心する",
+            "distinction": "걱정이 없어지는 것보다 자기 바람을 채워 만족하는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_870-1-ex-1",
+            "version": 1,
+            "before": "自分で確かめないと",
+            "answer": "気が済まない",
+            "after": "。",
+            "reading": "きがすまない",
+            "translation": "직접 확인하지 않으면 직성이 풀리지 않는다.",
+            "translationTarget": "직성이 풀리지 않는다",
+            "difficulty": 28,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_870-1",
+        "wordId": "AbsoluteVerb_870",
+        "version": 1,
+        "meaning": "직성이 풀리다",
+        "hint": "하고 싶은 일을 충분히 해야 마음이 편해져요.",
+        "confusions": [
+          {
+            "japanese": "安心する",
+            "distinction": "걱정이 없어지는 것보다 자기 바람을 채워 만족하는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_870-1-ex-1",
+            "version": 2,
+            "before": "思っていたことを全部話したら、ようやく",
+            "answer": "気が済んだ",
+            "after": "。",
+            "reading": "きがすんだ",
+            "translation": "생각했던 것을 전부 이야기하니 마침내 직성이 풀렸다.",
+            "translationTarget": "직성이 풀렸다",
+            "difficulty": 28,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1167750",
+      "wordHash": "ea4b1d196e58a96ed0c238c8688aa7e1a788bc7da03bcfd866a8429d3edb60fe",
+      "beforeHash": "9a4e1ea4952dc61537fcfc0c1f4979392d3b0f58ac769fae8c776a6b3c8c5597",
+      "afterHash": "e1cb0b93c9604029316256f1271c6a82f7c13e5e20ab8cf543533f27faa31e93",
+      "before": {
+        "id": "sense-lex-jmdict-1167750-1",
+        "wordId": "lex-jmdict-1167750",
+        "version": 1,
+        "meaning": "일탈; 벗어남",
+        "hint": "정해진 범위나 기준에서 밖으로 벗어나는 것이에요.",
+        "confusions": [
+          {
+            "japanese": "変更",
+            "distinction": "변경은 내용을 바꾸는 것이고, 일탈은 정해진 기준 밖으로 벗어나는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1167750-1-ex-1",
+            "version": 1,
+            "before": "議論が本来の目的から",
+            "answer": "逸脱",
+            "after": "しないよう、司会者が話題を戻した。",
+            "reading": "いつだつ",
+            "translation": "논의가 본래 목적에서 벗어나지 않도록 진행자가 화제를 되돌렸어요.",
+            "translationTarget": "벗어나지",
+            "difficulty": 68,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1167750-1",
+        "wordId": "lex-jmdict-1167750",
+        "version": 1,
+        "meaning": "일탈; 벗어남",
+        "hint": "정해진 범위나 기준에서 밖으로 벗어나는 것이에요.",
+        "confusions": [
+          {
+            "japanese": "変更",
+            "distinction": "변경은 내용을 바꾸는 것이고, 일탈은 정해진 기준 밖으로 벗어나는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1167750-1-ex-1",
+            "version": 2,
+            "before": "議論が本来の目的から",
+            "answer": "逸脱",
+            "after": "したため、司会者が話題を戻した。",
+            "reading": "いつだつ",
+            "translation": "논의가 본래 목적에서 벗어나서 진행자가 화제를 되돌렸어요.",
+            "translationTarget": "벗어나서",
+            "difficulty": 68,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1376600",
+      "wordHash": "1fba55e048efa996933f7e30088e9795f4037af44fa1247c0dfbb4e94bb2bab2",
+      "beforeHash": "8ffe55186cf6395ad6e44d882aa921ccb83c7a89ec401771dafc667c5ffa67d8",
+      "afterHash": "f5771f5748c2d08ea87369991005e0ddd03c5ccfca6a0739f027ff46bd61fae6",
+      "before": {
+        "id": "sense-lex-jmdict-1376600-1",
+        "wordId": "lex-jmdict-1376600",
+        "version": 1,
+        "meaning": "옳다, 맞다",
+        "hint": "규칙이나 사실에 어긋나지 않고 정답으로 인정되는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "正確",
+            "distinction": "正しい（ただしい）: 사실·규칙·판단에 어긋나지 않음; 正確（せいかく）: 수치나 내용에 틀림이나 오차가 거의 없음. 의미가 겹칠 수 있다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1376600-1-ex-1",
+            "version": 1,
+            "before": "この問題の",
+            "answer": "正しい",
+            "after": "答えを選んでください。",
+            "reading": "ただしい",
+            "translation": "이 문제의 맞는 답을 골라 주세요.",
+            "translationTarget": "맞는",
+            "difficulty": 16,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1376600-1-ex-3",
+            "version": 1,
+            "before": "人の話を聞かずに決めるのは",
+            "answer": "正しくない",
+            "after": "と思います。",
+            "reading": "ただしくない",
+            "translation": "남의 말을 듣지 않고 결정하는 건 옳지 않다고 생각해요.",
+            "translationTarget": "옳지 않다",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1376600-1",
+        "wordId": "lex-jmdict-1376600",
+        "version": 1,
+        "meaning": "옳다, 맞다",
+        "hint": "규칙이나 사실에 어긋나지 않고 정답으로 인정되는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "正確",
+            "distinction": "正しい（ただしい）: 사실·규칙·판단에 어긋나지 않음; 正確（せいかく）: 수치나 내용에 틀림이나 오차가 거의 없음. 의미가 겹칠 수 있다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1376600-1-ex-1",
+            "version": 1,
+            "before": "この問題の",
+            "answer": "正しい",
+            "after": "答えを選んでください。",
+            "reading": "ただしい",
+            "translation": "이 문제의 맞는 답을 골라 주세요.",
+            "translationTarget": "맞는",
+            "difficulty": 16,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1376600-1-ex-3",
+            "version": 2,
+            "before": "相手の話を最後まで聞いてから判断するのが",
+            "answer": "正しい",
+            "after": "と思います。",
+            "reading": "ただしい",
+            "translation": "상대의 말을 끝까지 듣고 판단하는 것이 옳다고 생각해요.",
+            "translationTarget": "옳다",
+            "difficulty": 20,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1178450",
+      "wordHash": "baf80ae553b3ad29904dea2fa8911341fbe2701314c255b362a98716fb87d36f",
+      "beforeHash": "702e19f139932e6f0d35dc769cc13181aadc2b817036d47a45fc0e3890dd5ad5",
+      "afterHash": "f945ad5ea97a3fc0bcca473de22ee233fa86f8c036a678fc30b9ce524fcee610",
+      "before": {
+        "id": "sense-lex-jmdict-1178450-1",
+        "wordId": "lex-jmdict-1178450",
+        "version": 1,
+        "meaning": "사양, 삼감",
+        "hint": "상대에게 폐가 되지 않도록 요청이나 행동을 조심스럽게 멈추거나 거절하는 모습을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "我慢",
+            "distinction": "遠慮（えんりょ）: 상대를 배려해 하고 싶은 말·행동을 삼가거나 제안을 사양함; 我慢（がまん）: 불편하거나 힘든 것을 참아 견딤."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1178450-1-ex-1",
+            "version": 1,
+            "before": "食べたい物があれば、",
+            "answer": "遠慮",
+            "after": "せずに言ってください。",
+            "reading": "えんりょ",
+            "translation": "먹고 싶은 게 있으면 사양하지 말고 말해 주세요.",
+            "translationTarget": "사양",
+            "difficulty": 22,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1178450-1-ex-2",
+            "version": 1,
+            "before": "満員の電車では、大きな声での会話は",
+            "answer": "遠慮",
+            "after": "しましょう。",
+            "reading": "えんりょ",
+            "translation": "만원 전철에서는 큰 소리로 대화하는 건 삼가요.",
+            "translationTarget": "삼가요",
+            "difficulty": 23,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1178450-1",
+        "wordId": "lex-jmdict-1178450",
+        "version": 1,
+        "meaning": "사양, 삼감",
+        "hint": "상대에게 폐가 되지 않도록 요청이나 행동을 조심스럽게 멈추거나 거절하는 모습을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "我慢",
+            "distinction": "遠慮（えんりょ）: 상대를 배려해 하고 싶은 말·행동을 삼가거나 제안을 사양함; 我慢（がまん）: 불편하거나 힘든 것을 참아 견딤."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1178450-1-ex-1",
+            "version": 2,
+            "before": "勧められたお菓子を、彼女は",
+            "answer": "遠慮",
+            "after": "して受け取らなかった。",
+            "reading": "えんりょ",
+            "translation": "권해 준 과자를 그녀는 사양하고 받지 않았다.",
+            "translationTarget": "사양",
+            "difficulty": 22,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1178450-1-ex-2",
+            "version": 1,
+            "before": "満員の電車では、大きな声での会話は",
+            "answer": "遠慮",
+            "after": "しましょう。",
+            "reading": "えんりょ",
+            "translation": "만원 전철에서는 큰 소리로 대화하는 건 삼가요.",
+            "translationTarget": "삼가요",
+            "difficulty": 23,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1157760",
+      "wordHash": "5d6174794cb7f820b30ada17f30c7cb57cfbf1b4baeca8903d699d7d80af696c",
+      "beforeHash": "7435fb91445e34117bb5a57cc8f859a79d79d904e1b2cf6ba294655c76abff6e",
+      "afterHash": "2430ba7789e8ebdc718c19cd29d6e2183c1e769f0fbf1a4ecb2eb9c7f91610f3",
+      "before": {
+        "id": "sense-lex-jmdict-1157760-1",
+        "wordId": "lex-jmdict-1157760",
+        "version": 1,
+        "meaning": "이상, 비정상; 비정상적인",
+        "hint": "평소의 상태나 기준에서 벗어나 문제가 있거나 특별히 눈에 띄는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "普通",
+            "distinction": "異常（いじょう）: 평소나 정상적인 기준에서 벗어난 상태; 普通（ふつう）: 특별히 다르거나 눈에 띄지 않는 일반적인 상태."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1157760-1-ex-1",
+            "version": 1,
+            "before": "検査の結果、機械に",
+            "answer": "異常",
+            "after": "はありませんでした。",
+            "reading": "いじょう",
+            "translation": "검사 결과 기계에 이상은 없었어요.",
+            "translationTarget": "이상",
+            "difficulty": 22,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1157760-1",
+        "wordId": "lex-jmdict-1157760",
+        "version": 1,
+        "meaning": "이상, 비정상; 비정상적인",
+        "hint": "평소의 상태나 기준에서 벗어나 문제가 있거나 특별히 눈에 띄는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "普通",
+            "distinction": "異常（いじょう）: 평소나 정상적인 기준에서 벗어난 상태; 普通（ふつう）: 특별히 다르거나 눈에 띄지 않는 일반적인 상태."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1157760-1-ex-1",
+            "version": 2,
+            "before": "点検で機械の",
+            "answer": "異常",
+            "after": "が見つかり、部品を交換した。",
+            "reading": "いじょう",
+            "translation": "점검에서 기계의 이상이 발견되어 부품을 교체했다.",
+            "translationTarget": "이상",
+            "difficulty": 22,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1211510",
+      "wordHash": "9a2ccb7e6dd57c1db0ec2e525e24df02d8c98560fd6414c4ea806ec2e186e2a8",
+      "beforeHash": "4bda069cea515093acb857212792f5b5cedf2508ab5037819da0a65669a8e7d9",
+      "afterHash": "50e219f7115fb3f2422dab9a0d667142b613e4abf4470681d445ea0ccb83b5de",
+      "before": {
+        "id": "sense-lex-jmdict-1211510-1",
+        "wordId": "lex-jmdict-1211510",
+        "version": 1,
+        "meaning": "완전한, 빠짐없는",
+        "hint": "필요한 부분이 하나도 빠지지 않고 전부 갖추어져 있는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "全部",
+            "distinction": "完全（かんぜん）: 부족하거나 빠진 부분이 없이 완성된 상태; 全部（ぜんぶ）: 여러 대상이나 양을 하나도 빼지 않고 모두 가리킴."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1211510-1-ex-1",
+            "version": 1,
+            "before": "この地図はまだ",
+            "answer": "完全",
+            "after": "ではありません。",
+            "reading": "かんぜん",
+            "translation": "이 지도는 아직 완전하지 않아요.",
+            "translationTarget": "완전하지",
+            "difficulty": 22,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1211510-1",
+        "wordId": "lex-jmdict-1211510",
+        "version": 1,
+        "meaning": "완전한, 빠짐없는",
+        "hint": "필요한 부분이 하나도 빠지지 않고 전부 갖추어져 있는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "全部",
+            "distinction": "完全（かんぜん）: 부족하거나 빠진 부분이 없이 완성된 상태; 全部（ぜんぶ）: 여러 대상이나 양을 하나도 빼지 않고 모두 가리킴."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1211510-1-ex-1",
+            "version": 2,
+            "before": "必要な情報をすべて載せた、",
+            "answer": "完全",
+            "after": "な地図ができました。",
+            "reading": "かんぜん",
+            "translation": "필요한 정보를 모두 담은 완전한 지도가 완성되었어요.",
+            "translationTarget": "완전한",
+            "difficulty": 22,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1326990",
+      "wordHash": "781567718b8d9f803b2d2f5ad742b92cfe3d25152626883a478535573911468c",
+      "beforeHash": "c0526596da326d3f1acabf2d2bd42ad169e4fe35925e6ed18ea7bd5699073f80",
+      "afterHash": "15426a2e92dd6d1f571a098b49b0cd853e4ecc7b9a0ee96ee71c9ef66ddd4b66",
+      "before": {
+        "id": "sense-lex-jmdict-1326990-1",
+        "wordId": "lex-jmdict-1326990",
+        "version": 1,
+        "meaning": "떨어지다, 빠지다, 없어지다",
+        "hint": "붙어 있던 부품이 떨어지거나 몸의 통증이 사라지는 변화를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "取る",
+            "distinction": "取れる: 단추가 떨어지거나 얼룩·통증이 없어지는 변화가 생기다; 取る: 사람이 물건·얼룩 등을 직접 떼거나 제거하다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1326990-1-ex-1",
+            "version": 1,
+            "before": "袖のボタンが",
+            "answer": "取れて",
+            "after": "、床に転がった。",
+            "reading": "とれて",
+            "translation": "소매의 단추가 떨어져 바닥에서 굴러갔다.",
+            "translationTarget": "떨어져",
+            "difficulty": 24,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1326990-1-ex-2",
+            "version": 1,
+            "before": "何度洗っても、この容器についたにおいが",
+            "answer": "取れない",
+            "after": "。",
+            "reading": "とれない",
+            "translation": "몇 번을 씻어도 이 용기에 밴 냄새가 없어지지 않는다.",
+            "translationTarget": "없어지지 않는다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1326990-1",
+        "wordId": "lex-jmdict-1326990",
+        "version": 1,
+        "meaning": "떨어지다, 빠지다, 없어지다",
+        "hint": "붙어 있던 부품이 떨어지거나 몸의 통증이 사라지는 변화를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "取る",
+            "distinction": "取れる: 단추가 떨어지거나 얼룩·통증이 없어지는 변화가 생기다; 取る: 사람이 물건·얼룩 등을 직접 떼거나 제거하다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1326990-1-ex-1",
+            "version": 1,
+            "before": "袖のボタンが",
+            "answer": "取れて",
+            "after": "、床に転がった。",
+            "reading": "とれて",
+            "translation": "소매의 단추가 떨어져 바닥에서 굴러갔다.",
+            "translationTarget": "떨어져",
+            "difficulty": 24,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1326990-1-ex-2",
+            "version": 2,
+            "before": "重曹で洗ったら、容器についたにおいが",
+            "answer": "取れた",
+            "after": "。",
+            "reading": "とれた",
+            "translation": "베이킹 소다로 씻었더니 용기에 밴 냄새가 없어졌다.",
+            "translationTarget": "없어졌다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1516310",
+      "wordHash": "003068170f33cf4362a7e5de73cc3c150a01d0b96ed5b50fbb722f563b91330e",
+      "beforeHash": "399e5a35de374ba63d7c720c6f0dc6003eb2c4b874f55bcacf451b47276f7e33",
+      "afterHash": "223f555cac352b612a1c46410eae209997b39be5471a58019e4eb94ac307850b",
+      "before": {
+        "id": "sense-lex-jmdict-1516310-1",
+        "wordId": "lex-jmdict-1516310",
+        "version": 1,
+        "meaning": "껴안다, (문제·부담을) 안고 있다",
+        "hint": "두 팔로 짐을 안거나 해결할 문제를 떠맡은 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "抱く",
+            "distinction": "抱える: 물건을 팔로 안거나 문제·부담을 떠안다; 抱く: 사람을 품에 안거나 감정·생각을 마음에 품다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1516310-1-ex-1",
+            "version": 1,
+            "before": "少年は大きなぬいぐるみを",
+            "answer": "抱えて",
+            "after": "、車の後部座席に乗り込んだ。",
+            "reading": "かかえて",
+            "translation": "소년은 큰 봉제 인형을 안고 차 뒷좌석에 올라탔다.",
+            "translationTarget": "안고",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1516310-1-ex-2",
+            "version": 1,
+            "before": "悩みを一人で",
+            "answer": "抱えずに",
+            "after": "、誰かに話してみてください。",
+            "reading": "かかえずに",
+            "translation": "고민을 혼자 떠안지 말고 누군가에게 이야기해 보세요.",
+            "translationTarget": "떠안지 말고",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1516310-1",
+        "wordId": "lex-jmdict-1516310",
+        "version": 1,
+        "meaning": "껴안다, (문제·부담을) 안고 있다",
+        "hint": "두 팔로 짐을 안거나 해결할 문제를 떠맡은 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "抱く",
+            "distinction": "抱える: 물건을 팔로 안거나 문제·부담을 떠안다; 抱く: 사람을 품에 안거나 감정·생각을 마음에 품다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1516310-1-ex-1",
+            "version": 1,
+            "before": "少年は大きなぬいぐるみを",
+            "answer": "抱えて",
+            "after": "、車の後部座席に乗り込んだ。",
+            "reading": "かかえて",
+            "translation": "소년은 큰 봉제 인형을 안고 차 뒷좌석에 올라탔다.",
+            "translationTarget": "안고",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1516310-1-ex-2",
+            "version": 2,
+            "before": "彼は家族にも相談できず、悩みを一人で",
+            "answer": "抱えている",
+            "after": "。",
+            "reading": "かかえている",
+            "translation": "그는 가족에게도 상담하지 못하고 고민을 혼자 떠안고 있다.",
+            "translationTarget": "떠안고 있다",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1532410",
+      "wordHash": "9509a43508fdd2ef9a458f99447efd338fbef304ca8eaf6573e085e601c117d7",
+      "beforeHash": "792f15d75b3fa67936461c98be48f35c39c4bb3fc38fe32df701f9c55c9a3783",
+      "afterHash": "ab6048ca46382872fbbf1c24cc09e5dfd81152fb30964f8c56b0854a8fb9eae8",
+      "before": {
+        "id": "sense-lex-jmdict-1532410-1",
+        "wordId": "lex-jmdict-1532410",
+        "version": 1,
+        "meaning": "명확하다",
+        "hint": "범위·기준·의견이 애매하지 않고 분명하게 정해진 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "明らか",
+            "distinction": "明確: 내용·구분·기준 등이 정확하게 분명하다; 明らか: 사실이 뚜렷하여 의심할 여지가 없다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1532410-1-ex-1",
+            "version": 1,
+            "before": "引き受ける人が決まるまで、責任の所在は",
+            "answer": "明確ではなかった",
+            "after": "。",
+            "reading": "めいかくではなかった",
+            "translation": "맡을 사람이 정해질 때까지 책임 소재는 명확하지 않았다.",
+            "translationTarget": "명확하지 않았다",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1532410-1",
+        "wordId": "lex-jmdict-1532410",
+        "version": 1,
+        "meaning": "명확하다",
+        "hint": "범위·기준·의견이 애매하지 않고 분명하게 정해진 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "明らか",
+            "distinction": "明確: 내용·구분·기준 등이 정확하게 분명하다; 明らか: 사실이 뚜렷하여 의심할 여지가 없다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1532410-1-ex-1",
+            "version": 2,
+            "before": "担当者を決めたことで、責任の所在が",
+            "answer": "明確になった",
+            "after": "。",
+            "reading": "めいかくになった",
+            "translation": "담당자를 정함으로써 책임 소재가 명확해졌다.",
+            "translationTarget": "명확해졌다",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1591100",
+      "wordHash": "5d8d71648463fac2ec9b357ba62cd13739450c99f68f88661aeecbb3b31825a2",
+      "beforeHash": "740d7dfd406e13c26845eabb956a83f94df37c01dddb9d494a2b4130928245fb",
+      "afterHash": "bfc137fe109ca10cd2d48371d637db5c7a29e83be1a1991862ce7748b586415a",
+      "before": {
+        "id": "sense-lex-jmdict-1591100-1",
+        "wordId": "lex-jmdict-1591100",
+        "version": 1,
+        "meaning": "효과가 있다, 작동하다",
+        "hint": "약이나 장치가 의도한 작용을 제대로 하는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "効かせる",
+            "distinction": "効く: 약·장치 등의 효과나 기능이 나타나다; 効かせる: 사람이 효과·기능이 나타나도록 작용시키다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1591100-1-ex-1",
+            "version": 1,
+            "before": "頭痛薬が",
+            "answer": "効くまで",
+            "after": "、明かりを消して横になっていた。",
+            "reading": "きくまで",
+            "translation": "두통약이 효과가 날 때까지 불을 끄고 누워 있었다.",
+            "translationTarget": "효과가 날 때까지",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1591100-1-ex-2",
+            "version": 1,
+            "before": "ブレーキが",
+            "answer": "効かなくなった",
+            "after": "自転車には、乗らないでください。",
+            "reading": "きかなくなった",
+            "translation": "브레이크가 작동하지 않게 된 자전거는 타지 마세요.",
+            "translationTarget": "작동하지 않게 된",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1591100-1",
+        "wordId": "lex-jmdict-1591100",
+        "version": 1,
+        "meaning": "효과가 있다, 작동하다",
+        "hint": "약이나 장치가 의도한 작용을 제대로 하는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "効かせる",
+            "distinction": "効く: 약·장치 등의 효과나 기능이 나타나다; 効かせる: 사람이 효과·기능이 나타나도록 작용시키다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1591100-1-ex-1",
+            "version": 1,
+            "before": "頭痛薬が",
+            "answer": "効くまで",
+            "after": "、明かりを消して横になっていた。",
+            "reading": "きくまで",
+            "translation": "두통약이 효과가 날 때까지 불을 끄고 누워 있었다.",
+            "translationTarget": "효과가 날 때까지",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1591100-1-ex-2",
+            "version": 2,
+            "before": "修理の後は、自転車のブレーキがよく",
+            "answer": "効く",
+            "after": "ようになった。",
+            "reading": "きく",
+            "translation": "수리 후에는 자전거 브레이크가 잘 작동하게 되었다.",
+            "translationTarget": "작동하게 되었다",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1518130",
+      "wordHash": "f8dbd6f4c47fe9740f755a634c92c647dc6be8ff0cceaf0241098094507a5d7c",
+      "beforeHash": "ef942f3f8e75f5fa28c77fa80238e7788b1312ba20f9c4a370b2759a15179d92",
+      "afterHash": "a370c6561b3eb999f2d98359292e622cc02345d61ed191f048a06b1fe7fc1c09",
+      "before": {
+        "id": "sense-lex-jmdict-1518130-1",
+        "wordId": "lex-jmdict-1518130",
+        "version": 1,
+        "meaning": "풍요롭다, 넉넉하다",
+        "hint": "자원이나 생활·감정이 부족하지 않고 여유 있는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "豊富",
+            "distinction": "豊か: 생활·자원·마음 등이 넉넉하고 풍요롭다; 豊富: 수량이나 종류가 많이 갖춰져 있다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1518130-1-ex-1",
+            "version": 1,
+            "before": "川の水のおかげで、この地域には緑の",
+            "answer": "豊かな",
+            "after": "畑が広がっている。",
+            "reading": "ゆたかな",
+            "translation": "강물 덕분에 이 지역에는 초록빛이 풍성한 밭이 펼쳐져 있다.",
+            "translationTarget": "풍성한",
+            "difficulty": 28,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1518130-1-ex-2",
+            "version": 1,
+            "before": "収入が増えても、自由な時間がなければ生活は",
+            "answer": "豊かにならない",
+            "after": "。",
+            "reading": "ゆたかにならない",
+            "translation": "수입이 늘어도 자유로운 시간이 없으면 생활은 풍요로워지지 않는다.",
+            "translationTarget": "풍요로워지지 않는다",
+            "difficulty": 29,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1518130-1-ex-3",
+            "version": 1,
+            "before": "旅先での出会いが、私の心を",
+            "answer": "豊かに",
+            "after": "してくれた。",
+            "reading": "ゆたかに",
+            "translation": "여행지에서의 만남이 내 마음을 풍요롭게 해 주었다.",
+            "translationTarget": "풍요롭게",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1518130-1",
+        "wordId": "lex-jmdict-1518130",
+        "version": 1,
+        "meaning": "풍요롭다, 넉넉하다",
+        "hint": "자원이나 생활·감정이 부족하지 않고 여유 있는 상태를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "豊富",
+            "distinction": "豊か: 생활·자원·마음 등이 넉넉하고 풍요롭다; 豊富: 수량이나 종류가 많이 갖춰져 있다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1518130-1-ex-1",
+            "version": 1,
+            "before": "川の水のおかげで、この地域には緑の",
+            "answer": "豊かな",
+            "after": "畑が広がっている。",
+            "reading": "ゆたかな",
+            "translation": "강물 덕분에 이 지역에는 초록빛이 풍성한 밭이 펼쳐져 있다.",
+            "translationTarget": "풍성한",
+            "difficulty": 28,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1518130-1-ex-2",
+            "version": 2,
+            "before": "休日を家族と過ごすようになり、生活が",
+            "answer": "豊かになった",
+            "after": "。",
+            "reading": "ゆたかになった",
+            "translation": "휴일을 가족과 보내게 되면서 생활이 풍요로워졌다.",
+            "translationTarget": "풍요로워졌다",
+            "difficulty": 29,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1518130-1-ex-3",
+            "version": 1,
+            "before": "旅先での出会いが、私の心を",
+            "answer": "豊かに",
+            "after": "してくれた。",
+            "reading": "ゆたかに",
+            "translation": "여행지에서의 만남이 내 마음을 풍요롭게 해 주었다.",
+            "translationTarget": "풍요롭게",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1612920",
+      "wordHash": "7be105d0b96952761fecf93de2d6026031aca29c9b29b1836364c3b423df1246",
+      "beforeHash": "21fc40d5063afb6b671081d21c023cf273429ed773ea5f779b845aba8071627d",
+      "afterHash": "a054249d4c0b2964bb52c4f087c7c8f18a1d72688f2b4412d5f4c45e566bfe88",
+      "before": {
+        "id": "sense-lex-jmdict-1612920-1",
+        "wordId": "lex-jmdict-1612920",
+        "version": 1,
+        "meaning": "(차로) 치다",
+        "hint": "차량이 사람이나 동물을 들이받거나 바퀴로 밟고 지나가는 사고를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "引く",
+            "distinction": "轢く: 차량으로 사람·동물 등을 치거나 밟고 지나가다; 引く: 잡아당기거나 선을 긋는 등 다른 뜻을 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1612920-1-ex-1",
+            "version": 1,
+            "before": "運転手は道に飛び出した犬を",
+            "answer": "轢かないように",
+            "after": "、急ブレーキをかけた。",
+            "reading": "ひかないように",
+            "translation": "운전자는 도로로 뛰어나온 개를 치지 않으려고 급브레이크를 밟았다.",
+            "translationTarget": "치지 않으려고",
+            "difficulty": 28,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1612920-1",
+        "wordId": "lex-jmdict-1612920",
+        "version": 1,
+        "meaning": "(차로) 치다",
+        "hint": "차량이 사람이나 동물을 들이받거나 바퀴로 밟고 지나가는 사고를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "引く",
+            "distinction": "轢く: 차량으로 사람·동물 등을 치거나 밟고 지나가다; 引く: 잡아당기거나 선을 긋는 등 다른 뜻을 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1612920-1-ex-1",
+            "version": 2,
+            "before": "山道で鹿を",
+            "answer": "轢いた",
+            "after": "運転手が、警察に連絡した。",
+            "reading": "ひいた",
+            "translation": "산길에서 사슴을 친 운전자가 경찰에 연락했다.",
+            "translationTarget": "친",
+            "difficulty": 28,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1306200",
+      "wordHash": "af0db8a50fda405fcbeac1a6118cbdd816a12845ec89fafbfef312b88b55ef10",
+      "beforeHash": "a80ef7dc2c94815a656581f4e01348a842f99b8cf1b1a8828e7b1cf77df74d6e",
+      "afterHash": "5f2707d95c7d0a4bdef898d23914e61c10d2b0df8b82e7e2930787a638c53caa",
+      "before": {
+        "id": "sense-lex-jmdict-1306200-1",
+        "wordId": "lex-jmdict-1306200",
+        "version": 1,
+        "meaning": "사용",
+        "hint": "물건이나 기능을 목적에 맞게 쓰는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "利用",
+            "distinction": "使用는 도구·기기를 실제로 쓰는 데 흔하고 利用는 시설·서비스·기회를 도움이 되게 활용하는 데 흔하다. 범위는 일부 겹친다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1306200-1-ex-1",
+            "version": 1,
+            "before": "許可なくこの道具を",
+            "answer": "使用",
+            "after": "しないでください。",
+            "reading": "しよう",
+            "translation": "허가 없이 이 도구를 사용하지 마세요.",
+            "translationTarget": "사용",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1306200-1",
+        "wordId": "lex-jmdict-1306200",
+        "version": 1,
+        "meaning": "사용",
+        "hint": "물건이나 기능을 목적에 맞게 쓰는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "利用",
+            "distinction": "使用는 도구·기기를 실제로 쓰는 데 흔하고 利用는 시설·서비스·기회를 도움이 되게 활용하는 데 흔하다. 범위는 일부 겹친다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1306200-1-ex-1",
+            "version": 2,
+            "before": "この道具は、木材を切るときに",
+            "answer": "使用",
+            "after": "します。",
+            "reading": "しよう",
+            "translation": "이 도구는 목재를 자를 때 사용합니다.",
+            "translationTarget": "사용",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1579490",
+      "wordHash": "37df0096dc383ce679439dfe5fdc2e37a8ec9f1929735f9fd77ff9a4f4be4554",
+      "beforeHash": "0d7f2fe9af95767385dea4342d8c3d4f02b9603ba825b6ce7555043a755c3de3",
+      "afterHash": "8446280d6da3dbbde40026d014bb19b3e7078354a6f1feced00ab65917f6b153",
+      "before": {
+        "id": "sense-lex-jmdict-1579490-1",
+        "wordId": "lex-jmdict-1579490",
+        "version": 1,
+        "meaning": "자매",
+        "hint": "언니와 여동생처럼 여자 형제 사이의 관계를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "兄弟",
+            "distinction": "자매는 여자 형제이며 형제는 남자 형제 또는 성별을 포괄하는 형제자매다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1579490-1-ex-1",
+            "version": 1,
+            "before": "あの二人はよく似ているけれど、",
+            "answer": "姉妹",
+            "after": "ではなく友達だ。",
+            "reading": "しまい",
+            "translation": "저 두 사람은 매우 닮았지만 자매가 아니라 친구다.",
+            "translationTarget": "자매",
+            "difficulty": 22,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1579490-1",
+        "wordId": "lex-jmdict-1579490",
+        "version": 1,
+        "meaning": "자매",
+        "hint": "언니와 여동생처럼 여자 형제 사이의 관계를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "兄弟",
+            "distinction": "자매는 여자 형제이며 형제는 남자 형제 또는 성별을 포괄하는 형제자매다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1579490-1-ex-1",
+            "version": 2,
+            "before": "あの二人は",
+            "answer": "姉妹",
+            "after": "で、同じ店で働いている。",
+            "reading": "しまい",
+            "translation": "저 두 사람은 자매로 같은 가게에서 일한다.",
+            "translationTarget": "자매",
+            "difficulty": 22,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1015230",
+      "wordHash": "f8d919c9c1de063e988fab1e18559e0b66061c0bdad8a8395d3e30d1ad27cf55",
+      "beforeHash": "b400403b6735a5c74701a4aa5839bb83f5a6c2e782e40244f2bdc6b9f8889265",
+      "afterHash": "da076e38765c5c9f00ac8c9c9830dfd4f62eb205e07262914fbfd57d09e2258b",
+      "before": {
+        "id": "sense-lex-jmdict-1015230-1",
+        "wordId": "lex-jmdict-1015230",
+        "version": 1,
+        "meaning": "접근·접속",
+        "hint": "목적지에 가거나 정보에 연결되는 것",
+        "confusions": [
+          {
+            "japanese": "ログイン",
+            "distinction": "アクセス는 장소나 정보에 접근하는 것이고, ログイン는 계정 인증을 거쳐 들어가는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1015230-1-ex-1",
+            "version": 1,
+            "before": "このホテルは駅からの",
+            "answer": "アクセス",
+            "after": "がよく、歩いて五分で着く。",
+            "reading": "アクセス",
+            "translation": "이 호텔은 역에서의 접근이 편리해 걸어서 5분이면 도착한다.",
+            "translationTarget": "접근",
+            "difficulty": 23,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1015230-1-ex-2",
+            "version": 1,
+            "before": "利用者が多すぎて、予約サイトに",
+            "answer": "アクセス",
+            "after": "できなかった。",
+            "reading": "アクセス",
+            "translation": "이용자가 너무 많아서 예약 사이트에 접속할 수 없었다.",
+            "translationTarget": "접속",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1015230-1",
+        "wordId": "lex-jmdict-1015230",
+        "version": 1,
+        "meaning": "접근·접속",
+        "hint": "목적지에 가거나 정보에 연결되는 것",
+        "confusions": [
+          {
+            "japanese": "ログイン",
+            "distinction": "アクセス는 장소나 정보에 접근하는 것이고, ログイン는 계정 인증을 거쳐 들어가는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1015230-1-ex-1",
+            "version": 1,
+            "before": "このホテルは駅からの",
+            "answer": "アクセス",
+            "after": "がよく、歩いて五分で着く。",
+            "reading": "アクセス",
+            "translation": "이 호텔은 역에서의 접근이 편리해 걸어서 5분이면 도착한다.",
+            "translationTarget": "접근",
+            "difficulty": 23,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1015230-1-ex-2",
+            "version": 2,
+            "before": "予約サイトに",
+            "answer": "アクセス",
+            "after": "して、空いている日を調べた。",
+            "reading": "あくせす",
+            "translation": "예약 사이트에 접속해서 예약 가능한 날을 알아봤다.",
+            "translationTarget": "접속",
+            "difficulty": 25,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1530020",
+      "wordHash": "b3d8a77f00d4ba123135d3a079ce9d17955189c7fe75186bce497a84b03a0105",
+      "beforeHash": "9d6c58ce4818f4be4f3a3519c7e3bf233c0b229977f6f44ff76b16eebc6307a7",
+      "afterHash": "828a878aa02a392ec6be04fd2ca6626ec6b27dadd02a78c2bf7426825d78f2d7",
+      "before": {
+        "id": "sense-lex-jmdict-1530020-1",
+        "wordId": "lex-jmdict-1530020",
+        "version": 1,
+        "meaning": "무시",
+        "hint": "상대의 말이나 존재·규칙을 신경 쓰지 않고 넘어가는 행동입니다.",
+        "confusions": [
+          {
+            "japanese": "見落とし",
+            "distinction": "無視는 의도적으로 외면하는 데 흔하고 見落とし는 주의를 놓쳐 알아채지 못한 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1530020-1-ex-1",
+            "version": 1,
+            "before": "質問を",
+            "answer": "無視",
+            "after": "せず、分かる範囲で答えてください。",
+            "reading": "むし",
+            "translation": "질문을 무시하지 말고 아는 범위에서 답해 주세요.",
+            "translationTarget": "무시",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1530020-1",
+        "wordId": "lex-jmdict-1530020",
+        "version": 1,
+        "meaning": "무시",
+        "hint": "상대의 말이나 존재·규칙을 신경 쓰지 않고 넘어가는 행동입니다.",
+        "confusions": [
+          {
+            "japanese": "見落とし",
+            "distinction": "無視는 의도적으로 외면하는 데 흔하고 見落とし는 주의를 놓쳐 알아채지 못한 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1530020-1-ex-1",
+            "version": 2,
+            "before": "質問を",
+            "answer": "無視",
+            "after": "して話を進めたため、参加者から不満が出た。",
+            "reading": "むし",
+            "translation": "질문을 무시하고 이야기를 진행해서 참가자들이 불만을 제기했다.",
+            "translationTarget": "무시",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1242230",
+      "wordHash": "983470e9950b2a4c66545601389a3b2791b3bc248289a444df5c320d7010f170",
+      "beforeHash": "4d9d07faece20daf9ea688f92f5b0257492756e4bcd74f8282797b9c50623ce0",
+      "afterHash": "dce1dfeda23193430f1217ac260f92f7ee38785ae089ad06a290b0e09f201d52",
+      "before": {
+        "id": "sense-lex-jmdict-1242230-1",
+        "wordId": "lex-jmdict-1242230",
+        "version": 1,
+        "meaning": "다가가다",
+        "hint": "대상과의 거리가 작아지도록 이동하는 동작",
+        "confusions": [
+          {
+            "japanese": "遠ざかる",
+            "distinction": "近寄る는 가까이 가는 것, 遠ざかる는 멀어지는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1242230-1-ex-1",
+            "version": 1,
+            "before": "知らない犬には、急に",
+            "answer": "近寄らない",
+            "after": "方がいい。",
+            "reading": "ちかよらない",
+            "translation": "모르는 개에게는 갑자기 다가가지 않는 편이 좋다.",
+            "translationTarget": "다가가지 않는",
+            "difficulty": 35,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1242230-1",
+        "wordId": "lex-jmdict-1242230",
+        "version": 1,
+        "meaning": "다가가다",
+        "hint": "대상과의 거리가 작아지도록 이동하는 동작",
+        "confusions": [
+          {
+            "japanese": "遠ざかる",
+            "distinction": "近寄る는 가까이 가는 것, 遠ざかる는 멀어지는 것이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1242230-1-ex-1",
+            "version": 2,
+            "before": "迷子の子供に",
+            "answer": "近寄って",
+            "after": "、名前を尋ねた。",
+            "reading": "ちかよって",
+            "translation": "길을 잃은 아이에게 다가가서 이름을 물었다.",
+            "translationTarget": "다가가서",
+            "difficulty": 35,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1542920",
+      "wordHash": "b09dd3cb3acbcadfaa2f0da2d4fe96dc868dfe45d80fa792250d0e240ef5fffc",
+      "beforeHash": "48ecf23a27b04c1651db5d39f0281685908b94ae631c6123b5c7565464f03a9e",
+      "afterHash": "19abf9ae7030a308c8f29a0d4fc626e22a4241f982ce73af1c94a4c418050c94",
+      "before": {
+        "id": "sense-lex-jmdict-1542920-1",
+        "wordId": "lex-jmdict-1542920",
+        "version": 1,
+        "meaning": "예상, 미리 기대함",
+        "hint": "어떤 일이 일어날 것이라고 미리 생각하는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "予測",
+            "distinction": "予期는 일이 일어날 것이라고 미리 생각하는 것이고 予測는 자료·상황을 근거로 앞으로의 결과를 추정하는 데 흔하다. 실제 쓰임은 겹친다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1542920-1-ex-1",
+            "version": 1,
+            "before": "",
+            "answer": "予期",
+            "after": "しなかった質問を受け、答えを考えるのに時間がかかった。",
+            "reading": "よき",
+            "translation": "예상하지 못한 질문을 받아 답을 생각하는 데 시간이 걸렸다.",
+            "translationTarget": "예상",
+            "difficulty": 31,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1542920-1",
+        "wordId": "lex-jmdict-1542920",
+        "version": 1,
+        "meaning": "예상, 미리 기대함",
+        "hint": "어떤 일이 일어날 것이라고 미리 생각하는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "予測",
+            "distinction": "予期는 일이 일어날 것이라고 미리 생각하는 것이고 予測는 자료·상황을 근거로 앞으로의 결과를 추정하는 데 흔하다. 실제 쓰임은 겹친다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1542920-1-ex-1",
+            "version": 2,
+            "before": "担当者は来月の注文増加を",
+            "answer": "予期",
+            "after": "して、材料を多めに用意した。",
+            "reading": "よき",
+            "translation": "담당자는 다음 달의 주문 증가를 예상해서 재료를 넉넉히 준비했다.",
+            "translationTarget": "예상",
+            "difficulty": 31,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1600240",
+      "wordHash": "932c2901bde64b49a306b063e626c247647093a42809521a49b6dc5885526109",
+      "beforeHash": "ae78210f5959f3f09a27adbacdd9ef909bca5e415e4813520e1d02899c83c8bd",
+      "afterHash": "a5b01a9ce6113b4ef5898bf1b8a93bece5b567dd57150882af1e93b22a5c1729",
+      "before": {
+        "id": "sense-lex-jmdict-1600240-1",
+        "wordId": "lex-jmdict-1600240",
+        "version": 1,
+        "meaning": "나이, 연령",
+        "hint": "태어난 때부터 살아온 해의 수입니다.",
+        "confusions": [
+          {
+            "japanese": "年代",
+            "distinction": "年齢는 사람·생물의 나이이고 年代는 연도에 따른 시대 구분이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1600240-1-ex-1",
+            "version": 1,
+            "before": "応募できるかどうかは、",
+            "answer": "年齢",
+            "after": "ではなく経験で決まる。",
+            "reading": "ねんれい",
+            "translation": "지원할 수 있는지는 나이가 아니라 경험으로 결정된다.",
+            "translationTarget": "나이",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1600240-1",
+        "wordId": "lex-jmdict-1600240",
+        "version": 1,
+        "meaning": "나이, 연령",
+        "hint": "태어난 때부터 살아온 해의 수입니다.",
+        "confusions": [
+          {
+            "japanese": "年代",
+            "distinction": "年齢는 사람·생물의 나이이고 年代는 연도에 따른 시대 구분이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1600240-1-ex-1",
+            "version": 2,
+            "before": "申込書には、氏名と",
+            "answer": "年齢",
+            "after": "を記入してください。",
+            "reading": "ねんれい",
+            "translation": "신청서에는 이름과 나이를 적어 주세요.",
+            "translationTarget": "나이",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1436510",
+      "wordHash": "d0f42864b70e053732e347b1357747660d1b695e3282057ab013cec556190c9e",
+      "beforeHash": "cc062945aa8b88897a9c9517efd9d74a74adb7d506057a35f167745e8087a8bd",
+      "afterHash": "a787f8435c39daf5f12cfd90254ec28fceda0280e279823209cdde26193b2bd2",
+      "before": {
+        "id": "sense-lex-jmdict-1436510-1",
+        "wordId": "lex-jmdict-1436510",
+        "version": 1,
+        "meaning": "정도",
+        "hint": "양·강도·수준이 어느 만큼인지를 나타냅니다.",
+        "confusions": [
+          {
+            "japanese": "程度",
+            "distinction": "선택한 程는 정도라는 명사이며 뒤에 따라 수량·비교를 나타내기도 한다. 程度는 수준이나 정도를 명시하는 명사이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1436510-1-ex-1",
+            "version": 1,
+            "before": "傷の深さは、手術が必要な",
+            "answer": "程",
+            "after": "ではなかった。",
+            "reading": "ほど",
+            "translation": "상처의 깊이는 수술이 필요할 정도는 아니었다.",
+            "translationTarget": "정도",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1436510-1",
+        "wordId": "lex-jmdict-1436510",
+        "version": 1,
+        "meaning": "정도",
+        "hint": "양·강도·수준이 어느 만큼인지를 나타냅니다.",
+        "confusions": [
+          {
+            "japanese": "程度",
+            "distinction": "선택한 程는 정도라는 명사이며 뒤에 따라 수량·비교를 나타내기도 한다. 程度는 수준이나 정도를 명시하는 명사이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1436510-1-ex-1",
+            "version": 2,
+            "before": "傷は、手術が必要な",
+            "answer": "程",
+            "after": "深かった。",
+            "reading": "ほど",
+            "translation": "상처는 수술이 필요할 정도로 깊었다.",
+            "translationTarget": "정도",
+            "difficulty": 29,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1002250",
+      "wordHash": "16978e241a5418be211a0ec28d50264d0858e1196102f17ff645217defc0932b",
+      "beforeHash": "8e41614da56bdb29e6a93a477276da8e423183b6948e6630919d8927e5a04720",
+      "afterHash": "308b964429cc405842e7c5b52f01ff3b99264579c27575c545e7d80b24eb5c2c",
+      "before": {
+        "id": "sense-lex-jmdict-1002250-1",
+        "wordId": "lex-jmdict-1002250",
+        "version": 1,
+        "meaning": "아첨, 빈말",
+        "hint": "상대의 기분을 좋게 하려고 실제보다 좋게 말하는 칭찬입니다.",
+        "confusions": [
+          {
+            "japanese": "褒め言葉",
+            "distinction": "お世辞는 진심보다 상대를 띄워 주려는 말에 흔하고 褒め言葉는 칭찬의 말을 진심 여부와 무관하게 가리킨다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1002250-1-ex-1",
+            "version": 1,
+            "before": "",
+            "answer": "お世辞",
+            "after": "ではなく、あなたの説明は本当に分かりやすかった。",
+            "reading": "おせじ",
+            "translation": "빈말이 아니라 당신의 설명은 정말 이해하기 쉬웠다.",
+            "translationTarget": "빈말",
+            "difficulty": 43,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1002250-1",
+        "wordId": "lex-jmdict-1002250",
+        "version": 1,
+        "meaning": "아첨, 빈말",
+        "hint": "상대의 기분을 좋게 하려고 실제보다 좋게 말하는 칭찬입니다.",
+        "confusions": [
+          {
+            "japanese": "褒め言葉",
+            "distinction": "お世辞는 진심보다 상대를 띄워 주려는 말에 흔하고 褒め言葉는 칭찬의 말을 진심 여부와 무관하게 가리킨다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1002250-1-ex-1",
+            "version": 2,
+            "before": "相手の機嫌を取ろうと、大げさな",
+            "answer": "お世辞",
+            "after": "を言った。",
+            "reading": "おせじ",
+            "translation": "상대의 기분을 맞추려고 과장된 아첨을 했다.",
+            "translationTarget": "아첨",
+            "difficulty": 43,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1167130",
+      "wordHash": "6be7eff96ed8054670f2d46d9275df0cba75746f6470dda30f6e8a28f69cfb82",
+      "beforeHash": "7cbb6e5897820b26301d442eaef72bfd9f8a9386dba555c5cc876d6569bf19a7",
+      "afterHash": "efa1b77c27a74c0a43244e05f3022eadd0f663e1b7de5d391bd5e2e14e5940d7",
+      "before": {
+        "id": "sense-lex-jmdict-1167130-1",
+        "wordId": "lex-jmdict-1167130",
+        "version": 1,
+        "meaning": "한결같다, 동일하다",
+        "hint": "여러 대상의 상태·반응·형태가 서로 비슷하거나 같은 모습입니다.",
+        "confusions": [
+          {
+            "japanese": "多様",
+            "distinction": "선택한 一様는 상태나 반응이 같음이고 多様는 여러 방식·특성이 다양하게 존재함이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1167130-1-ex-1",
+            "version": 1,
+            "before": "参加者の反応は",
+            "answer": "一様",
+            "after": "ではなく、年齢によって評価が大きく分かれた。",
+            "reading": "いちよう",
+            "translation": "참가자 반응은 한결같지 않고 나이에 따라 평가가 크게 갈렸다.",
+            "translationTarget": "한결같지",
+            "difficulty": 46,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1167130-1",
+        "wordId": "lex-jmdict-1167130",
+        "version": 1,
+        "meaning": "한결같다, 동일하다",
+        "hint": "여러 대상의 상태·반응·형태가 서로 비슷하거나 같은 모습입니다.",
+        "confusions": [
+          {
+            "japanese": "多様",
+            "distinction": "선택한 一様는 상태나 반응이 같음이고 多様는 여러 방식·특성이 다양하게 존재함이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1167130-1-ex-1",
+            "version": 2,
+            "before": "説明を聞いた参加者は、",
+            "answer": "一様",
+            "after": "にうなずいた。",
+            "reading": "いちよう",
+            "translation": "설명을 들은 참가자들은 한결같이 고개를 끄덕였다.",
+            "translationTarget": "한결같이",
+            "difficulty": 46,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1206040",
+      "wordHash": "fce7713bdba4b74ea49d2ab6bffaffcfd6c8552cc8ffadb2f53586f617d90aaf",
+      "beforeHash": "538386b8847106d12b75fd5c72023be7a3e6e23d3fc81a4453c2d289471f3da2",
+      "afterHash": "d29efcac3feb845357b6013e04bb5490f4f46e81bb4980a4883e11985dd6df36",
+      "before": {
+        "id": "sense-lex-jmdict-1206040-1",
+        "wordId": "lex-jmdict-1206040",
+        "version": 1,
+        "meaning": "기억, 경험",
+        "hint": "어떤 일을 기억하거나 해 본 적이 있다는 의식입니다.",
+        "confusions": [
+          {
+            "japanese": "覚える",
+            "distinction": "覚え는 기억·경험이라는 명사이고 覚える는 외우거나 느낀다는 동사이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1206040-1-ex-1",
+            "version": 1,
+            "before": "こんな書類に署名した",
+            "answer": "覚え",
+            "after": "はないので、原本を見せてほしい。",
+            "reading": "おぼえ",
+            "translation": "이런 서류에 서명한 기억은 없으니 원본을 보여 주었으면 한다.",
+            "translationTarget": "기억",
+            "difficulty": 45,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1206040-1",
+        "wordId": "lex-jmdict-1206040",
+        "version": 1,
+        "meaning": "기억, 경험",
+        "hint": "어떤 일을 기억하거나 해 본 적이 있다는 의식입니다.",
+        "confusions": [
+          {
+            "japanese": "覚える",
+            "distinction": "覚え는 기억·경험이라는 명사이고 覚える는 외우거나 느낀다는 동사이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1206040-1-ex-1",
+            "version": 2,
+            "before": "この書類に署名した",
+            "answer": "覚え",
+            "after": "があるので、日付を確認した。",
+            "reading": "おぼえ",
+            "translation": "이 서류에 서명한 기억이 있어서 날짜를 확인했다.",
+            "translationTarget": "기억",
+            "difficulty": 45,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1236350",
+      "wordHash": "7be11fbd7590a553a3997020cecb91b5c734d01c7328938a871f48c46ca5eb01",
+      "beforeHash": "09c158ddcad25b8de6952e933b9c1582fd552f2d7965dee3d5e1e0064e9715b8",
+      "afterHash": "5d332e79169a45d60c590bb3cdeccffa6b7014a207af5de283fcc4cc83abe2c0",
+      "before": {
+        "id": "sense-lex-jmdict-1236350-1",
+        "wordId": "lex-jmdict-1236350",
+        "version": 1,
+        "meaning": "강제",
+        "hint": "권력·규칙·압력으로 남의 선택과 무관하게 행동하게 하는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "強調",
+            "distinction": "強制는 행동을 억지로 하게 함이고 強調는 말·내용을 강조함이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1236350-1-ex-1",
+            "version": 1,
+            "before": "研修への参加は任意であり、",
+            "answer": "強制",
+            "after": "ではないと改めて伝えた。",
+            "reading": "きょうせい",
+            "translation": "연수 참여는 자율이며 강제가 아니라고 다시 알렸다.",
+            "translationTarget": "강제",
+            "difficulty": 44,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1236350-1",
+        "wordId": "lex-jmdict-1236350",
+        "version": 1,
+        "meaning": "강제",
+        "hint": "권력·규칙·압력으로 남의 선택과 무관하게 행동하게 하는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "強調",
+            "distinction": "強制는 행동을 억지로 하게 함이고 強調는 말·내용을 강조함이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1236350-1-ex-1",
+            "version": 2,
+            "before": "参加を断る自由もなく、これは事実上の",
+            "answer": "強制",
+            "after": "だと感じた。",
+            "reading": "きょうせい",
+            "translation": "참여를 거절할 자유도 없어 이것은 사실상의 강제라고 느꼈다.",
+            "translationTarget": "강제",
+            "difficulty": 44,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1419740",
+      "wordHash": "93f812e3b0f93afb561355eb1a3c1ffc6ff7679909f840f94644f1738882dfd4",
+      "beforeHash": "21a7c45a7e65f2807ee3796233fa525e7093c69cfdb4bc2e45a024217333daf9",
+      "afterHash": "01480c898afb2acc658abb9621e798fb2f23406ea799ae6135a6203ecde72a4f",
+      "before": {
+        "id": "sense-lex-jmdict-1419740-1",
+        "wordId": "lex-jmdict-1419740",
+        "version": 1,
+        "meaning": "단정",
+        "hint": "확실한 결론이라고 판단하여 분명하게 말하는 것",
+        "confusions": [
+          {
+            "japanese": "推測",
+            "distinction": "断定는 결론을 확정하여 말함, 推測는 단서로 짐작함이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1419740-1-ex-1",
+            "version": 1,
+            "before": "写真だけでは原因を",
+            "answer": "断定",
+            "after": "できないので、現場を確かめる必要がある。",
+            "reading": "だんてい",
+            "translation": "사진만으로는 원인을 단정할 수 없어서 현장을 확인할 필요가 있다.",
+            "translationTarget": "단정",
+            "difficulty": 38,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1419740-1",
+        "wordId": "lex-jmdict-1419740",
+        "version": 1,
+        "meaning": "단정",
+        "hint": "확실한 결론이라고 판단하여 분명하게 말하는 것",
+        "confusions": [
+          {
+            "japanese": "推測",
+            "distinction": "断定는 결론을 확정하여 말함, 推測는 단서로 짐작함이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1419740-1-ex-1",
+            "version": 2,
+            "before": "専門家は、現場の調査結果から故障の原因を",
+            "answer": "断定",
+            "after": "した。",
+            "reading": "だんてい",
+            "translation": "전문가는 현장 조사 결과로 고장 원인을 단정했다.",
+            "translationTarget": "단정",
+            "difficulty": 38,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "AbsoluteVerb_34",
+      "wordHash": "39147a7afad1dd9858650d0930a15160ce6fdd99018fa2b13a758e7cac0fcd33",
+      "beforeHash": "09fa4857925cd9b9f73c4a3ca4c840c44c6dbafd2fe7e3954143c189b91d8afd",
+      "afterHash": "d37e0909f1d704e3e5f2abe2826b7a80eb92ec193ce054702566c77bb1edc38d",
+      "before": {
+        "id": "sense-AbsoluteVerb_34-2",
+        "wordId": "AbsoluteVerb_34",
+        "version": 1,
+        "meaning": "약을 먹다",
+        "hint": "정해진 약을 입으로 삼켜 복용해요.",
+        "confusions": [
+          {
+            "japanese": "塗る",
+            "distinction": "입으로 약을 복용하는 것과 피부에 약을 바르는 것을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_34-2-ex-1",
+            "version": 1,
+            "before": "錠剤が大きくて、水なしでは",
+            "answer": "飲めなかった",
+            "after": "。",
+            "reading": "のめなかった",
+            "translation": "알약이 커서 물 없이는 먹을 수 없었다.",
+            "translationTarget": "먹을 수 없었다",
+            "difficulty": 12,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-AbsoluteVerb_34-2",
+        "wordId": "AbsoluteVerb_34",
+        "version": 1,
+        "meaning": "약을 먹다",
+        "hint": "정해진 약을 입으로 삼켜 복용해요.",
+        "confusions": [
+          {
+            "japanese": "塗る",
+            "distinction": "입으로 약을 복용하는 것과 피부에 약을 바르는 것을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-AbsoluteVerb_34-2-ex-1",
+            "version": 2,
+            "before": "食後に水で錠剤を",
+            "answer": "飲んだ",
+            "after": "。",
+            "reading": "のんだ",
+            "translation": "식후에 물로 알약을 먹었다.",
+            "translationTarget": "먹었다",
+            "difficulty": 12,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1529880",
+      "wordHash": "c576e01e13a11db0e58345f2dd05e89f302467ca479c5edb1f12979a03f89ce5",
+      "beforeHash": "4dee422c061d5fbebbb40397a27ff4149433792fd9aa1d2fc817f6930186b177",
+      "afterHash": "8c95540597fda9c9e887c166bc498090d9f6a218924af4c148ddc1d6e2347753",
+      "before": {
+        "id": "sense-lex-jmdict-1529880-1",
+        "wordId": "lex-jmdict-1529880",
+        "version": 1,
+        "meaning": "무한함",
+        "hint": "끝이나 한도가 없습니다.",
+        "confusions": [
+          {
+            "japanese": "有限",
+            "distinction": "無限는 한계가 없음이고 有限는 한계가 있음이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1529880-1-ex-1",
+            "version": 1,
+            "before": "資源は",
+            "answer": "無限",
+            "after": "ではないので、使い方を考えよう。",
+            "reading": "むげん",
+            "translation": "자원은 무한하지 않으므로 사용 방법을 생각하자.",
+            "translationTarget": "무한하지",
+            "difficulty": 35,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1529880-1",
+        "wordId": "lex-jmdict-1529880",
+        "version": 1,
+        "meaning": "무한함",
+        "hint": "끝이나 한도가 없습니다.",
+        "confusions": [
+          {
+            "japanese": "有限",
+            "distinction": "無限는 한계가 없음이고 有限는 한계가 있음이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1529880-1-ex-1",
+            "version": 2,
+            "before": "この記号は、数が",
+            "answer": "無限",
+            "after": "に続くことを表します。",
+            "reading": "むげん",
+            "translation": "이 기호는 수가 무한히 이어지는 것을 나타냅니다.",
+            "translationTarget": "무한히",
+            "difficulty": 35,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1538690",
+      "wordHash": "d96f121541bcb9fe800531cdf8985820f8c6c0a1e236e31cd23c542569fbb200",
+      "beforeHash": "59a923343bf02b608f6c65040508254b1d60450cbb4e15289e3dfde43cfedd03",
+      "afterHash": "e9d9bdc679c2df6b629a1bed76123be408a188cd7d50370841b7c995a85291b5",
+      "before": {
+        "id": "sense-lex-jmdict-1538690-1",
+        "wordId": "lex-jmdict-1538690",
+        "version": 1,
+        "meaning": "방심",
+        "hint": "괜찮다고 생각하여 필요한 주의를 놓는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "安心",
+            "distinction": "油断는 주의를 느슨하게 함이고 安心는 걱정 없이 마음이 놓임이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1538690-1-ex-1",
+            "version": 1,
+            "before": "慣れた道でも、",
+            "answer": "油断",
+            "after": "せずに周りを確認して運転しよう。",
+            "reading": "ゆだん",
+            "translation": "익숙한 길이라도 방심하지 말고 주변을 확인하며 운전하자.",
+            "translationTarget": "방심",
+            "difficulty": 35,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1538690-1",
+        "wordId": "lex-jmdict-1538690",
+        "version": 1,
+        "meaning": "방심",
+        "hint": "괜찮다고 생각하여 필요한 주의를 놓는 일입니다.",
+        "confusions": [
+          {
+            "japanese": "安心",
+            "distinction": "油断는 주의를 느슨하게 함이고 安心는 걱정 없이 마음이 놓임이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1538690-1-ex-1",
+            "version": 2,
+            "before": "慣れた道で",
+            "answer": "油断",
+            "after": "して、曲がる場所を通り過ぎた。",
+            "reading": "ゆだん",
+            "translation": "익숙한 길에서 방심해서 돌아야 할 곳을 지나쳤다.",
+            "translationTarget": "방심",
+            "difficulty": 35,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1472370",
+      "wordHash": "b8fc34bc6b9f8aa21f49cb3adb67dd5a362873e74b93408a80e193fff37e8aba",
+      "beforeHash": "36c5ee3c8f8eb2605b83a6c3526b48c84463a6370c2f3774406de9a3ef74e064",
+      "afterHash": "9f31eba122f9c70490bf93795633148feba5b9f98778643823a327940066ad66",
+      "before": {
+        "id": "sense-lex-jmdict-1472370-1",
+        "wordId": "lex-jmdict-1472370",
+        "version": 1,
+        "meaning": "배제, 제거",
+        "hint": "불필요하거나 방해된다고 판단한 것을 밖으로 밀어냅니다.",
+        "confusions": [
+          {
+            "japanese": "除外",
+            "distinction": "排除는 적극적으로 제거·배제함이고 除外는 범위에 포함하지 않음에 흔하다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1472370-1-ex-1",
+            "version": 1,
+            "before": "年齢だけを理由に応募者を",
+            "answer": "排除",
+            "after": "しない方針だ。",
+            "reading": "はいじょ",
+            "translation": "나이만을 이유로 지원자를 배제하지 않는 방침이다.",
+            "translationTarget": "배제",
+            "difficulty": 43,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1472370-1",
+        "wordId": "lex-jmdict-1472370",
+        "version": 1,
+        "meaning": "배제, 제거",
+        "hint": "불필요하거나 방해된다고 판단한 것을 밖으로 밀어냅니다.",
+        "confusions": [
+          {
+            "japanese": "除外",
+            "distinction": "排除는 적극적으로 제거·배제함이고 除外는 범위에 포함하지 않음에 흔하다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1472370-1-ex-1",
+            "version": 2,
+            "before": "応募条件を満たしていない候補者を、選考から",
+            "answer": "排除",
+            "after": "した。",
+            "reading": "はいじょ",
+            "translation": "지원 조건을 충족하지 않은 후보자를 선발에서 배제했다.",
+            "translationTarget": "배제",
+            "difficulty": 43,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    },
+    {
+      "wordId": "lex-jmdict-1534490",
+      "wordHash": "56d3e280fcbbce596ee8f9b2d27891aeb0502c838481f6d75e2fff6bcf6ccb25",
+      "beforeHash": "b7cc392ea10fbff478e4c162a49c2aecfc4e19057837cb610eabe9b5e3edb900",
+      "afterHash": "ce5fe8ef9d8c8b28ebf5f58f437864b3956d2be0bb5686e56789b736154523c2",
+      "before": {
+        "id": "sense-lex-jmdict-1534490-1",
+        "wordId": "lex-jmdict-1534490",
+        "version": 1,
+        "meaning": "이익이 나다·돈이 벌리다",
+        "hint": "장사나 사업에서 비용보다 수입이 커서 이익이 생겨요.",
+        "confusions": [
+          {
+            "japanese": "損する",
+            "distinction": "돈의 이익이 생기는 것과 손해를 입는 것을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1534490-1-ex-1",
+            "version": 1,
+            "before": "店は忙しそうだが、材料費が高くてあまり",
+            "answer": "儲からない",
+            "after": "。",
+            "reading": "もうからない",
+            "translation": "가게는 바빠 보이지만 재료비가 높아서 별로 이익이 나지 않는다.",
+            "translationTarget": "이익이 나지 않는다",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1534490-1",
+        "wordId": "lex-jmdict-1534490",
+        "version": 1,
+        "meaning": "이익이 나다·돈이 벌리다",
+        "hint": "장사나 사업에서 비용보다 수입이 커서 이익이 생겨요.",
+        "confusions": [
+          {
+            "japanese": "損する",
+            "distinction": "돈의 이익이 생기는 것과 손해를 입는 것을 구별한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1534490-1-ex-1",
+            "version": 2,
+            "before": "材料費を抑えたので、店は以前より",
+            "answer": "儲かる",
+            "after": "ようになった。",
+            "reading": "もうかる",
+            "translation": "재료비를 줄여서 가게는 전보다 이익이 나게 되었다.",
+            "translationTarget": "이익이 나게 되었다",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "목표 뜻을 부정하는 활용형 또는 목표어에 직접 붙는 부정을 긍정 문맥으로 정정한다. 핵심 용법과 예문 ID·순서·난도는 보존한다."
+    }
+  ]
+}

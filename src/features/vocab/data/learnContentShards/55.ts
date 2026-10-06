@@ -1802,54 +1802,70 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1542920-1-ex-1",
-        "version": 1,
-        "before": "",
+        "version": 2,
+        "before": "担当者は来月の注文増加を",
         "answer": "予期",
-        "after": "しなかった質問を受け、答えを考えるのに時間がかかった。",
+        "after": "して、材料を多めに用意した。",
         "reading": "よき",
-        "translation": "예상하지 못한 질문을 받아 답을 생각하는 데 시간이 걸렸다.",
+        "translation": "담당자는 다음 달의 주문 증가를 예상해서 재료를 넉넉히 준비했다.",
         "translationTarget": "예상",
         "difficulty": 31,
         "status": "reviewed",
-        "beforeFurigana": [],
+        "beforeFurigana": [
+          {
+            "text": "担当",
+            "reading": "たんとう"
+          },
+          {
+            "text": "者",
+            "reading": "しゃ"
+          },
+          {
+            "text": "は"
+          },
+          {
+            "text": "来月",
+            "reading": "らいげつ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "注文",
+            "reading": "ちゅうもん"
+          },
+          {
+            "text": "増加",
+            "reading": "ぞうか"
+          },
+          {
+            "text": "を"
+          }
+        ],
         "afterFurigana": [
           {
-            "text": "しなかった"
+            "text": "して、"
           },
           {
-            "text": "質問",
-            "reading": "しつもん"
-          },
-          {
-            "text": "を"
-          },
-          {
-            "text": "受け",
-            "reading": "うけ"
-          },
-          {
-            "text": "、"
-          },
-          {
-            "text": "答え",
-            "reading": "こたえ"
+            "text": "材料",
+            "reading": "ざいりょう"
           },
           {
             "text": "を"
           },
           {
-            "text": "考える",
-            "reading": "かんがえる"
+            "text": "多め",
+            "reading": "おおめ"
           },
           {
-            "text": "のに"
+            "text": "に"
           },
           {
-            "text": "時間",
-            "reading": "じかん"
+            "text": "用意",
+            "reading": "ようい"
           },
           {
-            "text": "がかかった。"
+            "text": "した。"
           }
         ]
       }

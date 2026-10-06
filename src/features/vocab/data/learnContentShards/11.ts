@@ -1165,50 +1165,43 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1518130-1-ex-2",
-        "version": 1,
-        "before": "収入が増えても、自由な時間がなければ生活は",
-        "answer": "豊かにならない",
+        "version": 2,
+        "before": "休日を家族と過ごすようになり、生活が",
+        "answer": "豊かになった",
         "after": "。",
-        "reading": "ゆたかにならない",
-        "translation": "수입이 늘어도 자유로운 시간이 없으면 생활은 풍요로워지지 않는다.",
-        "translationTarget": "풍요로워지지 않는다",
+        "reading": "ゆたかになった",
+        "translation": "휴일을 가족과 보내게 되면서 생활이 풍요로워졌다.",
+        "translationTarget": "풍요로워졌다",
         "difficulty": 29,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "収入",
-            "reading": "しゅうにゅう"
+            "text": "休日",
+            "reading": "きゅうじつ"
           },
           {
-            "text": "が"
+            "text": "を"
           },
           {
-            "text": "増え",
-            "reading": "ふえ"
+            "text": "家族",
+            "reading": "かぞく"
           },
           {
-            "text": "ても、"
+            "text": "と"
           },
           {
-            "text": "自由",
-            "reading": "じゆう"
+            "text": "過ごす",
+            "reading": "すごす"
           },
           {
-            "text": "な"
-          },
-          {
-            "text": "時間",
-            "reading": "じかん"
-          },
-          {
-            "text": "がなければ"
+            "text": "ようになり、"
           },
           {
             "text": "生活",
             "reading": "せいかつ"
           },
           {
-            "text": "は"
+            "text": "が"
           }
         ],
         "afterFurigana": [

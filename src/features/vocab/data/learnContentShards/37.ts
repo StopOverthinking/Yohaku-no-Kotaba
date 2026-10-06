@@ -466,16 +466,23 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_862-1-ex-1",
-        "version": 1,
-        "before": "小さな失敗をいつまでも",
-        "answer": "気にしないで",
+        "version": 2,
+        "before": "彼女は小さな失敗をいつまでも",
+        "answer": "気にしている",
         "after": "。",
-        "reading": "きにしないで",
-        "translation": "작은 실수를 언제까지나 신경 쓰지 마.",
-        "translationTarget": "신경 쓰지 마",
+        "reading": "きにしている",
+        "translation": "그녀는 작은 실수를 계속 신경 쓰고 있다.",
+        "translationTarget": "신경 쓰고 있다",
         "difficulty": 18,
         "status": "reviewed",
         "beforeFurigana": [
+          {
+            "text": "彼女",
+            "reading": "かのじょ"
+          },
+          {
+            "text": "は"
+          },
           {
             "text": "小さな",
             "reading": "ちいさな"

@@ -2133,16 +2133,30 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1167130-1-ex-1",
-        "version": 1,
-        "before": "参加者の反応は",
+        "version": 2,
+        "before": "説明を聞いた参加者は、",
         "answer": "一様",
-        "after": "ではなく、年齢によって評価が大きく分かれた。",
+        "after": "にうなずいた。",
         "reading": "いちよう",
-        "translation": "참가자 반응은 한결같지 않고 나이에 따라 평가가 크게 갈렸다.",
-        "translationTarget": "한결같지",
+        "translation": "설명을 들은 참가자들은 한결같이 고개를 끄덕였다.",
+        "translationTarget": "한결같이",
         "difficulty": 46,
         "status": "reviewed",
         "beforeFurigana": [
+          {
+            "text": "説明",
+            "reading": "せつめい"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "聞い",
+            "reading": "きい"
+          },
+          {
+            "text": "た"
+          },
           {
             "text": "参加",
             "reading": "さんか"
@@ -2152,44 +2166,12 @@ const content: LearnSense[] = [
             "reading": "しゃ"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "反応",
-            "reading": "はんのう"
-          },
-          {
-            "text": "は"
+            "text": "は、"
           }
         ],
         "afterFurigana": [
           {
-            "text": "ではなく、"
-          },
-          {
-            "text": "年齢",
-            "reading": "ねんれい"
-          },
-          {
-            "text": "によって"
-          },
-          {
-            "text": "評価",
-            "reading": "ひょうか"
-          },
-          {
-            "text": "が"
-          },
-          {
-            "text": "大きく",
-            "reading": "おおきく"
-          },
-          {
-            "text": "分かれ",
-            "reading": "わかれ"
-          },
-          {
-            "text": "た。"
+            "text": "にうなずいた。"
           }
         ]
       }

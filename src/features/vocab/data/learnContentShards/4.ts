@@ -350,27 +350,48 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_79-1-ex-1",
-        "version": 1,
-        "before": "そんなに",
-        "answer": "怒鳴らなくても",
-        "after": "聞こえるよ。",
-        "reading": "どならなくても",
-        "translation": "그렇게 고함치지 않아도 들려.",
-        "translationTarget": "고함치지 않아도",
+        "version": 2,
+        "before": "危険に気づいた係員が「止まれ」と",
+        "answer": "怒鳴った",
+        "after": "。",
+        "reading": "どなった",
+        "translation": "위험을 알아챈 담당자가 ‘멈춰’라고 고함쳤다.",
+        "translationTarget": "고함쳤다",
         "difficulty": 37,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "そんなに"
+            "text": "危険",
+            "reading": "きけん"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "気づい",
+            "reading": "きづい"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "係員",
+            "reading": "かかりいん"
+          },
+          {
+            "text": "が「"
+          },
+          {
+            "text": "止まれ",
+            "reading": "とまれ"
+          },
+          {
+            "text": "」と"
           }
         ],
         "afterFurigana": [
           {
-            "text": "聞こえる",
-            "reading": "きこえる"
-          },
-          {
-            "text": "よ。"
+            "text": "。"
           }
         ]
       }

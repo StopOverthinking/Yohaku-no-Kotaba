@@ -381,13 +381,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_297-1-ex-1",
-        "version": 1,
-        "before": "霧が濃くて、一歩も",
-        "answer": "進めなかった",
+        "version": 2,
+        "before": "霧が晴れてから、登山隊は頂上へ",
+        "answer": "進んだ",
         "after": "。",
-        "reading": "すすめなかった",
-        "translation": "안개가 짙어서 한 걸음도 나아갈 수 없었다.",
-        "translationTarget": "나아갈 수 없었다",
+        "reading": "すすんだ",
+        "translation": "안개가 걷힌 뒤 등산대는 정상으로 나아갔다.",
+        "translationTarget": "나아갔다",
         "difficulty": 18,
         "status": "reviewed",
         "beforeFurigana": [
@@ -399,22 +399,29 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "濃く",
-            "reading": "こく"
+            "text": "晴れ",
+            "reading": "はれ"
           },
           {
-            "text": "て、"
+            "text": "てから、"
           },
           {
-            "text": "一",
-            "reading": "いち"
+            "text": "登山",
+            "reading": "とざん"
           },
           {
-            "text": "歩",
-            "reading": "ほ"
+            "text": "隊",
+            "reading": "たい"
           },
           {
-            "text": "も"
+            "text": "は"
+          },
+          {
+            "text": "頂上",
+            "reading": "ちょうじょう"
+          },
+          {
+            "text": "へ"
           }
         ],
         "afterFurigana": [
@@ -512,29 +519,50 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_165-1-ex-1",
-        "version": 1,
-        "before": "水がなければ、魚は",
-        "answer": "生きられない",
+        "version": 2,
+        "before": "この魚は、冷たい川の水の中で",
+        "answer": "生きている",
         "after": "。",
-        "reading": "いきられない",
-        "translation": "물이 없으면 물고기는 살 수 없다.",
-        "translationTarget": "살 수 없다",
+        "reading": "いきている",
+        "translation": "이 물고기는 차가운 강물 속에서 살고 있다.",
+        "translationTarget": "살고 있다",
         "difficulty": 15,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "水",
-            "reading": "みず"
-          },
-          {
-            "text": "がなければ、"
+            "text": "この"
           },
           {
             "text": "魚",
             "reading": "さかな"
           },
           {
-            "text": "は"
+            "text": "は、"
+          },
+          {
+            "text": "冷たい",
+            "reading": "つめたい"
+          },
+          {
+            "text": "川",
+            "reading": "かわ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "水",
+            "reading": "みず"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "中",
+            "reading": "なか"
+          },
+          {
+            "text": "で"
           }
         ],
         "afterFurigana": [
@@ -565,19 +593,47 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_569-1-ex-1",
-        "version": 1,
-        "before": "結論を",
-        "answer": "急がずに",
-        "after": "、全員の話を聞こう。",
-        "reading": "いそがずに",
-        "translation": "결론을 서두르지 말고 모두의 이야기를 듣자.",
-        "translationTarget": "서두르지 말고",
+        "version": 2,
+        "before": "電車の時間が迫っていたので、駅への道を",
+        "answer": "急いだ",
+        "after": "。",
+        "reading": "いそいだ",
+        "translation": "전철 시간이 다가와서 역으로 가는 길을 서둘렀다.",
+        "translationTarget": "서둘렀다",
         "difficulty": 20,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "結論",
-            "reading": "けつろん"
+            "text": "電車",
+            "reading": "でんしゃ"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "時間",
+            "reading": "じかん"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "迫っ",
+            "reading": "せまっ"
+          },
+          {
+            "text": "ていたので、"
+          },
+          {
+            "text": "駅",
+            "reading": "えき"
+          },
+          {
+            "text": "への"
+          },
+          {
+            "text": "道",
+            "reading": "みち"
           },
           {
             "text": "を"
@@ -585,28 +641,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "、"
-          },
-          {
-            "text": "全員",
-            "reading": "ぜんいん"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "話",
-            "reading": "はなし"
-          },
-          {
-            "text": "を"
-          },
-          {
-            "text": "聞こ",
-            "reading": "きこ"
-          },
-          {
-            "text": "う。"
+            "text": "。"
           }
         ]
       }

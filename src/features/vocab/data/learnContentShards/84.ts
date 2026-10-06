@@ -1082,41 +1082,48 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1178450-1-ex-1",
-        "version": 1,
-        "before": "食べたい物があれば、",
+        "version": 2,
+        "before": "勧められたお菓子を、彼女は",
         "answer": "遠慮",
-        "after": "せずに言ってください。",
+        "after": "して受け取らなかった。",
         "reading": "えんりょ",
-        "translation": "먹고 싶은 게 있으면 사양하지 말고 말해 주세요.",
+        "translation": "권해 준 과자를 그녀는 사양하고 받지 않았다.",
         "translationTarget": "사양",
         "difficulty": 22,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "食べ",
-            "reading": "たべ"
+            "text": "勧め",
+            "reading": "すすめ"
           },
           {
-            "text": "たい"
+            "text": "られた"
           },
           {
-            "text": "物",
-            "reading": "もの"
+            "text": "お菓子",
+            "reading": "おかし"
           },
           {
-            "text": "があれば、"
+            "text": "を、"
+          },
+          {
+            "text": "彼女",
+            "reading": "かのじょ"
+          },
+          {
+            "text": "は"
           }
         ],
         "afterFurigana": [
           {
-            "text": "せずに"
+            "text": "して"
           },
           {
-            "text": "言っ",
-            "reading": "いっ"
+            "text": "受け取ら",
+            "reading": "うけとら"
           },
           {
-            "text": "てください。"
+            "text": "なかった。"
           }
         ]
       },

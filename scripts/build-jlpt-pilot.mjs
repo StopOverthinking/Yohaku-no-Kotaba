@@ -3,7 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
-import { readExamplePruning, verifyExamplePruning } from './lib/example-pruning.mjs'
+import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './lib/reviewed-example-history.mjs'
 import { parseManuscript, applyReview, hashContent, lexicalKey, appendReviewedMembership, appendReviewedSources, validateLegacyMembership, validateExampleRevision } from './lib/jlpt-pilot.mjs'
 import { validateVerbConsolidation } from './lib/verb-consolidation.mjs'
 
@@ -45,9 +45,9 @@ if (process.argv.includes('--publish')) {
   ])
   if (membershipReceipt.schemaVersion !== 1) throw new Error('Unknown membership receipt version')
   const consolidationReview = await optionalRead(`${base}/legacy/verb-consolidation.json`, null)
-  validateVerbConsolidation(consolidationReview, sets, words, senses, membershipReceipt)
-  const pruningJournals = await readExamplePruning(root)
-  const pruning = verifyExamplePruning(words, senses, pruningJournals)
+  const pruningJournals = await readReviewedExampleHistory(root)
+  const pruning = verifyReviewedExampleHistory(words, senses, pruningJournals)
+  validateVerbConsolidation(consolidationReview, sets, words, pruning.beforeCorrections, membershipReceipt)
   const historicalSenseMap = new Map(pruning.historicalSenses.map(sense => [sense.id, sense]))
   const aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, words, pruning.historicalSenses)
   const references = validateLegacyMembership(referenceReviews, words, pruning.historicalSenses, baseline.words, aliasGroups)
@@ -103,7 +103,7 @@ if (process.argv.includes('--publish')) {
       ...(priorMembership.consolidationIds ? { consolidationIds: priorMembership.consolidationIds } : {}) }
   }
   // Recheck disk immediately before writing, so an editor save is never silently replaced.
-  if (hashContent(await readExamplePruning(root)) !== hashContent(pruningJournals))
+  if (hashContent(await readReviewedExampleHistory(root)) !== hashContent(pruningJournals))
     throw new Error('Example pruning changed during import')
   for (const name of Object.keys(originalHashes))
     if (hashContent(await read(`${editor}/${name}.json`)) !== originalHashes[name]) throw new Error('Editor changed during import')

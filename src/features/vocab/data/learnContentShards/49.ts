@@ -1738,34 +1738,41 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1591100-1-ex-2",
-        "version": 1,
-        "before": "ブレーキが",
-        "answer": "効かなくなった",
-        "after": "自転車には、乗らないでください。",
-        "reading": "きかなくなった",
-        "translation": "브레이크가 작동하지 않게 된 자전거는 타지 마세요.",
-        "translationTarget": "작동하지 않게 된",
+        "version": 2,
+        "before": "修理の後は、自転車のブレーキがよく",
+        "answer": "効く",
+        "after": "ようになった。",
+        "reading": "きく",
+        "translation": "수리 후에는 자전거 브레이크가 잘 작동하게 되었다.",
+        "translationTarget": "작동하게 되었다",
         "difficulty": 27,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "ブレーキが"
-          }
-        ],
-        "afterFurigana": [
+            "text": "修理",
+            "reading": "しゅうり"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "後",
+            "reading": "のち"
+          },
+          {
+            "text": "は、"
+          },
           {
             "text": "自転車",
             "reading": "じてんしゃ"
           },
           {
-            "text": "には、"
-          },
+            "text": "のブレーキがよく"
+          }
+        ],
+        "afterFurigana": [
           {
-            "text": "乗ら",
-            "reading": "のら"
-          },
-          {
-            "text": "ないでください。"
+            "text": "ようになった。"
           }
         ]
       }

@@ -1270,41 +1270,55 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1157760-1-ex-1",
-        "version": 1,
-        "before": "検査の結果、機械に",
+        "version": 2,
+        "before": "点検で機械の",
         "answer": "異常",
-        "after": "はありませんでした。",
+        "after": "が見つかり、部品を交換した。",
         "reading": "いじょう",
-        "translation": "검사 결과 기계에 이상은 없었어요.",
+        "translation": "점검에서 기계의 이상이 발견되어 부품을 교체했다.",
         "translationTarget": "이상",
         "difficulty": 22,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "検査",
-            "reading": "けんさ"
+            "text": "点検",
+            "reading": "てんけん"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "結果",
-            "reading": "けっか"
-          },
-          {
-            "text": "、"
+            "text": "で"
           },
           {
             "text": "機械",
             "reading": "きかい"
           },
           {
-            "text": "に"
+            "text": "の"
           }
         ],
         "afterFurigana": [
           {
-            "text": "はありませんでした。"
+            "text": "が"
+          },
+          {
+            "text": "見つかり",
+            "reading": "みつかり"
+          },
+          {
+            "text": "、"
+          },
+          {
+            "text": "部品",
+            "reading": "ぶひん"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "交換",
+            "reading": "こうかん"
+          },
+          {
+            "text": "した。"
           }
         ]
       }
@@ -1330,16 +1344,32 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1612920-1-ex-1",
-        "version": 1,
-        "before": "運転手は道に飛び出した犬を",
-        "answer": "轢かないように",
-        "after": "、急ブレーキをかけた。",
-        "reading": "ひかないように",
-        "translation": "운전자는 도로로 뛰어나온 개를 치지 않으려고 급브레이크를 밟았다.",
-        "translationTarget": "치지 않으려고",
+        "version": 2,
+        "before": "山道で鹿を",
+        "answer": "轢いた",
+        "after": "運転手が、警察に連絡した。",
+        "reading": "ひいた",
+        "translation": "산길에서 사슴을 친 운전자가 경찰에 연락했다.",
+        "translationTarget": "친",
         "difficulty": 28,
         "status": "reviewed",
         "beforeFurigana": [
+          {
+            "text": "山道",
+            "reading": "さんどう"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "鹿",
+            "reading": "しか"
+          },
+          {
+            "text": "を"
+          }
+        ],
+        "afterFurigana": [
           {
             "text": "運転",
             "reading": "うんてん"
@@ -1349,40 +1379,21 @@ const content: LearnSense[] = [
             "reading": "しゅ"
           },
           {
-            "text": "は"
+            "text": "が、"
           },
           {
-            "text": "道",
-            "reading": "みち"
+            "text": "警察",
+            "reading": "けいさつ"
           },
           {
             "text": "に"
           },
           {
-            "text": "飛び出し",
-            "reading": "とびだし"
+            "text": "連絡",
+            "reading": "れんらく"
           },
           {
-            "text": "た"
-          },
-          {
-            "text": "犬",
-            "reading": "いぬ"
-          },
-          {
-            "text": "を"
-          }
-        ],
-        "afterFurigana": [
-          {
-            "text": "、"
-          },
-          {
-            "text": "急",
-            "reading": "きゅう"
-          },
-          {
-            "text": "ブレーキをかけた。"
+            "text": "した。"
           }
         ]
       }
