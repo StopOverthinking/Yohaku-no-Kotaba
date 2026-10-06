@@ -47,10 +47,16 @@ describe('reviewed JLPT pilot', () => {
     expect(state.profiles).toEqual(profiles)
     expect(state.session?.setId).toBe(book.id)
   })
-  it.each(['n5', 'n4', 'n3', 'n2', 'n1'])('can study every %s word and rotate every available example', (level) => {
+  const corpusBatches = ['n5', 'n4', 'n3', 'n2', 'n1'].flatMap(level => {
+    const words = getWordsForSet(`jlpt-level-${level}`)
+    return Array.from({ length: Math.ceil(words.length / 200) }, (_, batch) => {
+      const start = batch * 200
+      return [level, start + 1, Math.min(start + 200, words.length), words.slice(start, start + 200)] as const
+    })
+  })
+  it.each(corpusBatches)('can study %s words %i–%i and rotate every available example', (level, _from, _to, words) => {
     const setId = `jlpt-level-${level}`
-    const words = getWordsForSet(setId)
-    expect(words.length).toBeGreaterThanOrEqual(20)
+    expect(getWordsForSet(setId).length).toBeGreaterThanOrEqual(20)
     for (const word of words) {
       const wordSenses = contextSenses.filter((sense) => sense.wordId === word.id)
       expect(wordSenses.length).toBeGreaterThanOrEqual(1)
@@ -77,8 +83,8 @@ describe('reviewed JLPT pilot', () => {
       }
       for (const sense of wordSenses) expect(seen.get(sense.id)!.size).toBe(sense.examples.length)
     }
-  // This exhaustively schedules every word/usage several times against the
-  // complete corpus. Individual card latency is measured in browser benchmarks.
+  // Preserve exhaustive coverage and the timeout while bounding each CI task.
+  // Each usage still schedules against the complete corpus.
   }, 30_000)
 
   it('validates source data and preserves generated IDs, content and membership order', () => {
