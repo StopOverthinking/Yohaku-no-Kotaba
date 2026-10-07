@@ -1,10 +1,13 @@
-import { useEffect, useId, useRef } from 'react'
+import { useEffect, useId, useRef, type ReactNode } from 'react'
 import { GlassPanel } from '@/components/GlassPanel'
 import styles from './progress.module.css'
 
-type Props = { word: string; busy: boolean; error: string | null; onCancel: () => void; onConfirm: () => void }
+type Props = {
+  title: string; description: ReactNode; confirmLabel: string
+  busy: boolean; error: string | null; onCancel: () => void; onConfirm: () => void
+}
 
-export function ReviewRemovalDialog({ word, busy, error, onCancel, onConfirm }: Props) {
+export function ReviewConfirmationDialog({ title, description, confirmLabel, busy, error, onCancel, onConfirm }: Props) {
   const dialogRef = useRef<HTMLDialogElement>(null)
   const cancelRef = useRef<HTMLButtonElement>(null)
   const titleId = useId()
@@ -32,12 +35,12 @@ export function ReviewRemovalDialog({ word, busy, error, onCancel, onConfirm }: 
       }}
       onClick={event => { if (event.target === event.currentTarget && !busy) onCancel() }}>
       <GlassPanel variant="floating" padding="lg">
-        <h2 id={titleId}>정말 삭제할까요?</h2>
-        <p id={descriptionId}><strong lang="ja">{word}</strong>를 복습 목록에서 삭제합니다.</p>
+        <h2 id={titleId}>{title}</h2>
+        <p id={descriptionId}>{description}</p>
         {error && <p role="alert">{error}</p>}
         <div className={styles.confirmActions}>
           <button ref={cancelRef} type="button" className="pill" disabled={busy} onClick={onCancel}>취소</button>
-          <button type="button" className="pill" data-tone="danger" disabled={busy} onClick={onConfirm}>삭제</button>
+          <button type="button" className="pill" data-tone="danger" disabled={busy} onClick={onConfirm}>{confirmLabel}</button>
         </div>
       </GlassPanel>
     </dialog>

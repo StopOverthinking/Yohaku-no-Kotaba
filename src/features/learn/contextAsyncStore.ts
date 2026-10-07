@@ -26,6 +26,7 @@ export type AsyncContextStore = {
   undo: () => Promise<boolean>
   discard: () => Promise<boolean>
   removeReviewWord: (wordId: string) => Promise<boolean>
+  resetLearning: () => Promise<boolean>
   clearResult: () => void
 }
 
@@ -145,6 +146,9 @@ export function createAsyncContextStore(
         const members = [...aliases.groups.values()].find(group => group.representativeWordId === canonical)?.members.map(member => member.wordId) ?? []
         return { data: { ...state, excludedWordIds: [...new Set([...(state.excludedWordIds ?? []), canonical, ...members])] } }
       }),
+      resetLearning: () => mutate(() => ({
+        data: migrateContextAliases(emptyContextState(), aliases, day()), lastResult: null,
+      })),
       clearResult: () => set({ lastResult: null }),
     }
   })
