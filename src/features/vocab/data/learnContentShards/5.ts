@@ -1132,12 +1132,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1186760-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "化学",
-        "after": "の授業で、液体を混ぜた時の変化を観察した。",
+        "after": "の授業で、液体を混ぜた時の色を観察した。",
         "reading": "かがく",
-        "translation": "화학 수업에서 액체를 섞었을 때의 변화를 관찰했다.",
+        "translation": "화학 수업에서 액체를 섞었을 때의 색을 관찰했다.",
         "translationTarget": "화학",
         "difficulty": 28,
         "status": "reviewed",
@@ -1175,8 +1175,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "変化",
-            "reading": "へんか"
+            "text": "色",
+            "reading": "いろ"
           },
           {
             "text": "を"
@@ -1870,22 +1870,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1578790-1-ex-1",
-        "version": 1,
-        "before": "旅行の",
+        "version": 2,
+        "before": "温泉への",
         "answer": "行き",
         "after": "は電車を使い、帰りはバスにした。",
         "reading": "いき",
-        "translation": "여행에서 가는 편에는 전철을 이용하고 돌아올 때는 버스를 탔다.",
+        "translation": "온천에 가는 편에는 전철을 이용하고 돌아올 때는 버스를 탔다.",
         "translationTarget": "가는 편",
         "difficulty": 29,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "旅行",
-            "reading": "りょこう"
+            "text": "温泉",
+            "reading": "おんせん"
           },
           {
-            "text": "の"
+            "text": "への"
           }
         ],
         "afterFurigana": [
@@ -2575,18 +2575,33 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1223430-1-ex-1",
-        "version": 1,
-        "before": "アンケートは",
+        "version": 2,
+        "before": "回答者が分かるよう、アンケートは",
         "answer": "記名",
-        "after": "式なので、名前を忘れずに書いてください。",
+        "after": "式にしています。",
         "reading": "きめい",
-        "translation": "설문은 기명식이므로 이름을 잊지 말고 써 주세요.",
+        "translation": "응답자를 알 수 있도록 설문은 기명식으로 하고 있습니다.",
         "translationTarget": "기명",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "アンケートは"
+            "text": "回答",
+            "reading": "かいとう"
+          },
+          {
+            "text": "者",
+            "reading": "しゃ"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "分かる",
+            "reading": "わかる"
+          },
+          {
+            "text": "よう、アンケートは"
           }
         ],
         "afterFurigana": [
@@ -2595,28 +2610,7 @@ const content: LearnSense[] = [
             "reading": "しき"
           },
           {
-            "text": "なので、"
-          },
-          {
-            "text": "名前",
-            "reading": "なまえ"
-          },
-          {
-            "text": "を"
-          },
-          {
-            "text": "忘れ",
-            "reading": "わすれ"
-          },
-          {
-            "text": "ずに"
-          },
-          {
-            "text": "書い",
-            "reading": "かい"
-          },
-          {
-            "text": "てください。"
+            "text": "にしています。"
           }
         ]
       }

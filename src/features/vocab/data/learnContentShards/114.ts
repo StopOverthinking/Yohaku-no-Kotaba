@@ -2035,12 +2035,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1464340-1-ex-1",
-        "version": 1,
-        "before": "書類に名前を記入した後、今日の",
+        "version": 2,
+        "before": "書類に名前を記入した後、",
         "answer": "日付",
         "after": "を書いた。",
         "reading": "ひづけ",
-        "translation": "서류에 이름을 기재한 뒤 오늘 날짜를 썼다.",
+        "translation": "서류에 이름을 기재한 뒤 날짜를 썼다.",
         "translationTarget": "날짜",
         "difficulty": 27,
         "status": "reviewed",
@@ -2072,13 +2072,6 @@ const content: LearnSense[] = [
           },
           {
             "text": "、"
-          },
-          {
-            "text": "今日",
-            "reading": "きょう"
-          },
-          {
-            "text": "の"
           }
         ],
         "afterFurigana": [
@@ -2570,23 +2563,16 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1206760-1-ex-1",
-        "version": 1,
-        "before": "大学を卒業して",
+        "version": 2,
+        "before": "卒業して",
         "answer": "学士",
-        "after": "の学位を得た後、働きながら研究を続けた。",
+        "after": "の称号を得た後、働きながら研究を続けた。",
         "reading": "がくし",
-        "translation": "대학을 졸업해 학사 학위를 받은 뒤 일하면서 연구를 이어 갔다.",
+        "translation": "졸업해 학사 칭호를 받은 뒤 일하면서 연구를 이어 갔다.",
         "translationTarget": "학사",
         "difficulty": 44,
         "status": "reviewed",
         "beforeFurigana": [
-          {
-            "text": "大学",
-            "reading": "だいがく"
-          },
-          {
-            "text": "を"
-          },
           {
             "text": "卒業",
             "reading": "そつぎょう"
@@ -2600,8 +2586,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "学位",
-            "reading": "がくい"
+            "text": "称号",
+            "reading": "しょうごう"
           },
           {
             "text": "を"

@@ -927,12 +927,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1350080-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "鉛筆の字を",
         "answer": "消しゴム",
-        "after": "で消しました。",
+        "after": "でこすりました。",
         "reading": "けしゴム",
-        "translation": "연필 글씨를 지우개로 지웠어요.",
+        "translation": "연필 글씨를 지우개로 문질렀어요.",
         "translationTarget": "지우개",
         "difficulty": 16,
         "status": "reviewed",
@@ -954,14 +954,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "で"
-          },
-          {
-            "text": "消し",
-            "reading": "けし"
-          },
-          {
-            "text": "ました。"
+            "text": "でこすりました。"
           }
         ]
       }

@@ -1150,12 +1150,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1580340-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "寒いので、もう一枚",
         "answer": "上着",
-        "after": "を着ました。",
+        "after": "を羽織りました。",
         "reading": "うわぎ",
-        "translation": "추워서 겉옷을 한 벌 더 입었어요.",
+        "translation": "추워서 겉옷을 한 벌 더 걸쳤어요.",
         "translationTarget": "겉옷",
         "difficulty": 14,
         "status": "reviewed",
@@ -1177,8 +1177,8 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "着",
-            "reading": "き"
+            "text": "羽織り",
+            "reading": "はおり"
           },
           {
             "text": "ました。"
@@ -1630,19 +1630,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1289140-1-ex-1",
-        "version": 1,
-        "before": "今回見つかった問題を踏まえて、",
+        "version": 2,
+        "before": "調査で見つかった問題を踏まえて、",
         "answer": "今後",
         "after": "の運営方法を見直す。",
         "reading": "こんご",
-        "translation": "이번에 발견된 문제를 바탕으로 앞으로의 운영 방식을 재검토한다.",
+        "translation": "조사에서 발견된 문제를 바탕으로 앞으로의 운영 방식을 재검토한다.",
         "translationTarget": "앞으로",
         "difficulty": 30,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "今回",
-            "reading": "こんかい"
+            "text": "調査",
+            "reading": "ちょうさ"
+          },
+          {
+            "text": "で"
           },
           {
             "text": "見つかっ",

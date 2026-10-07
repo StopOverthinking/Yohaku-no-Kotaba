@@ -2675,12 +2675,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1545020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この銀行では、定期",
         "answer": "預金",
-        "after": "の金利が先月より上がった。",
+        "after": "の利率が先月より上がった。",
         "reading": "よきん",
-        "translation": "이 은행에서는 정기 예금 금리가 지난달보다 올랐다.",
+        "translation": "이 은행에서는 정기 예금의 이율이 지난달보다 올랐다.",
         "translationTarget": "예금",
         "difficulty": 35,
         "status": "reviewed",
@@ -2705,8 +2705,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "金利",
-            "reading": "きんり"
+            "text": "利率",
+            "reading": "りりつ"
           },
           {
             "text": "が"

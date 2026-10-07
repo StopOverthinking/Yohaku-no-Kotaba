@@ -616,12 +616,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_642-1-ex-1",
-        "version": 1,
-        "before": "来客用に新しいタオルを",
+        "version": 2,
+        "before": "来客を迎えるために新しいタオルを",
         "answer": "用意した",
         "after": "。",
         "reading": "よういした",
-        "translation": "손님용으로 새 수건을 준비했다.",
+        "translation": "손님을 맞이하려고 새 수건을 준비했다.",
         "translationTarget": "준비했다",
         "difficulty": 18,
         "status": "reviewed",
@@ -631,11 +631,14 @@ const content: LearnSense[] = [
             "reading": "らいきゃく"
           },
           {
-            "text": "用",
-            "reading": "よう"
+            "text": "を"
           },
           {
-            "text": "に"
+            "text": "迎える",
+            "reading": "むかえる"
+          },
+          {
+            "text": "ために"
           },
           {
             "text": "新しい",
@@ -1124,12 +1127,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1203090-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "階段",
-        "after": "を上って、三階の教室へ行きます。",
+        "after": "を上って、音楽室へ行きます。",
         "reading": "かいだん",
-        "translation": "계단을 올라 삼 층 교실로 가요.",
+        "translation": "계단을 올라 음악실로 가요.",
         "translationTarget": "계단",
         "difficulty": 13,
         "status": "reviewed",
@@ -1146,15 +1149,12 @@ const content: LearnSense[] = [
             "text": "て、"
           },
           {
-            "text": "三階",
-            "reading": "さんがい"
+            "text": "音楽",
+            "reading": "おんがく"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "教室",
-            "reading": "きょうしつ"
+            "text": "室",
+            "reading": "しつ"
           },
           {
             "text": "へ"
@@ -1695,29 +1695,36 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1201830-1-ex-1",
-        "version": 1,
-        "before": "道路が寸断されたため、救援物資は",
+        "version": 2,
+        "before": "陸上の交通が途絶えたため、救援物資は",
         "answer": "海路",
         "after": "で届けられた。",
         "reading": "かいろ",
-        "translation": "도로가 끊겼기 때문에 구호 물자는 바닷길로 전달되었다.",
+        "translation": "육상 교통이 끊겼기 때문에 구호 물자는 바닷길로 전달되었다.",
         "translationTarget": "바닷길",
         "difficulty": 48,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "道路",
-            "reading": "どうろ"
+            "text": "陸上",
+            "reading": "りくじょう"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "交通",
+            "reading": "こうつう"
           },
           {
             "text": "が"
           },
           {
-            "text": "寸断",
-            "reading": "すんだん"
+            "text": "途絶え",
+            "reading": "とだえ"
           },
           {
-            "text": "されたため、"
+            "text": "たため、"
           },
           {
             "text": "救援",
@@ -2707,12 +2714,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1296470-1-ex-1",
-        "version": 1,
-        "before": "この靴は店頭にはないが、倉庫に",
+        "version": 2,
+        "before": "この靴は店頭にはないが、奥に",
         "answer": "在庫",
         "after": "が残っている。",
         "reading": "ざいこ",
-        "translation": "이 신발은 매장에는 없지만 창고에 재고가 남아 있다.",
+        "translation": "이 신발은 매장에는 없지만 안쪽에 재고가 남아 있다.",
         "translationTarget": "재고",
         "difficulty": 43,
         "status": "reviewed",
@@ -2735,8 +2742,8 @@ const content: LearnSense[] = [
             "text": "にはないが、"
           },
           {
-            "text": "倉庫",
-            "reading": "そうこ"
+            "text": "奥",
+            "reading": "おく"
           },
           {
             "text": "に"
@@ -2926,12 +2933,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1303930-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "妹は",
         "answer": "算数",
-        "after": "が得意で、買い物の合計をすぐに計算する。",
+        "after": "が得意で、買い物の合計をすぐに出す。",
         "reading": "さんすう",
-        "translation": "여동생은 산수를 잘해서 쇼핑 금액의 합계를 바로 계산한다.",
+        "translation": "여동생은 산수를 잘해서 쇼핑 금액의 합계를 바로 구한다.",
         "translationTarget": "산수",
         "difficulty": 29,
         "status": "reviewed",
@@ -2970,11 +2977,11 @@ const content: LearnSense[] = [
             "text": "をすぐに"
           },
           {
-            "text": "計算",
-            "reading": "けいさん"
+            "text": "出す",
+            "reading": "だす"
           },
           {
-            "text": "する。"
+            "text": "。"
           }
         ]
       }

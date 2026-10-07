@@ -293,12 +293,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_319-1-ex-1",
-        "version": 1,
-        "before": "台所で父が古い歌を",
+        "version": 2,
+        "before": "台所で父が、ラジオのメロディーに合わせて",
         "answer": "歌っている",
         "after": "。",
         "reading": "うたっている",
-        "translation": "부엌에서 아버지가 옛 노래를 부르고 계신다.",
+        "translation": "부엌에서 아버지가 라디오의 멜로디에 맞춰 노래를 부르고 계신다.",
         "translationTarget": "부르고 계신다",
         "difficulty": 12,
         "status": "reviewed",
@@ -315,18 +315,14 @@ const content: LearnSense[] = [
             "reading": "ちち"
           },
           {
-            "text": "が"
+            "text": "が、ラジオのメロディーに"
           },
           {
-            "text": "古い",
-            "reading": "ふるい"
+            "text": "合わせ",
+            "reading": "あわせ"
           },
           {
-            "text": "歌",
-            "reading": "うた"
-          },
-          {
-            "text": "を"
+            "text": "て"
           }
         ],
         "afterFurigana": [

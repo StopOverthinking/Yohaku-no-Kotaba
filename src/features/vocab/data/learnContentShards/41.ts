@@ -1953,19 +1953,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443320-1-ex-1",
-        "version": 1,
-        "before": "原子の構造を説明する図には、",
+        "version": 2,
+        "before": "物質の構造を説明する図には、",
         "answer": "電子",
         "after": "も描かれていた。",
         "reading": "でんし",
-        "translation": "원자 구조를 설명하는 그림에는 전자도 그려져 있었다.",
+        "translation": "물질 구조를 설명하는 그림에는 전자도 그려져 있었다.",
         "translationTarget": "전자",
         "difficulty": 31,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "原子",
-            "reading": "げんし"
+            "text": "物質",
+            "reading": "ぶっしつ"
           },
           {
             "text": "の"

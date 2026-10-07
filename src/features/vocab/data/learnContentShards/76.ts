@@ -1812,12 +1812,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1478660-1-ex-1",
-        "version": 1,
-        "before": "写真を確認した審判が、得点を認める",
+        "version": 2,
+        "before": "写真を確認した担当者が、得点を認める",
         "answer": "判定",
         "after": "を下した。",
         "reading": "はんてい",
-        "translation": "사진을 확인한 심판이 득점을 인정하는 판정을 내렸다.",
+        "translation": "사진을 확인한 담당자가 득점을 인정하는 판정을 내렸다.",
         "translationTarget": "판정",
         "difficulty": 43,
         "status": "reviewed",
@@ -1837,8 +1837,12 @@ const content: LearnSense[] = [
             "text": "した"
           },
           {
-            "text": "審判",
-            "reading": "しんぱん"
+            "text": "担当",
+            "reading": "たんとう"
+          },
+          {
+            "text": "者",
+            "reading": "しゃ"
           },
           {
             "text": "が、"
@@ -1890,23 +1894,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1321410-1-ex-1",
-        "version": 1,
-        "before": "交通費は、領収書に基づいて",
+        "version": 2,
+        "before": "移動にかかったお金は、領収書に基づいて",
         "answer": "実費",
         "after": "を支給します。",
         "reading": "じっぴ",
-        "translation": "교통비는 영수증에 근거해 실비를 지급합니다.",
+        "translation": "이동에 든 돈은 영수증에 근거해 실비를 지급합니다.",
         "translationTarget": "실비",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "交通",
-            "reading": "こうつう"
+            "text": "移動",
+            "reading": "いどう"
           },
           {
-            "text": "費",
-            "reading": "ひ"
+            "text": "にかかった"
+          },
+          {
+            "text": "お金",
+            "reading": "おかね"
           },
           {
             "text": "は、"

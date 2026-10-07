@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceHash": "85b1d03436638af7c22edea040e4f366f08dcdc50b6df1bd8aa2a68657da505a",
+  "sourceHash": "0e0d1d2a21d0c4ca0652fe0534e66bb3300d48378cfeb2eee128dcd78065a500",
   "scope": {
     "words": 5635,
     "senses": 5658
@@ -86999,7 +86999,7 @@
     ]
   },
   "semanticChecks": {
-    "sourceHash": "85b1d03436638af7c22edea040e4f366f08dcdc50b6df1bd8aa2a68657da505a",
+    "sourceHash": "0e0d1d2a21d0c4ca0652fe0534e66bb3300d48378cfeb2eee128dcd78065a500",
     "reviewedMultipleSenseWordIds": [
       "JLPTN3_142",
       "JLPTN3_144",
@@ -87937,5 +87937,15 @@
       "JMdict nf frequency bucket"
     ],
     "note": "이미 검토된 후보 안에서만 선택; 영어 공유 뜻의 개수나 자료의 기존 순서를 유사도/빈도로 간주하지 않음. 빈도 표시는 사전 근거를 보조 지표로 사용하며 실제 현재 사용량 통계는 아님."
-  }
+  },
+  "exampleCorrectionSourceRevisions": [
+    {
+      "id": "2026-10-07-question-kanji-leakage",
+      "beforeSourceHash": "85b1d03436638af7c22edea040e4f366f08dcdc50b6df1bd8aa2a68657da505a",
+      "afterSourceHash": "0e0d1d2a21d0c4ca0652fe0534e66bb3300d48378cfeb2eee128dcd78065a500",
+      "journalPath": "content/learn/example-corrections/2026-10-07-question-kanji-leakage.json",
+      "journalEntriesHash": "4d8c2588521a1c28e5fe659dc47c099bc71e3e8bd3b4e83baa1adcfd0b453946",
+      "reason": "예문 주변 문맥·번역·예문 버전만 변경. 단어/용법 의미·혼동 후보·검토 그룹·편집 우선순위 불변을 전량 대조"
+    }
+  ]
 }

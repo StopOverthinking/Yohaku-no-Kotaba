@@ -346,12 +346,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_281-1-ex-1",
-        "version": 1,
-        "before": "屋上から紙飛行機を",
+        "version": 2,
+        "before": "屋上から紙で作った模型を",
         "answer": "飛ばした",
         "after": "ら、風に乗って遠くへ行った。",
         "reading": "とばした",
-        "translation": "옥상에서 종이비행기를 날렸더니 바람을 타고 멀리 갔다.",
+        "translation": "옥상에서 종이로 만든 모형을 날렸더니 바람을 타고 멀리 갔다.",
         "translationTarget": "날렸더니",
         "difficulty": 28,
         "status": "reviewed",
@@ -368,8 +368,18 @@ const content: LearnSense[] = [
             "reading": "かみ"
           },
           {
-            "text": "飛行機",
-            "reading": "ひこうき"
+            "text": "で"
+          },
+          {
+            "text": "作っ",
+            "reading": "つくっ"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "模型",
+            "reading": "もけい"
           },
           {
             "text": "を"
@@ -971,12 +981,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1316140-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "壁の",
         "answer": "時計",
-        "after": "は三時です。",
+        "after": "を見ると、待ち合わせに遅れそうでした。",
         "reading": "とけい",
-        "translation": "벽에 걸린 시계는 세 시를 가리켜요.",
+        "translation": "벽에 걸린 시계를 보니 약속에 늦을 것 같았어요.",
         "translationTarget": "시계",
         "difficulty": 11,
         "status": "reviewed",
@@ -991,14 +1001,28 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "は"
+            "text": "を"
           },
           {
-            "text": "三時",
-            "reading": "さんじ"
+            "text": "見る",
+            "reading": "みる"
           },
           {
-            "text": "です。"
+            "text": "と、"
+          },
+          {
+            "text": "待ち合わせ",
+            "reading": "まちあわせ"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "遅れ",
+            "reading": "おくれ"
+          },
+          {
+            "text": "そうでした。"
           }
         ]
       }
@@ -1213,12 +1237,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1310050-1-ex-1",
-        "version": 2,
+        "version": 3,
         "before": "",
         "answer": "指輪",
-        "after": "のサイズを直してもらったら、指にぴったり合いました。",
+        "after": "のサイズを直してもらったら、ぴったり合いました。",
         "reading": "ゆびわ",
-        "translation": "반지 치수를 조정받았더니 손가락에 꼭 맞았어요.",
+        "translation": "반지 치수를 조정받았더니 꼭 맞았어요.",
         "translationTarget": "반지",
         "difficulty": 16,
         "status": "reviewed",
@@ -1232,14 +1256,7 @@ const content: LearnSense[] = [
             "reading": "なおし"
           },
           {
-            "text": "てもらったら、"
-          },
-          {
-            "text": "指",
-            "reading": "ゆび"
-          },
-          {
-            "text": "にぴったり"
+            "text": "てもらったら、ぴったり"
           },
           {
             "text": "合い",

@@ -729,12 +729,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1318400-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "父は古い",
         "answer": "自動車",
-        "after": "を自分で直しました。",
+        "after": "を休日に直しました。",
         "reading": "じどうしゃ",
-        "translation": "아버지는 낡은 자동차를 직접 고쳤어요.",
+        "translation": "아버지는 낡은 자동차를 쉬는 날에 고쳤어요.",
         "translationTarget": "자동차",
         "difficulty": 15,
         "status": "reviewed",
@@ -756,11 +756,11 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "自分",
-            "reading": "じぶん"
+            "text": "休日",
+            "reading": "きゅうじつ"
           },
           {
-            "text": "で"
+            "text": "に"
           },
           {
             "text": "直し",

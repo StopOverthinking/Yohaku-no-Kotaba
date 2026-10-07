@@ -293,12 +293,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_583-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "食品の鮮度を",
         "answer": "保つ",
-        "after": "ため、保冷剤を入れた。",
+        "after": "ため、氷の入った袋を添えた。",
         "reading": "たもつ",
-        "translation": "식품의 신선도를 유지하려고 보냉제를 넣었다.",
+        "translation": "식품의 신선도를 유지하려고 얼음이 든 봉지를 곁들였다.",
         "translationTarget": "유지하려고",
         "difficulty": 30,
         "status": "reviewed",
@@ -323,19 +323,29 @@ const content: LearnSense[] = [
             "text": "ため、"
           },
           {
-            "text": "保冷",
-            "reading": "ほれい"
+            "text": "氷",
+            "reading": "こおり"
           },
           {
-            "text": "剤",
-            "reading": "ざい"
+            "text": "の"
+          },
+          {
+            "text": "入っ",
+            "reading": "はいっ"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "袋",
+            "reading": "ふくろ"
           },
           {
             "text": "を"
           },
           {
-            "text": "入れ",
-            "reading": "いれ"
+            "text": "添え",
+            "reading": "そえ"
           },
           {
             "text": "た。"
@@ -2637,12 +2647,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1350370-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "避難訓練の前に、",
         "answer": "消防署",
-        "after": "の職員から消火器の使い方を教わった。",
+        "after": "の職員から避難の手順を教わった。",
         "reading": "しょうぼうしょ",
-        "translation": "대피 훈련 전에 소방서 직원에게 소화기 사용법을 배웠다.",
+        "translation": "대피 훈련 전에 소방서 직원에게 대피 절차를 배웠다.",
         "translationTarget": "소방서",
         "difficulty": 38,
         "status": "reviewed",
@@ -2678,19 +2688,15 @@ const content: LearnSense[] = [
             "text": "から"
           },
           {
-            "text": "消火",
-            "reading": "しょうか"
-          },
-          {
-            "text": "器",
-            "reading": "き"
+            "text": "避難",
+            "reading": "ひなん"
           },
           {
             "text": "の"
           },
           {
-            "text": "使い方",
-            "reading": "つかいかた"
+            "text": "手順",
+            "reading": "てじゅん"
           },
           {
             "text": "を"
@@ -3054,12 +3060,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1302210-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "ニュースでは、",
         "answer": "参議院",
-        "after": "での法案審議の様子が紹介された。",
+        "after": "での法案の検討の様子が紹介された。",
         "reading": "さんぎいん",
-        "translation": "뉴스에서는 참의원에서의 법안 심의 모습을 소개했다.",
+        "translation": "뉴스에서는 참의원에서의 법안 검토 모습을 소개했다.",
         "translationTarget": "참의원",
         "difficulty": 46,
         "status": "reviewed",
@@ -3077,8 +3083,11 @@ const content: LearnSense[] = [
             "reading": "ほうあん"
           },
           {
-            "text": "審議",
-            "reading": "しんぎ"
+            "text": "の"
+          },
+          {
+            "text": "検討",
+            "reading": "けんとう"
           },
           {
             "text": "の"

@@ -2119,12 +2119,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1255840-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "月末",
-        "after": "までに、今月使った費用をまとめて提出する。",
+        "after": "までに、使った費用をまとめて提出する。",
         "reading": "げつまつ",
-        "translation": "월말까지 이번 달에 쓴 비용을 정리해서 제출한다.",
+        "translation": "월말까지 쓴 비용을 정리해서 제출한다.",
         "translationTarget": "월말",
         "difficulty": 37,
         "status": "reviewed",
@@ -2132,10 +2132,6 @@ const content: LearnSense[] = [
         "afterFurigana": [
           {
             "text": "までに、"
-          },
-          {
-            "text": "今月",
-            "reading": "こんげつ"
           },
           {
             "text": "使っ",

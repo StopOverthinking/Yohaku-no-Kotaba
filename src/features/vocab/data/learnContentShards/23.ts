@@ -21,16 +21,20 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_456-1-ex-1",
-        "version": 2,
-        "before": "薬を変えて一週間で、体調に",
+        "version": 3,
+        "before": "新しい薬を飲み始めて一週間で、体調に",
         "answer": "変化",
         "after": "が現れた。",
         "reading": "へんか",
-        "translation": "약을 바꾸고 일주일 만에 몸 상태에 변화가 나타났다.",
+        "translation": "새 약을 먹기 시작하고 일주일 만에 몸 상태에 변화가 나타났다.",
         "translationTarget": "변화",
         "difficulty": 29,
         "status": "reviewed",
         "beforeFurigana": [
+          {
+            "text": "新しい",
+            "reading": "あたらしい"
+          },
           {
             "text": "薬",
             "reading": "くすり"
@@ -39,8 +43,12 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "変え",
-            "reading": "かえ"
+            "text": "飲み",
+            "reading": "のみ"
+          },
+          {
+            "text": "始め",
+            "reading": "はじめ"
           },
           {
             "text": "て"

@@ -937,8 +937,8 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1307850-1-ex-1",
-        "version": 1,
-        "before": "迷子の",
+        "version": 2,
+        "before": "道が分からなくなった",
         "answer": "子供",
         "after": "が駅員と話していました。",
         "reading": "こども",
@@ -948,11 +948,18 @@ const content: LearnSense[] = [
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "迷子",
-            "reading": "まいご"
+            "text": "道",
+            "reading": "みち"
           },
           {
-            "text": "の"
+            "text": "が"
+          },
+          {
+            "text": "分から",
+            "reading": "わから"
+          },
+          {
+            "text": "なくなった"
           }
         ],
         "afterFurigana": [
@@ -1338,12 +1345,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1426920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "駅の",
         "answer": "駐車場",
-        "after": "に車を止めました。",
+        "after": "にバイクを止めました。",
         "reading": "ちゅうしゃじょう",
-        "translation": "역 주차장에 차를 세웠어요.",
+        "translation": "역 주차장에 오토바이를 세웠어요.",
         "translationTarget": "주차장",
         "difficulty": 16,
         "status": "reviewed",
@@ -1358,14 +1365,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "に"
-          },
-          {
-            "text": "車",
-            "reading": "くるま"
-          },
-          {
-            "text": "を"
+            "text": "にバイクを"
           },
           {
             "text": "止め",
@@ -1575,12 +1575,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1242300-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "近頃",
-        "after": "、夕食の後に近所を散歩するのが習慣になった。",
+        "after": "、夕食の後に川沿いを散歩するのが習慣になった。",
         "reading": "ちかごろ",
-        "translation": "요즘 저녁 식사 후 동네를 산책하는 것이 습관이 되었다.",
+        "translation": "요즘 저녁 식사 후 강변을 산책하는 것이 습관이 되었다.",
         "translationTarget": "요즘",
         "difficulty": 26,
         "status": "reviewed",
@@ -1604,8 +1604,12 @@ const content: LearnSense[] = [
             "text": "に"
           },
           {
-            "text": "近所",
-            "reading": "きんじょ"
+            "text": "川",
+            "reading": "かわ"
+          },
+          {
+            "text": "沿い",
+            "reading": "ぞい"
           },
           {
             "text": "を"
@@ -1921,12 +1925,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1184480-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "成績が",
         "answer": "下位",
-        "after": "だったチームも、後半には連勝して順位を上げた。",
+        "after": "だったチームも、後半には連勝して調子を取り戻した。",
         "reading": "かい",
-        "translation": "성적이 하위였던 팀도 후반에는 연승하여 순위를 올렸다.",
+        "translation": "성적이 하위였던 팀도 후반에는 연승하여 흐름을 되찾았다.",
         "translationTarget": "하위",
         "difficulty": 45,
         "status": "reviewed",
@@ -1958,15 +1962,15 @@ const content: LearnSense[] = [
             "text": "して"
           },
           {
-            "text": "順位",
-            "reading": "じゅんい"
+            "text": "調子",
+            "reading": "ちょうし"
           },
           {
             "text": "を"
           },
           {
-            "text": "上げ",
-            "reading": "あげ"
+            "text": "取り戻し",
+            "reading": "とりもどし"
           },
           {
             "text": "た。"
@@ -2084,26 +2088,29 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1201820-1-ex-1",
-        "version": 1,
-        "before": "漂流物の行方を予測するため、",
+        "version": 2,
+        "before": "波に運ばれたごみの行方を予測するため、",
         "answer": "海流",
         "after": "のデータを分析した。",
         "reading": "かいりゅう",
-        "translation": "표류물의 행방을 예측하기 위해 해류 데이터를 분석했다.",
+        "translation": "파도에 밀려온 쓰레기의 행방을 예측하기 위해 해류 데이터를 분석했다.",
         "translationTarget": "해류",
         "difficulty": 49,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "漂流",
-            "reading": "ひょうりゅう"
+            "text": "波",
+            "reading": "なみ"
           },
           {
-            "text": "物",
-            "reading": "ぶつ"
+            "text": "に"
           },
           {
-            "text": "の"
+            "text": "運ば",
+            "reading": "はこば"
+          },
+          {
+            "text": "れたごみの"
           },
           {
             "text": "行方",
@@ -2635,12 +2642,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1154540-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "細かい金額を",
         "answer": "暗算",
-        "after": "で足すのは難しく、計算機で確かめた。",
+        "after": "で足すのは難しく、スマートフォンで確かめた。",
         "reading": "あんざん",
-        "translation": "세세한 금액을 암산으로 더하기 어려워 계산기로 확인했다.",
+        "translation": "세세한 금액을 암산으로 더하기 어려워 스마트폰으로 확인했다.",
         "translationTarget": "암산",
         "difficulty": 43,
         "status": "reviewed",
@@ -2673,18 +2680,7 @@ const content: LearnSense[] = [
             "reading": "むずかしく"
           },
           {
-            "text": "、"
-          },
-          {
-            "text": "計算",
-            "reading": "けいさん"
-          },
-          {
-            "text": "機",
-            "reading": "き"
-          },
-          {
-            "text": "で"
+            "text": "、スマートフォンで"
           },
           {
             "text": "確かめ",
@@ -2806,19 +2802,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1196010-1-ex-1",
-        "version": 1,
-        "before": "過去の",
+        "version": 2,
+        "before": "昔の",
         "answer": "過ち",
         "after": "を認めなければ、同じことを繰り返すかもしれない。",
         "reading": "あやまち",
-        "translation": "과거의 잘못을 인정하지 않으면 같은 일을 되풀이할지도 모른다.",
+        "translation": "옛날의 잘못을 인정하지 않으면 같은 일을 되풀이할지도 모른다.",
         "translationTarget": "잘못",
         "difficulty": 45,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "過去",
-            "reading": "かこ"
+            "text": "昔",
+            "reading": "むかし"
           },
           {
             "text": "の"
@@ -3257,12 +3253,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1305180-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "広い部屋を棚で",
         "answer": "仕切って",
-        "after": "、仕事用の空間を作った。",
+        "after": "、読書用の空間を作った。",
         "reading": "しきって",
-        "translation": "넓은 방을 선반으로 구분해서 업무용 공간을 만들었다.",
+        "translation": "넓은 방을 선반으로 구분해서 독서용 공간을 만들었다.",
         "translationTarget": "구분해서",
         "difficulty": 44,
         "status": "reviewed",
@@ -3291,8 +3287,8 @@ const content: LearnSense[] = [
             "text": "、"
           },
           {
-            "text": "仕事",
-            "reading": "しごと"
+            "text": "読書",
+            "reading": "どくしょ"
           },
           {
             "text": "用",
@@ -3480,12 +3476,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1424500-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "匿名の",
         "answer": "中傷",
-        "after": "によって、無関係な人まで傷つけられた。",
+        "after": "によって、無関係な人まで苦しめられた。",
         "reading": "ちゅうしょう",
-        "translation": "익명의 비방으로 관계없는 사람까지 상처를 입었다.",
+        "translation": "익명의 비방으로 관계없는 사람까지 고통을 겪었다.",
         "translationTarget": "비방",
         "difficulty": 43,
         "status": "reviewed",
@@ -3517,8 +3513,8 @@ const content: LearnSense[] = [
             "text": "まで"
           },
           {
-            "text": "傷つけ",
-            "reading": "きずつけ"
+            "text": "苦しめ",
+            "reading": "くるしめ"
           },
           {
             "text": "られた。"
@@ -3760,12 +3756,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1333260-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "新しい法案が、",
         "answer": "衆議院",
-        "after": "で審議されている。",
+        "after": "で検討されている。",
         "reading": "しゅうぎいん",
-        "translation": "새 법안이 중의원에서 심의되고 있다.",
+        "translation": "새 법안이 중의원에서 검토되고 있다.",
         "translationTarget": "중의원",
         "difficulty": 43,
         "status": "reviewed",
@@ -3787,8 +3783,8 @@ const content: LearnSense[] = [
             "text": "で"
           },
           {
-            "text": "審議",
-            "reading": "しんぎ"
+            "text": "検討",
+            "reading": "けんとう"
           },
           {
             "text": "されている。"

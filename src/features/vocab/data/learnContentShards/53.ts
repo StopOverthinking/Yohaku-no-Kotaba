@@ -646,19 +646,33 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1191980-1-ex-1",
-        "version": 1,
-        "before": "家族で",
+        "version": 2,
+        "before": "母と弟と私で",
         "answer": "家事",
         "after": "を分けてやっています。",
         "reading": "かじ",
-        "translation": "가족끼리 집안일을 나눠서 하고 있어요.",
+        "translation": "어머니와 남동생과 내가 집안일을 나눠서 하고 있어요.",
         "translationTarget": "집안일",
         "difficulty": 21,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "家族",
-            "reading": "かぞく"
+            "text": "母",
+            "reading": "はは"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "弟",
+            "reading": "おとうと"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "私",
+            "reading": "わたし"
           },
           {
             "text": "で"
@@ -1064,29 +1078,29 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1347530-1-ex-1",
-        "version": 1,
-        "before": "大学に通うための",
+        "version": 2,
+        "before": "進路を決め、",
         "answer": "奨学金",
         "after": "を申し込む前に、返済条件を確認した。",
         "reading": "しょうがくきん",
-        "translation": "대학에 다니기 위한 학업 지원금을 신청하기 전에 상환 조건을 확인했다.",
+        "translation": "진로를 정하고 학업 지원금을 신청하기 전에 상환 조건을 확인했다.",
         "translationTarget": "학업 지원금",
         "difficulty": 31,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "大学",
-            "reading": "だいがく"
+            "text": "進路",
+            "reading": "しんろ"
           },
           {
-            "text": "に"
+            "text": "を"
           },
           {
-            "text": "通う",
-            "reading": "かよう"
+            "text": "決め",
+            "reading": "きめ"
           },
           {
-            "text": "ための"
+            "text": "、"
           }
         ],
         "afterFurigana": [
@@ -1978,12 +1992,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1323280-1-ex-1",
-        "version": 1,
-        "before": "古い自転車の",
+        "version": 2,
+        "before": "古いカートの",
         "answer": "車輪",
         "after": "を外して、タイヤを交換した。",
         "reading": "しゃりん",
-        "translation": "오래된 자전거의 바퀴를 떼어 내고 타이어를 교체했다.",
+        "translation": "오래된 카트의 바퀴를 떼어 내고 타이어를 교체했다.",
         "translationTarget": "바퀴",
         "difficulty": 29,
         "status": "reviewed",
@@ -1993,11 +2007,7 @@ const content: LearnSense[] = [
             "reading": "ふるい"
           },
           {
-            "text": "自転車",
-            "reading": "じてんしゃ"
-          },
-          {
-            "text": "の"
+            "text": "カートの"
           }
         ],
         "afterFurigana": [

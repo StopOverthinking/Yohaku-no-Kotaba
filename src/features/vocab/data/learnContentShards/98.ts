@@ -2317,12 +2317,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1259180-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "外からは",
         "answer": "見すぼらしい",
-        "after": "建物に見えたが、中は丁寧に手入れされていた。",
+        "after": "建物だったが、中は丁寧に手入れされていた。",
         "reading": "みすぼらしい",
-        "translation": "밖에서는 허름한 건물로 보였지만 안은 정성스럽게 관리되어 있었다.",
+        "translation": "밖에서는 허름한 건물이었지만 안은 정성스럽게 관리되어 있었다.",
         "translationTarget": "허름한",
         "difficulty": 45,
         "status": "reviewed",
@@ -2341,14 +2341,7 @@ const content: LearnSense[] = [
             "reading": "たてもの"
           },
           {
-            "text": "に"
-          },
-          {
-            "text": "見え",
-            "reading": "みえ"
-          },
-          {
-            "text": "たが、"
+            "text": "だったが、"
           },
           {
             "text": "中",
@@ -3031,12 +3024,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1323120-1-ex-1",
-        "version": 1,
-        "before": "台風が来るので、自転車も",
+        "version": 2,
+        "before": "台風が来るので、バイクも",
         "answer": "車庫",
         "after": "に入れた。",
         "reading": "しゃこ",
-        "translation": "태풍이 오므로 자전거도 차고에 넣었다.",
+        "translation": "태풍이 오므로 오토바이도 차고에 넣었다.",
         "translationTarget": "차고",
         "difficulty": 28,
         "status": "reviewed",
@@ -3053,14 +3046,7 @@ const content: LearnSense[] = [
             "reading": "くる"
           },
           {
-            "text": "ので、"
-          },
-          {
-            "text": "自転車",
-            "reading": "じてんしゃ"
-          },
-          {
-            "text": "も"
+            "text": "ので、バイクも"
           }
         ],
         "afterFurigana": [

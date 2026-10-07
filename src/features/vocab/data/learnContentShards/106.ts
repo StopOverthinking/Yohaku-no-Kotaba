@@ -951,12 +951,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1307320-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "来月",
         "answer": "４日",
-        "after": "は祖母の誕生日です。",
+        "after": "に祖母を食事へ招く予定です。",
         "reading": "よっか",
-        "translation": "다음 달 4일은 할머니 생일이에요.",
+        "translation": "다음 달 4일에 할머니를 식사에 초대할 예정이에요.",
         "translationTarget": "4일",
         "difficulty": 12,
         "status": "reviewed",
@@ -968,22 +968,29 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "は"
+            "text": "に"
           },
           {
             "text": "祖母",
             "reading": "そぼ"
           },
           {
-            "text": "の"
+            "text": "を"
           },
           {
-            "text": "誕生",
-            "reading": "たんじょう"
+            "text": "食事",
+            "reading": "しょくじ"
           },
           {
-            "text": "日",
-            "reading": "び"
+            "text": "へ"
+          },
+          {
+            "text": "招く",
+            "reading": "まねく"
+          },
+          {
+            "text": "予定",
+            "reading": "よてい"
           },
           {
             "text": "です。"
@@ -2849,12 +2856,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1374810-1-ex-1",
-        "version": 1,
-        "before": "学生たちは、卒業作品として短い映画を",
+        "version": 2,
+        "before": "学生たちは、卒業を前に短い映画を",
         "answer": "制作",
         "after": "した。",
         "reading": "せいさく",
-        "translation": "학생들은 졸업 작품으로 짧은 영화를 제작했다.",
+        "translation": "학생들은 졸업을 앞두고 짧은 영화를 제작했다.",
         "translationTarget": "제작",
         "difficulty": 35,
         "status": "reviewed",
@@ -2871,11 +2878,14 @@ const content: LearnSense[] = [
             "reading": "そつぎょう"
           },
           {
-            "text": "作品",
-            "reading": "さくひん"
+            "text": "を"
           },
           {
-            "text": "として"
+            "text": "前",
+            "reading": "まえ"
+          },
+          {
+            "text": "に"
           },
           {
             "text": "短い",

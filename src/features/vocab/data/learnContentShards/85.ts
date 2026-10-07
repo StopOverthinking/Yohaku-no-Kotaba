@@ -658,12 +658,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_691-1-ex-1",
-        "version": 1,
-        "before": "医師はけがをした選手の膝を",
+        "version": 2,
+        "before": "医師はけがをしたランナーの膝を",
         "answer": "手術した",
         "after": "。",
         "reading": "しゅじゅつした",
-        "translation": "의사는 다친 선수의 무릎을 수술했다.",
+        "translation": "의사는 다친 달리기 선수의 무릎을 수술했다.",
         "translationTarget": "수술했다",
         "difficulty": 28,
         "status": "reviewed",
@@ -673,14 +673,7 @@ const content: LearnSense[] = [
             "reading": "いし"
           },
           {
-            "text": "はけがをした"
-          },
-          {
-            "text": "選手",
-            "reading": "せんしゅ"
-          },
-          {
-            "text": "の"
+            "text": "はけがをしたランナーの"
           },
           {
             "text": "膝",

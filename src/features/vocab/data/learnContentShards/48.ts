@@ -3174,12 +3174,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1304240-1-ex-1",
-        "version": 1,
-        "before": "詩人は作品の中で、故郷の自然の美しさを",
+        "version": 2,
+        "before": "詩人は作品の中で、故郷の雄大な自然を",
         "answer": "賛美",
         "after": "した。",
         "reading": "さんび",
-        "translation": "시인은 작품 속에서 고향 자연의 아름다움을 찬미했다.",
+        "translation": "시인은 작품 속에서 고향의 웅대한 자연을 찬미했다.",
         "translationTarget": "찬미",
         "difficulty": 46,
         "status": "reviewed",
@@ -3213,18 +3213,18 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
+            "text": "雄大",
+            "reading": "ゆうだい"
+          },
+          {
+            "text": "な"
+          },
+          {
             "text": "自然",
             "reading": "しぜん"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "美し",
-            "reading": "うつくし"
-          },
-          {
-            "text": "さを"
+            "text": "を"
           }
         ],
         "afterFurigana": [

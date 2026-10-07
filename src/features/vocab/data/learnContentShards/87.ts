@@ -3005,12 +3005,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1378790-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "大人を小ばかにするような",
         "answer": "生意気",
-        "after": "な言い方は、注意された。",
+        "after": "な言い方は、周囲にたしなめられた。",
         "reading": "なまいき",
-        "translation": "어른을 얕보는 듯한 건방진 말투는 주의를 받았다.",
+        "translation": "어른을 얕보는 듯한 건방진 말투는 주변 사람들에게 꾸지람을 들었다.",
         "translationTarget": "건방진",
         "difficulty": 35,
         "status": "reviewed",
@@ -3042,11 +3042,11 @@ const content: LearnSense[] = [
             "text": "は、"
           },
           {
-            "text": "注意",
-            "reading": "ちゅうい"
+            "text": "周囲",
+            "reading": "しゅうい"
           },
           {
-            "text": "された。"
+            "text": "にたしなめられた。"
           }
         ]
       }
@@ -3072,12 +3072,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1477750-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "屋根の太陽光パネルで",
         "answer": "発電",
-        "after": "し、家で使う電気の一部をまかなう。",
+        "after": "し、家庭のエネルギー需要を一部まかなう。",
         "reading": "はつでん",
-        "translation": "지붕의 태양광 패널로 전기를 생산해 집에서 쓰는 전기의 일부를 충당한다.",
+        "translation": "지붕의 태양광 패널로 전기를 생산해 가정에 필요한 에너지의 일부를 충당한다.",
         "translationTarget": "전기를 생산",
         "difficulty": 35,
         "status": "reviewed",
@@ -3102,29 +3102,25 @@ const content: LearnSense[] = [
             "text": "し、"
           },
           {
-            "text": "家",
-            "reading": "いえ"
+            "text": "家庭",
+            "reading": "かてい"
           },
           {
-            "text": "で"
+            "text": "のエネルギー"
           },
           {
-            "text": "使う",
-            "reading": "つかう"
+            "text": "需要",
+            "reading": "じゅよう"
           },
           {
-            "text": "電気",
-            "reading": "でんき"
-          },
-          {
-            "text": "の"
+            "text": "を"
           },
           {
             "text": "一部",
             "reading": "いちぶ"
           },
           {
-            "text": "をまかなう。"
+            "text": "まかなう。"
           }
         ]
       }
@@ -3437,12 +3433,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1531830-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "参加者の",
         "answer": "名簿",
-        "after": "を見ながら、名札を順番に並べた。",
+        "after": "を見ながら、受付用のカードを順番に並べた。",
         "reading": "めいぼ",
-        "translation": "참가자 명부를 보며 명찰을 순서대로 놓았다.",
+        "translation": "참가자 명부를 보며 접수용 카드를 순서대로 놓았다.",
         "translationTarget": "명부",
         "difficulty": 35,
         "status": "reviewed",
@@ -3471,11 +3467,15 @@ const content: LearnSense[] = [
             "text": "ながら、"
           },
           {
-            "text": "名札",
-            "reading": "なふだ"
+            "text": "受付",
+            "reading": "うけつけ"
           },
           {
-            "text": "を"
+            "text": "用",
+            "reading": "よう"
+          },
+          {
+            "text": "のカードを"
           },
           {
             "text": "順番",

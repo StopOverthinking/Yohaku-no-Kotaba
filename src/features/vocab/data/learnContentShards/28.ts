@@ -1247,12 +1247,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1477500-1-ex-1",
-        "version": 1,
-        "before": "ベルが鳴り終わると、列車の",
+        "version": 2,
+        "before": "ベルが鳴り終わると、",
         "answer": "発車",
         "after": "を知らせる放送が流れた。",
         "reading": "はっしゃ",
-        "translation": "벨이 울리고 나자 열차 출발을 알리는 방송이 나왔다.",
+        "translation": "벨이 울리고 나자 출발을 알리는 방송이 나왔다.",
         "translationTarget": "출발",
         "difficulty": 29,
         "status": "reviewed",
@@ -1270,13 +1270,6 @@ const content: LearnSense[] = [
           },
           {
             "text": "と、"
-          },
-          {
-            "text": "列車",
-            "reading": "れっしゃ"
-          },
-          {
-            "text": "の"
           }
         ],
         "afterFurigana": [
@@ -1325,12 +1318,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1492570-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "誰もいない部屋から声が聞こえ、私は",
         "answer": "不思議",
-        "after": "に思った。",
+        "after": "に感じた。",
         "reading": "ふしぎ",
-        "translation": "아무도 없는 방에서 목소리가 들려 나는 이상하게 생각했다.",
+        "translation": "아무도 없는 방에서 목소리가 들려 나는 이상하게 느꼈다.",
         "translationTarget": "이상하게",
         "difficulty": 30,
         "status": "reviewed",
@@ -1376,8 +1369,8 @@ const content: LearnSense[] = [
             "text": "に"
           },
           {
-            "text": "思っ",
-            "reading": "おもっ"
+            "text": "感じ",
+            "reading": "かんじ"
           },
           {
             "text": "た。"

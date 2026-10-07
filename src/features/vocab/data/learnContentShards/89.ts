@@ -1028,12 +1028,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1183510-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "焼く前に、オーブンの",
         "answer": "温度",
-        "after": "を百八十度に設定した。",
+        "after": "をレシピの指定どおりに設定した。",
         "reading": "おんど",
-        "translation": "굽기 전에 오븐 온도를 백팔십 도로 설정했다.",
+        "translation": "굽기 전에 오븐 온도를 조리법에 지정된 대로 설정했다.",
         "translationTarget": "온도",
         "difficulty": 27,
         "status": "reviewed",
@@ -1052,26 +1052,14 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "を"
+            "text": "をレシピの"
           },
           {
-            "text": "百",
-            "reading": "ひゃく"
+            "text": "指定",
+            "reading": "してい"
           },
           {
-            "text": "八",
-            "reading": "はち"
-          },
-          {
-            "text": "十",
-            "reading": "じゅう"
-          },
-          {
-            "text": "度",
-            "reading": "ど"
-          },
-          {
-            "text": "に"
+            "text": "どおりに"
           },
           {
             "text": "設定",
@@ -1464,10 +1452,10 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1495640-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "近所の人との",
         "answer": "付き合い",
-        "after": "を大切にし、困ったときは助け合っている。",
+        "after": "を大切にし、困ったときは互いに助けている。",
         "reading": "つきあい",
         "translation": "이웃과의 교제를 소중히 여기며 힘들 때는 서로 돕고 있다.",
         "translationTarget": "교제",
@@ -1508,8 +1496,12 @@ const content: LearnSense[] = [
             "text": "たときは"
           },
           {
-            "text": "助け合っ",
-            "reading": "たすけあっ"
+            "text": "互いに",
+            "reading": "たがいに"
+          },
+          {
+            "text": "助け",
+            "reading": "たすけ"
           },
           {
             "text": "ている。"
@@ -2262,8 +2254,8 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1284550-1-ex-1",
-        "version": 1,
-        "before": "長い話し合いの末、両社は新しい契約条件に",
+        "version": 2,
+        "before": "長い協議の末、両社は新しい契約条件に",
         "answer": "合意",
         "after": "した。",
         "reading": "ごうい",
@@ -2277,8 +2269,8 @@ const content: LearnSense[] = [
             "reading": "ながい"
           },
           {
-            "text": "話し合い",
-            "reading": "はなしあい"
+            "text": "協議",
+            "reading": "きょうぎ"
           },
           {
             "text": "の"

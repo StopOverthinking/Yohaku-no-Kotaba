@@ -1910,12 +1910,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1278100-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "子供たちは身近な材料を使う",
         "answer": "工作",
-        "after": "で、動くおもちゃを作った。",
+        "after": "で、動くおもちゃを完成させた。",
         "reading": "こうさく",
-        "translation": "아이들은 주변 재료를 이용한 만들기 활동으로 움직이는 장난감을 만들었다.",
+        "translation": "아이들은 주변 재료를 이용한 만들기 활동으로 움직이는 장난감을 완성했다.",
         "translationTarget": "만들기",
         "difficulty": 43,
         "status": "reviewed",
@@ -1958,11 +1958,11 @@ const content: LearnSense[] = [
             "text": "おもちゃを"
           },
           {
-            "text": "作っ",
-            "reading": "つくっ"
+            "text": "完成",
+            "reading": "かんせい"
           },
           {
-            "text": "た。"
+            "text": "させた。"
           }
         ]
       }

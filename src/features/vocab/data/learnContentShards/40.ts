@@ -1494,12 +1494,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1196490-1-ex-1",
-        "version": 1,
-        "before": "長時間労働による",
+        "version": 2,
+        "before": "長時間の勤務による",
         "answer": "過労",
         "after": "を防ぐため、勤務記録を見直した。",
         "reading": "かろう",
-        "translation": "장시간 노동에 따른 과로를 막기 위해 근무 기록을 재검토했다.",
+        "translation": "장시간 근무에 따른 과로를 막기 위해 근무 기록을 재검토했다.",
         "translationTarget": "과로",
         "difficulty": 47,
         "status": "reviewed",
@@ -1509,8 +1509,11 @@ const content: LearnSense[] = [
             "reading": "ちょうじかん"
           },
           {
-            "text": "労働",
-            "reading": "ろうどう"
+            "text": "の"
+          },
+          {
+            "text": "勤務",
+            "reading": "きんむ"
           },
           {
             "text": "による"

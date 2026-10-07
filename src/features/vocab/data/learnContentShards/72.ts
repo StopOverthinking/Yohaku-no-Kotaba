@@ -1552,29 +1552,36 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1293650-1-ex-1",
-        "version": 1,
-        "before": "来週は準備だけで、発表は",
+        "version": 2,
+        "before": "準備を十分に進めて、発表は",
         "answer": "再来週",
-        "after": "の月曜日に行う。",
+        "after": "の火曜日に行う。",
         "reading": "さらいしゅう",
-        "translation": "다음 주에는 준비만 하고 발표는 다다음 주 월요일에 한다.",
+        "translation": "준비를 충분히 진행하고 발표는 다다음 주 화요일에 한다.",
         "translationTarget": "다다음 주",
         "difficulty": 23,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "来週",
-            "reading": "らいしゅう"
-          },
-          {
-            "text": "は"
-          },
-          {
             "text": "準備",
             "reading": "じゅんび"
           },
           {
-            "text": "だけで、"
+            "text": "を"
+          },
+          {
+            "text": "十分",
+            "reading": "じゅうぶん"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "進め",
+            "reading": "すすめ"
+          },
+          {
+            "text": "て、"
           },
           {
             "text": "発表",
@@ -1589,8 +1596,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "月曜日",
-            "reading": "げつようび"
+            "text": "火曜日",
+            "reading": "かようび"
           },
           {
             "text": "に"
@@ -2209,12 +2216,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1298000-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この装置は、水の流れの",
         "answer": "作用",
-        "after": "を利用して動く。",
+        "after": "を生かして動く。",
         "reading": "さよう",
-        "translation": "이 장치는 물 흐름의 작용을 이용해 움직인다.",
+        "translation": "이 장치는 물 흐름의 작용을 살려 움직인다.",
         "translationTarget": "작용",
         "difficulty": 46,
         "status": "reviewed",
@@ -2249,11 +2256,11 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "利用",
-            "reading": "りよう"
+            "text": "生かし",
+            "reading": "いかし"
           },
           {
-            "text": "して"
+            "text": "て"
           },
           {
             "text": "動く",
@@ -2911,12 +2918,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1403190-1-ex-1",
-        "version": 1,
-        "before": "救急の要請が増え、病院は夜間の体制を",
+        "version": 2,
+        "before": "救急の要請が多くなり、病院は夜間の体制を",
         "answer": "増強",
         "after": "した。",
         "reading": "ぞうきょう",
-        "translation": "응급 요청이 늘어 병원은 야간 운영 체제를 증강했다.",
+        "translation": "응급 요청이 많아져 병원은 야간 운영 체제를 증강했다.",
         "translationTarget": "증강",
         "difficulty": 43,
         "status": "reviewed",
@@ -2936,11 +2943,11 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "増え",
-            "reading": "ふえ"
+            "text": "多く",
+            "reading": "おおく"
           },
           {
-            "text": "、"
+            "text": "なり、"
           },
           {
             "text": "病院",

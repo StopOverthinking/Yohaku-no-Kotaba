@@ -1361,12 +1361,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1160140-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "島に住む人にも十分な",
         "answer": "医療",
-        "after": "が届くよう、船で医師を派遣している。",
+        "after": "が届くよう、船で専門のスタッフを派遣している。",
         "reading": "いりょう",
-        "translation": "섬에 사는 사람에게도 충분한 의료가 제공되도록 배로 의사를 파견한다.",
+        "translation": "섬에 사는 사람에게도 충분한 의료가 제공되도록 배로 전문 인력을 파견한다.",
         "translationTarget": "의료",
         "difficulty": 29,
         "status": "reviewed",
@@ -1416,11 +1416,11 @@ const content: LearnSense[] = [
             "text": "で"
           },
           {
-            "text": "医師",
-            "reading": "いし"
+            "text": "専門",
+            "reading": "せんもん"
           },
           {
-            "text": "を"
+            "text": "のスタッフを"
           },
           {
             "text": "派遣",
@@ -1599,23 +1599,16 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1293640-1-ex-1",
-        "version": 1,
-        "before": "八月の今から準備すれば、",
+        "version": 2,
+        "before": "今から準備すれば、",
         "answer": "再来月",
-        "after": "の十月には完成できる。",
+        "after": "には完成できる。",
         "reading": "さらいげつ",
-        "translation": "팔월인 지금부터 준비하면 다다음 달인 시월에는 완성할 수 있다.",
+        "translation": "지금부터 준비하면 다다음 달에는 완성할 수 있다.",
         "translationTarget": "다다음 달",
         "difficulty": 24,
         "status": "reviewed",
         "beforeFurigana": [
-          {
-            "text": "八月",
-            "reading": "はちがつ"
-          },
-          {
-            "text": "の"
-          },
           {
             "text": "今",
             "reading": "いま"
@@ -1632,13 +1625,6 @@ const content: LearnSense[] = [
           }
         ],
         "afterFurigana": [
-          {
-            "text": "の"
-          },
-          {
-            "text": "十月",
-            "reading": "じゅうがつ"
-          },
           {
             "text": "には"
           },
@@ -2421,12 +2407,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1335320-1-ex-1",
-        "version": 1,
-        "before": "彼は長年、海の環境を調べる仕事に",
+        "version": 2,
+        "before": "彼は長年、海の環境の調査に",
         "answer": "従事",
         "after": "してきた。",
         "reading": "じゅうじ",
-        "translation": "그는 오랫동안 바다 환경을 조사하는 일에 종사해 왔다.",
+        "translation": "그는 오랫동안 바다 환경 조사에 종사해 왔다.",
         "translationTarget": "종사",
         "difficulty": 43,
         "status": "reviewed",
@@ -2457,15 +2443,11 @@ const content: LearnSense[] = [
             "reading": "かんきょう"
           },
           {
-            "text": "を"
+            "text": "の"
           },
           {
-            "text": "調べる",
-            "reading": "しらべる"
-          },
-          {
-            "text": "仕事",
-            "reading": "しごと"
+            "text": "調査",
+            "reading": "ちょうさ"
           },
           {
             "text": "に"
@@ -2499,12 +2481,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1470780-1-ex-1",
-        "version": 1,
-        "before": "この農園では、",
+        "version": 2,
+        "before": "この畑では、",
         "answer": "農薬",
         "after": "の使用量を減らす工夫をしている。",
         "reading": "のうやく",
-        "translation": "이 농장에서는 농약 사용량을 줄이기 위해 노력하고 있다.",
+        "translation": "이 밭에서는 농약 사용량을 줄이기 위해 노력하고 있다.",
         "translationTarget": "농약",
         "difficulty": 35,
         "status": "reviewed",
@@ -2513,8 +2495,8 @@ const content: LearnSense[] = [
             "text": "この"
           },
           {
-            "text": "農園",
-            "reading": "のうえん"
+            "text": "畑",
+            "reading": "はたけ"
           },
           {
             "text": "では、"

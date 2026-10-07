@@ -2552,12 +2552,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1263290-1-ex-1",
-        "version": 1,
-        "before": "提出が一日遅れたため、レポートは五点",
+        "version": 2,
+        "before": "提出が一日遅れたため、レポートは",
         "answer": "減点",
         "after": "された。",
         "reading": "げんてん",
-        "translation": "제출이 하루 늦어 보고서는 5점 감점되었다.",
+        "translation": "제출이 하루 늦어 보고서는 감점되었다.",
         "translationTarget": "감점",
         "difficulty": 44,
         "status": "reviewed",
@@ -2579,14 +2579,6 @@ const content: LearnSense[] = [
           },
           {
             "text": "たため、レポートは"
-          },
-          {
-            "text": "五",
-            "reading": "ご"
-          },
-          {
-            "text": "点",
-            "reading": "てん"
           }
         ],
         "afterFurigana": [
@@ -2752,12 +2744,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1421500-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "古い",
         "answer": "地名",
-        "after": "には、その土地の歴史が残っています。",
+        "after": "には、その場所の歴史が残っています。",
         "reading": "ちめい",
-        "translation": "오래된 지명에는 그 땅의 역사가 남아 있습니다.",
+        "translation": "오래된 지명에는 그 장소의 역사가 남아 있습니다.",
         "translationTarget": "지명",
         "difficulty": 28,
         "status": "reviewed",
@@ -2772,8 +2764,8 @@ const content: LearnSense[] = [
             "text": "には、その"
           },
           {
-            "text": "土地",
-            "reading": "とち"
+            "text": "場所",
+            "reading": "ばしょ"
           },
           {
             "text": "の"
@@ -2972,12 +2964,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1311340-1-ex-1",
-        "version": 1,
-        "before": "この駅では、地下鉄から",
+        "version": 2,
+        "before": "この駅では、バスから",
         "answer": "私鉄",
         "after": "に乗り換えられます。",
         "reading": "してつ",
-        "translation": "이 역에서는 지하철에서 민영 철도로 갈아탈 수 있습니다.",
+        "translation": "이 역에서는 버스에서 민영 철도로 갈아탈 수 있습니다.",
         "translationTarget": "민영 철도",
         "difficulty": 29,
         "status": "reviewed",
@@ -2990,14 +2982,7 @@ const content: LearnSense[] = [
             "reading": "えき"
           },
           {
-            "text": "では、"
-          },
-          {
-            "text": "地下鉄",
-            "reading": "ちかてつ"
-          },
-          {
-            "text": "から"
+            "text": "では、バスから"
           }
         ],
         "afterFurigana": [

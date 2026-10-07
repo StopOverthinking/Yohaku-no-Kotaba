@@ -1044,12 +1044,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1476920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "八月",
         "answer": "８日",
-        "after": "は弟の誕生日です。",
+        "after": "は、弟のためにケーキを作ります。",
         "reading": "ようか",
-        "translation": "8월 8일은 남동생 생일이에요.",
+        "translation": "8월 8일에는 남동생을 위해 케이크를 만들어요.",
         "translationTarget": "8일",
         "difficulty": 13,
         "status": "reviewed",
@@ -1061,25 +1061,21 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "は"
+            "text": "は、"
           },
           {
             "text": "弟",
             "reading": "おとうと"
           },
           {
-            "text": "の"
+            "text": "のためにケーキを"
           },
           {
-            "text": "誕生",
-            "reading": "たんじょう"
+            "text": "作り",
+            "reading": "つくり"
           },
           {
-            "text": "日",
-            "reading": "び"
-          },
-          {
-            "text": "です。"
+            "text": "ます。"
           }
         ]
       }

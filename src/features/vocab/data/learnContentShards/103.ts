@@ -1248,12 +1248,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226040-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "来週の",
         "answer": "議会",
-        "after": "で、新しい図書館の建設費が審議される。",
+        "after": "で、新しい図書館の建設費が検討される。",
         "reading": "ぎかい",
-        "translation": "다음 주 의회에서 새 도서관의 건설비가 심의된다.",
+        "translation": "다음 주 의회에서 새 도서관의 건설비가 검토된다.",
         "translationTarget": "의회",
         "difficulty": 30,
         "status": "reviewed",
@@ -1293,8 +1293,8 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "審議",
-            "reading": "しんぎ"
+            "text": "検討",
+            "reading": "けんとう"
           },
           {
             "text": "される。"
@@ -1475,12 +1475,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1388300-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "先日",
-        "after": "お借りした本を、今日返しに来ました。",
+        "after": "お借りした本を、返しに来ました。",
         "reading": "せんじつ",
-        "translation": "지난번 빌린 책을 오늘 반납하러 왔습니다.",
+        "translation": "지난번 빌린 책을 반납하러 왔습니다.",
         "translationTarget": "지난번",
         "difficulty": 28,
         "status": "reviewed",
@@ -1504,12 +1504,8 @@ const content: LearnSense[] = [
             "text": "を、"
           },
           {
-            "text": "今日",
-            "reading": "きょう"
-          },
-          {
             "text": "返し",
-            "reading": "がえし"
+            "reading": "かえし"
           },
           {
             "text": "に"
@@ -2977,12 +2973,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1451660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この小さな装置は、太陽の光を",
         "answer": "動力",
-        "after": "として動く。",
+        "after": "として利用する。",
         "reading": "どうりょく",
-        "translation": "이 작은 장치는 태양빛을 동력으로 움직인다.",
+        "translation": "이 작은 장치는 태양빛을 동력으로 이용한다.",
         "translationTarget": "동력",
         "difficulty": 35,
         "status": "reviewed",
@@ -3021,11 +3017,11 @@ const content: LearnSense[] = [
             "text": "として"
           },
           {
-            "text": "動く",
-            "reading": "うごく"
+            "text": "利用",
+            "reading": "りよう"
           },
           {
-            "text": "。"
+            "text": "する。"
           }
         ]
       }

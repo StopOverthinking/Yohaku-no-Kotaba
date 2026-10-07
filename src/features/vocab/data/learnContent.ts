@@ -801,12 +801,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_158-1-ex-1",
-        "version": 1,
-        "before": "受付時間に間に合うか不安なら、電話で確認するのが一番",
+        "version": 2,
+        "before": "受付時間に間に合うか不安なら、電話で尋ねるのが一番",
         "answer": "確実だ",
         "after": "。",
         "reading": "かくじつだ",
-        "translation": "접수 시간에 맞출 수 있을지 불안하다면 전화로 확인하는 것이 가장 확실하다.",
+        "translation": "접수 시간에 맞출 수 있을지 불안하다면 전화로 물어보는 것이 가장 확실하다.",
         "translationTarget": "확실하다",
         "difficulty": 34,
         "status": "reviewed"
@@ -1709,10 +1709,10 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_42-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "同じ質問を三回も",
         "answer": "繰り返して",
-        "after": "、やっと返事がもらえた。",
+        "after": "、やっと答えが聞けた。",
         "reading": "くりかえして",
         "translation": "같은 질문을 세 번이나 반복하고서야 겨우 답을 들었다.",
         "translationTarget": "반복하고서야",
@@ -5113,12 +5113,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_389-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "初めての",
         "answer": "大会",
-        "after": "で三位に入り、家族が大喜びした。",
+        "after": "で三位に入り、家族がとても喜んだ。",
         "reading": "たいかい",
-        "translation": "첫 대회에서 3위에 들어 가족이 크게 기뻐했다.",
+        "translation": "첫 대회에서 3위에 들어 가족이 무척 기뻐했다.",
         "translationTarget": "대회",
         "difficulty": 28,
         "status": "reviewed"
@@ -5369,12 +5369,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_413-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "歌手が舞台に",
         "answer": "登場",
-        "after": "すると、会場が一気に明るくなった。",
+        "after": "すると、客席が一気に明るくなった。",
         "reading": "とうじょう",
-        "translation": "가수가 무대에 등장하자 공연장 분위기가 단번에 밝아졌다.",
+        "translation": "가수가 무대에 등장하자 객석 분위기가 단번에 밝아졌다.",
         "translationTarget": "등장",
         "difficulty": 31,
         "status": "reviewed"
@@ -5785,12 +5785,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_453-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この",
         "answer": "文章",
-        "after": "は一文が長くて、途中で意味が分からなくなる。",
+        "after": "は句読点が少なくて、途中で意味が分からなくなる。",
         "reading": "ぶんしょう",
-        "translation": "이 글은 한 문장이 길어서 도중에 뜻을 알 수 없게 된다.",
+        "translation": "이 글은 문장부호가 적어서 도중에 뜻을 알 수 없게 된다.",
         "translationTarget": "글",
         "difficulty": 31,
         "status": "reviewed"
@@ -5817,12 +5817,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_456-1-ex-1",
-        "version": 2,
-        "before": "薬を変えて一週間で、体調に",
+        "version": 3,
+        "before": "新しい薬を飲み始めて一週間で、体調に",
         "answer": "変化",
         "after": "が現れた。",
         "reading": "へんか",
-        "translation": "약을 바꾸고 일주일 만에 몸 상태에 변화가 나타났다.",
+        "translation": "새 약을 먹기 시작하고 일주일 만에 몸 상태에 변화가 나타났다.",
         "translationTarget": "변화",
         "difficulty": 29,
         "status": "reviewed"
@@ -6041,12 +6041,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_477-1-ex-1",
-        "version": 1,
-        "before": "雪の重みで、古い小屋の",
+        "version": 2,
+        "before": "雪の重みで、古い倉庫の",
         "answer": "屋根",
         "after": "が壊れた。",
         "reading": "やね",
-        "translation": "눈의 무게로 오래된 오두막 지붕이 망가졌다.",
+        "translation": "눈의 무게로 오래된 창고 지붕이 망가졌다.",
         "translationTarget": "지붕",
         "difficulty": 27,
         "status": "reviewed"
@@ -6597,12 +6597,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_32-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "今朝",
-        "after": "、庭で今年初めての霜を見た。",
+        "after": "、庭でうっすらと白い霜を見た。",
         "reading": "けさ",
-        "translation": "오늘 아침 정원에서 올해 첫 서리를 봤다.",
+        "translation": "오늘 아침 정원에서 희미하게 하얀 서리를 봤다.",
         "translationTarget": "오늘 아침",
         "difficulty": 18,
         "status": "reviewed"
@@ -6917,12 +6917,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_62-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "けがをした",
         "answer": "選手",
-        "after": "に、観客が大きな拍手を送った。",
+        "after": "に、観客が大きな声援を送った。",
         "reading": "せんしゅ",
-        "translation": "다친 선수에게 관중이 큰 박수를 보냈다.",
+        "translation": "다친 선수에게 관중이 큰 응원을 보냈다.",
         "translationTarget": "선수",
         "difficulty": 27,
         "status": "reviewed"
@@ -7569,12 +7569,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_122-1-ex-1",
-        "version": 1,
-        "before": "休みが続いて、今日の",
+        "version": 2,
+        "before": "休みが続いて、カレンダーを見ないと",
         "answer": "曜日",
         "after": "が分からなくなった。",
         "reading": "ようび",
-        "translation": "휴일이 이어져 오늘 요일을 알 수 없게 되었다.",
+        "translation": "휴일이 이어져 달력을 보지 않으면 요일을 알 수 없게 되었다.",
         "translationTarget": "요일",
         "difficulty": 18,
         "status": "reviewed"
@@ -7601,12 +7601,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_125-1-ex-1",
-        "version": 1,
-        "before": "働きながら大学院に通い、五年かけて",
+        "version": 2,
+        "before": "働きながら研究を続け、五年かけて",
         "answer": "学位",
         "after": "を取った。",
         "reading": "がくい",
-        "translation": "일하면서 대학원에 다녀 5년에 걸쳐 학위를 받았다.",
+        "translation": "일하면서 연구를 계속해 5년에 걸쳐 학위를 받았다.",
         "translationTarget": "학위",
         "difficulty": 41,
         "status": "reviewed"
@@ -10921,12 +10921,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_281-1-ex-1",
-        "version": 1,
-        "before": "屋上から紙飛行機を",
+        "version": 2,
+        "before": "屋上から紙で作った模型を",
         "answer": "飛ばした",
         "after": "ら、風に乗って遠くへ行った。",
         "reading": "とばした",
-        "translation": "옥상에서 종이비행기를 날렸더니 바람을 타고 멀리 갔다.",
+        "translation": "옥상에서 종이로 만든 모형을 날렸더니 바람을 타고 멀리 갔다.",
         "translationTarget": "날렸더니",
         "difficulty": 28,
         "status": "reviewed"
@@ -14077,12 +14077,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_583-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "食品の鮮度を",
         "answer": "保つ",
-        "after": "ため、保冷剤を入れた。",
+        "after": "ため、氷の入った袋を添えた。",
         "reading": "たもつ",
-        "translation": "식품의 신선도를 유지하려고 보냉제를 넣었다.",
+        "translation": "식품의 신선도를 유지하려고 얼음이 든 봉지를 곁들였다.",
         "translationTarget": "유지하려고",
         "difficulty": 30,
         "status": "reviewed"
@@ -14781,12 +14781,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_650-1-ex-1",
-        "version": 1,
-        "before": "娘が小学校に",
+        "version": 2,
+        "before": "娘が春に",
         "answer": "入学する",
         "after": "ので、机を用意した。",
         "reading": "にゅうがくする",
-        "translation": "딸이 초등학교에 입학하므로 책상을 준비했다.",
+        "translation": "딸이 봄에 입학하므로 책상을 준비했다.",
         "translationTarget": "입학하므로",
         "difficulty": 18,
         "status": "reviewed"
@@ -27129,12 +27129,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_319-1-ex-1",
-        "version": 1,
-        "before": "台所で父が古い歌を",
+        "version": 2,
+        "before": "台所で父が、ラジオのメロディーに合わせて",
         "answer": "歌っている",
         "after": "。",
         "reading": "うたっている",
-        "translation": "부엌에서 아버지가 옛 노래를 부르고 계신다.",
+        "translation": "부엌에서 아버지가 라디오의 멜로디에 맞춰 노래를 부르고 계신다.",
         "translationTarget": "부르고 계신다",
         "difficulty": 12,
         "status": "reviewed"
@@ -29369,12 +29369,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_539-1-ex-1",
-        "version": 1,
-        "before": "締め切り前に",
+        "version": 2,
+        "before": "提出期限の前に",
         "answer": "切羽詰まって",
         "after": "、友人に手伝いを頼んだ。",
         "reading": "せっぱつまって",
-        "translation": "마감 전에 궁지에 몰려서 친구에게 도움을 부탁했다.",
+        "translation": "제출 기한 전에 궁지에 몰려서 친구에게 도움을 부탁했다.",
         "translationTarget": "궁지에 몰려서",
         "difficulty": 42,
         "status": "reviewed"
@@ -30425,12 +30425,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_642-1-ex-1",
-        "version": 1,
-        "before": "来客用に新しいタオルを",
+        "version": 2,
+        "before": "来客を迎えるために新しいタオルを",
         "answer": "用意した",
         "after": "。",
         "reading": "よういした",
-        "translation": "손님용으로 새 수건을 준비했다.",
+        "translation": "손님을 맞이하려고 새 수건을 준비했다.",
         "translationTarget": "준비했다",
         "difficulty": 18,
         "status": "reviewed"
@@ -32505,12 +32505,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_837-1-ex-1",
-        "version": 1,
-        "before": "小さな舞台を重ねて、着実に",
+        "version": 2,
+        "before": "小さな舞台を重ねて、少しずつ",
         "answer": "実力を付けた",
         "after": "。",
         "reading": "じつりょくをつけた",
-        "translation": "작은 무대를 거듭하며 착실히 실력을 길렀다.",
+        "translation": "작은 무대를 거듭하며 조금씩 실력을 길렀다.",
         "translationTarget": "실력을 길렀다",
         "difficulty": 28,
         "status": "reviewed"
@@ -35333,12 +35333,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_266-1-ex-1",
-        "version": 1,
-        "before": "祖父の日記には、当時の生活の",
+        "version": 2,
+        "before": "祖父の手帳には、当時の生活の",
         "answer": "記録",
         "after": "が残っている。",
         "reading": "きろく",
-        "translation": "할아버지 일기에는 당시 생활의 기록이 남아 있다.",
+        "translation": "할아버지 수첩에는 당시 생활의 기록이 남아 있다.",
         "translationTarget": "기록",
         "difficulty": 29,
         "status": "reviewed"
@@ -35461,12 +35461,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_278-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "割引後の値段を",
         "answer": "計算",
-        "after": "したら、予算に収まった。",
+        "after": "したら、用意したお金で足りた。",
         "reading": "けいさん",
-        "translation": "할인 후 가격을 계산했더니 예산 안에 들었다.",
+        "translation": "할인 후 가격을 계산했더니 준비한 돈으로 충분했다.",
         "translationTarget": "계산",
         "difficulty": 29,
         "status": "reviewed"
@@ -39261,12 +39261,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_139-1-ex-1",
-        "version": 1,
-        "before": "小さな会社なので、",
+        "version": 2,
+        "before": "小さな店なので、",
         "answer": "社長",
         "after": "も配達に出る。",
         "reading": "しゃちょう",
-        "translation": "작은 회사라서 사장도 배달을 나간다.",
+        "translation": "작은 가게라서 사장도 배달을 나간다.",
         "translationTarget": "사장",
         "difficulty": 25,
         "status": "reviewed"
@@ -41833,12 +41833,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_226-1-ex-1",
-        "version": 1,
-        "before": "大学では建築の歴史を",
+        "version": 2,
+        "before": "海外では建築の歴史を",
         "answer": "学んだ",
         "after": "。",
         "reading": "まなんだ",
-        "translation": "대학에서는 건축의 역사를 배웠다.",
+        "translation": "해외에서는 건축의 역사를 배웠다.",
         "translationTarget": "배웠다",
         "difficulty": 25,
         "status": "reviewed"
@@ -42249,12 +42249,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_265-1-ex-1",
-        "version": 1,
-        "before": "エレベーターで屋上に",
+        "version": 2,
+        "before": "エレベーターで最も高いフロアに",
         "answer": "上がった",
         "after": "。",
         "reading": "あがった",
-        "translation": "엘리베이터로 옥상에 올라갔다.",
+        "translation": "엘리베이터로 가장 높은 층에 올라갔다.",
         "translationTarget": "올라갔다",
         "difficulty": 18,
         "status": "reviewed"
@@ -44297,12 +44297,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_462-1-ex-1",
-        "version": 1,
-        "before": "救急隊が、煙で動けなくなった人を",
+        "version": 2,
+        "before": "消防隊が、煙で動けなくなった人を",
         "answer": "救った",
         "after": "。",
         "reading": "すくった",
-        "translation": "구급대가 연기 때문에 움직이지 못하던 사람을 구했다.",
+        "translation": "소방대가 연기 때문에 움직이지 못하던 사람을 구했다.",
         "translationTarget": "구했다",
         "difficulty": 30,
         "status": "reviewed"
@@ -46209,12 +46209,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_649-1-ex-1",
-        "version": 1,
-        "before": "姉は奨学金をもらって、カナダに",
+        "version": 2,
+        "before": "姉は旅費の援助を受けて、カナダに",
         "answer": "留学した",
         "after": "。",
         "reading": "りゅうがくした",
-        "translation": "언니는 장학금을 받고 캐나다에 유학했다.",
+        "translation": "언니는 여비 지원을 받고 캐나다에 유학했다.",
         "translationTarget": "유학했다",
         "difficulty": 22,
         "status": "reviewed"
@@ -46657,12 +46657,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_691-1-ex-1",
-        "version": 1,
-        "before": "医師はけがをした選手の膝を",
+        "version": 2,
+        "before": "医師はけがをしたランナーの膝を",
         "answer": "手術した",
         "after": "。",
         "reading": "しゅじゅつした",
-        "translation": "의사는 다친 선수의 무릎을 수술했다.",
+        "translation": "의사는 다친 달리기 선수의 무릎을 수술했다.",
         "translationTarget": "수술했다",
         "difficulty": 28,
         "status": "reviewed"
@@ -48333,12 +48333,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_847-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "彼は何かと",
         "answer": "理由を付けて",
-        "after": "、片付けを先延ばしにする。",
+        "after": "、部屋をきれいにするのを先延ばしにする。",
         "reading": "りゆうをつけて",
-        "translation": "그는 이런저런 이유를 대며 정리를 미룬다.",
+        "translation": "그는 이런저런 이유를 대며 방 청소를 미룬다.",
         "translationTarget": "이유를 대며",
         "difficulty": 28,
         "status": "reviewed"
@@ -48685,12 +48685,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1316140-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "壁の",
         "answer": "時計",
-        "after": "は三時です。",
+        "after": "を見ると、待ち合わせに遅れそうでした。",
         "reading": "とけい",
-        "translation": "벽에 걸린 시계는 세 시를 가리켜요.",
+        "translation": "벽에 걸린 시계를 보니 약속에 늦을 것 같았어요.",
         "translationTarget": "시계",
         "difficulty": 11,
         "status": "reviewed"
@@ -53885,12 +53885,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1203090-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "階段",
-        "after": "を上って、三階の教室へ行きます。",
+        "after": "を上って、音楽室へ行きます。",
         "reading": "かいだん",
-        "translation": "계단을 올라 삼 층 교실로 가요.",
+        "translation": "계단을 올라 음악실로 가요.",
         "translationTarget": "계단",
         "difficulty": 13,
         "status": "reviewed"
@@ -56737,8 +56737,8 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1307850-1-ex-1",
-        "version": 1,
-        "before": "迷子の",
+        "version": 2,
+        "before": "道が分からなくなった",
         "answer": "子供",
         "after": "が駅員と話していました。",
         "reading": "こども",
@@ -56845,12 +56845,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1318400-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "父は古い",
         "answer": "自動車",
-        "after": "を自分で直しました。",
+        "after": "を休日に直しました。",
         "reading": "じどうしゃ",
-        "translation": "아버지는 낡은 자동차를 직접 고쳤어요.",
+        "translation": "아버지는 낡은 자동차를 쉬는 날에 고쳤어요.",
         "translationTarget": "자동차",
         "difficulty": 15,
         "status": "reviewed"
@@ -57197,12 +57197,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344970-1-ex-1",
-        "version": 1,
-        "before": "赤い帽子をかぶった",
+        "version": 2,
+        "before": "赤いスカーフを巻いた",
         "answer": "女の子",
         "after": "が走ってきました。",
         "reading": "おんなのこ",
-        "translation": "빨간 모자를 쓴 여자아이가 달려왔어요.",
+        "translation": "빨간 스카프를 두른 여자아이가 달려왔어요.",
         "translationTarget": "여자아이",
         "difficulty": 15,
         "status": "reviewed"
@@ -57389,12 +57389,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1358550-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "昼休みは会社の",
         "answer": "食堂",
-        "after": "で食べます。",
+        "after": "で昼ご飯をとります。",
         "reading": "しょくどう",
-        "translation": "점심시간에는 회사 구내식당에서 먹어요.",
+        "translation": "점심시간에는 회사 구내식당에서 점심을 먹어요.",
         "translationTarget": "구내식당",
         "difficulty": 12,
         "status": "reviewed"
@@ -58829,12 +58829,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443000-1-ex-1",
-        "version": 1,
-        "before": "停電で",
+        "version": 2,
+        "before": "嵐で線が切れ、",
         "answer": "電気",
         "after": "が使えなくなりました。",
         "reading": "でんき",
-        "translation": "정전으로 전기를 쓸 수 없게 됐어요.",
+        "translation": "폭풍으로 선이 끊겨 전기를 쓸 수 없게 됐어요.",
         "translationTarget": "전기",
         "difficulty": 14,
         "status": "reviewed"
@@ -60121,12 +60121,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1579130-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "今年",
-        "after": "は去年より雨が多いです。",
+        "after": "はいつもより雨が多いです。",
         "reading": "ことし",
-        "translation": "올해는 작년보다 비가 많이 와요.",
+        "translation": "올해는 평소보다 비가 많이 와요.",
         "translationTarget": "올해",
         "difficulty": 14,
         "status": "reviewed"
@@ -60153,12 +60153,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1580340-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "寒いので、もう一枚",
         "answer": "上着",
-        "after": "を着ました。",
+        "after": "を羽織りました。",
         "reading": "うわぎ",
-        "translation": "추워서 겉옷을 한 벌 더 입었어요.",
+        "translation": "추워서 겉옷을 한 벌 더 걸쳤어요.",
         "translationTarget": "겉옷",
         "difficulty": 14,
         "status": "reviewed"
@@ -60441,12 +60441,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1183300-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "お茶が",
         "answer": "温い",
-        "after": "ので、もう一度温めました。",
+        "after": "ので、電子レンジに入れました。",
         "reading": "ぬるい",
-        "translation": "차가 미지근해서 다시 데웠어요.",
+        "translation": "차가 미지근해서 전자레인지에 넣었어요.",
         "translationTarget": "미지근해서",
         "difficulty": 15,
         "status": "reviewed"
@@ -60601,12 +60601,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1307320-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "来月",
         "answer": "４日",
-        "after": "は祖母の誕生日です。",
+        "after": "に祖母を食事へ招く予定です。",
         "reading": "よっか",
-        "translation": "다음 달 4일은 할머니 생일이에요.",
+        "translation": "다음 달 4일에 할머니를 식사에 초대할 예정이에요.",
         "translationTarget": "4일",
         "difficulty": 12,
         "status": "reviewed"
@@ -61573,12 +61573,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1476920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "八月",
         "answer": "８日",
-        "after": "は弟の誕生日です。",
+        "after": "は、弟のためにケーキを作ります。",
         "reading": "ようか",
-        "translation": "8월 8일은 남동생 생일이에요.",
+        "translation": "8월 8일에는 남동생을 위해 케이크를 만들어요.",
         "translationTarget": "8일",
         "difficulty": 13,
         "status": "reviewed"
@@ -62589,12 +62589,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1159810-1-ex-1",
-        "version": 1,
-        "before": "兄は大学で",
+        "version": 2,
+        "before": "兄は海外で",
         "answer": "医学",
-        "after": "を学んでいます。",
+        "after": "の研究をしています。",
         "reading": "いがく",
-        "translation": "형은 대학교에서 의학을 공부하고 있어요.",
+        "translation": "형은 해외에서 의학 연구를 하고 있어요.",
         "translationTarget": "의학",
         "difficulty": 15,
         "status": "reviewed"
@@ -62717,12 +62717,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1185930-1-ex-1",
-        "version": 1,
-        "before": "旅行には着替えの",
+        "version": 2,
+        "before": "旅行には予備の",
         "answer": "下着",
         "after": "を忘れないでください。",
         "reading": "したぎ",
-        "translation": "여행에는 갈아입을 속옷을 잊지 마세요.",
+        "translation": "여행에는 여벌 속옷을 잊지 마세요.",
         "translationTarget": "속옷",
         "difficulty": 17,
         "status": "reviewed"
@@ -64937,12 +64937,12 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1289370-1-ex-2",
-        "version": 1,
-        "before": "今日は時間がないので、",
+        "version": 2,
+        "before": "時間が足りないので、",
         "answer": "今度",
         "after": "ゆっくり話しましょう。",
         "reading": "こんど",
-        "translation": "오늘은 시간이 없으니 다음에 천천히 이야기해요.",
+        "translation": "시간이 부족하니 다음에 천천히 이야기해요.",
         "translationTarget": "다음에",
         "difficulty": 17,
         "status": "reviewed"
@@ -65321,12 +65321,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1426920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "駅の",
         "answer": "駐車場",
-        "after": "に車を止めました。",
+        "after": "にバイクを止めました。",
         "reading": "ちゅうしゃじょう",
-        "translation": "역 주차장에 차를 세웠어요.",
+        "translation": "역 주차장에 오토바이를 세웠어요.",
         "translationTarget": "주차장",
         "difficulty": 16,
         "status": "reviewed"
@@ -65673,12 +65673,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1505190-1-ex-1",
-        "version": 1,
-        "before": "彼女は大学で日本の",
+        "version": 2,
+        "before": "彼女は海外で日本の",
         "answer": "文学",
         "after": "を研究しています。",
         "reading": "ぶんがく",
-        "translation": "그녀는 대학교에서 일본 문학을 연구하고 있어요.",
+        "translation": "그녀는 해외에서 일본 문학을 연구하고 있어요.",
         "translationTarget": "문학",
         "difficulty": 17,
         "status": "reviewed"
@@ -66733,12 +66733,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1303770-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この地域の主な",
         "answer": "産業",
-        "after": "は農業です。",
+        "after": "は観光です。",
         "reading": "さんぎょう",
-        "translation": "이 지역의 주요 산업은 농업이에요.",
+        "translation": "이 지역의 주요 산업은 관광이에요.",
         "translationTarget": "산업",
         "difficulty": 17,
         "status": "reviewed"
@@ -66893,12 +66893,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1310050-1-ex-1",
-        "version": 2,
+        "version": 3,
         "before": "",
         "answer": "指輪",
-        "after": "のサイズを直してもらったら、指にぴったり合いました。",
+        "after": "のサイズを直してもらったら、ぴったり合いました。",
         "reading": "ゆびわ",
-        "translation": "반지 치수를 조정받았더니 손가락에 꼭 맞았어요.",
+        "translation": "반지 치수를 조정받았더니 꼭 맞았어요.",
         "translationTarget": "반지",
         "difficulty": 16,
         "status": "reviewed"
@@ -66989,24 +66989,24 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1313080-1-ex-1",
-        "version": 1,
-        "before": "歯が痛いので",
+        "version": 2,
+        "before": "口の中が痛いので",
         "answer": "歯医者",
         "after": "を予約しました。",
         "reading": "はいしゃ",
-        "translation": "이가 아파서 치과를 예약했어요.",
+        "translation": "입안이 아파서 치과를 예약했어요.",
         "translationTarget": "치과",
         "difficulty": 17,
         "status": "reviewed"
       },
       {
         "id": "sense-lex-jmdict-1313080-1-ex-2",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "歯医者",
-        "after": "は虫歯を見つけて、治療の説明をしました。",
+        "after": "は口の中を調べて、治療の説明をしました。",
         "reading": "はいしゃ",
-        "translation": "치과의사는 충치를 발견하고 치료를 설명했어요.",
+        "translation": "치과의사는 입안을 살피고 치료를 설명했어요.",
         "translationTarget": "치과의사",
         "difficulty": 19,
         "status": "reviewed"
@@ -68229,12 +68229,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1350080-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "鉛筆の字を",
         "answer": "消しゴム",
-        "after": "で消しました。",
+        "after": "でこすりました。",
         "reading": "けしゴム",
-        "translation": "연필 글씨를 지우개로 지웠어요.",
+        "translation": "연필 글씨를 지우개로 문질렀어요.",
         "translationTarget": "지우개",
         "difficulty": 16,
         "status": "reviewed"
@@ -68261,12 +68261,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1355810-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "雨が降った",
         "answer": "場合",
-        "after": "、試合は中止になります。",
+        "after": "、イベントは中止になります。",
         "reading": "ばあい",
-        "translation": "비가 오는 경우 경기는 취소돼요.",
+        "translation": "비가 오는 경우 행사는 취소돼요.",
         "translationTarget": "경우",
         "difficulty": 18,
         "status": "reviewed"
@@ -70353,12 +70353,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1600530-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "弟は大きな",
         "answer": "乗り物",
-        "after": "に乗るのが好きです。",
+        "after": "を見るのが好きです。",
         "reading": "のりもの",
-        "translation": "남동생은 큰 탈것을 타는 걸 좋아해요.",
+        "translation": "남동생은 큰 탈것을 보는 걸 좋아해요.",
         "translationTarget": "탈것",
         "difficulty": 17,
         "status": "reviewed"
@@ -70493,12 +70493,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1485520-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "小さな",
         "answer": "飛行場",
-        "after": "に飛行機が一機降りました。",
+        "after": "にヘリコプターが一機降りました。",
         "reading": "ひこうじょう",
-        "translation": "작은 비행장에 비행기 한 대가 내렸어요.",
+        "translation": "작은 비행장에 헬리콥터 한 대가 내렸어요.",
         "translationTarget": "비행장",
         "difficulty": 18,
         "status": "reviewed"
@@ -71041,12 +71041,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1483150-1-ex-1",
-        "version": 1,
-        "before": "赤い帽子の女性を覚えていますか。",
+        "version": 2,
+        "before": "赤い帽子の方を覚えていますか。",
         "answer": "彼女",
         "after": "が私の先生です。",
         "reading": "かのじょ",
-        "translation": "빨간 모자를 쓴 여자를 기억하세요? 그녀가 제 선생님이에요.",
+        "translation": "빨간 모자를 쓴 분을 기억하세요? 그녀가 제 선생님이에요.",
         "translationTarget": "그녀",
         "difficulty": 19,
         "status": "reviewed"
@@ -73681,12 +73681,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1152730-1-ex-1",
-        "version": 1,
-        "before": "試合が終わり、二人の選手が",
+        "version": 2,
+        "before": "試合が終わり、二人が",
         "answer": "握手",
         "after": "しました。",
         "reading": "あくしゅ",
-        "translation": "시합이 끝나고 두 선수가 악수했어요.",
+        "translation": "시합이 끝나고 두 사람이 악수했어요.",
         "translationTarget": "악수",
         "difficulty": 21,
         "status": "reviewed"
@@ -74745,12 +74745,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1191980-1-ex-1",
-        "version": 1,
-        "before": "家族で",
+        "version": 2,
+        "before": "母と弟と私で",
         "answer": "家事",
         "after": "を分けてやっています。",
         "reading": "かじ",
-        "translation": "가족끼리 집안일을 나눠서 하고 있어요.",
+        "translation": "어머니와 남동생과 내가 집안일을 나눠서 하고 있어요.",
         "translationTarget": "집안일",
         "difficulty": 21,
         "status": "reviewed"
@@ -74809,12 +74809,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1193290-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "マイクが故障しても、",
         "answer": "歌手",
-        "after": "は歌い続けました。",
+        "after": "は最後までステージに立ち続けました。",
         "reading": "かしゅ",
-        "translation": "마이크가 고장 나도 가수는 노래를 계속했어요.",
+        "translation": "마이크가 고장 나도 가수는 끝까지 무대에 서 있었어요.",
         "translationTarget": "가수",
         "difficulty": 23,
         "status": "reviewed"
@@ -76353,12 +76353,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1160140-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "島に住む人にも十分な",
         "answer": "医療",
-        "after": "が届くよう、船で医師を派遣している。",
+        "after": "が届くよう、船で専門のスタッフを派遣している。",
         "reading": "いりょう",
-        "translation": "섬에 사는 사람에게도 충분한 의료가 제공되도록 배로 의사를 파견한다.",
+        "translation": "섬에 사는 사람에게도 충분한 의료가 제공되도록 배로 전문 인력을 파견한다.",
         "translationTarget": "의료",
         "difficulty": 29,
         "status": "reviewed"
@@ -79905,12 +79905,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1237020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "弟の",
         "answer": "教科書",
-        "after": "には、授業中に書き込んだ小さなメモがびっしりあった。",
+        "after": "には、授業中の小さなメモがびっしりあった。",
         "reading": "きょうかしょ",
-        "translation": "남동생의 교과서에는 수업 중 적어 넣은 작은 메모가 빼곡했다.",
+        "translation": "남동생의 교과서에는 수업 중 적은 작은 메모가 빼곡했다.",
         "translationTarget": "교과서",
         "difficulty": 27,
         "status": "reviewed"
@@ -80065,12 +80065,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1244560-1-ex-1",
-        "version": 1,
-        "before": "肩の痛みが続き、服を着替えるだけでも",
+        "version": 2,
+        "before": "肩の調子が悪く、服を着替えるだけでも",
         "answer": "苦痛",
         "after": "だった。",
         "reading": "くつう",
-        "translation": "어깨 통증이 계속되어 옷을 갈아입는 것만으로도 고통이었다.",
+        "translation": "어깨 상태가 좋지 않아 옷을 갈아입는 것만으로도 고통이었다.",
         "translationTarget": "고통",
         "difficulty": 27,
         "status": "reviewed"
@@ -80657,12 +80657,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1242300-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "近頃",
-        "after": "、夕食の後に近所を散歩するのが習慣になった。",
+        "after": "、夕食の後に川沿いを散歩するのが習慣になった。",
         "reading": "ちかごろ",
-        "translation": "요즘 저녁 식사 후 동네를 산책하는 것이 습관이 되었다.",
+        "translation": "요즘 저녁 식사 후 강변을 산책하는 것이 습관이 되었다.",
         "translationTarget": "요즘",
         "difficulty": 26,
         "status": "reviewed"
@@ -81385,12 +81385,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1279170-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "相手の",
         "answer": "攻撃",
-        "after": "をしのいだ後、こちらも反撃に転じた。",
+        "after": "をしのいだ後、こちらも勢いよく前へ出た。",
         "reading": "こうげき",
-        "translation": "상대의 공격을 버틴 뒤 우리도 반격에 나섰다.",
+        "translation": "상대의 공격을 버틴 뒤 우리도 기세 좋게 앞으로 나섰다.",
         "translationTarget": "공격",
         "difficulty": 29,
         "status": "reviewed"
@@ -82533,12 +82533,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1289140-1-ex-1",
-        "version": 1,
-        "before": "今回見つかった問題を踏まえて、",
+        "version": 2,
+        "before": "調査で見つかった問題を踏まえて、",
         "answer": "今後",
         "after": "の運営方法を見直す。",
         "reading": "こんご",
-        "translation": "이번에 발견된 문제를 바탕으로 앞으로의 운영 방식을 재검토한다.",
+        "translation": "조사에서 발견된 문제를 바탕으로 앞으로의 운영 방식을 재검토한다.",
         "translationTarget": "앞으로",
         "difficulty": 30,
         "status": "reviewed"
@@ -82629,12 +82629,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226040-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "来週の",
         "answer": "議会",
-        "after": "で、新しい図書館の建設費が審議される。",
+        "after": "で、新しい図書館の建設費が検討される。",
         "reading": "ぎかい",
-        "translation": "다음 주 의회에서 새 도서관의 건설비가 심의된다.",
+        "translation": "다음 주 의회에서 새 도서관의 건설비가 검토된다.",
         "translationTarget": "의회",
         "difficulty": 30,
         "status": "reviewed"
@@ -83129,8 +83129,8 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1242850-1-ex-1",
-        "version": 1,
-        "before": "店を閉める前に、売上金を",
+        "version": 2,
+        "before": "店を閉める前に、売上を",
         "answer": "金庫",
         "after": "へ入れた。",
         "reading": "きんこ",
@@ -83365,12 +83365,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1249660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "刑事",
-        "after": "が店を訪れ、事件の夜に何を見たか尋ねた。",
+        "after": "が店を訪れ、その夜に何を見たか尋ねた。",
         "reading": "けいじ",
-        "translation": "형사가 가게를 찾아와 사건이 있던 밤 무엇을 봤는지 물었다.",
+        "translation": "형사가 가게를 찾아와 그날 밤 무엇을 봤는지 물었다.",
         "translationTarget": "형사",
         "difficulty": 28,
         "status": "reviewed"
@@ -86525,12 +86525,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1183510-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "焼く前に、オーブンの",
         "answer": "温度",
-        "after": "を百八十度に設定した。",
+        "after": "をレシピの指定どおりに設定した。",
         "reading": "おんど",
-        "translation": "굽기 전에 오븐 온도를 백팔십 도로 설정했다.",
+        "translation": "굽기 전에 오븐 온도를 조리법에 지정된 대로 설정했다.",
         "translationTarget": "온도",
         "difficulty": 27,
         "status": "reviewed"
@@ -86601,12 +86601,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1186760-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "化学",
-        "after": "の授業で、液体を混ぜた時の変化を観察した。",
+        "after": "の授業で、液体を混ぜた時の色を観察した。",
         "reading": "かがく",
-        "translation": "화학 수업에서 액체를 섞었을 때의 변화를 관찰했다.",
+        "translation": "화학 수업에서 액체를 섞었을 때의 색을 관찰했다.",
         "translationTarget": "화학",
         "difficulty": 28,
         "status": "reviewed"
@@ -87009,12 +87009,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1203540-1-ex-1",
-        "version": 1,
-        "before": "経済だけでなく、文化交流も",
+        "version": 2,
+        "before": "経済だけでなく、文化を通じた相互理解も",
         "answer": "外交",
         "after": "の重要な役割を担っている。",
         "reading": "がいこう",
-        "translation": "경제뿐만 아니라 문화 교류도 외교의 중요한 역할을 맡고 있다.",
+        "translation": "경제뿐만 아니라 문화를 통한 상호 이해도 외교의 중요한 역할을 맡고 있다.",
         "translationTarget": "외교",
         "difficulty": 30,
         "status": "reviewed"
@@ -90933,12 +90933,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1167270-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この店では",
         "answer": "一流",
-        "after": "の職人が包丁を一本ずつ仕上げている。",
+        "after": "の職人が包丁を丁寧に仕上げている。",
         "reading": "いちりゅう",
-        "translation": "이 가게에서는 일류 장인이 칼을 한 자루씩 완성하고 있다.",
+        "translation": "이 가게에서는 일류 장인이 칼을 정성스럽게 완성하고 있다.",
         "translationTarget": "일류",
         "difficulty": 39,
         "status": "reviewed"
@@ -91093,12 +91093,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1169720-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "月の",
         "answer": "引力",
-        "after": "は海の満ち引きに影響を与えている。",
+        "after": "は海面の高さの変動に影響を与えている。",
         "reading": "いんりょく",
-        "translation": "달의 인력은 바닷물의 밀물과 썰물에 영향을 주고 있다.",
+        "translation": "달의 인력은 해수면 높이 변화에 영향을 주고 있다.",
         "translationTarget": "인력",
         "difficulty": 38,
         "status": "reviewed"
@@ -91349,12 +91349,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1175860-1-ex-1",
-        "version": 1,
-        "before": "円の直径が二倍になると、",
+        "version": 2,
+        "before": "この丸い図形の直径が二倍になると、",
         "answer": "円周",
         "after": "も二倍になる。",
         "reading": "えんしゅう",
-        "translation": "원의 지름이 두 배가 되면 원주도 두 배가 된다.",
+        "translation": "이 둥근 도형의 지름이 두 배가 되면 원주도 두 배가 된다.",
         "translationTarget": "원주",
         "difficulty": 38,
         "status": "reviewed"
@@ -91413,12 +91413,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1176860-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "彼女は大学で",
         "answer": "演劇",
-        "after": "を学び、今は小さな劇場で舞台に立っている。",
+        "after": "を学び、今は小さなホールで舞台に立っている。",
         "reading": "えんげき",
-        "translation": "그녀는 대학에서 연극을 공부했고 지금은 작은 극장에서 무대에 서고 있다.",
+        "translation": "그녀는 대학에서 연극을 공부했고 지금은 작은 홀에서 무대에 서고 있다.",
         "translationTarget": "연극",
         "difficulty": 39,
         "status": "reviewed"
@@ -91637,12 +91637,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1181560-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "その国の",
         "answer": "王女",
-        "after": "は、父である国王と共に式典に出席した。",
+        "after": "は、父と共に式典に出席した。",
         "reading": "おうじょ",
-        "translation": "그 나라의 왕녀는 아버지인 국왕과 함께 의식에 참석했다.",
+        "translation": "그 나라의 왕녀는 아버지와 함께 의식에 참석했다.",
         "translationTarget": "왕녀",
         "difficulty": 39,
         "status": "reviewed"
@@ -91925,12 +91925,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1185370-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "発表原稿の",
         "answer": "下書き",
-        "after": "には、まだ結論が書かれていなかった。",
+        "after": "には、まだ結論がなかった。",
         "reading": "したがき",
-        "translation": "발표 원고의 초안에는 아직 결론이 쓰여 있지 않았다.",
+        "translation": "발표 원고의 초안에는 아직 결론이 없었다.",
         "translationTarget": "초안",
         "difficulty": 38,
         "status": "reviewed"
@@ -92309,12 +92309,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1157580-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "採決の方法に",
         "answer": "異議",
-        "after": "を唱え、議事録に残すよう求めた。",
+        "after": "を唱え、記録に残すよう求めた。",
         "reading": "いぎ",
-        "translation": "표결 방식에 이의를 제기하고 회의록에 남기도록 요구했다.",
+        "translation": "표결 방식에 이의를 제기하고 기록에 남기도록 요구했다.",
         "translationTarget": "이의",
         "difficulty": 49,
         "status": "reviewed"
@@ -92373,12 +92373,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1158150-1-ex-1",
-        "version": 1,
-        "before": "調査の結論には賛成だが、原因の説明には",
+        "version": 2,
+        "before": "調査の結果には賛成だが、原因の説明には",
         "answer": "異論",
         "after": "がある。",
         "reading": "いろん",
-        "translation": "조사의 결론에는 찬성하지만 원인 설명에는 다른 견해가 있다.",
+        "translation": "조사 결과에는 찬성하지만 원인 설명에는 다른 견해가 있다.",
         "translationTarget": "다른 견해",
         "difficulty": 47,
         "status": "reviewed"
@@ -92981,12 +92981,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1184480-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "成績が",
         "answer": "下位",
-        "after": "だったチームも、後半には連勝して順位を上げた。",
+        "after": "だったチームも、後半には連勝して調子を取り戻した。",
         "reading": "かい",
-        "translation": "성적이 하위였던 팀도 후반에는 연승하여 순위를 올렸다.",
+        "translation": "성적이 하위였던 팀도 후반에는 연승하여 흐름을 되찾았다.",
         "translationTarget": "하위",
         "difficulty": 45,
         "status": "reviewed"
@@ -93429,12 +93429,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1196490-1-ex-1",
-        "version": 1,
-        "before": "長時間労働による",
+        "version": 2,
+        "before": "長時間の勤務による",
         "answer": "過労",
         "after": "を防ぐため、勤務記録を見直した。",
         "reading": "かろう",
-        "translation": "장시간 노동에 따른 과로를 막기 위해 근무 기록을 재검토했다.",
+        "translation": "장시간 근무에 따른 과로를 막기 위해 근무 기록을 재검토했다.",
         "translationTarget": "과로",
         "difficulty": 47,
         "status": "reviewed"
@@ -93973,12 +93973,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1201820-1-ex-1",
-        "version": 1,
-        "before": "漂流物の行方を予測するため、",
+        "version": 2,
+        "before": "波に運ばれたごみの行方を予測するため、",
         "answer": "海流",
         "after": "のデータを分析した。",
         "reading": "かいりゅう",
-        "translation": "표류물의 행방을 예측하기 위해 해류 데이터를 분석했다.",
+        "translation": "파도에 밀려온 쓰레기의 행방을 예측하기 위해 해류 데이터를 분석했다.",
         "translationTarget": "해류",
         "difficulty": 49,
         "status": "reviewed"
@@ -94005,12 +94005,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1201830-1-ex-1",
-        "version": 1,
-        "before": "道路が寸断されたため、救援物資は",
+        "version": 2,
+        "before": "陸上の交通が途絶えたため、救援物資は",
         "answer": "海路",
         "after": "で届けられた。",
         "reading": "かいろ",
-        "translation": "도로가 끊겼기 때문에 구호 물자는 바닷길로 전달되었다.",
+        "translation": "육상 교통이 끊겼기 때문에 구호 물자는 바닷길로 전달되었다.",
         "translationTarget": "바닷길",
         "difficulty": 48,
         "status": "reviewed"
@@ -95861,12 +95861,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1302280-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "先輩の報告書を",
         "answer": "参考",
-        "after": "にして、文章の構成を考えた。",
+        "after": "にして、文章の構成を決めた。",
         "reading": "さんこう",
-        "translation": "선배의 보고서를 참고하여 글의 구성을 생각했다.",
+        "translation": "선배의 보고서를 참고하여 글의 구성을 정했다.",
         "translationTarget": "참고",
         "difficulty": 28,
         "status": "reviewed"
@@ -96405,12 +96405,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1316220-1-ex-1",
-        "version": 1,
-        "before": "駅の時計を見て、今の",
+        "version": 2,
+        "before": "駅の表示を見て、今の",
         "answer": "時刻",
         "after": "を確かめた。",
         "reading": "じこく",
-        "translation": "역의 시계를 보고 현재 시각을 확인했다.",
+        "translation": "역의 표시를 보고 현재 시각을 확인했다.",
         "translationTarget": "시각",
         "difficulty": 26,
         "status": "reviewed"
@@ -98149,12 +98149,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344150-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "研究のために、百年前の",
         "answer": "書物",
-        "after": "を図書館で探した。",
+        "after": "を古本屋で探した。",
         "reading": "しょもつ",
-        "translation": "연구를 위해 백 년 전 서적을 도서관에서 찾았다.",
+        "translation": "연구를 위해 백 년 전 서적을 헌책방에서 찾았다.",
         "translationTarget": "서적",
         "difficulty": 30,
         "status": "reviewed"
@@ -98501,12 +98501,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1293640-1-ex-1",
-        "version": 1,
-        "before": "八月の今から準備すれば、",
+        "version": 2,
+        "before": "今から準備すれば、",
         "answer": "再来月",
-        "after": "の十月には完成できる。",
+        "after": "には完成できる。",
         "reading": "さらいげつ",
-        "translation": "팔월인 지금부터 준비하면 다다음 달인 시월에는 완성할 수 있다.",
+        "translation": "지금부터 준비하면 다다음 달에는 완성할 수 있다.",
         "translationTarget": "다다음 달",
         "difficulty": 24,
         "status": "reviewed"
@@ -98533,12 +98533,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1293650-1-ex-1",
-        "version": 1,
-        "before": "来週は準備だけで、発表は",
+        "version": 2,
+        "before": "準備を十分に進めて、発表は",
         "answer": "再来週",
-        "after": "の月曜日に行う。",
+        "after": "の火曜日に行う。",
         "reading": "さらいしゅう",
-        "translation": "다음 주에는 준비만 하고 발표는 다다음 주 월요일에 한다.",
+        "translation": "준비를 충분히 진행하고 발표는 다다음 주 화요일에 한다.",
         "translationTarget": "다다음 주",
         "difficulty": 23,
         "status": "reviewed"
@@ -98565,12 +98565,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1293660-1-ex-1",
-        "version": 1,
-        "before": "来年は海外で勉強して、",
+        "version": 2,
+        "before": "しばらく海外で勉強して、",
         "answer": "再来年",
         "after": "には日本に戻る予定だ。",
         "reading": "さらいねん",
-        "translation": "내년에는 해외에서 공부하고 내후년에는 일본으로 돌아올 예정이다.",
+        "translation": "한동안 해외에서 공부하고 내후년에는 일본으로 돌아올 예정이다.",
         "translationTarget": "내후년",
         "difficulty": 24,
         "status": "reviewed"
@@ -98853,12 +98853,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1581710-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "祖母は",
         "answer": "昼間",
-        "after": "だけ一人なので、昼食の時間に電話している。",
+        "after": "だけ一人なので、正午ごろに電話している。",
         "reading": "ひるま",
-        "translation": "할머니는 낮에만 혼자 계시므로 점심때 전화드리고 있다.",
+        "translation": "할머니는 낮에만 혼자 계시므로 정오쯤 전화드리고 있다.",
         "translationTarget": "낮",
         "difficulty": 22,
         "status": "reviewed"
@@ -99045,12 +99045,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1345430-1-ex-1",
-        "version": 1,
-        "before": "彼女は舞台の経験を重ね、",
+        "version": 2,
+        "before": "姉は舞台の経験を重ね、",
         "answer": "女優",
         "after": "として映画にも出演するようになった。",
         "reading": "じょゆう",
-        "translation": "그녀는 무대 경험을 쌓아 여배우로서 영화에도 출연하게 되었다.",
+        "translation": "언니는 무대 경험을 쌓아 여배우로서 영화에도 출연하게 되었다.",
         "translationTarget": "여배우",
         "difficulty": 31,
         "status": "reviewed"
@@ -99077,12 +99077,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1347530-1-ex-1",
-        "version": 1,
-        "before": "大学に通うための",
+        "version": 2,
+        "before": "進路を決め、",
         "answer": "奨学金",
         "after": "を申し込む前に、返済条件を確認した。",
         "reading": "しょうがくきん",
-        "translation": "대학에 다니기 위한 학업 지원금을 신청하기 전에 상환 조건을 확인했다.",
+        "translation": "진로를 정하고 학업 지원금을 신청하기 전에 상환 조건을 확인했다.",
         "translationTarget": "학업 지원금",
         "difficulty": 31,
         "status": "reviewed"
@@ -99109,12 +99109,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1347830-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "農具をしまっておく",
         "answer": "小屋",
-        "after": "の屋根を修理した。",
+        "after": "の窓を修理した。",
         "reading": "こや",
-        "translation": "농기구를 보관하는 헛간의 지붕을 수리했다.",
+        "translation": "농기구를 보관하는 헛간의 창문을 수리했다.",
         "translationTarget": "헛간",
         "difficulty": 28,
         "status": "reviewed"
@@ -99557,12 +99557,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1352980-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "専門学校に通うために",
         "answer": "上京",
-        "after": "し、東京で一人暮らしを始めた。",
+        "after": "し、一人暮らしを始めた。",
         "reading": "じょうきょう",
-        "translation": "전문학교에 다니려고 도쿄로 올라가 도쿄에서 혼자 살기 시작했다.",
+        "translation": "전문학교에 다니려고 도쿄로 올라가 혼자 살기 시작했다.",
         "translationTarget": "도쿄로 올라가",
         "difficulty": 30,
         "status": "reviewed"
@@ -100325,12 +100325,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1001890-1-ex-1",
-        "version": 1,
-        "before": "焼いた",
+        "version": 2,
+        "before": "出来たての",
         "answer": "お好み焼き",
         "after": "にソースを塗ると、いい匂いがした。",
         "reading": "おこのみやき",
-        "translation": "구운 오코노미야키에 소스를 바르니 좋은 냄새가 났다.",
+        "translation": "갓 만든 오코노미야키에 소스를 바르니 좋은 냄새가 났다.",
         "translationTarget": "오코노미야키",
         "difficulty": 23,
         "status": "reviewed"
@@ -102929,12 +102929,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1388300-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "先日",
-        "after": "お借りした本を、今日返しに来ました。",
+        "after": "お借りした本を、返しに来ました。",
         "reading": "せんじつ",
-        "translation": "지난번 빌린 책을 오늘 반납하러 왔습니다.",
+        "translation": "지난번 빌린 책을 반납하러 왔습니다.",
         "translationTarget": "지난번",
         "difficulty": 28,
         "status": "reviewed"
@@ -103249,12 +103249,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1395660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "建物の一部だけでなく、",
         "answer": "全体",
-        "after": "の安全を確認する。",
+        "after": "の強度を確認する。",
         "reading": "ぜんたい",
-        "translation": "건물의 일부뿐 아니라 전체의 안전을 확인한다.",
+        "translation": "건물의 일부뿐 아니라 전체의 강도를 확인한다.",
         "translationTarget": "전체",
         "difficulty": 29,
         "status": "reviewed"
@@ -105617,12 +105617,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1420070-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "今年の大会では、",
         "answer": "男子",
-        "after": "の部と女子の部を別の日に開く。",
+        "after": "の部を先に開く。",
         "reading": "だんし",
-        "translation": "올해 대회에서는 남자 부문과 여자 부문을 서로 다른 날에 개최한다.",
+        "translation": "올해 대회에서는 남자 부문을 먼저 개최한다.",
         "translationTarget": "남자",
         "difficulty": 30,
         "status": "reviewed"
@@ -105873,12 +105873,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1420840-1-ex-1",
-        "version": 1,
-        "before": "入口の階段を下りると、",
+        "version": 2,
+        "before": "入口の先へ進むと、",
         "answer": "地下",
         "after": "に小さな店があった。",
         "reading": "ちか",
-        "translation": "입구 계단을 내려가니 지하에 작은 가게가 있었다.",
+        "translation": "입구 너머로 나아가니 지하에 작은 가게가 있었다.",
         "translationTarget": "지하",
         "difficulty": 28,
         "status": "reviewed"
@@ -106077,12 +106077,12 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1424410-1-ex-2",
-        "version": 1,
-        "before": "雨が強くなったため、途中で試合を",
+        "version": 2,
+        "before": "雨が強くなったため、試合を",
         "answer": "中止",
         "after": "した。",
         "reading": "ちゅうし",
-        "translation": "비가 거세져서 도중에 경기를 중지했다.",
+        "translation": "비가 거세져서 경기를 중지했다.",
         "translationTarget": "중지",
         "difficulty": 29,
         "status": "reviewed"
@@ -108061,12 +108061,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1433090-1-ex-1",
-        "version": 1,
-        "before": "家から学校までの",
+        "version": 2,
+        "before": "自宅からの",
         "answer": "通学",
         "after": "に、一時間ほどかかる。",
         "reading": "つうがく",
-        "translation": "집에서 학교까지 통학하는 데 한 시간 정도 걸린다.",
+        "translation": "집에서 통학하는 데 한 시간 정도 걸린다.",
         "translationTarget": "통학",
         "difficulty": 28,
         "status": "reviewed"
@@ -108093,12 +108093,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1433180-1-ex-1",
-        "version": 1,
-        "before": "道路の工事中は、歩行者の",
+        "version": 2,
+        "before": "道路の工事中は、付近の人々の",
         "answer": "通行",
         "after": "も制限される。",
         "reading": "つうこう",
-        "translation": "도로 공사 중에는 보행자 통행도 제한된다.",
+        "translation": "도로 공사 중에는 부근 사람들의 통행도 제한된다.",
         "translationTarget": "통행",
         "difficulty": 30,
         "status": "reviewed"
@@ -108413,12 +108413,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1437500-1-ex-1",
-        "version": 1,
-        "before": "新しい料金は、来月の利用分から",
+        "version": 2,
+        "before": "新しい料金は、来月から",
         "answer": "適用",
         "after": "される。",
         "reading": "てきよう",
-        "translation": "새 요금은 다음 달 이용분부터 적용된다.",
+        "translation": "새 요금은 다음 달부터 적용된다.",
         "translationTarget": "적용",
         "difficulty": 30,
         "status": "reviewed"
@@ -108445,12 +108445,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1437610-1-ex-1",
-        "version": 1,
-        "before": "大学の",
+        "version": 2,
+        "before": "",
         "answer": "哲学",
-        "after": "の授業で、幸福とは何かについて議論した。",
+        "after": "のゼミで、幸福とは何かについて議論した。",
         "reading": "てつがく",
-        "translation": "대학 철학 수업에서 행복이란 무엇인지 논의했다.",
+        "translation": "철학 세미나에서 행복이란 무엇인지 논의했다.",
         "translationTarget": "철학",
         "difficulty": 30,
         "status": "reviewed"
@@ -109565,12 +109565,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443320-1-ex-1",
-        "version": 1,
-        "before": "原子の構造を説明する図には、",
+        "version": 2,
+        "before": "物質の構造を説明する図には、",
         "answer": "電子",
         "after": "も描かれていた。",
         "reading": "でんし",
-        "translation": "원자 구조를 설명하는 그림에는 전자도 그려져 있었다.",
+        "translation": "물질 구조를 설명하는 그림에는 전자도 그려져 있었다.",
         "translationTarget": "전자",
         "difficulty": 31,
         "status": "reviewed"
@@ -110557,12 +110557,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1464340-1-ex-1",
-        "version": 1,
-        "before": "書類に名前を記入した後、今日の",
+        "version": 2,
+        "before": "書類に名前を記入した後、",
         "answer": "日付",
         "after": "を書いた。",
         "reading": "ひづけ",
-        "translation": "서류에 이름을 기재한 뒤 오늘 날짜를 썼다.",
+        "translation": "서류에 이름을 기재한 뒤 날짜를 썼다.",
         "translationTarget": "날짜",
         "difficulty": 27,
         "status": "reviewed"
@@ -110653,12 +110653,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1466360-1-ex-1",
-        "version": 1,
-        "before": "会場への",
+        "version": 2,
+        "before": "ホールへの",
         "answer": "入場",
         "after": "には、この券が必要です。",
         "reading": "にゅうじょう",
-        "translation": "행사장 입장에는 이 표가 필요합니다.",
+        "translation": "홀 입장에는 이 표가 필요합니다.",
         "translationTarget": "입장",
         "difficulty": 27,
         "status": "reviewed"
@@ -110781,12 +110781,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1468380-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この施設の",
         "answer": "年間",
-        "after": "利用者数は、去年より増えた。",
+        "after": "利用者数は、以前より増えた。",
         "reading": "ねんかん",
-        "translation": "이 시설의 연간 이용자 수는 작년보다 늘었다.",
+        "translation": "이 시설의 연간 이용자 수는 이전보다 늘었다.",
         "translationTarget": "연간",
         "difficulty": 30,
         "status": "reviewed"
@@ -112157,12 +112157,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1477500-1-ex-1",
-        "version": 1,
-        "before": "ベルが鳴り終わると、列車の",
+        "version": 2,
+        "before": "ベルが鳴り終わると、",
         "answer": "発車",
         "after": "を知らせる放送が流れた。",
         "reading": "はっしゃ",
-        "translation": "벨이 울리고 나자 열차 출발을 알리는 방송이 나왔다.",
+        "translation": "벨이 울리고 나자 출발을 알리는 방송이 나왔다.",
         "translationTarget": "출발",
         "difficulty": 29,
         "status": "reviewed"
@@ -113149,12 +113149,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1492570-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "誰もいない部屋から声が聞こえ、私は",
         "answer": "不思議",
-        "after": "に思った。",
+        "after": "に感じた。",
         "reading": "ふしぎ",
-        "translation": "아무도 없는 방에서 목소리가 들려 나는 이상하게 생각했다.",
+        "translation": "아무도 없는 방에서 목소리가 들려 나는 이상하게 느꼈다.",
         "translationTarget": "이상하게",
         "difficulty": 30,
         "status": "reviewed"
@@ -114101,12 +114101,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1223820-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "合宿中は",
         "answer": "起床",
-        "after": "の時刻が決まっていて、六時に全員が起きる。",
+        "after": "の時刻が決まっていて、六時に全員が寝室を出る。",
         "reading": "きしょう",
-        "translation": "합숙 중에는 기상 시각이 정해져 있어서 여섯 시에 모두 일어난다.",
+        "translation": "합숙 중에는 기상 시각이 정해져 있어서 여섯 시에 모두 침실을 나선다.",
         "translationTarget": "기상",
         "difficulty": 37,
         "status": "reviewed"
@@ -114165,10 +114165,10 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1495640-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "近所の人との",
         "answer": "付き合い",
-        "after": "を大切にし、困ったときは助け合っている。",
+        "after": "を大切にし、困ったときは互いに助けている。",
         "reading": "つきあい",
         "translation": "이웃과의 교제를 소중히 여기며 힘들 때는 서로 돕고 있다.",
         "translationTarget": "교제",
@@ -115285,12 +115285,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1514420-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "車が多いので、",
         "answer": "歩道",
-        "after": "を歩いて橋まで行こう。",
+        "after": "を通って橋まで行こう。",
         "reading": "ほどう",
-        "translation": "차량이 많으니 인도로 걸어서 다리까지 가자.",
+        "translation": "차량이 많으니 인도를 따라 다리까지 가자.",
         "translationTarget": "인도",
         "difficulty": 28,
         "status": "reviewed"
@@ -117077,12 +117077,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1227780-1-ex-1",
-        "version": 1,
-        "before": "先生が出張するため、明日の講義は",
+        "version": 2,
+        "before": "先生が出張するため、明日の授業は",
         "answer": "休講",
         "after": "になった。",
         "reading": "きゅうこう",
-        "translation": "선생님이 출장을 가셔서 내일 강의는 휴강이 되었다.",
+        "translation": "선생님이 출장을 가셔서 내일 수업은 휴강이 되었다.",
         "translationTarget": "휴강",
         "difficulty": 35,
         "status": "reviewed"
@@ -117109,12 +117109,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1228100-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "医師に十分な",
         "answer": "休養",
-        "after": "を取るよう勧められ、しばらく仕事を休んだ。",
+        "after": "を取るよう勧められ、しばらく静かに過ごした。",
         "reading": "きゅうよう",
-        "translation": "의사에게 충분한 요양을 하라는 권고를 받아 한동안 일을 쉬었다.",
+        "translation": "의사에게 충분한 요양을 하라는 권고를 받아 한동안 조용히 지냈다.",
         "translationTarget": "요양",
         "difficulty": 39,
         "status": "reviewed"
@@ -117365,12 +117365,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1538920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この島への",
         "answer": "唯一",
-        "after": "の交通手段は、日に一度の船だ。",
+        "after": "の交通手段は、定期便の船だ。",
         "reading": "ゆいいつ",
-        "translation": "이 섬으로 가는 유일한 교통수단은 하루 한 번 다니는 배다.",
+        "translation": "이 섬으로 가는 유일한 교통수단은 정기선이다.",
         "translationTarget": "유일한",
         "difficulty": 31,
         "status": "reviewed"
@@ -117397,12 +117397,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1539280-1-ex-1",
-        "version": 1,
-        "before": "最後の試合に勝ち、チームは初めて",
+        "version": 2,
+        "before": "最後の試合を制し、チームは初めて",
         "answer": "優勝",
         "after": "した。",
         "reading": "ゆうしょう",
-        "translation": "마지막 경기에서 이겨 팀은 처음으로 우승했다.",
+        "translation": "마지막 경기를 제압하고 팀은 처음으로 우승했다.",
         "translationTarget": "우승",
         "difficulty": 28,
         "status": "reviewed"
@@ -118581,12 +118581,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1562400-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "久しぶりに会った友人とは、旅行の",
         "answer": "話題",
-        "after": "で話が弾んだ。",
+        "after": "で盛り上がった。",
         "reading": "わだい",
-        "translation": "오랜만에 만난 친구와는 여행을 화제로 삼아 한창 이야기를 나눴다.",
+        "translation": "오랜만에 만난 친구와는 여행을 화제로 삼아 대화 분위기가 무르익었다.",
         "translationTarget": "화제",
         "difficulty": 29,
         "status": "reviewed"
@@ -119093,12 +119093,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1193910-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "火山",
-        "after": "の活動が強まったため、登山道への立ち入りが禁止された。",
+        "after": "の活動が強まったため、付近への立ち入りが禁止された。",
         "reading": "かざん",
-        "translation": "화산 활동이 강해져 등산로 출입이 금지되었다.",
+        "translation": "화산 활동이 강해져 부근 출입이 금지되었다.",
         "translationTarget": "화산",
         "difficulty": 39,
         "status": "reviewed"
@@ -119477,12 +119477,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1201790-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "海洋",
-        "after": "のごみを減らすため、海岸の清掃活動に参加した。",
+        "after": "のごみを減らすため、浜辺の清掃活動に参加した。",
         "reading": "かいよう",
-        "translation": "해양 쓰레기를 줄이기 위해 해안 청소 활동에 참가했다.",
+        "translation": "해양 쓰레기를 줄이기 위해 모래사장 청소 활동에 참가했다.",
         "translationTarget": "해양",
         "difficulty": 37,
         "status": "reviewed"
@@ -119957,12 +119957,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1232990-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この島では、観光と",
         "answer": "漁業",
-        "after": "が主な産業になっている。",
+        "after": "が主な収入源になっている。",
         "reading": "ぎょぎょう",
-        "translation": "이 섬에서는 관광과 어업이 주요 산업이다.",
+        "translation": "이 섬에서는 관광과 어업이 주요 수입원이다.",
         "translationTarget": "어업",
         "difficulty": 37,
         "status": "reviewed"
@@ -120021,12 +120021,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1234210-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "叔父は",
         "answer": "競馬",
-        "after": "を見るのが好きで、馬の名前をよく覚えている。",
+        "after": "を見るのが好きで、騎手の名前をよく覚えている。",
         "reading": "けいば",
-        "translation": "삼촌은 경마 보기를 좋아해서 말 이름을 잘 기억한다.",
+        "translation": "삼촌은 경마 보기를 좋아해서 기수 이름을 잘 기억한다.",
         "translationTarget": "경마",
         "difficulty": 36,
         "status": "reviewed"
@@ -120501,12 +120501,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1255840-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "月末",
-        "after": "までに、今月使った費用をまとめて提出する。",
+        "after": "までに、使った費用をまとめて提出する。",
         "reading": "げつまつ",
-        "translation": "월말까지 이번 달에 쓴 비용을 정리해서 제출한다.",
+        "translation": "월말까지 쓴 비용을 정리해서 제출한다.",
         "translationTarget": "월말",
         "difficulty": 37,
         "status": "reviewed"
@@ -120533,12 +120533,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1578790-1-ex-1",
-        "version": 1,
-        "before": "旅行の",
+        "version": 2,
+        "before": "温泉への",
         "answer": "行き",
         "after": "は電車を使い、帰りはバスにした。",
         "reading": "いき",
-        "translation": "여행에서 가는 편에는 전철을 이용하고 돌아올 때는 버스를 탔다.",
+        "translation": "온천에 가는 편에는 전철을 이용하고 돌아올 때는 버스를 탔다.",
         "translationTarget": "가는 편",
         "difficulty": 29,
         "status": "reviewed"
@@ -122933,12 +122933,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1596950-1-ex-1",
-        "version": 1,
-        "before": "決勝戦では、最後まで激しい",
+        "version": 2,
+        "before": "優勝を決める試合では、最後まで激しい",
         "answer": "戦い",
         "after": "が続いた。",
         "reading": "たたかい",
-        "translation": "결승전에서는 마지막까지 치열한 싸움이 이어졌다.",
+        "translation": "우승을 결정하는 시합에서는 마지막까지 치열한 싸움이 이어졌다.",
         "translationTarget": "싸움",
         "difficulty": 29,
         "status": "reviewed"
@@ -123157,12 +123157,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1604850-1-ex-1",
-        "version": 1,
-        "before": "奥の歯に小さな",
+        "version": 2,
+        "before": "奥の方に小さな",
         "answer": "虫歯",
         "after": "が見つかり、早めに治療することにした。",
         "reading": "むしば",
-        "translation": "어금니에 작은 충치가 발견되어 빨리 치료하기로 했다.",
+        "translation": "안쪽에 작은 충치가 발견되어 빨리 치료하기로 했다.",
         "translationTarget": "충치",
         "difficulty": 29,
         "status": "reviewed"
@@ -124501,12 +124501,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1401090-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "父の死後、家の",
         "answer": "相続",
-        "after": "について専門家に相談した。",
+        "after": "について専門家の助言を求めた。",
         "reading": "そうぞく",
-        "translation": "아버지가 돌아가신 뒤 집의 상속에 관해 전문가와 상담했다.",
+        "translation": "아버지가 돌아가신 뒤 집의 상속에 관해 전문가의 조언을 구했다.",
         "translationTarget": "상속",
         "difficulty": 30,
         "status": "reviewed"
@@ -125045,12 +125045,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1384840-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "残ったパンを",
         "answer": "一切れ",
-        "after": "、スープと一緒に食べた。",
+        "after": "、スープに浸して食べた。",
         "reading": "ひときれ",
-        "translation": "남은 빵 한 조각을 수프와 함께 먹었다.",
+        "translation": "남은 빵 한 조각을 수프에 적셔 먹었다.",
         "translationTarget": "한 조각",
         "difficulty": 29,
         "status": "reviewed"
@@ -126133,12 +126133,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1321820-1-ex-1",
-        "version": 1,
-        "before": "集合写真に全員が",
+        "version": 2,
+        "before": "カメラの枠内に全員が",
         "answer": "写る",
         "after": "ように、少し後ろへ下がった。",
         "reading": "うつる",
-        "translation": "단체 사진에 모두가 찍히도록 조금 뒤로 물러났다.",
+        "translation": "카메라 화면 안에 모두가 찍히도록 조금 뒤로 물러났다.",
         "translationTarget": "찍히도록",
         "difficulty": 36,
         "status": "reviewed"
@@ -126485,12 +126485,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1299280-1-ex-1",
-        "version": 1,
-        "before": "録音に",
+        "version": 2,
+        "before": "収録した声に",
         "answer": "雑音",
         "after": "が入ってしまい、話の一部が聞き取れなかった。",
         "reading": "ざつおん",
-        "translation": "녹음에 잡음이 들어가 이야기의 일부를 알아들을 수 없었다.",
+        "translation": "수록한 목소리에 잡음이 들어가 이야기의 일부를 알아들을 수 없었다.",
         "translationTarget": "잡음",
         "difficulty": 38,
         "status": "reviewed"
@@ -126581,12 +126581,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1306640-1-ex-1",
-        "version": 1,
-        "before": "オンライン説明会の",
+        "version": 2,
+        "before": "オンラインイベントの",
         "answer": "司会",
         "after": "を担当し、参加者から届いた質問を講師に紹介した。",
         "reading": "しかい",
-        "translation": "온라인 설명회의 진행을 맡아 참가자들이 보내 온 질문을 강사에게 전달했다.",
+        "translation": "온라인 행사의 진행을 맡아 참가자들이 보내 온 질문을 강사에게 전달했다.",
         "translationTarget": "진행",
         "difficulty": 38,
         "status": "reviewed"
@@ -129973,12 +129973,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344090-1-ex-1",
-        "version": 1,
-        "before": "図書館では、地元の歴史に関する",
+        "version": 2,
+        "before": "地域の研究所では、地元の歴史に関する",
         "answer": "書籍",
         "after": "を集めている。",
         "reading": "しょせき",
-        "translation": "도서관에서는 지역 역사에 관한 서적을 모으고 있다.",
+        "translation": "지역 연구소에서는 지역 역사에 관한 서적을 모으고 있다.",
         "translationTarget": "서적",
         "difficulty": 36,
         "status": "reviewed"
@@ -130037,12 +130037,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1350370-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "避難訓練の前に、",
         "answer": "消防署",
-        "after": "の職員から消火器の使い方を教わった。",
+        "after": "の職員から避難の手順を教わった。",
         "reading": "しょうぼうしょ",
-        "translation": "대피 훈련 전에 소방서 직원에게 소화기 사용법을 배웠다.",
+        "translation": "대피 훈련 전에 소방서 직원에게 대피 절차를 배웠다.",
         "translationTarget": "소방서",
         "difficulty": 38,
         "status": "reviewed"
@@ -130357,12 +130357,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1361150-1-ex-1",
-        "version": 1,
-        "before": "申込書の氏名欄には、",
+        "version": 2,
+        "before": "申込書には、漢字の横に",
         "answer": "振り仮名",
         "after": "も記入してください。",
         "reading": "ふりがな",
-        "translation": "신청서의 성명란에는 독음 표기도 적어 주세요.",
+        "translation": "신청서에는 한자 옆에 독음 표기도 적어 주세요.",
         "translationTarget": "독음 표기",
         "difficulty": 36,
         "status": "reviewed"
@@ -130997,12 +130997,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1154540-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "細かい金額を",
         "answer": "暗算",
-        "after": "で足すのは難しく、計算機で確かめた。",
+        "after": "で足すのは難しく、スマートフォンで確かめた。",
         "reading": "あんざん",
-        "translation": "세세한 금액을 암산으로 더하기 어려워 계산기로 확인했다.",
+        "translation": "세세한 금액을 암산으로 더하기 어려워 스마트폰으로 확인했다.",
         "translationTarget": "암산",
         "difficulty": 43,
         "status": "reviewed"
@@ -131189,12 +131189,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1156450-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "今年こそ大会で優勝すると",
         "answer": "意気込んで",
-        "after": "いた彼は、毎朝走り込んでいた。",
+        "after": "いた彼は、毎朝長い距離を走っていた。",
         "reading": "いきごんで",
-        "translation": "올해야말로 대회에서 우승하겠다고 벼르던 그는 매일 아침 달리기 훈련을 했다.",
+        "translation": "올해야말로 대회에서 우승하겠다고 벼르던 그는 매일 아침 긴 거리를 달렸다.",
         "translationTarget": "벼르던",
         "difficulty": 45,
         "status": "reviewed"
@@ -131413,12 +131413,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1163580-1-ex-1",
-        "version": 1,
-        "before": "家族を安心させたい",
+        "version": 2,
+        "before": "家族を喜ばせたい",
         "answer": "一心",
         "after": "で、彼は慣れない仕事を引き受けた。",
         "reading": "いっしん",
-        "translation": "가족을 안심시키고 싶다는 일념으로 그는 익숙하지 않은 일을 맡았다.",
+        "translation": "가족을 기쁘게 하고 싶다는 일념으로 그는 익숙하지 않은 일을 맡았다.",
         "translationTarget": "일념",
         "difficulty": 45,
         "status": "reviewed"
@@ -132597,12 +132597,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1196010-1-ex-1",
-        "version": 1,
-        "before": "過去の",
+        "version": 2,
+        "before": "昔の",
         "answer": "過ち",
         "after": "を認めなければ、同じことを繰り返すかもしれない。",
         "reading": "あやまち",
-        "translation": "과거의 잘못을 인정하지 않으면 같은 일을 되풀이할지도 모른다.",
+        "translation": "옛날의 잘못을 인정하지 않으면 같은 일을 되풀이할지도 모른다.",
         "translationTarget": "잘못",
         "difficulty": 45,
         "status": "reviewed"
@@ -133013,12 +133013,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1206760-1-ex-1",
-        "version": 1,
-        "before": "大学を卒業して",
+        "version": 2,
+        "before": "卒業して",
         "answer": "学士",
-        "after": "の学位を得た後、働きながら研究を続けた。",
+        "after": "の称号を得た後、働きながら研究を続けた。",
         "reading": "がくし",
-        "translation": "대학을 졸업해 학사 학위를 받은 뒤 일하면서 연구를 이어 갔다.",
+        "translation": "졸업해 학사 칭호를 받은 뒤 일하면서 연구를 이어 갔다.",
         "translationTarget": "학사",
         "difficulty": 44,
         "status": "reviewed"
@@ -133045,12 +133045,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1208410-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "少人数の班に分けると、それまで静かだった生徒も",
         "answer": "活発",
-        "after": "に発言した。",
+        "after": "に意見を述べた。",
         "reading": "かっぱつ",
-        "translation": "소규모 모둠으로 나누자 그동안 조용했던 학생도 활발하게 발언했다.",
+        "translation": "소규모 모둠으로 나누자 그동안 조용했던 학생도 활발하게 의견을 말했다.",
         "translationTarget": "활발하게",
         "difficulty": 44,
         "status": "reviewed"
@@ -134901,12 +134901,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1222310-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "彼のほめ方は少し",
         "answer": "きざ",
-        "after": "だが、悪気がないことは伝わってくる。",
+        "after": "だが、相手を喜ばせたいことは伝わってくる。",
         "reading": "きざ",
-        "translation": "그의 칭찬 방식은 조금 느끼하지만 악의가 없다는 것은 느껴진다.",
+        "translation": "그의 칭찬 방식은 조금 느끼하지만 상대를 기쁘게 하려는 마음은 전해진다.",
         "translationTarget": "느끼하지만",
         "difficulty": 44,
         "status": "reviewed"
@@ -135285,12 +135285,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1190370-1-ex-1",
-        "version": 1,
-        "before": "高速道路に入る手前で、車は徐々に",
+        "version": 2,
+        "before": "幹線道路に入る手前で、車は徐々に",
         "answer": "加速",
         "after": "した。",
         "reading": "かそく",
-        "translation": "고속도로로 들어가기 전에 차는 서서히 가속했다.",
+        "translation": "간선도로로 들어가기 전에 차는 서서히 가속했다.",
         "translationTarget": "가속",
         "difficulty": 37,
         "status": "reviewed"
@@ -135413,12 +135413,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1202560-1-ex-1",
-        "version": 1,
-        "before": "大会の",
+        "version": 2,
+        "before": "式典の",
         "answer": "開会",
         "after": "に先立ち、注意事項の説明があった。",
         "reading": "かいかい",
-        "translation": "대회 개회에 앞서 주의 사항에 대한 설명이 있었다.",
+        "translation": "의식 개회에 앞서 주의 사항에 대한 설명이 있었다.",
         "translationTarget": "개회",
         "difficulty": 39,
         "status": "reviewed"
@@ -135573,12 +135573,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1206590-1-ex-1",
-        "version": 1,
-        "before": "同じ大学でも、",
+        "version": 2,
+        "before": "同じキャンパスでも、",
         "answer": "学科",
-        "after": "によって必要な試験科目が違う。",
+        "after": "によって必要な試験の内容が違う。",
         "reading": "がっか",
-        "translation": "같은 대학이어도 학과에 따라 필요한 시험 과목이 다르다.",
+        "translation": "같은 캠퍼스여도 학과에 따라 필요한 시험 내용이 다르다.",
         "translationTarget": "학과",
         "difficulty": 38,
         "status": "reviewed"
@@ -135669,12 +135669,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1207080-1-ex-1",
-        "version": 1,
-        "before": "大学のどの",
+        "version": 2,
+        "before": "どの",
         "answer": "学部",
         "after": "に進むか、姉はまだ迷っている。",
         "reading": "がくぶ",
-        "translation": "대학의 어느 학부에 진학할지 언니는 아직 고민하고 있다.",
+        "translation": "어느 학부에 진학할지 언니는 아직 고민하고 있다.",
         "translationTarget": "학부",
         "difficulty": 37,
         "status": "reviewed"
@@ -135701,12 +135701,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1207180-1-ex-1",
-        "version": 1,
-        "before": "入学後の",
+        "version": 2,
+        "before": "生徒の",
         "answer": "学力",
         "after": "を伸ばすため、補習の時間を設けた。",
         "reading": "がくりょく",
-        "translation": "입학 후의 학습 능력을 높이려고 보충 수업 시간을 마련했다.",
+        "translation": "학생의 학습 능력을 높이려고 보충 수업 시간을 마련했다.",
         "translationTarget": "학습 능력",
         "difficulty": 38,
         "status": "reviewed"
@@ -135925,12 +135925,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1214030-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "父の",
         "answer": "看病",
-        "after": "のため、妹と交代で病院に通った。",
+        "after": "のため、妹と交代で付き添った。",
         "reading": "かんびょう",
-        "translation": "아버지의 간병을 위해 여동생과 번갈아 병원에 다녔다.",
+        "translation": "아버지의 간병을 위해 여동생과 번갈아 곁을 지켰다.",
         "translationTarget": "간병",
         "difficulty": 37,
         "status": "reviewed"
@@ -136405,12 +136405,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1259440-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "志望校の",
         "answer": "見学",
-        "after": "に行き、実際の授業を後ろの席から見せてもらった。",
+        "after": "に行き、実際の授業に後ろの席から参加した。",
         "reading": "けんがく",
-        "translation": "지원하려는 학교에 견학을 가서 실제 수업을 뒤쪽 자리에서 참관했다.",
+        "translation": "지원하려는 학교에 견학을 가서 실제 수업에 뒤쪽 자리에서 참여했다.",
         "translationTarget": "견학",
         "difficulty": 37,
         "status": "reviewed"
@@ -137429,12 +137429,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1419660-1-ex-1",
-        "version": 1,
-        "before": "水道工事で",
+        "version": 2,
+        "before": "配管工事で",
         "answer": "断水",
-        "after": "する前に、鍋に水をためておいた。",
+        "after": "する前に、鍋を満たしておいた。",
         "reading": "だんすい",
-        "translation": "수도 공사로 단수되기 전에 냄비에 물을 받아 두었다.",
+        "translation": "배관 공사로 단수되기 전에 냄비를 채워 두었다.",
         "translationTarget": "단수",
         "difficulty": 37,
         "status": "reviewed"
@@ -137461,12 +137461,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1422990-1-ex-1",
-        "version": 1,
-        "before": "外が寒いので、子どもに厚い上着を",
+        "version": 2,
+        "before": "外が寒いので、子どもに厚いコートを",
         "answer": "着せた",
         "after": "。",
         "reading": "きせた",
-        "translation": "밖이 추워서 아이에게 두꺼운 겉옷을 입혔다.",
+        "translation": "밖이 추워서 아이에게 두꺼운 코트를 입혔다.",
         "translationTarget": "입혔다",
         "difficulty": 36,
         "status": "reviewed"
@@ -137909,12 +137909,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226010-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "予算を変更する",
         "answer": "議案",
-        "after": "が提出され、委員会で詳しく審議された。",
+        "after": "が提出され、委員会で詳しく検討された。",
         "reading": "ぎあん",
-        "translation": "예산을 변경하는 의안이 제출되어 위원회에서 자세히 심의되었다.",
+        "translation": "예산을 변경하는 의안이 제출되어 위원회에서 자세히 검토되었다.",
         "translationTarget": "의안",
         "difficulty": 46,
         "status": "reviewed"
@@ -137941,12 +137941,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226050-1-ex-1",
-        "version": 1,
-        "before": "会議の",
+        "version": 2,
+        "before": "委員会の",
         "answer": "議決",
         "after": "に従い、来年度から事業の規模を縮小することになった。",
         "reading": "ぎけつ",
-        "translation": "회의 의결에 따라 내년도부터 사업 규모를 축소하게 되었다.",
+        "translation": "위원회 의결에 따라 내년도부터 사업 규모를 축소하게 되었다.",
         "translationTarget": "의결",
         "difficulty": 46,
         "status": "reviewed"
@@ -137973,12 +137973,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226090-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "議事堂",
-        "after": "の見学では、会議が行われる部屋の構造について説明を受けた。",
+        "after": "の見学では、討論が行われる部屋の構造について説明を受けた。",
         "reading": "ぎじどう",
-        "translation": "의사당 견학에서는 회의가 열리는 방의 구조에 관한 설명을 들었다.",
+        "translation": "의사당 견학에서는 토론이 열리는 방의 구조에 관한 설명을 들었다.",
         "translationTarget": "의사당",
         "difficulty": 44,
         "status": "reviewed"
@@ -138229,12 +138229,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1227660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "家庭の事情で",
         "answer": "休学",
-        "after": "したが、復帰に向けて学習は続けていた。",
+        "after": "したが、復帰に向けて勉強は続けていた。",
         "reading": "きゅうがく",
-        "translation": "가정 사정으로 휴학했지만 복귀를 위해 학습은 이어 가고 있었다.",
+        "translation": "가정 사정으로 휴학했지만 복귀를 위해 공부는 이어 가고 있었다.",
         "translationTarget": "휴학",
         "difficulty": 45,
         "status": "reviewed"
@@ -138837,12 +138837,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1235550-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "専門家の",
         "answer": "協会",
-        "after": "が、一般向けに相談会を開いている。",
+        "after": "が、一般向けに相談窓口を設けている。",
         "reading": "きょうかい",
-        "translation": "전문가 협회가 일반인을 대상으로 상담회를 열고 있다.",
+        "translation": "전문가 협회가 일반인을 대상으로 상담 창구를 마련하고 있다.",
         "translationTarget": "협회",
         "difficulty": 44,
         "status": "reviewed"
@@ -139221,12 +139221,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1237170-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "運転の",
         "answer": "教習",
-        "after": "では、操作だけでなく周囲の危険を予測する練習も行った。",
+        "after": "では、操作だけでなく周囲の危険を予測する訓練も行った。",
         "reading": "きょうしゅう",
-        "translation": "운전 교습에서는 조작뿐 아니라 주변 위험을 예상하는 연습도 했다.",
+        "translation": "운전 교습에서는 조작뿐 아니라 주변 위험을 예상하는 훈련도 했다.",
         "translationTarget": "교습",
         "difficulty": 44,
         "status": "reviewed"
@@ -139477,12 +139477,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1238500-1-ex-1",
-        "version": 1,
-        "before": "故郷の方言を耳にして、急に",
+        "version": 2,
+        "before": "昔なじみの方言を耳にして、急に",
         "answer": "郷愁",
         "after": "を覚えた。",
         "reading": "きょうしゅう",
-        "translation": "고향 사투리를 듣고 갑자기 그리움을 느꼈다.",
+        "translation": "예전부터 익숙한 사투리를 듣고 갑자기 그리움을 느꼈다.",
         "translationTarget": "그리움",
         "difficulty": 44,
         "status": "reviewed"
@@ -139733,12 +139733,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1240910-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "転居しても",
         "answer": "勤め先",
-        "after": "は変わらないので、通勤の方法を考え直した。",
+        "after": "は変わらないので、そこまでの移動方法を考え直した。",
         "reading": "つとめさき",
-        "translation": "이사해도 직장은 바뀌지 않아 출퇴근 방법을 다시 생각했다.",
+        "translation": "이사해도 직장은 바뀌지 않아 그곳까지 이동할 방법을 다시 생각했다.",
         "translationTarget": "직장",
         "difficulty": 44,
         "status": "reviewed"
@@ -140085,12 +140085,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1244800-1-ex-1",
-        "version": 1,
-        "before": "時間が足りなかったので、最後の章は",
+        "version": 2,
+        "before": "時間に余裕がなかったので、最後の章は",
         "answer": "駆け足",
         "after": "で説明することになった。",
         "reading": "かけあし",
-        "translation": "시간이 부족해서 마지막 장은 서둘러 설명하게 되었다.",
+        "translation": "시간 여유가 없어서 마지막 장은 서둘러 설명하게 되었다.",
         "translationTarget": "서둘러",
         "difficulty": 44,
         "status": "reviewed"
@@ -140981,12 +140981,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1434960-1-ex-1",
-        "version": 1,
-        "before": "この列車は、次の駅には",
+        "version": 2,
+        "before": "この特急は、次の駅には",
         "answer": "停車",
         "after": "しません。",
         "reading": "ていしゃ",
-        "translation": "이 열차는 다음 역에는 정차하지 않습니다.",
+        "translation": "이 특급은 다음 역에는 정차하지 않습니다.",
         "translationTarget": "정차",
         "difficulty": 36,
         "status": "reviewed"
@@ -142069,12 +142069,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1259180-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "外からは",
         "answer": "見すぼらしい",
-        "after": "建物に見えたが、中は丁寧に手入れされていた。",
+        "after": "建物だったが、中は丁寧に手入れされていた。",
         "reading": "みすぼらしい",
-        "translation": "밖에서는 허름한 건물로 보였지만 안은 정성스럽게 관리되어 있었다.",
+        "translation": "밖에서는 허름한 건물이었지만 안은 정성스럽게 관리되어 있었다.",
         "translationTarget": "허름한",
         "difficulty": 45,
         "status": "reviewed"
@@ -142709,12 +142709,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1262340-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "原文",
-        "after": "と訳文を比べると、否定の意味が抜けていることに気づいた。",
+        "after": "と翻訳を比べると、否定の意味が抜けていることに気づいた。",
         "reading": "げんぶん",
-        "translation": "원문과 번역문을 비교하다 부정의 의미가 빠졌다는 것을 알았다.",
+        "translation": "원문과 번역을 비교하다 부정의 의미가 빠졌다는 것을 알았다.",
         "translationTarget": "원문",
         "difficulty": 45,
         "status": "reviewed"
@@ -142741,12 +142741,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1262430-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "港に着いた",
         "answer": "原油",
-        "after": "は、パイプラインで製油所へ送られる。",
+        "after": "は、パイプラインで加工施設へ送られる。",
         "reading": "げんゆ",
-        "translation": "항구에 도착한 원유는 송유관을 통해 정유소로 보내진다.",
+        "translation": "항구에 도착한 원유는 송유관을 통해 가공 시설로 보내진다.",
         "translationTarget": "원유",
         "difficulty": 46,
         "status": "reviewed"
@@ -142837,12 +142837,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1263290-1-ex-1",
-        "version": 1,
-        "before": "提出が一日遅れたため、レポートは五点",
+        "version": 2,
+        "before": "提出が一日遅れたため、レポートは",
         "answer": "減点",
         "after": "された。",
         "reading": "げんてん",
-        "translation": "제출이 하루 늦어 보고서는 5점 감점되었다.",
+        "translation": "제출이 하루 늦어 보고서는 감점되었다.",
         "translationTarget": "감점",
         "difficulty": 44,
         "status": "reviewed"
@@ -143733,12 +143733,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1273280-1-ex-1",
-        "version": 1,
-        "before": "出演者の体調不良で、",
+        "version": 2,
+        "before": "メンバーの体調不良で、",
         "answer": "公演",
         "after": "は途中で中止された。",
         "reading": "こうえん",
-        "translation": "출연자의 건강 문제로 공연이 도중에 중단되었다.",
+        "translation": "단원의 건강 문제로 공연이 도중에 중단되었다.",
         "translationTarget": "공연",
         "difficulty": 44,
         "status": "reviewed"
@@ -144245,12 +144245,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1278010-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "工学",
-        "after": "を学んだ彼は、古い設備の安全性を高める設計に取り組んでいる。",
+        "after": "を専門にしてきた彼は、古い設備の安全性を高める設計に取り組んでいる。",
         "reading": "こうがく",
-        "translation": "공학을 공부한 그는 오래된 설비의 안전성을 높이는 설계에 힘쓰고 있다.",
+        "translation": "공학을 전공해 온 그는 오래된 설비의 안전성을 높이는 설계에 힘쓰고 있다.",
         "translationTarget": "공학",
         "difficulty": 45,
         "status": "reviewed"
@@ -144277,12 +144277,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1278100-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "子供たちは身近な材料を使う",
         "answer": "工作",
-        "after": "で、動くおもちゃを作った。",
+        "after": "で、動くおもちゃを完成させた。",
         "reading": "こうさく",
-        "translation": "아이들은 주변 재료를 이용한 만들기 활동으로 움직이는 장난감을 만들었다.",
+        "translation": "아이들은 주변 재료를 이용한 만들기 활동으로 움직이는 장난감을 완성했다.",
         "translationTarget": "만들기",
         "difficulty": 43,
         "status": "reviewed"
@@ -144917,12 +144917,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1286380-1-ex-1",
-        "version": 1,
-        "before": "両国は、長い交渉の末に",
+        "version": 2,
+        "before": "双方は、長い協議の末に",
         "answer": "国交",
         "after": "を回復した。",
         "reading": "こっこう",
-        "translation": "두 나라는 긴 협상 끝에 국교를 회복했다.",
+        "translation": "양측은 긴 협의 끝에 국교를 회복했다.",
         "translationTarget": "국교",
         "difficulty": 46,
         "status": "reviewed"
@@ -144981,12 +144981,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1286890-1-ex-1",
-        "version": 1,
-        "before": "この国では、森林が",
+        "version": 2,
+        "before": "森林が",
         "answer": "国土",
         "after": "の半分以上を占めている。",
         "reading": "こくど",
-        "translation": "이 나라에서는 숲이 국토의 절반 이상을 차지한다.",
+        "translation": "숲이 국토의 절반 이상을 차지한다.",
         "translationTarget": "국토",
         "difficulty": 45,
         "status": "reviewed"
@@ -145333,12 +145333,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1290480-1-ex-1",
-        "version": 1,
-        "before": "同じ名前の商品が二つあるので、注文するときに",
+        "version": 2,
+        "before": "名前のよく似た商品が二つあるので、注文するときに",
         "answer": "混同",
         "after": "しやすい。",
         "reading": "こんどう",
-        "translation": "이름이 같은 상품이 두 가지 있어서 주문할 때 혼동하기 쉽다.",
+        "translation": "이름이 비슷한 상품이 두 가지 있어서 주문할 때 혼동하기 쉽다.",
         "translationTarget": "혼동",
         "difficulty": 44,
         "status": "reviewed"
@@ -146165,12 +146165,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1410080-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "静かな兄とは",
         "answer": "対照",
-        "after": "的に、弟は初対面の人にもよく話しかける。",
+        "after": "的に、弟は見知らぬ人にもよく話しかける。",
         "reading": "たいしょう",
-        "translation": "조용한 형과는 대조적으로 동생은 처음 만나는 사람에게도 자주 말을 건다.",
+        "translation": "조용한 형과는 대조적으로 동생은 모르는 사람에게도 자주 말을 건다.",
         "translationTarget": "대조",
         "difficulty": 38,
         "status": "reviewed"
@@ -146421,12 +146421,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1292390-1-ex-1",
-        "version": 1,
-        "before": "同窓会で、十年ぶりに恩師との",
+        "version": 2,
+        "before": "卒業生の集まりで、十年ぶりに恩師との",
         "answer": "再会",
         "after": "を果たした。",
         "reading": "さいかい",
-        "translation": "동창회에서 10년 만에 은사와 재회했다.",
+        "translation": "졸업생 모임에서 10년 만에 은사와 재회했다.",
         "translationTarget": "재회",
         "difficulty": 44,
         "status": "reviewed"
@@ -147029,12 +147029,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1295940-1-ex-1",
-        "version": 1,
-        "before": "裁判所は、証拠に基づいて被告を",
+        "version": 2,
+        "before": "法廷では、証拠に基づいて被告を",
         "answer": "裁く",
         "after": "。",
         "reading": "さばく",
-        "translation": "법원은 증거를 바탕으로 피고인을 재판한다.",
+        "translation": "법정에서는 증거를 바탕으로 피고인을 재판한다.",
         "translationTarget": "재판한다",
         "difficulty": 46,
         "status": "reviewed"
@@ -147061,12 +147061,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1296470-1-ex-1",
-        "version": 1,
-        "before": "この靴は店頭にはないが、倉庫に",
+        "version": 2,
+        "before": "この靴は店頭にはないが、奥に",
         "answer": "在庫",
         "after": "が残っている。",
         "reading": "ざいこ",
-        "translation": "이 신발은 매장에는 없지만 창고에 재고가 남아 있다.",
+        "translation": "이 신발은 매장에는 없지만 안쪽에 재고가 남아 있다.",
         "translationTarget": "재고",
         "difficulty": 43,
         "status": "reviewed"
@@ -147253,12 +147253,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1298000-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この装置は、水の流れの",
         "answer": "作用",
-        "after": "を利用して動く。",
+        "after": "を生かして動く。",
         "reading": "さよう",
-        "translation": "이 장치는 물 흐름의 작용을 이용해 움직인다.",
+        "translation": "이 장치는 물 흐름의 작용을 살려 움직인다.",
         "translationTarget": "작용",
         "difficulty": 46,
         "status": "reviewed"
@@ -147573,12 +147573,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1302210-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "ニュースでは、",
         "answer": "参議院",
-        "after": "での法案審議の様子が紹介された。",
+        "after": "での法案の検討の様子が紹介された。",
         "reading": "さんぎいん",
-        "translation": "뉴스에서는 참의원에서의 법안 심의 모습을 소개했다.",
+        "translation": "뉴스에서는 참의원에서의 법안 검토 모습을 소개했다.",
         "translationTarget": "참의원",
         "difficulty": 46,
         "status": "reviewed"
@@ -147861,12 +147861,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1304240-1-ex-1",
-        "version": 1,
-        "before": "詩人は作品の中で、故郷の自然の美しさを",
+        "version": 2,
+        "before": "詩人は作品の中で、故郷の雄大な自然を",
         "answer": "賛美",
         "after": "した。",
         "reading": "さんび",
-        "translation": "시인은 작품 속에서 고향 자연의 아름다움을 찬미했다.",
+        "translation": "시인은 작품 속에서 고향의 웅대한 자연을 찬미했다.",
         "translationTarget": "찬미",
         "difficulty": 46,
         "status": "reviewed"
@@ -148597,12 +148597,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1305180-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "広い部屋を棚で",
         "answer": "仕切って",
-        "after": "、仕事用の空間を作った。",
+        "after": "、読書用の空間を作った。",
         "reading": "しきって",
-        "translation": "넓은 방을 선반으로 구분해서 업무용 공간을 만들었다.",
+        "translation": "넓은 방을 선반으로 구분해서 독서용 공간을 만들었다.",
         "translationTarget": "구분해서",
         "difficulty": 44,
         "status": "reviewed"
@@ -148853,12 +148853,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1306680-1-ex-1",
-        "version": 1,
-        "before": "授業では、立法・行政・",
+        "version": 2,
+        "before": "裁判を通じて争いを解決するのが、",
         "answer": "司法",
-        "after": "の役割を学んだ。",
+        "after": "の役割です。",
         "reading": "しほう",
-        "translation": "수업에서는 입법·행정·사법의 역할을 배웠다.",
+        "translation": "재판을 통해 분쟁을 해결하는 것이 사법의 역할입니다.",
         "translationTarget": "사법",
         "difficulty": 46,
         "status": "reviewed"
@@ -149141,12 +149141,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1309530-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "自分の",
         "answer": "思考",
-        "after": "を整理するため、考えたことを紙に書き出した。",
+        "after": "を整理するため、頭に浮かんだことを紙に書き出した。",
         "reading": "しこう",
-        "translation": "자신의 생각을 정리하기 위해 생각한 내용을 종이에 적어 나갔다.",
+        "translation": "자신의 생각을 정리하기 위해 머릿속에 떠오른 내용을 종이에 적어 나갔다.",
         "translationTarget": "생각",
         "difficulty": 45,
         "status": "reviewed"
@@ -149749,12 +149749,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1545020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この銀行では、定期",
         "answer": "預金",
-        "after": "の金利が先月より上がった。",
+        "after": "の利率が先月より上がった。",
         "reading": "よきん",
-        "translation": "이 은행에서는 정기 예금 금리가 지난달보다 올랐다.",
+        "translation": "이 은행에서는 정기 예금의 이율이 지난달보다 올랐다.",
         "translationTarget": "예금",
         "difficulty": 35,
         "status": "reviewed"
@@ -150357,12 +150357,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1435540-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "パン屋の",
         "answer": "定休日",
-        "after": "は、毎週水曜日です。",
+        "after": "は、毎週火曜です。",
         "reading": "ていきゅうび",
-        "translation": "빵집의 정기 휴일은 매주 수요일입니다.",
+        "translation": "빵집의 정기 휴일은 매주 화요일입니다.",
         "translationTarget": "정기 휴일",
         "difficulty": 20,
         "status": "reviewed"
@@ -150389,12 +150389,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1541690-1-ex-1",
-        "version": 1,
-        "before": "入場は無料ですが、駐車場は",
+        "version": 2,
+        "before": "入場にお金はかかりませんが、駐車場は",
         "answer": "有料",
         "after": "です。",
         "reading": "ゆうりょう",
-        "translation": "입장은 무료이지만 주차장은 유료입니다.",
+        "translation": "입장에는 돈이 들지 않지만 주차장은 유료입니다.",
         "translationTarget": "유료",
         "difficulty": 20,
         "status": "reviewed"
@@ -152149,12 +152149,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1223280-1-ex-1",
-        "version": 1,
-        "before": "当時の暮らしは、旅人の日記の",
+        "version": 2,
+        "before": "当時の暮らしは、旅人の手帳の",
         "answer": "記述",
         "after": "から知ることができる。",
         "reading": "きじゅつ",
-        "translation": "당시 생활은 여행자의 일기 속 서술에서 알 수 있다.",
+        "translation": "당시 생활은 여행자의 수첩 속 서술에서 알 수 있다.",
         "translationTarget": "서술",
         "difficulty": 43,
         "status": "reviewed"
@@ -152437,8 +152437,8 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1284550-1-ex-1",
-        "version": 1,
-        "before": "長い話し合いの末、両社は新しい契約条件に",
+        "version": 2,
+        "before": "長い協議の末、両社は新しい契約条件に",
         "answer": "合意",
         "after": "した。",
         "reading": "ごうい",
@@ -154645,12 +154645,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1360360-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "予算案の",
         "answer": "審議",
-        "after": "が長引き、会議は夜まで続いた。",
+        "after": "が長引き、討論は夜まで続いた。",
         "reading": "しんぎ",
-        "translation": "예산안 심의가 길어져 회의는 밤까지 이어졌다.",
+        "translation": "예산안 심의가 길어져 토론은 밤까지 이어졌다.",
         "translationTarget": "심의",
         "difficulty": 43,
         "status": "reviewed"
@@ -156085,12 +156085,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1250430-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "今日の授業では、",
         "answer": "形容詞",
-        "after": "の否定形を練習します。",
+        "after": "を使って否定の文を作る練習をします。",
         "reading": "けいようし",
-        "translation": "오늘 수업에서는 형용사의 부정형을 연습합니다.",
+        "translation": "오늘 수업에서는 형용사를 써서 부정문을 만드는 연습을 합니다.",
         "translationTarget": "형용사",
         "difficulty": 30,
         "status": "reviewed"
@@ -156149,12 +156149,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1303930-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "妹は",
         "answer": "算数",
-        "after": "が得意で、買い物の合計をすぐに計算する。",
+        "after": "が得意で、買い物の合計をすぐに出す。",
         "reading": "さんすう",
-        "translation": "여동생은 산수를 잘해서 쇼핑 금액의 합계를 바로 계산한다.",
+        "translation": "여동생은 산수를 잘해서 쇼핑 금액의 합계를 바로 구한다.",
         "translationTarget": "산수",
         "difficulty": 29,
         "status": "reviewed"
@@ -156437,12 +156437,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344130-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "祖父は毎朝、",
         "answer": "書道",
-        "after": "の道具を静かに並べる。",
+        "after": "の筆と紙を静かに並べる。",
         "reading": "しょどう",
-        "translation": "할아버지는 매일 아침 서예 도구를 조용히 늘어놓으신다.",
+        "translation": "할아버지는 매일 아침 서예에 쓸 붓과 종이를 조용히 늘어놓으신다.",
         "translationTarget": "서예",
         "difficulty": 30,
         "status": "reviewed"
@@ -157525,12 +157525,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1296440-1-ex-1",
-        "version": 1,
-        "before": "大学に",
+        "version": 2,
+        "before": "",
         "answer": "在学",
-        "after": "中、夜は書店で働いていました。",
+        "after": "中は、夜に書店で働いていました。",
         "reading": "ざいがく",
-        "translation": "대학에 재학 중일 때 밤에는 서점에서 일했습니다.",
+        "translation": "재학 중에는 밤에 서점에서 일했습니다.",
         "translationTarget": "재학",
         "difficulty": 31,
         "status": "reviewed"
@@ -159317,12 +159317,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1335320-1-ex-1",
-        "version": 1,
-        "before": "彼は長年、海の環境を調べる仕事に",
+        "version": 2,
+        "before": "彼は長年、海の環境の調査に",
         "answer": "従事",
         "after": "してきた。",
         "reading": "じゅうじ",
-        "translation": "그는 오랫동안 바다 환경을 조사하는 일에 종사해 왔다.",
+        "translation": "그는 오랫동안 바다 환경 조사에 종사해 왔다.",
         "translationTarget": "종사",
         "difficulty": 43,
         "status": "reviewed"
@@ -160117,12 +160117,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1552310-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "去年",
         "answer": "流行った",
-        "after": "歌を聞くと、旅行を思い出す。",
+        "after": "歌を聞くと、海外での休暇を思い出す。",
         "reading": "はやった",
-        "translation": "작년에 유행한 노래를 들으면 여행이 생각난다.",
+        "translation": "작년에 유행한 노래를 들으면 해외에서 보낸 휴가가 생각난다.",
         "translationTarget": "유행한",
         "difficulty": 25,
         "status": "reviewed"
@@ -160853,12 +160853,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1505330-1-ex-1",
-        "version": 1,
-        "before": "論文を書く前に、関連する",
+        "version": 2,
+        "before": "研究を始める前に、関連する",
         "answer": "文献",
         "after": "を図書館で集めた。",
         "reading": "ぶんけん",
-        "translation": "논문을 쓰기 전에 관련 문헌을 도서관에서 모았다.",
+        "translation": "연구를 시작하기 전에 관련 문헌을 도서관에서 모았다.",
         "translationTarget": "문헌",
         "difficulty": 35,
         "status": "reviewed"
@@ -161589,12 +161589,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1421420-1-ex-1",
-        "version": 1,
-        "before": "家を建てる前に、土地の",
+        "version": 2,
+        "before": "家を建てる前に、そこの",
         "answer": "地盤",
         "after": "が強いか調べた。",
         "reading": "じばん",
-        "translation": "집을 짓기 전에 땅의 지반이 단단한지 조사했다.",
+        "translation": "집을 짓기 전에 그곳의 지반이 단단한지 조사했다.",
         "translationTarget": "지반",
         "difficulty": 35,
         "status": "reviewed"
@@ -162101,12 +162101,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1374810-1-ex-1",
-        "version": 1,
-        "before": "学生たちは、卒業作品として短い映画を",
+        "version": 2,
+        "before": "学生たちは、卒業を前に短い映画を",
         "answer": "制作",
         "after": "した。",
         "reading": "せいさく",
-        "translation": "학생들은 졸업 작품으로 짧은 영화를 제작했다.",
+        "translation": "학생들은 졸업을 앞두고 짧은 영화를 제작했다.",
         "translationTarget": "제작",
         "difficulty": 35,
         "status": "reviewed"
@@ -162165,12 +162165,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1378790-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "大人を小ばかにするような",
         "answer": "生意気",
-        "after": "な言い方は、注意された。",
+        "after": "な言い方は、周囲にたしなめられた。",
         "reading": "なまいき",
-        "translation": "어른을 얕보는 듯한 건방진 말투는 주의를 받았다.",
+        "translation": "어른을 얕보는 듯한 건방진 말투는 주변 사람들에게 꾸지람을 들었다.",
         "translationTarget": "건방진",
         "difficulty": 35,
         "status": "reviewed"
@@ -162805,12 +162805,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1470780-1-ex-1",
-        "version": 1,
-        "before": "この農園では、",
+        "version": 2,
+        "before": "この畑では、",
         "answer": "農薬",
         "after": "の使用量を減らす工夫をしている。",
         "reading": "のうやく",
-        "translation": "이 농장에서는 농약 사용량을 줄이기 위해 노력하고 있다.",
+        "translation": "이 밭에서는 농약 사용량을 줄이기 위해 노력하고 있다.",
         "translationTarget": "농약",
         "difficulty": 35,
         "status": "reviewed"
@@ -162837,12 +162837,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1477750-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "屋根の太陽光パネルで",
         "answer": "発電",
-        "after": "し、家で使う電気の一部をまかなう。",
+        "after": "し、家庭のエネルギー需要を一部まかなう。",
         "reading": "はつでん",
-        "translation": "지붕의 태양광 패널로 전기를 생산해 집에서 쓰는 전기의 일부를 충당한다.",
+        "translation": "지붕의 태양광 패널로 전기를 생산해 가정에 필요한 에너지의 일부를 충당한다.",
         "translationTarget": "전기를 생산",
         "difficulty": 35,
         "status": "reviewed"
@@ -164085,12 +164085,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1424500-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "匿名の",
         "answer": "中傷",
-        "after": "によって、無関係な人まで傷つけられた。",
+        "after": "によって、無関係な人まで苦しめられた。",
         "reading": "ちゅうしょう",
-        "translation": "익명의 비방으로 관계없는 사람까지 상처를 입었다.",
+        "translation": "익명의 비방으로 관계없는 사람까지 고통을 겪었다.",
         "translationTarget": "비방",
         "difficulty": 43,
         "status": "reviewed"
@@ -164501,12 +164501,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1478520-1-ex-1",
-        "version": 1,
-        "before": "裁判所の",
+        "version": 2,
+        "before": "法廷での",
         "answer": "判決",
         "after": "を受け、会社は対応を検討している。",
         "reading": "はんけつ",
-        "translation": "법원의 판결을 받아 회사는 대응을 검토하고 있다.",
+        "translation": "법정에서의 판결을 받아 회사는 대응을 검토하고 있다.",
         "translationTarget": "판결",
         "difficulty": 43,
         "status": "reviewed"
@@ -164885,12 +164885,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1487570-1-ex-1",
-        "version": 1,
-        "before": "この結果は偶然ではなく、準備不足による",
+        "version": 2,
+        "before": "この結果はたまたま起きたのではなく、準備不足による",
         "answer": "必然",
         "after": "だった。",
         "reading": "ひつぜん",
-        "translation": "이 결과는 우연이 아니라 준비 부족에 따른 필연이었다.",
+        "translation": "이 결과는 우연히 일어난 것이 아니라 준비 부족에 따른 필연이었다.",
         "translationTarget": "필연",
         "difficulty": 43,
         "status": "reviewed"
@@ -165205,12 +165205,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1478660-1-ex-1",
-        "version": 1,
-        "before": "写真を確認した審判が、得点を認める",
+        "version": 2,
+        "before": "写真を確認した担当者が、得点を認める",
         "answer": "判定",
         "after": "を下した。",
         "reading": "はんてい",
-        "translation": "사진을 확인한 심판이 득점을 인정하는 판정을 내렸다.",
+        "translation": "사진을 확인한 담당자가 득점을 인정하는 판정을 내렸다.",
         "translationTarget": "판정",
         "difficulty": 43,
         "status": "reviewed"
@@ -165589,12 +165589,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1560650-1-ex-1",
-        "version": 1,
-        "before": "自動化によって、入力にかかる",
+        "version": 2,
+        "before": "自動化によって、データ処理にかかる",
         "answer": "労力",
         "after": "を減らせた。",
         "reading": "ろうりょく",
-        "translation": "자동화로 입력에 드는 수고를 줄일 수 있었다.",
+        "translation": "자동화로 데이터 처리에 드는 수고를 줄일 수 있었다.",
         "translationTarget": "수고",
         "difficulty": 43,
         "status": "reviewed"
@@ -165621,12 +165621,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1561850-1-ex-1",
-        "version": 1,
-        "before": "結論には賛成だが、説明の",
+        "version": 2,
+        "before": "結果には賛成だが、説明の",
         "answer": "論理",
         "after": "には飛躍がある。",
         "reading": "ろんり",
-        "translation": "결론에는 찬성하지만 설명의 논리에는 비약이 있다.",
+        "translation": "결과에는 찬성하지만 설명의 논리에는 비약이 있다.",
         "translationTarget": "논리",
         "difficulty": 43,
         "status": "reviewed"
@@ -165781,8 +165781,8 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1451260-1-ex-1",
-        "version": 1,
-        "before": "行方不明者の捜索に、多くの人員が",
+        "version": 2,
+        "before": "行方不明者の捜索に、多くのスタッフが",
         "answer": "動員",
         "after": "された。",
         "reading": "どういん",
@@ -167221,8 +167221,8 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1456780-1-ex-1",
-        "version": 1,
-        "before": "暗い廊下で、突き出た棚に肩が",
+        "version": 2,
+        "before": "暗い廊下で、張り出した棚に肩が",
         "answer": "突き当たった",
         "after": "。",
         "reading": "つきあたった",
@@ -168309,12 +168309,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1421500-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "古い",
         "answer": "地名",
-        "after": "には、その土地の歴史が残っています。",
+        "after": "には、その場所の歴史が残っています。",
         "reading": "ちめい",
-        "translation": "오래된 지명에는 그 땅의 역사가 남아 있습니다.",
+        "translation": "오래된 지명에는 그 장소의 역사가 남아 있습니다.",
         "translationTarget": "지명",
         "difficulty": 28,
         "status": "reviewed"
@@ -168469,12 +168469,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1430800-1-ex-1",
-        "version": 1,
-        "before": "机の角が",
+        "version": 2,
+        "before": "この板の隅が",
         "answer": "直角",
         "after": "かどうか、定規で確かめました。",
         "reading": "ちょっかく",
-        "translation": "책상 모서리가 직각인지 자로 확인했습니다.",
+        "translation": "이 판의 모서리가 직각인지 자로 확인했습니다.",
         "translationTarget": "직각",
         "difficulty": 29,
         "status": "reviewed"
@@ -168693,12 +168693,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443720-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "山の中では",
         "answer": "電波",
-        "after": "が弱くて、電話が途中で切れた。",
+        "after": "が弱くて、通話が途中で切れた。",
         "reading": "でんぱ",
-        "translation": "산속에서는 통신 신호가 약해서 전화가 도중에 끊겼다.",
+        "translation": "산속에서는 통신 신호가 약해서 통화가 도중에 끊겼다.",
         "translationTarget": "통신 신호",
         "difficulty": 29,
         "status": "reviewed"
@@ -169525,12 +169525,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1431600-1-ex-1",
-        "version": 1,
-        "before": "電池から流れる電気は、",
+        "version": 2,
+        "before": "電池から得られる電気は、",
         "answer": "直流",
         "after": "です。",
         "reading": "ちょくりゅう",
-        "translation": "전지에서 흐르는 전기는 직류입니다.",
+        "translation": "전지에서 얻을 수 있는 전기는 직류입니다.",
         "translationTarget": "직류",
         "difficulty": 33,
         "status": "reviewed"
@@ -169557,12 +169557,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443790-1-ex-1",
-        "version": 1,
-        "before": "スイッチを切ると、この部分には",
+        "version": 2,
+        "before": "スイッチを切ると、この部分の",
         "answer": "電流",
-        "after": "が流れません。",
+        "after": "が途絶えます。",
         "reading": "でんりゅう",
-        "translation": "스위치를 끄면 이 부분에는 전류가 흐르지 않습니다.",
+        "translation": "스위치를 끄면 이 부분의 전류가 끊깁니다.",
         "translationTarget": "전류",
         "difficulty": 31,
         "status": "reviewed"
@@ -169877,12 +169877,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1596240-1-ex-1",
-        "version": 1,
-        "before": "この駐車場は、施設の利用者",
+        "version": 2,
+        "before": "この駐車場は、施設を訪れる方",
         "answer": "専用",
         "after": "です。",
         "reading": "せんよう",
-        "translation": "이 주차장은 시설 이용자 전용입니다.",
+        "translation": "이 주차장은 시설을 방문하는 분 전용입니다.",
         "translationTarget": "전용",
         "difficulty": 35,
         "status": "reviewed"
@@ -170325,12 +170325,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1321410-1-ex-1",
-        "version": 1,
-        "before": "交通費は、領収書に基づいて",
+        "version": 2,
+        "before": "移動にかかったお金は、領収書に基づいて",
         "answer": "実費",
         "after": "を支給します。",
         "reading": "じっぴ",
-        "translation": "교통비는 영수증에 근거해 실비를 지급합니다.",
+        "translation": "이동에 든 돈은 영수증에 근거해 실비를 지급합니다.",
         "translationTarget": "실비",
         "difficulty": 35,
         "status": "reviewed"
@@ -170901,12 +170901,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1451660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この小さな装置は、太陽の光を",
         "answer": "動力",
-        "after": "として動く。",
+        "after": "として利用する。",
         "reading": "どうりょく",
-        "translation": "이 작은 장치는 태양빛을 동력으로 움직인다.",
+        "translation": "이 작은 장치는 태양빛을 동력으로 이용한다.",
         "translationTarget": "동력",
         "difficulty": 35,
         "status": "reviewed"
@@ -171221,12 +171221,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1452720-1-ex-1",
-        "version": 1,
-        "before": "事情を聞いて",
+        "version": 2,
+        "before": "つらい話を聞いて",
         "answer": "同情",
         "after": "したが、規則を変えることはできなかった。",
         "reading": "どうじょう",
-        "translation": "사정을 듣고 동정했지만 규칙을 바꿀 수는 없었다.",
+        "translation": "힘든 이야기를 듣고 동정했지만 규칙을 바꿀 수는 없었다.",
         "translationTarget": "동정",
         "difficulty": 35,
         "status": "reviewed"
@@ -171797,12 +171797,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1550160-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "理論",
-        "after": "は理解できても、実際にやってみるとうまくいかない。",
+        "after": "は分かっても、実際にやってみるとうまくいかない。",
         "reading": "りろん",
-        "translation": "이론은 이해해도 실제로 해 보면 잘되지 않는다.",
+        "translation": "이론은 알아도 실제로 해 보면 잘되지 않는다.",
         "translationTarget": "이론",
         "difficulty": 35,
         "status": "reviewed"
@@ -172181,12 +172181,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1339620-1-ex-1",
-        "version": 1,
-        "before": "今回の試験では、文章を要約する問題が",
+        "version": 2,
+        "before": "今回の試験では、文章を要約する設問が",
         "answer": "出題",
         "after": "された。",
         "reading": "しゅつだい",
-        "translation": "이번 시험에서는 글을 요약하는 문제가 출제되었다.",
+        "translation": "이번 시험에서는 글을 요약하는 문항이 출제되었다.",
         "translationTarget": "출제",
         "difficulty": 35,
         "status": "reviewed"
@@ -172213,12 +172213,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1331590-1-ex-1",
-        "version": 1,
-        "before": "育児休業の後も",
+        "version": 2,
+        "before": "育児のための長期休暇の後も",
         "answer": "就業",
         "after": "を続けられる環境を整えている。",
         "reading": "しゅうぎょう",
-        "translation": "육아 휴직 뒤에도 근로 활동을 이어갈 수 있는 환경을 마련하고 있다.",
+        "translation": "육아를 위한 장기 휴가 뒤에도 근로 활동을 이어갈 수 있는 환경을 마련하고 있다.",
         "translationTarget": "근로 활동",
         "difficulty": 35,
         "status": "reviewed"
@@ -172245,12 +172245,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1332450-1-ex-1",
-        "version": 1,
-        "before": "研修を",
+        "version": 2,
+        "before": "講座を",
         "answer": "修了",
         "after": "した参加者には、証明書が渡される。",
         "reading": "しゅうりょう",
-        "translation": "연수를 수료한 참가자에게는 증명서가 전달된다.",
+        "translation": "강좌를 수료한 참가자에게는 증명서가 전달된다.",
         "translationTarget": "수료",
         "difficulty": 35,
         "status": "reviewed"
@@ -172661,12 +172661,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1601480-1-ex-1",
-        "version": 1,
-        "before": "店は原料費の上昇を受け、商品の価格を",
+        "version": 2,
+        "before": "店は原料費が高くなったため、商品の価格を",
         "answer": "引き上げた",
         "after": "。",
         "reading": "ひきあげた",
-        "translation": "가게는 원료비 상승에 따라 상품 가격을 인상했다.",
+        "translation": "가게는 원료비가 비싸져 상품 가격을 인상했다.",
         "translationTarget": "인상했다",
         "difficulty": 35,
         "status": "reviewed"
@@ -172885,8 +172885,8 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1381140-1-ex-1",
-        "version": 1,
-        "before": "申込書の年は、和暦ではなく",
+        "version": 2,
+        "before": "申込書の年は、元号ではなく",
         "answer": "西暦",
         "after": "で書いてください。",
         "reading": "せいれき",
@@ -173717,12 +173717,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1376060-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "選挙の前に、各",
         "answer": "政党",
-        "after": "の政策を読み比べた。",
+        "after": "の公約を読み比べた。",
         "reading": "せいとう",
-        "translation": "선거 전에 각 정당의 정책을 읽어 비교했다.",
+        "translation": "선거 전에 각 정당의 공약을 읽어 비교했다.",
         "translationTarget": "정당",
         "difficulty": 31,
         "status": "reviewed"
@@ -173845,12 +173845,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1369140-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "人文科学",
-        "after": "の研究には、古い文書を読み解く力も必要だ。",
+        "after": "の研究には、古い資料を読み解く力も必要だ。",
         "reading": "じんぶんかがく",
-        "translation": "인문학 연구에는 오래된 문서를 해독하는 능력도 필요하다.",
+        "translation": "인문학 연구에는 오래된 자료를 해독하는 능력도 필요하다.",
         "translationTarget": "인문학",
         "difficulty": 33,
         "status": "reviewed"
@@ -173877,12 +173877,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1318110-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この博物館では、",
         "answer": "自然科学",
-        "after": "を体験しながら学べる。",
+        "after": "に触れながら知識を深められる。",
         "reading": "しぜんかがく",
-        "translation": "이 박물관에서는 자연 과학을 체험하며 배울 수 있다.",
+        "translation": "이 박물관에서는 자연 과학을 접하며 지식을 넓힐 수 있다.",
         "translationTarget": "자연 과학",
         "difficulty": 32,
         "status": "reviewed"
@@ -174389,12 +174389,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1589960-1-ex-1",
-        "version": 1,
-        "before": "大切な証明書なので、",
+        "version": 2,
+        "before": "大切な契約の控えなので、",
         "answer": "書留",
         "after": "で送りました。",
         "reading": "かきとめ",
-        "translation": "중요한 증명서이므로 등기 우편으로 보냈습니다.",
+        "translation": "중요한 계약서 사본이므로 등기 우편으로 보냈습니다.",
         "translationTarget": "등기 우편",
         "difficulty": 31,
         "status": "reviewed"
@@ -174997,12 +174997,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1311340-1-ex-1",
-        "version": 1,
-        "before": "この駅では、地下鉄から",
+        "version": 2,
+        "before": "この駅では、バスから",
         "answer": "私鉄",
         "after": "に乗り換えられます。",
         "reading": "してつ",
-        "translation": "이 역에서는 지하철에서 민영 철도로 갈아탈 수 있습니다.",
+        "translation": "이 역에서는 버스에서 민영 철도로 갈아탈 수 있습니다.",
         "translationTarget": "민영 철도",
         "difficulty": 29,
         "status": "reviewed"
@@ -175157,12 +175157,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1323120-1-ex-1",
-        "version": 1,
-        "before": "台風が来るので、自転車も",
+        "version": 2,
+        "before": "台風が来るので、バイクも",
         "answer": "車庫",
         "after": "に入れた。",
         "reading": "しゃこ",
-        "translation": "태풍이 오므로 자전거도 차고에 넣었다.",
+        "translation": "태풍이 오므로 오토바이도 차고에 넣었다.",
         "translationTarget": "차고",
         "difficulty": 28,
         "status": "reviewed"
@@ -175221,12 +175221,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1323280-1-ex-1",
-        "version": 1,
-        "before": "古い自転車の",
+        "version": 2,
+        "before": "古いカートの",
         "answer": "車輪",
         "after": "を外して、タイヤを交換した。",
         "reading": "しゃりん",
-        "translation": "오래된 자전거의 바퀴를 떼어 내고 타이어를 교체했다.",
+        "translation": "오래된 카트의 바퀴를 떼어 내고 타이어를 교체했다.",
         "translationTarget": "바퀴",
         "difficulty": 29,
         "status": "reviewed"
@@ -175541,12 +175541,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1463790-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "海辺で",
         "answer": "日の出",
-        "after": "を見るため、まだ暗いうちに出発した。",
+        "after": "を見るため、まだ暗いうちに宿を離れた。",
         "reading": "ひので",
-        "translation": "바닷가에서 일출을 보려고 아직 어두울 때 출발했다.",
+        "translation": "바닷가에서 일출을 보려고 아직 어두울 때 숙소를 떠났다.",
         "translationTarget": "일출",
         "difficulty": 28,
         "status": "reviewed"
@@ -175701,12 +175701,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1476500-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "汗をかいたので、",
         "answer": "肌着",
-        "after": "だけ先に着替えた。",
+        "after": "だけ先に新しいものに替えた。",
         "reading": "はだぎ",
-        "translation": "땀이 났으므로 내의만 먼저 갈아입었다.",
+        "translation": "땀이 났으므로 내의만 먼저 새것으로 바꾸었다.",
         "translationTarget": "내의",
         "difficulty": 28,
         "status": "reviewed"
@@ -176373,12 +176373,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1609000-1-ex-1",
-        "version": 1,
-        "before": "暑そうな子どもを、母が団扇で",
+        "version": 2,
+        "before": "暑そうな子どもを、母が厚紙で",
         "answer": "扇いで",
         "after": "いた。",
         "reading": "あおいで",
-        "translation": "더워 보이는 아이에게 어머니가 부채로 부채질하고 있었다.",
+        "translation": "더워 보이는 아이에게 어머니가 두꺼운 종이로 부채질하고 있었다.",
         "translationTarget": "부채질하고",
         "difficulty": 30,
         "status": "reviewed"
@@ -177845,12 +177845,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1366730-1-ex-1",
-        "version": 1,
-        "before": "成績だけで人の",
+        "version": 2,
+        "before": "成績だけで生徒の",
         "answer": "人格",
         "after": "まで評価することはできない。",
         "reading": "じんかく",
-        "translation": "성적만으로 사람의 인격까지 평가할 수는 없다.",
+        "translation": "성적만으로 학생의 인격까지 평가할 수는 없다.",
         "translationTarget": "인격",
         "difficulty": 43,
         "status": "reviewed"
@@ -177877,12 +177877,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1368180-1-ex-1",
-        "version": 1,
-        "before": "旅先で受けた親切に、町の人々の",
+        "version": 2,
+        "before": "旅先で受けた親切に、町に暮らす方々の",
         "answer": "人情",
         "after": "を感じた。",
         "reading": "にんじょう",
-        "translation": "여행지에서 받은 친절에서 마을 사람들의 인정을 느꼈다.",
+        "translation": "여행지에서 받은 친절에서 마을에 사는 분들의 인정을 느꼈다.",
         "translationTarget": "인정",
         "difficulty": 43,
         "status": "reviewed"
@@ -178453,12 +178453,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1578300-1-ex-1",
-        "version": 1,
-        "before": "父は会社勤めと農業を",
+        "version": 2,
+        "before": "父は会社勤めと畑仕事を",
         "answer": "兼業",
         "after": "している。",
         "reading": "けんぎょう",
-        "translation": "아버지는 회사 근무와 농업을 겸업하고 있다.",
+        "translation": "아버지는 회사 근무와 밭일을 겸업하고 있다.",
         "translationTarget": "겸업",
         "difficulty": 43,
         "status": "reviewed"
@@ -178709,12 +178709,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1333260-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "新しい法案が、",
         "answer": "衆議院",
-        "after": "で審議されている。",
+        "after": "で検討されている。",
         "reading": "しゅうぎいん",
-        "translation": "새 법안이 중의원에서 심의되고 있다.",
+        "translation": "새 법안이 중의원에서 검토되고 있다.",
         "translationTarget": "중의원",
         "difficulty": 43,
         "status": "reviewed"
@@ -180053,12 +180053,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1223430-1-ex-1",
-        "version": 1,
-        "before": "アンケートは",
+        "version": 2,
+        "before": "回答者が分かるよう、アンケートは",
         "answer": "記名",
-        "after": "式なので、名前を忘れずに書いてください。",
+        "after": "式にしています。",
         "reading": "きめい",
-        "translation": "설문은 기명식이므로 이름을 잊지 말고 써 주세요.",
+        "translation": "응답자를 알 수 있도록 설문은 기명식으로 하고 있습니다.",
         "translationTarget": "기명",
         "difficulty": 35,
         "status": "reviewed"
@@ -180821,12 +180821,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1403190-1-ex-1",
-        "version": 1,
-        "before": "救急の要請が増え、病院は夜間の体制を",
+        "version": 2,
+        "before": "救急の要請が多くなり、病院は夜間の体制を",
         "answer": "増強",
         "after": "した。",
         "reading": "ぞうきょう",
-        "translation": "응급 요청이 늘어 병원은 야간 운영 체제를 증강했다.",
+        "translation": "응급 요청이 많아져 병원은 야간 운영 체제를 증강했다.",
         "translationTarget": "증강",
         "difficulty": 43,
         "status": "reviewed"
@@ -181077,12 +181077,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1531830-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "参加者の",
         "answer": "名簿",
-        "after": "を見ながら、名札を順番に並べた。",
+        "after": "を見ながら、受付用のカードを順番に並べた。",
         "reading": "めいぼ",
-        "translation": "참가자 명부를 보며 명찰을 순서대로 놓았다.",
+        "translation": "참가자 명부를 보며 접수용 카드를 순서대로 놓았다.",
         "translationTarget": "명부",
         "difficulty": 35,
         "status": "reviewed"

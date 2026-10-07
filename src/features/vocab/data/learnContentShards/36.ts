@@ -3274,19 +3274,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1286380-1-ex-1",
-        "version": 1,
-        "before": "両国は、長い交渉の末に",
+        "version": 2,
+        "before": "双方は、長い協議の末に",
         "answer": "国交",
         "after": "を回復した。",
         "reading": "こっこう",
-        "translation": "두 나라는 긴 협상 끝에 국교를 회복했다.",
+        "translation": "양측은 긴 협의 끝에 국교를 회복했다.",
         "translationTarget": "국교",
         "difficulty": 46,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "両国",
-            "reading": "りょうこく"
+            "text": "双方",
+            "reading": "そうほう"
           },
           {
             "text": "は、"
@@ -3296,8 +3296,8 @@ const content: LearnSense[] = [
             "reading": "ながい"
           },
           {
-            "text": "交渉",
-            "reading": "こうしょう"
+            "text": "協議",
+            "reading": "きょうぎ"
           },
           {
             "text": "の"

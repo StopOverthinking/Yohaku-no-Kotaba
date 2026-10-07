@@ -2391,36 +2391,37 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1306680-1-ex-1",
-        "version": 1,
-        "before": "授業では、立法・行政・",
+        "version": 2,
+        "before": "裁判を通じて争いを解決するのが、",
         "answer": "司法",
-        "after": "の役割を学んだ。",
+        "after": "の役割です。",
         "reading": "しほう",
-        "translation": "수업에서는 입법·행정·사법의 역할을 배웠다.",
+        "translation": "재판을 통해 분쟁을 해결하는 것이 사법의 역할입니다.",
         "translationTarget": "사법",
         "difficulty": 46,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "授業",
-            "reading": "じゅぎょう"
+            "text": "裁判",
+            "reading": "さいばん"
           },
           {
-            "text": "では、"
+            "text": "を通じて",
+            "reading": "をつうじて"
           },
           {
-            "text": "立法",
-            "reading": "りっぽう"
+            "text": "争い",
+            "reading": "あらそい"
           },
           {
-            "text": "・"
+            "text": "を"
           },
           {
-            "text": "行政",
-            "reading": "ぎょうせい"
+            "text": "解決",
+            "reading": "かいけつ"
           },
           {
-            "text": "・"
+            "text": "するのが、"
           }
         ],
         "afterFurigana": [
@@ -2432,14 +2433,7 @@ const content: LearnSense[] = [
             "reading": "やくわり"
           },
           {
-            "text": "を"
-          },
-          {
-            "text": "学ん",
-            "reading": "まなん"
-          },
-          {
-            "text": "だ。"
+            "text": "です。"
           }
         ]
       }

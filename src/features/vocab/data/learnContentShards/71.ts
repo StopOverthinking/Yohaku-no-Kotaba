@@ -2279,12 +2279,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1227780-1-ex-1",
-        "version": 1,
-        "before": "先生が出張するため、明日の講義は",
+        "version": 2,
+        "before": "先生が出張するため、明日の授業は",
         "answer": "休講",
         "after": "になった。",
         "reading": "きゅうこう",
-        "translation": "선생님이 출장을 가셔서 내일 강의는 휴강이 되었다.",
+        "translation": "선생님이 출장을 가셔서 내일 수업은 휴강이 되었다.",
         "translationTarget": "휴강",
         "difficulty": 35,
         "status": "reviewed",
@@ -2311,8 +2311,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "講義",
-            "reading": "こうぎ"
+            "text": "授業",
+            "reading": "じゅぎょう"
           },
           {
             "text": "は"
@@ -2632,23 +2632,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1207180-1-ex-1",
-        "version": 1,
-        "before": "入学後の",
+        "version": 2,
+        "before": "生徒の",
         "answer": "学力",
         "after": "を伸ばすため、補習の時間を設けた。",
         "reading": "がくりょく",
-        "translation": "입학 후의 학습 능력을 높이려고 보충 수업 시간을 마련했다.",
+        "translation": "학생의 학습 능력을 높이려고 보충 수업 시간을 마련했다.",
         "translationTarget": "학습 능력",
         "difficulty": 38,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "入学",
-            "reading": "にゅうがく"
-          },
-          {
-            "text": "後",
-            "reading": "ご"
+            "text": "生徒",
+            "reading": "せいと"
           },
           {
             "text": "の"

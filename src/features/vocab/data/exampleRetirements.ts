@@ -191,7 +191,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_158-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_158-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_160-1",
@@ -407,7 +407,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_42-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_42-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_45-1",
@@ -1247,7 +1247,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_389-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_389-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_392-1",
@@ -1311,7 +1311,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_413-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_413-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_416-1",
@@ -1415,7 +1415,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_453-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_453-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_456-1",
@@ -1423,7 +1423,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_456-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_456-1-ex-1",
-    "replacementVersion": 2
+    "replacementVersion": 3
   },
   {
     "senseId": "sense-JLPTN3_459-1",
@@ -1479,7 +1479,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_477-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_477-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_480-1",
@@ -1607,7 +1607,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-handmade_32-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-handmade_32-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-handmade_35-1",
@@ -1687,7 +1687,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-handmade_62-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-handmade_62-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-handmade_65-1",
@@ -1839,7 +1839,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-handmade_122-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-handmade_122-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-handmade_125-1",
@@ -1847,7 +1847,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-handmade_125-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-handmade_125-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-handmade_128-1",
@@ -2655,7 +2655,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_281-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_281-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_284-1",
@@ -3367,7 +3367,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_583-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_583-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_586-1",
@@ -3543,7 +3543,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_650-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_650-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_653-1",
@@ -6575,7 +6575,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_319-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_319-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_322-1",
@@ -7135,7 +7135,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_539-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_539-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_543-1",
@@ -7399,7 +7399,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_642-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_642-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_645-1",
@@ -7919,7 +7919,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_837-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_837-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_840-1",
@@ -8615,7 +8615,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_266-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_266-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_269-1",
@@ -8647,7 +8647,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-JLPTN3_278-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-JLPTN3_278-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-JLPTN3_282-1",
@@ -9575,7 +9575,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-handmade_139-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-handmade_139-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-handmade_142-1",
@@ -10207,7 +10207,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_226-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_226-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_229-1",
@@ -10311,7 +10311,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_265-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_265-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_268-1",
@@ -11279,7 +11279,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_649-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_649-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_652-1",
@@ -11391,7 +11391,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_691-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_691-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_694-1",
@@ -11799,7 +11799,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-AbsoluteVerb_847-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-AbsoluteVerb_847-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-AbsoluteVerb_850-1",
@@ -11911,7 +11911,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1316140-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1316140-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1316140-1",
@@ -11919,7 +11919,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1316140-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1316140-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1443530-1",
@@ -14455,7 +14455,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1203090-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1203090-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1203090-1",
@@ -14463,7 +14463,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1203090-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1203090-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1203620-1",
@@ -15727,7 +15727,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1307850-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1307850-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1307850-1",
@@ -15735,7 +15735,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1307850-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1307850-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1315920-1",
@@ -15767,7 +15767,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1318400-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1318400-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1318400-1",
@@ -15775,7 +15775,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1318400-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1318400-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1319220-1",
@@ -15943,7 +15943,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1344970-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1344970-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1344970-1",
@@ -15951,7 +15951,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1344970-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1344970-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1347750-1",
@@ -16039,7 +16039,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1358550-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1358550-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1358550-1",
@@ -16047,7 +16047,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1358550-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1358550-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1361490-1",
@@ -16647,7 +16647,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1443000-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1443000-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1443000-1",
@@ -16655,7 +16655,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1443000-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1443000-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1444680-1",
@@ -17279,7 +17279,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1579130-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1579130-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1579130-1",
@@ -17287,7 +17287,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1579130-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1579130-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1580340-1",
@@ -17295,7 +17295,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1580340-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1580340-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1580340-1",
@@ -17303,7 +17303,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1580340-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1580340-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1581930-1",
@@ -17439,7 +17439,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1183300-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1183300-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1183300-1",
@@ -17447,7 +17447,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1183300-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1183300-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1242160-1",
@@ -17519,7 +17519,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1307320-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1307320-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1307320-1",
@@ -17527,7 +17527,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1307320-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1307320-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1335000-1",
@@ -17991,7 +17991,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1476920-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1476920-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1476920-1",
@@ -17999,7 +17999,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1476920-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1476920-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1600850-1",
@@ -18471,7 +18471,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1159810-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1159810-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1159810-1",
@@ -18479,7 +18479,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1159810-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1159810-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1172870-1",
@@ -18535,7 +18535,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1185930-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1185930-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1185930-1",
@@ -18543,7 +18543,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1185930-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1185930-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1192700-1",
@@ -19711,7 +19711,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1426920-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1426920-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1426920-1",
@@ -19719,7 +19719,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1426920-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1426920-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1454670-1",
@@ -19887,7 +19887,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1505190-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1505190-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1505190-1",
@@ -19895,7 +19895,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1505190-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1505190-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1505600-1",
@@ -20375,7 +20375,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1303770-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1303770-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1303770-1",
@@ -20383,7 +20383,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1303770-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1303770-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1308090-1",
@@ -20455,7 +20455,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1310050-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1310050-1-ex-1",
-    "replacementVersion": 2
+    "replacementVersion": 3
   },
   {
     "senseId": "sense-lex-jmdict-1310050-1",
@@ -20463,7 +20463,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1310050-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1310050-1-ex-1",
-    "replacementVersion": 2
+    "replacementVersion": 3
   },
   {
     "senseId": "sense-lex-jmdict-1311450-1",
@@ -20503,7 +20503,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1313080-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1313080-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1313850-1",
@@ -21095,7 +21095,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1350080-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1350080-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1350080-1",
@@ -21103,7 +21103,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1350080-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1350080-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1355810-1",
@@ -21111,7 +21111,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1355810-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1355810-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1355810-1",
@@ -21119,7 +21119,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1355810-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1355810-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1355850-1",
@@ -21919,7 +21919,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1600530-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1600530-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1601650-1",
@@ -21975,7 +21975,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1485520-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1485520-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1485520-1",
@@ -21983,7 +21983,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1485520-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1485520-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1489340-1",
@@ -22207,7 +22207,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1483150-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1483150-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1484930-1",
@@ -23135,7 +23135,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1152730-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1152730-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1152730-1",
@@ -23143,7 +23143,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1152730-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1152730-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1158500-1",
@@ -23583,7 +23583,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1191980-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1191980-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1191980-1",
@@ -23591,7 +23591,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1191980-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1191980-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1192270-1",
@@ -23615,7 +23615,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1193290-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1193290-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1193290-1",
@@ -23623,7 +23623,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1193290-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1193290-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1195670-1",
@@ -24303,7 +24303,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1160140-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1160140-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1160140-1",
@@ -24311,7 +24311,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1160140-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1160140-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1154120-1",
@@ -25743,7 +25743,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1237020-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1237020-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1237020-1",
@@ -25751,7 +25751,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1237020-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1237020-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1237160-1",
@@ -25823,7 +25823,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1244560-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1244560-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1244560-1",
@@ -25831,7 +25831,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1244560-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1244560-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1244680-1",
@@ -26063,7 +26063,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1242300-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1242300-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1242300-1",
@@ -26071,7 +26071,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1242300-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1242300-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1299030-1",
@@ -26399,7 +26399,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1279170-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1279170-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1279170-1",
@@ -26407,7 +26407,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1279170-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1279170-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1290390-1",
@@ -26903,7 +26903,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1289140-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1289140-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1289140-1",
@@ -26911,7 +26911,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1289140-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1289140-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1289070-1",
@@ -26951,7 +26951,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1226040-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1226040-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1226040-1",
@@ -26959,7 +26959,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1226040-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1226040-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1226140-1",
@@ -27103,7 +27103,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1242850-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1242850-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1242850-1",
@@ -27111,7 +27111,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1242850-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1242850-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1242970-1",
@@ -27207,7 +27207,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1249660-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1249660-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1249660-1",
@@ -27215,7 +27215,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1249660-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1249660-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1250090-1",
@@ -28535,7 +28535,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1183510-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1183510-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1183510-1",
@@ -28543,7 +28543,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1183510-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1183510-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1184370-1",
@@ -28559,7 +28559,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1186760-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1186760-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1186760-1",
@@ -28567,7 +28567,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1186760-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1186760-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1190080-1",
@@ -28735,7 +28735,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1203540-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1203540-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1203540-1",
@@ -28743,7 +28743,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1203540-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1203540-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1204330-1",
@@ -29751,7 +29751,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1302280-1-ex-2",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1302280-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1302280-1",
@@ -29759,7 +29759,7 @@ export const exampleRetirements: ExampleRetirement[] = [
     "exampleId": "sense-lex-jmdict-1302280-1-ex-3",
     "exampleVersion": 1,
     "replacementId": "sense-lex-jmdict-1302280-1-ex-1",
-    "replacementVersion": 1
+    "replacementVersion": 2
   },
   {
     "senseId": "sense-lex-jmdict-1303620-1",

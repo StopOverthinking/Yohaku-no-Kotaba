@@ -1668,29 +1668,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1433090-1-ex-1",
-        "version": 1,
-        "before": "家から学校までの",
+        "version": 2,
+        "before": "自宅からの",
         "answer": "通学",
         "after": "に、一時間ほどかかる。",
         "reading": "つうがく",
-        "translation": "집에서 학교까지 통학하는 데 한 시간 정도 걸린다.",
+        "translation": "집에서 통학하는 데 한 시간 정도 걸린다.",
         "translationTarget": "통학",
         "difficulty": 28,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "家",
-            "reading": "いえ"
+            "text": "自宅",
+            "reading": "じたく"
           },
           {
-            "text": "から"
-          },
-          {
-            "text": "学校",
-            "reading": "がっこう"
-          },
-          {
-            "text": "までの"
+            "text": "からの"
           }
         ],
         "afterFurigana": [
@@ -1876,12 +1869,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1228100-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "医師に十分な",
         "answer": "休養",
-        "after": "を取るよう勧められ、しばらく仕事を休んだ。",
+        "after": "を取るよう勧められ、しばらく静かに過ごした。",
         "reading": "きゅうよう",
-        "translation": "의사에게 충분한 요양을 하라는 권고를 받아 한동안 일을 쉬었다.",
+        "translation": "의사에게 충분한 요양을 하라는 권고를 받아 한동안 조용히 지냈다.",
         "translationTarget": "요양",
         "difficulty": 39,
         "status": "reviewed",
@@ -1920,18 +1913,18 @@ const content: LearnSense[] = [
             "text": "られ、しばらく"
           },
           {
-            "text": "仕事",
-            "reading": "しごと"
+            "text": "静か",
+            "reading": "しずか"
           },
           {
-            "text": "を"
+            "text": "に"
           },
           {
-            "text": "休ん",
-            "reading": "やすん"
+            "text": "過ごし",
+            "reading": "すごし"
           },
           {
-            "text": "だ。"
+            "text": "た。"
           }
         ]
       }

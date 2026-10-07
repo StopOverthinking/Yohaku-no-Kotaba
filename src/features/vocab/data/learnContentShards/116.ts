@@ -1535,12 +1535,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1420070-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "今年の大会では、",
         "answer": "男子",
-        "after": "の部と女子の部を別の日に開く。",
+        "after": "の部を先に開く。",
         "reading": "だんし",
-        "translation": "올해 대회에서는 남자 부문과 여자 부문을 서로 다른 날에 개최한다.",
+        "translation": "올해 대회에서는 남자 부문을 먼저 개최한다.",
         "translationTarget": "남자",
         "difficulty": 30,
         "status": "reviewed",
@@ -1569,32 +1569,11 @@ const content: LearnSense[] = [
             "reading": "ぶ"
           },
           {
-            "text": "と"
-          },
-          {
-            "text": "女子",
-            "reading": "じょし"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "部",
-            "reading": "ぶ"
-          },
-          {
             "text": "を"
           },
           {
-            "text": "別",
-            "reading": "べつ"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "日",
-            "reading": "ひ"
+            "text": "先",
+            "reading": "さき"
           },
           {
             "text": "に"
@@ -1630,34 +1609,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1437610-1-ex-1",
-        "version": 1,
-        "before": "大学の",
+        "version": 2,
+        "before": "",
         "answer": "哲学",
-        "after": "の授業で、幸福とは何かについて議論した。",
+        "after": "のゼミで、幸福とは何かについて議論した。",
         "reading": "てつがく",
-        "translation": "대학 철학 수업에서 행복이란 무엇인지 논의했다.",
+        "translation": "철학 세미나에서 행복이란 무엇인지 논의했다.",
         "translationTarget": "철학",
         "difficulty": 30,
         "status": "reviewed",
-        "beforeFurigana": [
-          {
-            "text": "大学",
-            "reading": "だいがく"
-          },
-          {
-            "text": "の"
-          }
-        ],
+        "beforeFurigana": [],
         "afterFurigana": [
           {
-            "text": "の"
-          },
-          {
-            "text": "授業",
-            "reading": "じゅぎょう"
-          },
-          {
-            "text": "で、"
+            "text": "のゼミで、"
           },
           {
             "text": "幸福",
@@ -1704,12 +1668,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1223820-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "合宿中は",
         "answer": "起床",
-        "after": "の時刻が決まっていて、六時に全員が起きる。",
+        "after": "の時刻が決まっていて、六時に全員が寝室を出る。",
         "reading": "きしょう",
-        "translation": "합숙 중에는 기상 시각이 정해져 있어서 여섯 시에 모두 일어난다.",
+        "translation": "합숙 중에는 기상 시각이 정해져 있어서 여섯 시에 모두 침실을 나선다.",
         "translationTarget": "기상",
         "difficulty": 37,
         "status": "reviewed",
@@ -1759,8 +1723,15 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "起きる",
-            "reading": "おきる"
+            "text": "寝室",
+            "reading": "しんしつ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "出る",
+            "reading": "でる"
           },
           {
             "text": "。"
@@ -1856,12 +1827,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1538920-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この島への",
         "answer": "唯一",
-        "after": "の交通手段は、日に一度の船だ。",
+        "after": "の交通手段は、定期便の船だ。",
         "reading": "ゆいいつ",
-        "translation": "이 섬으로 가는 유일한 교통수단은 하루 한 번 다니는 배다.",
+        "translation": "이 섬으로 가는 유일한 교통수단은 정기선이다.",
         "translationTarget": "유일한",
         "difficulty": 31,
         "status": "reviewed",
@@ -1893,19 +1864,12 @@ const content: LearnSense[] = [
             "text": "は、"
           },
           {
-            "text": "日",
-            "reading": "ひ"
+            "text": "定期",
+            "reading": "ていき"
           },
           {
-            "text": "に"
-          },
-          {
-            "text": "一",
-            "reading": "いち"
-          },
-          {
-            "text": "度",
-            "reading": "ど"
+            "text": "便",
+            "reading": "びん"
           },
           {
             "text": "の"

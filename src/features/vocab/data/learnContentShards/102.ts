@@ -1754,12 +1754,12 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1424410-1-ex-2",
-        "version": 1,
-        "before": "雨が強くなったため、途中で試合を",
+        "version": 2,
+        "before": "雨が強くなったため、試合を",
         "answer": "中止",
         "after": "した。",
         "reading": "ちゅうし",
-        "translation": "비가 거세져서 도중에 경기를 중지했다.",
+        "translation": "비가 거세져서 경기를 중지했다.",
         "translationTarget": "중지",
         "difficulty": 29,
         "status": "reviewed",
@@ -1777,13 +1777,6 @@ const content: LearnSense[] = [
           },
           {
             "text": "なったため、"
-          },
-          {
-            "text": "途中",
-            "reading": "とちゅう"
-          },
-          {
-            "text": "で"
           },
           {
             "text": "試合",
@@ -2886,12 +2879,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1541690-1-ex-1",
-        "version": 1,
-        "before": "入場は無料ですが、駐車場は",
+        "version": 2,
+        "before": "入場にお金はかかりませんが、駐車場は",
         "answer": "有料",
         "after": "です。",
         "reading": "ゆうりょう",
-        "translation": "입장은 무료이지만 주차장은 유료입니다.",
+        "translation": "입장에는 돈이 들지 않지만 주차장은 유료입니다.",
         "translationTarget": "유료",
         "difficulty": 20,
         "status": "reviewed",
@@ -2901,14 +2894,14 @@ const content: LearnSense[] = [
             "reading": "にゅうじょう"
           },
           {
-            "text": "は"
+            "text": "に"
           },
           {
-            "text": "無料",
-            "reading": "むりょう"
+            "text": "お金",
+            "reading": "おかね"
           },
           {
-            "text": "ですが、"
+            "text": "はかかりませんが、"
           },
           {
             "text": "駐車",

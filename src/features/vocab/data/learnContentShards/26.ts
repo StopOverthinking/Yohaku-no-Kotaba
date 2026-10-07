@@ -21,12 +21,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_32-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "今朝",
-        "after": "、庭で今年初めての霜を見た。",
+        "after": "、庭でうっすらと白い霜を見た。",
         "reading": "けさ",
-        "translation": "오늘 아침 정원에서 올해 첫 서리를 봤다.",
+        "translation": "오늘 아침 정원에서 희미하게 하얀 서리를 봤다.",
         "translationTarget": "오늘 아침",
         "difficulty": 18,
         "status": "reviewed",
@@ -40,18 +40,11 @@ const content: LearnSense[] = [
             "reading": "にわ"
           },
           {
-            "text": "で"
+            "text": "でうっすらと"
           },
           {
-            "text": "今年",
-            "reading": "ことし"
-          },
-          {
-            "text": "初めて",
-            "reading": "はじめて"
-          },
-          {
-            "text": "の"
+            "text": "白い",
+            "reading": "しろい"
           },
           {
             "text": "霜",
@@ -2240,38 +2233,30 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1296440-1-ex-1",
-        "version": 1,
-        "before": "大学に",
+        "version": 2,
+        "before": "",
         "answer": "在学",
-        "after": "中、夜は書店で働いていました。",
+        "after": "中は、夜に書店で働いていました。",
         "reading": "ざいがく",
-        "translation": "대학에 재학 중일 때 밤에는 서점에서 일했습니다.",
+        "translation": "재학 중에는 밤에 서점에서 일했습니다.",
         "translationTarget": "재학",
         "difficulty": 31,
         "status": "reviewed",
-        "beforeFurigana": [
-          {
-            "text": "大学",
-            "reading": "だいがく"
-          },
-          {
-            "text": "に"
-          }
-        ],
+        "beforeFurigana": [],
         "afterFurigana": [
           {
             "text": "中",
             "reading": "なか"
           },
           {
-            "text": "、"
+            "text": "は、"
           },
           {
             "text": "夜",
             "reading": "よる"
           },
           {
-            "text": "は"
+            "text": "に"
           },
           {
             "text": "書店",

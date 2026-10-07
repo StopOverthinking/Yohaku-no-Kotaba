@@ -3008,12 +3008,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1487570-1-ex-1",
-        "version": 1,
-        "before": "この結果は偶然ではなく、準備不足による",
+        "version": 2,
+        "before": "この結果はたまたま起きたのではなく、準備不足による",
         "answer": "必然",
         "after": "だった。",
         "reading": "ひつぜん",
-        "translation": "이 결과는 우연이 아니라 준비 부족에 따른 필연이었다.",
+        "translation": "이 결과는 우연히 일어난 것이 아니라 준비 부족에 따른 필연이었다.",
         "translationTarget": "필연",
         "difficulty": 43,
         "status": "reviewed",
@@ -3026,14 +3026,14 @@ const content: LearnSense[] = [
             "reading": "けっか"
           },
           {
-            "text": "は"
+            "text": "はたまたま"
           },
           {
-            "text": "偶然",
-            "reading": "ぐうぜん"
+            "text": "起き",
+            "reading": "おき"
           },
           {
-            "text": "ではなく、"
+            "text": "たのではなく、"
           },
           {
             "text": "準備",

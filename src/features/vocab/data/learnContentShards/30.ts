@@ -741,12 +741,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_139-1-ex-1",
-        "version": 1,
-        "before": "小さな会社なので、",
+        "version": 2,
+        "before": "小さな店なので、",
         "answer": "社長",
         "after": "も配達に出る。",
         "reading": "しゃちょう",
-        "translation": "작은 회사라서 사장도 배달을 나간다.",
+        "translation": "작은 가게라서 사장도 배달을 나간다.",
         "translationTarget": "사장",
         "difficulty": 25,
         "status": "reviewed",
@@ -756,8 +756,8 @@ const content: LearnSense[] = [
             "reading": "ちいさな"
           },
           {
-            "text": "会社",
-            "reading": "かいしゃ"
+            "text": "店",
+            "reading": "みせ"
           },
           {
             "text": "なので、"
@@ -2686,12 +2686,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1539280-1-ex-1",
-        "version": 1,
-        "before": "最後の試合に勝ち、チームは初めて",
+        "version": 2,
+        "before": "最後の試合を制し、チームは初めて",
         "answer": "優勝",
         "after": "した。",
         "reading": "ゆうしょう",
-        "translation": "마지막 경기에서 이겨 팀은 처음으로 우승했다.",
+        "translation": "마지막 경기를 제압하고 팀은 처음으로 우승했다.",
         "translationTarget": "우승",
         "difficulty": 28,
         "status": "reviewed",
@@ -2708,11 +2708,11 @@ const content: LearnSense[] = [
             "reading": "しあい"
           },
           {
-            "text": "に"
+            "text": "を"
           },
           {
-            "text": "勝ち",
-            "reading": "かち"
+            "text": "制し",
+            "reading": "せいし"
           },
           {
             "text": "、チームは"

@@ -2283,12 +2283,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1222310-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "彼のほめ方は少し",
         "answer": "きざ",
-        "after": "だが、悪気がないことは伝わってくる。",
+        "after": "だが、相手を喜ばせたいことは伝わってくる。",
         "reading": "きざ",
-        "translation": "그의 칭찬 방식은 조금 느끼하지만 악의가 없다는 것은 느껴진다.",
+        "translation": "그의 칭찬 방식은 조금 느끼하지만 상대를 기쁘게 하려는 마음은 전해진다.",
         "translationTarget": "느끼하지만",
         "difficulty": 44,
         "status": "reviewed",
@@ -2317,11 +2317,18 @@ const content: LearnSense[] = [
             "text": "だが、"
           },
           {
-            "text": "悪気",
-            "reading": "わるぎ"
+            "text": "相手",
+            "reading": "あいて"
           },
           {
-            "text": "がないことは"
+            "text": "を"
+          },
+          {
+            "text": "喜ば",
+            "reading": "よろこば"
+          },
+          {
+            "text": "せたいことは"
           },
           {
             "text": "伝わっ",
@@ -2354,12 +2361,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1206590-1-ex-1",
-        "version": 1,
-        "before": "同じ大学でも、",
+        "version": 2,
+        "before": "同じキャンパスでも、",
         "answer": "学科",
-        "after": "によって必要な試験科目が違う。",
+        "after": "によって必要な試験の内容が違う。",
         "reading": "がっか",
-        "translation": "같은 대학이어도 학과에 따라 필요한 시험 과목이 다르다.",
+        "translation": "같은 캠퍼스여도 학과에 따라 필요한 시험 내용이 다르다.",
         "translationTarget": "학과",
         "difficulty": 38,
         "status": "reviewed",
@@ -2369,11 +2376,7 @@ const content: LearnSense[] = [
             "reading": "おなじ"
           },
           {
-            "text": "大学",
-            "reading": "だいがく"
-          },
-          {
-            "text": "でも、"
+            "text": "キャンパスでも、"
           }
         ],
         "afterFurigana": [
@@ -2392,8 +2395,11 @@ const content: LearnSense[] = [
             "reading": "しけん"
           },
           {
-            "text": "科目",
-            "reading": "かもく"
+            "text": "の"
+          },
+          {
+            "text": "内容",
+            "reading": "ないよう"
           },
           {
             "text": "が"
@@ -3288,19 +3294,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1452720-1-ex-1",
-        "version": 1,
-        "before": "事情を聞いて",
+        "version": 2,
+        "before": "つらい話を聞いて",
         "answer": "同情",
         "after": "したが、規則を変えることはできなかった。",
         "reading": "どうじょう",
-        "translation": "사정을 듣고 동정했지만 규칙을 바꿀 수는 없었다.",
+        "translation": "힘든 이야기를 듣고 동정했지만 규칙을 바꿀 수는 없었다.",
         "translationTarget": "동정",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "事情",
-            "reading": "じじょう"
+            "text": "つらい"
+          },
+          {
+            "text": "話",
+            "reading": "はなし"
           },
           {
             "text": "を"
@@ -3440,12 +3449,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1318110-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この博物館では、",
         "answer": "自然科学",
-        "after": "を体験しながら学べる。",
+        "after": "に触れながら知識を深められる。",
         "reading": "しぜんかがく",
-        "translation": "이 박물관에서는 자연 과학을 체험하며 배울 수 있다.",
+        "translation": "이 박물관에서는 자연 과학을 접하며 지식을 넓힐 수 있다.",
         "translationTarget": "자연 과학",
         "difficulty": 32,
         "status": "reviewed",
@@ -3463,21 +3472,28 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
+            "text": "に"
+          },
+          {
+            "text": "触れ",
+            "reading": "ふれ"
+          },
+          {
+            "text": "ながら"
+          },
+          {
+            "text": "知識",
+            "reading": "ちしき"
+          },
+          {
             "text": "を"
           },
           {
-            "text": "体験",
-            "reading": "たいけん"
+            "text": "深め",
+            "reading": "ふかめ"
           },
           {
-            "text": "しながら"
-          },
-          {
-            "text": "学べる",
-            "reading": "まなべる"
-          },
-          {
-            "text": "。"
+            "text": "られる。"
           }
         ]
       }

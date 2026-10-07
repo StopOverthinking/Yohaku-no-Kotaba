@@ -2009,12 +2009,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1234210-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "叔父は",
         "answer": "競馬",
-        "after": "を見るのが好きで、馬の名前をよく覚えている。",
+        "after": "を見るのが好きで、騎手の名前をよく覚えている。",
         "reading": "けいば",
-        "translation": "삼촌은 경마 보기를 좋아해서 말 이름을 잘 기억한다.",
+        "translation": "삼촌은 경마 보기를 좋아해서 기수 이름을 잘 기억한다.",
         "translationTarget": "경마",
         "difficulty": 36,
         "status": "reviewed",
@@ -2046,8 +2046,8 @@ const content: LearnSense[] = [
             "text": "で、"
           },
           {
-            "text": "馬",
-            "reading": "うま"
+            "text": "騎手",
+            "reading": "きしゅ"
           },
           {
             "text": "の"
@@ -2328,12 +2328,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1259440-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "志望校の",
         "answer": "見学",
-        "after": "に行き、実際の授業を後ろの席から見せてもらった。",
+        "after": "に行き、実際の授業に後ろの席から参加した。",
         "reading": "けんがく",
-        "translation": "지원하려는 학교에 견학을 가서 실제 수업을 뒤쪽 자리에서 참관했다.",
+        "translation": "지원하려는 학교에 견학을 가서 실제 수업에 뒤쪽 자리에서 참여했다.",
         "translationTarget": "견학",
         "difficulty": 37,
         "status": "reviewed",
@@ -2369,7 +2369,7 @@ const content: LearnSense[] = [
             "reading": "じゅぎょう"
           },
           {
-            "text": "を"
+            "text": "に"
           },
           {
             "text": "後ろ",
@@ -2386,11 +2386,11 @@ const content: LearnSense[] = [
             "text": "から"
           },
           {
-            "text": "見せ",
-            "reading": "みせ"
+            "text": "参加",
+            "reading": "さんか"
           },
           {
-            "text": "てもらった。"
+            "text": "した。"
           }
         ]
       }
@@ -2416,12 +2416,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1235550-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "専門家の",
         "answer": "協会",
-        "after": "が、一般向けに相談会を開いている。",
+        "after": "が、一般向けに相談窓口を設けている。",
         "reading": "きょうかい",
-        "translation": "전문가 협회가 일반인을 대상으로 상담회를 열고 있다.",
+        "translation": "전문가 협회가 일반인을 대상으로 상담 창구를 마련하고 있다.",
         "translationTarget": "협회",
         "difficulty": 44,
         "status": "reviewed",
@@ -2458,15 +2458,15 @@ const content: LearnSense[] = [
             "reading": "そうだん"
           },
           {
-            "text": "会",
-            "reading": "かい"
+            "text": "窓口",
+            "reading": "まどぐち"
           },
           {
             "text": "を"
           },
           {
-            "text": "開い",
-            "reading": "ひらい"
+            "text": "設け",
+            "reading": "もうけ"
           },
           {
             "text": "ている。"

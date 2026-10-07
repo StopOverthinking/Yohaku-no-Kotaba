@@ -1651,12 +1651,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344150-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "研究のために、百年前の",
         "answer": "書物",
-        "after": "を図書館で探した。",
+        "after": "を古本屋で探した。",
         "reading": "しょもつ",
-        "translation": "연구를 위해 백 년 전 서적을 도서관에서 찾았다.",
+        "translation": "연구를 위해 백 년 전 서적을 헌책방에서 찾았다.",
         "translationTarget": "서적",
         "difficulty": 30,
         "status": "reviewed",
@@ -1685,8 +1685,8 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "図書館",
-            "reading": "としょかん"
+            "text": "古本屋",
+            "reading": "ふるほんや"
           },
           {
             "text": "で"
@@ -2917,12 +2917,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1223280-1-ex-1",
-        "version": 1,
-        "before": "当時の暮らしは、旅人の日記の",
+        "version": 2,
+        "before": "当時の暮らしは、旅人の手帳の",
         "answer": "記述",
         "after": "から知ることができる。",
         "reading": "きじゅつ",
-        "translation": "당시 생활은 여행자의 일기 속 서술에서 알 수 있다.",
+        "translation": "당시 생활은 여행자의 수첩 속 서술에서 알 수 있다.",
         "translationTarget": "서술",
         "difficulty": 43,
         "status": "reviewed",
@@ -2949,8 +2949,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "日記",
-            "reading": "にっき"
+            "text": "手帳",
+            "reading": "てちょう"
           },
           {
             "text": "の"

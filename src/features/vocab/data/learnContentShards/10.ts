@@ -149,12 +149,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_477-1-ex-1",
-        "version": 1,
-        "before": "雪の重みで、古い小屋の",
+        "version": 2,
+        "before": "雪の重みで、古い倉庫の",
         "answer": "屋根",
         "after": "が壊れた。",
         "reading": "やね",
-        "translation": "눈의 무게로 오래된 오두막 지붕이 망가졌다.",
+        "translation": "눈의 무게로 오래된 창고 지붕이 망가졌다.",
         "translationTarget": "지붕",
         "difficulty": 27,
         "status": "reviewed",
@@ -178,8 +178,8 @@ const content: LearnSense[] = [
             "reading": "ふるい"
           },
           {
-            "text": "小屋",
-            "reading": "こや"
+            "text": "倉庫",
+            "reading": "そうこ"
           },
           {
             "text": "の"
@@ -1276,22 +1276,36 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443000-1-ex-1",
-        "version": 1,
-        "before": "停電で",
+        "version": 2,
+        "before": "嵐で線が切れ、",
         "answer": "電気",
         "after": "が使えなくなりました。",
         "reading": "でんき",
-        "translation": "정전으로 전기를 쓸 수 없게 됐어요.",
+        "translation": "폭풍으로 선이 끊겨 전기를 쓸 수 없게 됐어요.",
         "translationTarget": "전기",
         "difficulty": 14,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "停電",
-            "reading": "ていでん"
+            "text": "嵐",
+            "reading": "あらし"
           },
           {
             "text": "で"
+          },
+          {
+            "text": "線",
+            "reading": "せん"
+          },
+          {
+            "text": "が"
+          },
+          {
+            "text": "切れ",
+            "reading": "きれ"
+          },
+          {
+            "text": "、"
           }
         ],
         "afterFurigana": [
@@ -2342,12 +2356,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1384840-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "残ったパンを",
         "answer": "一切れ",
-        "after": "、スープと一緒に食べた。",
+        "after": "、スープに浸して食べた。",
         "reading": "ひときれ",
-        "translation": "남은 빵 한 조각을 수프와 함께 먹었다.",
+        "translation": "남은 빵 한 조각을 수프에 적셔 먹었다.",
         "translationTarget": "한 조각",
         "difficulty": 29,
         "status": "reviewed",
@@ -2362,14 +2376,14 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "、スープと"
+            "text": "、スープに"
           },
           {
-            "text": "一緒",
-            "reading": "いっしょ"
+            "text": "浸し",
+            "reading": "ひたし"
           },
           {
-            "text": "に"
+            "text": "て"
           },
           {
             "text": "食べ",

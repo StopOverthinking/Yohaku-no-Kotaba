@@ -2058,12 +2058,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1244800-1-ex-1",
-        "version": 1,
-        "before": "時間が足りなかったので、最後の章は",
+        "version": 2,
+        "before": "時間に余裕がなかったので、最後の章は",
         "answer": "駆け足",
         "after": "で説明することになった。",
         "reading": "かけあし",
-        "translation": "시간이 부족해서 마지막 장은 서둘러 설명하게 되었다.",
+        "translation": "시간 여유가 없어서 마지막 장은 서둘러 설명하게 되었다.",
         "translationTarget": "서둘러",
         "difficulty": 44,
         "status": "reviewed",
@@ -2073,14 +2073,14 @@ const content: LearnSense[] = [
             "reading": "じかん"
           },
           {
-            "text": "が"
+            "text": "に"
           },
           {
-            "text": "足り",
-            "reading": "たり"
+            "text": "余裕",
+            "reading": "よゆう"
           },
           {
-            "text": "なかったので、"
+            "text": "がなかったので、"
           },
           {
             "text": "最後",

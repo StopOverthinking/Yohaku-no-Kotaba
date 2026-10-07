@@ -893,12 +893,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1302280-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "先輩の報告書を",
         "answer": "参考",
-        "after": "にして、文章の構成を考えた。",
+        "after": "にして、文章の構成を決めた。",
         "reading": "さんこう",
-        "translation": "선배의 보고서를 참고하여 글의 구성을 생각했다.",
+        "translation": "선배의 보고서를 참고하여 글의 구성을 정했다.",
         "translationTarget": "참고",
         "difficulty": 28,
         "status": "reviewed",
@@ -941,8 +941,8 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "考え",
-            "reading": "かんがえ"
+            "text": "決め",
+            "reading": "きめ"
           },
           {
             "text": "た。"
@@ -1598,12 +1598,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1435540-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "パン屋の",
         "answer": "定休日",
-        "after": "は、毎週水曜日です。",
+        "after": "は、毎週火曜です。",
         "reading": "ていきゅうび",
-        "translation": "빵집의 정기 휴일은 매주 수요일입니다.",
+        "translation": "빵집의 정기 휴일은 매주 화요일입니다.",
         "translationTarget": "정기 휴일",
         "difficulty": 20,
         "status": "reviewed",
@@ -1628,8 +1628,8 @@ const content: LearnSense[] = [
             "reading": "まいしゅう"
           },
           {
-            "text": "水曜日",
-            "reading": "すいようび"
+            "text": "火曜",
+            "reading": "かよう"
           },
           {
             "text": "です。"

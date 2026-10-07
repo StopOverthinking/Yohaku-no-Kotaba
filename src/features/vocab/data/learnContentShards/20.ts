@@ -1044,12 +1044,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1181560-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "その国の",
         "answer": "王女",
-        "after": "は、父である国王と共に式典に出席した。",
+        "after": "は、父と共に式典に出席した。",
         "reading": "おうじょ",
-        "translation": "그 나라의 왕녀는 아버지인 국왕과 함께 의식에 참석했다.",
+        "translation": "그 나라의 왕녀는 아버지와 함께 의식에 참석했다.",
         "translationTarget": "왕녀",
         "difficulty": 39,
         "status": "reviewed",
@@ -1072,13 +1072,6 @@ const content: LearnSense[] = [
           {
             "text": "父",
             "reading": "ちち"
-          },
-          {
-            "text": "である"
-          },
-          {
-            "text": "国王",
-            "reading": "こくおう"
           },
           {
             "text": "と共に",
@@ -2463,26 +2456,29 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1430800-1-ex-1",
-        "version": 1,
-        "before": "机の角が",
+        "version": 2,
+        "before": "この板の隅が",
         "answer": "直角",
         "after": "かどうか、定規で確かめました。",
         "reading": "ちょっかく",
-        "translation": "책상 모서리가 직각인지 자로 확인했습니다.",
+        "translation": "이 판의 모서리가 직각인지 자로 확인했습니다.",
         "translationTarget": "직각",
         "difficulty": 29,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "机",
-            "reading": "つくえ"
+            "text": "この"
+          },
+          {
+            "text": "板",
+            "reading": "いた"
           },
           {
             "text": "の"
           },
           {
-            "text": "角",
-            "reading": "かく"
+            "text": "隅",
+            "reading": "すみ"
           },
           {
             "text": "が"

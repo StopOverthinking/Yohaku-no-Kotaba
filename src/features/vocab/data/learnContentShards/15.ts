@@ -1344,12 +1344,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1193290-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "マイクが故障しても、",
         "answer": "歌手",
-        "after": "は歌い続けました。",
+        "after": "は最後までステージに立ち続けました。",
         "reading": "かしゅ",
-        "translation": "마이크가 고장 나도 가수는 노래를 계속했어요.",
+        "translation": "마이크가 고장 나도 가수는 끝까지 무대에 서 있었어요.",
         "translationTarget": "가수",
         "difficulty": 23,
         "status": "reviewed",
@@ -1370,8 +1370,15 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "歌い",
-            "reading": "うたい"
+            "text": "最後",
+            "reading": "さいご"
+          },
+          {
+            "text": "までステージに"
+          },
+          {
+            "text": "立ち",
+            "reading": "たち"
           },
           {
             "text": "続け",
@@ -1907,12 +1914,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1420840-1-ex-1",
-        "version": 1,
-        "before": "入口の階段を下りると、",
+        "version": 2,
+        "before": "入口の先へ進むと、",
         "answer": "地下",
         "after": "に小さな店があった。",
         "reading": "ちか",
-        "translation": "입구 계단을 내려가니 지하에 작은 가게가 있었다.",
+        "translation": "입구 너머로 나아가니 지하에 작은 가게가 있었다.",
         "translationTarget": "지하",
         "difficulty": 28,
         "status": "reviewed",
@@ -1925,15 +1932,15 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "階段",
-            "reading": "かいだん"
+            "text": "先",
+            "reading": "さき"
           },
           {
-            "text": "を"
+            "text": "へ"
           },
           {
-            "text": "下りる",
-            "reading": "おりる"
+            "text": "進む",
+            "reading": "すすむ"
           },
           {
             "text": "と、"

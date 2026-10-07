@@ -2417,12 +2417,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1309530-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "自分の",
         "answer": "思考",
-        "after": "を整理するため、考えたことを紙に書き出した。",
+        "after": "を整理するため、頭に浮かんだことを紙に書き出した。",
         "reading": "しこう",
-        "translation": "자신의 생각을 정리하기 위해 생각한 내용을 종이에 적어 나갔다.",
+        "translation": "자신의 생각을 정리하기 위해 머릿속에 떠오른 내용을 종이에 적어 나갔다.",
         "translationTarget": "생각",
         "difficulty": 45,
         "status": "reviewed",
@@ -2447,11 +2447,18 @@ const content: LearnSense[] = [
             "text": "するため、"
           },
           {
-            "text": "考え",
-            "reading": "かんがえ"
+            "text": "頭",
+            "reading": "あたま"
           },
           {
-            "text": "たことを"
+            "text": "に"
+          },
+          {
+            "text": "浮かん",
+            "reading": "うかん"
+          },
+          {
+            "text": "だことを"
           },
           {
             "text": "紙",

@@ -1516,12 +1516,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1232990-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この島では、観光と",
         "answer": "漁業",
-        "after": "が主な産業になっている。",
+        "after": "が主な収入源になっている。",
         "reading": "ぎょぎょう",
-        "translation": "이 섬에서는 관광과 어업이 주요 산업이다.",
+        "translation": "이 섬에서는 관광과 어업이 주요 수입원이다.",
         "translationTarget": "어업",
         "difficulty": 37,
         "status": "reviewed",
@@ -1556,8 +1556,12 @@ const content: LearnSense[] = [
             "text": "な"
           },
           {
-            "text": "産業",
-            "reading": "さんぎょう"
+            "text": "収入",
+            "reading": "しゅうにゅう"
+          },
+          {
+            "text": "源",
+            "reading": "げん"
           },
           {
             "text": "になっている。"
@@ -1877,12 +1881,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1208410-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "少人数の班に分けると、それまで静かだった生徒も",
         "answer": "活発",
-        "after": "に発言した。",
+        "after": "に意見を述べた。",
         "reading": "かっぱつ",
-        "translation": "소규모 모둠으로 나누자 그동안 조용했던 학생도 활발하게 발언했다.",
+        "translation": "소규모 모둠으로 나누자 그동안 조용했던 학생도 활발하게 의견을 말했다.",
         "translationTarget": "활발하게",
         "difficulty": 44,
         "status": "reviewed",
@@ -1932,11 +1936,18 @@ const content: LearnSense[] = [
             "text": "に"
           },
           {
-            "text": "発言",
-            "reading": "はつげん"
+            "text": "意見",
+            "reading": "いけん"
           },
           {
-            "text": "した。"
+            "text": "を"
+          },
+          {
+            "text": "述べ",
+            "reading": "のべ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

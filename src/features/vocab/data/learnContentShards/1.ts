@@ -1718,12 +1718,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1176860-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "彼女は大学で",
         "answer": "演劇",
-        "after": "を学び、今は小さな劇場で舞台に立っている。",
+        "after": "を学び、今は小さなホールで舞台に立っている。",
         "reading": "えんげき",
-        "translation": "그녀는 대학에서 연극을 공부했고 지금은 작은 극장에서 무대에 서고 있다.",
+        "translation": "그녀는 대학에서 연극을 공부했고 지금은 작은 홀에서 무대에 서고 있다.",
         "translationTarget": "연극",
         "difficulty": 39,
         "status": "reviewed",
@@ -1766,11 +1766,7 @@ const content: LearnSense[] = [
             "reading": "ちいさな"
           },
           {
-            "text": "劇場",
-            "reading": "げきじょう"
-          },
-          {
-            "text": "で"
+            "text": "ホールで"
           },
           {
             "text": "舞台",
@@ -3489,12 +3485,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1560650-1-ex-1",
-        "version": 1,
-        "before": "自動化によって、入力にかかる",
+        "version": 2,
+        "before": "自動化によって、データ処理にかかる",
         "answer": "労力",
         "after": "を減らせた。",
         "reading": "ろうりょく",
-        "translation": "자동화로 입력에 드는 수고를 줄일 수 있었다.",
+        "translation": "자동화로 데이터 처리에 드는 수고를 줄일 수 있었다.",
         "translationTarget": "수고",
         "difficulty": 43,
         "status": "reviewed",
@@ -3508,11 +3504,11 @@ const content: LearnSense[] = [
             "reading": "か"
           },
           {
-            "text": "によって、"
+            "text": "によって、データ"
           },
           {
-            "text": "入力",
-            "reading": "にゅうりょく"
+            "text": "処理",
+            "reading": "しょり"
           },
           {
             "text": "にかかる"

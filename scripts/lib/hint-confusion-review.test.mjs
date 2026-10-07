@@ -31,7 +31,7 @@ test('accepted comparisons are bidirectional and scoped to the selected sense', 
   const before = JSON.stringify({ words, senses })
   const result = buildHintConfusions(scan, review, words, senses)
   assert.deepEqual(result.supplements, {
-    ask: { senseVersion: 1, words: ['尋ねる'] }, inquire: { senseVersion: 1, words: ['聞く'] },
+    ask: { senseVersion: 1, words: ['尋ねる'] }, hear: { senseVersion: 1, words: [] }, inquire: { senseVersion: 1, words: ['聞く'] },
   })
   assert.equal(result.coverage.length, 3)
   assert.deepEqual(result.pending, [])
@@ -43,7 +43,7 @@ test('pending decisions remain visible instead of being treated as rejected', ()
   delete review.decisions['ko:묻다']
   const result = buildHintConfusions(scan, review, words, senses)
   assert.deepEqual(result.pending, ['ko:묻다'])
-  assert.deepEqual(result.supplements, {})
+  assert.ok(Object.values(result.supplements).every((entry) => entry.words.length === 0))
   assert.deepEqual(result.coverage[0].pendingGroups, ['ko:묻다'])
 })
 
@@ -51,7 +51,7 @@ test('sense partitions distinguish different meanings of the same Japanese headw
   const { words, senses, scan, review } = fixture()
   review.decisions['ko:묻다'] = { status: 'accept', sensePartitions: [['ask', 'inquire']], reason: '질문 용법만 연결' }
   const result = buildHintConfusions(scan, review, words, senses)
-  assert.equal(result.supplements.hear, undefined)
+  assert.deepEqual(result.supplements.hear.words, [])
   assert.deepEqual(result.supplements.ask.words, ['尋ねる'])
   review.decisions['ko:묻다'].sensePartitions.push(['missing'])
   assert.throws(() => buildHintConfusions(scan, review, words, senses))
@@ -80,7 +80,7 @@ test('unknown word selectors and conflicting partition types stop generation', (
   }
 })
 
-test('reviewed same-kanji contrasts show the other reading and suppress the current reading', () => {
+test('reviewed same-kanji contrasts suppress every reading while preserving historical provenance', () => {
   const { words, senses, review } = fixture()
   words[0] = { ...words[0], japanese: '解く', reading: 'ほどく', meaning: '풀다' }
   words[1] = { ...words[1], japanese: '解く', reading: 'とく', meaning: '해결하다' }
@@ -89,8 +89,26 @@ test('reviewed same-kanji contrasts show the other reading and suppress the curr
   const scan = scanHintConfusions(words, senses, [])
   Object.assign(review, { sourceHash: scan.sourceHash, decisions: {}, baseline: { hear: { senseVersion: 1, words: ['解く（ほどく）'] } } })
   const result = buildHintConfusions(scan, review, words, senses)
-  assert.deepEqual(result.supplements.hear.words, ['解く（とく）'])
+  assert.deepEqual(result.supplements.hear.words, [])
+  assert.ok(result.displayAudit.find((entry) => entry.senseId === 'hear').excluded.some((entry) => entry.label === '解く（とく）'))
   assert.equal(result.suppressed[0].word, '解く（ほどく）')
+})
+
+test('authored-only and reviewed candidates share the safety rule before the two-label cap', () => {
+  const { words, senses, review } = fixture()
+  words[0] = { ...words[0], japanese: '当たる', reading: 'あたる' }
+  for (const sense of senses.filter((entry) => entry.wordId === 'a')) {
+    sense.examples = [{ answer: '当たった', reading: 'あたった' }]
+    sense.confusions = ['当てる', '当たらせる', '合う', 'ぶつかる'].map((japanese) => ({ japanese }))
+  }
+  const scan = scanHintConfusions(words, senses, [])
+  Object.assign(review, { sourceHash: scan.sourceHash, decisions: {}, baseline: {
+    ask: { senseVersion: 1, words: ['当てる'] },
+  } })
+  const result = buildHintConfusions(scan, review, words, senses)
+  assert.deepEqual(result.supplements.hear.words, ['合う', 'ぶつかる'])
+  assert.deepEqual(new Set(result.supplements.ask.words), new Set(['合う', 'ぶつかる']))
+  assert.equal(result.displayAudit.length, senses.length)
 })
 
 test('na-adjective normalization does not strip the reading of 無駄', () => {

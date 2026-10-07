@@ -2,6 +2,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { hashContent, validateExampleRevision } from './jlpt-pilot.mjs'
 import { readExamplePruning, verifyExamplePruning } from './example-pruning.mjs'
+import { questionKanjiLeaks } from './hint-comparison-policy.mjs'
 
 export async function readReviewedExampleHistory(root) {
   const directory = path.join(root, 'content/learn/example-corrections')
@@ -22,7 +23,7 @@ export function verifyReviewedExampleHistory(words, senses, history) {
   const ids = new Set()
   let correctedExamples = 0
   for (const journal of [...history.corrections].reverse()) {
-    if (journal.schemaVersion !== 1 || journal.scope !== 'user-authorized-example-polarity-correction' ||
+    if (journal.schemaVersion !== 1 || !['user-authorized-example-polarity-correction', 'user-authorized-example-kanji-leakage-correction'].includes(journal.scope) ||
         !journal.id || ids.has(journal.id) || !journal.authorization?.trim() ||
         journal.review?.outcome !== 'accepted' || !journal.review?.reviewedBy?.trim() ||
         journal.review?.independent !== false || !journal.review?.notes?.length ||
@@ -50,6 +51,10 @@ export function verifyReviewedExampleHistory(words, senses, history) {
         const allowed = new Set(['version', 'before', 'answer', 'after', 'reading', 'translation', 'translationTarget'])
         const stable = example => Object.fromEntries(Object.entries(example).filter(([key]) => !allowed.has(key)))
         if (hashContent(stable(before)) !== hashContent(stable(after))) throw new Error('Correction changed example metadata')
+        if (journal.scope === 'user-authorized-example-kanji-leakage-correction' &&
+            (!questionKanjiLeaks(word.japanese, before).length || questionKanjiLeaks(word.japanese, after).length ||
+              before.answer !== after.answer || before.reading !== after.reading))
+          throw new Error('Kanji leakage correction must remove the clue and preserve the answer')
         correctedExamples++
       }
       current.set(sense.id, entry.before)

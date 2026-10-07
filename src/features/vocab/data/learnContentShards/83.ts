@@ -2787,12 +2787,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1376060-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "選挙の前に、各",
         "answer": "政党",
-        "after": "の政策を読み比べた。",
+        "after": "の公約を読み比べた。",
         "reading": "せいとう",
-        "translation": "선거 전에 각 정당의 정책을 읽어 비교했다.",
+        "translation": "선거 전에 각 정당의 공약을 읽어 비교했다.",
         "translationTarget": "정당",
         "difficulty": 31,
         "status": "reviewed",
@@ -2821,8 +2821,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "政策",
-            "reading": "せいさく"
+            "text": "公約",
+            "reading": "こうやく"
           },
           {
             "text": "を"

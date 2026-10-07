@@ -182,7 +182,9 @@ async function writeOutputFiles(data) {
   if (furigana.report.missing.length) throw new Error(`Missing furigana readings: ${furigana.report.missing.length}; see output/furigana/review.json`)
   const { index: contentIndex, shards } = partitionLearnContent(furigana.senses)
   // Run the same validator used by loaded shards, without requiring Node's TS support.
-  const issues = validateLearnContent(furigana.senses, new Set([...data.words, ...data.themeWords].map((word) => word.id)))
+  const issues = validateLearnContent(furigana.senses, new Set([...data.words, ...data.themeWords].map((word) => word.id)),
+    new Map([...data.words, ...data.themeWords].map((word) => [word.id, word.japanese])))
+  if (issues.some((issue) => issue.includes('한자 노출'))) throw new Error(issues.join('\n'))
   await writeGeneratedFile(path.join(outputDir, 'learnContentValidation.ts'),
     `// Generated from the complete corpus; loaded shards are also validated at runtime.\nexport const learnContentIssues: string[] = ${toTsLiteral(issues)}\n`, 'utf8')
   const shardDir = path.join(outputDir, 'learnContentShards')

@@ -1572,12 +1572,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1237020-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "弟の",
         "answer": "教科書",
-        "after": "には、授業中に書き込んだ小さなメモがびっしりあった。",
+        "after": "には、授業中の小さなメモがびっしりあった。",
         "reading": "きょうかしょ",
-        "translation": "남동생의 교과서에는 수업 중 적어 넣은 작은 메모가 빼곡했다.",
+        "translation": "남동생의 교과서에는 수업 중 적은 작은 메모가 빼곡했다.",
         "translationTarget": "교과서",
         "difficulty": 27,
         "status": "reviewed",
@@ -1603,14 +1603,7 @@ const content: LearnSense[] = [
             "reading": "ちゅう"
           },
           {
-            "text": "に"
-          },
-          {
-            "text": "書き込ん",
-            "reading": "かきこん"
-          },
-          {
-            "text": "だ"
+            "text": "の"
           },
           {
             "text": "小さな",
@@ -2170,19 +2163,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1419660-1-ex-1",
-        "version": 1,
-        "before": "水道工事で",
+        "version": 2,
+        "before": "配管工事で",
         "answer": "断水",
-        "after": "する前に、鍋に水をためておいた。",
+        "after": "する前に、鍋を満たしておいた。",
         "reading": "だんすい",
-        "translation": "수도 공사로 단수되기 전에 냄비에 물을 받아 두었다.",
+        "translation": "배관 공사로 단수되기 전에 냄비를 채워 두었다.",
         "translationTarget": "단수",
         "difficulty": 37,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "水道",
-            "reading": "すいどう"
+            "text": "配管",
+            "reading": "はいかん"
           },
           {
             "text": "工事",
@@ -2208,14 +2201,14 @@ const content: LearnSense[] = [
             "reading": "なべ"
           },
           {
-            "text": "に"
+            "text": "を"
           },
           {
-            "text": "水",
-            "reading": "みず"
+            "text": "満たし",
+            "reading": "みたし"
           },
           {
-            "text": "をためておいた。"
+            "text": "ておいた。"
           }
         ]
       }
@@ -2241,12 +2234,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1422990-1-ex-1",
-        "version": 1,
-        "before": "外が寒いので、子どもに厚い上着を",
+        "version": 2,
+        "before": "外が寒いので、子どもに厚いコートを",
         "answer": "着せた",
         "after": "。",
         "reading": "きせた",
-        "translation": "밖이 추워서 아이에게 두꺼운 겉옷을 입혔다.",
+        "translation": "밖이 추워서 아이에게 두꺼운 코트를 입혔다.",
         "translationTarget": "입혔다",
         "difficulty": 36,
         "status": "reviewed",
@@ -2277,11 +2270,7 @@ const content: LearnSense[] = [
             "reading": "あつい"
           },
           {
-            "text": "上着",
-            "reading": "うわぎ"
-          },
-          {
-            "text": "を"
+            "text": "コートを"
           }
         ],
         "afterFurigana": [

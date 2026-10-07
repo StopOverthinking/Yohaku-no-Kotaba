@@ -2396,12 +2396,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1604850-1-ex-1",
-        "version": 1,
-        "before": "奥の歯に小さな",
+        "version": 2,
+        "before": "奥の方に小さな",
         "answer": "虫歯",
         "after": "が見つかり、早めに治療することにした。",
         "reading": "むしば",
-        "translation": "어금니에 작은 충치가 발견되어 빨리 치료하기로 했다.",
+        "translation": "안쪽에 작은 충치가 발견되어 빨리 치료하기로 했다.",
         "translationTarget": "충치",
         "difficulty": 29,
         "status": "reviewed",
@@ -2414,8 +2414,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "歯",
-            "reading": "は"
+            "text": "方",
+            "reading": "ほう"
           },
           {
             "text": "に"
@@ -2562,12 +2562,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1163580-1-ex-1",
-        "version": 1,
-        "before": "家族を安心させたい",
+        "version": 2,
+        "before": "家族を喜ばせたい",
         "answer": "一心",
         "after": "で、彼は慣れない仕事を引き受けた。",
         "reading": "いっしん",
-        "translation": "가족을 안심시키고 싶다는 일념으로 그는 익숙하지 않은 일을 맡았다.",
+        "translation": "가족을 기쁘게 하고 싶다는 일념으로 그는 익숙하지 않은 일을 맡았다.",
         "translationTarget": "일념",
         "difficulty": 45,
         "status": "reviewed",
@@ -2580,11 +2580,11 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "安心",
-            "reading": "あんしん"
+            "text": "喜ば",
+            "reading": "よろこば"
           },
           {
-            "text": "させたい"
+            "text": "せたい"
           }
         ],
         "afterFurigana": [
@@ -3007,12 +3007,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443790-1-ex-1",
-        "version": 1,
-        "before": "スイッチを切ると、この部分には",
+        "version": 2,
+        "before": "スイッチを切ると、この部分の",
         "answer": "電流",
-        "after": "が流れません。",
+        "after": "が途絶えます。",
         "reading": "でんりゅう",
-        "translation": "스위치를 끄면 이 부분에는 전류가 흐르지 않습니다.",
+        "translation": "스위치를 끄면 이 부분의 전류가 끊깁니다.",
         "translationTarget": "전류",
         "difficulty": 31,
         "status": "reviewed",
@@ -3032,7 +3032,7 @@ const content: LearnSense[] = [
             "reading": "ぶぶん"
           },
           {
-            "text": "には"
+            "text": "の"
           }
         ],
         "afterFurigana": [
@@ -3040,11 +3040,11 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "流れ",
-            "reading": "ながれ"
+            "text": "途絶え",
+            "reading": "とだえ"
           },
           {
-            "text": "ません。"
+            "text": "ます。"
           }
         ]
       }

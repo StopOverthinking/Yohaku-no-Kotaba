@@ -92,12 +92,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_389-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "初めての",
         "answer": "大会",
-        "after": "で三位に入り、家族が大喜びした。",
+        "after": "で三位に入り、家族がとても喜んだ。",
         "reading": "たいかい",
-        "translation": "첫 대회에서 3위에 들어 가족이 크게 기뻐했다.",
+        "translation": "첫 대회에서 3위에 들어 가족이 무척 기뻐했다.",
         "translationTarget": "대회",
         "difficulty": 28,
         "status": "reviewed",
@@ -137,18 +137,14 @@ const content: LearnSense[] = [
             "reading": "かぞく"
           },
           {
-            "text": "が"
+            "text": "がとても"
           },
           {
-            "text": "大",
-            "reading": "だい"
+            "text": "喜ん",
+            "reading": "よろこん"
           },
           {
-            "text": "喜び",
-            "reading": "よろこび"
-          },
-          {
-            "text": "した。"
+            "text": "だ。"
           }
         ]
       }
@@ -721,12 +717,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_265-1-ex-1",
-        "version": 1,
-        "before": "エレベーターで屋上に",
+        "version": 2,
+        "before": "エレベーターで最も高いフロアに",
         "answer": "上がった",
         "after": "。",
         "reading": "あがった",
-        "translation": "엘리베이터로 옥상에 올라갔다.",
+        "translation": "엘리베이터로 가장 높은 층에 올라갔다.",
         "translationTarget": "올라갔다",
         "difficulty": 18,
         "status": "reviewed",
@@ -735,11 +731,15 @@ const content: LearnSense[] = [
             "text": "エレベーターで"
           },
           {
-            "text": "屋上",
-            "reading": "おくじょう"
+            "text": "最も",
+            "reading": "もっとも"
           },
           {
-            "text": "に"
+            "text": "高い",
+            "reading": "たかい"
+          },
+          {
+            "text": "フロアに"
           }
         ],
         "afterFurigana": [
@@ -2395,12 +2395,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1339620-1-ex-1",
-        "version": 1,
-        "before": "今回の試験では、文章を要約する問題が",
+        "version": 2,
+        "before": "今回の試験では、文章を要約する設問が",
         "answer": "出題",
         "after": "された。",
         "reading": "しゅつだい",
-        "translation": "이번 시험에서는 글을 요약하는 문제가 출제되었다.",
+        "translation": "이번 시험에서는 글을 요약하는 문항이 출제되었다.",
         "translationTarget": "출제",
         "difficulty": 35,
         "status": "reviewed",
@@ -2434,8 +2434,8 @@ const content: LearnSense[] = [
             "text": "する"
           },
           {
-            "text": "問題",
-            "reading": "もんだい"
+            "text": "設問",
+            "reading": "せつもん"
           },
           {
             "text": "が"

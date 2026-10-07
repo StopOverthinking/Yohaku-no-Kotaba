@@ -2417,26 +2417,16 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1286890-1-ex-1",
-        "version": 1,
-        "before": "この国では、森林が",
+        "version": 2,
+        "before": "森林が",
         "answer": "国土",
         "after": "の半分以上を占めている。",
         "reading": "こくど",
-        "translation": "이 나라에서는 숲이 국토의 절반 이상을 차지한다.",
+        "translation": "숲이 국토의 절반 이상을 차지한다.",
         "translationTarget": "국토",
         "difficulty": 45,
         "status": "reviewed",
         "beforeFurigana": [
-          {
-            "text": "この"
-          },
-          {
-            "text": "国",
-            "reading": "くに"
-          },
-          {
-            "text": "では、"
-          },
           {
             "text": "森林",
             "reading": "しんりん"
@@ -2859,12 +2849,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1331590-1-ex-1",
-        "version": 1,
-        "before": "育児休業の後も",
+        "version": 2,
+        "before": "育児のための長期休暇の後も",
         "answer": "就業",
         "after": "を続けられる環境を整えている。",
         "reading": "しゅうぎょう",
-        "translation": "육아 휴직 뒤에도 근로 활동을 이어갈 수 있는 환경을 마련하고 있다.",
+        "translation": "육아를 위한 장기 휴가 뒤에도 근로 활동을 이어갈 수 있는 환경을 마련하고 있다.",
         "translationTarget": "근로 활동",
         "difficulty": 35,
         "status": "reviewed",
@@ -2874,8 +2864,15 @@ const content: LearnSense[] = [
             "reading": "いくじ"
           },
           {
-            "text": "休業",
-            "reading": "きゅうぎょう"
+            "text": "のための"
+          },
+          {
+            "text": "長期",
+            "reading": "ちょうき"
+          },
+          {
+            "text": "休暇",
+            "reading": "きゅうか"
           },
           {
             "text": "の"

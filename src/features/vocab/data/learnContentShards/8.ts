@@ -437,12 +437,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_847-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "彼は何かと",
         "answer": "理由を付けて",
-        "after": "、片付けを先延ばしにする。",
+        "after": "、部屋をきれいにするのを先延ばしにする。",
         "reading": "りゆうをつけて",
-        "translation": "그는 이런저런 이유를 대며 정리를 미룬다.",
+        "translation": "그는 이런저런 이유를 대며 방 청소를 미룬다.",
         "translationTarget": "이유를 대며",
         "difficulty": 28,
         "status": "reviewed",
@@ -464,11 +464,11 @@ const content: LearnSense[] = [
             "text": "、"
           },
           {
-            "text": "片付け",
-            "reading": "かたづけ"
+            "text": "部屋",
+            "reading": "へや"
           },
           {
-            "text": "を"
+            "text": "をきれいにするのを"
           },
           {
             "text": "先",

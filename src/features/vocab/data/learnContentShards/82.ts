@@ -21,12 +21,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_122-1-ex-1",
-        "version": 1,
-        "before": "休みが続いて、今日の",
+        "version": 2,
+        "before": "休みが続いて、カレンダーを見ないと",
         "answer": "曜日",
         "after": "が分からなくなった。",
         "reading": "ようび",
-        "translation": "휴일이 이어져 오늘 요일을 알 수 없게 되었다.",
+        "translation": "휴일이 이어져 달력을 보지 않으면 요일을 알 수 없게 되었다.",
         "translationTarget": "요일",
         "difficulty": 18,
         "status": "reviewed",
@@ -43,14 +43,14 @@ const content: LearnSense[] = [
             "reading": "つづい"
           },
           {
-            "text": "て、"
+            "text": "て、カレンダーを"
           },
           {
-            "text": "今日",
-            "reading": "きょう"
+            "text": "見",
+            "reading": "み"
           },
           {
-            "text": "の"
+            "text": "ないと"
           }
         ],
         "afterFurigana": [
@@ -1512,12 +1512,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1193910-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "火山",
-        "after": "の活動が強まったため、登山道への立ち入りが禁止された。",
+        "after": "の活動が強まったため、付近への立ち入りが禁止された。",
         "reading": "かざん",
-        "translation": "화산 활동이 강해져 등산로 출입이 금지되었다.",
+        "translation": "화산 활동이 강해져 부근 출입이 금지되었다.",
         "translationTarget": "화산",
         "difficulty": 39,
         "status": "reviewed",
@@ -1541,12 +1541,8 @@ const content: LearnSense[] = [
             "text": "たため、"
           },
           {
-            "text": "登山",
-            "reading": "とざん"
-          },
-          {
-            "text": "道",
-            "reading": "どう"
+            "text": "付近",
+            "reading": "ふきん"
           },
           {
             "text": "への"
@@ -1869,19 +1865,23 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226050-1-ex-1",
-        "version": 1,
-        "before": "会議の",
+        "version": 2,
+        "before": "委員会の",
         "answer": "議決",
         "after": "に従い、来年度から事業の規模を縮小することになった。",
         "reading": "ぎけつ",
-        "translation": "회의 의결에 따라 내년도부터 사업 규모를 축소하게 되었다.",
+        "translation": "위원회 의결에 따라 내년도부터 사업 규모를 축소하게 되었다.",
         "translationTarget": "의결",
         "difficulty": 46,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "会議",
-            "reading": "かいぎ"
+            "text": "委員",
+            "reading": "いいん"
+          },
+          {
+            "text": "会",
+            "reading": "かい"
           },
           {
             "text": "の"
@@ -2695,19 +2695,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1561850-1-ex-1",
-        "version": 1,
-        "before": "結論には賛成だが、説明の",
+        "version": 2,
+        "before": "結果には賛成だが、説明の",
         "answer": "論理",
         "after": "には飛躍がある。",
         "reading": "ろんり",
-        "translation": "결론에는 찬성하지만 설명의 논리에는 비약이 있다.",
+        "translation": "결과에는 찬성하지만 설명의 논리에는 비약이 있다.",
         "translationTarget": "논리",
         "difficulty": 43,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "結論",
-            "reading": "けつろん"
+            "text": "結果",
+            "reading": "けっか"
           },
           {
             "text": "には"

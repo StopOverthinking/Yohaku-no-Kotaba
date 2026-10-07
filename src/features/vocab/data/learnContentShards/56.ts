@@ -1660,22 +1660,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1207080-1-ex-1",
-        "version": 1,
-        "before": "大学のどの",
+        "version": 2,
+        "before": "どの",
         "answer": "学部",
         "after": "に進むか、姉はまだ迷っている。",
         "reading": "がくぶ",
-        "translation": "대학의 어느 학부에 진학할지 언니는 아직 고민하고 있다.",
+        "translation": "어느 학부에 진학할지 언니는 아직 고민하고 있다.",
         "translationTarget": "학부",
         "difficulty": 37,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "大学",
-            "reading": "だいがく"
-          },
-          {
-            "text": "のどの"
+            "text": "どの"
           }
         ],
         "afterFurigana": [

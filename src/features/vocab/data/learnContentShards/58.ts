@@ -1029,12 +1029,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1249660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "刑事",
-        "after": "が店を訪れ、事件の夜に何を見たか尋ねた。",
+        "after": "が店を訪れ、その夜に何を見たか尋ねた。",
         "reading": "けいじ",
-        "translation": "형사가 가게를 찾아와 사건이 있던 밤 무엇을 봤는지 물었다.",
+        "translation": "형사가 가게를 찾아와 그날 밤 무엇을 봤는지 물었다.",
         "translationTarget": "형사",
         "difficulty": 28,
         "status": "reviewed",
@@ -1055,14 +1055,7 @@ const content: LearnSense[] = [
             "reading": "おとずれ"
           },
           {
-            "text": "、"
-          },
-          {
-            "text": "事件",
-            "reading": "じけん"
-          },
-          {
-            "text": "の"
+            "text": "、その"
           },
           {
             "text": "夜",

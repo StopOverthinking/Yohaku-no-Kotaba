@@ -1538,12 +1538,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1485520-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "小さな",
         "answer": "飛行場",
-        "after": "に飛行機が一機降りました。",
+        "after": "にヘリコプターが一機降りました。",
         "reading": "ひこうじょう",
-        "translation": "작은 비행장에 비행기 한 대가 내렸어요.",
+        "translation": "작은 비행장에 헬리콥터 한 대가 내렸어요.",
         "translationTarget": "비행장",
         "difficulty": 18,
         "status": "reviewed",
@@ -1555,14 +1555,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "に"
-          },
-          {
-            "text": "飛行機",
-            "reading": "ひこうき"
-          },
-          {
-            "text": "が"
+            "text": "にヘリコプターが"
           },
           {
             "text": "一",
@@ -3322,19 +3315,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1190370-1-ex-1",
-        "version": 1,
-        "before": "高速道路に入る手前で、車は徐々に",
+        "version": 2,
+        "before": "幹線道路に入る手前で、車は徐々に",
         "answer": "加速",
         "after": "した。",
         "reading": "かそく",
-        "translation": "고속도로로 들어가기 전에 차는 서서히 가속했다.",
+        "translation": "간선도로로 들어가기 전에 차는 서서히 가속했다.",
         "translationTarget": "가속",
         "difficulty": 37,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "高速",
-            "reading": "こうそく"
+            "text": "幹線",
+            "reading": "かんせん"
           },
           {
             "text": "道路",
@@ -3479,12 +3472,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1237170-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "運転の",
         "answer": "教習",
-        "after": "では、操作だけでなく周囲の危険を予測する練習も行った。",
+        "after": "では、操作だけでなく周囲の危険を予測する訓練も行った。",
         "reading": "きょうしゅう",
-        "translation": "운전 교습에서는 조작뿐 아니라 주변 위험을 예상하는 연습도 했다.",
+        "translation": "운전 교습에서는 조작뿐 아니라 주변 위험을 예상하는 훈련도 했다.",
         "translationTarget": "교습",
         "difficulty": 44,
         "status": "reviewed",
@@ -3530,8 +3523,8 @@ const content: LearnSense[] = [
             "text": "する"
           },
           {
-            "text": "練習",
-            "reading": "れんしゅう"
+            "text": "訓練",
+            "reading": "くんれん"
           },
           {
             "text": "も"

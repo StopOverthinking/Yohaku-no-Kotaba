@@ -488,12 +488,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_649-1-ex-1",
-        "version": 1,
-        "before": "姉は奨学金をもらって、カナダに",
+        "version": 2,
+        "before": "姉は旅費の援助を受けて、カナダに",
         "answer": "留学した",
         "after": "。",
         "reading": "りゅうがくした",
-        "translation": "언니는 장학금을 받고 캐나다에 유학했다.",
+        "translation": "언니는 여비 지원을 받고 캐나다에 유학했다.",
         "translationTarget": "유학했다",
         "difficulty": 22,
         "status": "reviewed",
@@ -506,15 +506,25 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "奨学",
-            "reading": "しょうがく"
+            "text": "旅費",
+            "reading": "りょひ"
           },
           {
-            "text": "金",
-            "reading": "きん"
+            "text": "の"
           },
           {
-            "text": "をもらって、カナダに"
+            "text": "援助",
+            "reading": "えんじょ"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "受け",
+            "reading": "うけ"
+          },
+          {
+            "text": "て、カナダに"
           }
         ],
         "afterFurigana": [
@@ -1290,12 +1300,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1169720-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "月の",
         "answer": "引力",
-        "after": "は海の満ち引きに影響を与えている。",
+        "after": "は海面の高さの変動に影響を与えている。",
         "reading": "いんりょく",
-        "translation": "달의 인력은 바닷물의 밀물과 썰물에 영향을 주고 있다.",
+        "translation": "달의 인력은 해수면 높이 변화에 영향을 주고 있다.",
         "translationTarget": "인력",
         "difficulty": 38,
         "status": "reviewed",
@@ -1313,19 +1323,22 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "海",
-            "reading": "うみ"
+            "text": "海面",
+            "reading": "かいめん"
           },
           {
             "text": "の"
           },
           {
-            "text": "満ち",
-            "reading": "みち"
+            "text": "高",
+            "reading": "たか"
           },
           {
-            "text": "引き",
-            "reading": "びき"
+            "text": "さの"
+          },
+          {
+            "text": "変動",
+            "reading": "へんどう"
           },
           {
             "text": "に"

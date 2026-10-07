@@ -1317,12 +1317,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1352980-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "専門学校に通うために",
         "answer": "上京",
-        "after": "し、東京で一人暮らしを始めた。",
+        "after": "し、一人暮らしを始めた。",
         "reading": "じょうきょう",
-        "translation": "전문학교에 다니려고 도쿄로 올라가 도쿄에서 혼자 살기 시작했다.",
+        "translation": "전문학교에 다니려고 도쿄로 올라가 혼자 살기 시작했다.",
         "translationTarget": "도쿄로 올라가",
         "difficulty": 30,
         "status": "reviewed",
@@ -1349,13 +1349,6 @@ const content: LearnSense[] = [
         "afterFurigana": [
           {
             "text": "し、"
-          },
-          {
-            "text": "東京",
-            "reading": "とうきょう"
-          },
-          {
-            "text": "で"
           },
           {
             "text": "一人",
@@ -2822,12 +2815,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1578300-1-ex-1",
-        "version": 1,
-        "before": "父は会社勤めと農業を",
+        "version": 2,
+        "before": "父は会社勤めと畑仕事を",
         "answer": "兼業",
         "after": "している。",
         "reading": "けんぎょう",
-        "translation": "아버지는 회사 근무와 농업을 겸업하고 있다.",
+        "translation": "아버지는 회사 근무와 밭일을 겸업하고 있다.",
         "translationTarget": "겸업",
         "difficulty": 43,
         "status": "reviewed",
@@ -2851,8 +2844,12 @@ const content: LearnSense[] = [
             "text": "と"
           },
           {
-            "text": "農業",
-            "reading": "のうぎょう"
+            "text": "畑",
+            "reading": "はたけ"
+          },
+          {
+            "text": "仕事",
+            "reading": "しごと"
           },
           {
             "text": "を"

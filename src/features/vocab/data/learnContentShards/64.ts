@@ -1656,12 +1656,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1433180-1-ex-1",
-        "version": 1,
-        "before": "道路の工事中は、歩行者の",
+        "version": 2,
+        "before": "道路の工事中は、付近の人々の",
         "answer": "通行",
         "after": "も制限される。",
         "reading": "つうこう",
-        "translation": "도로 공사 중에는 보행자 통행도 제한된다.",
+        "translation": "도로 공사 중에는 부근 사람들의 통행도 제한된다.",
         "translationTarget": "통행",
         "difficulty": 30,
         "status": "reviewed",
@@ -1685,12 +1685,15 @@ const content: LearnSense[] = [
             "text": "は、"
           },
           {
-            "text": "歩行",
-            "reading": "ほこう"
+            "text": "付近",
+            "reading": "ふきん"
           },
           {
-            "text": "者",
-            "reading": "しゃ"
+            "text": "の"
+          },
+          {
+            "text": "人々",
+            "reading": "ひとびと"
           },
           {
             "text": "の"
@@ -1731,12 +1734,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1437500-1-ex-1",
-        "version": 1,
-        "before": "新しい料金は、来月の利用分から",
+        "version": 2,
+        "before": "新しい料金は、来月から",
         "answer": "適用",
         "after": "される。",
         "reading": "てきよう",
-        "translation": "새 요금은 다음 달 이용분부터 적용된다.",
+        "translation": "새 요금은 다음 달부터 적용된다.",
         "translationTarget": "적용",
         "difficulty": 30,
         "status": "reviewed",
@@ -1755,17 +1758,6 @@ const content: LearnSense[] = [
           {
             "text": "来月",
             "reading": "らいげつ"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "利用",
-            "reading": "りよう"
-          },
-          {
-            "text": "分",
-            "reading": "ぶん"
           },
           {
             "text": "から"

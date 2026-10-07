@@ -1728,12 +1728,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1167270-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この店では",
         "answer": "一流",
-        "after": "の職人が包丁を一本ずつ仕上げている。",
+        "after": "の職人が包丁を丁寧に仕上げている。",
         "reading": "いちりゅう",
-        "translation": "이 가게에서는 일류 장인이 칼을 한 자루씩 완성하고 있다.",
+        "translation": "이 가게에서는 일류 장인이 칼을 정성스럽게 완성하고 있다.",
         "translationTarget": "일류",
         "difficulty": 39,
         "status": "reviewed",
@@ -1768,11 +1768,11 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "一本",
-            "reading": "いっぽん"
+            "text": "丁寧",
+            "reading": "ていねい"
           },
           {
-            "text": "ずつ"
+            "text": "に"
           },
           {
             "text": "仕上げ",
@@ -2236,26 +2236,29 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1290480-1-ex-1",
-        "version": 1,
-        "before": "同じ名前の商品が二つあるので、注文するときに",
+        "version": 2,
+        "before": "名前のよく似た商品が二つあるので、注文するときに",
         "answer": "混同",
         "after": "しやすい。",
         "reading": "こんどう",
-        "translation": "이름이 같은 상품이 두 가지 있어서 주문할 때 혼동하기 쉽다.",
+        "translation": "이름이 비슷한 상품이 두 가지 있어서 주문할 때 혼동하기 쉽다.",
         "translationTarget": "혼동",
         "difficulty": 44,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "同じ",
-            "reading": "おなじ"
-          },
-          {
             "text": "名前",
             "reading": "なまえ"
           },
           {
-            "text": "の"
+            "text": "のよく"
+          },
+          {
+            "text": "似",
+            "reading": "に"
+          },
+          {
+            "text": "た"
           },
           {
             "text": "商品",
@@ -2878,12 +2881,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1366730-1-ex-1",
-        "version": 1,
-        "before": "成績だけで人の",
+        "version": 2,
+        "before": "成績だけで生徒の",
         "answer": "人格",
         "after": "まで評価することはできない。",
         "reading": "じんかく",
-        "translation": "성적만으로 사람의 인격까지 평가할 수는 없다.",
+        "translation": "성적만으로 학생의 인격까지 평가할 수는 없다.",
         "translationTarget": "인격",
         "difficulty": 43,
         "status": "reviewed",
@@ -2896,8 +2899,8 @@ const content: LearnSense[] = [
             "text": "だけで"
           },
           {
-            "text": "人",
-            "reading": "ひと"
+            "text": "生徒",
+            "reading": "せいと"
           },
           {
             "text": "の"

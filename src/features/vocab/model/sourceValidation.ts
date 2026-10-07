@@ -15,7 +15,8 @@ export type VocabSource = {
 
 /** Read-only checks: source IDs, ownership and saved range order are never normalized. */
 export function validateVocabSource(source: VocabSource): string[] {
-  const issues = validateLearnContent(source.learnContent ?? [], new Set([...source.words, ...source.themeWords].map(word => word.id)))
+  const issues = validateLearnContent(source.learnContent ?? [], new Set([...source.words, ...source.themeWords].map(word => word.id)),
+    new Map([...source.words, ...source.themeWords].map(word => [word.id, word.japanese])))
   const bookIds = new Set<string>()
   const prefixes = new Set<string>()
   const wordIds = new Set<string>()

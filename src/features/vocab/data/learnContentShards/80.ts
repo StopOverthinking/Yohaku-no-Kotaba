@@ -1504,12 +1504,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1156450-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "今年こそ大会で優勝すると",
         "answer": "意気込んで",
-        "after": "いた彼は、毎朝走り込んでいた。",
+        "after": "いた彼は、毎朝長い距離を走っていた。",
         "reading": "いきごんで",
-        "translation": "올해야말로 대회에서 우승하겠다고 벼르던 그는 매일 아침 달리기 훈련을 했다.",
+        "translation": "올해야말로 대회에서 우승하겠다고 벼르던 그는 매일 아침 긴 거리를 달렸다.",
         "translationTarget": "벼르던",
         "difficulty": 45,
         "status": "reviewed",
@@ -1552,11 +1552,22 @@ const content: LearnSense[] = [
             "reading": "まいあさ"
           },
           {
-            "text": "走り込ん",
-            "reading": "はしりこん"
+            "text": "長い",
+            "reading": "ながい"
           },
           {
-            "text": "でいた。"
+            "text": "距離",
+            "reading": "きょり"
+          },
+          {
+            "text": "を"
+          },
+          {
+            "text": "走っ",
+            "reading": "はしっ"
+          },
+          {
+            "text": "ていた。"
           }
         ]
       }

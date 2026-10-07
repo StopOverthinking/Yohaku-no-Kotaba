@@ -988,12 +988,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1600530-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "弟は大きな",
         "answer": "乗り物",
-        "after": "に乗るのが好きです。",
+        "after": "を見るのが好きです。",
         "reading": "のりもの",
-        "translation": "남동생은 큰 탈것을 타는 걸 좋아해요.",
+        "translation": "남동생은 큰 탈것을 보는 걸 좋아해요.",
         "translationTarget": "탈것",
         "difficulty": 17,
         "status": "reviewed",
@@ -1012,11 +1012,11 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "に"
+            "text": "を"
           },
           {
-            "text": "乗る",
-            "reading": "のる"
+            "text": "見る",
+            "reading": "みる"
           },
           {
             "text": "のが"
@@ -1624,12 +1624,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1157580-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "採決の方法に",
         "answer": "異議",
-        "after": "を唱え、議事録に残すよう求めた。",
+        "after": "を唱え、記録に残すよう求めた。",
         "reading": "いぎ",
-        "translation": "표결 방식에 이의를 제기하고 회의록에 남기도록 요구했다.",
+        "translation": "표결 방식에 이의를 제기하고 기록에 남기도록 요구했다.",
         "translationTarget": "이의",
         "difficulty": 49,
         "status": "reviewed",
@@ -1661,12 +1661,8 @@ const content: LearnSense[] = [
             "text": "、"
           },
           {
-            "text": "議事",
-            "reading": "ぎじ"
-          },
-          {
-            "text": "録",
-            "reading": "ろく"
+            "text": "記録",
+            "reading": "きろく"
           },
           {
             "text": "に"
@@ -1799,12 +1795,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1316220-1-ex-1",
-        "version": 1,
-        "before": "駅の時計を見て、今の",
+        "version": 2,
+        "before": "駅の表示を見て、今の",
         "answer": "時刻",
         "after": "を確かめた。",
         "reading": "じこく",
-        "translation": "역의 시계를 보고 현재 시각을 확인했다.",
+        "translation": "역의 표시를 보고 현재 시각을 확인했다.",
         "translationTarget": "시각",
         "difficulty": 26,
         "status": "reviewed",
@@ -1817,8 +1813,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "時計",
-            "reading": "とけい"
+            "text": "表示",
+            "reading": "ひょうじ"
           },
           {
             "text": "を"
@@ -1944,22 +1940,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1293660-1-ex-1",
-        "version": 1,
-        "before": "来年は海外で勉強して、",
+        "version": 2,
+        "before": "しばらく海外で勉強して、",
         "answer": "再来年",
         "after": "には日本に戻る予定だ。",
         "reading": "さらいねん",
-        "translation": "내년에는 해외에서 공부하고 내후년에는 일본으로 돌아올 예정이다.",
+        "translation": "한동안 해외에서 공부하고 내후년에는 일본으로 돌아올 예정이다.",
         "translationTarget": "내후년",
         "difficulty": 24,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "来年",
-            "reading": "らいねん"
-          },
-          {
-            "text": "は"
+            "text": "しばらく"
           },
           {
             "text": "海外",
@@ -3207,12 +3199,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1368180-1-ex-1",
-        "version": 1,
-        "before": "旅先で受けた親切に、町の人々の",
+        "version": 2,
+        "before": "旅先で受けた親切に、町に暮らす方々の",
         "answer": "人情",
         "after": "を感じた。",
         "reading": "にんじょう",
-        "translation": "여행지에서 받은 친절에서 마을 사람들의 인정을 느꼈다.",
+        "translation": "여행지에서 받은 친절에서 마을에 사는 분들의 인정을 느꼈다.",
         "translationTarget": "인정",
         "difficulty": 43,
         "status": "reviewed",
@@ -3243,11 +3235,15 @@ const content: LearnSense[] = [
             "reading": "まち"
           },
           {
-            "text": "の"
+            "text": "に"
           },
           {
-            "text": "人々",
-            "reading": "ひとびと"
+            "text": "暮らす",
+            "reading": "くらす"
+          },
+          {
+            "text": "方々",
+            "reading": "かたがた"
           },
           {
             "text": "の"

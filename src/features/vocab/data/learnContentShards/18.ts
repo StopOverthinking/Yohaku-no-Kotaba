@@ -1231,12 +1231,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1183300-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "お茶が",
         "answer": "温い",
-        "after": "ので、もう一度温めました。",
+        "after": "ので、電子レンジに入れました。",
         "reading": "ぬるい",
-        "translation": "차가 미지근해서 다시 데웠어요.",
+        "translation": "차가 미지근해서 전자레인지에 넣었어요.",
         "translationTarget": "미지근해서",
         "difficulty": 15,
         "status": "reviewed",
@@ -1254,12 +1254,15 @@ const content: LearnSense[] = [
             "text": "ので、"
           },
           {
-            "text": "もう一度",
-            "reading": "もういちど"
+            "text": "電子",
+            "reading": "でんし"
           },
           {
-            "text": "温め",
-            "reading": "あたため"
+            "text": "レンジに"
+          },
+          {
+            "text": "入れ",
+            "reading": "いれ"
           },
           {
             "text": "ました。"
@@ -1653,19 +1656,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1175860-1-ex-1",
-        "version": 1,
-        "before": "円の直径が二倍になると、",
+        "version": 2,
+        "before": "この丸い図形の直径が二倍になると、",
         "answer": "円周",
         "after": "も二倍になる。",
         "reading": "えんしゅう",
-        "translation": "원의 지름이 두 배가 되면 원주도 두 배가 된다.",
+        "translation": "이 둥근 도형의 지름이 두 배가 되면 원주도 두 배가 된다.",
         "translationTarget": "원주",
         "difficulty": 38,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "円",
-            "reading": "えん"
+            "text": "この"
+          },
+          {
+            "text": "丸い",
+            "reading": "まるい"
+          },
+          {
+            "text": "図形",
+            "reading": "づけい"
           },
           {
             "text": "の"
@@ -1880,12 +1890,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1347830-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "農具をしまっておく",
         "answer": "小屋",
-        "after": "の屋根を修理した。",
+        "after": "の窓を修理した。",
         "reading": "こや",
-        "translation": "농기구를 보관하는 헛간의 지붕을 수리했다.",
+        "translation": "농기구를 보관하는 헛간의 창문을 수리했다.",
         "translationTarget": "헛간",
         "difficulty": 28,
         "status": "reviewed",
@@ -1903,8 +1913,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "屋根",
-            "reading": "やね"
+            "text": "窓",
+            "reading": "まど"
           },
           {
             "text": "を"

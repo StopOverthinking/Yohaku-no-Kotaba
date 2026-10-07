@@ -2540,12 +2540,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1589960-1-ex-1",
-        "version": 1,
-        "before": "大切な証明書なので、",
+        "version": 2,
+        "before": "大切な契約の控えなので、",
         "answer": "書留",
         "after": "で送りました。",
         "reading": "かきとめ",
-        "translation": "중요한 증명서이므로 등기 우편으로 보냈습니다.",
+        "translation": "중요한 계약서 사본이므로 등기 우편으로 보냈습니다.",
         "translationTarget": "등기 우편",
         "difficulty": 31,
         "status": "reviewed",
@@ -2558,12 +2558,15 @@ const content: LearnSense[] = [
             "text": "な"
           },
           {
-            "text": "証明",
-            "reading": "しょうめい"
+            "text": "契約",
+            "reading": "けいやく"
           },
           {
-            "text": "書",
-            "reading": "しょ"
+            "text": "の"
+          },
+          {
+            "text": "控え",
+            "reading": "ひかえ"
           },
           {
             "text": "なので、"

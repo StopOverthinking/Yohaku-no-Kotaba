@@ -149,12 +149,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_413-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "歌手が舞台に",
         "answer": "登場",
-        "after": "すると、会場が一気に明るくなった。",
+        "after": "すると、客席が一気に明るくなった。",
         "reading": "とうじょう",
-        "translation": "가수가 무대에 등장하자 공연장 분위기가 단번에 밝아졌다.",
+        "translation": "가수가 무대에 등장하자 객석 분위기가 단번에 밝아졌다.",
         "translationTarget": "등장",
         "difficulty": 31,
         "status": "reviewed",
@@ -179,8 +179,8 @@ const content: LearnSense[] = [
             "text": "すると、"
           },
           {
-            "text": "会場",
-            "reading": "かいじょう"
+            "text": "客席",
+            "reading": "きゃくせき"
           },
           {
             "text": "が"
@@ -1294,29 +1294,29 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1289370-1-ex-2",
-        "version": 1,
-        "before": "今日は時間がないので、",
+        "version": 2,
+        "before": "時間が足りないので、",
         "answer": "今度",
         "after": "ゆっくり話しましょう。",
         "reading": "こんど",
-        "translation": "오늘은 시간이 없으니 다음에 천천히 이야기해요.",
+        "translation": "시간이 부족하니 다음에 천천히 이야기해요.",
         "translationTarget": "다음에",
         "difficulty": 17,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "今日",
-            "reading": "きょう"
-          },
-          {
-            "text": "は"
-          },
-          {
             "text": "時間",
             "reading": "じかん"
           },
           {
-            "text": "がないので、"
+            "text": "が"
+          },
+          {
+            "text": "足り",
+            "reading": "たり"
+          },
+          {
+            "text": "ないので、"
           }
         ],
         "afterFurigana": [

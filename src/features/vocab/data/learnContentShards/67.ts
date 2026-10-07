@@ -1158,12 +1158,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1185370-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "発表原稿の",
         "answer": "下書き",
-        "after": "には、まだ結論が書かれていなかった。",
+        "after": "には、まだ結論がなかった。",
         "reading": "したがき",
-        "translation": "발표 원고의 초안에는 아직 결론이 쓰여 있지 않았다.",
+        "translation": "발표 원고의 초안에는 아직 결론이 없었다.",
         "translationTarget": "초안",
         "difficulty": 38,
         "status": "reviewed",
@@ -1189,14 +1189,7 @@ const content: LearnSense[] = [
             "reading": "けつろん"
           },
           {
-            "text": "が"
-          },
-          {
-            "text": "書か",
-            "reading": "かか"
-          },
-          {
-            "text": "れていなかった。"
+            "text": "がなかった。"
           }
         ]
       }

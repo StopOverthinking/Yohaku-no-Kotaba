@@ -2712,12 +2712,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1514420-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "車が多いので、",
         "answer": "歩道",
-        "after": "を歩いて橋まで行こう。",
+        "after": "を通って橋まで行こう。",
         "reading": "ほどう",
-        "translation": "차량이 많으니 인도로 걸어서 다리까지 가자.",
+        "translation": "차량이 많으니 인도를 따라 다리까지 가자.",
         "translationTarget": "인도",
         "difficulty": 28,
         "status": "reviewed",
@@ -2742,8 +2742,8 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "歩い",
-            "reading": "あるい"
+            "text": "通っ",
+            "reading": "とおっ"
           },
           {
             "text": "て"

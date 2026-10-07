@@ -27,6 +27,7 @@
     "audit:content": "node scripts/audit-learn-content.mjs --require-complete",
     "hint:scan": "node scripts/scan-hint-confusions.mjs",
     "hint:audit": "node scripts/build-hint-confusions.mjs",
+    "hint:display-audit": "node scripts/audit-hint-display.mjs --require-safe",
     "release:manifest": "node scripts/write-release-manifest.mjs"
   },
   "dependencies": {

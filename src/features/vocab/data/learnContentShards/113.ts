@@ -685,12 +685,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1355810-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "雨が降った",
         "answer": "場合",
-        "after": "、試合は中止になります。",
+        "after": "、イベントは中止になります。",
         "reading": "ばあい",
-        "translation": "비가 오는 경우 경기는 취소돼요.",
+        "translation": "비가 오는 경우 행사는 취소돼요.",
         "translationTarget": "경우",
         "difficulty": 18,
         "status": "reviewed",
@@ -712,14 +712,7 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "、"
-          },
-          {
-            "text": "試合",
-            "reading": "しあい"
-          },
-          {
-            "text": "は"
+            "text": "、イベントは"
           },
           {
             "text": "中止",
@@ -1476,12 +1469,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1240910-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "転居しても",
         "answer": "勤め先",
-        "after": "は変わらないので、通勤の方法を考え直した。",
+        "after": "は変わらないので、そこまでの移動方法を考え直した。",
         "reading": "つとめさき",
-        "translation": "이사해도 직장은 바뀌지 않아 출퇴근 방법을 다시 생각했다.",
+        "translation": "이사해도 직장은 바뀌지 않아 그곳까지 이동할 방법을 다시 생각했다.",
         "translationTarget": "직장",
         "difficulty": 44,
         "status": "reviewed",
@@ -1503,14 +1496,11 @@ const content: LearnSense[] = [
             "reading": "かわら"
           },
           {
-            "text": "ないので、"
+            "text": "ないので、そこまでの"
           },
           {
-            "text": "通勤",
-            "reading": "つうきん"
-          },
-          {
-            "text": "の"
+            "text": "移動",
+            "reading": "いどう"
           },
           {
             "text": "方法",
@@ -2253,12 +2243,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1552310-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "去年",
         "answer": "流行った",
-        "after": "歌を聞くと、旅行を思い出す。",
+        "after": "歌を聞くと、海外での休暇を思い出す。",
         "reading": "はやった",
-        "translation": "작년에 유행한 노래를 들으면 여행이 생각난다.",
+        "translation": "작년에 유행한 노래를 들으면 해외에서 보낸 휴가가 생각난다.",
         "translationTarget": "유행한",
         "difficulty": 25,
         "status": "reviewed",
@@ -2284,8 +2274,15 @@ const content: LearnSense[] = [
             "text": "と、"
           },
           {
-            "text": "旅行",
-            "reading": "りょこう"
+            "text": "海外",
+            "reading": "かいがい"
+          },
+          {
+            "text": "での"
+          },
+          {
+            "text": "休暇",
+            "reading": "きゅうか"
           },
           {
             "text": "を"

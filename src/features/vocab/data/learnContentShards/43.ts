@@ -70,12 +70,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_125-1-ex-1",
-        "version": 1,
-        "before": "働きながら大学院に通い、五年かけて",
+        "version": 2,
+        "before": "働きながら研究を続け、五年かけて",
         "answer": "学位",
         "after": "を取った。",
         "reading": "がくい",
-        "translation": "일하면서 대학원에 다녀 5년에 걸쳐 학위를 받았다.",
+        "translation": "일하면서 연구를 계속해 5년에 걸쳐 학위를 받았다.",
         "translationTarget": "학위",
         "difficulty": 41,
         "status": "reviewed",
@@ -88,15 +88,15 @@ const content: LearnSense[] = [
             "text": "ながら"
           },
           {
-            "text": "大学院",
-            "reading": "だいがくいん"
+            "text": "研究",
+            "reading": "けんきゅう"
           },
           {
-            "text": "に"
+            "text": "を"
           },
           {
-            "text": "通い",
-            "reading": "かよい"
+            "text": "続け",
+            "reading": "つづけ"
           },
           {
             "text": "、"
@@ -1210,12 +1210,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1203540-1-ex-1",
-        "version": 1,
-        "before": "経済だけでなく、文化交流も",
+        "version": 2,
+        "before": "経済だけでなく、文化を通じた相互理解も",
         "answer": "外交",
         "after": "の重要な役割を担っている。",
         "reading": "がいこう",
-        "translation": "경제뿐만 아니라 문화 교류도 외교의 중요한 역할을 맡고 있다.",
+        "translation": "경제뿐만 아니라 문화를 통한 상호 이해도 외교의 중요한 역할을 맡고 있다.",
         "translationTarget": "외교",
         "difficulty": 30,
         "status": "reviewed",
@@ -1232,8 +1232,22 @@ const content: LearnSense[] = [
             "reading": "ぶんか"
           },
           {
-            "text": "交流",
-            "reading": "こうりゅう"
+            "text": "を"
+          },
+          {
+            "text": "通じ",
+            "reading": "つうじ"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "相互",
+            "reading": "そうご"
+          },
+          {
+            "text": "理解",
+            "reading": "りかい"
           },
           {
             "text": "も"
@@ -2647,12 +2661,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1250430-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "今日の授業では、",
         "answer": "形容詞",
-        "after": "の否定形を練習します。",
+        "after": "を使って否定の文を作る練習をします。",
         "reading": "けいようし",
-        "translation": "오늘 수업에서는 형용사의 부정형을 연습합니다.",
+        "translation": "오늘 수업에서는 형용사를 써서 부정문을 만드는 연습을 합니다.",
         "translationTarget": "형용사",
         "difficulty": 30,
         "status": "reviewed",
@@ -2674,25 +2688,39 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "の"
+            "text": "を"
+          },
+          {
+            "text": "使っ",
+            "reading": "つかっ"
+          },
+          {
+            "text": "て"
           },
           {
             "text": "否定",
             "reading": "ひてい"
           },
           {
-            "text": "形",
-            "reading": "がた"
+            "text": "の"
+          },
+          {
+            "text": "文",
+            "reading": "ぶん"
           },
           {
             "text": "を"
+          },
+          {
+            "text": "作る",
+            "reading": "つくる"
           },
           {
             "text": "練習",
             "reading": "れんしゅう"
           },
           {
-            "text": "します。"
+            "text": "をします。"
           }
         ]
       }

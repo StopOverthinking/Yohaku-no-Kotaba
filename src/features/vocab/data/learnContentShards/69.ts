@@ -2761,22 +2761,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1478520-1-ex-1",
-        "version": 1,
-        "before": "裁判所の",
+        "version": 2,
+        "before": "法廷での",
         "answer": "判決",
         "after": "を受け、会社は対応を検討している。",
         "reading": "はんけつ",
-        "translation": "법원의 판결을 받아 회사는 대응을 검토하고 있다.",
+        "translation": "법정에서의 판결을 받아 회사는 대응을 검토하고 있다.",
         "translationTarget": "판결",
         "difficulty": 43,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "裁判所",
-            "reading": "さいばんしょ"
+            "text": "法廷",
+            "reading": "ほうてい"
           },
           {
-            "text": "の"
+            "text": "での"
           }
         ],
         "afterFurigana": [

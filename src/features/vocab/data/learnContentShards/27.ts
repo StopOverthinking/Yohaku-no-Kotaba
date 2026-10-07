@@ -391,19 +391,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_226-1-ex-1",
-        "version": 1,
-        "before": "大学では建築の歴史を",
+        "version": 2,
+        "before": "海外では建築の歴史を",
         "answer": "学んだ",
         "after": "。",
         "reading": "まなんだ",
-        "translation": "대학에서는 건축의 역사를 배웠다.",
+        "translation": "해외에서는 건축의 역사를 배웠다.",
         "translationTarget": "배웠다",
         "difficulty": 25,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "大学",
-            "reading": "だいがく"
+            "text": "海外",
+            "reading": "かいがい"
           },
           {
             "text": "では"

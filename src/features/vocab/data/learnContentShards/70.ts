@@ -270,19 +270,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_539-1-ex-1",
-        "version": 1,
-        "before": "締め切り前に",
+        "version": 2,
+        "before": "提出期限の前に",
         "answer": "切羽詰まって",
         "after": "、友人に手伝いを頼んだ。",
         "reading": "せっぱつまって",
-        "translation": "마감 전에 궁지에 몰려서 친구에게 도움을 부탁했다.",
+        "translation": "제출 기한 전에 궁지에 몰려서 친구에게 도움을 부탁했다.",
         "translationTarget": "궁지에 몰려서",
         "difficulty": 42,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "締め切り",
-            "reading": "しめきり"
+            "text": "提出",
+            "reading": "ていしゅつ"
+          },
+          {
+            "text": "期限",
+            "reading": "きげん"
+          },
+          {
+            "text": "の"
           },
           {
             "text": "前",
@@ -483,12 +490,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_266-1-ex-1",
-        "version": 1,
-        "before": "祖父の日記には、当時の生活の",
+        "version": 2,
+        "before": "祖父の手帳には、当時の生活の",
         "answer": "記録",
         "after": "が残っている。",
         "reading": "きろく",
-        "translation": "할아버지 일기에는 당시 생활의 기록이 남아 있다.",
+        "translation": "할아버지 수첩에는 당시 생활의 기록이 남아 있다.",
         "translationTarget": "기록",
         "difficulty": 29,
         "status": "reviewed",
@@ -501,8 +508,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "日記",
-            "reading": "にっき"
+            "text": "手帳",
+            "reading": "てちょう"
           },
           {
             "text": "には、"
@@ -2872,12 +2879,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1201790-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "海洋",
-        "after": "のごみを減らすため、海岸の清掃活動に参加した。",
+        "after": "のごみを減らすため、浜辺の清掃活動に参加した。",
         "reading": "かいよう",
-        "translation": "해양 쓰레기를 줄이기 위해 해안 청소 활동에 참가했다.",
+        "translation": "해양 쓰레기를 줄이기 위해 모래사장 청소 활동에 참가했다.",
         "translationTarget": "해양",
         "difficulty": 37,
         "status": "reviewed",
@@ -2894,8 +2901,8 @@ const content: LearnSense[] = [
             "text": "ため、"
           },
           {
-            "text": "海岸",
-            "reading": "かいがん"
+            "text": "浜辺",
+            "reading": "はまべ"
           },
           {
             "text": "の"
@@ -3370,12 +3377,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226090-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "議事堂",
-        "after": "の見学では、会議が行われる部屋の構造について説明を受けた。",
+        "after": "の見学では、討論が行われる部屋の構造について説明を受けた。",
         "reading": "ぎじどう",
-        "translation": "의사당 견학에서는 회의가 열리는 방의 구조에 관한 설명을 들었다.",
+        "translation": "의사당 견학에서는 토론이 열리는 방의 구조에 관한 설명을 들었다.",
         "translationTarget": "의사당",
         "difficulty": 44,
         "status": "reviewed",
@@ -3392,8 +3399,8 @@ const content: LearnSense[] = [
             "text": "では、"
           },
           {
-            "text": "会議",
-            "reading": "かいぎ"
+            "text": "討論",
+            "reading": "とうろん"
           },
           {
             "text": "が"

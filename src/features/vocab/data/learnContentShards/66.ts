@@ -1890,12 +1890,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1262340-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "原文",
-        "after": "と訳文を比べると、否定の意味が抜けていることに気づいた。",
+        "after": "と翻訳を比べると、否定の意味が抜けていることに気づいた。",
         "reading": "げんぶん",
-        "translation": "원문과 번역문을 비교하다 부정의 의미가 빠졌다는 것을 알았다.",
+        "translation": "원문과 번역을 비교하다 부정의 의미가 빠졌다는 것을 알았다.",
         "translationTarget": "원문",
         "difficulty": 45,
         "status": "reviewed",
@@ -1905,8 +1905,8 @@ const content: LearnSense[] = [
             "text": "と"
           },
           {
-            "text": "訳文",
-            "reading": "やくぶん"
+            "text": "翻訳",
+            "reading": "ほんやく"
           },
           {
             "text": "を"
@@ -2185,12 +2185,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1601480-1-ex-1",
-        "version": 1,
-        "before": "店は原料費の上昇を受け、商品の価格を",
+        "version": 2,
+        "before": "店は原料費が高くなったため、商品の価格を",
         "answer": "引き上げた",
         "after": "。",
         "reading": "ひきあげた",
-        "translation": "가게는 원료비 상승에 따라 상품 가격을 인상했다.",
+        "translation": "가게는 원료비가 비싸져 상품 가격을 인상했다.",
         "translationTarget": "인상했다",
         "difficulty": 35,
         "status": "reviewed",
@@ -2211,21 +2211,14 @@ const content: LearnSense[] = [
             "reading": "ひ"
           },
           {
-            "text": "の"
+            "text": "が"
           },
           {
-            "text": "上昇",
-            "reading": "じょうしょう"
+            "text": "高く",
+            "reading": "たかく"
           },
           {
-            "text": "を"
-          },
-          {
-            "text": "受け",
-            "reading": "うけ"
-          },
-          {
-            "text": "、"
+            "text": "なったため、"
           },
           {
             "text": "商品",

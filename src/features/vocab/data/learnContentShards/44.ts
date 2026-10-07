@@ -822,12 +822,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1483150-1-ex-1",
-        "version": 1,
-        "before": "赤い帽子の女性を覚えていますか。",
+        "version": 2,
+        "before": "赤い帽子の方を覚えていますか。",
         "answer": "彼女",
         "after": "が私の先生です。",
         "reading": "かのじょ",
-        "translation": "빨간 모자를 쓴 여자를 기억하세요? 그녀가 제 선생님이에요.",
+        "translation": "빨간 모자를 쓴 분을 기억하세요? 그녀가 제 선생님이에요.",
         "translationTarget": "그녀",
         "difficulty": 19,
         "status": "reviewed",
@@ -844,8 +844,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "女性",
-            "reading": "じょせい"
+            "text": "方",
+            "reading": "ほう"
           },
           {
             "text": "を"
@@ -1157,8 +1157,8 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1242850-1-ex-1",
-        "version": 1,
-        "before": "店を閉める前に、売上金を",
+        "version": 2,
+        "before": "店を閉める前に、売上を",
         "answer": "金庫",
         "after": "へ入れた。",
         "reading": "きんこ",
@@ -1188,10 +1188,6 @@ const content: LearnSense[] = [
           {
             "text": "売上",
             "reading": "うりあげ"
-          },
-          {
-            "text": "金",
-            "reading": "きん"
           },
           {
             "text": "を"
@@ -1725,12 +1721,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1395660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "建物の一部だけでなく、",
         "answer": "全体",
-        "after": "の安全を確認する。",
+        "after": "の強度を確認する。",
         "reading": "ぜんたい",
-        "translation": "건물의 일부뿐 아니라 전체의 안전을 확인한다.",
+        "translation": "건물의 일부뿐 아니라 전체의 강도를 확인한다.",
         "translationTarget": "전체",
         "difficulty": 29,
         "status": "reviewed",
@@ -1755,8 +1751,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "安全",
-            "reading": "あんぜん"
+            "text": "強度",
+            "reading": "きょうど"
           },
           {
             "text": "を"
@@ -3605,12 +3601,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1463790-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "海辺で",
         "answer": "日の出",
-        "after": "を見るため、まだ暗いうちに出発した。",
+        "after": "を見るため、まだ暗いうちに宿を離れた。",
         "reading": "ひので",
-        "translation": "바닷가에서 일출을 보려고 아직 어두울 때 출발했다.",
+        "translation": "바닷가에서 일출을 보려고 아직 어두울 때 숙소를 떠났다.",
         "translationTarget": "일출",
         "difficulty": 28,
         "status": "reviewed",
@@ -3642,11 +3638,18 @@ const content: LearnSense[] = [
             "text": "うちに"
           },
           {
-            "text": "出発",
-            "reading": "しゅっぱつ"
+            "text": "宿",
+            "reading": "やど"
           },
           {
-            "text": "した。"
+            "text": "を"
+          },
+          {
+            "text": "離れ",
+            "reading": "はなれ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

@@ -519,19 +519,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_462-1-ex-1",
-        "version": 1,
-        "before": "救急隊が、煙で動けなくなった人を",
+        "version": 2,
+        "before": "消防隊が、煙で動けなくなった人を",
         "answer": "救った",
         "after": "。",
         "reading": "すくった",
-        "translation": "구급대가 연기 때문에 움직이지 못하던 사람을 구했다.",
+        "translation": "소방대가 연기 때문에 움직이지 못하던 사람을 구했다.",
         "translationTarget": "구했다",
         "difficulty": 30,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "救急",
-            "reading": "きゅうきゅう"
+            "text": "消防",
+            "reading": "しょうぼう"
           },
           {
             "text": "隊",
@@ -1432,22 +1432,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1001890-1-ex-1",
-        "version": 1,
-        "before": "焼いた",
+        "version": 2,
+        "before": "出来たての",
         "answer": "お好み焼き",
         "after": "にソースを塗ると、いい匂いがした。",
         "reading": "おこのみやき",
-        "translation": "구운 오코노미야키에 소스를 바르니 좋은 냄새가 났다.",
+        "translation": "갓 만든 오코노미야키에 소스를 바르니 좋은 냄새가 났다.",
         "translationTarget": "오코노미야키",
         "difficulty": 23,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "焼い",
-            "reading": "やい"
+            "text": "出来",
+            "reading": "でき"
           },
           {
-            "text": "た"
+            "text": "たての"
           }
         ],
         "afterFurigana": [

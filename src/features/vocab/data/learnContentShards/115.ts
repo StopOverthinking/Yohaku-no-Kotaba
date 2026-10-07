@@ -508,12 +508,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_837-1-ex-1",
-        "version": 1,
-        "before": "小さな舞台を重ねて、着実に",
+        "version": 2,
+        "before": "小さな舞台を重ねて、少しずつ",
         "answer": "実力を付けた",
         "after": "。",
         "reading": "じつりょくをつけた",
-        "translation": "작은 무대를 거듭하며 착실히 실력을 길렀다.",
+        "translation": "작은 무대를 거듭하며 조금씩 실력을 길렀다.",
         "translationTarget": "실력을 길렀다",
         "difficulty": 28,
         "status": "reviewed",
@@ -537,11 +537,11 @@ const content: LearnSense[] = [
             "text": "て、"
           },
           {
-            "text": "着実",
-            "reading": "ちゃくじつ"
+            "text": "少し",
+            "reading": "すこし"
           },
           {
-            "text": "に"
+            "text": "ずつ"
           }
         ],
         "afterFurigana": [
@@ -1062,12 +1062,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1279170-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "相手の",
         "answer": "攻撃",
-        "after": "をしのいだ後、こちらも反撃に転じた。",
+        "after": "をしのいだ後、こちらも勢いよく前へ出た。",
         "reading": "こうげき",
-        "translation": "상대의 공격을 버틴 뒤 우리도 반격에 나섰다.",
+        "translation": "상대의 공격을 버틴 뒤 우리도 기세 좋게 앞으로 나섰다.",
         "translationTarget": "공격",
         "difficulty": 29,
         "status": "reviewed",
@@ -1092,15 +1092,22 @@ const content: LearnSense[] = [
             "text": "、こちらも"
           },
           {
-            "text": "反撃",
-            "reading": "はんげき"
+            "text": "勢い",
+            "reading": "いきおい"
           },
           {
-            "text": "に"
+            "text": "よく"
           },
           {
-            "text": "転じ",
-            "reading": "てんじ"
+            "text": "前",
+            "reading": "まえ"
+          },
+          {
+            "text": "へ"
+          },
+          {
+            "text": "出",
+            "reading": "で"
           },
           {
             "text": "た。"
@@ -1685,19 +1692,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1299280-1-ex-1",
-        "version": 1,
-        "before": "録音に",
+        "version": 2,
+        "before": "収録した声に",
         "answer": "雑音",
         "after": "が入ってしまい、話の一部が聞き取れなかった。",
         "reading": "ざつおん",
-        "translation": "녹음에 잡음이 들어가 이야기의 일부를 알아들을 수 없었다.",
+        "translation": "수록한 목소리에 잡음이 들어가 이야기의 일부를 알아들을 수 없었다.",
         "translationTarget": "잡음",
         "difficulty": 38,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "録音",
-            "reading": "ろくおん"
+            "text": "収録",
+            "reading": "しゅうろく"
+          },
+          {
+            "text": "した"
+          },
+          {
+            "text": "声",
+            "reading": "こえ"
           },
           {
             "text": "に"

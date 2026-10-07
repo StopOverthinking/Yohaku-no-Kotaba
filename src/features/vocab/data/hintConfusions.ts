@@ -25,15 +25,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_101-1": {
     "senseVersion": 1,
     "words": [
-      "差し出す",
-      "届ける"
+      "届ける",
+      "渡す"
     ]
   },
   "sense-AbsoluteVerb_101-2": {
     "senseVersion": 1,
     "words": [
-      "取り出す",
-      "引き出す"
+      "入れる",
+      "抜く"
     ]
   },
   "sense-AbsoluteVerb_102-1": {
@@ -53,21 +53,27 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_104-1": {
     "senseVersion": 1,
     "words": [
-      "立てる",
-      "起きる"
+      "起きる",
+      "動く"
     ]
   },
   "sense-AbsoluteVerb_105-1": {
     "senseVersion": 1,
     "words": [
-      "立つ",
-      "始める"
+      "始める",
+      "起きる"
     ]
   },
   "sense-AbsoluteVerb_106-1": {
     "senseVersion": 1,
     "words": [
       "腰掛ける"
+    ]
+  },
+  "sense-AbsoluteVerb_107-1": {
+    "senseVersion": 1,
+    "words": [
+      "座る"
     ]
   },
   "sense-AbsoluteVerb_108-1": {
@@ -77,11 +83,23 @@ export const hintConfusions: HintConfusions = {
       "転がす"
     ]
   },
+  "sense-AbsoluteVerb_109-1": {
+    "senseVersion": 1,
+    "words": [
+      "寝る"
+    ]
+  },
+  "sense-AbsoluteVerb_11-1": {
+    "senseVersion": 1,
+    "words": [
+      "洗う"
+    ]
+  },
   "sense-AbsoluteVerb_110-1": {
     "senseVersion": 1,
     "words": [
-      "曲がる",
-      "傾斜"
+      "傾斜",
+      "回す"
     ]
   },
   "sense-AbsoluteVerb_111-1": {
@@ -91,11 +109,17 @@ export const hintConfusions: HintConfusions = {
       "はめる"
     ]
   },
+  "sense-AbsoluteVerb_112-1": {
+    "senseVersion": 1,
+    "words": [
+      "歩く"
+    ]
+  },
   "sense-AbsoluteVerb_113-1": {
     "senseVersion": 1,
     "words": [
-      "悲しい",
-      "惜しむ"
+      "惜しむ",
+      "悔やむ"
     ]
   },
   "sense-AbsoluteVerb_114-1": {
@@ -115,15 +139,20 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_116-1": {
     "senseVersion": 1,
     "words": [
-      "好き",
-      "欲しがる"
+      "欲しがる",
+      "気に入る"
     ]
   },
   "sense-AbsoluteVerb_117-1": {
     "senseVersion": 1,
     "words": [
-      "怖がる",
-      "嫌い"
+      "怖がる"
+    ]
+  },
+  "sense-AbsoluteVerb_118-1": {
+    "senseVersion": 1,
+    "words": [
+      "嫌う"
     ]
   },
   "sense-AbsoluteVerb_119-1": {
@@ -136,8 +165,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_12-1": {
     "senseVersion": 1,
     "words": [
-      "休憩",
-      "休息"
+      "眠る",
+      "一息"
+    ]
+  },
+  "sense-AbsoluteVerb_12-2": {
+    "senseVersion": 1,
+    "words": [
+      "怠ける"
     ]
   },
   "sense-AbsoluteVerb_120-1": {
@@ -147,11 +182,29 @@ export const hintConfusions: HintConfusions = {
       "悲しむ"
     ]
   },
+  "sense-AbsoluteVerb_121-1": {
+    "senseVersion": 1,
+    "words": [
+      "憎む"
+    ]
+  },
+  "sense-AbsoluteVerb_122-1": {
+    "senseVersion": 1,
+    "words": [
+      "慌てる"
+    ]
+  },
   "sense-AbsoluteVerb_123-1": {
     "senseVersion": 1,
     "words": [
-      "驚く",
-      "脅す"
+      "脅す",
+      "脅かす"
+    ]
+  },
+  "sense-AbsoluteVerb_124-1": {
+    "senseVersion": 1,
+    "words": [
+      "驚く"
     ]
   },
   "sense-AbsoluteVerb_125-1": {
@@ -168,6 +221,18 @@ export const hintConfusions: HintConfusions = {
       "撫でる"
     ]
   },
+  "sense-AbsoluteVerb_127-1": {
+    "senseVersion": 1,
+    "words": [
+      "疲れる"
+    ]
+  },
+  "sense-AbsoluteVerb_128-1": {
+    "senseVersion": 1,
+    "words": [
+      "驚く"
+    ]
+  },
   "sense-AbsoluteVerb_129-1": {
     "senseVersion": 1,
     "words": [
@@ -176,10 +241,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-AbsoluteVerb_13-1": {
     "senseVersion": 1,
-    "words": [
-      "明るくなる",
-      "明るい"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_130-1": {
     "senseVersion": 1,
@@ -209,6 +271,10 @@ export const hintConfusions: HintConfusions = {
       "仰ぐ"
     ]
   },
+  "sense-AbsoluteVerb_134-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_135-1": {
     "senseVersion": 1,
     "words": [
@@ -237,24 +303,32 @@ export const hintConfusions: HintConfusions = {
       "変わる"
     ]
   },
-  "sense-AbsoluteVerb_140-1": {
+  "sense-AbsoluteVerb_139-1": {
     "senseVersion": 1,
     "words": [
-      "笑う",
-      "笑い"
+      "見つめる"
     ]
+  },
+  "sense-AbsoluteVerb_14-1": {
+    "senseVersion": 1,
+    "words": [
+      "暗くなる"
+    ]
+  },
+  "sense-AbsoluteVerb_140-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_141-1": {
     "senseVersion": 1,
     "words": [
-      "悩む",
-      "苦しめる"
+      "苦しめる",
+      "責める"
     ]
   },
   "sense-AbsoluteVerb_142-1": {
     "senseVersion": 1,
     "words": [
-      "苦しめる",
       "悩む"
     ]
   },
@@ -285,6 +359,12 @@ export const hintConfusions: HintConfusions = {
       "焦る"
     ]
   },
+  "sense-AbsoluteVerb_146-1": {
+    "senseVersion": 1,
+    "words": [
+      "慌てる"
+    ]
+  },
   "sense-AbsoluteVerb_147-1": {
     "senseVersion": 1,
     "words": [
@@ -301,8 +381,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_149-1": {
     "senseVersion": 1,
     "words": [
-      "困難",
-      "苦しむ"
+      "苦しむ",
+      "迷惑"
+    ]
+  },
+  "sense-AbsoluteVerb_15-1": {
+    "senseVersion": 1,
+    "words": [
+      "暮れる"
     ]
   },
   "sense-AbsoluteVerb_150-1": {
@@ -314,8 +400,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_151-1": {
     "senseVersion": 1,
     "words": [
-      "頼む",
-      "仰ぐ"
+      "仰ぐ",
+      "甘える"
     ]
   },
   "sense-AbsoluteVerb_152-1": {
@@ -353,6 +439,12 @@ export const hintConfusions: HintConfusions = {
       "捨てる"
     ]
   },
+  "sense-AbsoluteVerb_157-1": {
+    "senseVersion": 1,
+    "words": [
+      "励ます"
+    ]
+  },
   "sense-AbsoluteVerb_158-1": {
     "senseVersion": 1,
     "words": [
@@ -364,8 +456,16 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "忘れる",
-      "許容"
+      "受け付ける"
     ]
+  },
+  "sense-AbsoluteVerb_16-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_160-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_161-1": {
     "senseVersion": 1,
@@ -388,6 +488,12 @@ export const hintConfusions: HintConfusions = {
       "作る"
     ]
   },
+  "sense-AbsoluteVerb_164-1": {
+    "senseVersion": 1,
+    "words": [
+      "産む"
+    ]
+  },
   "sense-AbsoluteVerb_165-1": {
     "senseVersion": 1,
     "words": [
@@ -402,6 +508,10 @@ export const hintConfusions: HintConfusions = {
       "生きる"
     ]
   },
+  "sense-AbsoluteVerb_167-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_168-1": {
     "senseVersion": 1,
     "words": [
@@ -412,15 +522,21 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_169-1": {
     "senseVersion": 1,
     "words": [
-      "育てる",
-      "伸びる"
+      "伸びる",
+      "増す"
+    ]
+  },
+  "sense-AbsoluteVerb_17-1": {
+    "senseVersion": 1,
+    "words": [
+      "落ちる"
     ]
   },
   "sense-AbsoluteVerb_170-1": {
     "senseVersion": 1,
     "words": [
       "養う",
-      "育つ"
+      "飼う"
     ]
   },
   "sense-AbsoluteVerb_171-1": {
@@ -437,6 +553,24 @@ export const hintConfusions: HintConfusions = {
       "枯れる"
     ]
   },
+  "sense-AbsoluteVerb_173-1": {
+    "senseVersion": 1,
+    "words": [
+      "開く"
+    ]
+  },
+  "sense-AbsoluteVerb_174-1": {
+    "senseVersion": 1,
+    "words": [
+      "枯れる"
+    ]
+  },
+  "sense-AbsoluteVerb_175-1": {
+    "senseVersion": 1,
+    "words": [
+      "育つ"
+    ]
+  },
   "sense-AbsoluteVerb_176-1": {
     "senseVersion": 1,
     "words": [
@@ -451,11 +585,27 @@ export const hintConfusions: HintConfusions = {
       "撒く"
     ]
   },
+  "sense-AbsoluteVerb_178-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_179-1": {
+    "senseVersion": 1,
+    "words": [
+      "熟す"
+    ]
+  },
   "sense-AbsoluteVerb_18-1": {
     "senseVersion": 1,
     "words": [
-      "止まる",
-      "終わる"
+      "終わる",
+      "過ぎる"
+    ]
+  },
+  "sense-AbsoluteVerb_180-1": {
+    "senseVersion": 1,
+    "words": [
+      "煮える"
     ]
   },
   "sense-AbsoluteVerb_181-1": {
@@ -474,8 +624,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_183-1": {
     "senseVersion": 1,
     "words": [
-      "生やす",
-      "芽"
+      "芽",
+      "育つ"
     ]
   },
   "sense-AbsoluteVerb_184-1": {
@@ -488,8 +638,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_185-1": {
     "senseVersion": 1,
     "words": [
-      "鳴る",
-      "叫ぶ"
+      "叫ぶ",
+      "歌う"
     ]
   },
   "sense-AbsoluteVerb_186-1": {
@@ -504,6 +654,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "鳴く",
       "叫ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_188-1": {
+    "senseVersion": 1,
+    "words": [
+      "慣れる"
     ]
   },
   "sense-AbsoluteVerb_189-1": {
@@ -557,8 +713,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_195-1": {
     "senseVersion": 1,
     "words": [
-      "被る",
-      "包む"
+      "包む",
+      "覆う"
+    ]
+  },
+  "sense-AbsoluteVerb_196-1": {
+    "senseVersion": 1,
+    "words": [
+      "置く"
     ]
   },
   "sense-AbsoluteVerb_197-1": {
@@ -582,18 +744,43 @@ export const hintConfusions: HintConfusions = {
       "覆う"
     ]
   },
+  "sense-AbsoluteVerb_2-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_20-1": {
     "senseVersion": 1,
-    "words": [
-      "溶かす",
-      "溶く"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_200-1": {
     "senseVersion": 1,
     "words": [
       "折る",
       "刈る"
+    ]
+  },
+  "sense-AbsoluteVerb_201-1": {
+    "senseVersion": 1,
+    "words": [
+      "切る"
+    ]
+  },
+  "sense-AbsoluteVerb_202-1": {
+    "senseVersion": 1,
+    "words": [
+      "切る"
+    ]
+  },
+  "sense-AbsoluteVerb_203-1": {
+    "senseVersion": 1,
+    "words": [
+      "炒める"
+    ]
+  },
+  "sense-AbsoluteVerb_204-1": {
+    "senseVersion": 1,
+    "words": [
+      "揚げる"
     ]
   },
   "sense-AbsoluteVerb_205-1": {
@@ -619,9 +806,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-AbsoluteVerb_208-1": {
     "senseVersion": 1,
-    "words": [
-      "沸かす"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_209-1": {
     "senseVersion": 1,
@@ -647,8 +832,20 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_211-1": {
     "senseVersion": 1,
     "words": [
-      "焼く",
-      "燃える"
+      "燃える",
+      "焦げる"
+    ]
+  },
+  "sense-AbsoluteVerb_212-1": {
+    "senseVersion": 1,
+    "words": [
+      "混ぜる"
+    ]
+  },
+  "sense-AbsoluteVerb_213-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆでる"
     ]
   },
   "sense-AbsoluteVerb_214-1": {
@@ -672,11 +869,17 @@ export const hintConfusions: HintConfusions = {
       "焼ける"
     ]
   },
+  "sense-AbsoluteVerb_217-1": {
+    "senseVersion": 1,
+    "words": [
+      "混ぜる"
+    ]
+  },
   "sense-AbsoluteVerb_218-1": {
     "senseVersion": 1,
     "words": [
-      "擦る（こする）",
-      "撫でる"
+      "撫でる",
+      "潰す"
     ]
   },
   "sense-AbsoluteVerb_22-1": {
@@ -696,15 +899,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_221-1": {
     "senseVersion": 1,
     "words": [
-      "混ざる",
-      "合わせる"
+      "合わせる",
+      "交える"
     ]
   },
   "sense-AbsoluteVerb_222-1": {
     "senseVersion": 1,
     "words": [
-      "冷える",
-      "冷める"
+      "涼む"
     ]
   },
   "sense-AbsoluteVerb_223-1": {
@@ -717,8 +919,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_224-1": {
     "senseVersion": 1,
     "words": [
-      "教わる",
-      "唱える"
+      "唱える",
+      "授ける"
     ]
   },
   "sense-AbsoluteVerb_225-1": {
@@ -749,6 +951,18 @@ export const hintConfusions: HintConfusions = {
       "知る"
     ]
   },
+  "sense-AbsoluteVerb_229-1": {
+    "senseVersion": 1,
+    "words": [
+      "失う"
+    ]
+  },
+  "sense-AbsoluteVerb_23-1": {
+    "senseVersion": 1,
+    "words": [
+      "止む"
+    ]
+  },
   "sense-AbsoluteVerb_230-1": {
     "senseVersion": 1,
     "words": [
@@ -766,8 +980,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_232-1": {
     "senseVersion": 1,
     "words": [
-      "着る",
-      "掛ける"
+      "掛ける",
+      "締める"
     ]
   },
   "sense-AbsoluteVerb_233-1": {
@@ -787,16 +1001,26 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_235-1": {
     "senseVersion": 1,
     "words": [
-      "見る",
-      "出る"
+      "出る",
+      "飛び出す"
     ]
   },
   "sense-AbsoluteVerb_236-1": {
     "senseVersion": 1,
     "words": [
-      "見える",
-      "示す"
+      "示す",
+      "掲げる"
     ]
+  },
+  "sense-AbsoluteVerb_237-1": {
+    "senseVersion": 1,
+    "words": [
+      "眺める"
+    ]
+  },
+  "sense-AbsoluteVerb_238-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_239-1": {
     "senseVersion": 1,
@@ -805,11 +1029,21 @@ export const hintConfusions: HintConfusions = {
       "知る"
     ]
   },
+  "sense-AbsoluteVerb_24-1": {
+    "senseVersion": 1,
+    "words": [
+      "雨が降る"
+    ]
+  },
+  "sense-AbsoluteVerb_240-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_241-1": {
     "senseVersion": 1,
     "words": [
       "聞く",
-      "問い合わせる"
+      "尋ねる"
     ]
   },
   "sense-AbsoluteVerb_242-1": {
@@ -823,21 +1057,21 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "返事する",
-      "回答"
+      "返事"
     ]
   },
   "sense-AbsoluteVerb_244-1": {
     "senseVersion": 1,
     "words": [
-      "伝える",
-      "拡大"
+      "拡大",
+      "普及"
     ]
   },
   "sense-AbsoluteVerb_245-1": {
     "senseVersion": 1,
     "words": [
-      "伝わる",
-      "送る"
+      "送る",
+      "語る"
     ]
   },
   "sense-AbsoluteVerb_246-1": {
@@ -851,8 +1085,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "まとめる",
-      "複写"
+      "倣う"
     ]
+  },
+  "sense-AbsoluteVerb_248-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_249-1": {
     "senseVersion": 1,
@@ -864,15 +1102,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_25-1": {
     "senseVersion": 1,
     "words": [
-      "漏らす",
       "こぼれる"
     ]
   },
   "sense-AbsoluteVerb_250-1": {
     "senseVersion": 1,
     "words": [
-      "現す",
-      "出る"
+      "出る",
+      "飛び出す"
     ]
   },
   "sense-AbsoluteVerb_251-1": {
@@ -927,36 +1164,36 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_258-1": {
     "senseVersion": 1,
     "words": [
-      "入れる",
-      "上がる"
+      "上がる",
+      "収まる"
     ]
   },
   "sense-AbsoluteVerb_259-1": {
     "senseVersion": 1,
     "words": [
-      "入る",
-      "交える"
+      "交える",
+      "取り込む"
     ]
   },
   "sense-AbsoluteVerb_26-1": {
     "senseVersion": 1,
     "words": [
-      "鳴らす",
-      "響く"
+      "響く",
+      "吠える"
     ]
   },
   "sense-AbsoluteVerb_260-1": {
     "senseVersion": 1,
     "words": [
-      "出す",
-      "離れる"
+      "離れる",
+      "見える"
     ]
   },
   "sense-AbsoluteVerb_261-1": {
     "senseVersion": 1,
     "words": [
-      "外出する",
-      "出発する"
+      "離れる",
+      "去る"
     ]
   },
   "sense-AbsoluteVerb_262-1": {
@@ -965,6 +1202,10 @@ export const hintConfusions: HintConfusions = {
       "出発する",
       "離れる"
     ]
+  },
+  "sense-AbsoluteVerb_263-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_264-1": {
     "senseVersion": 1,
@@ -983,15 +1224,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_266-1": {
     "senseVersion": 1,
     "words": [
-      "上がる",
-      "高まる"
+      "高まる",
+      "高める"
     ]
   },
   "sense-AbsoluteVerb_267-1": {
     "senseVersion": 1,
     "words": [
       "登る",
-      "上がる"
+      "昇る"
     ]
   },
   "sense-AbsoluteVerb_268-1": {
@@ -1010,36 +1251,34 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-AbsoluteVerb_27-1": {
     "senseVersion": 1,
-    "words": [
-      "続く"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_270-1": {
     "senseVersion": 1,
     "words": [
-      "下りる",
-      "降りる"
+      "降りる",
+      "落ちる"
     ]
   },
   "sense-AbsoluteVerb_271-1": {
     "senseVersion": 1,
     "words": [
-      "下る",
-      "落ちる"
+      "落ちる",
+      "降りる"
     ]
   },
   "sense-AbsoluteVerb_272-1": {
     "senseVersion": 1,
     "words": [
-      "下げる",
-      "低下"
+      "降りる",
+      "落ちる"
     ]
   },
   "sense-AbsoluteVerb_273-1": {
     "senseVersion": 1,
     "words": [
-      "引き下げる",
-      "下ろす"
+      "降りる",
+      "落とす"
     ]
   },
   "sense-AbsoluteVerb_274-1": {
@@ -1052,8 +1291,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_275-1": {
     "senseVersion": 1,
     "words": [
-      "回す",
-      "回転"
+      "巡る",
+      "曲がる"
     ]
   },
   "sense-AbsoluteVerb_276-1": {
@@ -1066,15 +1305,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_277-1": {
     "senseVersion": 1,
     "words": [
-      "通り過ぎる",
-      "通う"
+      "越える",
+      "経る"
     ]
   },
   "sense-AbsoluteVerb_278-1": {
     "senseVersion": 1,
     "words": [
-      "通る",
-      "越える"
+      "越える",
+      "経る"
     ]
   },
   "sense-AbsoluteVerb_279-1": {
@@ -1094,9 +1333,13 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_280-1": {
     "senseVersion": 1,
     "words": [
-      "戻る",
-      "返還"
+      "返還",
+      "還元"
     ]
+  },
+  "sense-AbsoluteVerb_281-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_282-1": {
     "senseVersion": 1,
@@ -1108,15 +1351,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_283-1": {
     "senseVersion": 1,
     "words": [
-      "流す",
-      "流れ"
+      "経つ"
     ]
   },
   "sense-AbsoluteVerb_284-1": {
     "senseVersion": 1,
     "words": [
-      "流れる",
-      "注ぐ"
+      "注ぐ",
+      "こぼす"
     ]
   },
   "sense-AbsoluteVerb_285-1": {
@@ -1129,15 +1371,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_286-1": {
     "senseVersion": 1,
     "words": [
-      "倒す",
-      "崩れる"
+      "崩れる",
+      "落ちる"
     ]
   },
   "sense-AbsoluteVerb_287-1": {
     "senseVersion": 1,
     "words": [
-      "転がる",
-      "倒れる"
+      "倒れる",
+      "ひっくり返る"
     ]
   },
   "sense-AbsoluteVerb_288-1": {
@@ -1150,8 +1392,26 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_289-1": {
     "senseVersion": 1,
     "words": [
-      "真似する",
-      "習う"
+      "習う",
+      "写す"
+    ]
+  },
+  "sense-AbsoluteVerb_29-1": {
+    "senseVersion": 1,
+    "words": [
+      "楽しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_290-1": {
+    "senseVersion": 1,
+    "words": [
+      "包む"
+    ]
+  },
+  "sense-AbsoluteVerb_291-1": {
+    "senseVersion": 1,
+    "words": [
+      "騒ぐ"
     ]
   },
   "sense-AbsoluteVerb_292-1": {
@@ -1178,50 +1438,46 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_295-1": {
     "senseVersion": 1,
     "words": [
-      "動かす",
-      "移行"
+      "移行",
+      "運ぶ"
     ]
   },
   "sense-AbsoluteVerb_296-1": {
     "senseVersion": 1,
     "words": [
-      "動く",
-      "移行"
+      "移行",
+      "運ぶ"
     ]
   },
   "sense-AbsoluteVerb_297-1": {
     "senseVersion": 1,
     "words": [
       "行く",
-      "進出"
+      "経過"
     ]
   },
   "sense-AbsoluteVerb_298-1": {
     "senseVersion": 1,
-    "words": [
-      "止める",
-      "立ち止まる"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_299-1": {
     "senseVersion": 1,
     "words": [
-      "止まる",
-      "押さえる"
+      "押さえる",
+      "阻む"
     ]
   },
   "sense-AbsoluteVerb_3-1": {
     "senseVersion": 1,
     "words": [
-      "寝る",
-      "睡眠"
+      "寝る"
     ]
   },
   "sense-AbsoluteVerb_30-1": {
     "senseVersion": 1,
     "words": [
-      "見える",
-      "眺める"
+      "眺める",
+      "会う"
     ]
   },
   "sense-AbsoluteVerb_300-1": {
@@ -1233,57 +1489,54 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-AbsoluteVerb_302-1": {
     "senseVersion": 1,
-    "words": [
-      "浮かぶ",
-      "浮かべる"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_303-1": {
     "senseVersion": 1,
     "words": [
-      "浮かべる",
-      "上がる"
+      "上がる",
+      "昇る"
     ]
   },
   "sense-AbsoluteVerb_304-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_305-1": {
+    "senseVersion": 1,
     "words": [
-      "浮かぶ",
-      "浮く"
+      "泳ぐ"
     ]
   },
   "sense-AbsoluteVerb_306-1": {
     "senseVersion": 1,
     "words": [
       "借りる",
-      "購買"
+      "仕入れる"
     ]
   },
   "sense-AbsoluteVerb_307-1": {
     "senseVersion": 1,
     "words": [
-      "買う",
-      "売れる"
+      "買う"
     ]
   },
   "sense-AbsoluteVerb_308-1": {
     "senseVersion": 1,
     "words": [
-      "気になる",
       "好む"
     ]
   },
   "sense-AbsoluteVerb_309-1": {
     "senseVersion": 1,
     "words": [
-      "合う",
-      "一致"
+      "一致",
+      "交わる"
     ]
   },
   "sense-AbsoluteVerb_31-1": {
     "senseVersion": 1,
     "words": [
-      "聞こえる",
       "承る"
     ]
   },
@@ -1304,7 +1557,6 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_311-1": {
     "senseVersion": 1,
     "words": [
-      "支払う",
       "賄う"
     ]
   },
@@ -1319,7 +1571,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "着く",
-      "届ける"
+      "及ぶ"
     ]
   },
   "sense-AbsoluteVerb_314-1": {
@@ -1332,22 +1584,28 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_315-1": {
     "senseVersion": 1,
     "words": [
-      "扱う",
-      "使う"
+      "使う",
+      "回す"
+    ]
+  },
+  "sense-AbsoluteVerb_316-1": {
+    "senseVersion": 1,
+    "words": [
+      "喜ぶ"
     ]
   },
   "sense-AbsoluteVerb_317-1": {
     "senseVersion": 1,
     "words": [
-      "招待する",
-      "呼ぶ"
+      "呼ぶ",
+      "誘う"
     ]
   },
   "sense-AbsoluteVerb_318-1": {
     "senseVersion": 1,
     "words": [
       "休む",
-      "遊び"
+      "楽しむ"
     ]
   },
   "sense-AbsoluteVerb_319-1": {
@@ -1364,11 +1622,35 @@ export const hintConfusions: HintConfusions = {
       "話す"
     ]
   },
+  "sense-AbsoluteVerb_320-1": {
+    "senseVersion": 1,
+    "words": [
+      "払う"
+    ]
+  },
+  "sense-AbsoluteVerb_321-1": {
+    "senseVersion": 1,
+    "words": [
+      "飲む"
+    ]
+  },
+  "sense-AbsoluteVerb_322-1": {
+    "senseVersion": 1,
+    "words": [
+      "酔う"
+    ]
+  },
   "sense-AbsoluteVerb_323-1": {
     "senseVersion": 1,
     "words": [
       "躍る",
-      "踊り"
+      "ダンス"
+    ]
+  },
+  "sense-AbsoluteVerb_324-1": {
+    "senseVersion": 1,
+    "words": [
+      "吹く"
     ]
   },
   "sense-AbsoluteVerb_325-1": {
@@ -1409,8 +1691,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_33-1": {
     "senseVersion": 1,
     "words": [
-      "食う",
-      "飲む"
+      "飲む",
+      "召し上がる"
     ]
   },
   "sense-AbsoluteVerb_330-1": {
@@ -1426,6 +1708,10 @@ export const hintConfusions: HintConfusions = {
       "承る",
       "頂く"
     ]
+  },
+  "sense-AbsoluteVerb_332-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_334-1": {
     "senseVersion": 1,
@@ -1452,14 +1738,19 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "中止する",
-      "取り戻す"
+      "止める（やめる）"
     ]
   },
   "sense-AbsoluteVerb_338-1": {
     "senseVersion": 1,
     "words": [
-      "遅い",
-      "遅らせる"
+      "延びる"
+    ]
+  },
+  "sense-AbsoluteVerb_339-1": {
+    "senseVersion": 1,
+    "words": [
+      "着く"
     ]
   },
   "sense-AbsoluteVerb_34-1": {
@@ -1479,23 +1770,26 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_340-1": {
     "senseVersion": 1,
     "words": [
-      "決める",
-      "整う"
+      "整う",
+      "まとまる"
     ]
   },
   "sense-AbsoluteVerb_341-1": {
     "senseVersion": 1,
     "words": [
-      "決まる",
-      "選ぶ"
+      "選ぶ",
+      "志す"
     ]
   },
   "sense-AbsoluteVerb_342-1": {
     "senseVersion": 1,
     "words": [
-      "期待する",
       "望む"
     ]
+  },
+  "sense-AbsoluteVerb_343-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_344-1": {
     "senseVersion": 1,
@@ -1508,7 +1802,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "届く",
-      "到着する"
+      "及ぶ"
     ]
   },
   "sense-AbsoluteVerb_347-1": {
@@ -1516,6 +1810,22 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "渋滞する",
       "込む"
+    ]
+  },
+  "sense-AbsoluteVerb_348-1": {
+    "senseVersion": 1,
+    "words": [
+      "開く"
+    ]
+  },
+  "sense-AbsoluteVerb_349-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_35-1": {
+    "senseVersion": 1,
+    "words": [
+      "飲み込む"
     ]
   },
   "sense-AbsoluteVerb_350-1": {
@@ -1534,9 +1844,13 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_352-1": {
     "senseVersion": 1,
     "words": [
-      "乗る",
-      "切り替える"
+      "切り替える",
+      "スイッチ"
     ]
+  },
+  "sense-AbsoluteVerb_353-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_355-1": {
     "senseVersion": 1,
@@ -1549,8 +1863,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "争う",
-      "戦い"
+      "耐える"
     ]
+  },
+  "sense-AbsoluteVerb_357-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_358-1": {
     "senseVersion": 1,
@@ -1565,12 +1883,28 @@ export const hintConfusions: HintConfusions = {
       "負ける"
     ]
   },
+  "sense-AbsoluteVerb_36-1": {
+    "senseVersion": 1,
+    "words": [
+      "嗅ぐ"
+    ]
+  },
   "sense-AbsoluteVerb_360-1": {
     "senseVersion": 1,
     "words": [
       "叩く",
       "打つ（うつ）"
     ]
+  },
+  "sense-AbsoluteVerb_361-1": {
+    "senseVersion": 1,
+    "words": [
+      "叩く"
+    ]
+  },
+  "sense-AbsoluteVerb_362-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_363-1": {
     "senseVersion": 1,
@@ -1589,8 +1923,7 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_365-1": {
     "senseVersion": 1,
     "words": [
-      "怒る",
-      "起きる"
+      "怒る"
     ]
   },
   "sense-AbsoluteVerb_366-1": {
@@ -1644,22 +1977,21 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_372-1": {
     "senseVersion": 1,
     "words": [
-      "燃やす",
-      "焦げる"
+      "焦げる",
+      "焼ける"
     ]
   },
   "sense-AbsoluteVerb_373-1": {
     "senseVersion": 1,
     "words": [
-      "燃える",
-      "焼く"
+      "焼く",
+      "焦がす"
     ]
   },
   "sense-AbsoluteVerb_374-1": {
     "senseVersion": 1,
     "words": [
-      "傷む",
-      "腐敗"
+      "傷む"
     ]
   },
   "sense-AbsoluteVerb_375-1": {
@@ -1714,29 +2046,30 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_381-1": {
     "senseVersion": 1,
     "words": [
-      "隠す",
-      "逃げる"
+      "逃げる",
+      "消える"
     ]
   },
   "sense-AbsoluteVerb_382-1": {
     "senseVersion": 1,
     "words": [
-      "隠れる",
-      "包む"
+      "包む",
+      "覆う"
     ]
   },
   "sense-AbsoluteVerb_383-1": {
     "senseVersion": 1,
-    "words": [
-      "追う",
-      "追い越す"
-    ]
+    "words": []
+  },
+  "sense-AbsoluteVerb_384-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_385-1": {
     "senseVersion": 1,
     "words": [
-      "捕まる",
-      "逮捕"
+      "取る",
+      "押さえる"
     ]
   },
   "sense-AbsoluteVerb_386-1": {
@@ -1744,6 +2077,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "捕まえる",
       "逮捕"
+    ]
+  },
+  "sense-AbsoluteVerb_387-1": {
+    "senseVersion": 1,
+    "words": [
+      "捕る"
     ]
   },
   "sense-AbsoluteVerb_388-1": {
@@ -1756,8 +2095,7 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_389-1": {
     "senseVersion": 1,
     "words": [
-      "頼む",
-      "雇用"
+      "頼む"
     ]
   },
   "sense-AbsoluteVerb_39-1": {
@@ -1791,15 +2129,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_393-1": {
     "senseVersion": 1,
     "words": [
-      "取り扱う",
-      "使う"
+      "使う",
+      "回す"
     ]
   },
   "sense-AbsoluteVerb_394-1": {
     "senseVersion": 1,
     "words": [
-      "背負う",
-      "抱える"
+      "抱える",
+      "担ぐ"
     ]
   },
   "sense-AbsoluteVerb_395-1": {
@@ -1818,7 +2156,7 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_397-1": {
     "senseVersion": 1,
     "words": [
-      "止める（とめる）"
+      "控える"
     ]
   },
   "sense-AbsoluteVerb_398-1": {
@@ -1832,7 +2170,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "休む",
-      "怠る"
+      "サボる"
     ]
   },
   "sense-AbsoluteVerb_4-1": {
@@ -1844,10 +2182,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-AbsoluteVerb_40-1": {
     "senseVersion": 1,
-    "words": [
-      "微笑む",
-      "笑い"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_400-1": {
     "senseVersion": 1,
@@ -1870,11 +2205,22 @@ export const hintConfusions: HintConfusions = {
       "知る"
     ]
   },
+  "sense-AbsoluteVerb_403-1": {
+    "senseVersion": 1,
+    "words": [
+      "首を振る"
+    ]
+  },
   "sense-AbsoluteVerb_404-1": {
     "senseVersion": 1,
     "words": [
-      "味見する",
       "楽しむ"
+    ]
+  },
+  "sense-AbsoluteVerb_405-1": {
+    "senseVersion": 1,
+    "words": [
+      "覚える"
     ]
   },
   "sense-AbsoluteVerb_406-1": {
@@ -1895,28 +2241,33 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "合う",
-      "出会い"
+      "見る"
     ]
   },
   "sense-AbsoluteVerb_409-1": {
     "senseVersion": 1,
     "words": [
       "待ち合わせる",
-      "出会い"
+      "遭う"
     ]
   },
   "sense-AbsoluteVerb_41-1": {
     "senseVersion": 1,
     "words": [
-      "走る",
-      "散歩"
+      "走る"
+    ]
+  },
+  "sense-AbsoluteVerb_410-1": {
+    "senseVersion": 1,
+    "words": [
+      "同行する"
     ]
   },
   "sense-AbsoluteVerb_411-1": {
     "senseVersion": 1,
     "words": [
-      "触る",
-      "接する"
+      "接する",
+      "届く"
     ]
   },
   "sense-AbsoluteVerb_412-1": {
@@ -1924,6 +2275,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "分かれる",
       "分裂"
+    ]
+  },
+  "sense-AbsoluteVerb_413-1": {
+    "senseVersion": 1,
+    "words": [
+      "破る"
     ]
   },
   "sense-AbsoluteVerb_414-1": {
@@ -1935,15 +2292,19 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-AbsoluteVerb_415-1": {
     "senseVersion": 1,
-    "words": [
-      "送る"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_416-1": {
     "senseVersion": 1,
     "words": [
       "急かす",
       "呼びかける"
+    ]
+  },
+  "sense-AbsoluteVerb_417-1": {
+    "senseVersion": 1,
+    "words": [
+      "促す"
     ]
   },
   "sense-AbsoluteVerb_418-1": {
@@ -1992,21 +2353,21 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "戻す",
-      "返還"
+      "還元"
     ]
   },
   "sense-AbsoluteVerb_424-1": {
     "senseVersion": 1,
     "words": [
-      "預ける",
-      "収める"
+      "収める",
+      "担う"
     ]
   },
   "sense-AbsoluteVerb_425-1": {
     "senseVersion": 1,
     "words": [
       "任せる",
-      "預かる"
+      "払い込む"
     ]
   },
   "sense-AbsoluteVerb_426-1": {
@@ -2019,8 +2380,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_427-1": {
     "senseVersion": 1,
     "words": [
-      "取り出す",
-      "出す"
+      "取る",
+      "抜く"
+    ]
+  },
+  "sense-AbsoluteVerb_428-1": {
+    "senseVersion": 1,
+    "words": [
+      "減らす"
     ]
   },
   "sense-AbsoluteVerb_429-1": {
@@ -2029,6 +2396,10 @@ export const hintConfusions: HintConfusions = {
       "なくす",
       "見落とす"
     ]
+  },
+  "sense-AbsoluteVerb_43-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_430-1": {
     "senseVersion": 1,
@@ -2047,8 +2418,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_432-1": {
     "senseVersion": 1,
     "words": [
-      "落ちる",
-      "下げる"
+      "下げる",
+      "引き下げる"
     ]
   },
   "sense-AbsoluteVerb_433-1": {
@@ -2061,15 +2432,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_434-1": {
     "senseVersion": 1,
     "words": [
-      "探す",
-      "尋ねる"
+      "尋ねる",
+      "調べる"
     ]
   },
   "sense-AbsoluteVerb_435-1": {
     "senseVersion": 1,
     "words": [
-      "無くす",
-      "尽きる"
+      "尽きる",
+      "消える"
     ]
   },
   "sense-AbsoluteVerb_436-1": {
@@ -2100,11 +2471,17 @@ export const hintConfusions: HintConfusions = {
       "寄せる"
     ]
   },
+  "sense-AbsoluteVerb_44-1": {
+    "senseVersion": 1,
+    "words": [
+      "跳ぶ"
+    ]
+  },
   "sense-AbsoluteVerb_440-1": {
     "senseVersion": 1,
     "words": [
       "まとまる",
-      "片付ける"
+      "出来る"
     ]
   },
   "sense-AbsoluteVerb_441-1": {
@@ -2128,53 +2505,63 @@ export const hintConfusions: HintConfusions = {
       "作る"
     ]
   },
+  "sense-AbsoluteVerb_444-1": {
+    "senseVersion": 1,
+    "words": [
+      "汚れる"
+    ]
+  },
   "sense-AbsoluteVerb_445-1": {
     "senseVersion": 1,
     "words": [
-      "汚す",
-      "散らす"
+      "汚す"
     ]
   },
   "sense-AbsoluteVerb_446-1": {
     "senseVersion": 1,
     "words": [
-      "集める",
-      "加わる"
+      "加わる",
+      "群がる"
     ]
   },
   "sense-AbsoluteVerb_447-1": {
     "senseVersion": 1,
     "words": [
-      "集まる",
-      "寄せる"
+      "寄せる",
+      "まとめる"
     ]
   },
   "sense-AbsoluteVerb_448-1": {
     "senseVersion": 1,
     "words": [
-      "始める",
-      "開始"
+      "基づく"
     ]
   },
   "sense-AbsoluteVerb_449-1": {
     "senseVersion": 1,
     "words": [
-      "始まる",
-      "開始"
+      "作る",
+      "基づく"
+    ]
+  },
+  "sense-AbsoluteVerb_45-1": {
+    "senseVersion": 1,
+    "words": [
+      "浮く"
     ]
   },
   "sense-AbsoluteVerb_450-1": {
     "senseVersion": 1,
     "words": [
       "済む",
-      "終える"
+      "済ます"
     ]
   },
   "sense-AbsoluteVerb_451-1": {
     "senseVersion": 1,
     "words": [
-      "終わる",
-      "済ます"
+      "済ます",
+      "尽きる"
     ]
   },
   "sense-AbsoluteVerb_452-1": {
@@ -2188,7 +2575,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "出来る",
-      "出来上がる"
+      "終わる"
     ]
   },
   "sense-AbsoluteVerb_454-1": {
@@ -2201,8 +2588,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_455-1": {
     "senseVersion": 1,
     "words": [
-      "出来る",
-      "仕上がる"
+      "作る",
+      "整う"
     ]
   },
   "sense-AbsoluteVerb_456-1": {
@@ -2243,8 +2630,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_460-1": {
     "senseVersion": 1,
     "words": [
-      "助ける",
-      "役に立つ"
+      "役に立つ",
+      "役立つ"
     ]
   },
   "sense-AbsoluteVerb_461-1": {
@@ -2264,9 +2651,13 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_463-1": {
     "senseVersion": 1,
     "words": [
-      "役に立つ",
-      "助かる"
+      "助かる",
+      "ためになる"
     ]
+  },
+  "sense-AbsoluteVerb_464-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_465-1": {
     "senseVersion": 1,
@@ -2280,6 +2671,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "招待する",
       "呼ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_467-1": {
+    "senseVersion": 1,
+    "words": [
+      "拒む"
     ]
   },
   "sense-AbsoluteVerb_468-1": {
@@ -2296,11 +2693,23 @@ export const hintConfusions: HintConfusions = {
       "詰める"
     ]
   },
+  "sense-AbsoluteVerb_47-1": {
+    "senseVersion": 1,
+    "words": [
+      "投げる"
+    ]
+  },
   "sense-AbsoluteVerb_472-1": {
     "senseVersion": 1,
     "words": [
-      "割れる",
-      "分ける"
+      "分ける",
+      "破る"
+    ]
+  },
+  "sense-AbsoluteVerb_473-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想する"
     ]
   },
   "sense-AbsoluteVerb_474-1": {
@@ -2314,21 +2723,20 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "沿う",
-      "合う"
+      "一致"
     ]
   },
   "sense-AbsoluteVerb_476-1": {
     "senseVersion": 1,
     "words": [
-      "違う",
-      "間違える"
+      "誤る"
     ]
   },
   "sense-AbsoluteVerb_477-1": {
     "senseVersion": 1,
     "words": [
-      "間違う",
-      "誤る"
+      "誤る",
+      "しくじる"
     ]
   },
   "sense-AbsoluteVerb_478-1": {
@@ -2362,15 +2770,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_481-1": {
     "senseVersion": 1,
     "words": [
-      "移す",
-      "運ぶ"
+      "運ぶ",
+      "動かす"
     ]
   },
   "sense-AbsoluteVerb_482-1": {
     "senseVersion": 1,
     "words": [
-      "移る",
-      "運ぶ"
+      "運ぶ",
+      "送る"
     ]
   },
   "sense-AbsoluteVerb_483-1": {
@@ -2390,8 +2798,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_485-1": {
     "senseVersion": 1,
     "words": [
-      "加える",
-      "集まる"
+      "集まる",
+      "群がる"
     ]
   },
   "sense-AbsoluteVerb_486-1": {
@@ -2418,8 +2826,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_489-1": {
     "senseVersion": 1,
     "words": [
-      "重ねる",
-      "積む"
+      "積む",
+      "盛る"
     ]
   },
   "sense-AbsoluteVerb_49-1": {
@@ -2436,32 +2844,34 @@ export const hintConfusions: HintConfusions = {
       "積む"
     ]
   },
+  "sense-AbsoluteVerb_491-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_492-1": {
     "senseVersion": 1,
     "words": [
-      "増やす",
-      "増加"
+      "高まる"
     ]
   },
   "sense-AbsoluteVerb_493-1": {
     "senseVersion": 1,
     "words": [
-      "増す",
-      "増える"
+      "高まる"
     ]
   },
   "sense-AbsoluteVerb_494-1": {
     "senseVersion": 1,
     "words": [
-      "減らす",
-      "減少"
+      "衰える",
+      "縮む"
     ]
   },
   "sense-AbsoluteVerb_495-1": {
     "senseVersion": 1,
     "words": [
-      "減る",
-      "減少"
+      "控える",
+      "絞る"
     ]
   },
   "sense-AbsoluteVerb_496-1": {
@@ -2474,8 +2884,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_497-1": {
     "senseVersion": 1,
     "words": [
-      "伸ばす",
-      "育つ"
+      "育つ",
+      "増える"
     ]
   },
   "sense-AbsoluteVerb_498-1": {
@@ -2488,15 +2898,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_499-1": {
     "senseVersion": 1,
     "words": [
-      "縮める",
-      "減らす"
+      "減らす",
+      "減る"
     ]
   },
   "sense-AbsoluteVerb_5-1": {
     "senseVersion": 1,
     "words": [
-      "起こす",
-      "起こる"
+      "立つ",
+      "覚める"
     ]
   },
   "sense-AbsoluteVerb_50-1": {
@@ -2530,22 +2940,22 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_503-1": {
     "senseVersion": 1,
     "words": [
-      "積む",
-      "重ねる"
+      "重ねる",
+      "盛る"
     ]
   },
   "sense-AbsoluteVerb_504-1": {
     "senseVersion": 1,
     "words": [
-      "壊す",
-      "崩れる"
+      "崩れる",
+      "倒れる"
     ]
   },
   "sense-AbsoluteVerb_505-1": {
     "senseVersion": 1,
     "words": [
-      "壊れる",
-      "破る"
+      "破る",
+      "損なう"
     ]
   },
   "sense-AbsoluteVerb_506-1": {
@@ -2565,15 +2975,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_508-1": {
     "senseVersion": 1,
     "words": [
-      "崩す",
-      "倒れる"
+      "倒れる",
+      "壊れる"
     ]
   },
   "sense-AbsoluteVerb_509-1": {
     "senseVersion": 1,
     "words": [
-      "崩れる",
-      "破る"
+      "破る",
+      "壊す"
     ]
   },
   "sense-AbsoluteVerb_51-1": {
@@ -2593,50 +3003,62 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_512-1": {
     "senseVersion": 1,
     "words": [
-      "破る",
-      "崩れる"
+      "崩れる",
+      "倒れる"
     ]
   },
   "sense-AbsoluteVerb_514-1": {
     "senseVersion": 1,
     "words": [
-      "消す",
-      "隠れる"
+      "隠れる",
+      "取れる"
     ]
   },
   "sense-AbsoluteVerb_515-1": {
     "senseVersion": 1,
     "words": [
-      "変える",
-      "替える"
+      "替える",
+      "違う"
     ]
   },
   "sense-AbsoluteVerb_516-1": {
     "senseVersion": 1,
     "words": [
       "切り替える",
-      "変わる"
+      "改める"
     ]
   },
   "sense-AbsoluteVerb_517-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_518-1": {
+    "senseVersion": 1,
     "words": [
-      "染める",
-      "染みる"
+      "塗る"
     ]
   },
   "sense-AbsoluteVerb_519-1": {
     "senseVersion": 1,
-    "words": [
-      "冷やす",
-      "冷める"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_52-1": {
     "senseVersion": 1,
     "words": [
       "怪しむ",
-      "疑惑"
+      "考える"
+    ]
+  },
+  "sense-AbsoluteVerb_520-1": {
+    "senseVersion": 1,
+    "words": [
+      "彫る"
+    ]
+  },
+  "sense-AbsoluteVerb_521-1": {
+    "senseVersion": 1,
+    "words": [
+      "開ける"
     ]
   },
   "sense-AbsoluteVerb_522-1": {
@@ -2644,6 +3066,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "塞ぐ",
       "盛る"
+    ]
+  },
+  "sense-AbsoluteVerb_523-1": {
+    "senseVersion": 1,
+    "words": [
+      "混む"
     ]
   },
   "sense-AbsoluteVerb_524-1": {
@@ -2660,6 +3088,12 @@ export const hintConfusions: HintConfusions = {
       "埋める"
     ]
   },
+  "sense-AbsoluteVerb_527-1": {
+    "senseVersion": 1,
+    "words": [
+      "する"
+    ]
+  },
   "sense-AbsoluteVerb_528-1": {
     "senseVersion": 1,
     "words": [
@@ -2670,8 +3104,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_529-1": {
     "senseVersion": 1,
     "words": [
-      "曲げる",
-      "回す"
+      "回す",
+      "回る"
     ]
   },
   "sense-AbsoluteVerb_53-1": {
@@ -2684,22 +3118,29 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_531-1": {
     "senseVersion": 1,
     "words": [
-      "折る",
-      "壊れる"
+      "壊れる",
+      "割れる"
     ]
   },
   "sense-AbsoluteVerb_532-1": {
     "senseVersion": 1,
     "words": [
-      "折れる",
-      "破る"
+      "破る",
+      "壊す"
     ]
+  },
+  "sense-AbsoluteVerb_533-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_534-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_535-1": {
+    "senseVersion": 1,
     "words": [
-      "汚れる",
-      "汚れ"
+      "増える"
     ]
   },
   "sense-AbsoluteVerb_536-1": {
@@ -2723,11 +3164,17 @@ export const hintConfusions: HintConfusions = {
       "支配"
     ]
   },
+  "sense-AbsoluteVerb_539-1": {
+    "senseVersion": 1,
+    "words": [
+      "困る"
+    ]
+  },
   "sense-AbsoluteVerb_54-1": {
     "senseVersion": 1,
     "words": [
-      "確認する",
-      "調べる"
+      "調べる",
+      "検査"
     ]
   },
   "sense-AbsoluteVerb_541-1": {
@@ -2747,15 +3194,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_543-1": {
     "senseVersion": 1,
     "words": [
-      "揺らぐ",
-      "揺らす"
+      "振動",
+      "振る"
     ]
   },
   "sense-AbsoluteVerb_544-1": {
     "senseVersion": 1,
     "words": [
-      "必要",
-      "需要"
+      "望む",
+      "求める"
     ]
   },
   "sense-AbsoluteVerb_545-1": {
@@ -2772,6 +3219,12 @@ export const hintConfusions: HintConfusions = {
       "追加"
     ]
   },
+  "sense-AbsoluteVerb_547-1": {
+    "senseVersion": 1,
+    "words": [
+      "閉める"
+    ]
+  },
   "sense-AbsoluteVerb_548-1": {
     "senseVersion": 1,
     "words": [
@@ -2786,6 +3239,12 @@ export const hintConfusions: HintConfusions = {
       "勝る"
     ]
   },
+  "sense-AbsoluteVerb_55-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼る"
+    ]
+  },
   "sense-AbsoluteVerb_550-1": {
     "senseVersion": 1,
     "words": [
@@ -2796,8 +3255,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_551-1": {
     "senseVersion": 1,
     "words": [
-      "広げる",
-      "拡大"
+      "拡大",
+      "普及"
     ]
   },
   "sense-AbsoluteVerb_552-1": {
@@ -2831,22 +3290,21 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_556-1": {
     "senseVersion": 1,
     "words": [
-      "含む",
-      "交える"
+      "交える",
+      "加える"
     ]
   },
   "sense-AbsoluteVerb_557-1": {
     "senseVersion": 1,
     "words": [
-      "残す",
       "余る"
     ]
   },
   "sense-AbsoluteVerb_558-1": {
     "senseVersion": 1,
     "words": [
-      "残る",
-      "保存"
+      "保存",
+      "蓄える"
     ]
   },
   "sense-AbsoluteVerb_559-1": {
@@ -2858,7 +3316,6 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_56-1": {
     "senseVersion": 1,
     "words": [
-      "痛い",
       "傷む"
     ]
   },
@@ -2886,15 +3343,15 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_564-1": {
     "senseVersion": 1,
     "words": [
-      "近付ける",
-      "迫る"
+      "迫る",
+      "差し掛かる"
     ]
   },
   "sense-AbsoluteVerb_565-1": {
     "senseVersion": 1,
     "words": [
       "経る",
-      "過ごす"
+      "越える"
     ]
   },
   "sense-AbsoluteVerb_566-1": {
@@ -2921,8 +3378,7 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_569-1": {
     "senseVersion": 1,
     "words": [
-      "慌てる",
-      "急かす"
+      "慌てる"
     ]
   },
   "sense-AbsoluteVerb_57-1": {
@@ -2931,6 +3387,10 @@ export const hintConfusions: HintConfusions = {
       "痛む",
       "損なう"
     ]
+  },
+  "sense-AbsoluteVerb_570-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_571-1": {
     "senseVersion": 1,
@@ -2949,15 +3409,19 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_573-1": {
     "senseVersion": 1,
     "words": [
-      "開ける",
-      "広げる"
+      "広げる",
+      "張る"
     ]
   },
   "sense-AbsoluteVerb_575-1": {
     "senseVersion": 1,
     "words": [
-      "開ける（あける）"
+      "広げる"
     ]
+  },
+  "sense-AbsoluteVerb_576-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_577-1": {
     "senseVersion": 1,
@@ -2970,14 +3434,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "正しい",
-      "当てる"
+      "合う"
     ]
   },
   "sense-AbsoluteVerb_579-1": {
     "senseVersion": 1,
     "words": [
-      "当たる",
-      "ぶつかる"
+      "ぶつかる",
+      "ぶつける"
     ]
   },
   "sense-AbsoluteVerb_58-1": {
@@ -2991,20 +3455,18 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "合う",
-      "適当"
+      "通用"
     ]
   },
   "sense-AbsoluteVerb_581-1": {
     "senseVersion": 1,
-    "words": [
-      "当てはまる"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_582-1": {
     "senseVersion": 1,
     "words": [
-      "解く（ほどく）",
-      "緩める"
+      "緩める",
+      "溶く"
     ]
   },
   "sense-AbsoluteVerb_583-1": {
@@ -3017,8 +3479,14 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_584-1": {
     "senseVersion": 1,
     "words": [
-      "伴わせる",
-      "従う"
+      "従う",
+      "添う"
+    ]
+  },
+  "sense-AbsoluteVerb_585-1": {
+    "senseVersion": 1,
+    "words": [
+      "持っていく"
     ]
   },
   "sense-AbsoluteVerb_586-1": {
@@ -3028,18 +3496,22 @@ export const hintConfusions: HintConfusions = {
       "準じる"
     ]
   },
+  "sense-AbsoluteVerb_587-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_588-1": {
     "senseVersion": 1,
     "words": [
-      "並ぶ",
-      "設ける"
+      "設ける",
+      "組み立てる"
     ]
   },
   "sense-AbsoluteVerb_589-1": {
     "senseVersion": 1,
     "words": [
-      "抜く",
-      "落ちる"
+      "落ちる",
+      "とれる"
     ]
   },
   "sense-AbsoluteVerb_59-1": {
@@ -3066,8 +3538,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_592-1": {
     "senseVersion": 1,
     "words": [
-      "外す",
-      "落ちる"
+      "落ちる",
+      "とれる"
     ]
   },
   "sense-AbsoluteVerb_593-1": {
@@ -3076,25 +3548,48 @@ export const hintConfusions: HintConfusions = {
       "乾かす"
     ]
   },
+  "sense-AbsoluteVerb_594-1": {
+    "senseVersion": 1,
+    "words": [
+      "枯れる"
+    ]
+  },
+  "sense-AbsoluteVerb_595-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾く"
+    ]
+  },
   "sense-AbsoluteVerb_596-1": {
     "senseVersion": 1,
     "words": [
-      "乾く",
       "干す"
+    ]
+  },
+  "sense-AbsoluteVerb_597-1": {
+    "senseVersion": 1,
+    "words": [
+      "浸る"
     ]
   },
   "sense-AbsoluteVerb_598-1": {
     "senseVersion": 1,
     "words": [
-      "濡れる",
-      "漬ける"
+      "漬ける",
+      "染みる"
+    ]
+  },
+  "sense-AbsoluteVerb_599-1": {
+    "senseVersion": 1,
+    "words": [
+      "濡れる"
     ]
   },
   "sense-AbsoluteVerb_6-1": {
     "senseVersion": 1,
     "words": [
       "覚ます",
-      "起きる"
+      "覚める"
     ]
   },
   "sense-AbsoluteVerb_60-1": {
@@ -3104,6 +3599,12 @@ export const hintConfusions: HintConfusions = {
       "しゃべる"
     ]
   },
+  "sense-AbsoluteVerb_600-1": {
+    "senseVersion": 1,
+    "words": [
+      "濡れる"
+    ]
+  },
   "sense-AbsoluteVerb_601-1": {
     "senseVersion": 1,
     "words": [
@@ -3111,11 +3612,15 @@ export const hintConfusions: HintConfusions = {
       "染みる"
     ]
   },
+  "sense-AbsoluteVerb_602-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_603-1": {
     "senseVersion": 1,
     "words": [
       "対する",
-      "向かう"
+      "直面"
     ]
   },
   "sense-AbsoluteVerb_604-1": {
@@ -3128,8 +3633,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_605-1": {
     "senseVersion": 1,
     "words": [
-      "向く",
-      "直面"
+      "直面",
+      "曲がる"
     ]
   },
   "sense-AbsoluteVerb_606-1": {
@@ -3156,7 +3661,6 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_609-1": {
     "senseVersion": 1,
     "words": [
-      "続ける",
       "次ぐ"
     ]
   },
@@ -3170,8 +3674,8 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_611-1": {
     "senseVersion": 1,
     "words": [
-      "繋ぐ",
-      "結ぶ"
+      "結ぶ",
+      "接する"
     ]
   },
   "sense-AbsoluteVerb_612-1": {
@@ -3191,22 +3695,34 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_614-1": {
     "senseVersion": 1,
     "words": [
-      "勝つ",
-      "越える"
+      "越える",
+      "超える"
+    ]
+  },
+  "sense-AbsoluteVerb_615-1": {
+    "senseVersion": 1,
+    "words": [
+      "遅れる"
     ]
   },
   "sense-AbsoluteVerb_616-1": {
     "senseVersion": 1,
     "words": [
-      "出来上がる",
-      "仕上がる"
+      "仕上がる",
+      "作る"
+    ]
+  },
+  "sense-AbsoluteVerb_617-1": {
+    "senseVersion": 1,
+    "words": [
+      "選ぶ"
     ]
   },
   "sense-AbsoluteVerb_618-1": {
     "senseVersion": 1,
     "words": [
       "異なる",
-      "間違う"
+      "変わる"
     ]
   },
   "sense-AbsoluteVerb_619-1": {
@@ -3220,21 +3736,20 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "言う",
-      "物語る"
+      "読む"
     ]
   },
   "sense-AbsoluteVerb_620-1": {
     "senseVersion": 1,
     "words": [
       "別れる",
-      "分裂"
+      "隔てる"
     ]
   },
   "sense-AbsoluteVerb_621-1": {
     "senseVersion": 1,
     "words": [
-      "傾ける",
-      "傾斜"
+      "曲げる"
     ]
   },
   "sense-AbsoluteVerb_622-1": {
@@ -3272,6 +3787,12 @@ export const hintConfusions: HintConfusions = {
       "受け止める"
     ]
   },
+  "sense-AbsoluteVerb_627-1": {
+    "senseVersion": 1,
+    "words": [
+      "いらっしゃる"
+    ]
+  },
   "sense-AbsoluteVerb_628-1": {
     "senseVersion": 1,
     "words": [
@@ -3291,6 +3812,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "話す",
       "示す"
+    ]
+  },
+  "sense-AbsoluteVerb_630-1": {
+    "senseVersion": 1,
+    "words": [
+      "いたす"
     ]
   },
   "sense-AbsoluteVerb_631-1": {
@@ -3328,11 +3855,39 @@ export const hintConfusions: HintConfusions = {
       "見る"
     ]
   },
+  "sense-AbsoluteVerb_636-1": {
+    "senseVersion": 1,
+    "words": [
+      "付き合う"
+    ]
+  },
+  "sense-AbsoluteVerb_637-1": {
+    "senseVersion": 1,
+    "words": [
+      "別れる"
+    ]
+  },
+  "sense-AbsoluteVerb_638-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_639-1": {
+    "senseVersion": 1,
+    "words": [
+      "掃除する"
+    ]
+  },
   "sense-AbsoluteVerb_64-1": {
     "senseVersion": 1,
     "words": [
       "しゃべる",
       "言う"
+    ]
+  },
+  "sense-AbsoluteVerb_640-1": {
+    "senseVersion": 1,
+    "words": [
+      "片付ける"
     ]
   },
   "sense-AbsoluteVerb_641-1": {
@@ -3349,11 +3904,71 @@ export const hintConfusions: HintConfusions = {
       "準備する"
     ]
   },
+  "sense-AbsoluteVerb_643-1": {
+    "senseVersion": 1,
+    "words": [
+      "備える"
+    ]
+  },
+  "sense-AbsoluteVerb_644-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_645-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_646-1": {
+    "senseVersion": 1,
+    "words": [
+      "習う"
+    ]
+  },
+  "sense-AbsoluteVerb_647-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_648-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_649-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行する"
+    ]
+  },
   "sense-AbsoluteVerb_65-1": {
     "senseVersion": 1,
     "words": [
       "ささやく",
       "愚痴"
+    ]
+  },
+  "sense-AbsoluteVerb_650-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_651-1": {
+    "senseVersion": 1,
+    "words": [
+      "退学する"
+    ]
+  },
+  "sense-AbsoluteVerb_652-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_653-1": {
+    "senseVersion": 1,
+    "words": [
+      "相談する"
+    ]
+  },
+  "sense-AbsoluteVerb_654-1": {
+    "senseVersion": 1,
+    "words": [
+      "報告する"
     ]
   },
   "sense-AbsoluteVerb_655-1": {
@@ -3363,19 +3978,143 @@ export const hintConfusions: HintConfusions = {
       "分かる"
     ]
   },
+  "sense-AbsoluteVerb_656-1": {
+    "senseVersion": 1,
+    "words": [
+      "働く"
+    ]
+  },
+  "sense-AbsoluteVerb_657-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行する"
+    ]
+  },
+  "sense-AbsoluteVerb_658-1": {
+    "senseVersion": 1,
+    "words": [
+      "参加する"
+    ]
+  },
+  "sense-AbsoluteVerb_659-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_66-1": {
+    "senseVersion": 1,
+    "words": [
+      "つぶやく"
+    ]
+  },
+  "sense-AbsoluteVerb_660-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_661-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_662-1": {
+    "senseVersion": 1,
+    "words": [
+      "間違える"
+    ]
+  },
+  "sense-AbsoluteVerb_663-1": {
+    "senseVersion": 1,
+    "words": [
+      "断る"
+    ]
+  },
+  "sense-AbsoluteVerb_664-1": {
+    "senseVersion": 1,
+    "words": [
+      "備える"
+    ]
+  },
+  "sense-AbsoluteVerb_665-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_666-1": {
+    "senseVersion": 1,
+    "words": [
+      "出張する"
+    ]
+  },
+  "sense-AbsoluteVerb_667-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_668-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_669-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_67-1": {
+    "senseVersion": 1,
+    "words": [
+      "噛む"
+    ]
+  },
+  "sense-AbsoluteVerb_670-1": {
+    "senseVersion": 1,
+    "words": [
+      "出席する"
+    ]
+  },
   "sense-AbsoluteVerb_671-1": {
     "senseVersion": 1,
     "words": [
-      "試す",
-      "挑む"
+      "試す"
+    ]
+  },
+  "sense-AbsoluteVerb_672-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明する"
+    ]
+  },
+  "sense-AbsoluteVerb_673-1": {
+    "senseVersion": 1,
+    "words": [
+      "見学する"
+    ]
+  },
+  "sense-AbsoluteVerb_674-1": {
+    "senseVersion": 1,
+    "words": [
+      "知る"
+    ]
+  },
+  "sense-AbsoluteVerb_675-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_676-1": {
+    "senseVersion": 1,
+    "words": [
+      "連絡する"
+    ]
+  },
+  "sense-AbsoluteVerb_677-1": {
+    "senseVersion": 1,
+    "words": [
+      "報告する"
+    ]
+  },
+  "sense-AbsoluteVerb_678-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定する"
     ]
   },
   "sense-AbsoluteVerb_679-1": {
     "senseVersion": 1,
-    "words": [
-      "出掛ける",
-      "出勤する"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_68-1": {
     "senseVersion": 1,
@@ -3384,19 +4123,61 @@ export const hintConfusions: HintConfusions = {
       "連絡"
     ]
   },
+  "sense-AbsoluteVerb_680-1": {
+    "senseVersion": 1,
+    "words": [
+      "飲む"
+    ]
+  },
+  "sense-AbsoluteVerb_681-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰る"
+    ]
+  },
   "sense-AbsoluteVerb_682-1": {
     "senseVersion": 1,
     "words": [
-      "決める",
       "検討する"
     ]
   },
-  "sense-AbsoluteVerb_689-1": {
+  "sense-AbsoluteVerb_683-1": {
     "senseVersion": 1,
     "words": [
-      "通訳する",
-      "訳す"
+      "頼む"
     ]
+  },
+  "sense-AbsoluteVerb_684-1": {
+    "senseVersion": 1,
+    "words": [
+      "働く"
+    ]
+  },
+  "sense-AbsoluteVerb_685-1": {
+    "senseVersion": 1,
+    "words": [
+      "答える"
+    ]
+  },
+  "sense-AbsoluteVerb_686-1": {
+    "senseVersion": 1,
+    "words": [
+      "配信する"
+    ]
+  },
+  "sense-AbsoluteVerb_687-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗る"
+    ]
+  },
+  "sense-AbsoluteVerb_688-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_689-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_69-1": {
     "senseVersion": 1,
@@ -3408,16 +4189,58 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_690-1": {
     "senseVersion": 1,
     "words": [
-      "印刷する",
-      "本を出す"
+      "印刷する"
+    ]
+  },
+  "sense-AbsoluteVerb_691-1": {
+    "senseVersion": 1,
+    "words": [
+      "診察する"
     ]
   },
   "sense-AbsoluteVerb_692-1": {
     "senseVersion": 1,
     "words": [
-      "考える",
-      "工夫"
+      "考える"
     ]
+  },
+  "sense-AbsoluteVerb_693-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_694-1": {
+    "senseVersion": 1,
+    "words": [
+      "耐える"
+    ]
+  },
+  "sense-AbsoluteVerb_695-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明する"
+    ]
+  },
+  "sense-AbsoluteVerb_696-1": {
+    "senseVersion": 1,
+    "words": [
+      "数える"
+    ]
+  },
+  "sense-AbsoluteVerb_697-1": {
+    "senseVersion": 1,
+    "words": [
+      "招待する"
+    ]
+  },
+  "sense-AbsoluteVerb_698-1": {
+    "senseVersion": 1,
+    "words": [
+      "育てる"
+    ]
+  },
+  "sense-AbsoluteVerb_699-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_7-1": {
     "senseVersion": 1,
@@ -3426,10 +4249,21 @@ export const hintConfusions: HintConfusions = {
       "閉じる"
     ]
   },
+  "sense-AbsoluteVerb_70-1": {
+    "senseVersion": 1,
+    "words": [
+      "静まる"
+    ]
+  },
+  "sense-AbsoluteVerb_700-1": {
+    "senseVersion": 1,
+    "words": [
+      "壊れる"
+    ]
+  },
   "sense-AbsoluteVerb_701-1": {
     "senseVersion": 1,
     "words": [
-      "修正する",
       "直す"
     ]
   },
@@ -3440,18 +4274,51 @@ export const hintConfusions: HintConfusions = {
       "まとめる"
     ]
   },
-  "sense-AbsoluteVerb_709-1": {
+  "sense-AbsoluteVerb_703-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_704-1": {
     "senseVersion": 1,
     "words": [
-      "確かめる",
-      "承認する"
+      "確認する"
     ]
+  },
+  "sense-AbsoluteVerb_705-1": {
+    "senseVersion": 1,
+    "words": [
+      "思い出す"
+    ]
+  },
+  "sense-AbsoluteVerb_706-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_707-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想する"
+    ]
+  },
+  "sense-AbsoluteVerb_708-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_709-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_71-1": {
     "senseVersion": 1,
     "words": [
       "吊る",
       "下げる"
+    ]
+  },
+  "sense-AbsoluteVerb_71-2": {
+    "senseVersion": 1,
+    "words": [
+      "受ける"
     ]
   },
   "sense-AbsoluteVerb_71-3": {
@@ -3468,6 +4335,22 @@ export const hintConfusions: HintConfusions = {
       "保つ"
     ]
   },
+  "sense-AbsoluteVerb_711-1": {
+    "senseVersion": 1,
+    "words": [
+      "一致する"
+    ]
+  },
+  "sense-AbsoluteVerb_712-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_713-1": {
+    "senseVersion": 1,
+    "words": [
+      "住む"
+    ]
+  },
   "sense-AbsoluteVerb_714-1": {
     "senseVersion": 1,
     "words": [
@@ -3475,32 +4358,59 @@ export const hintConfusions: HintConfusions = {
       "構える"
     ]
   },
+  "sense-AbsoluteVerb_715-1": {
+    "senseVersion": 1,
+    "words": [
+      "成長する"
+    ]
+  },
+  "sense-AbsoluteVerb_716-1": {
+    "senseVersion": 1,
+    "words": [
+      "質問する"
+    ]
+  },
+  "sense-AbsoluteVerb_717-1": {
+    "senseVersion": 1,
+    "words": [
+      "同意する"
+    ]
+  },
+  "sense-AbsoluteVerb_718-1": {
+    "senseVersion": 1,
+    "words": [
+      "断る"
+    ]
+  },
   "sense-AbsoluteVerb_719-1": {
     "senseVersion": 1,
     "words": [
-      "努力する",
-      "苦しむ"
+      "努力する"
     ]
   },
   "sense-AbsoluteVerb_72-1": {
     "senseVersion": 1,
     "words": [
-      "掛ける",
-      "引っかかる"
+      "引っかかる",
+      "罹る"
     ]
   },
   "sense-AbsoluteVerb_720-1": {
     "senseVersion": 1,
     "words": [
-      "招く",
       "呼ぶ"
     ]
   },
   "sense-AbsoluteVerb_721-1": {
     "senseVersion": 1,
     "words": [
-      "真似る",
       "参考にする"
+    ]
+  },
+  "sense-AbsoluteVerb_722-1": {
+    "senseVersion": 1,
+    "words": [
+      "好きだ"
     ]
   },
   "sense-AbsoluteVerb_723-1": {
@@ -3510,11 +4420,29 @@ export const hintConfusions: HintConfusions = {
       "一貫する"
     ]
   },
+  "sense-AbsoluteVerb_724-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心する"
+    ]
+  },
   "sense-AbsoluteVerb_725-1": {
     "senseVersion": 1,
     "words": [
       "気にする",
       "案じる"
+    ]
+  },
+  "sense-AbsoluteVerb_726-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぞくぞくする"
+    ]
+  },
+  "sense-AbsoluteVerb_727-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずきずきする"
     ]
   },
   "sense-AbsoluteVerb_728-1": {
@@ -3524,11 +4452,17 @@ export const hintConfusions: HintConfusions = {
       "がんがんする"
     ]
   },
+  "sense-AbsoluteVerb_729-1": {
+    "senseVersion": 1,
+    "words": [
+      "ずきずきする"
+    ]
+  },
   "sense-AbsoluteVerb_73-1": {
     "senseVersion": 1,
     "words": [
       "貼る",
-      "付く"
+      "着ける"
     ]
   },
   "sense-AbsoluteVerb_730-1": {
@@ -3536,6 +4470,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "ちくちくする",
       "ずきずきする"
+    ]
+  },
+  "sense-AbsoluteVerb_731-1": {
+    "senseVersion": 1,
+    "words": [
+      "ごつごつする"
+    ]
+  },
+  "sense-AbsoluteVerb_732-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぬるぬるする"
     ]
   },
   "sense-AbsoluteVerb_733-1": {
@@ -3559,11 +4505,46 @@ export const hintConfusions: HintConfusions = {
       "あっさりする"
     ]
   },
+  "sense-AbsoluteVerb_736-1": {
+    "senseVersion": 1,
+    "words": [
+      "のろのろする"
+    ]
+  },
+  "sense-AbsoluteVerb_737-1": {
+    "senseVersion": 1,
+    "words": [
+      "だらだらする"
+    ]
+  },
+  "sense-AbsoluteVerb_738-1": {
+    "senseVersion": 1,
+    "words": [
+      "似合う"
+    ]
+  },
+  "sense-AbsoluteVerb_739-1": {
+    "senseVersion": 1,
+    "words": [
+      "重い"
+    ]
+  },
   "sense-AbsoluteVerb_74-1": {
     "senseVersion": 1,
     "words": [
-      "点く",
       "輝く"
+    ]
+  },
+  "sense-AbsoluteVerb_740-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぶらぶらする"
+    ]
+  },
+  "sense-AbsoluteVerb_741-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆっくりする"
     ]
   },
   "sense-AbsoluteVerb_742-1": {
@@ -3573,11 +4554,35 @@ export const hintConfusions: HintConfusions = {
       "くたびれる"
     ]
   },
+  "sense-AbsoluteVerb_743-1": {
+    "senseVersion": 1,
+    "words": [
+      "忘れる"
+    ]
+  },
+  "sense-AbsoluteVerb_744-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぐずぐずする"
+    ]
+  },
   "sense-AbsoluteVerb_745-1": {
     "senseVersion": 1,
     "words": [
       "心強い",
       "硬い"
+    ]
+  },
+  "sense-AbsoluteVerb_746-1": {
+    "senseVersion": 1,
+    "words": [
+      "失望する"
+    ]
+  },
+  "sense-AbsoluteVerb_747-1": {
+    "senseVersion": 1,
+    "words": [
+      "ときめく"
     ]
   },
   "sense-AbsoluteVerb_748-1": {
@@ -3587,11 +4592,65 @@ export const hintConfusions: HintConfusions = {
       "どきどきする"
     ]
   },
+  "sense-AbsoluteVerb_749-1": {
+    "senseVersion": 1,
+    "words": [
+      "どきどきする"
+    ]
+  },
   "sense-AbsoluteVerb_75-1": {
     "senseVersion": 1,
     "words": [
       "削除する",
-      "打ち消す"
+      "片付ける"
+    ]
+  },
+  "sense-AbsoluteVerb_750-1": {
+    "senseVersion": 1,
+    "words": [
+      "いらいらする"
+    ]
+  },
+  "sense-AbsoluteVerb_751-1": {
+    "senseVersion": 1,
+    "words": [
+      "飽きる"
+    ]
+  },
+  "sense-AbsoluteVerb_752-1": {
+    "senseVersion": 1,
+    "words": [
+      "焦る"
+    ]
+  },
+  "sense-AbsoluteVerb_753-1": {
+    "senseVersion": 1,
+    "words": [
+      "さっぱりする"
+    ]
+  },
+  "sense-AbsoluteVerb_754-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心する"
+    ]
+  },
+  "sense-AbsoluteVerb_755-1": {
+    "senseVersion": 1,
+    "words": [
+      "びっくりする"
+    ]
+  },
+  "sense-AbsoluteVerb_756-1": {
+    "senseVersion": 1,
+    "words": [
+      "匂いがする"
+    ]
+  },
+  "sense-AbsoluteVerb_757-1": {
+    "senseVersion": 1,
+    "words": [
+      "味がする"
     ]
   },
   "sense-AbsoluteVerb_758-1": {
@@ -3601,11 +4660,23 @@ export const hintConfusions: HintConfusions = {
       "匂う"
     ]
   },
+  "sense-AbsoluteVerb_759-1": {
+    "senseVersion": 1,
+    "words": [
+      "声がする"
+    ]
+  },
   "sense-AbsoluteVerb_76-1": {
     "senseVersion": 1,
     "words": [
-      "開く",
-      "広げる"
+      "広げる",
+      "催す"
+    ]
+  },
+  "sense-AbsoluteVerb_760-1": {
+    "senseVersion": 1,
+    "words": [
+      "音がする"
     ]
   },
   "sense-AbsoluteVerb_761-1": {
@@ -3629,46 +4700,217 @@ export const hintConfusions: HintConfusions = {
       "感じがする"
     ]
   },
+  "sense-AbsoluteVerb_764-1": {
+    "senseVersion": 1,
+    "words": [
+      "気がする"
+    ]
+  },
+  "sense-AbsoluteVerb_765-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_766-1": {
+    "senseVersion": 1,
+    "words": [
+      "頭が痛い"
+    ]
+  },
+  "sense-AbsoluteVerb_767-1": {
+    "senseVersion": 1,
+    "words": [
+      "めまいがする"
+    ]
+  },
+  "sense-AbsoluteVerb_768-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_769-1": {
+    "senseVersion": 1,
+    "words": [
+      "音がする"
+    ]
+  },
   "sense-AbsoluteVerb_77-1": {
     "senseVersion": 1,
     "words": [
-      "開ける",
       "広げる"
     ]
+  },
+  "sense-AbsoluteVerb_770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_771-1": {
+    "senseVersion": 1,
+    "words": [
+      "色をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_772-1": {
+    "senseVersion": 1,
+    "words": [
+      "色をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_773-1": {
+    "senseVersion": 1,
+    "words": [
+      "服を着ている"
+    ]
+  },
+  "sense-AbsoluteVerb_774-1": {
+    "senseVersion": 1,
+    "words": [
+      "表情をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_775-1": {
+    "senseVersion": 1,
+    "words": [
+      "格好をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_776-1": {
+    "senseVersion": 1,
+    "words": [
+      "格好をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_777-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_778-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_779-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_78-1": {
     "senseVersion": 1,
     "words": [
       "締める",
-      "閉じる"
+      "畳む"
+    ]
+  },
+  "sense-AbsoluteVerb_780-1": {
+    "senseVersion": 1,
+    "words": [
+      "顔をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_781-1": {
+    "senseVersion": 1,
+    "words": [
+      "表情をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_782-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_783-1": {
+    "senseVersion": 1,
+    "words": [
+      "形をしている"
+    ]
+  },
+  "sense-AbsoluteVerb_784-1": {
+    "senseVersion": 1,
+    "words": [
+      "ピザを買う"
     ]
   },
   "sense-AbsoluteVerb_785-1": {
     "senseVersion": 1,
-    "words": [
-      "休む",
-      "休みを取る"
-    ]
+    "words": []
   },
   "sense-AbsoluteVerb_786-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_787-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_788-1": {
+    "senseVersion": 1,
     "words": [
-      "休む",
-      "休暇を取る"
+      "育つ"
     ]
+  },
+  "sense-AbsoluteVerb_789-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_79-1": {
     "senseVersion": 1,
     "words": [
-      "閉める",
-      "閉じる"
+      "畳む"
+    ]
+  },
+  "sense-AbsoluteVerb_790-1": {
+    "senseVersion": 1,
+    "words": [
+      "スープを作る"
+    ]
+  },
+  "sense-AbsoluteVerb_791-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_792-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_793-1": {
+    "senseVersion": 1,
+    "words": [
+      "横になる"
+    ]
+  },
+  "sense-AbsoluteVerb_794-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_795-1": {
+    "senseVersion": 1,
+    "words": [
+      "就職する"
+    ]
+  },
+  "sense-AbsoluteVerb_796-1": {
+    "senseVersion": 1,
+    "words": [
+      "腕を組む"
     ]
   },
   "sense-AbsoluteVerb_797-1": {
     "senseVersion": 1,
     "words": [
-      "責任がある",
       "負う"
+    ]
+  },
+  "sense-AbsoluteVerb_798-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵を描く"
+    ]
+  },
+  "sense-AbsoluteVerb_799-1": {
+    "senseVersion": 1,
+    "words": [
+      "投票する"
+    ]
+  },
+  "sense-AbsoluteVerb_8-1": {
+    "senseVersion": 1,
+    "words": [
+      "拭く"
     ]
   },
   "sense-AbsoluteVerb_80-1": {
@@ -3676,6 +4918,50 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "つかむ",
       "選ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_800-1": {
+    "senseVersion": 1,
+    "words": [
+      "カードを配る"
+    ]
+  },
+  "sense-AbsoluteVerb_801-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_802-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_803-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_804-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_805-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_806-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_807-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_808-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_809-1": {
+    "senseVersion": 1,
+    "words": [
+      "銃を構える"
     ]
   },
   "sense-AbsoluteVerb_81-1": {
@@ -3691,25 +4977,57 @@ export const hintConfusions: HintConfusions = {
       "有する"
     ]
   },
-  "sense-AbsoluteVerb_814-1": {
+  "sense-AbsoluteVerb_810-1": {
     "senseVersion": 1,
     "words": [
-      "本を書く",
-      "出版する"
+      "ピアノをたたく"
     ]
+  },
+  "sense-AbsoluteVerb_811-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_812-1": {
+    "senseVersion": 1,
+    "words": [
+      "指示する"
+    ]
+  },
+  "sense-AbsoluteVerb_813-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_814-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_815-1": {
     "senseVersion": 1,
     "words": [
-      "顔を見せる",
-      "出る"
+      "寄る"
     ]
+  },
+  "sense-AbsoluteVerb_816-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_817-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_818-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_819-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_82-1": {
     "senseVersion": 1,
     "words": [
       "引く",
-      "押さえる"
+      "寄せる"
     ]
   },
   "sense-AbsoluteVerb_820-1": {
@@ -3719,12 +5037,52 @@ export const hintConfusions: HintConfusions = {
       "始める"
     ]
   },
+  "sense-AbsoluteVerb_821-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_822-1": {
     "senseVersion": 1,
     "words": [
       "くたびれる",
       "疲れる"
     ]
+  },
+  "sense-AbsoluteVerb_823-1": {
+    "senseVersion": 1,
+    "words": [
+      "励ます"
+    ]
+  },
+  "sense-AbsoluteVerb_824-1": {
+    "senseVersion": 1,
+    "words": [
+      "話す"
+    ]
+  },
+  "sense-AbsoluteVerb_825-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_826-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_827-1": {
+    "senseVersion": 1,
+    "words": [
+      "煙が出る"
+    ]
+  },
+  "sense-AbsoluteVerb_828-1": {
+    "senseVersion": 1,
+    "words": [
+      "海が荒れる"
+    ]
+  },
+  "sense-AbsoluteVerb_829-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_83-1": {
     "senseVersion": 1,
@@ -3733,6 +5091,30 @@ export const hintConfusions: HintConfusions = {
       "下げる"
     ]
   },
+  "sense-AbsoluteVerb_830-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_831-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_832-1": {
+    "senseVersion": 1,
+    "words": [
+      "怒る"
+    ]
+  },
+  "sense-AbsoluteVerb_833-1": {
+    "senseVersion": 1,
+    "words": [
+      "恥ずかしい"
+    ]
+  },
+  "sense-AbsoluteVerb_834-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_835-1": {
     "senseVersion": 1,
     "words": [
@@ -3740,18 +5122,74 @@ export const hintConfusions: HintConfusions = {
       "助かる"
     ]
   },
+  "sense-AbsoluteVerb_836-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぞっとする"
+    ]
+  },
+  "sense-AbsoluteVerb_837-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_838-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボタンを留める"
+    ]
+  },
+  "sense-AbsoluteVerb_839-1": {
+    "senseVersion": 1,
+    "words": [
+      "カーテンを閉める"
+    ]
+  },
   "sense-AbsoluteVerb_84-1": {
     "senseVersion": 1,
     "words": [
-      "引く",
-      "引きずる"
+      "伸びる",
+      "率いる"
     ]
+  },
+  "sense-AbsoluteVerb_840-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_841-1": {
+    "senseVersion": 1,
+    "words": [
+      "予定を書く"
+    ]
+  },
+  "sense-AbsoluteVerb_842-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_843-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_844-1": {
     "senseVersion": 1,
     "words": [
       "覚える",
       "学ぶ"
+    ]
+  },
+  "sense-AbsoluteVerb_845-1": {
+    "senseVersion": 1,
+    "words": [
+      "取り掛かる"
+    ]
+  },
+  "sense-AbsoluteVerb_846-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_847-1": {
+    "senseVersion": 1,
+    "words": [
+      "原因を探る"
     ]
   },
   "sense-AbsoluteVerb_848-1": {
@@ -3761,11 +5199,17 @@ export const hintConfusions: HintConfusions = {
       "助かる"
     ]
   },
+  "sense-AbsoluteVerb_849-1": {
+    "senseVersion": 1,
+    "words": [
+      "役に立つ"
+    ]
+  },
   "sense-AbsoluteVerb_85-1": {
     "senseVersion": 1,
     "words": [
-      "押す",
-      "抑える"
+      "抑える",
+      "取る"
     ]
   },
   "sense-AbsoluteVerb_850-1": {
@@ -3778,15 +5222,48 @@ export const hintConfusions: HintConfusions = {
   "sense-AbsoluteVerb_851-1": {
     "senseVersion": 1,
     "words": [
-      "邪魔をする",
       "障る"
+    ]
+  },
+  "sense-AbsoluteVerb_852-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_853-1": {
+    "senseVersion": 1,
+    "words": [
+      "中止になる"
+    ]
+  },
+  "sense-AbsoluteVerb_854-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_855-1": {
+    "senseVersion": 1,
+    "words": [
+      "けがをする"
+    ]
+  },
+  "sense-AbsoluteVerb_856-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_857-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_858-1": {
+    "senseVersion": 1,
+    "words": [
+      "完成する"
     ]
   },
   "sense-AbsoluteVerb_859-1": {
     "senseVersion": 1,
     "words": [
       "察する",
-      "気づく"
+      "悟る"
     ]
   },
   "sense-AbsoluteVerb_86-1": {
@@ -3796,26 +5273,61 @@ export const hintConfusions: HintConfusions = {
       "擦る（する）"
     ]
   },
+  "sense-AbsoluteVerb_861-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_862-1": {
     "senseVersion": 1,
     "words": [
-      "気になる",
-      "案じる"
+      "案じる",
+      "心配する"
     ]
   },
   "sense-AbsoluteVerb_864-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_865-1": {
+    "senseVersion": 1,
     "words": [
-      "短気",
-      "気が荒い"
+      "のんびりしている"
     ]
+  },
+  "sense-AbsoluteVerb_866-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_867-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-AbsoluteVerb_868-1": {
+    "senseVersion": 1,
+    "words": [
+      "できない"
+    ]
+  },
+  "sense-AbsoluteVerb_869-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_87-1": {
     "senseVersion": 1,
     "words": [
       "揺らす",
-      "振動"
+      "揺らぐ"
     ]
+  },
+  "sense-AbsoluteVerb_870-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心する"
+    ]
+  },
+  "sense-AbsoluteVerb_871-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-AbsoluteVerb_88-1": {
     "senseVersion": 1,
@@ -3873,6 +5385,10 @@ export const hintConfusions: HintConfusions = {
       "打つ（うつ）"
     ]
   },
+  "sense-AbsoluteVerb_95-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-AbsoluteVerb_96-1": {
     "senseVersion": 1,
     "words": [
@@ -3901,25 +5417,46 @@ export const hintConfusions: HintConfusions = {
       "曲がる"
     ]
   },
+  "sense-handmade_1-1": {
+    "senseVersion": 1,
+    "words": [
+      "する"
+    ]
+  },
+  "sense-handmade_10-1": {
+    "senseVersion": 1,
+    "words": [
+      "あなた"
+    ]
+  },
+  "sense-handmade_100-1": {
+    "senseVersion": 1,
+    "words": [
+      "どなた"
+    ]
+  },
   "sense-handmade_101-1": {
     "senseVersion": 1,
     "words": [
-      "事故",
-      "紛争"
+      "紛争",
+      "困難"
+    ]
+  },
+  "sense-handmade_102-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果"
     ]
   },
   "sense-handmade_103-1": {
     "senseVersion": 1,
-    "words": [
-      "本音",
-      "心情"
-    ]
+    "words": []
   },
   "sense-handmade_104-1": {
     "senseVersion": 1,
     "words": [
-      "会話",
-      "会見"
+      "集まり",
+      "集合"
     ]
   },
   "sense-handmade_105-1": {
@@ -3939,22 +5476,43 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_107-1": {
     "senseVersion": 1,
     "words": [
-      "作家",
-      "作者"
+      "作家"
     ]
   },
   "sense-handmade_108-1": {
     "senseVersion": 1,
     "words": [
-      "間違う",
-      "異なる"
+      "異なる",
+      "狂う"
     ]
+  },
+  "sense-handmade_109-1": {
+    "senseVersion": 1,
+    "words": [
+      "舞台"
+    ]
+  },
+  "sense-handmade_11-1": {
+    "senseVersion": 1,
+    "words": [
+      "深い"
+    ]
+  },
+  "sense-handmade_110-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_111-1": {
     "senseVersion": 1,
     "words": [
       "心配",
       "過労"
+    ]
+  },
+  "sense-handmade_112-1": {
+    "senseVersion": 1,
+    "words": [
+      "あだ名"
     ]
   },
   "sense-handmade_113-1": {
@@ -3967,29 +5525,32 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_114-1": {
     "senseVersion": 1,
     "words": [
-      "遠方",
       "向こう"
     ]
   },
   "sense-handmade_115-1": {
     "senseVersion": 1,
     "words": [
-      "傾く",
-      "傾斜"
+      "偏る",
+      "曲げる"
     ]
   },
   "sense-handmade_116-1": {
     "senseVersion": 1,
     "words": [
       "利用する",
-      "使用"
+      "利用"
     ]
+  },
+  "sense-handmade_117-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_118-1": {
     "senseVersion": 1,
     "words": [
-      "入れる",
-      "上がる"
+      "上がる",
+      "収まる"
     ]
   },
   "sense-handmade_119-1": {
@@ -3999,6 +5560,10 @@ export const hintConfusions: HintConfusions = {
       "離れる"
     ]
   },
+  "sense-handmade_12-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-handmade_120-1": {
     "senseVersion": 1,
     "words": [
@@ -4006,18 +5571,43 @@ export const hintConfusions: HintConfusions = {
       "場所"
     ]
   },
+  "sense-handmade_121-1": {
+    "senseVersion": 1,
+    "words": [
+      "戸"
+    ]
+  },
+  "sense-handmade_122-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_123-1": {
+    "senseVersion": 1,
+    "words": [
+      "金庫"
+    ]
+  },
+  "sense-handmade_124-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_125-1": {
+    "senseVersion": 1,
+    "words": [
+      "資格"
+    ]
+  },
   "sense-handmade_126-1": {
     "senseVersion": 1,
     "words": [
-      "後",
-      "裏"
+      "裏",
+      "裏側"
     ]
   },
   "sense-handmade_127-1": {
     "senseVersion": 1,
     "words": [
-      "値段",
-      "額"
+      "値段"
     ]
   },
   "sense-handmade_128-1": {
@@ -4041,6 +5631,16 @@ export const hintConfusions: HintConfusions = {
       "姿"
     ]
   },
+  "sense-handmade_130-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_131-1": {
+    "senseVersion": 1,
+    "words": [
+      "書類"
+    ]
+  },
   "sense-handmade_132-1": {
     "senseVersion": 1,
     "words": [
@@ -4048,11 +5648,17 @@ export const hintConfusions: HintConfusions = {
       "記事"
     ]
   },
+  "sense-handmade_133-1": {
+    "senseVersion": 1,
+    "words": [
+      "手"
+    ]
+  },
   "sense-handmade_134-1": {
     "senseVersion": 1,
     "words": [
-      "逃がす",
-      "失う"
+      "失う",
+      "見落とす"
     ]
   },
   "sense-handmade_135-1": {
@@ -4062,25 +5668,30 @@ export const hintConfusions: HintConfusions = {
       "鍵"
     ]
   },
+  "sense-handmade_136-1": {
+    "senseVersion": 1,
+    "words": [
+      "公務員"
+    ]
+  },
   "sense-handmade_137-1": {
     "senseVersion": 1,
     "words": [
-      "大きい",
-      "巨大"
+      "甚だしい",
+      "物凄い"
     ]
   },
   "sense-handmade_138-1": {
     "senseVersion": 1,
     "words": [
-      "権威",
-      "権限"
+      "支配"
     ]
   },
   "sense-handmade_139-1": {
     "senseVersion": 1,
     "words": [
-      "部長",
-      "監督"
+      "監督",
+      "主任"
     ]
   },
   "sense-handmade_14-1": {
@@ -4093,15 +5704,22 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_140-1": {
     "senseVersion": 1,
     "words": [
-      "道",
       "高速"
     ]
+  },
+  "sense-handmade_141-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_142-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_143-1": {
     "senseVersion": 1,
     "words": [
       "薄い",
-      "気軽"
+      "小さい"
     ]
   },
   "sense-handmade_144-1": {
@@ -4114,8 +5732,7 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_145-1": {
     "senseVersion": 1,
     "words": [
-      "発酵",
-      "腐る"
+      "発酵"
     ]
   },
   "sense-handmade_146-1": {
@@ -4123,6 +5740,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "机",
       "テーブル"
+    ]
+  },
+  "sense-handmade_147-1": {
+    "senseVersion": 1,
+    "words": [
+      "蚊"
     ]
   },
   "sense-handmade_148-1": {
@@ -4135,22 +5758,24 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_149-1": {
     "senseVersion": 1,
     "words": [
-      "刺さる",
-      "打つ（うつ）"
+      "打つ（うつ）",
+      "押す"
     ]
   },
   "sense-handmade_15-1": {
     "senseVersion": 1,
     "words": [
-      "清掃",
-      "片付け"
+      "片付け",
+      "クリーニング"
     ]
+  },
+  "sense-handmade_150-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_151-1": {
     "senseVersion": 1,
-    "words": [
-      "課題"
-    ]
+    "words": []
   },
   "sense-handmade_152-1": {
     "senseVersion": 1,
@@ -4175,15 +5800,20 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_154-1": {
     "senseVersion": 1,
     "words": [
-      "辞典",
       "百科事典"
     ]
   },
   "sense-handmade_16-1": {
     "senseVersion": 1,
     "words": [
-      "戻る",
-      "返還"
+      "返還",
+      "還元"
+    ]
+  },
+  "sense-handmade_17-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゆっくり"
     ]
   },
   "sense-handmade_18-1": {
@@ -4228,11 +5858,45 @@ export const hintConfusions: HintConfusions = {
       "食堂"
     ]
   },
+  "sense-handmade_23-1": {
+    "senseVersion": 1,
+    "words": [
+      "髪"
+    ]
+  },
   "sense-handmade_24-1": {
     "senseVersion": 1,
     "words": [
       "毛"
     ]
+  },
+  "sense-handmade_25-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボート"
+    ]
+  },
+  "sense-handmade_26-1": {
+    "senseVersion": 1,
+    "words": [
+      "台風"
+    ]
+  },
+  "sense-handmade_27-1": {
+    "senseVersion": 1,
+    "words": [
+      "西"
+    ]
+  },
+  "sense-handmade_28-1": {
+    "senseVersion": 1,
+    "words": [
+      "東"
+    ]
+  },
+  "sense-handmade_29-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_3-1": {
     "senseVersion": 1,
@@ -4241,12 +5905,22 @@ export const hintConfusions: HintConfusions = {
       "自慢する"
     ]
   },
+  "sense-handmade_30-1": {
+    "senseVersion": 1,
+    "words": [
+      "南"
+    ]
+  },
   "sense-handmade_31-1": {
     "senseVersion": 1,
     "words": [
-      "外出",
-      "表面"
+      "表面",
+      "表（おもて）"
     ]
+  },
+  "sense-handmade_32-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_33-1": {
     "senseVersion": 1,
@@ -4262,25 +5936,55 @@ export const hintConfusions: HintConfusions = {
       "袋"
     ]
   },
+  "sense-handmade_35-1": {
+    "senseVersion": 1,
+    "words": [
+      "目"
+    ]
+  },
   "sense-handmade_36-1": {
     "senseVersion": 1,
     "words": [
       "テスト",
-      "実験"
+      "検査"
     ]
   },
   "sense-handmade_37-1": {
     "senseVersion": 1,
     "words": [
-      "受け取る",
-      "取り上げる"
+      "入れる"
+    ]
+  },
+  "sense-handmade_38-1": {
+    "senseVersion": 1,
+    "words": [
+      "水道"
     ]
   },
   "sense-handmade_39-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_4-1": {
+    "senseVersion": 1,
     "words": [
-      "課題",
-      "問い"
+      "痛む"
+    ]
+  },
+  "sense-handmade_40-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_41-1": {
+    "senseVersion": 1,
+    "words": [
+      "停留所"
+    ]
+  },
+  "sense-handmade_42-1": {
+    "senseVersion": 1,
+    "words": [
+      "米"
     ]
   },
   "sense-handmade_42-2": {
@@ -4303,6 +6007,12 @@ export const hintConfusions: HintConfusions = {
       "教育"
     ]
   },
+  "sense-handmade_45-1": {
+    "senseVersion": 1,
+    "words": [
+      "雑誌"
+    ]
+  },
   "sense-handmade_46-1": {
     "senseVersion": 1,
     "words": [
@@ -4310,11 +6020,21 @@ export const hintConfusions: HintConfusions = {
       "宛名"
     ]
   },
+  "sense-handmade_47-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-handmade_48-1": {
     "senseVersion": 1,
     "words": [
       "数字",
       "数"
+    ]
+  },
+  "sense-handmade_49-1": {
+    "senseVersion": 1,
+    "words": [
+      "書く"
     ]
   },
   "sense-handmade_5-1": {
@@ -4338,10 +6058,15 @@ export const hintConfusions: HintConfusions = {
       "不思議"
     ]
   },
+  "sense-handmade_52-1": {
+    "senseVersion": 1,
+    "words": [
+      "香り"
+    ]
+  },
   "sense-handmade_53-1": {
     "senseVersion": 1,
     "words": [
-      "赤ん坊",
       "子ども"
     ]
   },
@@ -4366,11 +6091,26 @@ export const hintConfusions: HintConfusions = {
       "蓄積"
     ]
   },
+  "sense-handmade_57-1": {
+    "senseVersion": 1,
+    "words": [
+      "炒める"
+    ]
+  },
+  "sense-handmade_58-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-handmade_59-1": {
     "senseVersion": 1,
     "words": [
-      "自動車",
-      "自転車"
+      "乗り物"
+    ]
+  },
+  "sense-handmade_6-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾く"
     ]
   },
   "sense-handmade_60-1": {
@@ -4380,11 +6120,51 @@ export const hintConfusions: HintConfusions = {
       "受け取る"
     ]
   },
+  "sense-handmade_61-1": {
+    "senseVersion": 1,
+    "words": [
+      "池"
+    ]
+  },
+  "sense-handmade_62-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-handmade_63-1": {
     "senseVersion": 1,
     "words": [
-      "決定する",
-      "決まる"
+      "選ぶ",
+      "志す"
+    ]
+  },
+  "sense-handmade_64-1": {
+    "senseVersion": 1,
+    "words": [
+      "テーブル"
+    ]
+  },
+  "sense-handmade_65-1": {
+    "senseVersion": 1,
+    "words": [
+      "角"
+    ]
+  },
+  "sense-handmade_66-1": {
+    "senseVersion": 1,
+    "words": [
+      "居眠り"
+    ]
+  },
+  "sense-handmade_67-1": {
+    "senseVersion": 1,
+    "words": [
+      "数字"
+    ]
+  },
+  "sense-handmade_68-1": {
+    "senseVersion": 1,
+    "words": [
+      "針"
     ]
   },
   "sense-handmade_69-1": {
@@ -4393,6 +6173,10 @@ export const hintConfusions: HintConfusions = {
       "背中",
       "ウエスト"
     ]
+  },
+  "sense-handmade_7-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_70-1": {
     "senseVersion": 1,
@@ -4405,28 +6189,48 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "物語",
-      "会話"
+      "言葉"
+    ]
+  },
+  "sense-handmade_72-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_73-1": {
+    "senseVersion": 1,
+    "words": [
+      "将棋"
     ]
   },
   "sense-handmade_74-1": {
     "senseVersion": 1,
     "words": [
-      "成果",
-      "影響"
+      "影響",
+      "製品"
+    ]
+  },
+  "sense-handmade_75-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱心に"
     ]
   },
   "sense-handmade_76-1": {
     "senseVersion": 1,
     "words": [
       "前途",
-      "未来"
+      "希望"
     ]
+  },
+  "sense-handmade_77-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_78-1": {
     "senseVersion": 1,
     "words": [
-      "針路",
-      "職業"
+      "職業",
+      "道"
     ]
   },
   "sense-handmade_79-1": {
@@ -4439,9 +6243,12 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_8-1": {
     "senseVersion": 1,
     "words": [
-      "貴重品",
-      "宝"
+      "貴重品"
     ]
+  },
+  "sense-handmade_80-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-handmade_81-1": {
     "senseVersion": 1,
@@ -4459,9 +6266,12 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-handmade_83-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_84-1": {
+    "senseVersion": 1,
     "words": [
-      "祖父",
-      "祖先"
+      "旅行"
     ]
   },
   "sense-handmade_85-1": {
@@ -4475,34 +6285,52 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "私",
-      "自身"
+      "身"
     ]
   },
   "sense-handmade_87-1": {
     "senseVersion": 1,
     "words": [
-      "大事"
+      "重要だ"
     ]
   },
   "sense-handmade_88-1": {
     "senseVersion": 1,
     "words": [
       "髪",
-      "頭脳"
+      "知能"
+    ]
+  },
+  "sense-handmade_89-1": {
+    "senseVersion": 1,
+    "words": [
+      "解熱剤"
+    ]
+  },
+  "sense-handmade_9-1": {
+    "senseVersion": 1,
+    "words": [
+      "辛い"
     ]
   },
   "sense-handmade_90-1": {
     "senseVersion": 1,
     "words": [
       "野菜",
-      "果実"
+      "実"
     ]
   },
   "sense-handmade_91-1": {
     "senseVersion": 1,
     "words": [
-      "修正",
-      "調整"
+      "調整",
+      "整備"
+    ]
+  },
+  "sense-handmade_92-1": {
+    "senseVersion": 1,
+    "words": [
+      "天井"
     ]
   },
   "sense-handmade_93-1": {
@@ -4529,14 +6357,29 @@ export const hintConfusions: HintConfusions = {
   "sense-handmade_96-1": {
     "senseVersion": 1,
     "words": [
-      "寒い",
-      "冷淡"
+      "寒い"
+    ]
+  },
+  "sense-handmade_97-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-handmade_98-1": {
+    "senseVersion": 1,
+    "words": [
+      "水"
     ]
   },
   "sense-handmade_99-1": {
     "senseVersion": 1,
     "words": [
       "外す"
+    ]
+  },
+  "sense-JLPTN3_1-1": {
+    "senseVersion": 1,
+    "words": [
+      "疲れる"
     ]
   },
   "sense-JLPTN3_10-1": {
@@ -4548,10 +6391,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_100-1": {
     "senseVersion": 1,
-    "words": [
-      "冷やす",
-      "冷める"
-    ]
+    "words": []
   },
   "sense-JLPTN3_101-1": {
     "senseVersion": 1,
@@ -4574,6 +6414,12 @@ export const hintConfusions: HintConfusions = {
       "取り出す"
     ]
   },
+  "sense-JLPTN3_104-1": {
+    "senseVersion": 1,
+    "words": [
+      "磨く"
+    ]
+  },
   "sense-JLPTN3_105-1": {
     "senseVersion": 1,
     "words": [
@@ -4584,8 +6430,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_106-1": {
     "senseVersion": 1,
     "words": [
-      "触る",
-      "接する"
+      "接する",
+      "届く"
     ]
   },
   "sense-JLPTN3_107-1": {
@@ -4598,22 +6444,22 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_108-1": {
     "senseVersion": 1,
     "words": [
-      "曲がる",
-      "傾斜"
+      "傾斜",
+      "回す"
     ]
   },
   "sense-JLPTN3_109-1": {
     "senseVersion": 1,
     "words": [
-      "混ざる",
-      "合わせる"
+      "合わせる",
+      "交える"
     ]
   },
   "sense-JLPTN3_11-1": {
     "senseVersion": 1,
     "words": [
       "渡す",
-      "受け止める"
+      "承る"
     ]
   },
   "sense-JLPTN3_110-1": {
@@ -4628,6 +6474,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "習う",
       "覚える"
+    ]
+  },
+  "sense-JLPTN3_112-1": {
+    "senseVersion": 1,
+    "words": [
+      "急ぐ"
     ]
   },
   "sense-JLPTN3_113-1": {
@@ -4661,15 +6513,15 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_117-1": {
     "senseVersion": 1,
     "words": [
-      "申し出る",
-      "予約する"
+      "予約する",
+      "応じる"
     ]
   },
   "sense-JLPTN3_118-1": {
     "senseVersion": 1,
     "words": [
-      "燃やす",
-      "焦げる"
+      "焦げる",
+      "焼ける"
     ]
   },
   "sense-JLPTN3_119-1": {
@@ -4683,7 +6535,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "怪しむ",
-      "疑惑"
+      "考える"
     ]
   },
   "sense-JLPTN3_120-1": {
@@ -4696,23 +6548,27 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_121-1": {
     "senseVersion": 1,
     "words": [
-      "破る",
-      "崩れる"
+      "崩れる",
+      "倒れる"
     ]
   },
   "sense-JLPTN3_122-1": {
     "senseVersion": 1,
     "words": [
       "認める",
-      "許容"
+      "受け付ける"
     ]
   },
   "sense-JLPTN3_123-1": {
     "senseVersion": 1,
     "words": [
-      "揺らぐ",
-      "揺らす"
+      "振動",
+      "振る"
     ]
+  },
+  "sense-JLPTN3_124-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_125-1": {
     "senseVersion": 1,
@@ -4724,8 +6580,7 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_125-2": {
     "senseVersion": 1,
     "words": [
-      "話しかける",
-      "呼ぶ"
+      "話しかける"
     ]
   },
   "sense-JLPTN3_126-1": {
@@ -4738,8 +6593,14 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_127-1": {
     "senseVersion": 1,
     "words": [
-      "割る",
-      "分かれる"
+      "分かれる",
+      "壊れる"
+    ]
+  },
+  "sense-JLPTN3_128-1": {
+    "senseVersion": 1,
+    "words": [
+      "低い"
     ]
   },
   "sense-JLPTN3_129-1": {
@@ -4754,6 +6615,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "轢く",
       "叩く"
+    ]
+  },
+  "sense-JLPTN3_130-1": {
+    "senseVersion": 1,
+    "words": [
+      "おいしい"
     ]
   },
   "sense-JLPTN3_130-2": {
@@ -4779,7 +6646,7 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_132-2": {
     "senseVersion": 1,
     "words": [
-      "薄める"
+      "濃い"
     ]
   },
   "sense-JLPTN3_132-3": {
@@ -4813,7 +6680,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "寂しい",
-      "悲惨"
+      "気の毒"
+    ]
+  },
+  "sense-JLPTN3_137-1": {
+    "senseVersion": 1,
+    "words": [
+      "苦い"
     ]
   },
   "sense-JLPTN3_138-1": {
@@ -4833,15 +6706,15 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_14-1": {
     "senseVersion": 1,
     "words": [
-      "移す",
-      "運ぶ"
+      "運ぶ",
+      "動かす"
     ]
   },
   "sense-JLPTN3_140-1": {
     "senseVersion": 1,
     "words": [
-      "薄暗い",
-      "黒い"
+      "黒い",
+      "濃い"
     ]
   },
   "sense-JLPTN3_140-2": {
@@ -4860,22 +6733,33 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_142-1": {
     "senseVersion": 1,
     "words": [
-      "詳細",
-      "細かい"
+      "細かい",
+      "精密"
+    ]
+  },
+  "sense-JLPTN3_142-2": {
+    "senseVersion": 1,
+    "words": [
+      "知らない"
+    ]
+  },
+  "sense-JLPTN3_143-1": {
+    "senseVersion": 1,
+    "words": [
+      "懐かしい"
     ]
   },
   "sense-JLPTN3_144-1": {
     "senseVersion": 1,
     "words": [
-      "小さい",
-      "細い"
+      "小さい"
     ]
   },
   "sense-JLPTN3_144-2": {
     "senseVersion": 1,
     "words": [
       "詳しい",
-      "詳細"
+      "大まか"
     ]
   },
   "sense-JLPTN3_145-1": {
@@ -4885,11 +6769,23 @@ export const hintConfusions: HintConfusions = {
       "密接"
     ]
   },
+  "sense-JLPTN3_146-1": {
+    "senseVersion": 1,
+    "words": [
+      "恋しい"
+    ]
+  },
+  "sense-JLPTN3_147-1": {
+    "senseVersion": 1,
+    "words": [
+      "高い"
+    ]
+  },
   "sense-JLPTN3_148-1": {
     "senseVersion": 1,
     "words": [
       "薄い",
-      "細かい"
+      "スマート"
     ]
   },
   "sense-JLPTN3_149-1": {
@@ -4904,6 +6800,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "取り上げる",
       "盗む"
+    ]
+  },
+  "sense-JLPTN3_150-1": {
+    "senseVersion": 1,
+    "words": [
+      "円い"
     ]
   },
   "sense-JLPTN3_151-1": {
@@ -4930,8 +6832,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_154-1": {
     "senseVersion": 1,
     "words": [
-      "緩やか",
-      "ルーズ"
+      "ルーズ",
+      "柔らかい"
     ]
   },
   "sense-JLPTN3_154-2": {
@@ -4952,7 +6854,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "普通だ",
-      "一般"
+      "通常"
     ]
   },
   "sense-JLPTN3_157-1": {
@@ -4965,15 +6867,25 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_158-1": {
     "senseVersion": 1,
     "words": [
-      "正確だ",
-      "明らか"
+      "明らか",
+      "大丈夫"
+    ]
+  },
+  "sense-JLPTN3_159-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_16-1": {
+    "senseVersion": 1,
+    "words": [
+      "隠す"
     ]
   },
   "sense-JLPTN3_160-1": {
     "senseVersion": 1,
     "words": [
       "易しい",
-      "単純"
+      "容易"
     ]
   },
   "sense-JLPTN3_161-1": {
@@ -4987,7 +6899,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "活発",
-      "盛大だ"
+      "積極的"
     ]
   },
   "sense-JLPTN3_163-1": {
@@ -5006,30 +6918,24 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_165-1": {
     "senseVersion": 1,
-    "words": [
-      "主な",
-      "重要"
-    ]
+    "words": []
   },
   "sense-JLPTN3_166-1": {
     "senseVersion": 1,
     "words": [
-      "素直だ",
-      "単純"
+      "単純",
+      "誠実"
     ]
   },
   "sense-JLPTN3_167-1": {
     "senseVersion": 1,
-    "words": [
-      "新しい",
-      "新た"
-    ]
+    "words": []
   },
   "sense-JLPTN3_168-1": {
     "senseVersion": 1,
     "words": [
-      "確実だ",
-      "確か"
+      "本当",
+      "精密"
     ]
   },
   "sense-JLPTN3_169-1": {
@@ -5038,6 +6944,10 @@ export const hintConfusions: HintConfusions = {
       "きれいだ",
       "純粋"
     ]
+  },
+  "sense-JLPTN3_17-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_170-1": {
     "senseVersion": 1,
@@ -5055,30 +6965,31 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_172-1": {
     "senseVersion": 1,
-    "words": [
-      "典型的だ",
-      "代表"
-    ]
+    "words": []
   },
   "sense-JLPTN3_173-1": {
     "senseVersion": 1,
     "words": [
-      "気が短い",
       "せっかちだ"
     ]
   },
   "sense-JLPTN3_174-1": {
     "senseVersion": 1,
     "words": [
-      "簡単だ",
-      "簡単"
+      "容易",
+      "安易"
+    ]
+  },
+  "sense-JLPTN3_175-1": {
+    "senseVersion": 1,
+    "words": [
+      "好きだ"
     ]
   },
   "sense-JLPTN3_176-1": {
     "senseVersion": 1,
     "words": [
-      "下手だ",
-      "下手"
+      "悪い"
     ]
   },
   "sense-JLPTN3_177-1": {
@@ -5101,6 +7012,10 @@ export const hintConfusions: HintConfusions = {
       "難しい",
       "微妙"
     ]
+  },
+  "sense-JLPTN3_18-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_180-1": {
     "senseVersion": 1,
@@ -5140,36 +7055,45 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_185-1": {
     "senseVersion": 1,
     "words": [
-      "脂",
-      "石油"
+      "脂"
+    ]
+  },
+  "sense-JLPTN3_186-1": {
+    "senseVersion": 1,
+    "words": [
+      "水滴"
     ]
   },
   "sense-JLPTN3_187-1": {
     "senseVersion": 1,
     "words": [
-      "未満",
-      "以内"
+      "未満"
+    ]
+  },
+  "sense-JLPTN3_188-1": {
+    "senseVersion": 1,
+    "words": [
+      "呼吸"
     ]
   },
   "sense-JLPTN3_189-1": {
     "senseVersion": 1,
     "words": [
-      "目的地",
-      "先"
+      "目的地"
     ]
   },
   "sense-JLPTN3_19-1": {
     "senseVersion": 1,
     "words": [
       "我慢する",
-      "抑制"
+      "控える"
     ]
   },
   "sense-JLPTN3_190-1": {
     "senseVersion": 1,
     "words": [
-      "以後",
-      "以来"
+      "今後",
+      "より"
     ]
   },
   "sense-JLPTN3_191-1": {
@@ -5179,6 +7103,12 @@ export const hintConfusions: HintConfusions = {
       "感じ"
     ]
   },
+  "sense-JLPTN3_192-1": {
+    "senseVersion": 1,
+    "words": [
+      "棒"
+    ]
+  },
   "sense-JLPTN3_193-1": {
     "senseVersion": 1,
     "words": [
@@ -5186,18 +7116,22 @@ export const hintConfusions: HintConfusions = {
       "土地"
     ]
   },
+  "sense-JLPTN3_194-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_195-1": {
     "senseVersion": 1,
     "words": [
       "引っ越し",
-      "移行"
+      "異動"
     ]
   },
   "sense-JLPTN3_196-1": {
     "senseVersion": 1,
     "words": [
       "旅行",
-      "運動"
+      "旅"
     ]
   },
   "sense-JLPTN3_197-1": {
@@ -5207,25 +7141,28 @@ export const hintConfusions: HintConfusions = {
       "イメージ"
     ]
   },
+  "sense-JLPTN3_198-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_199-1": {
     "senseVersion": 1,
     "words": [
-      "内側",
-      "裏"
+      "後ろ"
     ]
   },
   "sense-JLPTN3_2-1": {
     "senseVersion": 1,
     "words": [
-      "預かる",
-      "払い込む"
+      "払い込む",
+      "任せる"
     ]
   },
   "sense-JLPTN3_20-1": {
     "senseVersion": 1,
     "words": [
       "叩く",
-      "押さえる"
+      "寄せる"
     ]
   },
   "sense-JLPTN3_200-1": {
@@ -5235,11 +7172,24 @@ export const hintConfusions: HintConfusions = {
       "結果"
     ]
   },
+  "sense-JLPTN3_201-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_202-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_203-1": {
+    "senseVersion": 1,
     "words": [
-      "笑い声",
-      "笑い"
+      "幹"
+    ]
+  },
+  "sense-JLPTN3_204-1": {
+    "senseVersion": 1,
+    "words": [
+      "弾く"
     ]
   },
   "sense-JLPTN3_205-1": {
@@ -5252,22 +7202,28 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_206-1": {
     "senseVersion": 1,
     "words": [
-      "支援",
-      "援助"
+      "協力",
+      "強化"
     ]
   },
   "sense-JLPTN3_207-1": {
     "senseVersion": 1,
     "words": [
-      "縦断",
-      "交差点"
+      "交差点",
+      "交差"
+    ]
+  },
+  "sense-JLPTN3_208-1": {
+    "senseVersion": 1,
+    "words": [
+      "片道"
     ]
   },
   "sense-JLPTN3_209-1": {
     "senseVersion": 1,
     "words": [
-      "募集",
-      "参加"
+      "参加",
+      "申請"
     ]
   },
   "sense-JLPTN3_21-1": {
@@ -5281,7 +7237,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "暗記",
-      "使用"
+      "反映"
+    ]
+  },
+  "sense-JLPTN3_211-1": {
+    "senseVersion": 1,
+    "words": [
+      "追加"
     ]
   },
   "sense-JLPTN3_212-1": {
@@ -5291,32 +7253,41 @@ export const hintConfusions: HintConfusions = {
       "訪問"
     ]
   },
+  "sense-JLPTN3_213-1": {
+    "senseVersion": 1,
+    "words": [
+      "銭湯"
+    ]
+  },
   "sense-JLPTN3_214-1": {
     "senseVersion": 1,
     "words": [
       "勘定",
-      "計算"
+      "代金"
     ]
   },
   "sense-JLPTN3_214-2": {
     "senseVersion": 1,
     "words": [
       "勘定",
-      "計算"
+      "支払い"
     ]
+  },
+  "sense-JLPTN3_215-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_216-1": {
     "senseVersion": 1,
     "words": [
-      "収集",
-      "回復"
+      "再生",
+      "復興"
     ]
   },
   "sense-JLPTN3_217-1": {
     "senseVersion": 1,
     "words": [
-      "匂い",
-      "香水"
+      "匂い"
     ]
   },
   "sense-JLPTN3_218-1": {
@@ -5326,11 +7297,21 @@ export const hintConfusions: HintConfusions = {
       "銘々"
     ]
   },
+  "sense-JLPTN3_219-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_22-1": {
+    "senseVersion": 1,
+    "words": [
+      "びっくりする"
+    ]
+  },
   "sense-JLPTN3_220-1": {
     "senseVersion": 1,
     "words": [
-      "承認",
-      "検査"
+      "検査",
+      "検討"
     ]
   },
   "sense-JLPTN3_221-1": {
@@ -5343,15 +7324,20 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_222-1": {
     "senseVersion": 1,
     "words": [
-      "数字",
-      "程度"
+      "程度",
+      "額"
     ]
   },
   "sense-JLPTN3_223-1": {
     "senseVersion": 1,
     "words": [
-      "アンダーライン",
-      "下書き"
+      "アンダーライン"
+    ]
+  },
+  "sense-JLPTN3_224-1": {
+    "senseVersion": 1,
+    "words": [
+      "腕"
     ]
   },
   "sense-JLPTN3_225-1": {
@@ -5364,22 +7350,25 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_226-1": {
     "senseVersion": 1,
     "words": [
-      "もう片方",
-      "一面"
+      "一面",
+      "向こう"
+    ]
+  },
+  "sense-JLPTN3_227-1": {
+    "senseVersion": 1,
+    "words": [
+      "往復"
     ]
   },
   "sense-JLPTN3_228-1": {
     "senseVersion": 1,
-    "words": [
-      "値打ち",
-      "値段"
-    ]
+    "words": []
   },
   "sense-JLPTN3_229-1": {
     "senseVersion": 1,
     "words": [
-      "元気",
-      "勢い"
+      "勢い",
+      "エネルギー"
     ]
   },
   "sense-JLPTN3_23-1": {
@@ -5389,10 +7378,15 @@ export const hintConfusions: HintConfusions = {
       "知る"
     ]
   },
+  "sense-JLPTN3_230-1": {
+    "senseVersion": 1,
+    "words": [
+      "道具"
+    ]
+  },
   "sense-JLPTN3_231-1": {
     "senseVersion": 1,
     "words": [
-      "行動",
       "実行"
     ]
   },
@@ -5400,7 +7394,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "家庭",
-      "仮説"
+      "前提"
     ]
   },
   "sense-JLPTN3_233-1": {
@@ -5412,44 +7406,46 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_234-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_235-1": {
+    "senseVersion": 1,
     "words": [
-      "空き",
-      "空っぽ"
+      "実"
     ]
   },
   "sense-JLPTN3_235-2": {
     "senseVersion": 1,
     "words": [
       "肌",
-      "皮膚"
+      "革"
     ]
   },
   "sense-JLPTN3_236-1": {
     "senseVersion": 1,
     "words": [
-      "間（あいだ）",
-      "間（ま）"
+      "感覚",
+      "場所"
     ]
   },
   "sense-JLPTN3_237-1": {
     "senseVersion": 1,
     "words": [
-      "感情",
-      "気持ち"
+      "気持ち",
+      "意識"
     ]
   },
   "sense-JLPTN3_238-1": {
     "senseVersion": 1,
     "words": [
-      "聴衆",
-      "客"
+      "聴衆"
     ]
   },
   "sense-JLPTN3_239-1": {
     "senseVersion": 1,
     "words": [
-      "境遇",
-      "景色"
+      "景色",
+      "事態"
     ]
   },
   "sense-JLPTN3_24-1": {
@@ -5463,15 +7459,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "連絡",
-      "関連"
+      "仲"
     ]
   },
   "sense-JLPTN3_241-1": {
     "senseVersion": 1,
-    "words": [
-      "感心",
-      "感動"
-    ]
+    "words": []
   },
   "sense-JLPTN3_242-1": {
     "senseVersion": 1,
@@ -5490,22 +7483,22 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_244-1": {
     "senseVersion": 1,
     "words": [
-      "感心",
-      "恐れ"
+      "恐れ",
+      "興味"
     ]
   },
   "sense-JLPTN3_245-1": {
     "senseVersion": 1,
     "words": [
       "出来上がり",
-      "完了"
+      "充実"
     ]
   },
   "sense-JLPTN3_246-1": {
     "senseVersion": 1,
     "words": [
       "器具",
-      "機構"
+      "装置"
     ]
   },
   "sense-JLPTN3_247-1": {
@@ -5518,8 +7511,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_248-1": {
     "senseVersion": 1,
     "words": [
-      "期間",
-      "時間"
+      "時間",
+      "締め切り"
     ]
   },
   "sense-JLPTN3_249-1": {
@@ -5532,8 +7525,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_25-1": {
     "senseVersion": 1,
     "words": [
-      "折る",
-      "壊れる"
+      "壊れる",
+      "割れる"
     ]
   },
   "sense-JLPTN3_250-1": {
@@ -5546,15 +7539,15 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_251-1": {
     "senseVersion": 1,
     "words": [
-      "基本",
-      "基準"
+      "根拠",
+      "元"
     ]
   },
   "sense-JLPTN3_252-1": {
     "senseVersion": 1,
     "words": [
       "習慣",
-      "規制"
+      "主義"
     ]
   },
   "sense-JLPTN3_253-1": {
@@ -5566,23 +7559,24 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_254-1": {
     "senseVersion": 1,
-    "words": [
-      "帰り",
-      "帰国"
-    ]
+    "words": []
+  },
+  "sense-JLPTN3_255-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_256-1": {
     "senseVersion": 1,
     "words": [
-      "記憶",
-      "祝い"
+      "祝い",
+      "お祝い"
     ]
   },
   "sense-JLPTN3_257-1": {
     "senseVersion": 1,
     "words": [
-      "基礎",
-      "基準"
+      "根拠",
+      "元"
     ]
   },
   "sense-JLPTN3_258-1": {
@@ -5594,30 +7588,27 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_259-1": {
     "senseVersion": 1,
-    "words": [
-      "休み",
-      "祝日"
-    ]
+    "words": []
   },
   "sense-JLPTN3_26-1": {
     "senseVersion": 1,
     "words": [
-      "取り替える",
-      "変える"
+      "変える",
+      "変わる"
     ]
   },
   "sense-JLPTN3_260-1": {
     "senseVersion": 1,
     "words": [
       "先生",
-      "講師"
+      "インストラクター"
     ]
   },
   "sense-JLPTN3_261-1": {
     "senseVersion": 1,
     "words": [
-      "競走",
-      "試合"
+      "試合",
+      "大会"
     ]
   },
   "sense-JLPTN3_262-1": {
@@ -5630,7 +7621,6 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_263-1": {
     "senseVersion": 1,
     "words": [
-      "趣味",
       "関心"
     ]
   },
@@ -5651,15 +7641,22 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_266-1": {
     "senseVersion": 1,
     "words": [
-      "記憶",
-      "撮影"
+      "撮影",
+      "書類"
     ]
+  },
+  "sense-JLPTN3_267-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_268-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_269-1": {
+    "senseVersion": 1,
     "words": [
-      "中止",
-      "停止"
+      "喉"
     ]
   },
   "sense-JLPTN3_27-1": {
@@ -5673,35 +7670,35 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "考え",
-      "工夫する"
+      "努力"
     ]
   },
   "sense-JLPTN3_271-1": {
     "senseVersion": 1,
     "words": [
-      "区別",
-      "部分"
+      "整理",
+      "セクション"
     ]
   },
   "sense-JLPTN3_272-1": {
     "senseVersion": 1,
     "words": [
-      "差別",
-      "違い"
+      "違い",
+      "差"
     ]
   },
   "sense-JLPTN3_273-1": {
     "senseVersion": 1,
     "words": [
-      "練習",
-      "教育"
+      "教育",
+      "研修"
     ]
   },
   "sense-JLPTN3_274-1": {
     "senseVersion": 1,
     "words": [
-      "営業",
-      "管理"
+      "管理",
+      "運用"
     ]
   },
   "sense-JLPTN3_275-1": {
@@ -5721,7 +7718,6 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_277-1": {
     "senseVersion": 1,
     "words": [
-      "経営",
       "金融"
     ]
   },
@@ -5732,39 +7728,54 @@ export const hintConfusions: HintConfusions = {
       "数える"
     ]
   },
+  "sense-JLPTN3_279-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗り換え"
+    ]
+  },
   "sense-JLPTN3_28-1": {
     "senseVersion": 1,
     "words": [
-      "隠れる",
-      "包む"
+      "包む",
+      "覆う"
     ]
   },
   "sense-JLPTN3_280-1": {
     "senseVersion": 1,
     "words": [
-      "内科",
       "手術"
     ]
   },
   "sense-JLPTN3_281-1": {
     "senseVersion": 1,
     "words": [
-      "風景",
-      "場面"
+      "場面",
+      "眺め"
     ]
+  },
+  "sense-JLPTN3_282-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_283-1": {
     "senseVersion": 1,
     "words": [
-      "欠勤",
-      "休み"
+      "休み",
+      "留守"
     ]
   },
   "sense-JLPTN3_284-1": {
     "senseVersion": 1,
     "words": [
-      "欠陥",
-      "故障"
+      "故障",
+      "傷"
+    ]
+  },
+  "sense-JLPTN3_285-1": {
+    "senseVersion": 1,
+    "words": [
+      "湯気"
     ]
   },
   "sense-JLPTN3_286-1": {
@@ -5784,71 +7795,80 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_288-1": {
     "senseVersion": 1,
     "words": [
-      "預金",
-      "通貨"
+      "通貨",
+      "貨幣"
     ]
   },
   "sense-JLPTN3_289-1": {
     "senseVersion": 1,
     "words": [
       "元気",
-      "健全"
+      "具合"
+    ]
+  },
+  "sense-JLPTN3_29-1": {
+    "senseVersion": 1,
+    "words": [
+      "走る"
     ]
   },
   "sense-JLPTN3_290-1": {
     "senseVersion": 1,
     "words": [
-      "調査",
-      "試験"
+      "試験",
+      "確認"
     ]
   },
   "sense-JLPTN3_291-1": {
     "senseVersion": 1,
     "words": [
-      "今",
-      "現代"
+      "今"
     ]
   },
   "sense-JLPTN3_292-1": {
     "senseVersion": 1,
     "words": [
-      "減量",
-      "削減"
+      "低下",
+      "縮小"
     ]
   },
   "sense-JLPTN3_293-1": {
     "senseVersion": 1,
     "words": [
-      "建築",
       "工作"
     ]
   },
   "sense-JLPTN3_294-1": {
     "senseVersion": 1,
     "words": [
-      "見学",
-      "観光"
+      "観光",
+      "観覧"
     ]
   },
   "sense-JLPTN3_295-1": {
     "senseVersion": 1,
     "words": [
-      "材料",
       "成分"
     ]
   },
   "sense-JLPTN3_296-1": {
     "senseVersion": 1,
     "words": [
-      "講義",
-      "言葉"
+      "言葉",
+      "言論"
     ]
   },
   "sense-JLPTN3_297-1": {
     "senseVersion": 1,
     "words": [
-      "効率",
-      "影響"
+      "影響",
+      "答え"
+    ]
+  },
+  "sense-JLPTN3_298-1": {
+    "senseVersion": 1,
+    "words": [
+      "平均"
     ]
   },
   "sense-JLPTN3_299-1": {
@@ -5861,36 +7881,48 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_3-1": {
     "senseVersion": 1,
     "words": [
-      "当てる",
-      "合う"
+      "合う",
+      "正しい"
     ]
+  },
+  "sense-JLPTN3_30-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_300-1": {
     "senseVersion": 1,
     "words": [
-      "交替",
-      "交換"
+      "異動",
+      "補充"
     ]
   },
   "sense-JLPTN3_301-1": {
     "senseVersion": 1,
     "words": [
-      "交代",
-      "交換"
+      "代わり",
+      "異動"
     ]
   },
   "sense-JLPTN3_302-1": {
     "senseVersion": 1,
     "words": [
-      "動作",
-      "活動"
+      "態度"
     ]
   },
   "sense-JLPTN3_303-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_304-1": {
+    "senseVersion": 1,
     "words": [
-      "交際",
-      "交換"
+      "雪"
+    ]
+  },
+  "sense-JLPTN3_305-1": {
+    "senseVersion": 1,
+    "words": [
+      "息"
     ]
   },
   "sense-JLPTN3_306-1": {
@@ -5911,42 +7943,53 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "団体",
-      "個別"
+      "各自"
+    ]
+  },
+  "sense-JLPTN3_309-1": {
+    "senseVersion": 1,
+    "words": [
+      "粒"
     ]
   },
   "sense-JLPTN3_31-1": {
     "senseVersion": 1,
     "words": [
-      "重なる",
-      "積む"
+      "積む",
+      "盛る"
+    ]
+  },
+  "sense-JLPTN3_310-1": {
+    "senseVersion": 1,
+    "words": [
+      "ご飯"
     ]
   },
   "sense-JLPTN3_311-1": {
     "senseVersion": 1,
     "words": [
-      "最新",
-      "最後"
+      "締め切り",
+      "究極"
     ]
   },
   "sense-JLPTN3_312-1": {
     "senseVersion": 1,
     "words": [
-      "最高",
-      "一流"
+      "一流",
+      "頂点"
     ]
   },
   "sense-JLPTN3_313-1": {
     "senseVersion": 1,
     "words": [
       "道具",
-      "資料"
+      "物質"
     ]
   },
   "sense-JLPTN3_314-1": {
     "senseVersion": 1,
     "words": [
-      "階段",
-      "坂"
+      "階段"
     ]
   },
   "sense-JLPTN3_315-1": {
@@ -5959,8 +8002,13 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_316-1": {
     "senseVersion": 1,
     "words": [
-      "植物",
       "収穫"
+    ]
+  },
+  "sense-JLPTN3_317-1": {
+    "senseVersion": 1,
+    "words": [
+      "新聞"
     ]
   },
   "sense-JLPTN3_318-1": {
@@ -5977,6 +8025,12 @@ export const hintConfusions: HintConfusions = {
       "応募"
     ]
   },
+  "sense-JLPTN3_32-1": {
+    "senseVersion": 1,
+    "words": [
+      "置く"
+    ]
+  },
   "sense-JLPTN3_320-1": {
     "senseVersion": 1,
     "words": [
@@ -5987,42 +8041,39 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_321-1": {
     "senseVersion": 1,
     "words": [
-      "砂糖",
-      "食塩"
+      "砂糖"
     ]
   },
   "sense-JLPTN3_322-1": {
     "senseVersion": 1,
     "words": [
-      "支払う",
-      "供給"
+      "代金",
+      "手当"
     ]
   },
   "sense-JLPTN3_323-1": {
     "senseVersion": 1,
     "words": [
-      "ごみ",
-      "財源"
+      "ごみ"
     ]
   },
   "sense-JLPTN3_324-1": {
     "senseVersion": 1,
     "words": [
-      "出費",
-      "費用"
+      "費用",
+      "消費"
     ]
   },
   "sense-JLPTN3_325-1": {
     "senseVersion": 1,
     "words": [
       "理由",
-      "事態"
+      "状況"
     ]
   },
   "sense-JLPTN3_326-1": {
     "senseVersion": 1,
     "words": [
-      "自慢",
       "安心"
     ]
   },
@@ -6035,9 +8086,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_328-1": {
     "senseVersion": 1,
-    "words": [
-      "天然"
-    ]
+    "words": []
   },
   "sense-JLPTN3_329-1": {
     "senseVersion": 1,
@@ -6053,11 +8102,15 @@ export const hintConfusions: HintConfusions = {
       "融資"
     ]
   },
+  "sense-JLPTN3_330-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_331-1": {
     "senseVersion": 1,
     "words": [
-      "能力",
-      "働き"
+      "働き",
+      "才能"
     ]
   },
   "sense-JLPTN3_332-1": {
@@ -6078,28 +8131,26 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "床",
-      "土地"
+      "陸"
     ]
   },
   "sense-JLPTN3_335-1": {
     "senseVersion": 1,
     "words": [
-      "故郷",
-      "現地"
+      "故郷"
     ]
   },
   "sense-JLPTN3_336-1": {
     "senseVersion": 1,
     "words": [
-      "集会",
-      "会議"
+      "会議",
+      "大会"
     ]
   },
   "sense-JLPTN3_337-1": {
     "senseVersion": 1,
     "words": [
-      "コレクション",
-      "回収"
+      "コレクション"
     ]
   },
   "sense-JLPTN3_338-1": {
@@ -6112,8 +8163,7 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_339-1": {
     "senseVersion": 1,
     "words": [
-      "熱中",
-      "中心"
+      "焦点"
     ]
   },
   "sense-JLPTN3_34-1": {
@@ -6126,8 +8176,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_340-1": {
     "senseVersion": 1,
     "words": [
-      "修正",
-      "調整"
+      "調整",
+      "整備"
     ]
   },
   "sense-JLPTN3_341-1": {
@@ -6158,24 +8208,26 @@ export const hintConfusions: HintConfusions = {
       "意見"
     ]
   },
-  "sense-JLPTN3_346-1": {
+  "sense-JLPTN3_345-1": {
     "senseVersion": 1,
     "words": [
-      "都（みやこ）",
-      "都会"
+      "旅行"
     ]
+  },
+  "sense-JLPTN3_346-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_347-1": {
     "senseVersion": 1,
     "words": [
-      "興味",
-      "遊び"
+      "遊び",
+      "娯楽"
     ]
   },
   "sense-JLPTN3_348-1": {
     "senseVersion": 1,
     "words": [
-      "順序",
       "段階"
     ]
   },
@@ -6196,8 +8248,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_350-1": {
     "senseVersion": 1,
     "words": [
-      "工業",
-      "取引"
+      "取引",
+      "貿易"
     ]
   },
   "sense-JLPTN3_351-1": {
@@ -6206,6 +8258,10 @@ export const hintConfusions: HintConfusions = {
       "理由",
       "必要"
     ]
+  },
+  "sense-JLPTN3_352-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_353-1": {
     "senseVersion": 1,
@@ -6231,8 +8287,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_356-1": {
     "senseVersion": 1,
     "words": [
-      "製品",
-      "物資"
+      "物資",
+      "在庫"
     ]
   },
   "sense-JLPTN3_357-1": {
@@ -6245,8 +8301,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_358-1": {
     "senseVersion": 1,
     "words": [
-      "説明",
-      "確認"
+      "確認",
+      "公認"
     ]
   },
   "sense-JLPTN3_359-1": {
@@ -6256,25 +8312,39 @@ export const hintConfusions: HintConfusions = {
       "先頭"
     ]
   },
+  "sense-JLPTN3_36-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_360-1": {
+    "senseVersion": 1,
+    "words": [
+      "野菜"
+    ]
+  },
+  "sense-JLPTN3_361-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_362-1": {
     "senseVersion": 1,
     "words": [
-      "材料",
-      "情報"
+      "情報",
+      "知識"
     ]
   },
   "sense-JLPTN3_363-1": {
     "senseVersion": 1,
     "words": [
-      "進歩",
-      "進出"
+      "展開",
+      "発展"
     ]
   },
   "sense-JLPTN3_364-1": {
     "senseVersion": 1,
     "words": [
-      "申し込み",
-      "要請"
+      "応募",
+      "注文"
     ]
   },
   "sense-JLPTN3_365-1": {
@@ -6287,56 +8357,65 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_366-1": {
     "senseVersion": 1,
     "words": [
-      "数",
       "番号"
     ]
   },
-  "sense-JLPTN3_37-1": {
+  "sense-JLPTN3_367-1": {
     "senseVersion": 1,
     "words": [
-      "消す"
+      "めまい"
     ]
+  },
+  "sense-JLPTN3_368-1": {
+    "senseVersion": 1,
+    "words": [
+      "土"
+    ]
+  },
+  "sense-JLPTN3_369-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_37-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_370-1": {
     "senseVersion": 1,
     "words": [
-      "性質",
-      "気分"
+      "気分",
+      "質"
     ]
   },
   "sense-JLPTN3_371-1": {
     "senseVersion": 1,
-    "words": [
-      "料金",
-      "関税"
-    ]
+    "words": []
   },
   "sense-JLPTN3_372-1": {
     "senseVersion": 1,
     "words": [
       "禁止",
-      "規制"
+      "拘束"
     ]
   },
   "sense-JLPTN3_373-1": {
     "senseVersion": 1,
     "words": [
-      "完成",
-      "業績"
+      "業績",
+      "合格"
     ]
   },
   "sense-JLPTN3_374-1": {
     "senseVersion": 1,
     "words": [
       "普通",
-      "通常"
+      "普段"
     ]
   },
   "sense-JLPTN3_375-1": {
     "senseVersion": 1,
     "words": [
-      "点数",
-      "業績"
+      "点数"
     ]
   },
   "sense-JLPTN3_376-1": {
@@ -6348,16 +8427,22 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_377-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_378-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_379-1": {
+    "senseVersion": 1,
     "words": [
-      "石炭",
-      "油"
+      "掃除"
     ]
   },
   "sense-JLPTN3_38-1": {
     "senseVersion": 1,
     "words": [
-      "憎む",
-      "嫌い"
+      "憎む"
     ]
   },
   "sense-JLPTN3_380-1": {
@@ -6369,15 +8454,21 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_381-1": {
     "senseVersion": 1,
     "words": [
-      "専攻",
-      "分野"
+      "分野",
+      "領域"
     ]
   },
   "sense-JLPTN3_382-1": {
     "senseVersion": 1,
     "words": [
-      "予想",
-      "考え"
+      "考え",
+      "見当"
+    ]
+  },
+  "sense-JLPTN3_383-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠席"
     ]
   },
   "sense-JLPTN3_384-1": {
@@ -6390,8 +8481,7 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_385-1": {
     "senseVersion": 1,
     "words": [
-      "テンポ",
-      "速さ"
+      "テンポ"
     ]
   },
   "sense-JLPTN3_386-1": {
@@ -6411,7 +8501,6 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_388-1": {
     "senseVersion": 1,
     "words": [
-      "実在",
       "生命"
     ]
   },
@@ -6419,7 +8508,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "試合",
-      "会議"
+      "協議"
     ]
   },
   "sense-JLPTN3_39-1": {
@@ -6432,8 +8521,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_390-1": {
     "senseVersion": 1,
     "words": [
-      "料金",
-      "価格"
+      "価格",
+      "費用"
     ]
   },
   "sense-JLPTN3_391-1": {
@@ -6443,38 +8532,49 @@ export const hintConfusions: HintConfusions = {
       "居る（いる）"
     ]
   },
+  "sense-JLPTN3_392-1": {
+    "senseVersion": 1,
+    "words": [
+      "厨房"
+    ]
+  },
+  "sense-JLPTN3_393-1": {
+    "senseVersion": 1,
+    "words": [
+      "大雨"
+    ]
+  },
   "sense-JLPTN3_394-1": {
     "senseVersion": 1,
     "words": [
       "スタミナ",
-      "気力"
+      "勢い"
     ]
   },
   "sense-JLPTN3_395-1": {
     "senseVersion": 1,
-    "words": [
-      "他の人",
-      "人"
-    ]
+    "words": []
   },
   "sense-JLPTN3_396-1": {
     "senseVersion": 1,
     "words": [
-      "出産",
-      "生まれ"
+      "出産"
     ]
   },
   "sense-JLPTN3_397-1": {
     "senseVersion": 1,
     "words": [
-      "集団",
-      "機関"
+      "機関",
+      "協会"
     ]
+  },
+  "sense-JLPTN3_398-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_399-1": {
     "senseVersion": 1,
     "words": [
-      "古い",
       "久しい"
     ]
   },
@@ -6491,6 +8591,10 @@ export const hintConfusions: HintConfusions = {
       "設ける"
     ]
   },
+  "sense-JLPTN3_400-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_401-1": {
     "senseVersion": 1,
     "words": [
@@ -6500,29 +8604,28 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-JLPTN3_402-1": {
     "senseVersion": 1,
-    "words": [
-      "朝ごはん",
-      "朝ご飯"
-    ]
+    "words": []
   },
   "sense-JLPTN3_403-1": {
     "senseVersion": 1,
     "words": [
       "節約",
-      "預金"
+      "保管"
     ]
   },
   "sense-JLPTN3_404-1": {
     "senseVersion": 1,
     "words": [
-      "自分で",
-      "真っ直ぐ"
+      "自分で"
     ]
+  },
+  "sense-JLPTN3_405-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_406-1": {
     "senseVersion": 1,
     "words": [
-      "翻訳",
       "解釈"
     ]
   },
@@ -6533,32 +8636,58 @@ export const hintConfusions: HintConfusions = {
       "事情"
     ]
   },
+  "sense-JLPTN3_408-1": {
+    "senseVersion": 1,
+    "words": [
+      "故障"
+    ]
+  },
   "sense-JLPTN3_409-1": {
     "senseVersion": 1,
     "words": [
       "連絡",
-      "言葉"
+      "語"
     ]
   },
   "sense-JLPTN3_41-1": {
     "senseVersion": 1,
     "words": [
-      "組み立てる",
-      "合わせる"
+      "合わせる",
+      "交わる"
+    ]
+  },
+  "sense-JLPTN3_410-1": {
+    "senseVersion": 1,
+    "words": [
+      "屋根"
     ]
   },
   "sense-JLPTN3_411-1": {
     "senseVersion": 1,
     "words": [
-      "行動",
-      "運動"
+      "運転",
+      "態度"
     ]
+  },
+  "sense-JLPTN3_412-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_413-1": {
+    "senseVersion": 1,
+    "words": [
+      "出現"
+    ]
+  },
+  "sense-JLPTN3_414-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_415-1": {
     "senseVersion": 1,
     "words": [
       "記入",
-      "記録"
+      "応募"
     ]
   },
   "sense-JLPTN3_416-1": {
@@ -6572,28 +8701,39 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "長所",
-      "独特"
+      "気質"
     ]
   },
   "sense-JLPTN3_418-1": {
     "senseVersion": 1,
     "words": [
-      "孤立",
-      "自由"
+      "自由",
+      "自主"
+    ]
+  },
+  "sense-JLPTN3_419-1": {
+    "senseVersion": 1,
+    "words": [
+      "散歩"
+    ]
+  },
+  "sense-JLPTN3_42-1": {
+    "senseVersion": 1,
+    "words": [
+      "続ける"
     ]
   },
   "sense-JLPTN3_420-1": {
     "senseVersion": 1,
     "words": [
-      "最中",
-      "中途"
+      "半ば"
     ]
   },
   "sense-JLPTN3_421-1": {
     "senseVersion": 1,
     "words": [
       "手間",
-      "労力"
+      "苦心"
     ]
   },
   "sense-JLPTN3_422-1": {
@@ -6617,25 +8757,34 @@ export const hintConfusions: HintConfusions = {
       "内容"
     ]
   },
+  "sense-JLPTN3_425-1": {
+    "senseVersion": 1,
+    "words": [
+      "流れ"
+    ]
+  },
+  "sense-JLPTN3_426-1": {
+    "senseVersion": 1,
+    "words": [
+      "汗"
+    ]
+  },
   "sense-JLPTN3_427-1": {
     "senseVersion": 1,
     "words": [
-      "持ち物",
-      "荷"
+      "小包",
+      "厄介"
     ]
   },
   "sense-JLPTN3_428-1": {
     "senseVersion": 1,
-    "words": [
-      "人",
-      "人物"
-    ]
+    "words": []
   },
   "sense-JLPTN3_429-1": {
     "senseVersion": 1,
     "words": [
       "価格",
-      "価値"
+      "費用"
     ]
   },
   "sense-JLPTN3_43-1": {
@@ -6655,29 +8804,43 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_431-1": {
     "senseVersion": 1,
     "words": [
-      "毎年",
-      "必ず"
+      "必ず",
+      "常に"
     ]
   },
   "sense-JLPTN3_432-1": {
     "senseVersion": 1,
     "words": [
-      "農家",
       "耕作"
+    ]
+  },
+  "sense-JLPTN3_433-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_434-1": {
+    "senseVersion": 1,
+    "words": [
+      "花"
+    ]
+  },
+  "sense-JLPTN3_435-1": {
+    "senseVersion": 1,
+    "words": [
+      "割"
     ]
   },
   "sense-JLPTN3_436-1": {
     "senseVersion": 1,
     "words": [
-      "発見",
       "出来事"
     ]
   },
   "sense-JLPTN3_437-1": {
     "senseVersion": 1,
     "words": [
-      "発達",
-      "進歩"
+      "進歩",
+      "拡大"
     ]
   },
   "sense-JLPTN3_438-1": {
@@ -6691,14 +8854,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "拒否",
-      "対立"
+      "抵抗"
     ]
   },
   "sense-JLPTN3_44-1": {
     "senseVersion": 1,
-    "words": [
-      "消える"
-    ]
+    "words": []
   },
   "sense-JLPTN3_44-2": {
     "senseVersion": 1,
@@ -6710,15 +8871,14 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_440-1": {
     "senseVersion": 1,
     "words": [
-      "売買",
       "営業"
     ]
   },
   "sense-JLPTN3_441-1": {
     "senseVersion": 1,
     "words": [
-      "対比",
-      "競争"
+      "競争",
+      "参照"
     ]
   },
   "sense-JLPTN3_442-1": {
@@ -6731,29 +8891,44 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_443-1": {
     "senseVersion": 1,
     "words": [
-      "反対",
-      "拒否"
+      "反対"
     ]
   },
   "sense-JLPTN3_444-1": {
     "senseVersion": 1,
     "words": [
       "印",
-      "表記"
+      "象徴"
     ]
   },
   "sense-JLPTN3_445-1": {
     "senseVersion": 1,
     "words": [
-      "表",
-      "外"
+      "外",
+      "外部"
     ]
   },
   "sense-JLPTN3_446-1": {
     "senseVersion": 1,
     "words": [
-      "景色",
-      "場面"
+      "場面",
+      "展望"
+    ]
+  },
+  "sense-JLPTN3_447-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-JLPTN3_448-1": {
+    "senseVersion": 1,
+    "words": [
+      "箱"
+    ]
+  },
+  "sense-JLPTN3_449-1": {
+    "senseVersion": 1,
+    "words": [
+      "値段"
     ]
   },
   "sense-JLPTN3_45-1": {
@@ -6762,6 +8937,16 @@ export const hintConfusions: HintConfusions = {
       "冷える",
       "固まる"
     ]
+  },
+  "sense-JLPTN3_450-1": {
+    "senseVersion": 1,
+    "words": [
+      "加熱"
+    ]
+  },
+  "sense-JLPTN3_451-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_452-1": {
     "senseVersion": 1,
@@ -6773,8 +8958,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_453-1": {
     "senseVersion": 1,
     "words": [
-      "文",
-      "記事"
+      "記事",
+      "執筆"
     ]
   },
   "sense-JLPTN3_454-1": {
@@ -6830,14 +9015,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "観光",
-      "訪ねる"
+      "お見舞い"
     ]
   },
   "sense-JLPTN3_461-1": {
     "senseVersion": 1,
     "words": [
-      "規則",
-      "立法"
+      "規則"
     ]
   },
   "sense-JLPTN3_462-1": {
@@ -6847,6 +9031,18 @@ export const hintConfusions: HintConfusions = {
       "勧誘"
     ]
   },
+  "sense-JLPTN3_463-1": {
+    "senseVersion": 1,
+    "words": [
+      "甥"
+    ]
+  },
+  "sense-JLPTN3_464-1": {
+    "senseVersion": 1,
+    "words": [
+      "種"
+    ]
+  },
   "sense-JLPTN3_465-1": {
     "senseVersion": 1,
     "words": [
@@ -6854,10 +9050,21 @@ export const hintConfusions: HintConfusions = {
       "十分"
     ]
   },
+  "sense-JLPTN3_466-1": {
+    "senseVersion": 1,
+    "words": [
+      "池"
+    ]
+  },
+  "sense-JLPTN3_467-1": {
+    "senseVersion": 1,
+    "words": [
+      "青"
+    ]
+  },
   "sense-JLPTN3_468-1": {
     "senseVersion": 1,
     "words": [
-      "将来",
       "前途"
     ]
   },
@@ -6865,21 +9072,26 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "お願い",
-      "命じる"
+      "言いつける"
+    ]
+  },
+  "sense-JLPTN3_47-1": {
+    "senseVersion": 1,
+    "words": [
+      "拒む"
     ]
   },
   "sense-JLPTN3_470-1": {
     "senseVersion": 1,
     "words": [
-      "資格",
-      "許可"
+      "資格"
     ]
   },
   "sense-JLPTN3_471-1": {
     "senseVersion": 1,
     "words": [
-      "面談",
-      "会見"
+      "会見",
+      "インタビュー"
     ]
   },
   "sense-JLPTN3_472-1": {
@@ -6892,22 +9104,18 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_473-1": {
     "senseVersion": 1,
     "words": [
-      "目的",
-      "対象"
+      "対象",
+      "志"
     ]
   },
   "sense-JLPTN3_474-1": {
     "senseVersion": 1,
-    "words": [
-      "文章",
-      "字"
-    ]
+    "words": []
   },
   "sense-JLPTN3_475-1": {
     "senseVersion": 1,
     "words": [
-      "林",
-      "森林"
+      "林"
     ]
   },
   "sense-JLPTN3_476-1": {
@@ -6917,19 +9125,36 @@ export const hintConfusions: HintConfusions = {
       "不満"
     ]
   },
+  "sense-JLPTN3_477-1": {
+    "senseVersion": 1,
+    "words": [
+      "天井"
+    ]
+  },
+  "sense-JLPTN3_478-1": {
+    "senseVersion": 1,
+    "words": [
+      "地面"
+    ]
+  },
+  "sense-JLPTN3_479-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_48-1": {
     "senseVersion": 1,
     "words": [
       "倒れる",
-      "転がる"
+      "ひっくり返る"
     ]
+  },
+  "sense-JLPTN3_480-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_481-1": {
     "senseVersion": 1,
-    "words": [
-      "器",
-      "食器"
-    ]
+    "words": []
   },
   "sense-JLPTN3_482-1": {
     "senseVersion": 1,
@@ -6952,11 +9177,17 @@ export const hintConfusions: HintConfusions = {
       "見通し"
     ]
   },
+  "sense-JLPTN3_485-1": {
+    "senseVersion": 1,
+    "words": [
+      "夕方"
+    ]
+  },
   "sense-JLPTN3_486-1": {
     "senseVersion": 1,
     "words": [
       "治療",
-      "防止"
+      "警戒"
     ]
   },
   "sense-JLPTN3_487-1": {
@@ -6969,9 +9200,13 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_488-1": {
     "senseVersion": 1,
     "words": [
-      "行列",
-      "連続"
+      "連続",
+      "一連"
     ]
+  },
+  "sense-JLPTN3_489-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-JLPTN3_49-1": {
     "senseVersion": 1,
@@ -7004,8 +9239,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_493-1": {
     "senseVersion": 1,
     "words": [
-      "必ずしも",
-      "きっと"
+      "きっと",
+      "常に"
     ]
   },
   "sense-JLPTN3_494-1": {
@@ -7024,8 +9259,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_496-1": {
     "senseVersion": 1,
     "words": [
-      "全員",
-      "全部"
+      "皆",
+      "皆さん"
     ]
   },
   "sense-JLPTN3_497-1": {
@@ -7038,8 +9273,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_498-1": {
     "senseVersion": 1,
     "words": [
-      "少し",
-      "少々"
+      "幾分",
+      "まあ"
     ]
   },
   "sense-JLPTN3_499-1": {
@@ -7047,6 +9282,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "てっきり",
       "必ず"
+    ]
+  },
+  "sense-JLPTN3_5-1": {
+    "senseVersion": 1,
+    "words": [
+      "縫う"
     ]
   },
   "sense-JLPTN3_50-1": {
@@ -7073,7 +9314,6 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_52-1": {
     "senseVersion": 1,
     "words": [
-      "触れる",
       "接する"
     ]
   },
@@ -7098,6 +9338,12 @@ export const hintConfusions: HintConfusions = {
       "締める"
     ]
   },
+  "sense-JLPTN3_56-1": {
+    "senseVersion": 1,
+    "words": [
+      "乾かす"
+    ]
+  },
   "sense-JLPTN3_56-2": {
     "senseVersion": 1,
     "words": [
@@ -7119,6 +9365,12 @@ export const hintConfusions: HintConfusions = {
       "縛る"
     ]
   },
+  "sense-JLPTN3_59-1": {
+    "senseVersion": 1,
+    "words": [
+      "頼る"
+    ]
+  },
   "sense-JLPTN3_6-1": {
     "senseVersion": 1,
     "words": [
@@ -7129,8 +9381,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_60-1": {
     "senseVersion": 1,
     "words": [
-      "過ごす",
-      "終わる"
+      "終わる",
+      "経る"
     ]
   },
   "sense-JLPTN3_61-1": {
@@ -7143,29 +9395,29 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_62-1": {
     "senseVersion": 1,
     "words": [
-      "育つ",
-      "育成"
+      "飼う",
+      "慣らす"
     ]
   },
   "sense-JLPTN3_63-1": {
     "senseVersion": 1,
     "words": [
-      "倒す",
-      "崩れる"
+      "崩れる",
+      "落ちる"
     ]
   },
   "sense-JLPTN3_64-1": {
     "senseVersion": 1,
     "words": [
-      "確認する",
-      "調べる"
+      "調べる",
+      "検査"
     ]
   },
   "sense-JLPTN3_65-1": {
     "senseVersion": 1,
     "words": [
       "争う",
-      "戦い"
+      "耐える"
     ]
   },
   "sense-JLPTN3_66-1": {
@@ -7179,14 +9431,20 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "過ぎる",
-      "経る"
+      "過ごす"
+    ]
+  },
+  "sense-JLPTN3_68-1": {
+    "senseVersion": 1,
+    "words": [
+      "静まる"
     ]
   },
   "sense-JLPTN3_69-1": {
     "senseVersion": 1,
     "words": [
-      "頼む",
-      "仰ぐ"
+      "仰ぐ",
+      "甘える"
     ]
   },
   "sense-JLPTN3_7-1": {
@@ -7206,8 +9464,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_70-2": {
     "senseVersion": 1,
     "words": [
-      "間違う",
-      "誤る"
+      "誤る",
+      "異なる"
     ]
   },
   "sense-JLPTN3_71-1": {
@@ -7220,8 +9478,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_72-1": {
     "senseVersion": 1,
     "words": [
-      "伝える",
-      "拡大"
+      "拡大",
+      "普及"
     ]
   },
   "sense-JLPTN3_73-1": {
@@ -7241,29 +9499,25 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_75-1": {
     "senseVersion": 1,
     "words": [
-      "通う",
-      "越える"
+      "越える",
+      "経る"
     ]
   },
   "sense-JLPTN3_76-1": {
     "senseVersion": 1,
     "words": [
-      "解く",
       "済む"
     ]
   },
   "sense-JLPTN3_77-1": {
     "senseVersion": 1,
-    "words": [
-      "溶かす",
-      "溶く"
-    ]
+    "words": []
   },
   "sense-JLPTN3_78-1": {
     "senseVersion": 1,
     "words": [
-      "閉める",
-      "覆う"
+      "覆う",
+      "畳む"
     ]
   },
   "sense-JLPTN3_79-1": {
@@ -7276,22 +9530,26 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_8-1": {
     "senseVersion": 1,
     "words": [
-      "慌てる",
-      "急かす"
+      "慌てる"
+    ]
+  },
+  "sense-JLPTN3_80-1": {
+    "senseVersion": 1,
+    "words": [
+      "跳ぶ"
     ]
   },
   "sense-JLPTN3_81-1": {
     "senseVersion": 1,
     "words": [
       "中止する",
-      "取り戻す"
+      "止める（やめる）"
     ]
   },
   "sense-JLPTN3_82-1": {
     "senseVersion": 1,
     "words": [
-      "流す",
-      "流れ"
+      "経つ"
     ]
   },
   "sense-JLPTN3_83-1": {
@@ -7301,6 +9559,12 @@ export const hintConfusions: HintConfusions = {
       "叫ぶ"
     ]
   },
+  "sense-JLPTN3_84-1": {
+    "senseVersion": 1,
+    "words": [
+      "励ます"
+    ]
+  },
   "sense-JLPTN3_85-1": {
     "senseVersion": 1,
     "words": [
@@ -7308,11 +9572,15 @@ export const hintConfusions: HintConfusions = {
       "落とす"
     ]
   },
+  "sense-JLPTN3_86-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_87-1": {
     "senseVersion": 1,
     "words": [
-      "似る",
-      "一致"
+      "一致",
+      "交わる"
     ]
   },
   "sense-JLPTN3_88-1": {
@@ -7336,6 +9604,10 @@ export const hintConfusions: HintConfusions = {
       "取り組む"
     ]
   },
+  "sense-JLPTN3_90-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-JLPTN3_91-1": {
     "senseVersion": 1,
     "words": [
@@ -7346,14 +9618,12 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_92-1": {
     "senseVersion": 1,
     "words": [
-      "寝る",
-      "睡眠"
+      "寝る"
     ]
   },
   "sense-JLPTN3_93-1": {
     "senseVersion": 1,
     "words": [
-      "残す",
       "余る"
     ]
   },
@@ -7361,14 +9631,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "遅らせる",
-      "延びる"
+      "見合わせる"
     ]
   },
   "sense-JLPTN3_95-1": {
     "senseVersion": 1,
     "words": [
-      "生やす",
-      "芽"
+      "芽",
+      "育つ"
     ]
   },
   "sense-JLPTN3_96-1": {
@@ -7393,8 +9663,8 @@ export const hintConfusions: HintConfusions = {
   "sense-JLPTN3_99-1": {
     "senseVersion": 1,
     "words": [
-      "離れる",
-      "分ける"
+      "分ける",
+      "分かれる"
     ]
   },
   "sense-lex-jmdict-1000320-1": {
@@ -7409,6 +9679,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "さっぱり",
       "こってり"
+    ]
+  },
+  "sense-lex-jmdict-1000430-1": {
+    "senseVersion": 1,
+    "words": [
+      "あの人"
     ]
   },
   "sense-lex-jmdict-1000470-1": {
@@ -7495,6 +9771,18 @@ export const hintConfusions: HintConfusions = {
       "動揺"
     ]
   },
+  "sense-lex-jmdict-1001560-1": {
+    "senseVersion": 1,
+    "words": [
+      "あら"
+    ]
+  },
+  "sense-lex-jmdict-1001620-1": {
+    "senseVersion": 1,
+    "words": [
+      "寿司"
+    ]
+  },
   "sense-lex-jmdict-1001670-1": {
     "senseVersion": 1,
     "words": [
@@ -7505,29 +9793,41 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1001710-1": {
     "senseVersion": 1,
     "words": [
-      "菓子",
-      "おかず"
+      "おかず",
+      "キャンディ"
     ]
   },
   "sense-lex-jmdict-1001770-1": {
     "senseVersion": 1,
-    "words": [
-      "客",
-      "観客"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1001820-1": {
     "senseVersion": 1,
     "words": [
-      "料金",
-      "金銭"
+      "貨幣"
     ]
   },
   "sense-lex-jmdict-1001830-1": {
     "senseVersion": 1,
     "words": [
-      "兄",
-      "青年"
+      "青年",
+      "男の子"
+    ]
+  },
+  "sense-lex-jmdict-1001890-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1001910-1": {
+    "senseVersion": 1,
+    "words": [
+      "タオル"
+    ]
+  },
+  "sense-lex-jmdict-1001950-1": {
+    "senseVersion": 1,
+    "words": [
+      "見学"
     ]
   },
   "sense-lex-jmdict-1001970-1": {
@@ -7540,22 +9840,38 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1001990-1": {
     "senseVersion": 1,
     "words": [
-      "姉",
-      "少女"
+      "少女",
+      "お嬢さん"
     ]
   },
   "sense-lex-jmdict-1002010-1": {
     "senseVersion": 1,
     "words": [
-      "子供",
-      "子"
+      "少年"
+    ]
+  },
+  "sense-lex-jmdict-1002030-1": {
+    "senseVersion": 1,
+    "words": [
+      "挨拶"
+    ]
+  },
+  "sense-lex-jmdict-1002060-1": {
+    "senseVersion": 1,
+    "words": [
+      "飾り"
+    ]
+  },
+  "sense-lex-jmdict-1002080-1": {
+    "senseVersion": 1,
+    "words": [
+      "諦め"
     ]
   },
   "sense-lex-jmdict-1002100-1": {
     "senseVersion": 1,
     "words": [
-      "トイレ",
-      "洗面所"
+      "トイレ"
     ]
   },
   "sense-lex-jmdict-1002170-1": {
@@ -7572,32 +9888,60 @@ export const hintConfusions: HintConfusions = {
       "褒める"
     ]
   },
+  "sense-lex-jmdict-1002400-1": {
+    "senseVersion": 1,
+    "words": [
+      "家"
+    ]
+  },
+  "sense-lex-jmdict-1002430-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1002500-1": {
     "senseVersion": 1,
     "words": [
-      "土産",
       "プレゼント"
     ]
+  },
+  "sense-lex-jmdict-1002590-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1002610-1": {
     "senseVersion": 1,
     "words": [
-      "胃",
-      "腹"
+      "胃"
     ]
   },
   "sense-lex-jmdict-1002640-1": {
     "senseVersion": 1,
     "words": [
-      "代わり",
-      "返却"
+      "代わり"
     ]
   },
   "sense-lex-jmdict-1002650-1": {
     "senseVersion": 1,
     "words": [
-      "母",
       "ママ"
+    ]
+  },
+  "sense-lex-jmdict-1003170-1": {
+    "senseVersion": 1,
+    "words": [
+      "びっくり"
+    ]
+  },
+  "sense-lex-jmdict-1003190-1": {
+    "senseVersion": 1,
+    "words": [
+      "がっかり"
+    ]
+  },
+  "sense-lex-jmdict-1003200-1": {
+    "senseVersion": 1,
+    "words": [
+      "ほっそり"
     ]
   },
   "sense-lex-jmdict-1003440-1": {
@@ -7628,6 +9972,12 @@ export const hintConfusions: HintConfusions = {
       "はっきり"
     ]
   },
+  "sense-lex-jmdict-1004060-1": {
+    "senseVersion": 1,
+    "words": [
+      "ぐったり"
+    ]
+  },
   "sense-lex-jmdict-1004520-1": {
     "senseVersion": 1,
     "words": [
@@ -7654,6 +10004,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "そんなに",
       "こんな"
+    ]
+  },
+  "sense-lex-jmdict-1005110-1": {
+    "senseVersion": 1,
+    "words": [
+      "どうぞ"
     ]
   },
   "sense-lex-jmdict-1005190-1": {
@@ -7691,6 +10047,12 @@ export const hintConfusions: HintConfusions = {
       "失敗"
     ]
   },
+  "sense-lex-jmdict-1005660-1": {
+    "senseVersion": 1,
+    "words": [
+      "すき焼き"
+    ]
+  },
   "sense-lex-jmdict-1005860-1": {
     "senseVersion": 1,
     "words": [
@@ -7704,6 +10066,10 @@ export const hintConfusions: HintConfusions = {
       "すると",
       "では"
     ]
+  },
+  "sense-lex-jmdict-1005930-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1006110-1": {
     "senseVersion": 1,
@@ -7775,6 +10141,12 @@ export const hintConfusions: HintConfusions = {
       "逸れる"
     ]
   },
+  "sense-lex-jmdict-1006570-1": {
+    "senseVersion": 1,
+    "words": [
+      "少なくとも"
+    ]
+  },
   "sense-lex-jmdict-1006670-1": {
     "senseVersion": 1,
     "words": [
@@ -7809,6 +10181,10 @@ export const hintConfusions: HintConfusions = {
       "それ",
       "あれ"
     ]
+  },
+  "sense-lex-jmdict-1006960-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1006970-1": {
     "senseVersion": 1,
@@ -7850,6 +10226,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "でも",
       "だから"
+    ]
+  },
+  "sense-lex-jmdict-1007660-1": {
+    "senseVersion": 1,
+    "words": [
+      "さん"
     ]
   },
   "sense-lex-jmdict-1007720-1": {
@@ -7894,6 +10276,12 @@ export const hintConfusions: HintConfusions = {
       "ごく"
     ]
   },
+  "sense-lex-jmdict-1008910-1": {
+    "senseVersion": 1,
+    "words": [
+      "なぜ"
+    ]
+  },
   "sense-lex-jmdict-1008950-1": {
     "senseVersion": 1,
     "words": [
@@ -7908,11 +10296,23 @@ export const hintConfusions: HintConfusions = {
       "礼"
     ]
   },
+  "sense-lex-jmdict-1009050-1": {
+    "senseVersion": 1,
+    "words": [
+      "ワクワク"
+    ]
+  },
   "sense-lex-jmdict-1009210-1": {
     "senseVersion": 1,
     "words": [
       "一度に",
       "徐々に"
+    ]
+  },
+  "sense-lex-jmdict-1009290-1": {
+    "senseVersion": 1,
+    "words": [
+      "どの"
     ]
   },
   "sense-lex-jmdict-1009320-1": {
@@ -7978,6 +10378,12 @@ export const hintConfusions: HintConfusions = {
       "単に"
     ]
   },
+  "sense-lex-jmdict-1010830-1": {
+    "senseVersion": 1,
+    "words": [
+      "キラキラ"
+    ]
+  },
   "sense-lex-jmdict-1010900-1": {
     "senseVersion": 1,
     "words": [
@@ -8013,11 +10419,16 @@ export const hintConfusions: HintConfusions = {
       "無難"
     ]
   },
+  "sense-lex-jmdict-1012110-1": {
+    "senseVersion": 1,
+    "words": [
+      "ためらう"
+    ]
+  },
   "sense-lex-jmdict-1012210-1": {
     "senseVersion": 1,
     "words": [
-      "誠実",
-      "充実"
+      "真面目"
     ]
   },
   "sense-lex-jmdict-1012470-1": {
@@ -8059,7 +10470,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "やり直し",
-      "方法"
+      "手段"
     ]
   },
   "sense-lex-jmdict-1013050-1": {
@@ -8090,6 +10501,24 @@ export const hintConfusions: HintConfusions = {
       "以来"
     ]
   },
+  "sense-lex-jmdict-1013830-1": {
+    "senseVersion": 1,
+    "words": [
+      "ピーナッツ"
+    ]
+  },
+  "sense-lex-jmdict-1013920-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボタン"
+    ]
+  },
+  "sense-lex-jmdict-1013980-1": {
+    "senseVersion": 1,
+    "words": [
+      "かき氷"
+    ]
+  },
   "sense-lex-jmdict-1014340-1": {
     "senseVersion": 1,
     "words": [
@@ -8097,11 +10526,23 @@ export const hintConfusions: HintConfusions = {
       "スター"
     ]
   },
+  "sense-lex-jmdict-1014590-1": {
+    "senseVersion": 1,
+    "words": [
+      "掃除機"
+    ]
+  },
   "sense-lex-jmdict-1014770-1": {
     "senseVersion": 1,
     "words": [
       "インドア",
       "野外"
+    ]
+  },
+  "sense-lex-jmdict-1014900-1": {
+    "senseVersion": 1,
+    "words": [
+      "デパート"
     ]
   },
   "sense-lex-jmdict-1015220-1": {
@@ -8130,6 +10571,24 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "助手",
       "責任者"
+    ]
+  },
+  "sense-lex-jmdict-1016060-1": {
+    "senseVersion": 1,
+    "words": [
+      "ブロッコリー"
+    ]
+  },
+  "sense-lex-jmdict-1016120-1": {
+    "senseVersion": 1,
+    "words": [
+      "コンクリート"
+    ]
+  },
+  "sense-lex-jmdict-1016460-1": {
+    "senseVersion": 1,
+    "words": [
+      "充電器"
     ]
   },
   "sense-lex-jmdict-1016880-1": {
@@ -8167,10 +10626,28 @@ export const hintConfusions: HintConfusions = {
       "放送"
     ]
   },
+  "sense-lex-jmdict-1017590-1": {
+    "senseVersion": 1,
+    "words": [
+      "漫画"
+    ]
+  },
   "sense-lex-jmdict-1017760-1": {
     "senseVersion": 1,
     "words": [
       "マンション"
+    ]
+  },
+  "sense-lex-jmdict-1018190-1": {
+    "senseVersion": 1,
+    "words": [
+      "サイト"
+    ]
+  },
+  "sense-lex-jmdict-1018260-1": {
+    "senseVersion": 1,
+    "words": [
+      "解決"
     ]
   },
   "sense-lex-jmdict-1018550-1": {
@@ -8187,6 +10664,18 @@ export const hintConfusions: HintConfusions = {
       "酒"
     ]
   },
+  "sense-lex-jmdict-1019420-1": {
+    "senseVersion": 1,
+    "words": [
+      "社員"
+    ]
+  },
+  "sense-lex-jmdict-1019450-1": {
+    "senseVersion": 1,
+    "words": [
+      "写真集"
+    ]
+  },
   "sense-lex-jmdict-1019940-1": {
     "senseVersion": 1,
     "words": [
@@ -8199,6 +10688,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "下線",
       "囲み"
+    ]
+  },
+  "sense-lex-jmdict-1020410-1": {
+    "senseVersion": 1,
+    "words": [
+      "ケーブル"
+    ]
+  },
+  "sense-lex-jmdict-1021220-1": {
+    "senseVersion": 1,
+    "words": [
+      "プラス"
     ]
   },
   "sense-lex-jmdict-1021680-1": {
@@ -8215,11 +10716,29 @@ export const hintConfusions: HintConfusions = {
       "印象"
     ]
   },
+  "sense-lex-jmdict-1021880-1": {
+    "senseVersion": 1,
+    "words": [
+      "マイク"
+    ]
+  },
+  "sense-lex-jmdict-1021910-1": {
+    "senseVersion": 1,
+    "words": [
+      "ネックレス"
+    ]
+  },
   "sense-lex-jmdict-1021940-1": {
     "senseVersion": 1,
     "words": [
       "絵",
       "絵画"
+    ]
+  },
+  "sense-lex-jmdict-1021970-1": {
+    "senseVersion": 1,
+    "words": [
+      "写真家"
     ]
   },
   "sense-lex-jmdict-1022050-1": {
@@ -8229,6 +10748,12 @@ export const hintConfusions: HintConfusions = {
       "光"
     ]
   },
+  "sense-lex-jmdict-1022210-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵の具"
+    ]
+  },
   "sense-lex-jmdict-1022650-1": {
     "senseVersion": 1,
     "words": [
@@ -8236,11 +10761,29 @@ export const hintConfusions: HintConfusions = {
       "受講者"
     ]
   },
+  "sense-lex-jmdict-1022880-1": {
+    "senseVersion": 1,
+    "words": [
+      "テレビ"
+    ]
+  },
   "sense-lex-jmdict-1023100-1": {
     "senseVersion": 1,
     "words": [
       "面接",
       "会見"
+    ]
+  },
+  "sense-lex-jmdict-1023410-1": {
+    "senseVersion": 1,
+    "words": [
+      "専門家"
+    ]
+  },
+  "sense-lex-jmdict-1023420-1": {
+    "senseVersion": 1,
+    "words": [
+      "外観"
     ]
   },
   "sense-lex-jmdict-1023810-1": {
@@ -8254,6 +10797,30 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "風邪"
+    ]
+  },
+  "sense-lex-jmdict-1024430-1": {
+    "senseVersion": 1,
+    "words": [
+      "デフレ"
+    ]
+  },
+  "sense-lex-jmdict-1025010-1": {
+    "senseVersion": 1,
+    "words": [
+      "綿"
+    ]
+  },
+  "sense-lex-jmdict-1025140-1": {
+    "senseVersion": 1,
+    "words": [
+      "ワイン"
+    ]
+  },
+  "sense-lex-jmdict-1025180-1": {
+    "senseVersion": 1,
+    "words": [
+      "ヘッドライト"
     ]
   },
   "sense-lex-jmdict-1026070-1": {
@@ -8270,6 +10837,18 @@ export const hintConfusions: HintConfusions = {
       "冷房"
     ]
   },
+  "sense-lex-jmdict-1027360-1": {
+    "senseVersion": 1,
+    "words": [
+      "シートベルト"
+    ]
+  },
+  "sense-lex-jmdict-1028580-1": {
+    "senseVersion": 1,
+    "words": [
+      "エレベーター"
+    ]
+  },
   "sense-lex-jmdict-1028990-1": {
     "senseVersion": 1,
     "words": [
@@ -8284,6 +10863,12 @@ export const hintConfusions: HintConfusions = {
       "力"
     ]
   },
+  "sense-lex-jmdict-1029760-1": {
+    "senseVersion": 1,
+    "words": [
+      "制服"
+    ]
+  },
   "sense-lex-jmdict-1030040-1": {
     "senseVersion": 1,
     "words": [
@@ -8291,11 +10876,77 @@ export const hintConfusions: HintConfusions = {
       "錯誤"
     ]
   },
+  "sense-lex-jmdict-1030350-1": {
+    "senseVersion": 1,
+    "words": [
+      "豪華"
+    ]
+  },
+  "sense-lex-jmdict-1030630-1": {
+    "senseVersion": 1,
+    "words": [
+      "エスカレーター"
+    ]
+  },
   "sense-lex-jmdict-1030950-1": {
     "senseVersion": 1,
     "words": [
       "機関",
       "モーター"
+    ]
+  },
+  "sense-lex-jmdict-1031610-1": {
+    "senseVersion": 1,
+    "words": [
+      "合唱団"
+    ]
+  },
+  "sense-lex-jmdict-1031800-1": {
+    "senseVersion": 1,
+    "words": [
+      "既製品"
+    ]
+  },
+  "sense-lex-jmdict-1031870-1": {
+    "senseVersion": 1,
+    "words": [
+      "練習"
+    ]
+  },
+  "sense-lex-jmdict-1032030-1": {
+    "senseVersion": 1,
+    "words": [
+      "自転車"
+    ]
+  },
+  "sense-lex-jmdict-1032180-1": {
+    "senseVersion": 1,
+    "words": [
+      "機械化"
+    ]
+  },
+  "sense-lex-jmdict-1032260-1": {
+    "senseVersion": 1,
+    "words": [
+      "鍵"
+    ]
+  },
+  "sense-lex-jmdict-1032320-1": {
+    "senseVersion": 1,
+    "words": [
+      "店長"
+    ]
+  },
+  "sense-lex-jmdict-1032390-1": {
+    "senseVersion": 1,
+    "words": [
+      "大げさ"
+    ]
+  },
+  "sense-lex-jmdict-1032930-1": {
+    "senseVersion": 1,
+    "words": [
+      "電子レンジ"
     ]
   },
   "sense-lex-jmdict-1034660-1": {
@@ -8312,11 +10963,65 @@ export const hintConfusions: HintConfusions = {
       "選考"
     ]
   },
+  "sense-lex-jmdict-1035550-1": {
+    "senseVersion": 1,
+    "words": [
+      "研修"
+    ]
+  },
+  "sense-lex-jmdict-1035780-1": {
+    "senseVersion": 1,
+    "words": [
+      "ピアノ"
+    ]
+  },
+  "sense-lex-jmdict-1035800-1": {
+    "senseVersion": 1,
+    "words": [
+      "時計"
+    ]
+  },
+  "sense-lex-jmdict-1036080-1": {
+    "senseVersion": 1,
+    "words": [
+      "オフライン"
+    ]
+  },
+  "sense-lex-jmdict-1036260-1": {
+    "senseVersion": 1,
+    "words": [
+      "文字"
+    ]
+  },
   "sense-lex-jmdict-1036290-1": {
     "senseVersion": 1,
     "words": [
       "ブラインド",
       "幕"
+    ]
+  },
+  "sense-lex-jmdict-1036340-1": {
+    "senseVersion": 1,
+    "words": [
+      "セーター"
+    ]
+  },
+  "sense-lex-jmdict-1036360-1": {
+    "senseVersion": 1,
+    "words": [
+      "かご"
+    ]
+  },
+  "sense-lex-jmdict-1036400-1": {
+    "senseVersion": 1,
+    "words": [
+      "紙"
+    ]
+  },
+  "sense-lex-jmdict-1036450-1": {
+    "senseVersion": 1,
+    "words": [
+      "花束"
     ]
   },
   "sense-lex-jmdict-1036560-1": {
@@ -8326,11 +11031,29 @@ export const hintConfusions: HintConfusions = {
       "直線"
     ]
   },
+  "sense-lex-jmdict-1036900-1": {
+    "senseVersion": 1,
+    "words": [
+      "相談者"
+    ]
+  },
+  "sense-lex-jmdict-1037590-1": {
+    "senseVersion": 1,
+    "words": [
+      "はさみ"
+    ]
+  },
   "sense-lex-jmdict-1037630-1": {
     "senseVersion": 1,
     "words": [
       "削減",
       "削除"
+    ]
+  },
+  "sense-lex-jmdict-1037670-1": {
+    "senseVersion": 1,
+    "words": [
+      "コップ"
     ]
   },
   "sense-lex-jmdict-1037790-1": {
@@ -8354,11 +11077,47 @@ export const hintConfusions: HintConfusions = {
       "喫茶店"
     ]
   },
+  "sense-lex-jmdict-1038220-1": {
+    "senseVersion": 1,
+    "words": [
+      "錠剤"
+    ]
+  },
+  "sense-lex-jmdict-1038320-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰宅"
+    ]
+  },
+  "sense-lex-jmdict-1038350-1": {
+    "senseVersion": 1,
+    "words": [
+      "写真"
+    ]
+  },
+  "sense-lex-jmdict-1038910-1": {
+    "senseVersion": 1,
+    "words": [
+      "ビタミン"
+    ]
+  },
   "sense-lex-jmdict-1039000-1": {
     "senseVersion": 1,
     "words": [
       "診断書",
       "記録"
+    ]
+  },
+  "sense-lex-jmdict-1039220-1": {
+    "senseVersion": 1,
+    "words": [
+      "手帳"
+    ]
+  },
+  "sense-lex-jmdict-1039300-1": {
+    "senseVersion": 1,
+    "words": [
+      "栄養"
     ]
   },
   "sense-lex-jmdict-1039490-1": {
@@ -8368,11 +11127,71 @@ export const hintConfusions: HintConfusions = {
       "詐欺"
     ]
   },
+  "sense-lex-jmdict-1039660-1": {
+    "senseVersion": 1,
+    "words": [
+      "包帯"
+    ]
+  },
+  "sense-lex-jmdict-1039760-1": {
+    "senseVersion": 1,
+    "words": [
+      "歩道"
+    ]
+  },
+  "sense-lex-jmdict-1040250-1": {
+    "senseVersion": 1,
+    "words": [
+      "軽油"
+    ]
+  },
+  "sense-lex-jmdict-1040260-1": {
+    "senseVersion": 1,
+    "words": [
+      "駐車場"
+    ]
+  },
+  "sense-lex-jmdict-1040350-1": {
+    "senseVersion": 1,
+    "words": [
+      "飴"
+    ]
+  },
+  "sense-lex-jmdict-1040990-1": {
+    "senseVersion": 1,
+    "words": [
+      "バナナ"
+    ]
+  },
+  "sense-lex-jmdict-1041430-1": {
+    "senseVersion": 1,
+    "words": [
+      "クレジットカード"
+    ]
+  },
   "sense-lex-jmdict-1041530-1": {
     "senseVersion": 1,
     "words": [
       "発信",
       "確保"
+    ]
+  },
+  "sense-lex-jmdict-1041850-1": {
+    "senseVersion": 1,
+    "words": [
+      "監督"
+    ]
+  },
+  "sense-lex-jmdict-1041870-1": {
+    "senseVersion": 1,
+    "words": [
+      "レタス"
+    ]
+  },
+  "sense-lex-jmdict-1041980-1": {
+    "senseVersion": 1,
+    "words": [
+      "職業"
     ]
   },
   "sense-lex-jmdict-1042080-1": {
@@ -8389,11 +11208,35 @@ export const hintConfusions: HintConfusions = {
       "校庭"
     ]
   },
+  "sense-lex-jmdict-1042200-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行"
+    ]
+  },
+  "sense-lex-jmdict-1042610-1": {
+    "senseVersion": 1,
+    "words": [
+      "グラム"
+    ]
+  },
+  "sense-lex-jmdict-1042820-1": {
+    "senseVersion": 1,
+    "words": [
+      "ピアノ"
+    ]
+  },
   "sense-lex-jmdict-1043290-1": {
     "senseVersion": 1,
     "words": [
       "領収書",
       "券"
+    ]
+  },
+  "sense-lex-jmdict-1043310-1": {
+    "senseVersion": 1,
+    "words": [
+      "エアコン"
     ]
   },
   "sense-lex-jmdict-1044020-1": {
@@ -8417,6 +11260,18 @@ export const hintConfusions: HintConfusions = {
       "清掃"
     ]
   },
+  "sense-lex-jmdict-1044480-1": {
+    "senseVersion": 1,
+    "words": [
+      "バター"
+    ]
+  },
+  "sense-lex-jmdict-1044830-1": {
+    "senseVersion": 1,
+    "words": [
+      "誕生日"
+    ]
+  },
   "sense-lex-jmdict-1046170-1": {
     "senseVersion": 1,
     "words": [
@@ -8431,11 +11286,35 @@ export const hintConfusions: HintConfusions = {
       "体育館"
     ]
   },
+  "sense-lex-jmdict-1046430-1": {
+    "senseVersion": 1,
+    "words": [
+      "コップ"
+    ]
+  },
+  "sense-lex-jmdict-1046540-1": {
+    "senseVersion": 1,
+    "words": [
+      "スープ"
+    ]
+  },
+  "sense-lex-jmdict-1046890-1": {
+    "senseVersion": 1,
+    "words": [
+      "電子ピアノ"
+    ]
+  },
   "sense-lex-jmdict-1047200-1": {
     "senseVersion": 1,
     "words": [
       "柄",
       "刃"
+    ]
+  },
+  "sense-lex-jmdict-1047220-1": {
+    "senseVersion": 1,
+    "words": [
+      "鍋"
     ]
   },
   "sense-lex-jmdict-1047300-1": {
@@ -8445,11 +11324,41 @@ export const hintConfusions: HintConfusions = {
       "一人"
     ]
   },
+  "sense-lex-jmdict-1047470-1": {
+    "senseVersion": 1,
+    "words": [
+      "食材"
+    ]
+  },
+  "sense-lex-jmdict-1047860-1": {
+    "senseVersion": 1,
+    "words": [
+      "パン"
+    ]
+  },
+  "sense-lex-jmdict-1047870-1": {
+    "senseVersion": 1,
+    "words": [
+      "水槽"
+    ]
+  },
   "sense-lex-jmdict-1047880-1": {
     "senseVersion": 1,
     "words": [
       "箱",
       "際"
+    ]
+  },
+  "sense-lex-jmdict-1048000-1": {
+    "senseVersion": 1,
+    "words": [
+      "電池"
+    ]
+  },
+  "sense-lex-jmdict-1048100-1": {
+    "senseVersion": 1,
+    "words": [
+      "マヨネーズ"
     ]
   },
   "sense-lex-jmdict-1048330-1": {
@@ -8466,11 +11375,29 @@ export const hintConfusions: HintConfusions = {
       "試合"
     ]
   },
+  "sense-lex-jmdict-1048450-1": {
+    "senseVersion": 1,
+    "words": [
+      "遊園地"
+    ]
+  },
+  "sense-lex-jmdict-1048740-1": {
+    "senseVersion": 1,
+    "words": [
+      "登山道"
+    ]
+  },
   "sense-lex-jmdict-1048830-1": {
     "senseVersion": 1,
     "words": [
       "道",
       "方向"
+    ]
+  },
+  "sense-lex-jmdict-1048860-1": {
+    "senseVersion": 1,
+    "words": [
+      "皿"
     ]
   },
   "sense-lex-jmdict-1048910-1": {
@@ -8493,6 +11420,12 @@ export const hintConfusions: HintConfusions = {
       "規則"
     ]
   },
+  "sense-lex-jmdict-1049340-1": {
+    "senseVersion": 1,
+    "words": [
+      "独唱"
+    ]
+  },
   "sense-lex-jmdict-1049870-1": {
     "senseVersion": 1,
     "words": [
@@ -8500,11 +11433,23 @@ export const hintConfusions: HintConfusions = {
       "紙幣"
     ]
   },
+  "sense-lex-jmdict-1049900-1": {
+    "senseVersion": 1,
+    "words": [
+      "財布"
+    ]
+  },
   "sense-lex-jmdict-1050310-1": {
     "senseVersion": 1,
     "words": [
       "シェフ",
       "ウェーター"
+    ]
+  },
+  "sense-lex-jmdict-1050410-1": {
+    "senseVersion": 1,
+    "words": [
+      "テント"
     ]
   },
   "sense-lex-jmdict-1050590-1": {
@@ -8542,11 +11487,35 @@ export const hintConfusions: HintConfusions = {
       "商品"
     ]
   },
+  "sense-lex-jmdict-1051690-1": {
+    "senseVersion": 1,
+    "words": [
+      "天ぷら"
+    ]
+  },
   "sense-lex-jmdict-1051840-1": {
     "senseVersion": 1,
     "words": [
       "発表会",
       "試合"
+    ]
+  },
+  "sense-lex-jmdict-1051970-1": {
+    "senseVersion": 1,
+    "words": [
+      "映画"
+    ]
+  },
+  "sense-lex-jmdict-1052330-1": {
+    "senseVersion": 1,
+    "words": [
+      "プラグ"
+    ]
+  },
+  "sense-lex-jmdict-1052420-1": {
+    "senseVersion": 1,
+    "words": [
+      "眼鏡"
     ]
   },
   "sense-lex-jmdict-1052780-1": {
@@ -8556,6 +11525,12 @@ export const hintConfusions: HintConfusions = {
       "比較"
     ]
   },
+  "sense-lex-jmdict-1052820-1": {
+    "senseVersion": 1,
+    "words": [
+      "画面"
+    ]
+  },
   "sense-lex-jmdict-1052830-1": {
     "senseVersion": 1,
     "words": [
@@ -8563,11 +11538,29 @@ export const hintConfusions: HintConfusions = {
       "調節"
     ]
   },
+  "sense-lex-jmdict-1054110-1": {
+    "senseVersion": 1,
+    "words": [
+      "サングラス"
+    ]
+  },
   "sense-lex-jmdict-1054230-1": {
     "senseVersion": 1,
     "words": [
       "目的",
       "目標"
+    ]
+  },
+  "sense-lex-jmdict-1054250-1": {
+    "senseVersion": 1,
+    "words": [
+      "審判"
+    ]
+  },
+  "sense-lex-jmdict-1054300-1": {
+    "senseVersion": 1,
+    "words": [
+      "週末"
     ]
   },
   "sense-lex-jmdict-1054850-1": {
@@ -8584,11 +11577,35 @@ export const hintConfusions: HintConfusions = {
       "業務"
     ]
   },
+  "sense-lex-jmdict-1055020-1": {
+    "senseVersion": 1,
+    "words": [
+      "駅"
+    ]
+  },
+  "sense-lex-jmdict-1055500-1": {
+    "senseVersion": 1,
+    "words": [
+      "散歩"
+    ]
+  },
   "sense-lex-jmdict-1055520-1": {
     "senseVersion": 1,
     "words": [
       "循環",
       "一回"
+    ]
+  },
+  "sense-lex-jmdict-1055810-1": {
+    "senseVersion": 1,
+    "words": [
+      "アプリ"
+    ]
+  },
+  "sense-lex-jmdict-1056150-1": {
+    "senseVersion": 1,
+    "words": [
+      "ベル"
     ]
   },
   "sense-lex-jmdict-1056230-1": {
@@ -8598,11 +11615,59 @@ export const hintConfusions: HintConfusions = {
       "信号"
     ]
   },
+  "sense-lex-jmdict-1056360-1": {
+    "senseVersion": 1,
+    "words": [
+      "プール"
+    ]
+  },
+  "sense-lex-jmdict-1056700-1": {
+    "senseVersion": 1,
+    "words": [
+      "野球"
+    ]
+  },
+  "sense-lex-jmdict-1056920-1": {
+    "senseVersion": 1,
+    "words": [
+      "ハンドル"
+    ]
+  },
+  "sense-lex-jmdict-1057620-1": {
+    "senseVersion": 1,
+    "words": [
+      "包帯"
+    ]
+  },
   "sense-lex-jmdict-1057630-1": {
     "senseVersion": 1,
     "words": [
       "妨害",
       "援助"
+    ]
+  },
+  "sense-lex-jmdict-1057850-1": {
+    "senseVersion": 1,
+    "words": [
+      "スープ"
+    ]
+  },
+  "sense-lex-jmdict-1057960-1": {
+    "senseVersion": 1,
+    "words": [
+      "自営業者"
+    ]
+  },
+  "sense-lex-jmdict-1058480-1": {
+    "senseVersion": 1,
+    "words": [
+      "靴"
+    ]
+  },
+  "sense-lex-jmdict-1058580-1": {
+    "senseVersion": 1,
+    "words": [
+      "おにぎり"
     ]
   },
   "sense-lex-jmdict-1058760-1": {
@@ -8617,6 +11682,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "季節",
       "時期"
+    ]
+  },
+  "sense-lex-jmdict-1059400-1": {
+    "senseVersion": 1,
+    "words": [
+      "毛布"
+    ]
+  },
+  "sense-lex-jmdict-1059520-1": {
+    "senseVersion": 1,
+    "words": [
+      "ハンドル"
     ]
   },
   "sense-lex-jmdict-1059930-1": {
@@ -8661,11 +11738,89 @@ export const hintConfusions: HintConfusions = {
       "交替"
     ]
   },
+  "sense-lex-jmdict-1061440-1": {
+    "senseVersion": 1,
+    "words": [
+      "レンズ"
+    ]
+  },
   "sense-lex-jmdict-1061520-1": {
     "senseVersion": 1,
     "words": [
       "上着",
       "肌着"
+    ]
+  },
+  "sense-lex-jmdict-1061590-1": {
+    "senseVersion": 1,
+    "words": [
+      "タクシー"
+    ]
+  },
+  "sense-lex-jmdict-1061820-1": {
+    "senseVersion": 1,
+    "words": [
+      "お風呂"
+    ]
+  },
+  "sense-lex-jmdict-1061900-1": {
+    "senseVersion": 1,
+    "words": [
+      "懐中電灯"
+    ]
+  },
+  "sense-lex-jmdict-1061930-1": {
+    "senseVersion": 1,
+    "words": [
+      "石鹸"
+    ]
+  },
+  "sense-lex-jmdict-1061950-1": {
+    "senseVersion": 1,
+    "words": [
+      "パン"
+    ]
+  },
+  "sense-lex-jmdict-1062230-1": {
+    "senseVersion": 1,
+    "words": [
+      "プリンター"
+    ]
+  },
+  "sense-lex-jmdict-1062250-1": {
+    "senseVersion": 1,
+    "words": [
+      "試着室"
+    ]
+  },
+  "sense-lex-jmdict-1062330-1": {
+    "senseVersion": 1,
+    "words": [
+      "遠回り"
+    ]
+  },
+  "sense-lex-jmdict-1062460-1": {
+    "senseVersion": 1,
+    "words": [
+      "スカート"
+    ]
+  },
+  "sense-lex-jmdict-1062580-1": {
+    "senseVersion": 1,
+    "words": [
+      "手袋"
+    ]
+  },
+  "sense-lex-jmdict-1062590-1": {
+    "senseVersion": 1,
+    "words": [
+      "倉庫"
+    ]
+  },
+  "sense-lex-jmdict-1062870-1": {
+    "senseVersion": 1,
+    "words": [
+      "リュック"
     ]
   },
   "sense-lex-jmdict-1062910-1": {
@@ -8682,11 +11837,29 @@ export const hintConfusions: HintConfusions = {
       "木綿"
     ]
   },
+  "sense-lex-jmdict-1063350-1": {
+    "senseVersion": 1,
+    "words": [
+      "塩"
+    ]
+  },
+  "sense-lex-jmdict-1063430-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷蔵庫"
+    ]
+  },
   "sense-lex-jmdict-1063530-1": {
     "senseVersion": 1,
     "words": [
       "ツイン",
       "独身"
+    ]
+  },
+  "sense-lex-jmdict-1064120-1": {
+    "senseVersion": 1,
+    "words": [
+      "ズボン"
     ]
   },
   "sense-lex-jmdict-1064170-1": {
@@ -8696,11 +11869,27 @@ export const hintConfusions: HintConfusions = {
       "動作"
     ]
   },
+  "sense-lex-jmdict-1064200-1": {
+    "senseVersion": 1,
+    "words": [
+      "観覧車"
+    ]
+  },
+  "sense-lex-jmdict-1064250-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1064620-1": {
     "senseVersion": 1,
     "words": [
       "折り紙",
       "謎"
+    ]
+  },
+  "sense-lex-jmdict-1064880-1": {
+    "senseVersion": 1,
+    "words": [
+      "競技場"
     ]
   },
   "sense-lex-jmdict-1064980-1": {
@@ -8717,11 +11906,23 @@ export const hintConfusions: HintConfusions = {
       "上着"
     ]
   },
+  "sense-lex-jmdict-1065680-1": {
+    "senseVersion": 1,
+    "words": [
+      "バター"
+    ]
+  },
   "sense-lex-jmdict-1065920-1": {
     "senseVersion": 1,
     "words": [
       "分野",
       "作品"
+    ]
+  },
+  "sense-lex-jmdict-1065950-1": {
+    "senseVersion": 1,
+    "words": [
+      "水"
     ]
   },
   "sense-lex-jmdict-1065980-1": {
@@ -8738,11 +11939,35 @@ export const hintConfusions: HintConfusions = {
       "嘘"
     ]
   },
+  "sense-lex-jmdict-1066390-1": {
+    "senseVersion": 1,
+    "words": [
+      "湯飲み"
+    ]
+  },
   "sense-lex-jmdict-1066680-1": {
     "senseVersion": 1,
     "words": [
       "制服",
       "服"
+    ]
+  },
+  "sense-lex-jmdict-1066690-1": {
+    "senseVersion": 1,
+    "words": [
+      "かばん"
+    ]
+  },
+  "sense-lex-jmdict-1066930-1": {
+    "senseVersion": 1,
+    "words": [
+      "コンビニ"
+    ]
+  },
+  "sense-lex-jmdict-1067040-1": {
+    "senseVersion": 1,
+    "words": [
+      "味噌汁"
     ]
   },
   "sense-lex-jmdict-1067210-1": {
@@ -8752,11 +11977,41 @@ export const hintConfusions: HintConfusions = {
       "乗り換える"
     ]
   },
+  "sense-lex-jmdict-1067470-1": {
+    "senseVersion": 1,
+    "words": [
+      "ズボン"
+    ]
+  },
+  "sense-lex-jmdict-1067480-1": {
+    "senseVersion": 1,
+    "words": [
+      "マフラー"
+    ]
+  },
   "sense-lex-jmdict-1067770-1": {
     "senseVersion": 1,
     "words": [
       "スケート",
       "滑る"
+    ]
+  },
+  "sense-lex-jmdict-1067970-1": {
+    "senseVersion": 1,
+    "words": [
+      "プリンター"
+    ]
+  },
+  "sense-lex-jmdict-1068120-1": {
+    "senseVersion": 1,
+    "words": [
+      "化粧"
+    ]
+  },
+  "sense-lex-jmdict-1068190-1": {
+    "senseVersion": 1,
+    "words": [
+      "自転車"
     ]
   },
   "sense-lex-jmdict-1068550-1": {
@@ -8773,11 +12028,29 @@ export const hintConfusions: HintConfusions = {
       "滑る"
     ]
   },
+  "sense-lex-jmdict-1068790-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゲレンデ"
+    ]
+  },
   "sense-lex-jmdict-1068870-1": {
     "senseVersion": 1,
     "words": [
       "日程",
       "予定"
+    ]
+  },
+  "sense-lex-jmdict-1068890-1": {
+    "senseVersion": 1,
+    "words": [
+      "ノート"
+    ]
+  },
+  "sense-lex-jmdict-1069160-1": {
+    "senseVersion": 1,
+    "words": [
+      "熊手"
     ]
   },
   "sense-lex-jmdict-1069210-1": {
@@ -8808,11 +12081,59 @@ export const hintConfusions: HintConfusions = {
       "台"
     ]
   },
+  "sense-lex-jmdict-1070280-1": {
+    "senseVersion": 1,
+    "words": [
+      "焼き肉"
+    ]
+  },
   "sense-lex-jmdict-1070320-1": {
     "senseVersion": 1,
     "words": [
       "舞台",
       "客席"
+    ]
+  },
+  "sense-lex-jmdict-1070500-1": {
+    "senseVersion": 1,
+    "words": [
+      "切手"
+    ]
+  },
+  "sense-lex-jmdict-1070650-1": {
+    "senseVersion": 1,
+    "words": [
+      "ラジオ"
+    ]
+  },
+  "sense-lex-jmdict-1070750-1": {
+    "senseVersion": 1,
+    "words": [
+      "鏡"
+    ]
+  },
+  "sense-lex-jmdict-1070760-1": {
+    "senseVersion": 1,
+    "words": [
+      "木材"
+    ]
+  },
+  "sense-lex-jmdict-1070790-1": {
+    "senseVersion": 1,
+    "words": [
+      "コンロ"
+    ]
+  },
+  "sense-lex-jmdict-1071110-1": {
+    "senseVersion": 1,
+    "words": [
+      "目覚まし時計"
+    ]
+  },
+  "sense-lex-jmdict-1071180-1": {
+    "senseVersion": 1,
+    "words": [
+      "休暇"
     ]
   },
   "sense-lex-jmdict-1071220-1": {
@@ -8836,11 +12157,41 @@ export const hintConfusions: HintConfusions = {
       "引っ張る"
     ]
   },
+  "sense-lex-jmdict-1071680-1": {
+    "senseVersion": 1,
+    "words": [
+      "サンダル"
+    ]
+  },
+  "sense-lex-jmdict-1072010-1": {
+    "senseVersion": 1,
+    "words": [
+      "砂糖"
+    ]
+  },
+  "sense-lex-jmdict-1072080-1": {
+    "senseVersion": 1,
+    "words": [
+      "うどん"
+    ]
+  },
+  "sense-lex-jmdict-1072240-1": {
+    "senseVersion": 1,
+    "words": [
+      "マイク"
+    ]
+  },
   "sense-lex-jmdict-1072260-1": {
     "senseVersion": 1,
     "words": [
       "演説",
       "会話"
+    ]
+  },
+  "sense-lex-jmdict-1072590-1": {
+    "senseVersion": 1,
+    "words": [
+      "フォーク"
     ]
   },
   "sense-lex-jmdict-1072750-1": {
@@ -8871,6 +12222,12 @@ export const hintConfusions: HintConfusions = {
       "競技"
     ]
   },
+  "sense-lex-jmdict-1073530-1": {
+    "senseVersion": 1,
+    "words": [
+      "たわし"
+    ]
+  },
   "sense-lex-jmdict-1073570-1": {
     "senseVersion": 1,
     "words": [
@@ -8883,6 +12240,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "原稿",
       "滑る"
+    ]
+  },
+  "sense-lex-jmdict-1073900-1": {
+    "senseVersion": 1,
+    "words": [
+      "サンダル"
+    ]
+  },
+  "sense-lex-jmdict-1074270-1": {
+    "senseVersion": 1,
+    "words": [
+      "コート"
     ]
   },
   "sense-lex-jmdict-1074490-1": {
@@ -8899,6 +12268,18 @@ export const hintConfusions: HintConfusions = {
       "組"
     ]
   },
+  "sense-lex-jmdict-1074840-1": {
+    "senseVersion": 1,
+    "words": [
+      "配達"
+    ]
+  },
+  "sense-lex-jmdict-1074990-1": {
+    "senseVersion": 1,
+    "words": [
+      "スイッチ"
+    ]
+  },
   "sense-lex-jmdict-1075040-1": {
     "senseVersion": 1,
     "words": [
@@ -8911,6 +12292,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "講義",
       "演習"
+    ]
+  },
+  "sense-lex-jmdict-1075300-1": {
+    "senseVersion": 1,
+    "words": [
+      "ハム"
+    ]
+  },
+  "sense-lex-jmdict-1075480-1": {
+    "senseVersion": 1,
+    "words": [
+      "椅子"
     ]
   },
   "sense-lex-jmdict-1075500-1": {
@@ -8927,11 +12320,59 @@ export const hintConfusions: HintConfusions = {
       "パターン"
     ]
   },
+  "sense-lex-jmdict-1075960-1": {
+    "senseVersion": 1,
+    "words": [
+      "キーボード"
+    ]
+  },
+  "sense-lex-jmdict-1076000-1": {
+    "senseVersion": 1,
+    "words": [
+      "期間"
+    ]
+  },
+  "sense-lex-jmdict-1076120-1": {
+    "senseVersion": 1,
+    "words": [
+      "車輪"
+    ]
+  },
+  "sense-lex-jmdict-1076170-1": {
+    "senseVersion": 1,
+    "words": [
+      "ハンカチ"
+    ]
+  },
+  "sense-lex-jmdict-1076190-1": {
+    "senseVersion": 1,
+    "words": [
+      "バス"
+    ]
+  },
+  "sense-lex-jmdict-1076860-1": {
+    "senseVersion": 1,
+    "words": [
+      "宝石"
+    ]
+  },
+  "sense-lex-jmdict-1077010-1": {
+    "senseVersion": 1,
+    "words": [
+      "アップロード"
+    ]
+  },
   "sense-lex-jmdict-1077250-1": {
     "senseVersion": 1,
     "words": [
       "踊り",
       "踊る"
+    ]
+  },
+  "sense-lex-jmdict-1077330-1": {
+    "senseVersion": 1,
+    "words": [
+      "バター"
     ]
   },
   "sense-lex-jmdict-1077360-1": {
@@ -8948,11 +12389,35 @@ export const hintConfusions: HintConfusions = {
       "切符"
     ]
   },
+  "sense-lex-jmdict-1077740-1": {
+    "senseVersion": 1,
+    "words": [
+      "料金"
+    ]
+  },
   "sense-lex-jmdict-1078040-1": {
     "senseVersion": 1,
     "words": [
       "機会",
       "可能性"
+    ]
+  },
+  "sense-lex-jmdict-1078160-1": {
+    "senseVersion": 1,
+    "words": [
+      "桜"
+    ]
+  },
+  "sense-lex-jmdict-1078240-1": {
+    "senseVersion": 1,
+    "words": [
+      "鉛筆"
+    ]
+  },
+  "sense-lex-jmdict-1078270-1": {
+    "senseVersion": 1,
+    "words": [
+      "キャンディ"
     ]
   },
   "sense-lex-jmdict-1078630-1": {
@@ -8962,11 +12427,23 @@ export const hintConfusions: HintConfusions = {
       "台"
     ]
   },
+  "sense-lex-jmdict-1078750-1": {
+    "senseVersion": 1,
+    "words": [
+      "テープレコーダー"
+    ]
+  },
   "sense-lex-jmdict-1078830-1": {
     "senseVersion": 1,
     "words": [
       "主題",
       "題"
+    ]
+  },
+  "sense-lex-jmdict-1079090-1": {
+    "senseVersion": 1,
+    "words": [
+      "タオル"
     ]
   },
   "sense-lex-jmdict-1079290-1": {
@@ -8983,6 +12460,24 @@ export const hintConfusions: HintConfusions = {
       "宿題"
     ]
   },
+  "sense-lex-jmdict-1080000-1": {
+    "senseVersion": 1,
+    "words": [
+      "卓球"
+    ]
+  },
+  "sense-lex-jmdict-1080510-1": {
+    "senseVersion": 1,
+    "words": [
+      "ラジオ"
+    ]
+  },
+  "sense-lex-jmdict-1081040-1": {
+    "senseVersion": 1,
+    "words": [
+      "小屋"
+    ]
+  },
   "sense-lex-jmdict-1081120-1": {
     "senseVersion": 1,
     "words": [
@@ -8995,6 +12490,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "デート",
       "資料"
+    ]
+  },
+  "sense-lex-jmdict-1081430-1": {
+    "senseVersion": 1,
+    "words": [
+      "約束"
+    ]
+  },
+  "sense-lex-jmdict-1083590-1": {
+    "senseVersion": 1,
+    "words": [
+      "スーパー"
     ]
   },
   "sense-lex-jmdict-1084000-1": {
@@ -9011,6 +12518,12 @@ export const hintConfusions: HintConfusions = {
       "説明"
     ]
   },
+  "sense-lex-jmdict-1084780-1": {
+    "senseVersion": 1,
+    "words": [
+      "内容"
+    ]
+  },
   "sense-lex-jmdict-1084810-1": {
     "senseVersion": 1,
     "words": [
@@ -9025,6 +12538,18 @@ export const hintConfusions: HintConfusions = {
       "首脳"
     ]
   },
+  "sense-lex-jmdict-1085420-1": {
+    "senseVersion": 1,
+    "words": [
+      "じゃが芋"
+    ]
+  },
+  "sense-lex-jmdict-1085760-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗用車"
+    ]
+  },
   "sense-lex-jmdict-1085920-1": {
     "senseVersion": 1,
     "words": [
@@ -9032,11 +12557,23 @@ export const hintConfusions: HintConfusions = {
       "故障"
     ]
   },
+  "sense-lex-jmdict-1086410-1": {
+    "senseVersion": 1,
+    "words": [
+      "カード"
+    ]
+  },
   "sense-lex-jmdict-1087100-1": {
     "senseVersion": 1,
     "words": [
       "演習",
       "試合"
+    ]
+  },
+  "sense-lex-jmdict-1087630-1": {
+    "senseVersion": 1,
+    "words": [
+      "橋"
     ]
   },
   "sense-lex-jmdict-1087820-1": {
@@ -9053,6 +12590,12 @@ export const hintConfusions: HintConfusions = {
       "冷静"
     ]
   },
+  "sense-lex-jmdict-1088580-1": {
+    "senseVersion": 1,
+    "words": [
+      "運転"
+    ]
+  },
   "sense-lex-jmdict-1088830-1": {
     "senseVersion": 1,
     "words": [
@@ -9067,11 +12610,47 @@ export const hintConfusions: HintConfusions = {
       "ワンピース"
     ]
   },
+  "sense-lex-jmdict-1089890-1": {
+    "senseVersion": 1,
+    "words": [
+      "包丁"
+    ]
+  },
+  "sense-lex-jmdict-1089930-1": {
+    "senseVersion": 1,
+    "words": [
+      "綿"
+    ]
+  },
+  "sense-lex-jmdict-1090840-1": {
+    "senseVersion": 1,
+    "words": [
+      "無意味"
+    ]
+  },
   "sense-lex-jmdict-1091500-1": {
     "senseVersion": 1,
     "words": [
       "消息",
       "便り"
+    ]
+  },
+  "sense-lex-jmdict-1092110-1": {
+    "senseVersion": 1,
+    "words": [
+      "意味"
+    ]
+  },
+  "sense-lex-jmdict-1092820-1": {
+    "senseVersion": 1,
+    "words": [
+      "マフラー"
+    ]
+  },
+  "sense-lex-jmdict-1093000-1": {
+    "senseVersion": 1,
+    "words": [
+      "指輪"
     ]
   },
   "sense-lex-jmdict-1093450-1": {
@@ -9088,6 +12667,24 @@ export const hintConfusions: HintConfusions = {
       "打つ（うつ）"
     ]
   },
+  "sense-lex-jmdict-1095040-1": {
+    "senseVersion": 1,
+    "words": [
+      "登山"
+    ]
+  },
+  "sense-lex-jmdict-1096420-1": {
+    "senseVersion": 1,
+    "words": [
+      "タオル"
+    ]
+  },
+  "sense-lex-jmdict-1096560-1": {
+    "senseVersion": 1,
+    "words": [
+      "格好いい"
+    ]
+  },
   "sense-lex-jmdict-1096770-1": {
     "senseVersion": 1,
     "words": [
@@ -9095,11 +12692,47 @@ export const hintConfusions: HintConfusions = {
       "財布"
     ]
   },
+  "sense-lex-jmdict-1096830-1": {
+    "senseVersion": 1,
+    "words": [
+      "ブレーキ"
+    ]
+  },
+  "sense-lex-jmdict-1097740-1": {
+    "senseVersion": 1,
+    "words": [
+      "チェロ"
+    ]
+  },
+  "sense-lex-jmdict-1098390-1": {
+    "senseVersion": 1,
+    "words": [
+      "電車"
+    ]
+  },
+  "sense-lex-jmdict-1098620-1": {
+    "senseVersion": 1,
+    "words": [
+      "チーズ"
+    ]
+  },
+  "sense-lex-jmdict-1099420-1": {
+    "senseVersion": 1,
+    "words": [
+      "キウイ"
+    ]
+  },
   "sense-lex-jmdict-1099690-1": {
     "senseVersion": 1,
     "words": [
       "均衡",
       "量"
+    ]
+  },
+  "sense-lex-jmdict-1100240-1": {
+    "senseVersion": 1,
+    "words": [
+      "合唱団"
     ]
   },
   "sense-lex-jmdict-1100610-1": {
@@ -9116,10 +12749,22 @@ export const hintConfusions: HintConfusions = {
       "宴会"
     ]
   },
+  "sense-lex-jmdict-1100810-1": {
+    "senseVersion": 1,
+    "words": [
+      "アルバイト"
+    ]
+  },
   "sense-lex-jmdict-1101120-1": {
     "senseVersion": 1,
     "words": [
       "管"
+    ]
+  },
+  "sense-lex-jmdict-1101260-1": {
+    "senseVersion": 1,
+    "words": [
+      "運転手"
     ]
   },
   "sense-lex-jmdict-1101440-1": {
@@ -9129,6 +12774,18 @@ export const hintConfusions: HintConfusions = {
       "合格"
     ]
   },
+  "sense-lex-jmdict-1101510-1": {
+    "senseVersion": 1,
+    "words": [
+      "ビザ"
+    ]
+  },
+  "sense-lex-jmdict-1101570-1": {
+    "senseVersion": 1,
+    "words": [
+      "スマートフォン"
+    ]
+  },
   "sense-lex-jmdict-1101600-1": {
     "senseVersion": 1,
     "words": [
@@ -9136,10 +12793,28 @@ export const hintConfusions: HintConfusions = {
       "型"
     ]
   },
+  "sense-lex-jmdict-1103090-1": {
+    "senseVersion": 1,
+    "words": [
+      "ご飯"
+    ]
+  },
   "sense-lex-jmdict-1103110-1": {
     "senseVersion": 1,
     "words": [
       "故障"
+    ]
+  },
+  "sense-lex-jmdict-1103270-1": {
+    "senseVersion": 1,
+    "words": [
+      "ズボン"
+    ]
+  },
+  "sense-lex-jmdict-1105160-1": {
+    "senseVersion": 1,
+    "words": [
+      "カロリー"
     ]
   },
   "sense-lex-jmdict-1105360-1": {
@@ -9156,6 +12831,18 @@ export const hintConfusions: HintConfusions = {
       "プラスチック"
     ]
   },
+  "sense-lex-jmdict-1106010-1": {
+    "senseVersion": 1,
+    "words": [
+      "家"
+    ]
+  },
+  "sense-lex-jmdict-1106400-1": {
+    "senseVersion": 1,
+    "words": [
+      "オルガン"
+    ]
+  },
   "sense-lex-jmdict-1106530-1": {
     "senseVersion": 1,
     "words": [
@@ -9170,6 +12857,30 @@ export const hintConfusions: HintConfusions = {
       "釘"
     ]
   },
+  "sense-lex-jmdict-1107800-1": {
+    "senseVersion": 1,
+    "words": [
+      "データ"
+    ]
+  },
+  "sense-lex-jmdict-1108160-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボタン"
+    ]
+  },
+  "sense-lex-jmdict-1110110-1": {
+    "senseVersion": 1,
+    "words": [
+      "スプーン"
+    ]
+  },
+  "sense-lex-jmdict-1111160-1": {
+    "senseVersion": 1,
+    "words": [
+      "鍋"
+    ]
+  },
   "sense-lex-jmdict-1113160-1": {
     "senseVersion": 1,
     "words": [
@@ -9177,11 +12888,29 @@ export const hintConfusions: HintConfusions = {
       "習慣"
     ]
   },
+  "sense-lex-jmdict-1113650-1": {
+    "senseVersion": 1,
+    "words": [
+      "コート"
+    ]
+  },
   "sense-lex-jmdict-1114640-1": {
     "senseVersion": 1,
     "words": [
       "アクセル",
       "停車"
+    ]
+  },
+  "sense-lex-jmdict-1114910-1": {
+    "senseVersion": 1,
+    "words": [
+      "ネックレス"
+    ]
+  },
+  "sense-lex-jmdict-1115150-1": {
+    "senseVersion": 1,
+    "words": [
+      "海"
     ]
   },
   "sense-lex-jmdict-1115630-1": {
@@ -9233,11 +12962,35 @@ export const hintConfusions: HintConfusions = {
       "スケジュール"
     ]
   },
+  "sense-lex-jmdict-1118780-1": {
+    "senseVersion": 1,
+    "words": [
+      "飛行機"
+    ]
+  },
   "sense-lex-jmdict-1119210-1": {
     "senseVersion": 1,
     "words": [
       "基盤",
       "元"
+    ]
+  },
+  "sense-lex-jmdict-1119650-1": {
+    "senseVersion": 1,
+    "words": [
+      "布団"
+    ]
+  },
+  "sense-lex-jmdict-1119700-1": {
+    "senseVersion": 1,
+    "words": [
+      "新人"
+    ]
+  },
+  "sense-lex-jmdict-1120010-1": {
+    "senseVersion": 1,
+    "words": [
+      "鐘"
     ]
   },
   "sense-lex-jmdict-1120070-1": {
@@ -9246,11 +12999,41 @@ export const hintConfusions: HintConfusions = {
       "帯"
     ]
   },
+  "sense-lex-jmdict-1120280-1": {
+    "senseVersion": 1,
+    "words": [
+      "椅子"
+    ]
+  },
+  "sense-lex-jmdict-1120990-1": {
+    "senseVersion": 1,
+    "words": [
+      "動物"
+    ]
+  },
+  "sense-lex-jmdict-1121380-1": {
+    "senseVersion": 1,
+    "words": [
+      "鉛筆"
+    ]
+  },
+  "sense-lex-jmdict-1121740-1": {
+    "senseVersion": 1,
+    "words": [
+      "駅"
+    ]
+  },
   "sense-lex-jmdict-1122650-1": {
     "senseVersion": 1,
     "words": [
       "旅館",
       "宿"
+    ]
+  },
+  "sense-lex-jmdict-1123440-1": {
+    "senseVersion": 1,
+    "words": [
+      "船"
     ]
   },
   "sense-lex-jmdict-1123520-1": {
@@ -9267,11 +13050,35 @@ export const hintConfusions: HintConfusions = {
       "球"
     ]
   },
+  "sense-lex-jmdict-1123590-1": {
+    "senseVersion": 1,
+    "words": [
+      "万年筆"
+    ]
+  },
+  "sense-lex-jmdict-1123670-1": {
+    "senseVersion": 1,
+    "words": [
+      "ストライキ"
+    ]
+  },
   "sense-lex-jmdict-1123750-1": {
     "senseVersion": 1,
     "words": [
       "ボール",
       "器"
+    ]
+  },
+  "sense-lex-jmdict-1124970-1": {
+    "senseVersion": 1,
+    "words": [
+      "袋"
+    ]
+  },
+  "sense-lex-jmdict-1125110-1": {
+    "senseVersion": 1,
+    "words": [
+      "チラシ"
     ]
   },
   "sense-lex-jmdict-1125150-1": {
@@ -9288,11 +13095,41 @@ export const hintConfusions: HintConfusions = {
       "店"
     ]
   },
+  "sense-lex-jmdict-1126590-1": {
+    "senseVersion": 1,
+    "words": [
+      "スピーカー"
+    ]
+  },
   "sense-lex-jmdict-1126980-1": {
     "senseVersion": 1,
     "words": [
       "プラス",
       "損害"
+    ]
+  },
+  "sense-lex-jmdict-1127870-1": {
+    "senseVersion": 1,
+    "words": [
+      "帽子"
+    ]
+  },
+  "sense-lex-jmdict-1127900-1": {
+    "senseVersion": 1,
+    "words": [
+      "口コミ"
+    ]
+  },
+  "sense-lex-jmdict-1127970-1": {
+    "senseVersion": 1,
+    "words": [
+      "勉強"
+    ]
+  },
+  "sense-lex-jmdict-1129210-1": {
+    "senseVersion": 1,
+    "words": [
+      "スカーフ"
     ]
   },
   "sense-lex-jmdict-1129240-1": {
@@ -9302,6 +13139,12 @@ export const hintConfusions: HintConfusions = {
       "母"
     ]
   },
+  "sense-lex-jmdict-1129290-1": {
+    "senseVersion": 1,
+    "words": [
+      "短距離走"
+    ]
+  },
   "sense-lex-jmdict-1130040-1": {
     "senseVersion": 1,
     "words": [
@@ -9309,11 +13152,23 @@ export const hintConfusions: HintConfusions = {
       "一戸建て"
     ]
   },
+  "sense-lex-jmdict-1130640-1": {
+    "senseVersion": 1,
+    "words": [
+      "針"
+    ]
+  },
   "sense-lex-jmdict-1130650-1": {
     "senseVersion": 1,
     "words": [
       "間違い",
       "誤り"
+    ]
+  },
+  "sense-lex-jmdict-1130830-1": {
+    "senseVersion": 1,
+    "words": [
+      "誤解"
     ]
   },
   "sense-lex-jmdict-1131990-1": {
@@ -9364,6 +13219,18 @@ export const hintConfusions: HintConfusions = {
       "標準"
     ]
   },
+  "sense-lex-jmdict-1135430-1": {
+    "senseVersion": 1,
+    "words": [
+      "消費者"
+    ]
+  },
+  "sense-lex-jmdict-1135680-1": {
+    "senseVersion": 1,
+    "words": [
+      "地下鉄"
+    ]
+  },
   "sense-lex-jmdict-1136850-1": {
     "senseVersion": 1,
     "words": [
@@ -9378,6 +13245,36 @@ export const hintConfusions: HintConfusions = {
       "普通"
     ]
   },
+  "sense-lex-jmdict-1137620-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボート"
+    ]
+  },
+  "sense-lex-jmdict-1137880-1": {
+    "senseVersion": 1,
+    "words": [
+      "マッチ"
+    ]
+  },
+  "sense-lex-jmdict-1138710-1": {
+    "senseVersion": 1,
+    "words": [
+      "バット"
+    ]
+  },
+  "sense-lex-jmdict-1138860-1": {
+    "senseVersion": 1,
+    "words": [
+      "テレビ"
+    ]
+  },
+  "sense-lex-jmdict-1139190-1": {
+    "senseVersion": 1,
+    "words": [
+      "深夜"
+    ]
+  },
   "sense-lex-jmdict-1140100-1": {
     "senseVersion": 1,
     "words": [
@@ -9385,11 +13282,41 @@ export const hintConfusions: HintConfusions = {
       "ディナー"
     ]
   },
+  "sense-lex-jmdict-1141620-1": {
+    "senseVersion": 1,
+    "words": [
+      "テンポ"
+    ]
+  },
+  "sense-lex-jmdict-1141870-1": {
+    "senseVersion": 1,
+    "words": [
+      "キログラム"
+    ]
+  },
+  "sense-lex-jmdict-1142880-1": {
+    "senseVersion": 1,
+    "words": [
+      "ひも"
+    ]
+  },
   "sense-lex-jmdict-1143590-1": {
     "senseVersion": 1,
     "words": [
       "いい加減",
       "厳格"
+    ]
+  },
+  "sense-lex-jmdict-1144700-1": {
+    "senseVersion": 1,
+    "words": [
+      "傘"
+    ]
+  },
+  "sense-lex-jmdict-1145130-1": {
+    "senseVersion": 1,
+    "words": [
+      "売り場"
     ]
   },
   "sense-lex-jmdict-1145220-1": {
@@ -9420,11 +13347,41 @@ export const hintConfusions: HintConfusions = {
       "記事"
     ]
   },
+  "sense-lex-jmdict-1146140-1": {
+    "senseVersion": 1,
+    "words": [
+      "鏡"
+    ]
+  },
+  "sense-lex-jmdict-1147220-1": {
+    "senseVersion": 1,
+    "words": [
+      "飛行機"
+    ]
+  },
   "sense-lex-jmdict-1147560-1": {
     "senseVersion": 1,
     "words": [
       "金庫",
       "戸棚"
+    ]
+  },
+  "sense-lex-jmdict-1147800-1": {
+    "senseVersion": 1,
+    "words": [
+      "客室"
+    ]
+  },
+  "sense-lex-jmdict-1148520-1": {
+    "senseVersion": 1,
+    "words": [
+      "タイプライター"
+    ]
+  },
+  "sense-lex-jmdict-1148850-1": {
+    "senseVersion": 1,
+    "words": [
+      "ビール"
     ]
   },
   "sense-lex-jmdict-1149240-1": {
@@ -9445,14 +13402,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "恋",
-      "愛情"
+      "好意"
     ]
   },
   "sense-lex-jmdict-1150860-1": {
     "senseVersion": 1,
     "words": [
-      "愛",
-      "友情"
+      "恋",
+      "好意"
     ]
   },
   "sense-lex-jmdict-1151120-1": {
@@ -9465,8 +13422,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1151260-1": {
     "senseVersion": 1,
     "words": [
-      "悪",
-      "苦手"
+      "苦手",
+      "下手"
     ]
   },
   "sense-lex-jmdict-1151470-1": {
@@ -9483,25 +13440,33 @@ export const hintConfusions: HintConfusions = {
       "鬼"
     ]
   },
+  "sense-lex-jmdict-1152730-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1153080-1": {
     "senseVersion": 1,
     "words": [
-      "凝縮",
       "省略"
     ]
   },
   "sense-lex-jmdict-1153310-1": {
     "senseVersion": 1,
     "words": [
-      "圧力",
       "抑制"
+    ]
+  },
+  "sense-lex-jmdict-1153340-1": {
+    "senseVersion": 1,
+    "words": [
+      "強制"
     ]
   },
   "sense-lex-jmdict-1153430-1": {
     "senseVersion": 1,
     "words": [
-      "取り扱い",
-      "扱う"
+      "操作",
+      "始末"
     ]
   },
   "sense-lex-jmdict-1153520-1": {
@@ -9511,10 +13476,15 @@ export const hintConfusions: HintConfusions = {
       "雨"
     ]
   },
+  "sense-lex-jmdict-1153670-1": {
+    "senseVersion": 1,
+    "words": [
+      "低い"
+    ]
+  },
   "sense-lex-jmdict-1153680-1": {
     "senseVersion": 1,
     "words": [
-      "安い",
       "下らない"
     ]
   },
@@ -9528,43 +13498,50 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1153890-1": {
     "senseVersion": 1,
     "words": [
-      "安全",
-      "緩和"
+      "緩和",
+      "自信"
     ]
   },
   "sense-lex-jmdict-1153910-1": {
     "senseVersion": 1,
     "words": [
-      "安定",
-      "静か"
+      "休み",
+      "休憩"
     ]
   },
   "sense-lex-jmdict-1153930-1": {
     "senseVersion": 1,
     "words": [
-      "安心",
       "無事"
     ]
   },
   "sense-lex-jmdict-1154120-1": {
     "senseVersion": 1,
     "words": [
-      "安静",
-      "安心"
+      "余裕",
+      "冷静"
     ]
+  },
+  "sense-lex-jmdict-1154520-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1154540-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1154550-1": {
     "senseVersion": 1,
     "words": [
-      "明示",
-      "手がかり"
+      "手がかり",
+      "鍵"
     ]
   },
   "sense-lex-jmdict-1154770-1": {
     "senseVersion": 1,
     "words": [
-      "提案",
-      "計画"
+      "計画",
+      "下書き"
     ]
   },
   "sense-lex-jmdict-1154780-1": {
@@ -9574,11 +13551,17 @@ export const hintConfusions: HintConfusions = {
       "不安"
     ]
   },
+  "sense-lex-jmdict-1154790-1": {
+    "senseVersion": 1,
+    "words": [
+      "意外に"
+    ]
+  },
   "sense-lex-jmdict-1154820-1": {
     "senseVersion": 1,
     "words": [
-      "意外",
-      "急"
+      "急",
+      "突然"
     ]
   },
   "sense-lex-jmdict-1154860-1": {
@@ -9595,46 +13578,54 @@ export const hintConfusions: HintConfusions = {
       "陰"
     ]
   },
+  "sense-lex-jmdict-1155020-1": {
+    "senseVersion": 1,
+    "words": [
+      "から"
+    ]
+  },
   "sense-lex-jmdict-1155090-1": {
     "senseVersion": 1,
     "words": [
-      "以内",
       "除く"
     ]
   },
   "sense-lex-jmdict-1155100-1": {
     "senseVersion": 1,
     "words": [
-      "今後",
-      "以前"
+      "末",
+      "より"
     ]
+  },
+  "sense-lex-jmdict-1155120-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1155150-1": {
     "senseVersion": 1,
     "words": [
-      "前",
-      "以後"
+      "過去",
+      "昔"
     ]
   },
   "sense-lex-jmdict-1155180-1": {
     "senseVersion": 1,
     "words": [
-      "内",
-      "以外"
+      "未満",
+      "中"
     ]
   },
   "sense-lex-jmdict-1155210-1": {
     "senseVersion": 1,
     "words": [
-      "以後",
-      "以降"
+      "より"
     ]
   },
   "sense-lex-jmdict-1155400-1": {
     "senseVersion": 1,
     "words": [
-      "地位",
-      "身分"
+      "身分",
+      "段階"
     ]
   },
   "sense-lex-jmdict-1155650-1": {
@@ -9658,6 +13649,10 @@ export const hintConfusions: HintConfusions = {
       "見事"
     ]
   },
+  "sense-lex-jmdict-1156100-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1156160-1": {
     "senseVersion": 1,
     "words": [
@@ -9674,43 +13669,47 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1156410-1": {
     "senseVersion": 1,
     "words": [
-      "予想外",
-      "急"
+      "急",
+      "突然"
     ]
   },
   "sense-lex-jmdict-1156450-1": {
     "senseVersion": 1,
     "words": [
-      "気になる",
       "張り切る"
     ]
   },
   "sense-lex-jmdict-1156520-1": {
     "senseVersion": 1,
     "words": [
-      "意味",
       "趣旨"
     ]
   },
   "sense-lex-jmdict-1156560-1": {
     "senseVersion": 1,
     "words": [
-      "意思",
-      "意向"
+      "目的",
+      "趣旨"
     ]
   },
   "sense-lex-jmdict-1156610-1": {
     "senseVersion": 1,
     "words": [
-      "意向",
-      "意志"
+      "考え",
+      "目的"
     ]
   },
   "sense-lex-jmdict-1156690-1": {
     "senseVersion": 1,
     "words": [
-      "意向",
-      "意志"
+      "考え",
+      "目的"
+    ]
+  },
+  "sense-lex-jmdict-1156720-1": {
+    "senseVersion": 1,
+    "words": [
+      "信念"
     ]
   },
   "sense-lex-jmdict-1156740-1": {
@@ -9724,7 +13723,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "読み方",
-      "意義"
+      "趣旨"
     ]
   },
   "sense-lex-jmdict-1157070-1": {
@@ -9751,8 +13750,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1157580-1": {
     "senseVersion": 1,
     "words": [
-      "異論",
-      "反対"
+      "反対",
+      "苦情"
     ]
   },
   "sense-lex-jmdict-1157760-1": {
@@ -9765,30 +13764,34 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1157970-1": {
     "senseVersion": 1,
     "words": [
-      "移動",
-      "交替"
+      "交替",
+      "交代"
     ]
   },
   "sense-lex-jmdict-1158150-1": {
     "senseVersion": 1,
     "words": [
-      "異議",
-      "反対"
+      "反対",
+      "抗議"
     ]
   },
   "sense-lex-jmdict-1158240-1": {
     "senseVersion": 1,
     "words": [
       "転換",
-      "移動"
+      "変化"
     ]
   },
   "sense-lex-jmdict-1158280-1": {
     "senseVersion": 1,
     "words": [
       "旅行",
-      "移動"
+      "引っ越す"
     ]
+  },
+  "sense-lex-jmdict-1158440-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1158450-1": {
     "senseVersion": 1,
@@ -9796,6 +13799,10 @@ export const hintConfusions: HintConfusions = {
       "改善",
       "継続"
     ]
+  },
+  "sense-lex-jmdict-1158490-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1158500-1": {
     "senseVersion": 1,
@@ -9807,29 +13814,34 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1158760-1": {
     "senseVersion": 1,
     "words": [
-      "衣料",
-      "服"
+      "服",
+      "着物"
+    ]
+  },
+  "sense-lex-jmdict-1158780-1": {
+    "senseVersion": 1,
+    "words": [
+      "生活費"
     ]
   },
   "sense-lex-jmdict-1158810-1": {
     "senseVersion": 1,
     "words": [
-      "服",
       "着物"
     ]
   },
   "sense-lex-jmdict-1158830-1": {
     "senseVersion": 1,
     "words": [
-      "衣装",
-      "服"
+      "服",
+      "着物"
     ]
   },
   "sense-lex-jmdict-1158870-1": {
     "senseVersion": 1,
     "words": [
       "差",
-      "相違"
+      "差異"
     ]
   },
   "sense-lex-jmdict-1158950-1": {
@@ -9842,29 +13854,38 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1159380-1": {
     "senseVersion": 1,
     "words": [
-      "遺品",
-      "跡"
+      "名残"
     ]
+  },
+  "sense-lex-jmdict-1159810-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1159930-1": {
     "senseVersion": 1,
-    "words": [
-      "医者"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1159980-1": {
     "senseVersion": 1,
     "words": [
-      "医師",
       "看護師"
     ]
   },
   "sense-lex-jmdict-1160140-1": {
     "senseVersion": 1,
     "words": [
-      "治療",
-      "診療"
+      "処置"
     ]
+  },
+  "sense-lex-jmdict-1160330-1": {
+    "senseVersion": 1,
+    "words": [
+      "泉"
+    ]
+  },
+  "sense-lex-jmdict-1160500-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1160520-1": {
     "senseVersion": 1,
@@ -9875,37 +13896,26 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1160630-1": {
     "senseVersion": 1,
-    "words": [
-      "教育",
-      "育ち"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1160790-1": {
     "senseVersion": 1,
-    "words": [
-      "一つ"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1160820-1": {
     "senseVersion": 1,
-    "words": [
-      "一",
-      "一人"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1161170-1": {
     "senseVersion": 1,
     "words": [
-      "一度",
-      "一旦"
+      "先ず",
+      "完全に"
     ]
   },
   "sense-lex-jmdict-1161390-1": {
     "senseVersion": 1,
-    "words": [
-      "一律",
-      "一般に"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1161470-1": {
     "senseVersion": 1,
@@ -9917,14 +13927,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1161830-1": {
     "senseVersion": 1,
     "words": [
-      "休憩",
-      "一息"
+      "安静"
     ]
+  },
+  "sense-lex-jmdict-1162130-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1163170-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1163340-1": {
     "senseVersion": 1,
     "words": [
-      "瞬間",
       "少しの間"
     ]
   },
@@ -9934,6 +13950,10 @@ export const hintConfusions: HintConfusions = {
       "共に",
       "同じ"
     ]
+  },
+  "sense-lex-jmdict-1163580-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1164040-1": {
     "senseVersion": 1,
@@ -9959,44 +13979,46 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1164390-1": {
     "senseVersion": 1,
     "words": [
-      "一休み",
-      "ため息"
+      "休み",
+      "休憩"
+    ]
+  },
+  "sense-lex-jmdict-1164510-1": {
+    "senseVersion": 1,
+    "words": [
+      "いったん"
     ]
   },
   "sense-lex-jmdict-1164570-1": {
     "senseVersion": 1,
     "words": [
       "辺り",
-      "一点"
+      "地区"
     ]
   },
   "sense-lex-jmdict-1164650-1": {
     "senseVersion": 1,
     "words": [
-      "一度",
-      "一応"
+      "ずっと"
     ]
   },
   "sense-lex-jmdict-1164740-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "合意"
+      "合意",
+      "賛成"
     ]
   },
   "sense-lex-jmdict-1164910-1": {
     "senseVersion": 1,
     "words": [
       "徹底的に",
-      "一応"
+      "大体"
     ]
   },
   "sense-lex-jmdict-1164950-1": {
     "senseVersion": 1,
-    "words": [
-      "不定",
-      "一律"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1165340-1": {
     "senseVersion": 1,
@@ -10012,6 +14034,16 @@ export const hintConfusions: HintConfusions = {
       "普通"
     ]
   },
+  "sense-lex-jmdict-1166420-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1166510-1": {
+    "senseVersion": 1,
+    "words": [
+      "しかし"
+    ]
+  },
   "sense-lex-jmdict-1166870-1": {
     "senseVersion": 1,
     "words": [
@@ -10022,29 +14054,28 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1167130-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "同じ"
+      "同じ",
+      "共通"
     ]
   },
   "sense-lex-jmdict-1167250-1": {
     "senseVersion": 1,
     "words": [
-      "一概に",
       "個別に"
     ]
   },
   "sense-lex-jmdict-1167270-1": {
     "senseVersion": 1,
     "words": [
-      "一位",
-      "有力"
+      "有力",
+      "頂点"
     ]
   },
   "sense-lex-jmdict-1167450-1": {
     "senseVersion": 1,
     "words": [
       "単独",
-      "連続"
+      "列"
     ]
   },
   "sense-lex-jmdict-1167650-1": {
@@ -10057,8 +14088,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1167750-1": {
     "senseVersion": 1,
     "words": [
-      "変更",
-      "脱線"
+      "変更"
+    ]
+  },
+  "sense-lex-jmdict-1167820-1": {
+    "senseVersion": 1,
+    "words": [
+      "米"
     ]
   },
   "sense-lex-jmdict-1168060-1": {
@@ -10085,22 +14121,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1168880-1": {
     "senseVersion": 1,
     "words": [
-      "起きる",
-      "起こす"
+      "及ぼす",
+      "生じる"
     ]
   },
   "sense-lex-jmdict-1168960-1": {
     "senseVersion": 1,
     "words": [
-      "取り立てる",
-      "預ける"
+      "預ける",
+      "承る"
     ]
   },
   "sense-lex-jmdict-1169000-1": {
     "senseVersion": 1,
     "words": [
-      "持ち上げる",
-      "引っ張る"
+      "持ち上げる"
+    ]
+  },
+  "sense-lex-jmdict-1169120-1": {
+    "senseVersion": 1,
+    "words": [
+      "勝利"
     ]
   },
   "sense-lex-jmdict-1169140-1": {
@@ -10113,15 +14154,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1169320-1": {
     "senseVersion": 1,
     "words": [
-      "ひっくり返す",
-      "覆す"
+      "覆す",
+      "転がす"
     ]
   },
   "sense-lex-jmdict-1169350-1": {
     "senseVersion": 1,
     "words": [
       "罹る",
-      "引っかける"
+      "掛かる"
     ]
   },
   "sense-lex-jmdict-1169390-1": {
@@ -10145,10 +14186,13 @@ export const hintConfusions: HintConfusions = {
       "参照"
     ]
   },
+  "sense-lex-jmdict-1169720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1170280-1": {
     "senseVersion": 1,
     "words": [
-      "陽気",
       "暗い"
     ]
   },
@@ -10159,11 +14203,47 @@ export const hintConfusions: HintConfusions = {
       "引退"
     ]
   },
+  "sense-lex-jmdict-1171010-1": {
+    "senseVersion": 1,
+    "words": [
+      "左"
+    ]
+  },
+  "sense-lex-jmdict-1171300-1": {
+    "senseVersion": 1,
+    "words": [
+      "空"
+    ]
+  },
   "sense-lex-jmdict-1171680-1": {
     "senseVersion": 1,
     "words": [
       "翼",
       "毛"
+    ]
+  },
+  "sense-lex-jmdict-1171900-1": {
+    "senseVersion": 1,
+    "words": [
+      "雪"
+    ]
+  },
+  "sense-lex-jmdict-1171970-1": {
+    "senseVersion": 1,
+    "words": [
+      "障子"
+    ]
+  },
+  "sense-lex-jmdict-1172310-1": {
+    "senseVersion": 1,
+    "words": [
+      "波"
+    ]
+  },
+  "sense-lex-jmdict-1172400-1": {
+    "senseVersion": 1,
+    "words": [
+      "冗談"
     ]
   },
   "sense-lex-jmdict-1172590-1": {
@@ -10176,15 +14256,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1172610-1": {
     "senseVersion": 1,
     "words": [
-      "偶然",
-      "幸運"
+      "偶然"
     ]
   },
   "sense-lex-jmdict-1172690-1": {
     "senseVersion": 1,
     "words": [
-      "経営",
-      "管理"
+      "管理",
+      "支配"
+    ]
+  },
+  "sense-lex-jmdict-1172710-1": {
+    "senseVersion": 1,
+    "words": [
+      "川"
     ]
   },
   "sense-lex-jmdict-1172830-1": {
@@ -10194,11 +14279,15 @@ export const hintConfusions: HintConfusions = {
       "操作"
     ]
   },
+  "sense-lex-jmdict-1172870-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1172910-1": {
     "senseVersion": 1,
     "words": [
       "練習",
-      "移動"
+      "トレーニング"
     ]
   },
   "sense-lex-jmdict-1173010-1": {
@@ -10212,14 +14301,26 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "交通",
-      "運搬"
+      "交通機関"
     ]
   },
   "sense-lex-jmdict-1173090-1": {
     "senseVersion": 1,
     "words": [
-      "運営",
-      "経営"
+      "経営",
+      "反映"
+    ]
+  },
+  "sense-lex-jmdict-1173100-1": {
+    "senseVersion": 1,
+    "words": [
+      "霧"
+    ]
+  },
+  "sense-lex-jmdict-1173340-1": {
+    "senseVersion": 1,
+    "words": [
+      "食事"
     ]
   },
   "sense-lex-jmdict-1173420-1": {
@@ -10240,14 +14341,17 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "射す",
-      "映す"
+      "写る"
     ]
   },
   "sense-lex-jmdict-1173720-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1173750-1": {
+    "senseVersion": 1,
     "words": [
-      "映画館",
-      "映像"
+      "劇場"
     ]
   },
   "sense-lex-jmdict-1173800-1": {
@@ -10260,9 +14364,24 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1174070-1": {
     "senseVersion": 1,
     "words": [
-      "永久",
       "無限"
     ]
+  },
+  "sense-lex-jmdict-1174420-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1174620-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1174720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1174760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1174890-1": {
     "senseVersion": 1,
@@ -10274,8 +14393,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1175030-1": {
     "senseVersion": 1,
     "words": [
-      "気体",
-      "水"
+      "水",
+      "水分"
     ]
   },
   "sense-lex-jmdict-1175380-1": {
@@ -10288,8 +14407,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1175860-1": {
     "senseVersion": 1,
     "words": [
-      "直径",
-      "周辺"
+      "直径"
     ]
   },
   "sense-lex-jmdict-1176200-1": {
@@ -10299,11 +14417,17 @@ export const hintConfusions: HintConfusions = {
       "静か"
     ]
   },
+  "sense-lex-jmdict-1176260-1": {
+    "senseVersion": 1,
+    "words": [
+      "農業"
+    ]
+  },
   "sense-lex-jmdict-1176320-1": {
     "senseVersion": 1,
     "words": [
-      "会議",
-      "ご馳走"
+      "ご馳走",
+      "パーティー"
     ]
   },
   "sense-lex-jmdict-1176430-1": {
@@ -10338,42 +14462,49 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "沖合",
-      "海岸"
+      "陸"
     ]
+  },
+  "sense-lex-jmdict-1176750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1176780-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1176820-1": {
     "senseVersion": 1,
     "words": [
-      "芝居",
-      "演奏"
+      "芝居"
     ]
   },
   "sense-lex-jmdict-1176860-1": {
     "senseVersion": 1,
     "words": [
-      "劇",
-      "芝居"
+      "芝居",
+      "映画"
     ]
   },
   "sense-lex-jmdict-1176930-1": {
     "senseVersion": 1,
     "words": [
-      "練習",
-      "実習"
+      "稽古",
+      "トレーニング"
     ]
   },
   "sense-lex-jmdict-1176950-1": {
     "senseVersion": 1,
     "words": [
-      "演技",
-      "作品"
+      "作品",
+      "主催"
     ]
   },
   "sense-lex-jmdict-1176960-1": {
     "senseVersion": 1,
     "words": [
       "スピーチ",
-      "講演"
+      "言葉"
     ]
   },
   "sense-lex-jmdict-1177070-1": {
@@ -10386,8 +14517,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1177190-1": {
     "senseVersion": 1,
     "words": [
-      "臭い",
-      "煙たい"
+      "臭い"
     ]
   },
   "sense-lex-jmdict-1177200-1": {
@@ -10397,11 +14527,29 @@ export const hintConfusions: HintConfusions = {
       "窮屈"
     ]
   },
+  "sense-lex-jmdict-1177320-1": {
+    "senseVersion": 1,
+    "words": [
+      "排水管"
+    ]
+  },
+  "sense-lex-jmdict-1177390-1": {
+    "senseVersion": 1,
+    "words": [
+      "ゴリラ"
+    ]
+  },
   "sense-lex-jmdict-1177500-1": {
     "senseVersion": 1,
     "words": [
       "端",
       "辺"
+    ]
+  },
+  "sense-lex-jmdict-1177650-1": {
+    "senseVersion": 1,
+    "words": [
+      "婚約"
     ]
   },
   "sense-lex-jmdict-1177680-1": {
@@ -10415,14 +14563,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "離れる",
-      "遠ざける"
+      "去る"
     ]
   },
   "sense-lex-jmdict-1177930-1": {
     "senseVersion": 1,
     "words": [
-      "近道",
-      "回り道"
+      "近道"
     ]
   },
   "sense-lex-jmdict-1178260-1": {
@@ -10435,8 +14582,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1178340-1": {
     "senseVersion": 1,
     "words": [
-      "遠く",
-      "近辺"
+      "近辺",
+      "向こう"
     ]
   },
   "sense-lex-jmdict-1178450-1": {
@@ -10446,10 +14593,15 @@ export const hintConfusions: HintConfusions = {
       "我慢"
     ]
   },
+  "sense-lex-jmdict-1178590-1": {
+    "senseVersion": 1,
+    "words": [
+      "ボールペン"
+    ]
+  },
   "sense-lex-jmdict-1179040-1": {
     "senseVersion": 1,
     "words": [
-      "汚れ",
       "公害"
     ]
   },
@@ -10481,25 +14633,32 @@ export const hintConfusions: HintConfusions = {
       "受け付ける"
     ]
   },
+  "sense-lex-jmdict-1179880-1": {
+    "senseVersion": 1,
+    "words": [
+      "根本"
+    ]
+  },
   "sense-lex-jmdict-1179930-1": {
     "senseVersion": 1,
     "words": [
       "訪問",
-      "対応"
+      "歓迎"
     ]
   },
   "sense-lex-jmdict-1179980-1": {
     "senseVersion": 1,
-    "words": [
-      "応答",
-      "対応"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1180190-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1180260-1": {
     "senseVersion": 1,
     "words": [
-      "突っ込む",
-      "取り出す"
+      "取り出す",
+      "詰める"
     ]
   },
   "sense-lex-jmdict-1180860-1": {
@@ -10509,19 +14668,50 @@ export const hintConfusions: HintConfusions = {
       "越える"
     ]
   },
+  "sense-lex-jmdict-1181500-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1181560-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1181700-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1181720-1": {
+    "senseVersion": 1,
     "words": [
-      "王子",
-      "王"
+      "障子"
+    ]
+  },
+  "sense-lex-jmdict-1182030-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1182500-1": {
+    "senseVersion": 1,
+    "words": [
+      "岸"
+    ]
+  },
+  "sense-lex-jmdict-1182620-1": {
+    "senseVersion": 1,
+    "words": [
+      "万"
     ]
   },
   "sense-lex-jmdict-1182680-1": {
     "senseVersion": 1,
     "words": [
-      "屋内",
-      "外"
+      "表（おもて）",
+      "アウトドア"
     ]
+  },
+  "sense-lex-jmdict-1182710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1182790-1": {
     "senseVersion": 1,
@@ -10530,18 +14720,24 @@ export const hintConfusions: HintConfusions = {
       "卑怯"
     ]
   },
+  "sense-lex-jmdict-1183050-1": {
+    "senseVersion": 1,
+    "words": [
+      "下ろす"
+    ]
+  },
   "sense-lex-jmdict-1183090-1": {
     "senseVersion": 1,
     "words": [
-      "恩恵",
-      "恵み"
+      "恵み",
+      "親切"
     ]
   },
   "sense-lex-jmdict-1183140-1": {
     "senseVersion": 1,
     "words": [
-      "恵み",
-      "恩"
+      "利益",
+      "好意"
     ]
   },
   "sense-lex-jmdict-1183300-1": {
@@ -10551,17 +14747,25 @@ export const hintConfusions: HintConfusions = {
       "暖かい"
     ]
   },
+  "sense-lex-jmdict-1183390-1": {
+    "senseVersion": 1,
+    "words": [
+      "倉庫"
+    ]
+  },
+  "sense-lex-jmdict-1183470-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1183480-1": {
     "senseVersion": 1,
     "words": [
-      "暖かい",
       "穏やか"
     ]
   },
   "sense-lex-jmdict-1183510-1": {
     "senseVersion": 1,
     "words": [
-      "気温",
       "熱"
     ]
   },
@@ -10572,11 +14776,17 @@ export const hintConfusions: HintConfusions = {
       "温暖"
     ]
   },
+  "sense-lex-jmdict-1183720-1": {
+    "senseVersion": 1,
+    "words": [
+      "歌"
+    ]
+  },
   "sense-lex-jmdict-1184140-1": {
     "senseVersion": 1,
     "words": [
       "上",
-      "以下"
+      "底"
     ]
   },
   "sense-lex-jmdict-1184360-1": {
@@ -10585,6 +14795,16 @@ export const hintConfusions: HintConfusions = {
       "小さい",
       "無用"
     ]
+  },
+  "sense-lex-jmdict-1184370-1": {
+    "senseVersion": 1,
+    "words": [
+      "上り"
+    ]
+  },
+  "sense-lex-jmdict-1184480-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1184580-1": {
     "senseVersion": 1,
@@ -10600,25 +14820,51 @@ export const hintConfusions: HintConfusions = {
       "減少"
     ]
   },
+  "sense-lex-jmdict-1185170-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1185180-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1185200-1": {
     "senseVersion": 1,
     "words": [
-      "上手",
-      "苦手"
+      "悪い"
     ]
   },
   "sense-lex-jmdict-1185290-1": {
     "senseVersion": 1,
     "words": [
-      "寮",
-      "宿泊"
+      "寮"
     ]
+  },
+  "sense-lex-jmdict-1185330-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1185370-1": {
     "senseVersion": 1,
     "words": [
       "案",
-      "清書"
+      "原稿"
+    ]
+  },
+  "sense-lex-jmdict-1185450-1": {
+    "senseVersion": 1,
+    "words": [
+      "善意"
+    ]
+  },
+  "sense-lex-jmdict-1185510-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1185780-1": {
+    "senseVersion": 1,
+    "words": [
+      "草履"
     ]
   },
   "sense-lex-jmdict-1185920-1": {
@@ -10630,23 +14876,26 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1185930-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1185940-1": {
+    "senseVersion": 1,
     "words": [
-      "肌着",
-      "上着"
+      "繁華街"
     ]
   },
   "sense-lex-jmdict-1185970-1": {
     "senseVersion": 1,
     "words": [
-      "本調査",
-      "準備"
+      "準備",
+      "整備"
     ]
   },
   "sense-lex-jmdict-1186230-1": {
     "senseVersion": 1,
     "words": [
-      "下手",
-      "露骨"
+      "露骨",
+      "乱暴"
     ]
   },
   "sense-lex-jmdict-1186710-1": {
@@ -10656,25 +14905,50 @@ export const hintConfusions: HintConfusions = {
       "変わる"
     ]
   },
+  "sense-lex-jmdict-1186760-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1186980-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1187210-1": {
+    "senseVersion": 1,
+    "words": [
+      "遺跡"
+    ]
+  },
+  "sense-lex-jmdict-1187250-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1188100-1": {
+    "senseVersion": 1,
+    "words": [
+      "発音"
+    ]
+  },
   "sense-lex-jmdict-1188330-1": {
     "senseVersion": 1,
     "words": [
-      "何より",
       "なぜなら"
     ]
   },
   "sense-lex-jmdict-1188420-1": {
     "senseVersion": 1,
     "words": [
-      "辛うじて",
-      "何となく"
+      "辛うじて"
     ]
   },
   "sense-lex-jmdict-1188530-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1188760-1": {
+    "senseVersion": 1,
     "words": [
-      "何しろ",
-      "何でも"
+      "どこ"
     ]
   },
   "sense-lex-jmdict-1188890-1": {
@@ -10715,21 +14989,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1190370-1": {
     "senseVersion": 1,
     "words": [
-      "減速",
       "促進"
     ]
   },
   "sense-lex-jmdict-1190430-1": {
     "senseVersion": 1,
     "words": [
-      "参加",
-      "応募"
+      "応募",
+      "登録"
     ]
   },
   "sense-lex-jmdict-1190470-1": {
     "senseVersion": 1,
     "words": [
-      "過熱",
       "暖房"
     ]
   },
@@ -10743,36 +15015,65 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1190810-1": {
     "senseVersion": 1,
     "words": [
-      "否決",
-      "採用"
+      "採用",
+      "賛成"
     ]
+  },
+  "sense-lex-jmdict-1191060-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1191320-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1191420-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1191680-1": {
     "senseVersion": 1,
     "words": [
-      "花嫁",
-      "家内"
+      "家内",
+      "奥さん"
     ]
   },
   "sense-lex-jmdict-1191730-1": {
     "senseVersion": 1,
     "words": [
       "住宅",
-      "家庭"
+      "居住"
     ]
   },
   "sense-lex-jmdict-1191780-1": {
     "senseVersion": 1,
     "words": [
-      "家庭",
-      "建物"
+      "建物",
+      "宿"
     ]
+  },
+  "sense-lex-jmdict-1191870-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1191910-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1191980-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1192150-1": {
     "senseVersion": 1,
     "words": [
-      "親戚",
-      "家庭"
+      "親戚"
+    ]
+  },
+  "sense-lex-jmdict-1192240-1": {
+    "senseVersion": 1,
+    "words": [
+      "ペット"
     ]
   },
   "sense-lex-jmdict-1192270-1": {
@@ -10786,7 +15087,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "仮定",
-      "家"
+      "宿"
     ]
   },
   "sense-lex-jmdict-1192420-1": {
@@ -10798,16 +15099,13 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1192700-1": {
     "senseVersion": 1,
-    "words": [
-      "化学",
-      "学術"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1192850-1": {
     "senseVersion": 1,
     "words": [
       "遂げる",
-      "果てる"
+      "行う"
     ]
   },
   "sense-lex-jmdict-1192860-1": {
@@ -10820,36 +15118,61 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1192940-1": {
     "senseVersion": 1,
     "words": [
-      "実",
-      "葉"
+      "葉",
+      "収穫"
+    ]
+  },
+  "sense-lex-jmdict-1193130-1": {
+    "senseVersion": 1,
+    "words": [
+      "実在"
+    ]
+  },
+  "sense-lex-jmdict-1193180-1": {
+    "senseVersion": 1,
+    "words": [
+      "声"
+    ]
+  },
+  "sense-lex-jmdict-1193290-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1193520-1": {
+    "senseVersion": 1,
+    "words": [
+      "用水路"
     ]
   },
   "sense-lex-jmdict-1193610-1": {
     "senseVersion": 1,
     "words": [
-      "花火",
       "炎"
     ]
   },
   "sense-lex-jmdict-1193760-1": {
     "senseVersion": 1,
     "words": [
-      "炎",
-      "火"
+      "炎"
     ]
   },
   "sense-lex-jmdict-1193880-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1193910-1": {
+    "senseVersion": 1,
     "words": [
-      "火事"
+      "丘"
     ]
   },
   "sense-lex-jmdict-1193950-1": {
     "senseVersion": 1,
-    "words": [
-      "火災",
-      "火"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1194290-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1194500-1": {
     "senseVersion": 1,
@@ -10860,30 +15183,37 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1194570-1": {
     "senseVersion": 1,
-    "words": [
-      "嫁",
-      "花婿"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1194580-1": {
     "senseVersion": 1,
     "words": [
-      "火",
       "炎"
+    ]
+  },
+  "sense-lex-jmdict-1194660-1": {
+    "senseVersion": 1,
+    "words": [
+      "散歩"
+    ]
+  },
+  "sense-lex-jmdict-1194870-1": {
+    "senseVersion": 1,
+    "words": [
+      "植木鉢"
     ]
   },
   "sense-lex-jmdict-1195250-1": {
     "senseVersion": 1,
     "words": [
-      "荷造り",
-      "責任"
+      "責任",
+      "義務"
     ]
   },
   "sense-lex-jmdict-1195270-1": {
     "senseVersion": 1,
     "words": [
-      "包装",
-      "荷物"
+      "包装"
     ]
   },
   "sense-lex-jmdict-1195610-1": {
@@ -10896,8 +15226,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1195670-1": {
     "senseVersion": 1,
     "words": [
-      "お菓子",
-      "料理"
+      "料理",
+      "キャンディ"
     ]
   },
   "sense-lex-jmdict-1195710-1": {
@@ -10907,17 +15237,30 @@ export const hintConfusions: HintConfusions = {
       "授業"
     ]
   },
+  "sense-lex-jmdict-1195750-1": {
+    "senseVersion": 1,
+    "words": [
+      "授業"
+    ]
+  },
+  "sense-lex-jmdict-1195790-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1195820-1": {
     "senseVersion": 1,
     "words": [
-      "問題",
-      "宿題"
+      "結果",
+      "作業"
     ]
+  },
+  "sense-lex-jmdict-1195840-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1195850-1": {
     "senseVersion": 1,
     "words": [
-      "過程",
       "科目"
     ]
   },
@@ -10931,8 +15274,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1195930-1": {
     "senseVersion": 1,
     "words": [
-      "通貨",
-      "紙幣"
+      "現金",
+      "お金"
     ]
   },
   "sense-lex-jmdict-1196010-1": {
@@ -10956,25 +15299,28 @@ export const hintConfusions: HintConfusions = {
       "余計"
     ]
   },
+  "sense-lex-jmdict-1196220-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1196230-1": {
     "senseVersion": 1,
     "words": [
       "不足",
-      "過剰"
+      "余計"
     ]
   },
   "sense-lex-jmdict-1196270-1": {
     "senseVersion": 1,
     "words": [
-      "課程",
-      "方法"
+      "方法",
+      "手続き"
     ]
   },
   "sense-lex-jmdict-1196380-1": {
     "senseVersion": 1,
     "words": [
-      "半数",
-      "大半"
+      "大部分"
     ]
   },
   "sense-lex-jmdict-1196460-1": {
@@ -10987,9 +15333,30 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1196490-1": {
     "senseVersion": 1,
     "words": [
-      "疲労",
       "緊張"
     ]
+  },
+  "sense-lex-jmdict-1196520-1": {
+    "senseVersion": 1,
+    "words": [
+      "消える"
+    ]
+  },
+  "sense-lex-jmdict-1196540-1": {
+    "senseVersion": 1,
+    "words": [
+      "蠅"
+    ]
+  },
+  "sense-lex-jmdict-1197020-1": {
+    "senseVersion": 1,
+    "words": [
+      "自由"
+    ]
+  },
+  "sense-lex-jmdict-1197120-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1197710-1": {
     "senseVersion": 1,
@@ -11015,8 +15382,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1198170-1": {
     "senseVersion": 1,
     "words": [
-      "会合",
-      "集まり"
+      "集まり",
+      "催し"
     ]
   },
   "sense-lex-jmdict-1198230-1": {
@@ -11026,18 +15393,22 @@ export const hintConfusions: HintConfusions = {
       "参加者"
     ]
   },
+  "sense-lex-jmdict-1198380-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1198500-1": {
     "senseVersion": 1,
     "words": [
-      "会話",
-      "会議"
+      "面接",
+      "集まり"
     ]
   },
   "sense-lex-jmdict-1198530-1": {
     "senseVersion": 1,
     "words": [
-      "集会",
-      "集まり"
+      "集まり",
+      "催し"
     ]
   },
   "sense-lex-jmdict-1198550-1": {
@@ -11050,35 +15421,35 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1198660-1": {
     "senseVersion": 1,
     "words": [
-      "場所",
-      "所"
+      "所",
+      "現地"
     ]
   },
   "sense-lex-jmdict-1198760-1": {
     "senseVersion": 1,
     "words": [
-      "会合",
-      "会議"
+      "協議",
+      "交渉"
     ]
   },
   "sense-lex-jmdict-1198880-1": {
     "senseVersion": 1,
     "words": [
-      "対話",
-      "発表"
+      "発表",
+      "しゃべる"
     ]
   },
   "sense-lex-jmdict-1198900-1": {
     "senseVersion": 1,
     "words": [
-      "解く（とく）"
+      "緩める"
     ]
   },
   "sense-lex-jmdict-1198960-1": {
     "senseVersion": 1,
     "words": [
-      "解答",
-      "答え"
+      "答え",
+      "整理"
     ]
   },
   "sense-lex-jmdict-1199000-1": {
@@ -11105,50 +15476,56 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1199080-1": {
     "senseVersion": 1,
     "words": [
-      "解答",
-      "説明"
+      "批評"
     ]
   },
   "sense-lex-jmdict-1199160-1": {
     "senseVersion": 1,
     "words": [
-      "答案",
-      "回答"
+      "返事"
     ]
   },
   "sense-lex-jmdict-1199250-1": {
     "senseVersion": 1,
     "words": [
-      "開放",
-      "解除"
+      "逃がす"
     ]
   },
   "sense-lex-jmdict-1199270-1": {
     "senseVersion": 1,
     "words": [
-      "診察",
-      "分解"
+      "診察"
     ]
   },
   "sense-lex-jmdict-1199360-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1199510-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1199520-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1199610-1": {
+    "senseVersion": 1,
     "words": [
-      "近道",
-      "遠回り"
+      "営業運転"
     ]
   },
   "sense-lex-jmdict-1199640-1": {
     "senseVersion": 1,
     "words": [
-      "回り",
-      "停止"
+      "停止",
+      "流通"
     ]
   },
   "sense-lex-jmdict-1199680-1": {
     "senseVersion": 1,
     "words": [
-      "解答",
-      "答え"
+      "返事"
     ]
   },
   "sense-lex-jmdict-1199720-1": {
@@ -11175,15 +15552,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1199970-1": {
     "senseVersion": 1,
     "words": [
-      "快適",
-      "良い"
+      "良い",
+      "楽"
     ]
   },
   "sense-lex-jmdict-1200060-1": {
     "senseVersion": 1,
     "words": [
-      "曇り",
-      "晴れ"
+      "曇り"
     ]
   },
   "sense-lex-jmdict-1200120-1": {
@@ -11217,29 +15593,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1200760-1": {
     "senseVersion": 1,
     "words": [
-      "改善",
       "低下"
     ]
   },
   "sense-lex-jmdict-1200780-1": {
     "senseVersion": 1,
     "words": [
-      "改良",
-      "改造"
+      "再生"
     ]
   },
   "sense-lex-jmdict-1200880-1": {
     "senseVersion": 1,
     "words": [
-      "修繕",
-      "新築"
+      "新築",
+      "整備"
     ]
   },
   "sense-lex-jmdict-1200930-1": {
     "senseVersion": 1,
     "words": [
-      "改定",
-      "改訂"
+      "変化",
+      "変更"
     ]
   },
   "sense-lex-jmdict-1200960-1": {
@@ -11253,50 +15627,97 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "修理",
-      "改革"
+      "変化"
     ]
   },
   "sense-lex-jmdict-1201040-1": {
     "senseVersion": 1,
     "words": [
-      "改訂",
-      "改正"
+      "変化",
+      "修正"
     ]
   },
   "sense-lex-jmdict-1201060-1": {
     "senseVersion": 1,
     "words": [
-      "改定",
-      "改正"
+      "変化",
+      "修正"
     ]
   },
   "sense-lex-jmdict-1201140-1": {
     "senseVersion": 1,
     "words": [
       "修理",
-      "改革"
+      "整備"
     ]
   },
   "sense-lex-jmdict-1201190-1": {
     "senseVersion": 1,
     "words": [
-      "湖",
-      "海洋"
+      "湖"
     ]
+  },
+  "sense-lex-jmdict-1201230-1": {
+    "senseVersion": 1,
+    "words": [
+      "空輸"
+    ]
+  },
+  "sense-lex-jmdict-1201260-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1201280-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1201320-1": {
+    "senseVersion": 1,
     "words": [
-      "岸",
-      "海"
+      "湾"
+    ]
+  },
+  "sense-lex-jmdict-1201520-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1201700-1": {
+    "senseVersion": 1,
+    "words": [
+      "高さ"
     ]
   },
   "sense-lex-jmdict-1201790-1": {
     "senseVersion": 1,
     "words": [
-      "河川",
-      "海"
+      "河川"
     ]
+  },
+  "sense-lex-jmdict-1201820-1": {
+    "senseVersion": 1,
+    "words": [
+      "波"
+    ]
+  },
+  "sense-lex-jmdict-1201830-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1201860-1": {
+    "senseVersion": 1,
+    "words": [
+      "煙"
+    ]
+  },
+  "sense-lex-jmdict-1201940-1": {
+    "senseVersion": 1,
+    "words": [
+      "ごみ箱"
+    ]
+  },
+  "sense-lex-jmdict-1201970-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1202150-1": {
     "senseVersion": 1,
@@ -11308,79 +15729,92 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1202170-1": {
     "senseVersion": 1,
     "words": [
-      "皆",
-      "全員"
+      "全員",
+      "全部"
     ]
   },
   "sense-lex-jmdict-1202270-1": {
     "senseVersion": 1,
     "words": [
-      "絵画",
-      "図"
+      "図",
+      "イラスト"
+    ]
+  },
+  "sense-lex-jmdict-1202290-1": {
+    "senseVersion": 1,
+    "words": [
+      "色鉛筆"
     ]
   },
   "sense-lex-jmdict-1202300-1": {
     "senseVersion": 1,
     "words": [
-      "絵",
-      "図"
+      "図",
+      "イラスト"
     ]
+  },
+  "sense-lex-jmdict-1202560-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1202710-1": {
     "senseVersion": 1,
     "words": [
-      "参加",
-      "主催"
+      "参加"
     ]
   },
   "sense-lex-jmdict-1202760-1": {
     "senseVersion": 1,
     "words": [
-      "始まり",
-      "終了"
+      "終了",
+      "最初"
     ]
   },
   "sense-lex-jmdict-1202830-1": {
     "senseVersion": 1,
-    "words": [
-      "開発",
-      "開放"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1202850-1": {
     "senseVersion": 1,
-    "words": [
-      "通行止め",
-      "開放"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1202880-1": {
     "senseVersion": 1,
-    "words": [
-      "発見",
-      "開拓"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1202950-1": {
     "senseVersion": 1,
-    "words": [
-      "解放",
-      "開拓"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1203040-1": {
     "senseVersion": 1,
     "words": [
-      "階層",
-      "段階"
+      "地位",
+      "身分"
     ]
   },
   "sense-lex-jmdict-1203080-1": {
     "senseVersion": 1,
     "words": [
-      "階級",
-      "級"
+      "級",
+      "段"
     ]
+  },
+  "sense-lex-jmdict-1203090-1": {
+    "senseVersion": 1,
+    "words": [
+      "坂"
+    ]
+  },
+  "sense-lex-jmdict-1203100-1": {
+    "senseVersion": 1,
+    "words": [
+      "魚"
+    ]
+  },
+  "sense-lex-jmdict-1203410-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1203460-1": {
     "senseVersion": 1,
@@ -11389,32 +15823,62 @@ export const hintConfusions: HintConfusions = {
       "内装"
     ]
   },
+  "sense-lex-jmdict-1203540-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1203620-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1203650-1": {
+    "senseVersion": 1,
+    "words": [
+      "留学生"
+    ]
+  },
   "sense-lex-jmdict-1203800-1": {
     "senseVersion": 1,
     "words": [
       "旅行",
-      "出発"
+      "遠足"
     ]
+  },
+  "sense-lex-jmdict-1203940-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1204070-1": {
     "senseVersion": 1,
     "words": [
-      "内部",
-      "外"
+      "表面",
+      "表（おもて）"
+    ]
+  },
+  "sense-lex-jmdict-1204240-1": {
+    "senseVersion": 1,
+    "words": [
+      "入院"
+    ]
+  },
+  "sense-lex-jmdict-1204300-1": {
+    "senseVersion": 1,
+    "words": [
+      "くしゃみ"
     ]
   },
   "sense-lex-jmdict-1204330-1": {
     "senseVersion": 1,
     "words": [
-      "被害",
-      "損害"
+      "益",
+      "損"
     ]
   },
   "sense-lex-jmdict-1204470-1": {
     "senseVersion": 1,
     "words": [
-      "詳説",
-      "要旨"
+      "要旨",
+      "要領"
     ]
   },
   "sense-lex-jmdict-1204480-1": {
@@ -11434,8 +15898,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1204520-1": {
     "senseVersion": 1,
     "words": [
-      "各論",
-      "要旨"
+      "要旨",
+      "要領"
     ]
   },
   "sense-lex-jmdict-1204540-1": {
@@ -11445,19 +15909,35 @@ export const hintConfusions: HintConfusions = {
       "カバー"
     ]
   },
+  "sense-lex-jmdict-1204580-1": {
+    "senseVersion": 1,
+    "words": [
+      "交差点"
+    ]
+  },
   "sense-lex-jmdict-1204640-1": {
     "senseVersion": 1,
     "words": [
-      "街道",
-      "道"
+      "道",
+      "町"
+    ]
+  },
+  "sense-lex-jmdict-1204700-1": {
+    "senseVersion": 1,
+    "words": [
+      "一致"
     ]
   },
   "sense-lex-jmdict-1204800-1": {
     "senseVersion": 1,
     "words": [
       "柵",
-      "屋根"
+      "境"
     ]
+  },
+  "sense-lex-jmdict-1205040-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1205180-1": {
     "senseVersion": 1,
@@ -11470,7 +15950,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "縮小",
-      "拡大"
+      "進出"
     ]
   },
   "sense-lex-jmdict-1205200-1": {
@@ -11484,21 +15964,21 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "縮小",
-      "拡大"
+      "延長"
     ]
   },
   "sense-lex-jmdict-1205340-1": {
     "senseVersion": 1,
     "words": [
-      "差",
-      "区別"
+      "区別",
+      "ずれ"
     ]
   },
   "sense-lex-jmdict-1205490-1": {
     "senseVersion": 1,
     "words": [
-      "特別",
-      "普通"
+      "普通",
+      "特に"
     ]
   },
   "sense-lex-jmdict-1205510-1": {
@@ -11511,35 +15991,39 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1205750-1": {
     "senseVersion": 1,
     "words": [
-      "取得",
       "所持"
+    ]
+  },
+  "sense-lex-jmdict-1205760-1": {
+    "senseVersion": 1,
+    "words": [
+      "敵"
     ]
   },
   "sense-lex-jmdict-1205830-1": {
     "senseVersion": 1,
     "words": [
-      "確か",
-      "明らか"
+      "明らか",
+      "大丈夫"
     ]
   },
   "sense-lex-jmdict-1205870-1": {
     "senseVersion": 1,
     "words": [
       "推測",
-      "自信"
+      "安心"
     ]
   },
   "sense-lex-jmdict-1205880-1": {
     "senseVersion": 1,
     "words": [
-      "決定",
-      "判断"
+      "判断",
+      "成立"
     ]
   },
   "sense-lex-jmdict-1205920-1": {
     "senseVersion": 1,
     "words": [
-      "保証",
       "キャッチ"
     ]
   },
@@ -11554,7 +16038,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "設置",
-      "成立"
+      "制定"
     ]
   },
   "sense-lex-jmdict-1206040-1": {
@@ -11567,8 +16051,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1206060-1": {
     "senseVersion": 1,
     "words": [
-      "起こす",
-      "覚める"
+      "起こす"
     ]
   },
   "sense-lex-jmdict-1206080-1": {
@@ -11585,10 +16068,15 @@ export const hintConfusions: HintConfusions = {
       "縁（ふち）"
     ]
   },
+  "sense-lex-jmdict-1206190-1": {
+    "senseVersion": 1,
+    "words": [
+      "長さ"
+    ]
+  },
   "sense-lex-jmdict-1206340-1": {
     "senseVersion": 1,
     "words": [
-      "隔てる",
       "離れる"
     ]
   },
@@ -11602,42 +16090,45 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1206470-1": {
     "senseVersion": 1,
     "words": [
-      "改良",
-      "改革"
+      "改良"
     ]
   },
   "sense-lex-jmdict-1206500-1": {
     "senseVersion": 1,
-    "words": [
-      "改革",
-      "変革"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1206590-1": {
     "senseVersion": 1,
-    "words": [
-      "学部",
-      "科目"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1206610-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1206650-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1206680-1": {
     "senseVersion": 1,
     "words": [
       "クラス",
-      "学年"
+      "授業"
     ]
   },
   "sense-lex-jmdict-1206730-1": {
     "senseVersion": 1,
     "words": [
-      "教室",
-      "学部"
+      "教室"
     ]
+  },
+  "sense-lex-jmdict-1206760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1206800-1": {
     "senseVersion": 1,
     "words": [
-      "学生",
       "博士"
     ]
   },
@@ -11650,51 +16141,49 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1206870-1": {
     "senseVersion": 1,
-    "words": [
-      "技術",
-      "科学"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1206900-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1206950-1": {
     "senseVersion": 1,
     "words": [
-      "説",
-      "感想"
+      "感想",
+      "原理"
     ]
   },
   "sense-lex-jmdict-1207030-1": {
     "senseVersion": 1,
-    "words": [
-      "学級",
-      "年度"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1207080-1": {
     "senseVersion": 1,
     "words": [
-      "学科",
-      "学校"
+      "教室"
     ]
   },
   "sense-lex-jmdict-1207130-1": {
     "senseVersion": 1,
     "words": [
-      "学習",
-      "教育"
+      "教育",
+      "研究"
     ]
   },
   "sense-lex-jmdict-1207180-1": {
     "senseVersion": 1,
-    "words": [
-      "学歴",
-      "学術"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1207200-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1207230-1": {
     "senseVersion": 1,
     "words": [
-      "気楽",
-      "簡単"
+      "簡単",
+      "安心"
     ]
   },
   "sense-lex-jmdict-1207240-1": {
@@ -11708,14 +16197,30 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "期待",
-      "楽しい"
+      "遊び"
+    ]
+  },
+  "sense-lex-jmdict-1207310-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1207490-1": {
+    "senseVersion": 1,
+    "words": [
+      "歌詞"
     ]
   },
   "sense-lex-jmdict-1207500-1": {
     "senseVersion": 1,
     "words": [
-      "金額",
-      "程度"
+      "程度",
+      "数"
+    ]
+  },
+  "sense-lex-jmdict-1207560-1": {
+    "senseVersion": 1,
+    "words": [
+      "頬"
     ]
   },
   "sense-lex-jmdict-1207730-1": {
@@ -11723,6 +16228,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "破る",
       "切る"
+    ]
+  },
+  "sense-lex-jmdict-1208240-1": {
+    "senseVersion": 1,
+    "words": [
+      "句読点"
     ]
   },
   "sense-lex-jmdict-1208410-1": {
@@ -11735,29 +16246,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1208450-1": {
     "senseVersion": 1,
     "words": [
-      "休養",
-      "活動"
+      "休養"
     ]
   },
   "sense-lex-jmdict-1208460-1": {
     "senseVersion": 1,
     "words": [
-      "利用",
-      "使用"
+      "反映"
     ]
   },
   "sense-lex-jmdict-1208480-1": {
     "senseVersion": 1,
     "words": [
-      "体力",
-      "勢い"
+      "勢い",
+      "エネルギー"
     ]
   },
   "sense-lex-jmdict-1208560-1": {
     "senseVersion": 1,
     "words": [
-      "滑る",
-      "柔軟"
+      "柔軟",
+      "柔らかい"
     ]
   },
   "sense-lex-jmdict-1208660-1": {
@@ -11774,17 +16283,19 @@ export const hintConfusions: HintConfusions = {
       "更に"
     ]
   },
+  "sense-lex-jmdict-1208870-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1208920-1": {
     "senseVersion": 1,
     "words": [
-      "株式",
       "債券"
     ]
   },
   "sense-lex-jmdict-1208970-1": {
     "senseVersion": 1,
     "words": [
-      "株",
       "債券"
     ]
   },
@@ -11795,12 +16306,15 @@ export const hintConfusions: HintConfusions = {
       "切る"
     ]
   },
-  "sense-lex-jmdict-1210100-1": {
+  "sense-lex-jmdict-1209920-1": {
     "senseVersion": 1,
     "words": [
-      "電池",
-      "充電器"
+      "湿気"
     ]
+  },
+  "sense-lex-jmdict-1210100-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1210570-1": {
     "senseVersion": 1,
@@ -11841,7 +16355,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "推薦",
-      "勧誘"
+      "命令"
     ]
   },
   "sense-lex-jmdict-1210970-1": {
@@ -11854,8 +16368,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1211120-1": {
     "senseVersion": 1,
     "words": [
-      "勧め",
-      "推薦"
+      "推薦",
+      "促進"
     ]
   },
   "sense-lex-jmdict-1211310-1": {
@@ -11865,25 +16379,40 @@ export const hintConfusions: HintConfusions = {
       "諦める"
     ]
   },
-  "sense-lex-jmdict-1211510-1": {
+  "sense-lex-jmdict-1211340-1": {
     "senseVersion": 1,
     "words": [
-      "全部",
-      "完了"
+      "困る"
     ]
+  },
+  "sense-lex-jmdict-1211510-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1211630-1": {
     "senseVersion": 1,
     "words": [
-      "終了",
-      "最後"
+      "最後",
+      "成立"
+    ]
+  },
+  "sense-lex-jmdict-1211730-1": {
+    "senseVersion": 1,
+    "words": [
+      "企業"
+    ]
+  },
+  "sense-lex-jmdict-1211860-1": {
+    "senseVersion": 1,
+    "words": [
+      "政治家"
     ]
   },
   "sense-lex-jmdict-1211970-1": {
     "senseVersion": 1,
     "words": [
       "厳格",
-      "許容"
+      "勘弁"
     ]
   },
   "sense-lex-jmdict-1212050-1": {
@@ -11891,6 +16420,22 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "助言",
       "介入"
+    ]
+  },
+  "sense-lex-jmdict-1212140-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1212170-1": {
+    "senseVersion": 1,
+    "words": [
+      "一般職員"
+    ]
+  },
+  "sense-lex-jmdict-1212210-1": {
+    "senseVersion": 1,
+    "words": [
+      "病人"
     ]
   },
   "sense-lex-jmdict-1212250-1": {
@@ -11902,10 +16447,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1212310-1": {
     "senseVersion": 1,
-    "words": [
-      "感想",
-      "感動"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1212380-1": {
     "senseVersion": 1,
@@ -11924,7 +16466,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1212450-1": {
     "senseVersion": 1,
     "words": [
-      "感動",
       "立派"
     ]
   },
@@ -11938,21 +16479,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1212550-1": {
     "senseVersion": 1,
     "words": [
-      "精度",
       "神経"
     ]
   },
   "sense-lex-jmdict-1212570-1": {
     "senseVersion": 1,
     "words": [
-      "感情",
-      "刺激"
+      "刺激",
+      "興奮"
     ]
   },
   "sense-lex-jmdict-1212650-1": {
     "senseVersion": 1,
     "words": [
-      "慣れる",
       "育てる"
     ]
   },
@@ -11960,28 +16499,34 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "規則",
-      "習慣"
+      "癖"
     ]
   },
   "sense-lex-jmdict-1212700-1": {
     "senseVersion": 1,
     "words": [
-      "習慣",
-      "伝統"
+      "伝統",
+      "決まり"
     ]
   },
   "sense-lex-jmdict-1212750-1": {
     "senseVersion": 1,
     "words": [
-      "例外",
-      "伝統"
+      "伝統",
+      "決まり"
+    ]
+  },
+  "sense-lex-jmdict-1212780-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷房"
     ]
   },
   "sense-lex-jmdict-1212820-1": {
     "senseVersion": 1,
     "words": [
-      "交換",
-      "転換"
+      "為替",
+      "改造"
     ]
   },
   "sense-lex-jmdict-1212850-1": {
@@ -11998,11 +16543,23 @@ export const hintConfusions: HintConfusions = {
       "対応"
     ]
   },
+  "sense-lex-jmdict-1213000-1": {
+    "senseVersion": 1,
+    "words": [
+      "悲鳴"
+    ]
+  },
+  "sense-lex-jmdict-1213170-1": {
+    "senseVersion": 1,
+    "words": [
+      "ひらがな"
+    ]
+  },
   "sense-lex-jmdict-1213680-1": {
     "senseVersion": 1,
     "words": [
-      "監督",
-      "観測"
+      "観測",
+      "指揮"
     ]
   },
   "sense-lex-jmdict-1213720-1": {
@@ -12015,8 +16572,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1213810-1": {
     "senseVersion": 1,
     "words": [
-      "介護",
-      "看病"
+      "労る"
     ]
   },
   "sense-lex-jmdict-1213990-1": {
@@ -12043,15 +16599,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1214270-1": {
     "senseVersion": 1,
     "words": [
-      "簡単",
-      "簡潔"
+      "単純",
+      "単なる"
     ]
   },
   "sense-lex-jmdict-1214290-1": {
     "senseVersion": 1,
     "words": [
-      "簡素",
-      "簡単"
+      "短い"
     ]
   },
   "sense-lex-jmdict-1214300-1": {
@@ -12064,15 +16619,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1214330-1": {
     "senseVersion": 1,
     "words": [
-      "簡易",
-      "易しい"
+      "易しい",
+      "容易"
     ]
   },
   "sense-lex-jmdict-1214430-1": {
     "senseVersion": 1,
-    "words": [
-      "緩める"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1214440-1": {
     "senseVersion": 1,
@@ -12098,15 +16651,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1214540-1": {
     "senseVersion": 1,
     "words": [
-      "瓶",
-      "缶詰"
+      "瓶"
     ]
   },
   "sense-lex-jmdict-1214560-1": {
     "senseVersion": 1,
     "words": [
-      "生鮮食品",
-      "缶"
+      "生鮮食品"
+    ]
+  },
+  "sense-lex-jmdict-1214930-1": {
+    "senseVersion": 1,
+    "words": [
+      "参加者"
     ]
   },
   "sense-lex-jmdict-1214980-1": {
@@ -12141,21 +16698,33 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "独占",
-      "返還"
+      "返す"
+    ]
+  },
+  "sense-lex-jmdict-1215160-1": {
+    "senseVersion": 1,
+    "words": [
+      "誕生日"
+    ]
+  },
+  "sense-lex-jmdict-1215200-1": {
+    "senseVersion": 1,
+    "words": [
+      "感想"
     ]
   },
   "sense-lex-jmdict-1215230-1": {
     "senseVersion": 1,
     "words": [
-      "間隔",
-      "隙間"
+      "内",
+      "隣"
     ]
   },
   "sense-lex-jmdict-1215240-1": {
     "senseVersion": 1,
     "words": [
-      "間（あいだ）",
-      "間隔"
+      "仲",
+      "場所"
     ]
   },
   "sense-lex-jmdict-1215320-1": {
@@ -12165,39 +16734,39 @@ export const hintConfusions: HintConfusions = {
       "ミス"
     ]
   },
+  "sense-lex-jmdict-1215520-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1215660-1": {
     "senseVersion": 1,
     "words": [
       "仲",
-      "間（ま）"
+      "繋がり"
     ]
   },
   "sense-lex-jmdict-1215790-1": {
     "senseVersion": 1,
     "words": [
-      "関わる",
-      "関係"
+      "結びつく",
+      "繋がる"
     ]
   },
   "sense-lex-jmdict-1215930-1": {
     "senseVersion": 1,
-    "words": [
-      "消費税",
-      "税金"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1216050-1": {
     "senseVersion": 1,
     "words": [
-      "無関係",
       "参加"
     ]
   },
   "sense-lex-jmdict-1216060-1": {
     "senseVersion": 1,
     "words": [
-      "関係",
-      "仲"
+      "仲",
+      "接続"
     ]
   },
   "sense-lex-jmdict-1216250-1": {
@@ -12224,8 +16793,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1217040-1": {
     "senseVersion": 1,
     "words": [
-      "海岸",
-      "沖"
+      "沖",
+      "陸"
     ]
   },
   "sense-lex-jmdict-1217270-1": {
@@ -12237,15 +16806,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1217680-1": {
     "senseVersion": 1,
     "words": [
-      "頑丈",
       "強硬"
     ]
   },
   "sense-lex-jmdict-1217690-1": {
     "senseVersion": 1,
     "words": [
-      "丈夫",
-      "健やか"
+      "健やか",
+      "強い"
     ]
   },
   "sense-lex-jmdict-1217730-1": {
@@ -12259,7 +16827,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "表情",
-      "顔色"
+      "形"
     ]
   },
   "sense-lex-jmdict-1217900-1": {
@@ -12272,99 +16840,109 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1218050-1": {
     "senseVersion": 1,
     "words": [
-      "履歴書",
-      "応募"
+      "応募",
+      "申請"
     ]
   },
   "sense-lex-jmdict-1218150-1": {
     "senseVersion": 1,
     "words": [
       "実行",
-      "計画"
+      "考え"
     ]
   },
   "sense-lex-jmdict-1218190-1": {
     "senseVersion": 1,
     "words": [
-      "会社",
-      "業者"
+      "会社"
     ]
   },
   "sense-lex-jmdict-1218360-1": {
     "senseVersion": 1,
     "words": [
-      "危ない",
-      "安全"
+      "安全",
+      "物騒"
     ]
   },
   "sense-lex-jmdict-1218380-1": {
     "senseVersion": 1,
     "words": [
-      "危険",
-      "危うい"
+      "物騒",
+      "安全"
     ]
   },
   "sense-lex-jmdict-1218410-1": {
     "senseVersion": 1,
     "words": [
-      "危ない",
-      "疑う"
+      "疑う",
+      "恐れる"
     ]
   },
   "sense-lex-jmdict-1218440-1": {
     "senseVersion": 1,
     "words": [
-      "被害",
-      "危険"
+      "恐れ",
+      "損"
     ]
   },
   "sense-lex-jmdict-1218450-1": {
     "senseVersion": 1,
     "words": [
-      "危険",
-      "緊急"
+      "緊急",
+      "非常"
     ]
   },
   "sense-lex-jmdict-1218560-1": {
     "senseVersion": 1,
     "words": [
-      "危ない",
-      "物騒"
+      "物騒",
+      "恐れ"
     ]
   },
   "sense-lex-jmdict-1218810-1": {
     "senseVersion": 1,
     "words": [
-      "コメディ",
-      "悲劇"
+      "コメディ"
     ]
   },
   "sense-lex-jmdict-1218880-1": {
     "senseVersion": 1,
     "words": [
-      "容器",
-      "器官"
+      "鉢",
+      "ボウル"
+    ]
+  },
+  "sense-lex-jmdict-1218910-1": {
+    "senseVersion": 1,
+    "words": [
+      "機関"
     ]
   },
   "sense-lex-jmdict-1218920-1": {
     "senseVersion": 1,
     "words": [
-      "道具",
-      "材料"
+      "材料",
+      "装置"
     ]
   },
   "sense-lex-jmdict-1218960-1": {
     "senseVersion": 1,
     "words": [
-      "不器用",
-      "巧み"
+      "巧み",
+      "鋭い"
+    ]
+  },
+  "sense-lex-jmdict-1219020-1": {
+    "senseVersion": 1,
+    "words": [
+      "寄付"
     ]
   },
   "sense-lex-jmdict-1219170-1": {
     "senseVersion": 1,
     "words": [
       "ベース",
-      "基準"
+      "台"
     ]
   },
   "sense-lex-jmdict-1219490-1": {
@@ -12384,22 +16962,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1219560-1": {
     "senseVersion": 1,
     "words": [
-      "寄る",
-      "集める"
+      "集める",
+      "押す"
     ]
   },
   "sense-lex-jmdict-1219810-1": {
     "senseVersion": 1,
     "words": [
-      "貢献",
-      "寄付"
+      "貢献"
     ]
   },
   "sense-lex-jmdict-1219910-1": {
     "senseVersion": 1,
     "words": [
-      "望み",
-      "願い"
+      "願い",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1219960-1": {
+    "senseVersion": 1,
+    "words": [
+      "いくら"
     ]
   },
   "sense-lex-jmdict-1219980-1": {
@@ -12411,16 +16994,19 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1220040-1": {
     "senseVersion": 1,
-    "words": [
-      "幾つ",
-      "多い"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1220060-1": {
     "senseVersion": 1,
     "words": [
       "全く",
       "少し"
+    ]
+  },
+  "sense-lex-jmdict-1220240-1": {
+    "senseVersion": 1,
+    "words": [
+      "看板"
     ]
   },
   "sense-lex-jmdict-1220310-1": {
@@ -12430,19 +17016,25 @@ export const hintConfusions: HintConfusions = {
       "以前"
     ]
   },
+  "sense-lex-jmdict-1220350-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1220550-1": {
     "senseVersion": 1,
     "words": [
-      "間（あいだ）",
       "内"
     ]
   },
   "sense-lex-jmdict-1220610-1": {
     "senseVersion": 1,
     "words": [
-      "期間",
-      "期限"
+      "締め切り"
     ]
+  },
+  "sense-lex-jmdict-1220620-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1220670-1": {
     "senseVersion": 1,
@@ -12455,7 +17047,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "エンジン",
-      "機械"
+      "協会"
     ]
   },
   "sense-lex-jmdict-1220930-1": {
@@ -12468,29 +17060,33 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1220940-1": {
     "senseVersion": 1,
     "words": [
-      "構造",
-      "仕組み"
+      "仕組み",
+      "作り"
     ]
   },
   "sense-lex-jmdict-1221130-1": {
     "senseVersion": 1,
     "words": [
       "働き",
-      "技能"
+      "作用"
     ]
+  },
+  "sense-lex-jmdict-1221240-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1221250-1": {
     "senseVersion": 1,
     "words": [
-      "帰宅",
-      "帰る"
+      "引き返す",
+      "戻る"
     ]
   },
   "sense-lex-jmdict-1221520-1": {
     "senseVersion": 1,
     "words": [
-      "気持ち",
-      "心"
+      "心",
+      "機嫌"
     ]
   },
   "sense-lex-jmdict-1221770-1": {
@@ -12500,25 +17096,28 @@ export const hintConfusions: HintConfusions = {
       "残念"
     ]
   },
+  "sense-lex-jmdict-1221880-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1221950-1": {
     "senseVersion": 1,
     "words": [
-      "気候",
       "熱"
     ]
   },
   "sense-lex-jmdict-1222010-1": {
     "senseVersion": 1,
     "words": [
-      "気軽",
-      "快適"
+      "快適",
+      "快い"
     ]
   },
   "sense-lex-jmdict-1222110-1": {
     "senseVersion": 1,
     "words": [
-      "気楽",
-      "安易"
+      "安易",
+      "楽"
     ]
   },
   "sense-lex-jmdict-1222120-1": {
@@ -12527,26 +17126,32 @@ export const hintConfusions: HintConfusions = {
       "遠慮"
     ]
   },
+  "sense-lex-jmdict-1222170-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1222250-1": {
     "senseVersion": 1,
     "words": [
-      "気象",
-      "気"
+      "精神",
+      "特徴"
     ]
   },
   "sense-lex-jmdict-1222270-1": {
     "senseVersion": 1,
     "words": [
-      "気質",
-      "天気"
+      "天候"
+    ]
+  },
+  "sense-lex-jmdict-1222310-1": {
+    "senseVersion": 1,
+    "words": [
+      "上品"
     ]
   },
   "sense-lex-jmdict-1222460-1": {
     "senseVersion": 1,
-    "words": [
-      "液体",
-      "蒸気"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1222540-1": {
     "senseVersion": 1,
@@ -12558,37 +17163,41 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1222580-1": {
     "senseVersion": 1,
     "words": [
-      "気流",
-      "精神"
+      "精神",
+      "性格"
     ]
   },
   "sense-lex-jmdict-1222590-1": {
     "senseVersion": 1,
     "words": [
-      "気",
-      "気持ち"
+      "心理",
+      "機嫌"
     ]
   },
   "sense-lex-jmdict-1222640-1": {
     "senseVersion": 1,
     "words": [
-      "気持ち",
-      "気分"
+      "感じ",
+      "機嫌"
     ]
+  },
+  "sense-lex-jmdict-1222680-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1222700-1": {
     "senseVersion": 1,
-    "words": [
-      "電車",
-      "列車"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1222760-1": {
     "senseVersion": 1,
     "words": [
-      "祈る",
       "願い"
     ]
+  },
+  "sense-lex-jmdict-1222810-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1222840-1": {
     "senseVersion": 1,
@@ -12607,29 +17216,28 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1223010-1": {
     "senseVersion": 1,
     "words": [
-      "規格",
-      "支配"
+      "支配",
+      "警備"
     ]
   },
   "sense-lex-jmdict-1223090-1": {
     "senseVersion": 1,
     "words": [
-      "規則",
       "範囲"
     ]
   },
   "sense-lex-jmdict-1223110-1": {
     "senseVersion": 1,
     "words": [
-      "規則",
-      "協定"
+      "協定",
+      "憲法"
     ]
   },
   "sense-lex-jmdict-1223120-1": {
     "senseVersion": 1,
     "words": [
-      "法律",
-      "憲法"
+      "憲法",
+      "体制"
     ]
   },
   "sense-lex-jmdict-1223150-1": {
@@ -12649,8 +17257,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1223230-1": {
     "senseVersion": 1,
     "words": [
-      "記述",
-      "記録"
+      "登録",
+      "述べる"
     ]
   },
   "sense-lex-jmdict-1223240-1": {
@@ -12670,22 +17278,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1223280-1": {
     "senseVersion": 1,
     "words": [
-      "記載",
-      "記事"
+      "説明",
+      "表現"
     ]
   },
   "sense-lex-jmdict-1223330-1": {
     "senseVersion": 1,
     "words": [
-      "記録",
       "登録"
     ]
   },
   "sense-lex-jmdict-1223430-1": {
     "senseVersion": 1,
     "words": [
-      "署名",
-      "登録"
+      "登録",
+      "調印"
     ]
   },
   "sense-lex-jmdict-1223520-1": {
@@ -12702,6 +17309,18 @@ export const hintConfusions: HintConfusions = {
       "君"
     ]
   },
+  "sense-lex-jmdict-1223820-1": {
+    "senseVersion": 1,
+    "words": [
+      "就寝"
+    ]
+  },
+  "sense-lex-jmdict-1223930-1": {
+    "senseVersion": 1,
+    "words": [
+      "平坦"
+    ]
+  },
   "sense-lex-jmdict-1223980-1": {
     "senseVersion": 1,
     "words": [
@@ -12716,11 +17335,16 @@ export const hintConfusions: HintConfusions = {
       "お化け"
     ]
   },
+  "sense-lex-jmdict-1224580-1": {
+    "senseVersion": 1,
+    "words": [
+      "模倣"
+    ]
+  },
   "sense-lex-jmdict-1224700-1": {
     "senseVersion": 1,
     "words": [
-      "意識",
-      "式"
+      "意識"
     ]
   },
   "sense-lex-jmdict-1224880-1": {
@@ -12737,11 +17361,15 @@ export const hintConfusions: HintConfusions = {
       "劇"
     ]
   },
+  "sense-lex-jmdict-1225110-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1225230-1": {
     "senseVersion": 1,
     "words": [
-      "機能",
-      "働き"
+      "働き",
+      "知識"
     ]
   },
   "sense-lex-jmdict-1225420-1": {
@@ -12751,17 +17379,21 @@ export const hintConfusions: HintConfusions = {
       "間違える"
     ]
   },
+  "sense-lex-jmdict-1225450-1": {
+    "senseVersion": 1,
+    "words": [
+      "被害"
+    ]
+  },
   "sense-lex-jmdict-1225630-1": {
     "senseVersion": 1,
     "words": [
-      "質問",
-      "疑惑"
+      "不審"
     ]
   },
   "sense-lex-jmdict-1225680-1": {
     "senseVersion": 1,
     "words": [
-      "疑問",
       "不審"
     ]
   },
@@ -12779,19 +17411,29 @@ export const hintConfusions: HintConfusions = {
       "責任"
     ]
   },
+  "sense-lex-jmdict-1226010-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1226020-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1226040-1": {
     "senseVersion": 1,
-    "words": [
-      "会議",
-      "国会"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1226050-1": {
     "senseVersion": 1,
-    "words": [
-      "決議",
-      "議論"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1226090-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1226130-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1226140-1": {
     "senseVersion": 1,
@@ -12804,7 +17446,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "相談",
-      "協議"
+      "検討"
     ]
   },
   "sense-lex-jmdict-1226440-1": {
@@ -12824,28 +17466,34 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1226630-1": {
     "senseVersion": 1,
     "words": [
-      "お客様",
       "店員"
+    ]
+  },
+  "sense-lex-jmdict-1226690-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1226760-1": {
+    "senseVersion": 1,
+    "words": [
+      "舞台"
     ]
   },
   "sense-lex-jmdict-1226830-1": {
     "senseVersion": 1,
     "words": [
-      "脚本",
       "誇張"
     ]
   },
   "sense-lex-jmdict-1226880-1": {
     "senseVersion": 1,
     "words": [
-      "脚色",
       "シナリオ"
     ]
   },
   "sense-lex-jmdict-1226970-1": {
     "senseVersion": 1,
     "words": [
-      "逆さま",
       "正面"
     ]
   },
@@ -12856,60 +17504,79 @@ export const hintConfusions: HintConfusions = {
       "従う"
     ]
   },
+  "sense-lex-jmdict-1227170-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1227340-1": {
     "senseVersion": 1,
     "words": [
       "古い",
-      "久しぶり"
+      "中古"
+    ]
+  },
+  "sense-lex-jmdict-1227370-1": {
+    "senseVersion": 1,
+    "words": [
+      "初めて"
     ]
   },
   "sense-lex-jmdict-1227500-1": {
     "senseVersion": 1,
     "words": [
-      "休日",
-      "休憩"
+      "欠席",
+      "留守"
     ]
   },
   "sense-lex-jmdict-1227570-1": {
     "senseVersion": 1,
     "words": [
-      "休む",
-      "休み"
+      "一息",
+      "安静"
     ]
   },
   "sense-lex-jmdict-1227610-1": {
     "senseVersion": 1,
-    "words": [
-      "休憩",
-      "休み"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1227660-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1227700-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1227720-1": {
     "senseVersion": 1,
     "words": [
-      "休み",
-      "休息"
+      "一息",
+      "安静"
     ]
   },
   "sense-lex-jmdict-1227780-1": {
     "senseVersion": 1,
     "words": [
-      "休業",
-      "解除"
+      "解除",
+      "中止"
     ]
+  },
+  "sense-lex-jmdict-1227890-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1227940-1": {
     "senseVersion": 1,
     "words": [
-      "休み",
-      "休憩"
+      "活動",
+      "緩和"
     ]
   },
   "sense-lex-jmdict-1228100-1": {
     "senseVersion": 1,
     "words": [
-      "休憩",
-      "回復"
+      "回復",
+      "遊び"
     ]
   },
   "sense-lex-jmdict-1228170-1": {
@@ -12926,25 +17593,31 @@ export const hintConfusions: HintConfusions = {
       "引き起こす"
     ]
   },
+  "sense-lex-jmdict-1228330-1": {
+    "senseVersion": 1,
+    "words": [
+      "摂取"
+    ]
+  },
   "sense-lex-jmdict-1228560-1": {
     "senseVersion": 1,
     "words": [
-      "急ぐ",
-      "危機"
+      "危機",
+      "非常"
     ]
   },
   "sense-lex-jmdict-1228580-1": {
     "senseVersion": 1,
     "words": [
-      "急ぐ",
-      "慌てる"
+      "慌てる",
+      "強いる"
     ]
   },
   "sense-lex-jmdict-1228680-1": {
     "senseVersion": 1,
     "words": [
-      "急速",
-      "急"
+      "高速",
+      "突然"
     ]
   },
   "sense-lex-jmdict-1228690-1": {
@@ -12957,30 +17630,23 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1228890-1": {
     "senseVersion": 1,
     "words": [
-      "早い",
-      "急激"
+      "早い"
     ]
   },
   "sense-lex-jmdict-1229070-1": {
     "senseVersion": 1,
-    "words": [
-      "救済",
-      "救助"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1229150-1": {
     "senseVersion": 1,
     "words": [
-      "救援",
-      "協力"
+      "協力",
+      "世話"
     ]
   },
   "sense-lex-jmdict-1229200-1": {
     "senseVersion": 1,
-    "words": [
-      "援助",
-      "救援"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1229610-1": {
     "senseVersion": 1,
@@ -13027,43 +17693,67 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1230360-1": {
     "senseVersion": 1,
     "words": [
-      "月給",
-      "収入"
+      "収入",
+      "賃金"
     ]
+  },
+  "sense-lex-jmdict-1231060-1": {
+    "senseVersion": 1,
+    "words": [
+      "初対面"
+    ]
+  },
+  "sense-lex-jmdict-1231490-1": {
+    "senseVersion": 1,
+    "words": [
+      "馬"
+    ]
+  },
+  "sense-lex-jmdict-1231580-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1231590-1": {
     "senseVersion": 1,
     "words": [
-      "ミルク",
-      "豆乳"
+      "ミルク"
+    ]
+  },
+  "sense-lex-jmdict-1231720-1": {
+    "senseVersion": 1,
+    "words": [
+      "寝室"
     ]
   },
   "sense-lex-jmdict-1231810-1": {
     "senseVersion": 1,
     "words": [
       "滞在",
-      "住宅"
+      "暮らし"
+    ]
+  },
+  "sense-lex-jmdict-1231890-1": {
+    "senseVersion": 1,
+    "words": [
+      "昼寝"
     ]
   },
   "sense-lex-jmdict-1232180-1": {
     "senseVersion": 1,
-    "words": [
-      "大きい",
-      "膨大"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1232390-1": {
     "senseVersion": 1,
     "words": [
-      "拒否",
-      "抵抗"
+      "抵抗",
+      "反発"
     ]
   },
   "sense-lex-jmdict-1232410-1": {
     "senseVersion": 1,
     "words": [
-      "拒絶",
-      "抵抗"
+      "抵抗",
+      "反発"
     ]
   },
   "sense-lex-jmdict-1232880-1": {
@@ -13077,8 +17767,16 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "禁止",
-      "許可"
+      "納得"
     ]
+  },
+  "sense-lex-jmdict-1232990-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1233010-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1233280-1": {
     "senseVersion": 1,
@@ -13091,7 +17789,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "需要",
-      "支給"
+      "納入"
     ]
   },
   "sense-lex-jmdict-1234080-1": {
@@ -13100,6 +17798,10 @@ export const hintConfusions: HintConfusions = {
       "試合",
       "景気"
     ]
+  },
+  "sense-lex-jmdict-1234210-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1234260-1": {
     "senseVersion": 1,
@@ -13115,60 +17817,70 @@ export const hintConfusions: HintConfusions = {
       "理解"
     ]
   },
+  "sense-lex-jmdict-1234760-1": {
+    "senseVersion": 1,
+    "words": [
+      "協力"
+    ]
+  },
   "sense-lex-jmdict-1235190-1": {
     "senseVersion": 1,
     "words": [
-      "共感",
-      "理解"
+      "理解",
+      "同情"
     ]
+  },
+  "sense-lex-jmdict-1235440-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1235550-1": {
     "senseVersion": 1,
     "words": [
-      "会",
-      "教会"
+      "機関",
+      "組織"
     ]
   },
   "sense-lex-jmdict-1235570-1": {
     "senseVersion": 1,
     "words": [
       "講義",
-      "会議"
+      "会談"
     ]
   },
   "sense-lex-jmdict-1235700-1": {
     "senseVersion": 1,
     "words": [
-      "調和",
-      "強調"
+      "共同",
+      "譲歩"
     ]
   },
   "sense-lex-jmdict-1235730-1": {
     "senseVersion": 1,
     "words": [
-      "予定",
-      "契約"
+      "契約",
+      "約束"
     ]
   },
   "sense-lex-jmdict-1235950-1": {
     "senseVersion": 1,
     "words": [
-      "境界",
-      "警戒"
+      "警戒",
+      "用心"
     ]
   },
   "sense-lex-jmdict-1235960-1": {
     "senseVersion": 1,
     "words": [
       "警戒",
-      "境"
+      "用心"
     ]
   },
   "sense-lex-jmdict-1236000-1": {
     "senseVersion": 1,
     "words": [
-      "環境",
-      "立場"
+      "立場",
+      "身分"
     ]
   },
   "sense-lex-jmdict-1236070-1": {
@@ -13192,10 +17904,13 @@ export const hintConfusions: HintConfusions = {
       "迫る"
     ]
   },
+  "sense-lex-jmdict-1236130-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1236150-1": {
     "senseVersion": 1,
     "words": [
-      "強まる",
       "固める"
     ]
   },
@@ -13209,36 +17924,31 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1236200-1": {
     "senseVersion": 1,
     "words": [
-      "弱化",
-      "応援"
+      "応援",
+      "充実"
     ]
   },
   "sense-lex-jmdict-1236230-1": {
     "senseVersion": 1,
-    "words": [
-      "強硬",
-      "弱気"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1236250-1": {
     "senseVersion": 1,
     "words": [
-      "強気",
-      "強行"
+      "頑固"
     ]
   },
   "sense-lex-jmdict-1236270-1": {
     "senseVersion": 1,
     "words": [
-      "強硬",
       "実施"
     ]
   },
   "sense-lex-jmdict-1236350-1": {
     "senseVersion": 1,
     "words": [
-      "強調",
-      "実施"
+      "実施",
+      "施行"
     ]
   },
   "sense-lex-jmdict-1236470-1": {
@@ -13252,21 +17962,20 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "泥棒",
-      "盗難"
+      "略奪"
     ]
   },
   "sense-lex-jmdict-1236600-1": {
     "senseVersion": 1,
     "words": [
-      "強い",
-      "有力"
+      "激しい"
     ]
   },
   "sense-lex-jmdict-1236620-1": {
     "senseVersion": 1,
     "words": [
-      "強引",
-      "深刻"
+      "深刻",
+      "有力"
     ]
   },
   "sense-lex-jmdict-1236630-1": {
@@ -13279,8 +17988,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1236660-1": {
     "senseVersion": 1,
     "words": [
-      "恐怖",
-      "関心"
+      "関心",
+      "危険"
     ]
   },
   "sense-lex-jmdict-1236690-1": {
@@ -13290,18 +17999,36 @@ export const hintConfusions: HintConfusions = {
       "甚だしい"
     ]
   },
+  "sense-lex-jmdict-1236740-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1236750-1": {
     "senseVersion": 1,
     "words": [
       "不安",
-      "恐れ"
+      "心配"
     ]
+  },
+  "sense-lex-jmdict-1236840-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1236950-1": {
     "senseVersion": 1,
     "words": [
       "勉強",
       "指導"
+    ]
+  },
+  "sense-lex-jmdict-1237020-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1237030-1": {
+    "senseVersion": 1,
+    "words": [
+      "神社"
     ]
   },
   "sense-lex-jmdict-1237150-1": {
@@ -13311,32 +18038,39 @@ export const hintConfusions: HintConfusions = {
       "学部"
     ]
   },
+  "sense-lex-jmdict-1237160-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1237170-1": {
     "senseVersion": 1,
     "words": [
       "講義",
-      "教育"
+      "指導"
     ]
+  },
+  "sense-lex-jmdict-1237220-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1237370-1": {
     "senseVersion": 1,
     "words": [
       "専攻",
-      "教育"
+      "育成"
     ]
   },
   "sense-lex-jmdict-1237410-1": {
     "senseVersion": 1,
     "words": [
-      "箸",
-      "橋渡し"
+      "箸"
     ]
   },
   "sense-lex-jmdict-1237440-1": {
     "senseVersion": 1,
     "words": [
-      "橋",
-      "世話"
+      "世話",
+      "調停"
     ]
   },
   "sense-lex-jmdict-1237470-1": {
@@ -13363,7 +18097,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1238070-1": {
     "senseVersion": 1,
     "words": [
-      "脅かす",
       "驚かす"
     ]
   },
@@ -13377,8 +18110,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1238180-1": {
     "senseVersion": 1,
     "words": [
-      "興る",
-      "騒ぐ"
+      "騒ぐ",
+      "楽しむ"
     ]
   },
   "sense-lex-jmdict-1238380-1": {
@@ -13388,11 +18121,29 @@ export const hintConfusions: HintConfusions = {
       "刺激"
     ]
   },
+  "sense-lex-jmdict-1238500-1": {
+    "senseVersion": 1,
+    "words": [
+      "香水"
+    ]
+  },
+  "sense-lex-jmdict-1238550-1": {
+    "senseVersion": 1,
+    "words": [
+      "窓"
+    ]
+  },
   "sense-lex-jmdict-1238610-1": {
     "senseVersion": 1,
     "words": [
       "鳴らす",
       "鳴る"
+    ]
+  },
+  "sense-lex-jmdict-1238700-1": {
+    "senseVersion": 1,
+    "words": [
+      "脅威"
     ]
   },
   "sense-lex-jmdict-1238780-1": {
@@ -13405,22 +18156,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1239440-1": {
     "senseVersion": 1,
     "words": [
-      "消費者",
-      "会社"
+      "会社",
+      "商人"
     ]
   },
   "sense-lex-jmdict-1239460-1": {
     "senseVersion": 1,
     "words": [
-      "実績",
-      "功績"
+      "成功",
+      "手際"
     ]
   },
   "sense-lex-jmdict-1239540-1": {
     "senseVersion": 1,
     "words": [
-      "業績",
-      "作業"
+      "仕事",
+      "役割"
     ]
   },
   "sense-lex-jmdict-1239560-1": {
@@ -13432,8 +18183,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1239970-1": {
     "senseVersion": 1,
     "words": [
-      "カーブ",
-      "直線"
+      "カーブ"
     ]
   },
   "sense-lex-jmdict-1240180-1": {
@@ -13474,15 +18224,25 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1240810-1": {
     "senseVersion": 1,
     "words": [
-      "勤務",
-      "仕事"
+      "仕事",
+      "事務"
+    ]
+  },
+  "sense-lex-jmdict-1240910-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1241060-1": {
+    "senseVersion": 1,
+    "words": [
+      "器用"
     ]
   },
   "sense-lex-jmdict-1241070-1": {
     "senseVersion": 1,
     "words": [
-      "勤め",
-      "通勤"
+      "作業",
+      "仕事"
     ]
   },
   "sense-lex-jmdict-1241270-1": {
@@ -13496,7 +18256,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "許す",
-      "禁止"
+      "停止"
+    ]
+  },
+  "sense-lex-jmdict-1241660-1": {
+    "senseVersion": 1,
+    "words": [
+      "義務"
     ]
   },
   "sense-lex-jmdict-1241750-1": {
@@ -13505,6 +18271,10 @@ export const hintConfusions: HintConfusions = {
       "論理",
       "骨"
     ]
+  },
+  "sense-lex-jmdict-1241810-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1241850-1": {
     "senseVersion": 1,
@@ -13523,8 +18293,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1242160-1": {
     "senseVersion": 1,
     "words": [
-      "近所",
-      "辺"
+      "辺",
+      "辺り"
     ]
   },
   "sense-lex-jmdict-1242230-1": {
@@ -13543,9 +18313,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1242300-1": {
     "senseVersion": 1,
-    "words": [
-      "最近"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1242350-1": {
     "senseVersion": 1,
@@ -13554,39 +18322,66 @@ export const hintConfusions: HintConfusions = {
       "辺り"
     ]
   },
+  "sense-lex-jmdict-1242420-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1242520-1": {
     "senseVersion": 1,
     "words": [
-      "近づく",
-      "寄せる"
+      "寄せる",
+      "結びつける"
+    ]
+  },
+  "sense-lex-jmdict-1242850-1": {
+    "senseVersion": 1,
+    "words": [
+      "財布"
+    ]
+  },
+  "sense-lex-jmdict-1242970-1": {
+    "senseVersion": 1,
+    "words": [
+      "富豪"
     ]
   },
   "sense-lex-jmdict-1243020-1": {
     "senseVersion": 1,
     "words": [
-      "お金",
-      "現金"
+      "貨幣"
+    ]
+  },
+  "sense-lex-jmdict-1243040-1": {
+    "senseVersion": 1,
+    "words": [
+      "鉄"
     ]
   },
   "sense-lex-jmdict-1243290-1": {
     "senseVersion": 1,
     "words": [
-      "経済",
-      "融資"
+      "経済"
     ]
+  },
+  "sense-lex-jmdict-1243320-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1243390-1": {
     "senseVersion": 1,
     "words": [
-      "味見",
-      "調査"
+      "調査",
+      "検討"
     ]
   },
   "sense-lex-jmdict-1243600-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1243850-1": {
+    "senseVersion": 1,
     "words": [
-      "九人",
-      "九"
+      "九つ"
     ]
   },
   "sense-lex-jmdict-1243940-1": {
@@ -13596,18 +18391,24 @@ export const hintConfusions: HintConfusions = {
       "言葉"
     ]
   },
+  "sense-lex-jmdict-1244050-1": {
+    "senseVersion": 1,
+    "words": [
+      "文字"
+    ]
+  },
   "sense-lex-jmdict-1244090-1": {
     "senseVersion": 1,
     "words": [
-      "地区",
-      "セクション"
+      "セクション",
+      "境界"
     ]
   },
   "sense-lex-jmdict-1244120-1": {
     "senseVersion": 1,
     "words": [
-      "期間",
-      "部分"
+      "部分",
+      "距離"
     ]
   },
   "sense-lex-jmdict-1244180-1": {
@@ -13628,13 +18429,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "いじめる",
-      "苦しむ"
+      "悩ます"
     ]
   },
   "sense-lex-jmdict-1244470-1": {
     "senseVersion": 1,
     "words": [
-      "下手",
       "悪い"
     ]
   },
@@ -13655,7 +18455,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1244560-1": {
     "senseVersion": 1,
     "words": [
-      "苦労",
       "困難"
     ]
   },
@@ -13663,7 +18462,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "手間",
-      "労力"
+      "障害"
+    ]
+  },
+  "sense-lex-jmdict-1244800-1": {
+    "senseVersion": 1,
+    "words": [
+      "散歩"
     ]
   },
   "sense-lex-jmdict-1245100-1": {
@@ -13683,8 +18488,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1245290-1": {
     "senseVersion": 1,
     "words": [
-      "天気",
-      "空中"
+      "天気"
     ]
   },
   "sense-lex-jmdict-1245370-1": {
@@ -13697,15 +18501,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1245380-1": {
     "senseVersion": 1,
     "words": [
-      "満杯",
-      "空（から）"
+      "満杯"
     ]
   },
   "sense-lex-jmdict-1245470-1": {
     "senseVersion": 1,
     "words": [
-      "雰囲気",
-      "情緒"
+      "情緒",
+      "風"
     ]
   },
   "sense-lex-jmdict-1245570-1": {
@@ -13719,21 +18522,28 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "実行",
-      "構想"
+      "夢"
     ]
   },
   "sense-lex-jmdict-1245790-1": {
     "senseVersion": 1,
     "words": [
-      "地上",
-      "空（そら）"
+      "地上"
     ]
+  },
+  "sense-lex-jmdict-1246000-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1246250-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1246270-1": {
     "senseVersion": 1,
     "words": [
-      "必然",
-      "運"
+      "運",
+      "思いがけない"
     ]
   },
   "sense-lex-jmdict-1246440-1": {
@@ -13741,6 +18551,22 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "中央",
       "角"
+    ]
+  },
+  "sense-lex-jmdict-1246620-1": {
+    "senseVersion": 1,
+    "words": [
+      "反射"
+    ]
+  },
+  "sense-lex-jmdict-1246700-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1246740-1": {
+    "senseVersion": 1,
+    "words": [
+      "手袋"
     ]
   },
   "sense-lex-jmdict-1247250-1": {
@@ -13760,7 +18586,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "集める",
-      "群れ"
+      "密集"
     ]
   },
   "sense-lex-jmdict-1247510-1": {
@@ -13770,11 +18596,31 @@ export const hintConfusions: HintConfusions = {
       "団体"
     ]
   },
+  "sense-lex-jmdict-1247660-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1248080-1": {
+    "senseVersion": 1,
+    "words": [
+      "政治"
+    ]
+  },
+  "sense-lex-jmdict-1248710-1": {
+    "senseVersion": 1,
+    "words": [
+      "警察"
+    ]
+  },
+  "sense-lex-jmdict-1248870-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1249470-1": {
     "senseVersion": 1,
     "words": [
       "結果",
-      "意向"
+      "流れ"
     ]
   },
   "sense-lex-jmdict-1249500-1": {
@@ -13784,11 +18630,27 @@ export const hintConfusions: HintConfusions = {
       "坂"
     ]
   },
+  "sense-lex-jmdict-1249660-1": {
+    "senseVersion": 1,
+    "words": [
+      "警官"
+    ]
+  },
   "sense-lex-jmdict-1249780-1": {
     "senseVersion": 1,
     "words": [
       "注意",
       "判決"
+    ]
+  },
+  "sense-lex-jmdict-1249900-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1249960-1": {
+    "senseVersion": 1,
+    "words": [
+      "姉妹"
     ]
   },
   "sense-lex-jmdict-1250090-1": {
@@ -13808,43 +18670,46 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1250190-1": {
     "senseVersion": 1,
     "words": [
-      "約束",
-      "協定"
+      "協定",
+      "決まり"
     ]
   },
   "sense-lex-jmdict-1250310-1": {
     "senseVersion": 1,
     "words": [
-      "形態",
-      "様式"
+      "内容",
+      "方法"
     ]
   },
   "sense-lex-jmdict-1250350-1": {
     "senseVersion": 1,
     "words": [
-      "形成",
-      "事情"
+      "事情",
+      "事態"
     ]
   },
   "sense-lex-jmdict-1250360-1": {
     "senseVersion": 1,
     "words": [
-      "形勢",
-      "成立"
+      "作り"
     ]
   },
   "sense-lex-jmdict-1250390-1": {
     "senseVersion": 1,
     "words": [
       "型",
-      "形式"
+      "様式"
     ]
+  },
+  "sense-lex-jmdict-1250430-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1250470-1": {
     "senseVersion": 1,
     "words": [
-      "恩恵",
-      "恩"
+      "恩",
+      "災い"
     ]
   },
   "sense-lex-jmdict-1250600-1": {
@@ -13864,8 +18729,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1250620-1": {
     "senseVersion": 1,
     "words": [
-      "展示",
-      "広告"
+      "広告",
+      "案内"
     ]
   },
   "sense-lex-jmdict-1250660-1": {
@@ -13885,9 +18750,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1250720-1": {
     "senseVersion": 1,
     "words": [
-      "尊敬",
       "尊重"
     ]
+  },
+  "sense-lex-jmdict-1250750-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1250830-1": {
     "senseVersion": 1,
@@ -13907,7 +18775,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "体制",
-      "体系"
+      "システム"
     ]
   },
   "sense-lex-jmdict-1251110-1": {
@@ -13952,11 +18820,15 @@ export const hintConfusions: HintConfusions = {
       "境界"
     ]
   },
+  "sense-lex-jmdict-1252330-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1252360-1": {
     "senseVersion": 1,
     "words": [
       "注意",
-      "警戒"
+      "用心"
     ]
   },
   "sense-lex-jmdict-1252490-1": {
@@ -13969,51 +18841,74 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1252600-1": {
     "senseVersion": 1,
     "words": [
-      "軽率",
-      "明るい"
+      "明るい",
+      "明朗"
     ]
   },
   "sense-lex-jmdict-1252680-1": {
     "senseVersion": 1,
     "words": [
-      "削減",
-      "減少"
+      "縮小",
+      "カット"
+    ]
+  },
+  "sense-lex-jmdict-1252860-1": {
+    "senseVersion": 1,
+    "words": [
+      "尊敬"
     ]
   },
   "sense-lex-jmdict-1252910-1": {
     "senseVersion": 1,
     "words": [
-      "軽快",
-      "適当"
+      "適当",
+      "安易"
+    ]
+  },
+  "sense-lex-jmdict-1253020-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳥"
     ]
   },
   "sense-lex-jmdict-1253060-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1253130-1": {
+    "senseVersion": 1,
     "words": [
-      "美術",
-      "文芸"
+      "美術"
     ]
   },
   "sense-lex-jmdict-1253180-1": {
     "senseVersion": 1,
     "words": [
-      "見送り",
-      "歓迎"
+      "見送り"
     ]
   },
   "sense-lex-jmdict-1253310-1": {
     "senseVersion": 1,
     "words": [
-      "演劇",
-      "芝居"
+      "芝居",
+      "映画"
     ]
   },
   "sense-lex-jmdict-1253410-1": {
     "senseVersion": 1,
     "words": [
-      "映画館",
-      "演劇"
+      "映画館"
     ]
+  },
+  "sense-lex-jmdict-1253570-1": {
+    "senseVersion": 1,
+    "words": [
+      "打つ"
+    ]
+  },
+  "sense-lex-jmdict-1253690-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1253760-1": {
     "senseVersion": 1,
@@ -14022,12 +18917,15 @@ export const hintConfusions: HintConfusions = {
       "応援"
     ]
   },
-  "sense-lex-jmdict-1253840-1": {
+  "sense-lex-jmdict-1253800-1": {
     "senseVersion": 1,
     "words": [
-      "駄作",
-      "名作"
+      "数字"
     ]
+  },
+  "sense-lex-jmdict-1253840-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1253920-1": {
     "senseVersion": 1,
@@ -14060,50 +18958,49 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1254220-1": {
     "senseVersion": 1,
     "words": [
-      "決議",
-      "決心"
+      "志",
+      "覚悟"
     ]
   },
   "sense-lex-jmdict-1254240-1": {
     "senseVersion": 1,
-    "words": [
-      "議決",
-      "決心"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1254250-1": {
     "senseVersion": 1,
     "words": [
-      "実行",
       "実施"
     ]
+  },
+  "sense-lex-jmdict-1254290-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1254340-1": {
     "senseVersion": 1,
     "words": [
-      "決意",
-      "決定"
+      "志",
+      "覚悟"
     ]
   },
   "sense-lex-jmdict-1254380-1": {
     "senseVersion": 1,
     "words": [
-      "決心",
       "判断"
     ]
   },
   "sense-lex-jmdict-1254640-1": {
     "senseVersion": 1,
     "words": [
-      "結びつける",
-      "関する"
+      "関する",
+      "通じる"
     ]
   },
   "sense-lex-jmdict-1254650-1": {
     "senseVersion": 1,
     "words": [
       "繋げる",
-      "結びつく"
+      "合わせる"
     ]
   },
   "sense-lex-jmdict-1254730-1": {
@@ -14123,22 +19020,26 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1254770-1": {
     "senseVersion": 1,
     "words": [
-      "結成",
-      "総合"
+      "接続",
+      "付ける"
     ]
+  },
+  "sense-lex-jmdict-1254790-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1254870-1": {
     "senseVersion": 1,
     "words": [
-      "結果",
-      "収穫"
+      "収穫",
+      "果実"
     ]
   },
   "sense-lex-jmdict-1254900-1": {
     "senseVersion": 1,
     "words": [
-      "結合",
-      "総合"
+      "総合",
+      "連合"
     ]
   },
   "sense-lex-jmdict-1254930-1": {
@@ -14151,16 +19052,39 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1255020-1": {
     "senseVersion": 1,
     "words": [
-      "結果",
-      "判断"
+      "判断",
+      "断定"
+    ]
+  },
+  "sense-lex-jmdict-1255060-1": {
+    "senseVersion": 1,
+    "words": [
+      "汗"
+    ]
+  },
+  "sense-lex-jmdict-1255110-1": {
+    "senseVersion": 1,
+    "words": [
+      "体温"
+    ]
+  },
+  "sense-lex-jmdict-1255180-1": {
+    "senseVersion": 1,
+    "words": [
+      "神経"
     ]
   },
   "sense-lex-jmdict-1255560-1": {
     "senseVersion": 1,
-    "words": [
-      "給料",
-      "時給"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1255690-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1255800-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1255810-1": {
     "senseVersion": 1,
@@ -14169,10 +19093,17 @@ export const hintConfusions: HintConfusions = {
       "独創的"
     ]
   },
+  "sense-lex-jmdict-1255840-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1255890-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1256010-1": {
     "senseVersion": 1,
     "words": [
-      "節約",
       "浪費"
     ]
   },
@@ -14186,16 +19117,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1256300-1": {
     "senseVersion": 1,
     "words": [
-      "健全",
       "元気"
     ]
   },
   "sense-lex-jmdict-1256360-1": {
     "senseVersion": 1,
     "words": [
-      "健在",
-      "健康"
+      "元気",
+      "丈夫"
     ]
+  },
+  "sense-lex-jmdict-1256720-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1256730-1": {
     "senseVersion": 1,
@@ -14214,7 +19148,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1257240-1": {
     "senseVersion": 1,
     "words": [
-      "嫌",
       "好き"
     ]
   },
@@ -14228,7 +19161,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1257500-1": {
     "senseVersion": 1,
     "words": [
-      "建設",
       "工作"
     ]
   },
@@ -14242,15 +19174,18 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1257590-1": {
     "senseVersion": 1,
     "words": [
-      "法律",
-      "規約"
+      "規約",
+      "規律"
     ]
   },
   "sense-lex-jmdict-1257690-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1257930-1": {
+    "senseVersion": 1,
     "words": [
-      "賞賛",
-      "賞"
+      "弁護士"
     ]
   },
   "sense-lex-jmdict-1258000-1": {
@@ -14263,22 +19198,24 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1258090-1": {
     "senseVersion": 1,
     "words": [
-      "権限",
-      "権力"
+      "名誉",
+      "支配"
     ]
   },
   "sense-lex-jmdict-1258130-1": {
     "senseVersion": 1,
-    "words": [
-      "権威",
-      "権力"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1258200-1": {
     "senseVersion": 1,
     "words": [
-      "義務",
-      "特権"
+      "義務"
+    ]
+  },
+  "sense-lex-jmdict-1258330-1": {
+    "senseVersion": 1,
+    "words": [
+      "猫"
     ]
   },
   "sense-lex-jmdict-1258500-1": {
@@ -14288,11 +19225,15 @@ export const hintConfusions: HintConfusions = {
       "メニュー"
     ]
   },
+  "sense-lex-jmdict-1258570-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1258660-1": {
     "senseVersion": 1,
     "words": [
-      "研究",
-      "教育"
+      "教育",
+      "練習"
     ]
   },
   "sense-lex-jmdict-1258710-1": {
@@ -14309,6 +19250,12 @@ export const hintConfusions: HintConfusions = {
       "州"
     ]
   },
+  "sense-lex-jmdict-1258880-1": {
+    "senseVersion": 1,
+    "words": [
+      "市役所"
+    ]
+  },
   "sense-lex-jmdict-1259180-1": {
     "senseVersion": 1,
     "words": [
@@ -14316,12 +19263,20 @@ export const hintConfusions: HintConfusions = {
       "粗末"
     ]
   },
+  "sense-lex-jmdict-1259200-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1259250-1": {
     "senseVersion": 1,
     "words": [
-      "見えない",
-      "露骨"
+      "露骨",
+      "醜い"
     ]
+  },
+  "sense-lex-jmdict-1259370-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1259390-1": {
     "senseVersion": 1,
@@ -14333,8 +19288,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1259440-1": {
     "senseVersion": 1,
     "words": [
-      "見物",
-      "旅行"
+      "旅行",
+      "遠足"
     ]
   },
   "sense-lex-jmdict-1259500-1": {
@@ -14342,6 +19297,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "醜い",
       "美しい"
+    ]
+  },
+  "sense-lex-jmdict-1259550-1": {
+    "senseVersion": 1,
+    "words": [
+      "面接"
     ]
   },
   "sense-lex-jmdict-1259570-1": {
@@ -14369,7 +19330,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "眺め",
-      "見通し"
+      "展望"
     ]
   },
   "sense-lex-jmdict-1259820-1": {
@@ -14397,28 +19358,32 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "巡る",
-      "見つめる"
+      "眺める"
     ]
   },
   "sense-lex-jmdict-1259930-1": {
     "senseVersion": 1,
     "words": [
-      "心当たり",
-      "検討"
+      "検討",
+      "程度"
     ]
+  },
+  "sense-lex-jmdict-1259990-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1260100-1": {
     "senseVersion": 1,
     "words": [
       "サンプル",
-      "本物"
+      "標準"
     ]
   },
   "sense-lex-jmdict-1260140-1": {
     "senseVersion": 1,
     "words": [
-      "見逃す",
-      "失う"
+      "失う",
+      "逃す"
     ]
   },
   "sense-lex-jmdict-1260190-1": {
@@ -14438,15 +19403,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1260260-1": {
     "senseVersion": 1,
     "words": [
-      "利口",
-      "賢明"
+      "利口"
     ]
   },
   "sense-lex-jmdict-1260320-1": {
     "senseVersion": 1,
     "words": [
-      "賢い",
-      "懸命"
+      "懸命",
+      "慎重"
     ]
   },
   "sense-lex-jmdict-1260380-1": {
@@ -14463,12 +19427,22 @@ export const hintConfusions: HintConfusions = {
       "手がかり"
     ]
   },
+  "sense-lex-jmdict-1260530-1": {
+    "senseVersion": 1,
+    "words": [
+      "平ら"
+    ]
+  },
   "sense-lex-jmdict-1260640-1": {
     "senseVersion": 1,
     "words": [
-      "著しい",
-      "重大"
+      "重大",
+      "明らか"
     ]
+  },
+  "sense-lex-jmdict-1260660-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1260670-1": {
     "senseVersion": 1,
@@ -14480,22 +19454,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1260720-1": {
     "senseVersion": 1,
     "words": [
-      "病気",
-      "健康"
+      "健康",
+      "活発"
     ]
   },
   "sense-lex-jmdict-1260870-1": {
     "senseVersion": 1,
     "words": [
-      "首相",
-      "王"
+      "王",
+      "国王"
     ]
   },
   "sense-lex-jmdict-1261080-1": {
     "senseVersion": 1,
     "words": [
-      "本来",
-      "元々"
+      "現在",
+      "生まれつき"
     ]
   },
   "sense-lex-jmdict-1261140-1": {
@@ -14503,6 +19477,10 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "畑"
     ]
+  },
+  "sense-lex-jmdict-1261310-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1261340-1": {
     "senseVersion": 1,
@@ -14514,16 +19492,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1261450-1": {
     "senseVersion": 1,
     "words": [
-      "脚本",
-      "創作"
+      "脚本"
     ]
   },
   "sense-lex-jmdict-1261470-1": {
     "senseVersion": 1,
-    "words": [
-      "生産",
-      "産地"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1261570-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1261850-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1262070-1": {
     "senseVersion": 1,
@@ -14535,22 +19517,37 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1262150-1": {
     "senseVersion": 1,
     "words": [
-      "原点",
       "実物"
     ]
   },
   "sense-lex-jmdict-1262160-1": {
     "senseVersion": 1,
     "words": [
-      "原典",
-      "原因"
+      "源",
+      "元"
     ]
+  },
+  "sense-lex-jmdict-1262340-1": {
+    "senseVersion": 1,
+    "words": [
+      "要約"
+    ]
+  },
+  "sense-lex-jmdict-1262430-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1262460-1": {
     "senseVersion": 1,
     "words": [
       "結果",
-      "原則"
+      "方針"
+    ]
+  },
+  "sense-lex-jmdict-1262520-1": {
+    "senseVersion": 1,
+    "words": [
+      "賑やか"
     ]
   },
   "sense-lex-jmdict-1262660-1": {
@@ -14563,9 +19560,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1262830-1": {
     "senseVersion": 1,
     "words": [
-      "厳しい",
-      "明確"
+      "明確",
+      "丁寧"
     ]
+  },
+  "sense-lex-jmdict-1263290-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1263360-1": {
     "senseVersion": 1,
@@ -14595,32 +19596,51 @@ export const hintConfusions: HintConfusions = {
       "仮に"
     ]
   },
+  "sense-lex-jmdict-1263630-1": {
+    "senseVersion": 1,
+    "words": [
+      "旧式"
+    ]
+  },
   "sense-lex-jmdict-1263710-1": {
     "senseVersion": 1,
     "words": [
       "理想",
-      "事実"
+      "本当"
     ]
+  },
+  "sense-lex-jmdict-1263750-1": {
+    "senseVersion": 1,
+    "words": [
+      "事件"
+    ]
+  },
+  "sense-lex-jmdict-1263770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1263800-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1263810-1": {
     "senseVersion": 1,
     "words": [
-      "近代",
       "今日"
     ]
   },
   "sense-lex-jmdict-1263860-1": {
     "senseVersion": 1,
     "words": [
-      "現状",
-      "地元"
+      "会場",
+      "所"
     ]
   },
   "sense-lex-jmdict-1264080-1": {
     "senseVersion": 1,
     "words": [
-      "言い直す",
-      "申し出る"
+      "申し込む",
+      "取り上げる"
     ]
   },
   "sense-lex-jmdict-1264230-1": {
@@ -14630,32 +19650,35 @@ export const hintConfusions: HintConfusions = {
       "頼む"
     ]
   },
-  "sense-lex-jmdict-1264420-1": {
+  "sense-lex-jmdict-1264380-1": {
     "senseVersion": 1,
     "words": [
-      "言葉",
-      "語"
+      "つまり"
     ]
+  },
+  "sense-lex-jmdict-1264420-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1264540-1": {
     "senseVersion": 1,
     "words": [
       "語",
-      "言語"
+      "文字"
     ]
   },
   "sense-lex-jmdict-1264560-1": {
     "senseVersion": 1,
     "words": [
       "声量",
-      "言葉"
+      "演説"
     ]
   },
   "sense-lex-jmdict-1264580-1": {
     "senseVersion": 1,
     "words": [
-      "世論",
-      "言葉"
+      "演説",
+      "講演"
     ]
   },
   "sense-lex-jmdict-1264600-1": {
@@ -14667,17 +19690,11 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1264640-1": {
     "senseVersion": 1,
-    "words": [
-      "制限",
-      "限界"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1264650-1": {
     "senseVersion": 1,
-    "words": [
-      "限度",
-      "制限"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1264670-1": {
     "senseVersion": 1,
@@ -14689,22 +19706,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1264690-1": {
     "senseVersion": 1,
     "words": [
-      "限界",
-      "範囲"
+      "範囲",
+      "境界"
     ]
   },
   "sense-lex-jmdict-1264960-1": {
     "senseVersion": 1,
     "words": [
       "共通点",
-      "性格"
+      "人柄"
     ]
   },
   "sense-lex-jmdict-1265000-1": {
     "senseVersion": 1,
     "words": [
       "一括",
-      "個人"
+      "各自"
     ]
   },
   "sense-lex-jmdict-1265070-1": {
@@ -14713,6 +19730,10 @@ export const hintConfusions: HintConfusions = {
       "久しい",
       "新しい"
     ]
+  },
+  "sense-lex-jmdict-1265760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1265860-1": {
     "senseVersion": 1,
@@ -14723,16 +19744,13 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1266330-1": {
     "senseVersion": 1,
-    "words": [
-      "呼び出す",
-      "止まる"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1266350-1": {
     "senseVersion": 1,
     "words": [
-      "送り出す",
-      "呼ぶ"
+      "連絡",
+      "迎える"
     ]
   },
   "sense-lex-jmdict-1266550-1": {
@@ -14745,22 +19763,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1266570-1": {
     "senseVersion": 1,
     "words": [
-      "固まる",
-      "強める"
+      "強める",
+      "まとめる"
     ]
   },
   "sense-lex-jmdict-1266730-1": {
     "senseVersion": 1,
     "words": [
       "独自",
-      "特有"
+      "特殊"
     ]
   },
   "sense-lex-jmdict-1266860-1": {
     "senseVersion": 1,
     "words": [
-      "独立",
-      "一人"
+      "一人",
+      "分離"
     ]
   },
   "sense-lex-jmdict-1266970-1": {
@@ -14770,11 +19788,35 @@ export const hintConfusions: HintConfusions = {
       "玄関"
     ]
   },
+  "sense-lex-jmdict-1267030-1": {
+    "senseVersion": 1,
+    "words": [
+      "住所"
+    ]
+  },
   "sense-lex-jmdict-1267050-1": {
     "senseVersion": 1,
     "words": [
-      "棚",
-      "ロッカー"
+      "ロッカー",
+      "押入れ"
+    ]
+  },
+  "sense-lex-jmdict-1267400-1": {
+    "senseVersion": 1,
+    "words": [
+      "海苔"
+    ]
+  },
+  "sense-lex-jmdict-1267600-1": {
+    "senseVersion": 1,
+    "words": [
+      "故障"
+    ]
+  },
+  "sense-lex-jmdict-1267610-1": {
+    "senseVersion": 1,
+    "words": [
+      "猫"
     ]
   },
   "sense-lex-jmdict-1267740-1": {
@@ -14783,6 +19825,10 @@ export const hintConfusions: HintConfusions = {
       "自慢",
       "名誉"
     ]
+  },
+  "sense-lex-jmdict-1267760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1267820-1": {
     "senseVersion": 1,
@@ -14793,10 +19839,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1267860-1": {
     "senseVersion": 1,
-    "words": [
-      "採用",
-      "雇う"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1267870-1": {
     "senseVersion": 1,
@@ -14805,18 +19848,43 @@ export const hintConfusions: HintConfusions = {
       "思う"
     ]
   },
+  "sense-lex-jmdict-1268060-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1268070-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1268300-1": {
+    "senseVersion": 1,
+    "words": [
+      "漢字"
+    ]
+  },
+  "sense-lex-jmdict-1268570-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1268770-1": {
     "senseVersion": 1,
     "words": [
-      "相互",
-      "お互い"
+      "一緒"
     ]
+  },
+  "sense-lex-jmdict-1268990-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1269060-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1269290-1": {
     "senseVersion": 1,
     "words": [
       "仕事",
-      "楽しみ"
+      "遊び"
     ]
   },
   "sense-lex-jmdict-1269320-1": {
@@ -14826,18 +19894,30 @@ export const hintConfusions: HintConfusions = {
       "末"
     ]
   },
+  "sense-lex-jmdict-1269720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1269880-1": {
     "senseVersion": 1,
     "words": [
-      "後悔",
-      "不況"
+      "不況",
+      "撤回"
     ]
+  },
+  "sense-lex-jmdict-1270010-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1270390-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1270810-1": {
     "senseVersion": 1,
     "words": [
-      "礼",
-      "感謝"
+      "感謝",
+      "謝罪"
     ]
   },
   "sense-lex-jmdict-1270850-1": {
@@ -14851,8 +19931,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "言葉",
-      "言語"
+      "文"
     ]
+  },
+  "sense-lex-jmdict-1271010-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1271060-1": {
     "senseVersion": 1,
@@ -14861,12 +19945,15 @@ export const hintConfusions: HintConfusions = {
       "言葉"
     ]
   },
-  "sense-lex-jmdict-1271260-1": {
+  "sense-lex-jmdict-1271090-1": {
     "senseVersion": 1,
     "words": [
-      "単語",
-      "用語"
+      "意味"
     ]
+  },
+  "sense-lex-jmdict-1271260-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1271290-1": {
     "senseVersion": 1,
@@ -14885,8 +19972,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1271320-1": {
     "senseVersion": 1,
     "words": [
-      "誤解",
-      "違い"
+      "違い",
+      "区別"
     ]
   },
   "sense-lex-jmdict-1271480-1": {
@@ -14907,28 +19994,34 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "添える",
-      "交わる"
+      "合わせる"
     ]
   },
   "sense-lex-jmdict-1271700-1": {
     "senseVersion": 1,
     "words": [
-      "交える",
-      "合う"
+      "合う",
+      "越える"
     ]
   },
   "sense-lex-jmdict-1271710-1": {
     "senseVersion": 1,
     "words": [
-      "交流",
-      "貿易"
+      "営業",
+      "売買"
     ]
   },
   "sense-lex-jmdict-1271750-1": {
     "senseVersion": 1,
     "words": [
       "変更",
-      "交流"
+      "代わり"
+    ]
+  },
+  "sense-lex-jmdict-1271940-1": {
+    "senseVersion": 1,
+    "words": [
+      "同時"
     ]
   },
   "sense-lex-jmdict-1271970-1": {
@@ -14942,7 +20035,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "付き合い",
-      "交流"
+      "関係"
     ]
   },
   "sense-lex-jmdict-1272110-1": {
@@ -14963,7 +20056,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "乗り物",
-      "交通費"
+      "輸送"
+    ]
+  },
+  "sense-lex-jmdict-1272500-1": {
+    "senseVersion": 1,
+    "words": [
+      "警官"
     ]
   },
   "sense-lex-jmdict-1272520-1": {
@@ -14973,54 +20072,70 @@ export const hintConfusions: HintConfusions = {
       "配達"
     ]
   },
+  "sense-lex-jmdict-1272730-1": {
+    "senseVersion": 1,
+    "words": [
+      "選択"
+    ]
+  },
   "sense-lex-jmdict-1272950-1": {
     "senseVersion": 1,
     "words": [
       "場面",
-      "景色"
+      "展望"
     ]
   },
   "sense-lex-jmdict-1273050-1": {
     "senseVersion": 1,
     "words": [
-      "艶",
-      "光熱費"
+      "艶"
+    ]
+  },
+  "sense-lex-jmdict-1273110-1": {
+    "senseVersion": 1,
+    "words": [
+      "家賃"
     ]
   },
   "sense-lex-jmdict-1273170-1": {
     "senseVersion": 1,
     "words": [
-      "公開",
-      "私"
+      "私",
+      "正式"
     ]
+  },
+  "sense-lex-jmdict-1273270-1": {
+    "senseVersion": 1,
+    "words": [
+      "庭"
+    ]
+  },
+  "sense-lex-jmdict-1273280-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1273370-1": {
     "senseVersion": 1,
     "words": [
-      "公",
-      "公演"
+      "発行",
+      "発表"
     ]
   },
   "sense-lex-jmdict-1273420-1": {
     "senseVersion": 1,
     "words": [
-      "災害",
       "汚染"
     ]
   },
   "sense-lex-jmdict-1273510-1": {
     "senseVersion": 1,
     "words": [
-      "個人",
-      "公立"
+      "個人"
     ]
   },
   "sense-lex-jmdict-1273820-1": {
     "senseVersion": 1,
-    "words": [
-      "非公式",
-      "正式"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1273900-1": {
     "senseVersion": 1,
@@ -15032,56 +20147,65 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1274120-1": {
     "senseVersion": 1,
     "words": [
-      "公平",
-      "不公平"
+      "平等"
     ]
   },
   "sense-lex-jmdict-1274190-1": {
     "senseVersion": 1,
     "words": [
-      "密かに",
-      "公共"
+      "密かに"
     ]
   },
   "sense-lex-jmdict-1274450-1": {
     "senseVersion": 1,
     "words": [
-      "黙認",
-      "許可"
+      "許可",
+      "証明"
     ]
   },
   "sense-lex-jmdict-1274550-1": {
     "senseVersion": 1,
     "words": [
-      "発表",
-      "声明"
+      "声明",
+      "アナウンス"
     ]
   },
   "sense-lex-jmdict-1274640-1": {
     "senseVersion": 1,
     "words": [
-      "公正",
-      "平等"
+      "正義",
+      "当然"
     ]
+  },
+  "sense-lex-jmdict-1274680-1": {
+    "senseVersion": 1,
+    "words": [
+      "推薦"
+    ]
+  },
+  "sense-lex-jmdict-1274810-1": {
+    "senseVersion": 1,
+    "words": [
+      "私用"
+    ]
+  },
+  "sense-lex-jmdict-1274820-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1275000-1": {
     "senseVersion": 1,
-    "words": [
-      "私立",
-      "公共"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1275070-1": {
     "senseVersion": 1,
     "words": [
-      "業績",
       "失敗"
     ]
   },
   "sense-lex-jmdict-1275210-1": {
     "senseVersion": 1,
     "words": [
-      "効果",
       "性能"
     ]
   },
@@ -15099,6 +20223,24 @@ export const hintConfusions: HintConfusions = {
       "生意気"
     ]
   },
+  "sense-lex-jmdict-1275640-1": {
+    "senseVersion": 1,
+    "words": [
+      "鼻"
+    ]
+  },
+  "sense-lex-jmdict-1275720-1": {
+    "senseVersion": 1,
+    "words": [
+      "叫ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1276110-1": {
+    "senseVersion": 1,
+    "words": [
+      "香水"
+    ]
+  },
   "sense-lex-jmdict-1276220-1": {
     "senseVersion": 1,
     "words": [
@@ -15106,18 +20248,28 @@ export const hintConfusions: HintConfusions = {
       "弁解"
     ]
   },
+  "sense-lex-jmdict-1276310-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1276710-1": {
+    "senseVersion": 1,
+    "words": [
+      "書面"
+    ]
+  },
   "sense-lex-jmdict-1277140-1": {
     "senseVersion": 1,
     "words": [
       "こちら",
-      "向かい"
+      "片方"
     ]
   },
   "sense-lex-jmdict-1277250-1": {
     "senseVersion": 1,
     "words": [
-      "上昇",
-      "改善"
+      "改善",
+      "増加"
     ]
   },
   "sense-lex-jmdict-1277440-1": {
@@ -15130,7 +20282,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1277450-1": {
     "senseVersion": 1,
     "words": [
-      "好む",
       "嫌い"
     ]
   },
@@ -15144,15 +20295,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1277490-1": {
     "senseVersion": 1,
     "words": [
-      "好き",
-      "結構"
+      "結構",
+      "良い"
     ]
   },
   "sense-lex-jmdict-1277500-1": {
     "senseVersion": 1,
     "words": [
-      "嗜好",
-      "趣味"
+      "趣味",
+      "志向"
     ]
   },
   "sense-lex-jmdict-1277530-1": {
@@ -15165,49 +20316,75 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1277620-1": {
     "senseVersion": 1,
     "words": [
-      "不況",
       "景気"
     ]
   },
   "sense-lex-jmdict-1277730-1": {
     "senseVersion": 1,
     "words": [
-      "好評",
-      "期待"
+      "期待",
+      "十分"
     ]
   },
   "sense-lex-jmdict-1277780-1": {
     "senseVersion": 1,
     "words": [
-      "好調",
-      "人気"
+      "人気",
+      "流行"
     ]
+  },
+  "sense-lex-jmdict-1277880-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1278010-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1278040-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1278090-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1278100-1": {
     "senseVersion": 1,
     "words": [
-      "耕作",
-      "建設"
+      "建設",
+      "建築"
+    ]
+  },
+  "sense-lex-jmdict-1278130-1": {
+    "senseVersion": 1,
+    "words": [
+      "設計"
     ]
   },
   "sense-lex-jmdict-1278290-1": {
     "senseVersion": 1,
     "words": [
       "上手",
-      "巧妙"
+      "不器用"
     ]
   },
   "sense-lex-jmdict-1278340-1": {
     "senseVersion": 1,
     "words": [
-      "巧み",
-      "単純"
+      "単純",
+      "上手"
+    ]
+  },
+  "sense-lex-jmdict-1278380-1": {
+    "senseVersion": 1,
+    "words": [
+      "偶然"
     ]
   },
   "sense-lex-jmdict-1278400-1": {
     "senseVersion": 1,
     "words": [
-      "幸運",
       "楽しみ"
     ]
   },
@@ -15221,15 +20398,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1278450-1": {
     "senseVersion": 1,
     "words": [
-      "広める",
-      "拡大"
+      "拡大",
+      "普及"
     ]
   },
   "sense-lex-jmdict-1278460-1": {
     "senseVersion": 1,
     "words": [
-      "広がる",
-      "拡大"
+      "拡大",
+      "普及"
+    ]
+  },
+  "sense-lex-jmdict-1278590-1": {
+    "senseVersion": 1,
+    "words": [
+      "路地"
     ]
   },
   "sense-lex-jmdict-1278810-1": {
@@ -15278,7 +20461,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "守る",
-      "攻撃"
+      "襲う"
     ]
   },
   "sense-lex-jmdict-1279170-1": {
@@ -15302,6 +20485,16 @@ export const hintConfusions: HintConfusions = {
       "また"
     ]
   },
+  "sense-lex-jmdict-1279540-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1279590-1": {
+    "senseVersion": 1,
+    "words": [
+      "先生"
+    ]
+  },
   "sense-lex-jmdict-1279600-1": {
     "senseVersion": 1,
     "words": [
@@ -15313,14 +20506,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "用意する",
-      "構う"
+      "手配する"
     ]
   },
   "sense-lex-jmdict-1279730-1": {
     "senseVersion": 1,
     "words": [
       "材料",
-      "機構"
+      "制度"
     ]
   },
   "sense-lex-jmdict-1279780-1": {
@@ -15333,9 +20526,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1279790-1": {
     "senseVersion": 1,
     "words": [
-      "機構",
-      "仕組み"
+      "仕組み",
+      "作り"
     ]
+  },
+  "sense-lex-jmdict-1279930-1": {
+    "senseVersion": 1,
+    "words": [
+      "干ばつ"
+    ]
+  },
+  "sense-lex-jmdict-1279990-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1280530-1": {
     "senseVersion": 1,
@@ -15344,38 +20547,53 @@ export const hintConfusions: HintConfusions = {
       "紙幣"
     ]
   },
+  "sense-lex-jmdict-1280770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1280950-1": {
+    "senseVersion": 1,
+    "words": [
+      "植える"
+    ]
+  },
   "sense-lex-jmdict-1280970-1": {
     "senseVersion": 1,
     "words": [
-      "工作",
-      "農業"
+      "農業",
+      "栽培"
     ]
   },
   "sense-lex-jmdict-1281000-1": {
     "senseVersion": 1,
     "words": [
       "意見",
-      "思考"
+      "構想"
     ]
   },
   "sense-lex-jmdict-1281170-1": {
     "senseVersion": 1,
     "words": [
       "無視",
-      "考え"
+      "審議"
     ]
   },
   "sense-lex-jmdict-1281180-1": {
     "senseVersion": 1,
     "words": [
-      "否定",
-      "確認"
+      "確認",
+      "断言"
+    ]
+  },
+  "sense-lex-jmdict-1281250-1": {
+    "senseVersion": 1,
+    "words": [
+      "後悔"
     ]
   },
   "sense-lex-jmdict-1281270-1": {
     "senseVersion": 1,
     "words": [
-      "航海",
       "飛行"
     ]
   },
@@ -15404,7 +20622,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "作法",
-      "行動"
+      "態度"
     ]
   },
   "sense-lex-jmdict-1281930-1": {
@@ -15417,7 +20635,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1282010-1": {
     "senseVersion": 1,
     "words": [
-      "政治",
       "事務"
     ]
   },
@@ -15428,11 +20645,23 @@ export const hintConfusions: HintConfusions = {
       "線"
     ]
   },
+  "sense-lex-jmdict-1282260-1": {
+    "senseVersion": 1,
+    "words": [
+      "授業"
+    ]
+  },
   "sense-lex-jmdict-1282280-1": {
     "senseVersion": 1,
     "words": [
       "インストラクター",
       "生徒"
+    ]
+  },
+  "sense-lex-jmdict-1282340-1": {
+    "senseVersion": 1,
+    "words": [
+      "教室"
     ]
   },
   "sense-lex-jmdict-1282410-1": {
@@ -15446,43 +20675,55 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "販売",
-      "買う"
+      "仕入れる"
     ]
+  },
+  "sense-lex-jmdict-1282490-1": {
+    "senseVersion": 1,
+    "words": [
+      "田舎"
+    ]
+  },
+  "sense-lex-jmdict-1282770-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1283000-1": {
     "senseVersion": 1,
     "words": [
-      "科目",
-      "事項"
+      "種類",
+      "見出し"
     ]
   },
   "sense-lex-jmdict-1283060-1": {
     "senseVersion": 1,
     "words": [
-      "化粧水",
-      "香り"
+      "匂い"
     ]
   },
   "sense-lex-jmdict-1283190-1": {
     "senseVersion": 1,
     "words": [
-      "安い",
-      "高層"
+      "安い"
     ]
   },
   "sense-lex-jmdict-1283220-1": {
     "senseVersion": 1,
     "words": [
-      "高める",
-      "増加"
+      "増加",
+      "向上"
     ]
   },
   "sense-lex-jmdict-1283240-1": {
     "senseVersion": 1,
     "words": [
-      "高まる",
-      "引き上げる"
+      "引き上げる",
+      "持ち上げる"
     ]
+  },
+  "sense-lex-jmdict-1283300-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1283400-1": {
     "senseVersion": 1,
@@ -15491,53 +20732,61 @@ export const hintConfusions: HintConfusions = {
       "贅沢"
     ]
   },
-  "sense-lex-jmdict-1283690-1": {
+  "sense-lex-jmdict-1283500-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1283510-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1283610-1": {
     "senseVersion": 1,
     "words": [
-      "低層",
-      "高い"
+      "上品"
     ]
+  },
+  "sense-lex-jmdict-1283690-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1283700-1": {
     "senseVersion": 1,
     "words": [
-      "低速",
-      "道路"
+      "道路",
+      "急"
     ]
   },
   "sense-lex-jmdict-1284550-1": {
     "senseVersion": 1,
     "words": [
-      "同意",
-      "賛成"
+      "賛成",
+      "承認"
     ]
   },
   "sense-lex-jmdict-1284700-1": {
     "senseVersion": 1,
     "words": [
-      "合意",
-      "会議"
+      "会談",
+      "大会"
     ]
   },
   "sense-lex-jmdict-1284940-1": {
     "senseVersion": 1,
-    "words": [
-      "混合",
-      "総合"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1285100-1": {
     "senseVersion": 1,
     "words": [
-      "一致",
-      "合意"
+      "賛成",
+      "承認"
     ]
   },
   "sense-lex-jmdict-1285140-1": {
     "senseVersion": 1,
     "words": [
       "単独",
-      "総合"
+      "共通"
     ]
   },
   "sense-lex-jmdict-1285390-1": {
@@ -15568,54 +20817,103 @@ export const hintConfusions: HintConfusions = {
       "言う"
     ]
   },
+  "sense-lex-jmdict-1286060-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1286160-1": {
     "senseVersion": 1,
     "words": [
       "大統領",
-      "王"
+      "元首"
     ]
   },
   "sense-lex-jmdict-1286170-1": {
     "senseVersion": 1,
     "words": [
-      "国",
-      "政府"
+      "政府",
+      "州"
     ]
   },
   "sense-lex-jmdict-1286240-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1286370-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1286380-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1286400-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1286590-1": {
+    "senseVersion": 1,
     "words": [
-      "議会",
-      "会議"
+      "輸入"
+    ]
+  },
+  "sense-lex-jmdict-1286780-1": {
+    "senseVersion": 1,
+    "words": [
+      "出身"
     ]
   },
   "sense-lex-jmdict-1286890-1": {
     "senseVersion": 1,
     "words": [
-      "土地",
-      "国"
+      "領域"
     ]
+  },
+  "sense-lex-jmdict-1287030-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1287070-1": {
     "senseVersion": 1,
     "words": [
-      "住民",
-      "市民"
+      "世間",
+      "方々"
+    ]
+  },
+  "sense-lex-jmdict-1287170-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1287180-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1287210-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1287280-1": {
+    "senseVersion": 1,
+    "words": [
+      "野菜"
     ]
   },
   "sense-lex-jmdict-1287410-1": {
     "senseVersion": 1,
     "words": [
-      "白",
-      "黒い"
+      "白"
     ]
   },
   "sense-lex-jmdict-1287420-1": {
     "senseVersion": 1,
     "words": [
-      "黒",
-      "濃い"
+      "濃い",
+      "暗い"
     ]
+  },
+  "sense-lex-jmdict-1287710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1288350-1": {
     "senseVersion": 1,
@@ -15631,11 +20929,29 @@ export const hintConfusions: HintConfusions = {
       "一斉"
     ]
   },
+  "sense-lex-jmdict-1288550-1": {
+    "senseVersion": 1,
+    "words": [
+      "筋"
+    ]
+  },
+  "sense-lex-jmdict-1288640-1": {
+    "senseVersion": 1,
+    "words": [
+      "捻挫"
+    ]
+  },
   "sense-lex-jmdict-1288790-1": {
     "senseVersion": 1,
     "words": [
       "盛る",
       "入れる"
+    ]
+  },
+  "sense-lex-jmdict-1288810-1": {
+    "senseVersion": 1,
+    "words": [
+      "これ"
     ]
   },
   "sense-lex-jmdict-1288850-1": {
@@ -15648,69 +20964,83 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1288940-1": {
     "senseVersion": 1,
     "words": [
-      "今すぐ",
-      "すぐ"
+      "すぐ",
+      "そろそろ"
+    ]
+  },
+  "sense-lex-jmdict-1288950-1": {
+    "senseVersion": 1,
+    "words": [
+      "すぐに"
     ]
   },
   "sense-lex-jmdict-1289070-1": {
     "senseVersion": 1,
-    "words": [
-      "今度"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1289100-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1289140-1": {
     "senseVersion": 1,
     "words": [
-      "以後",
-      "これから"
+      "これから",
+      "以降"
     ]
   },
   "sense-lex-jmdict-1289150-1": {
     "senseVersion": 1,
     "words": [
-      "今から",
-      "改めて"
+      "改めて",
+      "最早"
     ]
+  },
+  "sense-lex-jmdict-1289220-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1289370-1": {
     "senseVersion": 1,
     "words": [
-      "今回",
-      "また"
+      "また",
+      "改めて"
     ]
   },
   "sense-lex-jmdict-1289470-1": {
     "senseVersion": 1,
-    "words": [
-      "今夜",
-      "今朝"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1289520-1": {
     "senseVersion": 1,
-    "words": [
-      "今晩",
-      "昨夜"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1289620-1": {
     "senseVersion": 1,
     "words": [
-      "難しい",
-      "困る"
+      "事件",
+      "事故"
     ]
+  },
+  "sense-lex-jmdict-1289710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1289980-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1290090-1": {
+    "senseVersion": 1,
     "words": [
-      "虫"
+      "会議"
     ]
   },
   "sense-lex-jmdict-1290110-1": {
     "senseVersion": 1,
     "words": [
-      "元気",
-      "継続"
+      "継続",
+      "存続"
     ]
   },
   "sense-lex-jmdict-1290120-1": {
@@ -15730,36 +21060,37 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1290360-1": {
     "senseVersion": 1,
     "words": [
-      "分離",
-      "混同"
+      "分離"
     ]
   },
   "sense-lex-jmdict-1290390-1": {
     "senseVersion": 1,
     "words": [
       "渋滞",
-      "混乱"
+      "停滞"
     ]
   },
   "sense-lex-jmdict-1290480-1": {
     "senseVersion": 1,
-    "words": [
-      "混雑",
-      "混乱"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1290560-1": {
     "senseVersion": 1,
     "words": [
-      "混雑",
-      "混同"
+      "トラブル"
+    ]
+  },
+  "sense-lex-jmdict-1290800-1": {
+    "senseVersion": 1,
+    "words": [
+      "右"
     ]
   },
   "sense-lex-jmdict-1291070-1": {
     "senseVersion": 1,
     "words": [
       "違い",
-      "格差"
+      "相違"
     ]
   },
   "sense-lex-jmdict-1291090-1": {
@@ -15786,30 +21117,39 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1291230-1": {
     "senseVersion": 1,
     "words": [
-      "出す",
-      "差し込む"
+      "贈る",
+      "送る"
     ]
   },
   "sense-lex-jmdict-1291340-1": {
     "senseVersion": 1,
     "words": [
       "違い",
-      "差"
+      "相違"
     ]
   },
   "sense-lex-jmdict-1291370-1": {
     "senseVersion": 1,
     "words": [
-      "差異",
-      "違い"
+      "違い",
+      "区別"
     ]
   },
   "sense-lex-jmdict-1291410-1": {
     "senseVersion": 1,
     "words": [
-      "区別",
       "違い"
     ]
+  },
+  "sense-lex-jmdict-1291600-1": {
+    "senseVersion": 1,
+    "words": [
+      "塩"
+    ]
+  },
+  "sense-lex-jmdict-1291660-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1291690-1": {
     "senseVersion": 1,
@@ -15818,11 +21158,34 @@ export const hintConfusions: HintConfusions = {
       "不正"
     ]
   },
+  "sense-lex-jmdict-1291730-1": {
+    "senseVersion": 1,
+    "words": [
+      "縄"
+    ]
+  },
   "sense-lex-jmdict-1291880-1": {
     "senseVersion": 1,
     "words": [
-      "席",
       "椅子"
+    ]
+  },
+  "sense-lex-jmdict-1291920-1": {
+    "senseVersion": 1,
+    "words": [
+      "講演"
+    ]
+  },
+  "sense-lex-jmdict-1291980-1": {
+    "senseVersion": 1,
+    "words": [
+      "枕"
+    ]
+  },
+  "sense-lex-jmdict-1291990-1": {
+    "senseVersion": 1,
+    "words": [
+      "廊下"
     ]
   },
   "sense-lex-jmdict-1292140-1": {
@@ -15842,8 +21205,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1292200-1": {
     "senseVersion": 1,
     "words": [
-      "催し",
-      "要求"
+      "要求",
+      "要請"
     ]
   },
   "sense-lex-jmdict-1292300-1": {
@@ -15852,6 +21215,10 @@ export const hintConfusions: HintConfusions = {
       "また",
       "改めて"
     ]
+  },
+  "sense-lex-jmdict-1292390-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1292590-1": {
     "senseVersion": 1,
@@ -15863,8 +21230,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1292640-1": {
     "senseVersion": 1,
     "words": [
-      "再発",
-      "復興"
+      "復興",
+      "複写"
     ]
   },
   "sense-lex-jmdict-1292760-1": {
@@ -15881,40 +21248,58 @@ export const hintConfusions: HintConfusions = {
       "回復"
     ]
   },
+  "sense-lex-jmdict-1293410-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1293640-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1293650-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1293660-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1293700-1": {
     "senseVersion": 1,
     "words": [
-      "一番",
-      "最高"
+      "一番"
     ]
   },
   "sense-lex-jmdict-1293780-1": {
     "senseVersion": 1,
     "words": [
-      "近頃",
       "今度"
     ]
   },
   "sense-lex-jmdict-1293810-1": {
     "senseVersion": 1,
     "words": [
-      "最初",
-      "最終"
+      "末",
+      "終わり"
     ]
   },
   "sense-lex-jmdict-1293850-1": {
     "senseVersion": 1,
     "words": [
-      "最も",
-      "最上"
+      "素晴らしい",
+      "偉い"
     ]
   },
   "sense-lex-jmdict-1293990-1": {
     "senseVersion": 1,
     "words": [
-      "最後",
-      "開始"
+      "開始",
+      "始まり"
     ]
+  },
+  "sense-lex-jmdict-1294160-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1294170-1": {
     "senseVersion": 1,
@@ -15926,8 +21311,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1294220-1": {
     "senseVersion": 1,
     "words": [
-      "最小",
-      "嫌"
+      "嫌",
+      "意地悪"
     ]
   },
   "sense-lex-jmdict-1294630-1": {
@@ -15937,39 +21322,47 @@ export const hintConfusions: HintConfusions = {
       "実力"
     ]
   },
+  "sense-lex-jmdict-1294750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1294760-1": {
     "senseVersion": 1,
     "words": [
-      "採択",
-      "決議"
+      "投票"
     ]
   },
   "sense-lex-jmdict-1294780-1": {
     "senseVersion": 1,
     "words": [
       "収支",
-      "予算"
+      "利益"
     ]
   },
   "sense-lex-jmdict-1294810-1": {
     "senseVersion": 1,
     "words": [
-      "採掘",
-      "収集"
+      "コレクション"
     ]
   },
   "sense-lex-jmdict-1294830-1": {
     "senseVersion": 1,
     "words": [
-      "採決",
-      "採用"
+      "選考",
+      "可決"
+    ]
+  },
+  "sense-lex-jmdict-1294850-1": {
+    "senseVersion": 1,
+    "words": [
+      "受験"
     ]
   },
   "sense-lex-jmdict-1294890-1": {
     "senseVersion": 1,
     "words": [
-      "採択",
-      "雇用"
+      "指定",
+      "任命"
     ]
   },
   "sense-lex-jmdict-1294910-1": {
@@ -15982,8 +21375,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1295030-1": {
     "senseVersion": 1,
     "words": [
-      "済む",
-      "終える"
+      "終える",
+      "終わる"
     ]
   },
   "sense-lex-jmdict-1295100-1": {
@@ -15997,34 +21390,54 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "幸運",
-      "災害"
+      "悲劇"
     ]
   },
   "sense-lex-jmdict-1295170-1": {
     "senseVersion": 1,
     "words": [
-      "砕ける",
-      "打つ（うつ）"
+      "打つ（うつ）",
+      "破る"
     ]
   },
   "sense-lex-jmdict-1295190-1": {
     "senseVersion": 1,
     "words": [
-      "砕く",
-      "崩れる"
+      "崩れる",
+      "倒れる"
+    ]
+  },
+  "sense-lex-jmdict-1295590-1": {
+    "senseVersion": 1,
+    "words": [
+      "ウイルス"
     ]
   },
   "sense-lex-jmdict-1295610-1": {
     "senseVersion": 1,
     "words": [
-      "加工",
-      "制作"
+      "制作",
+      "手際"
     ]
+  },
+  "sense-lex-jmdict-1295740-1": {
+    "senseVersion": 1,
+    "words": [
+      "組織"
+    ]
+  },
+  "sense-lex-jmdict-1295940-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1296120-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1296200-1": {
+    "senseVersion": 1,
     "words": [
-      "判決"
+      "編み物"
     ]
   },
   "sense-lex-jmdict-1296300-1": {
@@ -16034,19 +21447,22 @@ export const hintConfusions: HintConfusions = {
       "ケース"
     ]
   },
+  "sense-lex-jmdict-1296440-1": {
+    "senseVersion": 1,
+    "words": [
+      "卒業"
+    ]
+  },
   "sense-lex-jmdict-1296470-1": {
     "senseVersion": 1,
     "words": [
-      "在籍",
-      "商品"
+      "商品",
+      "品"
     ]
   },
   "sense-lex-jmdict-1296660-1": {
     "senseVersion": 1,
-    "words": [
-      "立ち木",
-      "木"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1296680-1": {
     "senseVersion": 1,
@@ -16058,15 +21474,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1296810-1": {
     "senseVersion": 1,
     "words": [
-      "財産",
-      "資源"
+      "物資"
     ]
   },
   "sense-lex-jmdict-1296820-1": {
     "senseVersion": 1,
     "words": [
-      "収入",
-      "資産"
+      "収入"
+    ]
+  },
+  "sense-lex-jmdict-1296830-1": {
+    "senseVersion": 1,
+    "words": [
+      "家計"
     ]
   },
   "sense-lex-jmdict-1296970-1": {
@@ -16100,35 +21520,33 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1297510-1": {
     "senseVersion": 1,
     "words": [
-      "作者",
-      "画家"
+      "著者",
+      "筆者"
+    ]
+  },
+  "sense-lex-jmdict-1297650-1": {
+    "senseVersion": 1,
+    "words": [
+      "演奏"
     ]
   },
   "sense-lex-jmdict-1297710-1": {
     "senseVersion": 1,
-    "words": [
-      "作家",
-      "読者"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1297760-1": {
     "senseVersion": 1,
-    "words": [
-      "作製",
-      "形成"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1297800-1": {
     "senseVersion": 1,
     "words": [
-      "戦争",
       "対策"
     ]
   },
   "sense-lex-jmdict-1297910-1": {
     "senseVersion": 1,
     "words": [
-      "商品",
       "演出"
     ]
   },
@@ -16136,7 +21554,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "手紙",
-      "文章"
+      "執筆"
     ]
   },
   "sense-lex-jmdict-1297980-1": {
@@ -16150,14 +21568,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "働き",
-      "作業"
+      "影響"
     ]
   },
   "sense-lex-jmdict-1298110-1": {
     "senseVersion": 1,
     "words": [
       "カット",
-      "削除"
+      "抑制"
     ]
   },
   "sense-lex-jmdict-1298120-1": {
@@ -16181,18 +21599,24 @@ export const hintConfusions: HintConfusions = {
       "手段"
     ]
   },
+  "sense-lex-jmdict-1298320-1": {
+    "senseVersion": 1,
+    "words": [
+      "目次"
+    ]
+  },
   "sense-lex-jmdict-1298400-1": {
     "senseVersion": 1,
     "words": [
       "勘違い",
-      "覚悟"
+      "失敗"
     ]
   },
   "sense-lex-jmdict-1298420-1": {
     "senseVersion": 1,
     "words": [
-      "誤り",
-      "エラー"
+      "エラー",
+      "ミス"
     ]
   },
   "sense-lex-jmdict-1298740-1": {
@@ -16200,6 +21624,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "気づく",
       "悟る"
+    ]
+  },
+  "sense-lex-jmdict-1298790-1": {
+    "senseVersion": 1,
+    "words": [
+      "見る"
     ]
   },
   "sense-lex-jmdict-1298800-1": {
@@ -16212,8 +21642,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1298910-1": {
     "senseVersion": 1,
     "words": [
-      "擦る（する）",
-      "撫でる"
+      "撫でる",
+      "傷"
     ]
   },
   "sense-lex-jmdict-1298960-1": {
@@ -16227,14 +21657,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "死ぬ",
-      "殺人"
+      "潰す"
     ]
   },
   "sense-lex-jmdict-1299100-1": {
     "senseVersion": 1,
     "words": [
-      "傷害",
-      "殺す"
+      "傷害"
     ]
   },
   "sense-lex-jmdict-1299240-1": {
@@ -16246,37 +21675,71 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1299280-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1299290-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1299370-1": {
+    "senseVersion": 1,
     "words": [
-      "音楽",
-      "音"
+      "タオル"
     ]
+  },
+  "sense-lex-jmdict-1299480-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1299640-1": {
     "senseVersion": 1,
     "words": [
-      "腐る",
-      "錆"
+      "腐る"
+    ]
+  },
+  "sense-lex-jmdict-1299680-1": {
+    "senseVersion": 1,
+    "words": [
+      "茶碗"
     ]
   },
   "sense-lex-jmdict-1299740-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1299970-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1301330-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1301340-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1301940-1": {
+    "senseVersion": 1,
     "words": [
-      "三人",
-      "三"
+      "帽子"
     ]
+  },
+  "sense-lex-jmdict-1302210-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1302280-1": {
     "senseVersion": 1,
     "words": [
-      "引用",
-      "参照"
+      "引用"
     ]
   },
   "sense-lex-jmdict-1302410-1": {
     "senseVersion": 1,
     "words": [
-      "参加",
-      "参考"
+      "比較",
+      "引用"
     ]
   },
   "sense-lex-jmdict-1302680-1": {
@@ -16286,11 +21749,25 @@ export const hintConfusions: HintConfusions = {
       "坂"
     ]
   },
+  "sense-lex-jmdict-1303150-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1303190-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1303230-1": {
+    "senseVersion": 1,
+    "words": [
+      "市街地"
+    ]
+  },
   "sense-lex-jmdict-1303280-1": {
     "senseVersion": 1,
     "words": [
       "寂しい",
-      "悲惨"
+      "気の毒"
     ]
   },
   "sense-lex-jmdict-1303400-1": {
@@ -16303,37 +21780,49 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1303460-1": {
     "senseVersion": 1,
     "words": [
-      "散る",
-      "分ける"
+      "分ける",
+      "分かれる"
     ]
   },
   "sense-lex-jmdict-1303620-1": {
     "senseVersion": 1,
     "words": [
-      "通勤",
-      "歩く"
+      "通勤"
     ]
   },
   "sense-lex-jmdict-1303650-1": {
     "senseVersion": 1,
-    "words": [
-      "橋",
-      "橋渡し"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1303760-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1303770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1303790-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1303810-1": {
     "senseVersion": 1,
     "words": [
-      "生産",
-      "算出"
+      "製造",
+      "制作"
     ]
   },
   "sense-lex-jmdict-1303820-1": {
     "senseVersion": 1,
     "words": [
-      "消費地",
-      "地域"
+      "故郷",
+      "所"
     ]
+  },
+  "sense-lex-jmdict-1303850-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1303870-1": {
     "senseVersion": 1,
@@ -16345,29 +21834,51 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1303930-1": {
     "senseVersion": 1,
     "words": [
-      "数学",
-      "計算"
+      "勘定"
     ]
   },
   "sense-lex-jmdict-1304240-1": {
     "senseVersion": 1,
     "words": [
-      "賛成",
       "褒める"
+    ]
+  },
+  "sense-lex-jmdict-1304290-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1304330-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1304350-1": {
+    "senseVersion": 1,
+    "words": [
+      "空気"
     ]
   },
   "sense-lex-jmdict-1304480-1": {
     "senseVersion": 1,
     "words": [
       "余り",
-      "残高"
+      "差し引き"
     ]
+  },
+  "sense-lex-jmdict-1304570-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1304590-1": {
     "senseVersion": 1,
     "words": [
       "総額",
-      "残り"
+      "余り"
+    ]
+  },
+  "sense-lex-jmdict-1304600-1": {
+    "senseVersion": 1,
+    "words": [
+      "厳しい"
     ]
   },
   "sense-lex-jmdict-1304680-1": {
@@ -16401,15 +21912,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1305120-1": {
     "senseVersion": 1,
     "words": [
-      "仕上げ",
-      "最後"
+      "最後",
+      "成立"
     ]
   },
   "sense-lex-jmdict-1305180-1": {
     "senseVersion": 1,
     "words": [
-      "区切る",
-      "仕掛ける"
+      "分ける",
+      "分かれる"
     ]
   },
   "sense-lex-jmdict-1305310-1": {
@@ -16450,15 +21961,25 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1306200-1": {
     "senseVersion": 1,
     "words": [
-      "利用",
-      "使う"
+      "反映"
     ]
   },
   "sense-lex-jmdict-1306390-1": {
     "senseVersion": 1,
     "words": [
-      "刺す",
       "突く"
+    ]
+  },
+  "sense-lex-jmdict-1306540-1": {
+    "senseVersion": 1,
+    "words": [
+      "縫製"
+    ]
+  },
+  "sense-lex-jmdict-1306570-1": {
+    "senseVersion": 1,
+    "words": [
+      "焼き魚"
     ]
   },
   "sense-lex-jmdict-1306630-1": {
@@ -16475,12 +21996,29 @@ export const hintConfusions: HintConfusions = {
       "議長"
     ]
   },
+  "sense-lex-jmdict-1306680-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1307040-1": {
     "senseVersion": 1,
-    "words": [
-      "四人",
-      "四"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1307090-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1307130-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1307250-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1307320-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1307570-1": {
     "senseVersion": 1,
@@ -16489,12 +22027,22 @@ export const hintConfusions: HintConfusions = {
       "たまに"
     ]
   },
+  "sense-lex-jmdict-1307610-1": {
+    "senseVersion": 1,
+    "words": [
+      "終電"
+    ]
+  },
   "sense-lex-jmdict-1307620-1": {
     "senseVersion": 1,
     "words": [
       "処理",
-      "開始"
+      "解決"
     ]
+  },
+  "sense-lex-jmdict-1307630-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1307710-1": {
     "senseVersion": 1,
@@ -16506,36 +22054,35 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1307770-1": {
     "senseVersion": 1,
     "words": [
-      "子供",
-      "大人"
+      "大人",
+      "少年"
     ]
   },
   "sense-lex-jmdict-1307850-1": {
     "senseVersion": 1,
     "words": [
-      "子",
-      "お子様"
+      "大人",
+      "少年"
     ]
   },
   "sense-lex-jmdict-1307990-1": {
     "senseVersion": 1,
     "words": [
-      "祖先",
-      "子"
+      "祖先"
     ]
   },
   "sense-lex-jmdict-1308090-1": {
     "senseVersion": 1,
     "words": [
-      "市民",
-      "都市"
+      "都（みやこ）",
+      "都会"
     ]
   },
   "sense-lex-jmdict-1308190-1": {
     "senseVersion": 1,
     "words": [
       "郊外",
-      "都市"
+      "町"
     ]
   },
   "sense-lex-jmdict-1308300-1": {
@@ -16547,10 +22094,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1308690-1": {
     "senseVersion": 1,
-    "words": [
-      "市",
-      "国民"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1309050-1": {
     "senseVersion": 1,
@@ -16570,21 +22114,25 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "思考",
-      "意向"
+      "目的"
     ]
   },
   "sense-lex-jmdict-1309140-1": {
     "senseVersion": 1,
     "words": [
-      "希望",
-      "要求"
+      "要求",
+      "夢"
     ]
+  },
+  "sense-lex-jmdict-1309230-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1309260-1": {
     "senseVersion": 1,
     "words": [
-      "思い出",
-      "知る"
+      "知る",
+      "覚える"
     ]
   },
   "sense-lex-jmdict-1309380-1": {
@@ -16594,18 +22142,29 @@ export const hintConfusions: HintConfusions = {
       "考え"
     ]
   },
+  "sense-lex-jmdict-1309460-1": {
+    "senseVersion": 1,
+    "words": [
+      "うっかり"
+    ]
+  },
   "sense-lex-jmdict-1309530-1": {
     "senseVersion": 1,
     "words": [
-      "考え",
-      "志向"
+      "志向",
+      "審議"
     ]
   },
   "sense-lex-jmdict-1309560-1": {
     "senseVersion": 1,
     "words": [
-      "感想",
       "考え"
+    ]
+  },
+  "sense-lex-jmdict-1309650-1": {
+    "senseVersion": 1,
+    "words": [
+      "手"
     ]
   },
   "sense-lex-jmdict-1309670-1": {
@@ -16626,7 +22185,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "支持",
-      "指定"
+      "任命"
     ]
   },
   "sense-lex-jmdict-1309910-1": {
@@ -16638,10 +22197,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1310050-1": {
     "senseVersion": 1,
-    "words": [
-      "腕輪",
-      "輪"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1310090-1": {
     "senseVersion": 1,
@@ -16649,6 +22205,10 @@ export const hintConfusions: HintConfusions = {
       "助ける",
       "掲げる"
     ]
+  },
+  "sense-lex-jmdict-1310230-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1310270-1": {
     "senseVersion": 1,
@@ -16660,28 +22220,43 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1310300-1": {
     "senseVersion": 1,
     "words": [
-      "払う",
       "賄う"
     ]
   },
   "sense-lex-jmdict-1310600-1": {
     "senseVersion": 1,
     "words": [
-      "止める",
-      "止める（やめる）"
+      "辞める",
+      "捨てる"
     ]
+  },
+  "sense-lex-jmdict-1310920-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1310950-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1311060-1": {
     "senseVersion": 1,
     "words": [
-      "住所",
-      "名"
+      "住所"
     ]
+  },
+  "sense-lex-jmdict-1311110-1": {
+    "senseVersion": 1,
+    "words": [
+      "あなた"
+    ]
+  },
+  "sense-lex-jmdict-1311340-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1311420-1": {
     "senseVersion": 1,
     "words": [
-      "国立",
       "民間"
     ]
   },
@@ -16699,6 +22274,18 @@ export const hintConfusions: HintConfusions = {
       "硬貨"
     ]
   },
+  "sense-lex-jmdict-1311640-1": {
+    "senseVersion": 1,
+    "words": [
+      "黄色"
+    ]
+  },
+  "sense-lex-jmdict-1311750-1": {
+    "senseVersion": 1,
+    "words": [
+      "油"
+    ]
+  },
   "sense-lex-jmdict-1311870-1": {
     "senseVersion": 1,
     "words": [
@@ -16710,22 +22297,24 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "後日",
-      "急"
+      "直ちに"
+    ]
+  },
+  "sense-lex-jmdict-1312220-1": {
+    "senseVersion": 1,
+    "words": [
+      "作家"
     ]
   },
   "sense-lex-jmdict-1312250-1": {
     "senseVersion": 1,
     "words": [
-      "試験",
-      "試す"
+      "テスト"
     ]
   },
   "sense-lex-jmdict-1312260-1": {
     "senseVersion": 1,
-    "words": [
-      "試みる",
-      "試し"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1312420-1": {
     "senseVersion": 1,
@@ -16737,21 +22326,33 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1312750-1": {
     "senseVersion": 1,
     "words": [
-      "負債",
-      "財産"
+      "負債"
     ]
+  },
+  "sense-lex-jmdict-1312780-1": {
+    "senseVersion": 1,
+    "words": [
+      "利益"
+    ]
+  },
+  "sense-lex-jmdict-1313080-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1313350-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1313850-1": {
     "senseVersion": 1,
     "words": [
       "災害",
-      "事件"
+      "紛争"
     ]
   },
   "sense-lex-jmdict-1313910-1": {
     "senseVersion": 1,
     "words": [
-      "事態",
       "内容"
     ]
   },
@@ -16765,7 +22366,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1314050-1": {
     "senseVersion": 1,
     "words": [
-      "事後",
       "先"
     ]
   },
@@ -16793,14 +22393,24 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1315130-1": {
     "senseVersion": 1,
     "words": [
-      "文",
-      "文字"
+      "文"
+    ]
+  },
+  "sense-lex-jmdict-1315240-1": {
+    "senseVersion": 1,
+    "words": [
+      "神社"
+    ]
+  },
+  "sense-lex-jmdict-1315250-1": {
+    "senseVersion": 1,
+    "words": [
+      "神社"
     ]
   },
   "sense-lex-jmdict-1315610-1": {
     "senseVersion": 1,
     "words": [
-      "上げる",
       "高める"
     ]
   },
@@ -16814,43 +22424,46 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1315920-1": {
     "senseVersion": 1,
     "words": [
-      "時",
-      "期間"
+      "期限",
+      "際"
     ]
   },
   "sense-lex-jmdict-1315960-1": {
     "senseVersion": 1,
     "words": [
-      "時刻表",
-      "計画"
+      "計画",
+      "予定"
     ]
   },
   "sense-lex-jmdict-1316040-1": {
     "senseVersion": 1,
     "words": [
-      "時代",
-      "時刻"
+      "段階",
+      "季節"
     ]
+  },
+  "sense-lex-jmdict-1316140-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1316220-1": {
     "senseVersion": 1,
     "words": [
-      "時間",
-      "時期"
+      "際",
+      "頃"
     ]
   },
   "sense-lex-jmdict-1316290-1": {
     "senseVersion": 1,
     "words": [
-      "距離",
-      "速度"
+      "距離"
     ]
   },
   "sense-lex-jmdict-1316300-1": {
     "senseVersion": 1,
     "words": [
-      "時期",
-      "季節"
+      "季節",
+      "世紀"
     ]
   },
   "sense-lex-jmdict-1316380-1": {
@@ -16867,19 +22480,26 @@ export const hintConfusions: HintConfusions = {
       "続く"
     ]
   },
+  "sense-lex-jmdict-1316840-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1316890-1": {
     "senseVersion": 1,
     "words": [
-      "診療",
-      "介護"
+      "介護",
+      "世話"
+    ]
+  },
+  "sense-lex-jmdict-1317400-1": {
+    "senseVersion": 1,
+    "words": [
+      "攻撃"
     ]
   },
   "sense-lex-jmdict-1317460-1": {
     "senseVersion": 1,
-    "words": [
-      "自己",
-      "自身"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1317490-1": {
     "senseVersion": 1,
@@ -16891,30 +22511,49 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1317810-1": {
     "senseVersion": 1,
     "words": [
-      "支配",
-      "自主"
+      "支配"
     ]
   },
   "sense-lex-jmdict-1317860-1": {
     "senseVersion": 1,
     "words": [
       "強制",
-      "自治"
+      "独立"
+    ]
+  },
+  "sense-lex-jmdict-1317890-1": {
+    "senseVersion": 1,
+    "words": [
+      "出頭"
+    ]
+  },
+  "sense-lex-jmdict-1317900-1": {
+    "senseVersion": 1,
+    "words": [
+      "授業"
     ]
   },
   "sense-lex-jmdict-1318000-1": {
     "senseVersion": 1,
     "words": [
-      "身",
       "本人"
     ]
   },
+  "sense-lex-jmdict-1318110-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1318290-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1318340-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1318400-1": {
     "senseVersion": 1,
-    "words": [
-      "車",
-      "自転車"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1318680-1": {
     "senseVersion": 1,
@@ -16931,44 +22570,52 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1318880-1": {
     "senseVersion": 1,
-    "words": [
-      "孤立",
-      "独立"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1318990-1": {
     "senseVersion": 1,
     "words": [
       "遠慮",
-      "辞職"
+      "反発"
     ]
   },
   "sense-lex-jmdict-1319060-1": {
     "senseVersion": 1,
     "words": [
-      "儀式",
       "会"
     ]
   },
   "sense-lex-jmdict-1319210-1": {
     "senseVersion": 1,
     "words": [
-      "六",
-      "七つ"
+      "六"
     ]
   },
   "sense-lex-jmdict-1319220-1": {
     "senseVersion": 1,
-    "words": [
-      "七人",
-      "七"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1319710-1": {
     "senseVersion": 1,
     "words": [
       "読書",
       "文章"
+    ]
+  },
+  "sense-lex-jmdict-1320170-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1320250-1": {
+    "senseVersion": 1,
+    "words": [
+      "両思い"
+    ]
+  },
+  "sense-lex-jmdict-1320280-1": {
+    "senseVersion": 1,
+    "words": [
+      "憧れ"
     ]
   },
   "sense-lex-jmdict-1320410-1": {
@@ -16981,57 +22628,61 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1320490-1": {
     "senseVersion": 1,
     "words": [
-      "温度",
       "水分"
     ]
   },
   "sense-lex-jmdict-1320640-1": {
     "senseVersion": 1,
     "words": [
-      "品質",
-      "性質"
+      "量",
+      "性格"
     ]
   },
   "sense-lex-jmdict-1320760-1": {
     "senseVersion": 1,
     "words": [
-      "問い",
-      "答え"
+      "答え",
+      "課題"
     ]
   },
   "sense-lex-jmdict-1320810-1": {
     "senseVersion": 1,
     "words": [
       "中身",
-      "果実"
+      "種"
     ]
   },
   "sense-lex-jmdict-1320830-1": {
     "senseVersion": 1,
     "words": [
-      "実際に",
-      "事実"
+      "現に"
+    ]
+  },
+  "sense-lex-jmdict-1320920-1": {
+    "senseVersion": 1,
+    "words": [
+      "予想"
     ]
   },
   "sense-lex-jmdict-1320950-1": {
     "senseVersion": 1,
-    "words": [
-      "起業家",
-      "業者"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1320970-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1321020-1": {
     "senseVersion": 1,
     "words": [
-      "実行",
-      "実施"
+      "成立"
     ]
   },
   "sense-lex-jmdict-1321040-1": {
     "senseVersion": 1,
     "words": [
-      "実現",
-      "活動"
+      "活動",
+      "動作"
     ]
   },
   "sense-lex-jmdict-1321110-1": {
@@ -17044,8 +22695,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1321140-1": {
     "senseVersion": 1,
     "words": [
-      "実行",
-      "実現"
+      "強制",
+      "強行"
     ]
   },
   "sense-lex-jmdict-1321170-1": {
@@ -17058,50 +22709,53 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1321200-1": {
     "senseVersion": 1,
     "words": [
-      "演習",
-      "講義"
+      "講義",
+      "教育"
     ]
   },
   "sense-lex-jmdict-1321240-1": {
     "senseVersion": 1,
     "words": [
-      "業績",
       "目標"
     ]
   },
   "sense-lex-jmdict-1321260-1": {
     "senseVersion": 1,
     "words": [
-      "理論",
-      "実施"
+      "理論"
     ]
   },
   "sense-lex-jmdict-1321360-1": {
     "senseVersion": 1,
     "words": [
       "理想",
-      "現実"
+      "本当"
+    ]
+  },
+  "sense-lex-jmdict-1321410-1": {
+    "senseVersion": 1,
+    "words": [
+      "定価"
     ]
   },
   "sense-lex-jmdict-1321430-1": {
     "senseVersion": 1,
     "words": [
       "模型",
-      "本物"
+      "原典"
     ]
   },
   "sense-lex-jmdict-1321480-1": {
     "senseVersion": 1,
     "words": [
       "鑑賞",
-      "運用"
+      "使い道"
     ]
   },
   "sense-lex-jmdict-1321560-1": {
     "senseVersion": 1,
     "words": [
-      "仮定",
-      "例"
+      "仮定"
     ]
   },
   "sense-lex-jmdict-1321630-1": {
@@ -17109,6 +22763,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "演技",
       "劇"
+    ]
+  },
+  "sense-lex-jmdict-1321650-1": {
+    "senseVersion": 1,
+    "words": [
+      "草"
     ]
   },
   "sense-lex-jmdict-1321670-1": {
@@ -17121,7 +22781,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1321820-1": {
     "senseVersion": 1,
     "words": [
-      "写す",
       "映る"
     ]
   },
@@ -17132,6 +22791,10 @@ export const hintConfusions: HintConfusions = {
       "照らす"
     ]
   },
+  "sense-lex-jmdict-1322490-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1322700-1": {
     "senseVersion": 1,
     "words": [
@@ -17139,19 +22802,35 @@ export const hintConfusions: HintConfusions = {
       "世間"
     ]
   },
+  "sense-lex-jmdict-1322720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1322860-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1322890-1": {
+    "senseVersion": 1,
+    "words": [
+      "記事"
+    ]
+  },
   "sense-lex-jmdict-1323120-1": {
     "senseVersion": 1,
     "words": [
-      "車道",
       "小屋"
+    ]
+  },
+  "sense-lex-jmdict-1323170-1": {
+    "senseVersion": 1,
+    "words": [
+      "運転士"
     ]
   },
   "sense-lex-jmdict-1323280-1": {
     "senseVersion": 1,
-    "words": [
-      "歯車",
-      "輪"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1323500-1": {
     "senseVersion": 1,
@@ -17188,6 +22867,10 @@ export const hintConfusions: HintConfusions = {
       "大半"
     ]
   },
+  "sense-lex-jmdict-1325180-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1325260-1": {
     "senseVersion": 1,
     "words": [
@@ -17195,31 +22878,41 @@ export const hintConfusions: HintConfusions = {
       "習慣"
     ]
   },
+  "sense-lex-jmdict-1325360-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1325420-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1325450-1": {
     "senseVersion": 1,
     "words": [
       "後援",
-      "開催"
+      "演出"
     ]
+  },
+  "sense-lex-jmdict-1325640-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1325680-1": {
     "senseVersion": 1,
     "words": [
-      "主役",
       "作者"
     ]
   },
   "sense-lex-jmdict-1325840-1": {
     "senseVersion": 1,
     "words": [
-      "客体",
-      "中心"
+      "中心",
+      "核"
     ]
   },
   "sense-lex-jmdict-1325870-1": {
     "senseVersion": 1,
     "words": [
-      "題",
       "テーマ"
     ]
   },
@@ -17227,7 +22920,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "補助",
-      "指導"
+      "率いる"
     ]
   },
   "sense-lex-jmdict-1326040-1": {
@@ -17237,39 +22930,42 @@ export const hintConfusions: HintConfusions = {
       "監督"
     ]
   },
-  "sense-lex-jmdict-1326290-1": {
+  "sense-lex-jmdict-1326160-1": {
     "senseVersion": 1,
     "words": [
-      "主人公",
-      "脇役"
+      "家族"
     ]
+  },
+  "sense-lex-jmdict-1326290-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1326620-1": {
     "senseVersion": 1,
     "words": [
-      "取り出す",
-      "注文"
+      "注文",
+      "頼む"
     ]
   },
   "sense-lex-jmdict-1326760-1": {
     "senseVersion": 1,
     "words": [
-      "取り付ける",
-      "運ぶ"
+      "運ぶ",
+      "送る"
     ]
   },
   "sense-lex-jmdict-1326770-1": {
     "senseVersion": 1,
     "words": [
-      "取り入れる",
-      "出す"
+      "拾う",
+      "抜く"
     ]
   },
   "sense-lex-jmdict-1326780-1": {
     "senseVersion": 1,
     "words": [
-      "除く",
-      "取り入れる"
+      "外す",
+      "削る"
     ]
   },
   "sense-lex-jmdict-1326800-1": {
@@ -17289,8 +22985,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1326830-1": {
     "senseVersion": 1,
     "words": [
-      "替える",
-      "変える"
+      "変える",
+      "交換"
     ]
   },
   "sense-lex-jmdict-1326860-1": {
@@ -17310,16 +23006,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1326940-1": {
     "senseVersion": 1,
     "words": [
-      "取り出す",
-      "返す"
+      "返す",
+      "治る"
     ]
   },
   "sense-lex-jmdict-1326960-1": {
     "senseVersion": 1,
-    "words": [
-      "引き取る",
-      "取り上げる"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1326990-1": {
     "senseVersion": 1,
@@ -17331,8 +23024,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1327180-1": {
     "senseVersion": 1,
     "words": [
-      "攻撃",
-      "警備"
+      "攻撃"
+    ]
+  },
+  "sense-lex-jmdict-1327190-1": {
+    "senseVersion": 1,
+    "words": [
+      "足"
     ]
   },
   "sense-lex-jmdict-1327390-1": {
@@ -17346,7 +23044,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "労力",
-      "時間"
+      "努力"
     ]
   },
   "sense-lex-jmdict-1327530-1": {
@@ -17355,6 +23053,10 @@ export const hintConfusions: HintConfusions = {
       "簡単",
       "単純"
     ]
+  },
+  "sense-lex-jmdict-1327540-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1327660-1": {
     "senseVersion": 1,
@@ -17366,8 +23068,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1327690-1": {
     "senseVersion": 1,
     "words": [
-      "手順",
-      "技術"
+      "技術",
+      "実力"
     ]
   },
   "sense-lex-jmdict-1327720-1": {
@@ -17377,12 +23079,36 @@ export const hintConfusions: HintConfusions = {
       "葉書"
     ]
   },
+  "sense-lex-jmdict-1327770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1327810-1": {
     "senseVersion": 1,
     "words": [
-      "手続き",
-      "順"
+      "方法",
+      "流れ"
     ]
+  },
+  "sense-lex-jmdict-1327900-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1328030-1": {
+    "senseVersion": 1,
+    "words": [
+      "向こう"
+    ]
+  },
+  "sense-lex-jmdict-1328090-1": {
+    "senseVersion": 1,
+    "words": [
+      "靴下"
+    ]
+  },
+  "sense-lex-jmdict-1328120-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1328170-1": {
     "senseVersion": 1,
@@ -17403,6 +23129,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "準備",
       "用意"
+    ]
+  },
+  "sense-lex-jmdict-1328310-1": {
+    "senseVersion": 1,
+    "words": [
+      "魔法"
     ]
   },
   "sense-lex-jmdict-1328380-1": {
@@ -17429,8 +23161,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1328990-1": {
     "senseVersion": 1,
     "words": [
-      "要旨",
-      "趣味"
+      "意味",
+      "目的"
     ]
   },
   "sense-lex-jmdict-1329300-1": {
@@ -17443,22 +23175,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1329360-1": {
     "senseVersion": 1,
     "words": [
-      "首相",
-      "代表"
+      "代表",
+      "トップ"
     ]
   },
   "sense-lex-jmdict-1329600-1": {
     "senseVersion": 1,
-    "words": [
-      "受け取る",
-      "引き受ける"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1329630-1": {
     "senseVersion": 1,
     "words": [
       "応じる",
-      "受け付ける"
+      "取り入れる"
     ]
   },
   "sense-lex-jmdict-1329640-1": {
@@ -17472,91 +23201,104 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "応じる",
-      "受け止める"
+      "取り入れる"
+    ]
+  },
+  "sense-lex-jmdict-1329740-1": {
+    "senseVersion": 1,
+    "words": [
+      "合格"
     ]
   },
   "sense-lex-jmdict-1329770-1": {
     "senseVersion": 1,
     "words": [
       "発送",
-      "受付"
+      "領収"
+    ]
+  },
+  "sense-lex-jmdict-1329860-1": {
+    "senseVersion": 1,
+    "words": [
+      "自主"
     ]
   },
   "sense-lex-jmdict-1330240-1": {
     "senseVersion": 1,
     "words": [
       "年齢",
-      "生命"
+      "生存"
     ]
   },
   "sense-lex-jmdict-1330280-1": {
     "senseVersion": 1,
     "words": [
       "贈る",
-      "授かる"
+      "渡す"
     ]
   },
   "sense-lex-jmdict-1330400-1": {
     "senseVersion": 1,
     "words": [
-      "木",
       "草花"
     ]
   },
   "sense-lex-jmdict-1330410-1": {
     "senseVersion": 1,
     "words": [
-      "設立",
-      "成立"
+      "発足",
+      "制定"
     ]
   },
   "sense-lex-jmdict-1330450-1": {
     "senseVersion": 1,
     "words": [
-      "供給",
-      "必要"
+      "供給"
     ]
   },
   "sense-lex-jmdict-1330500-1": {
     "senseVersion": 1,
     "words": [
-      "利益",
-      "費用"
+      "費用",
+      "所得"
     ]
   },
   "sense-lex-jmdict-1330510-1": {
     "senseVersion": 1,
     "words": [
-      "収入",
-      "結果"
+      "結果",
+      "効果"
     ]
   },
   "sense-lex-jmdict-1330640-1": {
     "senseVersion": 1,
     "words": [
-      "採算",
-      "収入"
+      "採算"
     ]
   },
   "sense-lex-jmdict-1330790-1": {
     "senseVersion": 1,
     "words": [
-      "収益",
-      "所得"
+      "所得",
+      "売り上げ"
     ]
+  },
+  "sense-lex-jmdict-1330880-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1331030-1": {
     "senseVersion": 1,
     "words": [
-      "周り",
-      "内部"
+      "内部",
+      "環境"
     ]
   },
   "sense-lex-jmdict-1331300-1": {
     "senseVersion": 1,
     "words": [
-      "周り",
-      "辺"
+      "中心",
+      "近郊"
     ]
   },
   "sense-lex-jmdict-1331400-1": {
@@ -17575,14 +23317,17 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1331590-1": {
     "senseVersion": 1,
     "words": [
-      "就職",
-      "作業"
+      "仕事",
+      "労働"
     ]
+  },
+  "sense-lex-jmdict-1331670-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1331780-1": {
     "senseVersion": 1,
     "words": [
-      "辞任",
       "発足"
     ]
   },
@@ -17597,22 +23342,31 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "変更",
-      "改正"
+      "変化"
     ]
   },
   "sense-lex-jmdict-1332170-1": {
     "senseVersion": 1,
     "words": [
-      "改修",
-      "交換"
+      "交換",
+      "手入れ"
     ]
   },
   "sense-lex-jmdict-1332450-1": {
     "senseVersion": 1,
     "words": [
-      "終了",
       "卒業"
     ]
+  },
+  "sense-lex-jmdict-1332650-1": {
+    "senseVersion": 1,
+    "words": [
+      "春"
+    ]
+  },
+  "sense-lex-jmdict-1332950-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1333040-1": {
     "senseVersion": 1,
@@ -17631,9 +23385,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1333150-1": {
     "senseVersion": 1,
     "words": [
-      "匂い",
-      "生臭い"
+      "匂い"
     ]
+  },
+  "sense-lex-jmdict-1333260-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1333330-1": {
     "senseVersion": 1,
@@ -17642,17 +23399,28 @@ export const hintConfusions: HintConfusions = {
       "攻撃"
     ]
   },
+  "sense-lex-jmdict-1333450-1": {
+    "senseVersion": 1,
+    "words": [
+      "月"
+    ]
+  },
   "sense-lex-jmdict-1333600-1": {
     "senseVersion": 1,
     "words": [
-      "会合",
-      "集まり"
+      "催し",
+      "個別面談"
+    ]
+  },
+  "sense-lex-jmdict-1333620-1": {
+    "senseVersion": 1,
+    "words": [
+      "支払い"
     ]
   },
   "sense-lex-jmdict-1333640-1": {
     "senseVersion": 1,
     "words": [
-      "計算",
       "一括"
     ]
   },
@@ -17679,10 +23447,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1334210-1": {
     "senseVersion": 1,
-    "words": [
-      "国民",
-      "市民"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1334340-1": {
     "senseVersion": 1,
@@ -17691,11 +23456,35 @@ export const hintConfusions: HintConfusions = {
       "強化"
     ]
   },
+  "sense-lex-jmdict-1335000-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1335080-1": {
     "senseVersion": 1,
     "words": [
       "豊か",
       "結構"
+    ]
+  },
+  "sense-lex-jmdict-1335290-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1335320-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1335400-1": {
+    "senseVersion": 1,
+    "words": [
+      "今後"
+    ]
+  },
+  "sense-lex-jmdict-1335440-1": {
+    "senseVersion": 1,
+    "words": [
+      "空手"
     ]
   },
   "sense-lex-jmdict-1335480-1": {
@@ -17712,18 +23501,28 @@ export const hintConfusions: HintConfusions = {
       "垂直"
     ]
   },
+  "sense-lex-jmdict-1335750-1": {
+    "senseVersion": 1,
+    "words": [
+      "軽い"
+    ]
+  },
   "sense-lex-jmdict-1335940-1": {
     "senseVersion": 1,
     "words": [
       "軽んじる",
-      "尊重"
+      "尊敬"
     ]
+  },
+  "sense-lex-jmdict-1336260-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1336500-1": {
     "senseVersion": 1,
     "words": [
-      "重要",
-      "深刻"
+      "深刻",
+      "切実"
     ]
   },
   "sense-lex-jmdict-1336570-1": {
@@ -17737,7 +23536,23 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "大切",
-      "必要"
+      "不可欠"
+    ]
+  },
+  "sense-lex-jmdict-1336900-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1336980-1": {
+    "senseVersion": 1,
+    "words": [
+      "摩擦"
+    ]
+  },
+  "sense-lex-jmdict-1337000-1": {
+    "senseVersion": 1,
+    "words": [
+      "弓"
     ]
   },
   "sense-lex-jmdict-1337190-1": {
@@ -17750,9 +23565,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1337300-1": {
     "senseVersion": 1,
     "words": [
-      "滞在",
-      "宿"
+      "滞在"
     ]
+  },
+  "sense-lex-jmdict-1337330-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1337370-1": {
     "senseVersion": 1,
@@ -17761,26 +23579,42 @@ export const hintConfusions: HintConfusions = {
       "記念"
     ]
   },
+  "sense-lex-jmdict-1337590-1": {
+    "senseVersion": 1,
+    "words": [
+      "伸びる"
+    ]
+  },
+  "sense-lex-jmdict-1337830-1": {
+    "senseVersion": 1,
+    "words": [
+      "単漢字"
+    ]
+  },
   "sense-lex-jmdict-1338400-1": {
     "senseVersion": 1,
     "words": [
       "別れ",
-      "出会う"
+      "合流"
     ]
   },
   "sense-lex-jmdict-1338600-1": {
     "senseVersion": 1,
-    "words": [
-      "出社",
-      "退勤"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1338720-1": {
     "senseVersion": 1,
     "words": [
-      "見送る",
-      "迎える"
+      "見送る"
     ]
+  },
+  "sense-lex-jmdict-1338750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1338850-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1339010-1": {
     "senseVersion": 1,
@@ -17791,23 +23625,34 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1339150-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1339260-1": {
+    "senseVersion": 1,
     "words": [
-      "出勤",
-      "退社"
+      "住所"
     ]
   },
   "sense-lex-jmdict-1339460-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1339620-1": {
+    "senseVersion": 1,
     "words": [
-      "欠席",
-      "出勤"
+      "解答"
+    ]
+  },
+  "sense-lex-jmdict-1339910-1": {
+    "senseVersion": 1,
+    "words": [
+      "滞在"
     ]
   },
   "sense-lex-jmdict-1340000-1": {
     "senseVersion": 1,
     "words": [
-      "到着",
-      "外出"
+      "到着"
     ]
   },
   "sense-lex-jmdict-1340030-1": {
@@ -17820,15 +23665,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1340180-1": {
     "senseVersion": 1,
     "words": [
-      "支出",
       "収入"
+    ]
+  },
+  "sense-lex-jmdict-1340460-1": {
+    "senseVersion": 1,
+    "words": [
+      "なるべく"
     ]
   },
   "sense-lex-jmdict-1340570-1": {
     "senseVersion": 1,
     "words": [
       "予定",
-      "事件"
+      "発生"
     ]
   },
   "sense-lex-jmdict-1340600-1": {
@@ -17838,12 +23688,15 @@ export const hintConfusions: HintConfusions = {
       "材料"
     ]
   },
-  "sense-lex-jmdict-1341210-1": {
+  "sense-lex-jmdict-1341000-1": {
     "senseVersion": 1,
     "words": [
-      "一瞬",
-      "期間"
+      "秋"
     ]
+  },
+  "sense-lex-jmdict-1341210-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1341340-1": {
     "senseVersion": 1,
@@ -17869,22 +23722,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1341790-1": {
     "senseVersion": 1,
     "words": [
-      "潤す",
       "儲ける"
     ]
   },
   "sense-lex-jmdict-1341910-1": {
     "senseVersion": 1,
     "words": [
-      "純粋",
-      "計算高い"
+      "計算高い",
+      "無邪気"
     ]
   },
   "sense-lex-jmdict-1341930-1": {
     "senseVersion": 1,
     "words": [
-      "純情",
-      "複雑"
+      "複雑",
+      "本当"
     ]
   },
   "sense-lex-jmdict-1342050-1": {
@@ -17897,36 +23749,35 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1342220-1": {
     "senseVersion": 1,
     "words": [
-      "手順",
-      "順序"
+      "次",
+      "番"
     ]
   },
   "sense-lex-jmdict-1342340-1": {
     "senseVersion": 1,
     "words": [
-      "順",
-      "手順"
+      "段階",
+      "方法"
     ]
   },
   "sense-lex-jmdict-1342380-1": {
     "senseVersion": 1,
     "words": [
-      "快調",
-      "好調"
+      "有利"
     ]
   },
   "sense-lex-jmdict-1342470-1": {
     "senseVersion": 1,
     "words": [
-      "措置",
-      "治療"
+      "治療",
+      "医療"
     ]
   },
   "sense-lex-jmdict-1342490-1": {
     "senseVersion": 1,
     "words": [
       "保管",
-      "処理"
+      "廃棄"
     ]
   },
   "sense-lex-jmdict-1342510-1": {
@@ -17940,42 +23791,48 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "もう",
-      "最初"
+      "先"
     ]
+  },
+  "sense-lex-jmdict-1342710-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1342820-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1343100-1": {
     "senseVersion": 1,
     "words": [
-      "場所",
-      "箇所"
+      "会場",
+      "現地"
     ]
   },
   "sense-lex-jmdict-1343210-1": {
     "senseVersion": 1,
     "words": [
       "行き先",
-      "場所"
+      "位置"
     ]
   },
   "sense-lex-jmdict-1343250-1": {
     "senseVersion": 1,
     "words": [
-      "所有",
-      "獲得"
+      "獲得",
+      "携帯"
     ]
   },
   "sense-lex-jmdict-1343310-1": {
     "senseVersion": 1,
     "words": [
-      "所在",
       "加入"
     ]
   },
   "sense-lex-jmdict-1343350-1": {
     "senseVersion": 1,
     "words": [
-      "臨時",
-      "一定"
+      "臨時"
     ]
   },
   "sense-lex-jmdict-1343360-1": {
@@ -17985,74 +23842,92 @@ export const hintConfusions: HintConfusions = {
       "収入"
     ]
   },
+  "sense-lex-jmdict-1343560-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1343640-1": {
     "senseVersion": 1,
     "words": [
       "サイン",
-      "記名"
+      "調印"
     ]
+  },
+  "sense-lex-jmdict-1344030-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1344090-1": {
     "senseVersion": 1,
     "words": [
-      "書物",
-      "雑誌"
+      "雑誌",
+      "本"
     ]
+  },
+  "sense-lex-jmdict-1344130-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵画"
+    ]
+  },
+  "sense-lex-jmdict-1344140-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1344150-1": {
     "senseVersion": 1,
     "words": [
-      "書籍",
-      "書類"
+      "本"
     ]
   },
   "sense-lex-jmdict-1344200-1": {
     "senseVersion": 1,
     "words": [
-      "書物",
-      "記録"
+      "記録",
+      "文献"
     ]
   },
   "sense-lex-jmdict-1344650-1": {
     "senseVersion": 1,
     "words": [
-      "アシスタント",
-      "手伝い"
+      "アシスタント"
     ]
   },
   "sense-lex-jmdict-1344930-1": {
     "senseVersion": 1,
     "words": [
-      "女子",
-      "女性"
+      "男",
+      "婦人"
     ]
   },
   "sense-lex-jmdict-1344970-1": {
     "senseVersion": 1,
     "words": [
-      "少女",
-      "男の子"
+      "娘",
+      "お嬢さん"
     ]
   },
   "sense-lex-jmdict-1345020-1": {
     "senseVersion": 1,
-    "words": [
-      "王妃",
-      "国王"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1345140-1": {
     "senseVersion": 1,
     "words": [
-      "女",
-      "女性"
+      "娘",
+      "婦人"
     ]
   },
   "sense-lex-jmdict-1345250-1": {
     "senseVersion": 1,
     "words": [
-      "女子",
-      "女"
+      "婦人"
+    ]
+  },
+  "sense-lex-jmdict-1345430-1": {
+    "senseVersion": 1,
+    "words": [
+      "歌手"
     ]
   },
   "sense-lex-jmdict-1345605-1": {
@@ -18065,29 +23940,36 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1345640-1": {
     "senseVersion": 1,
     "words": [
-      "取り除く",
-      "省く"
+      "省く",
+      "外す"
     ]
   },
   "sense-lex-jmdict-1345650-1": {
     "senseVersion": 1,
-    "words": [
-      "排除",
-      "例外"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1346220-1": {
     "senseVersion": 1,
     "words": [
-      "勝利",
-      "結果"
+      "結果",
+      "出来上がり"
     ]
+  },
+  "sense-lex-jmdict-1347080-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1347490-1": {
     "senseVersion": 1,
     "words": [
       "述べる",
       "叫ぶ"
+    ]
+  },
+  "sense-lex-jmdict-1347530-1": {
+    "senseVersion": 1,
+    "words": [
+      "給料"
     ]
   },
   "sense-lex-jmdict-1347550-1": {
@@ -18111,6 +23993,10 @@ export const hintConfusions: HintConfusions = {
       "車庫"
     ]
   },
+  "sense-lex-jmdict-1347870-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1348030-1": {
     "senseVersion": 1,
     "words": [
@@ -18125,11 +24011,21 @@ export const hintConfusions: HintConfusions = {
       "物語"
     ]
   },
+  "sense-lex-jmdict-1348530-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1348630-1": {
+    "senseVersion": 1,
+    "words": [
+      "米"
+    ]
+  },
   "sense-lex-jmdict-1348870-1": {
     "senseVersion": 1,
     "words": [
-      "多少",
-      "少々"
+      "幾分",
+      "まあ"
     ]
   },
   "sense-lex-jmdict-1348900-1": {
@@ -18150,7 +24046,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "男の子",
-      "青年"
+      "子"
     ]
   },
   "sense-lex-jmdict-1349440-1": {
@@ -18163,22 +24059,44 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1349470-1": {
     "senseVersion": 1,
     "words": [
-      "承知",
-      "拒否"
+      "拒否",
+      "合意"
     ]
   },
   "sense-lex-jmdict-1349480-1": {
     "senseVersion": 1,
     "words": [
       "理解",
-      "了承"
+      "合意"
     ]
   },
   "sense-lex-jmdict-1349520-1": {
     "senseVersion": 1,
     "words": [
-      "了承",
-      "承知"
+      "合意",
+      "賛成"
+    ]
+  },
+  "sense-lex-jmdict-1349780-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1349860-1": {
+    "senseVersion": 1,
+    "words": [
+      "杉"
+    ]
+  },
+  "sense-lex-jmdict-1350080-1": {
+    "senseVersion": 1,
+    "words": [
+      "鉛筆"
+    ]
+  },
+  "sense-lex-jmdict-1350140-1": {
+    "senseVersion": 1,
+    "words": [
+      "吸収"
     ]
   },
   "sense-lex-jmdict-1350190-1": {
@@ -18188,6 +24106,10 @@ export const hintConfusions: HintConfusions = {
       "カット"
     ]
   },
+  "sense-lex-jmdict-1350220-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1350250-1": {
     "senseVersion": 1,
     "words": [
@@ -18195,46 +24117,55 @@ export const hintConfusions: HintConfusions = {
       "ニュース"
     ]
   },
+  "sense-lex-jmdict-1350270-1": {
+    "senseVersion": 1,
+    "words": [
+      "洗濯"
+    ]
+  },
+  "sense-lex-jmdict-1350370-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1350710-1": {
     "senseVersion": 1,
     "words": [
-      "焦げる",
-      "燃やす"
+      "燃やす",
+      "焼く"
     ]
   },
   "sense-lex-jmdict-1350810-1": {
     "senseVersion": 1,
     "words": [
-      "重点",
-      "中心"
+      "中心",
+      "集中"
     ]
   },
   "sense-lex-jmdict-1350840-1": {
     "senseVersion": 1,
     "words": [
-      "映す",
-      "照る"
+      "映す"
     ]
   },
   "sense-lex-jmdict-1350860-1": {
     "senseVersion": 1,
     "words": [
       "光る",
-      "照らす"
+      "輝く"
     ]
   },
   "sense-lex-jmdict-1350920-1": {
     "senseVersion": 1,
     "words": [
-      "対照",
-      "照明"
+      "検査",
+      "確認"
     ]
   },
   "sense-lex-jmdict-1351030-1": {
     "senseVersion": 1,
     "words": [
       "病名",
-      "状態"
+      "調子"
     ]
   },
   "sense-lex-jmdict-1351040-1": {
@@ -18261,8 +24192,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1351280-1": {
     "senseVersion": 1,
     "words": [
-      "涙",
-      "笑顔"
+      "涙"
     ]
   },
   "sense-lex-jmdict-1351560-1": {
@@ -18274,16 +24204,19 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1351640-1": {
     "senseVersion": 1,
-    "words": [
-      "証拠",
-      "証明"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1351760-1": {
     "senseVersion": 1,
     "words": [
       "概要",
       "具体的"
+    ]
+  },
+  "sense-lex-jmdict-1351830-1": {
+    "senseVersion": 1,
+    "words": [
+      "鼻"
     ]
   },
   "sense-lex-jmdict-1351900-1": {
@@ -18295,22 +24228,18 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1351910-1": {
     "senseVersion": 1,
-    "words": [
-      "賞金",
-      "賞品"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1351930-1": {
     "senseVersion": 1,
     "words": [
-      "賞品",
-      "礼"
+      "礼",
+      "お礼"
     ]
   },
   "sense-lex-jmdict-1351960-1": {
     "senseVersion": 1,
     "words": [
-      "品物",
       "グッズ"
     ]
   },
@@ -18331,23 +24260,42 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1352670-1": {
     "senseVersion": 1,
     "words": [
-      "上映",
       "主催"
+    ]
+  },
+  "sense-lex-jmdict-1352710-1": {
+    "senseVersion": 1,
+    "words": [
+      "左右"
     ]
   },
   "sense-lex-jmdict-1352770-1": {
     "senseVersion": 1,
     "words": [
-      "下回る",
-      "勝る"
+      "勝る",
+      "越える"
+    ]
+  },
+  "sense-lex-jmdict-1352930-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1352980-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰郷"
     ]
   },
   "sense-lex-jmdict-1353320-1": {
     "senseVersion": 1,
     "words": [
       "巧み",
-      "下手"
+      "巧妙"
     ]
+  },
+  "sense-lex-jmdict-1353410-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1353850-1": {
     "senseVersion": 1,
@@ -18370,11 +24318,17 @@ export const hintConfusions: HintConfusions = {
       "嘘"
     ]
   },
+  "sense-lex-jmdict-1355710-1": {
+    "senseVersion": 1,
+    "words": [
+      "宮殿"
+    ]
+  },
   "sense-lex-jmdict-1355790-1": {
     "senseVersion": 1,
     "words": [
-      "場所",
-      "席"
+      "席",
+      "スペース"
     ]
   },
   "sense-lex-jmdict-1355810-1": {
@@ -18387,8 +24341,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1355850-1": {
     "senseVersion": 1,
     "words": [
-      "所",
-      "会場"
+      "席",
+      "スペース"
     ]
   },
   "sense-lex-jmdict-1355910-1": {
@@ -18407,16 +24361,13 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1356000-1": {
     "senseVersion": 1,
-    "words": [
-      "専門知識",
-      "良識"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1356320-1": {
     "senseVersion": 1,
     "words": [
-      "感情",
-      "環境"
+      "環境",
+      "事態"
     ]
   },
   "sense-lex-jmdict-1356700-1": {
@@ -18433,18 +24384,28 @@ export const hintConfusions: HintConfusions = {
       "具合"
     ]
   },
+  "sense-lex-jmdict-1356750-1": {
+    "senseVersion": 1,
+    "words": [
+      "床"
+    ]
+  },
   "sense-lex-jmdict-1356870-1": {
     "senseVersion": 1,
     "words": [
-      "涼しい",
-      "暑い"
+      "涼しい"
     ]
   },
   "sense-lex-jmdict-1356930-1": {
     "senseVersion": 1,
     "words": [
-      "煙",
-      "気体"
+      "煙"
+    ]
+  },
+  "sense-lex-jmdict-1356960-1": {
+    "senseVersion": 1,
+    "words": [
+      "凍結"
     ]
   },
   "sense-lex-jmdict-1357050-1": {
@@ -18457,15 +24418,29 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1357480-1": {
     "senseVersion": 1,
     "words": [
-      "職業",
-      "仕事"
+      "仕事",
+      "役割"
     ]
   },
   "sense-lex-jmdict-1357510-1": {
     "senseVersion": 1,
     "words": [
       "仕事",
-      "職"
+      "事務"
+    ]
+  },
+  "sense-lex-jmdict-1357550-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1357580-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1357600-1": {
+    "senseVersion": 1,
+    "words": [
+      "形"
     ]
   },
   "sense-lex-jmdict-1358110-1": {
@@ -18478,22 +24453,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1358340-1": {
     "senseVersion": 1,
     "words": [
-      "食物",
-      "飲み物"
+      "料理"
     ]
   },
   "sense-lex-jmdict-1358410-1": {
     "senseVersion": 1,
     "words": [
-      "砂糖",
-      "塩"
+      "砂糖"
     ]
   },
   "sense-lex-jmdict-1358490-1": {
     "senseVersion": 1,
     "words": [
-      "ご飯",
-      "食料"
+      "ご飯"
     ]
   },
   "sense-lex-jmdict-1358550-1": {
@@ -18506,43 +24478,43 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1358600-1": {
     "senseVersion": 1,
     "words": [
-      "食事",
       "料理"
     ]
   },
   "sense-lex-jmdict-1358620-1": {
     "senseVersion": 1,
     "words": [
-      "食べ物",
-      "食事"
+      "料理"
+    ]
+  },
+  "sense-lex-jmdict-1358660-1": {
+    "senseVersion": 1,
+    "words": [
+      "空腹"
     ]
   },
   "sense-lex-jmdict-1358670-1": {
     "senseVersion": 1,
-    "words": [
-      "食糧",
-      "食事"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1358680-1": {
     "senseVersion": 1,
-    "words": [
-      "食べ物",
-      "食物"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1358690-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1358760-1": {
+    "senseVersion": 1,
     "words": [
-      "食料",
-      "食品"
+      "腰"
     ]
   },
   "sense-lex-jmdict-1359150-1": {
     "senseVersion": 1,
     "words": [
-      "宗教",
-      "確信"
+      "宗教"
     ]
   },
   "sense-lex-jmdict-1359240-1": {
@@ -18554,44 +24526,46 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1359500-1": {
     "senseVersion": 1,
-    "words": [
-      "信用",
-      "信頼"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1359620-1": {
     "senseVersion": 1,
     "words": [
-      "信頼",
-      "名"
+      "名",
+      "名誉"
     ]
   },
   "sense-lex-jmdict-1359730-1": {
     "senseVersion": 1,
     "words": [
-      "信用",
       "依存"
     ]
   },
   "sense-lex-jmdict-1359850-1": {
     "senseVersion": 1,
     "words": [
-      "入場",
-      "攻撃"
+      "攻撃",
+      "突破"
+    ]
+  },
+  "sense-lex-jmdict-1360320-1": {
+    "senseVersion": 1,
+    "words": [
+      "遅刻"
     ]
   },
   "sense-lex-jmdict-1360360-1": {
     "senseVersion": 1,
     "words": [
-      "審査",
-      "協議"
+      "考え",
+      "検討"
     ]
   },
   "sense-lex-jmdict-1360380-1": {
     "senseVersion": 1,
     "words": [
-      "審議",
-      "研究"
+      "研究",
+      "検討"
     ]
   },
   "sense-lex-jmdict-1360480-1": {
@@ -18605,7 +24579,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "しっかりする",
-      "心細い"
+      "頼もしい"
     ]
   },
   "sense-lex-jmdict-1360680-1": {
@@ -18618,14 +24592,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1360720-1": {
     "senseVersion": 1,
     "words": [
-      "表情",
       "気持ち"
+    ]
+  },
+  "sense-lex-jmdict-1360750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1360770-1": {
+    "senseVersion": 1,
+    "words": [
+      "胸"
     ]
   },
   "sense-lex-jmdict-1360890-1": {
     "senseVersion": 1,
     "words": [
-      "見当",
       "証拠"
     ]
   },
@@ -18646,15 +24628,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1360930-1": {
     "senseVersion": 1,
     "words": [
-      "関心",
-      "恐れ"
+      "恐れ",
+      "不安"
     ]
   },
   "sense-lex-jmdict-1361000-1": {
     "senseVersion": 1,
     "words": [
       "気分",
-      "心理学"
+      "気持ち"
     ]
   },
   "sense-lex-jmdict-1361110-1": {
@@ -18664,52 +24646,55 @@ export const hintConfusions: HintConfusions = {
       "細かい"
     ]
   },
+  "sense-lex-jmdict-1361150-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1361420-1": {
     "senseVersion": 1,
     "words": [
-      "振興",
-      "動揺"
+      "揺らぐ",
+      "揺さぶる"
     ]
   },
   "sense-lex-jmdict-1361490-1": {
     "senseVersion": 1,
     "words": [
-      "新た",
-      "古い"
+      "古い",
+      "珍しい"
     ]
   },
   "sense-lex-jmdict-1361510-1": {
     "senseVersion": 1,
     "words": [
-      "新しい",
-      "古い"
+      "古い",
+      "珍しい"
     ]
   },
   "sense-lex-jmdict-1362100-1": {
     "senseVersion": 1,
-    "words": [
-      "新しい",
-      "新た"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1362400-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1362530-1": {
     "senseVersion": 1,
     "words": [
-      "草原",
-      "森"
+      "草原"
     ]
   },
   "sense-lex-jmdict-1362660-1": {
     "senseVersion": 1,
     "words": [
       "更ける",
-      "深める"
+      "高まる"
     ]
   },
   "sense-lex-jmdict-1362680-1": {
     "senseVersion": 1,
     "words": [
-      "深まる",
       "高まる"
     ]
   },
@@ -18720,12 +24705,26 @@ export const hintConfusions: HintConfusions = {
       "強烈"
     ]
   },
+  "sense-lex-jmdict-1362810-1": {
+    "senseVersion": 1,
+    "words": [
+      "夕方"
+    ]
+  },
   "sense-lex-jmdict-1362930-1": {
     "senseVersion": 1,
     "words": [
-      "申し込む",
-      "頼む"
+      "頼む",
+      "願う"
     ]
+  },
+  "sense-lex-jmdict-1363190-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1363250-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1363260-1": {
     "senseVersion": 1,
@@ -18734,11 +24733,15 @@ export const hintConfusions: HintConfusions = {
       "最初"
     ]
   },
+  "sense-lex-jmdict-1363600-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1363650-1": {
     "senseVersion": 1,
     "words": [
-      "真面目",
-      "熱心"
+      "熱心",
+      "切実"
     ]
   },
   "sense-lex-jmdict-1363740-1": {
@@ -18758,8 +24761,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1364360-1": {
     "senseVersion": 1,
     "words": [
-      "真剣",
-      "おとなしい"
+      "おとなしい",
+      "地味"
+    ]
+  },
+  "sense-lex-jmdict-1364440-1": {
+    "senseVersion": 1,
+    "words": [
+      "仏"
     ]
   },
   "sense-lex-jmdict-1364520-1": {
@@ -18769,24 +24778,42 @@ export const hintConfusions: HintConfusions = {
       "感度"
     ]
   },
+  "sense-lex-jmdict-1364670-1": {
+    "senseVersion": 1,
+    "words": [
+      "寺"
+    ]
+  },
   "sense-lex-jmdict-1364830-1": {
     "senseVersion": 1,
     "words": [
-      "秘密",
-      "謎"
+      "謎",
+      "内緒"
     ]
+  },
+  "sense-lex-jmdict-1364940-1": {
+    "senseVersion": 1,
+    "words": [
+      "史実"
+    ]
+  },
+  "sense-lex-jmdict-1365040-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1365070-1": {
     "senseVersion": 1,
     "words": [
-      "親切にする",
       "楽しむ"
     ]
+  },
+  "sense-lex-jmdict-1365190-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1365230-1": {
     "senseVersion": 1,
     "words": [
-      "親類",
       "家族"
     ]
   },
@@ -18800,8 +24827,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1365260-1": {
     "senseVersion": 1,
     "words": [
-      "親切",
-      "友好"
+      "友好",
+      "好意"
     ]
   },
   "sense-lex-jmdict-1365410-1": {
@@ -18814,7 +24841,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1365420-1": {
     "senseVersion": 1,
     "words": [
-      "親戚",
       "知人"
     ]
   },
@@ -18828,35 +24854,29 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1365460-1": {
     "senseVersion": 1,
     "words": [
-      "治療",
-      "診断"
+      "治療"
     ]
   },
   "sense-lex-jmdict-1365480-1": {
     "senseVersion": 1,
     "words": [
-      "治療",
-      "診察"
+      "治療"
     ]
   },
   "sense-lex-jmdict-1365500-1": {
     "senseVersion": 1,
-    "words": [
-      "治療",
-      "医療"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1365520-1": {
     "senseVersion": 1,
     "words": [
-      "自身",
-      "体"
+      "体",
+      "自分"
     ]
   },
   "sense-lex-jmdict-1365650-1": {
     "senseVersion": 1,
     "words": [
-      "近所",
       "親しい"
     ]
   },
@@ -18878,7 +24898,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "苦しい",
-      "辛い(からい)"
+      "難しい"
     ]
   },
   "sense-lex-jmdict-1365870-1": {
@@ -18898,15 +24918,18 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1365990-1": {
     "senseVersion": 1,
     "words": [
-      "進む",
-      "進出"
+      "促す"
     ]
+  },
+  "sense-lex-jmdict-1366010-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1366080-1": {
     "senseVersion": 1,
     "words": [
-      "進展",
-      "拡大"
+      "拡大",
+      "展開"
     ]
   },
   "sense-lex-jmdict-1366150-1": {
@@ -18918,15 +24941,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1366160-1": {
     "senseVersion": 1,
     "words": [
-      "進歩",
-      "成長"
+      "成長",
+      "経過"
     ]
   },
   "sense-lex-jmdict-1366280-1": {
     "senseVersion": 1,
     "words": [
-      "進路",
-      "現在地"
+      "現在地",
+      "道"
     ]
   },
   "sense-lex-jmdict-1366310-1": {
@@ -18939,8 +24962,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1366730-1": {
     "senseVersion": 1,
     "words": [
-      "人柄",
-      "性格"
+      "個性",
+      "性質"
     ]
   },
   "sense-lex-jmdict-1367010-1": {
@@ -18948,6 +24971,20 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "有名",
       "評判"
+    ]
+  },
+  "sense-lex-jmdict-1367120-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1367300-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1367380-1": {
+    "senseVersion": 1,
+    "words": [
+      "自然"
     ]
   },
   "sense-lex-jmdict-1367680-1": {
@@ -18959,31 +24996,38 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1367760-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1368020-1": {
+    "senseVersion": 1,
     "words": [
-      "人手",
-      "人物"
+      "民族"
     ]
   },
   "sense-lex-jmdict-1368180-1": {
     "senseVersion": 1,
     "words": [
-      "感情",
-      "理解"
+      "理解",
+      "共感"
     ]
   },
   "sense-lex-jmdict-1368370-1": {
     "senseVersion": 1,
     "words": [
-      "生活",
       "暮らし"
     ]
   },
+  "sense-lex-jmdict-1368820-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1369070-1": {
     "senseVersion": 1,
-    "words": [
-      "人間",
-      "人材"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1369140-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1369200-1": {
     "senseVersion": 1,
@@ -18995,15 +25039,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1369400-1": {
     "senseVersion": 1,
     "words": [
-      "人名",
-      "生命"
+      "生存"
     ]
   },
   "sense-lex-jmdict-1369530-1": {
     "senseVersion": 1,
     "words": [
-      "国民",
-      "人間"
+      "国民"
     ]
   },
   "sense-lex-jmdict-1370010-1": {
@@ -19016,22 +25058,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1370070-1": {
     "senseVersion": 1,
     "words": [
-      "尽くす",
-      "終える"
+      "終える",
+      "終わる"
     ]
   },
   "sense-lex-jmdict-1370090-1": {
     "senseVersion": 1,
     "words": [
-      "尽きる",
-      "努める"
+      "努める",
+      "徹する"
     ]
   },
   "sense-lex-jmdict-1370160-1": {
     "senseVersion": 1,
     "words": [
-      "拙速",
-      "急"
+      "急",
+      "急激"
     ]
   },
   "sense-lex-jmdict-1370320-1": {
@@ -19041,25 +25083,36 @@ export const hintConfusions: HintConfusions = {
       "絵画"
     ]
   },
+  "sense-lex-jmdict-1370370-1": {
+    "senseVersion": 1,
+    "words": [
+      "辞書"
+    ]
+  },
   "sense-lex-jmdict-1370380-1": {
     "senseVersion": 1,
     "words": [
       "数字",
-      "形"
+      "姿"
     ]
   },
   "sense-lex-jmdict-1370410-1": {
     "senseVersion": 1,
     "words": [
-      "図",
       "文献"
+    ]
+  },
+  "sense-lex-jmdict-1370420-1": {
+    "senseVersion": 1,
+    "words": [
+      "本屋"
     ]
   },
   "sense-lex-jmdict-1370490-1": {
     "senseVersion": 1,
     "words": [
-      "図",
-      "表（ひょう）"
+      "文章",
+      "イラスト"
     ]
   },
   "sense-lex-jmdict-1370980-1": {
@@ -19086,8 +25139,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1371210-1": {
     "senseVersion": 1,
     "words": [
-      "確定",
-      "前提"
+      "前提",
+      "予測"
     ]
   },
   "sense-lex-jmdict-1371260-1": {
@@ -19099,16 +25152,12 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1371320-1": {
     "senseVersion": 1,
-    "words": [
-      "泳ぎ",
-      "泳ぐ"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1371460-1": {
     "senseVersion": 1,
     "words": [
-      "河口",
-      "源"
+      "河口"
     ]
   },
   "sense-lex-jmdict-1371610-1": {
@@ -19118,12 +25167,28 @@ export const hintConfusions: HintConfusions = {
       "レベル"
     ]
   },
+  "sense-lex-jmdict-1371880-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1371910-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1371920-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1372010-1": {
     "senseVersion": 1,
     "words": [
-      "油分",
-      "水"
+      "液体",
+      "湿度"
     ]
+  },
+  "sense-lex-jmdict-1372190-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1372350-1": {
     "senseVersion": 1,
@@ -19164,21 +25229,25 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "結構",
-      "大分"
+      "かなり"
     ]
+  },
+  "sense-lex-jmdict-1372980-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1373480-1": {
     "senseVersion": 1,
     "words": [
       "仕掛ける",
-      "据え付ける"
+      "動かす"
     ]
   },
   "sense-lex-jmdict-1373500-1": {
     "senseVersion": 1,
     "words": [
-      "据える",
-      "仕掛ける"
+      "仕掛ける",
+      "取り外す"
     ]
   },
   "sense-lex-jmdict-1373680-1": {
@@ -19191,22 +25260,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1373850-1": {
     "senseVersion": 1,
     "words": [
-      "世界",
-      "社会"
+      "社会",
+      "時代"
     ]
   },
   "sense-lex-jmdict-1373860-1": {
     "senseVersion": 1,
     "words": [
-      "世の中",
-      "地球"
+      "地球",
+      "社会"
     ]
   },
   "sense-lex-jmdict-1373970-1": {
     "senseVersion": 1,
     "words": [
-      "世の中",
-      "社会"
+      "社会",
+      "国民"
     ]
   },
   "sense-lex-jmdict-1373990-1": {
@@ -19227,7 +25296,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "改善",
-      "改正"
+      "変更"
     ]
   },
   "sense-lex-jmdict-1374530-1": {
@@ -19247,15 +25316,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1374800-1": {
     "senseVersion": 1,
     "words": [
-      "規制",
       "刑罰"
     ]
   },
   "sense-lex-jmdict-1374810-1": {
     "senseVersion": 1,
     "words": [
-      "製作",
-      "作品"
+      "演出",
+      "細工"
     ]
   },
   "sense-lex-jmdict-1374870-1": {
@@ -19275,8 +25343,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1374970-1": {
     "senseVersion": 1,
     "words": [
-      "制裁",
-      "規制"
+      "条件",
+      "前提"
     ]
   },
   "sense-lex-jmdict-1375040-1": {
@@ -19288,37 +25356,36 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1375260-1": {
     "senseVersion": 1,
-    "words": [
-      "性別",
-      "性格"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1375390-1": {
     "senseVersion": 1,
     "words": [
-      "性格",
-      "質"
+      "人柄",
+      "人格"
     ]
   },
   "sense-lex-jmdict-1375470-1": {
     "senseVersion": 1,
     "words": [
-      "機能",
-      "実力"
+      "実力",
+      "効率"
     ]
   },
   "sense-lex-jmdict-1375520-1": {
     "senseVersion": 1,
     "words": [
-      "性",
       "年齢"
     ]
+  },
+  "sense-lex-jmdict-1375730-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1375740-1": {
     "senseVersion": 1,
     "words": [
-      "大人",
-      "老人"
+      "育ち"
     ]
   },
   "sense-lex-jmdict-1375790-1": {
@@ -19338,43 +25405,32 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1375880-1": {
     "senseVersion": 1,
     "words": [
-      "設立",
-      "実現"
+      "実現",
+      "制定"
     ]
   },
   "sense-lex-jmdict-1375930-1": {
     "senseVersion": 1,
-    "words": [
-      "政策",
-      "政府"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1375950-1": {
     "senseVersion": 1,
     "words": [
-      "政権",
       "方針"
     ]
   },
   "sense-lex-jmdict-1375970-1": {
     "senseVersion": 1,
-    "words": [
-      "政府",
-      "行政"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1376060-1": {
     "senseVersion": 1,
-    "words": [
-      "党",
-      "政府"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1376070-1": {
     "senseVersion": 1,
     "words": [
-      "国会",
-      "行政"
+      "国会"
     ]
   },
   "sense-lex-jmdict-1376240-1": {
@@ -19384,32 +25440,35 @@ export const hintConfusions: HintConfusions = {
       "改善"
     ]
   },
+  "sense-lex-jmdict-1376310-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1376460-1": {
     "senseVersion": 1,
     "words": [
-      "曇り",
-      "快晴"
+      "曇り"
     ]
   },
   "sense-lex-jmdict-1376600-1": {
     "senseVersion": 1,
     "words": [
-      "正確",
-      "正当"
+      "当たる",
+      "確か"
     ]
   },
   "sense-lex-jmdict-1376760-1": {
     "senseVersion": 1,
     "words": [
-      "正しい",
-      "確か"
+      "本当",
+      "精密"
     ]
   },
   "sense-lex-jmdict-1376910-1": {
     "senseVersion": 1,
     "words": [
-      "正当",
-      "当然"
+      "当然",
+      "適切"
     ]
   },
   "sense-lex-jmdict-1377080-1": {
@@ -19422,22 +25481,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1377290-1": {
     "senseVersion": 1,
     "words": [
-      "公式",
-      "適切"
+      "適切",
+      "適当"
     ]
   },
   "sense-lex-jmdict-1377590-1": {
     "senseVersion": 1,
     "words": [
-      "素直",
-      "単純"
+      "単純",
+      "誠実"
     ]
   },
   "sense-lex-jmdict-1377660-1": {
     "senseVersion": 1,
     "words": [
       "適切",
-      "正式"
+      "善"
     ]
   },
   "sense-lex-jmdict-1378140-1": {
@@ -19457,22 +25516,24 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1378210-1": {
     "senseVersion": 1,
     "words": [
-      "精算",
-      "解散"
+      "解散",
+      "整理"
     ]
+  },
+  "sense-lex-jmdict-1378240-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1378320-1": {
     "senseVersion": 1,
     "words": [
-      "掃除",
-      "汚染"
+      "汚染",
+      "クリーニング"
     ]
   },
   "sense-lex-jmdict-1378590-1": {
     "senseVersion": 1,
-    "words": [
-      "生物"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1378650-1": {
     "senseVersion": 1,
@@ -19505,28 +25566,26 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1378920-1": {
     "senseVersion": 1,
     "words": [
-      "生活",
-      "暮らし"
+      "暮らし",
+      "居住"
     ]
   },
   "sense-lex-jmdict-1378990-1": {
     "senseVersion": 1,
     "words": [
-      "産出",
-      "消費"
+      "消費",
+      "製造"
     ]
   },
   "sense-lex-jmdict-1379110-1": {
     "senseVersion": 1,
-    "words": [
-      "臭い"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1379230-1": {
     "senseVersion": 1,
     "words": [
       "死亡",
-      "存在"
+      "命"
     ]
   },
   "sense-lex-jmdict-1379330-1": {
@@ -19539,28 +25598,37 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1379370-1": {
     "senseVersion": 1,
     "words": [
-      "成長",
-      "増加"
+      "増加",
+      "発展"
     ]
+  },
+  "sense-lex-jmdict-1379380-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1379410-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1379430-1": {
     "senseVersion": 1,
-    "words": [
-      "生き物"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1379530-1": {
     "senseVersion": 1,
     "words": [
-      "命",
-      "寿命"
+      "存在"
     ]
+  },
+  "sense-lex-jmdict-1379640-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1379690-1": {
     "senseVersion": 1,
     "words": [
-      "盛り上げる",
-      "増加"
+      "増加",
+      "高まる"
     ]
   },
   "sense-lex-jmdict-1379740-1": {
@@ -19580,7 +25648,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1379900-1": {
     "senseVersion": 1,
     "words": [
-      "精密",
       "緻密"
     ]
   },
@@ -19601,15 +25668,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1380540-1": {
     "senseVersion": 1,
     "words": [
-      "説明",
-      "言葉"
+      "言葉",
+      "発表"
     ]
   },
   "sense-lex-jmdict-1380650-1": {
     "senseVersion": 1,
     "words": [
-      "制作",
-      "生産"
+      "生産",
+      "産出"
     ]
   },
   "sense-lex-jmdict-1380690-1": {
@@ -19622,9 +25689,17 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1380760-1": {
     "senseVersion": 1,
     "words": [
-      "商品",
-      "結果"
+      "結果",
+      "産物"
     ]
+  },
+  "sense-lex-jmdict-1381100-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1381140-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1381180-1": {
     "senseVersion": 1,
@@ -19633,37 +25708,38 @@ export const hintConfusions: HintConfusions = {
       "正直"
     ]
   },
+  "sense-lex-jmdict-1381210-1": {
+    "senseVersion": 1,
+    "words": [
+      "破る"
+    ]
+  },
   "sense-lex-jmdict-1381320-1": {
     "senseVersion": 1,
     "words": [
       "支払",
-      "要求"
+      "料金"
     ]
   },
   "sense-lex-jmdict-1381380-1": {
     "senseVersion": 1,
-    "words": [
-      "青い"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1381390-1": {
     "senseVersion": 1,
-    "words": [
-      "青"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1381570-1": {
     "senseVersion": 1,
     "words": [
-      "高齢者",
-      "青年"
+      "高齢者"
     ]
   },
   "sense-lex-jmdict-1381750-1": {
     "senseVersion": 1,
     "words": [
-      "少年",
-      "青少年"
+      "男の子",
+      "お兄さん"
     ]
   },
   "sense-lex-jmdict-1381760-1": {
@@ -19683,8 +25759,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1382090-1": {
     "senseVersion": 1,
     "words": [
-      "入国審査",
-      "関税"
+      "入国審査"
     ]
   },
   "sense-lex-jmdict-1382220-1": {
@@ -19698,7 +25773,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "場所",
-      "座席"
+      "スペース"
     ]
   },
   "sense-lex-jmdict-1382440-1": {
@@ -19706,6 +25781,10 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "岩"
     ]
+  },
+  "sense-lex-jmdict-1382700-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1382970-1": {
     "senseVersion": 1,
@@ -19717,8 +25796,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1383030-1": {
     "senseVersion": 1,
     "words": [
-      "消極的",
-      "活発"
+      "活発",
+      "盛ん"
     ]
   },
   "sense-lex-jmdict-1383180-1": {
@@ -19732,13 +25811,16 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "権利",
-      "責任"
+      "使命"
     ]
+  },
+  "sense-lex-jmdict-1383240-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1383310-1": {
     "senseVersion": 1,
     "words": [
-      "赤ちゃん",
       "子ども"
     ]
   },
@@ -19746,14 +25828,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "後",
-      "遺跡"
+      "影"
     ]
   },
   "sense-lex-jmdict-1384840-1": {
     "senseVersion": 1,
     "words": [
       "破片",
-      "切る"
+      "端"
     ]
   },
   "sense-lex-jmdict-1385050-1": {
@@ -19794,8 +25876,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1386020-1": {
     "senseVersion": 1,
     "words": [
-      "建設",
-      "計画"
+      "方針",
+      "企画"
     ]
   },
   "sense-lex-jmdict-1386070-1": {
@@ -19808,14 +25890,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1386160-1": {
     "senseVersion": 1,
     "words": [
-      "関節",
-      "部分"
+      "部分",
+      "点"
     ]
   },
   "sense-lex-jmdict-1386350-1": {
     "senseVersion": 1,
     "words": [
-      "倹約",
       "貯金"
     ]
   },
@@ -19823,7 +25904,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "見解",
-      "学説"
+      "証拠"
+    ]
+  },
+  "sense-lex-jmdict-1386500-1": {
+    "senseVersion": 1,
+    "words": [
+      "雨"
     ]
   },
   "sense-lex-jmdict-1386700-1": {
@@ -19833,33 +25920,111 @@ export const hintConfusions: HintConfusions = {
       "必ず"
     ]
   },
+  "sense-lex-jmdict-1386990-1": {
+    "senseVersion": 1,
+    "words": [
+      "減少"
+    ]
+  },
+  "sense-lex-jmdict-1387010-1": {
+    "senseVersion": 1,
+    "words": [
+      "唇"
+    ]
+  },
   "sense-lex-jmdict-1387210-1": {
     "senseVersion": 1,
     "words": [
-      "先ず",
-      "後"
+      "後",
+      "最初"
     ]
   },
   "sense-lex-jmdict-1387240-1": {
     "senseVersion": 1,
     "words": [
       "一応",
-      "先"
+      "後で"
     ]
+  },
+  "sense-lex-jmdict-1387500-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1387870-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1387990-1": {
     "senseVersion": 1,
     "words": [
       "教師",
-      "生徒"
+      "講師"
     ]
   },
   "sense-lex-jmdict-1388110-1": {
     "senseVersion": 1,
     "words": [
       "根元",
-      "先頭"
+      "末"
     ]
+  },
+  "sense-lex-jmdict-1388300-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1388410-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1388740-1": {
+    "senseVersion": 1,
+    "words": [
+      "百"
+    ]
+  },
+  "sense-lex-jmdict-1389780-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1389810-1": {
+    "senseVersion": 1,
+    "words": [
+      "民主主義"
+    ]
+  },
+  "sense-lex-jmdict-1389970-1": {
+    "senseVersion": 1,
+    "words": [
+      "丸まる"
+    ]
+  },
+  "sense-lex-jmdict-1390360-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1390730-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1390760-1": {
+    "senseVersion": 1,
+    "words": [
+      "エアコン"
+    ]
+  },
+  "sense-lex-jmdict-1390780-1": {
+    "senseVersion": 1,
+    "words": [
+      "井戸"
+    ]
+  },
+  "sense-lex-jmdict-1390950-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1391360-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1391780-1": {
     "senseVersion": 1,
@@ -19871,36 +26036,46 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1391880-1": {
     "senseVersion": 1,
     "words": [
-      "道路",
-      "鉄道"
+      "鉄道",
+      "軌道"
+    ]
+  },
+  "sense-lex-jmdict-1391940-1": {
+    "senseVersion": 1,
+    "words": [
+      "満足"
     ]
   },
   "sense-lex-jmdict-1392240-1": {
     "senseVersion": 1,
     "words": [
-      "選挙",
-      "選択"
+      "採択",
+      "オプション"
     ]
   },
   "sense-lex-jmdict-1392290-1": {
     "senseVersion": 1,
     "words": [
       "決定",
-      "選考"
+      "オプション"
     ]
   },
   "sense-lex-jmdict-1392580-1": {
     "senseVersion": 1,
     "words": [
-      "以前",
-      "後"
+      "後",
+      "既に"
     ]
+  },
+  "sense-lex-jmdict-1393090-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1393350-1": {
     "senseVersion": 1,
     "words": [
       "後退",
-      "進出"
+      "経過"
     ]
   },
   "sense-lex-jmdict-1393680-1": {
@@ -19914,15 +26089,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "将来",
-      "途中"
+      "見通し"
     ]
   },
   "sense-lex-jmdict-1394190-1": {
     "senseVersion": 1,
-    "words": [
-      "例外",
-      "例"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1394250-1": {
     "senseVersion": 1,
@@ -19933,10 +26105,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1394560-1": {
     "senseVersion": 1,
-    "words": [
-      "良好",
-      "善"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1394800-1": {
     "senseVersion": 1,
@@ -19948,9 +26117,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1394840-1": {
     "senseVersion": 1,
     "words": [
-      "全部",
-      "皆"
+      "皆",
+      "皆さん"
     ]
+  },
+  "sense-lex-jmdict-1395410-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1395620-1": {
     "senseVersion": 1,
@@ -19962,22 +26135,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1395660-1": {
     "senseVersion": 1,
     "words": [
-      "全般",
-      "部分"
+      "部分",
+      "丸ごと"
     ]
   },
   "sense-lex-jmdict-1396020-1": {
     "senseVersion": 1,
     "words": [
-      "全体",
-      "一部"
+      "一部",
+      "丸ごと"
     ]
   },
   "sense-lex-jmdict-1396130-1": {
     "senseVersion": 1,
     "words": [
-      "全員",
-      "皆"
+      "皆",
+      "皆さん"
     ]
   },
   "sense-lex-jmdict-1396480-1": {
@@ -19990,8 +26163,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1396530-1": {
     "senseVersion": 1,
     "words": [
-      "処置",
-      "対策"
+      "対策",
+      "手段"
     ]
   },
   "sense-lex-jmdict-1396590-1": {
@@ -20004,9 +26177,16 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1396820-1": {
     "senseVersion": 1,
     "words": [
-      "子孫",
-      "先祖"
+      "子孫"
     ]
+  },
+  "sense-lex-jmdict-1396840-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1396860-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1396910-1": {
     "senseVersion": 1,
@@ -20046,15 +26226,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1397340-1": {
     "senseVersion": 1,
     "words": [
-      "正直",
-      "頑固"
+      "頑固",
+      "誠実"
     ]
   },
   "sense-lex-jmdict-1397390-1": {
     "senseVersion": 1,
     "words": [
-      "簡素",
-      "単純"
+      "単純",
+      "地味"
     ]
   },
   "sense-lex-jmdict-1397450-1": {
@@ -20067,8 +26247,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1397620-1": {
     "senseVersion": 1,
     "words": [
-      "組",
-      "協会"
+      "協会",
+      "団体"
     ]
   },
   "sense-lex-jmdict-1397630-1": {
@@ -20081,8 +26261,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1397710-1": {
     "senseVersion": 1,
     "words": [
-      "訴訟",
-      "不満"
+      "不満",
+      "苦情"
+    ]
+  },
+  "sense-lex-jmdict-1397740-1": {
+    "senseVersion": 1,
+    "words": [
+      "交渉"
     ]
   },
   "sense-lex-jmdict-1397800-1": {
@@ -20095,15 +26281,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1397820-1": {
     "senseVersion": 1,
     "words": [
-      "停止",
-      "障害"
+      "障害",
+      "予防"
     ]
   },
   "sense-lex-jmdict-1398420-1": {
     "senseVersion": 1,
     "words": [
       "模倣",
-      "作品"
+      "演出"
+    ]
+  },
+  "sense-lex-jmdict-1398750-1": {
+    "senseVersion": 1,
+    "words": [
+      "兄弟"
     ]
   },
   "sense-lex-jmdict-1399120-1": {
@@ -20111,6 +26303,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "物置",
       "店舗"
+    ]
+  },
+  "sense-lex-jmdict-1399760-1": {
+    "senseVersion": 1,
+    "words": [
+      "拭く"
     ]
   },
   "sense-lex-jmdict-1399830-1": {
@@ -20131,7 +26329,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "取り上げる",
-      "操縦する"
+      "使う"
     ]
   },
   "sense-lex-jmdict-1400050-1": {
@@ -20141,6 +26339,12 @@ export const hintConfusions: HintConfusions = {
       "運転"
     ]
   },
+  "sense-lex-jmdict-1400240-1": {
+    "senseVersion": 1,
+    "words": [
+      "大声"
+    ]
+  },
   "sense-lex-jmdict-1400300-1": {
     "senseVersion": 1,
     "words": [
@@ -20148,33 +26352,63 @@ export const hintConfusions: HintConfusions = {
       "即座に"
     ]
   },
+  "sense-lex-jmdict-1400390-1": {
+    "senseVersion": 1,
+    "words": [
+      "小屋"
+    ]
+  },
   "sense-lex-jmdict-1400820-1": {
     "senseVersion": 1,
     "words": [
-      "違い",
-      "差"
+      "差",
+      "差異"
     ]
+  },
+  "sense-lex-jmdict-1401070-1": {
+    "senseVersion": 1,
+    "words": [
+      "定価"
+    ]
+  },
+  "sense-lex-jmdict-1401090-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1401240-1": {
     "senseVersion": 1,
     "words": [
-      "適当",
-      "有力"
+      "有力",
+      "実質"
+    ]
+  },
+  "sense-lex-jmdict-1401360-1": {
+    "senseVersion": 1,
+    "words": [
+      "柔道"
     ]
   },
   "sense-lex-jmdict-1401420-1": {
     "senseVersion": 1,
     "words": [
-      "窓",
       "売り場"
     ]
   },
   "sense-lex-jmdict-1401820-1": {
     "senseVersion": 1,
     "words": [
-      "大統領",
       "首相"
     ]
+  },
+  "sense-lex-jmdict-1401910-1": {
+    "senseVersion": 1,
+    "words": [
+      "木"
+    ]
+  },
+  "sense-lex-jmdict-1402160-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1402360-1": {
     "senseVersion": 1,
@@ -20183,39 +26417,51 @@ export const hintConfusions: HintConfusions = {
       "設備"
     ]
   },
+  "sense-lex-jmdict-1402750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1402850-1": {
     "senseVersion": 1,
     "words": [
-      "歓迎",
-      "見送り"
+      "歓迎"
+    ]
+  },
+  "sense-lex-jmdict-1402870-1": {
+    "senseVersion": 1,
+    "words": [
+      "代金"
+    ]
+  },
+  "sense-lex-jmdict-1402930-1": {
+    "senseVersion": 1,
+    "words": [
+      "雪"
     ]
   },
   "sense-lex-jmdict-1403000-1": {
     "senseVersion": 1,
     "words": [
-      "騒々しい",
-      "うるさい"
+      "うるさい",
+      "静か"
     ]
   },
   "sense-lex-jmdict-1403020-1": {
     "senseVersion": 1,
     "words": [
-      "騒音",
-      "動揺"
+      "動揺",
+      "邪魔"
     ]
   },
   "sense-lex-jmdict-1403060-1": {
     "senseVersion": 1,
-    "words": [
-      "音楽",
-      "音"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1403120-1": {
     "senseVersion": 1,
     "words": [
-      "増やす",
-      "増える"
+      "高まる",
+      "育つ"
     ]
   },
   "sense-lex-jmdict-1403160-1": {
@@ -20228,14 +26474,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1403190-1": {
     "senseVersion": 1,
     "words": [
-      "増加",
-      "強化"
+      "応援",
+      "高まる"
     ]
   },
   "sense-lex-jmdict-1403200-1": {
     "senseVersion": 1,
     "words": [
-      "増加",
       "変動"
     ]
   },
@@ -20243,7 +26488,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "減少",
-      "拡大"
+      "高まる"
+    ]
+  },
+  "sense-lex-jmdict-1403450-1": {
+    "senseVersion": 1,
+    "words": [
+      "羨ましい"
     ]
   },
   "sense-lex-jmdict-1403550-1": {
@@ -20274,6 +26525,10 @@ export const hintConfusions: HintConfusions = {
       "早速"
     ]
   },
+  "sense-lex-jmdict-1404390-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1404450-1": {
     "senseVersion": 1,
     "words": [
@@ -20290,16 +26545,16 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1404570-1": {
     "senseVersion": 1,
-    "words": [
-      "推測",
-      "観測"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1404590-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1404630-1": {
+    "senseVersion": 1,
     "words": [
-      "測定",
-      "観測"
+      "手"
     ]
   },
   "sense-lex-jmdict-1404750-1": {
@@ -20326,57 +26581,76 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1405080-1": {
     "senseVersion": 1,
     "words": [
-      "距離",
-      "時速"
+      "距離"
+    ]
+  },
+  "sense-lex-jmdict-1405710-1": {
+    "senseVersion": 1,
+    "words": [
+      "独立する"
+    ]
+  },
+  "sense-lex-jmdict-1406000-1": {
+    "senseVersion": 1,
+    "words": [
+      "襟"
     ]
   },
   "sense-lex-jmdict-1406140-1": {
     "senseVersion": 1,
     "words": [
-      "ご存じ",
-      "知る"
+      "知る",
+      "心得る"
     ]
   },
   "sense-lex-jmdict-1406190-1": {
     "senseVersion": 1,
     "words": [
-      "継続",
-      "生存"
+      "根気"
     ]
   },
   "sense-lex-jmdict-1406400-1": {
     "senseVersion": 1,
     "words": [
-      "尊重",
-      "敬意"
+      "重んじる"
     ]
   },
   "sense-lex-jmdict-1406460-1": {
     "senseVersion": 1,
     "words": [
-      "尊敬",
       "敬意"
     ]
   },
   "sense-lex-jmdict-1406660-1": {
     "senseVersion": 1,
     "words": [
-      "損害",
-      "得"
+      "得",
+      "被害"
     ]
   },
   "sense-lex-jmdict-1406710-1": {
     "senseVersion": 1,
     "words": [
-      "損",
-      "被害"
+      "マイナス"
     ]
   },
   "sense-lex-jmdict-1406750-1": {
     "senseVersion": 1,
     "words": [
       "利益",
-      "損害"
+      "マイナス"
+    ]
+  },
+  "sense-lex-jmdict-1406770-1": {
+    "senseVersion": 1,
+    "words": [
+      "勝敗"
+    ]
+  },
+  "sense-lex-jmdict-1406820-1": {
+    "senseVersion": 1,
+    "words": [
+      "町"
     ]
   },
   "sense-lex-jmdict-1407460-1": {
@@ -20396,8 +26670,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1408100-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "様々"
+      "同一"
     ]
   },
   "sense-lex-jmdict-1408180-1": {
@@ -20405,6 +26678,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "細い",
       "厚い"
+    ]
+  },
+  "sense-lex-jmdict-1408280-1": {
+    "senseVersion": 1,
+    "words": [
+      "笛"
+    ]
+  },
+  "sense-lex-jmdict-1408370-1": {
+    "senseVersion": 1,
+    "words": [
+      "月"
     ]
   },
   "sense-lex-jmdict-1408510-1": {
@@ -20417,22 +26702,28 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1408530-1": {
     "senseVersion": 1,
     "words": [
-      "妥協",
-      "解決"
+      "解決",
+      "整理"
     ]
   },
   "sense-lex-jmdict-1408540-1": {
     "senseVersion": 1,
     "words": [
       "尤も",
-      "不当"
+      "正式"
     ]
   },
   "sense-lex-jmdict-1408815-1": {
     "senseVersion": 1,
     "words": [
       "叩く",
-      "打つ（うつ）"
+      "襲う"
+    ]
+  },
+  "sense-lex-jmdict-1408850-1": {
+    "senseVersion": 1,
+    "words": [
+      "解決"
     ]
   },
   "sense-lex-jmdict-1409110-1": {
@@ -20452,43 +26743,44 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1409200-1": {
     "senseVersion": 1,
     "words": [
-      "運動",
-      "体操"
+      "運動"
     ]
+  },
+  "sense-lex-jmdict-1409250-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1409390-1": {
     "senseVersion": 1,
     "words": [
-      "体制",
-      "系統"
+      "システム",
+      "機構"
     ]
   },
   "sense-lex-jmdict-1409550-1": {
     "senseVersion": 1,
     "words": [
-      "体系",
-      "系統"
+      "系統",
+      "システム"
     ]
   },
   "sense-lex-jmdict-1409560-1": {
     "senseVersion": 1,
     "words": [
-      "面積",
-      "容積"
+      "量"
     ]
   },
   "sense-lex-jmdict-1409580-1": {
     "senseVersion": 1,
     "words": [
-      "散歩",
-      "体育"
+      "散歩"
     ]
   },
   "sense-lex-jmdict-1409840-1": {
     "senseVersion": 1,
     "words": [
-      "反応",
-      "歓迎"
+      "歓迎",
+      "反響"
     ]
   },
   "sense-lex-jmdict-1410050-1": {
@@ -20502,14 +26794,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "予防",
-      "対応"
+      "応接"
     ]
   },
   "sense-lex-jmdict-1410080-1": {
     "senseVersion": 1,
     "words": [
-      "照合",
-      "一致"
+      "一致",
+      "比較"
     ]
   },
   "sense-lex-jmdict-1410120-1": {
@@ -20521,30 +26813,27 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1410250-1": {
     "senseVersion": 1,
-    "words": [
-      "平等",
-      "同等"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1410260-1": {
     "senseVersion": 1,
     "words": [
-      "比較",
-      "コントラスト"
+      "コントラスト",
+      "参照"
     ]
   },
   "sense-lex-jmdict-1410290-1": {
     "senseVersion": 1,
     "words": [
       "抗争",
-      "対話"
+      "反発"
     ]
   },
   "sense-lex-jmdict-1410300-1": {
     "senseVersion": 1,
     "words": [
-      "会話",
-      "独白"
+      "独白",
+      "協議"
     ]
   },
   "sense-lex-jmdict-1410410-1": {
@@ -20552,6 +26841,10 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "ベルト"
     ]
+  },
+  "sense-lex-jmdict-1410630-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1410710-1": {
     "senseVersion": 1,
@@ -20570,29 +26863,32 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1411110-1": {
     "senseVersion": 1,
     "words": [
-      "貸出",
-      "借り"
+      "借り",
+      "融資"
     ]
+  },
+  "sense-lex-jmdict-1411300-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1411470-1": {
     "senseVersion": 1,
     "words": [
       "有罪",
-      "捕る"
+      "とらえる"
     ]
   },
   "sense-lex-jmdict-1412170-1": {
     "senseVersion": 1,
     "words": [
-      "代理",
-      "首脳"
+      "首脳",
+      "典型"
     ]
   },
   "sense-lex-jmdict-1412400-1": {
     "senseVersion": 1,
     "words": [
-      "本人",
-      "代表"
+      "本人"
     ]
   },
   "sense-lex-jmdict-1412560-1": {
@@ -20612,28 +26908,68 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1412890-1": {
     "senseVersion": 1,
     "words": [
-      "小さな",
-      "膨大"
+      "小さな"
     ]
   },
   "sense-lex-jmdict-1412960-1": {
     "senseVersion": 1,
     "words": [
-      "大きい",
-      "重要"
+      "重要",
+      "相当"
     ]
+  },
+  "sense-lex-jmdict-1412970-1": {
+    "senseVersion": 1,
+    "words": [
+      "非常に"
+    ]
+  },
+  "sense-lex-jmdict-1413140-1": {
+    "senseVersion": 1,
+    "words": [
+      "住民"
+    ]
+  },
+  "sense-lex-jmdict-1413240-1": {
+    "senseVersion": 1,
+    "words": [
+      "高校"
+    ]
+  },
+  "sense-lex-jmdict-1413250-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1413260-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1413330-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1413660-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1413690-1": {
+    "senseVersion": 1,
     "words": [
-      "天気",
-      "空気"
+      "建築家"
     ]
+  },
+  "sense-lex-jmdict-1413880-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1413890-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1413940-1": {
     "senseVersion": 1,
     "words": [
-      "大切"
+      "貴重"
     ]
   },
   "sense-lex-jmdict-1414150-1": {
@@ -20643,10 +26979,15 @@ export const hintConfusions: HintConfusions = {
       "宜しい"
     ]
   },
+  "sense-lex-jmdict-1414160-1": {
+    "senseVersion": 1,
+    "words": [
+      "首相"
+    ]
+  },
   "sense-lex-jmdict-1414170-1": {
     "senseVersion": 1,
     "words": [
-      "成人",
       "子供"
     ]
   },
@@ -20660,8 +27001,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1414340-1": {
     "senseVersion": 1,
     "words": [
-      "大事"
+      "重要"
     ]
+  },
+  "sense-lex-jmdict-1414360-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1414470-1": {
     "senseVersion": 1,
@@ -20673,8 +27018,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1414570-1": {
     "senseVersion": 1,
     "words": [
-      "路地",
-      "通路"
+      "路地"
     ]
   },
   "sense-lex-jmdict-1414580-1": {
@@ -20684,39 +27028,61 @@ export const hintConfusions: HintConfusions = {
       "通常"
     ]
   },
+  "sense-lex-jmdict-1414650-1": {
+    "senseVersion": 1,
+    "words": [
+      "首相"
+    ]
+  },
   "sense-lex-jmdict-1414790-1": {
     "senseVersion": 1,
     "words": [
-      "大部分",
-      "半分"
+      "主に"
     ]
   },
   "sense-lex-jmdict-1414850-1": {
     "senseVersion": 1,
     "words": [
-      "大半",
-      "全部"
+      "過半数"
     ]
   },
   "sense-lex-jmdict-1414920-1": {
     "senseVersion": 1,
     "words": [
       "結構",
-      "随分"
+      "少し"
+    ]
+  },
+  "sense-lex-jmdict-1415150-1": {
+    "senseVersion": 1,
+    "words": [
+      "島"
     ]
   },
   "sense-lex-jmdict-1415470-1": {
     "senseVersion": 1,
     "words": [
       "見出し",
-      "主題"
+      "テーマ"
     ]
   },
   "sense-lex-jmdict-1415490-1": {
     "senseVersion": 1,
     "words": [
       "見出し",
-      "題"
+      "著者"
+    ]
+  },
+  "sense-lex-jmdict-1415520-1": {
+    "senseVersion": 1,
+    "words": [
+      "池"
+    ]
+  },
+  "sense-lex-jmdict-1415960-1": {
+    "senseVersion": 1,
+    "words": [
+      "澄む"
     ]
   },
   "sense-lex-jmdict-1416190-1": {
@@ -20736,8 +27102,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1416560-1": {
     "senseVersion": 1,
     "words": [
-      "中断",
-      "逸脱"
+      "中断"
     ]
   },
   "sense-lex-jmdict-1416700-1": {
@@ -20750,8 +27115,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1417020-1": {
     "senseVersion": 1,
     "words": [
-      "単に",
-      "簡単"
+      "容易",
+      "安易"
     ]
   },
   "sense-lex-jmdict-1417030-1": {
@@ -20761,6 +27126,12 @@ export const hintConfusions: HintConfusions = {
       "あっさり"
     ]
   },
+  "sense-lex-jmdict-1417040-1": {
+    "senseVersion": 1,
+    "words": [
+      "数値"
+    ]
+  },
   "sense-lex-jmdict-1418140-1": {
     "senseVersion": 1,
     "words": [
@@ -20768,18 +27139,38 @@ export const hintConfusions: HintConfusions = {
       "負う"
     ]
   },
+  "sense-lex-jmdict-1418160-1": {
+    "senseVersion": 1,
+    "words": [
+      "代表"
+    ]
+  },
+  "sense-lex-jmdict-1418640-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1418760-1": {
     "senseVersion": 1,
     "words": [
-      "長所",
-      "傷"
+      "傷",
+      "損"
     ]
+  },
+  "sense-lex-jmdict-1419110-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1419230-1": {
     "senseVersion": 1,
     "words": [
       "分裂",
       "総合"
+    ]
+  },
+  "sense-lex-jmdict-1419300-1": {
+    "senseVersion": 1,
+    "words": [
+      "一戸建て"
     ]
   },
   "sense-lex-jmdict-1419530-1": {
@@ -20796,17 +27187,22 @@ export const hintConfusions: HintConfusions = {
       "主張"
     ]
   },
+  "sense-lex-jmdict-1419660-1": {
+    "senseVersion": 1,
+    "words": [
+      "停電"
+    ]
+  },
   "sense-lex-jmdict-1419740-1": {
     "senseVersion": 1,
     "words": [
       "推測",
-      "決定"
+      "結論"
     ]
   },
   "sense-lex-jmdict-1419860-1": {
     "senseVersion": 1,
     "words": [
-      "冷房",
       "加熱"
     ]
   },
@@ -20820,106 +27216,126 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1419990-1": {
     "senseVersion": 1,
     "words": [
-      "男性",
-      "男子"
+      "女"
     ]
   },
   "sense-lex-jmdict-1420010-1": {
     "senseVersion": 1,
     "words": [
       "少年",
-      "女の子"
+      "青年"
     ]
   },
   "sense-lex-jmdict-1420070-1": {
     "senseVersion": 1,
     "words": [
-      "男",
-      "男性"
+      "少年"
     ]
   },
   "sense-lex-jmdict-1420160-1": {
     "senseVersion": 1,
-    "words": [
-      "男",
-      "男子"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1420340-1": {
     "senseVersion": 1,
     "words": [
-      "価値",
-      "値段"
+      "評価",
+      "評判"
     ]
   },
   "sense-lex-jmdict-1420400-1": {
     "senseVersion": 1,
     "words": [
-      "通知",
-      "消息"
+      "消息",
+      "便り"
     ]
   },
   "sense-lex-jmdict-1420530-1": {
     "senseVersion": 1,
     "words": [
-      "知識",
       "理性"
+    ]
+  },
+  "sense-lex-jmdict-1420580-1": {
+    "senseVersion": 1,
+    "words": [
+      "市長"
     ]
   },
   "sense-lex-jmdict-1420590-1": {
     "senseVersion": 1,
     "words": [
-      "知能",
-      "情報"
+      "情報",
+      "資料"
     ]
   },
   "sense-lex-jmdict-1420630-1": {
     "senseVersion": 1,
-    "words": [
-      "知識",
-      "知恵"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1420680-1": {
     "senseVersion": 1,
     "words": [
-      "知識",
-      "知恵"
+      "頭脳",
+      "頭"
     ]
   },
   "sense-lex-jmdict-1420780-1": {
     "senseVersion": 1,
     "words": [
-      "位",
-      "位置"
+      "段階",
+      "立場"
     ]
   },
   "sense-lex-jmdict-1420800-1": {
     "senseVersion": 1,
     "words": [
-      "地区",
-      "地方"
+      "所"
+    ]
+  },
+  "sense-lex-jmdict-1420840-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1420900-1": {
+    "senseVersion": 1,
+    "words": [
+      "電車"
+    ]
+  },
+  "sense-lex-jmdict-1420970-1": {
+    "senseVersion": 1,
+    "words": [
+      "世界"
     ]
   },
   "sense-lex-jmdict-1421020-1": {
     "senseVersion": 1,
     "words": [
-      "区域",
-      "セクション"
+      "セクション",
+      "一帯"
     ]
+  },
+  "sense-lex-jmdict-1421130-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1421210-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1421290-1": {
     "senseVersion": 1,
     "words": [
       "写真",
-      "図"
+      "表（ひょう）"
     ]
   },
   "sense-lex-jmdict-1421360-1": {
     "senseVersion": 1,
     "words": [
-      "地点",
-      "地域"
+      "区域",
+      "領域"
     ]
   },
   "sense-lex-jmdict-1421380-1": {
@@ -20932,9 +27348,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1421420-1": {
     "senseVersion": 1,
     "words": [
-      "地面",
-      "基本"
+      "基本",
+      "基礎"
     ]
+  },
+  "sense-lex-jmdict-1421440-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1421450-1": {
     "senseVersion": 1,
@@ -20950,6 +27370,14 @@ export const hintConfusions: HintConfusions = {
       "簡素"
     ]
   },
+  "sense-lex-jmdict-1421500-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1421540-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1421630-1": {
     "senseVersion": 1,
     "words": [
@@ -20957,11 +27385,17 @@ export const hintConfusions: HintConfusions = {
       "醜い"
     ]
   },
+  "sense-lex-jmdict-1421700-1": {
+    "senseVersion": 1,
+    "words": [
+      "川"
+    ]
+  },
   "sense-lex-jmdict-1421970-1": {
     "senseVersion": 1,
     "words": [
-      "遅れる",
-      "早い"
+      "早い",
+      "緩やか"
     ]
   },
   "sense-lex-jmdict-1422440-1": {
@@ -20974,14 +27408,23 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1422520-1": {
     "senseVersion": 1,
     "words": [
-      "順序",
-      "機構"
+      "機構",
+      "制度"
     ]
+  },
+  "sense-lex-jmdict-1422720-1": {
+    "senseVersion": 1,
+    "words": [
+      "黒"
+    ]
+  },
+  "sense-lex-jmdict-1422990-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1423030-1": {
     "senseVersion": 1,
     "words": [
-      "着手",
       "就業"
     ]
   },
@@ -21002,7 +27445,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1423260-1": {
     "senseVersion": 1,
     "words": [
-      "注目",
       "注意"
     ]
   },
@@ -21010,15 +27452,19 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "外",
-      "中央"
+      "以内"
     ]
   },
   "sense-lex-jmdict-1423430-1": {
     "senseVersion": 1,
     "words": [
       "端",
-      "中心"
+      "核"
     ]
+  },
+  "sense-lex-jmdict-1423650-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1423680-1": {
     "senseVersion": 1,
@@ -21030,9 +27476,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1424410-1": {
     "senseVersion": 1,
     "words": [
-      "停止",
-      "解除"
+      "解除",
+      "延期"
     ]
+  },
+  "sense-lex-jmdict-1424490-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1424500-1": {
     "senseVersion": 1,
@@ -21052,8 +27502,18 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "末端",
-      "中央"
+      "核"
     ]
+  },
+  "sense-lex-jmdict-1424690-1": {
+    "senseVersion": 1,
+    "words": [
+      "現代"
+    ]
+  },
+  "sense-lex-jmdict-1424710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1424900-1": {
     "senseVersion": 1,
@@ -21065,9 +27525,23 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1425030-1": {
     "senseVersion": 1,
     "words": [
-      "途中",
-      "最中"
+      "完了",
+      "半ば"
     ]
+  },
+  "sense-lex-jmdict-1425160-1": {
+    "senseVersion": 1,
+    "words": [
+      "感染"
+    ]
+  },
+  "sense-lex-jmdict-1425240-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1425540-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1425710-1": {
     "senseVersion": 1,
@@ -21101,7 +27575,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "命令",
-      "勧告"
+      "注意"
+    ]
+  },
+  "sense-lex-jmdict-1426190-1": {
+    "senseVersion": 1,
+    "words": [
+      "具体"
     ]
   },
   "sense-lex-jmdict-1426250-1": {
@@ -21111,11 +27591,27 @@ export const hintConfusions: HintConfusions = {
       "正午"
     ]
   },
+  "sense-lex-jmdict-1426290-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1426370-1": {
+    "senseVersion": 1,
+    "words": [
+      "徹夜"
+    ]
+  },
   "sense-lex-jmdict-1426530-1": {
     "senseVersion": 1,
     "words": [
       "用心",
       "警告"
+    ]
+  },
+  "sense-lex-jmdict-1426590-1": {
+    "senseVersion": 1,
+    "words": [
+      "薬"
     ]
   },
   "sense-lex-jmdict-1426650-1": {
@@ -21128,29 +27624,32 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1426670-1": {
     "senseVersion": 1,
     "words": [
-      "着目",
-      "注意"
+      "監視",
+      "観測"
     ]
   },
   "sense-lex-jmdict-1426680-1": {
     "senseVersion": 1,
     "words": [
-      "昆虫",
       "動物"
     ]
+  },
+  "sense-lex-jmdict-1426920-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1427070-1": {
     "senseVersion": 1,
     "words": [
-      "顕著",
-      "珍しい"
+      "珍しい",
+      "相当"
     ]
   },
   "sense-lex-jmdict-1427150-1": {
     "senseVersion": 1,
     "words": [
-      "著しい",
-      "有力"
+      "有力",
+      "立派"
     ]
   },
   "sense-lex-jmdict-1427220-1": {
@@ -21174,11 +27673,29 @@ export const hintConfusions: HintConfusions = {
       "意気込む"
     ]
   },
+  "sense-lex-jmdict-1427950-1": {
+    "senseVersion": 1,
+    "words": [
+      "塗る"
+    ]
+  },
+  "sense-lex-jmdict-1427980-1": {
+    "senseVersion": 1,
+    "words": [
+      "絵画"
+    ]
+  },
   "sense-lex-jmdict-1428110-1": {
     "senseVersion": 1,
     "words": [
       "支給",
-      "回収"
+      "コレクション"
+    ]
+  },
+  "sense-lex-jmdict-1428280-1": {
+    "senseVersion": 1,
+    "words": [
+      "午前"
     ]
   },
   "sense-lex-jmdict-1429080-1": {
@@ -21198,8 +27715,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1429200-1": {
     "senseVersion": 1,
     "words": [
-      "調停",
-      "調節"
+      "修理",
+      "加減"
     ]
   },
   "sense-lex-jmdict-1429240-1": {
@@ -21212,15 +27729,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1429260-1": {
     "senseVersion": 1,
     "words": [
-      "調整",
-      "裁判"
+      "裁判",
+      "介入"
+    ]
+  },
+  "sense-lex-jmdict-1429290-1": {
+    "senseVersion": 1,
+    "words": [
+      "食材"
     ]
   },
   "sense-lex-jmdict-1429330-1": {
     "senseVersion": 1,
     "words": [
-      "協調",
-      "統一"
+      "統一",
+      "合意"
     ]
   },
   "sense-lex-jmdict-1429410-1": {
@@ -21237,12 +27760,28 @@ export const hintConfusions: HintConfusions = {
       "古い"
     ]
   },
+  "sense-lex-jmdict-1429850-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1430030-1": {
     "senseVersion": 1,
     "words": [
       "利点",
-      "特長"
+      "優位"
     ]
+  },
+  "sense-lex-jmdict-1430040-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1430080-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1430130-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1430220-1": {
     "senseVersion": 1,
@@ -21256,6 +27795,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "辺",
       "一流"
+    ]
+  },
+  "sense-lex-jmdict-1430250-1": {
+    "senseVersion": 1,
+    "words": [
+      "魚"
     ]
   },
   "sense-lex-jmdict-1430610-1": {
@@ -21276,8 +27821,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "間接的に",
-      "直接"
+      "すぐ"
     ]
+  },
+  "sense-lex-jmdict-1430800-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1430850-1": {
     "senseVersion": 1,
@@ -21286,12 +27835,34 @@ export const hintConfusions: HintConfusions = {
       "理論"
     ]
   },
+  "sense-lex-jmdict-1430930-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1431310-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1431330-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1431440-1": {
+    "senseVersion": 1,
+    "words": [
+      "乗り換え"
+    ]
+  },
   "sense-lex-jmdict-1431540-1": {
     "senseVersion": 1,
     "words": [
       "回避",
       "対立"
     ]
+  },
+  "sense-lex-jmdict-1431600-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1431850-1": {
     "senseVersion": 1,
@@ -21303,44 +27874,38 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1431990-1": {
     "senseVersion": 1,
     "words": [
-      "料金",
-      "給与"
+      "給与",
+      "給料"
     ]
   },
   "sense-lex-jmdict-1432280-1": {
     "senseVersion": 1,
     "words": [
-      "追いつく",
-      "勝る"
+      "勝る",
+      "超える"
     ]
   },
   "sense-lex-jmdict-1432410-1": {
     "senseVersion": 1,
-    "words": [
-      "追いかける",
-      "追跡"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1432460-1": {
     "senseVersion": 1,
     "words": [
       "削除",
-      "増加"
+      "補充"
     ]
   },
   "sense-lex-jmdict-1432480-1": {
     "senseVersion": 1,
     "words": [
-      "追求",
-      "研究"
+      "研究",
+      "調査"
     ]
   },
   "sense-lex-jmdict-1432560-1": {
     "senseVersion": 1,
-    "words": [
-      "追及",
-      "追う"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1432670-1": {
     "senseVersion": 1,
@@ -21352,21 +27917,29 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1432680-1": {
     "senseVersion": 1,
     "words": [
-      "痛む",
-      "苦しい"
+      "苦しい",
+      "辛い（つらい）"
+    ]
+  },
+  "sense-lex-jmdict-1432760-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1432920-1": {
+    "senseVersion": 1,
+    "words": [
+      "道"
     ]
   },
   "sense-lex-jmdict-1432980-1": {
     "senseVersion": 1,
     "words": [
-      "通る",
-      "過ぎる"
+      "パス"
     ]
   },
   "sense-lex-jmdict-1433050-1": {
     "senseVersion": 1,
     "words": [
-      "貨幣",
       "現金"
     ]
   },
@@ -21377,18 +27950,22 @@ export const hintConfusions: HintConfusions = {
       "停止"
     ]
   },
+  "sense-lex-jmdict-1433090-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1433180-1": {
     "senseVersion": 1,
     "words": [
-      "通学",
-      "交通"
+      "経過",
+      "合格"
     ]
   },
   "sense-lex-jmdict-1433280-1": {
     "senseVersion": 1,
     "words": [
       "一般",
-      "普通"
+      "大抵"
     ]
   },
   "sense-lex-jmdict-1433330-1": {
@@ -21401,15 +27978,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1433470-1": {
     "senseVersion": 1,
     "words": [
-      "知らせ",
-      "相談"
+      "相談",
+      "記事"
     ]
+  },
+  "sense-lex-jmdict-1433490-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1433570-1": {
     "senseVersion": 1,
     "words": [
       "無効",
-      "流通"
+      "回転"
     ]
   },
   "sense-lex-jmdict-1433600-1": {
@@ -21423,7 +28004,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "凹む",
-      "潰す"
+      "崩れる"
+    ]
+  },
+  "sense-lex-jmdict-1433880-1": {
+    "senseVersion": 1,
+    "words": [
+      "指"
     ]
   },
   "sense-lex-jmdict-1434020-1": {
@@ -21457,29 +28044,71 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1434920-1": {
     "senseVersion": 1,
     "words": [
-      "中止",
-      "再開"
+      "再開",
+      "中断"
     ]
   },
   "sense-lex-jmdict-1434960-1": {
     "senseVersion": 1,
     "words": [
-      "駐車",
-      "阻止"
+      "阻止",
+      "ブレーキ"
     ]
   },
   "sense-lex-jmdict-1435010-1": {
     "senseVersion": 1,
     "words": [
       "進展",
-      "停止"
+      "不振"
     ]
+  },
+  "sense-lex-jmdict-1435080-1": {
+    "senseVersion": 1,
+    "words": [
+      "駅"
+    ]
+  },
+  "sense-lex-jmdict-1435400-1": {
+    "senseVersion": 1,
+    "words": [
+      "人数"
+    ]
+  },
+  "sense-lex-jmdict-1435410-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1435490-1": {
+    "senseVersion": 1,
+    "words": [
+      "臨時"
+    ]
+  },
+  "sense-lex-jmdict-1435510-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1435530-1": {
+    "senseVersion": 1,
+    "words": [
+      "説明"
+    ]
+  },
+  "sense-lex-jmdict-1435540-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1435740-1": {
     "senseVersion": 1,
     "words": [
       "退職",
       "引退"
+    ]
+  },
+  "sense-lex-jmdict-1436130-1": {
+    "senseVersion": 1,
+    "words": [
+      "公園"
     ]
   },
   "sense-lex-jmdict-1436260-1": {
@@ -21492,15 +28121,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1436320-1": {
     "senseVersion": 1,
     "words": [
-      "案",
-      "命令"
+      "命令",
+      "助言"
     ]
   },
   "sense-lex-jmdict-1436360-1": {
     "senseVersion": 1,
     "words": [
-      "提案",
-      "与える"
+      "与える",
+      "差し上げる"
     ]
   },
   "sense-lex-jmdict-1436380-1": {
@@ -21512,22 +28141,17 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1436400-1": {
     "senseVersion": 1,
-    "words": [
-      "提出",
-      "表示"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1436410-1": {
     "senseVersion": 1,
-    "words": [
-      "提示"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1436510-1": {
     "senseVersion": 1,
     "words": [
-      "程度",
-      "加減"
+      "加減",
+      "大体"
     ]
   },
   "sense-lex-jmdict-1436540-1": {
@@ -21547,8 +28171,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1437290-1": {
     "senseVersion": 1,
     "words": [
-      "正確",
-      "適切"
+      "適切",
+      "適当"
+    ]
+  },
+  "sense-lex-jmdict-1437310-1": {
+    "senseVersion": 1,
+    "words": [
+      "太鼓"
     ]
   },
   "sense-lex-jmdict-1437340-1": {
@@ -21568,7 +28198,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1437410-1": {
     "senseVersion": 1,
     "words": [
-      "適応",
       "素質"
     ]
   },
@@ -21583,28 +28212,43 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "手ごろ",
-      "過度"
+      "正式"
     ]
   },
   "sense-lex-jmdict-1437450-1": {
     "senseVersion": 1,
     "words": [
-      "適切",
-      "いい加減"
+      "いい加減",
+      "丁寧"
     ]
   },
   "sense-lex-jmdict-1437500-1": {
     "senseVersion": 1,
     "words": [
-      "応用",
-      "使用"
+      "反映"
     ]
+  },
+  "sense-lex-jmdict-1437560-1": {
+    "senseVersion": 1,
+    "words": [
+      "沈む"
+    ]
+  },
+  "sense-lex-jmdict-1437610-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1437670-1": {
     "senseVersion": 1,
     "words": [
       "中途半端",
       "厳重"
+    ]
+  },
+  "sense-lex-jmdict-1437700-1": {
+    "senseVersion": 1,
+    "words": [
+      "残業"
     ]
   },
   "sense-lex-jmdict-1437710-1": {
@@ -21614,10 +28258,21 @@ export const hintConfusions: HintConfusions = {
       "廃棄"
     ]
   },
+  "sense-lex-jmdict-1437780-1": {
+    "senseVersion": 1,
+    "words": [
+      "銅"
+    ]
+  },
+  "sense-lex-jmdict-1437820-1": {
+    "senseVersion": 1,
+    "words": [
+      "トンネル"
+    ]
+  },
   "sense-lex-jmdict-1437960-1": {
     "senseVersion": 1,
     "words": [
-      "道路",
       "線路"
     ]
   },
@@ -21631,22 +28286,23 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1438690-1": {
     "senseVersion": 1,
     "words": [
-      "天候",
       "季節"
     ]
+  },
+  "sense-lex-jmdict-1438770-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1438970-1": {
     "senseVersion": 1,
     "words": [
-      "天気",
-      "気候"
+      "気象"
     ]
   },
   "sense-lex-jmdict-1439580-1": {
     "senseVersion": 1,
     "words": [
-      "人工",
-      "自然"
+      "人工"
     ]
   },
   "sense-lex-jmdict-1440600-1": {
@@ -21659,8 +28315,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1440610-1": {
     "senseVersion": 1,
     "words": [
-      "陳列",
-      "表示"
+      "陳列"
     ]
   },
   "sense-lex-jmdict-1440640-1": {
@@ -21672,23 +28327,25 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1440660-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1440670-1": {
+    "senseVersion": 1,
     "words": [
-      "発表会",
-      "展示"
+      "客"
     ]
   },
   "sense-lex-jmdict-1440980-1": {
     "senseVersion": 1,
     "words": [
-      "転がる",
-      "倒す"
+      "倒す",
+      "裏返す"
     ]
   },
   "sense-lex-jmdict-1441000-1": {
     "senseVersion": 1,
     "words": [
-      "転がす",
-      "転ぶ"
+      "巻く"
     ]
   },
   "sense-lex-jmdict-1441080-1": {
@@ -21701,9 +28358,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1441100-1": {
     "senseVersion": 1,
     "words": [
-      "転勤",
-      "移転"
+      "移動"
     ]
+  },
+  "sense-lex-jmdict-1441120-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1441390-1": {
     "senseVersion": 1,
@@ -21719,11 +28379,23 @@ export const hintConfusions: HintConfusions = {
       "付く"
     ]
   },
+  "sense-lex-jmdict-1441540-1": {
+    "senseVersion": 1,
+    "words": [
+      "修理"
+    ]
+  },
+  "sense-lex-jmdict-1442110-1": {
+    "senseVersion": 1,
+    "words": [
+      "予防"
+    ]
+  },
   "sense-lex-jmdict-1442240-1": {
     "senseVersion": 1,
     "words": [
-      "伝承",
-      "通信"
+      "通信",
+      "対話"
     ]
   },
   "sense-lex-jmdict-1442260-1": {
@@ -21733,6 +28405,12 @@ export const hintConfusions: HintConfusions = {
       "習慣"
     ]
   },
+  "sense-lex-jmdict-1442730-1": {
+    "senseVersion": 1,
+    "words": [
+      "畑"
+    ]
+  },
   "sense-lex-jmdict-1442750-1": {
     "senseVersion": 1,
     "words": [
@@ -21740,25 +28418,65 @@ export const hintConfusions: HintConfusions = {
       "郊外"
     ]
   },
+  "sense-lex-jmdict-1443000-1": {
+    "senseVersion": 1,
+    "words": [
+      "水"
+    ]
+  },
+  "sense-lex-jmdict-1443170-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1443320-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1443530-1": {
     "senseVersion": 1,
     "words": [
-      "バス",
-      "列車"
+      "バス"
     ]
   },
   "sense-lex-jmdict-1443620-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1443630-1": {
+    "senseVersion": 1,
     "words": [
-      "乾電池",
-      "充電器"
+      "街灯"
     ]
+  },
+  "sense-lex-jmdict-1443660-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1443720-1": {
     "senseVersion": 1,
     "words": [
-      "音波",
-      "信号"
+      "信号",
+      "合図"
+    ]
+  },
+  "sense-lex-jmdict-1443760-1": {
+    "senseVersion": 1,
+    "words": [
+      "手紙"
+    ]
+  },
+  "sense-lex-jmdict-1443790-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1443810-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1443970-1": {
+    "senseVersion": 1,
+    "words": [
+      "鼠"
     ]
   },
   "sense-lex-jmdict-1444680-1": {
@@ -21771,22 +28489,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1444950-1": {
     "senseVersion": 1,
     "words": [
-      "首都",
-      "都会"
+      "市街",
+      "市"
     ]
   },
   "sense-lex-jmdict-1444970-1": {
     "senseVersion": 1,
     "words": [
-      "都市",
-      "田舎"
+      "田舎",
+      "市街"
     ]
   },
   "sense-lex-jmdict-1444990-1": {
     "senseVersion": 1,
     "words": [
-      "都会",
       "町"
+    ]
+  },
+  "sense-lex-jmdict-1445000-1": {
+    "senseVersion": 1,
+    "words": [
+      "郊外"
     ]
   },
   "sense-lex-jmdict-1445150-1": {
@@ -21800,42 +28523,71 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "砂",
-      "土地"
+      "汚れ"
     ]
   },
   "sense-lex-jmdict-1445360-1": {
     "senseVersion": 1,
     "words": [
-      "お土産",
       "記念品"
     ]
   },
   "sense-lex-jmdict-1445470-1": {
     "senseVersion": 1,
     "words": [
-      "土",
-      "場所"
+      "場所",
+      "位置"
     ]
+  },
+  "sense-lex-jmdict-1445590-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1445770-1": {
     "senseVersion": 1,
     "words": [
-      "倒れる",
-      "損なう"
+      "損なう",
+      "覆す"
     ]
   },
   "sense-lex-jmdict-1445980-1": {
     "senseVersion": 1,
     "words": [
-      "政党",
       "政府"
     ]
+  },
+  "sense-lex-jmdict-1446070-1": {
+    "senseVersion": 1,
+    "words": [
+      "夏"
+    ]
+  },
+  "sense-lex-jmdict-1446180-1": {
+    "senseVersion": 1,
+    "words": [
+      "温まる"
+    ]
+  },
+  "sense-lex-jmdict-1446420-1": {
+    "senseVersion": 1,
+    "words": [
+      "包丁"
+    ]
+  },
+  "sense-lex-jmdict-1446740-1": {
+    "senseVersion": 1,
+    "words": [
+      "橋"
+    ]
+  },
+  "sense-lex-jmdict-1446760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1447230-1": {
     "senseVersion": 1,
     "words": [
-      "浪費",
-      "投入"
+      "浪費"
     ]
   },
   "sense-lex-jmdict-1447270-1": {
@@ -21847,9 +28599,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1447300-1": {
     "senseVersion": 1,
-    "words": [
-      "投資"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1447320-1": {
     "senseVersion": 1,
@@ -21862,21 +28612,41 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "紛失",
-      "強盗"
+      "泥棒"
+    ]
+  },
+  "sense-lex-jmdict-1448580-1": {
+    "senseVersion": 1,
+    "words": [
+      "水"
     ]
   },
   "sense-lex-jmdict-1448600-1": {
     "senseVersion": 1,
     "words": [
-      "煙",
-      "蒸気"
+      "煙"
     ]
+  },
+  "sense-lex-jmdict-1448730-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1448760-1": {
     "senseVersion": 1,
     "words": [
-      "ガソリン",
-      "石油"
+      "ガソリン"
+    ]
+  },
+  "sense-lex-jmdict-1449090-1": {
+    "senseVersion": 1,
+    "words": [
+      "現在"
+    ]
+  },
+  "sense-lex-jmdict-1449220-1": {
+    "senseVersion": 1,
+    "words": [
+      "全員"
     ]
   },
   "sense-lex-jmdict-1449330-1": {
@@ -21885,6 +28655,10 @@ export const hintConfusions: HintConfusions = {
       "同じ",
       "似ている"
     ]
+  },
+  "sense-lex-jmdict-1449510-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1449530-1": {
     "senseVersion": 1,
@@ -21896,29 +28670,33 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1449550-1": {
     "senseVersion": 1,
     "words": [
-      "解答",
-      "問題"
+      "問題",
+      "返事"
     ]
   },
   "sense-lex-jmdict-1449670-1": {
     "senseVersion": 1,
     "words": [
-      "統合",
-      "合併"
+      "合併",
+      "整理"
     ]
+  },
+  "sense-lex-jmdict-1449710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1449760-1": {
     "senseVersion": 1,
     "words": [
       "分割",
-      "総合"
+      "結成"
     ]
   },
   "sense-lex-jmdict-1449820-1": {
     "senseVersion": 1,
     "words": [
       "コントロール",
-      "統一"
+      "支配"
     ]
   },
   "sense-lex-jmdict-1450320-1": {
@@ -21931,7 +28709,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1450900-1": {
     "senseVersion": 1,
     "words": [
-      "頭痛",
       "知能"
     ]
   },
@@ -21942,46 +28719,62 @@ export const hintConfusions: HintConfusions = {
       "技能"
     ]
   },
+  "sense-lex-jmdict-1451260-1": {
+    "senseVersion": 1,
+    "words": [
+      "採用"
+    ]
+  },
   "sense-lex-jmdict-1451310-1": {
     "senseVersion": 1,
     "words": [
-      "動向",
-      "目的"
+      "目的",
+      "理由"
     ]
   },
   "sense-lex-jmdict-1451330-1": {
     "senseVersion": 1,
     "words": [
-      "動機",
-      "傾向"
+      "流れ",
+      "流行"
+    ]
+  },
+  "sense-lex-jmdict-1451380-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1451490-1": {
+    "senseVersion": 1,
+    "words": [
+      "水族館"
     ]
   },
   "sense-lex-jmdict-1451630-1": {
     "senseVersion": 1,
     "words": [
-      "動作",
-      "刺激"
+      "刺激",
+      "騒ぎ"
     ]
   },
   "sense-lex-jmdict-1451660-1": {
     "senseVersion": 1,
     "words": [
-      "動機",
-      "勢い"
+      "勢い",
+      "エネルギー"
     ]
   },
   "sense-lex-jmdict-1451750-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "一様"
+      "一様",
+      "等しい"
     ]
   },
   "sense-lex-jmdict-1451900-1": {
     "senseVersion": 1,
     "words": [
-      "一様",
-      "同じ"
+      "等しい",
+      "そっくり"
     ]
   },
   "sense-lex-jmdict-1452500-1": {
@@ -22001,22 +28794,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1453120-1": {
     "senseVersion": 1,
     "words": [
-      "同意",
-      "合意"
+      "合意",
+      "賛成"
     ]
   },
   "sense-lex-jmdict-1453190-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "同様"
+      "一様"
+    ]
+  },
+  "sense-lex-jmdict-1453340-1": {
+    "senseVersion": 1,
+    "words": [
+      "郵送"
     ]
   },
   "sense-lex-jmdict-1453550-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "一様"
+      "近い",
+      "等しい"
     ]
   },
   "sense-lex-jmdict-1453580-1": {
@@ -22024,6 +28822,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "仲間",
       "上司"
+    ]
+  },
+  "sense-lex-jmdict-1454000-1": {
+    "senseVersion": 1,
+    "words": [
+      "論文"
     ]
   },
   "sense-lex-jmdict-1454080-1": {
@@ -22036,8 +28840,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1454180-1": {
     "senseVersion": 1,
     "words": [
-      "器具",
-      "材料"
+      "材料",
+      "装置"
+    ]
+  },
+  "sense-lex-jmdict-1454240-1": {
+    "senseVersion": 1,
+    "words": [
+      "法律"
     ]
   },
   "sense-lex-jmdict-1454670-1": {
@@ -22047,31 +28857,39 @@ export const hintConfusions: HintConfusions = {
       "格別"
     ]
   },
-  "sense-lex-jmdict-1454870-1": {
+  "sense-lex-jmdict-1454750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1454780-1": {
     "senseVersion": 1,
     "words": [
-      "権利"
+      "著作権"
     ]
+  },
+  "sense-lex-jmdict-1454870-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1454970-1": {
     "senseVersion": 1,
     "words": [
       "一般",
-      "特別"
+      "独自"
     ]
+  },
+  "sense-lex-jmdict-1455060-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1455080-1": {
     "senseVersion": 1,
-    "words": [
-      "特長",
-      "特徴"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1455200-1": {
     "senseVersion": 1,
     "words": [
-      "利点",
-      "長所"
+      "利点"
     ]
   },
   "sense-lex-jmdict-1455210-1": {
@@ -22081,18 +28899,23 @@ export const hintConfusions: HintConfusions = {
       "具体的"
     ]
   },
+  "sense-lex-jmdict-1455250-1": {
+    "senseVersion": 1,
+    "words": [
+      "定価"
+    ]
+  },
   "sense-lex-jmdict-1455280-1": {
     "senseVersion": 1,
     "words": [
-      "格別",
       "普通"
     ]
   },
   "sense-lex-jmdict-1455370-1": {
     "senseVersion": 1,
     "words": [
-      "固有",
-      "共通"
+      "共通",
+      "独自"
     ]
   },
   "sense-lex-jmdict-1455500-1": {
@@ -22102,11 +28925,23 @@ export const hintConfusions: HintConfusions = {
       "害"
     ]
   },
+  "sense-lex-jmdict-1455670-1": {
+    "senseVersion": 1,
+    "words": [
+      "会話"
+    ]
+  },
   "sense-lex-jmdict-1455810-1": {
     "senseVersion": 1,
     "words": [
       "固有",
       "共通"
+    ]
+  },
+  "sense-lex-jmdict-1455870-1": {
+    "senseVersion": 1,
+    "words": [
+      "共有"
     ]
   },
   "sense-lex-jmdict-1456010-1": {
@@ -22120,14 +28955,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "意味",
-      "読書"
+      "閲覧"
     ]
   },
   "sense-lex-jmdict-1456420-1": {
     "senseVersion": 1,
     "words": [
-      "朗読",
-      "読み"
+      "閲覧"
     ]
   },
   "sense-lex-jmdict-1456780-1": {
@@ -22140,8 +28974,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1456940-1": {
     "senseVersion": 1,
     "words": [
-      "押し込む",
-      "引き出す"
+      "引き出す",
+      "押す"
     ]
   },
   "sense-lex-jmdict-1457100-1": {
@@ -22151,12 +28985,24 @@ export const hintConfusions: HintConfusions = {
       "合格"
     ]
   },
+  "sense-lex-jmdict-1457440-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1457730-1": {
     "senseVersion": 1,
     "words": [
       "間",
       "期間"
     ]
+  },
+  "sense-lex-jmdict-1457830-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1458650-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1459360-1": {
     "senseVersion": 1,
@@ -22179,11 +29025,33 @@ export const hintConfusions: HintConfusions = {
       "紐"
     ]
   },
+  "sense-lex-jmdict-1460180-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1460850-1": {
     "senseVersion": 1,
     "words": [
       "易しい",
       "複雑"
+    ]
+  },
+  "sense-lex-jmdict-1461140-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1461160-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1461870-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1462900-1": {
+    "senseVersion": 1,
+    "words": [
+      "二つ"
     ]
   },
   "sense-lex-jmdict-1463480-1": {
@@ -22193,25 +29061,67 @@ export const hintConfusions: HintConfusions = {
       "活発"
     ]
   },
+  "sense-lex-jmdict-1463520-1": {
+    "senseVersion": 1,
+    "words": [
+      "魚"
+    ]
+  },
+  "sense-lex-jmdict-1463740-1": {
+    "senseVersion": 1,
+    "words": [
+      "雲"
+    ]
+  },
   "sense-lex-jmdict-1463770-1": {
     "senseVersion": 1,
     "words": [
-      "日光",
-      "太陽"
+      "太陽",
+      "昼"
     ]
+  },
+  "sense-lex-jmdict-1463790-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1463800-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1463840-1": {
     "senseVersion": 1,
     "words": [
-      "陰",
-      "日なた"
+      "影"
+    ]
+  },
+  "sense-lex-jmdict-1463860-1": {
+    "senseVersion": 1,
+    "words": [
+      "臨時"
+    ]
+  },
+  "sense-lex-jmdict-1463920-1": {
+    "senseVersion": 1,
+    "words": [
+      "宿泊"
+    ]
+  },
+  "sense-lex-jmdict-1463930-1": {
+    "senseVersion": 1,
+    "words": [
+      "手紙"
     ]
   },
   "sense-lex-jmdict-1464030-1": {
     "senseVersion": 1,
     "words": [
-      "日",
       "照明"
+    ]
+  },
+  "sense-lex-jmdict-1464110-1": {
+    "senseVersion": 1,
+    "words": [
+      "場所"
     ]
   },
   "sense-lex-jmdict-1464180-1": {
@@ -22225,7 +29135,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "夜間",
-      "日"
+      "昼"
     ]
   },
   "sense-lex-jmdict-1464300-1": {
@@ -22237,29 +29147,35 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1464340-1": {
     "senseVersion": 1,
-    "words": [
-      "日にち",
-      "曜日"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1464900-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1464910-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1465720-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1465850-1": {
     "senseVersion": 1,
     "words": [
-      "卒業",
-      "入場"
+      "卒業"
     ]
   },
   "sense-lex-jmdict-1466360-1": {
     "senseVersion": 1,
-    "words": [
-      "入学"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1467260-1": {
     "senseVersion": 1,
     "words": [
-      "義務",
-      "課題"
+      "課題",
+      "作業"
     ]
   },
   "sense-lex-jmdict-1467280-1": {
@@ -22272,8 +29188,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1467550-1": {
     "senseVersion": 1,
     "words": [
-      "知識",
-      "意識"
+      "評価",
+      "理解"
+    ]
+  },
+  "sense-lex-jmdict-1467640-1": {
+    "senseVersion": 1,
+    "words": [
+      "犬"
     ]
   },
   "sense-lex-jmdict-1467710-1": {
@@ -22301,29 +29223,37 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "真剣",
-      "熱中"
+      "盛ん"
     ]
+  },
+  "sense-lex-jmdict-1467930-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1467950-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1468060-1": {
     "senseVersion": 1,
     "words": [
-      "月",
-      "年齢"
+      "月"
     ]
+  },
+  "sense-lex-jmdict-1468380-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1468950-1": {
     "senseVersion": 1,
     "words": [
-      "年齢",
-      "時期"
+      "時期",
+      "世紀"
     ]
   },
   "sense-lex-jmdict-1469050-1": {
     "senseVersion": 1,
-    "words": [
-      "年齢",
-      "学年"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1469530-1": {
     "senseVersion": 1,
@@ -22339,6 +29269,10 @@ export const hintConfusions: HintConfusions = {
       "黒い"
     ]
   },
+  "sense-lex-jmdict-1469970-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1470080-1": {
     "senseVersion": 1,
     "words": [
@@ -22349,22 +29283,43 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1470090-1": {
     "senseVersion": 1,
     "words": [
-      "納税",
-      "供給"
+      "供給",
+      "支払い"
     ]
   },
   "sense-lex-jmdict-1470330-1": {
     "senseVersion": 1,
-    "words": [
-      "能力",
-      "効率"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1470370-1": {
     "senseVersion": 1,
     "words": [
-      "力",
-      "努力"
+      "働き",
+      "手際"
+    ]
+  },
+  "sense-lex-jmdict-1470620-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1470710-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1470730-1": {
+    "senseVersion": 1,
+    "words": [
+      "都市"
+    ]
+  },
+  "sense-lex-jmdict-1470770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1470780-1": {
+    "senseVersion": 1,
+    "words": [
+      "肥料"
     ]
   },
   "sense-lex-jmdict-1470910-1": {
@@ -22381,6 +29336,12 @@ export const hintConfusions: HintConfusions = {
       "展開"
     ]
   },
+  "sense-lex-jmdict-1471330-1": {
+    "senseVersion": 1,
+    "words": [
+      "赤字"
+    ]
+  },
   "sense-lex-jmdict-1471380-1": {
     "senseVersion": 1,
     "words": [
@@ -22394,6 +29355,16 @@ export const hintConfusions: HintConfusions = {
       "切れ",
       "全体"
     ]
+  },
+  "sense-lex-jmdict-1471560-1": {
+    "senseVersion": 1,
+    "words": [
+      "牛"
+    ]
+  },
+  "sense-lex-jmdict-1471970-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1472030-1": {
     "senseVersion": 1,
@@ -22412,8 +29383,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1472370-1": {
     "senseVersion": 1,
     "words": [
-      "除外",
-      "解除"
+      "追放",
+      "消去"
     ]
   },
   "sense-lex-jmdict-1472680-1": {
@@ -22426,49 +29397,54 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1472800-1": {
     "senseVersion": 1,
     "words": [
-      "腰",
-      "背"
+      "腰"
     ]
   },
   "sense-lex-jmdict-1473140-1": {
     "senseVersion": 1,
     "words": [
-      "配送",
-      "交付"
+      "交付",
+      "納入"
     ]
   },
   "sense-lex-jmdict-1473150-1": {
     "senseVersion": 1,
     "words": [
-      "配布",
-      "派遣"
+      "派遣",
+      "展開"
     ]
   },
   "sense-lex-jmdict-1473200-1": {
     "senseVersion": 1,
-    "words": [
-      "配布",
-      "分散"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1473210-1": {
     "senseVersion": 1,
     "words": [
-      "遠慮",
-      "考え"
+      "考え",
+      "審議"
+    ]
+  },
+  "sense-lex-jmdict-1473230-1": {
+    "senseVersion": 1,
+    "words": [
+      "半分"
+    ]
+  },
+  "sense-lex-jmdict-1473460-1": {
+    "senseVersion": 1,
+    "words": [
+      "桜"
     ]
   },
   "sense-lex-jmdict-1473960-1": {
     "senseVersion": 1,
-    "words": [
-      "売る"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1474040-1": {
     "senseVersion": 1,
     "words": [
-      "倉庫",
-      "店"
+      "倉庫"
     ]
   },
   "sense-lex-jmdict-1474050-1": {
@@ -22481,8 +29457,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1474110-1": {
     "senseVersion": 1,
     "words": [
-      "補償",
-      "代わり"
+      "代わり",
+      "手当"
+    ]
+  },
+  "sense-lex-jmdict-1474200-1": {
+    "senseVersion": 1,
+    "words": [
+      "歩く"
     ]
   },
   "sense-lex-jmdict-1474620-1": {
@@ -22492,25 +29474,42 @@ export const hintConfusions: HintConfusions = {
       "プロ"
     ]
   },
-  "sense-lex-jmdict-1474910-1": {
+  "sense-lex-jmdict-1474720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1474820-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1474850-1": {
     "senseVersion": 1,
     "words": [
-      "白",
-      "真っ白"
+      "住む"
     ]
+  },
+  "sense-lex-jmdict-1474860-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1474900-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1474910-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1475500-1": {
     "senseVersion": 1,
     "words": [
-      "濃くする",
-      "薄い"
+      "濃くする"
     ]
   },
   "sense-lex-jmdict-1475530-1": {
     "senseVersion": 1,
     "words": [
-      "明るい",
-      "暗い"
+      "明るい"
     ]
   },
   "sense-lex-jmdict-1475730-1": {
@@ -22527,18 +29526,28 @@ export const hintConfusions: HintConfusions = {
       "曖昧"
     ]
   },
+  "sense-lex-jmdict-1475910-1": {
+    "senseVersion": 1,
+    "words": [
+      "破裂"
+    ]
+  },
   "sense-lex-jmdict-1476060-1": {
     "senseVersion": 1,
     "words": [
-      "少額",
-      "巨大"
+      "少額"
+    ]
+  },
+  "sense-lex-jmdict-1476410-1": {
+    "senseVersion": 1,
+    "words": [
+      "匙"
     ]
   },
   "sense-lex-jmdict-1476500-1": {
     "senseVersion": 1,
     "words": [
-      "下着",
-      "上着"
+      "シャツ"
     ]
   },
   "sense-lex-jmdict-1476520-1": {
@@ -22548,11 +29557,35 @@ export const hintConfusions: HintConfusions = {
       "原"
     ]
   },
+  "sense-lex-jmdict-1476920-1": {
+    "senseVersion": 1,
+    "words": [
+      "八つ"
+    ]
+  },
+  "sense-lex-jmdict-1476960-1": {
+    "senseVersion": 1,
+    "words": [
+      "スーパー"
+    ]
+  },
   "sense-lex-jmdict-1477090-1": {
     "senseVersion": 1,
     "words": [
       "皿",
       "器"
+    ]
+  },
+  "sense-lex-jmdict-1477170-1": {
+    "senseVersion": 1,
+    "words": [
+      "読み方"
+    ]
+  },
+  "sense-lex-jmdict-1477190-1": {
+    "senseVersion": 1,
+    "words": [
+      "開花"
     ]
   },
   "sense-lex-jmdict-1477250-1": {
@@ -22564,16 +29597,11 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1477290-1": {
     "senseVersion": 1,
-    "words": [
-      "発見"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1477310-1": {
     "senseVersion": 1,
-    "words": [
-      "発明",
-      "発掘"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1477390-1": {
     "senseVersion": 1,
@@ -22582,46 +29610,65 @@ export const hintConfusions: HintConfusions = {
       "公開"
     ]
   },
+  "sense-lex-jmdict-1477470-1": {
+    "senseVersion": 1,
+    "words": [
+      "症状"
+    ]
+  },
   "sense-lex-jmdict-1477500-1": {
     "senseVersion": 1,
     "words": [
-      "出発",
-      "発足"
+      "外出"
     ]
   },
   "sense-lex-jmdict-1477660-1": {
     "senseVersion": 1,
     "words": [
-      "感想",
-      "考え"
+      "考え",
+      "工夫"
     ]
   },
   "sense-lex-jmdict-1477680-1": {
     "senseVersion": 1,
     "words": [
-      "発展",
-      "拡大"
+      "拡大",
+      "成長"
     ]
+  },
+  "sense-lex-jmdict-1477750-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1477810-1": {
     "senseVersion": 1,
     "words": [
-      "開発",
-      "販売"
+      "公開"
+    ]
+  },
+  "sense-lex-jmdict-1477870-1": {
+    "senseVersion": 1,
+    "words": [
+      "回復"
     ]
   },
   "sense-lex-jmdict-1477910-1": {
     "senseVersion": 1,
     "words": [
-      "発見",
-      "工夫"
+      "工夫",
+      "創作"
+    ]
+  },
+  "sense-lex-jmdict-1478080-1": {
+    "senseVersion": 1,
+    "words": [
+      "叱る"
     ]
   },
   "sense-lex-jmdict-1478520-1": {
     "senseVersion": 1,
     "words": [
-      "判定",
-      "裁判"
+      "刑罰"
     ]
   },
   "sense-lex-jmdict-1478620-1": {
@@ -22633,17 +29680,11 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1478660-1": {
     "senseVersion": 1,
-    "words": [
-      "判決",
-      "決定"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1478750-1": {
     "senseVersion": 1,
-    "words": [
-      "半分",
-      "半ば"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1478780-1": {
     "senseVersion": 1,
@@ -22652,25 +29693,30 @@ export const hintConfusions: HintConfusions = {
       "終わり"
     ]
   },
+  "sense-lex-jmdict-1479230-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1479770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1479890-1": {
     "senseVersion": 1,
     "words": [
-      "全部",
-      "半"
+      "全部"
     ]
   },
   "sense-lex-jmdict-1480310-1": {
     "senseVersion": 1,
     "words": [
-      "反射",
-      "影響"
+      "対応"
     ]
   },
   "sense-lex-jmdict-1480380-1": {
     "senseVersion": 1,
     "words": [
-      "抵抗",
-      "反対"
+      "対立"
     ]
   },
   "sense-lex-jmdict-1480540-1": {
@@ -22684,28 +29730,39 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "賛同",
-      "反対"
+      "対立"
     ]
   },
   "sense-lex-jmdict-1481590-1": {
     "senseVersion": 1,
     "words": [
-      "違反",
-      "罪"
+      "違反"
+    ]
+  },
+  "sense-lex-jmdict-1481630-1": {
+    "senseVersion": 1,
+    "words": [
+      "容疑者"
     ]
   },
   "sense-lex-jmdict-1481670-1": {
     "senseVersion": 1,
     "words": [
-      "繁盛",
-      "発展"
+      "発展",
+      "成功"
+    ]
+  },
+  "sense-lex-jmdict-1481700-1": {
+    "senseVersion": 1,
+    "words": [
+      "成長"
     ]
   },
   "sense-lex-jmdict-1481710-1": {
     "senseVersion": 1,
     "words": [
-      "繁栄",
-      "発展"
+      "発展",
+      "成功"
     ]
   },
   "sense-lex-jmdict-1481890-1": {
@@ -22739,15 +29796,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1482340-1": {
     "senseVersion": 1,
     "words": [
-      "番組表",
-      "放送"
+      "放送",
+      "プログラム"
     ]
   },
   "sense-lex-jmdict-1482360-1": {
     "senseVersion": 1,
     "words": [
-      "郵便番号",
-      "住所"
+      "住所",
+      "アドレス"
     ]
   },
   "sense-lex-jmdict-1482710-1": {
@@ -22760,50 +29817,76 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1483070-1": {
     "senseVersion": 1,
     "words": [
-      "彼女",
       "恋人"
     ]
+  },
+  "sense-lex-jmdict-1483090-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1483150-1": {
     "senseVersion": 1,
     "words": [
-      "彼",
       "恋人"
     ]
   },
   "sense-lex-jmdict-1483280-1": {
     "senseVersion": 1,
     "words": [
-      "喜劇",
-      "災害"
+      "災害",
+      "不幸"
     ]
   },
   "sense-lex-jmdict-1483290-1": {
     "senseVersion": 1,
     "words": [
-      "悲観",
-      "気の毒"
+      "気の毒",
+      "哀れ"
     ]
   },
   "sense-lex-jmdict-1483410-1": {
     "senseVersion": 1,
     "words": [
-      "避難",
-      "批判"
+      "批判",
+      "評論"
     ]
   },
   "sense-lex-jmdict-1483420-1": {
     "senseVersion": 1,
     "words": [
-      "批評",
-      "意見"
+      "意見",
+      "非難"
     ]
   },
   "sense-lex-jmdict-1483440-1": {
     "senseVersion": 1,
     "words": [
-      "批判",
-      "解説"
+      "解説",
+      "非難"
+    ]
+  },
+  "sense-lex-jmdict-1483600-1": {
+    "senseVersion": 1,
+    "words": [
+      "絶対に"
+    ]
+  },
+  "sense-lex-jmdict-1483730-1": {
+    "senseVersion": 1,
+    "words": [
+      "病気"
+    ]
+  },
+  "sense-lex-jmdict-1483805-1": {
+    "senseVersion": 1,
+    "words": [
+      "皮"
+    ]
+  },
+  "sense-lex-jmdict-1483900-1": {
+    "senseVersion": 1,
+    "words": [
+      "称賛"
     ]
   },
   "sense-lex-jmdict-1483920-1": {
@@ -22823,8 +29906,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1484350-1": {
     "senseVersion": 1,
     "words": [
-      "損害",
-      "害"
+      "損"
     ]
   },
   "sense-lex-jmdict-1484600-1": {
@@ -22844,15 +29926,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1484660-1": {
     "senseVersion": 1,
     "words": [
-      "非難",
-      "逃げる"
+      "逃げる",
+      "免れる"
     ]
   },
   "sense-lex-jmdict-1484920-1": {
     "senseVersion": 1,
     "words": [
-      "日常",
-      "危機"
+      "危機",
+      "緊急"
     ]
   },
   "sense-lex-jmdict-1484930-1": {
@@ -22865,15 +29947,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1485350-1": {
     "senseVersion": 1,
     "words": [
-      "出る",
-      "逃げる"
+      "逃げる",
+      "見える"
     ]
   },
   "sense-lex-jmdict-1485450-1": {
     "senseVersion": 1,
     "words": [
-      "飛行機",
       "航空"
+    ]
+  },
+  "sense-lex-jmdict-1485470-1": {
+    "senseVersion": 1,
+    "words": [
+      "新幹線"
     ]
   },
   "sense-lex-jmdict-1485520-1": {
@@ -22890,6 +29977,38 @@ export const hintConfusions: HintConfusions = {
       "複雑"
     ]
   },
+  "sense-lex-jmdict-1486200-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1486460-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1486530-1": {
+    "senseVersion": 1,
+    "words": [
+      "女優"
+    ]
+  },
+  "sense-lex-jmdict-1486650-1": {
+    "senseVersion": 1,
+    "words": [
+      "まずい"
+    ]
+  },
+  "sense-lex-jmdict-1486670-1": {
+    "senseVersion": 1,
+    "words": [
+      "治療"
+    ]
+  },
+  "sense-lex-jmdict-1486720-1": {
+    "senseVersion": 1,
+    "words": [
+      "口"
+    ]
+  },
   "sense-lex-jmdict-1487250-1": {
     "senseVersion": 1,
     "words": [
@@ -22897,52 +30016,65 @@ export const hintConfusions: HintConfusions = {
       "準じる"
     ]
   },
-  "sense-lex-jmdict-1487410-1": {
+  "sense-lex-jmdict-1487320-1": {
     "senseVersion": 1,
     "words": [
-      "必ず"
+      "肘"
     ]
+  },
+  "sense-lex-jmdict-1487410-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1487500-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1487570-1": {
     "senseVersion": 1,
-    "words": [
-      "偶然",
-      "必要"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1487660-1": {
     "senseVersion": 1,
     "words": [
-      "要る",
-      "大切"
+      "大切",
+      "条件"
     ]
+  },
+  "sense-lex-jmdict-1487770-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1487800-1": {
     "senseVersion": 1,
     "words": [
-      "口述",
-      "記録"
+      "口述"
     ]
   },
   "sense-lex-jmdict-1487830-1": {
     "senseVersion": 1,
     "words": [
-      "読者",
       "作家"
+    ]
+  },
+  "sense-lex-jmdict-1488000-1": {
+    "senseVersion": 1,
+    "words": [
+      "千"
     ]
   },
   "sense-lex-jmdict-1488700-1": {
     "senseVersion": 1,
     "words": [
-      "標準",
-      "跡"
+      "跡",
+      "看板"
     ]
   },
   "sense-lex-jmdict-1488710-1": {
     "senseVersion": 1,
     "words": [
-      "基準",
-      "平均"
+      "平均",
+      "程度"
     ]
   },
   "sense-lex-jmdict-1489340-1": {
@@ -22956,21 +30088,21 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "図",
-      "図表"
+      "裏"
     ]
   },
   "sense-lex-jmdict-1489510-1": {
     "senseVersion": 1,
     "words": [
-      "表情",
-      "説明"
+      "説明",
+      "象徴"
     ]
   },
   "sense-lex-jmdict-1489700-1": {
     "senseVersion": 1,
     "words": [
       "顔つき",
-      "感情"
+      "顔"
     ]
   },
   "sense-lex-jmdict-1490010-1": {
@@ -22984,7 +30116,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "人気",
-      "評価"
+      "名"
     ]
   },
   "sense-lex-jmdict-1490080-1": {
@@ -23001,74 +30133,94 @@ export const hintConfusions: HintConfusions = {
       "表現"
     ]
   },
-  "sense-lex-jmdict-1490580-1": {
+  "sense-lex-jmdict-1490220-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1490230-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1490430-1": {
     "senseVersion": 1,
     "words": [
-      "質",
-      "品種"
+      "分"
     ]
+  },
+  "sense-lex-jmdict-1490580-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1490670-1": {
     "senseVersion": 1,
     "words": [
-      "賞品",
       "グッズ"
     ]
   },
   "sense-lex-jmdict-1490830-1": {
     "senseVersion": 1,
     "words": [
-      "貧弱",
-      "不足"
+      "不足",
+      "欠乏"
+    ]
+  },
+  "sense-lex-jmdict-1491050-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1491120-1": {
+    "senseVersion": 1,
+    "words": [
+      "缶"
     ]
   },
   "sense-lex-jmdict-1491290-1": {
     "senseVersion": 1,
     "words": [
-      "幸運",
-      "災害"
+      "災害",
+      "災難"
     ]
   },
   "sense-lex-jmdict-1491370-1": {
     "senseVersion": 1,
     "words": [
-      "可能",
-      "不当"
+      "駄目"
     ]
   },
   "sense-lex-jmdict-1491400-1": {
     "senseVersion": 1,
     "words": [
-      "不要",
-      "重要"
+      "重要",
+      "必要"
     ]
+  },
+  "sense-lex-jmdict-1491840-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1491910-1": {
     "senseVersion": 1,
     "words": [
-      "不運",
       "怪しい"
     ]
   },
   "sense-lex-jmdict-1491950-1": {
     "senseVersion": 1,
     "words": [
-      "不調",
-      "不振"
+      "後退"
     ]
   },
   "sense-lex-jmdict-1492160-1": {
     "senseVersion": 1,
     "words": [
-      "清潔",
       "汚い"
     ]
   },
   "sense-lex-jmdict-1492350-1": {
     "senseVersion": 1,
     "words": [
-      "幸福",
-      "災害"
+      "災害",
+      "悲劇"
     ]
   },
   "sense-lex-jmdict-1492570-1": {
@@ -23081,29 +30233,29 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1492680-1": {
     "senseVersion": 1,
     "words": [
-      "不便",
-      "障害"
+      "障害",
+      "迷惑"
     ]
   },
   "sense-lex-jmdict-1493120-1": {
     "senseVersion": 1,
     "words": [
-      "不信",
-      "疑問"
+      "疑問",
+      "疑惑"
     ]
   },
   "sense-lex-jmdict-1493150-1": {
     "senseVersion": 1,
     "words": [
-      "不調",
-      "不況"
+      "渋滞",
+      "停滞"
     ]
   },
   "sense-lex-jmdict-1493370-1": {
     "senseVersion": 1,
     "words": [
-      "正当",
-      "詐欺"
+      "詐欺",
+      "罪"
     ]
   },
   "sense-lex-jmdict-1493700-1": {
@@ -23116,28 +30268,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1494120-1": {
     "senseVersion": 1,
     "words": [
-      "不適当",
-      "不可"
+      "無茶",
+      "卑怯"
     ]
   },
   "sense-lex-jmdict-1494700-1": {
     "senseVersion": 1,
     "words": [
-      "不満",
-      "苦情"
+      "苦情",
+      "反対"
     ]
   },
   "sense-lex-jmdict-1494790-1": {
     "senseVersion": 1,
     "words": [
       "文句",
-      "不満"
+      "訴え"
     ]
   },
   "sense-lex-jmdict-1494860-1": {
     "senseVersion": 1,
     "words": [
-      "便利",
       "迷惑"
     ]
   },
@@ -23145,14 +30296,14 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "苦情",
-      "不服"
+      "訴え"
     ]
   },
   "sense-lex-jmdict-1495220-1": {
     "senseVersion": 1,
     "words": [
-      "有利",
-      "損"
+      "損",
+      "短所"
     ]
   },
   "sense-lex-jmdict-1495640-1": {
@@ -23165,22 +30316,28 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1495740-1": {
     "senseVersion": 1,
     "words": [
-      "付ける",
-      "貼る"
+      "貼る",
+      "点く"
+    ]
+  },
+  "sense-lex-jmdict-1496480-1": {
+    "senseVersion": 1,
+    "words": [
+      "ご主人"
     ]
   },
   "sense-lex-jmdict-1496540-1": {
     "senseVersion": 1,
     "words": [
-      "婦人",
-      "嫁"
+      "嫁",
+      "家内"
     ]
   },
   "sense-lex-jmdict-1496670-1": {
     "senseVersion": 1,
     "words": [
-      "夫人",
-      "女子"
+      "女子",
+      "女性"
     ]
   },
   "sense-lex-jmdict-1496840-1": {
@@ -23192,8 +30349,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1496990-1": {
     "senseVersion": 1,
     "words": [
-      "養育",
-      "援助"
+      "援助",
+      "サポート"
     ]
   },
   "sense-lex-jmdict-1497020-1": {
@@ -23221,7 +30378,17 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "一般",
-      "通常"
+      "大抵"
+    ]
+  },
+  "sense-lex-jmdict-1497610-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1497960-1": {
+    "senseVersion": 1,
+    "words": [
+      "勝ち"
     ]
   },
   "sense-lex-jmdict-1498080-1": {
@@ -23231,6 +30398,16 @@ export const hintConfusions: HintConfusions = {
       "借金"
     ]
   },
+  "sense-lex-jmdict-1498200-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1498460-1": {
+    "senseVersion": 1,
+    "words": [
+      "防具"
+    ]
+  },
   "sense-lex-jmdict-1499150-1": {
     "senseVersion": 1,
     "words": [
@@ -23238,18 +30415,38 @@ export const hintConfusions: HintConfusions = {
       "客席"
     ]
   },
+  "sense-lex-jmdict-1499460-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1499690-1": {
+    "senseVersion": 1,
+    "words": [
+      "葉書"
+    ]
+  },
+  "sense-lex-jmdict-1499720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1500100-1": {
+    "senseVersion": 1,
+    "words": [
+      "シャワー"
+    ]
+  },
   "sense-lex-jmdict-1500750-1": {
     "senseVersion": 1,
     "words": [
       "再建",
-      "復旧"
+      "回収"
     ]
   },
   "sense-lex-jmdict-1500800-1": {
     "senseVersion": 1,
     "words": [
-      "予習",
-      "審査"
+      "審査",
+      "確認"
     ]
   },
   "sense-lex-jmdict-1500880-1": {
@@ -23262,22 +30459,27 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1500940-1": {
     "senseVersion": 1,
     "words": [
-      "衣服",
-      "上着"
+      "上着",
+      "衣装"
     ]
   },
   "sense-lex-jmdict-1500970-1": {
     "senseVersion": 1,
     "words": [
-      "服",
-      "衣装"
+      "衣料",
+      "着物"
+    ]
+  },
+  "sense-lex-jmdict-1501060-1": {
+    "senseVersion": 1,
+    "words": [
+      "利益"
     ]
   },
   "sense-lex-jmdict-1501110-1": {
     "senseVersion": 1,
     "words": [
-      "胃",
-      "お腹"
+      "胃"
     ]
   },
   "sense-lex-jmdict-1501350-1": {
@@ -23298,35 +30500,39 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "裏返す",
-      "覆う"
+      "反対"
     ]
   },
   "sense-lex-jmdict-1501580-1": {
     "senseVersion": 1,
     "words": [
-      "払い戻す",
       "預ける"
     ]
   },
   "sense-lex-jmdict-1501610-1": {
     "senseVersion": 1,
     "words": [
-      "払い込む",
-      "返済"
+      "返済",
+      "返す"
+    ]
+  },
+  "sense-lex-jmdict-1501760-1": {
+    "senseVersion": 1,
+    "words": [
+      "神"
     ]
   },
   "sense-lex-jmdict-1502390-1": {
     "senseVersion": 1,
     "words": [
-      "品物",
-      "事"
+      "事",
+      "対象"
     ]
   },
   "sense-lex-jmdict-1502420-1": {
     "senseVersion": 1,
     "words": [
-      "声",
-      "音"
+      "声"
     ]
   },
   "sense-lex-jmdict-1502480-1": {
@@ -23339,9 +30545,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1502540-1": {
     "senseVersion": 1,
     "words": [
-      "資金",
-      "商品"
+      "商品",
+      "材料"
     ]
+  },
+  "sense-lex-jmdict-1502550-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1502560-1": {
     "senseVersion": 1,
@@ -23371,25 +30581,30 @@ export const hintConfusions: HintConfusions = {
       "押し入れ"
     ]
   },
+  "sense-lex-jmdict-1502790-1": {
+    "senseVersion": 1,
+    "words": [
+      "化学"
+    ]
+  },
   "sense-lex-jmdict-1503000-1": {
     "senseVersion": 1,
     "words": [
       "区切る",
-      "分かれる"
+      "配る"
     ]
   },
   "sense-lex-jmdict-1503210-1": {
     "senseVersion": 1,
     "words": [
       "組み立て",
-      "解散"
+      "清算"
     ]
   },
   "sense-lex-jmdict-1503580-1": {
     "senseVersion": 1,
     "words": [
-      "集中",
-      "拡散"
+      "集中"
     ]
   },
   "sense-lex-jmdict-1503870-1": {
@@ -23402,8 +30617,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1504160-1": {
     "senseVersion": 1,
     "words": [
-      "集中",
-      "配分"
+      "集中"
     ]
   },
   "sense-lex-jmdict-1504330-1": {
@@ -23423,8 +30637,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1504510-1": {
     "senseVersion": 1,
     "words": [
-      "分離",
-      "分ける"
+      "別れる"
+    ]
+  },
+  "sense-lex-jmdict-1504650-1": {
+    "senseVersion": 1,
+    "words": [
+      "怒り"
+    ]
+  },
+  "sense-lex-jmdict-1504750-1": {
+    "senseVersion": 1,
+    "words": [
+      "努力"
     ]
   },
   "sense-lex-jmdict-1504990-1": {
@@ -23434,66 +30659,81 @@ export const hintConfusions: HintConfusions = {
       "曖昧"
     ]
   },
+  "sense-lex-jmdict-1505010-1": {
+    "senseVersion": 1,
+    "words": [
+      "混ざる"
+    ]
+  },
   "sense-lex-jmdict-1505050-1": {
     "senseVersion": 1,
     "words": [
-      "盗難",
-      "損失"
+      "盗難"
     ]
   },
   "sense-lex-jmdict-1505060-1": {
     "senseVersion": 1,
     "words": [
-      "競争",
-      "事件"
+      "事件",
+      "事故"
     ]
   },
   "sense-lex-jmdict-1505070-1": {
     "senseVersion": 1,
     "words": [
-      "空気",
-      "情緒"
+      "情緒",
+      "天候"
     ]
   },
   "sense-lex-jmdict-1505090-1": {
     "senseVersion": 1,
     "words": [
-      "文字",
-      "言葉"
+      "言葉",
+      "声明"
     ]
   },
   "sense-lex-jmdict-1505120-1": {
     "senseVersion": 1,
-    "words": [
-      "文明"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1505150-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1505190-1": {
     "senseVersion": 1,
-    "words": [
-      "文法",
-      "文芸"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1505290-1": {
     "senseVersion": 1,
-    "words": [
-      "文献",
-      "芸術"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1505330-1": {
     "senseVersion": 1,
     "words": [
-      "文芸",
-      "記録"
+      "記録",
+      "書類"
     ]
+  },
+  "sense-lex-jmdict-1505370-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1505510-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1505600-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1505630-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1505650-1": {
     "senseVersion": 1,
-    "words": [
-      "文化"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1506870-1": {
     "senseVersion": 1,
@@ -23519,7 +30759,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1507670-1": {
     "senseVersion": 1,
     "words": [
-      "公平",
       "公正"
     ]
   },
@@ -23527,7 +30766,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "月並み",
-      "非凡"
+      "一般"
     ]
   },
   "sense-lex-jmdict-1508070-1": {
@@ -23547,9 +30786,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1508480-1": {
     "senseVersion": 1,
     "words": [
-      "両立",
-      "平行"
+      "両立"
     ]
+  },
+  "sense-lex-jmdict-1508600-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1509350-1": {
     "senseVersion": 1,
@@ -23565,11 +30807,23 @@ export const hintConfusions: HintConfusions = {
       "差"
     ]
   },
+  "sense-lex-jmdict-1509480-1": {
+    "senseVersion": 1,
+    "words": [
+      "特に"
+    ]
+  },
   "sense-lex-jmdict-1509490-1": {
     "senseVersion": 1,
     "words": [
       "出会い",
       "独立"
+    ]
+  },
+  "sense-lex-jmdict-1510380-1": {
+    "senseVersion": 1,
+    "words": [
+      "先入観"
     ]
   },
   "sense-lex-jmdict-1510640-1": {
@@ -23582,8 +30836,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1510940-1": {
     "senseVersion": 1,
     "words": [
-      "変更",
-      "改革"
+      "改良"
     ]
   },
   "sense-lex-jmdict-1511040-1": {
@@ -23596,22 +30849,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1511260-1": {
     "senseVersion": 1,
     "words": [
-      "変動",
-      "変化"
+      "移行"
     ]
   },
   "sense-lex-jmdict-1511450-1": {
     "senseVersion": 1,
     "words": [
       "固定",
-      "変化"
+      "増減"
     ]
   },
   "sense-lex-jmdict-1512070-1": {
     "senseVersion": 1,
     "words": [
-      "周辺",
-      "周り"
+      "周り",
+      "近所"
     ]
   },
   "sense-lex-jmdict-1512080-1": {
@@ -23624,14 +30876,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1512170-1": {
     "senseVersion": 1,
     "words": [
-      "返済",
-      "還元"
+      "戻す"
     ]
   },
   "sense-lex-jmdict-1512210-1": {
     "senseVersion": 1,
     "words": [
-      "返還",
       "払い戻す"
     ]
   },
@@ -23640,6 +30890,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "答え",
       "回答"
+    ]
+  },
+  "sense-lex-jmdict-1512360-1": {
+    "senseVersion": 1,
+    "words": [
+      "瓶"
     ]
   },
   "sense-lex-jmdict-1512410-1": {
@@ -23652,8 +30908,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1512480-1": {
     "senseVersion": 1,
     "words": [
-      "便利",
-      "利益"
+      "利益",
+      "恩恵"
     ]
   },
   "sense-lex-jmdict-1512610-1": {
@@ -23673,50 +30929,55 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1512830-1": {
     "senseVersion": 1,
     "words": [
-      "非難",
-      "弁解"
+      "非難"
     ]
   },
   "sense-lex-jmdict-1513060-1": {
     "senseVersion": 1,
     "words": [
-      "お弁当",
       "食堂"
     ]
   },
   "sense-lex-jmdict-1513065-1": {
     "senseVersion": 1,
     "words": [
-      "弁当",
       "昼ご飯"
     ]
   },
   "sense-lex-jmdict-1513320-1": {
     "senseVersion": 1,
     "words": [
-      "保存",
-      "預金"
+      "預金",
+      "貯金"
     ]
+  },
+  "sense-lex-jmdict-1513440-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1513940-1": {
     "senseVersion": 1,
     "words": [
-      "保管",
-      "貯蔵"
+      "貯蔵",
+      "削除"
     ]
   },
   "sense-lex-jmdict-1514140-1": {
     "senseVersion": 1,
     "words": [
       "逃がす",
-      "逮捕"
+      "取る"
     ]
+  },
+  "sense-lex-jmdict-1514420-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1514580-1": {
     "senseVersion": 1,
     "words": [
-      "補償",
-      "交換"
+      "交換",
+      "交替"
     ]
   },
   "sense-lex-jmdict-1514650-1": {
@@ -23724,6 +30985,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "保証",
       "代わり"
+    ]
+  },
+  "sense-lex-jmdict-1514840-1": {
+    "senseVersion": 1,
+    "words": [
+      "寺"
     ]
   },
   "sense-lex-jmdict-1514930-1": {
@@ -23736,22 +31003,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1514950-1": {
     "senseVersion": 1,
     "words": [
-      "暮らし",
-      "最後"
+      "最後",
+      "末"
     ]
   },
   "sense-lex-jmdict-1514990-1": {
     "senseVersion": 1,
     "words": [
-      "お母さん",
       "ママ"
     ]
   },
   "sense-lex-jmdict-1515340-1": {
     "senseVersion": 1,
     "words": [
-      "包む",
-      "荷物"
+      "荷物",
+      "束"
     ]
   },
   "sense-lex-jmdict-1515510-1": {
@@ -23770,23 +31036,19 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1516160-1": {
     "senseVersion": 1,
-    "words": [
-      "宝石",
-      "宝物"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1516220-1": {
     "senseVersion": 1,
     "words": [
-      "石",
       "玉"
     ]
   },
   "sense-lex-jmdict-1516310-1": {
     "senseVersion": 1,
     "words": [
-      "抱く",
-      "負う"
+      "負う",
+      "引き受ける"
     ]
   },
   "sense-lex-jmdict-1516460-1": {
@@ -23813,43 +31075,54 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1517040-1": {
     "senseVersion": 1,
     "words": [
-      "方法",
-      "計画"
+      "計画",
+      "原則"
     ]
   },
   "sense-lex-jmdict-1517150-1": {
     "senseVersion": 1,
     "words": [
-      "方法",
-      "法律"
+      "規律"
     ]
   },
   "sense-lex-jmdict-1517380-1": {
     "senseVersion": 1,
     "words": [
-      "法律",
-      "主義"
+      "主義",
+      "約束"
     ]
   },
   "sense-lex-jmdict-1518070-1": {
     "senseVersion": 1,
     "words": [
-      "尋ねる",
-      "訪問"
+      "尋ねる"
     ]
   },
   "sense-lex-jmdict-1518130-1": {
     "senseVersion": 1,
     "words": [
-      "十分",
-      "豊富"
+      "十分"
     ]
   },
   "sense-lex-jmdict-1518180-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1518320-1": {
+    "senseVersion": 1,
     "words": [
-      "豊か"
+      "途中で"
     ]
+  },
+  "sense-lex-jmdict-1519170-1": {
+    "senseVersion": 1,
+    "words": [
+      "眼鏡"
+    ]
+  },
+  "sense-lex-jmdict-1519230-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1519290-1": {
     "senseVersion": 1,
@@ -23861,15 +31134,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1519620-1": {
     "senseVersion": 1,
     "words": [
-      "希望",
-      "願い"
+      "願い",
+      "期待"
+    ]
+  },
+  "sense-lex-jmdict-1519750-1": {
+    "senseVersion": 1,
+    "words": [
+      "板"
     ]
   },
   "sense-lex-jmdict-1519830-1": {
     "senseVersion": 1,
     "words": [
       "旅行",
-      "危険"
+      "恐れ"
     ]
   },
   "sense-lex-jmdict-1519970-1": {
@@ -23879,25 +31158,34 @@ export const hintConfusions: HintConfusions = {
       "広げる"
     ]
   },
+  "sense-lex-jmdict-1520260-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1520380-1": {
     "senseVersion": 1,
     "words": [
       "対処",
-      "予防"
+      "阻む"
     ]
   },
   "sense-lex-jmdict-1520570-1": {
     "senseVersion": 1,
     "words": [
-      "防災",
       "警備"
+    ]
+  },
+  "sense-lex-jmdict-1521400-1": {
+    "senseVersion": 1,
+    "words": [
+      "私"
     ]
   },
   "sense-lex-jmdict-1522150-1": {
     "senseVersion": 1,
     "words": [
-      "本棚",
-      "書籍"
+      "書籍",
+      "書物"
     ]
   },
   "sense-lex-jmdict-1522750-1": {
@@ -23907,33 +31195,35 @@ export const hintConfusions: HintConfusions = {
       "代理"
     ]
   },
+  "sense-lex-jmdict-1522980-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1523060-1": {
     "senseVersion": 1,
     "words": [
       "事実",
-      "本物"
+      "嘘"
     ]
+  },
+  "sense-lex-jmdict-1523170-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1523180-1": {
     "senseVersion": 1,
-    "words": [
-      "本当",
-      "偽物"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1523270-1": {
     "senseVersion": 1,
     "words": [
-      "元来",
-      "元々"
+      "元々",
+      "現在"
     ]
   },
   "sense-lex-jmdict-1523400-1": {
     "senseVersion": 1,
-    "words": [
-      "訳（やく）",
-      "通訳"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1523830-1": {
     "senseVersion": 1,
@@ -23942,12 +31232,27 @@ export const hintConfusions: HintConfusions = {
       "紛争"
     ]
   },
-  "sense-lex-jmdict-1524720-1": {
+  "sense-lex-jmdict-1524590-1": {
     "senseVersion": 1,
     "words": [
-      "毎週",
-      "日常"
+      "弟"
     ]
+  },
+  "sense-lex-jmdict-1524690-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1524700-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1524720-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1524730-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1524750-1": {
     "senseVersion": 1,
@@ -23963,6 +31268,34 @@ export const hintConfusions: HintConfusions = {
       "改めて"
     ]
   },
+  "sense-lex-jmdict-1525780-1": {
+    "senseVersion": 1,
+    "words": [
+      "必ず"
+    ]
+  },
+  "sense-lex-jmdict-1526360-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1526920-1": {
+    "senseVersion": 1,
+    "words": [
+      "アニメ"
+    ]
+  },
+  "sense-lex-jmdict-1527040-1": {
+    "senseVersion": 1,
+    "words": [
+      "醤油"
+    ]
+  },
+  "sense-lex-jmdict-1527070-1": {
+    "senseVersion": 1,
+    "words": [
+      "敵"
+    ]
+  },
   "sense-lex-jmdict-1527110-1": {
     "senseVersion": 1,
     "words": [
@@ -23973,9 +31306,17 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1527560-1": {
     "senseVersion": 1,
     "words": [
-      "成熟",
-      "若い"
+      "若い",
+      "幼い"
     ]
+  },
+  "sense-lex-jmdict-1527770-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1527830-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1528040-1": {
     "senseVersion": 1,
@@ -23991,18 +31332,22 @@ export const hintConfusions: HintConfusions = {
       "反省"
     ]
   },
+  "sense-lex-jmdict-1528150-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1528280-1": {
     "senseVersion": 1,
     "words": [
-      "集中",
-      "群れ"
+      "群れ",
+      "群がる"
     ]
   },
   "sense-lex-jmdict-1528290-1": {
     "senseVersion": 1,
     "words": [
-      "密集",
-      "近い"
+      "近い",
+      "親しい"
     ]
   },
   "sense-lex-jmdict-1528490-1": {
@@ -24019,11 +31364,27 @@ export const hintConfusions: HintConfusions = {
       "私立"
     ]
   },
+  "sense-lex-jmdict-1529270-1": {
+    "senseVersion": 1,
+    "words": [
+      "国歌"
+    ]
+  },
+  "sense-lex-jmdict-1529330-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1529410-1": {
     "senseVersion": 1,
     "words": [
       "目標",
       "期待"
+    ]
+  },
+  "sense-lex-jmdict-1529500-1": {
+    "senseVersion": 1,
+    "words": [
+      "熱心"
     ]
   },
   "sense-lex-jmdict-1529530-1": {
@@ -24033,33 +31394,48 @@ export const hintConfusions: HintConfusions = {
       "忘れる"
     ]
   },
+  "sense-lex-jmdict-1529560-1": {
+    "senseVersion": 1,
+    "words": [
+      "有り"
+    ]
+  },
   "sense-lex-jmdict-1529880-1": {
     "senseVersion": 1,
     "words": [
-      "有限",
-      "永遠"
+      "永遠",
+      "永久"
     ]
   },
   "sense-lex-jmdict-1529930-1": {
     "senseVersion": 1,
     "words": [
-      "有効",
       "虚しい"
     ]
   },
   "sense-lex-jmdict-1529940-1": {
     "senseVersion": 1,
     "words": [
-      "無言",
-      "静か"
+      "静か",
+      "穏やか"
+    ]
+  },
+  "sense-lex-jmdict-1530020-1": {
+    "senseVersion": 1,
+    "words": [
+      "見落とし"
     ]
   },
   "sense-lex-jmdict-1530080-1": {
     "senseVersion": 1,
     "words": [
-      "無知",
-      "単純"
+      "単純",
+      "素朴"
     ]
+  },
+  "sense-lex-jmdict-1530280-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1530510-1": {
     "senseVersion": 1,
@@ -24071,15 +31447,24 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1530520-1": {
     "senseVersion": 1,
     "words": [
-      "浪費",
-      "無駄"
+      "浪費"
     ]
+  },
+  "sense-lex-jmdict-1530600-1": {
+    "senseVersion": 1,
+    "words": [
+      "許可"
+    ]
+  },
+  "sense-lex-jmdict-1530630-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1530670-1": {
     "senseVersion": 1,
     "words": [
-      "無理",
-      "不当"
+      "不当",
+      "極端"
     ]
   },
   "sense-lex-jmdict-1530750-1": {
@@ -24106,8 +31491,22 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1530970-1": {
     "senseVersion": 1,
     "words": [
-      "無駄",
-      "難しい"
+      "難しい",
+      "強引"
+    ]
+  },
+  "sense-lex-jmdict-1531040-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1531060-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1531090-1": {
+    "senseVersion": 1,
+    "words": [
+      "相違"
     ]
   },
   "sense-lex-jmdict-1531110-1": {
@@ -24127,16 +31526,17 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1531330-1": {
     "senseVersion": 1,
     "words": [
-      "名前",
-      "名誉"
+      "信用",
+      "評判"
     ]
   },
   "sense-lex-jmdict-1531500-1": {
     "senseVersion": 1,
-    "words": [
-      "新作",
-      "傑作"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1531520-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1531530-1": {
     "senseVersion": 1,
@@ -24148,8 +31548,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1531620-1": {
     "senseVersion": 1,
     "words": [
-      "名声",
-      "名"
+      "見出し",
+      "題"
     ]
   },
   "sense-lex-jmdict-1531680-1": {
@@ -24161,23 +31561,25 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1531710-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1531830-1": {
+    "senseVersion": 1,
     "words": [
-      "名",
-      "名字"
+      "目次"
     ]
   },
   "sense-lex-jmdict-1531870-1": {
     "senseVersion": 1,
     "words": [
-      "有名",
-      "名"
+      "信用",
+      "評判"
     ]
   },
   "sense-lex-jmdict-1531940-1": {
     "senseVersion": 1,
     "words": [
-      "生命",
-      "寿命"
+      "生存"
     ]
   },
   "sense-lex-jmdict-1531950-1": {
@@ -24197,8 +31599,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1532310-1": {
     "senseVersion": 1,
     "words": [
-      "明確",
-      "確か"
+      "確か",
+      "確実"
     ]
   },
   "sense-lex-jmdict-1532350-1": {
@@ -24211,23 +31613,31 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1532410-1": {
     "senseVersion": 1,
     "words": [
-      "明らか",
-      "確か"
+      "精密",
+      "厳密"
     ]
   },
   "sense-lex-jmdict-1532620-1": {
     "senseVersion": 1,
     "words": [
       "曖昧",
-      "明らか"
+      "顕著"
     ]
   },
   "sense-lex-jmdict-1532640-1": {
     "senseVersion": 1,
     "words": [
-      "明瞭",
-      "明るい"
+      "軽快",
+      "愉快"
     ]
+  },
+  "sense-lex-jmdict-1532750-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1532760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1532800-1": {
     "senseVersion": 1,
@@ -24245,29 +31655,34 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1532880-1": {
     "senseVersion": 1,
-    "words": [
-      "鳴る"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1533200-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1533230-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1533330-1": {
     "senseVersion": 1,
     "words": [
-      "毛",
-      "木綿"
+      "毛"
     ]
   },
   "sense-lex-jmdict-1533550-1": {
     "senseVersion": 1,
     "words": [
       "煩わしい",
-      "面倒くさい"
+      "簡単"
     ]
   },
   "sense-lex-jmdict-1533560-1": {
     "senseVersion": 1,
     "words": [
-      "面倒",
-      "手軽"
+      "手軽",
+      "退屈"
     ]
   },
   "sense-lex-jmdict-1533580-1": {
@@ -24277,11 +31692,15 @@ export const hintConfusions: HintConfusions = {
       "つまらない"
     ]
   },
+  "sense-lex-jmdict-1533660-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1533690-1": {
     "senseVersion": 1,
     "words": [
-      "模型",
-      "代表"
+      "代表",
+      "標準"
     ]
   },
   "sense-lex-jmdict-1533700-1": {
@@ -24305,26 +31724,39 @@ export const hintConfusions: HintConfusions = {
       "羽"
     ]
   },
+  "sense-lex-jmdict-1533950-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1534280-1": {
     "senseVersion": 1,
     "words": [
-      "要点",
-      "弱点"
+      "短所"
+    ]
+  },
+  "sense-lex-jmdict-1534490-1": {
+    "senseVersion": 1,
+    "words": [
+      "損する"
     ]
   },
   "sense-lex-jmdict-1534520-1": {
     "senseVersion": 1,
-    "words": [
-      "樹木",
-      "木曜日"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1534870-1": {
     "senseVersion": 1,
     "words": [
-      "絹",
-      "綿"
+      "絹"
     ]
+  },
+  "sense-lex-jmdict-1534890-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1535710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1535780-1": {
     "senseVersion": 1,
@@ -24343,15 +31775,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1535930-1": {
     "senseVersion": 1,
     "words": [
-      "質問",
-      "答え"
+      "答え",
+      "課題"
     ]
   },
   "sense-lex-jmdict-1535960-1": {
     "senseVersion": 1,
     "words": [
       "訪ねる",
-      "問う"
+      "尋ねる"
     ]
   },
   "sense-lex-jmdict-1536060-1": {
@@ -24371,15 +31803,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1537150-1": {
     "senseVersion": 1,
     "words": [
-      "夕暮れ",
-      "明ける"
+      "夕暮れ"
     ]
   },
   "sense-lex-jmdict-1537270-1": {
     "senseVersion": 1,
     "words": [
       "室内",
-      "外"
+      "表（おもて）"
+    ]
+  },
+  "sense-lex-jmdict-1537370-1": {
+    "senseVersion": 1,
+    "words": [
+      "果物"
     ]
   },
   "sense-lex-jmdict-1537430-1": {
@@ -24387,6 +31824,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "意欲",
       "希望"
+    ]
+  },
+  "sense-lex-jmdict-1537470-1": {
+    "senseVersion": 1,
+    "words": [
+      "飼育"
     ]
   },
   "sense-lex-jmdict-1537820-1": {
@@ -24427,71 +31870,85 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1538160-1": {
     "senseVersion": 1,
     "words": [
-      "毒",
-      "薬品"
+      "毒"
     ]
   },
   "sense-lex-jmdict-1538280-1": {
     "senseVersion": 1,
-    "words": [
-      "食品",
-      "薬"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1538350-1": {
     "senseVersion": 1,
     "words": [
-      "写す",
-      "翻訳する"
+      "写す"
     ]
   },
   "sense-lex-jmdict-1538560-1": {
     "senseVersion": 1,
     "words": [
       "楽しい",
-      "不快"
+      "良い"
     ]
+  },
+  "sense-lex-jmdict-1538690-1": {
+    "senseVersion": 1,
+    "words": [
+      "安心"
+    ]
+  },
+  "sense-lex-jmdict-1538810-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1538850-1": {
     "senseVersion": 1,
     "words": [
-      "配送",
-      "交通"
+      "交通",
+      "運ぶ"
     ]
   },
   "sense-lex-jmdict-1538920-1": {
     "senseVersion": 1,
     "words": [
-      "多数",
-      "一つ"
+      "多数"
     ]
   },
   "sense-lex-jmdict-1539100-1": {
     "senseVersion": 1,
     "words": [
-      "上位",
-      "優勢"
+      "利点",
+      "長所"
     ]
   },
   "sense-lex-jmdict-1539120-1": {
     "senseVersion": 1,
-    "words": [
-      "優位",
-      "優勢"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1539230-1": {
     "senseVersion": 1,
     "words": [
-      "優れた",
-      "見事"
+      "見事",
+      "良い"
     ]
+  },
+  "sense-lex-jmdict-1539280-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1539340-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1539660-1": {
+    "senseVersion": 1,
     "words": [
-      "優勝",
-      "優位"
+      "臆病"
+    ]
+  },
+  "sense-lex-jmdict-1539740-1": {
+    "senseVersion": 1,
+    "words": [
+      "無謀"
     ]
   },
   "sense-lex-jmdict-1540080-1": {
@@ -24505,7 +31962,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "恋愛",
-      "友好"
+      "付き合い"
     ]
   },
   "sense-lex-jmdict-1540170-1": {
@@ -24518,8 +31975,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1540950-1": {
     "senseVersion": 1,
     "words": [
-      "持つ",
-      "所有する"
+      "持つ"
     ]
   },
   "sense-lex-jmdict-1541060-1": {
@@ -24532,51 +31988,72 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1541120-1": {
     "senseVersion": 1,
     "words": [
-      "有害",
-      "有利"
+      "便利",
+      "良い"
+    ]
+  },
+  "sense-lex-jmdict-1541180-1": {
+    "senseVersion": 1,
+    "words": [
+      "断片的"
     ]
   },
   "sense-lex-jmdict-1541290-1": {
     "senseVersion": 1,
     "words": [
-      "効く",
-      "効果的"
+      "妥当"
     ]
+  },
+  "sense-lex-jmdict-1541560-1": {
+    "senseVersion": 1,
+    "words": [
+      "迷惑"
+    ]
+  },
+  "sense-lex-jmdict-1541570-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1541600-1": {
     "senseVersion": 1,
     "words": [
-      "有名",
-      "期待"
+      "期待",
+      "好調"
+    ]
+  },
+  "sense-lex-jmdict-1541610-1": {
+    "senseVersion": 1,
+    "words": [
+      "多少"
     ]
   },
   "sense-lex-jmdict-1541620-1": {
     "senseVersion": 1,
     "words": [
-      "人気",
-      "著名"
+      "人気"
     ]
+  },
+  "sense-lex-jmdict-1541690-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1541710-1": {
     "senseVersion": 1,
     "words": [
-      "有益",
-      "期待"
+      "期待",
+      "好調"
     ]
   },
   "sense-lex-jmdict-1542020-1": {
     "senseVersion": 1,
     "words": [
       "強制",
-      "指導"
+      "案内"
     ]
   },
   "sense-lex-jmdict-1542040-1": {
     "senseVersion": 1,
-    "words": [
-      "誘導",
-      "誘う"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1542070-1": {
     "senseVersion": 1,
@@ -24585,26 +32062,55 @@ export const hintConfusions: HintConfusions = {
       "休み"
     ]
   },
+  "sense-lex-jmdict-1542380-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1542430-1": {
+    "senseVersion": 1,
+    "words": [
+      "駅"
+    ]
+  },
   "sense-lex-jmdict-1542600-1": {
     "senseVersion": 1,
     "words": [
       "寄付",
-      "金融"
+      "借金"
+    ]
+  },
+  "sense-lex-jmdict-1542640-1": {
+    "senseVersion": 1,
+    "words": [
+      "今晩"
+    ]
+  },
+  "sense-lex-jmdict-1542790-1": {
+    "senseVersion": 1,
+    "words": [
+      "夜"
     ]
   },
   "sense-lex-jmdict-1542910-1": {
     "senseVersion": 1,
-    "words": [
-      "予測",
-      "直感"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1542920-1": {
     "senseVersion": 1,
     "words": [
-      "予測",
-      "期待"
+      "見通し",
+      "希望"
     ]
+  },
+  "sense-lex-jmdict-1543000-1": {
+    "senseVersion": 1,
+    "words": [
+      "費用"
+    ]
+  },
+  "sense-lex-jmdict-1543070-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1543240-1": {
     "senseVersion": 1,
@@ -24623,22 +32129,21 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1543630-1": {
     "senseVersion": 1,
     "words": [
-      "予測",
-      "見通し"
+      "見通し",
+      "見込み"
     ]
   },
   "sense-lex-jmdict-1543750-1": {
     "senseVersion": 1,
     "words": [
-      "予定",
-      "応募"
+      "応募",
+      "登録"
     ]
   },
   "sense-lex-jmdict-1543980-1": {
     "senseVersion": 1,
     "words": [
-      "暇",
-      "休暇"
+      "レジャー"
     ]
   },
   "sense-lex-jmdict-1544040-1": {
@@ -24657,8 +32162,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1544380-1": {
     "senseVersion": 1,
     "words": [
-      "余暇",
-      "余裕"
+      "ゆとり"
     ]
   },
   "sense-lex-jmdict-1544520-1": {
@@ -24678,7 +32182,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1545020-1": {
     "senseVersion": 1,
     "words": [
-      "貯金",
       "保管"
     ]
   },
@@ -24699,44 +32202,40 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1545420-1": {
     "senseVersion": 1,
     "words": [
-      "面積",
-      "体積"
+      "量"
     ]
   },
   "sense-lex-jmdict-1545600-1": {
     "senseVersion": 1,
     "words": [
-      "揺らぐ",
-      "振動"
+      "振動",
+      "妨げる"
     ]
   },
   "sense-lex-jmdict-1545630-1": {
     "senseVersion": 1,
     "words": [
-      "揺れる",
-      "振動"
+      "振動",
+      "振る"
     ]
   },
   "sense-lex-jmdict-1545830-1": {
     "senseVersion": 1,
     "words": [
-      "形式",
-      "形態"
+      "形態",
+      "形"
     ]
   },
   "sense-lex-jmdict-1545840-1": {
     "senseVersion": 1,
     "words": [
-      "様式",
-      "時期"
+      "時期",
+      "状態"
     ]
   },
   "sense-lex-jmdict-1546040-1": {
     "senseVersion": 1,
-    "words": [
-      "溶ける",
-      "溶く"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1546050-1": {
     "senseVersion": 1,
@@ -24748,22 +32247,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1546090-1": {
     "senseVersion": 1,
     "words": [
-      "溶かす",
       "まとめる"
     ]
   },
   "sense-lex-jmdict-1546200-1": {
     "senseVersion": 1,
     "words": [
-      "用事",
-      "用途"
+      "使い道",
+      "作業"
     ]
   },
   "sense-lex-jmdict-1546210-1": {
     "senseVersion": 1,
     "words": [
-      "使う",
-      "使用"
+      "使う"
     ]
   },
   "sense-lex-jmdict-1546220-1": {
@@ -24775,24 +32272,18 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1546250-1": {
     "senseVersion": 1,
-    "words": [
-      "要件",
-      "用事"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1546270-1": {
     "senseVersion": 1,
     "words": [
-      "単語",
-      "言葉"
+      "言葉",
+      "言葉遣い"
     ]
   },
   "sense-lex-jmdict-1546300-1": {
     "senseVersion": 1,
-    "words": [
-      "用",
-      "仕事"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1546310-1": {
     "senseVersion": 1,
@@ -24805,7 +32296,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "使い道",
-      "用"
+      "目的"
     ]
   },
   "sense-lex-jmdict-1546590-1": {
@@ -24817,8 +32308,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1546610-1": {
     "senseVersion": 1,
     "words": [
-      "要望する",
-      "必要"
+      "求める"
     ]
   },
   "sense-lex-jmdict-1546620-1": {
@@ -24826,6 +32316,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "つまり",
       "結局"
+    ]
+  },
+  "sense-lex-jmdict-1546670-1": {
+    "senseVersion": 1,
+    "words": [
+      "結果"
     ]
   },
   "sense-lex-jmdict-1546680-1": {
@@ -24838,15 +32334,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1546770-1": {
     "senseVersion": 1,
     "words": [
-      "趣旨",
-      "目次"
+      "目次",
+      "内容"
     ]
   },
   "sense-lex-jmdict-1546780-1": {
     "senseVersion": 1,
     "words": [
-      "要望",
-      "強制"
+      "強制",
+      "注文"
     ]
   },
   "sense-lex-jmdict-1546800-1": {
@@ -24866,21 +32362,20 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1546830-1": {
     "senseVersion": 1,
     "words": [
-      "要請",
-      "希望"
+      "申請",
+      "請求"
     ]
   },
   "sense-lex-jmdict-1546850-1": {
     "senseVersion": 1,
     "words": [
-      "要旨",
-      "趣旨"
+      "趣旨",
+      "巧み"
     ]
   },
   "sense-lex-jmdict-1546880-1": {
     "senseVersion": 1,
     "words": [
-      "踊る",
       "ダンス"
     ]
   },
@@ -24888,7 +32383,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "朗らか",
-      "元気"
+      "活発"
     ]
   },
   "sense-lex-jmdict-1547090-1": {
@@ -24901,30 +32396,65 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1547190-1": {
     "senseVersion": 1,
     "words": [
-      "育成",
-      "教育"
+      "教育",
+      "練習"
     ]
   },
   "sense-lex-jmdict-1547270-1": {
     "senseVersion": 1,
     "words": [
-      "抑制",
-      "制限"
+      "制限",
+      "拘束"
     ]
   },
   "sense-lex-jmdict-1547290-1": {
     "senseVersion": 1,
     "words": [
       "禁止",
-      "規制"
+      "削減"
     ]
   },
   "sense-lex-jmdict-1547330-1": {
     "senseVersion": 1,
     "words": [
-      "欲しがる",
       "願う"
     ]
+  },
+  "sense-lex-jmdict-1547390-1": {
+    "senseVersion": 1,
+    "words": [
+      "控えめ"
+    ]
+  },
+  "sense-lex-jmdict-1547530-1": {
+    "senseVersion": 1,
+    "words": [
+      "羽"
+    ]
+  },
+  "sense-lex-jmdict-1547600-1": {
+    "senseVersion": 1,
+    "words": [
+      "素肌"
+    ]
+  },
+  "sense-lex-jmdict-1547900-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1548010-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1548200-1": {
+    "senseVersion": 1,
+    "words": [
+      "帰国"
+    ]
+  },
+  "sense-lex-jmdict-1548220-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1548380-1": {
     "senseVersion": 1,
@@ -24940,6 +32470,16 @@ export const hintConfusions: HintConfusions = {
       "雑"
     ]
   },
+  "sense-lex-jmdict-1549120-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1549140-1": {
+    "senseVersion": 1,
+    "words": [
+      "玉子"
+    ]
+  },
   "sense-lex-jmdict-1549350-1": {
     "senseVersion": 1,
     "words": [
@@ -24950,9 +32490,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1549470-1": {
     "senseVersion": 1,
     "words": [
-      "収益",
-      "売上"
+      "売上",
+      "採算"
     ]
+  },
+  "sense-lex-jmdict-1549500-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1549550-1": {
     "senseVersion": 1,
@@ -24965,7 +32509,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "売上",
-      "利益"
+      "収益"
     ]
   },
   "sense-lex-jmdict-1549620-1": {
@@ -24978,8 +32522,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1549660-1": {
     "senseVersion": 1,
     "words": [
-      "活用",
-      "使用"
+      "使う",
+      "反映"
     ]
   },
   "sense-lex-jmdict-1549910-1": {
@@ -24996,6 +32540,12 @@ export const hintConfusions: HintConfusions = {
       "筋"
     ]
   },
+  "sense-lex-jmdict-1550020-1": {
+    "senseVersion": 1,
+    "words": [
+      "現実"
+    ]
+  },
   "sense-lex-jmdict-1550140-1": {
     "senseVersion": 1,
     "words": [
@@ -25007,7 +32557,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "実践",
-      "原理"
+      "学説"
     ]
   },
   "sense-lex-jmdict-1550190-1": {
@@ -25021,7 +32571,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "覆す",
-      "返す"
+      "転がす"
     ]
   },
   "sense-lex-jmdict-1550840-1": {
@@ -25034,7 +32584,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1550880-1": {
     "senseVersion": 1,
     "words": [
-      "結婚",
       "別れる"
     ]
   },
@@ -25062,8 +32611,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1551350-1": {
     "senseVersion": 1,
     "words": [
-      "歩き続ける",
-      "停止"
+      "歩き続ける"
     ]
   },
   "sense-lex-jmdict-1551710-1": {
@@ -25076,8 +32624,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1551840-1": {
     "senseVersion": 1,
     "words": [
-      "行政",
-      "法律"
+      "行政"
     ]
   },
   "sense-lex-jmdict-1551960-1": {
@@ -25090,8 +32637,26 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1552130-1": {
     "senseVersion": 1,
     "words": [
-      "流す",
-      "方法"
+      "方法",
+      "傾向"
+    ]
+  },
+  "sense-lex-jmdict-1552230-1": {
+    "senseVersion": 1,
+    "words": [
+      "河口"
+    ]
+  },
+  "sense-lex-jmdict-1552310-1": {
+    "senseVersion": 1,
+    "words": [
+      "廃れる"
+    ]
+  },
+  "sense-lex-jmdict-1552390-1": {
+    "senseVersion": 1,
+    "words": [
+      "意外"
     ]
   },
   "sense-lex-jmdict-1552440-1": {
@@ -25101,24 +32666,47 @@ export const hintConfusions: HintConfusions = {
       "回転"
     ]
   },
+  "sense-lex-jmdict-1552740-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行"
+    ]
+  },
+  "sense-lex-jmdict-1552750-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行者"
+    ]
+  },
   "sense-lex-jmdict-1553120-1": {
     "senseVersion": 1,
     "words": [
-      "旅行",
-      "通勤"
+      "通勤",
+      "移動"
+    ]
+  },
+  "sense-lex-jmdict-1553130-1": {
+    "senseVersion": 1,
+    "words": [
+      "ホテル"
     ]
   },
   "sense-lex-jmdict-1553170-1": {
     "senseVersion": 1,
     "words": [
-      "旅",
-      "通勤"
+      "通勤",
+      "移動"
+    ]
+  },
+  "sense-lex-jmdict-1553820-1": {
+    "senseVersion": 1,
+    "words": [
+      "支払"
     ]
   },
   "sense-lex-jmdict-1554010-1": {
     "senseVersion": 1,
     "words": [
-      "片方",
       "共に"
     ]
   },
@@ -25126,7 +32714,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "並行",
-      "両方"
+      "共存"
     ]
   },
   "sense-lex-jmdict-1554200-1": {
@@ -25158,10 +32746,11 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1554570-1": {
     "senseVersion": 1,
-    "words": [
-      "知識",
-      "常識"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1554580-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1554640-1": {
     "senseVersion": 1,
@@ -25173,8 +32762,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1554720-1": {
     "senseVersion": 1,
     "words": [
-      "領土",
-      "世界"
+      "世界",
+      "地区"
+    ]
+  },
+  "sense-lex-jmdict-1554730-1": {
+    "senseVersion": 1,
+    "words": [
+      "旅行者"
     ]
   },
   "sense-lex-jmdict-1554750-1": {
@@ -25186,30 +32781,26 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1554790-1": {
     "senseVersion": 1,
-    "words": [
-      "領域",
-      "国土"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1554820-1": {
     "senseVersion": 1,
     "words": [
-      "能力",
-      "体力"
+      "機能",
+      "勢い"
     ]
   },
   "sense-lex-jmdict-1554940-1": {
     "senseVersion": 1,
     "words": [
       "弱々しい",
-      "有力"
+      "活発"
     ]
   },
   "sense-lex-jmdict-1555440-1": {
     "senseVersion": 1,
     "words": [
-      "森",
-      "森林"
+      "森"
     ]
   },
   "sense-lex-jmdict-1555560-1": {
@@ -25217,6 +32808,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "望む",
       "直面"
+    ]
+  },
+  "sense-lex-jmdict-1555610-1": {
+    "senseVersion": 1,
+    "words": [
+      "定期"
     ]
   },
   "sense-lex-jmdict-1555710-1": {
@@ -25236,56 +32833,57 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1556100-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "類推"
+      "同一"
     ]
   },
   "sense-lex-jmdict-1556120-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1556370-1": {
+    "senseVersion": 1,
     "words": [
-      "推測",
-      "類似"
+      "つまり"
     ]
   },
   "sense-lex-jmdict-1556410-1": {
     "senseVersion": 1,
     "words": [
-      "原則",
-      "除外"
+      "原則"
     ]
   },
   "sense-lex-jmdict-1556740-1": {
     "senseVersion": 1,
-    "words": [
-      "冷める",
-      "冷やす"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1556750-1": {
     "senseVersion": 1,
     "words": [
-      "冷ます",
-      "冷える"
+      "和らぐ",
+      "静まる"
     ]
   },
   "sense-lex-jmdict-1557050-1": {
     "senseVersion": 1,
     "words": [
-      "冷淡",
-      "安定"
+      "安定",
+      "余裕"
     ]
+  },
+  "sense-lex-jmdict-1557110-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1557150-1": {
     "senseVersion": 1,
     "words": [
-      "冷静",
-      "冷たい"
+      "平気",
+      "寒い"
     ]
   },
   "sense-lex-jmdict-1557290-1": {
     "senseVersion": 1,
     "words": [
-      "暖房",
       "エアコン"
     ]
   },
@@ -25293,7 +32891,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "感謝",
-      "お礼"
+      "賞金"
     ]
   },
   "sense-lex-jmdict-1557470-1": {
@@ -25303,12 +32901,21 @@ export const hintConfusions: HintConfusions = {
       "法律"
     ]
   },
-  "sense-lex-jmdict-1558370-1": {
+  "sense-lex-jmdict-1557630-1": {
     "senseVersion": 1,
     "words": [
-      "電車",
-      "汽車"
+      "一"
     ]
+  },
+  "sense-lex-jmdict-1558050-1": {
+    "senseVersion": 1,
+    "words": [
+      "伝統"
+    ]
+  },
+  "sense-lex-jmdict-1558370-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1558670-1": {
     "senseVersion": 1,
@@ -25320,15 +32927,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1558920-1": {
     "senseVersion": 1,
     "words": [
-      "友人",
-      "彼女"
+      "彼女",
+      "彼"
     ]
   },
   "sense-lex-jmdict-1559160-1": {
     "senseVersion": 1,
     "words": [
-      "演習",
-      "稽古"
+      "稽古",
+      "試合"
     ]
   },
   "sense-lex-jmdict-1559260-1": {
@@ -25355,29 +32962,29 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1559610-1": {
     "senseVersion": 1,
     "words": [
-      "継続",
-      "延長"
+      "延長",
+      "列"
     ]
   },
   "sense-lex-jmdict-1559660-1": {
     "senseVersion": 1,
     "words": [
-      "連続",
-      "合同"
+      "合同",
+      "結束"
     ]
+  },
+  "sense-lex-jmdict-1559720-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1559790-1": {
     "senseVersion": 1,
-    "words": [
-      "連盟",
-      "連合"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1559870-1": {
     "senseVersion": 1,
     "words": [
-      "連邦",
-      "連合"
+      "組合"
     ]
   },
   "sense-lex-jmdict-1560120-1": {
@@ -25398,7 +33005,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "手間",
-      "努力"
+      "効率"
+    ]
+  },
+  "sense-lex-jmdict-1560670-1": {
+    "senseVersion": 1,
+    "words": [
+      "部屋"
     ]
   },
   "sense-lex-jmdict-1560710-1": {
@@ -25407,6 +33020,10 @@ export const hintConfusions: HintConfusions = {
       "陽気",
       "陰気"
     ]
+  },
+  "sense-lex-jmdict-1560730-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1560800-1": {
     "senseVersion": 1,
@@ -25418,50 +33035,53 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1561090-1": {
     "senseVersion": 1,
     "words": [
-      "年寄り",
-      "成人"
+      "年寄り"
+    ]
+  },
+  "sense-lex-jmdict-1561470-1": {
+    "senseVersion": 1,
+    "words": [
+      "六つ"
     ]
   },
   "sense-lex-jmdict-1561590-1": {
     "senseVersion": 1,
     "words": [
-      "録画",
-      "記録"
+      "撮影"
     ]
   },
   "sense-lex-jmdict-1561620-1": {
     "senseVersion": 1,
     "words": [
-      "論ずる",
-      "話す"
+      "話す",
+      "語る"
     ]
   },
   "sense-lex-jmdict-1561640-1": {
     "senseVersion": 1,
     "words": [
-      "論じる",
-      "述べる"
+      "述べる",
+      "語る"
     ]
   },
   "sense-lex-jmdict-1561760-1": {
     "senseVersion": 1,
     "words": [
       "相談",
-      "議論"
+      "喧嘩"
     ]
   },
   "sense-lex-jmdict-1561840-1": {
     "senseVersion": 1,
     "words": [
-      "作文",
-      "記事"
+      "記事",
+      "レポート"
     ]
   },
   "sense-lex-jmdict-1561850-1": {
     "senseVersion": 1,
     "words": [
-      "筋",
-      "倫理"
+      "筋"
     ]
   },
   "sense-lex-jmdict-1561940-1": {
@@ -25474,9 +33094,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1561960-1": {
     "senseVersion": 1,
     "words": [
-      "和らぐ",
       "緩める"
     ]
+  },
+  "sense-lex-jmdict-1562180-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1562300-1": {
     "senseVersion": 1,
@@ -25488,15 +33111,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1562310-1": {
     "senseVersion": 1,
     "words": [
-      "話す",
-      "論じる"
+      "論じる",
+      "論ずる"
     ]
   },
   "sense-lex-jmdict-1562400-1": {
     "senseVersion": 1,
     "words": [
-      "題名",
-      "話"
+      "テーマ"
     ]
   },
   "sense-lex-jmdict-1562510-1": {
@@ -25511,6 +33133,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "中",
       "横"
+    ]
+  },
+  "sense-lex-jmdict-1562800-1": {
+    "senseVersion": 1,
+    "words": [
+      "湖"
     ]
   },
   "sense-lex-jmdict-1564360-1": {
@@ -25530,8 +33158,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1565500-1": {
     "senseVersion": 1,
     "words": [
-      "好み",
       "志向"
+    ]
+  },
+  "sense-lex-jmdict-1565750-1": {
+    "senseVersion": 1,
+    "words": [
+      "誇り"
+    ]
+  },
+  "sense-lex-jmdict-1566060-1": {
+    "senseVersion": 1,
+    "words": [
+      "率直"
     ]
   },
   "sense-lex-jmdict-1567610-1": {
@@ -25585,31 +33224,46 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1575940-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1575990-1": {
+    "senseVersion": 1,
     "words": [
-      "一人",
-      "家族"
+      "長話"
     ]
+  },
+  "sense-lex-jmdict-1576050-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1576060-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1576100-1": {
     "senseVersion": 1,
     "words": [
       "永久",
-      "一度"
+      "先ず"
     ]
   },
   "sense-lex-jmdict-1576150-1": {
     "senseVersion": 1,
     "words": [
-      "二人",
       "孤立"
     ]
   },
+  "sense-lex-jmdict-1576200-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1576250-1": {
     "senseVersion": 1,
-    "words": [
-      "一応",
-      "一旦"
-    ]
+    "words": []
+  },
+  "sense-lex-jmdict-1576260-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1576360-1": {
     "senseVersion": 1,
@@ -25621,22 +33275,31 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1576520-1": {
     "senseVersion": 1,
     "words": [
-      "永遠",
-      "一時"
+      "一時",
+      "無限"
     ]
   },
   "sense-lex-jmdict-1576570-1": {
     "senseVersion": 1,
     "words": [
       "迅速",
-      "円満"
+      "和やか"
     ]
+  },
+  "sense-lex-jmdict-1576760-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1576900-1": {
     "senseVersion": 1,
     "words": [
-      "声",
-      "騒音"
+      "声"
+    ]
+  },
+  "sense-lex-jmdict-1577040-1": {
+    "senseVersion": 1,
+    "words": [
+      "洗顔"
     ]
   },
   "sense-lex-jmdict-1577100-1": {
@@ -25646,32 +33309,56 @@ export const hintConfusions: HintConfusions = {
       "どんな"
     ]
   },
+  "sense-lex-jmdict-1577120-1": {
+    "senseVersion": 1,
+    "words": [
+      "どう"
+    ]
+  },
+  "sense-lex-jmdict-1577140-1": {
+    "senseVersion": 1,
+    "words": [
+      "いつ"
+    ]
+  },
   "sense-lex-jmdict-1577280-1": {
     "senseVersion": 1,
     "words": [
-      "余暇",
-      "休み"
+      "休み",
+      "余裕"
+    ]
+  },
+  "sense-lex-jmdict-1577670-1": {
+    "senseVersion": 1,
+    "words": [
+      "帽子"
     ]
   },
   "sense-lex-jmdict-1577730-1": {
     "senseVersion": 1,
     "words": [
       "貸出",
-      "寄付"
+      "プレゼント"
     ]
   },
   "sense-lex-jmdict-1577980-1": {
     "senseVersion": 1,
     "words": [
       "ある",
-      "居る（おる）"
+      "おる"
     ]
   },
   "sense-lex-jmdict-1577985-1": {
     "senseVersion": 1,
     "words": [
       "いる",
-      "居る（いる）"
+      "ある"
+    ]
+  },
+  "sense-lex-jmdict-1578010-1": {
+    "senseVersion": 1,
+    "words": [
+      "鳥"
     ]
   },
   "sense-lex-jmdict-1578050-1": {
@@ -25684,15 +33371,24 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1578075-1": {
     "senseVersion": 1,
     "words": [
-      "脅す",
-      "驚かす"
+      "驚かす",
+      "恐怖"
     ]
   },
   "sense-lex-jmdict-1578150-1": {
     "senseVersion": 1,
     "words": [
-      "八",
-      "九つ"
+      "八"
+    ]
+  },
+  "sense-lex-jmdict-1578300-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1578700-1": {
+    "senseVersion": 1,
+    "words": [
+      "店"
     ]
   },
   "sense-lex-jmdict-1578790-1": {
@@ -25706,7 +33402,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "提携",
-      "総合"
+      "統一"
     ]
   },
   "sense-lex-jmdict-1579080-1": {
@@ -25719,37 +33415,47 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1579110-1": {
     "senseVersion": 1,
     "words": [
-      "明日",
       "現代"
     ]
+  },
+  "sense-lex-jmdict-1579130-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1579210-1": {
     "senseVersion": 1,
     "words": [
-      "途中",
-      "中途"
+      "終了"
     ]
   },
   "sense-lex-jmdict-1579350-1": {
     "senseVersion": 1,
     "words": [
-      "四",
-      "三つ"
+      "四"
     ]
   },
   "sense-lex-jmdict-1579470-1": {
     "senseVersion": 1,
     "words": [
-      "五",
-      "四つ"
+      "五"
+    ]
+  },
+  "sense-lex-jmdict-1579490-1": {
+    "senseVersion": 1,
+    "words": [
+      "兄弟"
     ]
   },
   "sense-lex-jmdict-1579510-1": {
     "senseVersion": 1,
     "words": [
       "公布",
-      "実施"
+      "強制"
     ]
+  },
+  "sense-lex-jmdict-1579630-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1579720-1": {
     "senseVersion": 1,
@@ -25758,11 +33464,17 @@ export const hintConfusions: HintConfusions = {
       "惨め"
     ]
   },
+  "sense-lex-jmdict-1579840-1": {
+    "senseVersion": 1,
+    "words": [
+      "九"
+    ]
+  },
   "sense-lex-jmdict-1579990-1": {
     "senseVersion": 1,
     "words": [
-      "宝物",
-      "便利"
+      "便利",
+      "有益"
     ]
   },
   "sense-lex-jmdict-1580230-1": {
@@ -25775,36 +33487,34 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1580270-1": {
     "senseVersion": 1,
     "words": [
-      "職人",
       "業者"
     ]
   },
   "sense-lex-jmdict-1580290-1": {
     "senseVersion": 1,
     "words": [
-      "女の子",
-      "少年"
+      "娘",
+      "お嬢さん"
     ]
   },
   "sense-lex-jmdict-1580340-1": {
     "senseVersion": 1,
     "words": [
-      "下着",
-      "コート"
+      "コート",
+      "ジャケット"
     ]
   },
   "sense-lex-jmdict-1580480-1": {
     "senseVersion": 1,
     "words": [
       "健やか",
-      "頑丈"
+      "元気"
     ]
   },
   "sense-lex-jmdict-1580490-1": {
     "senseVersion": 1,
     "words": [
-      "運転手",
-      "客"
+      "運転手"
     ]
   },
   "sense-lex-jmdict-1580510-1": {
@@ -25818,21 +33528,28 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "曲がる",
-      "直接"
+      "すっと"
     ]
   },
   "sense-lex-jmdict-1580620-1": {
     "senseVersion": 1,
-    "words": [
-      "真っ黒",
-      "白い"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1580640-1": {
     "senseVersion": 1,
     "words": [
-      "人々",
-      "国民"
+      "国民",
+      "世間"
+    ]
+  },
+  "sense-lex-jmdict-1581180-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1581590-1": {
+    "senseVersion": 1,
+    "words": [
+      "山頂"
     ]
   },
   "sense-lex-jmdict-1581610-1": {
@@ -25842,11 +33559,15 @@ export const hintConfusions: HintConfusions = {
       "中央"
     ]
   },
+  "sense-lex-jmdict-1581690-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1581710-1": {
     "senseVersion": 1,
     "words": [
-      "夜間",
-      "日"
+      "日",
+      "日中"
     ]
   },
   "sense-lex-jmdict-1581730-1": {
@@ -25854,6 +33575,18 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "入れる",
       "流す"
+    ]
+  },
+  "sense-lex-jmdict-1581930-1": {
+    "senseVersion": 1,
+    "words": [
+      "妹"
+    ]
+  },
+  "sense-lex-jmdict-1582000-1": {
+    "senseVersion": 1,
+    "words": [
+      "味方"
     ]
   },
   "sense-lex-jmdict-1582410-1": {
@@ -25870,12 +33603,20 @@ export const hintConfusions: HintConfusions = {
       "緩やか"
     ]
   },
+  "sense-lex-jmdict-1582670-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1582820-1": {
     "senseVersion": 1,
     "words": [
-      "出口",
-      "門"
+      "門",
+      "玄関"
     ]
+  },
+  "sense-lex-jmdict-1582870-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1582920-1": {
     "senseVersion": 1,
@@ -25883,11 +33624,29 @@ export const hintConfusions: HintConfusions = {
       "これ"
     ]
   },
+  "sense-lex-jmdict-1582960-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1583090-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1583095-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1583130-1": {
     "senseVersion": 1,
     "words": [
       "解散",
       "就任"
+    ]
+  },
+  "sense-lex-jmdict-1583250-1": {
+    "senseVersion": 1,
+    "words": [
+      "はい"
     ]
   },
   "sense-lex-jmdict-1583460-1": {
@@ -25900,14 +33659,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1583470-1": {
     "senseVersion": 1,
     "words": [
-      "品物",
-      "賞品"
+      "グッズ",
+      "物資"
+    ]
+  },
+  "sense-lex-jmdict-1583640-1": {
+    "senseVersion": 1,
+    "words": [
+      "家族"
     ]
   },
   "sense-lex-jmdict-1583720-1": {
     "senseVersion": 1,
     "words": [
-      "風",
       "インフルエンザ"
     ]
   },
@@ -25915,7 +33679,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "皆さん",
-      "方々(ほうぼう)"
+      "国民"
     ]
   },
   "sense-lex-jmdict-1584130-1": {
@@ -25924,6 +33688,22 @@ export const hintConfusions: HintConfusions = {
       "欠ける",
       "貧しい"
     ]
+  },
+  "sense-lex-jmdict-1584160-1": {
+    "senseVersion": 1,
+    "words": [
+      "額"
+    ]
+  },
+  "sense-lex-jmdict-1584460-1": {
+    "senseVersion": 1,
+    "words": [
+      "千"
+    ]
+  },
+  "sense-lex-jmdict-1584660-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1584670-1": {
     "senseVersion": 1,
@@ -25936,7 +33716,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "点",
-      "全面"
+      "横"
     ]
   },
   "sense-lex-jmdict-1584800-1": {
@@ -25946,18 +33726,32 @@ export const hintConfusions: HintConfusions = {
       "入り口"
     ]
   },
+  "sense-lex-jmdict-1584820-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1584900-1": {
     "senseVersion": 1,
     "words": [
-      "融資",
-      "弾力"
+      "弾力",
+      "便宜"
     ]
+  },
+  "sense-lex-jmdict-1584910-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1584930-1": {
     "senseVersion": 1,
     "words": [
       "残り",
       "予備"
+    ]
+  },
+  "sense-lex-jmdict-1585060-1": {
+    "senseVersion": 1,
+    "words": [
+      "雨"
     ]
   },
   "sense-lex-jmdict-1585110-1": {
@@ -25977,16 +33771,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1585310-1": {
     "senseVersion": 1,
     "words": [
-      "七",
-      "六つ"
+      "七"
     ]
   },
   "sense-lex-jmdict-1585315-1": {
     "senseVersion": 1,
-    "words": [
-      "六日",
-      "六"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1586210-1": {
     "senseVersion": 1,
@@ -25995,10 +33785,13 @@ export const hintConfusions: HintConfusions = {
       "光"
     ]
   },
+  "sense-lex-jmdict-1586265-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1586330-1": {
     "senseVersion": 1,
     "words": [
-      "朝食",
       "夕飯"
     ]
   },
@@ -26006,7 +33799,13 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "熱い",
-      "温暖"
+      "穏やか"
+    ]
+  },
+  "sense-lex-jmdict-1586430-1": {
+    "senseVersion": 1,
+    "words": [
+      "冷える"
     ]
   },
   "sense-lex-jmdict-1586520-1": {
@@ -26016,18 +33815,24 @@ export const hintConfusions: HintConfusions = {
       "アドレス"
     ]
   },
+  "sense-lex-jmdict-1586910-1": {
+    "senseVersion": 1,
+    "words": [
+      "理解"
+    ]
+  },
   "sense-lex-jmdict-1587150-1": {
     "senseVersion": 1,
     "words": [
-      "養成",
-      "教育"
+      "練習",
+      "訓練"
     ]
   },
   "sense-lex-jmdict-1587200-1": {
     "senseVersion": 1,
     "words": [
-      "意思",
-      "意図"
+      "考え",
+      "目的"
     ]
   },
   "sense-lex-jmdict-1587290-1": {
@@ -26040,15 +33845,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1587300-1": {
     "senseVersion": 1,
     "words": [
-      "痛い",
       "困難"
     ]
   },
   "sense-lex-jmdict-1587610-1": {
     "senseVersion": 1,
     "words": [
-      "嫌い",
-      "好き"
+      "好き",
+      "最低"
     ]
   },
   "sense-lex-jmdict-1588060-1": {
@@ -26069,7 +33873,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "利益",
-      "販売"
+      "営業"
     ]
   },
   "sense-lex-jmdict-1588550-1": {
@@ -26107,10 +33911,13 @@ export const hintConfusions: HintConfusions = {
       "戸棚"
     ]
   },
+  "sense-lex-jmdict-1589250-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1589330-1": {
     "senseVersion": 1,
     "words": [
-      "思い出す",
       "考える"
     ]
   },
@@ -26124,8 +33931,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1589580-1": {
     "senseVersion": 1,
     "words": [
-      "下げる",
-      "引き下げる"
+      "降りる",
+      "落ちる"
     ]
   },
   "sense-lex-jmdict-1589590-1": {
@@ -26133,6 +33940,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "始まり",
       "最後"
+    ]
+  },
+  "sense-lex-jmdict-1589730-1": {
+    "senseVersion": 1,
+    "words": [
+      "店"
     ]
   },
   "sense-lex-jmdict-1589840-1": {
@@ -26146,7 +33959,19 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "携わる",
-      "関する"
+      "触る"
+    ]
+  },
+  "sense-lex-jmdict-1589960-1": {
+    "senseVersion": 1,
+    "words": [
+      "普通郵便"
+    ]
+  },
+  "sense-lex-jmdict-1589970-1": {
+    "senseVersion": 1,
+    "words": [
+      "読解"
     ]
   },
   "sense-lex-jmdict-1590145-1": {
@@ -26159,14 +33984,19 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1590150-1": {
     "senseVersion": 1,
     "words": [
-      "日陰",
-      "影"
+      "影",
+      "闇"
+    ]
+  },
+  "sense-lex-jmdict-1590200-1": {
+    "senseVersion": 1,
+    "words": [
+      "箱"
     ]
   },
   "sense-lex-jmdict-1590240-1": {
     "senseVersion": 1,
     "words": [
-      "貸し",
       "返却"
     ]
   },
@@ -26180,7 +34010,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1590280-1": {
     "senseVersion": 1,
     "words": [
-      "縦書き",
       "内訳"
     ]
   },
@@ -26188,28 +34017,27 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "姿",
-      "格好いい"
+      "形"
     ]
   },
   "sense-lex-jmdict-1590600-1": {
     "senseVersion": 1,
     "words": [
-      "項目",
-      "学科"
+      "課程"
     ]
   },
   "sense-lex-jmdict-1590770-1": {
     "senseVersion": 1,
     "words": [
       "お返し",
-      "代わる"
+      "交換"
     ]
   },
   "sense-lex-jmdict-1591100-1": {
     "senseVersion": 1,
     "words": [
-      "有効",
-      "効かせる"
+      "働き",
+      "動く"
     ]
   },
   "sense-lex-jmdict-1591140-1": {
@@ -26222,8 +34050,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1591210-1": {
     "senseVersion": 1,
     "words": [
-      "標準",
-      "結果"
+      "結果",
+      "程度"
     ]
   },
   "sense-lex-jmdict-1591330-1": {
@@ -26236,8 +34064,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1591390-1": {
     "senseVersion": 1,
     "words": [
-      "規模",
-      "基準"
+      "基準",
+      "水準"
     ]
   },
   "sense-lex-jmdict-1591400-1": {
@@ -26250,8 +34078,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1591430-1": {
     "senseVersion": 1,
     "words": [
-      "気",
-      "気味"
+      "感じ",
+      "機嫌"
     ]
   },
   "sense-lex-jmdict-1591660-1": {
@@ -26265,7 +34093,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "変える",
-      "切り替わる"
+      "変わる"
     ]
   },
   "sense-lex-jmdict-1591900-1": {
@@ -26278,29 +34106,28 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1592100-1": {
     "senseVersion": 1,
     "words": [
-      "食べる",
-      "飲む"
+      "飲む",
+      "召し上がる"
     ]
   },
   "sense-lex-jmdict-1592130-1": {
     "senseVersion": 1,
     "words": [
       "分ける",
-      "仕切る"
+      "繋ぐ"
     ]
   },
   "sense-lex-jmdict-1592250-1": {
     "senseVersion": 1,
     "words": [
-      "国家",
-      "国語"
+      "州"
     ]
   },
   "sense-lex-jmdict-1592290-1": {
     "senseVersion": 1,
     "words": [
       "単独",
-      "総合"
+      "対応"
     ]
   },
   "sense-lex-jmdict-1592340-1": {
@@ -26326,10 +34153,7 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1592930-1": {
     "senseVersion": 1,
-    "words": [
-      "幸福",
-      "運"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1592970-1": {
     "senseVersion": 1,
@@ -26358,6 +34182,10 @@ export const hintConfusions: HintConfusions = {
       "恐ろしい"
     ]
   },
+  "sense-lex-jmdict-1593570-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1593590-1": {
     "senseVersion": 1,
     "words": [
@@ -26368,7 +34196,6 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1593650-1": {
     "senseVersion": 1,
     "words": [
-      "逆さ",
       "元通り"
     ]
   },
@@ -26383,35 +34210,34 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "トラブル",
-      "差し引き"
+      "障害"
     ]
+  },
+  "sense-lex-jmdict-1593800-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1593820-1": {
     "senseVersion": 1,
     "words": [
-      "汚れ",
-      "錆びる"
+      "汚れ"
     ]
   },
   "sense-lex-jmdict-1593830-1": {
     "senseVersion": 1,
     "words": [
-      "同一",
-      "多様"
+      "同一"
     ]
   },
   "sense-lex-jmdict-1594060-1": {
     "senseVersion": 1,
-    "words": [
-      "幸運",
-      "幸福"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-1594110-1": {
     "senseVersion": 1,
     "words": [
       "手法",
-      "方法"
+      "手段"
     ]
   },
   "sense-lex-jmdict-1594180-1": {
@@ -26439,27 +34265,44 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "請求",
-      "支給"
+      "代金"
+    ]
+  },
+  "sense-lex-jmdict-1594600-1": {
+    "senseVersion": 1,
+    "words": [
+      "受け付ける"
     ]
   },
   "sense-lex-jmdict-1594740-1": {
     "senseVersion": 1,
     "words": [
-      "愛着",
-      "愛"
+      "愛",
+      "主張"
     ]
   },
   "sense-lex-jmdict-1594930-1": {
     "senseVersion": 1,
     "words": [
-      "少し",
-      "多少"
+      "幾分",
+      "僅か"
+    ]
+  },
+  "sense-lex-jmdict-1595070-1": {
+    "senseVersion": 1,
+    "words": [
+      "友達"
+    ]
+  },
+  "sense-lex-jmdict-1595090-1": {
+    "senseVersion": 1,
+    "words": [
+      "金"
     ]
   },
   "sense-lex-jmdict-1595200-1": {
     "senseVersion": 1,
     "words": [
-      "侵入",
       "攻撃"
     ]
   },
@@ -26472,24 +34315,37 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1595270-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1595360-1": {
+    "senseVersion": 1,
     "words": [
-      "辞書",
-      "事典"
+      "軽傷"
     ]
   },
   "sense-lex-jmdict-1595480-1": {
     "senseVersion": 1,
     "words": [
       "次第に",
-      "着々"
+      "ずるずる"
     ]
   },
   "sense-lex-jmdict-1595750-1": {
     "senseVersion": 1,
     "words": [
       "職場",
-      "住宅"
+      "暮らし"
     ]
+  },
+  "sense-lex-jmdict-1596050-1": {
+    "senseVersion": 1,
+    "words": [
+      "少なくとも"
+    ]
+  },
+  "sense-lex-jmdict-1596200-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1596210-1": {
     "senseVersion": 1,
@@ -26498,25 +34354,29 @@ export const hintConfusions: HintConfusions = {
       "正面"
     ]
   },
+  "sense-lex-jmdict-1596240-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1596370-1": {
     "senseVersion": 1,
     "words": [
-      "お互い",
-      "互い"
+      "一方",
+      "共通"
     ]
   },
   "sense-lex-jmdict-1596380-1": {
     "senseVersion": 1,
     "words": [
       "個別",
-      "連合"
+      "結成"
     ]
   },
   "sense-lex-jmdict-1596440-1": {
     "senseVersion": 1,
     "words": [
-      "騒がしい",
-      "うるさい"
+      "うるさい",
+      "静か"
     ]
   },
   "sense-lex-jmdict-1596510-1": {
@@ -26524,6 +34384,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "失う",
       "壊す"
+    ]
+  },
+  "sense-lex-jmdict-1596730-1": {
+    "senseVersion": 1,
+    "words": [
+      "一度だけ"
     ]
   },
   "sense-lex-jmdict-1596860-1": {
@@ -26536,8 +34402,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1596930-1": {
     "senseVersion": 1,
     "words": [
-      "確実",
-      "多分"
+      "多分",
+      "きっと"
     ]
   },
   "sense-lex-jmdict-1596950-1": {
@@ -26547,6 +34413,12 @@ export const hintConfusions: HintConfusions = {
       "争い"
     ]
   },
+  "sense-lex-jmdict-1597110-1": {
+    "senseVersion": 1,
+    "words": [
+      "本音"
+    ]
+  },
   "sense-lex-jmdict-1597180-1": {
     "senseVersion": 1,
     "words": [
@@ -26554,11 +34426,15 @@ export const hintConfusions: HintConfusions = {
       "時々"
     ]
   },
+  "sense-lex-jmdict-1597300-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1597480-1": {
     "senseVersion": 1,
     "words": [
       "停滞",
-      "徐々に"
+      "絶えず"
     ]
   },
   "sense-lex-jmdict-1597850-1": {
@@ -26592,15 +34468,15 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1598350-1": {
     "senseVersion": 1,
     "words": [
-      "手順",
-      "方法"
+      "方法",
+      "流れ"
     ]
   },
   "sense-lex-jmdict-1598410-1": {
     "senseVersion": 1,
     "words": [
-      "手順",
-      "指導"
+      "指導",
+      "案内"
     ]
   },
   "sense-lex-jmdict-1598540-1": {
@@ -26614,7 +34490,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "回答",
-      "質問"
+      "聞く"
     ]
   },
   "sense-lex-jmdict-1598680-1": {
@@ -26634,29 +34510,29 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1598800-1": {
     "senseVersion": 1,
     "words": [
-      "整える",
-      "決まる"
+      "決まる",
+      "出来る"
     ]
   },
   "sense-lex-jmdict-1598990-1": {
     "senseVersion": 1,
     "words": [
-      "扱い",
-      "取り引き"
+      "操作",
+      "始末"
     ]
   },
   "sense-lex-jmdict-1599070-1": {
     "senseVersion": 1,
     "words": [
-      "取り調べ",
-      "監督"
+      "監督",
+      "管理"
     ]
   },
   "sense-lex-jmdict-1599120-1": {
     "senseVersion": 1,
     "words": [
-      "取材",
-      "交渉"
+      "交渉",
+      "営業"
     ]
   },
   "sense-lex-jmdict-1599400-1": {
@@ -26671,6 +34547,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "滅多に",
       "すぐ"
+    ]
+  },
+  "sense-lex-jmdict-1599640-1": {
+    "senseVersion": 1,
+    "words": [
+      "森林"
     ]
   },
   "sense-lex-jmdict-1599680-1": {
@@ -26694,6 +34576,10 @@ export const hintConfusions: HintConfusions = {
       "嗅ぐ"
     ]
   },
+  "sense-lex-jmdict-1599800-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1599900-1": {
     "senseVersion": 1,
     "words": [
@@ -26701,18 +34587,29 @@ export const hintConfusions: HintConfusions = {
       "背負う"
     ]
   },
+  "sense-lex-jmdict-1600190-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1600240-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1600280-1": {
+    "senseVersion": 1,
     "words": [
-      "年代",
-      "年"
+      "首"
     ]
+  },
+  "sense-lex-jmdict-1600430-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1600530-1": {
     "senseVersion": 1,
     "words": [
       "交通機関",
-      "乗客"
+      "車"
     ]
   },
   "sense-lex-jmdict-1600660-1": {
@@ -26729,11 +34626,19 @@ export const hintConfusions: HintConfusions = {
       "強い"
     ]
   },
+  "sense-lex-jmdict-1600790-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1600850-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1601160-1": {
     "senseVersion": 1,
     "words": [
       "引用",
-      "映像"
+      "使用"
     ]
   },
   "sense-lex-jmdict-1601260-1": {
@@ -26743,40 +34648,55 @@ export const hintConfusions: HintConfusions = {
       "鈍い"
     ]
   },
+  "sense-lex-jmdict-1601420-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1601480-1": {
     "senseVersion": 1,
     "words": [
-      "引き下げる",
-      "高まる"
+      "高まる",
+      "高める"
     ]
   },
   "sense-lex-jmdict-1601600-1": {
     "senseVersion": 1,
     "words": [
-      "下げる",
-      "下ろす"
+      "削減",
+      "縮小"
+    ]
+  },
+  "sense-lex-jmdict-1601650-1": {
+    "senseVersion": 1,
+    "words": [
+      "棚"
     ]
   },
   "sense-lex-jmdict-1601830-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1601890-1": {
+    "senseVersion": 1,
     "words": [
-      "日当たり",
-      "日"
+      "熱心"
     ]
   },
   "sense-lex-jmdict-1602330-1": {
     "senseVersion": 1,
     "words": [
-      "ランチ",
-      "お昼"
+      "ランチ"
     ]
   },
   "sense-lex-jmdict-1602340-1": {
     "senseVersion": 1,
     "words": [
-      "夕飯",
-      "昼食"
+      "ランチ"
     ]
+  },
+  "sense-lex-jmdict-1602710-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1602820-1": {
     "senseVersion": 1,
@@ -26785,12 +34705,15 @@ export const hintConfusions: HintConfusions = {
       "一般"
     ]
   },
-  "sense-lex-jmdict-1603660-1": {
+  "sense-lex-jmdict-1603240-1": {
     "senseVersion": 1,
     "words": [
-      "巨大",
-      "大きな"
+      "執筆"
     ]
+  },
+  "sense-lex-jmdict-1603660-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1603990-1": {
     "senseVersion": 1,
@@ -26802,14 +34725,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1604130-1": {
     "senseVersion": 1,
     "words": [
-      "お祭り",
       "会議"
     ]
   },
   "sense-lex-jmdict-1604135-1": {
     "senseVersion": 1,
     "words": [
-      "祭り",
       "式"
     ]
   },
@@ -26823,8 +34744,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1604290-1": {
     "senseVersion": 1,
     "words": [
-      "周辺",
-      "周囲"
+      "辺",
+      "近所"
     ]
   },
   "sense-lex-jmdict-1604420-1": {
@@ -26837,9 +34758,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1604480-1": {
     "senseVersion": 1,
     "words": [
-      "見通し",
-      "予期"
+      "予期",
+      "展望"
     ]
+  },
+  "sense-lex-jmdict-1604540-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1604590-1": {
     "senseVersion": 1,
@@ -26851,22 +34776,45 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1604610-1": {
     "senseVersion": 1,
     "words": [
-      "見込み",
-      "展望"
+      "展望",
+      "眺め"
     ]
+  },
+  "sense-lex-jmdict-1604650-1": {
+    "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1604745-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1604750-1": {
     "senseVersion": 1,
     "words": [
-      "隣",
-      "向こう"
+      "隣"
     ]
+  },
+  "sense-lex-jmdict-1604850-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1604870-1": {
     "senseVersion": 1,
     "words": [
       "却って",
       "かえって"
+    ]
+  },
+  "sense-lex-jmdict-1604890-1": {
+    "senseVersion": 1,
+    "words": [
+      "鼻"
+    ]
+  },
+  "sense-lex-jmdict-1605250-1": {
+    "senseVersion": 1,
+    "words": [
+      "惜しい"
     ]
   },
   "sense-lex-jmdict-1605270-1": {
@@ -26880,35 +34828,34 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "本来",
-      "元来"
+      "今では"
     ]
   },
   "sense-lex-jmdict-1605320-1": {
     "senseVersion": 1,
     "words": [
-      "漏れる",
-      "現す"
+      "現す",
+      "表す"
     ]
   },
   "sense-lex-jmdict-1605630-1": {
     "senseVersion": 1,
     "words": [
       "硬い",
-      "柔軟"
+      "穏やか"
     ]
   },
   "sense-lex-jmdict-1605680-1": {
     "senseVersion": 1,
     "words": [
-      "郵便局",
       "ポスト"
     ]
   },
   "sense-lex-jmdict-1605720-1": {
     "senseVersion": 1,
     "words": [
-      "便利",
-      "好調"
+      "好調",
+      "順調"
     ]
   },
   "sense-lex-jmdict-1605820-1": {
@@ -26932,6 +34879,10 @@ export const hintConfusions: HintConfusions = {
       "治る"
     ]
   },
+  "sense-lex-jmdict-1606150-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1606250-1": {
     "senseVersion": 1,
     "words": [
@@ -26942,8 +34893,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1606280-1": {
     "senseVersion": 1,
     "words": [
-      "承認",
-      "理解"
+      "理解",
+      "合意"
     ]
   },
   "sense-lex-jmdict-1606450-1": {
@@ -26956,8 +34907,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1606610-1": {
     "senseVersion": 1,
     "words": [
-      "年老いた",
-      "若い"
+      "年老いた"
     ]
   },
   "sense-lex-jmdict-1606790-1": {
@@ -26967,18 +34917,27 @@ export const hintConfusions: HintConfusions = {
       "責める"
     ]
   },
-  "sense-lex-jmdict-1609040-1": {
+  "sense-lex-jmdict-1607050-1": {
     "senseVersion": 1,
     "words": [
-      "値段",
-      "価値"
+      "私たち"
     ]
+  },
+  "sense-lex-jmdict-1609000-1": {
+    "senseVersion": 1,
+    "words": [
+      "吹く"
+    ]
+  },
+  "sense-lex-jmdict-1609040-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1609050-1": {
     "senseVersion": 1,
     "words": [
       "会合",
-      "集会"
+      "催し"
     ]
   },
   "sense-lex-jmdict-1609210-1": {
@@ -26986,6 +34945,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "どっと",
       "同時に"
+    ]
+  },
+  "sense-lex-jmdict-1609260-1": {
+    "senseVersion": 1,
+    "words": [
+      "好む"
     ]
   },
   "sense-lex-jmdict-1609310-1": {
@@ -26999,7 +34964,7 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "出身",
-      "誕生"
+      "出産"
     ]
   },
   "sense-lex-jmdict-1609500-1": {
@@ -27009,11 +34974,15 @@ export const hintConfusions: HintConfusions = {
       "掛かる"
     ]
   },
+  "sense-lex-jmdict-1609560-1": {
+    "senseVersion": 1,
+    "words": []
+  },
   "sense-lex-jmdict-1609660-1": {
     "senseVersion": 1,
     "words": [
       "コード",
-      "決定"
+      "規制"
     ]
   },
   "sense-lex-jmdict-1610040-1": {
@@ -27042,6 +35011,12 @@ export const hintConfusions: HintConfusions = {
     "words": [
       "かもしれない",
       "確か"
+    ]
+  },
+  "sense-lex-jmdict-1610870-1": {
+    "senseVersion": 1,
+    "words": [
+      "直後"
     ]
   },
   "sense-lex-jmdict-1610950-1": {
@@ -27075,14 +35050,13 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1611200-1": {
     "senseVersion": 1,
     "words": [
-      "開始",
-      "始める"
+      "原因",
+      "最初"
     ]
   },
   "sense-lex-jmdict-1611370-1": {
     "senseVersion": 1,
     "words": [
-      "日付",
       "時刻"
     ]
   },
@@ -27093,12 +35067,28 @@ export const hintConfusions: HintConfusions = {
       "目的地"
     ]
   },
+  "sense-lex-jmdict-1611980-1": {
+    "senseVersion": 1,
+    "words": [
+      "欠ける"
+    ]
+  },
   "sense-lex-jmdict-1612000-1": {
     "senseVersion": 1,
     "words": [
       "なかなか",
       "たまに"
     ]
+  },
+  "sense-lex-jmdict-1612040-1": {
+    "senseVersion": 1,
+    "words": [
+      "ありがたい"
+    ]
+  },
+  "sense-lex-jmdict-1612270-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1612530-1": {
     "senseVersion": 1,
@@ -27116,9 +35106,12 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1613570-1": {
     "senseVersion": 1,
+    "words": []
+  },
+  "sense-lex-jmdict-1621470-1": {
+    "senseVersion": 1,
     "words": [
-      "水泳",
-      "泳ぐ"
+      "県"
     ]
   },
   "sense-lex-jmdict-1628530-1": {
@@ -27130,8 +35123,14 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1629200-1": {
     "senseVersion": 1,
     "words": [
-      "王子",
-      "元首"
+      "元首",
+      "君主"
+    ]
+  },
+  "sense-lex-jmdict-1632320-1": {
+    "senseVersion": 1,
+    "words": [
+      "にやり"
     ]
   },
   "sense-lex-jmdict-1632430-1": {
@@ -27145,14 +35144,18 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "階",
-      "段階"
+      "程度"
     ]
+  },
+  "sense-lex-jmdict-1643510-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-1894690-1": {
     "senseVersion": 1,
     "words": [
-      "続ける",
-      "連続"
+      "延長",
+      "一連"
     ]
   },
   "sense-lex-jmdict-1919590-1": {
@@ -27162,19 +35165,28 @@ export const hintConfusions: HintConfusions = {
       "段階"
     ]
   },
+  "sense-lex-jmdict-1929950-1": {
+    "senseVersion": 1,
+    "words": [
+      "歌"
+    ]
+  },
   "sense-lex-jmdict-1979930-1": {
     "senseVersion": 1,
     "words": [
-      "相互",
-      "互い"
+      "一緒"
     ]
   },
   "sense-lex-jmdict-2005860-1": {
     "senseVersion": 1,
     "words": [
-      "もう一つ",
-      "再び"
+      "再び",
+      "また"
     ]
+  },
+  "sense-lex-jmdict-2005990-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-2008740-1": {
     "senseVersion": 1,
@@ -27183,12 +35195,15 @@ export const hintConfusions: HintConfusions = {
       "あんなに"
     ]
   },
-  "sense-lex-jmdict-2057030-1": {
+  "sense-lex-jmdict-2013900-1": {
     "senseVersion": 1,
     "words": [
-      "翻訳",
-      "訳す"
+      "青"
     ]
+  },
+  "sense-lex-jmdict-2057030-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-2085080-1": {
     "senseVersion": 1,
@@ -27200,35 +35215,48 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-2147990-1": {
     "senseVersion": 1,
     "words": [
-      "背中",
       "身長"
     ]
+  },
+  "sense-lex-jmdict-2394370-1": {
+    "senseVersion": 1,
+    "words": [
+      "えっ"
+    ]
+  },
+  "sense-lex-jmdict-2524270-1": {
+    "senseVersion": 1,
+    "words": [
+      "もの"
+    ]
+  },
+  "sense-lex-jmdict-2646460-1": {
+    "senseVersion": 1,
+    "words": []
   },
   "sense-lex-jmdict-2800530-1": {
     "senseVersion": 1,
     "words": [
-      "回転",
-      "周り"
+      "周り",
+      "循環"
     ]
   },
   "sense-lex-jmdict-2820720-1": {
     "senseVersion": 1,
     "words": [
-      "実は",
-      "実際"
+      "大いに",
+      "現に"
     ]
   },
   "sense-lex-jmdict-2830705-1": {
     "senseVersion": 1,
-    "words": [
-      "体"
-    ]
+    "words": []
   },
   "sense-lex-jmdict-2848289-1": {
     "senseVersion": 1,
     "words": [
-      "基本",
-      "基礎"
+      "基礎",
+      "表面"
     ]
   },
   "sense-lex-jmdict-2853884-1": {
@@ -27241,8 +35269,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-2856318-1": {
     "senseVersion": 1,
     "words": [
-      "治る",
-      "治療"
+      "直す"
     ]
   },
   "sense-lex-jmdict-2868440-1": {

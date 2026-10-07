@@ -1,6 +1,7 @@
 import { profileKey } from './contextEngine'
 import { addDays, localDay } from './contextReviewPolicy'
 import { hintConfusions } from '@/features/vocab/data/hintConfusions'
+import { hintComparisonIssue } from './contentValidation'
 import type { ContextState, LearnExample, LearnSense, LearnSenseIndex, ReviewProfile } from './contextTypes'
 
 export function similarHintWords(sense: LearnSense, word: { japanese: string; reading: string }, example: LearnExample) {
@@ -8,12 +9,10 @@ export function similarHintWords(sense: LearnSense, word: { japanese: string; re
   const comparisons = override?.senseVersion === sense.version
     ? override.words
     : sense.confusions.map((confusion) => confusion.japanese)
-  const targets = new Set([word.japanese, word.reading, example.answer, example.reading].map((text) => text.trim()))
-  return [...new Set(comparisons.map((text) => text.trim()).filter((text) => {
-    if (!text || targets.has(text)) return false
-    const qualified = text.normalize('NFKC').match(/^(.+)\((.+)\)$/u)
-    return !qualified || !targets.has(qualified[1]) || qualified[2] !== word.reading
-  }))].slice(0, 2)
+  const targets = [word.japanese, word.reading, example.answer, example.reading,
+    ...sense.examples.flatMap((entry) => [entry.answer, entry.reading])]
+  return [...new Set(comparisons.map((text) => text.trim())
+    .filter((text) => !hintComparisonIssue(text, targets)))].slice(0, 2)
 }
 
 function calendarDay(day: string) {

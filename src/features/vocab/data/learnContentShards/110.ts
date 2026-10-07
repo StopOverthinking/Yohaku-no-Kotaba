@@ -2219,22 +2219,22 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1295940-1-ex-1",
-        "version": 1,
-        "before": "裁判所は、証拠に基づいて被告を",
+        "version": 2,
+        "before": "法廷では、証拠に基づいて被告を",
         "answer": "裁く",
         "after": "。",
         "reading": "さばく",
-        "translation": "법원은 증거를 바탕으로 피고인을 재판한다.",
+        "translation": "법정에서는 증거를 바탕으로 피고인을 재판한다.",
         "translationTarget": "재판한다",
         "difficulty": 46,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "裁判所",
-            "reading": "さいばんしょ"
+            "text": "法廷",
+            "reading": "ほうてい"
           },
           {
-            "text": "は、"
+            "text": "では、"
           },
           {
             "text": "証拠",
@@ -2579,12 +2579,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1550160-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "理論",
-        "after": "は理解できても、実際にやってみるとうまくいかない。",
+        "after": "は分かっても、実際にやってみるとうまくいかない。",
         "reading": "りろん",
-        "translation": "이론은 이해해도 실제로 해 보면 잘되지 않는다.",
+        "translation": "이론은 알아도 실제로 해 보면 잘되지 않는다.",
         "translationTarget": "이론",
         "difficulty": 35,
         "status": "reviewed",
@@ -2594,11 +2594,11 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "理解",
-            "reading": "りかい"
+            "text": "分かっ",
+            "reading": "わかっ"
           },
           {
-            "text": "できても、"
+            "text": "ても、"
           },
           {
             "text": "実際",

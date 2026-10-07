@@ -1173,12 +1173,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1152730-1-ex-1",
-        "version": 1,
-        "before": "試合が終わり、二人の選手が",
+        "version": 2,
+        "before": "試合が終わり、二人が",
         "answer": "握手",
         "after": "しました。",
         "reading": "あくしゅ",
-        "translation": "시합이 끝나고 두 선수가 악수했어요.",
+        "translation": "시합이 끝나고 두 사람이 악수했어요.",
         "translationTarget": "악수",
         "difficulty": 21,
         "status": "reviewed",
@@ -1200,13 +1200,6 @@ const content: LearnSense[] = [
           {
             "text": "二人",
             "reading": "ふたり"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "選手",
-            "reading": "せんしゅ"
           },
           {
             "text": "が"
@@ -2333,19 +2326,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344090-1-ex-1",
-        "version": 1,
-        "before": "図書館では、地元の歴史に関する",
+        "version": 2,
+        "before": "地域の研究所では、地元の歴史に関する",
         "answer": "書籍",
         "after": "を集めている。",
         "reading": "しょせき",
-        "translation": "도서관에서는 지역 역사에 관한 서적을 모으고 있다.",
+        "translation": "지역 연구소에서는 지역 역사에 관한 서적을 모으고 있다.",
         "translationTarget": "서적",
         "difficulty": 36,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "図書館",
-            "reading": "としょかん"
+            "text": "地域",
+            "reading": "ちいき"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "研究所",
+            "reading": "けんきゅうじょ"
           },
           {
             "text": "では、"

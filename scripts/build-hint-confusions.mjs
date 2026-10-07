@@ -29,4 +29,6 @@ else {
 console.log(JSON.stringify({ words: words.length, senses: senses.length, reviewedGroups: scan.groups.length - report.pending.length,
   pendingGroups: report.pending.length, supplementedSenses: Object.keys(report.supplements).length,
   supplementedWords: new Set(Object.keys(report.supplements).map((id) => senses.find((sense) => sense.id === id).wordId)).size,
-  acceptedPairs: report.pairs.length, suppressedSelfLabels: report.suppressed.length }, null, 2))
+  acceptedPairs: report.pairs.length, suppressedLabels: report.suppressed.length,
+  displayAuditedSenses: report.displayAudit.length,
+  withoutComparisons: report.displayAudit.filter((entry) => !entry.selected.length).length }, null, 2))

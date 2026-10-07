@@ -649,12 +649,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_278-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "割引後の値段を",
         "answer": "計算",
-        "after": "したら、予算に収まった。",
+        "after": "したら、用意したお金で足りた。",
         "reading": "けいさん",
-        "translation": "할인 후 가격을 계산했더니 예산 안에 들었다.",
+        "translation": "할인 후 가격을 계산했더니 준비한 돈으로 충분했다.",
         "translationTarget": "계산",
         "difficulty": 29,
         "status": "reviewed",
@@ -683,15 +683,22 @@ const content: LearnSense[] = [
             "text": "したら、"
           },
           {
-            "text": "予算",
-            "reading": "よさん"
+            "text": "用意",
+            "reading": "ようい"
           },
           {
-            "text": "に"
+            "text": "した"
           },
           {
-            "text": "収まっ",
-            "reading": "おさまっ"
+            "text": "お金",
+            "reading": "おかね"
+          },
+          {
+            "text": "で"
+          },
+          {
+            "text": "足り",
+            "reading": "たり"
           },
           {
             "text": "た。"
@@ -2277,8 +2284,8 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1456780-1-ex-1",
-        "version": 1,
-        "before": "暗い廊下で、突き出た棚に肩が",
+        "version": 2,
+        "before": "暗い廊下で、張り出した棚に肩が",
         "answer": "突き当たった",
         "after": "。",
         "reading": "つきあたった",
@@ -2299,8 +2306,8 @@ const content: LearnSense[] = [
             "text": "で、"
           },
           {
-            "text": "突き出",
-            "reading": "つきで"
+            "text": "張り出し",
+            "reading": "はりだし"
           },
           {
             "text": "た"
@@ -2405,12 +2412,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1443720-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "山の中では",
         "answer": "電波",
-        "after": "が弱くて、電話が途中で切れた。",
+        "after": "が弱くて、通話が途中で切れた。",
         "reading": "でんぱ",
-        "translation": "산속에서는 통신 신호가 약해서 전화가 도중에 끊겼다.",
+        "translation": "산속에서는 통신 신호가 약해서 통화가 도중에 끊겼다.",
         "translationTarget": "통신 신호",
         "difficulty": 29,
         "status": "reviewed",
@@ -2442,8 +2449,8 @@ const content: LearnSense[] = [
             "text": "て、"
           },
           {
-            "text": "電話",
-            "reading": "でんわ"
+            "text": "通話",
+            "reading": "つうわ"
           },
           {
             "text": "が"

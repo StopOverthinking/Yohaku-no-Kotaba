@@ -804,12 +804,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1358550-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "昼休みは会社の",
         "answer": "食堂",
-        "after": "で食べます。",
+        "after": "で昼ご飯をとります。",
         "reading": "しょくどう",
-        "translation": "점심시간에는 회사 구내식당에서 먹어요.",
+        "translation": "점심시간에는 회사 구내식당에서 점심을 먹어요.",
         "translationTarget": "구내식당",
         "difficulty": 12,
         "status": "reviewed",
@@ -834,11 +834,15 @@ const content: LearnSense[] = [
             "text": "で"
           },
           {
-            "text": "食べ",
-            "reading": "たべ"
+            "text": "昼",
+            "reading": "ひる"
           },
           {
-            "text": "ます。"
+            "text": "ご飯",
+            "reading": "ごはん"
+          },
+          {
+            "text": "をとります。"
           }
         ]
       }
@@ -1643,23 +1647,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1321820-1-ex-1",
-        "version": 1,
-        "before": "集合写真に全員が",
+        "version": 2,
+        "before": "カメラの枠内に全員が",
         "answer": "写る",
         "after": "ように、少し後ろへ下がった。",
         "reading": "うつる",
-        "translation": "단체 사진에 모두가 찍히도록 조금 뒤로 물러났다.",
+        "translation": "카메라 화면 안에 모두가 찍히도록 조금 뒤로 물러났다.",
         "translationTarget": "찍히도록",
         "difficulty": 36,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "集合",
-            "reading": "しゅうごう"
+            "text": "カメラの"
           },
           {
-            "text": "写真",
-            "reading": "しゃしん"
+            "text": "枠",
+            "reading": "わく"
+          },
+          {
+            "text": "内",
+            "reading": "ない"
           },
           {
             "text": "に"
@@ -2107,12 +2114,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1278010-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "工学",
-        "after": "を学んだ彼は、古い設備の安全性を高める設計に取り組んでいる。",
+        "after": "を専門にしてきた彼は、古い設備の安全性を高める設計に取り組んでいる。",
         "reading": "こうがく",
-        "translation": "공학을 공부한 그는 오래된 설비의 안전성을 높이는 설계에 힘쓰고 있다.",
+        "translation": "공학을 전공해 온 그는 오래된 설비의 안전성을 높이는 설계에 힘쓰고 있다.",
         "translationTarget": "공학",
         "difficulty": 45,
         "status": "reviewed",
@@ -2122,11 +2129,11 @@ const content: LearnSense[] = [
             "text": "を"
           },
           {
-            "text": "学ん",
-            "reading": "まなん"
+            "text": "専門",
+            "reading": "せんもん"
           },
           {
-            "text": "だ"
+            "text": "にしてきた"
           },
           {
             "text": "彼",
@@ -2661,8 +2668,8 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1451260-1-ex-1",
-        "version": 1,
-        "before": "行方不明者の捜索に、多くの人員が",
+        "version": 2,
+        "before": "行方不明者の捜索に、多くのスタッフが",
         "answer": "動員",
         "after": "された。",
         "reading": "どういん",
@@ -2698,14 +2705,7 @@ const content: LearnSense[] = [
             "reading": "おおく"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "人員",
-            "reading": "じんいん"
-          },
-          {
-            "text": "が"
+            "text": "のスタッフが"
           }
         ],
         "afterFurigana": [

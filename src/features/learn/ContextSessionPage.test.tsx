@@ -91,6 +91,19 @@ describe('context card', () => {
     expect(document.querySelector('button button')).toBeNull()
   })
 
+  it('keeps the Korean hint and hides the comparison row when all labels reveal answer kanji', async () => {
+    const id = useContextStore.getState().data.session!.current.senseId
+    const sense = await loadContextSense(id)
+    vi.mocked(loadContextSense).mockResolvedValueOnce({ ...sense,
+      confusions: ['答えさせる', '答えられる'].map((japanese) => ({ japanese, distinction: '차이' })) })
+    const { container } = await renderPage()
+    await interact(() => fireEvent.click(screen.getByRole('button', { name: '뉘앙스 힌트' })))
+    expect(screen.getByText('문맥으로 구별하는 테스트 힌트입니다.')).toBeVisible()
+    expect(screen.queryByText(/비슷한 단어:/)).not.toBeInTheDocument()
+    expect(container.innerHTML).not.toContain('答')
+    expect(useContextStore.getState().data.session!.revealed).toBe(false)
+  })
+
   it('suppresses the synthesized click after a swipe and records only one card', async () => {
     vi.stubGlobal('PointerEvent', MouseEvent)
     await renderPage()

@@ -1411,12 +1411,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1158150-1-ex-1",
-        "version": 1,
-        "before": "調査の結論には賛成だが、原因の説明には",
+        "version": 2,
+        "before": "調査の結果には賛成だが、原因の説明には",
         "answer": "異論",
         "after": "がある。",
         "reading": "いろん",
-        "translation": "조사의 결론에는 찬성하지만 원인 설명에는 다른 견해가 있다.",
+        "translation": "조사 결과에는 찬성하지만 원인 설명에는 다른 견해가 있다.",
         "translationTarget": "다른 견해",
         "difficulty": 47,
         "status": "reviewed",
@@ -1429,8 +1429,8 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "結論",
-            "reading": "けつろん"
+            "text": "結果",
+            "reading": "けっか"
           },
           {
             "text": "には"

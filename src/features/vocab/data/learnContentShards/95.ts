@@ -2786,12 +2786,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1596240-1-ex-1",
-        "version": 1,
-        "before": "この駐車場は、施設の利用者",
+        "version": 2,
+        "before": "この駐車場は、施設を訪れる方",
         "answer": "専用",
         "after": "です。",
         "reading": "せんよう",
-        "translation": "이 주차장은 시설 이용자 전용입니다.",
+        "translation": "이 주차장은 시설을 방문하는 분 전용입니다.",
         "translationTarget": "전용",
         "difficulty": 35,
         "status": "reviewed",
@@ -2815,15 +2815,15 @@ const content: LearnSense[] = [
             "reading": "しせつ"
           },
           {
-            "text": "の"
+            "text": "を"
           },
           {
-            "text": "利用",
-            "reading": "りよう"
+            "text": "訪れる",
+            "reading": "おとずれる"
           },
           {
-            "text": "者",
-            "reading": "しゃ"
+            "text": "方",
+            "reading": "ほう"
           }
         ],
         "afterFurigana": [

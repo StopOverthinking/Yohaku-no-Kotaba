@@ -2113,26 +2113,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1273280-1-ex-1",
-        "version": 1,
-        "before": "出演者の体調不良で、",
+        "version": 2,
+        "before": "メンバーの体調不良で、",
         "answer": "公演",
         "after": "は途中で中止された。",
         "reading": "こうえん",
-        "translation": "출연자의 건강 문제로 공연이 도중에 중단되었다.",
+        "translation": "단원의 건강 문제로 공연이 도중에 중단되었다.",
         "translationTarget": "공연",
         "difficulty": 44,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "出演",
-            "reading": "しゅつえん"
-          },
-          {
-            "text": "者",
-            "reading": "しゃ"
-          },
-          {
-            "text": "の"
+            "text": "メンバーの"
           },
           {
             "text": "体調",

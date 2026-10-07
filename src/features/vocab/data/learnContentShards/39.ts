@@ -1677,12 +1677,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1360360-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "予算案の",
         "answer": "審議",
-        "after": "が長引き、会議は夜まで続いた。",
+        "after": "が長引き、討論は夜まで続いた。",
         "reading": "しんぎ",
-        "translation": "예산안 심의가 길어져 회의는 밤까지 이어졌다.",
+        "translation": "예산안 심의가 길어져 토론은 밤까지 이어졌다.",
         "translationTarget": "심의",
         "difficulty": 43,
         "status": "reviewed",
@@ -1711,8 +1711,8 @@ const content: LearnSense[] = [
             "text": "、"
           },
           {
-            "text": "会議",
-            "reading": "かいぎ"
+            "text": "討論",
+            "reading": "とうろん"
           },
           {
             "text": "は"

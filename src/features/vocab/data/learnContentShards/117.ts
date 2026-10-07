@@ -1114,12 +1114,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1185930-1-ex-1",
-        "version": 1,
-        "before": "旅行には着替えの",
+        "version": 2,
+        "before": "旅行には予備の",
         "answer": "下着",
         "after": "を忘れないでください。",
         "reading": "したぎ",
-        "translation": "여행에는 갈아입을 속옷을 잊지 마세요.",
+        "translation": "여행에는 여벌 속옷을 잊지 마세요.",
         "translationTarget": "속옷",
         "difficulty": 17,
         "status": "reviewed",
@@ -1132,8 +1132,8 @@ const content: LearnSense[] = [
             "text": "には"
           },
           {
-            "text": "着替え",
-            "reading": "きがえ"
+            "text": "予備",
+            "reading": "よび"
           },
           {
             "text": "の"
@@ -2088,12 +2088,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1581710-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "祖母は",
         "answer": "昼間",
-        "after": "だけ一人なので、昼食の時間に電話している。",
+        "after": "だけ一人なので、正午ごろに電話している。",
         "reading": "ひるま",
-        "translation": "할머니는 낮에만 혼자 계시므로 점심때 전화드리고 있다.",
+        "translation": "할머니는 낮에만 혼자 계시므로 정오쯤 전화드리고 있다.",
         "translationTarget": "낮",
         "difficulty": 22,
         "status": "reviewed",
@@ -2118,18 +2118,11 @@ const content: LearnSense[] = [
             "text": "なので、"
           },
           {
-            "text": "昼食",
-            "reading": "ちゅうしょく"
+            "text": "正午",
+            "reading": "しょうご"
           },
           {
-            "text": "の"
-          },
-          {
-            "text": "時間",
-            "reading": "じかん"
-          },
-          {
-            "text": "に"
+            "text": "ごろに"
           },
           {
             "text": "電話",
@@ -4030,12 +4023,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1476500-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "汗をかいたので、",
         "answer": "肌着",
-        "after": "だけ先に着替えた。",
+        "after": "だけ先に新しいものに替えた。",
         "reading": "はだぎ",
-        "translation": "땀이 났으므로 내의만 먼저 갈아입었다.",
+        "translation": "땀이 났으므로 내의만 먼저 새것으로 바꾸었다.",
         "translationTarget": "내의",
         "difficulty": 28,
         "status": "reviewed",
@@ -4060,8 +4053,15 @@ const content: LearnSense[] = [
             "text": "に"
           },
           {
-            "text": "着替え",
-            "reading": "きがえ"
+            "text": "新しい",
+            "reading": "あたらしい"
+          },
+          {
+            "text": "ものに"
+          },
+          {
+            "text": "替え",
+            "reading": "かえ"
           },
           {
             "text": "た。"

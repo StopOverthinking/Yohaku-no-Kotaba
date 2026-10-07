@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { cardRecency, scopedReviews, similarHintWords } from './contextPresentation'
 import { profileKey, reviewProfile } from './contextEngine'
 import { testSense } from './contextTestFixtures'
+import { hintConfusions } from '@/features/vocab/data/hintConfusions'
 
 describe('learning presentation', () => {
   it('deduplicates comparison words and excludes the current answer, headword and readings', () => {
@@ -14,11 +15,35 @@ describe('learning presentation', () => {
     expect(similarHintWords(sense, word, sense.examples[0])).toEqual([])
   })
 
-  it('shows a different homograph reading but rejects a qualified version of the answer', () => {
+  it('rejects homographs with any reading and all shared-kanji comparisons', () => {
     const sense = testSense('a')
     const word = { japanese: '開く', reading: 'あく' }
     sense.confusions = ['開く', '開く（あく）', '開く（ひらく）'].map((japanese) => ({ japanese, distinction: '읽기 차이' }))
-    expect(similarHintWords(sense, word, sense.examples[0])).toEqual(['開く（ひらく）'])
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual([])
+  })
+
+  it('filters causative and transitive/intransitive forms before selecting safe comparisons', () => {
+    const sense = testSense('a')
+    const word = { japanese: '当たる', reading: 'あたる' }
+    sense.examples[0] = { ...sense.examples[0], answer: '当たった', reading: 'あたった' }
+    sense.confusions = ['当てる', '当たらせる', '当てられる', '当たり', '合う', 'ぶつかる']
+      .map((japanese) => ({ japanese, distinction: '차이' }))
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual(['合う', 'ぶつかる'])
+  })
+
+  it('protects kanji in an inflected answer even when the headword is kana', () => {
+    const sense = testSense('a')
+    const word = { japanese: 'あたる', reading: 'あたる' }
+    sense.examples[0] = { ...sense.examples[0], answer: '当たった', reading: 'あたった' }
+    sense.confusions = ['当てる', '合う'].map((japanese) => ({ japanese, distinction: '차이' }))
+    expect(similarHintWords(sense, word, sense.examples[0])).toEqual(['合う'])
+  })
+
+  it('honors an explicit empty selection instead of resurrecting authored comparisons', () => {
+    const [id, entry] = Object.entries(hintConfusions).find(([, value]) => !value.words.length)!
+    const sense = { ...testSense('a'), id, version: entry.senseVersion,
+      confusions: [{ japanese: '合う', distinction: '차이' }] }
+    expect(similarHintWords(sense, { japanese: '当たる', reading: 'あたる' }, sense.examples[0])).toEqual([])
   })
 
   it('shows at most two comparisons after filtering and deduplication', () => {

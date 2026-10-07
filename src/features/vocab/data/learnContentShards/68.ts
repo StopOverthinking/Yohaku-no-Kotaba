@@ -1117,26 +1117,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1579130-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "今年",
-        "after": "は去年より雨が多いです。",
+        "after": "はいつもより雨が多いです。",
         "reading": "ことし",
-        "translation": "올해는 작년보다 비가 많이 와요.",
+        "translation": "올해는 평소보다 비가 많이 와요.",
         "translationTarget": "올해",
         "difficulty": 14,
         "status": "reviewed",
         "beforeFurigana": [],
         "afterFurigana": [
           {
-            "text": "は"
-          },
-          {
-            "text": "去年",
-            "reading": "きょねん"
-          },
-          {
-            "text": "より"
+            "text": "はいつもより"
           },
           {
             "text": "雨",
@@ -2242,19 +2235,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1202560-1-ex-1",
-        "version": 1,
-        "before": "大会の",
+        "version": 2,
+        "before": "式典の",
         "answer": "開会",
         "after": "に先立ち、注意事項の説明があった。",
         "reading": "かいかい",
-        "translation": "대회 개회에 앞서 주의 사항에 대한 설명이 있었다.",
+        "translation": "의식 개회에 앞서 주의 사항에 대한 설명이 있었다.",
         "translationTarget": "개회",
         "difficulty": 39,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "大会",
-            "reading": "たいかい"
+            "text": "式典",
+            "reading": "しきてん"
           },
           {
             "text": "の"
@@ -2723,12 +2716,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1421420-1-ex-1",
-        "version": 1,
-        "before": "家を建てる前に、土地の",
+        "version": 2,
+        "before": "家を建てる前に、そこの",
         "answer": "地盤",
         "after": "が強いか調べた。",
         "reading": "じばん",
-        "translation": "집을 짓기 전에 땅의 지반이 단단한지 조사했다.",
+        "translation": "집을 짓기 전에 그곳의 지반이 단단한지 조사했다.",
         "translationTarget": "지반",
         "difficulty": 35,
         "status": "reviewed",
@@ -2749,14 +2742,7 @@ const content: LearnSense[] = [
             "reading": "まえ"
           },
           {
-            "text": "に、"
-          },
-          {
-            "text": "土地",
-            "reading": "とち"
-          },
-          {
-            "text": "の"
+            "text": "に、そこの"
           }
         ],
         "afterFurigana": [
@@ -2942,8 +2928,8 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1381140-1-ex-1",
-        "version": 1,
-        "before": "申込書の年は、和暦ではなく",
+        "version": 2,
+        "before": "申込書の年は、元号ではなく",
         "answer": "西暦",
         "after": "で書いてください。",
         "reading": "せいれき",
@@ -2971,12 +2957,8 @@ const content: LearnSense[] = [
             "text": "は、"
           },
           {
-            "text": "和",
-            "reading": "わ"
-          },
-          {
-            "text": "暦",
-            "reading": "れき"
+            "text": "元号",
+            "reading": "げんごう"
           },
           {
             "text": "ではなく"

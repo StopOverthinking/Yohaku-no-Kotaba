@@ -835,12 +835,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344970-1-ex-1",
-        "version": 1,
-        "before": "赤い帽子をかぶった",
+        "version": 2,
+        "before": "赤いスカーフを巻いた",
         "answer": "女の子",
         "after": "が走ってきました。",
         "reading": "おんなのこ",
-        "translation": "빨간 모자를 쓴 여자아이가 달려왔어요.",
+        "translation": "빨간 스카프를 두른 여자아이가 달려왔어요.",
         "translationTarget": "여자아이",
         "difficulty": 15,
         "status": "reviewed",
@@ -850,11 +850,14 @@ const content: LearnSense[] = [
             "reading": "あかい"
           },
           {
-            "text": "帽子",
-            "reading": "ぼうし"
+            "text": "スカーフを"
           },
           {
-            "text": "をかぶった"
+            "text": "巻い",
+            "reading": "まい"
+          },
+          {
+            "text": "た"
           }
         ],
         "afterFurigana": [
@@ -1094,12 +1097,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1244560-1-ex-1",
-        "version": 1,
-        "before": "肩の痛みが続き、服を着替えるだけでも",
+        "version": 2,
+        "before": "肩の調子が悪く、服を着替えるだけでも",
         "answer": "苦痛",
         "after": "だった。",
         "reading": "くつう",
-        "translation": "어깨 통증이 계속되어 옷을 갈아입는 것만으로도 고통이었다.",
+        "translation": "어깨 상태가 좋지 않아 옷을 갈아입는 것만으로도 고통이었다.",
         "translationTarget": "고통",
         "difficulty": 27,
         "status": "reviewed",
@@ -1112,15 +1115,15 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "痛み",
-            "reading": "いたみ"
+            "text": "調子",
+            "reading": "ちょうし"
           },
           {
             "text": "が"
           },
           {
-            "text": "続き",
-            "reading": "つづき"
+            "text": "悪く",
+            "reading": "わるく"
           },
           {
             "text": "、"
@@ -2408,12 +2411,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1410080-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "静かな兄とは",
         "answer": "対照",
-        "after": "的に、弟は初対面の人にもよく話しかける。",
+        "after": "的に、弟は見知らぬ人にもよく話しかける。",
         "reading": "たいしょう",
-        "translation": "조용한 형과는 대조적으로 동생은 처음 만나는 사람에게도 자주 말을 건다.",
+        "translation": "조용한 형과는 대조적으로 동생은 모르는 사람에게도 자주 말을 건다.",
         "translationTarget": "대조",
         "difficulty": 38,
         "status": "reviewed",
@@ -2449,11 +2452,8 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "初対面",
-            "reading": "しょたいめん"
-          },
-          {
-            "text": "の"
+            "text": "見知らぬ",
+            "reading": "みしらぬ"
           },
           {
             "text": "人",
@@ -2876,12 +2876,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1369140-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "人文科学",
-        "after": "の研究には、古い文書を読み解く力も必要だ。",
+        "after": "の研究には、古い資料を読み解く力も必要だ。",
         "reading": "じんぶんかがく",
-        "translation": "인문학 연구에는 오래된 문서를 해독하는 능력도 필요하다.",
+        "translation": "인문학 연구에는 오래된 자료를 해독하는 능력도 필요하다.",
         "translationTarget": "인문학",
         "difficulty": 33,
         "status": "reviewed",
@@ -2902,8 +2902,8 @@ const content: LearnSense[] = [
             "reading": "ふるい"
           },
           {
-            "text": "文書",
-            "reading": "ぶんしょ"
+            "text": "資料",
+            "reading": "しりょう"
           },
           {
             "text": "を"
@@ -3083,12 +3083,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1609000-1-ex-1",
-        "version": 1,
-        "before": "暑そうな子どもを、母が団扇で",
+        "version": 2,
+        "before": "暑そうな子どもを、母が厚紙で",
         "answer": "扇いで",
         "after": "いた。",
         "reading": "あおいで",
-        "translation": "더워 보이는 아이에게 어머니가 부채로 부채질하고 있었다.",
+        "translation": "더워 보이는 아이에게 어머니가 두꺼운 종이로 부채질하고 있었다.",
         "translationTarget": "부채질하고",
         "difficulty": 30,
         "status": "reviewed",
@@ -3115,8 +3115,8 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "団扇",
-            "reading": "うちわ"
+            "text": "厚紙",
+            "reading": "あつがみ"
           },
           {
             "text": "で"

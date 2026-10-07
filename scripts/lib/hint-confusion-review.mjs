@@ -1,4 +1,5 @@
 import { rankHintLabels } from './hint-confusion-ranking.mjs'
+import { hintComparisonIssue } from './hint-comparison-policy.mjs'
 
 const pairKey = (a, b) => [a, b].sort().join('\t')
 const canonical = (text) => text.normalize('NFKC').trim()
@@ -33,8 +34,8 @@ export function buildHintConfusions(scan, review, words, senses) {
     if (entry.senseVersion !== bySense.get(id)?.version) throw new Error(`Stale baseline: ${id}`)
     for (const label of entry.words) add(id, label, 'baseline')
   }
-  // The original contrast explicitly distinguishes a different reading of the same kanji.
-  // Expand that reviewed label so the runtime's answer filter does not hide it.
+  // Retain historical reviewed candidates in provenance; the display filter below
+  // excludes even a different reading when it reveals the answer's kanji.
   for (const node of scan.nodes) for (const label of node.comparisons) {
     if (label !== node.japanese) continue
     for (const target of scan.nodes.filter((other) => other.japanese === label && other.reading !== node.reading))
@@ -94,10 +95,28 @@ export function buildHintConfusions(scan, review, words, senses) {
     for (const label of node.comparisons) for (const target of scan.nodes)
       if ([target.japanese, scan.displayLabels[target.id]].includes(label)) targets.get(label)?.push(target)
     const preferred = review.preferredComparisons?.[id] ?? []
-    ranked.set(id, rankHintLabels(node, candidates, targets, preferred).slice(0, preferred.length === 1 ? 1 : 2))
+    ranked.set(id, rankHintLabels(node, candidates, targets, preferred))
   }
-  const supplements = Object.fromEntries([...ranked].sort(([a], [b]) => a.localeCompare(b)).map(([id, labels]) =>
-    [id, { senseVersion: bySense.get(id).version, words: labels }]))
+  // Inspect every sense, including authored-only fallback. An explicit empty list
+  // prevents unsafe historical comparisons from returning when none are suitable.
+  const displayAudit = scan.nodes.map((node) => {
+    const sense = bySense.get(node.id), word = byWord.get(node.wordId)
+    const targets = [word.japanese, word.reading, ...sense.examples.flatMap((e) => [e.answer, e.reading])]
+    const candidates = [...new Set(ranked.get(node.id) ?? node.comparisons)]
+    const excluded = [], safe = []
+    for (const label of candidates) {
+      const reason = hintComparisonIssue(label, targets)
+      if (reason) {
+        const record = { senseId: node.id, word: label, reason }
+        suppressed.push(record)
+        excluded.push({ label, reason })
+      } else safe.push(label)
+    }
+    return { senseId: node.id, wordId: node.wordId, japanese: word.japanese, meaning: node.meaning,
+      candidates, excluded, selected: safe.slice(0, review.preferredComparisons?.[node.id]?.length === 1 ? 1 : 2) }
+  })
+  const supplements = Object.fromEntries([...displayAudit].sort((a, b) => a.senseId.localeCompare(b.senseId)).map((entry) =>
+    [entry.senseId, { senseVersion: bySense.get(entry.senseId).version, words: entry.selected }]))
   if (review.semanticChecks) {
     const checks = review.semanticChecks
     if (checks.sourceHash !== scan.sourceHash) throw new Error('Semantic hint review is stale')
@@ -115,6 +134,6 @@ export function buildHintConfusions(scan, review, words, senses) {
   const coverage = scan.nodes.map((node) => ({ senseId: node.id, wordId: node.wordId, japanese: node.japanese,
     meaning: node.meaning, additionalWords: supplements[node.id]?.words ?? [],
     pendingGroups: pendingBySense.get(node.id) ?? [] }))
-  return { supplements, pending, pairs: [...pairs.values()], suppressed, coverage,
+  return { supplements, pending, pairs: [...pairs.values()], suppressed, coverage, displayAudit,
     provenance: Object.fromEntries([...additions].map(([id, labels]) => [id, Object.fromEntries(labels)])) }
 }

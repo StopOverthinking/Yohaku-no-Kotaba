@@ -1953,22 +1953,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1466360-1-ex-1",
-        "version": 1,
-        "before": "会場への",
+        "version": 2,
+        "before": "ホールへの",
         "answer": "入場",
         "after": "には、この券が必要です。",
         "reading": "にゅうじょう",
-        "translation": "행사장 입장에는 이 표가 필요합니다.",
+        "translation": "홀 입장에는 이 표가 필요합니다.",
         "translationTarget": "입장",
         "difficulty": 27,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "会場",
-            "reading": "かいじょう"
-          },
-          {
-            "text": "への"
+            "text": "ホールへの"
           }
         ],
         "afterFurigana": [
@@ -2456,19 +2452,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1292390-1-ex-1",
-        "version": 1,
-        "before": "同窓会で、十年ぶりに恩師との",
+        "version": 2,
+        "before": "卒業生の集まりで、十年ぶりに恩師との",
         "answer": "再会",
         "after": "を果たした。",
         "reading": "さいかい",
-        "translation": "동창회에서 10년 만에 은사와 재회했다.",
+        "translation": "졸업생 모임에서 10년 만에 은사와 재회했다.",
         "translationTarget": "재회",
         "difficulty": 44,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "同窓会",
-            "reading": "どうそうかい"
+            "text": "卒業生",
+            "reading": "そつぎょうせい"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "集まり",
+            "reading": "あつまり"
           },
           {
             "text": "で、"

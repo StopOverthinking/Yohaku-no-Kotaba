@@ -843,19 +843,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1313080-1-ex-1",
-        "version": 1,
-        "before": "歯が痛いので",
+        "version": 2,
+        "before": "口の中が痛いので",
         "answer": "歯医者",
         "after": "を予約しました。",
         "reading": "はいしゃ",
-        "translation": "이가 아파서 치과를 예약했어요.",
+        "translation": "입안이 아파서 치과를 예약했어요.",
         "translationTarget": "치과",
         "difficulty": 17,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "歯",
-            "reading": "は"
+            "text": "口",
+            "reading": "くち"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "中",
+            "reading": "なか"
           },
           {
             "text": "が"
@@ -883,12 +890,12 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1313080-1-ex-2",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "歯医者",
-        "after": "は虫歯を見つけて、治療の説明をしました。",
+        "after": "は口の中を調べて、治療の説明をしました。",
         "reading": "はいしゃ",
-        "translation": "치과의사는 충치를 발견하고 치료를 설명했어요.",
+        "translation": "치과의사는 입안을 살피고 치료를 설명했어요.",
         "translationTarget": "치과의사",
         "difficulty": 19,
         "status": "reviewed",
@@ -898,15 +905,22 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "虫歯",
-            "reading": "むしば"
+            "text": "口",
+            "reading": "くち"
+          },
+          {
+            "text": "の"
+          },
+          {
+            "text": "中",
+            "reading": "なか"
           },
           {
             "text": "を"
           },
           {
-            "text": "見つけ",
-            "reading": "みつけ"
+            "text": "調べ",
+            "reading": "しらべ"
           },
           {
             "text": "て、"
@@ -1915,12 +1929,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1468380-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この施設の",
         "answer": "年間",
-        "after": "利用者数は、去年より増えた。",
+        "after": "利用者数は、以前より増えた。",
         "reading": "ねんかん",
-        "translation": "이 시설의 연간 이용자 수는 작년보다 늘었다.",
+        "translation": "이 시설의 연간 이용자 수는 이전보다 늘었다.",
         "translationTarget": "연간",
         "difficulty": 30,
         "status": "reviewed",
@@ -1953,8 +1967,8 @@ const content: LearnSense[] = [
             "text": "は、"
           },
           {
-            "text": "去年",
-            "reading": "きょねん"
+            "text": "以前",
+            "reading": "いぜん"
           },
           {
             "text": "より"

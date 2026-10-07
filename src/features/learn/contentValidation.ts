@@ -1,5 +1,24 @@
 import type { HintConfusions, LearnSense, LearnSenseIndex } from './contextTypes'
 
+/** Shared by source generation and display, including legacy fallback comparisons. */
+export function hintComparisonIssue(label: string, targets: string[]): string | undefined {
+  const canonical = (text: string) => text.normalize('NFKC').trim()
+  const text = canonical(label)
+  const answers = targets.map(canonical)
+  if (!text) return 'empty label'
+  if (answers.includes(text)) return 'current answer/headword/reading'
+  const qualified = text.match(/^(.+)\((.+)\)$/u)
+  if (qualified && answers.includes(qualified[1])) return 'qualified answer/headword'
+  const kanji = new Set(answers.flatMap((answer) => answer.match(/\p{Script=Han}/gu) ?? []))
+  if ([...text].some((char) => kanji.has(char))) return 'shared answer kanji'
+}
+
+export function questionKanjiLeaks(japanese: string, example: { before: string; answer: string; after: string }): string[] {
+  const kanji = (text: string) => text.normalize('NFKC').match(/\p{Script=Han}/gu) ?? []
+  const targets = new Set(kanji(japanese + example.answer))
+  return [...new Set(kanji(example.before + example.after).filter((char) => targets.has(char)))]
+}
+
 export function validateHintConfusions(
   overrides: HintConfusions,
   senses: LearnSense[],
@@ -12,16 +31,18 @@ export function validateHintConfusions(
     const word = sense && words.get(sense.wordId)
     if (!sense || !word) issues.push(`${id}: 힌트 비교 대상의 용법/단어 없음`)
     if (!entry || entry.senseVersion !== sense?.version) issues.push(`${id}: 힌트 비교 대상의 용법 버전 불일치`)
-    if (!Array.isArray(entry?.words) || !entry.words.length || entry.words.length > 2 || entry.words.some((text) =>
+    const targets = word && sense ? [word.japanese, word.reading,
+      ...sense.examples.flatMap((example) => [example.answer, example.reading])] : []
+    if (!Array.isArray(entry?.words) || entry.words.length > 2 || entry.words.some((text) =>
       typeof text !== 'string' || !text.trim() || text !== text.trim() || text === word?.japanese || text === word?.reading
-      || (text.normalize('NFKC').match(/^(.+)\((.+)\)$/u)?.slice(1).join('|') === `${word?.japanese}|${word?.reading}`)
+      || hintComparisonIssue(text, targets)
     ) || new Set(entry.words).size !== entry.words.length)
-      issues.push(`${id}: 힌트 비교 단어 누락/개수 초과/중복/자기 참조`)
+      issues.push(`${id}: 힌트 비교 단어 오류/개수 초과/중복/정답 노출`)
   }
   return issues
 }
 
-export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>): string[] {
+export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>, headwords?: Map<string, string>): string[] {
   const issues: string[] = []
   const ids = new Set<string>()
   const exampleIds = new Set<string>()
@@ -59,6 +80,8 @@ export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>)
       }
       // Source drafts retain their IDs and links while remaining ineligible for study.
       if (example.status !== 'reviewed') continue
+      const leaked = questionKanjiLeaks(headwords?.get(sense.wordId) ?? '', example)
+      if (leaked.length) issues.push(`${label}: 주변 문장의 정답 한자 노출 (${leaked.join('、')})`)
       if (!example.answer.trim() || !example.reading.trim() || !example.translation.trim())
         issues.push(`${label}: 정답/읽기/번역 누락`)
       if (!example.translationTarget || !example.translation.includes(example.translationTarget))

@@ -21,12 +21,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_158-1-ex-1",
-        "version": 1,
-        "before": "受付時間に間に合うか不安なら、電話で確認するのが一番",
+        "version": 2,
+        "before": "受付時間に間に合うか不安なら、電話で尋ねるのが一番",
         "answer": "確実だ",
         "after": "。",
         "reading": "かくじつだ",
-        "translation": "접수 시간에 맞출 수 있을지 불안하다면 전화로 확인하는 것이 가장 확실하다.",
+        "translation": "접수 시간에 맞출 수 있을지 불안하다면 전화로 물어보는 것이 가장 확실하다.",
         "translationTarget": "확실하다",
         "difficulty": 34,
         "status": "reviewed",
@@ -64,11 +64,11 @@ const content: LearnSense[] = [
             "text": "で"
           },
           {
-            "text": "確認",
-            "reading": "かくにん"
+            "text": "尋ねる",
+            "reading": "たずねる"
           },
           {
-            "text": "するのが"
+            "text": "のが"
           },
           {
             "text": "一番",
@@ -2539,12 +2539,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1226010-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "予算を変更する",
         "answer": "議案",
-        "after": "が提出され、委員会で詳しく審議された。",
+        "after": "が提出され、委員会で詳しく検討された。",
         "reading": "ぎあん",
-        "translation": "예산을 변경하는 의안이 제출되어 위원회에서 자세히 심의되었다.",
+        "translation": "예산을 변경하는 의안이 제출되어 위원회에서 자세히 검토되었다.",
         "translationTarget": "의안",
         "difficulty": 46,
         "status": "reviewed",
@@ -2591,8 +2591,8 @@ const content: LearnSense[] = [
             "reading": "くわしく"
           },
           {
-            "text": "審議",
-            "reading": "しんぎ"
+            "text": "検討",
+            "reading": "けんとう"
           },
           {
             "text": "された。"

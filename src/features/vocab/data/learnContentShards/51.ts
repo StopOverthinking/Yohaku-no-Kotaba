@@ -938,12 +938,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1303770-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この地域の主な",
         "answer": "産業",
-        "after": "は農業です。",
+        "after": "は観光です。",
         "reading": "さんぎょう",
-        "translation": "이 지역의 주요 산업은 농업이에요.",
+        "translation": "이 지역의 주요 산업은 관광이에요.",
         "translationTarget": "산업",
         "difficulty": 17,
         "status": "reviewed",
@@ -971,8 +971,8 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "農業",
-            "reading": "のうぎょう"
+            "text": "観光",
+            "reading": "かんこう"
           },
           {
             "text": "です。"
@@ -2323,12 +2323,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1361150-1-ex-1",
-        "version": 1,
-        "before": "申込書の氏名欄には、",
+        "version": 2,
+        "before": "申込書には、漢字の横に",
         "answer": "振り仮名",
         "after": "も記入してください。",
         "reading": "ふりがな",
-        "translation": "신청서의 성명란에는 독음 표기도 적어 주세요.",
+        "translation": "신청서에는 한자 옆에 독음 표기도 적어 주세요.",
         "translationTarget": "독음 표기",
         "difficulty": 36,
         "status": "reviewed",
@@ -2342,18 +2342,21 @@ const content: LearnSense[] = [
             "reading": "しょ"
           },
           {
+            "text": "には、"
+          },
+          {
+            "text": "漢字",
+            "reading": "かんじ"
+          },
+          {
             "text": "の"
           },
           {
-            "text": "氏名",
-            "reading": "しめい"
+            "text": "横",
+            "reading": "よこ"
           },
           {
-            "text": "欄",
-            "reading": "らん"
-          },
-          {
-            "text": "には、"
+            "text": "に"
           }
         ],
         "afterFurigana": [
@@ -2710,26 +2713,26 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1505330-1-ex-1",
-        "version": 1,
-        "before": "論文を書く前に、関連する",
+        "version": 2,
+        "before": "研究を始める前に、関連する",
         "answer": "文献",
         "after": "を図書館で集めた。",
         "reading": "ぶんけん",
-        "translation": "논문을 쓰기 전에 관련 문헌을 도서관에서 모았다.",
+        "translation": "연구를 시작하기 전에 관련 문헌을 도서관에서 모았다.",
         "translationTarget": "문헌",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "論文",
-            "reading": "ろんぶん"
+            "text": "研究",
+            "reading": "けんきゅう"
           },
           {
             "text": "を"
           },
           {
-            "text": "書く",
-            "reading": "かく"
+            "text": "始める",
+            "reading": "はじめる"
           },
           {
             "text": "前",
@@ -2862,12 +2865,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1431600-1-ex-1",
-        "version": 1,
-        "before": "電池から流れる電気は、",
+        "version": 2,
+        "before": "電池から得られる電気は、",
         "answer": "直流",
         "after": "です。",
         "reading": "ちょくりゅう",
-        "translation": "전지에서 흐르는 전기는 직류입니다.",
+        "translation": "전지에서 얻을 수 있는 전기는 직류입니다.",
         "translationTarget": "직류",
         "difficulty": 33,
         "status": "reviewed",
@@ -2880,8 +2883,11 @@ const content: LearnSense[] = [
             "text": "から"
           },
           {
-            "text": "流れる",
-            "reading": "ながれる"
+            "text": "得",
+            "reading": "え"
+          },
+          {
+            "text": "られる"
           },
           {
             "text": "電気",

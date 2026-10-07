@@ -1139,12 +1139,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1505190-1-ex-1",
-        "version": 1,
-        "before": "彼女は大学で日本の",
+        "version": 2,
+        "before": "彼女は海外で日本の",
         "answer": "文学",
         "after": "を研究しています。",
         "reading": "ぶんがく",
-        "translation": "그녀는 대학교에서 일본 문학을 연구하고 있어요.",
+        "translation": "그녀는 해외에서 일본 문학을 연구하고 있어요.",
         "translationTarget": "문학",
         "difficulty": 17,
         "status": "reviewed",
@@ -1157,8 +1157,8 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "大学",
-            "reading": "だいがく"
+            "text": "海外",
+            "reading": "かいがい"
           },
           {
             "text": "で"
@@ -2595,23 +2595,30 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1596950-1-ex-1",
-        "version": 1,
-        "before": "決勝戦では、最後まで激しい",
+        "version": 2,
+        "before": "優勝を決める試合では、最後まで激しい",
         "answer": "戦い",
         "after": "が続いた。",
         "reading": "たたかい",
-        "translation": "결승전에서는 마지막까지 치열한 싸움이 이어졌다.",
+        "translation": "우승을 결정하는 시합에서는 마지막까지 치열한 싸움이 이어졌다.",
         "translationTarget": "싸움",
         "difficulty": 29,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "決勝",
-            "reading": "けっしょう"
+            "text": "優勝",
+            "reading": "ゆうしょう"
           },
           {
-            "text": "戦",
-            "reading": "せん"
+            "text": "を"
+          },
+          {
+            "text": "決める",
+            "reading": "きめる"
+          },
+          {
+            "text": "試合",
+            "reading": "しあい"
           },
           {
             "text": "では、"
@@ -2946,12 +2953,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1214030-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "父の",
         "answer": "看病",
-        "after": "のため、妹と交代で病院に通った。",
+        "after": "のため、妹と交代で付き添った。",
         "reading": "かんびょう",
-        "translation": "아버지의 간병을 위해 여동생과 번갈아 병원에 다녔다.",
+        "translation": "아버지의 간병을 위해 여동생과 번갈아 곁을 지켰다.",
         "translationTarget": "간병",
         "difficulty": 37,
         "status": "reviewed",
@@ -2983,15 +2990,8 @@ const content: LearnSense[] = [
             "text": "で"
           },
           {
-            "text": "病院",
-            "reading": "びょういん"
-          },
-          {
-            "text": "に"
-          },
-          {
-            "text": "通っ",
-            "reading": "とおっ"
+            "text": "付き添っ",
+            "reading": "つきそっ"
           },
           {
             "text": "た。"

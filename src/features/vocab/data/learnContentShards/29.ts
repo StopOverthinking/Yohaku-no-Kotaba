@@ -1757,12 +1757,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1401090-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "父の死後、家の",
         "answer": "相続",
-        "after": "について専門家に相談した。",
+        "after": "について専門家の助言を求めた。",
         "reading": "そうぞく",
-        "translation": "아버지가 돌아가신 뒤 집의 상속에 관해 전문가와 상담했다.",
+        "translation": "아버지가 돌아가신 뒤 집의 상속에 관해 전문가의 조언을 구했다.",
         "translationTarget": "상속",
         "difficulty": 30,
         "status": "reviewed",
@@ -1802,14 +1802,21 @@ const content: LearnSense[] = [
             "reading": "か"
           },
           {
-            "text": "に"
+            "text": "の"
           },
           {
-            "text": "相談",
-            "reading": "そうだん"
+            "text": "助言",
+            "reading": "じょげん"
           },
           {
-            "text": "した。"
+            "text": "を"
+          },
+          {
+            "text": "求め",
+            "reading": "もとめ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }

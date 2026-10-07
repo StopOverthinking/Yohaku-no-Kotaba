@@ -21,12 +21,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-handmade_62-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "けがをした",
         "answer": "選手",
-        "after": "に、観客が大きな拍手を送った。",
+        "after": "に、観客が大きな声援を送った。",
         "reading": "せんしゅ",
-        "translation": "다친 선수에게 관중이 큰 박수를 보냈다.",
+        "translation": "다친 선수에게 관중이 큰 응원을 보냈다.",
         "translationTarget": "선수",
         "difficulty": 27,
         "status": "reviewed",
@@ -51,8 +51,8 @@ const content: LearnSense[] = [
             "reading": "おおきな"
           },
           {
-            "text": "拍手",
-            "reading": "はくしゅ"
+            "text": "声援",
+            "reading": "せいえん"
           },
           {
             "text": "を"
@@ -1199,12 +1199,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1159810-1-ex-1",
-        "version": 1,
-        "before": "兄は大学で",
+        "version": 2,
+        "before": "兄は海外で",
         "answer": "医学",
-        "after": "を学んでいます。",
+        "after": "の研究をしています。",
         "reading": "いがく",
-        "translation": "형은 대학교에서 의학을 공부하고 있어요.",
+        "translation": "형은 해외에서 의학 연구를 하고 있어요.",
         "translationTarget": "의학",
         "difficulty": 15,
         "status": "reviewed",
@@ -1217,8 +1217,8 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "大学",
-            "reading": "だいがく"
+            "text": "海外",
+            "reading": "かいがい"
           },
           {
             "text": "で"
@@ -1226,14 +1226,14 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "を"
+            "text": "の"
           },
           {
-            "text": "学ん",
-            "reading": "まなん"
+            "text": "研究",
+            "reading": "けんきゅう"
           },
           {
-            "text": "でいます。"
+            "text": "をしています。"
           }
         ]
       }

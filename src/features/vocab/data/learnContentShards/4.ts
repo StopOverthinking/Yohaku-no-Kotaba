@@ -2168,12 +2168,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1562400-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "久しぶりに会った友人とは、旅行の",
         "answer": "話題",
-        "after": "で話が弾んだ。",
+        "after": "で盛り上がった。",
         "reading": "わだい",
-        "translation": "오랜만에 만난 친구와는 여행을 화제로 삼아 한창 이야기를 나눴다.",
+        "translation": "오랜만에 만난 친구와는 여행을 화제로 삼아 대화 분위기가 무르익었다.",
         "translationTarget": "화제",
         "difficulty": 29,
         "status": "reviewed",
@@ -2212,18 +2212,11 @@ const content: LearnSense[] = [
             "text": "で"
           },
           {
-            "text": "話",
-            "reading": "はなし"
+            "text": "盛り上がっ",
+            "reading": "もりあがっ"
           },
           {
-            "text": "が"
-          },
-          {
-            "text": "弾ん",
-            "reading": "はずん"
-          },
-          {
-            "text": "だ。"
+            "text": "た。"
           }
         ]
       }
@@ -2795,19 +2788,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1332450-1-ex-1",
-        "version": 1,
-        "before": "研修を",
+        "version": 2,
+        "before": "講座を",
         "answer": "修了",
         "after": "した参加者には、証明書が渡される。",
         "reading": "しゅうりょう",
-        "translation": "연수를 수료한 참가자에게는 증명서가 전달된다.",
+        "translation": "강좌를 수료한 참가자에게는 증명서가 전달된다.",
         "translationTarget": "수료",
         "difficulty": 35,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "研修",
-            "reading": "けんしゅう"
+            "text": "講座",
+            "reading": "こうざ"
           },
           {
             "text": "を"

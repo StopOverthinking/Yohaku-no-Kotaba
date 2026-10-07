@@ -21,12 +21,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_453-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "この",
         "answer": "文章",
-        "after": "は一文が長くて、途中で意味が分からなくなる。",
+        "after": "は句読点が少なくて、途中で意味が分からなくなる。",
         "reading": "ぶんしょう",
-        "translation": "이 글은 한 문장이 길어서 도중에 뜻을 알 수 없게 된다.",
+        "translation": "이 글은 문장부호가 적어서 도중에 뜻을 알 수 없게 된다.",
         "translationTarget": "글",
         "difficulty": 31,
         "status": "reviewed",
@@ -40,15 +40,15 @@ const content: LearnSense[] = [
             "text": "は"
           },
           {
-            "text": "一文",
-            "reading": "いちぶん"
+            "text": "句読点",
+            "reading": "くとうてん"
           },
           {
             "text": "が"
           },
           {
-            "text": "長く",
-            "reading": "ながく"
+            "text": "少なく",
+            "reading": "すくなく"
           },
           {
             "text": "て、"
@@ -2296,12 +2296,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1262430-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "港に着いた",
         "answer": "原油",
-        "after": "は、パイプラインで製油所へ送られる。",
+        "after": "は、パイプラインで加工施設へ送られる。",
         "reading": "げんゆ",
-        "translation": "항구에 도착한 원유는 송유관을 통해 정유소로 보내진다.",
+        "translation": "항구에 도착한 원유는 송유관을 통해 가공 시설로 보내진다.",
         "translationTarget": "원유",
         "difficulty": 46,
         "status": "reviewed",
@@ -2326,12 +2326,12 @@ const content: LearnSense[] = [
             "text": "は、パイプラインで"
           },
           {
-            "text": "製油",
-            "reading": "せいゆ"
+            "text": "加工",
+            "reading": "かこう"
           },
           {
-            "text": "所",
-            "reading": "しょ"
+            "text": "施設",
+            "reading": "しせつ"
           },
           {
             "text": "へ"

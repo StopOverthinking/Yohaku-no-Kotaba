@@ -1184,19 +1184,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1345430-1-ex-1",
-        "version": 1,
-        "before": "彼女は舞台の経験を重ね、",
+        "version": 2,
+        "before": "姉は舞台の経験を重ね、",
         "answer": "女優",
         "after": "として映画にも出演するようになった。",
         "reading": "じょゆう",
-        "translation": "그녀는 무대 경험을 쌓아 여배우로서 영화에도 출연하게 되었다.",
+        "translation": "언니는 무대 경험을 쌓아 여배우로서 영화에도 출연하게 되었다.",
         "translationTarget": "여배우",
         "difficulty": 31,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "彼女",
-            "reading": "かのじょ"
+            "text": "姉",
+            "reading": "あね"
           },
           {
             "text": "は"

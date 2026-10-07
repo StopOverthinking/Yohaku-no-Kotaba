@@ -1653,19 +1653,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1238500-1-ex-1",
-        "version": 1,
-        "before": "故郷の方言を耳にして、急に",
+        "version": 2,
+        "before": "昔なじみの方言を耳にして、急に",
         "answer": "郷愁",
         "after": "を覚えた。",
         "reading": "きょうしゅう",
-        "translation": "고향 사투리를 듣고 갑자기 그리움을 느꼈다.",
+        "translation": "예전부터 익숙한 사투리를 듣고 갑자기 그리움을 느꼈다.",
         "translationTarget": "그리움",
         "difficulty": 44,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "故郷",
-            "reading": "こきょう"
+            "text": "昔なじみ",
+            "reading": "むかしなじみ"
           },
           {
             "text": "の"
@@ -1727,12 +1727,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1434960-1-ex-1",
-        "version": 1,
-        "before": "この列車は、次の駅には",
+        "version": 2,
+        "before": "この特急は、次の駅には",
         "answer": "停車",
         "after": "しません。",
         "reading": "ていしゃ",
-        "translation": "이 열차는 다음 역에는 정차하지 않습니다.",
+        "translation": "이 특급은 다음 역에는 정차하지 않습니다.",
         "translationTarget": "정차",
         "difficulty": 36,
         "status": "reviewed",
@@ -1741,8 +1741,8 @@ const content: LearnSense[] = [
             "text": "この"
           },
           {
-            "text": "列車",
-            "reading": "れっしゃ"
+            "text": "特急",
+            "reading": "とっきゅう"
           },
           {
             "text": "は、"

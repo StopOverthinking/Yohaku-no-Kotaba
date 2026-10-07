@@ -92,10 +92,10 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-JLPTN3_42-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "同じ質問を三回も",
         "answer": "繰り返して",
-        "after": "、やっと返事がもらえた。",
+        "after": "、やっと答えが聞けた。",
         "reading": "くりかえして",
         "translation": "같은 질문을 세 번이나 반복하고서야 겨우 답을 들었다.",
         "translationTarget": "반복하고서야",
@@ -126,11 +126,18 @@ const content: LearnSense[] = [
             "text": "、やっと"
           },
           {
-            "text": "返事",
-            "reading": "へんじ"
+            "text": "答え",
+            "reading": "こたえ"
           },
           {
-            "text": "がもらえた。"
+            "text": "が"
+          },
+          {
+            "text": "聞け",
+            "reading": "きけ"
+          },
+          {
+            "text": "た。"
           }
         ]
       }
@@ -543,12 +550,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-AbsoluteVerb_650-1-ex-1",
-        "version": 1,
-        "before": "娘が小学校に",
+        "version": 2,
+        "before": "娘が春に",
         "answer": "入学する",
         "after": "ので、机を用意した。",
         "reading": "にゅうがくする",
-        "translation": "딸이 초등학교에 입학하므로 책상을 준비했다.",
+        "translation": "딸이 봄에 입학하므로 책상을 준비했다.",
         "translationTarget": "입학하므로",
         "difficulty": 18,
         "status": "reviewed",
@@ -561,8 +568,8 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "小学校",
-            "reading": "しょうがっこう"
+            "text": "春",
+            "reading": "はる"
           },
           {
             "text": "に"
@@ -2751,29 +2758,18 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1306640-1-ex-1",
-        "version": 1,
-        "before": "オンライン説明会の",
+        "version": 2,
+        "before": "オンラインイベントの",
         "answer": "司会",
         "after": "を担当し、参加者から届いた質問を講師に紹介した。",
         "reading": "しかい",
-        "translation": "온라인 설명회의 진행을 맡아 참가자들이 보내 온 질문을 강사에게 전달했다.",
+        "translation": "온라인 행사의 진행을 맡아 참가자들이 보내 온 질문을 강사에게 전달했다.",
         "translationTarget": "진행",
         "difficulty": 38,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "オンライン"
-          },
-          {
-            "text": "説明",
-            "reading": "せつめい"
-          },
-          {
-            "text": "会",
-            "reading": "かい"
-          },
-          {
-            "text": "の"
+            "text": "オンラインイベントの"
           }
         ],
         "afterFurigana": [
@@ -3332,12 +3328,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1227660-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "家庭の事情で",
         "answer": "休学",
-        "after": "したが、復帰に向けて学習は続けていた。",
+        "after": "したが、復帰に向けて勉強は続けていた。",
         "reading": "きゅうがく",
-        "translation": "가정 사정으로 휴학했지만 복귀를 위해 학습은 이어 가고 있었다.",
+        "translation": "가정 사정으로 휴학했지만 복귀를 위해 공부는 이어 가고 있었다.",
         "translationTarget": "휴학",
         "difficulty": 45,
         "status": "reviewed",
@@ -3376,8 +3372,8 @@ const content: LearnSense[] = [
             "text": "て"
           },
           {
-            "text": "学習",
-            "reading": "がくしゅう"
+            "text": "勉強",
+            "reading": "べんきょう"
           },
           {
             "text": "は"
@@ -3633,12 +3629,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1344130-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "祖父は毎朝、",
         "answer": "書道",
-        "after": "の道具を静かに並べる。",
+        "after": "の筆と紙を静かに並べる。",
         "reading": "しょどう",
-        "translation": "할아버지는 매일 아침 서예 도구를 조용히 늘어놓으신다.",
+        "translation": "할아버지는 매일 아침 서예에 쓸 붓과 종이를 조용히 늘어놓으신다.",
         "translationTarget": "서예",
         "difficulty": 30,
         "status": "reviewed",
@@ -3663,8 +3659,15 @@ const content: LearnSense[] = [
             "text": "の"
           },
           {
-            "text": "道具",
-            "reading": "どうぐ"
+            "text": "筆",
+            "reading": "ふで"
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "紙",
+            "reading": "かみ"
           },
           {
             "text": "を"

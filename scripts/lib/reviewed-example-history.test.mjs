@@ -69,14 +69,18 @@ describe('user-authorized corrections after reviewed example pruning', () => {
     expect(result.retirements[0]).toMatchObject({ exampleId: 'retired', replacementId: 'e', replacementVersion: 2 })
     expect(after.examples).toHaveLength(1)
   })
-  it('validates all 60 live corrections and keeps target polarity, membership, and historical receipts separate', async () => {
+  it('validates the 60 polarity and 235 kanji-clue corrections while retaining all historical receipts', async () => {
     const read = async file => JSON.parse(await fs.readFile(file, 'utf8'))
     const [words, senses, history] = await Promise.all([
       read('src/features/vocab/editor-data/vocabularyWords.json'),
       read('src/features/vocab/editor-data/learnContent.json'), readReviewedExampleHistory(process.cwd()),
     ])
     const result = verifyReviewedExampleHistory(words, senses, history)
-    expect(result.corrections.correctedExamples).toBe(60)
+    expect(result.corrections.correctedExamples).toBe(295)
+    const kanji = history.corrections.find(journal => journal.scope === 'user-authorized-example-kanji-leakage-correction')
+    expect(kanji.entries).toHaveLength(234)
+    expect(kanji.entries.reduce((sum, entry) => sum + entry.after.examples.filter((example, i) =>
+      hashContent(example) !== hashContent(entry.before.examples[i])).length, 0)).toBe(235)
     expect(senses.reduce((count, sense) => count + sense.examples.length, 0)).toBe(5874)
     const correct = senses.find(sense => sense.wordId === 'lex-jmdict-1376600').examples.find(e => e.id.endsWith('ex-3'))
     expect(correct).toMatchObject({ answer: '正しい', reading: 'ただしい', version: 2, translationTarget: '옳다' })
@@ -87,5 +91,20 @@ describe('user-authorized corrections after reviewed example pruning', () => {
     }
     const intrinsic = senses.find(sense => sense.wordId === 'lex-jmdict-1348910').examples[0]
     expect(intrinsic).toMatchObject({ answer: '少ない', version: 1 })
+  })
+
+  it('requires the kanji-clue scope to remove a real clue without changing the answer or reading', () => {
+    const old = { ...after, examples: [{ ...after.examples[0], before: '正解を選んだので、' }] }
+    const next = { ...old, examples: [{ ...old.examples[0], before: '答えを選んだので、', version: 3 }] }
+    const journal = { ...correction(old, next), scope: 'user-authorized-example-kanji-leakage-correction' }
+    expect(check(next, [journal]).historicalSenses).toEqual([old])
+    for (const fields of [{ before: '正解だったので、' }, { answer: '適切' }, { reading: 'べつ' }]) {
+      const changed = { ...next, examples: [{ ...next.examples[0], ...fields }] }
+      const invalid = { ...correction(old, changed), scope: journal.scope }
+      expect(() => check(changed, [invalid])).toThrow('Kanji leakage correction')
+    }
+    const noClue = { ...old, examples: [{ ...old.examples[0], before: '答えを選んだので、' }] }
+    const needless = { ...next, examples: [{ ...next.examples[0], before: '選んだ答えは、' }] }
+    expect(() => check(needless, [{ ...correction(noClue, needless), scope: journal.scope }])).toThrow('Kanji leakage correction')
   })
 })
