@@ -8,7 +8,7 @@ export function similarHintWords(sense: LearnSense, word: { japanese: string; re
   const override = hintConfusions[sense.id]
   const comparisons = override?.senseVersion === sense.version
     ? override.words
-    : sense.confusions.map((confusion) => confusion.japanese)
+    : []
   const targets = [word.japanese, word.reading, example.answer, example.reading,
     ...sense.examples.flatMap((entry) => [entry.answer, entry.reading])]
   return [...new Set(comparisons.map((text) => text.trim())

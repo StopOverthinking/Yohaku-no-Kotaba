@@ -1,6 +1,6 @@
 import type { HintConfusions, LearnSense, LearnSenseIndex } from './contextTypes'
 
-/** Shared by source generation and display, including legacy fallback comparisons. */
+/** Shared by reviewed selection generation and display. Shared kanji alone is not a rejection. */
 export function hintComparisonIssue(label: string, targets: string[]): string | undefined {
   const canonical = (text: string) => text.normalize('NFKC').trim()
   const text = canonical(label)
@@ -9,8 +9,46 @@ export function hintComparisonIssue(label: string, targets: string[]): string | 
   if (answers.includes(text)) return 'current answer/headword/reading'
   const qualified = text.match(/^(.+)\((.+)\)$/u)
   if (qualified && answers.includes(qualified[1])) return 'qualified answer/headword'
-  const kanji = new Set(answers.flatMap((answer) => answer.match(/\p{Script=Han}/gu) ?? []))
-  if ([...text].some((char) => kanji.has(char))) return 'shared answer kanji'
+  const base = qualified?.[1] ?? text
+  // Conjugations are answer forms, rather than separate words to compare. Keep
+  // this narrow: related transitive verbs and words sharing kanji need semantic
+  // review; their spelling alone cannot decide the current Korean meaning.
+  for (const answer of answers) {
+    if (simpleAnswerForms(answer).has(base)) return 'simple answer inflection'
+  }
+}
+
+function simpleAnswerForms(answer: string): Set<string> {
+  const forms = new Set<string>()
+  const add = (stem: string, endings: string[]) => endings.forEach((ending) => forms.add(stem + ending))
+  // Attaching suru or the plain copula to the same displayed stem supplies the
+  // answer itself; it is distinct from a reviewed comparison to another lemma.
+  add(answer, ['する', 'だ'])
+  if (answer.endsWith('する')) add(answer.slice(0, -2), ['しない', 'しなかった', 'した', 'して', 'している', 'していた', 'します', 'しました', 'しません', 'される', 'させる', 'させられる', 'できる'])
+  else if (answer.endsWith('くる') || answer.endsWith('来る')) {
+    add(answer.slice(0, -2), ['こない', 'きた', 'きて', 'きます', 'こられる', 'こさせる'])
+    if (answer.endsWith('来る')) add(answer.slice(0, -1), ['ない', 'た', 'て', 'ます', 'られる', 'させる'])
+  } else {
+    const ending = answer.slice(-1), stem = answer.slice(0, -1)
+    const rows: Record<string, string[]> = {
+      'う': ['わ', 'い', 'った', 'って'], 'く': ['か', 'き', 'いた', 'いて'],
+      'ぐ': ['が', 'ぎ', 'いだ', 'いで'], 'す': ['さ', 'し', 'した', 'して'],
+      'つ': ['た', 'ち', 'った', 'って'], 'ぬ': ['な', 'に', 'んだ', 'んで'],
+      'ぶ': ['ば', 'び', 'んだ', 'んで'], 'む': ['ま', 'み', 'んだ', 'んで'],
+      'る': ['ら', 'り', 'った', 'って'],
+    }
+    const row = rows[ending]
+    if (row) {
+      add(stem + row[0], ['ない', 'なかった', 'れる', 'せる', 'せられる'])
+      add(stem + row[1], ['ます', 'ました', 'ません'])
+      add(stem, row.slice(2))
+      add(stem + row[3], ['いる', 'いた', 'います'])
+      if (ending === 'る') add(stem, ['ない', 'なかった', 'た', 'て', 'ている', 'ていた', 'ます', 'ました', 'ません', 'られる', 'させる', 'させられる'])
+    }
+    if (ending === 'い') add(stem, ['くない', 'かった', 'く', 'くて'])
+    if (ending === 'だ') add(stem, ['', 'な', 'に', 'だった', 'ではない', 'じゃない', 'です'])
+  }
+  return forms
 }
 
 export function questionKanjiLeaks(japanese: string, example: { before: string; answer: string; after: string }): string[] {

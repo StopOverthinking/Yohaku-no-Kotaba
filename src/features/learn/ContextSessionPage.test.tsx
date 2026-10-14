@@ -6,6 +6,11 @@ import { ContextSessionPage } from './ContextSessionPage'
 import { useContextStore } from './contextStore'
 import { contextSenses, loadContextSense } from './contextContent'
 import { addDays, localDay, profileKey, reviewProfile } from './contextEngine'
+import { hintConfusions } from '@/features/vocab/data/hintConfusions'
+
+vi.mock('@/features/vocab/data/hintConfusions', () => ({ hintConfusions: {
+  'sense-a': { senseVersion: 1, words: ['別'] }, 'sense-b': { senseVersion: 1, words: ['別'] },
+} }))
 
 vi.mock('./contextContent', async () => {
   const { testSense } = await import('./contextTestFixtures')
@@ -41,6 +46,7 @@ const renderPage = async () => {
 
 describe('context card', () => {
   beforeEach(async () => {
+    for (const id of ['sense-a', 'sense-b']) hintConfusions[id] = { senseVersion: 1, words: ['別'] }
     await resetContextStorage()
     useContextStore.setState({ snapshot: null, ready: false, busy: false, error: null, lastResult: null })
     await useContextStore.getState().hydrate()
@@ -91,9 +97,10 @@ describe('context card', () => {
     expect(document.querySelector('button button')).toBeNull()
   })
 
-  it('keeps the Korean hint and hides the comparison row when all labels reveal answer kanji', async () => {
+  it('keeps the Korean hint and hides the comparison row without a current reviewed selection', async () => {
     const id = useContextStore.getState().data.session!.current.senseId
     const sense = await loadContextSense(id)
+    delete hintConfusions[id]
     vi.mocked(loadContextSense).mockResolvedValueOnce({ ...sense,
       confusions: ['答えさせる', '答えられる'].map((japanese) => ({ japanese, distinction: '차이' })) })
     const { container } = await renderPage()

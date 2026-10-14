@@ -7,6 +7,7 @@ import { addLearnFurigana } from './lib/learn-furigana.mjs'
 import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
 import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './lib/reviewed-example-history.mjs'
+import { buildSemanticHintConfusions, assertSemanticHintSynchronization } from './lib/hint-semantic-review.mjs'
 import ts from 'typescript'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -153,6 +154,11 @@ async function writeOutputFiles(data) {
   }).outputText
   const { validateLearnContent, validateHintConfusions } = await import(`data:text/javascript;base64,${Buffer.from(validationJs).toString('base64')}`)
   const hintConfusions = data.hintConfusions ?? {}
+  const semanticReview = JSON.parse(await fs.readFile(path.join(projectRoot, 'content/learn/hint-semantic-review.json'), 'utf8'))
+  const dictionaryCandidates = await Promise.all(['n5', 'n4', 'n3', 'n2', 'n1', 'unassigned'].map((level) =>
+    fs.readFile(path.join(projectRoot, `content/jlpt/candidates/${level}.json`), 'utf8').then(JSON.parse)))
+  const semanticReport = buildSemanticHintConfusions(semanticReview, [...data.words, ...data.themeWords], data.learnContent ?? [], dictionaryCandidates.flat())
+  assertSemanticHintSynchronization(hintConfusions, semanticReport.supplements)
   const hintIssues = validateHintConfusions(hintConfusions, data.learnContent ?? [],
     new Map([...data.words, ...data.themeWords].map((word) => [word.id, word])))
   if (hintIssues.length) throw new Error(hintIssues.join('\n'))
