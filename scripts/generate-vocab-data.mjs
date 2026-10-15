@@ -8,6 +8,7 @@ import { writeGeneratedFile } from './lib/write-generated-file.mjs'
 import { buildReviewedAliases } from './lib/jlpt-aliases.mjs'
 import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './lib/reviewed-example-history.mjs'
 import { buildSemanticHintConfusions, assertSemanticHintSynchronization } from './lib/hint-semantic-review.mjs'
+import { readSenseSeparations } from './lib/sense-separations.mjs'
 import ts from 'typescript'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -154,6 +155,10 @@ async function writeOutputFiles(data) {
   }).outputText
   const { validateLearnContent, validateHintConfusions } = await import(`data:text/javascript;base64,${Buffer.from(validationJs).toString('base64')}`)
   const hintConfusions = data.hintConfusions ?? {}
+  const separated = await readSenseSeparations(projectRoot, data.learnContent ?? [])
+  const separationIssues = validateLearnContent(separated.senses, new Set([...data.words, ...data.themeWords].map(word => word.id)),
+    new Map([...data.words, ...data.themeWords].map(word => [word.id, word.japanese])))
+  if (separationIssues.length) throw new Error(separationIssues.join('\n'))
   const semanticReview = JSON.parse(await fs.readFile(path.join(projectRoot, 'content/learn/hint-semantic-review.json'), 'utf8'))
   const dictionaryCandidates = await Promise.all(['n5', 'n4', 'n3', 'n2', 'n1', 'unassigned'].map((level) =>
     fs.readFile(path.join(projectRoot, `content/jlpt/candidates/${level}.json`), 'utf8').then(JSON.parse)))
@@ -170,6 +175,8 @@ async function writeOutputFiles(data) {
     data.words, pruning.historicalSenses,
   )
   await fs.mkdir(outputDir, { recursive: true })
+  await writeGeneratedFile(path.join(outputDir, 'senseSeparations.ts'),
+    `import type { SenseSeparation } from '../../learn/contextTypes'\n\nexport const senseSeparations: SenseSeparation[] = ${toTsLiteral(separated.rows)}\n`)
   await writeGeneratedFile(path.join(outputDir, 'hintConfusions.ts'),
     `import type { HintConfusions } from '../../learn/contextTypes'\n\nexport const hintConfusions: HintConfusions = ${toTsLiteral(hintConfusions)}\n`)
   await writeGeneratedFile(path.join(outputDir, 'exampleRetirements.ts'),

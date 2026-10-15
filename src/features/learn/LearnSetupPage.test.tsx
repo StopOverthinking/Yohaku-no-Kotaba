@@ -17,7 +17,7 @@ vi.mock('./contextContent', async () => {
   const { allWords } = await import('@/features/vocab/model/selectors')
   const words = allWords.slice(0, 20)
   const senses = words.map((word) => testSense(word.id))
-  return { contextSenses: senses, contextAliasGroups: [], contextAliasCatalog: { resolveWordId: (id: string) => id }, contextSenseMap: new Map(senses.map((s) => [s.id, s])), contextContentReady: true, contextCoverage: words.length, contextWords: words }
+  return { contextSenses: senses, contextAliasGroups: [], contextSenseSeparations: [], contextAliasCatalog: { resolveWordId: (id: string) => id }, contextSenseMap: new Map(senses.map((s) => [s.id, s])), contextContentReady: true, contextCoverage: words.length, contextWords: words }
 })
 
 const initialPreferencesState = usePreferencesStore.getState()

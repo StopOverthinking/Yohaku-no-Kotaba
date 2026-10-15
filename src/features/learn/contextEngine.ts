@@ -285,5 +285,9 @@ export function undoContext(state: ContextState): ContextState {
   const profiles = { ...state.profiles }
   if (last.profile) profiles[last.profileKey] = last.profile
   else delete profiles[last.profileKey]
+  for (const [key, profile] of Object.entries(last.profileChanges ?? {})) {
+    if (profile) profiles[key] = profile
+    else delete profiles[key]
+  }
   return { ...state, profiles, level: last.level, session: last.session, history: state.history.slice(0, -1) }
 }

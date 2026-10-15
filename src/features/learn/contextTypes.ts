@@ -34,6 +34,20 @@ export type LearnSenseIndex = Pick<LearnSense, 'id' | 'wordId' | 'version' | 're
   examples: LearnExampleIndex[]
 }
 
+/** Explicit partitions of an older, combined sense; authored IDs remain intact. */
+export type SenseSeparation = {
+  sourceSenseId: string
+  sourceVersion: number
+  sourceMeaning: string
+  sourceHash: string
+  usages: Array<{ id: string; version: number; meaning: string; hint: string; exampleIds: string[] }>
+}
+export type SenseSeparationMigration = {
+  separation: SenseSeparation
+  profile: ReviewProfile | null
+  undoProfiles: Array<ReviewProfile | null>
+}
+
 export type ReviewProfile = {
   mastered?: boolean
   senseId: string
@@ -90,6 +104,8 @@ export type ContextUndo = {
   level: LearnerLevel
   profileKey: string
   profile: ReviewProfile | null
+  // An older combined sense can move between two independent usage keys on undo.
+  profileChanges?: Record<string, ReviewProfile | null>
 }
 export type ScoreChange = { before: number; after: number; completedAt: string }
 export type ContextResult = {
@@ -107,6 +123,7 @@ export type ContextState = {
   lastScoreChange?: ScoreChange
   version: 2 | 3
   aliasMigrations?: Record<string, ContextAliasMigration>
+  senseSeparations?: Record<string, SenseSeparationMigration>
   scheduleVersion: 4
   excludedWordIds?: string[]
   revision: number

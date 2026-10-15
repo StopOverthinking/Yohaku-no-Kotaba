@@ -2,9 +2,10 @@ import { localDay } from './contextReviewPolicy'
 import { create } from 'zustand'
 import { answerContext, emptyContextState, reconcileStudySession, startContext, undoContext, type StartContextOptions } from './contextEngine'
 import { ContextConflictError, type ContextSnapshot } from './contextDatabase'
-import type { ContextAliasGroup, ContextResult, ContextState, LearnSenseIndex } from './contextTypes'
+import type { ContextAliasGroup, ContextResult, ContextState, LearnSenseIndex, SenseSeparation } from './contextTypes'
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'
 import { reconcileRetiredExamples, type ExampleRetirement } from './contextExampleRetirements'
+import { reconcileSeparatedSenses } from './contextSenseSeparations'
 
 export type ContextPersistence = {
   load: (empty: ContextState) => Promise<ContextSnapshot>
@@ -39,9 +40,17 @@ export function createAsyncContextStore(
   day: () => string = localDay,
   aliasGroups: ContextAliasGroup[] = [],
   retirements: ExampleRetirement[] = [],
+  separations: SenseSeparation[] = [],
 ) {
   const aliases = createAliasCatalog(senses, aliasGroups)
   const senseMap = new Map(senses.map((sense) => [sense.id, sense]))
+  // Retirement recovery needs original source IDs before usage cards are separated.
+  const sourceSenses = [...senses, ...separations.map(row => {
+    const usages = senses.filter(sense => row.usages.some(usage => usage.id === sense.id))
+    if (usages.length !== row.usages.length) throw new Error('용법 분리 대상이 없습니다.')
+    return { id: row.sourceSenseId, wordId: usages[0].wordId, version: row.sourceVersion,
+      review: { word: true, contrast: true, diversity: true }, examples: usages.flatMap(sense => sense.examples) }
+  })]
   return create<AsyncContextStore>((set, get) => {
     let hydration: Promise<void> | null = null
     let pendingWrite: Promise<boolean> | null = null
@@ -86,7 +95,8 @@ export function createAsyncContextStore(
         set({ busy: true })
         try {
           let snapshot = await getRepository().load(emptyContextState())
-          const migrated = migrateContextAliases(reconcileStudySession(reconcileRetiredExamples(snapshot.data, senses, retirements), senses, day()), aliases, day())
+          const separated = reconcileSeparatedSenses(reconcileRetiredExamples(snapshot.data, sourceSenses, retirements), separations, retirements)
+          const migrated = migrateContextAliases(reconcileStudySession(separated, senses, day()), aliases, day())
           if (migrated !== snapshot.data || snapshot.needsScheduleMigration)
             snapshot = await getRepository().save(snapshot, { ...migrated, revision: snapshot.data.revision + 1 })
           const session = snapshot.data.session

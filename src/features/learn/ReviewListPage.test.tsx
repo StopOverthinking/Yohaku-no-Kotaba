@@ -11,7 +11,7 @@ import { localDay, profileKey, reviewProfile } from './contextEngine'
 vi.mock('./contextContent', async () => {
   const { testSense } = await import('./contextTestFixtures')
   const senses = [testSense('a'), { ...testSense('a-second'), wordId: 'a' }, testSense('b')]
-  return { contextSenses: senses, contextAliasGroups: [], contextWordMap: new Map([
+  return { contextSenses: senses, contextAliasGroups: [], contextSenseSeparations: [], contextWordMap: new Map([
     ['a', { japanese: '言葉', reading: 'ことば' }], ['b', { japanese: '本', reading: 'ほん' }],
   ]) }
 })

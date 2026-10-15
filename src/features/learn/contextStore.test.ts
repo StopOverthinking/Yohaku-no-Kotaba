@@ -7,7 +7,7 @@ import { parseRestorePayload } from '@/features/share/share'
 vi.mock('./contextContent', async () => {
   const { testSense } = await import('./contextTestFixtures')
   const senses = [testSense('a'), testSense('b')]
-  return { contextSenses: senses, contextAliasGroups: [], contextAliasCatalog: { resolveWordId: (id: string) => id }, contextSenseMap: new Map(senses.map((s) => [s.id, s])) }
+  return { contextSenses: senses, contextAliasGroups: [], contextSenseSeparations: [], contextAliasCatalog: { resolveWordId: (id: string) => id }, contextSenseMap: new Map(senses.map((s) => [s.id, s])) }
 })
 const options = {
   setId: 'all',

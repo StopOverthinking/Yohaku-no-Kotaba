@@ -3,11 +3,13 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { findSimilarSentences } from './lib/sentence-similarity.mjs'
 import { questionKanjiLeaks } from './lib/hint-comparison-policy.mjs'
+import { readSenseSeparations } from './lib/sense-separations.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = async (file) => JSON.parse(await fs.readFile(path.join(root, 'src/features/vocab/editor-data', file), 'utf8'))
 const [content, basic, theme] = await Promise.all([read('learnContent.json'), read('vocabularyWords.json'), read('themeWords.json')])
 const words = [...basic, ...theme]
+const separated = await readSenseSeparations(root, content)
 const wordMap = new Map(words.map(word => [word.id, word]))
 const kanjiLeaks = content.flatMap(sense => sense.examples.flatMap(example => {
   const shared = questionKanjiLeaks(wordMap.get(sense.wordId).japanese, example)
@@ -31,6 +33,7 @@ function repeatedEdges(end) {
 }
 const report = {
   words: words.length, senses: content.length, examples: entries.length, reviewedWords: reviewed.size,
+  learningSenses: separated.senses.length, separatedSenses: separated.rows.length,
   missing, kanjiLeaks, similar, comparisons, repeatedOpenings: repeatedEdges(false), repeatedEndings: repeatedEdges(true),
   note: '자동 유사도 검사는 검토 대상을 찾습니다. 자연스러움, 의미 차이, 장면 다양성은 별도 검수가 필요합니다.',
 }

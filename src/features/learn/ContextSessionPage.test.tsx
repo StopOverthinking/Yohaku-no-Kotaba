@@ -21,7 +21,7 @@ vi.mock('./contextContent', async () => {
   }
   return {
     loadContextSense: vi.fn(async (id: string) => senses.find((sense) => sense.id === id)!),
-    contextSenses: senses, contextAliasGroups: [], contextAliasCatalog: { resolveWordId: (id: string) => id },
+    contextSenses: senses, contextAliasGroups: [], contextSenseSeparations: [], contextAliasCatalog: { resolveWordId: (id: string) => id },
     contextSenseMap: new Map(senses.map((s) => [s.id, s])),
     contextWordMap: new Map(['a', 'b'].map((id) => [id, { id, japanese: '答える', reading: 'こたえる' }])),
   }

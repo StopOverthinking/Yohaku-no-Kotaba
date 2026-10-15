@@ -32,6 +32,14 @@ const card = (value: unknown) =>
   positive(value.exampleVersion)
 const cards = (value: unknown) => Array.isArray(value) && value.every(card)
 
+function separation(value: unknown): boolean {
+  return record(value) && typeof value.sourceSenseId === 'string' && !!value.sourceSenseId && positive(value.sourceVersion) &&
+    typeof value.sourceMeaning === 'string' && typeof value.sourceHash === 'string' && /^[a-f0-9]{64}$/.test(value.sourceHash) &&
+    Array.isArray(value.usages) && value.usages.length >= 2 && value.usages.every(usage =>
+      record(usage) && typeof usage.id === 'string' && !!usage.id && positive(usage.version) &&
+      typeof usage.meaning === 'string' && typeof usage.hint === 'string' && strings(usage.exampleIds) && usage.exampleIds.length > 0)
+}
+
 function profile(value: unknown, stepCount: number): boolean {
   if (
     !record(value) ||
@@ -138,6 +146,18 @@ export function parseContextState(raw: string): ContextState {
   } else if (state.aliasMigrations !== undefined) {
     throw new Error('단어 연결 기록의 버전이 올바르지 않습니다.')
   }
+  if (state.senseSeparations !== undefined) {
+    if (!record(state.senseSeparations)) throw new Error('용법 분리 원본 기록이 올바르지 않습니다.')
+    for (const [key, migration] of Object.entries(state.senseSeparations)) {
+      if (!record(migration) || !separation(migration.separation) || !record(migration.separation) ||
+          key !== `${migration.separation.sourceSenseId}@${migration.separation.sourceVersion}` || !Array.isArray(migration.undoProfiles))
+        throw new Error('용법 분리 원본 기록이 올바르지 않습니다.')
+      for (const value of [migration.profile, ...migration.undoProfiles]) {
+        if (value !== null && (!profile(value, REVIEW_INTERVALS.length) || !record(value) || key !== `${value.senseId}@${value.version}`))
+          throw new Error('용법 분리 이전 프로필이 올바르지 않습니다.')
+      }
+    }
+  }
   for (const entry of state.history) {
     if (
       !record(entry) ||
@@ -151,6 +171,11 @@ export function parseContextState(raw: string): ContextState {
           (!oldPolicy && (entry.profile.failures as number) > 0 && (entry.profile.step as number) >= FAILURE_INTERVALS.length)))
     )
       throw new Error('이전 카드 기록을 읽을 수 없습니다.')
+    if (entry.profileChanges !== undefined && (!record(entry.profileChanges) ||
+        !Object.entries(entry.profileChanges).every(([key, value]) => key !== entry.profileKey &&
+          /^[^\s]+@[1-9]\d*$/.test(key) && (value === null || (profile(value, stepCount) && record(value) &&
+            key === `${value.senseId}@${value.version}` && (oldPolicy || !(value.failures as number) || (value.step as number) < FAILURE_INTERVALS.length))))))
+      throw new Error('분리된 용법의 이전 카드 기록을 읽을 수 없습니다.')
   }
   const result = state as ContextState
   if (oldPolicy) {
@@ -164,6 +189,7 @@ export function parseContextState(raw: string): ContextState {
     }
     Object.values(result.profiles).forEach(migrate)
     result.history.forEach((entry) => { if (entry.profile) migrate(entry.profile) })
+    result.history.forEach(entry => Object.values(entry.profileChanges ?? {}).forEach(value => { if (value) migrate(value) }))
   }
   result.scheduleVersion = SCHEDULE_VERSION
   return result

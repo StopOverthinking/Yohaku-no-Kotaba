@@ -96,7 +96,6 @@ export function validateLearnContent(senses: LearnSense[], wordIds: Set<string>,
       if (/[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}]/u.test(sense.hint))
         issues.push(`${sense.id}: 힌트의 일본어 노출`)
       if (
-        !sense.confusions.length ||
         sense.confusions.some((c) => !c.japanese.trim() || !c.distinction.trim())
       )
         issues.push(`${sense.id}: 혼동 표현 검토 누락`)

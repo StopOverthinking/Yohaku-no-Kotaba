@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "authorization": "2026-10-15 사용자 요청: 彼女의 그녀와 여자친구 의미가 학습 표시와 복습에서 섞이지 않도록 분리한다.",
+  "review": {
+    "independent": false,
+    "reviewedBy": "Codex",
+    "notes": [
+      "원본 예문 ex-1은 이미 언급된 여성을 가리키는 그녀, ex-2는 형의 연인을 가리키는 여자친구다.",
+      "원본 단어·용법·예문 ID와 버전 및 과거 승인 원장을 보존하고, 명시한 예문 소속으로 학습 용법만 분리한다.",
+      "기존 통합 복습 일정은 마지막으로 본 예문에 해당하는 용법에만 연결한다. 다른 의미의 숙련도·학습일로 복제하지 않는다.",
+      "분리된 힌트는 각 의미만 설명하며, 통합 용법의 비교어를 자동 상속하지 않는다."
+    ]
+  },
+  "separations": [
+    {
+      "sourceSenseId": "sense-lex-jmdict-1483150-1",
+      "sourceVersion": 1,
+      "sourceMeaning": "그녀; 여자친구",
+      "sourceHash": "7fd74d6798fdeb4df4674a862c114f8f346cead47e10ddecd420ca6b73305854",
+      "usages": [
+        {
+          "id": "sense-lex-jmdict-1483150-she",
+          "version": 1,
+          "meaning": "그녀",
+          "hint": "대화에서 이미 언급한 여성을 다시 가리키는 3인칭 대명사를 떠올려 보세요.",
+          "exampleIds": ["sense-lex-jmdict-1483150-1-ex-1"]
+        },
+        {
+          "id": "sense-lex-jmdict-1483150-girlfriend",
+          "version": 1,
+          "meaning": "여자친구",
+          "hint": "연인 관계로 사귀는 여성을 가리키는 말을 떠올려 보세요.",
+          "exampleIds": ["sense-lex-jmdict-1483150-1-ex-2"]
+        }
+      ]
+    }
+  ]
+}
