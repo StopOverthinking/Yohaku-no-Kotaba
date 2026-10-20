@@ -609,41 +609,34 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1266970-1-ex-1",
-        "version": 1,
-        "before": "風が強いので、",
+        "version": 2,
+        "before": "和室の",
         "answer": "戸",
-        "after": "を閉めてください。",
+        "after": "をそっと開けた。",
         "reading": "と",
-        "translation": "바람이 세니 문을 닫아 주세요.",
+        "translation": "다다미방 문을 살며시 열었다.",
         "translationTarget": "문",
         "difficulty": 13,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "風",
-            "reading": "かぜ"
+            "text": "和室",
+            "reading": "わしつ"
           },
           {
-            "text": "が"
-          },
-          {
-            "text": "強い",
-            "reading": "つよい"
-          },
-          {
-            "text": "ので、"
+            "text": "の"
           }
         ],
         "afterFurigana": [
           {
-            "text": "を"
+            "text": "をそっと"
           },
           {
-            "text": "閉め",
-            "reading": "しめ"
+            "text": "開け",
+            "reading": "あけ"
           },
           {
-            "text": "てください。"
+            "text": "た。"
           }
         ]
       }

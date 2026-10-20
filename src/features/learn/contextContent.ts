@@ -15,7 +15,8 @@ export const contextContentIssues = learnContentIssues
 export const contextSenses = separateContextSenses(learnContentIndex.filter(isReviewedSense), senseSeparations)
 export const contextAliasGroups = learnAliases
 export const contextSenseSeparations = senseSeparations
-export const contextAliasCatalog = createAliasCatalog(contextSenses, contextAliasGroups)
+export const contextAliasCatalog = createAliasCatalog([...contextSenses, ...learnContentIndex.filter(sense =>
+  senseSeparations.some(row => row.sourceSenseId === sense.id))], contextAliasGroups, senseSeparations)
 const { loadSense } = createContentLoader(learnContentIndex, learnContentLoaders)
 const separatedUsages = new Map(senseSeparations.flatMap(row => row.usages.map(usage => [usage.id, { row, usage }] as const)))
 export async function loadContextSense(id: string) {

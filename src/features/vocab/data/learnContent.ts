@@ -1581,12 +1581,12 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-JLPTN3_28-1-ex-2",
-        "version": 2,
-        "before": "子供は割った花瓶を棚の奥に",
+        "version": 3,
+        "before": "失敗したことを家族に",
         "answer": "隠した",
         "after": "。",
         "reading": "かくした",
-        "translation": "아이는 깨뜨린 꽃병을 선반 안쪽에 숨겼다.",
+        "translation": "실패한 사실을 가족에게 숨겼다.",
         "translationTarget": "숨겼다",
         "difficulty": 26,
         "status": "reviewed"
@@ -55061,13 +55061,13 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1227500-1-ex-1",
-        "version": 1,
-        "before": "午後の",
+        "version": 2,
+        "before": "昼の",
         "answer": "休み",
         "after": "に近くの店でコーヒーを飲みました。",
         "reading": "やすみ",
-        "translation": "오후 휴식 시간에 근처 가게에서 커피를 마셨어요.",
-        "translationTarget": "휴식 시간",
+        "translation": "점심 쉬는 시간에 근처 가게에서 커피를 마셨어요.",
+        "translationTarget": "쉬는 시간",
         "difficulty": 14,
         "status": "reviewed"
       },
@@ -56125,12 +56125,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1283190-1-ex-1",
-        "version": 1,
-        "before": "この山は雲より",
+        "version": 2,
+        "before": "飛行機は雲より",
         "answer": "高い",
-        "after": "所まで登れるそうです。",
+        "after": "所を飛んでいます。",
         "reading": "たかい",
-        "translation": "이 산은 구름보다 높은 곳까지 올라갈 수 있대요.",
+        "translation": "비행기는 구름보다 높은 곳을 날고 있어요.",
         "translationTarget": "높은",
         "difficulty": 17,
         "status": "reviewed"
@@ -56457,12 +56457,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1266970-1-ex-1",
-        "version": 1,
-        "before": "風が強いので、",
+        "version": 2,
+        "before": "和室の",
         "answer": "戸",
-        "after": "を閉めてください。",
+        "after": "をそっと開けた。",
         "reading": "と",
-        "translation": "바람이 세니 문을 닫아 주세요.",
+        "translation": "다다미방 문을 살며시 열었다.",
         "translationTarget": "문",
         "difficulty": 13,
         "status": "reviewed"
@@ -59993,13 +59993,13 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1555830-1-ex-2",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "隣",
-        "after": "の家からピアノの音が聞こえます。",
+        "after": "からピアノの音が聞こえます。",
         "reading": "となり",
         "translation": "이웃집에서 피아노 소리가 들려요.",
-        "translationTarget": "이웃",
+        "translationTarget": "이웃집",
         "difficulty": 14,
         "status": "reviewed"
       }
@@ -69461,12 +69461,12 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1467710-1-ex-3",
-        "version": 1,
+        "version": 2,
         "before": "鍋の",
         "answer": "熱",
-        "after": "が冷めるまで、ふたを開けないでください。",
+        "after": "が手に伝わってきました。",
         "reading": "ねつ",
-        "translation": "냄비의 열이 식을 때까지 뚜껑을 열지 마세요.",
+        "translation": "냄비의 열이 손으로 전해졌어요.",
         "translationTarget": "열",
         "difficulty": 18,
         "status": "reviewed"
@@ -70053,8 +70053,8 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1590770-1-ex-3",
-        "version": 1,
-        "before": "駅まで送ってくれた",
+        "version": 2,
+        "before": "駅まで送ってもらった",
         "answer": "代わり",
         "after": "に、夕飯をごちそうしました。",
         "reading": "かわり",
@@ -70537,13 +70537,13 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1489340-1-ex-3",
-        "version": 1,
-        "before": "店の",
+        "version": 2,
+        "before": "少し",
         "answer": "表",
-        "after": "で友達を待っていました。",
+        "after": "に出て、風に当たってきます。",
         "reading": "おもて",
-        "translation": "가게 앞쪽에서 친구를 기다리고 있었어요.",
-        "translationTarget": "앞쪽",
+        "translation": "잠깐 바깥에 나가 바람을 쐬고 올게요.",
+        "translationTarget": "바깥",
         "difficulty": 17,
         "status": "reviewed"
       }
@@ -71973,12 +71973,12 @@ export const learnContent: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1009340-1-ex-2",
-        "version": 1,
-        "before": "発表の日まで",
+        "version": 2,
+        "before": "会える日を",
         "answer": "どんなに",
-        "after": "練習したか、知っていますか。",
+        "after": "楽しみにしていたことか。",
         "reading": "どんなに",
-        "translation": "발표 날까지 얼마나 연습했는지 알고 있나요?",
+        "translation": "만날 날을 얼마나 기대했던가.",
         "translationTarget": "얼마나",
         "difficulty": 23,
         "status": "reviewed"
@@ -88069,12 +88069,12 @@ export const learnContent: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1260670-1-ex-1",
-        "version": 1,
-        "before": "借りた本を、棚の",
+        "version": 2,
+        "before": "借りた本を",
         "answer": "元",
         "after": "の場所へ戻した。",
         "reading": "もと",
-        "translation": "빌린 책을 선반의 원래 자리로 돌려놓았다.",
+        "translation": "빌린 책을 원래 자리로 돌려놓았다.",
         "translationTarget": "원래",
         "difficulty": 26,
         "status": "reviewed"

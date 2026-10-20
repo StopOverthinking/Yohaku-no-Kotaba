@@ -1084,19 +1084,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1227500-1-ex-1",
-        "version": 1,
-        "before": "午後の",
+        "version": 2,
+        "before": "昼の",
         "answer": "休み",
         "after": "に近くの店でコーヒーを飲みました。",
         "reading": "やすみ",
-        "translation": "오후 휴식 시간에 근처 가게에서 커피를 마셨어요.",
-        "translationTarget": "휴식 시간",
+        "translation": "점심 쉬는 시간에 근처 가게에서 커피를 마셨어요.",
+        "translationTarget": "쉬는 시간",
         "difficulty": 14,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "午後",
-            "reading": "ごご"
+            "text": "昼",
+            "reading": "ひる"
           },
           {
             "text": "の"
@@ -1669,8 +1669,8 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1590770-1-ex-3",
-        "version": 1,
-        "before": "駅まで送ってくれた",
+        "version": 2,
+        "before": "駅まで送ってもらった",
         "answer": "代わり",
         "after": "に、夕飯をごちそうしました。",
         "reading": "かわり",
@@ -1691,7 +1691,7 @@ const content: LearnSense[] = [
             "reading": "おくっ"
           },
           {
-            "text": "てくれた"
+            "text": "てもらった"
           }
         ],
         "afterFurigana": [

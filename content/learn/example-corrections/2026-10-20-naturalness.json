@@ -1,0 +1,927 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-20-naturalness",
+  "scope": "user-authorized-example-naturalness-correction",
+  "authorization": "2026-10-20 사용자 요청: 店の表 같은 비일상적 용법과 여러 예문의 의미 혼합을 수정한다.",
+  "review": {
+    "outcome": "accepted",
+    "reviewedBy": "current Codex session editorial review",
+    "independent": false,
+    "reviewedAt": "2026-10-20T05:34:37.089Z",
+    "notes": [
+      "복수 예문 용법 190개·406예문의 문장과 기존 의미 분류를 전부 대조했다.",
+      "단어·용법·예문 ID, 순서, 난도, 소속과 과거 승인 원문은 보존한다. 정정 예문의 버전만 1 증가한다.",
+      "나머지 5,468개 단일 예문은 구조·생성·후리가나·정답 노출 감사를 수행하며 신규 언어 전수 승인으로 주장하지 않는다."
+    ],
+    "sources": [
+      "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/series/33/pdf/kokugo_series_033_03.pdf",
+      "https://dictionary.cambridge.org/dictionary/japanese-english/表"
+    ]
+  },
+  "entries": [
+    {
+      "wordId": "JLPTN3_28",
+      "wordHash": "8ccf92c541004dd49f03301439e0649e94298425a85209045617bebdafadb161",
+      "before": {
+        "id": "sense-JLPTN3_28-1",
+        "wordId": "JLPTN3_28",
+        "version": 1,
+        "meaning": "보이지 않게 숨기다",
+        "hint": "다른 사람이 찾거나 알지 못하도록 가려 두는 행동이에요.",
+        "confusions": [
+          {
+            "japanese": "隠れる",
+            "distinction": "대상이 스스로 숨는 것과 달리 누군가가 대상을 보이지 않게 한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_28-1-ex-1",
+            "version": 1,
+            "before": "誕生日の贈り物を、妹の部屋に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "생일 선물을 여동생 방에 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-JLPTN3_28-1-ex-2",
+            "version": 2,
+            "before": "子供は割った花瓶を棚の奥に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "아이는 깨뜨린 꽃병을 선반 안쪽에 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-JLPTN3_28-1",
+        "wordId": "JLPTN3_28",
+        "version": 1,
+        "meaning": "보이지 않게 숨기다",
+        "hint": "다른 사람이 찾거나 알지 못하도록 가려 두는 행동이에요.",
+        "confusions": [
+          {
+            "japanese": "隠れる",
+            "distinction": "대상이 스스로 숨는 것과 달리 누군가가 대상을 보이지 않게 한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-JLPTN3_28-1-ex-1",
+            "version": 1,
+            "before": "誕生日の贈り物を、妹の部屋に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "생일 선물을 여동생 방에 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-JLPTN3_28-1-ex-2",
+            "version": 3,
+            "before": "失敗したことを家族に",
+            "answer": "隠した",
+            "after": "。",
+            "reading": "かくした",
+            "translation": "실패한 사실을 가족에게 숨겼다.",
+            "translationTarget": "숨겼다",
+            "difficulty": 26,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "c1ab894ffe7564dd14123d611c661c874a21bce27f63a344e298739a6ed61f8e",
+      "afterHash": "9d279f253a64b93ddc6b2de86f24965aeff985dd555d5a49a3c38a97c99922e6",
+      "reason": "물건 숨기기 예문과 겹치던 문장을 사실 은폐의 명확한 예문으로 정정한다."
+    },
+    {
+      "wordId": "lex-jmdict-1227500",
+      "wordHash": "d028b60e4ff96d1e0f83b9e616de7579f7a132003f369511291284fac91c6e07",
+      "before": {
+        "id": "sense-lex-jmdict-1227500-1",
+        "wordId": "lex-jmdict-1227500",
+        "version": 1,
+        "meaning": "쉼, 휴식 / 휴일",
+        "hint": "일이나 수업을 잠시 멈추고 몸과 시간을 쉬게 하는 때를 생각해 보세요.",
+        "confusions": [
+          {
+            "japanese": "休む",
+            "distinction": "명사는 쉬는 시간이나 휴일을 가리키고, 休む는 쉬는 행동을 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1227500-1-ex-1",
+            "version": 1,
+            "before": "午後の",
+            "answer": "休み",
+            "after": "に近くの店でコーヒーを飲みました。",
+            "reading": "やすみ",
+            "translation": "오후 휴식 시간에 근처 가게에서 커피를 마셨어요.",
+            "translationTarget": "휴식 시간",
+            "difficulty": 14,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1227500-1-ex-2",
+            "version": 1,
+            "before": "明日は",
+            "answer": "休み",
+            "after": "だから、少し遅く起きます。",
+            "reading": "やすみ",
+            "translation": "내일은 쉬는 날이라 조금 늦게 일어날 거예요.",
+            "translationTarget": "쉬는 날",
+            "difficulty": 14,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1227500-1",
+        "wordId": "lex-jmdict-1227500",
+        "version": 1,
+        "meaning": "쉼, 휴식 / 휴일",
+        "hint": "일이나 수업을 잠시 멈추고 몸과 시간을 쉬게 하는 때를 생각해 보세요.",
+        "confusions": [
+          {
+            "japanese": "休む",
+            "distinction": "명사는 쉬는 시간이나 휴일을 가리키고, 休む는 쉬는 행동을 나타낸다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1227500-1-ex-1",
+            "version": 2,
+            "before": "昼の",
+            "answer": "休み",
+            "after": "に近くの店でコーヒーを飲みました。",
+            "reading": "やすみ",
+            "translation": "점심 쉬는 시간에 근처 가게에서 커피를 마셨어요.",
+            "translationTarget": "쉬는 시간",
+            "difficulty": 14,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1227500-1-ex-2",
+            "version": 1,
+            "before": "明日は",
+            "answer": "休み",
+            "after": "だから、少し遅く起きます。",
+            "reading": "やすみ",
+            "translation": "내일은 쉬는 날이라 조금 늦게 일어날 거예요.",
+            "translationTarget": "쉬는 날",
+            "difficulty": 14,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "412f135c10b8760152dfd22389c9e4a6577019ff99e4767200e95bd338a55e02",
+      "afterHash": "d80238b39dde21fbc126178dff4feed597feb30f73dc220b96409d75688557a2",
+      "reason": "午後の休み보다 익숙한 점심 휴식의 문맥을 사용한다."
+    },
+    {
+      "wordId": "lex-jmdict-1283190",
+      "wordHash": "43f62aef31cc23678f03e197992c98882b9df356b6398c6bf9813cfcd015f5ac",
+      "before": {
+        "id": "sense-lex-jmdict-1283190-1",
+        "wordId": "lex-jmdict-1283190",
+        "version": 1,
+        "meaning": "높다, 비싸다",
+        "hint": "위쪽까지의 높이가 크거나 물건의 값이 많이 나가는 경우를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "安い",
+            "distinction": "높이나 가격이 큰 상태를 말하며, 安い는 가격이 낮은 상태를 말한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1283190-1-ex-1",
+            "version": 1,
+            "before": "この山は雲より",
+            "answer": "高い",
+            "after": "所まで登れるそうです。",
+            "reading": "たかい",
+            "translation": "이 산은 구름보다 높은 곳까지 올라갈 수 있대요.",
+            "translationTarget": "높은",
+            "difficulty": 17,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1283190-1-ex-2",
+            "version": 1,
+            "before": "この店の魚は",
+            "answer": "高い",
+            "after": "ので、今日は買いません。",
+            "reading": "たかい",
+            "translation": "이 가게 생선은 비싸서 오늘은 사지 않아요.",
+            "translationTarget": "비싸서",
+            "difficulty": 15,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1283190-1",
+        "wordId": "lex-jmdict-1283190",
+        "version": 1,
+        "meaning": "높다, 비싸다",
+        "hint": "위쪽까지의 높이가 크거나 물건의 값이 많이 나가는 경우를 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "安い",
+            "distinction": "높이나 가격이 큰 상태를 말하며, 安い는 가격이 낮은 상태를 말한다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1283190-1-ex-1",
+            "version": 2,
+            "before": "飛行機は雲より",
+            "answer": "高い",
+            "after": "所を飛んでいます。",
+            "reading": "たかい",
+            "translation": "비행기는 구름보다 높은 곳을 날고 있어요.",
+            "translationTarget": "높은",
+            "difficulty": 17,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1283190-1-ex-2",
+            "version": 1,
+            "before": "この店の魚は",
+            "answer": "高い",
+            "after": "ので、今日は買いません。",
+            "reading": "たかい",
+            "translation": "이 가게 생선은 비싸서 오늘은 사지 않아요.",
+            "translationTarget": "비싸서",
+            "difficulty": 15,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "61d0735980c3f17f6311b063e80a25c605c957e5f530b91a855cc89a14ef7a8c",
+      "afterHash": "58093776d22011bb33e4abf2b44397b1af3762bb6334194d3b15a48d7d5fa6c7",
+      "reason": "산을 주제로 높이 올라갈 수 있다고 우회하던 문장을 익숙한 높이 비교로 바꾼다."
+    },
+    {
+      "wordId": "lex-jmdict-1555830",
+      "wordHash": "4cac6e0042823bf9f25aca904cfd0867d5cde0901ebf477bdf8d070a809c6dc0",
+      "before": {
+        "id": "sense-lex-jmdict-1555830-1",
+        "wordId": "lex-jmdict-1555830",
+        "version": 1,
+        "meaning": "이웃, 바로 옆",
+        "hint": "기준이 되는 집이나 자리와 경계가 맞닿은 곳을 가리키는 말을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "近く",
+            "distinction": "隣: 바로 붙어 있거나 옆에 있는 곳; 近く: 거리가 가깝지만 바로 붙어 있지 않을 수도 있는 곳."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1555830-1-ex-1",
+            "version": 1,
+            "before": "私の",
+            "answer": "隣",
+            "after": "に座ってください。",
+            "reading": "となり",
+            "translation": "제 옆에 앉아 주세요.",
+            "translationTarget": "옆",
+            "difficulty": 11,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1555830-1-ex-2",
+            "version": 1,
+            "before": "",
+            "answer": "隣",
+            "after": "の家からピアノの音が聞こえます。",
+            "reading": "となり",
+            "translation": "이웃집에서 피아노 소리가 들려요.",
+            "translationTarget": "이웃",
+            "difficulty": 14,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1555830-1",
+        "wordId": "lex-jmdict-1555830",
+        "version": 1,
+        "meaning": "이웃, 바로 옆",
+        "hint": "기준이 되는 집이나 자리와 경계가 맞닿은 곳을 가리키는 말을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "近く",
+            "distinction": "隣: 바로 붙어 있거나 옆에 있는 곳; 近く: 거리가 가깝지만 바로 붙어 있지 않을 수도 있는 곳."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1555830-1-ex-1",
+            "version": 1,
+            "before": "私の",
+            "answer": "隣",
+            "after": "に座ってください。",
+            "reading": "となり",
+            "translation": "제 옆에 앉아 주세요.",
+            "translationTarget": "옆",
+            "difficulty": 11,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1555830-1-ex-2",
+            "version": 2,
+            "before": "",
+            "answer": "隣",
+            "after": "からピアノの音が聞こえます。",
+            "reading": "となり",
+            "translation": "이웃집에서 피아노 소리가 들려요.",
+            "translationTarget": "이웃집",
+            "difficulty": 14,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "d9f4efd383633b2e29fc60523211da80be4077cee2b6d746cee94d67487bc5fb",
+      "afterHash": "f7c0ee4ea3fb00c94d909d6e2b4006df64e37899fcca51321ddc75b2425dddbe",
+      "reason": "隣の家의 중복 지시를 줄이고 隣 자체의 이웃집 의미가 드러나게 한다."
+    },
+    {
+      "wordId": "lex-jmdict-1467710",
+      "wordHash": "97f467216739d23d6f3e6b99125ceda0d20c7fa6051be79e6961828818f2db30",
+      "before": {
+        "id": "sense-lex-jmdict-1467710-1",
+        "wordId": "lex-jmdict-1467710",
+        "version": 1,
+        "meaning": "열, 발열; 열정",
+        "hint": "몸이 아플 때 오르거나 어떤 일에 몰두하게 하는 뜨거운 기운을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "暑さ",
+            "distinction": "熱（ねつ）: 몸의 열이나 물체의 열기, 또는 어떤 일에 쏟는 열정을 뜻함; 暑さ（あつさ）: 날씨가 덥다고 느끼는 정도를 뜻함."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1467710-1-ex-1",
+            "version": 1,
+            "before": "朝から",
+            "answer": "熱",
+            "after": "があって、学校を休みました。",
+            "reading": "ねつ",
+            "translation": "아침부터 열이 나서 학교를 쉬었어요.",
+            "translationTarget": "열",
+            "difficulty": 16,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1467710-1-ex-2",
+            "version": 1,
+            "before": "運動に対する",
+            "answer": "熱",
+            "after": "が高まり、毎日練習するようになりました。",
+            "reading": "ねつ",
+            "translation": "운동에 대한 열정이 커져 매일 연습하게 됐어요.",
+            "translationTarget": "열정",
+            "difficulty": 20,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1467710-1-ex-3",
+            "version": 1,
+            "before": "鍋の",
+            "answer": "熱",
+            "after": "が冷めるまで、ふたを開けないでください。",
+            "reading": "ねつ",
+            "translation": "냄비의 열이 식을 때까지 뚜껑을 열지 마세요.",
+            "translationTarget": "열",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1467710-1",
+        "wordId": "lex-jmdict-1467710",
+        "version": 1,
+        "meaning": "열, 발열; 열정",
+        "hint": "몸이 아플 때 오르거나 어떤 일에 몰두하게 하는 뜨거운 기운을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "暑さ",
+            "distinction": "熱（ねつ）: 몸의 열이나 물체의 열기, 또는 어떤 일에 쏟는 열정을 뜻함; 暑さ（あつさ）: 날씨가 덥다고 느끼는 정도를 뜻함."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1467710-1-ex-1",
+            "version": 1,
+            "before": "朝から",
+            "answer": "熱",
+            "after": "があって、学校を休みました。",
+            "reading": "ねつ",
+            "translation": "아침부터 열이 나서 학교를 쉬었어요.",
+            "translationTarget": "열",
+            "difficulty": 16,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1467710-1-ex-2",
+            "version": 1,
+            "before": "運動に対する",
+            "answer": "熱",
+            "after": "が高まり、毎日練習するようになりました。",
+            "reading": "ねつ",
+            "translation": "운동에 대한 열정이 커져 매일 연습하게 됐어요.",
+            "translationTarget": "열정",
+            "difficulty": 20,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1467710-1-ex-3",
+            "version": 2,
+            "before": "鍋の",
+            "answer": "熱",
+            "after": "が手に伝わってきました。",
+            "reading": "ねつ",
+            "translation": "냄비의 열이 손으로 전해졌어요.",
+            "translationTarget": "열",
+            "difficulty": 18,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "176fab9a16c25e704141743a09eadf6bcb6c7c49fb3cc997205c3c7e90dafff8",
+      "afterHash": "84aad74944e20e346f5e523a955b5247488f6622718b8b8ff5e9da34898cfa26",
+      "reason": "물체에서 전달되는 열을 직접 표현하여 발열·열정과 구별한다."
+    },
+    {
+      "wordId": "lex-jmdict-1590770",
+      "wordHash": "aa7ccb270efb4c1b0ac15005349c05b845bd702e5f818b87ebfa44b848c5e251",
+      "before": {
+        "id": "sense-lex-jmdict-1590770-1",
+        "wordId": "lex-jmdict-1590770",
+        "version": 1,
+        "meaning": "대신, 대체; 보답",
+        "hint": "원래 맡은 사람이나 물건이 없을 때 그 역할을 맡거나, 받은 것에 대응해 돌려주는 것을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "代わる",
+            "distinction": "代わり（かわり）: 대신할 사람·물건이나 교환·보답을 가리키는 명사; 代わる（かわる）: 한 사람이나 사물이 다른 것으로 바뀌거나 자리를 대신하는 동사."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1590770-1-ex-1",
+            "version": 1,
+            "before": "休んだ先生の",
+            "answer": "代わり",
+            "after": "に、別の先生が来ました。",
+            "reading": "かわり",
+            "translation": "쉬신 선생님 대신 다른 선생님이 오셨어요.",
+            "translationTarget": "대신",
+            "difficulty": 18,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1590770-1-ex-3",
+            "version": 1,
+            "before": "駅まで送ってくれた",
+            "answer": "代わり",
+            "after": "に、夕飯をごちそうしました。",
+            "reading": "かわり",
+            "translation": "역까지 데려다준 답례로 저녁을 샀어요.",
+            "translationTarget": "답례로",
+            "difficulty": 19,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1590770-1",
+        "wordId": "lex-jmdict-1590770",
+        "version": 1,
+        "meaning": "대신, 대체; 보답",
+        "hint": "원래 맡은 사람이나 물건이 없을 때 그 역할을 맡거나, 받은 것에 대응해 돌려주는 것을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "代わる",
+            "distinction": "代わり（かわり）: 대신할 사람·물건이나 교환·보답을 가리키는 명사; 代わる（かわる）: 한 사람이나 사물이 다른 것으로 바뀌거나 자리를 대신하는 동사."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1590770-1-ex-1",
+            "version": 1,
+            "before": "休んだ先生の",
+            "answer": "代わり",
+            "after": "に、別の先生が来ました。",
+            "reading": "かわり",
+            "translation": "쉬신 선생님 대신 다른 선생님이 오셨어요.",
+            "translationTarget": "대신",
+            "difficulty": 18,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1590770-1-ex-3",
+            "version": 2,
+            "before": "駅まで送ってもらった",
+            "answer": "代わり",
+            "after": "に、夕飯をごちそうしました。",
+            "reading": "かわり",
+            "translation": "역까지 데려다준 답례로 저녁을 샀어요.",
+            "translationTarget": "답례로",
+            "difficulty": 19,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "9a8306ebc4fdae07decb31e1be8704d4b917eddc3521cb5a67cc6d9f212d9966",
+      "afterHash": "86b23ff2b15b541bf3b52710b6350f053513037265e77d6378f66c380fe29915",
+      "reason": "보답하는 화자와 도움을 준 상대의 관계를 もらった로 명확하게 한다."
+    },
+    {
+      "wordId": "lex-jmdict-1489340",
+      "wordHash": "7d220a51a968006a5639d25be4d49d7981cb69d4c56b1ea671dfd360bd4d20bd",
+      "before": {
+        "id": "sense-lex-jmdict-1489340-1",
+        "wordId": "lex-jmdict-1489340",
+        "version": 1,
+        "meaning": "겉면, 앞면; 바깥",
+        "hint": "문이나 종이에서 사람에게 보이는 쪽, 또는 건물의 바깥쪽을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "裏",
+            "distinction": "表（おもて）: 물건이나 건물에서 겉으로 드러나 보이는 앞쪽 면; 裏（うら）: 그 반대편에 있어 감춰지거나 뒤쪽에 있는 면."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1489340-1-ex-1",
+            "version": 1,
+            "before": "布の",
+            "answer": "表",
+            "after": "を内側にして袋を縫います。",
+            "reading": "おもて",
+            "translation": "천의 겉면을 안쪽으로 해서 주머니를 꿰매요.",
+            "translationTarget": "겉면",
+            "difficulty": 19,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1489340-1-ex-3",
+            "version": 1,
+            "before": "店の",
+            "answer": "表",
+            "after": "で友達を待っていました。",
+            "reading": "おもて",
+            "translation": "가게 앞쪽에서 친구를 기다리고 있었어요.",
+            "translationTarget": "앞쪽",
+            "difficulty": 17,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1489340-1",
+        "wordId": "lex-jmdict-1489340",
+        "version": 1,
+        "meaning": "겉면, 앞면; 바깥",
+        "hint": "문이나 종이에서 사람에게 보이는 쪽, 또는 건물의 바깥쪽을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "裏",
+            "distinction": "表（おもて）: 물건이나 건물에서 겉으로 드러나 보이는 앞쪽 면; 裏（うら）: 그 반대편에 있어 감춰지거나 뒤쪽에 있는 면."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1489340-1-ex-1",
+            "version": 1,
+            "before": "布の",
+            "answer": "表",
+            "after": "を内側にして袋を縫います。",
+            "reading": "おもて",
+            "translation": "천의 겉면을 안쪽으로 해서 주머니를 꿰매요.",
+            "translationTarget": "겉면",
+            "difficulty": 19,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1489340-1-ex-3",
+            "version": 2,
+            "before": "少し",
+            "answer": "表",
+            "after": "に出て、風に当たってきます。",
+            "reading": "おもて",
+            "translation": "잠깐 바깥에 나가 바람을 쐬고 올게요.",
+            "translationTarget": "바깥",
+            "difficulty": 17,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "e8d3af63e8c2d51747be046ce52b4c86a0315618f1a9e3d7547736561f45e281",
+      "afterHash": "8d8a16a699e7dc5e3dd13d7c4c6307f56c2cf1f9a8550358a9618e1149904f2f",
+      "reason": "건물 앞에서 기다리는 店の表 대신 일상적인 表に出る 결합으로 바깥 의미를 명확히 한다."
+    },
+    {
+      "wordId": "lex-jmdict-1009340",
+      "wordHash": "b77a644314c8ce5be0792b98c261c09bcad8e6a5f0416e958439bd254634ac7b",
+      "before": {
+        "id": "sense-lex-jmdict-1009340-1",
+        "wordId": "lex-jmdict-1009340",
+        "version": 1,
+        "meaning": "아무리, 얼마나",
+        "hint": "뒤에 정도를 묻거나, 상황이 어떠해도 결과가 변하지 않음을 나타낼 때 쓰는 말을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "こんなに",
+            "distinction": "どんなに: 정도를 '얼마나'라고 묻거나 '아무리 ~해도'의 양보를 나타냄; こんなに: 현재 가까이에 있는 정도를 '이렇게'라고 가리킴."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1009340-1-ex-1",
+            "version": 1,
+            "before": "父は",
+            "answer": "どんなに",
+            "after": "疲れていても、夕飯を作ってくれます。",
+            "reading": "どんなに",
+            "translation": "아버지는 아무리 피곤해도 저녁을 만들어 주세요.",
+            "translationTarget": "아무리",
+            "difficulty": 23,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1009340-1-ex-2",
+            "version": 1,
+            "before": "発表の日まで",
+            "answer": "どんなに",
+            "after": "練習したか、知っていますか。",
+            "reading": "どんなに",
+            "translation": "발표 날까지 얼마나 연습했는지 알고 있나요?",
+            "translationTarget": "얼마나",
+            "difficulty": 23,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1009340-1",
+        "wordId": "lex-jmdict-1009340",
+        "version": 1,
+        "meaning": "아무리, 얼마나",
+        "hint": "뒤에 정도를 묻거나, 상황이 어떠해도 결과가 변하지 않음을 나타낼 때 쓰는 말을 떠올려 보세요.",
+        "confusions": [
+          {
+            "japanese": "こんなに",
+            "distinction": "どんなに: 정도를 '얼마나'라고 묻거나 '아무리 ~해도'의 양보를 나타냄; こんなに: 현재 가까이에 있는 정도를 '이렇게'라고 가리킴."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1009340-1-ex-1",
+            "version": 1,
+            "before": "父は",
+            "answer": "どんなに",
+            "after": "疲れていても、夕飯を作ってくれます。",
+            "reading": "どんなに",
+            "translation": "아버지는 아무리 피곤해도 저녁을 만들어 주세요.",
+            "translationTarget": "아무리",
+            "difficulty": 23,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1009340-1-ex-2",
+            "version": 2,
+            "before": "会える日を",
+            "answer": "どんなに",
+            "after": "楽しみにしていたことか。",
+            "reading": "どんなに",
+            "translation": "만날 날을 얼마나 기대했던가.",
+            "translationTarget": "얼마나",
+            "difficulty": 23,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "74b688e44997780da17c431e526ed6b46be295d4985dbb5aaf7ad229f7a183fa",
+      "afterHash": "4765871d44911d33fe24f99e7ef96f164ee54c60a80521b34f1dfb512d432806",
+      "reason": "どんなに의 정도 강조를 전형적인 감탄 구문으로 보여 준다."
+    },
+    {
+      "wordId": "lex-jmdict-1260670",
+      "wordHash": "f599180cf5485caff6515a4a321006deb98c0a0e7d23b15b7be2aedea290260c",
+      "before": {
+        "id": "sense-lex-jmdict-1260670-1",
+        "wordId": "lex-jmdict-1260670",
+        "version": 1,
+        "meaning": "근원, 바탕·원래 있던 곳·곁",
+        "hint": "어떤 것이 시작된 바탕·출발점이나 사람이 있는 곁을 나타냅니다.",
+        "confusions": [
+          {
+            "japanese": "先",
+            "distinction": "元는 출발점·바탕을 나타내고 先는 진행 방향의 앞이나 앞으로 향할 곳을 나타낸다. 元の는 원래의라는 뜻에도 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1260670-1-ex-1",
+            "version": 1,
+            "before": "借りた本を、棚の",
+            "answer": "元",
+            "after": "の場所へ戻した。",
+            "reading": "もと",
+            "translation": "빌린 책을 선반의 원래 자리로 돌려놓았다.",
+            "translationTarget": "원래",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1260670-1-ex-2",
+            "version": 1,
+            "before": "町の混乱の",
+            "answer": "元",
+            "after": "になったのは、誤った情報だった。",
+            "reading": "もと",
+            "translation": "마을 혼란의 근원이 된 것은 잘못된 정보였다.",
+            "translationTarget": "근원",
+            "difficulty": 29,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1260670-1-ex-3",
+            "version": 1,
+            "before": "旅行が終わり、子どもたちは両親の",
+            "answer": "元",
+            "after": "へ帰っていった。",
+            "reading": "もと",
+            "translation": "여행이 끝나 아이들은 부모 곁으로 돌아갔다.",
+            "translationTarget": "곁",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1260670-1",
+        "wordId": "lex-jmdict-1260670",
+        "version": 1,
+        "meaning": "근원, 바탕·원래 있던 곳·곁",
+        "hint": "어떤 것이 시작된 바탕·출발점이나 사람이 있는 곁을 나타냅니다.",
+        "confusions": [
+          {
+            "japanese": "先",
+            "distinction": "元는 출발점·바탕을 나타내고 先는 진행 방향의 앞이나 앞으로 향할 곳을 나타낸다. 元の는 원래의라는 뜻에도 쓴다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1260670-1-ex-1",
+            "version": 2,
+            "before": "借りた本を",
+            "answer": "元",
+            "after": "の場所へ戻した。",
+            "reading": "もと",
+            "translation": "빌린 책을 원래 자리로 돌려놓았다.",
+            "translationTarget": "원래",
+            "difficulty": 26,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1260670-1-ex-2",
+            "version": 1,
+            "before": "町の混乱の",
+            "answer": "元",
+            "after": "になったのは、誤った情報だった。",
+            "reading": "もと",
+            "translation": "마을 혼란의 근원이 된 것은 잘못된 정보였다.",
+            "translationTarget": "근원",
+            "difficulty": 29,
+            "status": "reviewed"
+          },
+          {
+            "id": "sense-lex-jmdict-1260670-1-ex-3",
+            "version": 1,
+            "before": "旅行が終わり、子どもたちは両親の",
+            "answer": "元",
+            "after": "へ帰っていった。",
+            "reading": "もと",
+            "translation": "여행이 끝나 아이들은 부모 곁으로 돌아갔다.",
+            "translationTarget": "곁",
+            "difficulty": 27,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "327592993c65cd7c0830bf54216593241c1f845c034bfe0a1c9a418a56e5a15a",
+      "afterHash": "9cbe25893600dda13f31b3297d4e4f0d6f303e40cd6c699454df8c443abc21f5",
+      "reason": "棚の元の場所의 불필요한 수식 중첩을 없앤다."
+    }
+  ],
+  "entriesHash": "5772bef8ddbba18edc4cbe5c59ae51d23295c3f7a8e9f0a34d4c0d853fa91fd0"
+}

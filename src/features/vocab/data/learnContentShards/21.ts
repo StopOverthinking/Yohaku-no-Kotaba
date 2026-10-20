@@ -1434,41 +1434,45 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1489340-1-ex-3",
-        "version": 1,
-        "before": "店の",
+        "version": 2,
+        "before": "少し",
         "answer": "表",
-        "after": "で友達を待っていました。",
+        "after": "に出て、風に当たってきます。",
         "reading": "おもて",
-        "translation": "가게 앞쪽에서 친구를 기다리고 있었어요.",
-        "translationTarget": "앞쪽",
+        "translation": "잠깐 바깥에 나가 바람을 쐬고 올게요.",
+        "translationTarget": "바깥",
         "difficulty": 17,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "店",
-            "reading": "みせ"
-          },
-          {
-            "text": "の"
+            "text": "少し",
+            "reading": "すこし"
           }
         ],
         "afterFurigana": [
           {
-            "text": "で"
+            "text": "に"
           },
           {
-            "text": "友達",
-            "reading": "ともだち"
+            "text": "出",
+            "reading": "で"
           },
           {
-            "text": "を"
+            "text": "て、"
           },
           {
-            "text": "待っ",
-            "reading": "まっ"
+            "text": "風",
+            "reading": "かぜ"
           },
           {
-            "text": "ていました。"
+            "text": "に"
+          },
+          {
+            "text": "当たっ",
+            "reading": "あたっ"
+          },
+          {
+            "text": "てきます。"
           }
         ]
       }

@@ -1075,24 +1075,17 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1555830-1-ex-2",
-        "version": 1,
+        "version": 2,
         "before": "",
         "answer": "隣",
-        "after": "の家からピアノの音が聞こえます。",
+        "after": "からピアノの音が聞こえます。",
         "reading": "となり",
         "translation": "이웃집에서 피아노 소리가 들려요.",
-        "translationTarget": "이웃",
+        "translationTarget": "이웃집",
         "difficulty": 14,
         "status": "reviewed",
         "beforeFurigana": [],
         "afterFurigana": [
-          {
-            "text": "の"
-          },
-          {
-            "text": "家",
-            "reading": "いえ"
-          },
           {
             "text": "からピアノの"
           },

@@ -31,7 +31,7 @@ export function verifyReviewedExampleHistory(words, senses, history) {
   const ids = new Set()
   let correctedExamples = 0
   for (const journal of [...history.corrections].reverse()) {
-    if (journal.schemaVersion !== 1 || !['user-authorized-example-polarity-correction', 'user-authorized-example-kanji-leakage-correction'].includes(journal.scope) ||
+    if (journal.schemaVersion !== 1 || !['user-authorized-example-polarity-correction', 'user-authorized-example-kanji-leakage-correction', 'user-authorized-example-naturalness-correction'].includes(journal.scope) ||
         !journal.id || ids.has(journal.id) || !journal.authorization?.trim() ||
         journal.review?.outcome !== 'accepted' || !journal.review?.reviewedBy?.trim() ||
         journal.review?.independent !== false || !journal.review?.notes?.length ||

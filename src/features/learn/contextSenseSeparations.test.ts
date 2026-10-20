@@ -4,7 +4,8 @@ import { learnContent } from '@/features/vocab/data/learnContent'
 import { senseSeparations } from '@/features/vocab/data/senseSeparations'
 import sourceSeparations from '@/features/vocab/editor-data/senseSeparations.json'
 import { exampleRetirements } from '@/features/vocab/data/exampleRetirements'
-import { contextSenses, contextWordMap, loadContextSense } from './contextContent'
+import { contextSenses, contextWordMap, loadContextSense, contextAliasGroups } from './contextContent'
+import { createAliasCatalog, migrateContextAliases } from './contextAliases'
 import { addDays, answerContext, emptyContextState, profileKey, reviewProfile, startContext, undoContext } from './contextEngine'
 import { reconcileSeparatedSenses, separateContextSenses } from './contextSenseSeparations'
 import { parseContextState } from './contextPersistence'
@@ -18,7 +19,7 @@ import { validateLearnContent } from './contentValidation'
 
 const row = senseSeparations[0]
 const original = learnContent.find(sense => sense.id === row.sourceSenseId)!
-const separated = separateContextSenses([original], senseSeparations)
+const separated = separateContextSenses([original], [row])
 const [she, girlfriend] = separated
 const day = '2026-10-15'
 const options = { setId: 'jlpt-level-n4', setName: 'N4', candidateWordIds: [original.wordId], requiredWordIds: [], wordCount: 1, allowEarly: false }
@@ -29,6 +30,128 @@ function learned(exampleIndex = 1) {
     levelDay: addDays(day, -3) }
   return state
 }
+
+describe('complete representative-example separation', () => {
+  it('keeps 穏やか personal manner and calm sea separate in loaded hints, examples and review records', async () => {
+    const definition = senseSeparations.find(row => row.sourceSenseId === 'sense-lex-jmdict-1183590-1')!
+    const [manner, sea] = await Promise.all(definition.usages.map(usage => loadContextSense(usage.id)))
+    expect(manner.meaning).toBe('말투·태도가 온화하다')
+    expect(manner.hint).toBe('말투나 태도가 부드럽고 차분한 모습을 떠올려 보세요.')
+    expect(manner.examples.map(example => example.translationTarget)).toEqual(['온화한'])
+    expect(sea.meaning).toBe('바다·환경이 평온하다')
+    expect(sea.hint).toBe('파도나 바람이 거세지 않고 잔잔한 상태를 떠올려 보세요.')
+    expect(sea.examples.map(example => example.id)).toEqual(['sense-lex-jmdict-1183590-1-ex-2'])
+    const source = learnContent.find(sense => sense.id === definition.sourceSenseId)!
+    for (const target of [manner, sea]) {
+      const old = emptyContextState()
+      old.profiles[profileKey(source)] = { ...reviewProfile(undefined, source, target.examples[0], true, false, day), levelDay: day }
+      const migrated = reconcileSeparatedSenses(old, [definition], exampleRetirements)
+      expect(reviewList(migrated, [manner, sea]).map(row => row.sense.meaning)).toEqual([target.meaning])
+    }
+  })
+
+  it.each([false, true])('preserves the reviewed 助ける alias before/after its prior migration (%s)', alreadyMerged => {
+    const definition = senseSeparations.find(row => row.sourceSenseId === 'sense-handmade_2-1')!
+    const source = learnContent.find(sense => sense.id === definition.sourceSenseId)!
+    const peer = learnContent.find(sense => sense.id === 'sense-AbsoluteVerb_461-1')!
+    const usages = separateContextSenses([source], [definition])
+    const legacy = emptyContextState()
+    legacy.profiles[profileKey(source)] = { ...reviewProfile(undefined, source, source.examples[0], true, false, addDays(day, -1)), levelDay: addDays(day, -1) }
+    legacy.profiles[profileKey(peer)] = { ...reviewProfile(undefined, peer, peer.examples[0], true, false, day), levelDay: day }
+    const group = contextAliasGroups.find(group => group.representativeWordId === source.wordId)!
+    const oldCatalog = createAliasCatalog([source, peer], [group])
+    const old = alreadyMerged ? migrateContextAliases(legacy, oldCatalog, day) : legacy
+    const split = reconcileSeparatedSenses(old, [definition], exampleRetirements)
+    const catalog = createAliasCatalog([source, peer, ...usages], [group], [definition])
+    const migrated = migrateContextAliases(split, catalog, day)
+    expect(migrated.profiles[profileKey(source)]).toBeUndefined()
+    expect(migrated.profiles[profileKey(peer)]).toBeUndefined()
+    expect(migrated.profiles[profileKey(usages[1])]).toBeDefined()
+    expect(!!migrated.profiles[profileKey(usages[0])]).toBe(!alreadyMerged)
+    expect(migrated.aliasMigrations![group.id].group).toEqual(group)
+    expect(migrated.senseSeparations![profileKey(source)].profile).toEqual(old.profiles[profileKey(source)])
+    const restored = parseContextState(serializeContextState(migrated))
+    expect(reconcileSeparatedSenses(restored, [definition], exampleRetirements)).toBe(restored)
+    expect(migrateContextAliases(restored, catalog, day)).toBe(restored)
+    const profile = restored.profiles[profileKey(usages[1])]
+    const started = startContext(restored, { ...options, candidateWordIds: [source.wordId] }, [usages[1]], profile.due)
+    expect(started.session!.current.senseId).toBe(usages[1].id)
+  })
+
+  it('commits the production alias and all new separations together, preserving data on save failure', async () => {
+    const db = new ContextDatabase(new IDBFactory())
+    const storage = new Map<string, string>()
+    const local = { getItem: (key: string) => storage.get(key) ?? null, setItem: (key: string, value: string) => { storage.set(key, value) },
+      removeItem: (key: string) => { storage.delete(key) } }
+    try {
+      const repo = new ContextRepository(db, local)
+      const source = learnContent.find(sense => sense.id === 'sense-handmade_2-1')!
+      const old = emptyContextState()
+      old.profiles[profileKey(source)] = { ...reviewProfile(undefined, source, source.examples[1], true, false, day), levelDay: day }
+      const base = await repo.load(emptyContextState())
+      const saved = await repo.save(base, old)
+      const failure = vi.spyOn(repo, 'save').mockRejectedValueOnce(new Error('disk full'))
+      const store = createAsyncContextStore(contextSenses, () => repo, () => day, contextAliasGroups, exampleRetirements, senseSeparations)
+      await store.getState().hydrate()
+      expect(store.getState().ready).toBe(false)
+      expect((await db.read())!.data).toEqual(saved.data)
+      failure.mockRestore()
+      await store.getState().hydrate()
+      expect(store.getState().ready).toBe(true)
+      expect(Object.keys(store.getState().data.profiles)).toEqual(['sense-handmade_2-1-usage-2@1'])
+      const after = store.getState().data
+      expect(parseContextState(serializeContextState(after))).toEqual(after)
+      await store.getState().hydrate()
+      expect(store.getState().data).toEqual(after)
+    } finally { await db.close() }
+  })
+
+  it('loads every split usage with only its owned meaning, hint and representative sentence', async () => {
+    expect(senseSeparations).toHaveLength(190)
+    expect(contextSenses).toHaveLength(5874)
+    expect(contextSenses.every(sense => sense.examples.length === 1)).toBe(true)
+    for (const definition of senseSeparations) {
+      const source = learnContent.find(sense => sense.id === definition.sourceSenseId)!
+      const loaded = await Promise.all(definition.usages.map(usage => loadContextSense(usage.id)))
+      expect(loaded.flatMap(sense => sense.examples.map(example => example.id))).toEqual(source.examples.map(example => example.id))
+      for (let i = 0; i < loaded.length; i++) {
+        expect(loaded[i].meaning).toBe(definition.usages[i].meaning)
+        expect(loaded[i].hint).toBe(definition.usages[i].hint)
+        expect(loaded[i].examples).toHaveLength(1)
+        expect(similarHintWords(loaded[i], contextWordMap.get(source.wordId)!, loaded[i].examples[0])).toEqual([])
+      }
+    }
+  }, 10000)
+
+  it('migrates every possible last example without copying schedules and keeps its representative through review and undo', () => {
+    for (const definition of senseSeparations) {
+      const source = learnContent.find(sense => sense.id === definition.sourceSenseId)!
+      const usages = separateContextSenses([source], [definition])
+      for (const target of usages) {
+        const state = emptyContextState()
+        const example = target.examples[0]
+        state.profiles[profileKey(source)] = { ...reviewProfile(undefined, source, example, true, false, day), levelDay: day }
+        const migrated = reconcileSeparatedSenses(state, senseSeparations, exampleRetirements)
+        const profile = migrated.profiles[profileKey(target)]
+        expect(Object.keys(migrated.profiles)).toEqual([profileKey(target)])
+        expect(profile.due).toBe(state.profiles[profileKey(source)].due)
+        expect(migrated.senseSeparations![profileKey(source)].profile).toEqual(state.profiles[profileKey(source)])
+        const settings = { ...options, candidateWordIds: [source.wordId] }
+        let current = migrated
+        for (let i = 0; i < 3; i++) {
+          const due = current.profiles[profileKey(target)].due
+          const started = startContext(current, settings, usages, due)
+          expect(started.session!.current).toMatchObject({ senseId: target.id, exampleId: example.id })
+          const answered = answerContext(started, true, usages, due)
+          expect(undoContext(answered).profiles).toEqual(started.profiles)
+          current = parseContextState(serializeContextState(answered))
+          expect(reconcileSeparatedSenses(current, senseSeparations, exampleRetirements)).toBe(current)
+          expect(Object.keys(current.profiles)).toEqual([profileKey(target)])
+        }
+      }
+    }
+  }, 10000)
+})
 
 describe('independent meanings of 彼女', () => {
   it('projects reviewed source membership to one meaning, hint and sentence without changing historical content', async () => {
@@ -159,7 +282,7 @@ describe('independent meanings of 彼女', () => {
       const before = answerContext(startContext(learned(0), options, [original], day), false, [original], day)
       await db.write(null, before)
       const repo = new ContextRepository(db, localStorage)
-      const store = createAsyncContextStore(separated, () => repo, () => day, [], exampleRetirements.filter(item => item.senseId === original.id), senseSeparations)
+      const store = createAsyncContextStore(separated, () => repo, () => day, [], exampleRetirements.filter(item => item.senseId === original.id), [row])
       const save = vi.spyOn(repo, 'save').mockRejectedValueOnce(new Error('quota'))
       await store.getState().hydrate()
       expect(store.getState().ready).toBe(false)

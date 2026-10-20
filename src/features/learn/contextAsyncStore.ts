@@ -42,7 +42,6 @@ export function createAsyncContextStore(
   retirements: ExampleRetirement[] = [],
   separations: SenseSeparation[] = [],
 ) {
-  const aliases = createAliasCatalog(senses, aliasGroups)
   const senseMap = new Map(senses.map((sense) => [sense.id, sense]))
   // Retirement recovery needs original source IDs before usage cards are separated.
   const sourceSenses = [...senses, ...separations.map(row => {
@@ -51,6 +50,7 @@ export function createAsyncContextStore(
     return { id: row.sourceSenseId, wordId: usages[0].wordId, version: row.sourceVersion,
       review: { word: true, contrast: true, diversity: true }, examples: usages.flatMap(sense => sense.examples) }
   })]
+  const aliases = createAliasCatalog(sourceSenses, aliasGroups, separations)
   return create<AsyncContextStore>((set, get) => {
     let hydration: Promise<void> | null = null
     let pendingWrite: Promise<boolean> | null = null

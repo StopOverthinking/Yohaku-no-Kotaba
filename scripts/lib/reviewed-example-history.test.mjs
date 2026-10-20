@@ -69,14 +69,14 @@ describe('user-authorized corrections after reviewed example pruning', () => {
     expect(result.retirements[0]).toMatchObject({ exampleId: 'retired', replacementId: 'e', replacementVersion: 2 })
     expect(after.examples).toHaveLength(1)
   })
-  it('validates the 60 polarity and 235 kanji-clue corrections while retaining all historical receipts', async () => {
+  it('validates polarity, kanji-clue and nine naturalness corrections while retaining all historical receipts', async () => {
     const read = async file => JSON.parse(await fs.readFile(file, 'utf8'))
     const [words, senses, history] = await Promise.all([
       read('src/features/vocab/editor-data/vocabularyWords.json'),
       read('src/features/vocab/editor-data/learnContent.json'), readReviewedExampleHistory(process.cwd()),
     ])
     const result = verifyReviewedExampleHistory(words, senses, history)
-    expect(result.corrections.correctedExamples).toBe(295)
+    expect(result.corrections.correctedExamples).toBe(305)
     const kanji = history.corrections.find(journal => journal.scope === 'user-authorized-example-kanji-leakage-correction')
     expect(kanji.entries).toHaveLength(234)
     expect(kanji.entries.reduce((sum, entry) => sum + entry.after.examples.filter((example, i) =>
@@ -91,6 +91,24 @@ describe('user-authorized corrections after reviewed example pruning', () => {
     }
     const intrinsic = senses.find(sense => sense.wordId === 'lex-jmdict-1348910').examples[0]
     expect(intrinsic).toMatchObject({ answer: '少ない', version: 1 })
+  })
+
+  it('keeps naturalness edits versioned and reversible without changing source meanings or metadata', async () => {
+    const history = await readReviewedExampleHistory(process.cwd())
+    const journal = history.corrections.find(row => row.id === '2026-10-20-naturalness')
+    expect(journal.entries).toHaveLength(9)
+    for (const entry of journal.entries) {
+      expect({ ...entry.before, examples: [] }).toEqual({ ...entry.after, examples: [] })
+      expect(entry.before.examples.map(example => example.id)).toEqual(entry.after.examples.map(example => example.id))
+    }
+    const omote = journal.entries.find(entry => entry.wordId === 'lex-jmdict-1489340').after.examples[1]
+    expect(omote).toMatchObject({ before: '少し', answer: '表', reading: 'おもて',
+      after: 'に出て、風に当たってきます。', translationTarget: '바깥', version: 2 })
+    const journalFixture = { ...correction(), scope: 'user-authorized-example-naturalness-correction' }
+    expect(check(after, [journalFixture]).historicalSenses).toEqual([before])
+    expect(() => check(before, [journalFixture])).toThrow('not applied')
+    const changed = { ...after, examples: [{ ...after.examples[0], difficulty: 90 }] }
+    expect(() => check(changed, [{ ...correction(before, changed), scope: journalFixture.scope }])).toThrow()
   })
 
   it('requires the kanji-clue scope to remove a real clue without changing the answer or reading', () => {

@@ -40,6 +40,7 @@ export type SenseSeparation = {
   sourceVersion: number
   sourceMeaning: string
   sourceHash: string
+  equivalentExamples?: Array<{ sourceSenseId: string; sourceVersion: number; sourceHash: string; exampleId: string; representativeId: string }>
   usages: Array<{ id: string; version: number; meaning: string; hint: string; exampleIds: string[] }>
 }
 export type SenseSeparationMigration = {

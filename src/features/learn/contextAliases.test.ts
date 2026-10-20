@@ -8,7 +8,7 @@ import { ContextDatabase } from './contextDatabase'
 import { ContextRepository } from './contextRepository'
 import { createAsyncContextStore } from './contextAsyncStore'
 import { testSense } from './contextTestFixtures'
-import { contextSenses, contextAliasGroups } from './contextContent'
+import { contextSenses, contextAliasGroups, contextSenseSeparations } from './contextContent'
 import type { ContextAliasGroup } from './contextTypes'
 
 const day = '2026-09-30'
@@ -190,7 +190,7 @@ describe('reviewed equivalent-word progress migration', () => {
       const base = await repo.load(state)
       const stale = await repo.save(base, state)
       let today = day
-      const store = createAsyncContextStore(contextSenses, () => repo, () => today, contextAliasGroups)
+      const store = createAsyncContextStore(contextSenses, () => repo, () => today, contextAliasGroups, [], contextSenseSeparations)
       await store.getState().hydrate()
       expect(store.getState().ready).toBe(true)
       const migrated = store.getState().data

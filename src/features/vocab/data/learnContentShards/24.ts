@@ -1235,12 +1235,12 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1467710-1-ex-3",
-        "version": 1,
+        "version": 2,
         "before": "鍋の",
         "answer": "熱",
-        "after": "が冷めるまで、ふたを開けないでください。",
+        "after": "が手に伝わってきました。",
         "reading": "ねつ",
-        "translation": "냄비의 열이 식을 때까지 뚜껑을 열지 마세요.",
+        "translation": "냄비의 열이 손으로 전해졌어요.",
         "translationTarget": "열",
         "difficulty": 18,
         "status": "reviewed",
@@ -1258,18 +1258,18 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "冷める",
-            "reading": "さめる"
+            "text": "手",
+            "reading": "て"
           },
           {
-            "text": "まで、ふたを"
+            "text": "に"
           },
           {
-            "text": "開け",
-            "reading": "あけ"
+            "text": "伝わっ",
+            "reading": "つたわっ"
           },
           {
-            "text": "ないでください。"
+            "text": "てきました。"
           }
         ]
       }

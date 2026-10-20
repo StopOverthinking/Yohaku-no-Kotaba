@@ -35,6 +35,10 @@ const cards = (value: unknown) => Array.isArray(value) && value.every(card)
 function separation(value: unknown): boolean {
   return record(value) && typeof value.sourceSenseId === 'string' && !!value.sourceSenseId && positive(value.sourceVersion) &&
     typeof value.sourceMeaning === 'string' && typeof value.sourceHash === 'string' && /^[a-f0-9]{64}$/.test(value.sourceHash) &&
+    (value.equivalentExamples === undefined || (Array.isArray(value.equivalentExamples) && value.equivalentExamples.every(example =>
+      record(example) && typeof example.sourceSenseId === 'string' && !!example.sourceSenseId && positive(example.sourceVersion) &&
+      typeof example.sourceHash === 'string' && /^[a-f0-9]{64}$/.test(example.sourceHash) &&
+      typeof example.exampleId === 'string' && !!example.exampleId && typeof example.representativeId === 'string' && !!example.representativeId))) &&
     Array.isArray(value.usages) && value.usages.length >= 2 && value.usages.every(usage =>
       record(usage) && typeof usage.id === 'string' && !!usage.id && positive(usage.version) &&
       typeof usage.meaning === 'string' && typeof usage.hint === 'string' && strings(usage.exampleIds) && usage.exampleIds.length > 0)

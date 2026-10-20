@@ -49,9 +49,9 @@
     "sourceHash": "2d28f0feb08a3258cbcf8ce7feebb533e01c3c80d4a9694fa85d207bbdff469c"
   },
   "exampleCorrections": {
-    "journals": 2,
-    "correctedExamples": 295,
-    "sourceHash": "1dc4d1ee73e5e1096a386127ac50c41160bf0bb588f7914901193152830b8faf",
+    "journals": 4,
+    "correctedExamples": 305,
+    "sourceHash": "a14c6a9a51f8c02be985dd3035e1f34e0c158c6a1c94e770e28be6df696f5538",
     "reviewScope": "user-authorized editorial correction; no new independent approval claimed"
   },
   "editorialCorrections": {

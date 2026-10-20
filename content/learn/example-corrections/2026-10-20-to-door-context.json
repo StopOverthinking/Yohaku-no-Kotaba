@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-20-to-door-context",
+  "scope": "user-authorized-example-naturalness-correction",
+  "authorization": "2026-10-20 사용자 요청: 戸의 예문을 일본식 문이 짧고 자연스럽게 느껴지는 다른 예문으로 교체. 테스트 불필요.",
+  "review": {
+    "outcome": "accepted",
+    "reviewedBy": "current Codex session editorial review",
+    "independent": false,
+    "reviewedAt": "2026-10-20T05:46:08.803Z",
+    "notes": [
+      "和室の戸をそっと開けた。와 한국어 번역을 대조했다. 설명을 덧붙이지 않고 다다미방이라는 단서로 일본식 문을 떠올리게 한다.",
+      "예문 버전만 1 증가하며 기존 메타데이터와 승인 이력을 보존한다."
+    ]
+  },
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1266970",
+      "wordHash": "7b5099642a2c81dcc9d8d27449cbd092a609677b0ed49231725ae5187da68575",
+      "before": {
+        "id": "sense-lex-jmdict-1266970-1",
+        "wordId": "lex-jmdict-1266970",
+        "version": 1,
+        "meaning": "문, 미닫이문",
+        "hint": "집이나 방을 드나들 때 여닫는 문짝이에요. 일본식 문에 흔히 쓰는 말이에요.",
+        "confusions": [
+          {
+            "japanese": "ドア",
+            "distinction": "戸는 특히 일본식 문에 흔히 쓰고, ドア는 서양식 문에 흔히 쓴다. 戸가 반드시 미닫이문만을 뜻하는 것은 아니다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1266970-1-ex-1",
+            "version": 1,
+            "before": "風が強いので、",
+            "answer": "戸",
+            "after": "を閉めてください。",
+            "reading": "と",
+            "translation": "바람이 세니 문을 닫아 주세요.",
+            "translationTarget": "문",
+            "difficulty": 13,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1266970-1",
+        "wordId": "lex-jmdict-1266970",
+        "version": 1,
+        "meaning": "문, 미닫이문",
+        "hint": "집이나 방을 드나들 때 여닫는 문짝이에요. 일본식 문에 흔히 쓰는 말이에요.",
+        "confusions": [
+          {
+            "japanese": "ドア",
+            "distinction": "戸는 특히 일본식 문에 흔히 쓰고, ドア는 서양식 문에 흔히 쓴다. 戸가 반드시 미닫이문만을 뜻하는 것은 아니다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1266970-1-ex-1",
+            "version": 2,
+            "before": "和室の",
+            "answer": "戸",
+            "after": "をそっと開けた。",
+            "reading": "と",
+            "translation": "다다미방 문을 살며시 열었다.",
+            "translationTarget": "문",
+            "difficulty": 13,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "beforeHash": "c39aa3a71eb2c40f9942a05b43ac27a668616e66494cd47e6af1d08b0ea11e75",
+      "afterHash": "03494c65261ffc1bfc88391d9a1c1280512b6768674afeb048733c7e8de3a427",
+      "reason": "和室라는 짧은 공간 단서로 일본식 문의 문맥을 드러내며, 정답·읽기·뜻·용법과 예문 ID를 유지한다."
+    }
+  ],
+  "entriesHash": "8725699a49ca37a6ad502a6930b43139f259e601408bcf236a7e440bd5d1d430"
+}

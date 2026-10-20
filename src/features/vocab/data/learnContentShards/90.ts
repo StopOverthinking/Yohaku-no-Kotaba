@@ -72,47 +72,26 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-JLPTN3_28-1-ex-2",
-        "version": 2,
-        "before": "子供は割った花瓶を棚の奥に",
+        "version": 3,
+        "before": "失敗したことを家族に",
         "answer": "隠した",
         "after": "。",
         "reading": "かくした",
-        "translation": "아이는 깨뜨린 꽃병을 선반 안쪽에 숨겼다.",
+        "translation": "실패한 사실을 가족에게 숨겼다.",
         "translationTarget": "숨겼다",
         "difficulty": 26,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "子供",
-            "reading": "こども"
+            "text": "失敗",
+            "reading": "しっぱい"
           },
           {
-            "text": "は"
+            "text": "したことを"
           },
           {
-            "text": "割っ",
-            "reading": "わっ"
-          },
-          {
-            "text": "た"
-          },
-          {
-            "text": "花瓶",
-            "reading": "かびん"
-          },
-          {
-            "text": "を"
-          },
-          {
-            "text": "棚",
-            "reading": "たな"
-          },
-          {
-            "text": "の"
-          },
-          {
-            "text": "奥",
-            "reading": "おく"
+            "text": "家族",
+            "reading": "かぞく"
           },
           {
             "text": "に"

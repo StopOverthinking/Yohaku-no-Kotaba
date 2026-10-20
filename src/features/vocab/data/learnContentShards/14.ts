@@ -763,22 +763,19 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1283190-1-ex-1",
-        "version": 1,
-        "before": "この山は雲より",
+        "version": 2,
+        "before": "飛行機は雲より",
         "answer": "高い",
-        "after": "所まで登れるそうです。",
+        "after": "所を飛んでいます。",
         "reading": "たかい",
-        "translation": "이 산은 구름보다 높은 곳까지 올라갈 수 있대요.",
+        "translation": "비행기는 구름보다 높은 곳을 날고 있어요.",
         "translationTarget": "높은",
         "difficulty": 17,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "この"
-          },
-          {
-            "text": "山",
-            "reading": "やま"
+            "text": "飛行機",
+            "reading": "ひこうき"
           },
           {
             "text": "は"
@@ -797,14 +794,14 @@ const content: LearnSense[] = [
             "reading": "ところ"
           },
           {
-            "text": "まで"
+            "text": "を"
           },
           {
-            "text": "登れる",
-            "reading": "のぼれる"
+            "text": "飛ん",
+            "reading": "とん"
           },
           {
-            "text": "そうです。"
+            "text": "でいます。"
           }
         ]
       },

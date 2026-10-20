@@ -12,7 +12,9 @@ describe('reviewed learning sense separation', () => {
   it('covers every original example once, adds independent meanings and leaves the approved source immutable', async () => {
     const before = JSON.stringify(content)
     const result = await readSenseSeparations(root, content)
-    expect(result.senses).toHaveLength(content.length + 1)
+    expect(result.senses).toHaveLength(content.reduce((count, sense) => count + sense.examples.length, 0))
+    expect(result.senses.every(sense => sense.examples.length === 1)).toBe(true)
+    expect(result.rows).toHaveLength(content.filter(sense => sense.examples.length > 1).length)
     const original = content.find(sense => sense.id === result.rows[0].sourceSenseId)
     const usages = result.senses.filter(sense => sense.wordId === original.wordId)
     expect(usages.map(sense => sense.meaning)).toEqual(['그녀', '여자친구'])
@@ -30,5 +32,13 @@ describe('reviewed learning sense separation', () => {
       edit(changed.find(sense => sense.id === 'sense-lex-jmdict-1483150-1'))
       await expect(readSenseSeparations(root, changed)).rejects.toThrow('Stale sense-separation source')
     }
+  })
+  it('rejects a new multi-example source without explicit representative ownership and a stale alias source', async () => {
+    const extra = structuredClone(content.find(sense => sense.examples.length > 1))
+    extra.id = 'unreviewed-extra'
+    await expect(readSenseSeparations(root, [...content, extra])).rejects.toThrow('exactly one')
+    const changed = structuredClone(content)
+    changed.find(sense => sense.id === 'sense-AbsoluteVerb_461-1').examples[0].translation += ' 변경'
+    await expect(readSenseSeparations(root, changed)).rejects.toThrow('Stale equivalent example source')
   })
 })

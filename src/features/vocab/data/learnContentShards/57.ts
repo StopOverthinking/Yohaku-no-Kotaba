@@ -1025,45 +1025,35 @@ const content: LearnSense[] = [
       },
       {
         "id": "sense-lex-jmdict-1009340-1-ex-2",
-        "version": 1,
-        "before": "発表の日まで",
+        "version": 2,
+        "before": "会える日を",
         "answer": "どんなに",
-        "after": "練習したか、知っていますか。",
+        "after": "楽しみにしていたことか。",
         "reading": "どんなに",
-        "translation": "발표 날까지 얼마나 연습했는지 알고 있나요?",
+        "translation": "만날 날을 얼마나 기대했던가.",
         "translationTarget": "얼마나",
         "difficulty": 23,
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "発表",
-            "reading": "はっぴょう"
-          },
-          {
-            "text": "の"
+            "text": "会える",
+            "reading": "あえる"
           },
           {
             "text": "日",
             "reading": "ひ"
           },
           {
-            "text": "まで"
+            "text": "を"
           }
         ],
         "afterFurigana": [
           {
-            "text": "練習",
-            "reading": "れんしゅう"
+            "text": "楽しみ",
+            "reading": "たのしみ"
           },
           {
-            "text": "したか、"
-          },
-          {
-            "text": "知っ",
-            "reading": "しっ"
-          },
-          {
-            "text": "ていますか。"
+            "text": "にしていたことか。"
           }
         ]
       }

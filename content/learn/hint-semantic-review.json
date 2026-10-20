@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "policy": "current-korean-sense",
-  "sourceHash": "0ad4fadb5b1fbd6c2a3c1d8753c6691b510cf09f2f98b9985ee7a9933f4a7534",
+  "sourceHash": "5ac184228af80226d5c5b597006541a0058983c784896211ef486580c20ad1a6",
   "reviewer": {
     "model": "gpt-6-astra",
     "reasoningEffort": "high"
@@ -143413,6 +143413,42 @@
       "reviewedBy": "current Codex session editorial review",
       "independent": false,
       "authorization": "사용자 요청: 一ヶ月·いい 힌트 추가, 美味しい 표기, 居間·リビング 구별"
+    }
+  ],
+  "sourceAmendments": [
+    {
+      "id": "2026-10-20-naturalness",
+      "independent": false,
+      "scope": "example-context-only",
+      "authorization": "2026-10-20 사용자 요청: 店の表 같은 비일상적 용법과 여러 예문의 의미 혼합을 수정한다.",
+      "sourceHashBefore": "0ad4fadb5b1fbd6c2a3c1d8753c6691b510cf09f2f98b9985ee7a9933f4a7534",
+      "sourceHashAfter": "cdec976c8fa67170df176fb9e327c777149dc3bf1a82962a520adacb312ca187",
+      "senseIds": [
+        "sense-JLPTN3_28-1",
+        "sense-lex-jmdict-1227500-1",
+        "sense-lex-jmdict-1283190-1",
+        "sense-lex-jmdict-1555830-1",
+        "sense-lex-jmdict-1467710-1",
+        "sense-lex-jmdict-1590770-1",
+        "sense-lex-jmdict-1489340-1",
+        "sense-lex-jmdict-1009340-1",
+        "sense-lex-jmdict-1260670-1"
+      ],
+      "exampleCorrectionEntriesHash": "5772bef8ddbba18edc4cbe5c59ae51d23295c3f7a8e9f0a34d4c0d853fa91fd0",
+      "reason": "변경된 9개 문장을 현재 뜻과 대조했다. 원본 용법의 뜻·비교어 선정은 유지하며 분리된 학습 용법에는 통합 비교어를 상속하지 않는다."
+    },
+    {
+      "id": "2026-10-20-to-door-context",
+      "independent": false,
+      "scope": "example-context-only",
+      "authorization": "2026-10-20 사용자 요청: 戸의 예문을 일본식 문이 짧고 자연스럽게 느껴지는 다른 예문으로 교체. 테스트 불필요.",
+      "sourceHashBefore": "cdec976c8fa67170df176fb9e327c777149dc3bf1a82962a520adacb312ca187",
+      "sourceHashAfter": "5ac184228af80226d5c5b597006541a0058983c784896211ef486580c20ad1a6",
+      "senseIds": [
+        "sense-lex-jmdict-1266970-1"
+      ],
+      "exampleCorrectionEntriesHash": "8725699a49ca37a6ad502a6930b43139f259e601408bcf236a7e440bd5d1d430",
+      "reason": "戸의 뜻·힌트·비교어 선정은 유지하고 일본식 문을 떠올리는 예문 문맥만 정정했다."
     }
   ]
 }

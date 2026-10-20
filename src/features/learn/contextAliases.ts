@@ -1,4 +1,4 @@
-import type { ContextAliasGroup, ContextState, LearnSenseIndex, ReviewProfile } from './contextTypes'
+import type { ContextAliasGroup, ContextState, LearnSenseIndex, ReviewProfile, SenseSeparation } from './contextTypes'
 import { FAILURE_INTERVALS, reviewInterval } from './contextReviewPolicy'
 
 const key = (member: ContextAliasGroup['members'][number]) => `${member.senseId}@${member.version}`
@@ -6,10 +6,11 @@ const signature = (group: ContextAliasGroup) => JSON.stringify({
   ...group, members: [...group.members].sort((a, b) => a.wordId.localeCompare(b.wordId)),
 })
 
-export function createAliasCatalog(senses: LearnSenseIndex[], groups: ContextAliasGroup[]) {
+export function createAliasCatalog(senses: LearnSenseIndex[], groups: ContextAliasGroup[], separations: SenseSeparation[] = []) {
   const bySense = new Map(senses.map(sense => [sense.id, sense]))
   const byGroup = new Map<string, ContextAliasGroup>()
   const words = new Map<string, string>()
+  const learningGroups = new Map<string, ContextAliasGroup>()
   for (const group of groups) {
     if (!group.id || byGroup.has(group.id) || group.members.length < 2 ||
         group.members.filter(member => member.wordId === group.representativeWordId).length !== 1)
@@ -21,8 +22,28 @@ export function createAliasCatalog(senses: LearnSenseIndex[], groups: ContextAli
       words.set(member.wordId, group.representativeWordId)
     }
     byGroup.set(group.id, group)
+    const representative = group.members.find(member => member.wordId === group.representativeWordId)!
+    const split = separations.find(row => row.sourceSenseId === representative.senseId && row.sourceVersion === representative.version)
+    if (split) {
+      // The old receipt remains immutable. Only an explicit example link may
+      // connect the peer to one of the representative's independent usages.
+      const targets = new Set(group.members.filter(member => member !== representative).flatMap(member => {
+        const peer = bySense.get(member.senseId)!
+        return peer.examples.map(example => {
+          const equivalent = split.equivalentExamples?.find(row => row.sourceSenseId === peer.id &&
+            row.sourceVersion === peer.version && row.exampleId === example.id)
+          const target = split.usages.find(usage => usage.exampleIds.includes(equivalent?.representativeId ?? ''))
+          if (!target) throw new Error('연결된 예문의 용법 소속이 없습니다.')
+          return target.id
+        })
+      }))
+      if (targets.size !== 1) throw new Error('연결된 용법을 하나로 확인할 수 없습니다.')
+      const target = split.usages.find(usage => targets.has(usage.id))!
+      learningGroups.set(group.id, { ...group, members: group.members.map(member => member === representative
+        ? { ...member, senseId: target.id, version: target.version } : member) })
+    } else learningGroups.set(group.id, group)
   }
-  return { groups: byGroup, resolveWordId: (id: string) => words.get(id) ?? id }
+  return { groups: byGroup, learningGroups, resolveWordId: (id: string) => words.get(id) ?? id }
 }
 export type ContextAliasCatalog = ReturnType<typeof createAliasCatalog>
 
@@ -39,12 +60,17 @@ export function migrateContextAliases(state: ContextState, catalog: ContextAlias
   const profiles = { ...state.profiles }
   const aliasMigrations = { ...state.aliasMigrations }
   for (const group of pending) {
-    const target = group.members.find(member => member.wordId === group.representativeWordId)!
-    const originals = Object.fromEntries(group.members.flatMap(member =>
+    const learning = catalog.learningGroups.get(group.id)!
+    const target = learning.members.find(member => member.wordId === group.representativeWordId)!
+    const originals = Object.fromEntries(learning.members.flatMap(member =>
       profiles[key(member)] ? [[key(member), profiles[key(member)]]] : []))
     const previous = Object.values(originals)
+    const archivedOriginals = Object.fromEntries(group.members.flatMap(member => {
+      const original = state.profiles[key(member)] ?? state.senseSeparations?.[key(member)]?.profile
+      return original ? [[key(member), original]] : []
+    }))
     aliasMigrations[group.id] = {
-      group, day, profiles: originals,
+      group, day, profiles: archivedOriginals,
       level: { ...state.level, assessedWordIds: [...state.level.assessedWordIds] },
     }
     if (previous.length) {
@@ -73,7 +99,7 @@ export function migrateContextAliases(state: ContextState, catalog: ContextAlias
         const shortest = Math.min(...previous.map(p => reviewInterval(p.step, p.failures)))
         merged.step = FAILURE_INTERVALS.reduce((step, interval, index) => interval <= shortest ? index : step, 0)
       }
-      for (const member of group.members) delete profiles[key(member)]
+      for (const member of learning.members) delete profiles[key(member)]
       profiles[key(target)] = merged
     }
   }

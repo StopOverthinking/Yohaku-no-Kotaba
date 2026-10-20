@@ -32,6 +32,14 @@ export function separateContextSenses<T extends LearnSenseIndex & { meaning: str
       for (const id of usage.exampleIds) if (!examples.delete(id)) throw invalid()
     }
     if (examples.size) throw invalid()
+    const equivalentIds = new Set<string>()
+    for (const equivalent of row.equivalentExamples ?? []) {
+      if (!equivalent.sourceSenseId || !Number.isInteger(equivalent.sourceVersion) || equivalent.sourceVersion < 1 ||
+          !/^[a-f0-9]{64}$/.test(equivalent.sourceHash) || equivalentIds.has(equivalent.exampleId) ||
+          source.examples.some(example => example.id === equivalent.exampleId) ||
+          !source.examples.some(example => example.id === equivalent.representativeId)) throw invalid()
+      equivalentIds.add(equivalent.exampleId)
+    }
     bySource.set(row.sourceSenseId, row)
   }
   return senses.flatMap(sense => {
@@ -55,14 +63,15 @@ export function reconcileSeparatedSenses(state: ContextState, rows: SenseSeparat
     (state.session && allCards(state.session).some(card => card.senseId === row.sourceSenseId && card.senseVersion === row.sourceVersion))))
   if (!pending.length) return state
   const bySource = new Map(pending.map(row => [sourceKey(row), row]))
-  const retired = new Map(retirements.map(row => [`${row.senseId}@${row.senseVersion}/${row.exampleId}`, row.replacementId]))
+  const retired = new Map(retirements.map(row => [row.exampleId, row.replacementId]))
   function usageFor(row: SenseSeparation, exampleId: string): Usage {
     const visited = new Set<string>()
     let id = exampleId
-    while (retired.has(`${sourceKey(row)}/${id}`) && !visited.has(id)) {
+    while (retired.has(id) && !visited.has(id)) {
       visited.add(id)
-      id = retired.get(`${sourceKey(row)}/${id}`)!
+      id = retired.get(id)!
     }
+    id = row.equivalentExamples?.find(example => example.exampleId === id)?.representativeId ?? id
     const usage = row.usages.find(usage => usage.exampleIds.includes(id))
     if (!usage) throw invalid()
     return usage

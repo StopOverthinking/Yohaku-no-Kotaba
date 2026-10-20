@@ -1181,12 +1181,12 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1260670-1-ex-1",
-        "version": 1,
-        "before": "借りた本を、棚の",
+        "version": 2,
+        "before": "借りた本を",
         "answer": "元",
         "after": "の場所へ戻した。",
         "reading": "もと",
-        "translation": "빌린 책을 선반의 원래 자리로 돌려놓았다.",
+        "translation": "빌린 책을 원래 자리로 돌려놓았다.",
         "translationTarget": "원래",
         "difficulty": 26,
         "status": "reviewed",
@@ -1203,14 +1203,7 @@ const content: LearnSense[] = [
             "reading": "ほん"
           },
           {
-            "text": "を、"
-          },
-          {
-            "text": "棚",
-            "reading": "たな"
-          },
-          {
-            "text": "の"
+            "text": "を"
           }
         ],
         "afterFurigana": [
