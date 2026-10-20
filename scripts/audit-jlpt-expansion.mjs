@@ -23,10 +23,12 @@ const senseMap = new Map(senses.map((s) => [s.wordId, []]))
 for (const s of senses) senseMap.get(s.wordId).push(s)
 const prior = new Set(baseline.words.map(lexicalKey))
 const issues = [], entries = []
-let historicalSenses = senses, beforeCorrections = senses, examplePruning = null, exampleCorrections = null
+let historicalSenses = senses, historicalWords = words, beforeCorrections = senses, examplePruning = null, exampleCorrections = null, editorialCorrections = null
 try {
   const pruning = verifyReviewedExampleHistory(words, senses, await readReviewedExampleHistory(root))
   historicalSenses = pruning.historicalSenses
+  historicalWords = pruning.historicalWords
+  editorialCorrections = pruning.editorialCorrections
   beforeCorrections = pruning.beforeCorrections
   exampleCorrections = pruning.corrections
   examplePruning = pruning.report
@@ -42,7 +44,7 @@ try { revisionNames = await fs.readdir(path.join(root, revisionDirectory)) }
 catch (error) { if (error.code !== 'ENOENT') throw error }
 const legacyRevisions = await Promise.all(revisionNames.filter(name => name.endsWith('.json')).sort().map(name => read(`${revisionDirectory}/${name}`)))
 let revisedLegacy = { journals: 0, senses: 0 }
-try { revisedLegacy = validateLegacyRevisionJournals(legacyRevisions, words, historicalSenses, baseline.words.map(word => word.id)) }
+try { revisedLegacy = validateLegacyRevisionJournals(legacyRevisions, historicalWords, historicalSenses, baseline.words.map(word => word.id)) }
 catch (error) { issues.push(error.message) }
 const contentRevisionDirectory = 'content/jlpt/legacy/content-revisions'
 let contentRevisionNames = []
@@ -50,12 +52,12 @@ try { contentRevisionNames = await fs.readdir(path.join(root, contentRevisionDir
 catch (error) { if (error.code !== 'ENOENT') throw error }
 const legacyContentRevisions = await Promise.all(contentRevisionNames.filter(name => name.endsWith('.json')).sort().map(name => read(`${contentRevisionDirectory}/${name}`)))
 let revisedLegacyContent = { journals: 0, words: 0 }
-try { revisedLegacyContent = validateLegacyContentJournals(legacyContentRevisions, words, historicalSenses, baseline.words.map(word => word.id)) }
+try { revisedLegacyContent = validateLegacyContentJournals(legacyContentRevisions, historicalWords, historicalSenses, baseline.words.map(word => word.id)) }
 catch (error) { issues.push(error.message) }
 const aliasReviews = await optionalRead('content/jlpt/legacy/alias-pilot-review.json', [])
 const activeAliasIds = await optionalRead('content/jlpt/legacy/active-aliases.json', [])
 let aliasGroups = []
-try { aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, words, historicalSenses) }
+try { aliasGroups = buildReviewedAliases(aliasReviews, activeAliasIds, historicalWords, historicalSenses) }
 catch (error) { issues.push(error.message) }
 const [referenceReviews, membershipReceipt] = await Promise.all([
   optionalRead('content/jlpt/legacy/membership-reviews.json', []),
@@ -63,11 +65,11 @@ const [referenceReviews, membershipReceipt] = await Promise.all([
 ])
 const consolidationReview = await optionalRead('content/jlpt/legacy/verb-consolidation.json', null)
 let consolidation = null
-try { consolidation = validateVerbConsolidation(consolidationReview, sets, words, beforeCorrections, membershipReceipt) }
+try { consolidation = validateVerbConsolidation(consolidationReview, sets, historicalWords, beforeCorrections, membershipReceipt) }
 catch (error) { issues.push(error.message) }
 const approvalReceipt = consolidation?.baseMembership ?? membershipReceipt
 try {
-  const references = validateLegacyMembership(referenceReviews, words, historicalSenses, baseline.words, aliasGroups)
+  const references = validateLegacyMembership(referenceReviews, historicalWords, historicalSenses, baseline.words, aliasGroups)
   if (membershipReceipt) {
     if (membershipReceipt.schemaVersion !== 1) throw new Error('Unknown membership receipt version')
     for (const level of ['N5', 'N4', 'N3', 'N2', 'N1']) {
@@ -100,8 +102,9 @@ for (const level of ['N5', 'N4', 'N3', 'N2', 'N1']) {
     entries.push({ id, level, new: !prior.has(lexicalKey(word)), ready, examples: wordSenses.reduce((n, s) => n + s.examples.length, 0) })
   }
 }
+const historicalWordMap = new Map(historicalWords.map(word => [word.id, word]))
 for (const entry of published) {
-  const word = wordMap.get(entry.id), content = historicalByWord.get(entry.id)
+  const word = historicalWordMap.get(entry.id), content = historicalByWord.get(entry.id)
   if (!word || content?.length !== 1 || hashContent({ word, sense: content[0] }) !== entry.publishedHash)
     issues.push(`${entry.id}: content changed since recorded pilot review; re-review required`)
 }
@@ -141,6 +144,7 @@ const report = {
   revisedLegacyContent,
   examplePruning,
   exampleCorrections,
+  editorialCorrections,
   complete: selection.complete && !issues.length,
   completionScope: consolidation ? 'original-independent-content-selection plus separately reviewed user-authorized membership consolidation; no new independent content approval claimed'
     : 'reviewed-vocabulary-content-selection; regression, browser performance and public release are verified separately',

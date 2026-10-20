@@ -574,7 +574,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "で"
@@ -687,7 +687,7 @@ const content: LearnSense[] = [
         "beforeFurigana": [
           {
             "text": "辛い",
-            "reading": "つらい"
+            "reading": "からい"
           }
         ],
         "afterFurigana": [
@@ -1101,7 +1101,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "で"

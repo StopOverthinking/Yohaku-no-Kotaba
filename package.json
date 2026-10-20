@@ -25,6 +25,7 @@
     "jlpt:accept": "node scripts/accept-jlpt-batch.mjs",
     "jlpt:audit": "node scripts/audit-jlpt-expansion.mjs",
     "audit:content": "node scripts/audit-learn-content.mjs --require-complete",
+    "audit:pronunciation": "node scripts/audit-pronunciation.mjs",
     "hint:scan": "node scripts/scan-hint-confusions.mjs",
     "hint:audit": "node scripts/build-hint-confusions.mjs",
     "hint:display-audit": "node scripts/audit-hint-display.mjs --require-safe",

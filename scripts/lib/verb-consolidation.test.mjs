@@ -15,8 +15,9 @@ const original = {
   receipt: read('content/jlpt/pilot/published-membership.json'),
 }
 // The membership receipt remains bound to the exact corpus it reviewed.
-original.senses = verifyReviewedExampleHistory(original.words, original.senses,
-  await readReviewedExampleHistory(process.cwd())).beforeCorrections
+const history = verifyReviewedExampleHistory(original.words, original.senses, await readReviewedExampleHistory(process.cwd()))
+original.senses = history.beforeCorrections
+original.words = history.historicalWords
 const check = data => validateVerbConsolidation(data.manifest, data.sets, data.words, data.senses, data.receipt)
 const copy = () => structuredClone(original)
 

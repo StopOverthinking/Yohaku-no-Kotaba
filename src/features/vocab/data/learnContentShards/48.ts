@@ -489,7 +489,7 @@ const content: LearnSense[] = [
         "beforeFurigana": [
           {
             "text": "出口",
-            "reading": "いでぐち"
+            "reading": "でぐち"
           },
           {
             "text": "が"
@@ -1819,11 +1819,11 @@ const content: LearnSense[] = [
     "wordId": "lex-jmdict-1231720",
     "version": 1,
     "meaning": "거실",
-    "hint": "집에서 가족이 모여 쉬거나 손님을 맞는 방을 떠올려 보세요.",
+    "hint": "가족이 모여 쉬는 거실을 가리키는 일본 고유어. 같은 공간을 부르는 외래어와 구별해 보세요.",
     "confusions": [
       {
-        "japanese": "寝室",
-        "distinction": "居間: 가족이 일상적으로 모여 생활하는 거실; 寝室: 잠을 자는 용도의 침실."
+        "japanese": "リビング",
+        "distinction": "둘 다 거실이다. 居間는 일본 고유어이고 リビング은 영어 living room에서 온 외래어다. 방의 용도가 서로 다른 것은 아니다."
       }
     ],
     "review": {

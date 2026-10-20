@@ -104,12 +104,8 @@ const content: LearnSense[] = [
             "text": "だが、"
           },
           {
-            "text": "一人",
-            "reading": "ひとり"
-          },
-          {
-            "text": "暮らし",
-            "reading": "くらし"
+            "text": "一人暮らし",
+            "reading": "ひとりぐらし"
           },
           {
             "text": "ではなく"
@@ -1376,7 +1372,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "山道",
-            "reading": "さんどう"
+            "reading": "やまみち"
           },
           {
             "text": "の"
@@ -2419,7 +2415,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "、"
@@ -3181,7 +3177,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "札",
-            "reading": "さつ"
+            "reading": "ふだ"
           },
           {
             "text": "が"

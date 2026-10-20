@@ -1013,7 +1013,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "店",
-            "reading": "てん"
+            "reading": "みせ"
           },
           {
             "text": "を"

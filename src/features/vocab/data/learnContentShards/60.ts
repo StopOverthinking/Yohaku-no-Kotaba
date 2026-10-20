@@ -1351,12 +1351,8 @@ const content: LearnSense[] = [
             "text": "し、"
           },
           {
-            "text": "一人",
-            "reading": "ひとり"
-          },
-          {
-            "text": "暮らし",
-            "reading": "くらし"
+            "text": "一人暮らし",
+            "reading": "ひとりぐらし"
           },
           {
             "text": "を"
@@ -1411,7 +1407,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "何",
-            "reading": "なに"
+            "reading": "なん"
           },
           {
             "text": "でも"
@@ -2538,7 +2534,7 @@ const content: LearnSense[] = [
         "beforeFurigana": [
           {
             "text": "大勢",
-            "reading": "たいせい"
+            "reading": "おおぜい"
           },
           {
             "text": "が"
@@ -2772,7 +2768,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "山道",
-            "reading": "さんどう"
+            "reading": "やまみち"
           },
           {
             "text": "を"

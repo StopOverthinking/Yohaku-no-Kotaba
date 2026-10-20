@@ -1513,7 +1513,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "辛い",
-            "reading": "つらい"
+            "reading": "からい"
           },
           {
             "text": "料理",
@@ -1978,7 +1978,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "入り口",
-            "reading": "いりくち"
+            "reading": "いりぐち"
           },
           {
             "text": "の"

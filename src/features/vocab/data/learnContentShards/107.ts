@@ -970,7 +970,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "上",
-            "reading": "じょう"
+            "reading": "うえ"
           },
           {
             "text": "に"
@@ -1342,7 +1342,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "水",
-            "reading": "すい"
+            "reading": "みず"
           },
           {
             "text": "の"
@@ -1549,7 +1549,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "、"
@@ -1909,7 +1909,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "も、"

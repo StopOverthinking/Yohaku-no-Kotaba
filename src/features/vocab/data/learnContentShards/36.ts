@@ -204,7 +204,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "木の下",
-            "reading": "このした"
+            "reading": "きのした"
           },
           {
             "text": "に"
@@ -1800,7 +1800,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "土",
-            "reading": "ど"
+            "reading": "つち"
           },
           {
             "text": "から"

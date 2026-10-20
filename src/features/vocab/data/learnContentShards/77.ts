@@ -1343,7 +1343,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "紙",
-            "reading": "し"
+            "reading": "かみ"
           },
           {
             "text": "が、"

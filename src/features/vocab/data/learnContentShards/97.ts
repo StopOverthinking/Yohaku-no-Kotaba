@@ -406,12 +406,8 @@ const content: LearnSense[] = [
             "text": "で、"
           },
           {
-            "text": "一人",
-            "reading": "ひとり"
-          },
-          {
-            "text": "暮らし",
-            "reading": "くらし"
+            "text": "一人暮らし",
+            "reading": "ひとりぐらし"
           },
           {
             "text": "を"
@@ -1378,7 +1374,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "角",
-            "reading": "かく"
+            "reading": "かど"
           },
           {
             "text": "から"
@@ -2446,7 +2442,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "方",
-            "reading": "ほう"
+            "reading": "かた"
           },
           {
             "text": "は、"

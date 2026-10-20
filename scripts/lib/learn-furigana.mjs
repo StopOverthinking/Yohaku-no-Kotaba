@@ -34,6 +34,7 @@ function numberReading(number) {
   return result + digits[number % 10]
 }
 export function counterReading(text, counter) {
+  if (counter === '回戦') return counterReading(text, '回') + 'せん'
   const n = parseNumber(text), reading = numberReading(n)
   const suffix = counter.endsWith('間') ? 'かん' : counter.endsWith('半') ? 'はん' : counter.endsWith('中') ? 'じゅう' : ''
   const base = counter.replace(/間$|半$|中$/, '')
@@ -58,7 +59,7 @@ export function counterReading(text, counter) {
   const sound = geminate || (base === '分' && [3, 4].includes(unit)) ? sounds[1] : unit === 3 ? sounds[2] : sounds[0]
   return pref + sound + suffix
 }
-const counters = /([0-9０-９〇一二三四五六七八九十百千万]+)(日間|日中|年間|年中|時間|時半|分間|週間|人前|か月|ヶ月|箇月|[年月日時分人本匹杯階回個冊枚台円週])/gu
+const counters = /([0-9０-９〇一二三四五六七八九十百千万]+)(日間|日中|年間|年中|時間|時半|分間|週間|人前|回戦|か月|ヶ月|箇月|[年月日時分人本匹杯階回個冊枚台円週])/gu
 
 export async function createFuriganaGenerator() {
   const dicPath = path.join(path.dirname(require.resolve('kuromoji/package.json')), 'dict')
@@ -71,17 +72,30 @@ export async function createFuriganaGenerator() {
       if (hasKanji.test(part.text) && token.reading) part.reading = hiragana(token.reading)
       return part
     })
+    // Tokenize with the complete surrounding context first. Counter matching
+    // must not split dictionary words such as 三日月 or 万年筆, or discard the
+    // context that determines the reading of the token following a counter.
+    const tokens = tokenize(text)
+    let offset = 0
+    const spans = tokens.map(part => {
+      const start = offset
+      offset += part.text.length
+      return { part, start, end: offset }
+    })
+    const boundaries = new Set([0, ...spans.map(span => span.end)])
+    const range = (start, end) => spans.filter(span => span.start >= start && span.end <= end).map(span => span.part)
     const parts = []
     let position = 0
     for (const match of text.matchAll(counters)) {
-      parts.push(...tokenize(text.slice(position, match.index)))
+      if (!boundaries.has(match.index) || !boundaries.has(match.index + match[0].length)) continue
+      parts.push(...range(position, match.index))
       // 十分 also means "sufficient". Preserve dictionary interpretation; reviewed
       // sentence-specific overrides distinguish actual ten-minute contexts.
       if (match[0] === '十分') parts.push({ text: match[0], reading: 'じゅうぶん' })
       else parts.push({ text: match[0], reading: counterReading(match[1], match[2]) })
       position = match.index + match[0].length
     }
-    parts.push(...tokenize(text.slice(position)))
+    parts.push(...range(position, text.length))
     const compact = []
     for (const part of parts) {
       if (!part.reading && compact.length && !compact.at(-1).reading) compact.at(-1).text += part.text

@@ -371,8 +371,11 @@ const content: LearnSense[] = [
         ],
         "afterFurigana": [
           {
-            "text": "が床",
-            "reading": "がしょう"
+            "text": "が"
+          },
+          {
+            "text": "床",
+            "reading": "ゆか"
           },
           {
             "text": "に"
@@ -1739,7 +1742,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "歌",
-            "reading": "か"
+            "reading": "うた"
           },
           {
             "text": "の"
@@ -2772,7 +2775,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "辺",
-            "reading": "あたり"
+            "reading": "へん"
           },
           {
             "text": "へ"
@@ -3110,7 +3113,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "も、その"

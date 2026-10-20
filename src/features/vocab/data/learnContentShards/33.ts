@@ -2478,12 +2478,8 @@ const content: LearnSense[] = [
         "status": "reviewed",
         "beforeFurigana": [
           {
-            "text": "一人",
-            "reading": "ひとり"
-          },
-          {
-            "text": "暮らし",
-            "reading": "くらし"
+            "text": "一人暮らし",
+            "reading": "ひとりぐらし"
           },
           {
             "text": "を"

@@ -61868,7 +61868,7 @@ export const vocabularyWords: VocabularyWord[] = [
   {
     "id": "lex-jmdict-1486650",
     "setId": "jlpt-level-n5",
-    "japanese": "おいしい",
+    "japanese": "美味しい",
     "reading": "おいしい",
     "meaning": "맛있다",
     "type": "i_adj",

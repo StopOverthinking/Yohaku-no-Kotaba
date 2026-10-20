@@ -740,7 +740,7 @@ const content: LearnSense[] = [
         "beforeFurigana": [
           {
             "text": "今",
-            "reading": "いま"
+            "reading": "こん"
           }
         ],
         "afterFurigana": [

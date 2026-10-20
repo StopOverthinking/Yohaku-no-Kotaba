@@ -54,6 +54,12 @@
     "sourceHash": "1dc4d1ee73e5e1096a386127ac50c41160bf0bb588f7914901193152830b8faf",
     "reviewScope": "user-authorized editorial correction; no new independent approval claimed"
   },
+  "editorialCorrections": {
+    "journals": 1,
+    "entries": 3,
+    "sourceHash": "9903bd9cb9a5284a7ba8f23df5a8c75eb0c2bab926d13b2b48fa8dc3083f22f9",
+    "reviewScope": "user-authorized editorial amendments; original independent approvals cover historical snapshots only"
+  },
   "complete": true,
   "completionScope": "original-independent-content-selection plus separately reviewed user-authorized membership consolidation; no new independent content approval claimed",
   "issues": [],

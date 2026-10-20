@@ -1538,7 +1538,7 @@ const content: LearnSense[] = [
         "afterFurigana": [
           {
             "text": "中",
-            "reading": "なか"
+            "reading": "ちゅう"
           },
           {
             "text": "に"

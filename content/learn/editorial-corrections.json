@@ -1,0 +1,185 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "2026-10-20-notation-reading-hints",
+    "scope": "user-authorized-notation-reading-hint-correction",
+    "authorization": "사용자 지정 표기·힌트 및 전체 발음·후리가나 점검과 정정",
+    "review": {
+      "outcome": "accepted",
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-10-20T00:02:15.464Z"
+    },
+    "entries": [
+      {
+        "kind": "word",
+        "before": {
+          "id": "lex-jmdict-1486650",
+          "setId": "jlpt-level-n5",
+          "japanese": "おいしい",
+          "reading": "おいしい",
+          "meaning": "맛있다",
+          "type": "i_adj",
+          "difficulty": 10,
+          "verbInfo": null,
+          "sourceOrder": 424
+        },
+        "after": {
+          "id": "lex-jmdict-1486650",
+          "setId": "jlpt-level-n5",
+          "japanese": "美味しい",
+          "reading": "おいしい",
+          "meaning": "맛있다",
+          "type": "i_adj",
+          "difficulty": 10,
+          "verbInfo": null,
+          "sourceOrder": 424
+        },
+        "beforeHash": "72578c49b444b1a0f821acda5631d322d239c85ca749640c86c79cd52facf236",
+        "afterHash": "701c8b4b32fbd6befa2ecdcf0681781ff407732afd766c577bce4b494983eb85",
+        "reason": "사용자 지정 한자 표기 美味しい; 읽기·뜻·ID·소속·순서 보존"
+      },
+      {
+        "kind": "sense",
+        "before": {
+          "id": "sense-lex-jmdict-1231720-1",
+          "wordId": "lex-jmdict-1231720",
+          "version": 1,
+          "meaning": "거실",
+          "hint": "집에서 가족이 모여 쉬거나 손님을 맞는 방을 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "寝室",
+              "distinction": "居間: 가족이 일상적으로 모여 생활하는 거실; 寝室: 잠을 자는 용도의 침실."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1231720-1-ex-1",
+              "version": 1,
+              "before": "雨で外に出られず、家族で",
+              "answer": "居間",
+              "after": "の家具の配置を変えた。",
+              "reading": "いま",
+              "translation": "비 때문에 나가지 못해 가족과 함께 거실의 가구 배치를 바꿨다.",
+              "translationTarget": "거실",
+              "difficulty": 26,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-lex-jmdict-1231720-1",
+          "wordId": "lex-jmdict-1231720",
+          "version": 1,
+          "meaning": "거실",
+          "hint": "가족이 모여 쉬는 거실을 가리키는 일본 고유어. 같은 공간을 부르는 외래어와 구별해 보세요.",
+          "confusions": [
+            {
+              "japanese": "リビング",
+              "distinction": "둘 다 거실이다. 居間는 일본 고유어이고 リビング은 영어 living room에서 온 외래어다. 방의 용도가 서로 다른 것은 아니다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1231720-1-ex-1",
+              "version": 1,
+              "before": "雨で外に出られず、家族で",
+              "answer": "居間",
+              "after": "の家具の配置を変えた。",
+              "reading": "いま",
+              "translation": "비 때문에 나가지 못해 가족과 함께 거실의 가구 배치를 바꿨다.",
+              "translationTarget": "거실",
+              "difficulty": 26,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "330dff2c992e0cafe26bad9987ac6a3cca403d1ba91bc93ea13cc938386d1f24",
+        "afterHash": "8517942b751b418c34a76a129c665276c0b7f60d120658986e044ea36fa329a2",
+        "reason": "같은 핵심 뜻에서 표기 또는 거실 힌트 설명 정정; 변경 예문 버전만 1 증가"
+      },
+      {
+        "kind": "sense",
+        "before": {
+          "id": "sense-lex-jmdict-1486650-1",
+          "wordId": "lex-jmdict-1486650",
+          "version": 1,
+          "meaning": "맛있다",
+          "hint": "음식을 먹었을 때 맛이 좋게 느껴지는 상태",
+          "confusions": [
+            {
+              "japanese": "まずい",
+              "distinction": "먹는 맛이 좋은 상태와 좋지 않은 상태를 구별한다. 유리한 기회라는 비유적 뜻은 이번 핵심 용법이 아니다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1486650-1-ex-1",
+              "version": 1,
+              "before": "焼きたてのパンは",
+              "answer": "おいしくて",
+              "after": "、もう一つ食べたくなりました。",
+              "reading": "おいしくて",
+              "translation": "갓 구운 빵은 맛있어서 하나 더 먹고 싶어졌어요.",
+              "translationTarget": "맛있어서",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-lex-jmdict-1486650-1",
+          "wordId": "lex-jmdict-1486650",
+          "version": 1,
+          "meaning": "맛있다",
+          "hint": "음식을 먹었을 때 맛이 좋게 느껴지는 상태",
+          "confusions": [
+            {
+              "japanese": "まずい",
+              "distinction": "먹는 맛이 좋은 상태와 좋지 않은 상태를 구별한다. 유리한 기회라는 비유적 뜻은 이번 핵심 용법이 아니다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1486650-1-ex-1",
+              "version": 2,
+              "before": "焼きたてのパンは",
+              "answer": "美味しくて",
+              "after": "、もう一つ食べたくなりました。",
+              "reading": "おいしくて",
+              "translation": "갓 구운 빵은 맛있어서 하나 더 먹고 싶어졌어요.",
+              "translationTarget": "맛있어서",
+              "difficulty": 10,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "b0d0251b5c3e2e2e372e0ed1050fcfbc142fc9f00119ec7f352ecbaa8a91d916",
+        "afterHash": "41089a98956f2cc8b1e54ed626b256115a5c0e08760963d4f944957bfbe4d885",
+        "reason": "같은 핵심 뜻에서 표기 또는 거실 힌트 설명 정정; 변경 예문 버전만 1 증가"
+      }
+    ],
+    "entriesHash": "ba1d4e9c151fd22a9abcd4650191dcbc32237078e219add59b99c66fbaa4d357"
+  }
+]

@@ -84,7 +84,7 @@ describe('user-authorized corrections after reviewed example pruning', () => {
     expect(senses.reduce((count, sense) => count + sense.examples.length, 0)).toBe(5874)
     const correct = senses.find(sense => sense.wordId === 'lex-jmdict-1376600').examples.find(e => e.id.endsWith('ex-3'))
     expect(correct).toMatchObject({ answer: '正しい', reading: 'ただしい', version: 2, translationTarget: '옳다' })
-    for (const sense of senses) {
+    for (const sense of result.beforeEditorial) {
       const old = result.beforeCorrections.find(row => row.id === sense.id)
       expect({ ...sense, examples: [] }).toEqual({ ...old, examples: [] })
       expect(sense.examples.map(e => e.id)).toEqual(old.examples.map(e => e.id))

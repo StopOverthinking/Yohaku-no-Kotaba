@@ -1946,7 +1946,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "方",
-            "reading": "ほう"
+            "reading": "かた"
           },
           {
             "text": "も、"

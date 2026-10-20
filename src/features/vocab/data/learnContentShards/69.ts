@@ -452,7 +452,7 @@ const content: LearnSense[] = [
         "beforeFurigana": [
           {
             "text": "脂っこい",
-            "reading": "やにっこい"
+            "reading": "あぶらっこい"
           },
           {
             "text": "物",

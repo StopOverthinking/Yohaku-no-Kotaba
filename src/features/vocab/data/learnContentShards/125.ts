@@ -2046,7 +2046,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "台詞",
-            "reading": "だいし"
+            "reading": "せりふ"
           },
           {
             "text": "が"

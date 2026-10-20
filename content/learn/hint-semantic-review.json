@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "policy": "current-korean-sense",
-  "sourceHash": "0e0d1d2a21d0c4ca0652fe0534e66bb3300d48378cfeb2eee128dcd78065a500",
+  "sourceHash": "0ad4fadb5b1fbd6c2a3c1d8753c6691b510cf09f2f98b9985ee7a9933f4a7534",
   "reviewer": {
     "model": "gpt-6-astra",
     "reasoningEffort": "high"
@@ -48497,16 +48497,32 @@
       "japanese": "一月",
       "meaning": "한 달, 1개월",
       "reviewStatus": "reviewed",
-      "selected": [],
-      "decision": "omit",
-      "reason": "현재 「한 달, 1개월」 용법을 개별 검토했다. 같은 한국어 뜻에서 쓰임을 구분할 확실한 후보를 선정하지 않았으며 관련어·반의어로 채우지 않는다.",
+      "selected": [
+        {
+          "japanese": "一ヶ月",
+          "reading": "いっかげつ",
+          "meaning": "한 달, 1개월",
+          "difference": "같은 한 달의 기간이다. 一月는 고유어 읽기, 一ヶ月은 개월 수를 세는 표현이다.",
+          "evidence": {
+            "type": "dictionary",
+            "entryId": "jmdict-1587410",
+            "source": "JMdict retained candidate snapshot",
+            "entryHash": "ed7a7ef35a8632ecd9c4e53cdf9ff588d471800d15b506b3c85e30138c73a55b",
+            "sourceGlosses": [
+              "one month"
+            ]
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "2026-10-20 사용자 요청에 따른 현재 용법 재검토: 같은 한 달의 기간이다. 一月는 고유어 읽기, 一ヶ月은 개월 수를 세는 표현이다.",
       "rejected": [
         {
           "japanese": "一月（いちがつ）",
           "reason": "현재 「한 달, 1개월」 용법과 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「한 달, 1개월」."
         }
       ],
-      "reviewMethod": "model-individual-semantic-review"
+      "reviewMethod": "user-authorized-current-session-editorial-amendment"
     },
     {
       "senseId": "sense-lex-jmdict-1183300-1",
@@ -63370,16 +63386,32 @@
       "japanese": "居間",
       "meaning": "거실",
       "reviewStatus": "reviewed",
-      "selected": [],
-      "decision": "omit",
-      "reason": "현재 「거실」 용법을 개별 검토했다. 같은 한국어 뜻에서 쓰임을 구분할 확실한 후보를 선정하지 않았으며 관련어·반의어로 채우지 않는다.",
+      "selected": [
+        {
+          "japanese": "リビング",
+          "reading": "リビング",
+          "meaning": "거실",
+          "difference": "같은 공간이다. 居間는 일본 고유어, リビング은 영어에서 온 외래어다.",
+          "evidence": {
+            "type": "dictionary",
+            "entryId": "jmdict-1142410",
+            "source": "JMdict retained candidate snapshot",
+            "entryHash": "47d2b4f2d308e6b20d71dbd7f354a17b18d38efcab569a471994840d36ea83dc",
+            "sourceGlosses": [
+              "living room"
+            ]
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "2026-10-20 사용자 요청에 따른 현재 용법 재검토: 같은 공간이다. 居間는 일본 고유어, リビング은 영어에서 온 외래어다.",
       "rejected": [
         {
           "japanese": "寝室",
           "reason": "현재 「거실」 용법과 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 현재 용법을 뒷받침하는 코퍼스 근거 없이 기존 표기만 재사용하지 않는다."
         }
       ],
-      "reviewMethod": "model-individual-semantic-review"
+      "reviewMethod": "user-authorized-current-session-editorial-amendment"
     },
     {
       "senseId": "sense-lex-jmdict-1231890-1",
@@ -143016,6 +143048,21 @@
       "reviewStatus": "reviewed",
       "selected": [
         {
+          "japanese": "いい",
+          "reading": "いい",
+          "meaning": "좋다",
+          "difference": "같은 좋다는 뜻이다. よい는 문어·격식에서, いい는 일상 회화에서 흔하며 활용은 よくない·よかった다.",
+          "evidence": {
+            "type": "dictionary",
+            "entryId": "jmdict-2820690",
+            "source": "JMdict retained candidate snapshot",
+            "entryHash": "1b5935b579aa8628e4d38426bc44c3206eb591fe251a6f63e42085aba2e0584d",
+            "sourceGlosses": [
+              "good"
+            ]
+          }
+        },
+        {
           "japanese": "宜しい",
           "reading": "よろしい",
           "meaning": "괜찮다, 좋다",
@@ -143028,7 +143075,7 @@
           }
         }
       ],
-      "reason": "현재 한국어 의미 「좋다」와 예문 목표 구간 「좋은」를 후보의 현재 뜻·목표 구간과 개별 대조하여 선정했다. 대상은 좋다의 일반형, 비교어는 정중한 좋다다.",
+      "reason": "2026-10-20 사용자 요청에 따른 현재 용법 재검토: 같은 좋다는 뜻이다. よい는 문어·격식에서, いい는 일상 회화에서 흔하며 활용은 よくない·よかった다.",
       "senseVersion": 1,
       "wordId": "lex-jmdict-1605820",
       "japanese": "良い",
@@ -143044,7 +143091,7 @@
           "reason": "현재 「좋다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「나쁘다, 좋지 않다」."
         }
       ],
-      "reviewMethod": "model-individual-semantic-review"
+      "reviewMethod": "user-authorized-current-session-editorial-amendment"
     },
     {
       "senseId": "sense-lex-jmdict-1486650-1",
@@ -143053,7 +143100,7 @@
       "reason": "현재 「맛있다」 용법을 검토했다. 검토 후보 旨い는 현재 코퍼스에서 대응 용법 근거를 확보하지 못하여 채택하지 않았다.",
       "senseVersion": 1,
       "wordId": "lex-jmdict-1486650",
-      "japanese": "おいしい",
+      "japanese": "美味しい",
       "meaning": "맛있다",
       "decision": "omit",
       "rejected": [
@@ -143349,6 +143396,23 @@
         }
       ],
       "reviewMethod": "model-individual-semantic-review"
+    }
+  ],
+  "amendments": [
+    {
+      "id": "2026-10-20-notation-and-hints",
+      "previousReviewHash": "1e4f46fa2a45976a23211bbe93be270e207feb6867548be6cd5e16ddde9a9596",
+      "previousSourceHash": "0e0d1d2a21d0c4ca0652fe0534e66bb3300d48378cfeb2eee128dcd78065a500",
+      "sourceHash": "0ad4fadb5b1fbd6c2a3c1d8753c6691b510cf09f2f98b9985ee7a9933f4a7534",
+      "senseIds": [
+        "sense-lex-jmdict-1162130-1",
+        "sense-lex-jmdict-1605820-1",
+        "sense-lex-jmdict-1231720-1",
+        "sense-lex-jmdict-1486650-1"
+      ],
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "authorization": "사용자 요청: 一ヶ月·いい 힌트 추가, 美味しい 표기, 居間·リビング 구별"
     }
   ]
 }

@@ -567,7 +567,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "土",
-            "reading": "ど"
+            "reading": "つち"
           },
           {
             "text": "が"
@@ -2408,7 +2408,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "、"
@@ -2612,7 +2612,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "後",
-            "reading": "のち"
+            "reading": "あと"
           },
           {
             "text": "、"
@@ -2911,9 +2911,9 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1486650-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "焼きたてのパンは",
-        "answer": "おいしくて",
+        "answer": "美味しくて",
         "after": "、もう一つ食べたくなりました。",
         "reading": "おいしくて",
         "translation": "갓 구운 빵은 맛있어서 하나 더 먹고 싶어졌어요.",

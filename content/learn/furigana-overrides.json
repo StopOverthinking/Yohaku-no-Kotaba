@@ -2160,5 +2160,6103 @@
         "text": "に"
       }
     ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_493-1-ex-1",
+    "side": "before",
+    "text": "この薬は、食事の後に",
+    "parts": [
+      {
+        "text": "この"
+      },
+      {
+        "text": "薬",
+        "reading": "くすり"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "食事",
+        "reading": "しょくじ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_240-1-ex-1",
+    "side": "before",
+    "text": "引っ越した後も、隣の家とは良い",
+    "parts": [
+      {
+        "text": "引っ越し",
+        "reading": "ひっこし"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "も、"
+      },
+      {
+        "text": "隣",
+        "reading": "となり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "家",
+        "reading": "いえ"
+      },
+      {
+        "text": "とは"
+      },
+      {
+        "text": "良い",
+        "reading": "よい"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_392-1-ex-1",
+    "side": "before",
+    "text": "夜中に",
+    "parts": [
+      {
+        "text": "夜中",
+        "reading": "よなか"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-handmade_92-1-ex-1",
+    "side": "after",
+    "text": "をたたく音で、夜中に目が覚めた。",
+    "parts": [
+      {
+        "text": "をたたく"
+      },
+      {
+        "text": "音",
+        "reading": "おと"
+      },
+      {
+        "text": "で、"
+      },
+      {
+        "text": "夜中",
+        "reading": "よなか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "目",
+        "reading": "め"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "覚め",
+        "reading": "さめ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_73-1-ex-1",
+    "side": "before",
+    "text": "旅行かばんに名前の札を",
+    "parts": [
+      {
+        "text": "旅行",
+        "reading": "りょこう"
+      },
+      {
+        "text": "かばんに"
+      },
+      {
+        "text": "名前",
+        "reading": "なまえ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "札",
+        "reading": "ふだ"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_106-1-ex-1",
+    "side": "before",
+    "text": "疲れたので、木の下に",
+    "parts": [
+      {
+        "text": "疲れ",
+        "reading": "つかれ"
+      },
+      {
+        "text": "たので、"
+      },
+      {
+        "text": "木の下",
+        "reading": "きのした"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_363-1-ex-1",
+    "side": "after",
+    "text": "、土の硬さを調べた。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "土",
+        "reading": "つち"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "硬",
+        "reading": "かた"
+      },
+      {
+        "text": "さを"
+      },
+      {
+        "text": "調べ",
+        "reading": "しらべ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_375-1-ex-1",
+    "side": "before",
+    "text": "角で人と",
+    "parts": [
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "人",
+        "reading": "ひと"
+      },
+      {
+        "text": "と"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_445-1-ex-1",
+    "side": "after",
+    "text": "、部屋中に落としてしまった。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "部屋",
+        "reading": "へや"
+      },
+      {
+        "text": "中",
+        "reading": "じゅう"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "落とし",
+        "reading": "おとし"
+      },
+      {
+        "text": "てしまった。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_653-1-ex-1",
+    "side": "before",
+    "text": "説明の後で、気になった点を",
+    "parts": [
+      {
+        "text": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で、"
+      },
+      {
+        "text": "気",
+        "reading": "き"
+      },
+      {
+        "text": "になった"
+      },
+      {
+        "text": "点",
+        "reading": "てん"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_740-1-ex-1",
+    "side": "before",
+    "text": "出口が分からず、駅の中を",
+    "parts": [
+      {
+        "text": "出口",
+        "reading": "でぐち"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "分から",
+        "reading": "わから"
+      },
+      {
+        "text": "ず、"
+      },
+      {
+        "text": "駅",
+        "reading": "えき"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "中",
+        "reading": "なか"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_770-1-ex-1",
+    "side": "before",
+    "text": "油の多い料理を食べた後、",
+    "parts": [
+      {
+        "text": "油",
+        "reading": "あぶら"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "多い",
+        "reading": "おおい"
+      },
+      {
+        "text": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "食べ",
+        "reading": "たべ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_82-1-ex-1",
+    "side": "before",
+    "text": "大雨の後、道路を泥水が",
+    "parts": [
+      {
+        "text": "大雨",
+        "reading": "おおあめ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "道路",
+        "reading": "どうろ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "泥水",
+        "reading": "どろみず"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_309-1-ex-1",
+    "side": "after",
+    "text": "が床に広がった。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "床",
+        "reading": "ゆか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "広がっ",
+        "reading": "ひろがっ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_179-1-ex-1",
+    "side": "before",
+    "text": "田んぼでは、稲が黄金色に",
+    "parts": [
+      {
+        "text": "田んぼ",
+        "reading": "たんぼ"
+      },
+      {
+        "text": "では、"
+      },
+      {
+        "text": "稲",
+        "reading": "いね"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "黄金",
+        "reading": "こがね"
+      },
+      {
+        "text": "色",
+        "reading": "いろ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_344-1-ex-1",
+    "side": "before",
+    "text": "映画館の入り口で",
+    "parts": [
+      {
+        "text": "映画",
+        "reading": "えいが"
+      },
+      {
+        "text": "館",
+        "reading": "かん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "入り口",
+        "reading": "いりぐち"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_522-1-ex-1",
+    "side": "before",
+    "text": "犬が掘った穴を土で",
+    "parts": [
+      {
+        "text": "犬",
+        "reading": "いぬ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "掘っ",
+        "reading": "ほっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "穴",
+        "reading": "あな"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "土",
+        "reading": "つち"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_529-1-ex-1",
+    "side": "before",
+    "text": "次の角を右に",
+    "parts": [
+      {
+        "text": "次",
+        "reading": "つぎ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "右",
+        "reading": "みぎ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_645-1-ex-1",
+    "side": "before",
+    "text": "夕食の後、川沿いを",
+    "parts": [
+      {
+        "text": "夕食",
+        "reading": "ゆうしょく"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "川",
+        "reading": "かわ"
+      },
+      {
+        "text": "沿い",
+        "reading": "ぞい"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_750-1-ex-1",
+    "side": "before",
+    "text": "脂っこい物を食べすぎて、胃が",
+    "parts": [
+      {
+        "text": "脂っこい",
+        "reading": "あぶらっこい"
+      },
+      {
+        "text": "物",
+        "reading": "もの"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "食べ",
+        "reading": "たべ"
+      },
+      {
+        "text": "すぎて、"
+      },
+      {
+        "text": "胃",
+        "reading": "い"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_295-1-ex-1",
+    "side": "after",
+    "text": "は何ですか。",
+    "parts": [
+      {
+        "text": "は"
+      },
+      {
+        "text": "何",
+        "reading": "なん"
+      },
+      {
+        "text": "ですか。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_464-1-ex-1",
+    "side": "after",
+    "text": "を一晩水につけた。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "一",
+        "reading": "いち"
+      },
+      {
+        "text": "晩",
+        "reading": "ばん"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "につけた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-handmade_7-1-ex-1",
+    "side": "after",
+    "text": "日の写真を初めて見た。",
+    "parts": [
+      {
+        "text": "日",
+        "reading": "ひ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "写真",
+        "reading": "しゃしん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "初めて",
+        "reading": "はじめて"
+      },
+      {
+        "text": "見",
+        "reading": "み"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-handmade_22-1-ex-1",
+    "side": "before",
+    "text": "角の",
+    "parts": [
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-handmade_106-1-ex-1",
+    "side": "after",
+    "text": "並べてね。",
+    "parts": [
+      {
+        "text": "並べて",
+        "reading": "ならべて"
+      },
+      {
+        "text": "ね。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_183-1-ex-1",
+    "side": "before",
+    "text": "雨の後、庭中に草が",
+    "parts": [
+      {
+        "text": "雨",
+        "reading": "あめ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "庭",
+        "reading": "にわ"
+      },
+      {
+        "text": "中",
+        "reading": "じゅう"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "草",
+        "reading": "くさ"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_283-1-ex-1",
+    "side": "before",
+    "text": "雪解け水が勢いよく",
+    "parts": [
+      {
+        "text": "雪解け",
+        "reading": "ゆきどけ"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "勢い",
+        "reading": "いきおい"
+      },
+      {
+        "text": "よく"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_579-1-ex-1",
+    "side": "before",
+    "text": "三本目の矢で、的の中心に",
+    "parts": [
+      {
+        "text": "三本",
+        "reading": "さんぼん"
+      },
+      {
+        "text": "目",
+        "reading": "め"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "矢",
+        "reading": "や"
+      },
+      {
+        "text": "で、"
+      },
+      {
+        "text": "的",
+        "reading": "まと"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "中心",
+        "reading": "ちゅうしん"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_609-1-ex-1",
+    "side": "after",
+    "text": "、庭の土が乾いた。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "庭",
+        "reading": "にわ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "土",
+        "reading": "つち"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "乾い",
+        "reading": "かわい"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_763-1-ex-1",
+    "side": "before",
+    "text": "大勢の前で間違えて、恥ずかしい",
+    "parts": [
+      {
+        "text": "大勢",
+        "reading": "おおぜい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "前",
+        "reading": "まえ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "間違え",
+        "reading": "まちがえ"
+      },
+      {
+        "text": "て、"
+      },
+      {
+        "text": "恥ずかしい",
+        "reading": "はずかしい"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1531710-1-ex-1",
+    "side": "after",
+    "text": "は何ですか。",
+    "parts": [
+      {
+        "text": "は"
+      },
+      {
+        "text": "何",
+        "reading": "なん"
+      },
+      {
+        "text": "ですか。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1019420-1-ex-1",
+    "side": "before",
+    "text": "授業の後、喫茶店で",
+    "parts": [
+      {
+        "text": "授業",
+        "reading": "じゅぎょう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "喫茶店",
+        "reading": "きっさてん"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1260640-1-ex-1",
+    "side": "before",
+    "text": "制度を変えた後、利用者数に",
+    "parts": [
+      {
+        "text": "制度",
+        "reading": "せいど"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "変え",
+        "reading": "かえ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "利用",
+        "reading": "りよう"
+      },
+      {
+        "text": "者",
+        "reading": "しゃ"
+      },
+      {
+        "text": "数",
+        "reading": "すう"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1061820-1-ex-1",
+    "side": "before",
+    "text": "走った後で",
+    "parts": [
+      {
+        "text": "走っ",
+        "reading": "はしっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1096420-1-ex-1",
+    "side": "before",
+    "text": "手を洗った後、",
+    "parts": [
+      {
+        "text": "手",
+        "reading": "て"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "洗っ",
+        "reading": "あらっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1171010-1-ex-1",
+    "side": "before",
+    "text": "次の角を",
+    "parts": [
+      {
+        "text": "次",
+        "reading": "つぎ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1010080-1-ex-1",
+    "side": "before",
+    "text": "「予約した方ですか。」「",
+    "parts": [
+      {
+        "text": "「"
+      },
+      {
+        "text": "予約",
+        "reading": "よやく"
+      },
+      {
+        "text": "した"
+      },
+      {
+        "text": "方",
+        "reading": "かた"
+      },
+      {
+        "text": "ですか。」「"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1277450-1-ex-1",
+    "side": "before",
+    "text": "私は辛い料理が",
+    "parts": [
+      {
+        "text": "私",
+        "reading": "わたし"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "辛い",
+        "reading": "からい"
+      },
+      {
+        "text": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1319220-1-ex-1",
+    "side": "before",
+    "text": "木の下にどんぐりが",
+    "parts": [
+      {
+        "text": "木の下",
+        "reading": "きのした"
+      },
+      {
+        "text": "にどんぐりが"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1320760-1-ex-1",
+    "side": "before",
+    "text": "授業の後で先生に",
+    "parts": [
+      {
+        "text": "授業",
+        "reading": "じゅぎょう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1358340-1-ex-1",
+    "side": "before",
+    "text": "辛い",
+    "parts": [
+      {
+        "text": "辛い",
+        "reading": "からい"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1371260-1-ex-1",
+    "side": "before",
+    "text": "走った後で冷たい",
+    "parts": [
+      {
+        "text": "走っ",
+        "reading": "はしっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "冷たい",
+        "reading": "つめたい"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1387210-1-ex-2",
+    "side": "before",
+    "text": "受付を済ませた方から",
+    "parts": [
+      {
+        "text": "受付",
+        "reading": "うけつけ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "済ませ",
+        "reading": "すませ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "方",
+        "reading": "かた"
+      },
+      {
+        "text": "から"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1388740-1-ex-1",
+    "side": "after",
+    "text": "人ほど住んでいます。",
+    "parts": [
+      {
+        "text": "人",
+        "reading": "にん"
+      },
+      {
+        "text": "ほど"
+      },
+      {
+        "text": "住ん",
+        "reading": "すん"
+      },
+      {
+        "text": "でいます。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1522980-1-ex-1",
+    "side": "after",
+    "text": "の一番上に辞書があります。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "一番",
+        "reading": "いちばん"
+      },
+      {
+        "text": "上",
+        "reading": "うえ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "辞書",
+        "reading": "じしょ"
+      },
+      {
+        "text": "があります。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1584460-1-ex-1",
+    "side": "after",
+    "text": "歩も歩いたので、靴を脱ぐとほっとしました。",
+    "parts": [
+      {
+        "text": "歩",
+        "reading": "ぽ"
+      },
+      {
+        "text": "も"
+      },
+      {
+        "text": "歩い",
+        "reading": "あるい"
+      },
+      {
+        "text": "たので、"
+      },
+      {
+        "text": "靴",
+        "reading": "くつ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "脱ぐ",
+        "reading": "ぬぐ"
+      },
+      {
+        "text": "とほっとしました。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1598680-1-ex-1",
+    "side": "before",
+    "text": "仕事の後で",
+    "parts": [
+      {
+        "text": "仕事",
+        "reading": "しごと"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1155090-1-ex-1",
+    "side": "after",
+    "text": "は毎日店を開けています。",
+    "parts": [
+      {
+        "text": "は"
+      },
+      {
+        "text": "毎日",
+        "reading": "まいにち"
+      },
+      {
+        "text": "店",
+        "reading": "みせ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "開け",
+        "reading": "あけ"
+      },
+      {
+        "text": "ています。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1245470-1-ex-3",
+    "side": "before",
+    "text": "二人がけんかした後、部屋の",
+    "parts": [
+      {
+        "text": "二人",
+        "reading": "ふたり"
+      },
+      {
+        "text": "がけんかした"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "部屋",
+        "reading": "へや"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1401910-1-ex-1",
+    "side": "before",
+    "text": "雨の後で庭の",
+    "parts": [
+      {
+        "text": "雨",
+        "reading": "あめ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "庭",
+        "reading": "にわ"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1576900-1-ex-1",
+    "side": "before",
+    "text": "夜中に外で大きな",
+    "parts": [
+      {
+        "text": "夜中",
+        "reading": "よなか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "外",
+        "reading": "そと"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "大きな",
+        "reading": "おおきな"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1482340-1-ex-1",
+    "side": "before",
+    "text": "夕飯の後、家族で旅行の",
+    "parts": [
+      {
+        "text": "夕飯",
+        "reading": "ゆうはん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "家族",
+        "reading": "かぞく"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "旅行",
+        "reading": "りょこう"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1483150-1-ex-1",
+    "side": "before",
+    "text": "赤い帽子の方を覚えていますか。",
+    "parts": [
+      {
+        "text": "赤い",
+        "reading": "あかい"
+      },
+      {
+        "text": "帽子",
+        "reading": "ぼうし"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "方",
+        "reading": "かた"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "覚え",
+        "reading": "おぼえ"
+      },
+      {
+        "text": "ていますか。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1076170-1-ex-1",
+    "side": "before",
+    "text": "運動の後、",
+    "parts": [
+      {
+        "text": "運動",
+        "reading": "うんどう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1244470-1-ex-2",
+    "side": "before",
+    "text": "弟は辛い料理が",
+    "parts": [
+      {
+        "text": "弟",
+        "reading": "おとうと"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "辛い",
+        "reading": "からい"
+      },
+      {
+        "text": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1378200-1-ex-1",
+    "side": "before",
+    "text": "調理台は、使う前にも後にも",
+    "parts": [
+      {
+        "text": "調理",
+        "reading": "ちょうり"
+      },
+      {
+        "text": "台",
+        "reading": "だい"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "使う",
+        "reading": "つかう"
+      },
+      {
+        "text": "前",
+        "reading": "まえ"
+      },
+      {
+        "text": "にも"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "にも"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1545110-1-ex-1",
+    "side": "after",
+    "text": "子供だけを残して、長時間家を空けないでください。",
+    "parts": [
+      {
+        "text": "子供",
+        "reading": "こども"
+      },
+      {
+        "text": "だけを"
+      },
+      {
+        "text": "残し",
+        "reading": "のこし"
+      },
+      {
+        "text": "て、"
+      },
+      {
+        "text": "長時間",
+        "reading": "ちょうじかん"
+      },
+      {
+        "text": "家",
+        "reading": "いえ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "空け",
+        "reading": "あけ"
+      },
+      {
+        "text": "ないでください。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1378650-1-ex-1",
+    "side": "before",
+    "text": "古い壁には、地震の後で細いひびが",
+    "parts": [
+      {
+        "text": "古い",
+        "reading": "ふるい"
+      },
+      {
+        "text": "壁",
+        "reading": "かべ"
+      },
+      {
+        "text": "には、"
+      },
+      {
+        "text": "地震",
+        "reading": "じしん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "細い",
+        "reading": "ほそい"
+      },
+      {
+        "text": "ひびが"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1403120-1-ex-1",
+    "side": "before",
+    "text": "日が暮れるにつれて、山道の寒さが",
+    "parts": [
+      {
+        "text": "日",
+        "reading": "ひ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "暮れる",
+        "reading": "くれる"
+      },
+      {
+        "text": "につれて、"
+      },
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "寒",
+        "reading": "さむ"
+      },
+      {
+        "text": "さが"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1432980-1-ex-1",
+    "side": "after",
+    "text": "、次の角から引き返した。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "次",
+        "reading": "つぎ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "引き返し",
+        "reading": "ひきかえし"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1591100-1-ex-2",
+    "side": "before",
+    "text": "修理の後は、自転車のブレーキがよく",
+    "parts": [
+      {
+        "text": "修理",
+        "reading": "しゅうり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "自転車",
+        "reading": "じてんしゃ"
+      },
+      {
+        "text": "のブレーキがよく"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1242300-1-ex-1",
+    "side": "after",
+    "text": "、夕食の後に川沿いを散歩するのが習慣になった。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "夕食",
+        "reading": "ゆうしょく"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "川",
+        "reading": "かわ"
+      },
+      {
+        "text": "沿い",
+        "reading": "ぞい"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "散歩",
+        "reading": "さんぽ"
+      },
+      {
+        "text": "するのが"
+      },
+      {
+        "text": "習慣",
+        "reading": "しゅうかん"
+      },
+      {
+        "text": "になった。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1612920-1-ex-1",
+    "side": "before",
+    "text": "山道で鹿を",
+    "parts": [
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "鹿",
+        "reading": "しか"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1530510-1-ex-1",
+    "side": "after",
+    "text": "と分かり、管理人を呼んだ。",
+    "parts": [
+      {
+        "text": "と"
+      },
+      {
+        "text": "分かり",
+        "reading": "わかり"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "管理",
+        "reading": "かんり"
+      },
+      {
+        "text": "人",
+        "reading": "にん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "呼ん",
+        "reading": "よん"
+      },
+      {
+        "text": "だ。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1279170-1-ex-1",
+    "side": "after",
+    "text": "をしのいだ後、こちらも勢いよく前へ出た。",
+    "parts": [
+      {
+        "text": "をしのいだ"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、こちらも"
+      },
+      {
+        "text": "勢い",
+        "reading": "いきおい"
+      },
+      {
+        "text": "よく"
+      },
+      {
+        "text": "前",
+        "reading": "まえ"
+      },
+      {
+        "text": "へ"
+      },
+      {
+        "text": "出",
+        "reading": "で"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1240530-1-ex-1",
+    "side": "after",
+    "text": "が床に散らばった。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "床",
+        "reading": "ゆか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "散らばっ",
+        "reading": "ちらばっ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1247660-1-ex-1",
+    "side": "after",
+    "text": "の後に、壊れた車両が残されていた。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "壊れ",
+        "reading": "こわれ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "車両",
+        "reading": "しゃりょう"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "残さ",
+        "reading": "のこさ"
+      },
+      {
+        "text": "れていた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1078040-1-ex-1",
+    "side": "before",
+    "text": "大勢の前で意見を伝える",
+    "parts": [
+      {
+        "text": "大勢",
+        "reading": "おおぜい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "前",
+        "reading": "まえ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "意見",
+        "reading": "いけん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "伝える",
+        "reading": "つたえる"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1131990-1-ex-2",
+    "side": "before",
+    "text": "夜中に赤ちゃんが泣いたので、",
+    "parts": [
+      {
+        "text": "夜中",
+        "reading": "よなか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "赤ちゃん",
+        "reading": "あかちゃん"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "泣い",
+        "reading": "ない"
+      },
+      {
+        "text": "たので、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1133830-1-ex-1",
+    "side": "after",
+    "text": "した紙が、見当たらない。",
+    "parts": [
+      {
+        "text": "した"
+      },
+      {
+        "text": "紙",
+        "reading": "かみ"
+      },
+      {
+        "text": "が、"
+      },
+      {
+        "text": "見当たら",
+        "reading": "みあたら"
+      },
+      {
+        "text": "ない。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1184370-1-ex-1",
+    "side": "before",
+    "text": "山道の",
+    "parts": [
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1190080-1-ex-1",
+    "side": "before",
+    "text": "焼き色を見ながら、火の",
+    "parts": [
+      {
+        "text": "焼き",
+        "reading": "やき"
+      },
+      {
+        "text": "色",
+        "reading": "いろ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "見",
+        "reading": "み"
+      },
+      {
+        "text": "ながら、"
+      },
+      {
+        "text": "火",
+        "reading": "ひ"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1197710-1-ex-1",
+    "side": "before",
+    "text": "種をまいて一週間後、土から小さな",
+    "parts": [
+      {
+        "text": "種",
+        "reading": "たね"
+      },
+      {
+        "text": "をまいて"
+      },
+      {
+        "text": "一週間",
+        "reading": "いっしゅうかん"
+      },
+      {
+        "text": "後",
+        "reading": "ご"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "土",
+        "reading": "つち"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "小さな",
+        "reading": "ちいさな"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1201860-1-ex-1",
+    "side": "before",
+    "text": "火が消えた後も、",
+    "parts": [
+      {
+        "text": "火",
+        "reading": "ひ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "消え",
+        "reading": "きえ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "も、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1224190-1-ex-1",
+    "side": "after",
+    "text": "は、角があるのに優しい顔をしていた。",
+    "parts": [
+      {
+        "text": "は、"
+      },
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "があるのに"
+      },
+      {
+        "text": "優しい",
+        "reading": "やさしい"
+      },
+      {
+        "text": "顔",
+        "reading": "かお"
+      },
+      {
+        "text": "をしていた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1260490-1-ex-1",
+    "side": "after",
+    "text": "を預けた。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "預け",
+        "reading": "あずけ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1002030-1-ex-1",
+    "side": "before",
+    "text": "店員は品物を渡した後、丁寧に",
+    "parts": [
+      {
+        "text": "店員",
+        "reading": "てんいん"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "品物",
+        "reading": "しなもの"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "渡し",
+        "reading": "わたし"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "丁寧",
+        "reading": "ていねい"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1057960-1-ex-1",
+    "side": "after",
+    "text": "として働いた後、小さな店を開いた。",
+    "parts": [
+      {
+        "text": "として"
+      },
+      {
+        "text": "働い",
+        "reading": "はたらい"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "小さな",
+        "reading": "ちいさな"
+      },
+      {
+        "text": "店",
+        "reading": "みせ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "開い",
+        "reading": "ひらい"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1154820-1-ex-1",
+    "side": "before",
+    "text": "山道は急だったが、頂上までは",
+    "parts": [
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "急",
+        "reading": "きゅう"
+      },
+      {
+        "text": "だったが、"
+      },
+      {
+        "text": "頂上",
+        "reading": "ちょうじょう"
+      },
+      {
+        "text": "までは"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1175860-1-ex-1",
+    "side": "before",
+    "text": "この丸い図形の直径が二倍になると、",
+    "parts": [
+      {
+        "text": "この"
+      },
+      {
+        "text": "丸い",
+        "reading": "まるい"
+      },
+      {
+        "text": "図形",
+        "reading": "ずけい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "直径",
+        "reading": "ちょっけい"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "二",
+        "reading": "に"
+      },
+      {
+        "text": "倍",
+        "reading": "ばい"
+      },
+      {
+        "text": "になると、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1185170-1-ex-1",
+    "side": "after",
+    "text": "した後、港まで歩いて向かった。",
+    "parts": [
+      {
+        "text": "した"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "港",
+        "reading": "みなと"
+      },
+      {
+        "text": "まで"
+      },
+      {
+        "text": "歩い",
+        "reading": "あるい"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "向かっ",
+        "reading": "むかっ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1186230-1-ex-1",
+    "side": "before",
+    "text": "大勢の前で人をからかうような",
+    "parts": [
+      {
+        "text": "大勢",
+        "reading": "おおぜい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "前",
+        "reading": "まえ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "人",
+        "reading": "ひと"
+      },
+      {
+        "text": "をからかうような"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1154550-1-ex-1",
+    "side": "before",
+    "text": "物語の冒頭の沈黙が、後に起こる悲劇を",
+    "parts": [
+      {
+        "text": "物語",
+        "reading": "ものがたり"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "冒頭",
+        "reading": "ぼうとう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "沈黙",
+        "reading": "ちんもく"
+      },
+      {
+        "text": "が、"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "起こる",
+        "reading": "おこる"
+      },
+      {
+        "text": "悲劇",
+        "reading": "ひげき"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1185920-1-ex-1",
+    "side": "before",
+    "text": "留学中の経験が、後に国際交渉を担当する",
+    "parts": [
+      {
+        "text": "留学",
+        "reading": "りゅうがく"
+      },
+      {
+        "text": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "経験",
+        "reading": "けいけん"
+      },
+      {
+        "text": "が、"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "国際",
+        "reading": "こくさい"
+      },
+      {
+        "text": "交渉",
+        "reading": "こうしょう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "担当",
+        "reading": "たんとう"
+      },
+      {
+        "text": "する"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1205920-1-ex-1",
+    "side": "before",
+    "text": "災害に備え、飲料水の",
+    "parts": [
+      {
+        "text": "災害",
+        "reading": "さいがい"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "備え",
+        "reading": "そなえ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "飲料",
+        "reading": "いんりょう"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1206500-1-ex-1",
+    "side": "after",
+    "text": "の後に土地の所有制度がどう変わったかを調べた。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "土地",
+        "reading": "とち"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "所有",
+        "reading": "しょゆう"
+      },
+      {
+        "text": "制度",
+        "reading": "せいど"
+      },
+      {
+        "text": "がどう"
+      },
+      {
+        "text": "変わっ",
+        "reading": "かわっ"
+      },
+      {
+        "text": "たかを"
+      },
+      {
+        "text": "調べ",
+        "reading": "しらべ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1304480-1-ex-1",
+    "side": "before",
+    "text": "全員に配った後、",
+    "parts": [
+      {
+        "text": "全員",
+        "reading": "ぜんいん"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "配っ",
+        "reading": "くばっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1310230-1-ex-1",
+    "side": "before",
+    "text": "通帳を作った銀行の",
+    "parts": [
+      {
+        "text": "通帳",
+        "reading": "つうちょう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "作っ",
+        "reading": "つくっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "銀行",
+        "reading": "ぎんこう"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1319060-1-ex-1",
+    "side": "after",
+    "text": "が終わった後、先生と写真を撮った。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "終わっ",
+        "reading": "おわっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "text": "と"
+      },
+      {
+        "text": "写真",
+        "reading": "しゃしん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "撮っ",
+        "reading": "とっ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1328890-1-ex-1",
+    "side": "before",
+    "text": "この店には、辛さの違う三",
+    "parts": [
+      {
+        "text": "この"
+      },
+      {
+        "text": "店",
+        "reading": "みせ"
+      },
+      {
+        "text": "には、"
+      },
+      {
+        "text": "辛",
+        "reading": "から"
+      },
+      {
+        "text": "さの"
+      },
+      {
+        "text": "違う",
+        "reading": "ちがう"
+      },
+      {
+        "text": "三",
+        "reading": "さん"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1330510-1-ex-1",
+    "side": "before",
+    "text": "今年は雨が少なく、米の",
+    "parts": [
+      {
+        "text": "今年",
+        "reading": "ことし"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "雨",
+        "reading": "あめ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "少なく",
+        "reading": "すくなく"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "米",
+        "reading": "こめ"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1335290-1-ex-1",
+    "side": "after",
+    "text": "とは、年に一度会っている。",
+    "parts": [
+      {
+        "text": "とは、"
+      },
+      {
+        "text": "年",
+        "reading": "ねん"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "一度",
+        "reading": "いちど"
+      },
+      {
+        "text": "会っ",
+        "reading": "あっ"
+      },
+      {
+        "text": "ている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1340460-1-ex-1",
+    "side": "before",
+    "text": "細かい説明は後にして、",
+    "parts": [
+      {
+        "text": "細かい",
+        "reading": "こまかい"
+      },
+      {
+        "text": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "にして、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1342220-1-ex-1",
+    "side": "after",
+    "text": "に、番号札をお渡しします。",
+    "parts": [
+      {
+        "text": "に、"
+      },
+      {
+        "text": "番号",
+        "reading": "ばんごう"
+      },
+      {
+        "text": "札",
+        "reading": "ふだ"
+      },
+      {
+        "text": "をお"
+      },
+      {
+        "text": "渡し",
+        "reading": "わたし"
+      },
+      {
+        "text": "します。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1358660-1-ex-1",
+    "side": "before",
+    "text": "熱が下がった後、ようやく",
+    "parts": [
+      {
+        "text": "熱",
+        "reading": "ねつ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "下がっ",
+        "reading": "さがっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、ようやく"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1358690-1-ex-1",
+    "side": "before",
+    "text": "村では災害に備え、米などの",
+    "parts": [
+      {
+        "text": "村",
+        "reading": "むら"
+      },
+      {
+        "text": "では"
+      },
+      {
+        "text": "災害",
+        "reading": "さいがい"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "備え",
+        "reading": "そなえ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "米",
+        "reading": "こめ"
+      },
+      {
+        "text": "などの"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1360770-1-ex-1",
+    "side": "before",
+    "text": "走った後は、",
+    "parts": [
+      {
+        "text": "走っ",
+        "reading": "はしっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1365410-1-ex-1",
+    "side": "before",
+    "text": "困ったときに何でも話せる",
+    "parts": [
+      {
+        "text": "困っ",
+        "reading": "こまっ"
+      },
+      {
+        "text": "たときに"
+      },
+      {
+        "text": "何",
+        "reading": "なん"
+      },
+      {
+        "text": "でも"
+      },
+      {
+        "text": "話せる",
+        "reading": "はなせる"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1013920-1-ex-1",
+    "side": "before",
+    "text": "画面の右上にある小さな",
+    "parts": [
+      {
+        "text": "画面",
+        "reading": "がめん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "右",
+        "reading": "みぎ"
+      },
+      {
+        "text": "上",
+        "reading": "うえ"
+      },
+      {
+        "text": "にある"
+      },
+      {
+        "text": "小さな",
+        "reading": "ちいさな"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1390780-1-ex-1",
+    "side": "before",
+    "text": "山道の途中に、冷たい水が湧く",
+    "parts": [
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "途中",
+        "reading": "とちゅう"
+      },
+      {
+        "text": "に、"
+      },
+      {
+        "text": "冷たい",
+        "reading": "つめたい"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "湧く",
+        "reading": "わく"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1031870-1-ex-1",
+    "side": "after",
+    "text": "に向けて、毎日歌の練習をしている。",
+    "parts": [
+      {
+        "text": "に"
+      },
+      {
+        "text": "向け",
+        "reading": "むけ"
+      },
+      {
+        "text": "て、"
+      },
+      {
+        "text": "毎日",
+        "reading": "まいにち"
+      },
+      {
+        "text": "歌",
+        "reading": "うた"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "練習",
+        "reading": "れんしゅう"
+      },
+      {
+        "text": "をしている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1406710-1-ex-1",
+    "side": "before",
+    "text": "台風による農作物の",
+    "parts": [
+      {
+        "text": "台風",
+        "reading": "たいふう"
+      },
+      {
+        "text": "による"
+      },
+      {
+        "text": "農作物",
+        "reading": "のうさくぶつ"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1410410-1-ex-1",
+    "side": "before",
+    "text": "着物を着た後、祖母に",
+    "parts": [
+      {
+        "text": "着物",
+        "reading": "きもの"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "着",
+        "reading": "き"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "祖母",
+        "reading": "そぼ"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1421450-1-ex-1",
+    "side": "before",
+    "text": "都会で働いた後、",
+    "parts": [
+      {
+        "text": "都会",
+        "reading": "とかい"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "働い",
+        "reading": "はたらい"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1047220-1-ex-1",
+    "side": "before",
+    "text": "魚を焼いた後は、",
+    "parts": [
+      {
+        "text": "魚",
+        "reading": "さかな"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "焼い",
+        "reading": "やい"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1049900-1-ex-1",
+    "side": "after",
+    "text": "に預けてから、街を歩いた。",
+    "parts": [
+      {
+        "text": "に"
+      },
+      {
+        "text": "預け",
+        "reading": "あずけ"
+      },
+      {
+        "text": "てから、"
+      },
+      {
+        "text": "街",
+        "reading": "まち"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "歩い",
+        "reading": "あるい"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1056360-1-ex-1",
+    "side": "after",
+    "text": "を出た後、椅子に座って水を飲んだ。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "出",
+        "reading": "で"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "椅子",
+        "reading": "いす"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "座っ",
+        "reading": "すわっ"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "飲ん",
+        "reading": "のん"
+      },
+      {
+        "text": "だ。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1437340-1-ex-1",
+    "side": "before",
+    "text": "この土地は、水が多くて米作りに",
+    "parts": [
+      {
+        "text": "この"
+      },
+      {
+        "text": "土地",
+        "reading": "とち"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "多く",
+        "reading": "おおく"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "米",
+        "reading": "こめ"
+      },
+      {
+        "text": "作り",
+        "reading": "づくり"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1071500-1-ex-1",
+    "side": "before",
+    "text": "運動の後は、ゆっくり",
+    "parts": [
+      {
+        "text": "運動",
+        "reading": "うんどう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、ゆっくり"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1072010-1-ex-1",
+    "side": "before",
+    "text": "このカレーは何種類もの",
+    "parts": [
+      {
+        "text": "このカレーは"
+      },
+      {
+        "text": "何",
+        "reading": "なん"
+      },
+      {
+        "text": "種類",
+        "reading": "しゅるい"
+      },
+      {
+        "text": "もの"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1072930-1-ex-1",
+    "side": "after",
+    "text": "を実家に預けてある。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "実家",
+        "reading": "じっか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "預け",
+        "reading": "あずけ"
+      },
+      {
+        "text": "てある。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1074840-1-ex-1",
+    "side": "after",
+    "text": "なので、入り口の横から取ってください。",
+    "parts": [
+      {
+        "text": "なので、"
+      },
+      {
+        "text": "入り口",
+        "reading": "いりぐち"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "横",
+        "reading": "よこ"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "取っ",
+        "reading": "とっ"
+      },
+      {
+        "text": "てください。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1464340-1-ex-1",
+    "side": "before",
+    "text": "書類に名前を記入した後、",
+    "parts": [
+      {
+        "text": "書類",
+        "reading": "しょるい"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "名前",
+        "reading": "なまえ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "記入",
+        "reading": "きにゅう"
+      },
+      {
+        "text": "した"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1502420-1-ex-1",
+    "side": "before",
+    "text": "夜中に台所で",
+    "parts": [
+      {
+        "text": "夜中",
+        "reading": "よなか"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "台所",
+        "reading": "だいどころ"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1515670-1-ex-1",
+    "side": "before",
+    "text": "調査を終えた後、担当者が結果を",
+    "parts": [
+      {
+        "text": "調査",
+        "reading": "ちょうさ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "終え",
+        "reading": "おえ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "担当",
+        "reading": "たんとう"
+      },
+      {
+        "text": "者",
+        "reading": "しゃ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "結果",
+        "reading": "けっか"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1539740-1-ex-1",
+    "side": "before",
+    "text": "大勢の前で意見を言うには、",
+    "parts": [
+      {
+        "text": "大勢",
+        "reading": "おおぜい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "前",
+        "reading": "まえ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "意見",
+        "reading": "いけん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "言う",
+        "reading": "いう"
+      },
+      {
+        "text": "には、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1550980-1-ex-1",
+    "side": "before",
+    "text": "長い航海の後、久しぶりに",
+    "parts": [
+      {
+        "text": "長い",
+        "reading": "ながい"
+      },
+      {
+        "text": "航海",
+        "reading": "こうかい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "久しぶり",
+        "reading": "ひさしぶり"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1195850-1-ex-1",
+    "side": "after",
+    "text": "を終えた後、研究所で働く予定だ。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "終え",
+        "reading": "おえ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "研究所",
+        "reading": "けんきゅうじょ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "働く",
+        "reading": "はたらく"
+      },
+      {
+        "text": "予定",
+        "reading": "よてい"
+      },
+      {
+        "text": "だ。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1246250-1-ex-1",
+    "side": "after",
+    "text": "の人は、右側の入り口から入ってください。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "人",
+        "reading": "ひと"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "右側",
+        "reading": "みぎがわ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "入り口",
+        "reading": "いりぐち"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "入っ",
+        "reading": "はいっ"
+      },
+      {
+        "text": "てください。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1252490-1-ex-1",
+    "side": "after",
+    "text": "を厳しくし、入り口で荷物を確認することになった。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "厳しく",
+        "reading": "きびしく"
+      },
+      {
+        "text": "し、"
+      },
+      {
+        "text": "入り口",
+        "reading": "いりぐち"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "荷物",
+        "reading": "にもつ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "確認",
+        "reading": "かくにん"
+      },
+      {
+        "text": "することになった。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1599760-1-ex-1",
+    "side": "before",
+    "text": "雨が降り始めると、土の",
+    "parts": [
+      {
+        "text": "雨",
+        "reading": "あめ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "降り",
+        "reading": "ふり"
+      },
+      {
+        "text": "始める",
+        "reading": "はじめる"
+      },
+      {
+        "text": "と、"
+      },
+      {
+        "text": "土",
+        "reading": "つち"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1633690-1-ex-1",
+    "side": "before",
+    "text": "よく使う道具は、棚の一番下の",
+    "parts": [
+      {
+        "text": "よく"
+      },
+      {
+        "text": "使う",
+        "reading": "つかう"
+      },
+      {
+        "text": "道具",
+        "reading": "どうぐ"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "棚",
+        "reading": "たな"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "一番",
+        "reading": "いちばん"
+      },
+      {
+        "text": "下",
+        "reading": "した"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1411110-1-ex-1",
+    "side": "before",
+    "text": "金の",
+    "parts": [
+      {
+        "text": "金",
+        "reading": "かね"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1587290-1-ex-1",
+    "side": "before",
+    "text": "講演の後、先生から手書きのお手紙を",
+    "parts": [
+      {
+        "text": "講演",
+        "reading": "こうえん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "先生",
+        "reading": "せんせい"
+      },
+      {
+        "text": "から"
+      },
+      {
+        "text": "手書き",
+        "reading": "てがき"
+      },
+      {
+        "text": "のお"
+      },
+      {
+        "text": "手紙",
+        "reading": "てがみ"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1360890-1-ex-1",
+    "side": "after",
+    "text": "がある方は、受付へお願いします。",
+    "parts": [
+      {
+        "text": "がある"
+      },
+      {
+        "text": "方",
+        "reading": "かた"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "受付",
+        "reading": "うけつけ"
+      },
+      {
+        "text": "へ"
+      },
+      {
+        "text": "お願い",
+        "reading": "おねがい"
+      },
+      {
+        "text": "します。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1328250-1-ex-1",
+    "side": "before",
+    "text": "道具は使った後に",
+    "parts": [
+      {
+        "text": "道具",
+        "reading": "どうぐ"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "使っ",
+        "reading": "つかっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1103110-1-ex-1",
+    "side": "before",
+    "text": "山道でタイヤの",
+    "parts": [
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "でタイヤの"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1206760-1-ex-1",
+    "side": "after",
+    "text": "の称号を得た後、働きながら研究を続けた。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "称号",
+        "reading": "しょうごう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "得",
+        "reading": "え"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "働き",
+        "reading": "はたらき"
+      },
+      {
+        "text": "ながら"
+      },
+      {
+        "text": "研究",
+        "reading": "けんきゅう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "続け",
+        "reading": "つづけ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1208560-1-ex-1",
+    "side": "before",
+    "text": "部品の角を削ると、手で触れたときの感触が",
+    "parts": [
+      {
+        "text": "部品",
+        "reading": "ぶひん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "角",
+        "reading": "かど"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "削る",
+        "reading": "けずる"
+      },
+      {
+        "text": "と、"
+      },
+      {
+        "text": "手",
+        "reading": "て"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "触れ",
+        "reading": "ふれ"
+      },
+      {
+        "text": "たときの"
+      },
+      {
+        "text": "感触",
+        "reading": "かんしょく"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1207560-1-ex-1",
+    "side": "before",
+    "text": "固い物を無理にかんだ後、",
+    "parts": [
+      {
+        "text": "固い",
+        "reading": "かたい"
+      },
+      {
+        "text": "物",
+        "reading": "もの"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "無理",
+        "reading": "むり"
+      },
+      {
+        "text": "にかんだ"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1222010-1-ex-1",
+    "side": "before",
+    "text": "責任の重い仕事を離れた後は、少し",
+    "parts": [
+      {
+        "text": "責任",
+        "reading": "せきにん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "重い",
+        "reading": "おもい"
+      },
+      {
+        "text": "仕事",
+        "reading": "しごと"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "離れ",
+        "reading": "はなれ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "少し",
+        "reading": "すこし"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1222110-1-ex-1",
+    "side": "before",
+    "text": "初めての方も、",
+    "parts": [
+      {
+        "text": "初めて",
+        "reading": "はじめて"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "方",
+        "reading": "かた"
+      },
+      {
+        "text": "も、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1227940-1-ex-1",
+    "side": "before",
+    "text": "長時間の作業の後は、十分な",
+    "parts": [
+      {
+        "text": "長時間",
+        "reading": "ちょうじかん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "作業",
+        "reading": "さぎょう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "十分",
+        "reading": "じゅうぶん"
+      },
+      {
+        "text": "な"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1253690-1-ex-1",
+    "side": "before",
+    "text": "テレビで紹介された後、店への問い合わせが",
+    "parts": [
+      {
+        "text": "テレビで"
+      },
+      {
+        "text": "紹介",
+        "reading": "しょうかい"
+      },
+      {
+        "text": "された"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "店",
+        "reading": "みせ"
+      },
+      {
+        "text": "への"
+      },
+      {
+        "text": "問い合わせ",
+        "reading": "といあわせ"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1415960-1-ex-1",
+    "side": "before",
+    "text": "大雨の後、川の水が茶色く",
+    "parts": [
+      {
+        "text": "大雨",
+        "reading": "おおあめ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "川",
+        "reading": "かわ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "水",
+        "reading": "みず"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "茶色く",
+        "reading": "ちゃいろく"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1418140-1-ex-1",
+    "side": "before",
+    "text": "父は米の袋を肩に",
+    "parts": [
+      {
+        "text": "父",
+        "reading": "ちち"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "米",
+        "reading": "こめ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "袋",
+        "reading": "ふくろ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "肩",
+        "reading": "かた"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1226130-1-ex-1",
+    "side": "after",
+    "text": "が何なのかを全員で確認した。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "何",
+        "reading": "なん"
+      },
+      {
+        "text": "なのかを"
+      },
+      {
+        "text": "全員",
+        "reading": "ぜんいん"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "確認",
+        "reading": "かくにん"
+      },
+      {
+        "text": "した。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1227570-1-ex-1",
+    "side": "before",
+    "text": "長時間画面を見た後は、しばらく目を",
+    "parts": [
+      {
+        "text": "長時間",
+        "reading": "ちょうじかん"
+      },
+      {
+        "text": "画面",
+        "reading": "がめん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "見",
+        "reading": "み"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "は、しばらく"
+      },
+      {
+        "text": "目",
+        "reading": "め"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1227890-1-ex-1",
+    "side": "after",
+    "text": "が実現した後も、住民が安心して帰れる状況には至らなかった。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "実現",
+        "reading": "じつげん"
+      },
+      {
+        "text": "した"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "も、"
+      },
+      {
+        "text": "住民",
+        "reading": "じゅうみん"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "安心",
+        "reading": "あんしん"
+      },
+      {
+        "text": "して"
+      },
+      {
+        "text": "帰れる",
+        "reading": "かえれる"
+      },
+      {
+        "text": "状況",
+        "reading": "じょうきょう"
+      },
+      {
+        "text": "には"
+      },
+      {
+        "text": "至ら",
+        "reading": "いたら"
+      },
+      {
+        "text": "なかった。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1236270-1-ex-1",
+    "side": "after",
+    "text": "したことが、後に問題視された。",
+    "parts": [
+      {
+        "text": "したことが、"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "問題",
+        "reading": "もんだい"
+      },
+      {
+        "text": "視",
+        "reading": "し"
+      },
+      {
+        "text": "された。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1426000-1-ex-1",
+    "side": "before",
+    "text": "一週間口をきかなかったが、一緒に料理をして",
+    "parts": [
+      {
+        "text": "一週間",
+        "reading": "いっしゅうかん"
+      },
+      {
+        "text": "口",
+        "reading": "くち"
+      },
+      {
+        "text": "をきかなかったが、"
+      },
+      {
+        "text": "一緒",
+        "reading": "いっしょ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "text": "をして"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1257930-1-ex-1",
+    "side": "after",
+    "text": "は、証拠に基づいて被告人の行動を説明した。",
+    "parts": [
+      {
+        "text": "は、"
+      },
+      {
+        "text": "証拠",
+        "reading": "しょうこ"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "基づい",
+        "reading": "もとづい"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "被告",
+        "reading": "ひこく"
+      },
+      {
+        "text": "人",
+        "reading": "にん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "行動",
+        "reading": "こうどう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "text": "した。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1259500-1-ex-1",
+    "side": "before",
+    "text": "負けた後に相手を悪く言う姿は、",
+    "parts": [
+      {
+        "text": "負け",
+        "reading": "まけ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "相手",
+        "reading": "あいて"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "悪く",
+        "reading": "わるく"
+      },
+      {
+        "text": "言う",
+        "reading": "いう"
+      },
+      {
+        "text": "姿",
+        "reading": "すがた"
+      },
+      {
+        "text": "は、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1261310-1-ex-1",
+    "side": "before",
+    "text": "火災の後も、石で作られた門だけは",
+    "parts": [
+      {
+        "text": "火災",
+        "reading": "かさい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "も、"
+      },
+      {
+        "text": "石",
+        "reading": "いし"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "作ら",
+        "reading": "つくら"
+      },
+      {
+        "text": "れた"
+      },
+      {
+        "text": "門",
+        "reading": "もん"
+      },
+      {
+        "text": "だけは"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1277440-1-ex-1",
+    "side": "after",
+    "text": "な説明で済ませると、後になって誤解を解くのに時間がかかる。",
+    "parts": [
+      {
+        "text": "な"
+      },
+      {
+        "text": "説明",
+        "reading": "せつめい"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "済ませる",
+        "reading": "すませる"
+      },
+      {
+        "text": "と、"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "になって"
+      },
+      {
+        "text": "誤解",
+        "reading": "ごかい"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "解く",
+        "reading": "とく"
+      },
+      {
+        "text": "のに"
+      },
+      {
+        "text": "時間",
+        "reading": "じかん"
+      },
+      {
+        "text": "がかかる。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1279930-1-ex-1",
+    "side": "after",
+    "text": "の後、住民は家の片付けと生活の再建に追われた。",
+    "parts": [
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "住民",
+        "reading": "じゅうみん"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "家",
+        "reading": "いえ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "片付け",
+        "reading": "かたづけ"
+      },
+      {
+        "text": "と"
+      },
+      {
+        "text": "生活",
+        "reading": "せいかつ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "再建",
+        "reading": "さいけん"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "追わ",
+        "reading": "おわ"
+      },
+      {
+        "text": "れた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1404570-1-ex-1",
+    "side": "before",
+    "text": "新しい窓に替えた後、室内の騒音の",
+    "parts": [
+      {
+        "text": "新しい",
+        "reading": "あたらしい"
+      },
+      {
+        "text": "窓",
+        "reading": "まど"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "替え",
+        "reading": "かえ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "室内",
+        "reading": "しつない"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "騒音",
+        "reading": "そうおん"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1294760-1-ex-1",
+    "side": "before",
+    "text": "十分な討論の後、議長は予算案の",
+    "parts": [
+      {
+        "text": "十分",
+        "reading": "じゅうぶん"
+      },
+      {
+        "text": "な"
+      },
+      {
+        "text": "討論",
+        "reading": "とうろん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "議長",
+        "reading": "ぎちょう"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "予算",
+        "reading": "よさん"
+      },
+      {
+        "text": "案",
+        "reading": "あん"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1297800-1-ex-1",
+    "side": "before",
+    "text": "監督は、相手の守りを崩す",
+    "parts": [
+      {
+        "text": "監督",
+        "reading": "かんとく"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "相手",
+        "reading": "あいて"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "守り",
+        "reading": "まもり"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "崩す",
+        "reading": "くずす"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_140-2-ex-1",
+    "side": "before",
+    "text": "試合に負けた後、選手たちは",
+    "parts": [
+      {
+        "text": "試合",
+        "reading": "しあい"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "負け",
+        "reading": "まけ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "選手",
+        "reading": "せんしゅ"
+      },
+      {
+        "text": "たちは"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1019940-1-ex-1",
+    "side": "before",
+    "text": "図書館を利用した後、サービスについての",
+    "parts": [
+      {
+        "text": "図書館",
+        "reading": "としょかん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "利用",
+        "reading": "りよう"
+      },
+      {
+        "text": "した"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、サービスについての"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1067480-1-ex-1",
+    "side": "after",
+    "text": "を、かばんの持ち手に結びました。",
+    "parts": [
+      {
+        "text": "を、かばんの"
+      },
+      {
+        "text": "持ち",
+        "reading": "もち"
+      },
+      {
+        "text": "手",
+        "reading": "て"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "結び",
+        "reading": "むすび"
+      },
+      {
+        "text": "ました。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1422520-1-ex-1",
+    "side": "before",
+    "text": "大勢が集まる会場でも、係員の案内で",
+    "parts": [
+      {
+        "text": "大勢",
+        "reading": "おおぜい"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "集まる",
+        "reading": "あつまる"
+      },
+      {
+        "text": "会場",
+        "reading": "かいじょう"
+      },
+      {
+        "text": "でも、"
+      },
+      {
+        "text": "係員",
+        "reading": "かかりいん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "案内",
+        "reading": "あんない"
+      },
+      {
+        "text": "で"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1147800-1-ex-1",
+    "side": "before",
+    "text": "チェックアウトの後、",
+    "parts": [
+      {
+        "text": "チェックアウトの"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1395410-1-ex-1",
+    "side": "before",
+    "text": "長い山道を歩き続け、",
+    "parts": [
+      {
+        "text": "長い",
+        "reading": "ながい"
+      },
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "歩き",
+        "reading": "あるき"
+      },
+      {
+        "text": "続け",
+        "reading": "つづけ"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1550630-1-ex-1",
+    "side": "before",
+    "text": "焼き色が付いたら、魚を",
+    "parts": [
+      {
+        "text": "焼き",
+        "reading": "やき"
+      },
+      {
+        "text": "色",
+        "reading": "いろ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "付い",
+        "reading": "つい"
+      },
+      {
+        "text": "たら、"
+      },
+      {
+        "text": "魚",
+        "reading": "さかな"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1554380-1-ex-1",
+    "side": "after",
+    "text": "、釣り人を眺めた。",
+    "parts": [
+      {
+        "text": "、"
+      },
+      {
+        "text": "釣り",
+        "reading": "つり"
+      },
+      {
+        "text": "人",
+        "reading": "びと"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "眺め",
+        "reading": "ながめ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1350140-1-ex-1",
+    "side": "before",
+    "text": "脂っこい料理は",
+    "parts": [
+      {
+        "text": "脂っこい",
+        "reading": "あぶらっこい"
+      },
+      {
+        "text": "料理",
+        "reading": "りょうり"
+      },
+      {
+        "text": "は"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1528290-1-ex-1",
+    "side": "before",
+    "text": "睡眠の質は、日中の集中力と",
+    "parts": [
+      {
+        "text": "睡眠",
+        "reading": "すいみん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "質",
+        "reading": "しつ"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "日中",
+        "reading": "にっちゅう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "集中",
+        "reading": "しゅうちゅう"
+      },
+      {
+        "text": "力",
+        "reading": "りょく"
+      },
+      {
+        "text": "と"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1396590-1-ex-1",
+    "side": "before",
+    "text": "弓を持つ手を落ち着かせて、的の中心を",
+    "parts": [
+      {
+        "text": "弓",
+        "reading": "ゆみ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "持つ",
+        "reading": "もつ"
+      },
+      {
+        "text": "手",
+        "reading": "て"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "落ち着か",
+        "reading": "おちつか"
+      },
+      {
+        "text": "せて、"
+      },
+      {
+        "text": "的",
+        "reading": "まと"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "中心",
+        "reading": "ちゅうしん"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1381210-1-ex-1",
+    "side": "before",
+    "text": "決勝で負けた後、来年は優勝すると",
+    "parts": [
+      {
+        "text": "決勝",
+        "reading": "けっしょう"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "負け",
+        "reading": "まけ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "来年",
+        "reading": "らいねん"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "優勝",
+        "reading": "ゆうしょう"
+      },
+      {
+        "text": "すると"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1430240-1-ex-1",
+    "side": "after",
+    "text": "から、向かいの辺へ線を引いた。",
+    "parts": [
+      {
+        "text": "から、"
+      },
+      {
+        "text": "向かい",
+        "reading": "むかい"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "辺",
+        "reading": "へん"
+      },
+      {
+        "text": "へ"
+      },
+      {
+        "text": "線",
+        "reading": "せん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "引い",
+        "reading": "ひい"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1552390-1-ex-1",
+    "side": "before",
+    "text": "一度聞いただけで弾けるなんて、",
+    "parts": [
+      {
+        "text": "一度",
+        "reading": "いちど"
+      },
+      {
+        "text": "聞い",
+        "reading": "きい"
+      },
+      {
+        "text": "ただけで"
+      },
+      {
+        "text": "弾ける",
+        "reading": "ひける"
+      },
+      {
+        "text": "なんて、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1596240-1-ex-1",
+    "side": "before",
+    "text": "この駐車場は、施設を訪れる方",
+    "parts": [
+      {
+        "text": "この"
+      },
+      {
+        "text": "駐車",
+        "reading": "ちゅうしゃ"
+      },
+      {
+        "text": "場",
+        "reading": "じょう"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "施設",
+        "reading": "しせつ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "訪れる",
+        "reading": "おとずれる"
+      },
+      {
+        "text": "方",
+        "reading": "かた"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1317860-1-ex-1",
+    "side": "before",
+    "text": "授業の後、希望する生徒が",
+    "parts": [
+      {
+        "text": "授業",
+        "reading": "じゅぎょう"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "希望",
+        "reading": "きぼう"
+      },
+      {
+        "text": "する"
+      },
+      {
+        "text": "生徒",
+        "reading": "せいと"
+      },
+      {
+        "text": "が"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1331590-1-ex-1",
+    "side": "before",
+    "text": "育児のための長期休暇の後も",
+    "parts": [
+      {
+        "text": "育児",
+        "reading": "いくじ"
+      },
+      {
+        "text": "のための"
+      },
+      {
+        "text": "長期",
+        "reading": "ちょうき"
+      },
+      {
+        "text": "休暇",
+        "reading": "きゅうか"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "も"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1471420-1-ex-1",
+    "side": "before",
+    "text": "窓が割れた後、床の",
+    "parts": [
+      {
+        "text": "窓",
+        "reading": "まど"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "割れ",
+        "reading": "われ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "床",
+        "reading": "ゆか"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1536060-1-ex-1",
+    "side": "before",
+    "text": "講演の後、参加者と講師の",
+    "parts": [
+      {
+        "text": "講演",
+        "reading": "こうえん"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "参加",
+        "reading": "さんか"
+      },
+      {
+        "text": "者",
+        "reading": "しゃ"
+      },
+      {
+        "text": "と"
+      },
+      {
+        "text": "講師",
+        "reading": "こうし"
+      },
+      {
+        "text": "の"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1463800-1-ex-1",
+    "side": "after",
+    "text": "が早いので、山道を急いで下りた。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "早い",
+        "reading": "はやい"
+      },
+      {
+        "text": "ので、"
+      },
+      {
+        "text": "山道",
+        "reading": "やまみち"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "急い",
+        "reading": "いそい"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "下り",
+        "reading": "おり"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1303230-1-ex-1",
+    "side": "before",
+    "text": "大雨の後、",
+    "parts": [
+      {
+        "text": "大雨",
+        "reading": "おおあめ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "、"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1382220-1-ex-1",
+    "side": "before",
+    "text": "乾いた土の壁は",
+    "parts": [
+      {
+        "text": "乾い",
+        "reading": "かわい"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "土",
+        "reading": "つち"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "壁",
+        "reading": "かべ"
+      },
+      {
+        "text": "は"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1325640-1-ex-1",
+    "side": "before",
+    "text": "地域によって、米や小麦など",
+    "parts": [
+      {
+        "text": "地域",
+        "reading": "ちいき"
+      },
+      {
+        "text": "によって、"
+      },
+      {
+        "text": "米",
+        "reading": "こめ"
+      },
+      {
+        "text": "や"
+      },
+      {
+        "text": "小麦",
+        "reading": "こむぎ"
+      },
+      {
+        "text": "など"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1330400-1-ex-1",
+    "side": "after",
+    "text": "には、名前が分かる札が付いている。",
+    "parts": [
+      {
+        "text": "には、"
+      },
+      {
+        "text": "名前",
+        "reading": "なまえ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "分かる",
+        "reading": "わかる"
+      },
+      {
+        "text": "札",
+        "reading": "ふだ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "付い",
+        "reading": "つい"
+      },
+      {
+        "text": "ている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1528130-1-ex-1",
+    "side": "before",
+    "text": "仕事を辞めた後も、その職場に少し",
+    "parts": [
+      {
+        "text": "仕事",
+        "reading": "しごと"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "辞め",
+        "reading": "やめ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "後",
+        "reading": "あと"
+      },
+      {
+        "text": "も、その"
+      },
+      {
+        "text": "職場",
+        "reading": "しょくば"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "少し",
+        "reading": "すこし"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-AbsoluteVerb_214-1-ex-1",
+    "side": "before",
+    "text": "きゅうりを塩水に",
+    "parts": [
+      {
+        "text": "きゅうりを"
+      },
+      {
+        "text": "塩水",
+        "reading": "しおみず"
+      },
+      {
+        "text": "に"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_216-1-ex-1",
+    "side": "after",
+    "text": "箱へお願いします。",
+    "parts": [
+      {
+        "text": "箱",
+        "reading": "ばこ"
+      },
+      {
+        "text": "へ"
+      },
+      {
+        "text": "お願い",
+        "reading": "おねがい"
+      },
+      {
+        "text": "します。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-JLPTN3_307-1-ex-1",
+    "side": "after",
+    "text": "中なので、階段を使った。",
+    "parts": [
+      {
+        "text": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "text": "なので、"
+      },
+      {
+        "text": "階段",
+        "reading": "かいだん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "使っ",
+        "reading": "つかっ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-handmade_148-1-ex-1",
+    "side": "after",
+    "text": "越しに聞こえる。",
+    "parts": [
+      {
+        "text": "越し",
+        "reading": "ごし"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "聞こえる",
+        "reading": "きこえる"
+      },
+      {
+        "text": "。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1171900-1-ex-1",
+    "side": "after",
+    "text": "が降りそうですから、傘を持って行きます。",
+    "parts": [
+      {
+        "text": "が"
+      },
+      {
+        "text": "降り",
+        "reading": "ふり"
+      },
+      {
+        "text": "そうですから、"
+      },
+      {
+        "text": "傘",
+        "reading": "かさ"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "持っ",
+        "reading": "もっ"
+      },
+      {
+        "text": "て"
+      },
+      {
+        "text": "行き",
+        "reading": "いき"
+      },
+      {
+        "text": "ます。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1269060-1-ex-1",
+    "side": "after",
+    "text": "中に届く予定です。",
+    "parts": [
+      {
+        "text": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "届く",
+        "reading": "とどく"
+      },
+      {
+        "text": "予定",
+        "reading": "よてい"
+      },
+      {
+        "text": "です。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1521400-1-ex-1",
+    "side": "after",
+    "text": "も行っていい？」「もちろん。」",
+    "parts": [
+      {
+        "text": "も"
+      },
+      {
+        "text": "行っ",
+        "reading": "いっ"
+      },
+      {
+        "text": "ていい？」「もちろん。」"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1206650-1-ex-1",
+    "side": "before",
+    "text": "今",
+    "parts": [
+      {
+        "text": "今",
+        "reading": "こん"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1432410-1-ex-3",
+    "side": "before",
+    "text": "祖母は指で行を",
+    "parts": [
+      {
+        "text": "祖母",
+        "reading": "そぼ"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "指",
+        "reading": "ゆび"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "行",
+        "reading": "ぎょう"
+      },
+      {
+        "text": "を"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1552740-1-ex-1",
+    "side": "after",
+    "text": "中に知り合った友人が、今度は日本を訪ねてくる。",
+    "parts": [
+      {
+        "text": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "知り合っ",
+        "reading": "しりあっ"
+      },
+      {
+        "text": "た"
+      },
+      {
+        "text": "友人",
+        "reading": "ゆうじん"
+      },
+      {
+        "text": "が、"
+      },
+      {
+        "text": "今度",
+        "reading": "こんど"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "日本",
+        "reading": "にっぽん"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "訪ね",
+        "reading": "たずね"
+      },
+      {
+        "text": "てくる。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1234260-1-ex-2",
+    "side": "after",
+    "text": "疲れていたので、数日休むことにした。",
+    "parts": [
+      {
+        "text": "疲れ",
+        "reading": "つかれ"
+      },
+      {
+        "text": "ていたので、"
+      },
+      {
+        "text": "数",
+        "reading": "すう"
+      },
+      {
+        "text": "日",
+        "reading": "じつ"
+      },
+      {
+        "text": "休む",
+        "reading": "やすむ"
+      },
+      {
+        "text": "ことにした。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1214540-1-ex-1",
+    "side": "before",
+    "text": "空になった",
+    "parts": [
+      {
+        "text": "空",
+        "reading": "から"
+      },
+      {
+        "text": "になった"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1200880-1-ex-1",
+    "side": "after",
+    "text": "中は、仮設の教室で授業を続けた。",
+    "parts": [
+      {
+        "text": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "仮設",
+        "reading": "かせつ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "教室",
+        "reading": "きょうしつ"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "授業",
+        "reading": "じゅぎょう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "続け",
+        "reading": "つづけ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1310270-1-ex-1",
+    "side": "after",
+    "text": "下にあった。",
+    "parts": [
+      {
+        "text": "下",
+        "reading": "か"
+      },
+      {
+        "text": "にあった。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1310950-1-ex-1",
+    "side": "after",
+    "text": "者の数が、翌朝の新聞で報じられた。",
+    "parts": [
+      {
+        "text": "者",
+        "reading": "しゃ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "数",
+        "reading": "かず"
+      },
+      {
+        "text": "が、"
+      },
+      {
+        "text": "翌朝",
+        "reading": "よくあさ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "新聞",
+        "reading": "しんぶん"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "報じ",
+        "reading": "ほうじ"
+      },
+      {
+        "text": "られた。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1225010-1-ex-1",
+    "side": "after",
+    "text": "は台詞が少なく、沈黙も人物の関係を表す重要な要素になっている。",
+    "parts": [
+      {
+        "text": "は"
+      },
+      {
+        "text": "台詞",
+        "reading": "せりふ"
+      },
+      {
+        "text": "が"
+      },
+      {
+        "text": "少なく",
+        "reading": "すくなく"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "沈黙",
+        "reading": "ちんもく"
+      },
+      {
+        "text": "も"
+      },
+      {
+        "text": "人物",
+        "reading": "じんぶつ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "関係",
+        "reading": "かんけい"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "表す",
+        "reading": "あらわす"
+      },
+      {
+        "text": "重要",
+        "reading": "じゅうよう"
+      },
+      {
+        "text": "な"
+      },
+      {
+        "text": "要素",
+        "reading": "ようそ"
+      },
+      {
+        "text": "になっている。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1226880-1-ex-1",
+    "side": "after",
+    "text": "を読み合わせ、台詞の意図を確認した。",
+    "parts": [
+      {
+        "text": "を"
+      },
+      {
+        "text": "読み合わせ",
+        "reading": "よみあわせ"
+      },
+      {
+        "text": "、"
+      },
+      {
+        "text": "台詞",
+        "reading": "せりふ"
+      },
+      {
+        "text": "の"
+      },
+      {
+        "text": "意図",
+        "reading": "いと"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "確認",
+        "reading": "かくにん"
+      },
+      {
+        "text": "した。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1379230-1-ex-1",
+    "side": "after",
+    "text": "者がいないか調べた。",
+    "parts": [
+      {
+        "text": "者",
+        "reading": "しゃ"
+      },
+      {
+        "text": "がいないか"
+      },
+      {
+        "text": "調べ",
+        "reading": "しらべ"
+      },
+      {
+        "text": "た。"
+      }
+    ]
+  },
+  {
+    "exampleId": "sense-lex-jmdict-1296440-1-ex-1",
+    "side": "after",
+    "text": "中は、夜に書店で働いていました。",
+    "parts": [
+      {
+        "text": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "text": "は、"
+      },
+      {
+        "text": "夜",
+        "reading": "よる"
+      },
+      {
+        "text": "に"
+      },
+      {
+        "text": "書店",
+        "reading": "しょてん"
+      },
+      {
+        "text": "で"
+      },
+      {
+        "text": "働い",
+        "reading": "はたらい"
+      },
+      {
+        "text": "ていました。"
+      }
+    ]
   }
 ]

@@ -10454,7 +10454,9 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1162130-1": {
     "senseVersion": 1,
-    "words": []
+    "words": [
+      "一ヶ月"
+    ]
   },
   "sense-lex-jmdict-1163170-1": {
     "senseVersion": 1,
@@ -13366,7 +13368,9 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1231720-1": {
     "senseVersion": 1,
-    "words": []
+    "words": [
+      "リビング"
+    ]
   },
   "sense-lex-jmdict-1231810-1": {
     "senseVersion": 1,
@@ -26385,6 +26389,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1605820-1": {
     "senseVersion": 1,
     "words": [
+      "いい",
       "宜しい"
     ]
   },

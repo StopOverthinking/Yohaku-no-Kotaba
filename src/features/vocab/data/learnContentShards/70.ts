@@ -2994,7 +2994,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "入り口",
-            "reading": "いりくち"
+            "reading": "いりぐち"
           },
           {
             "text": "から"

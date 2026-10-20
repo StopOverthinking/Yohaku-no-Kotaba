@@ -1212,7 +1212,7 @@ const content: LearnSense[] = [
         "beforeFurigana": [
           {
             "text": "何",
-            "reading": "なに"
+            "reading": "なん"
           },
           {
             "text": "百回",
@@ -1688,7 +1688,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "上",
-            "reading": "じょう"
+            "reading": "うえ"
           },
           {
             "text": "にある"
@@ -2108,12 +2108,8 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "不",
-            "reading": "ふ"
-          },
-          {
-            "text": "十分",
-            "reading": "じゅうぶん"
+            "text": "不十分",
+            "reading": "ふじゅうぶん"
           },
           {
             "text": "だったとして、"

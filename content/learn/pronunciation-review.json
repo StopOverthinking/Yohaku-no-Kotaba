@@ -1,0 +1,2113 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-20-full-pronunciation-scan",
+  "authorization": "사용자 요청: 전체 발음을 스캔해서 추가 오류를 발견하고 수정",
+  "review": {
+    "reviewedBy": "current Codex session editorial review",
+    "independent": false,
+    "reviewedAt": "2026-10-20T00:07:18.753Z"
+  },
+  "scope": {
+    "words": 5635,
+    "senses": 5658,
+    "examples": 5874,
+    "surroundingFields": 11748,
+    "uniqueSurroundingTokensBefore": 4519,
+    "dictionarySupportedTokensBefore": 3249,
+    "otherInflectedCounterOrUnknownTokensReviewed": 1270,
+    "dictionaryLinkedWords": 4127,
+    "dictionaryPairMismatches": 0,
+    "answerTokenizerDisagreementsReviewed": 86,
+    "secondTokenizerWordDisagreementsReviewed": 79,
+    "secondTokenizerSurroundingDisagreementsReviewed": 423
+  },
+  "method": [
+    "모든 단어의 표기·읽기와 JMdict 연결을 검사하고, 전체 예문의 정답 읽기 및 before/after 후리가나를 스캔했다.",
+    "kuromoji 단독 정답 분석 불일치 86개와 Sudachi core 교차 대조를 문맥으로 재검토했다. 자동 분석의 다른 읽기를 정답으로 일괄 채택하지 않았다.",
+    "4,519개 고유 주변 토큰을 JMdict 표기·읽기와 대조했다. 사전 조합 3,249개와 나머지 활용형·수사·분절 토큰 1,270개를 검토했고, 다독음·접미어 및 빈칸 경계의 문맥을 별도 확인했다.",
+    "後(のち/あと), 山道(さんどう/やまみち), 台詞(だいし/せりふ) 등 허용되는 복수 읽기의 일상 표준화도 포함한다. 변경 수를 모두 오독 수로 해석하지 않는다.",
+    "주변 후리가나만 고친 예문은 원고·버전을 유지한다. 美味しくて 표기 변경만 예문 버전 1 증가이며 핵심 용법·ID·소속·순서·학습 기록은 보존한다."
+  ],
+  "sources": [
+    {
+      "name": "retained JMdict candidate snapshots",
+      "path": "content/jlpt/candidates/"
+    },
+    {
+      "name": "kuromoji bundled IPADIC",
+      "path": "node_modules/kuromoji/dict/"
+    },
+    {
+      "name": "SudachiPy + SudachiDict_core (audit only; no app dependency)",
+      "source": "https://github.com/WorksApplications/SudachiDict"
+    },
+    {
+      "name": "国際交流基金 入口",
+      "source": "https://www.hirogaru-nihongo.jpf.go.jp/en/suizokukan/kanji-en/iriguchi/"
+    },
+    {
+      "name": "小学館 居間",
+      "source": "https://kotobank.jp/word/%E5%B1%85%E9%96%93-32187"
+    },
+    {
+      "name": "小学館 台詞",
+      "source": "https://kotobank.jp/word/%E5%8F%B0%E8%A9%9E-87790"
+    }
+  ],
+  "sourceHashes": {
+    "words": "613a8206edb58d9f893ae520b7148c71b8b9a7d0f3dc6be7cf5b89baaa283a14",
+    "senses": "7eb63b48abf7d5b5650fb4a621da258b1ceed72d5438b562835be3493ed14aa8",
+    "furiganaOverrides": "a3f5619921bcb3caa684069dbbf1dc8a926a538c4a8fc1530f142649adc996f0"
+  },
+  "summary": {
+    "changedSurroundingFields": 204,
+    "changedExamples": 204,
+    "readingChangedFields": 200,
+    "tokenizationOnlyFields": 4,
+    "authoredExampleNotationChanges": 1,
+    "headwordNotationChanges": 1,
+    "missingReadings": 0
+  },
+  "changes": [
+    {
+      "exampleId": "sense-JLPTN3_493-1-ex-1",
+      "side": "before",
+      "text": "この薬は、食事の後に",
+      "beforeReading": "このくすりは、しょくじののちに",
+      "afterReading": "このくすりは、しょくじのあとに",
+      "beforePartsHash": "c14c2bfcc22926ca7da1e5bfe78c33afde97d835d7d0e90fc7fe33a68a4563b1",
+      "afterPartsHash": "103fbfb1685d1062d7fa690e3ac885b2d871749fc726368d5e4923ad22548a90",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_240-1-ex-1",
+      "side": "before",
+      "text": "引っ越した後も、隣の家とは良い",
+      "beforeReading": "ひっこしたのちも、となりのいえとはよい",
+      "afterReading": "ひっこしたあとも、となりのいえとはよい",
+      "beforePartsHash": "62e245041cb7d66fcbc9059a29c7e2f72faef47a55849a3343a6208087a08a6f",
+      "afterPartsHash": "0815bd3a9dd5ad79612948ca47af5e5b5da1a3d4b7c976c3448893a5a328bf66",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_392-1-ex-1",
+      "side": "before",
+      "text": "夜中に",
+      "beforeReading": "やちゅうに",
+      "afterReading": "よなかに",
+      "beforePartsHash": "900aeccc951c442a1e6525c1aef83d07a3590d7fbf8da138574fcd7695fed0b0",
+      "afterPartsHash": "bfccb0cf122a6514e6bab5b97894f9d68d2d57adfcf004714ca6e61b3c6be9bf",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_416-1-ex-1",
+      "side": "after",
+      "text": "だが、一人暮らしではなく両親と住んでいる。",
+      "beforeReading": "だが、ひとりくらしではなくりょうしんとすんでいる。",
+      "afterReading": "だが、ひとりぐらしではなくりょうしんとすんでいる。",
+      "beforePartsHash": "c21d5bd8a75806a97ccd47876ca659ff4758ac3f82d39fca21901c0f3e2e073b",
+      "afterPartsHash": "1dbf2affd558f44ddc72db6e87a54795a6c1c033952b21e2742cd046e6d16ae2",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_92-1-ex-1",
+      "side": "after",
+      "text": "をたたく音で、夜中に目が覚めた。",
+      "beforeReading": "をたたくおとで、やちゅうにめがさめた。",
+      "afterReading": "をたたくおとで、よなかにめがさめた。",
+      "beforePartsHash": "e9a70328ffcaa5a61de43084abb21f9cc76d43ed2623b03949d4507530e5a115",
+      "afterPartsHash": "c3d7d90aeae1254056197645f7e17f94ef67872b966535150cdc190709724f5a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_73-1-ex-1",
+      "side": "before",
+      "text": "旅行かばんに名前の札を",
+      "beforeReading": "りょこうかばんになまえのさつを",
+      "afterReading": "りょこうかばんになまえのふだを",
+      "beforePartsHash": "0dcaa868824b7a6f2d988683461849253f8765f9e717e322b5af7c85ba7ccfaa",
+      "afterPartsHash": "7a68b82bdaa6e1821e963788a01669ecb7537ce2d7e316e75e65690257240d21",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_106-1-ex-1",
+      "side": "before",
+      "text": "疲れたので、木の下に",
+      "beforeReading": "つかれたので、このしたに",
+      "afterReading": "つかれたので、きのしたに",
+      "beforePartsHash": "0a3dd7e2cac71cfd02d08886cd048f4e3e6a92ab4b38e43bc5a8e9233032faa7",
+      "afterPartsHash": "450254d9b8398d647e67425c5cb3c0b965e948afad95570876675f829d08cbef",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_214-1-ex-1",
+      "side": "before",
+      "text": "きゅうりを塩水に",
+      "beforeReading": "きゅうりをえんすいに",
+      "afterReading": "きゅうりをしおみずに",
+      "beforePartsHash": "1e74b97e01ce08991d4d768e4aacda6fa4c57467ab45ddb883d0c5fe577e5ef9",
+      "afterPartsHash": "42563a262edfd68b5587a38b4445d2025f2105c9d0e6f382e67fef5526ba134a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_363-1-ex-1",
+      "side": "after",
+      "text": "、土の硬さを調べた。",
+      "beforeReading": "、どのかたさをしらべた。",
+      "afterReading": "、つちのかたさをしらべた。",
+      "beforePartsHash": "ded82878eab8fc4dfe347b94988dcbf712cbce59ae2ae4399af12f1074c05f10",
+      "afterPartsHash": "8388dc3dd4759b8f067011f55bb3a4144bb6822548d7a6fafe111a8b92e604ae",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_375-1-ex-1",
+      "side": "before",
+      "text": "角で人と",
+      "beforeReading": "かくでひとと",
+      "afterReading": "かどでひとと",
+      "beforePartsHash": "f2117a16c27426126a5c3bc3ae12c3b6de1e9431a347ddd286d2c5f69be512ea",
+      "afterPartsHash": "4e1ae22ab4c889b7c6abc347d5d06c463e2162e876c8ce3b02c901342f12b12f",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_445-1-ex-1",
+      "side": "after",
+      "text": "、部屋中に落としてしまった。",
+      "beforeReading": "、へやちゅうにおとしてしまった。",
+      "afterReading": "、へやじゅうにおとしてしまった。",
+      "beforePartsHash": "eccdd52625be13ac0d32180012afd23a32222d86793a7e95bde038c26a87c359",
+      "afterPartsHash": "95f19092afab70c262abf678d8741aab6c03a6f1910533f3c70a189cda4e6e8e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_653-1-ex-1",
+      "side": "before",
+      "text": "説明の後で、気になった点を",
+      "beforeReading": "せつめいののちで、きになったてんを",
+      "afterReading": "せつめいのあとで、きになったてんを",
+      "beforePartsHash": "1c1f9fd63b4b23ee69bc2c9bda9d4c3da37eaa0a4040809668eaa0dcce9734c6",
+      "afterPartsHash": "8052aa2ddb7acedf68e2c3c593feb7ca445491cbb41b519ea5565203edc944e5",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_740-1-ex-1",
+      "side": "before",
+      "text": "出口が分からず、駅の中を",
+      "beforeReading": "いでぐちがわからず、えきのなかを",
+      "afterReading": "でぐちがわからず、えきのなかを",
+      "beforePartsHash": "f59403bbaecc182b2a83ee6765b0e69a30b434bd1a28d6a58653312f756c2c3b",
+      "afterPartsHash": "6c0bd8c620861fb999878f31b4f30df836ddef37841745679c1152adf765e718",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_770-1-ex-1",
+      "side": "before",
+      "text": "油の多い料理を食べた後、",
+      "beforeReading": "あぶらのおおいりょうりをたべたのち、",
+      "afterReading": "あぶらのおおいりょうりをたべたあと、",
+      "beforePartsHash": "d471468df1f50979c6e5eff14da70cba405145a87e274bbecd0d0b0d0a1c2ee2",
+      "afterPartsHash": "71c05e0652b3f24a552e1730815e8eb113039c3c9e03b58b23c6e67e3b97d705",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_82-1-ex-1",
+      "side": "before",
+      "text": "大雨の後、道路を泥水が",
+      "beforeReading": "おおあめののち、どうろをどろみずが",
+      "afterReading": "おおあめのあと、どうろをどろみずが",
+      "beforePartsHash": "bc8fcb867efaebbb694b8cf34bce737a760ac534cd1358211392be33bdca492a",
+      "afterPartsHash": "204c1aec5d52aeb83b817a999e0b1633bd1ad5772f4d66607e60572f021772a5",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_309-1-ex-1",
+      "side": "after",
+      "text": "が床に広がった。",
+      "beforeReading": "がしょうにひろがった。",
+      "afterReading": "がゆかにひろがった。",
+      "beforePartsHash": "36121fe4557c251dfa2759f5e1ecb646a782ee931cc84c164067b0ae400fb1ca",
+      "afterPartsHash": "24357f69d1ef8f3877140c69d3438407eb8895a5a3d8b0d6840aa13b27de09c4",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_141-1-ex-1",
+      "side": "after",
+      "text": "で、一人暮らしを始めた。",
+      "beforeReading": "で、ひとりくらしをはじめた。",
+      "afterReading": "で、ひとりぐらしをはじめた。",
+      "beforePartsHash": "ab683882e4647148e6bb34707d53dfde0731758d53050907115cb195f90b7751",
+      "afterPartsHash": "ec8053745008b1a1c0b9bec0eee0a4ab22b4b19bfd99604c8ef4fef827bd7d79",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_153-1-ex-1",
+      "side": "before",
+      "text": "一人暮らしを始めて、",
+      "beforeReading": "ひとりくらしをはじめて、",
+      "afterReading": "ひとりぐらしをはじめて、",
+      "beforePartsHash": "e2b4f82055c0601531d633d1fb87aedce2590a189228a0727c8bc09fca56dd01",
+      "afterPartsHash": "7362be7ab06152dbb6680a8ef16608134cd61e1b8b327feb189ee1936c0f064f",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_179-1-ex-1",
+      "side": "before",
+      "text": "田んぼでは、稲が黄金色に",
+      "beforeReading": "たんぼでは、いねがおうごんしょくに",
+      "afterReading": "たんぼでは、いねがこがねいろに",
+      "beforePartsHash": "0d910c7d9b9aa43741f0df4be613b2b7c084497e5050a4455656922157e176fe",
+      "afterPartsHash": "700232241a8f80539042af2bc74bbdd2cd5d9e1fd7ab00226c825263d4c439eb",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_344-1-ex-1",
+      "side": "before",
+      "text": "映画館の入り口で",
+      "beforeReading": "えいがかんのいりくちで",
+      "afterReading": "えいがかんのいりぐちで",
+      "beforePartsHash": "59f63b5d7b8ba138861cc14e2702956931355b48914803ffeea5b64e17fd87fe",
+      "afterPartsHash": "c495f401d5686a604390329175d622f9456097016f55d506a62487b7767a050d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_522-1-ex-1",
+      "side": "before",
+      "text": "犬が掘った穴を土で",
+      "beforeReading": "いぬがほったあなをどで",
+      "afterReading": "いぬがほったあなをつちで",
+      "beforePartsHash": "0453b7e098052c3d0e35bc0586973338b26c9bd3d8d9302e71ddd6a2ed060f1b",
+      "afterPartsHash": "a25597d6b97b37af67ffe14c56761a20dc84e73692a17f72bc9d1acc1b76ff88",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_529-1-ex-1",
+      "side": "before",
+      "text": "次の角を右に",
+      "beforeReading": "つぎのかくをみぎに",
+      "afterReading": "つぎのかどをみぎに",
+      "beforePartsHash": "392cb2eee2a47780270f8caad216fbb93307e1bbe1d4f1f1d7983823078ae4e4",
+      "afterPartsHash": "4ab427400883242f104bf3611fa3e2035add0136ee0c78bbc0d9fc17c7ec8426",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_645-1-ex-1",
+      "side": "before",
+      "text": "夕食の後、川沿いを",
+      "beforeReading": "ゆうしょくののち、かわぞいを",
+      "afterReading": "ゆうしょくのあと、かわぞいを",
+      "beforePartsHash": "4ed975bb8c214a0ac45ee2871650289314dfc5828f358d4ef7d84fd810ff64ad",
+      "afterPartsHash": "40addf823ee3f074ba11a8db66a3356e3e5d5b21991d92443152705834a26729",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_750-1-ex-1",
+      "side": "before",
+      "text": "脂っこい物を食べすぎて、胃が",
+      "beforeReading": "やにっこいものをたべすぎて、いが",
+      "afterReading": "あぶらっこいものをたべすぎて、いが",
+      "beforePartsHash": "7416197cc1262ae391bcf01936ff3c99861e08b6fe57678bcc870b77e308e969",
+      "afterPartsHash": "4b2e65cbc68ae983e2466cbdaa55b2fd2d16f6828888949048290a88d16af906",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_216-1-ex-1",
+      "side": "after",
+      "text": "箱へお願いします。",
+      "beforeReading": "はこへおねがいします。",
+      "afterReading": "ばこへおねがいします。",
+      "beforePartsHash": "1f24f9f1054f565f80baad984e03774b7ce3661901ce26e567c75dd5c122432a",
+      "afterPartsHash": "3163fd8ce53b3c80bae3e8b9383114cd64c5f228bc07dd8857249b98bd9c97f0",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_295-1-ex-1",
+      "side": "after",
+      "text": "は何ですか。",
+      "beforeReading": "はなにですか。",
+      "afterReading": "はなんですか。",
+      "beforePartsHash": "d8bbdb9c969b06493ccc2d510c06c0c5083fd94e6a5d079be5f4f1cbda0563d1",
+      "afterPartsHash": "f5826681363804d7d1f7f2f2c88f835406af12e73e55a8802b0d8aa66d17cc34",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_298-1-ex-1",
+      "side": "before",
+      "text": "三人分の",
+      "beforeReading": "さんにんぶんの",
+      "afterReading": "さんにんぶんの",
+      "beforePartsHash": "a0d09ee760ca26cbc88d1230ba8d93b085b1bdf67cadc3f56199dc2a2093d029",
+      "afterPartsHash": "d1c61f55f86d8494de4538fa2f2f667e19ef9915a37a6dcf589baa143d17d00a",
+      "category": "token-boundary-only"
+    },
+    {
+      "exampleId": "sense-JLPTN3_307-1-ex-1",
+      "side": "after",
+      "text": "中なので、階段を使った。",
+      "beforeReading": "なかなので、かいだんをつかった。",
+      "afterReading": "ちゅうなので、かいだんをつかった。",
+      "beforePartsHash": "c6a045f9ce88d012f39af09ad77f01646a08601a8123b70b69fb6bb36439a391",
+      "afterPartsHash": "977b0312c1780bffff88a77e52e640af1e63daf5999e90247480764a95e1227b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_464-1-ex-1",
+      "side": "after",
+      "text": "を一晩水につけた。",
+      "beforeReading": "をいちばんすいにつけた。",
+      "afterReading": "をいちばんみずにつけた。",
+      "beforePartsHash": "c5baf9868891c8b81202f1c2f7941b641c74d17bb94ca953a96b3f9556cd3343",
+      "afterPartsHash": "484d53adc6451e72fef02d059cdf9ef7d90d8086ded8629042b9779cd17a5f91",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_7-1-ex-1",
+      "side": "after",
+      "text": "日の写真を初めて見た。",
+      "beforeReading": "にちのしゃしんをはじめてみた。",
+      "afterReading": "ひのしゃしんをはじめてみた。",
+      "beforePartsHash": "3cc63563fcf089ed6d4091b1017a0d18071d78a7aaca0b37992df191df102390",
+      "afterPartsHash": "f75b812c2d22b51727d621bb781cf80a05cb60f51d9f82f0f4d87d47945a8a69",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_22-1-ex-1",
+      "side": "before",
+      "text": "角の",
+      "beforeReading": "かくの",
+      "afterReading": "かどの",
+      "beforePartsHash": "f596fd98e9e7d57a0967c9d6daf4ed3088dfe344b2931920f89ac9d26017767a",
+      "afterPartsHash": "64690c0f34634ee6a9f1e8c5e449e4d91e6c2a312f3054d090ae66a9e4424a66",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_106-1-ex-1",
+      "side": "after",
+      "text": "並べてね。",
+      "beforeReading": "なべてね。",
+      "afterReading": "ならべてね。",
+      "beforePartsHash": "ccb12b7ea6e46e48558be2d8ad7afd44812cb61296b1d0d475ef7732c2b1d1cc",
+      "afterPartsHash": "18d5dc7cd2939b47b335d1b3b3ea02137a752886689ad01acba7cf37acd121e8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-handmade_148-1-ex-1",
+      "side": "after",
+      "text": "越しに聞こえる。",
+      "beforeReading": "こしにきこえる。",
+      "afterReading": "ごしにきこえる。",
+      "beforePartsHash": "ad9158fc64af5ac05b0d583029a57f66a4ac568620d2a644cf4695b6e2455b28",
+      "afterPartsHash": "04d793534ee7d21d66fbc0a7b8b9c71953776a2164e13b8029ee3e36ee738e3f",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_183-1-ex-1",
+      "side": "before",
+      "text": "雨の後、庭中に草が",
+      "beforeReading": "あめののち、にわちゅうにくさが",
+      "afterReading": "あめのあと、にわじゅうにくさが",
+      "beforePartsHash": "eb086cfb4f05f33d1e53fd08b28f326679b4a3b3fe056e5f7b3e0350b6283aa9",
+      "afterPartsHash": "f8271cf3433c132e90c7ff670645d936e933b48facfe3d4d5a58809039b57dff",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_283-1-ex-1",
+      "side": "before",
+      "text": "雪解け水が勢いよく",
+      "beforeReading": "ゆきどけすいがいきおいよく",
+      "afterReading": "ゆきどけみずがいきおいよく",
+      "beforePartsHash": "27842ccdafd002327df26fb1f9dda73b114027e997d03acb2121a38a7e67c93e",
+      "afterPartsHash": "05e703a0e40fe13955fa9720ca9254a243a731c6d0000d97cf08d2609066856b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_359-1-ex-1",
+      "side": "before",
+      "text": "優勝候補が一回戦で",
+      "beforeReading": "ゆうしょうこうほがいっかいせんで",
+      "afterReading": "ゆうしょうこうほがいっかいせんで",
+      "beforePartsHash": "e3a767d85277be110a6bd35755238278f9b612fe6d92e870608421b087f371e6",
+      "afterPartsHash": "5f6e46f97c5852a82511107436e259bff7300bd0323b8e4755a600ed0b30f765",
+      "category": "token-boundary-only"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_579-1-ex-1",
+      "side": "before",
+      "text": "三本目の矢で、的の中心に",
+      "beforeReading": "さんぼんめのやで、てきのちゅうしんに",
+      "afterReading": "さんぼんめのやで、まとのちゅうしんに",
+      "beforePartsHash": "f549f2f0dcf4a41bc10b2c0d6d573f3e6e765cdc3cf0715f898591a7e18f00b6",
+      "afterPartsHash": "c9b90677b948285bd7d4ce0fb6312f9df8319bf4d4637baae19b56b4aa64706f",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_609-1-ex-1",
+      "side": "after",
+      "text": "、庭の土が乾いた。",
+      "beforeReading": "、にわのどがかわいた。",
+      "afterReading": "、にわのつちがかわいた。",
+      "beforePartsHash": "a05b538145e9825f5c2f7327e1645cf6b1b7bfa1ad84b75a2a571f640eaefb66",
+      "afterPartsHash": "57bde59ff7abf5b08b5c2f715b1aca149b0ee9c7c50f2775abfe0b7039e6f751",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-AbsoluteVerb_763-1-ex-1",
+      "side": "before",
+      "text": "大勢の前で間違えて、恥ずかしい",
+      "beforeReading": "たいせいのまえでまちがえて、はずかしい",
+      "afterReading": "おおぜいのまえでまちがえて、はずかしい",
+      "beforePartsHash": "6c1a41df4e59036b7bb95f4058433ef7382af98fb37d70a427f5061152804086",
+      "afterPartsHash": "8c50cdb321312743816de9bc91d37b0a0fb0a28aaa5370025d89bc7e517b7013",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1531710-1-ex-1",
+      "side": "after",
+      "text": "は何ですか。",
+      "beforeReading": "はなにですか。",
+      "afterReading": "はなんですか。",
+      "beforePartsHash": "d8bbdb9c969b06493ccc2d510c06c0c5083fd94e6a5d079be5f4f1cbda0563d1",
+      "afterPartsHash": "f5826681363804d7d1f7f2f2c88f835406af12e73e55a8802b0d8aa66d17cc34",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1019420-1-ex-1",
+      "side": "before",
+      "text": "授業の後、喫茶店で",
+      "beforeReading": "じゅぎょうののち、きっさてんで",
+      "afterReading": "じゅぎょうのあと、きっさてんで",
+      "beforePartsHash": "57feba154f626539e1e7b9dedaf555f1e415cafd842088d2067c668559fb6458",
+      "afterPartsHash": "885fa72a5bb48dcdf3f5dc04cee8237afb7f18c83b0231f725311b01501ff178",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1260640-1-ex-1",
+      "side": "before",
+      "text": "制度を変えた後、利用者数に",
+      "beforeReading": "せいどをかえたのち、りようしゃすうに",
+      "afterReading": "せいどをかえたあと、りようしゃすうに",
+      "beforePartsHash": "7cddefdd335f00f9e4e32173b9245da50bd63c219009956fe989713b0896bae9",
+      "afterPartsHash": "3d4305a3dcdb59f37180c9eea8cb472dde4a8ea2ae48760946ace90ae9cb3b1a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1061820-1-ex-1",
+      "side": "before",
+      "text": "走った後で",
+      "beforeReading": "はしったのちで",
+      "afterReading": "はしったあとで",
+      "beforePartsHash": "4a1940a16a9ac44d974fbde5128b51a133833c5e36e4c7c266a184dd10062b1a",
+      "afterPartsHash": "2fd0d7e39a5e601f213aca80a1b9c949b9ec901923512e01c5699a69b1f9a348",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1096420-1-ex-1",
+      "side": "before",
+      "text": "手を洗った後、",
+      "beforeReading": "てをあらったのち、",
+      "afterReading": "てをあらったあと、",
+      "beforePartsHash": "60522dc5bc06067cd551b62e2441f89aaef19b76824aee444389fe5b4457e808",
+      "afterPartsHash": "e02207e194f5ff2514d22ac18211f952ca3fb5c6ac73cd5a24246b7691710403",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1171010-1-ex-1",
+      "side": "before",
+      "text": "次の角を",
+      "beforeReading": "つぎのかくを",
+      "afterReading": "つぎのかどを",
+      "beforePartsHash": "083f01e41ab201ea4a3b2f530d32e4969fe6ab0811cb9fb0bef1ebfd1d97ab9e",
+      "afterPartsHash": "0fc6eedae8e9f26348b1d4dc9a094abb45ae6da0c59d909bcd0fb18f11cc65b1",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1171900-1-ex-1",
+      "side": "after",
+      "text": "が降りそうですから、傘を持って行きます。",
+      "beforeReading": "がおりそうですから、かさをもっていきます。",
+      "afterReading": "がふりそうですから、かさをもっていきます。",
+      "beforePartsHash": "9c6fa2562b032b3be3865434812250a694e72d13b14b081f4ce943f32b553383",
+      "afterPartsHash": "bdee60344fc5942469d58caf3802816f1bd19f7e85a346da0881c23f964ada51",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1010080-1-ex-1",
+      "side": "before",
+      "text": "「予約した方ですか。」「",
+      "beforeReading": "「よやくしたほうですか。」「",
+      "afterReading": "「よやくしたかたですか。」「",
+      "beforePartsHash": "ecfb4cd28455834c8bffa80b0b046b53950163f23969995591ed9f86d65f34c7",
+      "afterPartsHash": "9fec7b91425563d15e961c44ee5f56fa3818485c26892fbd9b7598ddc4667cb6",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1269060-1-ex-1",
+      "side": "after",
+      "text": "中に届く予定です。",
+      "beforeReading": "なかにとどくよていです。",
+      "afterReading": "ちゅうにとどくよていです。",
+      "beforePartsHash": "af3c0cb72f2a3cf8ae2f6752909a98960a5bb876bf1ccb8cfb4997fd6b9032f7",
+      "afterPartsHash": "853548ac5670cc35ed71b6ee0c468c4757a0e212993996b5ba6bc8d6e24ff6a7",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1277450-1-ex-1",
+      "side": "before",
+      "text": "私は辛い料理が",
+      "beforeReading": "わたしはつらいりょうりが",
+      "afterReading": "わたしはからいりょうりが",
+      "beforePartsHash": "eca5b4ab1f946dc306f84aee48a0909055b9012a40983c9e357d776a2c3a2e76",
+      "afterPartsHash": "4aace73864e2df0b618c24ecf8459e64b839fd4f722ed1795b881e847c3be00b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1319220-1-ex-1",
+      "side": "before",
+      "text": "木の下にどんぐりが",
+      "beforeReading": "このしたにどんぐりが",
+      "afterReading": "きのしたにどんぐりが",
+      "beforePartsHash": "3188227a3f67b6f115346fe65b5aa8ebbffaa85ce3f2940961f710db30c03e2d",
+      "afterPartsHash": "4f3cf4845f19b1f1cb3e724799501718cd9c92cbcb56aa0d6dd1c5f86426d286",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1320760-1-ex-1",
+      "side": "before",
+      "text": "授業の後で先生に",
+      "beforeReading": "じゅぎょうののちでせんせいに",
+      "afterReading": "じゅぎょうのあとでせんせいに",
+      "beforePartsHash": "8ddb3aa3cfb80d89a853063ea0c3ec2694192cf663b4f1d1cbdb2d38c07857ef",
+      "afterPartsHash": "86dd0609199d6e801ab71ba3fb458c00a8bf3712dc1b9dcee9507e8969cff7d0",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1358340-1-ex-1",
+      "side": "before",
+      "text": "辛い",
+      "beforeReading": "つらい",
+      "afterReading": "からい",
+      "beforePartsHash": "92276c83d00eb82f5221be8be93bd45c7cae54a22982be43b53426f01df1c89e",
+      "afterPartsHash": "99c5dce7c8736bdd77abc7daf2a18e75119e9da6f1a919dc4d6808b594c6bf88",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1371260-1-ex-1",
+      "side": "before",
+      "text": "走った後で冷たい",
+      "beforeReading": "はしったのちでつめたい",
+      "afterReading": "はしったあとでつめたい",
+      "beforePartsHash": "718de4b193de90320f137f47de3a3d7d33117bde9763568ee63cecb7e7f886f3",
+      "afterPartsHash": "36ed70483abb7744e4fd266fead6f28600f1d6e9a45fa35ffbfd4f7b903a13c3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1387210-1-ex-2",
+      "side": "before",
+      "text": "受付を済ませた方から",
+      "beforeReading": "うけつけをすませたほうから",
+      "afterReading": "うけつけをすませたかたから",
+      "beforePartsHash": "47cdf4fd74107faff3373c1010839f8862935c29b9d1f07125ba56d151b30132",
+      "afterPartsHash": "2cb3767e28dd1cc1af4b25e13a2fa2cd854811ad8eff9380d04973a158812b70",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1388740-1-ex-1",
+      "side": "after",
+      "text": "人ほど住んでいます。",
+      "beforeReading": "ひとほどすんでいます。",
+      "afterReading": "にんほどすんでいます。",
+      "beforePartsHash": "9b23376d5c637c4243910b6e9fc94114360d54d9bd7e8d787f8adf9b385fa7a5",
+      "afterPartsHash": "b867e5043cad702bb9f4787a8e41593b893a5a6649969159b05f91cfe39eec1d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1522980-1-ex-1",
+      "side": "after",
+      "text": "の一番上に辞書があります。",
+      "beforeReading": "のいちばんじょうにじしょがあります。",
+      "afterReading": "のいちばんうえにじしょがあります。",
+      "beforePartsHash": "1b952a8b821c76d182e83b2ac7a1b18971a69a5e4975247e56d99202dc2d8f52",
+      "afterPartsHash": "06aec5ff9165c98dcd24ba86a3038363a75047df961ba569f479855efab01aae",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1584460-1-ex-1",
+      "side": "after",
+      "text": "歩も歩いたので、靴を脱ぐとほっとしました。",
+      "beforeReading": "ふもあるいたので、くつをぬぐとほっとしました。",
+      "afterReading": "ぽもあるいたので、くつをぬぐとほっとしました。",
+      "beforePartsHash": "3284a5d109158c65658b27f4365f0b77ab60156fe7ee0d9e491c7c851b2a2f5a",
+      "afterPartsHash": "04eb5176f2c91ee832dfe8217a1ff667aff676ad66c0571117e0a78f787ccc48",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1598680-1-ex-1",
+      "side": "before",
+      "text": "仕事の後で",
+      "beforeReading": "しごとののちで",
+      "afterReading": "しごとのあとで",
+      "beforePartsHash": "51d77d1ccf5c3c8586ba8d97691548b720efa3bce29bebd472f159390683710a",
+      "afterPartsHash": "9b9e94a172e5ca05764408b1f310de14810267ac588c4826713b7e0128f2c96c",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1155090-1-ex-1",
+      "side": "after",
+      "text": "は毎日店を開けています。",
+      "beforeReading": "はまいにちてんをあけています。",
+      "afterReading": "はまいにちみせをあけています。",
+      "beforePartsHash": "bae00e5a961ee51e9a946b21ead8e088b841255403ddc0c322243a18d86b3a2c",
+      "afterPartsHash": "b485b5d4474d5797f899d6ad6b4a787606d06d5ce22378d8f4eafd5c4e68b7f8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1245470-1-ex-3",
+      "side": "before",
+      "text": "二人がけんかした後、部屋の",
+      "beforeReading": "ふたりがけんかしたのち、へやの",
+      "afterReading": "ふたりがけんかしたあと、へやの",
+      "beforePartsHash": "6cb09a1925c2087ed041b73a7eee6b955bd3aa084c939256db3ccd002c498429",
+      "afterPartsHash": "4fc724e746893afb964bf860fbda9127c6885cfba5410ee4654934896834d3ee",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1521400-1-ex-1",
+      "side": "after",
+      "text": "も行っていい？」「もちろん。」",
+      "beforeReading": "もおこなっていい？」「もちろん。」",
+      "afterReading": "もいっていい？」「もちろん。」",
+      "beforePartsHash": "528392acfa9fcba0f13837fc659e1af8ec83adf5f75e1a0f030c84925e0846e5",
+      "afterPartsHash": "eb3bb863fcd65160aea050f485c268308907445538f2dc9f8ea49b912037ad83",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1401910-1-ex-1",
+      "side": "before",
+      "text": "雨の後で庭の",
+      "beforeReading": "あめののちでにわの",
+      "afterReading": "あめのあとでにわの",
+      "beforePartsHash": "defa91c13df2b26a22b92c5947747cc006d7c8545d38fa73752b296e6e46487a",
+      "afterPartsHash": "3cb2944b37aa201c1ef3719e5336c9b906db157978e9bb0dc22f5057d4bd58b4",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1576900-1-ex-1",
+      "side": "before",
+      "text": "夜中に外で大きな",
+      "beforeReading": "やちゅうにそとでおおきな",
+      "afterReading": "よなかにそとでおおきな",
+      "beforePartsHash": "349fe14399db084aef34017093211645c8a349f5eecf4dab2dddafcf85213952",
+      "afterPartsHash": "628ce685fb7a2750cf536bd12677f64db62035a7eac7accc1e38046fe46b4521",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1482340-1-ex-1",
+      "side": "before",
+      "text": "夕飯の後、家族で旅行の",
+      "beforeReading": "ゆうはんののち、かぞくでりょこうの",
+      "afterReading": "ゆうはんのあと、かぞくでりょこうの",
+      "beforePartsHash": "34ef8fe68db30c82e494f212a09704dd53c95e915714c3c2627a4269ac82b578",
+      "afterPartsHash": "24310c0bfaea1185c86a11c6df63e81d78d8b2180f15e505fae07b83607cf5fb",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1483150-1-ex-1",
+      "side": "before",
+      "text": "赤い帽子の方を覚えていますか。",
+      "beforeReading": "あかいぼうしのほうをおぼえていますか。",
+      "afterReading": "あかいぼうしのかたをおぼえていますか。",
+      "beforePartsHash": "0afb4f33c2b7c28c46658ca6d6f55719e96ee9b12e3746085a7f32787f9d14c3",
+      "afterPartsHash": "2b2a62f72f5dd234e8a6035652a8816774af82ee65f713cc7f18fafc796099f2",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1076170-1-ex-1",
+      "side": "before",
+      "text": "運動の後、",
+      "beforeReading": "うんどうののち、",
+      "afterReading": "うんどうのあと、",
+      "beforePartsHash": "e5688583102110907e864509720909b8e5b3462f432fe6e1ecbe4b3535806772",
+      "afterPartsHash": "cc8ae4bc6f0cebd14b732bf948522f8c3e7c2ef3636cfca870a37dfe70e92253",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1244470-1-ex-2",
+      "side": "before",
+      "text": "弟は辛い料理が",
+      "beforeReading": "おとうとはつらいりょうりが",
+      "afterReading": "おとうとはからいりょうりが",
+      "beforePartsHash": "3a0a768316569903311f74b5d53c626b5167c71556e553a6482062aebc818788",
+      "afterPartsHash": "041c90c759b92c3e17508f9524b6b6a1d0fcf4bfff7f10d4faeeed63ffca1101",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1206650-1-ex-1",
+      "side": "before",
+      "text": "今",
+      "beforeReading": "いま",
+      "afterReading": "こん",
+      "beforePartsHash": "9afcd5dea82e9b3f16d0a72affa9026c48cd0a6d2b81609117fe99a80f91a461",
+      "afterPartsHash": "60a94e667470dd3fccbbcfda7841aeab1eb7d17ce63f82251b19690f3d2ef4d8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1378200-1-ex-1",
+      "side": "before",
+      "text": "調理台は、使う前にも後にも",
+      "beforeReading": "ちょうりだいは、つかうまえにもごにも",
+      "afterReading": "ちょうりだいは、つかうまえにもあとにも",
+      "beforePartsHash": "e7a34b17f247216654762d01ff102ad3ec4d383f2227b698a95793159a49a16a",
+      "afterPartsHash": "1a41268c8f9cd5402854efd917716ae4ed185f1a4b6b7b46f1c1c22eebdabb1e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1545110-1-ex-1",
+      "side": "after",
+      "text": "子供だけを残して、長時間家を空けないでください。",
+      "beforeReading": "こどもだけをのこして、ちょうじかんかをあけないでください。",
+      "afterReading": "こどもだけをのこして、ちょうじかんいえをあけないでください。",
+      "beforePartsHash": "c4e9f6c0d9daf4e8f35c045e076f2c87d444736e82d823161a96d3499d3d3cd8",
+      "afterPartsHash": "95a62bfdd3b8621b0e4dcdcfb270f78132d27bc9c2d50f636eae0fe58290c776",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1378650-1-ex-1",
+      "side": "before",
+      "text": "古い壁には、地震の後で細いひびが",
+      "beforeReading": "ふるいかべには、じしんののちでほそいひびが",
+      "afterReading": "ふるいかべには、じしんのあとでほそいひびが",
+      "beforePartsHash": "9daa683d7d741b020ab6e20ae6b838c499fd65d168b2fa379bcb1a0b2ea26ece",
+      "afterPartsHash": "3162378c7951696428d48b211e484510f568892623e136012324f579e7c3afa1",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1403120-1-ex-1",
+      "side": "before",
+      "text": "日が暮れるにつれて、山道の寒さが",
+      "beforeReading": "ひがくれるにつれて、さんどうのさむさが",
+      "afterReading": "ひがくれるにつれて、やまみちのさむさが",
+      "beforePartsHash": "71fced20d328e54fd5c1562ed5c555c1a51ff765fcfcc96aa0eb9fa219f6163e",
+      "afterPartsHash": "910475ca874ecd3a912e658d4a99c9dae92a8ecfff6e2f4be6e0b8900d80c1c0",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1432410-1-ex-3",
+      "side": "before",
+      "text": "祖母は指で行を",
+      "beforeReading": "そぼはゆびでくだりを",
+      "afterReading": "そぼはゆびでぎょうを",
+      "beforePartsHash": "9cca160c2f2d18b09cfba171622332bd9ccaf5f870836edfda3faf2fdb0160a2",
+      "afterPartsHash": "349e455faa830c0a7a6ef6b1596ad8ddb038675f04af5953444de92b90353404",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1432980-1-ex-1",
+      "side": "after",
+      "text": "、次の角から引き返した。",
+      "beforeReading": "、つぎのかくからひきかえした。",
+      "afterReading": "、つぎのかどからひきかえした。",
+      "beforePartsHash": "1880dbea85266547d73ebe7633b02a2a0a5993eea7282c62606b25c2d224870d",
+      "afterPartsHash": "19f24ceaf47e311fa45d0a899c38bb1e1e6546d5d7d4f850bf8ab4211d5deecb",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1372630-1-ex-1",
+      "side": "before",
+      "text": "何百回も練習した曲を、発表会で",
+      "beforeReading": "なにひゃっかいもれんしゅうしたきょくを、はっぴょうかいで",
+      "afterReading": "なんひゃっかいもれんしゅうしたきょくを、はっぴょうかいで",
+      "beforePartsHash": "7457943af37cd7304a2bdaf66bcecb347b85d52506f950781ef433c181008595",
+      "afterPartsHash": "3515c1e4030efee062cb705b2763526f0205f670234fae08a86fbf0e8a2ed7f3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1591100-1-ex-2",
+      "side": "before",
+      "text": "修理の後は、自転車のブレーキがよく",
+      "beforeReading": "しゅうりののちは、じてんしゃのブレーキがよく",
+      "afterReading": "しゅうりのあとは、じてんしゃのブレーキがよく",
+      "beforePartsHash": "3187476ec6341342e23351fae7091d8af3e4f0a64788839820117edd4001bca2",
+      "afterPartsHash": "39c319673035d81bebca87a3a90b49b53429f291eebb80a9f2fce74dd58d1e68",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1242300-1-ex-1",
+      "side": "after",
+      "text": "、夕食の後に川沿いを散歩するのが習慣になった。",
+      "beforeReading": "、ゆうしょくののちにかわぞいをさんぽするのがしゅうかんになった。",
+      "afterReading": "、ゆうしょくのあとにかわぞいをさんぽするのがしゅうかんになった。",
+      "beforePartsHash": "0815a2ca5ba4b28b2a04e91bd20388d1948c19383859a1ba95eda687587b6e91",
+      "afterPartsHash": "397a5a7d23aec13780086cf3ce986746d1ee54b951cc08d5653998a0f268bacf",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1612920-1-ex-1",
+      "side": "before",
+      "text": "山道で鹿を",
+      "beforeReading": "さんどうでしかを",
+      "afterReading": "やまみちでしかを",
+      "beforePartsHash": "290616fe91200adc274ff5cc3302737a71e60515e343e95ddb6a7aa411444bbf",
+      "afterPartsHash": "3979929123f5c21f238e49accebf9b0691e070df252cf405ef8897fc252a518a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1530510-1-ex-1",
+      "side": "after",
+      "text": "と分かり、管理人を呼んだ。",
+      "beforeReading": "とわかり、かんりじんをよんだ。",
+      "afterReading": "とわかり、かんりにんをよんだ。",
+      "beforePartsHash": "8aedea2536873a344c8a4dcc1d7897ff94163c90c9ad54a4032f6f41dbf6df33",
+      "afterPartsHash": "0e101b8f13bf2d33b3b968180dfc4dcddd2aa1e6033890254a73f481ff50b76f",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1279170-1-ex-1",
+      "side": "after",
+      "text": "をしのいだ後、こちらも勢いよく前へ出た。",
+      "beforeReading": "をしのいだのち、こちらもいきおいよくまえへでた。",
+      "afterReading": "をしのいだあと、こちらもいきおいよくまえへでた。",
+      "beforePartsHash": "2ad8790559e8c0efec11b3f34d16e3ac58c6596741ccd93678823e1c581f0858",
+      "afterPartsHash": "e9117eb8acf47cfd29ca9b19296a826c03e81443e13d55d36c369a0143f967b2",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1552740-1-ex-1",
+      "side": "after",
+      "text": "中に知り合った友人が、今度は日本を訪ねてくる。",
+      "beforeReading": "なかにしりあったゆうじんが、こんどはにっぽんをたずねてくる。",
+      "afterReading": "ちゅうにしりあったゆうじんが、こんどはにっぽんをたずねてくる。",
+      "beforePartsHash": "309492eecaf1854a32f1a13d41f1b67170c3fe0608ff024a2b7bfb3946b69eef",
+      "afterPartsHash": "6167881ae88b0391651c814260556dfc4564e8f701a78be7cbf4251dae4886c4",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1234260-1-ex-2",
+      "side": "after",
+      "text": "疲れていたので、数日休むことにした。",
+      "beforeReading": "つかれていたので、すうにちやすむことにした。",
+      "afterReading": "つかれていたので、すうじつやすむことにした。",
+      "beforePartsHash": "5065ab17e97c99d4ea53452d1f398560facdf63d88177de35a5470ad0c01c814",
+      "afterPartsHash": "7ba1cd110526a3fb3b05e69895106114b029c16b02c47016fb5af11e22068a7c",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1240530-1-ex-1",
+      "side": "after",
+      "text": "が床に散らばった。",
+      "beforeReading": "がしょうにちらばった。",
+      "afterReading": "がゆかにちらばった。",
+      "beforePartsHash": "2feeb527bb494b6774782526e5c425c62f504933963e6a32c45480a3ac9f2231",
+      "afterPartsHash": "c7aac093cd4f12acc7532b29e4d90c32d8ccdb49e49770e4a6bab68633adf8c9",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1247660-1-ex-1",
+      "side": "after",
+      "text": "の後に、壊れた車両が残されていた。",
+      "beforeReading": "ののちに、こわれたしゃりょうがのこされていた。",
+      "afterReading": "のあとに、こわれたしゃりょうがのこされていた。",
+      "beforePartsHash": "fe702b8c6424bd296b3210374ebea0bf1e0bf2393a4ef915edaaeb07a2ed600d",
+      "afterPartsHash": "e81c3ed54f29c83b7788b058057439ef772efc0db5051df711171e906ab13559",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1078040-1-ex-1",
+      "side": "before",
+      "text": "大勢の前で意見を伝える",
+      "beforeReading": "たいせいのまえでいけんをつたえる",
+      "afterReading": "おおぜいのまえでいけんをつたえる",
+      "beforePartsHash": "d44b1d8099047bd0260f6e2c26e7cd9f2db51e8f1d5440d0a88bea06645475e9",
+      "afterPartsHash": "7fa4098b8f61d552e6d157237dac86d8b330824f2dab9baf4015b45a8d1f456b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1131990-1-ex-2",
+      "side": "before",
+      "text": "夜中に赤ちゃんが泣いたので、",
+      "beforeReading": "やちゅうにあかちゃんがないたので、",
+      "afterReading": "よなかにあかちゃんがないたので、",
+      "beforePartsHash": "8f14d9035affdd624b7446479347cc72ccdec1e0847302290357688521b8e105",
+      "afterPartsHash": "2d91291db056908bb9d3b2b4dc877b01e0022b7318f41daf8409bac1f290d8f7",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1133830-1-ex-1",
+      "side": "after",
+      "text": "した紙が、見当たらない。",
+      "beforeReading": "したしが、みあたらない。",
+      "afterReading": "したかみが、みあたらない。",
+      "beforePartsHash": "d719a6b4cc63ee4d780f8754588a1ddb4c98b4ef6bd414a11b5a207c4a6230bf",
+      "afterPartsHash": "9213b2fd15b36febaf667caf4acd19a9fe4bce4884034f16341bce76a5658656",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1184370-1-ex-1",
+      "side": "before",
+      "text": "山道の",
+      "beforeReading": "さんどうの",
+      "afterReading": "やまみちの",
+      "beforePartsHash": "262660425b4fb9fc03ce6db2fe6a93c279159bc4ab29cb47c0243403ec8f8d69",
+      "afterPartsHash": "03bfb667be379c3b0237d9932efb8c52029f43ddf8804386464a16c9362bf866",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1190080-1-ex-1",
+      "side": "before",
+      "text": "焼き色を見ながら、火の",
+      "beforeReading": "やきしょくをみながら、ひの",
+      "afterReading": "やきいろをみながら、ひの",
+      "beforePartsHash": "f4f60c1a070138737b2fb7da3f3e450c8f61e23da79612ecfb5830146570202a",
+      "afterPartsHash": "02c94eae7b8e1acedc894bb4a5913d09efed4c1aae46522b23d5281219af6dd1",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1197710-1-ex-1",
+      "side": "before",
+      "text": "種をまいて一週間後、土から小さな",
+      "beforeReading": "たねをまいていっしゅうかんご、どからちいさな",
+      "afterReading": "たねをまいていっしゅうかんご、つちからちいさな",
+      "beforePartsHash": "9cad550ffcfbf11661f078f4fa50c8f9b792a3e2cbff601ca3f6e5ea240b8890",
+      "afterPartsHash": "3ead6fde41c14d1f518b5ce1733bb5dba434b33053be9c5fb9051ad3e6b553f9",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1201860-1-ex-1",
+      "side": "before",
+      "text": "火が消えた後も、",
+      "beforeReading": "ひがきえたのちも、",
+      "afterReading": "ひがきえたあとも、",
+      "beforePartsHash": "f2add33439e0df6fd2567ccf2e1d03eeb2d9b822aabe061d97ae7d5563c62314",
+      "afterPartsHash": "76a858a6e4471daf19b67a0caf529ab7346059c352d440c31f038b0f9059555c",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1214540-1-ex-1",
+      "side": "before",
+      "text": "空になった",
+      "beforeReading": "そらになった",
+      "afterReading": "からになった",
+      "beforePartsHash": "c7f5b170330c40f6c08cb15465e165bc2134d1530d37fd1ff34c6f1d9f281bf9",
+      "afterPartsHash": "6057b00d5f8d11273952b042341a71714ec79fb589ec51238de7039f735966bd",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1224190-1-ex-1",
+      "side": "after",
+      "text": "は、角があるのに優しい顔をしていた。",
+      "beforeReading": "は、かくがあるのにやさしいかおをしていた。",
+      "afterReading": "は、かどがあるのにやさしいかおをしていた。",
+      "beforePartsHash": "8eaaaba0e662bdc36fb4dad56307f1b93b8310451f4438f98bd83c41fce0f079",
+      "afterPartsHash": "9767da7d17ef58327c6fe163fdb237ba3f9c5f1a8752a7e24e418aebbf848680",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1260490-1-ex-1",
+      "side": "after",
+      "text": "を預けた。",
+      "beforeReading": "をあづけた。",
+      "afterReading": "をあずけた。",
+      "beforePartsHash": "d661da9f4b754653d75412d65111706923161beab1679e376d447870e7b3b853",
+      "afterPartsHash": "2c2a6748e31b51ee8715fa0e630cd76b52f42340d644768569a6131885207d72",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1002030-1-ex-1",
+      "side": "before",
+      "text": "店員は品物を渡した後、丁寧に",
+      "beforeReading": "てんいんはしなものをわたしたのち、ていねいに",
+      "afterReading": "てんいんはしなものをわたしたあと、ていねいに",
+      "beforePartsHash": "51241cde5f25d9537d91a1b5a66127e5135afad8d059f997ced412df34bd73de",
+      "afterPartsHash": "b3ab6c16f9977781cb336f0e35e6a1ccea2feda539815e9c6a2794219ff43059",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1057960-1-ex-1",
+      "side": "after",
+      "text": "として働いた後、小さな店を開いた。",
+      "beforeReading": "としてはたらいたのち、ちいさなみせをひらいた。",
+      "afterReading": "としてはたらいたあと、ちいさなみせをひらいた。",
+      "beforePartsHash": "e09707d8a76e9b7ae14c9e3028250dd8c16c3dc4b2df0691f758ed6d84df043b",
+      "afterPartsHash": "1d93042ac1c578c76b12ce22dc6e3d86bedaf0fc533a486d8d895207866c01d5",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1154820-1-ex-1",
+      "side": "before",
+      "text": "山道は急だったが、頂上までは",
+      "beforeReading": "さんどうはきゅうだったが、ちょうじょうまでは",
+      "afterReading": "やまみちはきゅうだったが、ちょうじょうまでは",
+      "beforePartsHash": "4e529bd7e0bced25d8e17786644c072d1081f4f5a339d4a64df7e094422c4524",
+      "afterPartsHash": "6aaba7e497d2e402f5633766f2879b89343921d1eec07e7cfc1ad90204e22078",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1175860-1-ex-1",
+      "side": "before",
+      "text": "この丸い図形の直径が二倍になると、",
+      "beforeReading": "このまるいづけいのちょっけいがにばいになると、",
+      "afterReading": "このまるいずけいのちょっけいがにばいになると、",
+      "beforePartsHash": "2c02e322cce48d098bcd9071ebbbc230f878b72c87d75ff60c904cb8829feae4",
+      "afterPartsHash": "39501e6cd74dd9a0aa7b39a0bac78b42670da2094b1b68839b8e7270cd4f01c5",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1185170-1-ex-1",
+      "side": "after",
+      "text": "した後、港まで歩いて向かった。",
+      "beforeReading": "したのち、みなとまであるいてむかった。",
+      "afterReading": "したあと、みなとまであるいてむかった。",
+      "beforePartsHash": "2e19b31f9521e7ca29bfe113c84d0a8e7072026914a34b2c7b4f27a830a28c70",
+      "afterPartsHash": "21329c57c5b24737835cceabc59ebc8a3b25f4f239623e7d04cc8ab7c1f0d45d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1186230-1-ex-1",
+      "side": "before",
+      "text": "大勢の前で人をからかうような",
+      "beforeReading": "たいせいのまえでひとをからかうような",
+      "afterReading": "おおぜいのまえでひとをからかうような",
+      "beforePartsHash": "2d5f4cae9ff8cca9e4d1ae24cc4f993fc7ee9c009e0dd4469efcc3ad8d0dd39a",
+      "afterPartsHash": "fd72c99e56d737bb92caf3ff46bcc244bad532d88792534ba8d6880f7ef3c256",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1154550-1-ex-1",
+      "side": "before",
+      "text": "物語の冒頭の沈黙が、後に起こる悲劇を",
+      "beforeReading": "ものがたりのぼうとうのちんもくが、ごにおこるひげきを",
+      "afterReading": "ものがたりのぼうとうのちんもくが、あとにおこるひげきを",
+      "beforePartsHash": "2460ebc55cbb9f8c722d44e35149a2191226616510c8a8f7152cbd9e638c87c7",
+      "afterPartsHash": "0d9d3e9b0d3a6e467ae7ce7f02c2acdb7d1956fbd9d6f715f4313b6b1c64489a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1185920-1-ex-1",
+      "side": "before",
+      "text": "留学中の経験が、後に国際交渉を担当する",
+      "beforeReading": "りゅうがくちゅうのけいけんが、ごにこくさいこうしょうをたんとうする",
+      "afterReading": "りゅうがくちゅうのけいけんが、あとにこくさいこうしょうをたんとうする",
+      "beforePartsHash": "f6bdc5d4324c180f57fde1a3e1de37c174846afcf299169aef8f0147e6b28dbf",
+      "afterPartsHash": "85e133053f881e88eed662cebfea49a6e924b02d5ce90b85da03cc7cc5ef4d8e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1200880-1-ex-1",
+      "side": "after",
+      "text": "中は、仮設の教室で授業を続けた。",
+      "beforeReading": "なかは、かせつのきょうしつでじゅぎょうをつづけた。",
+      "afterReading": "ちゅうは、かせつのきょうしつでじゅぎょうをつづけた。",
+      "beforePartsHash": "804c191597ea7380fcfe5108b36d30b605686e99d949cf32e9823c96f4780e71",
+      "afterPartsHash": "187358c4dec17e55179e91441c3c76f6136e7a02d6975a01c03e1ff8c6dd6b49",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1205920-1-ex-1",
+      "side": "before",
+      "text": "災害に備え、飲料水の",
+      "beforeReading": "さいがいにそなえ、いんりょうすいの",
+      "afterReading": "さいがいにそなえ、いんりょうみずの",
+      "beforePartsHash": "8f5c311d3c276d03bfa88b79fb6ff5b272fef07c1fbe5a3ca69fe1db1286a3cb",
+      "afterPartsHash": "8fb6a6e50f562fb5a32e81230aca98cc8d9b02fc0a91e42122a364678e0d684a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1206500-1-ex-1",
+      "side": "after",
+      "text": "の後に土地の所有制度がどう変わったかを調べた。",
+      "beforeReading": "ののちにとちのしょゆうせいどがどうかわったかをしらべた。",
+      "afterReading": "のあとにとちのしょゆうせいどがどうかわったかをしらべた。",
+      "beforePartsHash": "b609a521cae06e71c2283c6d00f6a1f63a4886a8923b87267a10e68123d63876",
+      "afterPartsHash": "9cb84d5532daaf3147fe423af3e7fbae85853f2b550921b12c5a947694b77ebd",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1304480-1-ex-1",
+      "side": "before",
+      "text": "全員に配った後、",
+      "beforeReading": "ぜんいんにくばったのち、",
+      "afterReading": "ぜんいんにくばったあと、",
+      "beforePartsHash": "9804bc21de8a34fbebddce44874bcb08975db29948e27439aff2781e475143c9",
+      "afterPartsHash": "272115284e7d8ed1aa44b51e8b242b5a71392a7f3b502c1c53ee16411ecee769",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1310230-1-ex-1",
+      "side": "before",
+      "text": "通帳を作った銀行の",
+      "beforeReading": "かよいちょうをつくったぎんこうの",
+      "afterReading": "つうちょうをつくったぎんこうの",
+      "beforePartsHash": "141992d5e7bb91a4fe2e6d206c3397fada5bd041495277ceb7624a3f19bdfb5d",
+      "afterPartsHash": "e8b60be07b63f2411ee828545e4eed11db0311955ff9af0f755700fbf5bd3b21",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1310270-1-ex-1",
+      "side": "after",
+      "text": "下にあった。",
+      "beforeReading": "したにあった。",
+      "afterReading": "かにあった。",
+      "beforePartsHash": "958b4e572b47e2f2877b160ab03a10045bd8d72b99dd7afe9cb10a0aac1b47f3",
+      "afterPartsHash": "822e66935b662e384908ebbfefedb6d75231bc7948a9c4d228981dd5e3d4cf37",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1310950-1-ex-1",
+      "side": "after",
+      "text": "者の数が、翌朝の新聞で報じられた。",
+      "beforeReading": "もののかずが、よくあさのしんぶんでほうじられた。",
+      "afterReading": "しゃのかずが、よくあさのしんぶんでほうじられた。",
+      "beforePartsHash": "3ba0cc22b445b53eaaf990520cb6f631ce190ebc2572fd5900644be9328753c8",
+      "afterPartsHash": "b41a92d8a232859ef8931f4c7b407d450c9fb9e808831d909e1f4920b04a65ed",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1319060-1-ex-1",
+      "side": "after",
+      "text": "が終わった後、先生と写真を撮った。",
+      "beforeReading": "がおわったのち、せんせいとしゃしんをとった。",
+      "afterReading": "がおわったあと、せんせいとしゃしんをとった。",
+      "beforePartsHash": "ddb281a974c30794112186444140402ddc9e981a7c5f571066d28ee79d4ab83c",
+      "afterPartsHash": "16ba25034feeb1ff7dfe63dab69de4c52ef9de19fb08ed75120fc8c0d5a6a1dc",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1328890-1-ex-1",
+      "side": "before",
+      "text": "この店には、辛さの違う三",
+      "beforeReading": "このみせには、つらさのちがうさん",
+      "afterReading": "このみせには、からさのちがうさん",
+      "beforePartsHash": "b455fdfb27ac88b3bfc4ef3d478ab1ffeb1add6193be831a444b6fc164b9bd22",
+      "afterPartsHash": "3c3aab552200ed69a14eacf2b9d5de8b883b5de290abe19e71f53ff5845a1bcf",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1330510-1-ex-1",
+      "side": "before",
+      "text": "今年は雨が少なく、米の",
+      "beforeReading": "ことしはあめがすくなく、べいの",
+      "afterReading": "ことしはあめがすくなく、こめの",
+      "beforePartsHash": "489198a37ec19b0d6a28276a792cdef12d53eb926d0bdad5b474f29204692f17",
+      "afterPartsHash": "06ac712d2dfb1ed6940c170e3e5b1668564dcca0e1719cbea0bb840197892112",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1335290-1-ex-1",
+      "side": "after",
+      "text": "とは、年に一度会っている。",
+      "beforeReading": "とは、としにいちどあっている。",
+      "afterReading": "とは、ねんにいちどあっている。",
+      "beforePartsHash": "eb8abd93b72c93fcc60bf38f06928c17e753e45fe05ca827dad6d8fe0c0bf1c1",
+      "afterPartsHash": "50005571a2acc7f8a0698e163de5ca2959709f1b3fc4a78457d4e824d7a2a6a6",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1340460-1-ex-1",
+      "side": "before",
+      "text": "細かい説明は後にして、",
+      "beforeReading": "こまかいせつめいはごにして、",
+      "afterReading": "こまかいせつめいはあとにして、",
+      "beforePartsHash": "dcbbba005d173ef6d9c524a27b1ad3e4dad9095afe43121419a4e8634e8c6da9",
+      "afterPartsHash": "5fd8bade163cc4e80d41fd689dd8c35964d11b88c418a7f8db4ccfe485ac4b6a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1342220-1-ex-1",
+      "side": "after",
+      "text": "に、番号札をお渡しします。",
+      "beforeReading": "に、ばんごうさつをおわたしします。",
+      "afterReading": "に、ばんごうふだをおわたしします。",
+      "beforePartsHash": "7c037f9e2274659cbfd0211897f209a25c39a31420e55503d1ae214406e3d8ca",
+      "afterPartsHash": "e845d2e79938c304bfccf10533e182f72f03d782d47b754f1ed42abd99c7abfa",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1352980-1-ex-1",
+      "side": "after",
+      "text": "し、一人暮らしを始めた。",
+      "beforeReading": "し、ひとりくらしをはじめた。",
+      "afterReading": "し、ひとりぐらしをはじめた。",
+      "beforePartsHash": "bfe7cbac1f477aa7fc0d0cb52d5b309f9c02f21a7e2578e6521700dae06f639e",
+      "afterPartsHash": "0fac02dfedc8cbd69e419447ee165754a34f7a691d8a452c03f6c823e329dcee",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1358660-1-ex-1",
+      "side": "before",
+      "text": "熱が下がった後、ようやく",
+      "beforeReading": "ねつがさがったのち、ようやく",
+      "afterReading": "ねつがさがったあと、ようやく",
+      "beforePartsHash": "aa74a4fbecd8ec5f51d83a3e14aae5942fd9f87ec18bb32cea0b1571fe00f249",
+      "afterPartsHash": "e1997a7df3fa9c8d3f7ccff50fc8f6659d960b4a0280dfccca6c01b1076325c8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1358690-1-ex-1",
+      "side": "before",
+      "text": "村では災害に備え、米などの",
+      "beforeReading": "むらではさいがいにそなえ、べいなどの",
+      "afterReading": "むらではさいがいにそなえ、こめなどの",
+      "beforePartsHash": "19f549e3242a42d834cb4a46c575c0917e7c103e7d8f14282d78dca3bb6341d1",
+      "afterPartsHash": "1df0dbb10e239464ceb4f7e4d520857a26ce33b3110d3b2fb179d6c28534f9a8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1360770-1-ex-1",
+      "side": "before",
+      "text": "走った後は、",
+      "beforeReading": "はしったのちは、",
+      "afterReading": "はしったあとは、",
+      "beforePartsHash": "c9707795f20206c04a414348639d178904c6b090ce29ce573094503c4567dd53",
+      "afterPartsHash": "43236fc3da84b1ca7ebacbcdc0979bb7858eca8976792051c4a98a9148e4ba09",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1365410-1-ex-1",
+      "side": "before",
+      "text": "困ったときに何でも話せる",
+      "beforeReading": "こまったときになにでもはなせる",
+      "afterReading": "こまったときになんでもはなせる",
+      "beforePartsHash": "07e2f5d140aa4815f65a02505970c56710f0bb715e48ec0744a8bb8a54e235ce",
+      "afterPartsHash": "419e3a40f1170e1769eceb8bd8b4763790b292f477435ac49416fad3bc30f6c3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1013920-1-ex-1",
+      "side": "before",
+      "text": "画面の右上にある小さな",
+      "beforeReading": "がめんのみぎじょうにあるちいさな",
+      "afterReading": "がめんのみぎうえにあるちいさな",
+      "beforePartsHash": "0196f032d1ae583946aee653d0837e57089f90da0a5ffd39300f6533cbf9bac5",
+      "afterPartsHash": "d468fe3b3256122fe259abcca4a39aa65fda8a3c550779ce91bb9edc0e0159f2",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1390780-1-ex-1",
+      "side": "before",
+      "text": "山道の途中に、冷たい水が湧く",
+      "beforeReading": "さんどうのとちゅうに、つめたいみずがわく",
+      "afterReading": "やまみちのとちゅうに、つめたいみずがわく",
+      "beforePartsHash": "b38e1a82be7c06acf6ebcd8cd44aa5e36f25c05a0fda7945d92eff4d4b86e8f4",
+      "afterPartsHash": "db5246607f1454493eb1b936074ecdff9dc95e6cb1457edb52f82fff70deb2b6",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1031870-1-ex-1",
+      "side": "after",
+      "text": "に向けて、毎日歌の練習をしている。",
+      "beforeReading": "にむけて、まいにちかのれんしゅうをしている。",
+      "afterReading": "にむけて、まいにちうたのれんしゅうをしている。",
+      "beforePartsHash": "9317fcd0e7b2d9e28d4d48511dd591b2ad87a3d7eb616efc3cd18352fa2db657",
+      "afterPartsHash": "a65dc9443705ef73634a4640558b54bf669eec67e1dfb7497e6cf6b9fae5c3a3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1406710-1-ex-1",
+      "side": "before",
+      "text": "台風による農作物の",
+      "beforeReading": "たいふうによるのうさくもつの",
+      "afterReading": "たいふうによるのうさくぶつの",
+      "beforePartsHash": "816c18d85cfbc578d282614fceb40e0c61c0c349fb09a8dbb838e722da62fce4",
+      "afterPartsHash": "098689be6eb2e5d6f28c94d06fd9bdb2c9e911842117a312c672829589d5c3a5",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1410120-1-ex-1",
+      "side": "before",
+      "text": "今回の調査では、一人暮らしの学生を",
+      "beforeReading": "こんかいのちょうさでは、ひとりくらしのがくせいを",
+      "afterReading": "こんかいのちょうさでは、ひとりぐらしのがくせいを",
+      "beforePartsHash": "9c74800474b53bf0a26f46400c3f06876467f561d53ff068fa8a8856a1de1e55",
+      "afterPartsHash": "31051e27522f642d56001852b3c4fa39d663d156208ca4a088500064cdb580a0",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1410410-1-ex-1",
+      "side": "before",
+      "text": "着物を着た後、祖母に",
+      "beforeReading": "きものをきたのち、そぼに",
+      "afterReading": "きものをきたあと、そぼに",
+      "beforePartsHash": "b23cb94dca648f0eb1e0df46fb80d154c3ba6e54049575444af39b054dce84f6",
+      "afterPartsHash": "9c6a5211a4877f2e6bf4929f8245a8ad43c012725ac0ccef2f2c2074fb039fab",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1421450-1-ex-1",
+      "side": "before",
+      "text": "都会で働いた後、",
+      "beforeReading": "とかいではたらいたのち、",
+      "afterReading": "とかいではたらいたあと、",
+      "beforePartsHash": "c17453a263ee13d26a9c0e8b588f197d7d67e50f06970607bfe7602cd58b2cda",
+      "afterPartsHash": "aeb817e1bfbae591659e2e3822055d268639d521cb8c89f08e1043948033bd4d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1047220-1-ex-1",
+      "side": "before",
+      "text": "魚を焼いた後は、",
+      "beforeReading": "さかなをやいたのちは、",
+      "afterReading": "さかなをやいたあとは、",
+      "beforePartsHash": "be770e6b4998dcd6b11e6ab991ba06da2f1a3468b7000675a2eb770b923fb657",
+      "afterPartsHash": "c0bca430b7f07bb6332c2135a51f92ed0db8974990742d7da70a053b48f3ecec",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1049900-1-ex-1",
+      "side": "after",
+      "text": "に預けてから、街を歩いた。",
+      "beforeReading": "にあづけてから、まちをあるいた。",
+      "afterReading": "にあずけてから、まちをあるいた。",
+      "beforePartsHash": "bca07a5dce410f3bf99e00fedaee1d796fea50169303c75108cd73049a05b2b5",
+      "afterPartsHash": "f5efc99e7f2f5db1702e9e9c28871b704ecc9bd636bc4d8c46a0b56ae557236e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1056360-1-ex-1",
+      "side": "after",
+      "text": "を出た後、椅子に座って水を飲んだ。",
+      "beforeReading": "をでたのち、いすにすわってみずをのんだ。",
+      "afterReading": "をでたあと、いすにすわってみずをのんだ。",
+      "beforePartsHash": "ff3414cd827d7a7ceb106411ff505811a98f42382ab4446bb551e04a1f88cf19",
+      "afterPartsHash": "2edf4e3d22ee03dc855d0dc99be014673404394edafba3478b0cb38964476f47",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1437340-1-ex-1",
+      "side": "before",
+      "text": "この土地は、水が多くて米作りに",
+      "beforeReading": "このとちは、みずがおおくてべいづくりに",
+      "afterReading": "このとちは、みずがおおくてこめづくりに",
+      "beforePartsHash": "eea2fab90e94bd72cd5c5c19e382dc1dea573f809aa09e6c49486e23d3b45196",
+      "afterPartsHash": "674a57f4e3eeede83d9654818e7f73a8df148b011419b2c3696d4004695dab98",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1071500-1-ex-1",
+      "side": "before",
+      "text": "運動の後は、ゆっくり",
+      "beforeReading": "うんどうののちは、ゆっくり",
+      "afterReading": "うんどうのあとは、ゆっくり",
+      "beforePartsHash": "427aa0b9e844b5a7ca3b7e5c19058f0fb6ebf18198cf19c13e61f2c301d93ffe",
+      "afterPartsHash": "0b60459bd200eb085ba6afbbad5abd7f56f38833739fa864cd7190fb2174c868",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1072010-1-ex-1",
+      "side": "before",
+      "text": "このカレーは何種類もの",
+      "beforeReading": "このカレーはなにしゅるいもの",
+      "afterReading": "このカレーはなんしゅるいもの",
+      "beforePartsHash": "ecd9e55e4e2cf3467666e0e26b9d915476c94aea2b2f3f377a6ede69d1fb7eda",
+      "afterPartsHash": "491bad5aa044736c779b73477face598d703787db17ac6265187a73f71f192a0",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1072930-1-ex-1",
+      "side": "after",
+      "text": "を実家に預けてある。",
+      "beforeReading": "をじっかにあづけてある。",
+      "afterReading": "をじっかにあずけてある。",
+      "beforePartsHash": "b9fc8991cbc939ef4e0516f32a559688e4418a9a0c82513b56a6819832149386",
+      "afterPartsHash": "a25ef25264fcd77052086ba1b091f6a3ab21914ef49ab0f322efef67c11876c9",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1074840-1-ex-1",
+      "side": "after",
+      "text": "なので、入り口の横から取ってください。",
+      "beforeReading": "なので、いりくちのよこからとってください。",
+      "afterReading": "なので、いりぐちのよこからとってください。",
+      "beforePartsHash": "a12f0c59465236153636737889406e51f5eb21414615bc8b47082c3c02cc38cd",
+      "afterPartsHash": "159a6ac9c0dee1190c23bebd655ce210c5bfbbd29636ea367a7257af4b1b2203",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1464340-1-ex-1",
+      "side": "before",
+      "text": "書類に名前を記入した後、",
+      "beforeReading": "しょるいになまえをきにゅうしたのち、",
+      "afterReading": "しょるいになまえをきにゅうしたあと、",
+      "beforePartsHash": "6965d3d159af38ffd8134ef9f545a3ae8cee8cbdbd4f6b4aa127440c4c821961",
+      "afterPartsHash": "055b9b6e06f613c6313ca5625c197b6ec060f95b6d819aa589ef306b72071b48",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1483420-1-ex-1",
+      "side": "before",
+      "text": "説明が不十分だったとして、会社の対応に",
+      "beforeReading": "せつめいがふじゅうぶんだったとして、かいしゃのたいおうに",
+      "afterReading": "せつめいがふじゅうぶんだったとして、かいしゃのたいおうに",
+      "beforePartsHash": "dfda5436d5acd66e1fb099f953c4e998504afdecfb3a4cb3dd4ab8e79bdb19c1",
+      "afterPartsHash": "9ece1f53ec718fea5e88d29c9d35c4cf2b8e9f78125021b2ddff20d66d68dbce",
+      "category": "token-boundary-only"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1502420-1-ex-1",
+      "side": "before",
+      "text": "夜中に台所で",
+      "beforeReading": "やちゅうにだいどころで",
+      "afterReading": "よなかにだいどころで",
+      "beforePartsHash": "5f149818b7135690d88be2ea939ddbf424d43516045db4a70da8804efbde79b9",
+      "afterPartsHash": "a4f99546e9fb7a1aae21d583c146d29be9d59b494cfbf0e628516457e6b2b259",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1515670-1-ex-1",
+      "side": "before",
+      "text": "調査を終えた後、担当者が結果を",
+      "beforeReading": "ちょうさをおえたのち、たんとうしゃがけっかを",
+      "afterReading": "ちょうさをおえたあと、たんとうしゃがけっかを",
+      "beforePartsHash": "022db6ec418266d2e6ddb51f5698773c48f5c70a9df1249e78ff83219ccbb130",
+      "afterPartsHash": "d88038c6b985e00ff34ee7ab7ef37ee87ecf2ccfba0aa0e4ab8f48fb7388d48d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1539740-1-ex-1",
+      "side": "before",
+      "text": "大勢の前で意見を言うには、",
+      "beforeReading": "たいせいのまえでいけんをいうには、",
+      "afterReading": "おおぜいのまえでいけんをいうには、",
+      "beforePartsHash": "39f611ecc81daff781c7a3167df2666222ac9456a749e05469091791411a9717",
+      "afterPartsHash": "d1800e5a4183e44d44b2b149dab2e74c42794dffa325d7af806855cfddd17eb8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1550980-1-ex-1",
+      "side": "before",
+      "text": "長い航海の後、久しぶりに",
+      "beforeReading": "ながいこうかいののち、ひさしぶりに",
+      "afterReading": "ながいこうかいのあと、ひさしぶりに",
+      "beforePartsHash": "d4192df870264668e183f8113f7b7409436dce7fad39007abad563b070da5acc",
+      "afterPartsHash": "e182d01aba7fd0c13cae8bc2f38734e3c1906f36f71198d05eadb7d4a011955a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1195850-1-ex-1",
+      "side": "after",
+      "text": "を終えた後、研究所で働く予定だ。",
+      "beforeReading": "をおえたのち、けんきゅうじょではたらくよていだ。",
+      "afterReading": "をおえたあと、けんきゅうじょではたらくよていだ。",
+      "beforePartsHash": "f1263fecdc74705f5a8bc956babed1d6cc877d18a99bff547320425e397a6ba4",
+      "afterPartsHash": "d7de4ffdb78768c5b74f772afb4fbaba90728304dcfc2605280a0c1c3873fc21",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1246250-1-ex-1",
+      "side": "after",
+      "text": "の人は、右側の入り口から入ってください。",
+      "beforeReading": "のひとは、みぎがわのいりくちからはいってください。",
+      "afterReading": "のひとは、みぎがわのいりぐちからはいってください。",
+      "beforePartsHash": "4e5cbb433f852b05e0e60a2e496dcc8650366e647740475648c08b38872e064c",
+      "afterPartsHash": "3fb5a6e6f0f6dbec7cd8d0a9af5b7792bc912def50c9cab4c25e99a6db564789",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1252490-1-ex-1",
+      "side": "after",
+      "text": "を厳しくし、入り口で荷物を確認することになった。",
+      "beforeReading": "をきびしくし、いりくちでにもつをかくにんすることになった。",
+      "afterReading": "をきびしくし、いりぐちでにもつをかくにんすることになった。",
+      "beforePartsHash": "8ccbccf3e5d5f487f7a56a7fb41027a0cd61cfb826d1c8eba97f86f1422995af",
+      "afterPartsHash": "32955514026c610ec90da28d2645ea39eb82694ae72394111431905dc472e092",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1599760-1-ex-1",
+      "side": "before",
+      "text": "雨が降り始めると、土の",
+      "beforeReading": "あめがふりはじめると、どの",
+      "afterReading": "あめがふりはじめると、つちの",
+      "beforePartsHash": "f4d196ae6b2aa8488b52e2ffae7c948b09b60c7664d4fa008628622089903726",
+      "afterPartsHash": "5055bbb41498932dd0abddbbc93441a4a3a6141e4fac82989511e57e94175401",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1633690-1-ex-1",
+      "side": "before",
+      "text": "よく使う道具は、棚の一番下の",
+      "beforeReading": "よくつかうどうぐは、たなのいちばんかの",
+      "afterReading": "よくつかうどうぐは、たなのいちばんしたの",
+      "beforePartsHash": "c3d40ad67640ef71c0740572dcc5bc0177bed439127e42540b26bde8c876d616",
+      "afterPartsHash": "4d3c5244b6e15d1c7aa32d29c025238a8697028a358357bcb61e5f72d3e80a67",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1411110-1-ex-1",
+      "side": "before",
+      "text": "金の",
+      "beforeReading": "きんの",
+      "afterReading": "かねの",
+      "beforePartsHash": "c48001e5b4325a514d3fecd958d2d6c7e697ab78c345042bdd07b43c40566454",
+      "afterPartsHash": "c836656819bf8a48f150563c3f2d7d084316a4704b9c2c554aa9041cfc200c7e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1587290-1-ex-1",
+      "side": "before",
+      "text": "講演の後、先生から手書きのお手紙を",
+      "beforeReading": "こうえんののち、せんせいからてがきのおてがみを",
+      "afterReading": "こうえんのあと、せんせいからてがきのおてがみを",
+      "beforePartsHash": "a26e849b4b2623e6d5e436c67f5f90c429f37a141083b1ec08c1d960148ed07a",
+      "afterPartsHash": "13233c52af47ef0facb0bb8afdfa4bc5e4fe994326b913485a5736e1549e210d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1360890-1-ex-1",
+      "side": "after",
+      "text": "がある方は、受付へお願いします。",
+      "beforeReading": "があるほうは、うけつけへおねがいします。",
+      "afterReading": "があるかたは、うけつけへおねがいします。",
+      "beforePartsHash": "a656a101e13dc97548a2d8e12171115d344f639db4f33d801e65044e8913966a",
+      "afterPartsHash": "fe86b5a86c3addf740f04df1bbbc2ff8500f0e4215d2335fcdd823a908251f7a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1328250-1-ex-1",
+      "side": "before",
+      "text": "道具は使った後に",
+      "beforeReading": "どうぐはつかったのちに",
+      "afterReading": "どうぐはつかったあとに",
+      "beforePartsHash": "596f9d971a5de976d99fa3c15a046c3e6cd2c823146a02430ed78fd68c18a6a2",
+      "afterPartsHash": "a58124f5d4b229e68e247b1435b8decabcfd97b537ced829bf144e0c988ebab0",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1103110-1-ex-1",
+      "side": "before",
+      "text": "山道でタイヤの",
+      "beforeReading": "さんどうでタイヤの",
+      "afterReading": "やまみちでタイヤの",
+      "beforePartsHash": "4a41f2ce00317eef54f43dbb4d0dd6220b57e463fca497c42271cd75378faaa8",
+      "afterPartsHash": "226c6d638a8769b3f15c3951b1d753eb124014979d173c62420f4d77c8e15050",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1206760-1-ex-1",
+      "side": "after",
+      "text": "の称号を得た後、働きながら研究を続けた。",
+      "beforeReading": "のしょうごうをえたのち、はたらきながらけんきゅうをつづけた。",
+      "afterReading": "のしょうごうをえたあと、はたらきながらけんきゅうをつづけた。",
+      "beforePartsHash": "b5900e4fa7fd9daca88c061eea5c84f854fd85355179b2976227f88819c32d94",
+      "afterPartsHash": "c9243c62d873d8de60f0e33cb87f90356f1753b4dbb63de68e563b6b6334ec69",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1208560-1-ex-1",
+      "side": "before",
+      "text": "部品の角を削ると、手で触れたときの感触が",
+      "beforeReading": "ぶひんのかくをけずると、てでふれたときのかんしょくが",
+      "afterReading": "ぶひんのかどをけずると、てでふれたときのかんしょくが",
+      "beforePartsHash": "0bfbee200dab73c0cf3cdef9a733353a4695e88db8b41219d7361cb70f6206dc",
+      "afterPartsHash": "ad6d8c3f2d4d6821500c9fb53292b7911189230a8e0ea09aaa85dc4c338f38fa",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1207560-1-ex-1",
+      "side": "before",
+      "text": "固い物を無理にかんだ後、",
+      "beforeReading": "かたいものをむりにかんだのち、",
+      "afterReading": "かたいものをむりにかんだあと、",
+      "beforePartsHash": "c2486bc373a7bf626002b3a16a425290a96f923909467f872a2f801d3c0f7316",
+      "afterPartsHash": "83c1d187d313d0f66dcfda9a3ba79e16ca68b700e78a03971db0bb898afd4964",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1222010-1-ex-1",
+      "side": "before",
+      "text": "責任の重い仕事を離れた後は、少し",
+      "beforeReading": "せきにんのおもいしごとをはなれたのちは、すこし",
+      "afterReading": "せきにんのおもいしごとをはなれたあとは、すこし",
+      "beforePartsHash": "cbc842e5daaa114e8910adb4b57476713b0efa6a5cc4453fc89b70cccee6fe42",
+      "afterPartsHash": "ab8c36aad72675391b00cfe545bcf80fb7b1e2ed76fd48dd8290f212ad61e64e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1222110-1-ex-1",
+      "side": "before",
+      "text": "初めての方も、",
+      "beforeReading": "はじめてのほうも、",
+      "afterReading": "はじめてのかたも、",
+      "beforePartsHash": "79c178a6113603094e6986814eaac3f28b4ae67107c703b05570fab0a0c3d233",
+      "afterPartsHash": "1a4bb2b59862dc717189475e75b11e1a1c83afb97fbcf60eb95659b17fe68a7d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1227940-1-ex-1",
+      "side": "before",
+      "text": "長時間の作業の後は、十分な",
+      "beforeReading": "ちょうじかんのさぎょうののちは、じゅうぶんな",
+      "afterReading": "ちょうじかんのさぎょうのあとは、じゅうぶんな",
+      "beforePartsHash": "fc65adb16d4f620e6395d25bb18fa287d8f5b7c7f48deccc1055e42a653f272f",
+      "afterPartsHash": "c1ae457d4239d0c7b3a9ef9fa0334cf1457fc1a53d3e657976394456a9bc900b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1253690-1-ex-1",
+      "side": "before",
+      "text": "テレビで紹介された後、店への問い合わせが",
+      "beforeReading": "テレビでしょうかいされたのち、みせへのといあわせが",
+      "afterReading": "テレビでしょうかいされたあと、みせへのといあわせが",
+      "beforePartsHash": "98e8cf6318e492ba24459a3a7c956876a87b86514727dc59f48b0466f9453810",
+      "afterPartsHash": "29627e54dabbdc5c8a104818794ff850c471b55c0658b847d86d44c11afba7bb",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1415960-1-ex-1",
+      "side": "before",
+      "text": "大雨の後、川の水が茶色く",
+      "beforeReading": "おおあめののち、かわのみずがちゃいろく",
+      "afterReading": "おおあめのあと、かわのみずがちゃいろく",
+      "beforePartsHash": "ed3b386ec84c14c034082457ef2adf72945e9264f862043ecf964d10fd8072c2",
+      "afterPartsHash": "0b2e27754eea65b62d94899d7f5ff10ed5e0ef20cb8ac2b779db9e1397bcb8f7",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1418140-1-ex-1",
+      "side": "before",
+      "text": "父は米の袋を肩に",
+      "beforeReading": "ちちはべいのふくろをかたに",
+      "afterReading": "ちちはこめのふくろをかたに",
+      "beforePartsHash": "b733bbfa21f053e5e5a4716aac8aadb7ddff4b76cf74bf327b9ec8ce193cef86",
+      "afterPartsHash": "47c08b469f5a66c80b5df5b19fdaeca78f2a7c0bfa2dc13c1f4421e3d7e8a2aa",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1225010-1-ex-1",
+      "side": "after",
+      "text": "は台詞が少なく、沈黙も人物の関係を表す重要な要素になっている。",
+      "beforeReading": "はだいしがすくなく、ちんもくもじんぶつのかんけいをあらわすじゅうようなようそになっている。",
+      "afterReading": "はせりふがすくなく、ちんもくもじんぶつのかんけいをあらわすじゅうようなようそになっている。",
+      "beforePartsHash": "5785bbc2e9f4810c4a646503f886a684e9c4ca71e959c1147763c282ddf34ebf",
+      "afterPartsHash": "c8e8771f80b5055d86db13210b93691c1daa7774e850911136e434cec2954efc",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1225230-1-ex-1",
+      "side": "after",
+      "text": "を次の世代へ伝えるには、作業を見るだけでは不十分だ。",
+      "beforeReading": "をつぎのせだいへつたえるには、さぎょうをみるだけではふじゅうぶんだ。",
+      "afterReading": "をつぎのせだいへつたえるには、さぎょうをみるだけではふじゅうぶんだ。",
+      "beforePartsHash": "ce625114f77628591da011c8f3f61269233a6cd9bd0a74eadeb45d30324b7a69",
+      "afterPartsHash": "edaea497b7d7bf186453636dfc6a9313b6557c7b2c4f8d7eca0ded7702050f3d",
+      "category": "token-boundary-only"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1226130-1-ex-1",
+      "side": "after",
+      "text": "が何なのかを全員で確認した。",
+      "beforeReading": "がなになのかをぜんいんでかくにんした。",
+      "afterReading": "がなんなのかをぜんいんでかくにんした。",
+      "beforePartsHash": "e8c5662fd72bbd4b40e95a4e0adc320ec7247a5555c836187465b9471d0c4061",
+      "afterPartsHash": "97e03bec724fac1a3141e827a7af06b37f8bfe37f2c89f8abed54a298f0cb0c6",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1226880-1-ex-1",
+      "side": "after",
+      "text": "を読み合わせ、台詞の意図を確認した。",
+      "beforeReading": "をよみあわせ、だいしのいとをかくにんした。",
+      "afterReading": "をよみあわせ、せりふのいとをかくにんした。",
+      "beforePartsHash": "84d714b81458f11eb77de8eb4c735b7a5c80b08cf976bb63dc77b52f8316e252",
+      "afterPartsHash": "2090149e0118f74095fc2727a6c601c558a57e54ae3bb1851853371001061686",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1227570-1-ex-1",
+      "side": "before",
+      "text": "長時間画面を見た後は、しばらく目を",
+      "beforeReading": "ちょうじかんがめんをみたのちは、しばらくめを",
+      "afterReading": "ちょうじかんがめんをみたあとは、しばらくめを",
+      "beforePartsHash": "45cc95cada29c03cc3ff8da530705d6ac3a04e7d617615d549d11949559aba2e",
+      "afterPartsHash": "946474f5fbc83015bd8963606dd10aae103cce7ee6ae8beb821d06d1cf57e299",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1227890-1-ex-1",
+      "side": "after",
+      "text": "が実現した後も、住民が安心して帰れる状況には至らなかった。",
+      "beforeReading": "がじつげんしたのちも、じゅうみんがあんしんしてかえれるじょうきょうにはいたらなかった。",
+      "afterReading": "がじつげんしたあとも、じゅうみんがあんしんしてかえれるじょうきょうにはいたらなかった。",
+      "beforePartsHash": "bd344ea86251c7b935bbcc3a1d7f10ca4efe7a22ff499f55cc9a88cbdcf52895",
+      "afterPartsHash": "501a74112622fe93984d3ea42b95b7a4f000c5e66d95426d39fcaf806c52fe9b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1236270-1-ex-1",
+      "side": "after",
+      "text": "したことが、後に問題視された。",
+      "beforeReading": "したことが、ごにもんだいしされた。",
+      "afterReading": "したことが、あとにもんだいしされた。",
+      "beforePartsHash": "4dc5bb4b3c3d897b8e08ec6569166bf0a01bd3c2c31d049eec2f94962cb2c8bc",
+      "afterPartsHash": "0edd2b18e7f5683119ecad7d794a0a762afcb87bbf9af0b68bc241c870bbdc66",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1257930-1-ex-1",
+      "side": "after",
+      "text": "は、証拠に基づいて被告人の行動を説明した。",
+      "beforeReading": "は、しょうこにもとづいてひこくじんのこうどうをせつめいした。",
+      "afterReading": "は、しょうこにもとづいてひこくにんのこうどうをせつめいした。",
+      "beforePartsHash": "c88dc04f2c78bf89fc24673d6a0e4c9661a1d45da762681ae1e2610cd989b2a7",
+      "afterPartsHash": "80c073f14843f10af71f813628e306d60969e662d7fd4265936ab8d2189224ec",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1259500-1-ex-1",
+      "side": "before",
+      "text": "負けた後に相手を悪く言う姿は、",
+      "beforeReading": "まけたのちにあいてをわるくいうすがたは、",
+      "afterReading": "まけたあとにあいてをわるくいうすがたは、",
+      "beforePartsHash": "002be30c1149716ce7f4c1e850e1745f954076560083db7dd4a085a26de42849",
+      "afterPartsHash": "fcd214955bf8cbe1df39008bbee40974582dd7e0d05877d31f1253ec307d6ae1",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1261310-1-ex-1",
+      "side": "before",
+      "text": "火災の後も、石で作られた門だけは",
+      "beforeReading": "かさいののちも、いしでつくられたもんだけは",
+      "afterReading": "かさいのあとも、いしでつくられたもんだけは",
+      "beforePartsHash": "0621ef3aef56c73f5ce4e4f369b6233807b1cc02e51e8b590ca8a8b279c493cc",
+      "afterPartsHash": "ccf0eda07e23e153daf6adc8468c27ee26bc78fcbd66da55370a76c347baf474",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1277440-1-ex-1",
+      "side": "after",
+      "text": "な説明で済ませると、後になって誤解を解くのに時間がかかる。",
+      "beforeReading": "なせつめいですませると、ごになってごかいをとくのにじかんがかかる。",
+      "afterReading": "なせつめいですませると、あとになってごかいをとくのにじかんがかかる。",
+      "beforePartsHash": "e0a9ec5f12e28b728be131b02c7700ddf8a217d5907ed85c6ab7d047b77046ab",
+      "afterPartsHash": "5a4ddeaed9158db2e6a645958081228e22a1794e8ce13614b3c99a6d981523da",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1279930-1-ex-1",
+      "side": "after",
+      "text": "の後、住民は家の片付けと生活の再建に追われた。",
+      "beforeReading": "ののち、じゅうみんはいえのかたづけとせいかつのさいけんにおわれた。",
+      "afterReading": "のあと、じゅうみんはいえのかたづけとせいかつのさいけんにおわれた。",
+      "beforePartsHash": "2dd12b19706b6f82dc873b16379ce0d562c0dd9687753c6f235def5679b0d397",
+      "afterPartsHash": "957858a66d8c7816105357621eb46aec16aa212d0a481c1219a1ca6ec9f8d21a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1404570-1-ex-1",
+      "side": "before",
+      "text": "新しい窓に替えた後、室内の騒音の",
+      "beforeReading": "あたらしいまどにかえたのち、しつないのそうおんの",
+      "afterReading": "あたらしいまどにかえたあと、しつないのそうおんの",
+      "beforePartsHash": "24a4acc2fd7594e23fc52eccdb974592e70ec2b58158289f91dd93eaf3a5277c",
+      "afterPartsHash": "9641658f8247953c99d24fb819cd36d8ab8e4d9940650e6700d6cbeed9299b6d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1294760-1-ex-1",
+      "side": "before",
+      "text": "十分な討論の後、議長は予算案の",
+      "beforeReading": "じゅうぶんなとうろんののち、ぎちょうはよさんあんの",
+      "afterReading": "じゅうぶんなとうろんのあと、ぎちょうはよさんあんの",
+      "beforePartsHash": "30c8d29b83558c64984f11764423bca21f6322f4dfad553d0f3e88d765049e5f",
+      "afterPartsHash": "32f32763950e3ca50cb28faced3a3c54e3544c5f078caac9a4bf3b4a116e03b3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1297800-1-ex-1",
+      "side": "before",
+      "text": "監督は、相手の守りを崩す",
+      "beforeReading": "かんとくは、あいてのもりをくずす",
+      "afterReading": "かんとくは、あいてのまもりをくずす",
+      "beforePartsHash": "a7c3fe6b2d266ce421dabb1db5ff69569e4ba24018eec19eb023d8e0a2cb4fee",
+      "afterPartsHash": "81cbd39dfcfc107fdb02ecfd35694fb3c05a806b272b47c6b01c3bf2df1c13ef",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-JLPTN3_140-2-ex-1",
+      "side": "before",
+      "text": "試合に負けた後、選手たちは",
+      "beforeReading": "しあいにまけたのち、せんしゅたちは",
+      "afterReading": "しあいにまけたあと、せんしゅたちは",
+      "beforePartsHash": "18735fc0cff514748bbb6367f6ea35603e3963c1c2b9f7a71e8a0fda7ec5ce13",
+      "afterPartsHash": "29eb311b5046ce494ef21ca54b0debbd7abbd9069edebf56800a2c2ca76cd0ce",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1019940-1-ex-1",
+      "side": "before",
+      "text": "図書館を利用した後、サービスについての",
+      "beforeReading": "としょかんをりようしたのち、サービスについての",
+      "afterReading": "としょかんをりようしたあと、サービスについての",
+      "beforePartsHash": "c9829613c252d072df959ad271cdef4a06ff9e66550b649323a77d52c70ca47f",
+      "afterPartsHash": "8d5ce1311f8496f5e36205bb52f2a5fb1161fb31ae2629a592a99141817c9845",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1067480-1-ex-1",
+      "side": "after",
+      "text": "を、かばんの持ち手に結びました。",
+      "beforeReading": "を、かばんのもちしゅにむすびました。",
+      "afterReading": "を、かばんのもちてにむすびました。",
+      "beforePartsHash": "1e09362b2e4f09abbeed10047fb53ebfa8a31adfd04b9b1b81d2413726db78aa",
+      "afterPartsHash": "cb4b4ab99262904cb5641ecccf680ebb895b69696eea301cee8eebfe906849c5",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1379230-1-ex-1",
+      "side": "after",
+      "text": "者がいないか調べた。",
+      "beforeReading": "ものがいないかしらべた。",
+      "afterReading": "しゃがいないかしらべた。",
+      "beforePartsHash": "3f7549f8e2cc3ca90df4f6d295c2550f5910828e379ced9ed0d4bc3af5e21415",
+      "afterPartsHash": "114d2c2c2cc31ece671da7cd795154281b31609f39e3d155ce9f29f5726a5a66",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1422520-1-ex-1",
+      "side": "before",
+      "text": "大勢が集まる会場でも、係員の案内で",
+      "beforeReading": "たいせいがあつまるかいじょうでも、かかりいんのあんないで",
+      "afterReading": "おおぜいがあつまるかいじょうでも、かかりいんのあんないで",
+      "beforePartsHash": "aab634e045ad77db7ab52cc009a58d1c42c9500b1a632ca11da2bdbe5164be43",
+      "afterPartsHash": "8fae3d8e4fd8386a999d62748e0d5de3e5ec49ea2b232af50d689e6be8dd7966",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1147800-1-ex-1",
+      "side": "before",
+      "text": "チェックアウトの後、",
+      "beforeReading": "チェックアウトののち、",
+      "afterReading": "チェックアウトのあと、",
+      "beforePartsHash": "253f15ec17555c0549b7be8183de0642bb287ce42d7c590394af920e65f2610b",
+      "afterPartsHash": "6b8bbd06070be1a8821eded5b93d0e108002cfc93259e06b138bf2e0551248e1",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1296440-1-ex-1",
+      "side": "after",
+      "text": "中は、夜に書店で働いていました。",
+      "beforeReading": "なかは、よるにしょてんではたらいていました。",
+      "afterReading": "ちゅうは、よるにしょてんではたらいていました。",
+      "beforePartsHash": "8804cc37f53cff60743595f34dc0b441f9f1f1a6add49b8eb0b7d14c35027652",
+      "afterPartsHash": "c3ba613abe1763fec7561df6cdb12bc4dd9c04c33548c97ded7a7c2bddd4ff0c",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1395410-1-ex-1",
+      "side": "before",
+      "text": "長い山道を歩き続け、",
+      "beforeReading": "ながいさんどうをあるきつづけ、",
+      "afterReading": "ながいやまみちをあるきつづけ、",
+      "beforePartsHash": "090da4d9d21cfb62857165bf9abca1b3d509326ef6c936e5788e1b08caf16858",
+      "afterPartsHash": "057cef75fc63eeb8e65eddd1a14f83e69342af1dab55d77101a4013dcff4bff4",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1550630-1-ex-1",
+      "side": "before",
+      "text": "焼き色が付いたら、魚を",
+      "beforeReading": "やきしょくがついたら、さかなを",
+      "afterReading": "やきいろがついたら、さかなを",
+      "beforePartsHash": "94df314542dd31fbb8b75e6d164b664d84c61e66115a14a82b9332c4654bfbdd",
+      "afterPartsHash": "970001db17f95e950db8b3464e1071253a286e6c6365c3b190a52c560f854b0b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1554380-1-ex-1",
+      "side": "after",
+      "text": "、釣り人を眺めた。",
+      "beforeReading": "、つりじんをながめた。",
+      "afterReading": "、つりびとをながめた。",
+      "beforePartsHash": "de879421437f69a048a34631e3d2bbe7b0a6d46bf84e07b5c2e0dbba7a21c863",
+      "afterPartsHash": "4565fa982587839713b27a4b37423028ca71d5459795aba1d2c47ae140817d0e",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1350140-1-ex-1",
+      "side": "before",
+      "text": "脂っこい料理は",
+      "beforeReading": "やにっこいりょうりは",
+      "afterReading": "あぶらっこいりょうりは",
+      "beforePartsHash": "3d49a2ec858ba8a77a4078529f54985a6dd21f9f8477522eab79234c0edee031",
+      "afterPartsHash": "09dbe45f5d5626d43cba73b6ed791919f1c8339a5397512a6587eae2eb2c96ef",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1528290-1-ex-1",
+      "side": "before",
+      "text": "睡眠の質は、日中の集中力と",
+      "beforeReading": "すいみんのしつは、にちちゅうのしゅうちゅうりょくと",
+      "afterReading": "すいみんのしつは、にっちゅうのしゅうちゅうりょくと",
+      "beforePartsHash": "0d8673301df28df25d109e9f4050c1c5f907932338492ee0381782bb32919489",
+      "afterPartsHash": "715dd17b394dad9020bfd48172427ac91394116e805b7a7b2780562e36dcd8dd",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1396590-1-ex-1",
+      "side": "before",
+      "text": "弓を持つ手を落ち着かせて、的の中心を",
+      "beforeReading": "ゆみをもつてをおちつかせて、てきのちゅうしんを",
+      "afterReading": "ゆみをもつてをおちつかせて、まとのちゅうしんを",
+      "beforePartsHash": "3a03357937b8434038f35c063e53efb39b77e705c0011d5c4c212eacf4751d41",
+      "afterPartsHash": "2adb4d6d8032f7099043bda0d2e132f2d03c6c230ae9a006104cc9d3bb5f14bb",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1381210-1-ex-1",
+      "side": "before",
+      "text": "決勝で負けた後、来年は優勝すると",
+      "beforeReading": "けっしょうでまけたのち、らいねんはゆうしょうすると",
+      "afterReading": "けっしょうでまけたあと、らいねんはゆうしょうすると",
+      "beforePartsHash": "d407f1245a2838769ee24efc9dcff421efc73da35cbfc3b1a67446b1fbd0e40d",
+      "afterPartsHash": "efaab337717d624981345fd658510416312621fd6da4c146f59752e39e802ef3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1430240-1-ex-1",
+      "side": "after",
+      "text": "から、向かいの辺へ線を引いた。",
+      "beforeReading": "から、むかいのあたりへせんをひいた。",
+      "afterReading": "から、むかいのへんへせんをひいた。",
+      "beforePartsHash": "4434dc981db7b2eb7f389e5d1485169c732f7dc3aefe62ea46f285c5d00f89a9",
+      "afterPartsHash": "2bc98b4120fde1815e58993ec54be0a36160b28a3b667013124e4731bcff2872",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1552390-1-ex-1",
+      "side": "before",
+      "text": "一度聞いただけで弾けるなんて、",
+      "beforeReading": "いちどきいただけではじけるなんて、",
+      "afterReading": "いちどきいただけでひけるなんて、",
+      "beforePartsHash": "4a50b9da746a7db92fbf5d4b43d2a7069fa7b1000506b4fc2e630ec9dd85f022",
+      "afterPartsHash": "8fefcc6c9a6dbfe222f3400214e22e7fba22821bd5bf3306ed82441335e9a739",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1596240-1-ex-1",
+      "side": "before",
+      "text": "この駐車場は、施設を訪れる方",
+      "beforeReading": "このちゅうしゃじょうは、しせつをおとずれるほう",
+      "afterReading": "このちゅうしゃじょうは、しせつをおとずれるかた",
+      "beforePartsHash": "f4f0a0caab6a90ef801c1340c45fe234c0c3e756188fec8125c34c9aff999a4b",
+      "afterPartsHash": "b051c6b65caee8db43346e87582a4a07731ef59f0f306fdf935951e148d0fd86",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1317860-1-ex-1",
+      "side": "before",
+      "text": "授業の後、希望する生徒が",
+      "beforeReading": "じゅぎょうののち、きぼうするせいとが",
+      "afterReading": "じゅぎょうのあと、きぼうするせいとが",
+      "beforePartsHash": "36940356560aab151baee18018bd4fc5a37952a2cedc3b68a388fc6e1090e5c1",
+      "afterPartsHash": "a0fffc9d37481ccd5fec98aa978d74121bda3efd9749e15e7c29b7442a8d5c6a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1318880-1-ex-1",
+      "side": "before",
+      "text": "一人暮らしを始め、少しずつ生活の",
+      "beforeReading": "ひとりくらしをはじめ、すこしずつせいかつの",
+      "afterReading": "ひとりぐらしをはじめ、すこしずつせいかつの",
+      "beforePartsHash": "80486f7cd023b631ffb4a0c0658ba8a3706c986cabd2684f8db265875fe0abb1",
+      "afterPartsHash": "38f6f43fb0ae5c9bb12cabfa1f4cf5866c900dd581cea46d0031fbd33822cd5a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1331590-1-ex-1",
+      "side": "before",
+      "text": "育児のための長期休暇の後も",
+      "beforeReading": "いくじのためのちょうききゅうかののちも",
+      "afterReading": "いくじのためのちょうききゅうかのあとも",
+      "beforePartsHash": "2144f08afe8884d8bb02b92dd2a728ca7d0171011ee0f29c8971f0e57ea115a2",
+      "afterPartsHash": "6978cbe8b673c6aca905bb4a78a5aa9dad36be5a503c691733d4f211664517e3",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1471420-1-ex-1",
+      "side": "before",
+      "text": "窓が割れた後、床の",
+      "beforeReading": "まどがわれたのち、ゆかの",
+      "afterReading": "まどがわれたあと、ゆかの",
+      "beforePartsHash": "22614ea79376fdf493408d0d2aa4d3f747790ab279a113feb745587e55ca4b41",
+      "afterPartsHash": "746fb9226d6c75f462b835867a9a41b23f075860774322aaead3df0d00af6c40",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1536060-1-ex-1",
+      "side": "before",
+      "text": "講演の後、参加者と講師の",
+      "beforeReading": "こうえんののち、さんかしゃとこうしの",
+      "afterReading": "こうえんのあと、さんかしゃとこうしの",
+      "beforePartsHash": "1ce504ea0e3d5ba1115da6ba4b346336c56e7c7b4430b2f26b5f9fc569af1ff4",
+      "afterPartsHash": "cf4550882bc0a60e8d717bb90a2d30a1701738c241e34e29919f48bf4b1901ee",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1463800-1-ex-1",
+      "side": "after",
+      "text": "が早いので、山道を急いで下りた。",
+      "beforeReading": "がはやいので、さんどうをいそいでおりた。",
+      "afterReading": "がはやいので、やまみちをいそいでおりた。",
+      "beforePartsHash": "233a1f9b3515711b040c87ff42204cbd6fa230b24359d3e8ccd3df70b7bb4fec",
+      "afterPartsHash": "5b0846f1dc1bba05a89550490daf584a3895e53c8bc22da7f7735223cab8a614",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1477090-1-ex-1",
+      "side": "before",
+      "text": "根が伸びたので、一回り大きい",
+      "beforeReading": "ねがのびたので、いっかいりおおきい",
+      "afterReading": "ねがのびたので、ひとまわりおおきい",
+      "beforePartsHash": "bcbd671239bfa482d93ddb5657882d514454174f42659804d6effafa97816c8d",
+      "afterPartsHash": "26109d28b18dd6edafb1b6cd13450f206ce9eecf2ff545d1f6f060190e75b06d",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1303230-1-ex-1",
+      "side": "before",
+      "text": "大雨の後、",
+      "beforeReading": "おおあめののち、",
+      "afterReading": "おおあめのあと、",
+      "beforePartsHash": "ead9c07fdfe0a9869159367e63ee78f89e5b2406bc0afbe693e7599fec8b8b4c",
+      "afterPartsHash": "9dd9ae0cdb59c463e55c3adae217555b91e3abe5b03abd8268f961cec6776c4f",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1382220-1-ex-1",
+      "side": "before",
+      "text": "乾いた土の壁は",
+      "beforeReading": "かわいたどのかべは",
+      "afterReading": "かわいたつちのかべは",
+      "beforePartsHash": "b99df77d9fff56120b78a42e6c0b3f5891e9d39cff1bdd90f99e3f6bd912d071",
+      "afterPartsHash": "b071d700478eca134538254c0b2cf017ace2f43a73454c572543b5139dd850c8",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1325640-1-ex-1",
+      "side": "before",
+      "text": "地域によって、米や小麦など",
+      "beforeReading": "ちいきによって、べいやこむぎなど",
+      "afterReading": "ちいきによって、こめやこむぎなど",
+      "beforePartsHash": "240adf5a8ec4c07bdb57afc0de4a6879376282bc344551b3c33cc03a6ea28662",
+      "afterPartsHash": "eb8c3893a59552c08335a9164ecad9616d76f4e4806006fe52b851563df3d40a",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1330400-1-ex-1",
+      "side": "after",
+      "text": "には、名前が分かる札が付いている。",
+      "beforeReading": "には、なまえがわかるさつがついている。",
+      "afterReading": "には、なまえがわかるふだがついている。",
+      "beforePartsHash": "ef71f4f604f805156ba3e25cdccdbb485a8869e36d45da17672f7b15b72b9a0d",
+      "afterPartsHash": "ca35b3c2809aef8aa81460cff4794aef454f0198f4896c64a2d21b7a7f9ada4b",
+      "category": "context-reading-or-modern-variant"
+    },
+    {
+      "exampleId": "sense-lex-jmdict-1528130-1-ex-1",
+      "side": "before",
+      "text": "仕事を辞めた後も、その職場に少し",
+      "beforeReading": "しごとをやめたのちも、そのしょくばにすこし",
+      "afterReading": "しごとをやめたあとも、そのしょくばにすこし",
+      "beforePartsHash": "a3a954b175f6aa9b4eec273a6c3c9e714be09ef6033ce495f6c9a158cb7749a3",
+      "afterPartsHash": "386407c1b772fb85af8e9db8d8fad5d0fa36d783b41e570f023440ab5b352e62",
+      "category": "context-reading-or-modern-variant"
+    }
+  ]
+}

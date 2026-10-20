@@ -1227,7 +1227,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "農作物",
-            "reading": "のうさくもつ"
+            "reading": "のうさくぶつ"
           },
           {
             "text": "の"
@@ -1374,7 +1374,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "入り口",
-            "reading": "いりくち"
+            "reading": "いりぐち"
           },
           {
             "text": "で"

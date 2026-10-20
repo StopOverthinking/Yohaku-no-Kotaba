@@ -172,7 +172,7 @@ async function writeOutputFiles(data) {
   const aliases = buildReviewedAliases(
     await readJsonFile(path.join(aliasRoot, 'alias-pilot-review.json'), []),
     await readJsonFile(path.join(aliasRoot, 'active-aliases.json'), []),
-    data.words, pruning.historicalSenses,
+    pruning.historicalWords, pruning.historicalSenses,
   )
   await fs.mkdir(outputDir, { recursive: true })
   await writeGeneratedFile(path.join(outputDir, 'senseSeparations.ts'),

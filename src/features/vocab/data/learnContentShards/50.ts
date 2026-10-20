@@ -443,12 +443,8 @@ const content: LearnSense[] = [
             "text": "が"
           },
           {
-            "text": "一回",
-            "reading": "いっかい"
-          },
-          {
-            "text": "戦",
-            "reading": "せん"
+            "text": "一回戦",
+            "reading": "いっかいせん"
           },
           {
             "text": "で"
@@ -2823,7 +2819,7 @@ const content: LearnSense[] = [
           },
           {
             "text": "色",
-            "reading": "しょく"
+            "reading": "いろ"
           },
           {
             "text": "が"

@@ -3,6 +3,7 @@ import path from 'node:path'
 import { hashContent, validateExampleRevision } from './jlpt-pilot.mjs'
 import { readExamplePruning, verifyExamplePruning } from './example-pruning.mjs'
 import { questionKanjiLeaks } from './hint-comparison-policy.mjs'
+import { restoreEditorialCorrections } from './editorial-corrections.mjs'
 
 export async function readReviewedExampleHistory(root) {
   const directory = path.join(root, 'content/learn/example-corrections')
@@ -11,12 +12,19 @@ export async function readReviewedExampleHistory(root) {
   catch (error) { if (error.code !== 'ENOENT') throw error }
   const corrections = await Promise.all(names.filter(name => name.endsWith('.json')).sort().map(async name =>
     JSON.parse(await fs.readFile(path.join(directory, name), 'utf8'))))
-  return { pruning: await readExamplePruning(root), corrections }
+  let editorial = []
+  try { editorial = JSON.parse(await fs.readFile(path.join(root, 'content/learn/editorial-corrections.json'), 'utf8')) }
+  catch (error) { if (error.code !== 'ENOENT') throw error }
+  return { pruning: await readExamplePruning(root), corrections, editorial }
 }
 
 /** Restore exact historical text only for validating old receipts. Live text
  * remains corrected; the new review is explicitly a user-authorized edit. */
 export function verifyReviewedExampleHistory(words, senses, history) {
+  const liveSenses = senses
+  const editorial = restoreEditorialCorrections(words, senses, history.editorial)
+  words = editorial.words
+  senses = editorial.senses
   const wordMap = new Map(words.map(word => [word.id, word]))
   const current = new Map(senses.map(sense => [sense.id, sense]))
   if (current.size !== senses.length) throw new Error('Duplicate current sense ID')
@@ -62,11 +70,11 @@ export function verifyReviewedExampleHistory(words, senses, history) {
   }
   const beforeCorrections = senses.map(sense => current.get(sense.id))
   const pruning = verifyExamplePruning(words, beforeCorrections, history.pruning)
-  const live = new Map(senses.map(sense => [sense.id, sense]))
+  const live = new Map(liveSenses.map(sense => [sense.id, sense]))
   // A retired card resolves to the current version of its surviving example.
   const retirements = pruning.retirements.map(row => ({ ...row, replacementVersion:
     live.get(row.senseId).examples.find(example => example.id === row.replacementId).version }))
-  return { ...pruning, retirements, beforeCorrections,
+  return { ...pruning, retirements, beforeCorrections, historicalWords: words, beforeEditorial: senses, editorialCorrections: editorial.report,
     corrections: { journals: ids.size, correctedExamples, sourceHash: hashContent(history.corrections),
       reviewScope: 'user-authorized editorial correction; no new independent approval claimed' } }
 }
