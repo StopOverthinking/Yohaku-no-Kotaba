@@ -97,6 +97,22 @@ describe('context card', () => {
     expect(document.querySelector('button button')).toBeNull()
   })
 
+  it('puts only まわ above 回 and leaves the kana る in the ordinary sentence', async () => {
+    const id = useContextStore.getState().data.session!.current.senseId
+    const sense = await loadContextSense(id)
+    vi.mocked(loadContextSense).mockResolvedValueOnce({ ...sense, examples: sense.examples.map(example => ({ ...example,
+      before: '回ると', beforeFurigana: [{ text: '回る', reading: 'まわる' }, { text: 'と' }],
+      after: 'お客様を待った。', afterFurigana: [{ text: 'お客様', reading: 'おきゃくさま' }, { text: 'を' },
+        { text: '待っ', reading: 'まっ' }, { text: 'た。' }],
+    })) })
+    const { container } = await renderPage()
+    const ruby = [...container.querySelectorAll('ruby')]
+    expect(ruby.map(element => element.querySelector('rt')!.textContent)).toEqual(['まわ', 'きゃくさま', 'ま'])
+    expect(ruby.map(element => element.firstChild!.textContent)).toEqual(['回', '客様', '待'])
+    expect(ruby[0].nextSibling).toHaveTextContent('る')
+    expect(container.innerHTML).not.toContain('答えた')
+  })
+
   it('keeps the Korean hint and hides the comparison row without a current reviewed selection', async () => {
     const id = useContextStore.getState().data.session!.current.senseId
     const sense = await loadContextSense(id)

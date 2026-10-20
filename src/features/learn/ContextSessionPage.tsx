@@ -10,11 +10,12 @@ import { useContextStore } from './contextStore'
 import { useContextSense } from './useContextSense'
 import { profileKey } from './contextEngine'
 import { cardRecency, similarHintWords } from './contextPresentation'
+import { kanjiFurigana } from './furiganaPresentation'
 import type { FuriganaPart } from './contextTypes'
 import styles from './context.module.css'
 
 function Furigana({ text, parts }: { text: string; parts?: FuriganaPart[] }) {
-  return parts ? parts.map((part, index) => part.reading
+  return parts ? parts.flatMap(kanjiFurigana).map((part, index) => part.reading
     ? <ruby key={index}>{part.text}<rt>{part.reading}</rt></ruby>
     : <span key={index}>{part.text}</span>) : text
 }
