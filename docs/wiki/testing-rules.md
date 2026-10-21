@@ -155,6 +155,8 @@
 
 ## 대량 자료 검사 실행 조건
 
+분리된 학습 용법의 비교 힌트는 `hint-semantic-review.json`의 `usageEntries` 명시 선정과 전량 대조한다. `contextSenseSeparations.test.ts`와 `contextContent.test.ts`는 해당 의미에만 지정 힌트가 표시되고, 미선정·버전 불일치에는 빈 비교어가 되는지 확인한다. 모든 분리 용법의 비교어를 무조건 빈 배열로 가정하지 않는다.
+
 기본 테스트 환경은 JSDOM이다. DOM을 사용하지 않는 `scripts/lib/*.test.mjs` 14개와 `contextReviewPolicy.test.ts`, `contextScale.test.ts`, `jlptPilot.test.ts`에는 `@vitest-environment node`를 지정한다. UI·라우터·저장 등 나머지 검사는 기본 환경을 유지한다. 환경 분리는 검사 수·전량 코퍼스·시간 제한·작업자 수를 줄이지 않는다.
 
 파일 교체 검사는 운영체제의 임시 디렉터리에 자체 작업 폴더를 만든다. Git에 포함하지 않는 `output/jlpt`가 존재한다고 가정하지 않으며 깨끗한 CI checkout에서도 같은 검사를 실행한다. 준비가 실패하면 정리 단계에서 미생성 경로로 추가 오류를 내지 않는다.

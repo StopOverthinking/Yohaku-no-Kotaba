@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from 'vitest'
 import { learnContent } from '@/features/vocab/data/learnContent'
 import { senseSeparations } from '@/features/vocab/data/senseSeparations'
 import sourceSeparations from '@/features/vocab/editor-data/senseSeparations.json'
+import semanticReview from '../../../content/learn/hint-semantic-review.json'
 import { exampleRetirements } from '@/features/vocab/data/exampleRetirements'
 import { contextSenses, contextWordMap, loadContextSense, contextAliasGroups } from './contextContent'
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'
@@ -110,6 +111,7 @@ describe('complete representative-example separation', () => {
     expect(senseSeparations).toHaveLength(190)
     expect(contextSenses).toHaveLength(5874)
     expect(contextSenses.every(sense => sense.examples.length === 1)).toBe(true)
+    const decisions = new Map(semanticReview.usageEntries.map(entry => [entry.senseId, entry]))
     for (const definition of senseSeparations) {
       const source = learnContent.find(sense => sense.id === definition.sourceSenseId)!
       const loaded = await Promise.all(definition.usages.map(usage => loadContextSense(usage.id)))
@@ -118,7 +120,11 @@ describe('complete representative-example separation', () => {
         expect(loaded[i].meaning).toBe(definition.usages[i].meaning)
         expect(loaded[i].hint).toBe(definition.usages[i].hint)
         expect(loaded[i].examples).toHaveLength(1)
-        expect(similarHintWords(loaded[i], contextWordMap.get(source.wordId)!, loaded[i].examples[0])).toEqual([])
+        const decision = decisions.get(loaded[i].id)
+        expect(similarHintWords(loaded[i], contextWordMap.get(source.wordId)!, loaded[i].examples[0]))
+          .toEqual(decision?.selected.map(entry => entry.japanese) ?? [])
+        expect(similarHintWords({ ...loaded[i], version: loaded[i].version + 1 }, contextWordMap.get(source.wordId)!, loaded[i].examples[0]))
+          .toEqual([])
       }
     }
   }, 10000)
