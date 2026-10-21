@@ -11,7 +11,7 @@ const wordForms = (word) => new Set([word.japanese,
 
 /** Current-sense decisions are the sole authority; old groups and authored
  * contrasts remain historical evidence and never supply display candidates. */
-export function buildSemanticHintConfusions(review, words, senses, candidates) {
+export function buildSemanticHintConfusions(review, words, senses, candidates, separatedSenses = []) {
   const sourceHash = hintSourceHash(words, senses)
   if (review?.schemaVersion !== 1 || review.policy !== 'current-korean-sense' || review.sourceHash !== sourceHash)
     throw new Error('Semantic hint review does not match the current corpus/policy')
@@ -20,12 +20,20 @@ export function buildSemanticHintConfusions(review, words, senses, candidates) {
   if (!requiredText(review.reviewer?.model) || !requiredText(review.reviewer?.reasoningEffort) || !Array.isArray(review.entries))
     throw new Error('Semantic hint review metadata is missing')
   const byWord = new Map(words.map((word) => [word.id, word]))
-  const bySense = new Map(senses.map((sense) => [sense.id, sense]))
+  const bySense = new Map([...senses, ...separatedSenses].map((sense) => [sense.id, sense]))
+  const originals = new Map(senses.map((sense) => [sense.id, sense]))
   const dictionary = new Map(candidates.map((candidate) => [candidate.id, candidate]))
   const entries = new Map(), provenance = {}, displayAudit = []
-  for (const entry of review.entries) {
+  for (const entry of [...review.entries, ...(review.usageEntries ?? [])]) {
     const sense = bySense.get(entry.senseId), word = sense && byWord.get(sense.wordId)
     if (!sense || !word || entries.has(entry.senseId)) throw new Error(`Unknown/duplicate semantic hint sense: ${entry.senseId}`)
+    if (!originals.has(entry.senseId)) {
+      const source = originals.get(entry.sourceSenseId)
+      if (!source || source.wordId !== sense.wordId || entry.sourceHash !== dictionaryEntryHash(source)
+        || JSON.stringify(entry.exampleIds) !== JSON.stringify(sense.examples.map(example => example.id))
+        || !sense.examples.every(example => source.examples.some(original => original.id === example.id)))
+        throw new Error(`Stale separated hint source: ${entry.senseId}`)
+    } else if (!review.entries.includes(entry)) throw new Error(`Usage hint must reference a separated sense: ${entry.senseId}`)
     if (entry.senseVersion !== sense.version || entry.wordId !== sense.wordId || entry.japanese !== word.japanese || entry.meaning !== sense.meaning)
       throw new Error(`Stale semantic hint decision: ${sense.id}`)
     if (entry.reviewStatus !== 'reviewed' || !['retain', 'replace', 'omit'].includes(entry.decision) || !requiredText(entry.reason)
@@ -58,10 +66,10 @@ export function buildSemanticHintConfusions(review, words, senses, candidates) {
         }
       } else if (evidence?.type === 'dictionary') {
         const candidate = dictionary.get(evidence.entryId)
-        const derived = evidence.derivation === 'suru-verb'
+        const derived = ['suru-verb', 'suru-polite-past'].includes(evidence.derivation)
         if (evidence.derivation !== undefined && !derived)
           throw new Error(`Unsupported dictionary derivation: ${sense.id}`)
-        const suffix = derived ? 'する' : ''
+        const suffix = evidence.derivation === 'suru-polite-past' ? 'しました' : derived ? 'する' : ''
         if (!candidate || !requiredText(evidence.source)
           || ![candidate.japanese, ...(candidate.spellings ?? []), ...(candidate.readings ?? [])].map((form) => canonical(form) + suffix).includes(labelHeadword(selected.japanese))
           || !candidate.readings.map((reading) => canonical(reading) + suffix).includes(canonical(selected.reading)))

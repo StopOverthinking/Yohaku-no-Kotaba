@@ -26406,7 +26406,7 @@ export const vocabularyWords: VocabularyWord[] = [
     "setId": "jlpt-level-n3",
     "japanese": "給料",
     "reading": "きゅうりょう",
-    "meaning": "급료, 월급",
+    "meaning": "급여",
     "type": "noun",
     "difficulty": 27,
     "verbInfo": null,

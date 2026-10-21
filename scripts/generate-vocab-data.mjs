@@ -162,9 +162,9 @@ async function writeOutputFiles(data) {
   const semanticReview = JSON.parse(await fs.readFile(path.join(projectRoot, 'content/learn/hint-semantic-review.json'), 'utf8'))
   const dictionaryCandidates = await Promise.all(['n5', 'n4', 'n3', 'n2', 'n1', 'unassigned'].map((level) =>
     fs.readFile(path.join(projectRoot, `content/jlpt/candidates/${level}.json`), 'utf8').then(JSON.parse)))
-  const semanticReport = buildSemanticHintConfusions(semanticReview, [...data.words, ...data.themeWords], data.learnContent ?? [], dictionaryCandidates.flat())
+  const semanticReport = buildSemanticHintConfusions(semanticReview, [...data.words, ...data.themeWords], data.learnContent ?? [], dictionaryCandidates.flat(), separated.senses)
   assertSemanticHintSynchronization(hintConfusions, semanticReport.supplements)
-  const hintIssues = validateHintConfusions(hintConfusions, data.learnContent ?? [],
+  const hintIssues = validateHintConfusions(hintConfusions, [...(data.learnContent ?? []), ...separated.senses],
     new Map([...data.words, ...data.themeWords].map((word) => [word.id, word])))
   if (hintIssues.length) throw new Error(hintIssues.join('\n'))
   const pruning = verifyReviewedExampleHistory(data.words, data.learnContent ?? [], await readReviewedExampleHistory(projectRoot))

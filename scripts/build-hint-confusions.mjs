@@ -3,6 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { buildSemanticHintConfusions, assertSemanticHintSynchronization } from './lib/hint-semantic-review.mjs'
 import { writeGeneratedFile } from './lib/write-generated-file.mjs'
+import { readSenseSeparations } from './lib/sense-separations.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = async (relative) => JSON.parse(await fs.readFile(path.join(root, relative), 'utf8'))
@@ -13,7 +14,8 @@ const [basic, theme, senses, review, ...candidates] = await Promise.all([
   ...['n5', 'n4', 'n3', 'n2', 'n1', 'unassigned'].map((level) => read(`content/jlpt/candidates/${level}.json`)),
 ])
 const words = [...basic, ...theme]
-const report = buildSemanticHintConfusions(review, words, senses, candidates.flat())
+const separated = await readSenseSeparations(root, senses)
+const report = buildSemanticHintConfusions(review, words, senses, candidates.flat(), separated.senses)
 const sourcePath = path.join(root, source + 'hintConfusions.json')
 await fs.mkdir(path.join(root, 'output/hints'), { recursive: true })
 await fs.writeFile(path.join(root, 'output/hints/review-audit.json'), JSON.stringify(report, null, 2) + '\n')
@@ -26,7 +28,7 @@ else {
 }
 console.log(JSON.stringify({ words: words.length, senses: senses.length, reviewedSenses: report.coverage.length,
   pendingSenses: report.pending.length, supplementedSenses: Object.keys(report.supplements).length,
-  supplementedWords: new Set(Object.keys(report.supplements).map((id) => senses.find((sense) => sense.id === id).wordId)).size,
+  supplementedWords: new Set(report.displayAudit.map(row => row.wordId)).size,
   selectedLabels: report.displayAudit.reduce((sum, entry) => sum + entry.selected.length, 0),
   displayAuditedSenses: report.displayAudit.length,
   withoutComparisons: report.displayAudit.filter((entry) => !entry.selected.length).length }, null, 2))

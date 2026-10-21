@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "policy": "current-korean-sense",
-  "sourceHash": "5ac184228af80226d5c5b597006541a0058983c784896211ef486580c20ad1a6",
+  "sourceHash": "a818a05bc6d2bc556de3da7eb5ec2c5e0c2a30e20aa9cec89099fe84dfea193f",
   "reviewer": {
     "model": "gpt-6-astra",
     "reasoningEffort": "high"
@@ -56651,16 +56651,33 @@
       "japanese": "がっかり",
       "meaning": "실망하여, 맥이 빠져",
       "reviewStatus": "reviewed",
-      "selected": [],
-      "decision": "omit",
-      "reason": "현재 「실망하여, 맥이 빠져」 용법을 개별 검토했다. 같은 한국어 뜻에서 쓰임을 구분할 확실한 후보를 선정하지 않았으며 관련어·반의어로 채우지 않는다.",
+      "selected": [
+        {
+          "japanese": "失望しました",
+          "reading": "しつぼうしました",
+          "meaning": "실망했어요",
+          "difference": "둘 다 기대에 못 미쳐 실망했다는 뜻이다. がっかりしました는 맥이 빠진 느낌을 일상적으로, 失望しました는 실망을 더 격식 있게 말한다.",
+          "evidence": {
+            "type": "dictionary",
+            "entryId": "jmdict-1320170",
+            "source": "JMdict: 失望의 실망 용법과 サ変 품사",
+            "entryHash": "23e2bfea1226436e4803acf31f6582531f47d37bd6b84ca294b66d0fa2310bdc",
+            "sourceGlosses": [
+              "disappointment"
+            ],
+            "derivation": "suru-polite-past"
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "사용자 요청에 따라 예문의 がっかりしました와 같은 뜻·시제인 失望しました를 명시 선정했다. 사전의 失望+する를 정중 과거형으로 활용한 형태다.",
       "rejected": [
         {
           "japanese": "びっくり",
           "reason": "현재 「실망하여, 맥이 빠져」 용법과 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 현재 용법을 뒷받침하는 코퍼스 근거 없이 기존 표기만 재사용하지 않는다."
         }
       ],
-      "reviewMethod": "model-individual-semantic-review"
+      "reviewMethod": "user-authorized-current-session-semantic-review"
     },
     {
       "senseId": "sense-lex-jmdict-1003450-1",
@@ -62269,24 +62286,36 @@
       "senseVersion": 1,
       "wordId": "lex-jmdict-1230360",
       "japanese": "給料",
-      "meaning": "급료, 월급",
+      "meaning": "급여",
       "reviewStatus": "reviewed",
       "selected": [
         {
           "japanese": "賃金",
           "reading": "ちんぎん",
           "meaning": "임금",
-          "difference": "월급 중심과 노동 대가 전반",
+          "difference": "給料는 고용주에게 받는 급여를 일상적으로 이르고 賃金은 노동의 대가인 임금을 넓게 이른다.",
           "evidence": {
             "type": "corpus",
             "senseIds": [
               "sense-lex-jmdict-1431990-1"
             ]
           }
+        },
+        {
+          "japanese": "月給",
+          "reading": "げっきゅう",
+          "meaning": "월급",
+          "difference": "給料는 지급 주기를 한정하지 않는 급여, 月給는 한 달 단위로 정해 받는 월급이다.",
+          "evidence": {
+            "type": "corpus",
+            "senseIds": [
+              "sense-lex-jmdict-1255560-1"
+            ]
+          }
         }
       ],
       "decision": "replace",
-      "reason": "현재 「급료, 월급」 용법을 개별 검토했다. 후보의 현재 뜻과 예문 또는 사전 해당 용법을 대조하여 선정했다. 월급 중심과 노동 대가 전반",
+      "reason": "사용자 요청에 따라 노동 대가라는 기존 핵심 뜻을 급여로 명확히 했다. 월 단위의 月給와 대조하고 기존 賃金 비교를 유지한다.",
       "rejected": [
         {
           "japanese": "収入",
@@ -78045,7 +78074,7 @@
       "rejected": [
         {
           "japanese": "給料",
-          "reason": "현재 「장학금, 학업 지원금」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「급료, 월급」."
+          "reason": "현재 「장학금, 학업 지원금」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「급여」."
         }
       ],
       "reviewMethod": "model-individual-semantic-review"
@@ -93563,7 +93592,7 @@
         {
           "japanese": "給料",
           "reading": "きゅうりょう",
-          "meaning": "급료, 월급",
+          "meaning": "급여",
           "difference": "대상은 급여라는 공식 표현, 비교어는 노동의 대가로 받는 봉급이다.",
           "evidence": {
             "type": "corpus",
@@ -93983,8 +94012,8 @@
         {
           "japanese": "給料",
           "reading": "きゅうりょう",
-          "meaning": "급료, 월급",
-          "difference": "대상은 월 단위로 받는 급여, 비교어는 지급 주기와 무관한 봉급이다.",
+          "meaning": "급여",
+          "difference": "月給는 한 달 단위의 월급이고 給料는 지급 주기와 관계없이 받는 급여다.",
           "evidence": {
             "type": "corpus",
             "senseIds": [
@@ -93993,7 +94022,7 @@
           }
         }
       ],
-      "reason": "현재 한국어 의미 「월급」와 예문 목표 구간 「월급」를 후보의 현재 뜻·목표 구간과 개별 대조하여 선정했다. 대상은 월 단위로 받는 급여, 비교어는 지급 주기와 무관한 봉급이다.",
+      "reason": "월급이라는 현재 뜻을 유지하고, 지급 주기를 한정하지 않는 급여 給料와 명확히 대조한다.",
       "senseVersion": 1,
       "wordId": "lex-jmdict-1255560",
       "japanese": "月給",
@@ -117353,7 +117382,7 @@
       "rejected": [
         {
           "japanese": "給料",
-          "reason": "현재 「보너스, 상여금」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「급료, 월급」."
+          "reason": "현재 「보너스, 상여금」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「급여」."
         },
         {
           "japanese": "手当",
@@ -133609,7 +133638,7 @@
         {
           "japanese": "給料",
           "reading": "きゅうりょう",
-          "meaning": "급료, 월급",
+          "meaning": "급여",
           "difference": "대상은 노동 대가의 임금을 공식적으로 이름, 비교어는 직원이 받는 봉급이다.",
           "evidence": {
             "type": "corpus",
@@ -134748,7 +134777,7 @@
       "rejected": [
         {
           "japanese": "給料",
-          "reason": "현재 「수당」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「급료, 월급」."
+          "reason": "현재 「수당」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「급여」."
         },
         {
           "japanese": "代わり",
@@ -143413,6 +143442,30 @@
       "reviewedBy": "current Codex session editorial review",
       "independent": false,
       "authorization": "사용자 요청: 一ヶ月·いい 힌트 추가, 美味しい 표기, 居間·リビング 구별"
+    },
+    {
+      "id": "2026-10-21-requested-hints-and-payroll",
+      "previousReviewHash": "ee6fd59573b4f6eb547e7b9172ed9157fb6fb1f36394607f8a5aa67f80e4591b",
+      "previousSourceHash": "5ac184228af80226d5c5b597006541a0058983c784896211ef486580c20ad1a6",
+      "sourceHash": "a818a05bc6d2bc556de3da7eb5ec2c5e0c2a30e20aa9cec89099fe84dfea193f",
+      "senseIds": [
+        "sense-lex-jmdict-1003170-1",
+        "sense-lex-jmdict-1230360-1",
+        "sense-lex-jmdict-1255560-1",
+        "sense-lex-jmdict-1347530-1",
+        "sense-lex-jmdict-1230350-1",
+        "sense-lex-jmdict-1123520-1",
+        "sense-lex-jmdict-1431990-1",
+        "sense-lex-jmdict-1598240-1",
+        "sense-lex-jmdict-1495740-1-usage-2",
+        "sense-lex-jmdict-1489340-1-usage-3",
+        "sense-lex-jmdict-1245470-1-usage-3"
+      ],
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-10-21T01:59:31.591Z",
+      "authorization": "사용자 요청: 点く·外·雰囲気·失望しました 힌트 추가 및 月給와 給料 구분, 給料 뜻 급여 정정",
+      "reason": "분리된 용법은 해당 예문과 뜻을 개별 대조했다. 기존 독립 승인과 분리 정의·학습 ID·용법 버전·순서는 유지한다."
     }
   ],
   "sourceAmendments": [
@@ -143449,6 +143502,101 @@
       ],
       "exampleCorrectionEntriesHash": "8725699a49ca37a6ad502a6930b43139f259e601408bcf236a7e440bd5d1d430",
       "reason": "戸의 뜻·힌트·비교어 선정은 유지하고 일본식 문을 떠올리는 예문 문맥만 정정했다."
+    }
+  ],
+  "usageEntries": [
+    {
+      "senseId": "sense-lex-jmdict-1495740-1-usage-2",
+      "senseVersion": 1,
+      "sourceSenseId": "sense-lex-jmdict-1495740-1",
+      "sourceHash": "8a92232d0015a13ac5f8c5acdabd638ceab8eff6175537b5986aceeb690840af",
+      "exampleIds": [
+        "sense-lex-jmdict-1495740-1-ex-2"
+      ],
+      "wordId": "lex-jmdict-1495740",
+      "japanese": "付く",
+      "meaning": "불이 켜짐",
+      "reviewStatus": "reviewed",
+      "selected": [
+        {
+          "japanese": "点く",
+          "reading": "つく",
+          "meaning": "켜지다",
+          "difference": "불이 켜지는 뜻은 같다. 点く는 불빛·점화에 초점을 둔 표기이고 付く는 부착 등 다른 뜻도 가진다.",
+          "evidence": {
+            "type": "corpus",
+            "senseIds": [
+              "sense-lex-jmdict-1441400-1"
+            ]
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "사용자가 지정한 불이 켜지는 용법에만 点く를 선정했다. 부착 의미에는 적용하지 않는다.",
+      "rejected": [],
+      "reviewMethod": "user-authorized-current-session-semantic-review"
+    },
+    {
+      "senseId": "sense-lex-jmdict-1489340-1-usage-3",
+      "senseVersion": 1,
+      "sourceSenseId": "sense-lex-jmdict-1489340-1",
+      "sourceHash": "8d8a16a699e7dc5e3dd13d7c4c6307f56c2cf1f9a8550358a9618e1149904f2f",
+      "exampleIds": [
+        "sense-lex-jmdict-1489340-1-ex-3"
+      ],
+      "wordId": "lex-jmdict-1489340",
+      "japanese": "表",
+      "meaning": "바깥",
+      "reviewStatus": "reviewed",
+      "selected": [
+        {
+          "japanese": "外",
+          "reading": "そと",
+          "meaning": "밖",
+          "difference": "둘 다 바깥이다. 表는 집·건물에서 나간 바깥을 가리키고 外는 기준 공간의 밖을 넓게 가리킨다.",
+          "evidence": {
+            "type": "corpus",
+            "senseIds": [
+              "sense-handmade_31-1"
+            ]
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "사용자가 지정한 바깥 용법에만 外를 선정했다. 천의 겉면 의미에는 적용하지 않는다.",
+      "rejected": [],
+      "reviewMethod": "user-authorized-current-session-semantic-review"
+    },
+    {
+      "senseId": "sense-lex-jmdict-1245470-1-usage-3",
+      "senseVersion": 1,
+      "sourceSenseId": "sense-lex-jmdict-1245470-1",
+      "sourceHash": "e675c88f57a76c2be28ac7a4c24492f9069b1933756d8ac2dd298e333e5d0059",
+      "exampleIds": [
+        "sense-lex-jmdict-1245470-1-ex-3"
+      ],
+      "wordId": "lex-jmdict-1245470",
+      "japanese": "空気",
+      "meaning": "집단이나 장소의 분위기",
+      "reviewStatus": "reviewed",
+      "selected": [
+        {
+          "japanese": "雰囲気",
+          "reading": "ふんいき",
+          "meaning": "분위기",
+          "difference": "둘 다 분위기다. 空気는 자리에 흐르는 기류·암묵적인 느낌, 雰囲気는 장소나 사람의 전반적 인상을 나타낸다.",
+          "evidence": {
+            "type": "corpus",
+            "senseIds": [
+              "sense-lex-jmdict-1505070-1"
+            ]
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "사용자가 지정한 분위기 용법에만 雰囲気를 선정했다. 숨 쉬는 공기 의미에는 적용하지 않는다.",
+      "rejected": [],
+      "reviewMethod": "user-authorized-current-session-semantic-review"
     }
   ]
 }

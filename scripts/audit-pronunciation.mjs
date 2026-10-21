@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url'
 import { addLearnFurigana } from './lib/learn-furigana.mjs'
 import { hashContent } from './lib/jlpt-pilot.mjs'
 import { readReviewedExampleHistory, verifyReviewedExampleHistory } from './lib/reviewed-example-history.mjs'
+import { restoreEditorialCorrections } from './lib/editorial-corrections.mjs'
 
 const read = async path => JSON.parse(await fs.readFile(new URL('../' + path, import.meta.url), 'utf8'))
 const [words, senses, overrides, review, ...dictionary] = await Promise.all([
@@ -14,7 +15,9 @@ const [words, senses, overrides, review, ...dictionary] = await Promise.all([
 // reviewed text edits must not overwrite or masquerade as that scan's hash.
 const history = await readReviewedExampleHistory(fileURLToPath(new URL('..', import.meta.url)))
 verifyReviewedExampleHistory(words, senses, history)
-let scannedSenses = senses
+const laterEditorial = history.editorial.filter(journal => Date.parse(journal.review.reviewedAt) > Date.parse(review.review.reviewedAt))
+const scannedEditorial = restoreEditorialCorrections(words, senses, laterEditorial)
+let scannedSenses = scannedEditorial.senses
 let laterCorrections = 0
 for (const journal of [...history.corrections].reverse()) {
   if (hashContent(scannedSenses) === review.sourceHashes.senses) break
@@ -27,7 +30,7 @@ for (const journal of [...history.corrections].reverse()) {
   scannedSenses = scannedSenses.map(sense => map.get(sense.id))
   laterCorrections++
 }
-for (const [key, value] of Object.entries({ words, senses: scannedSenses, furiganaOverrides: overrides }))
+for (const [key, value] of Object.entries({ words: scannedEditorial.words, senses: scannedSenses, furiganaOverrides: overrides }))
   if (review.sourceHashes[key] !== hashContent(value)) throw new Error(`Pronunciation review is stale: ${key}; review changed content before updating its snapshot`)
 const candidates = new Map(dictionary.flat().map(entry => ['lex-' + entry.id, entry]))
 const mismatches = words.filter(word => {
@@ -50,7 +53,7 @@ for (const change of review.changes) {
     throw new Error(`Reviewed pronunciation was lost or changed: ${key}`)
   changed.add(key)
 }
-const live = laterCorrections ? await addLearnFurigana(senses, overrides.filter(row => ids.has(row.exampleId))) : generated
+const live = laterCorrections || laterEditorial.length ? await addLearnFurigana(senses, overrides.filter(row => ids.has(row.exampleId))) : generated
 if (live.report.missing.length) throw new Error('Missing current surrounding readings')
 console.log(JSON.stringify({ words: words.length, senses: senses.length, examples: examples.size,
   dictionaryLinkedWords: words.filter(word => candidates.has(word.id)).length, dictionaryPairMismatches: mismatches.length,

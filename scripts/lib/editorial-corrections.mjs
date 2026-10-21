@@ -9,7 +9,8 @@ export function restoreEditorialCorrections(words, senses, journals = []) {
   const senseMap = new Map(senses.map(sense => [sense.id, sense]))
   const ids = new Set()
   for (const journal of [...journals].reverse()) {
-    if (journal.schemaVersion !== 1 || journal.scope !== 'user-authorized-notation-reading-hint-correction' ||
+    const payroll = journal.scope === 'user-authorized-payroll-terminology-correction'
+    if (journal.schemaVersion !== 1 || (!payroll && journal.scope !== 'user-authorized-notation-reading-hint-correction') ||
         !journal.id || ids.has(journal.id) || !journal.authorization?.trim() ||
         journal.review?.independent !== false || journal.review?.outcome !== 'accepted' ||
         !journal.review?.reviewedBy?.trim() || !Number.isFinite(Date.parse(journal.review?.reviewedAt)) ||
@@ -26,6 +27,31 @@ export function restoreEditorialCorrections(words, senses, journals = []) {
           hashContent(map.get(after.id)) !== entry.afterHash || entry.beforeHash === entry.afterHash)
         throw new Error('Editorial correction source changed or not applied')
       seen.add(key)
+      if (payroll) {
+        // A Korean label clarification of this existing wage sense, never a
+        // general meaning-change route or an approval for a new core usage.
+        if (before.meaning !== '급료, 월급' || after.meaning !== '급여' ||
+            (entry.kind === 'word' ? before.id !== 'lex-jmdict-1230360' : before.id !== 'sense-lex-jmdict-1230360-1'))
+          throw new Error('Payroll terminology correction is outside its authorized scope')
+        if (entry.kind === 'word') {
+          if (hashContent(without(before, ['meaning'])) !== hashContent(without(after, ['meaning'])))
+            throw new Error('Payroll terminology correction changed word metadata')
+        } else {
+          if (hashContent(without(before, ['meaning', 'hint', 'confusions', 'examples'])) !== hashContent(without(after, ['meaning', 'hint', 'confusions', 'examples'])) ||
+              before.examples.length !== after.examples.length)
+            throw new Error('Payroll terminology correction changed sense metadata')
+          for (let i = 0; i < before.examples.length; i++) {
+            const old = before.examples[i], next = after.examples[i]
+            if (hashContent(old) === hashContent(next)) continue
+            if (next.version !== old.version + 1 || next.translation !== old.translation.replaceAll('월급으로', '급여로').replaceAll('월급', '급여') ||
+                next.translationTarget !== old.translationTarget.replaceAll('월급', '급여') ||
+                hashContent(without(old, ['version', 'translation', 'translationTarget'])) !== hashContent(without(next, ['version', 'translation', 'translationTarget'])))
+              throw new Error('Payroll terminology correction changed example content')
+          }
+        }
+        map.set(before.id, before)
+        continue
+      }
       if (entry.kind === 'word') {
         // This path changes notation only, never meaning, reading, identity,
         // membership, ordering or difficulty.

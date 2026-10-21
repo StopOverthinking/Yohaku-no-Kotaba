@@ -4,21 +4,23 @@ import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { hintComparisonIssue } from './lib/hint-comparison-policy.mjs'
 import { buildSemanticHintConfusions, assertSemanticHintSynchronization } from './lib/hint-semantic-review.mjs'
+import { readSenseSeparations } from './lib/sense-separations.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const read = async (name) => JSON.parse(await fs.readFile(path.join(root, 'src/features/vocab/editor-data', name), 'utf8'))
 const [basic, theme, senses, overrides] = await Promise.all([
   read('vocabularyWords.json'), read('themeWords.json'), read('learnContent.json'), read('hintConfusions.json'),
 ])
-const words = [...basic, ...theme], byWord = new Map(words.map((word) => [word.id, word])), bySense = new Map(senses.map((sense) => [sense.id, sense]))
+const separated = await readSenseSeparations(root, senses)
+const words = [...basic, ...theme], byWord = new Map(words.map((word) => [word.id, word])), bySense = new Map(separated.senses.map((sense) => [sense.id, sense]))
 const [semanticReview, ...dictionaryCandidates] = await Promise.all([
   fs.readFile(path.join(root, 'content/learn/hint-semantic-review.json'), 'utf8').then(JSON.parse),
   ...['n5', 'n4', 'n3', 'n2', 'n1', 'unassigned'].map((level) =>
     fs.readFile(path.join(root, `content/jlpt/candidates/${level}.json`), 'utf8').then(JSON.parse)),
 ])
-const reviewed = buildSemanticHintConfusions(semanticReview, words, senses, dictionaryCandidates.flat())
+const reviewed = buildSemanticHintConfusions(semanticReview, words, senses, dictionaryCandidates.flat(), separated.senses)
 assertSemanticHintSynchronization(overrides, reviewed.supplements)
-const rows = senses.map((sense) => {
+const rows = separated.senses.map((sense) => {
   const word = byWord.get(sense.wordId), override = overrides[sense.id]
   const labels = override?.senseVersion === sense.version ? override.words : []
   const targets = [word.japanese, word.reading, ...sense.examples.flatMap((example) => [example.answer, example.reading])]
@@ -31,7 +33,7 @@ const rows = senses.map((sense) => {
     excluded, safeLabels: supplied.filter((label) => !hintComparisonIssue(label, targets)).slice(0, 2) }
 })
 const affected = rows.filter((row) => row.excluded.length)
-const summary = { words: words.length, senses: senses.length, examples: senses.reduce((sum, sense) => sum + sense.examples.length, 0),
+const summary = { words: words.length, senses: rows.length, examples: separated.senses.reduce((sum, sense) => sum + sense.examples.length, 0),
   suppliedLabels: rows.reduce((sum, row) => sum + row.supplied.length, 0),
   unsafeLabels: rows.reduce((sum, row) => sum + row.excluded.length, 0),
   permittedSharedKanjiLabels: rows.reduce((sum, row) => {

@@ -55,9 +55,9 @@
     "reviewScope": "user-authorized editorial correction; no new independent approval claimed"
   },
   "editorialCorrections": {
-    "journals": 1,
-    "entries": 3,
-    "sourceHash": "9903bd9cb9a5284a7ba8f23df5a8c75eb0c2bab926d13b2b48fa8dc3083f22f9",
+    "journals": 3,
+    "entries": 6,
+    "sourceHash": "6698ca9675a9eac785ce3716991d25e919966fa07d7f97c3c98d1105a3d66e53",
     "reviewScope": "user-authorized editorial amendments; original independent approvals cover historical snapshots only"
   },
   "complete": true,

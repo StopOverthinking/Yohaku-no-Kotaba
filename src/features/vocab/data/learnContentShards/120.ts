@@ -2278,11 +2278,11 @@ const content: LearnSense[] = [
     "wordId": "lex-jmdict-1255560",
     "version": 1,
     "meaning": "월급",
-    "hint": "매달 지급되는 급여",
+    "hint": "한 달 단위로 정해 받는 급여예요.",
     "confusions": [
       {
-        "japanese": "時給",
-        "distinction": "月給는 한 달 단위의 급여, 時給는 한 시간 단위의 급여이다."
+        "japanese": "給料",
+        "distinction": "月給는 한 달 단위의 월급이다. 給料는 일한 대가로 받는 급여로 지급 주기를 한정하지 않는다."
       }
     ],
     "review": {

@@ -181,5 +181,203 @@
       }
     ],
     "entriesHash": "ba1d4e9c151fd22a9abcd4650191dcbc32237078e219add59b99c66fbaa4d357"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "2026-10-21-payroll-terminology",
+    "scope": "user-authorized-payroll-terminology-correction",
+    "authorization": "사용자 요청: 月給와 給料를 명확히 구분하고 현재 등록된 給料의 뜻을 급여로 정정한다. 노동 대가라는 기존 핵심 뜻은 유지한다.",
+    "review": {
+      "outcome": "accepted",
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-10-21T01:59:31.591Z"
+    },
+    "entries": [
+      {
+        "kind": "word",
+        "before": {
+          "id": "lex-jmdict-1230360",
+          "setId": "jlpt-level-n3",
+          "japanese": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "급료, 월급",
+          "type": "noun",
+          "difficulty": 27,
+          "verbInfo": null,
+          "sourceOrder": 223
+        },
+        "after": {
+          "id": "lex-jmdict-1230360",
+          "setId": "jlpt-level-n3",
+          "japanese": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "급여",
+          "type": "noun",
+          "difficulty": 27,
+          "verbInfo": null,
+          "sourceOrder": 223
+        },
+        "beforeHash": "ea9ce6a890bf3723c05a1a7537b22b26d20840603c05b4b952b33d99f50b478b",
+        "afterHash": "bc777dde23067ccdd202d44a025229dbe28de2272de3a85e058a02fd6ba8a110",
+        "reason": "給料의 한국어 뜻을 급여로 통일; 월 단위의 月給와 구분"
+      },
+      {
+        "kind": "sense",
+        "before": {
+          "id": "sense-lex-jmdict-1230360-1",
+          "wordId": "lex-jmdict-1230360",
+          "version": 1,
+          "meaning": "급료, 월급",
+          "hint": "일한 대가로 고용주에게 정기적으로 받는 돈을 떠올려 보세요.",
+          "confusions": [
+            {
+              "japanese": "収入",
+              "distinction": "給料: 고용 관계에서 노동의 대가로 받는 돈; 収入: 급료 외에도 사업·투자 등으로 들어오는 돈 전반."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1230360-1-ex-1",
+              "version": 1,
+              "before": "初めての",
+              "answer": "給料",
+              "after": "で、両親を食事に招待した。",
+              "reading": "きゅうりょう",
+              "translation": "첫 월급으로 부모님을 식사에 초대했다.",
+              "translationTarget": "월급",
+              "difficulty": 25,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-lex-jmdict-1230360-1",
+          "wordId": "lex-jmdict-1230360",
+          "version": 1,
+          "meaning": "급여",
+          "hint": "지급 주기와 관계없이 일한 대가로 받는 돈이에요.",
+          "confusions": [
+            {
+              "japanese": "月給",
+              "distinction": "給料는 일한 대가로 받는 급여로 지급 주기를 한정하지 않는다. 月給는 한 달 단위로 정해 받는 월급이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1230360-1-ex-1",
+              "version": 2,
+              "before": "初めての",
+              "answer": "給料",
+              "after": "で、両親を食事に招待した。",
+              "reading": "きゅうりょう",
+              "translation": "첫 급여로 부모님을 식사에 초대했다.",
+              "translationTarget": "급여",
+              "difficulty": 25,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "a2aaa891a2525833b25fd8d456a049e1a85fb3fc633169033e1d75fc9e5c29cf",
+        "afterHash": "0210fee686213015eec81da4c2d43bd25328e1230b9d5bb4867d104d914d6e96",
+        "reason": "기존 노동 대가 용법 유지; 뜻·힌트·대비 및 한국어 번역을 급여로 통일"
+      }
+    ],
+    "entriesHash": "0907b0145267896e510fa1e72b1342dfc84eda7528c6e64ef18df3be73f3e00b"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "2026-10-21-monthly-pay-hint",
+    "scope": "user-authorized-notation-reading-hint-correction",
+    "authorization": "사용자 요청: 월급 月給와 급여 給料를 명확히 구분한다.",
+    "review": {
+      "outcome": "accepted",
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-10-21T01:59:31.591Z"
+    },
+    "entries": [
+      {
+        "kind": "sense",
+        "before": {
+          "id": "sense-lex-jmdict-1255560-1",
+          "wordId": "lex-jmdict-1255560",
+          "version": 1,
+          "meaning": "월급",
+          "hint": "매달 지급되는 급여",
+          "confusions": [
+            {
+              "japanese": "時給",
+              "distinction": "月給는 한 달 단위의 급여, 時給는 한 시간 단위의 급여이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1255560-1-ex-1",
+              "version": 1,
+              "before": "",
+              "answer": "月給",
+              "after": "は高くないが、仕事と生活の時間を調整しやすい。",
+              "reading": "げっきゅう",
+              "translation": "월급은 높지 않지만 일과 생활 시간을 조정하기 쉽다.",
+              "translationTarget": "월급",
+              "difficulty": 38,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-lex-jmdict-1255560-1",
+          "wordId": "lex-jmdict-1255560",
+          "version": 1,
+          "meaning": "월급",
+          "hint": "한 달 단위로 정해 받는 급여예요.",
+          "confusions": [
+            {
+              "japanese": "給料",
+              "distinction": "月給는 한 달 단위의 월급이다. 給料는 일한 대가로 받는 급여로 지급 주기를 한정하지 않는다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1255560-1-ex-1",
+              "version": 1,
+              "before": "",
+              "answer": "月給",
+              "after": "は高くないが、仕事と生活の時間を調整しやすい。",
+              "reading": "げっきゅう",
+              "translation": "월급은 높지 않지만 일과 생활 시간을 조정하기 쉽다.",
+              "translationTarget": "월급",
+              "difficulty": 38,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "94fe3ca377bc4dcece5dde464cb0650e4afe8adfd1f958047cf969a8094f5fca",
+        "afterHash": "3ade6f5c06f1f30f76cd52251db398a397eda17616502a795dfae817652daa20",
+        "reason": "한 달 단위라는 月給의 기존 뜻을 명확히 설명"
+      }
+    ],
+    "entriesHash": "60977c47da8a25048895f2c8ba8f5bc7c53e8b7785b3019a7a3ee41066403510"
   }
 ]

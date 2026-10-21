@@ -3,6 +3,8 @@ import { learnContent } from '@/features/vocab/data/learnContent'
 import { hintConfusions } from '@/features/vocab/data/hintConfusions'
 import sourceHintConfusions from '@/features/vocab/editor-data/hintConfusions.json'
 import semanticReview from '../../../content/learn/hint-semantic-review.json'
+import { senseSeparations } from '@/features/vocab/data/senseSeparations'
+import { separateContextSenses } from './contextSenseSeparations'
 import { contextContentIssues, contextContentReady, contextWords } from './contextContent'
 import { hintComparisonIssue, questionKanjiLeaks, isReviewedSense, validateLearnContent, validateHintConfusions } from './contentValidation'
 import { similarHintWords } from './contextPresentation'
@@ -14,7 +16,7 @@ describe('published contextual corpus', () => {
     expect(semanticReview.scope).toEqual({ words: contextWords.length, senses: learnContent.length })
     expect(decisions.size).toBe(learnContent.length)
     expect(semanticReview.entries.length).toBe(learnContent.length)
-    expect(Object.keys(hintConfusions).length).toBe(learnContent.length)
+    expect(Object.keys(hintConfusions).length).toBe(learnContent.length + semanticReview.usageEntries.length)
     for (const sense of learnContent) {
       const word = words.get(sense.wordId)!
       const decision = decisions.get(sense.id)!
@@ -37,12 +39,18 @@ describe('published contextual corpus', () => {
         expect(fallback, example.id).toEqual([])
       }
     }
+    const usageDecisions = new Map(semanticReview.usageEntries.map(entry => [entry.senseId, entry]))
+    for (const sense of separateContextSenses(learnContent, senseSeparations)) {
+      const decision = usageDecisions.get(sense.id) ?? decisions.get(sense.id)
+      const comparisons = similarHintWords(sense, words.get(sense.wordId)!, sense.examples[0])
+      expect(comparisons, sense.id).toEqual(decision?.selected.map(entry => entry.japanese) ?? [])
+    }
   })
 
   it('uses Korean-sense friends and excludes acquaintances, opposites and different dictionary senses', () => {
     const words = new Map(contextWords.map((word) => [word.id, word]))
     expect(hintConfusions).toEqual(sourceHintConfusions)
-    expect(validateHintConfusions(hintConfusions, learnContent, words)).toEqual([])
+    expect(validateHintConfusions(hintConfusions, [...learnContent, ...separateContextSenses(learnContent, senseSeparations)], words)).toEqual([])
     const friends = learnContent.filter((sense) => words.get(sense.wordId)!.japanese === '友達')
     expect(friends.length).toBeGreaterThan(0)
     for (const sense of friends) {

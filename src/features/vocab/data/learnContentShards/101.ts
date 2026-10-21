@@ -1212,12 +1212,12 @@ const content: LearnSense[] = [
     "id": "sense-lex-jmdict-1230360-1",
     "wordId": "lex-jmdict-1230360",
     "version": 1,
-    "meaning": "급료, 월급",
-    "hint": "일한 대가로 고용주에게 정기적으로 받는 돈을 떠올려 보세요.",
+    "meaning": "급여",
+    "hint": "지급 주기와 관계없이 일한 대가로 받는 돈이에요.",
     "confusions": [
       {
-        "japanese": "収入",
-        "distinction": "給料: 고용 관계에서 노동의 대가로 받는 돈; 収入: 급료 외에도 사업·투자 등으로 들어오는 돈 전반."
+        "japanese": "月給",
+        "distinction": "給料는 일한 대가로 받는 급여로 지급 주기를 한정하지 않는다. 月給는 한 달 단위로 정해 받는 월급이다."
       }
     ],
     "review": {
@@ -1228,13 +1228,13 @@ const content: LearnSense[] = [
     "examples": [
       {
         "id": "sense-lex-jmdict-1230360-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "初めての",
         "answer": "給料",
         "after": "で、両親を食事に招待した。",
         "reading": "きゅうりょう",
-        "translation": "첫 월급으로 부모님을 식사에 초대했다.",
-        "translationTarget": "월급",
+        "translation": "첫 급여로 부모님을 식사에 초대했다.",
+        "translationTarget": "급여",
         "difficulty": 25,
         "status": "reviewed",
         "beforeFurigana": [

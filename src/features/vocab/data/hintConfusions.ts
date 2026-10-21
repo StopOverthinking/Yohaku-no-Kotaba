@@ -7642,7 +7642,9 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1003170-1": {
     "senseVersion": 1,
-    "words": []
+    "words": [
+      "失望しました"
+    ]
   },
   "sense-lex-jmdict-1003190-1": {
     "senseVersion": 1,
@@ -13345,7 +13347,8 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1230360-1": {
     "senseVersion": 1,
     "words": [
-      "賃金"
+      "賃金",
+      "月給"
     ]
   },
   "sense-lex-jmdict-1231060-1": {
@@ -13959,6 +13962,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1245470-1": {
     "senseVersion": 1,
     "words": []
+  },
+  "sense-lex-jmdict-1245470-1-usage-3": {
+    "senseVersion": 1,
+    "words": [
+      "雰囲気"
+    ]
   },
   "sense-lex-jmdict-1245570-1": {
     "senseVersion": 1,
@@ -22748,6 +22757,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": []
   },
+  "sense-lex-jmdict-1489340-1-usage-3": {
+    "senseVersion": 1,
+    "words": [
+      "外"
+    ]
+  },
   "sense-lex-jmdict-1489350-1": {
     "senseVersion": 1,
     "words": []
@@ -22931,6 +22946,12 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1495740-1": {
     "senseVersion": 1,
     "words": []
+  },
+  "sense-lex-jmdict-1495740-1-usage-2": {
+    "senseVersion": 1,
+    "words": [
+      "点く"
+    ]
   },
   "sense-lex-jmdict-1496480-1": {
     "senseVersion": 1,

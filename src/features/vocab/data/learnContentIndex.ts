@@ -48881,11 +48881,11 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
       "diversity": true
     },
     "shard": 101,
-    "meaning": "급료, 월급",
+    "meaning": "급여",
     "examples": [
       {
         "id": "sense-lex-jmdict-1230360-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 25,
         "status": "reviewed"
       }
