@@ -89,7 +89,7 @@ export function ContextSessionPage() {
       </div>
     )
   const targetStart = example.translation.indexOf(example.translationTarget)
-  const similarWords = session.hintShown ? similarHintWords(sense, word, example) : []
+  const similarWords = similarHintWords(sense, word, example)
   return (
     <div className={styles.root}>
       <header className={styles.header}>
@@ -152,6 +152,14 @@ export function ContextSessionPage() {
           </span>
         </div>
         <div className={styles.details}>
+          {similarWords.length > 0 && (
+            <div className={styles.similarWords} style={{ fontSize: `${0.95 + fontScale * 0.15}rem` }}>
+              <span className={styles.similarLabel}>비슷한 단어</span>
+              <div className={styles.similarList}>
+                {similarWords.map((similarWord) => <span key={similarWord} lang="ja">{similarWord}</span>)}
+              </div>
+            </div>
+          )}
           {session.revealed && (
             <div className={styles.forms}>
               <span>
@@ -168,9 +176,6 @@ export function ContextSessionPage() {
           {session.hintShown && (
             <div className={styles.hint}>
               <p>{sense.hint}</p>
-              {similarWords.length > 0 && (
-                <p className={styles.similarWords}>비슷한 단어: <span lang="ja">{similarWords.join(' · ')}</span></p>
-              )}
             </div>
           )}
         </div>

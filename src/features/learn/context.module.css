@@ -117,8 +117,33 @@
 .hint p {
   margin: 0;
 }
-.hint .similarWords {
-  margin-top: 0.4rem;
+.similarWords {
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+  color: var(--accent-ice);
+  text-align: center;
+}
+.similarLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.similarList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 100%;
+  min-width: 0;
+}
+.similarList span {
+  min-width: 0;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid color-mix(in srgb, var(--accent-ice) 45%, transparent);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent-ice) 12%, transparent);
+  font-weight: 700;
+  line-height: 1.5;
   overflow-wrap: anywhere;
 }
 .tools {
