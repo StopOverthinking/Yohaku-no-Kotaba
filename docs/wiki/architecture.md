@@ -10,6 +10,8 @@
 
 ## 앱 부팅 흐름
 
+`frontend-v2` 브랜치부터 루트 `index.html`은 `v2/src/main.tsx`를 연다. v2는 `src/`의 스토어·엔진·데이터를 그대로 import하고 화면만 새로 그린다(해시 라우터 `#/…`, 하단 탭/왼쪽 레일). 아래 v1 흐름은 `src/main.tsx`로 직접 열 때와 기존 테스트에 해당한다. 상세는 [프론트엔드 v2 계획](../plans/frontend-v2.md).
+
 1. `src/main.tsx`에서 테마를 먼저 적용한다.
 2. `RouterProvider`로 라우터를 마운트한다.
 3. `src/app/App.tsx`가 전역 프레임과 라우트 전환 애니메이션을 담당한다.

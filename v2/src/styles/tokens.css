@@ -1,0 +1,84 @@
+/* v2 design tokens. Flat surfaces, one hairline, one accent. No blur/filter. */
+:root {
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-pill: 999px;
+
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-2xl: 40px;
+
+  --font-ui: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+  --font-jp: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", "Yu Gothic", "Meiryo", var(--font-ui);
+
+  --w-focus: 640px;
+  --w-wide: 960px;
+  --tabbar-h: 64px;
+  --rail-w: 88px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f5f3ee;
+  --surface: #ffffff;
+  --surface-2: #eeebe4;
+  --surface-3: #e4e0d6;
+  --ink: #1b1b1a;
+  --ink-2: #57544e;
+  --ink-3: #8a867e;
+  --line: #e2ded5;
+  --line-strong: #cfcac0;
+  --accent: #2f4f9a;
+  --accent-ink: #ffffff;
+  --accent-soft: #e3e8f4;
+  --mark: #c0432a;
+  --known: #2e7a57;
+  --known-soft: #e2f0e8;
+  --unknown: #c0432a;
+  --unknown-soft: #f7e4df;
+  --danger: #b4392a;
+  --focus: #2f4f9a;
+  --shadow-float: 0 12px 40px rgba(27, 27, 26, 0.14);
+  --scrim: rgba(27, 27, 26, 0.36);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #121314;
+  --surface: #1b1c1e;
+  --surface-2: #242528;
+  --surface-3: #2e3034;
+  --ink: #eceae4;
+  --ink-2: #b0ada6;
+  --ink-3: #7d7a74;
+  --line: #2c2d31;
+  --line-strong: #3b3d42;
+  --accent: #9db2ee;
+  --accent-ink: #10131b;
+  --accent-soft: #232a3d;
+  --mark: #f0876b;
+  --known: #74c9a0;
+  --known-soft: #1d2d25;
+  --unknown: #f0876b;
+  --unknown-soft: #35221d;
+  --danger: #f0876b;
+  --focus: #9db2ee;
+  --shadow-float: 0 16px 48px rgba(0, 0, 0, 0.5);
+  --scrim: rgba(0, 0, 0, 0.55);
+}

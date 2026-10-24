@@ -10,3 +10,4 @@ output/
 *.log
 *.err
 *.out
+dist-v2/
