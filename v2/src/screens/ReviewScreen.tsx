@@ -3,7 +3,7 @@ import { CalendarCheck2, RotateCcw, Search, Trash2, X } from 'lucide-react'
 import { useContextStore } from '@/features/learn/contextStore'
 import { contextSenses, contextWordMap } from '@/features/learn/contextContent'
 import { addDays, localDay } from '@/features/learn/contextReviewPolicy'
-import { reviewList } from '@/features/learn/reviewList'
+import { dueReviewCount, reviewList } from '@/features/learn/reviewList'
 import { ConfirmDialog, IconButton } from '@v2/ui/primitives'
 import '@v2/styles/review.css'
 
@@ -32,7 +32,7 @@ export function ReviewScreen() {
   const [confirmError, setConfirmError] = useState<string | null>(null)
   const today = localDay()
   const rows = useMemo(() => reviewList(data, contextSenses), [data])
-  const nowCount = rows.filter((row) => row.profile.due <= today).length
+  const nowCount = dueReviewCount(rows, today)
 
   const groups = useMemo(() => {
     const q = query.trim()

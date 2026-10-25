@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { emptyContextState, profileKey, reviewProfile } from './contextEngine'
-import { reviewList, formatScoreChange } from './reviewList'
+import { dueReviewCount, reviewList, formatScoreChange } from './reviewList'
 import { testSense } from './contextTestFixtures'
 
 describe('review list', () => {
@@ -29,6 +29,18 @@ describe('review list', () => {
     // Early practice changes lastDay, never the established interval or list membership.
     state.profiles[profileKey(senses[1])].lastDay = '2026-09-28'
     expect(reviewList(state, senses)).toHaveLength(3)
+  })
+  it('counts every listed usage due by today regardless of the selected wordbook', () => {
+    const senses = ['late', 'today', 'tomorrow', 'removed'].map((id) => testSense(id))
+    const state = emptyContextState()
+    for (const sense of senses)
+      state.profiles[profileKey(sense)] = reviewProfile(undefined, sense, sense.examples[0], true, false, '2026-09-01')
+    Object.assign(state.profiles[profileKey(senses[0])], { due: '2026-10-24' })
+    Object.assign(state.profiles[profileKey(senses[1])], { due: '2026-10-25', lastDay: '2026-10-25' })
+    Object.assign(state.profiles[profileKey(senses[2])], { due: '2026-10-26' })
+    Object.assign(state.profiles[profileKey(senses[3])], { due: '2026-10-25' })
+    state.excludedWordIds = ['removed']
+    expect(dueReviewCount(reviewList(state, senses), '2026-10-25')).toBe(2)
   })
   it('returns failed mastered words to the list and rounds tiny score changes without negative zero', () => {
     const sense = testSense('a')

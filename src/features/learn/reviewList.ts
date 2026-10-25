@@ -1,6 +1,6 @@
 import { profileKey } from './contextEngine'
 import { reviewInterval } from './contextReviewPolicy'
-import type { ContextState, LearnSenseIndex } from './contextTypes'
+import type { ContextState, LearnSenseIndex, ReviewProfile } from './contextTypes'
 
 // Keep every pending review visible until its flow explicitly finishes.
 export function reviewList<T extends LearnSenseIndex>(state: ContextState, senses: T[]) {
@@ -20,7 +20,11 @@ export function reviewList<T extends LearnSenseIndex>(state: ContextState, sense
     )
 }
 
-export const formatScore = (value: number) => value.toFixed(1)
+// Home "today" count and the list's "now" filter share one rule: every wordbook, every listed usage.
+export const dueReviewCount = (rows: Array<{ profile: ReviewProfile }>, today: string) =>
+  rows.filter((row) => row.profile.due <= today).length
+
+export const formatScore =(value: number) => value.toFixed(1)
 export function formatScoreChange(before: number, after: number) {
   const difference = Math.round((after - before) * 10) / 10
   return `${difference > 0 ? '+' : ''}${difference.toFixed(1)}`

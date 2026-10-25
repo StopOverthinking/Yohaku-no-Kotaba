@@ -8,6 +8,7 @@ import { contextAliasCatalog, contextContentReady, contextSenseMap, contextSense
 import { eligibleStudyWords } from '@/features/learn/contextEligibility'
 import { scopedReviews } from '@/features/learn/contextPresentation'
 import { localDay } from '@/features/learn/contextReviewPolicy'
+import { dueReviewCount, reviewList } from '@/features/learn/reviewList'
 
 /**
  * Same selection rules as v1 LearnSetupPage, exposed as one hook so the v2
@@ -63,7 +64,9 @@ export function useLearnPlan() {
   )
   const eligibleIds = useMemo(() => eligibleStudyWords(data, contextSenses, today), [data, today])
   const maxAvailable = useMemo(() => [...scopeIds].filter((id) => eligibleIds.has(id)).length, [scopeIds, eligibleIds])
-  const { dueCount, nextDue } = useMemo(
+  // The "today" stat opens the review list, so it counts exactly that list's "now" rows, not the selected scope.
+  const dueCount = useMemo(() => dueReviewCount(reviewList(data, contextSenses), today), [data, today])
+  const { nextDue } = useMemo(
     () => scopedReviews(data.profiles, contextSenseMap, scopeIds, contextAliasCatalog.resolveWordId, today, data.excludedWordIds),
     [data.profiles, data.excludedWordIds, scopeIds, today],
   )
