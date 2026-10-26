@@ -8,27 +8,11 @@ import { useContextStore } from '@/features/learn/contextStore'
 import { useContextSense } from '@/features/learn/useContextSense'
 import { profileKey } from '@/features/learn/contextEngine'
 import { cardRecency, similarHintWords } from '@/features/learn/contextPresentation'
-import { kanjiFurigana } from '@/features/learn/furiganaPresentation'
-import type { FuriganaPart } from '@/features/learn/contextTypes'
 import { IconButton } from '@v2/ui/primitives'
+import { Furigana } from '@v2/ui/Furigana'
 import '@v2/styles/session.css'
 
 const SWIPE_DISTANCE = 96
-
-function Furigana({ text, parts }: { text: string; parts?: FuriganaPart[] }) {
-  return parts
-    ? parts.flatMap(kanjiFurigana).map((part, index) =>
-        part.reading ? (
-          <ruby key={index}>
-            {part.text}
-            <rt>{part.reading}</rt>
-          </ruby>
-        ) : (
-          <span key={index}>{part.text}</span>
-        ),
-      )
-    : text
-}
 
 export function SessionScreen() {
   const navigate = useNavigate()
