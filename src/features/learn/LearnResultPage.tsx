@@ -7,11 +7,13 @@ import { Tooltip } from '@/components/Tooltip'
 import styles from '@/features/learn/learn.module.css'
 import { ScoreSummary } from './ScoreSummary'
 import { useContextStore } from './contextStore'
+import { jlptGradeLabel } from './jlptEstimate'
 
 export function LearnResultPage() {
   const navigate = useNavigate()
   const lastResult = useContextStore((state) => state.lastResult)
   const clearContextResult = useContextStore((state) => state.clearResult)
+  const assessed = useContextStore((state) => state.data.level.assessedWordIds.length)
   const leavingForHome = useRef(false)
 
   if (!lastResult) {
@@ -27,7 +29,11 @@ export function LearnResultPage() {
           {<p className="section-copy">다음 복습 일정에 반영했습니다.</p>}
         </div>
 
-        <ScoreSummary value={lastResult.score.after} change={lastResult.score} />
+        <ScoreSummary
+          value={lastResult.score.after}
+          change={lastResult.score}
+          grade={jlptGradeLabel(lastResult.score.after, assessed)}
+        />
 
         <div className="meta-grid">
           <GlassPanel className="meta-card" padding="sm">

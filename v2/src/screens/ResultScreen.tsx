@@ -3,17 +3,21 @@ import { Navigate, useNavigate } from 'react-router-dom'
 import { CalendarClock, Check, House } from 'lucide-react'
 import { useContextStore } from '@/features/learn/contextStore'
 import { formatScore, formatScoreChange } from '@/features/learn/reviewList'
+import { jlptGradeLabel } from '@/features/learn/jlptEstimate'
 import '@v2/styles/result.css'
 
 export function ResultScreen() {
   const navigate = useNavigate()
   const lastResult = useContextStore((state) => state.lastResult)
+  const assessed = useContextStore((state) => state.data.level.assessedWordIds.length)
   const clearResult = useContextStore((state) => state.clearResult)
   const leaving = useRef<string | null>(null)
 
   if (!lastResult) return <Navigate to={leaving.current ?? '/'} replace />
 
   const delta = formatScoreChange(lastResult.score.before, lastResult.score.after)
+  const gradeBefore = jlptGradeLabel(lastResult.score.before, assessed)
+  const gradeAfter = jlptGradeLabel(lastResult.score.after, assessed)
   const leave = (to: string) => {
     leaving.current = to
     clearResult()
@@ -38,6 +42,18 @@ export function ResultScreen() {
           {delta}
         </span>
       </section>
+
+      {gradeAfter && (
+        <p className="result__grade" title="JLPT 어휘 환산">
+          {gradeBefore !== gradeAfter && (
+            <>
+              <span className="result__from">{gradeBefore}</span>
+              <span className="result__arrow" aria-hidden="true">→</span>
+            </>
+          )}
+          <strong>{gradeAfter}</strong>
+        </p>
+      )}
 
       <dl className="result__stats">
         <div>

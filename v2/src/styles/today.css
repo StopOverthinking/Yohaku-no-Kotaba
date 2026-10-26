@@ -57,9 +57,16 @@
   color: var(--ink-3);
 }
 
-.stat__value--sm {
-  font-size: 20px;
-  line-height: 1.55;
+/* Narrow cells drop the change below the score, still inside the score cell. */
+.stat__score {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 2px;
+}
+
+.stat__score .stat__delta {
+  margin-top: 2px;
 }
 
 .stat__delta {

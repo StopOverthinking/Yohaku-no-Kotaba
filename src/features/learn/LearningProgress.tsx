@@ -4,6 +4,7 @@ import { GlassPanel } from '@/components/GlassPanel'
 import { IconButton } from '@/components/IconButton'
 import { useContextStore } from './contextStore'
 import { ScoreSummary } from './ScoreSummary'
+import { jlptGradeLabel } from './jlptEstimate'
 import { ReviewGuide } from './ReviewGuide'
 import styles from './progress.module.css'
 
@@ -13,7 +14,11 @@ export function LearningProgress() {
   return (
     <GlassPanel padding="md">
       <div className={styles.toolbar}>
-        <ScoreSummary value={data.level.value} change={data.lastScoreChange} />
+        <ScoreSummary
+          value={data.level.value}
+          change={data.lastScoreChange}
+          grade={jlptGradeLabel(data.level.value, data.level.assessedWordIds.length)}
+        />
         <IconButton icon={CalendarDays} label="복습 예정 단어" onClick={() => navigate('/learn/review')} />
       </div>
       {data.level.assessedWordIds.length < 20 && (

@@ -4,6 +4,7 @@ import { ArrowRight, CircleHelp, Heart, ListChecks, MoonStar, Play, Plus, Rotate
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { useContextStore } from '@/features/learn/contextStore'
 import { formatScore, formatScoreChange } from '@/features/learn/reviewList'
+import { jlptGradeLabel } from '@/features/learn/jlptEstimate'
 import { useLearnPlan } from '@v2/lib/useLearnPlan'
 import { IconButton, Sheet, Stepper, Switch, useConfirm } from '@v2/ui/primitives'
 import { RulesContent } from '@v2/screens/RulesContent'
@@ -27,6 +28,7 @@ export function TodayScreen() {
   const d = plan.learnDefaults
   const assessed = level.assessedWordIds.length
   const delta = lastScoreChange ? formatScoreChange(lastScoreChange.before, lastScoreChange.after) : null
+  const grade = jlptGradeLabel(level.value, assessed)
 
   const discardSession = async () => {
     const ok = await confirm({ title: '학습을 닫을까요?', body: '이미 학습한 기록은 유지됩니다.', confirmLabel: '닫기' })
@@ -56,34 +58,40 @@ export function TodayScreen() {
       <section className="stats" aria-label="학습 현황">
         <div className="stat">
           <span className="stat__label">점수</span>
-          <strong className="stat__value">{formatScore(level.value)}</strong>
-          {delta && (
-            <span className="stat__delta" data-sign={delta.startsWith('-') ? 'down' : delta === '0.0' ? 'flat' : 'up'}>
-              {delta}
-            </span>
-          )}
+          {/* The change hangs off the score itself so it never reads as part of the grade. */}
+          <span className="stat__score">
+            <strong className="stat__value">{formatScore(level.value)}</strong>
+            {delta && (
+              <span className="stat__delta" data-sign={delta.startsWith('-') ? 'down' : delta === '0.0' ? 'flat' : 'up'}>
+                {delta}
+              </span>
+            )}
+          </span>
         </div>
         <button type="button" className="stat stat--link" onClick={() => navigate('/learn/review')}>
           <span className="stat__label">오늘 복습</span>
           <strong className="stat__value">{plan.dueCount}</strong>
           <ArrowRight size={16} className="stat__go" />
         </button>
-        <div className="stat">
-          <span className="stat__label">수준 측정</span>
-          {assessed >= 20 ? (
-            <strong className="stat__value stat__value--sm">완료</strong>
-          ) : (
-            <>
-              <strong className="stat__value">
-                {assessed}
-                <small>/20</small>
-              </strong>
-              <span className="meter" aria-hidden="true">
-                <span style={{ transform: `scaleX(${assessed / 20})` }} />
-              </span>
-            </>
-          )}
-        </div>
+        {grade ? (
+          <div className="stat">
+            <span className="stat__label">JLPT</span>
+            <strong className="stat__value" title="JLPT 어휘 환산">
+              {grade}
+            </strong>
+          </div>
+        ) : (
+          <div className="stat">
+            <span className="stat__label">수준 측정</span>
+            <strong className="stat__value">
+              {assessed}
+              <small>/20</small>
+            </strong>
+            <span className="meter" aria-hidden="true">
+              <span style={{ transform: `scaleX(${assessed / 20})` }} />
+            </span>
+          </div>
+        )}
       </section>
 
       {session ? (

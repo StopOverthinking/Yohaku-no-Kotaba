@@ -1,4 +1,5 @@
 import { RECOMMENDATION_POLICY } from './contextReviewPolicy'
+import { JLPT_ESTIMATE_POLICY, jlptAnchorSummary } from './jlptEstimate'
 import styles from './progress.module.css'
 
 export function ReviewGuide() {
@@ -7,7 +8,7 @@ export function ReviewGuide() {
       <summary>점수와 복습일은 어떻게 정하나요?</summary>
       <h3>점수는 다음 문제의 난도를 고르는 기준이에요</h3>
       <p>
-        앎을 누르면 오르고 모름을 누르면 내려갑니다. 만점이나 합격선은 없고, JLPT 등급도 아니에요. 처음에는
+        앎을 누르면 오르고 모름을 누르면 내려갑니다. 만점은 없어요. 처음에는
         N5~N4 수준으로 가정해 {RECOMMENDATION_POLICY.initialLevel}점에서 시작하며, 단어장이나 범위를 바꿔도 초기 점수는 같습니다.
       </p>
       <p>
@@ -19,6 +20,12 @@ export function ReviewGuide() {
         측정 후에는 알고 있을 가능성이 약 75%인 새 문제를 우선합니다. 그 예상과 정확히 맞는 문제에서 앎은
         +0.5점, 모름은 −1.5점이에요. 실제 변화량은 각 문제의 난도에 따라 달라집니다. 같은 용법은 하루에 한
         번만 점수에 반영하고, 힌트·정답 공개·응답 속도로 감점하지 않아요.
+      </p>
+      <h3>측정이 끝나면 JLPT 어휘 등급으로도 환산해요</h3>
+      <p>
+        해당 등급 단어를 약 {Math.round(JLPT_ESTIMATE_POLICY.passRecall * 100)}% 맞힐 것으로 예상되는 점수를 그 등급으로 봅니다({jlptAnchorSummary()}).
+        사이는 소수 첫째 자리로 나눠요. N4.7은 N5에서 N4로 30% 올라온 수준이고, N5 아래는 N5.9까지 표시합니다.
+        어휘만 반영하므로 문법·청해·독해는 포함하지 않아요.
       </p>
       <h3>처음부터 알면 빠르게 간격을 늘려요</h3>
       <p>
