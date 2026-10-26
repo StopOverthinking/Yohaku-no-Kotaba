@@ -142,3 +142,50 @@ test('answer continuous, negative and causative forms are not separate compariso
   assert.equal(hintComparisonIssue('勉強する', ['勉強', 'べんきょう']), 'simple answer inflection')
   assert.equal(hintComparisonIssue('大切だ', ['大切', 'たいせつ']), 'simple answer inflection')
 })
+
+test('reviewed na-adverbs require the exact dictionary form, reading and adjectival-noun sense', () => {
+  const input = fixture()
+  input.candidates[0] = { id: 'jmdict-1', japanese: '熱烈', spellings: ['熱烈'], readings: ['ねつれつ'],
+    senses: [{ pos: ['adjectival nouns or quasi-adjectives (keiyodoshi)'], glosses: ['ardent'] }] }
+  const selected = input.review.entries[0].selected[0]
+  Object.assign(selected, { japanese: '熱烈に', reading: 'ねつれつに', meaning: '열렬히' })
+  Object.assign(selected.evidence, { entryHash: dictionaryEntryHash(input.candidates[0]), sourceGlosses: ['ardent'], derivation: 'na-adverb' })
+  assert.deepEqual(build(input).supplements['friend-sense'].words, ['熱烈に'])
+  const before = structuredClone(input)
+  for (const corrupt of [
+    i => { delete i.review.entries[0].selected[0].evidence.derivation },
+    i => { i.review.entries[0].selected[0].reading = 'ねつれつ' },
+    i => { i.review.entries[0].selected[0].japanese = '熱烈な' },
+    i => { i.candidates[0].senses[0].pos = ['noun']; i.review.entries[0].selected[0].evidence.entryHash = dictionaryEntryHash(i.candidates[0]) },
+    i => { i.candidates[0].senses[0].glosses = ['unrelated'] },
+  ]) { const changed = structuredClone(before); corrupt(changed); assert.throws(() => build(changed)) }
+})
+
+test('reviewed noun compounds pin components, joined forms and attested source text', () => {
+  const input = fixture()
+  for (const [index, japanese, reading, meaning] of [[0, '案内', 'あんない', '안내'], [1, '放送', 'ほうそう', '방송']]) {
+    Object.assign(input.words[index], { japanese, reading, meaning, type: 'noun' })
+    Object.assign(input.senses[index], { meaning, examples: [{ answer: japanese, reading }] })
+    Object.assign(input.review.entries[index], { japanese, meaning })
+  }
+  input.review.sourceHash = hintSourceHash(input.words, input.senses)
+  const selected = input.review.entries[0].selected[0], sourceText = '駅案内放送の内容が画面に表示されるサービスです。'
+  Object.assign(selected, { japanese: '案内放送', reading: 'あんないほうそう', meaning: '안내 방송',
+    evidence: { type: 'corpus-compound', parts: input.senses.map((sense, index) => ({ senseId: sense.id,
+      sourceHash: dictionaryEntryHash({ word: input.words[index], sense }) })),
+      source: 'JR East announcement', sourceUrl: 'https://www.jreast.co.jp/press/2025/20250715_ho01.pdf',
+      sourceText, sourceTextHash: dictionaryEntryHash(sourceText) } })
+  assert.deepEqual(build(input).supplements['friend-sense'].words, ['案内放送'])
+  for (const corrupt of [
+    s => { s.evidence.parts[0].sourceHash = 'stale' }, s => { s.evidence.parts[0].senseId = 'missing' },
+    s => { s.evidence.parts.reverse() }, s => { s.evidence.parts.pop() },
+    s => { s.japanese = '案内会話' }, s => { s.reading = 'あんない' }, s => { s.meaning = '대화' },
+    s => { s.evidence.sourceUrl = '' }, s => { s.evidence.source = '' },
+    s => { s.evidence.sourceText += 'changed' },
+    s => { s.evidence.sourceText = '別の言葉'; s.evidence.sourceTextHash = dictionaryEntryHash(s.evidence.sourceText) },
+  ]) { const changed = structuredClone(input); corrupt(changed.review.entries[0].selected[0]); assert.throws(() => build(changed)) }
+  input.words[1].type = 'verb'
+  input.review.sourceHash = hintSourceHash(input.words, input.senses)
+  selected.evidence.parts[1].sourceHash = dictionaryEntryHash({ word: input.words[1], sense: input.senses[1] })
+  assert.throws(() => build(input), /compound component/)
+})

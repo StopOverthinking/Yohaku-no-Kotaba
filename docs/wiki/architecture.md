@@ -74,6 +74,6 @@
 
 ## 게시 경로
 
-`main` 푸시는 `.github/workflows/deploy-pages.yml`에서 GitHub Pages 게시를 시작한다. 빌드·전체 테스트·콘텐츠 감사가 성공한 경우에만 산출물을 업로드하고 게시한다. 공개 주소는 `https://stopoverthinking.github.io/Yohaku-no-Kotaba/`다.
+`main`과 `frontend-v2` 푸시는 `.github/workflows/deploy-pages.yml`에서 같은 GitHub Pages 게시를 시작한다. `frontend-v2`는 v2 진입점을 사용하며, v2가 아직 병합되지 않은 `main`을 푸시하면 기존 화면이 다시 게시될 수 있다. 빌드·전체 테스트·콘텐츠 감사가 성공한 경우에만 산출물을 업로드하고 게시한다. 공개 주소는 `https://stopoverthinking.github.io/Yohaku-no-Kotaba/`다.
 
 CI는 `release.json`에 실제 커밋 SHA, HTML 해시, 수준별 단어 수와 전체 확충 완료 여부를 기록한다. 푸시 성공과 게시 성공은 별도로 확인한다. 게시된 manifest의 SHA와 HTML 해시가 일치하는지 확인한 뒤 실제 학습 화면을 검증한다. 로컬 변경분을 이전 커밋의 게시물로 오인하지 않도록 manifest 생성에는 CI의 전체 `GITHUB_SHA`가 필요하다.

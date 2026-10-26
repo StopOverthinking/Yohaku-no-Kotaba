@@ -80086,13 +80086,37 @@
     {
       "senseId": "sense-lex-jmdict-1017340-1",
       "reviewStatus": "reviewed",
-      "selected": [],
-      "reason": "현재 「안내 방송」 및 예문 목표 구간 「안내 방송」를 개별 검토했다. 같은·가까운 한국어 뜻으로 뉘앙스를 대조할 확실한 후보를 선정하지 않았으며 관련어·반의어로 채우지 않는다.",
+      "selected": [
+        {
+          "japanese": "案内放送",
+          "reading": "あんないほうそう",
+          "meaning": "안내 방송",
+          "difference": "둘 다 안내 방송이다. アナウンス는 말로 알리는 안내·공지도 넓게 이르며, 案内放送는 방송으로 전하는 안내임을 명확히 한다.",
+          "evidence": {
+            "type": "corpus-compound",
+            "parts": [
+              {
+                "senseId": "sense-lex-jmdict-1154860-1",
+                "sourceHash": "b855e872a58940e61e9075132e5ccecd3f455ede97f4a9a73e1054b596d2f320"
+              },
+              {
+                "senseId": "sense-lex-jmdict-1516750-1",
+                "sourceHash": "c4bb26327b95a18963ac61cbb4f3a72c572fd56fef606a75a2f3cae701ccc924"
+              }
+            ],
+            "source": "JR東日本 2025-07-15 보도자료: みえるアナウンス의 역 안내 방송 용례",
+            "sourceUrl": "https://www.jreast.co.jp/press/2025/20250715_ho01.pdf",
+            "sourceText": "駅案内放送の内容が画面に表示されるサービスです。",
+            "sourceTextHash": "8c3bd5c166306b557c25d41cb704f301578eb85e744cb28cbe5620363f9259d2"
+          }
+        }
+      ],
+      "reason": "사용자 지정 案内放送를 역의 안내 방송이라는 현재 예문 의미에 선정했다. 기존 案内·放送의 표기·읽기·뜻과 JR東日本의 실제 案内放送 용례를 대조했다.",
       "senseVersion": 1,
       "wordId": "lex-jmdict-1017340",
       "japanese": "アナウンス",
       "meaning": "안내 방송",
-      "decision": "omit",
+      "decision": "replace",
       "rejected": [
         {
           "japanese": "会話",
@@ -80103,7 +80127,7 @@
           "reason": "현재 「안내 방송」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「방송」."
         }
       ],
-      "reviewMethod": "model-individual-semantic-review"
+      "reviewMethod": "user-authorized-current-session-semantic-review"
     },
     {
       "senseId": "sense-lex-jmdict-1017590-1",
@@ -143466,6 +143490,21 @@
       "reviewedAt": "2026-10-21T01:59:31.591Z",
       "authorization": "사용자 요청: 点く·外·雰囲気·失望しました 힌트 추가 및 月給와 給料 구분, 給料 뜻 급여 정정",
       "reason": "분리된 용법은 해당 예문과 뜻을 개별 대조했다. 기존 독립 승인과 분리 정의·학습 ID·용법 버전·순서는 유지한다."
+    },
+    {
+      "id": "2026-10-23-announcement-and-ardent-hints",
+      "previousReviewHash": "a4e3b996d7b74931b887d98383e258476745141d6b8a561314f32a7a024b2f13",
+      "previousSourceHash": "a818a05bc6d2bc556de3da7eb5ec2c5e0c2a30e20aa9cec89099fe84dfea193f",
+      "sourceHash": "a818a05bc6d2bc556de3da7eb5ec2c5e0c2a30e20aa9cec89099fe84dfea193f",
+      "senseIds": [
+        "sense-lex-jmdict-1017340-1",
+        "sense-lex-jmdict-1379750-1-usage-3"
+      ],
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-10-23T02:34:32.288Z",
+      "authorization": "사용자 요청: 안내방송 힌트로 案内放送 추가, 盛んに 힌트로 熱烈に 추가",
+      "reason": "현재 예문과 의미에 한정한 두 비교어만 추가한다. 기존 네 힌트·급여/월급 구분·학습 ID·용법과 예문 버전·승인 이력은 유지한다."
     }
   ],
   "sourceAmendments": [
@@ -143595,6 +143634,43 @@
       ],
       "decision": "replace",
       "reason": "사용자가 지정한 분위기 용법에만 雰囲気를 선정했다. 숨 쉬는 공기 의미에는 적용하지 않는다.",
+      "rejected": [],
+      "reviewMethod": "user-authorized-current-session-semantic-review"
+    },
+    {
+      "senseId": "sense-lex-jmdict-1379750-1-usage-3",
+      "senseVersion": 1,
+      "sourceSenseId": "sense-lex-jmdict-1379750-1",
+      "sourceHash": "9402a1c7d56ee7a87a3aeffcece529e0cf4f59495b6a7c081f64af6145c2c3e4",
+      "exampleIds": [
+        "sense-lex-jmdict-1379750-1-ex-3"
+      ],
+      "wordId": "lex-jmdict-1379750",
+      "japanese": "盛ん",
+      "meaning": "행동을 열렬히 함",
+      "reviewStatus": "reviewed",
+      "selected": [
+        {
+          "japanese": "熱烈に",
+          "reading": "ねつれつに",
+          "meaning": "열렬히",
+          "difference": "둘 다 열렬히 박수를 보내는 장면에 쓸 수 있다. 盛んに는 행동이 활발하고 거듭됨에, 熱烈には 감정·열의의 강함에 초점을 둔다.",
+          "evidence": {
+            "type": "dictionary",
+            "entryId": "jmdict-1468040",
+            "source": "JMdict: 熱烈의 열정적이라는 뜻과 형용동사 품사; 명시 선정한 부사형 に",
+            "entryHash": "4d7b21e69d4f447a293a07288b544eadb7397e306dedb385f5a17e8b1895ea5d",
+            "sourceGlosses": [
+              "ardent",
+              "passionate",
+              "vehement"
+            ],
+            "derivation": "na-adverb"
+          }
+        }
+      ],
+      "decision": "replace",
+      "reason": "사용자가 지정한 盛んに의 열렬히 박수를 보내는 용법에만 熱烈に를 선정했다. 관광업이 활발하다는 다른 용법에는 적용하지 않는다.",
       "rejected": [],
       "reviewMethod": "user-authorized-current-session-semantic-review"
     }

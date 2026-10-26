@@ -155,6 +155,8 @@
 
 ## 대량 자료 검사 실행 조건
 
+`scripts/lib/hint-semantic-review.test.mjs`는 명시 선정한 형용동사의 `に` 부사형에 정확한 표기·읽기·품사·사전 뜻 원문을 요구한다. 합성 명사 비교어에는 구성 명사·연결 순서·표기·읽기·뜻·해시와 실제 용례 출처를 검사하며 누락·변조·동사 구성어를 거부한다. 이 구조 검사는 합성어의 자연스러움이나 의미 검토를 대신하지 않는다.
+
 분리된 학습 용법의 비교 힌트는 `hint-semantic-review.json`의 `usageEntries` 명시 선정과 전량 대조한다. `contextSenseSeparations.test.ts`와 `contextContent.test.ts`는 해당 의미에만 지정 힌트가 표시되고, 미선정·버전 불일치에는 빈 비교어가 되는지 확인한다. 모든 분리 용법의 비교어를 무조건 빈 배열로 가정하지 않는다.
 
 기본 테스트 환경은 JSDOM이다. DOM을 사용하지 않는 `scripts/lib/*.test.mjs` 14개와 `contextReviewPolicy.test.ts`, `contextScale.test.ts`, `jlptPilot.test.ts`에는 `@vitest-environment node`를 지정한다. UI·라우터·저장 등 나머지 검사는 기본 환경을 유지한다. 환경 분리는 검사 수·전량 코퍼스·시간 제한·작업자 수를 줄이지 않는다.

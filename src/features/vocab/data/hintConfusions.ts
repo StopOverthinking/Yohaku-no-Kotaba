@@ -8122,7 +8122,9 @@ export const hintConfusions: HintConfusions = {
   },
   "sense-lex-jmdict-1017340-1": {
     "senseVersion": 1,
-    "words": []
+    "words": [
+      "案内放送"
+    ]
   },
   "sense-lex-jmdict-1017590-1": {
     "senseVersion": 1,
@@ -19403,6 +19405,12 @@ export const hintConfusions: HintConfusions = {
     "senseVersion": 1,
     "words": [
       "活発"
+    ]
+  },
+  "sense-lex-jmdict-1379750-1-usage-3": {
+    "senseVersion": 1,
+    "words": [
+      "熱烈に"
     ]
   },
   "sense-lex-jmdict-1379900-1": {

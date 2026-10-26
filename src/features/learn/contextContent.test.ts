@@ -89,7 +89,7 @@ describe('published contextual corpus', () => {
       for (const selected of decision.selected) {
         expect(selected.meaning.trim(), decision.senseId).not.toBe('')
         expect(selected.difference.trim(), decision.senseId).not.toBe('')
-        expect(['corpus', 'dictionary'], decision.senseId).toContain(selected.evidence.type)
+        expect(['corpus', 'dictionary', 'corpus-compound'], decision.senseId).toContain(selected.evidence.type)
       }
       const sense = learnContent.find((sense) => sense.id === decision.senseId)!
       expect(similarHintWords(sense, words.get(sense.wordId)!, sense.examples[0])).toEqual(decision.selected.map((entry) => entry.japanese))

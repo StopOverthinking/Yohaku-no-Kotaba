@@ -64,18 +64,34 @@ export function buildSemanticHintConfusions(review, words, senses, candidates, s
               ? [targetWord.reading.slice(0, -1)] : [])].map(canonical).includes(canonical(selected.reading)))
             throw new Error(`Invalid corpus comparison evidence in ${sense.id}: ${id}`)
         }
+      } else if (evidence?.type === 'corpus-compound') {
+        const parts = evidence.parts?.map((part) => {
+          const partSense = bySense.get(part.senseId), partWord = partSense && byWord.get(partSense.wordId)
+          if (!partWord || partWord.type !== 'noun' || part.sourceHash !== dictionaryEntryHash({ word: partWord, sense: partSense }))
+            throw new Error(`Stale/missing compound component: ${sense.id}`)
+          return { word: partWord, sense: partSense }
+        })
+        if (!parts || parts.length < 2 || parts.length > 3
+          || parts.map(part => part.word.japanese).join('') !== selected.japanese
+          || parts.map(part => part.word.reading).join('') !== selected.reading
+          || parts.map(part => part.sense.meaning).join(' ') !== selected.meaning
+          || !requiredText(evidence.source) || !/^https:\/\//u.test(evidence.sourceUrl ?? '')
+          || !requiredText(evidence.sourceText) || !evidence.sourceText.includes(selected.japanese)
+          || evidence.sourceTextHash !== dictionaryEntryHash(evidence.sourceText))
+          throw new Error(`Invalid compound comparison evidence: ${sense.id}`)
       } else if (evidence?.type === 'dictionary') {
         const candidate = dictionary.get(evidence.entryId)
         const derived = ['suru-verb', 'suru-polite-past'].includes(evidence.derivation)
-        if (evidence.derivation !== undefined && !derived)
+        const naAdverb = evidence.derivation === 'na-adverb'
+        if (evidence.derivation !== undefined && !derived && !naAdverb)
           throw new Error(`Unsupported dictionary derivation: ${sense.id}`)
-        const suffix = evidence.derivation === 'suru-polite-past' ? 'しました' : derived ? 'する' : ''
+        const suffix = evidence.derivation === 'suru-polite-past' ? 'しました' : derived ? 'する' : naAdverb ? 'に' : ''
         if (!candidate || !requiredText(evidence.source)
           || ![candidate.japanese, ...(candidate.spellings ?? []), ...(candidate.readings ?? [])].map((form) => canonical(form) + suffix).includes(labelHeadword(selected.japanese))
           || !candidate.readings.map((reading) => canonical(reading) + suffix).includes(canonical(selected.reading)))
           throw new Error(`Invalid dictionary comparison evidence in ${sense.id}: ${selected.japanese}`)
-        const applicableSenses = derived ? candidate.senses.filter((dictionarySense) =>
-          dictionarySense.pos.some((pos) => /suru/iu.test(pos))) : candidate.senses
+        const applicableSenses = derived || naAdverb ? candidate.senses.filter((dictionarySense) =>
+          dictionarySense.pos.some((pos) => naAdverb ? /adjectival nouns|keiyodoshi/iu.test(pos) : /suru/iu.test(pos))) : candidate.senses
         const glosses = applicableSenses.flatMap((dictionarySense) => dictionarySense.glosses)
         if (evidence.entryHash !== dictionaryEntryHash(candidate) || !Array.isArray(evidence.sourceGlosses)
           || !evidence.sourceGlosses.length || evidence.sourceGlosses.some((gloss) => !requiredText(gloss) || !glosses.includes(gloss)))
