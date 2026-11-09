@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { addDays, answerContext, emptyContextState, profileKey, reviewInterval, reviewProfile, startContext, undoContext } from './contextEngine'
 import { parseContextState, UnsupportedContextVersionError } from './contextPersistence'
 import { serializeContextState } from './contextSerialization'
-import { testSense } from './contextTestFixtures'
+import { legacyContextState, testSense } from './contextTestFixtures'
 
 const oldIntervals = [1, 3, 7, 14, 30, 60, 120, 180]
 const mappedSteps = [0, 1, 3, 4, 6, 8, 10, 11]
@@ -18,7 +18,7 @@ describe('denser review schedule', () => {
       state.profiles[profileKey(sense)] = { ...reviewProfile(undefined, sense, sense.examples[0], false, false, day),
         step, due: '2027-04-01', failures: 24, failedDays: 12, levelDay: day }
     })
-    const raw = JSON.parse(serializeContextState(state))
+    const raw = JSON.parse(serializeContextState(legacyContextState(state)))
     raw.scheduleVersion = scheduleVersion
     const restored = parseContextState(JSON.stringify(raw))
     Object.entries(restored.profiles).forEach(([key, profile], step) => {
@@ -45,7 +45,7 @@ describe('denser review schedule', () => {
       Object.assign(profile, { step, failedDays: 2, failures: 3, failedDay: day, levelDay: day })
       state.profiles[profileKey(sense)] = profile
     }
-    const old = JSON.parse(serializeContextState(state))
+    const old = JSON.parse(serializeContextState(legacyContextState(state)))
     delete old.scheduleVersion
     const migrated = parseContextState(JSON.stringify(old))
     for (const [step, sense] of senses.entries()) {
@@ -72,7 +72,7 @@ describe('denser review schedule', () => {
     state.profiles[profileKey(senses[0])] = profile
     state = startContext(state, { setId: 'all', setName: 'test', candidateWordIds: ['a', 'b'], requiredWordIds: ['a'], wordCount: 2, allowEarly: false }, senses, day)
     state = answerContext(state, true, senses, day)
-    const old = JSON.parse(serializeContextState(state))
+    const old = JSON.parse(serializeContextState(legacyContextState(state)))
     delete old.scheduleVersion
     // Simulate the old engine's post-answer stage (the v3 engine jumps to index 8).
     old.profiles[profileKey(senses[0])].step = 5

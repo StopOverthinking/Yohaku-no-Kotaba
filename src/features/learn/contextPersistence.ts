@@ -7,10 +7,11 @@ export const CONTEXT_STORAGE_KEY = 'jsp-react:context-learn-v2'
 const LEGACY_INTERVALS = [1, 3, 7, 14, 30, 60, 120, 180] as const
 
 export class UnsupportedContextVersionError extends Error {
-  constructor(readonly kind: 'state' | 'schedule') {
+  constructor(readonly kind: 'state' | 'schedule' | 'estimate') {
     super(kind === 'schedule'
       ? '이 앱에서 지원하지 않는 복습 정책 버전입니다.'
-      : '이 앱에서 지원하지 않는 학습 기록 버전입니다.')
+      : kind === 'estimate' ? '이 앱에서 지원하지 않는 JLPT 추정 정책 버전입니다.'
+        : '이 앱에서 지원하지 않는 학습 기록 버전입니다.')
     this.name = 'UnsupportedContextVersionError'
   }
 }
@@ -24,6 +25,11 @@ const strings = (value: unknown) => Array.isArray(value) && value.every((id) => 
 const date = (value: unknown) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)
 const level = (value: unknown) =>
   record(value) && Number.isFinite(value.value) && strings(value.assessedWordIds)
+const nullableScore = (value: unknown) => value === null || Number.isFinite(value)
+const estimate = (value: unknown) =>
+  record(value) && value.policyVersion === 1 && nullableScore(value.value)
+const estimateChange = (value: unknown) =>
+  record(value) && value.policyVersion === 1 && nullableScore(value.before) && nullableScore(value.after)
 const card = (value: unknown) =>
   record(value) &&
   typeof value.senseId === 'string' &&
@@ -90,15 +96,24 @@ export function parseContextState(raw: string): ContextState {
   const parsed: unknown = JSON.parse(raw)
   // Reject unknown contracts before attempting to expand their undo encoding.
   if (record(parsed)) {
-    if (Number.isInteger(parsed.version) && parsed.version !== 2 && parsed.version !== 3)
+    if (Number.isInteger(parsed.version) && ![2, 3, 4].includes(parsed.version as number))
       throw new UnsupportedContextVersionError('state')
     if (Number.isInteger(parsed.scheduleVersion) && ![1, 2, 3, SCHEDULE_VERSION].includes(parsed.scheduleVersion as number))
       throw new UnsupportedContextVersionError('schedule')
+    if (record(parsed.jlptEstimate) && Number.isInteger(parsed.jlptEstimate.policyVersion) && parsed.jlptEstimate.policyVersion !== 1)
+      throw new UnsupportedContextVersionError('estimate')
+    if (record(parsed.jlptHistoryReestimate) && Number.isInteger(parsed.jlptHistoryReestimate.version) && parsed.jlptHistoryReestimate.version !== 1)
+      throw new UnsupportedContextVersionError('estimate')
   }
   const state: unknown = expandContextState(parsed)
   if (
     !record(state) ||
-    (state.version !== 2 && state.version !== 3) ||
+    (state.version !== 2 && state.version !== 3 && state.version !== 4) ||
+    (state.version === 4
+      ? !estimate(state.jlptEstimate) || state.scheduleVersion !== SCHEDULE_VERSION
+      : state.jlptEstimate !== undefined) ||
+    (state.jlptHistoryReestimate !== undefined && (state.version !== 4 || !record(state.jlptHistoryReestimate) ||
+      state.jlptHistoryReestimate.version !== 1 || !count(state.jlptHistoryReestimate.wordCount))) ||
     (state.scheduleVersion !== undefined && ![1, 2, 3, SCHEDULE_VERSION].includes(state.scheduleVersion as number)) ||
     (state.excludedWordIds !== undefined && !strings(state.excludedWordIds)) ||
     !count(state.revision) ||
@@ -107,7 +122,8 @@ export function parseContextState(raw: string): ContextState {
       (!record(state.lastScoreChange) ||
         !Number.isFinite(state.lastScoreChange.before) ||
         !Number.isFinite(state.lastScoreChange.after) ||
-        typeof state.lastScoreChange.completedAt !== 'string')) ||
+        typeof state.lastScoreChange.completedAt !== 'string' ||
+        (state.lastScoreChange.jlpt !== undefined && (state.version !== 4 || !estimateChange(state.lastScoreChange.jlpt))))) ||
     !record(state.profiles) ||
     !Array.isArray(state.history) ||
     (state.session !== null && !session(state.session))
@@ -124,7 +140,7 @@ export function parseContextState(raw: string): ContextState {
     )
   )
     throw new Error('학습 기록 형식이 올바르지 않습니다.')
-  if (state.version === 3) {
+  if (state.version === 3 || (state.version === 4 && state.aliasMigrations !== undefined)) {
     if (legacy || !record(state.aliasMigrations) || !Object.keys(state.aliasMigrations).length)
       throw new Error('단어 연결 원본 기록이 없습니다.')
     const archivedWords = new Set<string>()
@@ -167,6 +183,7 @@ export function parseContextState(raw: string): ContextState {
       !record(entry) ||
       typeof entry.profileKey !== 'string' ||
       !level(entry.level) ||
+      (state.version === 4 ? !estimate(entry.jlptEstimate) : entry.jlptEstimate !== undefined) ||
       !session(entry.session) ||
       (entry.profile !== null &&
         (!profile(entry.profile, stepCount) ||

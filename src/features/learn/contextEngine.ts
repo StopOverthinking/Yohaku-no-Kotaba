@@ -9,6 +9,7 @@ import type {
 
 import { RECOMMENDATION_POLICY, SCHEDULE_VERSION, reviewProfile } from './contextReviewPolicy'
 import { blockedStudyWords, eligibleStudyWords, isStudyDue } from './contextEligibility'
+import { emptyJlptEstimate, migrateJlptEstimate, updateJlptEstimate } from './jlptLearningEstimate'
 // Keep existing engine imports compatible while consumers move to the policy boundary.
 export { RECOMMENDATION_POLICY, SCHEDULE_VERSION, REVIEW_INTERVALS, reviewInterval, localDay, addDays, reviewProfile } from './contextReviewPolicy'
 
@@ -17,7 +18,9 @@ export const expectedKnown = (level: number, difficulty: number) =>
   1 / (1 + Math.exp((difficulty - level) / RECOMMENDATION_POLICY.probabilityScale))
 export function emptyContextState(): ContextState {
   return {
-    version: 2,
+    version: 4,
+    jlptEstimate: emptyJlptEstimate(),
+    jlptHistoryReestimate: { version: 1, wordCount: 0 },
     scheduleVersion: SCHEDULE_VERSION,
     revision: 0,
     level: { value: RECOMMENDATION_POLICY.initialLevel, assessedWordIds: [] },
@@ -116,6 +119,7 @@ export function startContext(
   day: string,
   random = Math.random,
 ): ContextState {
+  state = migrateJlptEstimate(state, senses)
   const availableIds = new Set(senses.map((s) => s.wordId))
   const candidateWordIds = [...new Set(options.candidateWordIds)].filter((id) => availableIds.has(id))
   const requiredWordIds = [...new Set(options.requiredWordIds)].filter((id) => availableIds.has(id))
@@ -224,6 +228,7 @@ export function answerContext(
     throw new Error('예정일 전이거나 복습에서 제외된 단어입니다. 학습을 다시 불러와 주세요.')
   const profile = reviewProfile(previous, sense, example, known, previousSession.hintUsed, day)
   const level = { ...state.level, assessedWordIds: [...state.level.assessedWordIds] }
+  let jlptEstimate = state.jlptEstimate
   if (previous?.levelDay !== day) {
     const k =
       level.assessedWordIds.length < RECOMMENDATION_POLICY.calibrationWords
@@ -236,6 +241,8 @@ export function answerContext(
     )
       level.assessedWordIds.push(sense.wordId)
     profile.levelDay = day
+    if (state.version === 4 && jlptEstimate)
+      jlptEstimate = updateJlptEstimate(jlptEstimate, level, example.difficulty, known)
   }
   const session: ContextSession = {
     ...previousSession,
@@ -255,11 +262,13 @@ export function answerContext(
   const next: ContextState = {
     ...state,
     level,
+    ...(state.version === 4 ? { jlptEstimate } : {}),
     profiles: { ...state.profiles, [key]: profile },
     session,
     history: [
       ...state.history,
-      { session: previousSession, level: state.level, profileKey: key, profile: previous ?? null },
+      { session: previousSession, level: state.level, profileKey: key, profile: previous ?? null,
+        ...(state.version === 4 ? { jlptEstimate: state.jlptEstimate } : {}) },
     ],
   }
   let current: ContextCard | null | undefined
@@ -289,5 +298,6 @@ export function undoContext(state: ContextState): ContextState {
     if (profile) profiles[key] = profile
     else delete profiles[key]
   }
-  return { ...state, profiles, level: last.level, session: last.session, history: state.history.slice(0, -1) }
+  return { ...state, profiles, level: last.level, session: last.session, history: state.history.slice(0, -1),
+    ...(state.version === 4 ? { jlptEstimate: last.jlptEstimate } : {}) }
 }

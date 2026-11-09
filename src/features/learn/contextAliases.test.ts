@@ -7,7 +7,7 @@ import { serializeContextState } from './contextSerialization'
 import { ContextDatabase } from './contextDatabase'
 import { ContextRepository } from './contextRepository'
 import { createAsyncContextStore } from './contextAsyncStore'
-import { testSense } from './contextTestFixtures'
+import { legacyContextState, testSense } from './contextTestFixtures'
 import { contextSenses, contextAliasGroups, contextSenseSeparations } from './contextContent'
 import type { ContextAliasGroup } from './contextTypes'
 
@@ -20,7 +20,7 @@ const catalog = createAliasCatalog(senses, groups)
 const keyA = profileKey(senses[0]), keyB = profileKey(senses[1])
 const options = { setId: 'test', setName: 'test', candidateWordIds: ['a', 'b'], requiredWordIds: ['a', 'b'], wordCount: 2, allowEarly: true }
 function existing() {
-  const state = emptyContextState()
+  const state = legacyContextState(emptyContextState())
   state.level = { value: 42, assessedWordIds: ['a', 'b', 'another'] }
   state.profiles[keyA] = { ...reviewProfile(undefined, senses[0], senses[0].examples[0], true, false, day),
     due: '2026-10-20', step: 4, failures: 1, failedDays: 1, dailyAttempts: 2, levelDay: day }
@@ -30,6 +30,14 @@ function existing() {
 }
 
 describe('reviewed equivalent-word progress migration', () => {
+  it('keeps schema v4 and its initialized estimate when calibration aliases are deduplicated', () => {
+    const state = { ...existing(), version: 4 as const, jlptEstimate: { policyVersion: 1 as const, value: 30 } }
+    const next = migrateContextAliases(state, catalog, day)
+    expect(next.version).toBe(4)
+    expect(next.level.assessedWordIds).toHaveLength(state.level.assessedWordIds.length - 1)
+    expect(next.jlptEstimate).toBe(state.jlptEstimate)
+    expect(parseContextState(serializeContextState(next))).toEqual(next)
+  })
   it('excludes every alias when removing a word from an unmigrated in-progress session', async () => {
     localStorage.clear()
     const db = new ContextDatabase(new IDBFactory())
@@ -130,7 +138,7 @@ describe('reviewed equivalent-word progress migration', () => {
       source.profiles[keyA].due = day
       source.profiles[keyA].lastDay = '2026-09-29'
       source.profiles[keyA].levelDay = '2026-09-29'
-      const original = startContext(source, { ...options, candidateWordIds: ['a'], requiredWordIds: ['a'], wordCount: 1 }, senses, day)
+      const original = legacyContextState(startContext(source, { ...options, candidateWordIds: ['a'], requiredWordIds: ['a'], wordCount: 1 }, senses, day))
       await repo.save(base, original)
       const store = createAsyncContextStore(senses, () => repo, () => day, groups)
       await store.getState().hydrate()
@@ -141,7 +149,7 @@ describe('reviewed equivalent-word progress migration', () => {
       expect(store.getState().data.profiles).toEqual(original.profiles)
       expect(await store.getState().answer(true)).toBe(true)
       const migrated = store.getState().data
-      expect(migrated.version).toBe(3)
+      expect(migrated.version).toBe(4)
       expect(migrated.session).toBeNull()
       expect(await store.getState().start(options)).toBe(false)
       const dueStore = createAsyncContextStore(senses, () => repo, () => addDays(day, 1), groups)
@@ -170,7 +178,7 @@ describe('reviewed equivalent-word progress migration', () => {
       failure.mockRestore()
       await store.getState().hydrate()
       expect(store.getState().ready).toBe(true)
-      expect(store.getState().data.version).toBe(3)
+      expect(store.getState().data.version).toBe(4)
       const archive = store.getState().data.aliasMigrations
       await store.getState().hydrate()
       expect(store.getState().data.aliasMigrations).toEqual(archive)

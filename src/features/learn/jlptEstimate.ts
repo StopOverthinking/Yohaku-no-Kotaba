@@ -1,4 +1,6 @@
 import { RECOMMENDATION_POLICY } from './contextReviewPolicy'
+import type { ContextState, ScoreChange } from './contextTypes'
+import { currentJlptScore } from './jlptLearningEstimate'
 
 // Vocabulary-only JLPT estimate of the learning score. A level's anchor is the score whose
 // expected recall over that level's reviewed examples reaches a pass-like target, not mastery.
@@ -32,6 +34,20 @@ export function formatJlptLevel(score: number) {
 /** Hidden until the initial calibration finishes, so the beginner prior is not shown as a result. */
 export const jlptGradeLabel = (score: number, assessedCount: number) =>
   assessedCount < RECOMMENDATION_POLICY.calibrationWords ? null : formatJlptLevel(score)
+
+export function currentJlptGrade(state: ContextState) {
+  const value = currentJlptScore(state)
+  return value === null ? null : formatJlptLevel(value)
+}
+
+/** Older results have no estimate snapshots; never invent a historical grade from the fast score. */
+export function resultJlptGrades(change: ScoreChange, state: ContextState) {
+  if (!change.jlpt) return { before: null, after: currentJlptGrade(state) }
+  return {
+    before: change.jlpt.before === null ? null : formatJlptLevel(change.jlpt.before),
+    after: change.jlpt.after === null ? null : formatJlptLevel(change.jlpt.after),
+  }
+}
 
 export const jlptAnchorSummary = () =>
   JLPT_ESTIMATE_POLICY.anchors

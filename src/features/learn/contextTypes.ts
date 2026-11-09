@@ -66,6 +66,9 @@ export type ReviewProfile = {
 }
 
 export type LearnerLevel = { value: number; assessedWordIds: string[] }
+export type JlptLearningEstimate = { policyVersion: 1; value: number | null }
+export type JlptHistoryReestimate = { version: 1; wordCount: number }
+export type JlptEstimateChange = { policyVersion: 1; before: number | null; after: number | null }
 export type ContextAliasGroup = {
   id: string
   representativeWordId: string
@@ -103,12 +106,13 @@ export type ContextSession = {
 export type ContextUndo = {
   session: ContextSession
   level: LearnerLevel
+  jlptEstimate?: JlptLearningEstimate
   profileKey: string
   profile: ReviewProfile | null
   // An older combined sense can move between two independent usage keys on undo.
   profileChanges?: Record<string, ReviewProfile | null>
 }
-export type ScoreChange = { before: number; after: number; completedAt: string }
+export type ScoreChange = { before: number; after: number; completedAt: string; jlpt?: JlptEstimateChange }
 export type ContextResult = {
   setId: string
   setName: string
@@ -122,8 +126,10 @@ export type ContextResult = {
 
 export type ContextState = {
   lastScoreChange?: ScoreChange
-  version: 2 | 3
+  version: 2 | 3 | 4
+  jlptEstimate?: JlptLearningEstimate
   aliasMigrations?: Record<string, ContextAliasMigration>
+  jlptHistoryReestimate?: JlptHistoryReestimate
   senseSeparations?: Record<string, SenseSeparationMigration>
   scheduleVersion: 4
   excludedWordIds?: string[]

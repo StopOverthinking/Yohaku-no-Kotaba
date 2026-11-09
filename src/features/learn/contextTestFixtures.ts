@@ -1,4 +1,15 @@
-import type { LearnSense } from './contextTypes'
+import type { ContextState, LearnSense } from './contextTypes'
+
+/** Explicit historical fixture; new state factories now use schema v4. */
+export function legacyContextState(state: ContextState): ContextState {
+  const { jlptEstimate: _estimate, jlptHistoryReestimate: _reestimate, ...legacy } = state
+  const lastScoreChange = state.lastScoreChange && { before: state.lastScoreChange.before,
+    after: state.lastScoreChange.after, completedAt: state.lastScoreChange.completedAt }
+  return { ...legacy, version: state.aliasMigrations ? 3 : 2,
+    ...(lastScoreChange ? { lastScoreChange } : {}),
+    history: state.history.map(({ jlptEstimate: _snapshot, ...entry }) => entry),
+  }
+}
 
 // Synthetic data only for engine and UI tests; never imported by production.
 export function testSense(id: string, difficulty = 30): LearnSense {

@@ -4,7 +4,7 @@ import { createAsyncContextStore } from './contextAsyncStore'
 import { ContextDatabase } from './contextDatabase'
 import { ContextRepository } from './contextRepository'
 import { parseContextState } from './contextPersistence'
-import { testSense } from './contextTestFixtures'
+import { legacyContextState, testSense } from './contextTestFixtures'
 import { emptyContextState, profileKey, reviewProfile } from './contextEngine'
 import { reviewList } from './reviewList'
 import type { ContextState } from './contextTypes'
@@ -332,7 +332,7 @@ describe('asynchronous learning store', () => {
 
   it('atomically persists v3 stage migration in existing IndexedDB, retries failure and never maps it twice', async () => {
     const base = await repo.load(emptyContextState())
-    const legacy = emptyContextState()
+    const legacy = legacyContextState(emptyContextState())
     legacy.profiles[profileKey(senses[0])] = { ...reviewProfile(undefined, senses[0], senses[0].examples[0], false, false, '2026-09-01'),
       step: 14, due: '2027-03-01', levelDay: '2026-09-01' }
     await db.write(base, { ...legacy, scheduleVersion: 3 } as unknown as ContextState)

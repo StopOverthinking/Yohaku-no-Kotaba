@@ -104,7 +104,7 @@ export function migrateContextAliases(state: ContextState, catalog: ContextAlias
     }
   }
   return {
-    ...state, version: 3, profiles, aliasMigrations,
+    ...state, version: state.version === 4 ? 4 : 3, profiles, aliasMigrations,
     ...(state.excludedWordIds ? { excludedWordIds: [...new Set(state.excludedWordIds.map(catalog.resolveWordId))] } : {}),
     level: { ...state.level, assessedWordIds: [...new Set(state.level.assessedWordIds.map(catalog.resolveWordId))] },
   }

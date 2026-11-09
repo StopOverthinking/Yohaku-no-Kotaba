@@ -4,7 +4,7 @@ import { ArrowRight, CircleHelp, Heart, ListChecks, MoonStar, Play, Plus, Rotate
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { useContextStore } from '@/features/learn/contextStore'
 import { formatScore, formatScoreChange } from '@/features/learn/reviewList'
-import { jlptGradeLabel } from '@/features/learn/jlptEstimate'
+import { currentJlptGrade } from '@/features/learn/jlptEstimate'
 import { useLearnPlan } from '@v2/lib/useLearnPlan'
 import { IconButton, Sheet, Stepper, Switch, useConfirm } from '@v2/ui/primitives'
 import { RulesContent } from '@v2/screens/RulesContent'
@@ -19,6 +19,7 @@ export function TodayScreen() {
   const confirm = useConfirm()
   const session = useContextStore((state) => state.data.session)
   const level = useContextStore((state) => state.data.level)
+  const grade = useContextStore((state) => currentJlptGrade(state.data))
   const lastScoreChange = useContextStore((state) => state.data.lastScoreChange)
   const storeError = useContextStore((state) => state.error)
   const discard = useContextStore((state) => state.discard)
@@ -28,7 +29,6 @@ export function TodayScreen() {
   const d = plan.learnDefaults
   const assessed = level.assessedWordIds.length
   const delta = lastScoreChange ? formatScoreChange(lastScoreChange.before, lastScoreChange.after) : null
-  const grade = jlptGradeLabel(level.value, assessed)
 
   const discardSession = async () => {
     const ok = await confirm({ title: '학습을 닫을까요?', body: '이미 학습한 기록은 유지됩니다.', confirmLabel: '닫기' })

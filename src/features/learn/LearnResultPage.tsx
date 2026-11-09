@@ -7,13 +7,13 @@ import { Tooltip } from '@/components/Tooltip'
 import styles from '@/features/learn/learn.module.css'
 import { ScoreSummary } from './ScoreSummary'
 import { useContextStore } from './contextStore'
-import { jlptGradeLabel } from './jlptEstimate'
+import { resultJlptGrades } from './jlptEstimate'
 
 export function LearnResultPage() {
   const navigate = useNavigate()
   const lastResult = useContextStore((state) => state.lastResult)
   const clearContextResult = useContextStore((state) => state.clearResult)
-  const assessed = useContextStore((state) => state.data.level.assessedWordIds.length)
+  const data = useContextStore((state) => state.data)
   const leavingForHome = useRef(false)
 
   if (!lastResult) {
@@ -32,7 +32,7 @@ export function LearnResultPage() {
         <ScoreSummary
           value={lastResult.score.after}
           change={lastResult.score}
-          grade={jlptGradeLabel(lastResult.score.after, assessed)}
+          grade={resultJlptGrades(lastResult.score, data).after}
         />
 
         <div className="meta-grid">

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { addDays, answerContext, emptyContextState, profileKey, reviewProfile, startContext, undoContext } from './contextEngine'
 import { parseContextState } from './contextPersistence'
 import { serializeContextState } from './contextSerialization'
-import { testSense } from './contextTestFixtures'
+import { legacyContextState, testSense } from './contextTestFixtures'
 import { reviewList } from './reviewList'
 import { scopedReviews } from './contextPresentation'
 
@@ -86,11 +86,11 @@ describe('daily recall flows', () => {
     state.profiles[key] = { ...reviewProfile(undefined, sense, example, false, false, day), step: 3, failures: 20, levelDay: day, due: '2026-10-08' }
     state = startContext(state, options, [sense], '2026-10-08')
     state = answerContext(state, false, [sense], '2026-10-08')
-    const raw = JSON.parse(serializeContextState(state))
+    const raw = JSON.parse(serializeContextState(legacyContextState(state)))
     raw.scheduleVersion = 2
     raw.history[0].profile.step = 4 // Old 7-day base / 1.25 = 6 days maps to the new 5-day stage.
     const restored = parseContextState(JSON.stringify(raw))
-    expect(restored).toEqual(state)
+    expect(restored).toEqual(legacyContextState(state))
     expect(reload(restored)).toEqual(restored)
     expect(undoContext(restored).profiles[key].due).toBe('2026-10-08')
     const before = undoContext(restored)

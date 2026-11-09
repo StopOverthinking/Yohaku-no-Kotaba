@@ -22,6 +22,7 @@ export function RulesContent() {
       </p>
       <h3>측정이 끝나면 JLPT 어휘 등급으로도 환산해요</h3>
       <p>
+        JLPT 등급은 별도 추정치에 응답을 더 완만하게 반영해요. 기존 학습 기록이 충분하면 처음 적용할 때 한 번 다시 추정합니다.
         해당 등급 단어를 약 {Math.round(JLPT_ESTIMATE_POLICY.passRecall * 100)}% 맞힐 것으로 예상되는 점수를 그 등급으로 봅니다({jlptAnchorSummary()}).
         사이는 소수 첫째 자리로 나눠요. N4.7은 N5에서 N4로 30% 올라온 수준이고, N5 아래는 N5.9까지 표시합니다.
         어휘만 반영하므로 문법·청해·독해는 포함하지 않아요.

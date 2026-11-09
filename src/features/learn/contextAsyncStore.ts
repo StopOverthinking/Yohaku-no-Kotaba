@@ -6,6 +6,7 @@ import type { ContextAliasGroup, ContextResult, ContextState, LearnSenseIndex, S
 import { createAliasCatalog, migrateContextAliases } from './contextAliases'
 import { reconcileRetiredExamples, type ExampleRetirement } from './contextExampleRetirements'
 import { reconcileSeparatedSenses } from './contextSenseSeparations'
+import { currentJlptScore, migrateJlptEstimate } from './jlptLearningEstimate'
 
 export type ContextPersistence = {
   load: (empty: ContextState) => Promise<ContextSnapshot>
@@ -65,7 +66,7 @@ export function createAsyncContextStore(
         try {
           const change = make(current.data)
           if (!change) return false
-          const data = { ...reconcileStudySession(change.data, senses, day()), revision: current.data.revision + 1 }
+          const data = { ...migrateJlptEstimate(reconcileStudySession(change.data, senses, day()), senses, aliases.resolveWordId), revision: current.data.revision + 1 }
           saving = true
           const saved = await getRepository().save(current.snapshot!, data)
           set({ data: saved.data, snapshot: saved, error: null,
@@ -96,7 +97,7 @@ export function createAsyncContextStore(
         try {
           let snapshot = await getRepository().load(emptyContextState())
           const separated = reconcileSeparatedSenses(reconcileRetiredExamples(snapshot.data, sourceSenses, retirements), separations, retirements)
-          const migrated = migrateContextAliases(reconcileStudySession(separated, senses, day()), aliases, day())
+          const migrated = migrateContextAliases(migrateJlptEstimate(reconcileStudySession(separated, senses, day()), senses, aliases.resolveWordId), aliases, day())
           if (migrated !== snapshot.data || snapshot.needsScheduleMigration)
             snapshot = await getRepository().save(snapshot, { ...migrated, revision: snapshot.data.revision + 1 })
           const session = snapshot.data.session
@@ -122,7 +123,7 @@ export function createAsyncContextStore(
       error: null, ready: false, busy: false, hydrate,
       start: (options) => mutate((state) => {
         if (state.session) throw new Error('진행 중인 학습을 이어가거나 닫아 주세요.')
-        const migrated = migrateContextAliases({ ...state, history: [] }, aliases, day())
+        const migrated = migrateContextAliases(migrateJlptEstimate({ ...state, history: [] }, senses, aliases.resolveWordId), aliases, day())
         const canonicalOptions = { ...options,
           candidateWordIds: options.candidateWordIds.map(aliases.resolveWordId),
           requiredWordIds: options.requiredWordIds.map(aliases.resolveWordId),
@@ -136,9 +137,14 @@ export function createAsyncContextStore(
         if (!session || (expectedCard && expectedCard !== `${session.id}:${session.decisions}`)) return null
         const next = answerContext(state, known, senses, day())
         if (next.session) return { data: next }
+        const completed = migrateContextAliases(migrateJlptEstimate({ ...next, history: [] }, senses, aliases.resolveWordId), aliases, day())
         const completedAt = new Date().toISOString()
-        const score = { before: state.history[0]?.level.value ?? state.level.value, after: next.level.value, completedAt }
-        return { data: migrateContextAliases({ ...next, history: [], lastScoreChange: score }, aliases, day()), lastResult: {
+        const score = { before: state.history[0]?.level.value ?? state.level.value, after: next.level.value, completedAt,
+          ...(state.version === 4 ? { jlpt: { policyVersion: 1 as const,
+            before: (state.history[0]?.jlptEstimate ?? state.jlptEstimate)?.value ?? null,
+            after: currentJlptScore(completed),
+          } } : {}) }
+        return { data: { ...completed, lastScoreChange: score }, lastResult: {
           score, setId: session.setId, setName: session.setName, totalTargetCount: session.cards.length,
           rounds: session.round, revisitedCount: session.unknownWordIds.length, favoriteCount: 0, completedAt,
         } }
@@ -149,7 +155,7 @@ export function createAsyncContextStore(
         session: { ...state.session, hintShown: !state.session.hintShown, hintUsed: true },
       } } : null),
       undo: () => mutate((state) => state.history.length ? { data: undoContext(state) } : null),
-      discard: () => mutate((state) => ({ data: migrateContextAliases({ ...state, session: null, history: [] }, aliases, day()) })),
+      discard: () => mutate((state) => ({ data: migrateContextAliases(migrateJlptEstimate({ ...state, session: null, history: [] }, senses, aliases.resolveWordId), aliases, day()) })),
       removeReviewWord: (wordId) => mutate((state) => {
         const canonical = aliases.resolveWordId(wordId)
         if (!senses.some(sense => sense.wordId === canonical) || state.excludedWordIds?.includes(canonical)) return null

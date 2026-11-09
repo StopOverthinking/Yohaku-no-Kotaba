@@ -117,10 +117,13 @@ describe('cross-storage backup restore', () => {
     expect(localStorage.getItem('unrelated')).toBe('keep')
   })
 
-  it.each(['version', 'scheduleVersion'])('preserves live DB and settings when backup %s is unsupported', async field => {
+  it.each(['version', 'scheduleVersion', 'estimate', 'reestimate'])('preserves live DB and settings when backup %s is unsupported', async field => {
     const before = await db.read()
     const begin = vi.spyOn(db, 'beginRestore')
-    const raw = JSON.stringify({ ...target(), [field]: 99 })
+    const raw = JSON.stringify(field === 'estimate'
+      ? { ...target(), jlptEstimate: { policyVersion: 99, value: 30 } }
+      : field === 'reestimate' ? { ...target(), jlptHistoryReestimate: { version: 99, wordCount: 24 } }
+      : { ...target(), [field]: 99 })
     await expect(backup.restore({ ...entries(), [CONTEXT_STORAGE_KEY]: raw }, emptyContextState()))
       .rejects.toThrow(UnsupportedContextVersionError)
     expect(begin).not.toHaveBeenCalled()
