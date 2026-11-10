@@ -76,7 +76,7 @@ describe('user-authorized corrections after reviewed example pruning', () => {
       read('src/features/vocab/editor-data/learnContent.json'), readReviewedExampleHistory(process.cwd()),
     ])
     const result = verifyReviewedExampleHistory(words, senses, history)
-    expect(result.corrections.correctedExamples).toBe(305)
+    expect(result.corrections.correctedExamples).toBe(306)
     const kanji = history.corrections.find(journal => journal.scope === 'user-authorized-example-kanji-leakage-correction')
     expect(kanji.entries).toHaveLength(234)
     expect(kanji.entries.reduce((sum, entry) => sum + entry.after.examples.filter((example, i) =>

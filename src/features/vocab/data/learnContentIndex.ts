@@ -72091,7 +72091,7 @@ export const learnContentIndex: (LearnSenseIndex & { shard: number; meaning: str
     "examples": [
       {
         "id": "sense-lex-jmdict-1528490-1-ex-1",
-        "version": 1,
+        "version": 2,
         "difficulty": 30,
         "status": "reviewed"
       }

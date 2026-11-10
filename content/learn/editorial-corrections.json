@@ -379,5 +379,90 @@
       }
     ],
     "entriesHash": "60977c47da8a25048895f2c8ba8f5bc7c53e8b7785b3019a7a3ee41066403510"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "2026-11-10-myou-hint",
+    "scope": "user-authorized-notation-reading-hint-correction",
+    "authorization": "사용자 요청: 妙의 힌트에서 정답 한자 妙가 포함된 奇妙를 제외하고 変를 선정하며, 예문 번역을 묘한 느낌이 들었다로 다듬는다. 적용 및 푸시.",
+    "review": {
+      "outcome": "accepted",
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-11-10T00:27:13.028Z"
+    },
+    "entries": [
+      {
+        "kind": "sense",
+        "before": {
+          "id": "sense-lex-jmdict-1528490-1",
+          "wordId": "lex-jmdict-1528490",
+          "version": 1,
+          "meaning": "이상하다, 묘하다",
+          "hint": "평소와 달라 어딘가 낯설거나 의심스럽게 느껴지는 성질입니다.",
+          "confusions": [
+            {
+              "japanese": "普通",
+              "distinction": "선택한 妙는 이상하고 묘한 것이고 普通는 보통의 상태이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1528490-1-ex-1",
+              "version": 2,
+              "before": "誰も触っていないのに、止まっていた時計が動き出し、",
+              "answer": "妙",
+              "after": "な気がした。",
+              "reading": "みょう",
+              "translation": "아무도 만지지 않았는데 멈춰 있던 시계가 움직이기 시작해 묘한 느낌이 들었다.",
+              "translationTarget": "묘한",
+              "difficulty": 30,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "after": {
+          "id": "sense-lex-jmdict-1528490-1",
+          "wordId": "lex-jmdict-1528490",
+          "version": 1,
+          "meaning": "이상하다, 묘하다",
+          "hint": "이유를 설명하기 어려워 어딘가 이상하고 의아하게 느껴지는 상태입니다.",
+          "confusions": [
+            {
+              "japanese": "普通",
+              "distinction": "선택한 妙는 이상하고 묘한 것이고 普通는 보통의 상태이다."
+            }
+          ],
+          "review": {
+            "word": true,
+            "contrast": true,
+            "diversity": true
+          },
+          "examples": [
+            {
+              "id": "sense-lex-jmdict-1528490-1-ex-1",
+              "version": 2,
+              "before": "誰も触っていないのに、止まっていた時計が動き出し、",
+              "answer": "妙",
+              "after": "な気がした。",
+              "reading": "みょう",
+              "translation": "아무도 만지지 않았는데 멈춰 있던 시계가 움직이기 시작해 묘한 느낌이 들었다.",
+              "translationTarget": "묘한",
+              "difficulty": 30,
+              "status": "reviewed"
+            }
+          ]
+        },
+        "beforeHash": "e45510711d26d8a7c3549ce8d66d512a1a945948c13b423cbaea54351a0f0ebc",
+        "afterHash": "6c325a4a3840293d71846d499df611161ea8ff3d0fcde289eccb8afd694c9e19",
+        "reason": "일반적인 이상함과 구별하여 이유를 설명하기 어려운 의아함을 한국어 힌트로 드러낸다. 뜻·용법 버전·예문은 유지한다."
+      }
+    ],
+    "entriesHash": "ed99930791f2f0885cbd5f4931c0ce9186fb5724f5f693aa624664d3efa824af"
   }
 ]

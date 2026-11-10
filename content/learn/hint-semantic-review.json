@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "policy": "current-korean-sense",
-  "sourceHash": "a818a05bc6d2bc556de3da7eb5ec2c5e0c2a30e20aa9cec89099fe84dfea193f",
+  "sourceHash": "955c68ad36484adcbdc3e809e9489a74af854a1234de182e0a247b395544adae",
   "reviewer": {
     "model": "gpt-6-astra",
     "reasoningEffort": "high"
@@ -90417,19 +90417,19 @@
       "reviewStatus": "reviewed",
       "selected": [
         {
-          "japanese": "奇妙",
-          "reading": "きみょう",
-          "meaning": "기묘한, 이상한",
-          "difference": "대상은 어딘가 이상하다는 일상 표현, 비교어는 보통과 달라 기묘함이다.",
+          "japanese": "変",
+          "reading": "へん",
+          "meaning": "이상하다, 묘하다",
+          "difference": "둘 다 이상하다는 뜻이다. 妙는 이유를 설명하기 어려운 의아함에, 変는 보통과 다르거나 어색한 상태에 초점을 두는 경향이 있다.",
           "evidence": {
             "type": "corpus",
             "senseIds": [
-              "sense-lex-jmdict-1219490-1"
+              "sense-lex-jmdict-1510640-1"
             ]
           }
         }
       ],
-      "reason": "현재 한국어 의미 「이상하다, 묘하다」와 예문 목표 구간 「이상한」를 후보의 현재 뜻·목표 구간과 개별 대조하여 선정했다. 대상은 어딘가 이상하다는 일상 표현, 비교어는 보통과 달라 기묘함이다.",
+      "reason": "사용자 지정: 현재 妙な気がした와 変의 이상함 용법을 대조하여 変를 선정한다. 奇妙는 정답 한자 妙를 포함하므로 이 카드에서 제외한다.",
       "senseVersion": 1,
       "wordId": "lex-jmdict-1528490",
       "japanese": "妙",
@@ -90437,19 +90437,19 @@
       "decision": "replace",
       "rejected": [
         {
-          "japanese": "変",
-          "reason": "현재 「이상하다, 묘하다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「이상하다, 묘하다」."
-        },
-        {
           "japanese": "不思議",
           "reason": "현재 「이상하다, 묘하다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「이상하다, 신기하다」."
         },
         {
           "japanese": "普通",
           "reason": "현재 「이상하다, 묘하다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「보통, 평범함」."
+        },
+        {
+          "japanese": "奇妙",
+          "reason": "사용자 요청: 이 카드의 정답 한자 妙가 그대로 보여 정답 단서가 되므로 제외한다."
         }
       ],
-      "reviewMethod": "model-individual-semantic-review"
+      "reviewMethod": "user-authorized-individual-semantic-amendment"
     },
     {
       "senseId": "sense-lex-jmdict-1529500-1",
@@ -143505,6 +143505,63 @@
       "reviewedAt": "2026-10-23T02:34:32.288Z",
       "authorization": "사용자 요청: 안내방송 힌트로 案内放送 추가, 盛んに 힌트로 熱烈に 추가",
       "reason": "현재 예문과 의미에 한정한 두 비교어만 추가한다. 기존 네 힌트·급여/월급 구분·학습 ID·용법과 예문 버전·승인 이력은 유지한다."
+    },
+    {
+      "id": "2026-11-10-myou-hint-and-translation",
+      "previousReviewHash": "7bf4379d63b0a184806552096dc9e5c306f265d12a60139c2452b590ecf3b465",
+      "previousSourceHash": "a818a05bc6d2bc556de3da7eb5ec2c5e0c2a30e20aa9cec89099fe84dfea193f",
+      "sourceHash": "955c68ad36484adcbdc3e809e9489a74af854a1234de182e0a247b395544adae",
+      "senseIds": [
+        "sense-lex-jmdict-1528490-1"
+      ],
+      "reviewedBy": "current Codex session editorial review",
+      "independent": false,
+      "reviewedAt": "2026-11-10T00:27:13.028Z",
+      "authorization": "사용자 요청: 妙의 힌트에서 정답 한자 妙가 포함된 奇妙를 제외하고 変를 선정하며, 예문 번역을 묘한 느낌이 들었다로 다듬는다. 적용 및 푸시.",
+      "previousEntries": [
+        {
+          "senseId": "sense-lex-jmdict-1528490-1",
+          "reviewStatus": "reviewed",
+          "selected": [
+            {
+              "japanese": "奇妙",
+              "reading": "きみょう",
+              "meaning": "기묘한, 이상한",
+              "difference": "대상은 어딘가 이상하다는 일상 표현, 비교어는 보통과 달라 기묘함이다.",
+              "evidence": {
+                "type": "corpus",
+                "senseIds": [
+                  "sense-lex-jmdict-1219490-1"
+                ]
+              }
+            }
+          ],
+          "reason": "현재 한국어 의미 「이상하다, 묘하다」와 예문 목표 구간 「이상한」를 후보의 현재 뜻·목표 구간과 개별 대조하여 선정했다. 대상은 어딘가 이상하다는 일상 표현, 비교어는 보통과 달라 기묘함이다.",
+          "senseVersion": 1,
+          "wordId": "lex-jmdict-1528490",
+          "japanese": "妙",
+          "meaning": "이상하다, 묘하다",
+          "decision": "replace",
+          "rejected": [
+            {
+              "japanese": "変",
+              "reason": "현재 「이상하다, 묘하다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「이상하다, 묘하다」."
+            },
+            {
+              "japanese": "不思議",
+              "reason": "현재 「이상하다, 묘하다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「이상하다, 신기하다」."
+            },
+            {
+              "japanese": "普通",
+              "reason": "현재 「이상하다, 묘하다」 및 예문 목표 구간을 개별 대조한 결과 최종 동의 비교어로 선정하지 않았다. 후보 코퍼스 뜻: 「보통, 평범함」."
+            }
+          ],
+          "reviewMethod": "model-individual-semantic-review"
+        }
+      ],
+      "exampleCorrectionEntriesHash": "0642d17567a3279cc73051dc7750cb62671a018c1bc9b567b5aa692bf1d853da",
+      "editorialCorrectionEntriesHash": "ed99930791f2f0885cbd5f4931c0ce9186fb5724f5f693aa624664d3efa824af",
+      "reason": "현재 妙 카드에만 奇妙 제외·変 선정 및 한국어 뉘앙스 정정을 적용한다. 다른 카드의 공유 한자 정책이나 기존 독립 승인 원문은 바꾸지 않는다."
     }
   ],
   "sourceAmendments": [

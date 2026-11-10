@@ -23744,7 +23744,7 @@ export const hintConfusions: HintConfusions = {
   "sense-lex-jmdict-1528490-1": {
     "senseVersion": 1,
     "words": [
-      "奇妙"
+      "変"
     ]
   },
   "sense-lex-jmdict-1528630-1": {

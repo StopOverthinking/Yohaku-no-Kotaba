@@ -115844,7 +115844,7 @@
     "wordId": "lex-jmdict-1528490",
     "version": 1,
     "meaning": "이상하다, 묘하다",
-    "hint": "평소와 달라 어딘가 낯설거나 의심스럽게 느껴지는 성질입니다.",
+    "hint": "이유를 설명하기 어려워 어딘가 이상하고 의아하게 느껴지는 상태입니다.",
     "confusions": [
       {
         "japanese": "普通",
@@ -115859,13 +115859,13 @@
     "examples": [
       {
         "id": "sense-lex-jmdict-1528490-1-ex-1",
-        "version": 1,
+        "version": 2,
         "before": "誰も触っていないのに、止まっていた時計が動き出し、",
         "answer": "妙",
         "after": "な気がした。",
         "reading": "みょう",
-        "translation": "아무도 만지지 않았는데 멈춰 있던 시계가 움직이기 시작해 이상한 느낌이 들었다.",
-        "translationTarget": "이상한",
+        "translation": "아무도 만지지 않았는데 멈춰 있던 시계가 움직이기 시작해 묘한 느낌이 들었다.",
+        "translationTarget": "묘한",
         "difficulty": 30,
         "status": "reviewed"
       }

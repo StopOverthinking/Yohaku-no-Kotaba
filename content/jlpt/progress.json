@@ -49,15 +49,15 @@
     "sourceHash": "2d28f0feb08a3258cbcf8ce7feebb533e01c3c80d4a9694fa85d207bbdff469c"
   },
   "exampleCorrections": {
-    "journals": 4,
-    "correctedExamples": 305,
-    "sourceHash": "a14c6a9a51f8c02be985dd3035e1f34e0c158c6a1c94e770e28be6df696f5538",
+    "journals": 5,
+    "correctedExamples": 306,
+    "sourceHash": "15cea58a7a8b013312b555c5322b2fca05f16c2457426995c9f22b79b0b3200c",
     "reviewScope": "user-authorized editorial correction; no new independent approval claimed"
   },
   "editorialCorrections": {
-    "journals": 3,
-    "entries": 6,
-    "sourceHash": "6698ca9675a9eac785ce3716991d25e919966fa07d7f97c3c98d1105a3d66e53",
+    "journals": 4,
+    "entries": 7,
+    "sourceHash": "f40b59c8fa9477b3b0dc5c9ea319baaf46418b64efc6f8c31b2d5d1bc9720bd4",
     "reviewScope": "user-authorized editorial amendments; original independent approvals cover historical snapshots only"
   },
   "complete": true,

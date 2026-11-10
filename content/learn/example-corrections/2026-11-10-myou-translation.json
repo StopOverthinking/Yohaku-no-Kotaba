@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-10-myou-translation",
+  "scope": "user-authorized-example-naturalness-correction",
+  "authorization": "사용자 요청: 妙의 힌트에서 정답 한자 妙가 포함된 奇妙를 제외하고 変를 선정하며, 예문 번역을 묘한 느낌이 들었다로 다듬는다. 적용 및 푸시.",
+  "review": {
+    "outcome": "accepted",
+    "reviewedBy": "current Codex session editorial review",
+    "independent": false,
+    "reviewedAt": "2026-11-10T00:27:13.028Z",
+    "notes": [
+      "기존 이상한도 가능한 번역이나 이 문맥의 妙는 묘한이 학습 뉘앙스를 더 잘 드러낸다.",
+      "예문 버전만 1 증가하고 단어·용법 ID, 용법 버전, 소속·순서·난도·과거 독립 승인과 학습 기록은 유지한다."
+    ]
+  },
+  "entriesHash": "0642d17567a3279cc73051dc7750cb62671a018c1bc9b567b5aa692bf1d853da",
+  "entries": [
+    {
+      "wordId": "lex-jmdict-1528490",
+      "wordHash": "47584398e6aa90ec26077dc8d6a6c19c63046ea8d276e60ed2db0caad51cbb54",
+      "beforeHash": "f32dfe52640afb7aa0a7c634ad70c3d253b672276049b833b6fa9bc418ebd021",
+      "afterHash": "e45510711d26d8a7c3549ce8d66d512a1a945948c13b423cbaea54351a0f0ebc",
+      "before": {
+        "id": "sense-lex-jmdict-1528490-1",
+        "wordId": "lex-jmdict-1528490",
+        "version": 1,
+        "meaning": "이상하다, 묘하다",
+        "hint": "평소와 달라 어딘가 낯설거나 의심스럽게 느껴지는 성질입니다.",
+        "confusions": [
+          {
+            "japanese": "普通",
+            "distinction": "선택한 妙는 이상하고 묘한 것이고 普通는 보통의 상태이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1528490-1-ex-1",
+            "version": 1,
+            "before": "誰も触っていないのに、止まっていた時計が動き出し、",
+            "answer": "妙",
+            "after": "な気がした。",
+            "reading": "みょう",
+            "translation": "아무도 만지지 않았는데 멈춰 있던 시계가 움직이기 시작해 이상한 느낌이 들었다.",
+            "translationTarget": "이상한",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "after": {
+        "id": "sense-lex-jmdict-1528490-1",
+        "wordId": "lex-jmdict-1528490",
+        "version": 1,
+        "meaning": "이상하다, 묘하다",
+        "hint": "평소와 달라 어딘가 낯설거나 의심스럽게 느껴지는 성질입니다.",
+        "confusions": [
+          {
+            "japanese": "普通",
+            "distinction": "선택한 妙는 이상하고 묘한 것이고 普通는 보통의 상태이다."
+          }
+        ],
+        "review": {
+          "word": true,
+          "contrast": true,
+          "diversity": true
+        },
+        "examples": [
+          {
+            "id": "sense-lex-jmdict-1528490-1-ex-1",
+            "version": 2,
+            "before": "誰も触っていないのに、止まっていた時計が動き出し、",
+            "answer": "妙",
+            "after": "な気がした。",
+            "reading": "みょう",
+            "translation": "아무도 만지지 않았는데 멈춰 있던 시계가 움직이기 시작해 묘한 느낌이 들었다.",
+            "translationTarget": "묘한",
+            "difficulty": 30,
+            "status": "reviewed"
+          }
+        ]
+      },
+      "reason": "妙な気がした의 설명하기 어려운 의아함을 한국어 묘한 느낌으로 살린다. 핵심 용법·일본어 문장·정답·읽기는 유지한다."
+    }
+  ]
+}
