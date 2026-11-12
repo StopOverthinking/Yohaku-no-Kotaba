@@ -1,0 +1,73 @@
+name: VOICEVOX samples
+
+# Pilot: synthesize a few example sentences with VOICEVOX to judge voice and accent quality.
+# Does not touch Pages; the result is a downloadable workflow artifact.
+on:
+  push:
+    branches:
+      - voicevox-pilot
+  workflow_dispatch:
+    inputs:
+      count:
+        description: Number of example sentences
+        default: '20'
+
+permissions:
+  contents: read
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      voicevox:
+        image: voicevox/voicevox_engine:cpu-latest
+        ports:
+          - 50021:50021
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+
+      - name: Wait for engine
+        run: |
+          for i in $(seq 1 60); do
+            curl -sf http://127.0.0.1:50021/version && exit 0
+            sleep 2
+          done
+          echo "VOICEVOX engine did not start" >&2
+          exit 1
+
+      - name: Generate samples
+        run: node scripts/voicevox/generate-samples.mjs --count "${{ inputs.count || '20' }}" --out voicevox-samples
+
+      - name: Encode for browsers
+        working-directory: voicevox-samples
+        run: |
+          mkdir -p audio opus
+          for wav in wav/*.wav; do
+            id=$(basename "$wav" .wav)
+            ffmpeg -loglevel error -y -i "$wav" -ac 1 -c:a aac -b:a 48k "audio/$id.m4a"
+            ffmpeg -loglevel error -y -i "$wav" -ac 1 -c:a libopus -b:a 24k "opus/$id.ogg"
+          done
+          {
+            echo "wav  $(du -sk wav | cut -f1) KB"
+            echo "m4a  $(du -sk audio | cut -f1) KB (AAC 48k)"
+            echo "opus $(du -sk opus | cut -f1) KB (Opus 24k)"
+            echo "files $(ls wav | wc -l)"
+          } | tee sizes.txt
+          rm -rf wav
+
+      - name: Upload samples
+        uses: actions/upload-artifact@v4
+        with:
+          name: voicevox-samples
+          path: voicevox-samples
+          retention-days: 14
