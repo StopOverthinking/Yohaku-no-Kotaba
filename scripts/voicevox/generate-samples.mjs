@@ -126,20 +126,92 @@ await writeFile(path.join(outDir, 'samples.json'), `${JSON.stringify({ summary, 
 
 const rows = samples
   .map(
-    (s, i) => `<tr><td>${i + 1}</td><td><div lang="ja" class="ja">${escapeHtml(s.text)}</div><div class="ko">${escapeHtml(s.translation)}</div>
-<div lang="ja" class="accent">${escapeHtml(s.accent)}</div></td><td><audio controls preload="none" src="audio/${s.exampleId}.m4a"></audio></td></tr>`,
+    (s, i) => `<tr><td class="n">${i + 1}</td><td><div lang="ja" class="ja">${escapeHtml(s.text)}</div><div class="ko">${escapeHtml(s.translation)}</div>
+<div lang="ja" class="accent">${escapeHtml(s.accent)}</div></td>
+<td class="play"><button type="button" class="vv" data-src="audio/${s.exampleId}.m4a">${escapeHtml(speakerName)}</button><button type="button" class="tts" data-text="${escapeHtml(s.text)}">브라우저</button></td></tr>`,
   )
   .join('\n')
 await writeFile(
   path.join(outDir, 'index.html'),
   `<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VOICEVOX 시험 생성</title>
-<style>body{font-family:system-ui,sans-serif;margin:16px;max-width:960px}table{border-collapse:collapse;width:100%}td{border-top:1px solid #ddd;padding:10px 6px;vertical-align:top}
-.ja{font-size:1.2rem}.ko{color:#666;font-size:.9rem}.accent{color:#2a5bd7;font-size:.95rem;margin-top:4px}audio{width:240px}</style>
-<h1>VOICEVOX:${escapeHtml(speakerName)} 시험 생성</h1>
-<p>${escapeHtml(summary.speaker)} · 엔진 ${escapeHtml(summary.engineVersion)} · ${summary.count}문장 · 음성 ${summary.totalAudioSeconds}초 · 생성 ${summary.totalSynthSeconds}초 (RTF ${summary.realTimeFactor})<br>
-파란 줄: 엔진이 추정한 악센트(＼ = 음이 내려가는 곳, | = 악센트 구 경계)</p>
-<table>${rows}</table></html>
+<title>VOICEVOX 비교</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:16px;max-width:960px;background:#fff;color:#1b1b1a}
+table{border-collapse:collapse;width:100%}td{border-top:1px solid #ddd;padding:10px 6px;vertical-align:top}
+.n{color:#999;width:1.5em}.ja{font-size:1.2rem}.ko{color:#666;font-size:.9rem}.accent{color:#2a5bd7;font-size:.95rem;margin-top:4px}
+.play{white-space:nowrap}button{font:inherit;font-size:.9rem;padding:8px 12px;margin:0 4px 4px 0;border-radius:999px;border:1px solid #ccc;background:#f5f3ee;cursor:pointer}
+button.vv{border-color:#7cbf6a}button.tts{border-color:#7a9be0}button[aria-pressed=true]{background:#1b1b1a;color:#fff}button:disabled{opacity:.4;cursor:default}
+.bar{position:sticky;top:0;background:#fff;padding:8px 0;border-bottom:1px solid #ddd;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:.9rem}
+select{font:inherit;font-size:.9rem;max-width:100%}.muted{color:#666}
+</style>
+<h1>VOICEVOX:${escapeHtml(speakerName)} ↔ 브라우저 음성</h1>
+<p class="muted">${escapeHtml(summary.speaker)} · 엔진 ${escapeHtml(summary.engineVersion)} · ${summary.count}문장 · 음성 ${summary.totalAudioSeconds}초 · 생성 ${summary.totalSynthSeconds}초 (RTF ${summary.realTimeFactor})<br>
+파란 줄: VOICEVOX가 추정한 악센트(＼ = 음이 내려가는 곳, | = 악센트 구 경계). 브라우저 음성은 앱의 예문 듣기와 같은 음성·속도를 기본으로 고릅니다.</p>
+<div class="bar">
+<label>브라우저 음성 <select id="voice"></select></label>
+<label>속도 <select id="rate"><option value="1">1.0</option><option value="0.9" selected>0.9 (앱)</option><option value="0.8">0.8</option></select></label>
+<label><input type="checkbox" id="both"> 이어서 둘 다 듣기</label>
+</div>
+<table>${rows}</table>
+<script>
+// Same ranking as v2/src/lib/useSpeech.ts so the default matches the app.
+const RANK = [/natural|neural/i, /enhanced|premium/i, /google/i, /online/i]
+const norm = (lang) => lang.replace('_', '-').toLowerCase()
+const score = (v) => { const r = RANK.findIndex((p) => p.test(v.name)); return (r < 0 ? 0 : RANK.length - r) * 2 + (norm(v.lang) === 'ja-jp' ? 1 : 0) }
+const voiceSelect = document.getElementById('voice'), rateSelect = document.getElementById('rate'), both = document.getElementById('both')
+const synth = window.speechSynthesis
+let voices = []
+function loadVoices() {
+  if (!synth) return
+  const kept = voiceSelect.value
+  voices = synth.getVoices().filter((v) => norm(v.lang).startsWith('ja')).sort((a, b) => score(b) - score(a))
+  voiceSelect.innerHTML = voices.length ? voices.map((v, i) => '<option value="' + i + '">' + v.name + '</option>').join('') : '<option>일본어 음성 없음</option>'
+  const again = voices.findIndex((v) => v.name === kept)
+  if (again >= 0) voiceSelect.value = String(again)
+  document.querySelectorAll('button.tts').forEach((b) => (b.disabled = !voices.length))
+}
+if (synth) { loadVoices(); synth.addEventListener?.('voiceschanged', loadVoices) } else loadVoices()
+
+const audio = new Audio()
+let active = null
+function stop() {
+  audio.pause(); audio.onended = null
+  // Chrome can drop an utterance queued right after cancel(), so only clear real leftovers.
+  if (synth && (synth.speaking || synth.pending)) synth.cancel()
+  if (active) active.setAttribute('aria-pressed', 'false')
+  active = null
+}
+function mark(button) { active = button; button.setAttribute('aria-pressed', 'true') }
+function playVoicevox(button, then) {
+  mark(button)
+  audio.src = button.dataset.src
+  audio.playbackRate = Number(rateSelect.value)
+  audio.preservesPitch = true
+  audio.onended = () => { button.setAttribute('aria-pressed', 'false'); active = null; then?.() }
+  audio.play().catch(() => stop())
+}
+function playBrowser(button, then) {
+  const voice = voices[Number(voiceSelect.value)]
+  if (!voice) return
+  mark(button)
+  const u = new SpeechSynthesisUtterance(button.dataset.text)
+  u.voice = voice; u.lang = voice.lang; u.rate = Number(rateSelect.value)
+  u.onend = u.onerror = () => { if (active !== button) return; button.setAttribute('aria-pressed', 'false'); active = null; then?.() }
+  synth.speak(u)
+}
+document.querySelector('table').addEventListener('click', (event) => {
+  const button = event.target.closest('button')
+  if (!button) return
+  const wasActive = active === button
+  stop()
+  if (wasActive) return
+  const row = button.closest('tr')
+  const other = row.querySelector(button.classList.contains('vv') ? 'button.tts' : 'button.vv')
+  const next = both.checked && !other.disabled ? () => setTimeout(() => (other.classList.contains('vv') ? playVoicevox : playBrowser)(other), 400) : undefined
+  ;(button.classList.contains('vv') ? playVoicevox : playBrowser)(button, next)
+})
+</script>
+</html>
 `,
 )
 }
