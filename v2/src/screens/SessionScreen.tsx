@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
-import { Check, Heart, HelpCircle, Lightbulb, RotateCw, Undo2, X, ZoomIn, ZoomOut } from 'lucide-react'
+import { Check, Heart, HelpCircle, Lightbulb, RotateCw, Undo2, Volume2, X, ZoomIn, ZoomOut } from 'lucide-react'
 import { useFavoritesStore } from '@/features/favorites/favoritesStore'
 import { usePreferencesStore } from '@/features/preferences/preferencesStore'
 import { contextSenseMap, contextWordMap } from '@/features/learn/contextContent'
@@ -10,6 +10,7 @@ import { profileKey } from '@/features/learn/contextEngine'
 import { cardRecency, similarHintWords } from '@/features/learn/contextPresentation'
 import { IconButton } from '@v2/ui/primitives'
 import { Furigana } from '@v2/ui/Furigana'
+import { useJapaneseSpeech } from '@v2/lib/useSpeech'
 import '@v2/styles/session.css'
 
 const SWIPE_DISTANCE = 96
@@ -38,6 +39,8 @@ export function SessionScreen() {
   const example = sense?.examples.find((e) => e.id === session?.current.exampleId && e.version === session.current.exampleVersion)
   const word = sense ? contextWordMap.get(sense.wordId) : undefined
   const token = session ? `${session.id}:${session.decisions}` : ''
+  // Reading the sentence aloud would give away the blank, so speech only exists after reveal.
+  const speech = useJapaneseSpeech(`${token}:${session?.current.exampleId}:${Boolean(session?.revealed)}`)
 
   async function decide(known: boolean) {
     if (busy || !ready || Date.now() < lockUntil.current || !session || !example) return
@@ -243,6 +246,15 @@ export function SessionScreen() {
           }}
         />
         <IconButton icon={Lightbulb} label="뉘앙스 힌트" active={session.hintShown} onClick={() => void toggleHint()} disabled={busy || !ready} />
+        {speech.available && (
+          <IconButton
+            icon={Volume2}
+            label="예문 듣기"
+            active={speech.speaking}
+            disabled={!session.revealed}
+            onClick={() => speech.toggle(`${example.before}${example.answer}${example.after}`)}
+          />
+        )}
         <IconButton icon={Heart} label="즐겨찾기" active={isFavorite} onClick={() => toggleFavorite(word.id)} />
         <IconButton icon={ZoomOut} label="글자 작게" disabled={fontScale <= 1} onClick={() => setFontScale(fontScale - 1)} />
         <IconButton icon={ZoomIn} label="글자 크게" disabled={fontScale >= 4} onClick={() => setFontScale(fontScale + 1)} />
