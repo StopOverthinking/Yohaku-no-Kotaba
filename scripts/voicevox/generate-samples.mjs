@@ -58,15 +58,41 @@ function accentNotation(query) {
 
 const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c])
 
+// Hand-written prosody per example: AquesTalk-style kana (accent phrases, accent nucleus ', devoicing _, pause 、)
+// plus pause lengths in seconds for each 、. Skipped when the example text or version no longer matches.
+const annotations = JSON.parse(await readFile(path.resolve('scripts/voicevox/annotations.json'), 'utf8'))
+function annotationFor(example, text) {
+  const note = annotations[example.id]
+  if (!note) return null
+  if (note.text !== text || note.version !== example.version) {
+    console.warn(`annotation stale, skipped: ${example.id}`)
+    return null
+  }
+  return note
+}
+
 // --render-only true: rebuild accents and index.html from an existing output (e.g. a downloaded artifact).
 if (args['render-only']) {
   const { summary, samples } = JSON.parse(await readFile(path.join(outDir, 'samples.json'), 'utf8'))
   for (const sample of samples) {
     sample.accent = accentNotation(JSON.parse(await readFile(path.join(outDir, 'query', `${sample.exampleId}.json`), 'utf8')))
+    if (sample.manual) {
+      sample.manual.accent = accentNotation(JSON.parse(await readFile(path.join(outDir, 'query', `${sample.exampleId}.manual.json`), 'utf8')))
+    }
   }
   await writeOutput(summary, samples)
   process.exit(0)
 }
+
+async function synthesize(query) {
+  const response = await request(`${engine}/synthesis?speaker=${style.id}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(query),
+  })
+  return Buffer.from(await response.arrayBuffer())
+}
+const wavSeconds = (wav, query) => (wav.length - 44) / (query.outputSamplingRate * 2)
 
 const senses = JSON.parse(await readFile(path.resolve('src/features/vocab/editor-data/learnContent.json'), 'utf8'))
 const style = await findStyleId()
@@ -79,19 +105,33 @@ for (const { sense, example } of pickExamples(senses)) {
   const text = `${example.before}${example.answer}${example.after}`
   const t0 = performance.now()
   const query = await (await request(`${engine}/audio_query?speaker=${style.id}&text=${encodeURIComponent(text)}`, { method: 'POST' })).json()
-  const wav = Buffer.from(
-    await (
-      await request(`${engine}/synthesis?speaker=${style.id}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(query),
-      })
-    ).arrayBuffer(),
-  )
+  const wav = await synthesize(query)
   const seconds = (performance.now() - t0) / 1000
   await writeFile(path.join(outDir, 'wav', `${example.id}.wav`), wav)
   await writeFile(path.join(outDir, 'query', `${example.id}.json`), `${JSON.stringify(query, null, 2)}\n`)
-  const audioSeconds = (wav.length - 44) / (query.outputSamplingRate * 2)
+  const audioSeconds = wavSeconds(wav, query)
+
+  let manual
+  const note = annotationFor(example, text)
+  if (note) {
+    // The engine recomputes pitch and mora lengths from the hand-written accent phrases.
+    const phrases = await (
+      await request(`${engine}/accent_phrases?speaker=${style.id}&is_kana=true&text=${encodeURIComponent(note.kana)}`, { method: 'POST' })
+    ).json()
+    const paused = phrases.filter((phrase) => phrase.pause_mora)
+    if (paused.length !== note.pauses.length) throw new Error(`${example.id}: ${paused.length} pauses in kana, ${note.pauses.length} lengths given`)
+    paused.forEach((phrase, index) => (phrase.pause_mora.vowel_length = note.pauses[index]))
+    const manualQuery = { ...query, accent_phrases: phrases, kana: note.kana }
+    const manualWav = await synthesize(manualQuery)
+    await writeFile(path.join(outDir, 'wav', `${example.id}.manual.wav`), manualWav)
+    await writeFile(path.join(outDir, 'query', `${example.id}.manual.json`), `${JSON.stringify(manualQuery, null, 2)}\n`)
+    manual = {
+      kana: note.kana,
+      accent: accentNotation(manualQuery),
+      audioSeconds: Number(wavSeconds(manualWav, manualQuery).toFixed(2)),
+      ...(note.unsure ? { unsure: note.unsure } : {}),
+    }
+  }
   samples.push({
     exampleId: example.id,
     exampleVersion: example.version,
@@ -103,6 +143,7 @@ for (const { sense, example } of pickExamples(senses)) {
     kana: query.kana,
     audioSeconds: Number(audioSeconds.toFixed(2)),
     synthSeconds: Number(seconds.toFixed(2)),
+    ...(manual ? { manual } : {}),
   })
   console.log(`${example.id}\t${seconds.toFixed(2)}s\t${text}`)
 }
@@ -124,15 +165,24 @@ console.log(JSON.stringify(summary))
 async function writeOutput(summary, samples) {
 await writeFile(path.join(outDir, 'samples.json'), `${JSON.stringify({ summary, samples }, null, 2)}\n`)
 
+// Phrase chips: auto chips carry data-i="0", hand-specified chips data-i="m0", so marks on both lines stay distinct.
+const chips = (accent, prefix) =>
+  accent
+    .split('|')
+    .map((phrase, index) => `<button type="button" class="ph" data-i="${prefix}${index}" aria-pressed="false">${escapeHtml(phrase.trim())}</button>`)
+    .join('<span class="sep">|</span>')
 const rows = samples
   .map(
     (s, i) => `<tr data-id="${escapeHtml(s.exampleId)}"><td class="n">${i + 1}</td><td><div lang="ja" class="ja">${escapeHtml(s.text)}</div><div class="ko">${escapeHtml(s.translation)}</div>
-<div lang="ja" class="accent">${s.accent
-      .split('|')
-      .map((phrase, index) => `<button type="button" class="ph" data-i="${index}" aria-pressed="false">${escapeHtml(phrase.trim())}</button>`)
-      .join('<span class="sep">|</span>')}</div>
+<div lang="ja" class="accent auto"><span class="tag">자동</span>${chips(s.accent, '')}</div>${
+      s.manual
+        ? `\n<div lang="ja" class="accent manual"><span class="tag">지정</span>${chips(s.manual.accent, 'm')}${s.manual.unsure ? `<span class="unsure" title="확신 낮음">? ${escapeHtml(s.manual.unsure)}</span>` : ''}</div>`
+        : ''
+    }
 <div class="detail" hidden><button type="button" class="kind" data-k="pitch" aria-pressed="false">높낮이</button><button type="button" class="kind" data-k="length" aria-pressed="false">장단</button><input class="note" type="text" placeholder="메모 (선택)"></div></td>
-<td class="play"><button type="button" class="vv" data-src="audio/${s.exampleId}.m4a">${escapeHtml(speakerName)}</button><button type="button" class="tts" data-text="${escapeHtml(s.text)}">브라우저</button><br><button type="button" class="flag" aria-pressed="false" title="어색함 표시">어색</button></td></tr>`,
+<td class="play"><button type="button" class="vv" data-src="audio/${s.exampleId}.m4a">자동</button>${
+      s.manual ? `<button type="button" class="vv vm" data-src="audio/${s.exampleId}.manual.m4a">지정</button>` : ''
+    }<button type="button" class="tts" data-text="${escapeHtml(s.text)}">브라우저</button><br><button type="button" class="flag" aria-pressed="false" title="어색함 표시">어색</button></td></tr>`,
   )
   .join('\n')
 await writeFile(
@@ -155,14 +205,16 @@ button.flag[aria-pressed=true]{background:#e2725b;border-color:#e2725b;color:#ff
 button.kind[aria-pressed=true]{background:#b3361b;border-color:#b3361b;color:#fff}
 .note{flex:1 1 12em;min-width:0;font:inherit;font-size:.9rem;padding:6px 8px;border:1px solid #ddd;border-radius:8px}
 .count{font-weight:700;color:#b3361b}
+.tag{font-size:.75rem;color:#888;margin-right:4px;min-width:2.2em}.accent.manual button.ph{color:#2f7d32}button.vm{border-color:#2f7d32}
+.unsure{font-size:.75rem;color:#b07a00;margin-left:6px}
 </style>
 <h1>VOICEVOX:${escapeHtml(speakerName)} ↔ 브라우저 음성</h1>
 <p class="muted">${escapeHtml(summary.speaker)} · 엔진 ${escapeHtml(summary.engineVersion)} · ${summary.count}문장 · 음성 ${summary.totalAudioSeconds}초 · 생성 ${summary.totalSynthSeconds}초 (RTF ${summary.realTimeFactor})<br>
-파란 줄: VOICEVOX가 추정한 악센트(＼ = 음이 내려가는 곳, | = 악센트 구 경계). 브라우저 음성은 앱의 예문 듣기와 같은 음성·속도를 기본으로 고릅니다.</p>
+자동: VOICEVOX 추정 악센트 · 지정: 직접 지정한 악센트·구 경계·쉼 (＼ = 음이 내려가는 곳, | = 악센트 구 경계, ? = 확신 낮음)</p>
 <div class="bar">
 <label>브라우저 음성 <select id="voice"></select></label>
 <label>속도 <select id="rate"><option value="1">1.0</option><option value="0.9" selected>0.9 (앱)</option><option value="0.8">0.8</option></select></label>
-<label><input type="checkbox" id="both"> 이어서 둘 다 듣기</label>
+<label><input type="checkbox" id="both"> 이어서 비교</label>
 <span>어색 <span class="count" id="count">0</span></span>
 <button type="button" id="copy">복사</button><button type="button" id="save">파일</button>
 </div>
@@ -220,15 +272,19 @@ document.querySelector('table').addEventListener('click', (event) => {
   const wasActive = active === button
   stop()
   if (wasActive) return
+  // Compare pairs: auto ↔ hand-specified when both exist, otherwise auto ↔ browser.
   const row = button.closest('tr')
-  const other = row.querySelector(button.classList.contains('vv') ? 'button.tts' : 'button.vv')
+  const auto = row.querySelector('button.vv:not(.vm)'), manual = row.querySelector('button.vm'), tts = row.querySelector('button.tts')
+  const other = button === auto ? manual ?? tts : auto
   const next = both.checked && !other.disabled ? () => setTimeout(() => (other.classList.contains('vv') ? playVoicevox : playBrowser)(other), 400) : undefined
   ;(button.classList.contains('vv') ? playVoicevox : playBrowser)(button, next)
 })
 
-// Awkwardness marks: { [exampleId]: { phrases: number[], kinds: ('pitch'|'length')[], note: string } }, kept in this browser only.
+// Awkwardness marks: { [exampleId]: { phrases: (number|'m<n>')[], kinds: ('pitch'|'length')[], note: string } }, kept in this browser only.
+// Numbers are auto-accent phrases, 'm<n>' hand-specified ones.
 const blank = () => ({ phrases: [], kinds: [], note: '' })
 const toggleIn = (list, value) => (list.includes(value) ? list.filter((v) => v !== value) : [...list, value])
+const chipValue = (b) => (b.dataset.i.startsWith('m') ? b.dataset.i : Number(b.dataset.i))
 const META = ${JSON.stringify({ speaker: summary.speaker, engineVersion: summary.engineVersion }).replace(/</g, '\\u003c')}
 const STORE_KEY = 'voicevox-feedback:' + META.speaker + ':' + META.engineVersion
 let marks = {}
@@ -239,7 +295,7 @@ function paint(tr) {
   const mark = marks[tr.dataset.id]
   tr.classList.toggle('marked', Boolean(mark))
   tr.querySelector('.flag').setAttribute('aria-pressed', String(Boolean(mark)))
-  tr.querySelectorAll('button.ph').forEach((b) => b.setAttribute('aria-pressed', String(Boolean(mark?.phrases.includes(Number(b.dataset.i))))))
+  tr.querySelectorAll('button.ph').forEach((b) => b.setAttribute('aria-pressed', String(Boolean(mark?.phrases.includes(chipValue(b))))))
   tr.querySelectorAll('button.kind').forEach((b) => b.setAttribute('aria-pressed', String(Boolean(mark?.kinds.includes(b.dataset.k)))))
   tr.querySelector('.detail').hidden = !mark
   const note = tr.querySelector('.note')
@@ -261,7 +317,7 @@ document.querySelector('table').addEventListener('click', (event) => {
     marks[id].kinds = toggleIn(marks[id].kinds, button.dataset.k)
   } else {
     const mark = (marks[id] ??= blank())
-    mark.phrases = toggleIn(mark.phrases, Number(button.dataset.i)).sort((a, b) => a - b)
+    mark.phrases = toggleIn(mark.phrases, chipValue(button)).sort((a, b) => String(a).localeCompare(String(b), undefined, { numeric: true }))
   }
   persist(); paint(tr)
   if (marks[id] && button.classList.contains('flag')) tr.querySelector('.note').focus()
@@ -273,12 +329,15 @@ document.querySelector('table').addEventListener('input', (event) => {
 })
 function exportText() {
   const marked = [...rowsById].filter(([id]) => marks[id]).map(([id, tr]) => {
-    const phrases = [...tr.querySelectorAll('button.ph')]
+    const line = (selector) => [...tr.querySelectorAll(selector + ' button.ph')]
+    const auto = line('.accent.auto'), manual = line('.accent.manual')
+    const picked = (list) => list.filter((b) => marks[id].phrases.includes(chipValue(b))).map((b) => b.textContent)
     return {
       exampleId: id,
       text: tr.querySelector('.ja').textContent,
-      accent: phrases.map((b) => b.textContent).join('|'),
-      awkwardPhrases: marks[id].phrases.map((i) => phrases[i]?.textContent).filter(Boolean),
+      accent: auto.map((b) => b.textContent).join('|'),
+      awkwardPhrases: picked(auto),
+      ...(manual.length ? { manualAccent: manual.map((b) => b.textContent).join('|'), awkwardManualPhrases: picked(manual) } : {}),
       kinds: marks[id].kinds,
       note: marks[id].note.trim(),
     }
