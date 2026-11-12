@@ -45,18 +45,28 @@ function pickExamples(senses) {
   return picked
 }
 
-// Kana with a ＼ after the accent nucleus mora of each accent phrase; | separates phrases.
+// Kana with a ＼ where pitch falls inside an accent phrase; | separates phrases.
+// VOICEVOX uses accent === mora count for phrases without an internal fall (flat or final-mora accent).
 function accentNotation(query) {
   return query.accent_phrases
     .map((phrase) => {
       const moras = phrase.moras.map((mora, index) => mora.text + (index + 1 === phrase.accent && index + 1 < phrase.moras.length ? '＼' : ''))
-      const flatOrFinal = phrase.accent === phrase.moras.length ? '＼' : ''
-      return moras.join('') + flatOrFinal + (phrase.is_interrogative ? '？' : '') + (phrase.pause_mora ? ' ' : '')
+      return moras.join('') + (phrase.is_interrogative ? '？' : '') + (phrase.pause_mora ? ' ' : '')
     })
     .join('|')
 }
 
 const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c])
+
+// --render-only true: rebuild accents and index.html from an existing output (e.g. a downloaded artifact).
+if (args['render-only']) {
+  const { summary, samples } = JSON.parse(await readFile(path.join(outDir, 'samples.json'), 'utf8'))
+  for (const sample of samples) {
+    sample.accent = accentNotation(JSON.parse(await readFile(path.join(outDir, 'query', `${sample.exampleId}.json`), 'utf8')))
+  }
+  await writeOutput(summary, samples)
+  process.exit(0)
+}
 
 const senses = JSON.parse(await readFile(path.resolve('src/features/vocab/editor-data/learnContent.json'), 'utf8'))
 const style = await findStyleId()
@@ -108,6 +118,10 @@ const summary = {
   totalSynthSeconds: Number(totalSynth.toFixed(1)),
   realTimeFactor: Number((totalSynth / totalAudio).toFixed(3)),
 }
+await writeOutput(summary, samples)
+console.log(JSON.stringify(summary))
+
+async function writeOutput(summary, samples) {
 await writeFile(path.join(outDir, 'samples.json'), `${JSON.stringify({ summary, samples }, null, 2)}\n`)
 
 const rows = samples
@@ -128,4 +142,4 @@ await writeFile(
 <table>${rows}</table></html>
 `,
 )
-console.log(JSON.stringify(summary))
+}

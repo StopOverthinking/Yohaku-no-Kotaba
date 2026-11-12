@@ -11,3 +11,6 @@ output/
 *.err
 *.out
 dist-v2/
+
+# Local VOICEVOX sample downloads
+voicevox-samples/
