@@ -126,9 +126,13 @@ await writeFile(path.join(outDir, 'samples.json'), `${JSON.stringify({ summary, 
 
 const rows = samples
   .map(
-    (s, i) => `<tr><td class="n">${i + 1}</td><td><div lang="ja" class="ja">${escapeHtml(s.text)}</div><div class="ko">${escapeHtml(s.translation)}</div>
-<div lang="ja" class="accent">${escapeHtml(s.accent)}</div></td>
-<td class="play"><button type="button" class="vv" data-src="audio/${s.exampleId}.m4a">${escapeHtml(speakerName)}</button><button type="button" class="tts" data-text="${escapeHtml(s.text)}">브라우저</button></td></tr>`,
+    (s, i) => `<tr data-id="${escapeHtml(s.exampleId)}"><td class="n">${i + 1}</td><td><div lang="ja" class="ja">${escapeHtml(s.text)}</div><div class="ko">${escapeHtml(s.translation)}</div>
+<div lang="ja" class="accent">${s.accent
+      .split('|')
+      .map((phrase, index) => `<button type="button" class="ph" data-i="${index}" aria-pressed="false">${escapeHtml(phrase.trim())}</button>`)
+      .join('<span class="sep">|</span>')}</div>
+<div class="detail" hidden><button type="button" class="kind" data-k="pitch" aria-pressed="false">높낮이</button><button type="button" class="kind" data-k="length" aria-pressed="false">장단</button><input class="note" type="text" placeholder="메모 (선택)"></div></td>
+<td class="play"><button type="button" class="vv" data-src="audio/${s.exampleId}.m4a">${escapeHtml(speakerName)}</button><button type="button" class="tts" data-text="${escapeHtml(s.text)}">브라우저</button><br><button type="button" class="flag" aria-pressed="false" title="어색함 표시">어색</button></td></tr>`,
   )
   .join('\n')
 await writeFile(
@@ -143,6 +147,14 @@ table{border-collapse:collapse;width:100%}td{border-top:1px solid #ddd;padding:1
 button.vv{border-color:#7cbf6a}button.tts{border-color:#7a9be0}button[aria-pressed=true]{background:#1b1b1a;color:#fff}button:disabled{opacity:.4;cursor:default}
 .bar{position:sticky;top:0;background:#fff;padding:8px 0;border-bottom:1px solid #ddd;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:.9rem}
 select{font:inherit;font-size:.9rem;max-width:100%}.muted{color:#666}
+.accent{display:flex;flex-wrap:wrap;align-items:center;gap:2px}.sep{color:#bbb}
+button.ph{padding:2px 6px;margin:0;border:1px solid transparent;border-radius:6px;background:none;color:#2a5bd7;font-size:.95rem}
+button.ph:hover{border-color:#cfd9f3}button.ph[aria-pressed=true]{background:#fde8e3;border-color:#e2725b;color:#b3361b}
+button.flag[aria-pressed=true]{background:#e2725b;border-color:#e2725b;color:#fff}tr.marked{background:#fff7f4}
+.detail:not([hidden]){display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px}.detail button{margin:0;padding:4px 10px}
+button.kind[aria-pressed=true]{background:#b3361b;border-color:#b3361b;color:#fff}
+.note{flex:1 1 12em;min-width:0;font:inherit;font-size:.9rem;padding:6px 8px;border:1px solid #ddd;border-radius:8px}
+.count{font-weight:700;color:#b3361b}
 </style>
 <h1>VOICEVOX:${escapeHtml(speakerName)} ↔ 브라우저 음성</h1>
 <p class="muted">${escapeHtml(summary.speaker)} · 엔진 ${escapeHtml(summary.engineVersion)} · ${summary.count}문장 · 음성 ${summary.totalAudioSeconds}초 · 생성 ${summary.totalSynthSeconds}초 (RTF ${summary.realTimeFactor})<br>
@@ -151,7 +163,10 @@ select{font:inherit;font-size:.9rem;max-width:100%}.muted{color:#666}
 <label>브라우저 음성 <select id="voice"></select></label>
 <label>속도 <select id="rate"><option value="1">1.0</option><option value="0.9" selected>0.9 (앱)</option><option value="0.8">0.8</option></select></label>
 <label><input type="checkbox" id="both"> 이어서 둘 다 듣기</label>
+<span>어색 <span class="count" id="count">0</span></span>
+<button type="button" id="copy">복사</button><button type="button" id="save">파일</button>
 </div>
+<p class="muted">어색한 문장은 <b>어색</b>을 누르고, 이상하게 들리는 구(파란 가나)와 유형(높낮이·장단)을 눌러 표시하세요. 표시는 이 브라우저에 저장되며, 복사한 내용을 대화창에 붙여 넣으면 됩니다.</p>
 <table>${rows}</table>
 <script>
 // Same ranking as v2/src/lib/useSpeech.ts so the default matches the app.
@@ -200,7 +215,7 @@ function playBrowser(button, then) {
   synth.speak(u)
 }
 document.querySelector('table').addEventListener('click', (event) => {
-  const button = event.target.closest('button')
+  const button = event.target.closest('button.vv, button.tts')
   if (!button) return
   const wasActive = active === button
   stop()
@@ -209,6 +224,79 @@ document.querySelector('table').addEventListener('click', (event) => {
   const other = row.querySelector(button.classList.contains('vv') ? 'button.tts' : 'button.vv')
   const next = both.checked && !other.disabled ? () => setTimeout(() => (other.classList.contains('vv') ? playVoicevox : playBrowser)(other), 400) : undefined
   ;(button.classList.contains('vv') ? playVoicevox : playBrowser)(button, next)
+})
+
+// Awkwardness marks: { [exampleId]: { phrases: number[], kinds: ('pitch'|'length')[], note: string } }, kept in this browser only.
+const blank = () => ({ phrases: [], kinds: [], note: '' })
+const toggleIn = (list, value) => (list.includes(value) ? list.filter((v) => v !== value) : [...list, value])
+const META = ${JSON.stringify({ speaker: summary.speaker, engineVersion: summary.engineVersion }).replace(/</g, '\\u003c')}
+const STORE_KEY = 'voicevox-feedback:' + META.speaker + ':' + META.engineVersion
+let marks = {}
+try { marks = JSON.parse(localStorage.getItem(STORE_KEY) || '{}') || {} } catch { marks = {} }
+const persist = () => { try { localStorage.setItem(STORE_KEY, JSON.stringify(marks)) } catch {} }
+const rowsById = new Map([...document.querySelectorAll('tr[data-id]')].map((tr) => [tr.dataset.id, tr]))
+function paint(tr) {
+  const mark = marks[tr.dataset.id]
+  tr.classList.toggle('marked', Boolean(mark))
+  tr.querySelector('.flag').setAttribute('aria-pressed', String(Boolean(mark)))
+  tr.querySelectorAll('button.ph').forEach((b) => b.setAttribute('aria-pressed', String(Boolean(mark?.phrases.includes(Number(b.dataset.i))))))
+  tr.querySelectorAll('button.kind').forEach((b) => b.setAttribute('aria-pressed', String(Boolean(mark?.kinds.includes(b.dataset.k)))))
+  tr.querySelector('.detail').hidden = !mark
+  const note = tr.querySelector('.note')
+  if (document.activeElement !== note) note.value = mark?.note ?? ''
+  document.getElementById('count').textContent = String(Object.keys(marks).length)
+}
+for (const [id, tr] of rowsById) {
+  if (marks[id]) marks[id] = { ...blank(), ...marks[id] }
+  paint(tr)
+}
+document.querySelector('table').addEventListener('click', (event) => {
+  const button = event.target.closest('button.flag, button.ph, button.kind')
+  if (!button) return
+  const tr = button.closest('tr'), id = tr.dataset.id
+  if (button.classList.contains('flag')) {
+    if (marks[id]) delete marks[id]
+    else marks[id] = blank()
+  } else if (button.classList.contains('kind')) {
+    marks[id].kinds = toggleIn(marks[id].kinds, button.dataset.k)
+  } else {
+    const mark = (marks[id] ??= blank())
+    mark.phrases = toggleIn(mark.phrases, Number(button.dataset.i)).sort((a, b) => a - b)
+  }
+  persist(); paint(tr)
+  if (marks[id] && button.classList.contains('flag')) tr.querySelector('.note').focus()
+})
+document.querySelector('table').addEventListener('input', (event) => {
+  if (!event.target.classList.contains('note')) return
+  const id = event.target.closest('tr').dataset.id
+  if (marks[id]) { marks[id].note = event.target.value; persist(); document.getElementById('count').textContent = String(Object.keys(marks).length) }
+})
+function exportText() {
+  const marked = [...rowsById].filter(([id]) => marks[id]).map(([id, tr]) => {
+    const phrases = [...tr.querySelectorAll('button.ph')]
+    return {
+      exampleId: id,
+      text: tr.querySelector('.ja').textContent,
+      accent: phrases.map((b) => b.textContent).join('|'),
+      awkwardPhrases: marks[id].phrases.map((i) => phrases[i]?.textContent).filter(Boolean),
+      kinds: marks[id].kinds,
+      note: marks[id].note.trim(),
+    }
+  })
+  return JSON.stringify({ ...META, marked }, null, 2)
+}
+function flash(button, label) { const old = button.textContent; button.textContent = label; setTimeout(() => (button.textContent = old), 1200) }
+document.getElementById('copy').addEventListener('click', async (event) => {
+  const text = exportText()
+  try { await navigator.clipboard.writeText(text); flash(event.target, '복사됨') }
+  catch {
+    const area = Object.assign(document.createElement('textarea'), { value: text }); document.body.append(area); area.select()
+    const ok = document.execCommand('copy'); area.remove(); flash(event.target, ok ? '복사됨' : '실패')
+  }
+})
+document.getElementById('save').addEventListener('click', () => {
+  const link = Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([exportText()], { type: 'application/json' })), download: 'voicevox-feedback.json' })
+  link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000)
 })
 </script>
 </html>
